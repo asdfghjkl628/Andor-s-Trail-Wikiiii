@@ -303,8 +303,8 @@ def write_version_pages(hist, write, names, version, page_exists):
     if not hist: return
     vs = hist['versions']
     L = ["# Version history\n\nWhat every release of Andor's Trail changed, worked out by comparing the game's own data "
-         f"release by release, from v{hist['first']} to v{vs[-1]}. Older versions still show up in search results, so if "
-         "something you read elsewhere doesn't match your game, the answer is probably here.\n\n"
+         f"release by release, from v{hist['first']} to v{vs[-1]}. Information found elsewhere may describe an older version; "
+         "the pages below show what changed and when.\n\n"
          "![Content growth](../assets/charts/growth.png)\n\n"
          "| Version | New journal quests | New items | New monsters & NPCs | New maps | Dialogue lines added / changed |\n|---|---|---|---|---|---|\n"]
     for v in reversed(vs):

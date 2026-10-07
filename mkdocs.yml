@@ -1,4 +1,5 @@
 site_name: Andor's Trail Wiki
+site_url: https://asdfghjkl628.github.io/Andor-s-Trail-Wikiiii/
 site_description: Always-current reference for Andor's Trail, generated from the game's open-source data.
 theme:
   name: material
@@ -23,8 +24,9 @@ markdown_extensions:
   - toc: { permalink: true }
 nav:
   - Home: index.md
+  - Where is…?: where.md
   - Items: items/index.md
-  - Monsters: monsters/index.md
+  - Monsters & NPCs: monsters/index.md
   - Stats & Skills:
       - Overview: skills/index.md
       - Stat glossary: skills/stats.md
@@ -32,7 +34,7 @@ nav:
   - Strategy:
       - strategy/index.md
       - Levelling & skill points: strategy/levelling.md
-      - Combat tips: strategy/combat.md
+      - Combat: strategy/combat.md
   - Quests: quests/index.md
   - World map: maps/index.md
   - Version history: versions/index.md

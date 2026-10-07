@@ -184,8 +184,8 @@ class QuestGraph:
 
 # ---------------------------------------------------------------- quest pages
 def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, verified=lambda w, v: ''):
-    L = ["# Quests\n\nEvery quest that shows up in your journal, plus, at the bottom, the hidden story flags the game uses to keep track of you without telling you. "
-         "Each quest page shows what starts it, what each stage needs, what it unlocks and what it locks you out of.\n\n"
+    L = ["# Quests\n\nEvery quest that appears in the journal, followed by the hidden story flags the game uses internally to track progress. "
+         "Each quest page shows what starts it, what each stage needs, what it unlocks and what it prevents.\n\n"
          "| Quest | Stages | Starts with |\n|---|---|---|\n"]
     hidden_rows = []
     for qid, q in sorted(G.quests.items(), key=lambda kv: kv[1].get('name', kv[0]).lower()):
@@ -205,10 +205,15 @@ def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, ve
         related = {p for p, _, _ in G.needs[qid] | G.blocked[qid]} | {x for x, _, _ in G.unlocks[qid] | G.blocks[qid]}
         mutual = {p for p, _, _ in G.blocked[qid]} & {x for x, _, _ in G.blocks[qid]}
 
-        P = [f"# {q.get('name', qid)}\n\n"]
+        _intro = next((s_.get('logText') for s_ in sorted(stages, key=lambda s_: s_.get('progress', 0)) if s_.get('logText')), '')
+        _start = G.who(starters[:1]) if starters else ''
+        _d = (f"{q.get('name', qid)} is a{' hidden' if not visible else ''} quest in Andor's Trail" + (f", started by {_start}" if _start else '') +
+              f". {len(stages)} stages" + (f", {xp:,} XP in total" if xp else '') + ". " + _intro)
+        _d = ' '.join(re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', _d).split())
+        P = ['---\ndescription: ' + __import__('json').dumps(_d[:297] + ('…' if len(_d) > 297 else ''), ensure_ascii=False) + '\n---\n\n', f"# {q.get('name', qid)}\n\n"]
         if not visible:
-            P.append("!!! info \"Hidden story flag\"\n    An internal quest the game uses to track your progress behind the scenes. "
-                     "It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.\n\n")
+            P.append("!!! info \"Hidden story flag\"\n    An internal quest the game uses to track progress. "
+                     "It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.\n\n")
         info = [('Quest ID', f"`{qid}`"), ('In journal', 'Yes' if visible else 'No (hidden flag)'),
                 ('Stages', f"{len(stages)}" + (f" (completes at {', '.join(map(str, done))})" if done else '')),
                 ('Started by', G.who(starters[:2]) if starters else None),
@@ -282,8 +287,8 @@ def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, ve
                      f"| {', '.join(sorted(needs)) or '–'} | {'<br>'.join(dict.fromkeys(rew)) or '–'} |\n")
         if untraced:
             P.append(f"\n<span id=\"untraced\"></span>*No trigger*: as of v{VERSION}, nothing in the game's dialogue, maps or code sets this stage. "
-                     "It may be unused or unfinished content, or set in a way this wiki can't trace yet. "
-                     "That doesn't make it a secret: treat anything you hear about it as speculation.\n")
+                     "It may be unused or unfinished content, or set in a way this wiki cannot yet trace. "
+                     "Claims about how to reach it should be treated as unverified.\n")
         P.append(verified("quest, dialogue and map data", VERSION))
 
         # ---- every dialogue route to every stage (preserves alternative paths)
@@ -330,13 +335,13 @@ def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, ve
         row = f"| [{_md(q.get('name', qid))}]({qid}.md) | {len(stages)} | {who0} |\n"
         (L if visible else hidden_rows).append(row)
     if hidden_rows:
-        L.append("\n## Hidden story flags\n\nInternal progress trackers that never appear in your journal, but quietly decide which doors open "
-                 "and which events fire. The names were not written with human readers in mind.\n\n| Flag | Stages | Set by |\n|---|---|---|\n" + ''.join(hidden_rows))
+        L.append("\n## Hidden story flags\n\nInternal progress trackers that do not appear in the journal but determine which areas open "
+                 "and which events occur. The names are internal identifiers.\n\n| Flag | Stages | Set by |\n|---|---|---|\n" + ''.join(hidden_rows))
     write('quests/index.md', ''.join(L).replace('](../monsters/', '](../monsters/'))
 
 
 # ---------------------------------------------------------------- NPC dialogue section (appended to monster pages)
-def npc_section(G, mid, notes, history=None):
+def npc_section(G, mid, notes, history=None, prefix='', with_notes=True, listed=None):
     m = G.monsters[mid]
     rp = m.get('phraseID')
     if rp not in G.convs: return ''
@@ -345,13 +350,13 @@ def npc_section(G, mid, notes, history=None):
                          key=lambda q: G.quests[q].get('name', q))
     vis = [q for q in quests_here if G.quests[q].get('showInLog', 0)]
     if quests_here:
-        out.append("## Quests\n\n" + ''.join(f"- {G.qlink(q)}: stages " + ', '.join(
-            str(s) for (qq, s), cids in sorted(G.triggers.items()) if qq == q and any(rp in G.paths.get(c, {}) for c in cids)) + "\n"
+        out.append("## Quests\n\n" + ''.join(f"- {G.qlink(q)}: " + (lambda st: ("stage " if len(st) == 1 else "stages ") + ', '.join(st))([
+            str(s) for (qq, s), cids in sorted(G.triggers.items()) if qq == q and any(rp in G.paths.get(c, {}) for c in cids)]) + "\n"
             for q in (vis + [q for q in quests_here if q not in vis])[:30]) + "\n")
     out.append("## Dialogue simulator\n\n"
-               "Set up your situation (quest stages, items, kills…), then talk to "
-               f"{_md(m.get('name', mid))}. The simulator follows the game's own rules: it takes the same silent checks, "
-               "offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.\n\n"
+               "Set the quest stages, items and other conditions that apply to your game, then start the conversation with "
+               f"{_md(m.get('name', mid))}. The simulator applies the game's own rules: it performs the same silent checks, "
+               "offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.\n\n"
                f'<div class="dlg-sim" data-src="../../assets/dialogue/{rp}.json" data-npc="{html.escape(m.get("name", mid))}" markdown="0">'
                '<noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>\n\n')
     out.append(f"<p class=\"verified\">Rules verified against v{G.c.get('VERSION', '')} game code (ConversationController.java) and dialogue data.</p>\n\n")
@@ -361,13 +366,13 @@ def npc_section(G, mid, notes, history=None):
         x = dq.popleft(); order.append(x)
         for r in G.convs[x].get('replies') or []:
             n = r.get('nextPhraseID')
-            if n in G.convs and n not in seen: seen.add(n); dq.append(n)
+            if n in G.convs and n not in seen and not (listed and n in listed): seen.add(n); dq.append(n)
     shown = set(order)
     D = []
     for x in order:
         c = G.convs[x]
         rw = G.rewards(c)
-        head = f"<span id=\"d-{x}\"></span>**`{x}`** "
+        head = f"<span id=\"d-{prefix}{x}\"></span>**`{x}`** "
         if c.get('message'): head += f"{_md(m.get('name', mid)) if not c.get('switchToNPC') else G.mlink(c['switchToNPC'])}: “{_short(c['message'], 240)}”"
         else: head += "*(silent check: the first matching branch below is taken)*"
         if rw: head += f" — **effects:** {', '.join(rw)}"
@@ -376,15 +381,20 @@ def npc_section(G, mid, notes, history=None):
             n, t = r.get('nextPhraseID', ''), (r.get('text') or '').strip()
             label = ('Next' if t == 'N' else f"“{_short(t, 120)}”") if t else f"branch {i}"
             cond = '; '.join(G.req(r2) for r2 in r.get('requires') or [])
-            tgt = (f"[{n}](#d-{n})" if n in shown else (f"`{n}`" if n in G.convs else f"*{SPECIAL.get(n, n or 'ends')}*"))
+            tgt = (f"[{n}](#d-{prefix}{n})" if n in shown else f"[{n}](#d-{listed[n]}{n}) (listed above)" if listed and n in listed else (f"`{n}`" if n in G.convs else f"*{SPECIAL.get(n, n or 'ends')}*"))
             D.append(f"    - {label}" + (f" *(if {cond})*" if cond else '') + f" → {tgt}\n")
         D.append("\n")
     total = len([1 for _ in seen]) if len(order) < MAX_DIALOGUE_NODES else None
-    out.append(f"??? quote \"Dialogue ({len(order)} lines{'+' if total is None else ''})\"\n\n"
+    if listed is not None and rp in listed:
+        out.append(f"The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [{rp}](#d-{listed[rp]}{rp}).\n\n")
+        D = None
+    elif listed is not None:
+        for x in order: listed.setdefault(x, prefix)
+    if D is not None: out.append(f"??? quote \"Dialogue ({len(order)} lines{'+' if total is None else ''})\"\n\n"
                "    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*\n\n" + ''.join(D) +
                ("    *Dialogue continues beyond this point (truncated).*\n" if total is None else '') + "\n")
     if history: out.append(history('monsters', mid, G.root_nodes.get(rp, ()), ''))
-    out.append(notes('monsters', mid, m.get('name', mid)))
+    if with_notes: out.append(notes('monsters', mid, m.get('name', mid)))
     return ''.join(out)
 
 

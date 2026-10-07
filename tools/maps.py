@@ -235,8 +235,8 @@ def build_maps(ctx):
         canvas.save(os.path.join(DOCS, 'assets', 'maps', f'_world_{seg_id}.webp'), 'WEBP', quality=70)
         seg_md.append((len(entries), f'\n## {_pretty(seg_id)}\n\n<div class="map-wrap world" markdown="0"><img src="../assets/maps/_world_{seg_id}.webp" alt="{seg_id}" loading="lazy">{"".join(zones)}</div>\n'))
     seg_md.sort(key=lambda s: -s[0])
-    idx = [f"# World map\n\nEvery region of v{ctx['VERSION']}, stitched together from the game's own map files. "
-           "Hover over a piece to see its name; click it to go there. Walking the real thing takes considerably longer.\n"] + [s[1] for s in seg_md]
+    idx = [f"# World map\n\nEvery region of v{ctx['VERSION']}, assembled from the game's own map files. "
+           "Hover over a map to see its name, and click it to open that map's page.\n"] + [s[1] for s in seg_md]
     idx.append("\n## All maps (A–Z)\n\n" + ''.join(f"- [{_pretty(m)}]({m}.md)\n" for m in sorted(parsed)))
     ctx['write']('maps/index.md', ''.join(idx))
 
@@ -414,7 +414,7 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
         # ---------- numbered key: exits, NPCs, then points of interest
         key, pins = [], []
         key_num, pin_xy = {}, []
-        def add_pin(kind, x, y, what, detail):
+        def add_pin(kind, x, y, what, detail, anchor=None):
             """Identical points (same thing, same details) share one number; each spot still gets a pin."""
             n = key_num.get((what, detail))
             if n is None:
@@ -432,12 +432,12 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
                 x = min(W - 10, max(10, x0 + rad * __import__('math').cos(ang)))
                 y = min(H - 10, max(10, y0 + rad * __import__('math').sin(ang)))
             pin_xy.append((x, y))
-            pins.append(f'<a class="pin pin-{kind}" href="#key-{n}" style="{pctp(x, y)}" title="{_esc(re.sub(r"[\\[\\]]|\\(\\.\\./[^)]*\\)", "", what + ": " + detail))}">{n}</a>')
+            pins.append(f'<a{f' id="{anchor}"' if anchor else ''} class="pin pin-{kind}" href="#key-{n}" style="{pctp(x, y)}" title="{_esc(re.sub(r"[\\[\\]]|\\(\\.\\./[^)]*\\)|\\([^)\\s]*\\.md[^)\\s]*\\)", "", what + ": " + detail))}">{n}</a>')
             return n
         conn = defaultdict(list)
         for e in sorted(pg['exits'], key=lambda e: (DIR_ORDER.index(d) if (d := exit_direction(pg, e, pages)) in DIR_ORDER else 99, e['dest'])):
             d = exit_direction(pg, e, pages)
-            n = add_pin('exit', e['x'], e['y'], f"Exit ({d.lower()})", f"to [{_pretty(e['dest'])}](../{e['dest']}.md)")
+            n = add_pin('exit', e['x'], e['y'], f"Exit ({d.lower()})", f"to [{_pretty(e['dest'])}]({e['dest']}.md)")
             if n not in conn[(d, e['dest'])]: conn[(d, e['dest'])].append(n)
         npc_num = {}
         for x in npcs:
@@ -446,7 +446,7 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
             if x in shopkeepers: role.append('shopkeeper')
             vq = [q for q in npc_quests[x] if QG.quests[q].get('showInLog', 0)]
             if vq: role.append(f"{len(vq)} quest{'s' if len(vq) != 1 else ''}")
-            npc_num[x] = add_pin('npc', px, py, f"[{md(monsters[x].get('name', x))}](../../monsters/{x}.md)", ', '.join(role) or 'NPC')
+            npc_num[x] = add_pin('npc', px, py, f"[{md(monsters[x].get('name', x))}](../../monsters/{x}.md)", ', '.join(role) or 'NPC', anchor=f"pin-npc-{x}")
         for p in pg['pois']:
             add_pin(p['kind'], p['x'], p['y'], p['label'], p.get('detail', ''))
         num_of_poi = {id(p): i for i, p in enumerate(pg['pois'])}
@@ -490,7 +490,11 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
         legend = ''.join(f'<label class="lg"><input type="checkbox" data-t="{k}"{" checked" if on else ""}>'
                          f'<span class="sw sw-{k}"></span><b>{color}</b>&nbsp;{label}</label>' for k, color, label, on in LEGEND + PIN_LEGEND)
         hidden = ' '.join(f'hide-{k}' for k, _, _, on in LEGEND + PIN_LEGEND if not on)
-        P = [f"# {_pretty(m)}\n\n",
+        _d = (f"{_pretty(m)} is {'an outdoor' if pg['outdoors'] else 'an indoor'} location in Andor's Trail" + (f", {region[0].lower() + region[1:]}" if region else '') + ". "
+              + (f"NPCs: {', '.join(monsters[x].get('name') or x for x in npcs[:5])}. " if npcs else '')
+              + (f"Enemies: {', '.join(dict.fromkeys(monsters[x].get('name') or x for x in enemies[:5]))}. " if enemies else '')
+              + (f"Exits to {', '.join(_pretty(d) for d in dests[:4])}." if dests else ''))
+        P = ['---\ndescription: ' + __import__('json').dumps(_d[:297] + ('…' if len(_d) > 297 else ''), ensure_ascii=False) + '\n---\n\n', f"# {_pretty(m)}\n\n",
              '<div class="infobox" markdown>\n\n| | |\n|---|---|\n' + ''.join(f"| **{a}** | {b} |\n" for a, b in info if b) + '\n</div>\n\n',
              overview + "\n\n",
              "## Map\n\n",
@@ -510,6 +514,7 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
         if npcs:
             P.append("## NPCs\n\n" + ''.join(
                 f"- [{md(monsters[x].get('name', x))}](../monsters/{x}.md)" + (" — shopkeeper" if x in shopkeepers else '') +
+                (" — can be fought" if ctx.get('kind_of') and ctx['kind_of'](x) == 'NPC/Enemy' else '') +
                 (f" — quests: {', '.join(QG.qlink(q, None, '../quests/') for q in sorted(npc_quests[x], key=lambda q: QG.quests[q].get('name', q)) if QG.quests[q].get('showInLog', 0))}"
                  if any(QG.quests[q].get('showInLog', 0) for q in npc_quests[x]) else '') +
                 (f" (#{npc_num[x]})" if npc_num.get(x) else '') + "\n" for x in npcs) + "\n")

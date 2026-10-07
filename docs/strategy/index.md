@@ -1,10 +1,14 @@
+---
+description: "Strategy guides for Andor's Trail: how to allocate level-ups and skill points, and how combat statistics interact in practice."
+---
+
 # Strategy
 
-Advice on getting the most out of your hero. Unlike the rest of this wiki, these pages are **written by hand**. The numbers come straight from the game's code (v0.8.18); the opinions are just opinions. If you disagree, you might even be right.
+Guidance on developing a strong character in Andor's Trail. Unlike most of this wiki, these pages are **written by hand**. The figures are taken from the game's code (v0.8.18); the recommendations are the editors' assessment and other approaches are possible.
 
 <div class="grid cards" markdown>
 
-- **[Levelling & skill points](levelling.md)**<br>Where your level-ups and your painfully scarce skill points should go, and when.
-- **[Combat tips](combat.md)**<br>Accuracy, armor, crits and attacks per turn, plus how to stop hitting armored monsters for 0.
+- **[Levelling & skill points](levelling.md)**<br>How to allocate level-ups and skill points, and in what order.
+- **[Combat](combat.md)**<br>Accuracy, damage resistance, critical hits and attacks per turn.
 
 </div>

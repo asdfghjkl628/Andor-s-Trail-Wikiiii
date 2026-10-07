@@ -49,8 +49,8 @@ class Notes:
     def __call__(self, kind, oid, title=''):
         path, found = self._read(kind, oid)
         link = self._link(kind, oid, bool(path))
-        invite = (f"*Nothing here yet. Know something? [Add it]({link}).*" if link
-                  else f"*Nothing here yet. Add it in `notes/{kind}/{oid}.md`.*")
+        invite = (f"*No notes yet. Contributions are welcome: [add a note]({link}).*" if link
+                  else f"*No notes yet. Notes can be added in `notes/{kind}/{oid}.md`.*")
         out = ["\n## Community notes\n\n<small>Written by players, not generated from game data. "
                + ' · '.join(f"**{s}**: {HINTS[s]}" for s in SECTIONS[kind]) + "</small>\n\n"]
         for s in SECTIONS[kind]:

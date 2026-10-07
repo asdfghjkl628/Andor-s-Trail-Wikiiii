@@ -10,7 +10,7 @@ res/values/loadresources.xml), cross-references it, and writes:
   docs/changelog.md    - prepended with a diff vs. the previous snapshot
 """
 import json, os, re, sys, glob, shutil, html, math
-from collections import defaultdict
+from collections import defaultdict, Counter
 import xml.etree.ElementTree as ET
 
 REPO, VERSION = sys.argv[1], sys.argv[2]
@@ -141,17 +141,28 @@ for mid, m in monsters.items():
     group_to_monsters[m.get('spawnGroup', mid)].append(mid)
 
 # shopkeepers: NPCs whose dialogue can reach the shop screen ("S")
-def reaches_shop(start, limit=400):
+def reaches(start, target, limit=5000):
     seen, stack = set(), [start]
     while stack and len(seen) < limit:
         pid = stack.pop()
-        if pid == 'S': return True
+        if pid == target: return True
         if pid in seen or pid not in conversations: continue
         seen.add(pid)
         for r in conversations[pid].get('replies', []) or []:
             if r.get('nextPhraseID'): stack.append(r['nextPhraseID'])
     return False
+def reaches_shop(start, limit=400): return reaches(start, 'S', limit)
 shopkeepers = {mid for mid, m in monsters.items() if m.get('phraseID') and reaches_shop(m['phraseID'])}
+# NPCs that can be fought (Monster.isAgressive): a conversation that reaches "F" starts combat (endConversationWithCombat),
+# and an NPC whose faction the player's standing can drop below 0 becomes hostile (Player.getAlignment(faction) < 0).
+_neg_factions = {r.get('rewardID') for c in conversations.values() for r in (c.get('rewards') or [])
+                 if r.get('rewardType') in ('alignmentChange', 'alignmentSet') and (r.get('value') or 0) < 0}
+fight_by_dialogue = {mid for mid, m in monsters.items() if m.get('phraseID') and reaches(m['phraseID'], 'F')}
+fight_by_faction = {mid for mid, m in monsters.items() if m.get('phraseID') and m.get('faction') in _neg_factions}
+def kind_of(mid):
+    """Enemy: hostile on sight. NPC: has a conversation and can never be attacked. NPC/Enemy: has a conversation but can become hostile."""
+    if not monsters[mid].get('phraseID'): return 'Enemy'
+    return 'NPC/Enemy' if mid in fight_by_dialogue or mid in fight_by_faction else 'NPC'
 sold_by = defaultdict(list)
 # drops: item -> [(monster, chance, qty)]
 dropped_by = defaultdict(list)
@@ -365,6 +376,44 @@ def prof_skill(cat_id):
     return None
 WEAPON_PROF = None
 
+# ---- NPC roles: shopkeeper, skill trainer, quest giver (who sets a journal quest's first stage)
+trainer_of, giver_of = defaultdict(set), defaultdict(set)
+for sid, cids in skill_sources.items():
+    for cid in cids:
+        for rt in QG.routes(cid):
+            for k, x in rt['speakers']:
+                if k == 'npc': trainer_of[x].add(sid)
+for qid, q in quests.items():
+    if not q.get('showInLog', 0): continue
+    first = min((st for (qq, st) in QG.triggers if qq == qid), default=None)
+    if first is None: continue
+    for cid in QG.triggers[(qid, first)]:
+        for rt in QG.routes(cid):
+            for k, x in rt['speakers']:
+                if k == 'npc': giver_of[x].add(qid)
+npc_variants = defaultdict(list)
+for _mid, _m in monsters.items():
+    if _m.get('phraseID') and (_m.get('name') or '').strip(): npc_variants[_m['name'].strip()].append(_mid)
+def front(desc):
+    """YAML front matter: Material for MkDocs uses it as the page's <meta name="description"> (search-result snippet)."""
+    d = ' '.join(re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', str(desc)).split())
+    if len(d) > 300: d = d[:297].rsplit(' ', 1)[0] + '…'
+    return '---\ndescription: ' + json.dumps(d, ensure_ascii=False) + '\n---\n\n'
+def place_links(mid, n=4, pin=True):
+    """'Region: map' links for where a monster/NPC stands; NPC links jump to its pin on the labelled map."""
+    mps = sorted(spawn_maps.get(mid, ()), key=lambda mp: (region_of(mp) is None, region_of(mp) or '', mp))
+    out = [f"{region_of(mp) + ': ' if region_of(mp) else ''}[{mp}](../maps/{mp}.md{'#pin-npc-' + mid if pin else ''})" for mp in mps[:n]]
+    return ', '.join(out) + (f" (+{len(mps) - n} more)" if len(mps) > n else '')
+def role_text(mid, links=True):
+    r = []
+    if mid in shopkeepers: r.append('shopkeeper')
+    if trainer_of.get(mid):
+        r.append('teaches ' + ', '.join((f"[{skills[x]['name']}](../skills/{x}.md)" if links else skills[x]['name']) for x in sorted(trainer_of[mid]) if x in skills))
+    if giver_of.get(mid):
+        gq = sorted(giver_of[mid], key=lambda q: quests[q].get('name', q))
+        r.append('starts ' + ', '.join((f"[{quests[q].get('name', q)}](../quests/{q}.md)" if links else quests[q].get('name', q)) for q in gq[:4]) + (f" +{len(gq) - 4}" if len(gq) > 4 else ''))
+    return '; '.join(r)
+
 # ---------------------------------------------------------------- item pages
 item_rows = []
 for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).lower()):
@@ -377,7 +426,11 @@ for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).low
                                               if prof_skill(it.get('category')) else ('none (the game assigns no proficiency to this weapon type)' if is_weapon else None))),
             ('Rarity', it.get('displaytype', 'ordinary').capitalize()), ('Base value', f"{it.get('baseMarketCost', 0):,} gold"),
             ('Quest item', 'Yes' if it.get('displaytype') == 'quest' else None), ('Introduced', introduced('items', iid))]
-    L = [f"# {img(ic)} {it.get('name', iid)}\n\n", f"*{it.get('displaytype', 'ordinary').capitalize()} {c.get('name', '').lower() or 'item'}.*\n\n",
+    _src = [w for w, ok in (('monster drops', dropped_by.get(iid)), ('shops', sold_by.get(iid)), ('containers', in_containers.get(iid)), ('quests and dialogue', dialogue_gives.get(iid))) if ok]
+    _stats = ', '.join(f"{a} {b}" for a, b in effect_rows(it.get('equipEffect'))[:4])
+    L = [front(f"{it.get('name', iid)} is a {it.get('displaytype', 'ordinary')} {(c.get('name') or 'item').lower()} in Andor's Trail" + (f" ({_stats})" if _stats else '') + ". "
+               + (f"How to get it: {', '.join(_src)}. " if _src else '') + (it.get('description') or '')),
+         f"# {img(ic)} {it.get('name', iid)}\n\n", f"*{it.get('displaytype', 'ordinary').capitalize()} {c.get('name', '').lower() or 'item'}.*\n\n",
          infobox(info, '../../' + ic if ic else None)]
     if it.get('description'): L.append(f"> {it['description']}\n\n")
     stat_md = ''
@@ -434,7 +487,7 @@ for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).low
 groups = defaultdict(list)
 for it, c, ic in item_rows:
     groups[(item_kind(it), c.get('name', it.get('category', 'Uncategorized')))].append((it, ic))
-L = [f"# Items\n\nEvery item in Andor's Trail v{VERSION}, all {len(items)} of them. The search box is your friend; scrolling through this whole list is not.\n"]
+L = [f"# Items\n\nEvery item in Andor's Trail v{VERSION}, all {len(items)} of them. Items are grouped by type and category. Use the search box to find a specific item.\n"]
 for kind in ('Equipment', 'Consumable', 'Other'):
     L.append(f"\n## {kind}\n")
     for (k, cname), lst in sorted(groups.items()):
@@ -444,67 +497,191 @@ for kind in ('Equipment', 'Consumable', 'Other'):
             L.append(f"| {img(ic)} | [{md_esc(it.get('name', it['id']))}]({it['id']}.md) | {it.get('displaytype', 'ordinary')} | {it.get('baseMarketCost', 0)} |\n")
 write('items/index.md', ''.join(L))
 
-# ---------------------------------------------------------------- monster pages
-L = [f"# Monsters\n\nAll {len(monsters)} monsters and NPCs, sorted by HP, weakest first. The ones at the bottom of the list are there for a reason.\n\n"
-     "| | Name | Type | Class | HP | XP | Attack | AC | BC | DR |\n|---|---|---|---|---|---|---|---|---|---|\n"]
-for mid, m in sorted(monsters.items(), key=lambda kv: (kv[1].get('maxHP', 1), kv[1].get('name', ''))):
-    ic = icon(m.get('iconID'), 'monsters')
-    d = m.get('attackDamage') or {}
-    dmg = rng(d) if d else '0'
-    xp = monster_xp(m)
-    kind = 'Shopkeeper' if mid in shopkeepers else ('NPC' if m.get('phraseID') else 'Enemy')
-    ap, cost = m.get('maxAP', 10), m.get('attackCost', 10)
-    cs, cmul = m.get('criticalSkill', 0), m.get('criticalMultiplier', 0)
-    can_crit = cs > 0 and cmul not in (0, 1)
-    immune = m.get('monsterClass') in ('ghost', 'construct', 'demon')
-    info = [('Monster ID', f"`{mid}`"), ('Type', kind), ('Class', (m.get('monsterClass') or '?').capitalize()), ('HP', m.get('maxHP', 1)),
-            ('XP when killed', f"{xp:,}" if kind == 'Enemy' or m.get('maxHP', 1) > 1 else None),
-            ('Found in', where(mid) or None), ('Immune to crits', 'Yes' if immune else None), ('Introduced', introduced('monsters', mid))]
-    stats = [('HP', m.get('maxHP', 1)), ('Damage', dmg), ('Attack chance', m.get('attackChance', 0)), ('Block chance', m.get('blockChance', 0)),
-             ('Damage resistance', m.get('damageResistance', 0)), ('Max AP', ap), ('Attack cost', f"{cost} AP"),
-             ('Attacks per turn', ap // cost if cost else 0), ('Move cost', f"{m.get('moveCost', 10)} AP"),
-             ('Critical skill', cs), ('Critical multiplier', cmul or '–'),
-             ('Crit chance', f"{crit_pct(cs)}%" if can_crit else 'none (needs critical skill and a multiplier)')]
-    P = [f"# {img(ic)} {(m.get('name') or mid)}\n\n", infobox(info, '../../' + ic if ic else None),
-         "## Combat stats\n\n| Stat | Value |\n|---|---|\n" + ''.join(f"| {a} | {b} |\n" for a, b in stats)]
-    if immune: P.append("\n!!! note \"Immune to critical hits\"\n    Ghosts, constructs and demons can't be critically hit. Your crit build will have to sit this one out.\n")
-    for title, key in (('On hit', 'hitEffect'), ('When hit', 'hitReceivedEffect'), ('On death', 'deathEffect')):
-        if m.get(key): P.append(f"\n**{title}:** " + '; '.join(f"{a}: {md_esc(b)}" for a, b in effect_rows(m[key])) + "\n")
-    P.append(f"\n**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.\n")
-    P.append(H.verified("monster data and game code (`MonsterTypeParser.java`)", VERSION))
+# ---------------------------------------------------------------- monster & NPC pages
+# One page per character name. The game data often defines several entries with the same name (one per location,
+# story stage or behaviour); they are combined here, with a section per entry. Links to the other entry IDs are
+# rewritten to point at the combined page (see the end of this script).
+def _vsort(x):   # natural order of entry IDs (agent2 before agent10); entries not placed on a map go last
+    return (not spawn_maps.get(x), [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', x)])
+from maps import _pretty
+name_groups = defaultdict(list)
+for _mid, _m in monsters.items(): name_groups[(_m.get('name') or '').strip() or _mid].append(_mid)
+canon_of, group_ids = {}, {}
+for _nm, _ids in name_groups.items():
+    _slug = re.sub(r'[^a-z0-9]', '', _nm.lower())
+    _c = min(_ids, key=lambda x: (re.sub(r'[^a-z0-9]', '', x.lower()) != _slug, not spawn_maps.get(x), len(x), x))
+    group_ids[_c] = [_c] + sorted((x for x in _ids if x != _c), key=_vsort)
+    for x in _ids: canon_of[x] = _c
+def group_kind(ids):
+    ks = {kind_of(x) for x in ids}
+    return ks.pop() if len(ks) == 1 else 'NPC/Enemy'
+def fight_reason(mid):
+    m = monsters[mid]
+    if mid in fight_by_dialogue: return "a conversation with this character can end in combat (a dialogue branch leads to a fight)"
+    if mid in fight_by_faction: return f"this character belongs to the faction `{m.get('faction')}`, and the game treats members of a faction as hostile once your standing with that faction drops below zero"
+    return ''
+def span(vals, fmt=str):
+    vals = sorted(set(vals))
+    return '–' if not vals else (fmt(vals[0]) if len(vals) == 1 else f"{fmt(vals[0])}–{fmt(vals[-1])}")
+TYPE_HELP = {'Enemy': 'hostile on sight', 'NPC': 'can be spoken to; cannot be attacked', 'NPC/Enemy': 'can be spoken to, but can also be fought'}
+_ENTRY_FIELDS = (('conversation', ('phraseID',)), ('location', None), ('combat statistics', ('maxHP', 'attackDamage', 'attackChance', 'blockChance', 'damageResistance', 'maxAP', 'attackCost', 'criticalSkill', 'criticalMultiplier')),
+                 ('loot or shop stock', ('droplistID',)), ('faction', ('faction',)), ('appearance', ('iconID',)), ('movement', ('movementAggressionType',)))
+def entry_differences(ids):
+    out = []
+    for label, keys in _ENTRY_FIELDS:
+        vals = {tuple(sorted(spawn_maps.get(x, ()))) for x in ids} if keys is None else {json.dumps([monsters[x].get(k) for k in keys], sort_keys=True) for x in ids}
+        if len(vals) > 1: out.append(label)
+    return out
+def var_label(x):
+    mps = sorted(spawn_maps.get(x, ()), key=lambda mp: (region_of(mp) is None, region_of(mp) or '', mp))
+    if not mps: return 'Not placed on a map'
+    return (f"{region_of(mps[0])}, {_pretty(mps[0])}" if region_of(mps[0]) else _pretty(mps[0])) + (f" and {len(mps) - 1} more" if len(mps) > 1 else '')
+def demote(md):
+    return re.sub(r'(?m)^(#{2,5}) ', lambda mm: mm.group(1) + '# ', md)
+
+XP_NOTE = ("??? info \"How the XP value is calculated\"\n\n"
+           "    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):\n\n"
+           "    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉\n\n"
+           "    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.\n\n")
+
+def variant_body(x, multi, shown_convs):
+    m = monsters[x]; k = kind_of(x)
+    P = []
+    if multi:
+        bits = [f"**Entry ID:** `{x}`", f"**Type:** {k}"] + ([f"**Role:** {role_text(x)[:1].upper() + role_text(x)[1:]}"] if role_text(x) else [])
+        P.append(' · '.join(bits) + "\n\n")
+        P.append((f"**Location:** {place_links(x, 6, pin=bool(m.get('phraseID')))}" if spawn_maps.get(x) else
+                  "**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.") + "\n\n")
+    if k == 'NPC/Enemy': P.append(f"!!! warning \"Can be fought\"\n    This entry can be talked to, but it can also become an opponent: {fight_reason(x)}.\n\n")
+    if k == 'NPC/Enemy' and 'maxHP' not in m:
+        P.append("No combat statistics are defined for this entry in the game data. Where the story leads to a fight, the game normally uses a separate hostile entry"
+                 + (" (listed on this page)" if multi else '') + ".\n\n")
+    elif k != 'NPC':
+        d = m.get('attackDamage') or {}
+        ap, cost = m.get('maxAP', 10), m.get('attackCost', 10)
+        cs, cmul = m.get('criticalSkill', 0), m.get('criticalMultiplier', 0)
+        stats = [('Class', (m.get('monsterClass') or 'humanoid').capitalize()), ('HP', m.get('maxHP', 1)), ('XP when defeated', f"{monster_xp(m):,}"),
+                 ('Damage', rng(d) if d else '0'), ('Attack chance', m.get('attackChance', 0)), ('Block chance', m.get('blockChance', 0)),
+                 ('Damage resistance', m.get('damageResistance', 0)), ('Max AP', ap), ('Attack cost', f"{cost} AP"),
+                 ('Attacks per turn', ap // cost if cost else 0), ('Move cost', f"{m.get('moveCost', 10)} AP"), ('Critical skill', cs),
+                 ('Critical multiplier', cmul or '–'),
+                 ('Critical hit chance', f"{crit_pct(cs)}%" if cs > 0 and cmul not in (0, 1) else 'None (requires both critical skill and a critical multiplier)')]
+        P.append("## Combat statistics\n\n| Statistic | Value |\n|---|---|\n" + ''.join(f"| {a} | {b} |\n" for a, b in stats) + "\n")
+        if m.get('monsterClass') in ('ghost', 'construct', 'demon'):
+            P.append("!!! note \"Immune to critical hits\"\n    Ghosts, constructs and demons cannot receive critical hits.\n\n")
+        for title, key in (('On hit', 'hitEffect'), ('When hit', 'hitReceivedEffect'), ('On death', 'deathEffect')):
+            if m.get(key): P.append(f"**{title}:** " + '; '.join(f"{a}: {md_esc(b)}" for a, b in effect_rows(m[key])) + "\n\n")
+        P.append(H.verified("monster data and game code (`MonsterTypeParser.java`)", VERSION))
     dl = droplists.get(m.get('droplistID'))
-    if dl:
-        P.append("\n## " + ("Shop stock" if mid in shopkeepers else "Drops") + "\n\n| Item | Chance | Qty |\n|---|---|---|\n")
-        for e in dl.get('items', []):
-            q = e.get('quantity', {})
-            P.append(f"| {link('items', e['itemID'], items.get(e['itemID'], {}).get('name', e['itemID']))} | {chance_txt(e.get('chance'))} | {rng(q)} |\n")
+    if dl and (x in shopkeepers or k != 'NPC'):
+        P.append("## " + ("Shop stock" if x in shopkeepers else "Drops") + "\n\n| Item | Chance | Qty |\n|---|---|---|\n" + ''.join(
+            f"| {link('items', e['itemID'], items.get(e['itemID'], {}).get('name', e['itemID']))} | {chance_txt(e.get('chance'))} | {rng(e.get('quantity', {}))} |\n"
+            for e in dl.get('items', [])) + "\n")
     locs = []
-    for mp in sorted(spawn_maps.get(mid, ())):
+    for mp in sorted(spawn_maps.get(x, ())):
         pg = _map_pages.get(mp)
         if not pg: continue
-        cnt = sum(qty for o, ms, act, qty in pg['spawns'] if mid in ms)
-        later = any(not act for o, ms, act, qty in pg['spawns'] if mid in ms)
-        locs.append(f"| [{mp}](../maps/{mp}.md) | {region_of(mp) or '–'} | {cnt} | {'appears later in a quest' if later else '–'} |\n")
-    if locs: P.append("\n## Locations\n\n| Map | Region | Up to | Notes |\n|---|---|---|---|\n" + ''.join(locs[:60]) + (f"\n*…and {len(locs) - 60} more maps.*\n" if len(locs) > 60 else '') + "\n")
-    if kill_reqs.get(mid):
+        cnt = sum(qty for o, ms, act, qty in pg['spawns'] if x in ms)
+        later = any(not act for o, ms, act, qty in pg['spawns'] if x in ms)
+        locs.append(f"| [{mp}](../maps/{mp}.md) | {region_of(mp) or '–'} | {cnt} | {'Appears later, during a quest' if later else '–'} |\n")
+    if locs and (k != 'NPC' or len(locs) > 1):
+        P.append("## Locations\n\n| Map | Region | Up to | Notes |\n|---|---|---|---|\n" + ''.join(locs[:60]) + (f"\n*{len(locs) - 60} further maps are not listed.*\n" if len(locs) > 60 else '') + "\n")
+    if kill_reqs.get(x):
         rows = []
-        for par, val, nxt in kill_reqs[mid]:
+        for par, val, nxt in kill_reqs[x]:
             qs = node_quests(nxt) or node_quests(par)
-            rows.append(f"- {QG.qlink(qs[0][0], qs[0][1]) if qs else 'A conversation'} with {speakers_md(par)} checks that you've killed at least {val}\n")
-        P.append("\n## Quests that count kills\n\n" + ''.join(list(dict.fromkeys(rows))[:20]) + "\n")
-    if m.get('phraseID'): P.append('\n' + npc_section(QG, mid, notes, hist_md))
+            rows.append(f"- {QG.qlink(qs[0][0], qs[0][1]) if qs else 'A conversation'} with {speakers_md(par)} checks that {'this enemy has' if val == 1 else f'at least {val} of these enemies have'} been defeated.\n")
+        P.append("## Quests that count defeats\n\n" + ''.join(list(dict.fromkeys(rows))[:20]) + "\n")
+    rp = m.get('phraseID')
+    if rp:
+        P.append(npc_section(QG, x, notes, hist_md, prefix=(x + '-') if multi else '', with_notes=False, listed=shown_convs))
     else:
-        P.append(hist_md('monsters', mid)); P.append(notes('monsters', mid, (m.get('name') or mid)))
-    tech = [('Monster ID', f"`{mid}`"), ('Spawn group', f"`{m.get('spawnGroup', mid)}`"), ('Loot table', f"`{m.get('droplistID')}`" if m.get('droplistID') else '–'),
-            ('Conversation', f"`{m.get('phraseID')}`" if m.get('phraseID') else '–'), ('Faction', f"`{m.get('faction')}`" if m.get('faction') else '–'),
+        P.append(hist_md('monsters', x))
+    tech = [('Entry ID', f"`{x}`"), ('Spawn group', f"`{m.get('spawnGroup', x)}`"), ('Loot table', f"`{m.get('droplistID')}`" if m.get('droplistID') else '–'),
+            ('Conversation', f"`{rp}`" if rp else '–'), ('Faction', f"`{m.get('faction')}`" if m.get('faction') else '–'),
             ('Movement', m.get('movementAggressionType', '–')), ('Icon', f"`{m.get('iconID', '–')}`"),
-            ('Defined in', f"`res/raw/{FILE_OF.get(('monsterlist', mid), '?')}`")]
-    P.append('\n??? info "Technical information"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech) +
+            ('Defined in', f"`res/raw/{FILE_OF.get(('monsterlist', x), '?')}`")]
+    P.append(f'\n??? info "Technical information{(" (" + x + ")") if multi else ""}"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech) +
              "\n    Raw data:\n\n" + raw_json(m) + '\n')
+    return ''.join(P)
+
+enemy_rows, npc_rows = [], []
+for c, ids in group_ids.items():
+    m = monsters[c]; nm = (m.get('name') or '').strip() or c
+    ic = icon(m.get('iconID'), 'monsters') or next((icon(monsters[x].get('iconID'), 'monsters') for x in ids if icon(monsters[x].get('iconID'), 'monsters')), None)
+    gk = group_kind(ids); multi = len(ids) > 1
+    fv = [x for x in ids if kind_of(x) != 'NPC']
+    fv = [x for x in fv if 'maxHP' in monsters[x]] or fv   # ranges use entries that define combat statistics
+    roles = '; '.join(dict.fromkeys(r for x in ids for r in [role_text(x)] if r))
+    roles_plain = '; '.join(dict.fromkeys(r for x in ids for r in [role_text(x, False)] if r))
+    cap = lambda t: t[:1].upper() + t[1:]
+    regs = ', '.join(dict.fromkeys(r for x in ids for r in [where(x)] if r))
+    intro_v = [introduced('monsters', x) for x in ids]
+    # meta description
+    if gk == 'Enemy':
+        _top = list(dict.fromkeys(items.get(e['itemID'], {}).get('name', e['itemID']) for x in ids for e in (droplists.get(monsters[x].get('droplistID')) or {}).get('items', [])))[:4]
+        desc = (f"{nm} is an enemy in Andor's Trail ({(m.get('monsterClass') or 'humanoid').lower()}) with "
+                f"{span([monsters[x].get('maxHP', 1) for x in fv])} HP, worth {span([monster_xp(monsters[x]) for x in fv])} XP"
+                + (f", found in {regs}" if regs else '') + '.' + (f" Drops: {', '.join(_top)}." if _top else ''))
+    else:
+        desc = (f"{nm} is a{' non-player character (NPC)' if gk == 'NPC' else 'n NPC who can also be fought'} in Andor's Trail"
+                + (f", found in {regs}" if regs else '') + '. ' + (cap(roles_plain) + '.' if roles_plain else ''))
+    info = [('Type', f"{gk} ({TYPE_HELP[gk]})"), ('Role', cap(roles) or None), ('Found in', regs or None)]
+    if fv:
+        info += [('Class', ', '.join(dict.fromkeys((monsters[x].get('monsterClass') or 'humanoid').capitalize() for x in fv))),
+                 ('HP', span([monsters[x].get('maxHP', 1) for x in fv])), ('XP when defeated', span([monster_xp(monsters[x]) for x in fv], lambda v: f"{v:,}")),
+                 ('Immune to critical hits', 'Yes' if any(monsters[x].get('monsterClass') in ('ghost', 'construct', 'demon') for x in fv) else None)]
+    info += [('Entries in game data', len(ids) if multi else None), ('Entry ID', f"`{c}`" if not multi else None),
+             ('Introduced', intro_v[0] if not multi else (sorted(intro_v, key=lambda s: s if s.startswith('v') else '~')[0] if intro_v[0] else None))]
+    P = [front(desc), f"# {img(ic)} {nm}\n\n"]
+    if not multi:
+        if spawn_maps.get(c): P.append(f"**{'Found in' if gk == 'Enemy' else 'Where to find ' + md_esc(nm)}:** {place_links(c, pin=gk != 'Enemy')}\n\n")
+        elif gk != 'Enemy': P.append(f"**Where to find {md_esc(nm)}:** not placed on any map; appears through a quest or scripted event.\n\n")
+    P.append(infobox(info, '../../' + ic if ic else None))
+    if multi:
+        diffs = entry_differences(ids)
+        P.append(f"!!! info \"{len(ids)} entries in the game data\"\n"
+                 f"    The game's data files define {len(ids)} separate characters named {md_esc(nm)}. Andor's Trail stores a character as a new entry whenever it needs "
+                 "different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. "
+                 "Some entries represent the same person at different points in the story; others are different people who share a generic name. "
+                 + (f"Here the entries differ in: {', '.join(diffs)}. " if diffs else "These entries are identical apart from their IDs. ")
+                 + "This page combines them; each entry is described in its own section below.\n\n")
+        P.append("| Entry | Type | Location | Role |" + (" HP |" if fv else '') + "\n|---|---|---|---|" + ("---|" if fv else '') + "\n" + ''.join(
+            f"| [`{x}`](#v-{x}) | {kind_of(x)} | {place_links(x, 2, pin=bool(monsters[x].get('phraseID'))) or 'Not on a map'} | {role_text(x) or '–'} |"
+            + (f" {monsters[x].get('maxHP', 1) if kind_of(x) != 'NPC' else '–'} |" if fv else '') + "\n" for x in ids) + "\n")
+        shown = {}
+        for x in ids:
+            P.append(f"## {md_esc(var_label(x))} ({x}) {{ #v-{x} }}\n\n" + demote(variant_body(x, True, shown)) + "\n")
+    else:
+        P.append(variant_body(c, False, {}))
+    if fv: P.append("\n" + XP_NOTE)
+    P.append(notes('monsters', c, nm))
     P.append(f"\n<small>Data from v{VERSION}</small>\n")
-    write(f'monsters/{mid}.md', ''.join(P))
-    L.append(f"| {img(ic)} | [{md_esc((m.get('name') or mid))}]({mid}.md) | {kind} | {m.get('monsterClass', '?')} | {m.get('maxHP', 1)} | {xp:,} | {dmg} | {m.get('attackChance', 0)} | {m.get('blockChance', 0)} | {m.get('damageResistance', 0)} |\n")
-write('monsters/index.md', ''.join(L))
+    write(f'monsters/{c}.md', ''.join(P))
+    # index rows
+    if gk == 'NPC':
+        npc_rows.append((nm.lower(), f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {roles or '–'} | {regs or '–'} |\n"))
+    else:
+        fm = [monsters[x] for x in fv]
+        _dm = {json.dumps(mm.get('attackDamage') or {}, sort_keys=True) for mm in fm}
+        dmg_s = (rng(fm[0].get('attackDamage')) if fm[0].get('attackDamage') else '0') if len(_dm) == 1 else \
+            f"{min((mm.get('attackDamage') or {}).get('min', 0) for mm in fm)} to {max((mm.get('attackDamage') or {}).get('max', 0) for mm in fm)}"
+        enemy_rows.append(((min(mm.get('maxHP', 1) for mm in fm), nm.lower()),
+            f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {gk} | {', '.join(dict.fromkeys(mm.get('monsterClass') or 'humanoid' for mm in fm))} | {span([mm.get('maxHP', 1) for mm in fm])} | "
+            f"{span([monster_xp(mm) for mm in fm], lambda v: f'{v:,}')} | {dmg_s} | "
+            f"{span([mm.get('attackChance', 0) for mm in fm])} | {span([mm.get('blockChance', 0) for mm in fm])} | {span([mm.get('damageResistance', 0) for mm in fm])} |\n"))
+n_types = Counter(group_kind(ids) for ids in group_ids.values())
+write('monsters/index.md', front(f"Every enemy and non-player character in Andor's Trail v{VERSION}, with combat statistics, XP values, locations and roles.") +
+      f"# Monsters & NPCs\n\nThis index covers every character in Andor's Trail v{VERSION}: {n_types['Enemy']} enemies, {n_types['NPC/Enemy']} characters who can be "
+      f"spoken to and fought, and {n_types['NPC']} non-player characters (NPCs). The game data contains {len(monsters)} entries; entries that share a name are combined on one page.\n\n"
+      "| Type | Meaning |\n|---|---|\n| Enemy | Hostile on sight. |\n| NPC/Enemy | Can be spoken to, but can also be fought: a dialogue choice can start combat, "
+      "the character becomes hostile when your standing with its faction drops below zero, or another game entry with the same name is a hostile version of the character. |\n"
+      "| NPC | Can be spoken to and cannot be attacked, so it has no combat statistics. |\n\n"
+      "## Enemies\n\nSorted by HP, lowest first. Where several entries share a name, ranges are shown. AC = attack chance, BC = block chance, DR = damage resistance.\n\n"
+      "| | Name | Type | Class | HP | XP | Damage | AC | BC | DR |\n|---|---|---|---|---|---|---|---|---|---|\n" + ''.join(r for _, r in sorted(enemy_rows)) +
+      "\n## NPCs\n\nCharacters who cannot be attacked, in alphabetical order. The [Where is…?](../where.md) page lists them by location.\n\n"
+      "| | Name | Role | Found in |\n|---|---|---|---|\n" + ''.join(r for _, r in sorted(npc_rows)))
+_map_ctx['kind_of'] = kind_of
 
 write_map_pages(_map_pages, _map_ctx, QG, notes, shopkeepers, introduced)
 
@@ -778,10 +955,10 @@ level_body = f"""| Choice each level-up | Bonus |
 | Attack damage | +{LV['dmg']} min & max |
 | Block chance | +{LV['bc']} |
 
-Pick **one** per level-up. There's no respec, so choose like you mean it. These picks form your **base stats**, which are the only values skill requirements look at. Gear and skills don't count, however shiny.
+One bonus is chosen at each level-up, and the choice is permanent (the game has no way to reallocate it). These choices form your **base stats**, which are the only values that skill requirements check. Bonuses from equipment and skills do not count toward requirements.
 
-**Skill points:** levels {', '.join(map(str, sp_list))}. That's {len([l for l in sp_levels if l <= 50])} by level 50, and every one of them will feel like a hard decision.
-**Experience:** level L → L+1 costs {LV['exp_base']} × L². Quadratic growth, so the grind gets real.
+**Skill points:** levels {', '.join(map(str, sp_list))}. That is {len([l for l in sp_levels if l <= 50])} skill points by level 50.
+**Experience:** level L → L+1 costs {LV['exp_base']} × L². The cost grows with the square of the level.
 
 ![Experience needed per level]({CH}experience.png)
 
@@ -792,7 +969,7 @@ One point of [Fortitude](fortitude.md) at level 5 out-earns a health level-up by
 | Level | Total XP | XP to next |
 |---|---|---|
 {exp_rows}"""
-combat_body = f"""Every attack goes through the same four steps. No hidden dice, no secret modifiers; this is the whole thing. The [stat glossary]({G}) explains each stat.
+combat_body = f"""Every attack is resolved in the same four steps, described below. The [stat glossary]({G}) explains each stat.
 
 **1 · Hit?** `hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))`
 
@@ -805,14 +982,14 @@ combat_body = f"""Every attack goes through the same four steps. No hidden dice,
 {hit_rows}
 **2 · Damage:** random between min and max attack damage.
 
-**3 · Critical?** Only if you have critical skill above 0 **and** a critical multiplier, which comes from your weapon (or from [Way of the Monk](fightstyleUnarmedUnarmored.md) when fighting unarmed). No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
+**3 · Critical?** Only if you have critical skill above 0 **and** a critical multiplier, which comes from your weapon (or from [Way of the Monk](fightstyleUnarmedUnarmored.md) when fighting unarmed). Without a multiplier, critical skill has no effect. Ghosts, constructs and demons are immune to critical hits. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
 ![Crit chance curve]({CH}crit_chance.png)
 
 | Crit skill | Crit % |
 |---|---|
 {crit_rows}
-**4 · Armor:** the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.
+**4 · Armor:** the target's damage resistance is subtracted from the result, with a minimum of 0, so a hit can deal no damage at all.
 
 **Attacks per turn** = max AP ÷ attack cost, rounded down.
 
@@ -831,51 +1008,108 @@ skill_body = ("**Learned with skill points** (in the order the game lists them)\
               "\n")
 write('skills/index.md', f"""# Stats & Skills
 
-How your hero's numbers actually work in v{VERSION}, pulled straight from the game's source code rather than from forum folklore. Click a heading to fold it away. Wondering what to *do* with all this? That's what [Strategy](../strategy/index.md) is for.
+How character statistics, levelling and combat work in v{VERSION}, as implemented in the game's source code. Each section can be collapsed by clicking its heading. For recommendations on how to use this information, see [Strategy](../strategy/index.md).
 """ + section('Starting stats (level 1)', start_tbl) + section('Levelling up', level_body)
   + section('How combat works', combat_body) + section(f'All skills ({len(skills)})', skill_body))
 
 # --- stat glossary (what each stat does)
 write('skills/stats.md', f"""# Stat glossary
 
-What each stat actually does in v{VERSION}. Starting values live on [Stats & Skills](index.md).
+The effect of each character statistic in v{VERSION}. Starting values live on [Stats & Skills](index.md).
 
 ## Max HP
-Your health. Hit 0 and you're done. Raised by the **max health** level-up (+{LV['hp']}), by [Fortitude](fortitude.md) (+{LV['fort']} per skill level on every later level-up), and by some gear. Most experienced players get theirs almost entirely from Fortitude; see [Strategy](../strategy/levelling.md) for why.
+Your maximum health. When current HP reaches 0, the character is defeated. Raised by the **max health** level-up (+{LV['hp']}), by [Fortitude](fortitude.md) (+{LV['fort']} per skill level on every later level-up), and by some equipment. See [Strategy](../strategy/levelling.md) for a comparison of Fortitude and health level-ups.
 
 ## Max AP
-Action points per combat turn. Attacking, moving and drinking potions all cost AP, and running out mid-fight is a classic way to die. [Combat Speed](speed.md) adds +1 per level, up to 2.
+Action points per combat turn. Attacking, moving and using items all cost AP. [Combat Speed](speed.md) adds +1 per level, up to 2.
 
 ## Attack chance
-Your accuracy. It's compared with the target's block chance to decide whether you hit, through a curve with heavy diminishing returns at both ends ([details](index.md)). Raised by the **attack chance** level-up (+{LV['ac']}), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
+Your accuracy. It is compared with the target's block chance to determine whether an attack hits, using a curve with diminishing returns at both ends ([details](index.md)). Raised by the **attack chance** level-up (+{LV['ac']}), [Weapon Accuracy](weaponChance.md) (+12 per level), weapons and proficiencies.
 
 ## Attack damage
-Each hit rolls a random number between your minimum and maximum damage. The **attack damage** level-up adds +{LV['dmg']} to both. [Hard Hit](weaponDmg.md) adds +2 to the maximum only, which sounds better than it is: your average goes up by just 1.
+Each hit rolls a random number between your minimum and maximum damage. The **attack damage** level-up adds +{LV['dmg']} to both. [Hard Hit](weaponDmg.md) adds +2 to the maximum only, which raises average damage by 1.
 
 ## Block chance
-Your evasion: the same curve as attack chance, pointed the other way. Raised by the **block chance** level-up (+{LV['bc']}), [Dodge](dodge.md) (+9 per level), shields and armor. Only level-up block chance counts toward skill requirements like [Bark Skin](barkSkin.md), so your fancy shield doesn't help there.
+Your evasion. It is compared with the attacker's attack chance using the same curve. Raised by the **block chance** level-up (+{LV['bc']}), [Dodge](dodge.md) (+9 per level), shields and armor. Only block chance from level-ups counts toward skill requirements such as [Bark Skin](barkSkin.md); block chance from shields and armor does not.
 
 ## Damage resistance
-Subtracted from every hit you take, after critical multipliers. Damage can't go below 0, so it shines against monsters that nibble at you with lots of small hits and does much less against ones that hit like a truck. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
+Subtracted from every hit you take, after critical multipliers. Damage cannot go below 0, so damage resistance is most effective against enemies that deal many small hits and less effective against enemies that deal large hits. Raised by [Bark Skin](barkSkin.md) (+1 per level), shields and armor.
 
 ## Critical skill
-Sets your critical hit chance: `−5 + 2 × √(5 × critical skill)`. The square root means each extra point helps less than the one before. It does **nothing** unless you also have a critical multiplier (from your weapon, or [Way of the Monk](fightstyleUnarmedUnarmored.md)). [More Criticals](moreCriticals.md) raises it by 20% per level.
+Determines your critical hit chance: `−5 + 2 × √(5 × critical skill)`. Because of the square root, each additional point adds less than the previous one. It has **no effect** unless you also have a critical multiplier (from your weapon, or [Way of the Monk](fightstyleUnarmedUnarmored.md)). [More Criticals](moreCriticals.md) raises it by 20% per level.
 
 ## Critical multiplier
-How hard a critical hit lands (e.g. ×2). Weapons provide it. Bare fists have none, so unarmed heroes can't crit at all, unless they learn [Way of the Monk](fightstyleUnarmedUnarmored.md), which grants ×1.25 per level. [Better Criticals](betterCriticals.md) raises it by 25% per level.
+How hard a critical hit lands (e.g. ×2). Weapons provide it. Unarmed attacks have none, so an unarmed character cannot land critical hits unless they learn [Way of the Monk](fightstyleUnarmedUnarmored.md), which grants ×1.25 per level. [Better Criticals](betterCriticals.md) raises it by 25% per level.
 
 ## Attack cost
-AP spent per attack: {LV['atk_cost']} unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so a single point here can be worth an entire extra attack every turn, or absolutely nothing.
+AP spent per attack: {LV['atk_cost']} unarmed, or whatever your weapon says. Attacks per turn = max AP ÷ attack cost, rounded down, so reducing attack cost by one point either adds a full attack per turn or has no effect, depending on the values involved.
 
 ## Move cost
-AP to move one tile during combat. Heavy armor raises it, which is the price of looking like a walking tank.
+AP to move one tile during combat. Heavy armor increases it.
 
 ## Use item cost
 AP to use an item, e.g. drinking a potion in the middle of a fight.
 
 ## Re-equip cost
-AP to change equipment during combat. Possible, but rarely a good use of your turn.
+AP to change equipment during combat. Changing equipment during combat is possible but uses AP that could otherwise be spent attacking.
 """)
+# ---------------------------------------------------------------- "Where is…?" page
+def _letter(n): c = (n[:1] or '#').upper(); return c if c.isalpha() else '#'
+people = defaultdict(list)
+for mid, m in monsters.items():
+    if m.get('phraseID') and (m.get('name') or '').strip(): people[m['name'].strip()].append(mid)
+W = [front("Where to find every NPC, shop, skill trainer, quest giver and place in Andor's Trail, with map links that jump straight to them."),
+     f"# Where is…?\n\nEvery named character, shop, skill trainer, quest giver and place in Andor's Trail v{VERSION}. "
+     "Map links open the labelled map and jump to that character's pin. Press **Ctrl+F** (or use the search box) to find a name.\n\n"
+     "**Jump to:** [People](#people) · [Shops by region](#shops-by-region) · [Skill trainers](#skill-trainers) · [Quest givers](#quest-givers) · [Places](#places)\n\n"]
+W.append("## People\n\n")
+by_letter = defaultdict(list)
+for nm in sorted(people, key=str.lower): by_letter[_letter(nm)].append(nm)
+W.append(' · '.join(f"[{L_}](#people-{L_.lower() if L_ != '#' else 'other'})" for L_ in sorted(by_letter)) + "\n\n")
+for L_ in sorted(by_letter):
+    W.append(f'<h3 id="people-{L_.lower() if L_ != "#" else "other"}">{L_}</h3>\n\n| Name | Where | Role |\n|---|---|---|\n')
+    for nm in by_letter[L_]:
+        ids = people[nm]
+        placed = [x for x in ids if spawn_maps.get(x)]
+        if not placed: where_md = '*not on any map; appears through an event*'
+        else:
+            pairs = []
+            for x in placed:
+                for mp in sorted(spawn_maps[x]): pairs.append((region_of(mp), mp, x))
+            pairs = sorted(set(pairs), key=lambda p: (p[0] is None, p[0] or '', p[1]))
+            where_md = ', '.join(f"{(p[0] + ': ') if p[0] else ''}[{p[1]}](maps/{p[1]}.md#pin-npc-{p[2]})" for p in pairs[:3]) + (f" (+{len(pairs) - 3} more)" if len(pairs) > 3 else '')
+        roles = '; '.join(dict.fromkeys(r for x in ids for r in [role_text(x).replace('](../', '](')] if r))
+        link = f"[{md_esc(nm)}](monsters/{canon_of[ids[0]]}.md)"
+        W.append(f"| {link} | {where_md} | {roles or '–'} |\n")
+    W.append("\n")
+W.append("## Shops by region\n\n| Region | Shopkeepers |\n|---|---|\n")
+shop_reg = defaultdict(set)
+for x in shopkeepers:
+    for mp in spawn_maps.get(x, ()): shop_reg[region_of(mp) or 'Elsewhere'].add(x)
+for reg in sorted(shop_reg, key=lambda r: (r == 'Elsewhere', r)):
+    W.append(f"| {reg} | " + ', '.join(dict.fromkeys(f"[{md_esc(monsters[x].get('name') or x)}](monsters/{canon_of[x]}.md)" for x in sorted(shop_reg[reg], key=lambda x: monsters[x].get('name') or x))) + " |\n")
+W.append("\n## Skill trainers\n\nCharacters who can grant a skill level in conversation (usually as part of a quest).\n\n| Skill | Who | Where |\n|---|---|---|\n")
+for sid in skills:
+    who = sorted({x for x, sk in trainer_of.items() if sid in sk}, key=lambda x: monsters[x].get('name') or x)
+    if who:
+        W.append(f"| [{skills[sid]['name']}](skills/{sid}.md) | " + ', '.join(dict.fromkeys(f"[{md_esc(monsters[x].get('name') or x)}](monsters/{canon_of[x]}.md)" for x in who)) +
+                 " | " + ', '.join(dict.fromkeys(r for x in who for r in [where(x)] if r)) + " |\n")
+W.append("\n## Quest givers\n\nWho starts each journal quest, and where.\n\n| Quest | Starts with | Where |\n|---|---|---|\n")
+for qid in sorted((q for q in quests if quests[q].get('showInLog', 0)), key=lambda q: quests[q].get('name', q).lower()):
+    who = sorted({x for x, qs in giver_of.items() if qid in qs}, key=lambda x: monsters[x].get('name') or x)
+    if who:
+        W.append(f"| [{md_esc(quests[qid].get('name', qid))}](quests/{qid}.md) | " + ', '.join(dict.fromkeys(f"[{md_esc(monsters[x].get('name') or x)}](monsters/{canon_of[x]}.md)" for x in who[:3])) +
+                 " | " + ', '.join(dict.fromkeys(r for x in who for r in [where(x)] if r)) + " |\n")
+W.append("\n## Places\n\nNamed towns and landmarks, with every map that belongs to them.\n\n| Place | Type | Maps |\n|---|---|---|\n")
+area_maps = defaultdict(list)
+for mp, pg in _map_pages.items():
+    if pg.get('area') and pg['area'][0] and pg['area'][2] == 'in': area_maps[(pg['area'][0], pg['area'][1])].append(mp)
+for (nm, typ), mps in sorted(area_maps.items(), key=lambda kv: kv[0][0].lower()):
+    mps = sorted(mps, key=lambda mp: (not _map_pages[mp]['outdoors'], mp))
+    W.append(f"| **{md_esc(nm)}** | {typ or '–'} | " + ', '.join(f"[{mp}](maps/{mp}.md)" for mp in mps[:8]) + (f" (+{len(mps) - 8} more)" if len(mps) > 8 else '') + " |\n")
+W.append(H.verified("monster, map, dialogue and world-map data", VERSION))
+write('where.md', ''.join(W))
+
 # ---------------------------------------------------------------- build calculator data + page
 def _eqstats(e):
     e = e or {}
@@ -894,7 +1128,7 @@ for iid, it in items.items():
 calc_cats = {cid: {'slot': c.get('inventorySlot'), 'size': c.get('size'), 'prof': prof_skill(cid)} for cid, c in cats.items() if c.get('actionType') == 'equip'}
 calc_mons = []
 for mid, m in monsters.items():
-    if m.get('phraseID'): continue
+    if kind_of(mid) == 'NPC': continue
     d = m.get('attackDamage') or {}
     calc_mons.append([mid, m.get('name') or mid, m.get('maxHP', 1), m.get('attackChance', 0), m.get('blockChance', 0), m.get('damageResistance', 0),
                       d.get('min', 0), d.get('max', 0), m.get('maxAP', 10), m.get('attackCost', 10), m.get('criticalSkill', 0), m.get('criticalMultiplier', 0), m.get('monsterClass')])
@@ -912,7 +1146,7 @@ os.makedirs(os.path.join(DOCS, 'assets', 'calc'), exist_ok=True)
 json.dump(calc, open(os.path.join(DOCS, 'assets', 'calc', 'data.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 write('skills/calculator.md', f"""# Build calculator
 
-Plan a character before you commit a single level-up. Pick a level, split your level-ups, choose skills and gear, and see your final stats, worked out
+Plan a character before spending level-ups and skill points. Pick a level, split your level-ups, choose skills and gear, and see your final stats, worked out
 **the same way the game does it**: the formulas below are a line-by-line port of the game's own stat code for v{VERSION}.
 
 <div class="build-calc" data-src="../../assets/calc/data.json" markdown="0"><noscript>The calculator needs JavaScript.</noscript></div>
@@ -952,7 +1186,7 @@ os.makedirs(DATA, exist_ok=True)
 snap_path = os.path.join(DATA, 'snapshot.json')
 old = json.load(open(snap_path)) if os.path.exists(snap_path) else None
 clog_path = os.path.join(DOCS, 'changelog.md')
-header = "# Changelog\n\nWhat changed in each release, worked out by comparing the game's data before and after. It's generated automatically, so it's thorough, if not exactly poetic.\n"
+header = "# Changelog\n\nWhat changed in each release, worked out by comparing the game's data before and after. This page is generated automatically.\n"
 _old = open(clog_path, encoding='utf-8').read() if os.path.exists(clog_path) else ''
 body = _old[_old.index('\n## v'):] if '\n## v' in _old else ''
 if old and old.get('version') != VERSION:
@@ -970,33 +1204,43 @@ if old and old.get('version') != VERSION:
     if newq: E.append(f"\n**New quests ({len(newq)}):** " + ', '.join(snap['quests'][k] or k for k in newq) + '\n')
     body = ''.join(E) + body
 elif not old:
-    body = f"\n## v{VERSION}\n\nFirst version tracked by this wiki. Anything before this is lost to history.\n" + body
+    body = f"\n## v{VERSION}\n\nFirst version tracked by this changelog. Earlier releases are covered on the [Version history](versions/index.md) pages.\n" + body
 write('changelog.md', header + body)
 json.dump(snap, open(snap_path, 'w'), indent=0, sort_keys=True)
 open(os.path.join(DATA, 'VERSION'), 'w').write(VERSION + '\n')
 
 # home page stats
 n_rings = sum(1 for it in items.values() if it.get('category') == 'ring')
-write('index.md', f"""# Andor's Trail Wiki
+write('index.md', front(f"An unofficial reference wiki for Andor's Trail v{VERSION}: items, monsters and NPCs, skills, quests and maps, generated from the game's data files.") + f"""# Andor's Trail Wiki
 
-A wiki for **Andor's Trail**, the open-source pixel RPG where you set out to find your missing brother Andor and somehow end up running errands for half the continent.
+A reference wiki for **Andor's Trail**, an open-source role-playing game in which the player searches for their missing brother, Andor.
 
-Everything here is generated straight from the game's own data files, so the numbers are exactly what the game uses. No "I think it was around 30%?" guesswork. When the developers tag a new release, the wiki rebuilds itself within the hour. Every page states the version it describes; this build covers **v{VERSION}**, with history back to v0.7.0.
+All content is generated from the game's own data files and source code, so values on this wiki match those used by the game. When the developers publish a new release, the wiki is rebuilt automatically within an hour. Each page states the game version it describes. This build covers **v{VERSION}**, with version history back to v0.7.0.
 
 <div class="grid cards" markdown>
 
-- **[Items](items/index.md)**<br>{len(items)} items, including {n_rings} different rings, which is apparently how many one hero needs
-- **[Monsters](monsters/index.md)**<br>{len(monsters)} monsters and NPCs. Most want you dead; the rest want you to fetch something
-- **[Stats & Skills](skills/index.md)**<br>How the numbers work, plus the {len(skills)} skills you'll agonize over
-- **[Strategy](strategy/index.md)**<br>Hand-written advice. Opinionated, as advertised
-- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests and every journal entry, plus the hidden flags behind them
-- **[World map](maps/index.md)**<br>{n_maps} maps, every monster, every chest
-- **[Version history](versions/index.md)**<br>What every release since v0.7.0 changed, down to the last gold coin
+- **[Items](items/index.md)**<br>{len(items)} items, including weapons, armor, jewelry and consumables
+- **[Monsters & NPCs](monsters/index.md)**<br>Every enemy and non-player character, with statistics, locations and roles
+- **[Stats & Skills](skills/index.md)**<br>Character statistics, levelling, combat formulas and all {len(skills)} skills
+- **[Strategy](strategy/index.md)**<br>Guidance on character builds, levelling and combat
+- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} journal quests with every stage, plus the hidden quest flags behind them
+- **[World map](maps/index.md)**<br>{n_maps} maps with enemies, NPCs, containers and connections
+- **[Version history](versions/index.md)**<br>Changes in every release since v0.7.0
 
 </div>
 
-<small>Game data © the Andor's Trail contributors, used under the project's open-source licenses. This is an unofficial fan wiki, not affiliated with the developers.</small>
+<small>Game data © the Andor's Trail contributors, used under the project's open-source licenses. This is an unofficial fan wiki and is not affiliated with the developers.</small>
 """)
+# point links at non-canonical entry IDs to the combined character page (section anchor #v-<id>)
+_alias = {x: c for x, c in canon_of.items() if x != c}
+_mlink = re.compile(r'(monsters/)([A-Za-z0-9_\-]+)(\.md|/)(?![#\w])')
+def _fix_links(mm):
+    x = mm.group(2)
+    return f"{mm.group(1)}{_alias[x]}{mm.group(3)}#v-{x}" if x in _alias else mm.group(0)
+for _f in glob.glob(os.path.join(DOCS, '**', '*.md'), recursive=True):
+    _t = open(_f, encoding='utf-8').read()
+    _n = _mlink.sub(_fix_links, _t)
+    if _n != _t: open(_f, 'w', encoding='utf-8').write(_n)
 _left = [os.path.relpath(f, DOCS) for f in glob.glob(os.path.join(DOCS, '**', '*.md'), recursive=True)
          if re.search(r'%\d+\$[,.\d]*[dsf]', open(f, encoding='utf-8').read())]
 for f in _left: print(f"::warning file=docs/{f}::Unfilled text placeholder (e.g. %1$d) left on this page")

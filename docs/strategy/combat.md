@@ -1,20 +1,24 @@
-# Combat tips
+---
+description: "Combat guidance for Andor's Trail v0.8.18: hit chance, damage resistance, attacks per turn breakpoints and critical hits."
+---
 
-*Written for v0.8.18. The formulas behind these tips are on [Stats & Skills](../skills/index.md).*
+# Combat
 
-???+ section "Read the monster's page before a hard fight"
+*Written for v0.8.18. The underlying formulas are described on [Stats & Skills](../skills/index.md).*
 
-    Every [monster page](../monsters/index.md) lists its attack chance, block chance, damage resistance, attack cost and class. Ten seconds of reading beats a trip back to the last resting spot. Three numbers decide most fights:
+???+ section "Check the enemy's statistics before a difficult fight"
 
-    - **Its block chance vs. your attack chance.** If you're not at least ~50 above it, expect to whiff. A lot.
-    - **Its damage resistance vs. your damage.** If its damage resistance is close to your minimum damage, many of your hits will do roughly nothing.
+    Each page on [Monsters & NPCs](../monsters/index.md) lists the enemy's attack chance, block chance, damage resistance, attack cost and class. Three values determine the outcome of most fights:
+
+    - **Its block chance compared with your attack chance.** Below a difference of about 50, many attacks will miss.
+    - **Its damage resistance compared with your damage.** If its damage resistance is close to your minimum damage, many hits will deal little or no damage.
     - **Its class.** Ghosts, constructs and demons are immune to critical hits.
 
-???+ section "Accuracy: aim for a gap of 50–100"
+???+ section "Accuracy: aim for a difference of 50 to 100"
 
-    Hit chance follows an S-curve on the gap between your attack chance and the target's block chance:
+    Hit chance follows an S-shaped curve based on the difference between your attack chance and the target's block chance:
 
-    | Gap | Hit chance |
+    | Difference | Hit chance |
     |---|---|
     | 0 | 21% |
     | 50 | 50% |
@@ -22,17 +26,17 @@
     | 150 | 87% |
     | 200 | 91% |
 
-    Going from a 50 gap to 100 buys about 28 points of hit chance. Going from 150 to 200 buys about 4. Once you're 100+ ahead of what you usually fight, more accuracy is mostly decoration, and damage or defense will do more for you.
+    Increasing the difference from 50 to 100 adds about 28 percentage points of hit chance; increasing it from 150 to 200 adds about 4. Once you are 100 or more above the enemies you usually face, further accuracy has little effect, and damage or defense is the better investment.
 
-???+ section "Armor punishes small hits"
+???+ section "Damage resistance reduces small hits the most"
 
-    The target's damage resistance comes off **every** hit. Against 10 damage resistance, a weapon hitting for 8–12 does 0–2 per hit, while one hitting for 20–25 does 10–15. Against heavily armored enemies, bring your hardest-hitting weapon, even if it swings less often. A dagger build against a high-armor monster is a long, sad afternoon.
+    The target's damage resistance is subtracted from **every** hit. Against 10 damage resistance, a weapon dealing 8–12 damage deals 0–2 per hit, while a weapon dealing 20–25 deals 10–15. Against heavily armored enemies, a weapon with high damage per hit is preferable even if it attacks less often.
 
-    It works the other way too: your own damage resistance ([Bark Skin](../skills/barkSkin.md), shields, armor) is at its best against monsters that pepper you with lots of small hits.
+    The same applies in reverse: your own damage resistance ([Bark Skin](../skills/barkSkin.md), shields and armor) is most effective against enemies that make many weak attacks.
 
-???+ section "Attacks per turn: look for breakpoints"
+???+ section "Attacks per turn: breakpoints"
 
-    Attacks per turn = max AP ÷ attack cost, **rounded down**. You start with 10 AP, and [Combat Speed](../skills/speed.md) adds up to 2 more:
+    Attacks per turn = max AP ÷ attack cost, **rounded down**. Characters start with 10 AP, and [Combat Speed](../skills/speed.md) adds up to 2 more:
 
     | Attack cost | 10 AP | 11 AP | 12 AP |
     |---|---|---|---|
@@ -42,10 +46,8 @@
     | 5 | 2 | 2 | 2 |
     | 6 | 1 | 1 | 2 |
 
-    So Combat Speed is either a massive upgrade or two wasted skill points, depending entirely on your weapon. With a 5-AP weapon, both levels give you exactly nothing.[^ap] The [Jewel of Fallhaven](../items/jewel_fallhaven.md) (attack cost −1, sold by the tailor in Fallhaven) works the same way: check whether it actually tips you over a breakpoint before handing over the gold.
+    The value of Combat Speed therefore depends on your weapon. With a weapon that costs 5 AP per attack, neither level adds an attack (the remaining AP can still be used to move or use items). The [Jewel of Fallhaven](../items/jewel_fallhaven.md) (attack cost −1, sold by the tailor in Fallhaven) works the same way: it is worth buying only if it reaches a new breakpoint with your weapon.
 
-    [^ap]: The leftover AP isn't completely useless, since you can spend it on moving or using items. But you didn't spend two skill points to walk around more.
+???+ section "Critical hits"
 
-???+ section "Crits need the right weapon and the right target"
-
-    Critical skill does nothing without a critical multiplier. That comes from your **weapon** (check its page), or from [Way of the Monk](../skills/fightstyleUnarmedUnarmored.md) if you fight unarmed. Crit chance also has diminishing returns: 20 critical skill gives 15%, and you need 80 to reach 35%. And against ghosts, constructs and demons, crits simply don't happen, so a crit-focused hero should carry a plan B for those fights. ~~"Hit it harder" is not a plan B.~~
+    Critical skill has no effect without a critical multiplier, which comes from the **weapon** (shown on its page) or from [Way of the Monk](../skills/fightstyleUnarmedUnarmored.md) when fighting unarmed. Critical hit chance has diminishing returns: 20 critical skill gives 15%, and 80 is needed for 35%. Ghosts, constructs and demons cannot receive critical hits, so a character built around critical hits should have an alternative approach for those enemies.
