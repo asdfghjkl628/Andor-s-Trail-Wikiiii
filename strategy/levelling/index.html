@@ -295,6 +295,44 @@
   
   
   
+  
+    <li class="md-tabs__item">
+      <a href="../../conditions/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Conditions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossary/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
     
   
   
@@ -658,6 +696,60 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -679,10 +771,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
             
   
   
@@ -700,8 +792,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -940,40 +1032,112 @@
 <li><strong>Plan skill points around the skills you intend to learn.</strong> Many skills require a minimum character level, and skill points cannot be reallocated.</li>
 </ul>
 </details>
+<p><span id="fortitude-compared-with-the-max-health-level-up"></span></p>
 <details class="section" open="open">
 <summary>Fortitude compared with the max health level-up</summary>
-<p>The <strong>max health</strong> level-up gives +5 HP once. <a href="../../skills/fortitude/">Fortitude</a> gives +1 HP per skill level on <strong>every level-up after it is learned</strong>. It is not retroactive, so learning it earlier yields more HP:</p>
+<p>The <strong>max health</strong> level-up gives +5 HP, once. <a href="../../skills/fortitude/">Fortitude</a> gives +1 HP per skill level on <strong>every level-up after it is learned</strong>. It is not retroactive, and each level of Fortitude needs a higher character level (5, 20, 35, 50, 65 and so on, 15 levels apart), so earlier levels are worth more.</p>
+<p><strong>A thought experiment.</strong> Imagine a hero who chooses max health at <em>every single</em> level-up: no attack chance, no damage, no block chance, only +5 HP each time. Why would anyone do this? Nobody should: the hero would struggle to hit or avoid anything. It is, however, the most HP that level-ups can ever provide, which makes it a useful extreme for comparison. How does Fortitude compare?</p>
+<p><img alt="Bonus max HP: Fortitude vs. every level-up into health" src="../../assets/charts/fortitude_vs_health.png" /></p>
 <table>
 <thead>
 <tr>
-<th>Fortitude level</th>
-<th>Earliest level</th>
-<th>Extra HP by level 50</th>
-<th>Equivalent number of health level-ups</th>
+<th>Character level</th>
+<th>Every level-up into health</th>
+<th>Fortitude 1</th>
+<th>Fortitude 1–2</th>
+<th>Fortitude 1–3</th>
+<th>Fortitude 1–4</th>
+<th>Fortitude 1–6</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>5</td>
-<td>+45</td>
-<td>9</td>
-</tr>
-<tr>
-<td>2</td>
 <td>20</td>
-<td>+30</td>
-<td>6</td>
+<td>+95</td>
+<td>+15</td>
+<td>+15</td>
+<td>+15</td>
+<td>+15</td>
+<td>+15</td>
 </tr>
 <tr>
-<td>3</td>
 <td>35</td>
-<td>+15</td>
-<td>3</td>
+<td>+170</td>
+<td>+30</td>
+<td>+45</td>
+<td>+45</td>
+<td>+45</td>
+<td>+45</td>
+</tr>
+<tr>
+<td>50</td>
+<td>+245</td>
+<td>+45</td>
+<td>+75</td>
+<td>+90</td>
+<td>+90</td>
+<td>+90</td>
+</tr>
+<tr>
+<td>70</td>
+<td>+345</td>
+<td>+65</td>
+<td>+115</td>
+<td>+150</td>
+<td>+170</td>
+<td>+175</td>
+</tr>
+<tr>
+<td>100</td>
+<td>+495</td>
+<td>+95</td>
+<td>+175</td>
+<td>+240</td>
+<td>+290</td>
+<td>+345</td>
 </tr>
 </tbody>
 </table>
-<p>A single skill point spent at level 5 provides as much HP by level 50 as nine health level-ups, and those nine level-ups can instead be used for statistics that skills cannot replace. This is the reasoning behind the common recommendation not to choose the health level-up.</p>
+<p>In raw HP, the all-health hero stays ahead for a very long time. Fortitude, even taken at every opportunity, only catches up at <strong>level 144</strong>, after ten skill points and roughly 54 million experience points. Taken at face value, the graph seems to favour the health level-up.</p>
+<p>The comparison changes once the cost of each option is considered:</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Cost</th>
+<th>HP gained by level 50</th>
+<th>HP per unit of cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Every level-up into health</td>
+<td>49 level-ups</td>
+<td>+245</td>
+<td>5 per level-up</td>
+</tr>
+<tr>
+<td>Fortitude 1 (taken at level 5)</td>
+<td>1 skill point</td>
+<td>+45</td>
+<td>45 per skill point</td>
+</tr>
+<tr>
+<td>Fortitude 2 (taken at level 20)</td>
+<td>1 skill point</td>
+<td>+30</td>
+<td>30 per skill point</td>
+</tr>
+<tr>
+<td>Fortitude 3 (taken at level 35)</td>
+<td>1 skill point</td>
+<td>+15</td>
+<td>15 per skill point</td>
+</tr>
+</tbody>
+</table>
+<p>The all-health hero pays for those 245 HP with all 49 level-ups, which would otherwise have provided, for example, +245 attack chance or +49 damage. Fortitude 1 provides 45 HP for one skill point, and leaves every level-up free for statistics that skills and equipment cannot easily replace. A single point of Fortitude at level 5 matches nine health level-ups by level 50. This is the reasoning behind the common recommendation to take Fortitude early and avoid the health level-up.</p>
+<p>Later levels of Fortitude are less efficient, because they are learned later and have fewer level-ups left to pay off. Fortitude 2 at level 20 is still worth six health level-ups by level 50; Fortitude 3 at level 35 is worth three; Fortitude 4 cannot be learned before level 50 at all. Whether the later levels are worth a skill point depends on how far beyond level 50 the character will be played.</p>
 <p>The first skill point is awarded at level 4, but Fortitude requires character level 5. Keeping the level-4 point unspent for one level allows it to be used on Fortitude as early as possible.</p>
 <p>The exception is a difficult early section of the game in which +5 HP immediately is more useful than +45 HP over the long term. Healing potions are the usual alternative in that situation.</p>
 <p>Fortitude also contributes to <a href="../../skills/regeneration/">Regeneration</a>, which requires Fortitude and 30 base max HP per Regeneration level. A character starting with 25 HP who learns Fortitude at level 5 reaches 30 base HP at level 10 without any health level-ups.</p>
@@ -1156,6 +1320,8 @@
         <script src="../../javascripts/dialogue-sim.js"></script>
       
         <script src="../../javascripts/build-calc.js"></script>
+      
+        <script src="../../javascripts/link-hints.js"></script>
       
     
   </body>

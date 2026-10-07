@@ -292,6 +292,44 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../conditions/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Conditions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossary/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
     
     
       <li class="md-tabs__item">
@@ -654,6 +692,60 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -668,10 +760,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
@@ -689,8 +781,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -924,7 +1016,7 @@
   <a href="#monsters-npcs" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Monsters &amp; npcs
+        Monsters &amp; NPCs
       
     </span>
   </a>
@@ -977,11 +1069,27 @@
 <details class="note">
 <summary>Changed (5)</summary>
 <ul>
-<li><a href="../../quests/achievements/">Unusual experiences and achievements</a>: stages added: 125; stage 80 journal text changed</li>
-<li><a href="../../quests/andor/">Search for Andor</a>: stage 110 journal text changed</li>
-<li><a href="../../quests/dead_walking/">The Dead are Walking</a>: stage 40 journal text changed</li>
-<li><a href="../../quests/nocmar/">Lost treasures</a>: stage 20 journal text changed</li>
-<li><a href="../../quests/quest_burhczyd/">Young merchant</a>: stage 110 journal text changed</li>
+<li><a href="../../quests/achievements/">Unusual experiences and achievements</a><ul>
+<li>Stages added: 125</li>
+<li>Stage 80 journal text changed</li>
+</ul>
+</li>
+<li><a href="../../quests/andor/">Search for Andor</a><ul>
+<li>Stage 110 journal text changed</li>
+</ul>
+</li>
+<li><a href="../../quests/dead_walking/">The Dead are Walking</a><ul>
+<li>Stage 40 journal text changed</li>
+</ul>
+</li>
+<li><a href="../../quests/nocmar/">Lost treasures</a><ul>
+<li>Stage 20 journal text changed</li>
+</ul>
+</li>
+<li><a href="../../quests/quest_burhczyd/">Young merchant</a><ul>
+<li>Stage 110 journal text changed</li>
+</ul>
+</li>
 </ul>
 </details>
 <h2 id="items">Items<a class="headerlink" href="#items" title="Permanent link">&para;</a></h2>
@@ -989,20 +1097,46 @@
 <details class="note">
 <summary>Changed (5)</summary>
 <ul>
-<li><a href="../../items/apple_orchard_cider/">Deebo's apple cider</a>: baseMarketCost: 50 → 80; useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",…</li>
-<li><a href="../../items/apple_orchard_juice/">Deebo's apple juice</a>: baseMarketCost: 45 → 97; useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",…</li>
-<li><a href="../../items/deebo_apples/">Orchard apple</a>: baseMarketCost: 35 → 50; useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",…</li>
-<li><a href="../../items/shield_of_undead/">Shield of the undead</a>: category: shld_wd_li → shld_mtl_li</li>
-<li><a href="../../items/war_axe_shadow/">War Axe of the Shadow</a>: equipEffect: {"increaseAttackChance": 12, "increaseA… → {"increaseAttackChance": 8, "increaseAt…</li>
+<li><a href="../../items/apple_orchard_cider/">Deebo's apple cider</a><ul>
+<li>Base value (gold): 50 → 80</li>
+<li>When used, condition on self: added Nausea (magnitude -99, 35% chance)</li>
+</ul>
+</li>
+<li><a href="../../items/apple_orchard_juice/">Deebo's apple juice</a><ul>
+<li>Base value (gold): 45 → 97</li>
+<li>When used, condition on self: added Vulnerability (magnitude -99, 2 rounds, 30% chance)</li>
+</ul>
+</li>
+<li><a href="../../items/deebo_apples/">Orchard apple</a><ul>
+<li>Base value (gold): 35 → 50</li>
+<li>When used, condition on self: added Minor fatigue (10% chance)</li>
+</ul>
+</li>
+<li><a href="../../items/shield_of_undead/">Shield of the undead</a><ul>
+<li>Category: shld_wd_li → shld_mtl_li</li>
+</ul>
+</li>
+<li><a href="../../items/war_axe_shadow/">War Axe of the Shadow</a><ul>
+<li>When equipped, attack chance: +12 → +8</li>
+<li>When equipped, block chance: −3 → +5</li>
+<li>When equipped, critical skill: +12 → +10</li>
+</ul>
+</li>
 </ul>
 </details>
-<h2 id="monsters-npcs">Monsters &amp; npcs<a class="headerlink" href="#monsters-npcs" title="Permanent link">&para;</a></h2>
+<h2 id="monsters-npcs">Monsters &amp; NPCs<a class="headerlink" href="#monsters-npcs" title="Permanent link">&para;</a></h2>
 <p><strong>Added (113):</strong> <a href="../../monsters/cavesnake4/">Big cave snake</a>, <a href="../../monsters/cavesnake5/">Nasty cave snake</a>, <a href="../../monsters/ratdom_bone_collector/">Loirash</a>, <a href="../../monsters/feygard_patrol_watch/#v-ratdom_ff_guard">Feygard patrol watch</a>, <a href="../../monsters/ratdom_fraedro/">Fraedro</a>, <a href="../../monsters/ratdom_ghost/">Ghost</a>, <a href="../../monsters/ratdom_ghost/#v-ratdom_ghost1">Ghost</a>, <a href="../../monsters/ratdom_ghost/#v-ratdom_ghost2">Ghost</a>, <a href="../../monsters/ratdom_ghost/#v-ratdom_ghost3">Ghost</a>, <a href="../../monsters/ratdom_ghost/#v-ratdom_ghost4">Ghost</a>, <a href="../../monsters/ratdom_goldhunter/">Gold hunter</a>, <a href="../../monsters/gruil/#v-ratdom_gruil">Gruil</a>, <a href="../../monsters/ratdom_king_rah/">King Rah</a>, <a href="../../monsters/ratdom_kriih/">Kriih</a>, <a href="../../monsters/leonid/#v-ratdom_leonid">Leonid</a>, <a href="../../monsters/ratdom_librarian/">Librarian</a>, <a href="../../monsters/ratdom_m10a/">Poisonous caterpillar</a>, <a href="../../monsters/ratdom_m10b/">Biting caterpillar</a>, <a href="../../monsters/ratdom_m11a/">Young cave worm</a>, <a href="../../monsters/ratdom_m11b/">Angry cave worm</a>, <a href="../../monsters/ratdom_m11c/">Old cave worm</a>, <a href="../../monsters/ratdom_m12a/">Quick viper</a>, <a href="../../monsters/ratdom_m12b/">Nasty viper</a>, <a href="../../monsters/ratdom_m13a/">Young roundling</a>, <a href="../../monsters/ratdom_m13b/">Curious roundling</a>, <a href="../../monsters/ratdom_m2a/">Vicious cave snake</a>, <a href="../../monsters/ratdom_m2b/">Malicious cave snake</a>, <a href="../../monsters/ratdom_m3a/">Malignant cave snake</a>, <a href="../../monsters/cavesnake5/#v-ratdom_m3b">Nasty cave snake</a>, <a href="../../monsters/ratdom_m4a/">Pernicious cave snake</a>, <a href="../../monsters/ratdom_m4b/">Virulent cave snake</a>, <a href="../../monsters/ratdom_m5a/">Lazy snail</a>, <a href="../../monsters/ratdom_m5b/">Poisenous snail</a>, <a href="../../monsters/ratdom_m6a/">Cave gnome</a>, <a href="../../monsters/ratdom_m6b/">Plump cave gnome</a>, <a href="../../monsters/ratdom_m7a/">Fierce cave lizard</a>, <a href="../../monsters/ratdom_m7b/">Snappy cave lizard</a>, <a href="../../monsters/ratdom_m8a/">Elvedridge</a>, <a href="../../monsters/ratdom_m8b/">Dangerous elvedridge</a>, <a href="../../monsters/ratdom_m9a/">Giant hornbat</a>, <a href="../../monsters/ratdom_m9b/">Cave teckel</a>, <a href="../../monsters/ratdom_m9c/">Cave wolf</a>, <a href="../../monsters/mara/#v-ratdom_mara">Mara</a>, <a href="../../monsters/ratdom_maze_boulder1/">Flaming orb</a>, <a href="../../monsters/ratdom_maze_boulder1/#v-ratdom_maze_boulder2">Flaming orb</a>, <a href="../../monsters/ratdom_maze_boulder1/#v-ratdom_maze_boulder3">Flaming orb</a>, <a href="../../monsters/ratdom_maze_boulder1/#v-ratdom_maze_boulder4">Flaming orb</a>, <a href="../../monsters/ratdom_maze_boulder1/#v-ratdom_maze_boulder5">Flaming orb</a>, <a href="../../monsters/ratdom_maze_mole/">Cave mole</a>, <a href="../../monsters/ratdom_maze_mole/#v-ratdom_maze_mole2">Cave mole</a>, <a href="../../monsters/ratdom_maze_mole_food/">Nutritious cave snake</a>, <a href="../../monsters/tiny_rat/#v-ratdom_maze_rat1">Tiny rat</a>, <a href="../../monsters/cave_rat/#v-ratdom_maze_rat2">Cave rat</a>, <a href="../../monsters/ratdom_maze_slime/">Slime</a>, <a href="../../monsters/ratdom_mikhail/">Gruiik</a>, <a href="../../monsters/ratdom_rat/">Clevred</a>, <a href="../../monsters/ratdom_rat/#v-ratdom_rat_bwm1">Clevred</a>, <a href="../../monsters/ratdom_rat/#v-ratdom_rat_crossglen">Clevred</a>, <a href="../../monsters/ratdom_rat_pub_owner/">Horfael</a>, <a href="../../monsters/ratdom_rat_statue/">Andor's statue</a>, <a href="../../monsters/ratdom_rat_warden/">Wart</a>, <a href="../../monsters/ratdom_rat_warden/#v-ratdom_rat_warden2">Wart</a>, <a href="../../monsters/ratdom_roundling/">Roundling</a>, <a href="../../monsters/ratdom_roundling/#v-ratdom_roundling2">Roundling</a>, <a href="../../monsters/ratdom_roundling/#v-ratdom_roundling3">Roundling</a>, <a href="../../monsters/ratdom_skel_cymb/">Cymbalist</a>, <a href="../../monsters/ratdom_skel_cymb/#v-ratdom_skel_cymb1">Cymbalist</a>, <a href="../../monsters/ratdom_skel_cymb/#v-ratdom_skel_cymb2">Cymbalist</a>, <a href="../../monsters/ratdom_skel_dance1/">Dancing skeleton</a>, <a href="../../monsters/ratdom_skel_dance1/#v-ratdom_skel_dance2">Dancing skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/#v-ratdom_skel_dance22">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/#v-ratdom_skel_dance23">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/#v-ratdom_skel_dance24">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/#v-ratdom_skel_dance25">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/#v-ratdom_skel_dance26">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance21/#v-ratdom_skel_dance27">Angry skeleton</a>, <a href="../../monsters/ratdom_skel_dance1/#v-ratdom_skel_dance3">Dancing skeleton</a>, <a href="../../monsters/ratdom_skel_dance1/#v-ratdom_skel_dance4">Dancing skeleton</a>, <a href="../../monsters/ratdom_skel_dance1/#v-ratdom_skel_dance5">Dancing skeleton</a>, <a href="../../monsters/ratdom_skel_dance1/#v-ratdom_skel_dance6">Dancing skeleton</a>, <a href="../../monsters/ratdom_skel_dance1/#v-ratdom_skel_dance7">Dancing skeleton</a>, <a href="../../monsters/erwyn_skel_drum/#v-ratdom_skel_drum">Drummer</a>, <a href="../../monsters/erwyn_skel_drum/#v-ratdom_skel_drum1">Drummer</a>, <a href="../../monsters/erwyn_skel_drum/#v-ratdom_skel_drum2">Drummer</a>, <a href="../../monsters/ratdom_skel_horn/">Horn player</a>, <a href="../../monsters/ratdom_skel_horn/#v-ratdom_skel_horn1">Horn player</a>, <a href="../../monsters/ratdom_skel_horn/#v-ratdom_skel_horn2">Horn player</a>, <a href="../../monsters/erwyn_skel_lute/#v-ratdom_skel_lute">Lutenist</a>, <a href="../../monsters/erwyn_skel_lute/#v-ratdom_skel_lute1">Lutenist</a>, <a href="../../monsters/erwyn_skel_lute/#v-ratdom_skel_lute2">Lutenist</a>, <a href="../../monsters/ratdom_skel_mage/">Skeleton mage</a>, <a href="../../monsters/skeleton/#v-ratdom_skeleton1">Skeleton</a>, <a href="../../monsters/skeleton/#v-ratdom_skeleton2">Skeleton</a>, <a href="../../monsters/ratdom_skeleton_boss1/">Roskelt</a>, <a href="../../monsters/ratdom_skeleton_boss2/">Bloskelt</a>, <a href="../../monsters/tharal/#v-ratdom_tharal">Tharal</a>, <a href="../../monsters/ratdom_troll_1/">Young ogre</a>, <a href="../../monsters/ratdom_troll_2/">Weak ogre</a>, <a href="../../monsters/ratdom_troll_3/">Angry ogre</a>, <a href="../../monsters/ratdom_troll_4/">Mad ogre</a>, <a href="../../monsters/ratdom_troll_5/">Dangerous ogre</a>, <a href="../../monsters/ratdom_troll_6/">Ancient ogre</a>, <a href="../../monsters/ratdom_troll_9/">Giant ogre</a>, <a href="../../monsters/ratdom_uglybrute/">Ogre</a>, <a href="../../monsters/brv_fish1/#v-ratdom_water_fish1">Fish</a>, <a href="../../monsters/brv_fish1/#v-ratdom_water_fish2">Fish</a>, <a href="../../monsters/ratdom_well_wise0/">Wise of the wells</a>, <a href="../../monsters/ratdom_well_wise0/#v-ratdom_well_wise1">Wise of the wells</a>, <a href="../../monsters/ratdom_well_wise0/#v-ratdom_well_wise2">Wise of the wells</a>, <a href="../../monsters/ratdom_well_wise0/#v-ratdom_well_wise3">Wise of the wells</a>, <a href="../../monsters/tough_cave_rat/#v-tough_cave_rat3">Tough cave rat</a>, <a href="../../monsters/whootibarfag/">Whootibarfag</a></p>
 <details class="note">
 <summary>Changed (2)</summary>
 <ul>
-<li><a href="../../monsters/elm_miner4/#v-elm_miner4a">Prim guard skeleton</a>: maxHP: 104 → 364</li>
-<li><a href="../../monsters/sullengard_venom_snake_queen/">Queen Sullengard forest snake</a>: spawnGroup: sullengard_venom_snake → sullengard_venom_snake_queen</li>
+<li><a href="../../monsters/elm_miner4/#v-elm_miner4a">Prim guard skeleton</a><ul>
+<li>Max HP: 104 → 364</li>
+</ul>
+</li>
+<li><a href="../../monsters/sullengard_venom_snake_queen/">Queen Sullengard forest snake</a><ul>
+<li>Spawn group changed</li>
+</ul>
+</li>
 </ul>
 </details>
 <h2 id="maps">Maps<a class="headerlink" href="#maps" title="Permanent link">&para;</a></h2>
@@ -1010,29 +1144,98 @@
 <details class="note">
 <summary>Changed (23)</summary>
 <ul>
-<li><a href="../../maps/blackwater_mountain16/">blackwater_mountain16</a>: map layout or objects changed</li>
-<li><a href="../../maps/blackwater_mountain5/">blackwater_mountain5</a>: map layout or objects changed</li>
-<li><a href="../../maps/blackwater_mountain55/">blackwater_mountain55</a>: map layout or objects changed</li>
-<li><a href="../../maps/cabin_norcity_road3/">cabin_norcity_road3</a>: map layout or objects changed</li>
-<li><a href="../../maps/crossglen/">crossglen</a>: map layout or objects changed</li>
-<li><a href="../../maps/crossglen_cave/">crossglen_cave</a>: map layout or objects changed</li>
-<li><a href="../../maps/guynmart_wood_11/">guynmart_wood_11</a>: map layout or objects changed</li>
-<li><a href="../../maps/guynmart_wood_12/">guynmart_wood_12</a>: map layout or objects changed</li>
-<li><a href="../../maps/home/">home</a>: map layout or objects changed</li>
-<li><a href="../../maps/lostmine1/">lostmine1</a>: map layout or objects changed</li>
-<li><a href="../../maps/mountainlake2/">mountainlake2</a>: map layout or objects changed</li>
-<li><a href="../../maps/mountainlake5/">mountainlake5</a>: map layout or objects changed</li>
-<li><a href="../../maps/mywild20_houseright/">mywild20_houseright</a>: map layout or objects changed</li>
-<li><a href="../../maps/sullengard_west_ravine/">sullengard_west_ravine</a>: map layout or objects changed</li>
-<li><a href="../../maps/sullengard_woods10/">sullengard_woods10</a>: map layout or objects changed</li>
-<li><a href="../../maps/sullengard_woods3/">sullengard_woods3</a>: map layout or objects changed</li>
-<li><a href="../../maps/sullengard_woods5/">sullengard_woods5</a>: map layout or objects changed</li>
-<li><a href="../../maps/waterwayacave2/">waterwayacave2</a>: map layout or objects changed</li>
-<li><a href="../../maps/way_to_sullengard_east4_bridge/">way_to_sullengard_east4_bridge</a>: map layout or objects changed</li>
-<li><a href="../../maps/way_to_sullengard_east6/">way_to_sullengard_east6</a>: map layout or objects changed</li>
-<li><a href="../../maps/way_to_sullengard_east_ravine_north/">way_to_sullengard_east_ravine_north</a>: map layout or objects changed</li>
-<li><a href="../../maps/way_to_sullengard_pond_road/">way_to_sullengard_pond_road</a>: map layout or objects changed</li>
-<li><a href="../../maps/waytolake12/">waytolake12</a>: map layout or objects changed</li>
+<li><a href="../../maps/blackwater_mountain16/">blackwater_mountain16</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/blackwater_mountain5/">blackwater_mountain5</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/blackwater_mountain55/">blackwater_mountain55</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/cabin_norcity_road3/">cabin_norcity_road3</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/crossglen/">crossglen</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/crossglen_cave/">crossglen_cave</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/guynmart_wood_11/">guynmart_wood_11</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/guynmart_wood_12/">guynmart_wood_12</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/home/">home</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/lostmine1/">lostmine1</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/mountainlake2/">mountainlake2</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/mountainlake5/">mountainlake5</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/mywild20_houseright/">mywild20_houseright</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/sullengard_west_ravine/">sullengard_west_ravine</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/sullengard_woods10/">sullengard_woods10</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/sullengard_woods3/">sullengard_woods3</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/sullengard_woods5/">sullengard_woods5</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/waterwayacave2/">waterwayacave2</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/way_to_sullengard_east4_bridge/">way_to_sullengard_east4_bridge</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/way_to_sullengard_east6/">way_to_sullengard_east6</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/way_to_sullengard_east_ravine_north/">way_to_sullengard_east_ravine_north</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/way_to_sullengard_pond_road/">way_to_sullengard_pond_road</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
+<li><a href="../../maps/waytolake12/">waytolake12</a><ul>
+<li>Map layout or objects changed</li>
+</ul>
+</li>
 </ul>
 </details>
 <h2 id="dialogue">Dialogue<a class="headerlink" href="#dialogue" title="Permanent link">&para;</a></h2>
@@ -1103,6 +1306,8 @@
         <script src="../../javascripts/dialogue-sim.js"></script>
       
         <script src="../../javascripts/build-calc.js"></script>
+      
+        <script src="../../javascripts/link-hints.js"></script>
       
     
   </body>
