@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Always-current reference for Andor's Trail, generated from the game's open-source data.">
+        <meta name="description" content="Combat guidance for Andor's Trail v0.8.18: hit chance, damage resistance, attacks per turn breakpoints and critical hits.">
       
       
+      
+        <link rel="canonical" href="https://asdfghjkl628.github.io/Andor-s-Trail-Wikiiii/strategy/combat/">
       
       
         <link rel="prev" href="../levelling/">
@@ -25,7 +27,7 @@
     
     
       
-        <title>Combat tips - Andor's Trail Wiki</title>
+        <title>Combat - Andor's Trail Wiki</title>
       
     
     
@@ -78,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#combat-tips" class="md-skip">
+        <a href="#combat" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Combat tips
+              Combat
             
           </span>
         </div>
@@ -218,6 +220,25 @@
   
   
     <li class="md-tabs__item">
+      <a href="../../where/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Where is…?
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../../items/" class="md-tabs__link">
         
   
@@ -243,7 +264,7 @@
   
     
   
-  Monsters
+  Monsters & NPCs
 
       </a>
     </li>
@@ -416,6 +437,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../where/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Where is…?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../items/" class="md-nav__link">
         
   
@@ -450,7 +498,7 @@
   <span class="md-ellipsis">
     
   
-    Monsters
+    Monsters & NPCs
   
 
     
@@ -483,10 +531,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -504,8 +552,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -571,6 +619,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/calculator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build calculator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -603,10 +679,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -624,8 +700,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -714,7 +790,7 @@
   <span class="md-ellipsis">
     
   
-    Combat tips
+    Combat
   
 
     
@@ -852,24 +928,24 @@
 
 
 
-<h1 id="combat-tips">Combat tips<a class="headerlink" href="#combat-tips" title="Permanent link">&para;</a></h1>
-<p><em>Written for v0.8.18. The formulas behind these tips are on <a href="../../skills/">Stats &amp; Skills</a>.</em></p>
+<h1 id="combat">Combat<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h1>
+<p><em>Written for v0.8.18. The underlying formulas are described on <a href="../../skills/">Stats &amp; Skills</a>.</em></p>
 <details class="section" open="open">
-<summary>Read the monster's page before a hard fight</summary>
-<p>Every <a href="../../monsters/">monster page</a> lists its attack chance, block chance, damage resistance, attack cost and class. Ten seconds of reading beats a trip back to the last resting spot. Three numbers decide most fights:</p>
+<summary>Check the enemy's statistics before a difficult fight</summary>
+<p>Each page on <a href="../../monsters/">Monsters &amp; NPCs</a> lists the enemy's attack chance, block chance, damage resistance, attack cost and class. Three values determine the outcome of most fights:</p>
 <ul>
-<li><strong>Its block chance vs. your attack chance.</strong> If you're not at least ~50 above it, expect to whiff. A lot.</li>
-<li><strong>Its damage resistance vs. your damage.</strong> If its damage resistance is close to your minimum damage, many of your hits will do roughly nothing.</li>
+<li><strong>Its block chance compared with your attack chance.</strong> Below a difference of about 50, many attacks will miss.</li>
+<li><strong>Its damage resistance compared with your damage.</strong> If its damage resistance is close to your minimum damage, many hits will deal little or no damage.</li>
 <li><strong>Its class.</strong> Ghosts, constructs and demons are immune to critical hits.</li>
 </ul>
 </details>
 <details class="section" open="open">
-<summary>Accuracy: aim for a gap of 50–100</summary>
-<p>Hit chance follows an S-curve on the gap between your attack chance and the target's block chance:</p>
+<summary>Accuracy: aim for a difference of 50 to 100</summary>
+<p>Hit chance follows an S-shaped curve based on the difference between your attack chance and the target's block chance:</p>
 <table>
 <thead>
 <tr>
-<th>Gap</th>
+<th>Difference</th>
 <th>Hit chance</th>
 </tr>
 </thead>
@@ -896,16 +972,16 @@
 </tr>
 </tbody>
 </table>
-<p>Going from a 50 gap to 100 buys about 28 points of hit chance. Going from 150 to 200 buys about 4. Once you're 100+ ahead of what you usually fight, more accuracy is mostly decoration, and damage or defense will do more for you.</p>
+<p>Increasing the difference from 50 to 100 adds about 28 percentage points of hit chance; increasing it from 150 to 200 adds about 4. Once you are 100 or more above the enemies you usually face, further accuracy has little effect, and damage or defense is the better investment.</p>
 </details>
 <details class="section" open="open">
-<summary>Armor punishes small hits</summary>
-<p>The target's damage resistance comes off <strong>every</strong> hit. Against 10 damage resistance, a weapon hitting for 8–12 does 0–2 per hit, while one hitting for 20–25 does 10–15. Against heavily armored enemies, bring your hardest-hitting weapon, even if it swings less often. A dagger build against a high-armor monster is a long, sad afternoon.</p>
-<p>It works the other way too: your own damage resistance (<a href="../../skills/barkSkin/">Bark Skin</a>, shields, armor) is at its best against monsters that pepper you with lots of small hits.</p>
+<summary>Damage resistance reduces small hits the most</summary>
+<p>The target's damage resistance is subtracted from <strong>every</strong> hit. Against 10 damage resistance, a weapon dealing 8–12 damage deals 0–2 per hit, while a weapon dealing 20–25 deals 10–15. Against heavily armored enemies, a weapon with high damage per hit is preferable even if it attacks less often.</p>
+<p>The same applies in reverse: your own damage resistance (<a href="../../skills/barkSkin/">Bark Skin</a>, shields and armor) is most effective against enemies that make many weak attacks.</p>
 </details>
 <details class="section" open="open">
-<summary>Attacks per turn: look for breakpoints</summary>
-<p>Attacks per turn = max AP ÷ attack cost, <strong>rounded down</strong>. You start with 10 AP, and <a href="../../skills/speed/">Combat Speed</a> adds up to 2 more:</p>
+<summary>Attacks per turn: breakpoints</summary>
+<p>Attacks per turn = max AP ÷ attack cost, <strong>rounded down</strong>. Characters start with 10 AP, and <a href="../../skills/speed/">Combat Speed</a> adds up to 2 more:</p>
 <table>
 <thead>
 <tr>
@@ -948,26 +1024,21 @@
 </tr>
 </tbody>
 </table>
-<p>So Combat Speed is either a massive upgrade or two wasted skill points, depending entirely on your weapon. With a 5-AP weapon, both levels give you exactly nothing.<sup id="fnref:ap"><a class="footnote-ref" href="#fn:ap">1</a></sup> The <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a> (attack cost −1, sold by the tailor in Fallhaven) works the same way: check whether it actually tips you over a breakpoint before handing over the gold.</p>
+<p>The value of Combat Speed therefore depends on your weapon. With a weapon that costs 5 AP per attack, neither level adds an attack (the remaining AP can still be used to move or use items). The <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a> (attack cost −1, sold by the tailor in Fallhaven) works the same way: it is worth buying only if it reaches a new breakpoint with your weapon.</p>
 </details>
 <details class="section" open="open">
-<summary>Crits need the right weapon and the right target</summary>
-<p>Critical skill does nothing without a critical multiplier. That comes from your <strong>weapon</strong> (check its page), or from <a href="../../skills/fightstyleUnarmedUnarmored/">Way of the Monk</a> if you fight unarmed. Crit chance also has diminishing returns: 20 critical skill gives 15%, and you need 80 to reach 35%. And against ghosts, constructs and demons, crits simply don't happen, so a crit-focused hero should carry a plan B for those fights. <del>"Hit it harder" is not a plan B.</del></p>
+<summary>Critical hits</summary>
+<p>Critical skill has no effect without a critical multiplier, which comes from the <strong>weapon</strong> (shown on its page) or from <a href="../../skills/fightstyleUnarmedUnarmored/">Way of the Monk</a> when fighting unarmed. Critical hit chance has diminishing returns: 20 critical skill gives 15%, and 80 is needed for 35%. Ghosts, constructs and demons cannot receive critical hits, so a character built around critical hits should have an alternative approach for those enemies.</p>
 </details>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:ap">
-<p>The leftover AP isn't completely useless, since you can spend it on moving or using items. But you didn't spend two skill points to walk around more.&#160;<a class="footnote-backref" href="#fnref:ap" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -1025,6 +1096,8 @@
         <script src="../../javascripts/maps.js"></script>
       
         <script src="../../javascripts/dialogue-sim.js"></script>
+      
+        <script src="../../javascripts/build-calc.js"></script>
       
     
   </body>
