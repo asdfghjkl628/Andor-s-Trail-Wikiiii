@@ -117,6 +117,7 @@ class QuestGraph:
     # ------------------------------------------------------------ text helpers
     def qlink(self, q, stage=None, pre='../quests/'):
         nm = self.quests.get(q, {}).get('name', q)
+        if q not in self.quests: return f"{_md(q.replace('_', ' '))} (flag not defined in the game data)"
         if not self.quests.get(q, {}).get('showInLog', 0): nm = f"{nm} (hidden flag)"
         return f"[{_md(nm)}]({pre}{q}.md" + (f"#stage-{stage}" if stage is not None else '') + ")"
 
@@ -184,8 +185,8 @@ class QuestGraph:
 
 # ---------------------------------------------------------------- quest pages
 def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, verified=lambda w, v: ''):
-    L = ["# Quests\n\nEvery quest that appears in the journal, followed by the hidden story flags the game uses internally to track progress. "
-         "Each quest page shows what starts it, what each stage needs, what it unlocks and what it prevents.\n\n"
+    L = ["# Quests\n\nEvery journal quest, then the hidden story flags the game uses to track you ~~without telling you~~. "
+         "Each page shows what starts the quest, what each stage needs, and what it unlocks or locks out.\n\n"
          "| Quest | Stages | Starts with |\n|---|---|---|\n"]
     hidden_rows = []
     for qid, q in sorted(G.quests.items(), key=lambda kv: kv[1].get('name', kv[0]).lower()):
@@ -262,60 +263,74 @@ def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, ve
                  "No links to other quests were found in the dialogue conditions.\n")
         P.append("\n")
 
-        # ---- stages
+        # ---- stages: a compact overview table, then the details of every route in collapsed blocks
         untraced = False
-        P.append("## Stages\n\n| Stage | Journal entry | Triggered by | Needs | Rewards |\n|---|---|---|---|---|\n")
         by_val = {s.get('progress'): s for s in stages}
-        for v in st_vals:
-            s = by_val.get(v, {})
-            trig, needs, rew = [], set(), []
-            for cid in G.triggers.get((qid, v), []):
-                for rt in G.routes(cid): trig.append(G.who(rt['speakers'][:1]))
-                rew.extend(G.rewards(G.convs[cid], skip_quest=qid))
-            for t in sorted(G.internal.get((qid, v), ())): needs.add(f"stage {t}")
-            for t, p, val in sorted(G.items_needed.get((qid, v), ())): needs.add(G.req({'requireType': t, 'requireID': p, 'value': val}))
-            if s.get('rewardExperience'): rew.insert(0, f"{s['rewardExperience']:,} XP")
-            mapn = sorted(G.map_notes.get(qid, {}).get(v, ()))
-            jt = _md(s.get('logText', '')) + (' **(completes quest)**' if s.get('finishesQuest') else '') + ''.join(f"<br><span class=\"qnote\">{n}</span>" for n in mapn)
-            trig_u = list(dict.fromkeys(trig))
-            if not trig_u:
-                cids = G.triggers.get((qid, v), [])
-                trig_u = [f"dialogue `{cids[0]}`, which nothing in the data starts directly"] if cids else \
-                         ["*no trigger in the game data or code* <sup>[?](#untraced)</sup>"]
-                untraced = True
-            P.append(f"| <span id=\"stage-{v}\"></span>{v} | {jt} | {'<br>'.join(trig_u[:3]) + (f'<br>+{len(trig_u) - 3} more' if len(trig_u) > 3 else '')} "
-                     f"| {', '.join(sorted(needs)) or '–'} | {'<br>'.join(dict.fromkeys(rew)) or '–'} |\n")
-        if untraced:
-            P.append(f"\n<span id=\"untraced\"></span>*No trigger*: as of v{VERSION}, nothing in the game's dialogue, maps or code sets this stage. "
-                     "It may be unused or unfinished content, or set in a way this wiki cannot yet trace. "
-                     "Claims about how to reach it should be treated as unverified.\n")
-        P.append(verified("quest, dialogue and map data", VERSION))
-
-        # ---- every dialogue route to every stage (preserves alternative paths)
+        def is_flag(text): return '(hidden flag)' in text or text.startswith('starts timer')
+        def compact_reqs(reqs):
+            """Conditions of one route, with this quest's own stages shortened to 'stage 20' / 'not yet stage 30'."""
+            have, havenot, other = [], [], []
+            for r in reqs:
+                if r.get('requireType') == 'questProgress' and r.get('requireID') == qid:
+                    (havenot if r.get('negate') else have).append(r.get('value'))
+                else: other.append(G.req(r).replace('NOT ', 'not '))
+            out = []
+            if have: out.append('stage ' + ', '.join(map(str, sorted(set(have)))))
+            if havenot: out.append('not yet stage ' + ', '.join(map(str, sorted(set(havenot)))))
+            return out + list(dict.fromkeys(other))
+        P.append("## Stages\n\n<div class=\"stages\" markdown>\n\n| Stage | Journal entry | From | Rewards |\n|---|---|---|---|\n")
         route_md = []
         for v in st_vals:
+            s = by_val.get(v, {})
             cids = G.triggers.get((qid, v), [])
-            if not cids: continue
-            lines, k = [], 0
+            who, reward_sets, lines, k = [], [], [], 0
             for cid in cids:
                 c = G.convs[cid]
+                rw = G.rewards(c, skip_quest=qid)
                 for rt in G.routes(cid):
                     k += 1
-                    who = G.who(rt['speakers'][:1])
-                    act = f"choose “{_short(rt['choice'], 110)}”" if rt['choice'] else "the conversation leads here automatically"
-                    cond = ('; '.join(dict.fromkeys(G.req(r) for r in rt['reqs']))) if rt['reqs'] else ''
-                    extra = G.rewards(c, skip_quest=qid)
-                    lines.append(f"    {k}. {'Talk to ' if rt['speakers'] and rt['speakers'][0][0] == 'npc' else ''}{who} → {act}" + (f" — **conditions:** {cond}" if cond else '') +
-                                 f" → **stage {v}**" + (f"; also {', '.join(extra)}" if extra else '') +
-                                 (f". NPC: “{_short(c['message'], 120)}”" if c.get('message') else '') + "\n")
+                    sp = rt['speakers'][:1]
+                    w = G.mlink(sp[0][1]) if sp and sp[0][0] == 'npc' else G.who(sp)
+                    who.append(w)
+                    main = [x for x in rw if not is_flag(x)]
+                    reward_sets.append(tuple(main))
+                    act = f"choose “{_short(rt['choice'], 110)}”" if rt['choice'] else "automatic"
+                    head = (f"talk to {w}, {act}" if sp and sp[0][0] == 'npc' else f"{G.who(sp)}" + (f", {act}" if rt['choice'] else ''))
+                    cond = compact_reqs(rt['reqs'])
+                    flags = [x for x in rw if is_flag(x)]
+                    L = [f"    **Way {k}:** {head[:1].upper() + head[1:]}\n\n"]
+                    if cond: L.append(f"    - **Needs:** {'; '.join(cond)}\n")
+                    if main: L.append(f"    - **Gives:** {', '.join(re.sub(r'^gives ', '', x) for x in main)}\n")
+                    if flags: L.append(f"    - <small>Also: {', '.join(flags)}</small>\n")
+                    if c.get('message'): L.append(f"    - *“{_short(c['message'], 140)}”*\n")
+                    lines.append(''.join(L) + "\n")
+            if s.get('rewardExperience'): xp = f"{s['rewardExperience']:,} XP"
+            else: xp = ''
+            sets = list(dict.fromkeys(reward_sets))
+            if len(sets) <= 1: rew = ', '.join(([xp] if xp else []) + [re.sub(r'^gives ', '', x) for x in (sets[0] if sets else [])])
+            else: rew = ', '.join([xp] if xp else []) + ('; ' if xp else '') + 'varies by route (see below)'
+            mapn = sorted(G.map_notes.get(qid, {}).get(v, ()))
+            text = _short(s.get('logText', ''), 2000)
+            jt = (f"<details class=\"jt\"><summary><span class=\"s\">{_md(_short(text, 70))} ▸</span><span class=\"l\">▴ less</span></summary>{_md(text)}</details>" if len(text) > 80 else _md(text))
+            jt += (' **(ends quest)**' if s.get('finishesQuest') else '') + ''.join(f"<br><span class=\"qnote\">{n}</span>" for n in mapn)
+            who_u = list(dict.fromkeys(who))
+            if not who_u:
+                who_u = [f"dialogue `{cids[0]}`, never started directly"] if cids else ["*no trigger found* <sup>[?](#untraced)</sup>"]
+                untraced = untraced or not cids
+            P.append(f"| <span id=\"stage-{v}\"></span>{f'[{v}](#route-{v})' if lines else v} | {jt} | {', '.join(who_u[:2]) + (f' +{len(who_u) - 2}' if len(who_u) > 2 else '')} | {rew or '–'} |\n")
             if lines:
-                route_md.append(f"???+ note \"Stage {v}: {len(lines)} route{'s' if len(lines) != 1 else ''}\"\n\n" + ''.join(lines[:25])
-                                + (f"    *…and {len(lines) - 25} more routes.*\n" if len(lines) > 25 else '') + "\n")
+                _whotxt = ', '.join(dict.fromkeys(re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', w) for w in who))[:60].replace('"', "'")
+                route_md.append(f'<span id="route-{v}"></span>\n\n??? note "Stage {v} · {_whotxt} · {len(lines)} way{"s" if len(lines) != 1 else ""}"\n\n' + ''.join(lines[:25])
+                                + (f"    *{len(lines) - 25} more routes are not listed.*\n" if len(lines) > 25 else '') + "\n")
+        P.append("\n</div>\n")
+        if untraced:
+            P.append(f"\n<span id=\"untraced\"></span>*No trigger found:* as of v{VERSION}, nothing in the game's dialogue, maps or code sets this stage. "
+                     "It may be unused or unfinished.\n")
+        P.append("\n<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>\n")
+        P.append(verified("quest, dialogue and map data", VERSION))
         if route_md:
-            P.append("## How each stage is reached\n\n*Every dialogue route found in the game data, including alternatives that end up in the same place. "
-                     "\"Conditions\" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its "
-                     "**Dialogue simulator**.*\n\n" + ''.join(route_md))
-
+            P.append("## How to reach each stage\n\nEvery route in the game data, including alternatives. "
+                     "To try a specific situation, use the **dialogue simulator** on the NPC's page.\n\n" + ''.join(route_md))
         if route_md: P.append(verified("dialogue data", VERSION))
         removed = [(v, cid) for (qq, v), cids in G.removals.items() if qq == qid for cid in cids]
         if history:
@@ -323,12 +338,12 @@ def write_quest_pages(G, write, VERSION, notes, history=None, comp_text=None, ve
             lead = comp_text(qid) if comp_text else ''
             P.append(history('quests', qid, dlg, (f"**Completability:** {lead}" if lead else '')))
         P.append(notes('quests', qid, q.get('name', qid)))
-        tech = [('Quest ID', f"`{qid}`"), ('showInLog', q.get('showInLog', 0)),
+        tech = [('Quest ID', f"`{qid}`"), ('Name in game data', f"`{q['_data_name']}`" if q.get('_data_name') else None), ('showInLog', q.get('showInLog', 0)),
                 ('Stage IDs', ', '.join(map(str, st_vals)) or '–'),
                 ('Dialogue nodes setting stages', ', '.join(f"{v}: `{c}`" for (qq, v), cids in sorted(G.triggers.items()) if qq == qid for c in cids[:3]) or '–'),
                 ('Dialogue nodes clearing stages', ', '.join(f"{v}: `{c}`" for v, c in removed[:10]) or '–'),
                 ('Source files', '`res/raw/questlist*.json`, `res/raw/conversationlist*.json`')]
-        P.append('\n??? info "Technical information"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech) + '\n')
+        P.append('\n??? info "Technical information"\n\n    | | |\n    |---|---|\n' + ''.join(f"    | {a} | {b} |\n" for a, b in tech if b is not None) + '\n')
         P.append(f"\n<small>Data from v{VERSION}</small>\n")
         write(f'quests/{qid}.md', ''.join(P))
         who0 = G.who(starters[:1]) if starters else '–'
@@ -354,9 +369,7 @@ def npc_section(G, mid, notes, history=None, prefix='', with_notes=True, listed=
             str(s) for (qq, s), cids in sorted(G.triggers.items()) if qq == q and any(rp in G.paths.get(c, {}) for c in cids)]) + "\n"
             for q in (vis + [q for q in quests_here if q not in vis])[:30]) + "\n")
     out.append("## Dialogue simulator\n\n"
-               "Set the quest stages, items and other conditions that apply to your game, then start the conversation with "
-               f"{_md(m.get('name', mid))}. The simulator applies the game's own rules: it performs the same silent checks, "
-               "offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.\n\n"
+               f"Set your quest stages and items, then talk to {_md(m.get('name', mid))}. Same rules as the game: same checks, same options, same effects.\n\n"
                f'<div class="dlg-sim" data-src="../../assets/dialogue/{rp}.json" data-npc="{html.escape(m.get("name", mid))}" markdown="0">'
                '<noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>\n\n')
     out.append(f"<p class=\"verified\">Rules verified against v{G.c.get('VERSION', '')} game code (ConversationController.java) and dialogue data.</p>\n\n")
@@ -391,7 +404,7 @@ def npc_section(G, mid, notes, history=None, prefix='', with_notes=True, listed=
     elif listed is not None:
         for x in order: listed.setdefault(x, prefix)
     if D is not None: out.append(f"??? quote \"Dialogue ({len(order)} lines{'+' if total is None else ''})\"\n\n"
-               "    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*\n\n" + ''.join(D) +
+               "    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*\n\n" + ''.join(D) +
                ("    *Dialogue continues beyond this point (truncated).*\n" if total is None else '') + "\n")
     if history: out.append(history('monsters', mid, G.root_nodes.get(rp, ()), ''))
     if with_notes: out.append(notes('monsters', mid, m.get('name', mid)))

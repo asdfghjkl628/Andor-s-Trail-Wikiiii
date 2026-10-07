@@ -143,8 +143,8 @@ def write_condition_pages(X):
     def rest_text(cid):
         durs = {s['dur'] for s in src.get(cid, []) if s['action'] == 'apply'}
         out = []
-        if any(d != FOREVER for d in durs): out.append('timed applications end when their duration runs out, and resting removes them earlier')
-        if FOREVER in durs: out.append('permanent applications (from equipment or story events) are not removed by resting')
+        if any(d != FOREVER for d in durs): out.append('timed ones wear off, or rest them away')
+        if FOREVER in durs: out.append('permanent ones (equipment, story events) stay through rest')
         return out
 
     # ---- per-condition pages
@@ -177,14 +177,10 @@ def write_condition_pages(X):
         P.append("## Effects\n\n")
         if srt:
             P.append("| Effect | Per magnitude level |\n|---|---|\n" + ''.join(f"| {a} | {b} |\n" for a, b in srt) + "\n")
-            P.append("All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, "
-                     "and every 6 seconds outside combat.\n\n")
+            P.append("Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.\n\n")
         else:
-            P.append("This condition does not change any statistic directly. Its purpose is defined elsewhere, for example by dialogue that "
-                     "checks whether you have it (see below) or by a special rule in the game code.\n\n")
-        P.append("**Stacking:** " + ("Yes. A second application with the same duration adds its magnitude to the existing one; "
-                                     "one with a different duration is kept as a separate instance." if c.get('isStacking') else
-                                     "No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.") + "\n\n")
+            P.append("No direct stat effect. It matters elsewhere, e.g. dialogue that checks for it (see below).\n\n")
+        P.append("**Stacking:** " + ("Yes (same duration → magnitudes add up)." if c.get('isStacking') else "No (only a stronger or longer application replaces it).") + "\n\n")
         P.append(verified("condition data and game code (`ActorStatsController.java`)", VERSION))
 
         # sources
@@ -228,22 +224,18 @@ def write_condition_pages(X):
         # removal & protection
         R = []
         if any(s['who'] == 'you' and s['kind'] != 'skill' and s['chance'] is not None and X['chance_pct'](s['chance']) < 100 for s in applied):
-            caveat = (" Note that resistance also applies to beneficial conditions: it lowers the chance of receiving this one from sources with a chance below 100%."
-                      if pos else '')
+            caveat = (" Yes, it also lowers your chance of getting this *beneficial* one." if pos else '')
             if res_skill and res_skill in skills:
-                R.append(f"- **Resistance:** each level of [{skills[res_skill]['name']}](../skills/{res_skill}.md) reduces the chance of receiving this condition "
-                         f"by {consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT', 10)}% of its value (for example, a 30% chance becomes 27% at level 1). "
-                         "Effects with a 100% chance cannot be resisted." + caveat)
+                R.append(f"- **Resistance:** [{skills[res_skill]['name']}](../skills/{res_skill}.md), "
+                         f"−{consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT', 10)}% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted." + caveat)
             else:
-                R.append("- **Resistance:** spiritual conditions are not reduced by any of the three resistance skills.")
+                R.append("- **Resistance:** none; spiritual conditions ignore resistance skills.")
             if 'shadowBless' in skills:
-                R.append(f"- **[{skills['shadowBless']['name']}](../skills/shadowBless.md)** reduces the chance of receiving any condition by "
-                         f"{consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_SHADOW_BLESS', 5)}% of its value per level.")
+                R.append(f"- **[{skills['shadowBless']['name']}](../skills/shadowBless.md)** −{consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_SHADOW_BLESS', 5)}% of the chance for any condition.")
             if cid == 'spore_poison' and 'sporeImmunity' in skills:
                 R.append(f"- **[{skills['sporeImmunity']['name']}](../skills/sporeImmunity.md)** prevents this condition entirely (unless the chance is 100%).")
         if not pos and c.get('category') != 'spiritual' and 'rejuvenation' in skills and any(s['dur'] != FOREVER for s in applied if s['who'] == 'you'):
-            R.append(f"- **[{skills['rejuvenation']['name']}](../skills/rejuvenation.md):** each round, a {consts.get('PER_SKILLPOINT_INCREASE_REJUVENATION_CHANCE', 20)}% chance per "
-                     "skill level to reduce the magnitude of one random timed harmful condition by 1.")
+            R.append(f"- **[{skills['rejuvenation']['name']}](../skills/rejuvenation.md):** each round, a {consts.get('PER_SKILLPOINT_INCREASE_REJUVENATION_CHANCE', 20)}% chance per round to weaken one timed harmful condition by 1.")
         for s in removers:
             if s['kind'] == 'item': R.append(f"- **Removed by** {ilink(s['id'])} ({s['how']}).")
             elif s['kind'] == 'dialogue':
@@ -285,37 +277,28 @@ def write_condition_pages(X):
     # ---- overview
     res = lambda key: (f"[{skills[key]['name']}](../skills/{key}.md)" if key and key in skills else '–')
     L = [X['front'](f"All {len(conditions)} conditions in Andor's Trail v{VERSION} (poison, bleeding, blessings, food effects and more): what each does, what causes it, and how to remove or resist it."),
-         f"# Conditions\n\nConditions are temporary or lasting effects on your character or on enemies, such as poison, bleeding, blessings and the effects of food. "
-         f"This section lists all {len(conditions)} conditions defined in v{VERSION}, with their effects, sources and remedies.\n\n"
+         f"# Conditions\n\nPoison, bleeding, blessings, food effects: all {len(conditions)} conditions in v{VERSION}, what they do, what causes them and how to get rid of them. "
+         "~~Yes, food poisoning from raw meat is a real risk.~~\n\n"
          "**Jump to:** [How conditions work](#how-conditions-work) · [Harmful conditions](#harmful-conditions) · [Beneficial conditions](#beneficial-conditions)\n\n",
          "## How conditions work\n\n"]
-    L.append('\n<span id="categories-and-resistance"></span>\n'); L.append(X['section']('Categories and resistance', "Every condition belongs to one of four categories. The category decides which resistance skill protects against it.\n\n"
+    L.append('\n<span id="categories-and-resistance"></span>\n'); L.append(X['section']('Categories and resistance', "Each category has its own resistance skill (spiritual has none).\n\n"
              "| Category | Resistance skill | Count |\n|---|---|---|\n" + ''.join(
                  f"| {CATEGORY[k][0]} | {res(CATEGORY[k][1]) if CATEGORY[k][1] else 'None'} | {sum(1 for c in conditions.values() if c.get('category') == k)} |\n" for k in CATEGORY) +
-             f"\nEach level of a resistance skill reduces the chance of receiving a condition of that category by "
-             f"{consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT', 10)}% of the original chance, up to {consts.get('MAX_LEVEL_RESISTANCE', 7)} levels "
-             f"({consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT', 10) * consts.get('MAX_LEVEL_RESISTANCE', 7)}%). For example, an enemy with a 30% chance to poison you "
-             "has a 27% chance against one level of resistance and a 9% chance against the maximum. Effects with a 100% chance (such as most items you use yourself) "
-             "are never reduced. Resistance applies to every condition of its category, including beneficial ones from sources with a chance below 100%. "
-             f"{res('shadowBless')} reduces the chance of all conditions by "
-             f"{consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_SHADOW_BLESS', 5)}% of their value per level."))
+             f"\nEach resistance level cuts the chance by {consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_CHANCE_PERCENT', 10)}% *of its value*: a 30% poison chance becomes 27% at level 1 "
+             f"and 9% at the max ({consts.get('MAX_LEVEL_RESISTANCE', 7)}). 100% chances can't be resisted. Resistance also lowers your chance of getting *beneficial* conditions "
+             f"of that category ~~thanks, I hate it~~. {res('shadowBless')}: −{consts.get('PER_SKILLPOINT_INCREASE_RESISTANCE_SHADOW_BLESS', 5)}% of the value for every category."))
     L.append('\n<span id="magnitude-duration-and-timing"></span>\n'); L.append(X['section']('Magnitude, duration and timing',
-             "- **Magnitude** multiplies every effect of a condition. Poison with magnitude 3 deals three times the damage of magnitude 1.\n"
-             "- **Duration** is counted in rounds. In combat, a round is one turn; outside combat, a round passes every 6 seconds. "
-             "Effects marked *every round* apply at the same rate.\n"
-             "- A few conditions also have an effect *every 25 seconds*, which only happens outside combat.\n"
-             "- **Permanent** conditions (from equipment, or from story events with a duration of 999) remain until removed. "
-             "Conditions with a duration of 998 last until you rest.\n"
-             "- Harmful effects are applied before beneficial ones in each round.\n"))
+             "- **Magnitude** multiplies every effect (magnitude 3 poison = 3× the damage).\n"
+             "- **Duration** is in rounds: one combat turn, or 6 seconds outside combat.\n"
+             "- *Every 25 seconds* effects only tick outside combat.\n"
+             "- **Permanent** = from equipment or story events (duration 999); duration 998 = until you rest.\n"))
     L.append('\n<span id="stacking"></span>\n'); L.append(X['section']('Stacking',
-             "- **Stacking conditions:** a new application with the same duration as an existing one adds its magnitude to it; otherwise it is kept as a separate instance.\n"
-             "- **Non-stacking conditions:** a new application replaces the existing one only if its magnitude is higher, or equal with a longer duration. Otherwise it has no effect.\n"))
+             "- **Stacking:** same duration → magnitudes add up; different duration → separate instance.\n"
+             "- **Non-stacking:** only a higher magnitude (or same magnitude, longer duration) replaces the current one.\n"))
     L.append('\n<span id="removal-and-immunity"></span>\n'); L.append(X['section']('Removal and immunity',
-             "- **Resting** (at a bed or after being defeated) removes all timed conditions and all conditions that last until rest. Permanent conditions remain.\n"
-             "- **Removal effects:** some items and events remove every instance of a specific condition.\n"
-             "- **Immunity:** some equipment, items and events make you immune to a condition, either while equipped or for a number of rounds. "
-             "Gaining an immunity also removes the condition.\n"
-             f"- **{res('rejuvenation')}:** each round, a chance to reduce the magnitude of a random timed harmful condition by 1 (spiritual conditions excluded).\n"))
+             "- **Resting** clears all timed conditions. Permanent ones stay.\n"
+             "- Some items and events **remove** a condition outright; others give **immunity** (while equipped, or for some rounds).\n"
+             f"- {res('rejuvenation')}: each round, a chance to weaken one timed harmful condition by 1 (not spiritual ones).\n"))
     L.append(verified("game code (`ActorStatsController.java`, `SkillController.java`, `GameRoundController.java`, `Constants.java`)", VERSION))
     hdr = "| | Condition | Effect per magnitude level | Applied by |\n|---|---|---|---|\n"
     for pos, title in ((False, 'Harmful conditions'), (True, 'Beneficial conditions')):

@@ -193,3 +193,19 @@ a.mo-key:hover { background: rgba(255,140,26,.35); }
 .build-calc button { font: inherit; cursor: pointer; border: 10px solid transparent; color: var(--cb-text-bright); background: none;
   border-image: url(../assets/ui/textbutton_enabled_unpressed.png) 8 fill / 10px stretch; image-rendering: pixelated; padding: 0 .4rem; }
 .build-calc .bc-vs select { margin: .3rem 0; }
+.map-wrap .pin:target { background: var(--cb-orange); color: #0c1828 !important; animation: pinpulse 1s ease-in-out 4; z-index: 8; }
+@keyframes pinpulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(255,180,0,.9); } 50% { box-shadow: 0 0 0 10px rgba(255,180,0,0); } }
+
+/* quest stage table: long journal entries fold */
+.md-typeset details.jt { border: 0; box-shadow: none; background: none; padding: 0; margin: 0; font-size: inherit; overflow: visible; }
+.md-typeset details.jt > summary { padding: 0; background: none; font-weight: normal; cursor: pointer; min-height: 0; border: 0; }
+.md-typeset details.jt > summary::before, .md-typeset details.jt > summary::after { display: none; }
+.md-typeset details.jt .l { display: none; font-size: .75em; opacity: .7; }
+.md-typeset details.jt[open] .s { display: none; }
+.md-typeset details.jt[open] .l { display: inline; }
+.md-typeset details.jt .s, .md-typeset details.jt .l { color: inherit; }
+.md-typeset details.jt > summary { margin: 0; }
+.md-typeset .stages table:not([class]) { table-layout: fixed; width: 100%; display: table; }
+.md-typeset .stages th:nth-child(1) { width: 5.2em; }
+.md-typeset .stages th:nth-child(3) { width: 18%; }
+.md-typeset .stages th:nth-child(4) { width: 24%; }

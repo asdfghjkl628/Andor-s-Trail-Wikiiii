@@ -91,7 +91,7 @@ LEGEND_TYPES = {l[0] for l in LEGEND}
 
 _COMPASS = {'nw': 'north-west', 'ne': 'north-east', 'sw': 'south-west', 'se': 'south-east', 'n': 'north', 's': 'south', 'e': 'east', 'w': 'west'}
 def _pretty(name):
-    words = (name or '').replace('_', ' ').strip().split(' ')
+    words = re.sub(r'(?<=[A-Za-z])(?=\d)', ' ', (name or '').replace('_', ' ')).strip().split(' ')
     return ' '.join(_COMPASS.get(w.lower(), w) if i else w for i, w in enumerate(words)).capitalize()
 def _esc(s): return html.escape(str(s), quote=True)
 
@@ -235,8 +235,8 @@ def build_maps(ctx):
         canvas.save(os.path.join(DOCS, 'assets', 'maps', f'_world_{seg_id}.webp'), 'WEBP', quality=70)
         seg_md.append((len(entries), f'\n## {_pretty(seg_id)}\n\n<div class="map-wrap world" markdown="0"><img src="../assets/maps/_world_{seg_id}.webp" alt="{seg_id}" loading="lazy">{"".join(zones)}</div>\n'))
     seg_md.sort(key=lambda s: -s[0])
-    idx = [f"# World map\n\nEvery region of v{ctx['VERSION']}, assembled from the game's own map files. "
-           "Hover over a map to see its name, and click it to open that map's page.\n"] + [s[1] for s in seg_md]
+    idx = [f"# World map\n\nEvery region of v{ctx['VERSION']}, stitched together from the game's map files. Hover for a name, click to open. "
+           "~~Walking it yourself takes longer.~~\n"] + [s[1] for s in seg_md]
     idx.append("\n## All maps (A–Z)\n\n" + ''.join(f"- [{_pretty(m)}]({m}.md)\n" for m in sorted(parsed)))
     ctx['write']('maps/index.md', ''.join(idx))
 

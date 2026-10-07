@@ -4,7 +4,7 @@ description: "Strategy guides for Andor's Trail: how to allocate level-ups and s
 
 # Strategy
 
-Guidance on developing a strong character in Andor's Trail. Unlike most of this wiki, these pages are **written by hand**. The figures are taken from the game's code (v0.8.18); the recommendations are the editors' assessment and other approaches are possible.
+How to build a strong character. Unlike the rest of the wiki, these pages are **written by hand**: the numbers come from the game's code (v0.8.18), the opinions are just opinions. ~~If you disagree, you might even be right.~~
 
 <div class="grid cards" markdown>
 

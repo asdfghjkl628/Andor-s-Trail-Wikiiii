@@ -4,21 +4,21 @@ description: "Combat guidance for Andor's Trail v0.8.18: hit chance, damage resi
 
 # Combat
 
-*Written for v0.8.18. The underlying formulas are described on [Stats & Skills](../skills/index.md).*
+*Written for v0.8.18. Formulas: [Stats & Skills](../skills/index.md). Abbreviations: [Glossary](../glossary.md).*
 
-???+ section "Check the enemy's statistics before a difficult fight"
+???+ section "Check the enemy before a hard fight"
 
-    Each page on [Monsters & NPCs](../monsters/index.md) lists the enemy's attack chance, block chance, damage resistance, attack cost and class. Three values determine the outcome of most fights:
+    Every [enemy page](../monsters/index.md) lists AC, BC, DR, attack cost and class. Three things decide most fights:
 
-    - **Its block chance compared with your attack chance.** Below a difference of about 50, many attacks will miss.
-    - **Its damage resistance compared with your damage.** If its damage resistance is close to your minimum damage, many hits will deal little or no damage.
-    - **Its class.** Ghosts, constructs and demons are immune to critical hits.
+    - **Its BC vs. your AC.** Less than ~50 ahead and you'll miss a lot.
+    - **Its DR vs. your damage.** If its DR is near your minimum damage, many hits do ~nothing.
+    - **Its class.** Ghosts, constructs and demons are immune to crits.
 
-???+ section "Accuracy: aim for a difference of 50 to 100"
+???+ section "Accuracy: aim for a gap of 50–100"
 
-    Hit chance follows an S-shaped curve based on the difference between your attack chance and the target's block chance:
+    Hit chance follows an S-curve on (your AC − its BC):
 
-    | Difference | Hit chance |
+    | Gap | Hit chance |
     |---|---|
     | 0 | 21% |
     | 50 | 50% |
@@ -26,17 +26,17 @@ description: "Combat guidance for Andor's Trail v0.8.18: hit chance, damage resi
     | 150 | 87% |
     | 200 | 91% |
 
-    Increasing the difference from 50 to 100 adds about 28 percentage points of hit chance; increasing it from 150 to 200 adds about 4. Once you are 100 or more above the enemies you usually face, further accuracy has little effect, and damage or defense is the better investment.
+    50 → 100 buys ~28 points of hit chance; 150 → 200 buys ~4. Past 100 ahead, spend on damage or defense instead.
 
-???+ section "Damage resistance reduces small hits the most"
+???+ section "DR punishes small hits"
 
-    The target's damage resistance is subtracted from **every** hit. Against 10 damage resistance, a weapon dealing 8–12 damage deals 0–2 per hit, while a weapon dealing 20–25 deals 10–15. Against heavily armored enemies, a weapon with high damage per hit is preferable even if it attacks less often.
+    DR comes off **every** hit. Against 10 DR, an 8–12 weapon does 0–2 per hit; a 20–25 weapon does 10–15. Bring your hardest hitter against armored enemies, even if it swings less often. ~~Daggers vs. a golem: a long, sad afternoon.~~
 
-    The same applies in reverse: your own damage resistance ([Bark Skin](../skills/barkSkin.md), shields and armor) is most effective against enemies that make many weak attacks.
+    Same goes for you: your own DR ([Bark Skin](../skills/barkSkin.md), shields, armor) shines against enemies that make lots of weak attacks.
 
 ???+ section "Attacks per turn: breakpoints"
 
-    Attacks per turn = max AP ÷ attack cost, **rounded down**. Characters start with 10 AP, and [Combat Speed](../skills/speed.md) adds up to 2 more:
+    Attacks per turn = max AP ÷ attack cost, **rounded down**. You start with 10 AP; [Combat Speed](../skills/speed.md) adds up to 2:
 
     | Attack cost | 10 AP | 11 AP | 12 AP |
     |---|---|---|---|
@@ -46,8 +46,8 @@ description: "Combat guidance for Andor's Trail v0.8.18: hit chance, damage resi
     | 5 | 2 | 2 | 2 |
     | 6 | 1 | 1 | 2 |
 
-    The value of Combat Speed therefore depends on your weapon. With a weapon that costs 5 AP per attack, neither level adds an attack (the remaining AP can still be used to move or use items). The [Jewel of Fallhaven](../items/jewel_fallhaven.md) (attack cost −1, sold by the tailor in Fallhaven) works the same way: it is worth buying only if it reaches a new breakpoint with your weapon.
+    So Combat Speed is either a big upgrade or two wasted skill points, depending on your weapon. With a 5-AP weapon, neither level adds an attack. The [Jewel of Fallhaven](../items/jewel_fallhaven.md) (attack cost −1, sold by the tailor in Fallhaven) works the same way: check the breakpoint before paying.
 
-???+ section "Critical hits"
+???+ section "Crits need the right weapon and the right target"
 
-    Critical skill has no effect without a critical multiplier, which comes from the **weapon** (shown on its page) or from [Way of the Monk](../skills/fightstyleUnarmedUnarmored.md) when fighting unarmed. Critical hit chance has diminishing returns: 20 critical skill gives 15%, and 80 is needed for 35%. Ghosts, constructs and demons cannot receive critical hits, so a character built around critical hits should have an alternative approach for those enemies.
+    No critical multiplier, no crits. The multiplier comes from your **weapon** or, unarmed, from [Way of the Monk](../skills/fightstyleUnarmedUnarmored.md). Diminishing returns too: 20 CS gives 15%, 80 CS gives 35%. Ghosts, constructs and demons can't be crit at all, so a crit build needs a plan B. ~~"Hit it harder" is not a plan B.~~

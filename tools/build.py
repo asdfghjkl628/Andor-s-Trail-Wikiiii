@@ -52,6 +52,47 @@ cats = load_all('itemcategories')
 monsters = load_all('monsterlist')
 droplists = load_all('droplists')
 quests = load_all('questlist')
+# Hidden story flags often carry internal names ("brv_dagger_nondisplay"). Give them readable names; the original stays in the
+# page's technical information.
+FLAG_NAMES = {
+    'nondisplay': 'General story flags', 'nondisplay_2': 'General story flags 2', 'misc_nondisplay': 'Miscellaneous story flags',
+    'crossglen': 'Crossglen story flags', 'arcir': 'Elythara (Arcir) flags', 'scores': 'Score counters', 'final_cave': 'Final cave',
+    'andor_ending': 'Main quest endings', 'lava_burning': 'Lava burning timer', 'guynmart_qRpl_main': 'Guynmart Castle walkable areas',
+    'guynmart_quest_gguard': 'Guynmart garden guard', 'guynmart_qRpl_shutters': 'Guynmart Castle shutters',
+    'guynmart_q1': 'Guynmart Castle step 1', 'guynmart_q2': 'Guynmart Castle step 2', 'guynmart_Please_Never_Talk_About__': 'Guynmart Castle step 1a',
+    'guynmart_This_Mechanism_In_Forum__': 'Guynmart Castle step 1b', 'bwm17_heights': 'Blackwater Mountain heights', 'bwm17_vine': 'Blackwater Mountain vines',
+    'bwm72_corpses': 'Blackwater Mountain corpses found', 'bwm72_beginning': 'Blackwater Mountain events', 'fallhaventavern': 'Fallhaven tavern room',
+    'quick_glance_hidden_found_statue': 'Quick glance: statue found', 'quick_glance_hidden_position': 'Quick glance: position',
+    'faction_count_shadow': 'Shadow faction counter', 'faction_count_feygard': 'Feygard faction counter', 'faction_count_thieves': 'Thieves faction counter',
+    'brv_wh_delivery_nondisplay': 'Brimhaven warehouse delivery', 'brv_wh_delivery_reward_nondisplay': 'Brimhaven warehouse delivery reward',
+    'brv_wh_reward_nondisplay': 'Brimhaven warehouse inventory reward', 'll2_maps': 'Lake Laeroth maps found',
+    'dds_nd': 'Darkness in the Daylight and Shadows story flags', 'thieves_hidden': 'Thieves story flags',
+}
+_FLAG_PREFIX = {'brv': 'Brimhaven', 'bwm': 'Blackwater Mountain', 'bwmfill': 'Blackwater Mountain', 'stn': 'Stoutford', 'll2': 'Lake Laeroth',
+                'mg2': 'Mt. Galmore', 'dds': 'Darkness in the Daylight and Shadows', 'wh': 'warehouse', 'arulircave': 'Arulir cave',
+                'arulirmountain': 'Arulir mountain', 'mushroomcave': 'Mushroom cave', 'ratdom': 'Ratdom', 'sutdover': 'Sutdover',
+                'faction': 'faction', 'qrpl': '', 'q1': '', 'nd': '', 'r': ''}
+_FLAG_DROP = {'nondisplay', 'nondisplayed', 'non', 'display', 'displayed', 'hidden', 'nd', 'not', 'nondisplay2'}
+def flag_name(qid, name):
+    if qid in FLAG_NAMES: return FLAG_NAMES[qid]
+    out = _flag_name(qid, name)
+    out = out[:1].upper() + out[1:]
+    if re.search(r'(?i)nondisplay|hidden|_nd$|non_display', qid) and len(out.split()) <= 3 and not out.endswith('flags'):
+        n = re.search(r'nondisplay(\d+)$', qid)
+        out += ' story flags' + (f" {n.group(1)}" if n else '')
+    return out
+def _flag_name(qid, name):
+    nm = (name or '').strip()
+    if nm and ' ' in nm and '_' not in nm and nm.upper() != 'TODO':
+        nm = re.sub(r'(?i)\s*[-(]?\s*(non[- ]?display(ed)?|not displayed)\)?', '', nm)
+        return re.sub(r'(?i)^hidden:\s*', '', nm).strip() or qid
+    words = [w for w in re.split(r'[_\s]+', qid) if w and w.lower() not in _FLAG_DROP]
+    words = [_FLAG_PREFIX.get(w.lower(), w) for w in words]
+    out = ' '.join(w for w in words if w)
+    return (out[:1].upper() + out[1:]) if out else qid
+for _qid, _q in quests.items():
+    if not _q.get('showInLog', 0):
+        _q['_data_name'] = _q.get('name', _qid); _q['name'] = flag_name(_qid, _q.get('name'))
 conditions = load_all('actorconditions')
 conversations = {}
 for f in loaded_files('conversationlist'):
@@ -321,7 +362,7 @@ for d in ('items', 'monsters', 'quests', 'skills', 'maps', 'assets/maps'):
     shutil.rmtree(os.path.join(DOCS, d), ignore_errors=True)
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from maps import build_maps
+from maps import build_maps, _pretty
 import history as H
 hist = H.update_history(DATA, os.path.join(GAME, 'res'), VERSION)
 _names = {'items': {k: v.get('name', k) for k, v in items.items()}, 'monsters': {k: v.get('name', k) for k, v in monsters.items()},
@@ -394,7 +435,7 @@ def where(mid, n=3):
     mps = sorted(spawn_maps.get(mid, ()))
     if not mps: return ''
     regs = list(dict.fromkeys(r for r in (region_of(x) for x in mps) if r))
-    return ', '.join(regs[:n]) if regs else ', '.join(mps[:n])
+    return ', '.join(regs[:n]) if regs else ', '.join(_pretty(x) for x in mps[:n])
 in_containers = defaultdict(list)          # item -> [(map, container number, chance)]
 for mp, pg in _map_pages.items():
     for k, (cid, dl) in enumerate(pg['containers']):
@@ -552,7 +593,8 @@ for iid, it in sorted(items.items(), key=lambda kv: kv[1].get('name', kv[0]).low
 groups = defaultdict(list)
 for it, c, ic in item_rows:
     groups[(item_kind(it), c.get('name', it.get('category', 'Uncategorized')))].append((it, ic))
-L = [f"# Items\n\nEvery item in Andor's Trail v{VERSION}, all {len(items)} of them. Items are grouped by type and category. Use the search box to find a specific item.\n"]
+n_rings_idx = sum(1 for it in items.values() if it.get('category') == 'ring')
+L = [f"# Items\n\nEvery item in Andor's Trail v{VERSION}, all {len(items)} of them, {n_rings_idx} of which are rings ~~because apparently that's how many one hero needs~~. Grouped by type and category; the search box is faster.\n"]
 for kind in ('Equipment', 'Consumable', 'Other'):
     L.append(f"\n## {kind}\n")
     for (k, cname), lst in sorted(groups.items()):
@@ -706,11 +748,10 @@ for c, ids in group_ids.items():
     if multi:
         diffs = entry_differences(ids)
         P.append(f"!!! info \"{len(ids)} entries in the game data\"\n"
-                 f"    The game's data files define {len(ids)} separate characters named {md_esc(nm)}. Andor's Trail stores a character as a new entry whenever it needs "
-                 "different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. "
-                 "Some entries represent the same person at different points in the story; others are different people who share a generic name. "
+                 f"    The game data defines {len(ids)} separate characters named {md_esc(nm)}. The game makes a new entry whenever a character needs different behaviour "
+                 "(another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. "
                  + (f"Here the entries differ in: {', '.join(diffs)}. " if diffs else "These entries are identical apart from their IDs. ")
-                 + "This page combines them; each entry is described in its own section below.\n\n")
+                 + "Each entry has its own section below.\n\n")
         P.append("| Entry | Type | Location | Role |" + (" HP |" if fv else '') + "\n|---|---|---|---|" + ("---|" if fv else '') + "\n" + ''.join(
             f"| [`{x}`](#v-{x}) | {kind_of(x)} | {place_links(x, 2, pin=bool(monsters[x].get('phraseID'))) or 'Not on a map'} | {role_text(x) or '–'} |"
             + (f" {monsters[x].get('maxHP', 1) if kind_of(x) != 'NPC' else '–'} |" if fv else '') + "\n" for x in ids) + "\n")
@@ -737,14 +778,14 @@ for c, ids in group_ids.items():
             f"{span([mm.get('attackChance', 0) for mm in fm])} | {span([mm.get('blockChance', 0) for mm in fm])} | {span([mm.get('damageResistance', 0) for mm in fm])} |\n"))
 n_types = Counter(group_kind(ids) for ids in group_ids.values())
 write('monsters/index.md', front(f"Every enemy and non-player character in Andor's Trail v{VERSION}, with combat statistics, XP values, locations and roles.") +
-      f"# Monsters & NPCs\n\nThis index covers every character in Andor's Trail v{VERSION}: {n_types['Enemy']} enemies, {n_types['NPC/Enemy']} characters who can be "
-      f"spoken to and fought, and {n_types['NPC']} non-player characters (NPCs). The game data contains {len(monsters)} entries; entries that share a name are combined on one page.\n\n"
-      "| Type | Meaning |\n|---|---|\n| Enemy | Hostile on sight. |\n| NPC/Enemy | Can be spoken to, but can also be fought: a dialogue choice can start combat, "
-      "the character becomes hostile when your standing with its faction drops below zero, or another game entry with the same name is a hostile version of the character. |\n"
-      "| NPC | Can be spoken to and cannot be attacked, so it has no combat statistics. |\n\n"
-      "## Enemies\n\nSorted by HP, lowest first. Where several entries share a name, ranges are shown. AC = attack chance, BC = block chance, DR = damage resistance.\n\n"
+      f"# Monsters & NPCs\n\n{n_types['Enemy']} enemies, {n_types['NPC/Enemy']} NPCs you can also end up fighting, and {n_types['NPC']} NPCs who are safe to talk to "
+      f"~~and safe to ignore~~. Entries that share a name in the game data are combined on one page.\n\n"
+      "- **Enemy:** hostile on sight.\n- **NPC/Enemy:** talks first, may fight later (a dialogue choice, a faction turning hostile, or a hostile version of the same character).\n"
+      "- **NPC:** can't be attacked, so no combat stats.\n\n"
+      "## Enemies\n\nSorted by HP, weakest first ~~the ones at the bottom are there for a reason~~. Ranges mean several entries share the name. "
+      "Abbreviations: [glossary](../glossary.md).\n\n"
       "| | Name | Type | Class | HP | XP | Damage | AC | BC | DR |\n|---|---|---|---|---|---|---|---|---|---|\n" + ''.join(r for _, r in sorted(enemy_rows)) +
-      "\n## NPCs\n\nCharacters who cannot be attacked, in alphabetical order. The [Where is…?](../where.md) page lists them by location.\n\n"
+      "\n## NPCs\n\nCan't be attacked. Alphabetical; [Where is…?](../where.md) lists them by place.\n\n"
       "| | Name | Role | Found in |\n|---|---|---|---|\n" + ''.join(r for _, r in sorted(npc_rows)))
 _map_ctx['kind_of'] = kind_of
 json.dump({c: {'Enemy': 'enemy', 'NPC': 'NPC', 'NPC/Enemy': 'NPC who can be fought'}[group_kind(ids)] for c, ids in group_ids.items()},
@@ -1082,7 +1123,7 @@ skill_body = (skill_abbr_note + "**Learned with skill points** (in the order the
               "\n")
 write('skills/index.md', f"""# Stats & Skills
 
-How character statistics, levelling and combat work in v{VERSION}, as implemented in the game's source code. Each section can be collapsed by clicking its heading. For recommendations on how to use this information, see [Strategy](../strategy/index.md).
+How stats, levelling and combat work in v{VERSION}, straight from the game's source code ~~not from forum folklore~~. For what to *do* with it, see [Strategy](../strategy/index.md).
 """ + section('Starting stats (level 1)', start_tbl) + section('Levelling up', level_body)
   + section('How combat works', combat_body) + section(f'All skills ({len(skills)})', skill_body))
 
@@ -1129,26 +1170,51 @@ AP to change equipment during combat. Changing equipment during combat is possib
 """)
 # ---------------------------------------------------------------- glossary of abbreviations
 GLOSSARY = [
-    ('AC', 'Attack chance', 'Your accuracy; compared with the target\'s BC to decide whether an attack hits. (Not "armor class".)', 'skills/stats.md#attack-chance'),
-    ('AP', 'Action points', 'Points spent on attacking, moving and using items during a combat turn.', 'skills/stats.md#max-ap'),
-    ('BC', 'Block chance', 'Your evasion; compared with the attacker\'s AC.', 'skills/stats.md#block-chance'),
-    ('CM', 'Critical multiplier', 'How much a critical hit multiplies damage (e.g. ×2). Comes from the weapon.', 'skills/stats.md#critical-multiplier'),
-    ('CS', 'Critical skill', 'Determines the chance of a critical hit.', 'skills/stats.md#critical-skill'),
-    ('Dmg', 'Attack damage', 'The damage range of an attack (minimum to maximum).', 'skills/stats.md#attack-damage'),
+    ('AC', 'Attack chance', 'Your accuracy, compared with the target\'s BC. (Not "armor class".)', 'skills/stats.md#attack-chance'),
+    ('AD', 'Attack damage', 'Damage range of an attack, min–max. Also written Dmg.', 'skills/stats.md#attack-damage'),
+    ('AP', 'Action points', 'Spent on attacking, moving and using items in combat.', 'skills/stats.md#max-ap'),
+    ('BC', 'Block chance', 'Your evasion, compared with the attacker\'s AC.', 'skills/stats.md#block-chance'),
+    ('CM', 'Critical multiplier', 'Damage multiplier of a critical hit (e.g. ×2). Comes from the weapon.', 'skills/stats.md#critical-multiplier'),
+    ('CS', 'Critical skill', 'Sets the crit chance. ⚠ In skill lists, CS means Combat Speed.', 'skills/stats.md#critical-skill'),
+    ('Crit', 'Critical hit', 'A hit multiplied by CM.', 'skills/stats.md#critical-skill'),
     ('DR', 'Damage resistance', 'Subtracted from every hit you take.', 'skills/stats.md#damage-resistance'),
-    ('HP', 'Health points', 'Current and maximum health.', 'skills/stats.md#max-hp'),
-    ('Lv', 'Level', 'Character level (or skill level, where stated).', 'skills/index.md'),
-    ('NPC', 'Non-player character', 'A character you can talk to. Some can also be fought (NPC/Enemy).', 'monsters/index.md'),
-    ('XP / Exp', 'Experience points', 'Earned by defeating enemies and completing quests; needed to level up.', 'skills/index.md'),
-    ('Crit', 'Critical hit', 'A hit whose damage is multiplied by the CM.', 'skills/stats.md#critical-skill'),
+    ('ECC', 'Effective critical chance', 'Your actual crit chance after the CS formula.', 'skills/stats.md#critical-skill'),
+    ('HP', 'Health points', 'Current and max health.', 'skills/stats.md#max-hp'),
+    ('Lv', 'Level', 'Character level (or skill level).', 'skills/index.md'),
+    ('NPC', 'Non-player character', 'Someone you can talk to. Some can also be fought.', 'monsters/index.md'),
+    ('XP / Exp', 'Experience points', 'From kills and quests; needed to level up.', 'skills/index.md'),
+    ('PV', 'Places visited', 'From the in-game statistics screen.', None),
+    ('FQ', 'Finished quests', 'Completed quests, from the in-game statistics screen.', None),
 ]
-write('glossary.md', front("Abbreviations used on the Andor's Trail wiki and by the player community: AC, BC, DR, AP, CS, CM and more.") +
-      "# Glossary\n\nAbbreviations used across this wiki. Most are also common in the Andor's Trail community. "
-      "Each statistic is explained in full in the [stat glossary](skills/stats.md).\n\n"
-      "| Abbreviation | Stands for | Meaning |\n|---|---|---|\n" +
-      ''.join(f"| **{ab}** | [{full}]({ln}) | {md_esc(desc)} |\n" for ab, full, desc, ln in GLOSSARY) +
-      "\n**Percentages and points.** Skill descriptions that say \"+20% of weapon AC\" mean 20% of the bonus that item itself provides. "
-      "\"+9 BC\" means nine points of block chance.\n")
+GLOSS_SKILLS = [('HH', 'weaponDmg'), ('WA', 'weaponChance'), ('D', 'dodge'), ('CS', 'speed'), ('Cl', 'cleave'), ('IF', 'fortitude'), ('Ev', 'evasion'),
+                ('Re', 'regeneration'), ('WP:DA', 'weaponProficiencyDagger'), ('WP:1S', 'weaponProficiency1hsword'), ('WP:B', 'weaponProficiencyBlunt'),
+                ('AP:L', 'armorProficiencyLight'), ('FS:DW', 'fightstyleDualWield'), ('S:DW', 'specializationDualWield')]
+GLOSS_ITEMS = [('BSS', 'sword_balanced_steel'), ('BD', 'shield_blk_defender'), ('BW', None), ('Bdf', 'blade_defiler'), ('ChaR', 'chaosreaper'),
+               ('DoSP', 'dagger_shadow_priests'), ('ElyR', 'elytharan_redeemer'), ('FP', 'sword_flagstone'), ('GoW', 'gem_fire'), ('GCoR', 'clmr_ruin'),
+               ('BotGT', 'globetrotter_boots'), ('GoLF', 'gloves_life'), ('GoSH', 'graxe_shatter'), ('JoF', 'jewel_fallhaven'), ('HoF', 'Helm_foreseeing'),
+               ('HS', 'hunters_sword'), ('MT', 'marrowtaint'), ('NotU', 'necklace_undead'), ('OrT', 'ortholion_reward'), ('PRoB', 'ring_polished_backstab'),
+               ('PRoP', 'polished_ring_protector'), ('QsD', 'quickdagger1'), ('RoFLS', 'ring_shadow1'), ('RoLS', 'ring_shadow0'), ('RoL', 'rapier_lifesteal'),
+               ('RoP', 'ring_protector'), ('SpH', 'haub_serp'), ('ShaF', 'shadowfang'), ('SRoV', 'valugha_gown'), ('SoSR', 'clouded_rage'),
+               ('VSH', 'valugha_hat'), ('VR', 'ring_villain'), ('WoB', 'whip_bind'), ('YN', 'yczorah2')]
+FORUM_ABBR = "https://andorstrail.com/viewtopic.php?t=7651"
+def _gl_item(ab, iid):
+    if iid is None: return f"| **{ab}** | Blackwater equipment (the Blackwater gear set) |\n"
+    if iid not in items: return ''
+    return f"| **{ab}** | [{md_esc(items[iid].get('name', iid))}](items/{iid}.md) |\n"
+write('glossary.md', front("Abbreviations used on the Andor's Trail wiki and forum: AC, BC, DR, AP, CS, CM, skill and item short names like JoF, IF and WA.") +
+      "# Glossary\n\nShort forms used on this wiki and by the community ~~because typing “Polished ring of backstabbing” every time gets old~~. "
+      f"Community short forms are from the forum thread [Common Acronyms and Abbreviations]({FORUM_ABBR}).\n\n"
+      "## Stats\n\n| Short | Stands for | Meaning |\n|---|---|---|\n" +
+      ''.join(f"| **{ab}** | {f'[{full}]({ln})' if ln else full} | {md_esc(desc)} |\n" for ab, full, desc, ln in GLOSSARY) +
+      "\n## Skills\n\nOn the forum, skills are written as *short form:level*, e.g. `IF:4` = Increased Fortitude level 4. "
+      "Proficiencies and fighting styles use a prefix: **WP:** weapon proficiency, **AP:** armor proficiency, **FS:** fighting style, **S:** specialization.\n\n"
+      "| Short | Skill |\n|---|---|\n" + ''.join(f"| **{ab}** | [{skills[sid]['name']}](skills/{sid}.md) |\n" for ab, sid in GLOSS_SKILLS if sid in skills) +
+      "\n## Items\n\n| Short | Item |\n|---|---|\n" + ''.join(_gl_item(ab, iid) for ab, iid in GLOSS_ITEMS) +
+      "\n## Reading a forum character summary\n\nPlayers often post their character like this:\n\n"
+      "```\nLevel:75, XP:7656192, PV:866, FQ:105\nHP:226, AC:255, AD:47-61, AP:3, ECC:23%, CM:3.0, BC:192, DR:3\nHH:1, WA:1, D:1, CS:2, Cl:1, IF:4, Ev:3, Re:2, FS:DW:2, S:DW:1\n```\n\n"
+      "Line 1 is progress (level, XP, places visited, finished quests), line 2 is combat stats (*AP* here appears to be the attack cost, since max AP starts at 10), "
+      "line 3 is skills with their levels. Equipment is listed with the item short forms above.\n\n"
+      f"Sources: [Common Acronyms and Abbreviations]({FORUM_ABBR}), Andor's Trail forum.\n")
 
 # ---------------------------------------------------------------- "Where is…?" page
 def _letter(n): c = (n[:1] or '#').upper(); return c if c.isalpha() else '#'
@@ -1318,20 +1384,21 @@ open(os.path.join(DATA, 'VERSION'), 'w').write(VERSION + '\n')
 n_rings = sum(1 for it in items.values() if it.get('category') == 'ring')
 write('index.md', front(f"An unofficial reference wiki for Andor's Trail v{VERSION}: items, monsters and NPCs, skills, quests and maps, generated from the game's data files.") + f"""# Andor's Trail Wiki
 
-A reference wiki for **Andor's Trail**, an open-source role-playing game in which the player searches for their missing brother, Andor.
+A wiki for **Andor's Trail**, the open-source RPG where you set out to find your brother Andor ~~and end up running errands for half the continent~~.
 
-All content is generated from the game's own data files and source code, so values on this wiki match those used by the game. When the developers publish a new release, the wiki is rebuilt automatically within an hour. Each page states the game version it describes. This build covers **v{VERSION}**, with version history back to v0.7.0.
+Everything here is generated from the game's own data and code, so the numbers are the game's numbers. New release? The wiki rebuilds itself within the hour. This build covers **v{VERSION}**, with history back to v0.7.0.
 
 <div class="grid cards" markdown>
 
-- **[Items](items/index.md)**<br>{len(items)} items, including weapons, armor, jewelry and consumables
-- **[Monsters & NPCs](monsters/index.md)**<br>Every enemy and non-player character, with statistics, locations and roles
-- **[Stats & Skills](skills/index.md)**<br>Character statistics, levelling, combat formulas and all {len(skills)} skills
-- **[Conditions](conditions/index.md)**<br>All {len(conditions)} conditions, such as poison, bleeding and blessings: effects, causes and remedies
-- **[Strategy](strategy/index.md)**<br>Guidance on character builds, levelling and combat
-- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} journal quests with every stage, plus the hidden quest flags behind them
-- **[World map](maps/index.md)**<br>{n_maps} maps with enemies, NPCs, containers and connections
-- **[Version history](versions/index.md)**<br>Changes in every release since v0.7.0
+- **[Items](items/index.md)**<br>{len(items)} items, from bread to legendaries
+- **[Monsters & NPCs](monsters/index.md)**<br>Who to fight, who to talk to, and where they are
+- **[Stats & Skills](skills/index.md)**<br>How the numbers work, plus all {len(skills)} skills
+- **[Conditions](conditions/index.md)**<br>Poison, bleeding, blessings: what they do and how to get rid of them
+- **[Strategy](strategy/index.md)**<br>Builds, levelling and combat advice
+- **[Quests](quests/index.md)**<br>{sum(1 for q in quests.values() if q.get('showInLog', 0))} quests, every stage, every route
+- **[World map](maps/index.md)**<br>{n_maps} maps, every enemy, every chest
+- **[Glossary](glossary.md)**<br>AC, BC, DR, JoF… what all the abbreviations mean
+- **[Version history](versions/index.md)**<br>What every release since v0.7.0 changed
 
 </div>
 
@@ -1340,12 +1407,13 @@ All content is generated from the game's own data files and source code, so valu
 # point links at non-canonical entry IDs to the combined character page (section anchor #v-<id>)
 _alias = {x: c for x, c in canon_of.items() if x != c}
 _mlink = re.compile(r'(monsters/)([A-Za-z0-9_\-]+)(\.md|/)(?![#\w])')
+_maplink = re.compile(r'\[([A-Za-z0-9_]+)\]\(((?:\.\./)*)maps/\1\.md')
 def _fix_links(mm):
     x = mm.group(2)
     return f"{mm.group(1)}{_alias[x]}{mm.group(3)}#v-{x}" if x in _alias else mm.group(0)
 for _f in glob.glob(os.path.join(DOCS, '**', '*.md'), recursive=True):
     _t = open(_f, encoding='utf-8').read()
-    _n = _mlink.sub(_fix_links, _t)
+    _n = _maplink.sub(lambda mm: f"[{_pretty(mm.group(1))}]({mm.group(2)}maps/{mm.group(1)}.md", _mlink.sub(_fix_links, _t))
     if _n != _t: open(_f, 'w', encoding='utf-8').write(_n)
 _left = [os.path.relpath(f, DOCS) for f in glob.glob(os.path.join(DOCS, '**', '*.md'), recursive=True)
          if re.search(r'%\d+\$[,.\d]*[dsf]', open(f, encoding='utf-8').read())]

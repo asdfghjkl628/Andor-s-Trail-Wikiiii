@@ -47,6 +47,14 @@
     // a character's type may still be loading: try again on the next hover
     a.dataset.hint = (kind === 'character' && !chars) ? 'pending' : 'done';
   });
-  function init() { if (document.querySelector('a[href*="monsters/"]')) loadChars(); }
+  // quest pages: following a link to #route-N opens that stage's collapsed details
+  function openRoute() {
+    var m = location.hash.match(/^#(route-\d+)$/); if (!m) return;
+    var a = document.getElementById(m[1]); var d = a && a.parentElement && a.parentElement.nextElementSibling;
+    while (d && d.tagName !== 'DETAILS') d = d.nextElementSibling;
+    if (d) { d.open = true; d.scrollIntoView(); }
+  }
+  window.addEventListener('hashchange', openRoute);
+  function init() { openRoute(); if (document.querySelector('a[href*="monsters/"]')) loadChars(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
