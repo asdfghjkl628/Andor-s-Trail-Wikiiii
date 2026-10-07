@@ -1,3 +1,7 @@
+---
+description: "Mountainlake18 is an outdoor location in Andor's Trail, near Remgard (settlement). Enemies: Turtle, Jellyfish, Fish. Exits to Mountainlake20, Mountainlake17, Mountainlake15."
+---
+
 # Mountainlake18
 
 <div class="infobox" markdown>
@@ -21,15 +25,15 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake18.webp" alt="Map of Mountainlake18" width="256" height="480" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../mountainlake17/#place-north2" title="Exit to Mountainlake17" style="left:12.500%;top:93.333%;width:75.000%;height:6.667%"></a><a id="place-west" class="mo mo-mapchange" href="../mountainlake15/#place-east" title="Exit to Mountainlake15" style="left:0.000%;top:0.000%;width:12.500%;height:93.333%"></a><a id="place-east" class="mo mo-mapchange" href="../mountainlake20/#place-west" title="Exit to Mountainlake20" style="left:87.500%;top:6.667%;width:12.500%;height:86.667%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-18" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))" style="left:12.500%;top:0.000%;width:75.000%;height:100.000%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-18" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))" style="left:0.000%;top:86.667%;width:100.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Eel, Fish, Jellyfish, Squid, Turtle" style="left:25.000%;top:13.333%;width:50.000%;height:73.333%"></span><a class="mob" href="../../monsters/ll2_fish4/" title="Fish" style="left:25.000%;top:20.000%;width:12.500%;height:6.667%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/ll2_jelly1/" title="Jellyfish" style="left:37.500%;top:46.667%;width:12.500%;height:6.667%"><img src="../../assets/icons/monsters/monsters_nut_33.png" alt="Jellyfish"></a><a class="mob" href="../../monsters/ll2_squid1/" title="Squid" style="left:25.000%;top:13.333%;width:12.500%;height:6.667%"><img src="../../assets/icons/monsters/monsters_nut_2.png" alt="Squid"></a><a class="pin pin-exit" href="#key-1" style="left:93.750%;top:50.000%" title="Exit (east): to [Mountainlake20](../mountainlake20.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:96.667%" title="Exit (south): to [Mountainlake17](../mountainlake17.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:6.250%;top:46.667%" title="Exit (west): to [Mountainlake15](../mountainlake15.md)">3</a><a class="pin pin-script" href="#key-4" style="left:50.000%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))">4</a><a class="pin pin-script" href="#key-4" style="left:50.000%;top:90.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/mountainlake18.webp" alt="Map of Mountainlake18" width="256" height="480" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../mountainlake17/#place-north2" title="Exit to Mountainlake17" style="left:12.500%;top:93.333%;width:75.000%;height:6.667%"></a><a id="place-west" class="mo mo-mapchange" href="../mountainlake15/#place-east" title="Exit to Mountainlake15" style="left:0.000%;top:0.000%;width:12.500%;height:93.333%"></a><a id="place-east" class="mo mo-mapchange" href="../mountainlake20/#place-west" title="Exit to Mountainlake20" style="left:87.500%;top:6.667%;width:12.500%;height:86.667%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-18" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))" style="left:12.500%;top:0.000%;width:75.000%;height:100.000%"></a><a class="mo mo-script" href="../../quests/ll2_maps/#stage-18" title="Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))" style="left:0.000%;top:86.667%;width:100.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Eel, Fish, Jellyfish, Squid, Turtle" style="left:25.000%;top:13.333%;width:50.000%;height:73.333%"></span><a class="mob" href="../../monsters/brv_fish1/#v-ll2_fish4" title="Fish" style="left:25.000%;top:20.000%;width:12.500%;height:6.667%"><img src="../../assets/icons/monsters/monsters_nut_18.png" alt="Fish"></a><a class="mob" href="../../monsters/ll2_jelly1/" title="Jellyfish" style="left:37.500%;top:46.667%;width:12.500%;height:6.667%"><img src="../../assets/icons/monsters/monsters_nut_33.png" alt="Jellyfish"></a><a class="mob" href="../../monsters/ll2_squid1/" title="Squid" style="left:25.000%;top:13.333%;width:12.500%;height:6.667%"><img src="../../assets/icons/monsters/monsters_nut_2.png" alt="Squid"></a><a class="pin pin-exit" href="#key-1" style="left:93.750%;top:50.000%" title="Exit (east): to [Mountainlake20](mountainlake20.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:96.667%" title="Exit (south): to [Mountainlake17](mountainlake17.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:6.250%;top:46.667%" title="Exit (west): to [Mountainlake15](mountainlake15.md)">3</a><a class="pin pin-script" href="#key-4" style="left:50.000%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))">4</a><a class="pin pin-script" href="#key-4" style="left:50.000%;top:90.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s))">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Mountainlake20](../mountainlake20.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Mountainlake17](../mountainlake17.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Mountainlake15](../mountainlake15.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Mountainlake20](mountainlake20.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Mountainlake17](mountainlake17.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Mountainlake15](mountainlake15.md) |
     | <span id="key-4"></span>4 | Quest trigger | Scripted event: advances the quest: hidden story flag “ll2_maps” to stage 18 (“18=mountainlake18”) (+1 more quest(s)) |
 
 
@@ -47,15 +51,15 @@
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/ll2_fish3.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/ll2_fish4.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 3 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/ll2_fish1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/ll2_fish5.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/ll2_fish2.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/ll2_fish6.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid |
+| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
+| [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 3 | shares spawn with Fish, Jellyfish, Squid, Turtle |
+| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Turtle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -85,19 +89,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=mountainlake18.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

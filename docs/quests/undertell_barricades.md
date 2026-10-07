@@ -1,3 +1,7 @@
+---
+description: "You shall pass is a quest in Andor's Trail, started by Myrelis (galmore_58). 14 stages, 7,204 XP in total. I asked Myrelis how to get the barricades to Undertell removed and he told me to meet his friend Shannal inside the beach-scene house."
+---
+
 # You shall pass
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 160) |
 | **Started by** | [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) |
-| **NPCs involved** | [Bela](../monsters/bela_2.md), [Bela](../monsters/bela.md), [Benbyr](../monsters/benbyr.md), [Drunkard](../monsters/drunkard.md), [Myrelis](../monsters/mg_myrelis.md), [Shannal](../monsters/shannal.md) |
+| **NPCs involved** | [Bela](../monsters/bela.md), [Bela](../monsters/bela.md#v-bela_2), [Benbyr](../monsters/benbyr.md), [Drunkard](../monsters/drunkard.md), [Myrelis](../monsters/mg_myrelis.md), [Shannal](../monsters/shannal.md) |
 | **Locations** | [crossroads](../maps/crossroads.md), [fallhaven_nw](../maps/fallhaven_nw.md), [galmore_58](../maps/galmore_58.md), [mt_galmore_railhouse](../maps/mt_galmore_railhouse.md) |
 | **Total XP** | 7,204 |
 | **Related quests** | 4 |
@@ -58,7 +62,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 | <span id="stage-120"></span>120 | Benbyr became terrified and handed over 5000 gold. | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | stage 90 | gives 5000× [Gold coins](../items/gold.md) |
 | <span id="stage-130"></span>130 | I gave one of Lodar's Potion of Heightened Senses to drunkard outside the Fallhaven tavern, and he remembered his time in Undertell. | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | have 5,000 gold | – |
 | <span id="stage-140"></span>140 | I assured Rain that Shannal was at peace and gave him the 5000 gold Benbyr had given me. He told me to keep the money safe with Bela until his hangover passed. | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | pay 5,000 gold, stage 130 | gives 4850× [Gold coins](../items/gold.md) |
-| <span id="stage-150"></span>150 | I entrusted 4850 gold to Bela for safekeeping. She agreed to hold it. | [Bela](../monsters/bela_2.md)<br>[Bela](../monsters/bela.md) | pay 4,850 gold, stage 140 | removes monsters from fallhaven_nw<br>spawns monsters on fallhaven_nw |
+| <span id="stage-150"></span>150 | I entrusted 4850 gold to Bela for safekeeping. She agreed to hold it. | [Bela](../monsters/bela.md#v-bela_2)<br>[Bela](../monsters/bela.md) | pay 4,850 gold, stage 140 | removes monsters from fallhaven_nw<br>spawns monsters on fallhaven_nw |
 | <span id="stage-160"></span>160 | Shannal thanked me for helping Rain and warned me to be careful. She removed the barricades in front of the entrance to Undertell. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 58](../maps/galmore_58.md).</span><br><span class="qnote">🗺️ Part of [Galmore 58](../maps/galmore_58.md) visibly changes.</span> | [Shannal](../monsters/shannal.md) ([mt_galmore_railhouse](../maps/mt_galmore_railhouse.md)) | stage 150 | 7,204 XP |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
@@ -117,7 +121,7 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 
 ???+ note "Stage 150: 2 routes"
 
-    1. Talk to [Bela](../monsters/bela_2.md) → choose “Please keep these 4,850 gold coins for safekeeping. Rain asked for you until he gets over his hangover,…” — **conditions:** latest stage of [You shall pass](../quests/undertell_barricades.md#stage-140) is 140; pay 4,850 gold → **stage 150**; also removes monsters from fallhaven_nw, spawns monsters on fallhaven_nw. NPC: “Definitely. Count on me. Glad you could help him, the poor sod.”
+    1. Talk to [Bela](../monsters/bela.md#v-bela_2) → choose “Please keep these 4,850 gold coins for safekeeping. Rain asked for you until he gets over his hangover,…” — **conditions:** latest stage of [You shall pass](../quests/undertell_barricades.md#stage-140) is 140; pay 4,850 gold → **stage 150**; also removes monsters from fallhaven_nw, spawns monsters on fallhaven_nw. NPC: “Definitely. Count on me. Glad you could help him, the poor sod.”
     2. Talk to [Bela](../monsters/bela.md) → choose “Please keep these 4,850 gold coins for safekeeping. Rain asked for you until he gets over his hangover,…” — **conditions:** reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90); latest stage of [You shall pass](../quests/undertell_barricades.md#stage-140) is 140; pay 4,850 gold → **stage 150**; also removes monsters from fallhaven_nw, spawns monsters on fallhaven_nw. NPC: “Definitely. Count on me. Glad you could help him, the poor sod.”
 
 ???+ note "Stage 160: 1 route"
@@ -143,23 +147,23 @@ Start with [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_barricades.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,4 +1,10 @@
+---
+description: "Circe is a non-player character (NPC) in Andor's Trail, found in mountainlake_circe."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } Circe
+
+**Where to find Circe:** [mountainlake_circe](../maps/mountainlake_circe.md#pin-npc-circe)
 
 <div class="infobox" markdown>
 
@@ -6,43 +12,12 @@
 
 | | |
 |---|---|
-| **Monster ID** | `circe` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | mountainlake_circe |
+| **Entry ID** | `circe` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [mountainlake_circe](../maps/mountainlake_circe.md) | – | 1 | – |
-
 
 ## Quests
 
@@ -50,7 +25,7 @@
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Circe. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Circe. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/circe.json" data-npc="Circe" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -110,7 +85,7 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - “He came ashore. With all his men. They vanished. You have pigs.” → [ll2_circe_34](#d-ll2_circe_34)
 
-    <span id="d-ll2_circe_12"></span>**`ll2_circe_12`** [Pig](../monsters/ll2_circe_pig.md): “Hrnnk!”
+    <span id="d-ll2_circe_12"></span>**`ll2_circe_12`** [Pig](../monsters/pig.md#v-ll2_circe_pig): “Hrnnk!”
 
     - “What do you say?” → [ll2_circe_13](#d-ll2_circe_13)
 
@@ -135,7 +110,7 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - Next → [ll2_circe_75](#d-ll2_circe_75)
 
-    <span id="d-ll2_circe_35"></span>**`ll2_circe_35`** [Pig](../monsters/ll2_circe_pig.md): “HRNNK! HRRNNK! HRAAANK!”
+    <span id="d-ll2_circe_35"></span>**`ll2_circe_35`** [Pig](../monsters/pig.md#v-ll2_circe_pig): “HRNNK! HRRNNK! HRAAANK!”
 
     - Next → [ll2_circe_36](#d-ll2_circe_36)
 
@@ -173,7 +148,7 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - “Can they be bargained with?” → [ll2_circe_77](#d-ll2_circe_77)
 
-    <span id="d-ll2_circe_38"></span>**`ll2_circe_38`** [Pig](../monsters/ll2_circe_pig.md): “Snort! Hrnnk! Oink!”
+    <span id="d-ll2_circe_38"></span>**`ll2_circe_38`** [Pig](../monsters/pig.md#v-ll2_circe_pig): “Snort! Hrnnk! Oink!”
 
     - Next → [ll2_circe_39](#d-ll2_circe_39)
 
@@ -216,7 +191,7 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - Next → [ll2_circe_82](#d-ll2_circe_82)
 
-    <span id="d-ll2_circe_40"></span>**`ll2_circe_40`** [Pig](../monsters/ll2_circe_pig.md): “SQUEE!”
+    <span id="d-ll2_circe_40"></span>**`ll2_circe_40`** [Pig](../monsters/pig.md#v-ll2_circe_pig): “SQUEE!”
 
     - “That's definitely him. Turn them back.” → [ll2_circe_41](#d-ll2_circe_41)
 
@@ -248,7 +223,7 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - Next → [ll2_circe_86](#d-ll2_circe_86)
 
-    <span id="d-ll2_circe_42"></span>**`ll2_circe_42`** [Pig](../monsters/ll2_circe_pig.md): “HRNNK!”
+    <span id="d-ll2_circe_42"></span>**`ll2_circe_42`** [Pig](../monsters/pig.md#v-ll2_circe_pig): “HRNNK!”
 
     - “Looks like he says no. Change them back - NOW!” → [ll2_circe_43](#d-ll2_circe_43)
 
@@ -280,7 +255,7 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - Next → [ll2_circe_93a](#d-ll2_circe_93a)
 
-    <span id="d-ll2_circe_101"></span>**`ll2_circe_101`** [Captain Burry](../monsters/ll2_captain_0.md): “We should leave now.”
+    <span id="d-ll2_circe_101"></span>**`ll2_circe_101`** [Captain Burry](../monsters/ll2_captain.md#v-ll2_captain_0): “We should leave now.”
 
     - “Thanks for all.” → *conversation ends*
 
@@ -288,11 +263,11 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 
     - Next → [ll2_circe_46](#d-ll2_circe_46)
 
-    <span id="d-ll2_circe_93a"></span>**`ll2_circe_93a`** [Captain Burry](../monsters/ll2_captain_0.md): “Sounds promising.”
+    <span id="d-ll2_circe_93a"></span>**`ll2_circe_93a`** [Captain Burry](../monsters/ll2_captain.md#v-ll2_captain_0): “Sounds promising.”
 
     - Next → [ll2_circe_94](#d-ll2_circe_94)
 
-    <span id="d-ll2_circe_46"></span>**`ll2_circe_46`** [Captain Burry](../monsters/ll2_captain_0.md): “And another thing, you curly-tailed tyrannesse...” — **effects:** spawns monsters on mountainlake_circe, spawns monsters on mountainlake_circe, sets stage 34 of [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-34), removes monsters from mountainlake_circe
+    <span id="d-ll2_circe_46"></span>**`ll2_circe_46`** [Captain Burry](../monsters/ll2_captain.md#v-ll2_captain_0): “And another thing, you curly-tailed tyrannesse...” — **effects:** spawns monsters on mountainlake_circe, spawns monsters on mountainlake_circe, sets stage 34 of [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-34), removes monsters from mountainlake_circe
 
     - Next → [ll2_circe_47](#d-ll2_circe_47)
 
@@ -336,32 +311,11 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `circe` |
+    | Entry ID | `circe` |
     | Spawn group | `circe` |
     | Loot table | – |
     | Conversation | `circe` |
@@ -382,6 +336,27 @@ Set up your situation (quest stages, items, kills…), then talk to Circe. The s
      "phraseID": "circe"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=circe.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

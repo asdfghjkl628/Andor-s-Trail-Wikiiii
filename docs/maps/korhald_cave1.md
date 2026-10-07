@@ -1,3 +1,7 @@
+---
+description: "Korhald cave1 is an indoor location in Andor's Trail. Exits to Korhald cave outdoor1, Korhald cave2, Korhald cave bear."
+---
+
 # Korhald cave1
 
 <div class="infobox" markdown>
@@ -18,15 +22,15 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/korhald_cave1.webp" alt="Map of Korhald cave1" width="256" height="288" loading="lazy"><a id="place-cave_exit" class="mo mo-mapchange" href="../korhald_cave_outdoor1/#place-cave_enter" title="Exit to Korhald cave outdoor1" style="left:25.000%;top:88.889%;width:12.500%;height:11.111%"></a><a id="place-west" class="mo mo-mapchange" href="../korhald_cave2/#place-east" title="Exit to Korhald cave2" style="left:0.000%;top:33.333%;width:12.500%;height:11.111%"></a><a class="mo mo-script" href="../../quests/nondisplay/#stage-46" title="Scripted event: advances the quest: hidden story flag “nondisplay” to stage 46 (“I have been to the Korhald cave - thanks to my map.”)" style="left:12.500%;top:77.778%;width:37.500%;height:11.111%"></a><a id="place-bear" class="mo mo-mapchange" href="../korhald_cave_bear/#place-tomb" title="Exit to Korhald cave bear" style="left:25.000%;top:22.222%;width:12.500%;height:11.111%"></a><a class="pin pin-exit" href="#key-1" style="left:31.250%;top:94.444%" title="Exit (south): to [Korhald cave outdoor1](../korhald_cave_outdoor1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:6.250%;top:38.889%" title="Exit (west): to [Korhald cave2](../korhald_cave2.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:31.250%;top:27.778%" title="Exit (stairs / passage): to [Korhald cave bear](../korhald_cave_bear.md)">3</a><a class="pin pin-script" href="#key-4" style="left:31.250%;top:83.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “nondisplay” to stage 46 (“I have been to the Korhald cave - thanks to my map.”)">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/korhald_cave1.webp" alt="Map of Korhald cave1" width="256" height="288" loading="lazy"><a id="place-cave_exit" class="mo mo-mapchange" href="../korhald_cave_outdoor1/#place-cave_enter" title="Exit to Korhald cave outdoor1" style="left:25.000%;top:88.889%;width:12.500%;height:11.111%"></a><a id="place-west" class="mo mo-mapchange" href="../korhald_cave2/#place-east" title="Exit to Korhald cave2" style="left:0.000%;top:33.333%;width:12.500%;height:11.111%"></a><a class="mo mo-script" href="../../quests/nondisplay/#stage-46" title="Scripted event: advances the quest: hidden story flag “nondisplay” to stage 46 (“I have been to the Korhald cave - thanks to my map.”)" style="left:12.500%;top:77.778%;width:37.500%;height:11.111%"></a><a id="place-bear" class="mo mo-mapchange" href="../korhald_cave_bear/#place-tomb" title="Exit to Korhald cave bear" style="left:25.000%;top:22.222%;width:12.500%;height:11.111%"></a><a class="pin pin-exit" href="#key-1" style="left:31.250%;top:94.444%" title="Exit (south): to [Korhald cave outdoor1](korhald_cave_outdoor1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:6.250%;top:38.889%" title="Exit (west): to [Korhald cave2](korhald_cave2.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:31.250%;top:27.778%" title="Exit (stairs / passage): to [Korhald cave bear](korhald_cave_bear.md)">3</a><a class="pin pin-script" href="#key-4" style="left:31.250%;top:83.333%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “nondisplay” to stage 46 (“I have been to the Korhald cave - thanks to my map.”)">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Korhald cave outdoor1](../korhald_cave_outdoor1.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Korhald cave2](../korhald_cave2.md) |
-    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Korhald cave bear](../korhald_cave_bear.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Korhald cave outdoor1](korhald_cave_outdoor1.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Korhald cave2](korhald_cave2.md) |
+    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Korhald cave bear](korhald_cave_bear.md) |
     | <span id="key-4"></span>4 | Quest trigger | Scripted event: advances the quest: hidden story flag “nondisplay” to stage 46 (“I have been to the Korhald cave - thanks to my map.”) |
 
 
@@ -64,19 +68,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

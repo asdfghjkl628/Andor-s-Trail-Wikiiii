@@ -1,3 +1,7 @@
+---
+description: "Polished gem is a ordinary gem in Andor's Trail. How to get it: monster drops, shops, containers, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_misc_2.png){ .sprite } Polished gem
 
 *Ordinary gem.*
@@ -27,16 +31,16 @@
 | [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 1 | blackwater_mountain42 |
 | [Feygard scout](../monsters/feygard_scout.md) | 100% | 1-3 | Crossroads Guardhouse |
 | [Thief](../monsters/gison_thief1.md) | 20% | 1 | mywildcave4 |
-| [Thief](../monsters/gison_thief2.md) | 20% | 1 | mywildcave4 |
-| [Thief](../monsters/gison_thief3.md) | 20% | 1 | – |
+| [Thief](../monsters/gison_thief1.md#v-gison_thief2) | 20% | 1 | mywildcave4 |
+| [Thief](../monsters/gison_thief1.md#v-gison_thief3) | 20% | 1 | – |
 | [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 10% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
 | [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 10% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
 | [Restless dead](../monsters/restless_dead.md) | 10% | 1 | Prim, Blackwater Mountain |
 | [Grave spawn](../monsters/grave_spawn.md) | 10% | 1 | Prim, Blackwater Mountain |
 | [Glowing mudfiend](../monsters/elm_fiend1.md) | 10% | 0-4 | elm5f_2, elm_2f_1, elm_3f |
 | [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 10% | 0-4 | elm5f_2, elm_2f_1, elm_3f |
-| [Restless dead](../monsters/bwm_dead.md) | 10% | 1 | Blackwater Mountain |
-| [Grave spawn](../monsters/bwm_grave_spawn.md) | 10% | 1 | Blackwater Mountain |
+| [Restless dead](../monsters/restless_dead.md#v-bwm_dead) | 10% | 1 | Blackwater Mountain |
+| [Grave spawn](../monsters/grave_spawn.md#v-bwm_grave_spawn) | 10% | 1 | Blackwater Mountain |
 | [Rabid wolf](../monsters/rabid_wolf.md) | 5% | 1 | Fallhaven |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 5% | 1 | Fallhaven |
 | [Cave troll shaman](../monsters/cave_troll_4.md) | 5% | 1 | lakecave0, lakecave2 |
@@ -79,7 +83,7 @@
 
 ### Quest & dialogue rewards
 
-- From [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/ortholion_guard6.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) (2×)
+- From [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) (2×)
 - From stepping on a trigger on [arulircave5](../maps/arulircave5.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250) (90%)
 
 
@@ -111,19 +115,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem3.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

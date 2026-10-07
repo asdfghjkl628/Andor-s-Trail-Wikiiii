@@ -1,3 +1,7 @@
+---
+description: "Korhald cave bear is an indoor location in Andor's Trail. Enemies: Aggressive cave bat, Aggressive bear. Exits to Korhald cave1."
+---
+
 # Korhald cave bear
 
 <div class="infobox" markdown>
@@ -19,13 +23,13 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/korhald_cave_bear.webp" alt="Map of Korhald cave bear" width="320" height="320" loading="lazy"><a id="place-tomb" class="mo mo-mapchange" href="../korhald_cave1/#place-bear" title="Exit to Korhald cave1" style="left:80.000%;top:90.000%;width:10.000%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Aggressive bear" style="left:30.000%;top:30.000%;width:10.000%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Aggressive cave bat" style="left:20.000%;top:40.000%;width:60.000%;height:40.000%"></span><a class="mob" href="../../monsters/cave_bear/" title="Aggressive bear" style="left:30.000%;top:30.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_242.png" alt="Aggressive bear"></a><a class="mob" href="../../monsters/cavebat5/" title="Aggressive cave bat" style="left:50.000%;top:60.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_tometik4_4.png" alt="Aggressive cave bat"></a><a class="pin pin-exit" href="#key-1" style="left:85.000%;top:95.000%" title="Exit (southeast): to [Korhald cave1](../korhald_cave1.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/korhald_cave_bear.webp" alt="Map of Korhald cave bear" width="320" height="320" loading="lazy"><a id="place-tomb" class="mo mo-mapchange" href="../korhald_cave1/#place-bear" title="Exit to Korhald cave1" style="left:80.000%;top:90.000%;width:10.000%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Aggressive bear" style="left:30.000%;top:30.000%;width:10.000%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Aggressive cave bat" style="left:20.000%;top:40.000%;width:60.000%;height:40.000%"></span><a class="mob" href="../../monsters/cave_bear/" title="Aggressive bear" style="left:30.000%;top:30.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_242.png" alt="Aggressive bear"></a><a class="mob" href="../../monsters/cavebat5/" title="Aggressive cave bat" style="left:50.000%;top:60.000%;width:10.000%;height:10.000%"><img src="../../assets/icons/monsters/monsters_tometik4_4.png" alt="Aggressive cave bat"></a><a class="pin pin-exit" href="#key-1" style="left:85.000%;top:95.000%" title="Exit (southeast): to [Korhald cave1](korhald_cave1.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southeast) | to [Korhald cave1](../korhald_cave1.md) |
+    | <span id="key-1"></span>1 | Exit (southeast) | to [Korhald cave1](korhald_cave1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -62,19 +66,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=korhald_cave_bear.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Much water is a quest in Andor's Trail, started by walking into a blocked passage on brimhaven_brother1_to_2. 17 stages, 1,500 XP in total. I found two not very bright brothers in a cellar of their house. They seemed to be talking about some sinister plan."
+---
+
 # Much water
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 200) |
 | **Started by** | walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) |
-| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Alvies](../monsters/brv_alvies.md), [Attohead](../monsters/brv_attohead.md), [Guard](../monsters/brv_exit_guard.md), [Mustura](../monsters/brv_guard_captain.md) |
+| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Alvies](../monsters/brv_alvies.md), [Attohead](../monsters/brv_attohead.md), [Guard](../monsters/guard.md#v-brv_exit_guard), [Mustura](../monsters/brv_guard_captain.md) |
 | **Locations** | [brimhaven3](../maps/brimhaven3.md), [brimhaven4](../maps/brimhaven4.md), [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md), [brimhaven_house1](../maps/brimhaven_house1.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 5 |
@@ -68,7 +72,7 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 | <span id="stage-72"></span>72 | Given what I overheard, I was not allowed to leave. The two brothers attacked me. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 30 | faction “brv_brothers” set to -1 |
 | <span id="stage-75"></span>75 | <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven brother1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | stepping on a trigger on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | carry 1× [Coin bag (with the name "Alkapoan" on it)](../items/brv_richmans_coin_bag.md) | – |
 | <span id="stage-80"></span>80 | Someone else destroyed the dam and water came pouring through a hole in the dam. A lot of water!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | stage 70 | sets stage 71 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-71)<br>sets stage 81 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-81)<br>sets stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100)<br>spawns monsters on brimhaven3<br>spawns monsters on brimhaven4 |
-| <span id="stage-100"></span>100 | The Brimhaven guards have informed me that I may not leave the town until they have investigated who destroyed the dam. | [Guard](../monsters/brv_exit_guard.md) ([brimhaven3](../maps/brimhaven3.md))<br>[Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | stage 110 | – |
+| <span id="stage-100"></span>100 | The Brimhaven guards have informed me that I may not leave the town until they have investigated who destroyed the dam. | [Guard](../monsters/guard.md#v-brv_exit_guard) ([brimhaven3](../maps/brimhaven3.md))<br>[Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | stage 110 | – |
 | <span id="stage-110"></span>110 | I have promised to track down the real perpetrators. However, I still cannot leave the town. | [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | – | – |
 | <span id="stage-120"></span>120 | The two brothers did not know their boss's name, but he seemed to have a lot of gold. | [Alvies](../monsters/brv_alvies.md) ([brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md)) | stage 110, stage 56 | – |
 | <span id="stage-130"></span>130 | The rich man living up on the hill of Brimhaven seemed to know more than he admitted. | [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) | stage 110, stage 120 | – |
@@ -131,7 +135,7 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 
 ???+ note "Stage 100: 3 routes"
 
-    1. Talk to [Guard](../monsters/brv_exit_guard.md) ([brimhaven3](../maps/brimhaven3.md)) → the conversation leads here automatically → **stage 100**. NPC: “Stop! All foreigners have to stay in town until we have investigated who destroyed the great dam.”
+    1. Talk to [Guard](../monsters/guard.md#v-brv_exit_guard) ([brimhaven3](../maps/brimhaven3.md)) → the conversation leads here automatically → **stage 100**. NPC: “Stop! All foreigners have to stay in town until we have investigated who destroyed the great dam.”
     2. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “[Lie] I have no idea, but I will try to help you.” — **conditions:** reached stage 100 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-100) → **stage 100**. NPC: “Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.”
     3. Talk to [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) → choose “No, not yet, but I will try to help you.” — **conditions:** reached stage 110 of [Much water](../quests/brv_flood.md#stage-110) → **stage 100**. NPC: “Come back when you have a proof, and until then stop accusing people. In the meantime, you are not allowed to leave…”
 
@@ -178,23 +182,23 @@ None: talk to walking into a blocked passage on [brimhaven_brother1_to_2](../map
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_flood.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Major potion of health is a ordinary potion in Andor's Trail. How to get it: monster drops, shops, containers, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_consumables_28.png){ .sprite } Major potion of health
 
 *Ordinary potion.*
@@ -35,14 +39,14 @@
 | [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | 100% | 3-5 | galmore_71 |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 40% | 2-3 | undertell_4_01, undertell_5 |
 | [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 40% | 2-3 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_plague.md) | 40% | 2-3 | undertell_4_00, undertell_4_10, undertell_4_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_liches.md) | 40% | 2-3 | undertell_4_00, undertell_4_11, undertell_7_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_others.md) | 40% | 2-3 | undertell_4_00, undertell_4_01, undertell_4_10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 40% | 2-3 | undertell_4_00, undertell_4_10, undertell_4_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 40% | 2-3 | undertell_4_00, undertell_4_11, undertell_7_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 40% | 2-3 | undertell_4_00, undertell_4_01, undertell_4_10 |
 | [Dreadstaff lich](../monsters/dreadblade.md) | 30% | 1-3 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
 | [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 30% | 1-2 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10 |
-| [Dreadstaff lich](../monsters/dreadstaff_help_plague.md) | 30% | 1-3 | undertell_3_lava_01, undertell_3_lava_10 |
-| [Dreadstaff lich](../monsters/dreadstaff_help_liches.md) | 30% | 1-3 | undertell_3_lava_00 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder_help_liches.md) | 30% | 1-2 | undertell_3_lava_00 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 30% | 1-3 | undertell_3_lava_01, undertell_3_lava_10 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 30% | 1-3 | undertell_3_lava_00 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 30% | 1-2 | undertell_3_lava_00 |
 | [Plague-Lich](../monsters/plague_lich.md) | 25% | 1-2 | undertell_10, undertell_11, undertell_21 |
 | [Yczorah marauder](../monsters/elm_yczorah1.md) | 12.5% | 1 | elm5f_1, elm5f_2 |
 | [Yczorah](../monsters/elm_yzczorah2.md) | 12.5% | 1 | elm5f_1, elm5f_2 |
@@ -59,7 +63,7 @@
 - [Talion](../monsters/talion.md)
 - [Skylenar](../monsters/skylenar.md) (Remgard)
 - [Yolgen](../monsters/yolgen.md) (Stoutford)
-- [Aryfora](../monsters/stoutford_widow2.md) (Stoutford)
+- [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) (Stoutford)
 - [Kealwea](../monsters/sullengard_priest.md) (Sullengard)
 - [Stiyl](../monsters/brightportpriest1.md) (Brightport)
 
@@ -90,7 +94,7 @@ Where the game checks for this item in dialogue:
 | [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) | [Deep wound](../quests/erinith.md#stage-41) | handed over (1×) | “Here, take this major potion of health.” |
 | [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-113) | handed over (1×) | “Here, take this major potion of health.” |
 | [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-44) | handed over (1×) | “Here, take it. It's a really strong potion of healing.” |
-| [Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a major potion of health.” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | [Troubling times](../quests/troubling_times.md#stage-250) | handed over (1×) | “Here, have a major potion of health.” |
 | walking into a blocked passage on [debugmap](../maps/debugmap.md) | – | handed over (-1000×) | “Major potion of health” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -111,19 +115,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=health_major2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,4 +1,10 @@
+---
+description: "Seraphina's bodyguard is an enemy in Andor's Trail (humanoid) with 52 HP, worth 101 XP, found in Prim, Vilegard, Brimhaven. Drops: Small empty vial, Gold coins, Tiny knife."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_87.png){ .sprite } Seraphina's bodyguard
+
+**Found in:** Brimhaven: [waterway6](../maps/waterway6.md), Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md), Loneford: [waytobrimhaven1](../maps/waytobrimhaven1.md), Prim: [blackwater_mountain12](../maps/blackwater_mountain12.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -6,21 +12,23 @@
 
 | | |
 |---|---|
-| **Monster ID** | `tt_guys` |
-| **Type** | Enemy |
+| **Type** | Enemy (hostile on sight) |
+| **Found in** | Prim, Vilegard, Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 52 |
-| **XP when killed** | 101 |
-| **Found in** | Prim, Vilegard, Brimhaven |
+| **XP when defeated** | 101 |
+| **Entry ID** | `tt_guys` |
 | **Introduced** | [v0.8.13](../versions/0.8.13.md) |
 
 </div>
 
-## Combat stats
+## Combat statistics
 
-| Stat | Value |
+| Statistic | Value |
 |---|---|
+| Class | Humanoid |
 | HP | 52 |
+| XP when defeated | 101 |
 | Damage | 8 to 15 |
 | Attack chance | 90 |
 | Block chance | 40 |
@@ -31,12 +39,10 @@
 | Move cost | 10 AP |
 | Critical skill | 0 |
 | Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Drops
 
@@ -50,13 +56,13 @@
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 5 | appears later in a quest |
-| [sullengard3](../maps/sullengard3.md) | – | 5 | appears later in a quest |
-| [vilegard_s](../maps/vilegard_s.md) | Vilegard | 5 | appears later in a quest |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 5 | appears later in a quest |
-| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 5 | appears later in a quest |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 5 | appears later in a quest |
-| [wild21](../maps/wild21.md) | Stoutford | 5 | appears later in a quest |
+| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 5 | Appears later, during a quest |
+| [sullengard3](../maps/sullengard3.md) | – | 5 | Appears later, during a quest |
+| [vilegard_s](../maps/vilegard_s.md) | Vilegard | 5 | Appears later, during a quest |
+| [waterway6](../maps/waterway6.md) | Brimhaven | 5 | Appears later, during a quest |
+| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 5 | Appears later, during a quest |
+| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 5 | Appears later, during a quest |
+| [wild21](../maps/wild21.md) | Stoutford | 5 | Appears later, during a quest |
 
 
 ## Version history
@@ -68,32 +74,11 @@
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `tt_guys` |
+    | Entry ID | `tt_guys` |
     | Spawn group | `tt_guys` |
     | Loot table | `tt_guys` |
     | Conversation | – |
@@ -126,6 +111,36 @@
      "damageResistance": 1
     }
     ```
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=tt_guys.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

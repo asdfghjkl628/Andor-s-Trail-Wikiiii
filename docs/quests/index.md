@@ -1,6 +1,6 @@
 # Quests
 
-Every quest that shows up in your journal, plus, at the bottom, the hidden story flags the game uses to keep track of you without telling you. Each quest page shows what starts it, what each stage needs, what it unlocks and what it locks you out of.
+Every quest that appears in the journal, followed by the hidden story flags the game uses internally to track progress. Each quest page shows what starts it, what each stage needs, what it unlocks and what it prevents.
 
 | Quest | Stages | Starts with |
 |---|---|---|
@@ -48,7 +48,7 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [Drunken tale](fallhavendrunk.md) | 2 | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
 | [Echoes of enchantment](echoes_of_enchantment.md) | 14 | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) |
 | [Everything in order](remgard.md) | 21 | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) |
-| [Fair play?](brv_blackjack.md) | 10 | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) |
+| [Fair play?](brv_blackjack.md) | 10 | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) |
 | [Fallen friends](jan.md) | 2 | [Jan](../monsters/jan.md) |
 | [Feygard errands](feygard_shipment.md) | 15 | [Gandoren](../monsters/gandoren.md) |
 | [Flows through the veins](loneford.md) | 17 | [Gandoren](../monsters/gandoren.md) |
@@ -85,10 +85,10 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [Not Pony Island](lae_centaurs.md) | 17 | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)) |
 | [Of mice and men](algangror.md) | 7 | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) |
 | [Old friends?](kaverin.md) | 13 | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) |
-| [Perception is not reality](new_snake_master.md) | 5 | [Ewmondold](../monsters/inspiring_snake_master.md) ([wild2](../maps/wild2.md)) |
+| [Perception is not reality](new_snake_master.md) | 5 | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) |
 | [Pond safety](sullengard_pond_safety.md) | 5 | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) |
 | [Priceful vengeance](brightport_goons.md) | 17 | [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../maps/brightport_benbyr.md)) |
-| [Rare delicacies](guynmart_wise.md) | 4 | [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
+| [Rare delicacies](guynmart_wise.md) | 4 | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
 | [Rat infestation](odair.md) | 2 | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) |
 | [Rats!](mikhail_rats.md) | 2 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | [Recovering stolen property](sullengard_recover_items.md) | 7 | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) |
@@ -97,7 +97,7 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 | [Rumblings](rumblings.md) | 13 | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) |
 | [Search for Andor](andor.md) | 37 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
 | [Searching for madness](lodar2.md) | 9 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
-| [Shadow of the torturer](lae_torturer.md) | 16 | [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)) |
+| [Shadow of the torturer](lae_torturer.md) | 16 | [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)) |
 | [Shadows](shadows.md) | 32 | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) |
 | [Skeleton brothers](ratdom_skeleton.md) | 9 | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) |
 | [Sobby's Trail](tobby.md) | 10 | [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) |
@@ -143,7 +143,7 @@ Every quest that shows up in your journal, plus, at the bottom, the hidden story
 
 ## Hidden story flags
 
-Internal progress trackers that never appear in your journal, but quietly decide which doors open and which events fire. The names were not written with human readers in mind.
+Internal progress trackers that do not appear in the journal but determine which areas open and which events occur. The names are internal identifiers.
 
 | Flag | Stages | Set by |
 |---|---|---|
@@ -180,10 +180,10 @@ Internal progress trackers that never appear in your journal, but quietly decide
 | [guynmart nondisplay](guynmart_nondisplay.md) | 29 | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
 | [guynmart Replace Walkable unten/oben](guynmart_qRpl_main.md) | 7 | stepping on a trigger on [guynmart](../maps/guynmart.md) |
 | [guynmart rope](guynmart_r_rope.md) | 3 | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) |
-| [guynmart_q1](guynmart_q1.md) | 2 | [Guynmart guard](../monsters/guynmart_player.md) ([guynmart](../maps/guynmart.md)) |
+| [guynmart_q1](guynmart_q1.md) | 2 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) |
 | [guynmart_q1ta](guynmart_Please_Never_Talk_About__.md) | 1 | – |
 | [guynmart_q1tb](guynmart_This_Mechanism_In_Forum__.md) | 1 | – |
-| [guynmart_q2 Step](guynmart_q2.md) | 14 | [Guynmart guard](../monsters/guynmart_player.md) ([guynmart](../maps/guynmart.md)) |
+| [guynmart_q2 Step](guynmart_q2.md) | 14 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) |
 | [guynmart_quest_cook_bread](guynmart_quest_cook_bread.md) | 1 | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) |
 | [guynmart_quest_cook_lunch](guynmart_quest_cook_lunch.md) | 1 | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) |
 | [Heights change in bwm_17 (Actually 70)](bwm17_heights.md) | 2 | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) |
@@ -207,7 +207,7 @@ Internal progress trackers that never appear in your journal, but quietly decide
 | [Ratdom_maze](ratdom_maze.md) | 25 | stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md) |
 | [ratdom_nondisplay](ratdom_nondisplay.md) | 88 | stepping on a trigger on [home](../maps/home.md) |
 | [Ringmaker](guynmart_quest_wizard.md) | 5 | [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) |
-| [Room to rent](fallhaventavern.md) | 2 | [Bela](../monsters/bela_2.md) |
+| [Room to rent](fallhaventavern.md) | 2 | [Bela](../monsters/bela.md#v-bela_2) |
 | [scores](scores.md) | 53 | stepping on a trigger on [debugmap](../maps/debugmap.md) |
 | [shutters open](guynmart_qRpl_shutters.md) | 1 | [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)) |
 | [stn_nondisplay](stn_nondisplay.md) | 83 | walking into a blocked passage on [waytogalmore0](../maps/waytogalmore0.md) |
@@ -215,6 +215,6 @@ Internal progress trackers that never appear in your journal, but quietly decide
 | [Sutdove_nondisplay](sutdover_hidden.md) | 5 | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) |
 | [Thieves Hidden](thieves_hidden.md) | 11 | [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) |
 | [TODO](crossglen.md) | 1 | [Leonid](../monsters/leonid.md) |
-| [troubling_times_nd](troubling_times_nd.md) | 3 | [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
+| [troubling_times_nd](troubling_times_nd.md) | 3 | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
 | [Vines in bwm_17](bwm17_vine.md) | 3 | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) |
 | [Young merchant Non-displayed](quest_burhczyd_nd.md) | 94 | stepping on a trigger on [crossglen](../maps/crossglen.md) |

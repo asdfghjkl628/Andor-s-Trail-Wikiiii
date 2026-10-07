@@ -1,7 +1,11 @@
+---
+description: "Delivery - nondisplay is a hidden quest in Andor's Trail, started by Arcir. 10 stages, 1,975 XP in total. I delivered 'Dusty Old book'"
+---
+
 # Delivery - nondisplay
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -64,7 +68,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 | <span id="stage-30"></span>30 | I delivered 'Pretty Porcelain Figure' | [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) | hand over 1× [Pretty porcelain figure](../items/brv_wh_item_07.md) | 250 XP<br>clears stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40)<br>gives 30× [Gold coins](../items/gold.md) |
 | <span id="stage-40"></span>40 | I delivered 'Old, worn cape' | [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | hand over 1× [Old, worn cape](../items/brv_wh_item_06.md) | 50 XP<br>clears stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50)<br>gives 10× [Gold coins](../items/gold.md) |
 | <span id="stage-50"></span>50 | I delivered 'Mysterious green something' | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | hand over 1× [Mysterious green something](../items/brv_wh_item_05.md) | 500 XP<br>clears stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60)<br>gives 50× [Gold coins](../items/gold.md) |
-| <span id="stage-60"></span>60 | I delivered 'Chandelier' | [Servant](../monsters/guynmart_servant.md) ([guynmart_main_3](../maps/guynmart_main_3.md)) | hand over 1× [Chandelier](../items/brv_wh_item_04.md) | 250 XP<br>clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70)<br>gives 40× [Gold coins](../items/gold.md) |
+| <span id="stage-60"></span>60 | I delivered 'Chandelier' | [Servant](../monsters/erwyn_servant.md#v-guynmart_servant) ([guynmart_main_3](../maps/guynmart_main_3.md)) | hand over 1× [Chandelier](../items/brv_wh_item_04.md) | 250 XP<br>clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70)<br>gives 40× [Gold coins](../items/gold.md) |
 | <span id="stage-70"></span>70 | I delivered 'Yellow boots' | [Arghes](../monsters/arghes.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | hand over 1× [Yellow boot](../items/brv_wh_item_03.md) | 500 XP<br>clears stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80)<br>gives 50× [Gold coins](../items/gold.md) |
 | <span id="stage-80"></span>80 | I delivered 'Lyre' | [Wrye](../monsters/wrye.md) ([vilegard_wrye](../maps/vilegard_wrye.md)) | hand over 1× [Lyre](../items/brv_wh_item_02.md) | 150 XP<br>clears stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90) |
 | <span id="stage-90"></span>90 | I delivered 'Plush Pillow' | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | hand over 1× [Plush pillow](../items/brv_wh_item_01.md) | 100 XP<br>clears stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100) |
@@ -98,7 +102,7 @@ Start with [Arcir](../monsters/arcir.md). Required:
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Servant](../monsters/guynmart_servant.md) ([guynmart_main_3](../maps/guynmart_main_3.md)) → choose “I'm here to give you your ordered item. You don't want it?” — **conditions:** hand over 1× [Chandelier](../items/brv_wh_item_04.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70) → **stage 60**; also clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), gives 40× [Gold coins](../items/gold.md). NPC: “Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee.”
+    1. Talk to [Servant](../monsters/erwyn_servant.md#v-guynmart_servant) ([guynmart_main_3](../maps/guynmart_main_3.md)) → choose “I'm here to give you your ordered item. You don't want it?” — **conditions:** hand over 1× [Chandelier](../items/brv_wh_item_04.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70) → **stage 60**; also clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), gives 40× [Gold coins](../items/gold.md). NPC: “Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee.”
 
 ???+ note "Stage 70: 1 route"
 
@@ -135,23 +139,23 @@ Start with [Arcir](../monsters/arcir.md). Required:
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_wh_delivery_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

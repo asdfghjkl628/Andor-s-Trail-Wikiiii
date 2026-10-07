@@ -1,3 +1,7 @@
+---
+description: "Ruby gem is a ordinary gem in Andor's Trail. How to get it: monster drops, shops, containers, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_misc_1.png){ .sprite } Ruby gem
 
 *Ordinary gem.*
@@ -23,7 +27,7 @@
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Graverobber](../monsters/graverobber.md) | 100% | 1 | blackwater_mountain35 |
-| [Strong larval burrower](../monsters/larval_boss.md) | 100% | 1 | Crossroads Guardhouse |
+| [Strong larval burrower](../monsters/burrower_3.md#v-larval_boss) | 100% | 1 | Crossroads Guardhouse |
 | [Cave troll leader](../monsters/cave_troll_5.md) | 100% | 1 | lakecave2 |
 | [Kazarite golem](../monsters/elm_golem1.md) | 100% | 1-5 | elm5f_1, elm5f_2, elm_3f |
 | [Dried kazarite golem](../monsters/elm_golem2.md) | 100% | 1-5 | elm5f_1, elm5f_2, elm_3f |
@@ -61,7 +65,7 @@
 | [Bloodthirsty zombie](../monsters/zombie6.md) | 25% | 1 | Foaming Flask Tavern |
 | [Tainted zombie](../monsters/zombie7.md) | 25% | 1 | Foaming Flask Tavern |
 | [Luthor's skeleton guard](../monsters/tt_monster1.md) | 25% | 1 | crackshot_hideout4 |
-| [Luthor's skeleton guard](../monsters/tt_monster2.md) | 25% | 1 | crackshot_hideout4 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md#v-tt_monster2) | 25% | 1 | crackshot_hideout4 |
 
 *…and 27 more.*
 
@@ -120,7 +124,7 @@ Where the game checks for this item in dialogue:
 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
 | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) | [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84) | handed over (1×) | “(automatic)” |
-| [Godoe](../monsters/godoe1.md) ([guynmart_wood_18](../maps/guynmart_wood_18.md)), [Godoe](../monsters/godoe2.md) ([guynmart_wood_18](../maps/guynmart_wood_18.md)) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-80) | handed over (5×) | “Sure, I have plenty of them.” |
+| [Godoe](../monsters/godoe1.md) ([guynmart_wood_18](../maps/guynmart_wood_18.md)), [Godoe](../monsters/godoe1.md#v-godoe2) ([guynmart_wood_18](../maps/guynmart_wood_18.md)) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-80) | handed over (5×) | “Sure, I have plenty of them.” |
 | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw an Ruby gem]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -141,19 +145,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem2.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

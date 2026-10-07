@@ -1,4 +1,10 @@
+---
+description: "Umar is a non-player character (NPC) in Andor's Trail, found in Fallhaven. Starts A lost potion, Another ruthless Crackshot, Immaculate kidnapping, The ruthless Crackshot +2."
+---
+
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Umar
+
+**Where to find Umar:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-umar), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-umar)
 
 <div class="infobox" markdown>
 
@@ -6,36 +12,13 @@
 
 | | |
 |---|---|
-| **Monster ID** | `umar` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Role** | Starts [A lost potion](../quests/lodar.md), [Another ruthless Crackshot](../quests/Thieves04.md), [Immaculate kidnapping](../quests/Thieves02.md), [The ruthless Crackshot](../quests/Thieves03.md) +2 |
 | **Found in** | Fallhaven |
+| **Entry ID** | `umar` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Locations
 
@@ -43,7 +26,6 @@
 |---|---|---|---|
 | [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
 | [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
-
 
 ## Quests
 
@@ -54,12 +36,12 @@
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 1, 4, 5, 10, 45, 50
 - [Thief apprentice](../quests/Thieves01.md): stages 5, 10
 - [Troubling times](../quests/troubling_times.md): stages 10, 20, 30, 120
-- [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md): stages 20
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 28
+- [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md): stage 20
+- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 28
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Umar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Umar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/umar_select_1.json" data-npc="Umar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -801,49 +783,28 @@ Set up your situation (quest stages, items, kills…), then talk to Umar. The si
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Ok, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” → “OK, I'll tell you how to get to Lodar's Hideaway. But you have to pro…”<br>· text: “Oh. I must have you mixed up with someone else.” → “Oh. I must have you confused with someone else.” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …”<br>· text: “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” → “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…”<br>· text: “Well, you've shown us you are trustworthy by bringing that key. Howev…” → “Well, you've shown us you are trustworthy by bringing that key. Howev…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Oh. I must have you mixed up with someone else.” → “Oh. I must have you confused with someone else.”<br>· text: “Ok, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” → “OK, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” → “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…”<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “What we have here? (Umar's face gets a smile while he admires the nec…” → “What we have here? (Umar's face gets a smile while he admires the nec…”<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “However, the Feygard presence is still significant. Be cautious with …” → “However, the Feygard presence is still significant. Be cautious with …” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…” |
 | [v0.7.14](../versions/0.7.14.md) | Dialogue: 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favourite mead. Now you …” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 35 lines added, 2 lines changed |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed |
 | [v0.8.6](../versions/0.8.6.md) | Dialogue: 1 line changed<br>· text: “Fortunately, one of my men found one of his drunk men and had a short…” → “Fortunately, one of my men found one of his drunk men and had a short…” |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “[Here, the story continues]” → “You are really very hardworking. I can't find new work for you fast e…” |
-| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…”<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…”<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `umar` |
+    | Entry ID | `umar` |
     | Spawn group | `umar` |
     | Loot table | – |
     | Conversation | `umar_select_1` |
@@ -864,6 +825,27 @@ Set up your situation (quest stages, items, kills…), then talk to Umar. The si
      "phraseID": "umar_select_1"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=umar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

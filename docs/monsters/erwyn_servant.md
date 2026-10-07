@@ -1,3 +1,7 @@
+---
+description: "Servant is an NPC who can also be fought in Andor's Trail, found in stoutford_castle1, stoutford_castle2, Guynmart Castle."
+---
+
 # ![](../assets/icons/monsters/monsters_tometik8_28.png){ .sprite } Servant
 
 <div class="infobox" markdown>
@@ -6,21 +10,37 @@
 
 | | |
 |---|---|
-| **Monster ID** | `erwyn_servant` |
-| **Type** | Enemy |
+| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Found in** | stoutford_castle1, stoutford_castle2, Guynmart Castle |
 | **Class** | Undead |
 | **HP** | 30 |
-| **XP when killed** | 30 |
-| **Found in** | stoutford_castle1, stoutford_castle2 |
+| **XP when defeated** | 30 |
+| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-## Combat stats
+!!! info "2 entries in the game data"
+    The game's data files define 2 separate characters named Servant. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance, movement. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
+| Entry | Type | Location | Role | HP |
+|---|---|---|---|---|
+| [`erwyn_servant`](#v-erwyn_servant) | Enemy | [stoutford_castle1](../maps/stoutford_castle1.md), [stoutford_castle2](../maps/stoutford_castle2.md) | – | 30 |
+| [`guynmart_servant`](#v-guynmart_servant) | NPC | Guynmart Castle: [guynmart_main_3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant) | – | – |
+
+## Stoutford castle1 and 1 more (erwyn_servant) { #v-erwyn_servant }
+
+**Entry ID:** `erwyn_servant` · **Type:** Enemy
+
+**Location:** [stoutford_castle1](../maps/stoutford_castle1.md), [stoutford_castle2](../maps/stoutford_castle2.md)
+
+### Combat statistics
+
+| Statistic | Value |
 |---|---|
+| Class | Undead |
 | HP | 30 |
+| XP when defeated | 30 |
 | Damage | 1 to 3 |
 | Attack chance | 50 |
 | Block chance | 20 |
@@ -31,14 +51,12 @@
 | Move cost | 10 AP |
 | Critical skill | 0 |
 | Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
 
-
-## Locations
+### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
@@ -46,7 +64,7 @@
 | [stoutford_castle2](../maps/stoutford_castle2.md) | – | 2 | – |
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -55,32 +73,11 @@
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (erwyn_servant)"
 
     | | |
     |---|---|
-    | Monster ID | `erwyn_servant` |
+    | Entry ID | `erwyn_servant` |
     | Spawn group | `erwyn_servant` |
     | Loot table | – |
     | Conversation | – |
@@ -110,6 +107,110 @@
      "blockChance": 20
     }
     ```
+
+
+## Guynmart Castle, Guynmart main 3 (guynmart_servant) { #v-guynmart_servant }
+
+**Entry ID:** `guynmart_servant` · **Type:** NPC
+
+**Location:** Guynmart Castle: [guynmart_main_3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant)
+
+### Quests
+
+- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 60
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Servant. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/guynmart_servant_10.json" data-npc="Servant" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (3 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-guynmart_servant-guynmart_servant_10"></span>**`guynmart_servant_10`** Servant: “What are you doing in my lords rooms?”
+
+    - “You are lying around in bed in broad daylight?” → [guynmart_servant_20](#d-guynmart_servant-guynmart_servant_20)
+    - “I'm here to give you your ordered item. You don't want it?” *(if hand over 1× [Chandelier](../items/brv_wh_item_04.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70))* → [brv_wh_delivery_servant](#d-guynmart_servant-brv_wh_delivery_servant)
+
+    <span id="d-guynmart_servant-guynmart_servant_20"></span>**`guynmart_servant_20`** Servant: “I am checking that the bed of young Robalyrius is still in order.”
+
+
+    <span id="d-guynmart_servant-brv_wh_delivery_servant"></span>**`brv_wh_delivery_servant`** Servant: “Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee.” — **effects:** clears stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 60 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60), gives 40× [Gold coins](../items/gold.md)
+
+    - “Thank you.” → *conversation ends*
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 2 lines added |
+| [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (guynmart_servant)"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_servant` |
+    | Spawn group | `guynmart_servant` |
+    | Loot table | – |
+    | Conversation | `guynmart_servant_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:20` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_servant",
+     "name": "Servant",
+     "iconID": "monsters_ld1:20",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_servant_10"
+    }
+    ```
+
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=erwyn_servant.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

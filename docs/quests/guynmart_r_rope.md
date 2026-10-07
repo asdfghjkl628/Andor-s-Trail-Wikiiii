@@ -1,7 +1,11 @@
+---
+description: "guynmart rope is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart_wood_3. 3 stages. 1=up"
+---
+
 # guynmart rope
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md), stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) |
-| **NPCs involved** | [Rob](../monsters/guynmart_rob6.md) |
+| **NPCs involved** | [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) |
 | **Locations** | [guynmart_wood_7](../maps/guynmart_wood_7.md) |
 | **Related quests** | 1 |
 
@@ -42,7 +46,7 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
 |---|---|---|---|---|
 | <span id="stage-1"></span>1 | 1=up<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | – | – |
 | <span id="stage-2"></span>2 | 2=down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | stage 1 | clears stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1)<br>applies condition stunned<br>applies condition bone_fracture |
-| <span id="stage-11"></span>11 | 11=rope2 set<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 7](../maps/guynmart_wood_7.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 7](../maps/guynmart_wood_7.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md)<br>[Rob](../monsters/guynmart_rob6.md) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) | – | removes monsters from guynmart_wood_7 |
+| <span id="stage-11"></span>11 | 11=rope2 set<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 7](../maps/guynmart_wood_7.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 7](../maps/guynmart_wood_7.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md)<br>[Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) | – | removes monsters from guynmart_wood_7 |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -63,7 +67,7 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
 ???+ note "Stage 11: 3 routes"
 
     1. stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md) → choose “Let's try it.” → **stage 11**
-    2. Talk to [Rob](../monsters/guynmart_rob6.md) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) → choose “Yes. Could you drop the rope down?” → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
+    2. Talk to [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) → choose “Yes. Could you drop the rope down?” → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
     3. stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md) → choose “Yes. Could you drop the rope down?” — **conditions:** NOT reached stage 11 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-11); reached stage 80 of [Roses](../quests/guynmart.md#stage-80) → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
 
 
@@ -85,23 +89,23 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=guynmart_r_rope.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

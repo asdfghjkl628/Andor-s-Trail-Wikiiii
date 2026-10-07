@@ -1,4 +1,10 @@
+---
+description: "Little Hettar is a non-player character (NPC) in Andor's Trail, found in Blackwater Mountain. Starts Where is Norry?."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Little Hettar
+
+**Where to find Little Hettar:** Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-hettar)
 
 <div class="infobox" markdown>
 
@@ -6,43 +12,13 @@
 
 | | |
 |---|---|
-| **Monster ID** | `hettar` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Role** | Starts [Where is Norry?](../quests/hettar_dog.md) |
 | **Found in** | Blackwater Mountain |
+| **Entry ID** | `hettar` |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [blackwater_mountain55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 1 | – |
-
 
 ## Quests
 
@@ -50,7 +26,7 @@
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Little Hettar. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Little Hettar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hettar.json" data-npc="Little Hettar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -83,14 +59,14 @@ Set up your situation (quest stages, items, kills…), then talk to Little Hetta
 
     <span id="d-hettar_30"></span>**`hettar_30`** Little Hettar: “I can read it in your face - there is no hope for Norry.”
 
-    - “This brute attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog3.md))* → [hettar_10_6](#d-hettar_10_6)
-    - “This brute growled at me, but I got away and let it live.” *(if reached stage 1 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1); NOT killed 1× [Wolfhound](../monsters/hettar_dog3.md))* → [hettar_20](#d-hettar_20)
+    - “This brute attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_10_6](#d-hettar_10_6)
+    - “This brute growled at me, but I got away and let it live.” *(if reached stage 1 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1); NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_20](#d-hettar_20)
     - “I am still searching.” → *conversation ends*
 
     <span id="d-hettar_20"></span>**`hettar_20`** Little Hettar: “Please go down there and look for my doggie. Maybe he is injured? Bring him back! You must!”
 
-    - “OK, I'll do it.” *(if NOT killed 1× [Wolfhound](../monsters/hettar_dog3.md))* → [hettar_20_10](#d-hettar_20_10)
-    - “This brute attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog3.md))* → [hettar_10_6](#d-hettar_10_6)
+    - “OK, I'll do it.” *(if NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_20_10](#d-hettar_20_10)
+    - “This brute attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_10_6](#d-hettar_10_6)
     - “Eh, I have to leave.” → *conversation ends*
 
     <span id="d-hettar_10"></span>**`hettar_10`** Little Hettar: “Please help to find Norry. He is my only friend, and he is helpless without me.”
@@ -120,8 +96,8 @@ Set up your situation (quest stages, items, kills…), then talk to Little Hetta
 
     <span id="d-hettar_10_4"></span>**`hettar_10_4`** Little Hettar: “This must be him! Go and get him here - be quick!”
 
-    - “That would be of no use. This brute had attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog3.md))* → [hettar_10_6](#d-hettar_10_6)
-    - “This brute growled at me, but I got away unharmed.” *(if NOT killed 1× [Wolfhound](../monsters/hettar_dog3.md))* → [hettar_20](#d-hettar_20)
+    - “That would be of no use. This brute had attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_10_6](#d-hettar_10_6)
+    - “This brute growled at me, but I got away unharmed.” *(if NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_20](#d-hettar_20)
     - “Eh, I have to leave.” → *conversation ends*
 
     <span id="d-hettar_1_4"></span>**`hettar_1_4`** Little Hettar: “I can see these Gornauds myself. That's why I must find Norry urgently. Nooorryyyy!”
@@ -151,32 +127,11 @@ Set up your situation (quest stages, items, kills…), then talk to Little Hetta
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `hettar` |
+    | Entry ID | `hettar` |
     | Spawn group | `hettar` |
     | Loot table | – |
     | Conversation | `hettar` |
@@ -197,6 +152,27 @@ Set up your situation (quest stages, items, kills…), then talk to Little Hetta
      "phraseID": "hettar"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=hettar.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

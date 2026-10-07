@@ -1,3 +1,7 @@
+---
+description: "Cheap cuts is a quest in Andor's Trail, started by Benbyr (crossroads). 5 stages, 900 XP in total. I have met Benbyr outside the Crossroads guardhouse. He wants to get revenge on an old 'business partner' of his - Tinlyn. Benbyr wants me to kill all Tinlyn's sheep."
+---
+
 # Cheap cuts
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 30, 60) |
 | **Started by** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) |
-| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/lostsheep2.md), [Sheep](../monsters/lostsheep3.md), [Sheep](../monsters/lostsheep1.md), [Sheep](../monsters/lostsheep4.md) |
+| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep1) |
 | **Locations** | [crossroads](../maps/crossroads.md), [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md) |
 | **Total XP** | 900 |
 | **Related quests** | 2 |
@@ -48,7 +52,7 @@ Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md))
 |---|---|---|---|---|
 | <span id="stage-10"></span>10 | I have met Benbyr outside the Crossroads guardhouse. He wants to get revenge on an old 'business partner' of his - Tinlyn. Benbyr wants me to kill all Tinlyn's sheep. | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | stage 20 | – |
 | <span id="stage-20"></span>20 | I have agreed to help Benbyr find Tinlyn's sheep and kill all eight of them. I should go look for them in the fields northwest of the Crossroads guardhouse. | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | – | – |
-| <span id="stage-21"></span>21 | I have started attacking the sheep. I should return to Benbyr once I have killed all eight of them. | [Sheep](../monsters/lostsheep1.md) ([fields1](../maps/fields1.md))<br>[Sheep](../monsters/lostsheep2.md) ([fields2](../maps/fields2.md))<br>[Sheep](../monsters/lostsheep3.md) ([fields3](../maps/fields3.md))<br>+2 more | stage 20 | – |
+| <span id="stage-21"></span>21 | I have started attacking the sheep. I should return to Benbyr once I have killed all eight of them. | [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md))<br>[Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md))<br>+2 more | stage 20 | – |
 | <span id="stage-30"></span>30 | Benbyr was thrilled to hear that all of Tinlyn's sheep are dead. **(completes quest)** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | hand over 8× [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md), stage 20 | 900 XP |
 | <span id="stage-60"></span>60 | I declined to help Benbyr kill the sheep. **(completes quest)** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | stage 20 | – |
 
@@ -68,10 +72,10 @@ Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md))
 
 ???+ note "Stage 21: 5 routes"
 
-    1. Talk to [Sheep](../monsters/lostsheep1.md) ([fields1](../maps/fields1.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    2. Talk to [Sheep](../monsters/lostsheep2.md) ([fields2](../maps/fields2.md)) → choose “[Attack]” — **conditions:** reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    3. Talk to [Sheep](../monsters/lostsheep3.md) ([fields3](../maps/fields3.md)) → choose “[Attack]” — **conditions:** reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
-    4. Talk to [Sheep](../monsters/lostsheep4.md) ([loneford1](../maps/loneford1.md)) → choose “[Attack]” — **conditions:** reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
+    1. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Lost sheep](../quests/tinlyn.md#stage-20); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
+    2. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) → choose “[Attack]” — **conditions:** reached stage 21 of [Lost sheep](../quests/tinlyn.md#stage-21); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
+    3. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) → choose “[Attack]” — **conditions:** reached stage 22 of [Lost sheep](../quests/tinlyn.md#stage-22); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
+    4. Talk to [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) → choose “[Attack]” — **conditions:** reached stage 23 of [Lost sheep](../quests/tinlyn.md#stage-23); reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
     5. Talk to [Sheep](../monsters/sheep1.md) ([fields6](../maps/fields6.md)) → choose “[Attack]” — **conditions:** reached stage 20 of [Cheap cuts](../quests/benbyr.md#stage-20) → **stage 21**
 
 ???+ note "Stage 30: 1 route"
@@ -102,23 +106,23 @@ Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md))
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=benbyr.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

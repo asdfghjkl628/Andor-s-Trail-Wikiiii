@@ -1,3 +1,7 @@
+---
+description: "Elm 2f 2 is an indoor location in Andor's Trail. Exits to Elm 2f 1."
+---
+
 # Elm 2f 2
 
 <div class="infobox" markdown>
@@ -26,7 +30,7 @@
   &quot;DO NOT SPLASH&quot;
   &quot;RELAX&quot;
 
-Signed by Guthbered of Prim" style="left:62.500%;top:33.333%;width:12.500%;height:11.111%"></span><span class="mo mo-script" title="Scripted event" style="left:37.500%;top:44.444%;width:25.000%;height:22.222%"></span><a class="mo mo-key" href="../../quests/bwm72_beginning/#stage-33" title="Unlocked during the quest: hidden story flag “bwm72_beginning” (stage 33: “Elm2f2 chest”)" style="left:75.000%;top:44.444%;width:12.500%;height:11.111%"></a><a data-container="container-1" class="mo mo-container" href="#container-1" title="Container: click to see what&#x27;s inside" style="left:50.000%;top:33.333%;width:12.500%;height:11.111%"></a><a class="pin pin-exit" href="#key-1" style="left:6.250%;top:72.222%" title="Exit (west): to [Elm 2f 1](../elm_2f_1.md)">1</a><a class="pin pin-container" href="#key-2" style="left:68.750%;top:83.333%" title="Container 1: Boletus spelunca">2</a><a class="pin pin-sign" href="#key-3" style="left:68.750%;top:38.889%" title="Sign: “The sign reads:
+Signed by Guthbered of Prim" style="left:62.500%;top:33.333%;width:12.500%;height:11.111%"></span><span class="mo mo-script" title="Scripted event" style="left:37.500%;top:44.444%;width:25.000%;height:22.222%"></span><a class="mo mo-key" href="../../quests/bwm72_beginning/#stage-33" title="Unlocked during the quest: hidden story flag “bwm72_beginning” (stage 33: “Elm2f2 chest”)" style="left:75.000%;top:44.444%;width:12.500%;height:11.111%"></a><a data-container="container-1" class="mo mo-container" href="#container-1" title="Container: click to see what&#x27;s inside" style="left:50.000%;top:33.333%;width:12.500%;height:11.111%"></a><a class="pin pin-exit" href="#key-1" style="left:6.250%;top:72.222%" title="Exit (west): to [Elm 2f 1](elm_2f_1.md)">1</a><a class="pin pin-container" href="#key-2" style="left:68.750%;top:83.333%" title="Container 1: Boletus spelunca">2</a><a class="pin pin-sign" href="#key-3" style="left:68.750%;top:38.889%" title="Sign: “The sign reads:
 
   &quot;DO NOT THROW ITEMS INTO THE POOL&quot;
   &quot;DO NOT SPLASH&quot;
@@ -38,7 +42,7 @@ Signed by Guthbered of Prim”">3</a><a class="pin pin-key" href="#key-4" style=
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (west) | to [Elm 2f 1](../elm_2f_1.md) |
+    | <span id="key-1"></span>1 | Exit (west) | to [Elm 2f 1](elm_2f_1.md) |
     | <span id="key-2"></span>2 | Container 1 | Boletus spelunca |
     | <span id="key-3"></span>3 | Sign | “The sign reads:    "DO NOT THROW ITEMS INTO THE POOL"   "DO NOT SPLASH"   "RELAX"  Signed by Guthbered of Prim” |
     | <span id="key-4"></span>4 | Blocked passage | Unlocked during the quest: hidden story flag “bwm72_beginning” (stage 33: “Elm2f2 chest”) |
@@ -86,19 +90,19 @@ Signed by Guthbered of Prim”">3</a><a class="pin pin-key" href="#key-4" style=
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=elm_2f_2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

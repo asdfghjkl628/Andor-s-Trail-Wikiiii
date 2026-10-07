@@ -1,3 +1,7 @@
+---
+description: "The thorns of vengeance is a quest in Andor's Trail, started by Aryfora (stoutford_gate). 16 stages, 6,005 XP in total. Aryfora in Stoutford needs my help to prove her uncle, Blornvale, Stoutford's alchemist, killed her father."
+---
+
 # The thorns of vengeance
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 32, 76, 90) |
 | **Started by** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) |
-| **NPCs involved** | [Aryfora](../monsters/stoutford_widow.md), [Blornvale](../monsters/stoutford_alchemist2.md), [Blornvale](../monsters/stoutford_alchemist.md), [Tahalendor](../monsters/tahalendor.md), [Tahalendor](../monsters/tahalendor2.md) |
+| **NPCs involved** | [Aryfora](../monsters/stoutford_widow.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Blornvale](../monsters/stoutford_alchemist.md), [Tahalendor](../monsters/tahalendor.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) |
 | **Locations** | [stoutford_church](../maps/stoutford_church.md), [stoutford_gate](../maps/stoutford_gate.md), [stoutford_potion](../maps/stoutford_potion.md) |
 | **Total XP** | 6,005 |
 | **Related quests** | 3 |
@@ -55,12 +59,12 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 | <span id="stage-71"></span>71 | Tahalendor came to hear Blornvale's confession. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | – | spawns monsters on stoutford_potion |
 | <span id="stage-72"></span>72 | Blornvale confessed to killing Aryfora's father. Unfortunately there is no witness. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 70 | – |
 | <span id="stage-74"></span>74 | Blornvale now understands what I was trying to do. I will no longer be able to help Aryfora get back her shop. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | carry 1× [Potion of truth](../items/potion_truth.md), stage 72 | – |
-| <span id="stage-75"></span>75 | Tahalendor wouldn't believe my story. I will no longer be able to help Aryfora get back her shop. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor2.md) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 72 | – |
+| <span id="stage-75"></span>75 | Tahalendor wouldn't believe my story. I will no longer be able to help Aryfora get back her shop. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 72 | – |
 | <span id="stage-76"></span>76 | It's all my fault that Aryfora is crying now. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | 5 XP |
-| <span id="stage-80"></span>80 | Blornvale confessed to killing Aryfora's father in the presence of Tahalendor. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor2.md) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 71 | removes monsters from stoutford_potion |
+| <span id="stage-80"></span>80 | Blornvale confessed to killing Aryfora's father in the presence of Tahalendor. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 71 | removes monsters from stoutford_potion |
 | <span id="stage-90"></span>90 | Aryfora regained her father's shop. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 80 | 4,000 XP<br>removes monsters from stoutford_gate<br>spawns monsters on stoutford_potion |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -116,7 +120,7 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 ???+ note "Stage 75: 2 routes"
 
     1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 75 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-75) → **stage 75**. NPC: “And you child, go away now and tell no more fairy tales.”
-    2. Talk to [Tahalendor](../monsters/tahalendor2.md) ([stoutford_potion](../maps/stoutford_potion.md)) → choose “He lies. Can't you see?” — **conditions:** reached stage 72 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-72) → **stage 75**. NPC: “And you child, go away now and tell no more fairy tales.”
+    2. Talk to [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) → choose “He lies. Can't you see?” — **conditions:** reached stage 72 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-72) → **stage 75**. NPC: “And you child, go away now and tell no more fairy tales.”
 
 ???+ note "Stage 76: 1 route"
 
@@ -125,7 +129,7 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 ???+ note "Stage 80: 2 routes"
 
     1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71) → **stage 80**; also removes monsters from stoutford_potion, removes monsters from stoutford_potion. NPC: “I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”
-    2. Talk to [Tahalendor](../monsters/tahalendor2.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71) → **stage 80**; also removes monsters from stoutford_potion, removes monsters from stoutford_potion. NPC: “I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”
+    2. Talk to [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71) → **stage 80**; also removes monsters from stoutford_potion, removes monsters from stoutford_potion. NPC: “I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”
 
 ???+ note "Stage 90: 1 route"
 
@@ -151,23 +155,23 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=thorns_vengeance.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

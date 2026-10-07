@@ -1,3 +1,7 @@
+---
+description: "Iqhan pendant is a ordinary necklace in Andor's Trail (Attack chance +6). How to get it: monster drops, shops, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_necklaces_1_2.png){ .sprite } Iqhan pendant
 
 *Ordinary necklace.*
@@ -34,25 +38,25 @@
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 1 | pwcave4 |
-| [Feygard scout](../monsters/ortholion_guard2.md) | 33.3333% | 0-2 | Prim |
-| [Iqhan master](../monsters/iqhan_4b.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 33.3333% | 0-2 | Prim |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
 | [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1b.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
 | [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2b.md) | 5% | 1 | pwcave3, pwcave4 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | pwcave3, pwcave4 |
 | [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3b.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
 | [Iqhan worker thrall](../monsters/iqhan_1a.md) | 1% | 1 | pwcave0, pwcave1, pwcave4 |
 | [Iqhan thrall servant](../monsters/iqhan_1b.md) | 1% | 1 | pwcave0, pwcave1, pwcave4 |
 | [Iqhan guard thrall](../monsters/iqhan_2a.md) | 1% | 1 | pwcave0, pwcave1, pwcave2 |
 | [Iqhan thrall](../monsters/iqhan_2b.md) | 1% | 1 | pwcave0, pwcave1, pwcave2 |
 | [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 1% | 1 | pwcave1, pwcave2, pwcave3 |
 | [Iqhan master](../monsters/iqhan_3b.md) | 1% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_4a.md) | 1% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 1% | 1 | pwcave2, pwcave2a, pwcave3 |
 
 ### Sold by
 
-- [Feygard scout](../monsters/ortholion_guard6.md) (Prim)
+- [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) (Prim)
 
 ### Quest & dialogue rewards
 
@@ -77,19 +81,19 @@
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=iqhan_pendant.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

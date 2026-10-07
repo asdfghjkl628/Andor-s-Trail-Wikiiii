@@ -1,3 +1,7 @@
+---
+description: "Houseatcrossroads2 is an indoor location in Andor's Trail, in Crossroads Guardhouse (other). NPCs: Guard. Exits to Houseatcrossroads0, Houseatcrossroads3."
+---
+
 # Houseatcrossroads2
 
 <div class="infobox" markdown>
@@ -20,15 +24,15 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/houseatcrossroads2.webp" alt="Map of Houseatcrossroads2" width="192" height="192" loading="lazy"><a id="place-up" class="mo mo-mapchange" href="../houseatcrossroads3/#place-down" title="Exit to Houseatcrossroads3" style="left:50.000%;top:33.333%;width:16.667%;height:16.667%"></a><a id="place-north" class="mo mo-mapchange" href="../houseatcrossroads0/#place-south" title="Exit to Houseatcrossroads0" style="left:16.667%;top:0.000%;width:16.667%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Guard" style="left:66.667%;top:66.667%;width:16.667%;height:16.667%"></span><a class="mob" href="../../monsters/crossroads_guard/" title="Guard" style="left:66.667%;top:66.667%;width:16.667%;height:16.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_76.png" alt="Guard"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:8.333%" title="Exit (northwest): to [Houseatcrossroads0](../houseatcrossroads0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:58.333%;top:41.667%" title="Exit (stairs / passage): to [Houseatcrossroads3](../houseatcrossroads3.md)">2</a><a class="pin pin-npc" href="#key-3" style="left:75.000%;top:75.000%" title="[Guard](../../monsters/crossroads_guard.md): 1 quest">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/houseatcrossroads2.webp" alt="Map of Houseatcrossroads2" width="192" height="192" loading="lazy"><a id="place-up" class="mo mo-mapchange" href="../houseatcrossroads3/#place-down" title="Exit to Houseatcrossroads3" style="left:50.000%;top:33.333%;width:16.667%;height:16.667%"></a><a id="place-north" class="mo mo-mapchange" href="../houseatcrossroads0/#place-south" title="Exit to Houseatcrossroads0" style="left:16.667%;top:0.000%;width:16.667%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Guard" style="left:66.667%;top:66.667%;width:16.667%;height:16.667%"></span><a class="mob" href="../../monsters/guard/#v-crossroads_guard" title="Guard" style="left:66.667%;top:66.667%;width:16.667%;height:16.667%"><img src="../../assets/icons/monsters/monsters_rltiles1_76.png" alt="Guard"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:8.333%" title="Exit (northwest): to [Houseatcrossroads0](houseatcrossroads0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:58.333%;top:41.667%" title="Exit (stairs / passage): to [Houseatcrossroads3](houseatcrossroads3.md)">2</a><a id="pin-npc-crossroads_guard" class="pin pin-npc" href="#key-3" style="left:75.000%;top:75.000%" title="[Guard](../../monsters/guard.md#v-crossroads_guard): 1 quest">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (northwest) | to [Houseatcrossroads0](../houseatcrossroads0.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Houseatcrossroads3](../houseatcrossroads3.md) |
-    | <span id="key-3"></span>3 | [Guard](../monsters/crossroads_guard.md) | 1 quest |
+    | <span id="key-1"></span>1 | Exit (northwest) | to [Houseatcrossroads0](houseatcrossroads0.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Houseatcrossroads3](houseatcrossroads3.md) |
+    | <span id="key-3"></span>3 | [Guard](../monsters/guard.md#v-crossroads_guard) | 1 quest |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,11 +46,11 @@
 
 ## NPCs
 
-- [Guard](../monsters/crossroads_guard.md) — quests: [The ruthless Crackshot](../quests/Thieves03.md) (#3)
+- [Guard](../monsters/guard.md#v-crossroads_guard) — quests: [The ruthless Crackshot](../quests/Thieves03.md) (#3)
 
 ## Quests
 
-- [The ruthless Crackshot](../quests/Thieves03.md): [Guard](../monsters/crossroads_guard.md) is involved
+- [The ruthless Crackshot](../quests/Thieves03.md): [Guard](../monsters/guard.md#v-crossroads_guard) is involved
 
 
 ## Version history
@@ -67,19 +71,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

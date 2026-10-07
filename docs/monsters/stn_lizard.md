@@ -1,3 +1,7 @@
+---
+description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, worth 118–190 XP, found in Flagstone Prison."
+---
+
 # ![](../assets/icons/monsters/monsters_tometik2_12.png){ .sprite } Lizard
 
 <div class="infobox" markdown>
@@ -6,21 +10,37 @@
 
 | | |
 |---|---|
-| **Monster ID** | `stn_lizard` |
-| **Type** | Enemy |
-| **Class** | Reptile |
-| **HP** | 50 |
-| **XP when killed** | 118 |
+| **Type** | Enemy (hostile on sight) |
 | **Found in** | Flagstone Prison |
+| **Class** | Reptile, Humanoid |
+| **HP** | 50–100 |
+| **XP when defeated** | 118–190 |
+| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-## Combat stats
+!!! info "2 entries in the game data"
+    The game's data files define 2 separate characters named Lizard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
+| Entry | Type | Location | Role | HP |
+|---|---|---|---|---|
+| [`stn_lizard`](#v-stn_lizard) | Enemy | Flagstone Prison: [flagstone0](../maps/flagstone0.md), Flagstone Prison: [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) (+5 more) | – | 50 |
+| [`stn_colonel_mons1`](#v-stn_colonel_mons1) | Enemy | Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md) | – | 100 |
+
+## Flagstone Prison, Flagstone0 and 6 more (stn_lizard) { #v-stn_lizard }
+
+**Entry ID:** `stn_lizard` · **Type:** Enemy
+
+**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md), Flagstone Prison: [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md), Flagstone Prison: [flagstone_filler_east_2](../maps/flagstone_filler_east_2.md), Flagstone Prison: [lake_shore_road_0](../maps/lake_shore_road_0.md), Flagstone Prison: [lake_shore_road_2](../maps/lake_shore_road_2.md), Flagstone Prison: [lake_shore_road_5](../maps/lake_shore_road_5.md) (+1 more)
+
+### Combat statistics
+
+| Statistic | Value |
 |---|---|
+| Class | Reptile |
 | HP | 50 |
+| XP when defeated | 118 |
 | Damage | 4 to 7 |
 | Attack chance | 40 |
 | Block chance | 120 |
@@ -31,27 +51,25 @@
 | Move cost | 3 AP |
 | Critical skill | 0 |
 | Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
 
-
-## Locations
+### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 5 | appears later in a quest |
+| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 5 | Appears later, during a quest |
 | [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 3 | – |
 | [flagstone_filler_east_2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 4 | – |
 | [lake_shore_road_0](../maps/lake_shore_road_0.md) | Flagstone Prison | 2 | – |
 | [lake_shore_road_2](../maps/lake_shore_road_2.md) | Flagstone Prison | 5 | – |
 | [lake_shore_road_5](../maps/lake_shore_road_5.md) | Flagstone Prison | 1 | – |
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 5 | appears later in a quest |
+| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 5 | Appears later, during a quest |
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -60,32 +78,11 @@
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (stn_lizard)"
 
     | | |
     |---|---|
-    | Monster ID | `stn_lizard` |
+    | Entry ID | `stn_lizard` |
     | Spawn group | `stn_lizard` |
     | Loot table | – |
     | Conversation | – |
@@ -117,6 +114,123 @@
      "damageResistance": 5
     }
     ```
+
+
+## Flagstone Prison, Waytogalmore0 (stn_colonel_mons1) { #v-stn_colonel_mons1 }
+
+**Entry ID:** `stn_colonel_mons1` · **Type:** Enemy
+
+**Location:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+
+### Combat statistics
+
+| Statistic | Value |
+|---|---|
+| Class | Humanoid |
+| HP | 100 |
+| XP when defeated | 190 |
+| Damage | 1 to 4 |
+| Attack chance | 40 |
+| Block chance | 120 |
+| Damage resistance | 5 |
+| Max AP | 10 |
+| Attack cost | 4 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
+| Critical skill | 0 |
+| Critical multiplier | – |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-112) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (stn_colonel_mons1)"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_colonel_mons1` |
+    | Spawn group | `stn_colonel_mons1` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_tometik2:12` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_colonel_mons1",
+     "name": "Lizard",
+     "iconID": "monsters_tometik2:12",
+     "maxHP": 100,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 1,
+      "max": 4
+     },
+     "attackCost": 4,
+     "attackChance": 40,
+     "blockChance": 120,
+     "damageResistance": 5
+    }
+    ```
+
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=stn_lizard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

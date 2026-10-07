@@ -1,3 +1,7 @@
+---
+description: "Iron dagger is a ordinary dagger in Andor's Trail (Attack damage 0 to 1, Attack cost +5, setNonWeaponDamageModifier +112, Attack chance +10). How to get it: monster drops, shops, containers."
+---
+
 # ![](../assets/icons/items/items_weapons_14.png){ .sprite } Iron dagger
 
 *Ordinary dagger.*
@@ -12,7 +16,7 @@
 | **Category** | Dagger |
 | **Slot** | weapon |
 | **Hands** | One-handed |
-| **Proficiency** | Dagger |
+| **Proficiency** | [Dagger proficiency](../skills/weaponProficiencyDagger.md) |
 | **Rarity** | Ordinary |
 | **Base value** | 12 gold |
 | **Introduced** | v0.7.0 or earlier |
@@ -38,9 +42,9 @@
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dealer](../monsters/brv_blackjack_dealer_evil.md) | 100% | 1 | Brimhaven |
-| [Gambler](../monsters/brv_blackjack_gambler1_evil.md) | 50% | 1 | Brimhaven |
-| [Gambler](../monsters/brv_blackjack_gambler2_evil.md) | 50% | 1 | Brimhaven |
+| [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil) | 100% | 1 | Brimhaven |
+| [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil) | 50% | 1 | Brimhaven |
+| [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil) | 50% | 1 | Brimhaven |
 | [Rebelled thief](../monsters/guild03_rebthief_1.md) | 25% | 1 | crackshot_hideout2, crackshot_hideout3 |
 | [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
 | [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
@@ -48,14 +52,14 @@
 | [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
 | [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
 | [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_4a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan master](../monsters/iqhan_4b.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
 | [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1b.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
 | [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2b.md) | 5% | 1 | pwcave3, pwcave4 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | pwcave3, pwcave4 |
 | [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3b.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
 
 ### Sold by
 
@@ -87,19 +91,19 @@
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=dagger0.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,6 +1,6 @@
 # Items
 
-Every item in Andor's Trail v0.8.18, all 1000 of them. The search box is your friend; scrolling through this whole list is not.
+Every item in Andor's Trail v0.8.18, all 1000 of them. Items are grouped by type and category. Use the search box to find a specific item.
 
 ## Equipment
 

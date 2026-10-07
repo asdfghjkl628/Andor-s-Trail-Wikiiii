@@ -1,3 +1,7 @@
+---
+description: "Lich dust is a rare other in Andor's Trail. How to get it: monster drops. A fine grey-blue dust left behind by powerful undead, faintly warm to the touch and resistant to decay."
+---
+
 # ![](../assets/icons/items/items_japozero_591.png){ .sprite } Lich dust
 
 *Rare other.*
@@ -26,21 +30,21 @@
 |---|---|---|---|
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 11% | 1 | undertell_4_01, undertell_5 |
 | [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_plague.md) | 11% | 1 | undertell_4_00, undertell_4_10, undertell_4_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_liches.md) | 11% | 1 | undertell_4_00, undertell_4_11, undertell_7_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich_help_others.md) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 11% | 1 | undertell_4_00, undertell_4_10, undertell_4_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 11% | 1 | undertell_4_00, undertell_4_11, undertell_7_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
 | [Dreadstaff lich](../monsters/dreadblade.md) | 10% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
-| [Dreadstaff lich](../monsters/dreadstaff_help_plague.md) | 10% | 1 | undertell_3_lava_01, undertell_3_lava_10 |
-| [Dreadstaff lich](../monsters/dreadstaff_help_liches.md) | 10% | 1 | undertell_3_lava_00 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 10% | 1 | undertell_3_lava_01, undertell_3_lava_10 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 10% | 1 | undertell_3_lava_00 |
 | [Plague-Lich](../monsters/plague_lich.md) | 9% | 1 | undertell_10, undertell_11, undertell_21 |
 | [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 9% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder_help_liches.md) | 9% | 1 | undertell_3_lava_00 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 9% | 1 | undertell_3_lava_00 |
 | [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 8% | 1 | undertell_11, undertell_12, undertell_21 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_plague.md) | 8% | 1 | undertell_10, undertell_11, undertell_21 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_liches.md) | 8% | 1 | undertell_00, undertell_10, undertell_12 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich_help_others.md) | 8% | 1 | undertell_11 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 8% | 1 | undertell_10, undertell_11, undertell_21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 8% | 1 | undertell_00, undertell_10, undertell_12 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_others) | 8% | 1 | undertell_11 |
 | [Drybone lich](../monsters/drybone_lich.md) | 5% | 1 | undertell_00, undertell_10, undertell_11 |
-| [Drybone lich](../monsters/drybone_lich_help_liches.md) | 5% | 1 | – |
+| [Drybone lich](../monsters/drybone_lich.md#v-drybone_lich_help_liches) | 5% | 1 | – |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -61,19 +65,19 @@
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=lich_dust.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

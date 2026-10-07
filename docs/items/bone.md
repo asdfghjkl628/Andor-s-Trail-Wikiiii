@@ -1,3 +1,7 @@
+---
+description: "Bone is a ordinary animal part in Andor's Trail. How to get it: monster drops, containers."
+---
+
 # ![](../assets/icons/items/items_misc_44.png){ .sprite } Bone
 
 *Ordinary animal part.*
@@ -25,8 +29,8 @@
 | [Keknazar](../monsters/keknazar.md) | 100% | 1-3 | Crossroads Guardhouse |
 | [Thukuzun](../monsters/thukuzun.md) | 100% | 2-8 | lostmine11 |
 | [Hira'zinn](../monsters/hirazinn.md) | 100% | 0-4 | lodarcave4a |
-| [Zuul'khan](../monsters/zuul_khan9.md) | 100% | 1 | mushroom_m3_1 |
-| [Prim guard skeleton](../monsters/elm_miner4a.md) | 100% | 1-2 | elm5f_2 |
+| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9) | 100% | 1 | mushroom_m3_1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md#v-elm_miner4a) | 100% | 1-2 | elm5f_2 |
 | [Golden jackal](../monsters/golden_jackal.md) | 100% | 1 | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
 | [Sleepy giant ogre](../monsters/mg2_troll.md) | 100% | 1 | galmore_18 |
 | [Kotheses](../monsters/kotheses.md) | 80% | 1-2 | laerothprison7 |
@@ -34,8 +38,8 @@
 | [River troll](../monsters/rivertroll.md) | 50% | 3-5 | Flagstone Prison, Crossroads Guardhouse |
 | [Mazarth beast](../monsters/mazarth1.md) | 50% | 0-5 | Charwood |
 | [Tough mazarth beast](../monsters/mazarth2.md) | 50% | 0-5 | Charwood |
-| [Skeleton](../monsters/guynmart_skeleton.md) | 50% | 1 | Guynmart Castle |
-| [Skeleton](../monsters/guynmart_skeleton2.md) | 50% | 1 | Guynmart Castle |
+| [Skeleton](../monsters/skeleton.md#v-guynmart_skeleton) | 50% | 1 | Guynmart Castle |
+| [Skeleton](../monsters/skeleton.md#v-guynmart_skeleton2) | 50% | 1 | Guynmart Castle |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 30% | 1 | Flagstone Prison |
 | [Skeletal master](../monsters/skeletal_master.md) | 30% | 1 | Flagstone Prison |
 | [Skeleton](../monsters/skeleton.md) | 30% | 1 | Flagstone Prison |
@@ -43,11 +47,11 @@
 | [Bone champion](../monsters/bone_champion.md) | 30% | 1 | Flagstone Prison, Loneford |
 | [Graveyard corpse](../monsters/graveyard_corpse.md) | 30% | 1-2 | graveyard1 |
 | [Lesser wight](../monsters/wight_lesser.md) | 30% | 1 | laerothprison6 |
-| [Lesser wight](../monsters/wight_lesser5.md) | 30% | 1 | laerothprison5 |
-| [Lesser wight](../monsters/wight_lesser5b.md) | 30% | 1 | laerothprison5 |
+| [Lesser wight](../monsters/wight_lesser.md#v-wight_lesser5) | 30% | 1 | laerothprison5 |
+| [Lesser wight](../monsters/wight_lesser.md#v-wight_lesser5b) | 30% | 1 | laerothprison5 |
 | [Luthor's skeleton guard](../monsters/tt_monster1.md) | 30% | 1 | crackshot_hideout4 |
-| [Luthor's skeleton guard](../monsters/tt_monster2.md) | 30% | 1 | crackshot_hideout4 |
-| [Luthor's skeleton guard](../monsters/tt_monster3.md) | 30% | 1 | crackshot_hideout4 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md#v-tt_monster2) | 30% | 1 | crackshot_hideout4 |
+| [Luthor's skeleton guard](../monsters/tt_monster1.md#v-tt_monster3) | 30% | 1 | crackshot_hideout4 |
 | [Harrowback](../monsters/harrowback.md) | 25% | 1-2 | Mt. Galmore |
 | [Mutated harrowback](../monsters/mutated_harrowback.md) | 25% | 1-2 | Mt. Galmore |
 | [Ridgehowler](../monsters/ridgehowler.md) | 25% | 1-2 | Mt. Galmore |
@@ -129,19 +133,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=bone.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

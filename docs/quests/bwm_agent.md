@@ -1,3 +1,7 @@
+---
+description: "The agent and the beast is a quest in Andor's Trail, started by Agent (blackwater_mountain5). 25 stages, 8,250 XP in total. I met a man seeking help for his settlement, the 'Blackwater mountain'. Supposedly, his settlement is being attacked by monsters and bandits, and they need help from the out…"
+---
+
 # The agent and the beast
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 240, 250, 251) |
 | **Started by** | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) |
-| **NPCs involved** | [Agent](../monsters/agent4.md), [Agent](../monsters/agent2.md), [Agent](../monsters/agent3.md), [Agent](../monsters/agent1.md), [Agent](../monsters/agent5.md), [Agent](../monsters/agent6.md) +2 |
+| **NPCs involved** | [Agent](../monsters/agent1.md#v-agent2), [Agent](../monsters/agent1.md), [Agent](../monsters/agent1.md#v-agent3), [Agent](../monsters/agent1.md#v-agent6), [Agent](../monsters/agent1.md#v-agent5), [Agent](../monsters/agent1.md#v-agent4) +2 |
 | **Locations** | [blackwater_mountain14](../maps/blackwater_mountain14.md), [blackwater_mountain17](../maps/blackwater_mountain17.md), [blackwater_mountain29](../maps/blackwater_mountain29.md), [blackwater_mountain30](../maps/blackwater_mountain30.md) |
 | **Total XP** | 8,250 |
 | **Related quests** | 4 |
@@ -52,12 +56,12 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 | <span id="stage-1"></span>1 | I met a man seeking help for his settlement, the 'Blackwater mountain'. Supposedly, his settlement is being attacked by monsters and bandits, and they need help from the outside. | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) | – | – |
 | <span id="stage-5"></span>5 | I have agreed to help the man and Blackwater mountain in dealing with the problem. | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) | – | – |
 | <span id="stage-10"></span>10 | The man told me to meet him on the other side of the collapsed mine. He will crawl through the mine shaft and I will descend into the pitch-black abandoned mine.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain5](../maps/blackwater_mountain5.md).</span> | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) | – | removes monsters from blackwater_mountain5 |
-| <span id="stage-20"></span>20 | I have navigated through the pitch-black abandoned mine, and met the man on the other side. He seemed very anxious about telling me to head straight to the east once I exit the mine. I should meet the man at the bottom of the mountain to the east. | [Agent](../monsters/agent2.md) ([blackwater_mountain9](../maps/blackwater_mountain9.md)) | – | – |
+| <span id="stage-20"></span>20 | I have navigated through the pitch-black abandoned mine, and met the man on the other side. He seemed very anxious about telling me to head straight to the east once I exit the mine. I should meet the man at the bottom of the mountain to the east. | [Agent](../monsters/agent1.md#v-agent2) ([blackwater_mountain9](../maps/blackwater_mountain9.md)) | – | – |
 | <span id="stage-25"></span>25 | I heard a story about Prim and the Blackwater mountain settlement fighting against each other. | [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | – | – |
-| <span id="stage-30"></span>30 | I should follow the mountain path up the mountain to the Blackwater mountain settlement. | [Agent](../monsters/agent3.md) ([blackwater_mountain14](../maps/blackwater_mountain14.md)) | – | – |
-| <span id="stage-40"></span>40 | I met the man again on my way up to Blackwater mountain. I should proceed further up the mountain. | [Agent](../monsters/agent4.md) ([blackwater_mountain17](../maps/blackwater_mountain17.md)) | – | – |
-| <span id="stage-50"></span>50 | I have made it up to the snow-filled parts of the Blackwater mountain. The man told me to proceed further up the mountain. Apparently, the Blackwater mountain settlement is close by. | [Agent](../monsters/agent5.md) ([blackwater_mountain30](../maps/blackwater_mountain30.md)) | – | – |
-| <span id="stage-60"></span>60 | I have reached the Blackwater mountain settlement. I should find and talk to their battle master, Harlenn.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain38](../maps/blackwater_mountain38.md).</span> | [Agent](../monsters/agent6.md) ([blackwater_mountain38](../maps/blackwater_mountain38.md)) | – | – |
+| <span id="stage-30"></span>30 | I should follow the mountain path up the mountain to the Blackwater mountain settlement. | [Agent](../monsters/agent1.md#v-agent3) ([blackwater_mountain14](../maps/blackwater_mountain14.md)) | – | – |
+| <span id="stage-40"></span>40 | I met the man again on my way up to Blackwater mountain. I should proceed further up the mountain. | [Agent](../monsters/agent1.md#v-agent4) ([blackwater_mountain17](../maps/blackwater_mountain17.md)) | – | – |
+| <span id="stage-50"></span>50 | I have made it up to the snow-filled parts of the Blackwater mountain. The man told me to proceed further up the mountain. Apparently, the Blackwater mountain settlement is close by. | [Agent](../monsters/agent1.md#v-agent5) ([blackwater_mountain30](../maps/blackwater_mountain30.md)) | – | – |
+| <span id="stage-60"></span>60 | I have reached the Blackwater mountain settlement. I should find and talk to their battle master, Harlenn.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Blackwater mountain38](../maps/blackwater_mountain38.md).</span> | [Agent](../monsters/agent1.md#v-agent6) ([blackwater_mountain38](../maps/blackwater_mountain38.md)) | – | – |
 | <span id="stage-65"></span>65 | I have spoken to Harlenn in the Blackwater mountain settlement. Apparently, the settlement is under attack by a number of monsters, the aulaeth and white wyrms. On top of that, they are being attacked by the people of Prim. | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | – | – |
 | <span id="stage-66"></span>66 | Harlenn thinks the people of Prim are behind the monster attacks somehow. | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | stage 65 | – |
 | <span id="stage-70"></span>70 | Harlenn wants me to give a message to Guthbered of Prim. Either the people of Prim stop their attacks on the Blackwater mountain settlement, or they will have to be dealt with themselves. I should go talk to Guthbered in Prim. | [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | – | – |
@@ -95,7 +99,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 
 ???+ note "Stage 20: 1 route"
 
-    1. Talk to [Agent](../monsters/agent2.md) ([blackwater_mountain9](../maps/blackwater_mountain9.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [The agent and the beast](../quests/bwm_agent.md#stage-20) → **stage 20**. NPC: “I'll wait for you by the steps up to the mountain pass. See you there! Remember, go east once you exit the mine.”
+    1. Talk to [Agent](../monsters/agent1.md#v-agent2) ([blackwater_mountain9](../maps/blackwater_mountain9.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [The agent and the beast](../quests/bwm_agent.md#stage-20) → **stage 20**. NPC: “I'll wait for you by the steps up to the mountain pass. See you there! Remember, go east once you exit the mine.”
 
 ???+ note "Stage 25: 1 route"
 
@@ -103,19 +107,19 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 
 ???+ note "Stage 30: 1 route"
 
-    1. Talk to [Agent](../monsters/agent3.md) ([blackwater_mountain14](../maps/blackwater_mountain14.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [The agent and the beast](../quests/bwm_agent.md#stage-30) → **stage 30**. NPC: “Beware of the nasty monsters, they can really cause some harm!”
+    1. Talk to [Agent](../monsters/agent1.md#v-agent3) ([blackwater_mountain14](../maps/blackwater_mountain14.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [The agent and the beast](../quests/bwm_agent.md#stage-30) → **stage 30**. NPC: “Beware of the nasty monsters, they can really cause some harm!”
 
 ???+ note "Stage 40: 1 route"
 
-    1. Talk to [Agent](../monsters/agent4.md) ([blackwater_mountain17](../maps/blackwater_mountain17.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [The agent and the beast](../quests/bwm_agent.md#stage-40) → **stage 40**. NPC: “Meet me further up the mountain, and we will talk more.”
+    1. Talk to [Agent](../monsters/agent1.md#v-agent4) ([blackwater_mountain17](../maps/blackwater_mountain17.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [The agent and the beast](../quests/bwm_agent.md#stage-40) → **stage 40**. NPC: “Meet me further up the mountain, and we will talk more.”
 
 ???+ note "Stage 50: 1 route"
 
-    1. Talk to [Agent](../monsters/agent5.md) ([blackwater_mountain30](../maps/blackwater_mountain30.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [The agent and the beast](../quests/bwm_agent.md#stage-50) → **stage 50**. NPC: “Now hurry. We are almost there. Follow the snowy path to the north, and you should reach the settlement in no time.”
+    1. Talk to [Agent](../monsters/agent1.md#v-agent5) ([blackwater_mountain30](../maps/blackwater_mountain30.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [The agent and the beast](../quests/bwm_agent.md#stage-50) → **stage 50**. NPC: “Now hurry. We are almost there. Follow the snowy path to the north, and you should reach the settlement in no time.”
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Agent](../monsters/agent6.md) ([blackwater_mountain38](../maps/blackwater_mountain38.md)) → choose “Are we there yet?” → **stage 60**. NPC: “You should go down these stairs and talk to our battle master, Harlenn. He can usually be found at the third level down.”
+    1. Talk to [Agent](../monsters/agent1.md#v-agent6) ([blackwater_mountain38](../maps/blackwater_mountain38.md)) → choose “Are we there yet?” → **stage 60**. NPC: “You should go down these stairs and talk to our battle master, Harlenn. He can usually be found at the third level down.”
 
 ???+ note "Stage 65: 1 route"
 
@@ -192,7 +196,7 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 1 journal text changed; stage 5 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+8 more)<br>Dialogue: 11 lines changed<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…”<br>· text: “Thank you, friend. Your help is greatly appreciated. Everyone in the …” → “Thank you, friend. Your help is greatly appreciated. Everyone in the …” |
+| [v0.7.2](../versions/0.7.2.md) | stage 1 journal text changed; stage 5 journal text changed; stage 25 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed (+8 more)<br>Dialogue: 11 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -203,23 +207,23 @@ None: talk to [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/bla
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=bwm_agent.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

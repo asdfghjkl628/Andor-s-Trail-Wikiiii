@@ -1,3 +1,7 @@
+---
+description: "Galmore 71 is an outdoor location in Andor's Trail. Enemies: Embergeist, Pyreling behemoth. Exits to Galmore 72."
+---
+
 # Galmore 71
 
 <div class="infobox" markdown>
@@ -20,13 +24,13 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/galmore_71.webp" alt="Map of Galmore 71" width="480" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../galmore_72/#place-west" title="Exit to Galmore 72" style="left:93.333%;top:20.000%;width:6.667%;height:3.333%"></a><span class="mo mo-script" title="Scripted event" style="left:20.000%;top:20.000%;width:6.667%;height:3.333%"></span><span class="mo mo-script" title="Scripted event" style="left:33.333%;top:10.000%;width:6.667%;height:3.333%"></span><span class="mo mo-script" title="Scripted event" style="left:73.333%;top:13.333%;width:6.667%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Pyreling behemoth" style="left:26.667%;top:3.333%;width:26.667%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Embergeist" style="left:53.333%;top:10.000%;width:13.333%;height:3.333%"></span><a class="mob" href="../../monsters/Pyreling_behemoth/" title="Pyreling behemoth" style="left:26.667%;top:3.333%;width:13.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_newb_3_11.png" alt="Pyreling behemoth"></a><a class="mob" href="../../monsters/embergeist/" title="Embergeist" style="left:53.333%;top:10.000%;width:6.667%;height:3.333%"><img src="../../assets/icons/monsters/monsters_newb_1_658.png" alt="Embergeist"></a><a class="pin pin-exit" href="#key-1" style="left:96.667%;top:21.667%" title="Exit (east): to [Galmore 72](../galmore_72.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/galmore_71.webp" alt="Map of Galmore 71" width="480" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../galmore_72/#place-west" title="Exit to Galmore 72" style="left:93.333%;top:20.000%;width:6.667%;height:3.333%"></a><span class="mo mo-script" title="Scripted event" style="left:20.000%;top:20.000%;width:6.667%;height:3.333%"></span><span class="mo mo-script" title="Scripted event" style="left:33.333%;top:10.000%;width:6.667%;height:3.333%"></span><span class="mo mo-script" title="Scripted event" style="left:73.333%;top:13.333%;width:6.667%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Pyreling behemoth" style="left:26.667%;top:3.333%;width:26.667%;height:6.667%"></span><span class="mo mo-spawn" title="Spawns: Embergeist" style="left:53.333%;top:10.000%;width:13.333%;height:3.333%"></span><a class="mob" href="../../monsters/Pyreling_behemoth/" title="Pyreling behemoth" style="left:26.667%;top:3.333%;width:13.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_newb_3_11.png" alt="Pyreling behemoth"></a><a class="mob" href="../../monsters/embergeist/" title="Embergeist" style="left:53.333%;top:10.000%;width:6.667%;height:3.333%"><img src="../../assets/icons/monsters/monsters_newb_1_658.png" alt="Embergeist"></a><a class="pin pin-exit" href="#key-1" style="left:96.667%;top:21.667%" title="Exit (east): to [Galmore 72](galmore_72.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Galmore 72](../galmore_72.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Galmore 72](galmore_72.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -62,19 +66,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=galmore_71.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

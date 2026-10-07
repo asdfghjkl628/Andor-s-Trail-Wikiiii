@@ -1,4 +1,10 @@
+---
+description: "Miri is a non-player character (NPC) in Andor's Trail, found in Mt. Galmore, Crossroads Guardhouse. Starts Darkness in the Daylight."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_228.png){ .sprite } Miri
+
+**Where to find Miri:** Crossroads Guardhouse: [houseatcrossroads0](../maps/houseatcrossroads0.md#pin-npc-dds_miri), Mt. Galmore: [galmore_45](../maps/galmore_45.md#pin-npc-dds_miri), [galmore_41](../maps/galmore_41.md#pin-npc-dds_miri)
 
 <div class="infobox" markdown>
 
@@ -6,45 +12,21 @@
 
 | | |
 |---|---|
-| **Monster ID** | `dds_miri` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Role** | Starts [Darkness in the Daylight](../quests/darkness_in_daylight.md) |
 | **Found in** | Mt. Galmore, Crossroads Guardhouse |
+| **Entry ID** | `dds_miri` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_41](../maps/galmore_41.md) | – | 1 | appears later in a quest |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | appears later in a quest |
-| [houseatcrossroads0](../maps/houseatcrossroads0.md) | Crossroads Guardhouse | 1 | appears later in a quest |
-
+| [galmore_41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
+| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [houseatcrossroads0](../maps/houseatcrossroads0.md) | Crossroads Guardhouse | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -53,7 +35,7 @@
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Miri. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Miri. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_miri.json" data-npc="Miri" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -66,7 +48,7 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
     <span id="d-dds_miri"></span>**`dds_miri`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280))* → [dds_miri_600](#d-dds_miri_600)
-    - branch 2 *(if reached stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260); killed 1× [Dark priest](../monsters/dds_dark_priest_monster.md))* → [dds_miri_550](#d-dds_miri_550)
+    - branch 2 *(if reached stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260); killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster))* → [dds_miri_550](#d-dds_miri_550)
     - branch 3 *(if reached stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260))* → [dds_dark_priest2_10](#d-dds_dark_priest2_10)
     - branch 4 *(if reached stage 250 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-250))* → [dds_miri_540](#d-dds_miri_540)
     - branch 5 *(if reached stage 220 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-220))* → [dds_miri_500](#d-dds_miri_500)
@@ -259,11 +241,11 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
 
     - “Of course.” → [dds_miri_580](#d-dds_miri_580)
 
-    <span id="d-dds_dark_priest2_40"></span>**`dds_dark_priest2_40`** [Dark priest](../monsters/dds_dark_priest2.md): “Are we going to do this now, or are you two going to talk all day?” — **effects:** removes monsters from galmore_41, spawns monsters on galmore_41, sets stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260)
+    <span id="d-dds_dark_priest2_40"></span>**`dds_dark_priest2_40`** [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2): “Are we going to do this now, or are you two going to talk all day?” — **effects:** removes monsters from galmore_41, spawns monsters on galmore_41, sets stage 260 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-260)
 
     - “Ah, sorry: KAZAUL EST!” → [dds_dark_priest2_50](#d-dds_dark_priest2_50)
 
-    <span id="d-dds_mourning_woman_70"></span>**`dds_mourning_woman_70`** [Mourning woman](../monsters/dds_mourning_woman.md): “You lie! You don't want my happiness.”
+    <span id="d-dds_mourning_woman_70"></span>**`dds_mourning_woman_70`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “You lie! You don't want my happiness.”
 
     - Next → [dds_mourning_woman_72](#d-dds_mourning_woman_72)
 
@@ -329,7 +311,7 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
     - “Thank you!” → *conversation ends*
     - “Who is Rosmara?” → [dds_miri_592](#d-dds_miri_592)
 
-    <span id="d-dds_mourning_woman_80"></span>**`dds_mourning_woman_80`** [Mourning woman](../monsters/dds_mourning_woman.md): “I don't believe you.”
+    <span id="d-dds_mourning_woman_80"></span>**`dds_mourning_woman_80`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “I don't believe you.”
 
     - Next → [dds_mourning_woman_82](#d-dds_mourning_woman_82)
 
@@ -351,7 +333,7 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
 
     - Next → [dds_miri_92](#d-dds_miri_92)
 
-    <span id="d-dds_mourning_woman_90"></span>**`dds_mourning_woman_90`** [Mourning woman](../monsters/dds_mourning_woman.md): “Oh no! What do I do now? He's gone.”
+    <span id="d-dds_mourning_woman_90"></span>**`dds_mourning_woman_90`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “Oh no! What do I do now? He's gone.”
 
     - Next → [dds_mourning_woman_92](#d-dds_mourning_woman_92)
 
@@ -367,7 +349,7 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
 
     - “So, what do we do?” → [dds_miri_110](#d-dds_miri_110)
 
-    <span id="d-dds_mourning_woman_100"></span>**`dds_mourning_woman_100`** [Mourning woman](../monsters/dds_mourning_woman.md): “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.” — **effects:** sets stage 220 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-220), removes monsters from galmore_45, spawns monsters on loneford4
+    <span id="d-dds_mourning_woman_100"></span>**`dds_mourning_woman_100`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.” — **effects:** sets stage 220 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-220), removes monsters from galmore_45, spawns monsters on loneford4
 
     - Next → [dds_mourning_woman_110](#d-dds_mourning_woman_110)
 
@@ -388,32 +370,11 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `dds_miri` |
+    | Entry ID | `dds_miri` |
     | Spawn group | `dds_miri` |
     | Loot table | – |
     | Conversation | `dds_miri` |
@@ -434,6 +395,27 @@ Set up your situation (quest stages, items, kills…), then talk to Miri. The si
      "phraseID": "dds_miri"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_miri.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

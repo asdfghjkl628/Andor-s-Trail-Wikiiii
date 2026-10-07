@@ -1,3 +1,7 @@
+---
+description: "Stoutford smith is an indoor location in Andor's Trail, in Stoutford (settlement). NPCs: Cornith. Exits to Stoutford smith basement, Stoutford north-east."
+---
+
 # Stoutford smith
 
 <div class="infobox" markdown>
@@ -20,14 +24,14 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/stoutford_smith.webp" alt="Map of Stoutford smith" width="320" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../stoutford_ne/#place-smith" title="Exit to Stoutford north-east" style="left:40.000%;top:87.500%;width:10.000%;height:12.500%"></a><a id="place-down" class="mo mo-mapchange" href="../stoutford_smith_basement/#place-up" title="Exit to Stoutford smith basement" style="left:80.000%;top:50.000%;width:10.000%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Cornith" style="left:10.000%;top:37.500%;width:70.000%;height:37.500%"></span><a class="mob" href="../../monsters/stoutford_smith/" title="Cornith" style="left:10.000%;top:50.000%;width:10.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_29.png" alt="Cornith"></a><a class="pin pin-exit" href="#key-1" style="left:85.000%;top:56.250%" title="Exit (east): to [Stoutford smith basement](../stoutford_smith_basement.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:45.000%;top:93.750%" title="Exit (south): to [Stoutford north-east](../stoutford_ne.md)">2</a><a class="pin pin-npc" href="#key-3" style="left:15.000%;top:56.250%" title="[Cornith](../../monsters/stoutford_smith.md): shopkeeper">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/stoutford_smith.webp" alt="Map of Stoutford smith" width="320" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../stoutford_ne/#place-smith" title="Exit to Stoutford north-east" style="left:40.000%;top:87.500%;width:10.000%;height:12.500%"></a><a id="place-down" class="mo mo-mapchange" href="../stoutford_smith_basement/#place-up" title="Exit to Stoutford smith basement" style="left:80.000%;top:50.000%;width:10.000%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Cornith" style="left:10.000%;top:37.500%;width:70.000%;height:37.500%"></span><a class="mob" href="../../monsters/stoutford_smith/" title="Cornith" style="left:10.000%;top:50.000%;width:10.000%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_29.png" alt="Cornith"></a><a class="pin pin-exit" href="#key-1" style="left:85.000%;top:56.250%" title="Exit (east): to [Stoutford smith basement](stoutford_smith_basement.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:45.000%;top:93.750%" title="Exit (south): to [Stoutford north-east](stoutford_ne.md)">2</a><a id="pin-npc-stoutford_smith" class="pin pin-npc" href="#key-3" style="left:15.000%;top:56.250%" title="[Cornith](../../monsters/stoutford_smith.md): shopkeeper">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Stoutford smith basement](../stoutford_smith_basement.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Stoutford north-east](../stoutford_ne.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Stoutford smith basement](stoutford_smith_basement.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Stoutford north-east](stoutford_ne.md) |
     | <span id="key-3"></span>3 | [Cornith](../monsters/stoutford_smith.md) | shopkeeper |
 
 
@@ -65,19 +69,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=stoutford_smith.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

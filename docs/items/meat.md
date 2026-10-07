@@ -1,3 +1,7 @@
+---
+description: "Meat is a ordinary edible animal part in Andor's Trail. How to get it: monster drops, shops, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_consumables_25.png){ .sprite } Meat
 
 *Ordinary edible animal part.*
@@ -33,14 +37,14 @@
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Korvan the leader of the wolves](../monsters/wolf_leader.md) | 100% | 2 | Crossroads Guardhouse |
-| [Wolfhound](../monsters/hettar_dog3.md) | 100% | 1 | Blackwater Mountain |
+| [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3) | 100% | 1 | Blackwater Mountain |
 | [Golden jackal](../monsters/golden_jackal.md) | 100% | 3-5 | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
 | [Gornaud leader](../monsters/gornaud_boss.md) | 100% | 1-3 | Blackwater Mountain |
 | [Giant snake](../monsters/giant_snake.md) | 90% | 3-7 | Fallhaven |
-| [Sheep](../monsters/lostsheep1.md) | 70% | 0-3 | Crossroads Guardhouse |
-| [Sheep](../monsters/lostsheep2.md) | 70% | 0-3 | Crossroads Guardhouse |
-| [Sheep](../monsters/lostsheep3.md) | 70% | 0-3 | fields3 |
-| [Sheep](../monsters/lostsheep4.md) | 70% | 0-3 | Crossroads Guardhouse |
+| [Sheep](../monsters/sheep1.md#v-lostsheep1) | 70% | 0-3 | Crossroads Guardhouse |
+| [Sheep](../monsters/sheep1.md#v-lostsheep2) | 70% | 0-3 | Crossroads Guardhouse |
+| [Sheep](../monsters/sheep1.md#v-lostsheep3) | 70% | 0-3 | fields3 |
+| [Sheep](../monsters/sheep1.md#v-lostsheep4) | 70% | 0-3 | Crossroads Guardhouse |
 | [Sheep](../monsters/sheep1.md) | 70% | 0-3 | Crossroads Guardhouse |
 | [Alpha fox](../monsters/alpha_fox.md) | 50% | 1 | Foaming Flask Tavern |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 30% | 1 | Fallhaven, Brimhaven, Crossroads Guardhouse |
@@ -82,7 +86,7 @@
 - [Thieves guild cook](../monsters/thieves_guild_cook.md) (Fallhaven)
 - [Tharwyn](../monsters/tharwyn.md) (Vilegard)
 - [Alynndir](../monsters/alynndir.md) (road5_house)
-- [Bela](../monsters/bela_2.md)
+- [Bela](../monsters/bela.md#v-bela_2)
 - [Oseanpry](../monsters/Brightportthieves5.md) (Brightport)
 
 ### Quest & dialogue rewards
@@ -123,19 +127,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=meat.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

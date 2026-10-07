@@ -1,3 +1,7 @@
+---
+description: "Not Pony Island is a quest in Andor's Trail, started by Orion, the centaur (island1). 17 stages, 10,000 XP in total. The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the islan…"
+---
+
 # Not Pony Island
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 310) |
 | **Started by** | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)), [Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md)) |
-| **NPCs involved** | [Algangror](../monsters/lae_algangror2.md), [Algangror](../monsters/lae_algangror3.md), [Algangror](../monsters/lae_algangror1.md), [Andor](../monsters/lae_andor2.md), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/lae_jhaeld1.md) +5 |
+| **NPCs involved** | [Algangror](../monsters/algangror.md#v-lae_algangror2), [Algangror](../monsters/algangror.md#v-lae_algangror1), [Algangror](../monsters/algangror.md#v-lae_algangror3), [Andor](../monsters/dds_andor.md#v-lae_andor2), [Callista, the centaur](../monsters/lae_centaur2.md), [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld3) +5 |
 | **Locations** | [final_cave1](../maps/final_cave1.md), [final_cave2](../maps/final_cave2.md), [island1](../maps/island1.md), [island2](../maps/island2.md) |
 | **Total XP** | 10,000 |
 | **Related quests** | 1 |
@@ -51,22 +55,22 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 | <span id="stage-10"></span>10 | The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island. | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md))<br>[Callista, the centaur](../monsters/lae_centaur2.md) ([island2](../maps/island2.md))<br>[Silvanus, the centaur](../monsters/lae_centaur3.md) ([island3](../maps/island3.md)) | – | sets stage 211 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-211)<br>sets stage 212 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-212)<br>sets stage 213 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-213) |
 | <span id="stage-20"></span>20 | I have met Thalos. | [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | – | – |
 | <span id="stage-30"></span>30 | He ordered me to slay a foul creature that hides in a cave on the hills of Laeroth Island, because the centaurs can't enter it. | [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | – | removes monsters from island4 |
-| <span id="stage-110"></span>110 | In the cave entrance I have met Algangror, who asked for help. | [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
-| <span id="stage-112"></span>112 | In a cave entrance I have met Jhaeld of Remgard, who asked for help. | [Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
-| <span id="stage-120"></span>120 | A common friend would be trapped deeper in the cave and I should free him. | [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md))<br>[Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
+| <span id="stage-110"></span>110 | In the cave entrance I have met Algangror, who asked for help. | [Algangror](../monsters/algangror.md#v-lae_algangror1) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
+| <span id="stage-112"></span>112 | In a cave entrance I have met Jhaeld of Remgard, who asked for help. | [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
+| <span id="stage-120"></span>120 | A common friend would be trapped deeper in the cave and I should free him. | [Algangror](../monsters/algangror.md#v-lae_algangror1) ([island_4_cave1](../maps/island_4_cave1.md))<br>[Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
 | <span id="stage-130"></span>130 | Down in the cave I have found my brother Andor, locked in a room with no doors or other entrances.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave1](../maps/final_cave1.md).</span> | stepping on a trigger on [final_cave1](../maps/final_cave1.md) | – | sets stage 11 of [final_cave (hidden flag)](../quests/final_cave.md#stage-11)<br>removes monsters from island_4_cave1 |
 | <span id="stage-140"></span>140 | To open an entrance I had to find the four scrolls of elements and the three color globes. These were hidden all over the island. The scrolls and globes would need to be properly placed around Andor's golden prison.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave1](../maps/final_cave1.md).</span> | stepping on a trigger on [final_cave1](../maps/final_cave1.md) | – | – |
 | <span id="stage-150"></span>150 | The wall opened and gave access to the interior of the room.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave1](../maps/final_cave1.md).</span> | walking into a blocked passage on [final_cave1](../maps/final_cave1.md)<br>stepping on a trigger on [final_cave1](../maps/final_cave1.md) | – | sets stage 9 of [final_cave (hidden flag)](../quests/final_cave.md#stage-9)<br>faction “final_cave_hint” set to 999 |
 | <span id="stage-160"></span>160 | With an intense sound, the wall built up again. I've been locked up!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave1](../maps/final_cave1.md).</span> | stepping on a trigger on [final_cave1](../maps/final_cave1.md) | – | clears stage 1 of [final_cave (hidden flag)](../quests/final_cave.md#stage-1)<br>faction “final_cave_e” set to 0 |
-| <span id="stage-170"></span>170 | The only way out was down a staircase, which, however, seemed to be magically secured.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Final cave1](../maps/final_cave1.md).</span> | [Andor](../monsters/lae_andor2.md) ([final_cave1](../maps/final_cave1.md)) | – | – |
+| <span id="stage-170"></span>170 | The only way out was down a staircase, which, however, seemed to be magically secured.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Final cave1](../maps/final_cave1.md).</span> | [Andor](../monsters/dds_andor.md#v-lae_andor2) ([final_cave1](../maps/final_cave1.md)) | – | – |
 | <span id="stage-180"></span>180 | The only way out was down a staircase, which, however, seemed to be magically secured. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-190"></span>190 | It was no problem going downstairs, but something was wrong there.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave2](../maps/final_cave2.md).</span> | stepping on a trigger on [final_cave2](../maps/final_cave2.md) | – | removes monsters from final_cave1 |
-| <span id="stage-200"></span>200 | The whole thing was just a big scam to lure me into this cave to serve Dorhantarh as dinner.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Final cave2](../maps/final_cave2.md).</span> | [Algangror](../monsters/lae_algangror3.md) ([final_cave2](../maps/final_cave2.md)) | – | – |
+| <span id="stage-200"></span>200 | The whole thing was just a big scam to lure me into this cave to serve Dorhantarh as dinner.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Final cave2](../maps/final_cave2.md).</span> | [Algangror](../monsters/algangror.md#v-lae_algangror3) ([final_cave2](../maps/final_cave2.md)) | – | – |
 | <span id="stage-210"></span>210 | The moment I placed the Scroll of Fire on the table, it exploded. At the same time the wall opened again.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave2](../maps/final_cave2.md).</span> | walking into a blocked passage on [final_cave2](../maps/final_cave2.md)<br>stepping on a trigger on [final_cave2](../maps/final_cave2.md) | hand over 1× [Scroll of fire](../items/final_cave_f.md) | clears stage 1 of [final_cave (hidden flag)](../quests/final_cave.md#stage-1)<br>clears stage 2 of [final_cave (hidden flag)](../quests/final_cave.md#stage-2)<br>clears stage 3 of [final_cave (hidden flag)](../quests/final_cave.md#stage-3)<br>clears stage 4 of [final_cave (hidden flag)](../quests/final_cave.md#stage-4)<br>clears stage 5 of [final_cave (hidden flag)](../quests/final_cave.md#stage-5)<br>clears stage 6 of [final_cave (hidden flag)](../quests/final_cave.md#stage-6)<br>clears stage 7 of [final_cave (hidden flag)](../quests/final_cave.md#stage-7)<br>faction “final_cave_e” set to 0<br>faction “final_cave_g” set to 0<br>faction “final_cave_f” set to 0<br>faction “final_cave_b” set to 0<br>faction “final_cave_a” set to 0<br>faction “final_cave_r” set to 0<br>faction “final_cave_w” set to 0<br>sets stage 9 of [final_cave (hidden flag)](../quests/final_cave.md#stage-9)<br>faction “final_cave_hint” set to 999<br>applies condition bleeding_wound |
 | <span id="stage-300"></span>300 | I brought the monster's heart to Thalos and told him that the danger has been averted. He was impressed and relieved at the same time. | [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | – | – |
 | <span id="stage-310"></span>310 | Since then I have been a welcome guest of the centaurs. **(completes quest)** | [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | – | 10,000 XP |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -90,16 +94,16 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
 ???+ note "Stage 110: 1 route"
 
-    1. Talk to [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → the conversation leads here automatically → **stage 110**. NPC: “$playername - good that you are here! I need your help urgently.”
+    1. Talk to [Algangror](../monsters/algangror.md#v-lae_algangror1) ([island_4_cave1](../maps/island_4_cave1.md)) → the conversation leads here automatically → **stage 110**. NPC: “$playername - good that you are here! I need your help urgently.”
 
 ???+ note "Stage 112: 1 route"
 
-    1. Talk to [Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → the conversation leads here automatically → **stage 112**. NPC: “$playername - good that you are here! I need your help urgently.”
+    1. Talk to [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) ([island_4_cave1](../maps/island_4_cave1.md)) → the conversation leads here automatically → **stage 112**. NPC: “$playername - good that you are here! I need your help urgently.”
 
 ???+ note "Stage 120: 2 routes"
 
-    1. Talk to [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “So how can I help you?” → **stage 120**. NPC: “You know him very well by the way. We have to help him!”
-    2. Talk to [Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Why? Don't coming around on your own anymore?” → **stage 120**. NPC: “You know him very well by the way. We have to help him!”
+    1. Talk to [Algangror](../monsters/algangror.md#v-lae_algangror1) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “So how can I help you?” → **stage 120**. NPC: “You know him very well by the way. We have to help him!”
+    2. Talk to [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Why? Don't coming around on your own anymore?” → **stage 120**. NPC: “You know him very well by the way. We have to help him!”
 
 ???+ note "Stage 130: 1 route"
 
@@ -126,7 +130,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
 ???+ note "Stage 170: 1 route"
 
-    1. Talk to [Andor](../monsters/lae_andor2.md) ([final_cave1](../maps/final_cave1.md)) → choose “What is down there?” → **stage 170**. NPC: “We can't use those stairs. Some invisible force holds us back. But maybe you can do it?”
+    1. Talk to [Andor](../monsters/dds_andor.md#v-lae_andor2) ([final_cave1](../maps/final_cave1.md)) → choose “What is down there?” → **stage 170**. NPC: “We can't use those stairs. Some invisible force holds us back. But maybe you can do it?”
 
 ???+ note "Stage 190: 1 route"
 
@@ -134,7 +138,7 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
 ???+ note "Stage 200: 1 route"
 
-    1. Talk to [Algangror](../monsters/lae_algangror3.md) ([final_cave2](../maps/final_cave2.md)) → the conversation leads here automatically — **conditions:** reached stage 200 of [Not Pony Island](../quests/lae_centaurs.md#stage-200) → **stage 200**. NPC: “Now go ahead, you'll be a tasty dinner for our master Dorhantarh tonight.”
+    1. Talk to [Algangror](../monsters/algangror.md#v-lae_algangror3) ([final_cave2](../maps/final_cave2.md)) → the conversation leads here automatically — **conditions:** reached stage 200 of [Not Pony Island](../quests/lae_centaurs.md#stage-200) → **stage 200**. NPC: “Now go ahead, you'll be a tasty dinner for our master Dorhantarh tonight.”
 
 ???+ note "Stage 210: 2 routes"
 
@@ -168,23 +172,23 @@ None: talk to [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../ma
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=lae_centaurs.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

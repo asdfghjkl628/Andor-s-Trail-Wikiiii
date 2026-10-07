@@ -1,3 +1,7 @@
+---
+description: "Fair play? is a quest in Andor's Trail, started by Guard (brimhaven_tavern_west). 10 stages, 2,450 XP in total. I heard noices from the back room but I was not allowed to enter because I didn't know the password."
+---
+
 # Fair play?
 
 <div class="infobox" markdown>
@@ -7,8 +11,8 @@
 | **Quest ID** | `brv_blackjack` |
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 70, 80) |
-| **Started by** | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) |
-| **NPCs involved** | [Dealer](../monsters/brv_blackjack_dealer.md), [Guard](../monsters/brv_tavern_west_guard.md), [Zimsko](../monsters/zimsko.md) |
+| **Started by** | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) |
+| **NPCs involved** | [Dealer](../monsters/brv_blackjack_dealer.md), [Guard](../monsters/guard.md#v-brv_tavern_west_guard), [Zimsko](../monsters/zimsko.md) |
 | **Locations** | [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md), [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) |
 | **Total XP** | 2,450 |
 | **Related quests** | 2 |
@@ -21,11 +25,11 @@
 
 ## Prerequisites to start
 
-**Route 1** ([Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))):
+**Route 1** ([Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))):
 
 - reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20)
 
-**Route 2** ([Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))):
+**Route 2** ([Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))):
 
 - nothing
 
@@ -53,14 +57,14 @@
 
 | Stage | Journal entry | Triggered by | Needs | Rewards |
 |---|---|---|---|---|
-| <span id="stage-10"></span>10 | I heard noices from the back room but I was not allowed to enter because I didn't know the password. | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 20 | – |
+| <span id="stage-10"></span>10 | I heard noices from the back room but I was not allowed to enter because I didn't know the password. | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 20 | – |
 | <span id="stage-20"></span>20 | Zimsko told me about gambling in the back room and that he lost a lot of money. He thinks that they are cheating. | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 10, stage 70 | – |
 | <span id="stage-30"></span>30 | I told Zimsko that I want to find out more about the gambling and he told me the password to access the back room. | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 10, stage 20, stage 70 | – |
 | <span id="stage-31"></span>31 | I have to win and lose a few times until they trust me and play for higher amounts. Then they start cheating. | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 10, stage 20, stage 70 | – |
-| <span id="stage-40"></span>40 | With the password, I was allowed to enter the back room. | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | – | 300 XP<br>sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150) |
+| <span id="stage-40"></span>40 | With the password, I was allowed to enter the back room. | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | – | 300 XP<br>sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150) |
 | <span id="stage-45"></span>45 | They trust me and now and are playing for higher amounts. | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md))<br>stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | – | 500 XP |
 | <span id="stage-50"></span>50 | After I accused the dealer of cheating, a tavern brawl started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md).</span> | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md))<br>stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | pay 1 gold | removes monsters from brimhaven_tavern_west_back<br>spawns monsters on brimhaven_tavern_west_back |
-| <span id="stage-60"></span>60 | All the people involved in the tavern brawl survived, but I am no longer allowed to enter the back room.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)<br>[Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 50 | clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150) |
+| <span id="stage-60"></span>60 | All the people involved in the tavern brawl survived, but I am no longer allowed to enter the back room.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)<br>[Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 50 | clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150) |
 | <span id="stage-70"></span>70 | I told Zimsko that I believe the gamblers are cheating. **(completes quest)** | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 30, stage 50 | 500 XP |
 | <span id="stage-80"></span>80 | I told Zimsko that I believe the gamblers are not cheating. **(completes quest)** | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | stage 30 | 1,150 XP |
 
@@ -72,8 +76,8 @@
 
 ???+ note "Stage 10: 2 routes"
 
-    1. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20) → **stage 10**. NPC: “[You hear noises from the back room...] Stop! Tell me the password, if you want to enter.”
-    2. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically → **stage 10**
+    1. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20) → **stage 10**. NPC: “[You hear noises from the back room...] Stop! Tell me the password, if you want to enter.”
+    2. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically → **stage 10**
 
 ???+ note "Stage 20: 1 route"
 
@@ -91,7 +95,7 @@
 
 ???+ note "Stage 40: 1 route"
 
-    1. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40) → **stage 40**; also sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I wish you good luck. [Laughs]”
+    1. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40) → **stage 40**; also sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I wish you good luck. [Laughs]”
 
 ???+ note "Stage 45: 2 routes"
 
@@ -105,8 +109,8 @@
 
 ???+ note "Stage 60: 2 routes"
 
-    1. stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) → the conversation leads here automatically — **conditions:** reached stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Gambler](../monsters/brv_blackjack_gambler2_evil.md); killed 1× [Gambler](../monsters/brv_blackjack_gambler1_evil.md); killed 1× [Dealer](../monsters/brv_blackjack_dealer_evil.md) → **stage 60**; also clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”
-    2. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Dealer](../monsters/brv_blackjack_dealer_evil.md); killed 1× [Gambler](../monsters/brv_blackjack_gambler1_evil.md) → **stage 60**; also clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”
+    1. stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) → the conversation leads here automatically — **conditions:** reached stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil); killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil) → **stage 60**; also clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”
+    2. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil) → **stage 60**; also clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150). NPC: “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.”
 
 ???+ note "Stage 70: 2 routes"
 
@@ -138,23 +142,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

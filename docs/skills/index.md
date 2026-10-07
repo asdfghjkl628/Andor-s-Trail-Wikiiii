@@ -1,6 +1,6 @@
 # Stats & Skills
 
-How your hero's numbers actually work in v0.8.18, pulled straight from the game's source code rather than from forum folklore. Click a heading to fold it away. Wondering what to *do* with all this? That's what [Strategy](../strategy/index.md) is for.
+How character statistics, levelling and combat work in v0.8.18, as implemented in the game's source code. Each section can be collapsed by clicking its heading. For recommendations on how to use this information, see [Strategy](../strategy/index.md).
 
 ???+ section "Starting stats (level 1)"
 
@@ -22,10 +22,10 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
     | Attack damage | +1 min & max |
     | Block chance | +3 |
 
-    Pick **one** per level-up. There's no respec, so choose like you mean it. These picks form your **base stats**, which are the only values skill requirements look at. Gear and skills don't count, however shiny.
+    One bonus is chosen at each level-up, and the choice is permanent (the game has no way to reallocate it). These choices form your **base stats**, which are the only values that skill requirements check. Bonuses from equipment and skills do not count toward requirements.
 
-    **Skill points:** levels 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60. That's 12 by level 50, and every one of them will feel like a hard decision.
-    **Experience:** level L → L+1 costs 55 × L². Quadratic growth, so the grind gets real.
+    **Skill points:** levels 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60. That is 12 skill points by level 50.
+    **Experience:** level L → L+1 costs 55 × L². The cost grows with the square of the level.
 
     ![Experience needed per level](../assets/charts/experience.png)
 
@@ -48,7 +48,7 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
 
 ???+ section "How combat works"
 
-    Every attack goes through the same four steps. No hidden dice, no secret modifiers; this is the whole thing. The [stat glossary](stats.md) explains each stat.
+    Every attack is resolved in the same four steps, described below. The [stat glossary](stats.md) explains each stat.
 
     **1 · Hit?** `hit % = 50 × (1 + (2/π) × arctan((AC − BC − 50) / 40))`
 
@@ -70,7 +70,7 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
 
     **2 · Damage:** random between min and max attack damage.
 
-    **3 · Critical?** Only if you have critical skill above 0 **and** a critical multiplier, which comes from your weapon (or from [Way of the Monk](fightstyleUnarmedUnarmored.md) when fighting unarmed). No multiplier, no crits, no matter how much critical skill you pile up. Ghosts, constructs and demons are immune either way. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
+    **3 · Critical?** Only if you have critical skill above 0 **and** a critical multiplier, which comes from your weapon (or from [Way of the Monk](fightstyleUnarmedUnarmored.md) when fighting unarmed). Without a multiplier, critical skill has no effect. Ghosts, constructs and demons are immune to critical hits. `crit % = −5 + 2 × √(5 × critical skill)`, then damage × multiplier.
 
     ![Crit chance curve](../assets/charts/crit_chance.png)
 
@@ -86,7 +86,7 @@ How your hero's numbers actually work in v0.8.18, pulled straight from the game'
     | 100 | 39% |
     | 150 | 49% |
 
-    **4 · Armor:** the target's damage resistance is subtracted from the result, with a floor of 0. Yes, a hit can do zero damage, and yes, it's as annoying as it sounds.
+    **4 · Armor:** the target's damage resistance is subtracted from the result, with a minimum of 0, so a hit can deal no damage at all.
 
     **Attacks per turn** = max AP ÷ attack cost, rounded down.
 

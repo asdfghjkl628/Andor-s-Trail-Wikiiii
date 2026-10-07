@@ -1,3 +1,7 @@
+---
+description: "Fallhaven derelict is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to Fallhaven north-west, Fallhaven derelict2."
+---
+
 # Fallhaven derelict
 
 <div class="infobox" markdown>
@@ -19,14 +23,14 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fallhaven_derelict.webp" alt="Map of Fallhaven derelict" width="384" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../fallhaven_nw/#place-derelict" title="Exit to Fallhaven north-west" style="left:58.333%;top:87.500%;width:8.333%;height:12.500%"></a><a id="place-down" class="mo mo-mapchange" href="../fallhaven_derelict2/#place-up" title="Exit to Fallhaven derelict2" style="left:8.333%;top:62.500%;width:8.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Bucus" style="left:66.667%;top:37.500%;width:25.000%;height:25.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-50" title="Unlocked during the quest: Search for Andor (stage 50: “Bucus has allowed me to enter the hatch in the derelict house in Fallhaven. I should go talk to Umar.”)" style="left:25.000%;top:37.500%;width:8.333%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:62.500%;top:93.750%" title="Exit (south): to [Fallhaven north-west](../fallhaven_nw.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:12.500%;top:68.750%" title="Exit (west): to [Fallhaven derelict2](../fallhaven_derelict2.md)">2</a><a class="pin pin-key" href="#key-3" style="left:29.167%;top:43.750%" title="Blocked passage: Unlocked during the quest: Search for Andor (stage 50: “Bucus has allowed me to enter the hatch in the derelict house in Fallhaven. I should go talk to Umar.”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fallhaven_derelict.webp" alt="Map of Fallhaven derelict" width="384" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../fallhaven_nw/#place-derelict" title="Exit to Fallhaven north-west" style="left:58.333%;top:87.500%;width:8.333%;height:12.500%"></a><a id="place-down" class="mo mo-mapchange" href="../fallhaven_derelict2/#place-up" title="Exit to Fallhaven derelict2" style="left:8.333%;top:62.500%;width:8.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Bucus" style="left:66.667%;top:37.500%;width:25.000%;height:25.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-50" title="Unlocked during the quest: Search for Andor (stage 50: “Bucus has allowed me to enter the hatch in the derelict house in Fallhaven. I should go talk to Umar.”)" style="left:25.000%;top:37.500%;width:8.333%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:62.500%;top:93.750%" title="Exit (south): to [Fallhaven north-west](fallhaven_nw.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:12.500%;top:68.750%" title="Exit (west): to [Fallhaven derelict2](fallhaven_derelict2.md)">2</a><a class="pin pin-key" href="#key-3" style="left:29.167%;top:43.750%" title="Blocked passage: Unlocked during the quest: Search for Andor (stage 50: “Bucus has allowed me to enter the hatch in the derelict house in Fallhaven. I should go talk to Umar.”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Fallhaven north-west](../fallhaven_nw.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Fallhaven derelict2](../fallhaven_derelict2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Fallhaven north-west](fallhaven_nw.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Fallhaven derelict2](fallhaven_derelict2.md) |
     | <span id="key-3"></span>3 | Blocked passage | Unlocked during the quest: Search for Andor (stage 50: “Bucus has allowed me to enter the hatch in the derelict house in Fallhaven. I should go talk to Umar.”) |
 
 
@@ -66,19 +70,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=fallhaven_derelict.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

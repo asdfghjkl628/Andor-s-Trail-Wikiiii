@@ -1,3 +1,7 @@
+---
+description: "Wild12 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit. Enemies: Forest wasp, Wild boar, Forest serpent. Exits to Wild13, Bogsten5, Gapfiller1, Fallhaven south-east."
+---
+
 # Wild12
 
 <div class="infobox" markdown>
@@ -24,7 +28,7 @@
 
 <div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild12.webp" alt="Map of Wild12" width="640" height="640" loading="lazy"><a id="place-nw" class="mo mo-mapchange" href="../fallhaven_se/#place-east" title="Exit to Fallhaven south-east" style="left:0.000%;top:10.000%;width:5.000%;height:20.000%"></a><a id="place-sw" class="mo mo-mapchange" href="../gapfiller1/#place-east" title="Exit to Gapfiller1" style="left:0.000%;top:85.000%;width:5.000%;height:10.000%"></a><span class="mo mo-sign" title="Sign: North: Fallhaven
 East: Vilegard
-East: Nor City" style="left:60.000%;top:70.000%;width:5.000%;height:5.000%"></span><a id="place-east" class="mo mo-mapchange" href="../wild13/#place-west" title="Exit to Wild13" style="left:95.000%;top:75.000%;width:5.000%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../bogsten5/#place-north" title="Exit to Bogsten5" style="left:65.000%;top:95.000%;width:5.000%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:15.000%;top:20.000%;width:45.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:15.000%;top:60.000%;width:45.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Forest serpent" style="left:45.000%;top:45.000%;width:40.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Shady bandit" style="left:85.000%;top:15.000%;width:5.000%;height:5.000%"></span><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:30.000%;top:25.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:55.000%;top:30.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:55.000%;top:80.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:40.000%;top:75.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/forest_serpent/" title="Forest serpent" style="left:55.000%;top:45.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_4.png" alt="Forest serpent"></a><a class="mob" href="../../monsters/forest_serpent/" title="Forest serpent" style="left:65.000%;top:45.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_4.png" alt="Forest serpent"></a><a class="mob" href="../../monsters/shady_bandit/" title="Shady bandit" style="left:85.000%;top:15.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_men2_9.png" alt="Shady bandit"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:80.000%" title="Exit (east): to [Wild13](../wild13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:67.500%;top:97.500%" title="Exit (south): to [Bogsten5](../bogsten5.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.500%;top:90.000%" title="Exit (southwest): to [Gapfiller1](../gapfiller1.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:2.500%;top:20.000%" title="Exit (west): to [Fallhaven south-east](../fallhaven_se.md)">4</a><a class="pin pin-npc" href="#key-5" style="left:87.500%;top:17.500%" title="[Shady bandit](../../monsters/shady_bandit.md): NPC">5</a><a class="pin pin-sign" href="#key-6" style="left:62.500%;top:72.500%" title="Sign: “North: Fallhaven
+East: Nor City" style="left:60.000%;top:70.000%;width:5.000%;height:5.000%"></span><a id="place-east" class="mo mo-mapchange" href="../wild13/#place-west" title="Exit to Wild13" style="left:95.000%;top:75.000%;width:5.000%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../bogsten5/#place-north" title="Exit to Bogsten5" style="left:65.000%;top:95.000%;width:5.000%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:15.000%;top:20.000%;width:45.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:15.000%;top:60.000%;width:45.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Forest serpent" style="left:45.000%;top:45.000%;width:40.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Shady bandit" style="left:85.000%;top:15.000%;width:5.000%;height:5.000%"></span><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:30.000%;top:25.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:55.000%;top:30.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:55.000%;top:80.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:40.000%;top:75.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/forest_serpent/" title="Forest serpent" style="left:55.000%;top:45.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_4.png" alt="Forest serpent"></a><a class="mob" href="../../monsters/forest_serpent/" title="Forest serpent" style="left:65.000%;top:45.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_snakes_4.png" alt="Forest serpent"></a><a class="mob" href="../../monsters/shady_bandit/" title="Shady bandit" style="left:85.000%;top:15.000%;width:5.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_men2_9.png" alt="Shady bandit"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:80.000%" title="Exit (east): to [Wild13](wild13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:67.500%;top:97.500%" title="Exit (south): to [Bogsten5](bogsten5.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.500%;top:90.000%" title="Exit (southwest): to [Gapfiller1](gapfiller1.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:2.500%;top:20.000%" title="Exit (west): to [Fallhaven south-east](fallhaven_se.md)">4</a><a id="pin-npc-shady_bandit" class="pin pin-npc" href="#key-5" style="left:87.500%;top:17.500%" title="[Shady bandit](../../monsters/shady_bandit.md): NPC">5</a><a class="pin pin-sign" href="#key-6" style="left:62.500%;top:72.500%" title="Sign: “North: Fallhaven
 East: Vilegard
 East: Nor City”">6</a></div>
 
@@ -32,10 +36,10 @@ East: Nor City”">6</a></div>
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Wild13](../wild13.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Bogsten5](../bogsten5.md) |
-    | <span id="key-3"></span>3 | Exit (southwest) | to [Gapfiller1](../gapfiller1.md) |
-    | <span id="key-4"></span>4 | Exit (west) | to [Fallhaven south-east](../fallhaven_se.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Wild13](wild13.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Bogsten5](bogsten5.md) |
+    | <span id="key-3"></span>3 | Exit (southwest) | to [Gapfiller1](gapfiller1.md) |
+    | <span id="key-4"></span>4 | Exit (west) | to [Fallhaven south-east](fallhaven_se.md) |
     | <span id="key-5"></span>5 | [Shady bandit](../monsters/shady_bandit.md) | NPC |
     | <span id="key-6"></span>6 | Sign | “North: Fallhaven East: Vilegard East: Nor City” |
 
@@ -53,15 +57,15 @@ East: Nor City”">6</a></div>
 
 ## NPCs
 
-- [Shady bandit](../monsters/shady_bandit.md) (#5)
+- [Shady bandit](../monsters/shady_bandit.md) — can be fought (#5)
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
-| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 2 | – |
 | [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 2 | – |
+| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -88,19 +92,19 @@ East: Nor City”">6</a></div>
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=wild12.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Khorailla is an NPC who can also be fought in Andor's Trail, found in Prim. Shopkeeper."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } Khorailla
 
 <div class="infobox" markdown>
@@ -6,38 +10,32 @@
 
 | | |
 |---|---|
-| **Monster ID** | `khorailla` |
-| **Type** | Shopkeeper |
-| **Class** | ? |
-| **HP** | 1 |
+| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Role** | Shopkeeper |
 | **Found in** | Prim |
+| **Class** | Humanoid |
+| **HP** | 1 |
+| **XP when defeated** | 1 |
+| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat stats
+!!! info "2 entries in the game data"
+    The game's data files define 2 separate characters named Khorailla. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, loot or shop stock. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Entry | Type | Location | Role | HP |
+|---|---|---|---|---|
+| [`khorailla`](#v-khorailla) | NPC | Prim: [tradehouse0](../maps/tradehouse0.md#pin-npc-khorailla) | shopkeeper | – |
+| [`khorailla_cheddar`](#v-khorailla_cheddar) | Enemy | Prim: [tradehouse0](../maps/tradehouse0.md) | – | 1 |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+## Prim, Tradehouse0 (khorailla) { #v-khorailla }
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+**Entry ID:** `khorailla` · **Type:** NPC · **Role:** Shopkeeper
 
+**Location:** Prim: [tradehouse0](../maps/tradehouse0.md#pin-npc-khorailla)
 
-## Shop stock
+### Shop stock
 
 | Item | Chance | Qty |
 |---|---|---|
@@ -49,20 +47,13 @@
 | [Sap of the charwood tree](../items/drink_charwood1.md) | 100% | 5 to 12 |
 | [Concentrated charwood sap](../items/drink_charwood2.md) | 100% | 5 to 12 |
 
-## Locations
+### Quests
 
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [tradehouse0](../maps/tradehouse0.md) | Prim | 1 | – |
+- [Destined for great things](../quests/charwood1.md): stage 19
 
+### Dialogue simulator
 
-## Quests
-
-- [Destined for great things](../quests/charwood1.md): stages 19
-
-## Dialogue simulator
-
-Set up your situation (quest stages, items, kills…), then talk to Khorailla. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Khorailla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/khorailla.json" data-npc="Khorailla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -72,40 +63,40 @@ Set up your situation (quest stages, items, kills…), then talk to Khorailla. T
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-khorailla"></span>**`khorailla`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 19 of [Destined for great things](../quests/charwood1.md#stage-19)
+    <span id="d-khorailla-khorailla"></span>**`khorailla`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 19 of [Destined for great things](../quests/charwood1.md#stage-19)
 
-    - branch 1 *(if reached stage 50 of [Destined for great things](../quests/charwood1.md#stage-50))* → [khorailla1](#d-khorailla1)
-    - branch 2 → [khorailla3](#d-khorailla3)
+    - branch 1 *(if reached stage 50 of [Destined for great things](../quests/charwood1.md#stage-50))* → [khorailla1](#d-khorailla-khorailla1)
+    - branch 2 → [khorailla3](#d-khorailla-khorailla3)
 
-    <span id="d-khorailla1"></span>**`khorailla1`** Khorailla: “Thank you so much for finding our missing people!”
+    <span id="d-khorailla-khorailla1"></span>**`khorailla1`** Khorailla: “Thank you so much for finding our missing people!”
 
-    - “Do you have anything to trade?” → [khorailla2](#d-khorailla2)
-    - “Please sell me some of your famous Cheddar cheese.” *(if reached stage 30 of [Rare delicacies](../quests/guynmart_wise.md#stage-30))* → [khorailla_cheddar](#d-khorailla_cheddar)
+    - “Do you have anything to trade?” → [khorailla2](#d-khorailla-khorailla2)
+    - “Please sell me some of your famous Cheddar cheese.” *(if reached stage 30 of [Rare delicacies](../quests/guynmart_wise.md#stage-30))* → [khorailla_cheddar](#d-khorailla-khorailla_cheddar)
     - “You're welcome.” → *conversation ends*
 
-    <span id="d-khorailla3"></span>**`khorailla3`** Khorailla: “What ever will we do? Poor Ayell and Fayvara, I sure hope they're alright.”
+    <span id="d-khorailla-khorailla3"></span>**`khorailla3`** Khorailla: “What ever will we do? Poor Ayell and Fayvara, I sure hope they're alright.”
 
-    - “Do you have anything to trade?” → [khorailla5](#d-khorailla5)
-    - “What happened to them?” → [khorailla4](#d-khorailla4)
+    - “Do you have anything to trade?” → [khorailla5](#d-khorailla-khorailla5)
+    - “What happened to them?” → [khorailla4](#d-khorailla-khorailla4)
 
-    <span id="d-khorailla2"></span>**`khorailla2`** Khorailla: “It's not much, but I have some food if you'd like.”
+    <span id="d-khorailla-khorailla2"></span>**`khorailla2`** Khorailla: “It's not much, but I have some food if you'd like.”
 
     - “Sure, let me see what you have.” → *shop opens*
 
-    <span id="d-khorailla_cheddar"></span>**`khorailla_cheddar`** [Khorailla](../monsters/khorailla_cheddar.md): “Ah, you really know what's good.”
+    <span id="d-khorailla-khorailla_cheddar"></span>**`khorailla_cheddar`** [Khorailla](../monsters/khorailla.md#v-khorailla_cheddar): “Ah, you really know what's good.”
 
     - “I hope so. It was a long way to come.” → *shop opens*
 
-    <span id="d-khorailla5"></span>**`khorailla5`** Khorailla: “I'm sorry, I'm too distracted to help you right now.”
+    <span id="d-khorailla-khorailla5"></span>**`khorailla5`** Khorailla: “I'm sorry, I'm too distracted to help you right now.”
 
-    - Next → [khorailla4](#d-khorailla4)
+    - Next → [khorailla4](#d-khorailla-khorailla4)
 
-    <span id="d-khorailla4"></span>**`khorailla4`** Khorailla: “You should talk to Maevalia over there.”
-
-
+    <span id="d-khorailla-khorailla4"></span>**`khorailla4`** Khorailla: “You should talk to Maevalia over there.”
 
 
-## Version history
+
+
+### Version history
 
 | Version | Change |
 |---|---|
@@ -115,32 +106,11 @@ Set up your situation (quest stages, items, kills…), then talk to Khorailla. T
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (khorailla)"
 
     | | |
     |---|---|
-    | Monster ID | `khorailla` |
+    | Entry ID | `khorailla` |
     | Spawn group | `khorailla` |
     | Loot table | `shop_khorailla` |
     | Conversation | `khorailla` |
@@ -160,6 +130,119 @@ Set up your situation (quest stages, items, kills…), then talk to Khorailla. T
      "droplistID": "shop_khorailla"
     }
     ```
+
+
+## Prim, Tradehouse0 (khorailla_cheddar) { #v-khorailla_cheddar }
+
+**Entry ID:** `khorailla_cheddar` · **Type:** Enemy
+
+**Location:** Prim: [tradehouse0](../maps/tradehouse0.md)
+
+### Combat statistics
+
+| Statistic | Value |
+|---|---|
+| Class | Humanoid |
+| HP | 1 |
+| XP when defeated | 1 |
+| Damage | 0 |
+| Attack chance | 0 |
+| Block chance | 0 |
+| Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
+| Critical skill | 0 |
+| Critical multiplier | – |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Carrots](../items/carrots.md) | 100% | 5 to 12 |
+| [Cheese](../items/cheese.md) | 100% | 5 to 12 |
+| [Raw perch](../items/rawperch.md) | 100% | 5 to 12 |
+| [Cooked perch](../items/cookperch.md) | 100% | 5 to 12 |
+| [Cooked chicken leg](../items/chkn_leg.md) | 100% | 5 to 12 |
+| [Sap of the charwood tree](../items/drink_charwood1.md) | 100% | 5 to 12 |
+| [Concentrated charwood sap](../items/drink_charwood2.md) | 100% | 5 to 12 |
+| [Charwood cheddar](../items/charwood_cheddar.md) | 100% | 5 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [tradehouse0](../maps/tradehouse0.md) | Prim | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (khorailla_cheddar)"
+
+    | | |
+    |---|---|
+    | Entry ID | `khorailla_cheddar` |
+    | Spawn group | `khorailla_cheddar` |
+    | Loot table | `shop_khorailla_cheddar` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:221` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "khorailla_cheddar",
+     "name": "Khorailla",
+     "iconID": "monsters_ld1:221",
+     "droplistID": "shop_khorailla_cheddar"
+    }
+    ```
+
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=khorailla.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>
