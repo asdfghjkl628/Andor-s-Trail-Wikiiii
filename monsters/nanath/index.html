@@ -1102,7 +1102,7 @@
 
 
 <h1 id="nanath"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_newb_1_41.png" /> Nanath<a class="headerlink" href="#nanath" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Nanath:</strong> Fallhaven: <a href="../../maps/fallhaven_derelict2/#pin-npc-nanath">fallhaven_derelict2</a></p>
+<p><strong>Where to find Nanath:</strong> Fallhaven: <a href="../../maps/fallhaven_derelict2/#pin-npc-nanath">Fallhaven derelict 2</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_41.png){ .sprite }</p>
 <table>
@@ -1141,14 +1141,14 @@
 <li><a href="../../quests/troubling_times/">Troubling times</a>: stages 10, 20, 30, 40, 50, 82, 90, 95, 105, 115, 150, 160, 193, 302, 310</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nanath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Nanath. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/nanath.json" data-npc="Nanath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (55 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-nanath"></span><strong><code>nanath</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 310 of <a href="../../quests/troubling_times/#stage-310">Troubling times</a>)</em> → <a href="#d-nanath_310">nanath_310</a></li>
@@ -1257,7 +1257,7 @@
 <ul>
 <li>“So?” → <a href="#d-nanath_24">nanath_24</a></li>
 </ul>
-<p><span id="d-nanath_302"></span><strong><code>nanath_302</code></strong> Nanath: “Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again.” — <strong>effects:</strong> sets stage 302 of <a href="../../quests/troubling_times/#stage-302">Troubling times</a>, clears stage 20 of <a href="../../quests/troubling_times_nd/#stage-20">troubling_times_nd (hidden flag)</a></p>
+<p><span id="d-nanath_302"></span><strong><code>nanath_302</code></strong> Nanath: “Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again.” — <strong>effects:</strong> sets stage 302 of <a href="../../quests/troubling_times/#stage-302">Troubling times</a>, clears stage 20 of <a href="../../quests/troubling_times_nd/#stage-20">Troubling times story flags (hidden flag)</a></p>
 <ul>
 <li>“So quick?” → <a href="#d-nanath_304">nanath_304</a></li>
 </ul>
@@ -1280,8 +1280,8 @@
 </ul>
 <p><span id="d-nanath_122"></span><strong><code>nanath_122</code></strong> Nanath: “Then ... only one person may know: Fanamor's friend Sly Seraphina.”</p>
 <ul>
-<li>“Sly Seraphina? Where can she be found?” <em>(if NOT reached stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-nanath_130">nanath_130</a></li>
-<li>“On no! Not Seraphina! I refuse to talk to her.” <em>(if reached stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-nanath_132">nanath_132</a></li>
+<li>“Sly Seraphina? Where can she be found?” <em>(if NOT reached stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">Sullengard story flags (hidden flag)</a>)</em> → <a href="#d-nanath_130">nanath_130</a></li>
+<li>“On no! Not Seraphina! I refuse to talk to her.” <em>(if reached stage 38 of <a href="../../quests/sullengard_hidden/#stage-38">Sullengard story flags (hidden flag)</a>)</em> → <a href="#d-nanath_132">nanath_132</a></li>
 </ul>
 <p><span id="d-nanath_80"></span><strong><code>nanath_80</code></strong> Nanath: “What a relief.”</p>
 <ul>

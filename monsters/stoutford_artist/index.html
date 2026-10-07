@@ -1102,7 +1102,7 @@
 
 
 <h1 id="local-artist"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik2_58.png" /> Local artist<a class="headerlink" href="#local-artist" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Local artist:</strong> Stoutford: <a href="../../maps/stoutford_artist/#pin-npc-stoutford_artist">stoutford_artist</a></p>
+<p><strong>Where to find Local artist:</strong> Stoutford: <a href="../../maps/stoutford_artist/#pin-npc-stoutford_artist">Stoutford artist</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_58.png){ .sprite }</p>
 <table>
@@ -1135,23 +1135,23 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/achievements/">Unusual experiences and achievements</a>: stage 150</li>
-<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stage 58</li>
+<li><a href="../../quests/galmore_nondisplayed/">Galmore story flags (hidden flag)</a>: stage 58</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Local artist. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Local artist. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_artist_selector.json" data-npc="Local artist" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (12 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-stoutford_artist_selector"></span><strong><code>stoutford_artist_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 150 of <a href="../../quests/achievements/#stage-150">Unusual experiences and achievements</a>; NOT reached stage 58 of <a href="../../quests/galmore_nondisplayed/#stage-58">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-stoutford_artist_not_welcome">stoutford_artist_not_welcome</a></li>
+<li>Next <em>(if reached stage 150 of <a href="../../quests/achievements/#stage-150">Unusual experiences and achievements</a>; NOT reached stage 58 of <a href="../../quests/galmore_nondisplayed/#stage-58">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-stoutford_artist_not_welcome">stoutford_artist_not_welcome</a></li>
 <li>Next → <a href="#d-stoutford_artist_welcome_10">stoutford_artist_welcome_10</a></li>
 </ul>
-<p><span id="d-stoutford_artist_not_welcome"></span><strong><code>stoutford_artist_not_welcome</code></strong> Local artist: “Leave! You are not welcome here.” — <strong>effects:</strong> moves you to <a href="../../maps/stoutford_sw/">stoutford_sw</a></p>
+<p><span id="d-stoutford_artist_not_welcome"></span><strong><code>stoutford_artist_not_welcome</code></strong> Local artist: “Leave! You are not welcome here.” — <strong>effects:</strong> moves you to <a href="../../maps/stoutford_sw/">Stoutford south-west</a></p>
 <p><span id="d-stoutford_artist_welcome_10"></span><strong><code>stoutford_artist_welcome_10</code></strong> Local artist: “Oh, a visitor? Welcome! Come, come. Sit down.”</p>
 <ul>
 <li>“No, thanks, I have to go.” → <em>conversation ends</em></li>
@@ -1160,12 +1160,12 @@
 </ul>
 <p><span id="d-stoutford_artist_welcome_15"></span><strong><code>stoutford_artist_welcome_15</code></strong> Local artist: “Just a man with a brush and a view. I spend my days painting what others overlook.”</p>
 <ul>
-<li>“Oh, but what about...” <em>(if NOT reached stage 150 of <a href="../../quests/achievements/#stage-150">Unusual experiences and achievements</a>; reached stage 57 of <a href="../../quests/galmore_nondisplayed/#stage-57">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-stoutford_artist_player_killed_rubycrest_10">stoutford_artist_player_killed_rubycrest_10</a></li>
+<li>“Oh, but what about...” <em>(if NOT reached stage 150 of <a href="../../quests/achievements/#stage-150">Unusual experiences and achievements</a>; reached stage 57 of <a href="../../quests/galmore_nondisplayed/#stage-57">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-stoutford_artist_player_killed_rubycrest_10">stoutford_artist_player_killed_rubycrest_10</a></li>
 <li>“Well, I'm just an explorer with a weapon.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-stoutford_artist_welcome_16"></span><strong><code>stoutford_artist_welcome_16</code></strong> Local artist: “Peace and perspective. Down there, it's noise and trade. Up here, I see everything more clearly.”</p>
 <ul>
-<li>“Are you from...” <em>(if NOT reached stage 150 of <a href="../../quests/achievements/#stage-150">Unusual experiences and achievements</a>; reached stage 57 of <a href="../../quests/galmore_nondisplayed/#stage-57">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-stoutford_artist_player_killed_rubycrest_10">stoutford_artist_player_killed_rubycrest_10</a></li>
+<li>“Are you from...” <em>(if NOT reached stage 150 of <a href="../../quests/achievements/#stage-150">Unusual experiences and achievements</a>; reached stage 57 of <a href="../../quests/galmore_nondisplayed/#stage-57">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-stoutford_artist_player_killed_rubycrest_10">stoutford_artist_player_killed_rubycrest_10</a></li>
 <li>“I understand that.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-stoutford_artist_player_killed_rubycrest_10"></span><strong><code>stoutford_artist_player_killed_rubycrest_10</code></strong> Local artist: “...wait a second. Hold that thought. [while leaning in...] Please come closer. [He sniffs your hands]”</p>
@@ -1190,8 +1190,8 @@
 <li>“Oh, but I can stay.” <em>(if carry 1× <a href="../../items/gem_fire/">Gem of warmth</a>)</em> → <a href="#d-stoutford_artist_palyer_killed_rubycrest_gow">stoutford_artist_palyer_killed_rubycrest_gow</a></li>
 <li>“I will stay. You are not the boss of me.” <em>(if NOT carry 1× <a href="../../items/gem_fire/">Gem of warmth</a>)</em> → <a href="#d-stoutford_artist_palyer_killed_rubycrest_60">stoutford_artist_palyer_killed_rubycrest_60</a></li>
 </ul>
-<p><span id="d-stoutford_artist_palyer_killed_rubycrest_gow"></span><strong><code>stoutford_artist_palyer_killed_rubycrest_gow</code></strong> Local artist: “There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense "warmth" in your heart and we won't speak of the bird again.” — <strong>effects:</strong> sets stage 58 of <a href="../../quests/galmore_nondisplayed/#stage-58">galmore_nondisplayed (hidden flag)</a></p>
-<p><span id="d-stoutford_artist_palyer_killed_rubycrest_60"></span><strong><code>stoutford_artist_palyer_killed_rubycrest_60</code></strong> Local artist: “You are to leave now. [pointing his finger towards the door.]” — <strong>effects:</strong> moves you to <a href="../../maps/stoutford_sw/">stoutford_sw</a></p>
+<p><span id="d-stoutford_artist_palyer_killed_rubycrest_gow"></span><strong><code>stoutford_artist_palyer_killed_rubycrest_gow</code></strong> Local artist: “There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense "warmth" in your heart and we won't speak of the bird again.” — <strong>effects:</strong> sets stage 58 of <a href="../../quests/galmore_nondisplayed/#stage-58">Galmore story flags (hidden flag)</a></p>
+<p><span id="d-stoutford_artist_palyer_killed_rubycrest_60"></span><strong><code>stoutford_artist_palyer_killed_rubycrest_60</code></strong> Local artist: “You are to leave now. [pointing his finger towards the door.]” — <strong>effects:</strong> moves you to <a href="../../maps/stoutford_sw/">Stoutford south-west</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

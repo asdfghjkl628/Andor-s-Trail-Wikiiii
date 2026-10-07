@@ -1327,13 +1327,13 @@
 
 
 <h1 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h1>
-<p>Conditions are temporary or lasting effects on your character or on enemies, such as poison, bleeding, blessings and the effects of food. This section lists all 147 conditions defined in v0.8.18, with their effects, sources and remedies.</p>
+<p>Poison, bleeding, blessings, food effects: all 147 conditions in v0.8.18, what they do, what causes them and how to get rid of them. <del>Yes, food poisoning from raw meat is a real risk.</del></p>
 <p><strong>Jump to:</strong> <a href="#how-conditions-work">How conditions work</a> · <a href="#harmful-conditions">Harmful conditions</a> · <a href="#beneficial-conditions">Beneficial conditions</a></p>
 <h2 id="how-conditions-work">How conditions work<a class="headerlink" href="#how-conditions-work" title="Permanent link">&para;</a></h2>
 <p><span id="categories-and-resistance"></span></p>
 <details class="section" open="open">
 <summary>Categories and resistance</summary>
-<p>Every condition belongs to one of four categories. The category decides which resistance skill protects against it.</p>
+<p>Each category has its own resistance skill (spiritual has none).</p>
 <table>
 <thead>
 <tr>
@@ -1365,35 +1365,33 @@
 </tr>
 </tbody>
 </table>
-<p>Each level of a resistance skill reduces the chance of receiving a condition of that category by 10% of the original chance, up to 7 levels (70%). For example, an enemy with a 30% chance to poison you has a 27% chance against one level of resistance and a 9% chance against the maximum. Effects with a 100% chance (such as most items you use yourself) are never reduced. Resistance applies to every condition of its category, including beneficial ones from sources with a chance below 100%. <a href="../skills/shadowBless/">Dark blessing of the Shadow</a> reduces the chance of all conditions by 5% of their value per level.</p>
+<p>Each resistance level cuts the chance by 10% <em>of its value</em>: a 30% poison chance becomes 27% at level 1 and 9% at the max (7). 100% chances can't be resisted. Resistance also lowers your chance of getting <em>beneficial</em> conditions of that category <del>thanks, I hate it</del>. <a href="../skills/shadowBless/">Dark blessing of the Shadow</a>: −5% of the value for every category.</p>
 </details>
 <p><span id="magnitude-duration-and-timing"></span></p>
 <details class="section" open="open">
 <summary>Magnitude, duration and timing</summary>
 <ul>
-<li><strong>Magnitude</strong> multiplies every effect of a condition. Poison with magnitude 3 deals three times the damage of magnitude 1.</li>
-<li><strong>Duration</strong> is counted in rounds. In combat, a round is one turn; outside combat, a round passes every 6 seconds. Effects marked <em>every round</em> apply at the same rate.</li>
-<li>A few conditions also have an effect <em>every 25 seconds</em>, which only happens outside combat.</li>
-<li><strong>Permanent</strong> conditions (from equipment, or from story events with a duration of 999) remain until removed. Conditions with a duration of 998 last until you rest.</li>
-<li>Harmful effects are applied before beneficial ones in each round.</li>
+<li><strong>Magnitude</strong> multiplies every effect (magnitude 3 poison = 3× the damage).</li>
+<li><strong>Duration</strong> is in rounds: one combat turn, or 6 seconds outside combat.</li>
+<li><em>Every 25 seconds</em> effects only tick outside combat.</li>
+<li><strong>Permanent</strong> = from equipment or story events (duration 999); duration 998 = until you rest.</li>
 </ul>
 </details>
 <p><span id="stacking"></span></p>
 <details class="section" open="open">
 <summary>Stacking</summary>
 <ul>
-<li><strong>Stacking conditions:</strong> a new application with the same duration as an existing one adds its magnitude to it; otherwise it is kept as a separate instance.</li>
-<li><strong>Non-stacking conditions:</strong> a new application replaces the existing one only if its magnitude is higher, or equal with a longer duration. Otherwise it has no effect.</li>
+<li><strong>Stacking:</strong> same duration → magnitudes add up; different duration → separate instance.</li>
+<li><strong>Non-stacking:</strong> only a higher magnitude (or same magnitude, longer duration) replaces the current one.</li>
 </ul>
 </details>
 <p><span id="removal-and-immunity"></span></p>
 <details class="section" open="open">
 <summary>Removal and immunity</summary>
 <ul>
-<li><strong>Resting</strong> (at a bed or after being defeated) removes all timed conditions and all conditions that last until rest. Permanent conditions remain.</li>
-<li><strong>Removal effects:</strong> some items and events remove every instance of a specific condition.</li>
-<li><strong>Immunity:</strong> some equipment, items and events make you immune to a condition, either while equipped or for a number of rounds. Gaining an immunity also removes the condition.</li>
-<li><strong><a href="../skills/rejuvenation/">Rejuvenation</a>:</strong> each round, a chance to reduce the magnitude of a random timed harmful condition by 1 (spiritual conditions excluded).</li>
+<li><strong>Resting</strong> clears all timed conditions. Permanent ones stay.</li>
+<li>Some items and events <strong>remove</strong> a condition outright; others give <strong>immunity</strong> (while equipped, or for some rounds).</li>
+<li><a href="../skills/rejuvenation/">Rejuvenation</a>: each round, a chance to weaken one timed harmful condition by 1 (not spiritual ones).</li>
 </ul>
 </details>
 <p class="verified">Verified against v0.8.18 game code (`ActorStatsController.java`, `SkillController.java`, `GameRoundController.java`, `Constants.java`).</p>

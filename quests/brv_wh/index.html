@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
+<td><a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">Brimhaven warehouse</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a></td>
+<td><a href="../../maps/brimhaven_warehouse/">Brimhaven warehouse</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1195,7 +1195,7 @@
 <p>Facutloni asked me to help him check the storage. I should check if there is a pair of every item.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>None: talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) to begin.</p>
+<p>None: talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">Brimhaven warehouse</a>) to begin.</p>
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
@@ -1211,200 +1211,291 @@
 <tbody>
 <tr>
 <td>Requires</td>
-<td><a href="../brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></td>
+<td><a href="../brv_wh_reward_nondisplay/#stage-2">Brimhaven warehouse inventory reward (hidden flag)</a></td>
 <td>stage 2 reached, for stage 900 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
-<td><a href="../brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></td>
+<td><a href="../brv_wh_reward_nondisplay/#stage-2">Brimhaven warehouse inventory reward (hidden flag)</a></td>
 <td>stage 2 there needs stages 10, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109 here</td>
 </tr>
 </tbody>
 </table>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
-<td>Facutloni asked me to help him check the storage. I should check if there is a pair of every item.<br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/brimhaven_warehouse/">Brimhaven warehouse</a>.</span></td>
-<td><a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><details class="jt"><summary><span class="s">Facutloni asked me to help him check the storage. I should check if… ▸</span><span class="l">▴ less</span></summary>Facutloni asked me to help him check the storage. I should check if there is a pair of every item.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on <a href="../../maps/brimhaven_warehouse/">Brimhaven warehouse</a>.</span></td>
+<td><a href="../../monsters/brv_wh_boss/">Facutloni</a></td>
 <td>–</td>
-<td>sets stage 1 of <a href="../brv_wh_reward_nondisplay/#stage-1">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></td>
 </tr>
 <tr>
-<td><span id="stage-100"></span>100</td>
+<td><span id="stage-100"></span><a href="#route-100">100</a></td>
 <td>I have found a pair of crystal globes.</td>
-<td><a href="../../monsters/brv_wh_item_00/">brv_wh_item_00</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_20/">brv_wh_item_20</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_00/">brv_wh_item_00</a>, <a href="../../monsters/brv_wh_item_20/">brv_wh_item_20</a></td>
+<td>2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-101"></span>101</td>
+<td><span id="stage-101"></span><a href="#route-101">101</a></td>
 <td>I have found a pair of plush pillows.</td>
-<td><a href="../../monsters/brv_wh_item_01/">brv_wh_item_01</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_21/">brv_wh_item_21</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_01/">brv_wh_item_01</a>, <a href="../../monsters/brv_wh_item_21/">brv_wh_item_21</a></td>
+<td>2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-102"></span>102</td>
+<td><span id="stage-102"></span><a href="#route-102">102</a></td>
 <td>I have found a pair of lyras.</td>
-<td><a href="../../monsters/brv_wh_item_02/">brv_wh_item_02</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_22/">brv_wh_item_22</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_02/">Lyre</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_02/">brv_wh_item_02</a>, <a href="../../monsters/brv_wh_item_22/">brv_wh_item_22</a></td>
+<td>2× <a href="../../items/brv_wh_item_02/">Lyre</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-103"></span>103</td>
+<td><span id="stage-103"></span><a href="#route-103">103</a></td>
 <td>I have found a pair of boots.</td>
-<td><a href="../../monsters/brv_wh_item_03/">brv_wh_item_03</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_23/">brv_wh_item_23</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_03/">brv_wh_item_03</a>, <a href="../../monsters/brv_wh_item_23/">brv_wh_item_23</a></td>
+<td>2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-104"></span>104</td>
+<td><span id="stage-104"></span><a href="#route-104">104</a></td>
 <td>I have found a pair of chandeliers.</td>
-<td><a href="../../monsters/brv_wh_item_04/">brv_wh_item_04</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_24/">brv_wh_item_24</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_04/">Chandelier</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_04/">brv_wh_item_04</a>, <a href="../../monsters/brv_wh_item_24/">brv_wh_item_24</a></td>
+<td>2× <a href="../../items/brv_wh_item_04/">Chandelier</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-105"></span>105</td>
+<td><span id="stage-105"></span><a href="#route-105">105</a></td>
 <td>I have found a pair of mysterious green somethings.</td>
-<td><a href="../../monsters/brv_wh_item_05/">brv_wh_item_05</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_25/">brv_wh_item_25</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_05/">brv_wh_item_05</a>, <a href="../../monsters/brv_wh_item_25/">brv_wh_item_25</a></td>
+<td>2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-106"></span>106</td>
+<td><span id="stage-106"></span><a href="#route-106">106</a></td>
 <td>I have found a pair of old, worn capes.</td>
-<td><a href="../../monsters/brv_wh_item_06/">brv_wh_item_06</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_26/">brv_wh_item_26</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_06/">brv_wh_item_06</a>, <a href="../../monsters/brv_wh_item_26/">brv_wh_item_26</a></td>
+<td>2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-107"></span>107</td>
+<td><span id="stage-107"></span><a href="#route-107">107</a></td>
 <td>I have found a pair of pretty porcelain figures.</td>
-<td><a href="../../monsters/brv_wh_item_07/">brv_wh_item_07</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_27/">brv_wh_item_27</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_07/">brv_wh_item_07</a>, <a href="../../monsters/brv_wh_item_27/">brv_wh_item_27</a></td>
+<td>2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-108"></span>108</td>
+<td><span id="stage-108"></span><a href="#route-108">108</a></td>
 <td>I have found a pair of striped hammers.</td>
-<td><a href="../../monsters/brv_wh_item_08/">brv_wh_item_08</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_28/">brv_wh_item_28</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_08/">brv_wh_item_08</a>, <a href="../../monsters/brv_wh_item_28/">brv_wh_item_28</a></td>
+<td>2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-109"></span>109</td>
+<td><span id="stage-109"></span><a href="#route-109">109</a></td>
 <td>I have found a pair of dusty old books.</td>
-<td><a href="../../monsters/brv_wh_item_09/">brv_wh_item_09</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)<br><a href="../../monsters/brv_wh_item_29/">brv_wh_item_29</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>–</td>
-<td>gives 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a><br>faction “brv_wh_aln” set to 0<br>removes monsters from brimhaven_warehouse</td>
+<td><a href="../../monsters/brv_wh_item_09/">brv_wh_item_09</a>, <a href="../../monsters/brv_wh_item_29/">brv_wh_item_29</a></td>
+<td>2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</td>
 </tr>
 <tr>
-<td><span id="stage-900"></span>900</td>
-<td>I found all the 10 pairs. Facutloni is very happy. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>)</td>
-<td>hand over 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>, hand over 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, hand over 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, hand over 2× <a href="../../items/brv_wh_item_02/">Lyre</a>, hand over 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, hand over 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, hand over 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, hand over 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, hand over 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, hand over 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, stage 10, stage 100, stage 101, stage 102, stage 103, stage 104, stage 105, stage 106, stage 107, stage 108, stage 109</td>
-<td>2,000 XP<br>sets stage 2 of <a href="../brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></td>
+<td><span id="stage-900"></span><a href="#route-900">900</a></td>
+<td>I found all the 10 pairs. Facutloni is very happy. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/brv_wh_boss/">Facutloni</a></td>
+<td>2,000 XP</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → choose “Do you need any help?” → <strong>stage 10</strong>; also sets stage 1 of <a href="../brv_wh_reward_nondisplay/#stage-1">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>. NPC: “Come back to me when you found all the pairs and tell me how many there are.”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Facutloni · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a>, choose “Do you need any help?”</p>
+<ul>
+<li><small>Also: sets stage 1 of <a href="../brv_wh_reward_nondisplay/#stage-1">Brimhaven warehouse inventory reward (hidden flag)</a></small></li>
+<li><em>“Come back to me when you found all the pairs and tell me how many there are.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 100: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_00/">brv_wh_item_00</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 120 → <strong>stage 100</strong>; also gives 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second crystal globe. Now that's a pair!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_20/">brv_wh_item_20</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 100 → <strong>stage 100</strong>; also gives 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second crystal globe. Now that's a pair!”</li>
-</ol>
+<p><span id="route-100"></span></p>
+<details class="note">
+<summary>Stage 100 · brv_wh_item_00, brv_wh_item_20 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_00/">brv_wh_item_00</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 120</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second crystal globe. Now that's a pair!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_20/">brv_wh_item_20</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 100</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second crystal globe. Now that's a pair!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 101: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_01/">brv_wh_item_01</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 121 → <strong>stage 101</strong>; also gives 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second plush pillow!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_21/">brv_wh_item_21</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 101 → <strong>stage 101</strong>; also gives 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second plush pillow!”</li>
-</ol>
+<p><span id="route-101"></span></p>
+<details class="note">
+<summary>Stage 101 · brv_wh_item_01, brv_wh_item_21 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_01/">brv_wh_item_01</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 121</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second plush pillow!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_21/">brv_wh_item_21</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 101</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second plush pillow!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 102: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_02/">brv_wh_item_02</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 122 → <strong>stage 102</strong>; also gives 2× <a href="../../items/brv_wh_item_02/">Lyre</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “Great! You have found the second lyre and put it into your bag.”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_22/">brv_wh_item_22</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 102 → <strong>stage 102</strong>; also gives 2× <a href="../../items/brv_wh_item_02/">Lyre</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “Great! You have found the second lyre and put it into your bag.”</li>
-</ol>
+<p><span id="route-102"></span></p>
+<details class="note">
+<summary>Stage 102 · brv_wh_item_02, brv_wh_item_22 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_02/">brv_wh_item_02</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 122</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_02/">Lyre</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“Great! You have found the second lyre and put it into your bag.”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_22/">brv_wh_item_22</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 102</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_02/">Lyre</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“Great! You have found the second lyre and put it into your bag.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 103: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_03/">brv_wh_item_03</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 123 → <strong>stage 103</strong>; also gives 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the yellow boot!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_23/">brv_wh_item_23</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 103 → <strong>stage 103</strong>; also gives 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the yellow boot!”</li>
-</ol>
+<p><span id="route-103"></span></p>
+<details class="note">
+<summary>Stage 103 · brv_wh_item_03, brv_wh_item_23 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_03/">brv_wh_item_03</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 123</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the yellow boot!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_23/">brv_wh_item_23</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 103</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the yellow boot!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 104: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_04/">brv_wh_item_04</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 124 → <strong>stage 104</strong>; also gives 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second chandelier!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_24/">brv_wh_item_24</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 104 → <strong>stage 104</strong>; also gives 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second chandelier!”</li>
-</ol>
+<p><span id="route-104"></span></p>
+<details class="note">
+<summary>Stage 104 · brv_wh_item_04, brv_wh_item_24 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_04/">brv_wh_item_04</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 124</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second chandelier!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_24/">brv_wh_item_24</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 104</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second chandelier!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 105: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_05/">brv_wh_item_05</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 125 → <strong>stage 105</strong>; also gives 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second mysterious green something!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_25/">brv_wh_item_25</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 105 → <strong>stage 105</strong>; also gives 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second mysterious green something!”</li>
-</ol>
+<p><span id="route-105"></span></p>
+<details class="note">
+<summary>Stage 105 · brv_wh_item_05, brv_wh_item_25 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_05/">brv_wh_item_05</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 125</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second mysterious green something!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_25/">brv_wh_item_25</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 105</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second mysterious green something!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 106: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_06/">brv_wh_item_06</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 126 → <strong>stage 106</strong>; also gives 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second old, worn cape!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_26/">brv_wh_item_26</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 106 → <strong>stage 106</strong>; also gives 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second old, worn cape!”</li>
-</ol>
+<p><span id="route-106"></span></p>
+<details class="note">
+<summary>Stage 106 · brv_wh_item_06, brv_wh_item_26 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_06/">brv_wh_item_06</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 126</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second old, worn cape!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_26/">brv_wh_item_26</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 106</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second old, worn cape!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 107: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_07/">brv_wh_item_07</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 127 → <strong>stage 107</strong>; also gives 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second pretty porcelain figure!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_27/">brv_wh_item_27</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 107 → <strong>stage 107</strong>; also gives 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second pretty porcelain figure!”</li>
-</ol>
+<p><span id="route-107"></span></p>
+<details class="note">
+<summary>Stage 107 · brv_wh_item_07, brv_wh_item_27 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_07/">brv_wh_item_07</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 127</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second pretty porcelain figure!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_27/">brv_wh_item_27</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 107</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second pretty porcelain figure!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 108: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_08/">brv_wh_item_08</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 128 → <strong>stage 108</strong>; also gives 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second striped hammer!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_28/">brv_wh_item_28</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 108 → <strong>stage 108</strong>; also gives 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second striped hammer!”</li>
-</ol>
+<p><span id="route-108"></span></p>
+<details class="note">
+<summary>Stage 108 · brv_wh_item_08, brv_wh_item_28 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_08/">brv_wh_item_08</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 128</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second striped hammer!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_28/">brv_wh_item_28</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 108</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second striped hammer!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 109: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_item_09/">brv_wh_item_09</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 129 → <strong>stage 109</strong>; also gives 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second dusty old book!”</li>
-<li>Talk to <a href="../../monsters/brv_wh_item_29/">brv_wh_item_29</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> faction “brv_wh_aln” = 109 → <strong>stage 109</strong>; also gives 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse. NPC: “You have found the second dusty old book!”</li>
-</ol>
+<p><span id="route-109"></span></p>
+<details class="note">
+<summary>Stage 109 · brv_wh_item_09, brv_wh_item_29 · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_item_09/">brv_wh_item_09</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 129</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second dusty old book!”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_item_29/">brv_wh_item_29</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> faction “brv_wh_aln” = 109</li>
+<li><strong>Gives:</strong> 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse</li>
+<li><em>“You have found the second dusty old book!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 900: 2 routes</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → choose “I found 10 pairs of each item.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Inventory</a>; reached stage 100 of <a href="./#stage-100">Inventory</a>; reached stage 101 of <a href="./#stage-101">Inventory</a>; reached stage 102 of <a href="./#stage-102">Inventory</a>; reached stage 103 of <a href="./#stage-103">Inventory</a>; reached stage 104 of <a href="./#stage-104">Inventory</a>; reached stage 105 of <a href="./#stage-105">Inventory</a>; reached stage 106 of <a href="./#stage-106">Inventory</a>; reached stage 107 of <a href="./#stage-107">Inventory</a>; reached stage 108 of <a href="./#stage-108">Inventory</a>; reached stage 109 of <a href="./#stage-109">Inventory</a>; hand over 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; hand over 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; hand over 2× <a href="../../items/brv_wh_item_02/">Lyre</a>; hand over 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>; hand over 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>; hand over 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; hand over 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>; hand over 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>; hand over 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>; hand over 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a> → <strong>stage 900</strong>; also sets stage 2 of <a href="../brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>. NPC: “10 pairs - that is correct. So everything is in order.”</li>
-<li>Talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a> (<a href="../../maps/brimhaven_warehouse/">brimhaven_warehouse</a>) → the conversation leads here automatically — <strong>conditions:</strong> reached stage 2 of <a href="../brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a> → <strong>stage 900</strong>. NPC: “Good work! I am very pleased with you.”</li>
-</ol>
+<p><span id="route-900"></span></p>
+<details class="note">
+<summary>Stage 900 · Facutloni · 2 ways</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a>, choose “I found 10 pairs of each item.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109; hand over 2× <a href="../../items/brv_wh_item_00/">Crystal globe</a>; hand over 2× <a href="../../items/brv_wh_item_01/">Plush pillow</a>; hand over 2× <a href="../../items/brv_wh_item_02/">Lyre</a>; hand over 2× <a href="../../items/brv_wh_item_03/">Yellow boot</a>; hand over 2× <a href="../../items/brv_wh_item_04/">Chandelier</a>; hand over 2× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>; hand over 2× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>; hand over 2× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>; hand over 2× <a href="../../items/brv_wh_item_08/">Striped hammer</a>; hand over 2× <a href="../../items/brv_wh_item_09/">Dusty old book</a></li>
+<li><small>Also: sets stage 2 of <a href="../brv_wh_reward_nondisplay/#stage-2">Brimhaven warehouse inventory reward (hidden flag)</a></small></li>
+<li><em>“10 pairs - that is correct. So everything is in order.”</em></li>
+</ul>
+<p><strong>Way 2:</strong> Talk to <a href="../../monsters/brv_wh_boss/">Facutloni</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> reached stage 2 of <a href="../brv_wh_reward_nondisplay/#stage-2">Brimhaven warehouse inventory reward (hidden flag)</a></li>
+<li><em>“Good work! I am very pleased with you.”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

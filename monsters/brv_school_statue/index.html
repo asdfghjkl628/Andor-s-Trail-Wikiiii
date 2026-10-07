@@ -1245,7 +1245,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Statue. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, appearance, movement. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Statue. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance, movement. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1261,14 +1261,14 @@
 <tr>
 <td><a href="#v-brv_school_statue"><code>brv_school_statue</code></a></td>
 <td>NPC/Enemy</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_school/#pin-npc-brv_school_statue">brimhaven_school</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_school/#pin-npc-brv_school_statue">Brimhaven school</a></td>
 <td>–</td>
 <td>320</td>
 </tr>
 <tr>
 <td><a href="#v-brv_school_statue2"><code>brv_school_statue2</code></a></td>
 <td>Enemy</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_school/">Brimhaven school</a></td>
 <td>–</td>
 <td>320</td>
 </tr>
@@ -1276,7 +1276,7 @@
 </table>
 <h2 id="v-brv_school_statue">Brimhaven, Brimhaven school (brv_school_statue)<a class="headerlink" href="#v-brv_school_statue" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>brv_school_statue</code> · <strong>Type:</strong> NPC/Enemy</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_school/#pin-npc-brv_school_statue">brimhaven_school</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_school/#pin-npc-brv_school_statue">Brimhaven school</a></p>
 <div class="admonition warning">
 <p class="admonition-title">Can be fought</p>
 <p>This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).</p>
@@ -1362,7 +1362,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td><a href="../../maps/brimhaven_school/">Brimhaven school</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>
@@ -1372,23 +1372,23 @@
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/brv_school2/">Lessons learned</a>: stage 150</li>
-<li><a href="../../quests/brv_nondisplay2/">brv_nondisplay2 (hidden flag)</a>: stage 30</li>
+<li><a href="../../quests/brv_nondisplay2/">Brimhaven story flags 2 (hidden flag)</a>: stage 30</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Statue. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Statue. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_statue.json" data-npc="Statue" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (14 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_school_statue-brv_school_statue"></span><strong><code>brv_school_statue</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a>; NOT reached stage 100 of <a href="../../quests/brv_school2/#stage-100">Lessons learned</a>; NOT reached stage 102 of <a href="../../quests/brv_school2/#stage-102">Lessons learned</a>; NOT reached stage 104 of <a href="../../quests/brv_school2/#stage-104">Lessons learned</a>; NOT reached stage 120 of <a href="../../quests/brv_school2/#stage-120">Lessons learned</a>; NOT reached stage 122 of <a href="../../quests/brv_school2/#stage-122">Lessons learned</a>; NOT reached stage 124 of <a href="../../quests/brv_school2/#stage-124">Lessons learned</a>)</em> → <a href="#d-brv_school_statue-brv_school_statue_20">brv_school_statue_20</a></li>
+<li>branch 1 <em>(if reached stage 30 of <a href="../../quests/brv_nondisplay2/#stage-30">Brimhaven story flags 2 (hidden flag)</a>; NOT reached stage 100 of <a href="../../quests/brv_school2/#stage-100">Lessons learned</a>; NOT reached stage 102 of <a href="../../quests/brv_school2/#stage-102">Lessons learned</a>; NOT reached stage 104 of <a href="../../quests/brv_school2/#stage-104">Lessons learned</a>; NOT reached stage 120 of <a href="../../quests/brv_school2/#stage-120">Lessons learned</a>; NOT reached stage 122 of <a href="../../quests/brv_school2/#stage-122">Lessons learned</a>; NOT reached stage 124 of <a href="../../quests/brv_school2/#stage-124">Lessons learned</a>)</em> → <a href="#d-brv_school_statue-brv_school_statue_20">brv_school_statue_20</a></li>
 <li>branch 2 → <a href="#d-brv_school_statue-brv_school_statue_10">brv_school_statue_10</a></li>
 </ul>
-<p><span id="d-brv_school_statue-brv_school_statue_20"></span><strong><code>brv_school_statue_20</code></strong> <a href="./">Statue</a>: “Leave me alone! What do you want of me?” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_nondisplay2/#stage-30">brv_nondisplay2 (hidden flag)</a></p>
+<p><span id="d-brv_school_statue-brv_school_statue_20"></span><strong><code>brv_school_statue_20</code></strong> <a href="./">Statue</a>: “Leave me alone! What do you want of me?” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_nondisplay2/#stage-30">Brimhaven story flags 2 (hidden flag)</a></p>
 <ul>
 <li>“Oh, you can talk?” → <a href="#d-brv_school_statue-brv_school_statue_30">brv_school_statue_30</a></li>
 </ul>
@@ -1540,7 +1540,7 @@
 </details>
 <h2 id="v-brv_school_statue2">Brimhaven, Brimhaven school (brv_school_statue2)<a class="headerlink" href="#v-brv_school_statue2" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>brv_school_statue2</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_school/">brimhaven_school</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_school/">Brimhaven school</a></p>
 <h3 id="combat-statistics_1">Combat statistics<a class="headerlink" href="#combat-statistics_1" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1622,7 +1622,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_school/">brimhaven_school</a></td>
+<td><a href="../../maps/brimhaven_school/">Brimhaven school</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1631,7 +1631,7 @@
 </table>
 <h3 id="quests-that-count-defeats">Quests that count defeats<a class="headerlink" href="#quests-that-count-defeats" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../quests/brv_school2/#stage-152">Lessons learned</a> with stepping on a trigger on <a href="../../maps/brimhaven_school/">brimhaven_school</a> checks that this enemy has been defeated.</li>
+<li><a href="../../quests/brv_school2/#stage-152">Lessons learned</a> with stepping on a trigger on <a href="../../maps/brimhaven_school/">Brimhaven school</a> checks that this enemy has been defeated.</li>
 </ul>
 <h3 id="version-history_1">Version history<a class="headerlink" href="#version-history_1" title="Permanent link">&para;</a></h3>
 <table>

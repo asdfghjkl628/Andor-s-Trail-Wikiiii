@@ -1113,7 +1113,7 @@
 
 
 <h1 id="mustura"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld2_49.png" /> Mustura<a class="headerlink" href="#mustura" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Mustura:</strong> Brimhaven: <a href="../../maps/brimhaven4/#pin-npc-brv_guard_captain">brimhaven4</a>, <a href="../../maps/brimhaven_house1/#pin-npc-brv_guard_captain">brimhaven_house1</a></p>
+<p><strong>Where to find Mustura:</strong> Brimhaven: <a href="../../maps/brimhaven4/#pin-npc-brv_guard_captain">Brimhaven 4</a>, <a href="../../maps/brimhaven_house1/#pin-npc-brv_guard_captain">Brimhaven house 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_49.png){ .sprite }</p>
 <table>
@@ -1155,13 +1155,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven4/">brimhaven4</a></td>
+<td><a href="../../maps/brimhaven4/">Brimhaven 4</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/brimhaven_house1/">brimhaven_house1</a></td>
+<td><a href="../../maps/brimhaven_house1/">Brimhaven house 1</a></td>
 <td>–</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1172,18 +1172,18 @@
 <ul>
 <li><a href="../../quests/place_to_forge/">A place to forge</a>: stages 30, 35, 40, 50</li>
 <li><a href="../../quests/brv_flood/">Much water</a>: stages 100, 110, 200</li>
-<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 110, 120</li>
-<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stage 15</li>
+<li><a href="../../quests/brv_nondisplay/">Brimhaven story flags (hidden flag)</a>: stages 110, 120</li>
+<li><a href="../../quests/undertell_hidden/">Undertell story flags (hidden flag)</a>: stage 15</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mustura. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Mustura. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_guard_captain_10.json" data-npc="Mustura" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (25 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_guard_captain_10"></span><strong><code>brv_guard_captain_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 200 of <a href="../../quests/brv_flood/#stage-200">Much water</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man">brv_guard_captain_and_rich_man</a></li>
@@ -1192,9 +1192,9 @@
 </ul>
 <p><span id="d-brv_guard_captain_and_rich_man"></span><strong><code>brv_guard_captain_and_rich_man</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 15 of <a href="../../quests/undertell_hidden/#stage-15">hidden_undertell (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/place_to_forge/#stage-50">A place to forge</a>)</em> → <a href="#d-talk_about_white_house_20">talk_about_white_house_20</a></li>
-<li>branch 2 <em>(if reached stage 120 of <a href="../../quests/brv_nondisplay/#stage-120">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man_50">brv_guard_captain_and_rich_man_50</a></li>
-<li>branch 3 <em>(if reached stage 110 of <a href="../../quests/brv_nondisplay/#stage-110">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man_40">brv_guard_captain_and_rich_man_40</a></li>
+<li>branch 1 <em>(if reached stage 15 of <a href="../../quests/undertell_hidden/#stage-15">Undertell story flags (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/place_to_forge/#stage-50">A place to forge</a>)</em> → <a href="#d-talk_about_white_house_20">talk_about_white_house_20</a></li>
+<li>branch 2 <em>(if reached stage 120 of <a href="../../quests/brv_nondisplay/#stage-120">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man_50">brv_guard_captain_and_rich_man_50</a></li>
+<li>branch 3 <em>(if reached stage 110 of <a href="../../quests/brv_nondisplay/#stage-110">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_and_rich_man_40">brv_guard_captain_and_rich_man_40</a></li>
 <li>branch 4 → <a href="#d-brv_guard_captain_and_rich_man_10">brv_guard_captain_and_rich_man_10</a></li>
 </ul>
 <p><span id="d-brv_guard_captain_25"></span><strong><code>brv_guard_captain_25</code></strong> Mustura: “Hello again. Did you find out who destroyed the dam?”</p>
@@ -1205,9 +1205,9 @@
 </ul>
 <p><span id="d-brv_guard_captain_15"></span><strong><code>brv_guard_captain_15</code></strong> Mustura: “Always stay on the right side of the law.”</p>
 <ul>
-<li>Next <em>(if reached stage 100 of <a href="../../quests/brv_nondisplay/#stage-100">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_20">brv_guard_captain_20</a></li>
+<li>Next <em>(if reached stage 100 of <a href="../../quests/brv_nondisplay/#stage-100">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_guard_captain_20">brv_guard_captain_20</a></li>
 </ul>
-<p><span id="d-talk_about_white_house_20"></span><strong><code>talk_about_white_house_20</code></strong> <a href="../brv_richman/">Alkapoan</a>: “What do you want, foolish child?” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/undertell_hidden/#stage-15">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-talk_about_white_house_20"></span><strong><code>talk_about_white_house_20</code></strong> <a href="../brv_richman/">Alkapoan</a>: “What do you want, foolish child?” — <strong>effects:</strong> sets stage 15 of <a href="../../quests/undertell_hidden/#stage-15">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“I've collected your 'operation tax' from the dealer. Now let's finish our deal.” <em>(if latest stage of <a href="../../quests/place_to_forge/#stage-45">A place to forge</a> is 45)</em> → <a href="#d-alkapoan_lie_wh_50">alkapoan_lie_wh_50</a></li>
 <li>“[lie] I want the glowing white house. I need a place to hide from my parents.” <em>(if NOT reached stage 30 of <a href="../../quests/place_to_forge/#stage-30">A place to forge</a>; NOT reached stage 45 of <a href="../../quests/place_to_forge/#stage-45">A place to forge</a>)</em> → <a href="#d-alkapoan_lie_wh_10">alkapoan_lie_wh_10</a></li>
@@ -1217,7 +1217,7 @@
 <ul>
 <li>“We are all reasonable people here. Let us settle this, shall we?” → <a href="#d-talk_about_white_house_10">talk_about_white_house_10</a></li>
 </ul>
-<p><span id="d-brv_guard_captain_and_rich_man_40"></span><strong><code>brv_guard_captain_and_rich_man_40</code></strong> <a href="./">Mustura</a>: “It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_nondisplay/#stage-120">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_guard_captain_and_rich_man_40"></span><strong><code>brv_guard_captain_and_rich_man_40</code></strong> <a href="./">Mustura</a>: “It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford.” — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_nondisplay/#stage-120">Brimhaven story flags (hidden flag)</a></p>
 <p><span id="d-brv_guard_captain_and_rich_man_10"></span><strong><code>brv_guard_captain_and_rich_man_10</code></strong> <a href="../brv_richman/">Alkapoan</a>: “[Laughs] You again. Welcome back, foolish child.”</p>
 <ul>
 <li>“Laugh while you can. The captain is here and now you will get your deserved punishment!” → <a href="#d-brv_guard_captain_and_rich_man_20">brv_guard_captain_and_rich_man_20</a></li>
@@ -1226,7 +1226,7 @@
 <ul>
 <li>“No, not yet, but I will try to help you.” → <a href="#d-brv_guard_captain_23">brv_guard_captain_23</a></li>
 </ul>
-<p><span id="d-brv_guard_captain_30"></span><strong><code>brv_guard_captain_30</code></strong> Mustura: “We will check this and if it is true then you can leave the town.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/brv_flood/#stage-200">Much water</a>, clears stage 100 of <a href="../../quests/brv_nondisplay/#stage-100">brv_nondisplay (hidden flag)</a>, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1</p>
+<p><span id="d-brv_guard_captain_30"></span><strong><code>brv_guard_captain_30</code></strong> Mustura: “We will check this and if it is true then you can leave the town.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/brv_flood/#stage-200">Much water</a>, clears stage 100 of <a href="../../quests/brv_nondisplay/#stage-100">Brimhaven story flags (hidden flag)</a>, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven4, removes monsters from brimhaven3, removes monsters from brimhaven_house1, spawns monsters on brimhaven1, spawns monsters on brimhaven_house1, spawns monsters on brimhaven_house1</p>
 <p><span id="d-brv_guard_captain_20"></span><strong><code>brv_guard_captain_20</code></strong> Mustura: “Do you know anything about the destruction of the dam?”</p>
 <ul>
 <li>“[Lie] I have no idea, but I will try to help you.” → <a href="#d-brv_guard_captain_40">brv_guard_captain_40</a></li>
@@ -1266,7 +1266,7 @@
 <li>“What do you want from me?” → <a href="#d-alkapoan_lie_wh_30">alkapoan_lie_wh_30</a></li>
 </ul>
 <p><span id="d-alkapoan_bargin"></span><strong><code>alkapoan_bargin</code></strong> Mustura: “Yeah, sure, twenty-five thousand and I take a couple of your fingers too?”</p>
-<p><span id="d-brv_guard_captain_and_rich_man_30"></span><strong><code>brv_guard_captain_and_rich_man_30</code></strong> <a href="../brv_richman/">Alkapoan</a>: “Let's see who is laughing in the end. The captain came to talk, not arrest me. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this a win-win.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_nondisplay/#stage-110">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_guard_captain_and_rich_man_30"></span><strong><code>brv_guard_captain_and_rich_man_30</code></strong> <a href="../brv_richman/">Alkapoan</a>: “Let's see who is laughing in the end. The captain came to talk, not arrest me. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this a win-win.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_nondisplay/#stage-110">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_guard_captain_and_rich_man_40">brv_guard_captain_and_rich_man_40</a></li>
 </ul>
@@ -1294,7 +1294,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.13/">v0.7.13</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “Alkapoan's letters accidently fell into a fire and I am sure some unk…” → “It seems Alkapoan's letters accidentally fell into a fire and I am su…”</td>
+<td>Dialogue: 3 lines changed<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.”<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>

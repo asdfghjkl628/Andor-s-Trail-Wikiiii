@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>)</td>
+<td><a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">Home</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/home/">home</a>, <a href="../../maps/waytogalmore0/">waytogalmore0</a></td>
+<td><a href="../../maps/home/">Home</a>, <a href="../../maps/waytogalmore0/">Waytogalmore 0</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1195,7 +1195,7 @@
 <p>Mikhail wants me to go buy a loaf of bread from Mara at the town hall.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>Start with <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>). Required:</p>
+<p>Start with <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">Home</a>). Required:</p>
 <ul>
 <li>reached stage 10 of <a href="./#stage-10">Breakfast bread</a></li>
 <li>NOT reached stage 100 of <a href="./#stage-100">Breakfast bread</a></li>
@@ -1231,7 +1231,7 @@
 </tr>
 <tr>
 <td>Unlocks</td>
-<td><a href="../brv_nondisplay_multipurpose/#stage-40">brv_nondisplay_multipurpose (hidden flag)</a></td>
+<td><a href="../brv_nondisplay_multipurpose/#stage-40">Brimhaven multipurpose story flags (hidden flag)</a></td>
 <td>stage 40 there needs stage 10 here</td>
 </tr>
 <tr>
@@ -1256,12 +1256,12 @@
 </tr>
 <tr>
 <td>Unlocks</td>
-<td><a href="../brv_wh_delivery_nondisplay/#stage-90">Delivery - nondisplay (hidden flag)</a></td>
+<td><a href="../brv_wh_delivery_nondisplay/#stage-90">Brimhaven warehouse delivery (hidden flag)</a></td>
 <td>stage 90 there needs stage 10 here</td>
 </tr>
 <tr>
 <td>Unlocks</td>
-<td><a href="../dds_nd/#stage-20">Darkness in the Daylight and Shadows - Non displayed (hidden flag)</a></td>
+<td><a href="../dds_nd/#stage-20">Darkness in the Daylight and Shadows story flags (hidden flag)</a></td>
 <td>stage 20 there needs stage 10 here</td>
 </tr>
 <tr>
@@ -1281,54 +1281,61 @@
 </tr>
 <tr>
 <td>Unlocks</td>
-<td><a href="../nondisplay/#stage-1">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></td>
+<td><a href="../nondisplay/#stage-1">General story flags (hidden flag)</a></td>
 <td>stage 1 there needs stages 10, 100 here</td>
 </tr>
 </tbody>
 </table>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
 <td>Mikhail wants me to go buy a loaf of bread from Mara at the town hall.</td>
-<td><a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>)</td>
-<td>–</td>
+<td><a href="../../monsters/mikhail/">Mikhail</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-100"></span>100</td>
-<td>I have brought the bread to Mikhail. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>)</td>
-<td>hand over 1× <a href="../../items/bread/">Bread</a>, stage 10</td>
-<td>30 XP<br>gives <a href="../../items/gold/">Gold coins</a></td>
+<td><span id="stage-100"></span><a href="#route-100">100</a></td>
+<td>I have brought the bread to Mikhail. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/mikhail/">Mikhail</a></td>
+<td>30 XP, <a href="../../items/gold/">Gold coins</a></td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “What about the bread?” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Breakfast bread</a>; NOT reached stage 100 of <a href="./#stage-100">Breakfast bread</a>; reached stage 100 of <a href="../mikhail_rats/#stage-100">Rats!</a> → <strong>stage 10</strong>. NPC: “Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Mikhail · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/mikhail/">Mikhail</a>, choose “What about the bread?”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10; not yet stage 100; reached stage 100 of <a href="../mikhail_rats/#stage-100">Rats!</a></li>
+<li><em>“Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 100: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>) → choose “Yes, here you go.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Breakfast bread</a>; hand over 1× <a href="../../items/bread/">Bread</a> → <strong>stage 100</strong>; also gives <a href="../../items/gold/">Gold coins</a>. NPC: “Thanks a lot, now I can make my breakfast. Here, take these coins for your help.”</li>
-</ol>
+<p><span id="route-100"></span></p>
+<details class="note">
+<summary>Stage 100 · Mikhail · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/mikhail/">Mikhail</a>, choose “Yes, here you go.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10; hand over 1× <a href="../../items/bread/">Bread</a></li>
+<li><strong>Gives:</strong> <a href="../../items/gold/">Gold coins</a></li>
+<li><em>“Thanks a lot, now I can make my breakfast. Here, take these coins for your help.”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

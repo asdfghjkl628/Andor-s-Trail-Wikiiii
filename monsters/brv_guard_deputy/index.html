@@ -1102,7 +1102,7 @@
 
 
 <h1 id="ito"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_109.png" /> Ito<a class="headerlink" href="#ito" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Ito:</strong> Brimhaven: <a href="../../maps/brimhaven2/#pin-npc-brv_guard_deputy">brimhaven2</a></p>
+<p><strong>Where to find Ito:</strong> Brimhaven: <a href="../../maps/brimhaven2/#pin-npc-brv_guard_deputy">Brimhaven 2</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_109.png){ .sprite }</p>
 <table>
@@ -1135,28 +1135,28 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brv_dagger/">A strange looking dagger</a>: stage 220</li>
-<li><a href="../../quests/brv_nondisplay_multipurpose/">brv_nondisplay_multipurpose (hidden flag)</a>: stage 60</li>
+<li><a href="../../quests/brv_nondisplay_multipurpose/">Brimhaven multipurpose story flags (hidden flag)</a>: stage 60</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ito. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Ito. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_guard_deputy_10.json" data-npc="Ito" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (4 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_guard_deputy_10"></span><strong><code>brv_guard_deputy_10</code></strong> Ito: “Hello. I am Ito. I help Mustura keep the law around here.”</p>
 <ul>
 <li>“I'll bear that in mind.” → <em>conversation ends</em></li>
 <li>“I have proof that Ogea murdered Lawellyn and stole his prized dagger.” <em>(if reached stage 210 of <a href="../../quests/brv_dagger/#stage-210">A strange looking dagger</a>; carry 1× <a href="../../items/ogea_glove/">Suspect's glove</a>; NOT reached stage 220 of <a href="../../quests/brv_dagger/#stage-220">A strange looking dagger</a>)</em> → <a href="#d-brv_guard_deputy_asd_10">brv_guard_deputy_asd_10</a></li>
-<li>“I want to discuss Ogea again.” <em>(if reached stage 60 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-60">brv_nondisplay_multipurpose (hidden flag)</a>; NOT reached stage 220 of <a href="../../quests/brv_dagger/#stage-220">A strange looking dagger</a>)</em> → <a href="#d-brv_guard_deputy_asd_20">brv_guard_deputy_asd_20</a></li>
+<li>“I want to discuss Ogea again.” <em>(if reached stage 60 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-60">Brimhaven multipurpose story flags (hidden flag)</a>; NOT reached stage 220 of <a href="../../quests/brv_dagger/#stage-220">A strange looking dagger</a>)</em> → <a href="#d-brv_guard_deputy_asd_20">brv_guard_deputy_asd_20</a></li>
 </ul>
 <p><span id="d-brv_guard_deputy_asd_10"></span><strong><code>brv_guard_deputy_asd_10</code></strong> Ito: “Let me hear it.”</p>
 <ul>
 <li>“I found his glove at the scene of the murder covered in dried blood and a witness that says the glove is Ogea's. Ogea…” <em>(if hand over 1× <a href="../../items/ogea_glove/">Suspect's glove</a>)</em> → <a href="#d-brv_guard_deputy_asd_20">brv_guard_deputy_asd_20</a></li>
 </ul>
-<p><span id="d-brv_guard_deputy_asd_20"></span><strong><code>brv_guard_deputy_asd_20</code></strong> Ito: “Wow. You did a great job! Do you want a job on our team?” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-60">brv_nondisplay_multipurpose (hidden flag)</a></p>
+<p><span id="d-brv_guard_deputy_asd_20"></span><strong><code>brv_guard_deputy_asd_20</code></strong> Ito: “Wow. You did a great job! Do you want a job on our team?” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/brv_nondisplay_multipurpose/#stage-60">Brimhaven multipurpose story flags (hidden flag)</a></p>
 <ul>
 <li>“No, thanks. I just want Ogea punished.” → <a href="#d-brv_guard_deputy_asd_30">brv_guard_deputy_asd_30</a></li>
 </ul>

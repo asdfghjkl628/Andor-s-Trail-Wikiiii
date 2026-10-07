@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Brenor is a non-player character (NPC) in Andor's Trail, found in undertell_1_0.">
+        <meta name="description" content="Brenor is a non-player character (NPC) in Andor's Trail, found in Undertell 1 0.">
       
       
       
@@ -1102,7 +1102,7 @@
 
 
 <h1 id="brenor"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_newb_1_45.png" /> Brenor<a class="headerlink" href="#brenor" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Brenor:</strong> <a href="../../maps/undertell_1_0/#pin-npc-brenor">undertell_1_0</a></p>
+<p><strong>Where to find Brenor:</strong> <a href="../../maps/undertell_1_0/#pin-npc-brenor">Undertell 1 0</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_45.png){ .sprite }</p>
 <table>
@@ -1119,7 +1119,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>undertell_1_0</td>
+<td>Undertell 1 0</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1135,17 +1135,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/undertell_book/">Undertell: What was not written</a>: stages 50, 80</li>
-<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stage 100</li>
+<li><a href="../../quests/undertell_hidden/">Undertell story flags (hidden flag)</a>: stage 100</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Brenor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Brenor. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brenor_selector.json" data-npc="Brenor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (15 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brenor_selector"></span><strong><code>brenor_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if carry 1× <a href="../../items/heartstone/">Heartstone</a>)</em> → <a href="#d-brenor_refuse_10">brenor_refuse_10</a></li>
@@ -1184,7 +1184,7 @@
 <li>“I must continue my search.” <em>(if reached stage 50 of <a href="../../quests/undertell_book/#stage-50">Undertell: What was not written</a>; reached stage 60 of <a href="../../quests/undertell_book/#stage-60">Undertell: What was not written</a>; reached stage 70 of <a href="../../quests/undertell_book/#stage-70">Undertell: What was not written</a>; NOT reached stage 80 of <a href="../../quests/undertell_book/#stage-80">Undertell: What was not written</a>)</em> → <a href="#d-brenor_reward_qs80">brenor_reward_qs80</a></li>
 <li>“I must go now.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-brenor_heartsteel_30"></span><strong><code>brenor_heartsteel_30</code></strong> Brenor: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease, but that was never what we feared most.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/undertell_hidden/#stage-100">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-brenor_heartsteel_30"></span><strong><code>brenor_heartsteel_30</code></strong> Brenor: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease, but that was never what we feared most.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/undertell_hidden/#stage-100">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“What did you fear?” → <a href="#d-brenor_heartsteel_40">brenor_heartsteel_40</a></li>
 </ul>

@@ -1102,7 +1102,7 @@
 
 
 <h1 id="zimsko"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men2_9.png" /> Zimsko<a class="headerlink" href="#zimsko" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Zimsko:</strong> Brimhaven: <a href="../../maps/brimhaven_tavern_west/#pin-npc-zimsko">brimhaven_tavern_west</a></p>
+<p><strong>Where to find Zimsko:</strong> Brimhaven: <a href="../../maps/brimhaven_tavern_west/#pin-npc-zimsko">Brimhaven tavern west</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men2_9.png){ .sprite }</p>
 <table>
@@ -1135,27 +1135,27 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brv_blackjack/">Fair play?</a>: stages 20, 30, 31, 70, 80</li>
-<li><a href="../../quests/brv_blackjack_hidden/">brv_blackjack_hidden (hidden flag)</a>: stages 110, 120, 130</li>
+<li><a href="../../quests/brv_blackjack_hidden/">Brimhaven blackjack story flags (hidden flag)</a>: stages 110, 120, 130</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zimsko. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Zimsko. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_zimsko_select.json" data-npc="Zimsko" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (17 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_zimsko_select"></span><strong><code>brv_zimsko_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 110 of <a href="../../quests/brv_blackjack_hidden/#stage-110">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_5">brv_zimsko_5</a></li>
+<li>branch 1 <em>(if reached stage 110 of <a href="../../quests/brv_blackjack_hidden/#stage-110">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_5">brv_zimsko_5</a></li>
 <li>branch 2 → <a href="#d-brv_zimsko_10">brv_zimsko_10</a></li>
 </ul>
 <p><span id="d-brv_zimsko_5"></span><strong><code>brv_zimsko_5</code></strong> Zimsko: “You again?”</p>
 <ul>
 <li>Next → <a href="#d-brv_zimsko_6">brv_zimsko_6</a></li>
 </ul>
-<p><span id="d-brv_zimsko_10"></span><strong><code>brv_zimsko_10</code></strong> Zimsko: “What do you want from me?” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_blackjack_hidden/#stage-110">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_zimsko_10"></span><strong><code>brv_zimsko_10</code></strong> Zimsko: “What do you want from me?” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/brv_blackjack_hidden/#stage-110">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>“I just want to talk a little bit.” → <a href="#d-brv_zimsko_10_1">brv_zimsko_10_1</a></li>
 <li>“I want to join you for a beer.” → <a href="#d-brv_zimsko_10_2">brv_zimsko_10_2</a></li>
@@ -1166,7 +1166,7 @@
 <li>branch 1 <em>(if reached stage 70 of <a href="../../quests/brv_blackjack/#stage-70">Fair play?</a>)</em> → <a href="#d-brv_zimsko_80">brv_zimsko_80</a></li>
 <li>branch 2 <em>(if reached stage 80 of <a href="../../quests/brv_blackjack/#stage-80">Fair play?</a>)</em> → <a href="#d-brv_zimsko_80">brv_zimsko_80</a></li>
 <li>branch 3 <em>(if reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40">brv_zimsko_40</a></li>
-<li>branch 4 <em>(if reached stage 120 of <a href="../../quests/brv_blackjack_hidden/#stage-120">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_20_2">brv_zimsko_20_2</a></li>
+<li>branch 4 <em>(if reached stage 120 of <a href="../../quests/brv_blackjack_hidden/#stage-120">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_20_2">brv_zimsko_20_2</a></li>
 <li>branch 5 → <a href="#d-brv_zimsko_10">brv_zimsko_10</a></li>
 </ul>
 <p><span id="d-brv_zimsko_10_1"></span><strong><code>brv_zimsko_10_1</code></strong> Zimsko: “I am very thirsty...”</p>
@@ -1174,7 +1174,7 @@
 <li>“Why don't you buy something for yourself?” → <a href="#d-brv_zimsko_10_2">brv_zimsko_10_2</a></li>
 <li>“Let's drink a beer together. I will pay. [Pay 2 gold]” <em>(if pay 2 gold)</em> → <a href="#d-brv_zimsko_20">brv_zimsko_20</a></li>
 </ul>
-<p><span id="d-brv_zimsko_10_2"></span><strong><code>brv_zimsko_10_2</code></strong> Zimsko: “I lost all my money gambling and can't afford a beer.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_blackjack_hidden/#stage-130">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_zimsko_10_2"></span><strong><code>brv_zimsko_10_2</code></strong> Zimsko: “I lost all my money gambling and can't afford a beer.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_blackjack_hidden/#stage-130">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>“Bad luck.” → <em>conversation ends</em></li>
 <li>“I am out of money.” <em>(if NOT have 2 gold)</em> → <em>conversation ends</em></li>
@@ -1187,15 +1187,15 @@
 <p><span id="d-brv_zimsko_40"></span><strong><code>brv_zimsko_40</code></strong> Zimsko: “Did you already find out if they are cheating? You have to win and lose a few times until they trust you and play for higher amounts. Then they start cheating.”</p>
 <ul>
 <li>“I did not find anything out yet.” → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
-<li>“I gambled with them and it seems they are cheating.” <em>(if reached stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">brv_blackjack_hidden (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_2">brv_zimsko_40_2</a></li>
+<li>“I gambled with them and it seems they are cheating.” <em>(if reached stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">Brimhaven blackjack story flags (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_2">brv_zimsko_40_2</a></li>
 <li>“I gambled with them and it seems they are cheating. I even had a fight with them.” <em>(if reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_3">brv_zimsko_40_3</a></li>
-<li>“I gambled with them and I think they are playing fair.” <em>(if reached stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">brv_blackjack_hidden (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_1">brv_zimsko_40_1</a></li>
+<li>“I gambled with them and I think they are playing fair.” <em>(if reached stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">Brimhaven blackjack story flags (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brv_blackjack/#stage-50">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40_1">brv_zimsko_40_1</a></li>
 </ul>
 <p><span id="d-brv_zimsko_20_2"></span><strong><code>brv_zimsko_20_2</code></strong> Zimsko: “Thank you for the beer.”</p>
 <ul>
 <li>Next → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
 </ul>
-<p><span id="d-brv_zimsko_20"></span><strong><code>brv_zimsko_20</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_blackjack_hidden/#stage-120">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_zimsko_20"></span><strong><code>brv_zimsko_20</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 120 of <a href="../../quests/brv_blackjack_hidden/#stage-120">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <a href="#d-brv_zimsko_20_2">brv_zimsko_20_2</a></li>
 </ul>
@@ -1206,7 +1206,7 @@
 <li>“[Lie] I am out of money.” <em>(if have 2 gold)</em> → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
 <li>“No, you have had enough.” → <a href="#d-brv_zimsko_20_1">brv_zimsko_20_1</a></li>
 <li>“Do you know something about the back room?” <em>(if reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>; NOT reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30">brv_zimsko_30</a></li>
-<li>“Where did you lose your money?” <em>(if NOT reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; reached stage 130 of <a href="../../quests/brv_blackjack_hidden/#stage-130">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_30">brv_zimsko_30</a></li>
+<li>“Where did you lose your money?” <em>(if NOT reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; reached stage 130 of <a href="../../quests/brv_blackjack_hidden/#stage-130">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_zimsko_30">brv_zimsko_30</a></li>
 <li>“I want to find out what's happening in the back room, but they want a password.” <em>(if reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>; NOT reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30_2">brv_zimsko_30_2</a></li>
 <li>“I want to find out what's happening in the back room.” <em>(if reached stage 20 of <a href="../../quests/brv_blackjack/#stage-20">Fair play?</a>; NOT reached stage 10 of <a href="../../quests/brv_blackjack/#stage-10">Fair play?</a>; NOT reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>)</em> → <a href="#d-brv_zimsko_30_1">brv_zimsko_30_1</a></li>
 <li>“I want to talk to you about the gamblers.” <em>(if reached stage 30 of <a href="../../quests/brv_blackjack/#stage-30">Fair play?</a>; NOT reached stage 70 of <a href="../../quests/brv_blackjack/#stage-70">Fair play?</a>; NOT reached stage 80 of <a href="../../quests/brv_blackjack/#stage-80">Fair play?</a>)</em> → <a href="#d-brv_zimsko_40">brv_zimsko_40</a></li>

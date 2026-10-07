@@ -1204,7 +1204,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Tahalendor. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Tahalendor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1219,36 +1219,36 @@
 <tr>
 <td><a href="#v-tahalendor"><code>tahalendor</code></a></td>
 <td>NPC</td>
-<td>Stoutford: <a href="../../maps/stoutford_church/#pin-npc-tahalendor">stoutford_church</a></td>
+<td>Stoutford: <a href="../../maps/stoutford_church/#pin-npc-tahalendor">Stoutford church</a></td>
 <td>starts <a href="../../quests/rumblings/">Rumblings</a></td>
 </tr>
 <tr>
 <td><a href="#v-tahalendor2"><code>tahalendor2</code></a></td>
 <td>NPC</td>
-<td>Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-tahalendor2">stoutford_potion</a></td>
+<td>Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-tahalendor2">Stoutford potion</a></td>
 <td>–</td>
 </tr>
 </tbody>
 </table>
 <h2 id="v-tahalendor">Stoutford, Stoutford church (tahalendor)<a class="headerlink" href="#v-tahalendor" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>tahalendor</code> · <strong>Type:</strong> NPC · <strong>Role:</strong> Starts <a href="../../quests/rumblings/">Rumblings</a></p>
-<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_church/#pin-npc-tahalendor">stoutford_church</a></p>
+<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_church/#pin-npc-tahalendor">Stoutford church</a></p>
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/rumblings/">Rumblings</a>: stages 10, 90, 100, 103, 106</li>
 <li><a href="../../quests/stoutford_castle/">Stoutford's old castle</a>: stage 14</li>
 <li><a href="../../quests/thorns_vengeance/">The thorns of vengeance</a>: stage 65</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 23</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 23</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tahalendor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Tahalendor. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/tahalendor_0.json" data-npc="Tahalendor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (25 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-tahalendor-tahalendor_0"></span><strong><code>tahalendor_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>Next <em>(if reached stage 106 of <a href="../../quests/rumblings/#stage-106">Rumblings</a>)</em> → <a href="#d-tahalendor-tahalendor_rumblings10x_0">tahalendor_rumblings10x_0</a></li>
@@ -1292,7 +1292,7 @@
 <li>“I met an undead lord in the castle, but every time it seems that I have destroyed him, he rises again. Do you have any…” <em>(if killed 1× <a href="../erwyn/">Lord Erwyn</a>)</em> → <a href="#d-tahalendor-tahalendor_erwyn_2">tahalendor_erwyn_2</a></li>
 <li>“I want to help you clean the castle of the undead. Yolgen seems to be worried, perhaps because he believes the undead…” <em>(if NOT killed 1× <a href="../erwyn/">Lord Erwyn</a>)</em> → <a href="#d-tahalendor-tahalendor_erwyn_2">tahalendor_erwyn_2</a></li>
 </ul>
-<p><span id="d-tahalendor-tahalendor_rumblings10x_1"></span><strong><code>tahalendor_rumblings10x_1</code></strong> Tahalendor: “Talk to Yolgen. He handles such things for me.” — <strong>effects:</strong> sets stage 23 of <a href="../../quests/nondisplay/#stage-23">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-tahalendor-tahalendor_rumblings10x_1"></span><strong><code>tahalendor_rumblings10x_1</code></strong> Tahalendor: “Talk to Yolgen. He handles such things for me.” — <strong>effects:</strong> sets stage 23 of <a href="../../quests/nondisplay/#stage-23">General story flags (hidden flag)</a></p>
 <ul>
 <li>“OK. Thanks.” → <em>conversation ends</em></li>
 </ul>
@@ -1441,20 +1441,20 @@
 </details>
 <h2 id="v-tahalendor2">Stoutford, Stoutford potion (tahalendor2)<a class="headerlink" href="#v-tahalendor2" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>tahalendor2</code> · <strong>Type:</strong> NPC</p>
-<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-tahalendor2">stoutford_potion</a></p>
+<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-tahalendor2">Stoutford potion</a></p>
 <h3 id="quests_1">Quests<a class="headerlink" href="#quests_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/thorns_vengeance/">The thorns of vengeance</a>: stages 75, 80</li>
 </ul>
 <h3 id="dialogue-simulator_1">Dialogue simulator<a class="headerlink" href="#dialogue-simulator_1" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tahalendor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Tahalendor. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/tahalendor2_0.json" data-npc="Tahalendor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (13 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-tahalendor2-tahalendor2_0"></span><strong><code>tahalendor2_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 75 of <a href="../../quests/thorns_vengeance/#stage-75">The thorns of vengeance</a>)</em> → <a href="#d-tahalendor2-blornvale_thorns72_92">blornvale_thorns72_92</a></li>

@@ -1113,7 +1113,7 @@
 
 
 <h1 id="mysterious-lizard-creature"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_johny_1.png" /> Mysterious lizard creature<a class="headerlink" href="#mysterious-lizard-creature" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Mysterious lizard creature:</strong> Burial cave: <a href="../../maps/brightport_cave10/#pin-npc-brightport_emyro">brightport_cave10</a>, <a href="../../maps/brightport_cave1/#pin-npc-brightport_emyro">brightport_cave1</a></p>
+<p><strong>Where to find Mysterious lizard creature:</strong> Burial cave: <a href="../../maps/brightport_cave10/#pin-npc-brightport_emyro">Brightport cave 10</a>, <a href="../../maps/brightport_cave1/#pin-npc-brightport_emyro">Brightport cave 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_johny_1.png){ .sprite }</p>
 <table>
@@ -1159,13 +1159,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brightport_cave1/">brightport_cave1</a></td>
+<td><a href="../../maps/brightport_cave1/">Brightport cave 1</a></td>
 <td>–</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/brightport_cave10/">brightport_cave10</a></td>
+<td><a href="../../maps/brightport_cave10/">Brightport cave 10</a></td>
 <td>Burial cave</td>
 <td>2</td>
 <td>–</td>
@@ -1175,23 +1175,23 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brightport_lizard/">The balance of scales</a>: stages 1, 20, 25, 30</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 113, 116</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 113, 116</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mysterious lizard creature. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Mysterious lizard creature. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_mlizard_selector.json" data-npc="Mysterious lizard creature" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (10 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_mlizard_selector"></span><strong><code>brightport_mlizard_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 113 of <a href="../../quests/brightport_nondisplay/#stage-113">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_lizard1">brightport_lizard1</a></li>
-<li>Next <em>(if reached stage 113 of <a href="../../quests/brightport_nondisplay/#stage-113">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_emyro_0">brightport_emyro_0</a></li>
+<li>Next <em>(if NOT reached stage 113 of <a href="../../quests/brightport_nondisplay/#stage-113">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_lizard1">brightport_lizard1</a></li>
+<li>Next <em>(if reached stage 113 of <a href="../../quests/brightport_nondisplay/#stage-113">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_emyro_0">brightport_emyro_0</a></li>
 </ul>
-<p><span id="d-brightport_lizard1"></span><strong><code>brightport_lizard1</code></strong> <a href="../none/">Dummy NPC</a>: “The mysterious creature leaps over the rubble to the other side of the cave.” — <strong>effects:</strong> removes monsters from brightport_cave1, sets stage 113 of <a href="../../quests/brightport_nondisplay/#stage-113">brightport_nondisplay (hidden flag)</a>, sets stage 1 of <a href="../../quests/brightport_lizard/#stage-1">The balance of scales</a></p>
+<p><span id="d-brightport_lizard1"></span><strong><code>brightport_lizard1</code></strong> <a href="../none/">Dummy NPC</a>: “The mysterious creature leaps over the rubble to the other side of the cave.” — <strong>effects:</strong> removes monsters from brightport_cave1, sets stage 113 of <a href="../../quests/brightport_nondisplay/#stage-113">Brightport story flags (hidden flag)</a>, sets stage 1 of <a href="../../quests/brightport_lizard/#stage-1">The balance of scales</a></p>
 <p><span id="d-brightport_emyro_0"></span><strong><code>brightport_emyro_0</code></strong> <a href="../none/">Dummy NPC</a>: “The creature steps back cautiously, its claws scraping the stone floor.”</p>
 <ul>
 <li>Next → <a href="#d-brightport_emyro">brightport_emyro</a></li>
@@ -1209,16 +1209,16 @@
 <ul>
 <li>Next → <a href="#d-brightport_emyrocave3">brightport_emyrocave3</a></li>
 </ul>
-<p><span id="d-brightport_emyrocave3"></span><strong><code>brightport_emyrocave3</code></strong> <a href="./">Mysterious lizard creature</a>: “She took what's not hers. Bones of our elders, sacred to us! We try to recover them, but she sends beasts. You call us trouble? She's the trouble!” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brightport_lizard/#stage-20">The balance of scales</a>, sets stage 116 of <a href="../../quests/brightport_nondisplay/#stage-116">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_emyrocave3"></span><strong><code>brightport_emyrocave3</code></strong> <a href="./">Mysterious lizard creature</a>: “She took what's not hers. Bones of our elders, sacred to us! We try to recover them, but she sends beasts. You call us trouble? She's the trouble!” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brightport_lizard/#stage-20">The balance of scales</a>, sets stage 116 of <a href="../../quests/brightport_nondisplay/#stage-116">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“I didn't know that. Maybe I could help you?” → <a href="#d-brightport_emyrocave5">brightport_emyrocave5</a></li>
 <li>“I've had enough of your rambling. [Attack the creature.]” → <a href="#d-brightport_emyrofight">brightport_emyrofight</a></li>
 </ul>
-<p><span id="d-brightport_emyrocave5"></span><strong><code>brightport_emyrocave5</code></strong> <a href="../brightport_lizard/">Green-claw-emyro</a>: “No! But I am only Emyro, the scout. Our leader must decide. Find our home, and leader Elyzard will tell...” — <strong>effects:</strong> sets stage 116 of <a href="../../quests/brightport_nondisplay/#stage-116">brightport_nondisplay (hidden flag)</a>, sets stage 30 of <a href="../../quests/brightport_lizard/#stage-30">The balance of scales</a>, removes monsters from brightport_cave10</p>
+<p><span id="d-brightport_emyrocave5"></span><strong><code>brightport_emyrocave5</code></strong> <a href="../brightport_lizard/">Green-claw-emyro</a>: “No! But I am only Emyro, the scout. Our leader must decide. Find our home, and leader Elyzard will tell...” — <strong>effects:</strong> sets stage 116 of <a href="../../quests/brightport_nondisplay/#stage-116">Brightport story flags (hidden flag)</a>, sets stage 30 of <a href="../../quests/brightport_lizard/#stage-30">The balance of scales</a>, removes monsters from brightport_cave10</p>
 <ul>
 <li>Next → <a href="#d-brightport_emyrocave6">brightport_emyrocave6</a></li>
 </ul>
-<p><span id="d-brightport_emyrofight"></span><strong><code>brightport_emyrofight</code></strong> <a href="../none/">Dummy NPC</a>: “As you attempt to attack the creature it swiftly tries to evade your blow, but your combat experience allows you to land a grazing strike. However, the spot it moved to to avoid your attack puts it close to the entrance, allowing it to…” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/brightport_lizard/#stage-25">The balance of scales</a>, sets stage 116 of <a href="../../quests/brightport_nondisplay/#stage-116">brightport_nondisplay (hidden flag)</a>, removes monsters from brightport_cave10</p>
+<p><span id="d-brightport_emyrofight"></span><strong><code>brightport_emyrofight</code></strong> <a href="../none/">Dummy NPC</a>: “As you attempt to attack the creature it swiftly tries to evade your blow, but your combat experience allows you to land a grazing strike. However, the spot it moved to to avoid your attack puts it close to the entrance, allowing it to…” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/brightport_lizard/#stage-25">The balance of scales</a>, sets stage 116 of <a href="../../quests/brightport_nondisplay/#stage-116">Brightport story flags (hidden flag)</a>, removes monsters from brightport_cave10</p>
 <p><span id="d-brightport_emyrocave6"></span><strong><code>brightport_emyrocave6</code></strong> <a href="../none/">Dummy NPC</a>: “The lizard cautiously steps back, then leaps out the entrance of the burial cave.”</p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>

@@ -1113,7 +1113,7 @@
 
 
 <h1 id="torilo"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men2_9.png" /> Torilo<a class="headerlink" href="#torilo" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Torilo:</strong> Foaming Flask Tavern: <a href="../../maps/foaming_flask/#pin-npc-torilo">foaming_flask</a></p>
+<p><strong>Where to find Torilo:</strong> Foaming Flask Tavern: <a href="../../maps/foaming_flask/#pin-npc-torilo">Foaming flask</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men2_9.png){ .sprite }</p>
 <table>
@@ -1192,17 +1192,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/beer_bootlegging/">Beer Bootlegging</a>: stage 20</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 10</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 10</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Torilo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Torilo. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/torilo_1.json" data-npc="Torilo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (26 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-torilo_1"></span><strong><code>torilo_1</code></strong> Torilo: “Welcome to the Foaming Flask tavern. We welcome all travelers in here.”</p>
 <ul>
 <li>“Thank you. Are you the innkeeper here?” → <a href="#d-torilo_2">torilo_2</a></li>
@@ -1229,7 +1229,7 @@
 </ul>
 <p><span id="d-torilo_rest_select"></span><strong><code>torilo_rest_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/nondisplay/#stage-10">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-torilo_rest_1">torilo_rest_1</a></li>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/nondisplay/#stage-10">General story flags (hidden flag)</a>)</em> → <a href="#d-torilo_rest_1">torilo_rest_1</a></li>
 <li>branch 2 → <a href="#d-torilo_rest_3">torilo_rest_3</a></li>
 </ul>
 <p><span id="d-torilo_guards_1"></span><strong><code>torilo_guards_1</code></strong> Torilo: “<em>Sigh</em> Yes. Those guards have been here for quite some time now.”</p>
@@ -1284,7 +1284,7 @@
 <li>“Funny, I thought it was because you are a jerk.” → <em>conversation ends</em></li>
 <li>“Oh, fine! What do you want? Gold? How much?” → <a href="#d-torilo_beer_40">torilo_beer_40</a></li>
 </ul>
-<p><span id="d-torilo_rest_6"></span><strong><code>torilo_rest_6</code></strong> Torilo: “Thank you. The room is now rented to you.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/nondisplay/#stage-10">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-torilo_rest_6"></span><strong><code>torilo_rest_6</code></strong> Torilo: “Thank you. The room is now rented to you.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/nondisplay/#stage-10">General story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-torilo_rest_2">torilo_rest_2</a></li>
 </ul>
@@ -1340,7 +1340,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?”</td>
+<td>Dialogue: 3 lines changed<br>· text: “OK. How does 7500 gold sound?” → “OK. How does {7500} gold sound?”<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”</td>
 </tr>
 </tbody>
 </table>

@@ -1102,7 +1102,7 @@
 
 
 <h1 id="facutloni"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_135.png" /> Facutloni<a class="headerlink" href="#facutloni" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Facutloni:</strong> Brimhaven: <a href="../../maps/brimhaven_warehouse/#pin-npc-brv_wh_boss">brimhaven_warehouse</a></p>
+<p><strong>Where to find Facutloni:</strong> Brimhaven: <a href="../../maps/brimhaven_warehouse/#pin-npc-brv_wh_boss">Brimhaven warehouse</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_135.png){ .sprite }</p>
 <table>
@@ -1140,25 +1140,25 @@
 <ul>
 <li><a href="../../quests/brv_wh_delivery/">Delivery</a>: stages 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130</li>
 <li><a href="../../quests/brv_wh/">Inventory</a>: stages 10, 900</li>
-<li><a href="../../quests/brv_wh_delivery_reward_nondisplay/">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>: stages 1, 2, 3</li>
-<li><a href="../../quests/brv_wh_reward_nondisplay/">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>: stages 1, 2, 3</li>
+<li><a href="../../quests/brv_wh_delivery_reward_nondisplay/">Brimhaven warehouse delivery reward (hidden flag)</a>: stages 1, 2, 3</li>
+<li><a href="../../quests/brv_wh_reward_nondisplay/">Brimhaven warehouse inventory reward (hidden flag)</a>: stages 1, 2, 3</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Facutloni. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Facutloni. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_boss.json" data-npc="Facutloni" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (35 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_wh_boss"></span><strong><code>brv_wh_boss</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 3 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-3">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_boss_900_10">brv_wh_boss_900_10</a></li>
-<li>branch 2 <em>(if reached stage 2 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-2">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes">brv_wh_delivery_boss_10_10_yes</a></li>
+<li>branch 1 <em>(if reached stage 3 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-3">Brimhaven warehouse delivery reward (hidden flag)</a>)</em> → <a href="#d-brv_wh_boss_900_10">brv_wh_boss_900_10</a></li>
+<li>branch 2 <em>(if reached stage 2 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-2">Brimhaven warehouse delivery reward (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes">brv_wh_delivery_boss_10_10_yes</a></li>
 <li>branch 3 <em>(if reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10">brv_wh_delivery_boss_10_10</a></li>
-<li>branch 4 <em>(if reached stage 3 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-3">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10">brv_wh_delivery_boss_10</a></li>
-<li>branch 5 <em>(if reached stage 2 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_boss_10_32">brv_wh_boss_10_32</a></li>
+<li>branch 4 <em>(if reached stage 3 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-3">Brimhaven warehouse inventory reward (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10">brv_wh_delivery_boss_10</a></li>
+<li>branch 5 <em>(if reached stage 2 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-2">Brimhaven warehouse inventory reward (hidden flag)</a>)</em> → <a href="#d-brv_wh_boss_10_32">brv_wh_boss_10_32</a></li>
 <li>branch 6 <em>(if reached stage 900 of <a href="../../quests/brv_wh/#stage-900">Inventory</a>)</em> → <a href="#d-brv_wh_delivery_boss_10">brv_wh_delivery_boss_10</a></li>
 <li>branch 7 <em>(if reached stage 10 of <a href="../../quests/brv_wh/#stage-10">Inventory</a>)</em> → <a href="#d-brv_wh_boss_10_10">brv_wh_boss_10_10</a></li>
 <li>branch 8 → <a href="#d-brv_wh_boss_10">brv_wh_boss_10</a></li>
@@ -1171,7 +1171,7 @@
 </ul>
 <p><span id="d-brv_wh_delivery_boss_10_10"></span><strong><code>brv_wh_delivery_boss_10_10</code></strong> Facutloni: “You are back. Did you deliver all of the items?”</p>
 <ul>
-<li>“Yes. I delivered everything.” <em>(if reached stage 10 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-10">Delivery - nondisplay (hidden flag)</a>; reached stage 20 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-20">Delivery - nondisplay (hidden flag)</a>; reached stage 30 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-30">Delivery - nondisplay (hidden flag)</a>; reached stage 40 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-40">Delivery - nondisplay (hidden flag)</a>; reached stage 50 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-50">Delivery - nondisplay (hidden flag)</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-60">Delivery - nondisplay (hidden flag)</a>; reached stage 70 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-70">Delivery - nondisplay (hidden flag)</a>; reached stage 80 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-80">Delivery - nondisplay (hidden flag)</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-90">Delivery - nondisplay (hidden flag)</a>; reached stage 100 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-100">Delivery - nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes">brv_wh_delivery_boss_10_10_yes</a></li>
+<li>“Yes. I delivered everything.” <em>(if reached stage 10 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-10">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 20 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-20">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 30 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-30">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 40 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-40">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 50 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-50">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 60 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-60">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 70 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-70">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 80 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-80">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 90 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-90">Brimhaven warehouse delivery (hidden flag)</a>; reached stage 100 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-100">Brimhaven warehouse delivery (hidden flag)</a>)</em> → <a href="#d-brv_wh_delivery_boss_10_10_yes">brv_wh_delivery_boss_10_10_yes</a></li>
 <li>“Not yet.” → <a href="#d-brv_wh_delivery_boss_10_10_no">brv_wh_delivery_boss_10_10_no</a></li>
 </ul>
 <p><span id="d-brv_wh_delivery_boss_10"></span><strong><code>brv_wh_delivery_boss_10</code></strong> Facutloni: “Ah! You have finally returned, my new worker.”</p>
@@ -1196,7 +1196,7 @@
 <li>“Insolence! Who do you think you are?” → <em>conversation ends</em></li>
 <li>“Sure.” → <a href="#d-brv_wh_boss_12">brv_wh_boss_12</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_boss_10_10_yes_10"></span><strong><code>brv_wh_delivery_boss_10_10_yes_10</code></strong> Facutloni: “Good job! I am glad that you work responsibly.” — <strong>effects:</strong> sets stage 2 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-2">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_wh_delivery_boss_10_10_yes_10"></span><strong><code>brv_wh_delivery_boss_10_10_yes_10</code></strong> Facutloni: “Good job! I am glad that you work responsibly.” — <strong>effects:</strong> sets stage 2 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-2">Brimhaven warehouse delivery reward (hidden flag)</a></p>
 <ul>
 <li>“And seriously.” → <a href="#d-brv_wh_delivery_boss_reward">brv_wh_delivery_boss_reward</a></li>
 <li>“I travelled far and wide.” → <a href="#d-brv_wh_delivery_boss_reward">brv_wh_delivery_boss_reward</a></li>
@@ -1216,7 +1216,7 @@
 <ul>
 <li>Next → <a href="#d-brv_wh_delivery_boss_30">brv_wh_delivery_boss_30</a></li>
 </ul>
-<p><span id="d-brv_wh_boss_10_90"></span><strong><code>brv_wh_boss_10_90</code></strong> Facutloni: “Good work gives good wages! Here is 100 gold.” — <strong>effects:</strong> sets stage 3 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-3">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brv_wh_boss_10_90"></span><strong><code>brv_wh_boss_10_90</code></strong> Facutloni: “Good work gives good wages! Here is 100 gold.” — <strong>effects:</strong> sets stage 3 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-3">Brimhaven warehouse inventory reward (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Thank you.” → <em>conversation ends</em></li>
 <li>“Old scrooge.” → <a href="#d-brv_wh_boss_10_92">brv_wh_boss_10_92</a></li>
@@ -1239,12 +1239,12 @@
 <ul>
 <li>Next → <a href="#d-brv_wh_boss_20">brv_wh_boss_20</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_boss_reward"></span><strong><code>brv_wh_delivery_boss_reward</code></strong> Facutloni: “That is serious. And here you have your well-deserved reward: 100 gold.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_wh_delivery/#stage-130">Delivery</a>, sets stage 3 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-3">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brv_wh_delivery_boss_reward"></span><strong><code>brv_wh_delivery_boss_reward</code></strong> Facutloni: “That is serious. And here you have your well-deserved reward: 100 gold.” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_wh_delivery/#stage-130">Delivery</a>, sets stage 3 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-3">Brimhaven warehouse delivery reward (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Thanks.” → <em>conversation ends</em></li>
 <li>“What the?” → <a href="#d-brv_wh_delivery_boss_scrooge">brv_wh_delivery_boss_scrooge</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_boss_30"></span><strong><code>brv_wh_delivery_boss_30</code></strong> Facutloni: “Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>, sets stage 20 of <a href="../../quests/brv_wh_delivery/#stage-20">Delivery</a>, sets stage 30 of <a href="../../quests/brv_wh_delivery/#stage-30">Delivery</a>, sets stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>, sets stage 50 of <a href="../../quests/brv_wh_delivery/#stage-50">Delivery</a>, sets stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>, sets stage 70 of <a href="../../quests/brv_wh_delivery/#stage-70">Delivery</a>, sets stage 80 of <a href="../../quests/brv_wh_delivery/#stage-80">Delivery</a>, sets stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>, sets stage 100 of <a href="../../quests/brv_wh_delivery/#stage-100">Delivery</a>, sets stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>, sets stage 120 of <a href="../../quests/brv_wh_delivery/#stage-120">Delivery</a>, gives 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, gives 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, gives 1× <a href="../../items/brv_wh_item_02/">Lyre</a>, gives 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, gives 1× <a href="../../items/brv_wh_item_04/">Chandelier</a>, gives 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, gives 1× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, gives 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, gives 1× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, gives 1× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, sets stage 1 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-1">Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)</a>, gives 1× <a href="../../items/facutloni_docket/">Facutloni's Docket</a></p>
+<p><span id="d-brv_wh_delivery_boss_30"></span><strong><code>brv_wh_delivery_boss_30</code></strong> Facutloni: “Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>, sets stage 20 of <a href="../../quests/brv_wh_delivery/#stage-20">Delivery</a>, sets stage 30 of <a href="../../quests/brv_wh_delivery/#stage-30">Delivery</a>, sets stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>, sets stage 50 of <a href="../../quests/brv_wh_delivery/#stage-50">Delivery</a>, sets stage 60 of <a href="../../quests/brv_wh_delivery/#stage-60">Delivery</a>, sets stage 70 of <a href="../../quests/brv_wh_delivery/#stage-70">Delivery</a>, sets stage 80 of <a href="../../quests/brv_wh_delivery/#stage-80">Delivery</a>, sets stage 90 of <a href="../../quests/brv_wh_delivery/#stage-90">Delivery</a>, sets stage 100 of <a href="../../quests/brv_wh_delivery/#stage-100">Delivery</a>, sets stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>, sets stage 120 of <a href="../../quests/brv_wh_delivery/#stage-120">Delivery</a>, gives 1× <a href="../../items/brv_wh_item_00/">Crystal globe</a>, gives 1× <a href="../../items/brv_wh_item_01/">Plush pillow</a>, gives 1× <a href="../../items/brv_wh_item_02/">Lyre</a>, gives 1× <a href="../../items/brv_wh_item_03/">Yellow boot</a>, gives 1× <a href="../../items/brv_wh_item_04/">Chandelier</a>, gives 1× <a href="../../items/brv_wh_item_05/">Mysterious green something</a>, gives 1× <a href="../../items/brv_wh_item_06/">Old, worn cape</a>, gives 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>, gives 1× <a href="../../items/brv_wh_item_08/">Striped hammer</a>, gives 1× <a href="../../items/brv_wh_item_09/">Dusty old book</a>, sets stage 1 of <a href="../../quests/brv_wh_delivery_reward_nondisplay/#stage-1">Brimhaven warehouse delivery reward (hidden flag)</a>, gives 1× <a href="../../items/facutloni_docket/">Facutloni's Docket</a></p>
 <ul>
 <li>“It will be done.” → <a href="#d-brv_wh_delivery_boss_40">brv_wh_delivery_boss_40</a></li>
 <li>“You want me to deliver these items to your customers?” → <a href="#d-brv_wh_delivery_boss_40">brv_wh_delivery_boss_40</a></li>
@@ -1257,7 +1257,7 @@
 <ul>
 <li>“A pair.” → <a href="#d-brv_wh_boss_44">brv_wh_boss_44</a></li>
 </ul>
-<p><span id="d-brv_wh_boss_10_30"></span><strong><code>brv_wh_boss_10_30</code></strong> Facutloni: “10 pairs - that is correct. So everything is in order.” — <strong>effects:</strong> sets stage 900 of <a href="../../quests/brv_wh/#stage-900">Inventory</a>, sets stage 2 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-2">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_wh_boss_10_30"></span><strong><code>brv_wh_boss_10_30</code></strong> Facutloni: “10 pairs - that is correct. So everything is in order.” — <strong>effects:</strong> sets stage 900 of <a href="../../quests/brv_wh/#stage-900">Inventory</a>, sets stage 2 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-2">Brimhaven warehouse inventory reward (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_wh_boss_10_32">brv_wh_boss_10_32</a></li>
 </ul>
@@ -1290,7 +1290,7 @@
 <ul>
 <li>“Sounds easy.” → <a href="#d-brv_wh_boss_48">brv_wh_boss_48</a></li>
 </ul>
-<p><span id="d-brv_wh_boss_30"></span><strong><code>brv_wh_boss_30</code></strong> Facutloni: “Come back to me when you found all the pairs and tell me how many there are.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_wh/#stage-10">Inventory</a>, sets stage 1 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-1">Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_wh_boss_30"></span><strong><code>brv_wh_boss_30</code></strong> Facutloni: “Come back to me when you found all the pairs and tell me how many there are.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_wh/#stage-10">Inventory</a>, sets stage 1 of <a href="../../quests/brv_wh_reward_nondisplay/#stage-1">Brimhaven warehouse inventory reward (hidden flag)</a></p>
 <ul>
 <li>“OK. I'll be back in a minute.” → <em>conversation ends</em></li>
 <li>“Eh, what do you want me to do exactly?” → <a href="#d-brv_wh_boss_40">brv_wh_boss_40</a></li>

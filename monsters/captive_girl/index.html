@@ -1102,7 +1102,7 @@
 
 
 <h1 id="emmeline"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_220.png" /> Emmeline<a class="headerlink" href="#emmeline" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Emmeline:</strong> Flagstone Prison: <a href="../../maps/lake_shore_road_1/#pin-npc-captive_girl">lake_shore_road_1</a></p>
+<p><strong>Where to find Emmeline:</strong> Flagstone Prison: <a href="../../maps/lake_shore_road_1/#pin-npc-captive_girl">Lake shore road 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_220.png){ .sprite }</p>
 <table>
@@ -1135,17 +1135,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/wicked_witch/">A Wicked witch</a>: stages 80, 85, 90, 95, 96</li>
-<li><a href="../../quests/sutdover_hidden/">Sutdove_nondisplay (hidden flag)</a>: stage 1</li>
+<li><a href="../../quests/sutdover_hidden/">Sutdover story flags (hidden flag)</a>: stage 1</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Emmeline. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Emmeline. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/captive_girl_selector.json" data-npc="Emmeline" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (19 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-captive_girl_selector"></span><strong><code>captive_girl_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>Next <em>(if NOT reached stage 90 of <a href="../../quests/wicked_witch/#stage-90">A Wicked witch</a>; NOT reached stage 95 of <a href="../../quests/wicked_witch/#stage-95">A Wicked witch</a>; NOT reached stage 96 of <a href="../../quests/wicked_witch/#stage-96">A Wicked witch</a>)</em> → <a href="#d-captive_girl_10">captive_girl_10</a></li>
@@ -1171,7 +1171,7 @@
 <ul>
 <li>Next → <em>NPC leaves</em></li>
 </ul>
-<p><span id="d-captive_girl_20"></span><strong><code>captive_girl_20</code></strong> Emmeline: “Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/wicked_witch/#stage-80">A Wicked witch</a>, sets stage 1 of <a href="../../quests/sutdover_hidden/#stage-1">Sutdove_nondisplay (hidden flag)</a>, spawns monsters on lake_shore_road_0, changes map lake_shore_road_0</p>
+<p><span id="d-captive_girl_20"></span><strong><code>captive_girl_20</code></strong> Emmeline: “Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/wicked_witch/#stage-80">A Wicked witch</a>, sets stage 1 of <a href="../../quests/sutdover_hidden/#stage-1">Sutdover story flags (hidden flag)</a>, spawns monsters on lake_shore_road_0, changes map lake_shore_road_0</p>
 <ul>
 <li>“Thank you, but you don't look well.” → <a href="#d-captive_girl_30">captive_girl_30</a></li>
 </ul>

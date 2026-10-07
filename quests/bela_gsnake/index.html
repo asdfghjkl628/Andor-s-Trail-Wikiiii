@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1215,7 +1215,7 @@
 </tr>
 <tr>
 <td>Unlocks</td>
-<td><a href="../fallhaventavern/#stage-10">Room to rent (hidden flag)</a></td>
+<td><a href="../fallhaventavern/#stage-10">Fallhaven tavern room (hidden flag)</a></td>
 <td>stage 10 there needs stage 90 here</td>
 </tr>
 <tr>
@@ -1231,48 +1231,56 @@
 </tbody>
 </table>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
 <td>I heard rumours of a giant snake to the south of Fallhaven.</td>
 <td><a href="../../monsters/bela/">Bela</a></td>
-<td>–</td>
 <td>spawns monsters on gapfiller2</td>
 </tr>
 <tr>
-<td><span id="stage-90"></span>90</td>
-<td>Bela was happy that I freed Fallhaven from the threat of this monstrous snake. <strong>(completes quest)</strong></td>
+<td><span id="stage-90"></span><a href="#route-90">90</a></td>
+<td>Bela was happy that I freed Fallhaven from the threat of this monstrous snake. <strong>(ends quest)</strong></td>
 <td><a href="../../monsters/bela/">Bela</a></td>
-<td>–</td>
-<td>1,000 XP<br>gives 1× <a href="../../items/mead/">Mead</a></td>
+<td>1,000 XP, 1× <a href="../../items/mead/">Mead</a></td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/bela/">Bela</a> → choose “Of course I'll go there.” — <strong>conditions:</strong> reached stage 10 of <a href="../remgard/#stage-10">Everything in order</a> → <strong>stage 10</strong>; also spawns monsters on gapfiller2. NPC: “What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern.”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Bela · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/bela/">Bela</a>, choose “Of course I'll go there.”</p>
+<ul>
+<li><strong>Needs:</strong> reached stage 10 of <a href="../remgard/#stage-10">Everything in order</a></li>
+<li><strong>Gives:</strong> spawns monsters on gapfiller2</li>
+<li><em>“What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 90: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/bela/">Bela</a> → choose “Sure. And your little snake monster is no more.” — <strong>conditions:</strong> killed 1× <a href="../../monsters/giant_snake/">Giant snake</a> → <strong>stage 90</strong>; also gives 1× <a href="../../items/mead/">Mead</a>. NPC: “Incredible! Let's feast now! Everyone have a free drink!”</li>
-</ol>
+<p><span id="route-90"></span></p>
+<details class="note">
+<summary>Stage 90 · Bela · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/bela/">Bela</a>, choose “Sure. And your little snake monster is no more.”</p>
+<ul>
+<li><strong>Needs:</strong> killed 1× <a href="../../monsters/giant_snake/">Giant snake</a></li>
+<li><strong>Gives:</strong> 1× <a href="../../items/mead/">Mead</a></li>
+<li><em>“Incredible! Let's feast now! Everyone have a free drink!”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

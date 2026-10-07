@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Dying general's henchman is a non-player character (NPC) in Andor's Trail, found in elm_mine5.">
+        <meta name="description" content="Dying general's henchman is a non-player character (NPC) in Andor's Trail, found in Elm mine 5.">
       
       
       
@@ -1102,7 +1102,7 @@
 
 
 <h1 id="dying-generals-henchman"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles3_14.png" /> Dying general's henchman<a class="headerlink" href="#dying-generals-henchman" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Dying general's henchman:</strong> <a href="../../maps/elm_mine5/#pin-npc-ortholion_guard8">elm_mine5</a></p>
+<p><strong>Where to find Dying general's henchman:</strong> <a href="../../maps/elm_mine5/#pin-npc-ortholion_guard8">Elm mine 5</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
 <table>
@@ -1119,7 +1119,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>elm_mine5</td>
+<td>Elm mine 5</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1134,36 +1134,36 @@
 </div>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/bwm72_beginning/">Hidden: events in bwm (hidden flag)</a>: stages 31, 32</li>
+<li><a href="../../quests/bwm72_beginning/">Blackwater Mountain events (hidden flag)</a>: stages 31, 32</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dying general's henchman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Dying general's henchman. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard8.json" data-npc="Dying general&#x27;s henchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (6 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-ortholion_guard8"></span><strong><code>ortholion_guard8</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if 1 rounds passed since timer “elm5_corpse”)</em> → <a href="#d-ortholion_guard8_consumed">ortholion_guard8_consumed</a></li>
-<li>branch 2 <em>(if reached stage 32 of <a href="../../quests/bwm72_beginning/#stage-32">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-ortholion_guard8_dead">ortholion_guard8_dead</a></li>
+<li>branch 2 <em>(if reached stage 32 of <a href="../../quests/bwm72_beginning/#stage-32">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-ortholion_guard8_dead">ortholion_guard8_dead</a></li>
 <li>branch 3 → <a href="#d-ortholion_guard8_1">ortholion_guard8_1</a></li>
 </ul>
 <p><span id="d-ortholion_guard8_consumed"></span><strong><code>ortholion_guard8_consumed</code></strong> <a href="../none/">Dummy NPC</a>: “Of the soldier you met inside here, only dust remains.” — <strong>effects:</strong> removes monsters from elm_mine5</p>
 <p><span id="d-ortholion_guard8_dead"></span><strong><code>ortholion_guard8_dead</code></strong> <a href="../none/">Dummy NPC</a>: “On the top of the stairs lies a dead soldier. He is no longer breathing.”</p>
 <ul>
 <li>“Leave.” → <em>conversation ends</em></li>
-<li>“Plunder.” <em>(if NOT reached stage 31 of <a href="../../quests/bwm72_beginning/#stage-31">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-ortholion_guard8_plunder">ortholion_guard8_plunder</a></li>
+<li>“Plunder.” <em>(if NOT reached stage 31 of <a href="../../quests/bwm72_beginning/#stage-31">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-ortholion_guard8_plunder">ortholion_guard8_plunder</a></li>
 </ul>
 <p><span id="d-ortholion_guard8_1"></span><strong><code>ortholion_guard8_1</code></strong> Dying general's henchman: “Wh... <em>cough</em> ...at the heck?! <em>cough</em>, <em>cough</em>, <em>cough</em> Kid, go away. This thing... <em>cough</em>, <em>cough</em>... GO AWAY!”</p>
 <ul>
 <li>“What's wrong?” → <a href="#d-ortholion_guard8_2">ortholion_guard8_2</a></li>
 <li>“Whatever, I'll go down anyway.” → <a href="#d-ortholion_guard8_2">ortholion_guard8_2</a></li>
 </ul>
-<p><span id="d-ortholion_guard8_plunder"></span><strong><code>ortholion_guard8_plunder</code></strong> Dying general's henchman: “You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing.” — <strong>effects:</strong> sets stage 31 of <a href="../../quests/bwm72_beginning/#stage-31">Hidden: events in bwm (hidden flag)</a>, starts timer “elm5_corpse”</p>
-<p><span id="d-ortholion_guard8_2"></span><strong><code>ortholion_guard8_2</code></strong> Dying general's henchman: “<em>ignoring you</em>... You idiot kid... <em>cough</em>. It's a trap, THE WHOLE THING <em>cough</em>, <em>cough</em> is... ...This mine is... cur...” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/bwm72_beginning/#stage-32">Hidden: events in bwm (hidden flag)</a></p>
+<p><span id="d-ortholion_guard8_plunder"></span><strong><code>ortholion_guard8_plunder</code></strong> Dying general's henchman: “You try to pull off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing.” — <strong>effects:</strong> sets stage 31 of <a href="../../quests/bwm72_beginning/#stage-31">Blackwater Mountain events (hidden flag)</a>, starts timer “elm5_corpse”</p>
+<p><span id="d-ortholion_guard8_2"></span><strong><code>ortholion_guard8_2</code></strong> Dying general's henchman: “<em>ignoring you</em>... You idiot kid... <em>cough</em>. It's a trap, THE WHOLE THING <em>cough</em>, <em>cough</em> is... ...This mine is... cur...” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/bwm72_beginning/#stage-32">Blackwater Mountain events (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-ortholion_guard8_dead">ortholion_guard8_dead</a></li>
 </ul>

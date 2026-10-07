@@ -1113,7 +1113,7 @@
 
 
 <h1 id="kendelow"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_man1_0.png" /> Kendelow<a class="headerlink" href="#kendelow" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Kendelow:</strong> Remgard: <a href="../../maps/remgard_tavern0/#pin-npc-kendelow">remgard_tavern0</a></p>
+<p><strong>Where to find Kendelow:</strong> Remgard: <a href="../../maps/remgard_tavern0/#pin-npc-kendelow">Remgard tavern 0</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_man1_0.png){ .sprite }</p>
 <table>
@@ -1181,17 +1181,17 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 21</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 21</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kendelow. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Kendelow. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/kendelow.json" data-npc="Kendelow" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (24 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-kendelow"></span><strong><code>kendelow</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 45 of <a href="../../quests/remgard2/#stage-45">What is that stench?</a>)</em> → <a href="#d-kendelow_1">kendelow_1</a></li>
@@ -1222,7 +1222,7 @@
 </ul>
 <p><span id="d-kendelow_room_1"></span><strong><code>kendelow_room_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 21 of <a href="../../quests/nondisplay/#stage-21">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-kendelow_room_2">kendelow_room_2</a></li>
+<li>branch 1 <em>(if reached stage 21 of <a href="../../quests/nondisplay/#stage-21">General story flags (hidden flag)</a>)</em> → <a href="#d-kendelow_room_2">kendelow_room_2</a></li>
 <li>branch 2 → <a href="#d-kendelow_room_3">kendelow_room_3</a></li>
 </ul>
 <p><span id="d-kendelow_meat"></span><strong><code>kendelow_meat</code></strong> Kendelow: “No, sorry. I can't let you use my kitchen. But...”</p>
@@ -1271,7 +1271,7 @@
 <li>branch 1 <em>(if reached stage 45 of <a href="../../quests/remgard2/#stage-45">What is that stench?</a>)</em> → <a href="#d-kendelow_room_6b">kendelow_room_6b</a></li>
 <li>branch 2 → <a href="#d-kendelow_room_6a">kendelow_room_6a</a></li>
 </ul>
-<p><span id="d-kendelow_room_8"></span><strong><code>kendelow_room_8</code></strong> Kendelow: “Thank you. The room is upstairs. You may rent it for as long as you wish.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/nondisplay/#stage-21">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-kendelow_room_8"></span><strong><code>kendelow_room_8</code></strong> Kendelow: “Thank you. The room is upstairs. You may rent it for as long as you wish.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/nondisplay/#stage-21">General story flags (hidden flag)</a></p>
 <p><span id="d-kendelow_room_7"></span><strong><code>kendelow_room_7</code></strong> Kendelow: “You are welcome to return once you have the gold, if you are still interested.”</p>
 <ul>
 <li>Next → <a href="#d-kendelow_d">kendelow_d</a></li>

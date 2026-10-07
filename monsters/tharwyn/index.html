@@ -1113,7 +1113,7 @@
 
 
 <h1 id="tharwyn"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men_7.png" /> Tharwyn<a class="headerlink" href="#tharwyn" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Tharwyn:</strong> Vilegard: <a href="../../maps/vilegard_tavern/#pin-npc-tharwyn">vilegard_tavern</a></p>
+<p><strong>Where to find Tharwyn:</strong> Vilegard: <a href="../../maps/vilegard_tavern/#pin-npc-tharwyn">Vilegard tavern</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_7.png){ .sprite }</p>
 <table>
@@ -1188,17 +1188,17 @@
 <ul>
 <li><a href="../../quests/beer_bootlegging/">Beer Bootlegging</a>: stage 30</li>
 <li><a href="../../quests/vilegard/">Trusting an outsider</a>: stage 10</li>
-<li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stage 32</li>
+<li><a href="../../quests/sullengard_hidden/">Sullengard story flags (hidden flag)</a>: stage 32</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tharwyn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Tharwyn. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/tharwyn_select.json" data-npc="Tharwyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (15 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-tharwyn_select"></span><strong><code>tharwyn_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 30 of <a href="../../quests/vilegard/#stage-30">Trusting an outsider</a>)</em> → <a href="#d-tharwyn_1">tharwyn_1</a></li>
@@ -1217,14 +1217,14 @@
 <ul>
 <li>“Show me what food you have available.” → <em>shop opens</em></li>
 <li>“Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a…” <em>(if latest stage of <a href="../../quests/beer_bootlegging/#stage-20">Beer Bootlegging</a> is 20)</em> → <a href="#d-tharwyn_beer">tharwyn_beer</a></li>
-<li>“Let's get back to discussing your 'business agreement' with the 'distributors'.” <em>(if reached stage 32 of <a href="../../quests/sullengard_hidden/#stage-32">sullengard_nondisplay (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/beer_bootlegging/#stage-30">Beer Bootlegging</a>)</em> → <a href="#d-tharwyn_beer_50">tharwyn_beer_50</a></li>
+<li>“Let's get back to discussing your 'business agreement' with the 'distributors'.” <em>(if reached stage 32 of <a href="../../quests/sullengard_hidden/#stage-32">Sullengard story flags (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/beer_bootlegging/#stage-30">Beer Bootlegging</a>)</em> → <a href="#d-tharwyn_beer_50">tharwyn_beer_50</a></li>
 </ul>
 <p><span id="d-vilegard_shop_notrust_2"></span><strong><code>vilegard_shop_notrust_2</code></strong> Tharwyn: “I don't trust you. You should go see Jolnor in the chapel if you want some sympathy.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/vilegard/#stage-10">Trusting an outsider</a></p>
 <p><span id="d-tharwyn_beer"></span><strong><code>tharwyn_beer</code></strong> Tharwyn: “What? I don't know anything about what you speak of.”</p>
 <ul>
 <li>“I am sure you do. What do I have to do to hear what you know?” → <a href="#d-tharwyn_beer_10">tharwyn_beer_10</a></li>
 </ul>
-<p><span id="d-tharwyn_beer_50"></span><strong><code>tharwyn_beer_50</code></strong> Tharwyn: “I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/sullengard_hidden/#stage-32">sullengard_nondisplay (hidden flag)</a></p>
+<p><span id="d-tharwyn_beer_50"></span><strong><code>tharwyn_beer_50</code></strong> Tharwyn: “I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/sullengard_hidden/#stage-32">Sullengard story flags (hidden flag)</a></p>
 <ul>
 <li>“Great. Start talking.” → <a href="#d-tharwyn_beer_60">tharwyn_beer_60</a></li>
 </ul>
@@ -1280,7 +1280,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Dialogue: 2 lines changed<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.”<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…”</td>
+<td>Dialogue: 2 lines changed<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…”<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.”</td>
 </tr>
 </tbody>
 </table>

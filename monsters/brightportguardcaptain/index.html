@@ -1234,7 +1234,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Gunfryk. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Gunfryk. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1250,14 +1250,14 @@
 <tr>
 <td><a href="#v-brightportguardcaptain"><code>brightportguardcaptain</code></a></td>
 <td>Enemy</td>
-<td>Brightport: <a href="../../maps/brightport_abandoned/">brightport_abandoned</a></td>
+<td>Brightport: <a href="../../maps/brightport_abandoned/">Brightport abandoned</a></td>
 <td>–</td>
 <td>300</td>
 </tr>
 <tr>
 <td><a href="#v-brightport_gunfrykstill"><code>brightport_gunfrykstill</code></a></td>
 <td>NPC</td>
-<td>Brightport: <a href="../../maps/brightport_bakery/#pin-npc-brightport_gunfrykstill">brightport_bakery</a></td>
+<td>Brightport: <a href="../../maps/brightport_bakery/#pin-npc-brightport_gunfrykstill">Brightport bakery</a></td>
 <td>–</td>
 <td>–</td>
 </tr>
@@ -1265,7 +1265,7 @@
 </table>
 <h2 id="v-brightportguardcaptain">Brightport, Brightport abandoned (brightportguardcaptain)<a class="headerlink" href="#v-brightportguardcaptain" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>brightportguardcaptain</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Brightport: <a href="../../maps/brightport_abandoned/">brightport_abandoned</a></p>
+<p><strong>Location:</strong> Brightport: <a href="../../maps/brightport_abandoned/">Brightport abandoned</a></p>
 <h3 id="combat-statistics">Combat statistics<a class="headerlink" href="#combat-statistics" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1374,7 +1374,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brightport_abandoned/">brightport_abandoned</a></td>
+<td><a href="../../maps/brightport_abandoned/">Brightport abandoned</a></td>
 <td>Brightport</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1383,7 +1383,7 @@
 </table>
 <h3 id="quests-that-count-defeats">Quests that count defeats<a class="headerlink" href="#quests-that-count-defeats" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../quests/brightport_goons/#stage-70">Priceful vengeance</a> with stepping on a trigger on <a href="../../maps/brightport_abandoned/">brightport_abandoned</a> checks that this enemy has been defeated.</li>
+<li><a href="../../quests/brightport_goons/#stage-70">Priceful vengeance</a> with stepping on a trigger on <a href="../../maps/brightport_abandoned/">Brightport abandoned</a> checks that this enemy has been defeated.</li>
 </ul>
 <h3 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h3>
 <table>
@@ -1471,35 +1471,35 @@
 </details>
 <h2 id="v-brightport_gunfrykstill">Brightport, Brightport bakery (brightport_gunfrykstill)<a class="headerlink" href="#v-brightport_gunfrykstill" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>brightport_gunfrykstill</code> · <strong>Type:</strong> NPC</p>
-<p><strong>Location:</strong> Brightport: <a href="../../maps/brightport_bakery/#pin-npc-brightport_gunfrykstill">brightport_bakery</a></p>
+<p><strong>Location:</strong> Brightport: <a href="../../maps/brightport_bakery/#pin-npc-brightport_gunfrykstill">Brightport bakery</a></p>
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/brightport_thieves/">Boxed in</a>: stage 60</li>
 <li><a href="../../quests/brightport_goons/">Priceful vengeance</a>: stages 50, 60, 80, 120, 135, 140, 150</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 136, 139, 150, 156, 211, 212, 234, 240</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 136, 139, 150, 156, 211, 212, 234, 240</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gunfryk. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Gunfryk. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_gunfryk_selector0.json" data-npc="Gunfryk" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (33 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_gunfrykstill-brightport_gunfryk_selector0"></span><strong><code>brightport_gunfryk_selector0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_selector">brightport_gunfryk_selector</a></li>
-<li>Next <em>(if reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_selectorafter">brightport_gunfryk_selectorafter</a></li>
+<li>Next <em>(if NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_selector">brightport_gunfryk_selector</a></li>
+<li>Next <em>(if reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_selectorafter">brightport_gunfryk_selectorafter</a></li>
 <li>Next <em>(if reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_selectorafter">brightport_gunfryk_selectorafter</a></li>
 </ul>
 <p><span id="d-brightport_gunfrykstill-brightport_gunfryk_selector"></span><strong><code>brightport_gunfryk_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 80 of <a href="../../quests/brightport_goons/#stage-80">Priceful vengeance</a>; NOT reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>; NOT reached stage 240 of <a href="../../quests/brightport_nondisplay/#stage-240">brightport_nondisplay (hidden flag)</a>; NOT reached stage 211 of <a href="../../quests/brightport_nondisplay/#stage-211">brightport_nondisplay (hidden flag)</a>; NOT reached stage 135 of <a href="../../quests/brightport_goons/#stage-135">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk9">brightport_gunfryk9</a></li>
-<li>Next <em>(if reached stage 240 of <a href="../../quests/brightport_nondisplay/#stage-240">brightport_nondisplay (hidden flag)</a>; NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk17">brightport_gunfryk17</a></li>
-<li>Next <em>(if reached stage 211 of <a href="../../quests/brightport_nondisplay/#stage-211">brightport_nondisplay (hidden flag)</a>; NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk11">brightport_gunfryk11</a></li>
-<li>Next <em>(if reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>; reached stage 135 of <a href="../../quests/brightport_nondisplay/#stage-135">brightport_nondisplay (hidden flag)</a>; NOT reached stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_killfail0">brightport_gunfryk_killfail0</a></li>
-<li>Next <em>(if reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>; NOT reached stage 135 of <a href="../../quests/brightport_nondisplay/#stage-135">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk2">brightport_gunfryk2</a></li>
+<li>Next <em>(if reached stage 80 of <a href="../../quests/brightport_goons/#stage-80">Priceful vengeance</a>; NOT reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>; NOT reached stage 240 of <a href="../../quests/brightport_nondisplay/#stage-240">Brightport story flags (hidden flag)</a>; NOT reached stage 211 of <a href="../../quests/brightport_nondisplay/#stage-211">Brightport story flags (hidden flag)</a>; NOT reached stage 135 of <a href="../../quests/brightport_goons/#stage-135">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk9">brightport_gunfryk9</a></li>
+<li>Next <em>(if reached stage 240 of <a href="../../quests/brightport_nondisplay/#stage-240">Brightport story flags (hidden flag)</a>; NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk17">brightport_gunfryk17</a></li>
+<li>Next <em>(if reached stage 211 of <a href="../../quests/brightport_nondisplay/#stage-211">Brightport story flags (hidden flag)</a>; NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk11">brightport_gunfryk11</a></li>
+<li>Next <em>(if reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>; reached stage 135 of <a href="../../quests/brightport_nondisplay/#stage-135">Brightport story flags (hidden flag)</a>; NOT reached stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_killfail0">brightport_gunfryk_killfail0</a></li>
+<li>Next <em>(if reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>; NOT reached stage 135 of <a href="../../quests/brightport_nondisplay/#stage-135">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk2">brightport_gunfryk2</a></li>
 <li>Next → <a href="#d-brightport_gunfrykstill-brightport_gunfryk">brightport_gunfryk</a></li>
 </ul>
 <p><span id="d-brightport_gunfrykstill-brightport_gunfryk_selectorafter"></span><strong><code>brightport_gunfryk_selectorafter</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
@@ -1521,7 +1521,7 @@
 <ul>
 <li>“Barthold and Dynes sir.” → <a href="#d-brightport_gunfrykstill-brightport_gunfryk18">brightport_gunfryk18</a></li>
 </ul>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk11"></span><strong><code>brightport_gunfryk11</code></strong> Gunfryk: “Most interesting, Nor City made? Nothing of that sort passes through our checkpoints without permission. Yes, that warrants an investigation. What are the name of these criminals?” — <strong>effects:</strong> sets stage 211 of <a href="../../quests/brightport_nondisplay/#stage-211">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk11"></span><strong><code>brightport_gunfryk11</code></strong> Gunfryk: “Most interesting, Nor City made? Nothing of that sort passes through our checkpoints without permission. Yes, that warrants an investigation. What are the name of these criminals?” — <strong>effects:</strong> sets stage 211 of <a href="../../quests/brightport_nondisplay/#stage-211">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Barthold and Dynes sir.” → <a href="#d-brightport_gunfrykstill-brightport_gunfryk12">brightport_gunfryk12</a></li>
 </ul>
@@ -1529,10 +1529,10 @@
 <ul>
 <li>Next → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_killfail">brightport_gunfryk_killfail</a></li>
 </ul>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk2"></span><strong><code>brightport_gunfryk2</code></strong> Gunfryk: “Lizardman you say? That is extremely serious. I will call my men and we will hurry to save him!” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>, removes monsters from brightport_bakery, sets stage 234 of <a href="../../quests/brightport_nondisplay/#stage-234">brightport_nondisplay (hidden flag)</a></p>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk"></span><strong><code>brightport_gunfryk</code></strong> Gunfryk: “I'm the guard commander. Inform me or my men if you spot any trouble.” — <strong>effects:</strong> sets stage 156 of <a href="../../quests/brightport_nondisplay/#stage-156">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk2"></span><strong><code>brightport_gunfryk2</code></strong> Gunfryk: “Lizardman you say? That is extremely serious. I will call my men and we will hurry to save him!” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>, removes monsters from brightport_bakery, sets stage 234 of <a href="../../quests/brightport_nondisplay/#stage-234">Brightport story flags (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk"></span><strong><code>brightport_gunfryk</code></strong> Gunfryk: “I'm the guard commander. Inform me or my men if you spot any trouble.” — <strong>effects:</strong> sets stage 156 of <a href="../../quests/brightport_nondisplay/#stage-156">Brightport story flags (hidden flag)</a></p>
 <ul>
-<li>“[Lie] My friend was chased by a lizardman and he went inside the derelict house east of town. Please save him!” <em>(if NOT reached stage 80 of <a href="../../quests/brightport_goons/#stage-80">Priceful vengeance</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>; reached stage 30 of <a href="../../quests/brightport_goons/#stage-30">Priceful vengeance</a>; NOT reached stage 150 of <a href="../../quests/brightport_nondisplay/#stage-150">brightport_nondisplay (hidden flag)</a>; NOT reached stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">brightport_nondisplay (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk2">brightport_gunfryk2</a></li>
+<li>“[Lie] My friend was chased by a lizardman and he went inside the derelict house east of town. Please save him!” <em>(if NOT reached stage 80 of <a href="../../quests/brightport_goons/#stage-80">Priceful vengeance</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>; reached stage 30 of <a href="../../quests/brightport_goons/#stage-30">Priceful vengeance</a>; NOT reached stage 150 of <a href="../../quests/brightport_nondisplay/#stage-150">Brightport story flags (hidden flag)</a>; NOT reached stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">Brightport story flags (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk2">brightport_gunfryk2</a></li>
 <li>“I heard you really love orchids, Sir Gunfryk. [Blackmail him with the records.]” <em>(if reached stage 40 of <a href="../../quests/brightport_goons/#stage-40">Priceful vengeance</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>; NOT reached stage 135 of <a href="../../quests/brightport_goons/#stage-135">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk3">brightport_gunfryk3</a></li>
 <li>“Sir, I have some information on two troublemakers in town who wish to see you gone.” <em>(if reached stage 30 of <a href="../../quests/brightport_goons/#stage-30">Priceful vengeance</a>; NOT reached stage 60 of <a href="../../quests/brightport_goons/#stage-60">Priceful vengeance</a>; NOT reached stage 50 of <a href="../../quests/brightport_goons/#stage-50">Priceful vengeance</a>; NOT reached stage 135 of <a href="../../quests/brightport_goons/#stage-135">Priceful vengeance</a>)</em> → <a href="#d-brightport_gunfrykstill-brightport_gunfryk1">brightport_gunfryk1</a></li>
 <li>“Can you tell me more about your job?” → <a href="#d-brightport_gunfrykstill-brightport_gunfryk0">brightport_gunfryk0</a></li>
@@ -1542,7 +1542,7 @@
 <li>“Can you tell me more about your job?” → <a href="#d-brightport_gunfrykstill-brightport_gunfryk0">brightport_gunfryk0</a></li>
 </ul>
 <p><span id="d-brightport_gunfrykstill-brightport_gunfryk_selector_after"></span><strong><code>brightport_gunfryk_selector_after</code></strong> Gunfryk: “It sours my day to see a treacherous criminal rat. You and your friends will regret this one day.”</p>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk16"></span><strong><code>brightport_gunfryk16</code></strong> <a href="../none/">Dummy NPC</a>: “You remember the deal you made with Barthold and Dynes, even though they gave you the money you still handed the evidence over to the guards.” — <strong>effects:</strong> sets stage 240 of <a href="../../quests/brightport_nondisplay/#stage-240">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk16"></span><strong><code>brightport_gunfryk16</code></strong> <a href="../none/">Dummy NPC</a>: “You remember the deal you made with Barthold and Dynes, even though they gave you the money you still handed the evidence over to the guards.” — <strong>effects:</strong> sets stage 240 of <a href="../../quests/brightport_nondisplay/#stage-240">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_gunfrykstill-brightport_gunfryk17">brightport_gunfryk17</a></li>
 </ul>
@@ -1568,7 +1568,7 @@
 <ul>
 <li>“Umm. Ermm. He is alright sir.” → <a href="#d-brightport_gunfrykstill-brightport_gunfryk_killfail2">brightport_gunfryk_killfail2</a></li>
 </ul>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk3"></span><strong><code>brightport_gunfryk3</code></strong> Gunfryk: “What? [The commander gulps dryly.] Who told you that? And anyway, my favorites are orchids!” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/brightport_nondisplay/#stage-150">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk3"></span><strong><code>brightport_gunfryk3</code></strong> Gunfryk: “What? [The commander gulps dryly.] Who told you that? And anyway, my favorites are orchids!” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/brightport_nondisplay/#stage-150">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“I also heard you love rolling in the flower fields and smelling the roses. I think the others would love hearing that…” → <a href="#d-brightport_gunfrykstill-brightport_gunfryk4">brightport_gunfryk4</a></li>
 </ul>
@@ -1580,14 +1580,14 @@
 <ul>
 <li>Next → <a href="#d-brightport_gunfrykstill-Brightport_gunfryk1">Brightport_gunfryk1</a></li>
 </ul>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk15"></span><strong><code>brightport_gunfryk15</code></strong> Gunfryk: “This time was a miss, but we sure need more brave youngsters like you who are not afraid to speak up. Glory to Feygard!” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/brightport_goons/#stage-140">Priceful vengeance</a>, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk15"></span><strong><code>brightport_gunfryk15</code></strong> Gunfryk: “This time was a miss, but we sure need more brave youngsters like you who are not afraid to speak up. Glory to Feygard!” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/brightport_goons/#stage-140">Priceful vengeance</a>, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a></p>
 <p><span id="d-brightport_gunfrykstill-brightport_gunfryk22"></span><strong><code>brightport_gunfryk22</code></strong> Gunfryk: “This time was a miss, but we sure need more brave youngsters like you who are not afraid to speak up. Glory to Feygard!” — <strong>effects:</strong> sets stage 135 of <a href="../../quests/brightport_goons/#stage-135">Priceful vengeance</a></p>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk19"></span><strong><code>brightport_gunfryk19</code></strong> <a href="./#v-brightport_gunfrykstill">Gunfryk</a>: “We sure need more brave, law-upholding youngsters like you around! I'll make sure to write to my superiors about it. After graduating from the academy here, be sure to give the military academy a try. Glory to Feygard!” — <strong>effects:</strong> sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>, sets stage 150 of <a href="../../quests/brightport_goons/#stage-150">Priceful vengeance</a>, spawns monsters on brightport_benbyr, starts timer “brightport_arrest”, sets stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>, sets stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk19"></span><strong><code>brightport_gunfryk19</code></strong> <a href="./#v-brightport_gunfrykstill">Gunfryk</a>: “We sure need more brave, law-upholding youngsters like you around! I'll make sure to write to my superiors about it. After graduating from the academy here, be sure to give the military academy a try. Glory to Feygard!” — <strong>effects:</strong> sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>, sets stage 150 of <a href="../../quests/brightport_goons/#stage-150">Priceful vengeance</a>, spawns monsters on brightport_benbyr, starts timer “brightport_arrest”, sets stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>, sets stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_gunfrykstill-brightport_gunfryk20">brightport_gunfryk20</a></li>
 </ul>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk13"></span><strong><code>brightport_gunfryk13</code></strong> <a href="./#v-brightport_gunfrykstill">Gunfryk</a>: “We sure need more brave, law-upholding youngsters like you around! I'll make sure to write to my superiors about it. After graduating from the academy here, be sure to give the military academy a try. Glory to Feygard!” — <strong>effects:</strong> gives 700× <a href="../../items/gold/">Gold coins</a>, spawns monsters on brightport_benbyr, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>, sets stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>, sets stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">brightport_nondisplay (hidden flag)</a>, starts timer “brightport_arrest”</p>
-<p><span id="d-brightport_gunfrykstill-brightport_gunfryk_killfail2"></span><strong><code>brightport_gunfryk_killfail2</code></strong> Gunfryk: “Then that is good, and if not for you we wouldn't have gone there and found that spy. You can have his cloak, well done.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/brightport_thieves/#stage-60">Boxed in</a>, sets stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">brightport_nondisplay (hidden flag)</a>, gives 1× <a href="../../items/brightport_cloak/">Agent's cloak</a></p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk13"></span><strong><code>brightport_gunfryk13</code></strong> <a href="./#v-brightport_gunfrykstill">Gunfryk</a>: “We sure need more brave, law-upholding youngsters like you around! I'll make sure to write to my superiors about it. After graduating from the academy here, be sure to give the military academy a try. Glory to Feygard!” — <strong>effects:</strong> gives 700× <a href="../../items/gold/">Gold coins</a>, spawns monsters on brightport_benbyr, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>, sets stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>, sets stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">Brightport story flags (hidden flag)</a>, starts timer “brightport_arrest”</p>
+<p><span id="d-brightport_gunfrykstill-brightport_gunfryk_killfail2"></span><strong><code>brightport_gunfryk_killfail2</code></strong> Gunfryk: “Then that is good, and if not for you we wouldn't have gone there and found that spy. You can have his cloak, well done.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/brightport_thieves/#stage-60">Boxed in</a>, sets stage 136 of <a href="../../quests/brightport_nondisplay/#stage-136">Brightport story flags (hidden flag)</a>, gives 1× <a href="../../items/brightport_cloak/">Agent's cloak</a></p>
 <ul>
 <li>“[Elysa will be mad at me...]” → <em>conversation ends</em></li>
 </ul>

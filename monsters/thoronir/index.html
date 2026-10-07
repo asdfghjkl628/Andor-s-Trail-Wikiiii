@@ -1113,7 +1113,7 @@
 
 
 <h1 id="thoronir"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men2_8.png" /> Thoronir<a class="headerlink" href="#thoronir" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Thoronir:</strong> Fallhaven: <a href="../../maps/fallhaven_church/#pin-npc-thoronir">fallhaven_church</a></p>
+<p><strong>Where to find Thoronir:</strong> Fallhaven: <a href="../../maps/fallhaven_church/#pin-npc-thoronir">Fallhaven church</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men2_8.png){ .sprite }</p>
 <table>
@@ -1169,28 +1169,28 @@
 <li><a href="../../quests/bonemeal/">Disallowed substance</a>: stages 40, 50, 100, 110</li>
 <li><a href="../../quests/bucus/">Key of Luthor</a>: stage 20</li>
 <li><a href="../../quests/Thieves01/">Thief apprentice</a>: stage 50</li>
-<li><a href="../../quests/thieves_hidden/">Thieves Hidden (hidden flag)</a>: stage 80</li>
+<li><a href="../../quests/thieves_hidden/">Thieves story flags (hidden flag)</a>: stage 80</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thoronir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Thoronir. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/thoronir_default.json" data-npc="Thoronir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (35 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-thoronir_default"></span><strong><code>thoronir_default</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 → <a href="#d-thoronir_start_select">thoronir_start_select</a></li>
 </ul>
 <p><span id="d-thoronir_start_select"></span><strong><code>thoronir_start_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 18 of <a href="../../quests/scores/#stage-18">scores (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_max">thoronir_shadow_score_max</a></li>
-<li>branch 2 <em>(if reached stage 18 of <a href="../../quests/scores/#stage-18">scores (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_very_high">thoronir_shadow_score_very_high</a></li>
-<li>branch 3 <em>(if reached stage 17 of <a href="../../quests/scores/#stage-17">scores (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_high">thoronir_shadow_score_high</a></li>
-<li>branch 4 <em>(if reached stage 15 of <a href="../../quests/scores/#stage-15">scores (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_average">thoronir_shadow_score_average</a></li>
-<li>branch 5 <em>(if reached stage 13 of <a href="../../quests/scores/#stage-13">scores (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_low1">thoronir_shadow_score_low1</a></li>
+<li>branch 1 <em>(if reached stage 18 of <a href="../../quests/scores/#stage-18">Score counters (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_max">thoronir_shadow_score_max</a></li>
+<li>branch 2 <em>(if reached stage 18 of <a href="../../quests/scores/#stage-18">Score counters (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_very_high">thoronir_shadow_score_very_high</a></li>
+<li>branch 3 <em>(if reached stage 17 of <a href="../../quests/scores/#stage-17">Score counters (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_high">thoronir_shadow_score_high</a></li>
+<li>branch 4 <em>(if reached stage 15 of <a href="../../quests/scores/#stage-15">Score counters (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_average">thoronir_shadow_score_average</a></li>
+<li>branch 5 <em>(if reached stage 13 of <a href="../../quests/scores/#stage-13">Score counters (hidden flag)</a>)</em> → <a href="#d-thoronir_shadow_score_low1">thoronir_shadow_score_low1</a></li>
 <li>branch 6 → <a href="#d-thoronir_shadow_score_low3">thoronir_shadow_score_low3</a></li>
 </ul>
 <p><span id="d-thoronir_shadow_score_max"></span><strong><code>thoronir_shadow_score_max</code></strong> Thoronir: “Welcome my truest follower of the Shadow.”</p>
@@ -1272,7 +1272,7 @@
 <ul>
 <li>Next → <a href="#d-thoronir_guild_3">thoronir_guild_3</a></li>
 </ul>
-<p><span id="d-thoronir_guild_2"></span><strong><code>thoronir_guild_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 80 of <a href="../../quests/thieves_hidden/#stage-80">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-thoronir_guild_2"></span><strong><code>thoronir_guild_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 80 of <a href="../../quests/thieves_hidden/#stage-80">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <a href="#d-thoronir_guild_2a">thoronir_guild_2a</a></li>
 </ul>
@@ -1357,7 +1357,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 10 lines changed<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…”<br>· text: “Give me some time to mix the Bonemeal potion. It is a very potent hea…” → “Give me some time to mix the bonemeal potion. It is a very potent hea…”</td>
+<td>Dialogue: 10 lines changed<br>· text: “Yes, the Bonemeal potions are ready. Please use them with care, and d…” → “Yes, the bonemeal potions are ready. Please use them with care, and d…”<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.8/">v0.7.8</a></td>

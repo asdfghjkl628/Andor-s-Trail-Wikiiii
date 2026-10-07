@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Vaelric is a non-player character (NPC) in Andor's Trail, found in galmore_17_house. Shopkeeper; starts The swamp healer.">
+        <meta name="description" content="Vaelric is a non-player character (NPC) in Andor's Trail, found in Galmore 17 house. Shopkeeper; starts The swamp healer.">
       
       
       
@@ -1113,7 +1113,7 @@
 
 
 <h1 id="vaelric"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik7_12.png" /> Vaelric<a class="headerlink" href="#vaelric" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Vaelric:</strong> <a href="../../maps/galmore_17_house/#pin-npc-vaelric">galmore_17_house</a></p>
+<p><strong>Where to find Vaelric:</strong> <a href="../../maps/galmore_17_house/#pin-npc-vaelric">Galmore 17 house</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_12.png){ .sprite }</p>
 <table>
@@ -1134,7 +1134,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>galmore_17_house</td>
+<td>Galmore 17 house</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1179,24 +1179,24 @@
 <li><a href="../../quests/mg_restless_grave/">Restless in the grave</a>: stages 20, 63, 70, 80, 95, 97, 115, 120</li>
 <li><a href="../../quests/andor/">Search for Andor</a>: stages 125, 999</li>
 <li><a href="../../quests/swamp_healer/">The swamp healer</a>: stages 10, 30</li>
-<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stage 59</li>
+<li><a href="../../quests/galmore_nondisplayed/">Galmore story flags (hidden flag)</a>: stage 59</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Vaelric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Vaelric. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/vaelric_selector.json" data-npc="Vaelric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (68 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-vaelric_selector"></span><strong><code>vaelric_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if NOT reached stage 125 of <a href="../../quests/andor/#stage-125">Search for Andor</a>)</em> → <a href="#d-vaelric_andor_10">vaelric_andor_10</a></li>
 <li>branch 2 <em>(if NOT reached stage 10 of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a>)</em> → <a href="#d-vaelric_alone_10">vaelric_alone_10</a></li>
 <li>branch 3 <em>(if latest stage of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a> is 10)</em> → <a href="#d-vaelric_need_to_kill_creature_10">vaelric_need_to_kill_creature_10</a></li>
 <li>branch 4 <em>(if latest stage of <a href="../../quests/swamp_healer/#stage-20">The swamp healer</a> is 20)</em> → <a href="#d-vaelric_creature_killed_5">vaelric_creature_killed_5</a></li>
-<li>branch 5 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>; NOT reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_talk_leech_10">vaelric_creature_talk_leech_10</a></li>
+<li>branch 5 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>; NOT reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_talk_leech_10">vaelric_creature_talk_leech_10</a></li>
 <li>branch 6 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>; carry 1× <a href="../../items/corrupted_swamp_core/">Corrupted swamp core</a>)</em> → <a href="#d-vaelric_creature_killed_70">vaelric_creature_killed_70</a></li>
 <li>branch 7 <em>(if reached stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a>)</em> → <a href="#d-vaelric_met">vaelric_met</a></li>
 </ul>
@@ -1225,7 +1225,7 @@
 <p><span id="d-vaelric_met"></span><strong><code>vaelric_met</code></strong> Vaelric: “So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?”</p>
 <ul>
 <li>“You stated that if I helped you kill that venomous creature that you would tell more about Andor.” → <a href="#d-vaelric_met_10">vaelric_met_10</a></li>
-<li>“That graveyard, the one directly south of here, who were those people?” <em>(if reached stage 5 of <a href="../../quests/galmore_nondisplayed/#stage-5">galmore_nondisplayed (hidden flag)</a>; NOT reached stage 60 of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a>)</em> → <a href="#d-vaelric_graveyard_10">vaelric_graveyard_10</a></li>
+<li>“That graveyard, the one directly south of here, who were those people?” <em>(if reached stage 5 of <a href="../../quests/galmore_nondisplayed/#stage-5">Galmore story flags (hidden flag)</a>; NOT reached stage 60 of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a>)</em> → <a href="#d-vaelric_graveyard_10">vaelric_graveyard_10</a></li>
 <li>“Actually, I am here to give you an update on that graveyard exploration you sent me on.” <em>(if reached stage 65 of <a href="../../quests/mg_restless_grave/#stage-65">Restless in the grave</a>; NOT reached stage 80 of <a href="../../quests/mg_restless_grave/#stage-80">Restless in the grave</a>)</em> → <a href="#d-mg_lie_to_vaelric_10">mg_lie_to_vaelric_10</a></li>
 <li>“I spoke to a ghost in the Galmore encampment. His name is Eryndor...” <em>(if reached stage 60 of <a href="../../quests/mg_restless_grave/#stage-60">Restless in the grave</a>; NOT reached stage 70 of <a href="../../quests/mg_restless_grave/#stage-70">Restless in the grave</a>; NOT reached stage 65 of <a href="../../quests/mg_restless_grave/#stage-65">Restless in the grave</a>)</em> → <a href="#d-mg_vaelric_story_10">mg_vaelric_story_10</a></li>
 <li>“No, that's old news. Try and keep up, won't you? I'm here to collect my reward?” <em>(if latest stage of <a href="../../quests/mg_restless_grave/#stage-90">Restless in the grave</a> is 90)</em> → <a href="#d-mg_vaelric_reward_10">mg_vaelric_reward_10</a></li>
@@ -1281,7 +1281,7 @@
 <li>branch 1 <em>(if NOT have 4,800 gold)</em> → <a href="#d-mg_vaelric_reward_Not_enough_gold">mg_vaelric_reward_Not_enough_gold</a></li>
 <li>branch 2 <em>(if carry 5× <a href="../../items/duskbloom_flower/">Duskbloom</a>; carry 10× <a href="../../items/pondslime_extract/">Pondslime extract</a>; carry 5× <a href="../../items/mosquito_proboscis/">Mosquito proboscis</a>; reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; have 4,800 gold)</em> → <a href="#d-mg_vaelric_buy_insectbance_10">mg_vaelric_buy_insectbance_10</a></li>
 <li>branch 3 <em>(if NOT reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; carry 5× <a href="../../items/duskbloom_flower/">Duskbloom</a>; carry 10× <a href="../../items/pondslime_extract/">Pondslime extract</a>; carry 5× <a href="../../items/mosquito_proboscis/">Mosquito proboscis</a>; carry 1× <a href="../../items/mudfiend/">Mudfiend goo</a>; have 4,800 gold)</em> → <a href="#d-mg_vaelric_reward_60">mg_vaelric_reward_60</a></li>
-<li>Next <em>(if reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; carry 0× <a href="../../items/vaelrics_empty_bottle/">Vaelric's empty bottle</a>; NOT reached stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-mg_vaelric_reward_45">mg_vaelric_reward_45</a></li>
+<li>Next <em>(if reached stage 115 of <a href="../../quests/mg_restless_grave/#stage-115">Restless in the grave</a>; carry 0× <a href="../../items/vaelrics_empty_bottle/">Vaelric's empty bottle</a>; NOT reached stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-mg_vaelric_reward_45">mg_vaelric_reward_45</a></li>
 <li>branch 5 → <a href="#d-mg_vaelric_reward_missing_ing_10">mg_vaelric_reward_missing_ing_10</a></li>
 </ul>
 <p><span id="d-vaelric_andor_22"></span><strong><code>vaelric_andor_22</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 999 of <a href="../../quests/andor/#stage-999">Search for Andor</a>, sets stage 125 of <a href="../../quests/andor/#stage-125">Search for Andor</a></p>
@@ -1368,7 +1368,7 @@
 <ul>
 <li>Next → <a href="#d-mg_vaelric_defeated_eryndor_30">mg_vaelric_defeated_eryndor_30</a></li>
 </ul>
-<p><span id="d-mg_vaelric_reward_70"></span><strong><code>mg_vaelric_reward_70</code></strong> Vaelric: “Here you go, ten Insectbane tonics.” — <strong>effects:</strong> gives 10× <a href="../../items/insectbane_tonic/">Insectbane tonic</a>, clears stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">galmore_nondisplayed (hidden flag)</a></p>
+<p><span id="d-mg_vaelric_reward_70"></span><strong><code>mg_vaelric_reward_70</code></strong> Vaelric: “Here you go, ten Insectbane tonics.” — <strong>effects:</strong> gives 10× <a href="../../items/insectbane_tonic/">Insectbane tonic</a>, clears stage 18 of <a href="../../quests/galmore_nondisplayed/#stage-18">Galmore story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-mg_vaelric_other_potions_10">mg_vaelric_other_potions_10</a></li>
 </ul>
@@ -1376,8 +1376,8 @@
 <p><span id="d-vaelric_alone_40"></span><strong><code>vaelric_alone_40</code></strong> Vaelric: “A swamp creature, but far from the kind you'd expect to see. This one is massive, venomous, and ravenous. It's draining the life from my medicinal pools. Strength alone won't save you. You'll need to learn the ways of the swamp.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/swamp_healer/#stage-10">The swamp healer</a>, spawns monsters on galmore_28</p>
 <p><span id="d-vaelric_creature_killed_40"></span><strong><code>vaelric_creature_killed_40</code></strong> <a href="./">Vaelric</a>: “See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here, take this.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/swamp_healer/#stage-30">The swamp healer</a></p>
 <ul>
-<li>“[Extend my hand and take the leech.]” <em>(if NOT reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_killed_narrator_2">vaelric_creature_killed_narrator_2</a></li>
-<li>“[Extend my hand and take the leech.]” <em>(if reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_killed_50">vaelric_creature_killed_50</a></li>
+<li>“[Extend my hand and take the leech.]” <em>(if NOT reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_killed_narrator_2">vaelric_creature_killed_narrator_2</a></li>
+<li>“[Extend my hand and take the leech.]” <em>(if reached stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-vaelric_creature_killed_50">vaelric_creature_killed_50</a></li>
 </ul>
 <p><span id="d-vaelric_restless_grave_10"></span><strong><code>vaelric_restless_grave_10</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric pauses, his expression tense as if piecing something together.”</p>
 <ul>
@@ -1400,7 +1400,7 @@
 <li>“Of course.” → <em>shop opens</em></li>
 <li>“No thanks.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-vaelric_creature_killed_narrator_2"></span><strong><code>vaelric_creature_killed_narrator_2</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric hands you a leech.” — <strong>effects:</strong> gives 1× <a href="../../items/leech_usable/">Leech</a>, sets stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">galmore_nondisplayed (hidden flag)</a></p>
+<p><span id="d-vaelric_creature_killed_narrator_2"></span><strong><code>vaelric_creature_killed_narrator_2</code></strong> <a href="../none/">Dummy NPC</a>: “Vaelric hands you a leech.” — <strong>effects:</strong> gives 1× <a href="../../items/leech_usable/">Leech</a>, sets stage 59 of <a href="../../quests/galmore_nondisplayed/#stage-59">Galmore story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-vaelric_creature_killed_50">vaelric_creature_killed_50</a></li>
 </ul>
@@ -1473,7 +1473,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”</td>
+<td>Dialogue: 3 lines changed<br>· text: “You see, I have to make ten tonics at a time and because I refuse to …” → “You see, I have to make ten tonics at a time and because I refuse to …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”</td>
 </tr>
 </tbody>
 </table>

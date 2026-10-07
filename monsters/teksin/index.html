@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Teksin is a non-player character (NPC) in Andor's Trail, found in waytolake11. Shopkeeper.">
+        <meta name="description" content="Teksin is a non-player character (NPC) in Andor's Trail, found in Waytolake 11. Shopkeeper.">
       
       
       
@@ -1113,7 +1113,7 @@
 
 
 <h1 id="teksin"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik2_71.png" /> Teksin<a class="headerlink" href="#teksin" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Teksin:</strong> <a href="../../maps/waytolake11/#pin-npc-teksin">waytolake11</a></p>
+<p><strong>Where to find Teksin:</strong> <a href="../../maps/waytolake11/#pin-npc-teksin">Waytolake 11</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_71.png){ .sprite }</p>
 <table>
@@ -1134,7 +1134,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>waytolake11</td>
+<td>Waytolake 11</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1246,30 +1246,30 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/nondisplay_2/">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>: stages 140, 150, 160</li>
+<li><a href="../../quests/nondisplay_2/">General story flags 2 (hidden flag)</a>: stages 140, 150, 160</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Teksin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Teksin. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/teksin_10.json" data-npc="Teksin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (14 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-teksin_10"></span><strong><code>teksin_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 140 of <a href="../../quests/nondisplay_2/#stage-140">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin11">teksin11</a></li>
-<li>Next <em>(if NOT reached stage 140 of <a href="../../quests/nondisplay_2/#stage-140">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin12">teksin12</a></li>
+<li>Next <em>(if reached stage 140 of <a href="../../quests/nondisplay_2/#stage-140">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-teksin11">teksin11</a></li>
+<li>Next <em>(if NOT reached stage 140 of <a href="../../quests/nondisplay_2/#stage-140">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-teksin12">teksin12</a></li>
 </ul>
 <p><span id="d-teksin11"></span><strong><code>teksin11</code></strong> Teksin: “Hello again.”</p>
 <ul>
-<li>“How do I get to Remgard?” <em>(if reached stage 160 of <a href="../../quests/nondisplay_2/#stage-160">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin70">teksin70</a></li>
-<li>“What can you tell me about Remgard?” <em>(if reached stage 160 of <a href="../../quests/nondisplay_2/#stage-160">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin60">teksin60</a></li>
+<li>“How do I get to Remgard?” <em>(if reached stage 160 of <a href="../../quests/nondisplay_2/#stage-160">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-teksin70">teksin70</a></li>
+<li>“What can you tell me about Remgard?” <em>(if reached stage 160 of <a href="../../quests/nondisplay_2/#stage-160">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-teksin60">teksin60</a></li>
 <li>“Do you have anything to trade?” → <a href="#d-teksin80">teksin80</a></li>
 <li>“I'm looking for my brother, Andor. He looks a bit like me.” → <a href="#d-teksin20">teksin20</a></li>
 </ul>
-<p><span id="d-teksin12"></span><strong><code>teksin12</code></strong> Teksin: “Hello. My name is Teksin. I'm a trader. Who are you?” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/nondisplay_2/#stage-140">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<p><span id="d-teksin12"></span><strong><code>teksin12</code></strong> Teksin: “Hello. My name is Teksin. I'm a trader. Who are you?” — <strong>effects:</strong> sets stage 140 of <a href="../../quests/nondisplay_2/#stage-140">General story flags 2 (hidden flag)</a></p>
 <ul>
 <li>“I am $playername. I am looking for my brother, Andor. He looks a bit like me.” → <a href="#d-teksin20">teksin20</a></li>
 </ul>
@@ -1294,7 +1294,7 @@
 </ul>
 <p><span id="d-teksin85"></span><strong><code>teksin85</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 150 of <a href="../../quests/nondisplay_2/#stage-150">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-teksin90">teksin90</a></li>
+<li>Next <em>(if NOT reached stage 150 of <a href="../../quests/nondisplay_2/#stage-150">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-teksin90">teksin90</a></li>
 <li>“OK. Show me what you have.” → <em>shop opens</em></li>
 </ul>
 <p><span id="d-teksin30"></span><strong><code>teksin30</code></strong> Teksin: “I have been out in the wild for a while, and have seen nobody since I left the main road weeks ago.”</p>
@@ -1317,14 +1317,14 @@
 <li>“OK. I'll take it.” <em>(if pay 4,999 gold)</em> → <a href="#d-teksin110">teksin110</a></li>
 <li>“I think I'll just be on my way.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-teksin50"></span><strong><code>teksin50</code></strong> Teksin: “This is as close as I can get coming this way. I am an experienced traveler, and I know that Remgard is close. It's north across this lake, but there is no way to cross, or to go further east around the lake.” — <strong>effects:</strong> sets stage 160 of <a href="../../quests/nondisplay_2/#stage-160">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<p><span id="d-teksin50"></span><strong><code>teksin50</code></strong> Teksin: “This is as close as I can get coming this way. I am an experienced traveler, and I know that Remgard is close. It's north across this lake, but there is no way to cross, or to go further east around the lake.” — <strong>effects:</strong> sets stage 160 of <a href="../../quests/nondisplay_2/#stage-160">General story flags 2 (hidden flag)</a></p>
 <ul>
 <li>“It sounds like you are not quite the experienced traveler you claim to be.” → <em>conversation ends</em></li>
 <li>“I guess it was worth a try. What can you tell me about Remgard?” → <a href="#d-teksin60">teksin60</a></li>
 <li>“How do I get to Remgard?” → <a href="#d-teksin70">teksin70</a></li>
 <li>“Do you have anything to trade?” → <a href="#d-teksin80">teksin80</a></li>
 </ul>
-<p><span id="d-teksin110"></span><strong><code>teksin110</code></strong> Teksin: “Use it wisely. Such a potion is very hard to obtain. It is unlikely I will have any more to sell in the future.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/nondisplay_2/#stage-150">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>, gives 1× <a href="../../items/pot_light_attack/">Potion of lightning attack</a></p>
+<p><span id="d-teksin110"></span><strong><code>teksin110</code></strong> Teksin: “Use it wisely. Such a potion is very hard to obtain. It is unlikely I will have any more to sell in the future.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/nondisplay_2/#stage-150">General story flags 2 (hidden flag)</a>, gives 1× <a href="../../items/pot_light_attack/">Potion of lightning attack</a></p>
 <ul>
 <li>“Thanks for the advice. Please show me what else you have to trade.” → <em>shop opens</em></li>
 <li>“Thanks for the advice. I need to go now.” → <em>conversation ends</em></li>

@@ -1091,7 +1091,7 @@
 
 
 <h1 id="lindauer"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_132.png" /> Lindauer<a class="headerlink" href="#lindauer" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Lindauer:</strong> Sullengard: <a href="../../maps/sullengard1/#pin-npc-sullengard_cat_seeker">sullengard1</a></p>
+<p><strong>Where to find Lindauer:</strong> Sullengard: <a href="../../maps/sullengard1/#pin-npc-sullengard_cat_seeker">Sullengard 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_132.png){ .sprite }</p>
 <table>
@@ -1122,23 +1122,23 @@
 </table>
 </div>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lindauer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Lindauer. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_cat_seeker_0.json" data-npc="Lindauer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (3 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-sullengard_cat_seeker_0"></span><strong><code>sullengard_cat_seeker_0</code></strong> Lindauer: “Hey there. You haven't seen my cat by any chance have you?”</p>
 <ul>
 <li>“What does your cat look like?” → <a href="#d-sullengard_cat_seeker_10">sullengard_cat_seeker_10</a></li>
 </ul>
 <p><span id="d-sullengard_cat_seeker_10"></span><strong><code>sullengard_cat_seeker_10</code></strong> Lindauer: “He is entirely white. He looks like a fresh coat of snow.”</p>
 <ul>
-<li>“Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]” <em>(if reached stage 31 of <a href="../../quests/sullengard_hidden/#stage-31">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-sullengard_cat_seeker_20">sullengard_cat_seeker_20</a></li>
-<li>“[Lie] No, I have not.” <em>(if reached stage 31 of <a href="../../quests/sullengard_hidden/#stage-31">sullengard_nondisplay (hidden flag)</a>)</em> → <em>conversation ends</em></li>
-<li>“No, I have not. Sorry.” <em>(if NOT reached stage 31 of <a href="../../quests/sullengard_hidden/#stage-31">sullengard_nondisplay (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+<li>“Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]” <em>(if reached stage 31 of <a href="../../quests/sullengard_hidden/#stage-31">Sullengard story flags (hidden flag)</a>)</em> → <a href="#d-sullengard_cat_seeker_20">sullengard_cat_seeker_20</a></li>
+<li>“[Lie] No, I have not.” <em>(if reached stage 31 of <a href="../../quests/sullengard_hidden/#stage-31">Sullengard story flags (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+<li>“No, I have not. Sorry.” <em>(if NOT reached stage 31 of <a href="../../quests/sullengard_hidden/#stage-31">Sullengard story flags (hidden flag)</a>)</em> → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-sullengard_cat_seeker_20"></span><strong><code>sullengard_cat_seeker_20</code></strong> Lindauer: “Oh, thank you so much!”</p>
 </details>

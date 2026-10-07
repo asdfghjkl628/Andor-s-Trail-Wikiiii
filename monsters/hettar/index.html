@@ -1102,7 +1102,7 @@
 
 
 <h1 id="little-hettar"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_20.png" /> Little Hettar<a class="headerlink" href="#little-hettar" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Little Hettar:</strong> Blackwater Mountain: <a href="../../maps/blackwater_mountain55/#pin-npc-hettar">blackwater_mountain55</a></p>
+<p><strong>Where to find Little Hettar:</strong> Blackwater Mountain: <a href="../../maps/blackwater_mountain55/#pin-npc-hettar">Blackwater mountain 55</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_20.png){ .sprite }</p>
 <table>
@@ -1141,14 +1141,14 @@
 <li><a href="../../quests/hettar_dog/">Where is Norry?</a>: stages 10, 20, 30, 80, 90</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Little Hettar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Little Hettar. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/hettar.json" data-npc="Little Hettar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (17 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-hettar"></span><strong><code>hettar</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 90 of <a href="../../quests/hettar_dog/#stage-90">Where is Norry?</a>)</em> → <a href="#d-hettar_90">hettar_90</a></li>
@@ -1171,7 +1171,7 @@
 <p><span id="d-hettar_30"></span><strong><code>hettar_30</code></strong> Little Hettar: “I can read it in your face - there is no hope for Norry.”</p>
 <ul>
 <li>“This brute attacked me, so I had to kill it.” <em>(if killed 1× <a href="../hettar_dog/#v-hettar_dog3">Wolfhound</a>)</em> → <a href="#d-hettar_10_6">hettar_10_6</a></li>
-<li>“This brute growled at me, but I got away and let it live.” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">hettar_dog_nd (hidden flag)</a>; NOT killed 1× <a href="../hettar_dog/#v-hettar_dog3">Wolfhound</a>)</em> → <a href="#d-hettar_20">hettar_20</a></li>
+<li>“This brute growled at me, but I got away and let it live.” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">Hettar dog story flags (hidden flag)</a>; NOT killed 1× <a href="../hettar_dog/#v-hettar_dog3">Wolfhound</a>)</em> → <a href="#d-hettar_20">hettar_20</a></li>
 <li>“I am still searching.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-hettar_20"></span><strong><code>hettar_20</code></strong> Little Hettar: “Please go down there and look for my doggie. Maybe he is injured? Bring him back! You must!”</p>
@@ -1183,7 +1183,7 @@
 <p><span id="d-hettar_10"></span><strong><code>hettar_10</code></strong> Little Hettar: “Please help to find Norry. He is my only friend, and he is helpless without me.”</p>
 <ul>
 <li>“How can I help you?” → <a href="#d-hettar_20">hettar_20</a></li>
-<li>“The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge…” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">hettar_dog_nd (hidden flag)</a>)</em> → <a href="#d-hettar_10_4">hettar_10_4</a></li>
+<li>“The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge…” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">Hettar dog story flags (hidden flag)</a>)</em> → <a href="#d-hettar_10_4">hettar_10_4</a></li>
 </ul>
 <p><span id="d-hettar_1"></span><strong><code>hettar_1</code></strong> Little Hettar: “Norry! Nooorryyyy!”</p>
 <ul>
@@ -1213,7 +1213,7 @@
 <ul>
 <li>“Oh dear.” → <a href="#d-hettar_10">hettar_10</a></li>
 <li>“A dog! He will be back soon... I better go now.” → <em>conversation ends</em></li>
-<li>“I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">hettar_dog_nd (hidden flag)</a>)</em> → <a href="#d-hettar_10">hettar_10</a></li>
+<li>“I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.” <em>(if reached stage 1 of <a href="../../quests/hettar_dog_nd/#stage-1">Hettar dog story flags (hidden flag)</a>)</em> → <a href="#d-hettar_10">hettar_10</a></li>
 </ul>
 <p><span id="d-hettar_20_30"></span><strong><code>hettar_20_30</code></strong> Little Hettar: “Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/hettar_dog/#stage-30">Where is Norry?</a>, gives 1× <a href="../../items/hettar_bone/">Wyrm meat</a></p>
 <p><span id="d-hettar_20_20"></span><strong><code>hettar_20_20</code></strong> Little Hettar: “I gave you my last piece of Wyrm meat for Norry. Did you lose it?”</p>

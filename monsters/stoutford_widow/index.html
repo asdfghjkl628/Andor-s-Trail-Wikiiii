@@ -1204,7 +1204,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Aryfora. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, loot or shop stock. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Aryfora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1219,34 +1219,34 @@
 <tr>
 <td><a href="#v-stoutford_widow"><code>stoutford_widow</code></a></td>
 <td>NPC</td>
-<td>Stoutford: <a href="../../maps/stoutford_gate/#pin-npc-stoutford_widow">stoutford_gate</a></td>
+<td>Stoutford: <a href="../../maps/stoutford_gate/#pin-npc-stoutford_widow">Stoutford gate</a></td>
 <td>starts <a href="../../quests/roots_love/">The roots of love</a>, <a href="../../quests/thorns_vengeance/">The thorns of vengeance</a></td>
 </tr>
 <tr>
 <td><a href="#v-stoutford_widow2"><code>stoutford_widow2</code></a></td>
 <td>NPC</td>
-<td>Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-stoutford_widow2">stoutford_potion</a></td>
+<td>Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-stoutford_widow2">Stoutford potion</a></td>
 <td>shopkeeper</td>
 </tr>
 </tbody>
 </table>
 <h2 id="v-stoutford_widow">Stoutford, Stoutford gate (stoutford_widow)<a class="headerlink" href="#v-stoutford_widow" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>stoutford_widow</code> · <strong>Type:</strong> NPC · <strong>Role:</strong> Starts <a href="../../quests/roots_love/">The roots of love</a>, <a href="../../quests/thorns_vengeance/">The thorns of vengeance</a></p>
-<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_gate/#pin-npc-stoutford_widow">stoutford_gate</a></p>
+<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_gate/#pin-npc-stoutford_widow">Stoutford gate</a></p>
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/roots_love/">The roots of love</a>: stages 10, 30, 40, 45</li>
 <li><a href="../../quests/thorns_vengeance/">The thorns of vengeance</a>: stages 10, 20, 30, 32, 40, 50, 76, 90</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aryfora. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Aryfora. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_widow_select_0.json" data-npc="Aryfora" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (67 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-stoutford_widow-stoutford_widow_select_0"></span><strong><code>stoutford_widow_select_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 80 of <a href="../../quests/thorns_vengeance/#stage-80">The thorns of vengeance</a>)</em> → <a href="#d-stoutford_widow-stoutford_widow_thorns80_0">stoutford_widow_thorns80_0</a></li>
@@ -1490,7 +1490,7 @@
 <li>“I've had enough - bye.” → <em>conversation ends</em></li>
 <li>“Don't worry about me. I can handle myself.” → <a href="#d-stoutford_widow-stoutford_widow_10">stoutford_widow_10</a></li>
 <li>“I'm an adventurer. I'm afraid of nothing.” → <a href="#d-stoutford_widow-stoutford_widow_10">stoutford_widow_10</a></li>
-<li>“Remgard. <em>sigh</em>. OK, I'll do it.” <em>(if reached stage 170 of <a href="../../quests/nondisplay_2/#stage-170">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-stoutford_widow-stoutford_widow_10">stoutford_widow_10</a></li>
+<li>“Remgard. <em>sigh</em>. OK, I'll do it.” <em>(if reached stage 170 of <a href="../../quests/nondisplay_2/#stage-170">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-stoutford_widow-stoutford_widow_10">stoutford_widow_10</a></li>
 </ul>
 <p><span id="d-stoutford_widow-stoutford_widow_roots4045_10"></span><strong><code>stoutford_widow_roots4045_10</code></strong> Aryfora: “My uncle also convinced the whole village that I was too young to be their alchemist, and that they needed him to take over the shop.”</p>
 <ul>
@@ -1631,7 +1631,7 @@
 </details>
 <h2 id="v-stoutford_widow2">Stoutford, Stoutford potion (stoutford_widow2)<a class="headerlink" href="#v-stoutford_widow2" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>stoutford_widow2</code> · <strong>Type:</strong> NPC · <strong>Role:</strong> Shopkeeper</p>
-<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-stoutford_widow2">stoutford_potion</a></p>
+<p><strong>Location:</strong> Stoutford: <a href="../../maps/stoutford_potion/#pin-npc-stoutford_widow2">Stoutford potion</a></p>
 <h3 id="shop-stock">Shop stock<a class="headerlink" href="#shop-stock" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1685,14 +1685,14 @@
 </tbody>
 </table>
 <h3 id="dialogue-simulator_1">Dialogue simulator<a class="headerlink" href="#dialogue-simulator_1" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aryfora. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Aryfora. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_widow2_0.json" data-npc="Aryfora" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (5 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-stoutford_widow2-stoutford_widow2_0"></span><strong><code>stoutford_widow2_0</code></strong> Aryfora: “Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?”</p>
 <ul>
 <li>“Of course! Please show me what you have.” → <em>shop opens</em></li>
@@ -1701,7 +1701,7 @@
 </ul>
 <p><span id="d-stoutford_widow2-stoutford_widow2_1"></span><strong><code>stoutford_widow2_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 207 of <a href="../../quests/stn_nondisplay/#stage-207">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-stoutford_widow2-stoutford_widow2_2">stoutford_widow2_2</a></li>
+<li>branch 1 <em>(if reached stage 207 of <a href="../../quests/stn_nondisplay/#stage-207">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-stoutford_widow2-stoutford_widow2_2">stoutford_widow2_2</a></li>
 <li>branch 2 → <a href="#d-stoutford_widow2-stoutford_widow2_3">stoutford_widow2_3</a></li>
 </ul>
 <p><span id="d-stoutford_widow2-stoutford_widow2_2"></span><strong><code>stoutford_widow2_2</code></strong> Aryfora: “Well, no. Somehow I have the feeling that you did not always tell the truth about the damerilias. I don't think that you are old enough to get such a potent potion.”</p>

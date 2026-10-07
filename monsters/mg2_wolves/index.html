@@ -1135,7 +1135,7 @@
 
 
 <h1 id="galmore-wolf"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_dogs_4.png" /> Galmore wolf<a class="headerlink" href="#galmore-wolf" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Galmore wolf:</strong> Mt. Galmore: <a href="../../maps/galmore_54/#pin-npc-mg2_wolves">galmore_54</a>, Mt. Galmore: <a href="../../maps/galmore_55/#pin-npc-mg2_wolves">galmore_55</a>, Mt. Galmore: <a href="../../maps/galmore_64/#pin-npc-mg2_wolves">galmore_64</a></p>
+<p><strong>Where to find Galmore wolf:</strong> Mt. Galmore: <a href="../../maps/galmore_54/#pin-npc-mg2_wolves">Galmore 54</a>, Mt. Galmore: <a href="../../maps/galmore_55/#pin-npc-mg2_wolves">Galmore 55</a>, Mt. Galmore: <a href="../../maps/galmore_64/#pin-npc-mg2_wolves">Galmore 64</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_4.png){ .sprite }</p>
 <table>
@@ -1284,19 +1284,19 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/galmore_54/">galmore_54</a></td>
+<td><a href="../../maps/galmore_54/">Galmore 54</a></td>
 <td>Mt. Galmore</td>
 <td>12</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/galmore_55/">galmore_55</a></td>
+<td><a href="../../maps/galmore_55/">Galmore 55</a></td>
 <td>Mt. Galmore</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/galmore_64/">galmore_64</a></td>
+<td><a href="../../maps/galmore_64/">Galmore 64</a></td>
 <td>Mt. Galmore</td>
 <td>1</td>
 <td>–</td>
@@ -1306,17 +1306,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/achievements/">Unusual experiences and achievements</a>: stage 200</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 70</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 70</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Galmore wolf. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Galmore wolf. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_wolves.json" data-npc="Galmore wolf" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (9 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-mg2_wolves"></span><strong><code>mg2_wolves</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if wearing <a href="../../items/packhide/">Wolfpack's animal hide</a>)</em> → <a href="#d-mg2_wolves_1">mg2_wolves_1</a></li>
@@ -1335,8 +1335,8 @@
 <p><span id="d-mg2_wolves_10"></span><strong><code>mg2_wolves_10</code></strong> Galmore wolf: “You may go thrrrough herrre. No tarrrrying.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/achievements/#stage-200">Unusual experiences and achievements</a></p>
 <ul>
 <li>“Agrrreed.” → <em>conversation ends</em></li>
-<li>“I am hungrrry.” <em>(if NOT reached stage 70 of <a href="../../quests/nondisplay/#stage-70">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-mg2_wolves_20">mg2_wolves_20</a></li>
-<li>“I am hungrrry.” <em>(if reached stage 70 of <a href="../../quests/nondisplay/#stage-70">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-mg2_wolves_30">mg2_wolves_30</a></li>
+<li>“I am hungrrry.” <em>(if NOT reached stage 70 of <a href="../../quests/nondisplay/#stage-70">General story flags (hidden flag)</a>)</em> → <a href="#d-mg2_wolves_20">mg2_wolves_20</a></li>
+<li>“I am hungrrry.” <em>(if reached stage 70 of <a href="../../quests/nondisplay/#stage-70">General story flags (hidden flag)</a>)</em> → <a href="#d-mg2_wolves_30">mg2_wolves_30</a></li>
 </ul>
 <p><span id="d-mg2_wolves_20"></span><strong><code>mg2_wolves_20</code></strong> Galmore wolf: “We can prrrovide you with good rrraw meat.”</p>
 <ul>
@@ -1348,7 +1348,7 @@
 <li>“Grrr.” → <em>conversation ends</em></li>
 <li>“That was looong ago. Long forrrgotten.” <em>(if 100 rounds passed since timer “mg2_wolves”)</em> → <a href="#d-mg2_wolves_40">mg2_wolves_40</a></li>
 </ul>
-<p><span id="d-mg2_wolves_22"></span><strong><code>mg2_wolves_22</code></strong> Galmore wolf: “Much grrreat meat. Twenty fourrr bites.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/nondisplay/#stage-70">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>, gives 24× <a href="../../items/meat/">Meat</a>, starts timer “mg2_wolves”</p>
+<p><span id="d-mg2_wolves_22"></span><strong><code>mg2_wolves_22</code></strong> Galmore wolf: “Much grrreat meat. Twenty fourrr bites.” — <strong>effects:</strong> sets stage 70 of <a href="../../quests/nondisplay/#stage-70">General story flags (hidden flag)</a>, gives 24× <a href="../../items/meat/">Meat</a>, starts timer “mg2_wolves”</p>
 <ul>
 <li>“Tha... I mean grrr.” → <em>conversation ends</em></li>
 </ul>

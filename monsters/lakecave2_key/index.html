@@ -1157,7 +1157,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Glade key. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Glade key. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1188,26 +1188,26 @@
 <p><strong>Location:</strong> not placed on any map; this entry is added to the world by a quest or scripted event.</p>
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stages 210, 211</li>
+<li><a href="../../quests/stn_nondisplay/">Stoutford story flags (hidden flag)</a>: stages 210, 211</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Glade key. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Glade key. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/lakecave2_key_check2.json" data-npc="Glade key" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (4 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-lakecave2_key-lakecave2_key_check2"></span><strong><code>lakecave2_key_check2</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if 1 rounds passed since timer “lakecave2_timer_keycheck”)</em> → <a href="#d-lakecave2_key-lakecave2_key_check2_10">lakecave2_key_check2_10</a></li>
-<li>branch 2 <em>(if NOT reached stage 210 of <a href="../../quests/stn_nondisplay/#stage-210">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-lakecave2_key-lakecave2_key_check2_20">lakecave2_key_check2_20</a></li>
+<li>branch 2 <em>(if NOT reached stage 210 of <a href="../../quests/stn_nondisplay/#stage-210">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-lakecave2_key-lakecave2_key_check2_20">lakecave2_key_check2_20</a></li>
 <li>branch 3 → <a href="#d-lakecave2_key-lakecave2_key_check2_90">lakecave2_key_check2_90</a></li>
 </ul>
-<p><span id="d-lakecave2_key-lakecave2_key_check2_10"></span><strong><code>lakecave2_key_check2_10</code></strong> <a href="../none/">Dummy NPC</a>: “You may be a great warrior, but you are not a tall one. Maybe a jump with a runup?” — <strong>effects:</strong> clears stage 210 of <a href="../../quests/stn_nondisplay/#stage-210">stn_nondisplay (hidden flag)</a></p>
-<p><span id="d-lakecave2_key-lakecave2_key_check2_20"></span><strong><code>lakecave2_key_check2_20</code></strong> <a href="../none/">Dummy NPC</a>: “That was close - just half an inch short. Try again!” — <strong>effects:</strong> sets stage 210 of <a href="../../quests/stn_nondisplay/#stage-210">stn_nondisplay (hidden flag)</a></p>
-<p><span id="d-lakecave2_key-lakecave2_key_check2_90"></span><strong><code>lakecave2_key_check2_90</code></strong> <a href="../none/">Dummy NPC</a>: “You got hold of the shelves and tore them down!” — <strong>effects:</strong> changes map lakecave2, sets stage 211 of <a href="../../quests/stn_nondisplay/#stage-211">stn_nondisplay (hidden flag)</a></p>
+<p><span id="d-lakecave2_key-lakecave2_key_check2_10"></span><strong><code>lakecave2_key_check2_10</code></strong> <a href="../none/">Dummy NPC</a>: “You may be a great warrior, but you are not a tall one. Maybe a jump with a runup?” — <strong>effects:</strong> clears stage 210 of <a href="../../quests/stn_nondisplay/#stage-210">Stoutford story flags (hidden flag)</a></p>
+<p><span id="d-lakecave2_key-lakecave2_key_check2_20"></span><strong><code>lakecave2_key_check2_20</code></strong> <a href="../none/">Dummy NPC</a>: “That was close - just half an inch short. Try again!” — <strong>effects:</strong> sets stage 210 of <a href="../../quests/stn_nondisplay/#stage-210">Stoutford story flags (hidden flag)</a></p>
+<p><span id="d-lakecave2_key-lakecave2_key_check2_90"></span><strong><code>lakecave2_key_check2_90</code></strong> <a href="../none/">Dummy NPC</a>: “You got hold of the shelves and tore them down!” — <strong>effects:</strong> changes map lakecave2, sets stage 211 of <a href="../../quests/stn_nondisplay/#stage-211">Stoutford story flags (hidden flag)</a></p>
 </details>
 <h3 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h3>
 <table>

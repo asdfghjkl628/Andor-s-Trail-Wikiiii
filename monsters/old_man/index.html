@@ -1204,7 +1204,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Old man. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Old man. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1219,34 +1219,34 @@
 <tr>
 <td><a href="#v-old_man"><code>old_man</code></a></td>
 <td>NPC</td>
-<td>Fallhaven: <a href="../../maps/fallhaven_nw/#pin-npc-old_man">fallhaven_nw</a></td>
+<td>Fallhaven: <a href="../../maps/fallhaven_nw/#pin-npc-old_man">Fallhaven north-west</a></td>
 <td>starts <a href="../../quests/calomyran/">Calomyran secrets</a></td>
 </tr>
 <tr>
 <td><a href="#v-guynmart_wise"><code>guynmart_wise</code></a></td>
 <td>NPC</td>
-<td>Guynmart Castle: <a href="../../maps/guynmart_wood_10/#pin-npc-guynmart_wise">guynmart_wood_10</a></td>
+<td>Guynmart Castle: <a href="../../maps/guynmart_wood_10/#pin-npc-guynmart_wise">Guynmart wood 10</a></td>
 <td>starts <a href="../../quests/guynmart_wise/">Rare delicacies</a></td>
 </tr>
 </tbody>
 </table>
 <h2 id="v-old_man">Fallhaven, Fallhaven north-west (old_man)<a class="headerlink" href="#v-old_man" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>old_man</code> · <strong>Type:</strong> NPC · <strong>Role:</strong> Starts <a href="../../quests/calomyran/">Calomyran secrets</a></p>
-<p><strong>Location:</strong> Fallhaven: <a href="../../maps/fallhaven_nw/#pin-npc-old_man">fallhaven_nw</a></p>
+<p><strong>Location:</strong> Fallhaven: <a href="../../maps/fallhaven_nw/#pin-npc-old_man">Fallhaven north-west</a></p>
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/calomyran/">Calomyran secrets</a>: stages 10, 100</li>
 <li><a href="../../quests/darkness_in_daylight/">Darkness in the Daylight</a>: stages 130, 140</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old man. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Old man. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_oldman.json" data-npc="Old man" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (19 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-old_man-fallhaven_oldman"></span><strong><code>fallhaven_oldman</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 110 of <a href="../../quests/darkness_in_daylight/#stage-110">Darkness in the Daylight</a>; NOT reached stage 140 of <a href="../../quests/darkness_in_daylight/#stage-140">Darkness in the Daylight</a>)</em> → <a href="#d-old_man-dds_oldman_10">dds_oldman_10</a></li>
@@ -1408,24 +1408,24 @@
 </details>
 <h2 id="v-guynmart_wise">Guynmart Castle, Guynmart wood 10 (guynmart_wise)<a class="headerlink" href="#v-guynmart_wise" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>guynmart_wise</code> · <strong>Type:</strong> NPC · <strong>Role:</strong> Starts <a href="../../quests/guynmart_wise/">Rare delicacies</a></p>
-<p><strong>Location:</strong> Guynmart Castle: <a href="../../maps/guynmart_wood_10/#pin-npc-guynmart_wise">guynmart_wood_10</a></p>
+<p><strong>Location:</strong> Guynmart Castle: <a href="../../maps/guynmart_wood_10/#pin-npc-guynmart_wise">Guynmart wood 10</a></p>
 <h3 id="quests_1">Quests<a class="headerlink" href="#quests_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/guynmart_wise/">Rare delicacies</a>: stages 10, 20, 30, 90</li>
-<li><a href="../../quests/guynmart_nondisplay/">guynmart nondisplay (hidden flag)</a>: stage 35</li>
+<li><a href="../../quests/guynmart_nondisplay/">Guynmart story flags (hidden flag)</a>: stage 35</li>
 </ul>
 <h3 id="dialogue-simulator_1">Dialogue simulator<a class="headerlink" href="#dialogue-simulator_1" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old man. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Old man. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_wise_10.json" data-npc="Old man" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (42 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-guynmart_wise-guynmart_wise_10"></span><strong><code>guynmart_wise_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 35 of <a href="../../quests/guynmart_nondisplay/#stage-35">guynmart nondisplay (hidden flag)</a>)</em> → <a href="#d-guynmart_wise-guynmart_wise_14">guynmart_wise_14</a></li>
+<li>branch 1 <em>(if reached stage 35 of <a href="../../quests/guynmart_nondisplay/#stage-35">Guynmart story flags (hidden flag)</a>)</em> → <a href="#d-guynmart_wise-guynmart_wise_14">guynmart_wise_14</a></li>
 <li>branch 2 → <a href="#d-guynmart_wise-guynmart_wise_12">guynmart_wise_12</a></li>
 </ul>
 <p><span id="d-guynmart_wise-guynmart_wise_14"></span><strong><code>guynmart_wise_14</code></strong> Old man: “Oh, it is you again. I am delighted!”</p>
@@ -1528,7 +1528,7 @@
 <li>“Sorry, I really must go now.” → <a href="#d-guynmart_wise-guynmart_wise_900">guynmart_wise_900</a></li>
 <li>“Just say what you would like. What can I do for you?” → <a href="#d-guynmart_wise-guynmart_wise_130">guynmart_wise_130</a></li>
 </ul>
-<p><span id="d-guynmart_wise-guynmart_wise_102"></span><strong><code>guynmart_wise_102</code></strong> Old man: “From time to time a friendly soul brings me some food, but no one stays for long. I have noticed that their pace uphill is usually much slower than back downhill.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/guynmart_nondisplay/#stage-35">guynmart nondisplay (hidden flag)</a></p>
+<p><span id="d-guynmart_wise-guynmart_wise_102"></span><strong><code>guynmart_wise_102</code></strong> Old man: “From time to time a friendly soul brings me some food, but no one stays for long. I have noticed that their pace uphill is usually much slower than back downhill.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/guynmart_nondisplay/#stage-35">Guynmart story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-guynmart_wise-guynmart_wise_110">guynmart_wise_110</a></li>
 </ul>

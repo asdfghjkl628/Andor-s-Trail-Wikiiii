@@ -1124,7 +1124,7 @@
 
 
 <h1 id="troublemaker"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men_8.png" /> Troublemaker<a class="headerlink" href="#troublemaker" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Troublemaker:</strong> Fallhaven: <a href="../../maps/fallhaven_derelict2/#pin-npc-troublemaker">fallhaven_derelict2</a>, Fallhaven: <a href="../../maps/fallhaven_derelict2_t/#pin-npc-troublemaker">fallhaven_derelict2_t</a></p>
+<p><strong>Where to find Troublemaker:</strong> Fallhaven: <a href="../../maps/fallhaven_derelict2/#pin-npc-troublemaker">Fallhaven derelict 2</a>, Fallhaven: <a href="../../maps/fallhaven_derelict2_t/#pin-npc-troublemaker">Fallhaven derelict 2 t</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_8.png){ .sprite }</p>
 <table>
@@ -1237,13 +1237,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a></td>
+<td><a href="../../maps/fallhaven_derelict2/">Fallhaven derelict 2</a></td>
 <td>Fallhaven</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/fallhaven_derelict2_t/">fallhaven_derelict2_t</a></td>
+<td><a href="../../maps/fallhaven_derelict2_t/">Fallhaven derelict 2 t</a></td>
 <td>Fallhaven</td>
 <td>1</td>
 <td>–</td>
@@ -1255,18 +1255,18 @@
 <li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 45, 60, 70</li>
 <li><a href="../../quests/Thieves01/">Thief apprentice</a>: stages 15, 20, 60</li>
 <li><a href="../../quests/wanted_men/">Wanted men</a>: stages 45, 50, 55, 65, 80</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 60</li>
-<li><a href="../../quests/thieves_hidden/">Thieves Hidden (hidden flag)</a>: stages 100, 110</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 60</li>
+<li><a href="../../quests/thieves_hidden/">Thieves story flags (hidden flag)</a>: stages 100, 110</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Troublemaker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Troublemaker. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/troublemaker_selector.json" data-npc="Troublemaker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (58 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-troublemaker_selector"></span><strong><code>troublemaker_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if latest stage of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a> is 60)</em> → <a href="#d-troublemaker_guild_13a">troublemaker_guild_13a</a></li>
@@ -1287,13 +1287,13 @@
 <li>“I encountered Defy and his men and was forced to kill them!” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-76">Wanted men</a> is 76)</em> → <a href="#d-troublemaker_wm_deffy_killed_10">troublemaker_wm_deffy_killed_10</a></li>
 <li>“[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” <em>(if latest stage of <a href="../../quests/wanted_men/#stage-77">Wanted men</a> is 77; hand over 1× <a href="../../items/thieves_vault_key/">Thieves' vault key</a>)</em> → <a href="#d-troublemaker_wm_return_real_key_10">troublemaker_wm_return_real_key_10</a></li>
 <li>“Can I take a look at the Guild's current supplies?” → <em>shop opens</em></li>
-<li>“[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” <em>(if reached stage 60 of <a href="../../quests/nondisplay/#stage-60">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>; NOT reached stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>)</em> → <a href="#d-troublemaker_wm_return_real_key_10">troublemaker_wm_return_real_key_10</a></li>
+<li>“[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” <em>(if reached stage 60 of <a href="../../quests/nondisplay/#stage-60">General story flags (hidden flag)</a>; NOT reached stage 80 of <a href="../../quests/wanted_men/#stage-80">Wanted men</a>)</em> → <a href="#d-troublemaker_wm_return_real_key_10">troublemaker_wm_return_real_key_10</a></li>
 </ul>
 <p><span id="d-troublemaker_guild_10"></span><strong><code>troublemaker_guild_10</code></strong> Troublemaker: “How is the mission going?”</p>
 <ul>
 <li>“I've brought all the journals.” <em>(if reached stage 55 of <a href="../../quests/Thieves01/#stage-55">Thief apprentice</a>; hand over 1× <a href="../../items/Dunla_journal/">Dunla's Journal</a>; hand over 1× <a href="../../items/Fanamor_journal/">Fanamor's Journal</a>; hand over 1× <a href="../../items/Leta_journal/">Leta's Journal</a>)</em> → <a href="#d-troublemaker_guild_11a">troublemaker_guild_11a</a></li>
 <li>“I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout.” <em>(if latest stage of <a href="../../quests/Thieves01/#stage-51">Thief apprentice</a> is 51; hand over 1× <a href="../../items/Dunla_journal/">Dunla's Journal</a>; hand over 1× <a href="../../items/Fanamor_journal/">Fanamor's Journal</a>; hand over 1× <a href="../../items/Leta_journal/">Leta's Journal</a>)</em> → <a href="#d-troublemaker_guild_11b">troublemaker_guild_11b</a></li>
-<li>“I gave you the journals, so where's my reward?” <em>(if reached stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a>; NOT reached stage 110 of <a href="../../quests/thieves_hidden/#stage-110">Thieves Hidden (hidden flag)</a>)</em> → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
+<li>“I gave you the journals, so where's my reward?” <em>(if reached stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves story flags (hidden flag)</a>; NOT reached stage 110 of <a href="../../quests/thieves_hidden/#stage-110">Thieves story flags (hidden flag)</a>)</em> → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
 <li>“Almost done.” → <a href="#d-troublemaker_guild_11c">troublemaker_guild_11c</a></li>
 <li>“Well, but can I take a look at your supplies again?” → <em>shop opens</em></li>
 </ul>
@@ -1340,20 +1340,20 @@
 <ul>
 <li>“You're never going to believe this, but they were inside that vacant house when I walked in.” → <a href="#d-troublemaker_wm_deffy_killed_20">troublemaker_wm_deffy_killed_20</a></li>
 </ul>
-<p><span id="d-troublemaker_wm_return_real_key_10"></span><strong><code>troublemaker_wm_return_real_key_10</code></strong> Troublemaker: “Thank you very much!” — <strong>effects:</strong> faction “factionCountThieves” set to -8, sets stage 60 of <a href="../../quests/nondisplay/#stage-60">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-troublemaker_wm_return_real_key_10"></span><strong><code>troublemaker_wm_return_real_key_10</code></strong> Troublemaker: “Thank you very much!” — <strong>effects:</strong> faction “factionCountThieves” set to -8, sets stage 60 of <a href="../../quests/nondisplay/#stage-60">General story flags (hidden flag)</a></p>
 <ul>
 <li>“I encountered Defy and his men and was forced to kill them!” → <a href="#d-troublemaker_wm_deffy_killed_10">troublemaker_wm_deffy_killed_10</a></li>
 </ul>
-<p><span id="d-troublemaker_guild_11a"></span><strong><code>troublemaker_guild_11a</code></strong> Troublemaker: “Well done kid! You can now consider yourself skilled enough to be a part of this guild.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-troublemaker_guild_11a"></span><strong><code>troublemaker_guild_11a</code></strong> Troublemaker: “Well done kid! You can now consider yourself skilled enough to be a part of this guild.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>“Thank you!” → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
 <li>“Yes .... So where is my reward?” → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
 </ul>
-<p><span id="d-troublemaker_guild_11b"></span><strong><code>troublemaker_guild_11b</code></strong> Troublemaker: “Well, that is the price of being one of us. There's always risk.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-troublemaker_guild_11b"></span><strong><code>troublemaker_guild_11b</code></strong> Troublemaker: “Well, that is the price of being one of us. There's always risk.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/thieves_hidden/#stage-100">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-troublemaker_guild_12a">troublemaker_guild_12a</a></li>
 </ul>
-<p><span id="d-troublemaker_guild_12a"></span><strong><code>troublemaker_guild_12a</code></strong> Troublemaker: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a>, gives 900× <a href="../../items/gold/">Gold coins</a>, sets stage 110 of <a href="../../quests/thieves_hidden/#stage-110">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-troublemaker_guild_12a"></span><strong><code>troublemaker_guild_12a</code></strong> Troublemaker: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/Thieves01/#stage-60">Thief apprentice</a>, gives 900× <a href="../../items/gold/">Gold coins</a>, sets stage 110 of <a href="../../quests/thieves_hidden/#stage-110">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>“Sure, I will talk to him.” → <em>conversation ends</em></li>
 <li>“At least I got some gold. Bye!” → <em>conversation ends</em></li>

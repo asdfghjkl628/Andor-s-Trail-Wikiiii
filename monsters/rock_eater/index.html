@@ -1135,7 +1135,7 @@
 
 
 <h1 id="rock-eater"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_bosses_2x2_4.png" /> Rock eater<a class="headerlink" href="#rock-eater" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Rock eater:</strong> Mt. Galmore: <a href="../../maps/undertell_exit/#pin-npc-rock_eater">undertell_exit</a></p>
+<p><strong>Where to find Rock eater:</strong> Mt. Galmore: <a href="../../maps/undertell_exit/#pin-npc-rock_eater">Undertell exit</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_bosses_2x2_4.png){ .sprite }</p>
 <table>
@@ -1288,7 +1288,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/undertell_exit/">undertell_exit</a></td>
+<td><a href="../../maps/undertell_exit/">Undertell exit</a></td>
 <td>Mt. Galmore</td>
 <td>2</td>
 <td>Appears later, during a quest</td>
@@ -1297,21 +1297,21 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stage 60</li>
+<li><a href="../../quests/undertell_hidden/">Undertell story flags (hidden flag)</a>: stage 60</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rock eater. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Rock eater. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/rock_eater_selector.json" data-npc="Rock eater" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (7 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-rock_eater_selector"></span><strong><code>rock_eater_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/undertell_hidden/#stage-60">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-rock_eater_move_along">rock_eater_move_along</a></li>
-<li>branch 2 <em>(if reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a>)</em> → <a href="#d-rock_eater_pc_rewarded_with_nixite_10">rock_eater_pc_rewarded_with_nixite_10</a></li>
+<li>branch 1 <em>(if reached stage 60 of <a href="../../quests/undertell_hidden/#stage-60">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-rock_eater_move_along">rock_eater_move_along</a></li>
+<li>branch 2 <em>(if reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdover story flags (hidden flag)</a>)</em> → <a href="#d-rock_eater_pc_rewarded_with_nixite_10">rock_eater_pc_rewarded_with_nixite_10</a></li>
 <li>branch 3 → <a href="#d-rock_eater_fight">rock_eater_fight</a></li>
 </ul>
 <p><span id="d-rock_eater_move_along"></span><strong><code>rock_eater_move_along</code></strong> Rock eater: “Move along. I'm busy!”</p>
@@ -1330,7 +1330,7 @@
 <ul>
 <li>Next → <a href="#d-rock_eater_fight">rock_eater_fight</a></li>
 </ul>
-<p><span id="d-rock_eater_pc_give_nixite_10"></span><strong><code>rock_eater_pc_give_nixite_10</code></strong> Rock eater: “Wonderful! Now move along before I change my mind.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/undertell_hidden/#stage-60">hidden_undertell (hidden flag)</a>, removes monsters from undertell_exit, spawns monsters on undertell_exit</p>
+<p><span id="d-rock_eater_pc_give_nixite_10"></span><strong><code>rock_eater_pc_give_nixite_10</code></strong> Rock eater: “Wonderful! Now move along before I change my mind.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/undertell_hidden/#stage-60">Undertell story flags (hidden flag)</a>, removes monsters from undertell_exit, spawns monsters on undertell_exit</p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

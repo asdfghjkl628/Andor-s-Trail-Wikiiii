@@ -1113,7 +1113,7 @@
 
 
 <h1 id="stiyl"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men_4.png" /> Stiyl<a class="headerlink" href="#stiyl" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Stiyl:</strong> Brightport: <a href="../../maps/brightport_temple1/#pin-npc-brightportpriest1">brightport_temple1</a></p>
+<p><strong>Where to find Stiyl:</strong> Brightport: <a href="../../maps/brightport_temple1/#pin-npc-brightportpriest1">Brightport temple 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_4.png){ .sprite }</p>
 <table>
@@ -1176,25 +1176,25 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stage 10</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stage 10</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stiyl. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Stiyl. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_priest_1.json" data-npc="Stiyl" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (14 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_priest_1"></span><strong><code>brightport_priest_1</code></strong> <a href="./">Stiyl</a>: “Hello there, child. Are you perhaps interested in following the Shadow?”</p>
 <ul>
 <li>“I'm searching for my brother, Andor. Have you seen him?” → <a href="#d-brightport_priest_1_reply1">brightport_priest_1_reply1</a></li>
 <li>“How do I follow the Shadow?” → <a href="#d-brightport_priest_1_reply2">brightport_priest_1_reply2</a></li>
 <li>“Could you provide me with supplies?” → <em>shop opens</em></li>
-<li>“I've visited the chapel, and for a town of this size, it's surprisingly small.” <em>(if reached stage 5 of <a href="../../quests/brightport_nondisplay/#stage-5">brightport_nondisplay (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_priest_story">brightport_priest_story</a></li>
-<li>“Can you tell me the story about the temple again?” <em>(if reached stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_priest_story1">brightport_priest_story1</a></li>
-<li>“I heard a rumor from one of the guards about a place called the Water Temple.” <em>(if reached stage 251 of <a href="../../quests/brightport_nondisplay/#stage-251">brightport_nondisplay (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_priest_story1">brightport_priest_story1</a></li>
+<li>“I've visited the chapel, and for a town of this size, it's surprisingly small.” <em>(if reached stage 5 of <a href="../../quests/brightport_nondisplay/#stage-5">Brightport story flags (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_priest_story">brightport_priest_story</a></li>
+<li>“Can you tell me the story about the temple again?” <em>(if reached stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_priest_story1">brightport_priest_story1</a></li>
+<li>“I heard a rumor from one of the guards about a place called the Water Temple.” <em>(if reached stage 251 of <a href="../../quests/brightport_nondisplay/#stage-251">Brightport story flags (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_priest_story1">brightport_priest_story1</a></li>
 <li>“All this Shadow stuff. What a bunch of nonsense.” → <a href="#d-brightport_priest_1_reply">brightport_priest_1_reply</a></li>
 </ul>
 <p><span id="d-brightport_priest_1_reply1"></span><strong><code>brightport_priest_1_reply1</code></strong> <a href="./">Stiyl</a>: “I'm sorry, there are many students from the academy playing, and their faces are not imprinted on my memory.”</p>
@@ -1210,7 +1210,7 @@
 <ul>
 <li>Next → <a href="#d-brightport_priest_story1">brightport_priest_story1</a></li>
 </ul>
-<p><span id="d-brightport_priest_story1"></span><strong><code>brightport_priest_story1</code></strong> <a href="./">Stiyl</a>: “In the past, the chapel was only a minor shrine. The people of Brightport used to worship the Shadow at the great Water Temple.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_priest_story1"></span><strong><code>brightport_priest_story1</code></strong> <a href="./">Stiyl</a>: “In the past, the chapel was only a minor shrine. The people of Brightport used to worship the Shadow at the great Water Temple.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brightport_nondisplay/#stage-10">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_priest_story2">brightport_priest_story2</a></li>
 </ul>

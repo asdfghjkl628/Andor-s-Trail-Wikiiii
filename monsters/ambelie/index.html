@@ -1102,7 +1102,7 @@
 
 
 <h1 id="ambelie"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_men_6.png" /> Ambelie<a class="headerlink" href="#ambelie" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Ambelie:</strong> Foaming Flask Tavern: <a href="../../maps/foaming_flask/#pin-npc-ambelie">foaming_flask</a></p>
+<p><strong>Where to find Ambelie:</strong> Foaming Flask Tavern: <a href="../../maps/foaming_flask/#pin-npc-ambelie">Foaming flask</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_6.png){ .sprite }</p>
 <table>
@@ -1135,17 +1135,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/Thieves02/">Immaculate kidnapping</a>: stages 10, 20, 21, 24, 65</li>
-<li><a href="../../quests/thieves_hidden/">Thieves Hidden (hidden flag)</a>: stage 20</li>
+<li><a href="../../quests/thieves_hidden/">Thieves story flags (hidden flag)</a>: stage 20</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ambelie. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Ambelie. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/ambelie_selector.json" data-npc="Ambelie" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (31 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-ambelie_selector"></span><strong><code>ambelie_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>Next <em>(if reached stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>)</em> → <a href="#d-ambelie_guild02_20">ambelie_guild02_20</a></li>
@@ -1188,7 +1188,7 @@
 <ul>
 <li>Next → <a href="#d-ff_captain_guild02_4">ff_captain_guild02_4</a></li>
 </ul>
-<p><span id="d-ambelie_guild02_4b"></span><strong><code>ambelie_guild02_4b</code></strong> Ambelie: “(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Thieves02/#stage-20">Immaculate kidnapping</a>, removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie, sets stage 20 of <a href="../../quests/thieves_hidden/#stage-20">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-ambelie_guild02_4b"></span><strong><code>ambelie_guild02_4b</code></strong> Ambelie: “(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/Thieves02/#stage-20">Immaculate kidnapping</a>, removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie, sets stage 20 of <a href="../../quests/thieves_hidden/#stage-20">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>“Fine ...” → <em>NPC leaves</em></li>
 </ul>
@@ -1257,7 +1257,7 @@
 <li>“But I'm not a commoner! I'm a ... Feygard spy. These clothes are my disguise!” → <a href="#d-ambelie_guild02_2">ambelie_guild02_2</a></li>
 <li>“I'm stronger than those smug guards.” → <a href="#d-ambelie_guild02_2">ambelie_guild02_2</a></li>
 </ul>
-<p><span id="d-ambelie_guild02_19"></span><strong><code>ambelie_guild02_19</code></strong> Ambelie: “Take this and leave me, please.” — <strong>effects:</strong> gives 1× <a href="../../items/g02_ambelie/">Sapphire Necklace</a>, sets stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>, spawns monsters on road1, sets stage 20 of <a href="../../quests/thieves_hidden/#stage-20">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-ambelie_guild02_19"></span><strong><code>ambelie_guild02_19</code></strong> Ambelie: “Take this and leave me, please.” — <strong>effects:</strong> gives 1× <a href="../../items/g02_ambelie/">Sapphire Necklace</a>, sets stage 24 of <a href="../../quests/Thieves02/#stage-24">Immaculate kidnapping</a>, spawns monsters on road1, sets stage 20 of <a href="../../quests/thieves_hidden/#stage-20">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>“It has been a pleasure, my lady.” → <em>conversation ends</em></li>
 <li>“Sure, thank you.” → <em>conversation ends</em></li>

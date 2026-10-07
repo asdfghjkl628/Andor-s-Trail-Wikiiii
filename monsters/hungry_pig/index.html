@@ -1102,7 +1102,7 @@
 
 
 <h1 id="hungry-pig"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_106.png" /> Hungry pig<a class="headerlink" href="#hungry-pig" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Hungry pig:</strong> Fallhaven: <a href="../../maps/gapfillerhole/#pin-npc-hungry_pig">gapfillerhole</a></p>
+<p><strong>Where to find Hungry pig:</strong> Fallhaven: <a href="../../maps/gapfillerhole/#pin-npc-hungry_pig">Gapfillerhole</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite }</p>
 <table>
@@ -1135,17 +1135,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/achievements/">Unusual experiences and achievements</a>: stage 135</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 51</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 51</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hungry pig. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Hungry pig. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/hungry_pig_selector.json" data-npc="Hungry pig" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (9 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-hungry_pig_selector"></span><strong><code>hungry_pig_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if faction “pig_faction” = 15)</em> → <a href="#d-hungry_pig_sick">hungry_pig_sick</a></li>
@@ -1159,8 +1159,8 @@
 </ul>
 <p><span id="d-hungry_pig_upset_stomach"></span><strong><code>hungry_pig_upset_stomach</code></strong> Hungry pig: “[Squeal] Please, stop feeding these to me. They're making my stomach hurt.”</p>
 <ul>
-<li>“What? You can talk?” <em>(if NOT reached stage 51 of <a href="../../quests/nondisplay/#stage-51">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-hungry_pig_upset_stomach_2">hungry_pig_upset_stomach_2</a></li>
-<li>“More eating and less talking.” <em>(if reached stage 51 of <a href="../../quests/nondisplay/#stage-51">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>)</em> → <a href="#d-hungry_pig_upset_stomach_2">hungry_pig_upset_stomach_2</a></li>
+<li>“What? You can talk?” <em>(if NOT reached stage 51 of <a href="../../quests/nondisplay/#stage-51">General story flags (hidden flag)</a>)</em> → <a href="#d-hungry_pig_upset_stomach_2">hungry_pig_upset_stomach_2</a></li>
+<li>“More eating and less talking.” <em>(if reached stage 51 of <a href="../../quests/nondisplay/#stage-51">General story flags (hidden flag)</a>)</em> → <a href="#d-hungry_pig_upset_stomach_2">hungry_pig_upset_stomach_2</a></li>
 </ul>
 <p><span id="d-hungry_pig_feed"></span><strong><code>hungry_pig_feed</code></strong> Hungry pig: “[Grunt]”</p>
 <ul>
@@ -1168,7 +1168,7 @@
 </ul>
 <p><span id="d-hungry_pig_grunt"></span><strong><code>hungry_pig_grunt</code></strong> Hungry pig: “[Grunt]”</p>
 <p><span id="d-hungry_pig_dies"></span><strong><code>hungry_pig_dies</code></strong> <a href="../none/">Dummy NPC</a>: “The hungry pig dies due to the rotten meat.” — <strong>effects:</strong> removes monsters from gapfillerhole, sets stage 135 of <a href="../../quests/achievements/#stage-135">Unusual experiences and achievements</a></p>
-<p><span id="d-hungry_pig_upset_stomach_2"></span><strong><code>hungry_pig_upset_stomach_2</code></strong> Hungry pig: “[Grunt]” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/nondisplay/#stage-51">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-hungry_pig_upset_stomach_2"></span><strong><code>hungry_pig_upset_stomach_2</code></strong> Hungry pig: “[Grunt]” — <strong>effects:</strong> sets stage 51 of <a href="../../quests/nondisplay/#stage-51">General story flags (hidden flag)</a></p>
 <ul>
 <li>“Here. Have another piece of rotten meat. It's good for you.” <em>(if hand over 1× <a href="../../items/meat2/">Rotten meat</a>)</em> → <a href="#d-hungry_pig_upset_stomach_3">hungry_pig_upset_stomach_3</a></li>
 </ul>

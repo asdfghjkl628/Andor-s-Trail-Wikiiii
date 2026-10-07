@@ -1113,7 +1113,7 @@
 
 
 <h1 id="farrik"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rogue1_0.png" /> Farrik<a class="headerlink" href="#farrik" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Farrik:</strong> Fallhaven: <a href="../../maps/fallhaven_derelict2/#pin-npc-farrik">fallhaven_derelict2</a>, Fallhaven: <a href="../../maps/fallhaven_derelict2_t/#pin-npc-farrik">fallhaven_derelict2_t</a></p>
+<p><strong>Where to find Farrik:</strong> Fallhaven: <a href="../../maps/fallhaven_derelict2/#pin-npc-farrik">Fallhaven derelict 2</a>, Fallhaven: <a href="../../maps/fallhaven_derelict2_t/#pin-npc-farrik">Fallhaven derelict 2 t</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rogue1_0.png){ .sprite }</p>
 <table>
@@ -1159,13 +1159,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/fallhaven_derelict2/">fallhaven_derelict2</a></td>
+<td><a href="../../maps/fallhaven_derelict2/">Fallhaven derelict 2</a></td>
 <td>Fallhaven</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/fallhaven_derelict2_t/">fallhaven_derelict2_t</a></td>
+<td><a href="../../maps/fallhaven_derelict2_t/">Fallhaven derelict 2 t</a></td>
 <td>Fallhaven</td>
 <td>1</td>
 <td>–</td>
@@ -1178,14 +1178,14 @@
 <li><a href="../../quests/farrik/">Night visit</a>: stages 10, 20, 30, 70, 80</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Farrik. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Farrik. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/farrik_select_1.json" data-npc="Farrik" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (39 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-farrik_select_1"></span><strong><code>farrik_select_1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 70 of <a href="../../quests/farrik/#stage-70">Night visit</a>)</em> → <a href="#d-farrik_return_2">farrik_return_2</a></li>
@@ -1256,7 +1256,7 @@
 </ul>
 <p><span id="d-farrik_beer_town_10"></span><strong><code>farrik_beer_town_10</code></strong> Farrik: “It is Sullengard, of course.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/beer_bootlegging/#stage-50">Beer Bootlegging</a></p>
 <ul>
-<li>“Sullengard? I've never been there. Where is it located?” <em>(if NOT reached stage 19 of <a href="../../quests/sullengard_hidden/#stage-19">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-farrik_beer_sull_unknown">farrik_beer_sull_unknown</a></li>
+<li>“Sullengard? I've never been there. Where is it located?” <em>(if NOT reached stage 19 of <a href="../../quests/sullengard_hidden/#stage-19">Sullengard story flags (hidden flag)</a>)</em> → <a href="#d-farrik_beer_sull_unknown">farrik_beer_sull_unknown</a></li>
 <li>“Oh Sullengard? I know where that is...[I think]” → <em>conversation ends</em></li>
 <li>“Thank you.” → <em>conversation ends</em></li>
 </ul>

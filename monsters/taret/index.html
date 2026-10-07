@@ -1102,7 +1102,7 @@
 
 
 <h1 id="taret"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_132.png" /> Taret<a class="headerlink" href="#taret" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Taret:</strong> Loneford: <a href="../../maps/loneford17/#pin-npc-taret">loneford17</a></p>
+<p><strong>Where to find Taret:</strong> Loneford: <a href="../../maps/loneford17/#pin-npc-taret">Loneford 17</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_132.png){ .sprite }</p>
 <table>
@@ -1134,17 +1134,17 @@
 </div>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/nondisplay_2/">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>: stages 60, 75</li>
+<li><a href="../../quests/nondisplay_2/">General story flags 2 (hidden flag)</a>: stages 60, 75</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Taret. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Taret. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/taret_0.json" data-npc="Taret" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (6 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-taret_0"></span><strong><code>taret_0</code></strong> Taret: “Hello kid. What can I do for you?”</p>
 <ul>
 <li>“I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → <a href="#d-taret_1">taret_1</a></li>
@@ -1159,17 +1159,17 @@
 <ul>
 <li>Next → <a href="#d-taret_3">taret_3</a></li>
 </ul>
-<p><span id="d-taret_3"></span><strong><code>taret_3</code></strong> Taret: “The nastiest person in town is probably my neighbor. <em>laughs</em>. Be careful about walking in on her!” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/nondisplay_2/#stage-60">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<p><span id="d-taret_3"></span><strong><code>taret_3</code></strong> Taret: “The nastiest person in town is probably my neighbor. <em>laughs</em>. Be careful about walking in on her!” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/nondisplay_2/#stage-60">General story flags 2 (hidden flag)</a></p>
 <ul>
-<li>“I appreciate the warning, but unfortunately it's too late. I already met her.” <em>(if reached stage 50 of <a href="../../quests/nondisplay_2/#stage-50">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 70 of <a href="../../quests/nondisplay_2/#stage-70">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-taret_4">taret_4</a></li>
+<li>“I appreciate the warning, but unfortunately it's too late. I already met her.” <em>(if reached stage 50 of <a href="../../quests/nondisplay_2/#stage-50">General story flags 2 (hidden flag)</a>; NOT reached stage 70 of <a href="../../quests/nondisplay_2/#stage-70">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-taret_4">taret_4</a></li>
 <li>“Thanks for the warning.” → <a href="#d-taret_4">taret_4</a></li>
-<li>“You are right. I told her you warned me that she was not always nice to strangers, but I think that just annoyed her.” <em>(if reached stage 70 of <a href="../../quests/nondisplay_2/#stage-70">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>; NOT reached stage 75 of <a href="../../quests/nondisplay_2/#stage-75">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a>)</em> → <a href="#d-taret_5">taret_5</a></li>
+<li>“You are right. I told her you warned me that she was not always nice to strangers, but I think that just annoyed her.” <em>(if reached stage 70 of <a href="../../quests/nondisplay_2/#stage-70">General story flags 2 (hidden flag)</a>; NOT reached stage 75 of <a href="../../quests/nondisplay_2/#stage-75">General story flags 2 (hidden flag)</a>)</em> → <a href="#d-taret_5">taret_5</a></li>
 </ul>
 <p><span id="d-taret_4"></span><strong><code>taret_4</code></strong> Taret: “Is there anything else I can help you with?”</p>
 <ul>
 <li>“I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?” → <a href="#d-taret_1">taret_1</a></li>
 </ul>
-<p><span id="d-taret_5"></span><strong><code>taret_5</code></strong> Taret: “Thanks kid. <em>sigh</em>. I expect she will be around here later to complain about that. You should be more careful what you say to people.” — <strong>effects:</strong> sets stage 75 of <a href="../../quests/nondisplay_2/#stage-75">Placeholder for hidden quest stages 2 (not displayed) (hidden flag)</a></p>
+<p><span id="d-taret_5"></span><strong><code>taret_5</code></strong> Taret: “Thanks kid. <em>sigh</em>. I expect she will be around here later to complain about that. You should be more careful what you say to people.” — <strong>effects:</strong> sets stage 75 of <a href="../../quests/nondisplay_2/#stage-75">General story flags 2 (hidden flag)</a></p>
 <ul>
 <li>“Sorry. You are right.” → <a href="#d-taret_4">taret_4</a></li>
 </ul>

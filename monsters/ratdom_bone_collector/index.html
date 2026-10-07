@@ -1113,7 +1113,7 @@
 
 
 <h1 id="loirash"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_63.png" /> Loirash<a class="headerlink" href="#loirash" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Loirash:</strong> Instrument maker: <a href="../../maps/ratdom_maze_464/#pin-npc-ratdom_bone_collector">ratdom_maze_464</a>, Museum: <a href="../../maps/ratdom_maze_634/#pin-npc-ratdom_bone_collector">ratdom_maze_634</a></p>
+<p><strong>Where to find Loirash:</strong> Instrument maker: <a href="../../maps/ratdom_maze_464/#pin-npc-ratdom_bone_collector">Ratdom maze 464</a>, Museum: <a href="../../maps/ratdom_maze_634/#pin-npc-ratdom_bone_collector">Ratdom maze 634</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_63.png){ .sprite }</p>
 <table>
@@ -1155,13 +1155,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/ratdom_maze_464/">ratdom_maze_464</a></td>
+<td><a href="../../maps/ratdom_maze_464/">Ratdom maze 464</a></td>
 <td>Instrument maker</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/ratdom_maze_634/">ratdom_maze_634</a></td>
+<td><a href="../../maps/ratdom_maze_634/">Ratdom maze 634</a></td>
 <td>Museum</td>
 <td>1</td>
 <td>–</td>
@@ -1170,21 +1170,21 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/ratdom_nondisplay/">ratdom_nondisplay (hidden flag)</a>: stage 121</li>
+<li><a href="../../quests/ratdom_nondisplay/">Ratdom story flags (hidden flag)</a>: stage 121</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Loirash. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Loirash. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_bone_collector.json" data-npc="Loirash" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (11 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-ratdom_bone_collector"></span><strong><code>ratdom_bone_collector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if carry 1× <a href="../../items/ratdom_rat_skelett_leg_coll/">Leg bone of a rat</a>)</em> → <a href="#d-ratdom_bone_collector_50">ratdom_bone_collector_50</a></li>
-<li>branch 2 <em>(if reached stage 121 of <a href="../../quests/ratdom_nondisplay/#stage-121">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_bone_collector_20">ratdom_bone_collector_20</a></li>
+<li>branch 2 <em>(if reached stage 121 of <a href="../../quests/ratdom_nondisplay/#stage-121">Ratdom story flags (hidden flag)</a>)</em> → <a href="#d-ratdom_bone_collector_20">ratdom_bone_collector_20</a></li>
 <li>branch 3 → <a href="#d-ratdom_bone_collector_10">ratdom_bone_collector_10</a></li>
 </ul>
 <p><span id="d-ratdom_bone_collector_50"></span><strong><code>ratdom_bone_collector_50</code></strong> <a href="./">Loirash</a>: “Looks like you have something that doesn't belong to you?”</p>
@@ -1192,7 +1192,7 @@
 <li>“Yes. I found this old leg bone of a rat. Can I purchase it?” → <a href="#d-ratdom_bone_collector_52">ratdom_bone_collector_52</a></li>
 <li>“[Lie] No. I haven't taken anything.” <em>(if hand over 1× <a href="../../items/ratdom_rat_skelett_leg_coll/">Leg bone of a rat</a>)</em> → <a href="#d-ratdom_bone_collector_54">ratdom_bone_collector_54</a></li>
 </ul>
-<p><span id="d-ratdom_bone_collector_20"></span><strong><code>ratdom_bone_collector_20</code></strong> <a href="./">Loirash</a>: “This cave is a great source of bones of high quality, so I will stay until my instrument is complete.” — <strong>effects:</strong> sets stage 121 of <a href="../../quests/ratdom_nondisplay/#stage-121">ratdom_nondisplay (hidden flag)</a></p>
+<p><span id="d-ratdom_bone_collector_20"></span><strong><code>ratdom_bone_collector_20</code></strong> <a href="./">Loirash</a>: “This cave is a great source of bones of high quality, so I will stay until my instrument is complete.” — <strong>effects:</strong> sets stage 121 of <a href="../../quests/ratdom_nondisplay/#stage-121">Ratdom story flags (hidden flag)</a></p>
 <ul>
 <li>“May I have a look?” → <a href="#d-ratdom_bone_collector_22">ratdom_bone_collector_22</a></li>
 <li>“OK. Have fun.” → <em>conversation ends</em></li>
@@ -1202,7 +1202,7 @@
 <li>Next → <a href="#d-ratdom_bone_collector_12">ratdom_bone_collector_12</a></li>
 </ul>
 <p><span id="d-ratdom_bone_collector_52"></span><strong><code>ratdom_bone_collector_52</code></strong> Loirash: “Well, no. This is my favorite bone, it makes a good sound. Put it back, please.”</p>
-<p><span id="d-ratdom_bone_collector_54"></span><strong><code>ratdom_bone_collector_54</code></strong> Loirash: “Yes you have. I'd better put it back again. This is a very valuable bone, you know? [Loirash takes the bone from you]” — <strong>effects:</strong> clears stage 120 of <a href="../../quests/ratdom_nondisplay/#stage-120">ratdom_nondisplay (hidden flag)</a></p>
+<p><span id="d-ratdom_bone_collector_54"></span><strong><code>ratdom_bone_collector_54</code></strong> Loirash: “Yes you have. I'd better put it back again. This is a very valuable bone, you know? [Loirash takes the bone from you]” — <strong>effects:</strong> clears stage 120 of <a href="../../quests/ratdom_nondisplay/#stage-120">Ratdom story flags (hidden flag)</a></p>
 <ul>
 <li>“I see.” → <em>conversation ends</em></li>
 </ul>

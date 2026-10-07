@@ -1113,7 +1113,7 @@
 
 
 <h1 id="arghes"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rogue1_0.png" /> Arghes<a class="headerlink" href="#arghes" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Arghes:</strong> Remgard: <a href="../../maps/remgard_tavern0/#pin-npc-arghes">remgard_tavern0</a></p>
+<p><strong>Where to find Arghes:</strong> Remgard: <a href="../../maps/remgard_tavern0/#pin-npc-arghes">Remgard tavern 0</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rogue1_0.png){ .sprite }</p>
 <table>
@@ -1186,17 +1186,17 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stage 70</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Brimhaven warehouse delivery (hidden flag)</a>: stage 70</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arghes. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Arghes. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/arghes.json" data-npc="Arghes" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (13 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-arghes"></span><strong><code>arghes</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 51 of <a href="../../quests/andor/#stage-51">Search for Andor</a>)</em> → <a href="#d-arghes_2">arghes_2</a></li>
@@ -1222,7 +1222,7 @@
 <ul>
 <li>Next → <a href="#d-arghes_4">arghes_4</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_arghes"></span><strong><code>brv_wh_delivery_arghes</code></strong> Arghes: “Yes kid, thank you. Here, take this gold for them.” — <strong>effects:</strong> clears stage 80 of <a href="../../quests/brv_wh_delivery/#stage-80">Delivery</a>, sets stage 70 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-70">Delivery - nondisplay (hidden flag)</a>, gives 50× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brv_wh_delivery_arghes"></span><strong><code>brv_wh_delivery_arghes</code></strong> Arghes: “Yes kid, thank you. Here, take this gold for them.” — <strong>effects:</strong> clears stage 80 of <a href="../../quests/brv_wh_delivery/#stage-80">Delivery</a>, sets stage 70 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-70">Brimhaven warehouse delivery (hidden flag)</a>, gives 50× <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“You're welcome.” → <em>conversation ends</em></li>
 <li>“Bye.” → <em>conversation ends</em></li>
@@ -1265,7 +1265,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 6 lines changed<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…”<br>· text: “Let's just say that I am a .. friend. You would do well to keep your …” → “Let's just say that I am a ... friend. You would do well to keep your…”</td>
+<td>Dialogue: 6 lines changed<br>· text: “I know .. a great deal of things.” → “I know ... a great deal of things.”<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.17/">v0.7.17</a></td>

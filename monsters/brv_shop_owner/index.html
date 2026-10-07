@@ -1113,7 +1113,7 @@
 
 
 <h1 id="shop-owner"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik1_2.png" /> Shop Owner<a class="headerlink" href="#shop-owner" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Shop Owner:</strong> Brimhaven: <a href="../../maps/brimhaven_shop/#pin-npc-brv_shop_owner">brimhaven_shop</a></p>
+<p><strong>Where to find Shop Owner:</strong> Brimhaven: <a href="../../maps/brimhaven_shop/#pin-npc-brv_shop_owner">Brimhaven shop</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_2.png){ .sprite }</p>
 <table>
@@ -1207,20 +1207,20 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brv_present/">Honor your parents</a>: stages 10, 20</li>
-<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stage 130</li>
+<li><a href="../../quests/brv_nondisplay/">Brimhaven story flags (hidden flag)</a>: stage 130</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shop Owner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Shop Owner. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_shop_owner_select.json" data-npc="Shop Owner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (11 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_shop_owner_select"></span><strong><code>brv_shop_owner_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 130 of <a href="../../quests/brv_nondisplay/#stage-130">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_shop_owner_20">brv_shop_owner_20</a></li>
+<li>Next <em>(if reached stage 130 of <a href="../../quests/brv_nondisplay/#stage-130">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_shop_owner_20">brv_shop_owner_20</a></li>
 <li>Next → <a href="#d-brv_shop_owner_1">brv_shop_owner_1</a></li>
 </ul>
 <p><span id="d-brv_shop_owner_20"></span><strong><code>brv_shop_owner_20</code></strong> Shop Owner: “How can I serve you, traveler?” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_present/#stage-10">Honor your parents</a></p>
@@ -1254,7 +1254,7 @@
 <ul>
 <li>“[You slowly pull out your coin bag and show him your gold.]” <em>(if have 1,000 gold)</em> → <a href="#d-brv_shop_owner_10">brv_shop_owner_10</a></li>
 </ul>
-<p><span id="d-brv_shop_owner_10"></span><strong><code>brv_shop_owner_10</code></strong> Shop Owner: “[His eyes widen.] Oh I was just kidding, child... I mean... honored customer!” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_nondisplay/#stage-130">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_shop_owner_10"></span><strong><code>brv_shop_owner_10</code></strong> Shop Owner: “[His eyes widen.] Oh I was just kidding, child... I mean... honored customer!” — <strong>effects:</strong> sets stage 130 of <a href="../../quests/brv_nondisplay/#stage-130">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>“Show me your wares, you worm.” → <em>shop opens</em></li>
 </ul>
@@ -1278,7 +1278,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Dialogue: 3 lines changed<br>· text: “How can I serve you, Sir?” → “How can I serve you, traveler?”<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…”</td>
+<td>Dialogue: 3 lines changed<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…”<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…”</td>
 </tr>
 </tbody>
 </table>

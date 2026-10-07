@@ -1102,7 +1102,7 @@
 
 
 <h1 id="dibella"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_188.png" /> Dibella<a class="headerlink" href="#dibella" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Dibella:</strong> Brightport: <a href="../../maps/brightport_school/#pin-npc-brightportnpc3">brightport_school</a></p>
+<p><strong>Where to find Dibella:</strong> Brightport: <a href="../../maps/brightport_school/#pin-npc-brightportnpc3">Brightport school</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_188.png){ .sprite }</p>
 <table>
@@ -1139,39 +1139,39 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/Stanwickquest/">No rest for the wicked</a>: stages 5, 15, 16, 31</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 66, 231</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 66, 231</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dibella. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Dibella. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_dibella.json" data-npc="Dibella" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (16 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
-<p><span id="d-brightport_dibella"></span><strong><code>brightport_dibella</code></strong> Dibella: “Welcome to the Brightport Academy. I'm Dibella, the Headmaster's assistant.” — <strong>effects:</strong> sets stage 231 of <a href="../../quests/brightport_nondisplay/#stage-231">brightport_nondisplay (hidden flag)</a></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
+<p><span id="d-brightport_dibella"></span><strong><code>brightport_dibella</code></strong> Dibella: “Welcome to the Brightport Academy. I'm Dibella, the Headmaster's assistant.” — <strong>effects:</strong> sets stage 231 of <a href="../../quests/brightport_nondisplay/#stage-231">Brightport story flags (hidden flag)</a></p>
 <ul>
-<li>Next <em>(if NOT reached stage 40 of <a href="../../quests/brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella_selector">brightport_dibella_selector</a></li>
+<li>Next <em>(if NOT reached stage 40 of <a href="../../quests/brightport_nondisplay/#stage-40">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella_selector">brightport_dibella_selector</a></li>
 </ul>
 <p><span id="d-brightport_dibella_selector"></span><strong><code>brightport_dibella_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 40 of <a href="../../quests/brightport_nondisplay/#stage-40">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella0">brightport_dibella0</a></li>
+<li>Next <em>(if reached stage 40 of <a href="../../quests/brightport_nondisplay/#stage-40">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella0">brightport_dibella0</a></li>
 <li>Next → <a href="#d-brightport_dibella1">brightport_dibella1</a></li>
 </ul>
 <p><span id="d-brightport_dibella0"></span><strong><code>brightport_dibella0</code></strong> Dibella: “Is there something I can assist you with?”</p>
 <ul>
-<li>“My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts. Could you…” <em>(if reached stage 110 of <a href="../../quests/andor/#stage-110">Search for Andor</a>; NOT reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella4">brightport_dibella4</a></li>
-<li>“I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” <em>(if NOT reached stage 15 of <a href="../../quests/Stanwickquest/#stage-15">No rest for the wicked</a>; carry 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>; reached stage 16 of <a href="../../quests/Stanwickquest/#stage-16">No rest for the wicked</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella2">brightport_dibella2</a></li>
-<li>“Could you tell me about the incident again?” <em>(if NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella6">brightport_dibella6</a></li>
+<li>“My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts. Could you…” <em>(if reached stage 110 of <a href="../../quests/andor/#stage-110">Search for Andor</a>; NOT reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella4">brightport_dibella4</a></li>
+<li>“I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” <em>(if NOT reached stage 15 of <a href="../../quests/Stanwickquest/#stage-15">No rest for the wicked</a>; carry 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>; reached stage 16 of <a href="../../quests/Stanwickquest/#stage-16">No rest for the wicked</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella2">brightport_dibella2</a></li>
+<li>“Could you tell me about the incident again?” <em>(if NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella6">brightport_dibella6</a></li>
 <li>“Could you tell me what you know about the library theft?” <em>(if reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>; NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>)</em> → <a href="#d-brightport_dibella9">brightport_dibella9</a></li>
 <li>“No, thanks.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-brightport_dibella1"></span><strong><code>brightport_dibella1</code></strong> Dibella: “It's time for the history lecture. If you hurry, you might still make it to the lecture room on time!”</p>
 <ul>
 <li>“My brother has been missing for a while, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” <em>(if NOT reached stage 16 of <a href="../../quests/Stanwickquest/#stage-16">No rest for the wicked</a>; reached stage 110 of <a href="../../quests/andor/#stage-110">Search for Andor</a>)</em> → <a href="#d-brightport_dibella4">brightport_dibella4</a></li>
-<li>“I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” <em>(if NOT reached stage 15 of <a href="../../quests/Stanwickquest/#stage-15">No rest for the wicked</a>; carry 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella2">brightport_dibella2</a></li>
-<li>“Could you tell me about the incident again?” <em>(if NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_dibella6">brightport_dibella6</a></li>
+<li>“I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” <em>(if NOT reached stage 15 of <a href="../../quests/Stanwickquest/#stage-15">No rest for the wicked</a>; carry 1× <a href="../../items/brightport_fruit/">Fresh fruit for Stanwick</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella2">brightport_dibella2</a></li>
+<li>“Could you tell me about the incident again?” <em>(if NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>; reached stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_dibella6">brightport_dibella6</a></li>
 <li>“Could you tell me what you know about the library theft?” <em>(if reached stage 25 of <a href="../../quests/Stanwickquest/#stage-25">No rest for the wicked</a>; NOT reached stage 96 of <a href="../../quests/Stanwickquest/#stage-96">No rest for the wicked</a>)</em> → <a href="#d-brightport_dibella9">brightport_dibella9</a></li>
 </ul>
 <p><span id="d-brightport_dibella4"></span><strong><code>brightport_dibella4</code></strong> Dibella: “Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed to enter his room except for his roommate and family.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/Stanwickquest/#stage-5">No rest for the wicked</a></p>
@@ -1199,7 +1199,7 @@
 <ul>
 <li>“Thank you miss.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-brightport_dibella7"></span><strong><code>brightport_dibella7</code></strong> Dibella: “Stanwick looks after the library, so after questioning the teachers and students, the headmaster decided that Stanwick would stay in his room until the end of the investigation.” — <strong>effects:</strong> sets stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">brightport_nondisplay (hidden flag)</a>, sets stage 16 of <a href="../../quests/Stanwickquest/#stage-16">No rest for the wicked</a></p>
+<p><span id="d-brightport_dibella7"></span><strong><code>brightport_dibella7</code></strong> Dibella: “Stanwick looks after the library, so after questioning the teachers and students, the headmaster decided that Stanwick would stay in his room until the end of the investigation.” — <strong>effects:</strong> sets stage 66 of <a href="../../quests/brightport_nondisplay/#stage-66">Brightport story flags (hidden flag)</a>, sets stage 16 of <a href="../../quests/Stanwickquest/#stage-16">No rest for the wicked</a></p>
 <ul>
 <li>“Judging by that, it sounds like this document was really important. Do you know what it was?” → <a href="#d-brightport_dibella8">brightport_dibella8</a></li>
 </ul>

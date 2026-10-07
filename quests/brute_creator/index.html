@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>)</td>
+<td><a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">Mountainlake 11</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/mountainlake11/">mountainlake11</a>, <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a></td>
+<td><a href="../../maps/mountainlake11/">Mountainlake 11</a>, <a href="../../maps/mountainlake8_cave/">Mountainlake 8 cave</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1191,7 +1191,7 @@
 <p>I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>Start with <a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>). Required:</p>
+<p>Start with <a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">Mountainlake 11</a>). Required:</p>
 <ul>
 <li>reached stage 10 of <a href="./#stage-10">Brutes</a></li>
 <li>NOT reached stage 30 of <a href="./#stage-30">Brutes</a></li>
@@ -1202,101 +1202,120 @@
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <p>No links to other quests were found in the dialogue conditions.</p>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
-<td>I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays.</td>
-<td><a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>)</td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><span id="stage-20"></span>20</td>
-<td>I told Bidro about the many nasty monsters along the way.<br><span class="qnote">🗺️ Part of <a href="../../maps/mountainlake8/">Mountainlake8</a> visibly changes.</span></td>
-<td><a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>)</td>
-<td>–</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><details class="jt"><summary><span class="s">I have met Bidro, a fisherman on the long way to Remgard. He… ▸</span><span class="l">▴ less</span></summary>I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays.</details></td>
+<td><a href="../../monsters/brute_fisherman/">Bidro</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-30"></span>30</td>
-<td>I have discovered a cave where brutes seem to pour out.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake8_cave/">Mountainlake8 cave</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a></td>
+<td><span id="stage-20"></span><a href="#route-20">20</a></td>
+<td>I told Bidro about the many nasty monsters along the way.<br><span class="qnote">🗺️ Part of <a href="../../maps/mountainlake8/">Mountainlake 8</a> visibly changes.</span></td>
+<td><a href="../../monsters/brute_fisherman/">Bidro</a></td>
 <td>–</td>
-<td>faction “brute_creator_flash” set to 1<br>sets stage 201 of <a href="../laeroth_nondisplay/#stage-201">laeroth_nondisplay (hidden flag)</a><br>faction “brute_creator_flash” set to 2</td>
 </tr>
 <tr>
-<td><span id="stage-35"></span>35</td>
+<td><span id="stage-30"></span><a href="#route-30">30</a></td>
+<td>I have discovered a cave where brutes seem to pour out.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/mountainlake8_cave/">Mountainlake 8 cave</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">Mountainlake 8 cave</a></td>
+<td>varies by route (see below)</td>
+</tr>
+<tr>
+<td><span id="stage-35"></span><a href="#route-35">35</a></td>
 <td>Then I have told Bidro about this cave full of brutes.</td>
-<td><a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>)</td>
-<td>stage 30</td>
+<td><a href="../../monsters/brute_fisherman/">Bidro</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-40"></span>40</td>
-<td>I have talked to Os, a scientist about brute matters. He has built up a brute production facility.</td>
-<td><a href="../../monsters/brute_creator/">Os</a> (<a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a>)</td>
-<td>–</td>
+<td><span id="stage-40"></span><a href="#route-40">40</a></td>
+<td><details class="jt"><summary><span class="s">I have talked to Os, a scientist about brute matters. He has built… ▸</span><span class="l">▴ less</span></summary>I have talked to Os, a scientist about brute matters. He has built up a brute production facility.</details></td>
+<td><a href="../../monsters/brute_creator/">Os</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-90"></span>90</td>
-<td>I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>)</td>
-<td>stage 35, stage 40</td>
+<td><span id="stage-90"></span><a href="#route-90">90</a></td>
+<td><details class="jt"><summary><span class="s">I told Bidro what I have learned from Os. He thanked me for this new… ▸</span><span class="l">▴ less</span></summary>I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife.</details> <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/brute_fisherman/">Bidro</a></td>
 <td>2,000 XP</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>) → choose “About the few people who come this way ...” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Brutes</a>; NOT reached stage 30 of <a href="./#stage-30">Brutes</a> → <strong>stage 10</strong>. NPC: “So what's stopping people from using the route?”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Bidro · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brute_fisherman/">Bidro</a>, choose “About the few people who come this way ...”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10; not yet stage 30</li>
+<li><em>“So what's stopping people from using the route?”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 20: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>) → choose “About the monsters along the way here ...” — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">Brutes</a>; NOT reached stage 30 of <a href="./#stage-30">Brutes</a> → <strong>stage 20</strong>. NPC: “Have you been able to find out why the path is rarely used anymore?”</li>
-</ol>
+<p><span id="route-20"></span></p>
+<details class="note">
+<summary>Stage 20 · Bidro · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brute_fisherman/">Bidro</a>, choose “About the monsters along the way here ...”</p>
+<ul>
+<li><strong>Needs:</strong> stage 20; not yet stage 30</li>
+<li><em>“Have you been able to find out why the path is rarely used anymore?”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 30: 2 routes</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a> → the conversation leads here automatically — <strong>conditions:</strong> random chance (3%) → <strong>stage 30</strong>; also faction “brute_creator_flash” set to 1, sets stage 201 of <a href="../laeroth_nondisplay/#stage-201">laeroth_nondisplay (hidden flag)</a></li>
-<li>stepping on a trigger on <a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a> → the conversation leads here automatically — <strong>conditions:</strong> random chance (5%) → <strong>stage 30</strong>; also faction “brute_creator_flash” set to 2, sets stage 201 of <a href="../laeroth_nondisplay/#stage-201">laeroth_nondisplay (hidden flag)</a></li>
-</ol>
+<p><span id="route-30"></span></p>
+<details class="note">
+<summary>Stage 30 · stepping on a trigger on mountainlake8_cave · 2 ways</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/mountainlake8_cave/">Mountainlake 8 cave</a></p>
+<ul>
+<li><strong>Needs:</strong> random chance (3%)</li>
+<li><strong>Gives:</strong> faction “brute_creator_flash” set to 1</li>
+<li><small>Also: sets stage 201 of <a href="../laeroth_nondisplay/#stage-201">Laeroth story flags (hidden flag)</a></small></li>
+</ul>
+<p><strong>Way 2:</strong> Stepping on a trigger on <a href="../../maps/mountainlake8_cave/">Mountainlake 8 cave</a></p>
+<ul>
+<li><strong>Needs:</strong> random chance (5%)</li>
+<li><strong>Gives:</strong> faction “brute_creator_flash” set to 2</li>
+<li><small>Also: sets stage 201 of <a href="../laeroth_nondisplay/#stage-201">Laeroth story flags (hidden flag)</a></small></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 35: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>) → choose “I have discovered a cave where brutes seem to pour out.” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">Brutes</a>; NOT reached stage 35 of <a href="./#stage-35">Brutes</a> → <strong>stage 35</strong>. NPC: “Oh interesting. What did you find in the cave?”</li>
-</ol>
+<p><span id="route-35"></span></p>
+<details class="note">
+<summary>Stage 35 · Bidro · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brute_fisherman/">Bidro</a>, choose “I have discovered a cave where brutes seem to pour out.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 30; not yet stage 35</li>
+<li><em>“Oh interesting. What did you find in the cave?”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 40: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brute_creator/">Os</a> (<a href="../../maps/mountainlake8_cave/">mountainlake8_cave</a>) → choose “That is understandable.” → <strong>stage 40</strong>. NPC: “I'll just say that my brutes evolve from rats. There are too many of them anyway.”</li>
-</ol>
+<p><span id="route-40"></span></p>
+<details class="note">
+<summary>Stage 40 · Os · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brute_creator/">Os</a>, choose “That is understandable.”</p>
+<ul>
+<li><em>“I'll just say that my brutes evolve from rats. There are too many of them anyway.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 90: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brute_fisherman/">Bidro</a> (<a href="../../maps/mountainlake11/">mountainlake11</a>) → choose “There are several bake rooms where the animals take on an even more hideous appearance. Until they finally…” — <strong>conditions:</strong> reached stage 35 of <a href="./#stage-35">Brutes</a>; reached stage 40 of <a href="./#stage-40">Brutes</a>; NOT reached stage 90 of <a href="./#stage-90">Brutes</a> → <strong>stage 90</strong>. NPC: “Wow, what a great story!”</li>
-</ol>
+<p><span id="route-90"></span></p>
+<details class="note">
+<summary>Stage 90 · Bidro · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brute_fisherman/">Bidro</a>, choose “There are several bake rooms where the animals take on an even more hideous appearance. Until they finally…”</p>
+<ul>
+<li><strong>Needs:</strong> stage 35, 40; not yet stage 90</li>
+<li><em>“Wow, what a great story!”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

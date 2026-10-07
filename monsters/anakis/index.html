@@ -1113,7 +1113,7 @@
 
 
 <h1 id="anakis"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_84.png" /> Anakis<a class="headerlink" href="#anakis" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Anakis:</strong> Brimhaven: <a href="../../maps/brimhaven7/#pin-npc-anakis">brimhaven7</a>, Brimhaven: <a href="../../maps/brimhaven_anakis_house/#pin-npc-anakis">brimhaven_anakis_house</a></p>
+<p><strong>Where to find Anakis:</strong> Brimhaven: <a href="../../maps/brimhaven7/#pin-npc-anakis">Brimhaven 7</a>, Brimhaven: <a href="../../maps/brimhaven_anakis_house/#pin-npc-anakis">Brimhaven anakis house</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_84.png){ .sprite }</p>
 <table>
@@ -1159,13 +1159,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven7/">brimhaven7</a></td>
+<td><a href="../../maps/brimhaven7/">Brimhaven 7</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/brimhaven_anakis_house/">brimhaven_anakis_house</a></td>
+<td><a href="../../maps/brimhaven_anakis_house/">Brimhaven anakis house</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1177,14 +1177,14 @@
 <li><a href="../../quests/quick_glance/">A quick glance</a>: stages 10, 15, 20, 40, 50, 60, 70, 75, 90</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Anakis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Anakis. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/anakis_start.json" data-npc="Anakis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (17 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-anakis_start"></span><strong><code>anakis_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/quick_glance/#stage-10">A quick glance</a>)</em> → <a href="#d-anakis_help_find_sister">anakis_help_find_sister</a></li>
@@ -1194,25 +1194,25 @@
 <li>branch 5 <em>(if NOT reached stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>; latest stage of <a href="../../quests/quick_glance/#stage-85">A quick glance</a> is 85)</em> → <a href="#d-anakis_thank_healing_sister">anakis_thank_healing_sister</a></li>
 <li>branch 6 <em>(if NOT reached stage 90 of <a href="../../quests/quick_glance/#stage-90">A quick glance</a>)</em> → <a href="#d-anakis_did_you_take_revenge">anakis_did_you_take_revenge</a></li>
 <li>branch 7 <em>(if reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-anakis_at_home_thanks">anakis_at_home_thanks</a></li>
-<li>branch 8 <em>(if reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>; NOT reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-anakis_at_home_angry">anakis_at_home_angry</a></li>
+<li>branch 8 <em>(if reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">Quick glance: statue found (hidden flag)</a>; NOT reached stage 85 of <a href="../../quests/quick_glance/#stage-85">A quick glance</a>)</em> → <a href="#d-anakis_at_home_angry">anakis_at_home_angry</a></li>
 <li>branch 9 → <a href="#d-anakis_at_home_morning">anakis_at_home_morning</a></li>
 </ul>
 <p><span id="d-anakis_help_find_sister"></span><strong><code>anakis_help_find_sister</code></strong> Anakis: “Hello my name is Anakis. I hope you can you help me. Yesterday my sister Juttarka left the city to go up to this hill. She did not come home and now I am searching for her. I fear she went into that cave.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/quick_glance/#stage-10">A quick glance</a></p>
 <ul>
-<li>“I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
-<li>“Yes, I will search for your sister.” <em>(if NOT reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_agreed_find_sister">anakis_agreed_find_sister</a></li>
+<li>“I found a statue that looks almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">Quick glance: statue found (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
+<li>“Yes, I will search for your sister.” <em>(if NOT reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">Quick glance: statue found (hidden flag)</a>)</em> → <a href="#d-anakis_agreed_find_sister">anakis_agreed_find_sister</a></li>
 <li>“No, that's none of my business.” → <a href="#d-anakis_deny_help">anakis_deny_help</a></li>
 </ul>
 <p><span id="d-anakis_meet_2nd_time"></span><strong><code>anakis_meet_2nd_time</code></strong> Anakis: “Hello again. Can you please help me to find my sister Juttarka?”</p>
 <ul>
-<li>“I found a statue looking almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
+<li>“I found a statue looking almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">Quick glance: statue found (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
 <li>“Yes, I will search for your sister.” → <a href="#d-anakis_agreed_find_sister">anakis_agreed_find_sister</a></li>
 <li>“No, that's none of my business.” → <a href="#d-anakis_deny_help">anakis_deny_help</a></li>
 </ul>
 <p><span id="d-anakis_did_you_find_my_sister"></span><strong><code>anakis_did_you_find_my_sister</code></strong> Anakis: “Did you find my sister?”</p>
 <ul>
 <li>“No, not yet.” → <em>conversation ends</em></li>
-<li>“I only found a stone statue that looks almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
+<li>“I only found a stone statue that looks almost like a real woman. [Describe the statue to Anakis]” <em>(if reached stage 10 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-10">Quick glance: statue found (hidden flag)</a>)</em> → <a href="#d-anakis_thank_finding_sister">anakis_thank_finding_sister</a></li>
 </ul>
 <p><span id="d-anakis_can_you_take_revenge"></span><strong><code>anakis_can_you_take_revenge</code></strong> Anakis: “Can you find the Basilisk and kill it? And maybe there is a way to help my sister. But take care that the same fate that happened to my sister does not befall you.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/quick_glance/#stage-60">A quick glance</a></p>
 <ul>
@@ -1227,9 +1227,9 @@
 </ul>
 <p><span id="d-anakis_did_you_take_revenge"></span><strong><code>anakis_did_you_take_revenge</code></strong> Anakis: “Did you kill the Basilisk?”</p>
 <ul>
-<li>“I found the Basilisk and killed it, but I decided to take the blood for myself.” <em>(if killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_sad_blood_not_use_for_sister">anakis_sad_blood_not_use_for_sister</a></li>
+<li>“I found the Basilisk and killed it, but I decided to take the blood for myself.” <em>(if killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">Quick glance: statue found (hidden flag)</a>)</em> → <a href="#d-anakis_sad_blood_not_use_for_sister">anakis_sad_blood_not_use_for_sister</a></li>
 <li>“I found the Basilisk and killed it.” <em>(if NOT reached stage 75 of <a href="../../quests/quick_glance/#stage-75">A quick glance</a>; killed 1× <a href="../old_basilisk/">Ancient basilisk</a>)</em> → <a href="#d-anakis_thank_taking_revenge">anakis_thank_taking_revenge</a></li>
-<li>“I found no way to help your sister, but I took revenge and killed the Basilisk.” <em>(if reached stage 75 of <a href="../../quests/quick_glance/#stage-75">A quick glance</a>; killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; NOT reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">quick_glance_hidden_found_statue (hidden flag)</a>)</em> → <a href="#d-anakis_thank_taking_revenge">anakis_thank_taking_revenge</a></li>
+<li>“I found no way to help your sister, but I took revenge and killed the Basilisk.” <em>(if reached stage 75 of <a href="../../quests/quick_glance/#stage-75">A quick glance</a>; killed 1× <a href="../old_basilisk/">Ancient basilisk</a>; NOT reached stage 30 of <a href="../../quests/quick_glance_hidden_found_statue/#stage-30">Quick glance: statue found (hidden flag)</a>)</em> → <a href="#d-anakis_thank_taking_revenge">anakis_thank_taking_revenge</a></li>
 <li>“No, not yet.” → <em>conversation ends</em></li>
 <li>“I will take revenge, but let me first think if it is possible to help your sister.” → <a href="#d-anakis_talk_to_priest">anakis_talk_to_priest</a></li>
 </ul>

@@ -1113,7 +1113,7 @@
 
 
 <h1 id="hofala"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_18.png" /> Hofala<a class="headerlink" href="#hofala" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Hofala:</strong> Guynmart Castle: <a href="../../maps/guynmart_main_2/#pin-npc-guynmart_cook">guynmart_main_2</a></p>
+<p><strong>Where to find Hofala:</strong> Guynmart Castle: <a href="../../maps/guynmart_main_2/#pin-npc-guynmart_cook">Guynmart main 2</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_18.png){ .sprite }</p>
 <table>
@@ -1187,18 +1187,18 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/guynmart/">Roses</a>: stages 62, 64</li>
-<li><a href="../../quests/guynmart_quest_cook_bread/">guynmart_quest_cook_bread (hidden flag)</a>: stage 1</li>
-<li><a href="../../quests/guynmart_quest_cook_lunch/">guynmart_quest_cook_lunch (hidden flag)</a>: stage 1</li>
+<li><a href="../../quests/guynmart_quest_cook_bread/">Guynmart quest cook bread (hidden flag)</a>: stage 1</li>
+<li><a href="../../quests/guynmart_quest_cook_lunch/">Guynmart quest cook lunch (hidden flag)</a>: stage 1</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hofala. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Hofala. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_cook_10.json" data-npc="Hofala" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (20 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-guynmart_cook_10"></span><strong><code>guynmart_cook_10</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 170 of <a href="../../quests/guynmart/#stage-170">Roses</a>)</em> → <a href="#d-guynmart_cook_14">guynmart_cook_14</a></li>
@@ -1235,7 +1235,7 @@
 </ul>
 <p><span id="d-guynmart_cook_30"></span><strong><code>guynmart_cook_30</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 1 of <a href="../../quests/guynmart_quest_cook_bread/#stage-1">guynmart_quest_cook_bread (hidden flag)</a>)</em> → <a href="#d-guynmart_cook_32">guynmart_cook_32</a></li>
+<li>branch 1 <em>(if reached stage 1 of <a href="../../quests/guynmart_quest_cook_bread/#stage-1">Guynmart quest cook bread (hidden flag)</a>)</em> → <a href="#d-guynmart_cook_32">guynmart_cook_32</a></li>
 <li>branch 2 → <a href="#d-guynmart_cook_34">guynmart_cook_34</a></li>
 </ul>
 <p><span id="d-guynmart_cook_50"></span><strong><code>guynmart_cook_50</code></strong> Hofala: “Yes, of course. But be quick, I still have a lot of work to do.”</p>
@@ -1282,11 +1282,11 @@
 <ul>
 <li>“Eh, yes, of course.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-guynmart_cook_120"></span><strong><code>guynmart_cook_120</code></strong> Hofala: “...and now it is suitable for her. Hurry now, while it is still hot!” — <strong>effects:</strong> gives <a href="../../items/guynmart_lunch/">Hannah's lunch</a>, sets stage 64 of <a href="../../quests/guynmart/#stage-64">Roses</a>, sets stage 1 of <a href="../../quests/guynmart_quest_cook_lunch/#stage-1">guynmart_quest_cook_lunch (hidden flag)</a></p>
+<p><span id="d-guynmart_cook_120"></span><strong><code>guynmart_cook_120</code></strong> Hofala: “...and now it is suitable for her. Hurry now, while it is still hot!” — <strong>effects:</strong> gives <a href="../../items/guynmart_lunch/">Hannah's lunch</a>, sets stage 64 of <a href="../../quests/guynmart/#stage-64">Roses</a>, sets stage 1 of <a href="../../quests/guynmart_quest_cook_lunch/#stage-1">Guynmart quest cook lunch (hidden flag)</a></p>
 <ul>
 <li>“Ouch! It is really hot!” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-guynmart_cook_36"></span><strong><code>guynmart_cook_36</code></strong> Hofala: “Here I have some fresh bread for you. Enjoy it.” — <strong>effects:</strong> gives <a href="../../items/bread/">Bread</a>, sets stage 1 of <a href="../../quests/guynmart_quest_cook_bread/#stage-1">guynmart_quest_cook_bread (hidden flag)</a></p>
+<p><span id="d-guynmart_cook_36"></span><strong><code>guynmart_cook_36</code></strong> Hofala: “Here I have some fresh bread for you. Enjoy it.” — <strong>effects:</strong> gives <a href="../../items/bread/">Bread</a>, sets stage 1 of <a href="../../quests/guynmart_quest_cook_bread/#stage-1">Guynmart quest cook bread (hidden flag)</a></p>
 <ul>
 <li>“Many thanks. Bye.” → <em>conversation ends</em></li>
 <li>“I would like to see Lady Hannah.” → <a href="#d-guynmart_cook_40">guynmart_cook_40</a></li>

@@ -1102,7 +1102,7 @@
 
 
 <h1 id="androni"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_23.png" /> Androni<a class="headerlink" href="#androni" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Androni:</strong> Brightport: <a href="../../maps/brightport_bakery1/#pin-npc-brightport_chef">brightport_bakery1</a></p>
+<p><strong>Where to find Androni:</strong> Brightport: <a href="../../maps/brightport_bakery1/#pin-npc-brightport_chef">Brightport bakery 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_23.png){ .sprite }</p>
 <table>
@@ -1134,17 +1134,17 @@
 </div>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stage 188</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stage 188</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Androni. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Androni. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_androni.json" data-npc="Androni" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (4 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_androni"></span><strong><code>brightport_androni</code></strong> Androni: “Ah hello, like the smell?”</p>
 <ul>
 <li>“Do you have butter or dough?” <em>(if reached stage 5 of <a href="../../quests/feygard_delicacy/#stage-5">A Feygard delicacy</a>)</em> → <a href="#d-brightport_androni1">brightport_androni1</a></li>
@@ -1152,11 +1152,11 @@
 </ul>
 <p><span id="d-brightport_androni1"></span><strong><code>brightport_androni1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 188 of <a href="../../quests/brightport_nondisplay/#stage-188">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_androni2">brightport_androni2</a></li>
-<li>Next <em>(if NOT reached stage 188 of <a href="../../quests/brightport_nondisplay/#stage-188">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_androni3">brightport_androni3</a></li>
+<li>Next <em>(if reached stage 188 of <a href="../../quests/brightport_nondisplay/#stage-188">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_androni2">brightport_androni2</a></li>
+<li>Next <em>(if NOT reached stage 188 of <a href="../../quests/brightport_nondisplay/#stage-188">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_androni3">brightport_androni3</a></li>
 </ul>
 <p><span id="d-brightport_androni2"></span><strong><code>brightport_androni2</code></strong> Androni: “I already gave you some, don't be cheeky.”</p>
-<p><span id="d-brightport_androni3"></span><strong><code>brightport_androni3</code></strong> Androni: “You want some? Here, I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.” — <strong>effects:</strong> sets stage 188 of <a href="../../quests/brightport_nondisplay/#stage-188">brightport_nondisplay (hidden flag)</a>, gives 1× <a href="../../items/dough/">Raw dough</a>, gives 1× <a href="../../items/butter/">Butter</a></p>
+<p><span id="d-brightport_androni3"></span><strong><code>brightport_androni3</code></strong> Androni: “You want some? Here, I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.” — <strong>effects:</strong> sets stage 188 of <a href="../../quests/brightport_nondisplay/#stage-188">Brightport story flags (hidden flag)</a>, gives 1× <a href="../../items/dough/">Raw dough</a>, gives 1× <a href="../../items/butter/">Butter</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

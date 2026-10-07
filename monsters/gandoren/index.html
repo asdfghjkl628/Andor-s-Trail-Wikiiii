@@ -1136,17 +1136,17 @@
 <ul>
 <li><a href="../../quests/feygard_shipment/">Feygard errands</a>: stages 10, 20, 21, 22, 25, 26, 80, 81</li>
 <li><a href="../../quests/loneford/">Flows through the veins</a>: stages 10, 11, 21</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 18</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 18</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gandoren. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Gandoren. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/gandoren.json" data-npc="Gandoren" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (53 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-gandoren"></span><strong><code>gandoren</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 81 of <a href="../../quests/feygard_shipment/#stage-81">Feygard errands</a>)</em> → <a href="#d-gandoren_completed_1">gandoren_completed_1</a></li>
@@ -1283,7 +1283,7 @@
 <li>“What troubles in Loneford are you referring to?” → <a href="#d-cr_loneford_st_1">cr_loneford_st_1</a></li>
 <li>“Anything I can do to help?” → <a href="#d-gandoren_6">gandoren_6</a></li>
 </ul>
-<p><span id="d-gandoren_tr_5"></span><strong><code>gandoren_tr_5</code></strong> Gandoren: “Go up in the lookout tower over there and talk to Minarra about equipment. She has our supply.” — <strong>effects:</strong> sets stage 18 of <a href="../../quests/nondisplay/#stage-18">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-gandoren_tr_5"></span><strong><code>gandoren_tr_5</code></strong> Gandoren: “Go up in the lookout tower over there and talk to Minarra about equipment. She has our supply.” — <strong>effects:</strong> sets stage 18 of <a href="../../quests/nondisplay/#stage-18">General story flags (hidden flag)</a></p>
 <p><span id="d-gandoren_delivered_3"></span><strong><code>gandoren_delivered_3</code></strong> Gandoren: “As for you, you have both my and the rest of the Feygard patrol's gratitude for helping us with this.”</p>
 <ul>
 <li>Next → <a href="#d-gandoren_completed_2">gandoren_completed_2</a></li>

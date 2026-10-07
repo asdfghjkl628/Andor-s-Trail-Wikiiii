@@ -1102,7 +1102,7 @@
 
 
 <h1 id="rennik"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik6_36.png" /> Rennik<a class="headerlink" href="#rennik" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Rennik:</strong> Blackwater Mountain: <a href="../../maps/wild6_house/#pin-npc-wild6_house_thief">wild6_house</a></p>
+<p><strong>Where to find Rennik:</strong> Blackwater Mountain: <a href="../../maps/wild6_house/#pin-npc-wild6_house_thief">Wild 6 house</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik6_36.png){ .sprite }</p>
 <table>
@@ -1135,24 +1135,24 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/wanted_men/">Wanted men</a>: stage 57</li>
-<li><a href="../../quests/sutdover_hidden/">Sutdove_nondisplay (hidden flag)</a>: stage 2</li>
+<li><a href="../../quests/sutdover_hidden/">Sutdover story flags (hidden flag)</a>: stage 2</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rennik. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Rennik. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/thief_rennik_selector.json" data-npc="Rennik" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (8 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-thief_rennik_selector"></span><strong><code>thief_rennik_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; NOT reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a>)</em> → <a href="#d-thief_rennik_10">thief_rennik_10</a></li>
-<li>Next <em>(if NOT reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a>)</em> → <a href="#d-thief_rennik_20">thief_rennik_20</a></li>
+<li>Next <em>(if NOT reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; NOT reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdover story flags (hidden flag)</a>)</em> → <a href="#d-thief_rennik_10">thief_rennik_10</a></li>
+<li>Next <em>(if NOT reached stage 57 of <a href="../../quests/wanted_men/#stage-57">Wanted men</a>; reached stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdover story flags (hidden flag)</a>)</em> → <a href="#d-thief_rennik_20">thief_rennik_20</a></li>
 <li>Next → <a href="#d-thief_rennik_generic_10">thief_rennik_generic_10</a></li>
 </ul>
-<p><span id="d-thief_rennik_10"></span><strong><code>thief_rennik_10</code></strong> Rennik: “Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, <a href="../../items/nixite_crystal/">Nixite crystal</a>, sets stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdove_nondisplay (hidden flag)</a></p>
+<p><span id="d-thief_rennik_10"></span><strong><code>thief_rennik_10</code></strong> Rennik: “Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you.” — <strong>effects:</strong> gives <a href="../../items/gold/">Gold coins</a>, <a href="../../items/nixite_crystal/">Nixite crystal</a>, sets stage 2 of <a href="../../quests/sutdover_hidden/#stage-2">Sutdover story flags (hidden flag)</a></p>
 <ul>
 <li>“Thank you.” → <a href="#d-thief_rennik_20">thief_rennik_20</a></li>
 </ul>

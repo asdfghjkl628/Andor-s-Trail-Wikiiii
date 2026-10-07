@@ -1234,7 +1234,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Dealer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Dealer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1250,14 +1250,14 @@
 <tr>
 <td><a href="#v-brv_blackjack_dealer"><code>brv_blackjack_dealer</code></a></td>
 <td>NPC</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/#pin-npc-brv_blackjack_dealer">brimhaven_tavern_west_back</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/#pin-npc-brv_blackjack_dealer">Brimhaven tavern west back</a></td>
 <td>–</td>
 <td>–</td>
 </tr>
 <tr>
 <td><a href="#v-brv_blackjack_dealer_evil"><code>brv_blackjack_dealer_evil</code></a></td>
 <td>Enemy</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/">Brimhaven tavern west back</a></td>
 <td>–</td>
 <td>30</td>
 </tr>
@@ -1265,25 +1265,25 @@
 </table>
 <h2 id="v-brv_blackjack_dealer">Brimhaven, Brimhaven tavern west back (brv_blackjack_dealer)<a class="headerlink" href="#v-brv_blackjack_dealer" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>brv_blackjack_dealer</code> · <strong>Type:</strong> NPC</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/#pin-npc-brv_blackjack_dealer">brimhaven_tavern_west_back</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/#pin-npc-brv_blackjack_dealer">Brimhaven tavern west back</a></p>
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/place_to_forge/">A place to forge</a>: stage 45</li>
 <li><a href="../../quests/brv_blackjack/">Fair play?</a>: stages 45, 50</li>
-<li><a href="../../quests/brv_blackjack_hidden/">brv_blackjack_hidden (hidden flag)</a>: stages 1, 10, 20, 30, 140</li>
+<li><a href="../../quests/brv_blackjack_hidden/">Brimhaven blackjack story flags (hidden flag)</a>: stages 1, 10, 20, 30, 140</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dealer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Dealer. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/blackjack_dealer_select.json" data-npc="Dealer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (99 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_blackjack_dealer-blackjack_dealer_select"></span><strong><code>blackjack_dealer_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if NOT reached stage 100 of <a href="../../quests/brv_blackjack_hidden/#stage-100">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_dealer_20">blackjack_dealer_20</a></li>
+<li>branch 1 <em>(if NOT reached stage 100 of <a href="../../quests/brv_blackjack_hidden/#stage-100">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_dealer_20">blackjack_dealer_20</a></li>
 <li>branch 2 → <a href="#d-brv_blackjack_dealer-blackjack_dealer_30">blackjack_dealer_30</a></li>
 </ul>
 <p><span id="d-brv_blackjack_dealer-blackjack_dealer_20"></span><strong><code>blackjack_dealer_20</code></strong> <a href="./">Dealer</a>: “Take a seat on the empty chair if you want to play a round.”</p>
@@ -1314,7 +1314,7 @@
 <ul>
 <li>Next → <a href="#d-brv_blackjack_dealer-blackjack_bet">blackjack_bet</a></li>
 </ul>
-<p><span id="d-brv_blackjack_dealer-blackjack_bet"></span><strong><code>blackjack_bet</code></strong> Dealer: “What is your 17+4 bet?” — <strong>effects:</strong> clears stage 1 of <a href="../../quests/brv_blackjack_hidden/#stage-1">brv_blackjack_hidden (hidden flag)</a>, clears stage 10 of <a href="../../quests/brv_blackjack_hidden/#stage-10">brv_blackjack_hidden (hidden flag)</a>, clears stage 20 of <a href="../../quests/brv_blackjack_hidden/#stage-20">brv_blackjack_hidden (hidden flag)</a>, clears stage 30 of <a href="../../quests/brv_blackjack_hidden/#stage-30">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_blackjack_dealer-blackjack_bet"></span><strong><code>blackjack_bet</code></strong> Dealer: “What is your 17+4 bet?” — <strong>effects:</strong> clears stage 1 of <a href="../../quests/brv_blackjack_hidden/#stage-1">Brimhaven blackjack story flags (hidden flag)</a>, clears stage 10 of <a href="../../quests/brv_blackjack_hidden/#stage-10">Brimhaven blackjack story flags (hidden flag)</a>, clears stage 20 of <a href="../../quests/brv_blackjack_hidden/#stage-20">Brimhaven blackjack story flags (hidden flag)</a>, clears stage 30 of <a href="../../quests/brv_blackjack_hidden/#stage-30">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>“1 Gold” <em>(if pay 1 gold)</em> → <a href="#d-brv_blackjack_dealer-blackjack_bet_1">blackjack_bet_1</a></li>
 <li>“2 Gold” <em>(if pay 2 gold)</em> → <a href="#d-brv_blackjack_dealer-blackjack_bet_2">blackjack_bet_2</a></li>
@@ -1323,19 +1323,19 @@
 <li>“Please explain the rules to me.” → <a href="#d-brv_blackjack_dealer-blackjack_rules">blackjack_rules</a></li>
 </ul>
 <p><span id="d-brv_blackjack_dealer-blackjack_dealer_collect_tax_30"></span><strong><code>blackjack_dealer_collect_tax_30</code></strong> Dealer: “Slams the table, six?! That greedy vulture...fine, here. Just get out before I change my mind.” — <strong>effects:</strong> sets stage 45 of <a href="../../quests/place_to_forge/#stage-45">A place to forge</a>, gives 6000× <a href="../../items/gold/">Gold coins</a></p>
-<p><span id="d-brv_blackjack_dealer-blackjack_bet_1"></span><strong><code>blackjack_bet_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 1 of <a href="../../quests/brv_blackjack_hidden/#stage-1">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_blackjack_dealer-blackjack_bet_1"></span><strong><code>blackjack_bet_1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 1 of <a href="../../quests/brv_blackjack_hidden/#stage-1">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <a href="#d-brv_blackjack_dealer-blackjack_draw_at_0">blackjack_draw_at_0</a></li>
 </ul>
-<p><span id="d-brv_blackjack_dealer-blackjack_bet_2"></span><strong><code>blackjack_bet_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_blackjack_hidden/#stage-10">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_blackjack_dealer-blackjack_bet_2"></span><strong><code>blackjack_bet_2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 10 of <a href="../../quests/brv_blackjack_hidden/#stage-10">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <a href="#d-brv_blackjack_dealer-blackjack_draw_at_0">blackjack_draw_at_0</a></li>
 </ul>
-<p><span id="d-brv_blackjack_dealer-blackjack_bet_5"></span><strong><code>blackjack_bet_5</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brv_blackjack_hidden/#stage-20">brv_blackjack_hidden (hidden flag)</a>, sets stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_blackjack_dealer-blackjack_bet_5"></span><strong><code>blackjack_bet_5</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 20 of <a href="../../quests/brv_blackjack_hidden/#stage-20">Brimhaven blackjack story flags (hidden flag)</a>, sets stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <a href="#d-brv_blackjack_dealer-blackjack_draw_at_0">blackjack_draw_at_0</a></li>
 </ul>
-<p><span id="d-brv_blackjack_dealer-blackjack_bet_10"></span><strong><code>blackjack_bet_10</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_blackjack_hidden/#stage-30">brv_blackjack_hidden (hidden flag)</a>, sets stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">brv_blackjack_hidden (hidden flag)</a></p>
+<p><span id="d-brv_blackjack_dealer-blackjack_bet_10"></span><strong><code>blackjack_bet_10</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_blackjack_hidden/#stage-30">Brimhaven blackjack story flags (hidden flag)</a>, sets stage 140 of <a href="../../quests/brv_blackjack_hidden/#stage-140">Brimhaven blackjack story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <a href="#d-brv_blackjack_dealer-blackjack_draw_at_0">blackjack_draw_at_0</a></li>
 </ul>
@@ -1656,10 +1656,10 @@
 </ul>
 <p><span id="d-brv_blackjack_dealer-blackjack_win"></span><strong><code>blackjack_win</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> faction “brv_blackjack_won” +1</p>
 <ul>
-<li>branch 1 <em>(if reached stage 1 of <a href="../../quests/brv_blackjack_hidden/#stage-1">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_1gold">blackjack_win_1gold</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/brv_blackjack_hidden/#stage-10">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_2gold">blackjack_win_2gold</a></li>
-<li>branch 3 <em>(if reached stage 20 of <a href="../../quests/brv_blackjack_hidden/#stage-20">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_5gold">blackjack_win_5gold</a></li>
-<li>branch 4 <em>(if reached stage 30 of <a href="../../quests/brv_blackjack_hidden/#stage-30">brv_blackjack_hidden (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_10gold">blackjack_win_10gold</a></li>
+<li>branch 1 <em>(if reached stage 1 of <a href="../../quests/brv_blackjack_hidden/#stage-1">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_1gold">blackjack_win_1gold</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/brv_blackjack_hidden/#stage-10">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_2gold">blackjack_win_2gold</a></li>
+<li>branch 3 <em>(if reached stage 20 of <a href="../../quests/brv_blackjack_hidden/#stage-20">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_5gold">blackjack_win_5gold</a></li>
+<li>branch 4 <em>(if reached stage 30 of <a href="../../quests/brv_blackjack_hidden/#stage-30">Brimhaven blackjack story flags (hidden flag)</a>)</em> → <a href="#d-brv_blackjack_dealer-blackjack_win_10gold">blackjack_win_10gold</a></li>
 </ul>
 <p><span id="d-brv_blackjack_dealer-blackjack_draw_at_14"></span><strong><code>blackjack_draw_at_14</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
@@ -2008,7 +2008,7 @@
 </details>
 <h2 id="v-brv_blackjack_dealer_evil">Brimhaven, Brimhaven tavern west back (brv_blackjack_dealer_evil)<a class="headerlink" href="#v-brv_blackjack_dealer_evil" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>brv_blackjack_dealer_evil</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_tavern_west_back/">Brimhaven tavern west back</a></p>
 <h3 id="combat-statistics">Combat statistics<a class="headerlink" href="#combat-statistics" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -2117,7 +2117,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_tavern_west_back/">brimhaven_tavern_west_back</a></td>
+<td><a href="../../maps/brimhaven_tavern_west_back/">Brimhaven tavern west back</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -2126,8 +2126,8 @@
 </table>
 <h3 id="quests-that-count-defeats">Quests that count defeats<a class="headerlink" href="#quests-that-count-defeats" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../quests/brv_blackjack/#stage-60">Fair play?</a> with <a href="../guard/#v-brv_tavern_west_guard">Guard</a> (<a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a>), walking into a blocked passage on <a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a> checks that this enemy has been defeated.</li>
-<li><a href="../../quests/brv_blackjack/#stage-60">Fair play?</a> with stepping on a trigger on <a href="../../maps/brimhaven_tavern_west/">brimhaven_tavern_west</a> checks that this enemy has been defeated.</li>
+<li><a href="../../quests/brv_blackjack/#stage-60">Fair play?</a> with <a href="../guard/#v-brv_tavern_west_guard">Guard</a> (<a href="../../maps/brimhaven_tavern_west/">Brimhaven tavern west</a>), walking into a blocked passage on <a href="../../maps/brimhaven_tavern_west/">Brimhaven tavern west</a> checks that this enemy has been defeated.</li>
+<li><a href="../../quests/brv_blackjack/#stage-60">Fair play?</a> with stepping on a trigger on <a href="../../maps/brimhaven_tavern_west/">Brimhaven tavern west</a> checks that this enemy has been defeated.</li>
 </ul>
 <h3 id="version-history_1">Version history<a class="headerlink" href="#version-history_1" title="Permanent link">&para;</a></h3>
 <table>

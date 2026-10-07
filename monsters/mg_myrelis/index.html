@@ -1102,7 +1102,7 @@
 
 
 <h1 id="myrelis"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_gisons_13.png" /> Myrelis<a class="headerlink" href="#myrelis" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Myrelis:</strong> Mt. Galmore: <a href="../../maps/galmore_58/#pin-npc-mg_myrelis">galmore_58</a></p>
+<p><strong>Where to find Myrelis:</strong> Mt. Galmore: <a href="../../maps/galmore_58/#pin-npc-mg_myrelis">Galmore 58</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_13.png){ .sprite }</p>
 <table>
@@ -1140,28 +1140,28 @@
 <ul>
 <li><a href="../../quests/nocmar/">Lost treasures</a>: stage 35</li>
 <li><a href="../../quests/undertell_barricades/">You shall pass</a>: stage 10</li>
-<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stage 10</li>
+<li><a href="../../quests/galmore_nondisplayed/">Galmore story flags (hidden flag)</a>: stage 10</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Myrelis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Myrelis. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/mg_myrelis_selector.json" data-npc="Myrelis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (15 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-mg_myrelis_selector"></span><strong><code>mg_myrelis_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 9 of <a href="../../quests/galmore_nondisplayed/#stage-9">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-mg_myrelis_illusion_10">mg_myrelis_illusion_10</a></li>
+<li>branch 1 <em>(if reached stage 9 of <a href="../../quests/galmore_nondisplayed/#stage-9">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-mg_myrelis_illusion_10">mg_myrelis_illusion_10</a></li>
 </ul>
 <p><span id="d-mg_myrelis_illusion_10"></span><strong><code>mg_myrelis_illusion_10</code></strong> Myrelis: “So, what did you think of my work?”</p>
 <ul>
 <li>“What was that back there?” → <a href="#d-mg_myrelis_illusion_what_was_that_20">mg_myrelis_illusion_what_was_that_20</a></li>
 <li>“You did that? How?” → <a href="#d-mg_myrelis_illusion_you_did_that_10">mg_myrelis_illusion_you_did_that_10</a></li>
 <li>“Why did you build that here?” → <a href="#d-mg_myrelis_illusion_why_build_that_10">mg_myrelis_illusion_why_build_that_10</a></li>
-<li>“We've already discussed it. Don't you remember?” <em>(if reached stage 10 of <a href="../../quests/galmore_nondisplayed/#stage-10">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-mg_myrelis_vaelric_5">mg_myrelis_vaelric_5</a></li>
-<li>“I was wondering, why are those barricades there? [pointing southwest]” <em>(if latest stage of <a href="../../quests/nocmar/#stage-20">Lost treasures</a> is 20; reached stage 3 of <a href="../../quests/undertell_hidden/#stage-3">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-mg_myrelis_barricades_10">mg_myrelis_barricades_10</a></li>
+<li>“We've already discussed it. Don't you remember?” <em>(if reached stage 10 of <a href="../../quests/galmore_nondisplayed/#stage-10">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-mg_myrelis_vaelric_5">mg_myrelis_vaelric_5</a></li>
+<li>“I was wondering, why are those barricades there? [pointing southwest]” <em>(if latest stage of <a href="../../quests/nocmar/#stage-20">Lost treasures</a> is 20; reached stage 3 of <a href="../../quests/undertell_hidden/#stage-3">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-mg_myrelis_barricades_10">mg_myrelis_barricades_10</a></li>
 <li>“How do I get past those barricades?” <em>(if latest stage of <a href="../../quests/nocmar/#stage-35">Lost treasures</a> is 35; NOT reached stage 20 of <a href="../../quests/undertell_barricades/#stage-20">You shall pass</a>)</em> → <a href="#d-mg_myrelis_shannal_10">mg_myrelis_shannal_10</a></li>
 <li>“I am wondering if you could help me, I am looking for something.” <em>(if latest stage of <a href="../../quests/nocmar/#stage-30">Lost treasures</a> is 30)</em> → <a href="#d-mg_myrelis_undertell_10">mg_myrelis_undertell_10</a></li>
 </ul>
@@ -1197,7 +1197,7 @@
 <li>“I'm looking for some place called "Undertell", do you know where it is?” → <a href="#d-mg_myrelis_undertell_20">mg_myrelis_undertell_20</a></li>
 <li>“I'm looking for my brother. His name is Andor and he looks a lot like me.” → <a href="#d-mg_myrelis_andor">mg_myrelis_andor</a></li>
 </ul>
-<p><span id="d-mg_myrelis_vaelric_10"></span><strong><code>mg_myrelis_vaelric_10</code></strong> Myrelis: “Sure, ask away.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/galmore_nondisplayed/#stage-10">galmore_nondisplayed (hidden flag)</a></p>
+<p><span id="d-mg_myrelis_vaelric_10"></span><strong><code>mg_myrelis_vaelric_10</code></strong> Myrelis: “Sure, ask away.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/galmore_nondisplayed/#stage-10">Galmore story flags (hidden flag)</a></p>
 <ul>
 <li>“Do you know of Vaelric, the healer?” → <a href="#d-mg_myrelis_vaelric_20">mg_myrelis_vaelric_20</a></li>
 </ul>

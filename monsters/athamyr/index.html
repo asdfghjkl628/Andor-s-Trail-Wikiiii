@@ -1131,25 +1131,25 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/bucus/">Key of Luthor</a>: stages 30, 40, 50</li>
-<li><a href="../../quests/feygard_nondisplayed/">feygard_nondisplayed (hidden flag)</a>: stages 60, 61, 63, 71, 73</li>
+<li><a href="../../quests/feygard_nondisplayed/">Feygard story flags (hidden flag)</a>: stages 60, 61, 63, 71, 73</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Athamyr. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Athamyr. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/athamyr.json" data-npc="Athamyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (29 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-athamyr"></span><strong><code>athamyr</code></strong> Athamyr: “Walk with the Shadow.”</p>
 <ul>
 <li>“Have you been down in the catacombs?” <em>(if reached stage 20 of <a href="../../quests/bucus/#stage-20">Key of Luthor</a>; NOT reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>)</em> → <a href="#d-athamyr_select">athamyr_select</a></li>
-<li>“May I ask you a question? Do you know a way to climb over the graveyard fence to the south?” <em>(if reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>; NOT reached stage 60 of <a href="../../quests/feygard_nondisplayed/#stage-60">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">feygard_nondisplayed (hidden flag)</a>; NOT carry 1× <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a>; NOT wearing <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a>)</em> → <a href="#d-athamyr_coup_10">athamyr_coup_10</a></li>
-<li>“What about the ladder?” <em>(if reached stage 60 of <a href="../../quests/feygard_nondisplayed/#stage-60">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 61 of <a href="../../quests/feygard_nondisplayed/#stage-61">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">feygard_nondisplayed (hidden flag)</a>)</em> → <a href="#d-athamyr_coup_24a">athamyr_coup_24a</a></li>
-<li>“I will go and find your ladder.” <em>(if reached stage 71 of <a href="../../quests/feygard_nondisplayed/#stage-71">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">feygard_nondisplayed (hidden flag)</a>)</em> → <em>conversation ends</em></li>
-<li>“I tried the ladder, but the window is locked.” <em>(if reached stage 62 of <a href="../../quests/feygard_nondisplayed/#stage-62">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 63 of <a href="../../quests/feygard_nondisplayed/#stage-63">feygard_nondisplayed (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">feygard_nondisplayed (hidden flag)</a>)</em> → <a href="#d-athamyr_coup_30">athamyr_coup_30</a></li>
-<li>“The ladder is gone and the window shut.” <em>(if reached stage 63 of <a href="../../quests/feygard_nondisplayed/#stage-63">feygard_nondisplayed (hidden flag)</a>; reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">feygard_nondisplayed (hidden flag)</a>)</em> → <a href="#d-athamyr_coup_40">athamyr_coup_40</a></li>
+<li>“May I ask you a question? Do you know a way to climb over the graveyard fence to the south?” <em>(if reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>; NOT reached stage 60 of <a href="../../quests/feygard_nondisplayed/#stage-60">Feygard story flags (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">Feygard story flags (hidden flag)</a>; NOT carry 1× <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a>; NOT wearing <a href="../../items/jewel_fallhaven/">Jewel of Fallhaven</a>)</em> → <a href="#d-athamyr_coup_10">athamyr_coup_10</a></li>
+<li>“What about the ladder?” <em>(if reached stage 60 of <a href="../../quests/feygard_nondisplayed/#stage-60">Feygard story flags (hidden flag)</a>; NOT reached stage 61 of <a href="../../quests/feygard_nondisplayed/#stage-61">Feygard story flags (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">Feygard story flags (hidden flag)</a>)</em> → <a href="#d-athamyr_coup_24a">athamyr_coup_24a</a></li>
+<li>“I will go and find your ladder.” <em>(if reached stage 71 of <a href="../../quests/feygard_nondisplayed/#stage-71">Feygard story flags (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">Feygard story flags (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+<li>“I tried the ladder, but the window is locked.” <em>(if reached stage 62 of <a href="../../quests/feygard_nondisplayed/#stage-62">Feygard story flags (hidden flag)</a>; NOT reached stage 63 of <a href="../../quests/feygard_nondisplayed/#stage-63">Feygard story flags (hidden flag)</a>; NOT reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">Feygard story flags (hidden flag)</a>)</em> → <a href="#d-athamyr_coup_30">athamyr_coup_30</a></li>
+<li>“The ladder is gone and the window shut.” <em>(if reached stage 63 of <a href="../../quests/feygard_nondisplayed/#stage-63">Feygard story flags (hidden flag)</a>; reached stage 69 of <a href="../../quests/feygard_nondisplayed/#stage-69">Feygard story flags (hidden flag)</a>)</em> → <a href="#d-athamyr_coup_40">athamyr_coup_40</a></li>
 <li>“The catacombs were interesting.” <em>(if reached stage 100 of <a href="../../quests/bucus/#stage-100">Key of Luthor</a>)</em> → <a href="#d-athamyr_complete_12">athamyr_complete_12</a></li>
 </ul>
 <p><span id="d-athamyr_select"></span><strong><code>athamyr_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
@@ -1201,7 +1201,7 @@
 <ul>
 <li>“Well, behind the fence is the shop of the tailor.” → <a href="#d-athamyr_coup_14">athamyr_coup_14</a></li>
 </ul>
-<p><span id="d-athamyr_coup_28"></span><strong><code>athamyr_coup_28</code></strong> Athamyr: “I knew you would do that, my friend. So I have already hidden the ladder in the basement near the window.” — <strong>effects:</strong> sets stage 61 of <a href="../../quests/feygard_nondisplayed/#stage-61">feygard_nondisplayed (hidden flag)</a>, sets stage 71 of <a href="../../quests/feygard_nondisplayed/#stage-71">feygard_nondisplayed (hidden flag)</a></p>
+<p><span id="d-athamyr_coup_28"></span><strong><code>athamyr_coup_28</code></strong> Athamyr: “I knew you would do that, my friend. So I have already hidden the ladder in the basement near the window.” — <strong>effects:</strong> sets stage 61 of <a href="../../quests/feygard_nondisplayed/#stage-61">Feygard story flags (hidden flag)</a>, sets stage 71 of <a href="../../quests/feygard_nondisplayed/#stage-71">Feygard story flags (hidden flag)</a></p>
 <ul>
 <li>“Thank you.” → <em>conversation ends</em></li>
 </ul>
@@ -1232,7 +1232,7 @@
 <ul>
 <li>“Eh, yes. Exactly.” → <a href="#d-athamyr_coup_18">athamyr_coup_18</a></li>
 </ul>
-<p><span id="d-athamyr_coup_38"></span><strong><code>athamyr_coup_38</code></strong> Athamyr: “The window is already unlocked.” — <strong>effects:</strong> sets stage 63 of <a href="../../quests/feygard_nondisplayed/#stage-63">feygard_nondisplayed (hidden flag)</a>, clears stage 72 of <a href="../../quests/feygard_nondisplayed/#stage-72">feygard_nondisplayed (hidden flag)</a>, sets stage 73 of <a href="../../quests/feygard_nondisplayed/#stage-73">feygard_nondisplayed (hidden flag)</a></p>
+<p><span id="d-athamyr_coup_38"></span><strong><code>athamyr_coup_38</code></strong> Athamyr: “The window is already unlocked.” — <strong>effects:</strong> sets stage 63 of <a href="../../quests/feygard_nondisplayed/#stage-63">Feygard story flags (hidden flag)</a>, clears stage 72 of <a href="../../quests/feygard_nondisplayed/#stage-72">Feygard story flags (hidden flag)</a>, sets stage 73 of <a href="../../quests/feygard_nondisplayed/#stage-73">Feygard story flags (hidden flag)</a></p>
 <ul>
 <li>“Thank you.” → <em>conversation ends</em></li>
 <li>“I hope for your sake that was all.” → <em>conversation ends</em></li>
@@ -1257,7 +1257,7 @@
 <ul>
 <li>Next → <a href="#d-athamyr_coup_24">athamyr_coup_24</a></li>
 </ul>
-<p><span id="d-athamyr_coup_24"></span><strong><code>athamyr_coup_24</code></strong> Athamyr: “Then you can climb through a window and reach a path right to the back of the tailor's house.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/feygard_nondisplayed/#stage-60">feygard_nondisplayed (hidden flag)</a></p>
+<p><span id="d-athamyr_coup_24"></span><strong><code>athamyr_coup_24</code></strong> Athamyr: “Then you can climb through a window and reach a path right to the back of the tailor's house.” — <strong>effects:</strong> sets stage 60 of <a href="../../quests/feygard_nondisplayed/#stage-60">Feygard story flags (hidden flag)</a></p>
 <ul>
 <li>“OK. I have ten deliciously cooked pieces of meat now.” <em>(if carry 10× <a href="../../items/meat_cooked/">Cooked meat</a>)</em> → <a href="#d-athamyr_coup_26">athamyr_coup_26</a></li>
 <li>“I will go for it now.” <em>(if NOT carry 10× <a href="../../items/meat_cooked/">Cooked meat</a>)</em> → <em>conversation ends</em></li>

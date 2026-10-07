@@ -1222,7 +1222,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Bela. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, loot or shop stock. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Bela. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1308,17 +1308,17 @@
 <li><a href="../../quests/wicked_witch/">A Wicked witch</a>: stage 10</li>
 <li><a href="../../quests/bela_gsnake/">A giant snake</a>: stages 10, 90</li>
 <li><a href="../../quests/undertell_barricades/">You shall pass</a>: stage 150</li>
-<li><a href="../../quests/fallhaventavern/">Room to rent (hidden flag)</a>: stage 10</li>
+<li><a href="../../quests/fallhaventavern/">Fallhaven tavern room (hidden flag)</a>: stage 10</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bela. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Bela. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/bela_gsnake.json" data-npc="Bela" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (31 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-bela-bela_gsnake"></span><strong><code>bela_gsnake</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 90 of <a href="../../quests/bela_gsnake/#stage-90">A giant snake</a>; NOT reached stage 50 of <a href="../../quests/wicked_witch/#stage-50">A Wicked witch</a>; NOT reached stage 70 of <a href="../../quests/wicked_witch/#stage-70">A Wicked witch</a>; NOT reached stage 95 of <a href="../../quests/wicked_witch/#stage-95">A Wicked witch</a>; NOT reached stage 96 of <a href="../../quests/wicked_witch/#stage-96">A Wicked witch</a>)</em> → <a href="#d-bela-bela_witch_10">bela_witch_10</a></li>
@@ -1374,7 +1374,7 @@
 </ul>
 <p><span id="d-bela-bela_room_select"></span><strong><code>bela_room_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/fallhaventavern/#stage-10">Room to rent (hidden flag)</a>)</em> → <a href="#d-bela-bela_room_3">bela_room_3</a></li>
+<li>branch 1 <em>(if reached stage 10 of <a href="../../quests/fallhaventavern/#stage-10">Fallhaven tavern room (hidden flag)</a>)</em> → <a href="#d-bela-bela_room_3">bela_room_3</a></li>
 <li>branch 2 → <a href="#d-bela-bela_room_1">bela_room_1</a></li>
 </ul>
 <p><span id="d-bela-bela_beer"></span><strong><code>bela_beer</code></strong> Bela: “Who is Torilo?”</p>
@@ -1413,7 +1413,7 @@
 <ul>
 <li>“[Buy for 10 gold]” <em>(if pay 10 gold)</em> → <a href="#d-bela-bela_room_2">bela_room_2</a></li>
 <li>“I really need to rest but I don't have 10 gold. I will wash the dishes. [Wash the dishes]” <em>(if NOT have 10 gold; reached stage 1 of <a href="../../quests/Thieves03/#stage-1">The ruthless Crackshot</a>)</em> → <a href="#d-bela-bela_room_2">bela_room_2</a></li>
-<li>“Umar sent me.” <em>(if reached stage 20 of <a href="../../quests/misc_nondisplay/#stage-20">misc_nondisplay (hidden flag)</a>)</em> → <a href="#d-bela-bela_room_2">bela_room_2</a></li>
+<li>“Umar sent me.” <em>(if reached stage 20 of <a href="../../quests/misc_nondisplay/#stage-20">Miscellaneous story flags (hidden flag)</a>)</em> → <a href="#d-bela-bela_room_2">bela_room_2</a></li>
 <li>“No thanks.” → <a href="#d-bela-bela">bela</a></li>
 </ul>
 <p><span id="d-bela-bela_beer_10"></span><strong><code>bela_beer_10</code></strong> Bela: “No, really, I don't know anyone by that name.”</p>
@@ -1428,7 +1428,7 @@
 <ul>
 <li>Next → <a href="#d-bela-bela_witch_31">bela_witch_31</a></li>
 </ul>
-<p><span id="d-bela-bela_room_2"></span><strong><code>bela_room_2</code></strong> Bela: “OK. Take the last room down at the end of the hall.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/fallhaventavern/#stage-10">Room to rent (hidden flag)</a></p>
+<p><span id="d-bela-bela_room_2"></span><strong><code>bela_room_2</code></strong> Bela: “OK. Take the last room down at the end of the hall.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/fallhaventavern/#stage-10">Fallhaven tavern room (hidden flag)</a></p>
 <ul>
 <li>“Thank you. There was something else I wanted to talk about.” → <a href="#d-bela-bela">bela</a></li>
 <li>“Thanks, bye.” → <em>conversation ends</em></li>
@@ -1627,10 +1627,10 @@
 <h3 id="quests_1">Quests<a class="headerlink" href="#quests_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/undertell_barricades/">You shall pass</a>: stage 150</li>
-<li><a href="../../quests/fallhaventavern/">Room to rent (hidden flag)</a>: stage 10</li>
+<li><a href="../../quests/fallhaventavern/">Fallhaven tavern room (hidden flag)</a>: stage 10</li>
 </ul>
 <h3 id="dialogue-simulator_1">Dialogue simulator<a class="headerlink" href="#dialogue-simulator_1" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bela. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Bela. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/bela.json" data-npc="Bela" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>

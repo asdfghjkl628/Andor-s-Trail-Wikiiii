@@ -1113,7 +1113,7 @@
 
 
 <h1 id="nor-agent"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_84.png" /> Nor agent<a class="headerlink" href="#nor-agent" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Nor agent:</strong> Brightport: <a href="../../maps/brightport_abandoned/#pin-npc-brightport_agent">brightport_abandoned</a>, Brightport: <a href="../../maps/brightport_jail/#pin-npc-brightport_agent">brightport_jail</a></p>
+<p><strong>Where to find Nor agent:</strong> Brightport: <a href="../../maps/brightport_abandoned/#pin-npc-brightport_agent">Brightport abandoned</a>, Brightport: <a href="../../maps/brightport_jail/#pin-npc-brightport_agent">Brightport jail</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite }</p>
 <table>
@@ -1155,13 +1155,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brightport_abandoned/">brightport_abandoned</a></td>
+<td><a href="../../maps/brightport_abandoned/">Brightport abandoned</a></td>
 <td>Brightport</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
 </tr>
 <tr>
-<td><a href="../../maps/brightport_jail/">brightport_jail</a></td>
+<td><a href="../../maps/brightport_jail/">Brightport jail</a></td>
 <td>Brightport</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1171,17 +1171,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brightport_thieves/">Boxed in</a>: stages 20, 30, 32</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 141, 142, 143, 158, 208</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 141, 142, 143, 158, 208</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nor agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Nor agent. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_agent.json" data-npc="Nor agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (16 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_agent"></span><strong><code>brightport_agent</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>Next <em>(if reached stage 120 of <a href="../../quests/brightport_goons/#stage-120">Priceful vengeance</a>; reached stage 30 of <a href="../../quests/brightport_thieves/#stage-30">Boxed in</a>)</em> → <a href="#d-brightport_agent6alt">brightport_agent6alt</a></li>
@@ -1222,15 +1222,15 @@
 <li>“Hey, you clearly were expecting me!” → <a href="#d-brightport_agent4">brightport_agent4</a></li>
 <li>“If it's a code word I'm supposed to use, no one told me anything.” → <a href="#d-brightport_agent4">brightport_agent4</a></li>
 </ul>
-<p><span id="d-brightport_crate1"></span><strong><code>brightport_crate1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 141 of <a href="../../quests/brightport_nondisplay/#stage-141">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_crate1"></span><strong><code>brightport_crate1</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 141 of <a href="../../quests/brightport_nondisplay/#stage-141">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_agent7">brightport_agent7</a></li>
 </ul>
-<p><span id="d-brightport_crate2"></span><strong><code>brightport_crate2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 142 of <a href="../../quests/brightport_nondisplay/#stage-142">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_crate2"></span><strong><code>brightport_crate2</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 142 of <a href="../../quests/brightport_nondisplay/#stage-142">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_agent7">brightport_agent7</a></li>
 </ul>
-<p><span id="d-brightport_crate3"></span><strong><code>brightport_crate3</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 143 of <a href="../../quests/brightport_nondisplay/#stage-143">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_crate3"></span><strong><code>brightport_crate3</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 143 of <a href="../../quests/brightport_nondisplay/#stage-143">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_agent7">brightport_agent7</a></li>
 </ul>
@@ -1238,8 +1238,8 @@
 <ul>
 <li>Next → <a href="#d-brightport_agent5">brightport_agent5</a></li>
 </ul>
-<p><span id="d-brightport_agent7"></span><strong><code>brightport_agent7</code></strong> Nor agent: “Take this package and hide somewhere before the guards get here, I will escape through the chimney. Shadow be with you.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/brightport_thieves/#stage-32">Boxed in</a>, gives 1× <a href="../../items/brightportpackage/">Package</a>, removes monsters from brightport_abandoned, starts timer “brightporthide”, sets stage 208 of <a href="../../quests/brightport_nondisplay/#stage-208">brightport_nondisplay (hidden flag)</a></p>
-<p><span id="d-brightport_agent5"></span><strong><code>brightport_agent5</code></strong> <a href="../none/">Dummy NPC</a>: “As the courier is taking something out of his robe you hear a whistle.” — <strong>effects:</strong> sets stage 158 of <a href="../../quests/brightport_nondisplay/#stage-158">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_agent7"></span><strong><code>brightport_agent7</code></strong> Nor agent: “Take this package and hide somewhere before the guards get here, I will escape through the chimney. Shadow be with you.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/brightport_thieves/#stage-32">Boxed in</a>, gives 1× <a href="../../items/brightportpackage/">Package</a>, removes monsters from brightport_abandoned, starts timer “brightporthide”, sets stage 208 of <a href="../../quests/brightport_nondisplay/#stage-208">Brightport story flags (hidden flag)</a></p>
+<p><span id="d-brightport_agent5"></span><strong><code>brightport_agent5</code></strong> <a href="../none/">Dummy NPC</a>: “As the courier is taking something out of his robe you hear a whistle.” — <strong>effects:</strong> sets stage 158 of <a href="../../quests/brightport_nondisplay/#stage-158">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_agent6_selector">brightport_agent6_selector</a></li>
 </ul>

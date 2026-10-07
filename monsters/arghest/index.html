@@ -1102,7 +1102,7 @@
 
 
 <h1 id="arghest"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_81.png" /> Arghest<a class="headerlink" href="#arghest" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Arghest:</strong> Prim: <a href="../../maps/blackwater_mountain13/#pin-npc-arghest">blackwater_mountain13</a></p>
+<p><strong>Where to find Arghest:</strong> Prim: <a href="../../maps/blackwater_mountain13/#pin-npc-arghest">Blackwater mountain 13</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite }</p>
 <table>
@@ -1135,20 +1135,20 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/prim_innquest/">Well rested</a>: stages 20, 30, 40</li>
-<li><a href="../../quests/bwm72_beginning/">Hidden: events in bwm (hidden flag)</a>: stage 22</li>
+<li><a href="../../quests/bwm72_beginning/">Blackwater Mountain events (hidden flag)</a>: stage 22</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arghest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Arghest. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/arghest_start.json" data-npc="Arghest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (29 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-arghest_start"></span><strong><code>arghest_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 47 of <a href="../../quests/Omi2_bwm1/#stage-47">Climbing up is forbidden</a>; NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_alert">arghest_alert</a></li>
+<li>Next <em>(if reached stage 47 of <a href="../../quests/Omi2_bwm1/#stage-47">Climbing up is forbidden</a>; NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-arghest_alert">arghest_alert</a></li>
 <li>branch 2 <em>(if reached stage 40 of <a href="../../quests/prim_innquest/#stage-40">Well rested</a>)</em> → <a href="#d-arghest_return_1">arghest_return_1</a></li>
 <li>branch 3 <em>(if reached stage 30 of <a href="../../quests/prim_innquest/#stage-30">Well rested</a>)</em> → <a href="#d-arghest_return_2">arghest_return_2</a></li>
 <li>branch 4 → <a href="#d-arghest_1">arghest_1</a></li>
@@ -1161,8 +1161,8 @@
 <p><span id="d-arghest_return_1"></span><strong><code>arghest_return_1</code></strong> Arghest: “Welcome back. Thanks for your help earlier. I hope the room at the inn can be of use to you.”</p>
 <ul>
 <li>“You are welcome. Goodbye.” → <em>conversation ends</em></li>
-<li>“Can I enter the mine?” <em>(if NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_6">arghest_6</a></li>
-<li>“Can I enter the mine?” <em>(if reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_15">arghest_15</a></li>
+<li>“Can I enter the mine?” <em>(if NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-arghest_6">arghest_6</a></li>
+<li>“Can I enter the mine?” <em>(if reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-arghest_15">arghest_15</a></li>
 </ul>
 <p><span id="d-arghest_return_2"></span><strong><code>arghest_return_2</code></strong> Arghest: “Welcome back. Did you bring me the 5 bottles of milk that I requested?”</p>
 <ul>
@@ -1206,8 +1206,8 @@
 <p><span id="d-arghest_5"></span><strong><code>arghest_5</code></strong> Arghest: “I am Arghest. I guard the entrance here to make sure no one enters the old mine.”</p>
 <ul>
 <li>“What is this place?” → <a href="#d-arghest_2">arghest_2</a></li>
-<li>“Can I enter the mine?” <em>(if NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_6">arghest_6</a></li>
-<li>“Can I enter the mine?” <em>(if reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a>)</em> → <a href="#d-arghest_15">arghest_15</a></li>
+<li>“Can I enter the mine?” <em>(if NOT reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-arghest_6">arghest_6</a></li>
+<li>“Can I enter the mine?” <em>(if reached stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Blackwater Mountain events (hidden flag)</a>)</em> → <a href="#d-arghest_15">arghest_15</a></li>
 </ul>
 <p><span id="d-arghest_8"></span><strong><code>arghest_8</code></strong> Arghest: “'Inn in Prim' - you sound funny.”</p>
 <ul>
@@ -1259,7 +1259,7 @@
 <li>“Mind if I use the room at the inn to rest in?” → <a href="#d-arghest_11">arghest_11</a></li>
 <li>“Are you still going to use it?” → <a href="#d-arghest_11">arghest_11</a></li>
 </ul>
-<p><span id="d-arghest_alert_8"></span><strong><code>arghest_alert_8</code></strong> Arghest: “Really? Many many thanks - you make my old heart cry!” — <strong>effects:</strong> sets stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Hidden: events in bwm (hidden flag)</a></p>
+<p><span id="d-arghest_alert_8"></span><strong><code>arghest_alert_8</code></strong> Arghest: “Really? Many many thanks - you make my old heart cry!” — <strong>effects:</strong> sets stage 22 of <a href="../../quests/bwm72_beginning/#stage-22">Blackwater Mountain events (hidden flag)</a></p>
 <ul>
 <li>“[muttering] I hope so. The potion was expensive enough!” → <a href="#d-arghest_alert_9">arghest_alert_9</a></li>
 </ul>

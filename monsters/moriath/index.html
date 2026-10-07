@@ -1102,7 +1102,7 @@
 
 
 <h1 id="moriath"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_74.png" /> Moriath<a class="headerlink" href="#moriath" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Moriath:</strong> Lake Laeroth: <a href="../../maps/laerothmanor1/#pin-npc-moriath">laerothmanor1</a></p>
+<p><strong>Where to find Moriath:</strong> Lake Laeroth: <a href="../../maps/laerothmanor1/#pin-npc-moriath">Laerothmanor 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite }</p>
 <table>
@@ -1139,17 +1139,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/laeroth_caretaker/">Take care of the caretaker</a>: stages 10, 15, 17, 35, 50, 180</li>
-<li><a href="../../quests/laeroth_nondisplay/">laeroth_nondisplay (hidden flag)</a>: stage 120</li>
+<li><a href="../../quests/laeroth_nondisplay/">Laeroth story flags (hidden flag)</a>: stage 120</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Moriath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Moriath. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/moriath_selector.json" data-npc="Moriath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (29 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-moriath_selector"></span><strong><code>moriath_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 10 of <a href="../../quests/laeroth_caretaker/#stage-10">Take care of the caretaker</a>)</em> → <a href="#d-moriath_1_0">moriath_1_0</a></li>
@@ -1173,7 +1173,7 @@
 <ul>
 <li>“I'm $playername. I'm looking for my brother, Andor. Have you seen him?” → <a href="#d-moriath_1">moriath_1</a></li>
 </ul>
-<p><span id="d-moriath_9_1"></span><strong><code>moriath_9_1</code></strong> Moriath: “Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.” — <strong>effects:</strong> removes monsters from laerothmanor1, sets stage 180 of <a href="../../quests/laeroth_caretaker/#stage-180">Take care of the caretaker</a>, sets stage 120 of <a href="../../quests/laeroth_nondisplay/#stage-120">laeroth_nondisplay (hidden flag)</a></p>
+<p><span id="d-moriath_9_1"></span><strong><code>moriath_9_1</code></strong> Moriath: “Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.” — <strong>effects:</strong> removes monsters from laerothmanor1, sets stage 180 of <a href="../../quests/laeroth_caretaker/#stage-180">Take care of the caretaker</a>, sets stage 120 of <a href="../../quests/laeroth_nondisplay/#stage-120">Laeroth story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <em>NPC leaves</em></li>
 </ul>

@@ -1102,7 +1102,7 @@
 
 
 <h1 id="sylvester"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_101.png" /> Sylvester<a class="headerlink" href="#sylvester" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Sylvester:</strong> Brightport: <a href="../../maps/brightport_forenza/#pin-npc-brightportforenza">brightport_forenza</a></p>
+<p><strong>Where to find Sylvester:</strong> Brightport: <a href="../../maps/brightport_forenza/#pin-npc-brightportforenza">Brightport forenza</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_101.png){ .sprite }</p>
 <table>
@@ -1134,26 +1134,26 @@
 </div>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stage 182</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stage 182</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sylvester. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Sylvester. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_sylverster_selector.json" data-npc="Sylvester" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (9 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_sylverster_selector"></span><strong><code>brightport_sylverster_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester2">brightport_sylvester2</a></li>
-<li>Next <em>(if reached stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">brightport_nondisplay (hidden flag)</a>; NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester5">brightport_sylvester5</a></li>
-<li>Next <em>(if NOT reached stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester0">brightport_sylvester0</a></li>
+<li>Next <em>(if reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester2">brightport_sylvester2</a></li>
+<li>Next <em>(if reached stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">Brightport story flags (hidden flag)</a>; NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester5">brightport_sylvester5</a></li>
+<li>Next <em>(if NOT reached stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester0">brightport_sylvester0</a></li>
 </ul>
 <p><span id="d-brightport_sylvester2"></span><strong><code>brightport_sylvester2</code></strong> <a href="./">Sylvester</a>: “You are our guest, $playername. Feel free to use our couch to rest while you're here. I will be returning to my work now.”</p>
 <ul>
-<li>“While cleaning at the bakery I found this paper recording the bakery's revenue, weren't you the accountant?” <em>(if carry 1× <a href="../../items/brightport_documents/">Bakery ledger</a>; reached stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester">brightport_sylvester</a></li>
+<li>“While cleaning at the bakery I found this paper recording the bakery's revenue, weren't you the accountant?” <em>(if carry 1× <a href="../../items/brightport_documents/">Bakery ledger</a>; reached stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester">brightport_sylvester</a></li>
 </ul>
 <p><span id="d-brightport_sylvester5"></span><strong><code>brightport_sylvester5</code></strong> Sylvester: “I'm really thankful that you found that ledger for me.”</p>
 <p><span id="d-brightport_sylvester0"></span><strong><code>brightport_sylvester0</code></strong> Sylvester: “Do you need something, or are you just wandering into people's houses?”</p>
@@ -1166,8 +1166,8 @@
 </ul>
 <p><span id="d-brightport_sylvester1"></span><strong><code>brightport_sylvester1</code></strong> <a href="../brightportforenza1/">Florencia</a>: “Ah, he's always grumpy when he's working. Did you wish to ask something child?”</p>
 <ul>
-<li>“Have you seen my brother Andor?” <em>(if NOT reached stage 900 of <a href="../../quests/andor_ending/#stage-900">Excluded endings for the main quest andor (hidden flag)</a>)</em> → <a href="#d-brightport_florencia1">brightport_florencia1</a></li>
-<li>“While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?” <em>(if reached stage 243 of <a href="../../quests/brightport_nondisplay/#stage-243">brightport_nondisplay (hidden flag)</a>; carry 1× <a href="../../items/brightport_documents/">Bakery ledger</a>; reached stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester">brightport_sylvester</a></li>
+<li>“Have you seen my brother Andor?” <em>(if NOT reached stage 900 of <a href="../../quests/andor_ending/#stage-900">Main quest endings (hidden flag)</a>)</em> → <a href="#d-brightport_florencia1">brightport_florencia1</a></li>
+<li>“While cleaning at the bakery I found this paper recording the bakery's revenue, wasn't your husband the accountant?” <em>(if reached stage 243 of <a href="../../quests/brightport_nondisplay/#stage-243">Brightport story flags (hidden flag)</a>; carry 1× <a href="../../items/brightport_documents/">Bakery ledger</a>; reached stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_sylvester">brightport_sylvester</a></li>
 </ul>
 <p><span id="d-brightport_sylvester3"></span><strong><code>brightport_sylvester3</code></strong> Sylvester: “Good heavens, that's the missing ledger I was losing sleep over! I was beginning to suspect someone stole and hid it, I'm glad you found it.”</p>
 <ul>
@@ -1177,7 +1177,7 @@
 <ul>
 <li>“Thanks.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-brightport_sylvester4"></span><strong><code>brightport_sylvester4</code></strong> Sylvester: “You saved me a headache worth a fortune in medicine, you have my permission to take some gold from the vault.” — <strong>effects:</strong> sets stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_sylvester4"></span><strong><code>brightport_sylvester4</code></strong> Sylvester: “You saved me a headache worth a fortune in medicine, you have my permission to take some gold from the vault.” — <strong>effects:</strong> sets stage 182 of <a href="../../quests/brightport_nondisplay/#stage-182">Brightport story flags (hidden flag)</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

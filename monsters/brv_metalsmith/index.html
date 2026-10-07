@@ -1113,7 +1113,7 @@
 
 
 <h1 id="edrin"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_22.png" /> Edrin<a class="headerlink" href="#edrin" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Edrin:</strong> Brimhaven: <a href="../../maps/brimhaven_metalsmith/#pin-npc-brv_metalsmith">brimhaven_metalsmith</a></p>
+<p><strong>Where to find Edrin:</strong> Brimhaven: <a href="../../maps/brimhaven_metalsmith/#pin-npc-brv_metalsmith">Brimhaven metalsmith</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_22.png){ .sprite }</p>
 <table>
@@ -1192,17 +1192,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brv_dagger/">A strange looking dagger</a>: stages 10, 20, 25, 50, 60, 70, 80, 90, 100</li>
-<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stage 20</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Brimhaven warehouse delivery (hidden flag)</a>: stage 20</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Edrin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Edrin. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/edrin_0_0.json" data-npc="Edrin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (26 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-edrin_0_0"></span><strong><code>edrin_0_0</code></strong> Edrin: “Hello.”</p>
 <ul>
 <li>“Have you repaired the dagger?” <em>(if reached stage 80 of <a href="../../quests/brv_dagger/#stage-80">A strange looking dagger</a>; NOT reached stage 70 of <a href="../../quests/brv_dagger/#stage-70">A strange looking dagger</a>; NOT reached stage 90 of <a href="../../quests/brv_dagger/#stage-90">A strange looking dagger</a>; NOT reached stage 100 of <a href="../../quests/brv_dagger/#stage-100">A strange looking dagger</a>)</em> → <a href="#d-edrin_7_0">edrin_7_0</a></li>
@@ -1215,7 +1215,7 @@
 </ul>
 <p><span id="d-edrin_7_0"></span><strong><code>edrin_7_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if 30 rounds passed since timer “Dagger_repair”; NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">brv_dagger_nondisplay (hidden flag)</a>)</em> → <a href="#d-edrin_7_1a">edrin_7_1a</a></li>
+<li>branch 1 <em>(if 30 rounds passed since timer “Dagger_repair”; NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">Brimhaven dagger story flags (hidden flag)</a>)</em> → <a href="#d-edrin_7_1a">edrin_7_1a</a></li>
 <li>branch 2 <em>(if 30 rounds passed since timer “Dagger_repair”)</em> → <a href="#d-edrin_7_1b">edrin_7_1b</a></li>
 <li>branch 3 → <a href="#d-edrin_7_1c">edrin_7_1c</a></li>
 </ul>
@@ -1239,7 +1239,7 @@
 <ul>
 <li>“OK. Thanks. What type of services and products do you supply?” → <a href="#d-edrin_1">edrin_1</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_edrin"></span><strong><code>brv_wh_delivery_edrin</code></strong> Edrin: “Ah, yes, a striped hammer. Don't look so impatient. Here's my delivery charge, and now you can leave!” — <strong>effects:</strong> clears stage 30 of <a href="../../quests/brv_wh_delivery/#stage-30">Delivery</a>, sets stage 20 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-20">Delivery - nondisplay (hidden flag)</a>, gives 10× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brv_wh_delivery_edrin"></span><strong><code>brv_wh_delivery_edrin</code></strong> Edrin: “Ah, yes, a striped hammer. Don't look so impatient. Here's my delivery charge, and now you can leave!” — <strong>effects:</strong> clears stage 30 of <a href="../../quests/brv_wh_delivery/#stage-30">Delivery</a>, sets stage 20 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-20">Brimhaven warehouse delivery (hidden flag)</a>, gives 10× <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Thank you.” → <em>conversation ends</em></li>
 </ul>
@@ -1314,7 +1314,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.12/">v0.7.12</a></td>
-<td>Dialogue: 8 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…”</td>
+<td>Dialogue: 8 lines changed<br>· text: “I recognize these. I made the dagger, many years ago. See this recess…” → “I recognize these. I made the dagger, many years ago, for a man calle…”<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.7.17/">v0.7.17</a></td>

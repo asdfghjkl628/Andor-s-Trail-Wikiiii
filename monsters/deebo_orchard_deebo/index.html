@@ -1113,7 +1113,7 @@
 
 
 <h1 id="deebo"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik2_39.png" /> Deebo<a class="headerlink" href="#deebo" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Deebo:</strong> Deebo's Orchard: <a href="../../maps/sullengard_apple_farm_east/#pin-npc-deebo_orchard_deebo">sullengard_apple_farm_east</a></p>
+<p><strong>Where to find Deebo:</strong> Deebo's Orchard: <a href="../../maps/sullengard_apple_farm_east/#pin-npc-deebo_orchard_deebo">Sullengard apple farm east</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_39.png){ .sprite }</p>
 <table>
@@ -1183,24 +1183,24 @@
 <ul>
 <li><a href="../../quests/brightport_bakery/">Bread and circus</a>: stages 30, 45</li>
 <li><a href="../../quests/deebo_orchard_hth/">Hunting the hunter</a>: stages 0, 10, 50</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stage 205</li>
-<li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stage 4</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stage 205</li>
+<li><a href="../../quests/sullengard_hidden/">Sullengard story flags (hidden flag)</a>: stage 4</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Deebo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Deebo. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/deebo_orchard_deebo_0.json" data-npc="Deebo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (34 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-deebo_orchard_deebo_0"></span><strong><code>deebo_orchard_deebo_0</code></strong> Deebo: “What a lovely day for some good quality hard work outside.”</p>
 <ul>
 <li>“It sounds like you love being outside.” <em>(if NOT reached stage 50 of <a href="../../quests/deebo_orchard_hth/#stage-50">Hunting the hunter</a>)</em> → <a href="#d-deebo_orchard_deebo_10">deebo_orchard_deebo_10</a></li>
 <li>“Your horses are magnificent.” → <a href="#d-deebo_orchard_deebo_horse_talk_10">deebo_orchard_deebo_horse_talk_10</a></li>
-<li>“Can I get a new batch of apples for the bakery?” <em>(if reached stage 205 of <a href="../../quests/brightport_nondisplay/#stage-205">brightport_nondisplay (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brightport_bakery/#stage-50">Bread and circus</a>; NOT reached stage 40 of <a href="../../quests/brightport_bakery/#stage-40">Bread and circus</a>)</em> → <a href="#d-brightport_deebo_selector">brightport_deebo_selector</a></li>
-<li>“Hello. Eatloni from Brightport sent me to ask about the apples.” <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; NOT reached stage 205 of <a href="../../quests/brightport_nondisplay/#stage-205">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_deebo">brightport_deebo</a></li>
+<li>“Can I get a new batch of apples for the bakery?” <em>(if reached stage 205 of <a href="../../quests/brightport_nondisplay/#stage-205">Brightport story flags (hidden flag)</a>; NOT reached stage 50 of <a href="../../quests/brightport_bakery/#stage-50">Bread and circus</a>; NOT reached stage 40 of <a href="../../quests/brightport_bakery/#stage-40">Bread and circus</a>)</em> → <a href="#d-brightport_deebo_selector">brightport_deebo_selector</a></li>
+<li>“Hello. Eatloni from Brightport sent me to ask about the apples.” <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; NOT reached stage 205 of <a href="../../quests/brightport_nondisplay/#stage-205">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_deebo">brightport_deebo</a></li>
 <li>“I will let you get back to your business. Have a great time enjoying the nice weather.” → <em>conversation ends</em></li>
 <li>“Can I see what you have to trade?” <em>(if reached stage 50 of <a href="../../quests/deebo_orchard_hth/#stage-50">Hunting the hunter</a>)</em> → <em>shop opens</em></li>
 </ul>
@@ -1244,7 +1244,7 @@
 <li>“Sounds good.” → <a href="#d-brightport_deebo2">brightport_deebo2</a></li>
 </ul>
 <p><span id="d-brightport_deebo5"></span><strong><code>brightport_deebo5</code></strong> Deebo: “I already told you they'll be picked soon, just go speak with Alduan in the orchard.”</p>
-<p><span id="d-brightport_deebo1"></span><strong><code>brightport_deebo1</code></strong> Deebo: “Oh no! I just hope nothing happened to my precious apples.” — <strong>effects:</strong> sets stage 205 of <a href="../../quests/brightport_nondisplay/#stage-205">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_deebo1"></span><strong><code>brightport_deebo1</code></strong> Deebo: “Oh no! I just hope nothing happened to my precious apples.” — <strong>effects:</strong> sets stage 205 of <a href="../../quests/brightport_nondisplay/#stage-205">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Can I get a new batch of apples?” <em>(if NOT reached stage 40 of <a href="../../quests/brightport_bakery/#stage-40">Bread and circus</a>)</em> → <a href="#d-brightport_deebo_selector">brightport_deebo_selector</a></li>
 <li>“A little too late now...” <em>(if reached stage 40 of <a href="../../quests/brightport_bakery/#stage-40">Bread and circus</a>)</em> → <em>conversation ends</em></li>
@@ -1305,7 +1305,7 @@
 </ul>
 <p><span id="d-deebo_orchard_deebo_71"></span><strong><code>deebo_orchard_deebo_71</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 4 of <a href="../../quests/sullengard_hidden/#stage-4">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-deebo_orchard_deebo_spawn_gj">deebo_orchard_deebo_spawn_gj</a></li>
+<li>Next <em>(if NOT reached stage 4 of <a href="../../quests/sullengard_hidden/#stage-4">Sullengard story flags (hidden flag)</a>)</em> → <a href="#d-deebo_orchard_deebo_spawn_gj">deebo_orchard_deebo_spawn_gj</a></li>
 <li>Next <em>(if latest stage of <a href="../../quests/deebo_orchard_hth/#stage-10">Hunting the hunter</a> is 10)</em> → <a href="#d-deebo_orchard_deebo_81">deebo_orchard_deebo_81</a></li>
 </ul>
 <p><span id="d-deebo_orchard_deebo_spawn_gj"></span><strong><code>deebo_orchard_deebo_spawn_gj</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 10 of <a href="../../quests/deebo_orchard_hth/#stage-10">Hunting the hunter</a></p>
@@ -1332,7 +1332,7 @@
 <ul>
 <li>Next → <a href="#d-deebo_orchard_deebo_80">deebo_orchard_deebo_80</a></li>
 </ul>
-<p><span id="d-deebo_orchard_deebo_80"></span><strong><code>deebo_orchard_deebo_80</code></strong> Deebo: “The Golden jackal was last seen heading back into the "Sullengard forest" just to the west of my orchard. Return to me with proof of it's death.” — <strong>effects:</strong> sets stage 4 of <a href="../../quests/sullengard_hidden/#stage-4">sullengard_nondisplay (hidden flag)</a>, sets stage 10 of <a href="../../quests/deebo_orchard_hth/#stage-10">Hunting the hunter</a></p>
+<p><span id="d-deebo_orchard_deebo_80"></span><strong><code>deebo_orchard_deebo_80</code></strong> Deebo: “The Golden jackal was last seen heading back into the "Sullengard forest" just to the west of my orchard. Return to me with proof of it's death.” — <strong>effects:</strong> sets stage 4 of <a href="../../quests/sullengard_hidden/#stage-4">Sullengard story flags (hidden flag)</a>, sets stage 10 of <a href="../../quests/deebo_orchard_hth/#stage-10">Hunting the hunter</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

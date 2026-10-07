@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Thalen is a non-player character (NPC) in Andor's Trail, found in undertell_3_lava_00. Starts The fifth master.">
+        <meta name="description" content="Thalen is a non-player character (NPC) in Andor's Trail, found in Undertell 3 lava 00. Starts The fifth master.">
       
       
       
@@ -1102,7 +1102,7 @@
 
 
 <h1 id="thalen"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_omi2_2.png" /> Thalen<a class="headerlink" href="#thalen" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Thalen:</strong> <a href="../../maps/undertell_3_lava_00/#pin-npc-thalen">undertell_3_lava_00</a></p>
+<p><strong>Where to find Thalen:</strong> <a href="../../maps/undertell_3_lava_00/#pin-npc-thalen">Undertell 3 lava 00</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_2.png){ .sprite }</p>
 <table>
@@ -1123,7 +1123,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>undertell_3_lava_00</td>
+<td>Undertell 3 lava 00</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1140,21 +1140,21 @@
 <ul>
 <li><a href="../../quests/about_a_girl/">About a girl</a>: stage 50</li>
 <li><a href="../../quests/fifth_master/">The fifth master</a>: stages 10, 20, 80</li>
-<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 5, 7</li>
+<li><a href="../../quests/undertell_hidden/">Undertell story flags (hidden flag)</a>: stages 5, 7</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thalen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Thalen. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/thalen_initial_selector.json" data-npc="Thalen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (23 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-thalen_initial_selector"></span><strong><code>thalen_initial_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if NOT reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-kazaul_masters_not_met_10">kazaul_masters_not_met_10</a></li>
-<li>branch 2 <em>(if reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>)</em> → <a href="#d-kazaul_masters_met_but_no_quest_started_10">kazaul_masters_met_but_no_quest_started_10</a></li>
+<li>branch 1 <em>(if NOT reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-kazaul_masters_not_met_10">kazaul_masters_not_met_10</a></li>
+<li>branch 2 <em>(if reached stage 5 of <a href="../../quests/undertell_hidden/#stage-5">Undertell story flags (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>)</em> → <a href="#d-kazaul_masters_met_but_no_quest_started_10">kazaul_masters_met_but_no_quest_started_10</a></li>
 <li>branch 3 <em>(if reached stage 10 of <a href="../../quests/fifth_master/#stage-10">The fifth master</a>; NOT reached stage 20 of <a href="../../quests/fifth_master/#stage-20">The fifth master</a>)</em> → <a href="#d-the_fifth_master_10">the_fifth_master_10</a></li>
 <li>branch 4 <em>(if carry 1× <a href="../../items/ancient_kazaul_ritual/">The Ritual of Five Aspects</a>)</em> → <a href="#d-thalen_receives_ritual_10">thalen_receives_ritual_10</a></li>
 <li>branch 5 <em>(if reached stage 90 of <a href="../../quests/fifth_master/#stage-90">The fifth master</a>)</em> → <a href="#d-thalen_after_fifth_master">thalen_after_fifth_master</a></li>
@@ -1185,7 +1185,7 @@
 <ul>
 <li>Next → <a href="#d-thalen_intro_10">thalen_intro_10</a></li>
 </ul>
-<p><span id="d-kazaul_masters_not_met_20"></span><strong><code>kazaul_masters_not_met_20</code></strong> Thalen: “We are "masters", not "bosses". And yes, there are five of us.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/undertell_hidden/#stage-5">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-kazaul_masters_not_met_20"></span><strong><code>kazaul_masters_not_met_20</code></strong> Thalen: “We are "masters", not "bosses". And yes, there are five of us.” — <strong>effects:</strong> sets stage 5 of <a href="../../quests/undertell_hidden/#stage-5">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-kazaul_masters_not_met_30">kazaul_masters_not_met_30</a></li>
 </ul>
@@ -1214,7 +1214,7 @@
 <ul>
 <li>“I understand.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-thalen_receives_ritual_30"></span><strong><code>thalen_receives_ritual_30</code></strong> Thalen: “No. Give it to me and I will give it to the kin. You have done what none of the living could. Do not fail now, mortal. The silence of Anavrin waits to be broken.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/fifth_master/#stage-80">The fifth master</a>, spawns monsters on undertell_5, sets stage 7 of <a href="../../quests/undertell_hidden/#stage-7">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-thalen_receives_ritual_30"></span><strong><code>thalen_receives_ritual_30</code></strong> Thalen: “No. Give it to me and I will give it to the kin. You have done what none of the living could. Do not fail now, mortal. The silence of Anavrin waits to be broken.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/fifth_master/#stage-80">The fifth master</a>, spawns monsters on undertell_5, sets stage 7 of <a href="../../quests/undertell_hidden/#stage-7">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“I understand.” → <em>conversation ends</em></li>
 </ul>

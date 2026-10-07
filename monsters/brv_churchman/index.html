@@ -1113,7 +1113,7 @@
 
 
 <h1 id="seviron"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_136.png" /> Seviron<a class="headerlink" href="#seviron" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Seviron:</strong> Brimhaven: <a href="../../maps/brimhaven_church/#pin-npc-brv_churchman">brimhaven_church</a>, <a href="../../maps/brimhaven_church_upstairs/#pin-npc-brv_churchman">brimhaven_church_upstairs</a></p>
+<p><strong>Where to find Seviron:</strong> Brimhaven: <a href="../../maps/brimhaven_church/#pin-npc-brv_churchman">Brimhaven church</a>, <a href="../../maps/brimhaven_church_upstairs/#pin-npc-brv_churchman">Brimhaven church upstairs</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_136.png){ .sprite }</p>
 <table>
@@ -1159,13 +1159,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_church/">brimhaven_church</a></td>
+<td><a href="../../maps/brimhaven_church/">Brimhaven church</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><a href="../../maps/brimhaven_church_upstairs/">brimhaven_church_upstairs</a></td>
+<td><a href="../../maps/brimhaven_church_upstairs/">Brimhaven church upstairs</a></td>
 <td>–</td>
 <td>1</td>
 <td>–</td>
@@ -1177,14 +1177,14 @@
 <li><a href="../../quests/cat_and_mouse/">A cat and mouse game</a>: stages 10, 20, 30, 50, 60, 70, 80</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Seviron. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Seviron. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_churchman_start.json" data-npc="Seviron" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (27 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_churchman_start"></span><strong><code>brv_churchman_start</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if reached stage 60 of <a href="../../quests/cat_and_mouse/#stage-60">A cat and mouse game</a>; NOT reached stage 70 of <a href="../../quests/cat_and_mouse/#stage-70">A cat and mouse game</a>; NOT reached stage 80 of <a href="../../quests/cat_and_mouse/#stage-80">A cat and mouse game</a>; NOT reached stage 90 of <a href="../../quests/cat_and_mouse/#stage-90">A cat and mouse game</a>; carry 1× <a href="../../items/trapped_mouse/">Trapped mouse</a>)</em> → <a href="#d-brv_churchman_mouse1">brv_churchman_mouse1</a></li>
@@ -1193,7 +1193,7 @@
 <li>branch 4 <em>(if reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_i1">brv_churchman_i1</a></li>
 <li>branch 5 <em>(if reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>; NOT reached stage 20 of <a href="../../quests/cat_and_mouse/#stage-20">A cat and mouse game</a>; NOT reached stage 30 of <a href="../../quests/cat_and_mouse/#stage-30">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_i1">brv_churchman_i1</a></li>
 <li>branch 6 <em>(if reached stage 50 of <a href="../../quests/cat_and_mouse/#stage-50">A cat and mouse game</a>; NOT reached stage 60 of <a href="../../quests/cat_and_mouse/#stage-60">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_trap1">brv_churchman_trap1</a></li>
-<li>branch 7 <em>(if reached stage 60 of <a href="../../quests/brv_nondisplay2/#stage-60">brv_nondisplay2 (hidden flag)</a>)</em> → <a href="#d-brv_churchman_banned">brv_churchman_banned</a></li>
+<li>branch 7 <em>(if reached stage 60 of <a href="../../quests/brv_nondisplay2/#stage-60">Brimhaven story flags 2 (hidden flag)</a>)</em> → <a href="#d-brv_churchman_banned">brv_churchman_banned</a></li>
 <li>branch 8 <em>(if NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman">brv_churchman</a></li>
 <li>branch 9 → <a href="#d-brv_churchman_default1">brv_churchman_default1</a></li>
 </ul>
@@ -1218,7 +1218,7 @@
 </ul>
 <p><span id="d-brv_churchman_trap1"></span><strong><code>brv_churchman_trap1</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 40 of <a href="../quests/nondisplay_bhvt.md#stage-40">nondisplay_bhvt (hidden flag)</a>)</em> → <a href="#d-brv_churchman_trap2">brv_churchman_trap2</a></li>
+<li>branch 1 <em>(if reached stage 40 of nondisplay bhvt (flag not defined in the game data))</em> → <a href="#d-brv_churchman_trap2">brv_churchman_trap2</a></li>
 <li>branch 2 → <a href="#d-brv_churchman_trap3">brv_churchman_trap3</a></li>
 </ul>
 <p><span id="d-brv_churchman_banned"></span><strong><code>brv_churchman_banned</code></strong> Seviron: “Go away, naughty kid!”</p>
@@ -1261,8 +1261,8 @@
 </ul>
 <p><span id="d-brv_churchman_03"></span><strong><code>brv_churchman_03</code></strong> Seviron: “I am the bell-ringer. Unfortunately, I also have to guard the bells from Quasi. He likes to ring them even when there is no reason to do so.”</p>
 <ul>
-<li>“Who is Quasi?” <em>(if NOT reached stage 30 of <a href="../quests/nondisplay_bhvt.md#stage-30">nondisplay_bhvt (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_04a">brv_churchman_04a</a></li>
-<li>“Quasi is...interesting.” <em>(if reached stage 30 of <a href="../quests/nondisplay_bhvt.md#stage-30">nondisplay_bhvt (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_04b">brv_churchman_04b</a></li>
+<li>“Who is Quasi?” <em>(if NOT reached stage 30 of nondisplay bhvt (flag not defined in the game data); NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_04a">brv_churchman_04a</a></li>
+<li>“Quasi is...interesting.” <em>(if reached stage 30 of nondisplay bhvt (flag not defined in the game data); NOT reached stage 10 of <a href="../../quests/cat_and_mouse/#stage-10">A cat and mouse game</a>)</em> → <a href="#d-brv_churchman_04b">brv_churchman_04b</a></li>
 <li>“OK. Thanks. I'm looking for my brother, Andor. Have you seen him?” → <a href="#d-brv_churchman_01a">brv_churchman_01a</a></li>
 </ul>
 <p><span id="d-brv_churchman_04a"></span><strong><code>brv_churchman_04a</code></strong> Seviron: “Quasi is the grave digger. He is usually in the basement. Sometimes he is trouble, but mostly he is useful. Anyway, he has nowhere else to go, so he lives in the church.”</p>

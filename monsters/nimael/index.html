@@ -1102,7 +1102,7 @@
 
 
 <h1 id="nimael"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_karvis2_6.png" /> Nimael<a class="headerlink" href="#nimael" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Nimael:</strong> Fallhaven: <a href="../../maps/mywild20_houseleft/#pin-npc-nimael">mywild20_houseleft</a></p>
+<p><strong>Where to find Nimael:</strong> Fallhaven: <a href="../../maps/mywild20_houseleft/#pin-npc-nimael">Mywild 20 houseleft</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_6.png){ .sprite }</p>
 <table>
@@ -1135,17 +1135,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/gison_soup/">Delicious soup</a>: stages 70, 90, 110, 120</li>
-<li><a href="../../quests/sullengard_hidden/">sullengard_nondisplay (hidden flag)</a>: stages 20, 21</li>
+<li><a href="../../quests/sullengard_hidden/">Sullengard story flags (hidden flag)</a>: stages 20, 21</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nimael. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Nimael. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/nimael.json" data-npc="Nimael" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (20 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-nimael"></span><strong><code>nimael</code></strong> Nimael: “Hello kid.”</p>
 <ul>
 <li>Next → <a href="#d-nimael_evaluation">nimael_evaluation</a></li>
@@ -1175,8 +1175,8 @@
 <ul>
 <li>“Alaun told me that you also make very good soup.” <em>(if reached stage 35 of <a href="../../quests/gison_soup/#stage-35">Delicious soup</a>; NOT reached stage 100 of <a href="../../quests/gison_soup/#stage-100">Delicious soup</a>; NOT reached stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>)</em> → <a href="#d-nimael_arg_10">nimael_arg_10</a></li>
 <li>“OK. Bye.” → <em>conversation ends</em></li>
-<li>“While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was.” <em>(if reached stage 5 of <a href="../../quests/sullengard_hidden/#stage-5">sullengard_nondisplay (hidden flag)</a>; carry 1× <a href="../../items/gloriosa_mushroom/">Gloriosa mushroom</a>; reached stage 120 of <a href="../../quests/gison_soup/#stage-120">Delicious soup</a>)</em> → <a href="#d-nimael_pm_0">nimael_pm_0</a></li>
-<li>“Is the Gloriosa soup ready?” <em>(if reached stage 20 of <a href="../../quests/sullengard_hidden/#stage-20">sullengard_nondisplay (hidden flag)</a>; NOT reached stage 21 of <a href="../../quests/sullengard_hidden/#stage-21">sullengard_nondisplay (hidden flag)</a>)</em> → <a href="#d-nimael_pm_40">nimael_pm_40</a></li>
+<li>“While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was.” <em>(if reached stage 5 of <a href="../../quests/sullengard_hidden/#stage-5">Sullengard story flags (hidden flag)</a>; carry 1× <a href="../../items/gloriosa_mushroom/">Gloriosa mushroom</a>; reached stage 120 of <a href="../../quests/gison_soup/#stage-120">Delicious soup</a>)</em> → <a href="#d-nimael_pm_0">nimael_pm_0</a></li>
+<li>“Is the Gloriosa soup ready?” <em>(if reached stage 20 of <a href="../../quests/sullengard_hidden/#stage-20">Sullengard story flags (hidden flag)</a>; NOT reached stage 21 of <a href="../../quests/sullengard_hidden/#stage-21">Sullengard story flags (hidden flag)</a>)</em> → <a href="#d-nimael_pm_40">nimael_pm_40</a></li>
 </ul>
 <p><span id="d-nimael_2"></span><strong><code>nimael_2</code></strong> Nimael: “I don't know exactly. Everything went so fast ... I'm too upset and my head hurts too much.”</p>
 <ul>
@@ -1213,7 +1213,7 @@
 <ul>
 <li>“So it is useless?” → <a href="#d-nimael_pm_20">nimael_pm_20</a></li>
 </ul>
-<p><span id="d-nimael_pm_50"></span><strong><code>nimael_pm_50</code></strong> Nimael: “Yes. Please enjoy while it's hot.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/sullengard_hidden/#stage-21">sullengard_nondisplay (hidden flag)</a>, gives 1× <a href="../../items/gloriosa_mushroom_soup/">Gloriosa mushroom soup</a></p>
+<p><span id="d-nimael_pm_50"></span><strong><code>nimael_pm_50</code></strong> Nimael: “Yes. Please enjoy while it's hot.” — <strong>effects:</strong> sets stage 21 of <a href="../../quests/sullengard_hidden/#stage-21">Sullengard story flags (hidden flag)</a>, gives 1× <a href="../../items/gloriosa_mushroom_soup/">Gloriosa mushroom soup</a></p>
 <p><span id="d-nimael_pm_45"></span><strong><code>nimael_pm_45</code></strong> Nimael: “No, not yet. You must have patience. Making the Gloriosa soup safe to eat takes time.”</p>
 <p><span id="d-nimael_arg_30"></span><strong><code>nimael_arg_30</code></strong> Nimael: “For a kid, that's a very insightful comment. I will talk to my husband about how we can better sell both soups to the townsfolk in Fallhaven. Here are a couple of bottles of my soup as thanks.” — <strong>effects:</strong> sets stage 110 of <a href="../../quests/gison_soup/#stage-110">Delicious soup</a>, gives 2× <a href="../../items/nimael_soup/">Nimael's vegetable soup</a>, starts timer “del_soup”</p>
 <ul>
@@ -1225,7 +1225,7 @@
 <li>“Thanks. That would be great.” → <a href="#d-nimael_pm_30">nimael_pm_30</a></li>
 </ul>
 <p><span id="d-nimael_pm_25"></span><strong><code>nimael_pm_25</code></strong> Nimael: “Well, if you change your mind, you know where to find me.” — <strong>effects:</strong> gives 1× <a href="../../items/gloriosa_mushroom/">Gloriosa mushroom</a></p>
-<p><span id="d-nimael_pm_30"></span><strong><code>nimael_pm_30</code></strong> Nimael: “I just need a little bit of time. Please come back soon and I will have your soup ready.” — <strong>effects:</strong> starts timer “gloriosa_soup_making”, sets stage 20 of <a href="../../quests/sullengard_hidden/#stage-20">sullengard_nondisplay (hidden flag)</a></p>
+<p><span id="d-nimael_pm_30"></span><strong><code>nimael_pm_30</code></strong> Nimael: “I just need a little bit of time. Please come back soon and I will have your soup ready.” — <strong>effects:</strong> starts timer “gloriosa_soup_making”, sets stage 20 of <a href="../../quests/sullengard_hidden/#stage-20">Sullengard story flags (hidden flag)</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>
@@ -1254,7 +1254,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.4/">v0.8.4</a></td>
-<td>Dialogue: 2 lines changed<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…”<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…”</td>
+<td>Dialogue: 2 lines changed<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…”<br>· text: “No, not yet. You must have patience Making the Gloriosa soup safe to …” → “No, not yet. You must have patience. Making the Gloriosa soup safe to…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.12.1/">v0.8.12.1</a></td>

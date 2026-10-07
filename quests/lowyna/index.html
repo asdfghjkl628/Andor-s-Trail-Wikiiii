@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">woodhouse1</a>)</td>
+<td><a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">Woodhouse 1</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/woodhouse1/">woodhouse1</a>, <a href="../../maps/woodhouse2/">woodhouse2</a></td>
+<td><a href="../../maps/woodhouse1/">Woodhouse 1</a>, <a href="../../maps/woodhouse2/">Woodhouse 2</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1191,7 +1191,7 @@
 <p>Among some huts to the west of the Duleian road, I met a man called two-teeth. He wants me to go get him something called Rat poison from Lowyna. I can find her in one of the other huts.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>Start with <a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">woodhouse1</a>). Required:</p>
+<p>Start with <a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">Woodhouse 1</a>). Required:</p>
 <ul>
 <li>reached stage 10 of <a href="./#stage-10">Sweet sweet rat poison</a></li>
 </ul>
@@ -1201,61 +1201,69 @@
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <p>No links to other quests were found in the dialogue conditions.</p>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
-<td>Among some huts to the west of the Duleian road, I met a man called two-teeth. He wants me to go get him something called Rat poison from Lowyna. I can find her in one of the other huts.</td>
-<td><a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">woodhouse1</a>)</td>
-<td>–</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><details class="jt"><summary><span class="s">Among some huts to the west of the Duleian road, I met a man called… ▸</span><span class="l">▴ less</span></summary>Among some huts to the west of the Duleian road, I met a man called two-teeth. He wants me to go get him something called Rat poison from Lowyna. I can find her in one of the other huts.</details></td>
+<td><a href="../../monsters/twoteeth/">Two-teeth</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-20"></span>20</td>
+<td><span id="stage-20"></span><a href="#route-20">20</a></td>
 <td>Lowyna will now allow me to trade with her.</td>
-<td><a href="../../monsters/lowyna/">Lowyna</a> (<a href="../../maps/woodhouse2/">woodhouse2</a>)</td>
-<td>stage 10</td>
+<td><a href="../../monsters/lowyna/">Lowyna</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-40"></span>40</td>
-<td>I have given some rat poison to two-teeth. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">woodhouse1</a>)</td>
-<td>hand over 1× <a href="../../items/drink_lowyn3/">Lowyna's rat poison</a></td>
+<td><span id="stage-40"></span><a href="#route-40">40</a></td>
+<td>I have given some rat poison to two-teeth. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/twoteeth/">Two-teeth</a></td>
 <td>500 XP</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">woodhouse1</a>) → choose “I'll go get some rat poison for you.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Sweet sweet rat poison</a> → <strong>stage 10</strong>. NPC: “Good. Tell her two-teeth sent you.”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Two-teeth · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/twoteeth/">Two-teeth</a>, choose “I'll go get some rat poison for you.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10</li>
+<li><em>“Good. Tell her two-teeth sent you.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 20: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lowyna/">Lowyna</a> (<a href="../../maps/woodhouse2/">woodhouse2</a>) → choose “Two-teeth sent me to get some rat poison.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Sweet sweet rat poison</a> → <strong>stage 20</strong>. NPC: “For his sake, I'll let you browse my wares.”</li>
-</ol>
+<p><span id="route-20"></span></p>
+<details class="note">
+<summary>Stage 20 · Lowyna · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lowyna/">Lowyna</a>, choose “Two-teeth sent me to get some rat poison.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10</li>
+<li><em>“For his sake, I'll let you browse my wares.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 40: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/twoteeth/">Two-teeth</a> (<a href="../../maps/woodhouse1/">woodhouse1</a>) → choose “Here, have some.” — <strong>conditions:</strong> reached stage 40 of <a href="./#stage-40">Sweet sweet rat poison</a>; hand over 1× <a href="../../items/drink_lowyn3/">Lowyna's rat poison</a> → <strong>stage 40</strong>. NPC: “Har har. Thank you. Give that here.”</li>
-</ol>
+<p><span id="route-40"></span></p>
+<details class="note">
+<summary>Stage 40 · Two-teeth · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/twoteeth/">Two-teeth</a>, choose “Here, have some.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 40; hand over 1× <a href="../../items/drink_lowyn3/">Lowyna's rat poison</a></li>
+<li><em>“Har har. Thank you. Give that here.”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

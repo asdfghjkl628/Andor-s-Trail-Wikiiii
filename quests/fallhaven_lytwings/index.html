@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
+<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">Fallhaven south-west</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/fallhaven_sw/">fallhaven_sw</a>, <a href="../../maps/gapfiller2/">gapfiller2</a></td>
+<td><a href="../../maps/fallhaven_sw/">Fallhaven south-west</a>, <a href="../../maps/gapfiller2/">Gapfiller 2</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1191,7 +1191,7 @@
 <p>I met Arensia in Fallhaven. She is being taunted by lytwings while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor to find out more, she lives north of the tavern.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>Start with <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>). Required:</p>
+<p>Start with <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">Fallhaven south-west</a>). Required:</p>
 <ul>
 <li>NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a></li>
 <li>NOT reached stage 12 of <a href="./#stage-12">It's knot funny</a></li>
@@ -1203,269 +1203,313 @@
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <p>No links to other quests were found in the dialogue conditions.</p>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-1"></span>1</td>
-<td>I met Arensia in Fallhaven. She is being taunted by lytwings while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor to find out more, she lives north of the tavern.</td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
-<td>–</td>
+<td><span id="stage-1"></span><a href="#route-1">1</a></td>
+<td><details class="jt"><summary><span class="s">I met Arensia in Fallhaven. She is being taunted by lytwings while… ▸</span><span class="l">▴ less</span></summary>I met Arensia in Fallhaven. She is being taunted by lytwings while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor to find out more, she lives north of the tavern.</details></td>
+<td><a href="../../monsters/arensia/">Arensia</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-10"></span>10</td>
-<td>Rigmor told me that lytwings live near large rings of mushroom growth, I should look for these in the forest surrounding Fallhaven.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/gapfiller2/">Gapfiller2</a>.</span></td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><details class="jt"><summary><span class="s">Rigmor told me that lytwings live near large rings of mushroom… ▸</span><span class="l">▴ less</span></summary>Rigmor told me that lytwings live near large rings of mushroom growth, I should look for these in the forest surrounding Fallhaven.</details><br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/gapfiller2/">Gapfiller 2</a>.</span></td>
 <td><a href="../../monsters/rigmor/">Rigmor</a></td>
-<td>stage 1</td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-11"></span>11</td>
-<td>I have to take a gift of two red apples and two strawberries before I can talk to the lytwings. They cast some kind of spell on me for not bringing them these fruit, it made me feel very tired.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>–</td>
+<td><span id="stage-11"></span><a href="#route-11">11</a></td>
+<td><details class="jt"><summary><span class="s">I have to take a gift of two red apples and two strawberries before… ▸</span><span class="l">▴ less</span></summary>I have to take a gift of two red apples and two strawberries before I can talk to the lytwings. They cast some kind of spell on me for not bringing them these fruit, it made me feel very tired.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>applies condition fatigue_minor</td>
 </tr>
 <tr>
-<td><span id="stage-12"></span>12</td>
+<td><span id="stage-12"></span><a href="#route-12">12</a></td>
 <td>The lytwings accepted my gift, and I can now talk with them.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>hand over 2× <a href="../../items/apple_red/">Red apple</a>, hand over 2× <a href="../../items/strawberry/">Strawberry</a></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-13"></span>13</td>
-<td>I offered my help to the lytwings in exchange for leaving Arensia alone. They are considering my request. I should check in with them shortly, to hear their decision.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>stage 12</td>
-<td>starts timer “lytwing_fallhaven_timer”</td>
-</tr>
-<tr>
-<td><span id="stage-20"></span>20</td>
-<td>The lytwings asked that I chop down a gnarly old tree that is inside their mushroom ring. They insisted that I use an iron axe because the cursed bark of the tree cannot be cut by other tools.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>–</td>
+<td><span id="stage-13"></span><a href="#route-13">13</a></td>
+<td><details class="jt"><summary><span class="s">I offered my help to the lytwings in exchange for leaving Arensia… ▸</span><span class="l">▴ less</span></summary>I offered my help to the lytwings in exchange for leaving Arensia alone. They are considering my request. I should check in with them shortly, to hear their decision.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-21"></span>21</td>
-<td>I was about to swing my axe, when the lytwings stopped me. They have changed their minds about chopping down the tree. I am beginning to think they are indecisive on purpose.</td>
-<td>reading a sign on <a href="../../maps/gapfiller2/">gapfiller2</a></td>
-<td>carry 1× <a href="../../items/axe2/">Iron axe</a>, stage 20</td>
+<td><span id="stage-20"></span><a href="#route-20">20</a></td>
+<td><details class="jt"><summary><span class="s">The lytwings asked that I chop down a gnarly old tree that is inside… ▸</span><span class="l">▴ less</span></summary>The lytwings asked that I chop down a gnarly old tree that is inside their mushroom ring. They insisted that I use an iron axe because the cursed bark of the tree cannot be cut by other tools.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-30"></span>30</td>
-<td>The lytwings want four bottles of mead. I can probably find some at the Fallhaven tavern.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>stage 21</td>
+<td><span id="stage-21"></span><a href="#route-21">21</a></td>
+<td><details class="jt"><summary><span class="s">I was about to swing my axe, when the lytwings stopped me. They have… ▸</span><span class="l">▴ less</span></summary>I was about to swing my axe, when the lytwings stopped me. They have changed their minds about chopping down the tree. I am beginning to think they are indecisive on purpose.</details></td>
+<td>reading a sign on <a href="../../maps/gapfiller2/">Gapfiller 2</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-31"></span>31</td>
-<td>They took the mead, and turned around saying they want something else. I can now see why Rigmor said they are full of mischief! But I have no other choice but to continue this fool's errand if I want to help Arensia.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>hand over 4× <a href="../../items/mead/">Mead</a>, stage 30</td>
+<td><span id="stage-30"></span><a href="#route-30">30</a></td>
+<td><details class="jt"><summary><span class="s">The lytwings want four bottles of mead. I can probably find some at… ▸</span><span class="l">▴ less</span></summary>The lytwings want four bottles of mead. I can probably find some at the Fallhaven tavern.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-40"></span>40</td>
-<td>I have to find twelve wild flowers for the lytwings. I wonder where I could find those. Perhaps Arensia will know.<br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/wild10/">Wild10</a>.</span><br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/wild11/">Wild11</a>.</span></td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>stage 31</td>
+<td><span id="stage-31"></span><a href="#route-31">31</a></td>
+<td><details class="jt"><summary><span class="s">They took the mead, and turned around saying they want something… ▸</span><span class="l">▴ less</span></summary>They took the mead, and turned around saying they want something else. I can now see why Rigmor said they are full of mischief! But I have no other choice but to continue this fool's errand if I want to help Arensia.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-41"></span>41</td>
-<td>They accepted the flowers, and as expected, said they want something else! How many more times will they make me run around?</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>hand over 12× <a href="../../items/wild_flower/">Wild Flower</a>, stage 40</td>
+<td><span id="stage-40"></span><a href="#route-40">40</a></td>
+<td><details class="jt"><summary><span class="s">I have to find twelve wild flowers for the lytwings. I wonder where… ▸</span><span class="l">▴ less</span></summary>I have to find twelve wild flowers for the lytwings. I wonder where I could find those. Perhaps Arensia will know.</details><br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/wild10/">Wild 10</a>.</span><br><span class="qnote">⚡ A scripted event can now trigger on <a href="../../maps/wild11/">Wild 11</a>.</span></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-90"></span>90</td>
-<td>The lytwings want a token of Arensia's promise that she will not to pick their mushrooms again. I sense they are not playing another prank this time, they seemed intent about this task.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>stage 41</td>
+<td><span id="stage-41"></span><a href="#route-41">41</a></td>
+<td><details class="jt"><summary><span class="s">They accepted the flowers, and as expected, said they want something… ▸</span><span class="l">▴ less</span></summary>They accepted the flowers, and as expected, said they want something else! How many more times will they make me run around?</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-91"></span>91</td>
-<td>Arensia made a promise to her mother's ring, and then she gave it to me. I should take it to the lytwings at once.</td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
-<td>stage 90</td>
-<td>gives 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a></td>
-</tr>
-<tr>
-<td><span id="stage-92"></span>92</td>
-<td>I gave Arensia's ring to the lytwings. Just when I thought it was done, they said they need something else! I am waiting on their decision.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>hand over 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a>, stage 90</td>
+<td><span id="stage-90"></span><a href="#route-90">90</a></td>
+<td><details class="jt"><summary><span class="s">The lytwings want a token of Arensia's promise that she will not to… ▸</span><span class="l">▴ less</span></summary>The lytwings want a token of Arensia's promise that she will not to pick their mushrooms again. I sense they are not playing another prank this time, they seemed intent about this task.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-99"></span>99</td>
+<td><span id="stage-91"></span><a href="#route-91">91</a></td>
+<td><details class="jt"><summary><span class="s">Arensia made a promise to her mother's ring, and then she gave it to… ▸</span><span class="l">▴ less</span></summary>Arensia made a promise to her mother's ring, and then she gave it to me. I should take it to the lytwings at once.</details></td>
+<td><a href="../../monsters/arensia/">Arensia</a></td>
+<td>1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a></td>
+</tr>
+<tr>
+<td><span id="stage-92"></span><a href="#route-92">92</a></td>
+<td><details class="jt"><summary><span class="s">I gave Arensia's ring to the lytwings. Just when I thought it was… ▸</span><span class="l">▴ less</span></summary>I gave Arensia's ring to the lytwings. Just when I thought it was done, they said they need something else! I am waiting on their decision.</details></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
+<td>–</td>
+</tr>
+<tr>
+<td><span id="stage-99"></span><a href="#route-99">99</a></td>
 <td>The lytwings have agreed to stop taunting Arensia. I should go tell her.</td>
-<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>)</td>
-<td>stage 92</td>
-<td>gives 1× <a href="../../items/ring_of_promise/">Arensia's Ring of Promise</a></td>
+<td><a href="../../monsters/lytwing_fallhaven/">Lytwing</a></td>
+<td>1× <a href="../../items/ring_of_promise/">Arensia's Ring of Promise</a></td>
 </tr>
 <tr>
-<td><span id="stage-100"></span>100</td>
+<td><span id="stage-100"></span><a href="#route-100">100</a></td>
 <td>Arensia was elated to hear that the lytwings will no longer taunt her.</td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
-<td>–</td>
+<td><a href="../../monsters/arensia/">Arensia</a></td>
 <td>300 XP</td>
 </tr>
 <tr>
-<td><span id="stage-101"></span>101</td>
-<td>I could not take the absurd errands any more. I am no longer helping Arensia with her lytwing problem. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
-<td>stage 40</td>
+<td><span id="stage-101"></span><a href="#route-101">101</a></td>
+<td><details class="jt"><summary><span class="s">I could not take the absurd errands any more. I am no longer helping… ▸</span><span class="l">▴ less</span></summary>I could not take the absurd errands any more. I am no longer helping Arensia with her lytwing problem.</details> <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/arensia/">Arensia</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-102"></span>102</td>
-<td>I lied to Arensia's and kept her mother's ring for myself. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
-<td>stage 100</td>
+<td><span id="stage-102"></span><a href="#route-102">102</a></td>
+<td>I lied to Arensia's and kept her mother's ring for myself. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/arensia/">Arensia</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-103"></span>103</td>
-<td>Arensia gave me her magical promise ring as reward for helping her. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>)</td>
-<td>stage 100</td>
+<td><span id="stage-103"></span><a href="#route-103">103</a></td>
+<td>Arensia gave me her magical promise ring as reward for helping her. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/arensia/">Arensia</a></td>
 <td>–</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 1: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “Not yet. I still need to go talk with Rigmor to find out more.” — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a>; NOT reached stage 12 of <a href="./#stage-12">It's knot funny</a>; latest stage of <a href="./#stage-1">It's knot funny</a> is 1 → <strong>stage 1</strong>. NPC: “You should talk to Rigmor, as she knows more about the lytwings than I do. She lives here in Fallhaven, just go north…”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-1"></span></p>
+<details class="note">
+<summary>Stage 1 · Arensia · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/arensia/">Arensia</a>, choose “Not yet. I still need to go talk with Rigmor to find out more.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 1, 12; latest stage of <a href="./#stage-1">It's knot funny</a> is 1</li>
+<li><em>“You should talk to Rigmor, as she knows more about the lytwings than I do. She lives here in Fallhaven, just go north past the tavern.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/rigmor/">Rigmor</a> → choose “Where can I find lytwings?” — <strong>conditions:</strong> latest stage of <a href="./#stage-1">It's knot funny</a> is 1 → <strong>stage 10</strong>. NPC: “Lytwings gather near fairy rings. I suggest that you look for large mushroom patches in the woodland surrounding…”</li>
-</ol>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Rigmor · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/rigmor/">Rigmor</a>, choose “Where can I find lytwings?”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-1">It's knot funny</a> is 1</li>
+<li><em>“Lytwings gather near fairy rings. I suggest that you look for large mushroom patches in the woodland surrounding Fallhaven.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 11: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “I did not, sorry.” — <strong>conditions:</strong> NOT reached stage 12 of <a href="./#stage-12">It's knot funny</a> → <strong>stage 11</strong>; also applies condition fatigue_minor. NPC: “Bring us two red apples and two strawberries. Since you came without a gift, we cast on you a mystical Lytwing spell!”</li>
-</ol>
+<p><span id="route-11"></span></p>
+<details class="note">
+<summary>Stage 11 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “I did not, sorry.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 12</li>
+<li><strong>Gives:</strong> applies condition fatigue_minor</li>
+<li><em>“Bring us two red apples and two strawberries. Since you came without a gift, we cast on you a mystical Lytwing spell!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 12: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “Yes, here are two red apples and two strawberries.” — <strong>conditions:</strong> NOT reached stage 12 of <a href="./#stage-12">It's knot funny</a>; hand over 2× <a href="../../items/apple_red/">Red apple</a>; hand over 2× <a href="../../items/strawberry/">Strawberry</a> → <strong>stage 12</strong>. NPC: “Wonderful! These strawberries are so sweet. You may stay!”</li>
-</ol>
+<p><span id="route-12"></span></p>
+<details class="note">
+<summary>Stage 12 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “Yes, here are two red apples and two strawberries.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 12; hand over 2× <a href="../../items/apple_red/">Red apple</a>; hand over 2× <a href="../../items/strawberry/">Strawberry</a></li>
+<li><em>“Wonderful! These strawberries are so sweet. You may stay!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 13: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “Don't be mad, I am just trying to help. Is there anything I can do to make this right?” — <strong>conditions:</strong> latest stage of <a href="./#stage-12">It's knot funny</a> is 12 → <strong>stage 13</strong>; also starts timer “lytwing_fallhaven_timer”. NPC: “Hmmm, let us discuss this amongst ourselves. Can you give us a minute alone?”</li>
-</ol>
+<p><span id="route-13"></span></p>
+<details class="note">
+<summary>Stage 13 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “Don't be mad, I am just trying to help. Is there anything I can do to make this right?”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-12">It's knot funny</a> is 12</li>
+<li><small>Also: starts timer “lytwing_fallhaven_timer”</small></li>
+<li><em>“Hmmm, let us discuss this amongst ourselves. Can you give us a minute alone?”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 20: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → the conversation leads here automatically — <strong>conditions:</strong> latest stage of <a href="./#stage-20">It's knot funny</a> is 20 → <strong>stage 20</strong>. NPC: “Please chop down this gnarly old tree inside our fairy circle. Can you do that for us?”</li>
-</ol>
+<p><span id="route-20"></span></p>
+<details class="note">
+<summary>Stage 20 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-20">It's knot funny</a> is 20</li>
+<li><em>“Please chop down this gnarly old tree inside our fairy circle. Can you do that for us?”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 21: 1 route</summary>
-<ol>
-<li>reading a sign on <a href="../../maps/gapfiller2/">gapfiller2</a> → the conversation leads here automatically — <strong>conditions:</strong> reached stage 20 of <a href="./#stage-20">It's knot funny</a>; carry 1× <a href="../../items/axe2/">Iron axe</a>; NOT reached stage 30 of <a href="./#stage-30">It's knot funny</a> → <strong>stage 21</strong>. NPC: “Hey wait! We changed our minds. We like that tree and want to keep it.”</li>
-</ol>
+<p><span id="route-21"></span></p>
+<details class="note">
+<summary>Stage 21 · reading a sign on gapfiller2 · 1 way</summary>
+<p><strong>Way 1:</strong> Reading a sign on <a href="../../maps/gapfiller2/">Gapfiller 2</a></p>
+<ul>
+<li><strong>Needs:</strong> stage 20; not yet stage 30; carry 1× <a href="../../items/axe2/">Iron axe</a></li>
+<li><em>“Hey wait! We changed our minds. We like that tree and want to keep it.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 30: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → the conversation leads here automatically — <strong>conditions:</strong> latest stage of <a href="./#stage-21">It's knot funny</a> is 21 → <strong>stage 30</strong>. NPC: “We are having a celebration, please get us four bottles of mead. [giggle]”</li>
-</ol>
+<p><span id="route-30"></span></p>
+<details class="note">
+<summary>Stage 30 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-21">It's knot funny</a> is 21</li>
+<li><em>“We are having a celebration, please get us four bottles of mead. [giggle]”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 31: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “Yes, here is your mead.” — <strong>conditions:</strong> latest stage of <a href="./#stage-30">It's knot funny</a> is 30; hand over 4× <a href="../../items/mead/">Mead</a> → <strong>stage 31</strong>. NPC: “Wonderful!”</li>
-</ol>
+<p><span id="route-31"></span></p>
+<details class="note">
+<summary>Stage 31 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “Yes, here is your mead.”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-30">It's knot funny</a> is 30; hand over 4× <a href="../../items/mead/">Mead</a></li>
+<li><em>“Wonderful!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 40: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → the conversation leads here automatically — <strong>conditions:</strong> latest stage of <a href="./#stage-31">It's knot funny</a> is 31 → <strong>stage 40</strong>. NPC: “For our celebrations, we would like a dozen wild flowers.”</li>
-</ol>
+<p><span id="route-40"></span></p>
+<details class="note">
+<summary>Stage 40 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, automatic</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-31">It's knot funny</a> is 31</li>
+<li><em>“For our celebrations, we would like a dozen wild flowers.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 41: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “Yes, here are your flowers.” — <strong>conditions:</strong> latest stage of <a href="./#stage-40">It's knot funny</a> is 40; hand over 12× <a href="../../items/wild_flower/">Wild Flower</a> → <strong>stage 41</strong>. NPC: “These are perfect. Thank you!”</li>
-</ol>
+<p><span id="route-41"></span></p>
+<details class="note">
+<summary>Stage 41 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “Yes, here are your flowers.”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-40">It's knot funny</a> is 40; hand over 12× <a href="../../items/wild_flower/">Wild Flower</a></li>
+<li><em>“These are perfect. Thank you!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 90: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “OK?” — <strong>conditions:</strong> latest stage of <a href="./#stage-41">It's knot funny</a> is 41 → <strong>stage 90</strong>. NPC: “We want Arensia to promise not to pick our mushrooms again. And we want proof!”</li>
-</ol>
+<p><span id="route-90"></span></p>
+<details class="note">
+<summary>Stage 90 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “OK?”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-41">It's knot funny</a> is 41</li>
+<li><em>“We want Arensia to promise not to pick our mushrooms again. And we want proof!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 91: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “I hope this works.” — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a>; NOT reached stage 99 of <a href="./#stage-99">It's knot funny</a>; latest stage of <a href="./#stage-90">It's knot funny</a> is 90 → <strong>stage 91</strong>; also gives 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a>. NPC: “I made a promise to the ring, here take it to the lytwings!”</li>
-</ol>
+<p><span id="route-91"></span></p>
+<details class="note">
+<summary>Stage 91 · Arensia · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/arensia/">Arensia</a>, choose “I hope this works.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 1, 99; latest stage of <a href="./#stage-90">It's knot funny</a> is 90</li>
+<li><strong>Gives:</strong> 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a></li>
+<li><em>“I made a promise to the ring, here take it to the lytwings!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 92: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “Yes, here is her promise ring.” — <strong>conditions:</strong> latest stage of <a href="./#stage-90">It's knot funny</a> is 90; hand over 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a> → <strong>stage 92</strong>. NPC: “This will do just fine, thank you $playername.”</li>
-</ol>
+<p><span id="route-92"></span></p>
+<details class="note">
+<summary>Stage 92 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “Yes, here is her promise ring.”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-90">It's knot funny</a> is 90; hand over 1× <a href="../../items/ring_of_promise_quest/">Arensia's Ring of Promise</a></li>
+<li><em>“This will do just fine, thank you $playername.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 99: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a> (<a href="../../maps/gapfiller2/">gapfiller2</a>) → choose “Oh how wonderful. Thank you forest lytwings!” — <strong>conditions:</strong> latest stage of <a href="./#stage-92">It's knot funny</a> is 92 → <strong>stage 99</strong>; also gives 1× <a href="../../items/ring_of_promise/">Arensia's Ring of Promise</a>. NPC: “However, we have no need for a human ring. We embued it with our magical powers. Please take this ring back to Arensia.”</li>
-</ol>
+<p><span id="route-99"></span></p>
+<details class="note">
+<summary>Stage 99 · Lytwing · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/lytwing_fallhaven/">Lytwing</a>, choose “Oh how wonderful. Thank you forest lytwings!”</p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-92">It's knot funny</a> is 92</li>
+<li><strong>Gives:</strong> 1× <a href="../../items/ring_of_promise/">Arensia's Ring of Promise</a></li>
+<li><em>“However, we have no need for a human ring. We embued it with our magical powers. Please take this ring back to Arensia.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 100: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “You seem tired. Is everything alright?” — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a>; reached stage 100 of <a href="./#stage-100">It's knot funny</a>; NOT reached stage 102 of <a href="./#stage-102">It's knot funny</a> → <strong>stage 100</strong>. NPC: “I cannot thank you enough, $playername. You have saved my sanity!”</li>
-</ol>
+<p><span id="route-100"></span></p>
+<details class="note">
+<summary>Stage 100 · Arensia · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/arensia/">Arensia</a>, choose “You seem tired. Is everything alright?”</p>
+<ul>
+<li><strong>Needs:</strong> stage 100; not yet stage 1, 102</li>
+<li><em>“I cannot thank you enough, $playername. You have saved my sanity!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 101: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “Yes, I want to quit.” — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a>; NOT reached stage 99 of <a href="./#stage-99">It's knot funny</a>; latest stage of <a href="./#stage-40">It's knot funny</a> is 40 → <strong>stage 101</strong>. NPC: “I appreciate your help either way.”</li>
-</ol>
+<p><span id="route-101"></span></p>
+<details class="note">
+<summary>Stage 101 · Arensia · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/arensia/">Arensia</a>, choose “Yes, I want to quit.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 1, 99; latest stage of <a href="./#stage-40">It's knot funny</a> is 40</li>
+<li><em>“I appreciate your help either way.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 102: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “Unfortunately they kept your mother's ring (Lie).” — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a>; reached stage 100 of <a href="./#stage-100">It's knot funny</a>; NOT reached stage 102 of <a href="./#stage-102">It's knot funny</a> → <strong>stage 102</strong>. NPC: “That is okay. I did not expect to get it back.”</li>
-</ol>
+<p><span id="route-102"></span></p>
+<details class="note">
+<summary>Stage 102 · Arensia · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/arensia/">Arensia</a>, choose “Unfortunately they kept your mother's ring (Lie).”</p>
+<ul>
+<li><strong>Needs:</strong> stage 100; not yet stage 1, 102</li>
+<li><em>“That is okay. I did not expect to get it back.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 103: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/arensia/">Arensia</a> (<a href="../../maps/fallhaven_sw/">fallhaven_sw</a>) → choose “They used their magic on your ring, and asked that I give it back to you.” — <strong>conditions:</strong> NOT reached stage 1 of <a href="./#stage-1">It's knot funny</a>; reached stage 100 of <a href="./#stage-100">It's knot funny</a>; NOT reached stage 102 of <a href="./#stage-102">It's knot funny</a> → <strong>stage 103</strong>. NPC: “After everything you have done for me ... I want you to keep it. Please, I insist!”</li>
-</ol>
+<p><span id="route-103"></span></p>
+<details class="note">
+<summary>Stage 103 · Arensia · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/arensia/">Arensia</a>, choose “They used their magic on your ring, and asked that I give it back to you.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 100; not yet stage 1, 102</li>
+<li><em>“After everything you have done for me ... I want you to keep it. Please, I insist!”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1102,7 +1102,7 @@
 
 
 <h1 id="pangitain"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik6_17.png" /> Pangitain<a class="headerlink" href="#pangitain" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Pangitain:</strong> Brimhaven: <a href="../../maps/brimhaven_fortune_teller/#pin-npc-brv_fortune_teller">brimhaven_fortune_teller</a></p>
+<p><strong>Where to find Pangitain:</strong> Brimhaven: <a href="../../maps/brimhaven_fortune_teller/#pin-npc-brv_fortune_teller">Brimhaven fortune teller</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik6_17.png){ .sprite }</p>
 <table>
@@ -1139,21 +1139,21 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/mg2_exploded_star/">The exploded star</a>: stages 60, 62</li>
-<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stage 100</li>
-<li><a href="../../quests/brv_nondisplay/">brv_nondisplay (hidden flag)</a>: stages 144, 145, 147, 148, 149, 150, 151</li>
+<li><a href="../../quests/brv_nondisplay/">Brimhaven story flags (hidden flag)</a>: stages 144, 145, 147, 148, 149, 150, 151</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Brimhaven warehouse delivery (hidden flag)</a>: stage 100</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pangitain. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Pangitain. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_fortune_select.json" data-npc="Pangitain" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (48 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brv_fortune_select"></span><strong><code>brv_fortune_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 144 of <a href="../../quests/brv_nondisplay/#stage-144">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_back">brv_fortune_back</a></li>
+<li>Next <em>(if reached stage 144 of <a href="../../quests/brv_nondisplay/#stage-144">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_back">brv_fortune_back</a></li>
 <li>Next → <a href="#d-brv_fortune">brv_fortune</a></li>
 </ul>
 <p><span id="d-brv_fortune_back"></span><strong><code>brv_fortune_back</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
@@ -1204,7 +1204,7 @@
 <ul>
 <li>Next → <a href="#d-brv_fortune_40">brv_fortune_40</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_brv_fortune"></span><strong><code>brv_wh_delivery_brv_fortune</code></strong> Pangitain: “Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen that you would bring me a new globe. Here is the gold for it.” — <strong>effects:</strong> clears stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>, sets stage 100 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-100">Delivery - nondisplay (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brv_wh_delivery_brv_fortune"></span><strong><code>brv_wh_delivery_brv_fortune</code></strong> Pangitain: “Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen that you would bring me a new globe. Here is the gold for it.” — <strong>effects:</strong> clears stage 110 of <a href="../../quests/brv_wh_delivery/#stage-110">Delivery</a>, sets stage 100 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-100">Brimhaven warehouse delivery (hidden flag)</a>, gives 100× <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Do you want to try the crystal ball with me to see if it works?” → <a href="#d-brv_wh_delivery_brv_fortune_10">brv_wh_delivery_brv_fortune_10</a></li>
 <li>“Thanks for choosing Facutloni's delivery.” → <em>conversation ends</em></li>
@@ -1229,7 +1229,7 @@
 <ul>
 <li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
 </ul>
-<p><span id="d-brv_fortune_40"></span><strong><code>brv_fortune_40</code></strong> Pangitain: “I feel that you are on a search... at the beginning of a long and dangerous search for a relative of yours.” — <strong>effects:</strong> sets stage 144 of <a href="../../quests/brv_nondisplay/#stage-144">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_40"></span><strong><code>brv_fortune_40</code></strong> Pangitain: “I feel that you are on a search... at the beginning of a long and dangerous search for a relative of yours.” — <strong>effects:</strong> sets stage 144 of <a href="../../quests/brv_nondisplay/#stage-144">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>“I am impressed. Can you tell me more about my brother Andor or me?” → <a href="#d-brv_fortune_50">brv_fortune_50</a></li>
 <li>“That doesn't impress me.” → <a href="#d-brv_fortune_end_10">brv_fortune_end_10</a></li>
@@ -1307,13 +1307,13 @@
 </ul>
 <p><span id="d-brv_fortune_fortunes_select"></span><strong><code>brv_fortune_fortunes_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if random chance (5%); reached stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_come_back_much_later">brv_fortune_come_back_much_later</a></li>
-<li>branch 2 <em>(if random chance (17%); NOT reached stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_andor_10">brv_fortune_andor_10</a></li>
-<li>branch 3 <em>(if random chance (20%); NOT reached stage 150 of <a href="../../quests/brv_nondisplay/#stage-150">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_andor_30">brv_fortune_andor_30</a></li>
-<li>branch 4 <em>(if random chance (25%); NOT reached stage 149 of <a href="../../quests/brv_nondisplay/#stage-149">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_10">brv_fortune_hero_10</a></li>
-<li>branch 5 <em>(if random chance (33%); NOT reached stage 148 of <a href="../../quests/brv_nondisplay/#stage-148">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_30">brv_fortune_hero_30</a></li>
-<li>branch 6 <em>(if random chance (50%); NOT reached stage 147 of <a href="../../quests/brv_nondisplay/#stage-147">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_130">brv_fortune_hero_130</a></li>
-<li>branch 7 <em>(if NOT reached stage 145 of <a href="../../quests/brv_nondisplay/#stage-145">brv_nondisplay (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_70">brv_fortune_hero_70</a></li>
+<li>branch 1 <em>(if random chance (5%); reached stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_come_back_much_later">brv_fortune_come_back_much_later</a></li>
+<li>branch 2 <em>(if random chance (17%); NOT reached stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_andor_10">brv_fortune_andor_10</a></li>
+<li>branch 3 <em>(if random chance (20%); NOT reached stage 150 of <a href="../../quests/brv_nondisplay/#stage-150">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_andor_30">brv_fortune_andor_30</a></li>
+<li>branch 4 <em>(if random chance (25%); NOT reached stage 149 of <a href="../../quests/brv_nondisplay/#stage-149">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_10">brv_fortune_hero_10</a></li>
+<li>branch 5 <em>(if random chance (33%); NOT reached stage 148 of <a href="../../quests/brv_nondisplay/#stage-148">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_30">brv_fortune_hero_30</a></li>
+<li>branch 6 <em>(if random chance (50%); NOT reached stage 147 of <a href="../../quests/brv_nondisplay/#stage-147">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_130">brv_fortune_hero_130</a></li>
+<li>branch 7 <em>(if NOT reached stage 145 of <a href="../../quests/brv_nondisplay/#stage-145">Brimhaven story flags (hidden flag)</a>)</em> → <a href="#d-brv_fortune_hero_70">brv_fortune_hero_70</a></li>
 <li>branch 8 → <a href="#d-brv_fortune_fortunes_select">brv_fortune_fortunes_select</a></li>
 </ul>
 <p><span id="d-brv_fortune_back_61b"></span><strong><code>brv_fortune_back_61b</code></strong> Pangitain: “A good choice. Do you feel it already?” — <strong>effects:</strong> +1 <a href="../../skills/weaponChance/">Weapon Accuracy</a>, sets stage 62 of <a href="../../quests/mg2_exploded_star/#stage-62">The exploded star</a></p>
@@ -1340,27 +1340,27 @@
 <ul>
 <li>“Wow - yes! Thank you.” → <a href="#d-brv_fortune_back_90">brv_fortune_back_90</a></li>
 </ul>
-<p><span id="d-brv_fortune_andor_10"></span><strong><code>brv_fortune_andor_10</code></strong> Pangitain: “I see you talking to your brother, somewhere far from here in a big city. Feygard or Nor City, I think.” — <strong>effects:</strong> sets stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_andor_10"></span><strong><code>brv_fortune_andor_10</code></strong> Pangitain: “I see you talking to your brother, somewhere far from here in a big city. Feygard or Nor City, I think.” — <strong>effects:</strong> sets stage 151 of <a href="../../quests/brv_nondisplay/#stage-151">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
 </ul>
-<p><span id="d-brv_fortune_andor_30"></span><strong><code>brv_fortune_andor_30</code></strong> Pangitain: “Your brother is in league with dark forces.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/brv_nondisplay/#stage-150">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_andor_30"></span><strong><code>brv_fortune_andor_30</code></strong> Pangitain: “Your brother is in league with dark forces.” — <strong>effects:</strong> sets stage 150 of <a href="../../quests/brv_nondisplay/#stage-150">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_fortune_andor_31">brv_fortune_andor_31</a></li>
 </ul>
-<p><span id="d-brv_fortune_hero_10"></span><strong><code>brv_fortune_hero_10</code></strong> Pangitain: “I see you walking up a path on a mountain. Beware! There is something waiting for you ahead. I see you being attacked by monsters and they kill you.” — <strong>effects:</strong> sets stage 149 of <a href="../../quests/brv_nondisplay/#stage-149">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_hero_10"></span><strong><code>brv_fortune_hero_10</code></strong> Pangitain: “I see you walking up a path on a mountain. Beware! There is something waiting for you ahead. I see you being attacked by monsters and they kill you.” — <strong>effects:</strong> sets stage 149 of <a href="../../quests/brv_nondisplay/#stage-149">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
 </ul>
-<p><span id="d-brv_fortune_hero_30"></span><strong><code>brv_fortune_hero_30</code></strong> Pangitain: “I see a thief. He will take something from you.” — <strong>effects:</strong> sets stage 148 of <a href="../../quests/brv_nondisplay/#stage-148">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_hero_30"></span><strong><code>brv_fortune_hero_30</code></strong> Pangitain: “I see a thief. He will take something from you.” — <strong>effects:</strong> sets stage 148 of <a href="../../quests/brv_nondisplay/#stage-148">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
 </ul>
-<p><span id="d-brv_fortune_hero_130"></span><strong><code>brv_fortune_hero_130</code></strong> Pangitain: “I see a man pacing up and down in a little house. He seems to be waiting for someone.” — <strong>effects:</strong> sets stage 147 of <a href="../../quests/brv_nondisplay/#stage-147">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_hero_130"></span><strong><code>brv_fortune_hero_130</code></strong> Pangitain: “I see a man pacing up and down in a little house. He seems to be waiting for someone.” — <strong>effects:</strong> sets stage 147 of <a href="../../quests/brv_nondisplay/#stage-147">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>“That must be my father Mikhail, he is waiting for me and my brother!” → <a href="#d-brv_fortune_hero_131">brv_fortune_hero_131</a></li>
 </ul>
-<p><span id="d-brv_fortune_hero_70"></span><strong><code>brv_fortune_hero_70</code></strong> Pangitain: “I see you picking up a lot of coins from a hole in the ground. Can it be behind your father's house?” — <strong>effects:</strong> sets stage 145 of <a href="../../quests/brv_nondisplay/#stage-145">brv_nondisplay (hidden flag)</a></p>
+<p><span id="d-brv_fortune_hero_70"></span><strong><code>brv_fortune_hero_70</code></strong> Pangitain: “I see you picking up a lot of coins from a hole in the ground. Can it be behind your father's house?” — <strong>effects:</strong> sets stage 145 of <a href="../../quests/brv_nondisplay/#stage-145">Brimhaven story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brv_fortune_choice">brv_fortune_choice</a></li>
 </ul>

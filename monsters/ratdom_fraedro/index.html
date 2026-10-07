@@ -1124,7 +1124,7 @@
 
 
 <h1 id="fraedro"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rats_0.png" /> Fraedro<a class="headerlink" href="#fraedro" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Fraedro:</strong> Pub: <a href="../../maps/ratdom_maze_626/#pin-npc-ratdom_fraedro">ratdom_maze_626</a></p>
+<p><strong>Where to find Fraedro:</strong> Pub: <a href="../../maps/ratdom_maze_626/#pin-npc-ratdom_fraedro">Ratdom maze 626</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rats_0.png){ .sprite }</p>
 <table>
@@ -1205,7 +1205,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/ratdom_maze_626/">ratdom_maze_626</a></td>
+<td><a href="../../maps/ratdom_maze_626/">Ratdom maze 626</a></td>
 <td>Pub</td>
 <td>1</td>
 <td>–</td>
@@ -1215,20 +1215,20 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/ratdom_quest/">Yellow is it</a>: stages 398, 399</li>
-<li><a href="../../quests/ratdom_nondisplay/">ratdom_nondisplay (hidden flag)</a>: stage 180</li>
+<li><a href="../../quests/ratdom_nondisplay/">Ratdom story flags (hidden flag)</a>: stage 180</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fraedro. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Fraedro. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_fraedro.json" data-npc="Fraedro" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (15 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-ratdom_fraedro"></span><strong><code>ratdom_fraedro</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_fraedro_1">ratdom_fraedro_1</a></li>
+<li>Next <em>(if reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a>)</em> → <a href="#d-ratdom_fraedro_1">ratdom_fraedro_1</a></li>
 <li>Next → <a href="#d-ratdom_fraedro_1s">ratdom_fraedro_1s</a></li>
 </ul>
 <p><span id="d-ratdom_fraedro_1"></span><strong><code>ratdom_fraedro_1</code></strong> <a href="./">Fraedro</a>: “Please don't hurt me.”</p>
@@ -1241,11 +1241,11 @@
 <ul>
 <li>“Who are you?” → <a href="#d-ratdom_fraedro_2">ratdom_fraedro_2</a></li>
 <li>“Why did you steal King Rah's skeleton?” → <a href="#d-ratdom_fraedro_10">ratdom_fraedro_10</a></li>
-<li>“Starving? I have some cheese for you here.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a>; hand over 1× <a href="../../items/cheese/">Cheese</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
-<li>“Starving? I have some good cheddar from Charwood for you here.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; hand over 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
-<li>“Starving? I have some moldy blue cheese for you here.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>; hand over 1× <a href="../../items/cheese_blue/">Blue cheese</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
-<li>“Starving? I have some goat cheese for you here. It smells only slightly.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>; NOT carry 1× <a href="../../items/cheese_blue/">Blue cheese</a>; hand over 1× <a href="../../items/cheese_goat/">Goat cheese</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
-<li>“Starving? Sorry, I have no cheese for you.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>; NOT carry 1× <a href="../../items/cheese_blue/">Blue cheese</a>; NOT carry 1× <a href="../../items/cheese_goat/">Goat cheese</a>)</em> → <a href="#d-ratdom_fraedro">ratdom_fraedro</a></li>
+<li>“Starving? I have some cheese for you here.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a>; hand over 1× <a href="../../items/cheese/">Cheese</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
+<li>“Starving? I have some good cheddar from Charwood for you here.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; hand over 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
+<li>“Starving? I have some moldy blue cheese for you here.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>; hand over 1× <a href="../../items/cheese_blue/">Blue cheese</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
+<li>“Starving? I have some goat cheese for you here. It smells only slightly.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>; NOT carry 1× <a href="../../items/cheese_blue/">Blue cheese</a>; hand over 1× <a href="../../items/cheese_goat/">Goat cheese</a>)</em> → <a href="#d-ratdom_fraedro_cheese_1">ratdom_fraedro_cheese_1</a></li>
+<li>“Starving? Sorry, I have no cheese for you.” <em>(if NOT reached stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a>; NOT carry 1× <a href="../../items/cheese/">Cheese</a>; NOT carry 1× <a href="../../items/charwood_cheddar/">Charwood cheddar</a>; NOT carry 1× <a href="../../items/cheese_blue/">Blue cheese</a>; NOT carry 1× <a href="../../items/cheese_goat/">Goat cheese</a>)</em> → <a href="#d-ratdom_fraedro">ratdom_fraedro</a></li>
 <li>“OK, bye.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-ratdom_fraedro_2"></span><strong><code>ratdom_fraedro_2</code></strong> Fraedro: “Fraedro, good traveler. Please don't hurt me.”</p>
@@ -1280,7 +1280,7 @@
 </ul>
 <p><span id="d-ratdom_fraedro_cheese_10"></span><strong><code>ratdom_fraedro_cheese_10</code></strong> Fraedro: “You must be the rightful heir of King Rah.”</p>
 <ul>
-<li>“Who, me?” <em>(if reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_fraedro_cheese_12">ratdom_fraedro_cheese_12</a></li>
+<li>“Who, me?” <em>(if reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">Ratdom story flags (hidden flag)</a>)</em> → <a href="#d-ratdom_fraedro_cheese_12">ratdom_fraedro_cheese_12</a></li>
 <li>“Sure.” → <a href="#d-ratdom_fraedro_cheese_20">ratdom_fraedro_cheese_20</a></li>
 </ul>
 <p><span id="d-ratdom_fraedro_14"></span><strong><code>ratdom_fraedro_14</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 399 of <a href="../../quests/ratdom_quest/#stage-399">Yellow is it</a></p>
@@ -1295,9 +1295,9 @@
 <ul>
 <li>“King Rah's sword?” → <a href="#d-ratdom_fraedro_cheese_30">ratdom_fraedro_cheese_30</a></li>
 </ul>
-<p><span id="d-ratdom_fraedro_cheese_30"></span><strong><code>ratdom_fraedro_cheese_30</code></strong> Fraedro: “You'll find it further down in the caves. Say the words 'Veni gladio fidelis'.” — <strong>effects:</strong> sets stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">ratdom_nondisplay (hidden flag)</a></p>
+<p><span id="d-ratdom_fraedro_cheese_30"></span><strong><code>ratdom_fraedro_cheese_30</code></strong> Fraedro: “You'll find it further down in the caves. Say the words 'Veni gladio fidelis'.” — <strong>effects:</strong> sets stage 180 of <a href="../../quests/ratdom_nondisplay/#stage-180">Ratdom story flags (hidden flag)</a></p>
 <ul>
-<li>“I'll try to remember.” <em>(if reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">ratdom_nondisplay (hidden flag)</a>)</em> → <a href="#d-ratdom_fraedro_cheese_32">ratdom_fraedro_cheese_32</a></li>
+<li>“I'll try to remember.” <em>(if reached stage 10 of <a href="../../quests/ratdom_nondisplay/#stage-10">Ratdom story flags (hidden flag)</a>)</em> → <a href="#d-ratdom_fraedro_cheese_32">ratdom_fraedro_cheese_32</a></li>
 </ul>
 <p><span id="d-ratdom_fraedro_cheese_32"></span><strong><code>ratdom_fraedro_cheese_32</code></strong> <a href="../ratdom_rat/">Clevred</a>: “[Clevred rolls his eyes] He. will. try. to remember. That can only go wrong.”</p>
 <ul>

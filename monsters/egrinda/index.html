@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Egrinda is an NPC who can also be fought in Andor's Trail, found in way_to_sullengard_west_3.">
+        <meta name="description" content="Egrinda is an NPC who can also be fought in Andor's Trail, found in Way to sullengard west 3.">
       
       
       
@@ -1135,7 +1135,7 @@
 
 
 <h1 id="egrinda"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_146.png" /> Egrinda<a class="headerlink" href="#egrinda" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Egrinda:</strong> <a href="../../maps/way_to_sullengard_west_3/#pin-npc-egrinda">way_to_sullengard_west_3</a></p>
+<p><strong>Where to find Egrinda:</strong> <a href="../../maps/way_to_sullengard_west_3/#pin-npc-egrinda">Way to sullengard west 3</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_146.png){ .sprite }</p>
 <table>
@@ -1152,7 +1152,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>way_to_sullengard_west_3</td>
+<td>Way to sullengard west 3</td>
 </tr>
 <tr>
 <td><strong>Class</strong></td>
@@ -1287,7 +1287,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/way_to_sullengard_west_3/">way_to_sullengard_west_3</a></td>
+<td><a href="../../maps/way_to_sullengard_west_3/">Way to sullengard west 3</a></td>
 <td>–</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1296,20 +1296,20 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/galmore_nondisplayed/">galmore_nondisplayed (hidden flag)</a>: stage 61</li>
+<li><a href="../../quests/galmore_nondisplayed/">Galmore story flags (hidden flag)</a>: stage 61</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Egrinda. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Egrinda. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/egrinda_selector.json" data-npc="Egrinda" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (13 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-egrinda_selector"></span><strong><code>egrinda_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 61 of <a href="../../quests/galmore_nondisplayed/#stage-61">galmore_nondisplayed (hidden flag)</a>)</em> → <a href="#d-egrinda_already_given_gold_10">egrinda_already_given_gold_10</a></li>
+<li>branch 1 <em>(if reached stage 61 of <a href="../../quests/galmore_nondisplayed/#stage-61">Galmore story flags (hidden flag)</a>)</em> → <a href="#d-egrinda_already_given_gold_10">egrinda_already_given_gold_10</a></li>
 <li>branch 2 → <a href="#d-egrinda_wants_gold_10">egrinda_wants_gold_10</a></li>
 </ul>
 <p><span id="d-egrinda_already_given_gold_10"></span><strong><code>egrinda_already_given_gold_10</code></strong> Egrinda: “This gold will really help me rebuild my life. Now I just need to decide where to do that.”</p>
@@ -1347,7 +1347,7 @@
 <li>“Oh, you mean that gold that now belongs to me? It's now mine.” → <a href="#d-egrinda_wants_gold_fight">egrinda_wants_gold_fight</a></li>
 <li>“[Lie] Oh, you mean the 500 gold pieces that I found back there? [Pointing west.]” → <a href="#d-egrinda_wants_gold_lier">egrinda_wants_gold_lier</a></li>
 </ul>
-<p><span id="d-egrinda_wants_gold_reward_qs61"></span><strong><code>egrinda_wants_gold_reward_qs61</code></strong> Egrinda: “Thank you very much!” — <strong>effects:</strong> sets stage 61 of <a href="../../quests/galmore_nondisplayed/#stage-61">galmore_nondisplayed (hidden flag)</a></p>
+<p><span id="d-egrinda_wants_gold_reward_qs61"></span><strong><code>egrinda_wants_gold_reward_qs61</code></strong> Egrinda: “Thank you very much!” — <strong>effects:</strong> sets stage 61 of <a href="../../quests/galmore_nondisplayed/#stage-61">Galmore story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-egrinda_already_given_gold_10">egrinda_already_given_gold_10</a></li>
 </ul>

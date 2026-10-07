@@ -1249,7 +1249,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">2 entries in the game data</p>
-<p>The game's data files define 2 separate characters named Tharal. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 2 separate characters named Tharal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1272,7 +1272,7 @@
 <tr>
 <td><a href="#v-ratdom_tharal"><code>ratdom_tharal</code></a></td>
 <td>Enemy</td>
-<td>Crossglen: <a href="../../maps/crossglen/">crossglen</a></td>
+<td>Crossglen: <a href="../../maps/crossglen/">Crossglen</a></td>
 <td>–</td>
 <td>160</td>
 </tr>
@@ -1354,14 +1354,14 @@
 <li><a href="../../quests/antifoodp/">Taste is everything</a>: stage 10</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tharal. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Tharal. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/tharal1.json" data-npc="Tharal" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (12 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-tharal-tharal1"></span><strong><code>tharal1</code></strong> Tharal: “Walk in the glow of the Shadow, my child.”</p>
 <ul>
 <li>“Do you have anything to trade?” → <em>shop opens</em></li>
@@ -1494,7 +1494,7 @@
 </details>
 <h2 id="v-ratdom_tharal">Crossglen, Crossglen (ratdom_tharal)<a class="headerlink" href="#v-ratdom_tharal" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>ratdom_tharal</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Crossglen: <a href="../../maps/crossglen/">crossglen</a></p>
+<p><strong>Location:</strong> Crossglen: <a href="../../maps/crossglen/">Crossglen</a></p>
 <h3 id="combat-statistics">Combat statistics<a class="headerlink" href="#combat-statistics" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1593,7 +1593,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/crossglen/">crossglen</a></td>
+<td><a href="../../maps/crossglen/">Crossglen</a></td>
 <td>Crossglen</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
@@ -1602,9 +1602,9 @@
 </table>
 <h3 id="quests-that-count-defeats">Quests that count defeats<a class="headerlink" href="#quests-that-count-defeats" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../quests/ratdom_mikhail/#stage-32">More rats!</a> with stepping on a trigger on <a href="../../maps/crossglen/">crossglen</a> checks that this enemy has been defeated.</li>
-<li><a href="../../quests/ratdom_mikhail/#stage-52">More rats!</a> with <a href="../mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>), <a href="../ratdom_mikhail/">Gruiik</a> (<a href="../../maps/home/">home</a>) checks that this enemy has been defeated.</li>
-<li><a href="../../quests/ratdom_mikhail/#stage-54">More rats!</a> with <a href="../mikhail/">Mikhail</a> (<a href="../../maps/home/">home</a>), <a href="../ratdom_mikhail/">Gruiik</a> (<a href="../../maps/home/">home</a>) checks that this enemy has been defeated.</li>
+<li><a href="../../quests/ratdom_mikhail/#stage-32">More rats!</a> with stepping on a trigger on <a href="../../maps/crossglen/">Crossglen</a> checks that this enemy has been defeated.</li>
+<li><a href="../../quests/ratdom_mikhail/#stage-52">More rats!</a> with <a href="../mikhail/">Mikhail</a> (<a href="../../maps/home/">Home</a>), <a href="../ratdom_mikhail/">Gruiik</a> (<a href="../../maps/home/">Home</a>) checks that this enemy has been defeated.</li>
+<li><a href="../../quests/ratdom_mikhail/#stage-54">More rats!</a> with <a href="../mikhail/">Mikhail</a> (<a href="../../maps/home/">Home</a>), <a href="../ratdom_mikhail/">Gruiik</a> (<a href="../../maps/home/">Home</a>) checks that this enemy has been defeated.</li>
 </ul>
 <h3 id="version-history_1">Version history<a class="headerlink" href="#version-history_1" title="Permanent link">&para;</a></h3>
 <table>

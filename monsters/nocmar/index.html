@@ -1204,17 +1204,17 @@
 <ul>
 <li><a href="../../quests/place_to_forge/">A place to forge</a>: stages 10, 20, 60</li>
 <li><a href="../../quests/nocmar/">Lost treasures</a>: stages 20, 30, 48, 80, 90, 100, 200</li>
-<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 10, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39</li>
+<li><a href="../../quests/undertell_hidden/">Undertell story flags (hidden flag)</a>: stages 10, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nocmar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Nocmar. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/nocmar_selector.json" data-npc="Nocmar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (63 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-nocmar_selector"></span><strong><code>nocmar_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if NOT reached stage 90 of <a href="../../quests/nocmar/#stage-90">Lost treasures</a>)</em> → <a href="#d-nocmar">nocmar</a></li>
@@ -1236,15 +1236,15 @@
 <p><span id="d-nocmar_forge_one_item_10"></span><strong><code>nocmar_forge_one_item_10</code></strong> Nocmar: “Heartsteel answers to shape and intent. Tell me which form you demand and I will pour the heartstone's essence into that blade or head. Choose wisely; only one may be made from this stone.”</p>
 <ul>
 <li>“What?! I only get one? But how will I decide which one I want?” → <a href="#d-nocmar_forge_one_item_20">nocmar_forge_one_item_20</a></li>
-<li>“I've made a decision.” <em>(if reached stage 25 of <a href="../../quests/undertell_hidden/#stage-25">hidden_undertell (hidden flag)</a>; NOT reached stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_forge_one_item_picked_10">nocmar_forge_one_item_picked_10</a></li>
-<li>“I chose the claymore.” <em>(if reached stage 30 of <a href="../../quests/undertell_hidden/#stage-30">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_claymore_10">nocmar_claymore_10</a></li>
-<li>“I chose the one-handed sword” <em>(if reached stage 31 of <a href="../../quests/undertell_hidden/#stage-31">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_onehanded_10">nocmar_onehanded_10</a></li>
-<li>“I chose the dagger” <em>(if reached stage 32 of <a href="../../quests/undertell_hidden/#stage-32">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_dagger_10">nocmar_dagger_10</a></li>
-<li>“I chose the glaive” <em>(if reached stage 33 of <a href="../../quests/undertell_hidden/#stage-33">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_glaive_10">nocmar_glaive_10</a></li>
-<li>“I chose the greate axe” <em>(if reached stage 34 of <a href="../../quests/undertell_hidden/#stage-34">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_greateaxe_10">nocmar_greateaxe_10</a></li>
-<li>“I chose the hand axe” <em>(if reached stage 35 of <a href="../../quests/undertell_hidden/#stage-35">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_handaxe_10">nocmar_handaxe_10</a></li>
-<li>“I chose the mace” <em>(if reached stage 36 of <a href="../../quests/undertell_hidden/#stage-36">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_mace_10">nocmar_mace_10</a></li>
-<li>“I chose the parrying weapon” <em>(if reached stage 37 of <a href="../../quests/undertell_hidden/#stage-37">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_bladeBreaker_10">nocmar_bladeBreaker_10</a></li>
+<li>“I've made a decision.” <em>(if reached stage 25 of <a href="../../quests/undertell_hidden/#stage-25">Undertell story flags (hidden flag)</a>; NOT reached stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_forge_one_item_picked_10">nocmar_forge_one_item_picked_10</a></li>
+<li>“I chose the claymore.” <em>(if reached stage 30 of <a href="../../quests/undertell_hidden/#stage-30">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_claymore_10">nocmar_claymore_10</a></li>
+<li>“I chose the one-handed sword” <em>(if reached stage 31 of <a href="../../quests/undertell_hidden/#stage-31">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_onehanded_10">nocmar_onehanded_10</a></li>
+<li>“I chose the dagger” <em>(if reached stage 32 of <a href="../../quests/undertell_hidden/#stage-32">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_dagger_10">nocmar_dagger_10</a></li>
+<li>“I chose the glaive” <em>(if reached stage 33 of <a href="../../quests/undertell_hidden/#stage-33">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_glaive_10">nocmar_glaive_10</a></li>
+<li>“I chose the greate axe” <em>(if reached stage 34 of <a href="../../quests/undertell_hidden/#stage-34">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_greateaxe_10">nocmar_greateaxe_10</a></li>
+<li>“I chose the hand axe” <em>(if reached stage 35 of <a href="../../quests/undertell_hidden/#stage-35">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_handaxe_10">nocmar_handaxe_10</a></li>
+<li>“I chose the mace” <em>(if reached stage 36 of <a href="../../quests/undertell_hidden/#stage-36">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_mace_10">nocmar_mace_10</a></li>
+<li>“I chose the parrying weapon” <em>(if reached stage 37 of <a href="../../quests/undertell_hidden/#stage-37">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_bladeBreaker_10">nocmar_bladeBreaker_10</a></li>
 </ul>
 <p><span id="d-nocmar_post_heartsteel_10"></span><strong><code>nocmar_post_heartsteel_10</code></strong> Nocmar: “This place is a mess, I have a lot of work ahead of me to make this place usable.”</p>
 <p><span id="d-nocmar_trade_select"></span><strong><code>nocmar_trade_select</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
@@ -1263,7 +1263,7 @@
 <ul>
 <li>Next → <a href="#d-nocmar_dragon_reveal_10a">nocmar_dragon_reveal_10a</a></li>
 </ul>
-<p><span id="d-nocmar_forge_one_item_20"></span><strong><code>nocmar_forge_one_item_20</code></strong> Nocmar: “Oh, that's easier than you might think. Here, I will show you a list of the items and their capabilities. Then after you think about it, you can come back to me and I will forge it for you.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/undertell_hidden/#stage-25">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_forge_one_item_20"></span><strong><code>nocmar_forge_one_item_20</code></strong> Nocmar: “Oh, that's easier than you might think. Here, I will show you a list of the items and their capabilities. Then after you think about it, you can come back to me and I will forge it for you.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/undertell_hidden/#stage-25">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Very well. Let us see this list.” → <em>shop opens</em></li>
 </ul>
@@ -1279,35 +1279,35 @@
 <li>“I really want that parrying weapon.” → <a href="#d-nocmar_bladeBreaker_10">nocmar_bladeBreaker_10</a></li>
 <li>“I adventure without a weapon, so I desire none of these.” → <a href="#d-nocmar_no_weapon_10">nocmar_no_weapon_10</a></li>
 </ul>
-<p><span id="d-nocmar_claymore_10"></span><strong><code>nocmar_claymore_10</code></strong> Nocmar: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the molten vein and shape the claymore. The metal sings to the hammer. Stand back while I temper and finish it.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/undertell_hidden/#stage-30">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_claymore_10"></span><strong><code>nocmar_claymore_10</code></strong> Nocmar: “The bellows heave and the dragon's breath draws down into the furnace. I fold the heartstone's cooled core into the molten vein and shape the claymore. The metal sings to the hammer. Stand back while I temper and finish it.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/undertell_hidden/#stage-30">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“I will wait.” → <a href="#d-nocmar_claymore_20">nocmar_claymore_20</a></li>
 </ul>
-<p><span id="d-nocmar_onehanded_10"></span><strong><code>nocmar_onehanded_10</code></strong> Nocmar: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.” — <strong>effects:</strong> sets stage 31 of <a href="../../quests/undertell_hidden/#stage-31">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_onehanded_10"></span><strong><code>nocmar_onehanded_10</code></strong> Nocmar: “A one-handed war blade, balanced and quick. Heartsteel will make it sing in your hand and cleave with a will of its own.” — <strong>effects:</strong> sets stage 31 of <a href="../../quests/undertell_hidden/#stage-31">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Make it so.” → <a href="#d-nocmar_onehanded_20">nocmar_onehanded_20</a></li>
 </ul>
-<p><span id="d-nocmar_dagger_10"></span><strong><code>nocmar_dagger_10</code></strong> Nocmar: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite. This will be a precise and deadly blade.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/undertell_hidden/#stage-32">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_dagger_10"></span><strong><code>nocmar_dagger_10</code></strong> Nocmar: “I work the heartstone down to a keen edge fit for a dagger. The heartsteel takes to a small shape with a bitter bite. This will be a precise and deadly blade.” — <strong>effects:</strong> sets stage 32 of <a href="../../quests/undertell_hidden/#stage-32">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Very well.” → <a href="#d-nocmar_dagger_20">nocmar_dagger_20</a></li>
 </ul>
-<p><span id="d-nocmar_glaive_10"></span><strong><code>nocmar_glaive_10</code></strong> Nocmar: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will cut through ranks.” — <strong>effects:</strong> sets stage 33 of <a href="../../quests/undertell_hidden/#stage-33">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_glaive_10"></span><strong><code>nocmar_glaive_10</code></strong> Nocmar: “A glaive demands balance and spring. I ring the shaft and bind the heartsteel head to it, coaxing a reach that will cut through ranks.” — <strong>effects:</strong> sets stage 33 of <a href="../../quests/undertell_hidden/#stage-33">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Proceed.” → <a href="#d-nocmar_glaive_20">nocmar_glaive_20</a></li>
 </ul>
-<p><span id="d-nocmar_greateaxe_10"></span><strong><code>nocmar_greateaxe_10</code></strong> Nocmar: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the dragon-warmed coals.” — <strong>effects:</strong> sets stage 34 of <a href="../../quests/undertell_hidden/#stage-34">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_greateaxe_10"></span><strong><code>nocmar_greateaxe_10</code></strong> Nocmar: “A great axe needs weight and a true center. I work the heartsteel into a ferocious head, then temper it in the dragon-warmed coals.” — <strong>effects:</strong> sets stage 34 of <a href="../../quests/undertell_hidden/#stage-34">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Do it.” → <a href="#d-nocmar_greateaxe_20">nocmar_greateaxe_20</a></li>
 </ul>
-<p><span id="d-nocmar_handaxe_10"></span><strong><code>nocmar_handaxe_10</code></strong> Nocmar: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/undertell_hidden/#stage-35">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_handaxe_10"></span><strong><code>nocmar_handaxe_10</code></strong> Nocmar: “The hand axe will be compact and reliable. I shape the edge and set the haft so it fits your grip like a second thought.” — <strong>effects:</strong> sets stage 35 of <a href="../../quests/undertell_hidden/#stage-35">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Good.” → <a href="#d-nocmar_handaxe_20">nocmar_handaxe_20</a></li>
 </ul>
-<p><span id="d-nocmar_mace_10"></span><strong><code>nocmar_mace_10</code></strong> Nocmar: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve alike.” — <strong>effects:</strong> sets stage 36 of <a href="../../quests/undertell_hidden/#stage-36">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_mace_10"></span><strong><code>nocmar_mace_10</code></strong> Nocmar: “A mace it is. I imbue the head to carry both blunt force and uncanny true weight. This will crush bone and resolve alike.” — <strong>effects:</strong> sets stage 36 of <a href="../../quests/undertell_hidden/#stage-36">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Carry on.” → <a href="#d-nocmar_mace_20">nocmar_mace_20</a></li>
 </ul>
-<p><span id="d-nocmar_bladeBreaker_10"></span><strong><code>nocmar_bladeBreaker_10</code></strong> Nocmar: “A parrying weapon it is. This will hinder your attacker's weapon.” — <strong>effects:</strong> sets stage 37 of <a href="../../quests/undertell_hidden/#stage-37">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_bladeBreaker_10"></span><strong><code>nocmar_bladeBreaker_10</code></strong> Nocmar: “A parrying weapon it is. This will hinder your attacker's weapon.” — <strong>effects:</strong> sets stage 37 of <a href="../../quests/undertell_hidden/#stage-37">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Carry on.” → <a href="#d-nocmar_bladeBreaker_20">nocmar_bladeBreaker_20</a></li>
 </ul>
@@ -1327,7 +1327,7 @@
 <li>“No, not yet.” → <a href="#d-nocmar_continue_2">nocmar_continue_2</a></li>
 <li>“Actually, I found two. [extend your hands, one stone in each]” <em>(if carry 1× <a href="../../items/heartstone_unrefined/">Heartstone</a>; carry 1× <a href="../../items/heartstone/">Heartstone</a>)</em> → <a href="#d-nocmar_two_stones_10">nocmar_two_stones_10</a></li>
 <li>“Yes, at last I found it.” <em>(if hand over 1× <a href="../../items/heartstone/">Heartstone</a>; NOT carry 1× <a href="../../items/heartstone_unrefined/">Heartstone</a>)</em> → <a href="#d-nocmar_complete">nocmar_complete</a></li>
-<li>“[while shaking your head] It's in your hand.” <em>(if reached stage 10 of <a href="../../quests/undertell_hidden/#stage-10">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-nocmar_complete_2">nocmar_complete_2</a></li>
+<li>“[while shaking your head] It's in your hand.” <em>(if reached stage 10 of <a href="../../quests/undertell_hidden/#stage-10">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-nocmar_complete_2">nocmar_complete_2</a></li>
 </ul>
 <p><span id="d-nocmar_quest"></span><strong><code>nocmar_quest</code></strong> Nocmar: “Unnmir sent you huh? I guess it must be important then.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/nocmar/#stage-20">Lost treasures</a></p>
 <ul>
@@ -1398,7 +1398,7 @@
 <ul>
 <li>Next → <a href="#d-nocmar_two_stones_11">nocmar_two_stones_11</a></li>
 </ul>
-<p><span id="d-nocmar_complete"></span><strong><code>nocmar_complete</code></strong> Nocmar: “So you truly have it? The heartstone...beautiful and intact. Remarkable. You've done what few would dare. Can you see the glow? It's literally pulsating.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/undertell_hidden/#stage-10">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_complete"></span><strong><code>nocmar_complete</code></strong> Nocmar: “So you truly have it? The heartstone...beautiful and intact. Remarkable. You've done what few would dare. Can you see the glow? It's literally pulsating.” — <strong>effects:</strong> sets stage 10 of <a href="../../quests/undertell_hidden/#stage-10">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-nocmar_complete_2">nocmar_complete_2</a></li>
 </ul>
@@ -1414,7 +1414,7 @@
 <ul>
 <li>Next <em>(if NOT reached stage 100 of <a href="../../quests/nocmar/#stage-100">Lost treasures</a>)</em> → <a href="#d-nocmar_dragon_reveal_20">nocmar_dragon_reveal_20</a></li>
 </ul>
-<p><span id="d-nocmar_no_weapon_15"></span><strong><code>nocmar_no_weapon_15</code></strong> Nocmar: “Okay.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, sets stage 38 of <a href="../../quests/undertell_hidden/#stage-38">hidden_undertell (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-nocmar_no_weapon_15"></span><strong><code>nocmar_no_weapon_15</code></strong> Nocmar: “Okay.” — <strong>effects:</strong> sets stage 200 of <a href="../../quests/nocmar/#stage-200">Lost treasures</a>, sets stage 38 of <a href="../../quests/undertell_hidden/#stage-38">Undertell story flags (hidden flag)</a>, sets stage 39 of <a href="../../quests/undertell_hidden/#stage-39">Undertell story flags (hidden flag)</a></p>
 <p><span id="d-nocmar_trade_3"></span><strong><code>nocmar_trade_3</code></strong> Nocmar: “By decree of Lord Geomyr, no one in Fallhaven is allowed to even use heartsteel weapons. Much less sell any.”</p>
 <ul>
 <li>Next → <a href="#d-nocmar_trade_4">nocmar_trade_4</a></li>
@@ -1496,7 +1496,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.2/">v0.7.2</a></td>
-<td>Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…”</td>
+<td>Dialogue: 7 lines changed<br>· text: “<em>Nocmar places the heartstone among the heartsteel weapons</em>” → “[Nocmar places the heartstone among the heartsteel weapons]”<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.14/">v0.8.14</a></td>
@@ -1504,7 +1504,7 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Can you see the glow? It's literally pulsating.” → “He studies it with reverence, then grows troubled.”<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.”</td>
+<td>Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “[Nocmar places the heartstone among the heartsteel weapons]” → “While pausing, Nocmar looks down, then sighs.”<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…”</td>
 </tr>
 </tbody>
 </table>

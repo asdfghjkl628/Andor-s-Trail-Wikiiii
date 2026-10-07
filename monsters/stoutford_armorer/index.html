@@ -1113,7 +1113,7 @@
 
 
 <h1 id="odirath"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_10.png" /> Odirath<a class="headerlink" href="#odirath" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Odirath:</strong> Stoutford: <a href="../../maps/stoutford_armorer/#pin-npc-stoutford_armorer">stoutford_armorer</a></p>
+<p><strong>Where to find Odirath:</strong> Stoutford: <a href="../../maps/stoutford_armorer/#pin-npc-stoutford_armorer">Stoutford armorer</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_10.png){ .sprite }</p>
 <table>
@@ -1227,18 +1227,18 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/stn_quest_gyra/">Lost girl looking for lost things</a>: stages 10, 70, 170</li>
-<li><a href="../../quests/brv_wh_delivery_nondisplay/">Delivery - nondisplay (hidden flag)</a>: stage 30</li>
-<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stage 9</li>
+<li><a href="../../quests/brv_wh_delivery_nondisplay/">Brimhaven warehouse delivery (hidden flag)</a>: stage 30</li>
+<li><a href="../../quests/stn_nondisplay/">Stoutford story flags (hidden flag)</a>: stage 9</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Odirath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Odirath. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/odirath_0.json" data-npc="Odirath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (20 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-odirath_0"></span><strong><code>odirath_0</code></strong> Odirath: “Welcome to my shop. Are you looking for anything in particular?”</p>
 <ul>
 <li>“Please show me everything you have available.” → <em>shop opens</em></li>
@@ -1247,7 +1247,7 @@
 <li>“You look a bit worried.” <em>(if NOT reached stage 10 of <a href="../../quests/stn_quest_gyra/#stage-10">Lost girl looking for lost things</a>; NOT reached stage 60 of <a href="../../quests/stn_quest_gyra/#stage-60">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_2">odirath_2</a></li>
 <li>“You look happy again.” <em>(if reached stage 60 of <a href="../../quests/stn_quest_gyra/#stage-60">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_3">odirath_3</a></li>
 <li>“Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you.” <em>(if hand over 1× <a href="../../items/brv_wh_item_07/">Pretty porcelain figure</a>; reached stage 10 of <a href="../../quests/brv_wh_delivery/#stage-10">Delivery</a>; reached stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>)</em> → <a href="#d-brv_wh_delivery_odirath">brv_wh_delivery_odirath</a></li>
-<li>“I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?” <em>(if reached stage 5 of <a href="../../quests/stn_quest_gyra/#stage-5">Lost girl looking for lost things</a>; NOT reached stage 9 of <a href="../../quests/stn_nondisplay/#stage-9">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-odirath_8">odirath_8</a></li>
+<li>“I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?” <em>(if reached stage 5 of <a href="../../quests/stn_quest_gyra/#stage-5">Lost girl looking for lost things</a>; NOT reached stage 9 of <a href="../../quests/stn_nondisplay/#stage-9">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-odirath_8">odirath_8</a></li>
 </ul>
 <p><span id="d-odirath_1"></span><strong><code>odirath_1</code></strong> Odirath: “I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know…”</p>
 <ul>
@@ -1268,7 +1268,7 @@
 <li>branch 1 <em>(if reached stage 99 of <a href="../../quests/stn_quest_gyra/#stage-99">Lost girl looking for lost things</a>)</em> → <a href="#d-odirath_3_2">odirath_3_2</a></li>
 <li>branch 2 → <a href="#d-odirath_3_1">odirath_3_1</a></li>
 </ul>
-<p><span id="d-brv_wh_delivery_odirath"></span><strong><code>brv_wh_delivery_odirath</code></strong> Odirath: “Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.” — <strong>effects:</strong> clears stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>, sets stage 30 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-30">Delivery - nondisplay (hidden flag)</a>, gives 30× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brv_wh_delivery_odirath"></span><strong><code>brv_wh_delivery_odirath</code></strong> Odirath: “Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.” — <strong>effects:</strong> clears stage 40 of <a href="../../quests/brv_wh_delivery/#stage-40">Delivery</a>, sets stage 30 of <a href="../../quests/brv_wh_delivery_nondisplay/#stage-30">Brimhaven warehouse delivery (hidden flag)</a>, gives 30× <a href="../../items/gold/">Gold coins</a></p>
 <ul>
 <li>“Thank you.” → <em>conversation ends</em></li>
 </ul>
@@ -1305,7 +1305,7 @@
 <ul>
 <li>“I understand.” → <a href="#d-odirath_0">odirath_0</a></li>
 </ul>
-<p><span id="d-odirath_8c"></span><strong><code>odirath_8c</code></strong> Odirath: “The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you.” — <strong>effects:</strong> sets stage 9 of <a href="../../quests/stn_nondisplay/#stage-9">stn_nondisplay (hidden flag)</a></p>
+<p><span id="d-odirath_8c"></span><strong><code>odirath_8c</code></strong> Odirath: “The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you.” — <strong>effects:</strong> sets stage 9 of <a href="../../quests/stn_nondisplay/#stage-9">Stoutford story flags (hidden flag)</a></p>
 <ul>
 <li>“Great!” → <a href="#d-odirath_0">odirath_0</a></li>
 </ul>
@@ -1342,7 +1342,7 @@
 <ul>
 <li>“OK.” → <em>conversation ends</em></li>
 <li>“I did that already. But he didn't seem to be happy about it.” <em>(if reached stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>)</em> → <em>conversation ends</em></li>
-<li>“I did that already. Although he won't need it, because the castle is already clear of the undead.” <em>(if reached stage 149 of <a href="../../quests/stn_nondisplay/#stage-149">stn_nondisplay (hidden flag)</a>)</em> → <em>conversation ends</em></li>
+<li>“I did that already. Although he won't need it, because the castle is already clear of the undead.” <em>(if reached stage 149 of <a href="../../quests/stn_nondisplay/#stage-149">Stoutford story flags (hidden flag)</a>)</em> → <em>conversation ends</em></li>
 <li>“Maybe.” → <em>conversation ends</em></li>
 </ul>
 </details>

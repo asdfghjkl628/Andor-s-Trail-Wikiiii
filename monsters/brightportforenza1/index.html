@@ -1102,7 +1102,7 @@
 
 
 <h1 id="florencia"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_206.png" /> Florencia<a class="headerlink" href="#florencia" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Florencia:</strong> Brightport: <a href="../../maps/brightport_forenza/#pin-npc-brightportforenza1">brightport_forenza</a></p>
+<p><strong>Where to find Florencia:</strong> Brightport: <a href="../../maps/brightport_forenza/#pin-npc-brightportforenza1">Brightport forenza</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_206.png){ .sprite }</p>
 <table>
@@ -1134,22 +1134,22 @@
 </div>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 183, 242, 254</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 183, 242, 254</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Florencia. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Florencia. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_florencia_selector.json" data-npc="Florencia" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (7 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_florencia_selector"></span><strong><code>brightport_florencia_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 115 of <a href="../../quests/odd_coin_collector/#stage-115">The odd coin collector</a>; NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_florencia0">brightport_florencia0</a></li>
-<li>Next <em>(if reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_florencia2">brightport_florencia2</a></li>
-<li>Next <em>(if NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_florencia">brightport_florencia</a></li>
+<li>Next <em>(if reached stage 115 of <a href="../../quests/odd_coin_collector/#stage-115">The odd coin collector</a>; NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_florencia0">brightport_florencia0</a></li>
+<li>Next <em>(if reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_florencia2">brightport_florencia2</a></li>
+<li>Next <em>(if NOT reached stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_florencia">brightport_florencia</a></li>
 </ul>
 <p><span id="d-brightport_florencia0"></span><strong><code>brightport_florencia0</code></strong> Florencia: “Hello, $playername! I received a letter from my father, Forenza, about how much you helped him on his travel.”</p>
 <ul>
@@ -1163,13 +1163,13 @@
 <ul>
 <li>“That is an interesting vault you have there, what is it for?” → <a href="#d-brightport_florencia6">brightport_florencia6</a></li>
 </ul>
-<p><span id="d-brightport_florencia3"></span><strong><code>brightport_florencia3</code></strong> Florencia: “Please feel free to rest at our house any time you're in Brightport. The couch is over there, against the far wall.” — <strong>effects:</strong> sets stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">brightport_nondisplay (hidden flag)</a></p>
-<p><span id="d-brightport_florencia6"></span><strong><code>brightport_florencia6</code></strong> Florencia: “My husband, who is the bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his coin collection.” — <strong>effects:</strong> sets stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_florencia3"></span><strong><code>brightport_florencia3</code></strong> Florencia: “Please feel free to rest at our house any time you're in Brightport. The couch is over there, against the far wall.” — <strong>effects:</strong> sets stage 183 of <a href="../../quests/brightport_nondisplay/#stage-183">Brightport story flags (hidden flag)</a></p>
+<p><span id="d-brightport_florencia6"></span><strong><code>brightport_florencia6</code></strong> Florencia: “My husband, who is the bakery's accountant, keeps most of his paperwork there. But it was my father who made it to store his coin collection.” — <strong>effects:</strong> sets stage 242 of <a href="../../quests/brightport_nondisplay/#stage-242">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Your father?” → <a href="#d-brightport_florencia7">brightport_florencia7</a></li>
 <li>“I see, bye.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-brightport_florencia7"></span><strong><code>brightport_florencia7</code></strong> Florencia: “My father Forenza... I wish he would come visit us more often. What is he doing traveling alone at his age?” — <strong>effects:</strong> sets stage 254 of <a href="../../quests/brightport_nondisplay/#stage-254">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_florencia7"></span><strong><code>brightport_florencia7</code></strong> Florencia: “My father Forenza... I wish he would come visit us more often. What is he doing traveling alone at his age?” — <strong>effects:</strong> sets stage 254 of <a href="../../quests/brightport_nondisplay/#stage-254">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“I should get going.” → <em>conversation ends</em></li>
 </ul>

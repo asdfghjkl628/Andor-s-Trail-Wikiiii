@@ -1102,7 +1102,7 @@
 
 
 <h1 id="allares"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld_edit_0.png" /> Allares<a class="headerlink" href="#allares" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Allares:</strong> Brightport: <a href="../../maps/brightport_bakery1/#pin-npc-brightportstoragenpc">brightport_bakery1</a></p>
+<p><strong>Where to find Allares:</strong> Brightport: <a href="../../maps/brightport_bakery1/#pin-npc-brightportstoragenpc">Brightport bakery 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld_edit_0.png){ .sprite }</p>
 <table>
@@ -1141,14 +1141,14 @@
 <li><a href="../../quests/brightport_bakery/">Bread and circus</a>: stages 1, 22, 23, 70</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Allares. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Allares. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_allares.json" data-npc="Allares" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (17 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_allares"></span><strong><code>brightport_allares</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>Next <em>(if reached stage 70 of <a href="../../quests/brightport_bakery/#stage-70">Bread and circus</a>)</em> → <a href="#d-brightport_allares_end">brightport_allares_end</a></li>
@@ -1167,16 +1167,16 @@
 </ul>
 <p><span id="d-brightport_allares3"></span><strong><code>brightport_allares3</code></strong> Allares: “Hello, how is the work?”</p>
 <ul>
-<li>“I brought the apples to Eatloni, he'll have them brought in soon.” <em>(if reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_allares9">brightport_allares9</a></li>
+<li>“I brought the apples to Eatloni, he'll have them brought in soon.” <em>(if reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_allares9">brightport_allares9</a></li>
 <li>“Delon said there was an apple delivery that was supposed to arrive but didn't.” <em>(if reached stage 20 of <a href="../../quests/brightport_bakery/#stage-20">Bread and circus</a>; NOT reached stage 22 of <a href="../../quests/brightport_bakery/#stage-22">Bread and circus</a>)</em> → <a href="#d-brightport_allares6">brightport_allares6</a></li>
-<li>“I have the 30 apples here.” <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; carry 30× <a href="../../items/deebo_apples/">Orchard apple</a>; NOT reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_allares_apples">brightport_allares_apples</a></li>
+<li>“I have the 30 apples here.” <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; carry 30× <a href="../../items/deebo_apples/">Orchard apple</a>; NOT reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_allares_apples">brightport_allares_apples</a></li>
 <li>“I'm still doing it.” <em>(if NOT reached stage 16 of <a href="../../quests/brightport_bakery/#stage-16">Bread and circus</a>)</em> → <em>conversation ends</em></li>
 <li>“I'm still looking for those apples.” <em>(if reached stage 23 of <a href="../../quests/brightport_bakery/#stage-23">Bread and circus</a>; NOT reached stage 70 of <a href="../../quests/brightport_bakery/#stage-70">Bread and circus</a>)</em> → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-brightport_allares0"></span><strong><code>brightport_allares0</code></strong> Allares: “Please don't bother the cooks. We are very busy today. We've got some big orders for the festival down in Sullengard.”</p>
 <ul>
-<li>“Perhaps I could help?” <em>(if NOT reached stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">brightport_nondisplay (hidden flag)</a>; NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_allares1">brightport_allares1</a></li>
-<li>“Eatloni told me to see you.” <em>(if reached stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">brightport_nondisplay (hidden flag)</a>; NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_allares2">brightport_allares2</a></li>
+<li>“Perhaps I could help?” <em>(if NOT reached stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">Brightport story flags (hidden flag)</a>; NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_allares1">brightport_allares1</a></li>
+<li>“Eatloni told me to see you.” <em>(if reached stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">Brightport story flags (hidden flag)</a>; NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_allares2">brightport_allares2</a></li>
 <li>“That's nice. But I don't care. See you later.” → <em>conversation ends</em></li>
 </ul>
 <p><span id="d-brightport_allares5"></span><strong><code>brightport_allares5</code></strong> Allares: “Very good, you've convinced me of your capabilities. Please talk to Eatloni outside, he was in charge of the apple delivery and should know more.” — <strong>effects:</strong> sets stage 23 of <a href="../../quests/brightport_bakery/#stage-23">Bread and circus</a></p>

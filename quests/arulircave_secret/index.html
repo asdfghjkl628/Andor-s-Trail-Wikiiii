@@ -1024,10 +1024,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1162,61 +1162,63 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td>stepping on a trigger on <a href="../../maps/arulircave5/">arulircave5</a></td>
+<td>stepping on a trigger on <a href="../../maps/arulircave5/">Arulircave 5</a></td>
 </tr>
 </tbody>
 </table>
 </div>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>None: talk to stepping on a trigger on <a href="../../maps/arulircave5/">arulircave5</a> to begin.</p>
+<p>None: talk to stepping on a trigger on <a href="../../maps/arulircave5/">Arulircave 5</a> to begin.</p>
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
 <p><em>Quest logic, read from the dialogue conditions.</em></p>
 <p>No links to other quests were found in the dialogue conditions.</p>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
-<td><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/arulircave5/">Arulircave5</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/arulircave5/">arulircave5</a></td>
-<td>–</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/arulircave5/">Arulircave 5</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/arulircave5/">Arulircave 5</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-20"></span>20</td>
-<td><strong>(completes quest)</strong><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/arulircave5/">Arulircave5</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/arulircave5/">arulircave5</a></td>
-<td>stage 10</td>
+<td><span id="stage-20"></span><a href="#route-20">20</a></td>
+<td><strong>(ends quest)</strong><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/arulircave5/">Arulircave 5</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/arulircave5/">Arulircave 5</a></td>
 <td>–</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/arulircave5/">arulircave5</a> → the conversation leads here automatically → <strong>stage 10</strong></li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · stepping on a trigger on arulircave5 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/arulircave5/">Arulircave 5</a></p>
 </details>
-<details class="note" open="open">
-<summary>Stage 20: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/arulircave5/">arulircave5</a> → the conversation leads here automatically — <strong>conditions:</strong> latest stage of <a href="./#stage-10">Arulircave secret room (hidden flag)</a> is 10 → <strong>stage 20</strong>. NPC: “You stumble over some rocks. As you fall against the wall, it buckles and the whole wall begins to crumble.”</li>
-</ol>
+<p><span id="route-20"></span></p>
+<details class="note">
+<summary>Stage 20 · stepping on a trigger on arulircave5 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/arulircave5/">Arulircave 5</a></p>
+<ul>
+<li><strong>Needs:</strong> latest stage of <a href="./#stage-10">Arulircave secret room (hidden flag)</a> is 10</li>
+<li><em>“You stumble over some rocks. As you fall against the wall, it buckles and the whole wall begins to crumble.”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
@@ -1262,6 +1264,10 @@
 <tr>
 <td>Quest ID</td>
 <td><code>arulircave_secret</code></td>
+</tr>
+<tr>
+<td>Name in game data</td>
+<td><code>Arulircave secret room</code></td>
 </tr>
 <tr>
 <td>showInLog</td>

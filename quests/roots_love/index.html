@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>)</td>
+<td><a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">Stoutford gate</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/lakecave2/">lakecave2</a>, <a href="../../maps/remgard0/">remgard0</a>, <a href="../../maps/stoutford_gate/">stoutford_gate</a></td>
+<td><a href="../../maps/lakecave2/">Lakecave 2</a>, <a href="../../maps/remgard0/">Remgard 0</a>, <a href="../../maps/stoutford_gate/">Stoutford gate</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1195,7 +1195,7 @@
 <p>Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some damerilias from Remgard for the grave of Noraed, her husband.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>None: talk to <a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>) to begin.</p>
+<p>None: talk to <a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">Stoutford gate</a>) to begin.</p>
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
@@ -1232,87 +1232,100 @@
 </tbody>
 </table>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span id="stage-10"></span>10</td>
-<td>Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some damerilias from Remgard for the grave of Noraed, her husband.</td>
-<td><a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>)</td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><span id="stage-20"></span>20</td>
-<td>Noraed's sister, Caeda, gave me some damerilias. I should bring them back to Stoutford.</td>
-<td><a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>)</td>
-<td>stage 10</td>
-<td>gives 3× <a href="../../items/damerilias/">Damerilias</a></td>
-</tr>
-<tr>
-<td><span id="stage-30"></span>30</td>
-<td>I have brought the damerilias back to Aryfora. She thanked me with a potion she made.</td>
-<td><a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>)</td>
-<td>hand over 3× <a href="../../items/damerilias/">Damerilias</a>, stage 10</td>
-<td>3,500 XP<br>gives 1× <a href="../../items/potion_deftness/">Potion of deftness</a></td>
-</tr>
-<tr>
-<td><span id="stage-40"></span>40</td>
-<td>I told her the flowers were from Noraed's sister, Caeda. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>)</td>
-<td>stage 30</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><details class="jt"><summary><span class="s">Aryfora, a woman grieving in Stoutford's graveyard asked me to bring… ▸</span><span class="l">▴ less</span></summary>Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some damerilias from Remgard for the grave of Noraed, her husband.</details></td>
+<td><a href="../../monsters/stoutford_widow/">Aryfora</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-45"></span>45</td>
-<td>I told her I found the flowers around Remgard, in the wild. <strong>(completes quest)</strong></td>
-<td><a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>)</td>
-<td>stage 30</td>
+<td><span id="stage-20"></span><a href="#route-20">20</a></td>
+<td><details class="jt"><summary><span class="s">Noraed's sister, Caeda, gave me some damerilias. I should bring them… ▸</span><span class="l">▴ less</span></summary>Noraed's sister, Caeda, gave me some damerilias. I should bring them back to Stoutford.</details></td>
+<td><a href="../../monsters/caeda/">Caeda</a></td>
+<td>3× <a href="../../items/damerilias/">Damerilias</a></td>
+</tr>
+<tr>
+<td><span id="stage-30"></span><a href="#route-30">30</a></td>
+<td><details class="jt"><summary><span class="s">I have brought the damerilias back to Aryfora. She thanked me with a… ▸</span><span class="l">▴ less</span></summary>I have brought the damerilias back to Aryfora. She thanked me with a potion she made.</details></td>
+<td><a href="../../monsters/stoutford_widow/">Aryfora</a></td>
+<td>3,500 XP, 1× <a href="../../items/potion_deftness/">Potion of deftness</a></td>
+</tr>
+<tr>
+<td><span id="stage-40"></span><a href="#route-40">40</a></td>
+<td>I told her the flowers were from Noraed's sister, Caeda. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/stoutford_widow/">Aryfora</a></td>
+<td>–</td>
+</tr>
+<tr>
+<td><span id="stage-45"></span><a href="#route-45">45</a></td>
+<td>I told her I found the flowers around Remgard, in the wild. <strong>(ends quest)</strong></td>
+<td><a href="../../monsters/stoutford_widow/">Aryfora</a></td>
 <td>–</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>) → choose “Don't worry about me. I can handle myself.” → <strong>stage 10</strong>. NPC: “Really? If you manage to do it, I'll make sure to reward you with something only I can do, and that I haven't done in…”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Aryfora · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a>, choose “Don't worry about me. I can handle myself.”</p>
+<ul>
+<li><em>“Really? If you manage to do it, I'll make sure to reward you with something only I can do, and that I haven't done in a long time.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 20: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/caeda/">Caeda</a> (<a href="../../maps/lakecave2/">lakecave2</a>) → choose “Yes, Aryfora told me. She asked me to bring her some damerilias for Noraed's grave.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">The roots of love</a>; NOT reached stage 20 of <a href="./#stage-20">The roots of love</a>; NOT reached stage 10 of <a href="../secret_garden/#stage-10">A secret garden</a> → <strong>stage 20</strong>; also gives 3× <a href="../../items/damerilias/">Damerilias</a>. NPC: “I still have some. Here, take these to her, and send her my condolences.”</li>
-</ol>
+<p><span id="route-20"></span></p>
+<details class="note">
+<summary>Stage 20 · Caeda · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/caeda/">Caeda</a>, choose “Yes, Aryfora told me. She asked me to bring her some damerilias for Noraed's grave.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10; not yet stage 20; not reached stage 10 of <a href="../secret_garden/#stage-10">A secret garden</a></li>
+<li><strong>Gives:</strong> 3× <a href="../../items/damerilias/">Damerilias</a></li>
+<li><em>“I still have some. Here, take these to her, and send her my condolences.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 30: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>) → choose “Yes. Here they are, three of the most beautiful damerilias.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">The roots of love</a>; hand over 3× <a href="../../items/damerilias/">Damerilias</a> → <strong>stage 30</strong>; also gives 1× <a href="../../items/potion_deftness/">Potion of deftness</a>. NPC: “Oh. They're beautiful! Thank you! Here, take this potion as your reward.”</li>
-</ol>
+<p><span id="route-30"></span></p>
+<details class="note">
+<summary>Stage 30 · Aryfora · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a>, choose “Yes. Here they are, three of the most beautiful damerilias.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10; hand over 3× <a href="../../items/damerilias/">Damerilias</a></li>
+<li><strong>Gives:</strong> 1× <a href="../../items/potion_deftness/">Potion of deftness</a></li>
+<li><em>“Oh. They're beautiful! Thank you! Here, take this potion as your reward.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 40: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>) → choose “Caeda, Noraed's sister, gave them to me. She sends you her condolences.” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">The roots of love</a> → <strong>stage 40</strong>. NPC: “Noraed had a sister? He never talked about his family. He said he had a happy childhood, but that's it. I think he…”</li>
-</ol>
+<p><span id="route-40"></span></p>
+<details class="note">
+<summary>Stage 40 · Aryfora · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a>, choose “Caeda, Noraed's sister, gave them to me. She sends you her condolences.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 30</li>
+<li><em>“Noraed had a sister? He never talked about his family. He said he had a happy childhood, but that's it. I think he didn't want me to ask…”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 45: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a> (<a href="../../maps/stoutford_gate/">stoutford_gate</a>) → choose “I found them in the wild around Remgard.” — <strong>conditions:</strong> reached stage 30 of <a href="./#stage-30">The roots of love</a> → <strong>stage 45</strong>. NPC: “Is that so? Remgard must be a beautiful place to have such nice flowers growing in the wild.”</li>
-</ol>
+<p><span id="route-45"></span></p>
+<details class="note">
+<summary>Stage 45 · Aryfora · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/stoutford_widow/">Aryfora</a>, choose “I found them in the wild around Remgard.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 30</li>
+<li><em>“Is that so? Remgard must be a beautiful place to have such nice flowers growing in the wild.”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

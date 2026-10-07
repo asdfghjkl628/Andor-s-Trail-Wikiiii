@@ -1113,7 +1113,7 @@
 
 
 <h1 id="caeda"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_145.png" /> Caeda<a class="headerlink" href="#caeda" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Caeda:</strong> Remgard: <a href="../../maps/remgard0/#pin-npc-caeda">remgard0</a>, <a href="../../maps/lakecave2/#pin-npc-caeda">lakecave2</a></p>
+<p><strong>Where to find Caeda:</strong> Remgard: <a href="../../maps/remgard0/#pin-npc-caeda">Remgard 0</a>, <a href="../../maps/lakecave2/#pin-npc-caeda">Lakecave 2</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_145.png){ .sprite }</p>
 <table>
@@ -1159,13 +1159,13 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/lakecave2/">lakecave2</a></td>
+<td><a href="../../maps/lakecave2/">Lakecave 2</a></td>
 <td>–</td>
 <td>1</td>
 <td>Appears later, during a quest</td>
 </tr>
 <tr>
-<td><a href="../../maps/remgard0/">remgard0</a></td>
+<td><a href="../../maps/remgard0/">Remgard 0</a></td>
 <td>Remgard</td>
 <td>1</td>
 <td>–</td>
@@ -1176,17 +1176,17 @@
 <ul>
 <li><a href="../../quests/secret_garden/">A secret garden</a>: stages 10, 20, 40, 50, 60</li>
 <li><a href="../../quests/roots_love/">The roots of love</a>: stage 20</li>
-<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stage 205</li>
+<li><a href="../../quests/stn_nondisplay/">Stoutford story flags (hidden flag)</a>: stage 205</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Caeda. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Caeda. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/caeda.json" data-npc="Caeda" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (33 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-caeda"></span><strong><code>caeda</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/roots_love/#stage-10">The roots of love</a>)</em> → <a href="#d-caeda_1">caeda_1</a></li>
@@ -1212,7 +1212,7 @@
 </ul>
 <p><span id="d-caeda_60"></span><strong><code>caeda_60</code></strong> Caeda: “Oh, it is you again. Thank you for all you have done.”</p>
 <ul>
-<li>“Could you give me the key for the glade again?” <em>(if reached stage 30 of <a href="../../quests/roots_love/#stage-30">The roots of love</a>; NOT reached stage 205 of <a href="../../quests/stn_nondisplay/#stage-205">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-caeda_root60_1">caeda_root60_1</a></li>
+<li>“Could you give me the key for the glade again?” <em>(if reached stage 30 of <a href="../../quests/roots_love/#stage-30">The roots of love</a>; NOT reached stage 205 of <a href="../../quests/stn_nondisplay/#stage-205">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-caeda_root60_1">caeda_root60_1</a></li>
 <li>“No problem.” → <em>conversation ends</em></li>
 <li>“It was all for the Shadow.” → <em>conversation ends</em></li>
 </ul>
@@ -1263,7 +1263,7 @@
 <ul>
 <li>Next → <a href="#d-caeda_root40_1a">caeda_root40_1a</a></li>
 </ul>
-<p><span id="d-caeda_root60_2"></span><strong><code>caeda_root60_2</code></strong> Caeda: “Here is the key. I will move to the glade and retire there. It is the most beautiful place in the world.” — <strong>effects:</strong> sets stage 205 of <a href="../../quests/stn_nondisplay/#stage-205">stn_nondisplay (hidden flag)</a>, removes monsters from remgard0, spawns monsters on lakecave2, gives 1× <a href="../../items/glade_key/">Key to the glade</a>, removes monsters from lakecave2</p>
+<p><span id="d-caeda_root60_2"></span><strong><code>caeda_root60_2</code></strong> Caeda: “Here is the key. I will move to the glade and retire there. It is the most beautiful place in the world.” — <strong>effects:</strong> sets stage 205 of <a href="../../quests/stn_nondisplay/#stage-205">Stoutford story flags (hidden flag)</a>, removes monsters from remgard0, spawns monsters on lakecave2, gives 1× <a href="../../items/glade_key/">Key to the glade</a>, removes monsters from lakecave2</p>
 <ul>
 <li>“So I will meet you there. Bye.” → <em>NPC leaves</em></li>
 </ul>

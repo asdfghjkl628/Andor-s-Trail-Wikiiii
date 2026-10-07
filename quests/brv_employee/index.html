@@ -1035,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-each-stage-is-reached" class="md-nav__link">
+  <a href="#how-to-reach-each-stage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How each stage is reached
+        How to reach each stage
       
     </span>
   </a>
@@ -1169,7 +1169,7 @@
 </tr>
 <tr>
 <td><strong>Started by</strong></td>
-<td><a href="../../monsters/brv_employee/">Stebbarik</a> (<a href="../../maps/brimhaven_employee/">brimhaven_employee</a>)</td>
+<td><a href="../../monsters/brv_employee/">Stebbarik</a> (<a href="../../maps/brimhaven_employee/">Brimhaven employee</a>)</td>
 </tr>
 <tr>
 <td><strong>NPCs involved</strong></td>
@@ -1177,7 +1177,7 @@
 </tr>
 <tr>
 <td><strong>Locations</strong></td>
-<td><a href="../../maps/brimhaven1/">brimhaven1</a>, <a href="../../maps/brimhaven_employee/">brimhaven_employee</a></td>
+<td><a href="../../maps/brimhaven1/">Brimhaven 1</a>, <a href="../../maps/brimhaven_employee/">Brimhaven employee</a></td>
 </tr>
 <tr>
 <td><strong>Total XP</strong></td>
@@ -1195,7 +1195,7 @@
 <p>The dam is very important to Brimhaven. It should be repaired.</p>
 </blockquote>
 <h2 id="prerequisites-to-start">Prerequisites to start<a class="headerlink" href="#prerequisites-to-start" title="Permanent link">&para;</a></h2>
-<p>None: talk to <a href="../../monsters/brv_employee/">Stebbarik</a> (<a href="../../maps/brimhaven_employee/">brimhaven_employee</a>) to begin.</p>
+<p>None: talk to <a href="../../monsters/brv_employee/">Stebbarik</a> (<a href="../../maps/brimhaven_employee/">Brimhaven employee</a>) to begin.</p>
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
 
 <h2 id="dependencies">Dependencies<a class="headerlink" href="#dependencies" title="Permanent link">&para;</a></h2>
@@ -1211,24 +1211,24 @@
 <tbody>
 <tr>
 <td>Unlocks</td>
-<td><a href="../brv_nondisplay/#stage-11">brv_nondisplay (hidden flag)</a></td>
+<td><a href="../brv_nondisplay/#stage-11">Brimhaven story flags (hidden flag)</a></td>
 <td>stage 11 there needs stage 1 here</td>
 </tr>
 <tr>
 <td>Blocks</td>
-<td><a href="../brv_nondisplay/#stage-89">brv_nondisplay (hidden flag)</a></td>
+<td><a href="../brv_nondisplay/#stage-89">Brimhaven story flags (hidden flag)</a></td>
 <td>reaching stage 90 here closes stage 89 there</td>
 </tr>
 </tbody>
 </table>
 <h2 id="stages">Stages<a class="headerlink" href="#stages" title="Permanent link">&para;</a></h2>
+<div class="stages">
 <table>
 <thead>
 <tr>
 <th>Stage</th>
 <th>Journal entry</th>
-<th>Triggered by</th>
-<th>Needs</th>
+<th>From</th>
 <th>Rewards</th>
 </tr>
 </thead>
@@ -1236,120 +1236,138 @@
 <tr>
 <td><span id="stage-1"></span>1</td>
 <td>The dam is very important to Brimhaven. It should be repaired.</td>
-<td><em>no trigger in the game data or code</em> <sup><a href="#untraced">?</a></sup></td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><span id="stage-10"></span>10</td>
-<td>Stebbarik was ill at home in bed. He could not work and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away. I have offered to do the work for Stebbarik.</td>
-<td><a href="../../monsters/brv_employee/">Stebbarik</a> (<a href="../../maps/brimhaven_employee/">brimhaven_employee</a>)</td>
-<td>–</td>
+<td><em>no trigger found</em> <sup><a href="#untraced">?</a></sup></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-30"></span>30</td>
+<td><span id="stage-10"></span><a href="#route-10">10</a></td>
+<td><details class="jt"><summary><span class="s">Stebbarik was ill at home in bed. He could not work and feared that… ▸</span><span class="l">▴ less</span></summary>Stebbarik was ill at home in bed. He could not work and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away. I have offered to do the work for Stebbarik.</details></td>
+<td><a href="../../monsters/brv_employee/">Stebbarik</a></td>
+<td>–</td>
+</tr>
+<tr>
+<td><span id="stage-30"></span><a href="#route-30">30</a></td>
 <td>Gnossath has asked me to carry 25 heavy boulders from the stock to the dam.</td>
-<td><a href="../../monsters/brv_employer/">Gnossath</a> (<a href="../../maps/brimhaven1/">brimhaven1</a>)</td>
-<td>stage 10</td>
+<td><a href="../../monsters/brv_employer/">Gnossath</a></td>
 <td>changes map brimhaven1</td>
 </tr>
 <tr>
-<td><span id="stage-40"></span>40</td>
-<td>I have carried the first boulder to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven1</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a></td>
-<td>hand over 4× <a href="../../items/brv_boulder/">Boulder</a></td>
+<td><span id="stage-40"></span><a href="#route-40">40</a></td>
+<td>I have carried the first boulder to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-41"></span>41</td>
-<td>I have carried 5 boulders to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven1</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a></td>
-<td>hand over 4× <a href="../../items/brv_boulder/">Boulder</a></td>
+<td><span id="stage-41"></span><a href="#route-41">41</a></td>
+<td>I have carried 5 boulders to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-42"></span>42</td>
-<td>I have moved 10 boulders.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven1</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a></td>
-<td>hand over 4× <a href="../../items/brv_boulder/">Boulder</a></td>
+<td><span id="stage-42"></span><a href="#route-42">42</a></td>
+<td>I have moved 10 boulders.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-43"></span>43</td>
-<td>I have moved 15 boulders. This work is exhausting!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven1</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a></td>
-<td>hand over 4× <a href="../../items/brv_boulder/">Boulder</a></td>
+<td><span id="stage-43"></span><a href="#route-43">43</a></td>
+<td>I have moved 15 boulders. This work is exhausting!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-44"></span>44</td>
-<td>Only a few to go...<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven1</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a></td>
-<td>hand over 4× <a href="../../items/brv_boulder/">Boulder</a></td>
+<td><span id="stage-44"></span><a href="#route-44">44</a></td>
+<td>Only a few to go...<br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a></td>
 <td>–</td>
 </tr>
 <tr>
-<td><span id="stage-90"></span>90</td>
-<td>Finally - that was the last boulder! Gnossath was very pleased with my work. <strong>(completes quest)</strong><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven1</a>.</span></td>
-<td>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a></td>
-<td>hand over 4× <a href="../../items/brv_boulder/">Boulder</a></td>
-<td>1,000 XP<br>removes monsters from brimhaven_tavern1<br>removes monsters from brimhaven_employee<br>changes map brimhaven1<br>spawns monsters on brimhaven_employee<br>spawns monsters on brimhaven_tavern1<br>clears stage 83 of <a href="../brv_nondisplay/#stage-83">brv_nondisplay (hidden flag)</a><br>sets stage 89 of <a href="../brv_nondisplay/#stage-89">brv_nondisplay (hidden flag)</a></td>
+<td><span id="stage-90"></span><a href="#route-90">90</a></td>
+<td>Finally - that was the last boulder! Gnossath was very pleased with my work. <strong>(ends quest)</strong><br><span class="qnote">👣 Reached by stepping onto a trigger spot on <a href="../../maps/brimhaven1/">Brimhaven 1</a>.</span></td>
+<td>stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a></td>
+<td>1,000 XP, removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1</td>
 </tr>
 </tbody>
 </table>
-<p><span id="untraced"></span><em>No trigger</em>: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.</p>
+</div>
+<p><span id="untraced"></span><em>No trigger found:</em> as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.</p>
+<p><small>Click a stage number for how to reach it, or a long journal entry to expand it.</small></p>
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-<h2 id="how-each-stage-is-reached">How each stage is reached<a class="headerlink" href="#how-each-stage-is-reached" title="Permanent link">&para;</a></h2>
-<p><em>Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its </em><em>Dialogue simulator</em><em>.</em></p>
-<details class="note" open="open">
-<summary>Stage 10: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_employee/">Stebbarik</a> (<a href="../../maps/brimhaven_employee/">brimhaven_employee</a>) → choose “Maybe I could help you? I could do your work.” → <strong>stage 10</strong>. NPC: “You would do that? Oh, thank you! Thank you!”</li>
-</ol>
+<h2 id="how-to-reach-each-stage">How to reach each stage<a class="headerlink" href="#how-to-reach-each-stage" title="Permanent link">&para;</a></h2>
+<p>Every route in the game data, including alternatives. To try a specific situation, use the <strong>dialogue simulator</strong> on the NPC's page.</p>
+<p><span id="route-10"></span></p>
+<details class="note">
+<summary>Stage 10 · Stebbarik · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_employee/">Stebbarik</a>, choose “Maybe I could help you? I could do your work.”</p>
+<ul>
+<li><em>“You would do that? Oh, thank you! Thank you!”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 30: 1 route</summary>
-<ol>
-<li>Talk to <a href="../../monsters/brv_employer/">Gnossath</a> (<a href="../../maps/brimhaven1/">brimhaven1</a>) → choose “Sounds easy. Let me try it.” — <strong>conditions:</strong> reached stage 10 of <a href="./#stage-10">Work for debts</a> → <strong>stage 30</strong>; also changes map brimhaven1. NPC: “OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.”</li>
-</ol>
+<p><span id="route-30"></span></p>
+<details class="note">
+<summary>Stage 30 · Gnossath · 1 way</summary>
+<p><strong>Way 1:</strong> Talk to <a href="../../monsters/brv_employer/">Gnossath</a>, choose “Sounds easy. Let me try it.”</p>
+<ul>
+<li><strong>Needs:</strong> stage 10</li>
+<li><strong>Gives:</strong> changes map brimhaven1</li>
+<li><em>“OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 40: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a> → choose “Uff. They somehow seem to get heavier and heavier.” — <strong>conditions:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a> → <strong>stage 40</strong></li>
-</ol>
+<p><span id="route-40"></span></p>
+<details class="note">
+<summary>Stage 40 · stepping on a trigger on brimhaven1 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a>, choose “Uff. They somehow seem to get heavier and heavier.”</p>
+<ul>
+<li><strong>Needs:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 41: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a> → choose “Uff. They somehow seem to get heavier and heavier.” — <strong>conditions:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 6; NOT reached stage 41 of <a href="./#stage-41">Work for debts</a> → <strong>stage 41</strong>. NPC: “You have brought already more than 5 boulders.”</li>
-</ol>
+<p><span id="route-41"></span></p>
+<details class="note">
+<summary>Stage 41 · stepping on a trigger on brimhaven1 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a>, choose “Uff. They somehow seem to get heavier and heavier.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 41; hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 6</li>
+<li><em>“You have brought already more than 5 boulders.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 42: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a> → choose “Uff. They somehow seem to get heavier and heavier.” — <strong>conditions:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 11; NOT reached stage 42 of <a href="./#stage-42">Work for debts</a> → <strong>stage 42</strong>. NPC: “Over 10 boulders.”</li>
-</ol>
+<p><span id="route-42"></span></p>
+<details class="note">
+<summary>Stage 42 · stepping on a trigger on brimhaven1 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a>, choose “Uff. They somehow seem to get heavier and heavier.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 42; hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 11</li>
+<li><em>“Over 10 boulders.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 43: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a> → choose “Uff. They somehow seem to get heavier and heavier.” — <strong>conditions:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 16; NOT reached stage 43 of <a href="./#stage-43">Work for debts</a> → <strong>stage 43</strong>. NPC: “At least 15 boulders now.”</li>
-</ol>
+<p><span id="route-43"></span></p>
+<details class="note">
+<summary>Stage 43 · stepping on a trigger on brimhaven1 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a>, choose “Uff. They somehow seem to get heavier and heavier.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 43; hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 16</li>
+<li><em>“At least 15 boulders now.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 44: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a> → choose “Uff. They somehow seem to get heavier and heavier.” — <strong>conditions:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 21; NOT reached stage 44 of <a href="./#stage-44">Work for debts</a> → <strong>stage 44</strong>. NPC: “Only a few boulders left.”</li>
-</ol>
+<p><span id="route-44"></span></p>
+<details class="note">
+<summary>Stage 44 · stepping on a trigger on brimhaven1 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a>, choose “Uff. They somehow seem to get heavier and heavier.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 44; hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 21</li>
+<li><em>“Only a few boulders left.”</em></li>
+</ul>
 </details>
-<details class="note" open="open">
-<summary>Stage 90: 1 route</summary>
-<ol>
-<li>stepping on a trigger on <a href="../../maps/brimhaven1/">brimhaven1</a> → choose “Uff. They somehow seem to get heavier and heavier.” — <strong>conditions:</strong> hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 25; NOT reached stage 90 of <a href="./#stage-90">Work for debts</a> → <strong>stage 90</strong>; also removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1, clears stage 83 of <a href="../brv_nondisplay/#stage-83">brv_nondisplay (hidden flag)</a>, sets stage 89 of <a href="../brv_nondisplay/#stage-89">brv_nondisplay (hidden flag)</a>. NPC: “Wow, you got it.”</li>
-</ol>
+<p><span id="route-90"></span></p>
+<details class="note">
+<summary>Stage 90 · stepping on a trigger on brimhaven1 · 1 way</summary>
+<p><strong>Way 1:</strong> Stepping on a trigger on <a href="../../maps/brimhaven1/">Brimhaven 1</a>, choose “Uff. They somehow seem to get heavier and heavier.”</p>
+<ul>
+<li><strong>Needs:</strong> not yet stage 90; hand over 4× <a href="../../items/brv_boulder/">Boulder</a>; faction “brv_boulder_count” ≥ 25</li>
+<li><strong>Gives:</strong> removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1</li>
+<li><small>Also: clears stage 83 of <a href="../brv_nondisplay/#stage-83">Brimhaven story flags (hidden flag)</a>, sets stage 89 of <a href="../brv_nondisplay/#stage-89">Brimhaven story flags (hidden flag)</a></small></li>
+<li><em>“Wow, you got it.”</em></li>
+</ul>
 </details>
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Dying Patrol is a non-player character (NPC) in Andor's Trail, found in crackshot_hideout2.">
+        <meta name="description" content="Dying Patrol is a non-player character (NPC) in Andor's Trail, found in Crackshot hideout 2.">
       
       
       
@@ -1102,7 +1102,7 @@
 
 
 <h1 id="dying-patrol"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles3_14.png" /> Dying Patrol<a class="headerlink" href="#dying-patrol" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Dying Patrol:</strong> <a href="../../maps/crackshot_hideout2/#pin-npc-g03_deadpatrol_2">crackshot_hideout2</a></p>
+<p><strong>Where to find Dying Patrol:</strong> <a href="../../maps/crackshot_hideout2/#pin-npc-g03_deadpatrol_2">Crackshot hideout 2</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
 <table>
@@ -1119,7 +1119,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>crackshot_hideout2</td>
+<td>Crackshot hideout 2</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1135,25 +1135,25 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/Thieves03/">The ruthless Crackshot</a>: stages 26, 27</li>
-<li><a href="../../quests/thieves_hidden/">Thieves Hidden (hidden flag)</a>: stage 50</li>
+<li><a href="../../quests/thieves_hidden/">Thieves story flags (hidden flag)</a>: stage 50</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dying Patrol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Dying Patrol. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/guild03_deadpatrol_2_1.json" data-npc="Dying Patrol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (5 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-guild03_deadpatrol_2_1"></span><strong><code>guild03_deadpatrol_2_1</code></strong> Dying Patrol: “Sar...gent. <em>gasps</em>.”</p>
 <ul>
 <li>Next → <a href="#d-guild03_deadpatrol_2_2">guild03_deadpatrol_2_2</a></li>
 </ul>
 <p><span id="d-guild03_deadpatrol_2_2"></span><strong><code>guild03_deadpatrol_2_2</code></strong> Dying Patrol: “Y..you kid ... Argh! <em>spits up blood</em>. That guy is not ... Argh.”</p>
 <ul>
-<li>“What guy?” <em>(if reached stage 40 of <a href="../../quests/thieves_hidden/#stage-40">Thieves Hidden (hidden flag)</a>)</em> → <a href="#d-guild03_deadpatrol_2_was_second">guild03_deadpatrol_2_was_second</a></li>
-<li>“What guy?” <em>(if NOT reached stage 40 of <a href="../../quests/thieves_hidden/#stage-40">Thieves Hidden (hidden flag)</a>)</em> → <a href="#d-guild03_deadpatrol_2_was_first">guild03_deadpatrol_2_was_first</a></li>
+<li>“What guy?” <em>(if reached stage 40 of <a href="../../quests/thieves_hidden/#stage-40">Thieves story flags (hidden flag)</a>)</em> → <a href="#d-guild03_deadpatrol_2_was_second">guild03_deadpatrol_2_was_second</a></li>
+<li>“What guy?” <em>(if NOT reached stage 40 of <a href="../../quests/thieves_hidden/#stage-40">Thieves story flags (hidden flag)</a>)</em> → <a href="#d-guild03_deadpatrol_2_was_first">guild03_deadpatrol_2_was_first</a></li>
 </ul>
 <p><span id="d-guild03_deadpatrol_2_was_second"></span><strong><code>guild03_deadpatrol_2_was_second</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 26 of <a href="../../quests/Thieves03/#stage-26">The ruthless Crackshot</a></p>
 <ul>
@@ -1163,7 +1163,7 @@
 <ul>
 <li>branch 1 → <a href="#d-guild03_deadpatrol_2_3">guild03_deadpatrol_2_3</a></li>
 </ul>
-<p><span id="d-guild03_deadpatrol_2_3"></span><strong><code>guild03_deadpatrol_2_3</code></strong> Dying Patrol: “No ... he's not .... Agggh! [He has stopped breathing. I cannot do anything for him. Better to move on.]” — <strong>effects:</strong> removes monsters from crackshot_hideout2, sets stage 50 of <a href="../../quests/thieves_hidden/#stage-50">Thieves Hidden (hidden flag)</a></p>
+<p><span id="d-guild03_deadpatrol_2_3"></span><strong><code>guild03_deadpatrol_2_3</code></strong> Dying Patrol: “No ... he's not .... Agggh! [He has stopped breathing. I cannot do anything for him. Better to move on.]” — <strong>effects:</strong> removes monsters from crackshot_hideout2, sets stage 50 of <a href="../../quests/thieves_hidden/#stage-50">Thieves story flags (hidden flag)</a></p>
 <ul>
 <li>“Shadow, embrace him ....” → <em>NPC leaves</em></li>
 <li>“I'll save your sergeant!” → <em>NPC leaves</em></li>

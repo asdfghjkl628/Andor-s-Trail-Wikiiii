@@ -1360,7 +1360,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">4 entries in the game data</p>
-<p>The game's data files define 4 separate characters named Pixtumn. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, loot or shop stock. This page combines them; each entry is described in its own section below.</p>
+<p>The game data defines 4 separate characters named Pixtumn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.</p>
 </div>
 <table>
 <thead>
@@ -1376,28 +1376,28 @@
 <tr>
 <td><a href="#v-quiet_thief"><code>quiet_thief</code></a></td>
 <td>NPC</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/#pin-npc-quiet_thief">brimhaven_inn_east</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/#pin-npc-quiet_thief">Brimhaven inn east</a></td>
 <td>shopkeeper</td>
 <td>–</td>
 </tr>
 <tr>
 <td><a href="#v-quiet_thief_1"><code>quiet_thief_1</code></a></td>
 <td>Enemy</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></td>
 <td>–</td>
 <td>1</td>
 </tr>
 <tr>
 <td><a href="#v-quiet_thief_2"><code>quiet_thief_2</code></a></td>
 <td>Enemy</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></td>
 <td>–</td>
 <td>1</td>
 </tr>
 <tr>
 <td><a href="#v-quiet_thief_3"><code>quiet_thief_3</code></a></td>
 <td>Enemy</td>
-<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></td>
+<td>Brimhaven: <a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></td>
 <td>–</td>
 <td>1</td>
 </tr>
@@ -1405,7 +1405,7 @@
 </table>
 <h2 id="v-quiet_thief">Brimhaven, Brimhaven inn east (quiet_thief)<a class="headerlink" href="#v-quiet_thief" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>quiet_thief</code> · <strong>Type:</strong> NPC · <strong>Role:</strong> Shopkeeper</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/#pin-npc-quiet_thief">brimhaven_inn_east</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/#pin-npc-quiet_thief">Brimhaven inn east</a></p>
 <h3 id="shop-stock">Shop stock<a class="headerlink" href="#shop-stock" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1456,24 +1456,24 @@
 <h3 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../../quests/brv_dagger/">A strange looking dagger</a>: stages 30, 40</li>
-<li><a href="../../quests/brv_dagger_nondisplay/">brv_dagger_nondisplay (hidden flag)</a>: stages 30, 40</li>
+<li><a href="../../quests/brv_dagger_nondisplay/">Brimhaven dagger story flags (hidden flag)</a>: stages 30, 40</li>
 </ul>
 <h3 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h3>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pixtumn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Pixtumn. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/quiet_thief_0.json" data-npc="Pixtumn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (14 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-quiet_thief-quiet_thief_0"></span><strong><code>quiet_thief_0</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">brv_dagger_nondisplay (hidden flag)</a>)</em> → <a href="#d-quiet_thief-quiet_thief_1_0">quiet_thief_1_0</a></li>
-<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/brv_dagger/#stage-30">A strange looking dagger</a>)</em> → <a href="#d-quiet_thief-quiet_thief_2_0">quiet_thief_2_0</a></li>
-<li>branch 3 <em>(if NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">brv_dagger_nondisplay (hidden flag)</a>; reached stage 30 of <a href="../../quests/brv_dagger/#stage-30">A strange looking dagger</a>; reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">brv_dagger_nondisplay (hidden flag)</a>)</em> → <a href="#d-quiet_thief-quiet_thief_2_2">quiet_thief_2_2</a></li>
-<li>branch 4 <em>(if reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger/#stage-40">A strange looking dagger</a>)</em> → <a href="#d-quiet_thief-quiet_thief_3_0">quiet_thief_3_0</a></li>
-<li>branch 5 <em>(if NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">brv_dagger_nondisplay (hidden flag)</a>; reached stage 40 of <a href="../../quests/brv_dagger/#stage-40">A strange looking dagger</a>; reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">brv_dagger_nondisplay (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">brv_dagger_nondisplay (hidden flag)</a>)</em> → <a href="#d-quiet_thief-quiet_thief_3_2">quiet_thief_3_2</a></li>
+<li>branch 1 <em>(if NOT reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">Brimhaven dagger story flags (hidden flag)</a>)</em> → <a href="#d-quiet_thief-quiet_thief_1_0">quiet_thief_1_0</a></li>
+<li>branch 2 <em>(if reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 30 of <a href="../../quests/brv_dagger/#stage-30">A strange looking dagger</a>)</em> → <a href="#d-quiet_thief-quiet_thief_2_0">quiet_thief_2_0</a></li>
+<li>branch 3 <em>(if NOT reached stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">Brimhaven dagger story flags (hidden flag)</a>; reached stage 30 of <a href="../../quests/brv_dagger/#stage-30">A strange looking dagger</a>; reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">Brimhaven dagger story flags (hidden flag)</a>)</em> → <a href="#d-quiet_thief-quiet_thief_2_2">quiet_thief_2_2</a></li>
+<li>branch 4 <em>(if reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 40 of <a href="../../quests/brv_dagger/#stage-40">A strange looking dagger</a>)</em> → <a href="#d-quiet_thief-quiet_thief_3_0">quiet_thief_3_0</a></li>
+<li>branch 5 <em>(if NOT reached stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">Brimhaven dagger story flags (hidden flag)</a>; reached stage 40 of <a href="../../quests/brv_dagger/#stage-40">A strange looking dagger</a>; reached stage 20 of <a href="../../quests/brv_dagger_nondisplay/#stage-20">Brimhaven dagger story flags (hidden flag)</a>; NOT reached stage 10 of <a href="../../quests/brv_dagger_nondisplay/#stage-10">Brimhaven dagger story flags (hidden flag)</a>)</em> → <a href="#d-quiet_thief-quiet_thief_3_2">quiet_thief_3_2</a></li>
 <li>branch 6 → <a href="#d-quiet_thief-quiet_thief_0_0">quiet_thief_0_0</a></li>
 </ul>
 <p><span id="d-quiet_thief-quiet_thief_1_0"></span><strong><code>quiet_thief_1_0</code></strong> <a href="./#v-quiet_thief_1">Pixtumn</a>: “Psst! Hey kid, you want to buy some nice stuff?”</p>
@@ -1532,8 +1532,8 @@
 <li>“No, that's too much for me.” → <em>conversation ends</em></li>
 <li>“I don't think it's fair, but I'll pay it.” <em>(if pay 1,500 gold)</em> → <a href="#d-quiet_thief-quiet_thief_3_4">quiet_thief_3_4</a></li>
 </ul>
-<p><span id="d-quiet_thief-quiet_thief_2_4"></span><strong><code>quiet_thief_2_4</code></strong> Pixtumn: “Here you go kid.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">brv_dagger_nondisplay (hidden flag)</a>, gives 1× <a href="../../items/strange_dagger/">A strange looking dagger</a></p>
-<p><span id="d-quiet_thief-quiet_thief_3_4"></span><strong><code>quiet_thief_3_4</code></strong> Pixtumn: “Here you go kid” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">brv_dagger_nondisplay (hidden flag)</a>, gives 1× <a href="../../items/strange_gem/">A strange-looking gem</a></p>
+<p><span id="d-quiet_thief-quiet_thief_2_4"></span><strong><code>quiet_thief_2_4</code></strong> Pixtumn: “Here you go kid.” — <strong>effects:</strong> sets stage 30 of <a href="../../quests/brv_dagger_nondisplay/#stage-30">Brimhaven dagger story flags (hidden flag)</a>, gives 1× <a href="../../items/strange_dagger/">A strange looking dagger</a></p>
+<p><span id="d-quiet_thief-quiet_thief_3_4"></span><strong><code>quiet_thief_3_4</code></strong> Pixtumn: “Here you go kid” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/brv_dagger_nondisplay/#stage-40">Brimhaven dagger story flags (hidden flag)</a>, gives 1× <a href="../../items/strange_gem/">A strange-looking gem</a></p>
 </details>
 <h3 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h3>
 <table>
@@ -1550,11 +1550,11 @@
 </tr>
 <tr>
 <td><a href="../../versions/0.7.12/">v0.7.12</a></td>
-<td>Renamed “Shady thief” → “Pixtumn”<br>Dialogue: 2 lines changed<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?”<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?”</td>
+<td>Renamed “Shady thief” → “Pixtumn”<br>Dialogue: 2 lines changed<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?”<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?”</td>
 </tr>
 <tr>
 <td><a href="../../versions/0.8.18/">v0.8.18</a></td>
-<td>Dialogue: 2 lines changed<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?”<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?”</td>
+<td>Dialogue: 2 lines changed<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?”<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?”</td>
 </tr>
 </tbody>
 </table>
@@ -1619,7 +1619,7 @@
 </details>
 <h2 id="v-quiet_thief_1">Brimhaven, Brimhaven inn east (quiet_thief_1)<a class="headerlink" href="#v-quiet_thief_1" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>quiet_thief_1</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></p>
 <h3 id="combat-statistics">Combat statistics<a class="headerlink" href="#combat-statistics" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1758,7 +1758,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></td>
+<td><a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>
@@ -1844,7 +1844,7 @@
 </details>
 <h2 id="v-quiet_thief_2">Brimhaven, Brimhaven inn east (quiet_thief_2)<a class="headerlink" href="#v-quiet_thief_2" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>quiet_thief_2</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></p>
 <h3 id="combat-statistics_1">Combat statistics<a class="headerlink" href="#combat-statistics_1" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -1978,7 +1978,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></td>
+<td><a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>
@@ -2064,7 +2064,7 @@
 </details>
 <h2 id="v-quiet_thief_3">Brimhaven, Brimhaven inn east (quiet_thief_3)<a class="headerlink" href="#v-quiet_thief_3" title="Permanent link">&para;</a></h2>
 <p><strong>Entry ID:</strong> <code>quiet_thief_3</code> · <strong>Type:</strong> Enemy</p>
-<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></p>
+<p><strong>Location:</strong> Brimhaven: <a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></p>
 <h3 id="combat-statistics_2">Combat statistics<a class="headerlink" href="#combat-statistics_2" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -2198,7 +2198,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brimhaven_inn_east/">brimhaven_inn_east</a></td>
+<td><a href="../../maps/brimhaven_inn_east/">Brimhaven inn east</a></td>
 <td>Brimhaven</td>
 <td>1</td>
 <td>–</td>

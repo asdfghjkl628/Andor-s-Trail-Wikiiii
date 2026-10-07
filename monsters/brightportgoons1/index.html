@@ -1102,7 +1102,7 @@
 
 
 <h1 id="barthold"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_64.png" /> Barthold<a class="headerlink" href="#barthold" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Barthold:</strong> Brightport: <a href="../../maps/brightport_benbyr/#pin-npc-brightportgoons1">brightport_benbyr</a></p>
+<p><strong>Where to find Barthold:</strong> Brightport: <a href="../../maps/brightport_benbyr/#pin-npc-brightportgoons1">Brightport benbyr</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_64.png){ .sprite }</p>
 <table>
@@ -1139,36 +1139,36 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brightport_goons/">Priceful vengeance</a>: stages 10, 20, 30, 90, 100, 130, 136</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 129, 131, 139</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 129, 131, 139</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Barthold. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Barthold. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_goon_selector.json" data-npc="Barthold" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (54 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-brightport_goon_selector"></span><strong><code>brightport_goon_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>; NOT reached stage 130 of <a href="../../quests/brightport_goons/#stage-130">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons_selector">brightport_goons_selector</a></li>
-<li>Next <em>(if NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>; reached stage 130 of <a href="../../quests/brightport_goons/#stage-130">Priceful vengeance</a>)</em> → <a href="#d-brightport_goonselectorbribe">brightport_goonselectorbribe</a></li>
-<li>Next <em>(if reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons_selectorafter">brightport_goons_selectorafter</a></li>
+<li>Next <em>(if NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>; NOT reached stage 130 of <a href="../../quests/brightport_goons/#stage-130">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons_selector">brightport_goons_selector</a></li>
+<li>Next <em>(if NOT reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>; reached stage 130 of <a href="../../quests/brightport_goons/#stage-130">Priceful vengeance</a>)</em> → <a href="#d-brightport_goonselectorbribe">brightport_goonselectorbribe</a></li>
+<li>Next <em>(if reached stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons_selectorafter">brightport_goons_selectorafter</a></li>
 </ul>
 <p><span id="d-brightport_goons_selector"></span><strong><code>brightport_goons_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>Next <em>(if reached stage 30 of <a href="../../quests/brightport_goons/#stage-30">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons25">brightport_goons25</a></li>
 <li>Next <em>(if reached stage 20 of <a href="../../quests/brightport_goons/#stage-20">Priceful vengeance</a>; NOT reached stage 30 of <a href="../../quests/brightport_goons/#stage-30">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons21">brightport_goons21</a></li>
-<li>Next <em>(if reached stage 129 of <a href="../../quests/brightport_nondisplay/#stage-129">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons13">brightport_goons13</a></li>
-<li>Next <em>(if NOT reached stage 131 of <a href="../../quests/brightport_nondisplay/#stage-131">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons">brightport_goons</a></li>
-<li>Next <em>(if reached stage 131 of <a href="../../quests/brightport_nondisplay/#stage-131">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons0">brightport_goons0</a></li>
+<li>Next <em>(if reached stage 129 of <a href="../../quests/brightport_nondisplay/#stage-129">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons13">brightport_goons13</a></li>
+<li>Next <em>(if NOT reached stage 131 of <a href="../../quests/brightport_nondisplay/#stage-131">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons">brightport_goons</a></li>
+<li>Next <em>(if reached stage 131 of <a href="../../quests/brightport_nondisplay/#stage-131">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons0">brightport_goons0</a></li>
 </ul>
 <p><span id="d-brightport_goonselectorbribe"></span><strong><code>brightport_goonselectorbribe</code></strong> Barthold: “How dare you come back after selling us out! I hope the gold was worth it, coward.”</p>
 <p><span id="d-brightport_goons_selectorafter"></span><strong><code>brightport_goons_selectorafter</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if reached stage 130 of <a href="../../quests/brightport_goons/#stage-130">Priceful vengeance</a>; NOT reached stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons_after0">brightport_goons_after0</a></li>
-<li>Next <em>(if reached stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons_after">brightport_goons_after</a></li>
+<li>Next <em>(if reached stage 130 of <a href="../../quests/brightport_goons/#stage-130">Priceful vengeance</a>; NOT reached stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons_after0">brightport_goons_after0</a></li>
+<li>Next <em>(if reached stage 212 of <a href="../../quests/brightport_nondisplay/#stage-212">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons_after">brightport_goons_after</a></li>
 <li>Next <em>(if reached stage 90 of <a href="../../quests/brightport_goons/#stage-90">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons_after1">brightport_goons_after1</a></li>
 <li>Next <em>(if reached stage 100 of <a href="../../quests/brightport_goons/#stage-100">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons_after2">brightport_goons_after2</a></li>
 <li>Next <em>(if reached stage 136 of <a href="../../quests/brightport_goons/#stage-136">Priceful vengeance</a>)</em> → <a href="#d-brightport_goons_gaveup">brightport_goons_gaveup</a></li>
@@ -1187,14 +1187,14 @@
 </ul>
 <p><span id="d-brightport_goons13"></span><strong><code>brightport_goons13</code></strong> Barthold: “It's nice to see a trustworthy fellow like you around. You need something?”</p>
 <ul>
-<li>“I'm looking for my brother Andor, have you seen him?” <em>(if NOT latest stage of <a href="../../quests/andor_ending/#stage-900">Excluded endings for the main quest andor (hidden flag)</a> is 900)</em> → <a href="#d-brightport_goons9">brightport_goons9</a></li>
+<li>“I'm looking for my brother Andor, have you seen him?” <em>(if NOT latest stage of <a href="../../quests/andor_ending/#stage-900">Main quest endings (hidden flag)</a> is 900)</em> → <a href="#d-brightport_goons9">brightport_goons9</a></li>
 <li>“Benbyr said to come and see you.” → <a href="#d-brightport_goons8">brightport_goons8</a></li>
 </ul>
 <p><span id="d-brightport_goons"></span><strong><code>brightport_goons</code></strong> Barthold: “Who are you, and what do you need from us?”</p>
 <ul>
 <li>“What do you do around here?” → <a href="#d-brightport_goons0">brightport_goons0</a></li>
 </ul>
-<p><span id="d-brightport_goons0"></span><strong><code>brightport_goons0</code></strong> Barthold: “Who in Dhayavar are you? You better get out of here before we mess you up!” — <strong>effects:</strong> sets stage 131 of <a href="../../quests/brightport_nondisplay/#stage-131">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_goons0"></span><strong><code>brightport_goons0</code></strong> Barthold: “Who in Dhayavar are you? You better get out of here before we mess you up!” — <strong>effects:</strong> sets stage 131 of <a href="../../quests/brightport_nondisplay/#stage-131">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_goons_selector2">brightport_goons_selector2</a></li>
 </ul>
@@ -1224,7 +1224,7 @@
 <li>“Right, I was joking, sorry.” → <em>conversation ends</em></li>
 <li>“You don't have the Guild's protection. Either I give this blade I took from your hideout to the guards. Or 2,000 gold.…” <em>(if carry 1× <a href="../../items/brightport_sword0/">Nor city made blade</a>)</em> → <a href="#d-brightport_goons34">brightport_goons34</a></li>
 </ul>
-<p><span id="d-brightport_barthold1"></span><strong><code>brightport_barthold1</code></strong> Barthold: “Is that so? I'm a little disappointed, thought you're more than just a sheep butcher.” — <strong>effects:</strong> sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a>, sets stage 136 of <a href="../../quests/brightport_goons/#stage-136">Priceful vengeance</a></p>
+<p><span id="d-brightport_barthold1"></span><strong><code>brightport_barthold1</code></strong> Barthold: “Is that so? I'm a little disappointed, thought you're more than just a sheep butcher.” — <strong>effects:</strong> sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a>, sets stage 136 of <a href="../../quests/brightport_goons/#stage-136">Priceful vengeance</a></p>
 <ul>
 <li>Next → <a href="#d-brightport_barthold2">brightport_barthold2</a></li>
 </ul>
@@ -1254,7 +1254,7 @@
 <p><span id="d-brightport_goons_after3"></span><strong><code>brightport_goons_after3</code></strong> <a href="../brightportguard/#v-brightport_guardgoons">Brightport guard</a>: “Oh shut up, we still have an investigation to do here.”</p>
 <p><span id="d-brightport_goons37"></span><strong><code>brightport_goons37</code></strong> <a href="../brightportgoons/">Dynes</a>: “The old commander's gone but his mutts have kept their pace, though we've managed to sneak in a few more bribes than usual, he he.”</p>
 <ul>
-<li>Next <em>(if reached stage 152 of <a href="../../quests/brightport_nondisplay/#stage-152">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons38">brightport_goons38</a></li>
+<li>Next <em>(if reached stage 152 of <a href="../../quests/brightport_nondisplay/#stage-152">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons38">brightport_goons38</a></li>
 </ul>
 <p><span id="d-brightport_goons27"></span><strong><code>brightport_goons27</code></strong> <a href="../brightportgoons/">Dynes</a>: “What's wrong, Barthold? With Gunfryk dead, we've got free rein!”</p>
 <ul>
@@ -1307,7 +1307,7 @@
 <ul>
 <li>Next → <a href="#d-brightport_goons36">brightport_goons36</a></li>
 </ul>
-<p><span id="d-brightport_goons32"></span><strong><code>brightport_goons32</code></strong> Barthold: “And for a job well done here is your reward; rather generous I say. You'll surely find more work to do in Nor City, just tell them Barthold sent you.” — <strong>effects:</strong> gives 1200× <a href="../../items/gold/">Gold coins</a>, sets stage 90 of <a href="../../quests/brightport_goons/#stage-90">Priceful vengeance</a>, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_goons32"></span><strong><code>brightport_goons32</code></strong> Barthold: “And for a job well done here is your reward; rather generous I say. You'll surely find more work to do in Nor City, just tell them Barthold sent you.” — <strong>effects:</strong> gives 1200× <a href="../../items/gold/">Gold coins</a>, sets stage 90 of <a href="../../quests/brightport_goons/#stage-90">Priceful vengeance</a>, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“It was my pleasure, Bye.” → <em>conversation ends</em></li>
 <li>“If not information about my brother at least some gold.” → <em>conversation ends</em></li>
@@ -1327,13 +1327,13 @@
 <p><span id="d-brightport_goons18"></span><strong><code>brightport_goons18</code></strong> Barthold: “Hmm, on second thoughts, I'd feel bad about giving you that kind of responsibility. Gunfryk's men are ruthless, if you get caught, you'll have no peace in Brightport.”</p>
 <ul>
 <li>“Who is this Gunfryk guy?” → <a href="#d-brightport_goons19">brightport_goons19</a></li>
-<li>“I met Gunfryk, he didn't seem like a bad guy.” <em>(if reached stage 156 of <a href="../../quests/brightport_nondisplay/#stage-156">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_goons_gunfryk">brightport_goons_gunfryk</a></li>
+<li>“I met Gunfryk, he didn't seem like a bad guy.” <em>(if reached stage 156 of <a href="../../quests/brightport_nondisplay/#stage-156">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_goons_gunfryk">brightport_goons_gunfryk</a></li>
 </ul>
 <p><span id="d-brightport_goons3"></span><strong><code>brightport_goons3</code></strong> <a href="./">Barthold</a>: “What, who?”</p>
 <ul>
 <li>Next → <a href="#d-brightport_goons4">brightport_goons4</a></li>
 </ul>
-<p><span id="d-brightport_goons29"></span><strong><code>brightport_goons29</code></strong> Barthold: “Anyway, here's your reward. With skills like yours, you'll surely find more work to do for our friends in Nor City.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/brightport_goons/#stage-100">Priceful vengeance</a>, gives 1000× <a href="../../items/gold/">Gold coins</a>, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_goons29"></span><strong><code>brightport_goons29</code></strong> Barthold: “Anyway, here's your reward. With skills like yours, you'll surely find more work to do for our friends in Nor City.” — <strong>effects:</strong> sets stage 100 of <a href="../../quests/brightport_goons/#stage-100">Priceful vengeance</a>, gives 1000× <a href="../../items/gold/">Gold coins</a>, sets stage 139 of <a href="../../quests/brightport_nondisplay/#stage-139">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“At least I got some gold.” → <em>conversation ends</em></li>
 </ul>
@@ -1362,7 +1362,7 @@
 <ul>
 <li>Next → <a href="#d-brightport_goons6">brightport_goons6</a></li>
 </ul>
-<p><span id="d-brightport_goons6"></span><strong><code>brightport_goons6</code></strong> Barthold: “I was convinced you were sent to spy on us. So, what brings you around here.” — <strong>effects:</strong> sets stage 129 of <a href="../../quests/brightport_nondisplay/#stage-129">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_goons6"></span><strong><code>brightport_goons6</code></strong> Barthold: “I was convinced you were sent to spy on us. So, what brings you around here.” — <strong>effects:</strong> sets stage 129 of <a href="../../quests/brightport_nondisplay/#stage-129">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“I'm looking around the town searching for my brother.” → <a href="#d-brightport_goons7">brightport_goons7</a></li>
 <li>“Benbyr said to come see you.” → <a href="#d-brightport_goons8">brightport_goons8</a></li>

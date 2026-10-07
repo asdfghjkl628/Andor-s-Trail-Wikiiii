@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Lethgar slave ghost is a non-player character (NPC) in Andor's Trail, found in undertell_1_1.">
+        <meta name="description" content="Lethgar slave ghost is a non-player character (NPC) in Andor's Trail, found in Undertell 1 1.">
       
       
       
@@ -1102,7 +1102,7 @@
 
 
 <h1 id="lethgar-slave-ghost"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_gisons_8.png" /> Lethgar slave ghost<a class="headerlink" href="#lethgar-slave-ghost" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Lethgar slave ghost:</strong> <a href="../../maps/undertell_1_1/#pin-npc-lethgar_female_ghost">undertell_1_1</a></p>
+<p><strong>Where to find Lethgar slave ghost:</strong> <a href="../../maps/undertell_1_1/#pin-npc-lethgar_female_ghost">Undertell 1 1</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_8.png){ .sprite }</p>
 <table>
@@ -1119,7 +1119,7 @@
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
-<td>undertell_1_1</td>
+<td>Undertell 1 1</td>
 </tr>
 <tr>
 <td><strong>Entry ID</strong></td>
@@ -1134,20 +1134,20 @@
 </div>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/undertell_hidden/">hidden_undertell (hidden flag)</a>: stages 80, 82</li>
+<li><a href="../../quests/undertell_hidden/">Undertell story flags (hidden flag)</a>: stages 80, 82</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lethgar slave ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Lethgar slave ghost. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/lethgar_female_ghost_selector.json" data-npc="Lethgar slave ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (14 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-lethgar_female_ghost_selector"></span><strong><code>lethgar_female_ghost_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if NOT reached stage 80 of <a href="../../quests/undertell_hidden/#stage-80">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_default">lethgar_female_ghost_default</a></li>
+<li>branch 1 <em>(if NOT reached stage 80 of <a href="../../quests/undertell_hidden/#stage-80">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_default">lethgar_female_ghost_default</a></li>
 <li>branch 2 → <a href="#d-lethgar_female_ghost_welcome_10">lethgar_female_ghost_welcome_10</a></li>
 </ul>
 <p><span id="d-lethgar_female_ghost_default"></span><strong><code>lethgar_female_ghost_default</code></strong> Lethgar slave ghost: “Oh, a real live human here? I don't believe it.”</p>
@@ -1156,12 +1156,12 @@
 </ul>
 <p><span id="d-lethgar_female_ghost_welcome_10"></span><strong><code>lethgar_female_ghost_welcome_10</code></strong> Lethgar slave ghost: “What brings you to me now?”</p>
 <ul>
-<li>“Can I rest here?” <em>(if NOT reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_no">lethgar_female_ghost_rest_no</a></li>
-<li>“I would really like to rest here now.” <em>(if reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_yes">lethgar_female_ghost_rest_yes</a></li>
+<li>“Can I rest here?” <em>(if NOT reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">Devotion story flags (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_no">lethgar_female_ghost_rest_no</a></li>
+<li>“I would really like to rest here now.” <em>(if reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">Devotion story flags (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_yes">lethgar_female_ghost_rest_yes</a></li>
 <li>“Are you a Lethgar?” <em>(if reached stage 85 of <a href="../../quests/Stanwickquest/#stage-85">No rest for the wicked</a>)</em> → <a href="#d-lethgar_female_ghost_lethgar_10">lethgar_female_ghost_lethgar_10</a></li>
 <li>“Nothing right now. Thanks anyway.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-lethgar_female_ghost_pinch_10"></span><strong><code>lethgar_female_ghost_pinch_10</code></strong> Lethgar slave ghost: “She reaches out and pinches your arm to confirm that you are in fact human.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/undertell_hidden/#stage-80">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-lethgar_female_ghost_pinch_10"></span><strong><code>lethgar_female_ghost_pinch_10</code></strong> Lethgar slave ghost: “She reaches out and pinches your arm to confirm that you are in fact human.” — <strong>effects:</strong> sets stage 80 of <a href="../../quests/undertell_hidden/#stage-80">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Ouch!” → <a href="#d-lethgar_female_ghost_welcome_10">lethgar_female_ghost_welcome_10</a></li>
 </ul>
@@ -1169,7 +1169,7 @@
 <ul>
 <li>“What is that supposed to mean?” → <a href="#d-lethgar_female_ghost_rest_no_explain">lethgar_female_ghost_rest_no_explain</a></li>
 </ul>
-<p><span id="d-lethgar_female_ghost_rest_yes"></span><strong><code>lethgar_female_ghost_rest_yes</code></strong> Lethgar slave ghost: “The Kha'zaan are no more, thanks to you. So yes, you are free to sleep in any of the desirable beds.” — <strong>effects:</strong> sets stage 82 of <a href="../../quests/undertell_hidden/#stage-82">hidden_undertell (hidden flag)</a></p>
+<p><span id="d-lethgar_female_ghost_rest_yes"></span><strong><code>lethgar_female_ghost_rest_yes</code></strong> Lethgar slave ghost: “The Kha'zaan are no more, thanks to you. So yes, you are free to sleep in any of the desirable beds.” — <strong>effects:</strong> sets stage 82 of <a href="../../quests/undertell_hidden/#stage-82">Undertell story flags (hidden flag)</a></p>
 <ul>
 <li>“Finally! Thank you.” → <em>conversation ends</em></li>
 </ul>
@@ -1200,8 +1200,8 @@
 </ul>
 <p><span id="d-lethgar_female_ghost_lethgar_60"></span><strong><code>lethgar_female_ghost_lethgar_60</code></strong> Lethgar slave ghost: “Good. You should be troubled. It means you have not yet stopped thinking for yourself. Now, was there something else you needed?”</p>
 <ul>
-<li>“Can I rest here?” <em>(if NOT reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_no">lethgar_female_ghost_rest_no</a></li>
-<li>“I would really like to rest here now.” <em>(if reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">hidden_devotion (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">hidden_undertell (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_yes">lethgar_female_ghost_rest_yes</a></li>
+<li>“Can I rest here?” <em>(if NOT reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">Devotion story flags (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_no">lethgar_female_ghost_rest_no</a></li>
+<li>“I would really like to rest here now.” <em>(if reached stage 450 of <a href="../../quests/hidden_devotion/#stage-450">Devotion story flags (hidden flag)</a>; reached stage 81 of <a href="../../quests/undertell_hidden/#stage-81">Undertell story flags (hidden flag)</a>)</em> → <a href="#d-lethgar_female_ghost_rest_yes">lethgar_female_ghost_rest_yes</a></li>
 <li>“Nothing else. Thank you.” → <em>conversation ends</em></li>
 </ul>
 </details>

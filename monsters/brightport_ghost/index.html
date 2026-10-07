@@ -1124,7 +1124,7 @@
 
 
 <h1 id="agitated-ghost"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_45.png" /> Agitated ghost<a class="headerlink" href="#agitated-ghost" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Agitated ghost:</strong> Brightport: <a href="../../maps/brightport_grave/#pin-npc-brightport_ghost">brightport_grave</a></p>
+<p><strong>Where to find Agitated ghost:</strong> Brightport: <a href="../../maps/brightport_grave/#pin-npc-brightport_ghost">Brightport grave</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite }</p>
 <table>
@@ -1251,7 +1251,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../maps/brightport_grave/">brightport_grave</a></td>
+<td><a href="../../maps/brightport_grave/">Brightport grave</a></td>
 <td>Brightport</td>
 <td>1</td>
 <td>–</td>
@@ -1260,24 +1260,24 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 238, 239, 241</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 238, 239, 241</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agitated ghost. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Agitated ghost. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_ghost.json" data-npc="Agitated ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (9 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
-<p><span id="d-brightport_ghost"></span><strong><code>brightport_ghost</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 241 of <a href="../../quests/brightport_nondisplay/#stage-241">brightport_nondisplay (hidden flag)</a></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
+<p><span id="d-brightport_ghost"></span><strong><code>brightport_ghost</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 241 of <a href="../../quests/brightport_nondisplay/#stage-241">Brightport story flags (hidden flag)</a></p>
 <ul>
-<li>Next <em>(if reached stage 239 of <a href="../../quests/brightport_nondisplay/#stage-239">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_ghost8">brightport_ghost8</a></li>
-<li>Next <em>(if NOT reached stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_ghost1">brightport_ghost1</a></li>
-<li>Next <em>(if reached stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_ghost6">brightport_ghost6</a></li>
+<li>Next <em>(if reached stage 239 of <a href="../../quests/brightport_nondisplay/#stage-239">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_ghost8">brightport_ghost8</a></li>
+<li>Next <em>(if NOT reached stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_ghost1">brightport_ghost1</a></li>
+<li>Next <em>(if reached stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_ghost6">brightport_ghost6</a></li>
 </ul>
-<p><span id="d-brightport_ghost8"></span><strong><code>brightport_ghost8</code></strong> Agitated ghost: “Vengeance, vengeance!” — <strong>effects:</strong> sets stage 239 of <a href="../../quests/brightport_nondisplay/#stage-239">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_ghost8"></span><strong><code>brightport_ghost8</code></strong> Agitated ghost: “Vengeance, vengeance!” — <strong>effects:</strong> sets stage 239 of <a href="../../quests/brightport_nondisplay/#stage-239">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“I promise I will find a way to put you to rest properly.” → <em>conversation ends</em></li>
 <li>“You make no sense cursed creature, I will put you to rest now.” → <em>fight starts</em></li>
@@ -1303,11 +1303,11 @@
 <li>“It's time I put you to rest. [Fight.]” → <a href="#d-brightport_ghost4">brightport_ghost4</a></li>
 <li>“What are you talking about?” → <a href="#d-brightport_ghost5">brightport_ghost5</a></li>
 </ul>
-<p><span id="d-brightport_ghost4"></span><strong><code>brightport_ghost4</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8, sets stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_ghost4"></span><strong><code>brightport_ghost4</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8, sets stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <em>fight starts</em></li>
 </ul>
-<p><span id="d-brightport_ghost5"></span><strong><code>brightport_ghost5</code></strong> <a href="../none/">Dummy NPC</a>: “The two kids sneak past the ghost and leave in a hurry.” — <strong>effects:</strong> sets stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">brightport_nondisplay (hidden flag)</a>, removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8</p>
+<p><span id="d-brightport_ghost5"></span><strong><code>brightport_ghost5</code></strong> <a href="../none/">Dummy NPC</a>: “The two kids sneak past the ghost and leave in a hurry.” — <strong>effects:</strong> sets stage 238 of <a href="../../quests/brightport_nondisplay/#stage-238">Brightport story flags (hidden flag)</a>, removes monsters from brightport_grave, removes monsters from brightport_grave, spawns monsters on brightport_school8, spawns monsters on brightport_school8</p>
 <ul>
 <li>Next → <a href="#d-brightport_ghost6">brightport_ghost6</a></li>
 </ul>

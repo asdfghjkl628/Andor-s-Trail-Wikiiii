@@ -1113,7 +1113,7 @@
 
 
 <h1 id="freya"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_148.png" /> Freya<a class="headerlink" href="#freya" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Freya:</strong> Brightport: <a href="../../maps/brightport_armorer/#pin-npc-brightportarmor">brightport_armorer</a></p>
+<p><strong>Where to find Freya:</strong> Brightport: <a href="../../maps/brightport_armorer/#pin-npc-brightportarmor">Brightport armorer</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_148.png){ .sprite }</p>
 <table>
@@ -1181,27 +1181,27 @@
 </table>
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 33, 235, 236</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 33, 235, 236</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Freya. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Freya. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_armor.json" data-npc="Freya" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (7 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
-<p><span id="d-brightport_armor"></span><strong><code>brightport_armor</code></strong> Freya: “Welcome to Brightport's armor smithy, how can I assist you?” — <strong>effects:</strong> sets stage 33 of <a href="../../quests/brightport_nondisplay/#stage-33">brightport_nondisplay (hidden flag)</a></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
+<p><span id="d-brightport_armor"></span><strong><code>brightport_armor</code></strong> Freya: “Welcome to Brightport's armor smithy, how can I assist you?” — <strong>effects:</strong> sets stage 33 of <a href="../../quests/brightport_nondisplay/#stage-33">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Please show me your wares.” → <a href="#d-brightport_armor0">brightport_armor0</a></li>
-<li>“Everything seems pretty worn out, don't you have anything better to offer?” <em>(if reached stage 235 of <a href="../../quests/brightport_nondisplay/#stage-235">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_armor4">brightport_armor4</a></li>
+<li>“Everything seems pretty worn out, don't you have anything better to offer?” <em>(if reached stage 235 of <a href="../../quests/brightport_nondisplay/#stage-235">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_armor4">brightport_armor4</a></li>
 </ul>
-<p><span id="d-brightport_armor0"></span><strong><code>brightport_armor0</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 235 of <a href="../../quests/brightport_nondisplay/#stage-235">brightport_nondisplay (hidden flag)</a>, sets stage 33 of <a href="../../quests/brightport_nondisplay/#stage-33">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_armor0"></span><strong><code>brightport_armor0</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> sets stage 235 of <a href="../../quests/brightport_nondisplay/#stage-235">Brightport story flags (hidden flag)</a>, sets stage 33 of <a href="../../quests/brightport_nondisplay/#stage-33">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 → <em>shop opens</em></li>
 </ul>
-<p><span id="d-brightport_armor4"></span><strong><code>brightport_armor4</code></strong> Freya: “My husband and I maintain the guards' equipment, and we have pieces of great quality. But the Doughe set strict rules, so with Feygard soldiers stationed here we can't sell anything without approval.” — <strong>effects:</strong> sets stage 236 of <a href="../../quests/brightport_nondisplay/#stage-236">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_armor4"></span><strong><code>brightport_armor4</code></strong> Freya: “My husband and I maintain the guards' equipment, and we have pieces of great quality. But the Doughe set strict rules, so with Feygard soldiers stationed here we can't sell anything without approval.” — <strong>effects:</strong> sets stage 236 of <a href="../../quests/brightport_nondisplay/#stage-236">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Doughe?” → <a href="#d-brightport_armor5">brightport_armor5</a></li>
 <li>“How can I receive approval then?” → <a href="#d-brightport_armor7">brightport_armor7</a></li>

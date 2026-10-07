@@ -1102,7 +1102,7 @@
 
 
 <h1 id="colonel-lutarc"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_37.png" /> Colonel Lutarc<a class="headerlink" href="#colonel-lutarc" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Colonel Lutarc:</strong> Flagstone Prison: <a href="../../maps/waytogalmore0/#pin-npc-stn_colonel">waytogalmore0</a></p>
+<p><strong>Where to find Colonel Lutarc:</strong> Flagstone Prison: <a href="../../maps/waytogalmore0/#pin-npc-stn_colonel">Waytogalmore 0</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_37.png){ .sprite }</p>
 <table>
@@ -1139,17 +1139,17 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/stn_colonel/">Colonel Lutarc</a>: stages 10, 20, 170, 171, 172, 190</li>
-<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stages 50, 110</li>
+<li><a href="../../quests/stn_nondisplay/">Stoutford story flags (hidden flag)</a>: stages 50, 110</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Colonel Lutarc. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Colonel Lutarc. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_colonel_30.json" data-npc="Colonel Lutarc" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (34 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-stn_colonel_30"></span><strong><code>stn_colonel_30</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
 <li>branch 1 → <a href="#d-stn_colonel_30b">stn_colonel_30b</a></li>
@@ -1159,7 +1159,7 @@
 <li>branch 1 <em>(if reached stage 190 of <a href="../../quests/stn_colonel/#stage-190">Colonel Lutarc</a>)</em> → <a href="#d-stn_colonel_300">stn_colonel_300</a></li>
 <li>branch 2 <em>(if reached stage 160 of <a href="../../quests/stn_colonel/#stage-160">Colonel Lutarc</a>)</em> → <a href="#d-stn_colonel_200">stn_colonel_200</a></li>
 <li>branch 3 <em>(if reached stage 10 of <a href="../../quests/stn_colonel/#stage-10">Colonel Lutarc</a>; NOT reached stage 20 of <a href="../../quests/stn_colonel/#stage-20">Colonel Lutarc</a>)</em> → <a href="#d-stn_colonel_40">stn_colonel_40</a></li>
-<li>branch 4 <em>(if NOT reached stage 110 of <a href="../../quests/stn_nondisplay/#stage-110">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-stn_colonel_32">stn_colonel_32</a></li>
+<li>branch 4 <em>(if NOT reached stage 110 of <a href="../../quests/stn_nondisplay/#stage-110">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-stn_colonel_32">stn_colonel_32</a></li>
 <li>branch 5 → <a href="#d-stn_colonel_38">stn_colonel_38</a></li>
 </ul>
 <p><span id="d-stn_colonel_300"></span><strong><code>stn_colonel_300</code></strong> <a href="./">Colonel Lutarc</a>: “Greetings, $playername.”</p>
@@ -1201,7 +1201,7 @@
 <ul>
 <li>“May I ask what you are doing here?” → <a href="#d-stn_colonel_50">stn_colonel_50</a></li>
 </ul>
-<p><span id="d-stn_colonel_34"></span><strong><code>stn_colonel_34</code></strong> Colonel Lutarc: “Here you are.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/stn_nondisplay/#stage-50">stn_nondisplay (hidden flag)</a></p>
+<p><span id="d-stn_colonel_34"></span><strong><code>stn_colonel_34</code></strong> Colonel Lutarc: “Here you are.” — <strong>effects:</strong> sets stage 50 of <a href="../../quests/stn_nondisplay/#stage-50">Stoutford story flags (hidden flag)</a></p>
 <ul>
 <li>“Who are you and how do you know my name?” → <a href="#d-stn_colonel_40">stn_colonel_40</a></li>
 </ul>
@@ -1244,7 +1244,7 @@
 </ul>
 <p><span id="d-stn_colonel_70"></span><strong><code>stn_colonel_70</code></strong> Colonel Lutarc: “Now I am curious about how well you could handle a number of my better warriors. Would you like to try?”</p>
 <ul>
-<li>“Sure. After I have finished my tea of course.” <em>(if reached stage 50 of <a href="../../quests/stn_nondisplay/#stage-50">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-stn_colonel_72">stn_colonel_72</a></li>
+<li>“Sure. After I have finished my tea of course.” <em>(if reached stage 50 of <a href="../../quests/stn_nondisplay/#stage-50">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-stn_colonel_72">stn_colonel_72</a></li>
 <li>“Why not? A little challenge is always good.” → <a href="#d-stn_colonel_80">stn_colonel_80</a></li>
 <li>“Maybe some other time. I have to leave now.” → <em>conversation ends</em></li>
 </ul>
@@ -1258,7 +1258,7 @@
 <li>“[Drinking]” → <a href="#d-stn_colonel_74">stn_colonel_74</a></li>
 <li>“OK, now to business.” → <a href="#d-stn_colonel_80">stn_colonel_80</a></li>
 </ul>
-<p><span id="d-stn_colonel_80"></span><strong><code>stn_colonel_80</code></strong> <a href="./">Colonel Lutarc</a>: “Good. Please go to the foot of this hill, right down there, by the gate.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/stn_colonel/#stage-20">Colonel Lutarc</a>, sets stage 110 of <a href="../../quests/stn_nondisplay/#stage-110">stn_nondisplay (hidden flag)</a></p>
+<p><span id="d-stn_colonel_80"></span><strong><code>stn_colonel_80</code></strong> <a href="./">Colonel Lutarc</a>: “Good. Please go to the foot of this hill, right down there, by the gate.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/stn_colonel/#stage-20">Colonel Lutarc</a>, sets stage 110 of <a href="../../quests/stn_nondisplay/#stage-110">Stoutford story flags (hidden flag)</a></p>
 <ul>
 <li>Next → <a href="#d-stn_colonel_82">stn_colonel_82</a></li>
 </ul>

@@ -1113,7 +1113,7 @@
 
 
 <h1 id="kealwea"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_92.png" /> Kealwea<a class="headerlink" href="#kealwea" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Kealwea:</strong> Sullengard: <a href="../../maps/sullengard_church/#pin-npc-sullengard_priest">sullengard_church</a></p>
+<p><strong>Where to find Kealwea:</strong> Sullengard: <a href="../../maps/sullengard_church/#pin-npc-sullengard_priest">Sullengard church</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_92.png){ .sprite }</p>
 <table>
@@ -1185,20 +1185,20 @@
 <li><a href="../../quests/sullengard_pond_safety/">Pond safety</a>: stage 40</li>
 <li><a href="../../quests/mg2_exploded_star/">The exploded star</a>: stages 12, 17, 20, 32, 40, 47, 48, 52</li>
 <li><a href="../../quests/fifth_master/">The fifth master</a>: stage 40</li>
-<li><a href="../../quests/mg2_exploded_star_nd/">mg2_exploded_star_nd (hidden flag)</a>: stages 90, 91</li>
+<li><a href="../../quests/mg2_exploded_star_nd/">Mt. Galmore exploded star (hidden flag)</a>: stages 90, 91</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kealwea. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Kealwea. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_kealwea_00.json" data-npc="Kealwea" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (48 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-sullengard_kealwea_00"></span><strong><code>sullengard_kealwea_00</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a>)</em> → <a href="#d-sullengard_kealwea_0">sullengard_kealwea_0</a></li>
+<li>branch 1 <em>(if reached stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">Mt. Galmore exploded star (hidden flag)</a>)</em> → <a href="#d-sullengard_kealwea_0">sullengard_kealwea_0</a></li>
 <li>branch 2 <em>(if NOT reached stage 12 of <a href="../../quests/mg2_exploded_star/#stage-12">The exploded star</a>; reached stage 80 of <a href="../../quests/beer_bootlegging/#stage-80">Beer Bootlegging</a>)</em> → <a href="#d-mg2_kealwea_2">mg2_kealwea_2</a></li>
 <li>branch 3 <em>(if reached stage 17 of <a href="../../quests/mg2_exploded_star/#stage-17">The exploded star</a>; NOT reached stage 47 of <a href="../../quests/mg2_exploded_star/#stage-47">The exploded star</a>; NOT reached stage 48 of <a href="../../quests/mg2_exploded_star/#stage-48">The exploded star</a>; NOT reached stage 52 of <a href="../../quests/mg2_exploded_star/#stage-52">The exploded star</a>)</em> → <a href="#d-mg2_kealwea_20">mg2_kealwea_20</a></li>
 <li>branch 4 <em>(if reached stage 12 of <a href="../../quests/mg2_exploded_star/#stage-12">The exploded star</a>; NOT reached stage 17 of <a href="../../quests/mg2_exploded_star/#stage-17">The exploded star</a>)</em> → <a href="#d-mg2_kealwea_3">mg2_kealwea_3</a></li>
@@ -1270,7 +1270,7 @@
 <li>“I've changed my mind. These glittery things are too pretty to be destroyed.” <em>(if carry 10× <a href="../../items/mg2_exploded_star/">Piece of bright shining crystal</a>)</em> → <a href="#d-mg2_kealwea_40">mg2_kealwea_40</a></li>
 <li>“Hmm, I still have to think about it. I'll be back...” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-mg2_starwatcher_32"></span><strong><code>mg2_starwatcher_32</code></strong> Kealwea: “You fool!” — <strong>effects:</strong> sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a></p>
+<p><span id="d-mg2_starwatcher_32"></span><strong><code>mg2_starwatcher_32</code></strong> Kealwea: “You fool!” — <strong>effects:</strong> sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">Mt. Galmore exploded star (hidden flag)</a></p>
 <ul>
 <li>“It was the right thing to do.” → <a href="#d-mg2_starwatcher_34">mg2_starwatcher_34</a></li>
 </ul>
@@ -1325,7 +1325,7 @@
 <ul>
 <li>“Nothing. Bye.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-mg2_starwatcher_42"></span><strong><code>mg2_starwatcher_42</code></strong> Kealwea: “NOOOOO!!” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/mg2_exploded_star/#stage-40">The exploded star</a>, sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a></p>
+<p><span id="d-mg2_starwatcher_42"></span><strong><code>mg2_starwatcher_42</code></strong> Kealwea: “NOOOOO!!” — <strong>effects:</strong> sets stage 40 of <a href="../../quests/mg2_exploded_star/#stage-40">The exploded star</a>, sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">Mt. Galmore exploded star (hidden flag)</a></p>
 <ul>
 <li>“Now you're exaggerating. I'll go then.” → <em>conversation ends</em></li>
 </ul>
@@ -1403,7 +1403,7 @@
 <li>“Maybe later. I have to go now.” → <em>conversation ends</em></li>
 <li>“No, I have enough other things to do.” → <a href="#d-mg2_starwatcher_19b">mg2_starwatcher_19b</a></li>
 </ul>
-<p><span id="d-mg2_starwatcher_19b"></span><strong><code>mg2_starwatcher_19b</code></strong> Kealwea: “Woe, woe! Then leave me. I hope you can live with the guilt.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/mg2_exploded_star/#stage-20">The exploded star</a>, sets stage 90 of <a href="../../quests/mg2_exploded_star_nd/#stage-90">mg2_exploded_star_nd (hidden flag)</a>, sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">mg2_exploded_star_nd (hidden flag)</a></p>
+<p><span id="d-mg2_starwatcher_19b"></span><strong><code>mg2_starwatcher_19b</code></strong> Kealwea: “Woe, woe! Then leave me. I hope you can live with the guilt.” — <strong>effects:</strong> sets stage 20 of <a href="../../quests/mg2_exploded_star/#stage-20">The exploded star</a>, sets stage 90 of <a href="../../quests/mg2_exploded_star_nd/#stage-90">Mt. Galmore exploded star (hidden flag)</a>, sets stage 91 of <a href="../../quests/mg2_exploded_star_nd/#stage-91">Mt. Galmore exploded star (hidden flag)</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

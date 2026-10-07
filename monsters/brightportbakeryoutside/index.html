@@ -1102,7 +1102,7 @@
 
 
 <h1 id="eatloni"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_ld1_98.png" /> Eatloni<a class="headerlink" href="#eatloni" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Eatloni:</strong> Brightport: <a href="../../maps/brightport5/#pin-npc-brightportbakeryoutside">brightport5</a></p>
+<p><strong>Where to find Eatloni:</strong> Brightport: <a href="../../maps/brightport5/#pin-npc-brightportbakeryoutside">Brightport 5</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_98.png){ .sprite }</p>
 <table>
@@ -1135,20 +1135,20 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/brightport_bakery/">Bread and circus</a>: stages 25, 60, 65</li>
-<li><a href="../../quests/brightport_nondisplay/">brightport_nondisplay (hidden flag)</a>: stages 157, 198, 213, 245</li>
+<li><a href="../../quests/brightport_nondisplay/">Brightport story flags (hidden flag)</a>: stages 157, 198, 213, 245</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Eatloni. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Eatloni. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_storemaster_selector.json" data-npc="Eatloni" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (18 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
-<p><span id="d-brightport_storemaster_selector"></span><strong><code>brightport_storemaster_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
+<p><span id="d-brightport_storemaster_selector"></span><strong><code>brightport_storemaster_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> clears stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">Brightport story flags (hidden flag)</a></p>
 <ul>
-<li>Next <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; NOT reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster_apples">brightport_storemaster_apples</a></li>
+<li>Next <em>(if reached stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>; NOT reached stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster_apples">brightport_storemaster_apples</a></li>
 <li>Next → <a href="#d-brightport_storemaster">brightport_storemaster</a></li>
 </ul>
 <p><span id="d-brightport_storemaster_apples"></span><strong><code>brightport_storemaster_apples</code></strong> Eatloni: “Have you learned what happened with the apple delivery?”</p>
@@ -1175,7 +1175,7 @@
 </ul>
 <p><span id="d-brightport_storemaster9"></span><strong><code>brightport_storemaster9</code></strong> Eatloni: “The merchant arrived safe and sound shortly before you did. Well not quite, apparently he got robbed by highwaymen, and had to run for it with nothing but his cloak and a sack of 15 apples.”</p>
 <ul>
-<li>“Coincidentally I found 15 apples myself.” <em>(if reached stage 197 of <a href="../../quests/brightport_nondisplay/#stage-197">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster10">brightport_storemaster10</a></li>
+<li>“Coincidentally I found 15 apples myself.” <em>(if reached stage 197 of <a href="../../quests/brightport_nondisplay/#stage-197">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster10">brightport_storemaster10</a></li>
 </ul>
 <p><span id="d-brightport_storemaster2"></span><strong><code>brightport_storemaster2</code></strong> Eatloni: “Our bakery bakes the finest bread in all of Dhayavar. There's bound to be a bit of a jumble getting it onto the rich folk's tables.”</p>
 <ul>
@@ -1188,10 +1188,10 @@
 </ul>
 <p><span id="d-brightport_eatloni_selector"></span><strong><code>brightport_eatloni_selector</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>Next <em>(if NOT reached stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster1">brightport_storemaster1</a></li>
-<li>Next <em>(if reached stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a>)</em> → <a href="#d-brightport_eatloni">brightport_eatloni</a></li>
+<li>Next <em>(if NOT reached stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_storemaster1">brightport_storemaster1</a></li>
+<li>Next <em>(if reached stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">Brightport story flags (hidden flag)</a>)</em> → <a href="#d-brightport_eatloni">brightport_eatloni</a></li>
 </ul>
-<p><span id="d-brightport_storemaster7"></span><strong><code>brightport_storemaster7</code></strong> Eatloni: “Here you go, that's 700 gold, now go inside and tell my brother the apples will be coming soon, I just need to write them in my ledger.” — <strong>effects:</strong> sets stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a>, sets stage 60 of <a href="../../quests/brightport_bakery/#stage-60">Bread and circus</a>, gives 700× <a href="../../items/gold/">Gold coins</a></p>
+<p><span id="d-brightport_storemaster7"></span><strong><code>brightport_storemaster7</code></strong> Eatloni: “Here you go, that's 700 gold, now go inside and tell my brother the apples will be coming soon, I just need to write them in my ledger.” — <strong>effects:</strong> sets stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">Brightport story flags (hidden flag)</a>, sets stage 60 of <a href="../../quests/brightport_bakery/#stage-60">Bread and circus</a>, gives 700× <a href="../../items/gold/">Gold coins</a></p>
 <p><span id="d-brightport_storemaster8"></span><strong><code>brightport_storemaster8</code></strong> Eatloni: “That's not good. I need all 30, if you don't have them then I can't repay you.”</p>
 <ul>
 <li>“I'll be back.” → <em>conversation ends</em></li>
@@ -1202,18 +1202,18 @@
 <li>“Here you go. [Hand over the apples.]” <em>(if hand over 15× <a href="../../items/deebo_apples/">Orchard apple</a>)</em> → <a href="#d-brightport_storemaster11">brightport_storemaster11</a></li>
 <li>“I think I might have eaten some.” <em>(if NOT carry 15× <a href="../../items/deebo_apples/">Orchard apple</a>; used 1× <a href="../../items/deebo_apples/">Orchard apple</a>)</em> → <a href="#d-brightport_storemaster8">brightport_storemaster8</a></li>
 </ul>
-<p><span id="d-brightport_storemaster3"></span><strong><code>brightport_storemaster3</code></strong> Eatloni: “You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days.” — <strong>effects:</strong> sets stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">brightport_nondisplay (hidden flag)</a></p>
-<p><span id="d-brightport_storemaster5"></span><strong><code>brightport_storemaster5</code></strong> Eatloni: “But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples has been picked up.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>, sets stage 213 of <a href="../../quests/brightport_nondisplay/#stage-213">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_storemaster3"></span><strong><code>brightport_storemaster3</code></strong> Eatloni: “You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days.” — <strong>effects:</strong> sets stage 157 of <a href="../../quests/brightport_nondisplay/#stage-157">Brightport story flags (hidden flag)</a></p>
+<p><span id="d-brightport_storemaster5"></span><strong><code>brightport_storemaster5</code></strong> Eatloni: “But it's not about the gold this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's Orchard south of the Duleian Road to see if the order of thirty apples has been picked up.” — <strong>effects:</strong> sets stage 25 of <a href="../../quests/brightport_bakery/#stage-25">Bread and circus</a>, sets stage 213 of <a href="../../quests/brightport_nondisplay/#stage-213">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Sure, can do.” → <em>conversation ends</em></li>
 </ul>
-<p><span id="d-brightport_storemaster1"></span><strong><code>brightport_storemaster1</code></strong> Eatloni: “I am Eatloni the storemaster. My brother Allares and I handle the storage and delivery of the bakery's goods.” — <strong>effects:</strong> sets stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_storemaster1"></span><strong><code>brightport_storemaster1</code></strong> Eatloni: “I am Eatloni the storemaster. My brother Allares and I handle the storage and delivery of the bakery's goods.” — <strong>effects:</strong> sets stage 245 of <a href="../../quests/brightport_nondisplay/#stage-245">Brightport story flags (hidden flag)</a></p>
 <ul>
 <li>“Is there any work for me to do here?” <em>(if NOT reached stage 1 of <a href="../../quests/brightport_bakery/#stage-1">Bread and circus</a>)</em> → <a href="#d-brightport_storemaster3">brightport_storemaster3</a></li>
 <li>“That explains the mess.” → <a href="#d-brightport_storemaster2">brightport_storemaster2</a></li>
 </ul>
 <p><span id="d-brightport_eatloni"></span><strong><code>brightport_eatloni</code></strong> Eatloni: “Do you not have other things to occupy yourself with. Why must you bother me?”</p>
-<p><span id="d-brightport_storemaster11"></span><strong><code>brightport_storemaster11</code></strong> Eatloni: “Thank you $playername, that is excellent. Head inside and tell my brother the apples will be brought inside soon. As for your remuneration, he will reward you sufficiently.” — <strong>effects:</strong> sets stage 65 of <a href="../../quests/brightport_bakery/#stage-65">Bread and circus</a>, sets stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">brightport_nondisplay (hidden flag)</a></p>
+<p><span id="d-brightport_storemaster11"></span><strong><code>brightport_storemaster11</code></strong> Eatloni: “Thank you $playername, that is excellent. Head inside and tell my brother the apples will be brought inside soon. As for your remuneration, he will reward you sufficiently.” — <strong>effects:</strong> sets stage 65 of <a href="../../quests/brightport_bakery/#stage-65">Bread and circus</a>, sets stage 198 of <a href="../../quests/brightport_nondisplay/#stage-198">Brightport story flags (hidden flag)</a></p>
 </details>
 <h2 id="version-history">Version history<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h2>
 <table>

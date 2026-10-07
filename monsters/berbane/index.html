@@ -1102,7 +1102,7 @@
 
 
 <h1 id="lord-berbane"><img alt="" class="sprite" src="../../assets/icons/monsters/monsters_tometik2_42.png" /> Lord Berbane<a class="headerlink" href="#lord-berbane" title="Permanent link">&para;</a></h1>
-<p><strong>Where to find Lord Berbane:</strong> Stoutford: <a href="../../maps/stoutford_tavern/#pin-npc-berbane">stoutford_tavern</a></p>
+<p><strong>Where to find Lord Berbane:</strong> Stoutford: <a href="../../maps/stoutford_tavern/#pin-npc-berbane">Stoutford tavern</a></p>
 <div class="infobox">
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_42.png){ .sprite }</p>
 <table>
@@ -1135,23 +1135,23 @@
 <h2 id="quests">Quests<a class="headerlink" href="#quests" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../quests/stn_quest_gyra/">Lost girl looking for lost things</a>: stages 90, 92, 99, 199</li>
-<li><a href="../../quests/nondisplay/">Placeholder for hidden quest stages (not displayed) (hidden flag)</a>: stage 149</li>
-<li><a href="../../quests/stn_nondisplay/">stn_nondisplay (hidden flag)</a>: stages 44, 45</li>
+<li><a href="../../quests/nondisplay/">General story flags (hidden flag)</a>: stage 149</li>
+<li><a href="../../quests/stn_nondisplay/">Stoutford story flags (hidden flag)</a>: stages 44, 45</li>
 </ul>
 <h2 id="dialogue-simulator">Dialogue simulator<a class="headerlink" href="#dialogue-simulator" title="Permanent link">&para;</a></h2>
-<p>Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lord Berbane. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.</p>
+<p>Set your quest stages and items, then talk to Lord Berbane. Same rules as the game: same checks, same options, same effects.</p>
 <div class="dlg-sim" data-src="../../assets/dialogue/berbane.json" data-npc="Lord Berbane" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
 <p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
 
 <details class="quote">
 <summary>Dialogue (21 lines)</summary>
-<p><em>What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.</em></p>
+<p><em>Exactly as in the game files. Each line appears once; links jump to where a choice leads.</em></p>
 <p><span id="d-berbane"></span><strong><code>berbane</code></strong> <em>(silent check: the first matching branch below is taken)</em></p>
 <ul>
-<li>branch 1 <em>(if reached stage 45 of <a href="../../quests/stn_nondisplay/#stage-45">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_200">berbane_200</a></li>
+<li>branch 1 <em>(if reached stage 45 of <a href="../../quests/stn_nondisplay/#stage-45">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-berbane_200">berbane_200</a></li>
 <li>branch 2 <em>(if reached stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_90">berbane_90</a></li>
-<li>branch 3 <em>(if reached stage 44 of <a href="../../quests/stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+<li>branch 3 <em>(if reached stage 44 of <a href="../../quests/stn_nondisplay/#stage-44">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
 <li>branch 4 → <a href="#d-berbane_10">berbane_10</a></li>
 </ul>
 <p><span id="d-berbane_200"></span><strong><code>berbane_200</code></strong> <a href="../none/">Dummy NPC</a>: “Lord Berbane is singing merrily about his heroic deeds.”</p>
@@ -1161,7 +1161,7 @@
 </ul>
 <p><span id="d-berbane_90"></span><strong><code>berbane_90</code></strong> <a href="../none/">Dummy NPC</a>: “Lord Berbane looks sadly at his bottle, but still shows no sign of getting up.”</p>
 <ul>
-<li>“The castle is clean of undead now.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>; reached stage 20 of <a href="../../quests/stn_quest_gyra/#stage-20">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+<li>“The castle is clean of undead now.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">Stoutford story flags (hidden flag)</a>; reached stage 20 of <a href="../../quests/stn_quest_gyra/#stage-20">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
 <li>“Hey, up!” → <a href="#d-berbane_90">berbane_90</a></li>
 </ul>
 <p><span id="d-berbane_100"></span><strong><code>berbane_100</code></strong> <a href="../none/">Dummy NPC</a>: “Lord Berbane jumps up and cries with a loud voice: SILENCE!”</p>
@@ -1171,16 +1171,16 @@
 <p><span id="d-berbane_10"></span><strong><code>berbane_10</code></strong> <a href="../none/">Dummy NPC</a>: “The richly dressed man does not react.”</p>
 <ul>
 <li>“Who are you?” → <a href="#d-berbane_10">berbane_10</a></li>
-<li>“Yolgen asked me to help clear the castle of undead. Shall we do it together?” <em>(if reached stage 10 of <a href="../../quests/stoutford_castle/#stage-10">Stoutford's old castle</a>; NOT reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_10">berbane_10</a></li>
+<li>“Yolgen asked me to help clear the castle of undead. Shall we do it together?” <em>(if reached stage 10 of <a href="../../quests/stoutford_castle/#stage-10">Stoutford's old castle</a>; NOT reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-berbane_10">berbane_10</a></li>
 <li>“Gyra found your helmet and asked me to give it to you, so that you could start to clear the castle.” <em>(if reached stage 70 of <a href="../../quests/stn_quest_gyra/#stage-70">Lost girl looking for lost things</a>; carry 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_20">berbane_20</a></li>
-<li>“The castle is clean of undead now.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>; reached stage 20 of <a href="../../quests/stn_quest_gyra/#stage-20">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+<li>“The castle is clean of undead now.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">Stoutford story flags (hidden flag)</a>; reached stage 20 of <a href="../../quests/stn_quest_gyra/#stage-20">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
 </ul>
 <p><span id="d-berbane_200_1"></span><strong><code>berbane_200_1</code></strong> <a href="./">Lord Berbane</a>: “Why are you disturbing my song?”</p>
 <ul>
 <li>“Gyra found your helmet and asked me to give it to you.” <em>(if hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_200_2">berbane_200_2</a></li>
 <li>“Eh, nothing. Sing on.” → <a href="#d-berbane_200">berbane_200</a></li>
 </ul>
-<p><span id="d-berbane_102"></span><strong><code>berbane_102</code></strong> <a href="./">Lord Berbane</a>: “[Loud voice] Pay attention and listen everybody! The castle is free! The trembling is over!” — <strong>effects:</strong> sets stage 44 of <a href="../../quests/stn_nondisplay/#stage-44">stn_nondisplay (hidden flag)</a></p>
+<p><span id="d-berbane_102"></span><strong><code>berbane_102</code></strong> <a href="./">Lord Berbane</a>: “[Loud voice] Pay attention and listen everybody! The castle is free! The trembling is over!” — <strong>effects:</strong> sets stage 44 of <a href="../../quests/stn_nondisplay/#stage-44">Stoutford story flags (hidden flag)</a></p>
 <ul>
 <li>“...??” → <a href="#d-berbane_110">berbane_110</a></li>
 </ul>
@@ -1199,7 +1199,7 @@
 <p><span id="d-berbane_30"></span><strong><code>berbane_30</code></strong> Lord Berbane: “Many of my songs are about this magical helmet. But it's all just songs.”</p>
 <ul>
 <li>“Will you make the songs a reality now?” <em>(if hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_32">berbane_32</a></li>
-<li>“I cleared the castle of undead already.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">stn_nondisplay (hidden flag)</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
+<li>“I cleared the castle of undead already.” <em>(if reached stage 47 of <a href="../../quests/stn_nondisplay/#stage-47">Stoutford story flags (hidden flag)</a>)</em> → <a href="#d-berbane_100">berbane_100</a></li>
 </ul>
 <p><span id="d-berbane_200_3"></span><strong><code>berbane_200_3</code></strong> Lord Berbane: “Anything else?”</p>
 <ul>
@@ -1209,7 +1209,7 @@
 <ul>
 <li>“No, I have...” → <a href="#d-berbane_130">berbane_130</a></li>
 </ul>
-<p><span id="d-berbane_32"></span><strong><code>berbane_32</code></strong> <a href="../none/">Dummy NPC</a>: “He sighs and slowly takes the helmet.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>, sets stage 149 of <a href="../../quests/nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-berbane_32"></span><strong><code>berbane_32</code></strong> <a href="../none/">Dummy NPC</a>: “He sighs and slowly takes the helmet.” — <strong>effects:</strong> sets stage 90 of <a href="../../quests/stn_quest_gyra/#stage-90">Lost girl looking for lost things</a>, sets stage 149 of <a href="../../quests/nondisplay/#stage-149">General story flags (hidden flag)</a></p>
 <ul>
 <li>“Let's go now.” → <a href="#d-berbane_90">berbane_90</a></li>
 </ul>
@@ -1218,7 +1218,7 @@
 <li>branch 1 <em>(if hand over 1× <a href="../../items/stoutford_helmet/">Stoutford chief's helmet</a>)</em> → <a href="#d-berbane_132">berbane_132</a></li>
 <li>branch 2 → <a href="#d-berbane_134">berbane_134</a></li>
 </ul>
-<p><span id="d-berbane_132"></span><strong><code>berbane_132</code></strong> Lord Berbane: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.” — <strong>effects:</strong> sets stage 92 of <a href="../../quests/stn_quest_gyra/#stage-92">Lost girl looking for lost things</a>, sets stage 149 of <a href="../../quests/nondisplay/#stage-149">Placeholder for hidden quest stages (not displayed) (hidden flag)</a></p>
+<p><span id="d-berbane_132"></span><strong><code>berbane_132</code></strong> Lord Berbane: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.” — <strong>effects:</strong> sets stage 92 of <a href="../../quests/stn_quest_gyra/#stage-92">Lost girl looking for lost things</a>, sets stage 149 of <a href="../../quests/nondisplay/#stage-149">General story flags (hidden flag)</a></p>
 <ul>
 <li>“I give up.” → <a href="#d-berbane_140">berbane_140</a></li>
 </ul>
@@ -1226,7 +1226,7 @@
 <ul>
 <li>“I give up.” → <a href="#d-berbane_140">berbane_140</a></li>
 </ul>
-<p><span id="d-berbane_140"></span><strong><code>berbane_140</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> gives 1× <a href="../../items/mead/">Mead</a>, sets stage 45 of <a href="../../quests/stn_nondisplay/#stage-45">stn_nondisplay (hidden flag)</a></p>
+<p><span id="d-berbane_140"></span><strong><code>berbane_140</code></strong> <em>(silent check: the first matching branch below is taken)</em> — <strong>effects:</strong> gives 1× <a href="../../items/mead/">Mead</a>, sets stage 45 of <a href="../../quests/stn_nondisplay/#stage-45">Stoutford story flags (hidden flag)</a></p>
 <ul>
 <li>branch 1 <em>(if reached stage 70 of <a href="../../quests/stn_quest_gyra/#stage-70">Lost girl looking for lost things</a>)</em> → <a href="#d-berbane_144">berbane_144</a></li>
 <li>branch 2 → <a href="#d-berbane_142">berbane_142</a></li>
