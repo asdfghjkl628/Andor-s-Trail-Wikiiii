@@ -26,7 +26,7 @@ description: "Potion of quick death is a ordinary potion in Andor's Trail. How t
 
 | Stat | Value |
 |---|---|
-| On self | Food-poisoning (magnitude 20, 50 rounds, 100% chance) |
+| On self | [Food-poisoning](../conditions/foodp.md) (magnitude 20, 50 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -57,7 +57,7 @@ description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Rootsnare (magnitude 1, 3 rounds, 25% chance)
+**On hit:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -212,7 +212,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Rootsnare (magnitude 1, 3 rounds, 30% chance)
+**On hit:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

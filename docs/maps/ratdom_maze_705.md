@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 705 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred, Horfael. Enemies: Tiny rat, Cave rat, Tough cave rat, Venomous cave snake, Tough cave snake. Exits to Ratdom maze 422, Ratdom maze 616, Ratdom maze 431, Ratdom maze 421."
+description: "Ratdom maze 705 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred, Horfael. Enemies: Tiny rat, Tough cave rat, Cave rat, Venomous cave snake, Tough cave snake. Exits to Ratdom maze 422, Ratdom maze 616, Ratdom maze 431, Ratdom maze 421."
 ---
 
 # Ratdom maze 705
@@ -80,8 +80,8 @@ description: "Ratdom maze 705 is an indoor location in Andor's Trail, in Pub (ot
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Venomous cave snake](../monsters/venomous_cave_snake.md) | 15 | 2–2 | 4 | shares spawn with Tough cave snake |
 | [Tough cave snake](../monsters/tough_cave_snake.md) | 21 | 2–2 | 4 | shares spawn with Venomous cave snake |
 

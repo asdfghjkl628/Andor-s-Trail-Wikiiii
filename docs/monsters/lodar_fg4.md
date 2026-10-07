@@ -133,8 +133,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 3 lines changed<br>· text: “Are you one of .. them?” → “Are you one of ... them?”<br>· text: “(the guard turns towards you, almost as if he didn't notice you befor…” → “[The guard turns towards you, almost as if he didn't notice you befor…” |
-| [v0.8.7](../versions/0.8.7.md) | monsterClass added (humanoid) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 3 lines changed<br>· text: “(the guard turns towards you, almost as if he didn't notice you befor…” → “[The guard turns towards you, almost as if he didn't notice you befor…”<br>· text: “Are you one of .. them?” → “Are you one of ... them?” |
+| [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

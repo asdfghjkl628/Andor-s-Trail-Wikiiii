@@ -65,7 +65,7 @@ description: "Rat mountain 5 is an outdoor location in Andor's Trail, near Flags
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

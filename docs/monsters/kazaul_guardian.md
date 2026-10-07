@@ -107,7 +107,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 4 lines changed<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]”<br>· text: “Kazaul..” → “Kazaul...” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

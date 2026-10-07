@@ -32,7 +32,7 @@ description: "Garnet whisper ring is a rare ring in Andor's Trail (Attack damage
 | Attack chance | +10 |
 | Block chance | +5 |
 | Damage resistance | +1 |
-| Grants | Minor weapon feebleness (magnitude 1) |
+| Grants | [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

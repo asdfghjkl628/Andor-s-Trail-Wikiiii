@@ -41,7 +41,7 @@ description: "Sword of the annihilator is a extraordinary two-handed sword in An
 
 | Stat | Value |
 |---|---|
-| On target | Stunned (magnitude 1, 2 rounds, 10% chance) |
+| On target | [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -62,7 +62,7 @@ description: "Sword of the annihilator is a extraordinary two-handed sword in An
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 22, "increaseA… → {"increaseAttackChance": 22, "increaseA… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (320) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -43,7 +43,7 @@ description: "Nor gold coins is a ordinary money in Andor's Trail. How to get it
 | Version | Change |
 |---|---|
 | [v0.8.10](../versions/0.8.10.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | description: A gold goin from Nor City. → A gold coin from Nor City. |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

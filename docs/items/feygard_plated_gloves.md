@@ -36,7 +36,7 @@ description: "Feygard plated gloves is a rare gloves, metal (heavy) in Andor's T
 
 | Stat | Value |
 |---|---|
-| On target | Dazed (magnitude 1, 4 rounds, 20% chance) |
+| On target | [Dazed](../conditions/dazed.md) (magnitude 1, 4 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

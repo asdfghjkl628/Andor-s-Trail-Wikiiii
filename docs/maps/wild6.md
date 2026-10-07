@@ -102,13 +102,13 @@ South: Stoutford”">10</a><a class="pin pin-sign" href="#key-11" style="left:61
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
-| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | Map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

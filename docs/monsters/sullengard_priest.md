@@ -274,7 +274,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 9 lines added |
-| [v0.8.14](../versions/0.8.14.md) | phraseID: sullengard_kealwea_0 → sullengard_kealwea_00<br>Dialogue: 35 lines added |
+| [v0.8.14](../versions/0.8.14.md) | Conversation changed<br>Dialogue: 35 lines added |
 | [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines added, 1 line changed<br>· text: “Hey, young fellow. I am Kealwea. How can I help you my child?” → “Ah, young traveller. I am Kealwea. How can I help you, my child?” |
 

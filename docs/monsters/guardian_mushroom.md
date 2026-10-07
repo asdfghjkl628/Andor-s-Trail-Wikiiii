@@ -44,7 +44,7 @@ description: "Mushroom guardian is an NPC who can also be fought in Andor's Trai
 | Critical multiplier | 2.0 |
 | Critical hit chance | 13% |
 
-**On hit:** On target: Spore poisoning (magnitude 2, 5 rounds, 20% chance)
+**On hit:** On target: [Spore poisoning](../conditions/spore_poison.md) (magnitude 2, 5 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -39,7 +39,7 @@ description: "Feygard's might is a rare warhammer in Andor's Trail (Attack damag
 | Block chance | -7 |
 | Critical multiplier | 3.0 |
 | setNonWeaponDamageModifier | +150 |
-| Grants | Feygard Loyalist (magnitude 1) |
+| Grants | [Feygard Loyalist](../conditions/loyalist.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

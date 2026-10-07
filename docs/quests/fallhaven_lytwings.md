@@ -154,7 +154,7 @@ No links to other quests were found in the dialogue conditions.
 | Version | Change |
 |---|---|
 | [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 19 lines added |
-| [v0.8.13](../versions/0.8.13.md) | stage 21 journal text changed |
+| [v0.8.13](../versions/0.8.13.md) | Stage 21 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

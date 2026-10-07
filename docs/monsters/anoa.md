@@ -49,9 +49,9 @@ description: "Anoa is an NPC who can also be fought in Andor's Trail, found in u
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On self: Shadow awareness (magnitude 1, 1 rounds, 100% chance); On target: Shadow sleepiness (magnitude 1, 1 rounds, 25% chance)
+**On hit:** On self: [Shadow awareness](../conditions/shadow_awareness.md) (magnitude 1, 1 round); On target: [Shadow sleepiness](../conditions/shadowsleep.md) (magnitude 1, 1 round, 25% chance)
 
-**When hit:** On self: Shadow Regeneration (magnitude 10, 1 rounds, 100% chance); On target: Kazaul possession (magnitude 3, 2 rounds, 50% chance)
+**When hit:** On self: [Shadow Regeneration](../conditions/regen.md) (magnitude 10, 1 round); On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 3, 2 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -130,7 +130,7 @@ description: "Fair play? is a quest in Andor's Trail, started by Guard (brimhave
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 12 lines added |
-| [v0.7.13](../versions/0.7.13.md) | stage 45 journal text changed; stage 50 journal text changed; stage 70 XP 1000 → 500; stage 80 XP 800 → 1150<br>Dialogue: 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Stage 45 journal text changed<br>Stage 50 journal text changed<br>Stage 70 XP 1000 → 500<br>Stage 80 XP 800 → 1150<br>Dialogue: 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

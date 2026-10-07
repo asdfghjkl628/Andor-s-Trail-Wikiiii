@@ -64,7 +64,7 @@ description: "Drakthorn warrior captain is an enemy in Andor's Trail (reptile) w
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | attackChance: 101 → 108; attackDamage: {"max": 23, "min": 12} → {"max": 25, "min": 12}; blockChance: 91 → 99; criticalMultiplier: 18.0 → 1.8 |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Attack chance: 101 → 108<br>Attack damage: 12–23 → 12–25<br>Block chance: 91 → 99<br>Critical multiplier: 18 → 1.8 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

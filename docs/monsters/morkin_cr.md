@@ -41,7 +41,7 @@ description: "Morkin elder is an enemy in Andor's Trail (humanoid) with 375 HP, 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Minor fatigue (magnitude 1, 3 rounds, 30% chance)
+**On hit:** On target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -64,7 +64,7 @@ description: "Morkin elder is an enemy in Andor's Trail (humanoid) with 375 HP, 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 5} → {"max": 5, "min": 0}; hitEffect: {"conditionsTarget": [{"chance": 30, "c… → {"conditionsTarget": [{"chance": "30", … |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–5 → 0–5<br>On hit, condition on target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 3 rounds, 30% chance) → (magnitude 1, 3 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

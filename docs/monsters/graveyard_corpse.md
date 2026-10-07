@@ -41,7 +41,7 @@ description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP,
 | Critical multiplier | 2.0 |
 | Critical hit chance | 5% |
 
-**On hit:** Heal HP: 1 to 2; On target: Putrefaction (magnitude 1, 3 rounds, 25% chance)
+**On hit:** Heal HP: 1 to 2; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 1, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

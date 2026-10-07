@@ -41,7 +41,7 @@ description: "Foul miner's skeleton is an enemy in Andor's Trail (undead) with 8
 | Critical multiplier | 1.5 |
 | Critical hit chance | 12% |
 
-**On hit:** Heal HP: 3; On target: Blood poisoning (magnitude 4, 2 rounds, 30% chance)
+**On hit:** Heal HP: 3; On target: [Blood poisoning](../conditions/poison_blood.md) (magnitude 4, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

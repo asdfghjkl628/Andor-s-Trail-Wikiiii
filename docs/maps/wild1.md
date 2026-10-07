@@ -1,5 +1,5 @@
 ---
-description: "Wild1 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Forest wasp, Small rabid dog, Rabid boar, Rabid fox. Exits to Wild0, Wild4, Gapfiller3, Crossglen."
+description: "Wild1 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Small rabid dog, Forest wasp, Rabid boar, Rabid fox. Exits to Wild0, Wild4, Gapfiller3, Crossglen."
 ---
 
 # Wild1
@@ -57,8 +57,8 @@ North: Feygard”">5</a></div>
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 4 | – |
+| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 | 3–3 | 1 | – |
 | [Rabid fox](../monsters/rabid_fox.md) | 25 | 3–3 | 3 | – |
 
@@ -74,9 +74,9 @@ North: Feygard”">5</a></div>
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

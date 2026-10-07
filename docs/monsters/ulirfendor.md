@@ -595,8 +595,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 34 lines changed<br>· text: “(The helmet completely shatters, leaving nothing but a fine dust.)” → “[The helmet completely shatters, leaving nothing but a fine dust]”<br>· text: “Hm, maybe. I need to figure out what this last part should be. Hmm..” → “Hmm, maybe. I need to figure out what this last part should be. Hmm...” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…”<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “Regardless, it must be stopped, whatever it means. Maybe it refers to…” → “Regardless, it must be stopped, whatever it means. Maybe it refers to…”<br>· text: “No.. can it be? Are they actually real?” → “No ... can it be? Are they actually real?” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …”<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Hmm. You know what, this could actually be connected to what the shri…” → “Hmm. You know what, this could actually be connected to what the shri…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

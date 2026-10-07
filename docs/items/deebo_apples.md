@@ -28,7 +28,7 @@ description: "Orchard apple is a rare food in Andor's Trail. How to get it: shop
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 2, 10 rounds, 100% chance); Minor fatigue (10% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 10 rounds); removes [Minor fatigue](../conditions/fatigue_minor.md) (10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -66,9 +66,9 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | displaytype: quest → rare |
-| [v0.8.5](../versions/0.8.5.md) | baseMarketCost: 35 → 50; useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",… |
-| [v0.8.13](../versions/0.8.13.md) | name: Orchard apples → Orchard apple |
+| [v0.8.4](../versions/0.8.4.md) | Rarity: quest → rare |
+| [v0.8.5](../versions/0.8.5.md) | Base value (gold): 35 → 50<br>When used, condition on self: added [Minor fatigue](../conditions/fatigue_minor.md) (10% chance) |
+| [v0.8.13](../versions/0.8.13.md) | Renamed “Orchard apples” → “Orchard apple” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -41,7 +41,7 @@ description: "Poisenous snail is an enemy in Andor's Trail (reptile) with 30 HP,
 | Critical multiplier | 2.0 |
 | Critical hit chance | 23% |
 
-**On hit:** On target: Weak Poison (magnitude 1, 3 rounds, 30% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

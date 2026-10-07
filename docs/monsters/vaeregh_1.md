@@ -45,7 +45,7 @@ description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 34
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** Heal HP: 10; On target: Minor weapon feebleness (magnitude 4, 3 rounds, 20% chance)
+**On hit:** Heal HP: 10; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 4, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -72,7 +72,7 @@ description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 34
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 4, 3 rounds, 20% chance) → (magnitude 4, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

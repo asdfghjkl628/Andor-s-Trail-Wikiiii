@@ -30,7 +30,7 @@ description: "Blackwater leather cap is a rare headwear, leather in Andor's Trai
 |---|---|
 | Max HP | +5 |
 | Block chance | +21 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

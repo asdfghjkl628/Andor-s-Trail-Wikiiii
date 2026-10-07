@@ -41,9 +41,9 @@ description: "Contaminated woodworm is an enemy in Andor's Trail (animal) with 7
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: -1; On target: Bleeding wound (magnitude 1, 2 rounds, 20% chance)
+**On hit:** Heal HP: -1; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1, 2 rounds, 20% chance)
 
-**When hit:** Heal HP: 1; On target: Nausea (magnitude 2, 3 rounds, 30% chance)
+**When hit:** Heal HP: 1; On target: [Nausea](../conditions/nausea.md) (magnitude 2, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

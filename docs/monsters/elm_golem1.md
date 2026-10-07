@@ -41,9 +41,9 @@ description: "Kazarite golem is an enemy in Andor's Trail (giant) with 198 HP, w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** Heal HP: 1 to 3; On target: Bleeding wound (magnitude 7, 2 rounds, 10% chance)
+**On hit:** Heal HP: 1 to 3; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 7, 2 rounds, 10% chance)
 
-**When hit:** On target: Nausea (magnitude 3, 5 rounds, 15% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 15% chance)
 
 **On death:** Heal HP: -15 to 0
 
@@ -80,7 +80,7 @@ description: "Kazarite golem is an enemy in Andor's Trail (giant) with 198 HP, w
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | deathEffect: {"increaseCurrentHP": {"max": 0, "min":… → {"increaseCurrentHP": {"max": 0, "min":… |
+| [v0.8.8](../versions/0.8.8.md) | On death, HP restored: 15–0 → -15–0 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

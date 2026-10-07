@@ -102,9 +102,9 @@ South: Galmore Mountain”">8</a><a class="pin pin-script" href="#key-9" style="
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
-| [v0.8.14](../versions/0.8.14.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
+| [v0.8.14](../versions/0.8.14.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

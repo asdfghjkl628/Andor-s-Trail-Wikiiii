@@ -29,7 +29,7 @@ description: "Pineapple is a rare food in Andor's Trail. How to get it: containe
 | Stat | Value |
 |---|---|
 | Heal HP | 1 to 5 |
-| On self | Sustenance (magnitude 5, 8 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 5, 8 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

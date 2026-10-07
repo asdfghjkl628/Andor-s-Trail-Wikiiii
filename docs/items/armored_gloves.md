@@ -36,7 +36,7 @@ description: "Armored gloves is a ordinary gloves, metal (heavy) in Andor's Trai
 
 | Stat | Value |
 |---|---|
-| On self | Minor increased defense (magnitude 1, 2 rounds, 3% chance) |
+| On self | [Minor increased defense](../conditions/minor_increased_defense.md) (magnitude 1, 2 rounds, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

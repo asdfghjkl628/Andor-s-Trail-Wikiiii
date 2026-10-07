@@ -44,7 +44,7 @@ description: "Venomfang dirk is a rare dagger in Andor's Trail (Attack damage 2 
 
 | Stat | Value |
 |---|---|
-| On target | Weak Poison (magnitude 1, 3 rounds, 20% chance) |
+| On target | [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -75,8 +75,8 @@ description: "Venomfang dirk is a rare dagger in Andor's Trail (Attack damage 2 
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.7.15](../versions/0.7.15.md) | equipEffect: {"increaseAttackChance": 16, "increaseA… → {"increaseAttackChance": 16, "increaseA… |
-| [v0.8.12.1](../versions/0.8.12.1.md) | description: Fast and accurate, just like serpent's … → Fast and accurate, delivering a venomou…; displaytype: extraordinary → rare |
+| [v0.7.15](../versions/0.7.15.md) | When equipped, critical multiplier: 1.75 → 1.8 |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Description text changed<br>Rarity: extraordinary → rare |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

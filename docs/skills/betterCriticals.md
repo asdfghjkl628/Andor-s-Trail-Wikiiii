@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +25% of equipment CM per level ([abbreviations](../glossary.md)) |
 | **Category** | Criticals |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

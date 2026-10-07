@@ -45,7 +45,7 @@ description: "Moonwalker tree stump is an enemy in Andor's Trail (construct) wit
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On death:** On self: Poisonous vapors (magnitude 2, 4 rounds, 15% chance)
+**On death:** On self: [Poisonous vapors](../conditions/brightport_poison.md) (magnitude 2, 4 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -41,9 +41,9 @@ description: "Virulent forest fawn is an enemy in Andor's Trail (animal) with 14
 | Critical multiplier | 1.0 |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Brainworm infection (magnitude 1, 3 rounds, 40% chance)
+**On hit:** On target: [Brainworm infection](../conditions/brightport_worm.md) (magnitude 1, 3 rounds, 40% chance)
 
-**On death:** On self: Brainworm infection (magnitude 2, 4 rounds, 70% chance)
+**On death:** On self: [Brainworm infection](../conditions/brightport_worm.md) (magnitude 2, 4 rounds, 70% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

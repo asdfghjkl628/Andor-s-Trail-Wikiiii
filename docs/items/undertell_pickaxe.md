@@ -43,7 +43,7 @@ description: "Undertell pickaxe is a rare pole weapon in Andor's Trail (Attack d
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 3, 2 rounds, 20% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 2 rounds, 20% chance) |
 
 ### On kill
 

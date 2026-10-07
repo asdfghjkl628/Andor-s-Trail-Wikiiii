@@ -88,7 +88,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 6 lines added |
-| [v0.8.8](../versions/0.8.8.md) | attackChance removed; attackCost removed; attackDamage removed; blockChance removed; criticalMultiplier removed; criticalSkill removed (+7 more) |
+| [v0.8.8](../versions/0.8.8.md) | Attack chance: removed (was 120)<br>Attack cost: removed (was 5)<br>Attack damage: removed (was 7–11)<br>Block chance: removed (was 120)<br>Critical multiplier: removed (was 3)<br>Critical skill: removed (was 25)<br>Damage resistance: removed (was 5)<br>Loot table removed<br>On hit, condition on self: removed [Combo](../conditions/g03_combo.md) (magnitude 1, 1 rounds, 30% chance)<br>When hit, condition on self: removed [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 40% chance)<br>(+3 more) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -151,7 +151,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Critical multiplier | 3.0 |
 | Critical hit chance | 5% |
 
-**When hit:** On self: Concentration (magnitude 1, 2 rounds, 40% chance)
+**When hit:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

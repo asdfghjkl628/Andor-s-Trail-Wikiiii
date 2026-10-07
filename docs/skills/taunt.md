@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | 75% chance that an enemy who misses you loses 2 AP ([abbreviations](../glossary.md)) |
 | **Category** | Defense |
 | **Max level** | 1 |
 | **Obtained via** | Skill points |

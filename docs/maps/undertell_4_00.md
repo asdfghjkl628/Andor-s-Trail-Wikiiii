@@ -66,8 +66,8 @@ description: "Undertell 4 00 is an indoor location in Andor's Trail. NPCs: Kha'z
 |---|---|---|---|---|
 | [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 1 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 3 | – |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 295 | 10–12 | 1 | – |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 295 | 10–12 | 1 | – |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 295 | 10–12 | 1 | – |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 295 | 10–12 | 1 | – |
 | [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 305 | 11–13 | 3 | – |
 

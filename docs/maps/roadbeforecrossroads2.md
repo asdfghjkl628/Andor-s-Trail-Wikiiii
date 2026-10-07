@@ -1,5 +1,5 @@
 ---
-description: "Roadbeforecrossroads2 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Feygard soldier. Enemies: Forest serpent, Wild fox, Wolf, Young forest fox, Anklebiter. Exits to Roadbeforecrossroads1, Roadbeforecrossroads3, Fallhaven north-east, Woodsettlement0."
+description: "Roadbeforecrossroads2 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Feygard soldier. Enemies: Forest serpent, Wild fox, Wolf, Anklebiter, Young forest fox. Exits to Roadbeforecrossroads1, Roadbeforecrossroads3, Fallhaven north-east, Woodsettlement0."
 ---
 
 # Roadbeforecrossroads2
@@ -66,8 +66,8 @@ South: Nor City”">6</a><a class="pin pin-script" href="#key-7" style="left:81.
 | [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Wild fox](../monsters/wild_fox.md) | 25 | 4–5 | 8 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 6 | – |
-| [Young forest fox](../monsters/forestfox2.md) | 31 | 0–5 | 3 | shares spawn with Forest fox |
 | [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 2 | – |
+| [Young forest fox](../monsters/forestfox2.md) | 31 | 0–5 | 3 | shares spawn with Forest fox |
 | [Forest fox](../monsters/forestfox3.md) | 35 | 0–5 | 3 | shares spawn with Young forest fox |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -89,11 +89,11 @@ South: Nor City”">6</a><a class="pin pin-script" href="#key-7" style="left:81.
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

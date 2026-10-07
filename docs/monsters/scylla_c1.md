@@ -41,7 +41,7 @@ description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 | Critical multiplier | 1.1 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 180; On target: Scylla's bite (magnitude 5, 1 rounds, 100% chance)
+**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 5, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

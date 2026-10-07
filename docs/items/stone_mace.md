@@ -39,7 +39,7 @@ description: "Gornaud's stone mace is a extraordinary mace in Andor's Trail (Att
 
 | Stat | Value |
 |---|---|
-| On target | Stunned (magnitude 1, 3 rounds, 5% chance) |
+| On target | [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

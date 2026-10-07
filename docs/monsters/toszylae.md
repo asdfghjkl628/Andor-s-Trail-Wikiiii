@@ -45,7 +45,7 @@ description: "Toszylae is an NPC who can also be fought in Andor's Trail, found 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 23% |
 
-**On hit:** Heal HP: 6; On target: Minor weapon feebleness (magnitude 3, 3 rounds, 20% chance)
+**On hit:** Heal HP: 6; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -135,7 +135,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", …<br>Dialogue: 9 lines changed<br>· text: “(The lich must have infected you with something.)” → “[The lich must have infected you with something]”<br>· text: “(The lich looks at you with its burning eyes, and glances at the rema…” → “[The lich looks at you with its burning eyes, and glances at the rema…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(While chanting, it slowly lowers its hands forward, until pointing d…” → “[While chanting, it slowly lowers its hands forward, until pointing d…”<br>· text: “(The pain increases slightly, and you start to realize that something…” → “[The pain increases slightly, and you start to realize that something…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

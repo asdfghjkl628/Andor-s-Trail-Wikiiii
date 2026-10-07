@@ -41,7 +41,7 @@ description: "Slime is an enemy in Andor's Trail (animal) with 5 HP, worth 126 X
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Corrosive slime (magnitude 1, 2 rounds, 30% chance)
+**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 1, 2 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

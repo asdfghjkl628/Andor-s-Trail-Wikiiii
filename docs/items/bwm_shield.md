@@ -30,7 +30,7 @@ description: "Blackwater shield is a rare shield, wood (light) in Andor's Trail 
 |---|---|
 | Block chance | +14 |
 | Damage resistance | +3 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

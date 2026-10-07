@@ -52,8 +52,8 @@ description: "Lostmine3 is an indoor location in Andor's Trail. Enemies: Young a
 | [Ash spectre](../monsters/ashs3.md) | 97 | 5–15 | 1 | – |
 | [Young ash gargoyle](../monsters/ash1.md) | 109 | 3–10 | 17 | shares spawn with Ash gargoyle |
 | [Ash gargoyle](../monsters/ash2.md) | 116 | 3–10 | 17 | shares spawn with Young ash gargoyle |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 2 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 2 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 2 | shares spawn with Strong ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -63,9 +63,9 @@ description: "Lostmine3 is an indoor location in Andor's Trail. Enemies: Young a
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -69,7 +69,7 @@ description: "Duleian mountain cat is an enemy in Andor's Trail (animal) with 97
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | attackDamage: {"max": 24, "min": 7} → {"max": 19, "min": 7}; criticalMultiplier: 3.0 → 2.5 |
+| [v0.8.8](../versions/0.8.8.md) | Attack damage: 7–24 → 7–19<br>Critical multiplier: 3 → 2.5 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

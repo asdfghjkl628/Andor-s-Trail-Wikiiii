@@ -93,7 +93,7 @@ None: talk to [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](..
 | Version | Change |
 |---|---|
 | [v0.7.12](../versions/0.7.12.md) | Added<br>Dialogue: 7 lines added |
-| [v0.7.15](../versions/0.7.15.md) | stage 30 journal text changed |
+| [v0.7.15](../versions/0.7.15.md) | Stage 30 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

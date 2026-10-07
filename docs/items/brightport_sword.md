@@ -44,7 +44,7 @@ description: "Pyrite scimitar is a rare shortsword in Andor's Trail (Attack dama
 
 | Stat | Value |
 |---|---|
-| On self | Soft metal (magnitude 2, 1 rounds, 45% chance) |
+| On self | [Soft metal](../conditions/brightport_scimitar.md) (magnitude 2, 1 round, 45% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -53,7 +53,7 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** Heal HP: 180; On target: Scylla's bite (magnitude 1, 1 rounds, 100% chance)
+**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 1, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -152,7 +152,7 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** Heal HP: 180; On target: Scylla's bite (magnitude 1, 1 rounds, 100% chance)
+**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 1, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

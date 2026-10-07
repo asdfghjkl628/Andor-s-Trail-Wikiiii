@@ -41,7 +41,7 @@ description: "Bridge bogling is an enemy in Andor's Trail (humanoid) with 222 HP
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**When hit:** Heal HP: 6 to 12; Restore AP: 1 to 2; On target: Unsteady footing (magnitude 1, 5 rounds, 40% chance)
+**When hit:** Heal HP: 6 to 12; Restore AP: 1 to 2; On target: [Unsteady footing](../conditions/unsteady_footing.md) (magnitude 1, 5 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

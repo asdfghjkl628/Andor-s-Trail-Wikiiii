@@ -58,8 +58,8 @@ description: "Quarterstaff is a ordinary quarterstaff in Andor's Trail (Attack d
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 6, "increaseAt… → {"increaseAttackChance": 6, "increaseAt… |
-| [v0.7.17](../versions/0.7.17.md) | equipEffect: {"increaseAttackChance": 6, "increaseAt… → {"increaseAttackChance": 6, "increaseAt… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (121) |
+| [v0.7.17](../versions/0.7.17.md) | When equipped, block chance: −1 → +2 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

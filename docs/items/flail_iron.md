@@ -54,8 +54,8 @@ description: "Iron flail is a ordinary mace in Andor's Trail (Attack damage 6 to
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.8](../versions/0.7.8.md) | equipEffect: {"increaseAttackCost": 6, "increaseAtta… → {"increaseAttackChance": 8, "increaseAt… |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 8, "increaseAt… → {"increaseAttackChance": 8, "increaseAt… |
+| [v0.7.8](../versions/0.7.8.md) | When equipped, attack chance: added (+8) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (135) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

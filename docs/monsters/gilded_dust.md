@@ -45,7 +45,7 @@ description: "Gilded dust is an enemy in Andor's Trail (construct) with 235 HP, 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Gilded burden (magnitude 1, 1 rounds, 18% chance)
+**On hit:** On target: [Gilded burden](../conditions/gilded_burden.md) (magnitude 1, 1 round, 18% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -39,7 +39,7 @@ description: "Trollbone helmet is a extraordinary headwear, metal (heavy) in And
 
 | Stat | Value |
 |---|---|
-| On self | Troll regeneration (magnitude 1, 1 rounds, 20% chance) |
+| On self | [Troll regeneration](../conditions/brightport_trollregen.md) (magnitude 1, 1 round, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -56,7 +56,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Kazaul exposure (magnitude 1, 2 rounds, 25% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -162,7 +162,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Kazaul exposure (magnitude 1, 2 rounds, 25% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -268,7 +268,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Kazaul exposure (magnitude 1, 2 rounds, 25% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -372,7 +372,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Kazaul exposure (magnitude 1, 2 rounds, 25% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -478,7 +478,7 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Kazaul exposure (magnitude 1, 2 rounds, 25% chance)
+**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

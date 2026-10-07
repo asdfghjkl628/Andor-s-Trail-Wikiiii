@@ -45,9 +45,9 @@ description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 9
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Fear (magnitude 3, 3 rounds, 50% chance); Death Plague (magnitude 2, 3 rounds, 15% chance)
+**On hit:** On target: [Fear](../conditions/fear.md) (magnitude 3, 3 rounds, 50% chance); [Death Plague](../conditions/death_plague.md) (magnitude 2, 3 rounds, 15% chance)
 
-**When hit:** On self: Regeneration (magnitude 7, 1 rounds, 100% chance)
+**When hit:** On self: [Regeneration](../conditions/regen2.md) (magnitude 7, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

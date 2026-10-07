@@ -63,7 +63,7 @@ description: "Erumen forest lizard matriarch is an enemy in Andor's Trail (repti
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Erumem forest lizard matriarch → Erumen forest lizard matriarch |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Erumem forest lizard matriarch” → “Erumen forest lizard matriarch” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

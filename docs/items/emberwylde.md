@@ -31,19 +31,19 @@ description: "Emberwylde is a extraordinary armor (light) in Andor's Trail (Max 
 | Max HP | +4 |
 | Block chance | +11 |
 | Damage resistance | +2 |
-| Grants | Concentration (magnitude 1) |
+| Grants | [Concentration](../conditions/g03_concentration.md) (magnitude 1) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Cinder rage (magnitude 1, 3 rounds, 25% chance) |
+| On self | [Cinder rage](../conditions/cinder_rage.md) (magnitude 1, 3 rounds, 25% chance) |
 
 ### When hit
 
 | Stat | Value |
 |---|---|
-| On target | Ablaze (magnitude 2, 2 rounds, 8% chance) |
+| On target | [Ablaze](../conditions/fire.md) (magnitude 2, 2 rounds, 8% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

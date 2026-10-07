@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +10% XP from kills per level ([abbreviations](../glossary.md)) |
 | **Category** | Utility |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

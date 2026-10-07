@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 412 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred, Feygard patrol watch, Kriih. Enemies: Tiny rat, Cave rat, Tough cave rat, Lazy snail, Poisenous snail. Exits to Ratdom maze 402, Ratdom maze 422, Ratdom maze 421, Ratdom maze 401."
+description: "Ratdom maze 412 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred, Feygard patrol watch, Kriih. Enemies: Tiny rat, Tough cave rat, Cave rat, Lazy snail, Poisenous snail. Exits to Ratdom maze 402, Ratdom maze 422, Ratdom maze 421, Ratdom maze 401."
 ---
 
 # Ratdom maze 412
@@ -87,8 +87,8 @@ description: "Ratdom maze 412 is an indoor location in Andor's Trail, in Pub (ot
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 2 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 2 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 2 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 2 | shares spawn with Tiny rat, Tough cave rat |
 | [Lazy snail](../monsters/ratdom_m5a.md) | 30 | 5–5 | 4 | shares spawn with Poisenous snail |
 | [Poisenous snail](../monsters/ratdom_m5b.md) | 30 | 5–5 | 4 | shares spawn with Lazy snail |
 

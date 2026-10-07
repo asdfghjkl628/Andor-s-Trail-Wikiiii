@@ -12,7 +12,7 @@ description: "You shall pass is a quest in Andor's Trail, started by Myrelis (ga
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 160) |
 | **Started by** | [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bela](../monsters/bela.md#v-bela_2), [Benbyr](../monsters/benbyr.md), [Drunkard](../monsters/drunkard.md), [Myrelis](../monsters/mg_myrelis.md), [Shannal](../monsters/shannal.md) |
+| **NPCs involved** | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md), [Benbyr](../monsters/benbyr.md), [Drunkard](../monsters/drunkard.md), [Myrelis](../monsters/mg_myrelis.md), [Shannal](../monsters/shannal.md) |
 | **Locations** | [crossroads](../maps/crossroads.md), [fallhaven_nw](../maps/fallhaven_nw.md), [galmore_58](../maps/galmore_58.md), [mt_galmore_railhouse](../maps/mt_galmore_railhouse.md) |
 | **Total XP** | 7,204 |
 | **Related quests** | 4 |

@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | No weapon or shield: +20 AC, +2 dmg, +5 BC per level ([abbreviations](../glossary.md)) |
 | **Category** | Proficiency |
 | **Max level** | 3 |
 | **Obtained via** | First level from a quest, then skill points |

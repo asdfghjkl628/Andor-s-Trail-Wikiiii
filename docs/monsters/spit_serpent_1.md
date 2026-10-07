@@ -41,7 +41,7 @@ description: "Spitting serpent is an enemy in Andor's Trail (reptile) with 60 HP
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Blindness (magnitude 2, 3 rounds, 15% chance)
+**On hit:** On target: [Blindness](../conditions/blindness.md) (magnitude 2, 3 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

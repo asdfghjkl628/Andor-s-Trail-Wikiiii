@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +1 max AP per level ([abbreviations](../glossary.md)) |
 | **Category** | Offense |
 | **Max level** | 2 |
 | **Obtained via** | Skill points |

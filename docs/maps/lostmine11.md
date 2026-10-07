@@ -1,5 +1,5 @@
 ---
-description: "Lostmine11 is an indoor location in Andor's Trail. NPCs: Thukuzun. Enemies: Walking flame, Walking inferno, Ancient walking inferno. Exits to Lostmine10."
+description: "Lostmine11 is an indoor location in Andor's Trail. NPCs: Thukuzun. Enemies: Walking flame, Ancient walking inferno, Walking inferno. Exits to Lostmine10."
 ---
 
 # Lostmine11
@@ -52,8 +52,8 @@ description: "Lostmine11 is an indoor location in Andor's Trail. NPCs: Thukuzun.
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Walking flame](../monsters/fire7.md) | 131 | 0–10 | 10 | shares spawn with Walking inferno |
-| [Walking inferno](../monsters/fire8.md) | 135 | 0–10 | 10 | shares spawn with Walking flame |
 | [Ancient walking inferno](../monsters/fire9.md) | 135 | 0–10 | 3 | – |
+| [Walking inferno](../monsters/fire8.md) | 135 | 0–10 | 10 | shares spawn with Walking flame |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -67,9 +67,9 @@ description: "Lostmine11 is an indoor location in Andor's Trail. NPCs: Thukuzun.
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

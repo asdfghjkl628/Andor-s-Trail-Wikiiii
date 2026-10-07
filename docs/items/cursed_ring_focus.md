@@ -30,7 +30,7 @@ description: "Cursed ring of focus is a quest ring in Andor's Trail (Grants Curs
 
 | Stat | Value |
 |---|---|
-| Grants | Curse of the Undead (magnitude 1); Concentration (magnitude 1) |
+| Grants | [Curse of the Undead](../conditions/curse_undead.md) (magnitude 1); [Concentration](../conditions/g03_concentration.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -41,7 +41,7 @@ description: "Giant snake is an enemy in Andor's Trail (animal) with 250 HP, wor
 | Critical multiplier | 3.0 |
 | Critical hit chance | 23% |
 
-**On hit:** On target: Venom (magnitude 2, 4 rounds, 50% chance)
+**On hit:** On target: [Venom](../conditions/venom.md) (magnitude 2, 4 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -28,7 +28,7 @@ description: "Bandage is a quest healing item in Andor's Trail. How to get it: q
 | Stat | Value |
 |---|---|
 | Heal HP | 12 to 24 |
-| On self | Bleeding wound (magnitude -99, 100% chance) |
+| On self | removes [Bleeding wound](../conditions/bleeding_wound.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

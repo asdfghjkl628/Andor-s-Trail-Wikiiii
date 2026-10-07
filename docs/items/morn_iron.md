@@ -40,7 +40,7 @@ description: "Iron morningstar is a ordinary mace in Andor's Trail (Attack damag
 
 | Stat | Value |
 |---|---|
-| On target | Dazed (magnitude 1, 4 rounds, 5% chance) |
+| On target | [Dazed](../conditions/dazed.md) (magnitude 1, 4 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -59,7 +59,7 @@ description: "Iron morningstar is a ordinary mace in Andor's Trail (Attack damag
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 15, "increaseA… → {"increaseAttackChance": 15, "increaseA… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (130) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

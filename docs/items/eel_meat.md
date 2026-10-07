@@ -29,7 +29,7 @@ description: "Mountain eel meat is a ordinary edible animal part in Andor's Trai
 | Stat | Value |
 |---|---|
 | Heal HP | 1 to 4 |
-| On self | Sustenance (magnitude 7, 2 rounds, 60% chance); Food-poisoning (magnitude 2, 9 rounds, 30% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 7, 2 rounds, 60% chance); [Food-poisoning](../conditions/foodp.md) (magnitude 2, 9 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

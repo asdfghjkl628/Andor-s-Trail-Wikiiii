@@ -44,7 +44,7 @@ description: "Graveyard king is an NPC who can also be fought in Andor's Trail, 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 1 to 4; On target: Putrefaction (magnitude 3, 3 rounds, 50% chance)
+**On hit:** Heal HP: 1 to 4; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 3, 3 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

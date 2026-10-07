@@ -40,7 +40,7 @@ description: "Blood seeker is a extraordinary longsword in Andor's Trail (Attack
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 5, 5 rounds, 25% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 5 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

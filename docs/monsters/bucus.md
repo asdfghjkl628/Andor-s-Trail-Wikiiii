@@ -122,7 +122,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Who told you that? Argh. Ok so you found us. Now what?” → “Who told you that? Argh. OK so you found us. Now what?”<br>· text: “Hi again, welcome back to the .. Oh wait, I thought you were someone …” → “Hi again, welcome back to the ... Oh wait, I thought you were someone…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Who told you that? Argh. Ok so you found us. Now what?” → “Who told you that? Argh. OK so you found us. Now what?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

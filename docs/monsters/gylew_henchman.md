@@ -56,7 +56,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.8.11](../versions/0.8.11.md) | attackChance added (70); attackCost added (3); attackDamage added ({"max": 22, "min": 11}); blockChance added (60); droplistID added (gold100); maxHP added (200) (+1 more) |
+| [v0.8.11](../versions/0.8.11.md) | Attack chance: added (70)<br>Attack cost: added (3)<br>Attack damage: added (11–22)<br>Block chance: added (60)<br>Loot table added<br>Max HP: added (200)<br>Move cost: added (5) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

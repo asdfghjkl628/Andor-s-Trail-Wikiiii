@@ -187,7 +187,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines added, 10 lines changed<br>· text: “Mead? Oh.. no, I don't do that anymore. Who told you that?” → “Mead? Oh ... no, I don't do that anymore. Who told you that?”<br>· text: “I want you to go one step further and tell them that we will have les…” → “I want you to go one step further and tell them that we will have les…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Thank you again for the information. While I'm not sure how you may k…” → “Thank you again for the information. I'm not sure how you may know th…” |
-| [v0.7.15](../versions/0.7.15.md) | name: Warden → Guard captain |
+| [v0.7.15](../versions/0.7.15.md) | Renamed “Warden” → “Guard captain” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

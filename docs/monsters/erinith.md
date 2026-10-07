@@ -178,7 +178,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “I managed to throw the book in among the trees over there during the …” → “I managed to throw the book in among the trees over there during the …”<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Bonemeal potion? But.. but.. We are not allowed to use them since the…” → “Bonemeal potion? But ... but ... we are not allowed to use them since…”<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
 | [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I have heard that the potion makers these days have potions of major …” → “I have heard that the potion makers these days have major potions of …” |
 

@@ -39,7 +39,7 @@ description: "Shadowfang is a extraordinary shortsword in Andor's Trail (Attack 
 
 | Stat | Value |
 |---|---|
-| On self | Minor fatigue (magnitude 1, 3 rounds, 20% chance) |
+| On self | [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -60,8 +60,8 @@ description: "Shadowfang is a extraordinary shortsword in Andor's Trail (Attack 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsSource": [{"chance": 20, "c… → {"conditionsSource": [{"chance": "20", … |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 40, "increaseA… → {"increaseAttackChance": 40, "increaseA… |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on self: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 3 rounds, 20% chance) → (magnitude 1, 3 rounds, 20% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (96) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

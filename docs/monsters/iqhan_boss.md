@@ -44,7 +44,7 @@ description: "Iqhan chaos enslaver is an NPC who can also be fought in Andor's T
 | Critical multiplier | 2.0 |
 | Critical hit chance | 19% |
 
-**On hit:** On target: Chaotic grip (magnitude 7, 5 rounds, 50% chance); Chaotic curse (magnitude 3, 5 rounds, 50% chance)
+**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 7, 5 rounds, 50% chance); [Chaotic curse](../conditions/chaotic_curse.md) (magnitude 3, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -91,7 +91,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", …<br>Dialogue: 1 line changed<br>· text: “(The figure points its finger towards you, in what looks to be an ord…” → “[The figure points its finger towards you, in what looks to be an ord…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic curse](../conditions/chaotic_curse.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 7, 5 rounds, 50% chance) → (magnitude 7, 5 rounds, 50% chance)<br>Dialogue: 1 line changed<br>· text: “(The figure points its finger towards you, in what looks to be an ord…” → “[The figure points its finger towards you, in what looks to be an ord…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

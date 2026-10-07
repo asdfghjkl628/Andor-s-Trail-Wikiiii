@@ -1,5 +1,5 @@
 ---
-description: "Salamander gloves is a rare gloves, leather in Andor's Trail (Block chance +3, Damage resistance +1, Grants Searing burn (magnitude -99)). How to get it: quests and dialogue. Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead."
+description: "Salamander gloves is a rare gloves, leather in Andor's Trail (Block chance +3, Damage resistance +1, Grants immunity to Searing burn). How to get it: quests and dialogue. Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead."
 ---
 
 # ![](../assets/icons/items/items_omi2_5.png){ .sprite } Salamander gloves
@@ -32,7 +32,7 @@ description: "Salamander gloves is a rare gloves, leather in Andor's Trail (Bloc
 |---|---|
 | Block chance | +3 |
 | Damage resistance | +1 |
-| Grants | Searing burn (magnitude -99) |
+| Grants | immunity to [Searing burn](../conditions/brightportflame.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

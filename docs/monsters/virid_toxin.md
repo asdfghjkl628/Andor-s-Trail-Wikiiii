@@ -41,7 +41,7 @@ description: "ViridToxin dartmaw is an enemy in Andor's Trail (reptile) with 93 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 8% |
 
-**On hit:** On target: Corrosive slime (magnitude 4, 5 rounds, 60% chance)
+**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 4, 5 rounds, 60% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

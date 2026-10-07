@@ -137,7 +137,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” → “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…”<br>· text: “They live in one of the cabins on the southern shore. *Ingus points t…” → “They live in one of the cabins on the southern shore. [Ingus points t…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” → “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…”<br>· text: “Oh .. nothing .. everything. I don't know. No one really puts much we…” → “Oh ... nothing ... everything. I don't know. No one really puts much …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

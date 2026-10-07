@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +30% chance of gold drops, +50% gold per drop, per level ([abbreviations](../glossary.md)) |
 | **Category** | Utility |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

@@ -48,7 +48,7 @@ description: "Superior hard leather armor is a ordinary armor, leather in Andor'
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.8](../versions/0.7.8.md) | name: Superior hard leather armour → Superior hard leather armor |
+| [v0.7.8](../versions/0.7.8.md) | Renamed “Superior hard leather armour” → “Superior hard leather armor” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

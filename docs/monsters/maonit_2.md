@@ -71,8 +71,8 @@ description: "Giant maonit troll is an enemy in Andor's Trail (giant) with 270 H
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Giant Maonit troll → Giant maonit troll |
-| [v0.7.4](../versions/0.7.4.md) | attackCost: 5 → 4 |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Giant Maonit troll” → “Giant maonit troll” |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 5 → 4 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Bearded Citizen → Bearded citizen |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Bearded Citizen” → “Bearded citizen” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

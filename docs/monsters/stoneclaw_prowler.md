@@ -41,7 +41,7 @@ description: "Stoneclaw prowler is an enemy in Andor's Trail (animal) with 230 H
 | Critical multiplier | 1.25 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Bleeding wound (magnitude 3, 4 rounds, 30% chance)
+**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 4 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

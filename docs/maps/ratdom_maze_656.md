@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 656 is an indoor location in Andor's Trail, in Entry (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Virulent cave snake, Pernicious cave snake. Exits to Ratdom maze 546, Ratdom maze 666, Ratdom maze 665, Ratdom maze 645."
+description: "Ratdom maze 656 is an indoor location in Andor's Trail, in Entry (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Virulent cave snake, Pernicious cave snake. Exits to Ratdom maze 546, Ratdom maze 666, Ratdom maze 665, Ratdom maze 645."
 ---
 
 # Ratdom maze 656
@@ -78,8 +78,8 @@ description: "Ratdom maze 656 is an indoor location in Andor's Trail, in Entry (
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Virulent cave snake](../monsters/ratdom_m4b.md) | 30 | 5–5 | 2 | shares spawn with Pernicious cave snake |
 | [Pernicious cave snake](../monsters/ratdom_m4a.md) | 30 | 5–5 | 2 | shares spawn with Virulent cave snake |
 

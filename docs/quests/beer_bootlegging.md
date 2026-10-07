@@ -131,7 +131,7 @@ Start with [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foa
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 13 lines added |
-| [v0.8.3](../versions/0.8.3.md) | stage 20 journal text changed; stage 80 journal text changed; stage 90 journal text changed; stage 100 journal text changed; stage 110 journal text changed; stage 120 journal text changed |
+| [v0.8.3](../versions/0.8.3.md) | Stage 20 journal text changed<br>Stage 80 journal text changed<br>Stage 90 journal text changed<br>Stage 100 journal text changed<br>Stage 110 journal text changed<br>Stage 120 journal text changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Two-handed weapon: +50% of its dmg, +20% of its AC ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 1 |
 | **Obtained via** | Skill points |

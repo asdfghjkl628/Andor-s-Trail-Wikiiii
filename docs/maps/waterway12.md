@@ -1,5 +1,5 @@
 ---
-description: "Waterway12 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Izthiel, Erumen lizard, Spotted erumen lizard, Young erumen lizard, Strong izthiel. Exits to Waterway13, Waterway7, Brimhaven6."
+description: "Waterway12 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Young erumen lizard, Spotted erumen lizard, Erumen lizard, Izthiel, Strong izthiel. Exits to Waterway13, Waterway7, Brimhaven6."
 ---
 
 # Waterway12
@@ -52,10 +52,10 @@ description: "Waterway12 is an outdoor location in Andor's Trail, near Brimhaven
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 2 | shares spawn with Strong erumen lizard |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 4 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 4 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 4 | shares spawn with Young erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 2 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 2 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 2 | shares spawn with Erumen lizard |
 
@@ -77,12 +77,12 @@ description: "Waterway12 is an outdoor location in Andor's Trail, near Brimhaven
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

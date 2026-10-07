@@ -1,5 +1,5 @@
 ---
-description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Andor, Demon, Erupting pyreling, Pyreling, Embergeist. Exits to Galmore 42, Galmore 53, Galmore 62."
+description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Andor, Demon, Erupting pyreling, Embergeist, Pyreling. Exits to Galmore 42, Galmore 53, Galmore 62."
 ---
 
 # Galmore 52
@@ -55,8 +55,8 @@ description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmo
 | [Andor](../monsters/dds_andor.md#v-mg2_andor) | 0 | 0–0 | 1 | appears later, during a quest |
 | [Demon](../monsters/mg2_demon.md) | 180 | 3–20 | 3 | appears later, during a quest |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 246 | 19–26 | 3 | – |
-| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 8 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 1 | – |
+| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 8 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -75,7 +75,7 @@ description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmo
 | Version | Change |
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added |
-| [v0.8.16.1](../versions/0.8.16.1.md) | map layout or objects changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

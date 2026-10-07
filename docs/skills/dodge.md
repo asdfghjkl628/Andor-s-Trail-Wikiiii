@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +9 BC per level ([abbreviations](../glossary.md)) |
 | **Category** | Defense |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

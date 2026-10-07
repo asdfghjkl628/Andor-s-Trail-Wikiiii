@@ -43,8 +43,8 @@ description: "Gleaming claymore of ruin is a rare two-handed sword in Andor's Tr
 
 | Stat | Value |
 |---|---|
-| On self | Strength (magnitude 1, 2 rounds, 15% chance) |
-| On target | Dazed (magnitude 1, 3 rounds, 30% chance) |
+| On self | [Strength](../conditions/str.md) (magnitude 1, 2 rounds, 15% chance) |
+| On target | [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -65,8 +65,8 @@ description: "Gleaming claymore of ruin is a rare two-handed sword in Andor's Tr
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | equipEffect: {"increaseAttackChance": 35, "increaseA… → {"increaseAttackChance": 35, "increaseA…; hitEffect: {"conditionsSource": [{"chance": 15, "c… → {"conditionsSource": [{"chance": "15", … |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 35, "increaseA… → {"increaseAttackChance": 35, "increaseA… |
+| [v0.7.2](../versions/0.7.2.md) | When equipped, critical multiplier: 2.5 → 2.5<br>On hit, condition on self: [Strength](../conditions/str.md) (magnitude 1, 2 rounds, 15% chance) → (magnitude 1, 2 rounds, 15% chance)<br>On hit, condition on target: [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 30% chance) → (magnitude 1, 3 rounds, 30% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (122) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

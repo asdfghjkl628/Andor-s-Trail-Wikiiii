@@ -435,7 +435,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...”<br>· text: “I.. I don't know what to say. Thank you, that's the least I can say.” → “I ... I don't know what to say. Thank you, that's the least I can say.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...”<br>· text: “Hm, yes, and what of it?” → “Hmm, yes, and what of it?” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I find this very hard to believe. For to have killed Algangror would …” → “I find this very hard to believe. For you to have killed Algangror wo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

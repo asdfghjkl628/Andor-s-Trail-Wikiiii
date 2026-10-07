@@ -41,7 +41,7 @@ description: "Great fungi is an enemy in Andor's Trail (animal) with 175 HP, wor
 | Critical multiplier | 2.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On target: Spore poisoning (magnitude 2, 5 rounds, 20% chance)
+**On hit:** On target: [Spore poisoning](../conditions/spore_poison.md) (magnitude 2, 5 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -48,7 +48,7 @@ description: "Shiny Foggerlump is an NPC who can also be fought in Andor's Trail
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** Heal HP: 2 to 5; On target: Mind fog (magnitude 2, 3 rounds, 50% chance)
+**On hit:** Heal HP: 2 to 5; On target: [Mind fog](../conditions/mind_fog.md) (magnitude 2, 3 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

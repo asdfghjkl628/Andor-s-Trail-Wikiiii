@@ -41,7 +41,7 @@ description: "Venomous irdegh is an enemy in Andor's Trail (reptile) with 120 HP
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Irdegh poison (magnitude 3, 4 rounds, 50% chance)
+**On hit:** On target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 3, 4 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -68,7 +68,7 @@ description: "Venomous irdegh is an enemy in Andor's Trail (reptile) with 120 HP
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", …; name: Venomous Irdegh → Venomous irdegh |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 3, 4 rounds, 50% chance) → (magnitude 3, 4 rounds, 50% chance)<br>Renamed “Venomous Irdegh” → “Venomous irdegh” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

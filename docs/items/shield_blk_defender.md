@@ -36,7 +36,7 @@ description: "Black defender is a extraordinary shield, metal (light) in Andor's
 
 | Stat | Value |
 |---|---|
-| On self | Fortified defense (magnitude 1, 5 rounds, 15% chance) |
+| On self | [Fortified defense](../conditions/def.md) (magnitude 1, 5 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

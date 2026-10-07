@@ -43,13 +43,13 @@ description: "Heartsteel dagger is a legendary dagger in Andor's Trail (Attack d
 
 | Stat | Value |
 |---|---|
-| On target | Heartstone poisoning (magnitude 4, 2 rounds, 10% chance); Vital piercing (magnitude 4, 3 rounds, 5% chance) |
+| On target | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 4, 2 rounds, 10% chance); [Vital piercing](../conditions/vital_piercing.md) (magnitude 4, 3 rounds, 5% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Heartstone poisoning (magnitude 3, 2 rounds, 5% chance) |
+| On self | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 3, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

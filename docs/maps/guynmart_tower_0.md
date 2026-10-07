@@ -56,8 +56,8 @@ description: "Guynmart tower 0 is an indoor location in Andor's Trail, in Guynma
 |---|---|---|---|---|
 | [Nightmare](../monsters/guynmart_mare.md#v-guynmart_mare0) | 0 | 0–0 | 1 | – |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
-| [Nightmare](../monsters/guynmart_mare.md) | 120 | 8–25 | 2 | appears later, during a quest |
 | [Torturer](../monsters/guynmart_tort1.md) | 120 | 5–20 | 1 | appears later, during a quest |
+| [Nightmare](../monsters/guynmart_mare.md) | 120 | 8–25 | 2 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

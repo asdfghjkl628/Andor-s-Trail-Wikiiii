@@ -137,7 +137,7 @@ None: talk to walking into a blocked passage on [waytogalmore1](../maps/waytogal
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 11 lines added |
-| [v0.8.14](../versions/0.8.14.md) | stages added: 5, 80; stage 170 journal text changed<br>Dialogue: 2 lines added |
+| [v0.8.14](../versions/0.8.14.md) | Stages added: 5, 80<br>Stage 170 journal text changed<br>Dialogue: 2 lines added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

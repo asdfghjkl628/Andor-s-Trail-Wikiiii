@@ -41,7 +41,7 @@ description: "Mulgrith is an enemy in Andor's Trail (humanoid) with 315 HP, wort
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**When hit:** On self: Increased defense (magnitude 1, 1 rounds, 50% chance); Regeneration (magnitude 10, 1 rounds, 100% chance)
+**When hit:** On self: [Increased defense](../conditions/increased_defense.md) (magnitude 1, 1 round, 50% chance); [Regeneration](../conditions/regen2.md) (magnitude 10, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

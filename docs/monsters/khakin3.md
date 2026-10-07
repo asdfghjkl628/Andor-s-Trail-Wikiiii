@@ -65,7 +65,7 @@ description: "Tough khakin beast is an enemy in Andor's Trail (reptile) with 49 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Tough Khakin beast → Tough khakin beast |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Tough Khakin beast” → “Tough khakin beast” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

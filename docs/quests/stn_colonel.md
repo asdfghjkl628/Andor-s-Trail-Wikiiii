@@ -226,8 +226,8 @@ description: "Colonel Lutarc is a quest in Andor's Trail, started by Colonel Lut
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 23 lines added |
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “[Ring taken] Thank you, stupid boy.” → “[Ring taken] Thank you, stupid kid.” |
-| [v0.7.10](../versions/0.7.10.md) | stages added: 171; stage 170 journal text changed; stage 170 XP 500 → 0 |
-| [v0.8.15](../versions/0.8.15.md) | stage 170 XP 0 → 1; stage 171 journal text changed; stage 171 XP 500 → 1000; stage 172 journal text changed; stage 172 XP 1000 → 500 |
+| [v0.7.10](../versions/0.7.10.md) | Stages added: 171<br>Stage 170 journal text changed<br>Stage 170 XP 500 → 0 |
+| [v0.8.15](../versions/0.8.15.md) | Stage 170 XP 0 → 1<br>Stage 171 journal text changed<br>Stage 171 XP 500 → 1000<br>Stage 172 journal text changed<br>Stage 172 XP 1000 → 500 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

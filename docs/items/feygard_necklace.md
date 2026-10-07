@@ -32,7 +32,7 @@ description: "Necklace of Feygard's Glory is a extraordinary necklace in Andor's
 | Attack damage | 1 to 3 |
 | Attack chance | +8 |
 | Block chance | +11 |
-| Grants | Feygard Loyalist (magnitude 1) |
+| Grants | [Feygard Loyalist](../conditions/loyalist.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -51,7 +51,7 @@ description: "Necklace of Feygard's Glory is a extraordinary necklace in Andor's
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.13](../versions/0.8.13.md) | baseMarketCost added (3118); equipEffect: {"addedConditions": [{"condition": "loy… → {"addedConditions": [{"condition": "loy…; hasManualPrice added (1) |
+| [v0.8.13](../versions/0.8.13.md) | Base value (gold): added (3118)<br>When equipped, attack chance: +11 → +8<br>When equipped, block chance: +15 → +11<br>Price now set manually instead of calculated from its statistics |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -50,7 +50,7 @@ description: "Garnet stone is a rare gem in Andor's Trail. How to get it: monste
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | description: A precious stone loved by many → A precious stone loved by many. |
+| [v0.8.18](../versions/0.8.18.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

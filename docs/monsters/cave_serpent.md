@@ -41,7 +41,7 @@ description: "Cave serpent is an enemy in Andor's Trail (reptile) with 24 HP, wo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 6% |
 
-**On hit:** On target: Venom (magnitude 1, 2 rounds, 10% chance)
+**On hit:** On target: [Venom](../conditions/venom.md) (magnitude 1, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -68,7 +68,7 @@ description: "Cave serpent is an enemy in Andor's Trail (reptile) with 24 HP, wo
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added |
-| [v0.7.13](../versions/0.7.13.md) | droplistID added (cave_serpent) |
+| [v0.7.13](../versions/0.7.13.md) | Loot table added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

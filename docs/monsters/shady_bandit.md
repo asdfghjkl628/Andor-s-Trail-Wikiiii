@@ -90,7 +90,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Shady Bandit → Shady bandit<br>Dialogue: 1 line changed |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Shady Bandit” → “Shady bandit”<br>Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

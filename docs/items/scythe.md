@@ -55,9 +55,9 @@ description: "Scythe is a ordinary pole weapon in Andor's Trail (Attack damage 2
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.8](../versions/0.7.8.md) | category: scythe → pole |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 15, "increaseA… → {"increaseAttackChance": 15, "increaseA… |
-| [v0.7.13](../versions/0.7.13.md) | equipEffect: {"increaseAttackChance": 15, "increaseA… → {"increaseAttackChance": 11, "increaseA… |
+| [v0.7.8](../versions/0.7.8.md) | Category: scythe → pole |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (130) |
+| [v0.7.13](../versions/0.7.13.md) | When equipped, attack chance: +15 → +11<br>When equipped, attack damage: 2–9 → 2–6 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

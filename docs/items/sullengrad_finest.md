@@ -29,7 +29,7 @@ description: "Sullengard's Finest is a ordinary drink in Andor's Trail. How to g
 | Stat | Value |
 |---|---|
 | Heal HP | 10 to 12 |
-| On self | Sustenance (magnitude 1, 5 rounds, 100% chance); Intoxicated (magnitude 1, 2 rounds, 15% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 1, 5 rounds); [Intoxicated](../conditions/intoxicated.md) (magnitude 1, 2 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -54,7 +54,7 @@ description: "Sullengard's Finest is a ordinary drink in Andor's Trail. How to g
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | description: A three time winner of the 'Best beer i… → A three time winner of the 'Best beer i… |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

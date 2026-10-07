@@ -29,7 +29,7 @@ description: "Tonic of blood is a ordinary potion in Andor's Trail. How to get i
 | Stat | Value |
 |---|---|
 | Heal HP | 10 to 15 |
-| On self | Regeneration (magnitude 4, 5 rounds, 60% chance); Blood poisoning (magnitude 3, 8 rounds, 30% chance); Increased defense (magnitude 2, 3 rounds, 15% chance) |
+| On self | [Regeneration](../conditions/regen2.md) (magnitude 4, 5 rounds, 60% chance); [Blood poisoning](../conditions/poison_blood.md) (magnitude 3, 8 rounds, 30% chance); [Increased defense](../conditions/increased_defense.md) (magnitude 2, 3 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -85,7 +85,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.8.3](../versions/0.8.3.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | useEffect: {"conditionsSource": [{"chance": "60", … → {"conditionsSource": [{"chance": "60", … |
+| [v0.8.4](../versions/0.8.4.md) | When used, condition on self: [Blood poisoning](../conditions/poison_blood.md) (magnitude 4, 8 rounds, 40% chance) → (magnitude 3, 8 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

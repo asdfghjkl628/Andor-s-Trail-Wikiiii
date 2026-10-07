@@ -1,5 +1,5 @@
 ---
-description: "Laerothisland1 is an outdoor location in Andor's Trail, near Lake Laeroth (other). Enemies: Fish, Pond fish, Young spitting serpent, Spitting serpent, Aggressive spitting serpent. Exits to Laerothisland0, Laerothisland2."
+description: "Laerothisland1 is an outdoor location in Andor's Trail, near Lake Laeroth (other). Enemies: Pond fish, Fish, Young spitting serpent, Spitting serpent, Aggressive spitting serpent. Exits to Laerothisland0, Laerothisland2."
 ---
 
 # Laerothisland1
@@ -49,8 +49,8 @@ description: "Laerothisland1 is an outdoor location in Andor's Trail, near Lake 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 3 | – |
 | [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 10 | – |
+| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 3 | – |
 | [Young spitting serpent](../monsters/spit_serpent_2.md) | 50 | 1–7 | 8 | shares spawn with Aggressive spitting serpent, Spitting serpent |
 | [Spitting serpent](../monsters/spit_serpent_1.md) | 60 | 2–7 | 8 | shares spawn with Aggressive spitting serpent, Young spitting serpent |
 | [Aggressive spitting serpent](../monsters/spit_serpent_3.md) | 65 | 3–9 | 8 | shares spawn with Spitting serpent, Young spitting serpent |
@@ -72,8 +72,8 @@ description: "Laerothisland1 is an outdoor location in Andor's Trail, near Lake 
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

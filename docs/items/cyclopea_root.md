@@ -28,7 +28,7 @@ description: "Cyclopea root is a rare edible animal part in Andor's Trail. How t
 
 | Stat | Value |
 |---|---|
-| On self | Strength (magnitude 4, 5 rounds, 100% chance) |
+| On self | [Strength](../conditions/str.md) (magnitude 4, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

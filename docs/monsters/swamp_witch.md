@@ -57,7 +57,7 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 | Critical multiplier | 5.0 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 2 to 20; On target: Chaotic curse (magnitude 1, 2 rounds, 50% chance); Confusion (magnitude 1, 2 rounds, 50% chance); Internal bleeding (magnitude 1, 3 rounds, 10% chance); Bleeding wound (magnitude 2, 10 rounds, 50% chance)
+**On hit:** Heal HP: 2 to 20; On target: [Chaotic curse](../conditions/chaotic_curse.md) (magnitude 1, 2 rounds, 50% chance); [Confusion](../conditions/confusion.md) (magnitude 1, 2 rounds, 50% chance); [Internal bleeding](../conditions/crit1.md) (magnitude 1, 3 rounds, 10% chance); [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 10 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

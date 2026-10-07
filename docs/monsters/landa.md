@@ -128,7 +128,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Or was it you? No, it looked like you, and I have a good memory! *bit…” → “Or was it you? No, it looked like you, and I have a good memory! [Bit…”<br>· text: “(Landa gives you a terrified look)” → “[Landa gives you a terrified look]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(Landa gives you a terrified look)” → “[Landa gives you a terrified look]”<br>· text: “Or was it you? No, it looked like you, and I have a good memory! *bit…” → “Or was it you? No, it looked like you, and I have a good memory! [Bit…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Also, isn't it strange how Buceth has not gotten ill, while all the o…” → “Also, isn't it strange how Buceth has not gotten ill, while all the o…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

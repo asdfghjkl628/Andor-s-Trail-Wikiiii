@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | +3 AP per kill per level ([abbreviations](../glossary.md)) |
 | **Category** | Offense |
 | **Max level** | Unlimited |
 | **Obtained via** | Skill points |

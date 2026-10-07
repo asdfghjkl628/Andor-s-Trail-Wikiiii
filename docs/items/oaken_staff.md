@@ -42,13 +42,13 @@ description: "Oaken staff is a rare quarterstaff in Andor's Trail (Attack damage
 
 | Stat | Value |
 |---|---|
-| On target | Baited strike (magnitude 3, 2 rounds, 20% chance) |
+| On target | [Baited strike](../conditions/baited_strike.md) (magnitude 3, 2 rounds, 20% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Splinter (magnitude 1, 3 rounds, 13% chance) |
+| On self | [Splinter](../conditions/splinter.md) (magnitude 1, 3 rounds, 13% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

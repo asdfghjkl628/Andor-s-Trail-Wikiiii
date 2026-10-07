@@ -12,7 +12,7 @@ description: "Sobby's Trail is a quest in Andor's Trail, started by Tobby (guynm
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 40) |
 | **Started by** | [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) |
-| **NPCs involved** | [Tobby](../monsters/tobby.md#v-tobby3), [Tobby](../monsters/tobby.md#v-tobby5), [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby.md#v-tobby6), [Tobby](../monsters/tobby.md#v-tobby4b), [Tobby](../monsters/tobby.md#v-tobby2) +1 |
+| **NPCs involved** | [Tobby](../monsters/tobby.md#v-tobby4b), [Tobby](../monsters/tobby.md#v-tobby2), [Tobby](../monsters/tobby.md#v-tobby4a), [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby.md#v-tobby6), [Tobby](../monsters/tobby.md#v-tobby3) +1 |
 | **Locations** | [guynmart_wood_17](../maps/guynmart_wood_17.md), [guynmart_wood_17b](../maps/guynmart_wood_17b.md), [guynmart_wood_18](../maps/guynmart_wood_18.md), [guynmart_wood_19](../maps/guynmart_wood_19.md) |
 | **Total XP** | 1,560 |
 

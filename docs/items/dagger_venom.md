@@ -39,7 +39,7 @@ description: "Venomous Dagger is a extraordinary dagger in Andor's Trail (Attack
 
 | Stat | Value |
 |---|---|
-| On target | Weak Poison (magnitude 1, 2 rounds, 35% chance) |
+| On target | [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 2 rounds, 35% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -60,8 +60,8 @@ description: "Venomous Dagger is a extraordinary dagger in Andor's Trail (Attack
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change |
-| [v0.7.15](../versions/0.7.15.md) | hitEffect added ({"conditionsTarget": [{"chance": "35", …) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+| [v0.7.15](../versions/0.7.15.md) | On hit, condition on target: added [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 2 rounds, 35% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

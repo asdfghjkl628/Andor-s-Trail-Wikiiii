@@ -41,7 +41,7 @@ description: "Forest hunter is an enemy in Andor's Trail (insect) with 90 HP, wo
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Insect contagion (magnitude 4, 5 rounds, 50% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -53,9 +53,9 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 | Critical multiplier | 2.5 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 2 to 4; On target: Bleeding wound (magnitude 5, 2 rounds, 25% chance)
+**On hit:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 25% chance)
 
-**When hit:** On target: Nausea (magnitude 5, 2 rounds, 25% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -184,9 +184,9 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 | Critical multiplier | 2.5 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 2 to 4; On target: Bleeding wound (magnitude 5, 2 rounds, 25% chance)
+**On hit:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 25% chance)
 
-**When hit:** On target: Nausea (magnitude 5, 2 rounds, 25% chance)
+**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -211,7 +211,7 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.5](../versions/0.8.5.md) | maxHP: 104 → 364 |
+| [v0.8.5](../versions/0.8.5.md) | Max HP: 104 → 364 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -94,7 +94,7 @@ None: talk to [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/f
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 7 lines added |
-| [v0.7.15](../versions/0.7.15.md) | stage 10 journal text changed; stage 20 journal text changed<br>Dialogue: 2 lines changed<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” |
+| [v0.7.15](../versions/0.7.15.md) | Stage 10 journal text changed<br>Stage 20 journal text changed<br>Dialogue: 2 lines changed<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed<br>· text: “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” → “OK, maybe you can be of use. Talk to the guard captain. Maybe you can…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

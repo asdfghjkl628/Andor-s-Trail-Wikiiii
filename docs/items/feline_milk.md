@@ -29,7 +29,7 @@ description: "Feline milk is a ordinary edible animal part in Andor's Trail. How
 | Stat | Value |
 |---|---|
 | Heal HP | 2 to 5 |
-| On self | Sustenance (magnitude 2, 3 rounds, 90% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 3 rounds, 90% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

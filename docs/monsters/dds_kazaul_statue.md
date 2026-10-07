@@ -45,7 +45,7 @@ description: "Kazaul statue is an enemy in Andor's Trail (demon) with 478 HP, wo
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**When hit:** On self: Petristill (magnitude 1, 20 rounds, 100% chance)
+**When hit:** On self: [Petristill](../conditions/petristill.md) (magnitude 1, 20 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -1,5 +1,5 @@
 ---
-description: "Waterway7 is an outdoor location in Andor's Trail. Enemies: Izthiel, Young erumen lizard, Spotted erumen lizard, Strong izthiel. Exits to Waterway12, Waterway6."
+description: "Waterway7 is an outdoor location in Andor's Trail. Enemies: Young erumen lizard, Spotted erumen lizard, Izthiel, Strong izthiel. Exits to Waterway12, Waterway6."
 ---
 
 # Waterway7
@@ -49,9 +49,9 @@ description: "Waterway7 is an outdoor location in Andor's Trail. Enemies: Izthie
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 7 | shares spawn with Spotted erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 7 | shares spawn with Young erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -71,12 +71,12 @@ description: "Waterway7 is an outdoor location in Andor's Trail. Enemies: Izthie
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.7.15](../versions/0.7.15.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.7.15](../versions/0.7.15.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

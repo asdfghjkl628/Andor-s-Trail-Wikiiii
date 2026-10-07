@@ -41,7 +41,7 @@ description: "Verdant cyclopea creeper is an enemy in Andor's Trail (reptile) wi
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Rootsnare (magnitude 1, 2 rounds, 15% chance)
+**On hit:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 2 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

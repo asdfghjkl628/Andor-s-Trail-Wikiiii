@@ -15,7 +15,7 @@ description: "brv_nondisplay2 is a hidden quest in Andor's Trail, started by ste
 | **In journal** | No (hidden flag) |
 | **Stages** | 9 |
 | **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil7), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4) +6 |
+| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil5), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2) +6 |
 | **Locations** | [brimhaven_general1](../maps/brimhaven_general1.md), [brimhaven_school](../maps/brimhaven_school.md) |
 | **Related quests** | 2 |
 
@@ -142,7 +142,7 @@ description: "brv_nondisplay2 is a hidden quest in Andor's Trail, started by ste
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stages added: 60<br>Dialogue: 1 line added |
+| [v0.7.12](../versions/0.7.12.md) | Stages added: 60<br>Dialogue: 1 line added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

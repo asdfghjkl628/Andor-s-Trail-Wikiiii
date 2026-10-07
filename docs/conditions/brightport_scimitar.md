@@ -1,0 +1,104 @@
+---
+description: "Soft metal is a harmful physical condition in Andor's Trail: attack chance +10, block chance −15. Caused by: items."
+---
+
+# ![](../assets/icons/conditions/actorconditions_1_43.png){ .sprite } Soft metal
+
+*Harmful physical condition.*
+
+<div class="infobox" markdown>
+
+<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_43.png){ .sprite }</p>
+
+| | |
+|---|---|
+| **Type** | Harmful |
+| **Category** | [Physical](index.md#categories-and-resistance) |
+| **Affects** | You |
+| **Stacking** | Yes |
+| **Resisted by** | [Enduring Body](../skills/resistancePhysical.md) |
+| **Condition ID** | `brightport_scimitar` |
+
+</div>
+
+> The material of your weapon bends easily, weakening your defense for a short time, but its flexibility allows for strikes targeting subtle gaps in your enemy's guard, before it reforms back to its original shape by some unknown means.
+
+## Effects
+
+| Effect | Per magnitude level |
+|---|---|
+| Attack chance | +10 |
+| Block chance | −15 |
+
+All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+
+**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+
+
+<p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
+
+## How you get it
+
+**Items**
+
+| Item | When | Magnitude | Duration | Chance |
+|---|---|---|---|---|
+| [Pyrite scimitar](../items/brightport_sword.md) | When you hit with it | 2 | 1 round | 45% |
+
+
+<p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
+
+## Removal and protection
+
+- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Strategy**: how and when to use it · **Observations**: what players notice in-game · **Trivia**: real-world facts, references, development history</small>
+
+### Strategy
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/conditions?filename=brightport_scimitar.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A).*
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/conditions?filename=brightport_scimitar.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/conditions?filename=brightport_scimitar.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A).*
+
+
+??? info "Technical information"
+
+    | | |
+    |---|---|
+    | Condition ID | `brightport_scimitar` |
+    | Category (internal) | `physical` |
+    | Icon | `actorconditions_1:43` |
+    | Defined in | `res/raw/actorconditions_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_scimitar",
+     "iconID": "actorconditions_1:43",
+     "name": "Soft metal",
+     "description": "The material of your weapon bends easily, weakening your defense for a short time, but its flexibility allows for strikes targeting subtle gaps in your enemy's guard, before it reforms back to its original shape by some unknown means.",
+     "category": "physical",
+     "isStacking": 1,
+     "abilityEffect": {
+      "increaseAttackChance": 10,
+      "increaseBlockChance": -15,
+      "increaseDamageResistance": 0
+     }
+    }
+    ```
+
+
+<small>Data from v0.8.18</small>

@@ -65,7 +65,7 @@ description: "Assistant torturer is an enemy in Andor's Trail (humanoid) with 12
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.13](../versions/0.8.13.md) | name: Assistent torturer → Assistant torturer |
+| [v0.8.13](../versions/0.8.13.md) | Renamed “Assistent torturer” → “Assistant torturer” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

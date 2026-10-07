@@ -28,7 +28,7 @@ description: "Luthor's Ring is a quest ring in Andor's Trail (Grants Life drain 
 
 | Stat | Value |
 |---|---|
-| Grants | Life drain (magnitude 5) |
+| Grants | [Life drain](../conditions/life_drain.md) (magnitude 5) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

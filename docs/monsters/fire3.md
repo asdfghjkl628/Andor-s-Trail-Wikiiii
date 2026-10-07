@@ -45,7 +45,7 @@ description: "Lava spawn is an enemy in Andor's Trail (construct) with 102 HP, w
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Ablaze (magnitude 1, 4 rounds, 10% chance)
+**On hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 1, 4 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -71,7 +71,7 @@ description: "Lava spawn is an enemy in Andor's Trail (construct) with 102 HP, w
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 9} → {"max": 9, "min": 0}; hitEffect: {"conditionsTarget": [{"chance": 10, "c… → {"conditionsTarget": [{"chance": "10", …; name: Lava Spawn → Lava spawn |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–9 → 0–9<br>On hit, condition on target: [Ablaze](../conditions/fire.md) (magnitude 1, 4 rounds, 10% chance) → (magnitude 1, 4 rounds, 10% chance)<br>Renamed “Lava Spawn” → “Lava spawn” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

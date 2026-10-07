@@ -41,7 +41,7 @@ description: "Grass spider is an enemy in Andor's Trail (insect) with 79 HP, wor
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Insect contagion (magnitude 4, 6 rounds, 40% chance); Spider bite (magnitude 1, 4 rounds, 15% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 6 rounds, 40% chance); [Spider bite](../conditions/spider_bite.md) (magnitude 1, 4 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

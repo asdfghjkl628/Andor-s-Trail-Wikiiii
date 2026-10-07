@@ -45,7 +45,7 @@ description: "Walking inferno is an enemy in Andor's Trail (construct) with 135 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Ablaze (magnitude 3, 5 rounds, 20% chance)
+**On hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 3, 5 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -70,7 +70,7 @@ description: "Walking inferno is an enemy in Andor's Trail (construct) with 135 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 10} → {"max": 10, "min": 0}; criticalMultiplier: 2.5 → 2.5; hitEffect: {"conditionsTarget": [{"chance": 20, "c… → {"conditionsTarget": [{"chance": "20", … |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–10 → 0–10<br>Critical multiplier: 2.5 → 2.5<br>On hit, condition on target: [Ablaze](../conditions/fire.md) (magnitude 3, 5 rounds, 20% chance) → (magnitude 3, 5 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

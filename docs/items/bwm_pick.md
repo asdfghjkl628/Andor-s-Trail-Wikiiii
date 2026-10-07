@@ -38,13 +38,13 @@ description: "Blackwater rusted pickaxe is a ordinary pole weapon in Andor's Tra
 | Attack chance | +35 |
 | Block chance | +5 |
 | setNonWeaponDamageModifier | +100 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 ### On hit
 
 | Stat | Value |
 |---|---|
-| On target | Blood poisoning (magnitude 1, 2 rounds, 20% chance) |
+| On target | [Blood poisoning](../conditions/poison_blood.md) (magnitude 1, 2 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

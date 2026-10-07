@@ -359,7 +359,7 @@ Start with [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)
 | Version | Change |
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 35 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stage 60 now completes the quest |
+| [v0.8.18](../versions/0.8.18.md) | Stage 60 now completes the quest |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

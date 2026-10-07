@@ -42,7 +42,7 @@ description: "Wraith's massive claymore is a extraordinary two-handed sword in A
 
 | Stat | Value |
 |---|---|
-| On self | Strength (magnitude 2, 5 rounds, 55% chance) |
+| On self | [Strength](../conditions/str.md) (magnitude 2, 5 rounds, 55% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -64,8 +64,8 @@ description: "Wraith's massive claymore is a extraordinary two-handed sword in A
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | killEffect: {"conditionsSource": [{"chance": 55, "c… → {"conditionsSource": [{"chance": "55", … |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 23, "increaseA… → {"increaseAttackChance": 23, "increaseA… |
+| [v0.7.2](../versions/0.7.2.md) | On kill, condition on self: [Strength](../conditions/str.md) (magnitude 2, 5 rounds, 55% chance) → (magnitude 2, 5 rounds, 55% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (187) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

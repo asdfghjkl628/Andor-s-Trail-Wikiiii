@@ -30,7 +30,7 @@ description: "Elytharan gloves is a extraordinary gloves, cloth in Andor's Trail
 | Use item cost | -1 |
 | Attack chance | +5 |
 | Block chance | +12 |
-| Grants | Bless (magnitude 1) |
+| Grants | [Bless](../conditions/bless.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

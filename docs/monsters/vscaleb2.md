@@ -41,7 +41,7 @@ description: "Venomscale master is an enemy in Andor's Trail (humanoid) with 205
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 2, 5 rounds, 30% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 5 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -71,7 +71,7 @@ description: "Venomscale master is an enemy in Andor's Trail (humanoid) with 205
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 17} → {"max": 17, "min": 0}; hitEffect: {"conditionsTarget": [{"chance": 30, "c… → {"conditionsTarget": [{"chance": "30", …; name: Venomscale Master → Venomscale master |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–17 → 0–17<br>On hit, condition on target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 5 rounds, 30% chance) → (magnitude 2, 5 rounds, 30% chance)<br>Renamed “Venomscale Master” → “Venomscale master” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

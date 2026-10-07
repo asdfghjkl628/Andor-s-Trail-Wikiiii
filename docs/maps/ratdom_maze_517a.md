@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 517a is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Young ogre, Weak ogre. Exits to Ratdom maze 517."
+description: "Ratdom maze 517a is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Young ogre, Weak ogre. Exits to Ratdom maze 517."
 ---
 
 # Ratdom maze 517a
@@ -63,12 +63,12 @@ description: "Ratdom maze 517a is an indoor location in Andor's Trail. NPCs: Cle
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Young ogre](../monsters/ratdom_troll_1.md) | 230 | 1–10 | 3 | – |
 | [Weak ogre](../monsters/ratdom_troll_2.md) | 230 | 1–12 | 8 | – |
-| [Mad ogre](../monsters/ratdom_troll_4.md) | 330 | 10–20 | 10 | – |
 | [Angry ogre](../monsters/ratdom_troll_3.md) | 330 | 10–15 | 8 | – |
+| [Mad ogre](../monsters/ratdom_troll_4.md) | 330 | 10–20 | 10 | – |
 | [Dangerous ogre](../monsters/ratdom_troll_5.md) | 380 | 15–30 | 10 | – |
 | [Ancient ogre](../monsters/ratdom_troll_6.md) | 430 | 15–30 | 5 | – |
 | [Giant ogre](../monsters/ratdom_troll_9.md) | 590 | 20–60 | 1 | – |

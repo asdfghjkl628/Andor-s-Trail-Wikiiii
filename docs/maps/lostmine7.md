@@ -52,8 +52,8 @@ description: "Lostmine7 is an indoor location in Andor's Trail. Enemies: Tough a
 | [Blazing abcess](../monsters/fire2.md) | 95 | 0–8 | 24 | shares spawn with Glowing abcess |
 | [Lava spawn](../monsters/fire3.md) | 102 | 0–9 | 4 | shares spawn with Tough lava spawn |
 | [Tough lava spawn](../monsters/fire4.md) | 107 | 0–9 | 4 | shares spawn with Lava spawn |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 1 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -63,9 +63,9 @@ description: "Lostmine7 is an indoor location in Andor's Trail. Enemies: Tough a
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

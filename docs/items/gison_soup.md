@@ -28,7 +28,7 @@ description: "Gison's mushroom soup is a rare food in Andor's Trail. How to get 
 
 | Stat | Value |
 |---|---|
-| On self | Reinvigorated (magnitude 1, 10 rounds, 100% chance); Sated (magnitude 1, 3 rounds, 100% chance) |
+| On self | [Reinvigorated](../conditions/reinvigorated.md) (magnitude 1, 10 rounds); [Sated](../conditions/sated.md) (magnitude 1, 3 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

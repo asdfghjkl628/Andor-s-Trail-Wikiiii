@@ -130,8 +130,8 @@ Start with [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/wa
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 13 lines added |
-| [v0.7.4](../versions/0.7.4.md) | stage 35 journal text changed<br>Dialogue: 1 line changed<br>· text: “You have found the enterance to the cave Cithurn was talking about.” → “You have found the entrance to the cave Cithurn was talking about.” |
-| [v0.7.17](../versions/0.7.17.md) | stage 35 journal text changed |
+| [v0.7.4](../versions/0.7.4.md) | Stage 35 journal text changed<br>Dialogue: 1 line changed<br>· text: “You have found the enterance to the cave Cithurn was talking about.” → “You have found the entrance to the cave Cithurn was talking about.” |
+| [v0.7.17](../versions/0.7.17.md) | Stage 35 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

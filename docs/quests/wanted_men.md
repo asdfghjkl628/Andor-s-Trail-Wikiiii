@@ -170,8 +170,8 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 20 lines added |
 | [v0.8.10](../versions/0.8.10.md) | Dialogue: 1 line changed |
-| [v0.8.13](../versions/0.8.13.md) | stage 20 journal text changed; stage 25 journal text changed; stage 35 journal text changed; stage 45 journal text changed; stage 50 journal text changed; stage 57 journal text changed (+1 more)<br>Dialogue: 1 line changed<br>· text: “I'm talking about the Thieves Guild.” → “I'm talking about the Thieves' Guild.” |
-| [v0.8.14](../versions/0.8.14.md) | stage 50 journal text changed<br>Dialogue: 1 line changed<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …” |
+| [v0.8.13](../versions/0.8.13.md) | Stage 20 journal text changed<br>Stage 25 journal text changed<br>Stage 35 journal text changed<br>Stage 45 journal text changed<br>Stage 50 journal text changed<br>Stage 57 journal text changed<br>Stage 75 journal text changed<br>Dialogue: 1 line changed<br>· text: “I'm talking about the Thieves Guild.” → “I'm talking about the Thieves' Guild.” |
+| [v0.8.14](../versions/0.8.14.md) | Stage 50 journal text changed<br>Dialogue: 1 line changed<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

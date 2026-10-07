@@ -149,7 +149,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Me and my band of knights are just visiting Remgard in .. shall we sa…” → “Me and my band of knights are just visiting Remgard in ... shall we s…”<br>· text: “Granted, people in our order have succumbed in combat to greater foes…” → “Granted, people in our order have succumbed in combat to greater foes…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Me and my band of knights are just visiting Remgard in .. shall we sa…” → “Me and my band of knights are just visiting Remgard in ... shall we s…”<br>· text: “We also help people find .. erm .. people that have gone missing.” → “We also help people find ... erm ... people that have gone missing.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

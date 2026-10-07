@@ -79,7 +79,7 @@ description: "Mywildcave3 is an indoor location in Andor's Trail. Enemies: Small
 | Version | Change |
 |---|---|
 | [v0.7.13](../versions/0.7.13.md) | Added |
-| [v0.8.9](../versions/0.8.9.md) | map layout or objects changed |
+| [v0.8.9](../versions/0.8.9.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

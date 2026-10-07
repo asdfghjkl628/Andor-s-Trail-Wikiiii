@@ -44,8 +44,8 @@ description: "Judicar is a extraordinary axe in Andor's Trail (Attack damage 5 t
 
 | Stat | Value |
 |---|---|
-| On self | Divine punishment (magnitude 1, 2 rounds, 5% chance) |
-| On target | Divine judgement (magnitude 1, 3 rounds, 15% chance) |
+| On self | [Divine punishment](../conditions/divine_punishment.md) (magnitude 1, 2 rounds, 5% chance) |
+| On target | [Divine judgement](../conditions/divine_judgement.md) (magnitude 1, 3 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

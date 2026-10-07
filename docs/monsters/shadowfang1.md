@@ -48,7 +48,7 @@ description: "Shadowfang is an NPC who can also be fought in Andor's Trail, foun
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** Heal HP: 0 to 3; On target: Venom (magnitude 2, 4 rounds, 10% chance); Vulnerability (magnitude 3, 3 rounds, 10% chance); Bleeding wound (magnitude 3, 2 rounds, 5% chance)
+**On hit:** Heal HP: 0 to 3; On target: [Venom](../conditions/venom.md) (magnitude 2, 4 rounds, 10% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 3, 3 rounds, 10% chance); [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 2 rounds, 5% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

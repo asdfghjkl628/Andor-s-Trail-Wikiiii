@@ -43,13 +43,13 @@ description: "Heartsteel greataxe is a legendary greataxe in Andor's Trail (Atta
 
 | Stat | Value |
 |---|---|
-| On target | Heartstone poisoning (magnitude 4, 2 rounds, 10% chance); Marrow rend (magnitude 1, 2 rounds, 5% chance) |
+| On target | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 4, 2 rounds, 10% chance); [Marrow rend](../conditions/bone_fracture_range.md) (magnitude 1, 2 rounds, 5% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Heartstone poisoning (magnitude 6, 2 rounds, 5% chance) |
+| On self | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 6, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

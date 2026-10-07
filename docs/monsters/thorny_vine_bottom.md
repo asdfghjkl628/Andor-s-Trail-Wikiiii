@@ -45,9 +45,9 @@ description: "Thorny vine is an enemy in Andor's Trail (construct) with 144 HP, 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Entanglement (magnitude 1, 3 rounds, 80% chance)
+**On hit:** On target: [Entanglement](../conditions/entanglement.md) (magnitude 1, 3 rounds, 80% chance)
 
-**When hit:** On target: Bleeding wound (magnitude 8, 3 rounds, 100% chance)
+**When hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 8, 3 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

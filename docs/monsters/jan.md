@@ -150,7 +150,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…”<br>· text: “Well, I guess it's ok to tell you. You seem to be a nice enough kid.” → “Well, I guess it's OK to tell you. You seem to be a nice enough kid.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Well, I guess it's ok to tell you. You seem to be a nice enough kid.” → “Well, I guess it's OK to tell you. You seem to be a nice enough kid.”<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

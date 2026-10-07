@@ -46,7 +46,7 @@ description: "Spiked Gloves is a rare gauntlet in Andor's Trail (Attack damage 3
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 1, 2 rounds, 5% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -67,8 +67,8 @@ description: "Spiked Gloves is a rare gauntlet in Andor's Trail (Attack damage 3
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 9, "increaseAt… → {"increaseAttackChance": 9, "increaseAt… |
-| [v0.7.14](../versions/0.7.14.md) | description added (These gloves can be used on your hands …); displaytype: ordinary → rare; equipEffect: {"increaseAttackChance": 9, "increaseAt… → {"increaseAttackChance": 9, "increaseAt…; hasManualPrice removed; hitEffect added ({"conditionsTarget": [{"chance": "5", "…) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (101) |
+| [v0.7.14](../versions/0.7.14.md) | Description text added<br>Rarity: ordinary → rare<br>When equipped, critical skill: added (+10)<br>When equipped, move cost: added (0)<br>When equipped, re-equip cost: added (+3)<br>When equipped, item use cost: added (+4)<br>When equipped, critical multiplier: added (1.5)<br>Price now calculated from its statistics<br>On hit, condition on target: added [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

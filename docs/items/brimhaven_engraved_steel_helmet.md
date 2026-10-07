@@ -39,7 +39,7 @@ description: "Engraved steel helmet is a rare headwear, metal (heavy) in Andor's
 
 | Stat | Value |
 |---|---|
-| On self | Bark skin (magnitude 1, 2 rounds, 5% chance) |
+| On self | [Bark skin](../conditions/barkskin.md) (magnitude 1, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

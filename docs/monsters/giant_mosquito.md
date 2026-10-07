@@ -41,7 +41,7 @@ description: "Giant mosquito is an enemy in Andor's Trail (insect) with 106 HP, 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 5% |
 
-**On hit:** On target: Insect contagion (magnitude 7, 5 rounds, 65% chance)
+**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 7, 5 rounds, 65% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

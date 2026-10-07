@@ -42,7 +42,7 @@ description: "Rat King Rah's sword is a extraordinary two-handed sword in Andor'
 
 | Stat | Value |
 |---|---|
-| On target | Head wound (magnitude 1, 3 rounds, 8% chance) |
+| On target | [Head wound](../conditions/head_wound.md) (magnitude 1, 3 rounds, 8% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -34,7 +34,7 @@ description: "Godwin's ring is a rare ring in Andor's Trail (Max HP -5, Attack c
 | Critical skill | +1 |
 | Block chance | +25 |
 | Damage resistance | +3 |
-| Grants | Feygard Loyalist (magnitude 1) |
+| Grants | [Feygard Loyalist](../conditions/loyalist.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

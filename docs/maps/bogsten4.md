@@ -1,5 +1,5 @@
 ---
-description: "Bogsten4 is an indoor location in Andor's Trail. NPCs: Black fog, Zuul'khan. Enemies: Fungi, Lombric ball, Lombric beast, Dangerous fungi. Exits to Mushroom m2 1, Bogsten3."
+description: "Bogsten4 is an indoor location in Andor's Trail. NPCs: Black fog, Zuul'khan. Enemies: Fungi, Lombric beast, Lombric ball, Dangerous fungi. Exits to Mushroom m2 1, Bogsten3."
 ---
 
 # Bogsten4
@@ -60,8 +60,8 @@ description: "Bogsten4 is an indoor location in Andor's Trail. NPCs: Black fog, 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Fungi](../monsters/mid_fungi.md) | 25 | 2–3 | 7 | – |
-| [Lombric ball](../monsters/lombric_ball.md) | 30 | 1–15 | 7 | – |
 | [Lombric beast](../monsters/lombric_beast.md) | 30 | 3–10 | 6 | – |
+| [Lombric ball](../monsters/lombric_ball.md) | 30 | 1–15 | 7 | – |
 | [Dangerous fungi](../monsters/dangerous_fungi.md) | 55 | 2–5 | 8 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -84,7 +84,7 @@ description: "Bogsten4 is an indoor location in Andor's Trail. NPCs: Black fog, 
 | Version | Change |
 |---|---|
 | [v0.7.13](../versions/0.7.13.md) | Added |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

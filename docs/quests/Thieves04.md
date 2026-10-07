@@ -122,8 +122,8 @@ Start with [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.2](../versions/0.8.2.md) | renamed “Honor and plunder” → “Another ruthless Crackshot”; journal visibility changed; stages added: 10, 20, 30, 35, 40, 50, 60, 70, 80; stages removed: 5<br>Dialogue: 10 lines added |
-| [v0.8.4](../versions/0.8.4.md) | stages added: 75; stage 70 journal text changed<br>Dialogue: 3 lines changed<br>· text: “[Strange. Defy and his men are gone. Maybe they talked with the bootl…” → “Strange. Defy and his men are gone. Maybe they talked with the bootle…” |
+| [v0.8.2](../versions/0.8.2.md) | Renamed “Honor and plunder” → “Another ruthless Crackshot”<br>Journal visibility changed<br>Stages added: 10, 20, 30, 35, 40, 50, 60, 70, 80<br>Stages removed: 5<br>Dialogue: 10 lines added |
+| [v0.8.4](../versions/0.8.4.md) | Stages added: 75<br>Stage 70 journal text changed<br>Dialogue: 3 lines changed<br>· text: “[Strange. Defy and his men are gone. Maybe they talked with the bootl…” → “Strange. Defy and his men are gone. Maybe they talked with the bootle…” |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “Thank you so much again, kid. You are just like your brother Andor.” → “Thank you so much again, kid. You are just like your brother Andor. A…” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “Thank you. You are my only hope here. I don't trust those unlawful Fe…” → “Thank you. You are my only hope here. I don't trust those unlawful Fe…” |
 

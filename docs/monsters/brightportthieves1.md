@@ -193,7 +193,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 33 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “For you, it'll be 2000 gold coins. It's our hideout, I can't just giv…” → “For you, it'll be {2000} gold coins. It's our hideout, I can't just g…”<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -43,7 +43,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | baseMarketCost added (25); hasManualPrice added (1) |
+| [v0.8.8](../versions/0.8.8.md) | Base value (gold): added (25)<br>Price now set manually instead of calculated from its statistics |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

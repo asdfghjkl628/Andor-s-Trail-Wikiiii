@@ -144,7 +144,7 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 16 lines added |
-| [v0.7.4](../versions/0.7.4.md) | stage 71 journal text changed<br>Dialogue: 1 line changed |
+| [v0.7.4](../versions/0.7.4.md) | Stage 71 journal text changed<br>Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -42,8 +42,8 @@ description: "Flaming greatsword is a extraordinary two-handed sword in Andor's 
 
 | Stat | Value |
 |---|---|
-| On self | Searing burn (magnitude 1, 2 rounds, 40% chance) |
-| On target | Searing burn (magnitude 2, 2 rounds, 30% chance) |
+| On self | [Searing burn](../conditions/brightportflame.md) (magnitude 1, 2 rounds, 40% chance) |
+| On target | [Searing burn](../conditions/brightportflame.md) (magnitude 2, 2 rounds, 30% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

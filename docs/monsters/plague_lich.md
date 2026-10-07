@@ -41,9 +41,9 @@ description: "Plague-Lich is an enemy in Andor's Trail (undead) with 263 HP, wor
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Death Plague (magnitude 3, 4 rounds, 20% chance)
+**On hit:** On target: [Death Plague](../conditions/death_plague.md) (magnitude 3, 4 rounds, 20% chance)
 
-**On death:** On self: Death Plague (magnitude 2, 3 rounds, 100% chance); Reclaimed resilience (magnitude 5, 3 rounds, 100% chance)
+**On death:** On self: [Death Plague](../conditions/death_plague.md) (magnitude 2, 3 rounds); [Reclaimed resilience](../conditions/reclaimed_resilience.md) (magnitude 5, 3 rounds)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

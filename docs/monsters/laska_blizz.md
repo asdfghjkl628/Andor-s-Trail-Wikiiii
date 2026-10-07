@@ -41,7 +41,7 @@ description: "Laska blizz is an enemy in Andor's Trail (giant) with 300 HP, wort
 | Critical multiplier | 2.0 |
 | Critical hit chance | 7% |
 
-**On hit:** On target: Frostbite (magnitude 3, 4 rounds, 15% chance); Head wound (magnitude 1, 3 rounds, 25% chance)
+**On hit:** On target: [Frostbite](../conditions/frostbite.md) (magnitude 3, 4 rounds, 15% chance); [Head wound](../conditions/head_wound.md) (magnitude 1, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -68,7 +68,7 @@ description: "Laska blizz is an enemy in Andor's Trail (giant) with 300 HP, wort
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.14](../versions/0.8.14.md) | attackChance added (130); attackCost added (7); attackDamage added ({"max": 27, "min": 25}); blockChance added (200); criticalMultiplier added (2.0); criticalSkill added (8) (+6 more) |
+| [v0.8.14](../versions/0.8.14.md) | Attack chance: added (130)<br>Attack cost: added (7)<br>Attack damage: added (25–27)<br>Block chance: added (200)<br>Critical multiplier: added (2)<br>Critical skill: added (8)<br>Damage resistance: added (11)<br>Loot table added<br>On hit, condition on target: added [Frostbite](../conditions/frostbite.md) (magnitude 3, 4 rounds, 15% chance)<br>On hit, condition on target: added [Head wound](../conditions/head_wound.md) (magnitude 1, 3 rounds, 25% chance)<br>(+3 more) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

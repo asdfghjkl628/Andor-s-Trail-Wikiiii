@@ -28,7 +28,7 @@ description: "Fermented garlic is a rare food in Andor's Trail. How to get it: s
 
 | Stat | Value |
 |---|---|
-| On self | Food-poisoning (magnitude -99, 100% chance); Nausea (magnitude 1, 5 rounds, 100% chance); Sustenance (magnitude 1, 2 rounds, 100% chance) |
+| On self | removes [Food-poisoning](../conditions/foodp.md); [Nausea](../conditions/nausea.md) (magnitude 1, 5 rounds); [Sustenance](../conditions/food.md) (magnitude 1, 2 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -48,7 +48,7 @@ description: "Fermented garlic is a rare food in Andor's Trail. How to get it: s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",… |
+| [v0.8.4](../versions/0.8.4.md) | When used, condition on self: [Sustenance](../conditions/food.md) (magnitude 1, 1 rounds) → (magnitude 1, 2 rounds) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

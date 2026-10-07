@@ -26,7 +26,7 @@ description: "Especially sweet red berries is a ordinary food in Andor's Trail. 
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 6, 5 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 6, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -45,7 +45,7 @@ description: "Especially sweet red berries is a ordinary food in Andor's Trail. 
 | Version | Change |
 |---|---|
 | [v0.7.13](../versions/0.7.13.md) | Added |
-| [v0.8.7](../versions/0.8.7.md) | baseMarketCost: 22 → 210 |
+| [v0.8.7](../versions/0.8.7.md) | Base value (gold): 22 → 210 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

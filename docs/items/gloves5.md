@@ -41,7 +41,7 @@ description: "Iced leather gloves is a ordinary gloves, leather in Andor's Trail
 
 | Stat | Value |
 |---|---|
-| On target | Icy wounds (magnitude 1, 2 rounds, 15% chance) |
+| On target | [Icy wounds](../conditions/frozen2.md) (magnitude 1, 2 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

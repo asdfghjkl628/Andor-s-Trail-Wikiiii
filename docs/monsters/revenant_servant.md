@@ -41,7 +41,7 @@ description: "Revenant servant is an enemy in Andor's Trail (undead) with 100 HP
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Flesh rot (magnitude 1, 3 rounds, 10% chance)
+**On hit:** On target: [Flesh rot](../conditions/flesh_rot.md) (magnitude 1, 3 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -68,7 +68,7 @@ description: "Revenant servant is an enemy in Andor's Trail (undead) with 100 HP
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.11](../versions/0.7.11.md) | droplistID added (revenant_1) |
+| [v0.7.11](../versions/0.7.11.md) | Loot table added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

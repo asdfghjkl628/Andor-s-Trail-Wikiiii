@@ -320,16 +320,16 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stages added: 90, 92; stage 51 journal text changed<br>Dialogue: 5 lines added, 2 lines changed |
+| [v0.7.2](../versions/0.7.2.md) | Stages added: 90, 92<br>Stage 51 journal text changed<br>Dialogue: 5 lines added, 2 lines changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line added |
-| [v0.7.13](../versions/0.7.13.md) | stages added: 62, 65, 85, 86<br>Dialogue: 1 line added, 5 lines changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
-| [v0.8.2](../versions/0.8.2.md) | stages added: 100, 110<br>Dialogue: 2 lines added |
-| [v0.8.5](../versions/0.8.5.md) | stage 110 journal text changed |
-| [v0.8.11](../versions/0.8.11.md) | stages added: 120<br>Dialogue: 1 line added |
-| [v0.8.13](../versions/0.8.13.md) | stages added: 130, 999; stage 110 journal text changed<br>Dialogue: 2 lines added |
-| [v0.8.14](../versions/0.8.14.md) | stages added: 125, 140, 145, 147, 910, 912, 914; stages removed: 130<br>Dialogue: 11 lines added |
-| [v0.8.16.1](../versions/0.8.16.1.md) | stages added: 126, 127, 128, 130, 131, 132<br>Dialogue: 6 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 150 |
+| [v0.7.13](../versions/0.7.13.md) | Stages added: 62, 65, 85, 86<br>Dialogue: 1 line added, 5 lines changed<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
+| [v0.8.2](../versions/0.8.2.md) | Stages added: 100, 110<br>Dialogue: 2 lines added |
+| [v0.8.5](../versions/0.8.5.md) | Stage 110 journal text changed |
+| [v0.8.11](../versions/0.8.11.md) | Stages added: 120<br>Dialogue: 1 line added |
+| [v0.8.13](../versions/0.8.13.md) | Stages added: 130, 999<br>Stage 110 journal text changed<br>Dialogue: 2 lines added |
+| [v0.8.14](../versions/0.8.14.md) | Stages added: 125, 140, 145, 147, 910, 912, 914<br>Stages removed: 130<br>Dialogue: 11 lines added |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Stages added: 126, 127, 128, 130, 131, 132<br>Dialogue: 6 lines added |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 150 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

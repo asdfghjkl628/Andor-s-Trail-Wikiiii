@@ -29,7 +29,7 @@ description: "Vaelric's elixir of vitality is a rare potion in Andor's Trail. Ho
 | Stat | Value |
 |---|---|
 | Heal HP | 20 to 30 |
-| On self | Regeneration (magnitude 5, 6 rounds, 100% chance) |
+| On self | [Regeneration](../conditions/regen2.md) (magnitude 5, 6 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

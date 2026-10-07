@@ -43,7 +43,7 @@ description: "Snapmaw is an enemy in Andor's Trail (reptile) with 114 HP, worth 
 
 **On hit:** Restore AP: 0 to 1
 
-**When hit:** On self: Bark skin (magnitude 1, 3 rounds, 15% chance); On target: Bleeding wound (magnitude 4, 4 rounds, 15% chance)
+**When hit:** On self: [Bark skin](../conditions/barkskin.md) (magnitude 1, 3 rounds, 15% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 4, 4 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -1,5 +1,5 @@
 ---
-description: "Waterway9 is an outdoor location in Andor's Trail. Enemies: Izthiel, Erumen lizard, Strong izthiel, Izthiel guardian, Strong erumen lizard. Exits to Waterway11, Waterway10, Waterway8."
+description: "Waterway9 is an outdoor location in Andor's Trail. Enemies: Erumen lizard, Izthiel, Strong izthiel, Izthiel guardian, Strong erumen lizard. Exits to Waterway11, Waterway10, Waterway8."
 ---
 
 # Waterway9
@@ -56,8 +56,8 @@ South: Brightport”">4</a><a class="pin pin-script" href="#key-5" style="left:7
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 2 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 2 | – |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 54 | 3–7 | 3 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 2 | shares spawn with Erumen lizard |
@@ -83,10 +83,10 @@ South: Brightport”">4</a><a class="pin pin-script" href="#key-5" style="left:7
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

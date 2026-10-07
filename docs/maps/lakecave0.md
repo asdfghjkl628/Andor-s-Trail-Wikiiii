@@ -1,5 +1,5 @@
 ---
-description: "Lakecave0 is an indoor location in Andor's Trail. Enemies: Tough cave scorpion, Cave scorpion, Puny cave scorpion, Fierce cave scorpion, Aggressive cave scorpion. Exits to Lakecave2, Mountainlake11, Lakecave1."
+description: "Lakecave0 is an indoor location in Andor's Trail. Enemies: Cave scorpion, Puny cave scorpion, Tough cave scorpion, Fierce cave scorpion, Armored cave scorpion. Exits to Lakecave2, Mountainlake11, Lakecave1."
 ---
 
 # Lakecave0
@@ -56,14 +56,14 @@ description: "Lakecave0 is an indoor location in Andor's Trail. Enemies: Tough c
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 | 3–6 | 3 | shares spawn with Aggressive cave scorpion |
 | [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 6 | shares spawn with Puny cave scorpion |
 | [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 | 2–5 | 6 | shares spawn with Cave scorpion |
+| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 | 3–6 | 3 | shares spawn with Aggressive cave scorpion |
 | [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 35 | 5–10 | 4 | shares spawn with Armored cave scorpion |
-| [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 | 4–7 | 3 | shares spawn with Tough cave scorpion |
 | [Armored cave scorpion](../monsters/cave_scorpion_4.md) | 35 | 4–8 | 4 | shares spawn with Fierce cave scorpion |
-| [Cave troll](../monsters/cave_troll_1.md#v-cave_troll_7) | 230 | 1–15 | 1 | appears later, during a quest |
+| [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 | 4–7 | 3 | shares spawn with Tough cave scorpion |
 | [Cave troll](../monsters/cave_troll_1.md) | 230 | 1–15 | 5 | – |
+| [Cave troll](../monsters/cave_troll_1.md#v-cave_troll_7) | 230 | 1–15 | 1 | appears later, during a quest |
 | [Strong cave troll](../monsters/cave_troll_2.md) | 250 | 5–15 | 4 | – |
 | [Tough cave troll](../monsters/cave_troll_3.md) | 290 | 5–15 | 1 | – |
 | [Cave troll shaman](../monsters/cave_troll_4.md) | 300 | 1–15 | 4 | – |
@@ -92,7 +92,7 @@ description: "Lakecave0 is an indoor location in Andor's Trail. Enemies: Tough c
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

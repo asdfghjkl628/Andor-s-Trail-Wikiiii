@@ -64,7 +64,7 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.8.5](../versions/0.8.5.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | name: Pickaxe → Pickhatchet |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Renamed “Pickaxe” → “Pickhatchet” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

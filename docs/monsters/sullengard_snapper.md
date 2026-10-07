@@ -44,7 +44,7 @@ description: "Sullengard snapper is an NPC who can also be fought in Andor's Tra
 | Critical multiplier | 2.5 |
 | Critical hit chance | 15% |
 
-**When hit:** On self: Bark skin (magnitude 1, 5 rounds, 5% chance); On target: Bleeding wound (magnitude 1, 5 rounds, 10% chance)
+**When hit:** On self: [Bark skin](../conditions/barkskin.md) (magnitude 1, 5 rounds, 5% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1, 5 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

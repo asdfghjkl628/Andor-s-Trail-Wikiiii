@@ -40,7 +40,7 @@ description: "Superior stiletto is a ordinary dagger in Andor's Trail (Attack da
 
 | Stat | Value |
 |---|---|
-| On self | Minor speed (magnitude 2, 2 rounds, 1% chance) |
+| On self | [Minor speed](../conditions/speed_minor.md) (magnitude 2, 2 rounds, 1% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

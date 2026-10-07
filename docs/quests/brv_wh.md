@@ -130,7 +130,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 13 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 100 journal text changed; stage 101 journal text changed; stage 102 journal text changed; stage 103 journal text changed; stage 104 journal text changed (+5 more) |
+| [v0.7.12](../versions/0.7.12.md) | Stage 10 journal text changed<br>Stage 100 journal text changed<br>Stage 101 journal text changed<br>Stage 102 journal text changed<br>Stage 103 journal text changed<br>Stage 104 journal text changed<br>Stage 105 journal text changed<br>Stage 106 journal text changed<br>Stage 107 journal text changed<br>Stage 108 journal text changed<br>(+1 more) |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -26,7 +26,7 @@ description: "Potion of dexterity is a ordinary potion in Andor's Trail. How to 
 
 | Stat | Value |
 |---|---|
-| On self | Minor weapon feebleness (magnitude -99, 100% chance) |
+| On self | removes [Minor weapon feebleness](../conditions/feebleness_minor.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

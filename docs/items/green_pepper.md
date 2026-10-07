@@ -27,7 +27,7 @@ description: "Green Pepper is a ordinary food in Andor's Trail. How to get it: m
 | Stat | Value |
 |---|---|
 | Heal HP | 1 to 2 |
-| On self | Sustenance (magnitude 3, 4 rounds, 100% chance); Thirst (magnitude 1, 5 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 3, 4 rounds); [Thirst](../conditions/thirst.md) (magnitude 1, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

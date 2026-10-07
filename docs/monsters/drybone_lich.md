@@ -53,7 +53,7 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Withering Focus (magnitude 4, 2 rounds, 22% chance)
+**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 2 rounds, 22% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -167,7 +167,7 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Withering Focus (magnitude 4, 2 rounds, 22% chance)
+**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 2 rounds, 22% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

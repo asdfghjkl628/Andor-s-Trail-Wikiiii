@@ -28,7 +28,7 @@ description: "Deebo's apple cider is a rare food in Andor's Trail. How to get it
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 2, 14 rounds, 100% chance); Nausea (magnitude -99, 35% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 14 rounds); removes [Nausea](../conditions/nausea.md) (35% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -47,7 +47,7 @@ description: "Deebo's apple cider is a rare food in Andor's Trail. How to get it
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.5](../versions/0.8.5.md) | baseMarketCost: 50 → 80; useEffect: {"conditionsSource": [{"chance": "100",… → {"conditionsSource": [{"chance": "100",… |
+| [v0.8.5](../versions/0.8.5.md) | Base value (gold): 50 → 80<br>When used, condition on self: added [Nausea](../conditions/nausea.md) (magnitude -99, 35% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

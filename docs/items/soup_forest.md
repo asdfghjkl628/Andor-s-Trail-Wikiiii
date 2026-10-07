@@ -29,7 +29,7 @@ description: "Gison and Nimael's soup of the forest is a rare food in Andor's Tr
 | Stat | Value |
 |---|---|
 | Heal HP | 3 |
-| On self | Sustenance (magnitude 3, 7 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 3, 7 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -96,7 +96,7 @@ Start with [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_ca
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 7 lines added |
-| [v0.8.4](../versions/0.8.4.md) | stage 40 journal text changed |
+| [v0.8.4](../versions/0.8.4.md) | Stage 40 journal text changed |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
 

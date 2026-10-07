@@ -15,7 +15,7 @@ description: "sullengard_nondisplay is a hidden quest in Andor's Trail, started 
 | **In journal** | No (hidden flag) |
 | **Stages** | 47 |
 | **Started by** | [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../maps/sullengard_inn.md)) |
-| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother3), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother2), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
+| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother2), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother3), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [lake_shore_road_9](../maps/lake_shore_road_9.md), [mywild20_houseleft](../maps/mywild20_houseleft.md) |
 | **Total XP** | 3,300 |
 | **Related quests** | 13 |
@@ -311,12 +311,12 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 33 lines added |
-| [v0.8.3](../versions/0.8.3.md) | stages added: 33, 34, 35<br>Dialogue: 3 lines added |
-| [v0.8.4](../versions/0.8.4.md) | stages added: 110, 120; stage 21 XP 0 → 3000<br>Dialogue: 1 line added, 2 lines changed<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…” |
+| [v0.8.3](../versions/0.8.3.md) | Stages added: 33, 34, 35<br>Dialogue: 3 lines added |
+| [v0.8.4](../versions/0.8.4.md) | Stages added: 110, 120<br>Stage 21 XP 0 → 3000<br>Dialogue: 1 line added, 2 lines changed<br>· text: “I just need a little bit of time.Please come back soon and I will hav…” → “I just need a little bit of time. Please come back soon and I will ha…” |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 1 line changed |
-| [v0.8.8](../versions/0.8.8.md) | stages added: 36, 37, 38, 39, 40, 41<br>Dialogue: 6 lines added, 1 line changed<br>· text: “Thank you so much again, kid. You are just like your brother Andor.” → “Thank you so much again, kid. You are just like your brother Andor. A…” |
-| [v0.8.13](../versions/0.8.13.md) | stage 28 journal text changed |
-| [v0.8.18](../versions/0.8.18.md) | stages added: 42; stage 1 journal text changed; stage 2 journal text changed; stage 3 journal text changed; stage 5 journal text changed; stage 20 journal text changed (+9 more)<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
+| [v0.8.8](../versions/0.8.8.md) | Stages added: 36, 37, 38, 39, 40, 41<br>Dialogue: 6 lines added, 1 line changed<br>· text: “Thank you so much again, kid. You are just like your brother Andor.” → “Thank you so much again, kid. You are just like your brother Andor. A…” |
+| [v0.8.13](../versions/0.8.13.md) | Stage 28 journal text changed |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 42<br>Stage 1 journal text changed<br>Stage 2 journal text changed<br>Stage 3 journal text changed<br>Stage 5 journal text changed<br>Stage 20 journal text changed<br>Stage 21 journal text changed<br>Stage 25 journal text changed<br>Stage 26 journal text changed<br>Stage 28 journal text changed<br>(+5 more)<br>Dialogue: 2 lines added, 1 line changed<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

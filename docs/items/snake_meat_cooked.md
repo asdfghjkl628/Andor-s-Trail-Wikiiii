@@ -26,7 +26,7 @@ description: "Cooked snake meat is a ordinary food in Andor's Trail. How to get 
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 4, 8 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 4, 8 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | 50% chance per crit to inflict Internal bleeding ([abbreviations](../glossary.md)) |
 | **Category** | Criticals |
 | **Max level** | 1 |
 | **Obtained via** | Skill points |

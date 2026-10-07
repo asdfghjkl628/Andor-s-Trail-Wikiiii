@@ -1,5 +1,5 @@
 ---
-description: "Mountaincave2 is an indoor location in Andor's Trail. Enemies: Young scaradon, Small scaradon, Scaradon, Tough scaradon, Hardshell scaradon. Exits to Mountaincave3, Mountaincave1."
+description: "Mountaincave2 is an indoor location in Andor's Trail. Enemies: Young scaradon, Scaradon, Small scaradon, Tough scaradon, Hardshell scaradon. Exits to Mountaincave3, Mountaincave1."
 ---
 
 # Mountaincave2
@@ -49,8 +49,8 @@ description: "Mountaincave2 is an indoor location in Andor's Trail. Enemies: You
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young scaradon](../monsters/scaradon_1.md) | 32 | 0–4 | 4 | shares spawn with Carrion beetle, Young carrion beetle |
-| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 9 | shares spawn with Scaradon, Tough scaradon |
 | [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 9 | shares spawn with Small scaradon, Tough scaradon |
+| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 9 | shares spawn with Scaradon, Tough scaradon |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 | 1–4 | 9 | shares spawn with Scaradon, Small scaradon |
 | [Hardshell scaradon](../monsters/scaradon_5.md) | 38 | 1–5 | 3 | – |
 | [Young carrion beetle](../monsters/cbeetle_1.md) | 45 | 0–5 | 4 | shares spawn with Carrion beetle, Young scaradon |
@@ -72,9 +72,9 @@ description: "Mountaincave2 is an indoor location in Andor's Trail. Enemies: You
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -33,13 +33,13 @@ description: "Elythara's ring is a extraordinary ring in Andor's Trail (Attack d
 | Max HP | +12 |
 | Attack chance | +14 |
 | Block chance | +12 |
-| Grants | Bless (magnitude 1); Elythara's refreshment (magnitude 1); Shadow Regeneration (magnitude -99) |
+| Grants | [Bless](../conditions/bless.md) (magnitude 1); [Elythara's refreshment](../conditions/elytharabless_heal.md) (magnitude 1); immunity to [Shadow Regeneration](../conditions/regen.md) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Courage (magnitude 1, 2 rounds, 35% chance) |
+| On self | [Courage](../conditions/courage.md) (magnitude 1, 2 rounds, 35% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

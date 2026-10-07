@@ -41,7 +41,7 @@ description: "Aggressive spitting serpent is an enemy in Andor's Trail (reptile)
 | Critical multiplier | 1.5 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Blindness (magnitude 3, 4 rounds, 25% chance)
+**On hit:** On target: [Blindness](../conditions/blindness.md) (magnitude 3, 4 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

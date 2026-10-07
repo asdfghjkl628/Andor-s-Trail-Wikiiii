@@ -27,7 +27,7 @@ description: "Specially peppered lamb meat is a extraordinary food in Andor's Tr
 | Stat | Value |
 |---|---|
 | Heal HP | 10 |
-| On self | Sustenance (magnitude 6, 10 rounds, 100% chance); Thirst (magnitude 1, 12 rounds, 100% chance); Minor berserker rage (magnitude 2, 11 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 6, 10 rounds); [Thirst](../conditions/thirst.md) (magnitude 1, 12 rounds); [Minor berserker rage](../conditions/rage_minor.md) (magnitude 2, 11 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

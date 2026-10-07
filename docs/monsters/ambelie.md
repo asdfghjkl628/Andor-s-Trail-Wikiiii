@@ -189,7 +189,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
-| [v0.7.8](../versions/0.7.8.md) | phraseID: ambelie_1 → ambelie_selector<br>Dialogue: 21 lines added, 1 line changed |
+| [v0.7.8](../versions/0.7.8.md) | Conversation changed<br>Dialogue: 21 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed<br>· text: “(You tap her on the back of the head with the handle of your weapon, …” → “(You tap her on the back of the head with the handle of your weapon, …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

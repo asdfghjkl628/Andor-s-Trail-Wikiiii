@@ -40,7 +40,7 @@ description: "Hunter's Sword is a extraordinary longsword in Andor's Trail (Atta
 | Stat | Value |
 |---|---|
 | Restore AP | 1 to 3 |
-| On self | Minor berserker rage (magnitude 1, 3 rounds, 10% chance) |
+| On self | [Minor berserker rage](../conditions/rage_minor.md) (magnitude 1, 3 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -64,8 +64,8 @@ description: "Hunter's Sword is a extraordinary longsword in Andor's Trail (Atta
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added |
-| [v0.7.10](../versions/0.7.10.md) | hitEffect removed; killEffect: {"conditionsSource": [{"chance": "10", … → {"conditionsSource": [{"chance": "10", … |
-| [v0.7.11](../versions/0.7.11.md) | name: Hunters Sword → Hunter's Sword |
+| [v0.7.10](../versions/0.7.10.md) | On hit, AP restored: removed (was 1)<br>On kill, AP restored: added (1–3) |
+| [v0.7.11](../versions/0.7.11.md) | Renamed “Hunters Sword” → “Hunter's Sword” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Lodarhouse1 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Lodar. Enemies: Rat, Roach. Exits to Stoutford castle barrack2, Lodarhouse0."
+description: "Lodarhouse1 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Lodar. Enemies: Roach, Rat. Exits to Stoutford castle barrack2, Lodarhouse0."
 ---
 
 # Lodarhouse1
@@ -55,9 +55,9 @@ description: "Lodarhouse1 is an indoor location in Andor's Trail, in Prim (settl
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
-| [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 | [Roach](../monsters/vermin2.md) | 0 | 0–1 | 2 | shares spawn with Rat |
+| [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
+| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -86,8 +86,8 @@ description: "Lodarhouse1 is an indoor location in Andor's Trail, in Prim (settl
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

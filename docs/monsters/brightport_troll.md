@@ -41,7 +41,7 @@ description: "Charwood troll is an enemy in Andor's Trail (giant) with 420 HP, w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**When hit:** On self: Troll regeneration (magnitude 1, 1 rounds, 100% chance)
+**When hit:** On self: [Troll regeneration](../conditions/brightport_trollregen.md) (magnitude 1, 1 round)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

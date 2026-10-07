@@ -140,7 +140,7 @@ Start with [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../m
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 16 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stage 10 journal text changed; stage 50 journal text changed<br>Dialogue: 1 line changed |
+| [v0.8.18](../versions/0.8.18.md) | Stage 10 journal text changed<br>Stage 50 journal text changed<br>Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Gargoylecave1 is an indoor location in Andor's Trail. Enemies: Young shadow gargoyle, Fledgling shadow gargoyle, Shadow gargoyle, Tough shadow gargoyle. Exits to Road4 gargoylecave, Gargoylecave2."
+description: "Gargoylecave1 is an indoor location in Andor's Trail. Enemies: Young shadow gargoyle, Fledgling shadow gargoyle, Tough shadow gargoyle, Shadow gargoyle. Exits to Road4 gargoylecave, Gargoylecave2."
 ---
 
 # Gargoylecave1
@@ -49,8 +49,8 @@ description: "Gargoylecave1 is an indoor location in Andor's Trail. Enemies: You
 |---|---|---|---|---|
 | [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 35 | 3–9 | 5 | shares spawn with Fledgling shadow gargoyle |
 | [Fledgling shadow gargoyle](../monsters/fledgling_shadow_gargoyle.md) | 36 | 3–9 | 5 | shares spawn with Young shadow gargoyle |
-| [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 | 4–10 | 3 | shares spawn with Tough shadow gargoyle |
 | [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 | 4–10 | 3 | shares spawn with Shadow gargoyle |
+| [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 | 4–10 | 3 | shares spawn with Tough shadow gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -60,9 +60,9 @@ description: "Gargoylecave1 is an indoor location in Andor's Trail. Enemies: You
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

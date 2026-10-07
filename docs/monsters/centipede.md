@@ -41,7 +41,7 @@ description: "Giant centipede is an enemy in Andor's Trail (insect) with 90 HP, 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 2, 3 rounds, 25% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

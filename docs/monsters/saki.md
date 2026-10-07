@@ -48,7 +48,7 @@ description: "Saki is an NPC who can also be fought in Andor's Trail, found in M
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Deathtouch (magnitude 1, 3 rounds, 50% chance)
+**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

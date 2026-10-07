@@ -180,7 +180,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…”<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…”<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.11](../versions/0.8.11.md) | Dialogue: 8 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |

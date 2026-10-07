@@ -29,7 +29,7 @@ description: "Rotten meat is a ordinary food in Andor's Trail. How to get it: mo
 | Stat | Value |
 |---|---|
 | Heal HP | -15 to -10 |
-| On self | Food-poisoning (magnitude 5, 10 rounds, 100% chance) |
+| On self | [Food-poisoning](../conditions/foodp.md) (magnitude 5, 10 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

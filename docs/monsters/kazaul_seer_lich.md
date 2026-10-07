@@ -55,9 +55,9 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Mind fog (magnitude 1, 2 rounds, 18% chance)
+**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
 
-**When hit:** On target: Kazaul possession (magnitude 1, 2 rounds, 10% chance)
+**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -172,9 +172,9 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Mind fog (magnitude 1, 2 rounds, 18% chance)
+**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
 
-**When hit:** On target: Kazaul possession (magnitude 1, 2 rounds, 10% chance)
+**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -291,9 +291,9 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Mind fog (magnitude 1, 2 rounds, 18% chance)
+**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
 
-**When hit:** On target: Kazaul possession (magnitude 1, 2 rounds, 10% chance)
+**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -412,9 +412,9 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**On hit:** On target: Mind fog (magnitude 1, 2 rounds, 18% chance)
+**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
 
-**When hit:** On target: Kazaul possession (magnitude 1, 2 rounds, 10% chance)
+**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -41,7 +41,7 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Dazed (magnitude 3, 3 rounds, 50% chance)
+**On hit:** On target: [Dazed](../conditions/dazed.md) (magnitude 3, 3 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

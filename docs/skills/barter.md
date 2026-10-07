@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Shop price penalty −4 points per level (better buy and sell prices) ([abbreviations](../glossary.md)) |
 | **Category** | Utility |
 | **Max level** | 3 |
 | **Obtained via** | Skill points |

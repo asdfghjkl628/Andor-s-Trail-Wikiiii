@@ -39,7 +39,7 @@ description: "Branch of twilight is a rare scepter in Andor's Trail (Attack dama
 
 | Stat | Value |
 |---|---|
-| On target | Putrefaction (magnitude 1, 2 rounds, 3% chance); Chaotic grip (magnitude 3, 2 rounds, 25% chance) |
+| On target | [Putrefaction](../conditions/putrefaction.md) (magnitude 1, 2 rounds, 3% chance); [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 3, 2 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -58,7 +58,7 @@ description: "Branch of twilight is a rare scepter in Andor's Trail (Attack dama
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | hitEffect: {"conditionsTarget": [{"chance": "3", "… → {"conditionsTarget": [{"chance": "3", "… |
+| [v0.8.4](../versions/0.8.4.md) | On hit, condition on target: [Putrefaction](../conditions/putrefaction.md) (magnitude 1, 1 rounds, 3% chance) → (magnitude 1, 2 rounds, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

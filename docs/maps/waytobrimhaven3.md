@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven3 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Forenza, Sly Seraphina. Enemies: Small rabid dog, Rabid hound, Erumen lizard, Spotted erumen lizard, Young erumen lizard. Exits to Brimhaven4, Waterway6, Waytobrimhaven2."
+description: "Waytobrimhaven3 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Forenza, Sly Seraphina. Enemies: Small rabid dog, Rabid hound, Young erumen lizard, Spotted erumen lizard, Erumen lizard. Exits to Brimhaven4, Waterway6, Waytobrimhaven2."
 ---
 
 # Waytobrimhaven3
@@ -69,9 +69,9 @@ description: "Waytobrimhaven3 is an outdoor location in Andor's Trail, near Brim
 |---|---|---|---|---|
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 4 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 3 | – |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 6 | shares spawn with Strong erumen lizard |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 6 | shares spawn with Strong erumen lizard |
 | [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 6 | shares spawn with Erumen lizard |
 
@@ -104,14 +104,14 @@ description: "Waytobrimhaven3 is an outdoor location in Andor's Trail, near Brim
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
-| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | Map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

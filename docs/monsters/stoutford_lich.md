@@ -41,7 +41,7 @@ description: "Eliszylae is an enemy in Andor's Trail (undead) with 135 HP, worth
 | Critical multiplier | 2.0 |
 | Critical hit chance | 23% |
 
-**On hit:** Heal HP: 2 to 4; On target: Minor weapon feebleness (magnitude 2, 2 rounds, 15% chance)
+**On hit:** Heal HP: 2 to 4; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 2 rounds, 15% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

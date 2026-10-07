@@ -48,7 +48,7 @@ description: "Dread guardian is an NPC who can also be fought in Andor's Trail, 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Fear (magnitude 2, 3 rounds, 35% chance)
+**On hit:** On target: [Fear](../conditions/fear.md) (magnitude 2, 3 rounds, 35% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

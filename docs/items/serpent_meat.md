@@ -26,7 +26,7 @@ description: "Serpent meat is a ordinary food in Andor's Trail. How to get it: m
 
 | Stat | Value |
 |---|---|
-| On self | Blindness (100% chance); Sustenance (magnitude 2, 5 rounds, 100% chance); Food-poisoning (magnitude 2, 8 rounds, 8% chance) |
+| On self | removes [Blindness](../conditions/blindness.md); [Sustenance](../conditions/food.md) (magnitude 2, 5 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 2, 8 rounds, 8% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

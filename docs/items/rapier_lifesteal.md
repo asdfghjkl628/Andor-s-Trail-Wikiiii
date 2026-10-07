@@ -66,7 +66,7 @@ description: "Rapier of lifesteal is a legendary rapier in Andor's Trail (Attack
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 21, "increaseA… → {"increaseAttackChance": 21, "increaseA… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (131) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

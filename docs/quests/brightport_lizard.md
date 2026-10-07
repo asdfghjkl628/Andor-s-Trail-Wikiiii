@@ -213,7 +213,7 @@ description: "The balance of scales is a quest in Andor's Trail, started by step
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 23 lines added |
-| [v0.8.18](../versions/0.8.18.md) | stage 55 journal text changed<br>Dialogue: 1 line changed<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…” |
+| [v0.8.18](../versions/0.8.18.md) | Stage 55 journal text changed<br>Dialogue: 1 line changed<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

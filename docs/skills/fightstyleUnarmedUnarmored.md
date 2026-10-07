@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | No weapon, shield or armor: +12 AC, +5 BC, +1 DR, +4 max dmg per level; CM ×(1 + 0.25 per level) ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 3 |
 | **Obtained via** | Skill points |

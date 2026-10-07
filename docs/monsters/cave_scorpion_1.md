@@ -41,7 +41,7 @@ description: "Aggressive cave scorpion is an enemy in Andor's Trail (insect) wit
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Minor sting (magnitude 2, 2 rounds, 20% chance)
+**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 2, 2 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -68,7 +68,7 @@ description: "Aggressive cave scorpion is an enemy in Andor's Trail (insect) wit
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.9](../versions/0.7.9.md) | name: Agressive cave scorpion → Aggressive cave scorpion |
+| [v0.7.9](../versions/0.7.9.md) | Renamed “Agressive cave scorpion” → “Aggressive cave scorpion” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

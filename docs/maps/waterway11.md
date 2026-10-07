@@ -1,5 +1,5 @@
 ---
-description: "Waterway11 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Izthiel, Erumen lizard, Spotted erumen lizard, Young erumen lizard. Exits to Waterway11 east, Waterway forest1, Waterway9."
+description: "Waterway11 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Young erumen lizard, Spotted erumen lizard, Erumen lizard, Izthiel. Exits to Waterway11 east, Waterway forest1, Waterway9."
 ---
 
 # Waterway11
@@ -53,10 +53,10 @@ South: Brightport”">4</a></div>
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young izthiel](../monsters/izthiel_1.md) | 40 | 2–7 | 1 | – |
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 3 | shares spawn with Strong erumen lizard |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 7 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 7 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 7 | shares spawn with Young erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 3 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 3 | shares spawn with Erumen lizard |
 | [Hardened erumen lizard](../monsters/erumen_7.md) | 93 | 2–9 | 2 | – |
 
@@ -72,11 +72,11 @@ South: Brightport”">4</a></div>
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.11](../versions/0.8.11.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.11](../versions/0.8.11.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -41,7 +41,7 @@ description: "Queen Sullengard forest snake is an enemy in Andor's Trail (reptil
 | Critical multiplier | 3.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Nausea (magnitude 3, 5 rounds, 43% chance)
+**On hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 43% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -66,7 +66,7 @@ description: "Queen Sullengard forest snake is an enemy in Andor's Trail (reptil
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.5](../versions/0.8.5.md) | spawnGroup: sullengard_venom_snake → sullengard_venom_snake_queen |
+| [v0.8.5](../versions/0.8.5.md) | Spawn group changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

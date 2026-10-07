@@ -45,7 +45,7 @@ description: "Animated debris is an enemy in Andor's Trail (construct) with 70 H
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On self: Shadow's accuracy (magnitude 2, 2 rounds, 10% chance); On target: Bleeding wound (magnitude 3, 5 rounds, 20% chance)
+**On hit:** On self: [Shadow's accuracy](../conditions/shadow_acc.md) (magnitude 2, 2 rounds, 10% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

@@ -412,7 +412,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | faction added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “We need your help in dealing with some .. problems.” → “We need your help in dealing with some ... problems.”<br>· text: “Those damn beasts outside our very settlement. The white wyrms and th…” → “Those damn beasts outside our very settlement. The white wyrms and th…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Thank you, friend. Your help is greatly appreciated. Everyone in the …” → “Thank you, friend. Your help is greatly appreciated. Everyone in the …”<br>· text: “We believe they are planning to attack us any day now. But we lack an…” → “We believe they are planning to attack us any day now. But we lack th…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

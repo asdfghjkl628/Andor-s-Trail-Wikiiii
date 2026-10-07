@@ -216,7 +216,7 @@ No links to other quests were found in the dialogue conditions.
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 34 lines added |
-| [v0.7.4](../versions/0.7.4.md) | stage 15 journal text changed; stage 25 journal text changed; stage 60 journal text changed; stage 70 journal text changed; stage 75 journal text changed; stage 80 journal text changed (+7 more) |
+| [v0.7.4](../versions/0.7.4.md) | Stage 15 journal text changed<br>Stage 25 journal text changed<br>Stage 60 journal text changed<br>Stage 70 journal text changed<br>Stage 75 journal text changed<br>Stage 80 journal text changed<br>Stage 90 journal text changed<br>Stage 100 journal text changed<br>Stage 110 journal text changed<br>Stage 115 journal text changed<br>(+3 more) |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

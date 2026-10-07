@@ -42,13 +42,13 @@ description: "Heartsteel doomhammer is a legendary giant hammer in Andor's Trail
 
 | Stat | Value |
 |---|---|
-| On target | Heartstone poisoning (magnitude 4, 2 rounds, 10% chance); Fracture (magnitude 1, 3 rounds, 5% chance) |
+| On target | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 4, 2 rounds, 10% chance); [Fracture](../conditions/crit2.md) (magnitude 1, 3 rounds, 5% chance) |
 
 ### On kill
 
 | Stat | Value |
 |---|---|
-| On self | Heartstone poisoning (magnitude 2, 2 rounds, 5% chance) |
+| On self | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 2, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

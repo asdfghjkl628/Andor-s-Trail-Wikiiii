@@ -26,7 +26,7 @@ description: "Bogsten's mushroom is a ordinary food in Andor's Trail. How to get
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 1, 3 rounds, 50% chance); Food-poisoning (magnitude 3, 3 rounds, 50% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 1, 3 rounds, 50% chance); [Food-poisoning](../conditions/foodp.md) (magnitude 3, 3 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

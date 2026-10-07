@@ -26,7 +26,7 @@ description: "Especially sweet ice berries is a ordinary food in Andor's Trail. 
 
 | Stat | Value |
 |---|---|
-| On self | Sustenance (magnitude 6, 5 rounds, 100% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 6, 5 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

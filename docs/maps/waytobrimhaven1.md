@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven1 is an outdoor location in Andor's Trail, near Loneford (settlement). NPCs: Sly Seraphina. Enemies: Grasslands beetle, Tough grasslands beetle, Rabid hound, Spotted erumen lizard, Young erumen lizard. Exits to Waterwayb1, Waytobrimhaven2, Waytobrimhaven4, Waytobrimhaven0."
+description: "Waytobrimhaven1 is an outdoor location in Andor's Trail, near Loneford (settlement). NPCs: Sly Seraphina. Enemies: Grasslands beetle, Tough grasslands beetle, Rabid hound, Young erumen lizard, Spotted erumen lizard. Exits to Waterwayb1, Waytobrimhaven2, Waytobrimhaven4, Waytobrimhaven0."
 ---
 
 # Waytobrimhaven1
@@ -64,8 +64,8 @@ description: "Waytobrimhaven1 is an outdoor location in Andor's Trail, near Lone
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 3 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 3 | shares spawn with Grasslands beetle |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 5 | – |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -89,12 +89,12 @@ description: "Waytobrimhaven1 is an outdoor location in Andor's Trail, near Lone
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.11](../versions/0.7.11.md) | map layout or objects changed |
-| [v0.7.12](../versions/0.7.12.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.11](../versions/0.7.11.md) | Map layout or objects changed |
+| [v0.7.12](../versions/0.7.12.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

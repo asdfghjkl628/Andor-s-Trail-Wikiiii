@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Heavy armor: +20% of its BC, −25% of its AP-cost penalties, per level ([abbreviations](../glossary.md)) |
 | **Category** | Proficiency |
 | **Max level** | 4 |
 | **Obtained via** | First level from a quest, then skill points |

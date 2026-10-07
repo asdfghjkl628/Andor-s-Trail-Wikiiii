@@ -454,7 +454,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 13 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | droplistID added (thief_seraphina_dl)<br>Dialogue: 3 lines added, 1 line changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Loot table added<br>Dialogue: 3 lines added, 1 line changed |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 43 lines added, 3 lines changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Well, as a matter of fact, I do. I have a board right here under the …” → “Well, as a matter of fact, I do. I have a board right here under the …” |
 

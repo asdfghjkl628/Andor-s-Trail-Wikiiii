@@ -1,5 +1,5 @@
 ---
-description: "Waterway13 is an outdoor location in Andor's Trail. Enemies: Erumen lizard, Spotted erumen lizard, Young erumen lizard, Strong izthiel, Strong erumen lizard. Exits to Waterway8, Waterway12."
+description: "Waterway13 is an outdoor location in Andor's Trail. Enemies: Young erumen lizard, Spotted erumen lizard, Erumen lizard, Strong izthiel, Strong erumen lizard. Exits to Waterway8, Waterway12."
 ---
 
 # Waterway13
@@ -47,9 +47,9 @@ description: "Waterway13 is an outdoor location in Andor's Trail. Enemies: Erume
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 6 | shares spawn with Strong erumen lizard |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 6 | shares spawn with Strong erumen lizard |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 3 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 6 | shares spawn with Erumen lizard |
 
@@ -61,8 +61,8 @@ description: "Waterway13 is an outdoor location in Andor's Trail. Enemies: Erume
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

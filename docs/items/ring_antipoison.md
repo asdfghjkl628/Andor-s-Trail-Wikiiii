@@ -1,5 +1,5 @@
 ---
-description: "Ring of poison immunity is a extraordinary ring in Andor's Trail (Grants Weak Poison (magnitude -99); Irdegh poison (magnitude -99); Venom (magnitude -99)). How to get it: shops."
+description: "Ring of poison immunity is a extraordinary ring in Andor's Trail (Grants immunity to Weak Poison; immunity to Irdegh poison; immunity to Venom). How to get it: shops."
 ---
 
 # ![](../assets/icons/items/items_japozero_248.png){ .sprite } Ring of poison immunity
@@ -27,7 +27,7 @@ description: "Ring of poison immunity is a extraordinary ring in Andor's Trail (
 
 | Stat | Value |
 |---|---|
-| Grants | Weak Poison (magnitude -99); Irdegh poison (magnitude -99); Venom (magnitude -99) |
+| Grants | immunity to [Weak Poison](../conditions/poison_weak.md); immunity to [Irdegh poison](../conditions/poison_irdegh.md); immunity to [Venom](../conditions/venom.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -46,7 +46,7 @@ description: "Ring of poison immunity is a extraordinary ring in Andor's Trail (
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added |
-| [v0.7.15](../versions/0.7.15.md) | equipEffect: {"addedConditions": [{"condition": "poi… → {"addedConditions": [{"condition": "poi… |
+| [v0.7.15](../versions/0.7.15.md) | When equipped, grants condition: removed [Blood poisoning](../conditions/poison_blood.md) (magnitude -99)<br>When equipped, grants condition: added [Irdegh poison](../conditions/poison_irdegh.md) (magnitude -99)<br>When equipped, grants condition: removed [Weak irdegh poison](../conditions/poison_irdegh_weak.md) (magnitude -99)<br>When equipped, grants condition: added [Venom](../conditions/venom.md) (magnitude -99) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

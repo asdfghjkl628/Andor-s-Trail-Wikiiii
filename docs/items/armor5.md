@@ -40,7 +40,7 @@ description: "Iced leather armor is a extraordinary armor, leather in Andor's Tr
 | Critical skill | -10 |
 | Block chance | +20 |
 | Damage resistance | +2 |
-| Grants | Ablaze (magnitude -99) |
+| Grants | immunity to [Ablaze](../conditions/fire.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

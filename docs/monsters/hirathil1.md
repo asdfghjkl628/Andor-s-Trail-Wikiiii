@@ -75,7 +75,7 @@ description: "Aggressive hirathil ghost is an enemy in Andor's Trail (ghost) wit
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Aggressive Hirathil ghost → Aggressive hirathil ghost |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Aggressive Hirathil ghost” → “Aggressive hirathil ghost” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

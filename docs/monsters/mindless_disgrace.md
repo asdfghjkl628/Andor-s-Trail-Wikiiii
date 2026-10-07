@@ -41,7 +41,7 @@ description: "Mindless disgrace is an enemy in Andor's Trail (undead) with 275 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**When hit:** On target: Mind fog (magnitude 3, 4 rounds, 25% chance)
+**When hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 3, 4 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

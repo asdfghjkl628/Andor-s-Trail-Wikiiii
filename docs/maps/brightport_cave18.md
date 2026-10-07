@@ -1,5 +1,5 @@
 ---
-description: "Brightport cave18 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith, Cave scorpion. Exits to Brightport cave17, Brightport cave19."
+description: "Brightport cave18 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Cave scorpion, Wraith. Exits to Brightport cave17, Brightport cave19."
 ---
 
 # Brightport cave18
@@ -48,8 +48,8 @@ description: "Brightport cave18 is an indoor location in Andor's Trail, in Burie
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Wraith](../monsters/brightport_wraith.md) | 150 | 16–31 | 2 | – |
 | [Cave scorpion](../monsters/cave_scorpion_0.md#v-brightport_scorpion) | 150 | 16–30 | 2 | – |
+| [Wraith](../monsters/brightport_wraith.md) | 150 | 16–31 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

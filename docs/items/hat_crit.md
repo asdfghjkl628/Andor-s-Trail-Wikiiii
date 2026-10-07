@@ -46,7 +46,7 @@ description: "Woodcutter's feathered hat is a extraordinary headwear, cloth in A
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.8.12.1](../versions/0.8.12.1.md) | equipEffect: {"increaseBlockChance": -5, "increaseCr… → {"increaseCriticalSkill": 4} |
+| [v0.8.12.1](../versions/0.8.12.1.md) | When equipped, block chance: removed (was −5) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

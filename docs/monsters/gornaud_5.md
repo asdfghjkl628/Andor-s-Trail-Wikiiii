@@ -41,7 +41,7 @@ description: "Garnet Gornaud is an enemy in Andor's Trail (giant) with 385 HP, w
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Dazed (magnitude 1, 3 rounds, 25% chance)
+**On hit:** On target: [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

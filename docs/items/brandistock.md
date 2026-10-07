@@ -54,7 +54,7 @@ description: "Brandistock is a ordinary pole weapon in Andor's Trail (Attack dam
 | Version | Change |
 |---|---|
 | [v0.7.12](../versions/0.7.12.md) | Added |
-| [v0.7.13](../versions/0.7.13.md) | equipEffect: {"increaseAttackCost": 5, "increaseAtta… → {"increaseAttackChance": 14, "increaseA… |
+| [v0.7.13](../versions/0.7.13.md) | When equipped, attack chance: added (+14)<br>When equipped, attack damage: 3–4 → 3–6 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

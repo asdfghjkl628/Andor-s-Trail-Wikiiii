@@ -53,7 +53,7 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 1 to 3; On target: Putrefaction (magnitude 2, 3 rounds, 30% chance)
+**On hit:** Heal HP: 1 to 3; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 2, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -76,7 +76,7 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.12](../versions/0.7.12.md) | phraseID removed |
+| [v0.7.12](../versions/0.7.12.md) | Conversation removed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -164,7 +164,7 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** Heal HP: 1 to 3; On target: Putrefaction (magnitude 2, 3 rounds, 30% chance)
+**On hit:** Heal HP: 1 to 3; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 2, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -208,7 +208,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 2 lines added |
-| [v0.7.12](../versions/0.7.12.md) | droplistID added (gold200); maxAP added (10); movementAggressionType removed; phraseID added (graveyard_corpse1) |
+| [v0.7.12](../versions/0.7.12.md) | Loot table added<br>Max AP: added (10)<br>Movement: removed (was none)<br>Conversation added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

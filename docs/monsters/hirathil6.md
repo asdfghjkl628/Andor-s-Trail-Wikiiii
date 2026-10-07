@@ -72,7 +72,7 @@ description: "Hirathil master is an enemy in Andor's Trail (ghost) with 89 HP, w
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | name: Hirathil Master → Hirathil master |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Hirathil Master” → “Hirathil master” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

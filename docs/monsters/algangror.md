@@ -591,7 +591,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 30 lines changed<br>· text: “I have in my possession five idols. Five idols with very unique .. qu…” → “I have in my possession five idols. Five idols with very unique ... q…”<br>· text: “Say, you seem like a resourceful person. Would you be interested in h…” → “Say, you seem like a resourceful person. Would you be interested in h…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “You should probably leave before you tip something over that might ..…” → “You should probably leave before you tip something over that might ..…”<br>· text: “So I went to Nor City myself, and visited many .. interesting people …” → “So I went to Nor City myself, and visited many ... interesting people…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 

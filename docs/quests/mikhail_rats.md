@@ -78,7 +78,7 @@ Start with [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)). Required
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed |
-| [v0.7.10](../versions/0.7.10.md) | stage 100 XP 20 → 30 |
+| [v0.7.10](../versions/0.7.10.md) | Stage 100 XP 20 → 30 |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Oh you did? Wow, thanks a lot for your help! If you are hurt, use you…” → “Oh you did? Wow, thanks a lot for your help! Please take Andor's trai…” |
 | [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I saw some rats out back in our garden earlier. Could you please go k…” → “I saw some rats out back in our garden earlier. Could you please go k…” |
 

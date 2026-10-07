@@ -34,7 +34,7 @@ description: "Blackwater iron sword is a rare longsword in Andor's Trail (Attack
 | Attack chance | +50 |
 | Block chance | +5 |
 | setNonWeaponDamageModifier | +115 |
-| Grants | Blackwater misery (magnitude 1) |
+| Grants | [Blackwater misery](../conditions/blackwater_misery.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -61,8 +61,8 @@ description: "Blackwater iron sword is a rare longsword in Andor's Trail (Attack
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"addedConditions": [{"condition": "bla… → {"addedConditions": [{"condition": "bla… |
-| [v0.7.12](../versions/0.7.12.md) | equipEffect: {"addedConditions": [{"condition": "bla… → {"addedConditions": [{"condition": "bla… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (95) |
+| [v0.7.12](../versions/0.7.12.md) | When equipped, non-weapon damage modifier (%): 95 → 115 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

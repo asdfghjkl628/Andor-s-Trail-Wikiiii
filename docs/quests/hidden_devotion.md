@@ -15,7 +15,7 @@ description: "hidden_devotion is a hidden quest in Andor's Trail, started by ste
 | **In journal** | No (hidden flag) |
 | **Stages** | 24 |
 | **Started by** | stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) |
-| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade1.md#v-shade10), [Forsaken shade](../monsters/shade1.md#v-shade5), [Forsaken shade](../monsters/shade1.md), [Forsaken shade](../monsters/shade1.md#v-shade4), [Forsaken shade](../monsters/shade1.md#v-shade6) +6 |
+| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade1.md#v-shade10), [Forsaken shade](../monsters/shade1.md#v-shade11), [Forsaken shade](../monsters/shade1.md#v-shade6), [Forsaken shade](../monsters/shade1.md), [Forsaken shade](../monsters/shade1.md#v-shade9) +6 |
 | **Locations** | [undertell_3_00](../maps/undertell_3_00.md), [undertell_3_02](../maps/undertell_3_02.md), [undertell_3_03](../maps/undertell_3_03.md), [undertell_3_10](../maps/undertell_3_10.md) |
 | **Related quests** | 2 |
 

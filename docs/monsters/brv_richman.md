@@ -217,7 +217,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 13 lines added |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “Alkapoan's letters accidently fell into a fire and I am sure some unk…” → “It seems Alkapoan's letters accidentally fell into a fire and I am su…”<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…”<br>· text: “Alkapoan's letters accidently fell into a fire and I am sure some unk…” → “It seems Alkapoan's letters accidentally fell into a fire and I am su…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 13 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 11 lines added, 2 lines changed |
 

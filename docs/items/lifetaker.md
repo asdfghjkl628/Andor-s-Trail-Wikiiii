@@ -43,7 +43,7 @@ description: "LifeTaker is a extraordinary longsword in Andor's Trail (Attack da
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 1, 2 rounds, 15% chance); Stunned (magnitude 1, 1 rounds, 15% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 1, 2 rounds, 15% chance); [Stunned](../conditions/stunned.md) (magnitude 1, 1 round, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -74,9 +74,9 @@ Where the game checks for this item in dialogue:
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.9](../versions/0.7.9.md) | hasManualPrice added (1) |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 30, "increaseA… → {"increaseAttackChance": 30, "increaseA… |
-| [v0.8.13](../versions/0.8.13.md) | hitEffect: {"conditionsTarget": [{"chance": "15", … → {"conditionsTarget": [{"chance": "15", … |
+| [v0.7.9](../versions/0.7.9.md) | Price now set manually instead of calculated from its statistics |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (104) |
+| [v0.8.13](../versions/0.8.13.md) | On hit, condition on target: [Stunned](../conditions/stunned.md) (magnitude 1, 1 rounds, 5% chance) → (magnitude 1, 1 rounds, 15% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

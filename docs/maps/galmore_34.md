@@ -1,5 +1,5 @@
 ---
-description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Ridgehowler, Harrowback, Mutated harrowback. Exits to Galmore 24, Galmore 35, Galmore 44, Galmore 33."
+description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Ridgehowler, Mutated harrowback, Harrowback. Exits to Galmore 24, Galmore 35, Galmore 44, Galmore 33."
 ---
 
 # Galmore 34
@@ -54,8 +54,8 @@ description: "Galmore 34 is an outdoor location in Andor's Trail, near Mt. Galmo
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Ridgehowler](../monsters/ridgehowler.md) | 180 | 19–19 | 3 | – |
-| [Harrowback](../monsters/harrowback.md) | 197 | 10–11 | 6 | – |
 | [Mutated harrowback](../monsters/mutated_harrowback.md) | 197 | 10–13 | 3 | – |
+| [Harrowback](../monsters/harrowback.md) | 197 | 10–11 | 6 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

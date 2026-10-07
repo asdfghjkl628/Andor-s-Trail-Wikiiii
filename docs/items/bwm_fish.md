@@ -29,7 +29,7 @@ description: "Raw inkyfish is a ordinary edible animal part in Andor's Trail. Ho
 | Stat | Value |
 |---|---|
 | Heal HP | 0 to 2 |
-| On self | Sustenance (magnitude 2, 10 rounds, 100% chance); Food-poisoning (magnitude 3, 10 rounds, 10% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 10 rounds); [Food-poisoning](../conditions/foodp.md) (magnitude 3, 10 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -70,7 +70,7 @@ description: "Raw inkyfish is a ordinary edible animal part in Andor's Trail. Ho
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.7.15](../versions/0.7.15.md) | description: When threatened, these fishes secret a … → When threatened, these fish secrete a d… |
+| [v0.7.15](../versions/0.7.15.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

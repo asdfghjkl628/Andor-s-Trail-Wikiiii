@@ -26,7 +26,7 @@ description: "Irdegh poison elixir is a ordinary potion in Andor's Trail. How to
 
 | Stat | Value |
 |---|---|
-| On self | Irdegh poison (100% chance); Weak irdegh poison (magnitude 2, 30 rounds, 100% chance) |
+| On self | removes [Irdegh poison](../conditions/poison_irdegh.md); [Weak irdegh poison](../conditions/poison_irdegh_weak.md) (magnitude 2, 30 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

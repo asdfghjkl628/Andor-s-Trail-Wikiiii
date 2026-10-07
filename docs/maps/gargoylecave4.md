@@ -1,5 +1,5 @@
 ---
-description: "Gargoylecave4 is an indoor location in Andor's Trail. Enemies: Shadow gargoyle trainer, Shadow gargoyle master. Exits to Gargoylecave2."
+description: "Gargoylecave4 is an indoor location in Andor's Trail. Enemies: Shadow gargoyle master, Shadow gargoyle trainer. Exits to Gargoylecave2."
 ---
 
 # Gargoylecave4
@@ -45,8 +45,8 @@ description: "Gargoylecave4 is an indoor location in Andor's Trail. Enemies: Sha
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 | 3–6 | 1 | – |
 | [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 35 | 3–6 | 1 | – |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 | 3–6 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -56,9 +56,9 @@ description: "Gargoylecave4 is an indoor location in Andor's Trail. Enemies: Sha
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

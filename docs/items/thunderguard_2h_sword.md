@@ -42,8 +42,8 @@ description: "Thunderguard Copper sword is a rare two-handed sword in Andor's Tr
 
 | Stat | Value |
 |---|---|
-| On self | Strength (magnitude 1, 2 rounds, 10% chance) |
-| On target | Dazed (magnitude 1, 3 rounds, 25% chance) |
+| On self | [Strength](../conditions/str.md) (magnitude 1, 2 rounds, 10% chance) |
+| On target | [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -62,7 +62,7 @@ description: "Thunderguard Copper sword is a rare two-handed sword in Andor's Tr
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | hitEffect: {"conditionsSource": [{"chance": "10", … → {"conditionsSource": [{"chance": "10", … |
+| [v0.8.4](../versions/0.8.4.md) | On hit, condition on self: removed [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 35% chance)<br>On hit, condition on target: added [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

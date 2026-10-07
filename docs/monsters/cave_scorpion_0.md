@@ -53,7 +53,7 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Minor sting (magnitude 1, 3 rounds, 20% chance)
+**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 1, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

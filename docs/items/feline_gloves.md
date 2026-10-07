@@ -31,7 +31,7 @@ description: "Feline gloves is a rare gloves, cloth in Andor's Trail (Use item c
 | Re-equip cost | -1 |
 | Attack chance | +17 |
 | Block chance | +8 |
-| Grants | Clumsiness (magnitude 1) |
+| Grants | [Clumsiness](../conditions/clumsiness.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

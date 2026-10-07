@@ -33,7 +33,7 @@ description: "Ring of lesser Shadow is a legendary ring in Andor's Trail (Attack
 | Attack chance | +25 |
 | Critical skill | +6 |
 | Block chance | +5 |
-| Grants | Shadow Regeneration (magnitude 1) |
+| Grants | [Shadow Regeneration](../conditions/regen.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

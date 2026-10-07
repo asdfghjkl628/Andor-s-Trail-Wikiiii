@@ -38,7 +38,7 @@ description: "Armored boots is a rare footwear, metal (heavy) in Andor's Trail (
 
 | Stat | Value |
 |---|---|
-| On self | Minor increased defense (magnitude 1, 1 rounds, 3% chance) |
+| On self | [Minor increased defense](../conditions/minor_increased_defense.md) (magnitude 1, 1 round, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

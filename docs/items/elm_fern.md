@@ -29,7 +29,7 @@ description: "Cave fern is a rare food in Andor's Trail. How to get it: containe
 | Stat | Value |
 |---|---|
 | Heal HP | 3 to 12 |
-| On self | Putrefaction (magnitude -99, 10 rounds, 100% chance) |
+| On self | immunity to [Putrefaction](../conditions/putrefaction.md) for 10 rounds |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -48,7 +48,7 @@ description: "Cave fern is a rare food in Andor's Trail. How to get it: containe
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.7.17](../versions/0.7.17.md) | description: A fern inside a cave is something out o… → A fern inside a cave is something unusu… |
+| [v0.7.17](../versions/0.7.17.md) | Description text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

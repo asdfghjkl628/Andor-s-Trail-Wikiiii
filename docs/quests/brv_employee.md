@@ -102,8 +102,8 @@ None: talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 8 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 41 journal text changed; stage 42 journal text changed; stage 43 journal text changed (+1 more) |
-| [v0.7.13](../versions/0.7.13.md) | stage 90 XP 0 → 1000 |
+| [v0.7.12](../versions/0.7.12.md) | Stage 10 journal text changed<br>Stage 30 journal text changed<br>Stage 40 journal text changed<br>Stage 41 journal text changed<br>Stage 42 journal text changed<br>Stage 43 journal text changed<br>Stage 90 journal text changed |
+| [v0.7.13](../versions/0.7.13.md) | Stage 90 XP 0 → 1000 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

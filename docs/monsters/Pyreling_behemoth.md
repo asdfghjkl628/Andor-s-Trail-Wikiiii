@@ -45,7 +45,7 @@ description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 36
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**When hit:** On target: Ablaze (magnitude 2, 4 rounds, 75% chance)
+**When hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 2, 4 rounds, 75% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

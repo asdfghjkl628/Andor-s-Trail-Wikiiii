@@ -89,14 +89,14 @@ description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrin
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost3) | 0 | 0–0 | 2 | shares spawn with Ghost |
 | [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost1) | 0 | 0–0 | 2 | shares spawn with Ghost |
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost2) | 0 | 0–0 | 4 | – |
 | [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost4) | 0 | 0–0 | 2 | – |
+| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost2) | 0 | 0–0 | 4 | – |
+| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost3) | 0 | 0–0 | 2 | shares spawn with Ghost |
 | [Ghost](../monsters/ratdom_ghost.md) | 0 | 0–0 | 1 | – |
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

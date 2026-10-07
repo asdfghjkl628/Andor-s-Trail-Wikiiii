@@ -41,7 +41,7 @@ description: "Venomous beach crawler is an enemy in Andor's Trail (animal) with 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 3, 4 rounds, 45% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 4 rounds, 45% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

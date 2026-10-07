@@ -111,7 +111,7 @@ No links to other quests were found in the dialogue conditions.
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 10 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
-| [v0.7.12](../versions/0.7.12.md) | stages added: 101<br>Dialogue: 1 line added |
+| [v0.7.12](../versions/0.7.12.md) | Stages added: 101<br>Dialogue: 1 line added |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

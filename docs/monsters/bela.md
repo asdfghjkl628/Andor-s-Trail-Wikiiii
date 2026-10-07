@@ -218,7 +218,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 2 lines changed<br>· text: “Thanks. Take the last room down at the end of the hall.” → “OK. Take the last room down at the end of the hall.” |
-| [v0.7.13](../versions/0.7.13.md) | phraseID: bela → bela_gsnake<br>Dialogue: 13 lines added, 1 line changed |
+| [v0.7.13](../versions/0.7.13.md) | Conversation changed<br>Dialogue: 13 lines added, 1 line changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 3 lines added, 1 line changed |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 7 lines added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line added, 1 line changed |

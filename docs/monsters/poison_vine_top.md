@@ -57,7 +57,7 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Weak Poison (magnitude 3, 5 rounds, 90% chance); Blistering skin (magnitude 3, 4 rounds, 80% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 5 rounds, 90% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 4 rounds, 80% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -160,7 +160,7 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Weak Poison (magnitude 3, 5 rounds, 90% chance); Blistering skin (magnitude 3, 4 rounds, 80% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 5 rounds, 90% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 4 rounds, 80% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

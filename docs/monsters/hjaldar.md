@@ -193,7 +193,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Now, let's see. Some of these.. *Hjaldar pulls out some dried up berr…” → “Now, let's see. Some of these... [Hjaldar pulls out some dried up ber…”<br>· text: “Just a pinch of these into one of these vials..” → “Just a pinch of these into one of these vials...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Ok then. Sorry I couldn't help you. Goodbye.” → “OK then. Sorry I couldn't help you. Goodbye.”<br>· text: “Blackwater Mountain? I'm afraid I don't know where that is. Never min…” → “Blackwater mountain? I'm afraid I don't know where that is. Never min…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

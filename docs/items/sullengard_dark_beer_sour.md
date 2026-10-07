@@ -29,7 +29,7 @@ description: "Dark Beer Sour is a ordinary drink in Andor's Trail. How to get it
 | Stat | Value |
 |---|---|
 | Heal HP | 10 to 15 |
-| On self | Sustenance (magnitude 2, 3 rounds, 100% chance); Intoxicated (magnitude 2, 5 rounds, 70% chance) |
+| On self | [Sustenance](../conditions/food.md) (magnitude 2, 3 rounds); [Intoxicated](../conditions/intoxicated.md) (magnitude 2, 5 rounds, 70% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -50,7 +50,7 @@ description: "Dark Beer Sour is a ordinary drink in Andor's Trail. How to get it
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | category: food → drink |
+| [v0.8.18](../versions/0.8.18.md) | Category: food → drink |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

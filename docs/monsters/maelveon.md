@@ -109,7 +109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 4 lines changed<br>· text: “G.. argoyle Shadow.” → “G ... argoyle Shadow.”<br>· text: “[the figure lifts his hand and points at you]” → “[The figure lifts his hand and points at you]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “G.. argoyle Shadow.” → “G ... argoyle Shadow.”<br>· text: “A.. llow the Sssshadow in you.” → “A ... llow the Sssshadow in you.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

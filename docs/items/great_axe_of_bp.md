@@ -44,7 +44,7 @@ description: "Greataxe of broken promises is a rare greataxe in Andor's Trail (A
 
 | Stat | Value |
 |---|---|
-| On self | Increased defense (magnitude 1, 3 rounds, 10% chance) |
+| On self | [Increased defense](../conditions/increased_defense.md) (magnitude 1, 3 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -63,7 +63,7 @@ description: "Greataxe of broken promises is a rare greataxe in Andor's Trail (A
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | description: It promised to saves lives, but instead… → It promised to save lives, but instead …; equipEffect: {"increaseAttackChance": 35, "increaseA… → {"increaseAttackChance": 35, "increaseA… |
+| [v0.8.4](../versions/0.8.4.md) | Description text changed<br>When equipped, non-weapon damage modifier (%): 150 → 160 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

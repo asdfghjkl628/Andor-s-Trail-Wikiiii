@@ -45,7 +45,7 @@ description: "Olive ooze is an enemy in Andor's Trail (construct) with 20 HP, wo
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Corrosive slime (magnitude 1, 3 rounds, 40% chance)
+**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 1, 3 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -74,7 +74,7 @@ description: "Olive ooze is an enemy in Andor's Trail (construct) with 20 HP, wo
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 40, "c… → {"conditionsTarget": [{"chance": "40", …; name: Olive Ooze → Olive ooze |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Corrosive slime](../conditions/slime.md) (magnitude 1, 3 rounds, 40% chance) → (magnitude 1, 3 rounds, 40% chance)<br>Renamed “Olive Ooze” → “Olive ooze” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

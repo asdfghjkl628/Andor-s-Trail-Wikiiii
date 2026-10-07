@@ -86,7 +86,7 @@ description: "Rat mountain 3 is an outdoor location in Andor's Trail, near Flags
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added |
-| [v0.8.9](../versions/0.8.9.md) | map layout or objects changed |
+| [v0.8.9](../versions/0.8.9.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

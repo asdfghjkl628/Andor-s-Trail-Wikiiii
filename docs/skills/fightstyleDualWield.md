@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Off-hand weapon counts 50% (level 1) or 100% (level 2), up from 25% ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 2 |
 | **Obtained via** | Skill points |

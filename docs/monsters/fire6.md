@@ -45,7 +45,7 @@ description: "Flame spawn is an enemy in Andor's Trail (construct) with 127 HP, 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Ablaze (magnitude 2, 5 rounds, 10% chance)
+**On hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 2, 5 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -70,7 +70,7 @@ description: "Flame spawn is an enemy in Andor's Trail (construct) with 127 HP, 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 10} → {"max": 10, "min": 0}; criticalMultiplier: 2.5 → 2.5; hitEffect: {"conditionsTarget": [{"chance": 10, "c… → {"conditionsTarget": [{"chance": "10", … |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–10 → 0–10<br>Critical multiplier: 2.5 → 2.5<br>On hit, condition on target: [Ablaze](../conditions/fire.md) (magnitude 2, 5 rounds, 10% chance) → (magnitude 2, 5 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

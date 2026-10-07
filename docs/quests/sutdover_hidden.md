@@ -104,8 +104,8 @@ description: "Sutdove_nondisplay is a hidden quest in Andor's Trail, started by 
 | Version | Change |
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 6 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | stages added: 3<br>Dialogue: 1 line added, 3 lines changed |
-| [v0.8.14](../versions/0.8.14.md) | stage 1 journal text changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Stages added: 3<br>Dialogue: 1 line added, 3 lines changed |
+| [v0.8.14](../versions/0.8.14.md) | Stage 1 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

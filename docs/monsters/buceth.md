@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 12 lines changed<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…”<br>· text: “Without going into specifics, let's say that these are methods that h…” → “Without going into specifics, let's say that these are ways that have…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “A while later, the men return. They explain that some of the methods …” → “A while later, the men return. They explain that some of the ways thi…”<br>· text: “Now, tell me. Would you in secret continue using the old methods your…” → “Now, tell me. Would you in secret continue using the old ways your pa…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |

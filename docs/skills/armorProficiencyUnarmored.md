@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | No armor: +10 BC per level ([abbreviations](../glossary.md)) |
 | **Category** | Proficiency |
 | **Max level** | 3 |
 | **Obtained via** | First level from a quest, then skill points |

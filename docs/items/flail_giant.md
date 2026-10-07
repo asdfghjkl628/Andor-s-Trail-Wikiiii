@@ -42,7 +42,7 @@ description: "Giant's flail is a extraordinary two-handed mace in Andor's Trail 
 
 | Stat | Value |
 |---|---|
-| On target | Dazed (magnitude 1, 3 rounds, 20% chance) |
+| On target | [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -63,8 +63,8 @@ description: "Giant's flail is a extraordinary two-handed mace in Andor's Trail 
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 20, "increaseA… → {"increaseAttackChance": 20, "increaseA… |
-| [v0.8.14](../versions/0.8.14.md) | category: mace → mace2h |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (320) |
+| [v0.8.14](../versions/0.8.14.md) | Category: mace → mace2h |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

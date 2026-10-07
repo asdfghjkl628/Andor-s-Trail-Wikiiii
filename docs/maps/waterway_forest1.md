@@ -1,5 +1,5 @@
 ---
-description: "Waterway forest1 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Izthiel, Erumen lizard, Strong erumen lizard, Hardened erumen lizard. Exits to Waterway11, Waterway forest3, Waterway forest2, Waterway10."
+description: "Waterway forest1 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Erumen lizard, Izthiel, Strong erumen lizard, Hardened erumen lizard. Exits to Waterway11, Waterway forest3, Waterway forest2, Waterway10."
 ---
 
 # Waterway forest1
@@ -52,8 +52,8 @@ description: "Waterway forest1 is an outdoor location in Andor's Trail. Enemies:
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young izthiel](../monsters/izthiel_1.md) | 40 | 2–7 | 3 | – |
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 13 | – |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 4 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 13 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 4 | shares spawn with Erumen lizard |
 | [Hardened erumen lizard](../monsters/erumen_7.md) | 93 | 2–9 | 2 | – |
 
@@ -65,7 +65,7 @@ description: "Waterway forest1 is an outdoor location in Andor's Trail. Enemies:
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added |
-| [v0.8.16.1](../versions/0.8.16.1.md) | map layout or objects changed |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -48,7 +48,7 @@ description: "Kamelio is an NPC who can also be fought in Andor's Trail, found i
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** Heal HP: 1 to 4; On target: Vulnerability (magnitude 7, 2 rounds, 10% chance)
+**On hit:** Heal HP: 1 to 4; On target: [Vulnerability](../conditions/vulnerability.md) (magnitude 7, 2 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

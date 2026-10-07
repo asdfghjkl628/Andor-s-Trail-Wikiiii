@@ -41,9 +41,9 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
 | Critical multiplier | 2.0 |
 | Critical hit chance | 12% |
 
-**On hit:** On target: Head wound (magnitude 1, 2 rounds, 20% chance)
+**On hit:** On target: [Head wound](../conditions/head_wound.md) (magnitude 1, 2 rounds, 20% chance)
 
-**When hit:** On self: Minor speed (magnitude 1, 1 rounds, 50% chance)
+**When hit:** On self: [Minor speed](../conditions/speed_minor.md) (magnitude 1, 1 round, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

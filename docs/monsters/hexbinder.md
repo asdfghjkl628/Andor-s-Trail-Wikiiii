@@ -53,7 +53,7 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Withering Focus (magnitude 4, 3 rounds, 28% chance)
+**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 3 rounds, 28% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -161,7 +161,7 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Withering Focus (magnitude 4, 3 rounds, 28% chance)
+**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 3 rounds, 28% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

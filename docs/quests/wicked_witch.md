@@ -135,7 +135,7 @@ Start with [Bela](../monsters/bela.md). Required:
 |---|---|
 | [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 13 lines added |
 | [v0.8.9](../versions/0.8.9.md) | Dialogue: 1 line changed<br>· text: “Ah, YES. I remember her saying that an "undead" friend of her's east …” → “Ah, YES. I remember her saying that an "undead" friend of her's east …” |
-| [v0.8.18](../versions/0.8.18.md) | stage 30 journal text changed |
+| [v0.8.18](../versions/0.8.18.md) | Stage 30 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

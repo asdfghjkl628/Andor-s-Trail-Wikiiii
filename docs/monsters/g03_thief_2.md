@@ -44,7 +44,7 @@ description: "Thief warden is an NPC who can also be fought in Andor's Trail, fo
 | Critical multiplier | 2.0 |
 | Critical hit chance | 12% |
 
-**When hit:** On self: Concentration (magnitude 1, 2 rounds, 25% chance)
+**When hit:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

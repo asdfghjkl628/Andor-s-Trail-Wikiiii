@@ -1,5 +1,5 @@
 ---
-description: "Guildbrig2 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Alaric, Zachlanny, Greedy, Defy, Grabby. Exits to Guildbrig1."
+description: "Guildbrig2 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Grabby, Zachlanny, Defy, Alaric, Greedy. Exits to Guildbrig1."
 ---
 
 # Guildbrig2
@@ -49,11 +49,11 @@ description: "Guildbrig2 is an indoor location in Andor's Trail, in Fallhaven (s
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Alaric](../monsters/aidem_base_alaric.md#v-aidem_jail_alaric) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_jail_zachlanny) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_jail_greedy) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Defy](../monsters/g04_defy.md#v-aidem_jail_defy) | 0 | 0–0 | 1 | appears later, during a quest |
 | [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_jail_grabby) | 0 | 0–0 | 1 | appears later, during a quest |
+| [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_jail_zachlanny) | 0 | 0–0 | 1 | appears later, during a quest |
+| [Defy](../monsters/g04_defy.md#v-aidem_jail_defy) | 0 | 0–0 | 1 | appears later, during a quest |
+| [Alaric](../monsters/aidem_base_alaric.md#v-aidem_jail_alaric) | 0 | 0–0 | 1 | appears later, during a quest |
+| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_jail_greedy) | 0 | 0–0 | 1 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -76,8 +76,8 @@ description: "Guildbrig2 is an indoor location in Andor's Trail, in Fallhaven (s
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
-| [v0.8.8](../versions/0.8.8.md) | map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
+| [v0.8.8](../versions/0.8.8.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

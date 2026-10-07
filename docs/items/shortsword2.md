@@ -39,7 +39,7 @@ description: "Steel shortsword is a ordinary shortsword in Andor's Trail (Attack
 
 | Stat | Value |
 |---|---|
-| On target | Bleeding wound (magnitude 2, 2 rounds, 10% chance) |
+| On target | [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 2 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -64,7 +64,7 @@ description: "Steel shortsword is a ordinary shortsword in Andor's Trail (Attack
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 20, "increaseA… → {"increaseAttackChance": 20, "increaseA… |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (102) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

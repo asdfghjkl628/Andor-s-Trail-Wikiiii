@@ -37,7 +37,7 @@ description: "Guynmart shield is a ordinary shield, metal (light) in Andor's Tra
 
 | Stat | Value |
 |---|---|
-| On self | Bark skin (magnitude 2, 2 rounds, 20% chance) |
+| On self | [Bark skin](../conditions/barkskin.md) (magnitude 2, 2 rounds, 20% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -56,7 +56,7 @@ description: "Guynmart shield is a ordinary shield, metal (light) in Andor's Tra
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | baseMarketCost: 0 → 1000 |
+| [v0.8.8](../versions/0.8.8.md) | Base value (gold): 0 → 1000 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

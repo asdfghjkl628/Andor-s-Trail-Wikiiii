@@ -29,7 +29,7 @@ description: "Vaelric's purging wash is a rare healing item in Andor's Trail. Ho
 | Stat | Value |
 |---|---|
 | Heal HP | 5 to 15 |
-| On self | Corrosive slime (90% chance) |
+| On self | removes [Corrosive slime](../conditions/slime.md) (90% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -41,7 +41,7 @@ description: "Heartsteel blade breaker is a legendary parrying weapon in Andor's
 
 | Stat | Value |
 |---|---|
-| On self | Heartstone poisoning (magnitude 2, 2 rounds, 5% chance) |
+| On self | [Heartstone poisoning](../conditions/heartstone_poisoning.md) (magnitude 2, 2 rounds, 5% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

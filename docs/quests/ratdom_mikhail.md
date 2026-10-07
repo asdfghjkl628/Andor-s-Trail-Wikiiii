@@ -147,7 +147,7 @@ description: "More rats! is a quest in Andor's Trail, started by Mikhail (home).
 |---|---|
 | [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 11 lines added |
 | [v0.8.6.1](../versions/0.8.6.1.md) | Dialogue: 1 line changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | stage 10 journal text changed; stage 20 journal text changed; stage 30 journal text changed; stage 32 journal text changed; stage 52 journal text changed; stage 54 journal text changed (+3 more) |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Stage 10 journal text changed<br>Stage 20 journal text changed<br>Stage 30 journal text changed<br>Stage 32 journal text changed<br>Stage 52 journal text changed<br>Stage 54 journal text changed<br>Stage 72 journal text changed<br>Stage 74 journal text changed<br>Stage 90 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

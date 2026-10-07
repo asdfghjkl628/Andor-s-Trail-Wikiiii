@@ -28,7 +28,7 @@ description: "Insectbane tonic is a rare potion in Andor's Trail. How to get it:
 
 | Stat | Value |
 |---|---|
-| On self | Insect contagion (magnitude -99, 100% chance); Insect contagion (magnitude -99, 15 rounds, 100% chance); Bad taste (magnitude 10, 1 rounds, 100% chance) |
+| On self | removes [Insect contagion](../conditions/contagion.md); immunity to [Insect contagion](../conditions/contagion.md) for 15 rounds; [Bad taste](../conditions/bad_taste.md) (magnitude 10, 1 round) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

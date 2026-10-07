@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Two-handed weapons: +30% of weapon dmg per level ([abbreviations](../glossary.md)) |
 | **Category** | Specialty |
 | **Max level** | 2 |
 | **Obtained via** | Skill points |

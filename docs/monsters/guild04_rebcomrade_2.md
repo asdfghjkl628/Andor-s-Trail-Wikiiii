@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.2](../versions/0.8.2.md) | Added |
-| [v0.8.8](../versions/0.8.8.md) | attackChance removed; attackCost removed; attackDamage removed; blockChance removed; criticalMultiplier removed; criticalSkill removed (+4 more) |
+| [v0.8.8](../versions/0.8.8.md) | Attack chance: removed (was 110)<br>Attack cost: removed (was 5)<br>Attack damage: removed (was 5–10)<br>Block chance: removed (was 100)<br>Critical multiplier: removed (was 2)<br>Critical skill: removed (was 10)<br>Damage resistance: removed (was 2)<br>Loot table removed<br>Max HP: removed (was 70)<br>Move cost: removed (was 5) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

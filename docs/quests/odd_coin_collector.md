@@ -210,7 +210,7 @@ Start with [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)). Re
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 25 lines added |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…” |
-| [v0.8.13](../versions/0.8.13.md) | stage 12 journal text changed; stage 20 journal text changed; stage 30 journal text changed |
+| [v0.8.13](../versions/0.8.13.md) | Stage 12 journal text changed<br>Stage 20 journal text changed<br>Stage 30 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

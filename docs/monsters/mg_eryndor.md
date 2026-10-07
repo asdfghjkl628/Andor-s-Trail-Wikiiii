@@ -48,7 +48,7 @@ description: "Eryndor is an NPC who can also be fought in Andor's Trail, found i
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**When hit:** On target: Blindness (magnitude 1, 3 rounds, 80% chance)
+**When hit:** On target: [Blindness](../conditions/blindness.md) (magnitude 1, 3 rounds, 80% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

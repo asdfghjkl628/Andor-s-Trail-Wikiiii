@@ -55,7 +55,7 @@ description: "King's hide is a extraordinary hide armor in Andor's Trail (Max HP
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | equipEffect: {"increaseAttackChance": 10, "increaseB… → {"increaseAttackChance": 10, "increaseB… |
+| [v0.8.18](../versions/0.8.18.md) | When equipped, damage resistance: +6 → +4 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

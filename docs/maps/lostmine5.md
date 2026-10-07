@@ -1,5 +1,5 @@
 ---
-description: "Lostmine5 is an indoor location in Andor's Trail. Enemies: Young ash spawn, Ash spawn, Tough ash spawn, Hardened ash gargoyle, Strong ash gargoyle. Exits to Lostmine6, Lostmine4."
+description: "Lostmine5 is an indoor location in Andor's Trail. Enemies: Young ash spawn, Ash spawn, Tough ash spawn, Strong ash gargoyle, Hardened ash gargoyle. Exits to Lostmine6, Lostmine4."
 ---
 
 # Lostmine5
@@ -50,8 +50,8 @@ description: "Lostmine5 is an indoor location in Andor's Trail. Enemies: Young a
 | [Young ash spawn](../monsters/ash5.md) | 80 | 0–5 | 5 | shares spawn with Ash spawn |
 | [Ash spawn](../monsters/ash6.md) | 83 | 0–5 | 5 | shares spawn with Young ash spawn |
 | [Tough ash spawn](../monsters/ash7.md) | 87 | 0–5 | 1 | – |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 8 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 8 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 8 | shares spawn with Strong ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -61,10 +61,10 @@ description: "Lostmine5 is an indoor location in Andor's Trail. Enemies: Young a
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

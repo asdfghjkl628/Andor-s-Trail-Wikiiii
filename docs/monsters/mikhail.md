@@ -416,7 +416,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…”<br>· text: “Thank you my son. Keep on searching for Andor.” → “Thank you my child. Keep on searching for Andor.” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Oh you did? Wow, thanks a lot for your help! If you are hurt, use you…” → “Oh you did? Wow, thanks a lot for your help! Please take Andor's trai…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 5 lines added, 1 line changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 17 lines added, 2 lines changed |
@@ -424,7 +424,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | [v0.8.6.1](../versions/0.8.6.1.md) | Dialogue: 3 lines changed |
 | [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I saw some rats out back in our garden earlier. Could you please go k…” → “I saw some rats out back in our garden earlier. Could you please go k…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 5 lines added, 2 lines changed |
-| [v0.8.15](../versions/0.8.15.md) | horizontalFlipChance added (100) |
+| [v0.8.15](../versions/0.8.15.md) | Chance of appearing mirrored: added (100) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

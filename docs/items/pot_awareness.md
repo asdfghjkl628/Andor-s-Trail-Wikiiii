@@ -26,7 +26,7 @@ description: "Potion of awareness is a ordinary potion in Andor's Trail. How to 
 
 | Stat | Value |
 |---|---|
-| On self | Stunned (magnitude -99, 100% chance) |
+| On self | removes [Stunned](../conditions/stunned.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -28,7 +28,7 @@ description: "Pink potion of stomach calming is a ordinary potion in Andor's Tra
 
 | Stat | Value |
 |---|---|
-| On self | Nausea (100% chance) |
+| On self | removes [Nausea](../conditions/nausea.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

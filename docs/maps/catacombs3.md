@@ -1,5 +1,5 @@
 ---
-description: "Catacombs3 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Spectre, Catacomb rat, Shade, Ghostly visage, Apparition. Exits to Fallhaven tunnel2, Fallhaven tunnel1, Catacombs2, Catacombs4."
+description: "Catacombs3 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Catacomb rat, Spectre, Shade, Ghostly visage, Apparition. Exits to Fallhaven tunnel2, Fallhaven tunnel1, Catacombs2, Catacombs4."
 ---
 
 # Catacombs3
@@ -53,8 +53,8 @@ description: "Catacombs3 is an indoor location in Andor's Trail, in Fallhaven (s
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Spectre](../monsters/spectre.md) | 15 | 1–5 | 4 | shares spawn with Ghostly visage |
 | [Catacomb rat](../monsters/catacomb_rat.md) | 15 | 1–1 | 2 | shares spawn with Large catacomb rat |
+| [Spectre](../monsters/spectre.md) | 15 | 1–5 | 4 | shares spawn with Ghostly visage |
 | [Shade](../monsters/shade.md) | 16 | 1–4 | 6 | shares spawn with Apparition, Young gargoyle |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 | 1–4 | 4 | shares spawn with Spectre |
 | [Apparition](../monsters/apparition.md) | 17 | 1–5 | 6 | shares spawn with Shade, Young gargoyle |
@@ -74,11 +74,11 @@ description: "Catacombs3 is an indoor location in Andor's Trail, in Fallhaven (s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
-| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | Map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

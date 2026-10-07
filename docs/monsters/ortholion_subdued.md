@@ -44,7 +44,7 @@ description: "Subdued Feygard mountain scout is an NPC who can also be fought in
 | Critical multiplier | 3.0 |
 | Critical hit chance | 15% |
 
-**On hit:** On target: Icy wounds (magnitude 1, 3 rounds, 20% chance)
+**On hit:** On target: [Icy wounds](../conditions/frozen2.md) (magnitude 1, 3 rounds, 20% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

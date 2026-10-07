@@ -28,7 +28,7 @@ description: "Elythara's ring is a quest ring in Andor's Trail (Grants Bless (ma
 
 | Stat | Value |
 |---|---|
-| Grants | Bless (magnitude 1) |
+| Grants | [Bless](../conditions/bless.md) (magnitude 1) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

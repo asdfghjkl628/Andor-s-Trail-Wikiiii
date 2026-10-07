@@ -95,7 +95,7 @@ Start with [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 8 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 20 journal text changed; stage 30 journal text changed; stage 40 journal text changed; stage 50 journal text changed; stage 60 journal text changed<br>Dialogue: 1 line changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
+| [v0.7.12](../versions/0.7.12.md) | Stage 10 journal text changed<br>Stage 20 journal text changed<br>Stage 30 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Stage 60 journal text changed<br>Dialogue: 1 line changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “How can I serve you, Sir?” → “How can I serve you, traveler?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

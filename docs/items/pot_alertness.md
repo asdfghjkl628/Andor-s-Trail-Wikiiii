@@ -26,7 +26,7 @@ description: "Potion of alertness is a ordinary potion in Andor's Trail. How to 
 
 | Stat | Value |
 |---|---|
-| On self | Dazed (magnitude -99, 100% chance) |
+| On self | removes [Dazed](../conditions/dazed.md) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

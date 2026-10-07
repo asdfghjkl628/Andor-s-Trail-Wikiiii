@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Tough grasslands ant, Grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Loneford11, Waytobrimhaven1, Loneford2."
+description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Grasslands ant, Tough grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Loneford11, Waytobrimhaven1, Loneford2."
 ---
 
 # Waytobrimhaven0
@@ -50,8 +50,8 @@ description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Lone
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 2 | shares spawn with Grasslands ant |
 | [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 2 | shares spawn with Tough grasslands ant |
+| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 2 | shares spawn with Grasslands ant |
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 3 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 3 | shares spawn with Grasslands beetle |
 
@@ -63,10 +63,10 @@ description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Lone
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
-| [v0.8.13](../versions/0.8.13.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
+| [v0.8.13](../versions/0.8.13.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

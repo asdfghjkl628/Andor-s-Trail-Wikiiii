@@ -45,7 +45,7 @@ description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, 
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Sleepwalking (magnitude 1, 2 rounds, 40% chance)
+**On hit:** On target: [Sleepwalking](../conditions/sleepwalking.md) (magnitude 1, 2 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -73,7 +73,7 @@ description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, 
 | Version | Change |
 |---|---|
 | [v0.8.3](../versions/0.8.3.md) | Added |
-| [v0.8.4](../versions/0.8.4.md) | monsterClass: undead → ghost |
+| [v0.8.4](../versions/0.8.4.md) | Class: undead → ghost |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

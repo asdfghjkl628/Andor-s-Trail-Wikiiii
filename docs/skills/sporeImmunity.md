@@ -6,6 +6,7 @@
 
 | | |
 |---|---|
+| **In short** | Immune to Spore poisoning ([abbreviations](../glossary.md)) |
 | **Category** | Immunity |
 | **Max level** | 1 |
 | **Obtained via** | Quest reward only |
@@ -23,6 +24,8 @@ Permanently prevents monster attacks from inflicting the "Spore poisoning" statu
 | 1 | Quest reward |
 
 <p class="verified">Verified against v0.8.18 game code (`SkillCollection.java`).</p>
+
+See [Conditions](../conditions/index.md#categories-and-resistance) for the conditions this skill affects.
 
 ## Relevant quest
 

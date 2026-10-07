@@ -214,8 +214,8 @@ Start with [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../map
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 18 lines added |
-| [v0.7.12](../versions/0.7.12.md) | renamed “A strange-looking dagger” → “A strange looking dagger”; stages added: 105, 110, 115, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230; stage 10 journal text changed; stage 20 journal text changed; stage 25 journal text changed; stage 60 journal text changed (+8 more)<br>Dialogue: 15 lines added, 5 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…” |
-| [v0.7.13](../versions/0.7.13.md) | stage 140 journal text changed<br>Dialogue: 1 line changed<br>· text: “That is as good as done” → “That is as good as done.” |
+| [v0.7.12](../versions/0.7.12.md) | Renamed “A strange-looking dagger” → “A strange looking dagger”<br>Stages added: 105, 110, 115, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230<br>Stage 10 journal text changed<br>Stage 20 journal text changed<br>Stage 25 journal text changed<br>Stage 60 journal text changed<br>Stage 70 journal text changed<br>Stage 80 journal text changed<br>Stage 90 journal text changed<br>Stage 90 no longer completes the quest<br>(+4 more)<br>Dialogue: 15 lines added, 5 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…” |
+| [v0.7.13](../versions/0.7.13.md) | Stage 140 journal text changed<br>Dialogue: 1 line changed<br>· text: “That is as good as done” → “That is as good as done.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

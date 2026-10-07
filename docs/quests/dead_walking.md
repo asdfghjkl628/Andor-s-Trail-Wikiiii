@@ -93,7 +93,7 @@ No links to other quests were found in the dialogue conditions.
 | Version | Change |
 |---|---|
 | [v0.8.3](../versions/0.8.3.md) | Added<br>Dialogue: 8 lines added |
-| [v0.8.5](../versions/0.8.5.md) | stage 40 journal text changed<br>Dialogue: 2 lines changed<br>· text: “As you enter this dark place, you suspect that you are getting closer…” → “As you enter this dark place, you suspect that you are getting closer…”<br>· text: “Now you begin to notice that the moaning heard by Gabriel is a little…” → “Now you begin to notice that the moaning heard by Gabriel is a little…” |
+| [v0.8.5](../versions/0.8.5.md) | Stage 40 journal text changed<br>Dialogue: 2 lines changed<br>· text: “Now you begin to notice that the moaning heard by Gabriel is a little…” → “Now you begin to notice that the moaning heard by Gabriel is a little…”<br>· text: “As you enter this dark place, you suspect that you are getting closer…” → “As you enter this dark place, you suspect that you are getting closer…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Very! In fact, here are 3000 gold pieces for all your trouble.” → “Very! In fact, here are {3000} gold pieces for all your trouble.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

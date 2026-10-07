@@ -15,7 +15,7 @@ description: "brv_nondisplay is a hidden quest in Andor's Trail, started by step
 | **In journal** | No (hidden flag) |
 | **Stages** | 36 |
 | **Started by** | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) |
-| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Churrie](../monsters/churrie.md), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_captain), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_roaming), [Feygard soldier](../monsters/patrol_roaming.md), [Gnossath](../monsters/brv_employer.md) +5 |
+| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Churrie](../monsters/churrie.md), [Feygard soldier](../monsters/patrol_roaming.md), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_captain), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_roaming), [Gnossath](../monsters/brv_employer.md) +5 |
 | **Locations** | [brimhaven1](../maps/brimhaven1.md), [brimhaven4](../maps/brimhaven4.md), [brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md), [brimhaven_house1](../maps/brimhaven_house1.md) |
 | **Total XP** | 500 |
 | **Related quests** | 7 |
@@ -248,7 +248,7 @@ None: talk to stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_in
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 33 lines added |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed<br>· text: “Alkapoan's letters accidently fell into a fire and I am sure some unk…” → “It seems Alkapoan's letters accidentally fell into a fire and I am su…” |
-| [v0.7.14](../versions/0.7.14.md) | stages added: 138, 139<br>Dialogue: 7 lines added |
+| [v0.7.14](../versions/0.7.14.md) | Stages added: 138, 139<br>Dialogue: 7 lines added |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “I see you walking up a path on a mountain. Beware! There is something…” → “I see you walking up a path on a mountain. Beware! There is something…” |
 | [v0.8.10](../versions/0.8.10.md) | Dialogue: 1 line added, 2 lines changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…” |

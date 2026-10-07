@@ -207,7 +207,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | minor data change<br>Dialogue: 7 lines changed<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]”<br>· text: “You?! But.. But.. This is terrible! I bet you are one of the goons of…” → “You?! But ... but ... this is terrible! I bet you are one of the goon…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “I guess he keeps to himself. I sure hope he is okay. If you ever run …” → “I guess he keeps to himself. I sure hope he is OK. If you ever run in…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

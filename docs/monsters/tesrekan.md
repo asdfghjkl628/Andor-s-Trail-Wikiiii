@@ -44,7 +44,7 @@ description: "Tesrekan is an NPC who can also be fought in Andor's Trail, found 
 | Critical multiplier | 2.0 |
 | Critical hit chance | 9% |
 
-**On hit:** On target: Fear (magnitude 3, 5 rounds, 50% chance)
+**On hit:** On target: [Fear](../conditions/fear.md) (magnitude 3, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

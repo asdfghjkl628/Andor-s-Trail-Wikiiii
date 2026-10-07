@@ -174,7 +174,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 25 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…”<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

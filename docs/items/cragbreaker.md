@@ -43,7 +43,7 @@ description: "Cragbreaker is a extraordinary club in Andor's Trail (Attack damag
 
 | Stat | Value |
 |---|---|
-| On target | Fracture (magnitude 1, 3 rounds, 3% chance) |
+| On target | [Fracture](../conditions/crit2.md) (magnitude 1, 3 rounds, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

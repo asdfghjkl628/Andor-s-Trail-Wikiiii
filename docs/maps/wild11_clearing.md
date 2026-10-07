@@ -1,5 +1,5 @@
 ---
-description: "Wild11 clearing is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Hunting dog, Young wolf, Rabid wolf, Fledgling wolf. Exits to Wild11, Clearing level1."
+description: "Wild11 clearing is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Hunting dog, Young wolf, Fledgling wolf, Rabid wolf. Exits to Wild11, Clearing level1."
 ---
 
 # Wild11 clearing
@@ -50,8 +50,8 @@ description: "Wild11 clearing is an outdoor location in Andor's Trail, near Fall
 |---|---|---|---|---|
 | [Hunting dog](../monsters/hunting_dog.md) | 25 | 2–5 | 7 | shares spawn with Young wolf |
 | [Young wolf](../monsters/young_wolf.md) | 35 | 2–5 | 7 | shares spawn with Hunting dog |
-| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 1 | shares spawn with Fledgling wolf |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 42 | 2–5 | 1 | shares spawn with Rabid wolf |
+| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 1 | shares spawn with Fledgling wolf |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -61,10 +61,10 @@ description: "Wild11 clearing is an outdoor location in Andor's Trail, near Fall
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.7.13](../versions/0.7.13.md) | map layout or objects changed |
-| [v0.8.9](../versions/0.8.9.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.7.13](../versions/0.7.13.md) | Map layout or objects changed |
+| [v0.8.9](../versions/0.8.9.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

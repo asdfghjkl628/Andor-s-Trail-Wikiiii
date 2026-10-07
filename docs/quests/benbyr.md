@@ -12,7 +12,7 @@ description: "Cheap cuts is a quest in Andor's Trail, started by Benbyr (crossro
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 30, 60) |
 | **Started by** | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) |
-| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep1) |
+| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md#v-lostsheep1) |
 | **Locations** | [crossroads](../maps/crossroads.md), [fields1](../maps/fields1.md), [fields2](../maps/fields2.md), [fields3](../maps/fields3.md) |
 | **Total XP** | 900 |
 | **Related quests** | 2 |
@@ -95,7 +95,7 @@ Start with [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md))
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | stage 20 journal text changed<br>Dialogue: 1 line changed<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.” |
+| [v0.7.2](../versions/0.7.2.md) | Stage 20 journal text changed<br>Dialogue: 1 line changed<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

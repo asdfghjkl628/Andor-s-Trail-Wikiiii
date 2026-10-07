@@ -41,7 +41,7 @@ description: "Giant Golden Arulir is an enemy in Andor's Trail (giant) with 501 
 | Critical multiplier | 3.0 |
 | Critical hit chance | 26% |
 
-**On hit:** On target: Stunned (magnitude 1, 4 rounds, 30% chance)
+**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 4 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

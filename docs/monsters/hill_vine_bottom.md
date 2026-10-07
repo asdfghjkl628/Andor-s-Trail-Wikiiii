@@ -45,7 +45,7 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Entanglement (magnitude 1, 3 rounds, 80% chance)
+**On hit:** On target: [Entanglement](../conditions/entanglement.md) (magnitude 1, 3 rounds, 80% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

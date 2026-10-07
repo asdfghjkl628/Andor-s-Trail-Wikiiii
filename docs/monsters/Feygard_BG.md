@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 9 lines added |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Halt! The road to Fallhaven is closed due to recent information about…” → “Halt! The road to Fallhaven is closed due to recent information about…”<br>· text: “Halt! The road to Fallhaven is closed due to a murder commited three …” → “Halt! The road to Fallhaven is closed due to a murder committed three…” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “Halt! The road to Fallhaven is closed due to a murder commited three …” → “Halt! The road to Fallhaven is closed due to a murder committed three…”<br>· text: “Halt! The road to Fallhaven is closed due to recent information about…” → “Halt! The road to Fallhaven is closed due to recent information about…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

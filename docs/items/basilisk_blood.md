@@ -27,7 +27,7 @@ description: "Basilisk blood is a quest potion in Andor's Trail. How to get it: 
 
 | Stat | Value |
 |---|---|
-| On self | Stone skin (magnitude 1, 20 rounds, 100% chance) |
+| On self | [Stone skin](../conditions/stoneskin.md) (magnitude 1, 20 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -28,7 +28,7 @@ description: "Photosynthetic leaf is a rare edible animal part in Andor's Trail.
 
 | Stat | Value |
 |---|---|
-| On self | Regeneration (magnitude 4, 3 rounds, 100% chance) |
+| On self | [Regeneration](../conditions/regen2.md) (magnitude 4, 3 rounds) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

@@ -45,7 +45,7 @@ description: "Young rock eater is an enemy in Andor's Trail (construct) with 303
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**When hit:** On self: Petristill (magnitude 1, 5 rounds, 45% chance); On target: Minor weapon feebleness (magnitude 1, 1 rounds, 25% chance)
+**When hit:** On self: [Petristill](../conditions/petristill.md) (magnitude 1, 5 rounds, 45% chance); On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 1, 1 round, 25% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

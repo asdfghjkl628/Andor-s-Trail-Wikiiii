@@ -342,7 +342,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 68 lines added |
 | [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed<br>· text: “Interesting, but not helpful. Go back to search for something useful …” → “Interesting, but not helpful. Go back and search for something useful…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “You see, I have to make ten tonics at a time and because I refuse to …” → “You see, I have to make ten tonics at a time and because I refuse to …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

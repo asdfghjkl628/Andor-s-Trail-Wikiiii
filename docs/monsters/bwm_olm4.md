@@ -41,7 +41,7 @@ description: "Blackened olm is an enemy in Andor's Trail (animal) with 75 HP, wo
 | Critical multiplier | 1.5 |
 | Critical hit chance | 15% |
 
-**When hit:** On self: Panic (magnitude 1, 3 rounds, 30% chance)
+**When hit:** On self: [Panic](../conditions/panic.md) (magnitude 1, 3 rounds, 30% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

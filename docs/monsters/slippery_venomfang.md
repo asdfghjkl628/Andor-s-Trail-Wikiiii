@@ -41,7 +41,7 @@ description: "Slippery Venomfang is an enemy in Andor's Trail (reptile) with 38 
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 1, 3 rounds, 40% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

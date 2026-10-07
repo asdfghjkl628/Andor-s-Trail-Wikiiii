@@ -41,7 +41,7 @@ description: "Ridgehowler is an enemy in Andor's Trail (animal) with 180 HP, wor
 | Critical multiplier | 2.0 |
 | Critical hit chance | 11% |
 
-**When hit:** On self: Minor berserker rage (magnitude 1, 1 rounds, 50% chance)
+**When hit:** On self: [Minor berserker rage](../conditions/rage_minor.md) (magnitude 1, 1 round, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

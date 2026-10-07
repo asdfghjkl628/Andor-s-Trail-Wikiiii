@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 12 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Forest beetle, Vicious forest serpent, Wolf, Vicious hound, Anklebiter. Exits to Guynmart wood 1, Guynmart wood 11, Guynmart wood 13."
+description: "Guynmart wood 12 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Forest beetle, Vicious forest serpent, Wolf, Anklebiter, Vicious hound. Exits to Guynmart wood 1, Guynmart wood 11, Guynmart wood 13."
 ---
 
 # Guynmart wood 12
@@ -56,8 +56,8 @@ Northwest: Feygard”">4</a></div>
 | [Forest beetle](../monsters/forest_beetle.md) | 14 | 2–4 | 2 | – |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 | 3–4 | 3 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
-| [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 1 | – |
 | [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 1 | – |
+| [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 1 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -72,10 +72,10 @@ Northwest: Feygard”">4</a></div>
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added |
-| [v0.7.4](../versions/0.7.4.md) | map layout or objects changed |
-| [v0.8.5](../versions/0.8.5.md) | map layout or objects changed |
-| [v0.8.10](../versions/0.8.10.md) | map layout or objects changed |
-| [v0.8.12.1](../versions/0.8.12.1.md) | map layout or objects changed |
+| [v0.7.4](../versions/0.7.4.md) | Map layout or objects changed |
+| [v0.8.5](../versions/0.8.5.md) | Map layout or objects changed |
+| [v0.8.10](../versions/0.8.10.md) | Map layout or objects changed |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

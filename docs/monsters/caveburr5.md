@@ -41,7 +41,7 @@ description: "Giant poisonous cave burrower is an enemy in Andor's Trail (insect
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Weak Poison (magnitude 2, 3 rounds, 10% chance)
+**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 3 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -71,7 +71,7 @@ description: "Giant poisonous cave burrower is an enemy in Andor's Trail (insect
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 6} → {"max": 6, "min": 0}; hitEffect: {"conditionsTarget": [{"chance": 10, "c… → {"conditionsTarget": [{"chance": "10", … |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–6 → 0–6<br>On hit, condition on target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 3 rounds, 10% chance) → (magnitude 2, 3 rounds, 10% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -12,7 +12,7 @@ description: "Lessons learned is a quest in Andor's Trail, started by stepping o
 | **In journal** | Yes |
 | **Stages** | 22 (completes at 200, 210, 220, 230, 240) |
 | **Started by** | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil7), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil6) +5 |
+| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil5), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4) +5 |
 | **Locations** | [brimhaven_school](../maps/brimhaven_school.md) |
 | **Total XP** | 9,500 |
 | **Related quests** | 1 |
@@ -186,7 +186,7 @@ Start with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 23 lines added |
-| [v0.7.12](../versions/0.7.12.md) | stage 10 journal text changed; stage 12 journal text changed; stage 20 journal text changed; stage 60 journal text changed; stage 100 journal text changed; stage 102 journal text changed (+13 more)<br>Dialogue: 1 line changed<br>· text: “And now we get to a completely different thing. Let's have some pract…” → “And now we will do something completely different. Let's practice fig…” |
+| [v0.7.12](../versions/0.7.12.md) | Stage 10 journal text changed<br>Stage 12 journal text changed<br>Stage 20 journal text changed<br>Stage 60 journal text changed<br>Stage 100 journal text changed<br>Stage 102 journal text changed<br>Stage 104 journal text changed<br>Stage 110 journal text changed<br>Stage 120 journal text changed<br>Stage 122 journal text changed<br>(+9 more)<br>Dialogue: 1 line changed<br>· text: “And now we get to a completely different thing. Let's have some pract…” → “And now we will do something completely different. Let's practice fig…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

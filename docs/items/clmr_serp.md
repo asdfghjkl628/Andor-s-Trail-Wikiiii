@@ -42,7 +42,7 @@ description: "Serpent's fang is a rare two-handed sword in Andor's Trail (Attack
 
 | Stat | Value |
 |---|---|
-| On target | Weak Poison (magnitude 1, 5 rounds, 25% chance) |
+| On target | [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 5 rounds, 25% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 
@@ -61,8 +61,8 @@ description: "Serpent's fang is a rare two-handed sword in Andor's Trail (Attack
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 25, "c… → {"conditionsTarget": [{"chance": "25", … |
-| [v0.7.10](../versions/0.7.10.md) | equipEffect: {"increaseAttackChance": 12, "increaseA… → {"increaseAttackChance": 12, "increaseA… |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 5 rounds, 25% chance) → (magnitude 1, 5 rounds, 25% chance) |
+| [v0.7.10](../versions/0.7.10.md) | When equipped, non-weapon damage modifier (%): added (124) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

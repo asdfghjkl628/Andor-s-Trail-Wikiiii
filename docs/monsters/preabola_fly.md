@@ -41,7 +41,7 @@ description: "Preabola fly is an enemy in Andor's Trail (insect) with 109 HP, wo
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Minor sting (magnitude 5, 5 rounds, 25% chance); Vulnerability (magnitude 5, 3 rounds, 10% chance)
+**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 5, 5 rounds, 25% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 5, 3 rounds, 10% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

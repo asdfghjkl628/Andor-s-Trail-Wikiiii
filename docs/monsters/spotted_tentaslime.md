@@ -45,7 +45,7 @@ description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 1
 !!! note "Immune to critical hits"
     Ghosts, constructs and demons cannot receive critical hits.
 
-**On hit:** On target: Corrosive slime (magnitude 3, 5 rounds, 40% chance)
+**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 3, 5 rounds, 40% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>

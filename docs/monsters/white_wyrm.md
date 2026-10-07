@@ -41,7 +41,7 @@ description: "White wyrm is an enemy in Andor's Trail (reptile) with 55 HP, wort
 | Critical multiplier | – |
 | Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**On hit:** On target: Minor fatigue (magnitude 1, 5 rounds, 50% chance)
+**On hit:** On target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 5 rounds, 50% chance)
 
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
@@ -77,7 +77,7 @@ description: "White wyrm is an enemy in Andor's Trail (reptile) with 55 HP, wort
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | hitEffect: {"conditionsTarget": [{"chance": 50, "c… → {"conditionsTarget": [{"chance": "50", … |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 5 rounds, 50% chance) → (magnitude 1, 5 rounds, 50% chance) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

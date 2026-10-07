@@ -67,7 +67,7 @@ description: "Roach is an enemy in Andor's Trail (insect) with 1 HP, worth 1 XP,
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | attackDamage: {"max": 1} → {"max": 1, "min": 0} |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–1 → 0–1 |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 627 is an indoor location in Andor's Trail, in Roundlings (other). NPCs: Clevred, Roundling. Enemies: Tiny rat, Cave rat, Tough cave rat, Young roundling, Curious roundling. Exits to Ratdom maze 618, Ratdom maze 638, Ratdom maze 637, Ratdom maze 617."
+description: "Ratdom maze 627 is an indoor location in Andor's Trail, in Roundlings (other). NPCs: Clevred, Roundling. Enemies: Tiny rat, Tough cave rat, Cave rat, Young roundling, Curious roundling. Exits to Ratdom maze 618, Ratdom maze 638, Ratdom maze 637, Ratdom maze 617."
 ---
 
 # Ratdom maze 627
@@ -87,8 +87,8 @@ description: "Ratdom maze 627 is an indoor location in Andor's Trail, in Roundli
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Young roundling](../monsters/ratdom_m13a.md) | 30 | 5–5 | 2 | shares spawn with Curious roundling |
 | [Curious roundling](../monsters/ratdom_m13b.md) | 30 | 5–5 | 2 | shares spawn with Young roundling |
 | [King Rah](../monsters/ratdom_king_rah.md) | 160 | 20–30 | 1 | appears later, during a quest |

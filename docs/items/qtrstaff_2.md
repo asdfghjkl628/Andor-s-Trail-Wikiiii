@@ -41,7 +41,7 @@ description: "Superior quarterstaff is a rare quarterstaff in Andor's Trail (Att
 
 | Stat | Value |
 |---|---|
-| On target | Stunned (magnitude 1, 2 rounds, 3% chance) |
+| On target | [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 3% chance) |
 
 <p class="verified">Verified against v0.8.18 item data.</p>
 

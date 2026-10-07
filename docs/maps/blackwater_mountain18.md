@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain18 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Tough venomfang, Gornaud, Strong gornaud. Exits to Blackwater mountain17, Blackwater mountain19."
+description: "Blackwater mountain18 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Tough venomfang, Strong gornaud, Gornaud. Exits to Blackwater mountain17, Blackwater mountain19."
 ---
 
 # Blackwater mountain18
@@ -50,8 +50,8 @@ description: "Blackwater mountain18 is an indoor location in Andor's Trail, in B
 |---|---|---|---|---|
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 7 | shares spawn with Gornaud |
 | [Tough venomfang](../monsters/tough_venomfang.md) | 41 | 2–5 | 3 | shares spawn with Strong gornaud |
-| [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 7 | shares spawn with Scaled venomfang |
 | [Strong gornaud](../monsters/strong_gornaud.md) | 95 | 0–15 | 3 | shares spawn with Tough venomfang |
+| [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 7 | shares spawn with Scaled venomfang |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -61,9 +61,9 @@ description: "Blackwater mountain18 is an indoor location in Andor's Trail, in B
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.1](../versions/0.7.1.md) | map layout or objects changed |
-| [v0.7.2](../versions/0.7.2.md) | map layout or objects changed |
-| [v0.8.2](../versions/0.8.2.md) | map layout or objects changed |
+| [v0.7.1](../versions/0.7.1.md) | Map layout or objects changed |
+| [v0.7.2](../versions/0.7.2.md) | Map layout or objects changed |
+| [v0.8.2](../versions/0.8.2.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

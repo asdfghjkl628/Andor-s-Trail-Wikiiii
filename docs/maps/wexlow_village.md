@@ -1,5 +1,5 @@
 ---
-description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow Village (settlement). NPCs: Godwin, Osric, Theobald, Theodora. Enemies: Godelieve, Unknown well voice, Rat, Village ant. Exits to Way to wexlow3, Wexlow village north house, Wexlow village north-west house, Wexlow village south-eas…"
+description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow Village (settlement). NPCs: Godwin, Osric, Theobald, Theodora. Enemies: Unknown well voice, Godelieve, Rat, Village ant. Exits to Way to wexlow3, Wexlow village north house, Wexlow village north-west house, Wexlow village south-eas…"
 ---
 
 # Wexlow village
@@ -72,8 +72,8 @@ description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Godelieve](../monsters/village_godelieve.md#v-village_godelieve_hidden) | 0 | 0–0 | 1 | – |
 | [Unknown well voice](../monsters/well_voice.md) | 0 | 0–0 | 1 | – |
+| [Godelieve](../monsters/village_godelieve.md#v-village_godelieve_hidden) | 0 | 0–0 | 1 | – |
 | [Rat](../monsters/vermin0.md#v-crossroads_rat) | 5 | 1–1 | 1 | – |
 | [Village ant](../monsters/village_ant.md) | 54 | 1–4 | 17 | – |
 
@@ -95,7 +95,7 @@ description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow 
 | Version | Change |
 |---|---|
 | [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-| [v0.8.18](../versions/0.8.18.md) | map layout or objects changed |
+| [v0.8.18](../versions/0.8.18.md) | Map layout or objects changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
