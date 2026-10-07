@@ -1,4 +1,10 @@
+---
+description: "Especially sweet berries is a non-player character (NPC) in Andor's Trail, found in Deebo's Orchard."
+---
+
 # ![](../assets/icons/monsters/items_japozero_484.png){ .sprite } Especially sweet berries
+
+**Where to find Especially sweet berries:** Deebo's Orchard: [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md#pin-npc-wild_berry3), [lodar19](../maps/lodar19.md#pin-npc-wild_berry3), [lodar21](../maps/lodar21.md#pin-npc-wild_berry3), [mountainlake7](../maps/mountainlake7.md#pin-npc-wild_berry3) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -6,53 +12,28 @@
 
 | | |
 |---|---|
-| **Monster ID** | `wild_berry3` |
-| **Type** | NPC |
-| **Class** | Animal |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Deebo's Orchard |
+| **Entry ID** | `wild_berry3` |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 999 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar19](../maps/lodar19.md) | – | 5 | appears later in a quest |
-| [lodar21](../maps/lodar21.md) | – | 4 | appears later in a quest |
-| [mountainlake7](../maps/mountainlake7.md) | – | 4 | appears later in a quest |
-| [mountainlake8](../maps/mountainlake8.md) | – | 3 | appears later in a quest |
-| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 2 | appears later in a quest |
-| [waytolake10](../maps/waytolake10.md) | – | 5 | appears later in a quest |
-| [waytolake11](../maps/waytolake11.md) | – | 4 | appears later in a quest |
-
+| [lodar19](../maps/lodar19.md) | – | 5 | Appears later, during a quest |
+| [lodar21](../maps/lodar21.md) | – | 4 | Appears later, during a quest |
+| [mountainlake7](../maps/mountainlake7.md) | – | 4 | Appears later, during a quest |
+| [mountainlake8](../maps/mountainlake8.md) | – | 3 | Appears later, during a quest |
+| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 2 | Appears later, during a quest |
+| [waytolake10](../maps/waytolake10.md) | – | 5 | Appears later, during a quest |
+| [waytolake11](../maps/waytolake11.md) | – | 4 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Especially sweet berries. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Especially sweet berries. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chk_wild_berry3.json" data-npc="Especially sweet berries" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -91,32 +72,11 @@ Set up your situation (quest stages, items, kills…), then talk to Especially s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `wild_berry3` |
+    | Entry ID | `wild_berry3` |
     | Spawn group | `wild_berry3` |
     | Loot table | – |
     | Conversation | `chk_wild_berry3` |
@@ -138,6 +98,27 @@ Set up your situation (quest stages, items, kills…), then talk to Especially s
      "phraseID": "chk_wild_berry3"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=wild_berry3.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

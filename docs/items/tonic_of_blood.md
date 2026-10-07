@@ -1,3 +1,7 @@
+---
+description: "Tonic of blood is a ordinary potion in Andor's Trail. How to get it: monster drops, containers. An ancient \"healing\" remedy that's been known to cause more harm than good."
+---
+
 # ![](../assets/icons/items/items_tometik1_42.png){ .sprite } Tonic of blood
 
 *Ordinary potion.*
@@ -37,7 +41,7 @@
 |---|---|---|---|
 | [Benzimos](../monsters/haunted_benzimos.md) | 100% | 2 | haunted_house_basement |
 | [Dark spirit](../monsters/crossglen_dark_spirit.md) | 100% | 3-4 | Crossglen |
-| [Dark spirit](../monsters/undertell_dark_spirit.md) | 100% | 4-8 | galmore_32 |
+| [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) | 100% | 4-8 | galmore_32 |
 | [Dark spirit minion](../monsters/dark_spirit_minion.md) | 50% | 1 | galmore_32 |
 | [Sinister wraith](../monsters/sinister_wraith.md) | 20% | 1-2 | haunted_underground_3, haunted_underground_4, haunted_underground_5 |
 | [Angel of death](../monsters/angel_death.md) | 15% | 1-2 | haunted_cemetery1, haunted_cemetery2, haunted_forest16 |
@@ -45,7 +49,7 @@
 | [Death wrecker](../monsters/death_wrecker.md) | 12% | 1 | haunted_house, haunted_house_basement, haunted_underground_1 |
 | [Musty prowler](../monsters/musty_prowler.md) | 10% | 1 | haunted_cemetery1, haunted_cemetery2, haunted_forest12 |
 | [Drybone lich](../monsters/drybone_lich.md) | 10% | 1 | undertell_00, undertell_10, undertell_11 |
-| [Drybone lich](../monsters/drybone_lich_help_liches.md) | 10% | 1 | – |
+| [Drybone lich](../monsters/drybone_lich.md#v-drybone_lich_help_liches) | 10% | 1 | – |
 | [Graveyard gatekeeper](../monsters/graveyard_gatekeeper.md) | 8% | 1 | haunted_cemetery1, haunted_cemetery2, haunted_forest12 |
 | [Grieveless dead](../monsters/grieveless_dead.md) | 8% | 1 | haunted_cemetery1, haunted_cemetery2, haunted_forest17 |
 
@@ -92,19 +96,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=tonic_of_blood.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

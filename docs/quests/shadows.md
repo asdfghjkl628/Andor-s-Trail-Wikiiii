@@ -1,3 +1,7 @@
+---
+description: "Shadows is a quest in Andor's Trail, started by Borvis (galmore_41). 32 stages, 27,001 XP in total. I met Borvis on the great road near Alynndir's hut."
+---
+
 # Shadows
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 20, 290) |
 | **Started by** | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)), [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) |
-| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest.md), [Dark priest](../monsters/dds_dark_priest2.md), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
+| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Dark priest](../monsters/dds_dark_priest.md), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
 | **Locations** | [galmore_41](../maps/galmore_41.md), [galmore_45](../maps/galmore_45.md), [loneford4](../maps/loneford4.md), [nw_sullengard_1](../maps/nw_sullengard_1.md) |
 | **Total XP** | 27,001 |
 | **Related quests** | 7 |
@@ -78,22 +82,22 @@
 | <span id="stage-160"></span>160 | Borvis removed the 'blessings' from me, and made a chant. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) | – | applies condition shadowbless_str<br>applies condition shadowsleep<br>applies condition fatigue1<br>applies condition life_drain |
 | <span id="stage-165"></span>165 | Borvis told me to hurry back to the barrier. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) | – | – |
 | <span id="stage-170"></span>170 | I passed the barrier. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-178"></span>178 | After destroying the ritual statue of Kazaul, beyond the barrier I found a crying woman. | [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) | stage 165 | 5,000 XP |
-| <span id="stage-180"></span>180 | She was performing a ritual that should bring her husband back to life. | [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) | stage 165 | spawns monsters on galmore_45 |
-| <span id="stage-190"></span>190 | Borvis, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayar with Kazaul's monsters. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) | stage 165 | – |
-| <span id="stage-200"></span>200 | The mourning woman told us that the ritual was given to her by a priest in the lava wastelands. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) | stage 165, stage 190 | removes monsters from galmore_45<br>spawns monsters on loneford4 |
+| <span id="stage-178"></span>178 | After destroying the ritual statue of Kazaul, beyond the barrier I found a crying woman. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 165 | 5,000 XP |
+| <span id="stage-180"></span>180 | She was performing a ritual that should bring her husband back to life. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 165 | spawns monsters on galmore_45 |
+| <span id="stage-190"></span>190 | Borvis, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayar with Kazaul's monsters. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 165 | – |
+| <span id="stage-200"></span>200 | The mourning woman told us that the ritual was given to her by a priest in the lava wastelands. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 165, stage 190 | removes monsters from galmore_45<br>spawns monsters on loneford4 |
 | <span id="stage-210"></span>210 | We let the mourning woman go. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-212"></span>212 | The mourning woman cried that she would never be happy again. | [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) | stage 200 | 2,000 XP |
-| <span id="stage-220"></span>220 | I had to travel to the lava wastelands. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) | stage 165, stage 200 | spawns monsters on galmore_41 |
+| <span id="stage-212"></span>212 | The mourning woman cried that she would never be happy again. | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 200 | 2,000 XP |
+| <span id="stage-220"></span>220 | I had to travel to the lava wastelands. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) | stage 165, stage 200 | spawns monsters on galmore_41 |
 | <span id="stage-230"></span>230 | There, after fighting monsters, I met a priest in red. | [Dark priest](../monsters/dds_dark_priest.md) ([galmore_41](../maps/galmore_41.md)) | stage 165 | – |
-| <span id="stage-240"></span>240 | He accused me of interfering again and again. Borvis, who again followed me, revealed the red priest to be a monster. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Dark priest](../monsters/dds_dark_priest2.md) ([galmore_41](../maps/galmore_41.md)) | stage 165 | removes monsters from galmore_41<br>spawns monsters on galmore_41 |
+| <span id="stage-240"></span>240 | He accused me of interfering again and again. Borvis, who again followed me, revealed the red priest to be a monster. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md))<br>[Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2) ([galmore_41](../maps/galmore_41.md)) | stage 165 | removes monsters from galmore_41<br>spawns monsters on galmore_41 |
 | <span id="stage-250"></span>250 | I defeated the monster. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) | stage 240 | – |
 | <span id="stage-260"></span>260 | Borvis fulfilled his promise and told me that Andor would be refilling his supplies from Alynndir. | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) | stage 240 | 15,000 XP<br>removes monsters from galmore_41<br>spawns monsters on road5<br>sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6)<br>spawns monsters on road5_house |
 | <span id="stage-270"></span>270 | I ran to Alynndir's hut.  | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-280"></span>280 | I found Andor there. | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 260 | – |
 | <span id="stage-290"></span>290 | He told me he couldn't come home now, and vanished. **(completes quest)** | [Andor](../monsters/dds_andor.md) ([road5_house](../maps/road5_house.md)) | stage 260 | 5,000 XP<br>sets stage 147 of [Search for Andor](../quests/andor.md#stage-147) |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -178,30 +182,30 @@
 
 ???+ note "Stage 178: 1 route"
 
-    1. Talk to [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) → the conversation leads here automatically — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 178**. NPC: “Nooooo!”
+    1. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → the conversation leads here automatically — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 178**. NPC: “Nooooo!”
 
 ???+ note "Stage 180: 1 route"
 
-    1. Talk to [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) → choose “Do you know what you were doing?” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 180**; also spawns monsters on galmore_45. NPC: “I was getting my husband back from the afterlife!”
+    1. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Do you know what you were doing?” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 180**; also spawns monsters on galmore_45. NPC: “I was getting my husband back from the afterlife!”
 
 ???+ note "Stage 190: 2 routes"
 
     1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → choose “Borvis? I didn't expect you already.” — **conditions:** reached stage 190 of [Shadows](../quests/shadows.md#stage-190) → **stage 190**. NPC: “Then why did the ritual not include something that links to your husband? Something precious to him?”
-    2. Talk to [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) → choose “Borvis? I didn't expect you already.” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 190**. NPC: “Then why did the ritual not include something that links to your husband? Something precious to him?”
+    2. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Borvis? I didn't expect you already.” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 190**. NPC: “Then why did the ritual not include something that links to your husband? Something precious to him?”
 
 ???+ note "Stage 200: 2 routes"
 
     1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → choose “Yes, who put you up to this?” — **conditions:** reached stage 190 of [Shadows](../quests/shadows.md#stage-190) → **stage 200**; also removes monsters from galmore_45, spawns monsters on loneford4. NPC: “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn…”
-    2. Talk to [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) → choose “Yes, who put you up to this?” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 200**; also removes monsters from galmore_45, spawns monsters on loneford4. NPC: “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn…”
+    2. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Yes, who put you up to this?” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 200**; also removes monsters from galmore_45, spawns monsters on loneford4. NPC: “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn…”
 
 ???+ note "Stage 212: 1 route"
 
-    1. Talk to [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) → the conversation leads here automatically — **conditions:** reached stage 200 of [Shadows](../quests/shadows.md#stage-200) → **stage 212**. NPC: “Go away. I will never be happy in my life.”
+    1. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → the conversation leads here automatically — **conditions:** reached stage 200 of [Shadows](../quests/shadows.md#stage-200) → **stage 212**. NPC: “Go away. I will never be happy in my life.”
 
 ???+ note "Stage 220: 2 routes"
 
     1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 200 of [Shadows](../quests/shadows.md#stage-200) → **stage 220**; also spawns monsters on galmore_41. NPC: “It's not done yet. Can you talk to this priest? And tackle him as he deserves?”
-    2. Talk to [Mourning woman](../monsters/dds_mourning_woman.md) ([galmore_45](../maps/galmore_45.md)) → choose “Nice job.” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 220**; also spawns monsters on galmore_41. NPC: “It's not done yet. Can you talk to this priest? And tackle him as he deserves?”
+    2. Talk to [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) ([galmore_45](../maps/galmore_45.md)) → choose “Nice job.” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 220**; also spawns monsters on galmore_41. NPC: “It's not done yet. Can you talk to this priest? And tackle him as he deserves?”
 
 ???+ note "Stage 230: 1 route"
 
@@ -210,15 +214,15 @@
 ???+ note "Stage 240: 2 routes"
 
     1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → choose “But it's unfair to ...” — **conditions:** reached stage 240 of [Shadows](../quests/shadows.md#stage-240) → **stage 240**; also removes monsters from galmore_41, spawns monsters on galmore_41. NPC: “Are we going to do this now, or are you two going to talk all day?”
-    2. Talk to [Dark priest](../monsters/dds_dark_priest2.md) ([galmore_41](../maps/galmore_41.md)) → choose “But it's unfair to ...” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 240**; also removes monsters from galmore_41, spawns monsters on galmore_41. NPC: “Are we going to do this now, or are you two going to talk all day?”
+    2. Talk to [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2) ([galmore_41](../maps/galmore_41.md)) → choose “But it's unfair to ...” — **conditions:** reached stage 165 of [Shadows](../quests/shadows.md#stage-165) → **stage 240**; also removes monsters from galmore_41, spawns monsters on galmore_41. NPC: “Are we going to do this now, or are you two going to talk all day?”
 
 ???+ note "Stage 250: 1 route"
 
-    1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 240 of [Shadows](../quests/shadows.md#stage-240); killed 1× [Dark priest](../monsters/dds_dark_priest_monster.md) → **stage 250**. NPC: “Finally. Well done, kid.”
+    1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → the conversation leads here automatically — **conditions:** reached stage 240 of [Shadows](../quests/shadows.md#stage-240); killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster) → **stage 250**. NPC: “Finally. Well done, kid.”
 
 ???+ note "Stage 260: 1 route"
 
-    1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → choose “Really? Tell me!” — **conditions:** reached stage 240 of [Shadows](../quests/shadows.md#stage-240); killed 1× [Dark priest](../monsters/dds_dark_priest_monster.md) → **stage 260**; also removes monsters from galmore_41, spawns monsters on road5, sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on road5_house. NPC: “Andor is going to visit Alynndir to refill his travel supplies.”
+    1. Talk to [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) → choose “Really? Tell me!” — **conditions:** reached stage 240 of [Shadows](../quests/shadows.md#stage-240); killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster) → **stage 260**; also removes monsters from galmore_41, spawns monsters on road5, sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on road5_house. NPC: “Andor is going to visit Alynndir to refill his travel supplies.”
 
 ???+ note "Stage 280: 1 route"
 
@@ -247,23 +251,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=shadows.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

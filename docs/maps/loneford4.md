@@ -1,3 +1,7 @@
+---
+description: "Loneford4 is an indoor location in Andor's Trail, in Loneford (settlement). NPCs: Chapel guard, Mourning woman, Mourning woman. Exits to Loneford2."
+---
+
 # Loneford4
 
 <div class="infobox" markdown>
@@ -20,15 +24,15 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford4.webp" alt="Map of Loneford4" width="416" height="320" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../loneford2/#place-lonefordhouse2" title="Exit to Loneford2" style="left:53.846%;top:90.000%;width:7.692%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Talion" style="left:46.154%;top:40.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Chapel guard" style="left:7.692%;top:30.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Chapel guard" style="left:84.615%;top:30.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Buceth" style="left:23.077%;top:30.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Mourning woman (only appears later, during a quest)" style="left:23.077%;top:60.000%;width:53.846%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Mourning woman" style="left:23.077%;top:60.000%;width:53.846%;height:10.000%"></span><a class="mob" href="../../monsters/loneford_chapelguard/" title="Chapel guard" style="left:7.692%;top:30.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_78.png" alt="Chapel guard"></a><a class="mob" href="../../monsters/loneford_chapelguard/" title="Chapel guard" style="left:84.615%;top:30.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_78.png" alt="Chapel guard"></a><a class="mob mob-later" href="../../monsters/dds_mourning_woman/" title="Mourning woman (appears later in a quest)" style="left:61.538%;top:60.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_men_6.png" alt="Mourning woman"></a><a class="mob" href="../../monsters/chapelgoer/" title="Mourning woman" style="left:38.462%;top:60.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_men_6.png" alt="Mourning woman"></a><a class="pin pin-exit" href="#key-1" style="left:57.692%;top:95.000%" title="Exit (south): to [Loneford2](../loneford2.md)">1</a><a class="pin pin-npc" href="#key-2" style="left:11.538%;top:35.000%" title="[Chapel guard](../../monsters/loneford_chapelguard.md): NPC">2</a><a class="pin pin-npc" href="#key-3" style="left:65.385%;top:65.000%" title="[Mourning woman](../../monsters/dds_mourning_woman.md): 2 quests">3</a><a class="pin pin-npc" href="#key-4" style="left:42.308%;top:65.000%" title="[Mourning woman](../../monsters/chapelgoer.md): NPC">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/loneford4.webp" alt="Map of Loneford4" width="416" height="320" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../loneford2/#place-lonefordhouse2" title="Exit to Loneford2" style="left:53.846%;top:90.000%;width:7.692%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Talion" style="left:46.154%;top:40.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Chapel guard" style="left:7.692%;top:30.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Chapel guard" style="left:84.615%;top:30.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Buceth" style="left:23.077%;top:30.000%;width:7.692%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Mourning woman (only appears later, during a quest)" style="left:23.077%;top:60.000%;width:53.846%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Mourning woman" style="left:23.077%;top:60.000%;width:53.846%;height:10.000%"></span><a class="mob" href="../../monsters/loneford_chapelguard/" title="Chapel guard" style="left:7.692%;top:30.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_78.png" alt="Chapel guard"></a><a class="mob" href="../../monsters/loneford_chapelguard/" title="Chapel guard" style="left:84.615%;top:30.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_78.png" alt="Chapel guard"></a><a class="mob mob-later" href="../../monsters/chapelgoer/#v-dds_mourning_woman" title="Mourning woman (appears later in a quest)" style="left:61.538%;top:60.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_men_6.png" alt="Mourning woman"></a><a class="mob" href="../../monsters/chapelgoer/" title="Mourning woman" style="left:38.462%;top:60.000%;width:7.692%;height:10.000%"><img src="../../assets/icons/monsters/monsters_men_6.png" alt="Mourning woman"></a><a class="pin pin-exit" href="#key-1" style="left:57.692%;top:95.000%" title="Exit (south): to [Loneford2](loneford2.md)">1</a><a id="pin-npc-loneford_chapelguard" class="pin pin-npc" href="#key-2" style="left:11.538%;top:35.000%" title="[Chapel guard](../../monsters/loneford_chapelguard.md): NPC">2</a><a id="pin-npc-dds_mourning_woman" class="pin pin-npc" href="#key-3" style="left:65.385%;top:65.000%" title="[Mourning woman](../../monsters/chapelgoer.md#v-dds_mourning_woman): 2 quests">3</a><a id="pin-npc-chapelgoer" class="pin pin-npc" href="#key-4" style="left:42.308%;top:65.000%" title="[Mourning woman](../../monsters/chapelgoer.md): NPC">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Loneford2](../loneford2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Loneford2](loneford2.md) |
     | <span id="key-2"></span>2 | [Chapel guard](../monsters/loneford_chapelguard.md) | NPC |
-    | <span id="key-3"></span>3 | [Mourning woman](../monsters/dds_mourning_woman.md) | 2 quests |
+    | <span id="key-3"></span>3 | [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) | 2 quests |
     | <span id="key-4"></span>4 | [Mourning woman](../monsters/chapelgoer.md) | NPC |
 
 
@@ -43,13 +47,13 @@
 ## NPCs
 
 - [Chapel guard](../monsters/loneford_chapelguard.md) (#2)
-- [Mourning woman](../monsters/dds_mourning_woman.md) — quests: [Darkness in the Daylight](../quests/darkness_in_daylight.md), [Shadows](../quests/shadows.md) (#3)
+- [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) — quests: [Darkness in the Daylight](../quests/darkness_in_daylight.md), [Shadows](../quests/shadows.md) (#3)
 - [Mourning woman](../monsters/chapelgoer.md) (#4)
 
 ## Quests
 
-- [Darkness in the Daylight](../quests/darkness_in_daylight.md): [Mourning woman](../monsters/dds_mourning_woman.md) is involved
-- [Shadows](../quests/shadows.md): [Mourning woman](../monsters/dds_mourning_woman.md) is involved
+- [Darkness in the Daylight](../quests/darkness_in_daylight.md): [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) is involved
+- [Shadows](../quests/shadows.md): [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) is involved
 
 
 ## Version history
@@ -71,19 +75,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=loneford4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

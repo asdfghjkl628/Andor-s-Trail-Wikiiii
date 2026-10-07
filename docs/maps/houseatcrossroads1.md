@@ -1,3 +1,7 @@
+---
+description: "Houseatcrossroads1 is an indoor location in Andor's Trail, in Crossroads Guardhouse (other). NPCs: Guard, Guard, Visitor. Enemies: Rat. Exits to Houseatcrossroads0, Houseatcrossroads5."
+---
+
 # Houseatcrossroads1
 
 <div class="infobox" markdown>
@@ -21,16 +25,16 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/houseatcrossroads1.webp" alt="Map of Houseatcrossroads1" width="512" height="384" loading="lazy"><a id="place-up" class="mo mo-mapchange" href="../houseatcrossroads0/#place-down" title="Exit to Houseatcrossroads0" style="left:12.500%;top:25.000%;width:6.250%;height:8.333%"></a><span class="mo mo-rest" title="Resting place (respawn point)" style="left:50.000%;top:33.333%;width:6.250%;height:8.333%"></span><a id="place-north" class="mo mo-mapchange" href="../houseatcrossroads5/#place-south" title="Exit to Houseatcrossroads5" style="left:81.250%;top:16.667%;width:6.250%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Visitor" style="left:31.250%;top:25.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Guard" style="left:6.250%;top:50.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Guard" style="left:87.500%;top:50.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Visitor" style="left:62.500%;top:75.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Rat" style="left:75.000%;top:25.000%;width:18.750%;height:16.667%"></span><a class="mo mo-key" href="../../quests/nondisplay/#stage-17" title="Unlocked during the quest: hidden story flag “nondisplay” (stage 17: “Sleeping quarters in Crossroads1”)" style="left:43.750%;top:25.000%;width:12.500%;height:16.667%"></a><a class="mob" href="../../monsters/crossroads_guest/" title="Visitor" style="left:31.250%;top:25.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_83.png" alt="Visitor"></a><a class="mob" href="../../monsters/crossroads_sleepguard/" title="Guard" style="left:6.250%;top:50.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_76.png" alt="Guard"></a><a class="mob" href="../../monsters/crossroads_backguard/" title="Guard" style="left:87.500%;top:50.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_76.png" alt="Guard"></a><a class="mob" href="../../monsters/crossroads_guest/" title="Visitor" style="left:62.500%;top:75.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_83.png" alt="Visitor"></a><a class="mob" href="../../monsters/crossroads_rat/" title="Rat" style="left:81.250%;top:25.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="pin pin-exit" href="#key-1" style="left:15.625%;top:29.167%" title="Exit (stairs / passage): to [Houseatcrossroads0](../houseatcrossroads0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:84.375%;top:20.833%" title="Exit (stairs / passage): to [Houseatcrossroads5](../houseatcrossroads5.md)">2</a><a class="pin pin-npc" href="#key-3" style="left:9.375%;top:54.167%" title="[Guard](../../monsters/crossroads_sleepguard.md): NPC">3</a><a class="pin pin-npc" href="#key-4" style="left:90.625%;top:54.167%" title="[Guard](../../monsters/crossroads_backguard.md): NPC">4</a><a class="pin pin-npc" href="#key-5" style="left:34.375%;top:29.167%" title="[Visitor](../../monsters/crossroads_guest.md): NPC">5</a><a class="pin pin-rest" href="#key-6" style="left:53.125%;top:37.500%" title="Resting place: Rest here to heal and set your respawn point">6</a><a class="pin pin-key" href="#key-7" style="left:50.000%;top:33.333%" title="Blocked passage: Unlocked during the quest: hidden story flag “nondisplay” (stage 17: “Sleeping quarters in Crossroads1”)">7</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/houseatcrossroads1.webp" alt="Map of Houseatcrossroads1" width="512" height="384" loading="lazy"><a id="place-up" class="mo mo-mapchange" href="../houseatcrossroads0/#place-down" title="Exit to Houseatcrossroads0" style="left:12.500%;top:25.000%;width:6.250%;height:8.333%"></a><span class="mo mo-rest" title="Resting place (respawn point)" style="left:50.000%;top:33.333%;width:6.250%;height:8.333%"></span><a id="place-north" class="mo mo-mapchange" href="../houseatcrossroads5/#place-south" title="Exit to Houseatcrossroads5" style="left:81.250%;top:16.667%;width:6.250%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Visitor" style="left:31.250%;top:25.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Guard" style="left:6.250%;top:50.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Guard" style="left:87.500%;top:50.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Visitor" style="left:62.500%;top:75.000%;width:6.250%;height:8.333%"></span><span class="mo mo-spawn" title="Spawns: Rat" style="left:75.000%;top:25.000%;width:18.750%;height:16.667%"></span><a class="mo mo-key" href="../../quests/nondisplay/#stage-17" title="Unlocked during the quest: hidden story flag “nondisplay” (stage 17: “Sleeping quarters in Crossroads1”)" style="left:43.750%;top:25.000%;width:12.500%;height:16.667%"></a><a class="mob" href="../../monsters/crossroads_guest/" title="Visitor" style="left:31.250%;top:25.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_83.png" alt="Visitor"></a><a class="mob" href="../../monsters/guard/#v-crossroads_sleepguard" title="Guard" style="left:6.250%;top:50.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_76.png" alt="Guard"></a><a class="mob" href="../../monsters/guard/#v-crossroads_backguard" title="Guard" style="left:87.500%;top:50.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_76.png" alt="Guard"></a><a class="mob" href="../../monsters/crossroads_guest/" title="Visitor" style="left:62.500%;top:75.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_83.png" alt="Visitor"></a><a class="mob" href="../../monsters/vermin0/#v-crossroads_rat" title="Rat" style="left:81.250%;top:25.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="pin pin-exit" href="#key-1" style="left:15.625%;top:29.167%" title="Exit (stairs / passage): to [Houseatcrossroads0](houseatcrossroads0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:84.375%;top:20.833%" title="Exit (stairs / passage): to [Houseatcrossroads5](houseatcrossroads5.md)">2</a><a id="pin-npc-crossroads_backguard" class="pin pin-npc" href="#key-3" style="left:90.625%;top:54.167%" title="[Guard](../../monsters/guard.md#v-crossroads_backguard): NPC">3</a><a id="pin-npc-crossroads_sleepguard" class="pin pin-npc" href="#key-4" style="left:9.375%;top:54.167%" title="[Guard](../../monsters/guard.md#v-crossroads_sleepguard): NPC">4</a><a id="pin-npc-crossroads_guest" class="pin pin-npc" href="#key-5" style="left:34.375%;top:29.167%" title="[Visitor](../../monsters/crossroads_guest.md): NPC">5</a><a class="pin pin-rest" href="#key-6" style="left:53.125%;top:37.500%" title="Resting place: Rest here to heal and set your respawn point">6</a><a class="pin pin-key" href="#key-7" style="left:50.000%;top:33.333%" title="Blocked passage: Unlocked during the quest: hidden story flag “nondisplay” (stage 17: “Sleeping quarters in Crossroads1”)">7</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Houseatcrossroads0](../houseatcrossroads0.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Houseatcrossroads5](../houseatcrossroads5.md) |
-    | <span id="key-3"></span>3 | [Guard](../monsters/crossroads_sleepguard.md) | NPC |
-    | <span id="key-4"></span>4 | [Guard](../monsters/crossroads_backguard.md) | NPC |
+    | <span id="key-1"></span>1 | Exit (stairs / passage) | to [Houseatcrossroads0](houseatcrossroads0.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Houseatcrossroads5](houseatcrossroads5.md) |
+    | <span id="key-3"></span>3 | [Guard](../monsters/guard.md#v-crossroads_backguard) | NPC |
+    | <span id="key-4"></span>4 | [Guard](../monsters/guard.md#v-crossroads_sleepguard) | NPC |
     | <span id="key-5"></span>5 | [Visitor](../monsters/crossroads_guest.md) | NPC |
     | <span id="key-6"></span>6 | Resting place | Rest here to heal and set your respawn point |
     | <span id="key-7"></span>7 | Blocked passage | Unlocked during the quest: hidden story flag “nondisplay” (stage 17: “Sleeping quarters in Crossroads1”) |
@@ -47,21 +51,21 @@
 
 ## NPCs
 
-- [Guard](../monsters/crossroads_sleepguard.md) (#3)
-- [Guard](../monsters/crossroads_backguard.md) (#4)
+- [Guard](../monsters/guard.md#v-crossroads_backguard) (#3)
+- [Guard](../monsters/guard.md#v-crossroads_sleepguard) (#4)
 - [Visitor](../monsters/crossroads_guest.md) (#5)
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rat](../monsters/crossroads_rat.md) | 5 | 1–1 | 1 | – |
+| [Rat](../monsters/vermin0.md#v-crossroads_rat) | 5 | 1–1 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): [Guard](../monsters/crossroads_sleepguard.md) is involved; blocked passage opens at stage 17
+- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): [Guard](../monsters/guard.md#v-crossroads_sleepguard) is involved; blocked passage opens at stage 17
 
 ## Points of interest
 
@@ -87,19 +91,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=houseatcrossroads1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Echoes of enchantment is a quest in Andor's Trail, started by stepping on a trigger on wexlow_village. 14 stages, 5,200 XP in total. At the Wexlow well, I angered something evil and powerful (named Gamjee, I think) to the point that it pulled me down into the well. I've landed at the well's botto…"
+---
+
 # Echoes of enchantment
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 14) |
 | **Started by** | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) |
-| **NPCs involved** | [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee_oc.md), [Godelieve](../monsters/village_godelieve.md) |
+| **NPCs involved** | [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md) |
 | **Locations** | [gamjee_well_4_1](../maps/gamjee_well_4_1.md), [wexlow_village_nw_house](../maps/wexlow_village_nw_house.md) |
 | **Total XP** | 5,200 |
 | **Related quests** | 1 |
@@ -73,7 +77,7 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 | <span id="stage-13"></span>13 | After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit. | [Gamjee](../monsters/gamjee.md) ([gamjee_well_4_1](../maps/gamjee_well_4_1.md)) | stage 12, stage 5, stage 8 | gives 1× [Gamjee's rope](../items/gamjee_rope.md) |
 | <span id="stage-14"></span>14 | I've visited the people of Wexlow Village after they made it home. They are happy to sleep in their own beds now. **(completes quest)** | [Godelieve](../monsters/village_godelieve.md) ([wexlow_village_nw_house](../maps/wexlow_village_nw_house.md)) | – | 500 XP |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -111,7 +115,7 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 
 ???+ note "Stage 9: 1 route"
 
-    1. stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-4); killed 1× [Gamjee](../monsters/gamjee_oc.md); reached stage 9 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) → **stage 9**. NPC: “Gamjee has grasped his last breath and now it's time to rescue those people.”
+    1. stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-4); killed 1× [Gamjee](../monsters/gamjee.md#v-gamjee_oc); reached stage 9 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) → **stage 9**. NPC: “Gamjee has grasped his last breath and now it's time to rescue those people.”
 
 ???+ note "Stage 10: 1 route"
 
@@ -119,7 +123,7 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 
 ???+ note "Stage 11: 1 route"
 
-    1. stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-3); killed 1× [Gamjee](../monsters/gamjee_oc.md); NOT reached stage 11 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) → **stage 11**. NPC: “Gamjee has grasped his last breath when you realize that you really need to follow those voices.”
+    1. stepping on a trigger on [gamjee_well_4_1](../maps/gamjee_well_4_1.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-3); killed 1× [Gamjee](../monsters/gamjee.md#v-gamjee_oc); NOT reached stage 11 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) → **stage 11**. NPC: “Gamjee has grasped his last breath when you realize that you really need to follow those voices.”
 
 ???+ note "Stage 12: 1 route"
 
@@ -153,23 +157,23 @@ Start with stepping on a trigger on [wexlow_village](../maps/wexlow_village.md).
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=echoes_of_enchantment.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

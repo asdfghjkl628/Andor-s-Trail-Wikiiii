@@ -1,4 +1,10 @@
+---
+description: "Kotheses is an NPC who can also be fought in Andor's Trail, found in laerothprison7."
+---
+
 # ![](../assets/icons/monsters/monsters_tometik7_6.png){ .sprite } Kotheses
+
+**Where to find Kotheses:** [laerothprison7](../maps/laerothprison7.md#pin-npc-kotheses)
 
 <div class="infobox" markdown>
 
@@ -6,21 +12,26 @@
 
 | | |
 |---|---|
-| **Monster ID** | `kotheses` |
-| **Type** | NPC |
+| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Found in** | laerothprison7 |
 | **Class** | Undead |
 | **HP** | 180 |
-| **XP when killed** | 313 |
-| **Found in** | laerothprison7 |
+| **XP when defeated** | 313 |
+| **Entry ID** | `kotheses` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-## Combat stats
+!!! warning "Can be fought"
+    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
 
-| Stat | Value |
+## Combat statistics
+
+| Statistic | Value |
 |---|---|
+| Class | Undead |
 | HP | 180 |
+| XP when defeated | 313 |
 | Damage | 3 to 20 |
 | Attack chance | 90 |
 | Block chance | 75 |
@@ -31,16 +42,14 @@
 | Move cost | 5 AP |
 | Critical skill | 15 |
 | Critical multiplier | 1.5 |
-| Crit chance | 12% |
+| Critical hit chance | 12% |
 
 **On hit:** Heal HP: 2
 
 **When hit:** Heal HP: 2; increaseAttackerCurrentHP: -2
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Drops
 
@@ -57,21 +66,19 @@
 |---|---|---|---|
 | [laerothprison7](../maps/laerothprison7.md) | – | 1 | – |
 
+## Quests that count defeats
 
-## Quests that count kills
-
-- A conversation with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner4a.md) checks that you've killed at least 1
-- [Shadow of the torturer](../quests/lae_torturer.md#stage-80) with [Laeroth prisoner](../monsters/lae_prisoner4.md) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner4a.md) checks that you've killed at least 1
-
+- A conversation with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) checks that this enemy has been defeated.
+- [Shadow of the torturer](../quests/lae_torturer.md#stage-80) with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) checks that this enemy has been defeated.
 
 ## Quests
 
-- [Search for Andor](../quests/andor.md): stages 120
+- [Search for Andor](../quests/andor.md): stage 120
 - [Shadow of the torturer](../quests/lae_torturer.md): stages 25, 30, 35, 40, 50, 60, 120
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Kotheses. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kotheses. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_torturer.json" data-npc="Kotheses" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -83,7 +90,7 @@ Set up your situation (quest stages, items, kills…), then talk to Kotheses. Th
 
     <span id="d-lae_torturer"></span>**`lae_torturer`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT killed 1× [Dark watch](../monsters/lae_demon9.md); NOT killed 1× [Dark watch](../monsters/lae_demon7.md); NOT killed 1× [Dark watch](../monsters/lae_demon5.md); NOT killed 1× [Dark watch](../monsters/lae_demon4.md))* → [lae_torturer_5](#d-lae_torturer_5)
+    - branch 1 *(if NOT killed 1× [Dark watch](../monsters/lae_demon4.md#v-lae_demon9); NOT killed 1× [Dark watch](../monsters/lae_demon4.md#v-lae_demon7); NOT killed 1× [Dark watch](../monsters/lae_demon4.md#v-lae_demon5); NOT killed 1× [Dark watch](../monsters/lae_demon4.md))* → [lae_torturer_5](#d-lae_torturer_5)
     - branch 2 *(if reached stage 50 of [Shadow of the torturer](../quests/lae_torturer.md#stage-50))* → [lae_torturer_5](#d-lae_torturer_5)
     - branch 3 *(if NOT reached stage 30 of [Shadow of the torturer](../quests/lae_torturer.md#stage-30))* → [lae_torturer_5](#d-lae_torturer_5)
     - branch 4 → [lae_torturer_2](#d-lae_torturer_2)
@@ -262,32 +269,11 @@ Set up your situation (quest stages, items, kills…), then talk to Kotheses. Th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `kotheses` |
+    | Entry ID | `kotheses` |
     | Spawn group | `kotheses` |
     | Loot table | `kotheses` |
     | Conversation | `lae_torturer` |
@@ -338,6 +324,36 @@ Set up your situation (quest stages, items, kills…), then talk to Kotheses. Th
      }
     }
     ```
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=kotheses.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

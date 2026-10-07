@@ -1,3 +1,7 @@
+---
+description: "Wine is a ordinary food in Andor's Trail. How to get it: shops, containers."
+---
+
 # ![](../assets/icons/items/items_consumables_50.png){ .sprite } Wine
 
 *Ordinary food.*
@@ -47,15 +51,15 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Fjoerkard](../monsters/guynmart_drunkard1.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) | [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-4) | must be carried (1×) | “(automatic)” |
-| [Fjoerkard](../monsters/guynmart_drunkard5.md) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | must be carried (1×) | “(automatic)” |
-| [Fjoerkard](../monsters/guynmart_drunkard5.md) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | handed over (1×) | “OK.” |
-| [Fjoerkard](../monsters/guynmart_drunkard5.md) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | must be carried (1×) | “Help yourself.” |
-| [Fjoerkard](../monsters/guynmart_drunkard5.md) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | handed over (1×) | “N” |
-| [Fjoerkard](../monsters/guynmart_drunkard5.md) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | handed over (1×) | “(automatic)” |
-| [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-90) | handed over (1×) | “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” |
-| [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “Yes, here you are. Enjoy it!” |
-| [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “I could spare bread, some cheese and a bottle of red wine.” |
-| [Old man](../monsters/guynmart_wise.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-10) | handed over (1×) | “Here I have bread, some cheese and a bottle of red wine.” |
+| [Fjoerkard](../monsters/guynmart_drunkard1.md#v-guynmart_drunkard5) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | must be carried (1×) | “(automatic)” |
+| [Fjoerkard](../monsters/guynmart_drunkard1.md#v-guynmart_drunkard5) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | handed over (1×) | “OK.” |
+| [Fjoerkard](../monsters/guynmart_drunkard1.md#v-guynmart_drunkard5) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | must be carried (1×) | “Help yourself.” |
+| [Fjoerkard](../monsters/guynmart_drunkard1.md#v-guynmart_drunkard5) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | handed over (1×) | “N” |
+| [Fjoerkard](../monsters/guynmart_drunkard1.md#v-guynmart_drunkard5) ([guynmart_main_2](../maps/guynmart_main_2.md)), stepping on a trigger on [guynmart_main_2](../maps/guynmart_main_2.md) | – | handed over (1×) | “(automatic)” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-90) | handed over (1×) | “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “Yes, here you are. Enjoy it!” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “I could spare bread, some cheese and a bottle of red wine.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-10) | handed over (1×) | “Here I have bread, some cheese and a bottle of red wine.” |
 | [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (1×) | “Here, take them all.” |
 | [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | must be carried (1×) | “(automatic)” |
 
@@ -77,19 +81,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=guynmart_wine.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Troubling times is a quest in Andor's Trail, started by Nanath (fallhaven_derelict2). 42 stages, 15,002 XP in total. I went to the Thieves' Guild in Fallhaven looking for things to do."
+---
+
 # Troubling times
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 42 (completes at 20, 30, 310) |
 | **Started by** | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)), [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina5.md), [Sly Seraphina](../monsters/tt_seraphina2.md), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina4.md), [Sly Seraphina](../monsters/thief_seraphina.md) +2 |
+| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) +2 |
 | **Locations** | [blackwater_mountain12](../maps/blackwater_mountain12.md), [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md) |
 | **Total XP** | 15,002 |
 | **Related quests** | 7 |
@@ -83,11 +87,11 @@
 | <span id="stage-95"></span>95 | Nanath asked if I had already found Luthor's ring. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
 | <span id="stage-100"></span>100 | I went back to Nanath as I couldn't find Luthor's ring anywhere.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Fallhaven derelict2](../maps/fallhaven_derelict2.md).</span> | stepping on a trigger on [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | stage 90 | – |
 | <span id="stage-105"></span>105 | He told me to seek out Fanamor's friend Sly Seraphina near the Sutdover bridge. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 100, stage 95 | – |
-| <span id="stage-110"></span>110 | Seraphina didn't believe me. She told me to go away. | [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 100 | – |
+| <span id="stage-110"></span>110 | Seraphina didn't believe me. She told me to go away. | [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 100 | – |
 | <span id="stage-115"></span>115 | Nanath sent me to Umar. He should make sure Sly carries out the order. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 110 | – |
 | <span id="stage-120"></span>120 | Umar told me one of his secret passwords to convince Seraphina. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 115 | – |
-| <span id="stage-130"></span>130 | Sly Seraphina said that Luthor's ring was to be found in the cave which Crackshot tried to open. The door was sealed by Umar and Seraphina to prevent monsters in that cave from devastating Dhayavar. The sealing was done by using Luthor's items. She and Umar decided to separate them, and keep them separate. | [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 100, stage 120 | – |
-| <span id="stage-140"></span>140 | Seraphina felt that the danger was too high to open that door. So she disappeared. | [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 100, stage 120 | removes monsters from lake_shore_road_9 |
+| <span id="stage-130"></span>130 | Sly Seraphina said that Luthor's ring was to be found in the cave which Crackshot tried to open. The door was sealed by Umar and Seraphina to prevent monsters in that cave from devastating Dhayavar. The sealing was done by using Luthor's items. She and Umar decided to separate them, and keep them separate. | [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 100, stage 120 | – |
+| <span id="stage-140"></span>140 | Seraphina felt that the danger was too high to open that door. So she disappeared. | [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 100, stage 120 | removes monsters from lake_shore_road_9 |
 | <span id="stage-150"></span>150 | I had to find Sly Seraphina again. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 110, stage 140 | – |
 | <span id="stage-160"></span>160 | Nanath told me to look for her in her usual hiding places: Near one of the towns Sullengard, Stoutford, Vilegard, Prim, Loneford, or Brimhaven. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
 | <span id="stage-170"></span>170 | Talion said that without the items he asked for he couldn't help. I had to find Seraphina. | [Talion](../monsters/talion.md) | stage 140 | – |
@@ -96,24 +100,24 @@
 | <span id="stage-192"></span>192 | I have to ask Umar for Luthor's key. | [Sly Seraphina](../monsters/tt_seraphina.md) ([blackwater_mountain12](../maps/blackwater_mountain12.md)) | – | – |
 | <span id="stage-193"></span>193 | I have got the key. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 160, stage 180, stage 192 | gives 1× [Key of Luthor](../items/key_luthor.md) |
 | <span id="stage-195"></span>195 | Seraphina agreed to help me and told me to meet her at the locked door in the cave where Crackshot was defeated. | [Sly Seraphina](../monsters/tt_seraphina.md) ([blackwater_mountain12](../maps/blackwater_mountain12.md)) | – | spawns monsters on crackshot_hideout3<br>removes monsters from sullengard3<br>removes monsters from wild21<br>removes monsters from waytobrimhaven1<br>removes monsters from blackwater_mountain12<br>removes monsters from waterway6<br>removes monsters from vilegard_s |
-| <span id="stage-200"></span>200 | I met Seraphina at the cave door where Crackshot was defeated. | [Sly Seraphina](../monsters/tt_seraphina2.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | – | – |
-| <span id="stage-210"></span>210 | Seraphina could open the door with Luthor's key wearing also his gloves. She entered the cave behind the door. | [Sly Seraphina](../monsters/tt_seraphina2.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | hand over 1× [Key of Luthor](../items/key_luthor.md) | sets stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20)<br>removes monsters from crackshot_hideout3 |
+| <span id="stage-200"></span>200 | I met Seraphina at the cave door where Crackshot was defeated. | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | – | – |
+| <span id="stage-210"></span>210 | Seraphina could open the door with Luthor's key wearing also his gloves. She entered the cave behind the door. | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | hand over 1× [Key of Luthor](../items/key_luthor.md) | sets stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20)<br>removes monsters from crackshot_hideout3 |
 | <span id="stage-220"></span>220 | I followed her.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout4](../maps/crackshot_hideout4.md).</span> | stepping on a trigger on [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | spawns monsters on crackshot_hideout4 |
 | <span id="stage-230"></span>230 | Seraphina got injured attacking one of the monsters. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-240"></span>240 | I have killed the monsters blocking the entrance. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-250"></span>250 | I healed Seraphina using potions.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout4](../maps/crackshot_hideout4.md).</span> | [Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | hand over 1× [Regular potion of health](../items/health.md) | – |
-| <span id="stage-252"></span>252 | I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose. | [Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | hand over 1× [Weak poison](../items/pot_poison_weak.md) | – |
+| <span id="stage-250"></span>250 | I healed Seraphina using potions.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout4](../maps/crackshot_hideout4.md).</span> | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | hand over 1× [Regular potion of health](../items/health.md) | – |
+| <span id="stage-252"></span>252 | I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose. | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | hand over 1× [Weak poison](../items/pot_poison_weak.md) | – |
 | <span id="stage-255"></span>255 | Seraphina already started the search for the ring.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout4](../maps/crackshot_hideout4.md).</span> | stepping on a trigger on [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | spawns monsters on crackshot_hideout4<br>removes monsters from crackshot_hideout4<br>starts timer “tt_search” |
-| <span id="stage-260"></span>260 | I searched the cave for Luthor's ring. I couldn't find it. | [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | – |
-| <span id="stage-270"></span>270 | Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion. | [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | spawns monsters on lake_shore_road_9<br>removes monsters from crackshot_hideout4<br>gives 1× [Luthor's Ring](../items/ring_luthor.md) |
+| <span id="stage-260"></span>260 | I searched the cave for Luthor's ring. I couldn't find it. | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | – |
+| <span id="stage-270"></span>270 | Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion. | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | spawns monsters on lake_shore_road_9<br>removes monsters from crackshot_hideout4<br>gives 1× [Luthor's Ring](../items/ring_luthor.md) |
 | <span id="stage-280"></span>280 | I gave 50000 gold, Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion, and Luthor's ring to Talion. | [Talion](../monsters/talion.md) | – | – |
 | <span id="stage-290"></span>290 | Talion used them to undo the spell. | [Talion](../monsters/talion.md) | stage 280 | – |
 | <span id="stage-300"></span>300 | Talion returned Luthor's ring. The other rings were broken in the process though and the Tears of the Shadow potion was used up of course. | [Talion](../monsters/talion.md) | stage 290 | gives 1× [Luthor's Ring](../items/ring_luthor.md) |
 | <span id="stage-302"></span>302 | The room with the dangerous creatures has been locked and sealed again. | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 290 | clears stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20) |
 | <span id="stage-310"></span>310 | Nanath gave me 75000 gold as a reward for a job well done. **(completes quest)** | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 290 | 15,000 XP<br>gives 75000× [Gold coins](../items/gold.md) |
-| <span id="stage-320"></span>320 | Sly Seraphina was friendly to me - for now. | [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 270 | – |
+| <span id="stage-320"></span>320 | Sly Seraphina was friendly to me - for now. | [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | stage 270 | – |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -178,7 +182,7 @@
 
 ???+ note "Stage 110: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “We need Luthor's ring, and you know ...” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140) → **stage 110**. NPC: “Likely story, kid. Buzz off!”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “We need Luthor's ring, and you know ...” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140) → **stage 110**. NPC: “Likely story, kid. Buzz off!”
 
 ???+ note "Stage 115: 1 route"
 
@@ -190,11 +194,11 @@
 
 ???+ note "Stage 130: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “Using Luthor's items?” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140); reached stage 120 of [Troubling times](../quests/troubling_times.md#stage-120) → **stage 130**. NPC: “Umar and I decided to separate the key and the gloves. And the two of us never meet, to keep that door permanently…”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “Using Luthor's items?” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140); reached stage 120 of [Troubling times](../quests/troubling_times.md#stage-120) → **stage 130**. NPC: “Umar and I decided to separate the key and the gloves. And the two of us never meet, to keep that door permanently…”
 
 ???+ note "Stage 140: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “What?” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140); reached stage 120 of [Troubling times](../quests/troubling_times.md#stage-120); random chance (17%) → **stage 140**; also removes monsters from lake_shore_road_9, removes monsters from lake_shore_road_9. NPC: “Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me.”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “What?” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140); reached stage 120 of [Troubling times](../quests/troubling_times.md#stage-120); random chance (17%) → **stage 140**; also removes monsters from lake_shore_road_9, removes monsters from lake_shore_road_9. NPC: “Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me.”
 
 ???+ note "Stage 150: 1 route"
 
@@ -230,11 +234,11 @@
 
 ???+ note "Stage 200: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina2.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) → the conversation leads here automatically → **stage 200**. NPC: “At last! Did you sleep all the way here?”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) → the conversation leads here automatically → **stage 200**. NPC: “At last! Did you sleep all the way here?”
 
 ???+ note "Stage 210: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina2.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) → choose “Here it is. Let's do it.” — **conditions:** hand over 1× [Key of Luthor](../items/key_luthor.md) → **stage 210**; also sets stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20), removes monsters from crackshot_hideout3. NPC: “Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) → choose “Here it is. Let's do it.” — **conditions:** hand over 1× [Key of Luthor](../items/key_luthor.md) → **stage 210**; also sets stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20), removes monsters from crackshot_hideout3. NPC: “Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.”
 
 ???+ note "Stage 220: 1 route"
 
@@ -242,11 +246,11 @@
 
 ???+ note "Stage 250: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Here, have a potion of health.” — **conditions:** NOT reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250); hand over 1× [Regular potion of health](../items/health.md) → **stage 250**. NPC: “Ahh, that's good. Thank you, kid ... $playername.”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Here, have a potion of health.” — **conditions:** NOT reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250); hand over 1× [Regular potion of health](../items/health.md) → **stage 250**. NPC: “Ahh, that's good. Thank you, kid ... $playername.”
 
 ???+ note "Stage 252: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina4.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Here, have this nice potion. [give her a poison potion]” — **conditions:** NOT reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250); NOT reached stage 252 of [Troubling times](../quests/troubling_times.md#stage-252); hand over 1× [Weak poison](../items/pot_poison_weak.md) → **stage 252**. NPC: “[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten.”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Here, have this nice potion. [give her a poison potion]” — **conditions:** NOT reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250); NOT reached stage 252 of [Troubling times](../quests/troubling_times.md#stage-252); hand over 1× [Weak poison](../items/pot_poison_weak.md) → **stage 252**. NPC: “[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten.”
 
 ???+ note "Stage 255: 1 route"
 
@@ -254,11 +258,11 @@
 
 ???+ note "Stage 260: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Better help me search.” — **conditions:** reached stage 10 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-10); 8 rounds passed since timer “tt_search” → **stage 260**. NPC: “Of course I'll help you. What are you looking for?”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Better help me search.” — **conditions:** reached stage 10 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-10); 8 rounds passed since timer “tt_search” → **stage 260**. NPC: “Of course I'll help you. What are you looking for?”
 
 ???+ note "Stage 270: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina5.md) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “And all the riches?” — **conditions:** reached stage 10 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-10); 8 rounds passed since timer “tt_search” → **stage 270**; also spawns monsters on lake_shore_road_9, spawns monsters on lake_shore_road_9, removes monsters from crackshot_hideout4, gives 1× [Luthor's Ring](../items/ring_luthor.md). NPC: “Here, catch the ring! Keep it safe and take it to Talion. I'm off.”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “And all the riches?” — **conditions:** reached stage 10 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-10); 8 rounds passed since timer “tt_search” → **stage 270**; also spawns monsters on lake_shore_road_9, spawns monsters on lake_shore_road_9, removes monsters from crackshot_hideout4, gives 1× [Luthor's Ring](../items/ring_luthor.md). NPC: “Here, catch the ring! Keep it safe and take it to Talion. I'm off.”
 
 ???+ note "Stage 280: 1 route"
 
@@ -283,7 +287,7 @@
 
 ???+ note "Stage 320: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “Yes, that would be nice.” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 270 of [Troubling times](../quests/troubling_times.md#stage-270); NOT reached stage 320 of [Troubling times](../quests/troubling_times.md#stage-320) → **stage 320**. NPC: “And now buzz off, kid. ... $playername.”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “Yes, that would be nice.” — **conditions:** reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); reached stage 270 of [Troubling times](../quests/troubling_times.md#stage-270); NOT reached stage 320 of [Troubling times](../quests/troubling_times.md#stage-320) → **stage 320**. NPC: “And now buzz off, kid. ... $playername.”
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -294,7 +298,7 @@
 | Version | Change |
 |---|---|
 | [v0.8.13](../versions/0.8.13.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…”<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …”<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -305,23 +309,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=troubling_times.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

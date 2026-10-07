@@ -1,7 +1,11 @@
+---
+description: "brv_blackjack_hidden is a hidden quest in Andor's Trail, started by Dealer (brimhaven_tavern_west_back). 10 stages. Bet 1"
+---
+
 # brv_blackjack_hidden
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 10 |
 | **Started by** | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)), stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) |
-| **NPCs involved** | [Dealer](../monsters/brv_blackjack_dealer.md), [Guard](../monsters/brv_tavern_west_guard.md), [Zimsko](../monsters/zimsko.md) |
+| **NPCs involved** | [Dealer](../monsters/brv_blackjack_dealer.md), [Guard](../monsters/guard.md#v-brv_tavern_west_guard), [Zimsko](../monsters/zimsko.md) |
 | **Locations** | [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md), [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) |
 | **Related quests** | 2 |
 
@@ -67,7 +71,7 @@
 | <span id="stage-120"></span>120 | Bought Zimsko beer | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | pay 2 gold | – |
 | <span id="stage-130"></span>130 | Zimsko talked about loosing money | [Zimsko](../monsters/zimsko.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) | – | – |
 | <span id="stage-140"></span>140 | Played blackjack for higher amounts<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md).</span> | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md))<br>stepping on a trigger on [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | pay 10 gold, pay 5 gold | – |
-| <span id="stage-150"></span>150 | Allowed to enter backroom<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))<br>stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) | – | sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40)<br>spawns monsters on brimhaven_tavern_west_back |
+| <span id="stage-150"></span>150 | Allowed to enter backroom<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md).</span> | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md))<br>stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) | – | sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40)<br>spawns monsters on brimhaven_tavern_west_back |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -120,9 +124,9 @@
 
 ???+ note "Stage 150: 3 routes"
 
-    1. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40) → **stage 150**; also sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40). NPC: “I wish you good luck. [Laughs]”
-    2. stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) → choose “Sure I am. I'm on official Alkapoan business.” — **conditions:** reached stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Gambler](../monsters/brv_blackjack_gambler2_evil.md); killed 1× [Gambler](../monsters/brv_blackjack_gambler1_evil.md); killed 1× [Dealer](../monsters/brv_blackjack_dealer_evil.md); latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40 → **stage 150**; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”
-    3. Talk to [Guard](../monsters/brv_tavern_west_guard.md) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “Sure I am. I'm on official Alkapoan business.” — **conditions:** reached stage 60 of [Fair play?](../quests/brv_blackjack.md#stage-60); latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40 → **stage 150**; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”
+    1. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40) → **stage 150**; also sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40). NPC: “I wish you good luck. [Laughs]”
+    2. stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) → choose “Sure I am. I'm on official Alkapoan business.” — **conditions:** reached stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150); reached stage 50 of [Fair play?](../quests/brv_blackjack.md#stage-50); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil); killed 1× [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil); killed 1× [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil); latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40 → **stage 150**; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”
+    3. Talk to [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) → choose “Sure I am. I'm on official Alkapoan business.” — **conditions:** reached stage 60 of [Fair play?](../quests/brv_blackjack.md#stage-60); latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40 → **stage 150**; also spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back. NPC: “Oh, sorry. Please don't tell Alkapoan that I hassled you.”
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -146,23 +150,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=brv_blackjack_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

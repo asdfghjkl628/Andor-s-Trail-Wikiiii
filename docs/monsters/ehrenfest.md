@@ -1,4 +1,10 @@
+---
+description: "Ehrenfest is a non-player character (NPC) in Andor's Trail, found in Prim."
+---
+
 # ![](../assets/icons/monsters/monsters_tometik1_86.png){ .sprite } Ehrenfest
+
+**Where to find Ehrenfest:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-ehrenfest), [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-ehrenfest), [elm5f_2](../maps/elm5f_2.md#pin-npc-ehrenfest), [elm_mine1](../maps/elm_mine1.md#pin-npc-ehrenfest)
 
 <div class="infobox" markdown>
 
@@ -6,46 +12,21 @@
 
 | | |
 |---|---|
-| **Monster ID** | `ehrenfest` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Prim |
+| **Entry ID** | `ehrenfest` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain11](../maps/blackwater_mountain11.md) | Prim | 1 | appears later in a quest |
-| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 1 | appears later in a quest |
+| [blackwater_mountain11](../maps/blackwater_mountain11.md) | Prim | 1 | Appears later, during a quest |
+| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 1 | Appears later, during a quest |
 | [elm5f_2](../maps/elm5f_2.md) | – | 1 | – |
-| [elm_mine1](../maps/elm_mine1.md) | – | 1 | appears later in a quest |
-
+| [elm_mine1](../maps/elm_mine1.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -54,7 +35,7 @@
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ehrenfest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ehrenfest_selector_2.json" data-npc="Ehrenfest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -241,7 +222,7 @@ Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. T
     - “All of this is getting too shady. I'd better leave.” → [ehrenfest_6b](#d-ehrenfest_6b)
     - “Continue, please.” → [ehrenfest_6a](#d-ehrenfest_6a)
 
-    <span id="d-ehrenfest_conversation_1"></span>**`ehrenfest_conversation_1`** [General's henchman](../monsters/ortholion_guard_hidden.md): “OUT OF THE WAY, COMMONERS!”
+    <span id="d-ehrenfest_conversation_1"></span>**`ehrenfest_conversation_1`** [General's henchman](../monsters/ortholion_guard1.md#v-ortholion_guard_hidden): “OUT OF THE WAY, COMMONERS!”
 
     - Next → [ehrenfest_conversation_1a](#d-ehrenfest_conversation_1a)
 
@@ -426,7 +407,7 @@ Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. T
     - “Shadow be with you.” → *NPC leaves*
     - “See you later then.” → *NPC leaves*
 
-    <span id="d-ehrenfest_conversation_2"></span>**`ehrenfest_conversation_2`** [General Ortholion](../monsters/ortholion_hidden.md): “I will say it only once. No taverns, no exploring, no drama with those untrained Prim guards. And for the glory of our homeland, don't pursue any injured monster.”
+    <span id="d-ehrenfest_conversation_2"></span>**`ehrenfest_conversation_2`** [General Ortholion](../monsters/ortholion.md#v-ortholion_hidden): “I will say it only once. No taverns, no exploring, no drama with those untrained Prim guards. And for the glory of our homeland, don't pursue any injured monster.”
 
     - Next → [ehrenfest_conversation_3](#d-ehrenfest_conversation_3)
 
@@ -500,7 +481,7 @@ Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. T
     - “Have you finished?” → [ehrenfest_17a](#d-ehrenfest_17a)
     - “Obviously you needed the rest.” → [ehrenfest_17](#d-ehrenfest_17)
 
-    <span id="d-ehrenfest_conversation_4"></span>**`ehrenfest_conversation_4`** [General's henchman](../monsters/ortholion_guard_hidden.md): “Yes, my general.” — **effects:** sets stage 7 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-7), sets stage 10 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-10), spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain11, spawns monsters on blackwater_mountain11
+    <span id="d-ehrenfest_conversation_4"></span>**`ehrenfest_conversation_4`** [General's henchman](../monsters/ortholion_guard1.md#v-ortholion_guard_hidden): “Yes, my general.” — **effects:** sets stage 7 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-7), sets stage 10 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-10), spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain10, spawns monsters on blackwater_mountain11, spawns monsters on blackwater_mountain11
 
     - Next → [ehrenfest_conversation_4a](#d-ehrenfest_conversation_4a)
 
@@ -683,37 +664,16 @@ Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. T
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “*looks nervious* I told you. Something big is about to happen. I beli…” → “*looks nervous* I told you. Something big is about to happen. I belie…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 3 lines changed<br>· text: “Lorn lay next to me, just a few meters away. His armor was entirely c…” → “Lorn lay next to me, just a few steps away. His armor was entirely co…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “Don't look at me that way, kid...*laughs*. This is too complicated fo…” → “Don't look at me that way, kid...[laughs]. This is too complicated fo…”<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “[People from the tavern start looking at the place where Ortholion an…” → “[People from the tavern start looking at the place where Ortholion an…”<br>· text: “*unsheathes his sword* Well, enough talk. I won't ignore your threats…” → “[unsheathes his sword] Well, enough talk. I won't ignore your threats…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `ehrenfest` |
+    | Entry ID | `ehrenfest` |
     | Spawn group | `ehrenfest` |
     | Loot table | – |
     | Conversation | `ehrenfest_selector_2` |
@@ -735,6 +695,27 @@ Set up your situation (quest stages, items, kills…), then talk to Ehrenfest. T
      "phraseID": "ehrenfest_selector_2"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=ehrenfest.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

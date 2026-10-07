@@ -1,7 +1,11 @@
+---
+description: "hidden_undertell is a hidden quest in Andor's Trail, started by walking into a blocked passage on galmore_58. 39 stages. 3 = PC has encountered the Galmore encampment barricades."
+---
+
 # hidden_undertell
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 39 |
 | **Started by** | walking into a blocked passage on [galmore_58](../maps/galmore_58.md) |
-| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Brenor](../monsters/brenor.md), [Drunkard](../monsters/drunkard.md), [Lethgar miner ghost](../monsters/lethgar_miner_ghost2.md), [Lethgar slave ghost](../monsters/lethgar_female_ghost.md), [Morvath](../monsters/morvath.md) +8 |
+| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Brenor](../monsters/brenor.md), [Drunkard](../monsters/drunkard.md), [Lethgar miner ghost](../monsters/lethgar_miner_ghost.md#v-lethgar_miner_ghost2), [Lethgar slave ghost](../monsters/lethgar_female_ghost.md), [Morvath](../monsters/morvath.md) +8 |
 | **Locations** | [brimhaven4](../maps/brimhaven4.md), [brimhaven_house1](../maps/brimhaven_house1.md), [fallhaven_nw](../maps/fallhaven_nw.md), [undertell_00](../maps/undertell_00.md) |
 | **Related quests** | 10 |
 
@@ -92,7 +96,7 @@ None: talk to walking into a blocked passage on [galmore_58](../maps/galmore_58.
 | <span id="stage-38"></span>38 | 38 = PC chose to forge no weapon. | [Nocmar](../monsters/nocmar.md) | stage 25 | sets stage 200 of [Lost treasures](../quests/nocmar.md#stage-200) |
 | <span id="stage-39"></span>39 | 39 = PC gave Nocmar an answer. | [Nocmar](../monsters/nocmar.md) | stage 25, stage 30, stage 31, stage 32, stage 33, stage 34, stage 35, stage 36, stage 37 | sets stage 200 of [Lost treasures](../quests/nocmar.md#stage-200) |
 | <span id="stage-45"></span>45 | 45 = white house - going down the basement stairs<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [White house](../maps/white_house.md).</span> | stepping on a trigger on [white_house](../maps/white_house.md) | – | – |
-| <span id="stage-50"></span>50 | 50 = PC has "talked" to the white house dragon.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [White house basement](../maps/white_house_basement.md).</span> | walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md)<br>stepping on a trigger on [white_house_basement](../maps/white_house_basement.md)<br>[Lethgar miner ghost](../monsters/lethgar_miner_ghost2.md) ([undertell_1_1](../maps/undertell_1_1.md)) | carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md), stage 45 | – |
+| <span id="stage-50"></span>50 | 50 = PC has "talked" to the white house dragon.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [White house basement](../maps/white_house_basement.md).</span> | walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md)<br>stepping on a trigger on [white_house_basement](../maps/white_house_basement.md)<br>[Lethgar miner ghost](../monsters/lethgar_miner_ghost.md#v-lethgar_miner_ghost2) ([undertell_1_1](../maps/undertell_1_1.md)) | carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md), stage 45 | – |
 | <span id="stage-55"></span>55 | 55 = PC gave the Potion of heightened senses to Rain. | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | have 5,000 gold | – |
 | <span id="stage-60"></span>60 | 60 = PC gave Nixite crystal to the rock eater. | [Rock eater](../monsters/rock_eater.md) ([undertell_exit](../maps/undertell_exit.md)) | hand over 1× [Nixite crystal](../items/nixite_crystal.md) | removes monsters from undertell_exit<br>spawns monsters on undertell_exit |
 | <span id="stage-65"></span>65 | 65 = PC confirmed exit from the Lake of Fire.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Undertell 5](../maps/undertell_5.md).</span> | walking into a blocked passage on [undertell_5](../maps/undertell_5.md) | – | faction “undertellIsland” set to 0 |
@@ -114,7 +118,7 @@ None: talk to walking into a blocked passage on [galmore_58](../maps/galmore_58.
 | <span id="stage-95"></span>95 | PC met a hungry campanite. | [Tocsin](../monsters/tocsin.md) ([undertell_4_00](../maps/undertell_4_00.md)) | carry 1× [Rotten meat](../items/meat2.md) | – |
 | <span id="stage-100"></span>100 | The PC learned from an Undertell ghost that during the Rise of the Shadow, a cult of descendants of Kazaul priests calling themselves the Shadow, used hearsteel weapons to defeat the  Elytharan mages. | [Brenor](../monsters/brenor.md) ([undertell_1_0](../maps/undertell_1_0.md)) | wearing [#heartsteel_filter](../items/#heartsteel_filter.md) | – |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -213,7 +217,7 @@ None: talk to walking into a blocked passage on [galmore_58](../maps/galmore_58.
 
     1. walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md) → choose “I will not wake you. I only wanted to see.” → **stage 50**. NPC: “The dragon settles, and the warm hush returns. Its breath is a slow tide through the stone vents. The glow above you…”
     2. stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) → choose “I will not wake you. I only wanted to see.” — **conditions:** reached stage 45 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-45); NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50) → **stage 50**. NPC: “The dragon settles, and the warm hush returns. Its breath is a slow tide through the stone vents. The glow above you…”
-    3. Talk to [Lethgar miner ghost](../monsters/lethgar_miner_ghost2.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “Then maybe the legend was real.” — **conditions:** latest stage of [The fifth master](../quests/fifth_master.md#stage-65) is 65; NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50); carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md) → **stage 50**. NPC: “If he still lives, child, best let him sleep. Some fires burn long after they should have gone out.”
+    3. Talk to [Lethgar miner ghost](../monsters/lethgar_miner_ghost.md#v-lethgar_miner_ghost2) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “Then maybe the legend was real.” — **conditions:** latest stage of [The fifth master](../quests/fifth_master.md#stage-65) is 65; NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50); carry 1× [Ash covered dragon scales](../items/ancient_dragon_scales.md) → **stage 50**. NPC: “If he still lives, child, best let him sleep. Some fires burn long after they should have gone out.”
 
 ???+ note "Stage 55: 1 route"
 
@@ -311,23 +315,23 @@ None: talk to walking into a blocked passage on [galmore_58](../maps/galmore_58.
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=undertell_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

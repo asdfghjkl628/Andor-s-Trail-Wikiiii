@@ -1,3 +1,7 @@
+---
+description: "Pupil is a non-player character (NPC) in Andor's Trail, found in Brimhaven."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } Pupil
 
 <div class="infobox" markdown>
@@ -6,52 +10,41 @@
 
 | | |
 |---|---|
-| **Monster ID** | `brv_pupil1` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Brimhaven |
+| **Entries in game data** | 8 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-## Combat stats
+!!! info "8 entries in the game data"
+    The game's data files define 8 separate characters named Pupil. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-## Locations
-
-| Map | Region | Up to | Notes |
+| Entry | Type | Location | Role |
 |---|---|---|---|
-| [brimhaven_school](../maps/brimhaven_school.md) | Brimhaven | 5 | – |
+| [`brv_pupil1`](#v-brv_pupil1) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil1) | – |
+| [`brv_pupil2`](#v-brv_pupil2) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil2) | – |
+| [`brv_pupil3`](#v-brv_pupil3) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil3) | – |
+| [`brv_pupil4`](#v-brv_pupil4) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil4) | – |
+| [`brv_pupil5`](#v-brv_pupil5) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil5) | – |
+| [`brv_pupil6`](#v-brv_pupil6) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil6) | – |
+| [`brv_pupil7`](#v-brv_pupil7) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil7) | – |
+| [`brv_pupil8`](#v-brv_pupil8) | NPC | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil8) | – |
 
+## Brimhaven, Brimhaven school (brv_pupil1) { #v-brv_pupil1 }
 
-## Quests
+**Entry ID:** `brv_pupil1` · **Type:** NPC
 
-- [Lessons learned](../quests/brv_school2.md): stages 110
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stages 50
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil1)
 
-## Dialogue simulator
+### Quests
 
-Set up your situation (quest stages, items, kills…), then talk to Pupil. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -61,25 +54,25 @@ Set up your situation (quest stages, items, kills…), then talk to Pupil. The s
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-brv_school_pupil"></span>**`brv_school_pupil`** *(silent check: the first matching branch below is taken)*
+    <span id="d-brv_pupil1-brv_school_pupil"></span>**`brv_school_pupil`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 60 of [Lessons learned](../quests/brv_school2.md#stage-60))* → [brv_school_pupil_60_10](#d-brv_school_pupil_60_10)
-    - branch 2 → [brv_school_pupil_10](#d-brv_school_pupil_10)
+    - branch 1 *(if reached stage 60 of [Lessons learned](../quests/brv_school2.md#stage-60))* → [brv_school_pupil_60_10](#d-brv_pupil1-brv_school_pupil_60_10)
+    - branch 2 → [brv_school_pupil_10](#d-brv_pupil1-brv_school_pupil_10)
 
-    <span id="d-brv_school_pupil_60_10"></span>**`brv_school_pupil_60_10`** [Dummy NPC](../monsters/none.md): “As you approach the little student, horror spreads on his face.”
+    <span id="d-brv_pupil1-brv_school_pupil_60_10"></span>**`brv_school_pupil_60_10`** [Dummy NPC](../monsters/none.md): “As you approach the little student, horror spreads on his face.”
 
     - “Don't panic. I'll go away again.” → *conversation ends*
-    - “Wait, I'll show you...” → [brv_school_pupil_60_20](#d-brv_school_pupil_60_20)
+    - “Wait, I'll show you...” → [brv_school_pupil_60_20](#d-brv_pupil1-brv_school_pupil_60_20)
 
-    <span id="d-brv_school_pupil_10"></span>**`brv_school_pupil_10`** Pupil: “Hello, big one.”
-
-
-    <span id="d-brv_school_pupil_60_20"></span>**`brv_school_pupil_60_20`** Pupil: “[He jumps up and runs screaming out of the room. The other little students follow in panic.]” — **effects:** sets stage 110 of [Lessons learned](../quests/brv_school2.md#stage-110), sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50), removes monsters from brimhaven_school
+    <span id="d-brv_pupil1-brv_school_pupil_10"></span>**`brv_school_pupil_10`** Pupil: “Hello, big one.”
 
 
+    <span id="d-brv_pupil1-brv_school_pupil_60_20"></span>**`brv_school_pupil_60_20`** Pupil: “[He jumps up and runs screaming out of the room. The other little students follow in panic.]” — **effects:** sets stage 110 of [Lessons learned](../quests/brv_school2.md#stage-110), sets stage 50 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-50), removes monsters from brimhaven_school
 
 
-## Version history
+
+
+### Version history
 
 | Version | Change |
 |---|---|
@@ -88,32 +81,11 @@ Set up your situation (quest stages, items, kills…), then talk to Pupil. The s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (brv_pupil1)"
 
     | | |
     |---|---|
-    | Monster ID | `brv_pupil1` |
+    | Entry ID | `brv_pupil1` |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -136,6 +108,448 @@ Set up your situation (quest stages, items, kills…), then talk to Pupil. The s
      "phraseID": "brv_school_pupil"
     }
     ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil2) { #v-brv_pupil2 }
+
+**Entry ID:** `brv_pupil2` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil2)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil2)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil2` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:34` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil2",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:34",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil3) { #v-brv_pupil3 }
+
+**Entry ID:** `brv_pupil3` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil3)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil3)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil3` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil3",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:62",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil4) { #v-brv_pupil4 }
+
+**Entry ID:** `brv_pupil4` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil4)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil4)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil4` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:63` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil4",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:63",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil5) { #v-brv_pupil5 }
+
+**Entry ID:** `brv_pupil5` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil5)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil5)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil5` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:88` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil5",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:88",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil6) { #v-brv_pupil6 }
+
+**Entry ID:** `brv_pupil6` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil6)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil6)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil6` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:229` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil6",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:229",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil7) { #v-brv_pupil7 }
+
+**Entry ID:** `brv_pupil7` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil7)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil7)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil7` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:207` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil7",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:207",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+## Brimhaven, Brimhaven school (brv_pupil8) { #v-brv_pupil8 }
+
+**Entry ID:** `brv_pupil8` · **Type:** NPC
+
+**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_pupil8)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pupil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (brv_pupil8)"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_pupil8` |
+    | Spawn group | `brv_school_pupil` |
+    | Loot table | – |
+    | Conversation | `brv_school_pupil` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:17` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_pupil8",
+     "name": "Pupil",
+     "iconID": "monsters_ld1:17",
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_school_pupil",
+     "phraseID": "brv_school_pupil"
+    }
+    ```
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=brv_pupil1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

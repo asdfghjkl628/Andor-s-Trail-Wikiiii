@@ -1,3 +1,7 @@
+---
+description: "Colonel Lutarc is a quest in Andor's Trail, started by Colonel Lutarc (waytogalmore0). 22 stages, 1,501 XP in total. I talked to Colonel Lutarc. He proposed a competition with five of his best fighters."
+---
+
 # Colonel Lutarc
 
 <div class="infobox" markdown>
@@ -105,7 +109,7 @@
 
 ???+ note "Stage 112: 1 route"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Lizard](../monsters/stn_colonel_mons1.md); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 112**; also sets stage 120 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-120). NPC: “Not bad for the first one. Let's have the next.”
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Lizard](../monsters/stn_lizard.md#v-stn_colonel_mons1); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 112**; also sets stage 120 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-120). NPC: “Not bad for the first one. Let's have the next.”
 
 ???+ note "Stage 113: 3 routes"
 
@@ -122,7 +126,7 @@
 
 ???+ note "Stage 122: 1 route"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Skeleton](../monsters/stn_colonel_mons2.md); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 122**; also sets stage 130 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-130). NPC: “Nicely done. Let's have the next.”
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Skeleton](../monsters/skeleton.md#v-stn_colonel_mons2); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 122**; also sets stage 130 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-130). NPC: “Nicely done. Let's have the next.”
 
 ???+ note "Stage 123: 3 routes"
 
@@ -143,7 +147,7 @@
 
 ???+ note "Stage 132: 1 route"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 2× [Mikhail](../monsters/stn_colonel_mons3.md); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 132**; also sets stage 140 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-140). NPC: “I am impressed. You won the fight with my poser.”
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 2× [Mikhail](../monsters/mikhail.md#v-stn_colonel_mons3); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 132**; also sets stage 140 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-140). NPC: “I am impressed. You won the fight with my poser.”
 
 ???+ note "Stage 133: 3 routes"
 
@@ -234,23 +238,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_colonel.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 75–175 HP, worth 159–285 XP, found in Pub, Bloskelt + Roskelt, Entry, waterwaycave. Drops: Gold coins, Insect shell, Glass gem, Oegyth crystal."
+---
+
 # ![](../assets/icons/monsters/monsters_rltiles2_165.png){ .sprite } Giant larval burrower
 
 <div class="infobox" markdown>
@@ -6,21 +10,37 @@
 
 | | |
 |---|---|
-| **Monster ID** | `burrower_4` |
-| **Type** | Enemy |
+| **Type** | Enemy (hostile on sight) |
+| **Found in** | Pub, Bloskelt + Roskelt, Entry, waterwaycave |
 | **Class** | Insect |
-| **HP** | 75 |
-| **XP when killed** | 159 |
-| **Found in** | Pub, Bloskelt + Roskelt, Entry |
+| **HP** | 75–175 |
+| **XP when defeated** | 159–285 |
+| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat stats
+!!! info "2 entries in the game data"
+    The game's data files define 2 separate characters named Giant larval burrower. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
+| Entry | Type | Location | Role | HP |
+|---|---|---|---|---|
+| [`burrower_4`](#v-burrower_4) | Enemy | Bloskelt + Roskelt: [ratdom_maze_437](../maps/ratdom_maze_437.md), Entry: [ratdom_maze_438](../maps/ratdom_maze_438.md) (+9 more) | – | 75 |
+| [`burrower_cr`](#v-burrower_cr) | Enemy | [waterwaycave](../maps/waterwaycave.md) | – | 175 |
+
+## Bloskelt + Roskelt, Ratdom maze 437 and 10 more (burrower_4) { #v-burrower_4 }
+
+**Entry ID:** `burrower_4` · **Type:** Enemy
+
+**Location:** Bloskelt + Roskelt: [ratdom_maze_437](../maps/ratdom_maze_437.md), Entry: [ratdom_maze_438](../maps/ratdom_maze_438.md), Entry: [ratdom_maze_635](../maps/ratdom_maze_635.md), Instrument maker: [ratdom_maze_455](../maps/ratdom_maze_455.md), Pub: [ratdom_maze_413](../maps/ratdom_maze_413.md), Pub: [ratdom_maze_432](../maps/ratdom_maze_432.md) (+5 more)
+
+### Combat statistics
+
+| Statistic | Value |
 |---|---|
+| Class | Insect |
 | HP | 75 |
+| XP when defeated | 159 |
 | Damage | 1 to 25 |
 | Attack chance | 95 |
 | Block chance | 80 |
@@ -31,14 +51,12 @@
 | Move cost | 5 AP |
 | Critical skill | 0 |
 | Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
 
 <p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
 
-
-## Drops
+### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
@@ -46,7 +64,7 @@
 | [Insect shell](../items/shell.md) | 30% | 1 |
 | [Glass gem](../items/gem1.md) | 5% | 1 |
 
-## Locations
+### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
@@ -63,7 +81,7 @@
 | [waterwaycave](../maps/waterwaycave.md) | – | 8 | – |
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -72,32 +90,11 @@
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (burrower_4)"
 
     | | |
     |---|---|
-    | Monster ID | `burrower_4` |
+    | Entry ID | `burrower_4` |
     | Spawn group | `burrower_3` |
     | Loot table | `burrower` |
     | Conversation | – |
@@ -129,6 +126,126 @@
      "damageResistance": 2
     }
     ```
+
+
+## Waterwaycave (burrower_cr) { #v-burrower_cr }
+
+**Entry ID:** `burrower_cr` · **Type:** Enemy
+
+**Location:** [waterwaycave](../maps/waterwaycave.md)
+
+### Combat statistics
+
+| Statistic | Value |
+|---|---|
+| Class | Insect |
+| HP | 175 |
+| XP when defeated | 285 |
+| Damage | 1 to 25 |
+| Attack chance | 95 |
+| Block chance | 80 |
+| Damage resistance | 2 |
+| Max AP | 10 |
+| Attack cost | 5 AP |
+| Attacks per turn | 2 |
+| Move cost | 5 AP |
+| Critical skill | 0 |
+| Critical multiplier | – |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [waterwaycave](../maps/waterwaycave.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (burrower_cr)"
+
+    | | |
+    |---|---|
+    | Entry ID | `burrower_cr` |
+    | Spawn group | `burrower_cr` |
+    | Loot table | `oegyth1` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:165` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burrower_cr",
+     "name": "Giant larval burrower",
+     "iconID": "monsters_rltiles2:165",
+     "maxHP": 175,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "insect",
+     "attackDamage": {
+      "min": 1,
+      "max": 25
+     },
+     "spawnGroup": "burrower_cr",
+     "droplistID": "oegyth1",
+     "attackCost": 5,
+     "attackChance": 95,
+     "blockChance": 80,
+     "damageResistance": 2
+    }
+    ```
+
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=burrower_4.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

@@ -1,3 +1,7 @@
+---
+description: "Sobby's Trail is a quest in Andor's Trail, started by Tobby (guynmart_wood_19). 10 stages, 1,560 XP in total. On the road to Feygard I have met a boy named Tobby. He is looking for his brother Sobby."
+---
+
 # Sobby's Trail
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 30, 40) |
 | **Started by** | [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) |
-| **NPCs involved** | [Tobby](../monsters/tobby6.md), [Tobby](../monsters/tobby2.md), [Tobby](../monsters/tobby4a.md), [Tobby](../monsters/tobby3.md), [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby5.md) +1 |
+| **NPCs involved** | [Tobby](../monsters/tobby.md#v-tobby3), [Tobby](../monsters/tobby.md#v-tobby5), [Tobby](../monsters/tobby.md), [Tobby](../monsters/tobby.md#v-tobby6), [Tobby](../monsters/tobby.md#v-tobby4b), [Tobby](../monsters/tobby.md#v-tobby2) +1 |
 | **Locations** | [guynmart_wood_17](../maps/guynmart_wood_17.md), [guynmart_wood_17b](../maps/guynmart_wood_17b.md), [guynmart_wood_18](../maps/guynmart_wood_18.md), [guynmart_wood_19](../maps/guynmart_wood_19.md) |
 | **Total XP** | 1,560 |
 
@@ -42,9 +46,9 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-23"></span>23 | Tobby has followed me to the beginning of the ravine with the kobolds.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 18](../maps/guynmart_wood_18.md).</span> | stepping on a trigger on [guynmart_wood_18](../maps/guynmart_wood_18.md) | stage 20 | removes monsters from guynmart_wood_19<br>spawns monsters on guynmart_wood_18 |
 | <span id="stage-24"></span>24 | Tobby has made it through the ravine.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 17b](../maps/guynmart_wood_17b.md).</span> | stepping on a trigger on [guynmart_wood_17b](../maps/guynmart_wood_17b.md) | stage 23 | removes monsters from guynmart_wood_18<br>spawns monsters on guynmart_wood_17b |
 | <span id="stage-25"></span>25 | Tobby followed me further to the south.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 17](../maps/guynmart_wood_17.md).</span> | stepping on a trigger on [guynmart_wood_17](../maps/guynmart_wood_17.md) | stage 24 | removes monsters from guynmart_wood_17b<br>spawns monsters on guynmart_wood_17 |
-| <span id="stage-30"></span>30 | I have attacked poor Tobby, but he ran away. Now he will never find his brother. **(completes quest)** | [Tobby](../monsters/tobby2.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) | – | removes monsters from guynmart_wood_19<br>removes monsters from guynmart_wood_18<br>removes monsters from guynmart_wood_17b |
-| <span id="stage-40"></span>40 | We have parted. Tobby was sure now to find his brother. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 17](../maps/guynmart_wood_17.md).</span> | stepping on a trigger on [guynmart_wood_17](../maps/guynmart_wood_17.md)<br>[Tobby](../monsters/tobby5.md) ([guynmart_wood_17](../maps/guynmart_wood_17.md)) | stage 25 | 1,500 XP<br>removes monsters from guynmart_wood_17<br>spawns monsters on woodhouse1 |
-| <span id="stage-50"></span>50 | I have met Tobby again, together with Sobby in the little village in the woods. | [Tobby](../monsters/tobby6.md) ([woodhouse1](../maps/woodhouse1.md)) | – | – |
+| <span id="stage-30"></span>30 | I have attacked poor Tobby, but he ran away. Now he will never find his brother. **(completes quest)** | [Tobby](../monsters/tobby.md#v-tobby2) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) | – | removes monsters from guynmart_wood_19<br>removes monsters from guynmart_wood_18<br>removes monsters from guynmart_wood_17b |
+| <span id="stage-40"></span>40 | We have parted. Tobby was sure now to find his brother. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 17](../maps/guynmart_wood_17.md).</span> | stepping on a trigger on [guynmart_wood_17](../maps/guynmart_wood_17.md)<br>[Tobby](../monsters/tobby.md#v-tobby5) ([guynmart_wood_17](../maps/guynmart_wood_17.md)) | stage 25 | 1,500 XP<br>removes monsters from guynmart_wood_17<br>spawns monsters on woodhouse1 |
+| <span id="stage-50"></span>50 | I have met Tobby again, together with Sobby in the little village in the woods. | [Tobby](../monsters/tobby.md#v-tobby6) ([woodhouse1](../maps/woodhouse1.md)) | – | – |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -62,11 +66,11 @@ No links to other quests were found in the dialogue conditions.
 
 ???+ note "Stage 21: 1 route"
 
-    1. Talk to [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) → choose “OK. And tell your father that his rat problem is solved.” — **conditions:** reached stage 20 of [Sobby's Trail](../quests/tobby.md#stage-20); killed 1× [Tiny rat](../monsters/tobby_trainingrat.md) → **stage 21**. NPC: “Oh, how did you know?”
+    1. Talk to [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) → choose “OK. And tell your father that his rat problem is solved.” — **conditions:** reached stage 20 of [Sobby's Trail](../quests/tobby.md#stage-20); killed 1× [Tiny rat](../monsters/tiny_rat.md#v-tobby_trainingrat) → **stage 21**. NPC: “Oh, how did you know?”
 
 ???+ note "Stage 22: 1 route"
 
-    1. Talk to [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) → choose “OK. And bring your father this loaf of bread.” — **conditions:** reached stage 20 of [Sobby's Trail](../quests/tobby.md#stage-20); NOT killed 1× [Tiny rat](../monsters/tobby_trainingrat.md); hand over 1× [Bread](../items/bread.md) → **stage 22**. NPC: “Now I'm speechless - thank you!”
+    1. Talk to [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) → choose “OK. And bring your father this loaf of bread.” — **conditions:** reached stage 20 of [Sobby's Trail](../quests/tobby.md#stage-20); NOT killed 1× [Tiny rat](../monsters/tiny_rat.md#v-tobby_trainingrat); hand over 1× [Bread](../items/bread.md) → **stage 22**. NPC: “Now I'm speechless - thank you!”
 
 ???+ note "Stage 23: 1 route"
 
@@ -83,16 +87,16 @@ No links to other quests were found in the dialogue conditions.
 
 ???+ note "Stage 30: 1 route"
 
-    1. Talk to [Tobby](../monsters/tobby2.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) → choose “I'll show you - attack!” → **stage 30**; also removes monsters from guynmart_wood_19, removes monsters from guynmart_wood_18, removes monsters from guynmart_wood_17b, removes monsters from guynmart_wood_17b. NPC: “Tobby cried out aloud and ran away like the wind. You monster!”
+    1. Talk to [Tobby](../monsters/tobby.md#v-tobby2) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) → choose “I'll show you - attack!” → **stage 30**; also removes monsters from guynmart_wood_19, removes monsters from guynmart_wood_18, removes monsters from guynmart_wood_17b, removes monsters from guynmart_wood_17b. NPC: “Tobby cried out aloud and ran away like the wind. You monster!”
 
 ???+ note "Stage 40: 2 routes"
 
     1. stepping on a trigger on [guynmart_wood_17](../maps/guynmart_wood_17.md) → choose “Was it? I have got used to such things by now.” — **conditions:** reached stage 25 of [Sobby's Trail](../quests/tobby.md#stage-25); NOT reached stage 40 of [Sobby's Trail](../quests/tobby.md#stage-40) → **stage 40**; also removes monsters from guynmart_wood_17, spawns monsters on woodhouse1. NPC: “I think that I'll find Sobby by myself now. Thank you - hope we'll meet again!”
-    2. Talk to [Tobby](../monsters/tobby5.md) ([guynmart_wood_17](../maps/guynmart_wood_17.md)) → choose “Was it? I have got used to such things by now.” → **stage 40**; also removes monsters from guynmart_wood_17, spawns monsters on woodhouse1. NPC: “I think that I'll find Sobby by myself now. Thank you - hope we'll meet again!”
+    2. Talk to [Tobby](../monsters/tobby.md#v-tobby5) ([guynmart_wood_17](../maps/guynmart_wood_17.md)) → choose “Was it? I have got used to such things by now.” → **stage 40**; also removes monsters from guynmart_wood_17, spawns monsters on woodhouse1. NPC: “I think that I'll find Sobby by myself now. Thank you - hope we'll meet again!”
 
 ???+ note "Stage 50: 1 route"
 
-    1. Talk to [Tobby](../monsters/tobby6.md) ([woodhouse1](../maps/woodhouse1.md)) → choose “Tobby? What are you doing here?” → **stage 50**. NPC: “Thanks to you I have found my brother Sobby.”
+    1. Talk to [Tobby](../monsters/tobby.md#v-tobby6) ([woodhouse1](../maps/woodhouse1.md)) → choose “Tobby? What are you doing here?” → **stage 50**. NPC: “Thanks to you I have found my brother Sobby.”
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -113,23 +117,23 @@ No links to other quests were found in the dialogue conditions.
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tobby.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

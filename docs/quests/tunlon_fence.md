@@ -1,3 +1,7 @@
+---
+description: "It makes no fence is a quest in Andor's Trail, started by Tunlon (bwmfill3). 16 stages, 7,005 XP in total. I found Tunlon, a sheep farmer, on the hill next to Crossglen. He asked me to help him get some wood for new fences. Since Crossglen doesn't have a lumberjack, I should go to Fallhaven and a…"
+---
+
 # It makes no fence
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 12, 250) |
 | **Started by** | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) |
-| **NPCs involved** | [Hadracor](../monsters/hadracor.md), [Jakrar](../monsters/jakrar.md), [Tinlyn](../monsters/tinlyn.md), [Tunlon](../monsters/tunlon.md), [Villager](../monsters/loneford_villager2.md), [Wood craftsman](../monsters/brv_woodcraftsman.md) |
+| **NPCs involved** | [Hadracor](../monsters/hadracor.md), [Jakrar](../monsters/jakrar.md), [Tinlyn](../monsters/tinlyn.md), [Tunlon](../monsters/tunlon.md), [Villager](../monsters/loneford_villager0.md#v-loneford_villager2), [Wood craftsman](../monsters/brv_woodcraftsman.md) |
 | **Locations** | [brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md), [bwmfill3](../maps/bwmfill3.md), [fallhaven_sw](../maps/fallhaven_sw.md), [fields6](../maps/fields6.md) |
 | **Total XP** | 7,005 |
 | **Related quests** | 5 |
@@ -53,11 +57,11 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 | <span id="stage-40"></span>40 | I talked to Tunlon again and he told me to talk to his brother Tinlyn if he knew any person who could help me out. | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | stage 10, stage 20, stage 32 | – |
 | <span id="stage-100"></span>100 | Tinlyn was glad to meet me. He said that Loneford had a woodcutter who could maybe help me out. | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | stage 40 | – |
 | <span id="stage-110"></span>110 | Tinlyn wasn't really happy to see me. However, he told me to go to Loneford. | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) | stage 40 | – |
-| <span id="stage-150"></span>150 | In Loneford, I met a villager who told me he had some spare fences made. I should bring them to Tunlon. | [Villager](../monsters/loneford_villager2.md) ([loneford2](../maps/loneford2.md)) | pay 100 gold, stage 100 | gives [Sturdy fence](../items/tunlon_fence1.md) |
+| <span id="stage-150"></span>150 | In Loneford, I met a villager who told me he had some spare fences made. I should bring them to Tunlon. | [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) | pay 100 gold, stage 100 | gives [Sturdy fence](../items/tunlon_fence1.md) |
 | <span id="stage-200"></span>200 | Tunlon took a close look at the fences I brought him, but he didn't like them a lot. The fence posts were too short he said. I should go back and ask for taller ones. | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | carry 10× [Sturdy fence](../items/tunlon_fence1.md), stage 40 | 2,000 XP |
-| <span id="stage-210"></span>210 | The woodcutter in Loneford however said he couldn't make any fences, as he just cuts the wood. He recommended giving Brimhaven's woodcutter a visit, as he thinks that he can do some basic woodwork. | [Villager](../monsters/loneford_villager2.md) ([loneford2](../maps/loneford2.md)) | stage 200 | – |
+| <span id="stage-210"></span>210 | The woodcutter in Loneford however said he couldn't make any fences, as he just cuts the wood. He recommended giving Brimhaven's woodcutter a visit, as he thinks that he can do some basic woodwork. | [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) | stage 200 | – |
 | <span id="stage-220"></span>220 | I gave the woodcutter in Brimhaven a visit and he told me to bring some wood, so the craftsman can make fences out of it. Loneford's woodcutter should have plenty, so I should go back and ask him for wood. | [Wood craftsman](../monsters/brv_woodcraftsman.md) ([brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md)) | stage 210 | – |
-| <span id="stage-230"></span>230 | I got a pile of wood for the fences. | [Villager](../monsters/loneford_villager2.md) ([loneford2](../maps/loneford2.md)) | stage 220 | gives [Pile of wood](../items/tunlon_wood.md) |
+| <span id="stage-230"></span>230 | I got a pile of wood for the fences. | [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) | stage 220 | gives [Pile of wood](../items/tunlon_wood.md) |
 | <span id="stage-235"></span>235 | I gave the wood to the woodcraftsman in Brimhaven. | [Wood craftsman](../monsters/brv_woodcraftsman.md) ([brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md)) | hand over 1× [Pile of wood](../items/tunlon_wood.md), stage 230 | – |
 | <span id="stage-240"></span>240 | Brimhaven's wood craftsman sold me some nice looking fences. | [Wood craftsman](../monsters/brv_woodcraftsman.md) ([brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md)) | pay 200 gold, stage 235 | gives [New fence](../items/tunlon_fence2.md) |
 | <span id="stage-250"></span>250 | Tunlon was happy to see the fences I brought him. These should be just fine, he said. **(completes quest)** | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | hand over 10× [New fence](../items/tunlon_fence2.md), stage 200 | 5,000 XP<br>gives [Gold coins](../items/gold.md), [Specially peppered lamb meat](../items/lamb_meat2.md), [Red Pepper](../items/red_pepper.md) |
@@ -105,7 +109,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
 ???+ note "Stage 150: 1 route"
 
-    1. Talk to [Villager](../monsters/loneford_villager2.md) ([loneford2](../maps/loneford2.md)) → choose “Great, I'll take them.” — **conditions:** reached stage 100 of [It makes no fence](../quests/tunlon_fence.md#stage-100); NOT reached stage 150 of [It makes no fence](../quests/tunlon_fence.md#stage-150); pay 100 gold → **stage 150**; also gives [Sturdy fence](../items/tunlon_fence1.md). NPC: “Here you go.”
+    1. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) → choose “Great, I'll take them.” — **conditions:** reached stage 100 of [It makes no fence](../quests/tunlon_fence.md#stage-100); NOT reached stage 150 of [It makes no fence](../quests/tunlon_fence.md#stage-150); pay 100 gold → **stage 150**; also gives [Sturdy fence](../items/tunlon_fence1.md). NPC: “Here you go.”
 
 ???+ note "Stage 200: 1 route"
 
@@ -113,7 +117,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
 ???+ note "Stage 210: 1 route"
 
-    1. Talk to [Villager](../monsters/loneford_villager2.md) ([loneford2](../maps/loneford2.md)) → choose “So ... could you make any?” — **conditions:** reached stage 200 of [It makes no fence](../quests/tunlon_fence.md#stage-200); NOT reached stage 210 of [It makes no fence](../quests/tunlon_fence.md#stage-210) → **stage 210**. NPC: “Kid, look. I am a woodcutter, not a craftsman. Go east to Brimhaven if you want other fences.”
+    1. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) → choose “So ... could you make any?” — **conditions:** reached stage 200 of [It makes no fence](../quests/tunlon_fence.md#stage-200); NOT reached stage 210 of [It makes no fence](../quests/tunlon_fence.md#stage-210) → **stage 210**. NPC: “Kid, look. I am a woodcutter, not a craftsman. Go east to Brimhaven if you want other fences.”
 
 ???+ note "Stage 220: 1 route"
 
@@ -121,7 +125,7 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
 ???+ note "Stage 230: 1 route"
 
-    1. Talk to [Villager](../monsters/loneford_villager2.md) ([loneford2](../maps/loneford2.md)) → choose “The Craftsman told me that I should get some wood from you.” — **conditions:** reached stage 220 of [It makes no fence](../quests/tunlon_fence.md#stage-220); NOT reached stage 230 of [It makes no fence](../quests/tunlon_fence.md#stage-230) → **stage 230**; also gives [Pile of wood](../items/tunlon_wood.md). NPC: “[pointing to a pile of wood] There.”
+    1. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager2) ([loneford2](../maps/loneford2.md)) → choose “The Craftsman told me that I should get some wood from you.” — **conditions:** reached stage 220 of [It makes no fence](../quests/tunlon_fence.md#stage-220); NOT reached stage 230 of [It makes no fence](../quests/tunlon_fence.md#stage-230) → **stage 230**; also gives [Pile of wood](../items/tunlon_wood.md). NPC: “[pointing to a pile of wood] There.”
 
 ???+ note "Stage 235: 1 route"
 
@@ -155,23 +159,23 @@ Start with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)). Re
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=tunlon_fence.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

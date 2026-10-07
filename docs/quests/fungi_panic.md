@@ -1,3 +1,7 @@
+---
+description: "Fungi panic is a quest in Andor's Trail, started by Bogsten (bogsten1). 30 stages, 7,500 XP in total. I met old man Bogsten in his cabin. He was sick after encountering a giant mushroom and wanted me to go see the potion merchant in Fallhaven to get a cure."
+---
+
 # Fungi panic
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 30 (completes at 200) |
 | **Started by** | [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) |
-| **NPCs involved** | [Black fog](../monsters/zuul_khan4_blocker.md), [Black fog](../monsters/zuul_khan2_blocker.md), [Black fog](../monsters/zuul_khan9_blocker.md), [Black fog](../monsters/zuul_khan3_blocker.md), [Black fog](../monsters/zuul_khan1_blocker.md), [Bogsten](../monsters/bogsten.md) +4 |
+| **NPCs involved** | [Black fog](../monsters/zuul_khan1_blocker.md), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker), [Bogsten](../monsters/bogsten.md) +4 |
 | **Locations** | [bogsten1](../maps/bogsten1.md), [bogsten4](../maps/bogsten4.md), [fallhaven_potions](../maps/fallhaven_potions.md), [mushroom_m2_3](../maps/mushroom_m2_3.md) |
 | **Total XP** | 7,500 |
 
@@ -57,16 +61,16 @@ No links to other quests were found in the dialogue conditions.
 | <span id="stage-150"></span>150 | I gave Bogsten's staff to Zuul'khan. | [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) | carry 1× [Bogsten's staff](../items/bogsten_staff.md), hand over 1× [Bogsten's staff](../items/bogsten_staff.md) | – |
 | <span id="stage-155"></span>155 | He rewarded me with permanent immunity to Spore Infection. | [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) | stage 150 | 2,000 XP<br>applies condition spore_poison<br>+1 [Spore poison immunity](../skills/sporeImmunity.md) |
 | <span id="stage-161"></span>161 | I got through the black fog. | [Black fog](../monsters/zuul_khan1_blocker.md) ([bogsten4](../maps/bogsten4.md)) | – | removes monsters from bogsten4 |
-| <span id="stage-162"></span>162 | I got through the black fog again after a fight with Zuul'khan. | [Black fog](../monsters/zuul_khan2_blocker.md) ([mushroom_m2_3](../maps/mushroom_m2_3.md)) | – | removes monsters from mushroom_m2_3 |
-| <span id="stage-163"></span>163 | And a third time. | [Black fog](../monsters/zuul_khan3_blocker.md) ([mushroom_m2_6](../maps/mushroom_m2_6.md)) | – | removes monsters from mushroom_m2_6 |
-| <span id="stage-164"></span>164 | After another fight with Zuul'khan I got through the black fog again. | [Black fog](../monsters/zuul_khan4_blocker.md) ([mushroom_m2_8](../maps/mushroom_m2_8.md)) | – | removes monsters from mushroom_m2_8 |
-| <span id="stage-169"></span>169 | I overpowered Zuul'khan one more time, but this time the black fog wouldn't go away. Obviously I can't get past the fog that way. | [Black fog](../monsters/zuul_khan9_blocker.md) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) | – | – |
-| <span id="stage-170"></span>170 | I defeated Zuul'khan one last time and the black fog was gone for good. I must find and destroy the fungi leader. | [Black fog](../monsters/zuul_khan9_blocker.md) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) | – | removes monsters from mywildcave4<br>removes monsters from mushroom_m3_1 |
+| <span id="stage-162"></span>162 | I got through the black fog again after a fight with Zuul'khan. | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker) ([mushroom_m2_3](../maps/mushroom_m2_3.md)) | – | removes monsters from mushroom_m2_3 |
+| <span id="stage-163"></span>163 | And a third time. | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker) ([mushroom_m2_6](../maps/mushroom_m2_6.md)) | – | removes monsters from mushroom_m2_6 |
+| <span id="stage-164"></span>164 | After another fight with Zuul'khan I got through the black fog again. | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker) ([mushroom_m2_8](../maps/mushroom_m2_8.md)) | – | removes monsters from mushroom_m2_8 |
+| <span id="stage-169"></span>169 | I overpowered Zuul'khan one more time, but this time the black fog wouldn't go away. Obviously I can't get past the fog that way. | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) | – | – |
+| <span id="stage-170"></span>170 | I defeated Zuul'khan one last time and the black fog was gone for good. I must find and destroy the fungi leader. | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) | – | removes monsters from mywildcave4<br>removes monsters from mushroom_m3_1 |
 | <span id="stage-200"></span>200 | I defeated the giant mushroom, Zuul'khan's fungi leader. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mushroom m3 2](../maps/mushroom_m3_2.md).</span> | stepping on a trigger on [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 500 XP<br>spawns monsters on mushroom_m3_2 |
 | <span id="stage-210"></span>210 | A young girl named Lediofa emerged after my battle with the mushroom. She told me how Zuul'khan captured her as food for the mushroom. She seemed to have been poisoned just like Bogsten, so I directed her to see the Fallhaven potioner. | [Lediofa](../monsters/fungi_rescued.md) ([mushroom_m3_2](../maps/mushroom_m3_2.md)) | – | spawns monsters on fallhaven_potions |
-| <span id="stage-220"></span>220 | I met Lediofa at the potions shop in Fallhaven. She couldn't afford to pay the potioner for a mushroom poison cure, so I gave her the gold she needed. In return, she offered her family's hospitality if I ever come to visit in Nor City. | [Lediofa](../monsters/fungi_rescued2.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | – | 1,000 XP |
+| <span id="stage-220"></span>220 | I met Lediofa at the potions shop in Fallhaven. She couldn't afford to pay the potioner for a mushroom poison cure, so I gave her the gold she needed. In return, she offered her family's hospitality if I ever come to visit in Nor City. | [Lediofa](../monsters/fungi_rescued.md#v-fungi_rescued2) ([fallhaven_potions](../maps/fallhaven_potions.md)) | – | 1,000 XP |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -149,23 +153,23 @@ No links to other quests were found in the dialogue conditions.
 
 ???+ note "Stage 162: 1 route"
 
-    1. Talk to [Black fog](../monsters/zuul_khan2_blocker.md) ([mushroom_m2_3](../maps/mushroom_m2_3.md)) → choose “Your foul master is gone again...” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan2.md) → **stage 162**; also removes monsters from mushroom_m2_3. NPC: “The black fog hisses and instantly vanishes.”
+    1. Talk to [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker) ([mushroom_m2_3](../maps/mushroom_m2_3.md)) → choose “Your foul master is gone again...” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan2) → **stage 162**; also removes monsters from mushroom_m2_3. NPC: “The black fog hisses and instantly vanishes.”
 
 ???+ note "Stage 163: 1 route"
 
-    1. Talk to [Black fog](../monsters/zuul_khan3_blocker.md) ([mushroom_m2_6](../maps/mushroom_m2_6.md)) → choose “Your foul master is once more gone...” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan3.md) → **stage 163**; also removes monsters from mushroom_m2_6. NPC: “The black fog hisses and instantly vanishes.”
+    1. Talk to [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker) ([mushroom_m2_6](../maps/mushroom_m2_6.md)) → choose “Your foul master is once more gone...” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan3) → **stage 163**; also removes monsters from mushroom_m2_6. NPC: “The black fog hisses and instantly vanishes.”
 
 ???+ note "Stage 164: 1 route"
 
-    1. Talk to [Black fog](../monsters/zuul_khan4_blocker.md) ([mushroom_m2_8](../maps/mushroom_m2_8.md)) → choose “Oh my. How often?” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan4.md) → **stage 164**; also removes monsters from mushroom_m2_8. NPC: “The black fog hisses and instantly vanishes.”
+    1. Talk to [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker) ([mushroom_m2_8](../maps/mushroom_m2_8.md)) → choose “Oh my. How often?” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan4) → **stage 164**; also removes monsters from mushroom_m2_8. NPC: “The black fog hisses and instantly vanishes.”
 
 ???+ note "Stage 169: 1 route"
 
-    1. Talk to [Black fog](../monsters/zuul_khan9_blocker.md) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) → choose “Your master is dead. Begone!” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan9.md); NOT killed 1× [Zuul'khan](../monsters/gison_thiefboss.md) → **stage 169**. NPC: “No. We were expecting you to say so. We were told not to leave.”
+    1. Talk to [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) → choose “Your master is dead. Begone!” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9); NOT killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-gison_thiefboss) → **stage 169**. NPC: “No. We were expecting you to say so. We were told not to leave.”
 
 ???+ note "Stage 170: 1 route"
 
-    1. Talk to [Black fog](../monsters/zuul_khan9_blocker.md) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) → choose “Your master is dead forever now. Begone!” — **conditions:** killed 1× [Zuul'khan](../monsters/gison_thiefboss.md) → **stage 170**; also removes monsters from mywildcave4, removes monsters from mushroom_m3_1. NPC: “The black fog hisses and instantly vanishes.”
+    1. Talk to [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) → choose “Your master is dead forever now. Begone!” — **conditions:** killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-gison_thiefboss) → **stage 170**; also removes monsters from mywildcave4, removes monsters from mushroom_m3_1. NPC: “The black fog hisses and instantly vanishes.”
 
 ???+ note "Stage 200: 1 route"
 
@@ -177,7 +181,7 @@ No links to other quests were found in the dialogue conditions.
 
 ???+ note "Stage 220: 1 route"
 
-    1. Talk to [Lediofa](../monsters/fungi_rescued2.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) → the conversation leads here automatically — **conditions:** reached stage 220 of [Fungi panic](../quests/fungi_panic.md#stage-220) → **stage 220**. NPC: “You've saved me again, $playername. You truly are a hero. If you ever find yourself in Nor City, I'm sure my family…”
+    1. Talk to [Lediofa](../monsters/fungi_rescued.md#v-fungi_rescued2) ([fallhaven_potions](../maps/fallhaven_potions.md)) → the conversation leads here automatically — **conditions:** reached stage 220 of [Fungi panic](../quests/fungi_panic.md#stage-220) → **stage 220**. NPC: “You've saved me again, $playername. You truly are a hero. If you ever find yourself in Nor City, I'm sure my family…”
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -198,23 +202,23 @@ No links to other quests were found in the dialogue conditions.
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=fungi_panic.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

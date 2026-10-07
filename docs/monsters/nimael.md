@@ -1,4 +1,10 @@
+---
+description: "Nimael is a non-player character (NPC) in Andor's Trail, found in Fallhaven."
+---
+
 # ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } Nimael
+
+**Where to find Nimael:** Fallhaven: [mywild20_houseleft](../maps/mywild20_houseleft.md#pin-npc-nimael)
 
 <div class="infobox" markdown>
 
@@ -6,43 +12,12 @@
 
 | | |
 |---|---|
-| **Monster ID** | `nimael` |
-| **Type** | NPC |
-| **Class** | ? |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Fallhaven |
+| **Entry ID** | `nimael` |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [mywild20_houseleft](../maps/mywild20_houseleft.md) | Fallhaven | 1 | – |
-
 
 ## Quests
 
@@ -51,7 +26,7 @@
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Nimael. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nimael. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/nimael.json" data-npc="Nimael" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -68,8 +43,8 @@ Set up your situation (quest stages, items, kills…), then talk to Nimael. The 
     <span id="d-nimael_evaluation"></span>**`nimael_evaluation`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 10 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-10); NOT reached stage 60 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-60); NOT reached stage 62 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-62))* → [nimael_4](#d-nimael_4)
-    - branch 2 *(if killed 1× [Zuul'khan](../monsters/zuul_khan9.md); reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); NOT reached stage 60 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-60); NOT reached stage 62 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-62))* → [nimael_1](#d-nimael_1)
-    - branch 3 *(if killed 1× [Zuul'khan](../monsters/zuul_khan9.md); reached stage 110 of [Delicious soup](../quests/gison_soup.md#stage-110); NOT reached stage 60 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-60); NOT reached stage 62 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-62))* → [nimael_1](#d-nimael_1)
+    - branch 2 *(if killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9); reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); NOT reached stage 60 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-60); NOT reached stage 62 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-62))* → [nimael_1](#d-nimael_1)
+    - branch 3 *(if killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9); reached stage 110 of [Delicious soup](../quests/gison_soup.md#stage-110); NOT reached stage 60 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-60); NOT reached stage 62 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-62))* → [nimael_1](#d-nimael_1)
     - branch 4 *(if 1500 rounds passed since timer “del_soup”; NOT reached stage 120 of [Delicious soup](../quests/gison_soup.md#stage-120))* → [nimael_b1](#d-nimael_b1)
     - branch 5 → [nimael_busy](#d-nimael_busy)
 
@@ -165,32 +140,11 @@ Set up your situation (quest stages, items, kills…), then talk to Nimael. The 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `nimael` |
+    | Entry ID | `nimael` |
     | Spawn group | `nimael` |
     | Loot table | – |
     | Conversation | `nimael` |
@@ -210,6 +164,27 @@ Set up your situation (quest stages, items, kills…), then talk to Nimael. The 
      "phraseID": "nimael"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=nimael.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

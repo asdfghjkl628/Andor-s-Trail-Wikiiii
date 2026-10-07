@@ -1,3 +1,7 @@
+---
+description: "Flows through the veins is a quest in Andor's Trail, started by Gandoren. 17 stages, 30,000 XP in total. I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown."
+---
+
 # Flows through the veins
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 17 (completes at 55, 60) |
 | **Started by** | [Gandoren](../monsters/gandoren.md), [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) |
-| **NPCs involved** | [Buceth](../monsters/buceth.md), [Farmer](../monsters/loneford_farmer0.md), [Gandoren](../monsters/gandoren.md), [Kuldan](../monsters/kuldan.md), [Landa](../monsters/landa.md), [Minarra](../monsters/minarra.md) +6 |
+| **NPCs involved** | [Buceth](../monsters/buceth.md), [Farmer](../monsters/farmer.md#v-loneford_farmer0), [Gandoren](../monsters/gandoren.md), [Kuldan](../monsters/kuldan.md), [Landa](../monsters/landa.md), [Minarra](../monsters/minarra.md) +6 |
 | **Locations** | [fields0](../maps/fields0.md), [houseatcrossroads4](../maps/houseatcrossroads4.md), [loneford1](../maps/loneford1.md), [loneford2](../maps/loneford2.md) |
 | **Total XP** | 30,000 |
 | **Related quests** | 5 |
@@ -31,7 +35,7 @@
 - reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20)
 - NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21)
 
-**Route 3** ([Farmer](../monsters/loneford_farmer0.md) ([loneford1](../maps/loneford1.md))):
+**Route 3** ([Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md))):
 
 - nothing
 
@@ -39,11 +43,11 @@
 
 - nothing
 
-**Route 5** ([Villager](../monsters/loneford_villager1.md) ([loneford2](../maps/loneford2.md))):
+**Route 5** ([Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([loneford2](../maps/loneford2.md))):
 
 - nothing
 
-**Route 6** ([Villager](../monsters/loneford_villager3.md) ([loneford2](../maps/loneford2.md))):
+**Route 6** ([Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([loneford2](../maps/loneford2.md))):
 
 - nothing
 
@@ -67,8 +71,8 @@
 
 | Stage | Journal entry | Triggered by | Needs | Rewards |
 |---|---|---|---|---|
-| <span id="stage-10"></span>10 | I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))<br>[Farmer](../monsters/loneford_farmer0.md) ([loneford1](../maps/loneford1.md))<br>+5 more | – | – |
-| <span id="stage-11"></span>11 | I should investigate what could have caused the people of Loneford to become ill. To gather clues, I should ask the citizens of Loneford and the surrounding areas about what they think is the cause. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))<br>[Farmer](../monsters/loneford_farmer0.md) ([loneford1](../maps/loneford1.md))<br>+5 more | – | – |
+| <span id="stage-10"></span>10 | I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))<br>[Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md))<br>+5 more | – | – |
+| <span id="stage-11"></span>11 | I should investigate what could have caused the people of Loneford to become ill. To gather clues, I should ask the citizens of Loneford and the surrounding areas about what they think is the cause. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md))<br>[Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md))<br>+5 more | – | – |
 | <span id="stage-21"></span>21 | The guards in the Crossroads guardhouse are certain that the illness in Loneford is caused by some sabotage done by the priests or people from Nor City. | [Gandoren](../monsters/gandoren.md)<br>[Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | – | – |
 | <span id="stage-22"></span>22 | Some villagers in Loneford believe that the illness is caused by the guards from Feygard, in some scheme to make the people suffer even more than they already have. | [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) | stage 11 | – |
 | <span id="stage-23"></span>23 | Talion, the chapel priest in Loneford, thinks that the illness is the work of the Shadow, as punishment for Loneford's lack of devotion to the Shadow. | [Talion](../monsters/talion.md) | stage 11 | – |
@@ -95,10 +99,10 @@
 
     1. Talk to [Gandoren](../monsters/gandoren.md) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 10**. NPC: “Everyone started investigating what could be the cause. Currently, the cause is still unknown.”
     2. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 10**. NPC: “Everyone started investigating what could be the cause. Currently, the cause is still unknown.”
-    3. Talk to [Farmer](../monsters/loneford_farmer0.md) ([loneford1](../maps/loneford1.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
+    3. Talk to [Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
     4. Talk to [Villager](../monsters/loneford_villager0.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    5. Talk to [Villager](../monsters/loneford_villager1.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
-    6. Talk to [Villager](../monsters/loneford_villager3.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
+    5. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
+    6. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
     7. Talk to [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
     8. Talk to [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) → choose “What illness?” → **stage 10**. NPC: “We all started to investigate what could be the cause. We still aren't certain what the cause is, but we have our…”
 
@@ -106,10 +110,10 @@
 
     1. Talk to [Gandoren](../monsters/gandoren.md) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 25 of [Feygard errands](../quests/feygard_shipment.md#stage-25); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering…”
     2. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I'd rather talk about the troubles in Loneford that you had mentioned.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); NOT reached stage 21 of [Flows through the veins](../quests/loneford.md#stage-21) → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering…”
-    3. Talk to [Farmer](../monsters/loneford_farmer0.md) ([loneford1](../maps/loneford1.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
+    3. Talk to [Farmer](../monsters/farmer.md#v-loneford_farmer0) ([loneford1](../maps/loneford1.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
     4. Talk to [Villager](../monsters/loneford_villager0.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    5. Talk to [Villager](../monsters/loneford_villager1.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
-    6. Talk to [Villager](../monsters/loneford_villager3.md) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
+    5. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager1) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
+    6. Talk to [Villager](../monsters/loneford_villager0.md#v-loneford_villager3) ([loneford2](../maps/loneford2.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
     7. Talk to [Rolwynn](../monsters/rolwynn.md) ([fields0](../maps/fields0.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
     8. Talk to [Taevinn](../monsters/taevinn.md) ([loneford7](../maps/loneford7.md)) → choose “What illness?” → **stage 11**. NPC: “Luckily, now Feygard has sent patrols up here to help guard the village at least. We are still suffering though, and…”
 
@@ -197,23 +201,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=loneford.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,4 +1,10 @@
+---
+description: "Borvis is a non-player character (NPC) in Andor's Trail, found in Mt. Galmore. Starts Shadows."
+---
+
 # ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } Borvis
+
+**Where to find Borvis:** Mt. Galmore: [galmore_45](../maps/galmore_45.md#pin-npc-dds_borvis), [galmore_41](../maps/galmore_41.md#pin-npc-dds_borvis), [road5](../maps/road5.md#pin-npc-dds_borvis)
 
 <div class="infobox" markdown>
 
@@ -6,45 +12,21 @@
 
 | | |
 |---|---|
-| **Monster ID** | `dds_borvis` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Role** | Starts [Shadows](../quests/shadows.md) |
 | **Found in** | Mt. Galmore |
+| **Entry ID** | `dds_borvis` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
-
-## Combat stats
-
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
 
 ## Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_41](../maps/galmore_41.md) | – | 1 | appears later in a quest |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | appears later in a quest |
-| [road5](../maps/road5.md) | – | 1 | appears later in a quest |
-
+| [galmore_41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
+| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [road5](../maps/road5.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -53,7 +35,7 @@
 
 ## Dialogue simulator
 
-Set up your situation (quest stages, items, kills…), then talk to Borvis. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Borvis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_borvis.json" data-npc="Borvis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +53,7 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
 
     - Next *(if NOT reached stage 82 of [Feygard errands](../quests/feygard_shipment.md#stage-82); NOT reached stage 120 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-120))* → [dds_borvis_5](#d-dds_borvis_5)
     - branch 2 *(if reached stage 260 of [Shadows](../quests/shadows.md#stage-260))* → [dds_borvis_600](#d-dds_borvis_600)
-    - branch 3 *(if reached stage 240 of [Shadows](../quests/shadows.md#stage-240); killed 1× [Dark priest](../monsters/dds_dark_priest_monster.md))* → [dds_borvis_550](#d-dds_borvis_550)
+    - branch 3 *(if reached stage 240 of [Shadows](../quests/shadows.md#stage-240); killed 1× [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster))* → [dds_borvis_550](#d-dds_borvis_550)
     - branch 4 *(if reached stage 240 of [Shadows](../quests/shadows.md#stage-240))* → [dds_dark_priest2_110](#d-dds_dark_priest2_110)
     - branch 5 *(if reached stage 230 of [Shadows](../quests/shadows.md#stage-230))* → [dds_borvis_540](#d-dds_borvis_540)
     - branch 6 *(if reached stage 200 of [Shadows](../quests/shadows.md#stage-200))* → [dds_borvis_500](#d-dds_borvis_500)
@@ -229,11 +211,11 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
 
     - “Of course.” → [dds_borvis_580](#d-dds_borvis_580)
 
-    <span id="d-dds_dark_priest2_140"></span>**`dds_dark_priest2_140`** [Dark priest](../monsters/dds_dark_priest2.md): “Are we going to do this now, or are you two going to talk all day?” — **effects:** removes monsters from galmore_41, spawns monsters on galmore_41, sets stage 240 of [Shadows](../quests/shadows.md#stage-240)
+    <span id="d-dds_dark_priest2_140"></span>**`dds_dark_priest2_140`** [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2): “Are we going to do this now, or are you two going to talk all day?” — **effects:** removes monsters from galmore_41, spawns monsters on galmore_41, sets stage 240 of [Shadows](../quests/shadows.md#stage-240)
 
     - “Ah, sorry: KAZAUL EST!” → [dds_dark_priest2_150](#d-dds_dark_priest2_150)
 
-    <span id="d-dds_mourning_woman_270"></span>**`dds_mourning_woman_270`** [Mourning woman](../monsters/dds_mourning_woman.md): “You lie! You don't want my happiness.”
+    <span id="d-dds_mourning_woman_270"></span>**`dds_mourning_woman_270`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “You lie! You don't want my happiness.”
 
     - Next → [dds_mourning_woman_272](#d-dds_mourning_woman_272)
 
@@ -292,7 +274,7 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
     - “Thank you!” → *conversation ends*
     - “Who is Alynndir?” → [dds_borvis_592](#d-dds_borvis_592)
 
-    <span id="d-dds_mourning_woman_280"></span>**`dds_mourning_woman_280`** [Mourning woman](../monsters/dds_mourning_woman.md): “I don't believe you.”
+    <span id="d-dds_mourning_woman_280"></span>**`dds_mourning_woman_280`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “I don't believe you.”
 
     - Next → [dds_mourning_woman_282](#d-dds_mourning_woman_282)
 
@@ -322,7 +304,7 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
 
     - “Me a Shadow warrior! OK, what do I need to do?” → [dds_borvis_80](#d-dds_borvis_80)
 
-    <span id="d-dds_mourning_woman_290"></span>**`dds_mourning_woman_290`** [Mourning woman](../monsters/dds_mourning_woman.md): “Oh no! What do I do now? He's gone.”
+    <span id="d-dds_mourning_woman_290"></span>**`dds_mourning_woman_290`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “Oh no! What do I do now? He's gone.”
 
     - Next → [dds_mourning_woman_292](#d-dds_mourning_woman_292)
 
@@ -346,7 +328,7 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
 
     - Next → [dds_borvis_84](#d-dds_borvis_84)
 
-    <span id="d-dds_mourning_woman_300"></span>**`dds_mourning_woman_300`** [Mourning woman](../monsters/dds_mourning_woman.md): “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.” — **effects:** sets stage 200 of [Shadows](../quests/shadows.md#stage-200), removes monsters from galmore_45, spawns monsters on loneford4
+    <span id="d-dds_mourning_woman_300"></span>**`dds_mourning_woman_300`** [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman): “Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.” — **effects:** sets stage 200 of [Shadows](../quests/shadows.md#stage-200), removes monsters from galmore_45, spawns monsters on loneford4
 
     - Next → [dds_mourning_woman_310](#d-dds_mourning_woman_310)
 
@@ -393,32 +375,11 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
 ??? info "Technical information"
 
     | | |
     |---|---|
-    | Monster ID | `dds_borvis` |
+    | Entry ID | `dds_borvis` |
     | Spawn group | `dds_borvis` |
     | Loot table | – |
     | Conversation | `dds_borvis` |
@@ -439,6 +400,27 @@ Set up your situation (quest stages, items, kills…), then talk to Borvis. The 
      "phraseID": "dds_borvis"
     }
     ```
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=dds_borvis.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

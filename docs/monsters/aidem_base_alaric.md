@@ -1,3 +1,7 @@
+---
+description: "Alaric is an NPC who can also be fought in Andor's Trail, found in aidem_base_2, Fallhaven, Blackwater Mountain."
+---
+
 # ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } Alaric
 
 <div class="infobox" markdown>
@@ -6,47 +10,35 @@
 
 | | |
 |---|---|
-| **Monster ID** | `aidem_base_alaric` |
-| **Type** | NPC |
+| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Found in** | aidem_base_2, Fallhaven, Blackwater Mountain |
 | **Class** | Humanoid |
-| **HP** | 1 |
-| **Found in** | aidem_base_2 |
+| **HP** | 329 |
+| **XP when defeated** | 707 |
+| **Entries in game data** | 4 |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-## Combat stats
+!!! info "4 entries in the game data"
+    The game's data files define 4 separate characters named Alaric. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Entry | Type | Location | Role | HP |
+|---|---|---|---|---|
+| [`aidem_base_alaric`](#v-aidem_base_alaric) | NPC | [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric) | – | – |
+| [`aidem_base_alaric_aggressive`](#v-aidem_base_alaric_aggressive) | Enemy | [aidem_base_2](../maps/aidem_base_2.md) | – | 329 |
+| [`aidem_jail_alaric`](#v-aidem_jail_alaric) | Enemy | Fallhaven: [guildbrig2](../maps/guildbrig2.md) | – | 1 |
+| [`alaric_wild6house`](#v-alaric_wild6house) | NPC | Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-alaric_wild6house) | – | – |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+## Aidem base 2 (aidem_base_alaric) { #v-aidem_base_alaric }
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+**Entry ID:** `aidem_base_alaric` · **Type:** NPC
 
+**Location:** [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric)
 
-## Locations
+### Dialogue simulator
 
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | appears later in a quest |
-
-
-## Dialogue simulator
-
-Set up your situation (quest stages, items, kills…), then talk to Alaric. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Alaric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_base_alaric_10.json" data-npc="Alaric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -56,14 +48,14 @@ Set up your situation (quest stages, items, kills…), then talk to Alaric. The 
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-aidem_base_alaric_10"></span>**`aidem_base_alaric_10`** Alaric: “It's so weird working with you after all that we've gone through.”
+    <span id="d-aidem_base_alaric-aidem_base_alaric_10"></span>**`aidem_base_alaric_10`** Alaric: “It's so weird working with you after all that we've gone through.”
 
     - “We are not friends.” → *conversation ends*
     - “I would love nothing more than to see you punished for your crimes.” → *conversation ends*
 
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -72,32 +64,11 @@ Set up your situation (quest stages, items, kills…), then talk to Alaric. The 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (aidem_base_alaric)"
 
     | | |
     |---|---|
-    | Monster ID | `aidem_base_alaric` |
+    | Entry ID | `aidem_base_alaric` |
     | Spawn group | `aidem_base_alaric` |
     | Loot table | – |
     | Conversation | `aidem_base_alaric_10` |
@@ -121,6 +92,251 @@ Set up your situation (quest stages, items, kills…), then talk to Alaric. The 
      "phraseID": "aidem_base_alaric_10"
     }
     ```
+
+
+## Aidem base 2 (aidem_base_alaric_aggressive) { #v-aidem_base_alaric_aggressive }
+
+**Entry ID:** `aidem_base_alaric_aggressive` · **Type:** Enemy
+
+**Location:** [aidem_base_2](../maps/aidem_base_2.md)
+
+### Combat statistics
+
+| Statistic | Value |
+|---|---|
+| Class | Humanoid |
+| HP | 329 |
+| XP when defeated | 707 |
+| Damage | 7 to 9 |
+| Attack chance | 158 |
+| Block chance | 170 |
+| Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 3 AP |
+| Attacks per turn | 3 |
+| Move cost | 2 AP |
+| Critical skill | 3 |
+| Critical multiplier | 2.0 |
+| Critical hit chance | 2% |
+
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (aidem_base_alaric_aggressive)"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_base_alaric_aggressive` |
+    | Spawn group | `help_defy` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_tometik2:55` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_base_alaric_aggressive",
+     "name": "Alaric",
+     "iconID": "monsters_tometik2:55",
+     "maxHP": 329,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 7,
+      "max": 9
+     },
+     "spawnGroup": "help_defy",
+     "attackCost": 3,
+     "attackChance": 158,
+     "criticalSkill": 3,
+     "criticalMultiplier": 2.0,
+     "blockChance": 170
+    }
+    ```
+
+
+## Fallhaven, Guildbrig2 (aidem_jail_alaric) { #v-aidem_jail_alaric }
+
+**Entry ID:** `aidem_jail_alaric` · **Type:** Enemy
+
+**Location:** Fallhaven: [guildbrig2](../maps/guildbrig2.md)
+
+### Combat statistics
+
+| Statistic | Value |
+|---|---|
+| Class | Humanoid |
+| HP | 1 |
+| XP when defeated | 1 |
+| Damage | 0 |
+| Attack chance | 0 |
+| Block chance | 0 |
+| Damage resistance | 0 |
+| Max AP | 10 |
+| Attack cost | 10 AP |
+| Attacks per turn | 1 |
+| Move cost | 10 AP |
+| Critical skill | 0 |
+| Critical multiplier | – |
+| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+
+
+<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [guildbrig2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (aidem_jail_alaric)"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_jail_alaric` |
+    | Spawn group | `aidem_jail_alaric` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:55` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_jail_alaric",
+     "name": "Alaric",
+     "iconID": "monsters_tometik2:55",
+     "monsterClass": "humanoid"
+    }
+    ```
+
+
+## Blackwater Mountain, Wild6 house (alaric_wild6house) { #v-alaric_wild6house }
+
+**Entry ID:** `alaric_wild6house` · **Type:** NPC
+
+**Location:** Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-alaric_wild6house)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Alaric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/alaric_wild6house.json" data-npc="Alaric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (1 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-alaric_wild6house-alaric_wild6house"></span>**`alaric_wild6house`** Alaric: “I'm rich. I'm finally rich!”
+
+    - “Only in gold. You have no friends.” → *conversation ends*
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (alaric_wild6house)"
+
+    | | |
+    |---|---|
+    | Entry ID | `alaric_wild6house` |
+    | Spawn group | `alaric_wild6house` |
+    | Loot table | – |
+    | Conversation | `alaric_wild6house` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:55` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "alaric_wild6house",
+     "name": "Alaric",
+     "iconID": "monsters_tometik2:55",
+     "phraseID": "alaric_wild6house"
+    }
+    ```
+
+
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=aidem_base_alaric.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

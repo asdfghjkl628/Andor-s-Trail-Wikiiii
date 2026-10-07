@@ -1,3 +1,7 @@
+---
+description: "Guynmart elite guard is a non-player character (NPC) in Andor's Trail, found in Guynmart Castle."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_1.png){ .sprite } Guynmart elite guard
 
 <div class="infobox" markdown>
@@ -6,48 +10,38 @@
 
 | | |
 |---|---|
-| **Monster ID** | `guynmart_pguard` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Guynmart Castle |
+| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-## Combat stats
+!!! info "3 entries in the game data"
+    The game's data files define 3 separate characters named Guynmart elite guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`guynmart_pguard`](#v-guynmart_pguard) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard) | – |
+| [`guynmart_pguard2`](#v-guynmart_pguard2) | NPC | Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2) | – |
+| [`guynmart_pguard3`](#v-guynmart_pguard3) | NPC | Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3) | – |
 
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
+## Guynmart Castle, Guynmart and 1 more (guynmart_pguard) { #v-guynmart_pguard }
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+**Entry ID:** `guynmart_pguard` · **Type:** NPC
 
+**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard)
 
-## Locations
+### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 4 | appears later in a quest |
+| [guynmart](../maps/guynmart.md) | Guynmart Castle | 4 | Appears later, during a quest |
 | [guynmart_wood_4](../maps/guynmart_wood_4.md) | Guynmart Castle | 3 | – |
 
+### Dialogue simulator
 
-## Dialogue simulator
-
-Set up your situation (quest stages, items, kills…), then talk to Guynmart elite guard. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart elite guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_10.json" data-npc="Guynmart elite guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -57,12 +51,12 @@ Set up your situation (quest stages, items, kills…), then talk to Guynmart eli
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-guynmart_guard_10"></span>**`guynmart_guard_10`** Guynmart elite guard: “Go away, kid.”
+    <span id="d-guynmart_pguard-guynmart_guard_10"></span>**`guynmart_guard_10`** Guynmart elite guard: “Go away, kid.”
 
 
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -71,32 +65,11 @@ Set up your situation (quest stages, items, kills…), then talk to Guynmart eli
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (guynmart_pguard)"
 
     | | |
     |---|---|
-    | Monster ID | `guynmart_pguard` |
+    | Entry ID | `guynmart_pguard` |
     | Spawn group | `guynmart_pguard` |
     | Loot table | – |
     | Conversation | `guynmart_guard_10` |
@@ -117,6 +90,164 @@ Set up your situation (quest stages, items, kills…), then talk to Guynmart eli
      "phraseID": "guynmart_guard_10"
     }
     ```
+
+
+## Guynmart Castle, Guynmart wood 4 (guynmart_pguard2) { #v-guynmart_pguard2 }
+
+**Entry ID:** `guynmart_pguard2` · **Type:** NPC
+
+**Location:** Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart elite guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/guynmart_pguard2_10.json" data-npc="Guynmart elite guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (3 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-guynmart_pguard2-guynmart_pguard2_10"></span>**`guynmart_pguard2_10`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if NOT reached stage 81 of [Roses](../quests/guynmart.md#stage-81))* → [guynmart_pguard2_20](#d-guynmart_pguard2-guynmart_pguard2_20)
+    - branch 2 → [guynmart_pguard2_30](#d-guynmart_pguard2-guynmart_pguard2_30)
+
+    <span id="d-guynmart_pguard2-guynmart_pguard2_20"></span>**`guynmart_pguard2_20`** [Guynmart elite guard](../monsters/guynmart_pguard.md#v-guynmart_pguard2): “Halt! Talk to Norgothla before you walk around here!”
+
+
+    <span id="d-guynmart_pguard2-guynmart_pguard2_30"></span>**`guynmart_pguard2_30`** Guynmart elite guard: “Go away, kid.”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 3 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (guynmart_pguard2)"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_pguard2` |
+    | Spawn group | `guynmart_pguard2` |
+    | Loot table | – |
+    | Conversation | `guynmart_pguard2_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:1` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_pguard2",
+     "name": "Guynmart elite guard",
+     "iconID": "monsters_ld1:1",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_pguard2_10"
+    }
+    ```
+
+
+## Guynmart Castle, Guynmart wood 4 (guynmart_pguard3) { #v-guynmart_pguard3 }
+
+**Entry ID:** `guynmart_pguard3` · **Type:** NPC
+
+**Location:** Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart elite guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/guynmart_pguard3_10.json" data-npc="Guynmart elite guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (3 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-guynmart_pguard3-guynmart_pguard3_10"></span>**`guynmart_pguard3_10`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if reached stage 170 of [Roses](../quests/guynmart.md#stage-170))* → [guynmart_pguard3_20](#d-guynmart_pguard3-guynmart_pguard3_20)
+    - branch 2 → [guynmart_pguard2_30](#d-guynmart_pguard2-guynmart_pguard2_30) (listed above)
+
+    <span id="d-guynmart_pguard3-guynmart_pguard3_20"></span>**`guynmart_pguard3_20`** Guynmart elite guard: “Go away, kid. I am depressed.”
+
+    - Next → [guynmart_pguard3_22](#d-guynmart_pguard3-guynmart_pguard3_22)
+
+    <span id="d-guynmart_pguard3-guynmart_pguard3_22"></span>**`guynmart_pguard3_22`** Guynmart elite guard: “They have all gone, and forgotten me here. *Sigh*”
+
+    - “Oh my.” → *conversation ends*
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (guynmart_pguard3)"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_pguard3` |
+    | Spawn group | `guynmart_pguard3` |
+    | Loot table | – |
+    | Conversation | `guynmart_pguard3_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:1` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_pguard3",
+     "name": "Guynmart elite guard",
+     "iconID": "monsters_ld1:1",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_pguard3_10"
+    }
+    ```
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=guynmart_pguard.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

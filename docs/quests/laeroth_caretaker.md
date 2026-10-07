@@ -1,3 +1,7 @@
+---
+description: "Take care of the caretaker is a quest in Andor's Trail, started by Moriath (laerothmanor1). 21 stages, 18,000 XP in total. I met a caretaker at Laeroth manor. He said he cannot leave because he is bound by an oath, but not one he ever gave."
+---
+
 # Take care of the caretaker
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 21 (completes at 180) |
 | **Started by** | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) |
-| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md), [Jerelin](../monsters/jerelin_b.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
+| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md), [Jerelin](../monsters/jerelin.md#v-jerelin_b), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
 | **Locations** | [laerothmanor1](../maps/laerothmanor1.md), [laerothtomb1](../maps/laerothtomb1.md) |
 | **Total XP** | 18,000 |
 | **Related quests** | 2 |
@@ -74,7 +78,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 | <span id="stage-140"></span>140 | I have found a key in the bedroom.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | stage 130 | gives 1× [Fancy looking key](../items/laeroth_box_key.md) |
 | <span id="stage-150"></span>150 | The key fitted the jewelry box! Inside I found a necklace "With love to Audela" written on the back.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor1](../maps/laerothmanor1.md).</span><br><span class="qnote">🗺️ Part of [Laerothmanor1](../maps/laerothmanor1.md) visibly changes.</span> | stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | hand over 1× [Fancy looking key](../items/laeroth_box_key.md), stage 140 | changes map laerothmanor1<br>gives 1× [Audela's necklace](../items/audela_necklace.md) |
 | <span id="stage-160"></span>160 | Audela told me to talk to Jerelin again, but tell him Audela wants this done.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothtomb1](../maps/laerothtomb1.md).</span> | [Audela](../monsters/audela.md) ([laerothtomb1](../maps/laerothtomb1.md))<br>stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | removes monsters from laerothtomb1<br>gives 1× [Nearly depleted oegyth crystal](../items/oegyth6.md) |
-| <span id="stage-170"></span>170 | I spoke to Jerelin again, and told him of Audela's wishes. He told me he will release the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothtomb1](../maps/laerothtomb1.md).</span> | [Jerelin](../monsters/jerelin_b.md) ([laerothtomb1](../maps/laerothtomb1.md))<br>stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | gives 1× [Depleted oegyth crystal](../items/oegyth7.md)<br>removes monsters from laerothtomb1 |
+| <span id="stage-170"></span>170 | I spoke to Jerelin again, and told him of Audela's wishes. He told me he will release the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothtomb1](../maps/laerothtomb1.md).</span> | [Jerelin](../monsters/jerelin.md#v-jerelin_b) ([laerothtomb1](../maps/laerothtomb1.md))<br>stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | gives 1× [Depleted oegyth crystal](../items/oegyth7.md)<br>removes monsters from laerothtomb1 |
 | <span id="stage-180"></span>180 | I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it. **(completes quest)**<br><span class="qnote">🗺️ Part of [Laerothtomb1](../maps/laerothtomb1.md) visibly changes.</span> | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) | stage 10, stage 170 | 18,000 XP<br>removes monsters from laerothmanor1<br>sets stage 120 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-120) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
@@ -165,7 +169,7 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 
 ???+ note "Stage 170: 2 routes"
 
-    1. Talk to [Jerelin](../monsters/jerelin_b.md) ([laerothtomb1](../maps/laerothtomb1.md)) → choose “I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat…” → **stage 170**; also gives 1× [Depleted oegyth crystal](../items/oegyth7.md), removes monsters from laerothtomb1. NPC: “It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a…”
+    1. Talk to [Jerelin](../monsters/jerelin.md#v-jerelin_b) ([laerothtomb1](../maps/laerothtomb1.md)) → choose “I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat…” → **stage 170**; also gives 1× [Depleted oegyth crystal](../items/oegyth7.md), removes monsters from laerothtomb1. NPC: “It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a…”
     2. stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) → choose “I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat…” — **conditions:** reached stage 14 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-14); NOT reached stage 170 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-170) → **stage 170**; also gives 1× [Depleted oegyth crystal](../items/oegyth7.md), removes monsters from laerothtomb1. NPC: “It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a…”
 
 ???+ note "Stage 180: 1 route"
@@ -193,23 +197,23 @@ Start with [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothman
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=laeroth_caretaker.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

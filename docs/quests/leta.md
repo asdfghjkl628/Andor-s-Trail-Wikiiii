@@ -1,3 +1,7 @@
+---
+description: "Missing husband is a quest in Andor's Trail, started by Leta. 13 stages, 520 XP in total. Leta in Crossglen village wants me to look for her husband Oromir."
+---
+
 # Missing husband
 
 <div class="infobox" markdown>
@@ -8,7 +12,7 @@
 | **In journal** | Yes |
 | **Stages** | 13 (completes at 100, 105) |
 | **Started by** | [Leta](../monsters/leta.md), [Leta](../monsters/leta.md) |
-| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir_behind_inn_help.md), [Oromir](../monsters/oromir_basement.md), [Oromir](../monsters/oromir_behind_haystack.md), [Oromir](../monsters/oromir_behind_haystack_help.md), [Oromir](../monsters/oromir.md) +2 |
+| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir.md#v-oromir_behind_inn_help), [Oromir](../monsters/oromir.md#v-oromir_behind_haystack_help), [Oromir](../monsters/oromir.md#v-oromir_basement), [Oromir](../monsters/oromir.md#v-oromir_behind_inn), [Oromir](../monsters/oromir.md#v-oromir_behind_haystack) +2 |
 | **Locations** | [crossglen](../maps/crossglen.md), [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md) |
 | **Total XP** | 520 |
 | **Related quests** | 1 |
@@ -66,15 +70,15 @@
 | <span id="stage-20"></span>20 | I have found Oromir in Crossglen village, hiding from his wife Leta. | [Oromir](../monsters/oromir.md) ([crossglen](../maps/crossglen.md)) | – | – |
 | <span id="stage-25"></span>25 | I have found Oromir in Crossglen village, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts. | [Oromir](../monsters/oromir.md) ([crossglen](../maps/crossglen.md)) | – | 50 XP |
 | <span id="stage-30"></span>30 | Leta asked me to tell Oromir to come home and help her with the housework. | [Leta](../monsters/leta.md) | stage 20 | 80 XP<br>removes monsters from crossglen<br>spawns monsters on crossglen |
-| <span id="stage-35"></span>35 | I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts. | [Oromir](../monsters/oromir_behind_inn_help.md) ([crossglen](../maps/crossglen.md)) | – | 50 XP |
-| <span id="stage-40"></span>40 | I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I should tell Leta of his whereabouts. | [Oromir](../monsters/oromir_behind_inn.md) ([crossglen](../maps/crossglen.md)) | – | – |
-| <span id="stage-45"></span>45 | I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts. | [Oromir](../monsters/oromir_behind_haystack_help.md) ([crossglen](../maps/crossglen.md)) | – | 50 XP |
+| <span id="stage-35"></span>35 | I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts. | [Oromir](../monsters/oromir.md#v-oromir_behind_inn_help) ([crossglen](../maps/crossglen.md)) | – | 50 XP |
+| <span id="stage-40"></span>40 | I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I should tell Leta of his whereabouts. | [Oromir](../monsters/oromir.md#v-oromir_behind_inn) ([crossglen](../maps/crossglen.md)) | – | – |
+| <span id="stage-45"></span>45 | I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts. | [Oromir](../monsters/oromir.md#v-oromir_behind_haystack_help) ([crossglen](../maps/crossglen.md)) | – | 50 XP |
 | <span id="stage-50"></span>50 | Leta asked me to tell Oromir to come home and help her with the housework. | [Leta](../monsters/leta.md) | stage 40 | 80 XP<br>removes monsters from crossglen<br>spawns monsters on crossglen |
-| <span id="stage-60"></span>60 | I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, I should tell Leta of his whereabouts. | [Oromir](../monsters/oromir_behind_haystack.md) ([crossglen](../maps/crossglen.md)) | – | – |
+| <span id="stage-60"></span>60 | I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, I should tell Leta of his whereabouts. | [Oromir](../monsters/oromir.md#v-oromir_behind_haystack) ([crossglen](../maps/crossglen.md)) | – | – |
 | <span id="stage-70"></span>70 | Leta asked me to tell Oromir to come home and help her with the housework. | [Leta](../monsters/leta.md) | stage 60 | 80 XP<br>removes monsters from crossglen<br>spawns monsters on crossglen_farmhouse_basement |
-| <span id="stage-80"></span>80 | I have found Oromir in the basement of his house, hiding from his wife Leta, I should tell Leta of his whereabouts. | [Oromir](../monsters/oromir_basement.md) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) | – | – |
+| <span id="stage-80"></span>80 | I have found Oromir in the basement of his house, hiding from his wife Leta, I should tell Leta of his whereabouts. | [Oromir](../monsters/oromir.md#v-oromir_basement) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) | – | – |
 | <span id="stage-100"></span>100 | I have told Leta that Oromir is hiding in their basement. **(completes quest)** | [Leta](../monsters/leta.md) | stage 80 | 80 XP |
-| <span id="stage-105"></span>105 | Even after all my help, Oromir was still brought back home to Leta. **(completes quest)** | [Oromir](../monsters/oromir_basement_help.md) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) | stage 45 | 50 XP<br>gives 1× [Kid's boots](../items/kids_boots.md) |
+| <span id="stage-105"></span>105 | Even after all my help, Oromir was still brought back home to Leta. **(completes quest)** | [Oromir](../monsters/oromir.md#v-oromir_basement_help) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) | stage 45 | 50 XP<br>gives 1× [Kid's boots](../items/kids_boots.md) |
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -103,15 +107,15 @@
 
 ???+ note "Stage 35: 1 route"
 
-    1. Talk to [Oromir](../monsters/oromir_behind_inn_help.md) ([crossglen](../maps/crossglen.md)) → choose “That's a wise move because she has asked me to inform her of your whereabouts. But I won't do so.” → **stage 35**. NPC: “Thank you, friend.”
+    1. Talk to [Oromir](../monsters/oromir.md#v-oromir_behind_inn_help) ([crossglen](../maps/crossglen.md)) → choose “That's a wise move because she has asked me to inform her of your whereabouts. But I won't do so.” → **stage 35**. NPC: “Thank you, friend.”
 
 ???+ note "Stage 40: 1 route"
 
-    1. Talk to [Oromir](../monsters/oromir_behind_inn.md) ([crossglen](../maps/crossglen.md)) → choose “You are needed at home.” → **stage 40**. NPC: “I see.”
+    1. Talk to [Oromir](../monsters/oromir.md#v-oromir_behind_inn) ([crossglen](../maps/crossglen.md)) → choose “You are needed at home.” → **stage 40**. NPC: “I see.”
 
 ???+ note "Stage 45: 1 route"
 
-    1. Talk to [Oromir](../monsters/oromir_behind_haystack_help.md) ([crossglen](../maps/crossglen.md)) → choose “That's a wise move because she has asked me to inform her of your whereabouts. But I won't do so.” → **stage 45**. NPC: “Thank you, friend.”
+    1. Talk to [Oromir](../monsters/oromir.md#v-oromir_behind_haystack_help) ([crossglen](../maps/crossglen.md)) → choose “That's a wise move because she has asked me to inform her of your whereabouts. But I won't do so.” → **stage 45**. NPC: “Thank you, friend.”
 
 ???+ note "Stage 50: 1 route"
 
@@ -119,7 +123,7 @@
 
 ???+ note "Stage 60: 1 route"
 
-    1. Talk to [Oromir](../monsters/oromir_behind_haystack.md) ([crossglen](../maps/crossglen.md)) → choose “A happy wife is a happy life. Go home.” → **stage 60**. NPC: “No thanks. I'm staying here.”
+    1. Talk to [Oromir](../monsters/oromir.md#v-oromir_behind_haystack) ([crossglen](../maps/crossglen.md)) → choose “A happy wife is a happy life. Go home.” → **stage 60**. NPC: “No thanks. I'm staying here.”
 
 ???+ note "Stage 70: 1 route"
 
@@ -127,7 +131,7 @@
 
 ???+ note "Stage 80: 1 route"
 
-    1. Talk to [Oromir](../monsters/oromir_basement.md) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) → choose “I'm sorry, but I think that it's better if I'm on Leta's side.” → **stage 80**. NPC: “Yep. That's something that I've not learnt to do.”
+    1. Talk to [Oromir](../monsters/oromir.md#v-oromir_basement) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) → choose “I'm sorry, but I think that it's better if I'm on Leta's side.” → **stage 80**. NPC: “Yep. That's something that I've not learnt to do.”
 
 ???+ note "Stage 100: 1 route"
 
@@ -135,7 +139,7 @@
 
 ???+ note "Stage 105: 1 route"
 
-    1. Talk to [Oromir](../monsters/oromir_basement_help.md) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) → choose “I'm sorry to hear that.” — **conditions:** reached stage 45 of [Missing husband](../quests/leta.md#stage-45); NOT reached stage 105 of [Missing husband](../quests/leta.md#stage-105) → **stage 105**; also gives 1× [Kid's boots](../items/kids_boots.md). NPC: “While cleaning, I found your kid brother's boots. Please take them as my gift to you for all of your help.”
+    1. Talk to [Oromir](../monsters/oromir.md#v-oromir_basement_help) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) → choose “I'm sorry to hear that.” — **conditions:** reached stage 45 of [Missing husband](../quests/leta.md#stage-45); NOT reached stage 105 of [Missing husband](../quests/leta.md#stage-105) → **stage 105**; also gives 1× [Kid's boots](../items/kids_boots.md). NPC: “While cleaning, I found your kid brother's boots. Please take them as my gift to you for all of your help.”
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -159,23 +163,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=leta.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

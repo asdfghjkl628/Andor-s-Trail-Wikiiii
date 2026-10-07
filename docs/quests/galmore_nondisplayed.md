@@ -1,7 +1,11 @@
+---
+description: "galmore_nondisplayed is a hidden quest in Andor's Trail, started by stepping on a trigger on galmore_10. 46 stages, 12,000 XP in total. level 1 warning - marked stone"
+---
+
 # galmore_nondisplayed
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 46 |
 | **Started by** | stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) |
-| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Celdar](../monsters/celdar.md), [Dark spirit](../monsters/undertell_dark_spirit.md), [Egrinda](../monsters/egrinda.md), [Eryndor](../monsters/mg_eryndor.md), [Leta's son](../monsters/leta_child.md) +3 |
+| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Celdar](../monsters/celdar.md), [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit), [Egrinda](../monsters/egrinda.md), [Eryndor](../monsters/mg_eryndor.md), [Leta's son](../monsters/leta_child.md) +3 |
 | **Locations** | [brimhaven_house1](../maps/brimhaven_house1.md), [crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md), [galmore_17_house](../maps/galmore_17_house.md), [galmore_32](../maps/galmore_32.md) |
 | **Total XP** | 12,000 |
 | **Related quests** | 9 |
@@ -79,7 +83,7 @@
 | <span id="stage-1"></span>1 | level 1 warning - marked stone<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 10](../maps/galmore_10.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 12a](../maps/galmore_12a.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 23](../maps/galmore_23.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 24](../maps/galmore_24.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 34](../maps/galmore_34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 42](../maps/galmore_42.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 43](../maps/galmore_43.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 44](../maps/galmore_44.md).</span> | stepping on a trigger on [galmore_10](../maps/galmore_10.md)<br>walking into a blocked passage on [galmore_32](../maps/galmore_32.md)<br>walking into a blocked passage on [crossglen](../maps/crossglen.md) | – | applies condition fear |
 | <span id="stage-2"></span>2 | level 2 warning - marked stone<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 10](../maps/galmore_10.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 12a](../maps/galmore_12a.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 23](../maps/galmore_23.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 24](../maps/galmore_24.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 34](../maps/galmore_34.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 42](../maps/galmore_42.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 43](../maps/galmore_43.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 44](../maps/galmore_44.md).</span> | stepping on a trigger on [galmore_10](../maps/galmore_10.md)<br>walking into a blocked passage on [crossglen](../maps/crossglen.md) | – | applies condition fear |
 | <span id="stage-3"></span>3 | In Leta's basement, the PC met Leta's aged son. | [Leta's son](../monsters/leta_child.md) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) | – | – |
-| <span id="stage-4"></span>4 | A fight has been initiated between the PC and the Dark Spirit in the lava lands. | [Dark spirit](../monsters/undertell_dark_spirit.md) ([galmore_32](../maps/galmore_32.md)) | – | spawns monsters on galmore_32 |
+| <span id="stage-4"></span>4 | A fight has been initiated between the PC and the Dark Spirit in the lava lands. | [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) ([galmore_32](../maps/galmore_32.md)) | – | spawns monsters on galmore_32 |
 | <span id="stage-5"></span>5 | PC has discovered the graveyard south of the swamp and west of the Galmore settlement.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 47](../maps/galmore_47.md).</span> | stepping on a trigger on [galmore_47](../maps/galmore_47.md) | – | – |
 | <span id="stage-8"></span>8 | The PC has opened house two in the Galmore camp.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 68](../maps/galmore_68.md).</span><br><span class="qnote">🗺️ Part of [Galmore 68](../maps/galmore_68.md) visibly changes.</span> | walking into a blocked passage on [galmore_68](../maps/galmore_68.md) | – | – |
 | <span id="stage-9"></span>9 | The PC has seen the tropics at the Galmore encampment.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mt galmore railhouse](../maps/mt_galmore_railhouse.md).</span> | stepping on a trigger on [mt_galmore_railhouse](../maps/mt_galmore_railhouse.md) | – | spawns monsters on galmore_58 |
@@ -123,7 +127,7 @@
 | <span id="stage-59"></span>59 | PC got free leech from Vaelric. | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | gives 1× [Leech](../items/leech_usable.md) |
 | <span id="stage-61"></span>61 | PC has returned the looted gold found near the Sutdover River to Egrinda. | [Egrinda](../monsters/egrinda.md) ([way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md)) | pay 10,000 gold | 12,000 XP |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -148,7 +152,7 @@
 
 ???+ note "Stage 4: 1 route"
 
-    1. Talk to [Dark spirit](../monsters/undertell_dark_spirit.md) ([galmore_32](../maps/galmore_32.md)) → the conversation leads here automatically → **stage 4**; also spawns monsters on galmore_32. NPC: “Let me show you what true suffering feels like. You will know despair, and your name will be forgotten in the darkness…”
+    1. Talk to [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) ([galmore_32](../maps/galmore_32.md)) → the conversation leads here automatically → **stage 4**; also spawns monsters on galmore_32. NPC: “Let me show you what true suffering feels like. You will know despair, and your name will be forgotten in the darkness…”
 
 ???+ note "Stage 5: 1 route"
 
@@ -338,23 +342,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=galmore_nondisplayed.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

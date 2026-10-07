@@ -1,3 +1,7 @@
+---
+description: "Outcast is a non-player character (NPC) in Andor's Trail, found in Fallhaven, woodhouse3."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } Outcast
 
 <div class="infobox" markdown>
@@ -6,47 +10,34 @@
 
 | | |
 |---|---|
-| **Monster ID** | `smuggler1` |
-| **Type** | NPC |
-| **Class** | ? |
-| **HP** | 1 |
-| **Found in** | Fallhaven |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Found in** | Fallhaven, woodhouse3 |
+| **Entries in game data** | 6 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat stats
+!!! info "6 entries in the game data"
+    The game's data files define 6 separate characters named Outcast. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-## Locations
-
-| Map | Region | Up to | Notes |
+| Entry | Type | Location | Role |
 |---|---|---|---|
-| [woodhouse2](../maps/woodhouse2.md) | Fallhaven | 1 | – |
+| [`smuggler1`](#v-smuggler1) | NPC | Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler1) | – |
+| [`smuggler2`](#v-smuggler2) | NPC | Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler2) | – |
+| [`smuggler4`](#v-smuggler4) | NPC | Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-smuggler4) | – |
+| [`smuggler5`](#v-smuggler5) | NPC | Fallhaven: [woodhouse0](../maps/woodhouse0.md#pin-npc-smuggler5) | – |
+| [`smuggler6`](#v-smuggler6) | NPC | Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-smuggler6) | – |
+| [`smuggler7`](#v-smuggler7) | NPC | [woodhouse3](../maps/woodhouse3.md#pin-npc-smuggler7) | – |
 
+## Fallhaven, Woodhouse2 (smuggler1) { #v-smuggler1 }
 
-## Dialogue simulator
+**Entry ID:** `smuggler1` · **Type:** NPC
 
-Set up your situation (quest stages, items, kills…), then talk to Outcast. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+**Location:** Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler1)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler1_0.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -56,12 +47,12 @@ Set up your situation (quest stages, items, kills…), then talk to Outcast. The
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-smuggler1_0"></span>**`smuggler1_0`** Outcast: “[Mutter] Just one more...”
+    <span id="d-smuggler1-smuggler1_0"></span>**`smuggler1_0`** Outcast: “[Mutter] Just one more...”
 
 
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -71,32 +62,11 @@ Set up your situation (quest stages, items, kills…), then talk to Outcast. The
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (smuggler1)"
 
     | | |
     |---|---|
-    | Monster ID | `smuggler1` |
+    | Entry ID | `smuggler1` |
     | Spawn group | `smuggler1` |
     | Loot table | – |
     | Conversation | `smuggler1_0` |
@@ -115,6 +85,346 @@ Set up your situation (quest stages, items, kills…), then talk to Outcast. The
      "phraseID": "smuggler1_0"
     }
     ```
+
+
+## Fallhaven, Woodhouse2 (smuggler2) { #v-smuggler2 }
+
+**Entry ID:** `smuggler2` · **Type:** NPC
+
+**Location:** Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler2)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/smuggler2_0.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (1 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-smuggler2-smuggler2_0"></span>**`smuggler2_0`** Outcast: “What? No, you're not it.”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (smuggler2)"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler2` |
+    | Spawn group | `smuggler2` |
+    | Loot table | – |
+    | Conversation | `smuggler2_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:82` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler2",
+     "name": "Outcast",
+     "iconID": "monsters_ld1:82",
+     "phraseID": "smuggler2_0"
+    }
+    ```
+
+
+## Fallhaven, Woodhouse1 (smuggler4) { #v-smuggler4 }
+
+**Entry ID:** `smuggler4` · **Type:** NPC
+
+**Location:** Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-smuggler4)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/smuggler4_0.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (3 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-smuggler4-smuggler4_0"></span>**`smuggler4_0`** Outcast: “Uhh. Lowyna sure makes the best stuff!”
+
+    - “What does she do?” → [smuggler4_1](#d-smuggler4-smuggler4_1)
+
+    <span id="d-smuggler4-smuggler4_1"></span>**`smuggler4_1`** Outcast: “These of course! [swings his jug, nearly spilling some of it]”
+
+    - “Where can I find this Lowyna?” → [smuggler4_2](#d-smuggler4-smuggler4_2)
+    - “I need to go.” → *conversation ends*
+
+    <span id="d-smuggler4-smuggler4_2"></span>**`smuggler4_2`** Outcast: “She's over there... No. Over there... No. Oh, she's around here somewhere.”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line changed<br>· text: “She's over there .. no. Over there .. no. Oh, she's around here somew…” → “She's over there... No. Over there... No. Oh, she's around here somew…” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (smuggler4)"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler4` |
+    | Spawn group | `smuggler4` |
+    | Loot table | – |
+    | Conversation | `smuggler4_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:63` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler4",
+     "name": "Outcast",
+     "iconID": "monsters_tometik2:63",
+     "phraseID": "smuggler4_0"
+    }
+    ```
+
+
+## Fallhaven, Woodhouse0 (smuggler5) { #v-smuggler5 }
+
+**Entry ID:** `smuggler5` · **Type:** NPC
+
+**Location:** Fallhaven: [woodhouse0](../maps/woodhouse0.md#pin-npc-smuggler5)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/smuggler5_1.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (3 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-smuggler5-smuggler5_1"></span>**`smuggler5_1`** Outcast: “[blank stare]”
+
+    - “You're all sweaty and pale, what's wrong?” → [smuggler5_2](#d-smuggler5-smuggler5_2)
+    - “I just met a talking pig right over there. [You point in the direction of west]” *(if reached stage 51 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-51))* → [smuggler5_pig](#d-smuggler5-smuggler5_pig)
+
+    <span id="d-smuggler5-smuggler5_2"></span>**`smuggler5_2`** Outcast: “Um. Just one more. Please, just one more.”
+
+
+    <span id="d-smuggler5-smuggler5_pig"></span>**`smuggler5_pig`** Outcast: “Yeah, I'm sure you didn't. Why don't you go have another one of "Lowyna's special brews"?”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.8.11](../versions/0.8.11.md) | Dialogue: 1 line added, 1 line changed |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (smuggler5)"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler5` |
+    | Spawn group | `smuggler5` |
+    | Loot table | – |
+    | Conversation | `smuggler5_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:70` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler5",
+     "name": "Outcast",
+     "iconID": "monsters_tometik2:70",
+     "phraseID": "smuggler5_1"
+    }
+    ```
+
+
+## Fallhaven, Woodsettlement0 (smuggler6) { #v-smuggler6 }
+
+**Entry ID:** `smuggler6` · **Type:** NPC
+
+**Location:** Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-smuggler6)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/smuggler6_1.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (3 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-smuggler6-smuggler6_1"></span>**`smuggler6_1`** Outcast: “Can you spare some gold?”
+
+    - “Get away from me!” → *conversation ends*
+    - “Here's 5 gold.” *(if pay 5 gold)* → [smuggler6_3](#d-smuggler6-smuggler6_3)
+    - “Here's 50 gold.” *(if pay 50 gold)* → [smuggler6_3](#d-smuggler6-smuggler6_3)
+    - “Here's 100 gold.” *(if pay 100 gold)* → [smuggler6_2](#d-smuggler6-smuggler6_2)
+
+    <span id="d-smuggler6-smuggler6_3"></span>**`smuggler6_3`** Outcast: “Is that all you have?”
+
+
+    <span id="d-smuggler6-smuggler6_2"></span>**`smuggler6_2`** Outcast: “Oh, oh! I haven't seen that much gold in my whole life. I'm finally rich!”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (smuggler6)"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler6` |
+    | Spawn group | `smuggler6` |
+    | Loot table | – |
+    | Conversation | `smuggler6_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik5:0` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler6",
+     "name": "Outcast",
+     "iconID": "monsters_tometik5:0",
+     "phraseID": "smuggler6_1"
+    }
+    ```
+
+
+## Woodhouse3 (smuggler7) { #v-smuggler7 }
+
+**Entry ID:** `smuggler7` · **Type:** NPC
+
+**Location:** [woodhouse3](../maps/woodhouse3.md#pin-npc-smuggler7)
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/smuggler7_1.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (2 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-smuggler7-smuggler7_1"></span>**`smuggler7_1`** Outcast: “I've seen them. Their camps.”
+
+    - Next → [smuggler7_2](#d-smuggler7-smuggler7_2)
+
+    <span id="d-smuggler7-smuggler7_2"></span>**`smuggler7_2`** Outcast: “The Sakul are watching us. They're coming.”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (smuggler7)"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler7` |
+    | Spawn group | `smuggler7` |
+    | Loot table | – |
+    | Conversation | `smuggler7_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:40` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler7",
+     "name": "Outcast",
+     "iconID": "monsters_tometik7:40",
+     "phraseID": "smuggler7_1"
+    }
+    ```
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=smuggler1.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

@@ -1,3 +1,7 @@
+---
+description: "Lediofa is a non-player character (NPC) in Andor's Trail, found in mushroom_m3_2, Fallhaven."
+---
+
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Lediofa
 
 <div class="infobox" markdown>
@@ -6,51 +10,34 @@
 
 | | |
 |---|---|
-| **Monster ID** | `fungi_rescued` |
-| **Type** | NPC |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **Found in** | mushroom_m3_2 |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Found in** | mushroom_m3_2, Fallhaven |
+| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-## Combat stats
+!!! info "2 entries in the game data"
+    The game's data files define 2 separate characters named Lediofa. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. This page combines them; each entry is described in its own section below.
 
-| Stat | Value |
-|---|---|
-| HP | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 2 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Crit chance | none (needs critical skill and a multiplier) |
-
-**XP formula** (from the game's loader): ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉, +50 if its hits inflict a condition. More Exp adds a percentage on top.
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-## Locations
-
-| Map | Region | Up to | Notes |
+| Entry | Type | Location | Role |
 |---|---|---|---|
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 1 | appears later in a quest |
+| [`fungi_rescued`](#v-fungi_rescued) | NPC | [mushroom_m3_2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued) | – |
+| [`fungi_rescued2`](#v-fungi_rescued2) | NPC | Fallhaven: [fallhaven_potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2) | – |
 
+## Mushroom m3 2 (fungi_rescued) { #v-fungi_rescued }
 
-## Quests
+**Entry ID:** `fungi_rescued` · **Type:** NPC
 
-- [Fungi panic](../quests/fungi_panic.md): stages 210
+**Location:** [mushroom_m3_2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued)
 
-## Dialogue simulator
+### Quests
 
-Set up your situation (quest stages, items, kills…), then talk to Lediofa. The simulator follows the game's own rules: it takes the same silent checks, offers only the options you'd really see, and applies their effects (quest stages, items handed over, rewards) as you go.
+- [Fungi panic](../quests/fungi_panic.md): stage 210
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lediofa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fungi_rescued.json" data-npc="Lediofa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -60,59 +47,59 @@ Set up your situation (quest stages, items, kills…), then talk to Lediofa. The
 
     *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
 
-    <span id="d-fungi_rescued"></span>**`fungi_rescued`** Lediofa: “Thank you, thank you!”
+    <span id="d-fungi_rescued-fungi_rescued"></span>**`fungi_rescued`** Lediofa: “Thank you, thank you!”
 
-    - “Who are you?” → [fungi_rescued_10](#d-fungi_rescued_10)
+    - “Who are you?” → [fungi_rescued_10](#d-fungi_rescued-fungi_rescued_10)
 
-    <span id="d-fungi_rescued_10"></span>**`fungi_rescued_10`** Lediofa: “My name is Lediofa. I was travelling with my family to Vilegard. We wanted to visit my uncle.”
+    <span id="d-fungi_rescued-fungi_rescued_10"></span>**`fungi_rescued_10`** Lediofa: “My name is Lediofa. I was travelling with my family to Vilegard. We wanted to visit my uncle.”
 
-    - Next → [fungi_rescued_20](#d-fungi_rescued_20)
+    - Next → [fungi_rescued_20](#d-fungi_rescued-fungi_rescued_20)
 
-    <span id="d-fungi_rescued_20"></span>**`fungi_rescued_20`** Lediofa: “We were attacked by robbers in the forest. I don't know what happened to my family. It was terrible.”
+    <span id="d-fungi_rescued-fungi_rescued_20"></span>**`fungi_rescued_20`** Lediofa: “We were attacked by robbers in the forest. I don't know what happened to my family. It was terrible.”
 
-    - “Poor child.” → [fungi_rescued_30](#d-fungi_rescued_30)
+    - “Poor child.” → [fungi_rescued_30](#d-fungi_rescued-fungi_rescued_30)
 
-    <span id="d-fungi_rescued_30"></span>**`fungi_rescued_30`** Lediofa: “I was dragged into this cave.”
+    <span id="d-fungi_rescued-fungi_rescued_30"></span>**`fungi_rescued_30`** Lediofa: “I was dragged into this cave.”
 
-    - Next → [fungi_rescued_40](#d-fungi_rescued_40)
+    - Next → [fungi_rescued_40](#d-fungi_rescued-fungi_rescued_40)
 
-    <span id="d-fungi_rescued_40"></span>**`fungi_rescued_40`** Lediofa: “The only thing I saw was a figure clad in black who kept muttering mean sounding words.”
+    <span id="d-fungi_rescued-fungi_rescued_40"></span>**`fungi_rescued_40`** Lediofa: “The only thing I saw was a figure clad in black who kept muttering mean sounding words.”
 
-    - “That must have been Zuul'khan.” → [fungi_rescued_50](#d-fungi_rescued_50)
+    - “That must have been Zuul'khan.” → [fungi_rescued_50](#d-fungi_rescued-fungi_rescued_50)
 
-    <span id="d-fungi_rescued_50"></span>**`fungi_rescued_50`** Lediofa: “Yes, it was him. I hope you're not one of his friends? Please no!”
+    <span id="d-fungi_rescued-fungi_rescued_50"></span>**`fungi_rescued_50`** Lediofa: “Yes, it was him. I hope you're not one of his friends? Please no!”
 
-    - “Don't panic. I am $playername from Crossglen. Zuul'khan received his just punishment. He can't do anything to you…” → [fungi_rescued_60](#d-fungi_rescued_60)
+    - “Don't panic. I am $playername from Crossglen. Zuul'khan received his just punishment. He can't do anything to you…” → [fungi_rescued_60](#d-fungi_rescued-fungi_rescued_60)
 
-    <span id="d-fungi_rescued_60"></span>**`fungi_rescued_60`** Lediofa: “Oh, how relieved I am to hear that! Thank you again!”
+    <span id="d-fungi_rescued-fungi_rescued_60"></span>**`fungi_rescued_60`** Lediofa: “Oh, how relieved I am to hear that! Thank you again!”
 
-    - Next → [fungi_rescued_70](#d-fungi_rescued_70)
+    - Next → [fungi_rescued_70](#d-fungi_rescued-fungi_rescued_70)
 
-    <span id="d-fungi_rescued_70"></span>**`fungi_rescued_70`** Lediofa: “This black-clad man wanted to feed me to this awful big mushroom. He told me the mushroom still needed to grow much larger, and then it could help him invade the land.”
+    <span id="d-fungi_rescued-fungi_rescued_70"></span>**`fungi_rescued_70`** Lediofa: “This black-clad man wanted to feed me to this awful big mushroom. He told me the mushroom still needed to grow much larger, and then it could help him invade the land.”
 
-    - Next → [fungi_rescued_80](#d-fungi_rescued_80)
+    - Next → [fungi_rescued_80](#d-fungi_rescued-fungi_rescued_80)
 
-    <span id="d-fungi_rescued_80"></span>**`fungi_rescued_80`** Lediofa: “I'm glad this nightmare is over now. Thanks to you, $playername.”
+    <span id="d-fungi_rescued-fungi_rescued_80"></span>**`fungi_rescued_80`** Lediofa: “I'm glad this nightmare is over now. Thanks to you, $playername.”
 
-    - “Oh, that was nothing.” → [fungi_rescued_90](#d-fungi_rescued_90)
-    - “I do things like that every other day.” → [fungi_rescued_90](#d-fungi_rescued_90)
-    - “It was a tough fight indeed.” → [fungi_rescued_90](#d-fungi_rescued_90)
+    - “Oh, that was nothing.” → [fungi_rescued_90](#d-fungi_rescued-fungi_rescued_90)
+    - “I do things like that every other day.” → [fungi_rescued_90](#d-fungi_rescued-fungi_rescued_90)
+    - “It was a tough fight indeed.” → [fungi_rescued_90](#d-fungi_rescued-fungi_rescued_90)
 
-    <span id="d-fungi_rescued_90"></span>**`fungi_rescued_90`** Lediofa: “I should go look for my parents - I'm sure they are very worried. Although...”
+    <span id="d-fungi_rescued-fungi_rescued_90"></span>**`fungi_rescued_90`** Lediofa: “I should go look for my parents - I'm sure they are very worried. Although...”
 
-    - “What is it?” → [fungi_rescued_100](#d-fungi_rescued_100)
+    - “What is it?” → [fungi_rescued_100](#d-fungi_rescued-fungi_rescued_100)
 
-    <span id="d-fungi_rescued_100"></span>**`fungi_rescued_100`** Lediofa: “I feel a bit ill. Maybe I should rest a bit before I leave.”
+    <span id="d-fungi_rescued-fungi_rescued_100"></span>**`fungi_rescued_100`** Lediofa: “I feel a bit ill. Maybe I should rest a bit before I leave.”
 
-    - “That might be the giant mushroom's poison. The potioner in Fallhaven knows the cure.” → [fungi_rescued_110](#d-fungi_rescued_110)
+    - “That might be the giant mushroom's poison. The potioner in Fallhaven knows the cure.” → [fungi_rescued_110](#d-fungi_rescued-fungi_rescued_110)
 
-    <span id="d-fungi_rescued_110"></span>**`fungi_rescued_110`** Lediofa: “[Lediofa's eyes widen.] I've been poisoned...? Oh no! I'll seek the potioner right away. Thank you for telling me. I hope we meet again, $playername.” — **effects:** sets stage 210 of [Fungi panic](../quests/fungi_panic.md#stage-210), spawns monsters on fallhaven_potions
+    <span id="d-fungi_rescued-fungi_rescued_110"></span>**`fungi_rescued_110`** Lediofa: “[Lediofa's eyes widen.] I've been poisoned...? Oh no! I'll seek the potioner right away. Thank you for telling me. I hope we meet again, $playername.” — **effects:** sets stage 210 of [Fungi panic](../quests/fungi_panic.md#stage-210), spawns monsters on fallhaven_potions
 
     - “Good luck!” → *NPC leaves*
 
 
 
-## Version history
+### Version history
 
 | Version | Change |
 |---|---|
@@ -121,32 +108,11 @@ Set up your situation (quest stages, items, kills…), then talk to Lediofa. The
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-## Community notes
-
-<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
-
-### Observations
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Lore
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Trivia
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-### Theory / speculation
-
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
-
-
-??? info "Technical information"
+??? info "Technical information (fungi_rescued)"
 
     | | |
     |---|---|
-    | Monster ID | `fungi_rescued` |
+    | Entry ID | `fungi_rescued` |
     | Spawn group | `fungi_rescued` |
     | Loot table | – |
     | Conversation | `fungi_rescued` |
@@ -171,6 +137,115 @@ Set up your situation (quest stages, items, kills…), then talk to Lediofa. The
      "phraseID": "fungi_rescued"
     }
     ```
+
+
+## Fallhaven, Fallhaven potions (fungi_rescued2) { #v-fungi_rescued2 }
+
+**Entry ID:** `fungi_rescued2` · **Type:** NPC
+
+**Location:** Fallhaven: [fallhaven_potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2)
+
+### Quests
+
+- [Fungi panic](../quests/fungi_panic.md): stage 220
+
+### Dialogue simulator
+
+Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lediofa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/fungi_rescued2.json" data-npc="Lediofa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (6 lines)"
+
+    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+
+    <span id="d-fungi_rescued2-fungi_rescued2"></span>**`fungi_rescued2`** *(silent check: the first matching branch below is taken)*
+
+    - branch 1 *(if NOT reached stage 220 of [Fungi panic](../quests/fungi_panic.md#stage-220))* → [fungi_rescued2_1](#d-fungi_rescued2-fungi_rescued2_1)
+    - branch 2 *(if reached stage 220 of [Fungi panic](../quests/fungi_panic.md#stage-220))* → [fungi_rescued2_30](#d-fungi_rescued2-fungi_rescued2_30)
+
+    <span id="d-fungi_rescued2-fungi_rescued2_1"></span>**`fungi_rescued2_1`** Lediofa: “Outrageous! I told you already, I don't have 150 gold!”
+
+    - Next → [fungi_rescued2_10](#d-fungi_rescued2-fungi_rescued2_10)
+
+    <span id="d-fungi_rescued2-fungi_rescued2_30"></span>**`fungi_rescued2_30`** Lediofa: “You've saved me again, $playername. You truly are a hero. If you ever find yourself in Nor City, I'm sure my family would love to meet you. Thank you!” — **effects:** sets stage 220 of [Fungi panic](../quests/fungi_panic.md#stage-220)
+
+    - “Take care!” → *NPC leaves*
+
+    <span id="d-fungi_rescued2-fungi_rescued2_10"></span>**`fungi_rescued2_10`** [Potion merchant](../monsters/potion_merchant.md): “I'm sorry that you're ill, girl, but I can't work for free. The price is 150 gold, no less.”
+
+    - Next → [fungi_rescued2_20](#d-fungi_rescued2-fungi_rescued2_20)
+
+    <span id="d-fungi_rescued2-fungi_rescued2_20"></span>**`fungi_rescued2_20`** [Lediofa](../monsters/fungi_rescued.md#v-fungi_rescued2): “You greedy swine...Oh! It's $playername! I came here to cure the mushroom poison, but that lousy merchant won't help me until he receives payment. And I have no gold...”
+
+    - “That's no trouble. I can spare 150 gold to help.” *(if pay 150 gold)* → [fungi_rescued2_30](#d-fungi_rescued2-fungi_rescued2_30)
+    - “I'm sorry to hear that, but I can't spare the gold to help you right now.” → *conversation ends*
+    - “The potioner is right, you know. Nobody works for free.” → [fungi_rescued2_20_2](#d-fungi_rescued2-fungi_rescued2_20_2)
+
+    <span id="d-fungi_rescued2-fungi_rescued2_20_2"></span>**`fungi_rescued2_20_2`** Lediofa: “But what can I do? I don't feel well...”
+
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added<br>Dialogue: 6 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+??? info "Technical information (fungi_rescued2)"
+
+    | | |
+    |---|---|
+    | Entry ID | `fungi_rescued2` |
+    | Spawn group | `fungi_rescued2` |
+    | Loot table | – |
+    | Conversation | `fungi_rescued2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:20` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "fungi_rescued2",
+     "name": "Lediofa",
+     "iconID": "monsters_ld1:20",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "fungi_rescued2",
+     "phraseID": "fungi_rescued2"
+    }
+    ```
+
+
+
+## Community notes
+
+<small>Written by players, not generated from game data. **Observations**: what players notice in-game · **Lore**: the in-world story · **Trivia**: real-world facts, references, development history · **Theory / speculation**: unconfirmed ideas; may just be unfinished content</small>
+
+### Observations
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Lore
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Trivia
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+
+### Theory / speculation
+
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/monsters?filename=fungi_rescued.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 <small>Data from v0.8.18</small>

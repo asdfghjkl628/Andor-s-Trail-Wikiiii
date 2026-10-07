@@ -1,7 +1,11 @@
+---
+description: "sullengard_nondisplay is a hidden quest in Andor's Trail, started by Godfrey (sullengard_inn). 47 stages, 3,300 XP in total. Bought a Sullengard bed."
+---
+
 # sullengard_nondisplay
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 47 |
 | **Started by** | [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../maps/sullengard_inn.md)) |
-| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother3.md), [Drinking brother](../monsters/sullengard_drinking_brother2.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
+| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother3), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother2), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
 | **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [lake_shore_road_9](../maps/lake_shore_road_9.md), [mywild20_houseleft](../maps/mywild20_houseleft.md) |
 | **Total XP** | 3,300 |
 | **Related quests** | 13 |
@@ -88,8 +92,8 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | <span id="stage-14"></span>14 | sullengard10_replace_below<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard9](../maps/sullengard9.md).</span><br><span class="qnote">🗺️ Part of [Sullengard10](../maps/sullengard10.md) visibly changes.</span> | stepping on a trigger on [sullengard9](../maps/sullengard9.md) | – | clears stage 15 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-15) |
 | <span id="stage-15"></span>15 | sullengard10_replace_above<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard10](../maps/sullengard10.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard9](../maps/sullengard9.md).</span><br><span class="qnote">🗺️ Part of [Sullengard10](../maps/sullengard10.md) visibly changes.</span> | stepping on a trigger on [sullengard10](../maps/sullengard10.md) | – | clears stage 14 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-14) |
 | <span id="stage-16"></span>16 | Player has talked with Hadena. | [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_cabin](../maps/sullengard_ravine_cabin.md)) | – | – |
-| <span id="stage-17"></span>17 | Player is helping Grazia cross the bridge. | [Grazia](../monsters/sull_ravine_grazia.md) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) | – | – |
-| <span id="stage-18"></span>18 | Player has helped Grazia cross the bridge. | [Grazia](../monsters/sull_ravine_grazia.md) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) | stage 19, stage 29 | 200 XP<br>removes monsters from way_to_sullengard_east4<br>spawns monsters on sullengard2_northwest_house<br>removes monsters from way_to_sullengard_east4_bridge |
+| <span id="stage-17"></span>17 | Player is helping Grazia cross the bridge. | [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) | – | – |
+| <span id="stage-18"></span>18 | Player has helped Grazia cross the bridge. | [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) | stage 19, stage 29 | 200 XP<br>removes monsters from way_to_sullengard_east4<br>spawns monsters on sullengard2_northwest_house<br>removes monsters from way_to_sullengard_east4_bridge |
 | <span id="stage-19"></span>19 | The player has been to Sullengard. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 | <span id="stage-20"></span>20 | Nimael is preparing the Gloriosa soup. | [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | carry 1× [Gloriosa mushroom](../items/gloriosa_mushroom.md), hand over 1× [Gloriosa mushroom](../items/gloriosa_mushroom.md), stage 5 | starts timer “gloriosa_soup_making” |
 | <span id="stage-21"></span>21 | Nimael has finished the preparation of the Gloriosa soup. | [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | stage 20 | 3,000 XP<br>gives 1× [Gloriosa mushroom soup](../items/gloriosa_mushroom_soup.md) |
@@ -109,7 +113,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | <span id="stage-35"></span>35 | haunted_cemetery1_walkable<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted cemetery1](../maps/haunted_cemetery1.md).</span><br><span class="qnote">🗺️ Part of [Haunted cemetery1](../maps/haunted_cemetery1.md) visibly changes.</span> | stepping on a trigger on [haunted_cemetery1](../maps/haunted_cemetery1.md) | – | – |
 | <span id="stage-36"></span>36 | East of Stoutford and west of Sullengard, the PC has discovered a broken bridge that is impassable due to broken boards.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lake shore road 9](../maps/lake_shore_road_9.md).</span> | stepping on a trigger on [lake_shore_road_9](../maps/lake_shore_road_9.md) | – | – |
 | <span id="stage-37"></span>37 | East of Stoutford and west of Sullengard, the PC has seen firsthand that the once-broken bridge is now fixed.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lake shore road 9](../maps/lake_shore_road_9.md).</span> | stepping on a trigger on [lake_shore_road_9](../maps/lake_shore_road_9.md) | – | – |
-| <span id="stage-38"></span>38 | Seraphina robbed the PC. | [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | pay 1,000 gold | – |
+| <span id="stage-38"></span>38 | Seraphina robbed the PC. | [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) | pay 1,000 gold | – |
 | <span id="stage-39"></span>39 | "Aidem" thieves have spawned.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Way to aidem camp 1](../maps/way_to_aidem_camp_1.md).</span> | stepping on a trigger on [way_to_aidem_camp_1](../maps/way_to_aidem_camp_1.md) | – | spawns monsters on aidem_camp |
 | <span id="stage-40"></span>40 | The PC has been rewarded by Zaccheria for getting Alaric off the roads. | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | – | gives [Feygard's might](../items/feygard_might.md) |
 | <span id="stage-41"></span>41 | the PC doesn't have 39, so let them have access to the "Aidem" camp. Or the player does have 39 and has Wanted Men 15, then let them pass.<br><span class="qnote">⚡ A scripted event can now trigger on [Aidem camp](../maps/aidem_camp.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem camp](../maps/aidem_camp.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Aidem camp](../maps/aidem_camp.md).</span> | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) | – | – |
@@ -120,7 +124,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 | <span id="stage-120"></span>120 | 120 bar achievement<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard tavern](../maps/sullengard_tavern.md).</span> | stepping on a trigger on [sullengard_tavern](../maps/sullengard_tavern.md) | carry 1× [Brimhaven brew](../items/brv_brew.md), stage 2 | – |
 | <span id="stage-500"></span>500 | Key:(Never true condition)<br><span class="qnote">🔓 You can finally access a previously blocked area on [Loneford13](../maps/loneford13.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -195,12 +199,12 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 ???+ note "Stage 17: 1 route"
 
-    1. Talk to [Grazia](../monsters/sull_ravine_grazia.md) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) → choose “I will go first and you can follow close behind. Sound OK with you?” → **stage 17**. NPC: “Yes. Thank you.”
+    1. Talk to [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) → choose “I will go first and you can follow close behind. Sound OK with you?” → **stage 17**. NPC: “Yes. Thank you.”
 
 ???+ note "Stage 18: 2 routes"
 
-    1. Talk to [Grazia](../monsters/sull_ravine_grazia.md) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) → the conversation leads here automatically — **conditions:** reached stage 29 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-29) → **stage 18**; also removes monsters from way_to_sullengard_east4, spawns monsters on sullengard2_northwest_house. NPC: “Thank you so much. I can now continue onto my destination.”
-    2. Talk to [Grazia](../monsters/sull_ravine_grazia.md) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) → choose “I'm looking forward to it.” — **conditions:** reached stage 29 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-29); reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19) → **stage 18**; also removes monsters from way_to_sullengard_east4_bridge, spawns monsters on sullengard2_northwest_house. NPC: “I have to go now. See you there.”
+    1. Talk to [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) → the conversation leads here automatically — **conditions:** reached stage 29 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-29) → **stage 18**; also removes monsters from way_to_sullengard_east4, spawns monsters on sullengard2_northwest_house. NPC: “Thank you so much. I can now continue onto my destination.”
+    2. Talk to [Grazia](../monsters/sullengard_grazia.md#v-sull_ravine_grazia) ([way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md)) → choose “I'm looking forward to it.” — **conditions:** reached stage 29 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-29); reached stage 19 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-19) → **stage 18**; also removes monsters from way_to_sullengard_east4_bridge, spawns monsters on sullengard2_northwest_house. NPC: “I have to go now. See you there.”
 
 ???+ note "Stage 20: 1 route"
 
@@ -272,7 +276,7 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 ???+ note "Stage 38: 1 route"
 
-    1. Talk to [Sly Seraphina](../monsters/thief_seraphina.md) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “"Sorry"? I want my gold back.” — **conditions:** NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); NOT reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38); pay 1,000 gold → **stage 38**. NPC: “Maybe next time you come by I'll have the board?”
+    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) ([lake_shore_road_9](../maps/lake_shore_road_9.md)) → choose “"Sorry"? I want my gold back.” — **conditions:** NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); NOT reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38); pay 1,000 gold → **stage 38**. NPC: “Maybe next time you come by I'll have the board?”
 
 ???+ note "Stage 39: 1 route"
 
@@ -323,23 +327,23 @@ Start with [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../m
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=sullengard_hidden.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

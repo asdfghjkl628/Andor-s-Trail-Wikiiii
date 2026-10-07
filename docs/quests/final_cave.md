@@ -1,7 +1,11 @@
+---
+description: "final_cave is a hidden quest in Andor's Trail, started by walking into a blocked passage on final_cave1. 12 stages. key 1 set - sw"
+---
+
 # final_cave
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 12 |
 | **Started by** | walking into a blocked passage on [final_cave1](../maps/final_cave1.md), walking into a blocked passage on [final_cave1](../maps/final_cave1.md) |
-| **NPCs involved** | [Algangror](../monsters/lae_algangror1.md), [Jhaeld](../monsters/lae_jhaeld1.md) |
+| **NPCs involved** | [Algangror](../monsters/algangror.md#v-lae_algangror1), [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) |
 | **Locations** | [island_4_cave1](../maps/island_4_cave1.md) |
 | **Related quests** | 1 |
 
@@ -68,10 +72,10 @@
 | <span id="stage-9"></span>9 | 9: wall down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave1](../maps/final_cave1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave2](../maps/final_cave2.md).</span><br><span class="qnote">🗺️ Part of [Final cave1](../maps/final_cave1.md) visibly changes.</span> | walking into a blocked passage on [final_cave1](../maps/final_cave1.md)<br>stepping on a trigger on [final_cave1](../maps/final_cave1.md)<br>walking into a blocked passage on [final_cave2](../maps/final_cave2.md)<br>+1 more | hand over 1× [Scroll of fire](../items/final_cave_f.md), stage 1, stage 10, stage 2, stage 3, stage 4, stage 5, stage 6, stage 7 | sets stage 150 of [Not Pony Island](../quests/lae_centaurs.md#stage-150)<br>faction “final_cave_hint” set to 999<br>clears stage 1 of [final_cave (hidden flag)](../quests/final_cave.md#stage-1)<br>clears stage 2 of [final_cave (hidden flag)](../quests/final_cave.md#stage-2)<br>clears stage 3 of [final_cave (hidden flag)](../quests/final_cave.md#stage-3)<br>clears stage 4 of [final_cave (hidden flag)](../quests/final_cave.md#stage-4)<br>clears stage 5 of [final_cave (hidden flag)](../quests/final_cave.md#stage-5)<br>clears stage 6 of [final_cave (hidden flag)](../quests/final_cave.md#stage-6)<br>clears stage 7 of [final_cave (hidden flag)](../quests/final_cave.md#stage-7)<br>faction “final_cave_e” set to 0<br>faction “final_cave_g” set to 0<br>faction “final_cave_f” set to 0<br>faction “final_cave_b” set to 0<br>faction “final_cave_a” set to 0<br>faction “final_cave_r” set to 0<br>faction “final_cave_w” set to 0<br>sets stage 210 of [Not Pony Island](../quests/lae_centaurs.md#stage-210)<br>applies condition bleeding_wound |
 | <span id="stage-10"></span>10 | 10: 0=Algangror 1=Jhaeld<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Island4](../maps/island4.md).</span> | stepping on a trigger on [island4](../maps/island4.md) | – | spawns monsters on island_4_cave1 |
 | <span id="stage-11"></span>11 | 11: Andor talk<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Final cave1](../maps/final_cave1.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Island1](../maps/island1.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Island2](../maps/island2.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Island3](../maps/island3.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Island4](../maps/island4.md).</span> | stepping on a trigger on [final_cave1](../maps/final_cave1.md) | – | sets stage 130 of [Not Pony Island](../quests/lae_centaurs.md#stage-130)<br>removes monsters from island_4_cave1 |
-| <span id="stage-12"></span>12 | 12: Algangror/Jhaeld talk<br><span class="qnote">🔓 You can finally access a previously blocked area on [Island 4 cave1](../maps/island_4_cave1.md).</span> | [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md))<br>[Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
+| <span id="stage-12"></span>12 | 12: Algangror/Jhaeld talk<br><span class="qnote">🔓 You can finally access a previously blocked area on [Island 4 cave1](../maps/island_4_cave1.md).</span> | [Algangror](../monsters/algangror.md#v-lae_algangror1) ([island_4_cave1](../maps/island_4_cave1.md))<br>[Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) ([island_4_cave1](../maps/island_4_cave1.md)) | – | – |
 | <span id="stage-99"></span>99 | x | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -148,8 +152,8 @@
 
 ???+ note "Stage 12: 2 routes"
 
-    1. Talk to [Algangror](../monsters/lae_algangror1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Of course I'm happy to help.” → **stage 12**. NPC: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.”
-    2. Talk to [Jhaeld](../monsters/lae_jhaeld1.md) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Of course I'm happy to help.” → **stage 12**. NPC: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.”
+    1. Talk to [Algangror](../monsters/algangror.md#v-lae_algangror1) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Of course I'm happy to help.” → **stage 12**. NPC: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.”
+    2. Talk to [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld1) ([island_4_cave1](../maps/island_4_cave1.md)) → choose “Of course I'm happy to help.” → **stage 12**. NPC: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.”
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -170,23 +174,23 @@
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=final_cave.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

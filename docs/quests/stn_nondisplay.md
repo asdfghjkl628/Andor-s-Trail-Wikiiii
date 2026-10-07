@@ -1,7 +1,11 @@
+---
+description: "stn_nondisplay is a hidden quest in Andor's Trail, started by walking into a blocked passage on waytogalmore0. 83 stages, 50 XP in total. 4=Castle visited"
+---
+
 # stn_nondisplay
 
 !!! info "Hidden story flag"
-    An internal quest the game uses to track your progress behind the scenes. It never shows up in your journal. The entries below are the developers' notes to themselves, so expect them to be terse.
+    An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
 
 <div class="infobox" markdown>
 
@@ -11,7 +15,7 @@
 | **In journal** | No (hidden flag) |
 | **Stages** | 83 |
 | **Started by** | walking into a blocked passage on [waytogalmore0](../maps/waytogalmore0.md) |
-| **NPCs involved** | [Blornvale](../monsters/stoutford_alchemist2.md), [Blornvale](../monsters/stoutford_alchemist.md), [Caeda](../monsters/caeda.md), [Cave troll leader](../monsters/cave_troll_5.md), [Colonel Lutarc](../monsters/stn_colonel.md), [Glade key](../monsters/lakecave2_key.md) +19 |
+| **NPCs involved** | [Blornvale](../monsters/stoutford_alchemist.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Caeda](../monsters/caeda.md), [Cave troll leader](../monsters/cave_troll_5.md), [Colonel Lutarc](../monsters/stn_colonel.md), [Glade key](../monsters/lakecave2_key.md) +19 |
 | **Locations** | [flagstone0](../maps/flagstone0.md), [lakecave2](../maps/lakecave2.md), [remgard0](../maps/remgard0.md), [stoutford_armorer](../maps/stoutford_armorer.md) |
 | **Total XP** | 50 |
 | **Related quests** | 6 |
@@ -101,7 +105,7 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 | <span id="stage-26"></span>26 | 26=Gyra in tower3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford tower3](../maps/stoutford_tower3.md).</span> | stepping on a trigger on [stoutford_tower3](../maps/stoutford_tower3.md) | stage 18, stage 27 | spawns monsters on stoutford_tower3 |
 | <span id="stage-27"></span>27 | 27=Gyra in tower4<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford tower4](../maps/stoutford_tower4.md).</span> | stepping on a trigger on [stoutford_tower4](../maps/stoutford_tower4.md) | stage 26 | spawns monsters on stoutford_tower4 |
 | <span id="stage-28"></span>28 | 28=Gyra in flagstone0<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Flagstone0](../maps/flagstone0.md).</span> | stepping on a trigger on [flagstone0](../maps/flagstone0.md) | stage 15 | spawns monsters on flagstone0 |
-| <span id="stage-29"></span>29 | 29=Gyra is carried<br><span class="qnote">⚡ A scripted event can now trigger on [Flagstone0](../maps/flagstone0.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Waytogalmore1](../maps/waytogalmore1.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Wild19](../maps/wild19.md).</span> | [Gyra](../monsters/stn_gyra1.md) ([flagstone0](../maps/flagstone0.md)) | – | applies condition fatigue_minor |
+| <span id="stage-29"></span>29 | 29=Gyra is carried<br><span class="qnote">⚡ A scripted event can now trigger on [Flagstone0](../maps/flagstone0.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Waytogalmore1](../maps/waytogalmore1.md).</span><br><span class="qnote">⚡ A scripted event can now trigger on [Wild19](../maps/wild19.md).</span> | [Gyra](../monsters/stn_gyra.md#v-stn_gyra1) ([flagstone0](../maps/flagstone0.md)) | – | applies condition fatigue_minor |
 | <span id="stage-31"></span>31 | 31=First place visited<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle2](../maps/stoutford_castle2.md).</span> | stepping on a trigger on [stoutford_castle2](../maps/stoutford_castle2.md) | stage 13, stage 32, stage 33 | – |
 | <span id="stage-32"></span>32 | 32=Second place visited<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle barrack1](../maps/stoutford_castle_barrack1.md).</span> | stepping on a trigger on [stoutford_castle_barrack1](../maps/stoutford_castle_barrack1.md) | stage 21, stage 31, stage 33 | – |
 | <span id="stage-33"></span>33 | 33=Third place visited<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle tower1](../maps/stoutford_castle_tower1.md).</span> | stepping on a trigger on [stoutford_castle_tower1](../maps/stoutford_castle_tower1.md) | stage 17, stage 31, stage 32 | – |
@@ -152,7 +156,7 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 | <span id="stage-201"></span>201 | 201=Blornvales Shop1 seen | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | – | – |
 | <span id="stage-202"></span>202 | 202=Blornvales Shop2 enabled<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford potion](../maps/stoutford_potion.md).</span> | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>stepping on a trigger on [stoutford_potion](../maps/stoutford_potion.md) | stage 201 | – |
 | <span id="stage-203"></span>203 | 203=Troll fights | [Cave troll leader](../monsters/cave_troll_5.md) ([lakecave2](../maps/lakecave2.md)) | – | – |
-| <span id="stage-204"></span>204 | 204=wall door opened<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild21a](../maps/wild21a.md).</span><br><span class="qnote">🗺️ Part of [Wild21a](../maps/wild21a.md) visibly changes.</span> | [Stoutford guard](../monsters/stoutford_guard_wild21a.md) ([wild21a](../maps/wild21a.md)) | – | – |
+| <span id="stage-204"></span>204 | 204=wall door opened<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild21a](../maps/wild21a.md).</span><br><span class="qnote">🗺️ Part of [Wild21a](../maps/wild21a.md) visibly changes.</span> | [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a) ([wild21a](../maps/wild21a.md)) | – | – |
 | <span id="stage-205"></span>205 | 205=Caeda retired<br><span class="qnote">🗺️ Part of [Lakecave2](../maps/lakecave2.md) visibly changes.</span> | [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) | – | removes monsters from remgard0<br>spawns monsters on lakecave2<br>gives 1× [Key to the glade](../items/glade_key.md)<br>removes monsters from lakecave2 |
 | <span id="stage-206"></span>206 | 206=Picked a damerilia<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lakecave1](../maps/lakecave1.md).</span> | stepping on a trigger on [lakecave1](../maps/lakecave1.md) | – | gives 1× [Damerilias](../items/damerilias.md)<br>sets stage 30 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-30)<br>starts timer “lakecave1_damerilia1_fetched”<br>clears stage 31 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-31)<br>sets stage 32 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-32)<br>starts timer “lakecave1_damerilia2_fetched”<br>clears stage 33 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-33)<br>sets stage 34 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-34)<br>starts timer “lakecave1_damerilia3_fetched”<br>clears stage 35 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-35)<br>sets stage 36 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-36)<br>starts timer “lakecave1_damerilia4_fetched”<br>clears stage 37 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-37)<br>sets stage 38 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-38)<br>starts timer “lakecave1_damerilia5_fetched”<br>clears stage 39 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-39) |
 | <span id="stage-207"></span>207 | 207=Lied about damerilias | dialogue `stoutford_widow_roots30_1_2`, which nothing in the data starts directly | – | – |
@@ -161,7 +165,7 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 | <span id="stage-212"></span>212 | 212=lakecave2 key taken<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Lakecave2](../maps/lakecave2.md).</span><br><span class="qnote">🗺️ Part of [Lakecave2](../maps/lakecave2.md) visibly changes.</span> | stepping on a trigger on [lakecave2](../maps/lakecave2.md) | stage 211 | gives 1× [Key to the glade](../items/glade_key.md)<br>sets stage 30 of [A secret garden](../quests/secret_garden.md#stage-30) |
 | <span id="stage-999"></span>999 | - | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki can't trace yet. That doesn't make it a secret: treat anything you hear about it as speculation.
+<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
@@ -296,7 +300,7 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 
 ???+ note "Stage 29: 1 route"
 
-    1. Talk to [Gyra](../monsters/stn_gyra1.md) ([flagstone0](../maps/flagstone0.md)) → choose “Let me carry you for a while.” → **stage 29**; also applies condition fatigue_minor
+    1. Talk to [Gyra](../monsters/stn_gyra.md#v-stn_gyra1) ([flagstone0](../maps/flagstone0.md)) → choose “Let me carry you for a while.” → **stage 29**; also applies condition fatigue_minor
 
 ???+ note "Stage 31: 2 routes"
 
@@ -335,11 +339,11 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 
 ???+ note "Stage 46: 1 route"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 7× [Erwyn's knight](../monsters/erwyn_knight.md); killed 13× [Erwyn's soldier](../monsters/erwyn_soldier.md); killed 7× [Erwyn's soldier](../monsters/erwyn_soldier2.md); killed 4× [Erwyn's soldier](../monsters/erwyn_soldier3.md) → **stage 46**
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 7× [Erwyn's knight](../monsters/erwyn_knight.md); killed 13× [Erwyn's soldier](../monsters/erwyn_soldier.md); killed 7× [Erwyn's soldier](../monsters/erwyn_soldier.md#v-erwyn_soldier2); killed 4× [Erwyn's soldier](../monsters/erwyn_soldier.md#v-erwyn_soldier3) → **stage 46**
 
 ???+ note "Stage 47: 1 route"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 7× [Erwyn's knight](../monsters/erwyn_knight.md); killed 13× [Erwyn's soldier](../monsters/erwyn_soldier.md); killed 7× [Erwyn's soldier](../monsters/erwyn_soldier2.md); killed 4× [Erwyn's soldier](../monsters/erwyn_soldier3.md); killed 1× [Karth the Unbowed](../monsters/erwyn_commander.md); killed 1× [Lord Erwyn](../monsters/erwyn2.md) → **stage 47**
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 7× [Erwyn's knight](../monsters/erwyn_knight.md); killed 13× [Erwyn's soldier](../monsters/erwyn_soldier.md); killed 7× [Erwyn's soldier](../monsters/erwyn_soldier.md#v-erwyn_soldier2); killed 4× [Erwyn's soldier](../monsters/erwyn_soldier.md#v-erwyn_soldier3); killed 1× [Karth the Unbowed](../monsters/erwyn_commander.md); killed 1× [Lord Erwyn](../monsters/erwyn.md#v-erwyn2) → **stage 47**
 
 ???+ note "Stage 48: 1 route"
 
@@ -385,21 +389,21 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 
 ???+ note "Stage 120: 4 routes"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Lizard](../monsters/stn_colonel_mons1.md); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 120**; also sets stage 112 of [Colonel Lutarc](../quests/stn_colonel.md#stage-112). NPC: “Not bad for the first one. Let's have the next.”
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Lizard](../monsters/stn_lizard.md#v-stn_colonel_mons1); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 120**; also sets stage 112 of [Colonel Lutarc](../quests/stn_colonel.md#stage-112). NPC: “Not bad for the first one. Let's have the next.”
     2. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 120**; also sets stage 113 of [Colonel Lutarc](../quests/stn_colonel.md#stage-113), removes monsters from waytogalmore0. NPC: “Lost the first fight already. Well, let's have the next.”
     3. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 120**; also sets stage 113 of [Colonel Lutarc](../quests/stn_colonel.md#stage-113), removes monsters from waytogalmore0. NPC: “Lost the first fight already. Well, let's have the next.”
     4. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-111) is 111 → **stage 120**; also sets stage 113 of [Colonel Lutarc](../quests/stn_colonel.md#stage-113), removes monsters from waytogalmore0. NPC: “Lost the first fight already. Well, let's have the next.”
 
 ???+ note "Stage 130: 4 routes"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Skeleton](../monsters/stn_colonel_mons2.md); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 130**; also sets stage 122 of [Colonel Lutarc](../quests/stn_colonel.md#stage-122). NPC: “Nicely done. Let's have the next.”
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 1× [Skeleton](../monsters/skeleton.md#v-stn_colonel_mons2); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 130**; also sets stage 122 of [Colonel Lutarc](../quests/stn_colonel.md#stage-122). NPC: “Nicely done. Let's have the next.”
     2. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 130**; also sets stage 123 of [Colonel Lutarc](../quests/stn_colonel.md#stage-123), removes monsters from waytogalmore0. NPC: “Lost the second fight. Well, I have three more for you.”
     3. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 130**; also sets stage 123 of [Colonel Lutarc](../quests/stn_colonel.md#stage-123), removes monsters from waytogalmore0. NPC: “Lost the second fight. Well, I have three more for you.”
     4. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-121) is 121 → **stage 130**; also sets stage 123 of [Colonel Lutarc](../quests/stn_colonel.md#stage-123), removes monsters from waytogalmore0. NPC: “Lost the second fight. Well, I have three more for you.”
 
 ???+ note "Stage 140: 4 routes"
 
-    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 2× [Mikhail](../monsters/stn_colonel_mons3.md); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 140**; also sets stage 132 of [Colonel Lutarc](../quests/stn_colonel.md#stage-132). NPC: “I am impressed. You won the fight with my poser.”
+    1. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** killed 2× [Mikhail](../monsters/mikhail.md#v-stn_colonel_mons3); latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 140**; also sets stage 132 of [Colonel Lutarc](../quests/stn_colonel.md#stage-132). NPC: “I am impressed. You won the fight with my poser.”
     2. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 140**; also sets stage 133 of [Colonel Lutarc](../quests/stn_colonel.md#stage-133), removes monsters from waytogalmore0, removes monsters from waytogalmore0. NPC: “I knew you would lose this one.”
     3. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 140**; also sets stage 133 of [Colonel Lutarc](../quests/stn_colonel.md#stage-133), removes monsters from waytogalmore0, removes monsters from waytogalmore0. NPC: “I knew you would lose this one.”
     4. stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) → the conversation leads here automatically — **conditions:** latest stage of [Colonel Lutarc](../quests/stn_colonel.md#stage-131) is 131 → **stage 140**; also sets stage 133 of [Colonel Lutarc](../quests/stn_colonel.md#stage-133), removes monsters from waytogalmore0, removes monsters from waytogalmore0. NPC: “I knew you would lose this one.”
@@ -441,8 +445,8 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 
 ???+ note "Stage 204: 2 routes"
 
-    1. Talk to [Stoutford guard](../monsters/stoutford_guard_wild21a.md) ([wild21a](../maps/wild21a.md)) → choose “Yes.” → **stage 204**. NPC: “OK, then you may pass.”
-    2. Talk to [Stoutford guard](../monsters/stoutford_guard_wild21a.md) ([wild21a](../maps/wild21a.md)) → choose “Haha, just kidding. Of course I know it.” → **stage 204**. NPC: “Ah, I knew you did. You may pass.”
+    1. Talk to [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a) ([wild21a](../maps/wild21a.md)) → choose “Yes.” → **stage 204**. NPC: “OK, then you may pass.”
+    2. Talk to [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a) ([wild21a](../maps/wild21a.md)) → choose “Haha, just kidding. Of course I know it.” → **stage 204**. NPC: “Ah, I knew you did. You may pass.”
 
 ???+ note "Stage 205: 1 route"
 
@@ -491,23 +495,23 @@ None: talk to walking into a blocked passage on [waytogalmore0](../maps/waytogal
 
 ### Walkthrough
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Bugs
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/quests?filename=stn_nondisplay.md&value=%23%23%20Walkthrough%0A%0A%3C%21--%20step-by-step%20help%20for%20players%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Bugs%0A%0A%3C%21--%20known%20glitches%20and%20workarounds%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Woodhouse2 is an indoor location in Andor's Trail, in Fallhaven (settlement). NPCs: Burhczyd, Knight of Elythom, Lowyna, Outcast, Outcast. Enemies: Roach, Rat. Exits to Woodhouse3, Woodsettlement0."
+---
+
 # Woodhouse2
 
 <div class="infobox" markdown>
@@ -21,18 +25,18 @@
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/woodhouse2.webp" alt="Map of Woodhouse2" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../woodsettlement0/#place-woodhouse2" title="Exit to Woodsettlement0" style="left:56.250%;top:87.500%;width:6.250%;height:12.500%"></a><a id="place-down woodhouse2" class="mo mo-mapchange" href="../woodhouse3/#place-up woodhouse3" title="Exit to Woodhouse3" style="left:87.500%;top:37.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Outcast" style="left:6.250%;top:37.500%;width:18.750%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Outcast" style="left:25.000%;top:37.500%;width:18.750%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Lowyna" style="left:56.250%;top:37.500%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Rat, Roach" style="left:6.250%;top:75.000%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Knight of Elythom (only appears later, during a quest)" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/smuggler1/" title="Outcast" style="left:6.250%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_26.png" alt="Outcast"></a><a class="mob" href="../../monsters/smuggler2/" title="Outcast" style="left:25.000%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_82.png" alt="Outcast"></a><a class="mob" href="../../monsters/lowyna/" title="Lowyna" style="left:68.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt="Lowyna"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:12.500%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:18.750%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/burhczyd8/" title="Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld2_8.png" alt="Burhczyd"></a><a class="pin pin-exit" href="#key-1" style="left:90.625%;top:43.750%" title="Exit (east): to [Woodhouse3](../woodhouse3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:59.375%;top:93.750%" title="Exit (south): to [Woodsettlement0](../woodsettlement0.md)">2</a><a class="pin pin-npc" href="#key-3" style="left:46.875%;top:43.750%" title="[Burhczyd](../../monsters/burhczyd8.md): 1 quest">3</a><a class="pin pin-npc" href="#key-4" style="left:47.286%;top:34.376%" title="[Knight of Elythom](../../monsters/burhczyd8e.md): 1 quest">4</a><a class="pin pin-npc" href="#key-5" style="left:71.875%;top:43.750%" title="[Lowyna](../../monsters/lowyna.md): shopkeeper, 1 quest">5</a><a class="pin pin-npc" href="#key-6" style="left:28.125%;top:68.750%" title="[Outcast](../../monsters/smuggler2.md): NPC">6</a><a class="pin pin-npc" href="#key-7" style="left:9.375%;top:56.250%" title="[Outcast](../../monsters/smuggler1.md): NPC">7</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/woodhouse2.webp" alt="Map of Woodhouse2" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../woodsettlement0/#place-woodhouse2" title="Exit to Woodsettlement0" style="left:56.250%;top:87.500%;width:6.250%;height:12.500%"></a><a id="place-down woodhouse2" class="mo mo-mapchange" href="../woodhouse3/#place-up woodhouse3" title="Exit to Woodhouse3" style="left:87.500%;top:37.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Outcast" style="left:6.250%;top:37.500%;width:18.750%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Outcast" style="left:25.000%;top:37.500%;width:18.750%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Lowyna" style="left:56.250%;top:37.500%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Rat, Roach" style="left:6.250%;top:75.000%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Knight of Elythom (only appears later, during a quest)" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/smuggler1/" title="Outcast" style="left:6.250%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_26.png" alt="Outcast"></a><a class="mob" href="../../monsters/smuggler1/#v-smuggler2" title="Outcast" style="left:25.000%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_82.png" alt="Outcast"></a><a class="mob" href="../../monsters/lowyna/" title="Lowyna" style="left:68.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt="Lowyna"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:12.500%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:18.750%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/burhczyd1/#v-burhczyd8" title="Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld2_8.png" alt="Burhczyd"></a><a class="pin pin-exit" href="#key-1" style="left:90.625%;top:43.750%" title="Exit (east): to [Woodhouse3](woodhouse3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:59.375%;top:93.750%" title="Exit (south): to [Woodsettlement0](woodsettlement0.md)">2</a><a id="pin-npc-burhczyd8" class="pin pin-npc" href="#key-3" style="left:46.875%;top:43.750%" title="[Burhczyd](../../monsters/burhczyd1.md#v-burhczyd8): 1 quest">3</a><a id="pin-npc-burhczyd8e" class="pin pin-npc" href="#key-4" style="left:47.286%;top:34.376%" title="[Knight of Elythom](../../monsters/burhczyd1e.md#v-burhczyd8e): 1 quest">4</a><a id="pin-npc-lowyna" class="pin pin-npc" href="#key-5" style="left:71.875%;top:43.750%" title="[Lowyna](../../monsters/lowyna.md): shopkeeper, 1 quest">5</a><a id="pin-npc-smuggler2" class="pin pin-npc" href="#key-6" style="left:28.125%;top:68.750%" title="[Outcast](../../monsters/smuggler1.md#v-smuggler2): NPC">6</a><a id="pin-npc-smuggler1" class="pin pin-npc" href="#key-7" style="left:9.375%;top:56.250%" title="[Outcast](../../monsters/smuggler1.md): NPC">7</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Woodhouse3](../woodhouse3.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Woodsettlement0](../woodsettlement0.md) |
-    | <span id="key-3"></span>3 | [Burhczyd](../monsters/burhczyd8.md) | 1 quest |
-    | <span id="key-4"></span>4 | [Knight of Elythom](../monsters/burhczyd8e.md) | 1 quest |
+    | <span id="key-1"></span>1 | Exit (east) | to [Woodhouse3](woodhouse3.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Woodsettlement0](woodsettlement0.md) |
+    | <span id="key-3"></span>3 | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) | 1 quest |
+    | <span id="key-4"></span>4 | [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) | 1 quest |
     | <span id="key-5"></span>5 | [Lowyna](../monsters/lowyna.md) | shopkeeper, 1 quest |
-    | <span id="key-6"></span>6 | [Outcast](../monsters/smuggler2.md) | NPC |
+    | <span id="key-6"></span>6 | [Outcast](../monsters/smuggler1.md#v-smuggler2) | NPC |
     | <span id="key-7"></span>7 | [Outcast](../monsters/smuggler1.md) | NPC |
 
 
@@ -47,19 +51,19 @@
 
 ## NPCs
 
-- [Burhczyd](../monsters/burhczyd8.md) — quests: [Young merchant](../quests/quest_burhczyd.md) (#3)
-- [Knight of Elythom](../monsters/burhczyd8e.md) — quests: [Young merchant](../quests/quest_burhczyd.md) (#4)
+- [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) — quests: [Young merchant](../quests/quest_burhczyd.md) (#3)
+- [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) — quests: [Young merchant](../quests/quest_burhczyd.md) (#4)
 - [Lowyna](../monsters/lowyna.md) — shopkeeper — quests: [Sweet sweet rat poison](../quests/lowyna.md) (#5)
-- [Outcast](../monsters/smuggler2.md) (#6)
+- [Outcast](../monsters/smuggler1.md#v-smuggler2) (#6)
 - [Outcast](../monsters/smuggler1.md) (#7)
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 | [Roach](../monsters/vermin2.md) | 0 | 0–1 | 2 | shares spawn with Rat |
-| [Rat](../monsters/vermin1.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
+| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
+| [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -70,8 +74,8 @@
 ## Quests
 
 - [Sweet sweet rat poison](../quests/lowyna.md): [Lowyna](../monsters/lowyna.md) is involved
-- [Young merchant](../quests/quest_burhczyd.md): [Burhczyd](../monsters/burhczyd8.md) is involved; [Knight of Elythom](../monsters/burhczyd8e.md) is involved
-- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd8.md) is involved; [Knight of Elythom](../monsters/burhczyd8e.md) is involved
+- [Young merchant](../quests/quest_burhczyd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) is involved
+- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) is involved
 
 
 ## Version history
@@ -93,19 +97,19 @@
 
 ### Observations
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/maps?filename=woodhouse2.md&value=%23%23%20Observations%0A%0A%3C%21--%20what%20players%20notice%20in-game%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

@@ -1,3 +1,7 @@
+---
+description: "Rat tail is a ordinary animal part in Andor's Trail. How to get it: monster drops, shops."
+---
+
 # ![](../assets/icons/items/items_misc_38.png){ .sprite } Rat tail
 
 *Ordinary animal part.*
@@ -22,20 +26,20 @@
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zuul'khan](../monsters/zuul_khan4.md) | 100% | 1-2 | mushroom_m2_8 |
-| [Bonicksa](../monsters/wicked_witch_second.md) | 100% | 7-12 | witch_house |
-| [Madame Mim](../monsters/swamp_witch_shop.md) | 100% | 2-5 | swamp_hut |
+| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan4) | 100% | 1-2 | mushroom_m2_8 |
+| [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_second) | 100% | 7-12 | witch_house |
+| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 2-5 | swamp_hut |
 | [Ny'Ratees](../monsters/nyratees.md) | 100% | 1 | undertell_1_0, undertell_1_1 |
 | [Cave rat](../monsters/cave_rat.md) | 30% | 1 | Crossglen, Mt. Galmore, Flagstone Prison |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 30% | 1 | Crossglen, Mt. Galmore, Guynmart Castle |
-| [Cave rat](../monsters/puny_caverat.md) | 30% | 1 | blackwater_mountain6 |
-| [Rat](../monsters/crossroads_rat.md) | 30% | 1 | Crossroads Guardhouse, Remgard, Wexlow Village |
+| [Cave rat](../monsters/cave_rat.md#v-puny_caverat) | 30% | 1 | blackwater_mountain6 |
+| [Rat](../monsters/vermin0.md#v-crossroads_rat) | 30% | 1 | Crossroads Guardhouse, Remgard, Wexlow Village |
 | [Warehouse rat](../monsters/puny_warehouserat.md) | 30% | 1 | Loneford |
 | [Mouse](../monsters/brv_churchmouse.md) | 30% | 1 | brimhaven_church_upstairs |
-| [Cave rat](../monsters/ratdom_maze_rat2.md) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
 | [Slime](../monsters/ratdom_maze_slime.md) | 30% | 1 | Gold hunter |
-| [Tough cave rat](../monsters/tough_cave_rat3.md) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
-| [Tiny rat](../monsters/tobby_trainingrat.md) | 30% | 1 | guynmart_wood_19 |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
+| [Tiny rat](../monsters/tiny_rat.md#v-tobby_trainingrat) | 30% | 1 | guynmart_wood_19 |
 | [Brown church rat](../monsters/brown_church_rat.md) | 11% | 1 | Remgard |
 | [Pup rat](../monsters/young_church_rat.md) | 10% | 1 | Remgard |
 
@@ -77,19 +81,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=rat_tail.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

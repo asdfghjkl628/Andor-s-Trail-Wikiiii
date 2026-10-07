@@ -1,3 +1,7 @@
+---
+description: "Glass gem is a ordinary gem in Andor's Trail. How to get it: monster drops, shops, containers, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_misc_0.png){ .sprite } Glass gem
 
 *Ordinary gem.*
@@ -36,10 +40,10 @@
 | [Hira'zinn](../monsters/hirazinn.md) | 100% | 1-3 | lodarcave4a |
 | [Lava entity](../monsters/lava_entity.md) | 100% | 1-2 | Mt. Galmore |
 | [Dark watch](../monsters/lae_demon4.md) | 100% | 1 | laerothprison7 |
-| [Dark watch](../monsters/lae_demon4b.md) | 100% | 1 | laerothprison7 |
-| [Dark watch](../monsters/lae_demon5.md) | 100% | 1 | laerothprison7 |
-| [Dark watch](../monsters/lae_demon7.md) | 100% | 1 | laerothprison7 |
-| [Dark watch](../monsters/lae_demon9.md) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon4.md#v-lae_demon4b) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon4.md#v-lae_demon5) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon4.md#v-lae_demon7) | 100% | 1 | laerothprison7 |
+| [Dark watch](../monsters/lae_demon4.md#v-lae_demon9) | 100% | 1 | laerothprison7 |
 | [Beholder](../monsters/beholder.md) | 100% | 5-15 | Mt. Galmore |
 | [Pyreling](../monsters/pyreling.md) | 100% | 1-2 | Mt. Galmore |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 100% | 1-2 | Mt. Galmore |
@@ -47,7 +51,7 @@
 | [Spearborn thrall](../monsters/spearborn_thrall.md) | 75% | 1-2 | crackshot_hideout4 |
 | [Young spearborn thrall](../monsters/young_spearborn_thrall.md) | 75% | 1-2 | crackshot_hideout4 |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 75% | 1-2 | Mt. Galmore |
-| [Gruil](../monsters/ratdom_gruil.md) | 50% | 1 | – |
+| [Gruil](../monsters/gruil.md#v-ratdom_gruil) | 50% | 1 | – |
 | [Young larval burrower](../monsters/young_larval_burrower.md) | 30% | 1 | Crossroads Guardhouse |
 | [Larval burrower](../monsters/larval_burrower.md) | 30% | 1 | Crossroads Guardhouse |
 | [Basilisk](../monsters/basilisk.md) | 25% | 1 | Flagstone Prison, Foaming Flask Tavern, Blackwater Mountain |
@@ -122,19 +126,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gem1.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"

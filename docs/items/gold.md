@@ -1,3 +1,7 @@
+---
+description: "Gold coins is a ordinary money in Andor's Trail. How to get it: monster drops, shops, containers, quests and dialogue."
+---
+
 # ![](../assets/icons/items/items_misc_10.png){ .sprite } Gold coins
 
 *Ordinary money.*
@@ -37,13 +41,13 @@
 | [Winged demon](../monsters/winged_demon.md) | 100% | 62 | flagstone4 |
 | [Pack leader](../monsters/pack_leader.md) | 100% | 3-35 | clearing_level2 |
 | [Maelveon](../monsters/maelveon.md) | 100% | 52 | gargoylecave3 |
-| [Cave rat](../monsters/puny_caverat.md) | 100% | 2-4 | blackwater_mountain6 |
+| [Cave rat](../monsters/cave_rat.md#v-puny_caverat) | 100% | 2-4 | blackwater_mountain6 |
 | [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 52 | blackwater_mountain42 |
 | [Graverobber](../monsters/graverobber.md) | 100% | 10-50 | blackwater_mountain35 |
 | [Guthbered](../monsters/guthbered.md) | 100% | 20-50 | Prim |
 | [Harlenn](../monsters/harlenn.md) | 100% | 20-50 | Prim |
-| [Strong larval burrower](../monsters/larval_boss.md) | 100% | 0-9 | Crossroads Guardhouse |
-| [Rat](../monsters/crossroads_rat.md) | 100% | 2-4 | Crossroads Guardhouse, Remgard, Wexlow Village |
+| [Strong larval burrower](../monsters/burrower_3.md#v-larval_boss) | 100% | 0-9 | Crossroads Guardhouse |
+| [Rat](../monsters/vermin0.md#v-crossroads_rat) | 100% | 2-4 | Crossroads Guardhouse, Remgard, Wexlow Village |
 | [Warehouse rat](../monsters/puny_warehouserat.md) | 100% | 2-4 | Loneford |
 | [Iqhan chaos enslaver](../monsters/iqhan_boss.md) | 100% | 50-100 | pwcave4 |
 | [Gylew](../monsters/gylew.md) | 100% | 20-50 | waterway5 |
@@ -60,7 +64,7 @@
 | [Emerald ooze](../monsters/jelly6.md) | 100% | 5-30 | roadcave1 |
 | [Aulowenn](../monsters/aulowenn.md) | 100% | 50-150 | lodar13 |
 | [Tiqui](../monsters/tiqui.md) | 100% | 50-150 | lodar14 |
-| [Highwayman](../monsters/highwayman1.md) | 100% | 1-20 | Fallhaven |
+| [Highwayman](../monsters/highwayman.md#v-highwayman1) | 100% | 1-20 | Fallhaven |
 | [Korvan the leader of the wolves](../monsters/wolf_leader.md) | 100% | 50 | Crossroads Guardhouse |
 
 *…and 568 more.*
@@ -68,7 +72,7 @@
 ### Sold by
 
 - [Guynmart guard](../monsters/guynmart_gguard.md) (Guynmart Castle)
-- [Wart](../monsters/ratdom_rat_warden2.md) (Museum)
+- [Wart](../monsters/ratdom_rat_warden.md#v-ratdom_rat_warden2) (Museum)
 - [Madame Mim](../monsters/swamp_witch.md) (swamp_hut)
 
 ### Found in containers
@@ -136,8 +140,8 @@ Where the game checks for this item in dialogue:
 | [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | – | handed over (200×) | “Here are 200 gold. Now let me see the potions.” |
 | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | must be carried (5000×) | “No, I am here to give you something.” |
 | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-55) | must be carried (5000×) | “Shannal sent me.” |
-| [Bela](../monsters/bela_2.md), [Bela](../monsters/bela.md) | [You shall pass](../quests/undertell_barricades.md#stage-150) | handed over (4850×) | “Please keep these {4850} gold coins for safekeeping. Rain asked for you until he” |
-| [Bela](../monsters/bela_2.md), [Bela](../monsters/bela.md) | [Room to rent (hidden flag)](../quests/fallhaventavern.md#stage-10) | handed over (10×) | “[Buy for 10 gold]” |
+| [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) | [You shall pass](../quests/undertell_barricades.md#stage-150) | handed over (4850×) | “Please keep these {4850} gold coins for safekeeping. Rain asked for you until he” |
+| [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) | [Room to rent (hidden flag)](../quests/fallhaventavern.md#stage-10) | handed over (10×) | “[Buy for 10 gold]” |
 | [Highwayman](../monsters/highwayman.md) ([wild9](../maps/wild9.md)) | – | handed over (100×) | “OK OK. Here is the gold. Please don't hurt me!” |
 | [Pickpocket](../monsters/pickpocket.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | handed over (1×) | “Do you mean like stealing?” |
 | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | [Night visit](../quests/farrik.md#stage-60) | handed over (500×) | “I have 500 gold right here that you could have.” |
@@ -145,7 +149,7 @@ Where the game checks for this item in dialogue:
 | [Torilo](../monsters/torilo.md) ([foaming_flask](../maps/foaming_flask.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-10) | handed over (250×) | “250 gold? Sure, that's nothing to me. Here you go.” |
 | [Torilo](../monsters/torilo.md) ([foaming_flask](../maps/foaming_flask.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-10) | handed over (250×) | “250 gold is a lot, but I guess it is worth it. Here you go.” |
 | [Strong Prim treasury guard](../monsters/prim_treasury_guard2.md) ([blackwater_mountain25](../maps/blackwater_mountain25.md)) | – | handed over (2000×) | “OK, here.” |
-| [Guard](../monsters/crossroads_backguard.md) ([houseatcrossroads1](../maps/houseatcrossroads1.md)) | – | handed over (800×) | “Here is the gold, now get out of the way.” |
+| [Guard](../monsters/guard.md#v-crossroads_backguard) ([houseatcrossroads1](../maps/houseatcrossroads1.md)) | – | handed over (800×) | “Here is the gold, now get out of the way.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (10×) | “Here's 10 gold, take it.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (100×) | “Here's 100 gold, take it.” |
 | [Buceth](../monsters/buceth.md) | – | handed over (250×) | “Here's 250 gold, take it.” |
@@ -181,19 +185,19 @@ Where the game checks for this item in dialogue:
 
 ### Strategy
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Lore
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Trivia
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 ### Theory / speculation
 
-*Nothing here yet. Know something? [Add it](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
+*No notes yet. Contributions are welcome: [add a note](https://github.com/asdfghjkl628/Andor-s-Trail-Wikiiii/new/main/notes/items?filename=gold.md&value=%23%23%20Strategy%0A%0A%3C%21--%20how%20and%20when%20to%20use%20it%20--%3E%0A%0A%23%23%20Lore%0A%0A%3C%21--%20the%20in-world%20story%20--%3E%0A%0A%23%23%20Trivia%0A%0A%3C%21--%20real-world%20facts%2C%20references%2C%20development%20history%20--%3E%0A%0A%23%23%20Theory%20/%20speculation%0A%0A%3C%21--%20unconfirmed%20ideas%3B%20may%20just%20be%20unfinished%20content%20--%3E%0A).*
 
 
 ??? info "Technical information"
