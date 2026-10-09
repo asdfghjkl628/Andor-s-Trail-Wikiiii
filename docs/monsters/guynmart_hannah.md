@@ -4,33 +4,23 @@ description: "Hannah is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_225.png){ .sprite } Hannah
 
+**Where to find Hannah:** [Guynmart Castle, Guynmart](#v-guynmart_hannah), [Guynmart Castle, Guynmart main 1 and 1 more](#v-guynmart_hannah2), [Guynmart Castle, Guynmart main 1](#v-guynmart_hannah3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_225.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Hannah. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Guynmart Castle, Guynmart { #v-guynmart_hannah }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_hannah`](#v-guynmart_hannah) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah) | – |
-| [`guynmart_hannah2`](#v-guynmart_hannah2) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2) | – |
-| [`guynmart_hannah3`](#v-guynmart_hannah3) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3) | – |
-
-## Guynmart Castle, Guynmart (guynmart_hannah) { #v-guynmart_hannah }
-
-**Entry ID:** `guynmart_hannah` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_hannah)
 
 ### Quests
 
@@ -112,38 +102,9 @@ Set your quest stages and items, then talk to Hannah. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_hannah)"
+## Guynmart Castle, Guynmart main 1 and 1 more { #v-guynmart_hannah2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_hannah` |
-    | Spawn group | `guynmart_hannah` |
-    | Loot table | – |
-    | Conversation | `guynmart_hannah_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:225` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_hannah",
-     "name": "Hannah",
-     "iconID": "monsters_ld1:225",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_hannah_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 and 1 more (guynmart_hannah2) { #v-guynmart_hannah2 }
-
-**Entry ID:** `guynmart_hannah2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_hannah2)
 
 ### Locations
 
@@ -391,43 +352,14 @@ Set your quest stages and items, then talk to Hannah. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 46 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1000 gold for 10 or perhaps even more killed sheep.” → “{1000} gold for 10 or perhaps even more killed sheep.”<br>· text: “2500 gold for 25 or perhaps even more killed sheep.” → “{2500} gold for 25 or perhaps even more killed sheep.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1500 gold for 15 or perhaps even more killed sheep.” → “{1500} gold for 15 or perhaps even more killed sheep.”<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_hannah2)"
+## Guynmart Castle, Guynmart main 1 { #v-guynmart_hannah3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_hannah2` |
-    | Spawn group | `guynmart_hannah2` |
-    | Loot table | – |
-    | Conversation | `guynmart_hannah2_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:225` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_hannah2",
-     "name": "Hannah",
-     "iconID": "monsters_ld1:225",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_hannah2_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_hannah3) { #v-guynmart_hannah3 }
-
-**Entry ID:** `guynmart_hannah3` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_hannah3)
 
 ### Quests
 
@@ -456,11 +388,79 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_hannah3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Hannah. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_hannah` | NPC | [Guynmart Castle, Guynmart](#v-guynmart_hannah) |
+| `guynmart_hannah2` | NPC | [Guynmart Castle, Guynmart main 1 and 1 more](#v-guynmart_hannah2) |
+| `guynmart_hannah3` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_hannah3) |
+
+??? info "Technical information: guynmart_hannah"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_hannah` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_hannah` |
+    | Loot table | – |
+    | Conversation | `guynmart_hannah_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:225` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_hannah",
+     "name": "Hannah",
+     "iconID": "monsters_ld1:225",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_hannah_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_hannah2"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_hannah2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_hannah2` |
+    | Loot table | – |
+    | Conversation | `guynmart_hannah2_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:225` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_hannah2",
+     "name": "Hannah",
+     "iconID": "monsters_ld1:225",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_hannah2_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_hannah3"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_hannah3` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_hannah3` |
     | Loot table | – |
     | Conversation | `guynmart_hannah_10` |
@@ -481,7 +481,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "guynmart_hannah_10"
     }
     ```
-
 
 
 ## Community notes

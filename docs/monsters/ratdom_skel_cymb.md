@@ -4,37 +4,23 @@ description: "Cymbalist is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_fatboy73_47.png){ .sprite } Cymbalist
 
+**Where to find Cymbalist:** [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_cymb), [Flagstone Prison, Stoutford castle shed](#v-erwyn_skel_cymbal), [Appears during a quest or event](#v-ratdom_skel_cymb1), [Appears during a quest or event](#v-ratdom_skel_cymb2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_fatboy73_47.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Skeleton dance, Flagstone Prison |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Cymbalist. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Skeleton dance, Ratdom maze 543d { #v-ratdom_skel_cymb }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_skel_cymb`](#v-ratdom_skel_cymb) | Scenery | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – |
-| [`erwyn_skel_cymbal`](#v-erwyn_skel_cymbal) | NPC | Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_cymbal) | – |
-| [`ratdom_skel_cymb1`](#v-ratdom_skel_cymb1) | Scenery | Not on a map | – |
-| [`ratdom_skel_cymb2`](#v-ratdom_skel_cymb2) | Scenery | Not on a map | – |
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_cymb) { #v-ratdom_skel_cymb }
-
-**Entry ID:** `ratdom_skel_cymb` · **Type:** Scenery
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 
 ### Version history
@@ -46,37 +32,9 @@ description: "Cymbalist is a non-player character (NPC) in Andor's Trail, found 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_skel_cymb)"
+## Flagstone Prison, Stoutford castle shed { #v-erwyn_skel_cymbal }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_skel_cymb` |
-    | Spawn group | `ratdom_skel_cymb` |
-    | Loot table | – |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_fatboy73:47` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_skel_cymb",
-     "name": "Cymbalist",
-     "iconID": "monsters_fatboy73:47",
-     "monsterClass": "undead",
-     "spawnGroup": "ratdom_skel_cymb"
-    }
-    ```
-
-
-## Flagstone Prison, Stoutford castle shed (erwyn_skel_cymbal) { #v-erwyn_skel_cymbal }
-
-**Entry ID:** `erwyn_skel_cymbal` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_cymbal)
+**Where:** Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_cymbal)
 
 ### Dialogue simulator
 
@@ -104,11 +62,84 @@ Set your quest stages and items, then talk to Cymbalist. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (erwyn_skel_cymbal)"
+## Appears during a quest or event { #v-ratdom_skel_cymb1 }
+
+**Where:** appears during a quest or scripted event.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Appears during a quest or event (2) { #v-ratdom_skel_cymb2 }
+
+**Where:** appears during a quest or scripted event.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Cymbalist. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_skel_cymb` | Scenery | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_cymb) |
+| `erwyn_skel_cymbal` | NPC | [Flagstone Prison, Stoutford castle shed](#v-erwyn_skel_cymbal) |
+| `ratdom_skel_cymb1` | Scenery | [Appears during a quest or event](#v-ratdom_skel_cymb1) |
+| `ratdom_skel_cymb2` | Scenery | [Appears during a quest or event](#v-ratdom_skel_cymb2) |
+
+- `ratdom_skel_cymb` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md).
+- `ratdom_skel_cymb1` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `ratdom_skel_cymb2` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: ratdom_skel_cymb"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_skel_cymb` |
+    | Type (wiki) | Scenery |
+    | Spawn group | `ratdom_skel_cymb` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_fatboy73:47` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_skel_cymb",
+     "name": "Cymbalist",
+     "iconID": "monsters_fatboy73:47",
+     "monsterClass": "undead",
+     "spawnGroup": "ratdom_skel_cymb"
+    }
+    ```
+
+??? info "Technical information: erwyn_skel_cymbal"
 
     | | |
     |---|---|
     | Entry ID | `erwyn_skel_cymbal` |
+    | Type (wiki) | NPC |
     | Spawn group | `erwyn_skel_cymbal` |
     | Loot table | – |
     | Conversation | `erwyn_skel_band` |
@@ -130,31 +161,12 @@ Set your quest stages and items, then talk to Cymbalist. Same rules as the game:
     }
     ```
 
-
-## Not placed on a map (ratdom_skel_cymb1) { #v-ratdom_skel_cymb1 }
-
-**Entry ID:** `ratdom_skel_cymb1` · **Type:** Scenery
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_cymb1)"
+??? info "Technical information: ratdom_skel_cymb1"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_cymb1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_skel_cymb1` |
     | Loot table | – |
     | Conversation | – |
@@ -175,31 +187,12 @@ Set your quest stages and items, then talk to Cymbalist. Same rules as the game:
     }
     ```
 
-
-## Not placed on a map (ratdom_skel_cymb2) { #v-ratdom_skel_cymb2 }
-
-**Entry ID:** `ratdom_skel_cymb2` · **Type:** Scenery
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_cymb2)"
+??? info "Technical information: ratdom_skel_cymb2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_cymb2` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_skel_cymb2` |
     | Loot table | – |
     | Conversation | – |
@@ -219,7 +212,6 @@ Set your quest stages and items, then talk to Cymbalist. Same rules as the game:
      "spawnGroup": "ratdom_skel_cymb2"
     }
     ```
-
 
 
 ## Community notes

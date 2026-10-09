@@ -4,38 +4,23 @@ description: "Boralla is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_tometik2_54.png){ .sprite } Boralla
 
+**Where to find Boralla:** [Stoutford, Stoutford north-east](#v-stn_boralla), [Stoutford, Stoutford north-east](#v-stn_boralla1), [Stoutford, Stoutford north-east](#v-stn_boralla2), [Stoutford, Stoutford north-east](#v-stn_boralla3), [Stoutford, Stoutford north-east](#v-stn_boralla4), [Stoutford, Stoutford north-east](#v-stn_boralla5), [Stoutford, Stoutford north-east](#v-stn_boralla6), [Stoutford, Stoutford north-east](#v-stn_boralla7)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_54.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Stoutford |
-| **Entries in game data** | 8 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "8 entries in the game data"
-    The game data defines 8 separate characters named Boralla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
+## Stoutford, Stoutford north-east { #v-stn_boralla }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`stn_boralla`](#v-stn_boralla) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla) | – |
-| [`stn_boralla1`](#v-stn_boralla1) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla1) | – |
-| [`stn_boralla2`](#v-stn_boralla2) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla2) | – |
-| [`stn_boralla3`](#v-stn_boralla3) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla3) | – |
-| [`stn_boralla4`](#v-stn_boralla4) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla4) | – |
-| [`stn_boralla5`](#v-stn_boralla5) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla5) | – |
-| [`stn_boralla6`](#v-stn_boralla6) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla6) | – |
-| [`stn_boralla7`](#v-stn_boralla7) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla7) | – |
-
-## Stoutford, Stoutford north-east (stn_boralla) { #v-stn_boralla }
-
-**Entry ID:** `stn_boralla` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla)
 
 ### Dialogue simulator
 
@@ -73,39 +58,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla)"
+## Stoutford, Stoutford north-east (2) { #v-stn_boralla1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla` |
-    | Spawn group | `stn_boralla` |
-    | Loot table | – |
-    | Conversation | `stn_boralla` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 0,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla",
-     "phraseID": "stn_boralla"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla1) { #v-stn_boralla1 }
-
-**Entry ID:** `stn_boralla1` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla1)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla1)
 
 ### Dialogue simulator
 
@@ -138,39 +93,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla1)"
+## Stoutford, Stoutford north-east (3) { #v-stn_boralla2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla1` |
-    | Spawn group | `stn_boralla1` |
-    | Loot table | – |
-    | Conversation | `stn_boralla1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla1",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla1",
-     "phraseID": "stn_boralla1"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla2) { #v-stn_boralla2 }
-
-**Entry ID:** `stn_boralla2` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla2)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla2)
 
 ### Dialogue simulator
 
@@ -203,39 +128,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla2)"
+## Stoutford, Stoutford north-east (4) { #v-stn_boralla3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla2` |
-    | Spawn group | `stn_boralla2` |
-    | Loot table | – |
-    | Conversation | `stn_boralla2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla2",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla2",
-     "phraseID": "stn_boralla2"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla3) { #v-stn_boralla3 }
-
-**Entry ID:** `stn_boralla3` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla3)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla3)
 
 ### Dialogue simulator
 
@@ -268,39 +163,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla3)"
+## Stoutford, Stoutford north-east (5) { #v-stn_boralla4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla3` |
-    | Spawn group | `stn_boralla3` |
-    | Loot table | – |
-    | Conversation | `stn_boralla3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla3",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla3",
-     "phraseID": "stn_boralla3"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla4) { #v-stn_boralla4 }
-
-**Entry ID:** `stn_boralla4` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla4)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla4)
 
 ### Dialogue simulator
 
@@ -333,39 +198,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla4)"
+## Stoutford, Stoutford north-east (6) { #v-stn_boralla5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla4` |
-    | Spawn group | `stn_boralla4` |
-    | Loot table | – |
-    | Conversation | `stn_boralla4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla4",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla4",
-     "phraseID": "stn_boralla4"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla5) { #v-stn_boralla5 }
-
-**Entry ID:** `stn_boralla5` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla5)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla5)
 
 ### Dialogue simulator
 
@@ -398,39 +233,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla5)"
+## Stoutford, Stoutford north-east (7) { #v-stn_boralla6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla5` |
-    | Spawn group | `stn_boralla5` |
-    | Loot table | – |
-    | Conversation | `stn_boralla5` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla5",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla5",
-     "phraseID": "stn_boralla5"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla6) { #v-stn_boralla6 }
-
-**Entry ID:** `stn_boralla6` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla6)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla6)
 
 ### Dialogue simulator
 
@@ -463,39 +268,9 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla6)"
+## Stoutford, Stoutford north-east (8) { #v-stn_boralla7 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_boralla6` |
-    | Spawn group | `stn_boralla6` |
-    | Loot table | – |
-    | Conversation | `stn_boralla6` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:54` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_boralla6",
-     "name": "Boralla",
-     "iconID": "monsters_tometik2:54",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stn_boralla6",
-     "phraseID": "stn_boralla6"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stn_boralla7) { #v-stn_boralla7 }
-
-**Entry ID:** `stn_boralla7` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla7)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla7)
 
 ### Dialogue simulator
 
@@ -528,11 +303,226 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_boralla7)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**8 entries.** The game data defines 8 separate characters named Boralla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stn_boralla` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla) |
+| `stn_boralla1` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla1) |
+| `stn_boralla2` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla2) |
+| `stn_boralla3` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla3) |
+| `stn_boralla4` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla4) |
+| `stn_boralla5` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla5) |
+| `stn_boralla6` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla6) |
+| `stn_boralla7` | NPC | [Stoutford, Stoutford north-east](#v-stn_boralla7) |
+
+??? info "Technical information: stn_boralla"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla` |
+    | Loot table | – |
+    | Conversation | `stn_boralla` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 0,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla",
+     "phraseID": "stn_boralla"
+    }
+    ```
+
+??? info "Technical information: stn_boralla1"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla1` |
+    | Loot table | – |
+    | Conversation | `stn_boralla1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla1",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla1",
+     "phraseID": "stn_boralla1"
+    }
+    ```
+
+??? info "Technical information: stn_boralla2"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla2` |
+    | Loot table | – |
+    | Conversation | `stn_boralla2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla2",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla2",
+     "phraseID": "stn_boralla2"
+    }
+    ```
+
+??? info "Technical information: stn_boralla3"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla3` |
+    | Loot table | – |
+    | Conversation | `stn_boralla3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla3",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla3",
+     "phraseID": "stn_boralla3"
+    }
+    ```
+
+??? info "Technical information: stn_boralla4"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla4` |
+    | Loot table | – |
+    | Conversation | `stn_boralla4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla4",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla4",
+     "phraseID": "stn_boralla4"
+    }
+    ```
+
+??? info "Technical information: stn_boralla5"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla5` |
+    | Loot table | – |
+    | Conversation | `stn_boralla5` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla5",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla5",
+     "phraseID": "stn_boralla5"
+    }
+    ```
+
+??? info "Technical information: stn_boralla6"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_boralla6` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_boralla6` |
+    | Loot table | – |
+    | Conversation | `stn_boralla6` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:54` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_boralla6",
+     "name": "Boralla",
+     "iconID": "monsters_tometik2:54",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stn_boralla6",
+     "phraseID": "stn_boralla6"
+    }
+    ```
+
+??? info "Technical information: stn_boralla7"
 
     | | |
     |---|---|
     | Entry ID | `stn_boralla7` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_boralla7` |
     | Loot table | – |
     | Conversation | `stn_boralla7` |
@@ -554,7 +544,6 @@ Set your quest stages and items, then talk to Boralla. Same rules as the game: s
      "phraseID": "stn_boralla7"
     }
     ```
-
 
 
 ## Community notes

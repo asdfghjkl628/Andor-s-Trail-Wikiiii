@@ -4,6 +4,8 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 
 # ![](../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite } Grave spawn
 
+**Where to find Grave spawn:** [Blackwater Mountain, Blackwater mountain 51 and 4 more](#v-grave_spawn), [Blackwater Mountain, Blackwater mountain 72](#v-bwm_grave_spawn)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite }</p>
@@ -15,50 +17,33 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 | **Class** | Demon |
 | **HP** | 45 |
 | **XP when defeated** | 91 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 2 |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Grave spawn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
+## Blackwater Mountain, Blackwater mountain 51 and 4 more { #v-grave_spawn }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`grave_spawn`](#v-grave_spawn) | Enemy | Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md) (+3 more) | – | 45 |
-| [`bwm_grave_spawn`](#v-bwm_grave_spawn) | Enemy | Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md) | – | 45 |
+**Where:** Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md), Prim: [Blackwater mountain 33](../maps/blackwater_mountain33.md), [Blackwater mountain 34](../maps/blackwater_mountain34.md)
 
-## Blackwater Mountain, Blackwater mountain 51 and 4 more (grave_spawn) { #v-grave_spawn }
+### Combat
 
-**Entry ID:** `grave_spawn` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md), Prim: [Blackwater mountain 33](../maps/blackwater_mountain33.md), [Blackwater mountain 34](../maps/blackwater_mountain34.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 45 |
 | XP when defeated | 91 |
 | Damage | 2 to 5 |
-| Attack chance | 110 |
-| Block chance | 35 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 110 |
+| BC | 35 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -90,11 +75,80 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (grave_spawn)"
+## Blackwater Mountain, Blackwater mountain 72 { #v-bwm_grave_spawn }
+
+**Where:** Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Demon |
+| HP | 45 |
+| XP when defeated | 91 |
+| Damage | 2 to 5 |
+| AC | 110 |
+| BC | 35 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
+
+**Immune to critical hits.**
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 20 to 29 |
+| [Polished gem](../items/gem3.md) | 10% | 1 |
+| [Minor vial of health](../items/health_minor.md) | 10% | 1 |
+| [Bone](../items/bone.md) | 10% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Blackwater mountain 72](../maps/blackwater_mountain72.md) | Blackwater Mountain | 3 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Grave spawn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `grave_spawn` | Enemy | [Blackwater Mountain, Blackwater mountain 51 and 4 more](#v-grave_spawn) |
+| `bwm_grave_spawn` | Enemy | [Blackwater Mountain, Blackwater mountain 72](#v-bwm_grave_spawn) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: grave_spawn"
 
     | | |
     |---|---|
     | Entry ID | `grave_spawn` |
+    | Type (wiki) | Enemy |
     | Spawn group | `restless_dead_1` |
     | Loot table | `restless_dead_1` |
     | Conversation | – |
@@ -129,68 +183,12 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
     }
     ```
 
-
-## Blackwater Mountain, Blackwater mountain 72 (bwm_grave_spawn) { #v-bwm_grave_spawn }
-
-**Entry ID:** `bwm_grave_spawn` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Demon |
-| HP | 45 |
-| XP when defeated | 91 |
-| Damage | 2 to 5 |
-| Attack chance | 110 |
-| Block chance | 35 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 20 to 29 |
-| [Polished gem](../items/gem3.md) | 10% | 1 |
-| [Minor vial of health](../items/health_minor.md) | 10% | 1 |
-| [Bone](../items/bone.md) | 10% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 72](../maps/blackwater_mountain72.md) | Blackwater Mountain | 3 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.14](../versions/0.7.14.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (bwm_grave_spawn)"
+??? info "Technical information: bwm_grave_spawn"
 
     | | |
     |---|---|
     | Entry ID | `bwm_grave_spawn` |
+    | Type (wiki) | Enemy |
     | Spawn group | `bwm_grave_spawn` |
     | Loot table | `restless_dead_1` |
     | Conversation | – |
@@ -224,16 +222,6 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
      "damageResistance": 3
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

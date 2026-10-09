@@ -4,33 +4,24 @@ description: "Liberated Elytharan ghost is a non-player character (NPC) in Andor
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Liberated Elytharan ghost
 
+**Where to find Liberated Elytharan ghost:** [Undertell 3 00](#v-elytharan_liberated_ghost), [Undertell 3 00](#v-elytharan_liberated_ghost2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_11.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [About a girl](../quests/about_a_girl.md) |
 | **Found in** | Undertell 3 00 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Liberated Elytharan ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
+## Undertell 3 00 { #v-elytharan_liberated_ghost }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`elytharan_liberated_ghost`](#v-elytharan_liberated_ghost) | NPC | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost) | starts [About a girl](../quests/about_a_girl.md) |
-| [`elytharan_liberated_ghost2`](#v-elytharan_liberated_ghost2) | Scenery | [Undertell 3 00](../maps/undertell_3_00.md) | – |
-
-## Undertell 3 00 (elytharan_liberated_ghost) { #v-elytharan_liberated_ghost }
-
-**Entry ID:** `elytharan_liberated_ghost` · **Type:** NPC · **Role:** Starts [About a girl](../quests/about_a_girl.md)
-
-**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost)
+**Where:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost) · **Role:** Starts [About a girl](../quests/about_a_girl.md)
 
 ### Quests
 
@@ -152,11 +143,40 @@ Set your quest stages and items, then talk to Liberated Elytharan ghost. Same ru
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (elytharan_liberated_ghost)"
+## Undertell 3 00 (2) { #v-elytharan_liberated_ghost2 }
+
+**Where:** [Undertell 3 00](../maps/undertell_3_00.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Liberated Elytharan ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `elytharan_liberated_ghost` | NPC | [Undertell 3 00](#v-elytharan_liberated_ghost) |
+| `elytharan_liberated_ghost2` | Scenery | [Undertell 3 00](#v-elytharan_liberated_ghost2) |
+
+- `elytharan_liberated_ghost2` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Undertell 3 00](../maps/undertell_3_00.md).
+
+??? info "Technical information: elytharan_liberated_ghost"
 
     | | |
     |---|---|
     | Entry ID | `elytharan_liberated_ghost` |
+    | Type (wiki) | NPC |
     | Spawn group | `elytharan_liberated_ghost` |
     | Loot table | – |
     | Conversation | `elytharan_liberated_ghost_selector` |
@@ -177,31 +197,12 @@ Set your quest stages and items, then talk to Liberated Elytharan ghost. Same ru
     }
     ```
 
-
-## Undertell 3 00 (elytharan_liberated_ghost2) { #v-elytharan_liberated_ghost2 }
-
-**Entry ID:** `elytharan_liberated_ghost2` · **Type:** Scenery
-
-**Location:** [Undertell 3 00](../maps/undertell_3_00.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (elytharan_liberated_ghost2)"
+??? info "Technical information: elytharan_liberated_ghost2"
 
     | | |
     |---|---|
     | Entry ID | `elytharan_liberated_ghost2` |
+    | Type (wiki) | Scenery |
     | Spawn group | `elytharan_liberated_ghost2` |
     | Loot table | – |
     | Conversation | – |
@@ -220,7 +221,6 @@ Set your quest stages and items, then talk to Liberated Elytharan ghost. Same ru
      "monsterClass": "ghost"
     }
     ```
-
 
 
 ## Community notes

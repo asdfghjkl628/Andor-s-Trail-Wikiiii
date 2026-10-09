@@ -12,19 +12,23 @@ description: "Leukosia is a non-player character (NPC) in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Lake Laeroth |
-| **Entry ID** | `sirene3` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `sirene3` |
+    | Type (wiki) | NPC |
     | Spawn group | `sirene3` |
     | Loot table | – |
     | Conversation | `sirene3` |

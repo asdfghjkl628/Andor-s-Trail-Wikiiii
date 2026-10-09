@@ -12,9 +12,8 @@ description: "Orange cat is a non-player character (NPC) in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Flagstone Prison |
-| **Entry ID** | `orange_cat` |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
@@ -45,11 +44,16 @@ Set your quest stages and items, then talk to Orange cat. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `orange_cat` |
+    | Type (wiki) | NPC |
     | Spawn group | `orange_cat` |
     | Loot table | – |
     | Conversation | `cat_dialog` |

@@ -1,5 +1,5 @@
 ---
-description: "Laerothcave 2 is an indoor location in Andor's Trail. Enemies: Tough cave scorpion, Cave jelly, Armored cave scorpion, Fierce cave scorpion, Aggressive cave scorpion. Exits to Laerothcave 1, Laerothcave 3."
+description: "Laerothcave 2 is an indoor location in Andor's Trail. Enemies: Cave jelly, Tough cave scorpion, Armored cave scorpion, Aggressive cave scorpion, Fierce cave scorpion. Exits to Laerothcave 1, Laerothcave 3."
 ---
 
 # Laerothcave 2
@@ -49,11 +49,11 @@ description: "Laerothcave 2 is an indoor location in Andor's Trail. Enemies: Tou
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 | 3–6 | 3 | shares spawn with Aggressive cave scorpion |
 | [Cave jelly](../monsters/cave_jelly.md) | 30 | 4–9 | 2 | – |
+| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 | 3–6 | 3 | shares spawn with Aggressive cave scorpion |
 | [Armored cave scorpion](../monsters/cave_scorpion_4.md) | 35 | 4–8 | 2 | shares spawn with Fierce cave scorpion |
-| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 35 | 5–10 | 2 | shares spawn with Armored cave scorpion |
 | [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 | 4–7 | 3 | shares spawn with Tough cave scorpion |
+| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 35 | 5–10 | 2 | shares spawn with Armored cave scorpion |
 | [Cave bat](../monsters/cavebat4.md) | 39 | 1–7 | 5 | shares spawn with Aggressive cave bat |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 | 1–7 | 5 | shares spawn with Cave bat |
 | [Basement spider](../monsters/laerothbasement_spider.md) | 90 | 6–14 | 3 | – |

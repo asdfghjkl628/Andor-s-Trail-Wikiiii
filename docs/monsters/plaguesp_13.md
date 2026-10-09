@@ -4,6 +4,8 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 
 # ![](../assets/icons/monsters/monsters_rltiles2_38.png){ .sprite } Plaguestrider master
 
+**Where to find Plaguestrider master:** [Waytolake 5](#v-plaguesp_13), [Waytolake 5](#v-plaguesp_cr)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_38.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 | **Class** | Undead |
 | **HP** | 65–365 |
 | **XP when defeated** | 311–921 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Plaguestrider master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics, loot or shop stock. Each entry has its own section below.
+## Waytolake 5 { #v-plaguesp_13 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`plaguesp_13`](#v-plaguesp_13) | Enemy | [Waytolake 5](../maps/waytolake5.md) | – | 65 |
-| [`plaguesp_cr`](#v-plaguesp_cr) | Enemy | [Waytolake 5](../maps/waytolake5.md) | – | 365 |
+**Where:** [Waytolake 5](../maps/waytolake5.md)
 
-## Waytolake 5 (plaguesp_13) { #v-plaguesp_13 }
+### Combat
 
-**Entry ID:** `plaguesp_13` · **Type:** Enemy
-
-**Location:** [Waytolake 5](../maps/waytolake5.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 65 |
 | XP when defeated | 311 |
 | Damage | 2 to 8 |
-| Attack chance | 85 |
-| Block chance | 175 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 120 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 43% |
+| AC | 85 |
+| BC | 175 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 43% (×3.0) |
 
-**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 7, 5 rounds, 70% chance); [Blistering skin](../conditions/blister.md) (magnitude 6, 5 rounds, 50% chance)
+**Its hits:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 7, 5 rounds, 70% chance); [Blistering skin](../conditions/blister.md) (magnitude 6, 5 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -84,11 +70,82 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (plaguesp_13)"
+## Waytolake 5 (2) { #v-plaguesp_cr }
+
+**Where:** [Waytolake 5](../maps/waytolake5.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 365 |
+| XP when defeated | 921 |
+| Damage | 2 to 8 |
+| AC | 85 |
+| BC | 175 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 51% (×3.0) |
+
+**Its hits:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 5 rounds, 70% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 5 rounds, 50% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waytolake 5](../maps/waytolake5.md) | – | 1 | – |
+
+### Quests that count defeats
+
+- A conversation with stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Blistering skin](../conditions/blister.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>On hit, condition on target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 5 rounds, 70% chance) → (magnitude 4, 5 rounds, 70% chance) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Plaguestrider master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `plaguesp_13` | Enemy | [Waytolake 5](#v-plaguesp_13) |
+| `plaguesp_cr` | Enemy | [Waytolake 5](#v-plaguesp_cr) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: plaguesp_13"
 
     | | |
     |---|---|
     | Entry ID | `plaguesp_13` |
+    | Type (wiki) | Enemy |
     | Spawn group | `plaguespider_6` |
     | Loot table | `plaguespider_b` |
     | Conversation | – |
@@ -139,69 +196,12 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
     }
     ```
 
-
-## Waytolake 5 (plaguesp_cr) { #v-plaguesp_cr }
-
-**Entry ID:** `plaguesp_cr` · **Type:** Enemy
-
-**Location:** [Waytolake 5](../maps/waytolake5.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 365 |
-| XP when defeated | 921 |
-| Damage | 2 to 8 |
-| Attack chance | 85 |
-| Block chance | 175 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 160 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 51% |
-
-**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 5 rounds, 70% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 5 rounds, 50% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytolake 5](../maps/waytolake5.md) | – | 1 | – |
-
-### Quests that count defeats
-
-- A conversation with stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) checks that this enemy has been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Blistering skin](../conditions/blister.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>On hit, condition on target: [Insect contagion](../conditions/contagion.md) (magnitude 4, 5 rounds, 70% chance) → (magnitude 4, 5 rounds, 70% chance) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (plaguesp_cr)"
+??? info "Technical information: plaguesp_cr"
 
     | | |
     |---|---|
     | Entry ID | `plaguesp_cr` |
+    | Type (wiki) | Enemy |
     | Spawn group | `plaguespider_cr` |
     | Loot table | `oegyth1` |
     | Conversation | – |
@@ -252,16 +252,6 @@ description: "Plaguestrider master is an enemy in Andor's Trail (undead) with 65
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

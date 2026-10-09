@@ -17,34 +17,28 @@ description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 7,573 |
-| **Entry ID** | `scylla_c1` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 180 |
 | XP when defeated | 7,573 |
 | Damage | 1 to 15 |
-| Attack chance | 500 |
-| Block chance | 5000 |
-| Damage resistance | 100 |
-| Max AP | 10 |
-| Attack cost | 2 AP |
-| Attacks per turn | 5 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 1.1 |
-| Critical hit chance | 9% |
+| AC | 500 |
+| BC | 5000 |
+| DR | 100 |
+| Attacks per turn | 5 (2 AP each, 10 AP) |
+| Crit chance | 9% (×1.1) |
 
-**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 5, 1 round)
+**Its hits:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 5, 1 round)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Locations
 
@@ -62,11 +56,24 @@ description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `scylla_c1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scylla_c` |
     | Loot table | – |
     | Conversation | – |
@@ -111,15 +118,6 @@ description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

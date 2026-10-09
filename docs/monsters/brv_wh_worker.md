@@ -4,33 +4,23 @@ description: "Warehouse worker is a non-player character (NPC) in Andor's Trail,
 
 # ![](../assets/icons/monsters/monsters_ld1_15.png){ .sprite } Warehouse worker
 
+**Where to find Warehouse worker:** [Brimhaven, Brimhaven warehouse](#v-brv_wh_worker), [Brimhaven, Brimhaven warehouse](#v-brv_wh_worker2), [Brimhaven, Brimhaven warehouse](#v-brv_wh_worker3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_15.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Warehouse worker. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Brimhaven, Brimhaven warehouse { #v-brv_wh_worker }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brv_wh_worker`](#v-brv_wh_worker) | NPC | Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker) | – |
-| [`brv_wh_worker2`](#v-brv_wh_worker2) | NPC | Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2) | – |
-| [`brv_wh_worker3`](#v-brv_wh_worker3) | NPC | Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3) | – |
-
-## Brimhaven, Brimhaven warehouse (brv_wh_worker) { #v-brv_wh_worker }
-
-**Entry ID:** `brv_wh_worker` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker)
+**Where:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker)
 
 ### Dialogue simulator
 
@@ -58,11 +48,73 @@ Set your quest stages and items, then talk to Warehouse worker. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_wh_worker)"
+## Brimhaven, Brimhaven warehouse (2) { #v-brv_wh_worker2 }
+
+**Where:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_wh_worker](#d-brv_wh_worker-brv_wh_worker).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven warehouse (3) { #v-brv_wh_worker3 }
+
+**Where:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_wh_worker](#d-brv_wh_worker-brv_wh_worker).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Warehouse worker. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_wh_worker` | NPC | [Brimhaven, Brimhaven warehouse](#v-brv_wh_worker) |
+| `brv_wh_worker2` | NPC | [Brimhaven, Brimhaven warehouse](#v-brv_wh_worker2) |
+| `brv_wh_worker3` | NPC | [Brimhaven, Brimhaven warehouse](#v-brv_wh_worker3) |
+
+??? info "Technical information: brv_wh_worker"
 
     | | |
     |---|---|
     | Entry ID | `brv_wh_worker` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_wh_worker` |
     | Loot table | – |
     | Conversation | `brv_wh_worker` |
@@ -85,38 +137,12 @@ Set your quest stages and items, then talk to Warehouse worker. Same rules as th
     }
     ```
 
-
-## Brimhaven, Brimhaven warehouse (brv_wh_worker2) { #v-brv_wh_worker2 }
-
-**Entry ID:** `brv_wh_worker2` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker2)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_wh_worker](#d-brv_wh_worker-brv_wh_worker).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_wh_worker2)"
+??? info "Technical information: brv_wh_worker2"
 
     | | |
     |---|---|
     | Entry ID | `brv_wh_worker2` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_wh_worker2` |
     | Loot table | – |
     | Conversation | `brv_wh_worker` |
@@ -139,38 +165,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven warehouse (brv_wh_worker3) { #v-brv_wh_worker3 }
-
-**Entry ID:** `brv_wh_worker3` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_worker3)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Warehouse worker. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_worker.json" data-npc="Warehouse worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_wh_worker](#d-brv_wh_worker-brv_wh_worker).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_wh_worker3)"
+??? info "Technical information: brv_wh_worker3"
 
     | | |
     |---|---|
     | Entry ID | `brv_wh_worker3` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_wh_worker3` |
     | Loot table | – |
     | Conversation | `brv_wh_worker` |
@@ -192,7 +192,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "brv_wh_worker"
     }
     ```
-
 
 
 ## Community notes

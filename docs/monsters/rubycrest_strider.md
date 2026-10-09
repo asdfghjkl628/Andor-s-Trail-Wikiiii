@@ -17,36 +17,30 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
 | **Class** | Animal |
 | **HP** | 293 |
 | **XP when defeated** | 1,065 |
-| **Entry ID** | `rubycrest_strider` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 293 |
 | XP when defeated | 1,065 |
 | Damage | 6 to 18 |
-| Attack chance | 175 |
-| Block chance | 280 |
-| Damage resistance | 10 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 12% |
+| AC | 175 |
+| BC | 280 |
+| DR | 10 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 12% (×2.0) |
 
-**On hit:** On target: [Head wound](../conditions/head_wound.md) (magnitude 1, 2 rounds, 20% chance)
+**Its hits:** On target: [Head wound](../conditions/head_wound.md) (magnitude 1, 2 rounds, 20% chance)
 
-**When hit:** On self: [Minor speed](../conditions/speed_minor.md) (magnitude 1, 1 round, 50% chance)
+**When you hit it:** On self: [Minor speed](../conditions/speed_minor.md) (magnitude 1, 1 round, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -78,11 +72,24 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `rubycrest_strider` |
+    | Type (wiki) | Enemy |
     | Spawn group | `rubycrest_strider` |
     | Loot table | `rubycrest_strider_dl` |
     | Conversation | – |
@@ -136,15 +143,6 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

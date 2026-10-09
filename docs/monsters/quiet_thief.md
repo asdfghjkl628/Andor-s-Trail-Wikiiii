@@ -4,35 +4,24 @@ description: "Pixtumn is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Pixtumn
 
+**Where to find Pixtumn:** [Brimhaven, Brimhaven inn east](#v-quiet_thief), [Brimhaven, Brimhaven inn east](#v-quiet_thief_1), [Brimhaven, Brimhaven inn east](#v-quiet_thief_2), [Brimhaven, Brimhaven inn east](#v-quiet_thief_3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rogue1_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Brimhaven |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Pixtumn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
+## Brimhaven, Brimhaven inn east { #v-quiet_thief }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`quiet_thief`](#v-quiet_thief) | NPC | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief) | shopkeeper |
-| [`quiet_thief_1`](#v-quiet_thief_1) | Scenery | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
-| [`quiet_thief_2`](#v-quiet_thief_2) | Scenery | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
-| [`quiet_thief_3`](#v-quiet_thief_3) | Scenery | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
-
-## Brimhaven, Brimhaven inn east (quiet_thief) { #v-quiet_thief }
-
-**Entry ID:** `quiet_thief` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief)
+**Where:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -147,11 +136,75 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (quiet_thief)"
+## Brimhaven, Brimhaven inn east (2) { #v-quiet_thief_1 }
+
+**Where:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.7.12](../versions/0.7.12.md) | Loot table changed<br>Renamed “Shady thief” → “Pixtumn” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven inn east (3) { #v-quiet_thief_2 }
+
+**Where:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven inn east (4) { #v-quiet_thief_3 }
+
+**Where:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Pixtumn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `quiet_thief` | NPC | [Brimhaven, Brimhaven inn east](#v-quiet_thief) |
+| `quiet_thief_1` | Scenery | [Brimhaven, Brimhaven inn east](#v-quiet_thief_1) |
+| `quiet_thief_2` | Scenery | [Brimhaven, Brimhaven inn east](#v-quiet_thief_2) |
+| `quiet_thief_3` | Scenery | [Brimhaven, Brimhaven inn east](#v-quiet_thief_3) |
+
+- `quiet_thief_1` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md).
+- `quiet_thief_2` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md).
+- `quiet_thief_3` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md).
+
+??? info "Technical information: quiet_thief"
 
     | | |
     |---|---|
     | Entry ID | `quiet_thief` |
+    | Type (wiki) | NPC |
     | Spawn group | `quiet_thief` |
     | Loot table | `quiet_thief` |
     | Conversation | `quiet_thief_0` |
@@ -175,32 +228,12 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
     }
     ```
 
-
-## Brimhaven, Brimhaven inn east (quiet_thief_1) { #v-quiet_thief_1 }
-
-**Entry ID:** `quiet_thief_1` · **Type:** Scenery
-
-**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added |
-| [v0.7.12](../versions/0.7.12.md) | Loot table changed<br>Renamed “Shady thief” → “Pixtumn” |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (quiet_thief_1)"
+??? info "Technical information: quiet_thief_1"
 
     | | |
     |---|---|
     | Entry ID | `quiet_thief_1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `quiet_thief_1` |
     | Loot table | `quiet_thief_1` |
     | Conversation | – |
@@ -223,32 +256,12 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
     }
     ```
 
-
-## Brimhaven, Brimhaven inn east (quiet_thief_2) { #v-quiet_thief_2 }
-
-**Entry ID:** `quiet_thief_2` · **Type:** Scenery
-
-**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added |
-| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn” |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (quiet_thief_2)"
+??? info "Technical information: quiet_thief_2"
 
     | | |
     |---|---|
     | Entry ID | `quiet_thief_2` |
+    | Type (wiki) | Scenery |
     | Spawn group | `quiet_thief_2` |
     | Loot table | `quiet_thief_2` |
     | Conversation | – |
@@ -271,32 +284,12 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
     }
     ```
 
-
-## Brimhaven, Brimhaven inn east (quiet_thief_3) { #v-quiet_thief_3 }
-
-**Entry ID:** `quiet_thief_3` · **Type:** Scenery
-
-**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added |
-| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn” |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (quiet_thief_3)"
+??? info "Technical information: quiet_thief_3"
 
     | | |
     |---|---|
     | Entry ID | `quiet_thief_3` |
+    | Type (wiki) | Scenery |
     | Spawn group | `quiet_thief_3` |
     | Loot table | `quiet_thief_3` |
     | Conversation | – |
@@ -318,7 +311,6 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
      "droplistID": "quiet_thief_3"
     }
     ```
-
 
 
 ## Community notes

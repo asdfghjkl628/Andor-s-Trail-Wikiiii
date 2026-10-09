@@ -4,33 +4,23 @@ description: "Godelieve is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_144.png){ .sprite } Godelieve
 
+**Where to find Godelieve:** [Wexlow Village, Wexlow village north-west house](#v-village_godelieve), [Gamjee well jail cells](#v-troll_hollow_godelieve), [Wexlow Village, Wexlow village](#v-village_godelieve_hidden)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_144.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Godelieve. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Wexlow Village, Wexlow village north-west house { #v-village_godelieve }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_godelieve`](#v-village_godelieve) | NPC | Wexlow Village: [Wexlow village north-west house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve) | – |
-| [`troll_hollow_godelieve`](#v-troll_hollow_godelieve) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
-| [`village_godelieve_hidden`](#v-village_godelieve_hidden) | Scenery | Wexlow Village: [Wexlow village](../maps/wexlow_village.md) | – |
-
-## Wexlow Village, Wexlow village north-west house (village_godelieve) { #v-village_godelieve }
-
-**Entry ID:** `village_godelieve` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village north-west house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve)
+**Where:** Wexlow Village: [Wexlow village north-west house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve)
 
 ### Quests
 
@@ -79,11 +69,56 @@ Set your quest stages and items, then talk to Godelieve. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_godelieve)"
+## Gamjee well jail cells { #v-troll_hollow_godelieve }
+
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Wexlow Village, Wexlow village { #v-village_godelieve_hidden }
+
+**Where:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Godelieve. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_godelieve` | NPC | [Wexlow Village, Wexlow village north-west house](#v-village_godelieve) |
+| `troll_hollow_godelieve` | Scenery | [Gamjee well jail cells](#v-troll_hollow_godelieve) |
+| `village_godelieve_hidden` | Scenery | [Wexlow Village, Wexlow village](#v-village_godelieve_hidden) |
+
+- `troll_hollow_godelieve` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).
+- `village_godelieve_hidden` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Wexlow Village: [Wexlow village](../maps/wexlow_village.md).
+
+??? info "Technical information: village_godelieve"
 
     | | |
     |---|---|
     | Entry ID | `village_godelieve` |
+    | Type (wiki) | NPC |
     | Spawn group | `village_godelieve` |
     | Loot table | – |
     | Conversation | `village_godelieve_selector` |
@@ -107,31 +142,12 @@ Set your quest stages and items, then talk to Godelieve. Same rules as the game:
     }
     ```
 
-
-## Gamjee well jail cells (troll_hollow_godelieve) { #v-troll_hollow_godelieve }
-
-**Entry ID:** `troll_hollow_godelieve` · **Type:** Scenery
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (troll_hollow_godelieve)"
+??? info "Technical information: troll_hollow_godelieve"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_godelieve` |
+    | Type (wiki) | Scenery |
     | Spawn group | `troll_hollow_godelieve` |
     | Loot table | – |
     | Conversation | – |
@@ -154,31 +170,12 @@ Set your quest stages and items, then talk to Godelieve. Same rules as the game:
     }
     ```
 
-
-## Wexlow Village, Wexlow village (village_godelieve_hidden) { #v-village_godelieve_hidden }
-
-**Entry ID:** `village_godelieve_hidden` · **Type:** Scenery
-
-**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (village_godelieve_hidden)"
+??? info "Technical information: village_godelieve_hidden"
 
     | | |
     |---|---|
     | Entry ID | `village_godelieve_hidden` |
+    | Type (wiki) | Scenery |
     | Spawn group | `village_godelieve_hidden` |
     | Loot table | – |
     | Conversation | – |
@@ -199,7 +196,6 @@ Set your quest stages and items, then talk to Godelieve. Same rules as the game:
      "movementAggressionType": "none"
     }
     ```
-
 
 
 ## Community notes

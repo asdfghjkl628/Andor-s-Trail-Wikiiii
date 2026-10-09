@@ -4,32 +4,23 @@ description: "Horse is a non-player character (NPC) in Andor's Trail, found in F
 
 # ![](../assets/icons/monsters/monsters_ld2_66.png){ .sprite } Horse
 
+**Where to find Horse:** [Flagstone Prison, Stoutford castle stable](#v-stn_horse), [Guynmart Castle, Guynmart and 2 more](#v-guynmart_horse)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_66.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Flagstone Prison, Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Horse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Flagstone Prison, Stoutford castle stable { #v-stn_horse }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`stn_horse`](#v-stn_horse) | NPC | Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse) | – |
-| [`guynmart_horse`](#v-guynmart_horse) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse) (+1 more) | – |
-
-## Flagstone Prison, Stoutford castle stable (stn_horse) { #v-stn_horse }
-
-**Entry ID:** `stn_horse` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse)
+**Where:** Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_horse)
 
 ### Quests
 
@@ -85,37 +76,9 @@ Set your quest stages and items, then talk to Horse. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_horse)"
+## Guynmart Castle, Guynmart and 2 more { #v-guynmart_horse }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_horse` |
-    | Spawn group | `stn_horse` |
-    | Loot table | – |
-    | Conversation | `stn_horse` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld2:66` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_horse",
-     "name": "Horse",
-     "iconID": "monsters_ld2:66",
-     "monsterClass": "animal",
-     "phraseID": "stn_horse"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart and 2 more (guynmart_horse) { #v-guynmart_horse }
-
-**Entry ID:** `guynmart_horse` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse), [Waytolake 11](../maps/waytolake11.md#pin-npc-guynmart_horse)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_horse), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_horse), [Waytolake 11](../maps/waytolake11.md#pin-npc-guynmart_horse)
 
 ### Locations
 
@@ -151,11 +114,50 @@ Set your quest stages and items, then talk to Horse. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_horse)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Horse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stn_horse` | NPC | [Flagstone Prison, Stoutford castle stable](#v-stn_horse) |
+| `guynmart_horse` | NPC | [Guynmart Castle, Guynmart and 2 more](#v-guynmart_horse) |
+
+??? info "Technical information: stn_horse"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_horse` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_horse` |
+    | Loot table | – |
+    | Conversation | `stn_horse` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld2:66` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_horse",
+     "name": "Horse",
+     "iconID": "monsters_ld2:66",
+     "monsterClass": "animal",
+     "phraseID": "stn_horse"
+    }
+    ```
+
+??? info "Technical information: guynmart_horse"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_horse` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_horse` |
     | Loot table | – |
     | Conversation | `guynmart_horse_10` |
@@ -175,7 +177,6 @@ Set your quest stages and items, then talk to Horse. Same rules as the game: sam
      "phraseID": "guynmart_horse_10"
     }
     ```
-
 
 
 ## Community notes

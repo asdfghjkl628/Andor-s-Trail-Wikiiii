@@ -4,32 +4,23 @@ description: "Theodora is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_186.png){ .sprite } Theodora
 
+**Where to find Theodora:** [Wexlow Village, Wexlow village](#v-village_theodora), [Gamjee well jail cells](#v-troll_hollow_theodora)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_186.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Theodora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Wexlow Village, Wexlow village { #v-village_theodora }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_theodora`](#v-village_theodora) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theodora) | – |
-| [`troll_hollow_theodora`](#v-troll_hollow_theodora) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
-
-## Wexlow Village, Wexlow village (village_theodora) { #v-village_theodora }
-
-**Entry ID:** `village_theodora` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theodora)
+**Where:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theodora)
 
 ### Dialogue simulator
 
@@ -93,11 +84,40 @@ Set your quest stages and items, then talk to Theodora. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_theodora)"
+## Gamjee well jail cells { #v-troll_hollow_theodora }
+
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Theodora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_theodora` | NPC | [Wexlow Village, Wexlow village](#v-village_theodora) |
+| `troll_hollow_theodora` | Scenery | [Gamjee well jail cells](#v-troll_hollow_theodora) |
+
+- `troll_hollow_theodora` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: village_theodora"
 
     | | |
     |---|---|
     | Entry ID | `village_theodora` |
+    | Type (wiki) | NPC |
     | Spawn group | `village_theodora` |
     | Loot table | – |
     | Conversation | `village_theodora_start` |
@@ -120,31 +140,12 @@ Set your quest stages and items, then talk to Theodora. Same rules as the game: 
     }
     ```
 
-
-## Gamjee well jail cells (troll_hollow_theodora) { #v-troll_hollow_theodora }
-
-**Entry ID:** `troll_hollow_theodora` · **Type:** Scenery
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (troll_hollow_theodora)"
+??? info "Technical information: troll_hollow_theodora"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_theodora` |
+    | Type (wiki) | Scenery |
     | Spawn group | `troll_hollow_theodora` |
     | Loot table | – |
     | Conversation | – |
@@ -166,7 +167,6 @@ Set your quest stages and items, then talk to Theodora. Same rules as the game: 
      "movementAggressionType": "wholeMap"
     }
     ```
-
 
 
 ## Community notes

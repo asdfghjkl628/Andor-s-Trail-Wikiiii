@@ -1,5 +1,5 @@
 ---
-description: "Lodar 21 is an outdoor location in Andor's Trail. NPCs: Especially sweet berries. Enemies: Puny venomscale, Young venomscale, Burrowing glow worm, Gray venomscale, Aggressive venomscale. Exits to Lodar 20, Lodar 19."
+description: "Lodar 21 is an outdoor location in Andor's Trail. NPCs: Especially sweet berries. Enemies: Puny venomscale, Young venomscale, Gray venomscale, Burrowing glow worm, Aggressive venomscale. Exits to Lodar 20, Lodar 19."
 ---
 
 # Lodar 21
@@ -56,8 +56,8 @@ description: "Lodar 21 is an outdoor location in Andor's Trail. NPCs: Especially
 |---|---|---|---|---|
 | [Puny venomscale](../monsters/vscale1.md) | 42 | 2–4 | 2 | shares spawn with Burrowing glow worm, Gray venomscale, Young venomscale |
 | [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 2 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 2 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
 | [Gray venomscale](../monsters/vscale3.md) | 48 | 3–6 | 2 | shares spawn with Burrowing glow worm, Puny venomscale, Young venomscale |
+| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 2 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
 | [Aggressive venomscale](../monsters/vscale4.md) | 52 | 4–6 | 2 | shares spawn with Quick venomscale |
 | [Quick venomscale](../monsters/vscale5.md) | 56 | 5–6 | 2 | shares spawn with Aggressive venomscale |
 | [Branchtender](../monsters/brtender1.md) | 57 | 5–8 | 1 | – |

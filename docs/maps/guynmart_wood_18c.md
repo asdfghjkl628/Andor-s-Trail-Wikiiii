@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 18c is an outdoor location in Andor's Trail. Enemies: Quick kobold, Kobold. Exits to Guynmart wood 18b."
+description: "Guynmart wood 18c is an outdoor location in Andor's Trail. Enemies: Kobold, Quick kobold. Exits to Guynmart wood 18b."
 ---
 
 # Guynmart wood 18c
@@ -47,8 +47,8 @@ description: "Guynmart wood 18c is an outdoor location in Andor's Trail. Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Quick kobold](../monsters/kobold1.md) | 70 | 1–10 | 1 | – |
 | [Kobold](../monsters/kobold2.md) | 70 | 1–10 | 1 | – |
+| [Quick kobold](../monsters/kobold1.md) | 70 | 1–10 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

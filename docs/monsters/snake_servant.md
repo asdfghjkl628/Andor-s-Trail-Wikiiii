@@ -17,32 +17,26 @@ description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, wo
 | **Class** | Undead |
 | **HP** | 35 |
 | **XP when defeated** | 52 |
-| **Entry ID** | `snake_servant` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 35 |
 | XP when defeated | 52 |
 | Damage | 2 to 3 |
-| Attack chance | 80 |
-| Block chance | 10 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 40 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 23% |
+| AC | 80 |
+| BC | 10 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -69,11 +63,24 @@ description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `snake_servant` |
+    | Type (wiki) | Enemy |
     | Spawn group | `cavesnake3` |
     | Loot table | `lich1` |
     | Conversation | – |
@@ -105,15 +112,6 @@ description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, wo
      "damageResistance": 1
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -17,32 +17,26 @@ description: "Lizard warrior is an enemy in Andor's Trail (reptile) with 250 HP,
 | **Class** | Reptile |
 | **HP** | 250 |
 | **XP when defeated** | 714 |
-| **Entry ID** | `brightport_lizard00` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 250 |
 | XP when defeated | 714 |
 | Damage | 13 to 22 |
-| Attack chance | 220 |
-| Block chance | 180 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 15 |
-| Critical multiplier | 1.5 |
-| Critical hit chance | 12% |
+| AC | 220 |
+| BC | 180 |
+| DR | 4 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 12% (×1.5) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -73,11 +67,24 @@ description: "Lizard warrior is an enemy in Andor's Trail (reptile) with 250 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_lizard00` |
+    | Type (wiki) | Enemy |
     | Spawn group | `brightport_lizard00` |
     | Loot table | `brightport_greenlizard` |
     | Conversation | – |
@@ -111,15 +118,6 @@ description: "Lizard warrior is an enemy in Andor's Trail (reptile) with 250 HP,
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

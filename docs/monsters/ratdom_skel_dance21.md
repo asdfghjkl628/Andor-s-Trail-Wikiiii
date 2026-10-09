@@ -4,6 +4,8 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 # ![](../assets/icons/monsters/monsters_tometik8_35.png){ .sprite } Angry skeleton
 
+**Where to find Angry skeleton:** [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance21), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance22), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance23), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance24), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance25), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance26), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance27)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_35.png){ .sprite }</p>
@@ -15,51 +17,30 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 | **Class** | Undead |
 | **HP** | 80 |
 | **XP when defeated** | 107–140 |
-| **Entries in game data** | 7 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "7 entries in the game data"
-    The game data defines 7 separate characters named Angry skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
+## Skeleton dance, Ratdom maze 543d { #v-ratdom_skel_dance21 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ratdom_skel_dance21`](#v-ratdom_skel_dance21) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance22`](#v-ratdom_skel_dance22) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance23`](#v-ratdom_skel_dance23) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance24`](#v-ratdom_skel_dance24) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance25`](#v-ratdom_skel_dance25) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance26`](#v-ratdom_skel_dance26) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance27`](#v-ratdom_skel_dance27) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance21) { #v-ratdom_skel_dance21 }
+### Combat
 
-**Entry ID:** `ratdom_skel_dance21` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 80 |
 | XP when defeated | 107 |
 | Damage | 10 to 20 |
-| Attack chance | 80 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 80 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -85,11 +66,275 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_skel_dance21)"
+## Skeleton dance, Ratdom maze 543d (2) { #v-ratdom_skel_dance22 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 80 |
+| XP when defeated | 107 |
+| Damage | 10 to 20 |
+| AC | 80 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 50% | 2 to 3 |
+| [Bone](../items/bone.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Loot table added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (3) { #v-ratdom_skel_dance23 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 80 |
+| XP when defeated | 107 |
+| Damage | 10 to 20 |
+| AC | 80 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 50% | 2 to 3 |
+| [Bone](../items/bone.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Loot table added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (4) { #v-ratdom_skel_dance24 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 80 |
+| XP when defeated | 107 |
+| Damage | 10 to 20 |
+| AC | 80 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (5) { #v-ratdom_skel_dance25 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 80 |
+| XP when defeated | 107 |
+| Damage | 10 to 20 |
+| AC | 80 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (6) { #v-ratdom_skel_dance26 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 80 |
+| XP when defeated | 140 |
+| Damage | 10 to 30 |
+| AC | 100 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (7) { #v-ratdom_skel_dance27 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 80 |
+| XP when defeated | 140 |
+| Damage | 10 to 30 |
+| AC | 100 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**7 entries.** The game data defines 7 separate characters named Angry skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: combat statistics, loot or shop stock, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_skel_dance21` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance21) |
+| `ratdom_skel_dance22` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance22) |
+| `ratdom_skel_dance23` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance23) |
+| `ratdom_skel_dance24` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance24) |
+| `ratdom_skel_dance25` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance25) |
+| `ratdom_skel_dance26` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance26) |
+| `ratdom_skel_dance27` | Enemy | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance27) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: ratdom_skel_dance21"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance21` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | `ratdom_skeleton_bone` |
     | Conversation | – |
@@ -120,64 +365,12 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance22) { #v-ratdom_skel_dance22 }
-
-**Entry ID:** `ratdom_skel_dance22` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 80 |
-| XP when defeated | 107 |
-| Damage | 10 to 20 |
-| Attack chance | 80 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 50% | 2 to 3 |
-| [Bone](../items/bone.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Loot table added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance22)"
+??? info "Technical information: ratdom_skel_dance22"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance22` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | `ratdom_skeleton_bone` |
     | Conversation | – |
@@ -208,64 +401,12 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance23) { #v-ratdom_skel_dance23 }
-
-**Entry ID:** `ratdom_skel_dance23` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 80 |
-| XP when defeated | 107 |
-| Damage | 10 to 20 |
-| Attack chance | 80 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 50% | 2 to 3 |
-| [Bone](../items/bone.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Loot table added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance23)"
+??? info "Technical information: ratdom_skel_dance23"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance23` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | `ratdom_skeleton_bone` |
     | Conversation | – |
@@ -296,56 +437,12 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance24) { #v-ratdom_skel_dance24 }
-
-**Entry ID:** `ratdom_skel_dance24` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 80 |
-| XP when defeated | 107 |
-| Damage | 10 to 20 |
-| Attack chance | 80 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance24)"
+??? info "Technical information: ratdom_skel_dance24"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance24` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | – |
     | Conversation | – |
@@ -375,56 +472,12 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance25) { #v-ratdom_skel_dance25 }
-
-**Entry ID:** `ratdom_skel_dance25` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 80 |
-| XP when defeated | 107 |
-| Damage | 10 to 20 |
-| Attack chance | 80 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance25)"
+??? info "Technical information: ratdom_skel_dance25"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance25` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | – |
     | Conversation | – |
@@ -454,56 +507,12 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance26) { #v-ratdom_skel_dance26 }
-
-**Entry ID:** `ratdom_skel_dance26` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 80 |
-| XP when defeated | 140 |
-| Damage | 10 to 30 |
-| Attack chance | 100 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance26)"
+??? info "Technical information: ratdom_skel_dance26"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance26` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | – |
     | Conversation | – |
@@ -533,56 +542,12 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance27) { #v-ratdom_skel_dance27 }
-
-**Entry ID:** `ratdom_skel_dance27` · **Type:** Enemy
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 80 |
-| XP when defeated | 140 |
-| Damage | 10 to 30 |
-| Attack chance | 100 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance27)"
+??? info "Technical information: ratdom_skel_dance27"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance27` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_skel_dance2_grp` |
     | Loot table | – |
     | Conversation | – |
@@ -611,16 +576,6 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
      "attackChance": 100
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

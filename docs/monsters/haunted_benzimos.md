@@ -17,40 +17,33 @@ description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 9
 | **Class** | Demon |
 | **HP** | 291 |
 | **XP when defeated** | 980 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `haunted_benzimos` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 291 |
 | XP when defeated | 980 |
 | Damage | 19 to 20 |
-| Attack chance | 219 |
-| Block chance | 198 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 219 |
+| BC | 198 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Fear](../conditions/fear.md) (magnitude 3, 3 rounds, 50% chance); [Death Plague](../conditions/death_plague.md) (magnitude 2, 3 rounds, 15% chance)
+**Its hits:** On target: [Fear](../conditions/fear.md) (magnitude 3, 3 rounds, 50% chance); [Death Plague](../conditions/death_plague.md) (magnitude 2, 3 rounds, 15% chance)
 
-**When hit:** On self: [Regeneration](../conditions/regen2.md) (magnitude 7, 1 round)
+**When you hit it:** On self: [Regeneration](../conditions/regen2.md) (magnitude 7, 1 round)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -81,11 +74,24 @@ description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 9
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `haunted_benzimos` |
+    | Type (wiki) | Enemy |
     | Spawn group | `haunted_benzimos` |
     | Loot table | `benzimos_dl` |
     | Conversation | – |
@@ -144,15 +150,6 @@ description: "Benzimos is an enemy in Andor's Trail (demon) with 291 HP, worth 9
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

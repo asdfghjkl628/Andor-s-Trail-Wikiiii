@@ -1,8 +1,10 @@
 ---
-description: "Gruil is an NPC who can also be fought in Andor's Trail. Shopkeeper."
+description: "Gruil is an NPC you can also fight in Andor's Trail. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Gruil
+
+**Where to find Gruil:** [Appears during a quest or event](#v-gruil), [Appears during a quest or event](#v-ratdom_gruil)
 
 <div class="infobox" markdown>
 
@@ -10,29 +12,18 @@ description: "Gruil is an NPC who can also be fought in Andor's Trail. Shopkeepe
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Shopkeeper |
 | **Class** | Humanoid |
 | **HP** | 160 |
 | **XP when defeated** | 112 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Gruil. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. Each entry has its own section below.
+## Appears during a quest or event { #v-gruil }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`gruil`](#v-gruil) | NPC | Not on a map | shopkeeper | – |
-| [`ratdom_gruil`](#v-ratdom_gruil) | Enemy | Not on a map | – | 160 |
-
-## Not placed on a map (gruil) { #v-gruil }
-
-**Entry ID:** `gruil` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -109,11 +100,69 @@ Set your quest stages and items, then talk to Gruil. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (gruil)"
+## Appears during a quest or event (2) { #v-ratdom_gruil }
+
+**Where:** appears during a quest or scripted event.
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 160 |
+| XP when defeated | 112 |
+| Damage | 2 to 5 |
+| AC | 0 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Glass gem](../items/gem1.md) | 50% | 1 |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Gruil. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `gruil` | NPC | [Appears during a quest or event](#v-gruil) |
+| `ratdom_gruil` | Enemy | [Appears during a quest or event](#v-ratdom_gruil) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: gruil"
 
     | | |
     |---|---|
     | Entry ID | `gruil` |
+    | Type (wiki) | NPC |
     | Spawn group | `gruil` |
     | Loot table | `shop_gruil` |
     | Conversation | `gruil1` |
@@ -136,56 +185,12 @@ Set your quest stages and items, then talk to Gruil. Same rules as the game: sam
     }
     ```
 
-
-## Not placed on a map (ratdom_gruil) { #v-ratdom_gruil }
-
-**Entry ID:** `ratdom_gruil` · **Type:** Enemy
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 160 |
-| XP when defeated | 112 |
-| Damage | 2 to 5 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Glass gem](../items/gem1.md) | 50% | 1 |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_gruil)"
+??? info "Technical information: ratdom_gruil"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_gruil` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_gruil` |
     | Loot table | `drop_ratdom_gruil` |
     | Conversation | – |
@@ -214,16 +219,6 @@ Set your quest stages and items, then talk to Gruil. Same rules as the game: sam
      "droplistID": "drop_ratdom_gruil"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

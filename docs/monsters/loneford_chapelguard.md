@@ -4,32 +4,23 @@ description: "Chapel guard is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_rltiles1_78.png){ .sprite } Chapel guard
 
+**Where to find Chapel guard:** [Loneford, Loneford 4](#v-loneford_chapelguard), [Sullengard, Sullengard church](#v-sullengard_church_guard)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_78.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Loneford, Sullengard |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Chapel guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Loneford, Loneford 4 { #v-loneford_chapelguard }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`loneford_chapelguard`](#v-loneford_chapelguard) | NPC | Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-loneford_chapelguard) | – |
-| [`sullengard_church_guard`](#v-sullengard_church_guard) | NPC | Sullengard: [Sullengard church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard) | – |
-
-## Loneford, Loneford 4 (loneford_chapelguard) { #v-loneford_chapelguard }
-
-**Entry ID:** `loneford_chapelguard` · **Type:** NPC
-
-**Location:** Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-loneford_chapelguard)
+**Where:** Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-loneford_chapelguard)
 
 ### Dialogue simulator
 
@@ -57,38 +48,9 @@ Set your quest stages and items, then talk to Chapel guard. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_chapelguard)"
+## Sullengard, Sullengard church { #v-sullengard_church_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_chapelguard` |
-    | Spawn group | `loneford_chapelguard` |
-    | Loot table | – |
-    | Conversation | `loneford_chapelguard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:78` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_chapelguard",
-     "name": "Chapel guard",
-     "iconID": "monsters_rltiles1:78",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_chapelguard",
-     "phraseID": "loneford_chapelguard"
-    }
-    ```
-
-
-## Sullengard, Sullengard church (sullengard_church_guard) { #v-sullengard_church_guard }
-
-**Entry ID:** `sullengard_church_guard` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard)
+**Where:** Sullengard: [Sullengard church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard)
 
 ### Dialogue simulator
 
@@ -118,11 +80,51 @@ Set your quest stages and items, then talk to Chapel guard. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sullengard_church_guard)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Chapel guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `loneford_chapelguard` | NPC | [Loneford, Loneford 4](#v-loneford_chapelguard) |
+| `sullengard_church_guard` | NPC | [Sullengard, Sullengard church](#v-sullengard_church_guard) |
+
+??? info "Technical information: loneford_chapelguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_chapelguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_chapelguard` |
+    | Loot table | – |
+    | Conversation | `loneford_chapelguard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:78` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_chapelguard",
+     "name": "Chapel guard",
+     "iconID": "monsters_rltiles1:78",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_chapelguard",
+     "phraseID": "loneford_chapelguard"
+    }
+    ```
+
+??? info "Technical information: sullengard_church_guard"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_church_guard` |
+    | Type (wiki) | NPC |
     | Spawn group | `sullengard_church_guard` |
     | Loot table | – |
     | Conversation | `sullengard_church_guard` |
@@ -141,7 +143,6 @@ Set your quest stages and items, then talk to Chapel guard. Same rules as the ga
      "phraseID": "sullengard_church_guard"
     }
     ```
-
 
 
 ## Community notes

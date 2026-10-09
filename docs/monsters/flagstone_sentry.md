@@ -12,9 +12,8 @@ description: "Flagstone sentry is a non-player character (NPC) in Andor's Trail,
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Flagstone Prison |
-| **Entry ID** | `flagstone_sentry` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -142,16 +141,21 @@ Set your quest stages and items, then talk to Flagstone sentry. Same rules as th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Renamed “Flagstone Sentry” → “Flagstone sentry”<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Flagstone used to be a prison camp for runaway workers from when Moun…” → “Flagstone Prison was built a few hundred years ago by house Gorland o…”<br>· text: “Flagstone has been overrun by undead, and I'm standing guard here to …” → “Flagstone has been overrun by undead, and we are standing guard here …” |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Flagstone Sentry” → “Flagstone sentry”<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Are you really sure you want to head in there? Well, ok, fine by me.” → “Are you really sure you want to head in there? Well, OK, fine by me.”<br>· text: “Have you found the former warden of Flagstone? The warden used to hav…” → “You should look for the former warden. Maybe he has something to do w…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `flagstone_sentry` |
+    | Type (wiki) | NPC |
     | Spawn group | `flagstone_sentry` |
     | Loot table | – |
     | Conversation | `flagstone_sentry` |

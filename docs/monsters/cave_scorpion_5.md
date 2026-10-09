@@ -17,34 +17,28 @@ description: "Fierce cave scorpion is an enemy in Andor's Trail (insect) with 35
 | **Class** | Insect |
 | **HP** | 35 |
 | **XP when defeated** | 180 |
-| **Entry ID** | `cave_scorpion_5` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 35 |
 | XP when defeated | 180 |
 | Damage | 5 to 10 |
-| Attack chance | 130 |
-| Block chance | 100 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 130 |
+| BC | 100 |
+| DR | 3 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 2, 3 rounds, 25% chance)
+**Its hits:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 2, 3 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -71,11 +65,24 @@ description: "Fierce cave scorpion is an enemy in Andor's Trail (insect) with 35
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `cave_scorpion_5` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scorpion_3` |
     | Loot table | `cave_scorpion` |
     | Conversation | – |
@@ -118,15 +125,6 @@ description: "Fierce cave scorpion is an enemy in Andor's Trail (insect) with 35
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

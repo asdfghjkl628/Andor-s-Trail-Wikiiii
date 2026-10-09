@@ -4,32 +4,23 @@ description: "Theobald is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_121.png){ .sprite } Theobald
 
+**Where to find Theobald:** [Wexlow Village, Wexlow village](#v-village_theobald), [Gamjee well jail cells](#v-troll_hollow_theobald)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_121.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Theobald. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Wexlow Village, Wexlow village { #v-village_theobald }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_theobald`](#v-village_theobald) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theobald) | – |
-| [`troll_hollow_theobald`](#v-troll_hollow_theobald) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
-
-## Wexlow Village, Wexlow village (village_theobald) { #v-village_theobald }
-
-**Entry ID:** `village_theobald` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theobald)
+**Where:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theobald)
 
 ### Dialogue simulator
 
@@ -86,11 +77,40 @@ Set your quest stages and items, then talk to Theobald. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_theobald)"
+## Gamjee well jail cells { #v-troll_hollow_theobald }
+
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Theobald. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_theobald` | NPC | [Wexlow Village, Wexlow village](#v-village_theobald) |
+| `troll_hollow_theobald` | Scenery | [Gamjee well jail cells](#v-troll_hollow_theobald) |
+
+- `troll_hollow_theobald` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).
+
+??? info "Technical information: village_theobald"
 
     | | |
     |---|---|
     | Entry ID | `village_theobald` |
+    | Type (wiki) | NPC |
     | Spawn group | `village_theobald` |
     | Loot table | – |
     | Conversation | `village_theobald_start` |
@@ -113,31 +133,12 @@ Set your quest stages and items, then talk to Theobald. Same rules as the game: 
     }
     ```
 
-
-## Gamjee well jail cells (troll_hollow_theobald) { #v-troll_hollow_theobald }
-
-**Entry ID:** `troll_hollow_theobald` · **Type:** Scenery
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (troll_hollow_theobald)"
+??? info "Technical information: troll_hollow_theobald"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_theobald` |
+    | Type (wiki) | Scenery |
     | Spawn group | `troll_hollow_theobald` |
     | Loot table | – |
     | Conversation | – |
@@ -159,7 +160,6 @@ Set your quest stages and items, then talk to Theobald. Same rules as the game: 
      "movementAggressionType": "none"
     }
     ```
-
 
 
 ## Community notes

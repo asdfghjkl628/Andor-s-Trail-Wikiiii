@@ -17,34 +17,28 @@ description: "Kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 2
 | **Class** | Humanoid |
 | **HP** | 70 |
 | **XP when defeated** | 299 |
-| **Entry ID** | `kobold2` |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 70 |
 | XP when defeated | 299 |
 | Damage | 1 to 10 |
-| Attack chance | 140 |
-| Block chance | 80 |
-| Damage resistance | 10 |
-| Max AP | 10 |
-| Attack cost | 2 AP |
-| Attacks per turn | 5 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 140 |
+| BC | 80 |
+| DR | 10 |
+| Attacks per turn | 5 (2 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
-**On hit:** On target: [Confusion](../conditions/confusion.md) (magnitude 1, 3 rounds, 5% chance); [Confusion](../conditions/confusion.md) (magnitude 1, 6 rounds, 1% chance)
+**Its hits:** On target: [Confusion](../conditions/confusion.md) (magnitude 1, 3 rounds, 5% chance); [Confusion](../conditions/confusion.md) (magnitude 1, 6 rounds, 1% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -70,11 +64,24 @@ description: "Kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 2
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `kobold2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `kobold2` |
     | Loot table | `kobold` |
     | Conversation | – |
@@ -124,15 +131,6 @@ description: "Kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 2
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -12,10 +12,9 @@ description: "Tharwyn is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [Trusting an outsider](../quests/vilegard.md) |
 | **Found in** | Vilegard |
-| **Entry ID** | `tharwyn` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -120,16 +119,21 @@ Set your quest stages and items, then talk to Tharwyn. Same rules as the game: s
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.”<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Wow! This is my lucky day. I just found out today that my daughter ne…” → “Wow! This is my lucky day. I just found out today that my daughter ne…”<br>· text: “That will be 5000 gold please.” → “That will be {5000} gold please.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `tharwyn` |
+    | Type (wiki) | NPC |
     | Spawn group | `tharwyn` |
     | Loot table | `shop_tharwyn` |
     | Conversation | `tharwyn_select` |

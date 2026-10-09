@@ -4,32 +4,23 @@ description: "Lovis is a non-player character (NPC) in Andor's Trail, found in G
 
 # ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } Lovis
 
+**Where to find Lovis:** [Guynmart Castle, Guynmart tower 0](#v-guynmart_lovis), [Guynmart Castle, Guynmart main 0 and 2 more](#v-guynmart_lovis2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_2.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Lovis. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Guynmart Castle, Guynmart tower 0 { #v-guynmart_lovis }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_lovis`](#v-guynmart_lovis) | NPC | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis) | – |
-| [`guynmart_lovis2`](#v-guynmart_lovis2) | NPC | Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2) (+1 more) | – |
-
-## Guynmart Castle, Guynmart tower 0 (guynmart_lovis) { #v-guynmart_lovis }
-
-**Entry ID:** `guynmart_lovis` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis)
+**Where:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis)
 
 ### Quests
 
@@ -121,38 +112,9 @@ Set your quest stages and items, then talk to Lovis. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_lovis)"
+## Guynmart Castle, Guynmart main 0 and 2 more { #v-guynmart_lovis2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_lovis` |
-    | Spawn group | `guynmart_lovis` |
-    | Loot table | – |
-    | Conversation | `guynmart_lovis_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:2` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_lovis",
-     "name": "Lovis",
-     "iconID": "monsters_karvis2:2",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_lovis_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 0 and 2 more (guynmart_lovis2) { #v-guynmart_lovis2 }
-
-**Entry ID:** `guynmart_lovis2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_lovis2)
+**Where:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_lovis2)
 
 ### Locations
 
@@ -453,16 +415,56 @@ Set your quest stages and items, then talk to Lovis. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 58 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1000 gold for 10 or perhaps even more killed sheep.” → “{1000} gold for 10 or perhaps even more killed sheep.”<br>· text: “2500 gold for 25 or perhaps even more killed sheep.” → “{2500} gold for 25 or perhaps even more killed sheep.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1500 gold for 15 or perhaps even more killed sheep.” → “{1500} gold for 15 or perhaps even more killed sheep.”<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_lovis2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Lovis. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_lovis` | NPC | [Guynmart Castle, Guynmart tower 0](#v-guynmart_lovis) |
+| `guynmart_lovis2` | NPC | [Guynmart Castle, Guynmart main 0 and 2 more](#v-guynmart_lovis2) |
+
+??? info "Technical information: guynmart_lovis"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_lovis` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_lovis` |
+    | Loot table | – |
+    | Conversation | `guynmart_lovis_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:2` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_lovis",
+     "name": "Lovis",
+     "iconID": "monsters_karvis2:2",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_lovis_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_lovis2"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_lovis2` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_lovis2` |
     | Loot table | – |
     | Conversation | `guynmart_lovis2_10` |
@@ -483,7 +485,6 @@ Set your quest stages and items, then talk to Lovis. Same rules as the game: sam
      "phraseID": "guynmart_lovis2_10"
     }
     ```
-
 
 
 ## Community notes

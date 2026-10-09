@@ -17,34 +17,28 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
 | **Class** | Giant |
 | **HP** | 165 |
 | **XP when defeated** | 362 |
-| **Entry ID** | `gornaud_boss` |
 | **Introduced** | [v0.8.10](../versions/0.8.10.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 165 |
 | XP when defeated | 362 |
 | Damage | 10 to 30 |
-| Attack chance | 100 |
-| Block chance | 70 |
-| Damage resistance | 5 |
-| Max AP | 12 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 100 |
+| BC | 70 |
+| DR | 5 |
+| Attacks per turn | 2 (5 AP each, 12 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Dazed](../conditions/dazed.md) (magnitude 3, 3 rounds, 50% chance)
+**Its hits:** On target: [Dazed](../conditions/dazed.md) (magnitude 3, 3 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -71,11 +65,24 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `gornaud_boss` |
+    | Type (wiki) | Enemy |
     | Spawn group | `gornaud_boss` |
     | Loot table | `gornaud_boss` |
     | Conversation | – |
@@ -118,15 +125,6 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Roadbeforecrossroads 2 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Feygard soldier. Enemies: Forest serpent, Wild fox, Wolf, Anklebiter, Young forest fox. Exits to Roadbeforecrossroads 1, Roadbeforecrossroads 3, Fallhaven north-east, Woodsettlement 0."
+description: "Roadbeforecrossroads 2 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Feygard soldier. Enemies: Forest serpent, Wild fox, Wolf, Young forest fox, Anklebiter. Exits to Roadbeforecrossroads 1, Roadbeforecrossroads 3, Fallhaven north-east, Woodsettlement 0."
 ---
 
 # Roadbeforecrossroads 2
@@ -66,8 +66,8 @@ South: Nor City”">6</a><a class="pin pin-script" href="#key-7" style="left:81.
 | [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Wild fox](../monsters/wild_fox.md) | 25 | 4–5 | 8 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 6 | – |
-| [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 2 | – |
 | [Young forest fox](../monsters/forestfox2.md) | 31 | 0–5 | 3 | shares spawn with Forest fox |
+| [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 2 | – |
 | [Forest fox](../monsters/forestfox3.md) | 35 | 0–5 | 3 | shares spawn with Young forest fox |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

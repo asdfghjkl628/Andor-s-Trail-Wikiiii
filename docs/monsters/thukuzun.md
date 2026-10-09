@@ -1,5 +1,5 @@
 ---
-description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found in Lostmine 11."
+description: "Thukuzun is an NPC you can also fight in Andor's Trail, found in Lostmine 11."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_123.png){ .sprite } Thukuzun
@@ -12,42 +12,36 @@ description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Lostmine 11 |
 | **Class** | Undead |
 | **HP** | 193 |
 | **XP when defeated** | 564 |
-| **Entry ID** | `thukuzun` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Thukuzun"
+    Answering “I'll defeat you, foul beast!” starts a fight with Thukuzun.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 193 |
 | XP when defeated | 564 |
 | Damage | 6 to 25 |
-| Attack chance | 136 |
-| Block chance | 140 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 136 |
+| BC | 140 |
+| DR | 9 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 3, 7 rounds, 30% chance)
+**Its hits:** On target: [Ablaze](../conditions/fire.md) (magnitude 3, 7 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -58,12 +52,6 @@ description: "Thukuzun is an NPC who can also be fought in Andor's Trail, found 
 | [Gold coins](../items/gold.md) | 100% | 200 to 500 |
 | [Glass gem](../items/gem1.md) | 100% | 1 to 3 |
 | [Bone](../items/bone.md) | 100% | 2 to 8 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Lostmine 11](../maps/lostmine11.md) | – | 1 | – |
 
 ## Quests
 
@@ -103,11 +91,24 @@ Set your quest stages and items, then talk to Thukuzun. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `thukuzun` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `thukuzun` |
     | Loot table | `thukuzun` |
     | Conversation | `thukuzun` |
@@ -149,15 +150,6 @@ Set your quest stages and items, then talk to Thukuzun. Same rules as the game: 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

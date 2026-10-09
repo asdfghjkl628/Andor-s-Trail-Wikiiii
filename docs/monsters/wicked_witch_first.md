@@ -1,8 +1,10 @@
 ---
-description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found in Witch house."
+description: "Bonicksa is an NPC you can also fight in Andor's Trail, found in Witch house."
 ---
 
 # ![](../assets/icons/monsters/monsters_phoenix01_8.png){ .sprite } Bonicksa
+
+**Where to find Bonicksa:** [Witch house](#v-wicked_witch_first), [Witch house](#v-wicked_witch_second), [Witch house](#v-wicked_witch_third)
 
 <div class="infobox" markdown>
 
@@ -10,69 +12,46 @@ description: "Bonicksa is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Witch house |
 | **Class** | Humanoid |
 | **HP** | 229–277 |
 | **XP when defeated** | 619–768 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Bonicksa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
+## Witch house { #v-wicked_witch_first }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`wicked_witch_first`](#v-wicked_witch_first) | NPC/Enemy | [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_first) | – | 229 |
-| [`wicked_witch_second`](#v-wicked_witch_second) | NPC/Enemy | [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_second) | – | 277 |
-| [`wicked_witch_third`](#v-wicked_witch_third) | NPC | [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_third) | – | – |
+**Where:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_first)
 
-## Witch house (wicked_witch_first) { #v-wicked_witch_first }
+!!! warning "You can fight Bonicksa"
+    Answering “I won't hesitate! Take this!” starts a fight with Bonicksa.
 
-**Entry ID:** `wicked_witch_first` · **Type:** NPC/Enemy
+### Combat
 
-**Location:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_first)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 229 |
 | XP when defeated | 619 |
 | Damage | 13 to 15 |
-| Attack chance | 187 |
-| Block chance | 152 |
-| Damage resistance | 0 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 187 |
+| BC | 152 |
+| DR | 0 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 25% chance)
+**Its hits:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Music box](../items/music_box.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Witch house](../maps/witch_house.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -135,87 +114,31 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (wicked_witch_first)"
+## Witch house (2) { #v-wicked_witch_second }
 
-    | | |
-    |---|---|
-    | Entry ID | `wicked_witch_first` |
-    | Spawn group | `wicked_witch_first` |
-    | Loot table | `wicked_witch_first_dl` |
-    | Conversation | `wicked_witch_first_selector` |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_phoenix01:8` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+**Where:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_second)
 
-    Raw data:
+!!! warning "You can fight Bonicksa"
+    Answering “You're the one that will pay!” starts a fight with Bonicksa.
 
-    ```json
-    {
-     "id": "wicked_witch_first",
-     "name": "Bonicksa",
-     "iconID": "monsters_phoenix01:8",
-     "maxHP": 229,
-     "maxAP": 12,
-     "moveCost": 3,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 13,
-      "max": 15
-     },
-     "phraseID": "wicked_witch_first_selector",
-     "droplistID": "wicked_witch_first_dl",
-     "attackCost": 4,
-     "attackChance": 187,
-     "blockChance": 152,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "rootsnare",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "25"
-       }
-      ]
-     }
-    }
-    ```
+### Combat
 
-
-## Witch house (wicked_witch_second) { #v-wicked_witch_second }
-
-**Entry ID:** `wicked_witch_second` · **Type:** NPC/Enemy
-
-**Location:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_second)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 277 |
 | XP when defeated | 768 |
 | Damage | 14 to 17 |
-| Attack chance | 207 |
-| Block chance | 166 |
-| Damage resistance | 0 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 207 |
+| BC | 166 |
+| DR | 0 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 30% chance)
+**Its hits:** On target: [Rootsnare](../conditions/rootsnare.md) (magnitude 1, 3 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -224,12 +147,6 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
 | [Crystal ball](../items/crystal_ball.md) | 100% | 1 |
 | [Rat tail](../items/rat_tail.md) | 100% | 7 to 12 |
 | [Witch's candle](../items/witch_candle.md) | 100% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Witch house](../maps/witch_house.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
@@ -278,60 +195,9 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (wicked_witch_second)"
+## Witch house (3) { #v-wicked_witch_third }
 
-    | | |
-    |---|---|
-    | Entry ID | `wicked_witch_second` |
-    | Spawn group | `wicked_witch_second` |
-    | Loot table | `wicked_witch_second_dl` |
-    | Conversation | `wicked_witch_second_selector` |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_phoenix01:9` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "wicked_witch_second",
-     "name": "Bonicksa",
-     "iconID": "monsters_phoenix01:9",
-     "maxHP": 277,
-     "maxAP": 12,
-     "moveCost": 3,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 14,
-      "max": 17
-     },
-     "phraseID": "wicked_witch_second_selector",
-     "droplistID": "wicked_witch_second_dl",
-     "attackCost": 4,
-     "attackChance": 207,
-     "blockChance": 166,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "rootsnare",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "30"
-       }
-      ]
-     }
-    }
-    ```
-
-
-## Witch house (wicked_witch_third) { #v-wicked_witch_third }
-
-**Entry ID:** `wicked_witch_third` · **Type:** NPC
-
-**Location:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_third)
+**Where:** [Witch house](../maps/witch_house.md#pin-npc-wicked_witch_third)
 
 ### Quests
 
@@ -380,11 +246,131 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (wicked_witch_third)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Bonicksa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `wicked_witch_first` | NPC/Enemy | [Witch house](#v-wicked_witch_first) |
+| `wicked_witch_second` | NPC/Enemy | [Witch house](#v-wicked_witch_second) |
+| `wicked_witch_third` | NPC | [Witch house](#v-wicked_witch_third) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: wicked_witch_first"
+
+    | | |
+    |---|---|
+    | Entry ID | `wicked_witch_first` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `wicked_witch_first` |
+    | Loot table | `wicked_witch_first_dl` |
+    | Conversation | `wicked_witch_first_selector` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_phoenix01:8` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "wicked_witch_first",
+     "name": "Bonicksa",
+     "iconID": "monsters_phoenix01:8",
+     "maxHP": 229,
+     "maxAP": 12,
+     "moveCost": 3,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 13,
+      "max": 15
+     },
+     "phraseID": "wicked_witch_first_selector",
+     "droplistID": "wicked_witch_first_dl",
+     "attackCost": 4,
+     "attackChance": 187,
+     "blockChance": 152,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "rootsnare",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "25"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: wicked_witch_second"
+
+    | | |
+    |---|---|
+    | Entry ID | `wicked_witch_second` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `wicked_witch_second` |
+    | Loot table | `wicked_witch_second_dl` |
+    | Conversation | `wicked_witch_second_selector` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_phoenix01:9` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "wicked_witch_second",
+     "name": "Bonicksa",
+     "iconID": "monsters_phoenix01:9",
+     "maxHP": 277,
+     "maxAP": 12,
+     "moveCost": 3,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 14,
+      "max": 17
+     },
+     "phraseID": "wicked_witch_second_selector",
+     "droplistID": "wicked_witch_second_dl",
+     "attackCost": 4,
+     "attackChance": 207,
+     "blockChance": 166,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "rootsnare",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "30"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: wicked_witch_third"
 
     | | |
     |---|---|
     | Entry ID | `wicked_witch_third` |
+    | Type (wiki) | NPC |
     | Spawn group | `wicked_witch_third` |
     | Loot table | – |
     | Conversation | `wicked_witch_third_selector` |
@@ -405,16 +391,6 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
      "phraseID": "wicked_witch_third_selector"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

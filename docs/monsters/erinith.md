@@ -12,10 +12,9 @@ description: "Erinith is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Deep wound](../quests/erinith.md) |
 | **Found in** | Crossroads Guardhouse |
-| **Entry ID** | `erinith` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -178,18 +177,23 @@ Set your quest stages and items, then talk to Erinith. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “I managed to throw the book in among the trees over there during the …” → “I managed to throw the book in among the trees over there during the …”<br>· text: “Hm, yes. I guess you have a point. Oh well, here goes. *drinks potion*” → “Hmm, yes. I guess you have a point. Oh well, here goes. [Drinks potio…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Hm, yes. I guess you have a point. Oh well, here goes. *drinks potion*” → “Hmm, yes. I guess you have a point. Oh well, here goes. [Drinks potio…”<br>· text: “Thank you for bringing them to me. *drinks all four potions*” → “Thank you for bringing them to me. [Drinks all four potions]” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
 | [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I have heard that the potion makers these days have potions of major …” → “I have heard that the potion makers these days have major potions of …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `erinith` |
+    | Type (wiki) | NPC |
     | Spawn group | `erinith` |
     | Loot table | – |
     | Conversation | `erinith` |

@@ -4,6 +4,8 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 
 # ![](../assets/icons/monsters/monsters_omi2_19.png){ .sprite } Prim guard skeleton
 
+**Where to find Prim guard skeleton:** [Elm 5f 1 and 4 more](#v-elm_miner4), [Elm 5f 2](#v-elm_miner4a)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_19.png){ .sprite }</p>
@@ -15,50 +17,34 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 | **Class** | Undead |
 | **HP** | 104–364 |
 | **XP when defeated** | 399–894 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Prim guard skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Elm 5f 1 and 4 more { #v-elm_miner4 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`elm_miner4`](#v-elm_miner4) | Enemy | [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md) (+3 more) | – | 104 |
-| [`elm_miner4a`](#v-elm_miner4a) | Enemy | [Elm 5f 2](../maps/elm5f_2.md) | – | 364 |
+**Where:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md), [Elm 4f 1](../maps/elm_4f_1.md), [Elm 4f 3](../maps/elm_4f_3.md), [Elm 4f 4](../maps/elm_4f_4.md)
 
-## Elm 5f 1 and 4 more (elm_miner4) { #v-elm_miner4 }
+### Combat
 
-**Entry ID:** `elm_miner4` · **Type:** Enemy
-
-**Location:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md), [Elm 4f 1](../maps/elm_4f_1.md), [Elm 4f 3](../maps/elm_4f_3.md), [Elm 4f 4](../maps/elm_4f_4.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 104 |
 | XP when defeated | 399 |
 | Damage | 12 to 16 |
-| Attack chance | 172 |
-| Block chance | 144 |
-| Damage resistance | 7 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 9% |
+| AC | 172 |
+| BC | 144 |
+| DR | 7 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.5) |
 
-**On hit:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 25% chance)
+**Its hits:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 25% chance)
 
-**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 25% chance)
+**When you hit it:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -94,11 +80,82 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (elm_miner4)"
+## Elm 5f 2 { #v-elm_miner4a }
+
+**Where:** [Elm 5f 2](../maps/elm5f_2.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 364 |
+| XP when defeated | 894 |
+| Damage | 12 to 16 |
+| AC | 182 |
+| BC | 154 |
+| DR | 10 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.5) |
+
+**Its hits:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 25% chance)
+
+**When you hit it:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 25% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Bone](../items/bone.md) | 100% | 1 to 2 |
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+| [Gold coins](../items/gold.md) | 100% | 60 to 180 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+| [v0.8.5](../versions/0.8.5.md) | Max HP: 104 → 364 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Prim guard skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `elm_miner4` | Enemy | [Elm 5f 1 and 4 more](#v-elm_miner4) |
+| `elm_miner4a` | Enemy | [Elm 5f 2](#v-elm_miner4a) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: elm_miner4"
 
     | | |
     |---|---|
     | Entry ID | `elm_miner4` |
+    | Type (wiki) | Enemy |
     | Spawn group | `elm_mine5` |
     | Loot table | `elm_miner2` |
     | Conversation | – |
@@ -158,69 +215,12 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
     }
     ```
 
-
-## Elm 5f 2 (elm_miner4a) { #v-elm_miner4a }
-
-**Entry ID:** `elm_miner4a` · **Type:** Enemy
-
-**Location:** [Elm 5f 2](../maps/elm5f_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 364 |
-| XP when defeated | 894 |
-| Damage | 12 to 16 |
-| Attack chance | 182 |
-| Block chance | 154 |
-| Damage resistance | 10 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 9% |
-
-**On hit:** Heal HP: 2 to 4; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 25% chance)
-
-**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 25% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Bone](../items/bone.md) | 100% | 1 to 2 |
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-| [Gold coins](../items/gold.md) | 100% | 60 to 180 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Elm 5f 2](../maps/elm5f_2.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.14](../versions/0.7.14.md) | Added |
-| [v0.8.5](../versions/0.8.5.md) | Max HP: 104 → 364 |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (elm_miner4a)"
+??? info "Technical information: elm_miner4a"
 
     | | |
     |---|---|
     | Entry ID | `elm_miner4a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `elm_mine4a` |
     | Loot table | `elm_miner4a` |
     | Conversation | – |
@@ -279,16 +279,6 @@ description: "Prim guard skeleton is an enemy in Andor's Trail (undead) with 104
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

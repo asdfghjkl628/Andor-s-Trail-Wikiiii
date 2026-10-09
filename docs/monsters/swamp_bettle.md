@@ -17,34 +17,28 @@ description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, wo
 | **Class** | Insect |
 | **HP** | 101 |
 | **XP when defeated** | 461 |
-| **Entry ID** | `swamp_bettle` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 101 |
 | XP when defeated | 461 |
 | Damage | 7 to 12 |
-| Attack chance | 150 |
-| Block chance | 175 |
-| Damage resistance | 20 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 6 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 150 |
+| BC | 175 |
+| DR | 20 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 6, 5 rounds, 65% chance)
+**Its hits:** On target: [Insect contagion](../conditions/contagion.md) (magnitude 6, 5 rounds, 65% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Locations
 
@@ -66,11 +60,24 @@ description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `swamp_bettle` |
+    | Type (wiki) | Enemy |
     | Spawn group | `swamp_bettle` |
     | Loot table | – |
     | Conversation | – |
@@ -110,15 +117,6 @@ description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, wo
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

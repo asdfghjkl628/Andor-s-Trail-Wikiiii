@@ -17,34 +17,28 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 | **Class** | Insect |
 | **HP** | 119 |
 | **XP when defeated** | 479 |
-| **Entry ID** | `flying_tree_ant` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 119 |
 | XP when defeated | 479 |
 | Damage | 9 to 15 |
-| Attack chance | 144 |
-| Block chance | 207 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 20 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 15% |
+| AC | 144 |
+| BC | 207 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 15% (×3.0) |
 
-**On hit:** On target: [Blood poisoning](../conditions/poison_blood.md) (magnitude 5, 5 rounds, 50% chance)
+**Its hits:** On target: [Blood poisoning](../conditions/poison_blood.md) (magnitude 5, 5 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -95,11 +89,24 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `flying_tree_ant` |
+    | Type (wiki) | Enemy |
     | Spawn group | `flying_tree_ant` |
     | Loot table | `flying_insect_dl` |
     | Conversation | – |
@@ -143,15 +150,6 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

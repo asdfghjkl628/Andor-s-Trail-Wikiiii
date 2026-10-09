@@ -12,9 +12,8 @@ description: "Silvear is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brightport |
-| **Entry ID** | `brightportthieves1` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
@@ -193,16 +192,21 @@ Set your quest stages and items, then talk to Silvear. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 33 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…”<br>· text: “We've talked about this before. Im confident in my skill, the informa…” → “We've talked about this before. Im confident in my skill, the informa…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “For you, it'll be 2000 gold coins. It's our hideout, I can't just giv…” → “For you, it'll be {2000} gold coins. It's our hideout, I can't just g…”<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightportthieves1` |
+    | Type (wiki) | NPC |
     | Spawn group | `brightportthieves1` |
     | Loot table | – |
     | Conversation | `brightport_silvear_start` |

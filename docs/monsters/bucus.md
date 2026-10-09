@@ -4,7 +4,7 @@ description: "Bucus is a non-player character (NPC) in Andor's Trail. Starts Key
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Bucus
 
-**Where to find Bucus:** not placed on any map; appears through a quest or scripted event.
+**Where to find Bucus:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,9 +12,8 @@ description: "Bucus is a non-player character (NPC) in Andor's Trail. Starts Key
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Key of Luthor](../quests/bucus.md) |
-| **Entry ID** | `bucus` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -122,16 +121,21 @@ Set your quest stages and items, then talk to Bucus. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Who told you that? Argh. Ok so you found us. Now what?” → “Who told you that? Argh. OK so you found us. Now what?”<br>· text: “Hi again, welcome back to the .. Oh wait, I thought you were someone …” → “Hi again, welcome back to the ... Oh wait, I thought you were someone…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Ok kid. You've proven yourself to me. Yes, I saw some other kid by th…” → “OK kid. You've proven yourself to me. Yes, I saw some other kid by th…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `bucus` |
+    | Type (wiki) | NPC |
     | Spawn group | `bucus` |
     | Loot table | – |
     | Conversation | `bucus_welcome` |

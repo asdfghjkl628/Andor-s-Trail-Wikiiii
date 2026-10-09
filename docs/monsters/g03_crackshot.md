@@ -1,5 +1,5 @@
 ---
-description: "Crackshot is an NPC who can also be fought in Andor's Trail, found in Crackshot hideout 3."
+description: "Crackshot is an NPC you can also fight in Andor's Trail, found in Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_80.png){ .sprite } Crackshot
@@ -12,44 +12,42 @@ description: "Crackshot is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Crackshot hideout 3 |
 | **Class** | Humanoid |
 | **HP** | 133 |
 | **XP when defeated** | 271 |
-| **Entry ID** | `g03_crackshot` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Crackshot"
+    Answering “The Feygard soldiers will be avenged!” starts a fight with Crackshot.
 
-## Combat statistics
+    Answering “Hah! Let's see if you're as strong as Umar has said.” starts a fight with Crackshot.
 
-| Statistic | Value |
+    Crackshot turns hostile if you fall out with their faction.
+
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 133 |
 | XP when defeated | 271 |
 | Damage | 5 to 11 |
-| Attack chance | 110 |
-| Block chance | 100 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 20 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 15% |
+| AC | 110 |
+| BC | 100 |
+| DR | 4 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 15% (×3.0) |
 
-**On hit:** On self: [Combo](../conditions/g03_combo.md) (magnitude 1, 1 round, 25% chance)
+**Its hits:** On self: [Combo](../conditions/g03_combo.md) (magnitude 1, 1 round, 25% chance)
 
-**When hit:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 33% chance)
+**When you hit it:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 33% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -59,12 +57,6 @@ description: "Crackshot is an NPC who can also be fought in Andor's Trail, found
 | [Villain's leather armor](../items/armour_leather_villain.md) | 20% | 1 |
 | [Yatagan](../items/sword_g03_crackshot.md) | 100% | 1 |
 | [Key of Luthor](../items/g03_luthor.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – | 1 | – |
 
 ## Quests that count defeats
 
@@ -119,11 +111,26 @@ Set your quest stages and items, then talk to Crackshot. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `g03_crackshot` belongs to the faction `crackshot`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `g03_crackshot` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `g03_crackshot` |
     | Loot table | `drop_g03_crackshot` |
     | Conversation | `guild03_crackshot_1` |
@@ -181,15 +188,6 @@ Set your quest stages and items, then talk to Crackshot. Same rules as the game:
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

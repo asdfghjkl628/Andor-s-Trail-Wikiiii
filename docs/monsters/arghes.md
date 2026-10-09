@@ -12,10 +12,9 @@ description: "Arghes is a non-player character (NPC) in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Remgard |
-| **Entry ID** | `arghes` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -109,17 +108,22 @@ Set your quest stages and items, then talk to Arghes. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Is that so? Hm, most interesting. It does not change anything, howeve…” → “Is that so? Hmm, most interesting. It does not change anything, howev…”<br>· text: “I know .. a great deal of things.” → “I know ... a great deal of things.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “I know .. a great deal of things.” → “I know ... a great deal of things.”<br>· text: “Let's just say that I am a .. friend. You would do well to keep your …” → “Let's just say that I am a ... friend. You would do well to keep your…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `arghes` |
+    | Type (wiki) | NPC |
     | Spawn group | `arghes` |
     | Loot table | `shop_arghes` |
     | Conversation | `arghes` |

@@ -1,8 +1,10 @@
 ---
-description: "Road rondel is an NPC who can also be fought in Andor's Trail, found in Wexlow Village."
+description: "Road rondel is an NPC you can also fight in Andor's Trail, found in Wexlow Village."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik6_1.png){ .sprite } Road rondel
+
+**Where to find Road rondel:** [Wexlow Village, Wayto feygard duleian 1](#v-road_rondel), [Wexlow Village, Wayto feygard duleian 1](#v-road_rondel_blocker)
 
 <div class="infobox" markdown>
 
@@ -10,29 +12,18 @@ description: "Road rondel is an NPC who can also be fought in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Wexlow Village |
 | **Class** | Humanoid |
 | **HP** | 120 |
 | **XP when defeated** | 310 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Road rondel. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Wexlow Village, Wayto feygard duleian 1 { #v-road_rondel }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`road_rondel`](#v-road_rondel) | NPC | Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel) | – | – |
-| [`road_rondel_blocker`](#v-road_rondel_blocker) | NPC/Enemy | Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel_blocker) | – | 120 |
-
-## Wexlow Village, Wayto feygard duleian 1 (road_rondel) { #v-road_rondel }
-
-**Entry ID:** `road_rondel` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel)
+**Where:** Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel)
 
 ### Dialogue simulator
 
@@ -64,75 +55,35 @@ Set your quest stages and items, then talk to Road rondel. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (road_rondel)"
+## Wexlow Village, Wayto feygard duleian 1 (2) { #v-road_rondel_blocker }
 
-    | | |
-    |---|---|
-    | Entry ID | `road_rondel` |
-    | Spawn group | `road_rondel` |
-    | Loot table | – |
-    | Conversation | `road_rondel_ip` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_tometik6:1` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+**Where:** Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel_blocker)
 
-    Raw data:
+!!! warning "You can fight Road rondel"
+    Answering “Well, if it's any consolation, you are about to join him.” starts a fight with Road rondel.
 
-    ```json
-    {
-     "id": "road_rondel",
-     "name": "Road rondel",
-     "iconID": "monsters_tometik6:1",
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "phraseID": "road_rondel_ip"
-    }
-    ```
+### Combat
 
-
-## Wexlow Village, Wayto feygard duleian 1 (road_rondel_blocker) { #v-road_rondel_blocker }
-
-**Entry ID:** `road_rondel_blocker` · **Type:** NPC/Enemy
-
-**Location:** Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel_blocker)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 120 |
 | XP when defeated | 310 |
 | Damage | 2 to 4 |
-| Attack chance | 60 |
-| Block chance | 200 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 60 |
+| BC | 200 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 7 to 77 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md) | Wexlow Village | 1 | – |
 
 ### Dialogue simulator
 
@@ -177,11 +128,59 @@ Set your quest stages and items, then talk to Road rondel. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (road_rondel_blocker)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Road rondel. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `road_rondel` | NPC | [Wexlow Village, Wayto feygard duleian 1](#v-road_rondel) |
+| `road_rondel_blocker` | NPC/Enemy | [Wexlow Village, Wayto feygard duleian 1](#v-road_rondel_blocker) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: road_rondel"
+
+    | | |
+    |---|---|
+    | Entry ID | `road_rondel` |
+    | Type (wiki) | NPC |
+    | Spawn group | `road_rondel` |
+    | Loot table | – |
+    | Conversation | `road_rondel_ip` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_tometik6:1` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "road_rondel",
+     "name": "Road rondel",
+     "iconID": "monsters_tometik6:1",
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "road_rondel_ip"
+    }
+    ```
+
+??? info "Technical information: road_rondel_blocker"
 
     | | |
     |---|---|
     | Entry ID | `road_rondel_blocker` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `road_rondel_blocker` |
     | Loot table | `guynmart_drp_robber` |
     | Conversation | `road_rondel_blocker_ip` |
@@ -214,16 +213,6 @@ Set your quest stages and items, then talk to Road rondel. Same rules as the gam
      "damageResistance": 8
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

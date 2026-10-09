@@ -4,32 +4,23 @@ description: "Bela is a non-player character (NPC) in Andor's Trail. Shopkeeper;
 
 # ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } Bela
 
+**Where to find Bela:** [Appears during a quest or event](#v-bela), [Appears during a quest or event](#v-bela_2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_7.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [A Wicked witch](../quests/wicked_witch.md), [A giant snake](../quests/bela_gsnake.md); shopkeeper |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Bela. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
+## Appears during a quest or event { #v-bela }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`bela`](#v-bela) | NPC | Not on a map | shopkeeper; starts [A Wicked witch](../quests/wicked_witch.md), [A giant snake](../quests/bela_gsnake.md) |
-| [`bela_2`](#v-bela_2) | NPC | Not on a map | shopkeeper |
-
-## Not placed on a map (bela) { #v-bela }
-
-**Entry ID:** `bela` · **Type:** NPC · **Role:** Shopkeeper; starts [A Wicked witch](../quests/wicked_witch.md), [A giant snake](../quests/bela_gsnake.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Shopkeeper; starts [A Wicked witch](../quests/wicked_witch.md), [A giant snake](../quests/bela_gsnake.md)
 
 ### Shop stock
 
@@ -227,39 +218,9 @@ Set your quest stages and items, then talk to Bela. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (bela)"
+## Appears during a quest or event (2) { #v-bela_2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `bela` |
-    | Spawn group | `bela` |
-    | Loot table | `shop_bela` |
-    | Conversation | `bela_gsnake` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:7` |
-    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "bela",
-     "name": "Bela",
-     "iconID": "monsters_men:7",
-     "monsterClass": "humanoid",
-     "spawnGroup": "bela",
-     "phraseID": "bela_gsnake",
-     "droplistID": "shop_bela"
-    }
-    ```
-
-
-## Not placed on a map (bela_2) { #v-bela_2 }
-
-**Entry ID:** `bela_2` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -306,11 +267,52 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (bela_2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Bela. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `bela` | NPC | [Appears during a quest or event](#v-bela) |
+| `bela_2` | NPC | [Appears during a quest or event](#v-bela_2) |
+
+??? info "Technical information: bela"
+
+    | | |
+    |---|---|
+    | Entry ID | `bela` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bela` |
+    | Loot table | `shop_bela` |
+    | Conversation | `bela_gsnake` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:7` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "bela",
+     "name": "Bela",
+     "iconID": "monsters_men:7",
+     "monsterClass": "humanoid",
+     "spawnGroup": "bela",
+     "phraseID": "bela_gsnake",
+     "droplistID": "shop_bela"
+    }
+    ```
+
+??? info "Technical information: bela_2"
 
     | | |
     |---|---|
     | Entry ID | `bela_2` |
+    | Type (wiki) | NPC |
     | Spawn group | `bela_2` |
     | Loot table | `shop_bela_2` |
     | Conversation | `bela` |
@@ -332,7 +334,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "droplistID": "shop_bela_2"
     }
     ```
-
 
 
 ## Community notes

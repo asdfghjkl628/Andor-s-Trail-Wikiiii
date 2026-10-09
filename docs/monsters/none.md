@@ -1,10 +1,8 @@
 ---
-description: "Dummy NPC is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics."
+description: "Dummy NPC is scenery in Andor's Trail: a decoration or dialogue prop."
 ---
 
 # ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } Dummy NPC
-
-**Where to find Dummy NPC:** not placed on any map; appears through a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,14 +10,12 @@ description: "Dummy NPC is scenery in Andor's Trail: a decoration or dialogue pr
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
-| **Entry ID** | `none` |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: it only appears as the speaker of lines in someone else's dialogue.
+Not a character you meet: Dummy NPC appears as the speaker in conversations with [Nocmar](../monsters/nocmar.md), [Glade key](../monsters/lakecave2_key.md), walking into a blocked passage on [Lakecave 2](../maps/lakecave2.md), [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)). ~~No, you can't take it home.~~
 
 
 ## Version history
@@ -32,11 +28,18 @@ description: "Dummy NPC is scenery in Andor's Trail: a decoration or dialogue pr
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `none` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `none` |
+    | Type (wiki) | Scenery |
     | Spawn group | `none` |
     | Loot table | – |
     | Conversation | – |

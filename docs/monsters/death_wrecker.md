@@ -17,36 +17,30 @@ description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, w
 | **Class** | Undead |
 | **HP** | 253 |
 | **XP when defeated** | 652 |
-| **Entry ID** | `death_wrecker` |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 253 |
 | XP when defeated | 652 |
 | Damage | 21 to 24 |
-| Attack chance | 227 |
-| Block chance | 111 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 3 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 2% |
+| AC | 227 |
+| BC | 111 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 2% (×2.0) |
 
-**On hit:** On target: [Fear](../conditions/fear.md) (magnitude 4, 3 rounds, 25% chance)
+**Its hits:** On target: [Fear](../conditions/fear.md) (magnitude 4, 3 rounds, 25% chance)
 
-**When hit:** On self: [Regeneration](../conditions/regen2.md) (magnitude 6, 1 round)
+**When you hit it:** On self: [Regeneration](../conditions/regen2.md) (magnitude 6, 1 round)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -81,11 +75,24 @@ description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `death_wrecker` |
+    | Type (wiki) | Enemy |
     | Spawn group | `death_wrecker` |
     | Loot table | `death_wrecker_dl` |
     | Conversation | – |
@@ -136,15 +143,6 @@ description: "Death wrecker is an enemy in Andor's Trail (undead) with 253 HP, w
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

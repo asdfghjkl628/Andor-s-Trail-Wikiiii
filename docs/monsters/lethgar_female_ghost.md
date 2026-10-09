@@ -12,9 +12,8 @@ description: "Lethgar slave ghost is a non-player character (NPC) in Andor's Tra
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Undertell 1 1 |
-| **Entry ID** | `lethgar_female_ghost` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
@@ -107,11 +106,16 @@ Set your quest stages and items, then talk to Lethgar slave ghost. Same rules as
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lethgar_female_ghost` |
+    | Type (wiki) | NPC |
     | Spawn group | `lethgar_female_ghost` |
     | Loot table | – |
     | Conversation | `lethgar_female_ghost_selector` |

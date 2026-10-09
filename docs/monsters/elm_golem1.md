@@ -17,38 +17,32 @@ description: "Kazarite golem is an enemy in Andor's Trail (giant) with 198 HP, w
 | **Class** | Giant |
 | **HP** | 198 |
 | **XP when defeated** | 396 |
-| **Entry ID** | `elm_golem1` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 198 |
 | XP when defeated | 396 |
 | Damage | 9 to 36 |
-| Attack chance | 81 |
-| Block chance | 99 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 7 AP |
-| Attacks per turn | 1 |
-| Move cost | 8 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 81 |
+| BC | 99 |
+| DR | 5 |
+| Attacks per turn | 1 (7 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** Heal HP: 1 to 3; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 7, 2 rounds, 10% chance)
+**Its hits:** Heal HP: 1 to 3; On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 7, 2 rounds, 10% chance)
 
-**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 15% chance)
+**When you hit it:** On target: [Nausea](../conditions/nausea.md) (magnitude 3, 5 rounds, 15% chance)
 
-**On death:** Heal HP: -15 to 0
+**When it dies:** Heal HP: -15 to 0
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -85,11 +79,24 @@ description: "Kazarite golem is an enemy in Andor's Trail (giant) with 198 HP, w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `elm_golem1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `elm_mine3` |
     | Loot table | `elm_golem` |
     | Conversation | – |
@@ -151,15 +158,6 @@ description: "Kazarite golem is an enemy in Andor's Trail (giant) with 198 HP, w
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

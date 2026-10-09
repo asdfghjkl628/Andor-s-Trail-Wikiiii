@@ -1,5 +1,5 @@
 ---
-description: "Kriih is an NPC who can also be fought in Andor's Trail, found in Pub."
+description: "Kriih is an NPC you can also fight in Andor's Trail, found in Pub."
 ---
 
 # ![](../assets/icons/monsters/monsters_rats_2.png){ .sprite } Kriih
@@ -12,52 +12,42 @@ description: "Kriih is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Pub |
 | **Class** | Animal |
 | **HP** | 160 |
 | **XP when defeated** | 198 |
-| **Entry ID** | `ratdom_kriih` |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Kriih"
+    Answering “We'll see who pays here.” starts a fight with Kriih.
 
-## Combat statistics
+    Answering “Now you pay for it - attack!” starts a fight with Kriih.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Animal |
 | HP | 160 |
 | XP when defeated | 198 |
 | Damage | 20 to 30 |
-| Attack chance | 40 |
-| Block chance | 20 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 20 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 200 to 500 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
 
 ## Dialogue simulator
 
@@ -159,11 +149,24 @@ Set your quest stages and items, then talk to Kriih. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_kriih` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ratdom_kriih` |
     | Loot table | `ratdom_kriih` |
     | Conversation | `ratdom_kriih` |
@@ -196,15 +199,6 @@ Set your quest stages and items, then talk to Kriih. Same rules as the game: sam
      "blockChance": 20
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

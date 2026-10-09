@@ -12,9 +12,8 @@ description: "Drunk is a non-player character (NPC) in Andor's Trail, found in C
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Crossglen, Fallhaven, Loneford |
-| **Entry ID** | `drunk` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -78,11 +77,16 @@ Set your quest stages and items, then talk to Drunk. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `drunk` |
+    | Type (wiki) | NPC |
     | Spawn group | `drunk` |
     | Loot table | – |
     | Conversation | `drunk1` |

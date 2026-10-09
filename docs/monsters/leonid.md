@@ -1,8 +1,10 @@
 ---
-description: "Leonid is an NPC who can also be fought in Andor's Trail. Starts Disallowed substance."
+description: "Leonid is an NPC you can also fight in Andor's Trail. Starts Disallowed substance."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Leonid
+
+**Where to find Leonid:** [Appears during a quest or event](#v-leonid), [Appears during a quest or event](#v-ratdom_leonid)
 
 <div class="infobox" markdown>
 
@@ -10,29 +12,18 @@ description: "Leonid is an NPC who can also be fought in Andor's Trail. Starts D
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Disallowed substance](../quests/bonemeal.md) |
 | **Class** | Humanoid |
 | **HP** | 300 |
 | **XP when defeated** | 210 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Leonid. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics. Each entry has its own section below.
+## Appears during a quest or event { #v-leonid }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`leonid`](#v-leonid) | NPC | Not on a map | starts [Disallowed substance](../quests/bonemeal.md) | – |
-| [`ratdom_leonid`](#v-ratdom_leonid) | Enemy | Not on a map | – | 300 |
-
-## Not placed on a map (leonid) { #v-leonid }
-
-**Entry ID:** `leonid` · **Type:** NPC · **Role:** Starts [Disallowed substance](../quests/bonemeal.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Disallowed substance](../quests/bonemeal.md)
 
 ### Quests
 
@@ -126,17 +117,69 @@ Set your quest stages and items, then talk to Leonid. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…”<br>· text: “In the meantime, we've banned all use of Bonemeal as a healing substa…” → “In the meantime, we've banned all use of bonemeal as a healing substa…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…”<br>· text: “On one hand, Lord Geomyr supports Crossglen with a lot of protection.…” → “On one hand, Lord Geomyr supports Crossglen with a lot of protection.…” |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “Hello kid. You're Mikhail's son aren't you? With that brother of your…” → “Hello kid. You're Mikhail's youngest child aren't you? With that brot…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (leonid)"
+## Appears during a quest or event (2) { #v-ratdom_leonid }
+
+**Where:** appears during a quest or scripted event.
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 300 |
+| XP when defeated | 210 |
+| Damage | 3 to 8 |
+| AC | 0 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Leonid. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `leonid` | NPC | [Appears during a quest or event](#v-leonid) |
+| `ratdom_leonid` | Enemy | [Appears during a quest or event](#v-ratdom_leonid) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: leonid"
 
     | | |
     |---|---|
     | Entry ID | `leonid` |
+    | Type (wiki) | NPC |
     | Spawn group | `leonid` |
     | Loot table | – |
     | Conversation | `leonid1` |
@@ -158,50 +201,12 @@ Set your quest stages and items, then talk to Leonid. Same rules as the game: sa
     }
     ```
 
-
-## Not placed on a map (ratdom_leonid) { #v-ratdom_leonid }
-
-**Entry ID:** `ratdom_leonid` · **Type:** Enemy
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 300 |
-| XP when defeated | 210 |
-| Damage | 3 to 8 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_leonid)"
+??? info "Technical information: ratdom_leonid"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_leonid` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_leonid` |
     | Loot table | – |
     | Conversation | – |
@@ -228,16 +233,6 @@ Set your quest stages and items, then talk to Leonid. Same rules as the game: sa
      "spawnGroup": "ratdom_leonid"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

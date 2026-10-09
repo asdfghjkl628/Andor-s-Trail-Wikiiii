@@ -56,8 +56,8 @@ description: "Brimhaven tavern west back is an indoor location in Andor's Trail,
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil) | 25 | 1–5 | 1 | appears later, during a quest |
 | [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil) | 25 | 1–3 | 1 | appears later, during a quest |
+| [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil) | 25 | 1–5 | 1 | appears later, during a quest |
 | [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil) | 30 | 2–4 | 1 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

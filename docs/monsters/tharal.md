@@ -1,8 +1,10 @@
 ---
-description: "Tharal is an NPC who can also be fought in Andor's Trail, found in Crossglen. Shopkeeper; starts Taste is everything."
+description: "Tharal is an NPC you can also fight in Andor's Trail, found in Crossglen. Shopkeeper; starts Taste is everything."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } Tharal
+
+**Where to find Tharal:** [Appears during a quest or event](#v-tharal), [Crossglen, Crossglen](#v-ratdom_tharal)
 
 <div class="infobox" markdown>
 
@@ -10,30 +12,19 @@ description: "Tharal is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Shopkeeper; starts [Taste is everything](../quests/antifoodp.md) |
 | **Found in** | Crossglen |
 | **Class** | Humanoid |
 | **HP** | 160 |
 | **XP when defeated** | 112 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Tharal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Appears during a quest or event { #v-tharal }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`tharal`](#v-tharal) | NPC | Not on a map | shopkeeper; starts [Taste is everything](../quests/antifoodp.md) | – |
-| [`ratdom_tharal`](#v-ratdom_tharal) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md) | – | 160 |
-
-## Not placed on a map (tharal) { #v-tharal }
-
-**Entry ID:** `tharal` · **Type:** NPC · **Role:** Shopkeeper; starts [Taste is everything](../quests/antifoodp.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Shopkeeper; starts [Taste is everything](../quests/antifoodp.md)
 
 ### Shop stock
 
@@ -132,61 +123,26 @@ Set your quest stages and items, then talk to Tharal. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tharal)"
+## Crossglen, Crossglen { #v-ratdom_tharal }
 
-    | | |
-    |---|---|
-    | Entry ID | `tharal` |
-    | Spawn group | `tharal` |
-    | Loot table | `shop_tharal` |
-    | Conversation | `tharal1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:4` |
-    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "tharal",
-     "name": "Tharal",
-     "iconID": "monsters_men:4",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tharal",
-     "phraseID": "tharal1",
-     "droplistID": "shop_tharal"
-    }
-    ```
-
-
-## Crossglen, Crossglen (ratdom_tharal) { #v-ratdom_tharal }
-
-**Entry ID:** `ratdom_tharal` · **Type:** Enemy
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 160 |
 | XP when defeated | 112 |
 | Damage | 1 to 3 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 0 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -216,11 +172,60 @@ Set your quest stages and items, then talk to Tharal. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_tharal)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Tharal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tharal` | NPC | [Appears during a quest or event](#v-tharal) |
+| `ratdom_tharal` | Enemy | [Crossglen, Crossglen](#v-ratdom_tharal) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: tharal"
+
+    | | |
+    |---|---|
+    | Entry ID | `tharal` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tharal` |
+    | Loot table | `shop_tharal` |
+    | Conversation | `tharal1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tharal",
+     "name": "Tharal",
+     "iconID": "monsters_men:4",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tharal",
+     "phraseID": "tharal1",
+     "droplistID": "shop_tharal"
+    }
+    ```
+
+??? info "Technical information: ratdom_tharal"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_tharal` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_tharal` |
     | Loot table | `drop_ratdom_tharal` |
     | Conversation | – |
@@ -249,16 +254,6 @@ Set your quest stages and items, then talk to Tharal. Same rules as the game: sa
      "droplistID": "drop_ratdom_tharal"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

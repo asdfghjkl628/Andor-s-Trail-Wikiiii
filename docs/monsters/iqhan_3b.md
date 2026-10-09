@@ -4,6 +4,8 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_129.png){ .sprite } Iqhan master
 
+**Where to find Iqhan master:** [Pwcave 1 and 2 more](#v-iqhan_3b), [Pwcave 2 and 3 more](#v-iqhan_4a), [Pwcave 2 and 3 more](#v-iqhan_4b)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_129.png){ .sprite }</p>
@@ -15,47 +17,30 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 | **Class** | Humanoid |
 | **HP** | 67–71 |
 | **XP when defeated** | 162–185 |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Iqhan master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
+## Pwcave 1 and 2 more { #v-iqhan_3b }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`iqhan_3b`](#v-iqhan_3b) | Enemy | [Pwcave 1](../maps/pwcave1.md), [Pwcave 2](../maps/pwcave2.md) (+1 more) | – | 67 |
-| [`iqhan_4a`](#v-iqhan_4a) | Enemy | [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md) (+2 more) | – | 69 |
-| [`iqhan_4b`](#v-iqhan_4b) | Enemy | [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md) (+2 more) | – | 71 |
+**Where:** [Pwcave 1](../maps/pwcave1.md), [Pwcave 2](../maps/pwcave2.md), [Pwcave 3](../maps/pwcave3.md)
 
-## Pwcave 1 and 2 more (iqhan_3b) { #v-iqhan_3b }
+### Combat
 
-**Entry ID:** `iqhan_3b` · **Type:** Enemy
-
-**Location:** [Pwcave 1](../maps/pwcave1.md), [Pwcave 2](../maps/pwcave2.md), [Pwcave 3](../maps/pwcave3.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 67 |
 | XP when defeated | 162 |
 | Damage | 2 to 12 |
-| Attack chance | 140 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
+| AC | 140 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -85,11 +70,133 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (iqhan_3b)"
+## Pwcave 2 and 3 more { #v-iqhan_4a }
+
+**Where:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 69 |
+| XP when defeated | 170 |
+| Damage | 2 to 13 |
+| AC | 140 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×2.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 1 to 5 |
+| [Iqhan pendant](../items/iqhan_pendant.md) | 1% | 1 |
+| [Torn shirt](../items/shirt_torn.md) | 5% | 1 |
+| [Iron dagger](../items/dagger0.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Pwcave 2](../maps/pwcave2.md) | – | 7 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Pwcave 2 and 3 more (2) { #v-iqhan_4b }
+
+**Where:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 71 |
+| XP when defeated | 185 |
+| Damage | 2 to 15 |
+| AC | 140 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×2.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 1 to 9 |
+| [Iqhan pendant](../items/iqhan_pendant.md) | 5% | 1 |
+| [Wooden buckler](../items/shield1.md) | 5% | 1 |
+| [Iron dagger](../items/dagger0.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Pwcave 2](../maps/pwcave2.md) | – | 7 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Iqhan master. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `iqhan_3b` | Enemy | [Pwcave 1 and 2 more](#v-iqhan_3b) |
+| `iqhan_4a` | Enemy | [Pwcave 2 and 3 more](#v-iqhan_4a) |
+| `iqhan_4b` | Enemy | [Pwcave 2 and 3 more](#v-iqhan_4b) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: iqhan_3b"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_3b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_3` |
     | Loot table | `iqhan_lesser` |
     | Conversation | – |
@@ -123,69 +230,12 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
     }
     ```
 
-
-## Pwcave 2 and 3 more (iqhan_4a) { #v-iqhan_4a }
-
-**Entry ID:** `iqhan_4a` · **Type:** Enemy
-
-**Location:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 69 |
-| XP when defeated | 170 |
-| Damage | 2 to 13 |
-| Attack chance | 140 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 1 to 5 |
-| [Iqhan pendant](../items/iqhan_pendant.md) | 1% | 1 |
-| [Torn shirt](../items/shirt_torn.md) | 5% | 1 |
-| [Iron dagger](../items/dagger0.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Pwcave 2](../maps/pwcave2.md) | – | 7 | – |
-| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
-| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
-| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (iqhan_4a)"
+??? info "Technical information: iqhan_4a"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_4a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_4` |
     | Loot table | `iqhan_lesser` |
     | Conversation | – |
@@ -219,69 +269,12 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
     }
     ```
 
-
-## Pwcave 2 and 3 more (iqhan_4b) { #v-iqhan_4b }
-
-**Entry ID:** `iqhan_4b` · **Type:** Enemy
-
-**Location:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 71 |
-| XP when defeated | 185 |
-| Damage | 2 to 15 |
-| Attack chance | 140 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 1 to 9 |
-| [Iqhan pendant](../items/iqhan_pendant.md) | 5% | 1 |
-| [Wooden buckler](../items/shield1.md) | 5% | 1 |
-| [Iron dagger](../items/dagger0.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Pwcave 2](../maps/pwcave2.md) | – | 7 | – |
-| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
-| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
-| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (iqhan_4b)"
+??? info "Technical information: iqhan_4b"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_4b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_4` |
     | Loot table | `iqhan` |
     | Conversation | – |
@@ -314,16 +307,6 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
      "blockChance": 60
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

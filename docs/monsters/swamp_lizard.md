@@ -4,6 +4,8 @@ description: "Swamp lizard is an enemy in Andor's Trail (reptile) with 130 HP, w
 
 # ![](../assets/icons/monsters/monsters_newb_1_373.png){ .sprite } Swamp lizard
 
+**Where to find Swamp lizard:** [Galmore 18 and 2 more](#v-swamp_lizard), [Galmore 18 and 2 more](#v-swamp_lizard_leech)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_373.png){ .sprite }</p>
@@ -15,46 +17,30 @@ description: "Swamp lizard is an enemy in Andor's Trail (reptile) with 130 HP, w
 | **Class** | Reptile |
 | **HP** | 130 |
 | **XP when defeated** | 511 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Swamp lizard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: loot or shop stock. Each entry has its own section below.
+## Galmore 18 and 2 more { #v-swamp_lizard }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`swamp_lizard`](#v-swamp_lizard) | Enemy | [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md) (+1 more) | – | 130 |
-| [`swamp_lizard_leech`](#v-swamp_lizard_leech) | Enemy | [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md) (+1 more) | – | 130 |
+**Where:** [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md)
 
-## Galmore 18 and 2 more (swamp_lizard) { #v-swamp_lizard }
+### Combat
 
-**Entry ID:** `swamp_lizard` · **Type:** Enemy
-
-**Location:** [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 130 |
 | XP when defeated | 511 |
 | Damage | 10 to 15 |
-| Attack chance | 191 |
-| Block chance | 176 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 14 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 11% |
+| AC | 191 |
+| BC | 176 |
+| DR | 9 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 11% (×2.5) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -82,11 +68,79 @@ description: "Swamp lizard is an enemy in Andor's Trail (reptile) with 130 HP, w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (swamp_lizard)"
+## Galmore 18 and 2 more (2) { #v-swamp_lizard_leech }
+
+**Where:** [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Reptile |
+| HP | 130 |
+| XP when defeated | 511 |
+| Damage | 10 to 15 |
+| AC | 191 |
+| BC | 176 |
+| DR | 9 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 11% (×2.5) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Leech](../items/leech_usable.md) | 5% | 1 to 2 |
+| [Lizard skin](../items/lizard_skin.md) | 30% | 1 |
+| [Shimmering opal](../items/gem7.md) | 3% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Galmore 18](../maps/galmore_18.md) | – | 3 | Appears later, during a quest |
+| [Galmore 28](../maps/galmore_28.md) | – | 4 | Appears later, during a quest |
+| [Galmore 38](../maps/galmore_38.md) | – | 3 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Swamp lizard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `swamp_lizard` | Enemy | [Galmore 18 and 2 more](#v-swamp_lizard) |
+| `swamp_lizard_leech` | Enemy | [Galmore 18 and 2 more](#v-swamp_lizard_leech) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: swamp_lizard"
 
     | | |
     |---|---|
     | Entry ID | `swamp_lizard` |
+    | Type (wiki) | Enemy |
     | Spawn group | `swamp_lizard` |
     | Loot table | `swamp_eel_dl` |
     | Conversation | – |
@@ -120,66 +174,12 @@ description: "Swamp lizard is an enemy in Andor's Trail (reptile) with 130 HP, w
     }
     ```
 
-
-## Galmore 18 and 2 more (swamp_lizard_leech) { #v-swamp_lizard_leech }
-
-**Entry ID:** `swamp_lizard_leech` · **Type:** Enemy
-
-**Location:** [Galmore 18](../maps/galmore_18.md), [Galmore 28](../maps/galmore_28.md), [Galmore 38](../maps/galmore_38.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Reptile |
-| HP | 130 |
-| XP when defeated | 511 |
-| Damage | 10 to 15 |
-| Attack chance | 191 |
-| Block chance | 176 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 14 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 11% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Leech](../items/leech_usable.md) | 5% | 1 to 2 |
-| [Lizard skin](../items/lizard_skin.md) | 30% | 1 |
-| [Shimmering opal](../items/gem7.md) | 3% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Galmore 18](../maps/galmore_18.md) | – | 3 | Appears later, during a quest |
-| [Galmore 28](../maps/galmore_28.md) | – | 4 | Appears later, during a quest |
-| [Galmore 38](../maps/galmore_38.md) | – | 3 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.14](../versions/0.8.14.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (swamp_lizard_leech)"
+??? info "Technical information: swamp_lizard_leech"
 
     | | |
     |---|---|
     | Entry ID | `swamp_lizard_leech` |
+    | Type (wiki) | Enemy |
     | Spawn group | `swamp_lizard_leech` |
     | Loot table | `swamp_lizard_leetch_dl` |
     | Conversation | – |
@@ -212,16 +212,6 @@ description: "Swamp lizard is an enemy in Andor's Trail (reptile) with 130 HP, w
      "damageResistance": 9
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

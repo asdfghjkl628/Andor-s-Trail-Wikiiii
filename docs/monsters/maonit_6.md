@@ -4,6 +4,8 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
 
 # ![](../assets/icons/monsters/monsters_rltiles1_107.png){ .sprite } Strong maonit brute
 
+**Where to find Strong maonit brute:** [Lake Laeroth, Mountainlake 3 and 3 more](#v-maonit_6), [Lake Laeroth, Mountainlake 1](#v-maonit_cr)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_107.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
 | **Class** | Giant |
 | **HP** | 320–620 |
 | **XP when defeated** | 384–636 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Strong maonit brute. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Lake Laeroth, Mountainlake 3 and 3 more { #v-maonit_6 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`maonit_6`](#v-maonit_6) | Enemy | Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md) (+2 more) | – | 320 |
-| [`maonit_cr`](#v-maonit_cr) | Enemy | Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md) | – | 620 |
+**Where:** Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md), [Mountainlake 5](../maps/mountainlake5.md), [Waytolake 11](../maps/waytolake11.md)
 
-## Lake Laeroth, Mountainlake 3 and 3 more (maonit_6) { #v-maonit_6 }
+### Combat
 
-**Entry ID:** `maonit_6` · **Type:** Enemy
-
-**Location:** Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md), [Mountainlake 5](../maps/mountainlake5.md), [Waytolake 11](../maps/waytolake11.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 320 |
 | XP when defeated | 384 |
 | Damage | 1 to 20 |
-| Attack chance | 65 |
-| Block chance | 20 |
-| Damage resistance | 6 |
-| Max AP | 5 |
-| Attack cost | 4 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 30 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 19% |
+| AC | 65 |
+| BC | 20 |
+| DR | 6 |
+| Attacks per turn | 1 (4 AP each, 5 AP) |
+| Crit chance | 19% (×3.0) |
 
-**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 10% chance)
+**Its hits:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 10% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -88,11 +74,79 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (maonit_6)"
+## Lake Laeroth, Mountainlake 1 { #v-maonit_cr }
+
+**Where:** Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Giant |
+| HP | 620 |
+| XP when defeated | 636 |
+| Damage | 1 to 20 |
+| AC | 65 |
+| BC | 20 |
+| DR | 6 |
+| Attacks per turn | 1 (4 AP each, 5 AP) |
+| Crit chance | 19% (×3.0) |
+
+**Its hits:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Mountainlake 1](../maps/mountainlake1.md) | Lake Laeroth | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 10% chance) → (magnitude 1, 3 rounds, 10% chance)<br>Renamed “Strong Maonit brute” → “Strong maonit brute” |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 5 → 4 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Strong maonit brute. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `maonit_6` | Enemy | [Lake Laeroth, Mountainlake 3 and 3 more](#v-maonit_6) |
+| `maonit_cr` | Enemy | [Lake Laeroth, Mountainlake 1](#v-maonit_cr) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: maonit_6"
 
     | | |
     |---|---|
     | Entry ID | `maonit_6` |
+    | Type (wiki) | Enemy |
     | Spawn group | `maonit_3` |
     | Loot table | `maonit` |
     | Conversation | – |
@@ -137,66 +191,12 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
     }
     ```
 
-
-## Lake Laeroth, Mountainlake 1 (maonit_cr) { #v-maonit_cr }
-
-**Entry ID:** `maonit_cr` · **Type:** Enemy
-
-**Location:** Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Giant |
-| HP | 620 |
-| XP when defeated | 636 |
-| Damage | 1 to 20 |
-| Attack chance | 65 |
-| Block chance | 20 |
-| Damage resistance | 6 |
-| Max AP | 5 |
-| Attack cost | 4 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 30 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 19% |
-
-**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mountainlake 1](../maps/mountainlake1.md) | Lake Laeroth | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 10% chance) → (magnitude 1, 3 rounds, 10% chance)<br>Renamed “Strong Maonit brute” → “Strong maonit brute” |
-| [v0.7.4](../versions/0.7.4.md) | Attack cost: 5 → 4 |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (maonit_cr)"
+??? info "Technical information: maonit_cr"
 
     | | |
     |---|---|
     | Entry ID | `maonit_cr` |
+    | Type (wiki) | Enemy |
     | Spawn group | `maonit_cr` |
     | Loot table | `oegyth1` |
     | Conversation | – |
@@ -241,16 +241,6 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

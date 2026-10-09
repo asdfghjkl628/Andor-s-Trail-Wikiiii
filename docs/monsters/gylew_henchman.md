@@ -1,8 +1,10 @@
 ---
-description: "Gylew's henchman is an NPC who can also be fought in Andor's Trail, found in Waterway 5."
+description: "Gylew's henchman is an NPC you can also fight in Andor's Trail, found in Waterway 5."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Gylew's henchman
+
+**Where to find Gylew's henchman:** [Waterway 5](#v-gylew_henchman), [Waterway 5](#v-gylew_henchman_aggresive)
 
 <div class="infobox" markdown>
 
@@ -10,29 +12,18 @@ description: "Gylew's henchman is an NPC who can also be fought in Andor's Trail
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Waterway 5 |
 | **Class** | Humanoid |
 | **HP** | 219 |
 | **XP when defeated** | 394 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Gylew's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Waterway 5 { #v-gylew_henchman }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`gylew_henchman`](#v-gylew_henchman) | NPC | [Waterway 5](../maps/waterway5.md#pin-npc-gylew_henchman) | – | – |
-| [`gylew_henchman_aggresive`](#v-gylew_henchman_aggresive) | Enemy | [Waterway 5](../maps/waterway5.md) | – | 219 |
-
-## Waterway 5 (gylew_henchman) { #v-gylew_henchman }
-
-**Entry ID:** `gylew_henchman` · **Type:** NPC
-
-**Location:** [Waterway 5](../maps/waterway5.md#pin-npc-gylew_henchman)
+**Where:** [Waterway 5](../maps/waterway5.md#pin-npc-gylew_henchman)
 
 ### Dialogue simulator
 
@@ -61,11 +52,77 @@ Set your quest stages and items, then talk to Gylew's henchman. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (gylew_henchman)"
+## Waterway 5 (2) { #v-gylew_henchman_aggresive }
+
+**Where:** [Waterway 5](../maps/waterway5.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 219 |
+| XP when defeated | 394 |
+| Damage | 14 to 19 |
+| AC | 85 |
+| BC | 55 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 17% (×2.5) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Feline hat](../items/feline_hat.md) | 100% | 1 |
+| [Brimhaven brew](../items/brv_brew.md) | 100% | 1 to 3 |
+| [Smoked sausage](../items/smoked-sausage.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waterway 5](../maps/waterway5.md) | – | 1 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Gylew's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `gylew_henchman` | NPC | [Waterway 5](#v-gylew_henchman) |
+| `gylew_henchman_aggresive` | Enemy | [Waterway 5](#v-gylew_henchman_aggresive) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: gylew_henchman"
 
     | | |
     |---|---|
     | Entry ID | `gylew_henchman` |
+    | Type (wiki) | NPC |
     | Spawn group | `gylew_henchman` |
     | Loot table | `gold100` |
     | Conversation | `gylew_henchman` |
@@ -97,64 +154,12 @@ Set your quest stages and items, then talk to Gylew's henchman. Same rules as th
     }
     ```
 
-
-## Waterway 5 (gylew_henchman_aggresive) { #v-gylew_henchman_aggresive }
-
-**Entry ID:** `gylew_henchman_aggresive` · **Type:** Enemy
-
-**Location:** [Waterway 5](../maps/waterway5.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 219 |
-| XP when defeated | 394 |
-| Damage | 14 to 19 |
-| Attack chance | 85 |
-| Block chance | 55 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 2 AP |
-| Critical skill | 25 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 17% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Feline hat](../items/feline_hat.md) | 100% | 1 |
-| [Brimhaven brew](../items/brv_brew.md) | 100% | 1 to 3 |
-| [Smoked sausage](../items/smoked-sausage.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waterway 5](../maps/waterway5.md) | – | 1 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.11](../versions/0.8.11.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (gylew_henchman_aggresive)"
+??? info "Technical information: gylew_henchman_aggresive"
 
     | | |
     |---|---|
     | Entry ID | `gylew_henchman_aggresive` |
+    | Type (wiki) | Enemy |
     | Spawn group | `help_gylew` |
     | Loot table | `gylew_henchman_dl` |
     | Conversation | – |
@@ -189,16 +194,6 @@ Set your quest stages and items, then talk to Gylew's henchman. Same rules as th
      "damageResistance": 2
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

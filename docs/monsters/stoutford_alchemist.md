@@ -4,33 +4,24 @@ description: "Blornvale is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_70.png){ .sprite } Blornvale
 
+**Where to find Blornvale:** [Stoutford, Stoutford potion](#v-stoutford_alchemist), [Stoutford, Stoutford potion](#v-stoutford_alchemist2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_70.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Stoutford |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Blornvale. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: loot or shop stock. Each entry has its own section below.
+## Stoutford, Stoutford potion { #v-stoutford_alchemist }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`stoutford_alchemist`](#v-stoutford_alchemist) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist) | shopkeeper |
-| [`stoutford_alchemist2`](#v-stoutford_alchemist2) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2) | shopkeeper |
-
-## Stoutford, Stoutford potion (stoutford_alchemist) { #v-stoutford_alchemist }
-
-**Entry ID:** `stoutford_alchemist` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist)
+**Where:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -244,40 +235,9 @@ Set your quest stages and items, then talk to Blornvale. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_alchemist)"
+## Stoutford, Stoutford potion (2) { #v-stoutford_alchemist2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_alchemist` |
-    | Spawn group | `stoutford_alchemist` |
-    | Loot table | `stoutford_alchemist` |
-    | Conversation | `blornvale_select_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:70` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_alchemist",
-     "name": "Blornvale",
-     "iconID": "monsters_rltiles1:70",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "stoutford_alchemist",
-     "phraseID": "blornvale_select_0",
-     "droplistID": "stoutford_alchemist"
-    }
-    ```
-
-
-## Stoutford, Stoutford potion (stoutford_alchemist2) { #v-stoutford_alchemist2 }
-
-**Entry ID:** `stoutford_alchemist2` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2)
+**Where:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_alchemist2) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -319,11 +279,53 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_alchemist2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Blornvale. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stoutford_alchemist` | NPC | [Stoutford, Stoutford potion](#v-stoutford_alchemist) |
+| `stoutford_alchemist2` | NPC | [Stoutford, Stoutford potion](#v-stoutford_alchemist2) |
+
+??? info "Technical information: stoutford_alchemist"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_alchemist` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_alchemist` |
+    | Loot table | `stoutford_alchemist` |
+    | Conversation | `blornvale_select_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:70` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_alchemist",
+     "name": "Blornvale",
+     "iconID": "monsters_rltiles1:70",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "stoutford_alchemist",
+     "phraseID": "blornvale_select_0",
+     "droplistID": "stoutford_alchemist"
+    }
+    ```
+
+??? info "Technical information: stoutford_alchemist2"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_alchemist2` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_alchemist2` |
     | Loot table | `stoutford_alchemist2` |
     | Conversation | `blornvale_select_0` |
@@ -345,7 +347,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "droplistID": "stoutford_alchemist2"
     }
     ```
-
 
 
 ## Community notes

@@ -4,37 +4,23 @@ description: "Dancing skeleton is a non-player character (NPC) in Andor's Trail,
 
 # ![](../assets/icons/monsters/monsters_tometik8_28.png){ .sprite } Dancing skeleton
 
+**Where to find Dancing skeleton:** [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance1), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance2), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance3), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance4), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance5), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance6), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance7)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_28.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Skeleton dance |
-| **Entries in game data** | 7 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "7 entries in the game data"
-    The game data defines 7 separate characters named Dancing skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Skeleton dance, Ratdom maze 543d { #v-ratdom_skel_dance1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_skel_dance1`](#v-ratdom_skel_dance1) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1) | – |
-| [`ratdom_skel_dance2`](#v-ratdom_skel_dance2) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2) | – |
-| [`ratdom_skel_dance3`](#v-ratdom_skel_dance3) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3) | – |
-| [`ratdom_skel_dance4`](#v-ratdom_skel_dance4) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4) | – |
-| [`ratdom_skel_dance5`](#v-ratdom_skel_dance5) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5) | – |
-| [`ratdom_skel_dance6`](#v-ratdom_skel_dance6) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6) | – |
-| [`ratdom_skel_dance7`](#v-ratdom_skel_dance7) | NPC | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7) | – |
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance1) { #v-ratdom_skel_dance1 }
-
-**Entry ID:** `ratdom_skel_dance1` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1)
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1)
 
 ### Dialogue simulator
 
@@ -62,11 +48,173 @@ Set your quest stages and items, then talk to Dancing skeleton. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_skel_dance1)"
+## Skeleton dance, Ratdom maze 543d (2) { #v-ratdom_skel_dance2 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (3) { #v-ratdom_skel_dance3 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (4) { #v-ratdom_skel_dance4 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (5) { #v-ratdom_skel_dance5 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (6) { #v-ratdom_skel_dance6 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Skeleton dance, Ratdom maze 543d (7) { #v-ratdom_skel_dance7 }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**7 entries.** The game data defines 7 separate characters named Dancing skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_skel_dance1` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance1) |
+| `ratdom_skel_dance2` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance2) |
+| `ratdom_skel_dance3` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance3) |
+| `ratdom_skel_dance4` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance4) |
+| `ratdom_skel_dance5` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance5) |
+| `ratdom_skel_dance6` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance6) |
+| `ratdom_skel_dance7` | NPC | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_dance7) |
+
+??? info "Technical information: ratdom_skel_dance1"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance1` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -88,38 +236,12 @@ Set your quest stages and items, then talk to Dancing skeleton. Same rules as th
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance2) { #v-ratdom_skel_dance2 }
-
-**Entry ID:** `ratdom_skel_dance2` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance2)"
+??? info "Technical information: ratdom_skel_dance2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance2` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -141,38 +263,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance3) { #v-ratdom_skel_dance3 }
-
-**Entry ID:** `ratdom_skel_dance3` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance3)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance3)"
+??? info "Technical information: ratdom_skel_dance3"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance3` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -194,38 +290,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance4) { #v-ratdom_skel_dance4 }
-
-**Entry ID:** `ratdom_skel_dance4` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance4)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance4)"
+??? info "Technical information: ratdom_skel_dance4"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance4` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -247,38 +317,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance5) { #v-ratdom_skel_dance5 }
-
-**Entry ID:** `ratdom_skel_dance5` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance5)"
+??? info "Technical information: ratdom_skel_dance5"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance5` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -300,38 +344,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance6) { #v-ratdom_skel_dance6 }
-
-**Entry ID:** `ratdom_skel_dance6` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance6)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance6)"
+??? info "Technical information: ratdom_skel_dance6"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance6` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -353,38 +371,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance7) { #v-ratdom_skel_dance7 }
-
-**Entry ID:** `ratdom_skel_dance7` · **Type:** NPC
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Dancing skeleton. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_do_nothing.json" data-npc="Dancing skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_do_nothing](#d-ratdom_skel_dance1-ratdom_do_nothing).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_dance7)"
+??? info "Technical information: ratdom_skel_dance7"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_dance7` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_skel_dance_grp` |
     | Loot table | – |
     | Conversation | `ratdom_do_nothing` |
@@ -405,7 +397,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "ratdom_do_nothing"
     }
     ```
-
 
 
 ## Community notes

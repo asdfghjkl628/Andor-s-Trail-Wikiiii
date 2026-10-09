@@ -12,10 +12,9 @@ description: "Benbyr is a non-player character (NPC) in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Cheap cuts](../quests/benbyr.md) |
 | **Found in** | Crossroads Guardhouse |
-| **Entry ID** | `benbyr` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -241,7 +240,7 @@ Set your quest stages and items, then talk to Benbyr. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.”<br>· text: “I have heard that he is herding sheep these days. This is an excellen…” → “I have heard that he is herding sheep these days. This is an excellen…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “As to the nature of our business, I can't really tell you. Let's just…” → “As to the nature of our business, I can't really tell you. Let's just…”<br>· text: “Very well, but remember that I have my eyes on you.. adventurer.” → “Very well, but remember that I have my eyes on you ... adventurer.” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines added, 1 line changed |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed<br>· text: “(This man seems to be inmersed in his thoughts)” → “(This man seems to be immersed in his thoughts)” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 15 lines added, 1 line changed |
@@ -249,11 +248,16 @@ Set your quest stages and items, then talk to Benbyr. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `benbyr` |
+    | Type (wiki) | NPC |
     | Spawn group | `benbyr` |
     | Loot table | – |
     | Conversation | `benbyr` |

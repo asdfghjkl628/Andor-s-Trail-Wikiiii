@@ -4,32 +4,23 @@ description: "Oegyth crystal is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/items_misc_35.png){ .sprite } Oegyth crystal
 
+**Where to find Oegyth crystal:** [Mt. Galmore, Galmore cavea 2](#v-mg2_cavea_home), [Mt. Galmore, Galmore cavea 2](#v-mg2_cavea_throdna)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/items_misc_35.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Mt. Galmore |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Oegyth crystal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
+## Mt. Galmore, Galmore cavea 2 { #v-mg2_cavea_home }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`mg2_cavea_home`](#v-mg2_cavea_home) | NPC | Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home) | – |
-| [`mg2_cavea_throdna`](#v-mg2_cavea_throdna) | NPC | Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna) | – |
-
-## Mt. Galmore, Galmore cavea 2 (mg2_cavea_home) { #v-mg2_cavea_home }
-
-**Entry ID:** `mg2_cavea_home` · **Type:** NPC
-
-**Location:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home)
+**Where:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home)
 
 ### Dialogue simulator
 
@@ -57,38 +48,9 @@ Set your quest stages and items, then talk to Oegyth crystal. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (mg2_cavea_home)"
+## Mt. Galmore, Galmore cavea 2 (2) { #v-mg2_cavea_throdna }
 
-    | | |
-    |---|---|
-    | Entry ID | `mg2_cavea_home` |
-    | Spawn group | `mg2_cavea_home` |
-    | Loot table | – |
-    | Conversation | `mg2_cavea_home` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `items_misc:35` |
-    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "mg2_cavea_home",
-     "name": "Oegyth crystal",
-     "iconID": "items_misc:35",
-     "monsterClass": "construct",
-     "spawnGroup": "mg2_cavea_home",
-     "phraseID": "mg2_cavea_home"
-    }
-    ```
-
-
-## Mt. Galmore, Galmore cavea 2 (mg2_cavea_throdna) { #v-mg2_cavea_throdna }
-
-**Entry ID:** `mg2_cavea_throdna` · **Type:** NPC
-
-**Location:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna)
+**Where:** Mt. Galmore: [Galmore cavea 2](../maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna)
 
 ### Dialogue simulator
 
@@ -116,11 +78,51 @@ Set your quest stages and items, then talk to Oegyth crystal. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (mg2_cavea_throdna)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Oegyth crystal. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation.
+
+| Entry | Type | Section |
+|---|---|---|
+| `mg2_cavea_home` | NPC | [Mt. Galmore, Galmore cavea 2](#v-mg2_cavea_home) |
+| `mg2_cavea_throdna` | NPC | [Mt. Galmore, Galmore cavea 2](#v-mg2_cavea_throdna) |
+
+??? info "Technical information: mg2_cavea_home"
+
+    | | |
+    |---|---|
+    | Entry ID | `mg2_cavea_home` |
+    | Type (wiki) | NPC |
+    | Spawn group | `mg2_cavea_home` |
+    | Loot table | – |
+    | Conversation | `mg2_cavea_home` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `items_misc:35` |
+    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "mg2_cavea_home",
+     "name": "Oegyth crystal",
+     "iconID": "items_misc:35",
+     "monsterClass": "construct",
+     "spawnGroup": "mg2_cavea_home",
+     "phraseID": "mg2_cavea_home"
+    }
+    ```
+
+??? info "Technical information: mg2_cavea_throdna"
 
     | | |
     |---|---|
     | Entry ID | `mg2_cavea_throdna` |
+    | Type (wiki) | NPC |
     | Spawn group | `mg2_cavea_throdna` |
     | Loot table | – |
     | Conversation | `mg2_cavea_throdna` |
@@ -141,7 +143,6 @@ Set your quest stages and items, then talk to Oegyth crystal. Same rules as the 
      "phraseID": "mg2_cavea_throdna"
     }
     ```
-
 
 
 ## Community notes

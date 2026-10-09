@@ -4,35 +4,23 @@ description: "Black fog is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_tometik3_44.png){ .sprite } Black fog
 
+**Where to find Black fog:** [Bogsten 4](#v-zuul_khan1_blocker), [Mushroom m 2 3](#v-zuul_khan2_blocker), [Mushroom m 2 6](#v-zuul_khan3_blocker), [Mushroom m 2 8](#v-zuul_khan4_blocker), [Mushroom m 3 1 and 1 more](#v-zuul_khan9_blocker)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik3_44.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Bogsten 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1, Mywildcave 4 |
-| **Entries in game data** | 5 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Black fog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Bogsten 4 { #v-zuul_khan1_blocker }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`zuul_khan1_blocker`](#v-zuul_khan1_blocker) | NPC | [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker) | – |
-| [`zuul_khan2_blocker`](#v-zuul_khan2_blocker) | NPC | [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker) | – |
-| [`zuul_khan3_blocker`](#v-zuul_khan3_blocker) | NPC | [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker) | – |
-| [`zuul_khan4_blocker`](#v-zuul_khan4_blocker) | NPC | [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker) | – |
-| [`zuul_khan9_blocker`](#v-zuul_khan9_blocker) | NPC | [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [Mywildcave 4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker) | – |
-
-## Bogsten 4 (zuul_khan1_blocker) { #v-zuul_khan1_blocker }
-
-**Entry ID:** `zuul_khan1_blocker` · **Type:** NPC
-
-**Location:** [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker)
+**Where:** [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker)
 
 ### Quests
 
@@ -71,39 +59,9 @@ Set your quest stages and items, then talk to Black fog. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan1_blocker)"
+## Mushroom m 2 3 { #v-zuul_khan2_blocker }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan1_blocker` |
-    | Spawn group | `zuul_khan1_blocker` |
-    | Loot table | – |
-    | Conversation | `zuul_khan1_blocker` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik3:44` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "zuul_khan1_blocker",
-     "name": "Black fog",
-     "iconID": "monsters_tometik3:44",
-     "moveCost": 5,
-     "monsterClass": "animal",
-     "spawnGroup": "zuul_khan1_blocker",
-     "phraseID": "zuul_khan1_blocker"
-    }
-    ```
-
-
-## Mushroom m 2 3 (zuul_khan2_blocker) { #v-zuul_khan2_blocker }
-
-**Entry ID:** `zuul_khan2_blocker` · **Type:** NPC
-
-**Location:** [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker)
+**Where:** [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker)
 
 ### Quests
 
@@ -141,39 +99,9 @@ Set your quest stages and items, then talk to Black fog. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan2_blocker)"
+## Mushroom m 2 6 { #v-zuul_khan3_blocker }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan2_blocker` |
-    | Spawn group | `zuul_khan2_blocker` |
-    | Loot table | – |
-    | Conversation | `zuul_khan2_blocker` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik3:44` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "zuul_khan2_blocker",
-     "name": "Black fog",
-     "iconID": "monsters_tometik3:44",
-     "moveCost": 5,
-     "monsterClass": "animal",
-     "spawnGroup": "zuul_khan2_blocker",
-     "phraseID": "zuul_khan2_blocker"
-    }
-    ```
-
-
-## Mushroom m 2 6 (zuul_khan3_blocker) { #v-zuul_khan3_blocker }
-
-**Entry ID:** `zuul_khan3_blocker` · **Type:** NPC
-
-**Location:** [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker)
+**Where:** [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker)
 
 ### Quests
 
@@ -211,39 +139,9 @@ Set your quest stages and items, then talk to Black fog. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan3_blocker)"
+## Mushroom m 2 8 { #v-zuul_khan4_blocker }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan3_blocker` |
-    | Spawn group | `zuul_khan3_blocker` |
-    | Loot table | – |
-    | Conversation | `zuul_khan3_blocker` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik3:44` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "zuul_khan3_blocker",
-     "name": "Black fog",
-     "iconID": "monsters_tometik3:44",
-     "moveCost": 5,
-     "monsterClass": "animal",
-     "spawnGroup": "zuul_khan3_blocker",
-     "phraseID": "zuul_khan3_blocker"
-    }
-    ```
-
-
-## Mushroom m 2 8 (zuul_khan4_blocker) { #v-zuul_khan4_blocker }
-
-**Entry ID:** `zuul_khan4_blocker` · **Type:** NPC
-
-**Location:** [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker)
+**Where:** [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker)
 
 ### Quests
 
@@ -281,39 +179,9 @@ Set your quest stages and items, then talk to Black fog. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan4_blocker)"
+## Mushroom m 3 1 and 1 more { #v-zuul_khan9_blocker }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan4_blocker` |
-    | Spawn group | `zuul_khan4_blocker` |
-    | Loot table | – |
-    | Conversation | `zuul_khan4_blocker` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik3:44` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "zuul_khan4_blocker",
-     "name": "Black fog",
-     "iconID": "monsters_tometik3:44",
-     "moveCost": 5,
-     "monsterClass": "animal",
-     "spawnGroup": "zuul_khan4_blocker",
-     "phraseID": "zuul_khan4_blocker"
-    }
-    ```
-
-
-## Mushroom m 3 1 and 1 more (zuul_khan9_blocker) { #v-zuul_khan9_blocker }
-
-**Entry ID:** `zuul_khan9_blocker` · **Type:** NPC
-
-**Location:** [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [Mywildcave 4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker)
+**Where:** [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [Mywildcave 4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker)
 
 ### Locations
 
@@ -364,11 +232,139 @@ Set your quest stages and items, then talk to Black fog. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan9_blocker)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Black fog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `zuul_khan1_blocker` | NPC | [Bogsten 4](#v-zuul_khan1_blocker) |
+| `zuul_khan2_blocker` | NPC | [Mushroom m 2 3](#v-zuul_khan2_blocker) |
+| `zuul_khan3_blocker` | NPC | [Mushroom m 2 6](#v-zuul_khan3_blocker) |
+| `zuul_khan4_blocker` | NPC | [Mushroom m 2 8](#v-zuul_khan4_blocker) |
+| `zuul_khan9_blocker` | NPC | [Mushroom m 3 1 and 1 more](#v-zuul_khan9_blocker) |
+
+??? info "Technical information: zuul_khan1_blocker"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan1_blocker` |
+    | Type (wiki) | NPC |
+    | Spawn group | `zuul_khan1_blocker` |
+    | Loot table | – |
+    | Conversation | `zuul_khan1_blocker` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik3:44` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan1_blocker",
+     "name": "Black fog",
+     "iconID": "monsters_tometik3:44",
+     "moveCost": 5,
+     "monsterClass": "animal",
+     "spawnGroup": "zuul_khan1_blocker",
+     "phraseID": "zuul_khan1_blocker"
+    }
+    ```
+
+??? info "Technical information: zuul_khan2_blocker"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan2_blocker` |
+    | Type (wiki) | NPC |
+    | Spawn group | `zuul_khan2_blocker` |
+    | Loot table | – |
+    | Conversation | `zuul_khan2_blocker` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik3:44` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan2_blocker",
+     "name": "Black fog",
+     "iconID": "monsters_tometik3:44",
+     "moveCost": 5,
+     "monsterClass": "animal",
+     "spawnGroup": "zuul_khan2_blocker",
+     "phraseID": "zuul_khan2_blocker"
+    }
+    ```
+
+??? info "Technical information: zuul_khan3_blocker"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan3_blocker` |
+    | Type (wiki) | NPC |
+    | Spawn group | `zuul_khan3_blocker` |
+    | Loot table | – |
+    | Conversation | `zuul_khan3_blocker` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik3:44` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan3_blocker",
+     "name": "Black fog",
+     "iconID": "monsters_tometik3:44",
+     "moveCost": 5,
+     "monsterClass": "animal",
+     "spawnGroup": "zuul_khan3_blocker",
+     "phraseID": "zuul_khan3_blocker"
+    }
+    ```
+
+??? info "Technical information: zuul_khan4_blocker"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan4_blocker` |
+    | Type (wiki) | NPC |
+    | Spawn group | `zuul_khan4_blocker` |
+    | Loot table | – |
+    | Conversation | `zuul_khan4_blocker` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik3:44` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan4_blocker",
+     "name": "Black fog",
+     "iconID": "monsters_tometik3:44",
+     "moveCost": 5,
+     "monsterClass": "animal",
+     "spawnGroup": "zuul_khan4_blocker",
+     "phraseID": "zuul_khan4_blocker"
+    }
+    ```
+
+??? info "Technical information: zuul_khan9_blocker"
 
     | | |
     |---|---|
     | Entry ID | `zuul_khan9_blocker` |
+    | Type (wiki) | NPC |
     | Spawn group | `zuul_khan9_blocker` |
     | Loot table | – |
     | Conversation | `zuul_khan9_blocker` |
@@ -390,7 +386,6 @@ Set your quest stages and items, then talk to Black fog. Same rules as the game:
      "phraseID": "zuul_khan9_blocker"
     }
     ```
-
 
 
 ## Community notes

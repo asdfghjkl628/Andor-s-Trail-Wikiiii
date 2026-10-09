@@ -17,36 +17,30 @@ description: "Snapmaw is an enemy in Andor's Trail (reptile) with 114 HP, worth 
 | **Class** | Reptile |
 | **HP** | 114 |
 | **XP when defeated** | 516 |
-| **Entry ID** | `snapmaw` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 114 |
 | XP when defeated | 516 |
 | Damage | 13 to 25 |
-| Attack chance | 140 |
-| Block chance | 250 |
-| Damage resistance | 25 |
-| Max AP | 13 |
-| Attack cost | 7 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
+| AC | 140 |
+| BC | 250 |
+| DR | 25 |
+| Attacks per turn | 1 (7 AP each, 13 AP) |
+| Crit chance | 15% (×2.0) |
 
-**On hit:** Restore AP: 0 to 1
+**Its hits:** Restore AP: 0 to 1
 
-**When hit:** On self: [Bark skin](../conditions/barkskin.md) (magnitude 1, 3 rounds, 15% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 4, 4 rounds, 15% chance)
+**When you hit it:** On self: [Bark skin](../conditions/barkskin.md) (magnitude 1, 3 rounds, 15% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 4, 4 rounds, 15% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Locations
 
@@ -70,11 +64,24 @@ description: "Snapmaw is an enemy in Andor's Trail (reptile) with 114 HP, worth 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `snapmaw` |
+    | Type (wiki) | Enemy |
     | Spawn group | `snapmaw` |
     | Loot table | – |
     | Conversation | – |
@@ -129,15 +136,6 @@ description: "Snapmaw is an enemy in Andor's Trail (reptile) with 114 HP, worth 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

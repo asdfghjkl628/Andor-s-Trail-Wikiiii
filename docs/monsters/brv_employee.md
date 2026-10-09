@@ -4,33 +4,24 @@ description: "Stebbarik is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_34.png){ .sprite } Stebbarik
 
+**Where to find Stebbarik:** [Brimhaven, Brimhaven employee](#v-brv_employee), [Brimhaven, Brimhaven tavern 1](#v-brv_employee2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_34.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Work for debts](../quests/brv_employee.md) |
 | **Found in** | Brimhaven |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Stebbarik. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Brimhaven, Brimhaven employee { #v-brv_employee }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brv_employee`](#v-brv_employee) | NPC | Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee) | starts [Work for debts](../quests/brv_employee.md) |
-| [`brv_employee2`](#v-brv_employee2) | NPC | Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2) | – |
-
-## Brimhaven, Brimhaven employee (brv_employee) { #v-brv_employee }
-
-**Entry ID:** `brv_employee` · **Type:** NPC · **Role:** Starts [Work for debts](../quests/brv_employee.md)
-
-**Location:** Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee)
+**Where:** Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee) · **Role:** Starts [Work for debts](../quests/brv_employee.md)
 
 ### Quests
 
@@ -109,39 +100,9 @@ Set your quest stages and items, then talk to Stebbarik. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_employee)"
+## Brimhaven, Brimhaven tavern 1 { #v-brv_employee2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_employee` |
-    | Spawn group | `brv_employee` |
-    | Loot table | – |
-    | Conversation | `brv_employee` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:34` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_employee",
-     "name": "Stebbarik",
-     "iconID": "monsters_ld1:34",
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_employee",
-     "phraseID": "brv_employee"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern 1 (brv_employee2) { #v-brv_employee2 }
-
-**Entry ID:** `brv_employee2` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2)
+**Where:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee2)
 
 ### Dialogue simulator
 
@@ -174,11 +135,52 @@ Set your quest stages and items, then talk to Stebbarik. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_employee2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Stebbarik. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_employee` | NPC | [Brimhaven, Brimhaven employee](#v-brv_employee) |
+| `brv_employee2` | NPC | [Brimhaven, Brimhaven tavern 1](#v-brv_employee2) |
+
+??? info "Technical information: brv_employee"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_employee` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_employee` |
+    | Loot table | – |
+    | Conversation | `brv_employee` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:34` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_employee",
+     "name": "Stebbarik",
+     "iconID": "monsters_ld1:34",
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_employee",
+     "phraseID": "brv_employee"
+    }
+    ```
+
+??? info "Technical information: brv_employee2"
 
     | | |
     |---|---|
     | Entry ID | `brv_employee2` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_employee2` |
     | Loot table | – |
     | Conversation | `brv_employee2` |
@@ -200,7 +202,6 @@ Set your quest stages and items, then talk to Stebbarik. Same rules as the game:
      "phraseID": "brv_employee2"
     }
     ```
-
 
 
 ## Community notes

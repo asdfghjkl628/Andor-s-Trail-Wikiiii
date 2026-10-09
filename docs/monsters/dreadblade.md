@@ -4,6 +4,8 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 
 # ![](../assets/icons/monsters/monsters_antison_2.png){ .sprite } Dreadstaff lich
 
+**Where to find Dreadstaff lich:** [Undertell 3 lava 10 and 4 more](#v-dreadblade), [Undertell 3 lava 00](#v-dreadstaff_help_liches), [Undertell 3 lava 01 and 1 more](#v-dreadstaff_help_plague)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_antison_2.png){ .sprite }</p>
@@ -15,49 +17,32 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 | **Class** | Undead |
 | **HP** | 285 |
 | **XP when defeated** | 822 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Dreadstaff lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
+## Undertell 3 lava 10 and 4 more { #v-dreadblade }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`dreadblade`](#v-dreadblade) | Enemy | [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) (+3 more) | – | 285 |
-| [`dreadstaff_help_liches`](#v-dreadstaff_help_liches) | Enemy | [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 285 |
-| [`dreadstaff_help_plague`](#v-dreadstaff_help_plague) | Enemy | [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 285 |
+**Where:** [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 5](../maps/undertell_5.md), [Undertell 7 01](../maps/undertell_7_01.md)
 
-## Undertell 3 lava 10 and 4 more (dreadblade) { #v-dreadblade }
+### Combat
 
-**Entry ID:** `dreadblade` · **Type:** Enemy
-
-**Location:** [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 5](../maps/undertell_5.md), [Undertell 7 01](../maps/undertell_7_01.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 285 |
 | XP when defeated | 822 |
 | Damage | 10 to 13 |
-| Attack chance | 210 |
-| Block chance | 185 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.1 |
-| Critical hit chance | 12% |
+| AC | 210 |
+| BC | 185 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 12% (×2.1) |
 
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -88,11 +73,130 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (dreadblade)"
+## Undertell 3 lava 00 { #v-dreadstaff_help_liches }
+
+**Where:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 285 |
+| XP when defeated | 822 |
+| Damage | 10 to 13 |
+| AC | 210 |
+| BC | 185 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 12% (×2.1) |
+
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 40% | 9 to 12 |
+| [Lich dust](../items/lich_dust.md) | 10% | 1 |
+| [Major potion of health](../items/health_major2.md) | 30% | 1 to 3 |
+| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 3 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 3 lava 01 and 1 more { #v-dreadstaff_help_plague }
+
+**Where:** [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 3 lava 10](../maps/undertell_3_lava_10.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 285 |
+| XP when defeated | 822 |
+| Damage | 10 to 13 |
+| AC | 210 |
+| BC | 185 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 12% (×2.1) |
+
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 40% | 9 to 12 |
+| [Lich dust](../items/lich_dust.md) | 10% | 1 |
+| [Major potion of health](../items/health_major2.md) | 30% | 1 to 3 |
+| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 2 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 2 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Dreadstaff lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `dreadblade` | Enemy | [Undertell 3 lava 10 and 4 more](#v-dreadblade) |
+| `dreadstaff_help_liches` | Enemy | [Undertell 3 lava 00](#v-dreadstaff_help_liches) |
+| `dreadstaff_help_plague` | Enemy | [Undertell 3 lava 01 and 1 more](#v-dreadstaff_help_plague) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: dreadblade"
 
     | | |
     |---|---|
     | Entry ID | `dreadblade` |
+    | Type (wiki) | Enemy |
     | Spawn group | `dreadblade` |
     | Loot table | `dreadblade_lich_dl` |
     | Conversation | – |
@@ -137,67 +241,12 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
     }
     ```
 
-
-## Undertell 3 lava 00 (dreadstaff_help_liches) { #v-dreadstaff_help_liches }
-
-**Entry ID:** `dreadstaff_help_liches` · **Type:** Enemy
-
-**Location:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 285 |
-| XP when defeated | 822 |
-| Damage | 10 to 13 |
-| Attack chance | 210 |
-| Block chance | 185 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.1 |
-| Critical hit chance | 12% |
-
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 40% | 9 to 12 |
-| [Lich dust](../items/lich_dust.md) | 10% | 1 |
-| [Major potion of health](../items/health_major2.md) | 30% | 1 to 3 |
-| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 3 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (dreadstaff_help_liches)"
+??? info "Technical information: dreadstaff_help_liches"
 
     | | |
     |---|---|
     | Entry ID | `dreadstaff_help_liches` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpLich` |
     | Loot table | `dreadblade_lich_dl` |
     | Conversation | – |
@@ -243,68 +292,12 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
     }
     ```
 
-
-## Undertell 3 lava 01 and 1 more (dreadstaff_help_plague) { #v-dreadstaff_help_plague }
-
-**Entry ID:** `dreadstaff_help_plague` · **Type:** Enemy
-
-**Location:** [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 3 lava 10](../maps/undertell_3_lava_10.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 285 |
-| XP when defeated | 822 |
-| Damage | 10 to 13 |
-| Attack chance | 210 |
-| Block chance | 185 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.1 |
-| Critical hit chance | 12% |
-
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 2, 3 rounds, 18% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 40% | 9 to 12 |
-| [Lich dust](../items/lich_dust.md) | 10% | 1 |
-| [Major potion of health](../items/health_major2.md) | 30% | 1 to 3 |
-| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 2 | – |
-| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 2 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (dreadstaff_help_plague)"
+??? info "Technical information: dreadstaff_help_plague"
 
     | | |
     |---|---|
     | Entry ID | `dreadstaff_help_plague` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpPlagueLich` |
     | Loot table | `dreadblade_lich_dl` |
     | Conversation | – |
@@ -349,16 +342,6 @@ description: "Dreadstaff lich is an enemy in Andor's Trail (undead) with 285 HP,
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

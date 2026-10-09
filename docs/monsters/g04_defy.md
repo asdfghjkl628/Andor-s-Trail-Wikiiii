@@ -1,8 +1,10 @@
 ---
-description: "Defy is an NPC who can also be fought in Andor's Trail, found in Sullengard, Aidem base 2, Aidem camp, Fallhaven, Blackwater Mountain."
+description: "Defy is an NPC you can also fight in Andor's Trail, found in Sullengard, Aidem base 2, Aidem camp, Fallhaven, Blackwater Mountain."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_81.png){ .sprite } Defy
+
+**Where to find Defy:** [Sullengard, Sullengard tavern basement](#v-g04_defy), [Aidem base 2](#v-aidem_base_defy), [Aidem camp](#v-aidem_camp_defy), [Fallhaven, Guildbrig 2](#v-aidem_jail_defy), [Blackwater Mountain, Wild 6 house](#v-defy_wild6house)
 
 <div class="infobox" markdown>
 
@@ -10,32 +12,18 @@ description: "Defy is an NPC who can also be fought in Andor's Trail, found in S
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Sullengard, Aidem base 2, Aidem camp, Fallhaven, Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 359 |
 | **XP when defeated** | 851 |
-| **Entries in game data** | 5 |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Defy. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Sullengard, Sullengard tavern basement { #v-g04_defy }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`g04_defy`](#v-g04_defy) | NPC | Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy) | – | – |
-| [`aidem_base_defy`](#v-aidem_base_defy) | NPC/Enemy | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy) | – | 359 |
-| [`aidem_camp_defy`](#v-aidem_camp_defy) | NPC | [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy) | – | – |
-| [`aidem_jail_defy`](#v-aidem_jail_defy) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
-| [`defy_wild6house`](#v-defy_wild6house) | NPC | Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-defy_wild6house) | – | – |
-
-## Sullengard, Sullengard tavern basement (g04_defy) { #v-g04_defy }
-
-**Entry ID:** `g04_defy` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy)
+**Where:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy)
 
 ### Quests
 
@@ -93,68 +81,31 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (g04_defy)"
+## Aidem base 2 { #v-aidem_base_defy }
 
-    | | |
-    |---|---|
-    | Entry ID | `g04_defy` |
-    | Spawn group | `g04_defy` |
-    | Loot table | – |
-    | Conversation | `guild04_defy` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:81` |
-    | Defined in | `res/raw/monsterlist_sullengard.json` |
+**Where:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy)
 
-    Raw data:
+!!! warning "You can fight Defy"
+    Answering “I hope not.” starts a fight with Defy.
 
-    ```json
-    {
-     "id": "g04_defy",
-     "name": "Defy",
-     "iconID": "monsters_ld1:81",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "g04_defy",
-     "phraseID": "guild04_defy",
-     "hitEffect": {},
-     "hitReceivedEffect": {}
-    }
-    ```
+### Combat
 
-
-## Aidem base 2 (aidem_base_defy) { #v-aidem_base_defy }
-
-**Entry ID:** `aidem_base_defy` · **Type:** NPC/Enemy
-
-**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 359 |
 | XP when defeated | 851 |
 | Damage | 10 to 18 |
-| Attack chance | 170 |
-| Block chance | 170 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 5 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 5% |
+| AC | 170 |
+| BC | 170 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 5% (×3.0) |
 
-**When hit:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 40% chance)
+**When you hit it:** On self: [Concentration](../conditions/g03_concentration.md) (magnitude 1, 2 rounds, 40% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -163,12 +114,6 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 | [Villain's ring](../items/ring_villain.md) | 100% | 1 |
 | [Gold coins](../items/gold.md) | 100% | 3500 to 5000 |
 | [Defy's ring](../items/defy_ring.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
@@ -239,62 +184,9 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_base_defy)"
+## Aidem camp { #v-aidem_camp_defy }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_base_defy` |
-    | Spawn group | `help_defy` |
-    | Loot table | `aidem_base_defy_dl` |
-    | Conversation | `aidem_base_defy_selector` |
-    | Faction | – |
-    | Movement | helpOthers |
-    | Icon | `monsters_ld1:81` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "aidem_base_defy",
-     "name": "Defy",
-     "iconID": "monsters_ld1:81",
-     "maxHP": 359,
-     "moveCost": 3,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "helpOthers",
-     "attackDamage": {
-      "min": 10,
-      "max": 18
-     },
-     "spawnGroup": "help_defy",
-     "phraseID": "aidem_base_defy_selector",
-     "droplistID": "aidem_base_defy_dl",
-     "attackCost": 3,
-     "attackChance": 170,
-     "criticalSkill": 5,
-     "criticalMultiplier": 3.0,
-     "blockChance": 170,
-     "hitReceivedEffect": {
-      "conditionsSource": [
-       {
-        "condition": "g03_concentration",
-        "magnitude": 1,
-        "duration": 2,
-        "chance": "40"
-       }
-      ]
-     }
-    }
-    ```
-
-
-## Aidem camp (aidem_camp_defy) { #v-aidem_camp_defy }
-
-**Entry ID:** `aidem_camp_defy` · **Type:** NPC
-
-**Location:** [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy)
+**Where:** [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy)
 
 ### Quests
 
@@ -471,39 +363,9 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_camp_defy)"
+## Fallhaven, Guildbrig 2 { #v-aidem_jail_defy }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_camp_defy` |
-    | Spawn group | `aidem_camp_defy` |
-    | Loot table | – |
-    | Conversation | `aidem_camp_defy_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:81` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "aidem_camp_defy",
-     "name": "Defy",
-     "iconID": "monsters_ld1:81",
-     "phraseID": "aidem_camp_defy_10"
-    }
-    ```
-
-
-## Fallhaven, Guildbrig 2 (aidem_jail_defy) { #v-aidem_jail_defy }
-
-**Entry ID:** `aidem_jail_defy` · **Type:** Scenery
-
-**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+**Where:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
 
 ### Version history
@@ -515,36 +377,9 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_jail_defy)"
+## Blackwater Mountain, Wild 6 house { #v-defy_wild6house }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_jail_defy` |
-    | Spawn group | `aidem_jail_defy` |
-    | Loot table | – |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:81` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "aidem_jail_defy",
-     "name": "Defy",
-     "iconID": "monsters_ld1:81",
-     "monsterClass": "humanoid"
-    }
-    ```
-
-
-## Blackwater Mountain, Wild 6 house (defy_wild6house) { #v-defy_wild6house }
-
-**Entry ID:** `defy_wild6house` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-defy_wild6house)
+**Where:** Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-defy_wild6house)
 
 ### Quests
 
@@ -585,11 +420,168 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (defy_wild6house)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Defy. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `g04_defy` | NPC | [Sullengard, Sullengard tavern basement](#v-g04_defy) |
+| `aidem_base_defy` | NPC/Enemy | [Aidem base 2](#v-aidem_base_defy) |
+| `aidem_camp_defy` | NPC | [Aidem camp](#v-aidem_camp_defy) |
+| `aidem_jail_defy` | Scenery | [Fallhaven, Guildbrig 2](#v-aidem_jail_defy) |
+| `defy_wild6house` | NPC | [Blackwater Mountain, Wild 6 house](#v-defy_wild6house) |
+
+- `aidem_jail_defy` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: g04_defy"
+
+    | | |
+    |---|---|
+    | Entry ID | `g04_defy` |
+    | Type (wiki) | NPC |
+    | Spawn group | `g04_defy` |
+    | Loot table | – |
+    | Conversation | `guild04_defy` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:81` |
+    | Defined in | `res/raw/monsterlist_sullengard.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "g04_defy",
+     "name": "Defy",
+     "iconID": "monsters_ld1:81",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "g04_defy",
+     "phraseID": "guild04_defy",
+     "hitEffect": {},
+     "hitReceivedEffect": {}
+    }
+    ```
+
+??? info "Technical information: aidem_base_defy"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_base_defy` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `help_defy` |
+    | Loot table | `aidem_base_defy_dl` |
+    | Conversation | `aidem_base_defy_selector` |
+    | Faction | – |
+    | Movement | helpOthers |
+    | Icon | `monsters_ld1:81` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_base_defy",
+     "name": "Defy",
+     "iconID": "monsters_ld1:81",
+     "maxHP": 359,
+     "moveCost": 3,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 10,
+      "max": 18
+     },
+     "spawnGroup": "help_defy",
+     "phraseID": "aidem_base_defy_selector",
+     "droplistID": "aidem_base_defy_dl",
+     "attackCost": 3,
+     "attackChance": 170,
+     "criticalSkill": 5,
+     "criticalMultiplier": 3.0,
+     "blockChance": 170,
+     "hitReceivedEffect": {
+      "conditionsSource": [
+       {
+        "condition": "g03_concentration",
+        "magnitude": 1,
+        "duration": 2,
+        "chance": "40"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: aidem_camp_defy"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_camp_defy` |
+    | Type (wiki) | NPC |
+    | Spawn group | `aidem_camp_defy` |
+    | Loot table | – |
+    | Conversation | `aidem_camp_defy_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:81` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_camp_defy",
+     "name": "Defy",
+     "iconID": "monsters_ld1:81",
+     "phraseID": "aidem_camp_defy_10"
+    }
+    ```
+
+??? info "Technical information: aidem_jail_defy"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_jail_defy` |
+    | Type (wiki) | Scenery |
+    | Spawn group | `aidem_jail_defy` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:81` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_jail_defy",
+     "name": "Defy",
+     "iconID": "monsters_ld1:81",
+     "monsterClass": "humanoid"
+    }
+    ```
+
+??? info "Technical information: defy_wild6house"
 
     | | |
     |---|---|
     | Entry ID | `defy_wild6house` |
+    | Type (wiki) | NPC |
     | Spawn group | `defy_wild6house` |
     | Loot table | – |
     | Conversation | `defy_wild6house_selector` |
@@ -608,16 +600,6 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
      "phraseID": "defy_wild6house_selector"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

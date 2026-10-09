@@ -1,8 +1,10 @@
 ---
-description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found in Snakecave 3, Blackwater Mountain. Starts Perception is not reality."
+description: "Ewmondold is an NPC you can also fight in Andor's Trail, found in Snakecave 3, Blackwater Mountain. Starts Perception is not reality."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_18.png){ .sprite } Ewmondold
+
+**Where to find Ewmondold:** [Snakecave 3](#v-ewmondold_snake_master), [Blackwater Mountain, Wild 2](#v-inspiring_snake_master)
 
 <div class="infobox" markdown>
 
@@ -10,67 +12,45 @@ description: "Ewmondold is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Perception is not reality](../quests/new_snake_master.md) |
 | **Found in** | Snakecave 3, Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 70 |
 | **XP when defeated** | 150 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Ewmondold. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
+## Snakecave 3 { #v-ewmondold_snake_master }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ewmondold_snake_master`](#v-ewmondold_snake_master) | NPC/Enemy | [Snakecave 3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master) | – | 70 |
-| [`inspiring_snake_master`](#v-inspiring_snake_master) | NPC | Blackwater Mountain: [Wild 2](../maps/wild2.md#pin-npc-inspiring_snake_master) | starts [Perception is not reality](../quests/new_snake_master.md) | – |
+**Where:** [Snakecave 3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master)
 
-## Snakecave 3 (ewmondold_snake_master) { #v-ewmondold_snake_master }
+!!! warning "You can fight Ewmondold"
+    Answering “I won't try, I'll succeed!” starts a fight with Ewmondold.
 
-**Entry ID:** `ewmondold_snake_master` · **Type:** NPC/Enemy
+### Combat
 
-**Location:** [Snakecave 3](../maps/snakecave3.md#pin-npc-ewmondold_snake_master)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 70 |
 | XP when defeated | 150 |
 | Damage | 2 to 5 |
-| Attack chance | 67 |
-| Block chance | 13 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 200 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 58% |
+| AC | 67 |
+| BC | 13 |
+| DR | 4 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 58% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 200 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Snakecave 3](../maps/snakecave3.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
@@ -108,50 +88,9 @@ Set your quest stages and items, then talk to Ewmondold. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ewmondold_snake_master)"
+## Blackwater Mountain, Wild 2 { #v-inspiring_snake_master }
 
-    | | |
-    |---|---|
-    | Entry ID | `ewmondold_snake_master` |
-    | Spawn group | `ewmondold_snake_master` |
-    | Loot table | `gold200` |
-    | Conversation | `ewmondold_snake_master_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik1:18` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ewmondold_snake_master",
-     "name": "Ewmondold",
-     "iconID": "monsters_tometik1:18",
-     "maxHP": 70,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 2,
-      "max": 5
-     },
-     "phraseID": "ewmondold_snake_master_10",
-     "droplistID": "gold200",
-     "attackCost": 5,
-     "attackChance": 67,
-     "criticalSkill": 200,
-     "criticalMultiplier": 3.0,
-     "blockChance": 13,
-     "damageResistance": 4
-    }
-    ```
-
-
-## Blackwater Mountain, Wild 2 (inspiring_snake_master) { #v-inspiring_snake_master }
-
-**Entry ID:** `inspiring_snake_master` · **Type:** NPC · **Role:** Starts [Perception is not reality](../quests/new_snake_master.md)
-
-**Location:** Blackwater Mountain: [Wild 2](../maps/wild2.md#pin-npc-inspiring_snake_master)
+**Where:** Blackwater Mountain: [Wild 2](../maps/wild2.md#pin-npc-inspiring_snake_master) · **Role:** Starts [Perception is not reality](../quests/new_snake_master.md)
 
 ### Quests
 
@@ -224,11 +163,71 @@ Set your quest stages and items, then talk to Ewmondold. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (inspiring_snake_master)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Ewmondold. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ewmondold_snake_master` | NPC/Enemy | [Snakecave 3](#v-ewmondold_snake_master) |
+| `inspiring_snake_master` | NPC | [Blackwater Mountain, Wild 2](#v-inspiring_snake_master) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: ewmondold_snake_master"
+
+    | | |
+    |---|---|
+    | Entry ID | `ewmondold_snake_master` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `ewmondold_snake_master` |
+    | Loot table | `gold200` |
+    | Conversation | `ewmondold_snake_master_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik1:18` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ewmondold_snake_master",
+     "name": "Ewmondold",
+     "iconID": "monsters_tometik1:18",
+     "maxHP": 70,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 2,
+      "max": 5
+     },
+     "phraseID": "ewmondold_snake_master_10",
+     "droplistID": "gold200",
+     "attackCost": 5,
+     "attackChance": 67,
+     "criticalSkill": 200,
+     "criticalMultiplier": 3.0,
+     "blockChance": 13,
+     "damageResistance": 4
+    }
+    ```
+
+??? info "Technical information: inspiring_snake_master"
 
     | | |
     |---|---|
     | Entry ID | `inspiring_snake_master` |
+    | Type (wiki) | NPC |
     | Spawn group | `inspiring_snake_master` |
     | Loot table | – |
     | Conversation | `inspiring_snake_master_10` |
@@ -250,16 +249,6 @@ Set your quest stages and items, then talk to Ewmondold. Same rules as the game:
      "phraseID": "inspiring_snake_master_10"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

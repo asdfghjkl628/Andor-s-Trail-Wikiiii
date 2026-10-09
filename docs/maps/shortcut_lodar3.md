@@ -51,8 +51,8 @@ description: "Shortcut lodar 3 is an indoor location in Andor's Trail. Enemies: 
 | [Brown cave bat](../monsters/cavebat3.md) | 36 | 1–7 | 5 | shares spawn with Black cave bat, Gray cave bat |
 | [Mudfiend](../monsters/mudfiend1.md) | 37 | 4–6 | 1 | shares spawn with Tough mudfiend |
 | [Cave bat](../monsters/cavebat4.md) | 39 | 1–7 | 3 | shares spawn with Aggressive cave bat |
-| [Tough mudfiend](../monsters/mudfiend2.md) | 41 | 5–6 | 1 | shares spawn with Mudfiend |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 | 1–7 | 3 | shares spawn with Cave bat |
+| [Tough mudfiend](../monsters/mudfiend2.md) | 41 | 5–6 | 1 | shares spawn with Mudfiend |
 | [Young poisonous cave burrower](../monsters/caveburr1.md) | 57 | 0–5 | 2 | shares spawn with Infected larval cave burrower, Poisonous cave burrower |
 | [Infected larval cave burrower](../monsters/caveburr2.md) | 62 | 0–6 | 2 | shares spawn with Poisonous cave burrower, Young poisonous cave burrower |
 | [Poisonous cave burrower](../monsters/caveburr3.md) | 65 | 0–6 | 2 | shares spawn with Infected larval cave burrower, Young poisonous cave burrower |

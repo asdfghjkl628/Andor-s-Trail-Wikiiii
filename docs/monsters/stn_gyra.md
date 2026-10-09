@@ -4,43 +4,23 @@ description: "Gyra is a non-player character (NPC) in Andor's Trail, found in St
 
 # ![](../assets/icons/monsters/monsters_ld1_158.png){ .sprite } Gyra
 
+**Where to find Gyra:** [Stoutford castle 1](#v-stn_gyra), [Flagstone Prison, Flagstone 0 and 17 more](#v-stn_gyra1), [Flagstone Prison, Flagstone 0 and 10 more](#v-stn_gyra2), [Flagstone Prison, Stoutford castle 0 and 6 more](#v-stn_gyra3), [Flagstone Prison, Stoutford castle 0 and 5 more](#v-stn_gyra4), [Flagstone Prison, Waytogalmore 0 and 2 more](#v-stn_gyra5), [Flagstone Prison, Waytogalmore 1](#v-stn_gyra6), [Flagstone Prison, Waytogalmore 1](#v-stn_gyra7), [Flagstone Prison, Waytogalmore 1](#v-stn_gyra8), [Flagstone Prison, Waytogalmore 1](#v-stn_gyra9), [Flagstone Prison, Waytogalmore 1](#v-stn_gyraA), [Flagstone Prison, Waytogalmore 1](#v-stn_gyraB), [Flagstone Prison, Waytogalmore 1](#v-stn_gyraC)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_158.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Stoutford castle 1, Flagstone Prison, Stoutford, Prim, Flagstone Prison, Stoutford, Flagstone Prison |
-| **Entries in game data** | 13 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "13 entries in the game data"
-    The game data defines 13 separate characters named Gyra. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Stoutford castle 1 { #v-stn_gyra }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`stn_gyra`](#v-stn_gyra) | NPC | [Stoutford castle 1](../maps/stoutford_castle1.md#pin-npc-stn_gyra) | – |
-| [`stn_gyra1`](#v-stn_gyra1) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra1) (+16 more) | – |
-| [`stn_gyra2`](#v-stn_gyra2) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra2) (+9 more) | – |
-| [`stn_gyra3`](#v-stn_gyra3) | NPC | Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra3), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra3) (+5 more) | – |
-| [`stn_gyra4`](#v-stn_gyra4) | NPC | Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra4), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra4) (+4 more) | – |
-| [`stn_gyra5`](#v-stn_gyra5) | NPC | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra5), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra5) (+1 more) | – |
-| [`stn_gyra6`](#v-stn_gyra6) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra6) | – |
-| [`stn_gyra7`](#v-stn_gyra7) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra7) | – |
-| [`stn_gyra8`](#v-stn_gyra8) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra8) | – |
-| [`stn_gyra9`](#v-stn_gyra9) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra9) | – |
-| [`stn_gyraA`](#v-stn_gyraA) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraA) | – |
-| [`stn_gyraB`](#v-stn_gyraB) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraB) | – |
-| [`stn_gyraC`](#v-stn_gyraC) | NPC | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraC) | – |
-
-## Stoutford castle 1 (stn_gyra) { #v-stn_gyra }
-
-**Entry ID:** `stn_gyra` · **Type:** NPC
-
-**Location:** [Stoutford castle 1](../maps/stoutford_castle1.md#pin-npc-stn_gyra)
+**Where:** [Stoutford castle 1](../maps/stoutford_castle1.md#pin-npc-stn_gyra)
 
 ### Quests
 
@@ -95,38 +75,9 @@ Set your quest stages and items, then talk to Gyra. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_gyra)"
+## Flagstone Prison, Flagstone 0 and 17 more { #v-stn_gyra1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_gyra` |
-    | Spawn group | `stn_gyra` |
-    | Loot table | – |
-    | Conversation | `stn_gyra_init` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:158` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_gyra",
-     "name": "Gyra",
-     "iconID": "monsters_ld1:158",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "stn_gyra_init"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 and 17 more (stn_gyra1) { #v-stn_gyra1 }
-
-**Entry ID:** `stn_gyra1` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle shop](../maps/stoutford_castle_shop.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle tower 0](../maps/stoutford_castle_tower0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle tower 1](../maps/stoutford_castle_tower1.md#pin-npc-stn_gyra1) (+12 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle shop](../maps/stoutford_castle_shop.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle tower 0](../maps/stoutford_castle_tower0.md#pin-npc-stn_gyra1), Flagstone Prison: [Stoutford castle tower 1](../maps/stoutford_castle_tower1.md#pin-npc-stn_gyra1) (+12 more)
 
 ### Locations
 
@@ -196,40 +147,9 @@ Set your quest stages and items, then talk to Gyra. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_gyra1)"
+## Flagstone Prison, Flagstone 0 and 10 more { #v-stn_gyra2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_gyra1` |
-    | Spawn group | `stn_gyra1` |
-    | Loot table | – |
-    | Conversation | `stn_gyra` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:158` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_gyra1",
-     "name": "Gyra",
-     "iconID": "monsters_ld1:158",
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "stn_gyra"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 and 10 more (stn_gyra2) { #v-stn_gyra2 }
-
-**Entry ID:** `stn_gyra2` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford tower 3](../maps/stoutford_tower3.md#pin-npc-stn_gyra2), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra2), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra2) (+5 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle stable](../maps/stoutford_castle_stable.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford tower 3](../maps/stoutford_tower3.md#pin-npc-stn_gyra2), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra2), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra2) (+5 more)
 
 ### Locations
 
@@ -271,40 +191,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_gyra2)"
+## Flagstone Prison, Stoutford castle 0 and 6 more { #v-stn_gyra3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_gyra2` |
-    | Spawn group | `stn_gyra2` |
-    | Loot table | – |
-    | Conversation | `stn_gyra` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:158` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_gyra2",
-     "name": "Gyra",
-     "iconID": "monsters_ld1:158",
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "stn_gyra"
-    }
-    ```
-
-
-## Flagstone Prison, Stoutford castle 0 and 6 more (stn_gyra3) { #v-stn_gyra3 }
-
-**Entry ID:** `stn_gyra3` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra3), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra3), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stn_gyra3), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md#pin-npc-stn_gyra3), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-stn_gyra3) (+1 more)
+**Where:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra3), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra3), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stn_gyra3), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md#pin-npc-stn_gyra3), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-stn_gyra3) (+1 more)
 
 ### Locations
 
@@ -342,40 +231,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_gyra3)"
+## Flagstone Prison, Stoutford castle 0 and 5 more { #v-stn_gyra4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_gyra3` |
-    | Spawn group | `stn_gyra3` |
-    | Loot table | – |
-    | Conversation | `stn_gyra` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:158` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_gyra3",
-     "name": "Gyra",
-     "iconID": "monsters_ld1:158",
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "stn_gyra"
-    }
-    ```
-
-
-## Flagstone Prison, Stoutford castle 0 and 5 more (stn_gyra4) { #v-stn_gyra4 }
-
-**Entry ID:** `stn_gyra4` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra4), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra4), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra4), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stn_gyra4), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md#pin-npc-stn_gyra4), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-stn_gyra4)
+**Where:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-stn_gyra4), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra4), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra4), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stn_gyra4), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md#pin-npc-stn_gyra4), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-stn_gyra4)
 
 ### Locations
 
@@ -412,40 +270,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_gyra4)"
+## Flagstone Prison, Waytogalmore 0 and 2 more { #v-stn_gyra5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stn_gyra4` |
-    | Spawn group | `stn_gyra4` |
-    | Loot table | – |
-    | Conversation | `stn_gyra` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:158` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stn_gyra4",
-     "name": "Gyra",
-     "iconID": "monsters_ld1:158",
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "stn_gyra"
-    }
-    ```
-
-
-## Flagstone Prison, Waytogalmore 0 and 2 more (stn_gyra5) { #v-stn_gyra5 }
-
-**Entry ID:** `stn_gyra5` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra5), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra5), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-stn_gyra5)
+**Where:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-stn_gyra5), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra5), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-stn_gyra5)
 
 ### Locations
 
@@ -479,11 +306,374 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_gyra5)"
+## Flagstone Prison, Waytogalmore 1 { #v-stn_gyra6 }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra6)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 1 (2) { #v-stn_gyra7 }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra7)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 1 (3) { #v-stn_gyra8 }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra8)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 1 (4) { #v-stn_gyra9 }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra9)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 1 (5) { #v-stn_gyraA }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraA)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 1 (6) { #v-stn_gyraB }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraB)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 1 (7) { #v-stn_gyraC }
+
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraC)
+
+### Quests
+
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**13 entries.** The game data defines 13 separate characters named Gyra. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stn_gyra` | NPC | [Stoutford castle 1](#v-stn_gyra) |
+| `stn_gyra1` | NPC | [Flagstone Prison, Flagstone 0 and 17 more](#v-stn_gyra1) |
+| `stn_gyra2` | NPC | [Flagstone Prison, Flagstone 0 and 10 more](#v-stn_gyra2) |
+| `stn_gyra3` | NPC | [Flagstone Prison, Stoutford castle 0 and 6 more](#v-stn_gyra3) |
+| `stn_gyra4` | NPC | [Flagstone Prison, Stoutford castle 0 and 5 more](#v-stn_gyra4) |
+| `stn_gyra5` | NPC | [Flagstone Prison, Waytogalmore 0 and 2 more](#v-stn_gyra5) |
+| `stn_gyra6` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyra6) |
+| `stn_gyra7` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyra7) |
+| `stn_gyra8` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyra8) |
+| `stn_gyra9` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyra9) |
+| `stn_gyraA` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyraA) |
+| `stn_gyraB` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyraB) |
+| `stn_gyraC` | NPC | [Flagstone Prison, Waytogalmore 1](#v-stn_gyraC) |
+
+??? info "Technical information: stn_gyra"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_gyra` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_gyra` |
+    | Loot table | – |
+    | Conversation | `stn_gyra_init` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:158` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_gyra",
+     "name": "Gyra",
+     "iconID": "monsters_ld1:158",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "stn_gyra_init"
+    }
+    ```
+
+??? info "Technical information: stn_gyra1"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_gyra1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_gyra1` |
+    | Loot table | – |
+    | Conversation | `stn_gyra` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:158` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_gyra1",
+     "name": "Gyra",
+     "iconID": "monsters_ld1:158",
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "stn_gyra"
+    }
+    ```
+
+??? info "Technical information: stn_gyra2"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_gyra2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_gyra2` |
+    | Loot table | – |
+    | Conversation | `stn_gyra` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:158` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_gyra2",
+     "name": "Gyra",
+     "iconID": "monsters_ld1:158",
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "stn_gyra"
+    }
+    ```
+
+??? info "Technical information: stn_gyra3"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_gyra3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_gyra3` |
+    | Loot table | – |
+    | Conversation | `stn_gyra` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:158` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_gyra3",
+     "name": "Gyra",
+     "iconID": "monsters_ld1:158",
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "stn_gyra"
+    }
+    ```
+
+??? info "Technical information: stn_gyra4"
+
+    | | |
+    |---|---|
+    | Entry ID | `stn_gyra4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stn_gyra4` |
+    | Loot table | – |
+    | Conversation | `stn_gyra` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:158` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stn_gyra4",
+     "name": "Gyra",
+     "iconID": "monsters_ld1:158",
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "stn_gyra"
+    }
+    ```
+
+??? info "Technical information: stn_gyra5"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyra5` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyra5` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -507,42 +697,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyra6) { #v-stn_gyra6 }
-
-**Entry ID:** `stn_gyra6` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra6)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyra6)"
+??? info "Technical information: stn_gyra6"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyra6` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyra6` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -566,42 +726,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyra7) { #v-stn_gyra7 }
-
-**Entry ID:** `stn_gyra7` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra7)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyra7)"
+??? info "Technical information: stn_gyra7"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyra7` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyra7` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -625,42 +755,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyra8) { #v-stn_gyra8 }
-
-**Entry ID:** `stn_gyra8` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra8)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyra8)"
+??? info "Technical information: stn_gyra8"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyra8` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyra8` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -684,42 +784,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyra9) { #v-stn_gyra9 }
-
-**Entry ID:** `stn_gyra9` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyra9)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyra9)"
+??? info "Technical information: stn_gyra9"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyra9` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyra9` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -743,42 +813,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyraA) { #v-stn_gyraA }
-
-**Entry ID:** `stn_gyraA` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraA)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyraA)"
+??? info "Technical information: stn_gyraA"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyraA` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyraA` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -802,42 +842,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyraB) { #v-stn_gyraB }
-
-**Entry ID:** `stn_gyraB` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraB)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyraB)"
+??? info "Technical information: stn_gyraB"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyraB` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyraB` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -861,42 +871,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 1 (stn_gyraC) { #v-stn_gyraC }
-
-**Entry ID:** `stn_gyraC` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-stn_gyraC)
-
-### Quests
-
-- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 29
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gyra. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stn_gyra.json" data-npc="Gyra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stn_gyra](#d-stn_gyra1-stn_gyra).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_gyraC)"
+??? info "Technical information: stn_gyraC"
 
     | | |
     |---|---|
     | Entry ID | `stn_gyraC` |
+    | Type (wiki) | NPC |
     | Spawn group | `stn_gyraC` |
     | Loot table | – |
     | Conversation | `stn_gyra` |
@@ -919,7 +899,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "stn_gyra"
     }
     ```
-
 
 
 ## Community notes

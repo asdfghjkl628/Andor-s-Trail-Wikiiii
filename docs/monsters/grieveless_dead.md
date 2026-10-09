@@ -17,38 +17,31 @@ description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, 
 | **Class** | Ghost |
 | **HP** | 189 |
 | **XP when defeated** | 587 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `grieveless_dead` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 189 |
 | XP when defeated | 587 |
 | Damage | 14 to 21 |
-| Attack chance | 137 |
-| Block chance | 177 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 137 |
+| BC | 177 |
+| DR | 11 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**When hit:** On self: [Regeneration](../conditions/regen2.md) (magnitude 6, 1 round)
+**When you hit it:** On self: [Regeneration](../conditions/regen2.md) (magnitude 6, 1 round)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -86,11 +79,24 @@ description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `grieveless_dead` |
+    | Type (wiki) | Enemy |
     | Spawn group | `grieveless_dead` |
     | Loot table | `grieveless_dead_dl` |
     | Conversation | – |
@@ -131,15 +137,6 @@ description: "Grieveless dead is an enemy in Andor's Trail (ghost) with 189 HP, 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

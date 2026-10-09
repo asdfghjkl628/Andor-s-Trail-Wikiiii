@@ -12,10 +12,9 @@ description: "Edrin is a non-player character (NPC) in Andor's Trail, found in B
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [A strange looking dagger](../quests/brv_dagger.md) |
 | **Found in** | Brimhaven |
-| **Entry ID** | `brv_metalsmith` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
@@ -174,17 +173,22 @@ Set your quest stages and items, then talk to Edrin. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 25 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…”<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_metalsmith` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_metalsmith` |
     | Loot table | `edrin` |
     | Conversation | `edrin_0_0` |

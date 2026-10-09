@@ -4,32 +4,23 @@ description: "Goat is a non-player character (NPC) in Andor's Trail, found in Mt
 
 # ![](../assets/icons/monsters/monsters_ld2_0.png){ .sprite } Goat
 
+**Where to find Goat:** [Mt. Galmore, Galmore 24 and 1 more](#v-goat_1), [Way to sullengard east 11](#v-sullengard_goat_standing)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Mt. Galmore, Stoutford, Way to sullengard east 11 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Goat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Mt. Galmore, Galmore 24 and 1 more { #v-goat_1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`goat_1`](#v-goat_1) | NPC | Mt. Galmore: [Galmore 24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [Stoutford south-west](../maps/stoutford_sw.md#pin-npc-goat_1) | – |
-| [`sullengard_goat_standing`](#v-sullengard_goat_standing) | NPC | [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing) | – |
-
-## Mt. Galmore, Galmore 24 and 1 more (goat_1) { #v-goat_1 }
-
-**Entry ID:** `goat_1` · **Type:** NPC
-
-**Location:** Mt. Galmore: [Galmore 24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [Stoutford south-west](../maps/stoutford_sw.md#pin-npc-goat_1)
+**Where:** Mt. Galmore: [Galmore 24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [Stoutford south-west](../maps/stoutford_sw.md#pin-npc-goat_1)
 
 ### Locations
 
@@ -64,36 +55,9 @@ Set your quest stages and items, then talk to Goat. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (goat_1)"
+## Way to sullengard east 11 { #v-sullengard_goat_standing }
 
-    | | |
-    |---|---|
-    | Entry ID | `goat_1` |
-    | Spawn group | `goat_1` |
-    | Loot table | – |
-    | Conversation | `goat_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld2:0` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "goat_1",
-     "name": "Goat",
-     "iconID": "monsters_ld2:0",
-     "phraseID": "goat_0"
-    }
-    ```
-
-
-## Way to sullengard east 11 (sullengard_goat_standing) { #v-sullengard_goat_standing }
-
-**Entry ID:** `sullengard_goat_standing` · **Type:** NPC
-
-**Location:** [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing)
+**Where:** [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing)
 
 ### Dialogue simulator
 
@@ -121,11 +85,49 @@ Set your quest stages and items, then talk to Goat. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sullengard_goat_standing)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Goat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `goat_1` | NPC | [Mt. Galmore, Galmore 24 and 1 more](#v-goat_1) |
+| `sullengard_goat_standing` | NPC | [Way to sullengard east 11](#v-sullengard_goat_standing) |
+
+??? info "Technical information: goat_1"
+
+    | | |
+    |---|---|
+    | Entry ID | `goat_1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `goat_1` |
+    | Loot table | – |
+    | Conversation | `goat_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld2:0` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "goat_1",
+     "name": "Goat",
+     "iconID": "monsters_ld2:0",
+     "phraseID": "goat_0"
+    }
+    ```
+
+??? info "Technical information: sullengard_goat_standing"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_goat_standing` |
+    | Type (wiki) | NPC |
     | Spawn group | `sullengard_goat_standing` |
     | Loot table | – |
     | Conversation | `sullengard_goat_0` |
@@ -146,7 +148,6 @@ Set your quest stages and items, then talk to Goat. Same rules as the game: same
      "phraseID": "sullengard_goat_0"
     }
     ```
-
 
 
 ## Community notes

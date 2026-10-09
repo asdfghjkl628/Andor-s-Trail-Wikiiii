@@ -1,8 +1,10 @@
 ---
-description: "Sheep is an NPC who can also be fought in Andor's Trail, found in Crossroads Guardhouse, Waterwayb 4, Guynmart Castle, Ll 2 cyclops cave, Mountainlake 27, Mountainlake 28, Fields 3."
+description: "Sheep is an NPC you can also fight in Andor's Trail, found in Crossroads Guardhouse, Waterwayb 4, Guynmart Castle, Ll 2 cyclops cave, Mountainlake 27, Mountainlake 28, Fields 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } Sheep
+
+**Where to find Sheep:** [Crossroads Guardhouse, Fields 6](#v-sheep1), [Waterwayb 4](#v-cithurnsheep), [Guynmart Castle, Guynmart wood 9](#v-guynmart_sheep), [Ll 2 cyclops cave and 2 more](#v-ll2_cyclops_sheep1), [Ll 2 cyclops cave and 2 more](#v-ll2_cyclops_sheep2), [Crossroads Guardhouse, Fields 1](#v-lostsheep1), [Crossroads Guardhouse, Fields 2](#v-lostsheep2), [Fields 3](#v-lostsheep3), [Crossroads Guardhouse, Loneford 1](#v-lostsheep4)
 
 <div class="infobox" markdown>
 
@@ -10,61 +12,38 @@ description: "Sheep is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Crossroads Guardhouse, Waterwayb 4, Guynmart Castle, Ll 2 cyclops cave, Mountainlake 27, Mountainlake 28, Fields 3 |
 | **Class** | Animal |
 | **HP** | 5 |
 | **XP when defeated** | 4 |
-| **Entries in game data** | 9 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "9 entries in the game data"
-    The game data defines 9 separate characters named Sheep. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
+## Crossroads Guardhouse, Fields 6 { #v-sheep1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`sheep1`](#v-sheep1) | NPC/Enemy | Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-sheep1) | – | 5 |
-| [`cithurnsheep`](#v-cithurnsheep) | NPC | [Waterwayb 4](../maps/waterwayb4.md#pin-npc-cithurnsheep) | – | – |
-| [`guynmart_sheep`](#v-guynmart_sheep) | NPC/Enemy | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep) | – | 5 |
-| [`ll2_cyclops_sheep1`](#v-ll2_cyclops_sheep1) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1) (+1 more) | – | – |
-| [`ll2_cyclops_sheep2`](#v-ll2_cyclops_sheep2) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2) (+1 more) | – | – |
-| [`lostsheep1`](#v-lostsheep1) | NPC/Enemy | Crossroads Guardhouse: [Fields 1](../maps/fields1.md#pin-npc-lostsheep1) | – | 5 |
-| [`lostsheep2`](#v-lostsheep2) | NPC/Enemy | Crossroads Guardhouse: [Fields 2](../maps/fields2.md#pin-npc-lostsheep2) | – | 5 |
-| [`lostsheep3`](#v-lostsheep3) | NPC/Enemy | [Fields 3](../maps/fields3.md#pin-npc-lostsheep3) | – | 5 |
-| [`lostsheep4`](#v-lostsheep4) | NPC/Enemy | Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-lostsheep4) | – | 5 |
+**Where:** Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-sheep1)
 
-## Crossroads Guardhouse, Fields 6 (sheep1) { #v-sheep1 }
+!!! warning "You can fight Sheep"
+    The conversation during [Cheap cuts](../quests/benbyr.md#stage-21) can lead straight into a fight with Sheep.
 
-**Entry ID:** `sheep1` · **Type:** NPC/Enemy
+### Combat
 
-**Location:** Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-sheep1)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 4 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -72,12 +51,6 @@ description: "Sheep is an NPC who can also be fought in Andor's Trail, found in 
 |---|---|---|
 | [Meat](../items/meat.md) | 70% | 0 to 3 |
 | [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fields 6](../maps/fields6.md) | Crossroads Guardhouse | 4 | – |
 
 ### Quests
 
@@ -125,50 +98,9 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sheep1)"
+## Waterwayb 4 { #v-cithurnsheep }
 
-    | | |
-    |---|---|
-    | Entry ID | `sheep1` |
-    | Spawn group | `tinlyn_sheep` |
-    | Loot table | `tinlyn_sheep` |
-    | Conversation | `tinlyn_sheep` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:8` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "sheep1",
-     "name": "Sheep",
-     "iconID": "monsters_karvis2:8",
-     "maxHP": 5,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 0,
-      "max": 1
-     },
-     "spawnGroup": "tinlyn_sheep",
-     "phraseID": "tinlyn_sheep",
-     "droplistID": "tinlyn_sheep",
-     "attackCost": 5,
-     "attackChance": 10,
-     "blockChance": 5
-    }
-    ```
-
-
-## Waterwayb 4 (cithurnsheep) { #v-cithurnsheep }
-
-**Entry ID:** `cithurnsheep` · **Type:** NPC
-
-**Location:** [Waterwayb 4](../maps/waterwayb4.md#pin-npc-cithurnsheep)
+**Where:** [Waterwayb 4](../maps/waterwayb4.md#pin-npc-cithurnsheep)
 
 ### Dialogue simulator
 
@@ -196,76 +128,35 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (cithurnsheep)"
+## Guynmart Castle, Guynmart wood 9 { #v-guynmart_sheep }
 
-    | | |
-    |---|---|
-    | Entry ID | `cithurnsheep` |
-    | Spawn group | `cithurnsheep` |
-    | Loot table | – |
-    | Conversation | `cithurnsheep` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:8` |
-    | Defined in | `res/raw/monsterlist_graveyard1.json` |
+**Where:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep)
 
-    Raw data:
+!!! warning "You can fight Sheep"
+    Answering “You look tasty...” starts a fight with Sheep.
 
-    ```json
-    {
-     "id": "cithurnsheep",
-     "name": "Sheep",
-     "iconID": "monsters_karvis2:8",
-     "unique": 1,
-     "monsterClass": "animal",
-     "spawnGroup": "cithurnsheep",
-     "phraseID": "cithurnsheep"
-    }
-    ```
+### Combat
 
-
-## Guynmart Castle, Guynmart wood 9 (guynmart_sheep) { #v-guynmart_sheep }
-
-**Entry ID:** `guynmart_sheep` · **Type:** NPC/Enemy
-
-**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 4 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Meat](../items/meat.md) | 20% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guynmart wood 9](../maps/guynmart_wood_9.md) | Guynmart Castle | 25 | – |
 
 ### Quests that count defeats
 
@@ -314,49 +205,9 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_sheep)"
+## Ll 2 cyclops cave and 2 more { #v-ll2_cyclops_sheep1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_sheep` |
-    | Spawn group | `guynmart_sheep` |
-    | Loot table | `guynmart_sheep` |
-    | Conversation | `guynmart_sheep_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:8` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_sheep",
-     "name": "Sheep",
-     "iconID": "monsters_karvis2:8",
-     "maxHP": 5,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 0,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 0,
-      "max": 1
-     },
-     "phraseID": "guynmart_sheep_10",
-     "droplistID": "guynmart_sheep",
-     "attackCost": 5,
-     "attackChance": 10,
-     "blockChance": 5
-    }
-    ```
-
-
-## Ll 2 cyclops cave and 2 more (ll2_cyclops_sheep1) { #v-ll2_cyclops_sheep1 }
-
-**Entry ID:** `ll2_cyclops_sheep1` · **Type:** NPC
-
-**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep1)
+**Where:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep1)
 
 ### Locations
 
@@ -392,39 +243,9 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ll2_cyclops_sheep1)"
+## Ll 2 cyclops cave and 2 more (2) { #v-ll2_cyclops_sheep2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ll2_cyclops_sheep1` |
-    | Spawn group | `ll2_cyclops_sheep1` |
-    | Loot table | – |
-    | Conversation | `ll2_cyclops_sheep` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:55` |
-    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ll2_cyclops_sheep1",
-     "name": "Sheep",
-     "iconID": "monsters_rltiles2:55",
-     "monsterClass": "animal",
-     "spawnGroup": "ll2_cyclops_sheep1",
-     "horizontalFlipChance": 100,
-     "phraseID": "ll2_cyclops_sheep"
-    }
-    ```
-
-
-## Ll 2 cyclops cave and 2 more (ll2_cyclops_sheep2) { #v-ll2_cyclops_sheep2 }
-
-**Entry ID:** `ll2_cyclops_sheep2` · **Type:** NPC
-
-**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep2)
+**Where:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep2)
 
 ### Locations
 
@@ -473,64 +294,29 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ll2_cyclops_sheep2)"
+## Crossroads Guardhouse, Fields 1 { #v-lostsheep1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ll2_cyclops_sheep2` |
-    | Spawn group | `ll2_cyclops_sheep2` |
-    | Loot table | – |
-    | Conversation | `ll2_cyclops_sheep2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:55` |
-    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
+**Where:** Crossroads Guardhouse: [Fields 1](../maps/fields1.md#pin-npc-lostsheep1)
 
-    Raw data:
+!!! warning "You can fight Sheep"
+    The conversation during [Cheap cuts](../quests/benbyr.md#stage-21) can lead straight into a fight with Sheep.
 
-    ```json
-    {
-     "id": "ll2_cyclops_sheep2",
-     "name": "Sheep",
-     "iconID": "monsters_rltiles2:55",
-     "monsterClass": "animal",
-     "spawnGroup": "ll2_cyclops_sheep2",
-     "horizontalFlipChance": 100,
-     "phraseID": "ll2_cyclops_sheep2"
-    }
-    ```
+### Combat
 
-
-## Crossroads Guardhouse, Fields 1 (lostsheep1) { #v-lostsheep1 }
-
-**Entry ID:** `lostsheep1` · **Type:** NPC/Enemy
-
-**Location:** Crossroads Guardhouse: [Fields 1](../maps/fields1.md#pin-npc-lostsheep1)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 4 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -538,12 +324,6 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 |---|---|---|
 | [Meat](../items/meat.md) | 70% | 0 to 3 |
 | [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fields 1](../maps/fields1.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -619,75 +399,29 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lostsheep1)"
+## Crossroads Guardhouse, Fields 2 { #v-lostsheep2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lostsheep1` |
-    | Spawn group | `tinlyn_lostsheep1` |
-    | Loot table | `tinlyn_sheep` |
-    | Conversation | `tinlyn_lostsheep1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:8` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+**Where:** Crossroads Guardhouse: [Fields 2](../maps/fields2.md#pin-npc-lostsheep2)
 
-    Raw data:
+!!! warning "You can fight Sheep"
+    The conversation during [Cheap cuts](../quests/benbyr.md#stage-21) can lead straight into a fight with Sheep.
 
-    ```json
-    {
-     "id": "lostsheep1",
-     "name": "Sheep",
-     "iconID": "monsters_karvis2:8",
-     "maxHP": 5,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 0,
-      "max": 1
-     },
-     "spawnGroup": "tinlyn_lostsheep1",
-     "phraseID": "tinlyn_lostsheep1",
-     "droplistID": "tinlyn_sheep",
-     "attackCost": 5,
-     "attackChance": 10,
-     "blockChance": 5
-    }
-    ```
+### Combat
 
-
-## Crossroads Guardhouse, Fields 2 (lostsheep2) { #v-lostsheep2 }
-
-**Entry ID:** `lostsheep2` · **Type:** NPC/Enemy
-
-**Location:** Crossroads Guardhouse: [Fields 2](../maps/fields2.md#pin-npc-lostsheep2)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 4 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -695,12 +429,6 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 |---|---|---|
 | [Meat](../items/meat.md) | 70% | 0 to 3 |
 | [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fields 2](../maps/fields2.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -745,75 +473,29 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lostsheep2)"
+## Fields 3 { #v-lostsheep3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lostsheep2` |
-    | Spawn group | `tinlyn_lostsheep2` |
-    | Loot table | `tinlyn_sheep` |
-    | Conversation | `tinlyn_lostsheep2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:8` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+**Where:** [Fields 3](../maps/fields3.md#pin-npc-lostsheep3)
 
-    Raw data:
+!!! warning "You can fight Sheep"
+    The conversation during [Cheap cuts](../quests/benbyr.md#stage-21) can lead straight into a fight with Sheep.
 
-    ```json
-    {
-     "id": "lostsheep2",
-     "name": "Sheep",
-     "iconID": "monsters_karvis2:8",
-     "maxHP": 5,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 0,
-      "max": 1
-     },
-     "spawnGroup": "tinlyn_lostsheep2",
-     "phraseID": "tinlyn_lostsheep2",
-     "droplistID": "tinlyn_sheep",
-     "attackCost": 5,
-     "attackChance": 10,
-     "blockChance": 5
-    }
-    ```
+### Combat
 
-
-## Fields 3 (lostsheep3) { #v-lostsheep3 }
-
-**Entry ID:** `lostsheep3` · **Type:** NPC/Enemy
-
-**Location:** [Fields 3](../maps/fields3.md#pin-npc-lostsheep3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 4 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -821,12 +503,6 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 |---|---|---|
 | [Meat](../items/meat.md) | 70% | 0 to 3 |
 | [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fields 3](../maps/fields3.md) | – | 1 | – |
 
 ### Quests
 
@@ -871,75 +547,29 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lostsheep3)"
+## Crossroads Guardhouse, Loneford 1 { #v-lostsheep4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lostsheep3` |
-    | Spawn group | `tinlyn_lostsheep3` |
-    | Loot table | `tinlyn_sheep` |
-    | Conversation | `tinlyn_lostsheep3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:8` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+**Where:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-lostsheep4)
 
-    Raw data:
+!!! warning "You can fight Sheep"
+    The conversation during [Cheap cuts](../quests/benbyr.md#stage-21) can lead straight into a fight with Sheep.
 
-    ```json
-    {
-     "id": "lostsheep3",
-     "name": "Sheep",
-     "iconID": "monsters_karvis2:8",
-     "maxHP": 5,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 0,
-      "max": 1
-     },
-     "spawnGroup": "tinlyn_lostsheep3",
-     "phraseID": "tinlyn_lostsheep3",
-     "droplistID": "tinlyn_sheep",
-     "attackCost": 5,
-     "attackChance": 10,
-     "blockChance": 5
-    }
-    ```
+### Combat
 
-
-## Crossroads Guardhouse, Loneford 1 (lostsheep4) { #v-lostsheep4 }
-
-**Entry ID:** `lostsheep4` · **Type:** NPC/Enemy
-
-**Location:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-lostsheep4)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 4 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -947,12 +577,6 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 |---|---|---|
 | [Meat](../items/meat.md) | 70% | 0 to 3 |
 | [Meat from Tinlyn's sheep](../items/tinlyn_sheep_meat.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Loneford 1](../maps/loneford1.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -997,11 +621,317 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lostsheep4)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**9 entries.** The game data defines 9 separate characters named Sheep. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `sheep1` | NPC/Enemy | [Crossroads Guardhouse, Fields 6](#v-sheep1) |
+| `cithurnsheep` | NPC | [Waterwayb 4](#v-cithurnsheep) |
+| `guynmart_sheep` | NPC/Enemy | [Guynmart Castle, Guynmart wood 9](#v-guynmart_sheep) |
+| `ll2_cyclops_sheep1` | NPC | [Ll 2 cyclops cave and 2 more](#v-ll2_cyclops_sheep1) |
+| `ll2_cyclops_sheep2` | NPC | [Ll 2 cyclops cave and 2 more](#v-ll2_cyclops_sheep2) |
+| `lostsheep1` | NPC/Enemy | [Crossroads Guardhouse, Fields 1](#v-lostsheep1) |
+| `lostsheep2` | NPC/Enemy | [Crossroads Guardhouse, Fields 2](#v-lostsheep2) |
+| `lostsheep3` | NPC/Enemy | [Fields 3](#v-lostsheep3) |
+| `lostsheep4` | NPC/Enemy | [Crossroads Guardhouse, Loneford 1](#v-lostsheep4) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: sheep1"
+
+    | | |
+    |---|---|
+    | Entry ID | `sheep1` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `tinlyn_sheep` |
+    | Loot table | `tinlyn_sheep` |
+    | Conversation | `tinlyn_sheep` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:8` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "sheep1",
+     "name": "Sheep",
+     "iconID": "monsters_karvis2:8",
+     "maxHP": 5,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 0,
+      "max": 1
+     },
+     "spawnGroup": "tinlyn_sheep",
+     "phraseID": "tinlyn_sheep",
+     "droplistID": "tinlyn_sheep",
+     "attackCost": 5,
+     "attackChance": 10,
+     "blockChance": 5
+    }
+    ```
+
+??? info "Technical information: cithurnsheep"
+
+    | | |
+    |---|---|
+    | Entry ID | `cithurnsheep` |
+    | Type (wiki) | NPC |
+    | Spawn group | `cithurnsheep` |
+    | Loot table | – |
+    | Conversation | `cithurnsheep` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:8` |
+    | Defined in | `res/raw/monsterlist_graveyard1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "cithurnsheep",
+     "name": "Sheep",
+     "iconID": "monsters_karvis2:8",
+     "unique": 1,
+     "monsterClass": "animal",
+     "spawnGroup": "cithurnsheep",
+     "phraseID": "cithurnsheep"
+    }
+    ```
+
+??? info "Technical information: guynmart_sheep"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_sheep` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `guynmart_sheep` |
+    | Loot table | `guynmart_sheep` |
+    | Conversation | `guynmart_sheep_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:8` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_sheep",
+     "name": "Sheep",
+     "iconID": "monsters_karvis2:8",
+     "maxHP": 5,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 0,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 0,
+      "max": 1
+     },
+     "phraseID": "guynmart_sheep_10",
+     "droplistID": "guynmart_sheep",
+     "attackCost": 5,
+     "attackChance": 10,
+     "blockChance": 5
+    }
+    ```
+
+??? info "Technical information: ll2_cyclops_sheep1"
+
+    | | |
+    |---|---|
+    | Entry ID | `ll2_cyclops_sheep1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ll2_cyclops_sheep1` |
+    | Loot table | – |
+    | Conversation | `ll2_cyclops_sheep` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:55` |
+    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ll2_cyclops_sheep1",
+     "name": "Sheep",
+     "iconID": "monsters_rltiles2:55",
+     "monsterClass": "animal",
+     "spawnGroup": "ll2_cyclops_sheep1",
+     "horizontalFlipChance": 100,
+     "phraseID": "ll2_cyclops_sheep"
+    }
+    ```
+
+??? info "Technical information: ll2_cyclops_sheep2"
+
+    | | |
+    |---|---|
+    | Entry ID | `ll2_cyclops_sheep2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ll2_cyclops_sheep2` |
+    | Loot table | – |
+    | Conversation | `ll2_cyclops_sheep2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:55` |
+    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ll2_cyclops_sheep2",
+     "name": "Sheep",
+     "iconID": "monsters_rltiles2:55",
+     "monsterClass": "animal",
+     "spawnGroup": "ll2_cyclops_sheep2",
+     "horizontalFlipChance": 100,
+     "phraseID": "ll2_cyclops_sheep2"
+    }
+    ```
+
+??? info "Technical information: lostsheep1"
+
+    | | |
+    |---|---|
+    | Entry ID | `lostsheep1` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `tinlyn_lostsheep1` |
+    | Loot table | `tinlyn_sheep` |
+    | Conversation | `tinlyn_lostsheep1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:8` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lostsheep1",
+     "name": "Sheep",
+     "iconID": "monsters_karvis2:8",
+     "maxHP": 5,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 0,
+      "max": 1
+     },
+     "spawnGroup": "tinlyn_lostsheep1",
+     "phraseID": "tinlyn_lostsheep1",
+     "droplistID": "tinlyn_sheep",
+     "attackCost": 5,
+     "attackChance": 10,
+     "blockChance": 5
+    }
+    ```
+
+??? info "Technical information: lostsheep2"
+
+    | | |
+    |---|---|
+    | Entry ID | `lostsheep2` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `tinlyn_lostsheep2` |
+    | Loot table | `tinlyn_sheep` |
+    | Conversation | `tinlyn_lostsheep2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:8` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lostsheep2",
+     "name": "Sheep",
+     "iconID": "monsters_karvis2:8",
+     "maxHP": 5,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 0,
+      "max": 1
+     },
+     "spawnGroup": "tinlyn_lostsheep2",
+     "phraseID": "tinlyn_lostsheep2",
+     "droplistID": "tinlyn_sheep",
+     "attackCost": 5,
+     "attackChance": 10,
+     "blockChance": 5
+    }
+    ```
+
+??? info "Technical information: lostsheep3"
+
+    | | |
+    |---|---|
+    | Entry ID | `lostsheep3` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `tinlyn_lostsheep3` |
+    | Loot table | `tinlyn_sheep` |
+    | Conversation | `tinlyn_lostsheep3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:8` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lostsheep3",
+     "name": "Sheep",
+     "iconID": "monsters_karvis2:8",
+     "maxHP": 5,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 0,
+      "max": 1
+     },
+     "spawnGroup": "tinlyn_lostsheep3",
+     "phraseID": "tinlyn_lostsheep3",
+     "droplistID": "tinlyn_sheep",
+     "attackCost": 5,
+     "attackChance": 10,
+     "blockChance": 5
+    }
+    ```
+
+??? info "Technical information: lostsheep4"
 
     | | |
     |---|---|
     | Entry ID | `lostsheep4` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `tinlyn_lostsheep4` |
     | Loot table | `tinlyn_sheep` |
     | Conversation | `tinlyn_lostsheep4` |
@@ -1034,16 +964,6 @@ Set your quest stages and items, then talk to Sheep. Same rules as the game: sam
      "blockChance": 5
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

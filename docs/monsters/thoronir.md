@@ -12,10 +12,9 @@ description: "Thoronir is a non-player character (NPC) in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Fallhaven |
-| **Entry ID** | `thoronir` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -217,7 +216,7 @@ Set your quest stages and items, then talk to Thoronir. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Yes, the Bonemeal potions are ready. Please use them with care, and d…” → “Yes, the bonemeal potions are ready. Please use them with care, and d…”<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Shhh, we shouldn't talk so loud about using Bonemeal. As you know, Lo…” → “Shhh, we shouldn't talk so loud about using bonemeal. As you know, Lo…”<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 8 lines added, 1 line changed<br>· text: “Bask in the Shadow, my child.” → “null” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed |
@@ -228,11 +227,16 @@ Set your quest stages and items, then talk to Thoronir. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `thoronir` |
+    | Type (wiki) | NPC |
     | Spawn group | `thoronir` |
     | Loot table | `shop_thoronir` |
     | Conversation | `thoronir_default` |

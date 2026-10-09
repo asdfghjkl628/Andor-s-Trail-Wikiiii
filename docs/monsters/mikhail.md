@@ -1,8 +1,10 @@
 ---
-description: "Mikhail is an NPC who can also be fought in Andor's Trail, found in Crossglen, Flagstone Prison, Flagstone Prison. Starts Breakfast bread, More rats!, Rats!, Search for Andor +1."
+description: "Mikhail is an NPC you can also fight in Andor's Trail, found in Crossglen, Flagstone Prison, Flagstone Prison. Starts Breakfast bread, More rats!, Rats!, Search for Andor +1."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Mikhail
+
+**Where to find Mikhail:** [Crossglen, Home and 1 more](#v-mikhail), [Flagstone Prison, Waytogalmore 0](#v-stn_colonel_mons3), [Flagstone Prison, Waytogalmore 0](#v-stn_colonel_mons3b)
 
 <div class="infobox" markdown>
 
@@ -10,31 +12,19 @@ description: "Mikhail is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1 |
 | **Found in** | Crossglen, Flagstone Prison, Flagstone Prison |
 | **Class** | Humanoid |
 | **HP** | 100 |
 | **XP when defeated** | 190 |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Mikhail. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
+## Crossglen, Home and 1 more { #v-mikhail }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`mikhail`](#v-mikhail) | NPC | Crossglen: [Home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-mikhail) | starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1 | – |
-| [`stn_colonel_mons3`](#v-stn_colonel_mons3) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
-| [`stn_colonel_mons3b`](#v-stn_colonel_mons3b) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
-
-## Crossglen, Home and 1 more (mikhail) { #v-mikhail }
-
-**Entry ID:** `mikhail` · **Type:** NPC · **Role:** Starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1
-
-**Location:** Crossglen: [Home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-mikhail)
+**Where:** Crossglen: [Home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-mikhail) · **Role:** Starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1
 
 ### Locations
 
@@ -416,7 +406,7 @@ Set your quest stages and items, then talk to Mikhail. Same rules as the game: s
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…”<br>· text: “Thank you my son. Keep on searching for Andor.” → “Thank you my child. Keep on searching for Andor.” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 5 lines added, 1 line changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 17 lines added, 2 lines changed |
@@ -429,11 +419,116 @@ Set your quest stages and items, then talk to Mikhail. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (mikhail)"
+## Flagstone Prison, Waytogalmore 0 { #v-stn_colonel_mons3 }
+
+**Where:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 100 |
+| XP when defeated | 190 |
+| Damage | 1 to 4 |
+| AC | 40 |
+| BC | 120 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 2 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that at least 2 of these enemies have been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Flagstone Prison, Waytogalmore 0 (2) { #v-stn_colonel_mons3b }
+
+**Where:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 100 |
+| XP when defeated | 190 |
+| Damage | 1 to 4 |
+| AC | 40 |
+| BC | 120 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Mikhail. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `mikhail` | NPC | [Crossglen, Home and 1 more](#v-mikhail) |
+| `stn_colonel_mons3` | Enemy | [Flagstone Prison, Waytogalmore 0](#v-stn_colonel_mons3) |
+| `stn_colonel_mons3b` | Enemy | [Flagstone Prison, Waytogalmore 0](#v-stn_colonel_mons3b) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: mikhail"
 
     | | |
     |---|---|
     | Entry ID | `mikhail` |
+    | Type (wiki) | NPC |
     | Spawn group | `mikhail` |
     | Loot table | – |
     | Conversation | `mikhail_start_select` |
@@ -456,60 +551,12 @@ Set your quest stages and items, then talk to Mikhail. Same rules as the game: s
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons3) { #v-stn_colonel_mons3 }
-
-**Entry ID:** `stn_colonel_mons3` · **Type:** Enemy
-
-**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 100 |
-| XP when defeated | 190 |
-| Damage | 1 to 4 |
-| Attack chance | 40 |
-| Block chance | 120 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 2 | Appears later, during a quest |
-
-### Quests that count defeats
-
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that at least 2 of these enemies have been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_colonel_mons3)"
+??? info "Technical information: stn_colonel_mons3"
 
     | | |
     |---|---|
     | Entry ID | `stn_colonel_mons3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `stn_colonel_mons3` |
     | Loot table | – |
     | Conversation | – |
@@ -542,61 +589,12 @@ Set your quest stages and items, then talk to Mikhail. Same rules as the game: s
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons3b) { #v-stn_colonel_mons3b }
-
-**Entry ID:** `stn_colonel_mons3b` · **Type:** Enemy
-
-**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 100 |
-| XP when defeated | 190 |
-| Damage | 1 to 4 |
-| Attack chance | 40 |
-| Block chance | 120 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
-
-### Quests that count defeats
-
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_colonel_mons3b)"
+??? info "Technical information: stn_colonel_mons3b"
 
     | | |
     |---|---|
     | Entry ID | `stn_colonel_mons3b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `stn_colonel_mons3b` |
     | Loot table | – |
     | Conversation | – |
@@ -628,16 +626,6 @@ Set your quest stages and items, then talk to Mikhail. Same rules as the game: s
      "damageResistance": 5
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

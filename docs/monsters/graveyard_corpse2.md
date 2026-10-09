@@ -1,8 +1,10 @@
 ---
-description: "Angry graveyard corpse is an NPC who can also be fought in Andor's Trail, found in Graveyard 1, Graveyard 0."
+description: "Angry graveyard corpse is an NPC you can also fight in Andor's Trail, found in Graveyard 1, Graveyard 0."
 ---
 
 # ![](../assets/icons/monsters/monsters_zombie2_0.png){ .sprite } Angry graveyard corpse
+
+**Where to find Angry graveyard corpse:** [Graveyard 1](#v-graveyard_corpse2), [Graveyard 0](#v-graveyard_corpse3)
 
 <div class="infobox" markdown>
 
@@ -10,53 +12,37 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Graveyard 1, Graveyard 0 |
 | **Class** | Undead |
 | **HP** | 90 |
 | **XP when defeated** | 447 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Angry graveyard corpse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Graveyard 1 { #v-graveyard_corpse2 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`graveyard_corpse2`](#v-graveyard_corpse2) | Enemy | [Graveyard 1](../maps/graveyard1.md) | – | 90 |
-| [`graveyard_corpse3`](#v-graveyard_corpse3) | NPC/Enemy | [Graveyard 0](../maps/graveyard0.md#pin-npc-graveyard_corpse3) | – | 90 |
+**Where:** [Graveyard 1](../maps/graveyard1.md)
 
-## Graveyard 1 (graveyard_corpse2) { #v-graveyard_corpse2 }
+### Combat
 
-**Entry ID:** `graveyard_corpse2` · **Type:** Enemy
-
-**Location:** [Graveyard 1](../maps/graveyard1.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 90 |
 | XP when defeated | 447 |
 | Damage | 6 to 19 |
-| Attack chance | 170 |
-| Block chance | 165 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 170 |
+| BC | 165 |
+| DR | 11 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
-**On hit:** Heal HP: 1 to 3; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 2, 3 rounds, 30% chance)
+**Its hits:** Heal HP: 1 to 3; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 2, 3 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -81,11 +67,96 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (graveyard_corpse2)"
+## Graveyard 0 { #v-graveyard_corpse3 }
+
+**Where:** [Graveyard 0](../maps/graveyard0.md#pin-npc-graveyard_corpse3)
+
+!!! warning "You can fight Angry graveyard corpse"
+    Answering “Small brain??” starts a fight with Angry graveyard corpse.
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 90 |
+| XP when defeated | 447 |
+| Damage | 6 to 19 |
+| AC | 170 |
+| BC | 165 |
+| DR | 11 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
+
+**Its hits:** Heal HP: 1 to 3; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 2, 3 rounds, 30% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 100% | 200 |
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Angry graveyard corpse. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/graveyard_corpse1.json" data-npc="Angry graveyard corpse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+??? quote "Dialogue (2 lines)"
+
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
+
+    <span id="d-graveyard_corpse3-graveyard_corpse1"></span>**`graveyard_corpse1`** *(silent check: the first matching branch below is taken)*
+
+    - Next *(if NOT reached stage 90 of [Mine for the taking](../quests/graveyard_quest.md#stage-90); NOT reached stage 95 of [Mine for the taking](../quests/graveyard_quest.md#stage-95))* → [graveyard_corpse2](#d-graveyard_corpse3-graveyard_corpse2)
+
+    <span id="d-graveyard_corpse3-graveyard_corpse2"></span>**`graveyard_corpse2`** Angry graveyard corpse: “You have small brain but small brain better than no brain. ARGH!!!”
+
+    - “Small brain??” → *fight starts*
+
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 2 lines added |
+| [v0.7.12](../versions/0.7.12.md) | Loot table added<br>Max AP: added (10)<br>Movement: removed (was none)<br>Conversation added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Angry graveyard corpse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `graveyard_corpse2` | Enemy | [Graveyard 1](#v-graveyard_corpse2) |
+| `graveyard_corpse3` | NPC/Enemy | [Graveyard 0](#v-graveyard_corpse3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: graveyard_corpse2"
 
     | | |
     |---|---|
     | Entry ID | `graveyard_corpse2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `graveyard_corpse2` |
     | Loot table | `gold200` |
     | Conversation | – |
@@ -135,89 +206,12 @@ description: "Angry graveyard corpse is an NPC who can also be fought in Andor's
     }
     ```
 
-
-## Graveyard 0 (graveyard_corpse3) { #v-graveyard_corpse3 }
-
-**Entry ID:** `graveyard_corpse3` · **Type:** NPC/Enemy
-
-**Location:** [Graveyard 0](../maps/graveyard0.md#pin-npc-graveyard_corpse3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 90 |
-| XP when defeated | 447 |
-| Damage | 6 to 19 |
-| Attack chance | 170 |
-| Block chance | 165 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
-
-**On hit:** Heal HP: 1 to 3; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 2, 3 rounds, 30% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 100% | 200 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Graveyard 0](../maps/graveyard0.md) | – | 1 | – |
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Angry graveyard corpse. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/graveyard_corpse1.json" data-npc="Angry graveyard corpse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-??? quote "Dialogue (2 lines)"
-
-    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
-
-    <span id="d-graveyard_corpse3-graveyard_corpse1"></span>**`graveyard_corpse1`** *(silent check: the first matching branch below is taken)*
-
-    - Next *(if NOT reached stage 90 of [Mine for the taking](../quests/graveyard_quest.md#stage-90); NOT reached stage 95 of [Mine for the taking](../quests/graveyard_quest.md#stage-95))* → [graveyard_corpse2](#d-graveyard_corpse3-graveyard_corpse2)
-
-    <span id="d-graveyard_corpse3-graveyard_corpse2"></span>**`graveyard_corpse2`** Angry graveyard corpse: “You have small brain but small brain better than no brain. ARGH!!!”
-
-    - “Small brain??” → *fight starts*
-
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 2 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Loot table added<br>Max AP: added (10)<br>Movement: removed (was none)<br>Conversation added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (graveyard_corpse3)"
+??? info "Technical information: graveyard_corpse3"
 
     | | |
     |---|---|
     | Entry ID | `graveyard_corpse3` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `graveyard_corpse3` |
     | Loot table | `gold200` |
     | Conversation | `graveyard_corpse1` |
@@ -266,16 +260,6 @@ Set your quest stages and items, then talk to Angry graveyard corpse. Same rules
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

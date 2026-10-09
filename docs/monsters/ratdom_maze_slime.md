@@ -17,34 +17,28 @@ description: "Slime is an enemy in Andor's Trail (animal) with 5 HP, worth 126 X
 | **Class** | Animal |
 | **HP** | 5 |
 | **XP when defeated** | 126 |
-| **Entry ID** | `ratdom_maze_slime` |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 126 |
 | Damage | 8 to 18 |
-| Attack chance | 130 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 130 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 1, 2 rounds, 30% chance)
+**Its hits:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 1, 2 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -69,11 +63,24 @@ description: "Slime is an enemy in Andor's Trail (animal) with 5 HP, worth 126 X
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_slime` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_maze_slime` |
     | Loot table | `rat` |
     | Conversation | – |
@@ -113,15 +120,6 @@ description: "Slime is an enemy in Andor's Trail (animal) with 5 HP, worth 126 X
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

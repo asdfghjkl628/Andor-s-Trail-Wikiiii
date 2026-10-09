@@ -1,5 +1,5 @@
 ---
-description: "Subdued Feygard mountain scout is an NPC who can also be fought in Andor's Trail, found in Blackwater Mountain."
+description: "Subdued Feygard mountain scout is an NPC you can also fight in Andor's Trail, found in Blackwater Mountain."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_11.png){ .sprite } Subdued Feygard mountain scout
@@ -12,42 +12,36 @@ description: "Subdued Feygard mountain scout is an NPC who can also be fought in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 191 |
 | **XP when defeated** | 396 |
-| **Entry ID** | `ortholion_subdued` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Subdued Feygard mountain scout"
+    The conversation can lead straight into a fight with Subdued Feygard mountain scout.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 191 |
 | XP when defeated | 396 |
 | Damage | 2 to 5 |
-| Attack chance | 150 |
-| Block chance | 95 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 20 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 15% |
+| AC | 150 |
+| BC | 95 |
+| DR | 5 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×3.0) |
 
-**On hit:** On target: [Icy wounds](../conditions/frozen2.md) (magnitude 1, 3 rounds, 20% chance)
+**Its hits:** On target: [Icy wounds](../conditions/frozen2.md) (magnitude 1, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -62,12 +56,6 @@ description: "Subdued Feygard mountain scout is an NPC who can also be fought in
 | [Iced leather boots](../items/boots7.md) | 100% | 1 |
 | [Iced leather gloves](../items/gloves5.md) | 100% | 1 |
 | [Broken Feygard medallion](../items/feygard_necklace1.md) | 20% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
@@ -111,11 +99,24 @@ Set your quest stages and items, then talk to Subdued Feygard mountain scout. Sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ortholion_subdued` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ortholion_subdued` |
     | Loot table | `ortholion_subdued` |
     | Conversation | `ortholion_subdued_1` |
@@ -161,15 +162,6 @@ Set your quest stages and items, then talk to Subdued Feygard mountain scout. Sa
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

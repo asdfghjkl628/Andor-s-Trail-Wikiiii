@@ -4,34 +4,24 @@ description: "Clevred is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } Clevred
 
+**Where to find Clevred:** [4 wells, Ratdom maze 567 and 140 more](#v-ratdom_rat), [Blackwater Mountain, Ratdom bwm 1](#v-ratdom_rat_bwm1), [Crossglen, Crossglen](#v-ratdom_rat_crossglen)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rats_1.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Yellow is it](../quests/ratdom_quest.md) |
 | **Found in** | Blackwater Mountain, Crossglen, Entry, Blackwater Mountain, Crossglen |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Clevred. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## 4 wells, Ratdom maze 567 and 140 more { #v-ratdom_rat }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_rat`](#v-ratdom_rat) | NPC | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat) (+139 more) | starts [Yellow is it](../quests/ratdom_quest.md) |
-| [`ratdom_rat_bwm1`](#v-ratdom_rat_bwm1) | NPC | Blackwater Mountain: [Ratdom bwm 1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1) | – |
-| [`ratdom_rat_crossglen`](#v-ratdom_rat_crossglen) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen) | – |
-
-## 4 wells, Ratdom maze 567 and 140 more (ratdom_rat) { #v-ratdom_rat }
-
-**Entry ID:** `ratdom_rat` · **Type:** NPC · **Role:** Starts [Yellow is it](../quests/ratdom_quest.md)
-
-**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_rat), Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-ratdom_rat), Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md#pin-npc-ratdom_rat), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md#pin-npc-ratdom_rat) (+135 more)
+**Where:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_rat), Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-ratdom_rat), Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md#pin-npc-ratdom_rat), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md#pin-npc-ratdom_rat) (+135 more) · **Role:** Starts [Yellow is it](../quests/ratdom_quest.md)
 
 ### Locations
 
@@ -235,36 +225,9 @@ Set your quest stages and items, then talk to Clevred. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_rat)"
+## Blackwater Mountain, Ratdom bwm 1 { #v-ratdom_rat_bwm1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_rat` |
-    | Spawn group | `ratdom_rat` |
-    | Loot table | – |
-    | Conversation | `ratdom_rat` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:1` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_rat",
-     "name": "Clevred",
-     "iconID": "monsters_rats:1",
-     "phraseID": "ratdom_rat"
-    }
-    ```
-
-
-## Blackwater Mountain, Ratdom bwm 1 (ratdom_rat_bwm1) { #v-ratdom_rat_bwm1 }
-
-**Entry ID:** `ratdom_rat_bwm1` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Ratdom bwm 1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1)
+**Where:** Blackwater Mountain: [Ratdom bwm 1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1)
 
 ### Quests
 
@@ -304,37 +267,9 @@ Set your quest stages and items, then talk to Clevred. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_rat_bwm1)"
+## Crossglen, Crossglen { #v-ratdom_rat_crossglen }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_rat_bwm1` |
-    | Spawn group | `ratdom_rat_bwm1` |
-    | Loot table | – |
-    | Conversation | `ratdom_rat_bwm1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:1` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_rat_bwm1",
-     "name": "Clevred",
-     "iconID": "monsters_rats:1",
-     "unique": 1,
-     "phraseID": "ratdom_rat_bwm1"
-    }
-    ```
-
-
-## Crossglen, Crossglen (ratdom_rat_crossglen) { #v-ratdom_rat_crossglen }
-
-**Entry ID:** `ratdom_rat_crossglen` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen)
 
 ### Dialogue simulator
 
@@ -375,11 +310,76 @@ Set your quest stages and items, then talk to Clevred. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_rat_crossglen)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Clevred. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_rat` | NPC | [4 wells, Ratdom maze 567 and 140 more](#v-ratdom_rat) |
+| `ratdom_rat_bwm1` | NPC | [Blackwater Mountain, Ratdom bwm 1](#v-ratdom_rat_bwm1) |
+| `ratdom_rat_crossglen` | NPC | [Crossglen, Crossglen](#v-ratdom_rat_crossglen) |
+
+??? info "Technical information: ratdom_rat"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_rat` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ratdom_rat` |
+    | Loot table | – |
+    | Conversation | `ratdom_rat` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:1` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_rat",
+     "name": "Clevred",
+     "iconID": "monsters_rats:1",
+     "phraseID": "ratdom_rat"
+    }
+    ```
+
+??? info "Technical information: ratdom_rat_bwm1"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_rat_bwm1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ratdom_rat_bwm1` |
+    | Loot table | – |
+    | Conversation | `ratdom_rat_bwm1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:1` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_rat_bwm1",
+     "name": "Clevred",
+     "iconID": "monsters_rats:1",
+     "unique": 1,
+     "phraseID": "ratdom_rat_bwm1"
+    }
+    ```
+
+??? info "Technical information: ratdom_rat_crossglen"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_rat_crossglen` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_rat_crossglen` |
     | Loot table | – |
     | Conversation | `ratdom_rat_crossglen` |
@@ -399,7 +399,6 @@ Set your quest stages and items, then talk to Clevred. Same rules as the game: s
      "phraseID": "ratdom_rat_crossglen"
     }
     ```
-
 
 
 ## Community notes

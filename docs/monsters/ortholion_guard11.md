@@ -12,9 +12,8 @@ description: "Drunken Feygard patrol is a non-player character (NPC) in Andor's 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Elm mine 1 |
-| **Entry ID** | `ortholion_guard11` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
@@ -62,16 +61,21 @@ Set your quest stages and items, then talk to Drunken Feygard patrol. Same rules
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 5 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “No! *looks at you* This is my beeeeeer, kid! *hic*” → “No! [looks at you] This is my beeeeeer, kid! [hic]”<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!”<br>· text: “No! *looks at you* This is my beeeeeer, kid! *hic*” → “No! [looks at you] This is my beeeeeer, kid! [hic]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ortholion_guard11` |
+    | Type (wiki) | NPC |
     | Spawn group | `ortholion_guard11` |
     | Loot table | – |
     | Conversation | `ortholion_guard10_s` |

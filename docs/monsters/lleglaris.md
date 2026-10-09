@@ -12,10 +12,9 @@ description: "Lleglaris is a non-player character (NPC) in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [Long lost memories](../quests/lleglaris.md) |
 | **Found in** | Foaming Flask Tavern |
-| **Entry ID** | `lleglaris` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -168,17 +167,22 @@ Set your quest stages and items, then talk to Lleglaris. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Are you sure you should be here? Maybe you should go play with .. you…” → “Are you sure you should be here? Maybe you should go play with ... yo…”<br>· text: “Ok then. I won't keep you.” → “OK then. I won't keep you.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Ok then. I won't keep you.” → “OK then. I won't keep you.”<br>· text: “Are you sure you should be here? Maybe you should go play with .. you…” → “Are you sure you should be here? Maybe you should go play with ... yo…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lleglaris` |
+    | Type (wiki) | NPC |
     | Spawn group | `lleglaris` |
     | Loot table | `shop_lleglaris` |
     | Conversation | `lleglaris` |

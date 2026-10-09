@@ -1,5 +1,5 @@
 ---
-description: "Elm 5f 1 is an indoor location in Andor's Trail. Enemies: Dun olm, Albino olm, Resurrected miner's skeleton, Foul miner's skeleton, Contaminated miner's skeleton. Exits to Elm 5f 2, Elm 4f 1."
+description: "Elm 5f 1 is an indoor location in Andor's Trail. Enemies: Dun olm, Resurrected miner's skeleton, Albino olm, Foul miner's skeleton, Contaminated miner's skeleton. Exits to Elm 5f 2, Elm 4f 1."
 ---
 
 # Elm 5f 1
@@ -50,8 +50,8 @@ description: "Elm 5f 1 is an indoor location in Andor's Trail. Enemies: Dun olm,
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Dun olm](../monsters/bwm_olm1.md) | 61 | 5–10 | 1 | shares spawn with Albino olm |
-| [Albino olm](../monsters/bwm_olm2.md) | 66 | 7–10 | 1 | shares spawn with Dun olm |
 | [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 66 | 8–10 | 3 | shares spawn with Foul miner's skeleton |
+| [Albino olm](../monsters/bwm_olm2.md) | 66 | 7–10 | 1 | shares spawn with Dun olm |
 | [Foul miner's skeleton](../monsters/elm_miner2.md) | 82 | 6–12 | 3 | shares spawn with Resurrected miner's skeleton |
 | [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 101 | 10–15 | 8 | shares spawn with Prim guard skeleton |
 | [Prim guard skeleton](../monsters/elm_miner4.md) | 104 | 12–16 | 8 | shares spawn with Contaminated miner's skeleton |

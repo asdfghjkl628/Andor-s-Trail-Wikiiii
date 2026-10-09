@@ -4,32 +4,23 @@ description: "Osric is a non-player character (NPC) in Andor's Trail, found in W
 
 # ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } Osric
 
+**Where to find Osric:** [Wexlow Village, Wexlow village](#v-wexlow_osric), [Gamjee well jail cells](#v-troll_hollow_osric)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_130.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Osric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Wexlow Village, Wexlow village { #v-wexlow_osric }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`wexlow_osric`](#v-wexlow_osric) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-wexlow_osric) | – |
-| [`troll_hollow_osric`](#v-troll_hollow_osric) | NPC | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric) | – |
-
-## Wexlow Village, Wexlow village (wexlow_osric) { #v-wexlow_osric }
-
-**Entry ID:** `wexlow_osric` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-wexlow_osric)
+**Where:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-wexlow_osric)
 
 ### Dialogue simulator
 
@@ -75,40 +66,9 @@ Set your quest stages and items, then talk to Osric. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (wexlow_osric)"
+## Gamjee well jail cells { #v-troll_hollow_osric }
 
-    | | |
-    |---|---|
-    | Entry ID | `wexlow_osric` |
-    | Spawn group | `wexlow_osric` |
-    | Loot table | – |
-    | Conversation | `wexlow_osric_start` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_ld1:130` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "wexlow_osric",
-     "name": "Osric",
-     "iconID": "monsters_ld1:130",
-     "moveCost": 10,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "phraseID": "wexlow_osric_start"
-    }
-    ```
-
-
-## Gamjee well jail cells (troll_hollow_osric) { #v-troll_hollow_osric }
-
-**Entry ID:** `troll_hollow_osric` · **Type:** NPC
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric)
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric)
 
 ### Dialogue simulator
 
@@ -148,11 +108,53 @@ Set your quest stages and items, then talk to Osric. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (troll_hollow_osric)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Osric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `wexlow_osric` | NPC | [Wexlow Village, Wexlow village](#v-wexlow_osric) |
+| `troll_hollow_osric` | NPC | [Gamjee well jail cells](#v-troll_hollow_osric) |
+
+??? info "Technical information: wexlow_osric"
+
+    | | |
+    |---|---|
+    | Entry ID | `wexlow_osric` |
+    | Type (wiki) | NPC |
+    | Spawn group | `wexlow_osric` |
+    | Loot table | – |
+    | Conversation | `wexlow_osric_start` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_ld1:130` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "wexlow_osric",
+     "name": "Osric",
+     "iconID": "monsters_ld1:130",
+     "moveCost": 10,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "wexlow_osric_start"
+    }
+    ```
+
+??? info "Technical information: troll_hollow_osric"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_osric` |
+    | Type (wiki) | NPC |
     | Spawn group | `troll_hollow_osric` |
     | Loot table | – |
     | Conversation | `gamjee_well_osric_1` |
@@ -175,7 +177,6 @@ Set your quest stages and items, then talk to Osric. Same rules as the game: sam
      "phraseID": "gamjee_well_osric_1"
     }
     ```
-
 
 
 ## Community notes

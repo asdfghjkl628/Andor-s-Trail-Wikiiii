@@ -4,35 +4,23 @@ description: "Flaming orb is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_rltiles1_15.png){ .sprite } Flaming orb
 
+**Where to find Flaming orb:** [Ratdom maze 551](#v-ratdom_maze_boulder1), [Ratdom maze 551](#v-ratdom_maze_boulder2), [Ratdom maze 551](#v-ratdom_maze_boulder3), [Ratdom maze 551](#v-ratdom_maze_boulder4), [Ratdom maze 551](#v-ratdom_maze_boulder5)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_15.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Ratdom maze 551 |
-| **Entries in game data** | 5 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Flaming orb. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Ratdom maze 551 { #v-ratdom_maze_boulder1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_maze_boulder1`](#v-ratdom_maze_boulder1) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1) | – |
-| [`ratdom_maze_boulder2`](#v-ratdom_maze_boulder2) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2) | – |
-| [`ratdom_maze_boulder3`](#v-ratdom_maze_boulder3) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3) | – |
-| [`ratdom_maze_boulder4`](#v-ratdom_maze_boulder4) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4) | – |
-| [`ratdom_maze_boulder5`](#v-ratdom_maze_boulder5) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5) | – |
-
-## Ratdom maze 551 (ratdom_maze_boulder1) { #v-ratdom_maze_boulder1 }
-
-**Entry ID:** `ratdom_maze_boulder1` · **Type:** NPC
-
-**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1)
+**Where:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1)
 
 ### Dialogue simulator
 
@@ -60,11 +48,123 @@ Set your quest stages and items, then talk to Flaming orb. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_maze_boulder1)"
+## Ratdom maze 551 (2) { #v-ratdom_maze_boulder2 }
+
+**Where:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Ratdom maze 551 (3) { #v-ratdom_maze_boulder3 }
+
+**Where:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Ratdom maze 551 (4) { #v-ratdom_maze_boulder4 }
+
+**Where:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Ratdom maze 551 (5) { #v-ratdom_maze_boulder5 }
+
+**Where:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5)
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Flaming orb. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_maze_boulder1` | NPC | [Ratdom maze 551](#v-ratdom_maze_boulder1) |
+| `ratdom_maze_boulder2` | NPC | [Ratdom maze 551](#v-ratdom_maze_boulder2) |
+| `ratdom_maze_boulder3` | NPC | [Ratdom maze 551](#v-ratdom_maze_boulder3) |
+| `ratdom_maze_boulder4` | NPC | [Ratdom maze 551](#v-ratdom_maze_boulder4) |
+| `ratdom_maze_boulder5` | NPC | [Ratdom maze 551](#v-ratdom_maze_boulder5) |
+
+??? info "Technical information: ratdom_maze_boulder1"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_boulder1` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_maze_boulder` |
     | Loot table | – |
     | Conversation | `ratdom_maze_boulder` |
@@ -86,38 +186,12 @@ Set your quest stages and items, then talk to Flaming orb. Same rules as the gam
     }
     ```
 
-
-## Ratdom maze 551 (ratdom_maze_boulder2) { #v-ratdom_maze_boulder2 }
-
-**Entry ID:** `ratdom_maze_boulder2` · **Type:** NPC
-
-**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_maze_boulder2)"
+??? info "Technical information: ratdom_maze_boulder2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_boulder2` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_maze_boulder` |
     | Loot table | – |
     | Conversation | `ratdom_maze_boulder` |
@@ -139,38 +213,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Ratdom maze 551 (ratdom_maze_boulder3) { #v-ratdom_maze_boulder3 }
-
-**Entry ID:** `ratdom_maze_boulder3` · **Type:** NPC
-
-**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_maze_boulder3)"
+??? info "Technical information: ratdom_maze_boulder3"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_boulder3` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_maze_boulder` |
     | Loot table | – |
     | Conversation | `ratdom_maze_boulder` |
@@ -192,38 +240,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Ratdom maze 551 (ratdom_maze_boulder4) { #v-ratdom_maze_boulder4 }
-
-**Entry ID:** `ratdom_maze_boulder4` · **Type:** NPC
-
-**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_maze_boulder4)"
+??? info "Technical information: ratdom_maze_boulder4"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_boulder4` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_maze_boulder` |
     | Loot table | – |
     | Conversation | `ratdom_maze_boulder` |
@@ -245,38 +267,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Ratdom maze 551 (ratdom_maze_boulder5) { #v-ratdom_maze_boulder5 }
-
-**Entry ID:** `ratdom_maze_boulder5` · **Type:** NPC
-
-**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5)
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [ratdom_maze_boulder](#d-ratdom_maze_boulder1-ratdom_maze_boulder).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_maze_boulder5)"
+??? info "Technical information: ratdom_maze_boulder5"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_boulder5` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_maze_boulder` |
     | Loot table | – |
     | Conversation | `ratdom_maze_boulder` |
@@ -297,7 +293,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "ratdom_maze_boulder"
     }
     ```
-
 
 
 ## Community notes

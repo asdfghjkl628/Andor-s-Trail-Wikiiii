@@ -25,7 +25,7 @@ description: "Old, worn cape is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_06](../monsters/brv_wh_item_06.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_26](../monsters/brv_wh_item_26.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-106) (2×)
+- From [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_06) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_26) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-106) (2×)
 - From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 

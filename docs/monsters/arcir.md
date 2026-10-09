@@ -4,7 +4,7 @@ description: "Arcir is a non-player character (NPC) in Andor's Trail."
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Arcir
 
-**Where to find Arcir:** not placed on any map; appears through a quest or scripted event.
+**Where to find Arcir:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,8 +12,7 @@ description: "Arcir is a non-player character (NPC) in Andor's Trail."
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Entry ID** | `arcir` |
+| **Type** | NPC (talk only; never fought) |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -180,7 +179,7 @@ Set your quest stages and items, then talk to Arcir. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…”<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “'Calomyran Secrets'? Hm, yes I think I have one of those in my baseme…” → “'Calomyran Secrets'? Hmm, yes I think I have one of those in my basem…”<br>· text: “What did the note say? Larcal.. I know of him. Always causing trouble…” → “What did the note say? Larcal ... I know of him. Always causing troub…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.11](../versions/0.8.11.md) | Dialogue: 8 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |
@@ -188,11 +187,16 @@ Set your quest stages and items, then talk to Arcir. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `arcir` |
+    | Type (wiki) | NPC |
     | Spawn group | `arcir` |
     | Loot table | – |
     | Conversation | `arcir_start` |

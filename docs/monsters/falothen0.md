@@ -4,33 +4,24 @@ description: "Falothen is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } Falothen
 
+**Where to find Falothen:** [Charwood, Minerhouse 0](#v-falothen0), [Tradehouse 0a](#v-falothen1)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) |
 | **Found in** | Charwood, Tradehouse 0a |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Falothen. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Charwood, Minerhouse 0 { #v-falothen0 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`falothen0`](#v-falothen0) | NPC | Charwood: [Minerhouse 0](../maps/minerhouse0.md#pin-npc-falothen0) | – |
-| [`falothen1`](#v-falothen1) | NPC | [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-falothen1) | teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) |
-
-## Charwood, Minerhouse 0 (falothen0) { #v-falothen0 }
-
-**Entry ID:** `falothen0` · **Type:** NPC
-
-**Location:** Charwood: [Minerhouse 0](../maps/minerhouse0.md#pin-npc-falothen0)
+**Where:** Charwood: [Minerhouse 0](../maps/minerhouse0.md#pin-npc-falothen0)
 
 ### Quests
 
@@ -73,37 +64,9 @@ Set your quest stages and items, then talk to Falothen. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (falothen0)"
+## Tradehouse 0a { #v-falothen1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `falothen0` |
-    | Spawn group | `falothen0` |
-    | Loot table | – |
-    | Conversation | `falothen0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik5:0` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "falothen0",
-     "name": "Falothen",
-     "iconID": "monsters_tometik5:0",
-     "unique": 1,
-     "phraseID": "falothen0"
-    }
-    ```
-
-
-## Tradehouse 0a (falothen1) { #v-falothen1 }
-
-**Entry ID:** `falothen1` · **Type:** NPC · **Role:** Teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md)
-
-**Location:** [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-falothen1)
+**Where:** [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-falothen1) · **Role:** Teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md)
 
 ### Quests
 
@@ -464,18 +427,57 @@ Set your quest stages and items, then talk to Falothen. Same rules as the game: 
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…”<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I can teach you how to get better at fighting with all types of axes,…” → “I can teach you how to get better at fighting with all types of axes,…”<br>· text: “Now, blunt weapons is my way of categorizing everything from the simp…” → “Now, blunt weapons is my way of categorizing everything from the simp…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 7 lines added, 4 lines changed<br>· text: “I can teach you about swords, either one-handed or two-handed ones. I…” → “I can teach you about swords, either one-handed or two-handed ones. I…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We usually don't teach anyone outside our settlement. Last time I did…” → “We usually don't teach anyone outside our settlement. Last time I did…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (falothen1)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Falothen. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `falothen0` | NPC | [Charwood, Minerhouse 0](#v-falothen0) |
+| `falothen1` | NPC | [Tradehouse 0a](#v-falothen1) |
+
+??? info "Technical information: falothen0"
+
+    | | |
+    |---|---|
+    | Entry ID | `falothen0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `falothen0` |
+    | Loot table | – |
+    | Conversation | `falothen0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik5:0` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "falothen0",
+     "name": "Falothen",
+     "iconID": "monsters_tometik5:0",
+     "unique": 1,
+     "phraseID": "falothen0"
+    }
+    ```
+
+??? info "Technical information: falothen1"
 
     | | |
     |---|---|
     | Entry ID | `falothen1` |
+    | Type (wiki) | NPC |
     | Spawn group | `falothen1` |
     | Loot table | – |
     | Conversation | `falothen1` |
@@ -494,7 +496,6 @@ Set your quest stages and items, then talk to Falothen. Same rules as the game: 
      "phraseID": "falothen1"
     }
     ```
-
 
 
 ## Community notes

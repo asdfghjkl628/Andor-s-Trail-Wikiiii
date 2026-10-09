@@ -54,8 +54,8 @@ description: "Galmore 56 is an outdoor location in Andor's Trail, in Mt. Galmore
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Agile aroughcun](../monsters/aroughcun_agile.md) | 168 | 10–15 | 1 | – |
-| [River wretch](../monsters/river_wretch.md#v-river_wretch2) | 201 | 9–13 | 8 | – |
 | [River wretch](../monsters/river_wretch.md) | 201 | 9–13 | 4 | – |
+| [River wretch](../monsters/river_wretch.md#v-river_wretch2) | 201 | 9–13 | 8 | – |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 232 | 12–19 | 2 | – |
 | [Dreadmane](../monsters/dreadmane.md) | 235 | 15–21 | 2 | – |
 

@@ -4,32 +4,23 @@ description: "Shepherd's dog is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Shepherd's dog
 
+**Where to find Shepherd's dog:** [Guynmart Castle, Guynmart wood 9](#v-guynmart_dog1), [Guynmart Castle, Guynmart wood 9](#v-guynmart_dog2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_4.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Shepherd's dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. These entries are identical apart from their IDs. Each entry has its own section below.
+## Guynmart Castle, Guynmart wood 9 { #v-guynmart_dog1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_dog1`](#v-guynmart_dog1) | NPC | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1) | – |
-| [`guynmart_dog2`](#v-guynmart_dog2) | NPC | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2) | – |
-
-## Guynmart Castle, Guynmart wood 9 (guynmart_dog1) { #v-guynmart_dog1 }
-
-**Entry ID:** `guynmart_dog1` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1)
+**Where:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog1)
 
 ### Dialogue simulator
 
@@ -58,37 +49,9 @@ Set your quest stages and items, then talk to Shepherd's dog. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_dog1)"
+## Guynmart Castle, Guynmart wood 9 (2) { #v-guynmart_dog2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_dog1` |
-    | Spawn group | `guynmart_dog1` |
-    | Loot table | – |
-    | Conversation | `guynmart_dog10_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_dogs:4` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_dog1",
-     "name": "Shepherd's dog",
-     "iconID": "monsters_dogs:4",
-     "monsterClass": "animal",
-     "phraseID": "guynmart_dog10_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 9 (guynmart_dog2) { #v-guynmart_dog2 }
-
-**Entry ID:** `guynmart_dog2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2)
+**Where:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_dog2)
 
 ### Dialogue simulator
 
@@ -111,11 +74,50 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_dog2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Shepherd's dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_dog1` | NPC | [Guynmart Castle, Guynmart wood 9](#v-guynmart_dog1) |
+| `guynmart_dog2` | NPC | [Guynmart Castle, Guynmart wood 9](#v-guynmart_dog2) |
+
+??? info "Technical information: guynmart_dog1"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_dog1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_dog1` |
+    | Loot table | – |
+    | Conversation | `guynmart_dog10_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_dogs:4` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_dog1",
+     "name": "Shepherd's dog",
+     "iconID": "monsters_dogs:4",
+     "monsterClass": "animal",
+     "phraseID": "guynmart_dog10_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_dog2"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_dog2` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_dog2` |
     | Loot table | – |
     | Conversation | `guynmart_dog10_10` |
@@ -135,7 +137,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "guynmart_dog10_10"
     }
     ```
-
 
 
 ## Community notes

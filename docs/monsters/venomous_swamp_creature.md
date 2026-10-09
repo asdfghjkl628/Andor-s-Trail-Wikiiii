@@ -17,34 +17,28 @@ description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 
 | **Class** | Giant |
 | **HP** | 301 |
 | **XP when defeated** | 1,175 |
-| **Entry ID** | `venomous_swamp_creature` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 301 |
 | XP when defeated | 1,175 |
 | Damage | 28 to 33 |
-| Attack chance | 130 |
-| Block chance | 301 |
-| Damage resistance | 18 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 9 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 130 |
+| BC | 301 |
+| DR | 18 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Potent venom](../conditions/potent_venom.md) (magnitude 1, 3 rounds, 15% chance)
+**Its hits:** On target: [Potent venom](../conditions/potent_venom.md) (magnitude 1, 3 rounds, 15% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -76,11 +70,24 @@ description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `venomous_swamp_creature` |
+    | Type (wiki) | Enemy |
     | Spawn group | `venomous_swamp_creature` |
     | Loot table | `venomous_swamp_creature_dl` |
     | Conversation | – |
@@ -121,15 +128,6 @@ description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

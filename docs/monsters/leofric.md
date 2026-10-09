@@ -4,33 +4,24 @@ description: "Leofric is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_tometik1_85.png){ .sprite } Leofric
 
+**Where to find Leofric:** [Foaming Flask Tavern, Beekeeper 1](#v-leofric), [Remgard, Remgard tavern 0](#v-leofric_remgard)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_85.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Foaming Flask Tavern, Remgard |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Leofric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock. Each entry has its own section below.
+## Foaming Flask Tavern, Beekeeper 1 { #v-leofric }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`leofric`](#v-leofric) | NPC | Foaming Flask Tavern: [Beekeeper 1](../maps/beekeeper1.md#pin-npc-leofric) | shopkeeper |
-| [`leofric_remgard`](#v-leofric_remgard) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard) | shopkeeper |
-
-## Foaming Flask Tavern, Beekeeper 1 (leofric) { #v-leofric }
-
-**Entry ID:** `leofric` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Foaming Flask Tavern: [Beekeeper 1](../maps/beekeeper1.md#pin-npc-leofric)
+**Where:** Foaming Flask Tavern: [Beekeeper 1](../maps/beekeeper1.md#pin-npc-leofric) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -89,38 +80,9 @@ Set your quest stages and items, then talk to Leofric. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (leofric)"
+## Remgard, Remgard tavern 0 { #v-leofric_remgard }
 
-    | | |
-    |---|---|
-    | Entry ID | `leofric` |
-    | Spawn group | `leofric` |
-    | Loot table | `leofric_dl` |
-    | Conversation | `leofric_welcome` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik1:85` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "leofric",
-     "name": "Leofric",
-     "iconID": "monsters_tometik1:85",
-     "monsterClass": "humanoid",
-     "phraseID": "leofric_welcome",
-     "droplistID": "leofric_dl"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 0 (leofric_remgard) { #v-leofric_remgard }
-
-**Entry ID:** `leofric_remgard` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard)
+**Where:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-leofric_remgard) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -163,11 +125,51 @@ Set your quest stages and items, then talk to Leofric. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (leofric_remgard)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Leofric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `leofric` | NPC | [Foaming Flask Tavern, Beekeeper 1](#v-leofric) |
+| `leofric_remgard` | NPC | [Remgard, Remgard tavern 0](#v-leofric_remgard) |
+
+??? info "Technical information: leofric"
+
+    | | |
+    |---|---|
+    | Entry ID | `leofric` |
+    | Type (wiki) | NPC |
+    | Spawn group | `leofric` |
+    | Loot table | `leofric_dl` |
+    | Conversation | `leofric_welcome` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik1:85` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "leofric",
+     "name": "Leofric",
+     "iconID": "monsters_tometik1:85",
+     "monsterClass": "humanoid",
+     "phraseID": "leofric_welcome",
+     "droplistID": "leofric_dl"
+    }
+    ```
+
+??? info "Technical information: leofric_remgard"
 
     | | |
     |---|---|
     | Entry ID | `leofric_remgard` |
+    | Type (wiki) | NPC |
     | Spawn group | `leofric_remgard` |
     | Loot table | `leofric_remgard` |
     | Conversation | `leofric_remgard` |
@@ -188,7 +190,6 @@ Set your quest stages and items, then talk to Leofric. Same rules as the game: s
      "droplistID": "leofric_remgard"
     }
     ```
-
 
 
 ## Community notes

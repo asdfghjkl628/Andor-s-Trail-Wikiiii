@@ -4,32 +4,23 @@ description: "Fjoerkard is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_122.png){ .sprite } Fjoerkard
 
+**Where to find Fjoerkard:** [Guynmart Castle, Guynmart main 2](#v-guynmart_drunkard1), [Guynmart Castle, Guynmart main 2](#v-guynmart_drunkard5)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_122.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Fjoerkard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
+## Guynmart Castle, Guynmart main 2 { #v-guynmart_drunkard1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_drunkard1`](#v-guynmart_drunkard1) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1) | – |
-| [`guynmart_drunkard5`](#v-guynmart_drunkard5) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5) | – |
-
-## Guynmart Castle, Guynmart main 2 (guynmart_drunkard1) { #v-guynmart_drunkard1 }
-
-**Entry ID:** `guynmart_drunkard1` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1)
+**Where:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1)
 
 ### Quests
 
@@ -73,38 +64,9 @@ Set your quest stages and items, then talk to Fjoerkard. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_drunkard1)"
+## Guynmart Castle, Guynmart main 2 (2) { #v-guynmart_drunkard5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_drunkard1` |
-    | Spawn group | `guynmart_drunkard1` |
-    | Loot table | – |
-    | Conversation | `guynmart_drunkard1_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:122` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_drunkard1",
-     "name": "Fjoerkard",
-     "iconID": "monsters_ld1:122",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_drunkard1_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 2 (guynmart_drunkard5) { #v-guynmart_drunkard5 }
-
-**Entry ID:** `guynmart_drunkard5` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5)
+**Where:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5)
 
 ### Dialogue simulator
 
@@ -225,11 +187,51 @@ Set your quest stages and items, then talk to Fjoerkard. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_drunkard5)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Fjoerkard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_drunkard1` | NPC | [Guynmart Castle, Guynmart main 2](#v-guynmart_drunkard1) |
+| `guynmart_drunkard5` | NPC | [Guynmart Castle, Guynmart main 2](#v-guynmart_drunkard5) |
+
+??? info "Technical information: guynmart_drunkard1"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_drunkard1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_drunkard1` |
+    | Loot table | – |
+    | Conversation | `guynmart_drunkard1_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:122` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_drunkard1",
+     "name": "Fjoerkard",
+     "iconID": "monsters_ld1:122",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_drunkard1_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_drunkard5"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_drunkard5` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_drunkard5` |
     | Loot table | – |
     | Conversation | `guynmart_drunkard5_10` |
@@ -250,7 +252,6 @@ Set your quest stages and items, then talk to Fjoerkard. Same rules as the game:
      "phraseID": "guynmart_drunkard5_10"
     }
     ```
-
 
 
 ## Community notes

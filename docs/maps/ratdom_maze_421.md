@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 421 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Lazy snail, Poisenous snail. Exits to Ratdom maze 412, Ratdom maze 432, Ratdom maze 431, Ratdom maze 411."
+description: "Ratdom maze 421 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Poisenous snail, Lazy snail. Exits to Ratdom maze 412, Ratdom maze 432, Ratdom maze 431, Ratdom maze 411."
 ---
 
 # Ratdom maze 421
@@ -77,10 +77,10 @@ description: "Ratdom maze 421 is an indoor location in Andor's Trail, in Pub (ot
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
-| [Lazy snail](../monsters/ratdom_m5a.md) | 30 | 5–5 | 2 | shares spawn with Poisenous snail |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Poisenous snail](../monsters/ratdom_m5b.md) | 30 | 5–5 | 2 | shares spawn with Lazy snail |
+| [Lazy snail](../monsters/ratdom_m5a.md) | 30 | 5–5 | 2 | shares spawn with Poisenous snail |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

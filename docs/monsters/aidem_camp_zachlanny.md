@@ -1,8 +1,10 @@
 ---
-description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found in Aidem base 2, Aidem camp, Aidem base 2, Fallhaven, Sullengard."
+description: "Zachlanny is an NPC you can also fight in Andor's Trail, found in Aidem base 2, Aidem camp, Aidem base 2, Fallhaven, Sullengard."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Zachlanny
+
+**Where to find Zachlanny:** [Aidem base 2 and 1 more](#v-aidem_camp_zachlanny), [Aidem base 2](#v-aidem_base_zachlanny_aggressive), [Fallhaven, Guildbrig 2](#v-aidem_jail_zachlanny), [Sullengard, Sullengard tavern basement](#v-guild04_rebcomrade_3)
 
 <div class="infobox" markdown>
 
@@ -10,31 +12,18 @@ description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Aidem base 2, Aidem camp, Aidem base 2, Fallhaven, Sullengard |
 | **Class** | Humanoid |
 | **HP** | 329 |
 | **XP when defeated** | 707 |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Zachlanny. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Aidem base 2 and 1 more { #v-aidem_camp_zachlanny }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`aidem_camp_zachlanny`](#v-aidem_camp_zachlanny) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny) | – | – |
-| [`aidem_base_zachlanny_aggressive`](#v-aidem_base_zachlanny_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_zachlanny`](#v-aidem_jail_zachlanny) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
-| [`guild04_rebcomrade_3`](#v-guild04_rebcomrade_3) | NPC | Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3) | – | – |
-
-## Aidem base 2 and 1 more (aidem_camp_zachlanny) { #v-aidem_camp_zachlanny }
-
-**Entry ID:** `aidem_camp_zachlanny` · **Type:** NPC
-
-**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny)
+**Where:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny)
 
 ### Locations
 
@@ -69,64 +58,26 @@ Set your quest stages and items, then talk to Zachlanny. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_camp_zachlanny)"
+## Aidem base 2 { #v-aidem_base_zachlanny_aggressive }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_camp_zachlanny` |
-    | Spawn group | `aidem_camp_zachlanny` |
-    | Loot table | `aidem_camp_zachlanny_dl` |
-    | Conversation | `aidem_camp_zachlanny_10` |
-    | Faction | – |
-    | Movement | helpOthers |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+**Where:** [Aidem base 2](../maps/aidem_base_2.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "aidem_camp_zachlanny",
-     "name": "Zachlanny",
-     "iconID": "monsters_ld1:65",
-     "maxHP": 1,
-     "moveCost": 10,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "helpOthers",
-     "phraseID": "aidem_camp_zachlanny_10",
-     "droplistID": "aidem_camp_zachlanny_dl"
-    }
-    ```
-
-
-## Aidem base 2 (aidem_base_zachlanny_aggressive) { #v-aidem_base_zachlanny_aggressive }
-
-**Entry ID:** `aidem_base_zachlanny_aggressive` · **Type:** Enemy
-
-**Location:** [Aidem base 2](../maps/aidem_base_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 329 |
 | XP when defeated | 707 |
 | Damage | 7 to 9 |
-| Attack chance | 158 |
-| Block chance | 170 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 2 AP |
-| Critical skill | 3 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 2% |
+| AC | 158 |
+| BC | 170 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 2% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -155,54 +106,9 @@ Set your quest stages and items, then talk to Zachlanny. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_base_zachlanny_aggressive)"
+## Fallhaven, Guildbrig 2 { #v-aidem_jail_zachlanny }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_base_zachlanny_aggressive` |
-    | Spawn group | `help_defy` |
-    | Loot table | `aidem_camp_zachlanny_dl` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "aidem_base_zachlanny_aggressive",
-     "name": "Zachlanny",
-     "iconID": "monsters_ld1:65",
-     "maxHP": 329,
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "attackDamage": {
-      "min": 7,
-      "max": 9
-     },
-     "spawnGroup": "help_defy",
-     "droplistID": "aidem_camp_zachlanny_dl",
-     "attackCost": 3,
-     "attackChance": 158,
-     "criticalSkill": 3,
-     "criticalMultiplier": 2.0,
-     "blockChance": 170
-    }
-    ```
-
-
-## Fallhaven, Guildbrig 2 (aidem_jail_zachlanny) { #v-aidem_jail_zachlanny }
-
-**Entry ID:** `aidem_jail_zachlanny` · **Type:** Scenery
-
-**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+**Where:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
 
 ### Version history
@@ -214,36 +120,9 @@ Set your quest stages and items, then talk to Zachlanny. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_jail_zachlanny)"
+## Sullengard, Sullengard tavern basement { #v-guild04_rebcomrade_3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_jail_zachlanny` |
-    | Spawn group | `aidem_jail_zachlanny` |
-    | Loot table | – |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "aidem_jail_zachlanny",
-     "name": "Zachlanny",
-     "iconID": "monsters_ld1:65",
-     "monsterClass": "humanoid"
-    }
-    ```
-
-
-## Sullengard, Sullengard tavern basement (guild04_rebcomrade_3) { #v-guild04_rebcomrade_3 }
-
-**Entry ID:** `guild04_rebcomrade_3` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3)
+**Where:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3)
 
 ### Dialogue simulator
 
@@ -282,11 +161,132 @@ Set your quest stages and items, then talk to Zachlanny. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guild04_rebcomrade_3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Zachlanny. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `aidem_camp_zachlanny` | NPC | [Aidem base 2 and 1 more](#v-aidem_camp_zachlanny) |
+| `aidem_base_zachlanny_aggressive` | Enemy | [Aidem base 2](#v-aidem_base_zachlanny_aggressive) |
+| `aidem_jail_zachlanny` | Scenery | [Fallhaven, Guildbrig 2](#v-aidem_jail_zachlanny) |
+| `guild04_rebcomrade_3` | NPC | [Sullengard, Sullengard tavern basement](#v-guild04_rebcomrade_3) |
+
+- `aidem_jail_zachlanny` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: aidem_camp_zachlanny"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_camp_zachlanny` |
+    | Type (wiki) | NPC |
+    | Spawn group | `aidem_camp_zachlanny` |
+    | Loot table | `aidem_camp_zachlanny_dl` |
+    | Conversation | `aidem_camp_zachlanny_10` |
+    | Faction | – |
+    | Movement | helpOthers |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_camp_zachlanny",
+     "name": "Zachlanny",
+     "iconID": "monsters_ld1:65",
+     "maxHP": 1,
+     "moveCost": 10,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "helpOthers",
+     "phraseID": "aidem_camp_zachlanny_10",
+     "droplistID": "aidem_camp_zachlanny_dl"
+    }
+    ```
+
+??? info "Technical information: aidem_base_zachlanny_aggressive"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_base_zachlanny_aggressive` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `help_defy` |
+    | Loot table | `aidem_camp_zachlanny_dl` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_base_zachlanny_aggressive",
+     "name": "Zachlanny",
+     "iconID": "monsters_ld1:65",
+     "maxHP": 329,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 7,
+      "max": 9
+     },
+     "spawnGroup": "help_defy",
+     "droplistID": "aidem_camp_zachlanny_dl",
+     "attackCost": 3,
+     "attackChance": 158,
+     "criticalSkill": 3,
+     "criticalMultiplier": 2.0,
+     "blockChance": 170
+    }
+    ```
+
+??? info "Technical information: aidem_jail_zachlanny"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_jail_zachlanny` |
+    | Type (wiki) | Scenery |
+    | Spawn group | `aidem_jail_zachlanny` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_jail_zachlanny",
+     "name": "Zachlanny",
+     "iconID": "monsters_ld1:65",
+     "monsterClass": "humanoid"
+    }
+    ```
+
+??? info "Technical information: guild04_rebcomrade_3"
 
     | | |
     |---|---|
     | Entry ID | `guild04_rebcomrade_3` |
+    | Type (wiki) | NPC |
     | Spawn group | `guild04_comrade_3` |
     | Loot table | – |
     | Conversation | `smuggler6_1` |
@@ -308,16 +308,6 @@ Set your quest stages and items, then talk to Zachlanny. Same rules as the game:
      "phraseID": "smuggler6_1"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

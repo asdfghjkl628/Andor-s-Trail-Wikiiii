@@ -4,32 +4,23 @@ description: "Godoe is a non-player character (NPC) in Andor's Trail, found in G
 
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Godoe
 
+**Where to find Godoe:** [Guynmart wood 18](#v-godoe1), [Guynmart wood 18](#v-godoe2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_20.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart wood 18 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Godoe. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Guynmart wood 18 { #v-godoe1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`godoe1`](#v-godoe1) | NPC | [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe1) | – |
-| [`godoe2`](#v-godoe2) | NPC | [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe2) | – |
-
-## Guynmart wood 18 (godoe1) { #v-godoe1 }
-
-**Entry ID:** `godoe1` · **Type:** NPC
-
-**Location:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe1)
+**Where:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe1)
 
 ### Quests
 
@@ -75,38 +66,9 @@ Set your quest stages and items, then talk to Godoe. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (godoe1)"
+## Guynmart wood 18 (2) { #v-godoe2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `godoe1` |
-    | Spawn group | `godoe1` |
-    | Loot table | – |
-    | Conversation | `godoe` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:20` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "godoe1",
-     "name": "Godoe",
-     "iconID": "monsters_ld1:20",
-     "moveCost": 4,
-     "monsterClass": "humanoid",
-     "phraseID": "godoe"
-    }
-    ```
-
-
-## Guynmart wood 18 (godoe2) { #v-godoe2 }
-
-**Entry ID:** `godoe2` · **Type:** NPC
-
-**Location:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe2)
+**Where:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe2)
 
 ### Quests
 
@@ -132,11 +94,51 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (godoe2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Godoe. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `godoe1` | NPC | [Guynmart wood 18](#v-godoe1) |
+| `godoe2` | NPC | [Guynmart wood 18](#v-godoe2) |
+
+??? info "Technical information: godoe1"
+
+    | | |
+    |---|---|
+    | Entry ID | `godoe1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `godoe1` |
+    | Loot table | – |
+    | Conversation | `godoe` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:20` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "godoe1",
+     "name": "Godoe",
+     "iconID": "monsters_ld1:20",
+     "moveCost": 4,
+     "monsterClass": "humanoid",
+     "phraseID": "godoe"
+    }
+    ```
+
+??? info "Technical information: godoe2"
 
     | | |
     |---|---|
     | Entry ID | `godoe2` |
+    | Type (wiki) | NPC |
     | Spawn group | `godoe2` |
     | Loot table | – |
     | Conversation | `godoe` |
@@ -157,7 +159,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "godoe"
     }
     ```
-
 
 
 ## Community notes

@@ -1,8 +1,10 @@
 ---
-description: "Erwyn's soldier is an NPC who can also be fought in Andor's Trail, found in Stoutford, Prim, Flagstone Prison, Flagstone Prison, Stoutford, Flagstone Prison."
+description: "Erwyn's soldier is an NPC you can also fight in Andor's Trail, found in Stoutford, Prim, Flagstone Prison, Flagstone Prison, Stoutford, Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_38.png){ .sprite } Erwyn's soldier
+
+**Where to find Erwyn's soldier:** [Flagstone Prison, Stoutford castle tower 0 and 7 more](#v-erwyn_soldier), [Flagstone Prison, Waytogalmore 0 and 2 more](#v-erwyn_soldier2), [Flagstone Prison, Waytogalmore 1](#v-erwyn_soldier3)
 
 <div class="infobox" markdown>
 
@@ -10,55 +12,38 @@ description: "Erwyn's soldier is an NPC who can also be fought in Andor's Trail,
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Stoutford, Prim, Flagstone Prison, Flagstone Prison, Stoutford, Flagstone Prison |
 | **Class** | Undead, Humanoid |
 | **HP** | 65 |
 | **XP when defeated** | 99 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Erwyn's soldier. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Flagstone Prison, Stoutford castle tower 0 and 7 more { #v-erwyn_soldier }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`erwyn_soldier`](#v-erwyn_soldier) | NPC/Enemy | Flagstone Prison: [Stoutford castle tower 0](../maps/stoutford_castle_tower0.md#pin-npc-erwyn_soldier), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_soldier) (+6 more) | – | 65 |
-| [`erwyn_soldier2`](#v-erwyn_soldier2) | NPC/Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_soldier2), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier2) (+1 more) | – | 65 |
-| [`erwyn_soldier3`](#v-erwyn_soldier3) | NPC/Enemy | Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier3) | – | 65 |
+**Where:** Flagstone Prison: [Stoutford castle tower 0](../maps/stoutford_castle_tower0.md#pin-npc-erwyn_soldier), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_soldier), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-erwyn_soldier), Prim: [Stoutford castle barrack 2](../maps/stoutford_castle_barrack2.md#pin-npc-erwyn_soldier), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md#pin-npc-erwyn_soldier) (+2 more)
 
-## Flagstone Prison, Stoutford castle tower 0 and 7 more (erwyn_soldier) { #v-erwyn_soldier }
+!!! warning "You can fight Erwyn's soldier"
+    Answering “How about you show me what that would look like?” starts a fight with Erwyn's soldier.
 
-**Entry ID:** `erwyn_soldier` · **Type:** NPC/Enemy
+### Combat
 
-**Location:** Flagstone Prison: [Stoutford castle tower 0](../maps/stoutford_castle_tower0.md#pin-npc-erwyn_soldier), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_soldier), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-erwyn_soldier), Prim: [Stoutford castle barrack 2](../maps/stoutford_castle_barrack2.md#pin-npc-erwyn_soldier), Stoutford: [Stoutford castle barrack 0](../maps/stoutford_castle_barrack0.md#pin-npc-erwyn_soldier) (+2 more)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 65 |
 | XP when defeated | 99 |
 | Damage | 4 to 5 |
-| Attack chance | 90 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -106,74 +91,29 @@ Set your quest stages and items, then talk to Erwyn's soldier. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (erwyn_soldier)"
+## Flagstone Prison, Waytogalmore 0 and 2 more { #v-erwyn_soldier2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `erwyn_soldier` |
-    | Spawn group | `erwyn_soldier` |
-    | Loot table | – |
-    | Conversation | `stoutford_castle_1` |
-    | Faction | – |
-    | Movement | helpOthers |
-    | Icon | `monsters_tometik8:38` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+**Where:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_soldier2), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier2), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-erwyn_soldier2)
 
-    Raw data:
+!!! warning "You can fight Erwyn's soldier"
+    Answering “Yes, but I also like it very much. So I'd rather keep it.” starts a fight with Erwyn's soldier.
 
-    ```json
-    {
-     "id": "erwyn_soldier",
-     "name": "Erwyn's soldier",
-     "iconID": "monsters_tometik8:38",
-     "maxHP": 65,
-     "unique": 1,
-     "monsterClass": "undead",
-     "movementAggressionType": "helpOthers",
-     "attackDamage": {
-      "min": 4,
-      "max": 5
-     },
-     "spawnGroup": "erwyn_soldier",
-     "phraseID": "stoutford_castle_1",
-     "attackCost": 3,
-     "attackChance": 90,
-     "blockChance": 60,
-     "damageResistance": 0
-    }
-    ```
+### Combat
 
-
-## Flagstone Prison, Waytogalmore 0 and 2 more (erwyn_soldier2) { #v-erwyn_soldier2 }
-
-**Entry ID:** `erwyn_soldier2` · **Type:** NPC/Enemy
-
-**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_soldier2), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier2), Stoutford: [Wild 22](../maps/wild22.md#pin-npc-erwyn_soldier2)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 65 |
 | XP when defeated | 99 |
 | Damage | 4 to 5 |
-| Attack chance | 90 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -215,80 +155,29 @@ Set your quest stages and items, then talk to Erwyn's soldier. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (erwyn_soldier2)"
+## Flagstone Prison, Waytogalmore 1 { #v-erwyn_soldier3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `erwyn_soldier2` |
-    | Spawn group | `erwyn_soldier2` |
-    | Loot table | – |
-    | Conversation | `stoutford_castle_1b` |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_tometik8:38` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+**Where:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier3)
 
-    Raw data:
+!!! warning "You can fight Erwyn's soldier"
+    Answering “But not for you, sorry.” starts a fight with Erwyn's soldier.
 
-    ```json
-    {
-     "id": "erwyn_soldier2",
-     "name": "Erwyn's soldier",
-     "iconID": "monsters_tometik8:38",
-     "maxHP": 65,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 4,
-      "max": 5
-     },
-     "spawnGroup": "erwyn_soldier2",
-     "phraseID": "stoutford_castle_1b",
-     "attackCost": 3,
-     "attackChance": 90,
-     "blockChance": 60,
-     "damageResistance": 0
-    }
-    ```
+### Combat
 
-
-## Flagstone Prison, Waytogalmore 1 (erwyn_soldier3) { #v-erwyn_soldier3 }
-
-**Entry ID:** `erwyn_soldier3` · **Type:** NPC/Enemy
-
-**Location:** Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_soldier3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 65 |
 | XP when defeated | 99 |
 | Damage | 4 to 5 |
-| Attack chance | 90 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytogalmore 1](../maps/waytogalmore1.md) | Flagstone Prison | 4 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -321,11 +210,109 @@ Set your quest stages and items, then talk to Erwyn's soldier. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (erwyn_soldier3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Erwyn's soldier. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `erwyn_soldier` | NPC/Enemy | [Flagstone Prison, Stoutford castle tower 0 and 7 more](#v-erwyn_soldier) |
+| `erwyn_soldier2` | NPC/Enemy | [Flagstone Prison, Waytogalmore 0 and 2 more](#v-erwyn_soldier2) |
+| `erwyn_soldier3` | NPC/Enemy | [Flagstone Prison, Waytogalmore 1](#v-erwyn_soldier3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: erwyn_soldier"
+
+    | | |
+    |---|---|
+    | Entry ID | `erwyn_soldier` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `erwyn_soldier` |
+    | Loot table | – |
+    | Conversation | `stoutford_castle_1` |
+    | Faction | – |
+    | Movement | helpOthers |
+    | Icon | `monsters_tometik8:38` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "erwyn_soldier",
+     "name": "Erwyn's soldier",
+     "iconID": "monsters_tometik8:38",
+     "maxHP": 65,
+     "unique": 1,
+     "monsterClass": "undead",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 4,
+      "max": 5
+     },
+     "spawnGroup": "erwyn_soldier",
+     "phraseID": "stoutford_castle_1",
+     "attackCost": 3,
+     "attackChance": 90,
+     "blockChance": 60,
+     "damageResistance": 0
+    }
+    ```
+
+??? info "Technical information: erwyn_soldier2"
+
+    | | |
+    |---|---|
+    | Entry ID | `erwyn_soldier2` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `erwyn_soldier2` |
+    | Loot table | – |
+    | Conversation | `stoutford_castle_1b` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_tometik8:38` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "erwyn_soldier2",
+     "name": "Erwyn's soldier",
+     "iconID": "monsters_tometik8:38",
+     "maxHP": 65,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 4,
+      "max": 5
+     },
+     "spawnGroup": "erwyn_soldier2",
+     "phraseID": "stoutford_castle_1b",
+     "attackCost": 3,
+     "attackChance": 90,
+     "blockChance": 60,
+     "damageResistance": 0
+    }
+    ```
+
+??? info "Technical information: erwyn_soldier3"
 
     | | |
     |---|---|
     | Entry ID | `erwyn_soldier3` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `erwyn_soldier3` |
     | Loot table | – |
     | Conversation | `stoutford_castle_1c` |
@@ -357,16 +344,6 @@ Set your quest stages and items, then talk to Erwyn's soldier. Same rules as the
      "damageResistance": 0
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,33 +4,24 @@ description: "Philippa is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_205.png){ .sprite } Philippa
 
+**Where to find Philippa:** [Wexlow Village, Wexlow village south-east house](#v-village_philippa), [Gamjee well jail cells](#v-troll_hollow_philippa)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_205.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [A Feygard delicacy](../quests/feygard_delicacy.md) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Philippa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Wexlow Village, Wexlow village south-east house { #v-village_philippa }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_philippa`](#v-village_philippa) | NPC | Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa) | starts [A Feygard delicacy](../quests/feygard_delicacy.md) |
-| [`troll_hollow_philippa`](#v-troll_hollow_philippa) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
-
-## Wexlow Village, Wexlow village south-east house (village_philippa) { #v-village_philippa }
-
-**Entry ID:** `village_philippa` · **Type:** NPC · **Role:** Starts [A Feygard delicacy](../quests/feygard_delicacy.md)
-
-**Location:** Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa)
+**Where:** Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa) · **Role:** Starts [A Feygard delicacy](../quests/feygard_delicacy.md)
 
 ### Quests
 
@@ -193,11 +184,40 @@ Set your quest stages and items, then talk to Philippa. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_philippa)"
+## Gamjee well jail cells { #v-troll_hollow_philippa }
+
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Philippa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_philippa` | NPC | [Wexlow Village, Wexlow village south-east house](#v-village_philippa) |
+| `troll_hollow_philippa` | Scenery | [Gamjee well jail cells](#v-troll_hollow_philippa) |
+
+- `troll_hollow_philippa` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: village_philippa"
 
     | | |
     |---|---|
     | Entry ID | `village_philippa` |
+    | Type (wiki) | NPC |
     | Spawn group | `village_philippa` |
     | Loot table | – |
     | Conversation | `village_philippa_initial_selector` |
@@ -220,31 +240,12 @@ Set your quest stages and items, then talk to Philippa. Same rules as the game: 
     }
     ```
 
-
-## Gamjee well jail cells (troll_hollow_philippa) { #v-troll_hollow_philippa }
-
-**Entry ID:** `troll_hollow_philippa` · **Type:** Scenery
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (troll_hollow_philippa)"
+??? info "Technical information: troll_hollow_philippa"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_philippa` |
+    | Type (wiki) | Scenery |
     | Spawn group | `troll_hollow_philippa` |
     | Loot table | – |
     | Conversation | – |
@@ -266,7 +267,6 @@ Set your quest stages and items, then talk to Philippa. Same rules as the game: 
      "movementAggressionType": "wholeMap"
     }
     ```
-
 
 
 ## Community notes

@@ -12,9 +12,8 @@ description: "Zorvan is a non-player character (NPC) in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven church basement |
-| **Entry ID** | `brv_undertaker` |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
 </div>
@@ -72,11 +71,16 @@ Set your quest stages and items, then talk to Zorvan. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_undertaker` |
+    | Type (wiki) | NPC |
     | Spawn group | `zorvan` |
     | Loot table | – |
     | Conversation | `zorvan_0` |

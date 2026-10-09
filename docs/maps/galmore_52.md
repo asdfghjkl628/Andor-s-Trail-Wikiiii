@@ -1,5 +1,5 @@
 ---
-description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Demon, Erupting pyreling, Pyreling, Embergeist. Exits to Galmore 42, Galmore 53, Galmore 62."
+description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Demon, Erupting pyreling, Embergeist, Pyreling. Exits to Galmore 42, Galmore 53, Galmore 62."
 ---
 
 # Galmore 52
@@ -54,8 +54,8 @@ description: "Galmore 52 is an outdoor location in Andor's Trail, near Mt. Galmo
 |---|---|---|---|---|
 | [Demon](../monsters/mg2_demon.md) | 180 | 3–20 | 3 | appears later, during a quest |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 246 | 19–26 | 3 | – |
-| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 8 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 1 | – |
+| [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 8 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

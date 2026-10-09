@@ -17,34 +17,28 @@ description: "Tough venomfang is an enemy in Andor's Trail (reptile) with 41 HP,
 | **Class** | Reptile |
 | **HP** | 41 |
 | **XP when defeated** | 151 |
-| **Entry ID** | `tough_venomfang` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 41 |
 | XP when defeated | 151 |
 | Damage | 2 to 5 |
-| Attack chance | 150 |
-| Block chance | 90 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 150 |
+| BC | 90 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 2 rounds, 50% chance)
+**Its hits:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 2 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -78,11 +72,24 @@ description: "Tough venomfang is an enemy in Andor's Trail (reptile) with 41 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `tough_venomfang` |
+    | Type (wiki) | Enemy |
     | Spawn group | `gornaud_3` |
     | Loot table | `cave_serpent` |
     | Conversation | – |
@@ -124,15 +131,6 @@ description: "Tough venomfang is an enemy in Andor's Trail (reptile) with 41 HP,
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

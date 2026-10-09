@@ -4,36 +4,23 @@ description: "Woodcutter is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Woodcutter
 
+**Where to find Woodcutter:** [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_0), [Brimhaven, Brimhaven 2](#v-brv_woodcutter), [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_2), [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_3), [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_4), [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_5)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Crossroads Guardhouse, Brimhaven |
-| **Entries in game data** | 6 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "6 entries in the game data"
-    The game data defines 6 separate characters named Woodcutter. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Crossroads Guardhouse, Roadtocarntower 1 { #v-woodcutter_0 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`woodcutter_0`](#v-woodcutter_0) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0) | – |
-| [`brv_woodcutter`](#v-brv_woodcutter) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_woodcutter) | – |
-| [`woodcutter_2`](#v-woodcutter_2) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2) | – |
-| [`woodcutter_3`](#v-woodcutter_3) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3) | – |
-| [`woodcutter_4`](#v-woodcutter_4) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4) | – |
-| [`woodcutter_5`](#v-woodcutter_5) | NPC | Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5) | – |
-
-## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_0) { #v-woodcutter_0 }
-
-**Entry ID:** `woodcutter_0` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0)
+**Where:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_0)
 
 ### Dialogue simulator
 
@@ -62,38 +49,9 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (woodcutter_0)"
+## Brimhaven, Brimhaven 2 { #v-brv_woodcutter }
 
-    | | |
-    |---|---|
-    | Entry ID | `woodcutter_0` |
-    | Spawn group | `woodcutter_0` |
-    | Loot table | – |
-    | Conversation | `woodcutter_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:0` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "woodcutter_0",
-     "name": "Woodcutter",
-     "iconID": "monsters_men:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "woodcutter_0",
-     "phraseID": "woodcutter_0"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 2 (brv_woodcutter) { #v-brv_woodcutter }
-
-**Entry ID:** `brv_woodcutter` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_woodcutter)
+**Where:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_woodcutter)
 
 ### Dialogue simulator
 
@@ -126,36 +84,9 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_woodcutter)"
+## Crossroads Guardhouse, Roadtocarntower 1 (2) { #v-woodcutter_2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_woodcutter` |
-    | Spawn group | `brv_woodcutter` |
-    | Loot table | – |
-    | Conversation | `brv_woodcutter_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:39` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_woodcutter",
-     "name": "Woodcutter",
-     "iconID": "monsters_tometik2:39",
-     "phraseID": "brv_woodcutter_0"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_2) { #v-woodcutter_2 }
-
-**Entry ID:** `woodcutter_2` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2)
+**Where:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_2)
 
 ### Dialogue simulator
 
@@ -187,38 +118,9 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (woodcutter_2)"
+## Crossroads Guardhouse, Roadtocarntower 1 (3) { #v-woodcutter_3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `woodcutter_2` |
-    | Spawn group | `woodcutter_2` |
-    | Loot table | – |
-    | Conversation | `woodcutter_2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:0` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "woodcutter_2",
-     "name": "Woodcutter",
-     "iconID": "monsters_men:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "woodcutter_2",
-     "phraseID": "woodcutter_2"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_3) { #v-woodcutter_3 }
-
-**Entry ID:** `woodcutter_3` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3)
+**Where:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_3)
 
 ### Dialogue simulator
 
@@ -246,38 +148,9 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (woodcutter_3)"
+## Crossroads Guardhouse, Roadtocarntower 1 (4) { #v-woodcutter_4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `woodcutter_3` |
-    | Spawn group | `woodcutter_3` |
-    | Loot table | – |
-    | Conversation | `woodcutter_3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men2:2` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "woodcutter_3",
-     "name": "Woodcutter",
-     "iconID": "monsters_men2:2",
-     "monsterClass": "humanoid",
-     "spawnGroup": "woodcutter_3",
-     "phraseID": "woodcutter_3"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_4) { #v-woodcutter_4 }
-
-**Entry ID:** `woodcutter_4` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4)
+**Where:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_4)
 
 ### Dialogue simulator
 
@@ -305,38 +178,9 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (woodcutter_4)"
+## Crossroads Guardhouse, Roadtocarntower 1 (5) { #v-woodcutter_5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `woodcutter_4` |
-    | Spawn group | `woodcutter_4` |
-    | Loot table | – |
-    | Conversation | `woodcutter_4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:93` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "woodcutter_4",
-     "name": "Woodcutter",
-     "iconID": "monsters_rltiles1:93",
-     "monsterClass": "humanoid",
-     "spawnGroup": "woodcutter_4",
-     "phraseID": "woodcutter_4"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Roadtocarntower 1 (woodcutter_5) { #v-woodcutter_5 }
-
-**Entry ID:** `woodcutter_5` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5)
+**Where:** Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md#pin-npc-woodcutter_5)
 
 ### Dialogue simulator
 
@@ -364,11 +208,161 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (woodcutter_5)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**6 entries.** The game data defines 6 separate characters named Woodcutter. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `woodcutter_0` | NPC | [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_0) |
+| `brv_woodcutter` | NPC | [Brimhaven, Brimhaven 2](#v-brv_woodcutter) |
+| `woodcutter_2` | NPC | [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_2) |
+| `woodcutter_3` | NPC | [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_3) |
+| `woodcutter_4` | NPC | [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_4) |
+| `woodcutter_5` | NPC | [Crossroads Guardhouse, Roadtocarntower 1](#v-woodcutter_5) |
+
+??? info "Technical information: woodcutter_0"
+
+    | | |
+    |---|---|
+    | Entry ID | `woodcutter_0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `woodcutter_0` |
+    | Loot table | – |
+    | Conversation | `woodcutter_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:0` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "woodcutter_0",
+     "name": "Woodcutter",
+     "iconID": "monsters_men:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "woodcutter_0",
+     "phraseID": "woodcutter_0"
+    }
+    ```
+
+??? info "Technical information: brv_woodcutter"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_woodcutter` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_woodcutter` |
+    | Loot table | – |
+    | Conversation | `brv_woodcutter_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:39` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_woodcutter",
+     "name": "Woodcutter",
+     "iconID": "monsters_tometik2:39",
+     "phraseID": "brv_woodcutter_0"
+    }
+    ```
+
+??? info "Technical information: woodcutter_2"
+
+    | | |
+    |---|---|
+    | Entry ID | `woodcutter_2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `woodcutter_2` |
+    | Loot table | – |
+    | Conversation | `woodcutter_2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:0` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "woodcutter_2",
+     "name": "Woodcutter",
+     "iconID": "monsters_men:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "woodcutter_2",
+     "phraseID": "woodcutter_2"
+    }
+    ```
+
+??? info "Technical information: woodcutter_3"
+
+    | | |
+    |---|---|
+    | Entry ID | `woodcutter_3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `woodcutter_3` |
+    | Loot table | – |
+    | Conversation | `woodcutter_3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men2:2` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "woodcutter_3",
+     "name": "Woodcutter",
+     "iconID": "monsters_men2:2",
+     "monsterClass": "humanoid",
+     "spawnGroup": "woodcutter_3",
+     "phraseID": "woodcutter_3"
+    }
+    ```
+
+??? info "Technical information: woodcutter_4"
+
+    | | |
+    |---|---|
+    | Entry ID | `woodcutter_4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `woodcutter_4` |
+    | Loot table | – |
+    | Conversation | `woodcutter_4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:93` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "woodcutter_4",
+     "name": "Woodcutter",
+     "iconID": "monsters_rltiles1:93",
+     "monsterClass": "humanoid",
+     "spawnGroup": "woodcutter_4",
+     "phraseID": "woodcutter_4"
+    }
+    ```
+
+??? info "Technical information: woodcutter_5"
 
     | | |
     |---|---|
     | Entry ID | `woodcutter_5` |
+    | Type (wiki) | NPC |
     | Spawn group | `woodcutter_5` |
     | Loot table | – |
     | Conversation | `woodcutter_5` |
@@ -389,7 +383,6 @@ Set your quest stages and items, then talk to Woodcutter. Same rules as the game
      "phraseID": "woodcutter_5"
     }
     ```
-
 
 
 ## Community notes

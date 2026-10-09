@@ -4,6 +4,8 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 
 # ![](../assets/icons/monsters/monsters_rltiles2_134.png){ .sprite } Iqhan chaos servant
 
+**Where to find Iqhan chaos servant:** [Pwcave 3 and 1 more](#v-iqhan_ch_2a), [Pwcave 3 and 1 more](#v-iqhan_ch_2b)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_134.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 | **Class** | Humanoid |
 | **HP** | 78–79 |
 | **XP when defeated** | 244–254 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Iqhan chaos servant. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
+## Pwcave 3 and 1 more { #v-iqhan_ch_2a }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`iqhan_ch_2a`](#v-iqhan_ch_2a) | Enemy | [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md) | – | 78 |
-| [`iqhan_ch_2b`](#v-iqhan_ch_2b) | Enemy | [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md) | – | 79 |
+**Where:** [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
-## Pwcave 3 and 1 more (iqhan_ch_2a) { #v-iqhan_ch_2a }
+### Combat
 
-**Entry ID:** `iqhan_ch_2a` · **Type:** Enemy
-
-**Location:** [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 78 |
 | XP when defeated | 244 |
 | Damage | 2 to 14 |
-| Attack chance | 150 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
+| AC | 150 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×2.0) |
 
-**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance)
+**Its hits:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -85,11 +71,82 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (iqhan_ch_2a)"
+## Pwcave 3 and 1 more (2) { #v-iqhan_ch_2b }
+
+**Where:** [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 79 |
+| XP when defeated | 254 |
+| Damage | 2 to 13 |
+| AC | 150 |
+| BC | 75 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 17% (×2.0) |
+
+**Its hits:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 1 to 9 |
+| [Iqhan pendant](../items/iqhan_pendant.md) | 5% | 1 |
+| [Wooden buckler](../items/shield1.md) | 5% | 1 |
+| [Iron dagger](../items/dagger0.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Pwcave 3](../maps/pwcave3.md) | – | 5 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance) → (magnitude 4, 5 rounds, 50% chance) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Iqhan chaos servant. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `iqhan_ch_2a` | Enemy | [Pwcave 3 and 1 more](#v-iqhan_ch_2a) |
+| `iqhan_ch_2b` | Enemy | [Pwcave 3 and 1 more](#v-iqhan_ch_2b) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: iqhan_ch_2a"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_ch_2a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_ch_2` |
     | Loot table | `iqhan` |
     | Conversation | – |
@@ -133,69 +190,12 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
     }
     ```
 
-
-## Pwcave 3 and 1 more (iqhan_ch_2b) { #v-iqhan_ch_2b }
-
-**Entry ID:** `iqhan_ch_2b` · **Type:** Enemy
-
-**Location:** [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 79 |
-| XP when defeated | 254 |
-| Damage | 2 to 13 |
-| Attack chance | 150 |
-| Block chance | 75 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 25 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 17% |
-
-**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 1 to 9 |
-| [Iqhan pendant](../items/iqhan_pendant.md) | 5% | 1 |
-| [Wooden buckler](../items/shield1.md) | 5% | 1 |
-| [Iron dagger](../items/dagger0.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Pwcave 3](../maps/pwcave3.md) | – | 5 | – |
-| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 4, 5 rounds, 50% chance) → (magnitude 4, 5 rounds, 50% chance) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (iqhan_ch_2b)"
+??? info "Technical information: iqhan_ch_2b"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_ch_2b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_ch_2` |
     | Loot table | `iqhan` |
     | Conversation | – |
@@ -238,16 +238,6 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

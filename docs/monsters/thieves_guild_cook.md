@@ -12,10 +12,9 @@ description: "Thieves guild cook is a non-player character (NPC) in Andor's Trai
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Fallhaven |
-| **Entry ID** | `thieves_guild_cook` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -115,11 +114,16 @@ Set your quest stages and items, then talk to Thieves guild cook. Same rules as 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `thieves_guild_cook` |
+    | Type (wiki) | NPC |
     | Spawn group | `tg_cook` |
     | Loot table | `shop_thieves_guild_cook` |
     | Conversation | `thievesguild_cook_1` |

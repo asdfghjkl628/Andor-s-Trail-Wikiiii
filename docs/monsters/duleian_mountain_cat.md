@@ -17,32 +17,26 @@ description: "Duleian mountain cat is an enemy in Andor's Trail (animal) with 97
 | **Class** | Animal |
 | **HP** | 97 |
 | **XP when defeated** | 390 |
-| **Entry ID** | `duleian_mountain_cat` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 97 |
 | XP when defeated | 390 |
 | Damage | 7 to 19 |
-| Attack chance | 225 |
-| Block chance | 101 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 12% |
+| AC | 225 |
+| BC | 101 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 12% (×2.5) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -74,11 +68,24 @@ description: "Duleian mountain cat is an enemy in Andor's Trail (animal) with 97
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `duleian_mountain_cat` |
+    | Type (wiki) | Enemy |
     | Spawn group | `duleian_mountain_cat` |
     | Loot table | `big_cat_dl` |
     | Conversation | – |
@@ -110,15 +117,6 @@ description: "Duleian mountain cat is an enemy in Andor's Trail (animal) with 97
      "blockChance": 101
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

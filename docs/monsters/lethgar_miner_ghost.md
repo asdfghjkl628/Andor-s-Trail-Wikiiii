@@ -4,32 +4,23 @@ description: "Lethgar miner ghost is a non-player character (NPC) in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } Lethgar miner ghost
 
+**Where to find Lethgar miner ghost:** [Undertell 1 1](#v-lethgar_miner_ghost), [Undertell 1 1](#v-lethgar_miner_ghost2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_9.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Undertell 1 1 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Lethgar miner ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
+## Undertell 1 1 { #v-lethgar_miner_ghost }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`lethgar_miner_ghost`](#v-lethgar_miner_ghost) | NPC | [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost) | – |
-| [`lethgar_miner_ghost2`](#v-lethgar_miner_ghost2) | NPC | [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2) | – |
-
-## Undertell 1 1 (lethgar_miner_ghost) { #v-lethgar_miner_ghost }
-
-**Entry ID:** `lethgar_miner_ghost` · **Type:** NPC
-
-**Location:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost)
+**Where:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost)
 
 ### Dialogue simulator
 
@@ -74,37 +65,9 @@ Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lethgar_miner_ghost)"
+## Undertell 1 1 (2) { #v-lethgar_miner_ghost2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lethgar_miner_ghost` |
-    | Spawn group | `lethgar_miner_ghost` |
-    | Loot table | – |
-    | Conversation | `lethgar_miner_ghost_welcome` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_gisons:9` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "lethgar_miner_ghost",
-     "name": "Lethgar miner ghost",
-     "iconID": "monsters_gisons:9",
-     "monsterClass": "humanoid",
-     "phraseID": "lethgar_miner_ghost_welcome"
-    }
-    ```
-
-
-## Undertell 1 1 (lethgar_miner_ghost2) { #v-lethgar_miner_ghost2 }
-
-**Entry ID:** `lethgar_miner_ghost2` · **Type:** NPC
-
-**Location:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2)
+**Where:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-lethgar_miner_ghost2)
 
 ### Quests
 
@@ -189,11 +152,50 @@ Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lethgar_miner_ghost2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Lethgar miner ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `lethgar_miner_ghost` | NPC | [Undertell 1 1](#v-lethgar_miner_ghost) |
+| `lethgar_miner_ghost2` | NPC | [Undertell 1 1](#v-lethgar_miner_ghost2) |
+
+??? info "Technical information: lethgar_miner_ghost"
+
+    | | |
+    |---|---|
+    | Entry ID | `lethgar_miner_ghost` |
+    | Type (wiki) | NPC |
+    | Spawn group | `lethgar_miner_ghost` |
+    | Loot table | – |
+    | Conversation | `lethgar_miner_ghost_welcome` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_gisons:9` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lethgar_miner_ghost",
+     "name": "Lethgar miner ghost",
+     "iconID": "monsters_gisons:9",
+     "monsterClass": "humanoid",
+     "phraseID": "lethgar_miner_ghost_welcome"
+    }
+    ```
+
+??? info "Technical information: lethgar_miner_ghost2"
 
     | | |
     |---|---|
     | Entry ID | `lethgar_miner_ghost2` |
+    | Type (wiki) | NPC |
     | Spawn group | `lethgar_miner_ghost2` |
     | Loot table | – |
     | Conversation | `lethgar_miner_ghost2_welcome` |
@@ -213,7 +215,6 @@ Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as
      "phraseID": "lethgar_miner_ghost2_welcome"
     }
     ```
-
 
 
 ## Community notes

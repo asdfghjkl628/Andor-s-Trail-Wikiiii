@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 566 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Snappy cave lizard, Fierce cave lizard. Exits to Ratdom maze 557, Ratdom maze 577, Ratdom maze 576, Ratdom maze 456."
+description: "Ratdom maze 566 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Fierce cave lizard, Snappy cave lizard. Exits to Ratdom maze 557, Ratdom maze 577, Ratdom maze 576, Ratdom maze 456."
 ---
 
 # Ratdom maze 566
@@ -75,10 +75,10 @@ description: "Ratdom maze 566 is an indoor location in Andor's Trail. NPCs: Clev
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
-| [Snappy cave lizard](../monsters/ratdom_m7b.md) | 30 | 5–5 | 1 | shares spawn with Fierce cave lizard |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Fierce cave lizard](../monsters/ratdom_m7a.md) | 30 | 5–5 | 1 | shares spawn with Snappy cave lizard |
+| [Snappy cave lizard](../monsters/ratdom_m7b.md) | 30 | 5–5 | 1 | shares spawn with Fierce cave lizard |
 | [Giant larval burrower](../monsters/burrower_4.md) | 75 | 1–25 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

@@ -12,9 +12,8 @@ description: "Jern is a non-player character (NPC) in Andor's Trail, found in Pr
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Prim |
-| **Entry ID** | `prim_bar_regular` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -654,17 +653,22 @@ Set your quest stages and items, then talk to Jern. Same rules as the game: same
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.14](../versions/0.7.14.md) | Renamed “Prim bar regular” → “Jern”<br>Conversation changed<br>Dialogue: 92 lines added, 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 33 lines added, 3 lines changed<br>· text: “Look, you should leave this be. Maybe this is too shady for a kid lik…” → “Look, you should leave this be. This is too shady for a kid like you.”<br>· text: “Hah! What about the shady guy you mentioned?” → “What about that shady guy you mentioned?” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 33 lines added, 3 lines changed<br>· text: “Hah! What about the shady guy you mentioned?” → “What about that shady guy you mentioned?”<br>· text: “Look, you should leave this be. Maybe this is too shady for a kid lik…” → “Look, you should leave this be. This is too shady for a kid like you.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `prim_bar_regular` |
+    | Type (wiki) | NPC |
     | Spawn group | `prim_tavern_guest4` |
     | Loot table | – |
     | Conversation | `prim_tavern_guest4_selector` |

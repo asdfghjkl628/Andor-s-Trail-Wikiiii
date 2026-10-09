@@ -17,40 +17,33 @@ description: "Yczorah marauder is an enemy in Andor's Trail (demon) with 256 HP,
 | **Class** | Demon |
 | **HP** | 256 |
 | **XP when defeated** | 599 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `elm_yczorah1` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 256 |
 | XP when defeated | 599 |
 | Damage | 6 to 7 |
-| Attack chance | 81 |
-| Block chance | 161 |
-| Damage resistance | 7 |
-| Max AP | 14 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 7 AP |
-| Critical skill | 5 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 5% |
+| AC | 81 |
+| BC | 161 |
+| DR | 7 |
+| Attacks per turn | 3 (4 AP each, 14 AP) |
+| Crit chance | 5% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** Heal HP: 0 to 5; On self: [Sustenance](../conditions/food.md) (magnitude 2, 2 rounds, 20% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 10% chance)
+**Its hits:** Heal HP: 0 to 5; On self: [Sustenance](../conditions/food.md) (magnitude 2, 2 rounds, 20% chance); On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 5, 2 rounds, 10% chance)
 
-**When hit:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 20% chance)
+**When you hit it:** On target: [Nausea](../conditions/nausea.md) (magnitude 5, 2 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -83,11 +76,24 @@ description: "Yczorah marauder is an enemy in Andor's Trail (demon) with 256 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `elm_yczorah1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `elm_mine6` |
     | Loot table | `elm_yczorah` |
     | Conversation | – |
@@ -154,15 +160,6 @@ description: "Yczorah marauder is an enemy in Andor's Trail (demon) with 256 HP,
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

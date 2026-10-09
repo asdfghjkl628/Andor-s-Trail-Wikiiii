@@ -4,32 +4,23 @@ description: "Jerelin is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } Jerelin
 
+**Where to find Jerelin:** [Lake Laeroth, Laerothtomb 1](#v-jerelin), [Lake Laeroth, Laerothtomb 1](#v-jerelin_b)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_10.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Lake Laeroth |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Jerelin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
+## Lake Laeroth, Laerothtomb 1 { #v-jerelin }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`jerelin`](#v-jerelin) | NPC | Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-jerelin) | – |
-| [`jerelin_b`](#v-jerelin_b) | NPC | Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-jerelin_b) | – |
-
-## Lake Laeroth, Laerothtomb 1 (jerelin) { #v-jerelin }
-
-**Entry ID:** `jerelin` · **Type:** NPC
-
-**Location:** Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-jerelin)
+**Where:** Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-jerelin)
 
 ### Quests
 
@@ -66,38 +57,9 @@ Set your quest stages and items, then talk to Jerelin. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (jerelin)"
+## Lake Laeroth, Laerothtomb 1 (2) { #v-jerelin_b }
 
-    | | |
-    |---|---|
-    | Entry ID | `jerelin` |
-    | Spawn group | `jerelin` |
-    | Loot table | – |
-    | Conversation | `jerelin_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_gisons:10` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "jerelin",
-     "name": "Jerelin",
-     "iconID": "monsters_gisons:10",
-     "monsterClass": "undead",
-     "spawnGroup": "jerelin",
-     "phraseID": "jerelin_0"
-    }
-    ```
-
-
-## Lake Laeroth, Laerothtomb 1 (jerelin_b) { #v-jerelin_b }
-
-**Entry ID:** `jerelin_b` · **Type:** NPC
-
-**Location:** Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-jerelin_b)
+**Where:** Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md#pin-npc-jerelin_b)
 
 ### Quests
 
@@ -133,11 +95,51 @@ Set your quest stages and items, then talk to Jerelin. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (jerelin_b)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Jerelin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation.
+
+| Entry | Type | Section |
+|---|---|---|
+| `jerelin` | NPC | [Lake Laeroth, Laerothtomb 1](#v-jerelin) |
+| `jerelin_b` | NPC | [Lake Laeroth, Laerothtomb 1](#v-jerelin_b) |
+
+??? info "Technical information: jerelin"
+
+    | | |
+    |---|---|
+    | Entry ID | `jerelin` |
+    | Type (wiki) | NPC |
+    | Spawn group | `jerelin` |
+    | Loot table | – |
+    | Conversation | `jerelin_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_gisons:10` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "jerelin",
+     "name": "Jerelin",
+     "iconID": "monsters_gisons:10",
+     "monsterClass": "undead",
+     "spawnGroup": "jerelin",
+     "phraseID": "jerelin_0"
+    }
+    ```
+
+??? info "Technical information: jerelin_b"
 
     | | |
     |---|---|
     | Entry ID | `jerelin_b` |
+    | Type (wiki) | NPC |
     | Spawn group | `jerelin_b` |
     | Loot table | – |
     | Conversation | `jerelin_b_2a` |
@@ -158,7 +160,6 @@ Set your quest stages and items, then talk to Jerelin. Same rules as the game: s
      "phraseID": "jerelin_b_2a"
     }
     ```
-
 
 
 ## Community notes

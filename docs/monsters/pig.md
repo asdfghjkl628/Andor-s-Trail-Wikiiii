@@ -4,32 +4,23 @@ description: "Pig is a non-player character (NPC) in Andor's Trail, found in Lon
 
 # ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } Pig
 
+**Where to find Pig:** [Deebo's Orchard, Sullengard apple farm east and 4 more](#v-pig), [Mountainlake circe](#v-ll2_circe_pig)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Loneford, Sullengard, Deebo's Orchard, Mountainlake circe |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Pig. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Deebo's Orchard, Sullengard apple farm east and 4 more { #v-pig }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`pig`](#v-pig) | NPC | Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-pig) (+3 more) | – |
-| [`ll2_circe_pig`](#v-ll2_circe_pig) | NPC | [Mountainlake circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig) | – |
-
-## Deebo's Orchard, Sullengard apple farm east and 4 more (pig) { #v-pig }
-
-**Entry ID:** `pig` · **Type:** NPC
-
-**Location:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-pig), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-pig), Sullengard: [Sullengard 1](../maps/sullengard1.md#pin-npc-pig), [Waterwayb 4](../maps/waterwayb4.md#pin-npc-pig)
+**Where:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-pig), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-pig), Sullengard: [Sullengard 1](../maps/sullengard1.md#pin-npc-pig), [Waterwayb 4](../maps/waterwayb4.md#pin-npc-pig)
 
 ### Locations
 
@@ -68,38 +59,9 @@ Set your quest stages and items, then talk to Pig. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (pig)"
+## Mountainlake circe { #v-ll2_circe_pig }
 
-    | | |
-    |---|---|
-    | Entry ID | `pig` |
-    | Spawn group | `pig` |
-    | Loot table | – |
-    | Conversation | `pig` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:106` |
-    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "pig",
-     "name": "Pig",
-     "iconID": "monsters_rltiles2:106",
-     "monsterClass": "animal",
-     "spawnGroup": "pig",
-     "phraseID": "pig"
-    }
-    ```
-
-
-## Mountainlake circe (ll2_circe_pig) { #v-ll2_circe_pig }
-
-**Entry ID:** `ll2_circe_pig` · **Type:** NPC
-
-**Location:** [Mountainlake circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig)
+**Where:** [Mountainlake circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig)
 
 ### Dialogue simulator
 
@@ -127,11 +89,51 @@ Set your quest stages and items, then talk to Pig. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ll2_circe_pig)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Pig. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `pig` | NPC | [Deebo's Orchard, Sullengard apple farm east and 4 more](#v-pig) |
+| `ll2_circe_pig` | NPC | [Mountainlake circe](#v-ll2_circe_pig) |
+
+??? info "Technical information: pig"
+
+    | | |
+    |---|---|
+    | Entry ID | `pig` |
+    | Type (wiki) | NPC |
+    | Spawn group | `pig` |
+    | Loot table | – |
+    | Conversation | `pig` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:106` |
+    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "pig",
+     "name": "Pig",
+     "iconID": "monsters_rltiles2:106",
+     "monsterClass": "animal",
+     "spawnGroup": "pig",
+     "phraseID": "pig"
+    }
+    ```
+
+??? info "Technical information: ll2_circe_pig"
 
     | | |
     |---|---|
     | Entry ID | `ll2_circe_pig` |
+    | Type (wiki) | NPC |
     | Spawn group | `ll2_circe_pig` |
     | Loot table | – |
     | Conversation | `ll2_circe_pig` |
@@ -153,7 +155,6 @@ Set your quest stages and items, then talk to Pig. Same rules as the game: same 
      "phraseID": "ll2_circe_pig"
     }
     ```
-
 
 
 ## Community notes

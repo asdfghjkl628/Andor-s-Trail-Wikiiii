@@ -4,6 +4,8 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 
 # ![](../assets/icons/monsters/monsters_tometik8_48.png){ .sprite } Drybone lich
 
+**Where to find Drybone lich:** [Undertell 00 and 9 more](#v-drybone_lich), [Appears during a quest or event](#v-drybone_lich_help_liches)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_48.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 | **Class** | Undead |
 | **HP** | 212 |
 | **XP when defeated** | 614 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Drybone lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
+## Undertell 00 and 9 more { #v-drybone_lich }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`drybone_lich`](#v-drybone_lich) | Enemy | [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md) (+8 more) | – | 212 |
-| [`drybone_lich_help_liches`](#v-drybone_lich_help_liches) | Enemy | Not on a map | – | 212 |
+**Where:** [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md), [Undertell 13](../maps/undertell_13.md), [Undertell 21](../maps/undertell_21.md) (+4 more)
 
-## Undertell 00 and 9 more (drybone_lich) { #v-drybone_lich }
+### Combat
 
-**Entry ID:** `drybone_lich` · **Type:** Enemy
-
-**Location:** [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md), [Undertell 13](../maps/undertell_13.md), [Undertell 21](../maps/undertell_21.md) (+4 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 212 |
 | XP when defeated | 614 |
 | Damage | 8 to 10 |
-| Attack chance | 198 |
-| Block chance | 185 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 198 |
+| BC | 185 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
-**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 2 rounds, 22% chance)
+**Its hits:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 2 rounds, 22% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -92,11 +78,74 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (drybone_lich)"
+## Appears during a quest or event { #v-drybone_lich_help_liches }
+
+**Where:** appears during a quest or scripted event.
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 212 |
+| XP when defeated | 614 |
+| Damage | 8 to 10 |
+| AC | 198 |
+| BC | 185 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
+
+**Its hits:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 2 rounds, 22% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 35% | 6 to 12 |
+| [Tattered coin purse](../items/lich_purse.md) | 1% | 1 |
+| [Lich dust](../items/lich_dust.md) | 5% | 1 |
+| [Tonic of blood](../items/tonic_of_blood.md) | 10% | 1 |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Drybone lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `drybone_lich` | Enemy | [Undertell 00 and 9 more](#v-drybone_lich) |
+| `drybone_lich_help_liches` | Enemy | [Appears during a quest or event](#v-drybone_lich_help_liches) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: drybone_lich"
 
     | | |
     |---|---|
     | Entry ID | `drybone_lich` |
+    | Type (wiki) | Enemy |
     | Spawn group | `lich_spawn1` |
     | Loot table | `drybone_lich_dl` |
     | Conversation | – |
@@ -141,61 +190,12 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
     }
     ```
 
-
-## Not placed on a map (drybone_lich_help_liches) { #v-drybone_lich_help_liches }
-
-**Entry ID:** `drybone_lich_help_liches` · **Type:** Enemy
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 212 |
-| XP when defeated | 614 |
-| Damage | 8 to 10 |
-| Attack chance | 198 |
-| Block chance | 185 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
-
-**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 2 rounds, 22% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 35% | 6 to 12 |
-| [Tattered coin purse](../items/lich_purse.md) | 1% | 1 |
-| [Lich dust](../items/lich_dust.md) | 5% | 1 |
-| [Tonic of blood](../items/tonic_of_blood.md) | 10% | 1 |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (drybone_lich_help_liches)"
+??? info "Technical information: drybone_lich_help_liches"
 
     | | |
     |---|---|
     | Entry ID | `drybone_lich_help_liches` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpLich` |
     | Loot table | `drybone_lich_dl` |
     | Conversation | – |
@@ -239,16 +239,6 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

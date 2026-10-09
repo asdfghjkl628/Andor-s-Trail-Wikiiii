@@ -4,36 +4,23 @@ description: "Outcast is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } Outcast
 
+**Where to find Outcast:** [Fallhaven, Woodhouse 2](#v-smuggler1), [Fallhaven, Woodhouse 2](#v-smuggler2), [Fallhaven, Woodhouse 1](#v-smuggler4), [Fallhaven, Woodhouse 0](#v-smuggler5), [Fallhaven, Woodsettlement 0](#v-smuggler6), [Woodhouse 3](#v-smuggler7)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_26.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Fallhaven, Woodhouse 3 |
-| **Entries in game data** | 6 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "6 entries in the game data"
-    The game data defines 6 separate characters named Outcast. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Fallhaven, Woodhouse 2 { #v-smuggler1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`smuggler1`](#v-smuggler1) | NPC | Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler1) | – |
-| [`smuggler2`](#v-smuggler2) | NPC | Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler2) | – |
-| [`smuggler4`](#v-smuggler4) | NPC | Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-smuggler4) | – |
-| [`smuggler5`](#v-smuggler5) | NPC | Fallhaven: [Woodhouse 0](../maps/woodhouse0.md#pin-npc-smuggler5) | – |
-| [`smuggler6`](#v-smuggler6) | NPC | Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-smuggler6) | – |
-| [`smuggler7`](#v-smuggler7) | NPC | [Woodhouse 3](../maps/woodhouse3.md#pin-npc-smuggler7) | – |
-
-## Fallhaven, Woodhouse 2 (smuggler1) { #v-smuggler1 }
-
-**Entry ID:** `smuggler1` · **Type:** NPC
-
-**Location:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler1)
+**Where:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler1)
 
 ### Dialogue simulator
 
@@ -62,36 +49,9 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (smuggler1)"
+## Fallhaven, Woodhouse 2 (2) { #v-smuggler2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `smuggler1` |
-    | Spawn group | `smuggler1` |
-    | Loot table | – |
-    | Conversation | `smuggler1_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:26` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "smuggler1",
-     "name": "Outcast",
-     "iconID": "monsters_ld1:26",
-     "phraseID": "smuggler1_0"
-    }
-    ```
-
-
-## Fallhaven, Woodhouse 2 (smuggler2) { #v-smuggler2 }
-
-**Entry ID:** `smuggler2` · **Type:** NPC
-
-**Location:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler2)
+**Where:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler2)
 
 ### Dialogue simulator
 
@@ -119,36 +79,9 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (smuggler2)"
+## Fallhaven, Woodhouse 1 { #v-smuggler4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `smuggler2` |
-    | Spawn group | `smuggler2` |
-    | Loot table | – |
-    | Conversation | `smuggler2_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:82` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "smuggler2",
-     "name": "Outcast",
-     "iconID": "monsters_ld1:82",
-     "phraseID": "smuggler2_0"
-    }
-    ```
-
-
-## Fallhaven, Woodhouse 1 (smuggler4) { #v-smuggler4 }
-
-**Entry ID:** `smuggler4` · **Type:** NPC
-
-**Location:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-smuggler4)
+**Where:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-smuggler4)
 
 ### Dialogue simulator
 
@@ -186,36 +119,9 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (smuggler4)"
+## Fallhaven, Woodhouse 0 { #v-smuggler5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `smuggler4` |
-    | Spawn group | `smuggler4` |
-    | Loot table | – |
-    | Conversation | `smuggler4_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:63` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "smuggler4",
-     "name": "Outcast",
-     "iconID": "monsters_tometik2:63",
-     "phraseID": "smuggler4_0"
-    }
-    ```
-
-
-## Fallhaven, Woodhouse 0 (smuggler5) { #v-smuggler5 }
-
-**Entry ID:** `smuggler5` · **Type:** NPC
-
-**Location:** Fallhaven: [Woodhouse 0](../maps/woodhouse0.md#pin-npc-smuggler5)
+**Where:** Fallhaven: [Woodhouse 0](../maps/woodhouse0.md#pin-npc-smuggler5)
 
 ### Dialogue simulator
 
@@ -252,36 +158,9 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (smuggler5)"
+## Fallhaven, Woodsettlement 0 { #v-smuggler6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `smuggler5` |
-    | Spawn group | `smuggler5` |
-    | Loot table | – |
-    | Conversation | `smuggler5_1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:70` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "smuggler5",
-     "name": "Outcast",
-     "iconID": "monsters_tometik2:70",
-     "phraseID": "smuggler5_1"
-    }
-    ```
-
-
-## Fallhaven, Woodsettlement 0 (smuggler6) { #v-smuggler6 }
-
-**Entry ID:** `smuggler6` · **Type:** NPC
-
-**Location:** Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-smuggler6)
+**Where:** Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-smuggler6)
 
 ### Dialogue simulator
 
@@ -319,36 +198,9 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (smuggler6)"
+## Woodhouse 3 { #v-smuggler7 }
 
-    | | |
-    |---|---|
-    | Entry ID | `smuggler6` |
-    | Spawn group | `smuggler6` |
-    | Loot table | – |
-    | Conversation | `smuggler6_1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik5:0` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "smuggler6",
-     "name": "Outcast",
-     "iconID": "monsters_tometik5:0",
-     "phraseID": "smuggler6_1"
-    }
-    ```
-
-
-## Woodhouse 3 (smuggler7) { #v-smuggler7 }
-
-**Entry ID:** `smuggler7` · **Type:** NPC
-
-**Location:** [Woodhouse 3](../maps/woodhouse3.md#pin-npc-smuggler7)
+**Where:** [Woodhouse 3](../maps/woodhouse3.md#pin-npc-smuggler7)
 
 ### Dialogue simulator
 
@@ -380,11 +232,153 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (smuggler7)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**6 entries.** The game data defines 6 separate characters named Outcast. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `smuggler1` | NPC | [Fallhaven, Woodhouse 2](#v-smuggler1) |
+| `smuggler2` | NPC | [Fallhaven, Woodhouse 2](#v-smuggler2) |
+| `smuggler4` | NPC | [Fallhaven, Woodhouse 1](#v-smuggler4) |
+| `smuggler5` | NPC | [Fallhaven, Woodhouse 0](#v-smuggler5) |
+| `smuggler6` | NPC | [Fallhaven, Woodsettlement 0](#v-smuggler6) |
+| `smuggler7` | NPC | [Woodhouse 3](#v-smuggler7) |
+
+??? info "Technical information: smuggler1"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `smuggler1` |
+    | Loot table | – |
+    | Conversation | `smuggler1_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:26` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler1",
+     "name": "Outcast",
+     "iconID": "monsters_ld1:26",
+     "phraseID": "smuggler1_0"
+    }
+    ```
+
+??? info "Technical information: smuggler2"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `smuggler2` |
+    | Loot table | – |
+    | Conversation | `smuggler2_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:82` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler2",
+     "name": "Outcast",
+     "iconID": "monsters_ld1:82",
+     "phraseID": "smuggler2_0"
+    }
+    ```
+
+??? info "Technical information: smuggler4"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `smuggler4` |
+    | Loot table | – |
+    | Conversation | `smuggler4_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:63` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler4",
+     "name": "Outcast",
+     "iconID": "monsters_tometik2:63",
+     "phraseID": "smuggler4_0"
+    }
+    ```
+
+??? info "Technical information: smuggler5"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `smuggler5` |
+    | Loot table | – |
+    | Conversation | `smuggler5_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:70` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler5",
+     "name": "Outcast",
+     "iconID": "monsters_tometik2:70",
+     "phraseID": "smuggler5_1"
+    }
+    ```
+
+??? info "Technical information: smuggler6"
+
+    | | |
+    |---|---|
+    | Entry ID | `smuggler6` |
+    | Type (wiki) | NPC |
+    | Spawn group | `smuggler6` |
+    | Loot table | – |
+    | Conversation | `smuggler6_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik5:0` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "smuggler6",
+     "name": "Outcast",
+     "iconID": "monsters_tometik5:0",
+     "phraseID": "smuggler6_1"
+    }
+    ```
+
+??? info "Technical information: smuggler7"
 
     | | |
     |---|---|
     | Entry ID | `smuggler7` |
+    | Type (wiki) | NPC |
     | Spawn group | `smuggler7` |
     | Loot table | – |
     | Conversation | `smuggler7_1` |
@@ -403,7 +397,6 @@ Set your quest stages and items, then talk to Outcast. Same rules as the game: s
      "phraseID": "smuggler7_1"
     }
     ```
-
 
 
 ## Community notes

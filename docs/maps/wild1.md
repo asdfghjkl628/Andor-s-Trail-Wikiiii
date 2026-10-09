@@ -1,5 +1,5 @@
 ---
-description: "Wild 1 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Forest wasp, Small rabid dog, Rabid boar, Rabid fox. Exits to Wild 0, Wild 4, Gapfiller 3, Crossglen."
+description: "Wild 1 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Small rabid dog, Forest wasp, Rabid boar, Rabid fox. Exits to Wild 0, Wild 4, Gapfiller 3, Crossglen."
 ---
 
 # Wild 1
@@ -57,8 +57,8 @@ North: Feygard”">5</a></div>
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 4 | – |
+| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 | 3–3 | 1 | – |
 | [Rabid fox](../monsters/rabid_fox.md) | 25 | 3–3 | 3 | – |
 

@@ -1,5 +1,5 @@
 ---
-description: "Lostmine 5 is an indoor location in Andor's Trail. Enemies: Young ash spawn, Ash spawn, Tough ash spawn, Hardened ash gargoyle, Strong ash gargoyle. Exits to Lostmine 6, Lostmine 4."
+description: "Lostmine 5 is an indoor location in Andor's Trail. Enemies: Young ash spawn, Ash spawn, Tough ash spawn, Strong ash gargoyle, Hardened ash gargoyle. Exits to Lostmine 6, Lostmine 4."
 ---
 
 # Lostmine 5
@@ -50,8 +50,8 @@ description: "Lostmine 5 is an indoor location in Andor's Trail. Enemies: Young 
 | [Young ash spawn](../monsters/ash5.md) | 80 | 0–5 | 5 | shares spawn with Ash spawn |
 | [Ash spawn](../monsters/ash6.md) | 83 | 0–5 | 5 | shares spawn with Young ash spawn |
 | [Tough ash spawn](../monsters/ash7.md) | 87 | 0–5 | 1 | – |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 8 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 8 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 8 | shares spawn with Strong ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

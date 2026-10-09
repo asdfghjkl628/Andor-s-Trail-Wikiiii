@@ -1,8 +1,10 @@
 ---
-description: "Greedy is an NPC who can also be fought in Andor's Trail, found in Aidem base 2, Aidem camp, Aidem base 2, Fallhaven."
+description: "Greedy is an NPC you can also fight in Andor's Trail, found in Aidem base 2, Aidem camp, Aidem base 2, Fallhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Greedy
+
+**Where to find Greedy:** [Aidem base 2 and 1 more](#v-aidem_camp_greedy), [Aidem base 2](#v-aidem_base_greedy_aggressive), [Fallhaven, Guildbrig 2](#v-aidem_jail_greedy)
 
 <div class="infobox" markdown>
 
@@ -10,30 +12,18 @@ description: "Greedy is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Aidem base 2, Aidem camp, Aidem base 2, Fallhaven |
 | **Class** | Humanoid |
 | **HP** | 329 |
 | **XP when defeated** | 707 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Greedy. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Aidem base 2 and 1 more { #v-aidem_camp_greedy }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`aidem_camp_greedy`](#v-aidem_camp_greedy) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy) | – | – |
-| [`aidem_base_greedy_aggressive`](#v-aidem_base_greedy_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_greedy`](#v-aidem_jail_greedy) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
-
-## Aidem base 2 and 1 more (aidem_camp_greedy) { #v-aidem_camp_greedy }
-
-**Entry ID:** `aidem_camp_greedy` · **Type:** NPC
-
-**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy)
+**Where:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy)
 
 ### Locations
 
@@ -72,66 +62,26 @@ Set your quest stages and items, then talk to Greedy. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_camp_greedy)"
+## Aidem base 2 { #v-aidem_base_greedy_aggressive }
 
-    | | |
-    |---|---|
-    | Entry ID | `aidem_camp_greedy` |
-    | Spawn group | `aidem_camp_greedy` |
-    | Loot table | `aidem_camp_greedy_dl` |
-    | Conversation | `aidem_camp_greedy_10` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+**Where:** [Aidem base 2](../maps/aidem_base_2.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "aidem_camp_greedy",
-     "name": "Greedy",
-     "iconID": "monsters_ld1:65",
-     "maxHP": 1,
-     "maxAP": 10,
-     "moveCost": 10,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "phraseID": "aidem_camp_greedy_10",
-     "droplistID": "aidem_camp_greedy_dl",
-     "attackCost": 10
-    }
-    ```
-
-
-## Aidem base 2 (aidem_base_greedy_aggressive) { #v-aidem_base_greedy_aggressive }
-
-**Entry ID:** `aidem_base_greedy_aggressive` · **Type:** Enemy
-
-**Location:** [Aidem base 2](../maps/aidem_base_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 329 |
 | XP when defeated | 707 |
 | Damage | 7 to 9 |
-| Attack chance | 158 |
-| Block chance | 170 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 2 AP |
-| Critical skill | 3 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 2% |
+| AC | 158 |
+| BC | 170 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 2% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -160,11 +110,82 @@ Set your quest stages and items, then talk to Greedy. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (aidem_base_greedy_aggressive)"
+## Fallhaven, Guildbrig 2 { #v-aidem_jail_greedy }
+
+**Where:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.8](../versions/0.8.8.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Greedy. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `aidem_camp_greedy` | NPC | [Aidem base 2 and 1 more](#v-aidem_camp_greedy) |
+| `aidem_base_greedy_aggressive` | Enemy | [Aidem base 2](#v-aidem_base_greedy_aggressive) |
+| `aidem_jail_greedy` | Scenery | [Fallhaven, Guildbrig 2](#v-aidem_jail_greedy) |
+
+- `aidem_jail_greedy` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: aidem_camp_greedy"
+
+    | | |
+    |---|---|
+    | Entry ID | `aidem_camp_greedy` |
+    | Type (wiki) | NPC |
+    | Spawn group | `aidem_camp_greedy` |
+    | Loot table | `aidem_camp_greedy_dl` |
+    | Conversation | `aidem_camp_greedy_10` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "aidem_camp_greedy",
+     "name": "Greedy",
+     "iconID": "monsters_ld1:65",
+     "maxHP": 1,
+     "maxAP": 10,
+     "moveCost": 10,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "aidem_camp_greedy_10",
+     "droplistID": "aidem_camp_greedy_dl",
+     "attackCost": 10
+    }
+    ```
+
+??? info "Technical information: aidem_base_greedy_aggressive"
 
     | | |
     |---|---|
     | Entry ID | `aidem_base_greedy_aggressive` |
+    | Type (wiki) | Enemy |
     | Spawn group | `help_defy` |
     | Loot table | `aidem_camp_greedy_dl` |
     | Conversation | – |
@@ -200,31 +221,12 @@ Set your quest stages and items, then talk to Greedy. Same rules as the game: sa
     }
     ```
 
-
-## Fallhaven, Guildbrig 2 (aidem_jail_greedy) { #v-aidem_jail_greedy }
-
-**Entry ID:** `aidem_jail_greedy` · **Type:** Scenery
-
-**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.8](../versions/0.8.8.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (aidem_jail_greedy)"
+??? info "Technical information: aidem_jail_greedy"
 
     | | |
     |---|---|
     | Entry ID | `aidem_jail_greedy` |
+    | Type (wiki) | Scenery |
     | Spawn group | `aidem_jail_greedy` |
     | Loot table | – |
     | Conversation | – |
@@ -243,16 +245,6 @@ Set your quest stages and items, then talk to Greedy. Same rules as the game: sa
      "monsterClass": "humanoid"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

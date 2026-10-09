@@ -4,36 +4,24 @@ description: "Villager is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } Villager
 
+**Where to find Villager:** [Loneford, Loneford 2](#v-loneford_villager0), [Loneford, Loneford 2](#v-loneford_villager1), [Loneford, Loneford 2](#v-loneford_villager2), [Loneford, Loneford 2](#v-loneford_villager3), [Loneford, Loneford 2](#v-loneford_villager4)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Flows through the veins](../quests/loneford.md) |
 | **Found in** | Loneford |
-| **Entries in game data** | 5 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Villager. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
+## Loneford, Loneford 2 { #v-loneford_villager0 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`loneford_villager0`](#v-loneford_villager0) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager0) | starts [Flows through the veins](../quests/loneford.md) |
-| [`loneford_villager1`](#v-loneford_villager1) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager1) | starts [Flows through the veins](../quests/loneford.md) |
-| [`loneford_villager2`](#v-loneford_villager2) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager2) | – |
-| [`loneford_villager3`](#v-loneford_villager3) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager3) | starts [Flows through the veins](../quests/loneford.md) |
-| [`loneford_villager4`](#v-loneford_villager4) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager4) | – |
-
-## Loneford, Loneford 2 (loneford_villager0) { #v-loneford_villager0 }
-
-**Entry ID:** `loneford_villager0` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
-
-**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager0)
+**Where:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager0) · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
 ### Quests
 
@@ -97,38 +85,9 @@ Set your quest stages and items, then talk to Villager. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_villager0)"
+## Loneford, Loneford 2 (2) { #v-loneford_villager1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_villager0` |
-    | Spawn group | `loneford_villager0` |
-    | Loot table | – |
-    | Conversation | `loneford_villager0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:0` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_villager0",
-     "name": "Villager",
-     "iconID": "monsters_karvis2:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_villager0",
-     "phraseID": "loneford_villager0"
-    }
-    ```
-
-
-## Loneford, Loneford 2 (loneford_villager1) { #v-loneford_villager1 }
-
-**Entry ID:** `loneford_villager1` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
-
-**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager1)
+**Where:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager1) · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
 ### Quests
 
@@ -161,38 +120,9 @@ Set your quest stages and items, then talk to Villager. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_villager1)"
+## Loneford, Loneford 2 (3) { #v-loneford_villager2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_villager1` |
-    | Spawn group | `loneford_villager1` |
-    | Loot table | – |
-    | Conversation | `loneford_villager1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:1` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_villager1",
-     "name": "Villager",
-     "iconID": "monsters_karvis2:1",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_villager1",
-     "phraseID": "loneford_villager1"
-    }
-    ```
-
-
-## Loneford, Loneford 2 (loneford_villager2) { #v-loneford_villager2 }
-
-**Entry ID:** `loneford_villager2` · **Type:** NPC
-
-**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager2)
+**Where:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager2)
 
 ### Quests
 
@@ -255,38 +185,9 @@ Set your quest stages and items, then talk to Villager. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_villager2)"
+## Loneford, Loneford 2 (4) { #v-loneford_villager3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_villager2` |
-    | Spawn group | `loneford_villager2` |
-    | Loot table | – |
-    | Conversation | `loneford_villager2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:3` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_villager2",
-     "name": "Villager",
-     "iconID": "monsters_karvis2:3",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_villager2",
-     "phraseID": "loneford_villager2"
-    }
-    ```
-
-
-## Loneford, Loneford 2 (loneford_villager3) { #v-loneford_villager3 }
-
-**Entry ID:** `loneford_villager3` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
-
-**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager3)
+**Where:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager3) · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
 ### Quests
 
@@ -319,38 +220,9 @@ Set your quest stages and items, then talk to Villager. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_villager3)"
+## Loneford, Loneford 2 (5) { #v-loneford_villager4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_villager3` |
-    | Spawn group | `loneford_villager3` |
-    | Loot table | – |
-    | Conversation | `loneford_villager3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:5` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_villager3",
-     "name": "Villager",
-     "iconID": "monsters_karvis2:5",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_villager3",
-     "phraseID": "loneford_villager3"
-    }
-    ```
-
-
-## Loneford, Loneford 2 (loneford_villager4) { #v-loneford_villager4 }
-
-**Entry ID:** `loneford_villager4` · **Type:** NPC
-
-**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager4)
+**Where:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_villager4)
 
 ### Dialogue simulator
 
@@ -378,11 +250,135 @@ Set your quest stages and items, then talk to Villager. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_villager4)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Villager. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `loneford_villager0` | NPC | [Loneford, Loneford 2](#v-loneford_villager0) |
+| `loneford_villager1` | NPC | [Loneford, Loneford 2](#v-loneford_villager1) |
+| `loneford_villager2` | NPC | [Loneford, Loneford 2](#v-loneford_villager2) |
+| `loneford_villager3` | NPC | [Loneford, Loneford 2](#v-loneford_villager3) |
+| `loneford_villager4` | NPC | [Loneford, Loneford 2](#v-loneford_villager4) |
+
+??? info "Technical information: loneford_villager0"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_villager0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_villager0` |
+    | Loot table | – |
+    | Conversation | `loneford_villager0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:0` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_villager0",
+     "name": "Villager",
+     "iconID": "monsters_karvis2:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_villager0",
+     "phraseID": "loneford_villager0"
+    }
+    ```
+
+??? info "Technical information: loneford_villager1"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_villager1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_villager1` |
+    | Loot table | – |
+    | Conversation | `loneford_villager1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:1` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_villager1",
+     "name": "Villager",
+     "iconID": "monsters_karvis2:1",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_villager1",
+     "phraseID": "loneford_villager1"
+    }
+    ```
+
+??? info "Technical information: loneford_villager2"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_villager2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_villager2` |
+    | Loot table | – |
+    | Conversation | `loneford_villager2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:3` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_villager2",
+     "name": "Villager",
+     "iconID": "monsters_karvis2:3",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_villager2",
+     "phraseID": "loneford_villager2"
+    }
+    ```
+
+??? info "Technical information: loneford_villager3"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_villager3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_villager3` |
+    | Loot table | – |
+    | Conversation | `loneford_villager3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:5` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_villager3",
+     "name": "Villager",
+     "iconID": "monsters_karvis2:5",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_villager3",
+     "phraseID": "loneford_villager3"
+    }
+    ```
+
+??? info "Technical information: loneford_villager4"
 
     | | |
     |---|---|
     | Entry ID | `loneford_villager4` |
+    | Type (wiki) | NPC |
     | Spawn group | `loneford_villager4` |
     | Loot table | – |
     | Conversation | `loneford_villager4` |
@@ -403,7 +399,6 @@ Set your quest stages and items, then talk to Villager. Same rules as the game: 
      "phraseID": "loneford_villager4"
     }
     ```
-
 
 
 ## Community notes

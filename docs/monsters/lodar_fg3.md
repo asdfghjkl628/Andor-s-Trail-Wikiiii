@@ -1,5 +1,5 @@
 ---
-description: "Afflicted Feygard guard is an NPC who can also be fought in Andor's Trail, found in Lodar 11."
+description: "Afflicted Feygard guard is an NPC you can also fight in Andor's Trail, found in Lodar 11."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Afflicted Feygard guard
@@ -12,40 +12,34 @@ description: "Afflicted Feygard guard is an NPC who can also be fought in Andor'
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Lodar 11 |
 | **Class** | Humanoid |
 | **HP** | 212 |
 | **XP when defeated** | 347 |
-| **Entry ID** | `lodar_fg3` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Afflicted Feygard guard"
+    The conversation during [A lost potion](../quests/lodar.md#stage-72) can lead straight into a fight with Afflicted Feygard guard.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 212 |
 | XP when defeated | 347 |
 | Damage | 1 to 11 |
-| Attack chance | 75 |
-| Block chance | 90 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 20 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 15% |
+| AC | 75 |
+| BC | 90 |
+| DR | 3 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -55,12 +49,6 @@ description: "Afflicted Feygard guard is an NPC who can also be fought in Andor'
 | [Iron mace](../items/mace_iron.md) | 5% | 1 |
 | [Broken wooden buckler](../items/broken_buckler.md) | 5% | 1 |
 | [Mead](../items/mead.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Lodar 11](../maps/lodar11.md) | – | 1 | – |
 
 ## Quests
 
@@ -113,17 +101,30 @@ Set your quest stages and items, then talk to Afflicted Feygard guard. Same rule
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 5 lines changed<br>· text: “(the guard stares back at you without saying anything)” → “[The guard stares back at you without saying anything]”<br>· text: “(you also notice that the whites in his eyes have turned red from the…” → “[You also notice that the whites in his eyes have turned red from the…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 5 lines changed<br>· text: “(you notice him breathing heavily, and that his hands are shaking fur…” → “[You notice him breathing heavily, and that his hands are shaking fur…”<br>· text: “(the guard launches himself at you, raising his sword)” → “[The guard launches himself at you, raising his sword]” |
 | [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lodar_fg3` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lodar_fg3` |
     | Loot table | `lodar_fg` |
     | Conversation | `lodar_fg3` |
@@ -157,15 +158,6 @@ Set your quest stages and items, then talk to Afflicted Feygard guard. Same rule
      "damageResistance": 3
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,32 +4,23 @@ description: "Guest is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } Guest
 
+**Where to find Guest:** [Brimhaven, Brimhaven inn east](#v-brv_inn_guest), [Brimhaven, Brimhaven tavern west](#v-brv_tavern_west_guest)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_132.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Guest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Brimhaven, Brimhaven inn east { #v-brv_inn_guest }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brv_inn_guest`](#v-brv_inn_guest) | NPC | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest) | – |
-| [`brv_tavern_west_guest`](#v-brv_tavern_west_guest) | NPC | Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest) | – |
-
-## Brimhaven, Brimhaven inn east (brv_inn_guest) { #v-brv_inn_guest }
-
-**Entry ID:** `brv_inn_guest` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest)
+**Where:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-brv_inn_guest)
 
 ### Dialogue simulator
 
@@ -60,36 +51,9 @@ Set your quest stages and items, then talk to Guest. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_inn_guest)"
+## Brimhaven, Brimhaven tavern west { #v-brv_tavern_west_guest }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_inn_guest` |
-    | Spawn group | `brv_inn_guest` |
-    | Loot table | – |
-    | Conversation | `brv_inn_guest_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:132` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_inn_guest",
-     "name": "Guest",
-     "iconID": "monsters_ld1:132",
-     "phraseID": "brv_inn_guest_0"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern west (brv_tavern_west_guest) { #v-brv_tavern_west_guest }
-
-**Entry ID:** `brv_tavern_west_guest` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest)
+**Where:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guest)
 
 ### Dialogue simulator
 
@@ -122,11 +86,49 @@ Set your quest stages and items, then talk to Guest. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_tavern_west_guest)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Guest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_inn_guest` | NPC | [Brimhaven, Brimhaven inn east](#v-brv_inn_guest) |
+| `brv_tavern_west_guest` | NPC | [Brimhaven, Brimhaven tavern west](#v-brv_tavern_west_guest) |
+
+??? info "Technical information: brv_inn_guest"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_inn_guest` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_inn_guest` |
+    | Loot table | – |
+    | Conversation | `brv_inn_guest_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:132` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_inn_guest",
+     "name": "Guest",
+     "iconID": "monsters_ld1:132",
+     "phraseID": "brv_inn_guest_0"
+    }
+    ```
+
+??? info "Technical information: brv_tavern_west_guest"
 
     | | |
     |---|---|
     | Entry ID | `brv_tavern_west_guest` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_tavern_west_guest` |
     | Loot table | – |
     | Conversation | `brv_tavern_west_guest` |
@@ -148,7 +150,6 @@ Set your quest stages and items, then talk to Guest. Same rules as the game: sam
      "phraseID": "brv_tavern_west_guest"
     }
     ```
-
 
 
 ## Community notes

@@ -12,10 +12,9 @@ description: "Venanra is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Brimhaven |
-| **Entry ID** | `brv_laundry_boss` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
@@ -130,16 +129,21 @@ Set your quest stages and items, then talk to Venanra. Same rules as the game: s
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
 | [v0.7.12](../versions/0.7.12.md) | Renamed “Laundry owner” → “Venanra”<br>Dialogue: 4 lines added, 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Improving a fine green hat costs 1,397 gold, fine snakeskin gloves co…” → “Improving a fine green hat costs {1397} gold, fine snakeskin gloves c…”<br>· text: “You don't have the required 1,397 gold to improve your fine green hat.” → “You don't have the required {1397} gold to improve your fine green ha…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “You don't have the required 1,397 gold to improve your fine green hat.” → “You don't have the required {1397} gold to improve your fine green ha…”<br>· text: “Improving a fine green hat costs 1,397 gold, fine snakeskin gloves co…” → “Improving a fine green hat costs {1397} gold, fine snakeskin gloves c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_laundry_boss` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_laundry_boss` |
     | Loot table | `brv_laundry` |
     | Conversation | `brv_laundry_boss_0` |

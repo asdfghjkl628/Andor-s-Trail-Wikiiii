@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Cute dog puppy, Wolf, Vicious hound, Rabid hound, Wild dog. Exits to Guynmart wood 7, Guynmart, Guynmart wood 3."
+description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Cute dog puppy, Wolf, Vicious hound, Wild dog, Rabid hound. Exits to Guynmart wood 7, Guynmart, Guynmart wood 3."
 ---
 
 # Guynmart wood 2
@@ -87,9 +87,9 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 | [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 6 | 2–2 | 1 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 2 | – |
+| [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 1 | – |
 | [Wild dog](../monsters/guynmart_dog2a.md#v-guynmart_dog3a) | 40 | 3–9 | 5 | appears later, during a quest |
-| [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

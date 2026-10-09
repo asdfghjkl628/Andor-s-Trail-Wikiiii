@@ -1,5 +1,5 @@
 ---
-description: "Lodar 8 is an outdoor location in Andor's Trail. NPCs: Guardian of the bridge, Insane Feygard guard, Zortak leader. Enemies: Puny yellowjacket, Small yellowjacket, Small horned anklebiter, Puny venomscale, Swarming yellowjacket. Exits to Lodar 4, Lodar 8cave 0, Lodar 11, Lodar 18."
+description: "Lodar 8 is an outdoor location in Andor's Trail. NPCs: Guardian of the bridge, Insane Feygard guard, Zortak leader. Enemies: Puny yellowjacket, Small yellowjacket, Small horned anklebiter, Swarming yellowjacket, Puny venomscale. Exits to Lodar 4, Lodar 8cave 0, Lodar 11, Lodar 18."
 ---
 
 # Lodar 8
@@ -70,12 +70,12 @@ description: "Lodar 8 is an outdoor location in Andor's Trail. NPCs: Guardian of
 | [Puny yellowjacket](../monsters/yjacket1.md) | 31 | 3–4 | 4 | shares spawn with Small yellowjacket, Swarming yellowjacket |
 | [Small yellowjacket](../monsters/yjacket2.md) | 37 | 3–4 | 4 | shares spawn with Puny yellowjacket, Swarming yellowjacket |
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 | 3–7 | 1 | shares spawn with Young horned anklebiter |
-| [Puny venomscale](../monsters/vscale1.md) | 42 | 2–4 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Young venomscale |
 | [Swarming yellowjacket](../monsters/yjacket3.md) | 42 | 3–4 | 4 | shares spawn with Puny yellowjacket, Small yellowjacket |
-| [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
+| [Puny venomscale](../monsters/vscale1.md) | 42 | 2–4 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Young venomscale |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 | 5–7 | 1 | shares spawn with Small horned anklebiter |
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 4 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
+| [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 4 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
 | [Gray venomscale](../monsters/vscale3.md) | 48 | 3–6 | 4 | shares spawn with Burrowing glow worm, Puny venomscale, Young venomscale |
+| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 4 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
 | [Zortak fighter](../monsters/zortak2.md) | 189 | 4–9 | 11 | shares spawn with Zortak guard |
 | [Zortak guard](../monsters/zortak3.md) | 195 | 2–10 | 11 | shares spawn with Zortak fighter |
 | [Zortak barbarian](../monsters/zortak4.md) | 207 | 3–11 | 12 | – |

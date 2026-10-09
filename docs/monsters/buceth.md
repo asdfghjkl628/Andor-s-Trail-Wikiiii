@@ -1,10 +1,10 @@
 ---
-description: "Buceth is an NPC who can also be fought in Andor's Trail."
+description: "Buceth is an NPC you can also fight in Andor's Trail."
 ---
 
 # ![](../assets/icons/monsters/monsters_men2_7.png){ .sprite } Buceth
 
-**Where to find Buceth:** not placed on any map; appears through a quest or scripted event.
+**Where to find Buceth:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,39 +12,33 @@ description: "Buceth is an NPC who can also be fought in Andor's Trail."
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Class** | Humanoid |
 | **HP** | 75 |
 | **XP when defeated** | 292 |
-| **Entry ID** | `buceth` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Buceth"
+    Answering “Fight!” during [Flows through the veins](../quests/loneford.md#stage-50) starts a fight with Buceth.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 75 |
 | XP when defeated | 292 |
 | Damage | 3 to 9 |
-| Attack chance | 80 |
-| Block chance | 120 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 200 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 58% |
+| AC | 80 |
+| BC | 120 |
+| DR | 4 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 58% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -336,7 +330,7 @@ Set your quest stages and items, then talk to Buceth. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “Hm, that might be an interesting proposal. How much gold are you sugg…” → “Hmm, that might be an interesting proposal. How much gold are you sug…”<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “A while later, the men return. They explain that some of the methods …” → “A while later, the men return. They explain that some of the ways thi…”<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |
@@ -345,11 +339,24 @@ Set your quest stages and items, then talk to Buceth. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `buceth` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `buceth` |
     | Loot table | `buceth` |
     | Conversation | `buceth` |
@@ -385,15 +392,6 @@ Set your quest stages and items, then talk to Buceth. Same rules as the game: sa
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

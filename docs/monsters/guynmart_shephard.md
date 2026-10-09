@@ -4,32 +4,23 @@ description: "Shepherd is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_karvis2_7.png){ .sprite } Shepherd
 
+**Where to find Shepherd:** [Guynmart Castle, Guynmart wood 9](#v-guynmart_shephard), [Guynmart Castle, Guynmart main 1](#v-guynmart_shephard2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_7.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Shepherd. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
+## Guynmart Castle, Guynmart wood 9 { #v-guynmart_shephard }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_shephard`](#v-guynmart_shephard) | NPC | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard) | – |
-| [`guynmart_shephard2`](#v-guynmart_shephard2) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2) | – |
-
-## Guynmart Castle, Guynmart wood 9 (guynmart_shephard) { #v-guynmart_shephard }
-
-**Entry ID:** `guynmart_shephard` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard)
+**Where:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_shephard)
 
 ### Dialogue simulator
 
@@ -72,37 +63,9 @@ Set your quest stages and items, then talk to Shepherd. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_shephard)"
+## Guynmart Castle, Guynmart main 1 { #v-guynmart_shephard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_shephard` |
-    | Spawn group | `guynmart_shephard` |
-    | Loot table | – |
-    | Conversation | `guynmart_shephard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:7` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_shephard",
-     "name": "Shepherd",
-     "iconID": "monsters_karvis2:7",
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_shephard_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_shephard2) { #v-guynmart_shephard2 }
-
-**Entry ID:** `guynmart_shephard2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_shephard2)
 
 ### Dialogue simulator
 
@@ -124,11 +87,50 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_shephard2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Shepherd. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_shephard` | NPC | [Guynmart Castle, Guynmart wood 9](#v-guynmart_shephard) |
+| `guynmart_shephard2` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_shephard2) |
+
+??? info "Technical information: guynmart_shephard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_shephard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_shephard` |
+    | Loot table | – |
+    | Conversation | `guynmart_shephard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:7` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_shephard",
+     "name": "Shepherd",
+     "iconID": "monsters_karvis2:7",
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_shephard_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_shephard2"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_shephard2` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_shephard2` |
     | Loot table | – |
     | Conversation | `guynmart_shephard_10` |
@@ -148,7 +150,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "guynmart_shephard_10"
     }
     ```
-
 
 
 ## Community notes

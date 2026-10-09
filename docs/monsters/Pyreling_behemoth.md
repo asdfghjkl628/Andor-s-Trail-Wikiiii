@@ -17,38 +17,31 @@ description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 36
 | **Class** | Construct |
 | **HP** | 360 |
 | **XP when defeated** | 997 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `Pyreling_behemoth` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 360 |
 | XP when defeated | 997 |
 | Damage | 28 to 20 |
-| Attack chance | 170 |
-| Block chance | 229 |
-| Damage resistance | 13 |
-| Max AP | 10 |
-| Attack cost | 6 AP |
-| Attacks per turn | 1 |
-| Move cost | 9 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 170 |
+| BC | 229 |
+| DR | 13 |
+| Attacks per turn | 1 (6 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**When hit:** On target: [Ablaze](../conditions/fire.md) (magnitude 2, 4 rounds, 75% chance)
+**When you hit it:** On target: [Ablaze](../conditions/fire.md) (magnitude 2, 4 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -76,11 +69,24 @@ description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 36
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `Pyreling_behemoth` |
+    | Type (wiki) | Enemy |
     | Spawn group | `Pyreling_behemoth` |
     | Loot table | `Pyreling_behemoth_dl` |
     | Conversation | – |
@@ -122,15 +128,6 @@ description: "Pyreling behemoth is an enemy in Andor's Trail (construct) with 36
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

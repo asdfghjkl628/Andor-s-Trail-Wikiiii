@@ -17,34 +17,28 @@ description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, 
 | **Class** | Undead |
 | **HP** | 198 |
 | **XP when defeated** | 595 |
-| **Entry ID** | `angel_death` |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 198 |
 | XP when defeated | 595 |
 | Damage | 18 to 21 |
-| Attack chance | 170 |
-| Block chance | 140 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 8 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 7% |
+| AC | 170 |
+| BC | 140 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 7% (×2.0) |
 
-**On hit:** On target: [Death Plague](../conditions/death_plague.md) (magnitude 3, 3 rounds, 15% chance)
+**Its hits:** On target: [Death Plague](../conditions/death_plague.md) (magnitude 3, 3 rounds, 15% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -80,11 +74,24 @@ description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `angel_death` |
+    | Type (wiki) | Enemy |
     | Spawn group | `angel_death` |
     | Loot table | `angel_death_dl` |
     | Conversation | – |
@@ -127,15 +134,6 @@ description: "Angel of death is an enemy in Andor's Trail (undead) with 198 HP, 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

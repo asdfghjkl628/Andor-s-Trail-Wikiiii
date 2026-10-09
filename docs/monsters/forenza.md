@@ -1,8 +1,10 @@
 ---
-description: "Forenza is an NPC who can also be fought in Andor's Trail, found in Lake Laeroth, Brimhaven."
+description: "Forenza is an NPC you can also fight in Andor's Trail, found in Lake Laeroth, Brimhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_22.png){ .sprite } Forenza
+
+**Where to find Forenza:** [Lake Laeroth, Laerothbasement 2](#v-forenza), [Brimhaven, Waytobrimhaven 3](#v-forenza_waytobrimhaven3)
 
 <div class="infobox" markdown>
 
@@ -10,54 +12,40 @@ description: "Forenza is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Lake Laeroth, Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 215 |
 | **XP when defeated** | 302 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Forenza. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
+## Lake Laeroth, Laerothbasement 2 { #v-forenza }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`forenza`](#v-forenza) | NPC/Enemy | Lake Laeroth: [Laerothbasement 2](../maps/laerothbasement2.md#pin-npc-forenza) | – | 215 |
-| [`forenza_waytobrimhaven3`](#v-forenza_waytobrimhaven3) | NPC | Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3) | – | – |
+**Where:** Lake Laeroth: [Laerothbasement 2](../maps/laerothbasement2.md#pin-npc-forenza)
 
-## Lake Laeroth, Laerothbasement 2 (forenza) { #v-forenza }
+!!! warning "You can fight Forenza"
+    Answering “Returning to Gylew what is rightfully his.” starts a fight with Forenza.
 
-**Entry ID:** `forenza` · **Type:** NPC/Enemy
+    Answering “Kill you and take that key!” during [The odd coin collector](../quests/odd_coin_collector.md#stage-45) starts a fight with Forenza.
 
-**Location:** Lake Laeroth: [Laerothbasement 2](../maps/laerothbasement2.md#pin-npc-forenza)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 215 |
 | XP when defeated | 302 |
 | Damage | 10 to 22 |
-| Attack chance | 70 |
-| Block chance | 50 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 2 AP |
-| Critical skill | 30 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 19% |
+| AC | 70 |
+| BC | 50 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 19% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -66,12 +54,6 @@ description: "Forenza is an NPC who can also be fought in Andor's Trail, found i
 | [Forenza's key](../items/forenza_key.md) | 100% | 1 |
 | [Necklace of strike](../items/necklace_strike.md) | 100% | 1 |
 | [Azure gem](../items/gem6.md) | 15% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Laerothbasement 2](../maps/laerothbasement2.md) | Lake Laeroth | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -247,52 +229,9 @@ Set your quest stages and items, then talk to Forenza. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (forenza)"
+## Brimhaven, Waytobrimhaven 3 { #v-forenza_waytobrimhaven3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `forenza` |
-    | Spawn group | `forenza_laerothisland2` |
-    | Loot table | `forenza_dl` |
-    | Conversation | `forenza_island_selector` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_tometik7:22` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "forenza",
-     "name": "Forenza",
-     "iconID": "monsters_tometik7:22",
-     "maxHP": 215,
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "attackDamage": {
-      "min": 10,
-      "max": 22
-     },
-     "spawnGroup": "forenza_laerothisland2",
-     "phraseID": "forenza_island_selector",
-     "droplistID": "forenza_dl",
-     "attackCost": 4,
-     "attackChance": 70,
-     "criticalSkill": 30,
-     "criticalMultiplier": 2.0,
-     "blockChance": 50
-    }
-    ```
-
-
-## Brimhaven, Waytobrimhaven 3 (forenza_waytobrimhaven3) { #v-forenza_waytobrimhaven3 }
-
-**Entry ID:** `forenza_waytobrimhaven3` · **Type:** NPC
-
-**Location:** Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3)
+**Where:** Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3)
 
 ### Quests
 
@@ -476,7 +415,7 @@ Set your quest stages and items, then talk to Forenza. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 31 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 4 lines changed<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…”<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 4 lines changed<br>· text: “Well, for obvious reasons. Didn't you notice that the shield has the …” → “Well, for obvious reasons. Didn't you notice that the shield has the …”<br>· text: “Oh, how very generous of you to just hand it over for free. I'll tell…” → “Oh, how very generous of you to just hand it over for free. I'll tell…” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “These bronze pieces bear the mark of the Lunar Whispe, an infamous th…” → “These bronze pieces bear the mark of the Lunar Whisper, an infamous t…” |
 | [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “[While laughing] Now, now, who do you think I am, Gylew? I don't have…” → “[While laughing] Now, now, who do you think I am, Gylew? I don't have…” |
@@ -484,11 +423,73 @@ Set your quest stages and items, then talk to Forenza. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (forenza_waytobrimhaven3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Forenza. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `forenza` | NPC/Enemy | [Lake Laeroth, Laerothbasement 2](#v-forenza) |
+| `forenza_waytobrimhaven3` | NPC | [Brimhaven, Waytobrimhaven 3](#v-forenza_waytobrimhaven3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: forenza"
+
+    | | |
+    |---|---|
+    | Entry ID | `forenza` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `forenza_laerothisland2` |
+    | Loot table | `forenza_dl` |
+    | Conversation | `forenza_island_selector` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_tometik7:22` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "forenza",
+     "name": "Forenza",
+     "iconID": "monsters_tometik7:22",
+     "maxHP": 215,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 10,
+      "max": 22
+     },
+     "spawnGroup": "forenza_laerothisland2",
+     "phraseID": "forenza_island_selector",
+     "droplistID": "forenza_dl",
+     "attackCost": 4,
+     "attackChance": 70,
+     "criticalSkill": 30,
+     "criticalMultiplier": 2.0,
+     "blockChance": 50
+    }
+    ```
+
+??? info "Technical information: forenza_waytobrimhaven3"
 
     | | |
     |---|---|
     | Entry ID | `forenza_waytobrimhaven3` |
+    | Type (wiki) | NPC |
     | Spawn group | `forenza_waytobrimhaven3` |
     | Loot table | – |
     | Conversation | `forenza_waytobrimhaven3_initial_phrase` |
@@ -511,16 +512,6 @@ Set your quest stages and items, then talk to Forenza. Same rules as the game: s
      "phraseID": "forenza_waytobrimhaven3_initial_phrase"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

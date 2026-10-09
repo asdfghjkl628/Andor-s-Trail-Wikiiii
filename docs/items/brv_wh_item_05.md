@@ -25,7 +25,7 @@ description: "Mysterious green something is a quest other in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_05](../monsters/brv_wh_item_05.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_25](../monsters/brv_wh_item_25.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-105) (2×)
+- From [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_05) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_25) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-105) (2×)
 - From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 

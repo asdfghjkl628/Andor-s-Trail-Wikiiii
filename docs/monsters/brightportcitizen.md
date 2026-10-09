@@ -4,32 +4,23 @@ description: "Brightport commoner is a non-player character (NPC) in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Brightport commoner
 
+**Where to find Brightport commoner:** [Brightport, Brightport 1 and 1 more](#v-brightportcitizen), [Brightport, Brightport 5](#v-brightportcitizen1)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_man1_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brightport |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Brightport commoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Brightport, Brightport 1 and 1 more { #v-brightportcitizen }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brightportcitizen`](#v-brightportcitizen) | NPC | Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [Brightport 3](../maps/brightport3.md#pin-npc-brightportcitizen) | – |
-| [`brightportcitizen1`](#v-brightportcitizen1) | NPC | Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportcitizen1) | – |
-
-## Brightport, Brightport 1 and 1 more (brightportcitizen) { #v-brightportcitizen }
-
-**Entry ID:** `brightportcitizen` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [Brightport 3](../maps/brightport3.md#pin-npc-brightportcitizen)
+**Where:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [Brightport 3](../maps/brightport3.md#pin-npc-brightportcitizen)
 
 ### Locations
 
@@ -66,37 +57,9 @@ Set your quest stages and items, then talk to Brightport commoner. Same rules as
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportcitizen)"
+## Brightport, Brightport 5 { #v-brightportcitizen1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightportcitizen` |
-    | Spawn group | `brightportcitizen` |
-    | Loot table | – |
-    | Conversation | `brightport_citizen0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightportcitizen",
-     "name": "Brightport commoner",
-     "iconID": "monsters_man1:0",
-     "unique": 1,
-     "phraseID": "brightport_citizen0"
-    }
-    ```
-
-
-## Brightport, Brightport 5 (brightportcitizen1) { #v-brightportcitizen1 }
-
-**Entry ID:** `brightportcitizen1` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportcitizen1)
+**Where:** Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportcitizen1)
 
 ### Dialogue simulator
 
@@ -124,11 +87,50 @@ Set your quest stages and items, then talk to Brightport commoner. Same rules as
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportcitizen1)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Brightport commoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brightportcitizen` | NPC | [Brightport, Brightport 1 and 1 more](#v-brightportcitizen) |
+| `brightportcitizen1` | NPC | [Brightport, Brightport 5](#v-brightportcitizen1) |
+
+??? info "Technical information: brightportcitizen"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightportcitizen` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightportcitizen` |
+    | Loot table | – |
+    | Conversation | `brightport_citizen0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightportcitizen",
+     "name": "Brightport commoner",
+     "iconID": "monsters_man1:0",
+     "unique": 1,
+     "phraseID": "brightport_citizen0"
+    }
+    ```
+
+??? info "Technical information: brightportcitizen1"
 
     | | |
     |---|---|
     | Entry ID | `brightportcitizen1` |
+    | Type (wiki) | NPC |
     | Spawn group | `brightportcitizen1` |
     | Loot table | – |
     | Conversation | `brightport_citizen` |
@@ -148,7 +150,6 @@ Set your quest stages and items, then talk to Brightport commoner. Same rules as
      "phraseID": "brightport_citizen"
     }
     ```
-
 
 
 ## Community notes

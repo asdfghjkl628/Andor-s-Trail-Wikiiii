@@ -15,7 +15,7 @@ description: "Fallhaven tavern room is a hidden quest in Andor's Trail, started 
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 (completes at 10) |
 | **Started by** | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) |
-| **NPCs involved** | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) |
+| **NPCs involved** | [Bela](../monsters/bela.md), [Bela](../monsters/bela.md#v-bela_2) |
 | **Related quests** | 1 |
 
 </div>

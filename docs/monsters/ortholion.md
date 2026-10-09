@@ -4,32 +4,23 @@ description: "General Ortholion is a non-player character (NPC) in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_omi2_10.png){ .sprite } General Ortholion
 
+**Where to find General Ortholion:** [Prim, Blackwater mountain 29 and 3 more](#v-ortholion), [Prim, Blackwater mountain 11](#v-ortholion_hidden)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_10.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Prim |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named General Ortholion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Prim, Blackwater mountain 29 and 3 more { #v-ortholion }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ortholion`](#v-ortholion) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion) (+2 more) | – |
-| [`ortholion_hidden`](#v-ortholion_hidden) | Scenery | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – |
-
-## Prim, Blackwater mountain 29 and 3 more (ortholion) { #v-ortholion }
-
-**Entry ID:** `ortholion` · **Type:** NPC
-
-**Location:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion), [Elm 5f 2](../maps/elm5f_2.md#pin-npc-ortholion), [Elm mine 1](../maps/elm_mine1.md#pin-npc-ortholion)
+**Where:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion), [Elm 5f 2](../maps/elm5f_2.md#pin-npc-ortholion), [Elm mine 1](../maps/elm_mine1.md#pin-npc-ortholion)
 
 ### Locations
 
@@ -380,17 +371,46 @@ Set your quest stages and items, then talk to General Ortholion. Same rules as t
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed<br>· text: “A reward? This does not work that way...What would Feygard would thin…” → “A reward? This does not work that way...What would Feygard think of m…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “*looks at you* This is humillating. How did that guy...” → “*looks at you* Humilliating. How did I...? How did that guy...?” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…”<br>· text: “*laughs quietly* Only simple minds would see things as black or white…” → “[Laughs quietly] Only simple minds would see things as black or white…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “*looks at you* This is humillating. How did that guy...” → “*looks at you* Humilliating. How did I...? How did that guy...?”<br>· text: “A knight's only trusted escorts are his sword and his horse. I'm pret…” → “A knight's only trustworthy escorts are his sword and his horse. *get…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…”<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ortholion)"
+## Prim, Blackwater mountain 11 { #v-ortholion_hidden }
+
+**Where:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named General Ortholion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ortholion` | NPC | [Prim, Blackwater mountain 29 and 3 more](#v-ortholion) |
+| `ortholion_hidden` | Scenery | [Prim, Blackwater mountain 11](#v-ortholion_hidden) |
+
+- `ortholion_hidden` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md).
+
+??? info "Technical information: ortholion"
 
     | | |
     |---|---|
     | Entry ID | `ortholion` |
+    | Type (wiki) | NPC |
     | Spawn group | `ortholion` |
     | Loot table | – |
     | Conversation | `ortholion_selector` |
@@ -414,31 +434,12 @@ Set your quest stages and items, then talk to General Ortholion. Same rules as t
     }
     ```
 
-
-## Prim, Blackwater mountain 11 (ortholion_hidden) { #v-ortholion_hidden }
-
-**Entry ID:** `ortholion_hidden` · **Type:** Scenery
-
-**Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.14](../versions/0.7.14.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ortholion_hidden)"
+??? info "Technical information: ortholion_hidden"
 
     | | |
     |---|---|
     | Entry ID | `ortholion_hidden` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ortholion_hidden` |
     | Loot table | – |
     | Conversation | – |
@@ -458,7 +459,6 @@ Set your quest stages and items, then talk to General Ortholion. Same rules as t
      "spawnGroup": "ortholion_hidden"
     }
     ```
-
 
 
 ## Community notes

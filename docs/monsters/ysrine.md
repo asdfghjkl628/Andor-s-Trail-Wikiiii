@@ -1,5 +1,5 @@
 ---
-description: "Ysrine is an NPC who can also be fought in Andor's Trail, found in Undertell 1 1. Starts Dominion."
+description: "Ysrine is a non-player character (NPC) in Andor's Trail, found in Undertell 1 1. Starts Dominion."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_124.png){ .sprite } Ysrine
@@ -12,27 +12,15 @@ description: "Ysrine is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Dominion](../quests/dominion.md) |
 | **Found in** | Undertell 1 1 |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
-| **Entry ID** | `ysrine` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-No combat statistics are defined for this entry in the game data. Where the story leads to a fight, the game normally uses a separate hostile entry.
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 1 1](../maps/undertell_1_1.md) | – | 1 | – |
+!!! note "A fight can start here"
+    Answering “You followers of Kazaul - you want everything for yourself! Give them up!” starts a fight with [Saki](../monsters/saki.md), not with Ysrine.
 
 ## Quests
 
@@ -315,11 +303,16 @@ Set your quest stages and items, then talk to Ysrine. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ysrine` |
+    | Type (wiki) | NPC |
     | Spawn group | `ysrine` |
     | Loot table | – |
     | Conversation | `ysrine_selector` |
@@ -338,15 +331,6 @@ Set your quest stages and items, then talk to Ysrine. Same rules as the game: sa
      "phraseID": "ysrine_selector"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

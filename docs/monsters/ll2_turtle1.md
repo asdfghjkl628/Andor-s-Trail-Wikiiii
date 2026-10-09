@@ -1,5 +1,5 @@
 ---
-description: "Turtle is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Remgard, Lake Laeroth."
+description: "Turtle is scenery in Andor's Trail: a decoration or dialogue prop, found in Remgard, Lake Laeroth."
 ---
 
 # ![](../assets/icons/monsters/monsters_nut_7.png){ .sprite } Turtle
@@ -12,15 +12,13 @@ description: "Turtle is scenery in Andor's Trail: a decoration or dialogue prop 
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Remgard, Lake Laeroth |
-| **Entry ID** | `ll2_turtle1` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+Part of the scenery: no conversation, no fight ~~and no, you can't take it home~~.
 
 ## Locations
 
@@ -58,11 +56,18 @@ description: "Turtle is scenery in Andor's Trail: a decoration or dialogue prop 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `ll2_turtle1` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ll2_turtle1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ll2_sealife` |
     | Loot table | – |
     | Conversation | – |

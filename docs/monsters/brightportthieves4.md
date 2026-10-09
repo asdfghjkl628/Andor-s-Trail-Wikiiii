@@ -4,32 +4,23 @@ description: "Watchdog is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } Watchdog
 
+**Where to find Watchdog:** [Brightport, Brightport jail and 1 more](#v-brightportthieves4), [Brimhaven, Brimhaven brother 1](#v-brv_brother1_watchdog)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_94.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brightport, Brimhaven |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Watchdog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Brightport, Brightport jail and 1 more { #v-brightportthieves4 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brightportthieves4`](#v-brightportthieves4) | NPC | Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4) | – |
-| [`brv_brother1_watchdog`](#v-brv_brother1_watchdog) | NPC | Brimhaven: [Brimhaven brother 1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog) | – |
-
-## Brightport, Brightport jail and 1 more (brightportthieves4) { #v-brightportthieves4 }
-
-**Entry ID:** `brightportthieves4` · **Type:** NPC
-
-**Location:** Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4)
+**Where:** Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightportthieves4), Brightport: [Brightport thieves](../maps/brightport_thieves.md#pin-npc-brightportthieves4)
 
 ### Locations
 
@@ -64,36 +55,9 @@ Set your quest stages and items, then talk to Watchdog. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportthieves4)"
+## Brimhaven, Brimhaven brother 1 { #v-brv_brother1_watchdog }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightportthieves4` |
-    | Spawn group | `brightportthieves4` |
-    | Loot table | – |
-    | Conversation | `brighport_watchdog` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:94` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightportthieves4",
-     "name": "Watchdog",
-     "iconID": "monsters_ld1:94",
-     "phraseID": "brighport_watchdog"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven brother 1 (brv_brother1_watchdog) { #v-brv_brother1_watchdog }
-
-**Entry ID:** `brv_brother1_watchdog` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven brother 1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog)
+**Where:** Brimhaven: [Brimhaven brother 1](../maps/brimhaven_brother1.md#pin-npc-brv_brother1_watchdog)
 
 ### Dialogue simulator
 
@@ -121,11 +85,49 @@ Set your quest stages and items, then talk to Watchdog. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_brother1_watchdog)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Watchdog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brightportthieves4` | NPC | [Brightport, Brightport jail and 1 more](#v-brightportthieves4) |
+| `brv_brother1_watchdog` | NPC | [Brimhaven, Brimhaven brother 1](#v-brv_brother1_watchdog) |
+
+??? info "Technical information: brightportthieves4"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightportthieves4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightportthieves4` |
+    | Loot table | – |
+    | Conversation | `brighport_watchdog` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:94` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightportthieves4",
+     "name": "Watchdog",
+     "iconID": "monsters_ld1:94",
+     "phraseID": "brighport_watchdog"
+    }
+    ```
+
+??? info "Technical information: brv_brother1_watchdog"
 
     | | |
     |---|---|
     | Entry ID | `brv_brother1_watchdog` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_brother1_watchdog` |
     | Loot table | – |
     | Conversation | `brv_brother1_watchdog` |
@@ -144,7 +146,6 @@ Set your quest stages and items, then talk to Watchdog. Same rules as the game: 
      "phraseID": "brv_brother1_watchdog"
     }
     ```
-
 
 
 ## Community notes

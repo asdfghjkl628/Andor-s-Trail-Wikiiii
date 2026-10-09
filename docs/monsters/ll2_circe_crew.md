@@ -4,7 +4,7 @@ description: "Crew is a non-player character (NPC) in Andor's Trail."
 
 # ![](../assets/icons/monsters/monsters_rltiles2_55.png){ .sprite } Crew
 
-**Where to find Crew:** not placed on any map; appears through a quest or scripted event.
+**Where to find Crew:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,18 +12,22 @@ description: "Crew is a non-player character (NPC) in Andor's Trail."
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Entry ID** | `ll2_circe_crew` |
+| **Type** | NPC (talk only; never fought) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ll2_circe_crew` |
+    | Type (wiki) | NPC |
     | Spawn group | `ll2_circe_crew` |
     | Loot table | – |
     | Conversation | `ll2_circe_crew` |

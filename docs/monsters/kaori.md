@@ -12,10 +12,9 @@ description: "Kaori is a non-player character (NPC) in Andor's Trail, found in V
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Trusting an outsider](../quests/vilegard.md) |
 | **Found in** | Vilegard |
-| **Entry ID** | `kaori` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -140,16 +139,21 @@ Set your quest stages and items, then talk to Kaori. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “I would really like to have a few more of those. If you can bring me …” → “I would really like to have a few more of those. If you can bring me …”<br>· text: “Hello again. Have you found those 10 Bonemeal potions I asked for?” → “Hello again. Have you found those 10 bonemeal potions I asked for?” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “He did? I guess you are not all that bad as I first thought.” → “He did? I guess you are not as bad as I first thought.”<br>· text: “Yes, these will do fine. Thank you a lot kid. Maybe you are ok after …” → “Yes, these will do fine. Thank you a lot kid. Maybe you are OK after …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `kaori` |
+    | Type (wiki) | NPC |
     | Spawn group | `kaori` |
     | Loot table | – |
     | Conversation | `kaori_start` |

@@ -4,33 +4,24 @@ description: "Khorailla is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } Khorailla
 
+**Where to find Khorailla:** [Prim, Tradehouse 0](#v-khorailla), [Prim, Tradehouse 0](#v-khorailla_cheddar)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_221.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Prim |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Khorailla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
+## Prim, Tradehouse 0 { #v-khorailla }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`khorailla`](#v-khorailla) | NPC | Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla) | shopkeeper |
-| [`khorailla_cheddar`](#v-khorailla_cheddar) | Scenery | Prim: [Tradehouse 0](../maps/tradehouse0.md) | – |
-
-## Prim, Tradehouse 0 (khorailla) { #v-khorailla }
-
-**Entry ID:** `khorailla` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla)
+**Where:** Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -103,11 +94,40 @@ Set your quest stages and items, then talk to Khorailla. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (khorailla)"
+## Prim, Tradehouse 0 (2) { #v-khorailla_cheddar }
+
+**Where:** Prim: [Tradehouse 0](../maps/tradehouse0.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Khorailla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `khorailla` | NPC | [Prim, Tradehouse 0](#v-khorailla) |
+| `khorailla_cheddar` | Scenery | [Prim, Tradehouse 0](#v-khorailla_cheddar) |
+
+- `khorailla_cheddar` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Prim: [Tradehouse 0](../maps/tradehouse0.md).
+
+??? info "Technical information: khorailla"
 
     | | |
     |---|---|
     | Entry ID | `khorailla` |
+    | Type (wiki) | NPC |
     | Spawn group | `khorailla` |
     | Loot table | `shop_khorailla` |
     | Conversation | `khorailla` |
@@ -128,31 +148,12 @@ Set your quest stages and items, then talk to Khorailla. Same rules as the game:
     }
     ```
 
-
-## Prim, Tradehouse 0 (khorailla_cheddar) { #v-khorailla_cheddar }
-
-**Entry ID:** `khorailla_cheddar` · **Type:** Scenery
-
-**Location:** Prim: [Tradehouse 0](../maps/tradehouse0.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (khorailla_cheddar)"
+??? info "Technical information: khorailla_cheddar"
 
     | | |
     |---|---|
     | Entry ID | `khorailla_cheddar` |
+    | Type (wiki) | Scenery |
     | Spawn group | `khorailla_cheddar` |
     | Loot table | `shop_khorailla_cheddar` |
     | Conversation | – |
@@ -171,7 +172,6 @@ Set your quest stages and items, then talk to Khorailla. Same rules as the game:
      "droplistID": "shop_khorailla_cheddar"
     }
     ```
-
 
 
 ## Community notes

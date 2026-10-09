@@ -1,5 +1,5 @@
 ---
-description: "Harlenn is an NPC who can also be fought in Andor's Trail, found in Prim."
+description: "Harlenn is an NPC you can also fight in Andor's Trail, found in Prim."
 ---
 
 # ![](../assets/icons/monsters/monsters_men2_6.png){ .sprite } Harlenn
@@ -12,40 +12,36 @@ description: "Harlenn is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Prim |
 | **Class** | Humanoid |
 | **HP** | 80 |
 | **XP when defeated** | 146 |
-| **Entry ID** | `harlenn` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Harlenn"
+    Answering “For the Shadow!” during [Clouded intent](../quests/prim_hunt.md#stage-90) starts a fight with Harlenn.
 
-## Combat statistics
+    Harlenn turns hostile if you fall out with their faction (this can happen in [Clouded intent](../quests/prim_hunt.md)).
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 80 |
 | XP when defeated | 146 |
 | Damage | 4 to 9 |
-| Attack chance | 70 |
-| Block chance | 80 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 80 |
+| DR | 4 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -54,12 +50,6 @@ description: "Harlenn is an NPC who can also be fought in Andor's Trail, found i
 | [Harlenn's ring](../items/harlenn_id.md) | 100% | 1 |
 | [Ring of Shadow embrace](../items/ring_shadow_embrace.md) | 100% | 1 |
 | [Gold coins](../items/gold.md) | 100% | 20 to 50 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 45](../maps/blackwater_mountain45.md) | Prim | 1 | – |
 
 ## Quests
 
@@ -412,16 +402,31 @@ Set your quest stages and items, then talk to Harlenn. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Ok, you have convinced me. I will leave this settlement for another t…” → “OK, you have convinced me. I will leave this settlement for another t…”<br>· text: “Ok, this is the plan. I want you to go talk to Guthbered down in Prim…” → “OK, this is the plan. I want you to go talk to Guthbered down in Prim…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “We believe they are planning to attack us any day now. But we lack an…” → “We believe they are planning to attack us any day now. But we lack th…”<br>· text: “Ok, this is the plan. I want you to go talk to Guthbered down in Prim…” → “OK, this is the plan. I want you to go talk to Guthbered down in Prim…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `harlenn` belongs to the faction `fct_bwm`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `harlenn` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `harlenn` |
     | Loot table | `harlenn` |
     | Conversation | `harlenn_start` |
@@ -456,15 +461,6 @@ Set your quest stages and items, then talk to Harlenn. Same rules as the game: s
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

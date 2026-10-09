@@ -4,36 +4,23 @@ description: "Rob is a non-player character (NPC) in Andor's Trail, found in Guy
 
 # ![](../assets/icons/monsters/monsters_ld1_62.png){ .sprite } Rob
 
+**Where to find Rob:** [Guynmart Castle, Guynmart main 3](#v-guynmart_rob), [Guynmart Castle, Guynmart](#v-guynmart_rob2), [Guynmart Castle, Guynmart tower 3](#v-guynmart_rob3), [Guynmart Castle, Guynmart tower 2](#v-guynmart_rob4), [Guynmart Castle, Guynmart wood 6](#v-guynmart_rob5), [Guynmart Castle, Guynmart wood 7](#v-guynmart_rob6)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_62.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 6 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "6 entries in the game data"
-    The game data defines 6 separate characters named Rob. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Guynmart Castle, Guynmart main 3 { #v-guynmart_rob }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_rob`](#v-guynmart_rob) | NPC | Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob) | – |
-| [`guynmart_rob2`](#v-guynmart_rob2) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2) | – |
-| [`guynmart_rob3`](#v-guynmart_rob3) | NPC | Guynmart Castle: [Guynmart tower 3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3) | – |
-| [`guynmart_rob4`](#v-guynmart_rob4) | NPC | Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4) | – |
-| [`guynmart_rob5`](#v-guynmart_rob5) | NPC | Guynmart Castle: [Guynmart wood 6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5) | – |
-| [`guynmart_rob6`](#v-guynmart_rob6) | NPC | Guynmart Castle: [Guynmart wood 7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6) | – |
-
-## Guynmart Castle, Guynmart main 3 (guynmart_rob) { #v-guynmart_rob }
-
-**Entry ID:** `guynmart_rob` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob)
+**Where:** Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob)
 
 ### Quests
 
@@ -98,38 +85,9 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_rob)"
+## Guynmart Castle, Guynmart { #v-guynmart_rob2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_rob` |
-    | Spawn group | `guynmart_rob` |
-    | Loot table | – |
-    | Conversation | `guynmart_rob_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:62` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_rob",
-     "name": "Rob",
-     "iconID": "monsters_ld1:62",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_rob_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart (guynmart_rob2) { #v-guynmart_rob2 }
-
-**Entry ID:** `guynmart_rob2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2)
 
 ### Dialogue simulator
 
@@ -162,38 +120,9 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_rob2)"
+## Guynmart Castle, Guynmart tower 3 { #v-guynmart_rob3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_rob2` |
-    | Spawn group | `guynmart_rob2` |
-    | Loot table | – |
-    | Conversation | `guynmart_rob2_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:62` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_rob2",
-     "name": "Rob",
-     "iconID": "monsters_ld1:62",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_rob2_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart tower 3 (guynmart_rob3) { #v-guynmart_rob3 }
-
-**Entry ID:** `guynmart_rob3` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart tower 3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3)
+**Where:** Guynmart Castle: [Guynmart tower 3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3)
 
 ### Quests
 
@@ -238,38 +167,9 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_rob3)"
+## Guynmart Castle, Guynmart tower 2 { #v-guynmart_rob4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_rob3` |
-    | Spawn group | `guynmart_rob3` |
-    | Loot table | – |
-    | Conversation | `guynmart_rob3_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:62` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_rob3",
-     "name": "Rob",
-     "iconID": "monsters_ld1:62",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_rob3_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart tower 2 (guynmart_rob4) { #v-guynmart_rob4 }
-
-**Entry ID:** `guynmart_rob4` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4)
+**Where:** Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4)
 
 ### Dialogue simulator
 
@@ -297,38 +197,9 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_rob4)"
+## Guynmart Castle, Guynmart wood 6 { #v-guynmart_rob5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_rob4` |
-    | Spawn group | `guynmart_rob4` |
-    | Loot table | – |
-    | Conversation | `guynmart_rob4_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:62` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_rob4",
-     "name": "Rob",
-     "iconID": "monsters_ld1:62",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_rob4_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 6 (guynmart_rob5) { #v-guynmart_rob5 }
-
-**Entry ID:** `guynmart_rob5` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5)
+**Where:** Guynmart Castle: [Guynmart wood 6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5)
 
 ### Quests
 
@@ -392,38 +263,9 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_rob5)"
+## Guynmart Castle, Guynmart wood 7 { #v-guynmart_rob6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_rob5` |
-    | Spawn group | `guynmart_rob5` |
-    | Loot table | – |
-    | Conversation | `guynmart_rob5_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:62` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_rob5",
-     "name": "Rob",
-     "iconID": "monsters_ld1:62",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_rob5_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 7 (guynmart_rob6) { #v-guynmart_rob6 }
-
-**Entry ID:** `guynmart_rob6` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6)
+**Where:** Guynmart Castle: [Guynmart wood 7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6)
 
 ### Quests
 
@@ -461,11 +303,163 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_rob6)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**6 entries.** The game data defines 6 separate characters named Rob. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_rob` | NPC | [Guynmart Castle, Guynmart main 3](#v-guynmart_rob) |
+| `guynmart_rob2` | NPC | [Guynmart Castle, Guynmart](#v-guynmart_rob2) |
+| `guynmart_rob3` | NPC | [Guynmart Castle, Guynmart tower 3](#v-guynmart_rob3) |
+| `guynmart_rob4` | NPC | [Guynmart Castle, Guynmart tower 2](#v-guynmart_rob4) |
+| `guynmart_rob5` | NPC | [Guynmart Castle, Guynmart wood 6](#v-guynmart_rob5) |
+| `guynmart_rob6` | NPC | [Guynmart Castle, Guynmart wood 7](#v-guynmart_rob6) |
+
+??? info "Technical information: guynmart_rob"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_rob` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_rob` |
+    | Loot table | – |
+    | Conversation | `guynmart_rob_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_rob",
+     "name": "Rob",
+     "iconID": "monsters_ld1:62",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_rob_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_rob2"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_rob2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_rob2` |
+    | Loot table | – |
+    | Conversation | `guynmart_rob2_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_rob2",
+     "name": "Rob",
+     "iconID": "monsters_ld1:62",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_rob2_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_rob3"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_rob3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_rob3` |
+    | Loot table | – |
+    | Conversation | `guynmart_rob3_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_rob3",
+     "name": "Rob",
+     "iconID": "monsters_ld1:62",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_rob3_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_rob4"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_rob4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_rob4` |
+    | Loot table | – |
+    | Conversation | `guynmart_rob4_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_rob4",
+     "name": "Rob",
+     "iconID": "monsters_ld1:62",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_rob4_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_rob5"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_rob5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_rob5` |
+    | Loot table | – |
+    | Conversation | `guynmart_rob5_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_rob5",
+     "name": "Rob",
+     "iconID": "monsters_ld1:62",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_rob5_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_rob6"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_rob6` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_rob6` |
     | Loot table | – |
     | Conversation | `guynmart_rob6_10` |
@@ -486,7 +480,6 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
      "phraseID": "guynmart_rob6_10"
     }
     ```
-
 
 
 ## Community notes

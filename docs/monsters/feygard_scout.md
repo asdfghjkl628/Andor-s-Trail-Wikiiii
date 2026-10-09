@@ -1,8 +1,10 @@
 ---
-description: "Feygard scout is an NPC who can also be fought in Andor's Trail, found in Crossroads Guardhouse, Prim. Shopkeeper."
+description: "Feygard scout is an NPC you can also fight in Andor's Trail, found in Crossroads Guardhouse, Prim. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi1_0.png){ .sprite } Feygard scout
+
+**Where to find Feygard scout:** [Crossroads Guardhouse, Crossroads](#v-feygard_scout), [Prim, Blackwater mountain 29](#v-ortholion_guard2), [Prim, Blackwater mountain 10](#v-ortholion_guard6)
 
 <div class="infobox" markdown>
 
@@ -10,56 +12,41 @@ description: "Feygard scout is an NPC who can also be fought in Andor's Trail, f
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Crossroads Guardhouse, Prim |
 | **Class** | Humanoid |
 | **HP** | 83 |
 | **XP when defeated** | 209 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Feygard scout. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. Each entry has its own section below.
+## Crossroads Guardhouse, Crossroads { #v-feygard_scout }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`feygard_scout`](#v-feygard_scout) | NPC/Enemy | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-feygard_scout) | – | 83 |
-| [`ortholion_guard2`](#v-ortholion_guard2) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2) | – | – |
-| [`ortholion_guard6`](#v-ortholion_guard6) | NPC | Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6) | shopkeeper | – |
+**Where:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-feygard_scout)
 
-## Crossroads Guardhouse, Crossroads (feygard_scout) { #v-feygard_scout }
+!!! warning "You can fight Feygard scout"
+    Answering “Not without a fight!” while talking to [Fanamor](../monsters/fanamor.md) during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with Feygard scout.
 
-**Entry ID:** `feygard_scout` · **Type:** NPC/Enemy
+    Answering “Not without a fight!” during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with Feygard scout.
 
-**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-feygard_scout)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 83 |
 | XP when defeated | 209 |
 | Damage | 6 to 11 |
-| Attack chance | 110 |
-| Block chance | 95 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 25 |
-| Critical multiplier | 2.5 |
-| Critical hit chance | 17% |
+| AC | 110 |
+| BC | 95 |
+| DR | 5 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 17% (×2.5) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -68,12 +55,6 @@ description: "Feygard scout is an NPC who can also be fought in Andor's Trail, f
 | [Fanamor's Journal](../items/Fanamor_journal.md) | 100% | 1 |
 | [Feygard iron dagger](../items/feygard_iron_dagger.md) | 100% | 1 |
 | [Polished gem](../items/gem3.md) | 100% | 1 to 3 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
@@ -112,54 +93,9 @@ Set your quest stages and items, then talk to Feygard scout. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (feygard_scout)"
+## Prim, Blackwater mountain 29 { #v-ortholion_guard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `feygard_scout` |
-    | Spawn group | `feygard_scout` |
-    | Loot table | `Feygard_scout` |
-    | Conversation | `feygard_scout_3` |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_omi1:0` |
-    | Defined in | `res/raw/monsterlist_omicronrg9.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "feygard_scout",
-     "name": "Feygard scout",
-     "iconID": "monsters_omi1:0",
-     "maxHP": 83,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 6,
-      "max": 11
-     },
-     "spawnGroup": "feygard_scout",
-     "phraseID": "feygard_scout_3",
-     "droplistID": "Feygard_scout",
-     "attackCost": 5,
-     "attackChance": 110,
-     "criticalSkill": 25,
-     "criticalMultiplier": 2.5,
-     "blockChance": 95,
-     "damageResistance": 5
-    }
-    ```
-
-
-## Prim, Blackwater mountain 29 (ortholion_guard2) { #v-ortholion_guard2 }
-
-**Entry ID:** `ortholion_guard2` · **Type:** NPC
-
-**Location:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2)
+**Where:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard2)
 
 ### Dialogue simulator
 
@@ -209,41 +145,9 @@ Set your quest stages and items, then talk to Feygard scout. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ortholion_guard2)"
+## Prim, Blackwater mountain 10 { #v-ortholion_guard6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ortholion_guard2` |
-    | Spawn group | `ortholion_guard2` |
-    | Loot table | `ortholion_guard2` |
-    | Conversation | `ortholion_guard6_1` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_omi2:12` |
-    | Defined in | `res/raw/monsterlist_omi2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ortholion_guard2",
-     "name": "Feygard scout",
-     "iconID": "monsters_omi2:12",
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "spawnGroup": "ortholion_guard2",
-     "faction": "",
-     "phraseID": "ortholion_guard6_1",
-     "droplistID": "ortholion_guard2"
-    }
-    ```
-
-
-## Prim, Blackwater mountain 10 (ortholion_guard6) { #v-ortholion_guard6 }
-
-**Entry ID:** `ortholion_guard6` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6)
+**Where:** Prim: [Blackwater mountain 10](../maps/blackwater_mountain10.md#pin-npc-ortholion_guard6) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -467,11 +371,106 @@ Set your quest stages and items, then talk to Feygard scout. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ortholion_guard6)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Feygard scout. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `feygard_scout` | NPC/Enemy | [Crossroads Guardhouse, Crossroads](#v-feygard_scout) |
+| `ortholion_guard2` | NPC | [Prim, Blackwater mountain 29](#v-ortholion_guard2) |
+| `ortholion_guard6` | NPC | [Prim, Blackwater mountain 10](#v-ortholion_guard6) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: feygard_scout"
+
+    | | |
+    |---|---|
+    | Entry ID | `feygard_scout` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `feygard_scout` |
+    | Loot table | `Feygard_scout` |
+    | Conversation | `feygard_scout_3` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_omi1:0` |
+    | Defined in | `res/raw/monsterlist_omicronrg9.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "feygard_scout",
+     "name": "Feygard scout",
+     "iconID": "monsters_omi1:0",
+     "maxHP": 83,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 6,
+      "max": 11
+     },
+     "spawnGroup": "feygard_scout",
+     "phraseID": "feygard_scout_3",
+     "droplistID": "Feygard_scout",
+     "attackCost": 5,
+     "attackChance": 110,
+     "criticalSkill": 25,
+     "criticalMultiplier": 2.5,
+     "blockChance": 95,
+     "damageResistance": 5
+    }
+    ```
+
+??? info "Technical information: ortholion_guard2"
+
+    | | |
+    |---|---|
+    | Entry ID | `ortholion_guard2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ortholion_guard2` |
+    | Loot table | `ortholion_guard2` |
+    | Conversation | `ortholion_guard6_1` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_omi2:12` |
+    | Defined in | `res/raw/monsterlist_omi2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ortholion_guard2",
+     "name": "Feygard scout",
+     "iconID": "monsters_omi2:12",
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "ortholion_guard2",
+     "faction": "",
+     "phraseID": "ortholion_guard6_1",
+     "droplistID": "ortholion_guard2"
+    }
+    ```
+
+??? info "Technical information: ortholion_guard6"
 
     | | |
     |---|---|
     | Entry ID | `ortholion_guard6` |
+    | Type (wiki) | NPC |
     | Spawn group | `ortholion_guard6` |
     | Loot table | `ortholion_guard2` |
     | Conversation | `ortholion_guard_selector` |
@@ -493,16 +492,6 @@ Set your quest stages and items, then talk to Feygard scout. Same rules as the g
      "droplistID": "ortholion_guard2"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -17,34 +17,28 @@ description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth
 | **Class** | Animal |
 | **HP** | 207 |
 | **XP when defeated** | 585 |
-| **Entry ID** | `nyratees` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 207 |
 | XP when defeated | 585 |
 | Damage | 10 to 15 |
-| Attack chance | 103 |
-| Block chance | 200 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 103 |
+| BC | 200 |
+| DR | 3 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Rabies](../conditions/rabies.md) (magnitude 1, 8 rounds, 25% chance)
+**Its hits:** On target: [Rabies](../conditions/rabies.md) (magnitude 1, 8 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -70,11 +64,24 @@ description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `nyratees` |
+    | Type (wiki) | Enemy |
     | Spawn group | `nyratees` |
     | Loot table | `undertell_rat_dl` |
     | Conversation | – |
@@ -114,15 +121,6 @@ description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Shadowfang is an NPC who can also be fought in Andor's Trail, found in Blackwater mountain 76, Elm 2f 1, Elm 2f 3."
+description: "Shadowfang is an NPC you can also fight in Andor's Trail, found in Blackwater mountain 76, Elm 2f 1, Elm 2f 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_7.png){ .sprite } Shadowfang
@@ -12,46 +12,39 @@ description: "Shadowfang is an NPC who can also be fought in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
 | **Class** | Demon |
 | **HP** | 98 |
 | **XP when defeated** | 330 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `shadowfang1` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Shadowfang"
+    Answering “What the...?” starts a fight with Shadowfang.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 98 |
 | XP when defeated | 330 |
 | Damage | 3 to 21 |
-| Attack chance | 130 |
-| Block chance | 110 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 2 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 130 |
+| BC | 110 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** Heal HP: 0 to 3; On target: [Venom](../conditions/venom.md) (magnitude 2, 4 rounds, 10% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 3, 3 rounds, 10% chance); [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 2 rounds, 5% chance)
+**Its hits:** Heal HP: 0 to 3; On target: [Venom](../conditions/venom.md) (magnitude 2, 4 rounds, 10% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 3, 3 rounds, 10% chance); [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 2 rounds, 5% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -104,11 +97,24 @@ Set your quest stages and items, then talk to Shadowfang. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `shadowfang1` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `shadowfang` |
     | Loot table | `shadowfang1` |
     | Conversation | `shadowfang_1` |
@@ -171,15 +177,6 @@ Set your quest stages and items, then talk to Shadowfang. Same rules as the game
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,32 +4,23 @@ description: "Captain Burry is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } Captain Burry
 
+**Where to find Captain Burry:** [Lake Laeroth, Mountainlake 21 and 7 more](#v-ll2_captain), [Mountainlake circe](#v-ll2_captain_0)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_2.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard, Lake Laeroth, Mountainlake circe |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Captain Burry. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Lake Laeroth, Mountainlake 21 and 7 more { #v-ll2_captain }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ll2_captain`](#v-ll2_captain) | NPC | Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain) (+6 more) | – |
-| [`ll2_captain_0`](#v-ll2_captain_0) | Scenery | [Mountainlake circe](../maps/mountainlake_circe.md) | – |
-
-## Lake Laeroth, Mountainlake 21 and 7 more (ll2_captain) { #v-ll2_captain }
-
-**Entry ID:** `ll2_captain` · **Type:** NPC
-
-**Location:** Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain), Remgard: [Remgard 2a](../maps/remgard2a.md#pin-npc-ll2_captain), [Mountainlake 22](../maps/mountainlake22.md#pin-npc-ll2_captain), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_captain), [Mountainlake 29](../maps/mountainlake29.md#pin-npc-ll2_captain) (+2 more)
+**Where:** Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain), Remgard: [Remgard 2a](../maps/remgard2a.md#pin-npc-ll2_captain), [Mountainlake 22](../maps/mountainlake22.md#pin-npc-ll2_captain), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_captain), [Mountainlake 29](../maps/mountainlake29.md#pin-npc-ll2_captain) (+2 more)
 
 ### Locations
 
@@ -70,11 +61,40 @@ Set your quest stages and items, then talk to Captain Burry. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ll2_captain)"
+## Mountainlake circe { #v-ll2_captain_0 }
+
+**Where:** [Mountainlake circe](../maps/mountainlake_circe.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Captain Burry. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ll2_captain` | NPC | [Lake Laeroth, Mountainlake 21 and 7 more](#v-ll2_captain) |
+| `ll2_captain_0` | Scenery | [Mountainlake circe](#v-ll2_captain_0) |
+
+- `ll2_captain_0` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Mountainlake circe](../maps/mountainlake_circe.md).
+
+??? info "Technical information: ll2_captain"
 
     | | |
     |---|---|
     | Entry ID | `ll2_captain` |
+    | Type (wiki) | NPC |
     | Spawn group | `ll2_captain` |
     | Loot table | – |
     | Conversation | `ll2_captain` |
@@ -96,31 +116,12 @@ Set your quest stages and items, then talk to Captain Burry. Same rules as the g
     }
     ```
 
-
-## Mountainlake circe (ll2_captain_0) { #v-ll2_captain_0 }
-
-**Entry ID:** `ll2_captain_0` · **Type:** Scenery
-
-**Location:** [Mountainlake circe](../maps/mountainlake_circe.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ll2_captain_0)"
+??? info "Technical information: ll2_captain_0"
 
     | | |
     |---|---|
     | Entry ID | `ll2_captain_0` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ll2_captain_0` |
     | Loot table | – |
     | Conversation | – |
@@ -140,7 +141,6 @@ Set your quest stages and items, then talk to Captain Burry. Same rules as the g
      "spawnGroup": "ll2_captain_0"
     }
     ```
-
 
 
 ## Community notes

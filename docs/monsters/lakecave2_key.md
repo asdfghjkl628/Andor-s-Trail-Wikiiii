@@ -4,31 +4,22 @@ description: "Glade key is a non-player character (NPC) in Andor's Trail."
 
 # ![](../assets/icons/monsters/items_japozero_387.png){ .sprite } Glade key
 
+**Where to find Glade key:** [Appears during a quest or event](#v-lakecave2_key), [Appears during a quest or event](#v-lakecave2_key2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/items_japozero_387.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Entries in game data** | 2 |
+| **Type** | NPC (talk only; never fought) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Glade key. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
+## Appears during a quest or event { #v-lakecave2_key }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`lakecave2_key`](#v-lakecave2_key) | NPC | Not on a map | – |
-| [`lakecave2_key2`](#v-lakecave2_key2) | NPC | Not on a map | – |
-
-## Not placed on a map (lakecave2_key) { #v-lakecave2_key }
-
-**Entry ID:** `lakecave2_key` · **Type:** NPC
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event.
 
 ### Quests
 
@@ -72,11 +63,29 @@ Set your quest stages and items, then talk to Glade key. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lakecave2_key)"
+## Appears during a quest or event (2) { #v-lakecave2_key2 }
+
+**Where:** appears during a quest or scripted event.
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Glade key. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation.
+
+| Entry | Type | Section |
+|---|---|---|
+| `lakecave2_key` | NPC | [Appears during a quest or event](#v-lakecave2_key) |
+| `lakecave2_key2` | NPC | [Appears during a quest or event](#v-lakecave2_key2) |
+
+??? info "Technical information: lakecave2_key"
 
     | | |
     |---|---|
     | Entry ID | `lakecave2_key` |
+    | Type (wiki) | NPC |
     | Spawn group | `lakecave2_key` |
     | Loot table | – |
     | Conversation | `lakecave2_key_check2` |
@@ -98,19 +107,12 @@ Set your quest stages and items, then talk to Glade key. Same rules as the game:
     }
     ```
 
-
-## Not placed on a map (lakecave2_key2) { #v-lakecave2_key2 }
-
-**Entry ID:** `lakecave2_key2` · **Type:** NPC
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-
-??? info "Technical information (lakecave2_key2)"
+??? info "Technical information: lakecave2_key2"
 
     | | |
     |---|---|
     | Entry ID | `lakecave2_key2` |
+    | Type (wiki) | NPC |
     | Spawn group | `lakecave2_key2` |
     | Loot table | – |
     | Conversation | `lakecave2_key_found` |
@@ -131,7 +133,6 @@ Set your quest stages and items, then talk to Glade key. Same rules as the game:
      "phraseID": "lakecave2_key_found"
     }
     ```
-
 
 
 ## Community notes

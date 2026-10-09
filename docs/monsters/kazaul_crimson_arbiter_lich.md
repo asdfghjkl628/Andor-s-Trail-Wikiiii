@@ -17,38 +17,32 @@ description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) 
 | **Class** | Undead |
 | **HP** | 305 |
 | **XP when defeated** | 883 |
-| **Entry ID** | `kazaul_crimson_arbiter_lich` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 305 |
 | XP when defeated | 883 |
 | Damage | 11 to 13 |
-| Attack chance | 210 |
-| Block chance | 190 |
-| Damage resistance | 12 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 12% |
+| AC | 210 |
+| BC | 190 |
+| DR | 12 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 12% (×2.0) |
 
-**On hit:** On target: [Divine judgement](../conditions/divine_judgement.md) (magnitude 1, 3 rounds, 14% chance)
+**Its hits:** On target: [Divine judgement](../conditions/divine_judgement.md) (magnitude 1, 3 rounds, 14% chance)
 
-**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 5% chance)
+**When you hit it:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 5% chance)
 
-**On death:** On self: [Divine punishment](../conditions/divine_punishment.md) (magnitude 1, 2 rounds)
+**When it dies:** On self: [Divine punishment](../conditions/divine_punishment.md) (magnitude 1, 2 rounds)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -83,11 +77,24 @@ description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `kazaul_crimson_arbiter_lich` |
+    | Type (wiki) | Enemy |
     | Spawn group | `kazaul_crimson_arbiter_lich` |
     | Loot table | `undertell_level4_lich_dl` |
     | Conversation | – |
@@ -151,15 +158,6 @@ description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

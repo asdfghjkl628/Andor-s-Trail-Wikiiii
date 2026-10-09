@@ -1,5 +1,5 @@
 ---
-description: "Blue fish is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Flagstone Prison."
+description: "Blue fish is scenery in Andor's Trail: a decoration or dialogue prop, found in Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_137.png){ .sprite } Blue fish
@@ -12,15 +12,13 @@ description: "Blue fish is scenery in Andor's Trail: a decoration or dialogue pr
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Flagstone Prison |
-| **Entry ID** | `fish_school` |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+Part of the scenery: no conversation, no fight ~~and no, you can't take it home~~.
 
 ## Locations
 
@@ -40,11 +38,18 @@ description: "Blue fish is scenery in Andor's Trail: a decoration or dialogue pr
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `fish_school` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `fish_school` |
+    | Type (wiki) | Scenery |
     | Spawn group | `fish_school` |
     | Loot table | – |
     | Conversation | – |

@@ -1,8 +1,10 @@
 ---
-description: "Dark priest is an NPC who can also be fought in Andor's Trail, found in Galmore 41."
+description: "Dark priest is an NPC you can also fight in Andor's Trail, found in Galmore 41."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_3.png){ .sprite } Dark priest
+
+**Where to find Dark priest:** [Galmore 41](#v-dds_dark_priest), [Galmore 41](#v-dds_dark_priest2), [Galmore 41](#v-dds_dark_priest_monster)
 
 <div class="infobox" markdown>
 
@@ -10,31 +12,19 @@ description: "Dark priest is an NPC who can also be fought in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Galmore 41 |
 | **Class** | Demon |
 | **HP** | 330 |
 | **XP when defeated** | 1,128 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 3 |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Dark priest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
+## Galmore 41 { #v-dds_dark_priest }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`dds_dark_priest`](#v-dds_dark_priest) | NPC | [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest) | – | – |
-| [`dds_dark_priest2`](#v-dds_dark_priest2) | NPC | [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest2) | – | – |
-| [`dds_dark_priest_monster`](#v-dds_dark_priest_monster) | Enemy | [Galmore 41](../maps/galmore_41.md) | – | 330 |
-
-## Galmore 41 (dds_dark_priest) { #v-dds_dark_priest }
-
-**Entry ID:** `dds_dark_priest` · **Type:** NPC
-
-**Location:** [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest)
+**Where:** [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest)
 
 ### Quests
 
@@ -81,39 +71,9 @@ Set your quest stages and items, then talk to Dark priest. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (dds_dark_priest)"
+## Galmore 41 (2) { #v-dds_dark_priest2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `dds_dark_priest` |
-    | Spawn group | `dds_dark_priest` |
-    | Loot table | – |
-    | Conversation | `dds_dark_priest` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_liches:3` |
-    | Defined in | `res/raw/monsterlist_darknessanddaylight.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "dds_dark_priest",
-     "name": "Dark priest",
-     "iconID": "monsters_liches:3",
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "spawnGroup": "dds_dark_priest",
-     "phraseID": "dds_dark_priest"
-    }
-    ```
-
-
-## Galmore 41 (dds_dark_priest2) { #v-dds_dark_priest2 }
-
-**Entry ID:** `dds_dark_priest2` · **Type:** NPC
-
-**Location:** [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest2)
+**Where:** [Galmore 41](../maps/galmore_41.md#pin-npc-dds_dark_priest2)
 
 ### Quests
 
@@ -194,66 +154,30 @@ Set your quest stages and items, then talk to Dark priest. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (dds_dark_priest2)"
+## Galmore 41 (3) { #v-dds_dark_priest_monster }
 
-    | | |
-    |---|---|
-    | Entry ID | `dds_dark_priest2` |
-    | Spawn group | `dds_dark_priest2` |
-    | Loot table | – |
-    | Conversation | `dds_dark_priest2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_liches:3` |
-    | Defined in | `res/raw/monsterlist_darknessanddaylight.json` |
+**Where:** [Galmore 41](../maps/galmore_41.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "dds_dark_priest2",
-     "name": "Dark priest",
-     "iconID": "monsters_liches:3",
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "spawnGroup": "dds_dark_priest2",
-     "phraseID": "dds_dark_priest2"
-    }
-    ```
-
-
-## Galmore 41 (dds_dark_priest_monster) { #v-dds_dark_priest_monster }
-
-**Entry ID:** `dds_dark_priest_monster` · **Type:** Enemy
-
-**Location:** [Galmore 41](../maps/galmore_41.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 330 |
 | XP when defeated | 1,128 |
 | Damage | 18 to 30 |
-| Attack chance | 301 |
-| Block chance | 138 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 301 |
+| BC | 138 |
+| DR | 5 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**When hit:** On target: [Cinder rage](../conditions/cinder_rage.md) (magnitude 2, 2 rounds)
+**When you hit it:** On target: [Cinder rage](../conditions/cinder_rage.md) (magnitude 2, 2 rounds)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -282,11 +206,89 @@ Set your quest stages and items, then talk to Dark priest. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (dds_dark_priest_monster)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Dark priest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `dds_dark_priest` | NPC | [Galmore 41](#v-dds_dark_priest) |
+| `dds_dark_priest2` | NPC | [Galmore 41](#v-dds_dark_priest2) |
+| `dds_dark_priest_monster` | Enemy | [Galmore 41](#v-dds_dark_priest_monster) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: dds_dark_priest"
+
+    | | |
+    |---|---|
+    | Entry ID | `dds_dark_priest` |
+    | Type (wiki) | NPC |
+    | Spawn group | `dds_dark_priest` |
+    | Loot table | – |
+    | Conversation | `dds_dark_priest` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_liches:3` |
+    | Defined in | `res/raw/monsterlist_darknessanddaylight.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "dds_dark_priest",
+     "name": "Dark priest",
+     "iconID": "monsters_liches:3",
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "spawnGroup": "dds_dark_priest",
+     "phraseID": "dds_dark_priest"
+    }
+    ```
+
+??? info "Technical information: dds_dark_priest2"
+
+    | | |
+    |---|---|
+    | Entry ID | `dds_dark_priest2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `dds_dark_priest2` |
+    | Loot table | – |
+    | Conversation | `dds_dark_priest2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_liches:3` |
+    | Defined in | `res/raw/monsterlist_darknessanddaylight.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "dds_dark_priest2",
+     "name": "Dark priest",
+     "iconID": "monsters_liches:3",
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "spawnGroup": "dds_dark_priest2",
+     "phraseID": "dds_dark_priest2"
+    }
+    ```
+
+??? info "Technical information: dds_dark_priest_monster"
 
     | | |
     |---|---|
     | Entry ID | `dds_dark_priest_monster` |
+    | Type (wiki) | Enemy |
     | Spawn group | `dds_dark_priest_monster` |
     | Loot table | `dds_dark_priest_monster_dl` |
     | Conversation | – |
@@ -331,16 +333,6 @@ Set your quest stages and items, then talk to Dark priest. Same rules as the gam
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

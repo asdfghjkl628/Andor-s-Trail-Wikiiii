@@ -17,34 +17,28 @@ description: "Giant arulir is an enemy in Andor's Trail (giant) with 330 HP, wor
 | **Class** | Giant |
 | **HP** | 330 |
 | **XP when defeated** | 407 |
-| **Entry ID** | `arulir_2` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 330 |
 | XP when defeated | 407 |
 | Damage | 1 to 20 |
-| Attack chance | 70 |
-| Block chance | 20 |
-| Damage resistance | 8 |
-| Max AP | 5 |
-| Attack cost | 4 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 30 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 19% |
+| AC | 70 |
+| BC | 20 |
+| DR | 8 |
+| Attacks per turn | 1 (4 AP each, 5 AP) |
+| Crit chance | 19% (×3.0) |
 
-**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 20% chance)
+**Its hits:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -75,11 +69,24 @@ description: "Giant arulir is an enemy in Andor's Trail (giant) with 330 HP, wor
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `arulir_2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `arulir_1` |
     | Loot table | `arulir` |
     | Conversation | – |
@@ -123,15 +130,6 @@ description: "Giant arulir is an enemy in Andor's Trail (giant) with 330 HP, wor
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

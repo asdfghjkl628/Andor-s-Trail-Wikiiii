@@ -12,10 +12,9 @@ description: "Pangitain is a non-player character (NPC) in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Teaches [Merchant](../skills/barter.md), [Cleave](../skills/cleave.md), [Treasure Hunter](../skills/coinfinder.md), [Dodge](../skills/dodge.md), [Increased Fortitude](../skills/fortitude.md), [Magic Finder](../skills/magicfinder.md), [Weapon Accuracy](../skills/weaponChance.md) |
 | **Found in** | Brimhaven |
-| **Entry ID** | `brv_fortune_teller` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
@@ -282,11 +281,16 @@ Set your quest stages and items, then talk to Pangitain. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_fortune_teller` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_fortune_teller` |
     | Loot table | – |
     | Conversation | `brv_fortune_select` |

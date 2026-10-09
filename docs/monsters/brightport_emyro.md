@@ -12,10 +12,9 @@ description: "Mysterious lizard creature is a non-player character (NPC) in Ando
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [The balance of scales](../quests/brightport_lizard.md) |
 | **Found in** | Burial cave |
-| **Entry ID** | `brightport_emyro` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
@@ -95,11 +94,16 @@ Set your quest stages and items, then talk to Mysterious lizard creature. Same r
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_emyro` |
+    | Type (wiki) | NPC |
     | Spawn group | `brightport_emyro` |
     | Loot table | – |
     | Conversation | `brightport_mlizard_selector` |

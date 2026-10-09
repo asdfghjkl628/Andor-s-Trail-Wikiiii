@@ -1,8 +1,10 @@
 ---
-description: "Gambler is an NPC who can also be fought in Andor's Trail, found in Brimhaven."
+description: "Gambler is an NPC you can also fight in Andor's Trail, found in Brimhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_133.png){ .sprite } Gambler
+
+**Where to find Gambler:** [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler1), [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler1_evil), [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler2), [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler2_evil)
 
 <div class="infobox" markdown>
 
@@ -10,31 +12,18 @@ description: "Gambler is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 25 |
 | **XP when defeated** | 36–48 |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Gambler. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
+## Brimhaven, Brimhaven tavern west back { #v-brv_blackjack_gambler1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`brv_blackjack_gambler1`](#v-brv_blackjack_gambler1) | NPC | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1) | – | – |
-| [`brv_blackjack_gambler1_evil`](#v-brv_blackjack_gambler1_evil) | Enemy | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | – | 25 |
-| [`brv_blackjack_gambler2`](#v-brv_blackjack_gambler2) | NPC | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2) | – | – |
-| [`brv_blackjack_gambler2_evil`](#v-brv_blackjack_gambler2_evil) | Enemy | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | – | 25 |
-
-## Brimhaven, Brimhaven tavern west back (brv_blackjack_gambler1) { #v-brv_blackjack_gambler1 }
-
-**Entry ID:** `brv_blackjack_gambler1` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1)
+**Where:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1)
 
 ### Dialogue simulator
 
@@ -62,62 +51,26 @@ Set your quest stages and items, then talk to Gambler. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_blackjack_gambler1)"
+## Brimhaven, Brimhaven tavern west back (2) { #v-brv_blackjack_gambler1_evil }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_blackjack_gambler1` |
-    | Spawn group | `brv_blackjack_gambler1` |
-    | Loot table | – |
-    | Conversation | `blackjack_gambler1` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_ld1:133` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+**Where:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "brv_blackjack_gambler1",
-     "name": "Gambler",
-     "iconID": "monsters_ld1:133",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "spawnGroup": "brv_blackjack_gambler1",
-     "phraseID": "blackjack_gambler1"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern west back (brv_blackjack_gambler1_evil) { #v-brv_blackjack_gambler1_evil }
-
-**Entry ID:** `brv_blackjack_gambler1_evil` · **Type:** Enemy
-
-**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 25 |
 | XP when defeated | 36 |
 | Damage | 1 to 3 |
-| Attack chance | 70 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 70 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -148,51 +101,9 @@ Set your quest stages and items, then talk to Gambler. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_blackjack_gambler1_evil)"
+## Brimhaven, Brimhaven tavern west back (3) { #v-brv_blackjack_gambler2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_blackjack_gambler1_evil` |
-    | Spawn group | `brv_blackjack_gambler1_evil` |
-    | Loot table | `brv_gambler` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:133` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_blackjack_gambler1_evil",
-     "name": "Gambler",
-     "iconID": "monsters_ld1:133",
-     "maxHP": 25,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "attackDamage": {
-      "min": 1,
-      "max": 3
-     },
-     "spawnGroup": "brv_blackjack_gambler1_evil",
-     "droplistID": "brv_gambler",
-     "attackCost": 3,
-     "attackChance": 70,
-     "criticalSkill": 10,
-     "criticalMultiplier": 2.0,
-     "blockChance": 40
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern west back (brv_blackjack_gambler2) { #v-brv_blackjack_gambler2 }
-
-**Entry ID:** `brv_blackjack_gambler2` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2)
+**Where:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2)
 
 ### Dialogue simulator
 
@@ -233,62 +144,26 @@ Set your quest stages and items, then talk to Gambler. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_blackjack_gambler2)"
+## Brimhaven, Brimhaven tavern west back (4) { #v-brv_blackjack_gambler2_evil }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_blackjack_gambler2` |
-    | Spawn group | `brv_blackjack_gambler2` |
-    | Loot table | – |
-    | Conversation | `blackjack_gambler2` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_rltiles1:64` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+**Where:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "brv_blackjack_gambler2",
-     "name": "Gambler",
-     "iconID": "monsters_rltiles1:64",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "spawnGroup": "brv_blackjack_gambler2",
-     "phraseID": "blackjack_gambler2"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern west back (brv_blackjack_gambler2_evil) { #v-brv_blackjack_gambler2_evil }
-
-**Entry ID:** `brv_blackjack_gambler2_evil` · **Type:** Enemy
-
-**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 25 |
 | XP when defeated | 48 |
 | Damage | 1 to 5 |
-| Attack chance | 80 |
-| Block chance | 80 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 80 |
+| BC | 80 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -318,11 +193,132 @@ Set your quest stages and items, then talk to Gambler. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_blackjack_gambler2_evil)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Gambler. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_blackjack_gambler1` | NPC | [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler1) |
+| `brv_blackjack_gambler1_evil` | Enemy | [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler1_evil) |
+| `brv_blackjack_gambler2` | NPC | [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler2) |
+| `brv_blackjack_gambler2_evil` | Enemy | [Brimhaven, Brimhaven tavern west back](#v-brv_blackjack_gambler2_evil) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: brv_blackjack_gambler1"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_blackjack_gambler1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_blackjack_gambler1` |
+    | Loot table | – |
+    | Conversation | `blackjack_gambler1` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_ld1:133` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_blackjack_gambler1",
+     "name": "Gambler",
+     "iconID": "monsters_ld1:133",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "brv_blackjack_gambler1",
+     "phraseID": "blackjack_gambler1"
+    }
+    ```
+
+??? info "Technical information: brv_blackjack_gambler1_evil"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_blackjack_gambler1_evil` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `brv_blackjack_gambler1_evil` |
+    | Loot table | `brv_gambler` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:133` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_blackjack_gambler1_evil",
+     "name": "Gambler",
+     "iconID": "monsters_ld1:133",
+     "maxHP": 25,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 1,
+      "max": 3
+     },
+     "spawnGroup": "brv_blackjack_gambler1_evil",
+     "droplistID": "brv_gambler",
+     "attackCost": 3,
+     "attackChance": 70,
+     "criticalSkill": 10,
+     "criticalMultiplier": 2.0,
+     "blockChance": 40
+    }
+    ```
+
+??? info "Technical information: brv_blackjack_gambler2"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_blackjack_gambler2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_blackjack_gambler2` |
+    | Loot table | – |
+    | Conversation | `blackjack_gambler2` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_rltiles1:64` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_blackjack_gambler2",
+     "name": "Gambler",
+     "iconID": "monsters_rltiles1:64",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "brv_blackjack_gambler2",
+     "phraseID": "blackjack_gambler2"
+    }
+    ```
+
+??? info "Technical information: brv_blackjack_gambler2_evil"
 
     | | |
     |---|---|
     | Entry ID | `brv_blackjack_gambler2_evil` |
+    | Type (wiki) | Enemy |
     | Spawn group | `brv_blackjack_gambler2_evil` |
     | Loot table | `brv_gambler` |
     | Conversation | – |
@@ -355,16 +351,6 @@ Set your quest stages and items, then talk to Gambler. Same rules as the game: s
      "damageResistance": 1
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

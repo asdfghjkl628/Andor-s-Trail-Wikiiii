@@ -12,9 +12,8 @@ description: "Old citizen is a non-player character (NPC) in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Fallhaven |
-| **Entry ID** | `old_citizen` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -54,11 +53,16 @@ Set your quest stages and items, then talk to Old citizen. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `old_citizen` |
+    | Type (wiki) | NPC |
     | Spawn group | `fallhaven_citizen2` |
     | Loot table | – |
     | Conversation | `fallhaven_citizen2` |

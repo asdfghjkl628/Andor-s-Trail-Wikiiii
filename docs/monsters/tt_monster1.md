@@ -4,6 +4,8 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 
 # ![](../assets/icons/monsters/monsters_skeleton1_0.png){ .sprite } Luthor's skeleton guard
 
+**Where to find Luthor's skeleton guard:** [Crackshot hideout 4](#v-tt_monster1), [Crackshot hideout 4](#v-tt_monster2), [Crackshot hideout 4](#v-tt_monster3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_skeleton1_0.png){ .sprite }</p>
@@ -15,51 +17,33 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 | **Class** | Construct |
 | **HP** | 52 |
 | **XP when defeated** | 63 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 3 |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.13](../versions/0.8.13.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Luthor's skeleton guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Crackshot hideout 4 { #v-tt_monster1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`tt_monster1`](#v-tt_monster1) | Enemy | [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 52 |
-| [`tt_monster2`](#v-tt_monster2) | Enemy | [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 52 |
-| [`tt_monster3`](#v-tt_monster3) | Enemy | [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 52 |
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
 
-## Crackshot hideout 4 (tt_monster1) { #v-tt_monster1 }
+### Combat
 
-**Entry ID:** `tt_monster1` · **Type:** Enemy
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 52 |
 | XP when defeated | 63 |
 | Damage | 1 to 3 |
-| Attack chance | 60 |
-| Block chance | 40 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 60 |
+| BC | 40 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -86,11 +70,129 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_monster1)"
+## Crackshot hideout 4 (2) { #v-tt_monster2 }
+
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Construct |
+| HP | 52 |
+| XP when defeated | 63 |
+| Damage | 1 to 3 |
+| AC | 60 |
+| BC | 40 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+**Immune to critical hits.**
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 16 to 23 |
+| [Ruby gem](../items/gem2.md) | 25% | 1 |
+| [Regular potion of health](../items/health.md) | 25% | 1 |
+| [Bone](../items/bone.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.13](../versions/0.8.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Crackshot hideout 4 (3) { #v-tt_monster3 }
+
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Construct |
+| HP | 52 |
+| XP when defeated | 63 |
+| Damage | 1 to 3 |
+| AC | 60 |
+| BC | 40 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+**Immune to critical hits.**
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 16 to 23 |
+| [Ruby gem](../items/gem2.md) | 25% | 1 |
+| [Regular potion of health](../items/health.md) | 25% | 1 |
+| [Bone](../items/bone.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 3 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.13](../versions/0.8.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Luthor's skeleton guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tt_monster1` | Enemy | [Crackshot hideout 4](#v-tt_monster1) |
+| `tt_monster2` | Enemy | [Crackshot hideout 4](#v-tt_monster2) |
+| `tt_monster3` | Enemy | [Crackshot hideout 4](#v-tt_monster3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: tt_monster1"
 
     | | |
     |---|---|
     | Entry ID | `tt_monster1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `tt_monster1` |
     | Loot table | `skeleton` |
     | Conversation | – |
@@ -123,68 +225,12 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
     }
     ```
 
-
-## Crackshot hideout 4 (tt_monster2) { #v-tt_monster2 }
-
-**Entry ID:** `tt_monster2` · **Type:** Enemy
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Construct |
-| HP | 52 |
-| XP when defeated | 63 |
-| Damage | 1 to 3 |
-| Attack chance | 60 |
-| Block chance | 40 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 16 to 23 |
-| [Ruby gem](../items/gem2.md) | 25% | 1 |
-| [Regular potion of health](../items/health.md) | 25% | 1 |
-| [Bone](../items/bone.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.13](../versions/0.8.13.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (tt_monster2)"
+??? info "Technical information: tt_monster2"
 
     | | |
     |---|---|
     | Entry ID | `tt_monster2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `tt_monster2` |
     | Loot table | `skeleton` |
     | Conversation | – |
@@ -217,68 +263,12 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
     }
     ```
 
-
-## Crackshot hideout 4 (tt_monster3) { #v-tt_monster3 }
-
-**Entry ID:** `tt_monster3` · **Type:** Enemy
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Construct |
-| HP | 52 |
-| XP when defeated | 63 |
-| Damage | 1 to 3 |
-| Attack chance | 60 |
-| Block chance | 40 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 16 to 23 |
-| [Ruby gem](../items/gem2.md) | 25% | 1 |
-| [Regular potion of health](../items/health.md) | 25% | 1 |
-| [Bone](../items/bone.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 3 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.13](../versions/0.8.13.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (tt_monster3)"
+??? info "Technical information: tt_monster3"
 
     | | |
     |---|---|
     | Entry ID | `tt_monster3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `tt_monster3` |
     | Loot table | `skeleton` |
     | Conversation | – |
@@ -310,16 +300,6 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
      "damageResistance": 1
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

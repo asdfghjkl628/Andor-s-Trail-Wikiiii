@@ -4,6 +4,8 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 
 # ![](../assets/icons/monsters/monsters_tometik3_74.png){ .sprite } Cave scorpion
 
+**Where to find Cave scorpion:** [Laerothcave 3 and 3 more](#v-cave_scorpion_0), [Burial cave, Brightport cave 10 and 11 more](#v-brightport_scorpion)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik3_74.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 | **Class** | Insect |
 | **HP** | 30–150 |
 | **XP when defeated** | 121–544 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Cave scorpion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, faction, appearance, movement. Each entry has its own section below.
+## Laerothcave 3 and 3 more { #v-cave_scorpion_0 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`cave_scorpion_0`](#v-cave_scorpion_0) | Enemy | [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md) (+2 more) | – | 30 |
-| [`brightport_scorpion`](#v-brightport_scorpion) | Enemy | Burial cave: [Brightport cave 10](../maps/brightport_cave10.md), Burial cave: [Brightport cave 11](../maps/brightport_cave11.md) (+10 more) | – | 150 |
+**Where:** [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md), [Secretpassage 0](../maps/secretpassage0.md)
 
-## Laerothcave 3 and 3 more (cave_scorpion_0) { #v-cave_scorpion_0 }
+### Combat
 
-**Entry ID:** `cave_scorpion_0` · **Type:** Enemy
-
-**Location:** [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md), [Secretpassage 0](../maps/secretpassage0.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 30 |
 | XP when defeated | 121 |
 | Damage | 3 to 6 |
-| Attack chance | 80 |
-| Block chance | 100 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 80 |
+| BC | 100 |
+| DR | 1 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 1, 3 rounds, 20% chance)
+**Its hits:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 1, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -84,11 +70,80 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (cave_scorpion_0)"
+## Burial cave, Brightport cave 10 and 11 more { #v-brightport_scorpion }
+
+**Where:** Burial cave: [Brightport cave 10](../maps/brightport_cave10.md), Burial cave: [Brightport cave 11](../maps/brightport_cave11.md), Burial cave: [Brightport cave 12](../maps/brightport_cave12.md), Burial cave: [Brightport cave 13](../maps/brightport_cave13.md), Burial cave: [Brightport cave 9](../maps/brightport_cave9.md), Buried citadel: [Brightport cave 18](../maps/brightport_cave18.md) (+6 more)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Insect |
+| HP | 150 |
+| XP when defeated | 544 |
+| Damage | 16 to 30 |
+| AC | 230 |
+| BC | 150 |
+| DR | 4 |
+| Attacks per turn | 2 (6 AP each, 12 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Brightport cave 1](../maps/brightport_cave1.md) | – | 2 | – |
+| [Brightport cave 10](../maps/brightport_cave10.md) | Burial cave | 1 | – |
+| [Brightport cave 11](../maps/brightport_cave11.md) | Burial cave | 2 | – |
+| [Brightport cave 12](../maps/brightport_cave12.md) | Burial cave | 3 | – |
+| [Brightport cave 13](../maps/brightport_cave13.md) | Burial cave | 2 | – |
+| [Brightport cave 14](../maps/brightport_cave14.md) | – | 1 | – |
+| [Brightport cave 15](../maps/brightport_cave15.md) | – | 2 | – |
+| [Brightport cave 18](../maps/brightport_cave18.md) | Buried citadel | 2 | – |
+| [Brightport cave 3](../maps/brightport_cave3.md) | Buried citadel | 3 | – |
+| [Brightport cave 4](../maps/brightport_cave4.md) | Buried citadel | 1 | – |
+| [Brightport cave 9](../maps/brightport_cave9.md) | Burial cave | 5 | – |
+| [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Cave scorpion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock, faction, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `cave_scorpion_0` | Enemy | [Laerothcave 3 and 3 more](#v-cave_scorpion_0) |
+| `brightport_scorpion` | Enemy | [Burial cave, Brightport cave 10 and 11 more](#v-brightport_scorpion) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: cave_scorpion_0"
 
     | | |
     |---|---|
     | Entry ID | `cave_scorpion_0` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scorpion_1` |
     | Loot table | `cave_scorpion` |
     | Conversation | – |
@@ -132,67 +187,12 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
     }
     ```
 
-
-## Burial cave, Brightport cave 10 and 11 more (brightport_scorpion) { #v-brightport_scorpion }
-
-**Entry ID:** `brightport_scorpion` · **Type:** Enemy
-
-**Location:** Burial cave: [Brightport cave 10](../maps/brightport_cave10.md), Burial cave: [Brightport cave 11](../maps/brightport_cave11.md), Burial cave: [Brightport cave 12](../maps/brightport_cave12.md), Burial cave: [Brightport cave 13](../maps/brightport_cave13.md), Burial cave: [Brightport cave 9](../maps/brightport_cave9.md), Buried citadel: [Brightport cave 18](../maps/brightport_cave18.md) (+6 more)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Insect |
-| HP | 150 |
-| XP when defeated | 544 |
-| Damage | 16 to 30 |
-| Attack chance | 230 |
-| Block chance | 150 |
-| Damage resistance | 4 |
-| Max AP | 12 |
-| Attack cost | 6 AP |
-| Attacks per turn | 2 |
-| Move cost | 6 AP |
-| Critical skill | 15 |
-| Critical multiplier | 1.0 |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brightport cave 1](../maps/brightport_cave1.md) | – | 2 | – |
-| [Brightport cave 10](../maps/brightport_cave10.md) | Burial cave | 1 | – |
-| [Brightport cave 11](../maps/brightport_cave11.md) | Burial cave | 2 | – |
-| [Brightport cave 12](../maps/brightport_cave12.md) | Burial cave | 3 | – |
-| [Brightport cave 13](../maps/brightport_cave13.md) | Burial cave | 2 | – |
-| [Brightport cave 14](../maps/brightport_cave14.md) | – | 1 | – |
-| [Brightport cave 15](../maps/brightport_cave15.md) | – | 2 | – |
-| [Brightport cave 18](../maps/brightport_cave18.md) | Buried citadel | 2 | – |
-| [Brightport cave 3](../maps/brightport_cave3.md) | Buried citadel | 3 | – |
-| [Brightport cave 4](../maps/brightport_cave4.md) | Buried citadel | 1 | – |
-| [Brightport cave 9](../maps/brightport_cave9.md) | Burial cave | 5 | – |
-| [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brightport_scorpion)"
+??? info "Technical information: brightport_scorpion"
 
     | | |
     |---|---|
     | Entry ID | `brightport_scorpion` |
+    | Type (wiki) | Enemy |
     | Spawn group | `` |
     | Loot table | – |
     | Conversation | – |
@@ -226,16 +226,6 @@ description: "Cave scorpion is an enemy in Andor's Trail (insect) with 30–150 
      "damageResistance": 4
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

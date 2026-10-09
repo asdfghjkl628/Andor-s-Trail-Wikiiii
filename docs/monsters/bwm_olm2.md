@@ -17,34 +17,28 @@ description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth
 | **Class** | Animal |
 | **HP** | 66 |
 | **XP when defeated** | 231 |
-| **Entry ID** | `bwm_olm2` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 66 |
 | XP when defeated | 231 |
 | Damage | 7 to 10 |
-| Attack chance | 117 |
-| Block chance | 133 |
-| Damage resistance | 8 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 10 |
-| Critical multiplier | 1.5 |
-| Critical hit chance | 9% |
+| AC | 117 |
+| BC | 133 |
+| DR | 8 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | 9% (×1.5) |
 
-**When hit:** On self: [Panic](../conditions/panic.md) (magnitude 1, 3 rounds, 20% chance)
+**When you hit it:** On self: [Panic](../conditions/panic.md) (magnitude 1, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -78,11 +72,24 @@ description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `bwm_olm2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `bwm_olm` |
     | Loot table | `bwm_olm` |
     | Conversation | – |
@@ -127,15 +134,6 @@ description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

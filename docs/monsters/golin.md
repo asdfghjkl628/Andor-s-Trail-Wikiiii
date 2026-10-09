@@ -1,5 +1,5 @@
 ---
-description: "Golin is an NPC who can also be fought in Andor's Trail, found in Brimhaven."
+description: "Golin is an NPC you can also fight in Andor's Trail, found in Brimhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_12.png){ .sprite } Golin
@@ -12,46 +12,38 @@ description: "Golin is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 80 |
 | **XP when defeated** | 159 |
-| **Entry ID** | `golin` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Golin"
+    The conversation during [Lessons learned](../quests/brv_school2.md#stage-100) can lead straight into a fight with Golin.
 
-## Combat statistics
+    The conversation during [Lessons learned](../quests/brv_school2.md#stage-240) can lead straight into a fight with Golin.
 
-| Statistic | Value |
+    Golin turns hostile if you fall out with their faction (this can happen in [Lessons learned](../quests/brv_school2.md)).
+
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 80 |
 | XP when defeated | 159 |
 | Damage | 1 to 4 |
-| Attack chance | 40 |
-| Block chance | 120 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 120 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Quests that count defeats
 
@@ -413,17 +405,32 @@ Set your quest stages and items, then talk to Golin. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 75 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “The cultists worshipped the blinding and cleansing light of Elythara.…” → “The cultists worshipped the blinding and cleansing light of Elythara.…”<br>· text: “The town of Loneford was founded and it soon became famous for its fe…” → “The town of Loneford was founded and it soon became famous for its fe…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “The Elytharans built several towns and cities, dedicated to their god…” → “The Elytharans built several towns and cities, dedicated to their god…”<br>· text: “The town of Loneford was founded and it soon became famous for its fe…” → “The town of Loneford was founded and it soon became famous for its fe…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “It's about time. This is my favourite class.” → “It's about time. This is my favorite class.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `golin` belongs to the faction `brv_fct_school_duel`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `golin` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `golin` |
     | Loot table | – |
     | Conversation | `golin` |
@@ -457,15 +464,6 @@ Set your quest stages and items, then talk to Golin. Same rules as the game: sam
      "damageResistance": 5
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

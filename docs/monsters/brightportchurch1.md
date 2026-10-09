@@ -4,32 +4,23 @@ description: "Praying woman is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } Praying woman
 
+**Where to find Praying woman:** [Brightport, Brightport temple](#v-brightportchurch1), [Stoutford, Stoutford church](#v-stoutford_worshiper)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_6.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brightport, Stoutford |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Praying woman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Brightport, Brightport temple { #v-brightportchurch1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brightportchurch1`](#v-brightportchurch1) | NPC | Brightport: [Brightport temple](../maps/brightport_temple.md#pin-npc-brightportchurch1) | – |
-| [`stoutford_worshiper`](#v-stoutford_worshiper) | NPC | Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper) | – |
-
-## Brightport, Brightport temple (brightportchurch1) { #v-brightportchurch1 }
-
-**Entry ID:** `brightportchurch1` · **Type:** NPC
-
-**Location:** Brightport: [Brightport temple](../maps/brightport_temple.md#pin-npc-brightportchurch1)
+**Where:** Brightport: [Brightport temple](../maps/brightport_temple.md#pin-npc-brightportchurch1)
 
 ### Dialogue simulator
 
@@ -57,36 +48,9 @@ Set your quest stages and items, then talk to Praying woman. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportchurch1)"
+## Stoutford, Stoutford church { #v-stoutford_worshiper }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightportchurch1` |
-    | Spawn group | `brightportchurch1` |
-    | Loot table | – |
-    | Conversation | `brightport_church1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:6` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightportchurch1",
-     "name": "Praying woman",
-     "iconID": "monsters_men:6",
-     "phraseID": "brightport_church1"
-    }
-    ```
-
-
-## Stoutford, Stoutford church (stoutford_worshiper) { #v-stoutford_worshiper }
-
-**Entry ID:** `stoutford_worshiper` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper)
+**Where:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper)
 
 ### Dialogue simulator
 
@@ -114,11 +78,49 @@ Set your quest stages and items, then talk to Praying woman. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_worshiper)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Praying woman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brightportchurch1` | NPC | [Brightport, Brightport temple](#v-brightportchurch1) |
+| `stoutford_worshiper` | NPC | [Stoutford, Stoutford church](#v-stoutford_worshiper) |
+
+??? info "Technical information: brightportchurch1"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightportchurch1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightportchurch1` |
+    | Loot table | – |
+    | Conversation | `brightport_church1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:6` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightportchurch1",
+     "name": "Praying woman",
+     "iconID": "monsters_men:6",
+     "phraseID": "brightport_church1"
+    }
+    ```
+
+??? info "Technical information: stoutford_worshiper"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_worshiper` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_worshiper` |
     | Loot table | – |
     | Conversation | `chapelgoer` |
@@ -137,7 +139,6 @@ Set your quest stages and items, then talk to Praying woman. Same rules as the g
      "phraseID": "chapelgoer"
     }
     ```
-
 
 
 ## Community notes

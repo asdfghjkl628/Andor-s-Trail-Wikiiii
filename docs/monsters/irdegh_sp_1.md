@@ -4,6 +4,8 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
 
 # ![](../assets/icons/monsters/monsters_rltiles2_26.png){ .sprite } Irdegh spawn
 
+**Where to find Irdegh spawn:** [Brightport, Waytobrightport 22 and 6 more](#v-irdegh_sp_1), [Brightport, Waytobrightport 22 and 6 more](#v-irdegh_sp_2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_26.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
 | **Class** | Reptile |
 | **HP** | 57–68 |
 | **XP when defeated** | 153–166 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Irdegh spawn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
+## Brightport, Waytobrightport 22 and 6 more { #v-irdegh_sp_1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`irdegh_sp_1`](#v-irdegh_sp_1) | Enemy | Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md) (+5 more) | – | 57 |
-| [`irdegh_sp_2`](#v-irdegh_sp_2) | Enemy | Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md) (+5 more) | – | 68 |
+**Where:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway forest 3](../maps/waterway_forest3.md), [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md) (+1 more)
 
-## Brightport, Waytobrightport 22 and 6 more (irdegh_sp_1) { #v-irdegh_sp_1 }
+### Combat
 
-**Entry ID:** `irdegh_sp_1` · **Type:** Enemy
-
-**Location:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway forest 3](../maps/waterway_forest3.md), [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md) (+1 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 57 |
 | XP when defeated | 153 |
 | Damage | 0 to 6 |
-| Attack chance | 120 |
-| Block chance | 80 |
-| Damage resistance | 0 |
-| Max AP | 12 |
-| Attack cost | 3 AP |
-| Attacks per turn | 4 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 120 |
+| BC | 80 |
+| DR | 0 |
+| Attacks per turn | 4 (3 AP each, 12 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 2, 3 rounds, 10% chance)
+**Its hits:** On target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 2, 3 rounds, 10% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -88,11 +74,85 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (irdegh_sp_1)"
+## Brightport, Waytobrightport 22 and 6 more (2) { #v-irdegh_sp_2 }
+
+**Where:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway forest 3](../maps/waterway_forest3.md), [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md) (+1 more)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Reptile |
+| HP | 68 |
+| XP when defeated | 166 |
+| Damage | 0 to 6 |
+| AC | 120 |
+| BC | 80 |
+| DR | 0 |
+| Attacks per turn | 4 (3 AP each, 12 AP) |
+| Crit chance | none |
+
+**Its hits:** On target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 2, 3 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Meat](../items/meat.md) | 1% | 1 |
+| [Poison gland](../items/gland.md) | 1% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waterway 11 east](../maps/waterway11_east.md) | – | 7 | – |
+| [Waterway forest 3](../maps/waterway_forest3.md) | – | 12 | – |
+| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 2 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytomountaincave 0](../maps/waytomountaincave0.md) | – | 8 | – |
+| [Waytomountaincave 1](../maps/waytomountaincave1.md) | – | 8 | – |
+| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 8 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 2, 3 rounds, 10% chance) → (magnitude 2, 3 rounds, 10% chance) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Irdegh spawn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `irdegh_sp_1` | Enemy | [Brightport, Waytobrightport 22 and 6 more](#v-irdegh_sp_1) |
+| `irdegh_sp_2` | Enemy | [Brightport, Waytobrightport 22 and 6 more](#v-irdegh_sp_2) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: irdegh_sp_1"
 
     | | |
     |---|---|
     | Entry ID | `irdegh_sp_1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `irdegh_spawn` |
     | Loot table | `irdegh_spawn` |
     | Conversation | – |
@@ -134,72 +194,12 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
     }
     ```
 
-
-## Brightport, Waytobrightport 22 and 6 more (irdegh_sp_2) { #v-irdegh_sp_2 }
-
-**Entry ID:** `irdegh_sp_2` · **Type:** Enemy
-
-**Location:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway forest 3](../maps/waterway_forest3.md), [Waytomountaincave 0](../maps/waytomountaincave0.md), [Waytomountaincave 1](../maps/waytomountaincave1.md) (+1 more)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Reptile |
-| HP | 68 |
-| XP when defeated | 166 |
-| Damage | 0 to 6 |
-| Attack chance | 120 |
-| Block chance | 80 |
-| Damage resistance | 0 |
-| Max AP | 12 |
-| Attack cost | 3 AP |
-| Attacks per turn | 4 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-**On hit:** On target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 2, 3 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Meat](../items/meat.md) | 1% | 1 |
-| [Poison gland](../items/gland.md) | 1% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waterway 11 east](../maps/waterway11_east.md) | – | 7 | – |
-| [Waterway forest 3](../maps/waterway_forest3.md) | – | 12 | – |
-| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 2 | – |
-| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [Waytomountaincave 0](../maps/waytomountaincave0.md) | – | 8 | – |
-| [Waytomountaincave 1](../maps/waytomountaincave1.md) | – | 8 | – |
-| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 8 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Irdegh poison](../conditions/poison_irdegh.md) (magnitude 2, 3 rounds, 10% chance) → (magnitude 2, 3 rounds, 10% chance) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (irdegh_sp_2)"
+??? info "Technical information: irdegh_sp_2"
 
     | | |
     |---|---|
     | Entry ID | `irdegh_sp_2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `irdegh_spawn` |
     | Loot table | `irdegh_spawn` |
     | Conversation | – |
@@ -240,16 +240,6 @@ description: "Irdegh spawn is an enemy in Andor's Trail (reptile) with 57–68 H
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

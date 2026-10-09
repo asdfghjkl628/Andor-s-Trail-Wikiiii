@@ -12,7 +12,7 @@ description: "Shadow of the torturer is a quest in Andor's Trail, started by Lae
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 80, 130) |
 | **Started by** | [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([Laerothprison 4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) |
-| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md#v-lae_demon4b), [Dark watch](../monsters/lae_demon4.md#v-lae_demon9), [Dark watch](../monsters/lae_demon4.md), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4i) +1 |
+| **NPCs involved** | [Dark watch](../monsters/lae_demon4.md#v-lae_demon4b), [Dark watch](../monsters/lae_demon4.md), [Dark watch](../monsters/lae_demon4.md#v-lae_demon9), [Kotheses](../monsters/kotheses.md), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4i), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) +1 |
 | **Locations** | [Laerothprison 4](../maps/laerothprison4.md), [Laerothprison 7](../maps/laerothprison7.md) |
 | **Related quests** | 1 |
 

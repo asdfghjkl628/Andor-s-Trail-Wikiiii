@@ -17,34 +17,28 @@ description: "Gray venomscale is an enemy in Andor's Trail (reptile) with 48 HP,
 | **Class** | Reptile |
 | **HP** | 48 |
 | **XP when defeated** | 243 |
-| **Entry ID** | `vscale3` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 48 |
 | XP when defeated | 243 |
 | Damage | 3 to 6 |
-| Attack chance | 95 |
-| Block chance | 115 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 100 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 39% |
+| AC | 95 |
+| BC | 115 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 39% (×3.0) |
 
-**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 3 rounds, 30% chance)
+**Its hits:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 2, 3 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -75,11 +69,24 @@ description: "Gray venomscale is an enemy in Andor's Trail (reptile) with 48 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `vscale3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `vscale1` |
     | Loot table | `vscale` |
     | Conversation | – |
@@ -122,15 +129,6 @@ description: "Gray venomscale is an enemy in Andor's Trail (reptile) with 48 HP,
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -12,9 +12,8 @@ description: "Hungry pig is a non-player character (NPC) in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Fallhaven |
-| **Entry ID** | `hungry_pig` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
@@ -83,11 +82,16 @@ Set your quest stages and items, then talk to Hungry pig. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `hungry_pig` |
+    | Type (wiki) | NPC |
     | Spawn group | `hungry_pig` |
     | Loot table | – |
     | Conversation | `hungry_pig_selector` |

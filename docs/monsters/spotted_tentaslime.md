@@ -17,38 +17,31 @@ description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 1
 | **Class** | Construct |
 | **HP** | 150 |
 | **XP when defeated** | 333 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `spotted_tentaslime` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 150 |
 | XP when defeated | 333 |
 | Damage | 8 to 14 |
-| Attack chance | 107 |
-| Block chance | 85 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 6 AP |
-| Critical skill | 7 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 6% |
+| AC | 107 |
+| BC | 85 |
+| DR | 5 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 6% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 3, 5 rounds, 40% chance)
+**Its hits:** On target: [Corrosive slime](../conditions/slime.md) (magnitude 3, 5 rounds, 40% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -77,11 +70,24 @@ description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 1
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `spotted_tentaslime` |
+    | Type (wiki) | Enemy |
     | Spawn group | `spotted_tentaslime` |
     | Loot table | `spotted_tentaslime_dl` |
     | Conversation | – |
@@ -123,15 +129,6 @@ description: "Spotted tentaslime is an enemy in Andor's Trail (construct) with 1
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,32 +4,23 @@ description: "Lediofa is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Lediofa
 
+**Where to find Lediofa:** [Mushroom m 3 2](#v-fungi_rescued), [Fallhaven, Fallhaven potions](#v-fungi_rescued2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_20.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Mushroom m 3 2, Fallhaven |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Lediofa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
+## Mushroom m 3 2 { #v-fungi_rescued }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`fungi_rescued`](#v-fungi_rescued) | NPC | [Mushroom m 3 2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued) | – |
-| [`fungi_rescued2`](#v-fungi_rescued2) | NPC | Fallhaven: [Fallhaven potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2) | – |
-
-## Mushroom m 3 2 (fungi_rescued) { #v-fungi_rescued }
-
-**Entry ID:** `fungi_rescued` · **Type:** NPC
-
-**Location:** [Mushroom m 3 2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued)
+**Where:** [Mushroom m 3 2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued)
 
 ### Quests
 
@@ -108,42 +99,9 @@ Set your quest stages and items, then talk to Lediofa. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (fungi_rescued)"
+## Fallhaven, Fallhaven potions { #v-fungi_rescued2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `fungi_rescued` |
-    | Spawn group | `fungi_rescued` |
-    | Loot table | – |
-    | Conversation | `fungi_rescued` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:20` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "fungi_rescued",
-     "name": "Lediofa",
-     "iconID": "monsters_ld1:20",
-     "maxAP": 10,
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "spawnGroup": "fungi_rescued",
-     "phraseID": "fungi_rescued"
-    }
-    ```
-
-
-## Fallhaven, Fallhaven potions (fungi_rescued2) { #v-fungi_rescued2 }
-
-**Entry ID:** `fungi_rescued2` · **Type:** NPC
-
-**Location:** Fallhaven: [Fallhaven potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2)
+**Where:** Fallhaven: [Fallhaven potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2)
 
 ### Quests
 
@@ -198,11 +156,55 @@ Set your quest stages and items, then talk to Lediofa. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (fungi_rescued2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Lediofa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `fungi_rescued` | NPC | [Mushroom m 3 2](#v-fungi_rescued) |
+| `fungi_rescued2` | NPC | [Fallhaven, Fallhaven potions](#v-fungi_rescued2) |
+
+??? info "Technical information: fungi_rescued"
+
+    | | |
+    |---|---|
+    | Entry ID | `fungi_rescued` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fungi_rescued` |
+    | Loot table | – |
+    | Conversation | `fungi_rescued` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:20` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "fungi_rescued",
+     "name": "Lediofa",
+     "iconID": "monsters_ld1:20",
+     "maxAP": 10,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "spawnGroup": "fungi_rescued",
+     "phraseID": "fungi_rescued"
+    }
+    ```
+
+??? info "Technical information: fungi_rescued2"
 
     | | |
     |---|---|
     | Entry ID | `fungi_rescued2` |
+    | Type (wiki) | NPC |
     | Spawn group | `fungi_rescued2` |
     | Loot table | – |
     | Conversation | `fungi_rescued2` |
@@ -224,7 +226,6 @@ Set your quest stages and items, then talk to Lediofa. Same rules as the game: s
      "phraseID": "fungi_rescued2"
     }
     ```
-
 
 
 ## Community notes

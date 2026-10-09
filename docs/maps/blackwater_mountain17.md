@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 17 is an indoor location in Andor's Trail, in Blackwater Mountain (other). NPCs: Agent. Enemies: Scaled venomfang, Tough venomfang, Strong gornaud, Gornaud. Exits to Blackwater mountain 15, Blackwater mountain 18."
+description: "Blackwater mountain 17 is an indoor location in Andor's Trail, in Blackwater Mountain (other). NPCs: Agent. Enemies: Scaled venomfang, Tough venomfang, Gornaud, Strong gornaud. Exits to Blackwater mountain 15, Blackwater mountain 18."
 ---
 
 # Blackwater mountain 17
@@ -56,8 +56,8 @@ description: "Blackwater mountain 17 is an indoor location in Andor's Trail, in 
 |---|---|---|---|---|
 | [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 2 | shares spawn with Gornaud |
 | [Tough venomfang](../monsters/tough_venomfang.md) | 41 | 2–5 | 1 | shares spawn with Strong gornaud |
-| [Strong gornaud](../monsters/strong_gornaud.md) | 95 | 0–15 | 1 | shares spawn with Tough venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 2 | shares spawn with Scaled venomfang |
+| [Strong gornaud](../monsters/strong_gornaud.md) | 95 | 0–15 | 1 | shares spawn with Tough venomfang |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

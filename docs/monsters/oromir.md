@@ -4,37 +4,23 @@ description: "Oromir is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Oromir
 
+**Where to find Oromir:** [Crossglen, Crossglen](#v-oromir), [Crossglen, Crossglen farmhouse basement](#v-oromir_basement), [Crossglen, Crossglen farmhouse basement](#v-oromir_basement_help), [Crossglen, Crossglen](#v-oromir_behind_haystack), [Crossglen, Crossglen](#v-oromir_behind_haystack_help), [Crossglen, Crossglen](#v-oromir_behind_inn), [Crossglen, Crossglen](#v-oromir_behind_inn_help)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_man1_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Crossglen |
-| **Entries in game data** | 7 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "7 entries in the game data"
-    The game data defines 7 separate characters named Oromir. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Crossglen, Crossglen { #v-oromir }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`oromir`](#v-oromir) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir) | – |
-| [`oromir_basement`](#v-oromir_basement) | NPC | Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement) | – |
-| [`oromir_basement_help`](#v-oromir_basement_help) | NPC | Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help) | – |
-| [`oromir_behind_haystack`](#v-oromir_behind_haystack) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack) | – |
-| [`oromir_behind_haystack_help`](#v-oromir_behind_haystack_help) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help) | – |
-| [`oromir_behind_inn`](#v-oromir_behind_inn) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn) | – |
-| [`oromir_behind_inn_help`](#v-oromir_behind_inn_help) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help) | – |
-
-## Crossglen, Crossglen (oromir) { #v-oromir }
-
-**Entry ID:** `oromir` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir)
 
 ### Quests
 
@@ -77,38 +63,9 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir)"
+## Crossglen, Crossglen farmhouse basement { #v-oromir_basement }
 
-    | | |
-    |---|---|
-    | Entry ID | `oromir` |
-    | Spawn group | `oromir` |
-    | Loot table | – |
-    | Conversation | `oromir1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "oromir",
-     "name": "Oromir",
-     "iconID": "monsters_man1:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "oromir",
-     "phraseID": "oromir1"
-    }
-    ```
-
-
-## Crossglen, Crossglen farmhouse basement (oromir_basement) { #v-oromir_basement }
-
-**Entry ID:** `oromir_basement` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement)
+**Where:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement)
 
 ### Quests
 
@@ -144,39 +101,9 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir_basement)"
+## Crossglen, Crossglen farmhouse basement (2) { #v-oromir_basement_help }
 
-    | | |
-    |---|---|
-    | Entry ID | `oromir_basement` |
-    | Spawn group | `oromir_basement` |
-    | Loot table | – |
-    | Conversation | `oromir_basement_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "oromir_basement",
-     "name": "Oromir",
-     "iconID": "monsters_man1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "oromir_basement",
-     "phraseID": "oromir_basement_10"
-    }
-    ```
-
-
-## Crossglen, Crossglen farmhouse basement (oromir_basement_help) { #v-oromir_basement_help }
-
-**Entry ID:** `oromir_basement_help` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help)
+**Where:** Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md#pin-npc-oromir_basement_help)
 
 ### Quests
 
@@ -221,37 +148,9 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir_basement_help)"
+## Crossglen, Crossglen (2) { #v-oromir_behind_haystack }
 
-    | | |
-    |---|---|
-    | Entry ID | `oromir_basement_help` |
-    | Spawn group | `oromir_basement_help` |
-    | Loot table | – |
-    | Conversation | `oromir_basement_help_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "oromir_basement_help",
-     "name": "Oromir",
-     "iconID": "monsters_man1:0",
-     "monsterClass": "humanoid",
-     "phraseID": "oromir_basement_help_10"
-    }
-    ```
-
-
-## Crossglen, Crossglen (oromir_behind_haystack) { #v-oromir_behind_haystack }
-
-**Entry ID:** `oromir_behind_haystack` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack)
 
 ### Quests
 
@@ -287,40 +186,9 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir_behind_haystack)"
+## Crossglen, Crossglen (3) { #v-oromir_behind_haystack_help }
 
-    | | |
-    |---|---|
-    | Entry ID | `oromir_behind_haystack` |
-    | Spawn group | `oromir_behind_haystack` |
-    | Loot table | – |
-    | Conversation | `oromir_behind_haystack_10` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "oromir_behind_haystack",
-     "name": "Oromir",
-     "iconID": "monsters_man1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "spawnGroup": "oromir_behind_haystack",
-     "phraseID": "oromir_behind_haystack_10"
-    }
-    ```
-
-
-## Crossglen, Crossglen (oromir_behind_haystack_help) { #v-oromir_behind_haystack_help }
-
-**Entry ID:** `oromir_behind_haystack_help` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_haystack_help)
 
 ### Quests
 
@@ -356,40 +224,9 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir_behind_haystack_help)"
+## Crossglen, Crossglen (4) { #v-oromir_behind_inn }
 
-    | | |
-    |---|---|
-    | Entry ID | `oromir_behind_haystack_help` |
-    | Spawn group | `oromir_behind_haystack_help` |
-    | Loot table | – |
-    | Conversation | `oromir_behind_haystack_help_10` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "oromir_behind_haystack_help",
-     "name": "Oromir",
-     "iconID": "monsters_man1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "spawnGroup": "oromir_behind_haystack_help",
-     "phraseID": "oromir_behind_haystack_help_10"
-    }
-    ```
-
-
-## Crossglen, Crossglen (oromir_behind_inn) { #v-oromir_behind_inn }
-
-**Entry ID:** `oromir_behind_inn` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn)
 
 ### Quests
 
@@ -425,40 +262,9 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir_behind_inn)"
+## Crossglen, Crossglen (5) { #v-oromir_behind_inn_help }
 
-    | | |
-    |---|---|
-    | Entry ID | `oromir_behind_inn` |
-    | Spawn group | `oromir_behind_inn` |
-    | Loot table | – |
-    | Conversation | `oromir_behind_inn_10` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "oromir_behind_inn",
-     "name": "Oromir",
-     "iconID": "monsters_man1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "spawnGroup": "oromir_behind_inn",
-     "phraseID": "oromir_behind_inn_10"
-    }
-    ```
-
-
-## Crossglen, Crossglen (oromir_behind_inn_help) { #v-oromir_behind_inn_help }
-
-**Entry ID:** `oromir_behind_inn_help` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-oromir_behind_inn_help)
 
 ### Quests
 
@@ -494,11 +300,197 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (oromir_behind_inn_help)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**7 entries.** The game data defines 7 separate characters named Oromir. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `oromir` | NPC | [Crossglen, Crossglen](#v-oromir) |
+| `oromir_basement` | NPC | [Crossglen, Crossglen farmhouse basement](#v-oromir_basement) |
+| `oromir_basement_help` | NPC | [Crossglen, Crossglen farmhouse basement](#v-oromir_basement_help) |
+| `oromir_behind_haystack` | NPC | [Crossglen, Crossglen](#v-oromir_behind_haystack) |
+| `oromir_behind_haystack_help` | NPC | [Crossglen, Crossglen](#v-oromir_behind_haystack_help) |
+| `oromir_behind_inn` | NPC | [Crossglen, Crossglen](#v-oromir_behind_inn) |
+| `oromir_behind_inn_help` | NPC | [Crossglen, Crossglen](#v-oromir_behind_inn_help) |
+
+??? info "Technical information: oromir"
+
+    | | |
+    |---|---|
+    | Entry ID | `oromir` |
+    | Type (wiki) | NPC |
+    | Spawn group | `oromir` |
+    | Loot table | – |
+    | Conversation | `oromir1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "oromir",
+     "name": "Oromir",
+     "iconID": "monsters_man1:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "oromir",
+     "phraseID": "oromir1"
+    }
+    ```
+
+??? info "Technical information: oromir_basement"
+
+    | | |
+    |---|---|
+    | Entry ID | `oromir_basement` |
+    | Type (wiki) | NPC |
+    | Spawn group | `oromir_basement` |
+    | Loot table | – |
+    | Conversation | `oromir_basement_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "oromir_basement",
+     "name": "Oromir",
+     "iconID": "monsters_man1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "oromir_basement",
+     "phraseID": "oromir_basement_10"
+    }
+    ```
+
+??? info "Technical information: oromir_basement_help"
+
+    | | |
+    |---|---|
+    | Entry ID | `oromir_basement_help` |
+    | Type (wiki) | NPC |
+    | Spawn group | `oromir_basement_help` |
+    | Loot table | – |
+    | Conversation | `oromir_basement_help_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "oromir_basement_help",
+     "name": "Oromir",
+     "iconID": "monsters_man1:0",
+     "monsterClass": "humanoid",
+     "phraseID": "oromir_basement_help_10"
+    }
+    ```
+
+??? info "Technical information: oromir_behind_haystack"
+
+    | | |
+    |---|---|
+    | Entry ID | `oromir_behind_haystack` |
+    | Type (wiki) | NPC |
+    | Spawn group | `oromir_behind_haystack` |
+    | Loot table | – |
+    | Conversation | `oromir_behind_haystack_10` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "oromir_behind_haystack",
+     "name": "Oromir",
+     "iconID": "monsters_man1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "oromir_behind_haystack",
+     "phraseID": "oromir_behind_haystack_10"
+    }
+    ```
+
+??? info "Technical information: oromir_behind_haystack_help"
+
+    | | |
+    |---|---|
+    | Entry ID | `oromir_behind_haystack_help` |
+    | Type (wiki) | NPC |
+    | Spawn group | `oromir_behind_haystack_help` |
+    | Loot table | – |
+    | Conversation | `oromir_behind_haystack_help_10` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "oromir_behind_haystack_help",
+     "name": "Oromir",
+     "iconID": "monsters_man1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "oromir_behind_haystack_help",
+     "phraseID": "oromir_behind_haystack_help_10"
+    }
+    ```
+
+??? info "Technical information: oromir_behind_inn"
+
+    | | |
+    |---|---|
+    | Entry ID | `oromir_behind_inn` |
+    | Type (wiki) | NPC |
+    | Spawn group | `oromir_behind_inn` |
+    | Loot table | – |
+    | Conversation | `oromir_behind_inn_10` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "oromir_behind_inn",
+     "name": "Oromir",
+     "iconID": "monsters_man1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "spawnGroup": "oromir_behind_inn",
+     "phraseID": "oromir_behind_inn_10"
+    }
+    ```
+
+??? info "Technical information: oromir_behind_inn_help"
 
     | | |
     |---|---|
     | Entry ID | `oromir_behind_inn_help` |
+    | Type (wiki) | NPC |
     | Spawn group | `oromir_behind_inn_help` |
     | Loot table | – |
     | Conversation | `oromir_behind_inn_help_10` |
@@ -520,7 +512,6 @@ Set your quest stages and items, then talk to Oromir. Same rules as the game: sa
      "phraseID": "oromir_behind_inn_help_10"
     }
     ```
-
 
 
 ## Community notes

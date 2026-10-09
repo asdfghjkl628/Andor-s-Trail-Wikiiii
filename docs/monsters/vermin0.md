@@ -1,8 +1,10 @@
 ---
-description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, found in Fallhaven, Prim, Crossroads Guardhouse, Remgard, Wexlow Village. Drops: Gold coins, Glass gem, Rat tail."
+description: "Rat is an enemy in Andor's Trail (animal) with 1–5 HP, worth 1–7 XP, found in Fallhaven, Prim, Crossroads Guardhouse, Remgard, Wexlow Village. Drops: Gold coins, Glass gem, Rat tail."
 ---
 
 # ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } Rat
+
+**Where to find Rat:** [Fallhaven, Gapfillerhole and 4 more](#v-vermin0), [Crossroads Guardhouse, Houseatcrossroads 1 and 8 more](#v-crossroads_rat), [Fallhaven, Gapfillerhole and 4 more](#v-vermin1)
 
 <div class="infobox" markdown>
 
@@ -13,49 +15,32 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 | **Type** | Enemy (hostile on sight) |
 | **Found in** | Fallhaven, Prim, Crossroads Guardhouse, Remgard, Wexlow Village |
 | **Class** | Animal |
-| **HP** | 5 |
-| **XP when defeated** | 7 |
-| **Entries in game data** | 3 |
+| **HP** | 1–5 |
+| **XP when defeated** | 1–7 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
+## Fallhaven, Gapfillerhole and 4 more { #v-vermin0 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`vermin0`](#v-vermin0) | Enemy | Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md) (+3 more) | – | 1 |
-| [`crossroads_rat`](#v-crossroads_rat) | Enemy | Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md), Remgard: [Island underground 1](../maps/island_underground1.md) (+7 more) | – | 5 |
-| [`vermin1`](#v-vermin1) | Enemy | Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md) (+3 more) | – | 1 |
+**Where:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md), [Woodhouse 3](../maps/woodhouse3.md)
 
-## Fallhaven, Gapfillerhole and 4 more (vermin0) { #v-vermin0 }
+### Combat
 
-**Entry ID:** `vermin0` · **Type:** Enemy
-
-**Location:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md), [Woodhouse 3](../maps/woodhouse3.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 1 |
 | XP when defeated | 1 |
 | Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -85,67 +70,26 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (vermin0)"
+## Crossroads Guardhouse, Houseatcrossroads 1 and 8 more { #v-crossroads_rat }
 
-    | | |
-    |---|---|
-    | Entry ID | `vermin0` |
-    | Spawn group | `vermin` |
-    | Loot table | `vermin` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:0` |
-    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
+**Where:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md), Remgard: [Island underground 1](../maps/island_underground1.md), Remgard: [Remgard church basement](../maps/remgard_church_basement.md), Wexlow Village: [Wexlow village](../maps/wexlow_village.md), [Island underground 4b](../maps/island_underground4b.md), [Island underground 5](../maps/island_underground5.md) (+3 more)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "vermin0",
-     "name": "Rat",
-     "iconID": "monsters_rats:0",
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 0,
-      "max": 1
-     },
-     "spawnGroup": "vermin",
-     "droplistID": "vermin",
-     "attackCost": 4,
-     "attackChance": 10,
-     "blockChance": 5
-    }
-    ```
-
-
-## Crossroads Guardhouse, Houseatcrossroads 1 and 8 more (crossroads_rat) { #v-crossroads_rat }
-
-**Entry ID:** `crossroads_rat` · **Type:** Enemy
-
-**Location:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md), Remgard: [Island underground 1](../maps/island_underground1.md), Remgard: [Remgard church basement](../maps/remgard_church_basement.md), Wexlow Village: [Wexlow village](../maps/wexlow_village.md), [Island underground 4b](../maps/island_underground4b.md), [Island underground 5](../maps/island_underground5.md) (+3 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 7 |
 | Damage | 1 |
-| Attack chance | 50 |
-| Block chance | 30 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 30 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -178,11 +122,116 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (crossroads_rat)"
+## Fallhaven, Gapfillerhole and 4 more (2) { #v-vermin1 }
+
+**Where:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md), [Woodhouse 3](../maps/woodhouse3.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Animal |
+| HP | 1 |
+| XP when defeated | 1 |
+| Damage | 0 to 1 |
+| AC | 10 |
+| BC | 5 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 20% | 0 to 1 |
+| [Glass gem](../items/gem1.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
+| [Lodarhouse 1](../maps/lodarhouse1.md) | Prim | 2 | – |
+| [Woodhouse 2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
+| [Woodhouse 3](../maps/woodhouse3.md) | – | 2 | – |
+| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–1 → 0–1 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `vermin0` | Enemy | [Fallhaven, Gapfillerhole and 4 more](#v-vermin0) |
+| `crossroads_rat` | Enemy | [Crossroads Guardhouse, Houseatcrossroads 1 and 8 more](#v-crossroads_rat) |
+| `vermin1` | Enemy | [Fallhaven, Gapfillerhole and 4 more](#v-vermin1) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: vermin0"
+
+    | | |
+    |---|---|
+    | Entry ID | `vermin0` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `vermin` |
+    | Loot table | `vermin` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_v070_lodarmaze.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "vermin0",
+     "name": "Rat",
+     "iconID": "monsters_rats:0",
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 0,
+      "max": 1
+     },
+     "spawnGroup": "vermin",
+     "droplistID": "vermin",
+     "attackCost": 4,
+     "attackChance": 10,
+     "blockChance": 5
+    }
+    ```
+
+??? info "Technical information: crossroads_rat"
 
     | | |
     |---|---|
     | Entry ID | `crossroads_rat` |
+    | Type (wiki) | Enemy |
     | Spawn group | `crossroads_rat` |
     | Loot table | `rat` |
     | Conversation | – |
@@ -214,68 +263,12 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
     }
     ```
 
-
-## Fallhaven, Gapfillerhole and 4 more (vermin1) { #v-vermin1 }
-
-**Entry ID:** `vermin1` · **Type:** Enemy
-
-**Location:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md), [Woodhouse 3](../maps/woodhouse3.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 to 1 |
-| Attack chance | 10 |
-| Block chance | 5 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 20% | 0 to 1 |
-| [Glass gem](../items/gem1.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
-| [Lodarhouse 1](../maps/lodarhouse1.md) | Prim | 2 | – |
-| [Woodhouse 2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
-| [Woodhouse 3](../maps/woodhouse3.md) | – | 2 | – |
-| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Attack damage: 0–1 → 0–1 |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (vermin1)"
+??? info "Technical information: vermin1"
 
     | | |
     |---|---|
     | Entry ID | `vermin1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `vermin` |
     | Loot table | `vermin` |
     | Conversation | – |
@@ -303,16 +296,6 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
      "blockChance": 5
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Fraedro is an NPC who can also be fought in Andor's Trail, found in Pub."
+description: "Fraedro is an NPC you can also fight in Andor's Trail, found in Pub."
 ---
 
 # ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } Fraedro
@@ -12,20 +12,16 @@ description: "Fraedro is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Pub |
-| **Class** | Animal |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
-| **Entry ID** | `ratdom_fraedro` |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Fraedro"
+    The conversation during [Yellow is it](../quests/ratdom_quest.md#stage-399) can lead straight into a fight with Fraedro.
 
-No combat statistics are defined for this entry in the game data. Where the story leads to a fight, the game normally uses a separate hostile entry.
+No combat stats are defined for Fraedro, so the fight is over in one hit.
 
 ## Drops
 
@@ -33,12 +29,6 @@ No combat statistics are defined for this entry in the game data. Where the stor
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 200 to 500 |
 | [Fraedro's key](../items/ratdom_fraedro_key.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 626](../maps/ratdom_maze_626.md) | Pub | 1 | – |
 
 ## Quests
 
@@ -146,11 +136,18 @@ Set your quest stages and items, then talk to Fraedro. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `ratdom_fraedro`: no combat statistics are defined, so the game uses its defaults (1 HP, no attack) if a fight with this entry starts.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_fraedro` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ratdom_fraedro` |
     | Loot table | `ratdom_fraedro` |
     | Conversation | `ratdom_fraedro` |
@@ -178,15 +175,6 @@ Set your quest stages and items, then talk to Fraedro. Same rules as the game: s
      "droplistID": "ratdom_fraedro"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -25,7 +25,7 @@ description: "Pretty porcelain figure is a quest other in Andor's Trail. How to 
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_07](../monsters/brv_wh_item_07.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_27](../monsters/brv_wh_item_27.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-107) (2×)
+- From [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_07) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_27) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-107) (2×)
 - From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 

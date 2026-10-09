@@ -1,5 +1,5 @@
 ---
-description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trail, found in Galmore 18."
+description: "Sleepy giant ogre is an NPC you can also fight in Andor's Trail, found in Galmore 18."
 ---
 
 # ![](../assets/icons/monsters/monsters_cyclops_0.png){ .sprite } Sleepy giant ogre
@@ -12,42 +12,38 @@ description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trai
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Galmore 18 |
 | **Class** | Giant |
 | **HP** | 590 |
 | **XP when defeated** | 1,005 |
-| **Entry ID** | `mg2_troll` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Sleepy giant ogre"
+    Answering “Oops” starts a fight with Sleepy giant ogre.
 
-## Combat statistics
+    Sleepy giant ogre turns hostile if you fall out with their faction.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Giant |
 | HP | 590 |
 | XP when defeated | 1,005 |
 | Damage | 20 to 60 |
-| Attack chance | 90 |
-| Block chance | 90 |
-| Damage resistance | 15 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 8 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 90 |
+| DR | 15 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 5 rounds, 5% chance)
+**Its hits:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 5 rounds, 5% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -56,12 +52,6 @@ description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trai
 | [Gold coins](../items/gold.md) | 100% | 30 to 130 |
 | [Bone](../items/bone.md) | 100% | 1 |
 | [Small rock](../items/rock.md) | 100% | 1 to 3 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Galmore 18](../maps/galmore_18.md) | – | 1 | – |
 
 ## Dialogue simulator
 
@@ -119,11 +109,26 @@ Set your quest stages and items, then talk to Sleepy giant ogre. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `mg2_troll` belongs to the faction `mg2_troll`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `mg2_troll` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `mg2_troll` |
     | Loot table | `mg2_troll` |
     | Conversation | `mg2_troll` |
@@ -168,15 +173,6 @@ Set your quest stages and items, then talk to Sleepy giant ogre. Same rules as t
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

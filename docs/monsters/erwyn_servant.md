@@ -1,8 +1,10 @@
 ---
-description: "Servant is an NPC who can also be fought in Andor's Trail, found in Stoutford castle 1, Stoutford castle 2, Guynmart Castle."
+description: "Servant is an NPC you can also fight in Andor's Trail, found in Stoutford castle 1, Stoutford castle 2, Guynmart Castle."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_28.png){ .sprite } Servant
+
+**Where to find Servant:** [Stoutford castle 1 and 1 more](#v-erwyn_servant), [Guynmart Castle, Guynmart main 3](#v-guynmart_servant)
 
 <div class="infobox" markdown>
 
@@ -10,51 +12,35 @@ description: "Servant is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Stoutford castle 1, Stoutford castle 2, Guynmart Castle |
 | **Class** | Undead |
 | **HP** | 30 |
 | **XP when defeated** | 30 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Servant. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance, movement. Each entry has its own section below.
+## Stoutford castle 1 and 1 more { #v-erwyn_servant }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`erwyn_servant`](#v-erwyn_servant) | Enemy | [Stoutford castle 1](../maps/stoutford_castle1.md), [Stoutford castle 2](../maps/stoutford_castle2.md) | – | 30 |
-| [`guynmart_servant`](#v-guynmart_servant) | NPC | Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant) | – | – |
+**Where:** [Stoutford castle 1](../maps/stoutford_castle1.md), [Stoutford castle 2](../maps/stoutford_castle2.md)
 
-## Stoutford castle 1 and 1 more (erwyn_servant) { #v-erwyn_servant }
+### Combat
 
-**Entry ID:** `erwyn_servant` · **Type:** Enemy
-
-**Location:** [Stoutford castle 1](../maps/stoutford_castle1.md), [Stoutford castle 2](../maps/stoutford_castle2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 30 |
 | XP when defeated | 30 |
 | Damage | 1 to 3 |
-| Attack chance | 50 |
-| Block chance | 20 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 20 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -73,47 +59,9 @@ description: "Servant is an NPC who can also be fought in Andor's Trail, found i
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (erwyn_servant)"
+## Guynmart Castle, Guynmart main 3 { #v-guynmart_servant }
 
-    | | |
-    |---|---|
-    | Entry ID | `erwyn_servant` |
-    | Spawn group | `erwyn_servant` |
-    | Loot table | – |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_tometik8:28` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "erwyn_servant",
-     "name": "Servant",
-     "iconID": "monsters_tometik8:28",
-     "maxHP": 30,
-     "unique": 1,
-     "monsterClass": "undead",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 1,
-      "max": 3
-     },
-     "spawnGroup": "erwyn_servant",
-     "attackCost": 5,
-     "attackChance": 50,
-     "blockChance": 20
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 3 (guynmart_servant) { #v-guynmart_servant }
-
-**Entry ID:** `guynmart_servant` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant)
+**Where:** Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_servant)
 
 ### Quests
 
@@ -155,11 +103,68 @@ Set your quest stages and items, then talk to Servant. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_servant)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Servant. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `erwyn_servant` | Enemy | [Stoutford castle 1 and 1 more](#v-erwyn_servant) |
+| `guynmart_servant` | NPC | [Guynmart Castle, Guynmart main 3](#v-guynmart_servant) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: erwyn_servant"
+
+    | | |
+    |---|---|
+    | Entry ID | `erwyn_servant` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `erwyn_servant` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_tometik8:28` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "erwyn_servant",
+     "name": "Servant",
+     "iconID": "monsters_tometik8:28",
+     "maxHP": 30,
+     "unique": 1,
+     "monsterClass": "undead",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 1,
+      "max": 3
+     },
+     "spawnGroup": "erwyn_servant",
+     "attackCost": 5,
+     "attackChance": 50,
+     "blockChance": 20
+    }
+    ```
+
+??? info "Technical information: guynmart_servant"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_servant` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_servant` |
     | Loot table | – |
     | Conversation | `guynmart_servant_10` |
@@ -180,16 +185,6 @@ Set your quest stages and items, then talk to Servant. Same rules as the game: s
      "phraseID": "guynmart_servant_10"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

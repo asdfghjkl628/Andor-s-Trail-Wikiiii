@@ -4,7 +4,7 @@ description: "Gandoren is a non-player character (NPC) in Andor's Trail. Starts 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_69.png){ .sprite } Gandoren
 
-**Where to find Gandoren:** not placed on any map; appears through a quest or scripted event.
+**Where to find Gandoren:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,9 +12,8 @@ description: "Gandoren is a non-player character (NPC) in Andor's Trail. Starts 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Feygard errands](../quests/feygard_shipment.md), [Flows through the veins](../quests/loneford.md) |
-| **Entry ID** | `gandoren` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -280,11 +279,16 @@ Set your quest stages and items, then talk to Gandoren. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `gandoren` |
+    | Type (wiki) | NPC |
     | Spawn group | `gandoren` |
     | Loot table | – |
     | Conversation | `gandoren` |

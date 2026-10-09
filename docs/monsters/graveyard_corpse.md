@@ -17,34 +17,28 @@ description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP,
 | **Class** | Undead |
 | **HP** | 70 |
 | **XP when defeated** | 333 |
-| **Entry ID** | `graveyard_corpse` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 70 |
 | XP when defeated | 333 |
 | Damage | 5 to 15 |
-| Attack chance | 160 |
-| Block chance | 135 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 5 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 5% |
+| AC | 160 |
+| BC | 135 |
+| DR | 9 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 5% (×2.0) |
 
-**On hit:** Heal HP: 1 to 2; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 1, 3 rounds, 25% chance)
+**Its hits:** Heal HP: 1 to 2; On target: [Putrefaction](../conditions/putrefaction.md) (magnitude 1, 3 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -71,11 +65,24 @@ description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `graveyard_corpse` |
+    | Type (wiki) | Enemy |
     | Spawn group | `graveyard_corpse` |
     | Loot table | `graveyardcorpse` |
     | Conversation | – |
@@ -124,15 +131,6 @@ description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP,
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

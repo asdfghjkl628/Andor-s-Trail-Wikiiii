@@ -12,10 +12,9 @@ description: "Seviron is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [A cat and mouse game](../quests/cat_and_mouse.md) |
 | **Found in** | Brimhaven |
-| **Entry ID** | `brv_churchman` |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
 </div>
@@ -184,11 +183,16 @@ Set your quest stages and items, then talk to Seviron. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_churchman` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_churchman` |
     | Loot table | – |
     | Conversation | `brv_churchman_start` |

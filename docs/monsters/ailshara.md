@@ -12,10 +12,9 @@ description: "Ailshara is a non-player character (NPC) in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Crossroads Guardhouse |
-| **Entry ID** | `ailshara` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -159,16 +158,21 @@ Set your quest stages and items, then talk to Ailshara. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Psst, hey. Interested in doing some trading? I am always looking for …” → “Psst, hey. Interested in doing some trading? I am always looking for …”<br>· text: “Oh yes. You see, these Feygard patrol guards carry some really intere…” → “Oh yes. You see, these Feygard patrol guards carry some really intere…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Oh yes. You see, these Feygard patrol guards carry some really intere…” → “Oh yes. You see, these Feygard patrol guards carry some really intere…”<br>· text: “Psst, hey. Interested in doing some trading? I am always looking for …” → “Psst, hey. Interested in doing some trading? I am always looking for …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ailshara` |
+    | Type (wiki) | NPC |
     | Spawn group | `ailshara` |
     | Loot table | `shop_ailshara` |
     | Conversation | `ailshara` |

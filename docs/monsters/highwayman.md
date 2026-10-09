@@ -1,8 +1,10 @@
 ---
-description: "Highwayman is an NPC who can also be fought in Andor's Trail, found in Fallhaven, Way to sullengard east 9."
+description: "Highwayman is an NPC you can also fight in Andor's Trail, found in Fallhaven, Way to sullengard east 9."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Highwayman
+
+**Where to find Highwayman:** [Fallhaven, Wild 9](#v-highwayman), [Fallhaven, Roadbeforecrossroads 3](#v-highwayman1), [Way to sullengard east 9](#v-sullengard_highwayman)
 
 <div class="infobox" markdown>
 
@@ -10,67 +12,46 @@ description: "Highwayman is an NPC who can also be fought in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Fallhaven, Way to sullengard east 9 |
 | **Class** | Humanoid |
 | **HP** | 54–200 |
 | **XP when defeated** | 85–621 |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Highwayman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. Each entry has its own section below.
+## Fallhaven, Wild 9 { #v-highwayman }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`highwayman`](#v-highwayman) | NPC/Enemy | Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-highwayman) | – | 54 |
-| [`highwayman1`](#v-highwayman1) | NPC/Enemy | Fallhaven: [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1) | – | 154 |
-| [`sullengard_highwayman`](#v-sullengard_highwayman) | NPC/Enemy | [Way to sullengard east 9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman) | – | 200 |
+**Where:** Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-highwayman)
 
-## Fallhaven, Wild 9 (highwayman) { #v-highwayman }
+!!! warning "You can fight Highwayman"
+    Answering “Let's fight!” starts a fight with Highwayman.
 
-**Entry ID:** `highwayman` · **Type:** NPC/Enemy
+    Highwayman turns hostile if you fall out with their faction.
 
-**Location:** Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-highwayman)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 54 |
 | XP when defeated | 85 |
 | Damage | 2 to 4 |
-| Attack chance | 90 |
-| Block chance | 30 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 50 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 26% |
+| AC | 90 |
+| BC | 30 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 26% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 70% | 4 to 41 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Wild 9](../maps/wild9.md) | Fallhaven | 1 | – |
 
 ### Quests that count defeats
 
@@ -119,77 +100,31 @@ Set your quest stages and items, then talk to Highwayman. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (highwayman)"
+## Fallhaven, Roadbeforecrossroads 3 { #v-highwayman1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `highwayman` |
-    | Spawn group | `bandit1` |
-    | Loot table | `bandit1` |
-    | Conversation | `bandit1` |
-    | Faction | `fct_bandit1` |
-    | Movement | protectSpawn |
-    | Icon | `monsters_men:8` |
-    | Defined in | `res/raw/monsterlist_wilderness.json` |
+**Where:** Fallhaven: [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1)
 
-    Raw data:
+!!! warning "You can fight Highwayman"
+    Answering “Fight!” starts a fight with Highwayman.
 
-    ```json
-    {
-     "id": "highwayman",
-     "name": "Highwayman",
-     "iconID": "monsters_men:8",
-     "maxHP": 54,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 2,
-      "max": 4
-     },
-     "spawnGroup": "bandit1",
-     "faction": "fct_bandit1",
-     "phraseID": "bandit1",
-     "droplistID": "bandit1",
-     "attackCost": 5,
-     "attackChance": 90,
-     "criticalSkill": 50,
-     "criticalMultiplier": 2.0,
-     "blockChance": 30,
-     "damageResistance": 2
-    }
-    ```
+    Highwayman turns hostile if you fall out with their faction.
 
+### Combat
 
-## Fallhaven, Roadbeforecrossroads 3 (highwayman1) { #v-highwayman1 }
-
-**Entry ID:** `highwayman1` · **Type:** NPC/Enemy
-
-**Location:** Fallhaven: [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md#pin-npc-highwayman1)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 154 |
 | XP when defeated | 239 |
 | Damage | 2 to 7 |
-| Attack chance | 160 |
-| Block chance | 70 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 160 |
+| BC | 70 |
+| DR | 4 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -198,12 +133,6 @@ Set your quest stages and items, then talk to Highwayman. Same rules as the game
 | [Gold coins](../items/gold.md) | 100% | 1 to 20 |
 | [Torn shirt](../items/shirt_torn.md) | 100% | 1 |
 | [Mead](../items/mead.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md) | Fallhaven | 1 | – |
 
 ### Quests that count defeats
 
@@ -265,73 +194,31 @@ Set your quest stages and items, then talk to Highwayman. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (highwayman1)"
+## Way to sullengard east 9 { #v-sullengard_highwayman }
 
-    | | |
-    |---|---|
-    | Entry ID | `highwayman1` |
-    | Spawn group | `highwayman1` |
-    | Loot table | `highwayman1` |
-    | Conversation | `highwayman1` |
-    | Faction | `fct_highwayman1` |
-    | Movement | – |
-    | Icon | `monsters_men:8` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+**Where:** [Way to sullengard east 9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman)
 
-    Raw data:
+!!! warning "You can fight Highwayman"
+    Answering “Bring it on!” starts a fight with Highwayman.
 
-    ```json
-    {
-     "id": "highwayman1",
-     "name": "Highwayman",
-     "iconID": "monsters_men:8",
-     "maxHP": 154,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 2,
-      "max": 7
-     },
-     "faction": "fct_highwayman1",
-     "phraseID": "highwayman1",
-     "droplistID": "highwayman1",
-     "attackCost": 5,
-     "attackChance": 160,
-     "blockChance": 70,
-     "damageResistance": 4
-    }
-    ```
+    Highwayman turns hostile if you fall out with their faction.
 
+### Combat
 
-## Way to sullengard east 9 (sullengard_highwayman) { #v-sullengard_highwayman }
-
-**Entry ID:** `sullengard_highwayman` · **Type:** NPC/Enemy
-
-**Location:** [Way to sullengard east 9](../maps/way_to_sullengard_east9.md#pin-npc-sullengard_highwayman)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 200 |
 | XP when defeated | 621 |
 | Damage | 10 to 20 |
-| Attack chance | 200 |
-| Block chance | 150 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 50 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 26% |
+| AC | 200 |
+| BC | 150 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 26% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -340,12 +227,6 @@ Set your quest stages and items, then talk to Highwayman. Same rules as the game
 | [Bandit's Brew](../items/sullengrad_bandit_brew.md) | 10% | 1 |
 | [Gold coins](../items/gold.md) | 70% | 51 to 106 |
 | [Ring of damage +5](../items/ring_dmg5.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
 
 ### Dialogue simulator
 
@@ -401,11 +282,115 @@ Set your quest stages and items, then talk to Highwayman. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sullengard_highwayman)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Highwayman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, faction, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `highwayman` | NPC/Enemy | [Fallhaven, Wild 9](#v-highwayman) |
+| `highwayman1` | NPC/Enemy | [Fallhaven, Roadbeforecrossroads 3](#v-highwayman1) |
+| `sullengard_highwayman` | NPC/Enemy | [Way to sullengard east 9](#v-sullengard_highwayman) |
+
+- `highwayman` belongs to the faction `fct_bandit1`. The game treats any character as hostile once your standing with its faction is below zero.
+- `highwayman1` belongs to the faction `fct_highwayman1`. The game treats any character as hostile once your standing with its faction is below zero.
+- `sullengard_highwayman` belongs to the faction `fct_highwayman2`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: highwayman"
+
+    | | |
+    |---|---|
+    | Entry ID | `highwayman` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `bandit1` |
+    | Loot table | `bandit1` |
+    | Conversation | `bandit1` |
+    | Faction | `fct_bandit1` |
+    | Movement | protectSpawn |
+    | Icon | `monsters_men:8` |
+    | Defined in | `res/raw/monsterlist_wilderness.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "highwayman",
+     "name": "Highwayman",
+     "iconID": "monsters_men:8",
+     "maxHP": 54,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 2,
+      "max": 4
+     },
+     "spawnGroup": "bandit1",
+     "faction": "fct_bandit1",
+     "phraseID": "bandit1",
+     "droplistID": "bandit1",
+     "attackCost": 5,
+     "attackChance": 90,
+     "criticalSkill": 50,
+     "criticalMultiplier": 2.0,
+     "blockChance": 30,
+     "damageResistance": 2
+    }
+    ```
+
+??? info "Technical information: highwayman1"
+
+    | | |
+    |---|---|
+    | Entry ID | `highwayman1` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `highwayman1` |
+    | Loot table | `highwayman1` |
+    | Conversation | `highwayman1` |
+    | Faction | `fct_highwayman1` |
+    | Movement | – |
+    | Icon | `monsters_men:8` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "highwayman1",
+     "name": "Highwayman",
+     "iconID": "monsters_men:8",
+     "maxHP": 154,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 2,
+      "max": 7
+     },
+     "faction": "fct_highwayman1",
+     "phraseID": "highwayman1",
+     "droplistID": "highwayman1",
+     "attackCost": 5,
+     "attackChance": 160,
+     "blockChance": 70,
+     "damageResistance": 4
+    }
+    ```
+
+??? info "Technical information: sullengard_highwayman"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_highwayman` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `sullengard_highwayman` |
     | Loot table | `sullengard_highwayman_drop` |
     | Conversation | `sullengard_highwayman` |
@@ -439,16 +424,6 @@ Set your quest stages and items, then talk to Highwayman. Same rules as the game
      "damageResistance": 3
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

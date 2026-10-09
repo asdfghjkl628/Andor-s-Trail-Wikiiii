@@ -1,5 +1,5 @@
 ---
-description: "Starving prisoner is an NPC who can also be fought in Andor's Trail, found in Flagstone Prison."
+description: "Starving prisoner is an NPC you can also fight in Andor's Trail, found in Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_11.png){ .sprite } Starving prisoner
@@ -12,40 +12,34 @@ description: "Starving prisoner is an NPC who can also be fought in Andor's Trai
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Flagstone Prison |
 | **Class** | Humanoid |
 | **HP** | 10 |
 | **XP when defeated** | 27 |
-| **Entry ID** | `starving_prisoner` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Starving prisoner"
+    Answering “Calm down, I was just...” starts a fight with Starving prisoner.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 10 |
 | XP when defeated | 27 |
 | Damage | 3 to 5 |
-| Attack chance | 60 |
-| Block chance | 60 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 60 |
+| BC | 60 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -89,11 +83,24 @@ Set your quest stages and items, then talk to Starving prisoner. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `starving_prisoner` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `prisoner2` |
     | Loot table | `prisoner` |
     | Conversation | `prisoner2` |
@@ -124,15 +131,6 @@ Set your quest stages and items, then talk to Starving prisoner. Same rules as t
      "blockChance": 60
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

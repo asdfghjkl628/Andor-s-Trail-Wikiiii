@@ -4,32 +4,23 @@ description: "Valentina is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_167.png){ .sprite } Valentina
 
+**Where to find Valentina:** [Crossglen, Home](#v-crossglen_valentina), [Sullengard, Sullengard 1 aunts house](#v-sullengard_valentina)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_167.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Crossglen, Sullengard |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Valentina. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Crossglen, Home { #v-crossglen_valentina }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`crossglen_valentina`](#v-crossglen_valentina) | NPC | Crossglen: [Home](../maps/home.md#pin-npc-crossglen_valentina) | – |
-| [`sullengard_valentina`](#v-sullengard_valentina) | NPC | Sullengard: [Sullengard 1 aunts house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina) | – |
-
-## Crossglen, Home (crossglen_valentina) { #v-crossglen_valentina }
-
-**Entry ID:** `crossglen_valentina` · **Type:** NPC
-
-**Location:** Crossglen: [Home](../maps/home.md#pin-npc-crossglen_valentina)
+**Where:** Crossglen: [Home](../maps/home.md#pin-npc-crossglen_valentina)
 
 ### Quests
 
@@ -119,39 +110,9 @@ Set your quest stages and items, then talk to Valentina. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (crossglen_valentina)"
+## Sullengard, Sullengard 1 aunts house { #v-sullengard_valentina }
 
-    | | |
-    |---|---|
-    | Entry ID | `crossglen_valentina` |
-    | Spawn group | `crossglen_valentina` |
-    | Loot table | – |
-    | Conversation | `crossglen_valentina_selector` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:167` |
-    | Defined in | `res/raw/monsterlist_sullengard.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "crossglen_valentina",
-     "name": "Valentina",
-     "iconID": "monsters_ld1:167",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "crossglen_valentina",
-     "phraseID": "crossglen_valentina_selector"
-    }
-    ```
-
-
-## Sullengard, Sullengard 1 aunts house (sullengard_valentina) { #v-sullengard_valentina }
-
-**Entry ID:** `sullengard_valentina` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard 1 aunts house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina)
+**Where:** Sullengard: [Sullengard 1 aunts house](../maps/sullengard1_aunts_house.md#pin-npc-sullengard_valentina)
 
 ### Quests
 
@@ -233,11 +194,52 @@ Set your quest stages and items, then talk to Valentina. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sullengard_valentina)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Valentina. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `crossglen_valentina` | NPC | [Crossglen, Home](#v-crossglen_valentina) |
+| `sullengard_valentina` | NPC | [Sullengard, Sullengard 1 aunts house](#v-sullengard_valentina) |
+
+??? info "Technical information: crossglen_valentina"
+
+    | | |
+    |---|---|
+    | Entry ID | `crossglen_valentina` |
+    | Type (wiki) | NPC |
+    | Spawn group | `crossglen_valentina` |
+    | Loot table | – |
+    | Conversation | `crossglen_valentina_selector` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:167` |
+    | Defined in | `res/raw/monsterlist_sullengard.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "crossglen_valentina",
+     "name": "Valentina",
+     "iconID": "monsters_ld1:167",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "crossglen_valentina",
+     "phraseID": "crossglen_valentina_selector"
+    }
+    ```
+
+??? info "Technical information: sullengard_valentina"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_valentina` |
+    | Type (wiki) | NPC |
     | Spawn group | `sullengard_valentina` |
     | Loot table | – |
     | Conversation | `sullengard_valentina_0` |
@@ -259,7 +261,6 @@ Set your quest stages and items, then talk to Valentina. Same rules as the game:
      "phraseID": "sullengard_valentina_0"
     }
     ```
-
 
 
 ## Community notes

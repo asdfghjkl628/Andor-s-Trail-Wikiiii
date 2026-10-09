@@ -1,5 +1,5 @@
 ---
-description: "Rock eater is an NPC who can also be fought in Andor's Trail, found in Mt. Galmore."
+description: "Rock eater is an NPC you can also fight in Andor's Trail, found in Mt. Galmore."
 ---
 
 # ![](../assets/icons/monsters/monsters_bosses_2x2_4.png){ .sprite } Rock eater
@@ -12,58 +12,45 @@ description: "Rock eater is an NPC who can also be fought in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Mt. Galmore |
 | **Class** | Construct |
 | **HP** | 500 |
 | **XP when defeated** | 1,315 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `rock_eater` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Rock eater"
+    The conversation can lead straight into a fight with Rock eater.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 500 |
 | XP when defeated | 1,315 |
 | Damage | 12 to 14 |
-| Attack chance | 254 |
-| Block chance | 180 |
-| Damage resistance | 20 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 23 |
-| Critical multiplier | 2.2 |
-| Critical hit chance | 16% |
+| AC | 254 |
+| BC | 180 |
+| DR | 20 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 16% (×2.2) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**When hit:** On self: [Petristill](../conditions/petristill.md) (magnitude 1, 10 rounds); On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 1, 1 round, 25% chance)
+**When you hit it:** On self: [Petristill](../conditions/petristill.md) (magnitude 1, 10 rounds); On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 1, 1 round, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 2500 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell exit](../maps/undertell_exit.md) | Mt. Galmore | 2 | Appears later, during a quest |
 
 ## Quests
 
@@ -121,11 +108,24 @@ Set your quest stages and items, then talk to Rock eater. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `rock_eater` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `rock_eater` |
     | Loot table | `gold2500` |
     | Conversation | `rock_eater_selector` |
@@ -179,15 +179,6 @@ Set your quest stages and items, then talk to Rock eater. Same rules as the game
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

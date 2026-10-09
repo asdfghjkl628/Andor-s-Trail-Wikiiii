@@ -1,5 +1,5 @@
 ---
-description: "Librarian is an NPC who can also be fought in Andor's Trail, found in Library."
+description: "Librarian is an NPC you can also fight in Andor's Trail, found in Library."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } Librarian
@@ -12,40 +12,36 @@ description: "Librarian is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Library |
 | **Class** | Humanoid |
 | **HP** | 60 |
 | **XP when defeated** | 42 |
-| **Entry ID** | `ratdom_librarian` |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Librarian"
+    Answering “Andor is my brother. I'm going to look for a clue to his whereabouts now. You…” starts a fight with Librarian.
 
-## Combat statistics
+    Answering “You'll soon stop laughing.” starts a fight with Librarian.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 60 |
 | XP when defeated | 42 |
 | Damage | 10 to 30 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 0 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -54,12 +50,6 @@ description: "Librarian is an NPC who can also be fought in Andor's Trail, found
 | [Ratcave Torch](../items/ratdom_torch.md) | 50% | 1 |
 | [Gold coins](../items/gold.md) | 50% | 30 to 80 |
 | [Nasty looking book](../items/ratdom_book.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 611](../maps/ratdom_maze_611.md) | Library | 1 | – |
 
 ## Quests
 
@@ -147,11 +137,24 @@ Set your quest stages and items, then talk to Librarian. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_librarian` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ratdom_librarian` |
     | Loot table | `ratdom_librarian` |
     | Conversation | `ratdom_librarian` |
@@ -181,15 +184,6 @@ Set your quest stages and items, then talk to Librarian. Same rules as the game:
      "droplistID": "ratdom_librarian"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,7 +4,7 @@ description: "Every enemy and non-player character in Andor's Trail v0.8.18, by 
 
 # Monsters & NPCs
 
-619 enemies, 154 NPCs you can also end up fighting, 579 NPCs who are safe to talk to ~~and safe to ignore~~, and 51 bits of scenery. Entries that share a name in the game data are combined on one page.
+619 enemies, 151 NPCs you can also end up fighting, 563 NPCs who are safe to talk to ~~and safe to ignore~~, and 51 bits of scenery. Entries that share a name in the game data are combined on one page.
 
 - **Enemy:** hostile on sight.
 - **NPC/Enemy:** talks first, may fight later (a dialogue choice, a faction turning hostile, or a hostile version of the same character).
@@ -17,16 +17,158 @@ description: "Every enemy and non-player character in Andor's Trail v0.8.18, by 
 
 Grouped by class, then sorted by HP, weakest first ~~the ones at the bottom are there for a reason~~. Ranges mean several entries share the name. Abbreviations: [glossary](../glossary.md).
 
-**Classes:** [Humanoid](#enemies-humanoid) (141) · [Animal](#enemies-animal) (140) · [Reptile](#enemies-reptile) (130) · [Insect](#enemies-insect) (93) · [Giant](#enemies-giant) (68) · [Construct](#enemies-construct) (64) · [Undead](#enemies-undead) (61) · [Ghost](#enemies-ghost) (38) · [Demon](#enemies-demon) (38)
+**Classes:** [Animal](#enemies-animal) (140) · [Humanoid](#enemies-humanoid) (138) · [Reptile](#enemies-reptile) (130) · [Insect](#enemies-insect) (93) · [Giant](#enemies-giant) (68) · [Construct](#enemies-construct) (64) · [Undead](#enemies-undead) (61) · [Ghost](#enemies-ghost) (38) · [Demon](#enemies-demon) (38)
 
-<h3 id="enemies-humanoid">Humanoid (141)</h3>
+<h3 id="enemies-animal">Animal (140)</h3>
 
 | | Name | Type | HP | XP | Damage | AC | BC | DR |
 |---|---|---|---|---|---|---|---|---|
-| ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Fanamor](fanamor.md) | NPC/Enemy | 1 | 1 | 0 | 0 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_men_2.png){ .sprite } | [Leta](leta.md) | NPC/Enemy | 1 | 1 | 0 | 0 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Fraedro](ratdom_fraedro.md) | NPC/Enemy | 1 | 1 | 20 to 30 | 0 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Rat](vermin0.md) | Enemy | 1–5 | 1–7 | 0 to 1 | 10–50 | 5–30 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](tiny_rat.md) | NPC/Enemy | 2 | 3 | 1 | 50 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Cave rat](cave_rat.md) | Enemy | 5 | 7–8 | 1 to 2 | 50–90 | 0–30 | 0 |
+| ![](../assets/icons/monsters/monsters_johny_24.png){ .sprite } | [Reindeer](reindeer.md) | Enemy | 5 | 39 | 0 | 1 | 999 | 0 |
+| ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](sheep1.md) | NPC/Enemy | 5 | 4 | 0 to 1 | 10 | 5 | 0 |
+| ![](../assets/icons/monsters/monsters_ld2_188.png){ .sprite } | [Slime](ratdom_maze_slime.md) | Enemy | 5 | 126 | 8 to 18 | 130 | 40 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Tough cave rat](tough_cave_rat.md) | Enemy | 5 | 15 | 3 | 90 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Warehouse rat](puny_warehouserat.md) | Enemy | 5 | 7 | 1 | 50 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_0.png){ .sprite } | [Cute dog puppy](guynmart_dog_puppy.md) | Enemy | 6 | 8 | 2 | 90 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_1.png){ .sprite } | [Small rabid dog](small_rabid_dog.md) | Enemy | 6 | 8 | 2 | 90 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Catacomb rat](catacomb_rat.md) | Enemy | 15 | 19 | 1 | 60 | 40 | 0 |
+| ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } | [Angry weak fungi](weak_fungi_1.md) | Enemy | 20 | 20 | 1 to 2 | 70 | 8 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Dungeon rat](guynmart_rat.md) | Enemy | 20 | 28 | 2 to 4 | 100 | 10 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Rabid boar](rabid_boar.md) | Enemy | 20 | 33 | 3 | 110 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } | [Strong cave rat](strong_cave_rat.md) | Enemy | 20 | 28 | 2 to 4 | 100 | 10 | 0 |
+| ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } | [Weak fungi](weak_fungi.md) | Enemy | 20 | 23 | 1 to 2 | 110 | 10 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Wild boar](wild_boar.md) | Enemy | 20 | 33 | 3 | 110 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } | [Large catacomb rat](large_catacomb_rat.md) | Enemy | 21 | 28 | 1 to 2 | 60 | 40 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } | [Large cave rat](large_cave_rat.md) | Enemy | 21 | 37 | 3 to 4 | 60 | 40 | 0 |
+| ![](../assets/icons/monsters/monsters_gisons_4.png){ .sprite } | [Fungi](mid_fungi.md) | Enemy | 25 | 83 | 2 to 3 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Hunting dog](hunting_dog.md) | Enemy | 25 | 36 | 2 to 5 | 60 | 50 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Rabid fox](rabid_fox.md) | Enemy | 25 | 39 | 3 | 100 | 50 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wild fox](wild_fox.md) | Enemy | 25 | 44 | 4 to 5 | 100 | 40 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik4_0.png){ .sprite } | [Gray cave bat](cavebat1.md) | Enemy | 28 | 103 | 3 to 5 | 56 | 32 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles1_150.png){ .sprite } | [Cave jelly](cave_jelly.md) | Enemy | 30 | 137 | 4 to 9 | 125 | 70 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_111.png){ .sprite } | [Cave teckel](ratdom_m9b.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite } | [Cave wolf](ratdom_m9c.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_eye2_0.png){ .sprite } | [Curious roundling](ratdom_m13b.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_76.png){ .sprite } | [Dangerous elvedridge](ratdom_m8b.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_80.png){ .sprite } | [Elvedridge](ratdom_m8a.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite } | [Giant hornbat](ratdom_m9a.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } | [Great dark wolf](blornvale_wolf.md) | Enemy | 30 | 30 | 1 to 3 | 50 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles1_138.png){ .sprite } | [Lombric ball](lombric_ball.md) | Enemy | 30 | 42 | 1 to 15 | 50 | 60 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles1_57.png){ .sprite } | [Lombric beast](lombric_beast.md) | Enemy | 30 | 47 | 3 to 10 | 70 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_55.png){ .sprite } | [Mountain Sheep](bwm_sheep1.md) | NPC/Enemy | 30 | 33 | 1 to 5 | 60 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_167.png){ .sprite } | [Quick lombric ball](lombric_ball3.md) | Enemy | 30 | 64 | 3 to 20 | 60 | 65 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Wolf](wolf.md) | Enemy | 30 | 49 | 3 to 6 | 110 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_eye1_0.png){ .sprite } | [Young roundling](ratdom_m13a.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Anklebiter](anklebiter.md) | Enemy | 31 | 92 | 3 to 9 | 150 | 60 | 3 |
+| ![](../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite } | [Vicious hound](vicious_hound.md) | Enemy | 31 | 92 | 3 to 9 | 150 | 60 | 3 |
+| ![](../assets/icons/monsters/monsters_rltiles4_4.png){ .sprite } | [Young forest fox](forestfox2.md) | Enemy | 31 | 84 | 0 to 5 | 72 | 46 | 4 |
+| ![](../assets/icons/monsters/monsters_tometik4_0.png){ .sprite } | [Black cave bat](cavebat2.md) | Enemy | 32 | 111 | 2 to 6 | 59 | 35 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Ancient wolf](lonely_wolf.md) | Enemy | 35 | 53 | 3 to 6 | 110 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_gisons_4.png){ .sprite } | [Angry fungi](mid_fungi_1.md) | Enemy | 35 | 92 | 3 to 6 | 80 | 8 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Cave dwelling boar](cave_dwelling_boar.md) | Enemy | 35 | 75 | 3 to 8 | 70 | 60 | 3 |
+| ![](../assets/icons/monsters/monsters_rltiles4_4.png){ .sprite } | [Forest fox](forestfox3.md) | Enemy | 35 | 90 | 0 to 5 | 75 | 49 | 4 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Young wolf](young_wolf.md) | Enemy | 35 | 58 | 2 to 5 | 60 | 30 | 2 |
+| ![](../assets/icons/monsters/monsters_tometik4_2.png){ .sprite } | [Brown cave bat](cavebat3.md) | Enemy | 36 | 121 | 1 to 7 | 62 | 25 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik4_56.png){ .sprite } | [Small horned anklebiter](anklebiter2.md) | Enemy | 38 | 78 | 3 to 7 | 96 | 53 | 1 |
+| ![](../assets/icons/monsters/monsters_tometik4_2.png){ .sprite } | [Cave bat](cavebat4.md) | Enemy | 39 | 127 | 1 to 7 | 64 | 27 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles4_9.png){ .sprite } | [Tough redfoot beast](redft0.md) | Enemy | 39 | 98 | 0 to 5 | 78 | 52 | 4 |
+| ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } | [Rabid hound](rabid_hound.md) | Enemy | 40 | 65 | 3 to 9 | 110 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wild dog](guynmart_dog2a.md) | Enemy | 40 | 65–69 | 3 to 9 | 110 | 30 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wolfhound](hettar_dog.md) | NPC/Enemy | 40 | 117 | 1 to 8 | 80 | 150 | 5 |
+| ![](../assets/icons/monsters/monsters_tometik4_4.png){ .sprite } | [Aggressive cave bat](cavebat5.md) | Enemy | 41 | 137 | 1 to 7 | 69 | 32 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Fledgling wolf](fledgling_wolf.md) | Enemy | 42 | 79 | 2 to 5 | 70 | 50 | 3 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Rabid wolf](rabid_wolf.md) | Enemy | 42 | 79 | 2 to 6 | 90 | 50 | 3 |
+| ![](../assets/icons/monsters/monsters_rltiles4_9.png){ .sprite } | [Strong redfoot beast](redft1.md) | Enemy | 43 | 105 | 0 to 5 | 81 | 56 | 4 |
+| ![](../assets/icons/monsters/monsters_gisons_5.png){ .sprite } | [Angry dangerous fungi](dangerous_fungi_1.md) | Enemy | 45 | 102 | 3 to 6 | 90 | 10 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Mountain wolf pup](mwolf_1.md) | Enemy | 45 | 82 | 2 to 7 | 80 | 40 | 3 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Pack hunter](pack_hunter.md) | Enemy | 45 | 84 | 2 to 7 | 90 | 40 | 3 |
+| ![](../assets/icons/monsters/monsters_tometik4_55.png){ .sprite } | [Young horned anklebiter](anklebiter3.md) | Enemy | 46 | 112 | 5 to 7 | 112 | 61 | 2 |
+| ![](../assets/icons/monsters/monsters_rltiles4_10.png){ .sprite } | [Bloodthirsty redfoot beast](redft2.md) | Enemy | 47 | 122 | 0 to 5 | 84 | 75 | 4 |
+| ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } | [Mountain wolf](mountain_wolf.md) | Enemy | 49 | 112 | 3 to 9 | 150 | 60 | 3 |
+| ![](../assets/icons/monsters/monsters_rltiles4_7.png){ .sprite } | [Alpha fox](alpha_fox.md) | Enemy | 50 | 78 | 4 to 7 | 130 | 35 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } | [Korvan the leader of the wolves](wolf_leader.md) | Enemy | 50 | 78 | 4 to 7 | 130 | 35 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles1_139.png){ .sprite } | [Mature lombric ball](lombric_ball2.md) | Enemy | 50 | 77 | 5 to 20 | 70 | 65 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik4_55.png){ .sprite } | [Fast horned anklebiter](anklebiter4.md) | Enemy | 52 | 129 | 1 to 9 | 129 | 68 | 3 |
+| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Young mountain wolf](mwolf_2.md) | Enemy | 52 | 92 | 3 to 7 | 80 | 44 | 3 |
+| ![](../assets/icons/monsters/monsters_gisons_5.png){ .sprite } | [Dangerous fungi](dangerous_fungi.md) | Enemy | 55 | 108 | 2 to 5 | 35 | 35 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Young mountain fox](mwolf_3.md) | Enemy | 56 | 104 | 3 to 7 | 80 | 48 | 4 |
+| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Mountain fox](mwolf_4.md) | Enemy | 60 | 113 | 3 to 8 | 85 | 52 | 4 |
+| ![](../assets/icons/monsters/monsters_rltiles2_21.png){ .sprite } | [Dun olm](bwm_olm1.md) | Enemy | 61 | 196 | 5 to 10 | 110 | 130 | 6 |
+| ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } | [Trained mountain wolf](mountain_wolf_2.md) | Enemy | 61 | 146 | 5 to 11 | 155 | 75 | 3 |
+| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Ferocious mountain fox](mwolf_5.md) | Enemy | 64 | 136 | 3 to 8 | 85 | 54 | 5 |
+| ![](../assets/icons/monsters/monsters_tometik4_52.png){ .sprite } | [Tough horned anklebiter](anklebiter5.md) | Enemy | 64 | 160 | 3 to 9 | 137 | 76 | 3 |
+| ![](../assets/icons/monsters/monsters_dogs_5.png){ .sprite } | [Pack leader](pack_leader.md) | Enemy | 65 | 121 | 2 to 10 | 90 | 40 | 4 |
+| ![](../assets/icons/monsters/monsters_omi2_9.png){ .sprite } | [Albino olm](bwm_olm2.md) | Enemy | 66 | 231 | 7 to 10 | 117 | 133 | 8 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Rabid mountain wolf](mwolf_6.md) | Enemy | 67 | 146 | 3 to 9 | 90 | 56 | 5 |
+| ![](../assets/icons/monsters/monsters_rltiles2_22.png){ .sprite } | [Hard-skinned olm](bwm_olm3.md) | Enemy | 68 | 227 | 5 to 10 | 103 | 140 | 9 |
+| ![](../assets/icons/monsters/monsters_rltiles2_107.png){ .sprite } | [Reckless mountain wolf](mountain_wolf_4.md) | Enemy | 68 | 200 | 6 to 14 | 175 | 60 | 2 |
+| ![](../assets/icons/monsters/monsters_rltiles1_50.png){ .sprite } | [Cave mole](ratdom_maze_mole.md) | NPC/Enemy | 70 | 157 | 8 to 15 | 120 | 0 | 0 |
+| ![](../assets/icons/monsters/monsters_redshrike1_6.png){ .sprite } | [Venomous beach crawler](beach_crawler_1.md) | Enemy | 70 | 131 | 2 to 8 | 70 | 35 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Strong mountain wolf](mwolf_7.md) | Enemy | 73 | 159–205 | 3 to 17 | 90–160 | 57–80 | 4–6 |
+| ![](../assets/icons/monsters/monsters_rltiles2_20.png){ .sprite } | [Blackened olm](bwm_olm4.md) | Enemy | 75 | 261 | 8 to 11 | 120 | 135 | 7 |
+| ![](../assets/icons/monsters/monsters_rltiles2_162.png){ .sprite } | [Contaminated woodworm](elm_woodworm.md) | Enemy | 76 | 292 | 6 to 9 | 90 | 144 | 7 |
+| ![](../assets/icons/monsters/monsters_tometik4_52.png){ .sprite } | [Strong horned anklebiter](anklebiter6.md) | Enemy | 76 | 198 | 1 to 13 | 151 | 85 | 3 |
+| ![](../assets/icons/monsters/monsters_rltiles2_146.png){ .sprite } | [Pup rat](young_church_rat.md) | Enemy | 77 | 125 | 5 to 7 | 71 | 81 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Ferocious mountain wolf](mwolf_8.md) | Enemy | 78 | 169 | 3 to 10 | 90 | 59 | 6 |
+| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Basement rat](lonelyhouse_sp.md) | Enemy | 79 | 224 | 2 to 9 | 125 | 180 | 4 |
+| ![](../assets/icons/monsters/monsters_rltiles2_162.png){ .sprite } | [Aggresive woodworm](elm_woodworm2.md) | Enemy | 80 | 309 | 7 to 10 | 94 | 139 | 7 |
+| ![](../assets/icons/monsters/monsters_rltiles2_148.png){ .sprite } | [Brown church rat](brown_church_rat.md) | Enemy | 86 | 152 | 7 to 9 | 79 | 86 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles2_23.png){ .sprite } | [Contaminated olm](bwm_olm5.md) | Enemy | 90 | 294 | 6 to 14 | 133 | 146 | 8 |
+| ![](../assets/icons/monsters/monsters_tometik4_70.png){ .sprite } | [Duleian mountain cat](duleian_mountain_cat.md) | Enemy | 97 | 390 | 7 to 19 | 225 | 101 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik5_26.png){ .sprite } | [Muskrat](brightport_squirrel.md) | Enemy | 100 | 224 | 6 to 15 | 120 | 80 | 2 |
+| ![](../assets/icons/monsters/monsters_tometik4_3.png){ .sprite } | [Three-eyed bat](three_eyed_bat.md) | Enemy | 108 | 356 | 16 to 17 | 165 | 189 | 0 |
+| ![](../assets/icons/monsters/monsters_newb_1_259.png){ .sprite } | [Young murkcrawler](young_murkcrawler.md) | Enemy | 117 | 293 | 7 to 11 | 159 | 83 | 6 |
+| ![](../assets/icons/monsters/monsters_johny_9.png){ .sprite } | [Forest fawn](brightport_sickfawn.md) | Enemy | 120 | 261 | 3 to 13 | 165 | 144 | 4 |
+| ![](../assets/icons/monsters/monsters_newb_1_260.png){ .sprite } | [Murkcrawler](murkcrawler.md) | Enemy | 122 | 324 | 9 to 11 | 159 | 89 | 7 |
+| ![](../assets/icons/monsters/monsters_tometik4_51.png){ .sprite } | [Steelhide horned anklebiter](anklebiter7.md) | Enemy | 124 | 303 | 4 to 11 | 162 | 92 | 7 |
+| ![](../assets/icons/monsters/monsters_rltiles2_71.png){ .sprite } | [Gravewing](undertell_bat.md) | Enemy | 138 | 561 | 16 to 17 | 165 | 205 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik5_27.png){ .sprite } | [Rash Muskrat](brightport_squirrel2.md) | Enemy | 140 | 402 | 6 to 19 | 205 | 120 | 2 |
+| ![](../assets/icons/monsters/monsters_johny_10.png){ .sprite } | [Virulent forest fawn](brightport_fawn.md) | Enemy | 144 | 403 | 7 to 14 | 176 | 182 | 4 |
+| ![](../assets/icons/monsters/monsters_newb_1_278.png){ .sprite } | [Aroughcun kit](aroughcun_kit.md) | Enemy | 155 | 527 | 10 to 15 | 191 | 176 | 9 |
+| ![](../assets/icons/monsters/monsters_tometik8_59.png){ .sprite } | [King Rah](ratdom_king_rah.md) | Enemy | 160 | 252 | 20 to 30 | 60 | 40 | 0 |
+| ![](../assets/icons/monsters/monsters_rats_2.png){ .sprite } | [Kriih](ratdom_kriih.md) | NPC/Enemy | 160 | 198 | 20 to 30 | 40 | 20 | 0 |
+| ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } | [Mushroom guardian](guardian_mushroom.md) | NPC/Enemy | 160 | 286 | 3 to 8 | 120 | 60 | 0 |
+| ![](../assets/icons/monsters/monsters_newb_1_276.png){ .sprite } | [Agile aroughcun](aroughcun_agile.md) | Enemy | 168 | 661 | 10 to 15 | 191 | 170 | 9 |
+| ![](../assets/icons/monsters/monsters_newb_1_275.png){ .sprite } | [Scardy aroughcun](scardy_aroughcun.md) | Enemy | 170 | 574 | 12 to 17 | 191 | 176 | 9 |
+| ![](../assets/icons/monsters/monsters_bosses_2x2_0.png){ .sprite } | [Great fungi](boss_fungi.md) | Enemy | 175 | 316 | 3 to 6 | 120 | 60 | 1 |
+| ![](../assets/icons/monsters/monsters_newb_1_274.png){ .sprite } | [Sow aroughcun](aroughcun_sow.md) | Enemy | 175 | 599 | 12 to 17 | 191 | 176 | 9 |
+| ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } | [Enraged Scylla](scylla_c1.md) | Enemy | 180 | 7,573 | 1 to 15 | 500 | 5000 | 100 |
+| ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } | [Furious Scylla](scylla_b1.md) | Enemy | 180 | 1,972 | 1 to 15 | 250 | 600 | 150 |
+| ![](../assets/icons/monsters/monsters_newb_1_305.png){ .sprite } | [Ridgehowler](ridgehowler.md) | Enemy | 180 | 538 | 19 | 150 | 205 | 0 |
+| ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } | [Scylla](scylla_1.md) | Enemy | 180 | 1,442 | 1 | 250 | 500 | 100 |
+| ![](../assets/icons/monsters/monsters_newb_3_20.png){ .sprite } | [Taurophag](taurophag.md) | Enemy | 180 | 410 | 20 to 40 | 150 | 100 | 10 |
+| ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } | [Galmore wolf's pup](mg2_wolves_pup.md) | NPC/Enemy | 187 | 459 | 10 to 13 | 156 | 187 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } | [Orphaned warg pup](orphaned_warg_pup.md) | Enemy | 187 | 459 | 10 to 13 | 156 | 187 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } | [Warg pup](warg_pup.md) | Enemy | 187 | 459 | 10 to 13 | 156 | 187 | 0 |
+| ![](../assets/icons/monsters/monsters_newb_1_284.png){ .sprite } | [Nightfur rat](nightfur_rat.md) | Enemy | 194 | 531 | 8 to 12 | 98 | 185 | 5 |
+| ![](../assets/icons/monsters/monsters_tometik1_83.png){ .sprite } | [Harrowback](harrowback.md) | Enemy | 197 | 488 | 10 to 11 | 201 | 125 | 0 |
+| ![](../assets/icons/monsters/monsters_tometik1_84.png){ .sprite } | [Mutated harrowback](mutated_harrowback.md) | Enemy | 197 | 519 | 10 to 13 | 201 | 135 | 0 |
+| ![](../assets/icons/monsters/monsters_newb_1_275.png){ .sprite } | [Aroughcun](aroughcun.md) | Enemy | 204 | 670 | 13 to 18 | 191 | 176 | 9 |
+| ![](../assets/icons/monsters/monsters_newb_1_283.png){ .sprite } | [Ny'Ratees](nyratees.md) | Enemy | 207 | 585 | 10 to 15 | 103 | 200 | 3 |
+| ![](../assets/icons/monsters/monsters_johny_11.png){ .sprite } | [Forest deer](brightport_sickdeer.md) | Enemy | 212 | 449 | 6 to 16 | 168 | 148 | 6 |
+| ![](../assets/icons/monsters/monsters_tometik4_67.png){ .sprite } | [Duleian panther](brightport_cat2.md) | Enemy | 220 | 781 | 14 to 25 | 203 | 180 | 4 |
+| ![](../assets/icons/monsters/monsters_newb_1_250.png){ .sprite } | [Stoneclaw prowler](stoneclaw_prowler.md) | Enemy | 230 | 596 | 8 to 9 | 130 | 170 | 1 |
+| ![](../assets/icons/monsters/monsters_newb_1_281.png){ .sprite } | [Dreadmane](dreadmane.md) | Enemy | 235 | 709 | 15 to 21 | 187 | 166 | 2 |
+| ![](../assets/icons/monsters/monsters_johny_12.png){ .sprite } | [Virulent forest deer](brightport_deer.md) | Enemy | 240 | 587 | 8 to 19 | 182 | 154 | 8 |
+| ![](../assets/icons/monsters/monsters_rltiles2_21.png){ .sprite } | [Giant snake](giant_snake.md) | Enemy | 250 | 510 | 8 to 22 | 150 | 60 | 12 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Galmore wolf](mg2_wolves.md) | NPC/Enemy | 251 | 679 | 15 to 20 | 177 | 153 | 0 |
+| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Warg](warg.md) | Enemy | 251 | 679 | 15 to 20 | 177 | 153 | 0 |
+| ![](../assets/icons/monsters/monsters_newb_1_48.png){ .sprite } | [Charwood goblin hogrider](brightport_goblin.md) | Enemy | 280 | 623 | 15 to 27 | 200 | 110 | 4 |
+| ![](../assets/icons/monsters/monsters_johny_13.png){ .sprite } | [Elder deer](brightport_elderdeer.md) | Enemy | 293 | 800 | 8 to 22 | 192 | 229 | 8 |
+| ![](../assets/icons/monsters/monsters_newb_1_216.png){ .sprite } | [Rubycrest strider](rubycrest_strider.md) | Enemy | 293 | 1,065 | 6 to 18 | 175 | 280 | 10 |
+| ![](../assets/icons/monsters/monsters_newb_1_242.png){ .sprite } | [Aggressive bear](cave_bear.md) | Enemy | 297 | 601 | 14 to 20 | 165 | 127 | 0 |
+| ![](../assets/icons/monsters/monsters_newb_3_2.png){ .sprite } | [Dorhantarh](lae_island_boss.md) | NPC/Enemy | 297 | 752 | 24 to 50 | 165 | 127 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles4_2.png){ .sprite } | [Golden jackal](golden_jackal.md) | Enemy | 345 | 745 | 8 to 16 | 175 | 100 | 0 |
+| ![](../assets/icons/monsters/monsters_rltiles4_10.png){ .sprite } | [Vicious redfoot beast](redft_cr.md) | Enemy | 347 | 521 | 0 to 9 | 84 | 75 | 4 |
+
+<h3 id="enemies-humanoid">Humanoid (138)</h3>
+
+| | Name | Type | HP | XP | Damage | AC | BC | DR |
+|---|---|---|---|---|---|---|---|---|
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Prisoner](prisoner.md) | Enemy | 1 | 1 | 0 | 0 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_1_124.png){ .sprite } | [Ysrine](ysrine.md) | NPC/Enemy | 1 | 1 | 0 | 0 | 0 | 0 |
 | ![](../assets/icons/monsters/monsters_misc_11.png){ .sprite } | [Starving prisoner](starving_prisoner.md) | NPC/Enemy | 10 | 27 | 3 to 5 | 60 | 60 | 0 |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Escaped prisoner](escaped_prisoner.md) | NPC/Enemy | 15 | 18 | 3 to 7 | 50 | 20 | 0 |
 | ![](../assets/icons/monsters/monsters_ld1_133.png){ .sprite } | [Gambler](brv_blackjack_gambler1.md) | NPC/Enemy | 25 | 36–48 | 1 to 5 | 70–80 | 40–80 | 0–1 |
@@ -164,151 +306,6 @@ Grouped by class, then sorted by HP, weakest first ~~the ones at the bottom are 
 | ![](../assets/icons/monsters/monsters_newb_1_22.png){ .sprite } | [Grimmthorn marauder](grimmthorn_marauder.md) | Enemy | 369 | 562 | 8 to 9 | 173 | 65 | 9 |
 | ![](../assets/icons/monsters/monsters_newb_1_20.png){ .sprite } | [Dirty grimmthorn marauder](dirty_grimmthorn_marauder.md) | NPC/Enemy | 370 | 606 | 9 | 189 | 77 | 9 |
 | ![](../assets/icons/monsters/monsters_tometik1_21.png){ .sprite } | [Morkin elder](morkin_cr.md) | Enemy | 375 | 755 | 0 to 5 | 139 | 163 | 0 |
-
-<h3 id="enemies-animal">Animal (140)</h3>
-
-| | Name | Type | HP | XP | Damage | AC | BC | DR |
-|---|---|---|---|---|---|---|---|---|
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Fraedro](ratdom_fraedro.md) | NPC/Enemy | 1 | 1 | 20 to 30 | 0 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Tiny rat](tiny_rat.md) | NPC/Enemy | 2 | 3 | 1 | 50 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Cave rat](cave_rat.md) | Enemy | 5 | 7–8 | 1 to 2 | 50–90 | 0–30 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Rat](vermin0.md) | Enemy | 5 | 7 | 1 | 50 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_johny_24.png){ .sprite } | [Reindeer](reindeer.md) | Enemy | 5 | 39 | 0 | 1 | 999 | 0 |
-| ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } | [Sheep](sheep1.md) | NPC/Enemy | 5 | 4 | 0 to 1 | 10 | 5 | 0 |
-| ![](../assets/icons/monsters/monsters_ld2_188.png){ .sprite } | [Slime](ratdom_maze_slime.md) | Enemy | 5 | 126 | 8 to 18 | 130 | 40 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Tough cave rat](tough_cave_rat.md) | Enemy | 5 | 15 | 3 | 90 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Warehouse rat](puny_warehouserat.md) | Enemy | 5 | 7 | 1 | 50 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_0.png){ .sprite } | [Cute dog puppy](guynmart_dog_puppy.md) | Enemy | 6 | 8 | 2 | 90 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_1.png){ .sprite } | [Small rabid dog](small_rabid_dog.md) | Enemy | 6 | 8 | 2 | 90 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Catacomb rat](catacomb_rat.md) | Enemy | 15 | 19 | 1 | 60 | 40 | 0 |
-| ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } | [Angry weak fungi](weak_fungi_1.md) | Enemy | 20 | 20 | 1 to 2 | 70 | 8 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Dungeon rat](guynmart_rat.md) | Enemy | 20 | 28 | 2 to 4 | 100 | 10 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Rabid boar](rabid_boar.md) | Enemy | 20 | 33 | 3 | 110 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } | [Strong cave rat](strong_cave_rat.md) | Enemy | 20 | 28 | 2 to 4 | 100 | 10 | 0 |
-| ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } | [Weak fungi](weak_fungi.md) | Enemy | 20 | 23 | 1 to 2 | 110 | 10 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Wild boar](wild_boar.md) | Enemy | 20 | 33 | 3 | 110 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } | [Large catacomb rat](large_catacomb_rat.md) | Enemy | 21 | 28 | 1 to 2 | 60 | 40 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } | [Large cave rat](large_cave_rat.md) | Enemy | 21 | 37 | 3 to 4 | 60 | 40 | 0 |
-| ![](../assets/icons/monsters/monsters_gisons_4.png){ .sprite } | [Fungi](mid_fungi.md) | Enemy | 25 | 83 | 2 to 3 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Hunting dog](hunting_dog.md) | Enemy | 25 | 36 | 2 to 5 | 60 | 50 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Rabid fox](rabid_fox.md) | Enemy | 25 | 39 | 3 | 100 | 50 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wild fox](wild_fox.md) | Enemy | 25 | 44 | 4 to 5 | 100 | 40 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik4_0.png){ .sprite } | [Gray cave bat](cavebat1.md) | Enemy | 28 | 103 | 3 to 5 | 56 | 32 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles1_150.png){ .sprite } | [Cave jelly](cave_jelly.md) | Enemy | 30 | 137 | 4 to 9 | 125 | 70 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_111.png){ .sprite } | [Cave teckel](ratdom_m9b.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite } | [Cave wolf](ratdom_m9c.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_eye2_0.png){ .sprite } | [Curious roundling](ratdom_m13b.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_76.png){ .sprite } | [Dangerous elvedridge](ratdom_m8b.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_80.png){ .sprite } | [Elvedridge](ratdom_m8a.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite } | [Giant hornbat](ratdom_m9a.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } | [Great dark wolf](blornvale_wolf.md) | Enemy | 30 | 30 | 1 to 3 | 50 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles1_138.png){ .sprite } | [Lombric ball](lombric_ball.md) | Enemy | 30 | 42 | 1 to 15 | 50 | 60 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles1_57.png){ .sprite } | [Lombric beast](lombric_beast.md) | Enemy | 30 | 47 | 3 to 10 | 70 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_55.png){ .sprite } | [Mountain Sheep](bwm_sheep1.md) | NPC/Enemy | 30 | 33 | 1 to 5 | 60 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_167.png){ .sprite } | [Quick lombric ball](lombric_ball3.md) | Enemy | 30 | 64 | 3 to 20 | 60 | 65 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Wolf](wolf.md) | Enemy | 30 | 49 | 3 to 6 | 110 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_eye1_0.png){ .sprite } | [Young roundling](ratdom_m13a.md) | Enemy | 30 | 67 | 5 | 110 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Anklebiter](anklebiter.md) | Enemy | 31 | 92 | 3 to 9 | 150 | 60 | 3 |
-| ![](../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite } | [Vicious hound](vicious_hound.md) | Enemy | 31 | 92 | 3 to 9 | 150 | 60 | 3 |
-| ![](../assets/icons/monsters/monsters_rltiles4_4.png){ .sprite } | [Young forest fox](forestfox2.md) | Enemy | 31 | 84 | 0 to 5 | 72 | 46 | 4 |
-| ![](../assets/icons/monsters/monsters_tometik4_0.png){ .sprite } | [Black cave bat](cavebat2.md) | Enemy | 32 | 111 | 2 to 6 | 59 | 35 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Ancient wolf](lonely_wolf.md) | Enemy | 35 | 53 | 3 to 6 | 110 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_gisons_4.png){ .sprite } | [Angry fungi](mid_fungi_1.md) | Enemy | 35 | 92 | 3 to 6 | 80 | 8 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } | [Cave dwelling boar](cave_dwelling_boar.md) | Enemy | 35 | 75 | 3 to 8 | 70 | 60 | 3 |
-| ![](../assets/icons/monsters/monsters_rltiles4_4.png){ .sprite } | [Forest fox](forestfox3.md) | Enemy | 35 | 90 | 0 to 5 | 75 | 49 | 4 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Young wolf](young_wolf.md) | Enemy | 35 | 58 | 2 to 5 | 60 | 30 | 2 |
-| ![](../assets/icons/monsters/monsters_tometik4_2.png){ .sprite } | [Brown cave bat](cavebat3.md) | Enemy | 36 | 121 | 1 to 7 | 62 | 25 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik4_56.png){ .sprite } | [Small horned anklebiter](anklebiter2.md) | Enemy | 38 | 78 | 3 to 7 | 96 | 53 | 1 |
-| ![](../assets/icons/monsters/monsters_tometik4_2.png){ .sprite } | [Cave bat](cavebat4.md) | Enemy | 39 | 127 | 1 to 7 | 64 | 27 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles4_9.png){ .sprite } | [Tough redfoot beast](redft0.md) | Enemy | 39 | 98 | 0 to 5 | 78 | 52 | 4 |
-| ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } | [Rabid hound](rabid_hound.md) | Enemy | 40 | 65 | 3 to 9 | 110 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wild dog](guynmart_dog2a.md) | Enemy | 40 | 65–69 | 3 to 9 | 110 | 30 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Wolfhound](hettar_dog.md) | NPC/Enemy | 40 | 117 | 1 to 8 | 80 | 150 | 5 |
-| ![](../assets/icons/monsters/monsters_tometik4_4.png){ .sprite } | [Aggressive cave bat](cavebat5.md) | Enemy | 41 | 137 | 1 to 7 | 69 | 32 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Fledgling wolf](fledgling_wolf.md) | Enemy | 42 | 79 | 2 to 5 | 70 | 50 | 3 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Rabid wolf](rabid_wolf.md) | Enemy | 42 | 79 | 2 to 6 | 90 | 50 | 3 |
-| ![](../assets/icons/monsters/monsters_rltiles4_9.png){ .sprite } | [Strong redfoot beast](redft1.md) | Enemy | 43 | 105 | 0 to 5 | 81 | 56 | 4 |
-| ![](../assets/icons/monsters/monsters_gisons_5.png){ .sprite } | [Angry dangerous fungi](dangerous_fungi_1.md) | Enemy | 45 | 102 | 3 to 6 | 90 | 10 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Mountain wolf pup](mwolf_1.md) | Enemy | 45 | 82 | 2 to 7 | 80 | 40 | 3 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Pack hunter](pack_hunter.md) | Enemy | 45 | 84 | 2 to 7 | 90 | 40 | 3 |
-| ![](../assets/icons/monsters/monsters_tometik4_55.png){ .sprite } | [Young horned anklebiter](anklebiter3.md) | Enemy | 46 | 112 | 5 to 7 | 112 | 61 | 2 |
-| ![](../assets/icons/monsters/monsters_rltiles4_10.png){ .sprite } | [Bloodthirsty redfoot beast](redft2.md) | Enemy | 47 | 122 | 0 to 5 | 84 | 75 | 4 |
-| ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } | [Mountain wolf](mountain_wolf.md) | Enemy | 49 | 112 | 3 to 9 | 150 | 60 | 3 |
-| ![](../assets/icons/monsters/monsters_rltiles4_7.png){ .sprite } | [Alpha fox](alpha_fox.md) | Enemy | 50 | 78 | 4 to 7 | 130 | 35 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } | [Korvan the leader of the wolves](wolf_leader.md) | Enemy | 50 | 78 | 4 to 7 | 130 | 35 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles1_139.png){ .sprite } | [Mature lombric ball](lombric_ball2.md) | Enemy | 50 | 77 | 5 to 20 | 70 | 65 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik4_55.png){ .sprite } | [Fast horned anklebiter](anklebiter4.md) | Enemy | 52 | 129 | 1 to 9 | 129 | 68 | 3 |
-| ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } | [Young mountain wolf](mwolf_2.md) | Enemy | 52 | 92 | 3 to 7 | 80 | 44 | 3 |
-| ![](../assets/icons/monsters/monsters_gisons_5.png){ .sprite } | [Dangerous fungi](dangerous_fungi.md) | Enemy | 55 | 108 | 2 to 5 | 35 | 35 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Young mountain fox](mwolf_3.md) | Enemy | 56 | 104 | 3 to 7 | 80 | 48 | 4 |
-| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Mountain fox](mwolf_4.md) | Enemy | 60 | 113 | 3 to 8 | 85 | 52 | 4 |
-| ![](../assets/icons/monsters/monsters_rltiles2_21.png){ .sprite } | [Dun olm](bwm_olm1.md) | Enemy | 61 | 196 | 5 to 10 | 110 | 130 | 6 |
-| ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } | [Trained mountain wolf](mountain_wolf_2.md) | Enemy | 61 | 146 | 5 to 11 | 155 | 75 | 3 |
-| ![](../assets/icons/monsters/monsters_dogs_2.png){ .sprite } | [Ferocious mountain fox](mwolf_5.md) | Enemy | 64 | 136 | 3 to 8 | 85 | 54 | 5 |
-| ![](../assets/icons/monsters/monsters_tometik4_52.png){ .sprite } | [Tough horned anklebiter](anklebiter5.md) | Enemy | 64 | 160 | 3 to 9 | 137 | 76 | 3 |
-| ![](../assets/icons/monsters/monsters_dogs_5.png){ .sprite } | [Pack leader](pack_leader.md) | Enemy | 65 | 121 | 2 to 10 | 90 | 40 | 4 |
-| ![](../assets/icons/monsters/monsters_omi2_9.png){ .sprite } | [Albino olm](bwm_olm2.md) | Enemy | 66 | 231 | 7 to 10 | 117 | 133 | 8 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Rabid mountain wolf](mwolf_6.md) | Enemy | 67 | 146 | 3 to 9 | 90 | 56 | 5 |
-| ![](../assets/icons/monsters/monsters_rltiles2_22.png){ .sprite } | [Hard-skinned olm](bwm_olm3.md) | Enemy | 68 | 227 | 5 to 10 | 103 | 140 | 9 |
-| ![](../assets/icons/monsters/monsters_rltiles2_107.png){ .sprite } | [Reckless mountain wolf](mountain_wolf_4.md) | Enemy | 68 | 200 | 6 to 14 | 175 | 60 | 2 |
-| ![](../assets/icons/monsters/monsters_rltiles1_50.png){ .sprite } | [Cave mole](ratdom_maze_mole.md) | NPC/Enemy | 70 | 157 | 8 to 15 | 120 | 0 | 0 |
-| ![](../assets/icons/monsters/monsters_redshrike1_6.png){ .sprite } | [Venomous beach crawler](beach_crawler_1.md) | Enemy | 70 | 131 | 2 to 8 | 70 | 35 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Strong mountain wolf](mwolf_7.md) | Enemy | 73 | 159–205 | 3 to 17 | 90–160 | 57–80 | 4–6 |
-| ![](../assets/icons/monsters/monsters_rltiles2_20.png){ .sprite } | [Blackened olm](bwm_olm4.md) | Enemy | 75 | 261 | 8 to 11 | 120 | 135 | 7 |
-| ![](../assets/icons/monsters/monsters_rltiles2_162.png){ .sprite } | [Contaminated woodworm](elm_woodworm.md) | Enemy | 76 | 292 | 6 to 9 | 90 | 144 | 7 |
-| ![](../assets/icons/monsters/monsters_tometik4_52.png){ .sprite } | [Strong horned anklebiter](anklebiter6.md) | Enemy | 76 | 198 | 1 to 13 | 151 | 85 | 3 |
-| ![](../assets/icons/monsters/monsters_rltiles2_146.png){ .sprite } | [Pup rat](young_church_rat.md) | Enemy | 77 | 125 | 5 to 7 | 71 | 81 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Ferocious mountain wolf](mwolf_8.md) | Enemy | 78 | 169 | 3 to 10 | 90 | 59 | 6 |
-| ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Basement rat](lonelyhouse_sp.md) | Enemy | 79 | 224 | 2 to 9 | 125 | 180 | 4 |
-| ![](../assets/icons/monsters/monsters_rltiles2_162.png){ .sprite } | [Aggresive woodworm](elm_woodworm2.md) | Enemy | 80 | 309 | 7 to 10 | 94 | 139 | 7 |
-| ![](../assets/icons/monsters/monsters_rltiles2_148.png){ .sprite } | [Brown church rat](brown_church_rat.md) | Enemy | 86 | 152 | 7 to 9 | 79 | 86 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles2_23.png){ .sprite } | [Contaminated olm](bwm_olm5.md) | Enemy | 90 | 294 | 6 to 14 | 133 | 146 | 8 |
-| ![](../assets/icons/monsters/monsters_tometik4_70.png){ .sprite } | [Duleian mountain cat](duleian_mountain_cat.md) | Enemy | 97 | 390 | 7 to 19 | 225 | 101 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik5_26.png){ .sprite } | [Muskrat](brightport_squirrel.md) | Enemy | 100 | 224 | 6 to 15 | 120 | 80 | 2 |
-| ![](../assets/icons/monsters/monsters_tometik4_3.png){ .sprite } | [Three-eyed bat](three_eyed_bat.md) | Enemy | 108 | 356 | 16 to 17 | 165 | 189 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_1_259.png){ .sprite } | [Young murkcrawler](young_murkcrawler.md) | Enemy | 117 | 293 | 7 to 11 | 159 | 83 | 6 |
-| ![](../assets/icons/monsters/monsters_johny_9.png){ .sprite } | [Forest fawn](brightport_sickfawn.md) | Enemy | 120 | 261 | 3 to 13 | 165 | 144 | 4 |
-| ![](../assets/icons/monsters/monsters_newb_1_260.png){ .sprite } | [Murkcrawler](murkcrawler.md) | Enemy | 122 | 324 | 9 to 11 | 159 | 89 | 7 |
-| ![](../assets/icons/monsters/monsters_tometik4_51.png){ .sprite } | [Steelhide horned anklebiter](anklebiter7.md) | Enemy | 124 | 303 | 4 to 11 | 162 | 92 | 7 |
-| ![](../assets/icons/monsters/monsters_rltiles2_71.png){ .sprite } | [Gravewing](undertell_bat.md) | Enemy | 138 | 561 | 16 to 17 | 165 | 205 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik5_27.png){ .sprite } | [Rash Muskrat](brightport_squirrel2.md) | Enemy | 140 | 402 | 6 to 19 | 205 | 120 | 2 |
-| ![](../assets/icons/monsters/monsters_johny_10.png){ .sprite } | [Virulent forest fawn](brightport_fawn.md) | Enemy | 144 | 403 | 7 to 14 | 176 | 182 | 4 |
-| ![](../assets/icons/monsters/monsters_newb_1_278.png){ .sprite } | [Aroughcun kit](aroughcun_kit.md) | Enemy | 155 | 527 | 10 to 15 | 191 | 176 | 9 |
-| ![](../assets/icons/monsters/monsters_tometik8_59.png){ .sprite } | [King Rah](ratdom_king_rah.md) | Enemy | 160 | 252 | 20 to 30 | 60 | 40 | 0 |
-| ![](../assets/icons/monsters/monsters_rats_2.png){ .sprite } | [Kriih](ratdom_kriih.md) | NPC/Enemy | 160 | 198 | 20 to 30 | 40 | 20 | 0 |
-| ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } | [Mushroom guardian](guardian_mushroom.md) | NPC/Enemy | 160 | 286 | 3 to 8 | 120 | 60 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_1_276.png){ .sprite } | [Agile aroughcun](aroughcun_agile.md) | Enemy | 168 | 661 | 10 to 15 | 191 | 170 | 9 |
-| ![](../assets/icons/monsters/monsters_newb_1_275.png){ .sprite } | [Scardy aroughcun](scardy_aroughcun.md) | Enemy | 170 | 574 | 12 to 17 | 191 | 176 | 9 |
-| ![](../assets/icons/monsters/monsters_bosses_2x2_0.png){ .sprite } | [Great fungi](boss_fungi.md) | Enemy | 175 | 316 | 3 to 6 | 120 | 60 | 1 |
-| ![](../assets/icons/monsters/monsters_newb_1_274.png){ .sprite } | [Sow aroughcun](aroughcun_sow.md) | Enemy | 175 | 599 | 12 to 17 | 191 | 176 | 9 |
-| ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } | [Enraged Scylla](scylla_c1.md) | Enemy | 180 | 7,573 | 1 to 15 | 500 | 5000 | 100 |
-| ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } | [Furious Scylla](scylla_b1.md) | Enemy | 180 | 1,972 | 1 to 15 | 250 | 600 | 150 |
-| ![](../assets/icons/monsters/monsters_newb_1_305.png){ .sprite } | [Ridgehowler](ridgehowler.md) | Enemy | 180 | 538 | 19 | 150 | 205 | 0 |
-| ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } | [Scylla](scylla_1.md) | Enemy | 180 | 1,442 | 1 | 250 | 500 | 100 |
-| ![](../assets/icons/monsters/monsters_newb_3_20.png){ .sprite } | [Taurophag](taurophag.md) | Enemy | 180 | 410 | 20 to 40 | 150 | 100 | 10 |
-| ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } | [Galmore wolf's pup](mg2_wolves_pup.md) | NPC/Enemy | 187 | 459 | 10 to 13 | 156 | 187 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } | [Orphaned warg pup](orphaned_warg_pup.md) | Enemy | 187 | 459 | 10 to 13 | 156 | 187 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } | [Warg pup](warg_pup.md) | Enemy | 187 | 459 | 10 to 13 | 156 | 187 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_1_284.png){ .sprite } | [Nightfur rat](nightfur_rat.md) | Enemy | 194 | 531 | 8 to 12 | 98 | 185 | 5 |
-| ![](../assets/icons/monsters/monsters_tometik1_83.png){ .sprite } | [Harrowback](harrowback.md) | Enemy | 197 | 488 | 10 to 11 | 201 | 125 | 0 |
-| ![](../assets/icons/monsters/monsters_tometik1_84.png){ .sprite } | [Mutated harrowback](mutated_harrowback.md) | Enemy | 197 | 519 | 10 to 13 | 201 | 135 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_1_275.png){ .sprite } | [Aroughcun](aroughcun.md) | Enemy | 204 | 670 | 13 to 18 | 191 | 176 | 9 |
-| ![](../assets/icons/monsters/monsters_newb_1_283.png){ .sprite } | [Ny'Ratees](nyratees.md) | Enemy | 207 | 585 | 10 to 15 | 103 | 200 | 3 |
-| ![](../assets/icons/monsters/monsters_johny_11.png){ .sprite } | [Forest deer](brightport_sickdeer.md) | Enemy | 212 | 449 | 6 to 16 | 168 | 148 | 6 |
-| ![](../assets/icons/monsters/monsters_tometik4_67.png){ .sprite } | [Duleian panther](brightport_cat2.md) | Enemy | 220 | 781 | 14 to 25 | 203 | 180 | 4 |
-| ![](../assets/icons/monsters/monsters_newb_1_250.png){ .sprite } | [Stoneclaw prowler](stoneclaw_prowler.md) | Enemy | 230 | 596 | 8 to 9 | 130 | 170 | 1 |
-| ![](../assets/icons/monsters/monsters_newb_1_281.png){ .sprite } | [Dreadmane](dreadmane.md) | Enemy | 235 | 709 | 15 to 21 | 187 | 166 | 2 |
-| ![](../assets/icons/monsters/monsters_johny_12.png){ .sprite } | [Virulent forest deer](brightport_deer.md) | Enemy | 240 | 587 | 8 to 19 | 182 | 154 | 8 |
-| ![](../assets/icons/monsters/monsters_rltiles2_21.png){ .sprite } | [Giant snake](giant_snake.md) | Enemy | 250 | 510 | 8 to 22 | 150 | 60 | 12 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Galmore wolf](mg2_wolves.md) | NPC/Enemy | 251 | 679 | 15 to 20 | 177 | 153 | 0 |
-| ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Warg](warg.md) | Enemy | 251 | 679 | 15 to 20 | 177 | 153 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_1_48.png){ .sprite } | [Charwood goblin hogrider](brightport_goblin.md) | Enemy | 280 | 623 | 15 to 27 | 200 | 110 | 4 |
-| ![](../assets/icons/monsters/monsters_johny_13.png){ .sprite } | [Elder deer](brightport_elderdeer.md) | Enemy | 293 | 800 | 8 to 22 | 192 | 229 | 8 |
-| ![](../assets/icons/monsters/monsters_newb_1_216.png){ .sprite } | [Rubycrest strider](rubycrest_strider.md) | Enemy | 293 | 1,065 | 6 to 18 | 175 | 280 | 10 |
-| ![](../assets/icons/monsters/monsters_newb_1_242.png){ .sprite } | [Aggressive bear](cave_bear.md) | Enemy | 297 | 601 | 14 to 20 | 165 | 127 | 0 |
-| ![](../assets/icons/monsters/monsters_newb_3_2.png){ .sprite } | [Dorhantarh](lae_island_boss.md) | NPC/Enemy | 297 | 752 | 24 to 50 | 165 | 127 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles4_2.png){ .sprite } | [Golden jackal](golden_jackal.md) | Enemy | 345 | 745 | 8 to 16 | 175 | 100 | 0 |
-| ![](../assets/icons/monsters/monsters_rltiles4_10.png){ .sprite } | [Vicious redfoot beast](redft_cr.md) | Enemy | 347 | 521 | 0 to 9 | 84 | 75 | 4 |
 
 <h3 id="enemies-reptile">Reptile (130)</h3>
 
@@ -841,9 +838,9 @@ Grouped by class, then sorted by HP, weakest first ~~the ones at the bottom are 
 
 Can't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) lists them by place.
 
-**Classes:** [Humanoid](#npcs-humanoid) (530) · [Animal](#npcs-animal) (24) · [Undead](#npcs-undead) (17) · [Ghost](#npcs-ghost) (4) · [Construct](#npcs-construct) (3) · [Reptile](#npcs-reptile) (1)
+**Classes:** [Humanoid](#npcs-humanoid) (514) · [Animal](#npcs-animal) (24) · [Undead](#npcs-undead) (17) · [Ghost](#npcs-ghost) (4) · [Construct](#npcs-construct) (3) · [Reptile](#npcs-reptile) (1)
 
-<h3 id="npcs-humanoid">Humanoid (530)</h3>
+<h3 id="npcs-humanoid">Humanoid (514)</h3>
 
 | | Name | Role | Found in |
 |---|---|---|---|
@@ -911,26 +908,6 @@ Can't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) l
 | ![](../assets/icons/monsters/monsters_newb_1_45.png){ .sprite } | [Brenor](brenor.md) | – | Undertell 1 0 |
 | ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } | [Bridge lookout](remgard_bridge.md) | starts [Everything in order](../quests/remgard.md) | Remgard |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Brightport commoner](brightportcitizen.md) | – | Brightport |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_00](brv_wh_item_00.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_01](brv_wh_item_01.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_02](brv_wh_item_02.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_03](brv_wh_item_03.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_04](brv_wh_item_04.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_05](brv_wh_item_05.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_06](brv_wh_item_06.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_07](brv_wh_item_07.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_08](brv_wh_item_08.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_09](brv_wh_item_09.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_20](brv_wh_item_20.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_21](brv_wh_item_21.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_22](brv_wh_item_22.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_23](brv_wh_item_23.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_24](brv_wh_item_24.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_25](brv_wh_item_25.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_26](brv_wh_item_26.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_27](brv_wh_item_27.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_28](brv_wh_item_28.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_29](brv_wh_item_29.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Bryma](brightportnpc7.md) | – | Brightport forest |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Bucus](bucus.md) | starts [Key of Luthor](../quests/bucus.md) | – |
 | ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } | [Builder](stoutford_builder.md) | – | Stoutford |
@@ -1011,6 +988,7 @@ Can't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) l
 | ![](../assets/icons/monsters/monsters_ld1_178.png){ .sprite } | [Evelina](brightportstudent9.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_ld1_135.png){ .sprite } | [Facutloni](brv_wh_boss.md) | starts [Delivery](../quests/brv_wh_delivery.md), [Inventory](../quests/brv_wh.md) | Brimhaven |
 | ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } | [Falothen](falothen0.md) | teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) | Charwood, Tradehouse 0a |
+| ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Fanamor](fanamor.md) | – | Crossroads Guardhouse, Fallhaven |
 | ![](../assets/icons/monsters/monsters_ld1_2.png){ .sprite } | [Fangwurm](fangwurm.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Farmer](farmer.md) | starts [Flows through the veins](../quests/loneford.md) | Crossglen, Crossroads Guardhouse, Remgard, Stoutford |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Farrik](farrik.md) | starts [Night visit](../quests/farrik.md) | Fallhaven |
@@ -1138,6 +1116,7 @@ Can't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) l
 | ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Lediofa](fungi_rescued.md) | – | Mushroom m 3 2, Fallhaven |
 | ![](../assets/icons/monsters/monsters_tometik1_85.png){ .sprite } | [Leofric](leofric.md) | shopkeeper | Foaming Flask Tavern, Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } | [Leorio](brightport_gunfrykassistant.md) | – | Brightport |
+| ![](../assets/icons/monsters/monsters_men_2.png){ .sprite } | [Leta](leta.md) | starts [Missing husband](../quests/leta.md) | – |
 | ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } | [Leta's son](leta_child.md) | – | Crossglen |
 | ![](../assets/icons/monsters/monsters_tometik6_16.png){ .sprite } | [Lethenlor](lethenlor.md) | starts [Destined for great things](../quests/charwood1.md) | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } | [Lethgar miner ghost](lethgar_miner_ghost.md) | – | Undertell 1 1 |
@@ -1355,6 +1334,7 @@ Can't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) l
 | ![](../assets/icons/monsters/monsters_rltiles1_88.png){ .sprite } | [Waeges](waeges.md) | shopkeeper | Blackwater mountain 43 |
 | ![](../assets/icons/monsters/monsters_ld1_162.png){ .sprite } | [Waitress](brv_tavern_west_waitress.md) | shopkeeper | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_75.png){ .sprite } | [Wallach](wallach.md) | – | Loneford |
+| ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [Warehouse storage spot](brv_wh_item_00.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_15.png){ .sprite } | [Warehouse worker](brv_wh_worker.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles3_10.png){ .sprite } | [Wart](ratdom_rat_warden.md) | shopkeeper | Museum |
 | ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } | [Watchdog](brightportthieves4.md) | – | Brightport, Brimhaven |
@@ -1374,6 +1354,7 @@ Can't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) l
 | ![](../assets/icons/monsters/monsters_tometik3_10.png){ .sprite } | [Wulfric](wulfric.md) | – | Wexlow Village |
 | ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Yolgen](yolgen.md) | shopkeeper; starts [Ancient secrets](../quests/flagstone.md) | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } | [Young man](stoutford_commoner5.md) | – | Stoutford |
+| ![](../assets/icons/monsters/monsters_newb_1_124.png){ .sprite } | [Ysrine](ysrine.md) | starts [Dominion](../quests/dominion.md) | Undertell 1 1 |
 | ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } | [Zaccheria](sullengard_zaccheria.md) | shopkeeper; starts [Recovering stolen property](../quests/sullengard_recover_items.md) | Sullengard |
 | ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Zimsko](zimsko.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Zorvan](brv_undertaker.md) | – | Brimhaven church basement |

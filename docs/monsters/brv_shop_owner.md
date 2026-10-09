@@ -12,10 +12,9 @@ description: "Shop Owner is a non-player character (NPC) in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [Honor your parents](../quests/brv_present.md) |
 | **Found in** | Brimhaven |
-| **Entry ID** | `brv_shop_owner` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
@@ -105,16 +104,21 @@ Set your quest stages and items, then talk to Shop Owner. Same rules as the game
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Are you lookng for something in particular?” → “Are you looking for something in particular?” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…”<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…”<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_shop_owner` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_shop_owner` |
     | Loot table | `brv_jewelery` |
     | Conversation | `brv_shop_owner_select` |

@@ -1,5 +1,5 @@
 ---
-description: "Fields 5 is an outdoor location in Andor's Trail, near Guynmart Castle (other). NPCs: Bridge guard. Enemies: Poisonous river frog, Grasslands ant, Tough grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Fields 6, Fields 2, Guynmart wood 11."
+description: "Fields 5 is an outdoor location in Andor's Trail, near Guynmart Castle (other). NPCs: Bridge guard. Enemies: Poisonous river frog, Tough grasslands ant, Grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Fields 6, Fields 2, Guynmart wood 11."
 ---
 
 # Fields 5
@@ -57,8 +57,8 @@ description: "Fields 5 is an outdoor location in Andor's Trail, near Guynmart Ca
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Poisonous river frog](../monsters/frog_3.md) | 21 | 0–5 | 2 | – |
-| [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 2 | shares spawn with Tough grasslands ant |
 | [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 2 | shares spawn with Grasslands ant |
+| [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 2 | shares spawn with Tough grasslands ant |
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 2 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 2 | shares spawn with Grasslands beetle |
 | [Robber](../monsters/guynmart_robber2.md) | 120 | 1–4 | 1 | – |

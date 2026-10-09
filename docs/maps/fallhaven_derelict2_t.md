@@ -53,7 +53,7 @@ description: "Fallhaven derelict 2 t is an indoor location in Andor's Trail, in 
 
 ## NPCs
 
-- [Fanamor](../monsters/fanamor.md) — can be fought — quests: [Thief apprentice](../quests/Thieves01.md) (#3)
+- [Fanamor](../monsters/fanamor.md) — quests: [Thief apprentice](../quests/Thieves01.md) (#3)
 - [Farrik](../monsters/farrik.md) — quests: [Beer Bootlegging](../quests/beer_bootlegging.md), [Night visit](../quests/farrik.md) (#4)
 - [Pickpocket](../monsters/pickpocket.md) (#5)
 - [Smug looking thief](../monsters/smug_looking_thief.md) (#6)

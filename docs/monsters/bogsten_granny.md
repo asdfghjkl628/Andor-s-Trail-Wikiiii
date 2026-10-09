@@ -4,32 +4,23 @@ description: "Undina Bogsten is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } Undina Bogsten
 
+**Where to find Undina Bogsten:** [Mushroom m 2 4](#v-bogsten_granny), [Mushroom m 2 4](#v-bogsten_granny1)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_8.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Mushroom m 2 4 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Undina Bogsten. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: movement. Each entry has its own section below.
+## Mushroom m 2 4 { #v-bogsten_granny }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`bogsten_granny`](#v-bogsten_granny) | NPC | [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny) | – |
-| [`bogsten_granny1`](#v-bogsten_granny1) | NPC | [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1) | – |
-
-## Mushroom m 2 4 (bogsten_granny) { #v-bogsten_granny }
-
-**Entry ID:** `bogsten_granny` · **Type:** NPC
-
-**Location:** [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny)
+**Where:** [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny)
 
 ### Quests
 
@@ -129,39 +120,9 @@ Set your quest stages and items, then talk to Undina Bogsten. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (bogsten_granny)"
+## Mushroom m 2 4 (2) { #v-bogsten_granny1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `bogsten_granny` |
-    | Spawn group | `bogsten_granny` |
-    | Loot table | – |
-    | Conversation | `bogsten_granny` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_gisons:8` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "bogsten_granny",
-     "name": "Undina Bogsten",
-     "iconID": "monsters_gisons:8",
-     "moveCost": 10,
-     "monsterClass": "humanoid",
-     "spawnGroup": "bogsten_granny",
-     "phraseID": "bogsten_granny"
-    }
-    ```
-
-
-## Mushroom m 2 4 (bogsten_granny1) { #v-bogsten_granny1 }
-
-**Entry ID:** `bogsten_granny1` · **Type:** NPC
-
-**Location:** [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1)
+**Where:** [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1)
 
 ### Quests
 
@@ -187,11 +148,52 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (bogsten_granny1)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Undina Bogsten. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `bogsten_granny` | NPC | [Mushroom m 2 4](#v-bogsten_granny) |
+| `bogsten_granny1` | NPC | [Mushroom m 2 4](#v-bogsten_granny1) |
+
+??? info "Technical information: bogsten_granny"
+
+    | | |
+    |---|---|
+    | Entry ID | `bogsten_granny` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bogsten_granny` |
+    | Loot table | – |
+    | Conversation | `bogsten_granny` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_gisons:8` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "bogsten_granny",
+     "name": "Undina Bogsten",
+     "iconID": "monsters_gisons:8",
+     "moveCost": 10,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bogsten_granny",
+     "phraseID": "bogsten_granny"
+    }
+    ```
+
+??? info "Technical information: bogsten_granny1"
 
     | | |
     |---|---|
     | Entry ID | `bogsten_granny1` |
+    | Type (wiki) | NPC |
     | Spawn group | `bogsten_granny1` |
     | Loot table | – |
     | Conversation | `bogsten_granny` |
@@ -214,7 +216,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "bogsten_granny"
     }
     ```
-
 
 
 ## Community notes

@@ -12,7 +12,7 @@ description: "Darkness in the Daylight is a quest in Andor's Trail, started by M
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 20, 30, 310) |
 | **Started by** | [Miri](../monsters/dds_miri.md) ([Galmore 41](../maps/galmore_41.md)) |
-| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Dark priest](../monsters/dds_dark_priest.md), [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), [Old hermit](../monsters/dds_oldhermit.md) +2 |
+| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Dark priest](../monsters/dds_dark_priest.md), [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Miri](../monsters/dds_miri.md), [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman), [Old hermit](../monsters/dds_oldhermit.md) +2 |
 | **Locations** | [Blackwater mountain 50](../maps/blackwater_mountain50.md), [Fallhaven north-west](../maps/fallhaven_nw.md), [Galmore 41](../maps/galmore_41.md), [Galmore 45](../maps/galmore_45.md) |
 | **Total XP** | 27,002 |
 | **Related quests** | 5 |

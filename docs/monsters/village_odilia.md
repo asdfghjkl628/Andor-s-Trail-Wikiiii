@@ -4,32 +4,23 @@ description: "Odilia is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_189.png){ .sprite } Odilia
 
+**Where to find Odilia:** [Wexlow Village, Wexlow village south-west house](#v-village_odilia), [Gamjee well jail cells](#v-troll_hollow_odilia)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_189.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Odilia. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
+## Wexlow Village, Wexlow village south-west house { #v-village_odilia }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_odilia`](#v-village_odilia) | NPC | Wexlow Village: [Wexlow village south-west house](../maps/wexlow_village_sw_house.md#pin-npc-village_odilia) | – |
-| [`troll_hollow_odilia`](#v-troll_hollow_odilia) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
-
-## Wexlow Village, Wexlow village south-west house (village_odilia) { #v-village_odilia }
-
-**Entry ID:** `village_odilia` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village south-west house](../maps/wexlow_village_sw_house.md#pin-npc-village_odilia)
+**Where:** Wexlow Village: [Wexlow village south-west house](../maps/wexlow_village_sw_house.md#pin-npc-village_odilia)
 
 ### Dialogue simulator
 
@@ -78,11 +69,40 @@ Set your quest stages and items, then talk to Odilia. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_odilia)"
+## Gamjee well jail cells { #v-troll_hollow_odilia }
+
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Odilia. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_odilia` | NPC | [Wexlow Village, Wexlow village south-west house](#v-village_odilia) |
+| `troll_hollow_odilia` | Scenery | [Gamjee well jail cells](#v-troll_hollow_odilia) |
+
+- `troll_hollow_odilia` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: village_odilia"
 
     | | |
     |---|---|
     | Entry ID | `village_odilia` |
+    | Type (wiki) | NPC |
     | Spawn group | `village_odilia` |
     | Loot table | – |
     | Conversation | `village_odilia_start` |
@@ -105,31 +125,12 @@ Set your quest stages and items, then talk to Odilia. Same rules as the game: sa
     }
     ```
 
-
-## Gamjee well jail cells (troll_hollow_odilia) { #v-troll_hollow_odilia }
-
-**Entry ID:** `troll_hollow_odilia` · **Type:** Scenery
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (troll_hollow_odilia)"
+??? info "Technical information: troll_hollow_odilia"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_odilia` |
+    | Type (wiki) | Scenery |
     | Spawn group | `troll_hollow_odilia` |
     | Loot table | – |
     | Conversation | – |
@@ -152,7 +153,6 @@ Set your quest stages and items, then talk to Odilia. Same rules as the game: sa
      "movementAggressionType": "wholeMap"
     }
     ```
-
 
 
 ## Community notes

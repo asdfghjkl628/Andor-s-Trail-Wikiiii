@@ -4,34 +4,23 @@ description: "Wise of the wells is a non-player character (NPC) in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_rltiles2_89.png){ .sprite } Wise of the wells
 
+**Where to find Wise of the wells:** [4 wells, Ratdom maze 768](#v-ratdom_well_wise0), [4 wells, Ratdom maze 768](#v-ratdom_well_wise1), [4 wells, Ratdom maze 768](#v-ratdom_well_wise2), [4 wells, Ratdom maze 768](#v-ratdom_well_wise3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_89.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | 4 wells |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Wise of the wells. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
+## 4 wells, Ratdom maze 768 { #v-ratdom_well_wise0 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_well_wise0`](#v-ratdom_well_wise0) | NPC | 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise0) | – |
-| [`ratdom_well_wise1`](#v-ratdom_well_wise1) | NPC | 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise1) | – |
-| [`ratdom_well_wise2`](#v-ratdom_well_wise2) | NPC | 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise2) | – |
-| [`ratdom_well_wise3`](#v-ratdom_well_wise3) | NPC | 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise3) | – |
-
-## 4 wells, Ratdom maze 768 (ratdom_well_wise0) { #v-ratdom_well_wise0 }
-
-**Entry ID:** `ratdom_well_wise0` · **Type:** NPC
-
-**Location:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise0)
+**Where:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise0)
 
 ### Dialogue simulator
 
@@ -59,37 +48,9 @@ Set your quest stages and items, then talk to Wise of the wells. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_well_wise0)"
+## 4 wells, Ratdom maze 768 (2) { #v-ratdom_well_wise1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_well_wise0` |
-    | Spawn group | `ratdom_well_wise0` |
-    | Loot table | – |
-    | Conversation | `ratdom_well_wise` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:89` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_well_wise0",
-     "name": "Wise of the wells",
-     "iconID": "monsters_rltiles2:89",
-     "unique": 1,
-     "phraseID": "ratdom_well_wise"
-    }
-    ```
-
-
-## 4 wells, Ratdom maze 768 (ratdom_well_wise1) { #v-ratdom_well_wise1 }
-
-**Entry ID:** `ratdom_well_wise1` · **Type:** NPC
-
-**Location:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise1)
+**Where:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise1)
 
 ### Dialogue simulator
 
@@ -111,37 +72,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_well_wise1)"
+## 4 wells, Ratdom maze 768 (3) { #v-ratdom_well_wise2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_well_wise1` |
-    | Spawn group | `ratdom_well_wise1` |
-    | Loot table | – |
-    | Conversation | `ratdom_well_wise` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:89` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_well_wise1",
-     "name": "Wise of the wells",
-     "iconID": "monsters_rltiles2:89",
-     "unique": 1,
-     "phraseID": "ratdom_well_wise"
-    }
-    ```
-
-
-## 4 wells, Ratdom maze 768 (ratdom_well_wise2) { #v-ratdom_well_wise2 }
-
-**Entry ID:** `ratdom_well_wise2` · **Type:** NPC
-
-**Location:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise2)
+**Where:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise2)
 
 ### Dialogue simulator
 
@@ -163,37 +96,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_well_wise2)"
+## 4 wells, Ratdom maze 768 (4) { #v-ratdom_well_wise3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_well_wise2` |
-    | Spawn group | `ratdom_well_wise2` |
-    | Loot table | – |
-    | Conversation | `ratdom_well_wise` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:89` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_well_wise2",
-     "name": "Wise of the wells",
-     "iconID": "monsters_rltiles2:89",
-     "unique": 1,
-     "phraseID": "ratdom_well_wise"
-    }
-    ```
-
-
-## 4 wells, Ratdom maze 768 (ratdom_well_wise3) { #v-ratdom_well_wise3 }
-
-**Entry ID:** `ratdom_well_wise3` · **Type:** NPC
-
-**Location:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise3)
+**Where:** 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise3)
 
 ### Quests
 
@@ -255,11 +160,104 @@ Set your quest stages and items, then talk to Wise of the wells. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_well_wise3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Wise of the wells. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_well_wise0` | NPC | [4 wells, Ratdom maze 768](#v-ratdom_well_wise0) |
+| `ratdom_well_wise1` | NPC | [4 wells, Ratdom maze 768](#v-ratdom_well_wise1) |
+| `ratdom_well_wise2` | NPC | [4 wells, Ratdom maze 768](#v-ratdom_well_wise2) |
+| `ratdom_well_wise3` | NPC | [4 wells, Ratdom maze 768](#v-ratdom_well_wise3) |
+
+??? info "Technical information: ratdom_well_wise0"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_well_wise0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ratdom_well_wise0` |
+    | Loot table | – |
+    | Conversation | `ratdom_well_wise` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:89` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_well_wise0",
+     "name": "Wise of the wells",
+     "iconID": "monsters_rltiles2:89",
+     "unique": 1,
+     "phraseID": "ratdom_well_wise"
+    }
+    ```
+
+??? info "Technical information: ratdom_well_wise1"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_well_wise1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ratdom_well_wise1` |
+    | Loot table | – |
+    | Conversation | `ratdom_well_wise` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:89` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_well_wise1",
+     "name": "Wise of the wells",
+     "iconID": "monsters_rltiles2:89",
+     "unique": 1,
+     "phraseID": "ratdom_well_wise"
+    }
+    ```
+
+??? info "Technical information: ratdom_well_wise2"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_well_wise2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ratdom_well_wise2` |
+    | Loot table | – |
+    | Conversation | `ratdom_well_wise` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:89` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_well_wise2",
+     "name": "Wise of the wells",
+     "iconID": "monsters_rltiles2:89",
+     "unique": 1,
+     "phraseID": "ratdom_well_wise"
+    }
+    ```
+
+??? info "Technical information: ratdom_well_wise3"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_well_wise3` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_well_wise3` |
     | Loot table | – |
     | Conversation | `ratdom_well_wise3` |
@@ -279,7 +277,6 @@ Set your quest stages and items, then talk to Wise of the wells. Same rules as t
      "phraseID": "ratdom_well_wise3"
     }
     ```
-
 
 
 ## Community notes

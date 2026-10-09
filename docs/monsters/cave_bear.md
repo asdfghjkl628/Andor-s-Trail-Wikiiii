@@ -17,32 +17,26 @@ description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP,
 | **Class** | Animal |
 | **HP** | 297 |
 | **XP when defeated** | 601 |
-| **Entry ID** | `cave_bear` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 297 |
 | XP when defeated | 601 |
 | Damage | 14 to 20 |
-| Attack chance | 165 |
-| Block chance | 127 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 3 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 2% |
+| AC | 165 |
+| BC | 127 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 2% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -68,11 +62,24 @@ description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `cave_bear` |
+    | Type (wiki) | Enemy |
     | Spawn group | `cave_bear` |
     | Loot table | `cave_bear_dl` |
     | Conversation | – |
@@ -105,15 +112,6 @@ description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP,
      "blockChance": 127
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

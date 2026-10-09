@@ -4,6 +4,8 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 
 # ![](../assets/icons/monsters/monsters_rltiles2_165.png){ .sprite } Giant larval burrower
 
+**Where to find Giant larval burrower:** [Bloskelt + Roskelt, Ratdom maze 437 and 10 more](#v-burrower_4), [Waterwaycave](#v-burrower_cr)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_165.png){ .sprite }</p>
@@ -15,46 +17,30 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 | **Class** | Insect |
 | **HP** | 75–175 |
 | **XP when defeated** | 159–285 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Giant larval burrower. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Bloskelt + Roskelt, Ratdom maze 437 and 10 more { #v-burrower_4 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`burrower_4`](#v-burrower_4) | Enemy | Bloskelt + Roskelt: [Ratdom maze 437](../maps/ratdom_maze_437.md), Entry: [Ratdom maze 438](../maps/ratdom_maze_438.md) (+9 more) | – | 75 |
-| [`burrower_cr`](#v-burrower_cr) | Enemy | [Waterwaycave](../maps/waterwaycave.md) | – | 175 |
+**Where:** Bloskelt + Roskelt: [Ratdom maze 437](../maps/ratdom_maze_437.md), Entry: [Ratdom maze 438](../maps/ratdom_maze_438.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md), Instrument maker: [Ratdom maze 455](../maps/ratdom_maze_455.md), Pub: [Ratdom maze 413](../maps/ratdom_maze_413.md), Pub: [Ratdom maze 432](../maps/ratdom_maze_432.md) (+5 more)
 
-## Bloskelt + Roskelt, Ratdom maze 437 and 10 more (burrower_4) { #v-burrower_4 }
+### Combat
 
-**Entry ID:** `burrower_4` · **Type:** Enemy
-
-**Location:** Bloskelt + Roskelt: [Ratdom maze 437](../maps/ratdom_maze_437.md), Entry: [Ratdom maze 438](../maps/ratdom_maze_438.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md), Instrument maker: [Ratdom maze 455](../maps/ratdom_maze_455.md), Pub: [Ratdom maze 413](../maps/ratdom_maze_413.md), Pub: [Ratdom maze 432](../maps/ratdom_maze_432.md) (+5 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 75 |
 | XP when defeated | 159 |
 | Damage | 1 to 25 |
-| Attack chance | 95 |
-| Block chance | 80 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 95 |
+| BC | 80 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -90,11 +76,75 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burrower_4)"
+## Waterwaycave { #v-burrower_cr }
+
+**Where:** [Waterwaycave](../maps/waterwaycave.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Insect |
+| HP | 175 |
+| XP when defeated | 285 |
+| Damage | 1 to 25 |
+| AC | 95 |
+| BC | 80 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waterwaycave](../maps/waterwaycave.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Giant larval burrower. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `burrower_4` | Enemy | [Bloskelt + Roskelt, Ratdom maze 437 and 10 more](#v-burrower_4) |
+| `burrower_cr` | Enemy | [Waterwaycave](#v-burrower_cr) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: burrower_4"
 
     | | |
     |---|---|
     | Entry ID | `burrower_4` |
+    | Type (wiki) | Enemy |
     | Spawn group | `burrower_3` |
     | Loot table | `burrower` |
     | Conversation | – |
@@ -127,62 +177,12 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
     }
     ```
 
-
-## Waterwaycave (burrower_cr) { #v-burrower_cr }
-
-**Entry ID:** `burrower_cr` · **Type:** Enemy
-
-**Location:** [Waterwaycave](../maps/waterwaycave.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Insect |
-| HP | 175 |
-| XP when defeated | 285 |
-| Damage | 1 to 25 |
-| Attack chance | 95 |
-| Block chance | 80 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waterwaycave](../maps/waterwaycave.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (burrower_cr)"
+??? info "Technical information: burrower_cr"
 
     | | |
     |---|---|
     | Entry ID | `burrower_cr` |
+    | Type (wiki) | Enemy |
     | Spawn group | `burrower_cr` |
     | Loot table | `oegyth1` |
     | Conversation | – |
@@ -215,16 +215,6 @@ description: "Giant larval burrower is an enemy in Andor's Trail (insect) with 7
      "damageResistance": 2
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

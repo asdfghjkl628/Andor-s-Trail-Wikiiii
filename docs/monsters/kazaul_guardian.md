@@ -1,5 +1,5 @@
 ---
-description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail, found in Blackwater mountain 42."
+description: "Kazaul guardian is an NPC you can also fight in Andor's Trail, found in Blackwater mountain 42."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite } Kazaul guardian
@@ -12,44 +12,37 @@ description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail,
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Blackwater mountain 42 |
 | **Class** | Demon |
 | **HP** | 95 |
 | **XP when defeated** | 175 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `kazaul_guardian` |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Kazaul guardian"
+    Answering “A fight, I have been waiting for this!” during [Lights in the dark](../quests/kazaul.md#stage-50) starts a fight with Kazaul guardian.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 95 |
 | XP when defeated | 175 |
 | Damage | 3 to 8 |
-| Attack chance | 70 |
-| Block chance | 90 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 70 |
+| BC | 90 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -59,12 +52,6 @@ description: "Kazaul guardian is an NPC who can also be fought in Andor's Trail,
 | [Polished gem](../items/gem3.md) | 100% | 1 |
 | [Regular potion of health](../items/health.md) | 100% | 2 |
 | [Shadow of the slayer](../items/shadow_slayer.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 42](../maps/blackwater_mountain42.md) | – | 1 | – |
 
 ## Quests
 
@@ -107,16 +94,29 @@ Set your quest stages and items, then talk to Kazaul guardian. Same rules as the
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `kazaul_guardian` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `kazaul_guardian` |
     | Loot table | `kazaul_guardian` |
     | Conversation | `kazaul_guardian` |
@@ -152,15 +152,6 @@ Set your quest stages and items, then talk to Kazaul guardian. Same rules as the
      "damageResistance": 3
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

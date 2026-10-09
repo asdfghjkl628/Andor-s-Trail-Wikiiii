@@ -1,5 +1,5 @@
 ---
-description: "Agitated ghost is an NPC who can also be fought in Andor's Trail, found in Brightport."
+description: "Agitated ghost is an NPC you can also fight in Andor's Trail, found in Brightport."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite } Agitated ghost
@@ -12,46 +12,36 @@ description: "Agitated ghost is an NPC who can also be fought in Andor's Trail, 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brightport |
 | **Class** | Undead |
 | **HP** | 159 |
 | **XP when defeated** | 252 |
-| **Entry ID** | `brightport_ghost` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Agitated ghost"
+    Answering “You make no sense cursed creature, I will put you to rest now.” during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-239) starts a fight with Agitated ghost.
 
-## Combat statistics
+    The conversation during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-238) can lead straight into a fight with Agitated ghost.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Undead |
 | HP | 159 |
 | XP when defeated | 252 |
 | Damage | 10 to 15 |
-| Attack chance | 80 |
-| Block chance | 90 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 80 |
+| BC | 90 |
+| DR | 3 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brightport grave](../maps/brightport_grave.md) | Brightport | 1 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Quests
 
@@ -120,11 +110,24 @@ Set your quest stages and items, then talk to Agitated ghost. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_ghost` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `brightport_ghost` |
     | Loot table | – |
     | Conversation | `brightport_ghost` |
@@ -152,15 +155,6 @@ Set your quest stages and items, then talk to Agitated ghost. Same rules as the 
      "damageResistance": 3
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

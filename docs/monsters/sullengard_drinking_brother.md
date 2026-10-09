@@ -4,33 +4,23 @@ description: "Drinking brother is a non-player character (NPC) in Andor's Trail,
 
 # ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } Drinking brother
 
+**Where to find Drinking brother:** [Sullengard, Sullengard tavern](#v-sullengard_drinking_brother), [Sullengard, Sullengard tavern](#v-sullengard_drinking_brother2), [Sullengard, Sullengard tavern](#v-sullengard_drinking_brother3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_130.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Sullengard |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Drinking brother. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Sullengard, Sullengard tavern { #v-sullengard_drinking_brother }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`sullengard_drinking_brother`](#v-sullengard_drinking_brother) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother) | – |
-| [`sullengard_drinking_brother2`](#v-sullengard_drinking_brother2) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2) | – |
-| [`sullengard_drinking_brother3`](#v-sullengard_drinking_brother3) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3) | – |
-
-## Sullengard, Sullengard tavern (sullengard_drinking_brother) { #v-sullengard_drinking_brother }
-
-**Entry ID:** `sullengard_drinking_brother` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother)
+**Where:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother)
 
 ### Quests
 
@@ -75,11 +65,81 @@ Set your quest stages and items, then talk to Drinking brother. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sullengard_drinking_brother)"
+## Sullengard, Sullengard tavern (2) { #v-sullengard_drinking_brother2 }
+
+**Where:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2)
+
+### Quests
+
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [sullengard_drinking_brother_0](#d-sullengard_drinking_brother-sullengard_drinking_brother_0).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Sullengard, Sullengard tavern (3) { #v-sullengard_drinking_brother3 }
+
+**Where:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3)
+
+### Quests
+
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [sullengard_drinking_brother_0](#d-sullengard_drinking_brother-sullengard_drinking_brother_0).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Drinking brother. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `sullengard_drinking_brother` | NPC | [Sullengard, Sullengard tavern](#v-sullengard_drinking_brother) |
+| `sullengard_drinking_brother2` | NPC | [Sullengard, Sullengard tavern](#v-sullengard_drinking_brother2) |
+| `sullengard_drinking_brother3` | NPC | [Sullengard, Sullengard tavern](#v-sullengard_drinking_brother3) |
+
+??? info "Technical information: sullengard_drinking_brother"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_drinking_brother` |
+    | Type (wiki) | NPC |
     | Spawn group | `sullengard_drinking_brother` |
     | Loot table | – |
     | Conversation | `sullengard_drinking_brother_0` |
@@ -102,42 +162,12 @@ Set your quest stages and items, then talk to Drinking brother. Same rules as th
     }
     ```
 
-
-## Sullengard, Sullengard tavern (sullengard_drinking_brother2) { #v-sullengard_drinking_brother2 }
-
-**Entry ID:** `sullengard_drinking_brother2` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2)
-
-### Quests
-
-- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [sullengard_drinking_brother_0](#d-sullengard_drinking_brother-sullengard_drinking_brother_0).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (sullengard_drinking_brother2)"
+??? info "Technical information: sullengard_drinking_brother2"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_drinking_brother2` |
+    | Type (wiki) | NPC |
     | Spawn group | `sullengard_drinking_brother2` |
     | Loot table | – |
     | Conversation | `sullengard_drinking_brother_0` |
@@ -160,42 +190,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Sullengard, Sullengard tavern (sullengard_drinking_brother3) { #v-sullengard_drinking_brother3 }
-
-**Entry ID:** `sullengard_drinking_brother3` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3)
-
-### Quests
-
-- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 23
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Drinking brother. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/sullengard_drinking_brother_0.json" data-npc="Drinking brother" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [sullengard_drinking_brother_0](#d-sullengard_drinking_brother-sullengard_drinking_brother_0).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.2](../versions/0.8.2.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (sullengard_drinking_brother3)"
+??? info "Technical information: sullengard_drinking_brother3"
 
     | | |
     |---|---|
     | Entry ID | `sullengard_drinking_brother3` |
+    | Type (wiki) | NPC |
     | Spawn group | `sullengard_drinking_brother3` |
     | Loot table | – |
     | Conversation | `sullengard_drinking_brother_0` |
@@ -217,7 +217,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "sullengard_drinking_brother_0"
     }
     ```
-
 
 
 ## Community notes

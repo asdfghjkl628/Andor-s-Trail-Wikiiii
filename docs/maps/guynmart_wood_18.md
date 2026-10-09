@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 18 is an outdoor location in Andor's Trail. NPCs: Godoe, Godoe, Tobby. Enemies: Wolf, Quick kobold, Kobold, Ancient kobold, Tough kobold. Exits to Guynmart wood 19, Guynmart wood 17b, Guynmart wood 18b."
+description: "Guynmart wood 18 is an outdoor location in Andor's Trail. NPCs: Godoe, Godoe, Tobby. Enemies: Wolf, Kobold, Ancient kobold, Quick kobold, Tough kobold. Exits to Guynmart wood 19, Guynmart wood 17b, Guynmart wood 18b."
 ---
 
 # Guynmart wood 18
@@ -74,9 +74,9 @@ description: "Guynmart wood 18 is an outdoor location in Andor's Trail. NPCs: Go
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
-| [Quick kobold](../monsters/kobold1.md) | 70 | 1–10 | 4 | – |
 | [Kobold](../monsters/kobold2.md) | 70 | 1–10 | 8 | – |
 | [Ancient kobold](../monsters/kobold3.md) | 70 | 1–10 | 3 | – |
+| [Quick kobold](../monsters/kobold1.md) | 70 | 1–10 | 4 | – |
 | [Tough kobold](../monsters/kobold4.md) | 300 | 1–10 | 2 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

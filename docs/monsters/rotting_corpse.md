@@ -1,5 +1,5 @@
 ---
-description: "Rotting corpse is an NPC who can also be fought in Andor's Trail, found in Flagstone Prison."
+description: "Rotting corpse is an NPC you can also fight in Andor's Trail, found in Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_zombie1_0.png){ .sprite } Rotting corpse
@@ -12,40 +12,34 @@ description: "Rotting corpse is an NPC who can also be fought in Andor's Trail, 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Flagstone Prison |
 | **Class** | Undead |
 | **HP** | 71 |
 | **XP when defeated** | 82 |
-| **Entry ID** | `rotting_corpse` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Rotting corpse"
+    Answering “By the Shadow, I will slay you.” starts a fight with Rotting corpse.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 71 |
 | XP when defeated | 82 |
 | Damage | 2 to 5 |
-| Attack chance | 30 |
-| Block chance | 30 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 50 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 26% |
+| AC | 30 |
+| BC | 30 |
+| DR | 2 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | 26% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -95,11 +89,24 @@ Set your quest stages and items, then talk to Rotting corpse. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `rotting_corpse` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `undead1` |
     | Loot table | `undead1` |
     | Conversation | `zombie1` |
@@ -132,15 +139,6 @@ Set your quest stages and items, then talk to Rotting corpse. Same rules as the 
      "damageResistance": 2
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

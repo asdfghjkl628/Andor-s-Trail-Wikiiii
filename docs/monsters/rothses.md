@@ -12,10 +12,9 @@ description: "Rothses is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Remgard |
-| **Entry ID** | `rothses` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -226,11 +225,16 @@ Set your quest stages and items, then talk to Rothses. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `rothses` |
+    | Type (wiki) | NPC |
     | Spawn group | `rothses` |
     | Loot table | `shop_rothses` |
     | Conversation | `rothses` |

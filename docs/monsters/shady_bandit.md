@@ -1,5 +1,5 @@
 ---
-description: "Shady bandit is an NPC who can also be fought in Andor's Trail, found in Fallhaven."
+description: "Shady bandit is an NPC you can also fight in Andor's Trail, found in Fallhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } Shady bandit
@@ -12,40 +12,34 @@ description: "Shady bandit is an NPC who can also be fought in Andor's Trail, fo
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Fallhaven |
 | **Class** | Humanoid |
 | **HP** | 45 |
 | **XP when defeated** | 94 |
-| **Entry ID** | `shady_bandit` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Shady bandit"
+    Answering “Let's fight!” starts a fight with Shady bandit.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 45 |
 | XP when defeated | 94 |
 | Damage | 3 to 9 |
-| Attack chance | 70 |
-| Block chance | 50 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 30 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 19% |
+| AC | 70 |
+| BC | 50 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 19% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -95,11 +89,24 @@ Set your quest stages and items, then talk to Shady bandit. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `shady_bandit` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `fallhaven_bandit` |
     | Loot table | `fallhaven_bandit` |
     | Conversation | `fallhaven_bandit` |
@@ -133,15 +140,6 @@ Set your quest stages and items, then talk to Shady bandit. Same rules as the ga
      "damageResistance": 2
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

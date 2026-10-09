@@ -1,5 +1,5 @@
 ---
-description: "Maelveon is an NPC who can also be fought in Andor's Trail, found in Gargoylecave 3."
+description: "Maelveon is an NPC you can also fight in Andor's Trail, found in Gargoylecave 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } Maelveon
@@ -12,40 +12,34 @@ description: "Maelveon is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Gargoylecave 3 |
 | **Class** | Undead |
 | **HP** | 55 |
 | **XP when defeated** | 149 |
-| **Entry ID** | `maelveon` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Maelveon"
+    Answering “Shadow, what?” starts a fight with Maelveon.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 55 |
 | XP when defeated | 149 |
 | Damage | 0 to 12 |
-| Attack chance | 80 |
-| Block chance | 90 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 15 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 12% |
+| AC | 80 |
+| BC | 90 |
+| DR | 5 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 12% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -55,12 +49,6 @@ description: "Maelveon is an NPC who can also be fought in Andor's Trail, found 
 | [Polished gem](../items/gem3.md) | 100% | 1 |
 | [Regular potion of health](../items/health.md) | 100% | 2 |
 | [Stone Cuirass](../items/armor_stone.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gargoylecave 3](../maps/gargoylecave3.md) | – | 1 | – |
 
 ## Dialogue simulator
 
@@ -109,16 +97,29 @@ Set your quest stages and items, then talk to Maelveon. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “G.. argoyle Shadow.” → “G ... argoyle Shadow.”<br>· text: “A.. llow the Sssshadow in you.” → “A ... llow the Sssshadow in you.” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “A.. llow the Sssshadow in you.” → “A ... llow the Sssshadow in you.”<br>· text: “[the figure lifts his hand and points at you]” → “[The figure lifts his hand and points at you]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `maelveon` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `maelveon` |
     | Loot table | `maelveon` |
     | Conversation | `maelveon` |
@@ -152,15 +153,6 @@ Set your quest stages and items, then talk to Maelveon. Same rules as the game: 
      "damageResistance": 5
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes
