@@ -57,7 +57,7 @@ description: "Glaive of Imeria is a extraordinary pole weapon in Andor's Trail (
 
 ### Quest & dialogue rewards
 
-- From [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) during [Too hot to handle](../quests/brightport_fiamma.md#stage-45) (1×)
+- From [Fiamma](../monsters/brightportsmith.md) ([Brightport weapon](../maps/brightport_weapon.md)) during [Too hot to handle](../quests/brightport_fiamma.md#stage-45) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

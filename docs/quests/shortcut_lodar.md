@@ -11,9 +11,9 @@ description: "The way out is through is a quest in Andor's Trail, started by Lod
 | **Quest ID** | `shortcut_lodar` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 40) |
-| **Started by** | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
+| **Started by** | [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) |
 | **NPCs involved** | [Lodar](../monsters/lodar.md) |
-| **Locations** | [lodarhouse1](../maps/lodarhouse1.md) |
+| **Locations** | [Lodarhouse 1](../maps/lodarhouse1.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -24,7 +24,7 @@ description: "The way out is through is a quest in Andor's Trail, started by Lod
 
 ## Prerequisites to start
 
-Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)). Required:
+Start with [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)). Required:
 
 - reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60)
 - NOT reached stage 10 of [The way out is through](../quests/shortcut_lodar.md#stage-10)
@@ -45,47 +45,89 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I talked with Lodar about a possible shortcut to the outside world. He said I should check the cave under the former cave of the Hira'zinn. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | – |
-| <span id="stage-20"></span>20 | I've found the cave but the way is blocked by rocks and water. Why can't I swim? | reading a sign on [shortcut_lodar0](../maps/shortcut_lodar0.md) | stage 10 | – |
-| <span id="stage-22"></span>22 | The rock formations are not the only thing that changed here. There is now a path through the water. | reading a sign on [shortcut_lodar0](../maps/shortcut_lodar0.md) | stage 20 | – |
-| <span id="stage-26"></span>26 | I notice a torch burning with a strange purple hue. It's definitely a magical item. I should ask Lodar about this torch. | walking into a blocked passage on [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | – |
-| <span id="stage-30"></span>30 | Upon telling Lodar about the purple fire he gave me a green vial, and told me to pour it over the torch to see what happens.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar4](../maps/shortcut_lodar4.md).</span> | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | stage 10, stage 26 | gives 1× [Lodar's activation vial](../items/vial_activation.md) |
-| <span id="stage-40"></span>40 | I poured the vial over the purple fire and then it turned green. When approaching it I was teleported into another room of the cave with more purple torches. I was able to activate them as well. Finally, I have got my shortcut and can travel to Lodar a lot faster! **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Shortcut lodar0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Shortcut lodar4](../maps/shortcut_lodar4.md).</span> | stepping on a trigger on [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | – |
-| <span id="stage-50"></span>50 | I told Lodar about the new shortcut. He asked me to keep it a secret. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I talked with Lodar about a possible shortcut to the outside world.… ▸</span><span class="l">▴ less</span></summary>I talked with Lodar about a possible shortcut to the outside world. He said I should check the cave under the former cave of the Hira'zinn.</details> | [Lodar](../monsters/lodar.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I've found the cave but the way is blocked by rocks and water. Why can't I swim? | reading a sign on [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | <details class="jt"><summary><span class="s">The rock formations are not the only thing that changed here. There… ▸</span><span class="l">▴ less</span></summary>The rock formations are not the only thing that changed here. There is now a path through the water.</details> | reading a sign on [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – |
+| <span id="stage-26"></span>[26](#route-26) | <details class="jt"><summary><span class="s">I notice a torch burning with a strange purple hue. It's definitely… ▸</span><span class="l">▴ less</span></summary>I notice a torch burning with a strange purple hue. It's definitely a magical item. I should ask Lodar about this torch.</details> | walking into a blocked passage on [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Upon telling Lodar about the purple fire he gave me a green vial,… ▸</span><span class="l">▴ less</span></summary>Upon telling Lodar about the purple fire he gave me a green vial, and told me to pour it over the torch to see what happens.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar 0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar 4](../maps/shortcut_lodar4.md).</span> | [Lodar](../monsters/lodar.md) | 1× [Lodar's activation vial](../items/vial_activation.md) |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I poured the vial over the purple fire and then it turned green.… ▸</span><span class="l">▴ less</span></summary>I poured the vial over the purple fire and then it turned green. When approaching it I was teleported into another room of the cave with more purple torches. I was able to activate them as well. Finally, I have got my shortcut and can travel to Lodar a lot faster!</details> **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Shortcut lodar 0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Shortcut lodar 4](../maps/shortcut_lodar4.md).</span> | stepping on a trigger on [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – |
+| <span id="stage-50"></span>50 | I told Lodar about the new shortcut. He asked me to keep it a secret. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “The way to come here is a real maze and the path is tricky to find. I think I've lost my way a hundred…” — **conditions:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); NOT reached stage 10 of [The way out is through](../quests/shortcut_lodar.md#stage-10); NOT reached stage 30 of [The way out is through](../quests/shortcut_lodar.md#stage-30) → **stage 10**. NPC: “Hmm, I remember seeing a cave under the former cave of the Hira'zinn. I don't know where it leads to but maybe you…”
+??? note "Stage 10 · Lodar · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “The way to come here is a real maze and the path is tricky to find. I think I've lost my way a hundred…”
 
-    1. reading a sign on [shortcut_lodar0](../maps/shortcut_lodar0.md) → the conversation leads here automatically — **conditions:** NOT reached stage 50 of [Searching for madness](../quests/lodar2.md#stage-50); reached stage 10 of [The way out is through](../quests/shortcut_lodar.md#stage-10) → **stage 20**. NPC: “There is no way to go further. Maybe this has something to do with the stones?”
+    - **Needs:** not yet stage 10, 30; reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60)
+    - *“Hmm, I remember seeing a cave under the former cave of the Hira'zinn. I don't know where it leads to but maybe you could give it a try and…”*
 
-???+ note "Stage 22: 1 route"
 
-    1. reading a sign on [shortcut_lodar0](../maps/shortcut_lodar0.md) → the conversation leads here automatically — **conditions:** NOT reached stage 22 of [The way out is through](../quests/shortcut_lodar.md#stage-22); reached stage 20 of [The way out is through](../quests/shortcut_lodar.md#stage-20); reached stage 50 of [Searching for madness](../quests/lodar2.md#stage-50) → **stage 22**. NPC: “Rocks have emerged here. I can walk further down this path.”
+<span id="route-20"></span>
 
-???+ note "Stage 26: 1 route"
+??? note "Stage 20 · reading a sign on shortcut_lodar0 · 1 way"
 
-    1. walking into a blocked passage on [shortcut_lodar0](../maps/shortcut_lodar0.md) → the conversation leads here automatically → **stage 26**. NPC: “In front of me, I see a torch burning with a purple glow. I can feel the force coming from this item. I shouldn't get…”
+    **Way 1:** Reading a sign on [Shortcut lodar 0](../maps/shortcut_lodar0.md)
 
-???+ note "Stage 30: 1 route"
+    - **Needs:** stage 10; not reached stage 50 of [Searching for madness](../quests/lodar2.md#stage-50)
+    - *“There is no way to go further. Maybe this has something to do with the stones?”*
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “I found the cave you mentioned but unfortunately the path doesn't go anywhere. I noticed a weird torch…” — **conditions:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); reached stage 26 of [The way out is through](../quests/shortcut_lodar.md#stage-26); reached stage 10 of [The way out is through](../quests/shortcut_lodar.md#stage-10); NOT reached stage 30 of [The way out is through](../quests/shortcut_lodar.md#stage-30) → **stage 30**; also gives 1× [Lodar's activation vial](../items/vial_activation.md). NPC: “Hmm, this is interesting. I have heard of such artifacts being teleporters but have never seen one myself. Here, take…”
 
-???+ note "Stage 40: 1 route"
+<span id="route-22"></span>
 
-    1. stepping on a trigger on [shortcut_lodar0](../maps/shortcut_lodar0.md) → the conversation leads here automatically — **conditions:** NOT reached stage 40 of [The way out is through](../quests/shortcut_lodar.md#stage-40) → **stage 40**. NPC: “When pouring the vial's liquid over the torch, it suddenly burns a lot brighter and changes its color to green. I…”
+??? note "Stage 22 · reading a sign on shortcut_lodar0 · 1 way"
+
+    **Way 1:** Reading a sign on [Shortcut lodar 0](../maps/shortcut_lodar0.md)
+
+    - **Needs:** stage 20; not yet stage 22; reached stage 50 of [Searching for madness](../quests/lodar2.md#stage-50)
+    - *“Rocks have emerged here. I can walk further down this path.”*
+
+
+<span id="route-26"></span>
+
+??? note "Stage 26 · walking into a blocked passage on shortcut_lodar0 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Shortcut lodar 0](../maps/shortcut_lodar0.md)
+
+    - *“In front of me, I see a torch burning with a purple glow. I can feel the force coming from this item. I shouldn't get closer until I tell…”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Lodar · 1 way"
+
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “I found the cave you mentioned but unfortunately the path doesn't go anywhere. I noticed a weird torch…”
+
+    - **Needs:** stage 10, 26; not yet stage 30; reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60)
+    - **Gives:** 1× [Lodar's activation vial](../items/vial_activation.md)
+    - *“Hmm, this is interesting. I have heard of such artifacts being teleporters but have never seen one myself. Here, take this vial and pour…”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · stepping on a trigger on shortcut_lodar0 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Shortcut lodar 0](../maps/shortcut_lodar0.md)
+
+    - **Needs:** not yet stage 40
+    - *“When pouring the vial's liquid over the torch, it suddenly burns a lot brighter and changes its color to green. I should approach this…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

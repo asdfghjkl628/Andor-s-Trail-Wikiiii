@@ -4,7 +4,7 @@ description: "Frosty is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } Frosty
 
-**Where to find Frosty:** Sullengard: [sullengard1](../maps/sullengard1.md#pin-npc-sullengard_cat)
+**Where to find Frosty:** Sullengard: [Sullengard 1](../maps/sullengard1.md#pin-npc-sullengard_cat)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Frosty is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 31
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 31
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Frosty. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Frosty. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_cat_0.json" data-npc="Frosty" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,9 +33,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-sullengard_cat_0"></span>**`sullengard_cat_0`** Frosty: “Roar!” — **effects:** sets stage 31 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-31)
+    <span id="d-sullengard_cat_0"></span>**`sullengard_cat_0`** Frosty: “Roar!” — **effects:** sets stage 31 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-31)
 
     - “"Roar"? How big do you think you are?” → *conversation ends*
 

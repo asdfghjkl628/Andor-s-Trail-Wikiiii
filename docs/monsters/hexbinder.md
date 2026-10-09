@@ -1,5 +1,5 @@
 ---
-description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 263 HP, worth 760 XP, found in undertell_3_lava_10, undertell_3_lava_11, undertell_4_10, undertell_3_lava_00. Drops: Gold coins, Lich dust, Major potion of health, Liquid courage."
+description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 263 HP, worth 760 XP, found in Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 10, Undertell 3 lava 00. Drops: Gold coins, Lich dust, Major potion of health, Liquid courage."
 ---
 
 # ![](../assets/icons/monsters/monsters_antison_4.png){ .sprite } Kazaul Hex-Binder lich
@@ -11,7 +11,7 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10, undertell_3_lava_00 |
+| **Found in** | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 10, Undertell 3 lava 00 |
 | **Class** | Undead |
 | **HP** | 263 |
 | **XP when defeated** | 760 |
@@ -21,18 +21,18 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Kazaul Hex-Binder lich. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Kazaul Hex-Binder lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`hexbinder`](#v-hexbinder) | Enemy | [undertell_3_lava_10](../maps/undertell_3_lava_10.md), [undertell_3_lava_11](../maps/undertell_3_lava_11.md) (+2 more) | – | 263 |
-| [`hexbinder_help_liches`](#v-hexbinder_help_liches) | Enemy | [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 263 |
+| [`hexbinder`](#v-hexbinder) | Enemy | [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) (+2 more) | – | 263 |
+| [`hexbinder_help_liches`](#v-hexbinder_help_liches) | Enemy | [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 263 |
 
 ## Undertell 3 lava 10 and 3 more (hexbinder) { #v-hexbinder }
 
 **Entry ID:** `hexbinder` · **Type:** Enemy
 
-**Location:** [undertell_3_lava_10](../maps/undertell_3_lava_10.md), [undertell_3_lava_11](../maps/undertell_3_lava_11.md), [undertell_4_10](../maps/undertell_4_10.md), [undertell_5](../maps/undertell_5.md)
+**Location:** [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 5](../maps/undertell_5.md)
 
 ### Combat statistics
 
@@ -71,10 +71,10 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 5 | – |
-| [undertell_3_lava_11](../maps/undertell_3_lava_11.md) | – | 3 | – |
-| [undertell_4_10](../maps/undertell_4_10.md) | – | 1 | – |
-| [undertell_5](../maps/undertell_5.md) | – | 4 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 5 | – |
+| [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) | – | 3 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 1 | – |
+| [Undertell 5](../maps/undertell_5.md) | – | 4 | – |
 
 
 ### Version history
@@ -140,7 +140,7 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 
 **Entry ID:** `hexbinder_help_liches` · **Type:** Enemy
 
-**Location:** [undertell_3_lava_00](../maps/undertell_3_lava_00.md)
+**Location:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md)
 
 ### Combat statistics
 
@@ -179,7 +179,7 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 2 | – |
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 2 | – |
 
 
 ### Version history

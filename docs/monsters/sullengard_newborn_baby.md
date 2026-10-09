@@ -4,7 +4,7 @@ description: "Ollie is a non-player character (NPC) in Andor's Trail, found in S
 
 # ![](../assets/icons/monsters/monsters_ld1_142.png){ .sprite } Ollie
 
-**Where to find Ollie:** Sullengard: [sullengard1_northeast_house](../maps/sullengard1_northeast_house.md#pin-npc-sullengard_newborn_baby)
+**Where to find Ollie:** Sullengard: [Sullengard 1 northeast house](../maps/sullengard1_northeast_house.md#pin-npc-sullengard_newborn_baby)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Ollie is a non-player character (NPC) in Andor's Trail, found in S
 
 ## Quests
 
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 10
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ollie. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ollie. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_ollie.json" data-npc="Ollie" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,14 +33,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_ollie"></span>**`sullengard_ollie`** Ollie: “Coocoo.”
 
-    - “[Tickle Ollie's tummy]” *(if NOT reached stage 10 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-10))* → [sullengard_ollie_giggle](#d-sullengard_ollie_giggle)
-    - “[Pat Ollie's tummy]” *(if NOT reached stage 10 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-10))* → [sullengard_ollie_giggle](#d-sullengard_ollie_giggle)
+    - “[Tickle Ollie's tummy]” *(if NOT reached stage 10 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-10))* → [sullengard_ollie_giggle](#d-sullengard_ollie_giggle)
+    - “[Pat Ollie's tummy]” *(if NOT reached stage 10 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-10))* → [sullengard_ollie_giggle](#d-sullengard_ollie_giggle)
 
-    <span id="d-sullengard_ollie_giggle"></span>**`sullengard_ollie_giggle`** Ollie: “[Giggles cutely]” — **effects:** sets stage 10 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-10)
+    <span id="d-sullengard_ollie_giggle"></span>**`sullengard_ollie_giggle`** Ollie: “[Giggles cutely]” — **effects:** sets stage 10 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-10)
 
 
 

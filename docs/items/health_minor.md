@@ -41,10 +41,10 @@ description: "Minor vial of health is a ordinary potion in Andor's Trail. How to
 | [Rogorn](../monsters/rogorn.md) | 100% | 1-2 | Crossroads Guardhouse |
 | [Rogorn's henchman](../monsters/rogorn_henchman.md) | 100% | 1-2 | Crossroads Guardhouse |
 | [Buceth](../monsters/buceth.md) | 100% | 1-4 | – |
-| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 1-2 | waytobrimhavencave4 |
-| [Snake servant](../monsters/snake_servant.md) | 25% | 1 | snakecave3 |
-| [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 | jan_pitcave2 |
-| [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 | jan_pitcave2 |
+| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 1-2 | Waytobrimhavencave 4 |
+| [Snake servant](../monsters/snake_servant.md) | 25% | 1 | Snakecave 3 |
+| [Young minotaur](../monsters/young_minotaur.md) | 25% | 1 | Jan pitcave 2 |
+| [Strong minotaur](../monsters/strong_minotaur.md) | 25% | 1 | Jan pitcave 2 |
 | [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | 10% | 1 | Blackwater Mountain |
 | [Young white wyrm](../monsters/young_white_wyrm.md) | 10% | 1-2 | Blackwater Mountain |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | 10% | 1-2 | Blackwater Mountain |
@@ -68,8 +68,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-111) | handed over (1×) | “Here, take this minor vial of health.” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | handed over (1×) | “Here, have a minor vial of health.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-111) | handed over (1×) | “Here, take this minor vial of health.” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | – | handed over (1×) | “Here, have a minor vial of health.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

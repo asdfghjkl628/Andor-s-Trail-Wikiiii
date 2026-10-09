@@ -27,7 +27,7 @@ description: "Demon heart is a quest other in Andor's Trail. How to get it: mons
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Toszylae](../monsters/toszylae.md) | 100% | 1 | waytobrimhavencave3a |
+| [Toszylae](../monsters/toszylae.md) | 100% | 1 | Waytobrimhavencave 3a |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | [The dark protector](../quests/darkprotector.md#stage-30) | handed over (1×) | “Here is the helmet and the heart.” |
-| reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | [The dark protector](../quests/darkprotector.md#stage-66) | handed over (1×) | “Place the heart of the lich in front of the shrine” |
+| [Ulirfendor](../monsters/ulirfendor.md) ([Waytobrimhavencave 4](../maps/waytobrimhavencave4.md)) | [The dark protector](../quests/darkprotector.md#stage-30) | handed over (1×) | “Here is the helmet and the heart.” |
+| reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | [The dark protector](../quests/darkprotector.md#stage-66) | handed over (1×) | “Place the heart of the lich in front of the shrine” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

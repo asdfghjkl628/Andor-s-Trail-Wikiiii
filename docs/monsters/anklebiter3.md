@@ -4,7 +4,7 @@ description: "Young horned anklebiter is an enemy in Andor's Trail (animal) with
 
 # ![](../assets/icons/monsters/monsters_tometik4_55.png){ .sprite } Young horned anklebiter
 
-**Found in:** Loneford: [lodar0](../maps/lodar0.md), Loneford: [lodar2](../maps/lodar2.md), Loneford: [lodar5](../maps/lodar5.md), [lodar11](../maps/lodar11.md) (+7 more)
+**Found in:** Loneford: [Lodar 0](../maps/lodar0.md), Loneford: [Lodar 2](../maps/lodar2.md), Loneford: [Lodar 5](../maps/lodar5.md), [Lodar 11](../maps/lodar11.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -57,17 +57,17 @@ description: "Young horned anklebiter is an enemy in Andor's Trail (animal) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar0](../maps/lodar0.md) | Loneford | 3 | – |
-| [lodar11](../maps/lodar11.md) | – | 2 | – |
-| [lodar14](../maps/lodar14.md) | – | 1 | – |
-| [lodar17](../maps/lodar17.md) | – | 2 | – |
-| [lodar19](../maps/lodar19.md) | – | 2 | – |
-| [lodar2](../maps/lodar2.md) | Loneford | 4 | – |
-| [lodar4](../maps/lodar4.md) | – | 2 | – |
-| [lodar5](../maps/lodar5.md) | Loneford | 2 | – |
-| [lodar7](../maps/lodar7.md) | – | 3 | – |
-| [lodar8](../maps/lodar8.md) | – | 1 | – |
-| [lodar9](../maps/lodar9.md) | – | 2 | – |
+| [Lodar 0](../maps/lodar0.md) | Loneford | 3 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 2 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 1 | – |
+| [Lodar 17](../maps/lodar17.md) | – | 2 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 2 | – |
+| [Lodar 2](../maps/lodar2.md) | Loneford | 4 | – |
+| [Lodar 4](../maps/lodar4.md) | – | 2 | – |
+| [Lodar 5](../maps/lodar5.md) | Loneford | 2 | – |
+| [Lodar 7](../maps/lodar7.md) | – | 3 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 1 | – |
+| [Lodar 9](../maps/lodar9.md) | – | 2 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP, worth 151 XP, found in mywildcave2, mywildcave3. Drops: Gold coins, Meat, Lithic scales."
+description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP, worth 151 XP, found in Mywildcave 2, Mywildcave 3. Drops: Gold coins, Meat, Lithic scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik9_33.png){ .sprite } Angry stone worm
 
-**Found in:** [mywildcave2](../maps/mywildcave2.md), [mywildcave3](../maps/mywildcave3.md)
+**Found in:** [Mywildcave 2](../maps/mywildcave2.md), [Mywildcave 3](../maps/mywildcave3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mywildcave2, mywildcave3 |
+| **Found in** | Mywildcave 2, Mywildcave 3 |
 | **Class** | Reptile |
 | **HP** | 40 |
 | **XP when defeated** | 151 |
@@ -58,8 +58,8 @@ description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mywildcave2](../maps/mywildcave2.md) | – | 1 | Appears later, during a quest |
-| [mywildcave3](../maps/mywildcave3.md) | – | 4 | Appears later, during a quest |
+| [Mywildcave 2](../maps/mywildcave2.md) | – | 1 | Appears later, during a quest |
+| [Mywildcave 3](../maps/mywildcave3.md) | – | 4 | Appears later, during a quest |
 
 
 ## Version history

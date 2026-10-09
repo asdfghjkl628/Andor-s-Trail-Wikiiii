@@ -28,7 +28,7 @@ description: "Gelatinous blob is a ordinary animal part in Andor's Trail. How to
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cave jelly](../monsters/cave_jelly.md) | 60% | 1-2 | laerothcave1, laerothcave2, laerothcave3 |
+| [Cave jelly](../monsters/cave_jelly.md) | 60% | 1-2 | Laerothcave 1, Laerothcave 2, Laerothcave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

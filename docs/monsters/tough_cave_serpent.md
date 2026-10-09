@@ -1,10 +1,10 @@
 ---
-description: "Tough cave serpent is an enemy in Andor's Trail (reptile) with 40 HP, worth 137 XP, found in basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5. Drops: Gold coins, Meat, Poison gland."
+description: "Tough cave serpent is an enemy in Andor's Trail (reptile) with 40 HP, worth 137 XP, found in Basiliskcave 1 1 3, Basiliskcave 1 1 4, Basiliskcave 1 1 5. Drops: Gold coins, Meat, Poison gland."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_19.png){ .sprite } Tough cave serpent
 
-**Found in:** [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md), [basiliskcave1_1_4](../maps/basiliskcave1_1_4.md), [basiliskcave1_1_5](../maps/basiliskcave1_1_5.md), [basiliskcave2](../maps/basiliskcave2.md)
+**Found in:** [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md), [Basiliskcave 1 1 4](../maps/basiliskcave1_1_4.md), [Basiliskcave 1 1 5](../maps/basiliskcave1_1_5.md), [Basiliskcave 2](../maps/basiliskcave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough cave serpent is an enemy in Andor's Trail (reptile) with 40 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | basiliskcave1_1_3, basiliskcave1_1_4, basiliskcave1_1_5 |
+| **Found in** | Basiliskcave 1 1 3, Basiliskcave 1 1 4, Basiliskcave 1 1 5 |
 | **Class** | Reptile |
 | **HP** | 40 |
 | **XP when defeated** | 137 |
@@ -58,10 +58,10 @@ description: "Tough cave serpent is an enemy in Andor's Trail (reptile) with 40 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md) | – | 6 | – |
-| [basiliskcave1_1_4](../maps/basiliskcave1_1_4.md) | – | 3 | – |
-| [basiliskcave1_1_5](../maps/basiliskcave1_1_5.md) | – | 3 | – |
-| [basiliskcave2](../maps/basiliskcave2.md) | – | 1 | – |
+| [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md) | – | 6 | – |
+| [Basiliskcave 1 1 4](../maps/basiliskcave1_1_4.md) | – | 3 | – |
+| [Basiliskcave 1 1 5](../maps/basiliskcave1_1_5.md) | – | 3 | – |
+| [Basiliskcave 2](../maps/basiliskcave2.md) | – | 1 | – |
 
 
 ## Version history

@@ -1,8 +1,8 @@
 ---
-description: "Wild13 is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Forest serpent, Wild boar, Hardshell beetle. Exits to Wild14, Wild12."
+description: "Wild 13 is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Wild boar, Forest serpent, Hardshell beetle. Exits to Wild 14, Wild 12."
 ---
 
-# Wild13
+# Wild 13
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Wild13 is an outdoor location in Andor's Trail, near Fallhaven (se
 | **Region** | Near Fallhaven (settlement) |
 | **Type** | Outdoors |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Wild13** is an outdoor map, near Fallhaven (settlement). It has no NPCs and 3 kinds of enemy. Exits lead to Wild14, Wild12.
+**Wild 13** is an outdoor map, near Fallhaven (settlement). It has no NPCs and 3 kinds of enemy. Exits lead to Wild 14, Wild 12.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild13.webp" alt="Map of Wild13" width="640" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../wild14/#place-west" title="Exit to Wild14" style="left:95.000%;top:60.000%;width:5.000%;height:13.333%"></a><a id="place-west" class="mo mo-mapchange" href="../wild12/#place-east" title="Exit to Wild12" style="left:0.000%;top:33.333%;width:5.000%;height:13.333%"></a><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:5.000%;top:53.333%;width:40.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:40.000%;top:13.333%;width:35.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Forest serpent" style="left:50.000%;top:73.333%;width:40.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:45.000%;top:46.667%;width:15.000%;height:13.333%"></span><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:5.000%;top:60.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:15.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:40.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/forest_serpent/" title="Forest serpent" style="left:55.000%;top:86.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_snakes_4.png" alt="Forest serpent"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:45.000%;top:53.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:66.667%" title="Exit (east): to [Wild14](wild14.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:40.000%" title="Exit (west): to [Wild12](wild12.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild13.webp" alt="Map of Wild 13" width="640" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../wild14/#place-west" title="Exit to Wild 14" style="left:95.000%;top:60.000%;width:5.000%;height:13.333%"></a><a id="place-west" class="mo mo-mapchange" href="../wild12/#place-east" title="Exit to Wild 12" style="left:0.000%;top:33.333%;width:5.000%;height:13.333%"></a><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:5.000%;top:53.333%;width:40.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Wild boar" style="left:40.000%;top:13.333%;width:35.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Forest serpent" style="left:50.000%;top:73.333%;width:40.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:45.000%;top:46.667%;width:15.000%;height:13.333%"></span><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:5.000%;top:60.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:15.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/wild_boar/" title="Wild boar" style="left:40.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Wild boar"></a><a class="mob" href="../../monsters/forest_serpent/" title="Forest serpent" style="left:55.000%;top:86.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_snakes_4.png" alt="Forest serpent"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:45.000%;top:53.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:66.667%" title="Exit (east): to [Wild 14](wild14.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:40.000%" title="Exit (west): to [Wild 12](wild12.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Wild14](wild14.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Wild12](wild12.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Wild 14](wild14.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Wild 12](wild12.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,15 +41,15 @@ description: "Wild13 is an outdoor location in Andor's Trail, near Fallhaven (se
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Wild14](wild14.md) | Foaming Flask Tavern | 1 |
-| West | [Wild12](wild12.md) | Fallhaven | 2 |
+| East | [Wild 14](wild14.md) | Foaming Flask Tavern | 1 |
+| West | [Wild 12](wild12.md) | Fallhaven | 2 |
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 3 | – |
+| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Hardshell beetle](../monsters/hardshell_beetle.md) | 25 | 0–5 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

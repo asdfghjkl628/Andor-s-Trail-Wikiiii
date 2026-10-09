@@ -4,7 +4,7 @@ description: "Myrelis is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_gisons_13.png){ .sprite } Myrelis
 
-**Where to find Myrelis:** Mt. Galmore: [galmore_58](../maps/galmore_58.md#pin-npc-mg_myrelis)
+**Where to find Myrelis:** Mt. Galmore: [Galmore 58](../maps/galmore_58.md#pin-npc-mg_myrelis)
 
 <div class="infobox" markdown>
 
@@ -24,11 +24,11 @@ description: "Myrelis is a non-player character (NPC) in Andor's Trail, found in
 
 - [Lost treasures](../quests/nocmar.md): stage 35
 - [You shall pass](../quests/undertell_barricades.md): stage 10
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stage 10
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Myrelis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Myrelis. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg_myrelis_selector.json" data-npc="Myrelis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,19 +36,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mg_myrelis_selector"></span>**`mg_myrelis_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 9 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-9))* → [mg_myrelis_illusion_10](#d-mg_myrelis_illusion_10)
+    - branch 1 *(if reached stage 9 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-9))* → [mg_myrelis_illusion_10](#d-mg_myrelis_illusion_10)
 
     <span id="d-mg_myrelis_illusion_10"></span>**`mg_myrelis_illusion_10`** Myrelis: “So, what did you think of my work?”
 
     - “What was that back there?” → [mg_myrelis_illusion_what_was_that_20](#d-mg_myrelis_illusion_what_was_that_20)
     - “You did that? How?” → [mg_myrelis_illusion_you_did_that_10](#d-mg_myrelis_illusion_you_did_that_10)
     - “Why did you build that here?” → [mg_myrelis_illusion_why_build_that_10](#d-mg_myrelis_illusion_why_build_that_10)
-    - “We've already discussed it. Don't you remember?” *(if reached stage 10 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-10))* → [mg_myrelis_vaelric_5](#d-mg_myrelis_vaelric_5)
-    - “I was wondering, why are those barricades there? [pointing southwest]” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-20) is 20; reached stage 3 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-3))* → [mg_myrelis_barricades_10](#d-mg_myrelis_barricades_10)
+    - “We've already discussed it. Don't you remember?” *(if reached stage 10 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-10))* → [mg_myrelis_vaelric_5](#d-mg_myrelis_vaelric_5)
+    - “I was wondering, why are those barricades there? [pointing southwest]” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-20) is 20; reached stage 3 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-3))* → [mg_myrelis_barricades_10](#d-mg_myrelis_barricades_10)
     - “How do I get past those barricades?” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-35) is 35; NOT reached stage 20 of [You shall pass](../quests/undertell_barricades.md#stage-20))* → [mg_myrelis_shannal_10](#d-mg_myrelis_shannal_10)
     - “I am wondering if you could help me, I am looking for something.” *(if latest stage of [Lost treasures](../quests/nocmar.md#stage-30) is 30)* → [mg_myrelis_undertell_10](#d-mg_myrelis_undertell_10)
 
@@ -84,7 +84,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I'm looking for some place called "Undertell", do you know where it is?” → [mg_myrelis_undertell_20](#d-mg_myrelis_undertell_20)
     - “I'm looking for my brother. His name is Andor and he looks a lot like me.” → [mg_myrelis_andor](#d-mg_myrelis_andor)
 
-    <span id="d-mg_myrelis_vaelric_10"></span>**`mg_myrelis_vaelric_10`** Myrelis: “Sure, ask away.” — **effects:** sets stage 10 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-10)
+    <span id="d-mg_myrelis_vaelric_10"></span>**`mg_myrelis_vaelric_10`** Myrelis: “Sure, ask away.” — **effects:** sets stage 10 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-10)
 
     - “Do you know of Vaelric, the healer?” → [mg_myrelis_vaelric_20](#d-mg_myrelis_vaelric_20)
 

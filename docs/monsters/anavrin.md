@@ -1,10 +1,10 @@
 ---
-description: "Anavrin is a non-player character (NPC) in Andor's Trail, found in undertell_5."
+description: "Anavrin is a non-player character (NPC) in Andor's Trail, found in Undertell 5."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_3.png){ .sprite } Anavrin
 
-**Where to find Anavrin:** [undertell_5](../maps/undertell_5.md#pin-npc-anavrin)
+**Where to find Anavrin:** [Undertell 5](../maps/undertell_5.md#pin-npc-anavrin)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Anavrin is a non-player character (NPC) in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_5 |
+| **Found in** | Undertell 5 |
 | **Entry ID** | `anavrin` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -25,7 +25,7 @@ description: "Anavrin is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Anavrin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Anavrin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/anavrin_initial_selector.json" data-npc="Anavrin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-anavrin_initial_selector"></span>**`anavrin_initial_selector`** *(silent check: the first matching branch below is taken)*
 

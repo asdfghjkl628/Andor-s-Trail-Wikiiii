@@ -4,7 +4,7 @@ description: "Galmore sky hunter is an enemy in Andor's Trail (animal) with 1 HP
 
 # ![](../assets/icons/monsters/monsters_tometik9_12.png){ .sprite } Galmore sky hunter
 
-**Found in:** Mt. Galmore: [galmore_68](../maps/galmore_68.md)
+**Found in:** Mt. Galmore: [Galmore 68](../maps/galmore_68.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Galmore sky hunter is an enemy in Andor's Trail (animal) with 1 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_68](../maps/galmore_68.md) | Mt. Galmore | 1 | – |
+| [Galmore 68](../maps/galmore_68.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

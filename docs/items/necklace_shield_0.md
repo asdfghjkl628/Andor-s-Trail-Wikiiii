@@ -45,7 +45,7 @@ description: "Lesser shielding necklace is a ordinary necklace in Andor's Trail 
 
 ### Found in containers
 
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-1) (container 2, 50%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-1) (container 2, 50%), Prim
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

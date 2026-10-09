@@ -4,7 +4,7 @@ description: "Assistant torturer is an enemy in Andor's Trail (humanoid) with 12
 
 # ![](../assets/icons/monsters/monsters_ld1_23.png){ .sprite } Assistant torturer
 
-**Found in:** Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md)
+**Found in:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Assistant torturer is an enemy in Andor's Trail (humanoid) with 12
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_0](../maps/guynmart_main_0.md) | Guynmart Castle | 2 | – |
+| [Guynmart main 0](../maps/guynmart_main_0.md) | Guynmart Castle | 2 | – |
 
 
 ## Version history

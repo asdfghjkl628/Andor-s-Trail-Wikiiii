@@ -4,7 +4,7 @@ description: "Yellow forest ant is an enemy in Andor's Trail (insect) with 5 HP,
 
 # ![](../assets/icons/monsters/monsters_insects_2.png){ .sprite } Yellow forest ant
 
-**Found in:** Blackwater Mountain: [wild2](../maps/wild2.md), Crossglen: [gapfiller3](../maps/gapfiller3.md), Fallhaven: [fallhaven_se](../maps/fallhaven_se.md), Fallhaven: [fallhaven_sw](../maps/fallhaven_sw.md) (+3 more)
+**Found in:** Blackwater Mountain: [Wild 2](../maps/wild2.md), Crossglen: [Gapfiller 3](../maps/gapfiller3.md), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md), Fallhaven: [Fallhaven south-west](../maps/fallhaven_sw.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -55,13 +55,13 @@ description: "Yellow forest ant is an enemy in Andor's Trail (insect) with 5 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_se](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
-| [fallhaven_sw](../maps/fallhaven_sw.md) | Fallhaven | 4 | – |
-| [gapfiller2](../maps/gapfiller2.md) | Fallhaven | 2 | – |
-| [gapfiller3](../maps/gapfiller3.md) | Crossglen | 2 | – |
-| [wild2](../maps/wild2.md) | Blackwater Mountain | 4 | – |
-| [wild3](../maps/wild3.md) | Fallhaven | 3 | – |
-| [wild9](../maps/wild9.md) | Fallhaven | 1 | – |
+| [Fallhaven south-east](../maps/fallhaven_se.md) | Fallhaven | 1 | – |
+| [Fallhaven south-west](../maps/fallhaven_sw.md) | Fallhaven | 4 | – |
+| [Gapfiller 2](../maps/gapfiller2.md) | Fallhaven | 2 | – |
+| [Gapfiller 3](../maps/gapfiller3.md) | Crossglen | 2 | – |
+| [Wild 2](../maps/wild2.md) | Blackwater Mountain | 4 | – |
+| [Wild 3](../maps/wild3.md) | Fallhaven | 3 | – |
+| [Wild 9](../maps/wild9.md) | Fallhaven | 1 | – |
 
 
 ## Version history

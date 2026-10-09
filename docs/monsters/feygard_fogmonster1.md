@@ -4,7 +4,7 @@ description: "Wobbling foggerlump is an enemy in Andor's Trail (demon) with 220 
 
 # ![](../assets/icons/monsters/monsters_tometik8_26.png){ .sprite } Wobbling foggerlump
 
-**Found in:** Guynmart Castle: [guynmart_wood_14](../maps/guynmart_wood_14.md)
+**Found in:** Guynmart Castle: [Guynmart wood 14](../maps/guynmart_wood_14.md)
 
 <div class="infobox" markdown>
 
@@ -60,7 +60,7 @@ description: "Wobbling foggerlump is an enemy in Andor's Trail (demon) with 220 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_14](../maps/guynmart_wood_14.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 14](../maps/guynmart_wood_14.md) | Guynmart Castle | 1 | – |
 
 
 ## Version history

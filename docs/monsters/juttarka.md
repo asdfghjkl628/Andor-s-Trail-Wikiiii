@@ -4,7 +4,7 @@ description: "Juttarka is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_185.png){ .sprite } Juttarka
 
-**Where to find Juttarka:** Brimhaven: [brimhaven_anakis_house](../maps/brimhaven_anakis_house.md#pin-npc-juttarka)
+**Where to find Juttarka:** Brimhaven: [Brimhaven anakis house](../maps/brimhaven_anakis_house.md#pin-npc-juttarka)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Juttarka is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Juttarka. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Juttarka. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/juttarka_thank.json" data-npc="Juttarka" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-juttarka_thank"></span>**`juttarka_thank`** Juttarka: “Thank you for saving my life. Please come back and visit me sometime in the future when you are older.”
 

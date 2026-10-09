@@ -4,7 +4,7 @@ description: "Pup rat is an enemy in Andor's Trail (animal) with 77 HP, worth 12
 
 # ![](../assets/icons/monsters/monsters_rltiles2_146.png){ .sprite } Pup rat
 
-**Found in:** Remgard: [island_underground1](../maps/island_underground1.md), [island_underground4](../maps/island_underground4.md), [island_underground4a](../maps/island_underground4a.md), [island_underground4b](../maps/island_underground4b.md) (+2 more)
+**Found in:** Remgard: [Island underground 1](../maps/island_underground1.md), [Island underground 4](../maps/island_underground4.md), [Island underground 4a](../maps/island_underground4a.md), [Island underground 4b](../maps/island_underground4b.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -55,12 +55,12 @@ description: "Pup rat is an enemy in Andor's Trail (animal) with 77 HP, worth 12
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground1](../maps/island_underground1.md) | Remgard | 6 | – |
-| [island_underground4](../maps/island_underground4.md) | – | 8 | – |
-| [island_underground4a](../maps/island_underground4a.md) | – | 26 | – |
-| [island_underground4b](../maps/island_underground4b.md) | – | 14 | – |
-| [island_underground4c](../maps/island_underground4c.md) | – | 3 | – |
-| [island_underground5](../maps/island_underground5.md) | – | 1 | – |
+| [Island underground 1](../maps/island_underground1.md) | Remgard | 6 | – |
+| [Island underground 4](../maps/island_underground4.md) | – | 8 | – |
+| [Island underground 4a](../maps/island_underground4a.md) | – | 26 | – |
+| [Island underground 4b](../maps/island_underground4b.md) | – | 14 | – |
+| [Island underground 4c](../maps/island_underground4c.md) | – | 3 | – |
+| [Island underground 5](../maps/island_underground5.md) | – | 1 | – |
 
 
 ## Version history

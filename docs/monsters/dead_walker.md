@@ -1,10 +1,10 @@
 ---
-description: "Deadwalker is an enemy in Andor's Trail (undead) with 203 HP, worth 428 XP, found in haunted_forest1, haunted_forest14, haunted_forest19. Drops: Human skull, Gold coins, Skeletal remains."
+description: "Deadwalker is an enemy in Andor's Trail (undead) with 203 HP, worth 428 XP, found in Haunted forest 1, Haunted forest 14, Haunted forest 19. Drops: Human skull, Gold coins, Skeletal remains."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_228.png){ .sprite } Deadwalker
 
-**Found in:** [haunted_forest1](../maps/haunted_forest1.md), [haunted_forest14](../maps/haunted_forest14.md), [haunted_forest19](../maps/haunted_forest19.md), [haunted_forest2](../maps/haunted_forest2.md) (+13 more)
+**Found in:** [Haunted forest 1](../maps/haunted_forest1.md), [Haunted forest 14](../maps/haunted_forest14.md), [Haunted forest 19](../maps/haunted_forest19.md), [Haunted forest 2](../maps/haunted_forest2.md) (+13 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Deadwalker is an enemy in Andor's Trail (undead) with 203 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_forest1, haunted_forest14, haunted_forest19 |
+| **Found in** | Haunted forest 1, Haunted forest 14, Haunted forest 19 |
 | **Class** | Undead |
 | **HP** | 203 |
 | **XP when defeated** | 428 |
@@ -56,23 +56,23 @@ description: "Deadwalker is an enemy in Andor's Trail (undead) with 203 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_forest1](../maps/haunted_forest1.md) | – | 3 | – |
-| [haunted_forest14](../maps/haunted_forest14.md) | – | 5 | – |
-| [haunted_forest19](../maps/haunted_forest19.md) | – | 1 | – |
-| [haunted_forest2](../maps/haunted_forest2.md) | – | 1 | – |
-| [haunted_forest23](../maps/haunted_forest23.md) | – | 1 | – |
-| [haunted_forest25](../maps/haunted_forest25.md) | – | 1 | – |
-| [haunted_forest3](../maps/haunted_forest3.md) | – | 2 | – |
-| [haunted_forest4](../maps/haunted_forest4.md) | – | 1 | – |
-| [haunted_forest5](../maps/haunted_forest5.md) | – | 1 | – |
-| [haunted_forest6](../maps/haunted_forest6.md) | – | 6 | – |
-| [haunted_forest7](../maps/haunted_forest7.md) | – | 4 | – |
-| [haunted_forest9](../maps/haunted_forest9.md) | – | 1 | – |
-| [haunted_forest_coffin1](../maps/haunted_forest_coffin1.md) | – | 1 | – |
-| [haunted_forest_coffin2](../maps/haunted_forest_coffin2.md) | – | 4 | – |
-| [haunted_forest_filler](../maps/haunted_forest_filler.md) | – | 1 | – |
-| [haunted_forest_way_to_house2](../maps/haunted_forest_way_to_house2.md) | – | 2 | – |
-| [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md) | – | 1 | – |
+| [Haunted forest 1](../maps/haunted_forest1.md) | – | 3 | – |
+| [Haunted forest 14](../maps/haunted_forest14.md) | – | 5 | – |
+| [Haunted forest 19](../maps/haunted_forest19.md) | – | 1 | – |
+| [Haunted forest 2](../maps/haunted_forest2.md) | – | 1 | – |
+| [Haunted forest 23](../maps/haunted_forest23.md) | – | 1 | – |
+| [Haunted forest 25](../maps/haunted_forest25.md) | – | 1 | – |
+| [Haunted forest 3](../maps/haunted_forest3.md) | – | 2 | – |
+| [Haunted forest 4](../maps/haunted_forest4.md) | – | 1 | – |
+| [Haunted forest 5](../maps/haunted_forest5.md) | – | 1 | – |
+| [Haunted forest 6](../maps/haunted_forest6.md) | – | 6 | – |
+| [Haunted forest 7](../maps/haunted_forest7.md) | – | 4 | – |
+| [Haunted forest 9](../maps/haunted_forest9.md) | – | 1 | – |
+| [Haunted forest coffin 1](../maps/haunted_forest_coffin1.md) | – | 1 | – |
+| [Haunted forest coffin 2](../maps/haunted_forest_coffin2.md) | – | 4 | – |
+| [Haunted forest filler](../maps/haunted_forest_filler.md) | – | 1 | – |
+| [Haunted forest way to house 2](../maps/haunted_forest_way_to_house2.md) | – | 2 | – |
+| [Vilegard sullengard filler 1](../maps/vilegard_sullengard_filler1.md) | – | 1 | – |
 
 
 ## Version history

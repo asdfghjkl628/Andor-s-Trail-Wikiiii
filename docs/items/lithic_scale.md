@@ -28,10 +28,10 @@ description: "Lithic scales is a ordinary animal part in Andor's Trail. How to g
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Ancient stone worm](../monsters/ancient_stone_worm.md) | 5% | 1-2 | mywildcave, mywildcave2, mywildcave3 |
-| [Stone worm](../monsters/stone_worm_2.md) | 1% | 1 | mywildcave, mywildcave1, mywildcave2 |
-| [Old stone worm](../monsters/old_stone_worm.md) | 1% | 1 | mywildcave, mywildcave1, mywildcave2 |
-| [Angry stone worm](../monsters/angry_stoneworm.md) | 1% | 1 | mywildcave2, mywildcave3 |
+| [Ancient stone worm](../monsters/ancient_stone_worm.md) | 5% | 1-2 | Mywildcave, Mywildcave 2, Mywildcave 3 |
+| [Stone worm](../monsters/stone_worm_2.md) | 1% | 1 | Mywildcave, Mywildcave 1, Mywildcave 2 |
+| [Old stone worm](../monsters/old_stone_worm.md) | 1% | 1 | Mywildcave, Mywildcave 1, Mywildcave 2 |
+| [Angry stone worm](../monsters/angry_stoneworm.md) | 1% | 1 | Mywildcave 2, Mywildcave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

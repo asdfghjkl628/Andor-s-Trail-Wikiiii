@@ -13,7 +13,7 @@ description: "A Wicked witch is a quest in Andor's Trail, started by Bela. 14 st
 | **Stages** | 14 (completes at 50, 70, 95, 96) |
 | **Started by** | [Bela](../monsters/bela.md) |
 | **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_first.md), [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third), [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer), [Emmeline](../monsters/captive_girl.md) |
-| **Locations** | [fallhaven_se](../maps/fallhaven_se.md), [lake_shore_road_1](../maps/lake_shore_road_1.md), [witch_house](../maps/witch_house.md) |
+| **Locations** | [Fallhaven south-east](../maps/fallhaven_se.md), [Lake shore road 1](../maps/lake_shore_road_1.md), [Witch house](../maps/witch_house.md) |
 | **Total XP** | 46,182 |
 | **Related quests** | 2 |
 
@@ -43,87 +43,178 @@ Start with [Bela](../monsters/bela.md). Required:
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [A giant snake](bela_gsnake.md#stage-90) | stage 90 reached, for stage 10 here |
-| Unlocks | [Sutdove_nondisplay (hidden flag)](sutdover_hidden.md#stage-1) | stage 1 there needs stage 65 here |
-| Blocks | [Sutdove_nondisplay (hidden flag)](sutdover_hidden.md#stage-1) | reaching stages 90, 95, 96 here closes stage 1 there |
+| Unlocks | [Sutdover story flags (hidden flag)](sutdover_hidden.md#stage-1) | stage 1 there needs stage 65 here |
+| Blocks | [Sutdover story flags (hidden flag)](sutdover_hidden.md#stage-1) | reaching stages 90, 95, 96 here closes stage 1 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Bela, the Fallhaven tavern keeper heard from a customer about a possible kidnapping of a girl. I should ask around town if anyone knows more. | [Bela](../monsters/bela.md) | – | – |
-| <span id="stage-20"></span>20 | The "busy farmer", in the southeastern part of Fallhaven knows something about the witch. | [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) ([fallhaven_se](../maps/fallhaven_se.md)) | – | – |
-| <span id="stage-30"></span>30 | The "busy farmer" and his best friend, Addie, were kept captive by the witch a very long time ago when they were just kids. He never saw Addie again. | [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) ([fallhaven_se](../maps/fallhaven_se.md)) | stage 20 | – |
-| <span id="stage-40"></span>40 | The "busy farmer" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers.<br><span class="qnote">🗺️ Part of [Lake shore road 1](../maps/lake_shore_road_1.md) visibly changes.</span> | [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) ([fallhaven_se](../maps/fallhaven_se.md)) | stage 20 | – |
-| <span id="stage-50"></span>50 | After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was "confident in my path" and that "we shall see". I wonder what that meant? **(completes quest)** | [Bonicksa](../monsters/wicked_witch_first.md) ([witch_house](../maps/witch_house.md)) | stage 40 | starts timer “wicked_witch_despawn_timer” |
-| <span id="stage-55"></span>55 | I have attacked Bonicksa. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-60"></span>60 | I killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Witch house](../maps/witch_house.md).</span> | stepping on a trigger on [witch_house](../maps/witch_house.md) | – | spawns monsters on witch_house |
-| <span id="stage-65"></span>65 | I "killed" Bonicksa again, only for her to reappear.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Witch house](../maps/witch_house.md).</span> | stepping on a trigger on [witch_house](../maps/witch_house.md) | – | spawns monsters on witch_house |
-| <span id="stage-70"></span>70 | Bonicksa lives and could not be defeated. But I learned a huge life lesson. **(completes quest)** | [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third) ([witch_house](../maps/witch_house.md)) | stage 65 | 1,000 XP<br>sets stage 1 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-1)<br>spawns monsters on lake_shore_road_0<br>changes map lake_shore_road_0 |
-| <span id="stage-80"></span>80 | I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from Bonicksa. | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | – | sets stage 1 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-1)<br>spawns monsters on lake_shore_road_0<br>changes map lake_shore_road_0 |
-| <span id="stage-85"></span>85 | Emmeline asked me to get her "a lot" of those "Tonics of Blood". | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | stage 90 | – |
-| <span id="stage-90"></span>90 | Emmeline told me to head east of the witch's house to find the undead that know about the 'Tonic of Blood'. | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | carry 10× [Tonic of blood](../items/tonic_of_blood.md) | – |
-| <span id="stage-95"></span>95 | I gave Emmeline 25 of the "Tonics of Blood" that she asked for and she was then able to leave that terrible place. **(completes quest)** | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | hand over 25× [Tonic of blood](../items/tonic_of_blood.md), stage 90 | 24,097 XP |
-| <span id="stage-96"></span>96 | I gave Emmeline 20 of the 25 "Tonics of Blood" that she asked for and she was then able to leave that terrible place. **(completes quest)** | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) | carry 20× [Tonic of blood](../items/tonic_of_blood.md), hand over 20× [Tonic of blood](../items/tonic_of_blood.md), stage 90 | 21,085 XP |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Bela, the Fallhaven tavern keeper heard from a customer about a… ▸</span><span class="l">▴ less</span></summary>Bela, the Fallhaven tavern keeper heard from a customer about a possible kidnapping of a girl. I should ask around town if anyone knows more.</details> | [Bela](../monsters/bela.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">The "busy farmer", in the southeastern part of Fallhaven knows… ▸</span><span class="l">▴ less</span></summary>The "busy farmer", in the southeastern part of Fallhaven knows something about the witch.</details> | [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">The "busy farmer" and his best friend, Addie, were kept captive by… ▸</span><span class="l">▴ less</span></summary>The "busy farmer" and his best friend, Addie, were kept captive by the witch a very long time ago when they were just kids. He never saw Addie again.</details> | [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">The "busy farmer" told me that the witch's house is just south of… ▸</span><span class="l">▴ less</span></summary>The "busy farmer" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers.</details><br><span class="qnote">🗺️ Part of [Lake shore road 1](../maps/lake_shore_road_1.md) visibly changes.</span> | [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">After meeting Bonicksa, the wicked witch, I decided to let her live… ▸</span><span class="l">▴ less</span></summary>After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was "confident in my path" and that "we shall see". I wonder what that meant?</details> **(ends quest)** | [Bonicksa](../monsters/wicked_witch_first.md) | – |
+| <span id="stage-55"></span>55 | I have attacked Bonicksa. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I killed what I thought was Bonicksa, but I quickly realized that I… ▸</span><span class="l">▴ less</span></summary>I killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Witch house](../maps/witch_house.md).</span> | stepping on a trigger on [Witch house](../maps/witch_house.md) | spawns monsters on witch_house |
+| <span id="stage-65"></span>[65](#route-65) | I "killed" Bonicksa again, only for her to reappear.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Witch house](../maps/witch_house.md).</span> | stepping on a trigger on [Witch house](../maps/witch_house.md) | spawns monsters on witch_house |
+| <span id="stage-70"></span>[70](#route-70) | Bonicksa lives and could not be defeated. But I learned a huge life lesson. **(ends quest)** | [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third) | 1,000 XP, spawns monsters on lake_shore_road_0, changes map lake_shore_road_0 |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">I discovered a young girl named Emmeline just behind the 'wicked… ▸</span><span class="l">▴ less</span></summary>I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from Bonicksa.</details> | [Emmeline](../monsters/captive_girl.md) | spawns monsters on lake_shore_road_0, changes map lake_shore_road_0 |
+| <span id="stage-85"></span>[85](#route-85) | Emmeline asked me to get her "a lot" of those "Tonics of Blood". | [Emmeline](../monsters/captive_girl.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">Emmeline told me to head east of the witch's house to find the… ▸</span><span class="l">▴ less</span></summary>Emmeline told me to head east of the witch's house to find the undead that know about the 'Tonic of Blood'.</details> | [Emmeline](../monsters/captive_girl.md) | – |
+| <span id="stage-95"></span>[95](#route-95) | <details class="jt"><summary><span class="s">I gave Emmeline 25 of the "Tonics of Blood" that she asked for and… ▸</span><span class="l">▴ less</span></summary>I gave Emmeline 25 of the "Tonics of Blood" that she asked for and she was then able to leave that terrible place.</details> **(ends quest)** | [Emmeline](../monsters/captive_girl.md) | 24,097 XP |
+| <span id="stage-96"></span>[96](#route-96) | <details class="jt"><summary><span class="s">I gave Emmeline 20 of the 25 "Tonics of Blood" that she asked for… ▸</span><span class="l">▴ less</span></summary>I gave Emmeline 20 of the 25 "Tonics of Blood" that she asked for and she was then able to leave that terrible place.</details> **(ends quest)** | [Emmeline](../monsters/captive_girl.md) | 21,085 XP |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bela](../monsters/bela.md) → choose “So?” — **conditions:** reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90); NOT reached stage 50 of [A Wicked witch](../quests/wicked_witch.md#stage-50); NOT reached stage 70 of [A Wicked witch](../quests/wicked_witch.md#stage-70); NOT reached stage 95 of [A Wicked witch](../quests/wicked_witch.md#stage-95); NOT reached stage 96 of [A Wicked witch](../quests/wicked_witch.md#stage-96) → **stage 10**. NPC: “A customer with a very interesting report about a kidnapped girl and a witch.”
+??? note "Stage 10 · Bela · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Bela](../monsters/bela.md), choose “So?”
 
-    1. Talk to [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) ([fallhaven_se](../maps/fallhaven_se.md)) → choose “Great, more stories with grandpa.” — **conditions:** reached stage 20 of [A Wicked witch](../quests/wicked_witch.md#stage-20); NOT reached stage 40 of [A Wicked witch](../quests/wicked_witch.md#stage-40) → **stage 20**. NPC: “She was a young beautiful woman, but terrifyingly alluring. So much so, that she easily coerced us into following her…”
+    - **Needs:** not yet stage 50, 70, 95, 96; reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90)
+    - *“A customer with a very interesting report about a kidnapped girl and a witch.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) ([fallhaven_se](../maps/fallhaven_se.md)) → choose “You think?” — **conditions:** reached stage 20 of [A Wicked witch](../quests/wicked_witch.md#stage-20); NOT reached stage 40 of [A Wicked witch](../quests/wicked_witch.md#stage-40) → **stage 30**. NPC: “Yes. You see, after I escaped, I never saw Addie again.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Busy farmer · 1 way"
 
-    1. Talk to [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer) ([fallhaven_se](../maps/fallhaven_se.md)) → choose “Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?” — **conditions:** reached stage 20 of [A Wicked witch](../quests/wicked_witch.md#stage-20); NOT reached stage 40 of [A Wicked witch](../quests/wicked_witch.md#stage-40) → **stage 40**. NPC: “Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers.”
+    **Way 1:** Talk to [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer), choose “Great, more stories with grandpa.”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 20; not yet stage 40
+    - *“She was a young beautiful woman, but terrifyingly alluring. So much so, that she easily coerced us into following her into her house.”*
 
-    1. Talk to [Bonicksa](../monsters/wicked_witch_first.md) ([witch_house](../maps/witch_house.md)) → choose “Witches don't bother me. I'll leave you be.” — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-40) is 40 → **stage 50**; also starts timer “wicked_witch_despawn_timer”. NPC: “How intriguing. Such confidence in your path. We shall see, won't we?”
 
-???+ note "Stage 60: 1 route"
+<span id="route-30"></span>
 
-    1. stepping on a trigger on [witch_house](../maps/witch_house.md) → the conversation leads here automatically — **conditions:** killed 1× [Bonicksa](../monsters/wicked_witch_first.md); NOT reached stage 60 of [A Wicked witch](../quests/wicked_witch.md#stage-60) → **stage 60**; also spawns monsters on witch_house. NPC: “As the "witch" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the…”
+??? note "Stage 30 · Busy farmer · 1 way"
 
-???+ note "Stage 65: 1 route"
+    **Way 1:** Talk to [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer), choose “You think?”
 
-    1. stepping on a trigger on [witch_house](../maps/witch_house.md) → the conversation leads here automatically — **conditions:** NOT reached stage 65 of [A Wicked witch](../quests/wicked_witch.md#stage-65); killed 1× [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_second) → **stage 65**; also spawns monsters on witch_house. NPC: “After defeating the real witch, she quickly reappears.”
+    - **Needs:** stage 20; not yet stage 40
+    - *“Yes. You see, after I escaped, I never saw Addie again.”*
 
-???+ note "Stage 70: 1 route"
 
-    1. Talk to [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third) ([witch_house](../maps/witch_house.md)) → choose “[disgruntled] Is this some kind of sick game to you?” — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-65) is 65 → **stage 70**; also sets stage 1 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-1), spawns monsters on lake_shore_road_0, changes map lake_shore_road_0. NPC: “[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies…”
+<span id="route-40"></span>
 
-???+ note "Stage 80: 1 route"
+??? note "Stage 40 · Busy farmer · 1 way"
 
-    1. Talk to [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) → choose “What ... do I know you? You're just a young girl?” — **conditions:** NOT reached stage 90 of [A Wicked witch](../quests/wicked_witch.md#stage-90); NOT reached stage 95 of [A Wicked witch](../quests/wicked_witch.md#stage-95); NOT reached stage 96 of [A Wicked witch](../quests/wicked_witch.md#stage-96) → **stage 80**; also sets stage 1 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-1), spawns monsters on lake_shore_road_0, changes map lake_shore_road_0. NPC: “Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.”
+    **Way 1:** Talk to [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer), choose “Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?”
 
-???+ note "Stage 85: 1 route"
+    - **Needs:** stage 20; not yet stage 40
+    - *“Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers.”*
 
-    1. Talk to [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) → the conversation leads here automatically — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90 → **stage 85**. NPC: “I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot.”
 
-???+ note "Stage 90: 1 route"
+<span id="route-50"></span>
 
-    1. Talk to [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) → choose “Can you help me out a little bit? Do you know anything about them?” — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; carry 10× [Tonic of blood](../items/tonic_of_blood.md); NOT carry 20× [Tonic of blood](../items/tonic_of_blood.md) → **stage 90**. NPC: “Ah, YES. I remember her saying that an "undead" friend of her's east of here taught her how to make them.”
+??? note "Stage 50 · Bonicksa · 1 way"
 
-???+ note "Stage 95: 1 route"
+    **Way 1:** Talk to [Bonicksa](../monsters/wicked_witch_first.md), choose “Witches don't bother me. I'll leave you be.”
 
-    1. Talk to [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) → choose “Well, I have twenty-five of those for you.” — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; hand over 25× [Tonic of blood](../items/tonic_of_blood.md) → **stage 95**. NPC: “WOW! You actually managed to find twenty-five! I am so grateful.”
+    - **Needs:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-40) is 40
+    - <small>Also: starts timer “wicked_witch_despawn_timer”</small>
+    - *“How intriguing. Such confidence in your path. We shall see, won't we?”*
 
-???+ note "Stage 96: 1 route"
 
-    1. Talk to [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) → choose “I know that you "asked" for twenty-five, but I have twenty and they are hard to get. Please take these.” — **conditions:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; carry 20× [Tonic of blood](../items/tonic_of_blood.md); NOT carry 25× [Tonic of blood](../items/tonic_of_blood.md); hand over 20× [Tonic of blood](../items/tonic_of_blood.md) → **stage 96**. NPC: “OK. I won't make you go back just for five more when you've already brought me twenty.”
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on witch_house · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Witch house](../maps/witch_house.md)
+
+    - **Needs:** not yet stage 60; killed 1× [Bonicksa](../monsters/wicked_witch_first.md)
+    - **Gives:** spawns monsters on witch_house
+    - *“As the "witch" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the tragedy of your…”*
+
+
+<span id="route-65"></span>
+
+??? note "Stage 65 · stepping on a trigger on witch_house · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Witch house](../maps/witch_house.md)
+
+    - **Needs:** not yet stage 65; killed 1× [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_second)
+    - **Gives:** spawns monsters on witch_house
+    - *“After defeating the real witch, she quickly reappears.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Bonicksa · 1 way"
+
+    **Way 1:** Talk to [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third), choose “[disgruntled] Is this some kind of sick game to you?”
+
+    - **Needs:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-65) is 65
+    - **Gives:** spawns monsters on lake_shore_road_0, changes map lake_shore_road_0
+    - <small>Also: sets stage 1 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-1)</small>
+    - *“[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Emmeline · 1 way"
+
+    **Way 1:** Talk to [Emmeline](../monsters/captive_girl.md), choose “What ... do I know you? You're just a young girl?”
+
+    - **Needs:** not yet stage 90, 95, 96
+    - **Gives:** spawns monsters on lake_shore_road_0, changes map lake_shore_road_0
+    - <small>Also: sets stage 1 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-1)</small>
+    - *“Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.”*
+
+
+<span id="route-85"></span>
+
+??? note "Stage 85 · Emmeline · 1 way"
+
+    **Way 1:** Talk to [Emmeline](../monsters/captive_girl.md), automatic
+
+    - **Needs:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90
+    - *“I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Emmeline · 1 way"
+
+    **Way 1:** Talk to [Emmeline](../monsters/captive_girl.md), choose “Can you help me out a little bit? Do you know anything about them?”
+
+    - **Needs:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; carry 10× [Tonic of blood](../items/tonic_of_blood.md); not carry 20× [Tonic of blood](../items/tonic_of_blood.md)
+    - *“Ah, YES. I remember her saying that an "undead" friend of her's east of here taught her how to make them.”*
+
+
+<span id="route-95"></span>
+
+??? note "Stage 95 · Emmeline · 1 way"
+
+    **Way 1:** Talk to [Emmeline](../monsters/captive_girl.md), choose “Well, I have twenty-five of those for you.”
+
+    - **Needs:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; hand over 25× [Tonic of blood](../items/tonic_of_blood.md)
+    - *“WOW! You actually managed to find twenty-five! I am so grateful.”*
+
+
+<span id="route-96"></span>
+
+??? note "Stage 96 · Emmeline · 1 way"
+
+    **Way 1:** Talk to [Emmeline](../monsters/captive_girl.md), choose “I know that you "asked" for twenty-five, but I have twenty and they are hard to get. Please take these.”
+
+    - **Needs:** latest stage of [A Wicked witch](../quests/wicked_witch.md#stage-90) is 90; carry 20× [Tonic of blood](../items/tonic_of_blood.md); not carry 25× [Tonic of blood](../items/tonic_of_blood.md); hand over 20× [Tonic of blood](../items/tonic_of_blood.md)
+    - *“OK. I won't make you go back just for five more when you've already brought me twenty.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

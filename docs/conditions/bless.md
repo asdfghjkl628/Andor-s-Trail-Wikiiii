@@ -27,9 +27,9 @@ description: "Bless is a beneficial spiritual condition in Andor's Trail: attack
 |---|---|
 | Attack chance | +5 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -52,7 +52,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

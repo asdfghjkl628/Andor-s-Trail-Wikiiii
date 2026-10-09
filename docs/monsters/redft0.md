@@ -4,7 +4,7 @@ description: "Tough redfoot beast is an enemy in Andor's Trail (animal) with 39 
 
 # ![](../assets/icons/monsters/monsters_rltiles4_9.png){ .sprite } Tough redfoot beast
 
-**Found in:** Charwood: [waytominingtown3](../maps/waytominingtown3.md), Fallhaven: [waytominingtown0](../maps/waytominingtown0.md), Foaming Flask Tavern: [roadbeforecrossroads8](../maps/roadbeforecrossroads8.md), Foaming Flask Tavern: [waytominingtown1](../maps/waytominingtown1.md) (+1 more)
+**Found in:** Charwood: [Waytominingtown 3](../maps/waytominingtown3.md), Fallhaven: [Waytominingtown 0](../maps/waytominingtown0.md), Foaming Flask Tavern: [Roadbeforecrossroads 8](../maps/roadbeforecrossroads8.md), Foaming Flask Tavern: [Waytominingtown 1](../maps/waytominingtown1.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -56,11 +56,11 @@ description: "Tough redfoot beast is an enemy in Andor's Trail (animal) with 39 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadbeforecrossroads8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 1 | – |
-| [waytominingtown0](../maps/waytominingtown0.md) | Fallhaven | 6 | – |
-| [waytominingtown1](../maps/waytominingtown1.md) | Foaming Flask Tavern | 13 | – |
-| [waytominingtown1a](../maps/waytominingtown1a.md) | Foaming Flask Tavern | 1 | – |
-| [waytominingtown3](../maps/waytominingtown3.md) | Charwood | 4 | – |
+| [Roadbeforecrossroads 8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 1 | – |
+| [Waytominingtown 0](../maps/waytominingtown0.md) | Fallhaven | 6 | – |
+| [Waytominingtown 1](../maps/waytominingtown1.md) | Foaming Flask Tavern | 13 | – |
+| [Waytominingtown 1a](../maps/waytominingtown1a.md) | Foaming Flask Tavern | 1 | – |
+| [Waytominingtown 3](../maps/waytominingtown3.md) | Charwood | 4 | – |
 
 
 ## Version history

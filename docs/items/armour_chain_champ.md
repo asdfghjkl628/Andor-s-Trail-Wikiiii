@@ -39,7 +39,7 @@ description: "Champion's chain mail is a ordinary chain mail in Andor's Trail (M
 
 ### Sold by
 
-- [Minarra](../monsters/minarra.md) (houseatcrossroads4)
+- [Minarra](../monsters/minarra.md) (Houseatcrossroads 4)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

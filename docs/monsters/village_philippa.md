@@ -1,5 +1,5 @@
 ---
-description: "Philippa is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, gamjee_well_jail_cells. Starts A Feygard delicacy."
+description: "Philippa is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, Gamjee well jail cells. Starts A Feygard delicacy."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_205.png){ .sprite } Philippa
@@ -12,7 +12,7 @@ description: "Philippa is an NPC who can also be fought in Andor's Trail, found 
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [A Feygard delicacy](../quests/feygard_delicacy.md) |
-| **Found in** | Wexlow Village, gamjee_well_jail_cells |
+| **Found in** | Wexlow Village, Gamjee well jail cells |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -22,27 +22,27 @@ description: "Philippa is an NPC who can also be fought in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Philippa. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Philippa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`village_philippa`](#v-village_philippa) | NPC | Wexlow Village: [wexlow_village_se_house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa) | starts [A Feygard delicacy](../quests/feygard_delicacy.md) | – |
-| [`troll_hollow_philippa`](#v-troll_hollow_philippa) | Enemy | [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
+| [`village_philippa`](#v-village_philippa) | NPC | Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa) | starts [A Feygard delicacy](../quests/feygard_delicacy.md) | – |
+| [`troll_hollow_philippa`](#v-troll_hollow_philippa) | Enemy | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
 
 ## Wexlow Village, Wexlow village south-east house (village_philippa) { #v-village_philippa }
 
 **Entry ID:** `village_philippa` · **Type:** NPC · **Role:** Starts [A Feygard delicacy](../quests/feygard_delicacy.md)
 
-**Location:** Wexlow Village: [wexlow_village_se_house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa)
+**Location:** Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_philippa)
 
 ### Quests
 
 - [A Feygard delicacy](../quests/feygard_delicacy.md): stages 1, 2, 4, 5, 6, 7, 8
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 12
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 12
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Philippa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Philippa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/village_philippa_initial_selector.json" data-npc="Philippa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,7 +50,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (31 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-village_philippa-village_philippa_initial_selector"></span>**`village_philippa_initial_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -92,8 +92,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-village_philippa-village_philippa_fd_complete_selector"></span>**`village_philippa_fd_complete_selector`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if 18 rounds passed since timer “feydelight_baking”)* → [village_philippa_fd_complete_yes](#d-village_philippa-village_philippa_fd_complete_yes)
-    - branch 2 *(if NOT reached stage 12 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-12))* → [village_philippa_fd_complete_no](#d-village_philippa-village_philippa_fd_complete_no)
-    - branch 3 *(if reached stage 12 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-12))* → [village_philippa_fd_complete_no_impatient](#d-village_philippa-village_philippa_fd_complete_no_impatient)
+    - branch 2 *(if NOT reached stage 12 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-12))* → [village_philippa_fd_complete_no](#d-village_philippa-village_philippa_fd_complete_no)
+    - branch 3 *(if reached stage 12 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-12))* → [village_philippa_fd_complete_no_impatient](#d-village_philippa-village_philippa_fd_complete_no_impatient)
 
     <span id="d-village_philippa-village_philippa_fd_all_items_2"></span>**`village_philippa_fd_all_items_2`** Philippa: “Come back later and it will be ready.” — **effects:** sets stage 7 of [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7), starts timer “feydelight_baking”
 
@@ -118,7 +118,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [village_philippa_try_fd](#d-village_philippa-village_philippa_try_fd)
 
-    <span id="d-village_philippa-village_philippa_fd_complete_no"></span>**`village_philippa_fd_complete_no`** Philippa: “Sorry, no it is not. Please come back later.” — **effects:** sets stage 12 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-12)
+    <span id="d-village_philippa-village_philippa_fd_complete_no"></span>**`village_philippa_fd_complete_no`** Philippa: “Sorry, no it is not. Please come back later.” — **effects:** sets stage 12 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-12)
 
 
     <span id="d-village_philippa-village_philippa_fd_complete_no_impatient"></span>**`village_philippa_fd_complete_no_impatient`** Philippa: “You know, my Feygard customers never pester me like this. They know to be patient and wait for this great delicacy.”
@@ -151,7 +151,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-village_philippa-village_philippa_fd_12"></span>**`village_philippa_fd_12`** Philippa: “How about trying a beekeeper? Geez, you are not the smartest are you?” — **effects:** sets stage 6 of [A Feygard delicacy](../quests/feygard_delicacy.md#stage-6)
 
-    - “You know what? Now that you mention it, I have met a beekeeper before. But where? Anyway, what about...” *(if reached stage 10 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-10))* → [village_philippa_fd_10](#d-village_philippa-village_philippa_fd_10)
+    - “You know what? Now that you mention it, I have met a beekeeper before. But where? Anyway, what about...” *(if reached stage 10 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-10))* → [village_philippa_fd_10](#d-village_philippa-village_philippa_fd_10)
     - “OK, but where do I find a beekeeper?” → [village_philippa_fd_12_bee](#d-village_philippa-village_philippa_fd_12_bee)
 
     <span id="d-village_philippa-village_philippa_fd_13"></span>**`village_philippa_fd_13`** Philippa: “Try a bakery. They always need butter.”
@@ -228,7 +228,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `troll_hollow_philippa` · **Type:** Enemy
 
-**Location:** [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md)
+**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
 
 ### Combat statistics
 
@@ -256,7 +256,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
 
 
 ### Version history

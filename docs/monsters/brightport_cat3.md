@@ -4,7 +4,7 @@ description: "Duleian panther cub is an enemy in Andor's Trail (animal) with 1 H
 
 # ![](../assets/icons/monsters/monsters_cats_1.png){ .sprite } Duleian panther cub
 
-**Found in:** Buried citadel: [brightport_cave4](../maps/brightport_cave4.md)
+**Found in:** Buried citadel: [Brightport cave 4](../maps/brightport_cave4.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Duleian panther cub is an enemy in Andor's Trail (animal) with 1 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave4](../maps/brightport_cave4.md) | Buried citadel | 2 | – |
+| [Brightport cave 4](../maps/brightport_cave4.md) | Buried citadel | 2 | – |
 
 
 ## Version history

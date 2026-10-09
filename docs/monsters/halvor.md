@@ -4,7 +4,7 @@ description: "Halvor is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_tometik1_67.png){ .sprite } Halvor
 
-**Where to find Halvor:** Charwood: [waytolostmine1](../maps/waytolostmine1.md#pin-npc-halvor), Crossglen: [crossglen](../maps/crossglen.md#pin-npc-halvor), Lake Laeroth: [mountainlake10a](../maps/mountainlake10a.md#pin-npc-halvor), [blackwater_mountain4](../maps/blackwater_mountain4.md#pin-npc-halvor)
+**Where to find Halvor:** Charwood: [Waytolostmine 1](../maps/waytolostmine1.md#pin-npc-halvor), Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-halvor), Lake Laeroth: [Mountainlake 10a](../maps/mountainlake10a.md#pin-npc-halvor), [Blackwater mountain 4](../maps/blackwater_mountain4.md#pin-npc-halvor)
 
 <div class="infobox" markdown>
 
@@ -24,10 +24,10 @@ description: "Halvor is a non-player character (NPC) in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain4](../maps/blackwater_mountain4.md) | – | 1 | Appears later, during a quest |
-| [crossglen](../maps/crossglen.md) | Crossglen | 1 | – |
-| [mountainlake10a](../maps/mountainlake10a.md) | Lake Laeroth | 1 | Appears later, during a quest |
-| [waytolostmine1](../maps/waytolostmine1.md) | Charwood | 1 | Appears later, during a quest |
+| [Blackwater mountain 4](../maps/blackwater_mountain4.md) | – | 1 | Appears later, during a quest |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 1 | – |
+| [Mountainlake 10a](../maps/mountainlake10a.md) | Lake Laeroth | 1 | Appears later, during a quest |
+| [Waytolostmine 1](../maps/waytolostmine1.md) | Charwood | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -35,7 +35,7 @@ description: "Halvor is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Halvor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Halvor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/halvor_select_begin.json" data-npc="Halvor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (69 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-halvor_select_begin"></span>**`halvor_select_begin`** *(silent check: the first matching branch below is taken)*
 

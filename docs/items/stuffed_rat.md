@@ -24,7 +24,7 @@ description: "Stuffed rat from Andor is a ordinary other in Andor's Trail. How t
 
 ### Quest & dialogue rewards
 
-- From [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) (1×)
+- From [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 466 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Malicious cave snake, Vicious cave snake. Exits to Ratdom maze 457, Ratdom maze 477, Ratdom maze 476, Ratdom maze 456."
+description: "Ratdom maze 466 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Vicious cave snake, Malicious cave snake. Exits to Ratdom maze 457, Ratdom maze 477, Ratdom maze 476, Ratdom maze 456."
 ---
 
 # Ratdom maze 466
@@ -79,8 +79,8 @@ description: "Ratdom maze 466 is an indoor location in Andor's Trail. NPCs: Clev
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
-| [Malicious cave snake](../monsters/ratdom_m2b.md) | 30 | 5–5 | 2 | shares spawn with Vicious cave snake |
 | [Vicious cave snake](../monsters/ratdom_m2a.md) | 30 | 5–5 | 2 | shares spawn with Malicious cave snake |
+| [Malicious cave snake](../monsters/ratdom_m2b.md) | 30 | 5–5 | 2 | shares spawn with Vicious cave snake |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -88,8 +88,8 @@ description: "Ratdom maze 466 is an indoor location in Andor's Trail. NPCs: Clev
 
 - [Rats!](../quests/mikhail_rats.md): a scripted event can trigger here from stage 100
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
-- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10
+- [Ratdom maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10
 
 ## Points of interest
 

@@ -4,7 +4,7 @@ description: "Hofala is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } Hofala
 
-**Where to find Hofala:** Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_cook)
+**Where to find Hofala:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_cook)
 
 <div class="infobox" markdown>
 
@@ -33,12 +33,12 @@ description: "Hofala is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Roses](../quests/guynmart.md): stages 62, 64
-- [guynmart_quest_cook_bread (hidden flag)](../quests/guynmart_quest_cook_bread.md): stage 1
-- [guynmart_quest_cook_lunch (hidden flag)](../quests/guynmart_quest_cook_lunch.md): stage 1
+- [Guynmart quest cook bread (hidden flag)](../quests/guynmart_quest_cook_bread.md): stage 1
+- [Guynmart quest cook lunch (hidden flag)](../quests/guynmart_quest_cook_lunch.md): stage 1
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hofala. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hofala. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_cook_10.json" data-npc="Hofala" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_cook_10"></span>**`guynmart_cook_10`** *(silent check: the first matching branch below is taken)*
 
@@ -84,7 +84,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_cook_30"></span>**`guynmart_cook_30`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [guynmart_quest_cook_bread (hidden flag)](../quests/guynmart_quest_cook_bread.md#stage-1))* → [guynmart_cook_32](#d-guynmart_cook_32)
+    - branch 1 *(if reached stage 1 of [Guynmart quest cook bread (hidden flag)](../quests/guynmart_quest_cook_bread.md#stage-1))* → [guynmart_cook_32](#d-guynmart_cook_32)
     - branch 2 → [guynmart_cook_34](#d-guynmart_cook_34)
 
     <span id="d-guynmart_cook_50"></span>**`guynmart_cook_50`** Hofala: “Yes, of course. But be quick, I still have a lot of work to do.”
@@ -131,11 +131,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Eh, yes, of course.” → *conversation ends*
 
-    <span id="d-guynmart_cook_120"></span>**`guynmart_cook_120`** Hofala: “...and now it is suitable for her. Hurry now, while it is still hot!” — **effects:** gives [Hannah's lunch](../items/guynmart_lunch.md), sets stage 64 of [Roses](../quests/guynmart.md#stage-64), sets stage 1 of [guynmart_quest_cook_lunch (hidden flag)](../quests/guynmart_quest_cook_lunch.md#stage-1)
+    <span id="d-guynmart_cook_120"></span>**`guynmart_cook_120`** Hofala: “...and now it is suitable for her. Hurry now, while it is still hot!” — **effects:** gives [Hannah's lunch](../items/guynmart_lunch.md), sets stage 64 of [Roses](../quests/guynmart.md#stage-64), sets stage 1 of [Guynmart quest cook lunch (hidden flag)](../quests/guynmart_quest_cook_lunch.md#stage-1)
 
     - “Ouch! It is really hot!” → *conversation ends*
 
-    <span id="d-guynmart_cook_36"></span>**`guynmart_cook_36`** Hofala: “Here I have some fresh bread for you. Enjoy it.” — **effects:** gives [Bread](../items/bread.md), sets stage 1 of [guynmart_quest_cook_bread (hidden flag)](../quests/guynmart_quest_cook_bread.md#stage-1)
+    <span id="d-guynmart_cook_36"></span>**`guynmart_cook_36`** Hofala: “Here I have some fresh bread for you. Enjoy it.” — **effects:** gives [Bread](../items/bread.md), sets stage 1 of [Guynmart quest cook bread (hidden flag)](../quests/guynmart_quest_cook_bread.md#stage-1)
 
     - “Many thanks. Bye.” → *conversation ends*
     - “I would like to see Lady Hannah.” → [guynmart_cook_40](#d-guynmart_cook_40)

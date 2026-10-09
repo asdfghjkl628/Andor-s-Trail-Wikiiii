@@ -4,7 +4,7 @@ description: "Moonwalker tree stump is an enemy in Andor's Trail (construct) wit
 
 # ![](../assets/icons/monsters/monsters_johny_7.png){ .sprite } Moonwalker tree stump
 
-**Found in:** Brightport: [waytobrightport21](../maps/waytobrightport21.md)
+**Found in:** Brightport: [Waytobrightport 21](../maps/waytobrightport21.md)
 
 <div class="infobox" markdown>
 
@@ -54,7 +54,7 @@ description: "Moonwalker tree stump is an enemy in Andor's Trail (construct) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 7 | – |
+| [Waytobrightport 21](../maps/waytobrightport21.md) | Brightport | 7 | – |
 
 
 ## Version history

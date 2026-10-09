@@ -4,7 +4,7 @@ description: "Dietrich is an enemy in Andor's Trail (humanoid) with 1 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_ld1_86.png){ .sprite } Dietrich
 
-**Found in:** Brightport: [brightport_school10](../maps/brightport_school10.md)
+**Found in:** Brightport: [Brightport school 10](../maps/brightport_school10.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Dietrich is an enemy in Andor's Trail (humanoid) with 1 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_school10](../maps/brightport_school10.md) | Brightport | 1 | – |
+| [Brightport school 10](../maps/brightport_school10.md) | Brightport | 1 | – |
 
 
 ## Version history

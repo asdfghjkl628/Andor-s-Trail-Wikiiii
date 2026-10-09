@@ -1,10 +1,10 @@
 ---
-description: "Skeletal raider is an enemy in Andor's Trail (undead) with 227 HP, worth 506 XP, found in haunted_forest14, haunted_forest15, haunted_forest19. Drops: Skeletal remains, Gold coins."
+description: "Skeletal raider is an enemy in Andor's Trail (undead) with 227 HP, worth 506 XP, found in Haunted forest 14, Haunted forest 15, Haunted forest 19. Drops: Skeletal remains, Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_10.png){ .sprite } Skeletal raider
 
-**Found in:** [haunted_forest14](../maps/haunted_forest14.md), [haunted_forest15](../maps/haunted_forest15.md), [haunted_forest19](../maps/haunted_forest19.md), [haunted_forest21](../maps/haunted_forest21.md) (+5 more)
+**Found in:** [Haunted forest 14](../maps/haunted_forest14.md), [Haunted forest 15](../maps/haunted_forest15.md), [Haunted forest 19](../maps/haunted_forest19.md), [Haunted forest 21](../maps/haunted_forest21.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Skeletal raider is an enemy in Andor's Trail (undead) with 227 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_forest14, haunted_forest15, haunted_forest19 |
+| **Found in** | Haunted forest 14, Haunted forest 15, Haunted forest 19 |
 | **Class** | Undead |
 | **HP** | 227 |
 | **XP when defeated** | 506 |
@@ -55,15 +55,15 @@ description: "Skeletal raider is an enemy in Andor's Trail (undead) with 227 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_forest14](../maps/haunted_forest14.md) | – | 4 | – |
-| [haunted_forest15](../maps/haunted_forest15.md) | – | 3 | – |
-| [haunted_forest19](../maps/haunted_forest19.md) | – | 4 | – |
-| [haunted_forest21](../maps/haunted_forest21.md) | – | 3 | – |
-| [haunted_forest22](../maps/haunted_forest22.md) | – | 2 | – |
-| [haunted_forest24](../maps/haunted_forest24.md) | – | 3 | – |
-| [haunted_forest25](../maps/haunted_forest25.md) | – | 2 | – |
-| [haunted_forest_way_to_house4](../maps/haunted_forest_way_to_house4.md) | – | 4 | – |
-| [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
+| [Haunted forest 14](../maps/haunted_forest14.md) | – | 4 | – |
+| [Haunted forest 15](../maps/haunted_forest15.md) | – | 3 | – |
+| [Haunted forest 19](../maps/haunted_forest19.md) | – | 4 | – |
+| [Haunted forest 21](../maps/haunted_forest21.md) | – | 3 | – |
+| [Haunted forest 22](../maps/haunted_forest22.md) | – | 2 | – |
+| [Haunted forest 24](../maps/haunted_forest24.md) | – | 3 | – |
+| [Haunted forest 25](../maps/haunted_forest25.md) | – | 2 | – |
+| [Haunted forest way to house 4](../maps/haunted_forest_way_to_house4.md) | – | 4 | – |
+| [Vilegard sullengard filler 1](../maps/vilegard_sullengard_filler1.md) | – | 3 | – |
 
 
 ## Version history

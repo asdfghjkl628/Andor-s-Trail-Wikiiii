@@ -1,10 +1,10 @@
 ---
-description: "Zortak leader is an NPC who can also be fought in Andor's Trail, found in lodar8."
+description: "Zortak leader is an NPC who can also be fought in Andor's Trail, found in Lodar 8."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_85.png){ .sprite } Zortak leader
 
-**Where to find Zortak leader:** [lodar8](../maps/lodar8.md#pin-npc-zortakb)
+**Where to find Zortak leader:** [Lodar 8](../maps/lodar8.md#pin-npc-zortakb)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Zortak leader is an NPC who can also be fought in Andor's Trail, f
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | lodar8 |
+| **Found in** | Lodar 8 |
 | **Class** | Giant |
 | **HP** | 279 |
 | **XP when defeated** | 623 |
@@ -61,11 +61,11 @@ description: "Zortak leader is an NPC who can also be fought in Andor's Trail, f
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar8](../maps/lodar8.md) | – | 1 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zortak leader. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zortak leader. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zortakb.json" data-npc="Zortak leader" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zortakb"></span>**`zortakb`** Zortak leader: “The zortak will defeat you!”
 

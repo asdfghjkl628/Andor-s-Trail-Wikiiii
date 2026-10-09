@@ -37,11 +37,11 @@ description: "Superior wooden shield is a ordinary shield, wood (light) in Andor
 
 ### Sold by
 
-- [Minarra](../monsters/minarra.md) (houseatcrossroads4)
+- [Minarra](../monsters/minarra.md) (Houseatcrossroads 4)
 
 ### Found in containers
 
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 50%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

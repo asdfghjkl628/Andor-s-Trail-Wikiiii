@@ -21,24 +21,24 @@ description: "Gambler is an NPC who can also be fought in Andor's Trail, found i
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Gambler. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Gambler. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`brv_blackjack_gambler1`](#v-brv_blackjack_gambler1) | NPC | Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1) | – | – |
-| [`brv_blackjack_gambler1_evil`](#v-brv_blackjack_gambler1_evil) | Enemy | Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | – | 25 |
-| [`brv_blackjack_gambler2`](#v-brv_blackjack_gambler2) | NPC | Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2) | – | – |
-| [`brv_blackjack_gambler2_evil`](#v-brv_blackjack_gambler2_evil) | Enemy | Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | – | 25 |
+| [`brv_blackjack_gambler1`](#v-brv_blackjack_gambler1) | NPC | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1) | – | – |
+| [`brv_blackjack_gambler1_evil`](#v-brv_blackjack_gambler1_evil) | Enemy | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | – | 25 |
+| [`brv_blackjack_gambler2`](#v-brv_blackjack_gambler2) | NPC | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2) | – | – |
+| [`brv_blackjack_gambler2_evil`](#v-brv_blackjack_gambler2_evil) | Enemy | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | – | 25 |
 
 ## Brimhaven, Brimhaven tavern west back (brv_blackjack_gambler1) { #v-brv_blackjack_gambler1 }
 
 **Entry ID:** `brv_blackjack_gambler1` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1)
+**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gambler. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gambler. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackjack_gambler1.json" data-npc="Gambler" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_blackjack_gambler1-blackjack_gambler1"></span>**`blackjack_gambler1`** Gambler: “What a bad day. I was losing all the time.”
 
@@ -95,7 +95,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_blackjack_gambler1_evil` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)
+**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
 
 ### Combat statistics
 
@@ -131,12 +131,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | Brimhaven | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Fair play?](../quests/brv_blackjack.md#stage-60) with [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
-- [Fair play?](../quests/brv_blackjack.md#stage-60) with stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
+- [Fair play?](../quests/brv_blackjack.md#stage-60) with [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([Brimhaven tavern west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
+- [Fair play?](../quests/brv_blackjack.md#stage-60) with stepping on a trigger on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -192,11 +192,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_blackjack_gambler2` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2)
+**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gambler. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gambler. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackjack_gambler2.json" data-npc="Gambler" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -204,7 +204,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_blackjack_gambler2-blackjack_gambler2"></span>**`blackjack_gambler2`** Gambler: “I already made a fortune. Want to join us? Then take a seat in the empty chair and talk to the dealer.”
 
@@ -266,7 +266,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_blackjack_gambler2_evil` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)
+**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
 
 ### Combat statistics
 
@@ -302,11 +302,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | Brimhaven | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Fair play?](../quests/brv_blackjack.md#stage-60) with stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
+- [Fair play?](../quests/brv_blackjack.md#stage-60) with stepping on a trigger on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
 
 
 ### Version history

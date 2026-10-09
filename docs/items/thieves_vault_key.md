@@ -27,7 +27,7 @@ description: "Thieves' vault key is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Wanted men](../quests/wanted_men.md#stage-45) (100%)
+- From [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Wanted men](../quests/wanted_men.md#stage-45) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,10 +38,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-60) | handed over (1×) | “[Lie] I have deposited the {10000} gold. Here is your key back, as promised.” |
-| [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) | [Wanted men](../quests/wanted_men.md#stage-60) | handed over (1×) | “Yes. Here it is.” |
-| [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) | – | must be carried (1×) | “Yes, but you are not having it. I will loot the vault myself and keep everything” |
-| stepping on a trigger on [wild6_house](../maps/wild6_house.md) | – | must be carried (1×) | “N” |
+| [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-60) | handed over (1×) | “[Lie] I have deposited the {10000} gold. Here is your key back, as promised.” |
+| [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([Aidem base 2](../maps/aidem_base_2.md)) | [Wanted men](../quests/wanted_men.md#stage-60) | handed over (1×) | “Yes. Here it is.” |
+| [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([Aidem base 2](../maps/aidem_base_2.md)) | – | must be carried (1×) | “Yes, but you are not having it. I will loot the vault myself and keep everything” |
+| stepping on a trigger on [Wild 6 house](../maps/wild6_house.md) | – | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

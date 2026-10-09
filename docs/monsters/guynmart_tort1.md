@@ -4,7 +4,7 @@ description: "Torturer is an enemy in Andor's Trail (humanoid) with 120 HP, wort
 
 # ![](../assets/icons/monsters/monsters_ld1_136.png){ .sprite } Torturer
 
-**Found in:** Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md)
+**Found in:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Torturer is an enemy in Andor's Trail (humanoid) with 120 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_tower_0](../maps/guynmart_tower_0.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart tower 0](../maps/guynmart_tower_0.md) | Guynmart Castle | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [Roses](../quests/guynmart.md#stage-136) with walking into a blocked passage on [guynmart_tower_0](../maps/guynmart_tower_0.md) checks that this enemy has been defeated.
+- [Roses](../quests/guynmart.md#stage-136) with walking into a blocked passage on [Guynmart tower 0](../maps/guynmart_tower_0.md) checks that this enemy has been defeated.
 
 
 ## Version history

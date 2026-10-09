@@ -53,7 +53,7 @@ description: "Feline hat is a rare headwear, cloth in Andor's Trail (Max HP +1, 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gylew's henchman](../monsters/gylew_henchman.md#v-gylew_henchman_aggresive) | 100% | 1 | waterway5 |
+| [Gylew's henchman](../monsters/gylew_henchman.md#v-gylew_henchman_aggresive) | 100% | 1 | Waterway 5 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

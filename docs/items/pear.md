@@ -37,7 +37,7 @@ description: "Pear is a ordinary food in Andor's Trail. How to get it: shops."
 - [Torilo](../monsters/torilo.md) (Foaming Flask Tavern)
 - [Hofala](../monsters/guynmart_cook.md) (Guynmart Castle)
 - [Peasant grandfather](../monsters/brv_old_farmer.md) (Brimhaven)
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

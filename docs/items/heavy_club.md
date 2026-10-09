@@ -44,7 +44,7 @@ description: "Heavy club is a ordinary mace in Andor's Trail (Attack damage 2 to
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Drakthorn warrior captain](../monsters/drakthorn_warrior_captain.md) | 3% | 1 | final_cave_labyrinth |
+| [Drakthorn warrior captain](../monsters/drakthorn_warrior_captain.md) | 3% | 1 | Final cave labyrinth |
 
 ### Sold by
 

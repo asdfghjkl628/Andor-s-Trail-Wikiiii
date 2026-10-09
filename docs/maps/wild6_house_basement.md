@@ -1,8 +1,8 @@
 ---
-description: "Wild6 house basement is an indoor location in Andor's Trail, in Blackwater Mountain (other). Exits to Wild6 house, Thieves vault tunnel."
+description: "Wild 6 house basement is an indoor location in Andor's Trail, in Blackwater Mountain (other). Exits to Wild 6 house, Thieves vault tunnel."
 ---
 
-# Wild6 house basement
+# Wild 6 house basement
 
 <div class="infobox" markdown>
 
@@ -17,19 +17,19 @@ description: "Wild6 house basement is an indoor location in Andor's Trail, in Bl
 
 </div>
 
-**Wild6 house basement** is an indoor map, in Blackwater Mountain (other). It has no NPCs, and no enemies. Exits lead to Wild6 house, Thieves vault tunnel.
+**Wild 6 house basement** is an indoor map, in Blackwater Mountain (other). It has no NPCs, and no enemies. Exits lead to Wild 6 house, Thieves vault tunnel.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild6_house_basement.webp" alt="Map of Wild6 house basement" width="288" height="224" loading="lazy"><a id="place-first_floor" class="mo mo-mapchange" href="../wild6_house/#place-basement" title="Exit to Wild6 house" style="left:11.111%;top:71.429%;width:11.111%;height:14.286%"></a><a id="place-tunnel" class="mo mo-mapchange" href="../thieves_vault_tunnel/#place-basement" title="Exit to Thieves vault tunnel" style="left:44.444%;top:28.571%;width:11.111%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:16.667%;top:78.571%" title="Exit (southwest): to [Wild6 house](wild6_house.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:35.714%" title="Exit (stairs / passage): to [Thieves vault tunnel](thieves_vault_tunnel.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild6_house_basement.webp" alt="Map of Wild 6 house basement" width="288" height="224" loading="lazy"><a id="place-first_floor" class="mo mo-mapchange" href="../wild6_house/#place-basement" title="Exit to Wild 6 house" style="left:11.111%;top:71.429%;width:11.111%;height:14.286%"></a><a id="place-tunnel" class="mo mo-mapchange" href="../thieves_vault_tunnel/#place-basement" title="Exit to Thieves vault tunnel" style="left:44.444%;top:28.571%;width:11.111%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:16.667%;top:78.571%" title="Exit (southwest): to [Wild 6 house](wild6_house.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:35.714%" title="Exit (stairs / passage): to [Thieves vault tunnel](thieves_vault_tunnel.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southwest) | to [Wild6 house](wild6_house.md) |
+    | <span id="key-1"></span>1 | Exit (southwest) | to [Wild 6 house](wild6_house.md) |
     | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Thieves vault tunnel](thieves_vault_tunnel.md) |
 
 
@@ -39,7 +39,7 @@ description: "Wild6 house basement is an indoor location in Andor's Trail, in Bl
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southwest | [Wild6 house](wild6_house.md) | Blackwater Mountain | 1 |
+| Southwest | [Wild 6 house](wild6_house.md) | Blackwater Mountain | 1 |
 | Stairs / passage | [Thieves vault tunnel](thieves_vault_tunnel.md) | Blackwater Mountain | 2 |
 
 

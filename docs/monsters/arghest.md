@@ -4,7 +4,7 @@ description: "Arghest is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } Arghest
 
-**Where to find Arghest:** Prim: [blackwater_mountain13](../maps/blackwater_mountain13.md#pin-npc-arghest)
+**Where to find Arghest:** Prim: [Blackwater mountain 13](../maps/blackwater_mountain13.md#pin-npc-arghest)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Arghest is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Well rested](../quests/prim_innquest.md): stages 20, 30, 40
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stage 22
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stage 22
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arghest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Arghest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/arghest_start.json" data-npc="Arghest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,11 +34,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (29 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-arghest_start"></span>**`arghest_start`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 47 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-47); NOT reached stage 22 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_alert](#d-arghest_alert)
+    - Next *(if reached stage 47 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-47); NOT reached stage 22 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_alert](#d-arghest_alert)
     - branch 2 *(if reached stage 40 of [Well rested](../quests/prim_innquest.md#stage-40))* → [arghest_return_1](#d-arghest_return_1)
     - branch 3 *(if reached stage 30 of [Well rested](../quests/prim_innquest.md#stage-30))* → [arghest_return_2](#d-arghest_return_2)
     - branch 4 → [arghest_1](#d-arghest_1)
@@ -51,8 +51,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-arghest_return_1"></span>**`arghest_return_1`** Arghest: “Welcome back. Thanks for your help earlier. I hope the room at the inn can be of use to you.”
 
     - “You are welcome. Goodbye.” → *conversation ends*
-    - “Can I enter the mine?” *(if NOT reached stage 22 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_6](#d-arghest_6)
-    - “Can I enter the mine?” *(if reached stage 22 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_15](#d-arghest_15)
+    - “Can I enter the mine?” *(if NOT reached stage 22 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_6](#d-arghest_6)
+    - “Can I enter the mine?” *(if reached stage 22 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_15](#d-arghest_15)
 
     <span id="d-arghest_return_2"></span>**`arghest_return_2`** Arghest: “Welcome back. Did you bring me the 5 bottles of milk that I requested?”
 
@@ -96,8 +96,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-arghest_5"></span>**`arghest_5`** Arghest: “I am Arghest. I guard the entrance here to make sure no one enters the old mine.”
 
     - “What is this place?” → [arghest_2](#d-arghest_2)
-    - “Can I enter the mine?” *(if NOT reached stage 22 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_6](#d-arghest_6)
-    - “Can I enter the mine?” *(if reached stage 22 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_15](#d-arghest_15)
+    - “Can I enter the mine?” *(if NOT reached stage 22 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_6](#d-arghest_6)
+    - “Can I enter the mine?” *(if reached stage 22 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22))* → [arghest_15](#d-arghest_15)
 
     <span id="d-arghest_8"></span>**`arghest_8`** Arghest: “'Inn in Prim' - you sound funny.”
 
@@ -149,7 +149,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Mind if I use the room at the inn to rest in?” → [arghest_11](#d-arghest_11)
     - “Are you still going to use it?” → [arghest_11](#d-arghest_11)
 
-    <span id="d-arghest_alert_8"></span>**`arghest_alert_8`** Arghest: “Really? Many many thanks - you make my old heart cry!” — **effects:** sets stage 22 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-22)
+    <span id="d-arghest_alert_8"></span>**`arghest_alert_8`** Arghest: “Really? Many many thanks - you make my old heart cry!” — **effects:** sets stage 22 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-22)
 
     - “[muttering] I hope so. The potion was expensive enough!” → [arghest_alert_9](#d-arghest_alert_9)
 

@@ -1,10 +1,10 @@
 ---
-description: "Nesting plaguestrider is an enemy in Andor's Trail (insect) with 68 HP, worth 251 XP, found in waytolake4, waytolake5. Drops: Gold coins, Poison gland, Dead spider."
+description: "Nesting plaguestrider is an enemy in Andor's Trail (insect) with 68 HP, worth 251 XP, found in Waytolake 4, Waytolake 5. Drops: Gold coins, Poison gland, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_153.png){ .sprite } Nesting plaguestrider
 
-**Found in:** [waytolake4](../maps/waytolake4.md), [waytolake5](../maps/waytolake5.md)
+**Found in:** [Waytolake 4](../maps/waytolake4.md), [Waytolake 5](../maps/waytolake5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Nesting plaguestrider is an enemy in Andor's Trail (insect) with 6
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytolake4, waytolake5 |
+| **Found in** | Waytolake 4, Waytolake 5 |
 | **Class** | Insect |
 | **HP** | 68 |
 | **XP when defeated** | 251 |
@@ -58,8 +58,8 @@ description: "Nesting plaguestrider is an enemy in Andor's Trail (insect) with 6
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolake4](../maps/waytolake4.md) | – | 12 | – |
-| [waytolake5](../maps/waytolake5.md) | – | 8 | – |
+| [Waytolake 4](../maps/waytolake4.md) | – | 12 | – |
+| [Waytolake 5](../maps/waytolake5.md) | – | 8 | – |
 
 
 ## Version history

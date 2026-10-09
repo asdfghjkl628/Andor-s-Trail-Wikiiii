@@ -52,7 +52,7 @@ description: "Shield of the Brave is a extraordinary shield, metal (heavy) in An
 
 ### Found in containers
 
-- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-1) (container 2, 100%)
+- [Korhald cave hidden](../maps/korhald_cave_hidden.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -63,10 +63,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be worn (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | – | must be worn (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be worn (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | – | must be carried (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | – | must be worn (1×) | “Hey. I found the Korhald tomb and it had two items that I think might interest y” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

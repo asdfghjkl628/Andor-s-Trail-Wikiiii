@@ -41,8 +41,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | [Lost treasures](../quests/nocmar.md#stage-70) | handed over (1×) | “OK, it's time to see if Unnmir is right! [place the block of Galmore ice on the ” |
-| walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | [Lost treasures](../quests/nocmar.md#stage-70) | handed over (1×) | “I have a great idea! Maybe this block of ice that I found on Galmore Mountain ca” |
+| walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | [Lost treasures](../quests/nocmar.md#stage-70) | handed over (1×) | “OK, it's time to see if Unnmir is right! [place the block of Galmore ice on the ” |
+| walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | [Lost treasures](../quests/nocmar.md#stage-70) | handed over (1×) | “I have a great idea! Maybe this block of ice that I found on Galmore Mountain ca” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

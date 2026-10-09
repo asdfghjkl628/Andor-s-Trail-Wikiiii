@@ -39,8 +39,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | [Rats!](../quests/mikhail_rats.md#stage-100) | handed over (2×) | “I have already dealt with the rats.” |
-| [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | [Rats!](../quests/mikhail_rats.md#stage-100) | handed over (2×) | “Yes, I have dealt with the rats now.” |
+| [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) | [Rats!](../quests/mikhail_rats.md#stage-100) | handed over (2×) | “I have already dealt with the rats.” |
+| [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) | [Rats!](../quests/mikhail_rats.md#stage-100) | handed over (2×) | “Yes, I have dealt with the rats now.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

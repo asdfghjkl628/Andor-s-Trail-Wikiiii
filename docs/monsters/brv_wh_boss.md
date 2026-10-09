@@ -4,7 +4,7 @@ description: "Facutloni is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_135.png){ .sprite } Facutloni
 
-**Where to find Facutloni:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_boss)
+**Where to find Facutloni:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md#pin-npc-brv_wh_boss)
 
 <div class="infobox" markdown>
 
@@ -24,12 +24,12 @@ description: "Facutloni is a non-player character (NPC) in Andor's Trail, found 
 
 - [Delivery](../quests/brv_wh_delivery.md): stages 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130
 - [Inventory](../quests/brv_wh.md): stages 10, 900
-- [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md): stages 1, 2, 3
-- [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md): stages 1, 2, 3
+- [Brimhaven warehouse delivery reward (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md): stages 1, 2, 3
+- [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md): stages 1, 2, 3
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Facutloni. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Facutloni. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_boss.json" data-npc="Facutloni" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -37,15 +37,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (35 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_wh_boss"></span>**`brv_wh_boss`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 3 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3))* → [brv_wh_boss_900_10](#d-brv_wh_boss_900_10)
-    - branch 2 *(if reached stage 2 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2))* → [brv_wh_delivery_boss_10_10_yes](#d-brv_wh_delivery_boss_10_10_yes)
+    - branch 1 *(if reached stage 3 of [Brimhaven warehouse delivery reward (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3))* → [brv_wh_boss_900_10](#d-brv_wh_boss_900_10)
+    - branch 2 *(if reached stage 2 of [Brimhaven warehouse delivery reward (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2))* → [brv_wh_delivery_boss_10_10_yes](#d-brv_wh_delivery_boss_10_10_yes)
     - branch 3 *(if reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10))* → [brv_wh_delivery_boss_10_10](#d-brv_wh_delivery_boss_10_10)
-    - branch 4 *(if reached stage 3 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3))* → [brv_wh_delivery_boss_10](#d-brv_wh_delivery_boss_10)
-    - branch 5 *(if reached stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2))* → [brv_wh_boss_10_32](#d-brv_wh_boss_10_32)
+    - branch 4 *(if reached stage 3 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3))* → [brv_wh_delivery_boss_10](#d-brv_wh_delivery_boss_10)
+    - branch 5 *(if reached stage 2 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2))* → [brv_wh_boss_10_32](#d-brv_wh_boss_10_32)
     - branch 6 *(if reached stage 900 of [Inventory](../quests/brv_wh.md#stage-900))* → [brv_wh_delivery_boss_10](#d-brv_wh_delivery_boss_10)
     - branch 7 *(if reached stage 10 of [Inventory](../quests/brv_wh.md#stage-10))* → [brv_wh_boss_10_10](#d-brv_wh_boss_10_10)
     - branch 8 → [brv_wh_boss_10](#d-brv_wh_boss_10)
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_wh_delivery_boss_10_10"></span>**`brv_wh_delivery_boss_10_10`** Facutloni: “You are back. Did you deliver all of the items?”
 
-    - “Yes. I delivered everything.” *(if reached stage 10 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-10); reached stage 20 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-20); reached stage 30 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-30); reached stage 40 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-40); reached stage 50 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50); reached stage 60 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60); reached stage 70 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-70); reached stage 80 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-80); reached stage 90 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-90); reached stage 100 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-100))* → [brv_wh_delivery_boss_10_10_yes](#d-brv_wh_delivery_boss_10_10_yes)
+    - “Yes. I delivered everything.” *(if reached stage 10 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-10); reached stage 20 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-20); reached stage 30 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-30); reached stage 40 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-40); reached stage 50 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-50); reached stage 60 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60); reached stage 70 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-70); reached stage 80 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-80); reached stage 90 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-90); reached stage 100 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-100))* → [brv_wh_delivery_boss_10_10_yes](#d-brv_wh_delivery_boss_10_10_yes)
     - “Not yet.” → [brv_wh_delivery_boss_10_10_no](#d-brv_wh_delivery_boss_10_10_no)
 
     <span id="d-brv_wh_delivery_boss_10"></span>**`brv_wh_delivery_boss_10`** Facutloni: “Ah! You have finally returned, my new worker.”
@@ -85,7 +85,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Insolence! Who do you think you are?” → *conversation ends*
     - “Sure.” → [brv_wh_boss_12](#d-brv_wh_boss_12)
 
-    <span id="d-brv_wh_delivery_boss_10_10_yes_10"></span>**`brv_wh_delivery_boss_10_10_yes_10`** Facutloni: “Good job! I am glad that you work responsibly.” — **effects:** sets stage 2 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2)
+    <span id="d-brv_wh_delivery_boss_10_10_yes_10"></span>**`brv_wh_delivery_boss_10_10_yes_10`** Facutloni: “Good job! I am glad that you work responsibly.” — **effects:** sets stage 2 of [Brimhaven warehouse delivery reward (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2)
 
     - “And seriously.” → [brv_wh_delivery_boss_reward](#d-brv_wh_delivery_boss_reward)
     - “I travelled far and wide.” → [brv_wh_delivery_boss_reward](#d-brv_wh_delivery_boss_reward)
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brv_wh_delivery_boss_30](#d-brv_wh_delivery_boss_30)
 
-    <span id="d-brv_wh_boss_10_90"></span>**`brv_wh_boss_10_90`** Facutloni: “Good work gives good wages! Here is 100 gold.” — **effects:** sets stage 3 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3), gives 100× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_boss_10_90"></span>**`brv_wh_boss_10_90`** Facutloni: “Good work gives good wages! Here is 100 gold.” — **effects:** sets stage 3 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3), gives 100× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
     - “Old scrooge.” → [brv_wh_boss_10_92](#d-brv_wh_boss_10_92)
@@ -130,12 +130,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brv_wh_boss_20](#d-brv_wh_boss_20)
 
-    <span id="d-brv_wh_delivery_boss_reward"></span>**`brv_wh_delivery_boss_reward`** Facutloni: “That is serious. And here you have your well-deserved reward: 100 gold.” — **effects:** sets stage 130 of [Delivery](../quests/brv_wh_delivery.md#stage-130), sets stage 3 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3), gives 100× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_boss_reward"></span>**`brv_wh_delivery_boss_reward`** Facutloni: “That is serious. And here you have your well-deserved reward: 100 gold.” — **effects:** sets stage 130 of [Delivery](../quests/brv_wh_delivery.md#stage-130), sets stage 3 of [Brimhaven warehouse delivery reward (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-3), gives 100× [Gold coins](../items/gold.md)
 
     - “Thanks.” → *conversation ends*
     - “What the?” → [brv_wh_delivery_boss_scrooge](#d-brv_wh_delivery_boss_scrooge)
 
-    <span id="d-brv_wh_delivery_boss_30"></span>**`brv_wh_delivery_boss_30`** Facutloni: “Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.” — **effects:** sets stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10), sets stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110), sets stage 120 of [Delivery](../quests/brv_wh_delivery.md#stage-120), gives 1× [Crystal globe](../items/brv_wh_item_00.md), gives 1× [Plush pillow](../items/brv_wh_item_01.md), gives 1× [Lyre](../items/brv_wh_item_02.md), gives 1× [Yellow boot](../items/brv_wh_item_03.md), gives 1× [Chandelier](../items/brv_wh_item_04.md), gives 1× [Mysterious green something](../items/brv_wh_item_05.md), gives 1× [Old, worn cape](../items/brv_wh_item_06.md), gives 1× [Pretty porcelain figure](../items/brv_wh_item_07.md), gives 1× [Striped hammer](../items/brv_wh_item_08.md), gives 1× [Dusty old book](../items/brv_wh_item_09.md), sets stage 1 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-1), gives 1× [Facutloni's Docket](../items/facutloni_docket.md)
+    <span id="d-brv_wh_delivery_boss_30"></span>**`brv_wh_delivery_boss_30`** Facutloni: “Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.” — **effects:** sets stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10), sets stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110), sets stage 120 of [Delivery](../quests/brv_wh_delivery.md#stage-120), gives 1× [Crystal globe](../items/brv_wh_item_00.md), gives 1× [Plush pillow](../items/brv_wh_item_01.md), gives 1× [Lyre](../items/brv_wh_item_02.md), gives 1× [Yellow boot](../items/brv_wh_item_03.md), gives 1× [Chandelier](../items/brv_wh_item_04.md), gives 1× [Mysterious green something](../items/brv_wh_item_05.md), gives 1× [Old, worn cape](../items/brv_wh_item_06.md), gives 1× [Pretty porcelain figure](../items/brv_wh_item_07.md), gives 1× [Striped hammer](../items/brv_wh_item_08.md), gives 1× [Dusty old book](../items/brv_wh_item_09.md), sets stage 1 of [Brimhaven warehouse delivery reward (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-1), gives 1× [Facutloni's Docket](../items/facutloni_docket.md)
 
     - “It will be done.” → [brv_wh_delivery_boss_40](#d-brv_wh_delivery_boss_40)
     - “You want me to deliver these items to your customers?” → [brv_wh_delivery_boss_40](#d-brv_wh_delivery_boss_40)
@@ -148,7 +148,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “A pair.” → [brv_wh_boss_44](#d-brv_wh_boss_44)
 
-    <span id="d-brv_wh_boss_10_30"></span>**`brv_wh_boss_10_30`** Facutloni: “10 pairs - that is correct. So everything is in order.” — **effects:** sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900), sets stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2)
+    <span id="d-brv_wh_boss_10_30"></span>**`brv_wh_boss_10_30`** Facutloni: “10 pairs - that is correct. So everything is in order.” — **effects:** sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900), sets stage 2 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2)
 
     - Next → [brv_wh_boss_10_32](#d-brv_wh_boss_10_32)
 
@@ -181,7 +181,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Sounds easy.” → [brv_wh_boss_48](#d-brv_wh_boss_48)
 
-    <span id="d-brv_wh_boss_30"></span>**`brv_wh_boss_30`** Facutloni: “Come back to me when you found all the pairs and tell me how many there are.” — **effects:** sets stage 10 of [Inventory](../quests/brv_wh.md#stage-10), sets stage 1 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-1)
+    <span id="d-brv_wh_boss_30"></span>**`brv_wh_boss_30`** Facutloni: “Come back to me when you found all the pairs and tell me how many there are.” — **effects:** sets stage 10 of [Inventory](../quests/brv_wh.md#stage-10), sets stage 1 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-1)
 
     - “OK. I'll be back in a minute.” → *conversation ends*
     - “Eh, what do you want me to do exactly?” → [brv_wh_boss_40](#d-brv_wh_boss_40)

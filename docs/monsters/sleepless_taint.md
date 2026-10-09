@@ -1,10 +1,10 @@
 ---
-description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, worth 715 XP, found in haunted_underground_1, haunted_underground_2, haunted_underground_3. Drops: Gold coins, Regular potion of health."
+description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, worth 715 XP, found in Haunted underground 1, Haunted underground 2, Haunted underground 3. Drops: Gold coins, Regular potion of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_140.png){ .sprite } Sleepless taint
 
-**Found in:** [haunted_underground_1](../maps/haunted_underground_1.md), [haunted_underground_2](../maps/haunted_underground_2.md), [haunted_underground_3](../maps/haunted_underground_3.md), [haunted_underground_4](../maps/haunted_underground_4.md) (+1 more)
+**Found in:** [Haunted underground 1](../maps/haunted_underground_1.md), [Haunted underground 2](../maps/haunted_underground_2.md), [Haunted underground 3](../maps/haunted_underground_3.md), [Haunted underground 4](../maps/haunted_underground_4.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_underground_1, haunted_underground_2, haunted_underground_3 |
+| **Found in** | Haunted underground 1, Haunted underground 2, Haunted underground 3 |
 | **Class** | Ghost |
 | **HP** | 180 |
 | **XP when defeated** | 715 |
@@ -61,11 +61,11 @@ description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_underground_1](../maps/haunted_underground_1.md) | – | 1 | – |
-| [haunted_underground_2](../maps/haunted_underground_2.md) | – | 3 | – |
-| [haunted_underground_3](../maps/haunted_underground_3.md) | – | 3 | – |
-| [haunted_underground_4](../maps/haunted_underground_4.md) | – | 6 | – |
-| [haunted_underground_5](../maps/haunted_underground_5.md) | – | 4 | – |
+| [Haunted underground 1](../maps/haunted_underground_1.md) | – | 1 | – |
+| [Haunted underground 2](../maps/haunted_underground_2.md) | – | 3 | – |
+| [Haunted underground 3](../maps/haunted_underground_3.md) | – | 3 | – |
+| [Haunted underground 4](../maps/haunted_underground_4.md) | – | 6 | – |
+| [Haunted underground 5](../maps/haunted_underground_5.md) | – | 4 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Erupting pyreling is an enemy in Andor's Trail (construct) with 24
 
 # ![](../assets/icons/monsters/monsters_newb_1_1204.png){ .sprite } Erupting pyreling
 
-**Found in:** Mt. Galmore: [galmore_42](../maps/galmore_42.md), Mt. Galmore: [galmore_43](../maps/galmore_43.md), Mt. Galmore: [galmore_52](../maps/galmore_52.md), Mt. Galmore: [galmore_53](../maps/galmore_53.md) (+6 more)
+**Found in:** Mt. Galmore: [Galmore 42](../maps/galmore_42.md), Mt. Galmore: [Galmore 43](../maps/galmore_43.md), Mt. Galmore: [Galmore 52](../maps/galmore_52.md), Mt. Galmore: [Galmore 53](../maps/galmore_53.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -61,16 +61,16 @@ description: "Erupting pyreling is an enemy in Andor's Trail (construct) with 24
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_41](../maps/galmore_41.md) | – | 6 | – |
-| [galmore_42](../maps/galmore_42.md) | Mt. Galmore | 12 | – |
-| [galmore_43](../maps/galmore_43.md) | Mt. Galmore | 1 | – |
-| [galmore_52](../maps/galmore_52.md) | Mt. Galmore | 3 | – |
-| [galmore_53](../maps/galmore_53.md) | Mt. Galmore | 14 | – |
-| [undertell_00](../maps/undertell_00.md) | – | 3 | – |
-| [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 3 | – |
-| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 4 | – |
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 3 | – |
-| [undertell_3_lava_11](../maps/undertell_3_lava_11.md) | – | 2 | – |
+| [Galmore 41](../maps/galmore_41.md) | – | 6 | – |
+| [Galmore 42](../maps/galmore_42.md) | Mt. Galmore | 12 | – |
+| [Galmore 43](../maps/galmore_43.md) | Mt. Galmore | 1 | – |
+| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 3 | – |
+| [Galmore 53](../maps/galmore_53.md) | Mt. Galmore | 14 | – |
+| [Undertell 00](../maps/undertell_00.md) | – | 3 | – |
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 3 | – |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 4 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 3 | – |
+| [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) | – | 2 | – |
 
 
 ## Version history

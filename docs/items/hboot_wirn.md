@@ -40,7 +40,7 @@ description: "Worn iron boots is a ordinary footwear, metal (heavy) in Andor's T
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | elm_mine2 |
+| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | Elm mine 2 |
 
 ### Sold by
 
@@ -48,11 +48,11 @@ description: "Worn iron boots is a ordinary footwear, metal (heavy) in Andor's T
 
 ### Found in containers
 
-- [shortcut_lodar2](../maps/shortcut_lodar2.md#container-0) (container 1, 100%)
+- [Shortcut lodar 2](../maps/shortcut_lodar2.md#container-0) (container 1, 100%)
 
 ### Quest & dialogue rewards
 
-- From [Maevalia](../monsters/maevalia.md) ([tradehouse0](../maps/tradehouse0.md)) during [Trial by fire](../quests/charwood2.md#stage-50) (100%)
+- From [Maevalia](../monsters/maevalia.md) ([Tradehouse 0](../maps/tradehouse0.md)) during [Trial by fire](../quests/charwood2.md#stage-50) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

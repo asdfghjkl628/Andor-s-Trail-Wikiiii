@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain8 is an indoor location in Andor's Trail. Exits to Blackwater mountain7."
+description: "Blackwater mountain 8 is an indoor location in Andor's Trail. Exits to Blackwater mountain 7."
 ---
 
-# Blackwater mountain8
+# Blackwater mountain 8
 
 <div class="infobox" markdown>
 
@@ -16,20 +16,20 @@ description: "Blackwater mountain8 is an indoor location in Andor's Trail. Exits
 
 </div>
 
-**Blackwater mountain8** is an indoor map. It has no NPCs, and no enemies. Exits lead to Blackwater mountain7.
+**Blackwater mountain 8** is an indoor map. It has no NPCs, and no enemies. Exits lead to Blackwater mountain 7.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain8.webp" alt="Map of Blackwater mountain8" width="640" height="640" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain7/#place-east" title="Exit to Blackwater mountain7" style="left:75.000%;top:5.000%;width:5.000%;height:5.000%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain7/#place-south" title="Exit to Blackwater mountain7" style="left:25.000%;top:75.000%;width:5.000%;height:5.000%"></a><a class="pin pin-exit" href="#key-1" style="left:77.500%;top:7.500%" title="Exit (north): to [Blackwater mountain7](blackwater_mountain7.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:27.500%;top:77.500%" title="Exit (stairs / passage): to [Blackwater mountain7](blackwater_mountain7.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain8.webp" alt="Map of Blackwater mountain 8" width="640" height="640" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../blackwater_mountain7/#place-east" title="Exit to Blackwater mountain 7" style="left:75.000%;top:5.000%;width:5.000%;height:5.000%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain7/#place-south" title="Exit to Blackwater mountain 7" style="left:25.000%;top:75.000%;width:5.000%;height:5.000%"></a><a class="pin pin-exit" href="#key-1" style="left:77.500%;top:7.500%" title="Exit (north): to [Blackwater mountain 7](blackwater_mountain7.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:27.500%;top:77.500%" title="Exit (stairs / passage): to [Blackwater mountain 7](blackwater_mountain7.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Blackwater mountain7](blackwater_mountain7.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain7](blackwater_mountain7.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Blackwater mountain 7](blackwater_mountain7.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain 7](blackwater_mountain7.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -38,8 +38,8 @@ description: "Blackwater mountain8 is an indoor location in Andor's Trail. Exits
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Blackwater mountain7](blackwater_mountain7.md) | Prim | 1 |
-| Stairs / passage | [Blackwater mountain7](blackwater_mountain7.md) | Prim | 2 |
+| North | [Blackwater mountain 7](blackwater_mountain7.md) | Prim | 1 |
+| Stairs / passage | [Blackwater mountain 7](blackwater_mountain7.md) | Prim | 2 |
 
 
 ## Version history

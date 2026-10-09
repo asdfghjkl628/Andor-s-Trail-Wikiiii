@@ -4,7 +4,7 @@ description: "Korvan the leader of the wolves is an enemy in Andor's Trail (anim
 
 # ![](../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite } Korvan the leader of the wolves
 
-**Found in:** Crossroads Guardhouse: [roadbeforecrossroads](../maps/roadbeforecrossroads.md)
+**Found in:** Crossroads Guardhouse: [Roadbeforecrossroads](../maps/roadbeforecrossroads.md)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Korvan the leader of the wolves is an enemy in Andor's Trail (anim
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 1 | – |
+| [Roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 1 | – |
 
 ## Quests that count defeats
 
-- [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-35) with stepping on a trigger on [roadbeforecrossroads](../maps/roadbeforecrossroads.md) checks that this enemy has been defeated.
+- [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-35) with stepping on a trigger on [Roadbeforecrossroads](../maps/roadbeforecrossroads.md) checks that this enemy has been defeated.
 
 
 ## Version history

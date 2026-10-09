@@ -11,9 +11,9 @@ description: "The silver scale is a quest in Andor's Trail, started by Tjure (bl
 | **Quest ID** | `mermaid_scale` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 90, 210) |
-| **Started by** | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) |
+| **Started by** | [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) |
 | **NPCs involved** | [Tjure](../monsters/tjure.md) |
-| **Locations** | [blackwater_mountain54](../maps/blackwater_mountain54.md) |
+| **Locations** | [Blackwater mountain 54](../maps/blackwater_mountain54.md) |
 | **Total XP** | 4,000 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "The silver scale is a quest in Andor's Trail, started by Tjure (bl
 
 ## Prerequisites to start
 
-Start with [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)). Required:
+Start with [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)). Required:
 
 - reached stage 10 of [The silver scale](../quests/mermaid_scale.md#stage-10)
 
@@ -38,60 +38,117 @@ Start with [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackw
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Unlocks | [Delivery - nondisplay (hidden flag)](brv_wh_delivery_nondisplay.md#stage-50) | stage 50 there needs stage 200 here |
+| Unlocks | [Brimhaven warehouse delivery (hidden flag)](brv_wh_delivery_nondisplay.md#stage-50) | stage 50 there needs stage 200 here |
 | Unlocks | [The odd coin collector](odd_coin_collector.md#stage-10) | stage 10 there needs stage 220 here |
 | Unlocks | [The odd coin collector](odd_coin_collector.md#stage-11) | stage 11 there needs stage 220 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | In a clearing, you met Tjure, who desperately asked for your help. He had once found a mermaid asleep on the beach at the river. The colorful tail attracted him so much that he pulled out a dazzling scale and ran away. | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | – | – |
-| <span id="stage-20"></span>20 | Crying and mourning, the mermaid called after him. Finally she cursed him. Since then, Tjure has never been happy. He just wanted to get rid of the scale. Nevertheless, he never ventured back to the vicinity of the river. | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | – | – |
-| <span id="stage-30"></span>30 | A wise woman told Tjure that he could neither throw away nor destroy the scale. His only salvation would be to give it back or to have someone buy it from him. But who would ever want to incur the wrath of a mermaid? | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | – | – |
-| <span id="stage-90"></span>90 | You decided not to help Tjure. **(completes quest)** | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | – | 500 XP |
-| <span id="stage-100"></span>100 | As soon as you held the scale in your hands, a great sluggishness and dispair came over you. | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | pay 1 gold, stage 30 | applies condition mermaid_scale |
-| <span id="stage-200"></span>200 | You put the scale on the mark on the ground.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower2](../maps/roadtocarntower2.md).</span> | stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) | stage 100 | applies condition mermaid_scale |
-| <span id="stage-210"></span>210 | There rang out a beautiful song of gratitude. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower2](../maps/roadtocarntower2.md).</span><br><span class="qnote">🗺️ Part of [Roadtocarntower2](../maps/roadtocarntower2.md) visibly changes.</span> | stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) | stage 200 | 3,500 XP |
-| <span id="stage-220"></span>220 | You found a heavy bag of gold.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower2](../maps/roadtocarntower2.md).</span> | stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) | stage 210 | gives 1000× [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">In a clearing, you met Tjure, who desperately asked for your help.… ▸</span><span class="l">▴ less</span></summary>In a clearing, you met Tjure, who desperately asked for your help. He had once found a mermaid asleep on the beach at the river. The colorful tail attracted him so much that he pulled out a dazzling scale and ran away.</details> | [Tjure](../monsters/tjure.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Crying and mourning, the mermaid called after him. Finally she… ▸</span><span class="l">▴ less</span></summary>Crying and mourning, the mermaid called after him. Finally she cursed him. Since then, Tjure has never been happy. He just wanted to get rid of the scale. Nevertheless, he never ventured back to the vicinity of the river.</details> | [Tjure](../monsters/tjure.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">A wise woman told Tjure that he could neither throw away nor destroy… ▸</span><span class="l">▴ less</span></summary>A wise woman told Tjure that he could neither throw away nor destroy the scale. His only salvation would be to give it back or to have someone buy it from him. But who would ever want to incur the wrath of a mermaid?</details> | [Tjure](../monsters/tjure.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | You decided not to help Tjure. **(ends quest)** | [Tjure](../monsters/tjure.md) | 500 XP |
+| <span id="stage-100"></span>[100](#route-100) | <details class="jt"><summary><span class="s">As soon as you held the scale in your hands, a great sluggishness… ▸</span><span class="l">▴ less</span></summary>As soon as you held the scale in your hands, a great sluggishness and dispair came over you.</details> | [Tjure](../monsters/tjure.md) | applies condition mermaid_scale |
+| <span id="stage-200"></span>[200](#route-200) | You put the scale on the mark on the ground.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower 2](../maps/roadtocarntower2.md).</span> | stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md) | applies condition mermaid_scale |
+| <span id="stage-210"></span>[210](#route-210) | There rang out a beautiful song of gratitude. **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower 2](../maps/roadtocarntower2.md).</span><br><span class="qnote">🗺️ Part of [Roadtocarntower 2](../maps/roadtocarntower2.md) visibly changes.</span> | stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md) | 3,500 XP |
+| <span id="stage-220"></span>[220](#route-220) | You found a heavy bag of gold.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Roadtocarntower 2](../maps/roadtocarntower2.md).</span> | stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md) | 1000× [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) → the conversation leads here automatically — **conditions:** reached stage 10 of [The silver scale](../quests/mermaid_scale.md#stage-10) → **stage 10**. NPC: “I pulled out one of her shimmering, dazzling scales, and ran away.”
+??? note "Stage 10 · Tjure · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Tjure](../monsters/tjure.md), automatic
 
-    1. Talk to [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [The silver scale](../quests/mermaid_scale.md#stage-20) → **stage 20**. NPC: “Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that I…”
+    - **Needs:** stage 10
+    - *“I pulled out one of her shimmering, dazzling scales, and ran away.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [The silver scale](../quests/mermaid_scale.md#stage-30) → **stage 30**. NPC: “She told me that my only other option was to find some kind-hearted person to buy it from me, but then they take on…”
+<span id="route-20"></span>
 
-???+ note "Stage 90: 1 route"
+??? note "Stage 20 · Tjure · 1 way"
 
-    1. Talk to [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) → the conversation leads here automatically — **conditions:** reached stage 90 of [The silver scale](../quests/mermaid_scale.md#stage-90) → **stage 90**. NPC: “*Sigh* You were my last hope. Leave me now.”
+    **Way 1:** Talk to [Tjure](../monsters/tjure.md), automatic
 
-???+ note "Stage 100: 1 route"
+    - **Needs:** stage 20
+    - *“Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that I would never want to…”*
 
-    1. Talk to [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) → choose “No problem, here, take the gold.” — **conditions:** reached stage 30 of [The silver scale](../quests/mermaid_scale.md#stage-30); pay 1 gold → **stage 100**; also applies condition mermaid_scale. NPC: “(As soon as you take the scale in your hands, a great sluggishness and a feeling of despair come over you.)”
 
-???+ note "Stage 200: 1 route"
+<span id="route-30"></span>
 
-    1. stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) → choose “* Put the scale on the ground *” — **conditions:** latest stage of [The silver scale](../quests/mermaid_scale.md#stage-100) is 100 → **stage 200**; also applies condition mermaid_scale. NPC: “What a relief! You suddenly feel lighthearted again.”
+??? note "Stage 30 · Tjure · 1 way"
 
-???+ note "Stage 210: 1 route"
+    **Way 1:** Talk to [Tjure](../monsters/tjure.md), automatic
 
-    1. stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) → the conversation leads here automatically — **conditions:** latest stage of [The silver scale](../quests/mermaid_scale.md#stage-200) is 200 → **stage 210**. NPC: “You never heard such a beautiful sound before.”
+    - **Needs:** stage 30
+    - *“She told me that my only other option was to find some kind-hearted person to buy it from me, but then they take on the curse.”*
 
-???+ note "Stage 220: 1 route"
 
-    1. stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) → the conversation leads here automatically — **conditions:** latest stage of [The silver scale](../quests/mermaid_scale.md#stage-210) is 210 → **stage 220**; also gives 1000× [Gold coins](../items/gold.md). NPC: “You found a heavy bag of gold. 1,000 shining pieces of gold!”
+<span id="route-90"></span>
+
+??? note "Stage 90 · Tjure · 1 way"
+
+    **Way 1:** Talk to [Tjure](../monsters/tjure.md), automatic
+
+    - **Needs:** stage 90
+    - *“*Sigh* You were my last hope. Leave me now.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Tjure · 1 way"
+
+    **Way 1:** Talk to [Tjure](../monsters/tjure.md), choose “No problem, here, take the gold.”
+
+    - **Needs:** stage 30; pay 1 gold
+    - **Gives:** applies condition mermaid_scale
+    - *“(As soon as you take the scale in your hands, a great sluggishness and a feeling of despair come over you.)”*
+
+
+<span id="route-200"></span>
+
+??? note "Stage 200 · stepping on a trigger on roadtocarntower2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md), choose “* Put the scale on the ground *”
+
+    - **Needs:** latest stage of [The silver scale](../quests/mermaid_scale.md#stage-100) is 100
+    - **Gives:** applies condition mermaid_scale
+    - *“What a relief! You suddenly feel lighthearted again.”*
+
+
+<span id="route-210"></span>
+
+??? note "Stage 210 · stepping on a trigger on roadtocarntower2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md)
+
+    - **Needs:** latest stage of [The silver scale](../quests/mermaid_scale.md#stage-200) is 200
+    - *“You never heard such a beautiful sound before.”*
+
+
+<span id="route-220"></span>
+
+??? note "Stage 220 · stepping on a trigger on roadtocarntower2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md)
+
+    - **Needs:** latest stage of [The silver scale](../quests/mermaid_scale.md#stage-210) is 210
+    - **Gives:** 1000× [Gold coins](../items/gold.md)
+    - *“You found a heavy bag of gold. 1,000 shining pieces of gold!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

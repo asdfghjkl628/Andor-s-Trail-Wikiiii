@@ -25,7 +25,7 @@ description: "Cithurn's talisman is a quest gem in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-10) (1×)
+- From [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | [Just the beginning](../quests/waterwayacave.md#stage-60) | handed over (1×) | “Certainly. Here you are.” |
-| [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) | [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-120) | handed over (1×) | “Yes. I changed my mind about keeping it.” |
+| [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) | [Just the beginning](../quests/waterwayacave.md#stage-60) | handed over (1×) | “Certainly. Here you are.” |
+| [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) | [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-120) | handed over (1×) | “Yes. I changed my mind about keeping it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

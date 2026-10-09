@@ -1,10 +1,10 @@
 ---
-description: "Breeder of venomscale is an enemy in Andor's Trail (humanoid) with 197 HP, worth 376 XP, found in lodar16, lodar19. Drops: Gold coins, Poison gland, Venomscale scales, Snakeskin gloves."
+description: "Breeder of venomscale is an enemy in Andor's Trail (humanoid) with 197 HP, worth 376 XP, found in Lodar 16, Lodar 19. Drops: Gold coins, Poison gland, Venomscale scales, Snakeskin gloves."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_56.png){ .sprite } Breeder of venomscale
 
-**Found in:** [lodar16](../maps/lodar16.md), [lodar19](../maps/lodar19.md)
+**Found in:** [Lodar 16](../maps/lodar16.md), [Lodar 19](../maps/lodar19.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Breeder of venomscale is an enemy in Andor's Trail (humanoid) with
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar16, lodar19 |
+| **Found in** | Lodar 16, Lodar 19 |
 | **Class** | Humanoid |
 | **HP** | 197 |
 | **XP when defeated** | 376 |
@@ -62,8 +62,8 @@ description: "Breeder of venomscale is an enemy in Andor's Trail (humanoid) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar16](../maps/lodar16.md) | – | 5 | – |
-| [lodar19](../maps/lodar19.md) | – | 2 | – |
+| [Lodar 16](../maps/lodar16.md) | – | 5 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 2 | – |
 
 
 ## Version history

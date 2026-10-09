@@ -4,7 +4,7 @@ description: "Fanamor is an NPC who can also be fought in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } Fanamor
 
-**Where to find Fanamor:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-fanamor), Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-fanamor), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-fanamor)
+**Where to find Fanamor:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-fanamor), Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-fanamor), Fallhaven: [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md#pin-npc-fanamor)
 
 <div class="infobox" markdown>
 
@@ -31,9 +31,9 @@ No combat statistics are defined for this entry in the game data. Where the stor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | – |
-| [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | Appears later, during a quest |
-| [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | – |
+| [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -41,7 +41,7 @@ No combat statistics are defined for this entry in the game data. Where the stor
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fanamor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fanamor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fanamor_selector.json" data-npc="Fanamor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (39 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fanamor_selector"></span>**`fanamor_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -239,7 +239,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “I was just strolling through these woods .. eh .. killing Anklebiters.” → “I was just strolling through these woods ... eh ... killing anklebite…”<br>· text: “.. sigh ..” → “*sigh*” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “I was just strolling through these woods .. eh .. killing Anklebiters.” → “I was just strolling through these woods ... eh ... killing anklebite…”<br>· text: “Oh, who am I kidding. Ok, I was trying to get through the forest here…” → “Oh, who am I kidding. OK, I was trying to get through the forest here…” |
 | [v0.7.8](../versions/0.7.8.md) | Movement: added (none)<br>Conversation changed<br>Dialogue: 19 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 13 lines added, 1 line changed |

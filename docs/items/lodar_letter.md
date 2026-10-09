@@ -27,7 +27,7 @@ description: "Lodar's letter is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) during [Search for Andor](../quests/andor.md#stage-72) (100%)
+- From [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) during [Search for Andor](../quests/andor.md#stage-72) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

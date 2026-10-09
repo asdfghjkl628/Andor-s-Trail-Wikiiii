@@ -4,7 +4,7 @@ description: "Nicolo is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } Nicolo
 
-**Where to find Nicolo:** Brightport: [brightport_bakery3](../maps/brightport_bakery3.md#pin-npc-brightport_councilor)
+**Where to find Nicolo:** Brightport: [Brightport bakery 3](../maps/brightport_bakery3.md#pin-npc-brightport_councilor)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Nicolo is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nicolo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Nicolo. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_councilor.json" data-npc="Nicolo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_councilor"></span>**`brightport_councilor`** Nicolo: “Ho ho, younglin', how goes the day? [The old man coughs] Don't mind me, just speak your piece.”
 

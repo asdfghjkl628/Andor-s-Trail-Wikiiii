@@ -1,10 +1,10 @@
 ---
-description: "Syrra is an enemy in Andor's Trail (ghost) with 1 HP, worth 1 XP, found in undertell_3_00."
+description: "Syrra is an enemy in Andor's Trail (ghost) with 1 HP, worth 1 XP, found in Undertell 3 00."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_14.png){ .sprite } Syrra
 
-**Found in:** [undertell_3_00](../maps/undertell_3_00.md)
+**Found in:** [Undertell 3 00](../maps/undertell_3_00.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Syrra is an enemy in Andor's Trail (ghost) with 1 HP, worth 1 XP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_3_00 |
+| **Found in** | Undertell 3 00 |
 | **Class** | Ghost |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -52,7 +52,7 @@ description: "Syrra is an enemy in Andor's Trail (ghost) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
 
 
 ## Version history

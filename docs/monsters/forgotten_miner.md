@@ -1,10 +1,10 @@
 ---
-description: "Forgotten miner is an enemy in Andor's Trail (ghost) with 228 HP, worth 621 XP, found in undertell_05, undertell_13, undertell_14. Drops: Gold coins, Undertell diamond, Raw sapphire, Vein ruby."
+description: "Forgotten miner is an enemy in Andor's Trail (ghost) with 228 HP, worth 621 XP, found in Undertell 05, Undertell 13, Undertell 14. Drops: Gold coins, Undertell diamond, Raw sapphire, Vein ruby."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_4.png){ .sprite } Forgotten miner
 
-**Found in:** [undertell_05](../maps/undertell_05.md), [undertell_13](../maps/undertell_13.md), [undertell_14](../maps/undertell_14.md), [undertell_15](../maps/undertell_15.md) (+9 more)
+**Found in:** [Undertell 05](../maps/undertell_05.md), [Undertell 13](../maps/undertell_13.md), [Undertell 14](../maps/undertell_14.md), [Undertell 15](../maps/undertell_15.md) (+9 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Forgotten miner is an enemy in Andor's Trail (ghost) with 228 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_05, undertell_13, undertell_14 |
+| **Found in** | Undertell 05, Undertell 13, Undertell 14 |
 | **Class** | Ghost |
 | **HP** | 228 |
 | **XP when defeated** | 621 |
@@ -62,19 +62,19 @@ description: "Forgotten miner is an enemy in Andor's Trail (ghost) with 228 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_05](../maps/undertell_05.md) | – | 2 | – |
-| [undertell_13](../maps/undertell_13.md) | – | 7 | – |
-| [undertell_14](../maps/undertell_14.md) | – | 4 | – |
-| [undertell_15](../maps/undertell_15.md) | – | 4 | – |
-| [undertell_23](../maps/undertell_23.md) | – | 3 | – |
-| [undertell_24](../maps/undertell_24.md) | – | 2 | – |
-| [undertell_3_00](../maps/undertell_3_00.md) | – | 3 | Appears later, during a quest |
-| [undertell_3_01](../maps/undertell_3_01.md) | – | 1 | Appears later, during a quest |
-| [undertell_3_02](../maps/undertell_3_02.md) | – | 7 | Appears later, during a quest |
-| [undertell_3_03](../maps/undertell_3_03.md) | – | 2 | Appears later, during a quest |
-| [undertell_3_11](../maps/undertell_3_11.md) | – | 4 | Appears later, during a quest |
-| [undertell_3_12](../maps/undertell_3_12.md) | – | 3 | Appears later, during a quest |
-| [undertell_3_13](../maps/undertell_3_13.md) | – | 4 | Appears later, during a quest |
+| [Undertell 05](../maps/undertell_05.md) | – | 2 | – |
+| [Undertell 13](../maps/undertell_13.md) | – | 7 | – |
+| [Undertell 14](../maps/undertell_14.md) | – | 4 | – |
+| [Undertell 15](../maps/undertell_15.md) | – | 4 | – |
+| [Undertell 23](../maps/undertell_23.md) | – | 3 | – |
+| [Undertell 24](../maps/undertell_24.md) | – | 2 | – |
+| [Undertell 3 00](../maps/undertell_3_00.md) | – | 3 | Appears later, during a quest |
+| [Undertell 3 01](../maps/undertell_3_01.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 02](../maps/undertell_3_02.md) | – | 7 | Appears later, during a quest |
+| [Undertell 3 03](../maps/undertell_3_03.md) | – | 2 | Appears later, during a quest |
+| [Undertell 3 11](../maps/undertell_3_11.md) | – | 4 | Appears later, during a quest |
+| [Undertell 3 12](../maps/undertell_3_12.md) | – | 3 | Appears later, during a quest |
+| [Undertell 3 13](../maps/undertell_3_13.md) | – | 4 | Appears later, during a quest |
 
 
 ## Version history

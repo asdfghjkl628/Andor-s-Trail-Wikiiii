@@ -18,22 +18,22 @@ description: "Praying woman is a non-player character (NPC) in Andor's Trail, fo
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Praying woman. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Praying woman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brightportchurch1`](#v-brightportchurch1) | NPC | Brightport: [brightport_temple](../maps/brightport_temple.md#pin-npc-brightportchurch1) | – |
-| [`stoutford_worshiper`](#v-stoutford_worshiper) | NPC | Stoutford: [stoutford_church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper) | – |
+| [`brightportchurch1`](#v-brightportchurch1) | NPC | Brightport: [Brightport temple](../maps/brightport_temple.md#pin-npc-brightportchurch1) | – |
+| [`stoutford_worshiper`](#v-stoutford_worshiper) | NPC | Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper) | – |
 
 ## Brightport, Brightport temple (brightportchurch1) { #v-brightportchurch1 }
 
 **Entry ID:** `brightportchurch1` · **Type:** NPC
 
-**Location:** Brightport: [brightport_temple](../maps/brightport_temple.md#pin-npc-brightportchurch1)
+**Location:** Brightport: [Brightport temple](../maps/brightport_temple.md#pin-npc-brightportchurch1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Praying woman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Praying woman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_church1.json" data-npc="Praying woman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightportchurch1-brightport_church1"></span>**`brightport_church1`** [Praying woman](../monsters/brightportchurch1.md): “Shadow embrace me!”
 
@@ -86,11 +86,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_worshiper` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper)
+**Location:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-stoutford_worshiper)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Praying woman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Praying woman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chapelgoer.json" data-npc="Praying woman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -98,7 +98,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_worshiper-chapelgoer"></span>**`chapelgoer`** Praying woman: “Shadow, embrace me.”
 

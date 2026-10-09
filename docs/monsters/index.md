@@ -4,17 +4,15 @@ description: "Every enemy and non-player character in Andor's Trail v0.8.18, wit
 
 # Monsters & NPCs
 
-This index covers every character in Andor's Trail v0.8.18: 670 enemies, 171 characters who can be spoken to and fought, and 562 non-player characters (NPCs). The game data contains 1907 entries; entries that share a name are combined on one page.
+670 enemies, 171 NPCs you can also end up fighting, and 562 NPCs who are safe to talk to ~~and safe to ignore~~. Entries that share a name in the game data are combined on one page.
 
-| Type | Meaning |
-|---|---|
-| Enemy | Hostile on sight. |
-| NPC/Enemy | Can be spoken to, but can also be fought: a dialogue choice can start combat, the character becomes hostile when your standing with its faction drops below zero, or another game entry with the same name is a hostile version of the character. |
-| NPC | Can be spoken to and cannot be attacked, so it has no combat statistics. |
+- **Enemy:** hostile on sight.
+- **NPC/Enemy:** talks first, may fight later (a dialogue choice, a faction turning hostile, or a hostile version of the same character).
+- **NPC:** can't be attacked, so no combat stats.
 
 ## Enemies
 
-Sorted by HP, lowest first. Where several entries share a name, ranges are shown. AC = attack chance, BC = block chance, DR = damage resistance.
+Sorted by HP, weakest first ~~the ones at the bottom are there for a reason~~. Ranges mean several entries share the name. Abbreviations: [glossary](../glossary.md).
 
 | | Name | Type | Class | HP | XP | Damage | AC | BC | DR |
 |---|---|---|---|---|---|---|---|---|---|
@@ -862,14 +860,14 @@ Sorted by HP, lowest first. Where several entries share a name, ranges are shown
 
 ## NPCs
 
-Characters who cannot be attacked, in alphabetical order. The [Where is…?](../where.md) page lists them by location.
+Can't be attacked. Alphabetical; [Where is…?](../where.md) lists them by place.
 
 | | Name | Role | Found in |
 |---|---|---|---|
 | ![](../assets/icons/monsters/monsters_ld1_38.png){ .sprite } | [Aatash](atash.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Acolyte](acolyte.md) | – | Fallhaven, Vilegard |
 | ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } | [Aemens](aemens.md) | – | Loneford |
-| ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Agent](agent1.md) | starts [The agent and the beast](../quests/bwm_agent.md) | blackwater_mountain5, Prim, Blackwater Mountain |
+| ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Agent](agent1.md) | starts [The agent and the beast](../quests/bwm_agent.md) | Blackwater mountain 5, Prim, Blackwater Mountain |
 | ![](../assets/icons/monsters/monsters_ld1_150.png){ .sprite } | [Agnese](brightportstudent.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } | [Agthor](agthor.md) | shopkeeper | Fallhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Agthor's guard](agthor_guard.md) | – | Fallhaven |
@@ -878,13 +876,13 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_64.png){ .sprite } | [Alain](brightportitem.md) | shopkeeper | Brightport |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Alaun](alaun.md) | starts [Delicious soup](../quests/gison_soup.md) | Fallhaven |
 | ![](../assets/icons/monsters/monsters_ld_edit_74.png){ .sprite } | [Alduan](brightport_orchardsupervisor.md) | – | Deebo's Orchard |
-| ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } | [Alkapoan](brv_richman.md) | – | brimhaven_house1 |
+| ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } | [Alkapoan](brv_richman.md) | – | Brimhaven house 1 |
 | ![](../assets/icons/monsters/monsters_ld_edit_0.png){ .sprite } | [Allares](brightportstoragenpc.md) | starts [Bread and circus](../quests/brightport_bakery.md) | Brightport |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Almars](almars.md) | – | Remgard |
-| ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Alynndir](alynndir.md) | shopkeeper | road5_house |
+| ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Alynndir](alynndir.md) | shopkeeper | Road 5 house |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Ambelie](ambelie.md) | – | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_ld1_84.png){ .sprite } | [Anakis](anakis.md) | starts [A quick glance](../quests/quick_glance.md) | Brimhaven |
-| ![](../assets/icons/monsters/monsters_liches_3.png){ .sprite } | [Anavrin](anavrin.md) | – | undertell_5 |
+| ![](../assets/icons/monsters/monsters_liches_3.png){ .sprite } | [Anavrin](anavrin.md) | – | Undertell 5 |
 | ![](../assets/icons/monsters/monsters_ld1_23.png){ .sprite } | [Androni](brightport_chef.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Arambold](arambold.md) | shopkeeper | – |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Arcir](arcir.md) | – | – |
@@ -896,7 +894,7 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_28.png){ .sprite } | [Arnal](arnal.md) | shopkeeper | Remgard |
 | ![](../assets/icons/monsters/monsters_rltiles1_65.png){ .sprite } | [Arngyr](arngyr.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } | [Aryfora](stoutford_widow.md) | starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md); shopkeeper | Stoutford |
-| ![](../assets/icons/monsters/monsters_tometik2_48.png){ .sprite } | [Ash fisher](ash_fisher.md) | – | mountainlake_sub |
+| ![](../assets/icons/monsters/monsters_tometik2_48.png){ .sprite } | [Ash fisher](ash_fisher.md) | – | Mountainlake sub |
 | ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } | [Askyl](askyl.md) | – | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Athamyr](athamyr.md) | – | – |
 | ![](../assets/icons/monsters/monsters_gisons_15.png){ .sprite } | [Audela](audela.md) | – | Lake Laeroth |
@@ -908,31 +906,31 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } | [Beldric](boat0.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_ld1_166.png){ .sprite } | [Beltina](sullengard_beltina.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Benbyr](benbyr.md) | starts [Cheap cuts](../quests/benbyr.md) | Crossroads Guardhouse |
-| ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } | [Bernhar](bernhar.md) | shopkeeper | arulirmountain1 |
-| ![](../assets/icons/monsters/monsters_phoenix01_3.png){ .sprite } | [Bidro](brute_fisherman.md) | starts [Brutes](../quests/brute_creator.md) | mountainlake11 |
+| ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } | [Bernhar](bernhar.md) | shopkeeper | Arulirmountain 1 |
+| ![](../assets/icons/monsters/monsters_phoenix01_3.png){ .sprite } | [Bidro](brute_fisherman.md) | starts [Brutes](../quests/brute_creator.md) | Mountainlake 11 |
 | ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } | [Birgil](birgil.md) | shopkeeper | Prim |
 | ![](../assets/icons/monsters/monsters_karvis2_7.png){ .sprite } | [Bjorgur](bjorgur.md) | starts [Awoken from slumber](../quests/bjorgur_grave.md) | Prim |
 | ![](../assets/icons/monsters/monsters_cats_1.png){ .sprite } | [Black cat](black_cat.md) | – | Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_tometik3_44.png){ .sprite } | [Black fog](zuul_khan1_blocker.md) | – | bogsten4, mushroom_m2_3, mushroom_m2_6, mushroom_m2_8, mushroom_m3_1, mywildcave4 |
+| ![](../assets/icons/monsters/monsters_tometik3_44.png){ .sprite } | [Black fog](zuul_khan1_blocker.md) | – | Bogsten 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1, Mywildcave 4 |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Blackwater chamber guard](blackwater_chamber_guard.md) | – | Prim |
-| ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } | [Blackwater cook](blackwater_cook.md) | – | blackwater_mountain43 |
-| ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Blackwater dinner guest](blackwater_dinner_guest.md) | – | blackwater_mountain43 |
-| ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } | [Blackwater fighter](blackwater_fighter.md) | – | blackwater_mountain43 |
-| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Blackwater inhabitant](blackwater_inhabitant.md) | – | blackwater_mountain43 |
+| ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } | [Blackwater cook](blackwater_cook.md) | – | Blackwater mountain 43 |
+| ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Blackwater dinner guest](blackwater_dinner_guest.md) | – | Blackwater mountain 43 |
+| ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } | [Blackwater fighter](blackwater_fighter.md) | – | Blackwater mountain 43 |
+| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Blackwater inhabitant](blackwater_inhabitant.md) | – | Blackwater mountain 43 |
 | ![](../assets/icons/monsters/monsters_rltiles1_80.png){ .sprite } | [Blackwater mage](blackwater_mage.md) | – | Prim |
-| ![](../assets/icons/monsters/monsters_rltiles1_80.png){ .sprite } | [Blackwater priest](blackwater_priest.md) | – | blackwater_mountain44 |
-| ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Blackwater pupil](blackwater_pupil.md) | – | blackwater_mountain43, blackwater_mountain44 |
+| ![](../assets/icons/monsters/monsters_rltiles1_80.png){ .sprite } | [Blackwater priest](blackwater_priest.md) | – | Blackwater mountain 44 |
+| ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Blackwater pupil](blackwater_pupil.md) | – | Blackwater mountain 43, Blackwater mountain 44 |
 | ![](../assets/icons/monsters/monsters_ld1_124.png){ .sprite } | [Blau](brightportstudent11.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Blond citizen](blond_citizen.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_70.png){ .sprite } | [Blornvale](stoutford_alchemist.md) | shopkeeper | Stoutford |
-| ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } | [Bogal](bogsten_gambler1.md) | – | mushroom_m2_4b |
-| ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } | [Bollo](bogsten_gambler3.md) | – | mushroom_m2_4b |
+| ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } | [Bogal](bogsten_gambler1.md) | – | Mushroom m 2 4b |
+| ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } | [Bollo](bogsten_gambler3.md) | – | Mushroom m 2 4b |
 | ![](../assets/icons/monsters/monsters_tometik2_54.png){ .sprite } | [Boralla](stn_boralla.md) | – | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } | [Borlag](stoutford_commander.md) | – | Stoutford |
 | ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } | [Borvis](dds_borvis.md) | starts [Shadows](../quests/shadows.md) | Mt. Galmore |
-| ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } | [Botisto](bogsten_gambler2.md) | – | mushroom_m2_4b |
-| ![](../assets/icons/monsters/monsters_rltiles1_1.png){ .sprite } | [Bread golem](breadgolem.md) | – | brightportwild8 |
-| ![](../assets/icons/monsters/monsters_newb_1_45.png){ .sprite } | [Brenor](brenor.md) | – | undertell_1_0 |
+| ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } | [Botisto](bogsten_gambler2.md) | – | Mushroom m 2 4b |
+| ![](../assets/icons/monsters/monsters_rltiles1_1.png){ .sprite } | [Bread golem](breadgolem.md) | – | Brightportwild 8 |
+| ![](../assets/icons/monsters/monsters_newb_1_45.png){ .sprite } | [Brenor](brenor.md) | – | Undertell 1 0 |
 | ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } | [Bridge lookout](remgard_bridge.md) | starts [Everything in order](../quests/remgard.md) | Remgard |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Brightport commoner](brightportcitizen.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_cats_5.png){ .sprite } | [Brown cat](brown_cat.md) | – | Flagstone Prison |
@@ -956,36 +954,36 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_27](brv_wh_item_27.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_28](brv_wh_item_28.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [brv_wh_item_29](brv_wh_item_29.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Bryma](brightportnpc7.md) | – | brightport_forest |
+| ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Bryma](brightportnpc7.md) | – | Brightport forest |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Bucus](bucus.md) | starts [Key of Luthor](../quests/bucus.md) | – |
 | ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } | [Builder](stoutford_builder.md) | – | Stoutford |
-| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd1.md) | starts [Young merchant](../quests/quest_burhczyd.md) | Crossglen, Fallhaven, Loneford, Vilegard, Stoutford, blackwater_mountain43, Remgard, Prim, Brimhaven, Sullengard, Crossroads Guardhouse, Foaming Flask Tavern, Brightport |
+| ![](../assets/icons/monsters/monsters_ld2_8.png){ .sprite } | [Burhczyd](burhczyd1.md) | starts [Young merchant](../quests/quest_burhczyd.md) | Crossglen, Fallhaven, Loneford, Vilegard, Stoutford, Blackwater mountain 43, Remgard, Prim, Brimhaven, Sullengard, Crossroads Guardhouse, Foaming Flask Tavern, Brightport |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Busy farmer](busy_farmer.md) | – | Fallhaven, Stoutford |
 | ![](../assets/icons/monsters/monsters_fatboy73_7.png){ .sprite } | [Butcher](brv_butcher.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } | [Cadoren](stoutford_cook.md) | shopkeeper | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld1_145.png){ .sprite } | [Caeda](caeda.md) | starts [A secret garden](../quests/secret_garden.md) | Remgard |
-| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Callista, the centaur](lae_centaur2.md) | starts [Not Pony Island](../quests/lae_centaurs.md) | island2 |
+| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Callista, the centaur](lae_centaur2.md) | starts [Not Pony Island](../quests/lae_centaurs.md) | Island 2 |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Carthe](carthe.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_16.png){ .sprite } | [Casterod](bwm17_worker.md) | – | Blackwater Mountain |
-| ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } | [Cat](brv_churchcat.md) | – | brimhaven_church_upstairs |
+| ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } | [Cat](brv_churchcat.md) | – | Brimhaven church upstairs |
 | ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } | [Cavill](brightportstudent3.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Celdar](celdar.md) | – | Crossroads Guardhouse |
-| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Centaur](lae_centaur.md) | – | island1, island2, island3 |
+| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Centaur](lae_centaur.md) | – | Island 1, Island 2, Island 3 |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Chael](chael.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_rltiles1_78.png){ .sprite } | [Chapel guard](loneford_chapelguard.md) | – | Loneford, Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } | [Chapelgoer](brightportchurch.md) | – | Brightport |
-| ![](../assets/icons/monsters/monsters_nut_81.png){ .sprite } | [Charybdis](ll2_whirl.md) | – | Lake Laeroth, mountainlake_sub |
+| ![](../assets/icons/monsters/monsters_nut_81.png){ .sprite } | [Charybdis](ll2_whirl.md) | – | Lake Laeroth, Mountainlake sub |
 | ![](../assets/icons/monsters/monsters_ld1_156.png){ .sprite } | [Child](brv_villager13.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Church guard](brimhaven_church_guard.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_184.png){ .sprite } | [Churrie](churrie.md) | – | Loneford |
-| ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } | [Circe](circe.md) | – | mountainlake_circe |
-| ![](../assets/icons/monsters/monsters_ld1_30.png){ .sprite } | [Cithurn](waterwayhermit.md) | starts [Just the beginning](../quests/waterwayacave.md) | waterwaybhouse |
-| ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } | [Cithurn's cat](cithurncat.md) | – | waterwaybhouse |
+| ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } | [Circe](circe.md) | – | Mountainlake circe |
+| ![](../assets/icons/monsters/monsters_ld1_30.png){ .sprite } | [Cithurn](waterwayhermit.md) | starts [Just the beginning](../quests/waterwayacave.md) | Waterwaybhouse |
+| ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } | [Cithurn's cat](cithurncat.md) | – | Waterwaybhouse |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Citizen](citizen.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } | [Clevred](ratdom_rat.md) | starts [Yellow is it](../quests/ratdom_quest.md) | Blackwater Mountain, Crossglen, Entry, Blackwater Mountain, Crossglen |
 | ![](../assets/icons/monsters/monsters_rltiles2_37.png){ .sprite } | [Colonel Lutarc](stn_colonel.md) | starts [Colonel Lutarc](../quests/stn_colonel.md) | Flagstone Prison |
 | ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Commoner](rg_villager1.md) | – | Remgard, Brimhaven, Stoutford |
-| ![](../assets/icons/monsters/monsters_gisons_12.png){ .sprite } | [Confused ghost](bogsten_ghost5.md) | – | mushroom_m2_4b |
+| ![](../assets/icons/monsters/monsters_gisons_12.png){ .sprite } | [Confused ghost](bogsten_ghost5.md) | – | Mushroom m 2 4b |
 | ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } | [Conren](conren.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_ld1_29.png){ .sprite } | [Cornith](stoutford_smith.md) | shopkeeper | Stoutford |
 | ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } | [Cottager](stoutford_cottager.md) | – | Stoutford |
@@ -1008,14 +1006,14 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } | [Drinking brother](sullengard_drinking_brother.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Drunk](drunk.md) | – | Crossglen, Fallhaven, Loneford |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Drunkard](drunkard.md) | starts [Drunken tale](../quests/fallhavendrunk.md) | Fallhaven |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Drunken Feygard patrol](ortholion_guard11.md) | – | elm_mine1 |
-| ![](../assets/icons/monsters/monsters_omi2_12.png){ .sprite } | [Drunken Feygard scout](ortholion_guard10.md) | – | elm_mine1 |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Drunken Feygard patrol](ortholion_guard11.md) | – | Elm mine 1 |
+| ![](../assets/icons/monsters/monsters_omi2_12.png){ .sprite } | [Drunken Feygard scout](ortholion_guard10.md) | – | Elm mine 1 |
 | ![](../assets/icons/monsters/monsters_ld1_154.png){ .sprite } | [Duaina](duaina.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Dunla](dunla.md) | shopkeeper | Vilegard |
-| ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } | [Durnan the Hollow](durnan.md) | – | undertell_1_0 |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Dying general's henchman](ortholion_guard8.md) | – | elm_mine5 |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Dying Patrol](g03_deadpatrol_2.md) | – | crackshot_hideout2 |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Dying patrol](g03_deadpatrol_1.md) | – | crackshot_hideout2 |
+| ![](../assets/icons/monsters/monsters_gisons_10.png){ .sprite } | [Durnan the Hollow](durnan.md) | – | Undertell 1 0 |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Dying general's henchman](ortholion_guard8.md) | – | Elm mine 5 |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Dying Patrol](g03_deadpatrol_2.md) | – | Crackshot hideout 2 |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Dying patrol](g03_deadpatrol_1.md) | – | Crackshot hideout 2 |
 | ![](../assets/icons/monsters/monsters_ld1_63.png){ .sprite } | [Dynes](brightportgoons.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_rltiles4_1.png){ .sprite } | [Eagle](brv_eagle.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Easturlie](easturlie.md) | – | Remgard |
@@ -1029,7 +1027,7 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_187.png){ .sprite } | [Elwyl](elwyl.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_karvis2_7.png){ .sprite } | [Elynard](brightportinnvisitor1.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_ld1_207.png){ .sprite } | [Elysa](brightportthieves6.md) | starts [Boxed in](../quests/brightport_thieves.md) | Brightport |
-| ![](../assets/icons/monsters/monsters_newb_1_653.png){ .sprite } | [Elytharan cooker slave](elytharan_cook_slave.md) | – | undertell_1_1 |
+| ![](../assets/icons/monsters/monsters_newb_1_653.png){ .sprite } | [Elytharan cooker slave](elytharan_cook_slave.md) | – | Undertell 1 1 |
 | ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } | [Emerei](emerei.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_220.png){ .sprite } | [Emmeline](captive_girl.md) | – | Flagstone Prison |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Eraepsekahs](eraepsekahs.md) | – | Remgard |
@@ -1042,13 +1040,13 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/items_japozero_484.png){ .sprite } | [Especially sweet berries](wild_berry3.md) | – | Deebo's Orchard |
 | ![](../assets/icons/monsters/monsters_ld1_178.png){ .sprite } | [Evelina](brightportstudent9.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_ld1_135.png){ .sprite } | [Facutloni](brv_wh_boss.md) | starts [Delivery](../quests/brv_wh_delivery.md), [Inventory](../quests/brv_wh.md) | Brimhaven |
-| ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } | [Falothen](falothen0.md) | teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) | Charwood, tradehouse0a |
+| ![](../assets/icons/monsters/monsters_tometik5_0.png){ .sprite } | [Falothen](falothen0.md) | teaches [One-handed sword proficiency](../skills/weaponProficiency1hsword.md), [Two-handed sword proficiency](../skills/weaponProficiency2hsword.md), [Axe proficiency](../skills/weaponProficiencyAxe.md), [Blunt weapon proficiency](../skills/weaponProficiencyBlunt.md), [Dagger proficiency](../skills/weaponProficiencyDagger.md), [Pole weapon proficiency](../skills/weaponProficiencyPole.md), [Unarmed fighting](../skills/weaponProficiencyUnarmed.md) | Charwood, Tradehouse 0a |
 | ![](../assets/icons/monsters/monsters_ld1_2.png){ .sprite } | [Fangwurm](fangwurm.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Farmer](farmer.md) | starts [Flows through the veins](../quests/loneford.md) | Crossglen, Crossroads Guardhouse, Remgard, Stoutford |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Farrik](farrik.md) | starts [Night visit](../quests/farrik.md) | Fallhaven |
-| ![](../assets/icons/monsters/monsters_rltiles1_5.png){ .sprite } | [Favlon](dds_favlon.md) | – | nw_sullengard_1 |
-| ![](../assets/icons/monsters/monsters_tometik6_10.png){ .sprite } | [Fayvara](fayvara0.md) | teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) | Charwood, tradehouse0a |
-| ![](../assets/icons/monsters/monsters_ld2_1.png){ .sprite } | [Feeding goat](sullengard_goat_feeding.md) | – | way_to_sullengard_east11 |
+| ![](../assets/icons/monsters/monsters_rltiles1_5.png){ .sprite } | [Favlon](dds_favlon.md) | – | Nw sullengard 1 |
+| ![](../assets/icons/monsters/monsters_tometik6_10.png){ .sprite } | [Fayvara](fayvara0.md) | teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) | Charwood, Tradehouse 0a |
+| ![](../assets/icons/monsters/monsters_ld2_1.png){ .sprite } | [Feeding goat](sullengard_goat_feeding.md) | – | Way to sullengard east 11 |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard barricade guard](Feygard_BG.md) | – | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } | [Feygard bridge guard](feygard_bridgeguard.md) | – | – |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard guard](lodar_fg1.md) | – | Loneford |
@@ -1056,14 +1054,14 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard patrol](feygard_patrol.md) | – | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Feygard patrol captain](feygard_patrol_captain.md) | starts [Beer Bootlegging](../quests/beer_bootlegging.md) | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Feygard patrol guard](ortholion_guard3.md) | – | Prim |
-| ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Feygard patrol sergeant](g03_sergeant.md) | – | crackshot_hideout3 |
+| ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Feygard patrol sergeant](g03_sergeant.md) | – | Crackshot hideout 3 |
 | ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } | [Feygard road guard](guynmart_roadguard.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Feygard soldier](patrol_roaming.md) | – | Brimhaven, Crossroads Guardhouse, Remgard, Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_219.png){ .sprite } | [Fiamma](brightportsmith.md) | shopkeeper; starts [Too hot to handle](../quests/brightport_fiamma.md) | Brightport |
 | ![](../assets/icons/monsters/monsters_ld2_115.png){ .sprite } | [Fisherman](brv_fisher.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_122.png){ .sprite } | [Fjoerkard](guynmart_drunkard1.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Flagstone sentry](flagstone_sentry.md) | – | Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_rltiles1_15.png){ .sprite } | [Flaming orb](ratdom_maze_boulder1.md) | – | ratdom_maze_551 |
+| ![](../assets/icons/monsters/monsters_rltiles1_15.png){ .sprite } | [Flaming orb](ratdom_maze_boulder1.md) | – | Ratdom maze 551 |
 | ![](../assets/icons/monsters/monsters_ld1_206.png){ .sprite } | [Florencia](brightportforenza1.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Foaming Flask cook](foaming_flask_cook.md) | – | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_tometik5_80.png){ .sprite } | [Forest guardian](lodar0_g.md) | – | Loneford |
@@ -1082,21 +1080,21 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_rltiles1_69.png){ .sprite } | [Gandoren](gandoren.md) | starts [Feygard errands](../quests/feygard_shipment.md), [Flows through the veins](../quests/loneford.md) | – |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Ganos](ganos.md) | shopkeeper | – |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Garvhel](brightport_newcommander.md) | – | Brightport |
-| ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Gauward](gauward.md) | – | waterwayhouse |
+| ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Gauward](gauward.md) | – | Waterwayhouse |
 | ![](../assets/icons/monsters/monsters_gisons_0.png){ .sprite } | [Gison](gison.md) | starts [A raid for a cookbook](../quests/gison_cookbook.md) | Fallhaven |
 | ![](../assets/icons/monsters/items_japozero_387.png){ .sprite } | [Glade key](lakecave2_key.md) | – | – |
 | ![](../assets/icons/monsters/monsters_ld1_33.png){ .sprite } | [Glasforn](stoutford_innkeeper.md) | – | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld1_10.png){ .sprite } | [Gnossath](brv_employer.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_ld2_0.png){ .sprite } | [Goat](goat_1.md) | – | Mt. Galmore, Stoutford, way_to_sullengard_east11 |
-| ![](../assets/icons/monsters/monsters_karvis2_7.png){ .sprite } | [Goat herder](sullengard_goat_herder.md) | – | way_to_sullengard_east11 |
+| ![](../assets/icons/monsters/monsters_ld2_0.png){ .sprite } | [Goat](goat_1.md) | – | Mt. Galmore, Stoutford, Way to sullengard east 11 |
+| ![](../assets/icons/monsters/monsters_karvis2_7.png){ .sprite } | [Goat herder](sullengard_goat_herder.md) | – | Way to sullengard east 11 |
 | ![](../assets/icons/monsters/monsters_ld1_97.png){ .sprite } | [Godfrey](sullengard_innkeeper.md) | shopkeeper | Sullengard |
-| ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Godoe](godoe1.md) | – | guynmart_wood_18 |
+| ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Godoe](godoe1.md) | – | Guynmart wood 18 |
 |  | [Gold](guynmart_reward1.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [Golden marble](guynmart_marble4.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_ld1_88.png){ .sprite } | [Gorwath](gorwath.md) | starts [You're the postman](../quests/postman.md) | Crossglen |
 | ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Grabby comrade](guild04_rebcomrade_2.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_cats_4.png){ .sprite } | [Gray cat](gray_cat.md) | – | Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_ld1_168.png){ .sprite } | [Grazia](sullengard_grazia.md) | – | Sullengard, way_to_sullengard_east4_bridge |
+| ![](../assets/icons/monsters/monsters_ld1_168.png){ .sprite } | [Grazia](sullengard_grazia.md) | – | Sullengard, Way to sullengard east 4 bridge |
 | ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Greedy comrade](guild04_rebcomrade_1.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [Green marble](guynmart_marble1.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } | [Grimion](grimion.md) | shopkeeper | Loneford |
@@ -1113,14 +1111,14 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/char_hero_0.png){ .sprite } | [guynmart_hero](guynmart_hero.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_ld1_148.png){ .sprite } | [Gwendolyn](remgard_gwendolyn.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_158.png){ .sprite } | [Gwinnett](sullengard_courtyard_girl.md) | – | Sullengard |
-| ![](../assets/icons/monsters/monsters_ld1_158.png){ .sprite } | [Gyra](stn_gyra.md) | – | stoutford_castle1, Flagstone Prison, Stoutford, Prim, Flagstone Prison, Stoutford, Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } | [Hadena](sullengard_cabin_wife.md) | starts [Getting home on time](../quests/deebo_orchard_ght.md) | sullengard_ravine_cabin |
+| ![](../assets/icons/monsters/monsters_ld1_158.png){ .sprite } | [Gyra](stn_gyra.md) | – | Stoutford castle 1, Flagstone Prison, Stoutford, Prim, Flagstone Prison, Stoutford, Flagstone Prison |
+| ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } | [Hadena](sullengard_cabin_wife.md) | starts [Getting home on time](../quests/deebo_orchard_ght.md) | Sullengard ravine cabin |
 | ![](../assets/icons/monsters/monsters_men2_2.png){ .sprite } | [Hadracor](hadracor.md) | shopkeeper; starts [Devastated land](../quests/hadracor.md) | Crossroads Guardhouse |
 | ![](../assets/icons/monsters/monsters_tometik1_67.png){ .sprite } | [Halvor](halvor.md) | starts [Surprise?](../quests/halvor_surprise.md) | Crossglen, Lake Laeroth, Charwood |
 | ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } | [Hamerick](sullengard_hamerick.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_225.png){ .sprite } | [Hannah](guynmart_hannah.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_ld1_0.png){ .sprite } | [Herald](guynmart_herold.md) | – | Guynmart Castle |
-| ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Herec](herec.md) | shopkeeper; starts [No weakness](../quests/bwm_wyrms.md) | blackwater_mountain44 |
+| ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Herec](herec.md) | shopkeeper; starts [No weakness](../quests/bwm_wyrms.md) | Blackwater mountain 44 |
 | ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } | [Hettah](brv_employee_wife.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_70.png){ .sprite } | [Hjaldar](hjaldar.md) | shopkeeper | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_18.png){ .sprite } | [Hofala](guynmart_cook.md) | shopkeeper | Guynmart Castle |
@@ -1131,7 +1129,7 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } | [Howkin](deebo_orchard_deebo_son.md) | – | Deebo's Orchard |
 | ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } | [Hungry pig](hungry_pig.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/items_japozero_483.png){ .sprite } | [Ice berries](wild_berry2.md) | – | Blackwater Mountain |
-| ![](../assets/icons/monsters/monsters_rltiles1_87.png){ .sprite } | [Iducus](iducus.md) | shopkeeper | blackwater_mountain44 |
+| ![](../assets/icons/monsters/monsters_rltiles1_87.png){ .sprite } | [Iducus](iducus.md) | shopkeeper | Blackwater mountain 44 |
 | ![](../assets/icons/monsters/monsters_ld1_10.png){ .sprite } | [Ingeram](sullengard_ingeram.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Ingus](ingus.md) | starts [A difference of opinion](../quests/sisterfight.md) | Remgard |
 | ![](../assets/icons/monsters/monsters_ld2_52.png){ .sprite } | [Isolated man](isolated_man.md) | – | Brightport |
@@ -1152,32 +1150,32 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } | [Kantya](kantya.md) | starts [Trial by fire](../quests/charwood2.md) | Prim |
 | ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Kaori](kaori.md) | starts [Trusting an outsider](../quests/vilegard.md) | Vilegard |
 | ![](../assets/icons/monsters/monsters_rltiles4_29.png){ .sprite } | [Kayla](kayla.md) | shopkeeper | Stoutford |
-| ![](../assets/icons/monsters/monsters_ld2_96.png){ .sprite } | [Kazaul acolyte](kazaul_acolyte.md) | – | undertell_5 |
+| ![](../assets/icons/monsters/monsters_ld2_96.png){ .sprite } | [Kazaul acolyte](kazaul_acolyte.md) | – | Undertell 5 |
 | ![](../assets/icons/monsters/monsters_rltiles2_92.png){ .sprite } | [Kealwea](sullengard_priest.md) | shopkeeper | Sullengard |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Kendelow](kendelow.md) | shopkeeper | Remgard |
-| ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } | [Keneg](keneg.md) | – | blackwater_mountain43 |
-| ![](../assets/icons/monsters/monsters_ld2_199.png){ .sprite } | [Kha'zaan Porter](porter.md) | – | undertell_4_00 |
+| ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } | [Keneg](keneg.md) | – | Blackwater mountain 43 |
+| ![](../assets/icons/monsters/monsters_ld2_199.png){ .sprite } | [Kha'zaan Porter](porter.md) | – | Undertell 4 00 |
 | ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Khorand](khorand.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Kizzo](loneford_tavern_patron.md) | – | Loneford |
-| ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd1e.md) | starts [Young merchant](../quests/quest_burhczyd.md) | Crossglen, Fallhaven, Loneford, Vilegard, Stoutford, blackwater_mountain43, Remgard, Prim, Brimhaven, Sullengard, Crossroads Guardhouse, Foaming Flask Tavern, Brightport |
+| ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } | [Knight of Elythom](burhczyd1e.md) | starts [Young merchant](../quests/quest_burhczyd.md) | Crossglen, Fallhaven, Loneford, Vilegard, Stoutford, Blackwater mountain 43, Remgard, Prim, Brimhaven, Sullengard, Crossroads Guardhouse, Foaming Flask Tavern, Brightport |
 | ![](../assets/icons/monsters/monsters_men2_6.png){ .sprite } | [Krell](krell.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_rltiles1_85.png){ .sprite } | [Kuldan](kuldan.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Kuldan's guard](kuldan_guard.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } | [Laborer](brightportbakeryoutside2.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_rltiles1_72.png){ .sprite } | [Laecca](laecca.md) | – | Prim |
-| ![](../assets/icons/monsters/monsters_rltiles1_81.png){ .sprite } | [Laede](laede.md) | – | blackwater_mountain44 |
-| ![](../assets/icons/monsters/monsters_newb_1_652.png){ .sprite } | [Laeroth prisoner](lae_prisoner.md) | starts [Shadow of the torturer](../quests/lae_torturer.md) | laerothprison4 |
+| ![](../assets/icons/monsters/monsters_rltiles1_81.png){ .sprite } | [Laede](laede.md) | – | Blackwater mountain 44 |
+| ![](../assets/icons/monsters/monsters_newb_1_652.png){ .sprite } | [Laeroth prisoner](lae_prisoner.md) | starts [Shadow of the torturer](../quests/lae_torturer.md) | Laerothprison 4 |
 | ![](../assets/icons/monsters/monsters_omi1_1.png){ .sprite } | [Lamberta](sullengard_lamberta.md) | shopkeeper | Sullengard |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Landa](landa.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } | [Larni](larni.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } | [Laurenz](brightportstudent10.md) | – | Brightport |
-| ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Lediofa](fungi_rescued.md) | – | mushroom_m3_2, Fallhaven |
+| ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Lediofa](fungi_rescued.md) | – | Mushroom m 3 2, Fallhaven |
 | ![](../assets/icons/monsters/monsters_tometik1_85.png){ .sprite } | [Leofric](leofric.md) | shopkeeper | Foaming Flask Tavern, Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } | [Leorio](brightport_gunfrykassistant.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } | [Leta's son](leta_child.md) | – | Crossglen |
 | ![](../assets/icons/monsters/monsters_tometik6_16.png){ .sprite } | [Lethenlor](lethenlor.md) | starts [Destined for great things](../quests/charwood1.md) | Foaming Flask Tavern |
-| ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } | [Lethgar miner ghost](lethgar_miner_ghost.md) | – | undertell_1_1 |
-| ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } | [Lethgar slave ghost](lethgar_female_ghost.md) | – | undertell_1_1 |
+| ![](../assets/icons/monsters/monsters_gisons_9.png){ .sprite } | [Lethgar miner ghost](lethgar_miner_ghost.md) | – | Undertell 1 1 |
+| ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } | [Lethgar slave ghost](lethgar_female_ghost.md) | – | Undertell 1 1 |
 | ![](../assets/icons/monsters/monsters_newb_1_288.png){ .sprite } | [Leukosia](sirene3.md) | – | Lake Laeroth |
 | ![](../assets/icons/monsters/monsters_newb_1_288.png){ .sprite } | [Ligeia](sirene2.md) | – | Lake Laeroth |
 | ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Lindauer](sullengard_cat_seeker.md) | – | Sullengard |
@@ -1188,12 +1186,12 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_rltiles1_77.png){ .sprite } | [Lodar](lodar.md) | shopkeeper; starts [A creeping fear](../quests/xulviir.md), [Lodar's potions](../quests/lodar_pots.md), [Searching for madness](../quests/lodar2.md), [The way out is through](../quests/shortcut_lodar.md) | Prim |
 | ![](../assets/icons/monsters/monsters_ld1_63.png){ .sprite } | [Loirash](ratdom_bone_collector.md) | – | Instrument maker, Museum |
 | ![](../assets/icons/monsters/monsters_tometik2_42.png){ .sprite } | [Lord Berbane](berbane.md) | – | Stoutford |
-| ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } | [Lost Traveler](aidem_camp_lost_traveler.md) | – | aidem_camp |
+| ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } | [Lost Traveler](aidem_camp_lost_traveler.md) | – | Aidem camp |
 | ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } | [Lost traveler](sullengard_inn_traveler.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_85.png){ .sprite } | [Loudmouth](brightportthieves.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } | [Lovis](guynmart_lovis.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } | [Lowyna](lowyna.md) | shopkeeper | Fallhaven |
-| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Lyra, the centaur](lae_centaur8.md) | – | island4 |
+| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Lyra, the centaur](lae_centaur8.md) | – | Island 4 |
 | ![](../assets/icons/monsters/monsters_ld1_203.png){ .sprite } | [Lytwing](lytwing_fallhaven.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_ld1_151.png){ .sprite } | [Maddalena](sullengard_town_clerk.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_53.png){ .sprite } | [Maelf](maelf.md) | – | Remgard |
@@ -1202,27 +1200,27 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_223.png){ .sprite } | [Mariora](sullengard_mariora.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } | [Matpat](sullengard_matpat.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } | [Mayor Ale](sullengard_mayor.md) | – | Sullengard |
-| ![](../assets/icons/monsters/monsters_rltiles1_85.png){ .sprite } | [Mazeg](mazeg.md) | shopkeeper | blackwater_mountain43 |
-| ![](../assets/icons/monsters/monsters_cats_1.png){ .sprite } | [Mean cat](rosmara_cat.md) | – | wayto_feygard_duleian_2 |
+| ![](../assets/icons/monsters/monsters_rltiles1_85.png){ .sprite } | [Mazeg](mazeg.md) | shopkeeper | Blackwater mountain 43 |
+| ![](../assets/icons/monsters/monsters_cats_1.png){ .sprite } | [Mean cat](rosmara_cat.md) | – | Wayto feygard duleian 2 |
 | ![](../assets/icons/monsters/monsters_ld1_148.png){ .sprite } | [Melona](melona.md) | shopkeeper | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_87.png){ .sprite } | [Mienn](mienn.md) | – | – |
 | ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } | [Milena](brightportnpc1.md) | – | Brightport |
-| ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } | [Minarra](minarra.md) | shopkeeper; starts [Flows through the veins](../quests/loneford.md), [The path is clear to me](../quests/rogorn.md) | houseatcrossroads4 |
+| ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } | [Minarra](minarra.md) | shopkeeper; starts [Flows through the veins](../quests/loneford.md), [The path is clear to me](../quests/rogorn.md) | Houseatcrossroads 4 |
 | ![](../assets/icons/monsters/monsters_ld1_228.png){ .sprite } | [Miri](dds_miri.md) | starts [Darkness in the Daylight](../quests/darkness_in_daylight.md) | Mt. Galmore, Crossroads Guardhouse |
 | ![](../assets/icons/monsters/monsters_dogs_8.png){ .sprite } | [Mordred](brightport_huntingdog.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_rltiles3_5.png){ .sprite } | [Morgisia](morgisia.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Moriath](moriath.md) | starts [Take care of the caretaker](../quests/laeroth_caretaker.md) | Lake Laeroth |
-| ![](../assets/icons/monsters/monsters_tometik5_10.png){ .sprite } | [Morvath](morvath.md) | starts [The fifth master](../quests/fifth_master.md) | undertell_00 |
+| ![](../assets/icons/monsters/monsters_tometik5_10.png){ .sprite } | [Morvath](morvath.md) | starts [The fifth master](../quests/fifth_master.md) | Undertell 00 |
 | ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } | [Mother](brv_villager12.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Mourning woman](chapelgoer.md) | – | Brimhaven, Fallhaven, Loneford, Mt. Galmore, Loneford |
-| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Mouse](brv_churchmouse.md) | – | brimhaven_church_upstairs |
+| ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } | [Mouse](brv_churchmouse.md) | – | Brimhaven church upstairs |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Moyra](moyra.md) | – | Prim |
 | ![](../assets/icons/monsters/monsters_ld2_49.png){ .sprite } | [Mustura](brv_guard_captain.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_gisons_13.png){ .sprite } | [Myrelis](mg_myrelis.md) | starts [You shall pass](../quests/undertell_barricades.md) | Mt. Galmore |
 | ![](../assets/icons/monsters/monsters_johny_1.png){ .sprite } | [Mysterious lizard creature](brightport_emyro.md) | starts [The balance of scales](../quests/brightport_lizard.md) | Burial cave |
 | ![](../assets/icons/monsters/monsters_newb_1_41.png){ .sprite } | [Nanath](nanath.md) | starts [Troubling times](../quests/troubling_times.md) | Fallhaven |
 | ![](../assets/icons/monsters/monsters_ld1_149.png){ .sprite } | [Nanette](sullengard_nanette.md) | starts [Pond safety](../quests/sullengard_pond_safety.md) | Sullengard |
-| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Narael](narael.md) | – | flagstone4 |
+| ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Narael](narael.md) | – | Flagstone 4 |
 | ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } | [Nicolo](brightport_councilor.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } | [Nimael](nimael.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } | [Nocmar](nocmar.md) | shopkeeper; starts [A place to forge](../quests/place_to_forge.md) | – |
@@ -1240,24 +1238,24 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_cats_3.png){ .sprite } | [Old Blue](blue_cat.md) | – | Flagstone Prison |
 | ![](../assets/icons/monsters/monsters_men_2.png){ .sprite } | [Old citizen](old_citizen.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Old farmer](old_farmer.md) | – | Remgard, Stoutford |
-| ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } | [Old hermit](dds_oldhermit.md) | – | waytolake12 |
+| ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } | [Old hermit](dds_oldhermit.md) | – | Waytolake 12 |
 | ![](../assets/icons/monsters/monsters_karvis2_6.png){ .sprite } | [Old Leta](old_leta.md) | – | Crossglen |
 | ![](../assets/icons/monsters/monsters_men_5.png){ .sprite } | [Old man](old_man.md) | starts [Calomyran secrets](../quests/calomyran.md); starts [Rare delicacies](../quests/guynmart_wise.md) | Fallhaven, Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } | [Old Oromir](old_oromir.md) | – | Crossglen |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Old Vilegard villager](old_vilegard_villager.md) | – | Vilegard |
 | ![](../assets/icons/monsters/monsters_ld1_180.png){ .sprite } | [Old woman](stoutford_commoner4.md) | – | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld1_142.png){ .sprite } | [Ollie](sullengard_newborn_baby.md) | – | Sullengard |
-| ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } | [Oluag](oluag.md) | – | wild14_clearing |
+| ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } | [Oluag](oluag.md) | – | Wild 14 clearing |
 | ![](../assets/icons/monsters/monsters_cats_0.png){ .sprite } | [Orange cat](orange_cat.md) | – | Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Orion, the centaur](lae_centaur1.md) | starts [Not Pony Island](../quests/lae_centaurs.md) | island1 |
+| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Orion, the centaur](lae_centaur1.md) | starts [Not Pony Island](../quests/lae_centaurs.md) | Island 1 |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Oromir](oromir.md) | – | Crossglen |
-| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Ortholion's henchman](ortholion_guard9.md) | – | elm_3f |
-| ![](../assets/icons/monsters/monsters_ld1_113.png){ .sprite } | [Os](brute_creator.md) | – | mountainlake8_cave |
+| ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Ortholion's henchman](ortholion_guard9.md) | – | Elm 3f |
+| ![](../assets/icons/monsters/monsters_ld1_113.png){ .sprite } | [Os](brute_creator.md) | – | Mountainlake 8 cave |
 | ![](../assets/icons/monsters/monsters_ld1_114.png){ .sprite } | [Oseanpry](Brightportthieves5.md) | shopkeeper | Brightport |
-| ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } | [Osric](wexlow_osric.md) | – | Wexlow Village, gamjee_well_jail_cells |
+| ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } | [Osric](wexlow_osric.md) | – | Wexlow Village, Gamjee well jail cells |
 | ![](../assets/icons/monsters/monsters_ld1_56.png){ .sprite } | [Oswald](brightportnpc6.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_ld1_2.png){ .sprite } | [Othinus](brightportpriest.md) | – | Brightport |
-| ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } | [Outcast](smuggler1.md) | – | Fallhaven, woodhouse3 |
+| ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } | [Outcast](smuggler1.md) | – | Fallhaven, Woodhouse 3 |
 | ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } | [Overworked farmer](deebo_orchard_farmer.md) | – | Deebo's Orchard |
 | ![](../assets/icons/monsters/monsters_tometik6_17.png){ .sprite } | [Pangitain](brv_fortune_teller.md) | teaches [Merchant](../skills/barter.md), [Cleave](../skills/cleave.md), [Treasure Hunter](../skills/coinfinder.md), [Dodge](../skills/dodge.md), [Increased Fortitude](../skills/fortitude.md), [Magic Finder](../skills/magicfinder.md), [Weapon Accuracy](../skills/weaponChance.md) | Brimhaven |
 | ![](../assets/icons/monsters/monsters_newb_1_288.png){ .sprite } | [Parthenope](sirene1.md) | – | Lake Laeroth |
@@ -1265,16 +1263,16 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_karvis2_1.png){ .sprite } | [Peasant](brv_farmer.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } | [Peasant girl](brv_farmer_girl.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } | [Peasant grandfather](brv_old_farmer.md) | shopkeeper | Brimhaven |
-| ![](../assets/icons/monsters/monsters_ld1_140.png){ .sprite } | [Percival](village_percival.md) | – | Wexlow Village, gamjee_well_4_1, gamjee_well_jail_cells |
+| ![](../assets/icons/monsters/monsters_ld1_140.png){ .sprite } | [Percival](village_percival.md) | – | Wexlow Village, Gamjee well 4 1, Gamjee well jail cells |
 | ![](../assets/icons/monsters/monsters_rltiles3_18.png){ .sprite } | [Perester](perester.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Perlynn](perlynn.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Pickpocket](pickpocket.md) | – | Fallhaven |
-| ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } | [Pig](pig.md) | – | Loneford, Sullengard, Deebo's Orchard, mountainlake_circe |
+| ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } | [Pig](pig.md) | – | Loneford, Sullengard, Deebo's Orchard, Mountainlake circe |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [Pink marble](guynmart_marble3.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_ld1_21.png){ .sprite } | [Playing child](brv_playing_child2.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Playing children](brv_playing_child1.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_158.png){ .sprite } | [Playing kid](witch_playing_kid.md) | – | Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_ld1_36.png){ .sprite } | [Polyphem](polyphem.md) | – | ll2_cyclops_cave |
+| ![](../assets/icons/monsters/monsters_ld1_36.png){ .sprite } | [Polyphem](polyphem.md) | – | Ll 2 cyclops cave |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Potion merchant](potion_merchant.md) | shopkeeper | Fallhaven |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Praying woman](brightportchurch1.md) | – | Brightport, Stoutford |
 | ![](../assets/icons/monsters/monsters_rltiles1_88.png){ .sprite } | [Prim armorer](prim_armorer.md) | shopkeeper | Prim |
@@ -1294,11 +1292,11 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } | [Prison guard](remgard_pg.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Prowling Arantxa](sullengard_arantxa.md) | shopkeeper | Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } | [Pupil](brv_pupil1.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_ld2_58.png){ .sprite } | [Quasi](hunchback.md) | – | brimhaven_church_basement |
+| ![](../assets/icons/monsters/monsters_ld2_58.png){ .sprite } | [Quasi](hunchback.md) | – | Brimhaven church basement |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Quiet thief](stoutford_thief.md) | shopkeeper | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld_edit_0.png){ .sprite } | [Rain](rain.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Rambling Feygard guard](lodar_fg2.md) | – | Loneford |
-| ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } | [Rancent](iqhan_greeter.md) | – | pwcave0 |
+| ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } | [Rancent](iqhan_greeter.md) | – | Pwcave 0 |
 | ![](../assets/icons/monsters/monsters_ld1_162.png){ .sprite } | [Ravynne](sullengard_ravynne.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Reading Prim pupil](reading_prim_pupil.md) | – | Prim |
 | ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } | [Red marble](guynmart_marble2.md) | – | Guynmart Castle |
@@ -1312,33 +1310,33 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_rltiles1_77.png){ .sprite } | [Rolwynn](rolwynn.md) | starts [Flows through the veins](../quests/loneford.md) | Crossroads Guardhouse |
 | ![](../assets/icons/monsters/monsters_fatboy73_6.png){ .sprite } | [Room service](brv_cleaning.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_30.png){ .sprite } | [Rorthron](guynmart_wizard.md) | shopkeeper | Guynmart Castle |
-| ![](../assets/icons/monsters/monsters_ld1_180.png){ .sprite } | [Rosmara](rosmara.md) | shopkeeper | wayto_feygard_duleian_2 |
+| ![](../assets/icons/monsters/monsters_ld1_180.png){ .sprite } | [Rosmara](rosmara.md) | shopkeeper | Wayto feygard duleian 2 |
 | ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } | [Rothses](rothses.md) | shopkeeper | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_113.png){ .sprite } | [Rowdy thief](brightportthieves3.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_ld1_77.png){ .sprite } | [Rubiano](brightport_mayor.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_rltiles2_93.png){ .sprite } | [Samar](samar.md) | shopkeeper | Prim |
-| ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } | [Seire](brightport_blockernpc.md) | – | brightportwild10 |
+| ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } | [Seire](brightport_blockernpc.md) | – | Brightportwild 10 |
 | ![](../assets/icons/monsters/monsters_rltiles2_136.png){ .sprite } | [Seviron](brv_churchman.md) | starts [A cat and mouse game](../quests/cat_and_mouse.md) | Brimhaven |
 | ![](../assets/icons/monsters/monsters_gisons_15.png){ .sprite } | [Shannal](shannal.md) | – | Mt. Galmore |
 | ![](../assets/icons/monsters/monsters_karvis2_7.png){ .sprite } | [Shepherd](guynmart_shephard.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } | [Shepherd's dog](guynmart_dog1.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } | [Shop Owner](brv_shop_owner.md) | shopkeeper; starts [Honor your parents](../quests/brv_present.md) | Brimhaven |
-| ![](../assets/icons/monsters/monsters_gisons_12.png){ .sprite } | [Shy Cora](shy_cora.md) | shopkeeper | undertell_01, undertell_1_1 |
+| ![](../assets/icons/monsters/monsters_gisons_12.png){ .sprite } | [Shy Cora](shy_cora.md) | shopkeeper | Undertell 01, Undertell 1 1 |
 | ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } | [Sienn](sienn.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_misc_0.png){ .sprite } | [Sienn's pet](sienn_pet.md) | – | Loneford |
-| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Silvanus, the centaur](lae_centaur3.md) | starts [Not Pony Island](../quests/lae_centaurs.md) | island3 |
+| ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } | [Silvanus, the centaur](lae_centaur3.md) | starts [Not Pony Island](../quests/lae_centaurs.md) | Island 3 |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Silvear](brightportthieves1.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_rltiles1_90.png){ .sprite } | [Siola](siola.md) | shopkeeper | – |
 | ![](../assets/icons/monsters/monsters_tometik8_44.png){ .sprite } | [Skeleton mage](ratdom_skel_mage.md) | – | Skeleton dance |
 | ![](../assets/icons/monsters/monsters_ld1_3.png){ .sprite } | [Skylenar](skylenar.md) | shopkeeper | Remgard |
-| ![](../assets/icons/monsters/monsters_tometik7_38.png){ .sprite } | [Sly Seraphina](tt_seraphina.md) | shopkeeper | Prim, Vilegard, Brimhaven, lake_shore_road_9, crackshot_hideout3, crackshot_hideout4 |
+| ![](../assets/icons/monsters/monsters_tometik7_38.png){ .sprite } | [Sly Seraphina](tt_seraphina.md) | shopkeeper | Prim, Vilegard, Brimhaven, Lake shore road 9, Crackshot hideout 3, Crackshot hideout 4 |
 | ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Smug looking thief](smug_looking_thief.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } | [Spectator](guynmart_spectator2.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_ld_edit_20.png){ .sprite } | [Stanwick](brightportnpc.md) | – | Brightport |
 | ![](../assets/icons/monsters/monsters_ld1_34.png){ .sprite } | [Stebbarik](brv_employee.md) | starts [Work for debts](../quests/brv_employee.md) | Brimhaven |
 | ![](../assets/icons/monsters/monsters_ld1_220.png){ .sprite } | [Stephanie](sullengard_stephanie.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Stiyl](brightportpriest1.md) | shopkeeper | Brightport |
-| ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } | [Studying Blackwater priest](studying_blackwater_priest.md) | – | blackwater_mountain43, blackwater_mountain44 |
+| ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } | [Studying Blackwater priest](studying_blackwater_priest.md) | – | Blackwater mountain 43, Blackwater mountain 44 |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Studying Prim pupil](studying_prim_pupil.md) | – | Prim |
 | ![](../assets/icons/monsters/monsters_maksiu1_0.png){ .sprite } | [Stuephant](guynmart_child.md) | starts [Marble hunting](../quests/guynmart_marbles.md) | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_ld1_101.png){ .sprite } | [Sylvester](brightportforenza.md) | – | Brightport |
@@ -1351,16 +1349,16 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Tavern guest](tavern_guest.md) | – | Vilegard, Remgard |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Taylin](taylin.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_ld1_230.png){ .sprite } | [Teccow](mg2_starwatcher.md) | starts [The exploded star](../quests/mg2_exploded_star.md) | Stoutford |
-| ![](../assets/icons/monsters/monsters_tometik2_71.png){ .sprite } | [Teksin](teksin.md) | shopkeeper | waytolake11 |
+| ![](../assets/icons/monsters/monsters_tometik2_71.png){ .sprite } | [Teksin](teksin.md) | shopkeeper | Waytolake 11 |
 | ![](../assets/icons/monsters/monsters_rltiles1_74.png){ .sprite } | [Telund](telund.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } | [Tember](remgard_prison_thief.md) | – | Remgard |
 | ![](../assets/icons/monsters/monsters_rltiles4_41.png){ .sprite } | [Temple Guard](brv_temple_entrance_guard.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_omi2_2.png){ .sprite } | [Thalen](thalen.md) | starts [The fifth master](../quests/fifth_master.md) | undertell_3_lava_00 |
-| ![](../assets/icons/monsters/monsters_ld2_194.png){ .sprite } | [Thalos, the centaur](lae_centaur9.md) | – | island2 |
+| ![](../assets/icons/monsters/monsters_omi2_2.png){ .sprite } | [Thalen](thalen.md) | starts [The fifth master](../quests/fifth_master.md) | Undertell 3 lava 00 |
+| ![](../assets/icons/monsters/monsters_ld2_194.png){ .sprite } | [Thalos, the centaur](lae_centaur9.md) | – | Island 2 |
 | ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Tharwyn](tharwyn.md) | shopkeeper; starts [Trusting an outsider](../quests/vilegard.md) | Vilegard |
 | ![](../assets/icons/monsters/monsters_ld1_133.png){ .sprite } | [Thelry](thelry.md) | shopkeeper | Brimhaven |
 | ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } | [Thieves guild cook](thieves_guild_cook.md) | shopkeeper | Fallhaven |
-| ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } | [Thorin](thorin.md) | shopkeeper; starts [Bits and pieces](../quests/thorin.md) | mountaincave3 |
+| ![](../assets/icons/monsters/monsters_rltiles1_66.png){ .sprite } | [Thorin](thorin.md) | shopkeeper; starts [Bits and pieces](../quests/thorin.md) | Mountaincave 3 |
 | ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } | [Thoronir](thoronir.md) | shopkeeper | Fallhaven |
 | ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } | [Throdna](throdna.md) | starts [Lights in the dark](../quests/kazaul.md) | Prim |
 | ![](../assets/icons/monsters/monsters_rltiles1_85.png){ .sprite } | [Throdna's guard](throdnas_guard.md) | – | Prim |
@@ -1371,8 +1369,8 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } | [Tired citizen](tired_citizen.md) | – | Fallhaven |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Tired farmer](tired_farmer.md) | – | Crossglen |
 | ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } | [Tjure](tjure.md) | starts [The silver scale](../quests/mermaid_scale.md) | Blackwater Mountain |
-| ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Tobby](tobby.md) | starts [Sobby's Trail](../quests/tobby.md) | guynmart_wood_19, guynmart_wood_18, guynmart_wood_17b, guynmart_wood_17, Fallhaven |
-| ![](../assets/icons/monsters/monsters_ld2_161.png){ .sprite } | [Tocsin](tocsin.md) | – | undertell_4_00 |
+| ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } | [Tobby](tobby.md) | starts [Sobby's Trail](../quests/tobby.md) | Guynmart wood 19, Guynmart wood 18, Guynmart wood 17b, Guynmart wood 17, Fallhaven |
+| ![](../assets/icons/monsters/monsters_ld2_161.png){ .sprite } | [Tocsin](tocsin.md) | – | Undertell 4 00 |
 | ![](../assets/icons/monsters/monsters_rltiles1_67.png){ .sprite } | [Tonis](tonis.md) | starts [Clouded intent](../quests/prim_hunt.md) | Prim |
 | ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Torilo](torilo.md) | shopkeeper | Foaming Flask Tavern |
 | ![](../assets/icons/monsters/monsters_ld1_105.png){ .sprite } | [Trauerquol](brightportinnvisitor.md) | – | Brightport |
@@ -1381,12 +1379,12 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_tometik7_40.png){ .sprite } | [Two-teeth](twoteeth.md) | starts [Sweet sweet rat poison](../quests/lowyna.md) | Fallhaven |
 | ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } | [Umar](umar.md) | starts [A lost potion](../quests/lodar.md), [Another ruthless Crackshot](../quests/Thieves04.md), [Immaculate kidnapping](../quests/Thieves02.md), [The ruthless Crackshot](../quests/Thieves03.md) +2 | Fallhaven |
 | ![](../assets/icons/monsters/monsters_rltiles4_0.png){ .sprite } | [Undead child](erwyn_child.md) | – | Flagstone Prison |
-| ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } | [Undina Bogsten](bogsten_granny.md) | – | mushroom_m2_4 |
-| ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Ungorm](ungorm.md) | – | blackwater_mountain43 |
+| ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } | [Undina Bogsten](bogsten_granny.md) | – | Mushroom m 2 4 |
+| ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Ungorm](ungorm.md) | – | Blackwater mountain 43 |
 | ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } | [Unkorh](guynmart_steward.md) | – | Guynmart Castle |
 | ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } | [Unnmir](unnmir.md) | starts [Lost treasures](../quests/nocmar.md) | – |
-| ![](../assets/icons/monsters/monsters_tometik7_12.png){ .sprite } | [Vaelric](vaelric.md) | shopkeeper; starts [The swamp healer](../quests/swamp_healer.md) | galmore_17_house |
-| ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } | [Vaelzahr](vaelzahr.md) | starts [The fifth master](../quests/fifth_master.md) | undertell_7_00 |
+| ![](../assets/icons/monsters/monsters_tometik7_12.png){ .sprite } | [Vaelric](vaelric.md) | shopkeeper; starts [The swamp healer](../quests/swamp_healer.md) | Galmore 17 house |
+| ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } | [Vaelzahr](vaelzahr.md) | starts [The fifth master](../quests/fifth_master.md) | Undertell 7 00 |
 | ![](../assets/icons/monsters/monsters_ld1_167.png){ .sprite } | [Valentina](crossglen_valentina.md) | – | Crossglen, Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_165.png){ .sprite } | [Valeria](sullengard_valeria.md) | – | Sullengard |
 | ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } | [Valhorn](sullengard_valhorn.md) | – | Sullengard |
@@ -1399,14 +1397,14 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Vilegard woman](vilegard_woman.md) | starts [Trusting an outsider](../quests/vilegard.md) | Vilegard |
 | ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } | [Villager](loneford_villager0.md) | starts [Flows through the veins](../quests/loneford.md) | Loneford |
 | ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Visitor](crossroads_guest.md) | – | Crossroads Guardhouse |
-| ![](../assets/icons/monsters/monsters_rltiles1_88.png){ .sprite } | [Waeges](waeges.md) | shopkeeper | blackwater_mountain43 |
+| ![](../assets/icons/monsters/monsters_rltiles1_88.png){ .sprite } | [Waeges](waeges.md) | shopkeeper | Blackwater mountain 43 |
 | ![](../assets/icons/monsters/monsters_ld1_162.png){ .sprite } | [Waitress](brv_tavern_west_waitress.md) | shopkeeper | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles1_75.png){ .sprite } | [Wallach](wallach.md) | – | Loneford |
 | ![](../assets/icons/monsters/monsters_ld1_15.png){ .sprite } | [Warehouse worker](brv_wh_worker.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles3_10.png){ .sprite } | [Wart](ratdom_rat_warden.md) | shopkeeper | Museum |
 | ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } | [Watchdog](brightportthieves4.md) | – | Brightport, Brimhaven |
 | ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } | [Watchman](guard_pathway.md) | starts [A path to the Duleian Road](../quests/pathway_fallhaven.md) | Fallhaven |
-| ![](../assets/icons/monsters/monsters_ld1_6.png){ .sprite } | [Waterway traveler](graveyard_traveler.md) | – | graveyard0 |
+| ![](../assets/icons/monsters/monsters_ld1_6.png){ .sprite } | [Waterway traveler](graveyard_traveler.md) | – | Graveyard 0 |
 | ![](../assets/icons/monsters/monsters_rltiles3_16.png){ .sprite } | [Whootibarfag](whootibarfag.md) | shopkeeper; teaches [Evasion](../skills/evasion.md) | Blackwater Mountain |
 | ![](../assets/icons/monsters/items_japozero_488.png){ .sprite } | [Wild berries](wild_berry.md) | – | Fallhaven, Guynmart Castle, Deebo's Orchard |
 | ![](../assets/icons/monsters/items_japozero_547.png){ .sprite } | [Wild flower](wild_flower.md) | – | Fallhaven |
@@ -1418,13 +1416,13 @@ Characters who cannot be attacked, in alphabetical order. The [Where is…?](../
 | ![](../assets/icons/monsters/monsters_tometik2_62.png){ .sprite } | [Worker](brv_laundry_worker.md) | – | Brimhaven |
 | ![](../assets/icons/monsters/monsters_omi2_11.png){ .sprite } | [Wounded Feygard mountain scout](ortholion_guard_wounded.md) | – | Blackwater Mountain |
 | ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } | [Wounded Prim guard](prim_guard7.md) | – | Prim |
-| ![](../assets/icons/monsters/monsters_tometik10_5.png){ .sprite } | [Writhing bread](breadgolem1.md) | – | brightport_forest |
+| ![](../assets/icons/monsters/monsters_tometik10_5.png){ .sprite } | [Writhing bread](breadgolem1.md) | – | Brightport forest |
 | ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } | [Wrye](wrye.md) | – | Vilegard |
 | ![](../assets/icons/monsters/monsters_tometik3_10.png){ .sprite } | [Wulfric](wulfric.md) | – | Wexlow Village |
 | ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } | [Yolgen](yolgen.md) | shopkeeper; starts [Ancient secrets](../quests/flagstone.md) | Stoutford |
-| ![](../assets/icons/monsters/monsters_ld2_3.png){ .sprite } | [Young herding dog](sull_herding_dog.md) | – | way_to_sullengard_east11 |
+| ![](../assets/icons/monsters/monsters_ld2_3.png){ .sprite } | [Young herding dog](sull_herding_dog.md) | – | Way to sullengard east 11 |
 | ![](../assets/icons/monsters/monsters_ld1_14.png){ .sprite } | [Young man](stoutford_commoner5.md) | – | Stoutford |
 | ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } | [Zaccheria](sullengard_zaccheria.md) | shopkeeper; starts [Recovering stolen property](../quests/sullengard_recover_items.md) | Sullengard |
-| ![](../assets/icons/monsters/monsters_tometik6_34.png){ .sprite } | [Zaroth](zaroth.md) | starts [The fifth master](../quests/fifth_master.md) | undertell_4_00 |
+| ![](../assets/icons/monsters/monsters_tometik6_34.png){ .sprite } | [Zaroth](zaroth.md) | starts [The fifth master](../quests/fifth_master.md) | Undertell 4 00 |
 | ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } | [Zimsko](zimsko.md) | – | Brimhaven |
-| ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Zorvan](brv_undertaker.md) | – | brimhaven_church_basement |
+| ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } | [Zorvan](brv_undertaker.md) | – | Brimhaven church basement |

@@ -4,7 +4,7 @@ description: "Emerei is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_27.png){ .sprite } Emerei
 
-**Where to find Emerei:** Remgard: [remgard_villager3](../maps/remgard_villager3.md#pin-npc-emerei)
+**Where to find Emerei:** Remgard: [Remgard villager 3](../maps/remgard_villager3.md#pin-npc-emerei)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Emerei is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Emerei. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Emerei. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/emerei.json" data-npc="Emerei" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-emerei"></span>**`emerei`** Emerei: “We don't get many visitors here these days. I hope you like what you see here in Remgard.”
 

@@ -4,7 +4,7 @@ description: "Cavern snake is an enemy in Andor's Trail (reptile) with 180 HP, w
 
 # ![](../assets/icons/monsters/monsters_tometik4_23.png){ .sprite } Cavern snake
 
-**Found in:** Burial cave: [brightport_cave11](../maps/brightport_cave11.md), Burial cave: [brightport_cave12](../maps/brightport_cave12.md), Burial cave: [brightport_cave9](../maps/brightport_cave9.md), Buried citadel: [brightport_cave3](../maps/brightport_cave3.md) (+3 more)
+**Found in:** Burial cave: [Brightport cave 11](../maps/brightport_cave11.md), Burial cave: [Brightport cave 12](../maps/brightport_cave12.md), Burial cave: [Brightport cave 9](../maps/brightport_cave9.md), Buried citadel: [Brightport cave 3](../maps/brightport_cave3.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -48,13 +48,13 @@ description: "Cavern snake is an enemy in Andor's Trail (reptile) with 180 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave11](../maps/brightport_cave11.md) | Burial cave | 1 | – |
-| [brightport_cave12](../maps/brightport_cave12.md) | Burial cave | 1 | – |
-| [brightport_cave14](../maps/brightport_cave14.md) | – | 1 | – |
-| [brightport_cave15](../maps/brightport_cave15.md) | – | 1 | – |
-| [brightport_cave16](../maps/brightport_cave16.md) | – | 1 | – |
-| [brightport_cave3](../maps/brightport_cave3.md) | Buried citadel | 1 | – |
-| [brightport_cave9](../maps/brightport_cave9.md) | Burial cave | 4 | – |
+| [Brightport cave 11](../maps/brightport_cave11.md) | Burial cave | 1 | – |
+| [Brightport cave 12](../maps/brightport_cave12.md) | Burial cave | 1 | – |
+| [Brightport cave 14](../maps/brightport_cave14.md) | – | 1 | – |
+| [Brightport cave 15](../maps/brightport_cave15.md) | – | 1 | – |
+| [Brightport cave 16](../maps/brightport_cave16.md) | – | 1 | – |
+| [Brightport cave 3](../maps/brightport_cave3.md) | Buried citadel | 1 | – |
+| [Brightport cave 9](../maps/brightport_cave9.md) | Burial cave | 4 | – |
 
 
 ## Version history

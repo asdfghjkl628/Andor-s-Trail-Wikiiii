@@ -1,8 +1,8 @@
 ---
-description: "Brightport school7 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Stanwick. Exits to Brightport school5."
+description: "Brightport school 7 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Stanwick. Exits to Brightport school 5."
 ---
 
-# Brightport school7
+# Brightport school 7
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Brightport school7 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport school7** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport school5.
+**Brightport school 7** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport school 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school7.webp" alt="Map of Brightport school7" width="288" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport_school5/#place-dorm1" title="Exit to Brightport school5" style="left:44.444%;top:87.500%;width:11.111%;height:12.500%"></a><a class="mo mo-script" href="../../quests/brightport_nondisplay/#stage-50" title="Scripted event: advances the quest: hidden story flag “brightport_nondisplay” to stage 50 (“stanwick entrance done”) (+2 more quest(s))" style="left:33.333%;top:75.000%;width:33.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Stanwick" style="left:33.333%;top:50.000%;width:22.222%;height:12.500%"></span><a class="mob" href="../../monsters/brightportnpc/" title="Stanwick" style="left:44.444%;top:50.000%;width:11.111%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld_edit_20.png" alt="Stanwick"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Brightport school5](brightport_school5.md)">1</a><a id="pin-npc-brightportnpc" class="pin pin-npc" href="#key-2" style="left:50.000%;top:56.250%" title="[Stanwick](../../monsters/brightportnpc.md): 2 quests">2</a><a class="pin pin-script" href="#key-3" style="left:50.000%;top:81.250%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “brightport_nondisplay” to stage 50 (“stanwick entrance done”) (+2 more quest(s))">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school7.webp" alt="Map of Brightport school 7" width="288" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport_school5/#place-dorm1" title="Exit to Brightport school 5" style="left:44.444%;top:87.500%;width:11.111%;height:12.500%"></a><a class="mo mo-script" href="../../quests/brightport_nondisplay/#stage-50" title="Scripted event: advances the quest: hidden story flag “brightport_nondisplay” to stage 50 (“stanwick entrance done”) (+2 more quest(s))" style="left:33.333%;top:75.000%;width:33.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Stanwick" style="left:33.333%;top:50.000%;width:22.222%;height:12.500%"></span><a class="mob" href="../../monsters/brightportnpc/" title="Stanwick" style="left:44.444%;top:50.000%;width:11.111%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld_edit_20.png" alt="Stanwick"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Brightport school 5](brightport_school5.md)">1</a><a id="pin-npc-brightportnpc" class="pin pin-npc" href="#key-2" style="left:50.000%;top:56.250%" title="[Stanwick](../../monsters/brightportnpc.md): 2 quests">2</a><a class="pin pin-script" href="#key-3" style="left:50.000%;top:81.250%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “brightport_nondisplay” to stage 50 (“stanwick entrance done”) (+2 more quest(s))">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brightport school5](brightport_school5.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brightport school 5](brightport_school5.md) |
     | <span id="key-2"></span>2 | [Stanwick](../monsters/brightportnpc.md) | 2 quests |
     | <span id="key-3"></span>3 | Quest trigger | Scripted event: advances the quest: hidden story flag “brightport_nondisplay” to stage 50 (“stanwick entrance done”) (+2 more quest(s)) |
 
@@ -41,7 +41,7 @@ description: "Brightport school7 is an indoor location in Andor's Trail, in Brig
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brightport school5](brightport_school5.md) | Brightport | 1 |
+| South | [Brightport school 5](brightport_school5.md) | Brightport | 1 |
 
 ## NPCs
 
@@ -51,7 +51,7 @@ description: "Brightport school7 is an indoor location in Andor's Trail, in Brig
 
 - [No rest for the wicked](../quests/Stanwickquest.md): [Stanwick](../monsters/brightportnpc.md) is involved; something on this map advances it; stepping on a trigger here sets stage 20; stepping on a trigger here sets stage 25
 - [Search for Andor](../quests/andor.md): [Stanwick](../monsters/brightportnpc.md) is involved; something on this map advances it; stepping on a trigger here sets stage 126
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Stanwick](../monsters/brightportnpc.md) is involved; something on this map advances it; stepping on a trigger here sets stage 50
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Stanwick](../monsters/brightportnpc.md) is involved; something on this map advances it; stepping on a trigger here sets stage 50
 
 ## Points of interest
 

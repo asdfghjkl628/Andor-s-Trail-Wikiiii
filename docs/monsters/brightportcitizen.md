@@ -18,29 +18,29 @@ description: "Brightport commoner is a non-player character (NPC) in Andor's Tra
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Brightport commoner. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Brightport commoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brightportcitizen`](#v-brightportcitizen) | NPC | Brightport: [brightport1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [brightport3](../maps/brightport3.md#pin-npc-brightportcitizen) | – |
-| [`brightportcitizen1`](#v-brightportcitizen1) | NPC | Brightport: [brightport5](../maps/brightport5.md#pin-npc-brightportcitizen1) | – |
+| [`brightportcitizen`](#v-brightportcitizen) | NPC | Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [Brightport 3](../maps/brightport3.md#pin-npc-brightportcitizen) | – |
+| [`brightportcitizen1`](#v-brightportcitizen1) | NPC | Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportcitizen1) | – |
 
-## Brightport, Brightport1 and 1 more (brightportcitizen) { #v-brightportcitizen }
+## Brightport, Brightport 1 and 1 more (brightportcitizen) { #v-brightportcitizen }
 
 **Entry ID:** `brightportcitizen` · **Type:** NPC
 
-**Location:** Brightport: [brightport1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [brightport3](../maps/brightport3.md#pin-npc-brightportcitizen)
+**Location:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportcitizen), Brightport: [Brightport 3](../maps/brightport3.md#pin-npc-brightportcitizen)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport1](../maps/brightport1.md) | Brightport | 1 | – |
-| [brightport3](../maps/brightport3.md) | Brightport | 2 | – |
+| [Brightport 1](../maps/brightport1.md) | Brightport | 1 | – |
+| [Brightport 3](../maps/brightport3.md) | Brightport | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Brightport commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Brightport commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_citizen0.json" data-npc="Brightport commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightportcitizen-brightport_citizen0"></span>**`brightport_citizen0`** [Brightport commoner](../monsters/brightportcitizen.md): “Excuse me, I have no time for discussion.”
 
@@ -92,15 +92,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brightport, Brightport5 (brightportcitizen1) { #v-brightportcitizen1 }
+## Brightport, Brightport 5 (brightportcitizen1) { #v-brightportcitizen1 }
 
 **Entry ID:** `brightportcitizen1` · **Type:** NPC
 
-**Location:** Brightport: [brightport5](../maps/brightport5.md#pin-npc-brightportcitizen1)
+**Location:** Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportcitizen1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Brightport commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Brightport commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_citizen.json" data-npc="Brightport commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -108,7 +108,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightportcitizen1-brightport_citizen"></span>**`brightport_citizen`** [Brightport commoner](../monsters/brightportcitizen.md#v-brightportcitizen1): “Sigh. Nowadays, the streets are always bustling with clamor, and everyone seems to be in a hurry. I miss the days when I could quietly sit and gaze at the lake.”
 

@@ -4,7 +4,7 @@ description: "Othinus is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_2.png){ .sprite } Othinus
 
-**Where to find Othinus:** Brightport: [brightport_temple](../maps/brightport_temple.md#pin-npc-brightportpriest)
+**Where to find Othinus:** Brightport: [Brightport temple](../maps/brightport_temple.md#pin-npc-brightportpriest)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Othinus is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 5
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 5
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Othinus. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Othinus. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_othinus_1.json" data-npc="Othinus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,9 +33,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brightport_othinus_1"></span>**`brightport_othinus_1`** [Othinus](../monsters/brightportpriest.md): “I'm in the middle of an important ritual. If you require something, please consult with my steward, Stiyl.” — **effects:** sets stage 5 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-5)
+    <span id="d-brightport_othinus_1"></span>**`brightport_othinus_1`** [Othinus](../monsters/brightportpriest.md): “I'm in the middle of an important ritual. If you require something, please consult with my steward, Stiyl.” — **effects:** sets stage 5 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-5)
 
 
 

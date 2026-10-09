@@ -4,7 +4,7 @@ description: "Delon is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_195.png){ .sprite } Delon
 
-**Where to find Delon:** Brightport: [brightport_bakery1](../maps/brightport_bakery1.md#pin-npc-brightportnpc10)
+**Where to find Delon:** Brightport: [Brightport bakery 1](../maps/brightport_bakery1.md#pin-npc-brightportnpc10)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Delon is a non-player character (NPC) in Andor's Trail, found in B
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Delon. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Delon. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_delon_selector.json" data-npc="Delon" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,17 +33,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_delon_selector"></span>**`brightport_delon_selector`** *(silent check: the first matching branch below is taken)*
 
     - Next *(if reached stage 20 of [Bread and circus](../quests/brightport_bakery.md#stage-20))* → [brightport_delon18](#d-brightport_delon18)
     - Next *(if reached stage 16 of [Bread and circus](../quests/brightport_bakery.md#stage-16); NOT reached stage 20 of [Bread and circus](../quests/brightport_bakery.md#stage-20))* → [brightport_delon14](#d-brightport_delon14)
-    - Next *(if reached stage 162 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-162); reached stage 163 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-163); reached stage 164 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-164))* → [brightport_delon12](#d-brightport_delon12)
-    - Next *(if reached stage 207 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-207))* → [brightport_delon11](#d-brightport_delon11)
-    - Next *(if NOT reached stage 207 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-207); reached stage 206 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-206))* → [brightport_delon10](#d-brightport_delon10)
-    - Next *(if reached stage 195 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-195); NOT reached stage 206 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-206))* → [brightport_delon9](#d-brightport_delon9)
-    - Next *(if reached stage 5 of [Bread and circus](../quests/brightport_bakery.md#stage-5); NOT reached stage 195 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-195))* → [brightport_delon6](#d-brightport_delon6)
+    - Next *(if reached stage 162 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-162); reached stage 163 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-163); reached stage 164 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-164))* → [brightport_delon12](#d-brightport_delon12)
+    - Next *(if reached stage 207 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-207))* → [brightport_delon11](#d-brightport_delon11)
+    - Next *(if NOT reached stage 207 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-207); reached stage 206 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-206))* → [brightport_delon10](#d-brightport_delon10)
+    - Next *(if reached stage 195 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-195); NOT reached stage 206 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-206))* → [brightport_delon9](#d-brightport_delon9)
+    - Next *(if reached stage 5 of [Bread and circus](../quests/brightport_bakery.md#stage-5); NOT reached stage 195 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-195))* → [brightport_delon6](#d-brightport_delon6)
     - Next → [brightport_delon0](#d-brightport_delon0)
 
     <span id="d-brightport_delon18"></span>**`brightport_delon18`** Delon: “Yawn... Your job's over, go away.”
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_delon14"></span>**`brightport_delon14`** Delon: “Yawn. Is the flour sifted yet?”
 
-    - “As white as powdered snow.” *(if reached stage 168 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-168))* → [brightport_delon15](#d-brightport_delon15)
+    - “As white as powdered snow.” *(if reached stage 168 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-168))* → [brightport_delon15](#d-brightport_delon15)
     - “Not yet.” → *conversation ends*
 
     <span id="d-brightport_delon12"></span>**`brightport_delon12`** Delon: “Zzzz. Pastries... Zzzz...”

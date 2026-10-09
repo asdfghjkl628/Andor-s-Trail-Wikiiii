@@ -25,15 +25,15 @@ description: "Empty bottle is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (1×)
-- From stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-8) (1×)
-- From stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-1) (1×)
-- From stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-2) (1×)
-- From stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-3) (1×)
-- From stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-4) (1×)
-- From stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-5) (1×)
-- From stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-6) (1×)
-- From stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-7) (3×)
+- From [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) during [Delicious soup](../quests/gison_soup.md#stage-30) (1×)
+- From stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-8) (1×)
+- From stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-1) (1×)
+- From stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-2) (1×)
+- From stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-3) (1×)
+- From stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-4) (1×)
+- From stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-5) (1×)
+- From stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-6) (1×)
+- From stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) during [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-7) (3×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -44,11 +44,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | [Delicious soup](../quests/gison_soup.md#stage-40) | handed over (1×) | “Yes I have. Here is it. [You give Gison the empty bottle.]” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | [Delicious soup](../quests/gison_soup.md#stage-40) | handed over (1×) | “I want to return your bottle.” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (10×) | “I need soup! At least ten bottles! Quick!!” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (5×) | “Give me five bottles.” |
-| [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | handed over (1×) | “Just one, please.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | [Delicious soup](../quests/gison_soup.md#stage-40) | handed over (1×) | “Yes I have. Here is it. [You give Gison the empty bottle.]” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | [Delicious soup](../quests/gison_soup.md#stage-40) | handed over (1×) | “I want to return your bottle.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (10×) | “I need soup! At least ten bottles! Quick!!” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (5×) | “Give me five bottles.” |
+| [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) | – | handed over (1×) | “Just one, please.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,10 +1,10 @@
 ---
-description: "Strong horned anklebiter is an enemy in Andor's Trail (animal) with 76 HP, worth 198 XP, found in lodar15, lodar17, lodar19. Drops: Gold coins, Ruby gem, Meat, Animal hair."
+description: "Strong horned anklebiter is an enemy in Andor's Trail (animal) with 76 HP, worth 198 XP, found in Lodar 15, Lodar 17, Lodar 19. Drops: Gold coins, Ruby gem, Meat, Animal hair."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_52.png){ .sprite } Strong horned anklebiter
 
-**Found in:** [lodar15](../maps/lodar15.md), [lodar17](../maps/lodar17.md), [lodar19](../maps/lodar19.md), [lodar21](../maps/lodar21.md)
+**Found in:** [Lodar 15](../maps/lodar15.md), [Lodar 17](../maps/lodar17.md), [Lodar 19](../maps/lodar19.md), [Lodar 21](../maps/lodar21.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Strong horned anklebiter is an enemy in Andor's Trail (animal) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar15, lodar17, lodar19 |
+| **Found in** | Lodar 15, Lodar 17, Lodar 19 |
 | **Class** | Animal |
 | **HP** | 76 |
 | **XP when defeated** | 198 |
@@ -57,10 +57,10 @@ description: "Strong horned anklebiter is an enemy in Andor's Trail (animal) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar15](../maps/lodar15.md) | – | 2 | – |
-| [lodar17](../maps/lodar17.md) | – | 3 | – |
-| [lodar19](../maps/lodar19.md) | – | 5 | – |
-| [lodar21](../maps/lodar21.md) | – | 2 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 2 | – |
+| [Lodar 17](../maps/lodar17.md) | – | 3 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 5 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 2 | – |
 
 
 ## Version history

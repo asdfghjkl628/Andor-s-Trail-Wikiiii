@@ -26,7 +26,7 @@ description: "Fierce Lava Rock is a ordinary other in Andor's Trail. How to get 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [arulircave6](../maps/arulircave6.md) (1×)
+- From stepping on a trigger on [Arulircave 6](../maps/arulircave6.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,7 +37,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [arulircave6](../maps/arulircave6.md) | – | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Arulircave 6](../maps/arulircave6.md) | – | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

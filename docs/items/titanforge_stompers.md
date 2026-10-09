@@ -42,8 +42,8 @@ description: "Titanforge stompers is a extraordinary footwear, metal (heavy) in 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Grimmthorn marauder](../monsters/grimmthorn_marauder.md) | 0.1% | 1 | way_to_sullengard_west_1, way_to_sullengard_west_3 |
-| [Dirty grimmthorn marauder](../monsters/dirty_grimmthorn_marauder.md) | 0.1% | 1 | way_to_sullengard_west_0, way_to_sullengard_west_1, way_to_sullengard_west_2 |
+| [Grimmthorn marauder](../monsters/grimmthorn_marauder.md) | 0.1% | 1 | Way to sullengard west 1, Way to sullengard west 3 |
+| [Dirty grimmthorn marauder](../monsters/dirty_grimmthorn_marauder.md) | 0.1% | 1 | Way to sullengard west 0, Way to sullengard west 1, Way to sullengard west 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

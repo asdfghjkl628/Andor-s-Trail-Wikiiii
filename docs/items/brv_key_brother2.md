@@ -25,7 +25,7 @@ description: "Key (found in run-down house East Brimhaven) is a quest other in A
 
 ### Found in containers
 
-- [brimhaven_brother1](../maps/brimhaven_brother1.md#container-0) (container 1, 100%), Brimhaven
+- [Brimhaven brother 1](../maps/brimhaven_brother1.md#container-0) (container 1, 100%), Brimhaven
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [brimhaven3](../maps/brimhaven3.md) | [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-20) | must be carried (1×) | “I try to use the key that I found in the house nearby to open the door.” |
+| walking into a blocked passage on [Brimhaven 3](../maps/brimhaven3.md) | [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-20) | must be carried (1×) | “I try to use the key that I found in the house nearby to open the door.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

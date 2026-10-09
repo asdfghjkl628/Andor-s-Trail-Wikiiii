@@ -4,7 +4,7 @@ description: "Young ash gargoyle is an enemy in Andor's Trail (construct) with 1
 
 # ![](../assets/icons/monsters/monsters_misc_1.png){ .sprite } Young ash gargoyle
 
-**Found in:** Charwood: [lostmine2](../maps/lostmine2.md), [lostmine3](../maps/lostmine3.md)
+**Found in:** Charwood: [Lostmine 2](../maps/lostmine2.md), [Lostmine 3](../maps/lostmine3.md)
 
 <div class="infobox" markdown>
 
@@ -59,8 +59,8 @@ description: "Young ash gargoyle is an enemy in Andor's Trail (construct) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine2](../maps/lostmine2.md) | Charwood | 3 | – |
-| [lostmine3](../maps/lostmine3.md) | – | 17 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 3 | – |
+| [Lostmine 3](../maps/lostmine3.md) | – | 17 | – |
 
 
 ## Version history

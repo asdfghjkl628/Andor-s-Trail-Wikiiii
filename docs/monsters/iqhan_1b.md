@@ -1,10 +1,10 @@
 ---
-description: "Iqhan thrall servant is an enemy in Andor's Trail (humanoid) with 57 HP, worth 122 XP, found in pwcave0, pwcave1, pwcave4. Drops: Gold coins, Iqhan pendant, Torn shirt, Iron dagger."
+description: "Iqhan thrall servant is an enemy in Andor's Trail (humanoid) with 57 HP, worth 122 XP, found in Pwcave 0, Pwcave 1, Pwcave 4. Drops: Gold coins, Iqhan pendant, Torn shirt, Iron dagger."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_96.png){ .sprite } Iqhan thrall servant
 
-**Found in:** [pwcave0](../maps/pwcave0.md), [pwcave1](../maps/pwcave1.md), [pwcave4](../maps/pwcave4.md), [waterway2](../maps/waterway2.md) (+1 more)
+**Found in:** [Pwcave 0](../maps/pwcave0.md), [Pwcave 1](../maps/pwcave1.md), [Pwcave 4](../maps/pwcave4.md), [Waterway 2](../maps/waterway2.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Iqhan thrall servant is an enemy in Andor's Trail (humanoid) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave0, pwcave1, pwcave4 |
+| **Found in** | Pwcave 0, Pwcave 1, Pwcave 4 |
 | **Class** | Humanoid |
 | **HP** | 57 |
 | **XP when defeated** | 122 |
@@ -57,11 +57,11 @@ description: "Iqhan thrall servant is an enemy in Andor's Trail (humanoid) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave0](../maps/pwcave0.md) | – | 5 | – |
-| [pwcave1](../maps/pwcave1.md) | – | 10 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 1 | – |
-| [waterway2](../maps/waterway2.md) | – | 2 | – |
-| [waterway3](../maps/waterway3.md) | – | 1 | – |
+| [Pwcave 0](../maps/pwcave0.md) | – | 5 | – |
+| [Pwcave 1](../maps/pwcave1.md) | – | 10 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 1 | – |
+| [Waterway 2](../maps/waterway2.md) | – | 2 | – |
+| [Waterway 3](../maps/waterway3.md) | – | 1 | – |
 
 
 ## Version history

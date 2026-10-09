@@ -39,7 +39,7 @@ description: "Boots of the Globetrotter is a extraordinary footwear, leather in 
 
 ### Quest & dialogue rewards
 
-- From [Kayla](../monsters/kayla.md) ([stoutford_cottage2](../maps/stoutford_cottage2.md)) during [Surprise?](../quests/halvor_surprise.md#stage-190) (1×)
+- From [Kayla](../monsters/kayla.md) ([Stoutford cottage 2](../maps/stoutford_cottage2.md)) during [Surprise?](../quests/halvor_surprise.md#stage-190) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -50,7 +50,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | must be worn (1×) | “Maybe it's the sound of my boots that's scaring it off...I should try taking the” |
+| stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) | – | must be worn (1×) | “Maybe it's the sound of my boots that's scaring it off...I should try taking the” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

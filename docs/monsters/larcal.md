@@ -57,7 +57,7 @@ description: "Larcal is an NPC who can also be fought in Andor's Trail."
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Larcal. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Larcal. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/larcal.json" data-npc="Larcal" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-larcal"></span>**`larcal`** Larcal: “I don't have time for you, kid. Get lost.”
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Ok, now you're starting to annoy me, kid. Get lost while you still ca…” → “OK, now you're starting to annoy me, kid. Get lost while you still ca…”<br>· text: “You are still here? Ok then, if you want the book that bad, you will …” → “You are still here? OK then, if you want the book that bad, you will …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “You are still here? Ok then, if you want the book that bad, you will …” → “You are still here? OK then, if you want the book that bad, you will …”<br>· text: “Ok, now you're starting to annoy me, kid. Get lost while you still ca…” → “OK, now you're starting to annoy me, kid. Get lost while you still ca…” |
 | [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “Good boy. Now run away.” → “Good, now run away.” |
 

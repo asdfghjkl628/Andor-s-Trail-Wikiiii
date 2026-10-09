@@ -1,10 +1,10 @@
 ---
-description: "Cave worm is an enemy in Andor's Trail (reptile) with 80 HP, worth 119 XP, found in laerothcave1, laerothtomb0. Drops: Gold coins, Serpent meat."
+description: "Cave worm is an enemy in Andor's Trail (reptile) with 80 HP, worth 119 XP, found in Laerothcave 1, Laerothtomb 0. Drops: Gold coins, Serpent meat."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_134.png){ .sprite } Cave worm
 
-**Found in:** [laerothcave1](../maps/laerothcave1.md), [laerothtomb0](../maps/laerothtomb0.md)
+**Found in:** [Laerothcave 1](../maps/laerothcave1.md), [Laerothtomb 0](../maps/laerothtomb0.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cave worm is an enemy in Andor's Trail (reptile) with 80 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave1, laerothtomb0 |
+| **Found in** | Laerothcave 1, Laerothtomb 0 |
 | **Class** | Reptile |
 | **HP** | 80 |
 | **XP when defeated** | 119 |
@@ -55,8 +55,8 @@ description: "Cave worm is an enemy in Andor's Trail (reptile) with 80 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave1](../maps/laerothcave1.md) | – | 2 | – |
-| [laerothtomb0](../maps/laerothtomb0.md) | – | 6 | – |
+| [Laerothcave 1](../maps/laerothcave1.md) | – | 2 | – |
+| [Laerothtomb 0](../maps/laerothtomb0.md) | – | 6 | – |
 
 
 ## Version history

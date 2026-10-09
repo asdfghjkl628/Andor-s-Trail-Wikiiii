@@ -29,11 +29,11 @@ description: "Golden jackal fur is a quest animal part in Andor's Trail. How to 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Golden jackal](../monsters/golden_jackal.md) | 100% | 1 | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
+| [Golden jackal](../monsters/golden_jackal.md) | 100% | 1 | Sullengard west ravine, Sullengard woods 12, Sullengard woods 4 |
 
 ### Quest & dialogue rewards
 
-- From [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) during [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50) (1×)
+- From [Deebo](../monsters/deebo_orchard_deebo.md) ([Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)) during [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -44,8 +44,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50) | handed over (1×) | “I have killed the Golden jackal and I have the requested proof.” |
-| [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | – | must be carried (0×) | “I have killed the Golden jackal, but I can not prove it.” |
+| [Deebo](../monsters/deebo_orchard_deebo.md) ([Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)) | [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50) | handed over (1×) | “I have killed the Golden jackal and I have the requested proof.” |
+| [Deebo](../monsters/deebo_orchard_deebo.md) ([Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)) | – | must be carried (0×) | “I have killed the Golden jackal, but I can not prove it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

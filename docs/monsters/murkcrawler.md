@@ -4,7 +4,7 @@ description: "Murkcrawler is an enemy in Andor's Trail (animal) with 122 HP, wor
 
 # ![](../assets/icons/monsters/monsters_newb_1_260.png){ .sprite } Murkcrawler
 
-**Found in:** Wexlow Village: [way_to_wexlow2](../maps/way_to_wexlow2.md), Wexlow Village: [way_to_wexlow3](../maps/way_to_wexlow3.md), Wexlow Village: [wayto_feygard_duleian_1](../maps/wayto_feygard_duleian_1.md)
+**Found in:** Wexlow Village: [Way to wexlow 2](../maps/way_to_wexlow2.md), Wexlow Village: [Way to wexlow 3](../maps/way_to_wexlow3.md), Wexlow Village: [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md)
 
 <div class="infobox" markdown>
 
@@ -55,9 +55,9 @@ description: "Murkcrawler is an enemy in Andor's Trail (animal) with 122 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_wexlow2](../maps/way_to_wexlow2.md) | Wexlow Village | 6 | – |
-| [way_to_wexlow3](../maps/way_to_wexlow3.md) | Wexlow Village | 4 | – |
-| [wayto_feygard_duleian_1](../maps/wayto_feygard_duleian_1.md) | Wexlow Village | 1 | – |
+| [Way to wexlow 2](../maps/way_to_wexlow2.md) | Wexlow Village | 6 | – |
+| [Way to wexlow 3](../maps/way_to_wexlow3.md) | Wexlow Village | 4 | – |
+| [Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md) | Wexlow Village | 1 | – |
 
 
 ## Version history

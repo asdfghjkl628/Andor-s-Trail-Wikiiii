@@ -26,7 +26,7 @@ description: "Emerald shard is a rare gem in Andor's Trail. How to get it: monst
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gilded dust](../monsters/gilded_dust.md) | 1% | 1-2 | undertell_03, undertell_04 |
+| [Gilded dust](../monsters/gilded_dust.md) | 1% | 1-2 | Undertell 03, Undertell 04 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

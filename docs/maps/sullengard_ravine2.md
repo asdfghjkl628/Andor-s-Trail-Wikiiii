@@ -1,8 +1,8 @@
 ---
-description: "Sullengard ravine2 is an indoor location in Andor's Trail. Enemies: Yellow tooth slitherer. Exits to Way to sullengard east ravine."
+description: "Sullengard ravine 2 is an indoor location in Andor's Trail. Enemies: Yellow tooth slitherer. Exits to Way to sullengard east ravine."
 ---
 
-# Sullengard ravine2
+# Sullengard ravine 2
 
 <div class="infobox" markdown>
 
@@ -11,20 +11,20 @@ description: "Sullengard ravine2 is an indoor location in Andor's Trail. Enemies
 | **Map ID** | `sullengard_ravine2` |
 | **Type** | Indoors / underground |
 | **Size** | 15×19 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Sullengard ravine2** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Way to sullengard east ravine.
+**Sullengard ravine 2** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Way to sullengard east ravine.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard_ravine2.webp" alt="Map of Sullengard ravine2" width="480" height="608" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../way_to_sullengard_east_ravine/#place-east" title="Exit to Way to sullengard east ravine" style="left:0.000%;top:84.211%;width:6.667%;height:10.526%"></a><span class="mo mo-spawn" title="Spawns: Yellow tooth slitherer" style="left:13.333%;top:89.474%;width:73.333%;height:5.263%"></span><a class="mob" href="../../monsters/yellow_tooth/" title="Yellow tooth slitherer" style="left:53.333%;top:89.474%;width:6.667%;height:5.263%"><img src="../../assets/icons/monsters/monsters_snakes_5.png" alt="Yellow tooth slitherer"></a><a class="mob" href="../../monsters/yellow_tooth/" title="Yellow tooth slitherer" style="left:80.000%;top:89.474%;width:6.667%;height:5.263%"><img src="../../assets/icons/monsters/monsters_snakes_5.png" alt="Yellow tooth slitherer"></a><a class="pin pin-exit" href="#key-1" style="left:3.333%;top:89.474%" title="Exit (southwest): to [Way to sullengard east ravine](way_to_sullengard_east_ravine.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard_ravine2.webp" alt="Map of Sullengard ravine 2" width="480" height="608" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../way_to_sullengard_east_ravine/#place-east" title="Exit to Way to sullengard east ravine" style="left:0.000%;top:84.211%;width:6.667%;height:10.526%"></a><span class="mo mo-spawn" title="Spawns: Yellow tooth slitherer" style="left:13.333%;top:89.474%;width:73.333%;height:5.263%"></span><a class="mob" href="../../monsters/yellow_tooth/" title="Yellow tooth slitherer" style="left:53.333%;top:89.474%;width:6.667%;height:5.263%"><img src="../../assets/icons/monsters/monsters_snakes_5.png" alt="Yellow tooth slitherer"></a><a class="mob" href="../../monsters/yellow_tooth/" title="Yellow tooth slitherer" style="left:80.000%;top:89.474%;width:6.667%;height:5.263%"><img src="../../assets/icons/monsters/monsters_snakes_5.png" alt="Yellow tooth slitherer"></a><a class="pin pin-exit" href="#key-1" style="left:3.333%;top:89.474%" title="Exit (southwest): to [Way to sullengard east ravine](way_to_sullengard_east_ravine.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 

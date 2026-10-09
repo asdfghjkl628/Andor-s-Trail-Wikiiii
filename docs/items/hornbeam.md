@@ -25,7 +25,7 @@ description: "Spotted Hornbeam fungus is a quest other in Andor's Trail. How to 
 
 ### Quest & dialogue rewards
 
-- From [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) during [Lodar's potions](../quests/lodar_pots.md#stage-20) (100%)
+- From [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) during [Lodar's potions](../quests/lodar_pots.md#stage-20) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-30) | handed over (1×) | “Yes, here it is.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-30) | handed over (1×) | “Yes, here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

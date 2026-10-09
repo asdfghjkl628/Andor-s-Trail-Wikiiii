@@ -49,7 +49,7 @@ description: "Stoutford artist is an indoor location in Andor's Trail, in Stoutf
 ## Quests
 
 - [Unusual experiences and achievements](../quests/achievements.md): [Local artist](../monsters/stoutford_artist.md) is involved
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): [Local artist](../monsters/stoutford_artist.md) is involved
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): [Local artist](../monsters/stoutford_artist.md) is involved
 
 
 ## Version history

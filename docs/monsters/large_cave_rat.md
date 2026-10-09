@@ -4,7 +4,7 @@ description: "Large cave rat is an enemy in Andor's Trail (animal) with 21 HP, w
 
 # ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } Large cave rat
 
-**Found in:** Flagstone Prison: [flagstone1](../maps/flagstone1.md), [waytobrimhavencave0](../maps/waytobrimhavencave0.md), [waytobrimhavencave1](../maps/waytobrimhavencave1.md), [waytobrimhavencave2](../maps/waytobrimhavencave2.md) (+1 more)
+**Found in:** Flagstone Prison: [Flagstone 1](../maps/flagstone1.md), [Waytobrimhavencave 0](../maps/waytobrimhavencave0.md), [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md), [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -56,11 +56,11 @@ description: "Large cave rat is an enemy in Andor's Trail (animal) with 21 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone1](../maps/flagstone1.md) | Flagstone Prison | 2 | – |
-| [waytobrimhavencave0](../maps/waytobrimhavencave0.md) | – | 2 | – |
-| [waytobrimhavencave1](../maps/waytobrimhavencave1.md) | – | 2 | – |
-| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 4 | – |
-| [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | 2 | – |
+| [Flagstone 1](../maps/flagstone1.md) | Flagstone Prison | 2 | – |
+| [Waytobrimhavencave 0](../maps/waytobrimhavencave0.md) | – | 2 | – |
+| [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md) | – | 2 | – |
+| [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) | – | 4 | – |
+| [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – | 2 | – |
 
 
 ## Version history

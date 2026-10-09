@@ -4,7 +4,7 @@ description: "Rooster is an enemy in Andor's Trail (animal) with 1 HP, worth 1 X
 
 # ![](../assets/icons/monsters/monsters_newb_1_1329.png){ .sprite } Rooster
 
-**Found in:** Brightport: [waterway_forest2](../maps/waterway_forest2.md)
+**Found in:** Brightport: [Waterway forest 2](../maps/waterway_forest2.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Rooster is an enemy in Andor's Trail (animal) with 1 HP, worth 1 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway_forest2](../maps/waterway_forest2.md) | Brightport | 1 | – |
+| [Waterway forest 2](../maps/waterway_forest2.md) | Brightport | 1 | – |
 
 
 ## Version history

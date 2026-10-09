@@ -1,10 +1,10 @@
 ---
-description: "Blackwater entrance guard is an NPC who can also be fought in Andor's Trail, found in blackwater_mountain43."
+description: "Blackwater entrance guard is an NPC who can also be fought in Andor's Trail, found in Blackwater mountain 43."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Blackwater entrance guard
 
-**Where to find Blackwater entrance guard:** [blackwater_mountain43](../maps/blackwater_mountain43.md#pin-npc-blackwater_entrance_guard)
+**Where to find Blackwater entrance guard:** [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-blackwater_entrance_guard)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Blackwater entrance guard is an NPC who can also be fought in Ando
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | blackwater_mountain43 |
+| **Found in** | Blackwater mountain 43 |
 | **Class** | Humanoid |
 | **HP** | 60 |
 | **XP when defeated** | 102 |
@@ -51,11 +51,11 @@ description: "Blackwater entrance guard is an NPC who can also be fought in Ando
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain43](../maps/blackwater_mountain43.md) | – | 1 | – |
+| [Blackwater mountain 43](../maps/blackwater_mountain43.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blackwater entrance guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blackwater entrance guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_entranceguard.json" data-npc="Blackwater entrance guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blackwater_entranceguard"></span>**`blackwater_entranceguard`** Blackwater entrance guard: “Oh, a newcomer. Great. I hope you are here to help us with our problems.”
 

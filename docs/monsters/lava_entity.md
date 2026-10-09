@@ -4,7 +4,7 @@ description: "Lava entity is an enemy in Andor's Trail (construct) with 290 HP, 
 
 # ![](../assets/icons/monsters/monsters_tometik10_24.png){ .sprite } Lava entity
 
-**Found in:** Mt. Galmore: [galmore_62](../maps/galmore_62.md), [galmore_32](../maps/galmore_32.md), [galmore_72](../maps/galmore_72.md), [undertell_11](../maps/undertell_11.md) (+1 more)
+**Found in:** Mt. Galmore: [Galmore 62](../maps/galmore_62.md), [Galmore 32](../maps/galmore_32.md), [Galmore 72](../maps/galmore_72.md), [Undertell 11](../maps/undertell_11.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -59,11 +59,11 @@ description: "Lava entity is an enemy in Andor's Trail (construct) with 290 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_32](../maps/galmore_32.md) | – | 1 | – |
-| [galmore_62](../maps/galmore_62.md) | Mt. Galmore | 2 | – |
-| [galmore_72](../maps/galmore_72.md) | – | 4 | – |
-| [undertell_11](../maps/undertell_11.md) | – | 1 | – |
-| [way_to_sullengard_east5_filler](../maps/way_to_sullengard_east5_filler.md) | – | 2 | – |
+| [Galmore 32](../maps/galmore_32.md) | – | 1 | – |
+| [Galmore 62](../maps/galmore_62.md) | Mt. Galmore | 2 | – |
+| [Galmore 72](../maps/galmore_72.md) | – | 4 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
+| [Way to sullengard east 5 filler](../maps/way_to_sullengard_east5_filler.md) | – | 2 | – |
 
 
 ## Version history

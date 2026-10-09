@@ -26,7 +26,7 @@ description: "Necklace for father (cheap) is a quest necklace in Andor's Trail. 
 
 ### Quest & dialogue rewards
 
-- From [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps/brimhaven_shop.md)) during [Honor your parents](../quests/brv_present.md#stage-20) (1×)
+- From [Shop Owner](../monsters/brv_shop_owner.md) ([Brimhaven shop](../maps/brimhaven_shop.md)) during [Honor your parents](../quests/brv_present.md#stage-20) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,7 +37,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | [Honor your parents](../quests/brv_present.md#stage-40) | handed over (1×) | “[Give him the cheap necklace]” |
+| [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) | [Honor your parents](../quests/brv_present.md#stage-40) | handed over (1×) | “[Give him the cheap necklace]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

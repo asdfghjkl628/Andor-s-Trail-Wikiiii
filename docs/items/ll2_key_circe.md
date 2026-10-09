@@ -25,7 +25,7 @@ description: "Golden key from Circe is a quest other in Andor's Trail. How to ge
 
 ### Quest & dialogue rewards
 
-- From [Circe](../monsters/circe.md) ([mountainlake_circe](../maps/mountainlake_circe.md)) during [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-36) (1×)
+- From [Circe](../monsters/circe.md) ([Mountainlake circe](../maps/mountainlake_circe.md)) during [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-36) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [mountainlake_sub](../maps/mountainlake_sub.md) | – | handed over (1×) | “Use Circe's key.” |
-| stepping on a trigger on [mountainlake_sub](../maps/mountainlake_sub.md) | [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-112) | handed over (1×) | “Use Circe's key.” |
+| stepping on a trigger on [Mountainlake sub](../maps/mountainlake_sub.md) | – | handed over (1×) | “Use Circe's key.” |
+| stepping on a trigger on [Mountainlake sub](../maps/mountainlake_sub.md) | [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md#stage-112) | handed over (1×) | “Use Circe's key.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

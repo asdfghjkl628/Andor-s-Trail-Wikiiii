@@ -1,8 +1,8 @@
 ---
-description: "Room to rent is a hidden quest in Andor's Trail, started by Bela. 2 stages."
+description: "Fallhaven tavern room is a hidden quest in Andor's Trail, started by Bela. 2 stages."
 ---
 
-# Room to rent
+# Fallhaven tavern room
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -15,7 +15,7 @@ description: "Room to rent is a hidden quest in Andor's Trail, started by Bela. 
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 (completes at 10) |
 | **Started by** | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bela](../monsters/bela.md#v-bela_2) |
+| **NPCs involved** | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -44,23 +44,39 @@ description: "Room to rent is a hidden quest in Andor's Trail, started by Bela. 
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 |  **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | [Bela](../monsters/bela.md#v-bela_2)<br>[Bela](../monsters/bela.md) | pay 10 gold | – |
-| <span id="stage-20"></span>20 | <br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) |  **(ends quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | [Bela](../monsters/bela.md#v-bela_2), [Bela](../monsters/bela.md) | – |
+| <span id="stage-20"></span>20 | <br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven tavern](../maps/fallhaven_tavern.md).</span> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 2 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Bela](../monsters/bela.md#v-bela_2) → choose “[Buy for 10 gold]” — **conditions:** pay 10 gold → **stage 10**. NPC: “OK. Take the last room down at the end of the hall.”
-    2. Talk to [Bela](../monsters/bela.md) → choose “[Buy for 10 gold]” — **conditions:** reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90); pay 10 gold → **stage 10**. NPC: “OK. Take the last room down at the end of the hall.”
+??? note "Stage 10 · Bela · 2 ways"
+
+    **Way 1:** Talk to [Bela](../monsters/bela.md#v-bela_2), choose “[Buy for 10 gold]”
+
+    - **Needs:** pay 10 gold
+    - *“OK. Take the last room down at the end of the hall.”*
+
+    **Way 2:** Talk to [Bela](../monsters/bela.md), choose “[Buy for 10 gold]”
+
+    - **Needs:** reached stage 90 of [A giant snake](../quests/bela_gsnake.md#stage-90); pay 10 gold
+    - *“OK. Take the last room down at the end of the hall.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -107,6 +123,7 @@ description: "Room to rent is a hidden quest in Andor's Trail, started by Bela. 
     | | |
     |---|---|
     | Quest ID | `fallhaventavern` |
+    | Name in game data | `Room to rent` |
     | showInLog | 0 |
     | Stage IDs | 10, 20 |
     | Dialogue nodes setting stages | 10: `bela_room_2` |

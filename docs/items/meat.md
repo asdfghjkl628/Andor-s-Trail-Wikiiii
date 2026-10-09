@@ -38,12 +38,12 @@ description: "Meat is a ordinary edible animal part in Andor's Trail. How to get
 |---|---|---|---|
 | [Korvan the leader of the wolves](../monsters/wolf_leader.md) | 100% | 2 | Crossroads Guardhouse |
 | [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3) | 100% | 1 | Blackwater Mountain |
-| [Golden jackal](../monsters/golden_jackal.md) | 100% | 3-5 | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
+| [Golden jackal](../monsters/golden_jackal.md) | 100% | 3-5 | Sullengard west ravine, Sullengard woods 12, Sullengard woods 4 |
 | [Gornaud leader](../monsters/gornaud_boss.md) | 100% | 1-3 | Blackwater Mountain |
 | [Giant snake](../monsters/giant_snake.md) | 90% | 3-7 | Fallhaven |
 | [Sheep](../monsters/sheep1.md#v-lostsheep1) | 70% | 0-3 | Crossroads Guardhouse |
 | [Sheep](../monsters/sheep1.md#v-lostsheep2) | 70% | 0-3 | Crossroads Guardhouse |
-| [Sheep](../monsters/sheep1.md#v-lostsheep3) | 70% | 0-3 | fields3 |
+| [Sheep](../monsters/sheep1.md#v-lostsheep3) | 70% | 0-3 | Fields 3 |
 | [Sheep](../monsters/sheep1.md#v-lostsheep4) | 70% | 0-3 | Crossroads Guardhouse |
 | [Sheep](../monsters/sheep1.md) | 70% | 0-3 | Crossroads Guardhouse |
 | [Alpha fox](../monsters/alpha_fox.md) | 50% | 1 | Foaming Flask Tavern |
@@ -61,8 +61,8 @@ description: "Meat is a ordinary edible animal part in Andor's Trail. How to get
 | [Forest serpent](../monsters/forest_serpent.md) | 30% | 1 | Flagstone Prison, Fallhaven, Crossroads Guardhouse |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 30% | 1 | Guynmart Castle, Foaming Flask Tavern, Fallhaven |
 | [Anklebiter](../monsters/anklebiter.md) | 30% | 1 | Crossroads Guardhouse, Flagstone Prison, Guynmart Castle |
-| [Pack leader](../monsters/pack_leader.md) | 30% | 1 | clearing_level2 |
-| [Pack hunter](../monsters/pack_hunter.md) | 30% | 1 | clearing_level2 |
+| [Pack leader](../monsters/pack_leader.md) | 30% | 1 | Clearing level 2 |
+| [Pack hunter](../monsters/pack_hunter.md) | 30% | 1 | Clearing level 2 |
 | [Rabid wolf](../monsters/rabid_wolf.md) | 30% | 1 | Fallhaven |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 30% | 1 | Fallhaven |
 | [Young wolf](../monsters/young_wolf.md) | 30% | 1 | Fallhaven |
@@ -72,7 +72,7 @@ description: "Meat is a ordinary edible animal part in Andor's Trail. How to get
 | [Vicious hound](../monsters/vicious_hound.md) | 30% | 1 | Foaming Flask Tavern, Stoutford, Prim |
 | [Mountain wolf](../monsters/mountain_wolf.md) | 30% | 1 | Prim, Blackwater Mountain |
 | [River troll](../monsters/rivertroll.md) | 30% | 3-5 | Flagstone Prison, Crossroads Guardhouse |
-| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 30% | 1 | mountainlake10, mountainlake11, waytolake10 |
+| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 30% | 1 | Mountainlake 10, Mountainlake 11, Waytolake 10 |
 | [Mazarth beast](../monsters/mazarth1.md) | 30% | 0-5 | Charwood |
 | [Tough mazarth beast](../monsters/mazarth2.md) | 30% | 0-5 | Charwood |
 | [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 30% | 1 | Guynmart Castle |
@@ -85,13 +85,13 @@ description: "Meat is a ordinary edible animal part in Andor's Trail. How to get
 - [Bela](../monsters/bela.md)
 - [Thieves guild cook](../monsters/thieves_guild_cook.md) (Fallhaven)
 - [Tharwyn](../monsters/tharwyn.md) (Vilegard)
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 - [Bela](../monsters/bela.md#v-bela_2)
 - [Oseanpry](../monsters/Brightportthieves5.md) (Brightport)
 
 ### Quest & dialogue rewards
 
-- From [Galmore wolf](../monsters/mg2_wolves.md) ([galmore_54](../maps/galmore_54.md)) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-70) (24×)
+- From [Galmore wolf](../monsters/mg2_wolves.md) ([Galmore 54](../maps/galmore_54.md)) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-70) (24×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -102,11 +102,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)) | – | handed over (10×) | “Here, I have 10 nice pieces of meat for you. I cannot promise that it is all fro” |
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | handed over (1×) | “Well, here is 1 piece and 30 gold.” |
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | handed over (5×) | “OK, I have 5 pieces and 150 gold.” |
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | handed over (10×) | “Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces too.” |
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | handed over (20×) | “I'm hungry! Here are 20 pieces and 600 gold.” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)) | – | handed over (10×) | “Here, I have 10 nice pieces of meat for you. I cannot promise that it is all fro” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | handed over (1×) | “Well, here is 1 piece and 30 gold.” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | handed over (5×) | “OK, I have 5 pieces and 150 gold.” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | handed over (10×) | “Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces too.” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | handed over (20×) | “I'm hungry! Here are 20 pieces and 600 gold.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

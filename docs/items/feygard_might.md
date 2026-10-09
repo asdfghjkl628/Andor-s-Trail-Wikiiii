@@ -47,7 +47,7 @@ description: "Feygard's might is a rare warhammer in Andor's Trail (Attack damag
 
 ### Quest & dialogue rewards
 
-- From [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) during [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-40) (100%)
+- From [Zaccheria](../monsters/sullengard_zaccheria.md) ([Sullengard 2 armory](../maps/sullengard2_armory.md)) during [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-40) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

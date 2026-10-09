@@ -11,7 +11,7 @@ description: "Undertell 00 is an indoor location in Andor's Trail. NPCs: Morvath
 | **Map ID** | `undertell_00` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell floor1](index.md) |
+| **World map** | [Undertell floor 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -66,8 +66,8 @@ description: "Undertell 00 is an indoor location in Andor's Trail. NPCs: Morvath
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
 - [The fifth master](../quests/fifth_master.md): [Morvath](../monsters/morvath.md) is involved
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): [Morvath](../monsters/morvath.md) is involved; part of the map changes at stage 83; something on this map advances it
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): [Morvath](../monsters/morvath.md) is involved; part of the map changes at stage 83; something on this map advances it
 
 ## Points of interest
 

@@ -40,7 +40,7 @@ description: "Wolfpack's animal hide is a extraordinary hide armor in Andor's Tr
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Pack leader](../monsters/pack_leader.md) | 100% | 1 | clearing_level2 |
+| [Pack leader](../monsters/pack_leader.md) | 100% | 1 | Clearing level 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -51,9 +51,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [galmore_54](../maps/galmore_54.md) | – | must be worn (1×) | “(automatic)” |
-| [Galmore wolf's pup](../monsters/mg2_wolves_pup.md) ([galmore_54](../maps/galmore_54.md)) | [Unusual experiences and achievements](../quests/achievements.md#stage-200) | must be worn (1×) | “(automatic)” |
-| [Galmore wolf](../monsters/mg2_wolves.md) ([galmore_54](../maps/galmore_54.md)) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Galmore 54](../maps/galmore_54.md) | – | must be worn (1×) | “(automatic)” |
+| [Galmore wolf's pup](../monsters/mg2_wolves_pup.md) ([Galmore 54](../maps/galmore_54.md)) | [Unusual experiences and achievements](../quests/achievements.md#stage-200) | must be worn (1×) | “(automatic)” |
+| [Galmore wolf](../monsters/mg2_wolves.md) ([Galmore 54](../maps/galmore_54.md)) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -57,11 +57,11 @@ description: "Undertell pickaxe is a rare pole weapon in Andor's Trail (Attack d
 
 ### Sold by
 
-- [Shy Cora](../monsters/shy_cora.md) (undertell_01, undertell_1_1)
+- [Shy Cora](../monsters/shy_cora.md) (Undertell 01, Undertell 1 1)
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [undertell_22](../maps/undertell_22.md) during [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-8) (1×)
+- From stepping on a trigger on [Undertell 22](../maps/undertell_22.md) during [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-8) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

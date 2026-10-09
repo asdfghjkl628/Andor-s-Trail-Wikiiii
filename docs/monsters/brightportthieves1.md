@@ -4,7 +4,7 @@ description: "Silvear is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Silvear
 
-**Where to find Silvear:** Brightport: [brightport1](../maps/brightport1.md#pin-npc-brightportthieves1)
+**Where to find Silvear:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportthieves1)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Silvear is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Priceful vengeance](../quests/brightport_goons.md): stage 40
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 15, 20, 25, 30, 31, 132, 133
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 15, 20, 25, 30, 31, 132, 133
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Silvear. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Silvear. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_silvear_start.json" data-npc="Silvear" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,17 +34,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (33 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_silvear_start"></span>**`brightport_silvear_start`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 15 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-15))* → [brightport_silvear_staple](#d-brightport_silvear_staple)
-    - Next *(if NOT reached stage 15 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-15))* → [brightport_silvear_initial](#d-brightport_silvear_initial)
+    - Next *(if reached stage 15 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-15))* → [brightport_silvear_staple](#d-brightport_silvear_staple)
+    - Next *(if NOT reached stage 15 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-15))* → [brightport_silvear_initial](#d-brightport_silvear_initial)
 
     <span id="d-brightport_silvear_staple"></span>**`brightport_silvear_staple`** [Silvear](../monsters/brightportthieves1.md): “Hello, $playername. Any news?”
 
     - “What is it that you were selling again?” → [brightport_silvear_selector0](#d-brightport_silvear_selector0)
-    - “Can you tell me about Andor again?” *(if reached stage 30 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear_andor2](#d-brightport_silvear_andor2)
+    - “Can you tell me about Andor again?” *(if reached stage 30 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear_andor2](#d-brightport_silvear_andor2)
 
     <span id="d-brightport_silvear_initial"></span>**`brightport_silvear_initial`** [Silvear](../monsters/brightportthieves1.md): “Hello there, $playername. My name is Silvear. I'm a merchant of sorts, though my merchandise is a bit, unorthodox.”
 
@@ -54,12 +54,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_silvear_selector0"></span>**`brightport_silvear_selector0`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 30 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear](#d-brightport_silvear)
-    - Next *(if reached stage 30 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear_1](#d-brightport_silvear_1)
+    - Next *(if NOT reached stage 30 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear](#d-brightport_silvear)
+    - Next *(if reached stage 30 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear_1](#d-brightport_silvear_1)
 
-    <span id="d-brightport_silvear_andor2"></span>**`brightport_silvear_andor2`** [Silvear](../monsters/brightportthieves1.md): “As I mentioned, I'm a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold?” — **effects:** sets stage 30 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-30), sets stage 132 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-132)
+    <span id="d-brightport_silvear_andor2"></span>**`brightport_silvear_andor2`** [Silvear](../monsters/brightportthieves1.md): “As I mentioned, I'm a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold?” — **effects:** sets stage 30 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-30), sets stage 132 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-132)
 
-    - “Hey, I've already paid you once!” *(if reached stage 31 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-31))* → [brightport_silvear_andor5](#d-brightport_silvear_andor5)
+    - “Hey, I've already paid you once!” *(if reached stage 31 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-31))* → [brightport_silvear_andor5](#d-brightport_silvear_andor5)
     - “For my brother it is worth that much.” *(if pay 500 gold)* → [brightport_silvear_andor3](#d-brightport_silvear_andor3)
     - “I don't have that gold on me.” *(if NOT have 500 gold)* → [brightport_silvear_bye](#d-brightport_silvear_bye)
 
@@ -71,20 +71,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “That doesn't make me any less suspicious of you. So, what is it that you trade?” → [brightport_silvear](#d-brightport_silvear)
 
-    <span id="d-brightport_silvear"></span>**`brightport_silvear`** [Silvear](../monsters/brightportthieves1.md): “I specialize in trading information, rumors, stories, and the like. Not something I could sell to a kid like you.” — **effects:** sets stage 15 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-15)
+    <span id="d-brightport_silvear"></span>**`brightport_silvear`** [Silvear](../monsters/brightportthieves1.md): “I specialize in trading information, rumors, stories, and the like. Not something I could sell to a kid like you.” — **effects:** sets stage 15 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-15)
 
-    - Next *(if NOT reached stage 30 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear_andor](#d-brightport_silvear_andor)
+    - Next *(if NOT reached stage 30 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-30))* → [brightport_silvear_andor](#d-brightport_silvear_andor)
 
     <span id="d-brightport_silvear_1"></span>**`brightport_silvear_1`** Silvear: “I specialize in trading information, rumors, stories, and the like. Not something I could sell to a kid like you.”
 
-    - “It happens that I'm interested in the local guard commander. Can you tell me anything about him?” *(if reached stage 132 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-132); NOT reached stage 40 of [Priceful vengeance](../quests/brightport_goons.md#stage-40); NOT reached stage 139 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-139); reached stage 30 of [Priceful vengeance](../quests/brightport_goons.md#stage-30))* → [brightport_silvear0](#d-brightport_silvear0)
+    - “It happens that I'm interested in the local guard commander. Can you tell me anything about him?” *(if reached stage 132 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-132); NOT reached stage 40 of [Priceful vengeance](../quests/brightport_goons.md#stage-40); NOT reached stage 139 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-139); reached stage 30 of [Priceful vengeance](../quests/brightport_goons.md#stage-30))* → [brightport_silvear0](#d-brightport_silvear0)
 
     <span id="d-brightport_silvear_andor5"></span>**`brightport_silvear_andor5`** [Silvear](../monsters/brightportthieves1.md): “Can't complain when you're the one asking.”
 
     - “Tch, fine. [Give him the gold]” *(if pay 500 gold)* → [brightport_silvear_andor3](#d-brightport_silvear_andor3)
     - “I don't have that gold on me.” *(if NOT have 500 gold)* → [brightport_silvear_bye](#d-brightport_silvear_bye)
 
-    <span id="d-brightport_silvear_andor3"></span>**`brightport_silvear_andor3`** [Silvear](../monsters/brightportthieves1.md): “Thanks for the business kid.” — **effects:** sets stage 31 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-31)
+    <span id="d-brightport_silvear_andor3"></span>**`brightport_silvear_andor3`** [Silvear](../monsters/brightportthieves1.md): “Thanks for the business kid.” — **effects:** sets stage 31 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-31)
 
     - Next → [brightport_silvear_andor4](#d-brightport_silvear_andor4)
 
@@ -107,7 +107,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_silvear1_selector"></span>**`brightport_silvear1_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 133 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-133))* → [brightport_silvear1](#d-brightport_silvear1)
+    - Next *(if NOT reached stage 133 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-133))* → [brightport_silvear1](#d-brightport_silvear1)
     - Next → [brightport_silvear1_2](#d-brightport_silvear1_2)
 
     <span id="d-brightport_silvear_boss"></span>**`brightport_silvear_boss`** [Silvear](../monsters/brightportthieves1.md): “Our boss? Let me think.”
@@ -127,20 +127,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_silvear_selector"></span>**`brightport_silvear_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [brightport_silvear_directions0](#d-brightport_silvear_directions0)
-    - Next *(if NOT reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20))* → [brightport_silvear_directions1](#d-brightport_silvear_directions1)
-    - Next *(if reached stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20))* → [brightport_silvear_directions](#d-brightport_silvear_directions)
+    - Next *(if NOT reached stage 20 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [brightport_silvear_directions0](#d-brightport_silvear_directions0)
+    - Next *(if NOT reached stage 20 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-20))* → [brightport_silvear_directions1](#d-brightport_silvear_directions1)
+    - Next *(if reached stage 20 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-20))* → [brightport_silvear_directions](#d-brightport_silvear_directions)
 
     <span id="d-brightport_silvear2"></span>**`brightport_silvear2`** Silvear: “Pleasure doing business with you.”
 
     - Next → [brightport_silvear_gunfryk](#d-brightport_silvear_gunfryk)
 
-    <span id="d-brightport_silvear4"></span>**`brightport_silvear4`** Silvear: “Rest assured, I would not risk my contingency on shoddy information, with that in mind 1,500 gold sound like a better price.” — **effects:** sets stage 133 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-133)
+    <span id="d-brightport_silvear4"></span>**`brightport_silvear4`** Silvear: “Rest assured, I would not risk my contingency on shoddy information, with that in mind 1,500 gold sound like a better price.” — **effects:** sets stage 133 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-133)
 
     - “Fine, have your price. [Give him the gold.]” *(if pay 1,500 gold)* → [brightport_silvear2](#d-brightport_silvear2)
     - “I'll be back when I have the gold. [Leave.]” → *conversation ends*
 
-    <span id="d-brightport_silvear3"></span>**`brightport_silvear3`** Silvear: “I would sooner trust in Gunfryk dying of old age, $playername. My plans I carry alone; for yours, you'll have to pay. 1,500 is my asking price.” — **effects:** sets stage 133 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-133)
+    <span id="d-brightport_silvear3"></span>**`brightport_silvear3`** Silvear: “I would sooner trust in Gunfryk dying of old age, $playername. My plans I carry alone; for yours, you'll have to pay. 1,500 is my asking price.” — **effects:** sets stage 133 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-133)
 
     - “Fine, have your price. [Give him the gold.]” *(if pay 1,500 gold)* → [brightport_silvear2](#d-brightport_silvear2)
     - “I'll be back when I have the gold. [Leave.]” → *conversation ends*
@@ -172,7 +172,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “[He is right, that was childish of me.]” → *conversation ends*
     - “[Tch, if we weren't inside a town, I could show him.]” → *conversation ends*
 
-    <span id="d-brightport_silvear_directions3"></span>**`brightport_silvear_directions3`** [Silvear](../monsters/brightportthieves1.md): “To find our hideout, go inside via the door on the right. Best of luck to you.” — **effects:** sets stage 25 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-25), sets stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20)
+    <span id="d-brightport_silvear_directions3"></span>**`brightport_silvear_directions3`** [Silvear](../monsters/brightportthieves1.md): “To find our hideout, go inside via the door on the right. Best of luck to you.” — **effects:** sets stage 25 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-25), sets stage 20 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-20)
 
 
     <span id="d-brightport_silvear_directions5"></span>**`brightport_silvear_directions5`** [Silvear](../monsters/brightportthieves1.md): “OK, OK. Fine, I apologize. The Guild's policy is for me to inform new members and useful visitors of the hideout for free.”
@@ -183,7 +183,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_silvear_directions7](#d-brightport_silvear_directions7)
 
-    <span id="d-brightport_silvear_directions7"></span>**`brightport_silvear_directions7`** [Silvear](../monsters/brightportthieves1.md): “To find our hideout, head inside via the door on the right. Best of luck to you.” — **effects:** sets stage 20 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-20)
+    <span id="d-brightport_silvear_directions7"></span>**`brightport_silvear_directions7`** [Silvear](../monsters/brightportthieves1.md): “To find our hideout, head inside via the door on the right. Best of luck to you.” — **effects:** sets stage 20 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-20)
 
 
 
@@ -193,7 +193,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 33 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …”<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We've talked about this before. Im confident in my skill, the informa…” → “We've talked about this before. Im confident in my skill, the informa…”<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

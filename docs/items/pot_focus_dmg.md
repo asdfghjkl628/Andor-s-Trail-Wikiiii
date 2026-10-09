@@ -38,7 +38,7 @@ description: "Potion of damage focus is a ordinary potion in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From [Hjaldar](../monsters/hjaldar.md) ([remgard_villager1](../maps/remgard_villager1.md)) during [A difference of opinion](../quests/sisterfight.md#stage-61) (100%)
+- From [Hjaldar](../monsters/hjaldar.md) ([Remgard villager 1](../maps/remgard_villager1.md)) during [A difference of opinion](../quests/sisterfight.md#stage-61) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

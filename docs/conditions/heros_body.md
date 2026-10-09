@@ -34,9 +34,9 @@ description: "Hero's body is a beneficial physical condition in Andor's Trail: m
 | Critical skill | +20 |
 | HP every round | +30 to +50 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -53,34 +53,34 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 10 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 20 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 30 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 40 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 50 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 60 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 70 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 80 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 90 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 100 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 110 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 120 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 130 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 140 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 150 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 160 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 170 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 180 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 190 rounds |
-| walking into a blocked passage on [mountainlake19](../maps/mountainlake19.md) | – | 200 rounds |
-| [Kalypso](../monsters/kalypso.md) ([mountainlake14](../maps/mountainlake14.md)) | [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-22) | 3 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 10 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 20 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 30 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 40 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 50 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 60 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 70 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 80 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 90 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 100 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 110 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 120 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 130 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 140 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 150 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 160 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 170 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 180 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 190 rounds |
+| walking into a blocked passage on [Mountainlake 19](../maps/mountainlake19.md) | – | 200 rounds |
+| [Kalypso](../monsters/kalypso.md) ([Mountainlake 14](../maps/mountainlake14.md)) | [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-22) | 3 rounds |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

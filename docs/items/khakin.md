@@ -26,9 +26,9 @@ description: "Khakin eye is a ordinary animal part in Andor's Trail. How to get 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Khakin spawn](../monsters/khakin1.md) | 5% | 1 | lodar10, lodar3, lodar9 |
-| [Aggressive khakin beast](../monsters/khakin2.md) | 5% | 1 | lodar10, lodar3, lodar9 |
-| [Tough khakin beast](../monsters/khakin3.md) | 5% | 1 | lodar3, lodar9 |
+| [Khakin spawn](../monsters/khakin1.md) | 5% | 1 | Lodar 10, Lodar 3, Lodar 9 |
+| [Aggressive khakin beast](../monsters/khakin2.md) | 5% | 1 | Lodar 10, Lodar 3, Lodar 9 |
+| [Tough khakin beast](../monsters/khakin3.md) | 5% | 1 | Lodar 3, Lodar 9 |
 | [Strong khakin beast](../monsters/khakin4.md) | 5% | 1 | Loneford |
 
 ### Sold by

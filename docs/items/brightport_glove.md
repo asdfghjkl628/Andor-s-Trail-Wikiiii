@@ -40,7 +40,7 @@ description: "Salamander gloves is a rare gloves, leather in Andor's Trail (Bloc
 
 ### Quest & dialogue rewards
 
-- From [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) during [Too hot to handle](../quests/brightport_fiamma.md#stage-50) (1×)
+- From [Fiamma](../monsters/brightportsmith.md) ([Brightport weapon](../maps/brightport_weapon.md)) during [Too hot to handle](../quests/brightport_fiamma.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

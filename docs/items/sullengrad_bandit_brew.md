@@ -40,7 +40,7 @@ description: "Bandit's Brew is a ordinary drink in Andor's Trail. How to get it:
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Oakleigh](../monsters/sullengard_bartender.md) | 100% | 5-7 | Sullengard |
-| [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) | 10% | 1 | way_to_sullengard_east9 |
+| [Highwayman](../monsters/highwayman.md#v-sullengard_highwayman) | 10% | 1 | Way to sullengard east 9 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

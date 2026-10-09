@@ -4,7 +4,7 @@ description: "Wyrm apprentice is an enemy in Andor's Trail (undead) with 69 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_0.png){ .sprite } Wyrm apprentice
 
-**Found in:** Blackwater Mountain: [blackwater_mountain36](../maps/blackwater_mountain36.md), Blackwater Mountain: [blackwater_mountain37](../maps/blackwater_mountain37.md), Blackwater Mountain: [blackwater_mountain38](../maps/blackwater_mountain38.md)
+**Found in:** Blackwater Mountain: [Blackwater mountain 36](../maps/blackwater_mountain36.md), Blackwater Mountain: [Blackwater mountain 37](../maps/blackwater_mountain37.md), Blackwater Mountain: [Blackwater mountain 38](../maps/blackwater_mountain38.md)
 
 <div class="infobox" markdown>
 
@@ -61,9 +61,9 @@ description: "Wyrm apprentice is an enemy in Andor's Trail (undead) with 69 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain36](../maps/blackwater_mountain36.md) | Blackwater Mountain | 4 | – |
-| [blackwater_mountain37](../maps/blackwater_mountain37.md) | Blackwater Mountain | 3 | – |
-| [blackwater_mountain38](../maps/blackwater_mountain38.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 36](../maps/blackwater_mountain36.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 37](../maps/blackwater_mountain37.md) | Blackwater Mountain | 3 | – |
+| [Blackwater mountain 38](../maps/blackwater_mountain38.md) | Blackwater Mountain | 4 | – |
 
 
 ## Version history

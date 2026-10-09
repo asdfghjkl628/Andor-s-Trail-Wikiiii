@@ -1,8 +1,8 @@
 ---
-description: "Brightport temple1 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Stiyl. Exits to Brightport5."
+description: "Brightport temple 1 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Stiyl. Exits to Brightport 5."
 ---
 
-# Brightport temple1
+# Brightport temple 1
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Brightport temple1 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport temple1** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport5.
+**Brightport temple 1** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_temple1.webp" alt="Map of Brightport temple1" width="576" height="384" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport5/#place-church" title="Exit to Brightport5" style="left:33.333%;top:66.667%;width:5.556%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Stiyl" style="left:38.889%;top:33.333%;width:27.778%;height:16.667%"></span><a class="mob" href="../../monsters/brightportpriest1/" title="Stiyl" style="left:61.111%;top:33.333%;width:5.556%;height:8.333%"><img src="../../assets/icons/monsters/monsters_men_4.png" alt="Stiyl"></a><a class="pin pin-exit" href="#key-1" style="left:36.111%;top:70.833%" title="Exit (exit outside): to [Brightport5](brightport5.md)">1</a><a id="pin-npc-brightportpriest1" class="pin pin-npc" href="#key-2" style="left:63.889%;top:37.500%" title="[Stiyl](../../monsters/brightportpriest1.md): shopkeeper">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_temple1.webp" alt="Map of Brightport temple 1" width="576" height="384" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport5/#place-church" title="Exit to Brightport 5" style="left:33.333%;top:66.667%;width:5.556%;height:8.333%"></a><span class="mo mo-spawn" title="Spawns: Stiyl" style="left:38.889%;top:33.333%;width:27.778%;height:16.667%"></span><a class="mob" href="../../monsters/brightportpriest1/" title="Stiyl" style="left:61.111%;top:33.333%;width:5.556%;height:8.333%"><img src="../../assets/icons/monsters/monsters_men_4.png" alt="Stiyl"></a><a class="pin pin-exit" href="#key-1" style="left:36.111%;top:70.833%" title="Exit (exit outside): to [Brightport 5](brightport5.md)">1</a><a id="pin-npc-brightportpriest1" class="pin pin-npc" href="#key-2" style="left:63.889%;top:37.500%" title="[Stiyl](../../monsters/brightportpriest1.md): shopkeeper">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (exit outside) | to [Brightport5](brightport5.md) |
+    | <span id="key-1"></span>1 | Exit (exit outside) | to [Brightport 5](brightport5.md) |
     | <span id="key-2"></span>2 | [Stiyl](../monsters/brightportpriest1.md) | shopkeeper |
 
 
@@ -40,7 +40,7 @@ description: "Brightport temple1 is an indoor location in Andor's Trail, in Brig
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Exit outside | [Brightport5](brightport5.md) | Brightport | 1 |
+| Exit outside | [Brightport 5](brightport5.md) | Brightport | 1 |
 
 ## NPCs
 
@@ -52,7 +52,7 @@ description: "Brightport temple1 is an indoor location in Andor's Trail, in Brig
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Stiyl](../monsters/brightportpriest1.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Stiyl](../monsters/brightportpriest1.md) is involved
 
 
 ## Version history

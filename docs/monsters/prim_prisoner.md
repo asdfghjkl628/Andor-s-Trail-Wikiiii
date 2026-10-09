@@ -4,7 +4,7 @@ description: "Prim prisoner is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } Prim prisoner
 
-**Where to find Prim prisoner:** Prim: [blackwater_mountain27](../maps/blackwater_mountain27.md#pin-npc-prim_prisoner)
+**Where to find Prim prisoner:** Prim: [Blackwater mountain 27](../maps/blackwater_mountain27.md#pin-npc-prim_prisoner)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Prim prisoner is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_guard1.json" data-npc="Prim prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_guard1"></span>**`prim_guard1`** Prim prisoner: “What are you looking at? These weapons in the crates over here are only for us guards.”
 

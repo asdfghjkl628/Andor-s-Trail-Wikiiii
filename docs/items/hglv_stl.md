@@ -38,7 +38,7 @@ description: "Reinforced steel gloves is a ordinary gloves, metal (heavy) in And
 
 ### Sold by
 
-- [Minarra](../monsters/minarra.md) (houseatcrossroads4)
+- [Minarra](../monsters/minarra.md) (Houseatcrossroads 4)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Lord Berbane is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_tometik2_42.png){ .sprite } Lord Berbane
 
-**Where to find Lord Berbane:** Stoutford: [stoutford_tavern](../maps/stoutford_tavern.md#pin-npc-berbane)
+**Where to find Lord Berbane:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-berbane)
 
 <div class="infobox" markdown>
 
@@ -22,12 +22,12 @@ description: "Lord Berbane is a non-player character (NPC) in Andor's Trail, fou
 ## Quests
 
 - [Lost girl looking for lost things](../quests/stn_quest_gyra.md): stages 90, 92, 99, 199
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 149
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stages 44, 45
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 149
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stages 44, 45
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lord Berbane. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lord Berbane. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/berbane.json" data-npc="Lord Berbane" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,13 +35,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (21 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-berbane"></span>**`berbane`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 45 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-45))* → [berbane_200](#d-berbane_200)
+    - branch 1 *(if reached stage 45 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-45))* → [berbane_200](#d-berbane_200)
     - branch 2 *(if reached stage 90 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90))* → [berbane_90](#d-berbane_90)
-    - branch 3 *(if reached stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44))* → [berbane_100](#d-berbane_100)
+    - branch 3 *(if reached stage 44 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-44))* → [berbane_100](#d-berbane_100)
     - branch 4 → [berbane_10](#d-berbane_10)
 
     <span id="d-berbane_200"></span>**`berbane_200`** [Dummy NPC](../monsters/none.md): “Lord Berbane is singing merrily about his heroic deeds.”
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-berbane_90"></span>**`berbane_90`** [Dummy NPC](../monsters/none.md): “Lord Berbane looks sadly at his bottle, but still shows no sign of getting up.”
 
-    - “The castle is clean of undead now.” *(if reached stage 47 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-47); reached stage 20 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-20))* → [berbane_100](#d-berbane_100)
+    - “The castle is clean of undead now.” *(if reached stage 47 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-47); reached stage 20 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-20))* → [berbane_100](#d-berbane_100)
     - “Hey, up!” → [berbane_90](#d-berbane_90)
 
     <span id="d-berbane_100"></span>**`berbane_100`** [Dummy NPC](../monsters/none.md): “Lord Berbane jumps up and cries with a loud voice: SILENCE!”
@@ -61,16 +61,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-berbane_10"></span>**`berbane_10`** [Dummy NPC](../monsters/none.md): “The richly dressed man does not react.”
 
     - “Who are you?” → [berbane_10](#d-berbane_10)
-    - “Yolgen asked me to help clear the castle of undead. Shall we do it together?” *(if reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 47 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-47))* → [berbane_10](#d-berbane_10)
+    - “Yolgen asked me to help clear the castle of undead. Shall we do it together?” *(if reached stage 10 of [Stoutford's old castle](../quests/stoutford_castle.md#stage-10); NOT reached stage 47 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-47))* → [berbane_10](#d-berbane_10)
     - “Gyra found your helmet and asked me to give it to you, so that you could start to clear the castle.” *(if reached stage 70 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-70); carry 1× [Stoutford chief's helmet](../items/stoutford_helmet.md))* → [berbane_20](#d-berbane_20)
-    - “The castle is clean of undead now.” *(if reached stage 47 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-47); reached stage 20 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-20))* → [berbane_100](#d-berbane_100)
+    - “The castle is clean of undead now.” *(if reached stage 47 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-47); reached stage 20 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-20))* → [berbane_100](#d-berbane_100)
 
     <span id="d-berbane_200_1"></span>**`berbane_200_1`** [Lord Berbane](../monsters/berbane.md): “Why are you disturbing my song?”
 
     - “Gyra found your helmet and asked me to give it to you.” *(if hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md))* → [berbane_200_2](#d-berbane_200_2)
     - “Eh, nothing. Sing on.” → [berbane_200](#d-berbane_200)
 
-    <span id="d-berbane_102"></span>**`berbane_102`** [Lord Berbane](../monsters/berbane.md): “[Loud voice] Pay attention and listen everybody! The castle is free! The trembling is over!” — **effects:** sets stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44)
+    <span id="d-berbane_102"></span>**`berbane_102`** [Lord Berbane](../monsters/berbane.md): “[Loud voice] Pay attention and listen everybody! The castle is free! The trembling is over!” — **effects:** sets stage 44 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-44)
 
     - “...??” → [berbane_110](#d-berbane_110)
 
@@ -89,7 +89,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-berbane_30"></span>**`berbane_30`** Lord Berbane: “Many of my songs are about this magical helmet. But it's all just songs.”
 
     - “Will you make the songs a reality now?” *(if hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md))* → [berbane_32](#d-berbane_32)
-    - “I cleared the castle of undead already.” *(if reached stage 47 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-47))* → [berbane_100](#d-berbane_100)
+    - “I cleared the castle of undead already.” *(if reached stage 47 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-47))* → [berbane_100](#d-berbane_100)
 
     <span id="d-berbane_200_3"></span>**`berbane_200_3`** Lord Berbane: “Anything else?”
 
@@ -99,7 +99,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “No, I have...” → [berbane_130](#d-berbane_130)
 
-    <span id="d-berbane_32"></span>**`berbane_32`** [Dummy NPC](../monsters/none.md): “He sighs and slowly takes the helmet.” — **effects:** sets stage 90 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90), sets stage 149 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-149)
+    <span id="d-berbane_32"></span>**`berbane_32`** [Dummy NPC](../monsters/none.md): “He sighs and slowly takes the helmet.” — **effects:** sets stage 90 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90), sets stage 149 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-149)
 
     - “Let's go now.” → [berbane_90](#d-berbane_90)
 
@@ -108,7 +108,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md))* → [berbane_132](#d-berbane_132)
     - branch 2 → [berbane_134](#d-berbane_134)
 
-    <span id="d-berbane_132"></span>**`berbane_132`** Lord Berbane: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.” — **effects:** sets stage 92 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-92), sets stage 149 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-149)
+    <span id="d-berbane_132"></span>**`berbane_132`** Lord Berbane: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.” — **effects:** sets stage 92 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-92), sets stage 149 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-149)
 
     - “I give up.” → [berbane_140](#d-berbane_140)
 
@@ -116,7 +116,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I give up.” → [berbane_140](#d-berbane_140)
 
-    <span id="d-berbane_140"></span>**`berbane_140`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Mead](../items/mead.md), sets stage 45 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-45)
+    <span id="d-berbane_140"></span>**`berbane_140`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Mead](../items/mead.md), sets stage 45 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-45)
 
     - branch 1 *(if reached stage 70 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-70))* → [berbane_144](#d-berbane_144)
     - branch 2 → [berbane_142](#d-berbane_142)

@@ -18,18 +18,18 @@ description: "Norgothla is a non-player character (NPC) in Andor's Trail, found 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Norgothla. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Norgothla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_cguard`](#v-guynmart_cguard) | NPC | Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard) | – |
-| [`guynmart_cguard2`](#v-guynmart_cguard2) | NPC | Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2) | – |
+| [`guynmart_cguard`](#v-guynmart_cguard) | NPC | Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard) | – |
+| [`guynmart_cguard2`](#v-guynmart_cguard2) | NPC | Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2) | – |
 
 ## Guynmart Castle, Guynmart wood 4 (guynmart_cguard) { #v-guynmart_cguard }
 
 **Entry ID:** `guynmart_cguard` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard)
+**Location:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard)
 
 ### Quests
 
@@ -37,7 +37,7 @@ description: "Norgothla is a non-player character (NPC) in Andor's Trail, found 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Norgothla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Norgothla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_cguard_10.json" data-npc="Norgothla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_cguard-guynmart_cguard_10"></span>**`guynmart_cguard_10`** Norgothla: “Hello stranger. Who are you and where are you going?”
 
@@ -138,18 +138,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_cguard2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2)
+**Location:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_0](../maps/guynmart_main_0.md) | Guynmart Castle | 1 | Appears later, during a quest |
-| [guynmart_main_1](../maps/guynmart_main_1.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 0](../maps/guynmart_main_0.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 1](../maps/guynmart_main_1.md) | Guynmart Castle | 1 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Norgothla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Norgothla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_cguard2_10.json" data-npc="Norgothla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -157,7 +157,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_cguard2-guynmart_cguard2_10"></span>**`guynmart_cguard2_10`** Norgothla: “Hello $playername - great to meet you again!”
 

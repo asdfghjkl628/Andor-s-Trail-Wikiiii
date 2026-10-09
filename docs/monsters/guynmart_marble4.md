@@ -4,7 +4,7 @@ description: "Golden marble is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_guynmart_8.png){ .sprite } Golden marble
 
-**Where to find Golden marble:** Guynmart Castle: [guynmart_wood_10](../maps/guynmart_wood_10.md#pin-npc-guynmart_marble4)
+**Where to find Golden marble:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_marble4)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Golden marble is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Golden marble. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Golden marble. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_marble4_10.json" data-npc="Golden marble" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_marble4_10"></span>**`guynmart_marble4_10`** Golden marble: “Wow - a golden marble!” — **effects:** sets stage 24 of [Marble hunting](../quests/guynmart_marbles.md#stage-24), gives 1× [Stuephant's marble](../items/guynmart_marble.md), removes monsters from guynmart_wood_10
 

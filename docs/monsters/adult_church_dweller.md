@@ -4,7 +4,7 @@ description: "Adult church dweller is an enemy in Andor's Trail (insect) with 10
 
 # ![](../assets/icons/monsters/monsters_newb_1_523.png){ .sprite } Adult church dweller
 
-**Found in:** Remgard: [island_underground1](../maps/island_underground1.md), [island_underground2](../maps/island_underground2.md)
+**Found in:** Remgard: [Island underground 1](../maps/island_underground1.md), [Island underground 2](../maps/island_underground2.md)
 
 <div class="infobox" markdown>
 
@@ -55,8 +55,8 @@ description: "Adult church dweller is an enemy in Andor's Trail (insect) with 10
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground1](../maps/island_underground1.md) | Remgard | 3 | – |
-| [island_underground2](../maps/island_underground2.md) | – | 7 | – |
+| [Island underground 1](../maps/island_underground1.md) | Remgard | 3 | – |
+| [Island underground 2](../maps/island_underground2.md) | – | 7 | – |
 
 
 ## Version history

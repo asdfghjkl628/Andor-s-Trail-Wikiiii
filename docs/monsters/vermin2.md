@@ -4,7 +4,7 @@ description: "Roach is an enemy in Andor's Trail (insect) with 1 HP, worth 1 XP,
 
 # ![](../assets/icons/monsters/monsters_tometik10_43.png){ .sprite } Roach
 
-**Found in:** Fallhaven: [gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [woodhouse2](../maps/woodhouse2.md), Fallhaven: [woodsettlement0](../maps/woodsettlement0.md), Prim: [lodarhouse1](../maps/lodarhouse1.md) (+1 more)
+**Found in:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Roach is an enemy in Andor's Trail (insect) with 1 HP, worth 1 XP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
-| [lodarhouse1](../maps/lodarhouse1.md) | Prim | 2 | – |
-| [woodhouse2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
-| [woodhouse3](../maps/woodhouse3.md) | – | 2 | – |
-| [woodsettlement0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
+| [Gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
+| [Lodarhouse 1](../maps/lodarhouse1.md) | Prim | 2 | – |
+| [Woodhouse 2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
+| [Woodhouse 3](../maps/woodhouse3.md) | – | 2 | – |
+| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
 
 
 ## Version history

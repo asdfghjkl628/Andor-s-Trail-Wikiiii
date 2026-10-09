@@ -11,9 +11,9 @@ description: "Perception is not reality is a quest in Andor's Trail, started by 
 | **Quest ID** | `new_snake_master` |
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 30) |
-| **Started by** | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) |
+| **Started by** | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([Wild 2](../maps/wild2.md)) |
 | **NPCs involved** | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) |
-| **Locations** | [wild2](../maps/wild2.md) |
+| **Locations** | [Wild 2](../maps/wild2.md) |
 | **Total XP** | 700 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Perception is not reality is a quest in Andor's Trail, started by 
 
 ## Prerequisites to start
 
-Start with [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)). Required:
+Start with [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([Wild 2](../maps/wild2.md)). Required:
 
 - NOT killed 1× [Snake master](../monsters/snake_master.md)
 - NOT reached stage 5 of [Perception is not reality](../quests/new_snake_master.md#stage-5)
@@ -40,37 +40,69 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-5"></span>5 | A traveler named Ewmondold had asked me to venture into the Snake Cave to retrieve his map. | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) | – | – |
-| <span id="stage-10"></span>10 | Ewmondold had thanked me for killing the Snake master, and that his way to rule would be free. I should find him. | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) | – | removes monsters from wild2<br>spawns monsters on snakecave3 |
-| <span id="stage-20"></span>20 | I've returned Ewmondold's map to him. | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) | hand over 1× [Ewmondold's map](../items/inspiring_snake_master_map.md), stage 5 | 450 XP |
-| <span id="stage-25"></span>25 | I must stop Ewmondold from getting stronger. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-30"></span>30 | I've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Snakecave3](../maps/snakecave3.md).</span> | stepping on a trigger on [snakecave3](../maps/snakecave3.md) | – | 250 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-5"></span>[5](#route-5) | <details class="jt"><summary><span class="s">A traveler named Ewmondold had asked me to venture into the Snake… ▸</span><span class="l">▴ less</span></summary>A traveler named Ewmondold had asked me to venture into the Snake Cave to retrieve his map.</details> | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Ewmondold had thanked me for killing the Snake master, and that his… ▸</span><span class="l">▴ less</span></summary>Ewmondold had thanked me for killing the Snake master, and that his way to rule would be free. I should find him.</details> | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) | removes monsters from wild2, spawns monsters on snakecave3 |
+| <span id="stage-20"></span>[20](#route-20) | I've returned Ewmondold's map to him. | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) | 450 XP |
+| <span id="stage-25"></span>25 | I must stop Ewmondold from getting stronger. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I've destroyed Ewmondold and eliminated his threat to Crossglen and… ▸</span><span class="l">▴ less</span></summary>I've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area.</details> **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Snakecave 3](../maps/snakecave3.md).</span> | stepping on a trigger on [Snakecave 3](../maps/snakecave3.md) | 250 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 5: 1 route"
+<span id="route-5"></span>
 
-    1. Talk to [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) → choose “I could retrieve the map for you.” — **conditions:** NOT killed 1× [Snake master](../monsters/snake_master.md); NOT reached stage 5 of [Perception is not reality](../quests/new_snake_master.md#stage-5) → **stage 5**. NPC: “Please do and hurry back to me.”
+??? note "Stage 5 · Ewmondold · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Talk to [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master), choose “I could retrieve the map for you.”
 
-    1. Talk to [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) → the conversation leads here automatically — **conditions:** killed 1× [Snake master](../monsters/snake_master.md); NOT reached stage 5 of [Perception is not reality](../quests/new_snake_master.md#stage-5) → **stage 10**; also removes monsters from wild2, spawns monsters on snakecave3. NPC: “Thanks for killing the Snake master, sucker - the way for me to rule is now free...”
+    - **Needs:** not yet stage 5; not killed 1× [Snake master](../monsters/snake_master.md)
+    - *“Please do and hurry back to me.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) → the conversation leads here automatically — **conditions:** reached stage 5 of [Perception is not reality](../quests/new_snake_master.md#stage-5); killed 1× [Snake master](../monsters/snake_master.md); hand over 1× [Ewmondold's map](../items/inspiring_snake_master_map.md) → **stage 20**. NPC: “Ah, my 'map'. Good!”
+<span id="route-10"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 10 · Ewmondold · 1 way"
 
-    1. stepping on a trigger on [snakecave3](../maps/snakecave3.md) → the conversation leads here automatically — **conditions:** killed 1× [Ewmondold](../monsters/ewmondold_snake_master.md); NOT reached stage 30 of [Perception is not reality](../quests/new_snake_master.md#stage-30) → **stage 30**; also gives [Gold coins](../items/gold.md). NPC: “You've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area.”
+    **Way 1:** Talk to [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master), automatic
+
+    - **Needs:** not yet stage 5; killed 1× [Snake master](../monsters/snake_master.md)
+    - **Gives:** removes monsters from wild2, spawns monsters on snakecave3
+    - *“Thanks for killing the Snake master, sucker - the way for me to rule is now free...”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Ewmondold · 1 way"
+
+    **Way 1:** Talk to [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master), automatic
+
+    - **Needs:** stage 5; killed 1× [Snake master](../monsters/snake_master.md); hand over 1× [Ewmondold's map](../items/inspiring_snake_master_map.md)
+    - *“Ah, my 'map'. Good!”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · stepping on a trigger on snakecave3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Snakecave 3](../maps/snakecave3.md)
+
+    - **Needs:** not yet stage 30; killed 1× [Ewmondold](../monsters/ewmondold_snake_master.md)
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“You've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

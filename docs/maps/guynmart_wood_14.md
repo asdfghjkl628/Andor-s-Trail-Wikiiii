@@ -12,7 +12,7 @@ description: "Guynmart wood 14 is an outdoor location in Andor's Trail, near Guy
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 14×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 1 |
 | **Quests** | 1 |
@@ -61,7 +61,7 @@ description: "Guynmart wood 14 is an outdoor location in Andor's Trail, near Guy
 ## Quests
 
 - [Fog in the woods](../quests/fogmonster.md): something on this map advances it; stepping on a trigger here sets stage 10
-- [feygard fog (hidden flag)](../quests/feygard_fog.md): part of the map changes at stage 1; part of the map changes at stage 6; part of the map changes at stage 7; something on this map advances it; stepping on a trigger here sets stage 1
+- [Feygard fog (hidden flag)](../quests/feygard_fog.md): part of the map changes at stage 1; part of the map changes at stage 6; part of the map changes at stage 7; something on this map advances it; stepping on a trigger here sets stage 1
 
 ## Points of interest
 

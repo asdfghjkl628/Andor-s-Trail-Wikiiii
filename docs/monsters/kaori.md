@@ -4,7 +4,7 @@ description: "Kaori is a non-player character (NPC) in Andor's Trail, found in V
 
 # ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } Kaori
 
-**Where to find Kaori:** Vilegard: [vilegard_kaori](../maps/vilegard_kaori.md#pin-npc-kaori)
+**Where to find Kaori:** Vilegard: [Vilegard kaori](../maps/vilegard_kaori.md#pin-npc-kaori)
 
 <div class="infobox" markdown>
 
@@ -27,7 +27,7 @@ description: "Kaori is a non-player character (NPC) in Andor's Trail, found in V
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kaori. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kaori. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kaori_start.json" data-npc="Kaori" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (21 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-kaori_start"></span>**`kaori_start`** *(silent check: the first matching branch below is taken)*
 
@@ -140,7 +140,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Hello again. Have you found those 10 Bonemeal potions I asked for?” → “Hello again. Have you found those 10 bonemeal potions I asked for?”<br>· text: “Up until recently, we have been using special potions made of ground …” → “Up until recently, we have been using special potions made of ground …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “I would really like to have a few more of those. If you can bring me …” → “I would really like to have a few more of those. If you can bring me …”<br>· text: “He did? I guess you are not all that bad as I first thought.” → “He did? I guess you are not as bad as I first thought.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

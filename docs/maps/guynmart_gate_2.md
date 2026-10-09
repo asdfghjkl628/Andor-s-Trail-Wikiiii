@@ -53,7 +53,7 @@ description: "Guynmart gate 2 is an indoor location in Andor's Trail, in Guynmar
 ## Quests
 
 - [Roses](../quests/guynmart.md): something on this map advances it; stepping on a trigger here sets stage 164
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 2
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 2
 
 ## Points of interest
 

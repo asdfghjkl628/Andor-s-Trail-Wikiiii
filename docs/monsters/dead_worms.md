@@ -1,10 +1,10 @@
 ---
-description: "Dead worms is an enemy in Andor's Trail (construct) with 50 HP, worth 126 XP, found in mountainlake_sub."
+description: "Dead worms is an enemy in Andor's Trail (construct) with 50 HP, worth 126 XP, found in Mountainlake sub."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik9_32.png){ .sprite } Dead worms
 
-**Found in:** [mountainlake_sub](../maps/mountainlake_sub.md)
+**Found in:** [Mountainlake sub](../maps/mountainlake_sub.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dead worms is an enemy in Andor's Trail (construct) with 50 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake_sub |
+| **Found in** | Mountainlake sub |
 | **Class** | Construct |
 | **HP** | 50 |
 | **XP when defeated** | 126 |
@@ -52,7 +52,7 @@ description: "Dead worms is an enemy in Andor's Trail (construct) with 50 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake_sub](../maps/mountainlake_sub.md) | – | 16 | – |
+| [Mountainlake sub](../maps/mountainlake_sub.md) | – | 16 | – |
 
 
 ## Version history

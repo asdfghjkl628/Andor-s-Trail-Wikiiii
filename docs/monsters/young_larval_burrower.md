@@ -4,7 +4,7 @@ description: "Young larval burrower is an enemy in Andor's Trail (insect) with 3
 
 # ![](../assets/icons/monsters/monsters_rltiles2_164.png){ .sprite } Young larval burrower
 
-**Found in:** Crossroads Guardhouse: [crackshot_hideout1](../maps/crackshot_hideout1.md), Crossroads Guardhouse: [wild0](../maps/wild0.md), Crossroads Guardhouse: [woodcave0](../maps/woodcave0.md)
+**Found in:** Crossroads Guardhouse: [Crackshot hideout 1](../maps/crackshot_hideout1.md), Crossroads Guardhouse: [Wild 0](../maps/wild0.md), Crossroads Guardhouse: [Woodcave 0](../maps/woodcave0.md)
 
 <div class="infobox" markdown>
 
@@ -55,9 +55,9 @@ description: "Young larval burrower is an enemy in Andor's Trail (insect) with 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout1](../maps/crackshot_hideout1.md) | Crossroads Guardhouse | 6 | – |
-| [wild0](../maps/wild0.md) | Crossroads Guardhouse | 4 | – |
-| [woodcave0](../maps/woodcave0.md) | Crossroads Guardhouse | 1 | – |
+| [Crackshot hideout 1](../maps/crackshot_hideout1.md) | Crossroads Guardhouse | 6 | – |
+| [Wild 0](../maps/wild0.md) | Crossroads Guardhouse | 4 | – |
+| [Woodcave 0](../maps/woodcave0.md) | Crossroads Guardhouse | 1 | – |
 
 
 ## Version history

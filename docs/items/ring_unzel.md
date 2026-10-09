@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | [Missing pieces](../quests/vacor.md#stage-60) | handed over (1×) | “I have dealt with him. Here is his ring.” |
+| [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | [Missing pieces](../quests/vacor.md#stage-60) | handed over (1×) | “I have dealt with him. Here is his ring.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

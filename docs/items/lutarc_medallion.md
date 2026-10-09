@@ -26,7 +26,7 @@ description: "Lutarc's medallion is a quest necklace in Andor's Trail. How to ge
 
 ### Quest & dialogue rewards
 
-- From [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md)), stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) during [Colonel Lutarc](../quests/stn_colonel.md#stage-190) (1×)
+- From [Colonel Lutarc](../monsters/stn_colonel.md) ([Waytogalmore 0](../maps/waytogalmore0.md)), stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) during [Colonel Lutarc](../quests/stn_colonel.md#stage-190) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,9 +37,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) | – | must be worn (1×) | “(automatic)” |
-| [Long-tail-dominio](../monsters/brightport_lizardpriest.md) ([brightport_lizardtemple](../maps/brightport_lizardtemple.md)) | – | must be carried (1×) | “N” |
+| stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) | – | must be worn (1×) | “(automatic)” |
+| [Long-tail-dominio](../monsters/brightport_lizardpriest.md) ([Brightport lizardtemple](../maps/brightport_lizardtemple.md)) | – | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

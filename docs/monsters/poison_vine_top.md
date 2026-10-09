@@ -1,5 +1,5 @@
 ---
-description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP, worth 187 XP, found in island_underground2, island_underground3, laerothcave0."
+description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP, worth 187 XP, found in Island underground 2, Island underground 3, Laerothcave 0."
 ---
 
 # ![](../assets/icons/monsters/monsters_guynmart_2.png){ .sprite } Poisonous vine
@@ -11,7 +11,7 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | island_underground2, island_underground3, laerothcave0 |
+| **Found in** | Island underground 2, Island underground 3, Laerothcave 0 |
 | **Class** | Construct |
 | **HP** | 90 |
 | **XP when defeated** | 187 |
@@ -22,18 +22,18 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Poisonous vine. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Poisonous vine. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`poison_vine_top`](#v-poison_vine_top) | Enemy | [island_underground2](../maps/island_underground2.md), [island_underground3](../maps/island_underground3.md) (+2 more) | – | 90 |
-| [`poison_vine_bottom`](#v-poison_vine_bottom) | Enemy | [island_underground2](../maps/island_underground2.md), [island_underground3](../maps/island_underground3.md) (+2 more) | – | 90 |
+| [`poison_vine_top`](#v-poison_vine_top) | Enemy | [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md) (+2 more) | – | 90 |
+| [`poison_vine_bottom`](#v-poison_vine_bottom) | Enemy | [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md) (+2 more) | – | 90 |
 
-## Island underground2 and 3 more (poison_vine_top) { #v-poison_vine_top }
+## Island underground 2 and 3 more (poison_vine_top) { #v-poison_vine_top }
 
 **Entry ID:** `poison_vine_top` · **Type:** Enemy
 
-**Location:** [island_underground2](../maps/island_underground2.md), [island_underground3](../maps/island_underground3.md), [laerothcave0](../maps/laerothcave0.md), [secretpassage1](../maps/secretpassage1.md)
+**Location:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Laerothcave 0](../maps/laerothcave0.md), [Secretpassage 1](../maps/secretpassage1.md)
 
 ### Combat statistics
 
@@ -66,10 +66,10 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground2](../maps/island_underground2.md) | – | 1 | – |
-| [island_underground3](../maps/island_underground3.md) | – | 1 | – |
-| [laerothcave0](../maps/laerothcave0.md) | – | 2 | – |
-| [secretpassage1](../maps/secretpassage1.md) | – | 1 | – |
+| [Island underground 2](../maps/island_underground2.md) | – | 1 | – |
+| [Island underground 3](../maps/island_underground3.md) | – | 1 | – |
+| [Laerothcave 0](../maps/laerothcave0.md) | – | 2 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 1 | – |
 
 
 ### Version history
@@ -132,11 +132,11 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
     ```
 
 
-## Island underground2 and 3 more (poison_vine_bottom) { #v-poison_vine_bottom }
+## Island underground 2 and 3 more (poison_vine_bottom) { #v-poison_vine_bottom }
 
 **Entry ID:** `poison_vine_bottom` · **Type:** Enemy
 
-**Location:** [island_underground2](../maps/island_underground2.md), [island_underground3](../maps/island_underground3.md), [laerothcave0](../maps/laerothcave0.md), [secretpassage1](../maps/secretpassage1.md)
+**Location:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Laerothcave 0](../maps/laerothcave0.md), [Secretpassage 1](../maps/secretpassage1.md)
 
 ### Combat statistics
 
@@ -169,10 +169,10 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground2](../maps/island_underground2.md) | – | 1 | – |
-| [island_underground3](../maps/island_underground3.md) | – | 1 | – |
-| [laerothcave0](../maps/laerothcave0.md) | – | 2 | – |
-| [secretpassage1](../maps/secretpassage1.md) | – | 1 | – |
+| [Island underground 2](../maps/island_underground2.md) | – | 1 | – |
+| [Island underground 3](../maps/island_underground3.md) | – | 1 | – |
+| [Laerothcave 0](../maps/laerothcave0.md) | – | 2 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 1 | – |
 
 
 ### Version history

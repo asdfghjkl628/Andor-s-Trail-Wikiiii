@@ -12,7 +12,7 @@ description: "Rat mountain 3 is an outdoor location in Andor's Trail, near Flags
 | **Region** | Near Flagstone Prison (other) |
 | **Type** | Outdoors |
 | **Size** | 25×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 6 |
 | **Enemy types** | 3 |

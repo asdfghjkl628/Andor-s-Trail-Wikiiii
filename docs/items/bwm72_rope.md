@@ -25,7 +25,7 @@ description: "Blood-stained rope is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-4) (1×)
+- From stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-4) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,9 +36,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [blackwater_mountain11](../maps/blackwater_mountain11.md) | – | must be carried (1×) | “(automatic)” |
-| [Ehrenfest](../monsters/ehrenfest.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-16) | handed over (1×) | “I took some ropes to prove what I saw to the guards...” |
-| [Ehrenfest](../monsters/ehrenfest.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-16) | handed over (1×) | “Yes, look at this blood-stained rope.” |
+| stepping on a trigger on [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – | must be carried (1×) | “(automatic)” |
+| [Ehrenfest](../monsters/ehrenfest.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-16) | handed over (1×) | “I took some ropes to prove what I saw to the guards...” |
+| [Ehrenfest](../monsters/ehrenfest.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-16) | handed over (1×) | “Yes, look at this blood-stained rope.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -11,7 +11,7 @@ description: "Way to sullengard west 2 is an outdoor location in Andor's Trail. 
 | **Map ID** | `way_to_sullengard_west_2` |
 | **Type** | Outdoors |
 | **Size** | 25×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 3 |

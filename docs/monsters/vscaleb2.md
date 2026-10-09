@@ -1,10 +1,10 @@
 ---
-description: "Venomscale master is an enemy in Andor's Trail (humanoid) with 205 HP, worth 392 XP, found in lodar17, lodar19. Drops: Gold coins, Poison gland, Venomscale scales, Snakeskin gloves."
+description: "Venomscale master is an enemy in Andor's Trail (humanoid) with 205 HP, worth 392 XP, found in Lodar 17, Lodar 19. Drops: Gold coins, Poison gland, Venomscale scales, Snakeskin gloves."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_72.png){ .sprite } Venomscale master
 
-**Found in:** [lodar17](../maps/lodar17.md), [lodar19](../maps/lodar19.md)
+**Found in:** [Lodar 17](../maps/lodar17.md), [Lodar 19](../maps/lodar19.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Venomscale master is an enemy in Andor's Trail (humanoid) with 205
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar17, lodar19 |
+| **Found in** | Lodar 17, Lodar 19 |
 | **Class** | Humanoid |
 | **HP** | 205 |
 | **XP when defeated** | 392 |
@@ -62,8 +62,8 @@ description: "Venomscale master is an enemy in Andor's Trail (humanoid) with 205
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar17](../maps/lodar17.md) | – | 1 | – |
-| [lodar19](../maps/lodar19.md) | – | 1 | – |
+| [Lodar 17](../maps/lodar17.md) | – | 1 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 1 | – |
 
 
 ## Version history

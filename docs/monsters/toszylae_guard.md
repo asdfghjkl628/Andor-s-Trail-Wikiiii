@@ -1,10 +1,10 @@
 ---
-description: "Radiant guardian is an NPC who can also be fought in Andor's Trail, found in waytobrimhavencave3a."
+description: "Radiant guardian is an NPC who can also be fought in Andor's Trail, found in Waytobrimhavencave 3a."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_20.png){ .sprite } Radiant guardian
 
-**Where to find Radiant guardian:** [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md#pin-npc-toszylae_guard)
+**Where to find Radiant guardian:** [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md#pin-npc-toszylae_guard)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Radiant guardian is an NPC who can also be fought in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | waytobrimhavencave3a |
+| **Found in** | Waytobrimhavencave 3a |
 | **Class** | Demon |
 | **HP** | 320 |
 | **XP when defeated** | 609 |
@@ -66,7 +66,7 @@ description: "Radiant guardian is an NPC who can also be fought in Andor's Trail
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
+| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
 
 ## Quests
 
@@ -74,7 +74,7 @@ description: "Radiant guardian is an NPC who can also be fought in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Radiant guardian. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Radiant guardian. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/toszylae_guard.json" data-npc="Radiant guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -82,7 +82,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-toszylae_guard"></span>**`toszylae_guard`** *(silent check: the first matching branch below is taken)*
 
@@ -159,7 +159,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(The creature turns away)” → “[The creature turns away]”<br>· text: “(It raises its claw-like hands above its head, looking to get ready t…” → “[It raises its claw-like hands above its head, looking to get ready t…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(The creature turns away)” → “[The creature turns away]”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

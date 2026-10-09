@@ -4,7 +4,7 @@ description: "Small wasp is an enemy in Andor's Trail (insect) with 4 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_insects_1.png){ .sprite } Small wasp
 
-**Found in:** Crossglen: [crossglen](../maps/crossglen.md)
+**Found in:** Crossglen: [Crossglen](../maps/crossglen.md)
 
 <div class="infobox" markdown>
 
@@ -55,7 +55,7 @@ description: "Small wasp is an enemy in Andor's Trail (insect) with 4 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen](../maps/crossglen.md) | Crossglen | 3 | – |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 3 | – |
 
 
 ## Version history

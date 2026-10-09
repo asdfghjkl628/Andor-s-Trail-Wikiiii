@@ -27,8 +27,8 @@ description: "Aidem fake vault key is a quest other in Andor's Trail. How to get
 
 ### Quest & dialogue rewards
 
-- From [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) during [Wanted men](../quests/wanted_men.md#stage-60) (100%)
-- From [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) during [Wanted men](../quests/wanted_men.md#stage-56) (100%)
+- From [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([Aidem base 2](../maps/aidem_base_2.md)) during [Wanted men](../quests/wanted_men.md#stage-60) (100%)
+- From [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([Aidem base 2](../maps/aidem_base_2.md)) during [Wanted men](../quests/wanted_men.md#stage-56) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,7 +39,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [Wanted men](../quests/wanted_men.md#stage-65) | handed over (1×) | “[Lie] I have deposited the {10000} gold. Here is your key back, as promised.” |
+| [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [Wanted men](../quests/wanted_men.md#stage-65) | handed over (1×) | “[Lie] I have deposited the {10000} gold. Here is your key back, as promised.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

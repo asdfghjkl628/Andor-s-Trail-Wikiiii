@@ -1,10 +1,10 @@
 ---
-description: "Snake master is an NPC who can also be fought in Andor's Trail, found in snakecave3."
+description: "Snake master is an NPC who can also be fought in Andor's Trail, found in Snakecave 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_1.png){ .sprite } Snake master
 
-**Where to find Snake master:** [snakecave3](../maps/snakecave3.md#pin-npc-snake_master)
+**Where to find Snake master:** [Snakecave 3](../maps/snakecave3.md#pin-npc-snake_master)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Snake master is an NPC who can also be fought in Andor's Trail, fo
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | snakecave3 |
+| **Found in** | Snakecave 3 |
 | **Class** | Undead |
 | **HP** | 55 |
 | **XP when defeated** | 112 |
@@ -61,16 +61,16 @@ description: "Snake master is an NPC who can also be fought in Andor's Trail, fo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [snakecave3](../maps/snakecave3.md) | – | 1 | – |
+| [Snakecave 3](../maps/snakecave3.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [Perception is not reality](../quests/new_snake_master.md#stage-10) with [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) checks that this enemy has been defeated.
-- [Perception is not reality](../quests/new_snake_master.md#stage-20) with [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) checks that this enemy has been defeated.
+- [Perception is not reality](../quests/new_snake_master.md#stage-10) with [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([Wild 2](../maps/wild2.md)) checks that this enemy has been defeated.
+- [Perception is not reality](../quests/new_snake_master.md#stage-20) with [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([Wild 2](../maps/wild2.md)) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Snake master. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Snake master. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/snakemaster.json" data-npc="Snake master" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -78,7 +78,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-snakemaster"></span>**`snakemaster`** Snake master: “Well well, what have we here? A visitor, how nice. I'm impressed you got this far through all my minions. Now prepare to die, puny creature.”
 

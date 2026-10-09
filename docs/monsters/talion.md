@@ -41,7 +41,7 @@ description: "Talion is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Talion. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Talion. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/talion.json" data-npc="Talion" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (131 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-talion"></span>**`talion`** *(silent check: the first matching branch below is taken)*
 
@@ -655,10 +655,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “(Talion mixes the ground up ingredients together in the vial you brou…” → “[Talion mixes the ground up ingredients together in the vial you brou…”<br>· text: “(He gives the potion a thorough shake for quite a while.)” → “[He gives the potion a thorough shake for quite a while]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “(The potion smells rancid, but you manage to drink it all down. The p…” → “[The potion smells rancid, but you manage to drink it all down. The p…”<br>· text: “Or .. well .. actually, eight items in total, but four different type…” → “Or ... well ... actually, nine items in total, but four different typ…” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 36 lines added, 1 line changed |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 15 lines added, 2 lines changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…”<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…”<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

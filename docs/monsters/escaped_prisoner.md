@@ -4,7 +4,7 @@ description: "Escaped prisoner is an NPC who can also be fought in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Escaped prisoner
 
-**Where to find Escaped prisoner:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-escaped_prisoner), Flagstone Prison: [flagstone_inner](../maps/flagstone_inner.md#pin-npc-escaped_prisoner), Flagstone Prison: [flagstone_upper](../maps/flagstone_upper.md#pin-npc-escaped_prisoner)
+**Where to find Escaped prisoner:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-escaped_prisoner), Flagstone Prison: [Flagstone inner](../maps/flagstone_inner.md#pin-npc-escaped_prisoner), Flagstone Prison: [Flagstone upper](../maps/flagstone_upper.md#pin-npc-escaped_prisoner)
 
 <div class="infobox" markdown>
 
@@ -57,13 +57,13 @@ description: "Escaped prisoner is an NPC who can also be fought in Andor's Trail
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [flagstone_inner](../maps/flagstone_inner.md) | Flagstone Prison | 1 | – |
-| [flagstone_upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Flagstone inner](../maps/flagstone_inner.md) | Flagstone Prison | 1 | – |
+| [Flagstone upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Escaped prisoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Escaped prisoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prisoner1.json" data-npc="Escaped prisoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prisoner1"></span>**`prisoner1`** Escaped prisoner: “Nooo, I will not be imprisoned again!”
 

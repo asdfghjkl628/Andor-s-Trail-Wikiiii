@@ -25,7 +25,7 @@ description: "Lovis' Flute is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([guynmart_main_1](../maps/guynmart_main_1.md)) during [Roses](../quests/guynmart.md#stage-100) (1×)
+- From [Hannah](../monsters/guynmart_hannah.md) ([Guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([Guynmart main 1](../maps/guynmart_main_1.md)) during [Roses](../quests/guynmart.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [guynmart_tower_1](../maps/guynmart_tower_1.md) | – | must be carried (1×) | “(automatic)” |
-| [Lovis](../monsters/guynmart_lovis.md) ([guynmart_tower_0](../maps/guynmart_tower_0.md)) | [Roses](../quests/guynmart.md#stage-132) | handed over (1×) | “Here, I should give you this.” |
+| stepping on a trigger on [Guynmart tower 1](../maps/guynmart_tower_1.md) | – | must be carried (1×) | “(automatic)” |
+| [Lovis](../monsters/guynmart_lovis.md) ([Guynmart tower 0](../maps/guynmart_tower_0.md)) | [Roses](../quests/guynmart.md#stage-132) | handed over (1×) | “Here, I should give you this.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

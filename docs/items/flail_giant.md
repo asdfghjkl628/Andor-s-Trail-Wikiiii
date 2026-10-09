@@ -52,7 +52,7 @@ description: "Giant's flail is a extraordinary two-handed mace in Andor's Trail 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Arulir Pack Leader](../monsters/arulir_leader.md) | 100% | 1 | arulircave6 |
+| [Arulir Pack Leader](../monsters/arulir_leader.md) | 100% | 1 | Arulircave 6 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

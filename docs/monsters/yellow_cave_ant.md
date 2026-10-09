@@ -4,7 +4,7 @@ description: "Yellow cave ant is an enemy in Andor's Trail (insect) with 20 HP, 
 
 # ![](../assets/icons/monsters/monsters_insects_2.png){ .sprite } Yellow cave ant
 
-**Found in:** Fallhaven: [jan_pitcave1](../maps/jan_pitcave1.md), [jan_pitcave2](../maps/jan_pitcave2.md)
+**Found in:** Fallhaven: [Jan pitcave 1](../maps/jan_pitcave1.md), [Jan pitcave 2](../maps/jan_pitcave2.md)
 
 <div class="infobox" markdown>
 
@@ -55,8 +55,8 @@ description: "Yellow cave ant is an enemy in Andor's Trail (insect) with 20 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [jan_pitcave1](../maps/jan_pitcave1.md) | Fallhaven | 2 | – |
-| [jan_pitcave2](../maps/jan_pitcave2.md) | – | 3 | – |
+| [Jan pitcave 1](../maps/jan_pitcave1.md) | Fallhaven | 2 | – |
+| [Jan pitcave 2](../maps/jan_pitcave2.md) | – | 3 | – |
 
 
 ## Version history

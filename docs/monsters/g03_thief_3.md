@@ -1,10 +1,10 @@
 ---
-description: "Rebelled rogue is an enemy in Andor's Trail (humanoid) with 58 HP, worth 124 XP, found in crackshot_hideout3."
+description: "Rebelled rogue is an enemy in Andor's Trail (humanoid) with 58 HP, worth 124 XP, found in Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_138.png){ .sprite } Rebelled rogue
 
-**Found in:** [crackshot_hideout3](../maps/crackshot_hideout3.md)
+**Found in:** [Crackshot hideout 3](../maps/crackshot_hideout3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Rebelled rogue is an enemy in Andor's Trail (humanoid) with 58 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | crackshot_hideout3 |
+| **Found in** | Crackshot hideout 3 |
 | **Class** | Humanoid |
 | **HP** | 58 |
 | **XP when defeated** | 124 |
@@ -50,7 +50,7 @@ description: "Rebelled rogue is an enemy in Andor's Trail (humanoid) with 58 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | 3 | – |
+| [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – | 3 | – |
 
 
 ## Version history

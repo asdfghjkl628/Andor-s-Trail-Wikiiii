@@ -4,7 +4,7 @@ description: "Rotting zombie is an enemy in Andor's Trail (undead) with 32 HP, w
 
 # ![](../assets/icons/monsters/monsters_tometik8_25.png){ .sprite } Rotting zombie
 
-**Found in:** Foaming Flask Tavern: [oldcave0](../maps/oldcave0.md), Foaming Flask Tavern: [oldcave1](../maps/oldcave1.md), Foaming Flask Tavern: [roadbeforecrossroads9](../maps/roadbeforecrossroads9.md)
+**Found in:** Foaming Flask Tavern: [Oldcave 0](../maps/oldcave0.md), Foaming Flask Tavern: [Oldcave 1](../maps/oldcave1.md), Foaming Flask Tavern: [Roadbeforecrossroads 9](../maps/roadbeforecrossroads9.md)
 
 <div class="infobox" markdown>
 
@@ -57,9 +57,9 @@ description: "Rotting zombie is an enemy in Andor's Trail (undead) with 32 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [oldcave0](../maps/oldcave0.md) | Foaming Flask Tavern | 11 | – |
-| [oldcave1](../maps/oldcave1.md) | Foaming Flask Tavern | 6 | – |
-| [roadbeforecrossroads9](../maps/roadbeforecrossroads9.md) | Foaming Flask Tavern | 7 | – |
+| [Oldcave 0](../maps/oldcave0.md) | Foaming Flask Tavern | 11 | – |
+| [Oldcave 1](../maps/oldcave1.md) | Foaming Flask Tavern | 6 | – |
+| [Roadbeforecrossroads 9](../maps/roadbeforecrossroads9.md) | Foaming Flask Tavern | 7 | – |
 
 
 ## Version history

@@ -26,8 +26,8 @@ description: "Contaminated bone is a rare animal part in Andor's Trail. How to g
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 5% | 1 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 5% | 1 | elm5f_1, elm5f_2 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 5% | 1 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 5% | 1 | Elm 5f 1, Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A contaminated bone.” |
+| stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A contaminated bone.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

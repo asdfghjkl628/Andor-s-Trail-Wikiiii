@@ -1,5 +1,5 @@
 ---
-description: "Fallhaven gravedigger is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to Fallhaven north-east, Guildbrig1."
+description: "Fallhaven gravedigger is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to Fallhaven north-east, Guildbrig 1."
 ---
 
 # Fallhaven gravedigger
@@ -17,20 +17,20 @@ description: "Fallhaven gravedigger is an indoor location in Andor's Trail, in F
 
 </div>
 
-**Fallhaven gravedigger** is an indoor map, in Fallhaven (settlement). It has no NPCs, and no enemies. Exits lead to Fallhaven north-east, Guildbrig1.
+**Fallhaven gravedigger** is an indoor map, in Fallhaven (settlement). It has no NPCs, and no enemies. Exits lead to Fallhaven north-east, Guildbrig 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fallhaven_gravedigger.webp" alt="Map of Fallhaven gravedigger" width="320" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../fallhaven_ne/#place-gravedigger" title="Exit to Fallhaven north-east" style="left:20.000%;top:87.500%;width:10.000%;height:12.500%"></a><a id="place-hatchway" class="mo mo-mapchange" href="../guildbrig1/#place-ladder" title="Exit to Guildbrig1" style="left:70.000%;top:50.000%;width:10.000%;height:12.500%"></a><a class="mo mo-key" href="../../quests/thieves_hidden/#stage-10" title="Unlocked during the quest: hidden story flag “thieves_hidden” (stage 10: “Must be never fulfilled”)" style="left:40.000%;top:37.500%;width:10.000%;height:12.500%"></a><a class="mo mo-replace" href="../../quests/Thieves02/#stage-50" title="This area changes during the quest: Immaculate kidnapping (stage 50: “I&#x27;ve inserted the key and moved the lever. A hatchway has opened in the room.”)" style="left:70.000%;top:50.000%;width:10.000%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:93.750%" title="Exit (south): to [Fallhaven north-east](fallhaven_ne.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:75.000%;top:56.250%" title="Exit (stairs / passage): to [Guildbrig1](guildbrig1.md)">2</a><a class="pin pin-key" href="#key-3" style="left:45.000%;top:43.750%" title="Blocked passage: Unlocked during the quest: hidden story flag “thieves_hidden” (stage 10: “Must be never fulfilled”)">3</a><a class="pin pin-replace" href="#key-4" style="left:75.658%;top:46.876%" title="Changes during a quest: This area changes during the quest: Immaculate kidnapping (stage 50: “I&#x27;ve inserted the key and moved the lever. A hatchway has opened in the room.”)">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fallhaven_gravedigger.webp" alt="Map of Fallhaven gravedigger" width="320" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../fallhaven_ne/#place-gravedigger" title="Exit to Fallhaven north-east" style="left:20.000%;top:87.500%;width:10.000%;height:12.500%"></a><a id="place-hatchway" class="mo mo-mapchange" href="../guildbrig1/#place-ladder" title="Exit to Guildbrig 1" style="left:70.000%;top:50.000%;width:10.000%;height:12.500%"></a><a class="mo mo-key" href="../../quests/thieves_hidden/#stage-10" title="Unlocked during the quest: hidden story flag “thieves_hidden” (stage 10: “Must be never fulfilled”)" style="left:40.000%;top:37.500%;width:10.000%;height:12.500%"></a><a class="mo mo-replace" href="../../quests/Thieves02/#stage-50" title="This area changes during the quest: Immaculate kidnapping (stage 50: “I&#x27;ve inserted the key and moved the lever. A hatchway has opened in the room.”)" style="left:70.000%;top:50.000%;width:10.000%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:25.000%;top:93.750%" title="Exit (south): to [Fallhaven north-east](fallhaven_ne.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:75.000%;top:56.250%" title="Exit (stairs / passage): to [Guildbrig 1](guildbrig1.md)">2</a><a class="pin pin-key" href="#key-3" style="left:45.000%;top:43.750%" title="Blocked passage: Unlocked during the quest: hidden story flag “thieves_hidden” (stage 10: “Must be never fulfilled”)">3</a><a class="pin pin-replace" href="#key-4" style="left:75.658%;top:46.876%" title="Changes during a quest: This area changes during the quest: Immaculate kidnapping (stage 50: “I&#x27;ve inserted the key and moved the lever. A hatchway has opened in the room.”)">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
     | <span id="key-1"></span>1 | Exit (south) | to [Fallhaven north-east](fallhaven_ne.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Guildbrig1](guildbrig1.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Guildbrig 1](guildbrig1.md) |
     | <span id="key-3"></span>3 | Blocked passage | Unlocked during the quest: hidden story flag “thieves_hidden” (stage 10: “Must be never fulfilled”) |
     | <span id="key-4"></span>4 | Changes during a quest | This area changes during the quest: Immaculate kidnapping (stage 50: “I've inserted the key and moved the lever. A hatchway has opened in the room.”) |
 
@@ -42,12 +42,12 @@ description: "Fallhaven gravedigger is an indoor location in Andor's Trail, in F
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
 | South | [Fallhaven north-east](fallhaven_ne.md) | Fallhaven | 1 |
-| Stairs / passage | [Guildbrig1](guildbrig1.md) | Fallhaven | 2 |
+| Stairs / passage | [Guildbrig 1](guildbrig1.md) | Fallhaven | 2 |
 
 ## Quests
 
 - [Immaculate kidnapping](../quests/Thieves02.md): part of the map changes at stage 50; something on this map advances it
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): blocked passage opens at stage 10
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): blocked passage opens at stage 10
 
 ## Points of interest
 

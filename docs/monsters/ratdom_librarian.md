@@ -4,7 +4,7 @@ description: "Librarian is an NPC who can also be fought in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } Librarian
 
-**Where to find Librarian:** Library: [ratdom_maze_611](../maps/ratdom_maze_611.md#pin-npc-ratdom_librarian)
+**Where to find Librarian:** Library: [Ratdom maze 611](../maps/ratdom_maze_611.md#pin-npc-ratdom_librarian)
 
 <div class="infobox" markdown>
 
@@ -59,15 +59,15 @@ description: "Librarian is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_611](../maps/ratdom_maze_611.md) | Library | 1 | – |
+| [Ratdom maze 611](../maps/ratdom_maze_611.md) | Library | 1 | – |
 
 ## Quests
 
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stages 93, 95
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stages 93, 95
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Librarian. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Librarian. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_librarian.json" data-npc="Librarian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -75,11 +75,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_librarian"></span>**`ratdom_librarian`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 95 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-95))* → [ratdom_librarian_42](#d-ratdom_librarian_42)
+    - Next *(if reached stage 95 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-95))* → [ratdom_librarian_42](#d-ratdom_librarian_42)
     - Next → [ratdom_librarian_2](#d-ratdom_librarian_2)
 
     <span id="d-ratdom_librarian_42"></span>**`ratdom_librarian_42`** [Dummy NPC](../monsters/none.md): “The librarian is completely absorbed in his new book.”
@@ -101,7 +101,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Then what are you waiting for? Go and look who is wandering through our passages!” → [ratdom_librarian_30](#d-ratdom_librarian_30)
     - “Nonsense. Strangers would never find this secret library.” → [ratdom_librarian_24](#d-ratdom_librarian_24)
 
-    <span id="d-ratdom_librarian_40"></span>**`ratdom_librarian_40`** Librarian: “Oh! What a wonder! I always wanted to have a copy of that wonderful book! Here, take this special bone as a token of my everlasting thanks. [gives leg bone of a rat]” — **effects:** gives 1× [Back bones of a rat](../items/ratdom_rat_skelett_back.md), sets stage 95 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-95)
+    <span id="d-ratdom_librarian_40"></span>**`ratdom_librarian_40`** Librarian: “Oh! What a wonder! I always wanted to have a copy of that wonderful book! Here, take this special bone as a token of my everlasting thanks. [gives leg bone of a rat]” — **effects:** gives 1× [Back bones of a rat](../items/ratdom_rat_skelett_back.md), sets stage 95 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-95)
 
     - “A lousy bone for this valuable book?!” → [ratdom_librarian_42](#d-ratdom_librarian_42)
 
@@ -128,7 +128,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “You'll soon stop laughing.” → *fight starts*
     - “Just you wait when I come back.” → *conversation ends*
 
-    <span id="d-ratdom_librarian_32"></span>**`ratdom_librarian_32`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 93 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-93)
+    <span id="d-ratdom_librarian_32"></span>**`ratdom_librarian_32`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 93 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-93)
 
     - Next → *NPC leaves*
 

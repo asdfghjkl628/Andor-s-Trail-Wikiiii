@@ -27,9 +27,9 @@ description: "Shadow Regeneration is a beneficial spiritual condition in Andor's
 |---|---|
 | HP every round | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -46,7 +46,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [mushroom_m2_3](../maps/mushroom_m2_3.md) | – | 5 rounds |
+| stepping on a trigger on [Mushroom m 2 3](../maps/mushroom_m2_3.md) | – | 5 rounds |
 
 ## Applied to enemies
 
@@ -54,7 +54,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Anoa](../monsters/anoa.md) | On itself, when you hit it | 10 | 1 round | 100% | undertell_3_02 |
+| [Anoa](../monsters/anoa.md) | On itself, when you hit it | 10 | 1 round | 100% | Undertell 3 02 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
@@ -62,7 +62,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 ## Removal and protection
 
 - **Immunity** from [Elythara's ring](../items/elythara_ring_upgraded.md) (while equipped; while equipped).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier; permanent applications (from equipment or story events) are not removed by resting.
+- **Duration and rest:** timed ones wear off, or rest them away; permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

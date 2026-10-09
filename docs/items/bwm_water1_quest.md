@@ -27,8 +27,8 @@ description: "Cold bottle of mountain water is a quest other in Andor's Trail. H
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [blackwater_mountain75](../maps/blackwater_mountain75.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-12) (100%)
-- From walking into a blocked passage on [blackwater_mountain75](../maps/blackwater_mountain75.md) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) (100%)
+- From walking into a blocked passage on [Blackwater mountain 75](../maps/blackwater_mountain75.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-12) (100%)
+- From walking into a blocked passage on [Blackwater mountain 75](../maps/blackwater_mountain75.md) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,8 +39,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-25) | handed over (2×) | “Yes, here are 2 bottles.” |
-| [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) | – | must be carried (1×) | “Here you are, a nice little bottle of fresh water.” |
+| [Jern](../monsters/prim_bar_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-25) | handed over (2×) | “Yes, here are 2 bottles.” |
+| [Jern](../monsters/prim_bar_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) | – | must be carried (1×) | “Here you are, a nice little bottle of fresh water.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

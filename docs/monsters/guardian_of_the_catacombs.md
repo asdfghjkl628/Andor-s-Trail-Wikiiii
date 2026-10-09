@@ -4,7 +4,7 @@ description: "Guardian of the catacombs is an NPC who can also be fought in Ando
 
 # ![](../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite } Guardian of the catacombs
 
-**Where to find Guardian of the catacombs:** Fallhaven: [catacombs1](../maps/catacombs1.md#pin-npc-guardian_of_the_catacombs)
+**Where to find Guardian of the catacombs:** Fallhaven: [Catacombs 1](../maps/catacombs1.md#pin-npc-guardian_of_the_catacombs)
 
 <div class="infobox" markdown>
 
@@ -65,11 +65,11 @@ description: "Guardian of the catacombs is an NPC who can also be fought in Ando
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [catacombs1](../maps/catacombs1.md) | Fallhaven | 1 | – |
+| [Catacombs 1](../maps/catacombs1.md) | Fallhaven | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guardian of the catacombs. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guardian of the catacombs. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/catacombguard.json" data-npc="Guardian of the catacombs" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-catacombguard"></span>**`catacombguard`** Guardian of the catacombs: “Turn back while you still can, mortal. This is no place for you. Only death awaits you here.”
 

@@ -1,5 +1,5 @@
 ---
-description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, found in Prim, Vilegard, Brimhaven, lake_shore_road_9, crackshot_hideout3, crackshot_hideout4. Shopkeeper."
+description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, found in Prim, Vilegard, Brimhaven, Lake shore road 9, Crackshot hideout 3, Crackshot hideout 4. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_38.png){ .sprite } Sly Seraphina
@@ -12,42 +12,42 @@ description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, fo
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | Prim, Vilegard, Brimhaven, lake_shore_road_9, crackshot_hideout3, crackshot_hideout4 |
+| **Found in** | Prim, Vilegard, Brimhaven, Lake shore road 9, Crackshot hideout 3, Crackshot hideout 4 |
 | **Entries in game data** | 7 |
 | **Introduced** | [v0.8.13](../versions/0.8.13.md) |
 
 </div>
 
 !!! info "7 entries in the game data"
-    The game's data files define 7 separate characters named Sly Seraphina. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 7 separate characters named Sly Seraphina. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`tt_seraphina`](#v-tt_seraphina) | NPC | Brimhaven: [waterway6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina) (+5 more) | – |
-| [`thief_seraphina`](#v-thief_seraphina) | NPC | [lake_shore_road_9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina) | shopkeeper |
-| [`tt_seraphina2`](#v-tt_seraphina2) | NPC | [crackshot_hideout3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2) | – |
-| [`tt_seraphina3`](#v-tt_seraphina3) | NPC | [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3) | – |
-| [`tt_seraphina3b`](#v-tt_seraphina3b) | NPC | [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b) | – |
-| [`tt_seraphina4`](#v-tt_seraphina4) | NPC | [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4) | – |
-| [`tt_seraphina5`](#v-tt_seraphina5) | NPC | [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5) | – |
+| [`tt_seraphina`](#v-tt_seraphina) | NPC | Brimhaven: [Waterway 6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina) (+5 more) | – |
+| [`thief_seraphina`](#v-thief_seraphina) | NPC | [Lake shore road 9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina) | shopkeeper |
+| [`tt_seraphina2`](#v-tt_seraphina2) | NPC | [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2) | – |
+| [`tt_seraphina3`](#v-tt_seraphina3) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3) | – |
+| [`tt_seraphina3b`](#v-tt_seraphina3b) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b) | – |
+| [`tt_seraphina4`](#v-tt_seraphina4) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4) | – |
+| [`tt_seraphina5`](#v-tt_seraphina5) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5) | – |
 
-## Brimhaven, Waterway6 and 6 more (tt_seraphina) { #v-tt_seraphina }
+## Brimhaven, Waterway 6 and 6 more (tt_seraphina) { #v-tt_seraphina }
 
 **Entry ID:** `tt_seraphina` · **Type:** NPC
 
-**Location:** Brimhaven: [waterway6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina), Loneford: [waytobrimhaven1](../maps/waytobrimhaven1.md#pin-npc-tt_seraphina), Prim: [blackwater_mountain12](../maps/blackwater_mountain12.md#pin-npc-tt_seraphina), Stoutford: [wild21](../maps/wild21.md#pin-npc-tt_seraphina), Vilegard: [vilegard_s](../maps/vilegard_s.md#pin-npc-tt_seraphina) (+1 more)
+**Location:** Brimhaven: [Waterway 6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina), Loneford: [Waytobrimhaven 1](../maps/waytobrimhaven1.md#pin-npc-tt_seraphina), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md#pin-npc-tt_seraphina), Stoutford: [Wild 21](../maps/wild21.md#pin-npc-tt_seraphina), Vilegard: [Vilegard south](../maps/vilegard_s.md#pin-npc-tt_seraphina) (+1 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 1 | Appears later, during a quest |
-| [sullengard3](../maps/sullengard3.md) | – | 1 | Appears later, during a quest |
-| [vilegard_s](../maps/vilegard_s.md) | Vilegard | 1 | Appears later, during a quest |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 1 | Appears later, during a quest |
-| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 1 | Appears later, during a quest |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 1 | Appears later, during a quest |
-| [wild21](../maps/wild21.md) | Stoutford | 1 | Appears later, during a quest |
+| [Blackwater mountain 12](../maps/blackwater_mountain12.md) | Prim | 1 | Appears later, during a quest |
+| [Sullengard 3](../maps/sullengard3.md) | – | 1 | Appears later, during a quest |
+| [Vilegard south](../maps/vilegard_s.md) | Vilegard | 1 | Appears later, during a quest |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Waytobrimhaven 1](../maps/waytobrimhaven1.md) | Loneford | 1 | Appears later, during a quest |
+| [Waytobrimhaven 3](../maps/waytobrimhaven3.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Wild 21](../maps/wild21.md) | Stoutford | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -56,7 +56,7 @@ description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, fo
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly_200.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tt_seraphina-tt_sly_200"></span>**`tt_sly_200`** *(silent check: the first matching branch below is taken)*
 
@@ -116,8 +116,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-tt_seraphina-tt_sly_250"></span>**`tt_sly_250`** Sly Seraphina: “Looking at your strength, kid, you may just be able to beat those monsters. We might give it a try.”
 
-    - “Thanks again.” *(if reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38); NOT reached stage 190 of [Troubling times](../quests/troubling_times.md#stage-190))* → [tt_sly_252](#d-tt_seraphina-tt_sly_252)
-    - “Thanks again.” *(if NOT reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [tt_sly_254](#d-tt_seraphina-tt_sly_254)
+    - “Thanks again.” *(if reached stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38); NOT reached stage 190 of [Troubling times](../quests/troubling_times.md#stage-190))* → [tt_sly_252](#d-tt_seraphina-tt_sly_252)
+    - “Thanks again.” *(if NOT reached stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [tt_sly_254](#d-tt_seraphina-tt_sly_254)
 
     <span id="d-tt_seraphina-tt_sly_252"></span>**`tt_sly_252`** Sly Seraphina: “By the way, here's your money back. 1,000 gold.” — **effects:** sets stage 190 of [Troubling times](../quests/troubling_times.md#stage-190), gives 1000× [Gold coins](../items/gold.md)
 
@@ -170,7 +170,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `thief_seraphina` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** [lake_shore_road_9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina)
+**Location:** [Lake shore road 9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina)
 
 ### Shop stock
 
@@ -181,11 +181,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 ### Quests
 
 - [Troubling times](../quests/troubling_times.md): stages 110, 130, 140, 320
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 38
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 38
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thief_seraphina_selector.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -193,14 +193,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (59 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thief_seraphina-thief_seraphina_selector"></span>**`thief_seraphina_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 36 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-36); NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75))* → [thief_seraphina_script_10](#d-thief_seraphina-thief_seraphina_script_10)
-    - Next *(if NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); NOT reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [thief_seraphina_10](#d-thief_seraphina-thief_seraphina_10)
+    - Next *(if NOT reached stage 36 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-36); NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75))* → [thief_seraphina_script_10](#d-thief_seraphina-thief_seraphina_script_10)
+    - Next *(if NOT reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75); NOT reached stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [thief_seraphina_10](#d-thief_seraphina-thief_seraphina_10)
     - Next *(if reached stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75))* → [thief_seraphina_bridge_fixed](#d-thief_seraphina-thief_seraphina_bridge_fixed)
-    - Next *(if reached stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [thief_seraphina_80](#d-thief_seraphina-thief_seraphina_80)
+    - Next *(if reached stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38))* → [thief_seraphina_80](#d-thief_seraphina-thief_seraphina_80)
 
     <span id="d-thief_seraphina-thief_seraphina_script_10"></span>**`thief_seraphina_script_10`** [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina): “Hey, kid! Just where do you think you're going?”
 
@@ -213,7 +213,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-thief_seraphina-thief_seraphina_bridge_fixed"></span>**`thief_seraphina_bridge_fixed`** [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina): “Please move along. There's nothing to see here.”
 
-    - “I've been wondering, do you have anything to sell?” *(if NOT reached stage 3 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-3); NOT carry 1× [Armored helmet](../items/armored_helmet.md); NOT wearing [Armored helmet](../items/armored_helmet.md))* → [thief_seraphina_helmet_1](#d-thief_seraphina-thief_seraphina_helmet_1)
+    - “I've been wondering, do you have anything to sell?” *(if NOT reached stage 3 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-3); NOT carry 1× [Armored helmet](../items/armored_helmet.md); NOT wearing [Armored helmet](../items/armored_helmet.md))* → [thief_seraphina_helmet_1](#d-thief_seraphina-thief_seraphina_helmet_1)
     - “Yes, ma'am.” → *conversation ends*
     - “The Guild needs you. Umar ...” *(if reached stage 100 of [Troubling times](../quests/troubling_times.md#stage-100); NOT reached stage 140 of [Troubling times](../quests/troubling_times.md#stage-140))* → [tt_sly_10](#d-thief_seraphina-tt_sly_10)
     - “Hi Seraphina, you were away so quickly after you gave me Luthor's ring.” *(if reached stage 270 of [Troubling times](../quests/troubling_times.md#stage-270); NOT reached stage 320 of [Troubling times](../quests/troubling_times.md#stage-320))* → [tt_sly_300](#d-thief_seraphina-tt_sly_300)
@@ -325,7 +325,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-thief_seraphina-tt_sly_350"></span>**`tt_sly_350`** Sly Seraphina: “See you.”
 
 
-    <span id="d-thief_seraphina-thief_seraphina_70"></span>**`thief_seraphina_70`** Sly Seraphina: “Maybe next time you come by I'll have the board?” — **effects:** sets stage 38 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-38)
+    <span id="d-thief_seraphina-thief_seraphina_70"></span>**`thief_seraphina_70`** Sly Seraphina: “Maybe next time you come by I'll have the board?” — **effects:** sets stage 38 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-38)
 
 
     <span id="d-thief_seraphina-tt_sly_54"></span>**`tt_sly_54`** Sly Seraphina: “All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?”
@@ -490,20 +490,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crackshot hideout3 (tt_seraphina2) { #v-tt_seraphina2 }
+## Crackshot hideout 3 (tt_seraphina2) { #v-tt_seraphina2 }
 
 **Entry ID:** `tt_seraphina2` · **Type:** NPC
 
-**Location:** [crackshot_hideout3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2)
+**Location:** [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2)
 
 ### Quests
 
 - [Troubling times](../quests/troubling_times.md): stages 200, 210
-- [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md): stage 20
+- [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md): stage 20
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly2.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -511,7 +511,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tt_seraphina2-tt_sly2"></span>**`tt_sly2`** Sly Seraphina: “At last! Did you sleep all the way here?” — **effects:** sets stage 200 of [Troubling times](../quests/troubling_times.md#stage-200)
 
@@ -526,7 +526,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Eh, I'm getting it, I'm running. Just a minute ...” → [tt_sly2_14](#d-tt_seraphina2-tt_sly2_14)
 
-    <span id="d-tt_seraphina2-tt_sly2_20"></span>**`tt_sly2_20`** [Dummy NPC](../monsters/none.md): “Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.” — **effects:** sets stage 210 of [Troubling times](../quests/troubling_times.md#stage-210), sets stage 20 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-20), removes monsters from crackshot_hideout3
+    <span id="d-tt_seraphina2-tt_sly2_20"></span>**`tt_sly2_20`** [Dummy NPC](../monsters/none.md): “Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.” — **effects:** sets stage 210 of [Troubling times](../quests/troubling_times.md#stage-210), sets stage 20 of [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md#stage-20), removes monsters from crackshot_hideout3
 
     - “I had better follow immediately.” → *conversation ends*
 
@@ -571,15 +571,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crackshot hideout4 (tt_seraphina3) { #v-tt_seraphina3 }
+## Crackshot hideout 4 (tt_seraphina3) { #v-tt_seraphina3 }
 
 **Entry ID:** `tt_seraphina3` · **Type:** NPC
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly3.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -587,7 +587,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tt_seraphina3-tt_sly3"></span>**`tt_sly3`** Sly Seraphina: “Don't push me. I need to concentrate.”
 
@@ -630,15 +630,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crackshot hideout4 (tt_seraphina3b) { #v-tt_seraphina3b }
+## Crackshot hideout 4 (tt_seraphina3b) { #v-tt_seraphina3b }
 
 **Entry ID:** `tt_seraphina3b` · **Type:** NPC
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly3.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -683,20 +683,20 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Crackshot hideout4 (tt_seraphina4) { #v-tt_seraphina4 }
+## Crackshot hideout 4 (tt_seraphina4) { #v-tt_seraphina4 }
 
 **Entry ID:** `tt_seraphina4` · **Type:** NPC
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4)
 
 ### Quests
 
 - [Troubling times](../quests/troubling_times.md): stages 250, 252
-- [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md): stage 30
+- [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md): stage 30
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly4.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -704,14 +704,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tt_seraphina4-tt_sly4"></span>**`tt_sly4`** Sly Seraphina: “It's good to ... see you are alive, kid.” — **effects:** faction “tt_sly_attack3” +999
 
     - “You look terrible.” *(if NOT reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250))* → [tt_sly4_2](#d-tt_seraphina4-tt_sly4_2)
     - “You are severely wounded.” *(if NOT reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250))* → [tt_sly4_10](#d-tt_seraphina4-tt_sly4_10)
     - “You look better now.” *(if reached stage 250 of [Troubling times](../quests/troubling_times.md#stage-250))* → [tt_sly4_4](#d-tt_seraphina4-tt_sly4_4)
-    - “Hey, I'm back. Don't be alarmed, I'll squeeze past you.” *(if NOT reached stage 30 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-30))* → [tt_sly4_6](#d-tt_seraphina4-tt_sly4_6)
+    - “Hey, I'm back. Don't be alarmed, I'll squeeze past you.” *(if NOT reached stage 30 of [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md#stage-30))* → [tt_sly4_6](#d-tt_seraphina4-tt_sly4_6)
 
     <span id="d-tt_seraphina4-tt_sly4_2"></span>**`tt_sly4_2`** [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4): “Nice compliment, kid. Ooouw ...”
 
@@ -731,7 +731,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-tt_seraphina4-tt_sly4_4"></span>**`tt_sly4_4`** Sly Seraphina: “Yes, thanks to you. Just give me a few seconds ...”
 
 
-    <span id="d-tt_seraphina4-tt_sly4_6"></span>**`tt_sly4_6`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [crackshot_hideout4](../maps/crackshot_hideout4.md), sets stage 30 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-30)
+    <span id="d-tt_seraphina4-tt_sly4_6"></span>**`tt_sly4_6`** *(silent check: the first matching branch below is taken)* — **effects:** moves you to [Crackshot hideout 4](../maps/crackshot_hideout4.md), sets stage 30 of [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md#stage-30)
 
 
     <span id="d-tt_seraphina4-tt_sly4_12"></span>**`tt_sly4_12`** Sly Seraphina: “That didn't work. My wounds are too deep.”
@@ -792,20 +792,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crackshot hideout4 (tt_seraphina5) { #v-tt_seraphina5 }
+## Crackshot hideout 4 (tt_seraphina5) { #v-tt_seraphina5 }
 
 **Entry ID:** `tt_seraphina5` · **Type:** NPC
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5)
 
 ### Quests
 
 - [Troubling times](../quests/troubling_times.md): stages 260, 270
-- [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md): stage 10
+- [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md): stage 10
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sly Seraphina. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly5.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -813,11 +813,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tt_seraphina5-tt_sly5"></span>**`tt_sly5`** Sly Seraphina: “Suits me, this place. Don't you think?”
 
-    - “Better help me search.” *(if reached stage 10 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-10); 8 rounds passed since timer “tt_search”)* → [tt_sly5_10](#d-tt_seraphina5-tt_sly5_10)
+    - “Better help me search.” *(if reached stage 10 of [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md#stage-10); 8 rounds passed since timer “tt_search”)* → [tt_sly5_10](#d-tt_seraphina5-tt_sly5_10)
     - “[Sarcastic] Truly royal.” → [tt_sly5_2](#d-tt_seraphina5-tt_sly5_2)
     - “This throne looks familiar to me.” → [tt_sly5_8](#d-tt_seraphina5-tt_sly5_8)
 
@@ -837,7 +837,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “What? And I've been searching here for hours!” → [tt_sly5_20](#d-tt_seraphina5-tt_sly5_20)
 
-    <span id="d-tt_seraphina5-tt_sly5_3"></span>**`tt_sly5_3`** Sly Seraphina: “In fact, I am King Luthor's heir. He's my ancestor.” — **effects:** sets stage 10 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-10)
+    <span id="d-tt_seraphina5-tt_sly5_3"></span>**`tt_sly5_3`** Sly Seraphina: “In fact, I am King Luthor's heir. He's my ancestor.” — **effects:** sets stage 10 of [Troubling times story flags (hidden flag)](../quests/troubling_times_nd.md#stage-10)
 
     - “Really?” → [tt_sly5_4](#d-tt_seraphina5-tt_sly5_4)
 

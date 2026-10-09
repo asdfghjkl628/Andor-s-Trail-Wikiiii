@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain20 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Hatchling white wyrm, Young aulaeth. Exits to Blackwater mountain19, Blackwater mountain39."
+description: "Blackwater mountain 20 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Hatchling white wyrm, Young aulaeth. Exits to Blackwater mountain 19, Blackwater mountain 39."
 ---
 
-# Blackwater mountain20
+# Blackwater mountain 20
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Blackwater mountain20 is an indoor location in Andor's Trail, in B
 | **Region** | In Blackwater Mountain (other) |
 | **Type** | Indoors / underground |
 | **Size** | 10×20 tiles |
-| **World map** | [Bwcave1](index.md) |
+| **World map** | [Bwcave 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Blackwater mountain20** is an indoor map, in Blackwater Mountain (other). It has no NPCs and 2 kinds of enemy. Exits lead to Blackwater mountain19, Blackwater mountain39.
+**Blackwater mountain 20** is an indoor map, in Blackwater Mountain (other). It has no NPCs and 2 kinds of enemy. Exits lead to Blackwater mountain 19, Blackwater mountain 39.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain20.webp" alt="Map of Blackwater mountain20" width="320" height="640" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../blackwater_mountain19/#place-up" title="Exit to Blackwater mountain19" style="left:10.000%;top:15.000%;width:10.000%;height:5.000%"></a><a id="place-up" class="mo mo-mapchange" href="../blackwater_mountain39/#place-down" title="Exit to Blackwater mountain39" style="left:60.000%;top:60.000%;width:10.000%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Hatchling white wyrm, Young aulaeth" style="left:30.000%;top:15.000%;width:50.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Hatchling white wyrm, Young aulaeth" style="left:40.000%;top:45.000%;width:10.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Hatchling white wyrm, Young aulaeth" style="left:20.000%;top:70.000%;width:70.000%;height:25.000%"></span><a class="mob" href="../../monsters/young_aulaeth/" title="Young aulaeth" style="left:30.000%;top:15.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_176.png" alt="Young aulaeth"></a><a class="mob" href="../../monsters/young_aulaeth/" title="Young aulaeth" style="left:40.000%;top:45.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_176.png" alt="Young aulaeth"></a><a class="mob" href="../../monsters/hatchling_white_wyrm/" title="Hatchling white wyrm" style="left:30.000%;top:75.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_118.png" alt="Hatchling white wyrm"></a><a class="mob" href="../../monsters/hatchling_white_wyrm/" title="Hatchling white wyrm" style="left:70.000%;top:90.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_118.png" alt="Hatchling white wyrm"></a><a class="pin pin-exit" href="#key-1" style="left:15.000%;top:17.500%" title="Exit (west): to [Blackwater mountain19](blackwater_mountain19.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:65.000%;top:62.500%" title="Exit (stairs / passage): to [Blackwater mountain39](blackwater_mountain39.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain20.webp" alt="Map of Blackwater mountain 20" width="320" height="640" loading="lazy"><a id="place-down" class="mo mo-mapchange" href="../blackwater_mountain19/#place-up" title="Exit to Blackwater mountain 19" style="left:10.000%;top:15.000%;width:10.000%;height:5.000%"></a><a id="place-up" class="mo mo-mapchange" href="../blackwater_mountain39/#place-down" title="Exit to Blackwater mountain 39" style="left:60.000%;top:60.000%;width:10.000%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Hatchling white wyrm, Young aulaeth" style="left:30.000%;top:15.000%;width:50.000%;height:30.000%"></span><span class="mo mo-spawn" title="Spawns: Hatchling white wyrm, Young aulaeth" style="left:40.000%;top:45.000%;width:10.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Hatchling white wyrm, Young aulaeth" style="left:20.000%;top:70.000%;width:70.000%;height:25.000%"></span><a class="mob" href="../../monsters/young_aulaeth/" title="Young aulaeth" style="left:30.000%;top:15.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_176.png" alt="Young aulaeth"></a><a class="mob" href="../../monsters/young_aulaeth/" title="Young aulaeth" style="left:40.000%;top:45.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles2_176.png" alt="Young aulaeth"></a><a class="mob" href="../../monsters/hatchling_white_wyrm/" title="Hatchling white wyrm" style="left:30.000%;top:75.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_118.png" alt="Hatchling white wyrm"></a><a class="mob" href="../../monsters/hatchling_white_wyrm/" title="Hatchling white wyrm" style="left:70.000%;top:90.000%;width:10.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_118.png" alt="Hatchling white wyrm"></a><a class="pin pin-exit" href="#key-1" style="left:15.000%;top:17.500%" title="Exit (west): to [Blackwater mountain 19](blackwater_mountain19.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:65.000%;top:62.500%" title="Exit (stairs / passage): to [Blackwater mountain 39](blackwater_mountain39.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (west) | to [Blackwater mountain19](blackwater_mountain19.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain39](blackwater_mountain39.md) |
+    | <span id="key-1"></span>1 | Exit (west) | to [Blackwater mountain 19](blackwater_mountain19.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain 39](blackwater_mountain39.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Blackwater mountain20 is an indoor location in Andor's Trail, in B
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| West | [Blackwater mountain19](blackwater_mountain19.md) | Blackwater Mountain | 1 |
-| Stairs / passage | [Blackwater mountain39](blackwater_mountain39.md) | Blackwater Mountain | 2 |
+| West | [Blackwater mountain 19](blackwater_mountain19.md) | Blackwater Mountain | 1 |
+| Stairs / passage | [Blackwater mountain 39](blackwater_mountain39.md) | Blackwater Mountain | 2 |
 
 ## Enemies
 

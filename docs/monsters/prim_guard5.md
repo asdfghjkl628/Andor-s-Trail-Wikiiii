@@ -4,7 +4,7 @@ description: "Prim guard captain is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_rltiles1_65.png){ .sprite } Prim guard captain
 
-**Where to find Prim guard captain:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_guard5)
+**Where to find Prim guard captain:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_guard5)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Prim guard captain is a non-player character (NPC) in Andor's Trai
 ## Quests
 
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stages 9, 40
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 18, 43
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stages 18, 43
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim guard captain. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim guard captain. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_guard5_s.json" data-npc="Prim guard captain" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,15 +34,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (64 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_guard5_s"></span>**`prim_guard5_s`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 43 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-43))* → [capvjern_41](#d-capvjern_41)
-    - branch 2 *(if reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 1 *(if reached stage 43 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-43))* → [capvjern_41](#d-capvjern_41)
+    - branch 2 *(if reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
     - branch 3 *(if reached stage 40 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-40))* → [capvjern_22](#d-capvjern_22)
-    - branch 4 *(if reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_15](#d-capvjern_15)
-    - branch 5 *(if reached stage 17 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-17))* → [capvjern_1](#d-capvjern_1)
+    - branch 4 *(if reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_15](#d-capvjern_15)
+    - branch 5 *(if reached stage 17 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-17))* → [capvjern_1](#d-capvjern_1)
     - branch 6 → [prim_guard5_1](#d-prim_guard5_1)
 
     <span id="d-capvjern_41"></span>**`capvjern_41`** [Prim guard captain](../monsters/prim_guard5.md): “I'll wait here. Farewell, $playername.”
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “OK, bye.” → *conversation ends*
     - “Shadow be with you.” → *conversation ends*
 
-    <span id="d-capvjern_15"></span>**`capvjern_15`** [Prim guard captain](../monsters/prim_guard5.md): “We're short of men, and we don't even know where he is right now. *Meanwhile Jern stares at you.*” — **effects:** sets stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18)
+    <span id="d-capvjern_15"></span>**`capvjern_15`** [Prim guard captain](../monsters/prim_guard5.md): “We're short of men, and we don't even know where he is right now. *Meanwhile Jern stares at you.*” — **effects:** sets stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18)
 
     - “I don't know!” → [capvjern_16a](#d-capvjern_16a)
     - “I can't be of help this time...” → [capvjern_16b](#d-capvjern_16b)
@@ -264,7 +264,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [capvjern_10](#d-capvjern_10)
 
-    <span id="d-capvjern_32a"></span>**`capvjern_32a`** [Jern](../monsters/prim_bar_regular.md): “Thank you again. *looks at the captain* I'll be going.” — **effects:** gives 1× [Rusted key](../items/elm2_key.md), removes monsters from blackwater_mountain29, sets stage 43 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-43)
+    <span id="d-capvjern_32a"></span>**`capvjern_32a`** [Jern](../monsters/prim_bar_regular.md): “Thank you again. *looks at the captain* I'll be going.” — **effects:** gives 1× [Rusted key](../items/elm2_key.md), removes monsters from blackwater_mountain29, sets stage 43 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-43)
 
     - “Shadow be with you.” → *NPC leaves*
     - “Good luck in your shift.” → *NPC leaves*

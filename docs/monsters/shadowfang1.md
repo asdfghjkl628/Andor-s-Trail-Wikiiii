@@ -1,10 +1,10 @@
 ---
-description: "Shadowfang is an NPC who can also be fought in Andor's Trail, found in blackwater_mountain76, elm_2f_1, elm_2f_3."
+description: "Shadowfang is an NPC who can also be fought in Andor's Trail, found in Blackwater mountain 76, Elm 2f 1, Elm 2f 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_7.png){ .sprite } Shadowfang
 
-**Where to find Shadowfang:** [blackwater_mountain76](../maps/blackwater_mountain76.md#pin-npc-shadowfang1), [elm_2f_1](../maps/elm_2f_1.md#pin-npc-shadowfang1), [elm_2f_3](../maps/elm_2f_3.md#pin-npc-shadowfang1), [elm_4f_1](../maps/elm_4f_1.md#pin-npc-shadowfang1) (+3 more)
+**Where to find Shadowfang:** [Blackwater mountain 76](../maps/blackwater_mountain76.md#pin-npc-shadowfang1), [Elm 2f 1](../maps/elm_2f_1.md#pin-npc-shadowfang1), [Elm 2f 3](../maps/elm_2f_3.md#pin-npc-shadowfang1), [Elm 4f 1](../maps/elm_4f_1.md#pin-npc-shadowfang1) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Shadowfang is an NPC who can also be fought in Andor's Trail, foun
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | blackwater_mountain76, elm_2f_1, elm_2f_3 |
+| **Found in** | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
 | **Class** | Demon |
 | **HP** | 98 |
 | **XP when defeated** | 330 |
@@ -67,17 +67,17 @@ description: "Shadowfang is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain76](../maps/blackwater_mountain76.md) | – | 2 | Appears later, during a quest |
-| [elm_2f_1](../maps/elm_2f_1.md) | – | 1 | – |
-| [elm_2f_3](../maps/elm_2f_3.md) | – | 1 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 1 | – |
-| [elm_4f_5](../maps/elm_4f_5.md) | – | 1 | – |
-| [elm_mine3](../maps/elm_mine3.md) | – | 2 | Appears later, during a quest |
-| [elm_mine5](../maps/elm_mine5.md) | – | 3 | – |
+| [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – | 2 | Appears later, during a quest |
+| [Elm 2f 1](../maps/elm_2f_1.md) | – | 1 | – |
+| [Elm 2f 3](../maps/elm_2f_3.md) | – | 1 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 1 | – |
+| [Elm 4f 5](../maps/elm_4f_5.md) | – | 1 | – |
+| [Elm mine 3](../maps/elm_mine3.md) | – | 2 | Appears later, during a quest |
+| [Elm mine 5](../maps/elm_mine5.md) | – | 3 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shadowfang. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shadowfang. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shadowfang_1.json" data-npc="Shadowfang" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -85,7 +85,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-shadowfang_1"></span>**`shadowfang_1`** Shadowfang: “Sssssh...”
 

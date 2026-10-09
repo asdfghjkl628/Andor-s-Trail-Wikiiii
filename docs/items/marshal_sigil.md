@@ -28,10 +28,10 @@ description: "Marshal sigil is a rare other in Andor's Trail. How to get it: mon
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 1% | 1 | undertell_11, undertell_12, undertell_21 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 1% | 1 | undertell_10, undertell_11, undertell_21 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 1% | 1 | undertell_00, undertell_10, undertell_12 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_others) | 1% | 1 | undertell_11 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 1% | 1 | Undertell 11, Undertell 12, Undertell 21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 1% | 1 | Undertell 10, Undertell 11, Undertell 21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 1% | 1 | Undertell 00, Undertell 10, Undertell 12 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_others) | 1% | 1 | Undertell 11 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

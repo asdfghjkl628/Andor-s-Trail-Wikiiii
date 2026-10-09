@@ -46,13 +46,13 @@ description: "Red apple is a ordinary food in Andor's Trail. How to get it: mons
 - [Peasant grandfather](../monsters/brv_old_farmer.md) (Brimhaven)
 - [Melona](../monsters/melona.md) (Brimhaven)
 - [Bela](../monsters/bela.md#v-bela_2)
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 ### Found in containers
 
-- [beekeeper2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
-- [guynmart_main_0](../maps/guynmart_main_0.md#container-0) (container 1, 100%), Guynmart Castle
-- [guynmart_main_2](../maps/guynmart_main_2.md#container-0) (container 1, 33%), Guynmart Castle
+- [Beekeeper 2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
+- [Guynmart main 0](../maps/guynmart_main_0.md#container-0) (container 1, 100%), Guynmart Castle
+- [Guynmart main 2](../maps/guynmart_main_2.md#container-0) (container 1, 33%), Guynmart Castle
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -63,8 +63,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-12) | handed over (2×) | “Yes, here are two red apples and two strawberries.” |
-| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “Hey, maybe I could leave a red apple. It might help it warm up to me.” |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-12) | handed over (2×) | “Yes, here are two red apples and two strawberries.” |
+| stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “Hey, maybe I could leave a red apple. It might help it warm up to me.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

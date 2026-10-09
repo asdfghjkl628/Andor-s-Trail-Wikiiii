@@ -36,8 +36,8 @@ description: "Serpent meat is a ordinary food in Andor's Trail. How to get it: m
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cave worm](../monsters/cave_worm.md) | 70% | 1-2 | laerothcave1, laerothtomb0 |
-| [Vicious cave worm](../monsters/cave_worm_vicious.md) | 70% | 1-2 | laerothcave1, laerothtomb0 |
+| [Cave worm](../monsters/cave_worm.md) | 70% | 1-2 | Laerothcave 1, Laerothtomb 0 |
+| [Vicious cave worm](../monsters/cave_worm_vicious.md) | 70% | 1-2 | Laerothcave 1, Laerothtomb 0 |
 | [Aggressive spitting serpent](../monsters/spit_serpent_3.md) | 15% | 1 | Lake Laeroth |
 | [Spitting serpent](../monsters/spit_serpent_1.md) | 10% | 1 | Lake Laeroth |
 | [Young spitting serpent](../monsters/spit_serpent_2.md) | 5% | 1 | Lake Laeroth |

@@ -4,7 +4,7 @@ description: "Umar is a non-player character (NPC) in Andor's Trail, found in Fa
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Umar
 
-**Where to find Umar:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-umar), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-umar)
+**Where to find Umar:** Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-umar), Fallhaven: [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md#pin-npc-umar)
 
 <div class="infobox" markdown>
 
@@ -24,8 +24,8 @@ description: "Umar is a non-player character (NPC) in Andor's Trail, found in Fa
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
-| [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
 
 ## Quests
 
@@ -36,12 +36,12 @@ description: "Umar is a non-player character (NPC) in Andor's Trail, found in Fa
 - [The ruthless Crackshot](../quests/Thieves03.md): stages 1, 4, 5, 10, 45, 50
 - [Thief apprentice](../quests/Thieves01.md): stages 5, 10
 - [Troubling times](../quests/troubling_times.md): stages 10, 20, 30, 120
-- [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md): stage 20
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 28
+- [Miscellaneous story flags (hidden flag)](../quests/misc_nondisplay.md): stage 20
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 28
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Umar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Umar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/umar_select_1.json" data-npc="Umar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (150 lines+)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-umar_select_1"></span>**`umar_select_1`** *(silent check: the first matching branch below is taken)*
 
@@ -80,8 +80,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-umar_return_1"></span>**`umar_return_1`** Umar: “Hello again, my friend.”
 
     - “Do you have any tasks for me?” *(if faction “ThievesGuild” ≥ 40)* → [umar_guild05_0](#d-umar_guild05_0)
-    - “I have given them our promised share.” *(if NOT reached stage 80 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-80); reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30))* → [umar_guild04_29](#d-umar_guild04_29)
-    - “What are we gonna do about Sullengard?” *(if latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70) is 70; NOT reached stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30))* → [umar_guild04_26](#d-umar_guild04_26)
+    - “I have given them our promised share.” *(if NOT reached stage 80 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-80); reached stage 30 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-30))* → [umar_guild04_29](#d-umar_guild04_29)
+    - “What are we gonna do about Sullengard?” *(if latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70) is 70; NOT reached stage 30 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-30))* → [umar_guild04_26](#d-umar_guild04_26)
     - “What are your plans for the new traitors?” *(if latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-60) is 60)* → [umar_guild04_21](#d-umar_guild04_21)
     - “Matpat told me that Defy and his men left Sullengard.” *(if latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-50) is 50)* → [umar_guild04_19](#d-umar_guild04_19)
     - “Defy and his men have left Sullengard.” *(if latest stage of [Another ruthless Crackshot](../quests/Thieves04.md#stage-35) is 35)* → [umar_guild04_17](#d-umar_guild04_17)
@@ -278,7 +278,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-umar_guild04_27"></span>**`umar_guild04_27`** Umar: “I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives.” — **effects:** sets stage 70 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70)
 
-    - “What? How?” *(if NOT reached stage 28 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-28))* → [umar_guild04_28b](#d-umar_guild04_28b)
+    - “What? How?” *(if NOT reached stage 28 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-28))* → [umar_guild04_28b](#d-umar_guild04_28b)
     - “Yes. I'm on it.” → [umar_guild04_28a](#d-umar_guild04_28a)
 
     <span id="d-umar_guild04_22"></span>**`umar_guild04_22`** Umar: “He said that they will no longer be a part of the Thieves' Guild. They are now referring to themselves as 'Aidem'.”
@@ -316,7 +316,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-umar_guild03_27a"></span>**`umar_guild03_27a`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 90 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-90))* → [umar_guild03_27a_2](#d-umar_guild03_27a_2)
+    - branch 1 *(if reached stage 90 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-90))* → [umar_guild03_27a_2](#d-umar_guild03_27a_2)
     - branch 2 *(if reached stage 32 of [The ruthless Crackshot](../quests/Thieves03.md#stage-32))* → [umar_guild03_27a_1](#d-umar_guild03_27a_1)
     - branch 3 → [umar_guild03_29](#d-umar_guild03_29)
 
@@ -445,7 +445,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “The spell will be broken.” → *conversation ends*
     - “Thoroughness is the key to success.” → [umar_tt_130](#d-umar_tt_130)
 
-    <span id="d-umar_guild04_28b"></span>**`umar_guild04_28b`** Umar: “Here's 1,000 gold coins as my financial contribution.” — **effects:** sets stage 28 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-28), gives 1000× [Gold coins](../items/gold.md)
+    <span id="d-umar_guild04_28b"></span>**`umar_guild04_28b`** Umar: “Here's 1,000 gold coins as my financial contribution.” — **effects:** sets stage 28 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-28), gives 1000× [Gold coins](../items/gold.md)
 
     - “Oh. Thank you.” → [umar_guild04_28a](#d-umar_guild04_28a)
     - “Wow! It motivated me. Thanks.” → [umar_guild04_28a](#d-umar_guild04_28a)
@@ -512,7 +512,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [umar_guild03_4](#d-umar_guild03_4)
 
-    <span id="d-umar_guild02_27d"></span>**`umar_guild02_27d`** Umar: “I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you tell them Umar sent you then you will not have to pay for a bed.” — **effects:** sets stage 20 of [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md#stage-20)
+    <span id="d-umar_guild02_27d"></span>**`umar_guild02_27d`** Umar: “I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you tell them Umar sent you then you will not have to pay for a bed.” — **effects:** sets stage 20 of [Miscellaneous story flags (hidden flag)](../quests/misc_nondisplay.md#stage-20)
 
     - “OK. Thanks.” → *conversation ends*
     - “I'll do that.” → *conversation ends*
@@ -705,7 +705,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-umar_guild02_5"></span>**`umar_guild02_5`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 80 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-80))* → [umar_guild02_5a](#d-umar_guild02_5a)
+    - branch 1 *(if reached stage 80 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-80))* → [umar_guild02_5a](#d-umar_guild02_5a)
     - branch 2 → [umar_guild02_5z](#d-umar_guild02_5z)
 
     <span id="d-umar_conflict_1"></span>**`umar_conflict_1`** Umar: “Where have you been the last couple of years? Don't you know of the brewing conflict?”
@@ -784,17 +784,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Oh. I must have you mixed up with someone else.” → “Oh. I must have you confused with someone else.”<br>· text: “Ok, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” → “OK, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” → “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…”<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …” |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “Appearently they decided the Guild wasn't the best option, so they tu…” → “Apparently they decided the Guild wasn't the best option, so they tur…”<br>· text: “What we have here? (Umar's face gets a smile while he admires the nec…” → “What we have here? (Umar's face gets a smile while he admires the nec…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” → “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…”<br>· text: “He asked me for my support, and asked of how to find Lodar.” → “He asked me for my support, and asked about how to find Lodar.” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “I expect more of you.That was your first mission inside the guild and…” → “I expect more of you. That was your first mission inside the guild an…”<br>· text: “What we have here? (Umar's face gets a smile while he admires the nec…” → “What we have here? (Umar's face gets a smile while he admires the nec…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “However, the Feygard presence is still significant. Be cautious with …” → “However, the Feygard presence is still significant. Be cautious with …” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…” |
 | [v0.7.14](../versions/0.7.14.md) | Dialogue: 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favourite mead. Now you …” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 35 lines added, 2 lines changed |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed |
 | [v0.8.6](../versions/0.8.6.md) | Dialogue: 1 line changed<br>· text: “Fortunately, one of my men found one of his drunk men and had a short…” → “Fortunately, one of my men found one of his drunk men and had a short…” |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “[Here, the story continues]” → “You are really very hardworking. I can't find new work for you fast e…” |
-| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…”<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…”<br>· text: “He said that they will no longer be a part of the thieves guild. They…” → “He said that they will no longer be a part of the Thieves' Guild. The…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Such a dishonorable act for they stole 50000 gold coins including the…” → “Such a dishonorable act for they stole {50000} gold coins including t…”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

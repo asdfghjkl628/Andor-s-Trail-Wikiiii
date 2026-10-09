@@ -36,7 +36,7 @@ description: "Curative potion against mushroom wounding is a ordinary potion in 
 
 ### Quest & dialogue rewards
 
-- From [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) during [Fungi panic](../quests/fungi_panic.md#stage-50) (1×)
+- From [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) during [Fungi panic](../quests/fungi_panic.md#stage-50) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -47,7 +47,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) | [Fungi panic](../quests/fungi_panic.md#stage-52) | handed over (1×) | “Yes, I have got a potion for you.” |
+| [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) | [Fungi panic](../quests/fungi_panic.md#stage-52) | handed over (1×) | “Yes, I have got a potion for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

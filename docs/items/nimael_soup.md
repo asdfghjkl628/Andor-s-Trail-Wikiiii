@@ -36,7 +36,7 @@ description: "Nimael's vegetable soup is a rare food in Andor's Trail. How to ge
 
 ### Quest & dialogue rewards
 
-- From [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-110) (2×)
+- From [Nimael](../monsters/nimael.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) during [Delicious soup](../quests/gison_soup.md#stage-110) (2×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -47,7 +47,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)) | – | must be carried (1×) | “(automatic)” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

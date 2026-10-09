@@ -11,7 +11,7 @@ description: "Elm 4f 5 is an indoor location in Andor's Trail. NPCs: Shadowfang.
 | **Map ID** | `elm_4f_5` |
 | **Type** | Indoors / underground |
 | **Size** | 20×21 tiles |
-| **World map** | [Elm4f](index.md) |
+| **World map** | [Elm 4f](index.md) |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 9 |
@@ -66,7 +66,7 @@ description: "Elm 4f 5 is an indoor location in Andor's Trail. NPCs: Shadowfang.
 
 ## Quests
 
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): blocked passage opens at stage 11
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): blocked passage opens at stage 11
 
 ## Points of interest
 

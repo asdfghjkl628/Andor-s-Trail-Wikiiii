@@ -50,8 +50,8 @@ description: "Amphibian whip is a ordinary whip in Andor's Trail (Attack damage 
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 50%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

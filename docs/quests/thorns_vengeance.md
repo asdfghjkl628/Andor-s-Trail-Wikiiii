@@ -11,9 +11,9 @@ description: "The thorns of vengeance is a quest in Andor's Trail, started by Ar
 | **Quest ID** | `thorns_vengeance` |
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 32, 76, 90) |
-| **Started by** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) |
-| **NPCs involved** | [Aryfora](../monsters/stoutford_widow.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Blornvale](../monsters/stoutford_alchemist.md), [Tahalendor](../monsters/tahalendor.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) |
-| **Locations** | [stoutford_church](../maps/stoutford_church.md), [stoutford_gate](../maps/stoutford_gate.md), [stoutford_potion](../maps/stoutford_potion.md) |
+| **Started by** | [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) |
+| **NPCs involved** | [Aryfora](../monsters/stoutford_widow.md), [Blornvale](../monsters/stoutford_alchemist.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Tahalendor](../monsters/tahalendor.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) |
+| **Locations** | [Stoutford church](../maps/stoutford_church.md), [Stoutford gate](../maps/stoutford_gate.md), [Stoutford potion](../maps/stoutford_potion.md) |
 | **Total XP** | 6,005 |
 | **Related quests** | 3 |
 
@@ -25,7 +25,7 @@ description: "The thorns of vengeance is a quest in Andor's Trail, started by Ar
 
 ## Prerequisites to start
 
-Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)). Required:
+Start with [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)). Required:
 
 - reached stage 45 of [The roots of love](../quests/roots_love.md#stage-45)
 - used 1× [Potion of deftness](../items/potion_deftness.md)
@@ -41,99 +41,212 @@ Start with [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/s
 |---|---|---|
 | Requires | [The roots of love](roots_love.md#stage-45) | stage 45 reached, for stage 10 here |
 | Requires | [Rumblings](rumblings.md#stage-106) | stage 106 reached, for stage 65 here |
-| Unlocks | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-202) | stage 202 there needs stage 20 here |
+| Unlocks | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-202) | stage 202 there needs stage 20 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Aryfora in Stoutford needs my help to prove her uncle, Blornvale, Stoutford's alchemist, killed her father. | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | – |
-| <span id="stage-20"></span>20 | She needs me to purchase three potions of the brave from Blornvale and return to her. | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 10 | spawns monsters on stoutford_sw |
-| <span id="stage-30"></span>30 | I have returned with the three potions, and gave them to her. | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | hand over 3× [Potion of the brave](../items/potion_brave.md), stage 20 | – |
-| <span id="stage-32"></span>32 | I decided not to help Aryfora any further. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | carry 3× [Potion of the brave](../items/potion_brave.md), stage 20 | 500 XP |
-| <span id="stage-40"></span>40 | She gave me a potion of truth. | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 30 | gives 1× [Potion of truth](../items/potion_truth.md) |
-| <span id="stage-50"></span>50 | She wants me to give that potion to Blornvale, and make him confess his crimes. I should have Tahalendor as a witness. | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 40 | – |
-| <span id="stage-60"></span>60 | I agreed to make Blornvale drink that potion. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-65"></span>65 | Tahalendor agreed to go with me to the alchemist's house to hear Blornvale's confession. | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) | stage 50 | – |
-| <span id="stage-70"></span>70 | Blornvale drank the potion. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | carry 1× [Potion of truth](../items/potion_truth.md), hand over 1× [Potion of truth](../items/potion_truth.md) | 1,500 XP |
-| <span id="stage-71"></span>71 | Tahalendor came to hear Blornvale's confession. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | – | spawns monsters on stoutford_potion |
-| <span id="stage-72"></span>72 | Blornvale confessed to killing Aryfora's father. Unfortunately there is no witness. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 70 | – |
-| <span id="stage-74"></span>74 | Blornvale now understands what I was trying to do. I will no longer be able to help Aryfora get back her shop. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) | carry 1× [Potion of truth](../items/potion_truth.md), stage 72 | – |
-| <span id="stage-75"></span>75 | Tahalendor wouldn't believe my story. I will no longer be able to help Aryfora get back her shop. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 72 | – |
-| <span id="stage-76"></span>76 | It's all my fault that Aryfora is crying now. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | 5 XP |
-| <span id="stage-80"></span>80 | Blornvale confessed to killing Aryfora's father in the presence of Tahalendor. | [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md))<br>[Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) | stage 71 | removes monsters from stoutford_potion |
-| <span id="stage-90"></span>90 | Aryfora regained her father's shop. **(completes quest)** | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | stage 80 | 4,000 XP<br>removes monsters from stoutford_gate<br>spawns monsters on stoutford_potion |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Aryfora in Stoutford needs my help to prove her uncle, Blornvale,… ▸</span><span class="l">▴ less</span></summary>Aryfora in Stoutford needs my help to prove her uncle, Blornvale, Stoutford's alchemist, killed her father.</details> | [Aryfora](../monsters/stoutford_widow.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">She needs me to purchase three potions of the brave from Blornvale… ▸</span><span class="l">▴ less</span></summary>She needs me to purchase three potions of the brave from Blornvale and return to her.</details> | [Aryfora](../monsters/stoutford_widow.md) | spawns monsters on stoutford_sw |
+| <span id="stage-30"></span>[30](#route-30) | I have returned with the three potions, and gave them to her. | [Aryfora](../monsters/stoutford_widow.md) | – |
+| <span id="stage-32"></span>[32](#route-32) | I decided not to help Aryfora any further. **(ends quest)** | [Aryfora](../monsters/stoutford_widow.md) | 500 XP |
+| <span id="stage-40"></span>[40](#route-40) | She gave me a potion of truth. | [Aryfora](../monsters/stoutford_widow.md) | 1× [Potion of truth](../items/potion_truth.md) |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">She wants me to give that potion to Blornvale, and make him confess… ▸</span><span class="l">▴ less</span></summary>She wants me to give that potion to Blornvale, and make him confess his crimes. I should have Tahalendor as a witness.</details> | [Aryfora](../monsters/stoutford_widow.md) | – |
+| <span id="stage-60"></span>60 | I agreed to make Blornvale drink that potion. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-65"></span>[65](#route-65) | <details class="jt"><summary><span class="s">Tahalendor agreed to go with me to the alchemist's house to hear… ▸</span><span class="l">▴ less</span></summary>Tahalendor agreed to go with me to the alchemist's house to hear Blornvale's confession.</details> | [Tahalendor](../monsters/tahalendor.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | Blornvale drank the potion. | [Blornvale](../monsters/stoutford_alchemist.md) | 1,500 XP |
+| <span id="stage-71"></span>[71](#route-71) | Tahalendor came to hear Blornvale's confession. | [Blornvale](../monsters/stoutford_alchemist.md) | spawns monsters on stoutford_potion |
+| <span id="stage-72"></span>[72](#route-72) | <details class="jt"><summary><span class="s">Blornvale confessed to killing Aryfora's father. Unfortunately there… ▸</span><span class="l">▴ less</span></summary>Blornvale confessed to killing Aryfora's father. Unfortunately there is no witness.</details> | [Blornvale](../monsters/stoutford_alchemist.md) | – |
+| <span id="stage-74"></span>[74](#route-74) | <details class="jt"><summary><span class="s">Blornvale now understands what I was trying to do. I will no longer… ▸</span><span class="l">▴ less</span></summary>Blornvale now understands what I was trying to do. I will no longer be able to help Aryfora get back her shop.</details> | [Blornvale](../monsters/stoutford_alchemist.md) | – |
+| <span id="stage-75"></span>[75](#route-75) | <details class="jt"><summary><span class="s">Tahalendor wouldn't believe my story. I will no longer be able to… ▸</span><span class="l">▴ less</span></summary>Tahalendor wouldn't believe my story. I will no longer be able to help Aryfora get back her shop.</details> | [Blornvale](../monsters/stoutford_alchemist.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) | – |
+| <span id="stage-76"></span>[76](#route-76) | It's all my fault that Aryfora is crying now. **(ends quest)** | [Aryfora](../monsters/stoutford_widow.md) | 5 XP |
+| <span id="stage-80"></span>[80](#route-80) | Blornvale confessed to killing Aryfora's father in the presence of Tahalendor. | [Blornvale](../monsters/stoutford_alchemist.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) | removes monsters from stoutford_potion, removes monsters from stoutford_potion |
+| <span id="stage-90"></span>[90](#route-90) | Aryfora regained her father's shop. **(ends quest)** | [Aryfora](../monsters/stoutford_widow.md) | 4,000 XP, removes monsters from stoutford_gate, spawns monsters on stoutford_potion |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “I can do it!” — **conditions:** reached stage 45 of [The roots of love](../quests/roots_love.md#stage-45); used 1× [Potion of deftness](../items/potion_deftness.md) → **stage 10**. NPC: “Then it's settled.”
+??? note "Stage 10 · Aryfora · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), choose “I can do it!”
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “What will you do with them?” — **conditions:** reached stage 10 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-10) → **stage 20**; also spawns monsters on stoutford_sw. NPC: “That is why you must get the potions of the brave from Blornvale. Oh how I hate that name! Be quick.”
+    - **Needs:** reached stage 45 of [The roots of love](../quests/roots_love.md#stage-45); used 1× [Potion of deftness](../items/potion_deftness.md)
+    - *“Then it's settled.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “Yes, here they are.” — **conditions:** reached stage 20 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-20); hand over 3× [Potion of the brave](../items/potion_brave.md) → **stage 30**. NPC: “Great! This will finally break him.”
+<span id="route-20"></span>
 
-???+ note "Stage 32: 1 route"
+??? note "Stage 20 · Aryfora · 1 way"
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “I don't quit think so. He is an honest person.” — **conditions:** reached stage 20 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-20); carry 3× [Potion of the brave](../items/potion_brave.md) → **stage 32**. NPC: “I would not have expected that from you!”
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), choose “What will you do with them?”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** stage 10
+    - **Gives:** spawns monsters on stoutford_sw
+    - *“That is why you must get the potions of the brave from Blornvale. Oh how I hate that name! Be quick.”*
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-30) → **stage 40**; also gives 1× [Potion of truth](../items/potion_truth.md). NPC: “Now I take three potions of the brave *chanting* ... add my prepared ingredients *chanting* ... shake it *chanting*…”
 
-???+ note "Stage 50: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “But who would believe me, a stranger?” — **conditions:** reached stage 40 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-40) → **stage 50**. NPC: “Best would be Tahalendor himself. Yes, you must persuade the priest to be present when Blornvale tells the whole story.”
+??? note "Stage 30 · Aryfora · 1 way"
 
-???+ note "Stage 65: 1 route"
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), choose “Yes, here they are.”
 
-    1. Talk to [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) → choose “Would you come with me to talk to Blornvale? He wants to confess something important.” — **conditions:** reached stage 106 of [Rumblings](../quests/rumblings.md#stage-106); reached stage 50 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-50); NOT reached stage 65 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-65); NOT reached stage 74 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-74) → **stage 65**. NPC: “If I must. Well, go ahead, I'll be there when you get there.”
+    - **Needs:** stage 20; hand over 3× [Potion of the brave](../items/potion_brave.md)
+    - *“Great! This will finally break him.”*
 
-???+ note "Stage 70: 1 route"
 
-    1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → choose “Yes, here. I still have one bottle of your potion of the brave.” — **conditions:** carry 1× [Potion of truth](../items/potion_truth.md); NOT reached stage 200 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-200); hand over 1× [Potion of truth](../items/potion_truth.md) → **stage 70**. NPC: “Do you see me drinking? Yes? Anything wrong? No - this potion is just perfect!”
+<span id="route-32"></span>
 
-???+ note "Stage 71: 1 route"
+??? note "Stage 32 · Aryfora · 1 way"
 
-    1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71) → **stage 71**; also spawns monsters on stoutford_potion
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), choose “I don't quit think so. He is an honest person.”
 
-???+ note "Stage 72: 1 route"
+    - **Needs:** stage 20; carry 3× [Potion of the brave](../items/potion_brave.md)
+    - *“I would not have expected that from you!”*
 
-    1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → choose “How did you kill Aryfora's father, your own brother?” — **conditions:** reached stage 70 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-70); NOT reached stage 65 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-65) → **stage 72**. NPC: “He was naive enough to take a potion from me. I poisoned him with the potion of Quick Death.”
 
-???+ note "Stage 74: 2 routes"
+<span id="route-40"></span>
 
-    1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → choose “No, I poured all the rest away.” — **conditions:** carry 1× [Potion of truth](../items/potion_truth.md); NOT reached stage 200 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-200) → **stage 74**. NPC: “Then you can never prove it. That's good. Out now, leave my shop, you scum!”
-    2. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 72 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-72) → **stage 74**. NPC: “That was - a potion of truth! How dare you! Did you think I wouldn't recognize it?”
+??? note "Stage 40 · Aryfora · 1 way"
 
-???+ note "Stage 75: 2 routes"
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), automatic
 
-    1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 75 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-75) → **stage 75**. NPC: “And you child, go away now and tell no more fairy tales.”
-    2. Talk to [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) → choose “He lies. Can't you see?” — **conditions:** reached stage 72 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-72) → **stage 75**. NPC: “And you child, go away now and tell no more fairy tales.”
+    - **Needs:** stage 30
+    - **Gives:** 1× [Potion of truth](../items/potion_truth.md)
+    - *“Now I take three potions of the brave *chanting* ... add my prepared ingredients *chanting* ... shake it *chanting* ... shake it - ready.…”*
 
-???+ note "Stage 76: 1 route"
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → the conversation leads here automatically — **conditions:** reached stage 76 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-76) → **stage 76**. NPC: “Oh no! Now I will never get justice!”
+<span id="route-50"></span>
 
-???+ note "Stage 80: 2 routes"
+??? note "Stage 50 · Aryfora · 1 way"
 
-    1. Talk to [Blornvale](../monsters/stoutford_alchemist.md) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71) → **stage 80**; also removes monsters from stoutford_potion, removes monsters from stoutford_potion. NPC: “I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”
-    2. Talk to [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) ([stoutford_potion](../maps/stoutford_potion.md)) → the conversation leads here automatically — **conditions:** reached stage 71 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-71) → **stage 80**; also removes monsters from stoutford_potion, removes monsters from stoutford_potion. NPC: “I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), choose “But who would believe me, a stranger?”
 
-???+ note "Stage 90: 1 route"
+    - **Needs:** stage 40
+    - *“Best would be Tahalendor himself. Yes, you must persuade the priest to be present when Blornvale tells the whole story.”*
 
-    1. Talk to [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) → choose “Oh, that was just a trifle.” — **conditions:** reached stage 80 of [The thorns of vengeance](../quests/thorns_vengeance.md#stage-80) → **stage 90**; also removes monsters from stoutford_gate, spawns monsters on stoutford_potion. NPC: “Now I can move back into my father's house and create potions again. I will leave at once. Please come and visit me at…”
+
+<span id="route-65"></span>
+
+??? note "Stage 65 · Tahalendor · 1 way"
+
+    **Way 1:** Talk to [Tahalendor](../monsters/tahalendor.md), choose “Would you come with me to talk to Blornvale? He wants to confess something important.”
+
+    - **Needs:** stage 50; not yet stage 65, 74; reached stage 106 of [Rumblings](../quests/rumblings.md#stage-106)
+    - *“If I must. Well, go ahead, I'll be there when you get there.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Blornvale · 1 way"
+
+    **Way 1:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), choose “Yes, here. I still have one bottle of your potion of the brave.”
+
+    - **Needs:** not yet stage 200; carry 1× [Potion of truth](../items/potion_truth.md); hand over 1× [Potion of truth](../items/potion_truth.md)
+    - *“Do you see me drinking? Yes? Anything wrong? No - this potion is just perfect!”*
+
+
+<span id="route-71"></span>
+
+??? note "Stage 71 · Blornvale · 1 way"
+
+    **Way 1:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), automatic
+
+    - **Needs:** stage 71
+    - **Gives:** spawns monsters on stoutford_potion
+
+
+<span id="route-72"></span>
+
+??? note "Stage 72 · Blornvale · 1 way"
+
+    **Way 1:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), choose “How did you kill Aryfora's father, your own brother?”
+
+    - **Needs:** stage 70; not yet stage 65
+    - *“He was naive enough to take a potion from me. I poisoned him with the potion of Quick Death.”*
+
+
+<span id="route-74"></span>
+
+??? note "Stage 74 · Blornvale · 2 ways"
+
+    **Way 1:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), choose “No, I poured all the rest away.”
+
+    - **Needs:** not yet stage 200; carry 1× [Potion of truth](../items/potion_truth.md)
+    - *“Then you can never prove it. That's good. Out now, leave my shop, you scum!”*
+
+    **Way 2:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), automatic
+
+    - **Needs:** stage 72
+    - *“That was - a potion of truth! How dare you! Did you think I wouldn't recognize it?”*
+
+
+<span id="route-75"></span>
+
+??? note "Stage 75 · Blornvale, Tahalendor · 2 ways"
+
+    **Way 1:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), automatic
+
+    - **Needs:** stage 75
+    - *“And you child, go away now and tell no more fairy tales.”*
+
+    **Way 2:** Talk to [Tahalendor](../monsters/tahalendor.md#v-tahalendor2), choose “He lies. Can't you see?”
+
+    - **Needs:** stage 72
+    - *“And you child, go away now and tell no more fairy tales.”*
+
+
+<span id="route-76"></span>
+
+??? note "Stage 76 · Aryfora · 1 way"
+
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), automatic
+
+    - **Needs:** stage 76
+    - *“Oh no! Now I will never get justice!”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Blornvale, Tahalendor · 2 ways"
+
+    **Way 1:** Talk to [Blornvale](../monsters/stoutford_alchemist.md), automatic
+
+    - **Needs:** stage 71
+    - **Gives:** removes monsters from stoutford_potion, removes monsters from stoutford_potion
+    - *“I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”*
+
+    **Way 2:** Talk to [Tahalendor](../monsters/tahalendor.md#v-tahalendor2), automatic
+
+    - **Needs:** stage 71
+    - **Gives:** removes monsters from stoutford_potion, removes monsters from stoutford_potion
+    - *“I have heard enough. Thank you, kid. I will ensure that Blornvale never makes trouble again.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Aryfora · 1 way"
+
+    **Way 1:** Talk to [Aryfora](../monsters/stoutford_widow.md), choose “Oh, that was just a trifle.”
+
+    - **Needs:** stage 80
+    - **Gives:** removes monsters from stoutford_gate, spawns monsters on stoutford_potion
+    - *“Now I can move back into my father's house and create potions again. I will leave at once. Please come and visit me at any time.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

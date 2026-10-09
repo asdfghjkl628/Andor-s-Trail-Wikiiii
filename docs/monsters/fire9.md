@@ -1,10 +1,10 @@
 ---
-description: "Ancient walking inferno is an enemy in Andor's Trail (construct) with 135 HP, worth 337 XP, found in lostmine11. Drops: Burnt ash, Glass gem."
+description: "Ancient walking inferno is an enemy in Andor's Trail (construct) with 135 HP, worth 337 XP, found in Lostmine 11. Drops: Burnt ash, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_36.png){ .sprite } Ancient walking inferno
 
-**Found in:** [lostmine11](../maps/lostmine11.md)
+**Found in:** [Lostmine 11](../maps/lostmine11.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient walking inferno is an enemy in Andor's Trail (construct) w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lostmine11 |
+| **Found in** | Lostmine 11 |
 | **Class** | Construct |
 | **HP** | 135 |
 | **XP when defeated** | 337 |
@@ -61,7 +61,7 @@ description: "Ancient walking inferno is an enemy in Andor's Trail (construct) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine11](../maps/lostmine11.md) | – | 3 | – |
+| [Lostmine 11](../maps/lostmine11.md) | – | 3 | – |
 
 
 ## Version history

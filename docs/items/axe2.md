@@ -52,8 +52,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| reading a sign on [gapfiller2](../maps/gapfiller2.md) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-21) | must be carried (1×) | “(automatic)” |
-| reading a sign on [gapfiller2](../maps/gapfiller2.md) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-21) | must be worn (1×) | “(automatic)” |
+| reading a sign on [Gapfiller 2](../maps/gapfiller2.md) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-21) | must be carried (1×) | “(automatic)” |
+| reading a sign on [Gapfiller 2](../maps/gapfiller2.md) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-21) | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

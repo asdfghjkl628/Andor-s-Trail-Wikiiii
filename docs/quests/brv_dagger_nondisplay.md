@@ -1,8 +1,8 @@
 ---
-description: "brv_dagger_nondisplay is a hidden quest in Andor's Trail, started by stepping on a trigger on brimhaven_inn_east. 4 stages. Purchased gem"
+description: "Brimhaven dagger story flags is a hidden quest in Andor's Trail, started by stepping on a trigger on brimhaven_inn_east. 4 stages. Purchased gem"
 ---
 
-# brv_dagger_nondisplay
+# Brimhaven dagger story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "brv_dagger_nondisplay is a hidden quest in Andor's Trail, started 
 | **Quest ID** | `brv_dagger_nondisplay` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 4 |
-| **Started by** | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md), stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) |
+| **Started by** | stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md), stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) |
 | **NPCs involved** | [Pixtumn](../monsters/quiet_thief.md) |
-| **Locations** | [brimhaven_inn_east](../maps/brimhaven_inn_east.md) |
+| **Locations** | [Brimhaven inn east](../maps/brimhaven_inn_east.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -27,11 +27,11 @@ description: "brv_dagger_nondisplay is a hidden quest in Andor's Trail, started 
 
 ## Prerequisites to start
 
-**Route 1** (stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md)):
+**Route 1** (stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md)):
 
 - carry 1× [A strange-looking gem](../items/strange_gem.md)
 
-**Route 2** (stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md)):
+**Route 2** (stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md)):
 
 - carry 1× [A strange looking dagger](../items/strange_dagger.md)
 - carry 1× [A strange-looking gem](../items/strange_gem.md)
@@ -55,36 +55,72 @@ description: "brv_dagger_nondisplay is a hidden quest in Andor's Trail, started 
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Purchased gem<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven inn east](../maps/brimhaven_inn_east.md).</span> | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | carry 1× [A strange looking dagger](../items/strange_dagger.md), carry 1× [A strange-looking gem](../items/strange_gem.md) | – |
-| <span id="stage-20"></span>20 | Purchased knife<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven inn east](../maps/brimhaven_inn_east.md).</span> | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) | carry 1× [A strange looking dagger](../items/strange_dagger.md), carry 1× [A strange-looking gem](../items/strange_gem.md) | – |
-| <span id="stage-30"></span>30 | purchased knife the hard way. | [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) | pay 1,000 gold, stage 10 | gives 1× [A strange looking dagger](../items/strange_dagger.md) |
-| <span id="stage-40"></span>40 | purchased gem the hard way. | [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) | pay 1,500 gold, stage 20 | gives 1× [A strange-looking gem](../items/strange_gem.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | Purchased gem<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven inn east](../maps/brimhaven_inn_east.md).</span> | stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Purchased knife<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven inn east](../maps/brimhaven_inn_east.md).</span> | stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | purchased knife the hard way. | [Pixtumn](../monsters/quiet_thief.md) | 1× [A strange looking dagger](../items/strange_dagger.md) |
+| <span id="stage-40"></span>[40](#route-40) | purchased gem the hard way. | [Pixtumn](../monsters/quiet_thief.md) | 1× [A strange-looking gem](../items/strange_gem.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 2 routes"
+<span id="route-10"></span>
 
-    1. stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) → the conversation leads here automatically — **conditions:** carry 1× [A strange-looking gem](../items/strange_gem.md) → **stage 10**
-    2. stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) → the conversation leads here automatically — **conditions:** carry 1× [A strange looking dagger](../items/strange_dagger.md); carry 1× [A strange-looking gem](../items/strange_gem.md) → **stage 10**
+??? note "Stage 10 · stepping on a trigger on brimhaven_inn_east · 2 ways"
 
-???+ note "Stage 20: 2 routes"
+    **Way 1:** Stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
-    1. stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) → the conversation leads here automatically — **conditions:** carry 1× [A strange looking dagger](../items/strange_dagger.md) → **stage 20**
-    2. stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) → the conversation leads here automatically — **conditions:** carry 1× [A strange-looking gem](../items/strange_gem.md); carry 1× [A strange looking dagger](../items/strange_dagger.md) → **stage 20**
+    - **Needs:** carry 1× [A strange-looking gem](../items/strange_gem.md)
 
-???+ note "Stage 30: 1 route"
+    **Way 2:** Stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
-    1. Talk to [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) → choose “I don't think it's fair, but I'll pay it.” — **conditions:** NOT reached stage 30 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); reached stage 30 of [A strange looking dagger](../quests/brv_dagger.md#stage-30); reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); NOT reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); pay 1,000 gold → **stage 30**; also gives 1× [A strange looking dagger](../items/strange_dagger.md). NPC: “Here you go kid.”
+    - **Needs:** carry 1× [A strange looking dagger](../items/strange_dagger.md); carry 1× [A strange-looking gem](../items/strange_gem.md)
 
-???+ note "Stage 40: 1 route"
 
-    1. Talk to [Pixtumn](../monsters/quiet_thief.md) ([brimhaven_inn_east](../maps/brimhaven_inn_east.md)) → choose “I don't think it's fair, but I'll pay it.” — **conditions:** NOT reached stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40); reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40); reached stage 20 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-20); NOT reached stage 10 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-10); pay 1,500 gold → **stage 40**; also gives 1× [A strange-looking gem](../items/strange_gem.md). NPC: “Here you go kid”
+<span id="route-20"></span>
+
+??? note "Stage 20 · stepping on a trigger on brimhaven_inn_east · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md)
+
+    - **Needs:** carry 1× [A strange looking dagger](../items/strange_dagger.md)
+
+    **Way 2:** Stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md)
+
+    - **Needs:** carry 1× [A strange-looking gem](../items/strange_gem.md); carry 1× [A strange looking dagger](../items/strange_dagger.md)
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Pixtumn · 1 way"
+
+    **Way 1:** Talk to [Pixtumn](../monsters/quiet_thief.md), choose “I don't think it's fair, but I'll pay it.”
+
+    - **Needs:** stage 10; not yet stage 20, 30; reached stage 30 of [A strange looking dagger](../quests/brv_dagger.md#stage-30); pay 1,000 gold
+    - **Gives:** 1× [A strange looking dagger](../items/strange_dagger.md)
+    - *“Here you go kid.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Pixtumn · 1 way"
+
+    **Way 1:** Talk to [Pixtumn](../monsters/quiet_thief.md), choose “I don't think it's fair, but I'll pay it.”
+
+    - **Needs:** stage 20; not yet stage 10, 40; reached stage 40 of [A strange looking dagger](../quests/brv_dagger.md#stage-40); pay 1,500 gold
+    - **Gives:** 1× [A strange-looking gem](../items/strange_gem.md)
+    - *“Here you go kid”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -129,6 +165,7 @@ description: "brv_dagger_nondisplay is a hidden quest in Andor's Trail, started 
     | | |
     |---|---|
     | Quest ID | `brv_dagger_nondisplay` |
+    | Name in game data | `brv_dagger_nondisplay` |
     | showInLog | 0 |
     | Stage IDs | 10, 20, 30, 40 |
     | Dialogue nodes setting stages | 10: `brv_thief_1`, 10: `brv_thief_2a`, 20: `brv_thief_2`, 20: `brv_thief_1a`, 30: `quiet_thief_2_4`, 40: `quiet_thief_3_4` |

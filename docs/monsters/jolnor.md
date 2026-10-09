@@ -4,7 +4,7 @@ description: "Jolnor is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } Jolnor
 
-**Where to find Jolnor:** Vilegard: [vilegard_chapel](../maps/vilegard_chapel.md#pin-npc-jolnor)
+**Where to find Jolnor:** Vilegard: [Vilegard chapel](../maps/vilegard_chapel.md#pin-npc-jolnor)
 
 <div class="infobox" markdown>
 
@@ -45,7 +45,7 @@ description: "Jolnor is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jolnor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jolnor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/jolnor_select_1.json" data-npc="Jolnor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (61 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-jolnor_select_1"></span>**`jolnor_select_1`** *(silent check: the first matching branch below is taken)*
 

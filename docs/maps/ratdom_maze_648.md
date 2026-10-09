@@ -89,10 +89,10 @@ description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrin
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
+| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost3) | 0 | 0–0 | 2 | shares spawn with Ghost |
+| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost2) | 0 | 0–0 | 4 | – |
 | [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost1) | 0 | 0–0 | 2 | shares spawn with Ghost |
 | [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost4) | 0 | 0–0 | 2 | – |
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost2) | 0 | 0–0 | 4 | – |
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost3) | 0 | 0–0 | 2 | shares spawn with Ghost |
 | [Ghost](../monsters/ratdom_ghost.md) | 0 | 0–0 | 1 | – |
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
@@ -104,8 +104,8 @@ description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrin
 
 - [Rats!](../quests/mikhail_rats.md): a scripted event can trigger here from stage 100
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
-- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10; part of the map changes at stage 81; part of the map changes at stage 82; part of the map changes at stage 83; part of the map changes at stage 84; something on this map advances it; stepping on a trigger here sets stage 81; stepping on a trigger here sets stage 82; stepping on a trigger here sets stage 83; stepping on a trigger here sets stage 84
+- [Ratdom maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10; part of the map changes at stage 81; part of the map changes at stage 82; part of the map changes at stage 83; part of the map changes at stage 84; something on this map advances it; stepping on a trigger here sets stage 81; stepping on a trigger here sets stage 82; stepping on a trigger here sets stage 83; stepping on a trigger here sets stage 84
 
 ## Points of interest
 

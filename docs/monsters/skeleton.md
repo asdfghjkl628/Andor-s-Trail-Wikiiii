@@ -22,22 +22,22 @@ description: "Skeleton is an NPC who can also be fought in Andor's Trail, found 
 </div>
 
 !!! info "6 entries in the game data"
-    The game's data files define 6 separate characters named Skeleton. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 6 separate characters named Skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`skeleton`](#v-skeleton) | Enemy | Flagstone Prison: [flagstone2](../maps/flagstone2.md), [hauntedhouse3](../maps/hauntedhouse3.md) (+1 more) | – | 35 |
-| [`guynmart_skeleton`](#v-guynmart_skeleton) | Enemy | Guynmart Castle: [guynmart_passage](../maps/guynmart_passage.md) | – | 60 |
-| [`guynmart_skeleton2`](#v-guynmart_skeleton2) | NPC/Enemy | Guynmart Castle: [guynmart_passage](../maps/guynmart_passage.md#pin-npc-guynmart_skeleton2) | – | 60 |
-| [`ratdom_skeleton1`](#v-ratdom_skeleton1) | NPC/Enemy | Bloskelt + Roskelt: [ratdom_maze_415](../maps/ratdom_maze_415.md#pin-npc-ratdom_skeleton1), Bloskelt + Roskelt: [ratdom_maze_425](../maps/ratdom_maze_425.md#pin-npc-ratdom_skeleton1) | – | 60 |
-| [`ratdom_skeleton2`](#v-ratdom_skeleton2) | NPC/Enemy | Bloskelt + Roskelt: [ratdom_maze_416](../maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton2), Bloskelt + Roskelt: [ratdom_maze_426](../maps/ratdom_maze_426.md#pin-npc-ratdom_skeleton2) | – | 60 |
-| [`stn_colonel_mons2`](#v-stn_colonel_mons2) | Enemy | Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md) | – | 100 |
+| [`skeleton`](#v-skeleton) | Enemy | Flagstone Prison: [Flagstone 2](../maps/flagstone2.md), [Hauntedhouse 3](../maps/hauntedhouse3.md) (+1 more) | – | 35 |
+| [`guynmart_skeleton`](#v-guynmart_skeleton) | Enemy | Guynmart Castle: [Guynmart passage](../maps/guynmart_passage.md) | – | 60 |
+| [`guynmart_skeleton2`](#v-guynmart_skeleton2) | NPC/Enemy | Guynmart Castle: [Guynmart passage](../maps/guynmart_passage.md#pin-npc-guynmart_skeleton2) | – | 60 |
+| [`ratdom_skeleton1`](#v-ratdom_skeleton1) | NPC/Enemy | Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md#pin-npc-ratdom_skeleton1), Bloskelt + Roskelt: [Ratdom maze 425](../maps/ratdom_maze_425.md#pin-npc-ratdom_skeleton1) | – | 60 |
+| [`ratdom_skeleton2`](#v-ratdom_skeleton2) | NPC/Enemy | Bloskelt + Roskelt: [Ratdom maze 416](../maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton2), Bloskelt + Roskelt: [Ratdom maze 426](../maps/ratdom_maze_426.md#pin-npc-ratdom_skeleton2) | – | 60 |
+| [`stn_colonel_mons2`](#v-stn_colonel_mons2) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
 
-## Flagstone Prison, Flagstone2 and 2 more (skeleton) { #v-skeleton }
+## Flagstone Prison, Flagstone 2 and 2 more (skeleton) { #v-skeleton }
 
 **Entry ID:** `skeleton` · **Type:** Enemy
 
-**Location:** Flagstone Prison: [flagstone2](../maps/flagstone2.md), [hauntedhouse3](../maps/hauntedhouse3.md), [hauntedhouse4](../maps/hauntedhouse4.md)
+**Location:** Flagstone Prison: [Flagstone 2](../maps/flagstone2.md), [Hauntedhouse 3](../maps/hauntedhouse3.md), [Hauntedhouse 4](../maps/hauntedhouse4.md)
 
 ### Combat statistics
 
@@ -77,9 +77,9 @@ description: "Skeleton is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
-| [hauntedhouse3](../maps/hauntedhouse3.md) | – | 2 | – |
-| [hauntedhouse4](../maps/hauntedhouse4.md) | – | 1 | – |
+| [Flagstone 2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
+| [Hauntedhouse 3](../maps/hauntedhouse3.md) | – | 2 | – |
+| [Hauntedhouse 4](../maps/hauntedhouse4.md) | – | 1 | – |
 
 
 ### Version history
@@ -133,7 +133,7 @@ description: "Skeleton is an NPC who can also be fought in Andor's Trail, found 
 
 **Entry ID:** `guynmart_skeleton` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_passage](../maps/guynmart_passage.md)
+**Location:** Guynmart Castle: [Guynmart passage](../maps/guynmart_passage.md)
 
 ### Combat statistics
 
@@ -171,7 +171,7 @@ description: "Skeleton is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_passage](../maps/guynmart_passage.md) | Guynmart Castle | 3 | – |
+| [Guynmart passage](../maps/guynmart_passage.md) | Guynmart Castle | 3 | – |
 
 
 ### Version history
@@ -224,7 +224,7 @@ description: "Skeleton is an NPC who can also be fought in Andor's Trail, found 
 
 **Entry ID:** `guynmart_skeleton2` · **Type:** NPC/Enemy
 
-**Location:** Guynmart Castle: [guynmart_passage](../maps/guynmart_passage.md#pin-npc-guynmart_skeleton2)
+**Location:** Guynmart Castle: [Guynmart passage](../maps/guynmart_passage.md#pin-npc-guynmart_skeleton2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -265,11 +265,11 @@ description: "Skeleton is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_passage](../maps/guynmart_passage.md) | Guynmart Castle | 3 | Appears later, during a quest |
+| [Guynmart passage](../maps/guynmart_passage.md) | Guynmart Castle | 3 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_skeleton2_10.json" data-npc="Skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -277,7 +277,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_skeleton2-guynmart_skeleton2_10"></span>**`guynmart_skeleton2_10`** Skeleton: “The ring. This human wears the ring of bone. Let him pass.”
 
@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_skeleton1` · **Type:** NPC/Enemy
 
-**Location:** Bloskelt + Roskelt: [ratdom_maze_415](../maps/ratdom_maze_415.md#pin-npc-ratdom_skeleton1), Bloskelt + Roskelt: [ratdom_maze_425](../maps/ratdom_maze_425.md#pin-npc-ratdom_skeleton1)
+**Location:** Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md#pin-npc-ratdom_skeleton1), Bloskelt + Roskelt: [Ratdom maze 425](../maps/ratdom_maze_425.md#pin-npc-ratdom_skeleton1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -370,12 +370,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_415](../maps/ratdom_maze_415.md) | Bloskelt + Roskelt | 4 | – |
-| [ratdom_maze_425](../maps/ratdom_maze_425.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 415](../maps/ratdom_maze_415.md) | Bloskelt + Roskelt | 4 | – |
+| [Ratdom maze 425](../maps/ratdom_maze_425.md) | Bloskelt + Roskelt | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_skeleton1.json" data-npc="Skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -383,7 +383,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_skeleton1-ratdom_skeleton1"></span>**`ratdom_skeleton1`** *(silent check: the first matching branch below is taken)*
 
@@ -452,7 +452,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_skeleton2` · **Type:** NPC/Enemy
 
-**Location:** Bloskelt + Roskelt: [ratdom_maze_416](../maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton2), Bloskelt + Roskelt: [ratdom_maze_426](../maps/ratdom_maze_426.md#pin-npc-ratdom_skeleton2)
+**Location:** Bloskelt + Roskelt: [Ratdom maze 416](../maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton2), Bloskelt + Roskelt: [Ratdom maze 426](../maps/ratdom_maze_426.md#pin-npc-ratdom_skeleton2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -486,12 +486,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 4 | – |
-| [ratdom_maze_426](../maps/ratdom_maze_426.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 4 | – |
+| [Ratdom maze 426](../maps/ratdom_maze_426.md) | Bloskelt + Roskelt | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Skeleton. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Skeleton. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_skeleton2.json" data-npc="Skeleton" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -499,7 +499,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_skeleton2-ratdom_skeleton2"></span>**`ratdom_skeleton2`** *(silent check: the first matching branch below is taken)*
 
@@ -559,11 +559,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Waytogalmore0 (stn_colonel_mons2) { #v-stn_colonel_mons2 }
+## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons2) { #v-stn_colonel_mons2 }
 
 **Entry ID:** `stn_colonel_mons2` · **Type:** Enemy
 
-**Location:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
 
 ### Combat statistics
 
@@ -594,11 +594,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-122) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-122) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
 
 
 ### Version history

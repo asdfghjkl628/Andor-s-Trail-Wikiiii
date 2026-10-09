@@ -79,13 +79,13 @@ description: "Home is an indoor location in Andor's Trail, in Crossglen (settlem
 - [Search for Andor](../quests/andor.md): [Mikhail](../monsters/mikhail.md) is involved; [Valentina](../monsters/crossglen_valentina.md) is involved; blocked passage closes at stage 1; blocked passage opens at stage 1
 - [Unusual experiences and achievements](../quests/achievements.md): [Mikhail](../monsters/mikhail.md) is involved
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved; something on this map advances it; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 999
-- [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): [Mikhail](../monsters/mikhail.md) is involved
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): [Mikhail](../monsters/mikhail.md) is involved
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Mikhail](../monsters/mikhail.md) is involved
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): [Mikhail](../monsters/mikhail.md) is involved
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; part of the map changes at stage 1; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): something on this map advances it; stepping on a trigger here sets stage 26
-- [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md): part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8
+- [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md): [Mikhail](../monsters/mikhail.md) is involved
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Mikhail](../monsters/mikhail.md) is involved
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): [Mikhail](../monsters/mikhail.md) is involved
+- [General story flags (hidden flag)](../quests/nondisplay.md): [Mikhail](../monsters/mikhail.md) is involved
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; part of the map changes at stage 1; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): something on this map advances it; stepping on a trigger here sets stage 26
+- [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md): part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8
 
 ## Points of interest
 

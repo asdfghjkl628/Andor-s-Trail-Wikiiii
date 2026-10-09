@@ -34,7 +34,7 @@ description: "A single grape from Kalypso is a extraordinary food in Andor's Tra
 
 ### Found in containers
 
-- [mountainlake_sub](../maps/mountainlake_sub.md#container-0) (container 1, 100%)
+- [Mountainlake sub](../maps/mountainlake_sub.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

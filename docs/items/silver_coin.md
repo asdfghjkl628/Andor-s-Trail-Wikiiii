@@ -24,8 +24,8 @@ description: "Silver coin is a rare other in Andor's Trail. How to get it: conta
 
 ### Found in containers
 
-- [thieves_vault](../maps/thieves_vault.md#container-1) (container 2, 100%), Blackwater Mountain
-- [thieves_vault](../maps/thieves_vault.md#container-6) (container 7, 100%), Blackwater Mountain
+- [Thieves vault](../maps/thieves_vault.md#container-1) (container 2, 100%), Blackwater Mountain
+- [Thieves vault](../maps/thieves_vault.md#container-6) (container 7, 100%), Blackwater Mountain
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,9 +36,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (60×) | “[Lie]I have these bronze and silver coins that I "acquired" in a game of chance.” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | – | must be carried (60×) | “[Lie] I have these bronze and silver coins that I "acquired" in a game of chance” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-107) | handed over (5×) | “Well, something is better than nothing.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (60×) | “[Lie]I have these bronze and silver coins that I "acquired" in a game of chance.” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | – | must be carried (60×) | “[Lie] I have these bronze and silver coins that I "acquired" in a game of chance” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-107) | handed over (5×) | “Well, something is better than nothing.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

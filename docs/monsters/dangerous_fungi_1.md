@@ -1,10 +1,10 @@
 ---
-description: "Angry dangerous fungi is an enemy in Andor's Trail (animal) with 45 HP, worth 102 XP, found in mushroom_m3_2. Drops: Spores of the giant mushroom, Bogsten's mushroom."
+description: "Angry dangerous fungi is an enemy in Andor's Trail (animal) with 45 HP, worth 102 XP, found in Mushroom m 3 2. Drops: Spores of the giant mushroom, Bogsten's mushroom."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_5.png){ .sprite } Angry dangerous fungi
 
-**Found in:** [mushroom_m3_2](../maps/mushroom_m3_2.md)
+**Found in:** [Mushroom m 3 2](../maps/mushroom_m3_2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Angry dangerous fungi is an enemy in Andor's Trail (animal) with 4
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mushroom_m3_2 |
+| **Found in** | Mushroom m 3 2 |
 | **Class** | Animal |
 | **HP** | 45 |
 | **XP when defeated** | 102 |
@@ -57,11 +57,11 @@ description: "Angry dangerous fungi is an enemy in Andor's Trail (animal) with 4
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 3 | Appears later, during a quest |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 3 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [mushroom_m3_2](../maps/mushroom_m3_2.md) checks that at least 3 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Mushroom m 3 2](../maps/mushroom_m3_2.md) checks that at least 3 of these enemies have been defeated.
 
 
 ## Version history

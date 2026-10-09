@@ -1,8 +1,8 @@
 ---
-description: "Fields9 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). Enemies: Frantic forest wasp. Exits to Fields3, Fields8, Roadtocarntower1, Fields10."
+description: "Fields 9 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). Enemies: Frantic forest wasp. Exits to Fields 3, Fields 8, Roadtocarntower 1, Fields 10."
 ---
 
-# Fields9
+# Fields 9
 
 <div class="infobox" markdown>
 
@@ -12,30 +12,30 @@ description: "Fields9 is an outdoor location in Andor's Trail, near Crossroads G
 | **Region** | Near Crossroads Guardhouse (other) |
 | **Type** | Outdoors |
 | **Size** | 30×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Fields9** is an outdoor map, near Crossroads Guardhouse (other). It has no NPCs and 2 kinds of enemy. Exits lead to Fields3, Fields8, Roadtocarntower1, Fields10.
+**Fields 9** is an outdoor map, near Crossroads Guardhouse (other). It has no NPCs and 2 kinds of enemy. Exits lead to Fields 3, Fields 8, Roadtocarntower 1, Fields 10.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fields9.webp" alt="Map of Fields9" width="960" height="480" loading="lazy"><a id="place-east1" class="mo mo-mapchange" href="../fields8/#place-west1" title="Exit to Fields8" style="left:96.667%;top:6.667%;width:3.333%;height:13.333%"></a><a id="place-south" class="mo mo-mapchange" href="../roadtocarntower1/#place-north" title="Exit to Roadtocarntower1" style="left:3.333%;top:93.333%;width:93.333%;height:6.667%"></a><a id="place-north" class="mo mo-mapchange" href="../fields3/#place-south" title="Exit to Fields3" style="left:43.333%;top:0.000%;width:56.667%;height:6.667%"></a><a id="place-east2" class="mo mo-mapchange" href="../fields8/#place-west2" title="Exit to Fields8" style="left:96.667%;top:26.667%;width:3.333%;height:66.667%"></a><a id="place-west" class="mo mo-mapchange" href="../fields10/#place-east" title="Exit to Fields10" style="left:0.000%;top:73.333%;width:3.333%;height:20.000%"></a><span class="mo mo-spawn" title="Spawns: Frantic forest wasp" style="left:6.667%;top:26.667%;width:86.667%;height:60.000%"></span><span class="mo mo-spawn" title="Spawns: Frantic forest wasp" style="left:6.667%;top:26.667%;width:86.667%;height:60.000%"></span><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_unique" title="Frantic forest wasp" style="left:43.333%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_unique" title="Frantic forest wasp" style="left:30.000%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:83.333%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:33.333%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:76.667%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:86.667%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:33.333%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:73.333%;top:33.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="pin pin-exit" href="#key-1" style="left:71.667%;top:3.333%" title="Exit (north): to [Fields3](fields3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.333%;top:13.333%" title="Exit (northeast): to [Fields8](fields8.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:98.333%;top:60.000%" title="Exit (east): to [Fields8](fields8.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:50.000%;top:96.667%" title="Exit (south): to [Roadtocarntower1](roadtocarntower1.md)">4</a><a class="pin pin-exit" href="#key-5" style="left:1.667%;top:83.333%" title="Exit (west): to [Fields10](fields10.md)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/fields9.webp" alt="Map of Fields 9" width="960" height="480" loading="lazy"><a id="place-east1" class="mo mo-mapchange" href="../fields8/#place-west1" title="Exit to Fields 8" style="left:96.667%;top:6.667%;width:3.333%;height:13.333%"></a><a id="place-south" class="mo mo-mapchange" href="../roadtocarntower1/#place-north" title="Exit to Roadtocarntower 1" style="left:3.333%;top:93.333%;width:93.333%;height:6.667%"></a><a id="place-north" class="mo mo-mapchange" href="../fields3/#place-south" title="Exit to Fields 3" style="left:43.333%;top:0.000%;width:56.667%;height:6.667%"></a><a id="place-east2" class="mo mo-mapchange" href="../fields8/#place-west2" title="Exit to Fields 8" style="left:96.667%;top:26.667%;width:3.333%;height:66.667%"></a><a id="place-west" class="mo mo-mapchange" href="../fields10/#place-east" title="Exit to Fields 10" style="left:0.000%;top:73.333%;width:3.333%;height:20.000%"></a><span class="mo mo-spawn" title="Spawns: Frantic forest wasp" style="left:6.667%;top:26.667%;width:86.667%;height:60.000%"></span><span class="mo mo-spawn" title="Spawns: Frantic forest wasp" style="left:6.667%;top:26.667%;width:86.667%;height:60.000%"></span><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_unique" title="Frantic forest wasp" style="left:43.333%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_unique" title="Frantic forest wasp" style="left:30.000%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:83.333%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:33.333%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:76.667%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:86.667%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:33.333%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="mob" href="../../monsters/fieldwasp_0/#v-fieldwasp_2" title="Frantic forest wasp" style="left:73.333%;top:33.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Frantic forest wasp"></a><a class="pin pin-exit" href="#key-1" style="left:71.667%;top:3.333%" title="Exit (north): to [Fields 3](fields3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.333%;top:13.333%" title="Exit (northeast): to [Fields 8](fields8.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:98.333%;top:60.000%" title="Exit (east): to [Fields 8](fields8.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:50.000%;top:96.667%" title="Exit (south): to [Roadtocarntower 1](roadtocarntower1.md)">4</a><a class="pin pin-exit" href="#key-5" style="left:1.667%;top:83.333%" title="Exit (west): to [Fields 10](fields10.md)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Fields3](fields3.md) |
-    | <span id="key-2"></span>2 | Exit (northeast) | to [Fields8](fields8.md) |
-    | <span id="key-3"></span>3 | Exit (east) | to [Fields8](fields8.md) |
-    | <span id="key-4"></span>4 | Exit (south) | to [Roadtocarntower1](roadtocarntower1.md) |
-    | <span id="key-5"></span>5 | Exit (west) | to [Fields10](fields10.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Fields 3](fields3.md) |
+    | <span id="key-2"></span>2 | Exit (northeast) | to [Fields 8](fields8.md) |
+    | <span id="key-3"></span>3 | Exit (east) | to [Fields 8](fields8.md) |
+    | <span id="key-4"></span>4 | Exit (south) | to [Roadtocarntower 1](roadtocarntower1.md) |
+    | <span id="key-5"></span>5 | Exit (west) | to [Fields 10](fields10.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -44,11 +44,11 @@ description: "Fields9 is an outdoor location in Andor's Trail, near Crossroads G
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Fields3](fields3.md) | – | 1 |
-| Northeast | [Fields8](fields8.md) | Crossroads Guardhouse | 2 |
-| East | [Fields8](fields8.md) | Crossroads Guardhouse | 3 |
-| South | [Roadtocarntower1](roadtocarntower1.md) | Crossroads Guardhouse | 4 |
-| West | [Fields10](fields10.md) | – | 5 |
+| North | [Fields 3](fields3.md) | – | 1 |
+| Northeast | [Fields 8](fields8.md) | Crossroads Guardhouse | 2 |
+| East | [Fields 8](fields8.md) | Crossroads Guardhouse | 3 |
+| South | [Roadtocarntower 1](roadtocarntower1.md) | Crossroads Guardhouse | 4 |
+| West | [Fields 10](fields10.md) | – | 5 |
 
 ## Enemies
 

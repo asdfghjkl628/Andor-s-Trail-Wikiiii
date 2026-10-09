@@ -1,10 +1,10 @@
 ---
-description: "Plague-Lich is an enemy in Andor's Trail (undead) with 263 HP, worth 729 XP, found in undertell_10, undertell_11, undertell_21. Drops: Gold coins, Lich dust, Major potion of health."
+description: "Plague-Lich is an enemy in Andor's Trail (undead) with 263 HP, worth 729 XP, found in Undertell 10, Undertell 11, Undertell 21. Drops: Gold coins, Lich dust, Major potion of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_58.png){ .sprite } Plague-Lich
 
-**Found in:** [undertell_10](../maps/undertell_10.md), [undertell_11](../maps/undertell_11.md), [undertell_21](../maps/undertell_21.md), [undertell_3_lava_10](../maps/undertell_3_lava_10.md) (+7 more)
+**Found in:** [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 21](../maps/undertell_21.md), [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Plague-Lich is an enemy in Andor's Trail (undead) with 263 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_10, undertell_11, undertell_21 |
+| **Found in** | Undertell 10, Undertell 11, Undertell 21 |
 | **Class** | Undead |
 | **HP** | 263 |
 | **XP when defeated** | 729 |
@@ -60,17 +60,17 @@ description: "Plague-Lich is an enemy in Andor's Trail (undead) with 263 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_10](../maps/undertell_10.md) | – | 1 | – |
-| [undertell_11](../maps/undertell_11.md) | – | 1 | – |
-| [undertell_21](../maps/undertell_21.md) | – | 1 | – |
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 2 | – |
-| [undertell_4_00](../maps/undertell_4_00.md) | – | 1 | – |
-| [undertell_4_10](../maps/undertell_4_10.md) | – | 2 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 1 | – |
-| [undertell_7_00](../maps/undertell_7_00.md) | – | 4 | – |
-| [undertell_7_01](../maps/undertell_7_01.md) | – | 2 | – |
-| [undertell_7_10](../maps/undertell_7_10.md) | – | 2 | – |
-| [undertell_7_11](../maps/undertell_7_11.md) | – | 1 | – |
+| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
+| [Undertell 21](../maps/undertell_21.md) | – | 1 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 2 | – |
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 2 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 00](../maps/undertell_7_00.md) | – | 4 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 2 | – |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 2 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 1 | – |
 
 
 ## Version history

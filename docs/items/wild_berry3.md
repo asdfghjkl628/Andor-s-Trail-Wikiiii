@@ -36,11 +36,11 @@ description: "Wild red berries is a ordinary food in Andor's Trail. How to get i
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Aggressive bear](../monsters/cave_bear.md) | 100% | 2-3 | korhald_cave_bear |
+| [Aggressive bear](../monsters/cave_bear.md) | 100% | 2-3 | Korhald cave bear |
 
 ### Quest & dialogue rewards
 
-- From [Especially sweet berries](../monsters/wild_berry3.md) ([lodar19](../maps/lodar19.md)) (1×)
+- From [Especially sweet berries](../monsters/wild_berry3.md) ([Lodar 19](../maps/lodar19.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

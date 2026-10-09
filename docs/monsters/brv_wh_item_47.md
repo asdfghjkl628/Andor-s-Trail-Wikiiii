@@ -4,7 +4,7 @@ description: "Pretty porcelain figure is an enemy in Andor's Trail (humanoid) wi
 
 # ![](../assets/icons/monsters/items_misc_5_15.png){ .sprite } Pretty porcelain figure
 
-**Found in:** Brimhaven: [brimhaven_warehouse](../maps/brimhaven_warehouse.md)
+**Found in:** Brimhaven: [Brimhaven warehouse](../maps/brimhaven_warehouse.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Pretty porcelain figure is an enemy in Andor's Trail (humanoid) wi
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_warehouse](../maps/brimhaven_warehouse.md) | Brimhaven | 1 | – |
+| [Brimhaven warehouse](../maps/brimhaven_warehouse.md) | Brimhaven | 1 | – |
 
 
 ## Version history

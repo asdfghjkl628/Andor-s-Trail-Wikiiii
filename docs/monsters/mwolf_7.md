@@ -1,5 +1,5 @@
 ---
-description: "Strong mountain wolf is an enemy in Andor's Trail (animal) with 73 HP, worth 159–205 XP, found in mountainlake10, mountainlake11, waytolake10. Drops: Gold coins, Ruby gem, Meat, Animal hair."
+description: "Strong mountain wolf is an enemy in Andor's Trail (animal) with 73 HP, worth 159–205 XP, found in Mountainlake 10, Mountainlake 11, Waytolake 10. Drops: Gold coins, Ruby gem, Meat, Animal hair."
 ---
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Strong mountain wolf
@@ -11,7 +11,7 @@ description: "Strong mountain wolf is an enemy in Andor's Trail (animal) with 73
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake10, mountainlake11, waytolake10 |
+| **Found in** | Mountainlake 10, Mountainlake 11, Waytolake 10 |
 | **Class** | Animal |
 | **HP** | 73 |
 | **XP when defeated** | 159–205 |
@@ -21,18 +21,18 @@ description: "Strong mountain wolf is an enemy in Andor's Trail (animal) with 73
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Strong mountain wolf. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Strong mountain wolf. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`mwolf_7`](#v-mwolf_7) | Enemy | [mountainlake10](../maps/mountainlake10.md), [mountainlake11](../maps/mountainlake11.md) (+2 more) | – | 73 |
+| [`mwolf_7`](#v-mwolf_7) | Enemy | [Mountainlake 10](../maps/mountainlake10.md), [Mountainlake 11](../maps/mountainlake11.md) (+2 more) | – | 73 |
 | [`mountain_wolf_3`](#v-mountain_wolf_3) | Enemy | Not on a map | – | 73 |
 
-## Mountainlake10 and 3 more (mwolf_7) { #v-mwolf_7 }
+## Mountainlake 10 and 3 more (mwolf_7) { #v-mwolf_7 }
 
 **Entry ID:** `mwolf_7` · **Type:** Enemy
 
-**Location:** [mountainlake10](../maps/mountainlake10.md), [mountainlake11](../maps/mountainlake11.md), [waytolake10](../maps/waytolake10.md), [waytolake11](../maps/waytolake11.md)
+**Location:** [Mountainlake 10](../maps/mountainlake10.md), [Mountainlake 11](../maps/mountainlake11.md), [Waytolake 10](../maps/waytolake10.md), [Waytolake 11](../maps/waytolake11.md)
 
 ### Combat statistics
 
@@ -69,10 +69,10 @@ description: "Strong mountain wolf is an enemy in Andor's Trail (animal) with 73
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake10](../maps/mountainlake10.md) | – | 3 | – |
-| [mountainlake11](../maps/mountainlake11.md) | – | 6 | – |
-| [waytolake10](../maps/waytolake10.md) | – | 5 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 6 | – |
+| [Mountainlake 10](../maps/mountainlake10.md) | – | 3 | – |
+| [Mountainlake 11](../maps/mountainlake11.md) | – | 6 | – |
+| [Waytolake 10](../maps/waytolake10.md) | – | 5 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 6 | – |
 
 
 ### Version history

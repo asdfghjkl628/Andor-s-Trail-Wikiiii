@@ -26,7 +26,7 @@ description: "Sure step boots is a ordinary footwear, leather in Andor's Trail. 
 
 ### Sold by
 
-- [Bernhar](../monsters/bernhar.md) (arulirmountain1)
+- [Bernhar](../monsters/bernhar.md) (Arulirmountain 1)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,12 +37,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave3](../maps/arulircave3.md) | – | must be worn (1×) | “Good thing I put on these protective boots. Who knows what could have happened o” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave3](../maps/arulircave3.md) | – | must be worn (1×) | “My protective boots saved my life another time!” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave3](../maps/arulircave3.md) | – | must be worn (1×) | “I have to remember to thank Bernhar for the boots!” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave3](../maps/arulircave3.md) | – | must be worn (1×) | “I hope my boots are OK.” |
-| stepping on a trigger on [arulircave1](../maps/arulircave1.md), stepping on a trigger on [arulircave3](../maps/arulircave3.md) | – | must be worn (1×) | “Good footwear is a prerequisite for successful exploration!” |
-| stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 3](../maps/arulircave3.md) | – | must be worn (1×) | “Good thing I put on these protective boots. Who knows what could have happened o” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 3](../maps/arulircave3.md) | – | must be worn (1×) | “My protective boots saved my life another time!” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 3](../maps/arulircave3.md) | – | must be worn (1×) | “I have to remember to thank Bernhar for the boots!” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 3](../maps/arulircave3.md) | – | must be worn (1×) | “I hope my boots are OK.” |
+| stepping on a trigger on [Arulircave 1](../maps/arulircave1.md), stepping on a trigger on [Arulircave 3](../maps/arulircave3.md) | – | must be worn (1×) | “Good footwear is a prerequisite for successful exploration!” |
+| stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

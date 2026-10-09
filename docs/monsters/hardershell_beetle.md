@@ -4,7 +4,7 @@ description: "Hardershell beetle is an enemy in Andor's Trail (insect) with 54 H
 
 # ![](../assets/icons/monsters/monsters_guynmart_0.png){ .sprite } Hardershell beetle
 
-**Found in:** Foaming Flask Tavern: [beekeeper1](../maps/beekeeper1.md), Guynmart Castle: [gamjee_well_exit_a](../maps/gamjee_well_exit_a.md), [gamjee_well_1_2](../maps/gamjee_well_1_2.md), [gamjee_well_1_4](../maps/gamjee_well_1_4.md) (+4 more)
+**Found in:** Foaming Flask Tavern: [Beekeeper 1](../maps/beekeeper1.md), Guynmart Castle: [Gamjee well exit a](../maps/gamjee_well_exit_a.md), [Gamjee well 1 2](../maps/gamjee_well_1_2.md), [Gamjee well 1 4](../maps/gamjee_well_1_4.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -55,14 +55,14 @@ description: "Hardershell beetle is an enemy in Andor's Trail (insect) with 54 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [beekeeper1](../maps/beekeeper1.md) | Foaming Flask Tavern | 7 | – |
-| [gamjee_well_1_2](../maps/gamjee_well_1_2.md) | – | 2 | – |
-| [gamjee_well_1_4](../maps/gamjee_well_1_4.md) | – | 1 | – |
-| [gamjee_well_2_1](../maps/gamjee_well_2_1.md) | – | 1 | – |
-| [gamjee_well_4_1](../maps/gamjee_well_4_1.md) | – | 1 | – |
-| [gamjee_well_exit](../maps/gamjee_well_exit.md) | – | 3 | – |
-| [gamjee_well_exit_a](../maps/gamjee_well_exit_a.md) | Guynmart Castle | 1 | – |
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 3 | – |
+| [Beekeeper 1](../maps/beekeeper1.md) | Foaming Flask Tavern | 7 | – |
+| [Gamjee well 1 2](../maps/gamjee_well_1_2.md) | – | 2 | – |
+| [Gamjee well 1 4](../maps/gamjee_well_1_4.md) | – | 1 | – |
+| [Gamjee well 2 1](../maps/gamjee_well_2_1.md) | – | 1 | – |
+| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | – |
+| [Gamjee well exit](../maps/gamjee_well_exit.md) | – | 3 | – |
+| [Gamjee well exit a](../maps/gamjee_well_exit_a.md) | Guynmart Castle | 1 | – |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 3 | – |
 
 
 ## Version history

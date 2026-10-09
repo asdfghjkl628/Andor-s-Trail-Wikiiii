@@ -1,10 +1,10 @@
 ---
-description: "Demonic Arulir is an enemy in Andor's Trail (giant) with 750 HP, worth 970 XP, found in arulircave6. Drops: Arulir skin, Gold coins, Hunter's Sword, Blue Crystals."
+description: "Demonic Arulir is an enemy in Andor's Trail (giant) with 750 HP, worth 970 XP, found in Arulircave 6. Drops: Arulir skin, Gold coins, Hunter's Sword, Blue Crystals."
 ---
 
 # ![](../assets/icons/monsters/monsters_arulirs_14.png){ .sprite } Demonic Arulir
 
-**Found in:** [arulircave6](../maps/arulircave6.md)
+**Found in:** [Arulircave 6](../maps/arulircave6.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Demonic Arulir is an enemy in Andor's Trail (giant) with 750 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | arulircave6 |
+| **Found in** | Arulircave 6 |
 | **Class** | Giant |
 | **HP** | 750 |
 | **XP when defeated** | 970 |
@@ -60,7 +60,7 @@ description: "Demonic Arulir is an enemy in Andor's Trail (giant) with 750 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [arulircave6](../maps/arulircave6.md) | – | 2 | – |
+| [Arulircave 6](../maps/arulircave6.md) | – | 2 | – |
 
 
 ## Version history

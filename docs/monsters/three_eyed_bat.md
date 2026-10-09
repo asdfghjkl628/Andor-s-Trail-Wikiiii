@@ -1,10 +1,10 @@
 ---
-description: "Three-eyed bat is an enemy in Andor's Trail (animal) with 108 HP, worth 356 XP, found in haunted_underground_1, haunted_underground_2, haunted_underground_3. Drops: Bat wing, Bat eye."
+description: "Three-eyed bat is an enemy in Andor's Trail (animal) with 108 HP, worth 356 XP, found in Haunted underground 1, Haunted underground 2, Haunted underground 3. Drops: Bat wing, Bat eye."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_3.png){ .sprite } Three-eyed bat
 
-**Found in:** [haunted_underground_1](../maps/haunted_underground_1.md), [haunted_underground_2](../maps/haunted_underground_2.md), [haunted_underground_3](../maps/haunted_underground_3.md), [haunted_underground_4](../maps/haunted_underground_4.md) (+1 more)
+**Found in:** [Haunted underground 1](../maps/haunted_underground_1.md), [Haunted underground 2](../maps/haunted_underground_2.md), [Haunted underground 3](../maps/haunted_underground_3.md), [Haunted underground 4](../maps/haunted_underground_4.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Three-eyed bat is an enemy in Andor's Trail (animal) with 108 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_underground_1, haunted_underground_2, haunted_underground_3 |
+| **Found in** | Haunted underground 1, Haunted underground 2, Haunted underground 3 |
 | **Class** | Animal |
 | **HP** | 108 |
 | **XP when defeated** | 356 |
@@ -55,11 +55,11 @@ description: "Three-eyed bat is an enemy in Andor's Trail (animal) with 108 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_underground_1](../maps/haunted_underground_1.md) | – | 3 | – |
-| [haunted_underground_2](../maps/haunted_underground_2.md) | – | 5 | – |
-| [haunted_underground_3](../maps/haunted_underground_3.md) | – | 4 | – |
-| [haunted_underground_4](../maps/haunted_underground_4.md) | – | 3 | – |
-| [haunted_underground_5](../maps/haunted_underground_5.md) | – | 2 | – |
+| [Haunted underground 1](../maps/haunted_underground_1.md) | – | 3 | – |
+| [Haunted underground 2](../maps/haunted_underground_2.md) | – | 5 | – |
+| [Haunted underground 3](../maps/haunted_underground_3.md) | – | 4 | – |
+| [Haunted underground 4](../maps/haunted_underground_4.md) | – | 3 | – |
+| [Haunted underground 5](../maps/haunted_underground_5.md) | – | 2 | – |
 
 
 ## Version history

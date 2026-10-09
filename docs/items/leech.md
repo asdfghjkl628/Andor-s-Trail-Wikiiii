@@ -28,9 +28,9 @@ description: "Leech is a ordinary animal part in Andor's Trail. How to get it: m
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 | galmore_28 |
-| [Swamp lizard](../monsters/swamp_lizard.md) | 8% | 1-2 | galmore_18, galmore_28, galmore_38 |
-| [Bog eel](../monsters/bog_eel.md) | 8% | 1-2 | galmore_18, galmore_28, galmore_38 |
+| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | 100% | 3-10 | Galmore 28 |
+| [Swamp lizard](../monsters/swamp_lizard.md) | 8% | 1-2 | Galmore 18, Galmore 28, Galmore 38 |
+| [Bog eel](../monsters/bog_eel.md) | 8% | 1-2 | Galmore 18, Galmore 28, Galmore 38 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -41,7 +41,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [galmore_17_house](../maps/galmore_17_house.md) | – | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Galmore 17 house](../maps/galmore_17_house.md) | – | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

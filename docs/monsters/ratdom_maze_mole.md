@@ -21,22 +21,22 @@ description: "Cave mole is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Cave mole. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Cave mole. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ratdom_maze_mole`](#v-ratdom_maze_mole) | NPC | Bloskelt + Roskelt: [ratdom_maze_516](../maps/ratdom_maze_516.md#pin-npc-ratdom_maze_mole) | – | – |
-| [`ratdom_maze_mole2`](#v-ratdom_maze_mole2) | Enemy | Bloskelt + Roskelt: [ratdom_maze_516](../maps/ratdom_maze_516.md) | – | 70 |
+| [`ratdom_maze_mole`](#v-ratdom_maze_mole) | NPC | Bloskelt + Roskelt: [Ratdom maze 516](../maps/ratdom_maze_516.md#pin-npc-ratdom_maze_mole) | – | – |
+| [`ratdom_maze_mole2`](#v-ratdom_maze_mole2) | Enemy | Bloskelt + Roskelt: [Ratdom maze 516](../maps/ratdom_maze_516.md) | – | 70 |
 
 ## Bloskelt + Roskelt, Ratdom maze 516 (ratdom_maze_mole) { #v-ratdom_maze_mole }
 
 **Entry ID:** `ratdom_maze_mole` · **Type:** NPC
 
-**Location:** Bloskelt + Roskelt: [ratdom_maze_516](../maps/ratdom_maze_516.md#pin-npc-ratdom_maze_mole)
+**Location:** Bloskelt + Roskelt: [Ratdom maze 516](../maps/ratdom_maze_516.md#pin-npc-ratdom_maze_mole)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Cave mole. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Cave mole. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_mole.json" data-npc="Cave mole" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_maze_mole-ratdom_maze_mole"></span>**`ratdom_maze_mole`** Cave mole: “Who's there?”
 
@@ -91,7 +91,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_maze_mole2` · **Type:** Enemy
 
-**Location:** Bloskelt + Roskelt: [ratdom_maze_516](../maps/ratdom_maze_516.md)
+**Location:** Bloskelt + Roskelt: [Ratdom maze 516](../maps/ratdom_maze_516.md)
 
 ### Combat statistics
 
@@ -121,7 +121,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 2 | Appears later, during a quest |
+| [Ratdom maze 516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 2 | Appears later, during a quest |
 
 
 ### Version history

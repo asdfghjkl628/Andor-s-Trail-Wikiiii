@@ -1,10 +1,10 @@
 ---
-description: "Pack leader is an enemy in Andor's Trail (animal) with 65 HP, worth 121 XP, found in clearing_level2. Drops: Gold coins, Sharpened gem, Meat, Wolfpack's animal hide."
+description: "Pack leader is an enemy in Andor's Trail (animal) with 65 HP, worth 121 XP, found in Clearing level 2. Drops: Gold coins, Sharpened gem, Meat, Wolfpack's animal hide."
 ---
 
 # ![](../assets/icons/monsters/monsters_dogs_5.png){ .sprite } Pack leader
 
-**Found in:** [clearing_level2](../maps/clearing_level2.md)
+**Found in:** [Clearing level 2](../maps/clearing_level2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Pack leader is an enemy in Andor's Trail (animal) with 65 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | clearing_level2 |
+| **Found in** | Clearing level 2 |
 | **Class** | Animal |
 | **HP** | 65 |
 | **XP when defeated** | 121 |
@@ -58,7 +58,7 @@ description: "Pack leader is an enemy in Andor's Trail (animal) with 65 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [clearing_level2](../maps/clearing_level2.md) | – | 1 | – |
+| [Clearing level 2](../maps/clearing_level2.md) | – | 1 | – |
 
 
 ## Version history

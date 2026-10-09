@@ -26,24 +26,24 @@ description: "Polished gem is a ordinary gem in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Snake master](../monsters/snake_master.md) | 100% | 1 | snakecave3 |
-| [Maelveon](../monsters/maelveon.md) | 100% | 1 | gargoylecave3 |
-| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 1 | blackwater_mountain42 |
+| [Snake master](../monsters/snake_master.md) | 100% | 1 | Snakecave 3 |
+| [Maelveon](../monsters/maelveon.md) | 100% | 1 | Gargoylecave 3 |
+| [Kazaul guardian](../monsters/kazaul_guardian.md) | 100% | 1 | Blackwater mountain 42 |
 | [Feygard scout](../monsters/feygard_scout.md) | 100% | 1-3 | Crossroads Guardhouse |
-| [Thief](../monsters/gison_thief1.md) | 20% | 1 | mywildcave4 |
-| [Thief](../monsters/gison_thief1.md#v-gison_thief2) | 20% | 1 | mywildcave4 |
+| [Thief](../monsters/gison_thief1.md) | 20% | 1 | Mywildcave 4 |
+| [Thief](../monsters/gison_thief1.md#v-gison_thief2) | 20% | 1 | Mywildcave 4 |
 | [Thief](../monsters/gison_thief1.md#v-gison_thief3) | 20% | 1 | – |
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 10% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
-| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 10% | 1 | gargoylecave2, gargoylecave3, gargoylecave4 |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 10% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
+| [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 10% | 1 | Gargoylecave 2, Gargoylecave 3, Gargoylecave 4 |
 | [Restless dead](../monsters/restless_dead.md) | 10% | 1 | Prim, Blackwater Mountain |
 | [Grave spawn](../monsters/grave_spawn.md) | 10% | 1 | Prim, Blackwater Mountain |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 10% | 0-4 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 10% | 0-4 | elm5f_2, elm_2f_1, elm_3f |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 10% | 0-4 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 10% | 0-4 | Elm 5f 2, Elm 2f 1, Elm 3f |
 | [Restless dead](../monsters/restless_dead.md#v-bwm_dead) | 10% | 1 | Blackwater Mountain |
 | [Grave spawn](../monsters/grave_spawn.md#v-bwm_grave_spawn) | 10% | 1 | Blackwater Mountain |
 | [Rabid wolf](../monsters/rabid_wolf.md) | 5% | 1 | Fallhaven |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 5% | 1 | Fallhaven |
-| [Cave troll shaman](../monsters/cave_troll_4.md) | 5% | 1 | lakecave0, lakecave2 |
+| [Cave troll shaman](../monsters/cave_troll_4.md) | 5% | 1 | Lakecave 0, Lakecave 2 |
 
 ### Sold by
 
@@ -55,36 +55,36 @@ description: "Polished gem is a ordinary gem in Andor's Trail. How to get it: mo
 
 ### Found in containers
 
-- [arulirmountain1](../maps/arulirmountain1.md#container-0) (container 1, 100%)
-- [arulirmountain1](../maps/arulirmountain1.md#container-1) (container 2, 100%)
-- [gamjee_well_1](../maps/gamjee_well_1.md#container-1) (container 2, 100%)
-- [island1](../maps/island1.md#container-3) (container 4, 33%)
-- [island1](../maps/island1.md#container-5) (container 6, 33%)
-- [island1](../maps/island1.md#container-7) (container 8, 33%)
-- [island1](../maps/island1.md#container-8) (container 9, 100%)
-- [island1](../maps/island1.md#container-10) (container 11, 33%)
-- [island1](../maps/island1.md#container-13) (container 14, 33%)
-- [island2](../maps/island2.md#container-3) (container 4, 33%)
-- [island2](../maps/island2.md#container-5) (container 6, 33%)
-- [island2](../maps/island2.md#container-7) (container 8, 33%)
-- [island2](../maps/island2.md#container-8) (container 9, 100%)
-- [island2](../maps/island2.md#container-10) (container 11, 33%)
-- [island2](../maps/island2.md#container-13) (container 14, 33%)
-- [island3](../maps/island3.md#container-5) (container 6, 33%)
-- [island3](../maps/island3.md#container-8) (container 9, 100%)
-- [island4](../maps/island4.md#container-5) (container 6, 33%)
-- [island4](../maps/island4.md#container-7) (container 8, 33%)
-- [island4](../maps/island4.md#container-8) (container 9, 100%)
-- [island4](../maps/island4.md#container-10) (container 11, 33%)
-- [island4](../maps/island4.md#container-13) (container 14, 33%)
-- [korhald_cave_hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
-- [ratdom_maze_531](../maps/ratdom_maze_531.md#container-1) (container 2, 50%)
-- [ratdom_maze_567](../maps/ratdom_maze_567.md#container-1) (container 2, 50%), 4 wells
+- [Arulirmountain 1](../maps/arulirmountain1.md#container-0) (container 1, 100%)
+- [Arulirmountain 1](../maps/arulirmountain1.md#container-1) (container 2, 100%)
+- [Gamjee well 1](../maps/gamjee_well_1.md#container-1) (container 2, 100%)
+- [Island 1](../maps/island1.md#container-3) (container 4, 33%)
+- [Island 1](../maps/island1.md#container-5) (container 6, 33%)
+- [Island 1](../maps/island1.md#container-7) (container 8, 33%)
+- [Island 1](../maps/island1.md#container-8) (container 9, 100%)
+- [Island 1](../maps/island1.md#container-10) (container 11, 33%)
+- [Island 1](../maps/island1.md#container-13) (container 14, 33%)
+- [Island 2](../maps/island2.md#container-3) (container 4, 33%)
+- [Island 2](../maps/island2.md#container-5) (container 6, 33%)
+- [Island 2](../maps/island2.md#container-7) (container 8, 33%)
+- [Island 2](../maps/island2.md#container-8) (container 9, 100%)
+- [Island 2](../maps/island2.md#container-10) (container 11, 33%)
+- [Island 2](../maps/island2.md#container-13) (container 14, 33%)
+- [Island 3](../maps/island3.md#container-5) (container 6, 33%)
+- [Island 3](../maps/island3.md#container-8) (container 9, 100%)
+- [Island 4](../maps/island4.md#container-5) (container 6, 33%)
+- [Island 4](../maps/island4.md#container-7) (container 8, 33%)
+- [Island 4](../maps/island4.md#container-8) (container 9, 100%)
+- [Island 4](../maps/island4.md#container-10) (container 11, 33%)
+- [Island 4](../maps/island4.md#container-13) (container 14, 33%)
+- [Korhald cave hidden](../maps/korhald_cave_hidden.md#container-0) (container 1, 100%)
+- [Ratdom maze 531](../maps/ratdom_maze_531.md#container-1) (container 2, 50%)
+- [Ratdom maze 567](../maps/ratdom_maze_567.md#container-1) (container 2, 50%), 4 wells
 
 ### Quest & dialogue rewards
 
-- From [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) (2×)
-- From stepping on a trigger on [arulircave5](../maps/arulircave5.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250) (90%)
+- From [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) (2×)
+- From stepping on a trigger on [Arulircave 5](../maps/arulircave5.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250) (90%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -95,7 +95,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw Polished gem]” |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw Polished gem]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

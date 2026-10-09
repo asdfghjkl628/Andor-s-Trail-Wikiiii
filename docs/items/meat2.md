@@ -43,23 +43,23 @@ description: "Rotten meat is a ordinary food in Andor's Trail. How to get it: mo
 | [Aroughcun](../monsters/aroughcun.md) | 35% | 1 | Mt. Galmore |
 | [Sow aroughcun](../monsters/aroughcun_sow.md) | 30% | 1 | Mt. Galmore |
 | [Agile aroughcun](../monsters/aroughcun_agile.md) | 30% | 1 | Mt. Galmore |
-| [Contaminated woodworm](../monsters/elm_woodworm.md) | 10% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
-| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 10% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
-| [Revenant servant](../monsters/revenant_servant.md) | 5% | 1-2 | waterwayacave2, waterwayacave3, waterwayacave4 |
-| [Revenant](../monsters/revenant.md) | 5% | 1-2 | waterwayacave2, waterwayacave3, waterwayacave4 |
+| [Contaminated woodworm](../monsters/elm_woodworm.md) | 10% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 10% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Revenant servant](../monsters/revenant_servant.md) | 5% | 1-2 | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
+| [Revenant](../monsters/revenant.md) | 5% | 1-2 | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
 
 ### Found in containers
 
-- [crackshot_hideout4](../maps/crackshot_hideout4.md#container-3) (container 4, 100%)
-- [final_cave1](../maps/final_cave1.md#container-2) (container 3, 100%)
-- [guildbrig1](../maps/guildbrig1.md#container-0) (container 1, 100%), Fallhaven
-- [guildbrig2](../maps/guildbrig2.md#container-0) (container 1, 100%), Fallhaven
-- [laerothprison2](../maps/laerothprison2.md#container-0) (container 1, 100%), Lake Laeroth
-- [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#container-1) (container 2, 100%)
+- [Crackshot hideout 4](../maps/crackshot_hideout4.md#container-3) (container 4, 100%)
+- [Final cave 1](../maps/final_cave1.md#container-2) (container 3, 100%)
+- [Guildbrig 1](../maps/guildbrig1.md#container-0) (container 1, 100%), Fallhaven
+- [Guildbrig 2](../maps/guildbrig2.md#container-0) (container 1, 100%), Fallhaven
+- [Laerothprison 2](../maps/laerothprison2.md#container-0) (container 1, 100%), Lake Laeroth
+- [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#container-1) (container 2, 100%)
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) during [Vines in bwm_17 (hidden flag)](../quests/bwm17_vine.md#stage-1) (50%)
+- From stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) during [Blackwater Mountain vines (hidden flag)](../quests/bwm17_vine.md#stage-1) (50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -70,13 +70,13 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hungry pig](../monsters/hungry_pig.md) ([gapfillerhole](../maps/gapfillerhole.md)) | – | must be carried (1×) | “(automatic)” |
-| [Hungry pig](../monsters/hungry_pig.md) ([gapfillerhole](../maps/gapfillerhole.md)) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-51) | handed over (1×) | “Here. Have another piece of rotten meat. It's good for you.” |
-| [Hungry pig](../monsters/hungry_pig.md) ([gapfillerhole](../maps/gapfillerhole.md)) | – | handed over (1×) | “Hungry? Here, have a piece of rotten meat.” |
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw a piece of rotten meat into the well]” |
-| stepping on a trigger on [loneford13](../maps/loneford13.md) | – | handed over (1×) | “[Toss in a piece of that gross rotten meat.]” |
-| [Tocsin](../monsters/tocsin.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | handed over (1×) | “(automatic)” |
-| [Tocsin](../monsters/tocsin.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
+| [Hungry pig](../monsters/hungry_pig.md) ([Gapfillerhole](../maps/gapfillerhole.md)) | – | must be carried (1×) | “(automatic)” |
+| [Hungry pig](../monsters/hungry_pig.md) ([Gapfillerhole](../maps/gapfillerhole.md)) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-51) | handed over (1×) | “Here. Have another piece of rotten meat. It's good for you.” |
+| [Hungry pig](../monsters/hungry_pig.md) ([Gapfillerhole](../maps/gapfillerhole.md)) | – | handed over (1×) | “Hungry? Here, have a piece of rotten meat.” |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw a piece of rotten meat into the well]” |
+| stepping on a trigger on [Loneford 13](../maps/loneford13.md) | – | handed over (1×) | “[Toss in a piece of that gross rotten meat.]” |
+| [Tocsin](../monsters/tocsin.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | handed over (1×) | “(automatic)” |
+| [Tocsin](../monsters/tocsin.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -4,7 +4,7 @@ description: "Thoronir is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } Thoronir
 
-**Where to find Thoronir:** Fallhaven: [fallhaven_church](../maps/fallhaven_church.md#pin-npc-thoronir)
+**Where to find Thoronir:** Fallhaven: [Fallhaven church](../maps/fallhaven_church.md#pin-npc-thoronir)
 
 <div class="infobox" markdown>
 
@@ -31,11 +31,11 @@ description: "Thoronir is a non-player character (NPC) in Andor's Trail, found i
 - [Disallowed substance](../quests/bonemeal.md): stages 40, 50, 100, 110
 - [Key of Luthor](../quests/bucus.md): stage 20
 - [Thief apprentice](../quests/Thieves01.md): stage 50
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stage 80
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): stage 80
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thoronir. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thoronir. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thoronir_default.json" data-npc="Thoronir" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (35 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thoronir_default"></span>**`thoronir_default`** *(silent check: the first matching branch below is taken)*
 
@@ -51,11 +51,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-thoronir_start_select"></span>**`thoronir_start_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18))* → [thoronir_shadow_score_max](#d-thoronir_shadow_score_max)
-    - branch 2 *(if reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18))* → [thoronir_shadow_score_very_high](#d-thoronir_shadow_score_very_high)
-    - branch 3 *(if reached stage 17 of [scores (hidden flag)](../quests/scores.md#stage-17))* → [thoronir_shadow_score_high](#d-thoronir_shadow_score_high)
-    - branch 4 *(if reached stage 15 of [scores (hidden flag)](../quests/scores.md#stage-15))* → [thoronir_shadow_score_average](#d-thoronir_shadow_score_average)
-    - branch 5 *(if reached stage 13 of [scores (hidden flag)](../quests/scores.md#stage-13))* → [thoronir_shadow_score_low1](#d-thoronir_shadow_score_low1)
+    - branch 1 *(if reached stage 18 of [Score counters (hidden flag)](../quests/scores.md#stage-18))* → [thoronir_shadow_score_max](#d-thoronir_shadow_score_max)
+    - branch 2 *(if reached stage 18 of [Score counters (hidden flag)](../quests/scores.md#stage-18))* → [thoronir_shadow_score_very_high](#d-thoronir_shadow_score_very_high)
+    - branch 3 *(if reached stage 17 of [Score counters (hidden flag)](../quests/scores.md#stage-17))* → [thoronir_shadow_score_high](#d-thoronir_shadow_score_high)
+    - branch 4 *(if reached stage 15 of [Score counters (hidden flag)](../quests/scores.md#stage-15))* → [thoronir_shadow_score_average](#d-thoronir_shadow_score_average)
+    - branch 5 *(if reached stage 13 of [Score counters (hidden flag)](../quests/scores.md#stage-13))* → [thoronir_shadow_score_low1](#d-thoronir_shadow_score_low1)
     - branch 6 → [thoronir_shadow_score_low3](#d-thoronir_shadow_score_low3)
 
     <span id="d-thoronir_shadow_score_max"></span>**`thoronir_shadow_score_max`** Thoronir: “Welcome my truest follower of the Shadow.”
@@ -137,7 +137,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [thoronir_guild_3](#d-thoronir_guild_3)
 
-    <span id="d-thoronir_guild_2"></span>**`thoronir_guild_2`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 80 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-80)
+    <span id="d-thoronir_guild_2"></span>**`thoronir_guild_2`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 80 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-80)
 
     - branch 1 → [thoronir_guild_2a](#d-thoronir_guild_2a)
 
@@ -217,7 +217,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…”<br>· text: “Give me some time to mix the Bonemeal potion. It is a very potent hea…” → “Give me some time to mix the bonemeal potion. It is a very potent hea…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Yes, the Bonemeal potions are ready. Please use them with care, and d…” → “Yes, the bonemeal potions are ready. Please use them with care, and d…”<br>· text: “Do you think you could find me 5 skeletal bones that I can use for mi…” → “Do you think you could find me 5 skeletal bones that I can use for mi…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 8 lines added, 1 line changed<br>· text: “Bask in the Shadow, my child.” → “null” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed |

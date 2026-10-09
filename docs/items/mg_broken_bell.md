@@ -27,7 +27,7 @@ description: "Broken bell is a quest other in Andor's Trail. How to get it: ques
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [galmore_47](../maps/galmore_47.md) during [Restless in the grave](../quests/mg_restless_grave.md#stage-30) (1×)
+- From stepping on a trigger on [Galmore 47](../maps/galmore_47.md) during [Restless in the grave](../quests/mg_restless_grave.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,11 +38,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “Actually, I found some clues already.” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “I found this bell in the graveyard. [Show Vaelric]” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | – | must be carried (1×) | “Yes, but I didn't keep both.” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | – | must be carried (1×) | “Why should I give them to you when I think I need them?” |
-| [Eryndor](../monsters/mg_eryndor.md) ([mt_galmore0_h1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-50) | handed over (1×) | “Umm, I guess so. Here. [You hand over the broken bell and the mysterious music b” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “Actually, I found some clues already.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (1×) | “I found this bell in the graveyard. [Show Vaelric]” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | – | must be carried (1×) | “Yes, but I didn't keep both.” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | – | must be carried (1×) | “Why should I give them to you when I think I need them?” |
+| [Eryndor](../monsters/mg_eryndor.md) ([Mt galmore 0 h 1](../maps/mt_galmore0_h1.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-50) | handed over (1×) | “Umm, I guess so. Here. [You hand over the broken bell and the mysterious music b” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

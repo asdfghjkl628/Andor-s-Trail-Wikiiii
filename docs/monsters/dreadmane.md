@@ -4,7 +4,7 @@ description: "Dreadmane is an enemy in Andor's Trail (animal) with 235 HP, worth
 
 # ![](../assets/icons/monsters/monsters_newb_1_281.png){ .sprite } Dreadmane
 
-**Found in:** Mt. Galmore: [galmore_45](../maps/galmore_45.md), Mt. Galmore: [galmore_55](../maps/galmore_55.md), Mt. Galmore: [galmore_56](../maps/galmore_56.md), Mt. Galmore: [galmore_57](../maps/galmore_57.md) (+10 more)
+**Found in:** Mt. Galmore: [Galmore 45](../maps/galmore_45.md), Mt. Galmore: [Galmore 55](../maps/galmore_55.md), Mt. Galmore: [Galmore 56](../maps/galmore_56.md), Mt. Galmore: [Galmore 57](../maps/galmore_57.md) (+10 more)
 
 <div class="infobox" markdown>
 
@@ -55,20 +55,20 @@ description: "Dreadmane is an enemy in Andor's Trail (animal) with 235 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 2 | – |
-| [galmore_55](../maps/galmore_55.md) | Mt. Galmore | 13 | – |
-| [galmore_56](../maps/galmore_56.md) | Mt. Galmore | 2 | – |
-| [galmore_57](../maps/galmore_57.md) | Mt. Galmore | 12 | – |
-| [galmore_63](../maps/galmore_63.md) | Mt. Galmore | 12 | – |
-| [galmore_64](../maps/galmore_64.md) | Mt. Galmore | 10 | – |
-| [galmore_65](../maps/galmore_65.md) | Mt. Galmore | 10 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 5 | – |
-| [galmore_67](../maps/galmore_67.md) | Mt. Galmore | 8 | – |
-| [galmore_73](../maps/galmore_73.md) | Mt. Galmore | 11 | – |
-| [galmore_74](../maps/galmore_74.md) | Mt. Galmore | 6 | – |
-| [galmore_75](../maps/galmore_75.md) | Mt. Galmore | 1 | – |
-| [galmore_76](../maps/galmore_76.md) | Mt. Galmore | 2 | – |
-| [galmore_77](../maps/galmore_77.md) | Mt. Galmore | 17 | – |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 2 | – |
+| [Galmore 55](../maps/galmore_55.md) | Mt. Galmore | 13 | – |
+| [Galmore 56](../maps/galmore_56.md) | Mt. Galmore | 2 | – |
+| [Galmore 57](../maps/galmore_57.md) | Mt. Galmore | 12 | – |
+| [Galmore 63](../maps/galmore_63.md) | Mt. Galmore | 12 | – |
+| [Galmore 64](../maps/galmore_64.md) | Mt. Galmore | 10 | – |
+| [Galmore 65](../maps/galmore_65.md) | Mt. Galmore | 10 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 5 | – |
+| [Galmore 67](../maps/galmore_67.md) | Mt. Galmore | 8 | – |
+| [Galmore 73](../maps/galmore_73.md) | Mt. Galmore | 11 | – |
+| [Galmore 74](../maps/galmore_74.md) | Mt. Galmore | 6 | – |
+| [Galmore 75](../maps/galmore_75.md) | Mt. Galmore | 1 | – |
+| [Galmore 76](../maps/galmore_76.md) | Mt. Galmore | 2 | – |
+| [Galmore 77](../maps/galmore_77.md) | Mt. Galmore | 17 | – |
 
 
 ## Version history

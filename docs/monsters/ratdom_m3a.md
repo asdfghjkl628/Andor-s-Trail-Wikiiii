@@ -4,7 +4,7 @@ description: "Malignant cave snake is an enemy in Andor's Trail (reptile) with 3
 
 # ![](../assets/icons/monsters/monsters_snakes_2.png){ .sprite } Malignant cave snake
 
-**Found in:** Bloskelt + Roskelt: [ratdom_maze_525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [ratdom_maze_526](../maps/ratdom_maze_526.md), Bloskelt + Roskelt: [ratdom_maze_636](../maps/ratdom_maze_636.md), Entry: [ratdom_maze_635](../maps/ratdom_maze_635.md) (+6 more)
+**Found in:** Bloskelt + Roskelt: [Ratdom maze 525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [Ratdom maze 526](../maps/ratdom_maze_526.md), Bloskelt + Roskelt: [Ratdom maze 636](../maps/ratdom_maze_636.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -58,16 +58,16 @@ description: "Malignant cave snake is an enemy in Andor's Trail (reptile) with 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_526](../maps/ratdom_maze_526.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_537](../maps/ratdom_maze_537.md) | Roundlings | 2 | – |
-| [ratdom_maze_547](../maps/ratdom_maze_547.md) | Labyrinth | 2 | – |
-| [ratdom_maze_635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
-| [ratdom_maze_636](../maps/ratdom_maze_636.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_644](../maps/ratdom_maze_644.md) | Entry | 2 | – |
-| [ratdom_maze_645](../maps/ratdom_maze_645.md) | Entry | 2 | – |
-| [ratdom_maze_655](../maps/ratdom_maze_655.md) | Waterway | 2 | – |
-| [ratdom_maze_664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+| [Ratdom maze 525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 526](../maps/ratdom_maze_526.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 537](../maps/ratdom_maze_537.md) | Roundlings | 2 | – |
+| [Ratdom maze 547](../maps/ratdom_maze_547.md) | Labyrinth | 2 | – |
+| [Ratdom maze 635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
+| [Ratdom maze 636](../maps/ratdom_maze_636.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 644](../maps/ratdom_maze_644.md) | Entry | 2 | – |
+| [Ratdom maze 645](../maps/ratdom_maze_645.md) | Entry | 2 | – |
+| [Ratdom maze 655](../maps/ratdom_maze_655.md) | Waterway | 2 | – |
+| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
 
 
 ## Version history

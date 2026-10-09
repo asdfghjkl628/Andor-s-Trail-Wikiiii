@@ -1,8 +1,8 @@
 ---
-description: "Waytobrightport8 is an indoor location in Andor's Trail. Enemies: Hardshell beetle, Duleian buzzer. Exits to Waytobrightport3, Cabin norcity road2."
+description: "Waytobrightport 8 is an indoor location in Andor's Trail. Enemies: Hardshell beetle, Duleian buzzer. Exits to Waytobrightport 3, Cabin norcity road 2."
 ---
 
-# Waytobrightport8
+# Waytobrightport 8
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Waytobrightport8 is an indoor location in Andor's Trail. Enemies: 
 | **Map ID** | `waytobrightport8` |
 | **Type** | Indoors / underground |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytobrightport8** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrightport3, Cabin norcity road2.
+**Waytobrightport 8** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrightport 3, Cabin norcity road 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport8.webp" alt="Map of Waytobrightport8" width="640" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../cabin_norcity_road2/#place-west" title="Exit to Cabin norcity road2" style="left:95.000%;top:20.000%;width:5.000%;height:20.000%"></a><a id="place-north" class="mo mo-mapchange" href="../waytobrightport3/#place-south" title="Exit to Waytobrightport3" style="left:60.000%;top:0.000%;width:15.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:50.000%;top:46.667%;width:40.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:15.000%;top:20.000%;width:20.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:40.000%;top:13.333%;width:35.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:35.000%;top:66.667%;width:55.000%;height:26.667%"></span><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:85.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:85.000%;top:46.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:70.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:30.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:30.000%;top:46.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:45.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:55.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:50.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:55.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:67.500%;top:3.333%" title="Exit (north): to [Waytobrightport3](waytobrightport3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.500%;top:30.000%" title="Exit (east): to [Cabin norcity road2](cabin_norcity_road2.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport8.webp" alt="Map of Waytobrightport 8" width="640" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../cabin_norcity_road2/#place-west" title="Exit to Cabin norcity road 2" style="left:95.000%;top:20.000%;width:5.000%;height:20.000%"></a><a id="place-north" class="mo mo-mapchange" href="../waytobrightport3/#place-south" title="Exit to Waytobrightport 3" style="left:60.000%;top:0.000%;width:15.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:50.000%;top:46.667%;width:40.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:15.000%;top:20.000%;width:20.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:40.000%;top:13.333%;width:35.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:35.000%;top:66.667%;width:55.000%;height:26.667%"></span><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:85.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:85.000%;top:46.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:70.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:30.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:30.000%;top:46.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:45.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:55.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:50.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:55.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:67.500%;top:3.333%" title="Exit (north): to [Waytobrightport 3](waytobrightport3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.500%;top:30.000%" title="Exit (east): to [Cabin norcity road 2](cabin_norcity_road2.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Waytobrightport3](waytobrightport3.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Cabin norcity road2](cabin_norcity_road2.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Waytobrightport 3](waytobrightport3.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Cabin norcity road 2](cabin_norcity_road2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Waytobrightport8 is an indoor location in Andor's Trail. Enemies: 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Waytobrightport3](waytobrightport3.md) | – | 1 |
-| East | [Cabin norcity road2](cabin_norcity_road2.md) | – | 2 |
+| North | [Waytobrightport 3](waytobrightport3.md) | – | 1 |
+| East | [Cabin norcity road 2](cabin_norcity_road2.md) | – | 2 |
 
 ## Enemies
 

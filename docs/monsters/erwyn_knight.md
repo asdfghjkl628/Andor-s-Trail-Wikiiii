@@ -4,7 +4,7 @@ description: "Erwyn's knight is an NPC who can also be fought in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_tometik8_41.png){ .sprite } Erwyn's knight
 
-**Where to find Erwyn's knight:** Flagstone Prison: [stoutford_castle0](../maps/stoutford_castle0.md#pin-npc-erwyn_knight), Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md#pin-npc-erwyn_knight), Flagstone Prison: [waytogalmore1](../maps/waytogalmore1.md#pin-npc-erwyn_knight), [stoutford_castle1](../maps/stoutford_castle1.md#pin-npc-erwyn_knight)
+**Where to find Erwyn's knight:** Flagstone Prison: [Stoutford castle 0](../maps/stoutford_castle0.md#pin-npc-erwyn_knight), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-erwyn_knight), Flagstone Prison: [Waytogalmore 1](../maps/waytogalmore1.md#pin-npc-erwyn_knight), [Stoutford castle 1](../maps/stoutford_castle1.md#pin-npc-erwyn_knight)
 
 <div class="infobox" markdown>
 
@@ -51,19 +51,19 @@ description: "Erwyn's knight is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_castle0](../maps/stoutford_castle0.md) | Flagstone Prison | 3 | – |
-| [stoutford_castle1](../maps/stoutford_castle1.md) | – | 1 | – |
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | – |
-| [waytogalmore1](../maps/waytogalmore1.md) | Flagstone Prison | 2 | – |
+| [Stoutford castle 0](../maps/stoutford_castle0.md) | Flagstone Prison | 3 | – |
+| [Stoutford castle 1](../maps/stoutford_castle1.md) | – | 1 | – |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | – |
+| [Waytogalmore 1](../maps/waytogalmore1.md) | Flagstone Prison | 2 | – |
 
 ## Quests that count defeats
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-46) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md), stepping on a trigger on [wild18](../maps/wild18.md) checks that at least 7 of these enemies have been defeated.
-- A conversation with [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md)), stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-46) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md), stepping on a trigger on [Wild 18](../maps/wild18.md) checks that at least 7 of these enemies have been defeated.
+- A conversation with [Colonel Lutarc](../monsters/stn_colonel.md) ([Waytogalmore 0](../maps/waytogalmore0.md)), stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Erwyn's knight. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Erwyn's knight. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_castle_0.json" data-npc="Erwyn&#x27;s knight" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_castle_0"></span>**`stoutford_castle_0`** Erwyn's knight: “Ah another mortal! You shall be another servant in Lord Erwyn's army! Ha Ha!”
 

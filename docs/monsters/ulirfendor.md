@@ -1,10 +1,10 @@
 ---
-description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, found in waytobrimhavencave4. Teaches Dark blessing of the Shadow; starts An involuntary carrier."
+description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, found in Waytobrimhavencave 4. Teaches Dark blessing of the Shadow; starts An involuntary carrier."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } Ulirfendor
 
-**Where to find Ulirfendor:** [waytobrimhavencave4](../maps/waytobrimhavencave4.md#pin-npc-ulirfendor)
+**Where to find Ulirfendor:** [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md#pin-npc-ulirfendor)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, foun
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Teaches [Dark blessing of the Shadow](../skills/shadowBless.md); starts [An involuntary carrier](../quests/toszylae.md) |
-| **Found in** | waytobrimhavencave4 |
+| **Found in** | Waytobrimhavencave 4 |
 | **Class** | Humanoid |
 | **HP** | 288 |
 | **XP when defeated** | 421 |
@@ -61,7 +61,7 @@ description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | 1 | – |
+| [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – | 1 | – |
 
 ## Quests
 
@@ -71,7 +71,7 @@ description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ulirfendor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ulirfendor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ulirfendor.json" data-npc="Ulirfendor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -79,7 +79,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (114 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ulirfendor"></span>**`ulirfendor`** *(silent check: the first matching branch below is taken)*
 
@@ -595,8 +595,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “Regardless, it must be stopped, whatever it means. Maybe it refers to…” → “Regardless, it must be stopped, whatever it means. Maybe it refers to…”<br>· text: “No.. can it be? Are they actually real?” → “No ... can it be? Are they actually real?” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …”<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “I am sure that this shrine is part of the cause for these .. these ..…” → “I am sure that this shrine is part of the cause for these ... these .…”<br>· text: “(Ulirfendor starts chanting in a tongue that you do not recognize.)” → “[Ulirfendor starts chanting in a tongue that you do not recognize]” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…”<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Hmm. You know what, this could actually be connected to what the shri…” → “Hmm. You know what, this could actually be connected to what the shri…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

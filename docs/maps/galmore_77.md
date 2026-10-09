@@ -12,7 +12,7 @@ description: "Galmore 77 is an outdoor location in Andor's Trail, in Mt. Galmore
 | **Region** | In Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 2 |
 | **Quests** | 2 |
@@ -60,7 +60,7 @@ description: "Galmore 77 is an outdoor location in Andor's Trail, in Mt. Galmore
 
 - [Search for Andor](../quests/andor.md): blocked passage opens at stage 1
 - [The exploded star](../quests/mg2_exploded_star.md): something on this map advances it; stepping on a trigger here sets stage 101; stepping on a trigger here sets stage 102; stepping on a trigger here sets stage 103; stepping on a trigger here sets stage 104; stepping on a trigger here sets stage 105; stepping on a trigger here sets stage 106; stepping on a trigger here sets stage 107; stepping on a trigger here sets stage 108; stepping on a trigger here sets stage 109; stepping on a trigger here sets stage 110; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 23
-- [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md): part of the map changes at stage 10
+- [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md): part of the map changes at stage 10
 
 ## Points of interest
 

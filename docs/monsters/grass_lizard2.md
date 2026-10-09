@@ -4,7 +4,7 @@ description: "Black grasslands lizard is an enemy in Andor's Trail (reptile) wit
 
 # ![](../assets/icons/monsters/monsters_rltiles2_117.png){ .sprite } Black grasslands lizard
 
-**Found in:** Crossroads Guardhouse: [fields2](../maps/fields2.md), Flagstone Prison: [lake_shore_road_5](../maps/lake_shore_road_5.md), Flagstone Prison: [lake_shore_road_6](../maps/lake_shore_road_6.md)
+**Found in:** Crossroads Guardhouse: [Fields 2](../maps/fields2.md), Flagstone Prison: [Lake shore road 5](../maps/lake_shore_road_5.md), Flagstone Prison: [Lake shore road 6](../maps/lake_shore_road_6.md)
 
 <div class="infobox" markdown>
 
@@ -57,9 +57,9 @@ description: "Black grasslands lizard is an enemy in Andor's Trail (reptile) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields2](../maps/fields2.md) | Crossroads Guardhouse | 2 | – |
-| [lake_shore_road_5](../maps/lake_shore_road_5.md) | Flagstone Prison | 7 | – |
-| [lake_shore_road_6](../maps/lake_shore_road_6.md) | Flagstone Prison | 6 | – |
+| [Fields 2](../maps/fields2.md) | Crossroads Guardhouse | 2 | – |
+| [Lake shore road 5](../maps/lake_shore_road_5.md) | Flagstone Prison | 7 | – |
+| [Lake shore road 6](../maps/lake_shore_road_6.md) | Flagstone Prison | 6 | – |
 
 
 ## Version history

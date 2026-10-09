@@ -4,7 +4,7 @@ description: "Creeping fungus is an enemy in Andor's Trail (construct) with 65 H
 
 # ![](../assets/icons/monsters/monsters_ld2_30.png){ .sprite } Creeping fungus
 
-**Found in:** Loneford: [waterwayb1](../maps/waterwayb1.md), [waterwaya2](../maps/waterwaya2.md), [waterwaya3](../maps/waterwaya3.md), [waterwaya5](../maps/waterwaya5.md) (+4 more)
+**Found in:** Loneford: [Waterwayb 1](../maps/waterwayb1.md), [Waterwaya 2](../maps/waterwaya2.md), [Waterwaya 3](../maps/waterwaya3.md), [Waterwaya 5](../maps/waterwaya5.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -61,14 +61,14 @@ description: "Creeping fungus is an enemy in Andor's Trail (construct) with 65 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwaya2](../maps/waterwaya2.md) | – | 9 | – |
-| [waterwaya3](../maps/waterwaya3.md) | – | 2 | – |
-| [waterwaya5](../maps/waterwaya5.md) | – | 4 | – |
-| [waterwaya6](../maps/waterwaya6.md) | – | 4 | – |
-| [waterwayb1](../maps/waterwayb1.md) | Loneford | 1 | – |
-| [waterwayb2](../maps/waterwayb2.md) | – | 2 | – |
-| [waterwayb3](../maps/waterwayb3.md) | – | 3 | – |
-| [waterwayb4](../maps/waterwayb4.md) | – | 1 | – |
+| [Waterwaya 2](../maps/waterwaya2.md) | – | 9 | – |
+| [Waterwaya 3](../maps/waterwaya3.md) | – | 2 | – |
+| [Waterwaya 5](../maps/waterwaya5.md) | – | 4 | – |
+| [Waterwaya 6](../maps/waterwaya6.md) | – | 4 | – |
+| [Waterwayb 1](../maps/waterwayb1.md) | Loneford | 1 | – |
+| [Waterwayb 2](../maps/waterwayb2.md) | – | 2 | – |
+| [Waterwayb 3](../maps/waterwayb3.md) | – | 3 | – |
+| [Waterwayb 4](../maps/waterwayb4.md) | – | 1 | – |
 
 
 ## Version history

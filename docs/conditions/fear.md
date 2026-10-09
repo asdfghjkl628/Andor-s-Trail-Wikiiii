@@ -30,9 +30,9 @@ description: "Fear is a harmful mental condition in Andor's Trail: attack chance
 | Block chance | −10 |
 | Damage resistance | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -49,33 +49,33 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Benzimos](../monsters/haunted_benzimos.md) | When it hits you | 3 | 3 rounds | 50% | haunted_house_basement |
-| [Death wrecker](../monsters/death_wrecker.md) | When it hits you | 4 | 3 rounds | 25% | haunted_house, haunted_house_basement, haunted_underground_1 |
-| [Dread guardian](../monsters/tesrekan_guardian.md) | When it hits you | 2 | 3 rounds | 35% | waterwayacave1 |
-| [Hira'zinn](../monsters/hirazinn.md) | When it hits you | 4 | 3 rounds | 30% | lodarcave4a |
-| [Tesrekan](../monsters/tesrekan.md) | When it hits you | 3 | 5 rounds | 50% | waterwayacave4 |
+| [Benzimos](../monsters/haunted_benzimos.md) | When it hits you | 3 | 3 rounds | 50% | Haunted house basement |
+| [Death wrecker](../monsters/death_wrecker.md) | When it hits you | 4 | 3 rounds | 25% | Haunted house, Haunted house basement, Haunted underground 1 |
+| [Dread guardian](../monsters/tesrekan_guardian.md) | When it hits you | 2 | 3 rounds | 35% | Waterwayacave 1 |
+| [Hira'zinn](../monsters/hirazinn.md) | When it hits you | 4 | 3 rounds | 30% | Lodarcave 4a |
+| [Tesrekan](../monsters/tesrekan.md) | When it hits you | 3 | 5 rounds | 50% | Waterwayacave 4 |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | [Alaun soup rewards (hidden flag)](../quests/alaun_soup_reward.md#stage-30) | 15 rounds |
-| stepping on a trigger on [guynmart_tower_0](../maps/guynmart_tower_0.md) | – | 8 rounds |
-| stepping on a trigger on [mushroom_m3_1](../maps/mushroom_m3_1.md) | [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-10) | 8 rounds |
-| [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | 15 rounds |
-| stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) | [The Dead are Walking](../quests/dead_walking.md#stage-50) | 5 rounds |
-| stepping on a trigger on [ratdom_maze_542](../maps/ratdom_maze_542.md) | – | 25 rounds |
-| stepping on a trigger on [ratdom_maze_648](../maps/ratdom_maze_648.md) | – | 10 rounds |
-| stepping on a trigger on [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-41) | 3 rounds |
-| walking into a blocked passage on [galmore_32](../maps/galmore_32.md) | [A familiar shadow](../quests/familiar_shadow.md#stage-10) | 15 rounds |
-| stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-1) | 1 round |
-| stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-2) | 3 rounds |
-| stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) | – | 5 rounds |
-| walking into a blocked passage on [galmore_32](../maps/galmore_32.md), walking into a blocked passage on [crossglen](../maps/crossglen.md) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-1) | 1 round |
-| walking into a blocked passage on [crossglen](../maps/crossglen.md) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-2) | 3 rounds |
-| walking into a blocked passage on [crossglen](../maps/crossglen.md) | – | 5 rounds |
-| stepping on a trigger on [galmore_15](../maps/galmore_15.md) | – | 3 rounds |
-| walking into a blocked passage on [undertell_10](../maps/undertell_10.md) | [Lost treasures](../quests/nocmar.md#stage-60) | 7 rounds |
+| [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) | [Alaun soup rewards (hidden flag)](../quests/alaun_soup_reward.md#stage-30) | 15 rounds |
+| stepping on a trigger on [Guynmart tower 0](../maps/guynmart_tower_0.md) | – | 8 rounds |
+| stepping on a trigger on [Mushroom m 3 1](../maps/mushroom_m3_1.md) | [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-10) | 8 rounds |
+| [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) | – | 15 rounds |
+| stepping on a trigger on [Haunted house basement](../maps/haunted_house_basement.md) | [The Dead are Walking](../quests/dead_walking.md#stage-50) | 5 rounds |
+| stepping on a trigger on [Ratdom maze 542](../maps/ratdom_maze_542.md) | – | 25 rounds |
+| stepping on a trigger on [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 10 rounds |
+| stepping on a trigger on [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-41) | 3 rounds |
+| walking into a blocked passage on [Galmore 32](../maps/galmore_32.md) | [A familiar shadow](../quests/familiar_shadow.md#stage-10) | 15 rounds |
+| stepping on a trigger on [Galmore 10](../maps/galmore_10.md), stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-1) | 1 round |
+| stepping on a trigger on [Galmore 10](../maps/galmore_10.md), stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-2) | 3 rounds |
+| stepping on a trigger on [Galmore 10](../maps/galmore_10.md), stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) | – | 5 rounds |
+| walking into a blocked passage on [Galmore 32](../maps/galmore_32.md), walking into a blocked passage on [Crossglen](../maps/crossglen.md) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-1) | 1 round |
+| walking into a blocked passage on [Crossglen](../maps/crossglen.md) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-2) | 3 rounds |
+| walking into a blocked passage on [Crossglen](../maps/crossglen.md) | – | 5 rounds |
+| stepping on a trigger on [Galmore 15](../maps/galmore_15.md) | – | 3 rounds |
+| walking into a blocked passage on [Undertell 10](../maps/undertell_10.md) | [Lost treasures](../quests/nocmar.md#stage-60) | 7 rounds |
 
 ## Applied to enemies
 
@@ -93,14 +93,14 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Strong Mind](../skills/resistanceMental.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Strong Mind](../skills/resistanceMental.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Removed by** [Restore fear](../items/pot_fear_restore.md) (when used).
 - **Removed by** [Potion of heroism](../items/pot_heroism.md) (when used).
 - **Immunity** from [Ortholion's talisman](../items/ortholion_reward.md) (while equipped; while equipped).
 - **Immunity** from [Shield of the Brave](../items/shield_of_brave.md) (when you hit with it; 3 rounds).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

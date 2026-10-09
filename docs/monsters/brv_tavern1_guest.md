@@ -18,23 +18,23 @@ description: "Customer is a non-player character (NPC) in Andor's Trail, found i
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Customer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Customer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`brv_tavern1_guest`](#v-brv_tavern1_guest) | NPC | Brimhaven: [brimhaven_tavern1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest) | – |
-| [`stoutford_drinker_1`](#v-stoutford_drinker_1) | NPC | Stoutford: [stoutford_tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1) | – |
-| [`stoutford_drinker_2`](#v-stoutford_drinker_2) | NPC | Stoutford: [stoutford_tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2) | – |
+| [`brv_tavern1_guest`](#v-brv_tavern1_guest) | NPC | Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest) | – |
+| [`stoutford_drinker_1`](#v-stoutford_drinker_1) | NPC | Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1) | – |
+| [`stoutford_drinker_2`](#v-stoutford_drinker_2) | NPC | Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2) | – |
 
-## Brimhaven, Brimhaven tavern1 (brv_tavern1_guest) { #v-brv_tavern1_guest }
+## Brimhaven, Brimhaven tavern 1 (brv_tavern1_guest) { #v-brv_tavern1_guest }
 
 **Entry ID:** `brv_tavern1_guest` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_tavern1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest)
+**Location:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Customer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Customer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_tavern1_guest.json" data-npc="Customer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -42,7 +42,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_tavern1_guest-brv_tavern1_guest"></span>**`brv_tavern1_guest`** Customer: “I'm drinking because I hate myself...”
 
@@ -90,11 +90,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_drinker_1` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1)
+**Location:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Customer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Customer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_commoner_0.json" data-npc="Customer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -102,7 +102,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_drinker_1-stoutford_commoner_0"></span>**`stoutford_commoner_0`** Customer: “Welcome to Stoutford kid.”
 
@@ -148,11 +148,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_drinker_2` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2)
+**Location:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Customer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Customer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_commoner_0.json" data-npc="Customer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

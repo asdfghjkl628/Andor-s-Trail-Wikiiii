@@ -1,10 +1,10 @@
 ---
-description: "Dangerous fungi is an enemy in Andor's Trail (animal) with 55 HP, worth 108 XP, found in bogsten3, bogsten4, mushroom_m2_1. Drops: Spores of the giant mushroom, Bogsten's mushroom."
+description: "Dangerous fungi is an enemy in Andor's Trail (animal) with 55 HP, worth 108 XP, found in Bogsten 3, Bogsten 4, Mushroom m 2 1. Drops: Spores of the giant mushroom, Bogsten's mushroom."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_5.png){ .sprite } Dangerous fungi
 
-**Found in:** [bogsten3](../maps/bogsten3.md), [bogsten4](../maps/bogsten4.md), [mushroom_m2_1](../maps/mushroom_m2_1.md), [mushroom_m2_2](../maps/mushroom_m2_2.md) (+7 more)
+**Found in:** [Bogsten 3](../maps/bogsten3.md), [Bogsten 4](../maps/bogsten4.md), [Mushroom m 2 1](../maps/mushroom_m2_1.md), [Mushroom m 2 2](../maps/mushroom_m2_2.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dangerous fungi is an enemy in Andor's Trail (animal) with 55 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | bogsten3, bogsten4, mushroom_m2_1 |
+| **Found in** | Bogsten 3, Bogsten 4, Mushroom m 2 1 |
 | **Class** | Animal |
 | **HP** | 55 |
 | **XP when defeated** | 108 |
@@ -57,17 +57,17 @@ description: "Dangerous fungi is an enemy in Andor's Trail (animal) with 55 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bogsten3](../maps/bogsten3.md) | – | 10 | – |
-| [bogsten4](../maps/bogsten4.md) | – | 8 | – |
-| [mushroom_m2_1](../maps/mushroom_m2_1.md) | – | 2 | – |
-| [mushroom_m2_2](../maps/mushroom_m2_2.md) | – | 3 | – |
-| [mushroom_m2_3](../maps/mushroom_m2_3.md) | – | 8 | – |
-| [mushroom_m2_5](../maps/mushroom_m2_5.md) | – | 2 | – |
-| [mushroom_m2_6](../maps/mushroom_m2_6.md) | – | 2 | – |
-| [mushroom_m2_7](../maps/mushroom_m2_7.md) | – | 1 | – |
-| [mushroom_m2_8](../maps/mushroom_m2_8.md) | – | 3 | – |
-| [mushroom_m3_1](../maps/mushroom_m3_1.md) | – | 4 | – |
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 2 | – |
+| [Bogsten 3](../maps/bogsten3.md) | – | 10 | – |
+| [Bogsten 4](../maps/bogsten4.md) | – | 8 | – |
+| [Mushroom m 2 1](../maps/mushroom_m2_1.md) | – | 2 | – |
+| [Mushroom m 2 2](../maps/mushroom_m2_2.md) | – | 3 | – |
+| [Mushroom m 2 3](../maps/mushroom_m2_3.md) | – | 8 | – |
+| [Mushroom m 2 5](../maps/mushroom_m2_5.md) | – | 2 | – |
+| [Mushroom m 2 6](../maps/mushroom_m2_6.md) | – | 2 | – |
+| [Mushroom m 2 7](../maps/mushroom_m2_7.md) | – | 1 | – |
+| [Mushroom m 2 8](../maps/mushroom_m2_8.md) | – | 3 | – |
+| [Mushroom m 3 1](../maps/mushroom_m3_1.md) | – | 4 | – |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 2 | – |
 
 
 ## Version history

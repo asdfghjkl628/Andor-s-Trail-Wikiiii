@@ -4,7 +4,7 @@ description: "Elvedridge is an enemy in Andor's Trail (animal) with 30 HP, worth
 
 # ![](../assets/icons/monsters/monsters_rltiles2_80.png){ .sprite } Elvedridge
 
-**Found in:** Bloskelt + Roskelt: [ratdom_maze_534](../maps/ratdom_maze_534.md), Pub: [ratdom_maze_523](../maps/ratdom_maze_523.md), Skeleton dance: [ratdom_maze_533](../maps/ratdom_maze_533.md), Skeleton dance: [ratdom_maze_542](../maps/ratdom_maze_542.md) (+3 more)
+**Found in:** Bloskelt + Roskelt: [Ratdom maze 534](../maps/ratdom_maze_534.md), Pub: [Ratdom maze 523](../maps/ratdom_maze_523.md), Skeleton dance: [Ratdom maze 533](../maps/ratdom_maze_533.md), Skeleton dance: [Ratdom maze 542](../maps/ratdom_maze_542.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Elvedridge is an enemy in Andor's Trail (animal) with 30 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_523](../maps/ratdom_maze_523.md) | Pub | 2 | – |
-| [ratdom_maze_532](../maps/ratdom_maze_532.md) | – | 2 | – |
-| [ratdom_maze_533](../maps/ratdom_maze_533.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_534](../maps/ratdom_maze_534.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_541](../maps/ratdom_maze_541.md) | – | 2 | – |
-| [ratdom_maze_542](../maps/ratdom_maze_542.md) | Skeleton dance | 1 | – |
-| [ratdom_maze_543](../maps/ratdom_maze_543.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 523](../maps/ratdom_maze_523.md) | Pub | 2 | – |
+| [Ratdom maze 532](../maps/ratdom_maze_532.md) | – | 2 | – |
+| [Ratdom maze 533](../maps/ratdom_maze_533.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 534](../maps/ratdom_maze_534.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 541](../maps/ratdom_maze_541.md) | – | 2 | – |
+| [Ratdom maze 542](../maps/ratdom_maze_542.md) | Skeleton dance | 1 | – |
+| [Ratdom maze 543](../maps/ratdom_maze_543.md) | Skeleton dance | 2 | – |
 
 
 ## Version history

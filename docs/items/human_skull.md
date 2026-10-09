@@ -28,9 +28,9 @@ description: "Human skull is a rare other in Andor's Trail. How to get it: monst
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Death wrecker](../monsters/death_wrecker.md) | 5% | 1 | haunted_house, haunted_house_basement, haunted_underground_1 |
-| [Graveyard gatekeeper](../monsters/graveyard_gatekeeper.md) | 5% | 1 | haunted_cemetery1, haunted_cemetery2, haunted_forest12 |
-| [Deadwalker](../monsters/dead_walker.md) | 1% | 1 | haunted_forest1, haunted_forest14, haunted_forest19 |
+| [Death wrecker](../monsters/death_wrecker.md) | 5% | 1 | Haunted house, Haunted house basement, Haunted underground 1 |
+| [Graveyard gatekeeper](../monsters/graveyard_gatekeeper.md) | 5% | 1 | Haunted cemetery 1, Haunted cemetery 2, Haunted forest 12 |
+| [Deadwalker](../monsters/dead_walker.md) | 1% | 1 | Haunted forest 1, Haunted forest 14, Haunted forest 19 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

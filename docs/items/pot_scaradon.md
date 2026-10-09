@@ -34,7 +34,7 @@ description: "Scaradon extract is a ordinary potion in Andor's Trail. How to get
 
 ### Sold by
 
-- [Thorin](../monsters/thorin.md) (mountaincave3)
+- [Thorin](../monsters/thorin.md) (Mountaincave 3)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Ancient branchtender is an enemy in Andor's Trail (humanoid) with 253 HP, worth 490 XP, found in lodar15. Drops: Oegyth crystal."
+description: "Ancient branchtender is an enemy in Andor's Trail (humanoid) with 253 HP, worth 490 XP, found in Lodar 15. Drops: Oegyth crystal."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_153.png){ .sprite } Ancient branchtender
 
-**Found in:** [lodar15](../maps/lodar15.md)
+**Found in:** [Lodar 15](../maps/lodar15.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient branchtender is an enemy in Andor's Trail (humanoid) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar15 |
+| **Found in** | Lodar 15 |
 | **Class** | Humanoid |
 | **HP** | 253 |
 | **XP when defeated** | 490 |
@@ -56,7 +56,7 @@ description: "Ancient branchtender is an enemy in Andor's Trail (humanoid) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar15](../maps/lodar15.md) | – | 1 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 1 | – |
 
 
 ## Version history

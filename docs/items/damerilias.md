@@ -27,12 +27,12 @@ description: "Damerilias is a quest other in Andor's Trail. How to get it: quest
 
 ### Quest & dialogue rewards
 
-- From [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) during [The roots of love](../quests/roots_love.md#stage-20) (3×)
-- From stepping on a trigger on [lakecave1](../maps/lakecave1.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-30) (1×)
-- From stepping on a trigger on [lakecave1](../maps/lakecave1.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-32) (1×)
-- From stepping on a trigger on [lakecave1](../maps/lakecave1.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-34) (1×)
-- From stepping on a trigger on [lakecave1](../maps/lakecave1.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-36) (1×)
-- From stepping on a trigger on [lakecave1](../maps/lakecave1.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-38) (1×)
+- From [Caeda](../monsters/caeda.md) ([Lakecave 2](../maps/lakecave2.md)) during [The roots of love](../quests/roots_love.md#stage-20) (3×)
+- From stepping on a trigger on [Lakecave 1](../maps/lakecave1.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-30) (1×)
+- From stepping on a trigger on [Lakecave 1](../maps/lakecave1.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-32) (1×)
+- From stepping on a trigger on [Lakecave 1](../maps/lakecave1.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-34) (1×)
+- From stepping on a trigger on [Lakecave 1](../maps/lakecave1.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-36) (1×)
+- From stepping on a trigger on [Lakecave 1](../maps/lakecave1.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-38) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -43,11 +43,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | [The roots of love](../quests/roots_love.md#stage-30) | handed over (3×) | “Yes. Here they are, three of the most beautiful damerilias.” |
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | must be carried (2×) | “Yes. Here they are, two of the most beautiful damerilias.” |
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | must be carried (1×) | “Yes. Here it is, the most beautiful one.” |
-| [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) ([stoutford_potion](../maps/stoutford_potion.md)) | – | handed over (3×) | “OK, I have some damerilias with me.” |
-| [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) ([stoutford_potion](../maps/stoutford_potion.md)) | – | handed over (3×) | “And another one, please.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | [The roots of love](../quests/roots_love.md#stage-30) | handed over (3×) | “Yes. Here they are, three of the most beautiful damerilias.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | – | must be carried (2×) | “Yes. Here they are, two of the most beautiful damerilias.” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | – | must be carried (1×) | “Yes. Here it is, the most beautiful one.” |
+| [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) ([Stoutford potion](../maps/stoutford_potion.md)) | – | handed over (3×) | “OK, I have some damerilias with me.” |
+| [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) ([Stoutford potion](../maps/stoutford_potion.md)) | – | handed over (3×) | “And another one, please.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

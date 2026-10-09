@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 632 is an indoor location in Andor's Trail, in Library (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Cave wolf, Giant hornbat. Exits to Ratdom maze 622, Ratdom maze 642, Ratdom maze 641, Ratdom maze 621."
+description: "Ratdom maze 632 is an indoor location in Andor's Trail, in Library (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Cave teckel, Cave wolf. Exits to Ratdom maze 622, Ratdom maze 642, Ratdom maze 641, Ratdom maze 621."
 ---
 
 # Ratdom maze 632
@@ -81,9 +81,9 @@ description: "Ratdom maze 632 is an indoor location in Andor's Trail, in Library
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Cave teckel](../monsters/ratdom_m9b.md) | 30 | 5–5 | 2 | shares spawn with Cave wolf, Giant hornbat |
 | [Cave wolf](../monsters/ratdom_m9c.md) | 30 | 5–5 | 2 | shares spawn with Cave teckel, Giant hornbat |
 | [Giant hornbat](../monsters/ratdom_m9a.md) | 30 | 5–5 | 2 | shares spawn with Cave teckel, Cave wolf |
-| [Cave teckel](../monsters/ratdom_m9b.md) | 30 | 5–5 | 2 | shares spawn with Cave wolf, Giant hornbat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -92,8 +92,8 @@ description: "Ratdom maze 632 is an indoor location in Andor's Trail, in Library
 - [base_nondisplay](../quests/base_nondisplay.md): blocked passage opens at stage 2
 - [Rats!](../quests/mikhail_rats.md): a scripted event can trigger here from stage 100
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
-- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10
+- [Ratdom maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 32; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10
 
 ## Points of interest
 

@@ -37,7 +37,7 @@ description: "Paper shield is a ordinary buckler in Andor's Trail (Attack chance
 
 ### Found in containers
 
-- [brimhaven_school](../maps/brimhaven_school.md#container-0) (container 1, 100%), Brimhaven
+- [Brimhaven school](../maps/brimhaven_school.md#container-0) (container 1, 100%), Brimhaven
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -48,10 +48,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) | [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-22) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | must be worn (1×) | “(automatic)” |
-| [Teacher](../monsters/brv_teacher.md) ([brimhaven_school](../maps/brimhaven_school.md)) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) | [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-22) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) ([Brimhaven school](../maps/brimhaven_school.md)) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), [Golin](../monsters/golin.md) ([Brimhaven school](../maps/brimhaven_school.md)) | – | must be worn (1×) | “(automatic)” |
+| [Teacher](../monsters/brv_teacher.md) ([Brimhaven school](../maps/brimhaven_school.md)) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

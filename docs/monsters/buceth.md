@@ -63,7 +63,7 @@ description: "Buceth is an NPC who can also be fought in Andor's Trail."
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Buceth. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Buceth. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/buceth.json" data-npc="Buceth" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -71,7 +71,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (56 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-buceth"></span>**`buceth`** *(silent check: the first matching branch below is taken)*
 
@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “A while later, the men return. They explain that some of the methods …” → “A while later, the men return. They explain that some of the ways thi…”<br>· text: “Now, tell me. Would you in secret continue using the old methods your…” → “Now, tell me. Would you in secret continue using the old ways your pa…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…”<br>· text: “Hm, that might be an interesting proposal. How much gold are you sugg…” → “Hmm, that might be an interesting proposal. How much gold are you sug…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |

@@ -4,7 +4,7 @@ description: "Mountain wolf is an enemy in Andor's Trail (animal) with 49 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } Mountain wolf
 
-**Found in:** Blackwater Mountain: [blackwater_mountain14](../maps/blackwater_mountain14.md), Blackwater Mountain: [bwmfill2](../maps/bwmfill2.md), Blackwater Mountain: [bwmfill5](../maps/bwmfill5.md), Blackwater Mountain: [bwmfill6](../maps/bwmfill6.md) (+5 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md), Blackwater Mountain: [Bwmfill 2](../maps/bwmfill2.md), Blackwater Mountain: [Bwmfill 5](../maps/bwmfill5.md), Blackwater Mountain: [Bwmfill 6](../maps/bwmfill6.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -56,15 +56,15 @@ description: "Mountain wolf is an enemy in Andor's Trail (animal) with 49 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain10](../maps/blackwater_mountain10.md) | Prim | 3 | – |
-| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 3 | – |
-| [blackwater_mountain14](../maps/blackwater_mountain14.md) | Blackwater Mountain | 5 | – |
-| [bwmfill2](../maps/bwmfill2.md) | Blackwater Mountain | 3 | – |
-| [bwmfill5](../maps/bwmfill5.md) | Blackwater Mountain | 4 | – |
-| [bwmfill6](../maps/bwmfill6.md) | Blackwater Mountain | 4 | – |
-| [bwmfill7](../maps/bwmfill7.md) | Blackwater Mountain | 4 | – |
-| [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | 10 | – |
-| [ratdom_bwm1](../maps/ratdom_bwm1.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 10](../maps/blackwater_mountain10.md) | Prim | 3 | – |
+| [Blackwater mountain 12](../maps/blackwater_mountain12.md) | Prim | 3 | – |
+| [Blackwater mountain 14](../maps/blackwater_mountain14.md) | Blackwater Mountain | 5 | – |
+| [Bwmfill 2](../maps/bwmfill2.md) | Blackwater Mountain | 3 | – |
+| [Bwmfill 5](../maps/bwmfill5.md) | Blackwater Mountain | 4 | – |
+| [Bwmfill 6](../maps/bwmfill6.md) | Blackwater Mountain | 4 | – |
+| [Bwmfill 7](../maps/bwmfill7.md) | Blackwater Mountain | 4 | – |
+| [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | – | 10 | – |
+| [Ratdom bwm 1](../maps/ratdom_bwm1.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

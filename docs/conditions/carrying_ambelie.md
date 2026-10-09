@@ -29,9 +29,9 @@ description: "Carrying Ambelie is a harmful physical condition in Andor's Trail:
 | Attack cost (AP) | +2 |
 | Move cost (AP) | +2 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,15 +42,15 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) | [Immaculate kidnapping](../quests/Thieves02.md#stage-20) | Permanent |
+| [Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md)) | [Immaculate kidnapping](../quests/Thieves02.md#stage-20) | Permanent |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Removed by** walking into a blocked passage on [guildbrig2](../maps/guildbrig2.md) during [Immaculate kidnapping](../quests/Thieves02.md#stage-55).
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Removed by** walking into a blocked passage on [Guildbrig 2](../maps/guildbrig2.md) during [Immaculate kidnapping](../quests/Thieves02.md#stage-55).
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

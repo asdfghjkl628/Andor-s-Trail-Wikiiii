@@ -1,10 +1,10 @@
 ---
-description: "Cithurn is a non-player character (NPC) in Andor's Trail, found in waterwaybhouse. Starts Just the beginning."
+description: "Cithurn is a non-player character (NPC) in Andor's Trail, found in Waterwaybhouse. Starts Just the beginning."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_30.png){ .sprite } Cithurn
 
-**Where to find Cithurn:** [waterwaybhouse](../maps/waterwaybhouse.md#pin-npc-waterwayhermit)
+**Where to find Cithurn:** [Waterwaybhouse](../maps/waterwaybhouse.md#pin-npc-waterwayhermit)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Cithurn is a non-player character (NPC) in Andor's Trail, found in
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Just the beginning](../quests/waterwayacave.md) |
-| **Found in** | waterwaybhouse |
+| **Found in** | Waterwaybhouse |
 | **Entry ID** | `waterwayhermit` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
@@ -23,11 +23,11 @@ description: "Cithurn is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Just the beginning](../quests/waterwayacave.md): stages 10, 12, 15, 20, 25, 30, 35, 60, 70
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 10, 90, 120
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stages 10, 90, 120
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Cithurn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Cithurn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/cithurn_begin.json" data-npc="Cithurn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,18 +35,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (28 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-cithurn_begin"></span>**`cithurn_begin`** *(silent check: the first matching branch below is taken)*
 
     - Next *(if reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35))* → [cithurn_10](#d-cithurn_10)
-    - Next *(if NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90))* → [cithurn_00](#d-cithurn_00)
+    - Next *(if NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90))* → [cithurn_00](#d-cithurn_00)
     - Next *(if reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 12 of [Just the beginning](../quests/waterwayacave.md#stage-12); NOT reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50))* → [cithurn_64](#d-cithurn_64)
-    - Next *(if reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70); NOT reached stage 120 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-120))* → [cithurn_110](#d-cithurn_110)
-    - Next *(if NOT reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70))* → [cithurn_90](#d-cithurn_90)
-    - Next *(if reached stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10))* → [cithurn_120](#d-cithurn_120)
+    - Next *(if reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70); NOT reached stage 120 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-120))* → [cithurn_110](#d-cithurn_110)
+    - Next *(if NOT reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70))* → [cithurn_90](#d-cithurn_90)
+    - Next *(if reached stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90); NOT reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10))* → [cithurn_120](#d-cithurn_120)
     - Next *(if reached stage 10 of [Just the beginning](../quests/waterwayacave.md#stage-10); NOT reached stage 70 of [Just the beginning](../quests/waterwayacave.md#stage-70))* → [cithurn_90](#d-cithurn_90)
-    - Next *(if reached stage 120 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-120))* → [cithurn_130](#d-cithurn_130)
+    - Next *(if reached stage 120 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-120))* → [cithurn_130](#d-cithurn_130)
 
     <span id="d-cithurn_10"></span>**`cithurn_10`** Cithurn: “The surrounding forest is usually quiet, but for some time now it has been under a monster invasion. I am surprised you managed to reach my home.” — **effects:** sets stage 15 of [Just the beginning](../quests/waterwayacave.md#stage-15)
 
@@ -71,8 +71,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-cithurn_90"></span>**`cithurn_90`** Cithurn: “It is good to see you again $playername.”
 
     - “I explored the cave. You were correct. I found a monster called Tesrekan, which was similar to the one I found in the…” *(if reached stage 55 of [Just the beginning](../quests/waterwayacave.md#stage-55); carry 1× [Tesrekan's bone](../items/tesrekanbone.md))* → [cithurn_60](#d-cithurn_60)
-    - “I think I need more help to be able to complete my mission.” *(if reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35); NOT reached stage 10 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-10))* → [cithurn_51](#d-cithurn_51)
-    - “I haven't found out what is happening yet, but I wanted to let you know I'm still working on it.” *(if reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-10); NOT reached stage 55 of [Just the beginning](../quests/waterwayacave.md#stage-55))* → [cithurn_91](#d-cithurn_91)
+    - “I think I need more help to be able to complete my mission.” *(if reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 35 of [Just the beginning](../quests/waterwayacave.md#stage-35); NOT reached stage 10 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-10))* → [cithurn_51](#d-cithurn_51)
+    - “I haven't found out what is happening yet, but I wanted to let you know I'm still working on it.” *(if reached stage 50 of [Trial by fire](../quests/charwood2.md#stage-50); reached stage 10 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-10); NOT reached stage 55 of [Just the beginning](../quests/waterwayacave.md#stage-55))* → [cithurn_91](#d-cithurn_91)
 
     <span id="d-cithurn_120"></span>**`cithurn_120`** Cithurn: “You again? What do you want this time?”
 
@@ -91,7 +91,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [cithurn_63](#d-cithurn_63)
 
-    <span id="d-cithurn_80"></span>**`cithurn_80`** Cithurn: “Well I'm the only one here. Perhaps you should leave. Come back when you have learned some manners.” — **effects:** sets stage 90 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-90)
+    <span id="d-cithurn_80"></span>**`cithurn_80`** Cithurn: “Well I'm the only one here. Perhaps you should leave. Come back when you have learned some manners.” — **effects:** sets stage 90 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-90)
 
 
     <span id="d-cithurn_65"></span>**`cithurn_65`** Cithurn: “Sorry. I haven't seen anyone like that.”
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I have experience fighting.” → [cithurn_67](#d-cithurn_67)
     - “Fine. If I'm back around here sometime in the future maybe I'll offer my help again. Or maybe I won't.” → *conversation ends*
 
-    <span id="d-cithurn_111"></span>**`cithurn_111`** Cithurn: “Thank you. It seems you do have more honor than I thought.” — **effects:** sets stage 120 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-120)
+    <span id="d-cithurn_111"></span>**`cithurn_111`** Cithurn: “Thank you. It seems you do have more honor than I thought.” — **effects:** sets stage 120 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-120)
 
 
     <span id="d-cithurn_112"></span>**`cithurn_112`** Cithurn: “Then I have nothing to say to you.”
@@ -115,7 +115,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I killed the monster. I brought one of its bones as proof.” → [cithurn_61](#d-cithurn_61)
 
-    <span id="d-cithurn_51"></span>**`cithurn_51`** Cithurn: “Here. Take this talisman. It does much to dispel evil forces. I acquired it long ago, and it has kept me safe over the years. Since you have agreed to help me I think your need is now greater than mine. My only request is that if you are…” — **effects:** gives 1× [Cithurn's talisman](../items/cithurn_talisman.md), sets stage 10 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-10)
+    <span id="d-cithurn_51"></span>**`cithurn_51`** Cithurn: “Here. Take this talisman. It does much to dispel evil forces. I acquired it long ago, and it has kept me safe over the years. Since you have agreed to help me I think your need is now greater than mine. My only request is that if you are…” — **effects:** gives 1× [Cithurn's talisman](../items/cithurn_talisman.md), sets stage 10 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-10)
 
     - Next → [cithurn_52](#d-cithurn_52)
 

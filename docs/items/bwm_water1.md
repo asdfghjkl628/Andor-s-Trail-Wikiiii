@@ -48,9 +48,9 @@ description: "Bottle of mountain water is a extraordinary healing item in Andor'
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 33.3333%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 20%)
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 50%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 33.3333%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 20%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

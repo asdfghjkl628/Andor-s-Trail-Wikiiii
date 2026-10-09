@@ -25,7 +25,7 @@ description: "Laeroth prison key is a quest other in Andor's Trail. How to get i
 
 ### Found in containers
 
-- [laerothprison4](../maps/laerothprison4.md#container-0) (container 1, 100%)
+- [Laerothprison 4](../maps/laerothprison4.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,11 +36,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [laerothprison4](../maps/laerothprison4.md) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-31) | must be carried (1×) | “Unlock.” |
-| walking into a blocked passage on [laerothprison4](../maps/laerothprison4.md) | – | must be carried (1×) | “Unfortunately the lock is now broken.” |
-| walking into a blocked passage on [laerothprison4](../maps/laerothprison4.md) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-32) | must be carried (1×) | “Unlock.” |
-| walking into a blocked passage on [laerothprison4](../maps/laerothprison4.md) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-33) | must be carried (1×) | “Unlock.” |
-| walking into a blocked passage on [laerothprison4](../maps/laerothprison4.md) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-34) | must be carried (1×) | “Unlock.” |
+| walking into a blocked passage on [Laerothprison 4](../maps/laerothprison4.md) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-31) | must be carried (1×) | “Unlock.” |
+| walking into a blocked passage on [Laerothprison 4](../maps/laerothprison4.md) | – | must be carried (1×) | “Unfortunately the lock is now broken.” |
+| walking into a blocked passage on [Laerothprison 4](../maps/laerothprison4.md) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-32) | must be carried (1×) | “Unlock.” |
+| walking into a blocked passage on [Laerothprison 4](../maps/laerothprison4.md) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-33) | must be carried (1×) | “Unlock.” |
+| walking into a blocked passage on [Laerothprison 4](../maps/laerothprison4.md) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-34) | must be carried (1×) | “Unlock.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

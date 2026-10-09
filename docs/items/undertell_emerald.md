@@ -28,11 +28,11 @@ description: "Emerald is a extraordinary gem in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gilded dust](../monsters/gilded_dust.md) | 0.1% | 1 | undertell_03, undertell_04 |
+| [Gilded dust](../monsters/gilded_dust.md) | 0.1% | 1 | Undertell 03, Undertell 04 |
 
 ### Sold by
 
-- [Shy Cora](../monsters/shy_cora.md) (undertell_01, undertell_1_1)
+- [Shy Cora](../monsters/shy_cora.md) (Undertell 01, Undertell 1 1)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

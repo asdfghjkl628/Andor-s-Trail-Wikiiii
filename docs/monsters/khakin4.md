@@ -4,7 +4,7 @@ description: "Strong khakin beast is an enemy in Andor's Trail (reptile) with 50
 
 # ![](../assets/icons/monsters/monsters_rltiles1_114.png){ .sprite } Strong khakin beast
 
-**Found in:** Loneford: [lodar2](../maps/lodar2.md), [lodar3](../maps/lodar3.md), [lodar9](../maps/lodar9.md)
+**Found in:** Loneford: [Lodar 2](../maps/lodar2.md), [Lodar 3](../maps/lodar3.md), [Lodar 9](../maps/lodar9.md)
 
 <div class="infobox" markdown>
 
@@ -56,9 +56,9 @@ description: "Strong khakin beast is an enemy in Andor's Trail (reptile) with 50
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar2](../maps/lodar2.md) | Loneford | 2 | – |
-| [lodar3](../maps/lodar3.md) | – | 7 | – |
-| [lodar9](../maps/lodar9.md) | – | 4 | – |
+| [Lodar 2](../maps/lodar2.md) | Loneford | 2 | – |
+| [Lodar 3](../maps/lodar3.md) | – | 7 | – |
+| [Lodar 9](../maps/lodar9.md) | – | 4 | – |
 
 
 ## Version history

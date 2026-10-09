@@ -34,13 +34,13 @@ description: "Potion of blind rage is a ordinary potion in Andor's Trail. How to
 
 ### Sold by
 
-- [Mazeg](../monsters/mazeg.md) (blackwater_mountain43)
+- [Mazeg](../monsters/mazeg.md) (Blackwater mountain 43)
 
 ### Found in containers
 
-- [galmore_63](../maps/galmore_63.md#container-0) (container 1, 100%), Mt. Galmore
-- [wild16_cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
-- [witch_house_basement](../maps/witch_house_basement.md#container-1) (container 2, 100%)
+- [Galmore 63](../maps/galmore_63.md#container-0) (container 1, 100%), Mt. Galmore
+- [Wild 16 cave](../maps/wild16_cave.md#container-1) (container 2, 100%), Flagstone Prison
+- [Witch house basement](../maps/witch_house_basement.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

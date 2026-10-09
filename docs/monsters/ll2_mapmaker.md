@@ -4,7 +4,7 @@ description: "Thyrope Splathershed is a non-player character (NPC) in Andor's Tr
 
 # ![](../assets/icons/monsters/monsters_ld1_17.png){ .sprite } Thyrope Splathershed
 
-**Where to find Thyrope Splathershed:** Remgard: [remgard_tavern0](../maps/remgard_tavern0.md#pin-npc-ll2_mapmaker)
+**Where to find Thyrope Splathershed:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-ll2_mapmaker)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Thyrope Splathershed is a non-player character (NPC) in Andor's Tr
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thyrope Splathershed. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thyrope Splathershed. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ll2_mapmaker.json" data-npc="Thyrope Splathershed" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (41 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ll2_mapmaker"></span>**`ll2_mapmaker`** Thyrope Splathershed: “Hello, child. Sit down, you may keep me company.”
 

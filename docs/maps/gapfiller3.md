@@ -1,8 +1,8 @@
 ---
-description: "Gapfiller3 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Forest ant, Yellow forest ant. Exits to Wild1, Wild3."
+description: "Gapfiller 3 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Forest ant, Yellow forest ant. Exits to Wild 1, Wild 3."
 ---
 
-# Gapfiller3
+# Gapfiller 3
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Gapfiller3 is an outdoor location in Andor's Trail, near Crossglen
 | **Region** | Near Crossglen (settlement) |
 | **Type** | Outdoors |
 | **Size** | 14×10 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Gapfiller3** is an outdoor map, near Crossglen (settlement). It has no NPCs and 2 kinds of enemy. Exits lead to Wild1, Wild3.
+**Gapfiller 3** is an outdoor map, near Crossglen (settlement). It has no NPCs and 2 kinds of enemy. Exits lead to Wild 1, Wild 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/gapfiller3.webp" alt="Map of Gapfiller3" width="448" height="320" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../wild1/#place-south" title="Exit to Wild1" style="left:35.714%;top:0.000%;width:14.286%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../wild3/#place-north" title="Exit to Wild3" style="left:14.286%;top:90.000%;width:14.286%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Forest ant, Yellow forest ant" style="left:7.143%;top:20.000%;width:64.286%;height:60.000%"></span><a class="mob" href="../../monsters/forest_ant/" title="Forest ant" style="left:57.143%;top:70.000%;width:7.143%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_0.png" alt="Forest ant"></a><a class="mob" href="../../monsters/forest_ant/" title="Forest ant" style="left:50.000%;top:50.000%;width:7.143%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_0.png" alt="Forest ant"></a><a class="pin pin-exit" href="#key-1" style="left:42.857%;top:5.000%" title="Exit (north): to [Wild1](wild1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:21.429%;top:95.000%" title="Exit (south): to [Wild3](wild3.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/gapfiller3.webp" alt="Map of Gapfiller 3" width="448" height="320" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../wild1/#place-south" title="Exit to Wild 1" style="left:35.714%;top:0.000%;width:14.286%;height:10.000%"></a><a id="place-south" class="mo mo-mapchange" href="../wild3/#place-north" title="Exit to Wild 3" style="left:14.286%;top:90.000%;width:14.286%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Forest ant, Yellow forest ant" style="left:7.143%;top:20.000%;width:64.286%;height:60.000%"></span><a class="mob" href="../../monsters/forest_ant/" title="Forest ant" style="left:57.143%;top:70.000%;width:7.143%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_0.png" alt="Forest ant"></a><a class="mob" href="../../monsters/forest_ant/" title="Forest ant" style="left:50.000%;top:50.000%;width:7.143%;height:10.000%"><img src="../../assets/icons/monsters/monsters_insects_0.png" alt="Forest ant"></a><a class="pin pin-exit" href="#key-1" style="left:42.857%;top:5.000%" title="Exit (north): to [Wild 1](wild1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:21.429%;top:95.000%" title="Exit (south): to [Wild 3](wild3.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Wild1](wild1.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Wild3](wild3.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Wild 1](wild1.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Wild 3](wild3.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Gapfiller3 is an outdoor location in Andor's Trail, near Crossglen
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Wild1](wild1.md) | Crossglen | 1 |
-| South | [Wild3](wild3.md) | Fallhaven | 2 |
+| North | [Wild 1](wild1.md) | Crossglen | 1 |
+| South | [Wild 3](wild3.md) | Fallhaven | 2 |
 
 ## Enemies
 

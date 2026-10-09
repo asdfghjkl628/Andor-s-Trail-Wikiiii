@@ -4,7 +4,7 @@ description: "Strong Prim treasury guard is an NPC who can also be fought in And
 
 # ![](../assets/icons/monsters/monsters_rltiles1_69.png){ .sprite } Strong Prim treasury guard
 
-**Where to find Strong Prim treasury guard:** Prim: [blackwater_mountain25](../maps/blackwater_mountain25.md#pin-npc-prim_treasury_guard2)
+**Where to find Strong Prim treasury guard:** Prim: [Blackwater mountain 25](../maps/blackwater_mountain25.md#pin-npc-prim_treasury_guard2)
 
 <div class="infobox" markdown>
 
@@ -51,11 +51,11 @@ description: "Strong Prim treasury guard is an NPC who can also be fought in And
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain25](../maps/blackwater_mountain25.md) | Prim | 1 | – |
+| [Blackwater mountain 25](../maps/blackwater_mountain25.md) | Prim | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Strong Prim treasury guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Strong Prim treasury guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_treasury_guard2.json" data-npc="Strong Prim treasury guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_treasury_guard2"></span>**`prim_treasury_guard2`** Strong Prim treasury guard: “Well, well, well.”
 

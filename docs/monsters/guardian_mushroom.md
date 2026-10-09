@@ -4,7 +4,7 @@ description: "Mushroom guardian is an NPC who can also be fought in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } Mushroom guardian
 
-**Where to find Mushroom guardian:** Flagstone Prison: [lake_shore_road_8](../maps/lake_shore_road_8.md#pin-npc-guardian_mushroom)
+**Where to find Mushroom guardian:** Flagstone Prison: [Lake shore road 8](../maps/lake_shore_road_8.md#pin-npc-guardian_mushroom)
 
 <div class="infobox" markdown>
 
@@ -61,11 +61,11 @@ description: "Mushroom guardian is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road_8](../maps/lake_shore_road_8.md) | Flagstone Prison | 5 | – |
+| [Lake shore road 8](../maps/lake_shore_road_8.md) | Flagstone Prison | 5 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mushroom guardian. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mushroom guardian. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guardian_mushroom_1.json" data-npc="Mushroom guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guardian_mushroom_1"></span>**`guardian_mushroom_1`** Mushroom guardian: “You're here to take our magical mushroom!”
 

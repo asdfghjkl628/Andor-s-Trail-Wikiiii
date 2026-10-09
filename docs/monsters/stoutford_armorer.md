@@ -4,7 +4,7 @@ description: "Odirath is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_10.png){ .sprite } Odirath
 
-**Where to find Odirath:** Stoutford: [stoutford_armorer](../maps/stoutford_armorer.md#pin-npc-stoutford_armorer)
+**Where to find Odirath:** Stoutford: [Stoutford armorer](../maps/stoutford_armorer.md#pin-npc-stoutford_armorer)
 
 <div class="infobox" markdown>
 
@@ -41,12 +41,12 @@ description: "Odirath is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [Lost girl looking for lost things](../quests/stn_quest_gyra.md): stages 10, 70, 170
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 30
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stage 9
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 30
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 9
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Odirath. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Odirath. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/odirath_0.json" data-npc="Odirath" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -54,7 +54,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (20 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-odirath_0"></span>**`odirath_0`** Odirath: “Welcome to my shop. Are you looking for anything in particular?”
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “You look a bit worried.” *(if NOT reached stage 10 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-10); NOT reached stage 60 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60))* → [odirath_2](#d-odirath_2)
     - “You look happy again.” *(if reached stage 60 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60))* → [odirath_3](#d-odirath_3)
     - “Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you.” *(if hand over 1× [Pretty porcelain figure](../items/brv_wh_item_07.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40))* → [brv_wh_delivery_odirath](#d-brv_wh_delivery_odirath)
-    - “I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?” *(if reached stage 5 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-5); NOT reached stage 9 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-9))* → [odirath_8](#d-odirath_8)
+    - “I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?” *(if reached stage 5 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-5); NOT reached stage 9 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-9))* → [odirath_8](#d-odirath_8)
 
     <span id="d-odirath_1"></span>**`odirath_1`** Odirath: “I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know…”
 
@@ -85,7 +85,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 99 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-99))* → [odirath_3_2](#d-odirath_3_2)
     - branch 2 → [odirath_3_1](#d-odirath_3_1)
 
-    <span id="d-brv_wh_delivery_odirath"></span>**`brv_wh_delivery_odirath`** Odirath: “Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.” — **effects:** clears stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 30 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-30), gives 30× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_odirath"></span>**`brv_wh_delivery_odirath`** Odirath: “Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.” — **effects:** clears stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 30 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-30), gives 30× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
 
@@ -122,7 +122,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I understand.” → [odirath_0](#d-odirath_0)
 
-    <span id="d-odirath_8c"></span>**`odirath_8c`** Odirath: “The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you.” — **effects:** sets stage 9 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-9)
+    <span id="d-odirath_8c"></span>**`odirath_8c`** Odirath: “The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you.” — **effects:** sets stage 9 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-9)
 
     - “Great!” → [odirath_0](#d-odirath_0)
 
@@ -159,7 +159,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “OK.” → *conversation ends*
     - “I did that already. But he didn't seem to be happy about it.” *(if reached stage 90 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-90))* → *conversation ends*
-    - “I did that already. Although he won't need it, because the castle is already clear of the undead.” *(if reached stage 149 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-149))* → *conversation ends*
+    - “I did that already. Although he won't need it, because the castle is already clear of the undead.” *(if reached stage 149 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-149))* → *conversation ends*
     - “Maybe.” → *conversation ends*
 
 

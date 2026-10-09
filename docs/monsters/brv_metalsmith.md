@@ -4,7 +4,7 @@ description: "Edrin is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } Edrin
 
-**Where to find Edrin:** Brimhaven: [brimhaven_metalsmith](../maps/brimhaven_metalsmith.md#pin-npc-brv_metalsmith)
+**Where to find Edrin:** Brimhaven: [Brimhaven metalsmith](../maps/brimhaven_metalsmith.md#pin-npc-brv_metalsmith)
 
 <div class="infobox" markdown>
 
@@ -34,11 +34,11 @@ description: "Edrin is a non-player character (NPC) in Andor's Trail, found in B
 ## Quests
 
 - [A strange looking dagger](../quests/brv_dagger.md): stages 10, 20, 25, 50, 60, 70, 80, 90, 100
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 20
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 20
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Edrin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Edrin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/edrin_0_0.json" data-npc="Edrin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (26 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-edrin_0_0"></span>**`edrin_0_0`** Edrin: “Hello.”
 
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-edrin_7_0"></span>**`edrin_7_0`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if 30 rounds passed since timer “Dagger_repair”; NOT reached stage 30 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); NOT reached stage 40 of [brv_dagger_nondisplay (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40))* → [edrin_7_1a](#d-edrin_7_1a)
+    - branch 1 *(if 30 rounds passed since timer “Dagger_repair”; NOT reached stage 30 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-30); NOT reached stage 40 of [Brimhaven dagger story flags (hidden flag)](../quests/brv_dagger_nondisplay.md#stage-40))* → [edrin_7_1a](#d-edrin_7_1a)
     - branch 2 *(if 30 rounds passed since timer “Dagger_repair”)* → [edrin_7_1b](#d-edrin_7_1b)
     - branch 3 → [edrin_7_1c](#d-edrin_7_1c)
 
@@ -84,7 +84,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “OK. Thanks. What type of services and products do you supply?” → [edrin_1](#d-edrin_1)
 
-    <span id="d-brv_wh_delivery_edrin"></span>**`brv_wh_delivery_edrin`** Edrin: “Ah, yes, a striped hammer. Don't look so impatient. Here's my delivery charge, and now you can leave!” — **effects:** clears stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 20 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-20), gives 10× [Gold coins](../items/gold.md)
+    <span id="d-brv_wh_delivery_edrin"></span>**`brv_wh_delivery_edrin`** Edrin: “Ah, yes, a striped hammer. Don't look so impatient. Here's my delivery charge, and now you can leave!” — **effects:** clears stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 20 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-20), gives 10× [Gold coins](../items/gold.md)
 
     - “Thank you.” → *conversation ends*
 
@@ -174,7 +174,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 25 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “I recognize this. I made it, many years ago. See this recess in the p…” → “I recognize this. I made it, many years ago, for a man called Lawelly…”<br>· text: “The best I can offer is 800gp. The repair is quite delicate, and if d…” → “The best I can offer is 800 gold. The repair is quite delicate, and i…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 8 lines changed<br>· text: “I recognize these. I made the dagger, many years ago. See this recess…” → “I recognize these. I made the dagger, many years ago, for a man calle…”<br>· text: “Yes, it is done. Here is the repaired dagger.” → “Yes, it is done. Here is the repaired dagger. It's nice to see Lawell…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

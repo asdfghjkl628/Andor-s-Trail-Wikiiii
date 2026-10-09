@@ -1,8 +1,8 @@
 ---
-description: "Brimhaven7 is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Anakis. Exits to Basiliskcave1, Brimhaven3."
+description: "Brimhaven 7 is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Anakis. Exits to Basiliskcave 1, Brimhaven 3."
 ---
 
-# Brimhaven7
+# Brimhaven 7
 
 <div class="infobox" markdown>
 
@@ -12,7 +12,7 @@ description: "Brimhaven7 is an indoor location in Andor's Trail, in Brimhaven (s
 | **Region** | In Brimhaven (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 30×5 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 | **NPCs** | 1 |
 | **Quests** | 2 |
@@ -20,20 +20,20 @@ description: "Brimhaven7 is an indoor location in Andor's Trail, in Brimhaven (s
 
 </div>
 
-**Brimhaven7** is an indoor map, in Brimhaven (settlement). It has 1 NPC, and no enemies. Exits lead to Basiliskcave1, Brimhaven3.
+**Brimhaven 7** is an indoor map, in Brimhaven (settlement). It has 1 NPC, and no enemies. Exits lead to Basiliskcave 1, Brimhaven 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven7.webp" alt="Map of Brimhaven7" width="960" height="160" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brimhaven3/#place-north2" title="Exit to Brimhaven3" style="left:6.667%;top:80.000%;width:36.667%;height:20.000%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:13.333%;top:20.000%;width:3.333%;height:20.000%"></a><a id="place-basiliskcave" class="mo mo-mapchange" href="../basiliskcave1/#place-entrance" title="Exit to Basiliskcave1" style="left:6.667%;top:20.000%;width:3.333%;height:20.000%"></a><a class="mo mo-script" href="../../quests/cat_and_mouse/#stage-90" title="Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)" style="left:6.667%;top:40.000%;width:36.667%;height:40.000%"></a><span class="mo mo-spawn" title="Spawns: Anakis" style="left:10.000%;top:40.000%;width:6.667%;height:20.000%"></span><a class="mob" href="../../monsters/anakis/" title="Anakis" style="left:10.000%;top:40.000%;width:3.333%;height:20.000%"><img src="../../assets/icons/monsters/monsters_ld1_84.png" alt="Anakis"></a><a class="pin pin-exit" href="#key-1" style="left:8.333%;top:30.000%" title="Exit (north): to [Basiliskcave1](basiliskcave1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:25.000%;top:90.000%" title="Exit (south): to [Brimhaven3](brimhaven3.md)">2</a><a id="pin-npc-anakis" class="pin pin-npc" href="#key-3" style="left:11.667%;top:50.000%" title="[Anakis](../../monsters/anakis.md): 1 quest">3</a><a class="pin pin-container" href="#key-4" style="left:15.000%;top:30.000%" title="Container 1: Mead">4</a><a class="pin pin-script" href="#key-5" style="left:25.000%;top:60.000%" title="Quest trigger: Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven7.webp" alt="Map of Brimhaven 7" width="960" height="160" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brimhaven3/#place-north2" title="Exit to Brimhaven 3" style="left:6.667%;top:80.000%;width:36.667%;height:20.000%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:13.333%;top:20.000%;width:3.333%;height:20.000%"></a><a id="place-basiliskcave" class="mo mo-mapchange" href="../basiliskcave1/#place-entrance" title="Exit to Basiliskcave 1" style="left:6.667%;top:20.000%;width:3.333%;height:20.000%"></a><a class="mo mo-script" href="../../quests/cat_and_mouse/#stage-90" title="Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)" style="left:6.667%;top:40.000%;width:36.667%;height:40.000%"></a><span class="mo mo-spawn" title="Spawns: Anakis" style="left:10.000%;top:40.000%;width:6.667%;height:20.000%"></span><a class="mob" href="../../monsters/anakis/" title="Anakis" style="left:10.000%;top:40.000%;width:3.333%;height:20.000%"><img src="../../assets/icons/monsters/monsters_ld1_84.png" alt="Anakis"></a><a class="pin pin-exit" href="#key-1" style="left:8.333%;top:30.000%" title="Exit (north): to [Basiliskcave 1](basiliskcave1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:25.000%;top:90.000%" title="Exit (south): to [Brimhaven 3](brimhaven3.md)">2</a><a id="pin-npc-anakis" class="pin pin-npc" href="#key-3" style="left:11.667%;top:50.000%" title="[Anakis](../../monsters/anakis.md): 1 quest">3</a><a class="pin pin-container" href="#key-4" style="left:15.000%;top:30.000%" title="Container 1: Mead">4</a><a class="pin pin-script" href="#key-5" style="left:25.000%;top:60.000%" title="Quest trigger: Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Basiliskcave1](basiliskcave1.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Brimhaven3](brimhaven3.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Basiliskcave 1](basiliskcave1.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Brimhaven 3](brimhaven3.md) |
     | <span id="key-3"></span>3 | [Anakis](../monsters/anakis.md) | 1 quest |
     | <span id="key-4"></span>4 | Container 1 | Mead |
     | <span id="key-5"></span>5 | Quest trigger | Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”) |
@@ -45,8 +45,8 @@ description: "Brimhaven7 is an indoor location in Andor's Trail, in Brimhaven (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Basiliskcave1](basiliskcave1.md) | Brimhaven | 1 |
-| South | [Brimhaven3](brimhaven3.md) | Brimhaven | 2 |
+| North | [Basiliskcave 1](basiliskcave1.md) | Brimhaven | 1 |
+| South | [Brimhaven 3](brimhaven3.md) | Brimhaven | 2 |
 
 ## NPCs
 

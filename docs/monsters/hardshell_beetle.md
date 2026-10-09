@@ -4,7 +4,7 @@ description: "Hardshell beetle is an enemy in Andor's Trail (insect) with 25 HP,
 
 # ![](../assets/icons/monsters/monsters_insects_4.png){ .sprite } Hardshell beetle
 
-**Found in:** Brightport: [waterway_forest2](../maps/waterway_forest2.md), Fallhaven: [roadbeforecrossroads7](../maps/roadbeforecrossroads7.md), Fallhaven: [wild13](../maps/wild13.md), Foaming Flask Tavern: [road1](../maps/road1.md) (+16 more)
+**Found in:** Brightport: [Waterway forest 2](../maps/waterway_forest2.md), Fallhaven: [Roadbeforecrossroads 7](../maps/roadbeforecrossroads7.md), Fallhaven: [Wild 13](../maps/wild13.md), Foaming Flask Tavern: [Road 1](../maps/road1.md) (+16 more)
 
 <div class="infobox" markdown>
 
@@ -55,26 +55,26 @@ description: "Hardshell beetle is an enemy in Andor's Trail (insect) with 25 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild16](../maps/brightportwild16.md) | Greenscale tribe | 2 | – |
-| [brightportwild17](../maps/brightportwild17.md) | Greenscale tribe | 2 | – |
-| [cabin_norcity_road1](../maps/cabin_norcity_road1.md) | – | 1 | – |
-| [cabin_norcity_road2](../maps/cabin_norcity_road2.md) | – | 2 | – |
-| [cabin_norcity_road4](../maps/cabin_norcity_road4.md) | – | 3 | – |
-| [galmore_10a](../maps/galmore_10a.md) | – | 2 | – |
-| [lake_shore_road_9](../maps/lake_shore_road_9.md) | – | 3 | – |
-| [lodarhouse0](../maps/lodarhouse0.md) | – | 6 | – |
-| [road1](../maps/road1.md) | Foaming Flask Tavern | 3 | – |
-| [road3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
-| [road4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
-| [road5](../maps/road5.md) | – | 1 | – |
-| [roadbeforecrossroads7](../maps/roadbeforecrossroads7.md) | Fallhaven | 5 | – |
-| [roadbeforecrossroads8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 3 | – |
-| [waterway_forest2](../maps/waterway_forest2.md) | Brightport | 2 | – |
-| [way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md) | – | 1 | – |
-| [waytobrightport8](../maps/waytobrightport8.md) | – | 2 | – |
-| [wild13](../maps/wild13.md) | Fallhaven | 1 | – |
-| [wild14_cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 5 | – |
-| [wild15](../maps/wild15.md) | Foaming Flask Tavern | 2 | – |
+| [Brightportwild 16](../maps/brightportwild16.md) | Greenscale tribe | 2 | – |
+| [Brightportwild 17](../maps/brightportwild17.md) | Greenscale tribe | 2 | – |
+| [Cabin norcity road 1](../maps/cabin_norcity_road1.md) | – | 1 | – |
+| [Cabin norcity road 2](../maps/cabin_norcity_road2.md) | – | 2 | – |
+| [Cabin norcity road 4](../maps/cabin_norcity_road4.md) | – | 3 | – |
+| [Galmore 10a](../maps/galmore_10a.md) | – | 2 | – |
+| [Lake shore road 9](../maps/lake_shore_road_9.md) | – | 3 | – |
+| [Lodarhouse 0](../maps/lodarhouse0.md) | – | 6 | – |
+| [Road 1](../maps/road1.md) | Foaming Flask Tavern | 3 | – |
+| [Road 3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
+| [Road 4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
+| [Road 5](../maps/road5.md) | – | 1 | – |
+| [Roadbeforecrossroads 7](../maps/roadbeforecrossroads7.md) | Fallhaven | 5 | – |
+| [Roadbeforecrossroads 8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 3 | – |
+| [Waterway forest 2](../maps/waterway_forest2.md) | Brightport | 2 | – |
+| [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md) | – | 1 | – |
+| [Waytobrightport 8](../maps/waytobrightport8.md) | – | 2 | – |
+| [Wild 13](../maps/wild13.md) | Fallhaven | 1 | – |
+| [Wild 14 cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 5 | – |
+| [Wild 15](../maps/wild15.md) | Foaming Flask Tavern | 2 | – |
 
 
 ## Version history

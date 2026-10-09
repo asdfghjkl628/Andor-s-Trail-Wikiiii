@@ -1,8 +1,8 @@
 ---
-description: "arulircave_non_display is a hidden quest in Andor's Trail, started by Bernhar (arulirmountain1). 2 stages. Talked to Bernhar"
+description: "Arulir cave story flags is a hidden quest in Andor's Trail, started by Bernhar (arulirmountain1). 2 stages. Talked to Bernhar"
 ---
 
-# arulircave_non_display
+# Arulir cave story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "arulircave_non_display is a hidden quest in Andor's Trail, started
 | **Quest ID** | `arulircave_non_display` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 |
-| **Started by** | [Bernhar](../monsters/bernhar.md) ([arulirmountain1](../maps/arulirmountain1.md)) |
+| **Started by** | [Bernhar](../monsters/bernhar.md) ([Arulirmountain 1](../maps/arulirmountain1.md)) |
 | **NPCs involved** | [Bernhar](../monsters/bernhar.md) |
-| **Locations** | [arulirmountain1](../maps/arulirmountain1.md) |
+| **Locations** | [Arulirmountain 1](../maps/arulirmountain1.md) |
 
 </div>
 
@@ -26,9 +26,9 @@ description: "arulircave_non_display is a hidden quest in Andor's Trail, started
 
 ## Prerequisites to start
 
-Start with [Bernhar](../monsters/bernhar.md) ([arulirmountain1](../maps/arulirmountain1.md)). Required:
+Start with [Bernhar](../monsters/bernhar.md) ([Arulirmountain 1](../maps/arulirmountain1.md)). Required:
 
-- reached stage 10 of [arulircave_non_display (hidden flag)](../quests/arulircave_non_display.md#stage-10)
+- reached stage 10 of [Arulir cave story flags (hidden flag)](../quests/arulircave_non_display.md#stage-10)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -41,24 +41,41 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Talked to Bernhar | [Bernhar](../monsters/bernhar.md) ([arulirmountain1](../maps/arulirmountain1.md)) | – | – |
-| <span id="stage-20"></span>20 | Bernhar left<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain1](../maps/arulirmountain1.md).</span> | stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) | – | removes monsters from arulirmountain1 |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | Talked to Bernhar | [Bernhar](../monsters/bernhar.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Bernhar left<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Arulirmountain 1](../maps/arulirmountain1.md).</span> | stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md) | removes monsters from arulirmountain1 |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bernhar](../monsters/bernhar.md) ([arulirmountain1](../maps/arulirmountain1.md)) → choose “What do you mean by "unprotected"?” — **conditions:** reached stage 10 of [arulircave_non_display (hidden flag)](../quests/arulircave_non_display.md#stage-10) → **stage 10**. NPC: “You are risking your life here. It is not only those Arulir brutes. They are just annoying.”
+??? note "Stage 10 · Bernhar · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Bernhar](../monsters/bernhar.md), choose “What do you mean by "unprotected"?”
 
-    1. stepping on a trigger on [arulirmountain1](../maps/arulirmountain1.md) → the conversation leads here automatically → **stage 20**; also removes monsters from arulirmountain1
+    - **Needs:** stage 10
+    - *“You are risking your life here. It is not only those Arulir brutes. They are just annoying.”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · stepping on a trigger on arulirmountain1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Arulirmountain 1](../maps/arulirmountain1.md)
+
+    - **Gives:** removes monsters from arulirmountain1
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -103,6 +120,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `arulircave_non_display` |
+    | Name in game data | `arulircave_non_display` |
     | showInLog | 0 |
     | Stage IDs | 10, 20 |
     | Dialogue nodes setting stages | 10: `bernhar_40`, 20: `bernhar_remove` |

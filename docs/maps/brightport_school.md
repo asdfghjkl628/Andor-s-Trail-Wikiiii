@@ -1,5 +1,5 @@
 ---
-description: "Brightport school is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Cavill, Dibella. Exits to Brightport school9, Brightport school1, Brightport2, Brightport school2."
+description: "Brightport school is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Cavill, Dibella. Exits to Brightport school 9, Brightport school 1, Brightport 2, Brightport school 2."
 ---
 
 # Brightport school
@@ -18,22 +18,22 @@ description: "Brightport school is an indoor location in Andor's Trail, in Brigh
 
 </div>
 
-**Brightport school** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport school9, Brightport school1, Brightport2, Brightport school2.
+**Brightport school** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport school 9, Brightport school 1, Brightport 2, Brightport school 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school.webp" alt="Map of Brightport school" width="512" height="384" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport2/#place-school" title="Exit to Brightport2" style="left:43.750%;top:91.667%;width:12.500%;height:8.333%"></a><a id="place-north" class="mo mo-mapchange" href="../brightport_school9/#place-south" title="Exit to Brightport school9" style="left:43.750%;top:8.333%;width:12.500%;height:8.333%"></a><a id="place-west" class="mo mo-mapchange" href="../brightport_school2/#place-east" title="Exit to Brightport school2" style="left:0.000%;top:41.667%;width:6.250%;height:16.667%"></a><a id="place-east" class="mo mo-mapchange" href="../brightport_school1/#place-west" title="Exit to Brightport school1" style="left:93.750%;top:41.667%;width:6.250%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Dibella" style="left:12.500%;top:25.000%;width:18.750%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Cavill" style="left:87.500%;top:75.000%;width:6.250%;height:8.333%"></span><a class="mob" href="../../monsters/brightportnpc3/" title="Dibella" style="left:12.500%;top:33.333%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_ld1_188.png" alt="Dibella"></a><a class="mob" href="../../monsters/brightportstudent3/" title="Cavill" style="left:87.500%;top:75.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_ld1_19.png" alt="Cavill"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:12.500%" title="Exit (north): to [Brightport school9](brightport_school9.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:96.875%;top:50.000%" title="Exit (east): to [Brightport school1](brightport_school1.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:50.000%;top:95.833%" title="Exit (south): to [Brightport2](brightport2.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:3.125%;top:50.000%" title="Exit (west): to [Brightport school2](brightport_school2.md)">4</a><a id="pin-npc-brightportstudent3" class="pin pin-npc" href="#key-5" style="left:90.625%;top:79.167%" title="[Cavill](../../monsters/brightportstudent3.md): NPC">5</a><a id="pin-npc-brightportnpc3" class="pin pin-npc" href="#key-6" style="left:15.625%;top:37.500%" title="[Dibella](../../monsters/brightportnpc3.md): 1 quest">6</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school.webp" alt="Map of Brightport school" width="512" height="384" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport2/#place-school" title="Exit to Brightport 2" style="left:43.750%;top:91.667%;width:12.500%;height:8.333%"></a><a id="place-north" class="mo mo-mapchange" href="../brightport_school9/#place-south" title="Exit to Brightport school 9" style="left:43.750%;top:8.333%;width:12.500%;height:8.333%"></a><a id="place-west" class="mo mo-mapchange" href="../brightport_school2/#place-east" title="Exit to Brightport school 2" style="left:0.000%;top:41.667%;width:6.250%;height:16.667%"></a><a id="place-east" class="mo mo-mapchange" href="../brightport_school1/#place-west" title="Exit to Brightport school 1" style="left:93.750%;top:41.667%;width:6.250%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Dibella" style="left:12.500%;top:25.000%;width:18.750%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Cavill" style="left:87.500%;top:75.000%;width:6.250%;height:8.333%"></span><a class="mob" href="../../monsters/brightportnpc3/" title="Dibella" style="left:12.500%;top:33.333%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_ld1_188.png" alt="Dibella"></a><a class="mob" href="../../monsters/brightportstudent3/" title="Cavill" style="left:87.500%;top:75.000%;width:6.250%;height:8.333%"><img src="../../assets/icons/monsters/monsters_ld1_19.png" alt="Cavill"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:12.500%" title="Exit (north): to [Brightport school 9](brightport_school9.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:96.875%;top:50.000%" title="Exit (east): to [Brightport school 1](brightport_school1.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:50.000%;top:95.833%" title="Exit (south): to [Brightport 2](brightport2.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:3.125%;top:50.000%" title="Exit (west): to [Brightport school 2](brightport_school2.md)">4</a><a id="pin-npc-brightportstudent3" class="pin pin-npc" href="#key-5" style="left:90.625%;top:79.167%" title="[Cavill](../../monsters/brightportstudent3.md): NPC">5</a><a id="pin-npc-brightportnpc3" class="pin pin-npc" href="#key-6" style="left:15.625%;top:37.500%" title="[Dibella](../../monsters/brightportnpc3.md): 1 quest">6</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightport school9](brightport_school9.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Brightport school1](brightport_school1.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Brightport2](brightport2.md) |
-    | <span id="key-4"></span>4 | Exit (west) | to [Brightport school2](brightport_school2.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightport school 9](brightport_school9.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Brightport school 1](brightport_school1.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Brightport 2](brightport2.md) |
+    | <span id="key-4"></span>4 | Exit (west) | to [Brightport school 2](brightport_school2.md) |
     | <span id="key-5"></span>5 | [Cavill](../monsters/brightportstudent3.md) | NPC |
     | <span id="key-6"></span>6 | [Dibella](../monsters/brightportnpc3.md) | 1 quest |
 
@@ -44,10 +44,10 @@ description: "Brightport school is an indoor location in Andor's Trail, in Brigh
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightport school9](brightport_school9.md) | Brightport | 1 |
-| East | [Brightport school1](brightport_school1.md) | Brightport | 2 |
-| South | [Brightport2](brightport2.md) | Brightport | 3 |
-| West | [Brightport school2](brightport_school2.md) | Brightport | 4 |
+| North | [Brightport school 9](brightport_school9.md) | Brightport | 1 |
+| East | [Brightport school 1](brightport_school1.md) | Brightport | 2 |
+| South | [Brightport 2](brightport2.md) | Brightport | 3 |
+| West | [Brightport school 2](brightport_school2.md) | Brightport | 4 |
 
 ## NPCs
 
@@ -57,7 +57,7 @@ description: "Brightport school is an indoor location in Andor's Trail, in Brigh
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): [Dibella](../monsters/brightportnpc3.md) is involved
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Dibella](../monsters/brightportnpc3.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Dibella](../monsters/brightportnpc3.md) is involved
 
 
 ## Version history

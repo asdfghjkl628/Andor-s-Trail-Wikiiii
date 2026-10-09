@@ -4,7 +4,7 @@ description: "Muskrat is an enemy in Andor's Trail (animal) with 100 HP, worth 2
 
 # ![](../assets/icons/monsters/monsters_tometik5_26.png){ .sprite } Muskrat
 
-**Found in:** Brightport: [brightport8](../maps/brightport8.md), Brightport: [brightportwild18](../maps/brightportwild18.md), Brightport: [brightportwild7](../maps/brightportwild7.md), Brightport: [waytobrightport16](../maps/waytobrightport16.md) (+17 more)
+**Found in:** Brightport: [Brightport 8](../maps/brightport8.md), Brightport: [Brightportwild 18](../maps/brightportwild18.md), Brightport: [Brightportwild 7](../maps/brightportwild7.md), Brightport: [Waytobrightport 16](../maps/waytobrightport16.md) (+17 more)
 
 <div class="infobox" markdown>
 
@@ -48,27 +48,27 @@ description: "Muskrat is an enemy in Andor's Trail (animal) with 100 HP, worth 2
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport8](../maps/brightport8.md) | Brightport | 2 | – |
-| [brightportwild12](../maps/brightportwild12.md) | Buried citadel | 2 | – |
-| [brightportwild18](../maps/brightportwild18.md) | Brightport | 3 | – |
-| [brightportwild19](../maps/brightportwild19.md) | – | 3 | – |
-| [brightportwild2](../maps/brightportwild2.md) | – | 1 | – |
-| [brightportwild7](../maps/brightportwild7.md) | Brightport | 3 | – |
-| [waytobrightport10](../maps/waytobrightport10.md) | – | 3 | – |
-| [waytobrightport11](../maps/waytobrightport11.md) | – | 3 | – |
-| [waytobrightport12](../maps/waytobrightport12.md) | – | 5 | – |
-| [waytobrightport13](../maps/waytobrightport13.md) | – | 8 | – |
-| [waytobrightport14](../maps/waytobrightport14.md) | – | 5 | – |
-| [waytobrightport15](../maps/waytobrightport15.md) | – | 2 | – |
-| [waytobrightport16](../maps/waytobrightport16.md) | Brightport | 5 | – |
-| [waytobrightport19](../maps/waytobrightport19.md) | Brightport | 4 | – |
-| [waytobrightport20](../maps/waytobrightport20.md) | Brightport | 5 | – |
-| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 1 | – |
-| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [waytobrightport3](../maps/waytobrightport3.md) | – | 1 | – |
-| [waytobrightport4](../maps/waytobrightport4.md) | – | 2 | – |
-| [waytobrightport5](../maps/waytobrightport5.md) | – | 4 | – |
-| [waytobrightport7](../maps/waytobrightport7.md) | – | 5 | – |
+| [Brightport 8](../maps/brightport8.md) | Brightport | 2 | – |
+| [Brightportwild 12](../maps/brightportwild12.md) | Buried citadel | 2 | – |
+| [Brightportwild 18](../maps/brightportwild18.md) | Brightport | 3 | – |
+| [Brightportwild 19](../maps/brightportwild19.md) | – | 3 | – |
+| [Brightportwild 2](../maps/brightportwild2.md) | – | 1 | – |
+| [Brightportwild 7](../maps/brightportwild7.md) | Brightport | 3 | – |
+| [Waytobrightport 10](../maps/waytobrightport10.md) | – | 3 | – |
+| [Waytobrightport 11](../maps/waytobrightport11.md) | – | 3 | – |
+| [Waytobrightport 12](../maps/waytobrightport12.md) | – | 5 | – |
+| [Waytobrightport 13](../maps/waytobrightport13.md) | – | 8 | – |
+| [Waytobrightport 14](../maps/waytobrightport14.md) | – | 5 | – |
+| [Waytobrightport 15](../maps/waytobrightport15.md) | – | 2 | – |
+| [Waytobrightport 16](../maps/waytobrightport16.md) | Brightport | 5 | – |
+| [Waytobrightport 19](../maps/waytobrightport19.md) | Brightport | 4 | – |
+| [Waytobrightport 20](../maps/waytobrightport20.md) | Brightport | 5 | – |
+| [Waytobrightport 21](../maps/waytobrightport21.md) | Brightport | 1 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytobrightport 3](../maps/waytobrightport3.md) | – | 1 | – |
+| [Waytobrightport 4](../maps/waytobrightport4.md) | – | 2 | – |
+| [Waytobrightport 5](../maps/waytobrightport5.md) | – | 4 | – |
+| [Waytobrightport 7](../maps/waytobrightport7.md) | – | 5 | – |
 
 
 ## Version history

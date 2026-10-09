@@ -1,5 +1,5 @@
 ---
-description: "Agent is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain5, Prim, Blackwater Mountain. Starts The agent and the beast."
+description: "Agent is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 5, Prim, Blackwater Mountain. Starts The agent and the beast."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } Agent
@@ -12,29 +12,29 @@ description: "Agent is a non-player character (NPC) in Andor's Trail, found in b
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [The agent and the beast](../quests/bwm_agent.md) |
-| **Found in** | blackwater_mountain5, Prim, Blackwater Mountain |
+| **Found in** | Blackwater mountain 5, Prim, Blackwater Mountain |
 | **Entries in game data** | 6 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
 !!! info "6 entries in the game data"
-    The game's data files define 6 separate characters named Agent. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 6 separate characters named Agent. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`agent1`](#v-agent1) | NPC | [blackwater_mountain5](../maps/blackwater_mountain5.md#pin-npc-agent1) | starts [The agent and the beast](../quests/bwm_agent.md) |
-| [`agent2`](#v-agent2) | NPC | Prim: [blackwater_mountain9](../maps/blackwater_mountain9.md#pin-npc-agent2) | – |
-| [`agent3`](#v-agent3) | NPC | Blackwater Mountain: [blackwater_mountain14](../maps/blackwater_mountain14.md#pin-npc-agent3) | – |
-| [`agent4`](#v-agent4) | NPC | Blackwater Mountain: [blackwater_mountain17](../maps/blackwater_mountain17.md#pin-npc-agent4) | – |
-| [`agent5`](#v-agent5) | NPC | Blackwater Mountain: [blackwater_mountain30](../maps/blackwater_mountain30.md#pin-npc-agent5) | – |
-| [`agent6`](#v-agent6) | NPC | Blackwater Mountain: [blackwater_mountain38](../maps/blackwater_mountain38.md#pin-npc-agent6) | – |
+| [`agent1`](#v-agent1) | NPC | [Blackwater mountain 5](../maps/blackwater_mountain5.md#pin-npc-agent1) | starts [The agent and the beast](../quests/bwm_agent.md) |
+| [`agent2`](#v-agent2) | NPC | Prim: [Blackwater mountain 9](../maps/blackwater_mountain9.md#pin-npc-agent2) | – |
+| [`agent3`](#v-agent3) | NPC | Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md#pin-npc-agent3) | – |
+| [`agent4`](#v-agent4) | NPC | Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md#pin-npc-agent4) | – |
+| [`agent5`](#v-agent5) | NPC | Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md#pin-npc-agent5) | – |
+| [`agent6`](#v-agent6) | NPC | Blackwater Mountain: [Blackwater mountain 38](../maps/blackwater_mountain38.md#pin-npc-agent6) | – |
 
-## Blackwater mountain5 (agent1) { #v-agent1 }
+## Blackwater mountain 5 (agent1) { #v-agent1 }
 
 **Entry ID:** `agent1` · **Type:** NPC · **Role:** Starts [The agent and the beast](../quests/bwm_agent.md)
 
-**Location:** [blackwater_mountain5](../maps/blackwater_mountain5.md#pin-npc-agent1)
+**Location:** [Blackwater mountain 5](../maps/blackwater_mountain5.md#pin-npc-agent1)
 
 ### Quests
 
@@ -42,7 +42,7 @@ description: "Agent is a non-player character (NPC) in Andor's Trail, found in b
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_agent_1_start.json" data-npc="Agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,7 +50,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-agent1-bwm_agent_1_start"></span>**`bwm_agent_1_start`** Agent: “Oh, someone from the outside! Please, adventurer, you have to help us!”
 
@@ -121,7 +121,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “The mine shaft over there *points* has collapsed, so I guess you won'…” → “The mine shaft over there [points] has collapsed, so I guess you won'…”<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “Reward? Hm, I was hoping you would help us for other reasons than a r…” → “Reward? Hmm, I was hoping you would help us for other reasons than a …” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Oh, someone from the outside! Please, sir! You have to help us!” → “Oh, someone from the outside! Please, adventurer, you have to help us!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -155,11 +155,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Blackwater mountain9 (agent2) { #v-agent2 }
+## Prim, Blackwater mountain 9 (agent2) { #v-agent2 }
 
 **Entry ID:** `agent2` · **Type:** NPC
 
-**Location:** Prim: [blackwater_mountain9](../maps/blackwater_mountain9.md#pin-npc-agent2)
+**Location:** Prim: [Blackwater mountain 9](../maps/blackwater_mountain9.md#pin-npc-agent2)
 
 ### Quests
 
@@ -167,7 +167,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_agent_2_start.json" data-npc="Agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -175,7 +175,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-agent2-bwm_agent_2_start"></span>**`bwm_agent_2_start`** *(silent check: the first matching branch below is taken)*
 
@@ -273,11 +273,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Blackwater mountain14 (agent3) { #v-agent3 }
+## Blackwater Mountain, Blackwater mountain 14 (agent3) { #v-agent3 }
 
 **Entry ID:** `agent3` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [blackwater_mountain14](../maps/blackwater_mountain14.md#pin-npc-agent3)
+**Location:** Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md#pin-npc-agent3)
 
 ### Quests
 
@@ -285,7 +285,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_agent_3_start.json" data-npc="Agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -293,7 +293,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-agent3-bwm_agent_3_start"></span>**`bwm_agent_3_start`** *(silent check: the first matching branch below is taken)*
 
@@ -372,11 +372,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Blackwater mountain17 (agent4) { #v-agent4 }
+## Blackwater Mountain, Blackwater mountain 17 (agent4) { #v-agent4 }
 
 **Entry ID:** `agent4` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [blackwater_mountain17](../maps/blackwater_mountain17.md#pin-npc-agent4)
+**Location:** Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md#pin-npc-agent4)
 
 ### Quests
 
@@ -384,7 +384,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_agent_4_start.json" data-npc="Agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -392,7 +392,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-agent4-bwm_agent_4_start"></span>**`bwm_agent_4_start`** *(silent check: the first matching branch below is taken)*
 
@@ -470,11 +470,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Blackwater mountain30 (agent5) { #v-agent5 }
+## Blackwater Mountain, Blackwater mountain 30 (agent5) { #v-agent5 }
 
 **Entry ID:** `agent5` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [blackwater_mountain30](../maps/blackwater_mountain30.md#pin-npc-agent5)
+**Location:** Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md#pin-npc-agent5)
 
 ### Quests
 
@@ -482,7 +482,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_agent_5_start.json" data-npc="Agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -490,7 +490,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-agent5-bwm_agent_5_start"></span>**`bwm_agent_5_start`** *(silent check: the first matching branch below is taken)*
 
@@ -561,11 +561,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Blackwater mountain38 (agent6) { #v-agent6 }
+## Blackwater Mountain, Blackwater mountain 38 (agent6) { #v-agent6 }
 
 **Entry ID:** `agent6` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [blackwater_mountain38](../maps/blackwater_mountain38.md#pin-npc-agent6)
+**Location:** Blackwater Mountain: [Blackwater mountain 38](../maps/blackwater_mountain38.md#pin-npc-agent6)
 
 ### Quests
 
@@ -573,7 +573,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_agent_6_start.json" data-npc="Agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -581,7 +581,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-agent6-bwm_agent_6_start"></span>**`bwm_agent_6_start`** *(silent check: the first matching branch below is taken)*
 

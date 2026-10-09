@@ -4,7 +4,7 @@ description: "Birgil is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_81.png){ .sprite } Birgil
 
-**Where to find Birgil:** Prim: [blackwater_mountain22](../maps/blackwater_mountain22.md#pin-npc-birgil)
+**Where to find Birgil:** Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-birgil)
 
 <div class="infobox" markdown>
 
@@ -31,7 +31,7 @@ description: "Birgil is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Birgil. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Birgil. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/birgil_1.json" data-npc="Birgil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -39,7 +39,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-birgil_1"></span>**`birgil_1`** Birgil: “Welcome to my tavern. Please have a seat anywhere.”
 

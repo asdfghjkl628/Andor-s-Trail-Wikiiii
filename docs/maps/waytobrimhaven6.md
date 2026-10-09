@@ -1,8 +1,8 @@
 ---
-description: "Waytobrimhaven6 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Rabid hound. Exits to Brimhaven4, Waytobrimhaven5."
+description: "Waytobrimhaven 6 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Rabid hound. Exits to Brimhaven 4, Waytobrimhaven 5."
 ---
 
-# Waytobrimhaven6
+# Waytobrimhaven 6
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Waytobrimhaven6 is an outdoor location in Andor's Trail, near Brim
 | **Region** | Near Brimhaven (settlement) |
 | **Type** | Outdoors |
 | **Size** | 30×7 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 1 |
 | **Quests** | 1 |
 
 </div>
 
-**Waytobrimhaven6** is an outdoor map, near Brimhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Brimhaven4, Waytobrimhaven5.
+**Waytobrimhaven 6** is an outdoor map, near Brimhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Brimhaven 4, Waytobrimhaven 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhaven6.webp" alt="Map of Waytobrimhaven6" width="960" height="224" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../waytobrimhaven5/#place-east" title="Exit to Waytobrimhaven5" style="left:0.000%;top:28.571%;width:3.333%;height:42.857%"></a><a id="place-east" class="mo mo-mapchange" href="../brimhaven4/#place-west3" title="Exit to Brimhaven4" style="left:96.667%;top:42.857%;width:3.333%;height:14.286%"></a><a class="mo mo-script" href="../../quests/cat_and_mouse/#stage-90" title="Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)" style="left:80.000%;top:28.571%;width:16.667%;height:42.857%"></a><span class="mo mo-spawn" title="Spawns: Rabid hound" style="left:10.000%;top:28.571%;width:83.333%;height:42.857%"></span><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:16.667%;top:57.143%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:70.000%;top:42.857%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:56.667%;top:57.143%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:86.667%;top:42.857%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:46.667%;top:42.857%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:50.000%" title="Exit (east): to [Brimhaven4](brimhaven4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:50.000%" title="Exit (west): to [Waytobrimhaven5](waytobrimhaven5.md)">2</a><a class="pin pin-script" href="#key-3" style="left:88.333%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhaven6.webp" alt="Map of Waytobrimhaven 6" width="960" height="224" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../waytobrimhaven5/#place-east" title="Exit to Waytobrimhaven 5" style="left:0.000%;top:28.571%;width:3.333%;height:42.857%"></a><a id="place-east" class="mo mo-mapchange" href="../brimhaven4/#place-west3" title="Exit to Brimhaven 4" style="left:96.667%;top:42.857%;width:3.333%;height:14.286%"></a><a class="mo mo-script" href="../../quests/cat_and_mouse/#stage-90" title="Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)" style="left:80.000%;top:28.571%;width:16.667%;height:42.857%"></a><span class="mo mo-spawn" title="Spawns: Rabid hound" style="left:10.000%;top:28.571%;width:83.333%;height:42.857%"></span><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:16.667%;top:57.143%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:70.000%;top:42.857%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:56.667%;top:57.143%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:86.667%;top:42.857%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="mob" href="../../monsters/rabid_hound/" title="Rabid hound" style="left:46.667%;top:42.857%;width:3.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt="Rabid hound"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:50.000%" title="Exit (east): to [Brimhaven 4](brimhaven4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:50.000%" title="Exit (west): to [Waytobrimhaven 5](waytobrimhaven5.md)">2</a><a class="pin pin-script" href="#key-3" style="left:88.333%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brimhaven4](brimhaven4.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrimhaven5](waytobrimhaven5.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brimhaven 4](brimhaven4.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrimhaven 5](waytobrimhaven5.md) |
     | <span id="key-3"></span>3 | Quest trigger | Scripted event: advances the quest: A cat and mouse game to stage 90 (“I released the mouse.”) |
 
 
@@ -42,8 +42,8 @@ description: "Waytobrimhaven6 is an outdoor location in Andor's Trail, near Brim
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brimhaven4](brimhaven4.md) | Brimhaven | 1 |
-| West | [Waytobrimhaven5](waytobrimhaven5.md) | Brimhaven | 2 |
+| East | [Brimhaven 4](brimhaven4.md) | Brimhaven | 1 |
+| West | [Waytobrimhaven 5](waytobrimhaven5.md) | Brimhaven | 2 |
 
 ## Enemies
 

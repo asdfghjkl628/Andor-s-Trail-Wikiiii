@@ -1,10 +1,10 @@
 ---
-description: "Iqhan thrall is an enemy in Andor's Trail (humanoid) with 62 HP, worth 138 XP, found in pwcave0, pwcave1, pwcave2. Drops: Gold coins, Iqhan pendant, Torn shirt, Iron dagger."
+description: "Iqhan thrall is an enemy in Andor's Trail (humanoid) with 62 HP, worth 138 XP, found in Pwcave 0, Pwcave 1, Pwcave 2. Drops: Gold coins, Iqhan pendant, Torn shirt, Iron dagger."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_97.png){ .sprite } Iqhan thrall
 
-**Found in:** [pwcave0](../maps/pwcave0.md), [pwcave1](../maps/pwcave1.md), [pwcave2](../maps/pwcave2.md)
+**Found in:** [Pwcave 0](../maps/pwcave0.md), [Pwcave 1](../maps/pwcave1.md), [Pwcave 2](../maps/pwcave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Iqhan thrall is an enemy in Andor's Trail (humanoid) with 62 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave0, pwcave1, pwcave2 |
+| **Found in** | Pwcave 0, Pwcave 1, Pwcave 2 |
 | **Class** | Humanoid |
 | **HP** | 62 |
 | **XP when defeated** | 138 |
@@ -57,9 +57,9 @@ description: "Iqhan thrall is an enemy in Andor's Trail (humanoid) with 62 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave0](../maps/pwcave0.md) | – | 2 | – |
-| [pwcave1](../maps/pwcave1.md) | – | 12 | – |
-| [pwcave2](../maps/pwcave2.md) | – | 5 | – |
+| [Pwcave 0](../maps/pwcave0.md) | – | 2 | – |
+| [Pwcave 1](../maps/pwcave1.md) | – | 12 | – |
+| [Pwcave 2](../maps/pwcave2.md) | – | 5 | – |
 
 
 ## Version history

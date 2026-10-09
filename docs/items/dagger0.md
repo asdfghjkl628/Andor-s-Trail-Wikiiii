@@ -45,21 +45,21 @@ description: "Iron dagger is a ordinary dagger in Andor's Trail (Attack damage 0
 | [Dealer](../monsters/brv_blackjack_dealer.md#v-brv_blackjack_dealer_evil) | 100% | 1 | Brimhaven |
 | [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler1_evil) | 50% | 1 | Brimhaven |
 | [Gambler](../monsters/brv_blackjack_gambler1.md#v-brv_blackjack_gambler2_evil) | 50% | 1 | Brimhaven |
-| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 25% | 1 | crackshot_hideout2, crackshot_hideout3 |
-| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
-| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 | pwcave0, pwcave1, pwcave4 |
-| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
-| [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 | pwcave0, pwcave1, pwcave2 |
-| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 | pwcave1, pwcave2, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | pwcave2, pwcave2a, pwcave3 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
-| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | pwcave2a, pwcave3, pwcave4 |
+| [Rebelled thief](../monsters/guild03_rebthief_1.md) | 25% | 1 | Crackshot hideout 2, Crackshot hideout 3 |
+| [Iqhan worker thrall](../monsters/iqhan_1a.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 4 |
+| [Iqhan thrall servant](../monsters/iqhan_1b.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 4 |
+| [Iqhan guard thrall](../monsters/iqhan_2a.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 2 |
+| [Iqhan thrall](../monsters/iqhan_2b.md) | 5% | 1 | Pwcave 0, Pwcave 1, Pwcave 2 |
+| [Iqhan warrior thrall](../monsters/iqhan_3a.md) | 5% | 1 | Pwcave 1, Pwcave 2, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md) | 5% | 1 | Pwcave 1, Pwcave 2, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4a) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan master](../monsters/iqhan_3b.md#v-iqhan_4b) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos evoker](../monsters/iqhan_ch_1a.md#v-iqhan_ch_1b) | 5% | 1 | Pwcave 2, Pwcave 2a, Pwcave 3 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md) | 5% | 1 | Pwcave 3, Pwcave 4 |
+| [Iqhan chaos servant](../monsters/iqhan_ch_2a.md#v-iqhan_ch_2b) | 5% | 1 | Pwcave 3, Pwcave 4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md) | 5% | 1 | Pwcave 2a, Pwcave 3, Pwcave 4 |
+| [Iqhan chaos master](../monsters/iqhan_ch_3a.md#v-iqhan_ch_3b) | 5% | 1 | Pwcave 2a, Pwcave 3, Pwcave 4 |
 
 ### Sold by
 
@@ -68,8 +68,8 @@ description: "Iron dagger is a ordinary dagger in Andor's Trail (Attack damage 0
 
 ### Found in containers
 
-- [guynmart_main_1](../maps/guynmart_main_1.md#container-1) (container 2, 100%), Guynmart Castle
-- [mushroom_m2_4b](../maps/mushroom_m2_4b.md#container-1) (container 2, 100%)
+- [Guynmart main 1](../maps/guynmart_main_1.md#container-1) (container 2, 100%), Guynmart Castle
+- [Mushroom m 2 4b](../maps/mushroom_m2_4b.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

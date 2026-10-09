@@ -45,7 +45,7 @@ description: "Olwyn's curse is a rare warhammer in Andor's Trail (Attack damage 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Tiqui](../monsters/tiqui.md) | 100% | 1 | lodar14 |
+| [Tiqui](../monsters/tiqui.md) | 100% | 1 | Lodar 14 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

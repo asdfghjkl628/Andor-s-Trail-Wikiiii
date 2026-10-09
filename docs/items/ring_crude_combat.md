@@ -39,7 +39,7 @@ description: "Crude combat ring is a ordinary ring in Andor's Trail (Attack dama
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Kaverin](../monsters/kaverin.md) | 100% | 1 | Remgard |
-| [Ancient piercing irdegh](../monsters/irdegh_4.md) | 1% | 1 | waytomountaincave2 |
+| [Ancient piercing irdegh](../monsters/irdegh_4.md) | 1% | 1 | Waytomountaincave 2 |
 
 ### Sold by
 

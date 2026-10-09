@@ -1,8 +1,8 @@
 ---
-description: "Gold and Exp reward for Inventory quest completed - nondisplay is a hidden quest in Andor's Trail, started by Facutloni (brimhaven_warehouse). 3 stages. Not yet done."
+description: "Brimhaven warehouse inventory reward is a hidden quest in Andor's Trail, started by Facutloni (brimhaven_warehouse). 3 stages. Not yet done."
 ---
 
-# Gold and Exp reward for Inventory quest completed - nondisplay
+# Brimhaven warehouse inventory reward
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "Gold and Exp reward for Inventory quest completed - nondisplay is 
 | **Quest ID** | `brv_wh_reward_nondisplay` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
-| **Started by** | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) |
+| **Started by** | [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) |
 | **NPCs involved** | [Facutloni](../monsters/brv_wh_boss.md) |
-| **Locations** | [brimhaven_warehouse](../maps/brimhaven_warehouse.md) |
+| **Locations** | [Brimhaven warehouse](../maps/brimhaven_warehouse.md) |
 | **Related quests** | 3 |
 
 </div>
@@ -27,7 +27,7 @@ description: "Gold and Exp reward for Inventory quest completed - nondisplay is 
 
 ## Prerequisites to start
 
-None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) to begin.
+None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -62,33 +62,59 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
 | Unlocks | [Delivery](brv_wh_delivery.md#stage-100) | stage 100 there needs stage 3 here |
 | Unlocks | [Delivery](brv_wh_delivery.md#stage-110) | stage 110 there needs stage 3 here |
 | Unlocks | [Delivery](brv_wh_delivery.md#stage-120) | stage 120 there needs stage 3 here |
-| Unlocks | [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](brv_wh_delivery_reward_nondisplay.md#stage-1) | stage 1 there needs stage 3 here |
+| Unlocks | [Brimhaven warehouse delivery reward (hidden flag)](brv_wh_delivery_reward_nondisplay.md#stage-1) | stage 1 there needs stage 3 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Not yet done. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | – | sets stage 10 of [Inventory](../quests/brv_wh.md#stage-10) |
-| <span id="stage-2"></span>2 | Done. But haven't received gold and exp reward yet. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | hand over 2× [Chandelier](../items/brv_wh_item_04.md), hand over 2× [Crystal globe](../items/brv_wh_item_00.md), hand over 2× [Dusty old book](../items/brv_wh_item_09.md), hand over 2× [Lyre](../items/brv_wh_item_02.md), hand over 2× [Mysterious green something](../items/brv_wh_item_05.md), hand over 2× [Old, worn cape](../items/brv_wh_item_06.md), hand over 2× [Plush pillow](../items/brv_wh_item_01.md), hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), hand over 2× [Striped hammer](../items/brv_wh_item_08.md), hand over 2× [Yellow boot](../items/brv_wh_item_03.md) | sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900) |
-| <span id="stage-3"></span>3 | Done. I received gold and exp reward. Old scrooge. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | stage 2 | gives 100× [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | Not yet done. | [Facutloni](../monsters/brv_wh_boss.md) | sets stage 10 of [Inventory](../quests/brv_wh.md#stage-10) |
+| <span id="stage-2"></span>[2](#route-2) | Done. But haven't received gold and exp reward yet. | [Facutloni](../monsters/brv_wh_boss.md) | sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900) |
+| <span id="stage-3"></span>[3](#route-3) | Done. I received gold and exp reward. Old scrooge. | [Facutloni](../monsters/brv_wh_boss.md) | 100× [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “Do you need any help?” → **stage 1**; also sets stage 10 of [Inventory](../quests/brv_wh.md#stage-10). NPC: “Come back to me when you found all the pairs and tell me how many there are.”
+??? note "Stage 1 · Facutloni · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Talk to [Facutloni](../monsters/brv_wh_boss.md), choose “Do you need any help?”
 
-    1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “I found 10 pairs of each item.” — **conditions:** reached stage 10 of [Inventory](../quests/brv_wh.md#stage-10); reached stage 100 of [Inventory](../quests/brv_wh.md#stage-100); reached stage 101 of [Inventory](../quests/brv_wh.md#stage-101); reached stage 102 of [Inventory](../quests/brv_wh.md#stage-102); reached stage 103 of [Inventory](../quests/brv_wh.md#stage-103); reached stage 104 of [Inventory](../quests/brv_wh.md#stage-104); reached stage 105 of [Inventory](../quests/brv_wh.md#stage-105); reached stage 106 of [Inventory](../quests/brv_wh.md#stage-106); reached stage 107 of [Inventory](../quests/brv_wh.md#stage-107); reached stage 108 of [Inventory](../quests/brv_wh.md#stage-108); reached stage 109 of [Inventory](../quests/brv_wh.md#stage-109); hand over 2× [Crystal globe](../items/brv_wh_item_00.md); hand over 2× [Plush pillow](../items/brv_wh_item_01.md); hand over 2× [Lyre](../items/brv_wh_item_02.md); hand over 2× [Yellow boot](../items/brv_wh_item_03.md); hand over 2× [Chandelier](../items/brv_wh_item_04.md); hand over 2× [Mysterious green something](../items/brv_wh_item_05.md); hand over 2× [Old, worn cape](../items/brv_wh_item_06.md); hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md); hand over 2× [Striped hammer](../items/brv_wh_item_08.md); hand over 2× [Dusty old book](../items/brv_wh_item_09.md) → **stage 2**; also sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900). NPC: “10 pairs - that is correct. So everything is in order.”
+    - **Gives:** sets stage 10 of [Inventory](../quests/brv_wh.md#stage-10)
+    - *“Come back to me when you found all the pairs and tell me how many there are.”*
 
-???+ note "Stage 3: 1 route"
 
-    1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “I am glad. How much do I actually get for this work?” — **conditions:** reached stage 2 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-2) → **stage 3**; also gives 100× [Gold coins](../items/gold.md). NPC: “Good work gives good wages! Here is 100 gold.”
+<span id="route-2"></span>
+
+??? note "Stage 2 · Facutloni · 1 way"
+
+    **Way 1:** Talk to [Facutloni](../monsters/brv_wh_boss.md), choose “I found 10 pairs of each item.”
+
+    - **Needs:** reached stage 10 of [Inventory](../quests/brv_wh.md#stage-10); reached stage 100 of [Inventory](../quests/brv_wh.md#stage-100); reached stage 101 of [Inventory](../quests/brv_wh.md#stage-101); reached stage 102 of [Inventory](../quests/brv_wh.md#stage-102); reached stage 103 of [Inventory](../quests/brv_wh.md#stage-103); reached stage 104 of [Inventory](../quests/brv_wh.md#stage-104); reached stage 105 of [Inventory](../quests/brv_wh.md#stage-105); reached stage 106 of [Inventory](../quests/brv_wh.md#stage-106); reached stage 107 of [Inventory](../quests/brv_wh.md#stage-107); reached stage 108 of [Inventory](../quests/brv_wh.md#stage-108); reached stage 109 of [Inventory](../quests/brv_wh.md#stage-109); hand over 2× [Crystal globe](../items/brv_wh_item_00.md); hand over 2× [Plush pillow](../items/brv_wh_item_01.md); hand over 2× [Lyre](../items/brv_wh_item_02.md); hand over 2× [Yellow boot](../items/brv_wh_item_03.md); hand over 2× [Chandelier](../items/brv_wh_item_04.md); hand over 2× [Mysterious green something](../items/brv_wh_item_05.md); hand over 2× [Old, worn cape](../items/brv_wh_item_06.md); hand over 2× [Pretty porcelain figure](../items/brv_wh_item_07.md); hand over 2× [Striped hammer](../items/brv_wh_item_08.md); hand over 2× [Dusty old book](../items/brv_wh_item_09.md)
+    - **Gives:** sets stage 900 of [Inventory](../quests/brv_wh.md#stage-900)
+    - *“10 pairs - that is correct. So everything is in order.”*
+
+
+<span id="route-3"></span>
+
+??? note "Stage 3 · Facutloni · 1 way"
+
+    **Way 1:** Talk to [Facutloni](../monsters/brv_wh_boss.md), choose “I am glad. How much do I actually get for this work?”
+
+    - **Needs:** stage 2
+    - **Gives:** 100× [Gold coins](../items/gold.md)
+    - *“Good work gives good wages! Here is 100 gold.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -134,6 +160,7 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../
     | | |
     |---|---|
     | Quest ID | `brv_wh_reward_nondisplay` |
+    | Name in game data | `Gold and Exp reward for Inventory quest completed - nondisplay` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3 |
     | Dialogue nodes setting stages | 1: `brv_wh_boss_30`, 2: `brv_wh_boss_10_30`, 3: `brv_wh_boss_10_90` |

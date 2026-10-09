@@ -4,7 +4,7 @@ description: "Thorny vine is an enemy in Andor's Trail (construct) with 144 HP, 
 
 # ![](../assets/icons/monsters/monsters_guynmart_10.png){ .sprite } Thorny vine
 
-**Found in:** Mt. Galmore: [galmore_33](../maps/galmore_33.md), [galmore_23](../maps/galmore_23.md)
+**Found in:** Mt. Galmore: [Galmore 33](../maps/galmore_33.md), [Galmore 23](../maps/galmore_23.md)
 
 <div class="infobox" markdown>
 
@@ -56,8 +56,8 @@ description: "Thorny vine is an enemy in Andor's Trail (construct) with 144 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_23](../maps/galmore_23.md) | – | 3 | – |
-| [galmore_33](../maps/galmore_33.md) | Mt. Galmore | 2 | – |
+| [Galmore 23](../maps/galmore_23.md) | – | 3 | – |
+| [Galmore 33](../maps/galmore_33.md) | Mt. Galmore | 2 | – |
 
 
 ## Version history

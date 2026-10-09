@@ -1,5 +1,5 @@
 ---
-description: "Madame Mim is an NPC who can also be fought in Andor's Trail, found in swamp_hut. Shopkeeper."
+description: "Madame Mim is an NPC who can also be fought in Andor's Trail, found in Swamp hut. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_95.png){ .sprite } Madame Mim
@@ -12,7 +12,7 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Shopkeeper |
-| **Found in** | swamp_hut |
+| **Found in** | Swamp hut |
 | **Class** | Humanoid |
 | **HP** | 220 |
 | **XP when defeated** | 654 |
@@ -22,18 +22,18 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Madame Mim. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Madame Mim. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`swamp_witch`](#v-swamp_witch) | NPC/Enemy | [swamp_hut](../maps/swamp_hut.md#pin-npc-swamp_witch) | shopkeeper | 220 |
-| [`swamp_witch_shop`](#v-swamp_witch_shop) | Enemy | [swamp_hut](../maps/swamp_hut.md) | – | 1 |
+| [`swamp_witch`](#v-swamp_witch) | NPC/Enemy | [Swamp hut](../maps/swamp_hut.md#pin-npc-swamp_witch) | shopkeeper | 220 |
+| [`swamp_witch_shop`](#v-swamp_witch_shop) | Enemy | [Swamp hut](../maps/swamp_hut.md) | – | 1 |
 
 ## Swamp hut (swamp_witch) { #v-swamp_witch }
 
 **Entry ID:** `swamp_witch` · **Type:** NPC/Enemy · **Role:** Shopkeeper
 
-**Location:** [swamp_hut](../maps/swamp_hut.md#pin-npc-swamp_witch)
+**Location:** [Swamp hut](../maps/swamp_hut.md#pin-npc-swamp_witch)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -73,20 +73,20 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [swamp_hut](../maps/swamp_hut.md) | – | 1 | – |
+| [Swamp hut](../maps/swamp_hut.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9) with stepping on a trigger on [swamp_hut](../maps/swamp_hut.md) checks that this enemy has been defeated.
+- [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9) with stepping on a trigger on [Swamp hut](../maps/swamp_hut.md) checks that this enemy has been defeated.
 
 ### Quests
 
 - [Fog in the woods](../quests/fogmonster.md): stages 30, 80, 90, 92
-- [feygard fog (hidden flag)](../quests/feygard_fog.md): stages 1, 2, 3, 4, 5, 7, 8, 9
+- [Feygard fog (hidden flag)](../quests/feygard_fog.md): stages 1, 2, 3, 4, 5, 7, 8, 9
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Madame Mim. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Madame Mim. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/swamp_witch.json" data-npc="Madame Mim" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -94,7 +94,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (48 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-swamp_witch-swamp_witch"></span>**`swamp_witch`** *(silent check: the first matching branch below is taken)*
 
@@ -274,7 +274,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “And being a witch, you can certainly put a spell around your swamp that will distract people from wanting to come here.” → [swamp_witch_20_144](#d-swamp_witch-swamp_witch_20_144)
 
-    <span id="d-swamp_witch-swamp_witch_20_134"></span>**`swamp_witch_20_134`** Madame Mim: “Agreed. Here child, take these sweets and now begone!” — **effects:** sets stage 80 of [Fog in the woods](../quests/fogmonster.md#stage-80), sets stage 8 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-8), sets stage 7 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-7), clears stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1), clears stage 6 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-6), spawns monsters on guynmart_wood_14
+    <span id="d-swamp_witch-swamp_witch_20_134"></span>**`swamp_witch_20_134`** Madame Mim: “Agreed. Here child, take these sweets and now begone!” — **effects:** sets stage 80 of [Fog in the woods](../quests/fogmonster.md#stage-80), sets stage 8 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-8), sets stage 7 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-7), clears stage 1 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1), clears stage 6 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-6), spawns monsters on guynmart_wood_14
 
     - “Thank you.” → *conversation ends*
     - “[grumbling] Sweets - I am no kid anymore.” → *conversation ends*
@@ -288,7 +288,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [swamp_witch_20_160](#d-swamp_witch-swamp_witch_20_160)
 
-    <span id="d-swamp_witch-swamp_witch_20_160"></span>**`swamp_witch_20_160`** Madame Mim: “Great. You deserve a reward for that. You may choose one thing from these:” — **effects:** sets stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1), sets stage 2 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2), sets stage 3 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3), sets stage 4 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4), sets stage 5 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5), clears stage 6 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-6), clears stage 7 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-7), sets stage 9 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9), sets stage 90 of [Fog in the woods](../quests/fogmonster.md#stage-90), removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13
+    <span id="d-swamp_witch-swamp_witch_20_160"></span>**`swamp_witch_20_160`** Madame Mim: “Great. You deserve a reward for that. You may choose one thing from these:” — **effects:** sets stage 1 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1), sets stage 2 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2), sets stage 3 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3), sets stage 4 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4), sets stage 5 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5), clears stage 6 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-6), clears stage 7 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-7), sets stage 9 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-9), sets stage 90 of [Fog in the woods](../quests/fogmonster.md#stage-90), removes monsters from guynmart_wood_14, removes monsters from swamp2, removes monsters from swamp4, removes monsters from swamp5, removes monsters from swamp6, changes map swamp2, changes map swamp4, changes map swamp6, changes map guynmart_wood_13
 
     - “Gold and jewels” → [swamp_witch_20_170](#d-swamp_witch-swamp_witch_20_170)
     - “A vial of healing water from the garden” → [swamp_witch_20_180](#d-swamp_witch-swamp_witch_20_180)
@@ -396,7 +396,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `swamp_witch_shop` · **Type:** Enemy
 
-**Location:** [swamp_hut](../maps/swamp_hut.md)
+**Location:** [Swamp hut](../maps/swamp_hut.md)
 
 ### Combat statistics
 
@@ -434,7 +434,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [swamp_hut](../maps/swamp_hut.md) | – | 1 | – |
+| [Swamp hut](../maps/swamp_hut.md) | – | 1 | – |
 
 
 ### Version history

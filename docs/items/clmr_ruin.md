@@ -54,7 +54,7 @@ description: "Gleaming claymore of ruin is a rare two-handed sword in Andor's Tr
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Aulowenn](../monsters/aulowenn.md) | 100% | 1 | lodar13 |
+| [Aulowenn](../monsters/aulowenn.md) | 100% | 1 | Lodar 13 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -31,7 +31,7 @@ description: "Key of Luthor is a quest other in Andor's Trail. How to get it: mo
 
 ### Quest & dialogue rewards
 
-- From [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Troubling times](../quests/troubling_times.md#stage-193) (1×)
+- From [Nanath](../monsters/nanath.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Troubling times](../quests/troubling_times.md#stage-193) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -43,7 +43,7 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Bucus](../monsters/bucus.md) | [Key of Luthor](../quests/bucus.md#stage-100) | handed over (1×) | “Here, I have it. The key of Luthor.” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | [Troubling times](../quests/troubling_times.md#stage-210) | handed over (1×) | “Here it is. Let's do it.” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([Crackshot hideout 3](../maps/crackshot_hideout3.md)) | [Troubling times](../quests/troubling_times.md#stage-210) | handed over (1×) | “Here it is. Let's do it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

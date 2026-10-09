@@ -24,7 +24,7 @@ description: "Cube is a extraordinary other in Andor's Trail. How to get it: con
 
 ### Found in containers
 
-- [mountainlake8_cave](../maps/mountainlake8_cave.md#container-0) (container 1, 100%)
+- [Mountainlake 8 cave](../maps/mountainlake8_cave.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

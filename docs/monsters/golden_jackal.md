@@ -1,10 +1,10 @@
 ---
-description: "Golden jackal is an enemy in Andor's Trail (animal) with 345 HP, worth 745 XP, found in sullengard_west_ravine, sullengard_woods12, sullengard_woods4. Drops: Golden jackal fur, Meat, Bone, Pig's bone."
+description: "Golden jackal is an enemy in Andor's Trail (animal) with 345 HP, worth 745 XP, found in Sullengard west ravine, Sullengard woods 12, Sullengard woods 4. Drops: Golden jackal fur, Meat, Bone, Pig's bone."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles4_2.png){ .sprite } Golden jackal
 
-**Found in:** [sullengard_west_ravine](../maps/sullengard_west_ravine.md), [sullengard_woods12](../maps/sullengard_woods12.md), [sullengard_woods4](../maps/sullengard_woods4.md), [sullengard_woods_gj1](../maps/sullengard_woods_gj1.md)
+**Found in:** [Sullengard west ravine](../maps/sullengard_west_ravine.md), [Sullengard woods 12](../maps/sullengard_woods12.md), [Sullengard woods 4](../maps/sullengard_woods4.md), [Sullengard woods gj 1](../maps/sullengard_woods_gj1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Golden jackal is an enemy in Andor's Trail (animal) with 345 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard_west_ravine, sullengard_woods12, sullengard_woods4 |
+| **Found in** | Sullengard west ravine, Sullengard woods 12, Sullengard woods 4 |
 | **Class** | Animal |
 | **HP** | 345 |
 | **XP when defeated** | 745 |
@@ -59,14 +59,14 @@ description: "Golden jackal is an enemy in Andor's Trail (animal) with 345 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | 1 | Appears later, during a quest |
-| [sullengard_woods12](../maps/sullengard_woods12.md) | – | 1 | Appears later, during a quest |
-| [sullengard_woods4](../maps/sullengard_woods4.md) | – | 1 | Appears later, during a quest |
-| [sullengard_woods_gj1](../maps/sullengard_woods_gj1.md) | – | 1 | Appears later, during a quest |
+| [Sullengard west ravine](../maps/sullengard_west_ravine.md) | – | 1 | Appears later, during a quest |
+| [Sullengard woods 12](../maps/sullengard_woods12.md) | – | 1 | Appears later, during a quest |
+| [Sullengard woods 4](../maps/sullengard_woods4.md) | – | 1 | Appears later, during a quest |
+| [Sullengard woods gj 1](../maps/sullengard_woods_gj1.md) | – | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40) with stepping on a trigger on [sullengard_west_ravine](../maps/sullengard_west_ravine.md), stepping on a trigger on [sullengard_woods12](../maps/sullengard_woods12.md) checks that this enemy has been defeated.
+- [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40) with stepping on a trigger on [Sullengard west ravine](../maps/sullengard_west_ravine.md), stepping on a trigger on [Sullengard woods 12](../maps/sullengard_woods12.md) checks that this enemy has been defeated.
 
 
 ## Version history

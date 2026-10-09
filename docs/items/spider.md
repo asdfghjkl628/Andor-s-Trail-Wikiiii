@@ -26,23 +26,23 @@ description: "Dead spider is a ordinary animal part in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Forest hunter](../monsters/forest_hunter.md) | 25% | 1 | haunted_forest1, haunted_forest13, haunted_forest14 |
-| [Puny plaguecrawler](../monsters/plaguesp_1.md) | 5% | 1 | waytolake0, waytolake1, waytolake2 |
-| [Plaguecrawler](../monsters/plaguesp_2.md) | 5% | 1 | waytolake0, waytolake1, waytolake2 |
-| [Tough plaguecrawler](../monsters/plaguesp_3.md) | 5% | 1 | waytolake0, waytolake1, waytolake2 |
-| [Black plaguecrawler](../monsters/plaguesp_4.md) | 5% | 1 | mountainlake0, waytolake0, waytolake1 |
-| [Plaguestrider](../monsters/plaguesp_5.md) | 5% | 1 | mountainlake0, waytolake0, waytolake1 |
-| [Hardshell plaguestrider](../monsters/plaguesp_6.md) | 5% | 1 | mountainlake0, waytolake0, waytolake1 |
-| [Tough plaguestrider](../monsters/plaguesp_7.md) | 5% | 1 | mountainlake0, waytolake11, waytolake12 |
-| [Wooly plaguestrider](../monsters/plaguesp_8.md) | 5% | 1 | mountainlake0, waytolake11, waytolake12 |
-| [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 5% | 1 | mountainlake0, waytolake11, waytolake12 |
-| [Vile plaguestrider](../monsters/plaguesp_10.md) | 5% | 1 | waytolake4, waytolake5 |
-| [Nesting plaguestrider](../monsters/plaguesp_11.md) | 5% | 1 | waytolake4, waytolake5 |
-| [Plaguestrider servant](../monsters/plaguesp_12.md) | 5% | 1 | waytolake4, waytolake5 |
+| [Forest hunter](../monsters/forest_hunter.md) | 25% | 1 | Haunted forest 1, Haunted forest 13, Haunted forest 14 |
+| [Puny plaguecrawler](../monsters/plaguesp_1.md) | 5% | 1 | Waytolake 0, Waytolake 1, Waytolake 2 |
+| [Plaguecrawler](../monsters/plaguesp_2.md) | 5% | 1 | Waytolake 0, Waytolake 1, Waytolake 2 |
+| [Tough plaguecrawler](../monsters/plaguesp_3.md) | 5% | 1 | Waytolake 0, Waytolake 1, Waytolake 2 |
+| [Black plaguecrawler](../monsters/plaguesp_4.md) | 5% | 1 | Mountainlake 0, Waytolake 0, Waytolake 1 |
+| [Plaguestrider](../monsters/plaguesp_5.md) | 5% | 1 | Mountainlake 0, Waytolake 0, Waytolake 1 |
+| [Hardshell plaguestrider](../monsters/plaguesp_6.md) | 5% | 1 | Mountainlake 0, Waytolake 0, Waytolake 1 |
+| [Tough plaguestrider](../monsters/plaguesp_7.md) | 5% | 1 | Mountainlake 0, Waytolake 11, Waytolake 12 |
+| [Wooly plaguestrider](../monsters/plaguesp_8.md) | 5% | 1 | Mountainlake 0, Waytolake 11, Waytolake 12 |
+| [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 5% | 1 | Mountainlake 0, Waytolake 11, Waytolake 12 |
+| [Vile plaguestrider](../monsters/plaguesp_10.md) | 5% | 1 | Waytolake 4, Waytolake 5 |
+| [Nesting plaguestrider](../monsters/plaguesp_11.md) | 5% | 1 | Waytolake 4, Waytolake 5 |
+| [Plaguestrider servant](../monsters/plaguesp_12.md) | 5% | 1 | Waytolake 4, Waytolake 5 |
 
 ### Found in containers
 
-- [final_cave1](../maps/final_cave1.md#container-1) (container 2, 100%)
+- [Final cave 1](../maps/final_cave1.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -53,9 +53,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (1×) | “I have those things on me, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (1×) | “I have those things on me, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-42) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

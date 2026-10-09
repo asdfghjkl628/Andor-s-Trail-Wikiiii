@@ -40,7 +40,7 @@ description: "Silk robe of Valugha is a extraordinary armor, cloth in Andor's Tr
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Plaguestrider master](../monsters/plaguesp_13.md) | 0.1% | 1 | waytolake5 |
+| [Plaguestrider master](../monsters/plaguesp_13.md) | 0.1% | 1 | Waytolake 5 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

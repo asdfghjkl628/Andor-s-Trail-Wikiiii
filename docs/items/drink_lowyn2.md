@@ -46,7 +46,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) | – | handed over (2×) | “N” |
+| [Hagale](../monsters/algore.md) ([Woodsettlement 0](../maps/woodsettlement0.md)) | – | handed over (2×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

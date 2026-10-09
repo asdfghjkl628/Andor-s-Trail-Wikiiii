@@ -34,7 +34,7 @@ description: "Hannah's lunch is a ordinary food in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) during [Roses](../quests/guynmart.md#stage-64) (100%)
+- From [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) during [Roses](../quests/guynmart.md#stage-64) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -45,7 +45,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([guynmart_main_1](../maps/guynmart_main_1.md)) | [Roses](../quests/guynmart.md#stage-70) | must be carried (1×) | “I have some delicious lunch for you.” |
+| [Hannah](../monsters/guynmart_hannah.md) ([Guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([Guynmart main 1](../maps/guynmart_main_1.md)) | [Roses](../quests/guynmart.md#stage-70) | must be carried (1×) | “I have some delicious lunch for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

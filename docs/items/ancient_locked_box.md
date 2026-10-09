@@ -27,7 +27,7 @@ description: "Ancient locked box is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [remgard_church_basement](../maps/remgard_church_basement.md) during [The fifth master](../quests/fifth_master.md#stage-55) (1×)
+- From walking into a blocked passage on [Remgard church basement](../maps/remgard_church_basement.md) during [The fifth master](../quests/fifth_master.md#stage-55) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,11 +38,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Skylenar](../monsters/skylenar.md) ([remgard_church](../maps/remgard_church.md)) | – | must be carried (1×) | “I found a strange locked box in the library basement. Can you tell me anything a” |
-| [Gwendolyn](../monsters/remgard_gwendolyn.md) ([remgard_church_basement](../maps/remgard_church_basement.md)) | – | must be carried (1×) | “Gwendolyn, do you know anything about a locked box back here?” |
-| walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md), stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) | – | must be carried (1×) | “I found this ancient box sealed tight. They say only a dragon's claw can open it” |
-| stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) | [The fifth master](../quests/fifth_master.md#stage-75) | handed over (1×) | “Yes, let's do this.” |
-| stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) | – | must be carried (1×) | “(automatic)” |
+| [Skylenar](../monsters/skylenar.md) ([Remgard church](../maps/remgard_church.md)) | – | must be carried (1×) | “I found a strange locked box in the library basement. Can you tell me anything a” |
+| [Gwendolyn](../monsters/remgard_gwendolyn.md) ([Remgard church basement](../maps/remgard_church_basement.md)) | – | must be carried (1×) | “Gwendolyn, do you know anything about a locked box back here?” |
+| walking into a blocked passage on [White house basement](../maps/white_house_basement.md), stepping on a trigger on [White house basement](../maps/white_house_basement.md) | – | must be carried (1×) | “I found this ancient box sealed tight. They say only a dragon's claw can open it” |
+| stepping on a trigger on [White house basement](../maps/white_house_basement.md) | [The fifth master](../quests/fifth_master.md#stage-75) | handed over (1×) | “Yes, let's do this.” |
+| stepping on a trigger on [White house basement](../maps/white_house_basement.md) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

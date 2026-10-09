@@ -4,7 +4,7 @@ description: "Plump cave gnome is an enemy in Andor's Trail (humanoid) with 80 H
 
 # ![](../assets/icons/monsters/monsters_rltiles2_132.png){ .sprite } Plump cave gnome
 
-**Found in:** Labyrinth: [ratdom_maze_657](../maps/ratdom_maze_657.md), [ratdom_maze_666](../maps/ratdom_maze_666.md)
+**Found in:** Labyrinth: [Ratdom maze 657](../maps/ratdom_maze_657.md), [Ratdom maze 666](../maps/ratdom_maze_666.md)
 
 <div class="infobox" markdown>
 
@@ -55,8 +55,8 @@ description: "Plump cave gnome is an enemy in Andor's Trail (humanoid) with 80 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_657](../maps/ratdom_maze_657.md) | Labyrinth | 2 | – |
-| [ratdom_maze_666](../maps/ratdom_maze_666.md) | – | 1 | – |
+| [Ratdom maze 657](../maps/ratdom_maze_657.md) | Labyrinth | 2 | – |
+| [Ratdom maze 666](../maps/ratdom_maze_666.md) | – | 1 | – |
 
 
 ## Version history

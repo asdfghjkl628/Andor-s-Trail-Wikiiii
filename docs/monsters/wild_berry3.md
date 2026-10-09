@@ -4,7 +4,7 @@ description: "Especially sweet berries is a non-player character (NPC) in Andor'
 
 # ![](../assets/icons/monsters/items_japozero_484.png){ .sprite } Especially sweet berries
 
-**Where to find Especially sweet berries:** Deebo's Orchard: [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md#pin-npc-wild_berry3), [lodar19](../maps/lodar19.md#pin-npc-wild_berry3), [lodar21](../maps/lodar21.md#pin-npc-wild_berry3), [mountainlake7](../maps/mountainlake7.md#pin-npc-wild_berry3) (+3 more)
+**Where to find Especially sweet berries:** Deebo's Orchard: [Way to sullengard east 7](../maps/way_to_sullengard_east7.md#pin-npc-wild_berry3), [Lodar 19](../maps/lodar19.md#pin-npc-wild_berry3), [Lodar 21](../maps/lodar21.md#pin-npc-wild_berry3), [Mountainlake 7](../maps/mountainlake7.md#pin-npc-wild_berry3) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -23,17 +23,17 @@ description: "Especially sweet berries is a non-player character (NPC) in Andor'
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar19](../maps/lodar19.md) | – | 5 | Appears later, during a quest |
-| [lodar21](../maps/lodar21.md) | – | 4 | Appears later, during a quest |
-| [mountainlake7](../maps/mountainlake7.md) | – | 4 | Appears later, during a quest |
-| [mountainlake8](../maps/mountainlake8.md) | – | 3 | Appears later, during a quest |
-| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 2 | Appears later, during a quest |
-| [waytolake10](../maps/waytolake10.md) | – | 5 | Appears later, during a quest |
-| [waytolake11](../maps/waytolake11.md) | – | 4 | Appears later, during a quest |
+| [Lodar 19](../maps/lodar19.md) | – | 5 | Appears later, during a quest |
+| [Lodar 21](../maps/lodar21.md) | – | 4 | Appears later, during a quest |
+| [Mountainlake 7](../maps/mountainlake7.md) | – | 4 | Appears later, during a quest |
+| [Mountainlake 8](../maps/mountainlake8.md) | – | 3 | Appears later, during a quest |
+| [Way to sullengard east 7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 2 | Appears later, during a quest |
+| [Waytolake 10](../maps/waytolake10.md) | – | 5 | Appears later, during a quest |
+| [Waytolake 11](../maps/waytolake11.md) | – | 4 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Especially sweet berries. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Especially sweet berries. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chk_wild_berry3.json" data-npc="Especially sweet berries" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,11 +41,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-chk_wild_berry3"></span>**`chk_wild_berry3`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT wearing [Gardener's gloves](../items/gardener_gloves.md); reached stage 110 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110))* → [chk_wild_berry_50](#d-chk_wild_berry_50)
+    - branch 1 *(if NOT wearing [Gardener's gloves](../items/gardener_gloves.md); reached stage 110 of [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110))* → [chk_wild_berry_50](#d-chk_wild_berry_50)
     - branch 2 *(if random chance (5%))* → [chk_wild_berry3_20](#d-chk_wild_berry3_20)
     - branch 3 → [chk_wild_berry3_10](#d-chk_wild_berry3_10)
 

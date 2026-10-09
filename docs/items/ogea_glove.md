@@ -29,7 +29,7 @@ description: "Suspect's glove is a quest gloves, leather in Andor's Trail. How t
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [waytobrimhaven1](../maps/waytobrimhaven1.md) during [A strange looking dagger](../quests/brv_dagger.md#stage-160) (1×)
+- From stepping on a trigger on [Waytobrimhaven 1](../maps/waytobrimhaven1.md) during [A strange looking dagger](../quests/brv_dagger.md#stage-160) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,11 +40,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Kizzo](../monsters/loneford_tavern_patron.md) ([loneford6](../maps/loneford6.md)) | – | must be carried (1×) | “I did as you suggested and found the scene of a murder and I found this glove.” |
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Have you ever seen a glove like this? [Shows Venanra the glove.]” |
-| [Ogea](../monsters/brv_villager3.md) ([brimhaven4](../maps/brimhaven4.md)) | – | must be carried (1×) | “I suspect that you killed Lawellyn or that you were at the very least at the sce” |
-| [Ito](../monsters/brv_guard_deputy.md) ([brimhaven2](../maps/brimhaven2.md)) | [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60) | handed over (1×) | “I found his glove at the scene of the murder covered in dried blood and a witnes” |
-| [Ito](../monsters/brv_guard_deputy.md) ([brimhaven2](../maps/brimhaven2.md)) | – | must be carried (1×) | “I have proof that Ogea murdered Lawellyn and stole his prized dagger.” |
+| [Kizzo](../monsters/loneford_tavern_patron.md) ([Loneford 6](../maps/loneford6.md)) | – | must be carried (1×) | “I did as you suggested and found the scene of a murder and I found this glove.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Have you ever seen a glove like this? [Shows Venanra the glove.]” |
+| [Ogea](../monsters/brv_villager3.md) ([Brimhaven 4](../maps/brimhaven4.md)) | – | must be carried (1×) | “I suspect that you killed Lawellyn or that you were at the very least at the sce” |
+| [Ito](../monsters/brv_guard_deputy.md) ([Brimhaven 2](../maps/brimhaven2.md)) | [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60) | handed over (1×) | “I found his glove at the scene of the murder covered in dried blood and a witnes” |
+| [Ito](../monsters/brv_guard_deputy.md) ([Brimhaven 2](../maps/brimhaven2.md)) | – | must be carried (1×) | “I have proof that Ogea murdered Lawellyn and stole his prized dagger.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

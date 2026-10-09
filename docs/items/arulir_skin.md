@@ -26,14 +26,14 @@ description: "Arulir skin is a ordinary animal part in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Arulir Pack Leader](../monsters/arulir_leader.md) | 90% | 1 | arulircave6 |
-| [Demonic Arulir](../monsters/arulir_8.md) | 10% | 1 | arulircave6 |
-| [Arulir](../monsters/arulir_1.md) | 1% | 1 | arulirmountain1, arulirmountain2, mountainlake5 |
-| [Giant arulir](../monsters/arulir_2.md) | 1% | 1 | arulirmountain1, arulirmountain2, mountainlake5 |
-| [Cave Arulir](../monsters/arulir_3.md) | 1% | 1 | arulircave1, arulircave2, arulircave3 |
-| [Giant Cave Arulir](../monsters/arulir_4.md) | 1% | 1 | arulircave1, arulircave2, arulircave3 |
-| [Golden Arulir](../monsters/arulir_5.md) | 1% | 1 | arulircave4, arulircave5, arulircave6 |
-| [Giant Golden Arulir](../monsters/arulir_6.md) | 1% | 1 | arulircave4, arulircave5, arulircave6 |
+| [Arulir Pack Leader](../monsters/arulir_leader.md) | 90% | 1 | Arulircave 6 |
+| [Demonic Arulir](../monsters/arulir_8.md) | 10% | 1 | Arulircave 6 |
+| [Arulir](../monsters/arulir_1.md) | 1% | 1 | Arulirmountain 1, Arulirmountain 2, Mountainlake 5 |
+| [Giant arulir](../monsters/arulir_2.md) | 1% | 1 | Arulirmountain 1, Arulirmountain 2, Mountainlake 5 |
+| [Cave Arulir](../monsters/arulir_3.md) | 1% | 1 | Arulircave 1, Arulircave 2, Arulircave 3 |
+| [Giant Cave Arulir](../monsters/arulir_4.md) | 1% | 1 | Arulircave 1, Arulircave 2, Arulircave 3 |
+| [Golden Arulir](../monsters/arulir_5.md) | 1% | 1 | Arulircave 4, Arulircave 5, Arulircave 6 |
+| [Giant Golden Arulir](../monsters/arulir_6.md) | 1% | 1 | Arulircave 4, Arulircave 5, Arulircave 6 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -44,10 +44,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (2×) | “I have those things on me, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (10×) | “I have enough of those things on me for five potions, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (20×) | “I have enough of those things on me for ten potions, here.” |
-| [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) | [Too hot to handle](../quests/brightport_fiamma.md#stage-25) | handed over (1×) | “I have the cold lava rocks and arulir skin.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (2×) | “I have those things on me, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (10×) | “I have enough of those things on me for five potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (20×) | “I have enough of those things on me for ten potions, here.” |
+| [Fiamma](../monsters/brightportsmith.md) ([Brightport weapon](../maps/brightport_weapon.md)) | [Too hot to handle](../quests/brightport_fiamma.md#stage-25) | handed over (1×) | “I have the cold lava rocks and arulir skin.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

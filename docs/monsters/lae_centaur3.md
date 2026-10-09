@@ -1,10 +1,10 @@
 ---
-description: "Silvanus, the centaur is a non-player character (NPC) in Andor's Trail, found in island3. Starts Not Pony Island."
+description: "Silvanus, the centaur is a non-player character (NPC) in Andor's Trail, found in Island 3. Starts Not Pony Island."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } Silvanus, the centaur
 
-**Where to find Silvanus, the centaur:** [island3](../maps/island3.md#pin-npc-lae_centaur3)
+**Where to find Silvanus, the centaur:** [Island 3](../maps/island3.md#pin-npc-lae_centaur3)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Silvanus, the centaur is a non-player character (NPC) in Andor's T
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Not Pony Island](../quests/lae_centaurs.md) |
-| **Found in** | island3 |
+| **Found in** | Island 3 |
 | **Entry ID** | `lae_centaur3` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
@@ -23,11 +23,11 @@ description: "Silvanus, the centaur is a non-player character (NPC) in Andor's T
 ## Quests
 
 - [Not Pony Island](../quests/lae_centaurs.md): stage 10
-- [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stage 213
+- [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md): stage 213
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Silvanus, the centaur. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Silvanus, the centaur. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_centaur3.json" data-npc="Silvanus, the centaur" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,12 +35,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_centaur3"></span>**`lae_centaur3`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 30 of [Not Pony Island](../quests/lae_centaurs.md#stage-30))* → [lae_centaur](#d-lae_centaur)
-    - branch 2 *(if reached stage 213 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-213))* → [lae_centaur3_10](#d-lae_centaur3_10)
+    - branch 2 *(if reached stage 213 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-213))* → [lae_centaur3_10](#d-lae_centaur3_10)
     - branch 3 → [lae_centaur3_1](#d-lae_centaur3_1)
 
     <span id="d-lae_centaur"></span>**`lae_centaur`** *(silent check: the first matching branch below is taken)*
@@ -82,7 +82,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-lae_centaur3_5"></span>**`lae_centaur3_5`** Silvanus, the centaur: “We don't care what you think. Just leave our island and never come back.”
 
 
-    <span id="d-lae_centaur3_8"></span>**`lae_centaur3_8`** Silvanus, the centaur: “Thalos, our wise guide, is currently in the northeast of the island.” — **effects:** sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10), sets stage 213 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-213)
+    <span id="d-lae_centaur3_8"></span>**`lae_centaur3_8`** Silvanus, the centaur: “Thalos, our wise guide, is currently in the northeast of the island.” — **effects:** sets stage 10 of [Not Pony Island](../quests/lae_centaurs.md#stage-10), sets stage 213 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-213)
 
     - “Fine, I'll go see him.” → [lae_centaur3_10](#d-lae_centaur3_10)
     - “Hopefully this Thalos will be a little more accommodating.” → [lae_centaur3_10](#d-lae_centaur3_10)

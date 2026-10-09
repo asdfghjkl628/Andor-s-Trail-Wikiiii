@@ -1,8 +1,8 @@
 ---
-description: "brv_nondisplay_multipurpose is a hidden quest in Andor's Trail, started by Worker (brimhaven2_laundry). 7 stages. Knows about laundry offering upgrades"
+description: "Brimhaven multipurpose story flags is a hidden quest in Andor's Trail, started by Worker (brimhaven2_laundry). 7 stages. Knows about laundry offering upgrades"
 ---
 
-# brv_nondisplay_multipurpose
+# Brimhaven multipurpose story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "brv_nondisplay_multipurpose is a hidden quest in Andor's Trail, st
 | **Quest ID** | `brv_nondisplay_multipurpose` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 7 |
-| **Started by** | [Worker](../monsters/brv_laundry_worker.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)), [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) |
+| **Started by** | [Worker](../monsters/brv_laundry_worker.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)), [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) |
 | **NPCs involved** | [Arlish](../monsters/arlish.md), [Ito](../monsters/brv_guard_deputy.md), [Mikhail](../monsters/mikhail.md), [Venanra](../monsters/brv_laundry_boss.md), [Worker](../monsters/brv_laundry_worker.md) |
-| **Locations** | [brimhaven2](../maps/brimhaven2.md), [brimhaven2_laundry](../maps/brimhaven2_laundry.md), [brimhaven_general1](../maps/brimhaven_general1.md), [home](../maps/home.md) |
+| **Locations** | [Brimhaven 2](../maps/brimhaven2.md), [Brimhaven 2 laundry](../maps/brimhaven2_laundry.md), [Brimhaven general 1](../maps/brimhaven_general1.md), [Home](../maps/home.md) |
 | **Related quests** | 4 |
 
 </div>
@@ -27,13 +27,13 @@ description: "brv_nondisplay_multipurpose is a hidden quest in Andor's Trail, st
 
 ## Prerequisites to start
 
-**Route 1** ([Worker](../monsters/brv_laundry_worker.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md))):
+**Route 1** ([Worker](../monsters/brv_laundry_worker.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md))):
 
 - nothing
 
-**Route 2** ([Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md))):
+**Route 2** ([Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md))):
 
-- NOT reached stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10)
+- NOT reached stage 10 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -66,50 +66,103 @@ description: "brv_nondisplay_multipurpose is a hidden quest in Andor's Trail, st
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Knows about laundry offering upgrades | [Worker](../monsters/brv_laundry_worker.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md))<br>[Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | – |
-| <span id="stage-15"></span>15 | Knows about dresses | [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | – |
-| <span id="stage-20"></span>20 | brother2_door_opened<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven3](../maps/brimhaven3.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven3](../maps/brimhaven3.md) visibly changes.</span> | walking into a blocked passage on [brimhaven3](../maps/brimhaven3.md) | carry 1× [Key (found in run-down house East Brimhaven)](../items/brv_key_brother2.md) | – |
-| <span id="stage-30"></span>30 | never true<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven brother1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-40"></span>40 | told father about andor | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | – | – |
-| <span id="stage-50"></span>50 | Arlish took the dagger | [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) | hand over 1× [Assassin's blade](../items/dagger_assassin.md) | – |
-| <span id="stage-60"></span>60 | Gave Ito the glove | [Ito](../monsters/brv_guard_deputy.md) ([brimhaven2](../maps/brimhaven2.md)) | – | – |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | Knows about laundry offering upgrades | [Worker](../monsters/brv_laundry_worker.md), [Venanra](../monsters/brv_laundry_boss.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | Knows about dresses | [Venanra](../monsters/brv_laundry_boss.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | brother2_door_opened<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven 3](../maps/brimhaven3.md).</span><br><span class="qnote">🗺️ Part of [Brimhaven 3](../maps/brimhaven3.md) visibly changes.</span> | walking into a blocked passage on [Brimhaven 3](../maps/brimhaven3.md) | – |
+| <span id="stage-30"></span>30 | never true<br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md).</span> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-40"></span>[40](#route-40) | told father about andor | [Mikhail](../monsters/mikhail.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | Arlish took the dagger | [Arlish](../monsters/arlish.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | Gave Ito the glove | [Ito](../monsters/brv_guard_deputy.md) | – |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 2 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Worker](../monsters/brv_laundry_worker.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) → choose “What are you working on?” → **stage 10**. NPC: “Currently I am coloring some cloth, but we do everything related to cloth, like repairing, custom tailoring, or…”
-    2. Talk to [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) → choose “Can you sell me something?” — **conditions:** NOT reached stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10) → **stage 10**. NPC: “We are working on some nice green dresses. We can also repair and improve your clothes.”
+??? note "Stage 10 · Worker, Venanra · 2 ways"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Worker](../monsters/brv_laundry_worker.md), choose “What are you working on?”
 
-    1. Talk to [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) → choose “Can you sell me something?” — **conditions:** NOT reached stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10) → **stage 15**. NPC: “We are working on some nice green dresses. We can also repair and improve your clothes.”
+    - *“Currently I am coloring some cloth, but we do everything related to cloth, like repairing, custom tailoring, or enhancing. We also do some…”*
 
-???+ note "Stage 20: 1 route"
+    **Way 2:** Talk to [Venanra](../monsters/brv_laundry_boss.md), choose “Can you sell me something?”
 
-    1. walking into a blocked passage on [brimhaven3](../maps/brimhaven3.md) → choose “I try to use the key that I found in the house nearby to open the door.” — **conditions:** carry 1× [Key (found in run-down house East Brimhaven)](../items/brv_key_brother2.md) → **stage 20**. NPC: “The key opens the door.”
+    - **Needs:** not yet stage 10
+    - *“We are working on some nice green dresses. We can also repair and improve your clothes.”*
 
-???+ note "Stage 40: 3 routes"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “I met a man called Lodar and he told me that Andor probably went to Nor City.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); reached stage 80 of [Search for Andor](../quests/andor.md#stage-80) → **stage 40**. NPC: “Did you go to Nor City?”
-    2. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); reached stage 55 of [Search for Andor](../quests/andor.md#stage-55) → **stage 40**. NPC: “Did you find this Lodar?”
-    3. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “I asked around in Crossglen and they sent me to Fallhaven.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); reached stage 30 of [Search for Andor](../quests/andor.md#stage-30) → **stage 40**. NPC: “Did you go the dangerous way to Fallhaven?”
+<span id="route-15"></span>
 
-???+ note "Stage 50: 1 route"
+??? note "Stage 15 · Venanra · 1 way"
 
-    1. Talk to [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) → choose “Well, I have it right here.” — **conditions:** reached stage 110 of [A strange looking dagger](../quests/brv_dagger.md#stage-110); NOT reached stage 115 of [A strange looking dagger](../quests/brv_dagger.md#stage-115); NOT reached stage 120 of [A strange looking dagger](../quests/brv_dagger.md#stage-120); NOT reached stage 200 of [A strange looking dagger](../quests/brv_dagger.md#stage-200); NOT reached stage 230 of [A strange looking dagger](../quests/brv_dagger.md#stage-230); hand over 1× [Assassin's blade](../items/dagger_assassin.md) → **stage 50**. NPC: “Arlish takes the dagger and examines it while you continue to talk.”
+    **Way 1:** Talk to [Venanra](../monsters/brv_laundry_boss.md), choose “Can you sell me something?”
 
-???+ note "Stage 60: 1 route"
+    - **Needs:** not yet stage 10
+    - *“We are working on some nice green dresses. We can also repair and improve your clothes.”*
 
-    1. Talk to [Ito](../monsters/brv_guard_deputy.md) ([brimhaven2](../maps/brimhaven2.md)) → choose “I want to discuss Ogea again.” — **conditions:** reached stage 60 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-60); NOT reached stage 220 of [A strange looking dagger](../quests/brv_dagger.md#stage-220) → **stage 60**. NPC: “Wow. You did a great job! Do you want a job on our team?”
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · walking into a blocked passage on brimhaven3 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Brimhaven 3](../maps/brimhaven3.md), choose “I try to use the key that I found in the house nearby to open the door.”
+
+    - **Needs:** carry 1× [Key (found in run-down house East Brimhaven)](../items/brv_key_brother2.md)
+    - *“The key opens the door.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Mikhail · 3 ways"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “I met a man called Lodar and he told me that Andor probably went to Nor City.”
+
+    - **Needs:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); not reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); not reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); reached stage 80 of [Search for Andor](../quests/andor.md#stage-80)
+    - *“Did you go to Nor City?”*
+
+    **Way 2:** Talk to [Mikhail](../monsters/mikhail.md), choose “Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.”
+
+    - **Needs:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); not reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); reached stage 55 of [Search for Andor](../quests/andor.md#stage-55)
+    - *“Did you find this Lodar?”*
+
+    **Way 3:** Talk to [Mikhail](../monsters/mikhail.md), choose “I asked around in Crossglen and they sent me to Fallhaven.”
+
+    - **Needs:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); reached stage 30 of [Search for Andor](../quests/andor.md#stage-30)
+    - *“Did you go the dangerous way to Fallhaven?”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Arlish · 1 way"
+
+    **Way 1:** Talk to [Arlish](../monsters/arlish.md), choose “Well, I have it right here.”
+
+    - **Needs:** reached stage 110 of [A strange looking dagger](../quests/brv_dagger.md#stage-110); not reached stage 115 of [A strange looking dagger](../quests/brv_dagger.md#stage-115); not reached stage 120 of [A strange looking dagger](../quests/brv_dagger.md#stage-120); not reached stage 200 of [A strange looking dagger](../quests/brv_dagger.md#stage-200); not reached stage 230 of [A strange looking dagger](../quests/brv_dagger.md#stage-230); hand over 1× [Assassin's blade](../items/dagger_assassin.md)
+    - *“Arlish takes the dagger and examines it while you continue to talk.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Ito · 1 way"
+
+    **Way 1:** Talk to [Ito](../monsters/brv_guard_deputy.md), choose “I want to discuss Ogea again.”
+
+    - **Needs:** stage 60; not reached stage 220 of [A strange looking dagger](../quests/brv_dagger.md#stage-220)
+    - *“Wow. You did a great job! Do you want a job on our team?”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -155,6 +208,7 @@ description: "brv_nondisplay_multipurpose is a hidden quest in Andor's Trail, st
     | | |
     |---|---|
     | Quest ID | `brv_nondisplay_multipurpose` |
+    | Name in game data | `brv_nondisplay_multipurpose` |
     | showInLog | 0 |
     | Stage IDs | 10, 15, 20, 30, 40, 50, 60 |
     | Dialogue nodes setting stages | 10: `brv_laundry_worker_2`, 10: `brv_laundry_boss_1`, 15: `brv_laundry_boss_1`, 20: `brv_brother2_door2`, 40: `mikhail_news_40`, 40: `mikhail_news_30`, 40: `mikhail_news_20`, 50: `arlish_asd_20`, 60: `brv_guard_deputy_asd_20` |

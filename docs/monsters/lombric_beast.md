@@ -1,10 +1,10 @@
 ---
-description: "Lombric beast is an enemy in Andor's Trail (animal) with 30 HP, worth 47 XP, found in bogsten3, bogsten4, mushroom_m3_2. Drops: Gold coins, Small rock."
+description: "Lombric beast is an enemy in Andor's Trail (animal) with 30 HP, worth 47 XP, found in Bogsten 3, Bogsten 4, Mushroom m 3 2. Drops: Gold coins, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_57.png){ .sprite } Lombric beast
 
-**Found in:** [bogsten3](../maps/bogsten3.md), [bogsten4](../maps/bogsten4.md), [mushroom_m3_2](../maps/mushroom_m3_2.md)
+**Found in:** [Bogsten 3](../maps/bogsten3.md), [Bogsten 4](../maps/bogsten4.md), [Mushroom m 3 2](../maps/mushroom_m3_2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Lombric beast is an enemy in Andor's Trail (animal) with 30 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | bogsten3, bogsten4, mushroom_m3_2 |
+| **Found in** | Bogsten 3, Bogsten 4, Mushroom m 3 2 |
 | **Class** | Animal |
 | **HP** | 30 |
 | **XP when defeated** | 47 |
@@ -55,9 +55,9 @@ description: "Lombric beast is an enemy in Andor's Trail (animal) with 30 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bogsten3](../maps/bogsten3.md) | – | 3 | – |
-| [bogsten4](../maps/bogsten4.md) | – | 6 | – |
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 2 | – |
+| [Bogsten 3](../maps/bogsten3.md) | – | 3 | – |
+| [Bogsten 4](../maps/bogsten4.md) | – | 6 | – |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 2 | – |
 
 
 ## Version history

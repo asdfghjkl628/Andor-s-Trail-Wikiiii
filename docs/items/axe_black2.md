@@ -54,7 +54,7 @@ description: "Reinforced black axe is a ordinary axe in Andor's Trail (Attack da
 | [Hardened ash gargoyle](../monsters/ash4.md) | 5% | 1 | Charwood |
 | [Young ash spawn](../monsters/ash5.md) | 5% | 1 | Charwood |
 | [Ash spawn](../monsters/ash6.md) | 5% | 1 | Charwood |
-| [Tough ash spawn](../monsters/ash7.md) | 5% | 1 | lostmine5, lostmine6, lostmine7 |
+| [Tough ash spawn](../monsters/ash7.md) | 5% | 1 | Lostmine 5, Lostmine 6, Lostmine 7 |
 
 ### Sold by
 
@@ -62,7 +62,7 @@ description: "Reinforced black axe is a ordinary axe in Andor's Trail (Attack da
 
 ### Found in containers
 
-- [haunted_house_basement](../maps/haunted_house_basement.md#container-0) (container 1, 100%)
+- [Haunted house basement](../maps/haunted_house_basement.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -27,7 +27,7 @@ description: "Nearly depleted oegyth crystal is a quest gem in Andor's Trail. Ho
 
 ### Quest & dialogue rewards
 
-- From [Audela](../monsters/audela.md) ([laerothtomb1](../maps/laerothtomb1.md)), stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-160) (1×)
+- From [Audela](../monsters/audela.md) ([Laerothtomb 1](../maps/laerothtomb1.md)), stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-160) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-14) | handed over (1×) | “Call for Jerelin.” |
+| stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-14) | handed over (1×) | “Call for Jerelin.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

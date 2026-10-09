@@ -4,7 +4,7 @@ description: "Peasant grandfather is a non-player character (NPC) in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_karvis2_5.png){ .sprite } Peasant grandfather
 
-**Where to find Peasant grandfather:** Brimhaven: [brimhaven2_farmhouse](../maps/brimhaven2_farmhouse.md#pin-npc-brv_old_farmer)
+**Where to find Peasant grandfather:** Brimhaven: [Brimhaven 2 farmhouse](../maps/brimhaven2_farmhouse.md#pin-npc-brv_old_farmer)
 
 <div class="infobox" markdown>
 
@@ -35,7 +35,7 @@ description: "Peasant grandfather is a non-player character (NPC) in Andor's Tra
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Peasant grandfather. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Peasant grandfather. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_old_farmer_0.json" data-npc="Peasant grandfather" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_old_farmer_0"></span>**`brv_old_farmer_0`** Peasant grandfather: “What are you doing in my house?”
 

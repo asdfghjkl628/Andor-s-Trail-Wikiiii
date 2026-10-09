@@ -4,7 +4,7 @@ description: "Brown church rat is an enemy in Andor's Trail (animal) with 86 HP,
 
 # ![](../assets/icons/monsters/monsters_rltiles2_148.png){ .sprite } Brown church rat
 
-**Found in:** Remgard: [island_underground1](../maps/island_underground1.md)
+**Found in:** Remgard: [Island underground 1](../maps/island_underground1.md)
 
 <div class="infobox" markdown>
 
@@ -55,7 +55,7 @@ description: "Brown church rat is an enemy in Andor's Trail (animal) with 86 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island_underground1](../maps/island_underground1.md) | Remgard | 5 | – |
+| [Island underground 1](../maps/island_underground1.md) | Remgard | 5 | – |
 
 
 ## Version history

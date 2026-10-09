@@ -14,9 +14,9 @@ description: "Alaun soup rewards is a hidden quest in Andor's Trail, started by 
 | **Quest ID** | `alaun_soup_reward` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 7 |
-| **Started by** | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) |
+| **Started by** | [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) |
 | **NPCs involved** | [Alaun](../monsters/alaun.md) |
-| **Locations** | [fallhaven_alaun](../maps/fallhaven_alaun.md) |
+| **Locations** | [Fallhaven alaun](../maps/fallhaven_alaun.md) |
 | **Total XP** | 1,350 |
 | **Related quests** | 1 |
 
@@ -28,7 +28,7 @@ description: "Alaun soup rewards is a hidden quest in Andor's Trail, started by 
 
 ## Prerequisites to start
 
-Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)). Required:
+Start with [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)). Required:
 
 - NOT reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
 
@@ -52,49 +52,104 @@ Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_al
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | 10 gold | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) |
-| <span id="stage-11"></span>11 |  | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | hand over 1× [Gison's mushroom soup](../items/gison_soup.md), stage 10 | 500 XP<br>sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30)<br>gives 10× [Gold coins](../items/gold.md)<br>gives 5× [Bread](../items/bread.md)<br>gives 1× [Empty bottle](../items/bottle_empty.md)<br>sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35) |
-| <span id="stage-15"></span>15 | 15 gold | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) |
-| <span id="stage-16"></span>16 |  | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | hand over 1× [Gison's mushroom soup](../items/gison_soup.md), stage 15 | 450 XP<br>gives 15× [Gold coins](../items/gold.md)<br>gives 1× [Empty bottle](../items/bottle_empty.md)<br>sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30)<br>sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35) |
-| <span id="stage-20"></span>20 | 20 gold | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) |
-| <span id="stage-21"></span>21 |  | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | hand over 1× [Gison's mushroom soup](../items/gison_soup.md), stage 20 | 400 XP<br>sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30)<br>gives 20× [Gold coins](../items/gold.md)<br>gives 1× [Empty bottle](../items/bottle_empty.md)<br>sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35) |
-| <span id="stage-30"></span>30 | Failure | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) | – | applies condition fear |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | 10 gold | [Alaun](../monsters/alaun.md) | sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) |
+| <span id="stage-11"></span>[11](#route-11) |  | [Alaun](../monsters/alaun.md) | 500 XP, sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), 10× [Gold coins](../items/gold.md), 5× [Bread](../items/bread.md), 1× [Empty bottle](../items/bottle_empty.md), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35) |
+| <span id="stage-15"></span>[15](#route-15) | 15 gold | [Alaun](../monsters/alaun.md) | sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) |
+| <span id="stage-16"></span>[16](#route-16) |  | [Alaun](../monsters/alaun.md) | 450 XP, 15× [Gold coins](../items/gold.md), 1× [Empty bottle](../items/bottle_empty.md), sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35) |
+| <span id="stage-20"></span>[20](#route-20) | 20 gold | [Alaun](../monsters/alaun.md) | sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) |
+| <span id="stage-21"></span>[21](#route-21) |  | [Alaun](../monsters/alaun.md) | 400 XP, sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), 20× [Gold coins](../items/gold.md), 1× [Empty bottle](../items/bottle_empty.md), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35) |
+| <span id="stage-30"></span>[30](#route-30) | Failure | [Alaun](../monsters/alaun.md) | applies condition fear |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “Sounds easy, I'll do it!” — **conditions:** NOT reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) → **stage 10**; also sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10). NPC: “That's really nice of you.”
+??? note "Stage 10 · Alaun · 1 way"
 
-???+ note "Stage 11: 1 route"
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “Sounds easy, I'll do it!”
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “Gison gave me some of his soup.” — **conditions:** reached stage 20 of [Delicious soup](../quests/gison_soup.md#stage-20); NOT reached stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30); NOT reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50); reached stage 10 of [Alaun soup rewards (hidden flag)](../quests/alaun_soup_reward.md#stage-10); hand over 1× [Gison's mushroom soup](../items/gison_soup.md) → **stage 11**; also sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), gives 10× [Gold coins](../items/gold.md), gives 5× [Bread](../items/bread.md), gives 1× [Empty bottle](../items/bottle_empty.md), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35). NPC: “Here is the money I promised you. And as a bonus I will give you some of this bread. Next time I will buy Nimael's soup.”
+    - **Needs:** not reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
+    - **Gives:** sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
+    - *“That's really nice of you.”*
 
-???+ note "Stage 15: 1 route"
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “Sounds good. I will do it.” — **conditions:** NOT reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) → **stage 15**; also sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10). NPC: “That's nice of you.”
+<span id="route-11"></span>
 
-???+ note "Stage 16: 1 route"
+??? note "Stage 11 · Alaun · 1 way"
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “Gison gave me some of his soup.” — **conditions:** reached stage 20 of [Delicious soup](../quests/gison_soup.md#stage-20); NOT reached stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30); NOT reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50); reached stage 15 of [Alaun soup rewards (hidden flag)](../quests/alaun_soup_reward.md#stage-15); hand over 1× [Gison's mushroom soup](../items/gison_soup.md) → **stage 16**; also gives 15× [Gold coins](../items/gold.md), gives 1× [Empty bottle](../items/bottle_empty.md), sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35). NPC: “Here is the money I promised you. Next time I will buy Nimael's soup.”
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “Gison gave me some of his soup.”
 
-???+ note "Stage 20: 1 route"
+    - **Needs:** stage 10; reached stage 20 of [Delicious soup](../quests/gison_soup.md#stage-20); not reached stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30); not reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50); hand over 1× [Gison's mushroom soup](../items/gison_soup.md)
+    - **Gives:** sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), 10× [Gold coins](../items/gold.md), 5× [Bread](../items/bread.md), 1× [Empty bottle](../items/bottle_empty.md), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35)
+    - *“Here is the money I promised you. And as a bonus I will give you some of this bread. Next time I will buy Nimael's soup.”*
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “Sounds good. I will do it.” — **conditions:** NOT reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10) → **stage 20**; also sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10). NPC: “OK, please bring it hot!”
 
-???+ note "Stage 21: 1 route"
+<span id="route-15"></span>
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “Gison gave me some of his soup.” — **conditions:** reached stage 20 of [Delicious soup](../quests/gison_soup.md#stage-20); NOT reached stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30); NOT reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50); reached stage 20 of [Alaun soup rewards (hidden flag)](../quests/alaun_soup_reward.md#stage-20); hand over 1× [Gison's mushroom soup](../items/gison_soup.md) → **stage 21**; also sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), gives 20× [Gold coins](../items/gold.md), gives 1× [Empty bottle](../items/bottle_empty.md), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35). NPC: “Here is the money I promised you. Next time I will buy Nimael's soup.”
+??? note "Stage 15 · Alaun · 1 way"
 
-???+ note "Stage 30: 1 route"
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “Sounds good. I will do it.”
 
-    1. Talk to [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) → choose “I was not able to bring you the soup.” — **conditions:** latest stage of [Delicious soup](../quests/gison_soup.md#stage-10) is 10; reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50) → **stage 30**; also applies condition fear. NPC: “That can't be. Get out of here! [Alaun starts throwing things at you]”
+    - **Needs:** not reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
+    - **Gives:** sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
+    - *“That's nice of you.”*
+
+
+<span id="route-16"></span>
+
+??? note "Stage 16 · Alaun · 1 way"
+
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “Gison gave me some of his soup.”
+
+    - **Needs:** stage 15; reached stage 20 of [Delicious soup](../quests/gison_soup.md#stage-20); not reached stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30); not reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50); hand over 1× [Gison's mushroom soup](../items/gison_soup.md)
+    - **Gives:** 15× [Gold coins](../items/gold.md), 1× [Empty bottle](../items/bottle_empty.md), sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35)
+    - *“Here is the money I promised you. Next time I will buy Nimael's soup.”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Alaun · 1 way"
+
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “Sounds good. I will do it.”
+
+    - **Needs:** not reached stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
+    - **Gives:** sets stage 10 of [Delicious soup](../quests/gison_soup.md#stage-10)
+    - *“OK, please bring it hot!”*
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · Alaun · 1 way"
+
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “Gison gave me some of his soup.”
+
+    - **Needs:** stage 20; reached stage 20 of [Delicious soup](../quests/gison_soup.md#stage-20); not reached stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30); not reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50); hand over 1× [Gison's mushroom soup](../items/gison_soup.md)
+    - **Gives:** sets stage 30 of [Delicious soup](../quests/gison_soup.md#stage-30), 20× [Gold coins](../items/gold.md), 1× [Empty bottle](../items/bottle_empty.md), sets stage 35 of [Delicious soup](../quests/gison_soup.md#stage-35)
+    - *“Here is the money I promised you. Next time I will buy Nimael's soup.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Alaun · 1 way"
+
+    **Way 1:** Talk to [Alaun](../monsters/alaun.md), choose “I was not able to bring you the soup.”
+
+    - **Needs:** latest stage of [Delicious soup](../quests/gison_soup.md#stage-10) is 10; reached stage 50 of [Delicious soup](../quests/gison_soup.md#stage-50)
+    - **Gives:** applies condition fear
+    - *“That can't be. Get out of here! [Alaun starts throwing things at you]”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -139,6 +194,7 @@ Start with [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_al
     | | |
     |---|---|
     | Quest ID | `alaun_soup_reward` |
+    | Name in game data | `Alaun soup rewards` |
     | showInLog | 0 |
     | Stage IDs | 10, 11, 15, 16, 20, 21, 30 |
     | Dialogue nodes setting stages | 10: `alaun_startquest10`, 11: `alaun_return10`, 15: `alaun_startquest15`, 16: `alaun_return15`, 20: `alaun_startquest20`, 21: `alaun_return20`, 30: `alaun_return_fail` |

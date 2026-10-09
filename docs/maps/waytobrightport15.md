@@ -1,8 +1,8 @@
 ---
-description: "Waytobrightport15 is an indoor location in Andor's Trail. Enemies: Muskrat, Virulent forest deer. Exits to Waytobrightport12, Waytobrightport14."
+description: "Waytobrightport 15 is an indoor location in Andor's Trail. Enemies: Muskrat, Virulent forest deer. Exits to Waytobrightport 12, Waytobrightport 14."
 ---
 
-# Waytobrightport15
+# Waytobrightport 15
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Waytobrightport15 is an indoor location in Andor's Trail. Enemies:
 | **Map ID** | `waytobrightport15` |
 | **Type** | Indoors / underground |
 | **Size** | 25×20 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytobrightport15** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrightport12, Waytobrightport14.
+**Waytobrightport 15** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrightport 12, Waytobrightport 14.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport15.webp" alt="Map of Waytobrightport15" width="800" height="640" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytobrightport14/#place-north" title="Exit to Waytobrightport14" style="left:4.000%;top:95.000%;width:8.000%;height:5.000%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport12/#place-east" title="Exit to Waytobrightport12" style="left:0.000%;top:90.000%;width:4.000%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Muskrat" style="left:16.000%;top:15.000%;width:72.000%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Virulent forest deer" style="left:20.000%;top:15.000%;width:68.000%;height:30.000%"></span><a class="mob" href="../../monsters/brightport_squirrel/" title="Muskrat" style="left:36.000%;top:40.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_tometik5_26.png" alt="Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel/" title="Muskrat" style="left:16.000%;top:20.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_tometik5_26.png" alt="Muskrat"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:48.000%;top:30.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:80.000%;top:40.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:80.000%;top:15.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:84.000%;top:30.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="pin pin-exit" href="#key-1" style="left:2.000%;top:92.500%" title="Exit (southwest): to [Waytobrightport12](waytobrightport12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:8.000%;top:97.500%" title="Exit (southwest): to [Waytobrightport14](waytobrightport14.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport15.webp" alt="Map of Waytobrightport 15" width="800" height="640" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytobrightport14/#place-north" title="Exit to Waytobrightport 14" style="left:4.000%;top:95.000%;width:8.000%;height:5.000%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport12/#place-east" title="Exit to Waytobrightport 12" style="left:0.000%;top:90.000%;width:4.000%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Muskrat" style="left:16.000%;top:15.000%;width:72.000%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Virulent forest deer" style="left:20.000%;top:15.000%;width:68.000%;height:30.000%"></span><a class="mob" href="../../monsters/brightport_squirrel/" title="Muskrat" style="left:36.000%;top:40.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_tometik5_26.png" alt="Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel/" title="Muskrat" style="left:16.000%;top:20.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_tometik5_26.png" alt="Muskrat"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:48.000%;top:30.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:80.000%;top:40.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:80.000%;top:15.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="mob" href="../../monsters/brightport_deer/" title="Virulent forest deer" style="left:84.000%;top:30.000%;width:4.000%;height:5.000%"><img src="../../assets/icons/monsters/monsters_johny_12.png" alt="Virulent forest deer"></a><a class="pin pin-exit" href="#key-1" style="left:2.000%;top:92.500%" title="Exit (southwest): to [Waytobrightport 12](waytobrightport12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:8.000%;top:97.500%" title="Exit (southwest): to [Waytobrightport 14](waytobrightport14.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southwest) | to [Waytobrightport12](waytobrightport12.md) |
-    | <span id="key-2"></span>2 | Exit (southwest) | to [Waytobrightport14](waytobrightport14.md) |
+    | <span id="key-1"></span>1 | Exit (southwest) | to [Waytobrightport 12](waytobrightport12.md) |
+    | <span id="key-2"></span>2 | Exit (southwest) | to [Waytobrightport 14](waytobrightport14.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Waytobrightport15 is an indoor location in Andor's Trail. Enemies:
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southwest | [Waytobrightport12](waytobrightport12.md) | – | 1 |
-| Southwest | [Waytobrightport14](waytobrightport14.md) | – | 2 |
+| Southwest | [Waytobrightport 12](waytobrightport12.md) | – | 1 |
+| Southwest | [Waytobrightport 14](waytobrightport14.md) | – | 2 |
 
 ## Enemies
 

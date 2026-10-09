@@ -4,7 +4,7 @@ description: "Drashad is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_63.png){ .sprite } Drashad
 
-**Where to find Drashad:** Prim: [tradehouse0](../maps/tradehouse0.md#pin-npc-drashad)
+**Where to find Drashad:** Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-drashad)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Drashad is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drashad. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drashad. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/drashad.json" data-npc="Drashad" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-drashad"></span>**`drashad`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 19 of [Destined for great things](../quests/charwood1.md#stage-19)
 

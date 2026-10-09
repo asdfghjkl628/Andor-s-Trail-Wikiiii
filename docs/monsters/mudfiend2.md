@@ -4,7 +4,7 @@ description: "Tough mudfiend is an enemy in Andor's Trail (construct) with 41 HP
 
 # ![](../assets/icons/monsters/monsters_ld2_133.png){ .sprite } Tough mudfiend
 
-**Found in:** Loneford: [lodar1](../maps/lodar1.md), [lodar1cave0](../maps/lodar1cave0.md), [lodar8cave0](../maps/lodar8cave0.md), [shortcut_lodar0](../maps/shortcut_lodar0.md) (+4 more)
+**Found in:** Loneford: [Lodar 1](../maps/lodar1.md), [Lodar 1cave 0](../maps/lodar1cave0.md), [Lodar 8cave 0](../maps/lodar8cave0.md), [Shortcut lodar 0](../maps/shortcut_lodar0.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -61,14 +61,14 @@ description: "Tough mudfiend is an enemy in Andor's Trail (construct) with 41 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar1](../maps/lodar1.md) | Loneford | 1 | – |
-| [lodar1cave0](../maps/lodar1cave0.md) | – | 8 | – |
-| [lodar8cave0](../maps/lodar8cave0.md) | – | 15 | – |
-| [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | 1 | – |
-| [shortcut_lodar1](../maps/shortcut_lodar1.md) | – | 2 | – |
-| [shortcut_lodar2](../maps/shortcut_lodar2.md) | – | 1 | – |
-| [shortcut_lodar3](../maps/shortcut_lodar3.md) | – | 1 | – |
-| [shortcut_lodar4](../maps/shortcut_lodar4.md) | – | 5 | – |
+| [Lodar 1](../maps/lodar1.md) | Loneford | 1 | – |
+| [Lodar 1cave 0](../maps/lodar1cave0.md) | – | 8 | – |
+| [Lodar 8cave 0](../maps/lodar8cave0.md) | – | 15 | – |
+| [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – | 1 | – |
+| [Shortcut lodar 1](../maps/shortcut_lodar1.md) | – | 2 | – |
+| [Shortcut lodar 2](../maps/shortcut_lodar2.md) | – | 1 | – |
+| [Shortcut lodar 3](../maps/shortcut_lodar3.md) | – | 1 | – |
+| [Shortcut lodar 4](../maps/shortcut_lodar4.md) | – | 5 | – |
 
 
 ## Version history

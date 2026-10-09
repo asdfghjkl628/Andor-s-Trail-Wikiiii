@@ -4,7 +4,7 @@ description: "Maonit brute is an enemy in Andor's Trail (giant) with 290 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rltiles1_107.png){ .sprite } Maonit brute
 
-**Found in:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake3](../maps/mountainlake3.md), [mountainlake4](../maps/mountainlake4.md), [mountainlake5](../maps/mountainlake5.md) (+3 more)
+**Found in:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md), [Mountainlake 5](../maps/mountainlake5.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -57,13 +57,13 @@ description: "Maonit brute is an enemy in Andor's Trail (giant) with 290 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake3](../maps/mountainlake3.md) | Lake Laeroth | 14 | – |
-| [mountainlake4](../maps/mountainlake4.md) | – | 6 | – |
-| [mountainlake5](../maps/mountainlake5.md) | – | 3 | – |
-| [mountainlake6](../maps/mountainlake6.md) | – | 4 | – |
-| [waytolake10](../maps/waytolake10.md) | – | 6 | – |
-| [waytolake12](../maps/waytolake12.md) | – | 2 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 3](../maps/mountainlake3.md) | Lake Laeroth | 14 | – |
+| [Mountainlake 4](../maps/mountainlake4.md) | – | 6 | – |
+| [Mountainlake 5](../maps/mountainlake5.md) | – | 3 | – |
+| [Mountainlake 6](../maps/mountainlake6.md) | – | 4 | – |
+| [Waytolake 10](../maps/waytolake10.md) | – | 6 | – |
+| [Waytolake 12](../maps/waytolake12.md) | – | 2 | – |
 
 
 ## Version history

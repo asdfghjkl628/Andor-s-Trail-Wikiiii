@@ -4,7 +4,7 @@ description: "Jern is a non-player character (NPC) in Andor's Trail, found in Pr
 
 # ![](../assets/icons/monsters/monsters_rltiles1_106.png){ .sprite } Jern
 
-**Where to find Jern:** Prim: [blackwater_mountain22](../maps/blackwater_mountain22.md#pin-npc-prim_bar_regular), Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_bar_regular)
+**Where to find Jern:** Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-prim_bar_regular), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_bar_regular)
 
 <div class="infobox" markdown>
 
@@ -23,17 +23,17 @@ description: "Jern is a non-player character (NPC) in Andor's Trail, found in Pr
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain22](../maps/blackwater_mountain22.md) | Prim | 1 | – |
-| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | Appears later, during a quest |
+| [Blackwater mountain 22](../maps/blackwater_mountain22.md) | Prim | 1 | – |
+| [Blackwater mountain 29](../maps/blackwater_mountain29.md) | Prim | 1 | Appears later, during a quest |
 
 ## Quests
 
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): stages 22, 23, 25, 30, 36, 40
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stages 13, 18, 43
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stages 13, 18, 43
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jern. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jern. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_tavern_guest4_selector.json" data-npc="Jern" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,23 +41,23 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (129 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_tavern_guest4_selector"></span>**`prim_tavern_guest4_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 43 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-43))* → [capvjern_32c](#d-capvjern_32c)
-    - branch 2 *(if reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
-    - branch 3 *(if reached stage 59 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-59); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
-    - branch 4 *(if reached stage 60 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-60); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
-    - branch 5 *(if reached stage 61 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-61); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
-    - branch 6 *(if reached stage 62 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
-    - branch 7 *(if reached stage 63 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-63); reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 1 *(if reached stage 43 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-43))* → [capvjern_32c](#d-capvjern_32c)
+    - branch 2 *(if reached stage 56 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-56); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 3 *(if reached stage 59 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-59); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 4 *(if reached stage 60 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-60); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 5 *(if reached stage 61 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-61); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 6 *(if reached stage 62 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-62); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
+    - branch 7 *(if reached stage 63 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-63); reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_23](#d-capvjern_23)
     - branch 8 *(if reached stage 40 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-40))* → [capvjern_22](#d-capvjern_22)
-    - branch 9 *(if reached stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_15](#d-capvjern_15)
-    - branch 10 *(if reached stage 17 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-17))* → [capvjern_1](#d-capvjern_1)
-    - branch 11 *(if reached stage 36 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-36); NOT reached stage 17 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-17))* → *NPC leaves*
+    - branch 9 *(if reached stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18))* → [capvjern_15](#d-capvjern_15)
+    - branch 10 *(if reached stage 17 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-17))* → [capvjern_1](#d-capvjern_1)
+    - branch 11 *(if reached stage 36 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-36); NOT reached stage 17 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-17))* → *NPC leaves*
     - branch 12 *(if reached stage 30 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-30))* → [prim_tavern_guest4_36c](#d-prim_tavern_guest4_36c)
-    - branch 13 *(if reached stage 13 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-13))* → [prim_tavern_guest4_33a](#d-prim_tavern_guest4_33a)
+    - branch 13 *(if reached stage 13 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-13))* → [prim_tavern_guest4_33a](#d-prim_tavern_guest4_33a)
     - branch 14 *(if reached stage 25 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-25))* → [prim_tavern_guest4_19](#d-prim_tavern_guest4_19)
     - branch 15 *(if reached stage 23 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-23))* → [prim_tavern_guest4_17b](#d-prim_tavern_guest4_17b)
     - branch 16 *(if reached stage 22 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-22); NOT reached stage 23 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-23))* → [prim_tavern_guest4_14a](#d-prim_tavern_guest4_14a)
@@ -78,7 +78,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “OK, bye.” → *conversation ends*
     - “Shadow be with you.” → *conversation ends*
 
-    <span id="d-capvjern_15"></span>**`capvjern_15`** [Prim guard captain](../monsters/prim_guard5.md): “We're short of men, and we don't even know where he is right now. *Meanwhile Jern stares at you.*” — **effects:** sets stage 18 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-18)
+    <span id="d-capvjern_15"></span>**`capvjern_15`** [Prim guard captain](../monsters/prim_guard5.md): “We're short of men, and we don't even know where he is right now. *Meanwhile Jern stares at you.*” — **effects:** sets stage 18 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-18)
 
     - “I don't know!” → [capvjern_16a](#d-capvjern_16a)
     - “I can't be of help this time...” → [capvjern_16b](#d-capvjern_16b)
@@ -94,7 +94,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I can handle myself.” → [prim_tavern_guest4_37b](#d-prim_tavern_guest4_37b)
     - “A few gornauds weren't a problem for me. I have nothing to fear from that thin man.” *(if killed 50× [Gornaud](../monsters/gornaud.md))* → [prim_tavern_guest4_37c](#d-prim_tavern_guest4_37c)
 
-    <span id="d-prim_tavern_guest4_33a"></span>**`prim_tavern_guest4_33a`** Jern: “Lorn must have discovered something. Just a week or two ago we were right here bantering and chatting, trying to forget that horrible scene of Kirg's death.” — **effects:** sets stage 13 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-13)
+    <span id="d-prim_tavern_guest4_33a"></span>**`prim_tavern_guest4_33a`** Jern: “Lorn must have discovered something. Just a week or two ago we were right here bantering and chatting, trying to forget that horrible scene of Kirg's death.” — **effects:** sets stage 13 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-13)
 
     - “Why didn't you go along with them?” → [prim_tavern_guest4_34a](#d-prim_tavern_guest4_34a)
     - “Did he mention anything unusual?” → [prim_tavern_guest4_34c](#d-prim_tavern_guest4_34c)
@@ -517,7 +517,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Pft, I'm wasting time. Bye.” → *conversation ends*
     - “Anyway, Lorn died by falling off the mountain.” → [prim_tavern_guest4_8a](#d-prim_tavern_guest4_8a)
 
-    <span id="d-capvjern_32a"></span>**`capvjern_32a`** [Jern](../monsters/prim_bar_regular.md): “Thank you again. *looks at the captain* I'll be going.” — **effects:** gives 1× [Rusted key](../items/elm2_key.md), removes monsters from blackwater_mountain29, sets stage 43 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-43)
+    <span id="d-capvjern_32a"></span>**`capvjern_32a`** [Jern](../monsters/prim_bar_regular.md): “Thank you again. *looks at the captain* I'll be going.” — **effects:** gives 1× [Rusted key](../items/elm2_key.md), removes monsters from blackwater_mountain29, sets stage 43 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-43)
 
     - “Shadow be with you.” → *NPC leaves*
     - “Good luck in your shift.” → *NPC leaves*

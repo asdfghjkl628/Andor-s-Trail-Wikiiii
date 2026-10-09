@@ -11,9 +11,9 @@ description: "A raid for a cookbook is a quest in Andor's Trail, started by Giso
 | **Quest ID** | `gison_cookbook` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 62, 70) |
-| **Started by** | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) |
+| **Started by** | [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) |
 | **NPCs involved** | [Gison](../monsters/gison.md), [Thief](../monsters/gison_thief1.md) |
-| **Locations** | [mywild20_houseleft](../maps/mywild20_houseleft.md), [mywildcave4](../maps/mywildcave4.md) |
+| **Locations** | [Mywild 20 houseleft](../maps/mywild20_houseleft.md), [Mywildcave 4](../maps/mywildcave4.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -24,7 +24,7 @@ description: "A raid for a cookbook is a quest in Andor's Trail, started by Giso
 
 ## Prerequisites to start
 
-Start with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)). Required:
+Start with [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)). Required:
 
 - reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100)
 - killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9)
@@ -42,54 +42,108 @@ Start with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Gison, the man with the mushroom soup in the forest south of Fallhaven, got raided. Only his cookbook was stolen and he asked me to bring it back to him. | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | – |
-| <span id="stage-15"></span>15 | I agreed to help him. | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | – |
-| <span id="stage-20"></span>20 | Gison said the thieves came from the south. I should begin my search there. | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | stage 15 | – |
-| <span id="stage-30"></span>30 | I discovered a hidden cave. The thieves may be hiding there.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mywildcave](../maps/mywildcave.md).</span> | walking into a blocked passage on [mywildcave](../maps/mywildcave.md) | stage 20 | – |
-| <span id="stage-40"></span>40 | I found the thieves. Their leader was performing some kind of ritual when I came into the cave. | [Thief](../monsters/gison_thief1.md) ([mywildcave4](../maps/mywildcave4.md)) | – | – |
-| <span id="stage-60"></span>60 | I brought the cookbook back to Gison. The thieves were working for Zuul'khan, the fungi sorcerer. They made a second copy of the book without the strange writing, which Gison gladly accepted. Gison can now cook his mushroom soup again. | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | carry 1× [Fabulous cookings (copy)](../items/gison_cookbook_2.md), stage 40 | – |
-| <span id="stage-62"></span>62 | I told Gison that I found the thieves, but that they had destroyed the cookbook. **(completes quest)**<br><span class="qnote">🔒 An area on [Mywildcave4](../maps/mywildcave4.md) becomes blocked off.</span> | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | stage 40 | changes map mywildcave4 |
-| <span id="stage-70"></span>70 | Gison will give me mushroom soup in thanks if I bring him 50 gold, 2 of Bogsten's mushrooms and an empty bottle. **(completes quest)** | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Gison, the man with the mushroom soup in the forest south of… ▸</span><span class="l">▴ less</span></summary>Gison, the man with the mushroom soup in the forest south of Fallhaven, got raided. Only his cookbook was stolen and he asked me to bring it back to him.</details> | [Gison](../monsters/gison.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | I agreed to help him. | [Gison](../monsters/gison.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Gison said the thieves came from the south. I should begin my search there. | [Gison](../monsters/gison.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I discovered a hidden cave. The thieves may be hiding there.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mywildcave](../maps/mywildcave.md).</span> | walking into a blocked passage on [Mywildcave](../maps/mywildcave.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I found the thieves. Their leader was performing some kind of ritual… ▸</span><span class="l">▴ less</span></summary>I found the thieves. Their leader was performing some kind of ritual when I came into the cave.</details> | [Thief](../monsters/gison_thief1.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I brought the cookbook back to Gison. The thieves were working for… ▸</span><span class="l">▴ less</span></summary>I brought the cookbook back to Gison. The thieves were working for Zuul'khan, the fungi sorcerer. They made a second copy of the book without the strange writing, which Gison gladly accepted. Gison can now cook his mushroom soup again.</details> | [Gison](../monsters/gison.md) | – |
+| <span id="stage-62"></span>[62](#route-62) | I told Gison that I found the thieves, but that they had destroyed the cookbook. **(ends quest)**<br><span class="qnote">🔒 An area on [Mywildcave 4](../maps/mywildcave4.md) becomes blocked off.</span> | [Gison](../monsters/gison.md) | changes map mywildcave4 |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">Gison will give me mushroom soup in thanks if I bring him 50 gold, 2… ▸</span><span class="l">▴ less</span></summary>Gison will give me mushroom soup in thanks if I bring him 50 gold, 2 of Bogsten's mushrooms and an empty bottle.</details> **(ends quest)** | [Gison](../monsters/gison.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) → the conversation leads here automatically — **conditions:** reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9) → **stage 10**. NPC: “Strangely they only took my old cookbook with them. Please help me get back my book, otherwise I cannot make my…”
+??? note "Stage 10 · Gison · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Gison](../monsters/gison.md), automatic
 
-    1. Talk to [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) → choose “Sure thing. I'll search for your book.” — **conditions:** reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9) → **stage 15**. NPC: “I really thank you.”
+    - **Needs:** reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9)
+    - *“Strangely they only took my old cookbook with them. Please help me get back my book, otherwise I cannot make my delicious mushroom soup.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) → the conversation leads here automatically — **conditions:** reached stage 15 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-15) → **stage 20**. NPC: “The robbers came from the south. Maybe you should start your search in that direction. Take care!”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · Gison · 1 way"
 
-    1. walking into a blocked passage on [mywildcave](../maps/mywildcave.md) → choose “Examine it more closely.” — **conditions:** reached stage 20 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-20) → **stage 30**. NPC: “You examine the wall more closely and discover an entrance hidden beneath moss and leaves.”
+    **Way 1:** Talk to [Gison](../monsters/gison.md), choose “Sure thing. I'll search for your book.”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** reached stage 100 of [Delicious soup](../quests/gison_soup.md#stage-100); killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan9)
+    - *“I really thank you.”*
 
-    1. Talk to [Thief](../monsters/gison_thief1.md) ([mywildcave4](../maps/mywildcave4.md)) → the conversation leads here automatically → **stage 40**. NPC: “Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we…”
 
-???+ note "Stage 60: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) → choose “Yes, the robbers have made a complete copy of the book, just without the spell.” — **conditions:** reached stage 40 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-40); carry 1× [Fabulous cookings (copy)](../items/gison_cookbook_2.md) → **stage 60**. NPC: “Then give me the copy. I don't want to be raided again.”
+??? note "Stage 20 · Gison · 1 way"
 
-???+ note "Stage 62: 1 route"
+    **Way 1:** Talk to [Gison](../monsters/gison.md), automatic
 
-    1. Talk to [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) → choose “[Lie] I found the robbers, but they had destroyed the book.” — **conditions:** reached stage 40 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-40); NOT killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-gison_thiefboss) → **stage 62**; also changes map mywildcave4. NPC: “Noo!”
+    - **Needs:** stage 15
+    - *“The robbers came from the south. Maybe you should start your search in that direction. Take care!”*
 
-???+ note "Stage 70: 1 route"
 
-    1. Talk to [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) → choose “Oh yes.” — **conditions:** reached stage 70 of [A raid for a cookbook](../quests/gison_cookbook.md#stage-70) → **stage 70**. NPC: “Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold.”
+<span id="route-30"></span>
+
+??? note "Stage 30 · walking into a blocked passage on mywildcave · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Mywildcave](../maps/mywildcave.md), choose “Examine it more closely.”
+
+    - **Needs:** stage 20
+    - *“You examine the wall more closely and discover an entrance hidden beneath moss and leaves.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Thief · 1 way"
+
+    **Way 1:** Talk to [Thief](../monsters/gison_thief1.md), automatic
+
+    - *“Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we have stolen. Go away!”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Gison · 1 way"
+
+    **Way 1:** Talk to [Gison](../monsters/gison.md), choose “Yes, the robbers have made a complete copy of the book, just without the spell.”
+
+    - **Needs:** stage 40; carry 1× [Fabulous cookings (copy)](../items/gison_cookbook_2.md)
+    - *“Then give me the copy. I don't want to be raided again.”*
+
+
+<span id="route-62"></span>
+
+??? note "Stage 62 · Gison · 1 way"
+
+    **Way 1:** Talk to [Gison](../monsters/gison.md), choose “[Lie] I found the robbers, but they had destroyed the book.”
+
+    - **Needs:** stage 40; not killed 1× [Zuul'khan](../monsters/zuul_khan.md#v-gison_thiefboss)
+    - **Gives:** changes map mywildcave4
+    - *“Noo!”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Gison · 1 way"
+
+    **Way 1:** Talk to [Gison](../monsters/gison.md), choose “Oh yes.”
+
+    - **Needs:** stage 70
+    - *“Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

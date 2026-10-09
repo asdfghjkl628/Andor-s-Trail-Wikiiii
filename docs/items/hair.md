@@ -31,8 +31,8 @@ description: "Animal hair is a ordinary animal part in Andor's Trail. How to get
 | [Rabid boar](../monsters/rabid_boar.md) | 30% | 1 | Blackwater Mountain, Crossroads Guardhouse, Crossglen |
 | [Wild boar](../monsters/wild_boar.md) | 30% | 1 | Flagstone Prison, Blackwater Mountain, Fallhaven |
 | [Anklebiter](../monsters/anklebiter.md) | 30% | 1 | Crossroads Guardhouse, Flagstone Prison, Guynmart Castle |
-| [Pack leader](../monsters/pack_leader.md) | 30% | 1 | clearing_level2 |
-| [Pack hunter](../monsters/pack_hunter.md) | 30% | 1 | clearing_level2 |
+| [Pack leader](../monsters/pack_leader.md) | 30% | 1 | Clearing level 2 |
+| [Pack hunter](../monsters/pack_hunter.md) | 30% | 1 | Clearing level 2 |
 | [Rabid wolf](../monsters/rabid_wolf.md) | 30% | 1 | Fallhaven |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 30% | 1 | Fallhaven |
 | [Young wolf](../monsters/young_wolf.md) | 30% | 1 | Fallhaven |
@@ -45,22 +45,22 @@ description: "Animal hair is a ordinary animal part in Andor's Trail. How to get
 | [Mountain fox](../monsters/mwolf_4.md) | 30% | 1 | Lake Laeroth, Remgard |
 | [Ferocious mountain fox](../monsters/mwolf_5.md) | 30% | 1 | Lake Laeroth, Remgard |
 | [Rabid mountain wolf](../monsters/mwolf_6.md) | 30% | 1 | Lake Laeroth, Remgard |
-| [Strong mountain wolf](../monsters/mwolf_7.md) | 30% | 1 | mountainlake10, mountainlake11, waytolake10 |
-| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 30% | 1 | mountainlake10, mountainlake11, waytolake10 |
+| [Strong mountain wolf](../monsters/mwolf_7.md) | 30% | 1 | Mountainlake 10, Mountainlake 11, Waytolake 10 |
+| [Ferocious mountain wolf](../monsters/mwolf_8.md) | 30% | 1 | Mountainlake 10, Mountainlake 11, Waytolake 10 |
 | [Young forest fox](../monsters/forestfox2.md) | 30% | 1 | Fallhaven, Foaming Flask Tavern |
 | [Forest fox](../monsters/forestfox3.md) | 30% | 1 | Fallhaven, Foaming Flask Tavern |
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 30% | 1 | Loneford |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 30% | 1 | Loneford |
-| [Fast horned anklebiter](../monsters/anklebiter4.md) | 30% | 1 | lodar15, lodar17, lodar19 |
-| [Tough horned anklebiter](../monsters/anklebiter5.md) | 30% | 1 | lodar15, lodar17, lodar19 |
-| [Strong horned anklebiter](../monsters/anklebiter6.md) | 30% | 1 | lodar15, lodar17, lodar19 |
-| [Steelhide horned anklebiter](../monsters/anklebiter7.md) | 30% | 1 | lodar15, lodar17, lodar21 |
+| [Fast horned anklebiter](../monsters/anklebiter4.md) | 30% | 1 | Lodar 15, Lodar 17, Lodar 19 |
+| [Tough horned anklebiter](../monsters/anklebiter5.md) | 30% | 1 | Lodar 15, Lodar 17, Lodar 19 |
+| [Strong horned anklebiter](../monsters/anklebiter6.md) | 30% | 1 | Lodar 15, Lodar 17, Lodar 19 |
+| [Steelhide horned anklebiter](../monsters/anklebiter7.md) | 30% | 1 | Lodar 15, Lodar 17, Lodar 21 |
 | [Ancient wolf](../monsters/lonely_wolf.md) | 20% | 1 | Foaming Flask Tavern |
 | [Young gornaud](../monsters/young_gornaud.md) | 10% | 1 | Stoutford, Blackwater Mountain, Prim |
 | [Gornaud](../monsters/gornaud.md) | 10% | 1 | Blackwater Mountain |
 | [Strong gornaud](../monsters/strong_gornaud.md) | 10% | 1 | Blackwater Mountain |
-| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 | mountainlake8, mountainlake8_cave |
-| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 | mountainlake8, mountainlake8_cave |
+| [Fearless mountain brute](../monsters/mbrute_11.md) | 10% | 1 | Mountainlake 8, Mountainlake 8 cave |
+| [Enraged mountain brute](../monsters/mbrute_12.md) | 10% | 1 | Mountainlake 8, Mountainlake 8 cave |
 | [Maonit troll](../monsters/maonit_1.md) | 10% | 1 | Lake Laeroth |
 | [Giant maonit troll](../monsters/maonit_2.md) | 10% | 1 | Lake Laeroth |
 | [Strong maonit troll](../monsters/maonit_3.md) | 10% | 1 | Lake Laeroth |
@@ -71,7 +71,7 @@ description: "Animal hair is a ordinary animal part in Andor's Trail. How to get
 
 ### Sold by
 
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 - [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) (Prim)
 
 
@@ -84,17 +84,17 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Talion](../monsters/talion.md) | [I have it in me](../quests/maggots.md#stage-41) | handed over (2×) | “Here you go.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-30) | handed over (2×) | “I have those ingredients for you.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-35) | handed over (2×) | “I have those ingredients for you.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (10×) | “Here, I have enough of those ingredients for five potions.” |
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (20×) | “Here, I have enough of those ingredients for ten potions.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-75) | handed over (4×) | “I already have them right here. Take them.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-75) | handed over (4×) | “Here. Take these.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-80) | handed over (3×) | “I have these with me. Take them.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | – | handed over (3×) | “I think so. Here's what I found.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-125) | handed over (3×) | “I happen to have some here. Take them.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-125) | handed over (3×) | “I think I do. Look at these.” |
-| stepping on a trigger on [loneford13](../maps/loneford13.md) | – | handed over (1×) | “[Throw a piece of animal hair?]” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-30) | handed over (2×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-35) | handed over (2×) | “I have those ingredients for you.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (10×) | “Here, I have enough of those ingredients for five potions.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | [Taste is everything](../quests/antifoodp.md#stage-20) | handed over (20×) | “Here, I have enough of those ingredients for ten potions.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-75) | handed over (4×) | “I already have them right here. Take them.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-75) | handed over (4×) | “Here. Take these.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-80) | handed over (3×) | “I have these with me. Take them.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | – | handed over (3×) | “I think so. Here's what I found.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-125) | handed over (3×) | “I happen to have some here. Take them.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-125) | handed over (3×) | “I think I do. Look at these.” |
+| stepping on a trigger on [Loneford 13](../maps/loneford13.md) | – | handed over (1×) | “[Throw a piece of animal hair?]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -57,7 +57,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [Bread and circus](../quests/brightport_bakery.md#stage-23) | handed over (1×) | “Yes, here you go.” |
+| [Allares](../monsters/brightportstoragenpc.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Bread and circus](../quests/brightport_bakery.md#stage-23) | handed over (1×) | “Yes, here you go.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

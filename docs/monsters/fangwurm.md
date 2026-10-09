@@ -4,7 +4,7 @@ description: "Fangwurm is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_2.png){ .sprite } Fangwurm
 
-**Where to find Fangwurm:** Brimhaven: [brimhaven_church](../maps/brimhaven_church.md#pin-npc-fangwurm)
+**Where to find Fangwurm:** Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-fangwurm)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Fangwurm is a non-player character (NPC) in Andor's Trail, found i
 ## Quests
 
 - [A quick glance](../quests/quick_glance.md): stages 77, 78
-- [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md): stages 50, 60
+- [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md): stages 50, 60
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Fangwurm. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Fangwurm. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fangwurm_start.json" data-npc="Fangwurm" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,14 +34,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fangwurm_start"></span>**`fangwurm_start`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if reached stage 85 of [A quick glance](../quests/quick_glance.md#stage-85))* → [fangwurm_thank_rescuing_sister](#d-fangwurm_thank_rescuing_sister)
-    - branch 2 *(if reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90))* → [fangwurm_angry_2](#d-fangwurm_angry_2)
-    - branch 3 *(if reached stage 50 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-50))* → [fangwurm_angry](#d-fangwurm_angry)
-    - branch 4 *(if reached stage 60 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60))* → [fangwurm_thank_killing_basilisk](#d-fangwurm_thank_killing_basilisk)
+    - branch 2 *(if reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90))* → [fangwurm_angry_2](#d-fangwurm_angry_2)
+    - branch 3 *(if reached stage 50 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-50))* → [fangwurm_angry](#d-fangwurm_angry)
+    - branch 4 *(if reached stage 60 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60))* → [fangwurm_thank_killing_basilisk](#d-fangwurm_thank_killing_basilisk)
     - branch 5 *(if reached stage 90 of [A quick glance](../quests/quick_glance.md#stage-90))* → [fangwurm_thank_killing_basilisk_2](#d-fangwurm_thank_killing_basilisk_2)
     - branch 6 → [fangwurm_talking](#d-fangwurm_talking)
 
@@ -51,10 +51,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-fangwurm_angry_2"></span>**`fangwurm_angry_2`** Fangwurm: “Anakis told me that you took the blood for yourself instead of trying to help his sister. Please leave now.”
 
 
-    <span id="d-fangwurm_angry"></span>**`fangwurm_angry`** Fangwurm: “I am sad that you took the blood for yourself instead of trying to help Anakis' sister. Please leave now.” — **effects:** sets stage 50 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-50)
+    <span id="d-fangwurm_angry"></span>**`fangwurm_angry`** Fangwurm: “I am sad that you took the blood for yourself instead of trying to help Anakis' sister. Please leave now.” — **effects:** sets stage 50 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-50)
 
 
-    <span id="d-fangwurm_thank_killing_basilisk"></span>**`fangwurm_thank_killing_basilisk`** Fangwurm: “Thank you for killing the Basilisk, but it would be better if you had talked to me before killing it, because its magical blood is now dried up and wasted. May the Shadow always be with you.” — **effects:** sets stage 60 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60)
+    <span id="d-fangwurm_thank_killing_basilisk"></span>**`fangwurm_thank_killing_basilisk`** Fangwurm: “Thank you for killing the Basilisk, but it would be better if you had talked to me before killing it, because its magical blood is now dried up and wasted. May the Shadow always be with you.” — **effects:** sets stage 60 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-60)
 
 
     <span id="d-fangwurm_thank_killing_basilisk_2"></span>**`fangwurm_thank_killing_basilisk_2`** Fangwurm: “Anakis told me that you killed the Basilisk. Thank you, but it would be better if you had talked to me before killing it, because its magical blood is now dried up and wasted. May the Shadow always be with you.”
@@ -62,8 +62,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-fangwurm_talking"></span>**`fangwurm_talking`** Fangwurm: “May the Shadow be with you.”
 
-    - “I killed the Basilisk and took the blood for myself.” *(if reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); NOT reached stage 85 of [A quick glance](../quests/quick_glance.md#stage-85))* → [fangwurm_angry](#d-fangwurm_angry)
-    - “I killed the Basilisk in the cave.” *(if NOT reached stage 30 of [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20))* → [fangwurm_thank_killing_basilisk](#d-fangwurm_thank_killing_basilisk)
+    - “I killed the Basilisk and took the blood for myself.” *(if reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); NOT reached stage 85 of [A quick glance](../quests/quick_glance.md#stage-85))* → [fangwurm_angry](#d-fangwurm_angry)
+    - “I killed the Basilisk in the cave.” *(if NOT reached stage 30 of [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30); killed 1× [Ancient basilisk](../monsters/old_basilisk.md); reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20))* → [fangwurm_thank_killing_basilisk](#d-fangwurm_thank_killing_basilisk)
     - “Can you please tell me again, what you know about the Basilisk's blood?” *(if reached stage 77 of [A quick glance](../quests/quick_glance.md#stage-77))* → [fangwurm_info_about_blood](#d-fangwurm_info_about_blood)
     - “I believe that Anakis' sister was turned to stone by the Basilisk in the cave. Do you have any idea if I could help her?” *(if NOT reached stage 77 of [A quick glance](../quests/quick_glance.md#stage-77); reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50))* → [fangwurm_info_about_blood](#d-fangwurm_info_about_blood)
     - “Anakis' sister is missing. Can you tell me more about the Basilisk in the cave?” *(if reached stage 20 of [A quick glance](../quests/quick_glance.md#stage-20); NOT reached stage 50 of [A quick glance](../quests/quick_glance.md#stage-50))* → [fangwurm_info_basilisk](#d-fangwurm_info_basilisk)

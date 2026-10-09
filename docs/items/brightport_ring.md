@@ -40,7 +40,7 @@ description: "Stanwick's signet ring is a quest ring in Andor's Trail (Attack da
 
 ### Quest & dialogue rewards
 
-- From [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) during [Search for Andor](../quests/andor.md#stage-128) (1×)
+- From [Stanwick](../monsters/brightportnpc.md) ([Brightport school 7](../maps/brightport_school7.md)) during [Search for Andor](../quests/andor.md#stage-128) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

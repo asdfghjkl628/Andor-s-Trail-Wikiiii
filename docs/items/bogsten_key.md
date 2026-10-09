@@ -27,7 +27,7 @@ description: "Bogsten's key is a quest other in Andor's Trail. How to get it: qu
 
 ### Quest & dialogue rewards
 
-- From [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) during [Fungi panic](../quests/fungi_panic.md#stage-30) (1×)
+- From [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) during [Fungi panic](../quests/fungi_panic.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [bogsten1](../maps/bogsten1.md) | [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-35) | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Bogsten 1](../maps/bogsten1.md) | [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-35) | handed over (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

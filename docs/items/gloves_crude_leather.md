@@ -37,7 +37,7 @@ description: "Crude leather gloves is a ordinary gloves, leather in Andor's Trai
 
 ### Sold by
 
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

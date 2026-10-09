@@ -27,7 +27,7 @@ description: "Suspicious package is a quest other in Andor's Trail. How to get i
 
 ### Found in containers
 
-- [crackshot_hideout3](../maps/crackshot_hideout3.md#container-0) (container 1, 100%)
+- [Crackshot hideout 3](../maps/crackshot_hideout3.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

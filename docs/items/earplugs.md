@@ -29,7 +29,7 @@ description: "Earplugs is a quest other in Andor's Trail. How to get it: shops, 
 
 ### Quest & dialogue rewards
 
-- From [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) (4×)
+- From [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) (4×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,9 +40,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | – | must be carried (4×) | “I have earplugs now.” |
-| walking into a blocked passage on [mountainlake21](../maps/mountainlake21.md) | [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-100) | handed over (4×) | “Look, I have earplugs here, take them and you can drive through here as often as” |
-| walking into a blocked passage on [mountainlake21](../maps/mountainlake21.md) | – | must be carried (1×) | “Look, I have earplugs here, take them and you can drive through here as often as” |
+| [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) | – | must be carried (4×) | “I have earplugs now.” |
+| walking into a blocked passage on [Mountainlake 21](../maps/mountainlake21.md) | [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md#stage-100) | handed over (4×) | “Look, I have earplugs here, take them and you can drive through here as often as” |
+| walking into a blocked passage on [Mountainlake 21](../maps/mountainlake21.md) | – | must be carried (1×) | “Look, I have earplugs here, take them and you can drive through here as often as” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

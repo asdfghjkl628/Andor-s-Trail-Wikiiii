@@ -27,7 +27,7 @@ description: "Ortholion's signet is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Ehrenfest](../monsters/ehrenfest.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-46) (1×)
+- From [Ehrenfest](../monsters/ehrenfest.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) during [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-46) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,9 +38,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) | – | must be carried (1×) | “(automatic)” |
-| [Feygard mountain scout](../monsters/ortholion_guard5.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | must be carried (1×) | “[Shows the signet] Your general has gone to Elm mine. He could be in trouble.” |
-| [Feygard mountain scout](../monsters/ortholion_guard5.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | must be carried (1×) | “[shows the signet] Yeah, sure. Now hurry up! Your general is waiting for you in ” |
+| [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [Elm 5f 2](../maps/elm5f_2.md) | – | must be carried (1×) | “(automatic)” |
+| [Feygard mountain scout](../monsters/ortholion_guard5.md) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) | – | must be carried (1×) | “[Shows the signet] Your general has gone to Elm mine. He could be in trouble.” |
+| [Feygard mountain scout](../monsters/ortholion_guard5.md) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) | – | must be carried (1×) | “[shows the signet] Yeah, sure. Now hurry up! Your general is waiting for you in ” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

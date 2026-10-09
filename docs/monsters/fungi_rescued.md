@@ -1,5 +1,5 @@
 ---
-description: "Lediofa is a non-player character (NPC) in Andor's Trail, found in mushroom_m3_2, Fallhaven."
+description: "Lediofa is a non-player character (NPC) in Andor's Trail, found in Mushroom m 3 2, Fallhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Lediofa
@@ -11,25 +11,25 @@ description: "Lediofa is a non-player character (NPC) in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | mushroom_m3_2, Fallhaven |
+| **Found in** | Mushroom m 3 2, Fallhaven |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Lediofa. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Lediofa. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`fungi_rescued`](#v-fungi_rescued) | NPC | [mushroom_m3_2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued) | – |
-| [`fungi_rescued2`](#v-fungi_rescued2) | NPC | Fallhaven: [fallhaven_potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2) | – |
+| [`fungi_rescued`](#v-fungi_rescued) | NPC | [Mushroom m 3 2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued) | – |
+| [`fungi_rescued2`](#v-fungi_rescued2) | NPC | Fallhaven: [Fallhaven potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2) | – |
 
-## Mushroom m3 2 (fungi_rescued) { #v-fungi_rescued }
+## Mushroom m 3 2 (fungi_rescued) { #v-fungi_rescued }
 
 **Entry ID:** `fungi_rescued` · **Type:** NPC
 
-**Location:** [mushroom_m3_2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued)
+**Location:** [Mushroom m 3 2](../maps/mushroom_m3_2.md#pin-npc-fungi_rescued)
 
 ### Quests
 
@@ -37,7 +37,7 @@ description: "Lediofa is a non-player character (NPC) in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lediofa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lediofa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fungi_rescued.json" data-npc="Lediofa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fungi_rescued-fungi_rescued"></span>**`fungi_rescued`** Lediofa: “Thank you, thank you!”
 
@@ -143,7 +143,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `fungi_rescued2` · **Type:** NPC
 
-**Location:** Fallhaven: [fallhaven_potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2)
+**Location:** Fallhaven: [Fallhaven potions](../maps/fallhaven_potions.md#pin-npc-fungi_rescued2)
 
 ### Quests
 
@@ -151,7 +151,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lediofa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lediofa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fungi_rescued2.json" data-npc="Lediofa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -159,7 +159,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fungi_rescued2-fungi_rescued2"></span>**`fungi_rescued2`** *(silent check: the first matching branch below is taken)*
 

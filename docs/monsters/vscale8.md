@@ -1,10 +1,10 @@
 ---
-description: "Tough venomscale is an enemy in Andor's Trail (reptile) with 67 HP, worth 347 XP, found in lodar19. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
+description: "Tough venomscale is an enemy in Andor's Trail (reptile) with 67 HP, worth 347 XP, found in Lodar 19. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_32.png){ .sprite } Tough venomscale
 
-**Found in:** [lodar19](../maps/lodar19.md)
+**Found in:** [Lodar 19](../maps/lodar19.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough venomscale is an enemy in Andor's Trail (reptile) with 67 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar19 |
+| **Found in** | Lodar 19 |
 | **Class** | Reptile |
 | **HP** | 67 |
 | **XP when defeated** | 347 |
@@ -59,7 +59,7 @@ description: "Tough venomscale is an enemy in Andor's Trail (reptile) with 67 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar19](../maps/lodar19.md) | – | 2 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 2 | – |
 
 
 ## Version history

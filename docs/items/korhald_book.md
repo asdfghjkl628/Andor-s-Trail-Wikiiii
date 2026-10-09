@@ -33,7 +33,7 @@ description: "Korhald Family Legacy is a rare other in Andor's Trail. How to get
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [korhald_cave_hidden](../maps/korhald_cave_hidden.md) during [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-49) (100%)
+- From stepping on a trigger on [Korhald cave hidden](../maps/korhald_cave_hidden.md) during [General story flags (hidden flag)](../quests/nondisplay.md#stage-49) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

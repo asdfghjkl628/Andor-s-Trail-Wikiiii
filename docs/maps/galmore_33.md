@@ -12,7 +12,7 @@ description: "Galmore 33 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Region** | Near Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
@@ -62,7 +62,7 @@ description: "Galmore 33 is an outdoor location in Andor's Trail, near Mt. Galmo
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): blocked passage opens at stage 50; something on this map advances it
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): blocked passage opens at stage 50; something on this map advances it
 
 ## Points of interest
 

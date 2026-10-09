@@ -12,7 +12,7 @@ description: "Galmore 12a is an indoor location in Andor's Trail, in Stoutford (
 | **Region** | In Stoutford (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 31×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 1 |
@@ -64,7 +64,7 @@ description: "Galmore 12a is an indoor location in Andor's Trail, in Stoutford (
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 52; stepping on a trigger here sets stage 53; stepping on a trigger here sets stage 54; stepping on a trigger here sets stage 55; stepping on a trigger here sets stage 56
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 52; stepping on a trigger here sets stage 53; stepping on a trigger here sets stage 54; stepping on a trigger here sets stage 55; stepping on a trigger here sets stage 56
 
 ## Points of interest
 

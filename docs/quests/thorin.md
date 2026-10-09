@@ -11,9 +11,9 @@ description: "Bits and pieces is a quest in Andor's Trail, started by Thorin (mo
 | **Quest ID** | `thorin` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 40) |
-| **Started by** | [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) |
+| **Started by** | [Thorin](../monsters/thorin.md) ([Mountaincave 3](../maps/mountaincave3.md)) |
 | **NPCs involved** | [Thorin](../monsters/thorin.md) |
-| **Locations** | [mountaincave3](../maps/mountaincave3.md) |
+| **Locations** | [Mountaincave 3](../maps/mountaincave3.md) |
 | **Total XP** | 4,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Bits and pieces is a quest in Andor's Trail, started by Thorin (mo
 
 ## Prerequisites to start
 
-Start with [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)). Required:
+Start with [Thorin](../monsters/thorin.md) ([Mountaincave 3](../maps/mountaincave3.md)). Required:
 
 - reached stage 40 of [Bits and pieces](../quests/thorin.md#stage-40)
 
@@ -39,54 +39,114 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-20"></span>20 | In a cave to the east, I found a man called Thorin, that wants me to help him find the remains of his former travelling companions. I should find the remains of all six of them and return them to him. | [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) | stage 40 | – |
-| <span id="stage-31"></span>31 | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [mountaincave2](../maps/mountaincave2.md) | stage 20 | gives [Chewed bone](../items/thorin_bone.md) |
-| <span id="stage-32"></span>32 | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [mountaincave2](../maps/mountaincave2.md) | stage 20 | gives [Chewed bone](../items/thorin_bone.md) |
-| <span id="stage-33"></span>33 | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [mountaincave2](../maps/mountaincave2.md) | stage 20 | gives [Chewed bone](../items/thorin_bone.md) |
-| <span id="stage-34"></span>34 | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [mountaincave2](../maps/mountaincave2.md) | stage 20 | gives [Chewed bone](../items/thorin_bone.md) |
-| <span id="stage-35"></span>35 | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [mountaincave2](../maps/mountaincave2.md) | stage 20 | gives [Chewed bone](../items/thorin_bone.md) |
-| <span id="stage-36"></span>36 | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [mountaincave1](../maps/mountaincave1.md) | stage 20 | gives [Chewed bone](../items/thorin_bone.md) |
-| <span id="stage-40"></span>40 | Thorin thanked me for helping him. In return, he has allowed me to use his bed to rest, and is willing to sell me some of his potions. **(completes quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mountaincave3](../maps/mountaincave3.md).</span> | [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) | hand over 6× [Chewed bone](../items/thorin_bone.md), stage 20 | 4,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">In a cave to the east, I found a man called Thorin, that wants me to… ▸</span><span class="l">▴ less</span></summary>In a cave to the east, I found a man called Thorin, that wants me to help him find the remains of his former travelling companions. I should find the remains of all six of them and return them to him.</details> | [Thorin](../monsters/thorin.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [Mountaincave 2](../maps/mountaincave2.md) | [Chewed bone](../items/thorin_bone.md) |
+| <span id="stage-32"></span>[32](#route-32) | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [Mountaincave 2](../maps/mountaincave2.md) | [Chewed bone](../items/thorin_bone.md) |
+| <span id="stage-33"></span>[33](#route-33) | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [Mountaincave 2](../maps/mountaincave2.md) | [Chewed bone](../items/thorin_bone.md) |
+| <span id="stage-34"></span>[34](#route-34) | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [Mountaincave 2](../maps/mountaincave2.md) | [Chewed bone](../items/thorin_bone.md) |
+| <span id="stage-35"></span>[35](#route-35) | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [Mountaincave 2](../maps/mountaincave2.md) | [Chewed bone](../items/thorin_bone.md) |
+| <span id="stage-36"></span>[36](#route-36) | I have found some skeletal remains in the same cave that I met Thorin in. | reading a sign on [Mountaincave 1](../maps/mountaincave1.md) | [Chewed bone](../items/thorin_bone.md) |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Thorin thanked me for helping him. In return, he has allowed me to… ▸</span><span class="l">▴ less</span></summary>Thorin thanked me for helping him. In return, he has allowed me to use his bed to rest, and is willing to sell me some of his potions.</details> **(ends quest)**<br><span class="qnote">🔓 You can finally access a previously blocked area on [Mountaincave 3](../maps/mountaincave3.md).</span> | [Thorin](../monsters/thorin.md) | 4,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 20: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) → choose “Sure, find their remains. Sounds easy enough, I'll do it.” — **conditions:** reached stage 40 of [Bits and pieces](../quests/thorin.md#stage-40) → **stage 20**. NPC: “Excellent. Bring me back the remains of all six of them. I would go search myself if those nasty bugs weren't there.”
+??? note "Stage 20 · Thorin · 1 way"
 
-???+ note "Stage 31: 1 route"
+    **Way 1:** Talk to [Thorin](../monsters/thorin.md), choose “Sure, find their remains. Sounds easy enough, I'll do it.”
 
-    1. reading a sign on [mountaincave2](../maps/mountaincave2.md) → choose “Pick up one of the bones.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20) → **stage 31**; also gives [Chewed bone](../items/thorin_bone.md). NPC: “You pick up one of the bones. It seems to have been severely damaged by something corrosive.”
+    - **Needs:** stage 40
+    - *“Excellent. Bring me back the remains of all six of them. I would go search myself if those nasty bugs weren't there.”*
 
-???+ note "Stage 32: 1 route"
 
-    1. reading a sign on [mountaincave2](../maps/mountaincave2.md) → choose “Pick up one of the bones.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20) → **stage 32**; also gives [Chewed bone](../items/thorin_bone.md). NPC: “You pick up one of the bones. It seems to have been severely damaged by something corrosive.”
+<span id="route-31"></span>
 
-???+ note "Stage 33: 1 route"
+??? note "Stage 31 · reading a sign on mountaincave2 · 1 way"
 
-    1. reading a sign on [mountaincave2](../maps/mountaincave2.md) → choose “Pick up one of the bones.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20) → **stage 33**; also gives [Chewed bone](../items/thorin_bone.md). NPC: “You pick up one of the bones. It seems to have been severely damaged by something corrosive.”
+    **Way 1:** Reading a sign on [Mountaincave 2](../maps/mountaincave2.md), choose “Pick up one of the bones.”
 
-???+ note "Stage 34: 1 route"
+    - **Needs:** stage 20
+    - **Gives:** [Chewed bone](../items/thorin_bone.md)
+    - *“You pick up one of the bones. It seems to have been severely damaged by something corrosive.”*
 
-    1. reading a sign on [mountaincave2](../maps/mountaincave2.md) → choose “Pick up one of the bones.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20) → **stage 34**; also gives [Chewed bone](../items/thorin_bone.md). NPC: “You pick up one of the bones. It seems to have been severely damaged by something corrosive.”
 
-???+ note "Stage 35: 1 route"
+<span id="route-32"></span>
 
-    1. reading a sign on [mountaincave2](../maps/mountaincave2.md) → choose “Pick up one of the bones.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20) → **stage 35**; also gives [Chewed bone](../items/thorin_bone.md). NPC: “You pick up one of the bones. It seems to have been severely damaged by something corrosive.”
+??? note "Stage 32 · reading a sign on mountaincave2 · 1 way"
 
-???+ note "Stage 36: 1 route"
+    **Way 1:** Reading a sign on [Mountaincave 2](../maps/mountaincave2.md), choose “Pick up one of the bones.”
 
-    1. reading a sign on [mountaincave1](../maps/mountaincave1.md) → choose “Pick up one of the bones.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20) → **stage 36**; also gives [Chewed bone](../items/thorin_bone.md). NPC: “You pick up one of the bones. It seems to have been severely damaged by something corrosive.”
+    - **Needs:** stage 20
+    - **Gives:** [Chewed bone](../items/thorin_bone.md)
+    - *“You pick up one of the bones. It seems to have been severely damaged by something corrosive.”*
 
-???+ note "Stage 40: 1 route"
 
-    1. Talk to [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) → choose “Yes, this is what I found.” — **conditions:** reached stage 20 of [Bits and pieces](../quests/thorin.md#stage-20); hand over 6× [Chewed bone](../items/thorin_bone.md) → **stage 40**. NPC: “Thank you. I would have gone myself if those nasty bugs weren't there. This turned out to be much easier though.”
+<span id="route-33"></span>
+
+??? note "Stage 33 · reading a sign on mountaincave2 · 1 way"
+
+    **Way 1:** Reading a sign on [Mountaincave 2](../maps/mountaincave2.md), choose “Pick up one of the bones.”
+
+    - **Needs:** stage 20
+    - **Gives:** [Chewed bone](../items/thorin_bone.md)
+    - *“You pick up one of the bones. It seems to have been severely damaged by something corrosive.”*
+
+
+<span id="route-34"></span>
+
+??? note "Stage 34 · reading a sign on mountaincave2 · 1 way"
+
+    **Way 1:** Reading a sign on [Mountaincave 2](../maps/mountaincave2.md), choose “Pick up one of the bones.”
+
+    - **Needs:** stage 20
+    - **Gives:** [Chewed bone](../items/thorin_bone.md)
+    - *“You pick up one of the bones. It seems to have been severely damaged by something corrosive.”*
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · reading a sign on mountaincave2 · 1 way"
+
+    **Way 1:** Reading a sign on [Mountaincave 2](../maps/mountaincave2.md), choose “Pick up one of the bones.”
+
+    - **Needs:** stage 20
+    - **Gives:** [Chewed bone](../items/thorin_bone.md)
+    - *“You pick up one of the bones. It seems to have been severely damaged by something corrosive.”*
+
+
+<span id="route-36"></span>
+
+??? note "Stage 36 · reading a sign on mountaincave1 · 1 way"
+
+    **Way 1:** Reading a sign on [Mountaincave 1](../maps/mountaincave1.md), choose “Pick up one of the bones.”
+
+    - **Needs:** stage 20
+    - **Gives:** [Chewed bone](../items/thorin_bone.md)
+    - *“You pick up one of the bones. It seems to have been severely damaged by something corrosive.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Thorin · 1 way"
+
+    **Way 1:** Talk to [Thorin](../monsters/thorin.md), choose “Yes, this is what I found.”
+
+    - **Needs:** stage 20; hand over 6× [Chewed bone](../items/thorin_bone.md)
+    - *“Thank you. I would have gone myself if those nasty bugs weren't there. This turned out to be much easier though.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

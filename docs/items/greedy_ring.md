@@ -29,8 +29,8 @@ description: "Greedy's ring is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Greedy](../monsters/aidem_camp_greedy.md) | 100% | 1 | aidem_base_2, aidem_camp |
-| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_base_greedy_aggressive) | 100% | 1 | aidem_base_2 |
+| [Greedy](../monsters/aidem_camp_greedy.md) | 100% | 1 | Aidem base 2, Aidem camp |
+| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_base_greedy_aggressive) | 100% | 1 | Aidem base 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -41,7 +41,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [Wanted men](../quests/wanted_men.md#stage-80) | handed over (1×) | “Yes. I looted their rings. [Shows them to Troublemaker]” |
+| [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [Wanted men](../quests/wanted_men.md#stage-80) | handed over (1×) | “Yes. I looted their rings. [Shows them to Troublemaker]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,10 +1,10 @@
 ---
-description: "Bollo is a non-player character (NPC) in Andor's Trail, found in mushroom_m2_4b."
+description: "Bollo is a non-player character (NPC) in Andor's Trail, found in Mushroom m 2 4b."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Bollo
 
-**Where to find Bollo:** [mushroom_m2_4b](../maps/mushroom_m2_4b.md#pin-npc-bogsten_gambler3)
+**Where to find Bollo:** [Mushroom m 2 4b](../maps/mushroom_m2_4b.md#pin-npc-bogsten_gambler3)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Bollo is a non-player character (NPC) in Andor's Trail, found in m
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | mushroom_m2_4b |
+| **Found in** | Mushroom m 2 4b |
 | **Entry ID** | `bogsten_gambler3` |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
@@ -21,7 +21,7 @@ description: "Bollo is a non-player character (NPC) in Andor's Trail, found in m
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bollo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bollo. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bogsten_gambler2.json" data-npc="Bollo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (45 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bogsten_gambler2"></span>**`bogsten_gambler2`** Bollo: “Let's have another Skat game - Bogal, you bid.”
 

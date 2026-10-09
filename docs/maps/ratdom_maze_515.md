@@ -90,8 +90,8 @@ description: "Ratdom maze 515 is an indoor location in Andor's Trail, in Museum 
 
 - [base_nondisplay](../quests/base_nondisplay.md): blocked passage opens at stage 2
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved; [Wart](../monsters/ratdom_rat_warden.md#v-ratdom_rat_warden2) is involved; blocked passage opens at stage 395; something on this map advances it
-- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 31; part of the map changes at stage 32; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; part of the map changes at stage 130; part of the map changes at stage 184; something on this map advances it
+- [Ratdom maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 31; part of the map changes at stage 32; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; part of the map changes at stage 130; part of the map changes at stage 184; something on this map advances it
 
 ## Points of interest
 

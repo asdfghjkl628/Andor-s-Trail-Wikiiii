@@ -29,7 +29,7 @@ description: "Graveyard key is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Graveyard king](../monsters/graveyardking.md) | 100% | 1 | graveyard1 |
+| [Graveyard king](../monsters/graveyardking.md) | 100% | 1 | Graveyard 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,7 +40,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [graveyard0](../maps/graveyard0.md) | [Mine for the taking](../quests/graveyard_quest.md#stage-80) | handed over (1×) | “I have the key right here.” |
+| stepping on a trigger on [Graveyard 0](../maps/graveyard0.md) | [Mine for the taking](../quests/graveyard_quest.md#stage-80) | handed over (1×) | “I have the key right here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

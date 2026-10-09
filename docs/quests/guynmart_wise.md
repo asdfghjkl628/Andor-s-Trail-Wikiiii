@@ -11,9 +11,9 @@ description: "Rare delicacies is a quest in Andor's Trail, started by Old man (g
 | **Quest ID** | `guynmart_wise` |
 | **In journal** | Yes |
 | **Stages** | 4 (completes at 90) |
-| **Started by** | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
+| **Started by** | [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) |
 | **NPCs involved** | [Old man](../monsters/old_man.md#v-guynmart_wise) |
-| **Locations** | [guynmart_wood_10](../maps/guynmart_wood_10.md) |
+| **Locations** | [Guynmart wood 10](../maps/guynmart_wood_10.md) |
 | **Total XP** | 2,000 |
 | **Related quests** | 1 |
 
@@ -25,9 +25,9 @@ description: "Rare delicacies is a quest in Andor's Trail, started by Old man (g
 
 ## Prerequisites to start
 
-Start with [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)). Required:
+Start with [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)). Required:
 
-- reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35)
+- reached stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35)
 - hand over 2× [Bread](../items/bread.md)
 
 
@@ -39,38 +39,69 @@ Start with [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10]
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [guynmart nondisplay (hidden flag)](guynmart_nondisplay.md#stage-35) | stage 35 reached, for stages 10, 20, 30, 90 here |
+| Requires | [Guynmart story flags (hidden flag)](guynmart_nondisplay.md#stage-35) | stage 35 reached, for stages 10, 20, 30, 90 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I met an old man living in seclusion on a hill top. He yearned for a meal of bread and cheese, together with wine. | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | hand over 2× [Bread](../items/bread.md) | – |
-| <span id="stage-20"></span>20 | I brought him bread, cheese and wine. He is very happy. | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | hand over 1× [Cheese](../items/cheese.md), hand over 1× [Wine](../items/guynmart_wine.md), hand over 2× [Bread](../items/bread.md), stage 10 | gives 1× [Old man's ring of bone](../items/guynmart_bonering.md) |
-| <span id="stage-30"></span>30 | He would be even happier if the cheese was cheddar from Charwood. You can only get the cheddar there if you explicitly ask for it. | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | stage 20 | – |
-| <span id="stage-90"></span>90 | I got bread, cheddar and wine for him. He started feasting happily. **(completes quest)** | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | hand over 1× [Charwood cheddar](../items/charwood_cheddar.md), hand over 1× [Wine](../items/guynmart_wine.md), hand over 2× [Bread](../items/bread.md), stage 30 | 2,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I met an old man living in seclusion on a hill top. He yearned for a… ▸</span><span class="l">▴ less</span></summary>I met an old man living in seclusion on a hill top. He yearned for a meal of bread and cheese, together with wine.</details> | [Old man](../monsters/old_man.md#v-guynmart_wise) | – |
+| <span id="stage-20"></span>[20](#route-20) | I brought him bread, cheese and wine. He is very happy. | [Old man](../monsters/old_man.md#v-guynmart_wise) | 1× [Old man's ring of bone](../items/guynmart_bonering.md) |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">He would be even happier if the cheese was cheddar from Charwood.… ▸</span><span class="l">▴ less</span></summary>He would be even happier if the cheese was cheddar from Charwood. You can only get the cheddar there if you explicitly ask for it.</details> | [Old man](../monsters/old_man.md#v-guynmart_wise) | – |
+| <span id="stage-90"></span>[90](#route-90) | I got bread, cheddar and wine for him. He started feasting happily. **(ends quest)** | [Old man](../monsters/old_man.md#v-guynmart_wise) | 2,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → choose “Just say what you would like. What can I do for you?” — **conditions:** reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); hand over 2× [Bread](../items/bread.md) → **stage 10**. NPC: “I long for a meal with bread and cheese and a good bottle of wine. Oh, what would I give for that?”
+??? note "Stage 10 · Old man · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Old man](../monsters/old_man.md#v-guynmart_wise), choose “Just say what you would like. What can I do for you?”
 
-    1. Talk to [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → choose “Yes, here you are. Enjoy it!” — **conditions:** reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); reached stage 10 of [Rare delicacies](../quests/guynmart_wise.md#stage-10); hand over 2× [Bread](../items/bread.md); hand over 1× [Cheese](../items/cheese.md); hand over 1× [Wine](../items/guynmart_wine.md) → **stage 20**; also gives 1× [Old man's ring of bone](../items/guynmart_bonering.md). NPC: “So take this ring as a token of my gratitude. Certain beings in the cellars of Guynmart Castle will not harm you if…”
+    - **Needs:** reached stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); hand over 2× [Bread](../items/bread.md)
+    - *“I long for a meal with bread and cheese and a good bottle of wine. Oh, what would I give for that?”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → choose “Oh?” — **conditions:** reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); reached stage 20 of [Rare delicacies](../quests/guynmart_wise.md#stage-20) → **stage 30**. NPC: “Their Cheddar is a dream! But they sell it only when you explicitly ask for it.”
+<span id="route-20"></span>
 
-???+ note "Stage 90: 1 route"
+??? note "Stage 20 · Old man · 1 way"
 
-    1. Talk to [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) → choose “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” — **conditions:** reached stage 35 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); reached stage 30 of [Rare delicacies](../quests/guynmart_wise.md#stage-30); hand over 2× [Bread](../items/bread.md); hand over 1× [Charwood cheddar](../items/charwood_cheddar.md); hand over 1× [Wine](../items/guynmart_wine.md) → **stage 90**. NPC: “Cheddar! I can't believe it!”
+    **Way 1:** Talk to [Old man](../monsters/old_man.md#v-guynmart_wise), choose “Yes, here you are. Enjoy it!”
+
+    - **Needs:** stage 10; reached stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); hand over 2× [Bread](../items/bread.md); hand over 1× [Cheese](../items/cheese.md); hand over 1× [Wine](../items/guynmart_wine.md)
+    - **Gives:** 1× [Old man's ring of bone](../items/guynmart_bonering.md)
+    - *“So take this ring as a token of my gratitude. Certain beings in the cellars of Guynmart Castle will not harm you if they see my ring on…”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Old man · 1 way"
+
+    **Way 1:** Talk to [Old man](../monsters/old_man.md#v-guynmart_wise), choose “Oh?”
+
+    - **Needs:** stage 20; reached stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35)
+    - *“Their Cheddar is a dream! But they sell it only when you explicitly ask for it.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Old man · 1 way"
+
+    **Way 1:** Talk to [Old man](../monsters/old_man.md#v-guynmart_wise), choose “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.”
+
+    - **Needs:** stage 30; reached stage 35 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-35); hand over 2× [Bread](../items/bread.md); hand over 1× [Charwood cheddar](../items/charwood_cheddar.md); hand over 1× [Wine](../items/guynmart_wine.md)
+    - *“Cheddar! I can't believe it!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

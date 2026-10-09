@@ -1,10 +1,10 @@
 ---
-description: "Lost Traveler is a non-player character (NPC) in Andor's Trail, found in aidem_camp."
+description: "Lost Traveler is a non-player character (NPC) in Andor's Trail, found in Aidem camp."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } Lost Traveler
 
-**Where to find Lost Traveler:** [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_lost_traveler)
+**Where to find Lost Traveler:** [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_lost_traveler)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Lost Traveler is a non-player character (NPC) in Andor's Trail, fo
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | aidem_camp |
+| **Found in** | Aidem camp |
 | **Entry ID** | `aidem_camp_lost_traveler` |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
@@ -21,7 +21,7 @@ description: "Lost Traveler is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lost Traveler. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lost Traveler. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_camp_lost_traveler.json" data-npc="Lost Traveler" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aidem_camp_lost_traveler"></span>**`aidem_camp_lost_traveler`** Lost Traveler: “Go talk to Defy. I have nothing to say to you.”
 

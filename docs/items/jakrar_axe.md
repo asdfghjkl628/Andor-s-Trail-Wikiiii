@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Jakrar](../monsters/jakrar.md) ([fallhaven_sw](../maps/fallhaven_sw.md)), walking into a blocked passage on [fallhaven_sw](../maps/fallhaven_sw.md) | [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-40) | handed over (1×) | “Hello again! I've finally found your axe!” |
+| [Jakrar](../monsters/jakrar.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)), walking into a blocked passage on [Fallhaven south-west](../maps/fallhaven_sw.md) | [A path to the Duleian Road](../quests/pathway_fallhaven.md#stage-40) | handed over (1×) | “Hello again! I've finally found your axe!” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

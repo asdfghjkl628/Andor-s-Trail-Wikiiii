@@ -11,9 +11,9 @@ description: "The Dead are Walking is a quest in Andor's Trail, started by Gabri
 | **Quest ID** | `dead_walking` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 70) |
-| **Started by** | [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) |
+| **Started by** | [Gabriel](../monsters/gabriel.md) ([Vilegard south](../maps/vilegard_s.md)) |
 | **NPCs involved** | [Gabriel](../monsters/gabriel.md) |
-| **Locations** | [vilegard_s](../maps/vilegard_s.md) |
+| **Locations** | [Vilegard south](../maps/vilegard_s.md) |
 | **Total XP** | 7,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "The Dead are Walking is a quest in Andor's Trail, started by Gabri
 
 ## Prerequisites to start
 
-Start with [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)). Required:
+Start with [Gabriel](../monsters/gabriel.md) ([Vilegard south](../maps/vilegard_s.md)). Required:
 
 - NOT reached stage 0 of [The Dead are Walking](../quests/dead_walking.md#stage-0)
 
@@ -39,50 +39,105 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-0"></span>0 | Gabriel, the acolyte in Vilegard has asked me to investigate the sounds that only he is hearing.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Way to sullengard east1](../maps/way_to_sullengard_east1.md).</span> | [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) | – | – |
-| <span id="stage-10"></span>10 | Off of the Duleian road, just east of Vilegard, I noticed that the moaning sounds seem just a little bit louder.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road2](../maps/road2.md).</span> | stepping on a trigger on [road2](../maps/road2.md) | stage 0 | 500 XP |
-| <span id="stage-20"></span>20 | Off of the Duleian road, just south of Alynndir's cabin, I noticed that the moaning sounds seem just a little bit louder.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road5](../maps/road5.md).</span> | stepping on a trigger on [road5](../maps/road5.md) | stage 0 | 500 XP |
-| <span id="stage-40"></span>40 | I discovered the 'Haunted forest' and suspect that this may be the source of the sounds heard by Gabriel in Vilegard.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted forest1](../maps/haunted_forest1.md).</span> | stepping on a trigger on [haunted_forest1](../maps/haunted_forest1.md) | – | – |
-| <span id="stage-50"></span>50 | In the haunted house's basement, I discovered Benzimos (and he discovered me) while chanting some kind of ritual. He must be stopped.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted house basement](../maps/haunted_house_basement.md).</span> | stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) | – | applies condition fear |
-| <span id="stage-60"></span>60 | Now that Benzimos is "dead" again, I should return to Vilegard and speak with Gabriel.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted house basement](../maps/haunted_house_basement.md).</span> | stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) | – | – |
-| <span id="stage-70"></span>70 | Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard. **(completes quest)** | [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) | stage 60 | 6,000 XP<br>gives [Gold coins](../items/gold.md)<br>faction “factionCountShadow” set to 2 |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-0"></span>[0](#route-0) | <details class="jt"><summary><span class="s">Gabriel, the acolyte in Vilegard has asked me to investigate the… ▸</span><span class="l">▴ less</span></summary>Gabriel, the acolyte in Vilegard has asked me to investigate the sounds that only he is hearing.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Way to sullengard east 1](../maps/way_to_sullengard_east1.md).</span> | [Gabriel](../monsters/gabriel.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Off of the Duleian road, just east of Vilegard, I noticed that the… ▸</span><span class="l">▴ less</span></summary>Off of the Duleian road, just east of Vilegard, I noticed that the moaning sounds seem just a little bit louder.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road 2](../maps/road2.md).</span> | stepping on a trigger on [Road 2](../maps/road2.md) | 500 XP |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Off of the Duleian road, just south of Alynndir's cabin, I noticed… ▸</span><span class="l">▴ less</span></summary>Off of the Duleian road, just south of Alynndir's cabin, I noticed that the moaning sounds seem just a little bit louder.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Road 5](../maps/road5.md).</span> | stepping on a trigger on [Road 5](../maps/road5.md) | 500 XP |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I discovered the 'Haunted forest' and suspect that this may be the… ▸</span><span class="l">▴ less</span></summary>I discovered the 'Haunted forest' and suspect that this may be the source of the sounds heard by Gabriel in Vilegard.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted forest 1](../maps/haunted_forest1.md).</span> | stepping on a trigger on [Haunted forest 1](../maps/haunted_forest1.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">In the haunted house's basement, I discovered Benzimos (and he… ▸</span><span class="l">▴ less</span></summary>In the haunted house's basement, I discovered Benzimos (and he discovered me) while chanting some kind of ritual. He must be stopped.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted house basement](../maps/haunted_house_basement.md).</span> | stepping on a trigger on [Haunted house basement](../maps/haunted_house_basement.md) | applies condition fear |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">Now that Benzimos is "dead" again, I should return to Vilegard and… ▸</span><span class="l">▴ less</span></summary>Now that Benzimos is "dead" again, I should return to Vilegard and speak with Gabriel.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Haunted house basement](../maps/haunted_house_basement.md).</span> | stepping on a trigger on [Haunted house basement](../maps/haunted_house_basement.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">Gabriel was eternally grateful that I was able to prevent Benzimos'… ▸</span><span class="l">▴ less</span></summary>Gabriel was eternally grateful that I was able to prevent Benzimos' pack of undead from their potential attack on Vilegard.</details> **(ends quest)** | [Gabriel](../monsters/gabriel.md) | 6,000 XP; varies by route (see below) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 0: 1 route"
+<span id="route-0"></span>
 
-    1. Talk to [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) → choose “Of course. Anything for the Shadow.” — **conditions:** NOT reached stage 0 of [The Dead are Walking](../quests/dead_walking.md#stage-0) → **stage 0**. NPC: “Outstanding. Report back to me when you are done.”
+??? note "Stage 0 · Gabriel · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Talk to [Gabriel](../monsters/gabriel.md), choose “Of course. Anything for the Shadow.”
 
-    1. stepping on a trigger on [road2](../maps/road2.md) → choose “What an eerie sound ...” — **conditions:** reached stage 0 of [The Dead are Walking](../quests/dead_walking.md#stage-0); NOT reached stage 40 of [The Dead are Walking](../quests/dead_walking.md#stage-40) → **stage 10**. NPC: “Now you notice that the moaning heard by Gabriel is a little louder here.”
+    - **Needs:** not yet stage 0
+    - *“Outstanding. Report back to me when you are done.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. stepping on a trigger on [road5](../maps/road5.md) → choose “I should stick around a little bit longer.” — **conditions:** reached stage 0 of [The Dead are Walking](../quests/dead_walking.md#stage-0); NOT reached stage 20 of [The Dead are Walking](../quests/dead_walking.md#stage-20) → **stage 20**. NPC: “Now you begin to notice that the moaning heard by Gabriel is a little louder here.”
+<span id="route-10"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 10 · stepping on a trigger on road2 · 1 way"
 
-    1. stepping on a trigger on [haunted_forest1](../maps/haunted_forest1.md) → the conversation leads here automatically — **conditions:** NOT reached stage 40 of [The Dead are Walking](../quests/dead_walking.md#stage-40) → **stage 40**. NPC: “As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is…”
+    **Way 1:** Stepping on a trigger on [Road 2](../maps/road2.md), choose “What an eerie sound ...”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 0; not yet stage 40
+    - *“Now you notice that the moaning heard by Gabriel is a little louder here.”*
 
-    1. stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) → the conversation leads here automatically — **conditions:** NOT reached stage 50 of [The Dead are Walking](../quests/dead_walking.md#stage-50) → **stage 50**; also applies condition fear. NPC: “Again, yelling in a language that you do not understand. You begin to tremble in fear.”
 
-???+ note "Stage 60: 1 route"
+<span id="route-20"></span>
 
-    1. stepping on a trigger on [haunted_house_basement](../maps/haunted_house_basement.md) → the conversation leads here automatically — **conditions:** killed 1× [Benzimos](../monsters/haunted_benzimos.md); NOT reached stage 60 of [The Dead are Walking](../quests/dead_walking.md#stage-60) → **stage 60**. NPC: “Benzimos is now dead ... again.”
+??? note "Stage 20 · stepping on a trigger on road5 · 1 way"
 
-???+ note "Stage 70: 2 routes"
+    **Way 1:** Stepping on a trigger on [Road 5](../maps/road5.md), choose “I should stick around a little bit longer.”
 
-    1. Talk to [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) → choose “How 'grateful' are you?” — **conditions:** latest stage of [The Dead are Walking](../quests/dead_walking.md#stage-60) is 60 → **stage 70**; also gives [Gold coins](../items/gold.md). NPC: “Very! In fact, here are 3,000 gold pieces for all your trouble.”
-    2. Talk to [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) → choose “I will do anything for the Shadow.” — **conditions:** latest stage of [The Dead are Walking](../quests/dead_walking.md#stage-60) is 60 → **stage 70**; also faction “factionCountShadow” set to 2. NPC: “Walk with the Shadow, my child.”
+    - **Needs:** stage 0; not yet stage 20
+    - *“Now you begin to notice that the moaning heard by Gabriel is a little louder here.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · stepping on a trigger on haunted_forest1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Haunted forest 1](../maps/haunted_forest1.md)
+
+    - **Needs:** not yet stage 40
+    - *“As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much louder now.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · stepping on a trigger on haunted_house_basement · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Haunted house basement](../maps/haunted_house_basement.md)
+
+    - **Needs:** not yet stage 50
+    - **Gives:** applies condition fear
+    - *“Again, yelling in a language that you do not understand. You begin to tremble in fear.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on haunted_house_basement · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Haunted house basement](../maps/haunted_house_basement.md)
+
+    - **Needs:** not yet stage 60; killed 1× [Benzimos](../monsters/haunted_benzimos.md)
+    - *“Benzimos is now dead ... again.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Gabriel · 2 ways"
+
+    **Way 1:** Talk to [Gabriel](../monsters/gabriel.md), choose “How 'grateful' are you?”
+
+    - **Needs:** latest stage of [The Dead are Walking](../quests/dead_walking.md#stage-60) is 60
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Very! In fact, here are 3,000 gold pieces for all your trouble.”*
+
+    **Way 2:** Talk to [Gabriel](../monsters/gabriel.md), choose “I will do anything for the Shadow.”
+
+    - **Needs:** latest stage of [The Dead are Walking](../quests/dead_walking.md#stage-60) is 60
+    - **Gives:** faction “factionCountShadow” set to 2
+    - *“Walk with the Shadow, my child.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

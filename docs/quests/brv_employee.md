@@ -11,9 +11,9 @@ description: "Work for debts is a quest in Andor's Trail, started by Stebbarik (
 | **Quest ID** | `brv_employee` |
 | **In journal** | Yes |
 | **Stages** | 9 (completes at 90) |
-| **Started by** | [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../maps/brimhaven_employee.md)) |
+| **Started by** | [Stebbarik](../monsters/brv_employee.md) ([Brimhaven employee](../maps/brimhaven_employee.md)) |
 | **NPCs involved** | [Gnossath](../monsters/brv_employer.md), [Stebbarik](../monsters/brv_employee.md) |
-| **Locations** | [brimhaven1](../maps/brimhaven1.md), [brimhaven_employee](../maps/brimhaven_employee.md) |
+| **Locations** | [Brimhaven 1](../maps/brimhaven1.md), [Brimhaven employee](../maps/brimhaven_employee.md) |
 | **Total XP** | 1,000 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Work for debts is a quest in Andor's Trail, started by Stebbarik (
 
 ## Prerequisites to start
 
-None: talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../maps/brimhaven_employee.md)) to begin.
+None: talk to [Stebbarik](../monsters/brv_employee.md) ([Brimhaven employee](../maps/brimhaven_employee.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -36,62 +36,117 @@ None: talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-11) | stage 11 there needs stage 1 here |
-| Blocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-89) | reaching stage 90 here closes stage 89 there |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-11) | stage 11 there needs stage 1 here |
+| Blocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-89) | reaching stage 90 here closes stage 89 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | The dam is very important to Brimhaven. It should be repaired. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-10"></span>10 | Stebbarik was ill at home in bed. He could not work and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away. I have offered to do the work for Stebbarik. | [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../maps/brimhaven_employee.md)) | – | – |
-| <span id="stage-30"></span>30 | Gnossath has asked me to carry 25 heavy boulders from the stock to the dam. | [Gnossath](../monsters/brv_employer.md) ([brimhaven1](../maps/brimhaven1.md)) | stage 10 | changes map brimhaven1 |
-| <span id="stage-40"></span>40 | I have carried the first boulder to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | – |
-| <span id="stage-41"></span>41 | I have carried 5 boulders to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | – |
-| <span id="stage-42"></span>42 | I have moved 10 boulders.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | – |
-| <span id="stage-43"></span>43 | I have moved 15 boulders. This work is exhausting!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | – |
-| <span id="stage-44"></span>44 | Only a few to go...<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | – |
-| <span id="stage-90"></span>90 | Finally - that was the last boulder! Gnossath was very pleased with my work. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven1](../maps/brimhaven1.md).</span> | stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | hand over 4× [Boulder](../items/brv_boulder.md) | 1,000 XP<br>removes monsters from brimhaven_tavern1<br>removes monsters from brimhaven_employee<br>changes map brimhaven1<br>spawns monsters on brimhaven_employee<br>spawns monsters on brimhaven_tavern1<br>clears stage 83 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-83)<br>sets stage 89 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-89) |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>1 | The dam is very important to Brimhaven. It should be repaired. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Stebbarik was ill at home in bed. He could not work and feared that… ▸</span><span class="l">▴ less</span></summary>Stebbarik was ill at home in bed. He could not work and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away. I have offered to do the work for Stebbarik.</details> | [Stebbarik](../monsters/brv_employee.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | Gnossath has asked me to carry 25 heavy boulders from the stock to the dam. | [Gnossath](../monsters/brv_employer.md) | changes map brimhaven1 |
+| <span id="stage-40"></span>[40](#route-40) | I have carried the first boulder to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – |
+| <span id="stage-41"></span>[41](#route-41) | I have carried 5 boulders to the dam.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – |
+| <span id="stage-42"></span>[42](#route-42) | I have moved 10 boulders.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – |
+| <span id="stage-43"></span>[43](#route-43) | I have moved 15 boulders. This work is exhausting!<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – |
+| <span id="stage-44"></span>[44](#route-44) | Only a few to go...<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | Finally - that was the last boulder! Gnossath was very pleased with my work. **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 1](../maps/brimhaven1.md).</span> | stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | 1,000 XP, removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1 |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../maps/brimhaven_employee.md)) → choose “Maybe I could help you? I could do your work.” → **stage 10**. NPC: “You would do that? Oh, thank you! Thank you!”
+??? note "Stage 10 · Stebbarik · 1 way"
 
-???+ note "Stage 30: 1 route"
+    **Way 1:** Talk to [Stebbarik](../monsters/brv_employee.md), choose “Maybe I could help you? I could do your work.”
 
-    1. Talk to [Gnossath](../monsters/brv_employer.md) ([brimhaven1](../maps/brimhaven1.md)) → choose “Sounds easy. Let me try it.” — **conditions:** reached stage 10 of [Work for debts](../quests/brv_employee.md#stage-10) → **stage 30**; also changes map brimhaven1. NPC: “OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.”
+    - *“You would do that? Oh, thank you! Thank you!”*
 
-???+ note "Stage 40: 1 route"
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md) → **stage 40**
+<span id="route-30"></span>
 
-???+ note "Stage 41: 1 route"
+??? note "Stage 30 · Gnossath · 1 way"
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 6; NOT reached stage 41 of [Work for debts](../quests/brv_employee.md#stage-41) → **stage 41**. NPC: “You have brought already more than 5 boulders.”
+    **Way 1:** Talk to [Gnossath](../monsters/brv_employer.md), choose “Sounds easy. Let me try it.”
 
-???+ note "Stage 42: 1 route"
+    - **Needs:** stage 10
+    - **Gives:** changes map brimhaven1
+    - *“OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.”*
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 11; NOT reached stage 42 of [Work for debts](../quests/brv_employee.md#stage-42) → **stage 42**. NPC: “Over 10 boulders.”
 
-???+ note "Stage 43: 1 route"
+<span id="route-40"></span>
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 16; NOT reached stage 43 of [Work for debts](../quests/brv_employee.md#stage-43) → **stage 43**. NPC: “At least 15 boulders now.”
+??? note "Stage 40 · stepping on a trigger on brimhaven1 · 1 way"
 
-???+ note "Stage 44: 1 route"
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Uff. They somehow seem to get heavier and heavier.”
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 21; NOT reached stage 44 of [Work for debts](../quests/brv_employee.md#stage-44) → **stage 44**. NPC: “Only a few boulders left.”
+    - **Needs:** hand over 4× [Boulder](../items/brv_boulder.md)
 
-???+ note "Stage 90: 1 route"
 
-    1. stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) → choose “Uff. They somehow seem to get heavier and heavier.” — **conditions:** hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 25; NOT reached stage 90 of [Work for debts](../quests/brv_employee.md#stage-90) → **stage 90**; also removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1, clears stage 83 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-83), sets stage 89 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-89). NPC: “Wow, you got it.”
+<span id="route-41"></span>
+
+??? note "Stage 41 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Uff. They somehow seem to get heavier and heavier.”
+
+    - **Needs:** not yet stage 41; hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 6
+    - *“You have brought already more than 5 boulders.”*
+
+
+<span id="route-42"></span>
+
+??? note "Stage 42 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Uff. They somehow seem to get heavier and heavier.”
+
+    - **Needs:** not yet stage 42; hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 11
+    - *“Over 10 boulders.”*
+
+
+<span id="route-43"></span>
+
+??? note "Stage 43 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Uff. They somehow seem to get heavier and heavier.”
+
+    - **Needs:** not yet stage 43; hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 16
+    - *“At least 15 boulders now.”*
+
+
+<span id="route-44"></span>
+
+??? note "Stage 44 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Uff. They somehow seem to get heavier and heavier.”
+
+    - **Needs:** not yet stage 44; hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 21
+    - *“Only a few boulders left.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · stepping on a trigger on brimhaven1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md), choose “Uff. They somehow seem to get heavier and heavier.”
+
+    - **Needs:** not yet stage 90; hand over 4× [Boulder](../items/brv_boulder.md); faction “brv_boulder_count” ≥ 25
+    - **Gives:** removes monsters from brimhaven_tavern1, removes monsters from brimhaven_employee, changes map brimhaven1, spawns monsters on brimhaven_employee, spawns monsters on brimhaven_tavern1
+    - <small>Also: clears stage 83 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-83), sets stage 89 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-89)</small>
+    - *“Wow, you got it.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

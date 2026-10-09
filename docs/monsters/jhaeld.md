@@ -1,5 +1,5 @@
 ---
-description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in Remgard, island_4_cave1, final_cave1, final_cave2. Starts What is that stench?."
+description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in Remgard, Island 4 cave 1, Final cave 1, Final cave 2. Starts What is that stench?."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } Jhaeld
@@ -12,7 +12,7 @@ description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [What is that stench?](../quests/remgard2.md) |
-| **Found in** | Remgard, island_4_cave1, final_cave1, final_cave2 |
+| **Found in** | Remgard, Island 4 cave 1, Final cave 1, Final cave 2 |
 | **Class** | Humanoid |
 | **HP** | 200 |
 | **XP when defeated** | 258 |
@@ -22,20 +22,20 @@ description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Jhaeld. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Jhaeld. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`jhaeld`](#v-jhaeld) | NPC | Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-jhaeld) | starts [What is that stench?](../quests/remgard2.md) | – |
-| [`lae_jhaeld1`](#v-lae_jhaeld1) | NPC | [island_4_cave1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1) | – | – |
-| [`lae_jhaeld2`](#v-lae_jhaeld2) | NPC | [final_cave1](../maps/final_cave1.md#pin-npc-lae_jhaeld2) | – | – |
-| [`lae_jhaeld3`](#v-lae_jhaeld3) | NPC/Enemy | [final_cave2](../maps/final_cave2.md#pin-npc-lae_jhaeld3) | – | 200 |
+| [`jhaeld`](#v-jhaeld) | NPC | Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-jhaeld) | starts [What is that stench?](../quests/remgard2.md) | – |
+| [`lae_jhaeld1`](#v-lae_jhaeld1) | NPC | [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1) | – | – |
+| [`lae_jhaeld2`](#v-lae_jhaeld2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_jhaeld2) | – | – |
+| [`lae_jhaeld3`](#v-lae_jhaeld3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_jhaeld3) | – | 200 |
 
-## Remgard, Remgard tavern1 (jhaeld) { #v-jhaeld }
+## Remgard, Remgard tavern 1 (jhaeld) { #v-jhaeld }
 
 **Entry ID:** `jhaeld` · **Type:** NPC · **Role:** Starts [What is that stench?](../quests/remgard2.md)
 
-**Location:** Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-jhaeld)
+**Location:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-jhaeld)
 
 ### Quests
 
@@ -44,7 +44,7 @@ description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jhaeld. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/jhaeld.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (81 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-jhaeld-jhaeld"></span>**`jhaeld`** *(silent check: the first matching branch below is taken)*
 
@@ -435,7 +435,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...”<br>· text: “Hm, yes, and what of it?” → “Hmm, yes, and what of it?” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Third, the old woman Duaina usually has great wisdom to share, consid…” → “Third, the old woman Duaina usually has great wisdom to share, consid…”<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I find this very hard to believe. For to have killed Algangror would …” → “I find this very hard to believe. For you to have killed Algangror wo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -468,20 +468,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Island 4 cave1 (lae_jhaeld1) { #v-lae_jhaeld1 }
+## Island 4 cave 1 (lae_jhaeld1) { #v-lae_jhaeld1 }
 
 **Entry ID:** `lae_jhaeld1` · **Type:** NPC
 
-**Location:** [island_4_cave1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1)
+**Location:** [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1)
 
 ### Quests
 
 - [Not Pony Island](../quests/lae_centaurs.md): stages 112, 120
-- [final_cave (hidden flag)](../quests/final_cave.md): stage 12
+- [Final cave (hidden flag)](../quests/final_cave.md): stage 12
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jhaeld. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_jhaeld1.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -489,7 +489,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_jhaeld1-lae_jhaeld1"></span>**`lae_jhaeld1`** Jhaeld: “$playername - good that you are here! I need your help urgently.” — **effects:** sets stage 112 of [Not Pony Island](../quests/lae_centaurs.md#stage-112)
 
@@ -504,7 +504,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Of course I'm happy to help.” → [lae_algangror1_30](#d-lae_jhaeld1-lae_algangror1_30)
     - “Who is this friend?” → [lae_algangror1_30](#d-lae_jhaeld1-lae_algangror1_30)
 
-    <span id="d-lae_jhaeld1-lae_algangror1_30"></span>**`lae_algangror1_30`** Jhaeld: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.” — **effects:** sets stage 12 of [final_cave (hidden flag)](../quests/final_cave.md#stage-12)
+    <span id="d-lae_jhaeld1-lae_algangror1_30"></span>**`lae_algangror1_30`** Jhaeld: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.” — **effects:** sets stage 12 of [Final cave (hidden flag)](../quests/final_cave.md#stage-12)
 
     - “Well, first I am going downstairs to talk to our friend and find out who he is.” → [lae_algangror1_40](#d-lae_jhaeld1-lae_algangror1_40)
 
@@ -549,11 +549,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Final cave1 (lae_jhaeld2) { #v-lae_jhaeld2 }
+## Final cave 1 (lae_jhaeld2) { #v-lae_jhaeld2 }
 
 **Entry ID:** `lae_jhaeld2` · **Type:** NPC
 
-**Location:** [final_cave1](../maps/final_cave1.md#pin-npc-lae_jhaeld2)
+**Location:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_jhaeld2)
 
 ### Quests
 
@@ -561,7 +561,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jhaeld. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror2.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -569,7 +569,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_jhaeld2-lae_algangror2"></span>**`lae_algangror2`** Jhaeld: “$playername, what have you done?”
 
@@ -637,11 +637,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Final cave2 (lae_jhaeld3) { #v-lae_jhaeld3 }
+## Final cave 2 (lae_jhaeld3) { #v-lae_jhaeld3 }
 
 **Entry ID:** `lae_jhaeld3` · **Type:** NPC/Enemy
 
-**Location:** [final_cave2](../maps/final_cave2.md#pin-npc-lae_jhaeld3)
+**Location:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_jhaeld3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -678,7 +678,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave2](../maps/final_cave2.md) | – | 1 | Appears later, during a quest |
+| [Final cave 2](../maps/final_cave2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -686,7 +686,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jhaeld. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror3.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -694,7 +694,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_jhaeld3-lae_algangror3"></span>**`lae_algangror3`** *(silent check: the first matching branch below is taken)*
 

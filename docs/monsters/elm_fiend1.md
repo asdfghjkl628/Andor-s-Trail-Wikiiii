@@ -1,10 +1,10 @@
 ---
-description: "Glowing mudfiend is an enemy in Andor's Trail (construct) with 132 HP, worth 338 XP, found in elm5f_2, elm_2f_1, elm_3f. Drops: Glass gem, Azure gem, Ruby gem, Polished gem."
+description: "Glowing mudfiend is an enemy in Andor's Trail (construct) with 132 HP, worth 338 XP, found in Elm 5f 2, Elm 2f 1, Elm 3f. Drops: Glass gem, Azure gem, Ruby gem, Polished gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_18.png){ .sprite } Glowing mudfiend
 
-**Found in:** [elm5f_2](../maps/elm5f_2.md), [elm_2f_1](../maps/elm_2f_1.md), [elm_3f](../maps/elm_3f.md), [elm_4f_1](../maps/elm_4f_1.md) (+3 more)
+**Found in:** [Elm 5f 2](../maps/elm5f_2.md), [Elm 2f 1](../maps/elm_2f_1.md), [Elm 3f](../maps/elm_3f.md), [Elm 4f 1](../maps/elm_4f_1.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Glowing mudfiend is an enemy in Andor's Trail (construct) with 132
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_2, elm_2f_1, elm_3f |
+| **Found in** | Elm 5f 2, Elm 2f 1, Elm 3f |
 | **Class** | Construct |
 | **HP** | 132 |
 | **XP when defeated** | 338 |
@@ -71,13 +71,13 @@ description: "Glowing mudfiend is an enemy in Andor's Trail (construct) with 132
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_2](../maps/elm5f_2.md) | – | 2 | – |
-| [elm_2f_1](../maps/elm_2f_1.md) | – | 14 | – |
-| [elm_3f](../maps/elm_3f.md) | – | 2 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 2 | – |
-| [elm_4f_2](../maps/elm_4f_2.md) | – | 4 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 3 | – |
-| [elm_4f_5](../maps/elm_4f_5.md) | – | 3 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 2 | – |
+| [Elm 2f 1](../maps/elm_2f_1.md) | – | 14 | – |
+| [Elm 3f](../maps/elm_3f.md) | – | 2 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 2 | – |
+| [Elm 4f 2](../maps/elm_4f_2.md) | – | 4 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 3 | – |
+| [Elm 4f 5](../maps/elm_4f_5.md) | – | 3 | – |
 
 
 ## Version history

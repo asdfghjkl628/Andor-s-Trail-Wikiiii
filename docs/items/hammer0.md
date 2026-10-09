@@ -44,8 +44,8 @@ description: "Iron hammer is a ordinary warhammer in Andor's Trail (Attack damag
 |---|---|---|---|
 | [Torturer](../monsters/guynmart_tort1.md) | 33% | 1 | Guynmart Castle |
 | [Assistant torturer](../monsters/guynmart_tort2.md) | 20% | 1 | Guynmart Castle |
-| [Young minotaur](../monsters/young_minotaur.md) | 5% | 1 | jan_pitcave2 |
-| [Strong minotaur](../monsters/strong_minotaur.md) | 5% | 1 | jan_pitcave2 |
+| [Young minotaur](../monsters/young_minotaur.md) | 5% | 1 | Jan pitcave 2 |
+| [Strong minotaur](../monsters/strong_minotaur.md) | 5% | 1 | Jan pitcave 2 |
 
 ### Sold by
 

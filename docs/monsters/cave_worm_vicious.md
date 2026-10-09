@@ -1,10 +1,10 @@
 ---
-description: "Vicious cave worm is an enemy in Andor's Trail (reptile) with 90 HP, worth 161 XP, found in laerothcave1, laerothtomb0. Drops: Gold coins, Serpent meat."
+description: "Vicious cave worm is an enemy in Andor's Trail (reptile) with 90 HP, worth 161 XP, found in Laerothcave 1, Laerothtomb 0. Drops: Gold coins, Serpent meat."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_135.png){ .sprite } Vicious cave worm
 
-**Found in:** [laerothcave1](../maps/laerothcave1.md), [laerothtomb0](../maps/laerothtomb0.md)
+**Found in:** [Laerothcave 1](../maps/laerothcave1.md), [Laerothtomb 0](../maps/laerothtomb0.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Vicious cave worm is an enemy in Andor's Trail (reptile) with 90 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave1, laerothtomb0 |
+| **Found in** | Laerothcave 1, Laerothtomb 0 |
 | **Class** | Reptile |
 | **HP** | 90 |
 | **XP when defeated** | 161 |
@@ -55,8 +55,8 @@ description: "Vicious cave worm is an enemy in Andor's Trail (reptile) with 90 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave1](../maps/laerothcave1.md) | – | 2 | – |
-| [laerothtomb0](../maps/laerothtomb0.md) | – | 6 | – |
+| [Laerothcave 1](../maps/laerothcave1.md) | – | 2 | – |
+| [Laerothtomb 0](../maps/laerothtomb0.md) | – | 6 | – |
 
 
 ## Version history

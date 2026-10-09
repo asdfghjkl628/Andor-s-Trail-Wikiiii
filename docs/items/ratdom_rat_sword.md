@@ -63,13 +63,13 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | handed over (1×) | “Sure. Here you are.” |
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | handed over (1×) | “Give me {1000} gold for it.” |
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | – | must be carried (1×) | “Give me {50000} gold for it.” |
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | handed over (1×) | “OK. Here you are.” |
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | worn item is taken (1×) | “So I have no choice. Here you are.” |
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | worn item is taken (1×) | “Give me {1000} gold for it.” |
-| walking into a blocked passage on [ratdom_maze_515](../maps/ratdom_maze_515.md) | – | must be worn (1×) | “Give me {50000} gold for it.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | handed over (1×) | “Sure. Here you are.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | handed over (1×) | “Give me {1000} gold for it.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | – | must be carried (1×) | “Give me {50000} gold for it.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | handed over (1×) | “OK. Here you are.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | worn item is taken (1×) | “So I have no choice. Here you are.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-184) | worn item is taken (1×) | “Give me {1000} gold for it.” |
+| walking into a blocked passage on [Ratdom maze 515](../maps/ratdom_maze_515.md) | – | must be worn (1×) | “Give me {50000} gold for it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

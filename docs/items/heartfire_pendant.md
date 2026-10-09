@@ -42,7 +42,7 @@ description: "Heartfire pendant of Kazaul is a extraordinary necklace in Andor's
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md), stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) during [Lost treasures](../quests/nocmar.md#stage-110) (1×)
+- From walking into a blocked passage on [White house basement](../maps/white_house_basement.md), stepping on a trigger on [White house basement](../maps/white_house_basement.md) during [Lost treasures](../quests/nocmar.md#stage-110) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

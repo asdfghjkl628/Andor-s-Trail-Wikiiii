@@ -38,7 +38,7 @@ description: "Elytharan tabi is a extraordinary footwear, cloth in Andor's Trail
 
 ### Found in containers
 
-- [galmore_73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

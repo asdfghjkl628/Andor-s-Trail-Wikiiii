@@ -44,7 +44,7 @@ description: "Garnet whisper ring is a rare ring in Andor's Trail (Attack damage
 
 ### Found in containers
 
-- [thieves_vault](../maps/thieves_vault.md#container-9) (container 10, 100%), Blackwater Mountain
+- [Thieves vault](../maps/thieves_vault.md#container-9) (container 10, 100%), Blackwater Mountain
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

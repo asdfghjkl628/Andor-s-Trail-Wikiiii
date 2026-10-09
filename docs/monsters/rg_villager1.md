@@ -18,42 +18,42 @@ description: "Commoner is a non-player character (NPC) in Andor's Trail, found i
 </div>
 
 !!! info "22 entries in the game data"
-    The game's data files define 22 separate characters named Commoner. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 22 separate characters named Commoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`rg_villager1`](#v-rg_villager1) | NPC | Remgard: [remgard0](../maps/remgard0.md#pin-npc-rg_villager1) | – |
-| [`brv_villager1`](#v-brv_villager1) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager1) | – |
-| [`brv_villager2`](#v-brv_villager2) | NPC | Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager2) | – |
-| [`brv_villager4`](#v-brv_villager4) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager4) | – |
-| [`brv_villager5`](#v-brv_villager5) | NPC | Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager5) | – |
-| [`brv_villager6`](#v-brv_villager6) | NPC | Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager6) | – |
-| [`brv_villager7`](#v-brv_villager7) | NPC | Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager7) | – |
-| [`brv_villager8`](#v-brv_villager8) | NPC | Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager8) | – |
-| [`brv_villager9`](#v-brv_villager9) | NPC | Brimhaven: [brimhaven1](../maps/brimhaven1.md#pin-npc-brv_villager9) | – |
-| [`brv_villager10`](#v-brv_villager10) | NPC | Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager10) | – |
-| [`brv_villager11`](#v-brv_villager11) | NPC | Brimhaven: [brimhaven1](../maps/brimhaven1.md#pin-npc-brv_villager11) | – |
-| [`brv_villager14`](#v-brv_villager14) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager14) | – |
-| [`brv_villager15`](#v-brv_villager15) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager15) | – |
-| [`rg_villager2`](#v-rg_villager2) | NPC | Remgard: [remgard1](../maps/remgard1.md#pin-npc-rg_villager2) | – |
-| [`rg_villager3`](#v-rg_villager3) | NPC | Remgard: [remgard4](../maps/remgard4.md#pin-npc-rg_villager3) | – |
-| [`rg_villager4`](#v-rg_villager4) | NPC | Remgard: [remgard1](../maps/remgard1.md#pin-npc-rg_villager4) | – |
-| [`rg_villager5`](#v-rg_villager5) | NPC | Remgard: [remgard2](../maps/remgard2.md#pin-npc-rg_villager5) | – |
-| [`rg_villager6`](#v-rg_villager6) | NPC | Remgard: [remgard2](../maps/remgard2.md#pin-npc-rg_villager6) | – |
-| [`rg_villager7`](#v-rg_villager7) | NPC | Remgard: [remgard3](../maps/remgard3.md#pin-npc-rg_villager7) | – |
-| [`rg_villager8`](#v-rg_villager8) | NPC | Remgard: [remgard4](../maps/remgard4.md#pin-npc-rg_villager8) | – |
-| [`stoutford_commoner`](#v-stoutford_commoner) | NPC | Stoutford: [stoutford_gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner) | – |
-| [`stoutford_commoner2`](#v-stoutford_commoner2) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2) | – |
+| [`rg_villager1`](#v-rg_villager1) | NPC | Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-rg_villager1) | – |
+| [`brv_villager1`](#v-brv_villager1) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager1) | – |
+| [`brv_villager2`](#v-brv_villager2) | NPC | Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager2) | – |
+| [`brv_villager4`](#v-brv_villager4) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager4) | – |
+| [`brv_villager5`](#v-brv_villager5) | NPC | Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager5) | – |
+| [`brv_villager6`](#v-brv_villager6) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager6) | – |
+| [`brv_villager7`](#v-brv_villager7) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager7) | – |
+| [`brv_villager8`](#v-brv_villager8) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager8) | – |
+| [`brv_villager9`](#v-brv_villager9) | NPC | Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager9) | – |
+| [`brv_villager10`](#v-brv_villager10) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager10) | – |
+| [`brv_villager11`](#v-brv_villager11) | NPC | Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager11) | – |
+| [`brv_villager14`](#v-brv_villager14) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager14) | – |
+| [`brv_villager15`](#v-brv_villager15) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager15) | – |
+| [`rg_villager2`](#v-rg_villager2) | NPC | Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager2) | – |
+| [`rg_villager3`](#v-rg_villager3) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager3) | – |
+| [`rg_villager4`](#v-rg_villager4) | NPC | Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager4) | – |
+| [`rg_villager5`](#v-rg_villager5) | NPC | Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager5) | – |
+| [`rg_villager6`](#v-rg_villager6) | NPC | Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager6) | – |
+| [`rg_villager7`](#v-rg_villager7) | NPC | Remgard: [Remgard 3](../maps/remgard3.md#pin-npc-rg_villager7) | – |
+| [`rg_villager8`](#v-rg_villager8) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager8) | – |
+| [`stoutford_commoner`](#v-stoutford_commoner) | NPC | Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner) | – |
+| [`stoutford_commoner2`](#v-stoutford_commoner2) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2) | – |
 
-## Remgard, Remgard0 (rg_villager1) { #v-rg_villager1 }
+## Remgard, Remgard 0 (rg_villager1) { #v-rg_villager1 }
 
 **Entry ID:** `rg_villager1` · **Type:** NPC
 
-**Location:** Remgard: [remgard0](../maps/remgard0.md#pin-npc-rg_villager1)
+**Location:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-rg_villager1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager1.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -61,7 +61,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager1-remgard_villager1"></span>**`remgard_villager1`** Commoner: “I don't recognize you. You're not from Remgard, are you?”
 
@@ -109,22 +109,22 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 and 1 more (brv_villager1) { #v-brv_villager1 }
+## Brimhaven, Brimhaven 3 and 1 more (brv_villager1) { #v-brv_villager1 }
 
 **Entry ID:** `brv_villager1` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager1)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager1)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven3](../maps/brimhaven3.md) | Brimhaven | 1 | – |
-| [brimhaven4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
+| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 1 | – |
+| [Brimhaven 4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager1.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -132,7 +132,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager1-brv_villager1"></span>**`brv_villager1`** Commoner: “Hello.”
 
@@ -182,15 +182,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven4 (brv_villager2) { #v-brv_villager2 }
+## Brimhaven, Brimhaven 4 (brv_villager2) { #v-brv_villager2 }
 
 **Entry ID:** `brv_villager2` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager2)
+**Location:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager2.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -198,7 +198,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager2-brv_villager2"></span>**`brv_villager2`** Commoner: “If you want to make some money. Go to the tavern.”
 
@@ -241,22 +241,22 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 and 1 more (brv_villager4) { #v-brv_villager4 }
+## Brimhaven, Brimhaven 3 and 1 more (brv_villager4) { #v-brv_villager4 }
 
 **Entry ID:** `brv_villager4` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager4)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager4)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven3](../maps/brimhaven3.md) | Brimhaven | 1 | – |
-| [brimhaven4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
+| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 1 | – |
+| [Brimhaven 4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager4.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -264,7 +264,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager4-brv_villager4"></span>**`brv_villager4`** Commoner: “Excuse me, I have no time to talk.”
 
@@ -307,15 +307,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven4 (brv_villager5) { #v-brv_villager5 }
+## Brimhaven, Brimhaven 4 (brv_villager5) { #v-brv_villager5 }
 
 **Entry ID:** `brv_villager5` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager5)
+**Location:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager5.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -323,7 +323,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager5-brv_villager5"></span>**`brv_villager5`** Commoner: “Good day.”
 
@@ -366,15 +366,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven2 (brv_villager6) { #v-brv_villager6 }
+## Brimhaven, Brimhaven 2 (brv_villager6) { #v-brv_villager6 }
 
 **Entry ID:** `brv_villager6` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager6)
+**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager6)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager6.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -382,7 +382,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager6-brv_villager6"></span>**`brv_villager6`** Commoner: “Don't get in my way. Are you one of those guys from the east side of the town, without manners?”
 
@@ -425,15 +425,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven2 (brv_villager7) { #v-brv_villager7 }
+## Brimhaven, Brimhaven 2 (brv_villager7) { #v-brv_villager7 }
 
 **Entry ID:** `brv_villager7` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager7)
+**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager7)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager7.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -441,7 +441,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager7-brv_villager7"></span>**`brv_villager7`** Commoner: “I don't recognize you. Are you one of those people from the east part of the town, who send their children wearing cheap clothes to our school?”
 
@@ -484,15 +484,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven2 (brv_villager8) { #v-brv_villager8 }
+## Brimhaven, Brimhaven 2 (brv_villager8) { #v-brv_villager8 }
 
 **Entry ID:** `brv_villager8` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager8)
+**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager8)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager8.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -500,7 +500,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager8-brv_villager8"></span>**`brv_villager8`** Commoner: “You look a bit old for a pupil.”
 
@@ -543,15 +543,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven1 (brv_villager9) { #v-brv_villager9 }
+## Brimhaven, Brimhaven 1 (brv_villager9) { #v-brv_villager9 }
 
 **Entry ID:** `brv_villager9` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven1](../maps/brimhaven1.md#pin-npc-brv_villager9)
+**Location:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager9)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager9.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -559,7 +559,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager9-brv_villager9"></span>**`brv_villager9`** Commoner: “Hello. Great dam. Isn't it? We people from the west side of the town paid for the dam because the people from the east side can't afford it.”
 
@@ -602,15 +602,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven2 (brv_villager10) { #v-brv_villager10 }
+## Brimhaven, Brimhaven 2 (brv_villager10) { #v-brv_villager10 }
 
 **Entry ID:** `brv_villager10` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven2](../maps/brimhaven2.md#pin-npc-brv_villager10)
+**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager10)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager10.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -618,7 +618,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager10-brv_villager10"></span>**`brv_villager10`** Commoner: “Taking our good water? Go to the east side of the town. Oh, I forgot... you can't afford a well of your own.”
 
@@ -661,15 +661,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven1 (brv_villager11) { #v-brv_villager11 }
+## Brimhaven, Brimhaven 1 (brv_villager11) { #v-brv_villager11 }
 
 **Entry ID:** `brv_villager11` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven1](../maps/brimhaven1.md#pin-npc-brv_villager11)
+**Location:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager11)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager11.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -677,7 +677,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager11-brv_villager11"></span>**`brv_villager11`** Commoner: “The people from the west side of town forced us to support the dam, but we don't get any benefit from it and they took all the good land.”
 
@@ -718,15 +718,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 (brv_villager14) { #v-brv_villager14 }
+## Brimhaven, Brimhaven 3 (brv_villager14) { #v-brv_villager14 }
 
 **Entry ID:** `brv_villager14` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager14)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager14)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager14.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -734,7 +734,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager14-brv_villager14"></span>**`brv_villager14`** Commoner: “Get out of my way. Do you think you are better than me just because you are one of those rich guys from the western part of the town?”
 
@@ -775,15 +775,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 (brv_villager15) { #v-brv_villager15 }
+## Brimhaven, Brimhaven 3 (brv_villager15) { #v-brv_villager15 }
 
 **Entry ID:** `brv_villager15` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_villager15)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager15)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager15.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -791,7 +791,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager15-brv_villager15"></span>**`brv_villager15`** Commoner: “If you need a place to sleep, visit the inn. There are beds available for rent.”
 
@@ -832,15 +832,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard1 (rg_villager2) { #v-rg_villager2 }
+## Remgard, Remgard 1 (rg_villager2) { #v-rg_villager2 }
 
 **Entry ID:** `rg_villager2` · **Type:** NPC
 
-**Location:** Remgard: [remgard1](../maps/remgard1.md#pin-npc-rg_villager2)
+**Location:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager2.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -848,7 +848,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager2-remgard_villager2"></span>**`remgard_villager2`** Commoner: “Don't get in my way, I'm trying to walk here, don't you see?”
 
@@ -896,15 +896,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard4 (rg_villager3) { #v-rg_villager3 }
+## Remgard, Remgard 4 (rg_villager3) { #v-rg_villager3 }
 
 **Entry ID:** `rg_villager3` · **Type:** NPC
 
-**Location:** Remgard: [remgard4](../maps/remgard4.md#pin-npc-rg_villager3)
+**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager3.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -912,7 +912,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager3-remgard_villager3"></span>**`remgard_villager3`** Commoner: “Have you seen my ring? I dropped it among these trees, I am sure. That was a pretty ring.”
 
@@ -955,15 +955,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard1 (rg_villager4) { #v-rg_villager4 }
+## Remgard, Remgard 1 (rg_villager4) { #v-rg_villager4 }
 
 **Entry ID:** `rg_villager4` · **Type:** NPC
 
-**Location:** Remgard: [remgard1](../maps/remgard1.md#pin-npc-rg_villager4)
+**Location:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager4.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -971,7 +971,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager4-remgard_villager4"></span>**`remgard_villager4`** Commoner: “Good day.”
 
@@ -1014,15 +1014,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard2 (rg_villager5) { #v-rg_villager5 }
+## Remgard, Remgard 2 (rg_villager5) { #v-rg_villager5 }
 
 **Entry ID:** `rg_villager5` · **Type:** NPC
 
-**Location:** Remgard: [remgard2](../maps/remgard2.md#pin-npc-rg_villager5)
+**Location:** Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager5.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1030,7 +1030,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager5-remgard_villager5"></span>**`remgard_villager5`** Commoner: “Excuse me, I have no time to talk.”
 
@@ -1073,15 +1073,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard2 (rg_villager6) { #v-rg_villager6 }
+## Remgard, Remgard 2 (rg_villager6) { #v-rg_villager6 }
 
 **Entry ID:** `rg_villager6` · **Type:** NPC
 
-**Location:** Remgard: [remgard2](../maps/remgard2.md#pin-npc-rg_villager6)
+**Location:** Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager6)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager6.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1089,7 +1089,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager6-remgard_villager6"></span>**`remgard_villager6`** Commoner: “You are not from around here, are you? If you ever need a place to stay, visit the tavern. I hear that Kendelow has a room available for rent.”
 
@@ -1132,15 +1132,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard3 (rg_villager7) { #v-rg_villager7 }
+## Remgard, Remgard 3 (rg_villager7) { #v-rg_villager7 }
 
 **Entry ID:** `rg_villager7` · **Type:** NPC
 
-**Location:** Remgard: [remgard3](../maps/remgard3.md#pin-npc-rg_villager7)
+**Location:** Remgard: [Remgard 3](../maps/remgard3.md#pin-npc-rg_villager7)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager7.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1148,7 +1148,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager7-remgard_villager7"></span>**`remgard_villager7`** Commoner: “I have heard strange noises from across the water of lake Laeroth. I wonder what lurks on the shores of the other side.”
 
@@ -1191,15 +1191,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard4 (rg_villager8) { #v-rg_villager8 }
+## Remgard, Remgard 4 (rg_villager8) { #v-rg_villager8 }
 
 **Entry ID:** `rg_villager8` · **Type:** NPC
 
-**Location:** Remgard: [remgard4](../maps/remgard4.md#pin-npc-rg_villager8)
+**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager8)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_villager8.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1207,7 +1207,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-rg_villager8-remgard_villager8"></span>**`remgard_villager8`** Commoner: “Hello.”
 
@@ -1254,11 +1254,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_commoner` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner)
+**Location:** Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_commoner_0.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1266,7 +1266,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_commoner-stoutford_commoner_0"></span>**`stoutford_commoner_0`** Commoner: “Welcome to Stoutford kid.”
 
@@ -1311,11 +1311,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_commoner2` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Commoner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Commoner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_commoner_0.json" data-npc="Commoner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

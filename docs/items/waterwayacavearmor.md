@@ -39,7 +39,7 @@ description: "Knight's hauberk is a rare chain mail in Andor's Trail (Max HP +8,
 
 ### Found in containers
 
-- [waterwayacavex](../maps/waterwayacavex.md#container-0) (container 1, 100%)
+- [Waterwayacavex](../maps/waterwayacavex.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,8 +1,8 @@
 ---
-description: "Wild15 is an outdoor location in Andor's Trail, near Foaming Flask Tavern (other). Enemies: Hardshell beetle, Cave dwelling boar. Exits to Road1, Wild14, Wild15 house."
+description: "Wild 15 is an outdoor location in Andor's Trail, near Foaming Flask Tavern (other). Enemies: Hardshell beetle, Cave dwelling boar. Exits to Road 1, Wild 14, Wild 15 house."
 ---
 
-# Wild15
+# Wild 15
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Wild15 is an outdoor location in Andor's Trail, near Foaming Flask
 | **Region** | Near Foaming Flask Tavern (other) |
 | **Type** | Outdoors |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Wild15** is an outdoor map, near Foaming Flask Tavern (other). It has no NPCs and 2 kinds of enemy. Exits lead to Road1, Wild14, Wild15 house.
+**Wild 15** is an outdoor map, near Foaming Flask Tavern (other). It has no NPCs and 2 kinds of enemy. Exits lead to Road 1, Wild 14, Wild 15 house.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild15.webp" alt="Map of Wild15" width="640" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../wild14/#place-east" title="Exit to Wild14" style="left:0.000%;top:33.333%;width:5.000%;height:20.000%"></a><a id="place-east" class="mo mo-mapchange" href="../road1/#place-west" title="Exit to Road1" style="left:95.000%;top:26.667%;width:5.000%;height:26.667%"></a><a id="place-house" class="mo mo-mapchange" href="../wild15_house/#place-entrance" title="Exit to Wild15 house" style="left:40.000%;top:73.333%;width:5.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:10.000%;top:20.000%;width:15.000%;height:73.333%"></span><span class="mo mo-spawn" title="Spawns: Cave dwelling boar" style="left:25.000%;top:20.000%;width:55.000%;height:33.333%"></span><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:10.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:15.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/cave_dwelling_boar/" title="Cave dwelling boar" style="left:65.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Cave dwelling boar"></a><a class="mob" href="../../monsters/cave_dwelling_boar/" title="Cave dwelling boar" style="left:30.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Cave dwelling boar"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:40.000%" title="Exit (east): to [Road1](road1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:43.333%" title="Exit (west): to [Wild14](wild14.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:42.500%;top:76.667%" title="Exit (door): to [Wild15 house](wild15_house.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild15.webp" alt="Map of Wild 15" width="640" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../wild14/#place-east" title="Exit to Wild 14" style="left:0.000%;top:33.333%;width:5.000%;height:20.000%"></a><a id="place-east" class="mo mo-mapchange" href="../road1/#place-west" title="Exit to Road 1" style="left:95.000%;top:26.667%;width:5.000%;height:26.667%"></a><a id="place-house" class="mo mo-mapchange" href="../wild15_house/#place-entrance" title="Exit to Wild 15 house" style="left:40.000%;top:73.333%;width:5.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:10.000%;top:20.000%;width:15.000%;height:73.333%"></span><span class="mo mo-spawn" title="Spawns: Cave dwelling boar" style="left:25.000%;top:20.000%;width:55.000%;height:33.333%"></span><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:10.000%;top:80.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:15.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/cave_dwelling_boar/" title="Cave dwelling boar" style="left:65.000%;top:40.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Cave dwelling boar"></a><a class="mob" href="../../monsters/cave_dwelling_boar/" title="Cave dwelling boar" style="left:30.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Cave dwelling boar"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:40.000%" title="Exit (east): to [Road 1](road1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:2.500%;top:43.333%" title="Exit (west): to [Wild 14](wild14.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:42.500%;top:76.667%" title="Exit (door): to [Wild 15 house](wild15_house.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Road1](road1.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Wild14](wild14.md) |
-    | <span id="key-3"></span>3 | Exit (door) | to [Wild15 house](wild15_house.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Road 1](road1.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Wild 14](wild14.md) |
+    | <span id="key-3"></span>3 | Exit (door) | to [Wild 15 house](wild15_house.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Wild15 is an outdoor location in Andor's Trail, near Foaming Flask
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Road1](road1.md) | Foaming Flask Tavern | 1 |
-| West | [Wild14](wild14.md) | Foaming Flask Tavern | 2 |
-| Door | [Wild15 house](wild15_house.md) | Foaming Flask Tavern | 3 |
+| East | [Road 1](road1.md) | Foaming Flask Tavern | 1 |
+| West | [Wild 14](wild14.md) | Foaming Flask Tavern | 2 |
+| Door | [Wild 15 house](wild15_house.md) | Foaming Flask Tavern | 3 |
 
 ## Enemies
 

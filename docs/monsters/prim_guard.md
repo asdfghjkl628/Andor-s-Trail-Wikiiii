@@ -21,18 +21,18 @@ description: "Prim guard is an NPC who can also be fought in Andor's Trail, foun
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Prim guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, faction, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Prim guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, faction, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`prim_guard`](#v-prim_guard) | NPC/Enemy | Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_guard) | – | 60 |
-| [`prim_guard6`](#v-prim_guard6) | NPC | Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_guard6) | – | – |
+| [`prim_guard`](#v-prim_guard) | NPC/Enemy | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_guard) | – | 60 |
+| [`prim_guard6`](#v-prim_guard6) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_guard6) | – | – |
 
-## Prim, Blackwater mountain29 (prim_guard) { #v-prim_guard }
+## Prim, Blackwater mountain 29 (prim_guard) { #v-prim_guard }
 
 **Entry ID:** `prim_guard` · **Type:** NPC/Enemy
 
-**Location:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_guard)
+**Location:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_guard)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: this character belongs to the faction `fct_prim`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
@@ -63,11 +63,11 @@ description: "Prim guard is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | – |
+| [Blackwater mountain 29](../maps/blackwater_mountain29.md) | Prim | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_guard4.json" data-npc="Prim guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -75,7 +75,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_guard-prim_guard4"></span>**`prim_guard4`** Prim guard: “Can't talk now. I'm on guard duty. If you need help, talk to someone else over there instead.”
 
@@ -131,15 +131,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Blackwater mountain29 (prim_guard6) { #v-prim_guard6 }
+## Prim, Blackwater mountain 29 (prim_guard6) { #v-prim_guard6 }
 
 **Entry ID:** `prim_guard6` · **Type:** NPC
 
-**Location:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_guard6)
+**Location:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_guard6)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_guard6_1.json" data-npc="Prim guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -147,7 +147,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_guard6-prim_guard6_1"></span>**`prim_guard6_1`** [General Ortholion](../monsters/ortholion.md): “The guard is mumbling something to himself and seems to be ignoring you completely.”
 

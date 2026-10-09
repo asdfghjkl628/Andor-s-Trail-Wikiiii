@@ -4,7 +4,7 @@ description: "Feygard guard is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Feygard guard
 
-**Where to find Feygard guard:** Loneford: [lodar2](../maps/lodar2.md#pin-npc-lodar_fg1)
+**Where to find Feygard guard:** Loneford: [Lodar 2](../maps/lodar2.md#pin-npc-lodar_fg1)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Feygard guard is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lodar_fg1.json" data-npc="Feygard guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (22 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lodar_fg1"></span>**`lodar_fg1`** *(silent check: the first matching branch below is taken)*
 

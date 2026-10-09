@@ -27,7 +27,7 @@ description: "Folded copper talisman is a quest other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [undertell_archive2](../maps/undertell_archive2.md) during [About a girl](../quests/about_a_girl.md#stage-60) (1×)
+- From walking into a blocked passage on [Undertell archive 2](../maps/undertell_archive2.md) during [About a girl](../quests/about_a_girl.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [undertell_3_12](../maps/undertell_3_12.md) | – | must be carried (1×) | “I found it. I have the folded coin.” |
-| walking into a blocked passage on [undertell_3_12](../maps/undertell_3_12.md) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-85) | handed over (1×) | “[Toss the talisman to her.]” |
+| walking into a blocked passage on [Undertell 3 12](../maps/undertell_3_12.md) | – | must be carried (1×) | “I found it. I have the folded coin.” |
+| walking into a blocked passage on [Undertell 3 12](../maps/undertell_3_12.md) | [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-85) | handed over (1×) | “[Toss the talisman to her.]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,10 +1,10 @@
 ---
-description: "Cithurn's cat is a non-player character (NPC) in Andor's Trail, found in waterwaybhouse."
+description: "Cithurn's cat is a non-player character (NPC) in Andor's Trail, found in Waterwaybhouse."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } Cithurn's cat
 
-**Where to find Cithurn's cat:** [waterwaybhouse](../maps/waterwaybhouse.md#pin-npc-cithurncat)
+**Where to find Cithurn's cat:** [Waterwaybhouse](../maps/waterwaybhouse.md#pin-npc-cithurncat)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cithurn's cat is a non-player character (NPC) in Andor's Trail, fo
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | waterwaybhouse |
+| **Found in** | Waterwaybhouse |
 | **Entry ID** | `cithurncat` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
@@ -21,11 +21,11 @@ description: "Cithurn's cat is a non-player character (NPC) in Andor's Trail, fo
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stage 100
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stage 100
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Cithurn's cat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Cithurn's cat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/cithurncatmeow.json" data-npc="Cithurn&#x27;s cat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,17 +33,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-cithurncatmeow"></span>**`cithurncatmeow`** Cithurn's cat: “Meow ... Meow.”
 
-    - “[You scratch the cat behind the ear]” *(if NOT reached stage 100 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-100))* → [cithurncatmeow_1](#d-cithurncatmeow_1)
-    - “[You stroke the cat]” *(if NOT reached stage 100 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-100))* → [cithurncatmeow_2](#d-cithurncatmeow_2)
+    - “[You scratch the cat behind the ear]” *(if NOT reached stage 100 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-100))* → [cithurncatmeow_1](#d-cithurncatmeow_1)
+    - “[You stroke the cat]” *(if NOT reached stage 100 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-100))* → [cithurncatmeow_2](#d-cithurncatmeow_2)
 
-    <span id="d-cithurncatmeow_1"></span>**`cithurncatmeow_1`** Cithurn's cat: “Purr ... Purr.” — **effects:** sets stage 100 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-100)
+    <span id="d-cithurncatmeow_1"></span>**`cithurncatmeow_1`** Cithurn's cat: “Purr ... Purr.” — **effects:** sets stage 100 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-100)
 
 
-    <span id="d-cithurncatmeow_2"></span>**`cithurncatmeow_2`** Cithurn's cat: “Purr ... Purr.” — **effects:** sets stage 100 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-100)
+    <span id="d-cithurncatmeow_2"></span>**`cithurncatmeow_2`** Cithurn's cat: “Purr ... Purr.” — **effects:** sets stage 100 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-100)
 
 
 

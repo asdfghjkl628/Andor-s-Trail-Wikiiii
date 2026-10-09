@@ -1,10 +1,10 @@
 ---
-description: "Drakthorn warrior captain is an enemy in Andor's Trail (reptile) with 154 HP, worth 321 XP, found in final_cave_labyrinth. Drops: Gold coins, Major potion of health, Heavy club."
+description: "Drakthorn warrior captain is an enemy in Andor's Trail (reptile) with 154 HP, worth 321 XP, found in Final cave labyrinth. Drops: Gold coins, Major potion of health, Heavy club."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles4_15.png){ .sprite } Drakthorn warrior captain
 
-**Found in:** [final_cave_labyrinth](../maps/final_cave_labyrinth.md)
+**Found in:** [Final cave labyrinth](../maps/final_cave_labyrinth.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Drakthorn warrior captain is an enemy in Andor's Trail (reptile) w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | final_cave_labyrinth |
+| **Found in** | Final cave labyrinth |
 | **Class** | Reptile |
 | **HP** | 154 |
 | **XP when defeated** | 321 |
@@ -56,7 +56,7 @@ description: "Drakthorn warrior captain is an enemy in Andor's Trail (reptile) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave_labyrinth](../maps/final_cave_labyrinth.md) | – | 7 | – |
+| [Final cave labyrinth](../maps/final_cave_labyrinth.md) | – | 7 | – |
 
 
 ## Version history

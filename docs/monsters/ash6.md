@@ -4,7 +4,7 @@ description: "Ash spawn is an enemy in Andor's Trail (demon) with 83 HP, worth 1
 
 # ![](../assets/icons/monsters/monsters_tometik2_10.png){ .sprite } Ash spawn
 
-**Found in:** Charwood: [lostmine2](../maps/lostmine2.md), [lostmine3](../maps/lostmine3.md), [lostmine5](../maps/lostmine5.md), [lostmine6](../maps/lostmine6.md)
+**Found in:** Charwood: [Lostmine 2](../maps/lostmine2.md), [Lostmine 3](../maps/lostmine3.md), [Lostmine 5](../maps/lostmine5.md), [Lostmine 6](../maps/lostmine6.md)
 
 <div class="infobox" markdown>
 
@@ -60,10 +60,10 @@ description: "Ash spawn is an enemy in Andor's Trail (demon) with 83 HP, worth 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine2](../maps/lostmine2.md) | Charwood | 1 | – |
-| [lostmine3](../maps/lostmine3.md) | – | 2 | – |
-| [lostmine5](../maps/lostmine5.md) | – | 5 | – |
-| [lostmine6](../maps/lostmine6.md) | – | 2 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 1 | – |
+| [Lostmine 3](../maps/lostmine3.md) | – | 2 | – |
+| [Lostmine 5](../maps/lostmine5.md) | – | 5 | – |
+| [Lostmine 6](../maps/lostmine6.md) | – | 2 | – |
 
 
 ## Version history

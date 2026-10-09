@@ -1,10 +1,10 @@
 ---
-description: "Writhing bread is a non-player character (NPC) in Andor's Trail, found in brightport_forest."
+description: "Writhing bread is a non-player character (NPC) in Andor's Trail, found in Brightport forest."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik10_5.png){ .sprite } Writhing bread
 
-**Where to find Writhing bread:** [brightport_forest](../maps/brightport_forest.md#pin-npc-breadgolem1)
+**Where to find Writhing bread:** [Brightport forest](../maps/brightport_forest.md#pin-npc-breadgolem1)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Writhing bread is a non-player character (NPC) in Andor's Trail, f
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | brightport_forest |
+| **Found in** | Brightport forest |
 | **Entry ID** | `breadgolem1` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
@@ -21,7 +21,7 @@ description: "Writhing bread is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Writhing bread. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Writhing bread. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_breadgolem1.json" data-npc="Writhing bread" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_breadgolem1"></span>**`brightport_breadgolem1`** Writhing bread: “[The mass of pulsating dough is slowly expanding.]”
 

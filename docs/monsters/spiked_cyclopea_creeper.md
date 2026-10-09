@@ -1,10 +1,10 @@
 ---
-description: "Spiked cyclopea creeper is an enemy in Andor's Trail (reptile) with 238 HP, worth 558 XP, found in way_to_sullengard_west_2, way_to_sullengard_west_4. Drops: Cyclopean eye gem, Cyclopea root, Photosynthetic leaf."
+description: "Spiked cyclopea creeper is an enemy in Andor's Trail (reptile) with 238 HP, worth 558 XP, found in Way to sullengard west 2, Way to sullengard west 4. Drops: Cyclopean eye gem, Cyclopea root, Photosynthetic leaf."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_1088.png){ .sprite } Spiked cyclopea creeper
 
-**Found in:** [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md), [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md)
+**Found in:** [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md), [Way to sullengard west 4](../maps/way_to_sullengard_west_4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Spiked cyclopea creeper is an enemy in Andor's Trail (reptile) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_west_2, way_to_sullengard_west_4 |
+| **Found in** | Way to sullengard west 2, Way to sullengard west 4 |
 | **Class** | Reptile |
 | **HP** | 238 |
 | **XP when defeated** | 558 |
@@ -58,8 +58,8 @@ description: "Spiked cyclopea creeper is an enemy in Andor's Trail (reptile) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md) | – | 3 | – |
-| [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md) | – | 4 | – |
+| [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md) | – | 3 | – |
+| [Way to sullengard west 4](../maps/way_to_sullengard_west_4.md) | – | 4 | – |
 
 
 ## Version history

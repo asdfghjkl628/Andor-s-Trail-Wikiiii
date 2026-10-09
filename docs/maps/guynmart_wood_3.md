@@ -12,7 +12,7 @@ description: "Guynmart wood 3 is an outdoor location in Andor's Trail, near Guyn
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 5 |
 | **Quests** | 0 |
@@ -64,7 +64,7 @@ description: "Guynmart wood 3 is an outdoor location in Andor's Trail, near Guyn
 
 ## Quests
 
-- [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 2
+- [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 2
 
 ## Points of interest
 

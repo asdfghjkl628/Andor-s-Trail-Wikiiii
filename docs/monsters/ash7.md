@@ -1,10 +1,10 @@
 ---
-description: "Tough ash spawn is an enemy in Andor's Trail (demon) with 87 HP, worth 152 XP, found in lostmine5, lostmine6, lostmine7. Drops: Burnt ash, Reinforced black axe, Gem of warmth."
+description: "Tough ash spawn is an enemy in Andor's Trail (demon) with 87 HP, worth 152 XP, found in Lostmine 5, Lostmine 6, Lostmine 7. Drops: Burnt ash, Reinforced black axe, Gem of warmth."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_11.png){ .sprite } Tough ash spawn
 
-**Found in:** [lostmine5](../maps/lostmine5.md), [lostmine6](../maps/lostmine6.md), [lostmine7](../maps/lostmine7.md), [lostmine9](../maps/lostmine9.md)
+**Found in:** [Lostmine 5](../maps/lostmine5.md), [Lostmine 6](../maps/lostmine6.md), [Lostmine 7](../maps/lostmine7.md), [Lostmine 9](../maps/lostmine9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough ash spawn is an enemy in Andor's Trail (demon) with 87 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lostmine5, lostmine6, lostmine7 |
+| **Found in** | Lostmine 5, Lostmine 6, Lostmine 7 |
 | **Class** | Demon |
 | **HP** | 87 |
 | **XP when defeated** | 152 |
@@ -60,10 +60,10 @@ description: "Tough ash spawn is an enemy in Andor's Trail (demon) with 87 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine5](../maps/lostmine5.md) | – | 1 | – |
-| [lostmine6](../maps/lostmine6.md) | – | 5 | – |
-| [lostmine7](../maps/lostmine7.md) | – | 3 | – |
-| [lostmine9](../maps/lostmine9.md) | – | 2 | – |
+| [Lostmine 5](../maps/lostmine5.md) | – | 1 | – |
+| [Lostmine 6](../maps/lostmine6.md) | – | 5 | – |
+| [Lostmine 7](../maps/lostmine7.md) | – | 3 | – |
+| [Lostmine 9](../maps/lostmine9.md) | – | 2 | – |
 
 
 ## Version history

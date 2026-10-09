@@ -1,10 +1,10 @@
 ---
-description: "Drunken Feygard patrol is a non-player character (NPC) in Andor's Trail, found in elm_mine1."
+description: "Drunken Feygard patrol is a non-player character (NPC) in Andor's Trail, found in Elm mine 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Drunken Feygard patrol
 
-**Where to find Drunken Feygard patrol:** [elm_mine1](../maps/elm_mine1.md#pin-npc-ortholion_guard11)
+**Where to find Drunken Feygard patrol:** [Elm mine 1](../maps/elm_mine1.md#pin-npc-ortholion_guard11)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Drunken Feygard patrol is a non-player character (NPC) in Andor's 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | elm_mine1 |
+| **Found in** | Elm mine 1 |
 | **Entry ID** | `ortholion_guard11` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
@@ -21,7 +21,7 @@ description: "Drunken Feygard patrol is a non-player character (NPC) in Andor's 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drunken Feygard patrol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drunken Feygard patrol. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard10_s.json" data-npc="Drunken Feygard patrol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard10_s"></span>**`ortholion_guard10_s`** *(silent check: the first matching branch below is taken)*
 
@@ -62,7 +62,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 5 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “No! *looks at you* This is my beeeeeer, kid! *hic*” → “No! [looks at you] This is my beeeeeer, kid! [hic]”<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “H..Halt! *hic* Kids not allowed!” → “H..Halt! [hic] Kids not allowed!”<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

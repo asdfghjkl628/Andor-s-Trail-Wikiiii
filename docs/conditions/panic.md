@@ -31,9 +31,9 @@ description: "Panic is a harmful mental condition in Andor's Trail: max AP +4, a
 | Critical skill | +10 |
 | HP every round | −1 to +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -48,18 +48,18 @@ Nothing in the game data applies this condition to you.
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Albino olm](../monsters/bwm_olm2.md) | On itself, when you hit it | 1 | 3 rounds | 20% | blackwater_mountain74, blackwater_mountain74_h, blackwater_mountain75 |
-| [Blackened olm](../monsters/bwm_olm4.md) | On itself, when you hit it | 1 | 3 rounds | 30% | blackwater_mountain75, elm_4f_5, elm_mine2 |
-| [Contaminated olm](../monsters/bwm_olm5.md) | On itself, when you hit it | 1 | 3 rounds | 30% | elm_2f_1, elm_3f, elm_4f_1 |
-| [Dun olm](../monsters/bwm_olm1.md) | On itself, when you hit it | 1 | 1 round | 20% | blackwater_mountain74, blackwater_mountain74_h, blackwater_mountain75 |
-| [Hard-skinned olm](../monsters/bwm_olm3.md) | On itself, when you hit it | 1 | 2 rounds | 20% | blackwater_mountain75, elm_4f_5, elm_mine2 |
+| [Albino olm](../monsters/bwm_olm2.md) | On itself, when you hit it | 1 | 3 rounds | 20% | Blackwater mountain 74, Blackwater mountain 74 h, Blackwater mountain 75 |
+| [Blackened olm](../monsters/bwm_olm4.md) | On itself, when you hit it | 1 | 3 rounds | 30% | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
+| [Contaminated olm](../monsters/bwm_olm5.md) | On itself, when you hit it | 1 | 3 rounds | 30% | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Dun olm](../monsters/bwm_olm1.md) | On itself, when you hit it | 1 | 1 round | 20% | Blackwater mountain 74, Blackwater mountain 74 h, Blackwater mountain 75 |
+| [Hard-skinned olm](../monsters/bwm_olm3.md) | On itself, when you hit it | 1 | 2 rounds | 20% | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

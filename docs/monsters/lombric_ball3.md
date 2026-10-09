@@ -1,10 +1,10 @@
 ---
-description: "Quick lombric ball is an enemy in Andor's Trail (animal) with 30 HP, worth 64 XP, found in mushroom_m2_9. Drops: Gold coins, Small rock."
+description: "Quick lombric ball is an enemy in Andor's Trail (animal) with 30 HP, worth 64 XP, found in Mushroom m 2 9. Drops: Gold coins, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_167.png){ .sprite } Quick lombric ball
 
-**Found in:** [mushroom_m2_9](../maps/mushroom_m2_9.md)
+**Found in:** [Mushroom m 2 9](../maps/mushroom_m2_9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Quick lombric ball is an enemy in Andor's Trail (animal) with 30 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mushroom_m2_9 |
+| **Found in** | Mushroom m 2 9 |
 | **Class** | Animal |
 | **HP** | 30 |
 | **XP when defeated** | 64 |
@@ -55,7 +55,7 @@ description: "Quick lombric ball is an enemy in Andor's Trail (animal) with 30 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m2_9](../maps/mushroom_m2_9.md) | – | 4 | – |
+| [Mushroom m 2 9](../maps/mushroom_m2_9.md) | – | 4 | – |
 
 
 ## Version history

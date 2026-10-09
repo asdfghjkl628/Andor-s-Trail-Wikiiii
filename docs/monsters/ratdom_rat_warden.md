@@ -19,18 +19,18 @@ description: "Wart is a non-player character (NPC) in Andor's Trail, found in Mu
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Wart. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Wart. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`ratdom_rat_warden`](#v-ratdom_rat_warden) | NPC | Museum: [ratdom_maze_624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden) | shopkeeper |
-| [`ratdom_rat_warden2`](#v-ratdom_rat_warden2) | NPC | Museum: [ratdom_maze_515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2) | shopkeeper |
+| [`ratdom_rat_warden`](#v-ratdom_rat_warden) | NPC | Museum: [Ratdom maze 624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden) | shopkeeper |
+| [`ratdom_rat_warden2`](#v-ratdom_rat_warden2) | NPC | Museum: [Ratdom maze 515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2) | shopkeeper |
 
 ## Museum, Ratdom maze 624 (ratdom_rat_warden) { #v-ratdom_rat_warden }
 
 **Entry ID:** `ratdom_rat_warden` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Museum: [ratdom_maze_624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden)
+**Location:** Museum: [Ratdom maze 624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden)
 
 ### Shop stock
 
@@ -41,12 +41,12 @@ description: "Wart is a non-player character (NPC) in Andor's Trail, found in Mu
 ### Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): stages 310, 320, 321, 322, 323, 324, 325, 390
-- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): stage 132
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stage 192
+- [Ratdom maze (hidden flag)](../quests/ratdom_maze.md): stage 132
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stage 192
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wart. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wart. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_rat_warden.json" data-npc="Wart" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -54,7 +54,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (72 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_rat_warden-ratdom_rat_warden"></span>**`ratdom_rat_warden`** Wart: “Yes please?”
 
@@ -265,7 +265,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-ratdom_rat_warden-ratdom_rat_warden_84"></span>**`ratdom_rat_warden_84`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_warden_86](#d-ratdom_rat_warden-ratdom_rat_warden_86)
+    - Next *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_warden_86](#d-ratdom_rat_warden-ratdom_rat_warden_86)
     - Next → [ratdom_rat_warden_80](#d-ratdom_rat_warden-ratdom_rat_warden_80)
 
     <span id="d-ratdom_rat_warden-ratdom_rat_warden_34"></span>**`ratdom_rat_warden_34`** Wart: “He wanted to be the center of attention. A larger-than-life statue of himself should dominate the room, he thought.”
@@ -348,17 +348,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-ratdom_rat_warden-ratdom_rat_warden_98"></span>**`ratdom_rat_warden_98`** Wart: “Beware! It slows you down, because your mind is clouded and partly in another dimension.”
 
     - “No problem. Show me this wonderful item.” → *shop opens*
-    - “However, I am as poor as a church rat.” *(if NOT have 5,555 gold; NOT reached stage 192 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-192))* → [ratdom_rat_warden_99](#d-ratdom_rat_warden-ratdom_rat_warden_99)
+    - “However, I am as poor as a church rat.” *(if NOT have 5,555 gold; NOT reached stage 192 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-192))* → [ratdom_rat_warden_99](#d-ratdom_rat_warden-ratdom_rat_warden_99)
 
     <span id="d-ratdom_rat_warden-ratdom_rat_warden_40"></span>**`ratdom_rat_warden_40`** Wart: “One bad day I found this place ransacked! Only an empty pedestal remained where the richly decorated skeleton of King Rah had been.”
 
     - “No.” → [ratdom_rat_warden_41](#d-ratdom_rat_warden-ratdom_rat_warden_41)
     - “How did that happen?” → [ratdom_rat_warden_42](#d-ratdom_rat_warden-ratdom_rat_warden_42)
 
-    <span id="d-ratdom_rat_warden-ratdom_rat_warden_95_30"></span>**`ratdom_rat_warden_95_30`** Wart: “Follow this passage to the end. You might find something important there. Then go back to the crossing and follow the orange shield again.” — **effects:** sets stage 132 of [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-132), starts timer “ratdom_compass_tour”
+    <span id="d-ratdom_rat_warden-ratdom_rat_warden_95_30"></span>**`ratdom_rat_warden_95_30`** Wart: “Follow this passage to the end. You might find something important there. Then go back to the crossing and follow the orange shield again.” — **effects:** sets stage 132 of [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-132), starts timer “ratdom_compass_tour”
 
-    - “Eh, OK. Got it.” *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_warden_95_40](#d-ratdom_rat_warden-ratdom_rat_warden_95_40)
-    - “Eh, OK. Got it.” *(if NOT reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_warden_95_41](#d-ratdom_rat_warden-ratdom_rat_warden_95_41)
+    - “Eh, OK. Got it.” *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_warden_95_40](#d-ratdom_rat_warden-ratdom_rat_warden_95_40)
+    - “Eh, OK. Got it.” *(if NOT reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_warden_95_41](#d-ratdom_rat_warden-ratdom_rat_warden_95_41)
 
     <span id="d-ratdom_rat_warden-ratdom_rat_warden_99"></span>**`ratdom_rat_warden_99`** Wart: “Well, I have too good a heart. Here, take the amulet for 100 gold pieces.”
 
@@ -382,7 +382,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [ratdom_rat_warden_96](#d-ratdom_rat_warden-ratdom_rat_warden_96)
 
-    <span id="d-ratdom_rat_warden-ratdom_rat_warden_99a"></span>**`ratdom_rat_warden_99a`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Orange rat necklace](../items/ratdom_compass_tour.md), sets stage 192 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-192)
+    <span id="d-ratdom_rat_warden-ratdom_rat_warden_99a"></span>**`ratdom_rat_warden_99a`** *(silent check: the first matching branch below is taken)* — **effects:** gives 1× [Orange rat necklace](../items/ratdom_compass_tour.md), sets stage 192 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-192)
 
 
     <span id="d-ratdom_rat_warden-ratdom_rat_warden_44"></span>**`ratdom_rat_warden_44`** Wart: “Of course he denied everything, that hypocrite! But who else could have done it?”
@@ -435,7 +435,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_rat_warden2` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Museum: [ratdom_maze_515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2)
+**Location:** Museum: [Ratdom maze 515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2)
 
 ### Shop stock
 
@@ -450,7 +450,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wart. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wart. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_rat_warden2.json" data-npc="Wart" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -458,12 +458,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (17 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_rat_warden2-ratdom_rat_warden2"></span>**`ratdom_rat_warden2`** Wart: “Welcome to our great rat memory hall! Shall I tell you something about our great expositions?”
 
     - “Thank you, I'll find my way.” → *conversation ends*
-    - “Why is here an empty pedestal?” *(if NOT reached stage 130 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-130))* → [ratdom_rat_warden2_r_1](#d-ratdom_rat_warden2-ratdom_rat_warden2_r_1)
+    - “Why is here an empty pedestal?” *(if NOT reached stage 130 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-130))* → [ratdom_rat_warden2_r_1](#d-ratdom_rat_warden2-ratdom_rat_warden2_r_1)
     - “I want to visit Fraedro.” *(if NOT reached stage 130 of [Yellow is it](../quests/ratdom_quest.md#stage-130))* → [ratdom_rat_warden2_r_14](#d-ratdom_rat_warden2-ratdom_rat_warden2_r_14)
     - “Do you have anything for sale?” → *shop opens*
     - “Please give me back my cheese.” *(if faction “ratdom_rat_cheese1” ≥ 1)* → [ratdom_rat_warden2_cheese](#d-ratdom_rat_warden2-ratdom_rat_warden2_cheese)

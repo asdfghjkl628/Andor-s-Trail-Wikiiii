@@ -4,7 +4,7 @@ description: "Forest wasp is an enemy in Andor's Trail (insect) with 6 HP, worth
 
 # ![](../assets/icons/monsters/monsters_insects_1.png){ .sprite } Forest wasp
 
-**Found in:** Blackwater Mountain: [blackwater_mountain54](../maps/blackwater_mountain54.md), Blackwater Mountain: [bwmfill1](../maps/bwmfill1.md), Blackwater Mountain: [wild6](../maps/wild6.md), Crossglen: [wild1](../maps/wild1.md) (+7 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 54](../maps/blackwater_mountain54.md), Blackwater Mountain: [Bwmfill 1](../maps/bwmfill1.md), Blackwater Mountain: [Wild 6](../maps/wild6.md), Crossglen: [Wild 1](../maps/wild1.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -55,17 +55,17 @@ description: "Forest wasp is an enemy in Andor's Trail (insect) with 6 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain54](../maps/blackwater_mountain54.md) | Blackwater Mountain | 5 | – |
-| [bogsten0](../maps/bogsten0.md) | Fallhaven | 1 | – |
-| [bogsten5](../maps/bogsten5.md) | Fallhaven | 4 | – |
-| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 7 | – |
-| [wild0](../maps/wild0.md) | Crossroads Guardhouse | 2 | – |
-| [wild1](../maps/wild1.md) | Crossglen | 2 | – |
-| [wild10](../maps/wild10.md) | Fallhaven | 2 | – |
-| [wild12](../maps/wild12.md) | Fallhaven | 2 | – |
-| [wild3](../maps/wild3.md) | Fallhaven | 5 | – |
-| [wild4](../maps/wild4.md) | Crossglen | 12 | – |
-| [wild6](../maps/wild6.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 54](../maps/blackwater_mountain54.md) | Blackwater Mountain | 5 | – |
+| [Bogsten 0](../maps/bogsten0.md) | Fallhaven | 1 | – |
+| [Bogsten 5](../maps/bogsten5.md) | Fallhaven | 4 | – |
+| [Bwmfill 1](../maps/bwmfill1.md) | Blackwater Mountain | 7 | – |
+| [Wild 0](../maps/wild0.md) | Crossroads Guardhouse | 2 | – |
+| [Wild 1](../maps/wild1.md) | Crossglen | 2 | – |
+| [Wild 10](../maps/wild10.md) | Fallhaven | 2 | – |
+| [Wild 12](../maps/wild12.md) | Fallhaven | 2 | – |
+| [Wild 3](../maps/wild3.md) | Fallhaven | 5 | – |
+| [Wild 4](../maps/wild4.md) | Crossglen | 12 | – |
+| [Wild 6](../maps/wild6.md) | Blackwater Mountain | 2 | – |
 
 
 ## Version history

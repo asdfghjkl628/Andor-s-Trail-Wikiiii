@@ -1,10 +1,10 @@
 ---
-description: "Garnet Gornaud is an enemy in Andor's Trail (giant) with 385 HP, worth 536 XP, found in arulircave1, arulircave2, arulircave6. Drops: Gold coins, Animal hair, Blue Crystals, Red Crystals."
+description: "Garnet Gornaud is an enemy in Andor's Trail (giant) with 385 HP, worth 536 XP, found in Arulircave 1, Arulircave 2, Arulircave 6. Drops: Gold coins, Animal hair, Blue Crystals, Red Crystals."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_30.png){ .sprite } Garnet Gornaud
 
-**Found in:** [arulircave1](../maps/arulircave1.md), [arulircave2](../maps/arulircave2.md), [arulircave6](../maps/arulircave6.md), [arulirmountain1](../maps/arulirmountain1.md) (+1 more)
+**Found in:** [Arulircave 1](../maps/arulircave1.md), [Arulircave 2](../maps/arulircave2.md), [Arulircave 6](../maps/arulircave6.md), [Arulirmountain 1](../maps/arulirmountain1.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Garnet Gornaud is an enemy in Andor's Trail (giant) with 385 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | arulircave1, arulircave2, arulircave6 |
+| **Found in** | Arulircave 1, Arulircave 2, Arulircave 6 |
 | **Class** | Giant |
 | **HP** | 385 |
 | **XP when defeated** | 536 |
@@ -61,11 +61,11 @@ description: "Garnet Gornaud is an enemy in Andor's Trail (giant) with 385 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [arulircave1](../maps/arulircave1.md) | – | 2 | – |
-| [arulircave2](../maps/arulircave2.md) | – | 1 | – |
-| [arulircave6](../maps/arulircave6.md) | – | 3 | – |
-| [arulirmountain1](../maps/arulirmountain1.md) | – | 1 | – |
-| [arulirmountain2](../maps/arulirmountain2.md) | – | 1 | – |
+| [Arulircave 1](../maps/arulircave1.md) | – | 2 | – |
+| [Arulircave 2](../maps/arulircave2.md) | – | 1 | – |
+| [Arulircave 6](../maps/arulircave6.md) | – | 3 | – |
+| [Arulirmountain 1](../maps/arulirmountain1.md) | – | 1 | – |
+| [Arulirmountain 2](../maps/arulirmountain2.md) | – | 1 | – |
 
 
 ## Version history

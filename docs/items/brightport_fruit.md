@@ -27,7 +27,7 @@ description: "Fresh fruit for Stanwick is a quest other in Andor's Trail. How to
 
 ### Quest & dialogue rewards
 
-- From [Janwick](../monsters/brightportnpc8.md) ([brightport_stanwick](../maps/brightport_stanwick.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-10) (1×)
+- From [Janwick](../monsters/brightportnpc8.md) ([Brightport stanwick](../maps/brightport_stanwick.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Stanwick](../monsters/brightportnpc.md) ([brightport_school7](../maps/brightport_school7.md)) | – | handed over (1×) | “I have these fruits for you.” |
-| [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) | – | must be carried (1×) | “I have this batch of fruit that Janwick asked me to bring to his grandson in his” |
+| [Stanwick](../monsters/brightportnpc.md) ([Brightport school 7](../maps/brightport_school7.md)) | – | handed over (1×) | “I have these fruits for you.” |
+| [Dibella](../monsters/brightportnpc3.md) ([Brightport school](../maps/brightport_school.md)) | – | must be carried (1×) | “I have this batch of fruit that Janwick asked me to bring to his grandson in his” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

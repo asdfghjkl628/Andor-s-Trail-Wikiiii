@@ -4,7 +4,7 @@ description: "Lizardman corsair is an enemy in Andor's Trail (reptile) with 230 
 
 # ![](../assets/icons/monsters/monsters_johny_5.png){ .sprite } Lizardman corsair
 
-**Found in:** Brightport: [brightport8](../maps/brightport8.md), Brightport: [brightportwild20](../maps/brightportwild20.md), Brightport: [brightportwild7](../maps/brightportwild7.md), Brightport: [waytobrightport16](../maps/waytobrightport16.md) (+4 more)
+**Found in:** Brightport: [Brightport 8](../maps/brightport8.md), Brightport: [Brightportwild 20](../maps/brightportwild20.md), Brightport: [Brightportwild 7](../maps/brightportwild7.md), Brightport: [Waytobrightport 16](../maps/waytobrightport16.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -57,14 +57,14 @@ description: "Lizardman corsair is an enemy in Andor's Trail (reptile) with 230 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport8](../maps/brightport8.md) | Brightport | 1 | – |
-| [brightportwild10](../maps/brightportwild10.md) | – | 1 | – |
-| [brightportwild12](../maps/brightportwild12.md) | Buried citadel | 1 | – |
-| [brightportwild20](../maps/brightportwild20.md) | Brightport | 2 | – |
-| [brightportwild7](../maps/brightportwild7.md) | Brightport | 2 | – |
-| [waytobrightport16](../maps/waytobrightport16.md) | Brightport | 3 | – |
-| [waytobrightport17](../maps/waytobrightport17.md) | Brightport | 2 | – |
-| [waytobrightport18](../maps/waytobrightport18.md) | Brightport | 1 | – |
+| [Brightport 8](../maps/brightport8.md) | Brightport | 1 | – |
+| [Brightportwild 10](../maps/brightportwild10.md) | – | 1 | – |
+| [Brightportwild 12](../maps/brightportwild12.md) | Buried citadel | 1 | – |
+| [Brightportwild 20](../maps/brightportwild20.md) | Brightport | 2 | – |
+| [Brightportwild 7](../maps/brightportwild7.md) | Brightport | 2 | – |
+| [Waytobrightport 16](../maps/waytobrightport16.md) | Brightport | 3 | – |
+| [Waytobrightport 17](../maps/waytobrightport17.md) | Brightport | 2 | – |
+| [Waytobrightport 18](../maps/waytobrightport18.md) | Brightport | 1 | – |
 
 
 ## Version history

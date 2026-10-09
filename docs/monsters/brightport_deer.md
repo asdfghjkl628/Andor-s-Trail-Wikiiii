@@ -4,7 +4,7 @@ description: "Virulent forest deer is an enemy in Andor's Trail (animal) with 24
 
 # ![](../assets/icons/monsters/monsters_johny_12.png){ .sprite } Virulent forest deer
 
-**Found in:** Brightport: [brightportwild18](../maps/brightportwild18.md), Brightport: [brightportwild7](../maps/brightportwild7.md), Brightport: [waytobrightport16](../maps/waytobrightport16.md), Brightport: [waytobrightport18](../maps/waytobrightport18.md) (+8 more)
+**Found in:** Brightport: [Brightportwild 18](../maps/brightportwild18.md), Brightport: [Brightportwild 7](../maps/brightportwild7.md), Brightport: [Waytobrightport 16](../maps/waytobrightport16.md), Brightport: [Waytobrightport 18](../maps/waytobrightport18.md) (+8 more)
 
 <div class="infobox" markdown>
 
@@ -60,18 +60,18 @@ description: "Virulent forest deer is an enemy in Andor's Trail (animal) with 24
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild1](../maps/brightportwild1.md) | – | 2 | – |
-| [brightportwild18](../maps/brightportwild18.md) | Brightport | 5 | – |
-| [brightportwild19](../maps/brightportwild19.md) | – | 1 | – |
-| [brightportwild2](../maps/brightportwild2.md) | – | 2 | – |
-| [brightportwild7](../maps/brightportwild7.md) | Brightport | 5 | – |
-| [waytobrightport12](../maps/waytobrightport12.md) | – | 5 | – |
-| [waytobrightport14](../maps/waytobrightport14.md) | – | 3 | – |
-| [waytobrightport15](../maps/waytobrightport15.md) | – | 4 | – |
-| [waytobrightport16](../maps/waytobrightport16.md) | Brightport | 6 | – |
-| [waytobrightport18](../maps/waytobrightport18.md) | Brightport | 3 | – |
-| [waytobrightport19](../maps/waytobrightport19.md) | Brightport | 9 | – |
-| [waytobrightport5](../maps/waytobrightport5.md) | – | 8 | – |
+| [Brightportwild 1](../maps/brightportwild1.md) | – | 2 | – |
+| [Brightportwild 18](../maps/brightportwild18.md) | Brightport | 5 | – |
+| [Brightportwild 19](../maps/brightportwild19.md) | – | 1 | – |
+| [Brightportwild 2](../maps/brightportwild2.md) | – | 2 | – |
+| [Brightportwild 7](../maps/brightportwild7.md) | Brightport | 5 | – |
+| [Waytobrightport 12](../maps/waytobrightport12.md) | – | 5 | – |
+| [Waytobrightport 14](../maps/waytobrightport14.md) | – | 3 | – |
+| [Waytobrightport 15](../maps/waytobrightport15.md) | – | 4 | – |
+| [Waytobrightport 16](../maps/waytobrightport16.md) | Brightport | 6 | – |
+| [Waytobrightport 18](../maps/waytobrightport18.md) | Brightport | 3 | – |
+| [Waytobrightport 19](../maps/waytobrightport19.md) | Brightport | 9 | – |
+| [Waytobrightport 5](../maps/waytobrightport5.md) | – | 8 | – |
 
 
 ## Version history

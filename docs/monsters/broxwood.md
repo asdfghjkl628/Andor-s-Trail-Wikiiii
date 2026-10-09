@@ -1,10 +1,10 @@
 ---
-description: "Broxwood is an enemy in Andor's Trail (construct) with 225 HP, worth 791 XP, found in sullengard_woods10, sullengard_woods11, sullengard_woods12. Drops: Small tree branch, Gold coins, Rotten apple."
+description: "Broxwood is an enemy in Andor's Trail (construct) with 225 HP, worth 791 XP, found in Sullengard woods 10, Sullengard woods 11, Sullengard woods 12. Drops: Small tree branch, Gold coins, Rotten apple."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_1083.png){ .sprite } Broxwood
 
-**Found in:** [sullengard_woods10](../maps/sullengard_woods10.md), [sullengard_woods11](../maps/sullengard_woods11.md), [sullengard_woods12](../maps/sullengard_woods12.md), [sullengard_woods13](../maps/sullengard_woods13.md) (+8 more)
+**Found in:** [Sullengard woods 10](../maps/sullengard_woods10.md), [Sullengard woods 11](../maps/sullengard_woods11.md), [Sullengard woods 12](../maps/sullengard_woods12.md), [Sullengard woods 13](../maps/sullengard_woods13.md) (+8 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Broxwood is an enemy in Andor's Trail (construct) with 225 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard_woods10, sullengard_woods11, sullengard_woods12 |
+| **Found in** | Sullengard woods 10, Sullengard woods 11, Sullengard woods 12 |
 | **Class** | Construct |
 | **HP** | 225 |
 | **XP when defeated** | 791 |
@@ -60,18 +60,18 @@ description: "Broxwood is an enemy in Andor's Trail (construct) with 225 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_woods10](../maps/sullengard_woods10.md) | – | 2 | – |
-| [sullengard_woods11](../maps/sullengard_woods11.md) | – | 3 | – |
-| [sullengard_woods12](../maps/sullengard_woods12.md) | – | 1 | – |
-| [sullengard_woods13](../maps/sullengard_woods13.md) | – | 2 | – |
-| [sullengard_woods14](../maps/sullengard_woods14.md) | – | 2 | – |
-| [sullengard_woods2](../maps/sullengard_woods2.md) | – | 4 | – |
-| [sullengard_woods3](../maps/sullengard_woods3.md) | – | 4 | – |
-| [sullengard_woods4](../maps/sullengard_woods4.md) | – | 4 | – |
-| [sullengard_woods5](../maps/sullengard_woods5.md) | – | 2 | – |
-| [sullengard_woods6](../maps/sullengard_woods6.md) | – | 1 | – |
-| [sullengard_woods7](../maps/sullengard_woods7.md) | – | 1 | – |
-| [sullengard_woods9](../maps/sullengard_woods9.md) | – | 1 | – |
+| [Sullengard woods 10](../maps/sullengard_woods10.md) | – | 2 | – |
+| [Sullengard woods 11](../maps/sullengard_woods11.md) | – | 3 | – |
+| [Sullengard woods 12](../maps/sullengard_woods12.md) | – | 1 | – |
+| [Sullengard woods 13](../maps/sullengard_woods13.md) | – | 2 | – |
+| [Sullengard woods 14](../maps/sullengard_woods14.md) | – | 2 | – |
+| [Sullengard woods 2](../maps/sullengard_woods2.md) | – | 4 | – |
+| [Sullengard woods 3](../maps/sullengard_woods3.md) | – | 4 | – |
+| [Sullengard woods 4](../maps/sullengard_woods4.md) | – | 4 | – |
+| [Sullengard woods 5](../maps/sullengard_woods5.md) | – | 2 | – |
+| [Sullengard woods 6](../maps/sullengard_woods6.md) | – | 1 | – |
+| [Sullengard woods 7](../maps/sullengard_woods7.md) | – | 1 | – |
+| [Sullengard woods 9](../maps/sullengard_woods9.md) | – | 1 | – |
 
 
 ## Version history

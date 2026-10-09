@@ -27,23 +27,23 @@ description: "Empty vial is a ordinary liquid container in Andor's Trail. How to
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Buceth](../monsters/buceth.md) | 100% | 1-3 | – |
-| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 3-5 | waytobrimhavencave4 |
-| [Algangror](../monsters/algangror.md) | 100% | 3-5 | lonelyhouse0 |
+| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 3-5 | Waytobrimhavencave 4 |
+| [Algangror](../monsters/algangror.md) | 100% | 3-5 | Lonelyhouse 0 |
 | [Guardian of the catacombs](../monsters/guardian_of_the_catacombs.md) | 25% | 1 | Fallhaven |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 25% | 1 | Fallhaven |
 | [Spectre](../monsters/spectre.md) | 25% | 1 | Fallhaven |
 | [Apparition](../monsters/apparition.md) | 25% | 1 | Fallhaven |
 | [Shade](../monsters/shade.md) | 25% | 1 | Fallhaven |
 | [Young gargoyle](../monsters/young_gargoyle.md) | 25% | 1 | Fallhaven |
-| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 8.33333% | 1 | elm5f_1, elm5f_2, elm_4f_2 |
-| [Foul miner's skeleton](../monsters/elm_miner2.md) | 8.33333% | 1 | elm5f_1, elm5f_2, elm_4f_2 |
-| [Young allaceph](../monsters/allaceph_1.md) | 5% | 1 | waytobrimhavencave1, waytobrimhavencave2 |
-| [Allaceph](../monsters/allaceph_2.md) | 5% | 1 | waytobrimhavencave1, waytobrimhavencave2 |
-| [Strong allaceph](../monsters/allaceph_3.md) | 5% | 1 | waytobrimhavencave2, waytobrimhavencave3 |
-| [Tough allaceph](../monsters/allaceph_4.md) | 5% | 1 | waytobrimhavencave2, waytobrimhavencave3 |
-| [Radiant allaceph](../monsters/allaceph_5.md) | 5% | 1 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
-| [Ancient allaceph](../monsters/allaceph_6.md) | 5% | 1 | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
-| [Vaeregh](../monsters/vaeregh_1.md) | 5% | 1 | waytobrimhavencave3a, waytobrimhavencave3b |
+| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 8.33333% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
+| [Foul miner's skeleton](../monsters/elm_miner2.md) | 8.33333% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
+| [Young allaceph](../monsters/allaceph_1.md) | 5% | 1 | Waytobrimhavencave 1, Waytobrimhavencave 2 |
+| [Allaceph](../monsters/allaceph_2.md) | 5% | 1 | Waytobrimhavencave 1, Waytobrimhavencave 2 |
+| [Strong allaceph](../monsters/allaceph_3.md) | 5% | 1 | Waytobrimhavencave 2, Waytobrimhavencave 3 |
+| [Tough allaceph](../monsters/allaceph_4.md) | 5% | 1 | Waytobrimhavencave 2, Waytobrimhavencave 3 |
+| [Radiant allaceph](../monsters/allaceph_5.md) | 5% | 1 | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
+| [Ancient allaceph](../monsters/allaceph_6.md) | 5% | 1 | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
+| [Vaeregh](../monsters/vaeregh_1.md) | 5% | 1 | Waytobrimhavencave 3a, Waytobrimhavencave 3b |
 
 ### Sold by
 
@@ -51,7 +51,7 @@ description: "Empty vial is a ordinary liquid container in Andor's Trail. How to
 
 ### Found in containers
 
-- [wild16_cave](../maps/wild16_cave.md#container-0) (container 1, 100%), Flagstone Prison
+- [Wild 16 cave](../maps/wild16_cave.md#container-0) (container 1, 100%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

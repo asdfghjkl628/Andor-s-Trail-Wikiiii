@@ -27,7 +27,7 @@ description: "Dorhantarh's heart is a quest other in Andor's Trail. How to get i
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dorhantarh](../monsters/lae_island_boss.md) | 100% | 1 | final_cave2 |
+| [Dorhantarh](../monsters/lae_island_boss.md) | 100% | 1 | Final cave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) | [Not Pony Island](../quests/lae_centaurs.md#stage-300) | handed over (1×) | “And this heart does prove it.” |
+| [Thalos, the centaur](../monsters/lae_centaur9.md) ([Island 2](../maps/island2.md)) | [Not Pony Island](../quests/lae_centaurs.md#stage-300) | handed over (1×) | “And this heart does prove it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,8 +1,8 @@
 ---
-description: "Waytobrightport6 is an indoor location in Andor's Trail. Enemies: Duleian buzzer. Exits to Brightportwild1, Cabin norcity road2, Cabin norcity road3."
+description: "Waytobrightport 6 is an indoor location in Andor's Trail. Enemies: Duleian buzzer. Exits to Brightportwild 1, Cabin norcity road 2, Cabin norcity road 3."
 ---
 
-# Waytobrightport6
+# Waytobrightport 6
 
 <div class="infobox" markdown>
 
@@ -11,28 +11,28 @@ description: "Waytobrightport6 is an indoor location in Andor's Trail. Enemies: 
 | **Map ID** | `waytobrightport6` |
 | **Type** | Indoors / underground |
 | **Size** | 20×7 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 1 |
 | **Quests** | 1 |
 
 </div>
 
-**Waytobrightport6** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild1, Cabin norcity road2, Cabin norcity road3.
+**Waytobrightport 6** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild 1, Cabin norcity road 2, Cabin norcity road 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport6.webp" alt="Map of Waytobrightport6" width="640" height="224" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild1/#place-west" title="Exit to Brightportwild1" style="left:95.000%;top:28.571%;width:5.000%;height:57.143%"></a><a id="place-south" class="mo mo-mapchange" href="../cabin_norcity_road2/#place-north" title="Exit to Cabin norcity road2" style="left:20.000%;top:85.714%;width:5.000%;height:14.286%"></a><a id="place-south1" class="mo mo-mapchange" href="../cabin_norcity_road3/#place-north" title="Exit to Cabin norcity road3" style="left:85.000%;top:85.714%;width:5.000%;height:14.286%"></a><a class="mo mo-script" href="../../quests/brightport_bakery/#stage-35" title="Scripted event: advances the quest: Bread and circus to stage 35 (“I found some half-eaten apples in the woods north of the Duleian road.”)" style="left:60.000%;top:42.857%;width:5.000%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:15.000%;top:28.571%;width:30.000%;height:42.857%"></span><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:55.000%;top:28.571%;width:35.000%;height:42.857%"></span><a class="mo mo-replace" href="../../quests/brightport_bakery/#stage-25" title="This area changes during the quest: Bread and circus (stage 25: “According to Eatloni, the order of 30 apples never arrived. I should visit Deebo&#x27;s Orchard to check if the order had been picked up.”)" style="left:60.000%;top:42.857%;width:5.000%;height:14.286%"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:40.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:25.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:80.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:55.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:57.143%" title="Exit (east): to [Brightportwild1](brightportwild1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:22.500%;top:92.857%" title="Exit (south): to [Cabin norcity road2](cabin_norcity_road2.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:87.500%;top:92.857%" title="Exit (south): to [Cabin norcity road3](cabin_norcity_road3.md)">3</a><a class="pin pin-script" href="#key-4" style="left:62.500%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: Bread and circus to stage 35 (“I found some half-eaten apples in the woods north of the Duleian road.”)">4</a><a class="pin pin-replace" href="#key-5" style="left:62.829%;top:39.287%" title="Changes during a quest: This area changes during the quest: Bread and circus (stage 25: “According to Eatloni, the order of 30 apples never arrived. I should visit Deebo&#x27;s Orchard to check if the order had been picked up.”)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport6.webp" alt="Map of Waytobrightport 6" width="640" height="224" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild1/#place-west" title="Exit to Brightportwild 1" style="left:95.000%;top:28.571%;width:5.000%;height:57.143%"></a><a id="place-south" class="mo mo-mapchange" href="../cabin_norcity_road2/#place-north" title="Exit to Cabin norcity road 2" style="left:20.000%;top:85.714%;width:5.000%;height:14.286%"></a><a id="place-south1" class="mo mo-mapchange" href="../cabin_norcity_road3/#place-north" title="Exit to Cabin norcity road 3" style="left:85.000%;top:85.714%;width:5.000%;height:14.286%"></a><a class="mo mo-script" href="../../quests/brightport_bakery/#stage-35" title="Scripted event: advances the quest: Bread and circus to stage 35 (“I found some half-eaten apples in the woods north of the Duleian road.”)" style="left:60.000%;top:42.857%;width:5.000%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:15.000%;top:28.571%;width:30.000%;height:42.857%"></span><span class="mo mo-spawn" title="Spawns: Duleian buzzer" style="left:55.000%;top:28.571%;width:35.000%;height:42.857%"></span><a class="mo mo-replace" href="../../quests/brightport_bakery/#stage-25" title="This area changes during the quest: Bread and circus (stage 25: “According to Eatloni, the order of 30 apples never arrived. I should visit Deebo&#x27;s Orchard to check if the order had been picked up.”)" style="left:60.000%;top:42.857%;width:5.000%;height:14.286%"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:40.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:25.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:80.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="mob" href="../../monsters/duleian_hornet/" title="Duleian buzzer" style="left:55.000%;top:57.143%;width:5.000%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_222.png" alt="Duleian buzzer"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:57.143%" title="Exit (east): to [Brightportwild 1](brightportwild1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:22.500%;top:92.857%" title="Exit (south): to [Cabin norcity road 2](cabin_norcity_road2.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:87.500%;top:92.857%" title="Exit (south): to [Cabin norcity road 3](cabin_norcity_road3.md)">3</a><a class="pin pin-script" href="#key-4" style="left:62.500%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: Bread and circus to stage 35 (“I found some half-eaten apples in the woods north of the Duleian road.”)">4</a><a class="pin pin-replace" href="#key-5" style="left:62.829%;top:39.287%" title="Changes during a quest: This area changes during the quest: Bread and circus (stage 25: “According to Eatloni, the order of 30 apples never arrived. I should visit Deebo&#x27;s Orchard to check if the order had been picked up.”)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightportwild1](brightportwild1.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Cabin norcity road2](cabin_norcity_road2.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Cabin norcity road3](cabin_norcity_road3.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightportwild 1](brightportwild1.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Cabin norcity road 2](cabin_norcity_road2.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Cabin norcity road 3](cabin_norcity_road3.md) |
     | <span id="key-4"></span>4 | Quest trigger | Scripted event: advances the quest: Bread and circus to stage 35 (“I found some half-eaten apples in the woods north of the Duleian road.”) |
     | <span id="key-5"></span>5 | Changes during a quest | This area changes during the quest: Bread and circus (stage 25: “According to Eatloni, the order of 30 apples never arrived. I should visit Deebo's Orchard to check if the order had been picked up.”) |
 
@@ -43,9 +43,9 @@ description: "Waytobrightport6 is an indoor location in Andor's Trail. Enemies: 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightportwild1](brightportwild1.md) | – | 1 |
-| South | [Cabin norcity road2](cabin_norcity_road2.md) | – | 2 |
-| South | [Cabin norcity road3](cabin_norcity_road3.md) | – | 3 |
+| East | [Brightportwild 1](brightportwild1.md) | – | 1 |
+| South | [Cabin norcity road 2](cabin_norcity_road2.md) | – | 2 |
+| South | [Cabin norcity road 3](cabin_norcity_road3.md) | – | 3 |
 
 ## Enemies
 

@@ -1,10 +1,10 @@
 ---
-description: "King Sullengard forest snake is an enemy in Andor's Trail (reptile) with 207 HP, worth 880 XP, found in way_to_sullengard_east8. Drops: Gold coins, Snake meat, Venomscale scales."
+description: "King Sullengard forest snake is an enemy in Andor's Trail (reptile) with 207 HP, worth 880 XP, found in Way to sullengard east 8. Drops: Gold coins, Snake meat, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } King Sullengard forest snake
 
-**Found in:** [way_to_sullengard_east8](../maps/way_to_sullengard_east8.md)
+**Found in:** [Way to sullengard east 8](../maps/way_to_sullengard_east8.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "King Sullengard forest snake is an enemy in Andor's Trail (reptile
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_east8 |
+| **Found in** | Way to sullengard east 8 |
 | **Class** | Reptile |
 | **HP** | 207 |
 | **XP when defeated** | 880 |
@@ -60,7 +60,7 @@ description: "King Sullengard forest snake is an enemy in Andor's Trail (reptile
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_east8](../maps/way_to_sullengard_east8.md) | – | 1 | – |
+| [Way to sullengard east 8](../maps/way_to_sullengard_east8.md) | – | 1 | – |
 
 
 ## Version history

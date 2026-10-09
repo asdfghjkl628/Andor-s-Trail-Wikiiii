@@ -1,10 +1,10 @@
 ---
-description: "Ferocious mountain wolf is an enemy in Andor's Trail (animal) with 78 HP, worth 169 XP, found in mountainlake10, mountainlake11, waytolake10. Drops: Gold coins, Sharpened gem, Meat, Animal hair."
+description: "Ferocious mountain wolf is an enemy in Andor's Trail (animal) with 78 HP, worth 169 XP, found in Mountainlake 10, Mountainlake 11, Waytolake 10. Drops: Gold coins, Sharpened gem, Meat, Animal hair."
 ---
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Ferocious mountain wolf
 
-**Found in:** [mountainlake10](../maps/mountainlake10.md), [mountainlake11](../maps/mountainlake11.md), [waytolake10](../maps/waytolake10.md), [waytolake11](../maps/waytolake11.md)
+**Found in:** [Mountainlake 10](../maps/mountainlake10.md), [Mountainlake 11](../maps/mountainlake11.md), [Waytolake 10](../maps/waytolake10.md), [Waytolake 11](../maps/waytolake11.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ferocious mountain wolf is an enemy in Andor's Trail (animal) with
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake10, mountainlake11, waytolake10 |
+| **Found in** | Mountainlake 10, Mountainlake 11, Waytolake 10 |
 | **Class** | Animal |
 | **HP** | 78 |
 | **XP when defeated** | 169 |
@@ -57,10 +57,10 @@ description: "Ferocious mountain wolf is an enemy in Andor's Trail (animal) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake10](../maps/mountainlake10.md) | – | 3 | – |
-| [mountainlake11](../maps/mountainlake11.md) | – | 6 | – |
-| [waytolake10](../maps/waytolake10.md) | – | 5 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 6 | – |
+| [Mountainlake 10](../maps/mountainlake10.md) | – | 3 | – |
+| [Mountainlake 11](../maps/mountainlake11.md) | – | 6 | – |
+| [Waytolake 10](../maps/waytolake10.md) | – | 5 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 6 | – |
 
 
 ## Version history

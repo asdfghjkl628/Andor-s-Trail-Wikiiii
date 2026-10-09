@@ -21,23 +21,23 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 </div>
 
 !!! info "7 entries in the game data"
-    The game's data files define 7 separate characters named Angry skeleton. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics, loot or shop stock, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 7 separate characters named Angry skeleton. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ratdom_skel_dance21`](#v-ratdom_skel_dance21) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance22`](#v-ratdom_skel_dance22) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance23`](#v-ratdom_skel_dance23) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance24`](#v-ratdom_skel_dance24) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance25`](#v-ratdom_skel_dance25) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance26`](#v-ratdom_skel_dance26) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
-| [`ratdom_skel_dance27`](#v-ratdom_skel_dance27) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance21`](#v-ratdom_skel_dance21) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance22`](#v-ratdom_skel_dance22) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance23`](#v-ratdom_skel_dance23) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance24`](#v-ratdom_skel_dance24) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance25`](#v-ratdom_skel_dance25) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance26`](#v-ratdom_skel_dance26) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
+| [`ratdom_skel_dance27`](#v-ratdom_skel_dance27) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 80 |
 
 ## Skeleton dance, Ratdom maze 543d (ratdom_skel_dance21) { #v-ratdom_skel_dance21 }
 
 **Entry ID:** `ratdom_skel_dance21` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -72,7 +72,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history
@@ -125,7 +125,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 **Entry ID:** `ratdom_skel_dance22` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -160,7 +160,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history
@@ -213,7 +213,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 **Entry ID:** `ratdom_skel_dance23` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -248,7 +248,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history
@@ -301,7 +301,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 **Entry ID:** `ratdom_skel_dance24` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -329,7 +329,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history
@@ -380,7 +380,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 **Entry ID:** `ratdom_skel_dance25` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -408,7 +408,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history
@@ -459,7 +459,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 **Entry ID:** `ratdom_skel_dance26` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -487,7 +487,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history
@@ -538,7 +538,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 **Entry ID:** `ratdom_skel_dance27` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -566,7 +566,7 @@ description: "Angry skeleton is an enemy in Andor's Trail (undead) with 80 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 25 | Appears later, during a quest |
 
 
 ### Version history

@@ -4,7 +4,7 @@ description: "Vicious redfoot beast is an enemy in Andor's Trail (animal) with 3
 
 # ![](../assets/icons/monsters/monsters_rltiles4_10.png){ .sprite } Vicious redfoot beast
 
-**Found in:** Charwood: [waytominingtown3](../maps/waytominingtown3.md)
+**Found in:** Charwood: [Waytominingtown 3](../maps/waytominingtown3.md)
 
 <div class="infobox" markdown>
 
@@ -54,7 +54,7 @@ description: "Vicious redfoot beast is an enemy in Andor's Trail (animal) with 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytominingtown3](../maps/waytominingtown3.md) | Charwood | 1 | – |
+| [Waytominingtown 3](../maps/waytominingtown3.md) | Charwood | 1 | – |
 
 
 ## Version history

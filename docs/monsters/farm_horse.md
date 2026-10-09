@@ -21,18 +21,18 @@ description: "Farm horse is an enemy in Andor's Trail (animal) with 1 HP, worth 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Farm horse. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Farm horse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`farm_horse`](#v-farm_horse) | Enemy | Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md) | – | 1 |
-| [`farm_horse_right`](#v-farm_horse_right) | Enemy | Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md) | – | 1 |
+| [`farm_horse`](#v-farm_horse) | Enemy | Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | – | 1 |
+| [`farm_horse_right`](#v-farm_horse_right) | Enemy | Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | – | 1 |
 
 ## Deebo's Orchard, Sullengard apple farm east (farm_horse) { #v-farm_horse }
 
 **Entry ID:** `farm_horse` · **Type:** Enemy
 
-**Location:** Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)
+**Location:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)
 
 ### Combat statistics
 
@@ -60,7 +60,7 @@ description: "Farm horse is an enemy in Andor's Trail (animal) with 1 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md) | Deebo's Orchard | 1 | – |
+| [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | Deebo's Orchard | 1 | – |
 
 
 ### Version history
@@ -103,7 +103,7 @@ description: "Farm horse is an enemy in Andor's Trail (animal) with 1 HP, worth 
 
 **Entry ID:** `farm_horse_right` · **Type:** Enemy
 
-**Location:** Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)
+**Location:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)
 
 ### Combat statistics
 
@@ -131,7 +131,7 @@ description: "Farm horse is an enemy in Andor's Trail (animal) with 1 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md) | Deebo's Orchard | 1 | – |
+| [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | Deebo's Orchard | 1 | – |
 
 
 ### Version history

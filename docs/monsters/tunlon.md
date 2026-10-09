@@ -22,18 +22,18 @@ description: "Tunlon is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Tunlon. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Tunlon. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`tunlon`](#v-tunlon) | NPC | Blackwater Mountain: [bwmfill3](../maps/bwmfill3.md#pin-npc-tunlon) | shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md) | – |
-| [`tunlon2`](#v-tunlon2) | Enemy | Blackwater Mountain: [bwmfill3](../maps/bwmfill3.md) | – | 73 |
+| [`tunlon`](#v-tunlon) | NPC | Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md#pin-npc-tunlon) | shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md) | – |
+| [`tunlon2`](#v-tunlon2) | Enemy | Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md) | – | 73 |
 
-## Blackwater Mountain, Bwmfill3 (tunlon) { #v-tunlon }
+## Blackwater Mountain, Bwmfill 3 (tunlon) { #v-tunlon }
 
 **Entry ID:** `tunlon` · **Type:** NPC · **Role:** Shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md)
 
-**Location:** Blackwater Mountain: [bwmfill3](../maps/bwmfill3.md#pin-npc-tunlon)
+**Location:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md#pin-npc-tunlon)
 
 ### Shop stock
 
@@ -48,11 +48,11 @@ description: "Tunlon is an NPC who can also be fought in Andor's Trail, found in
 ### Quests
 
 - [It makes no fence](../quests/tunlon_fence.md): stages 10, 12, 40, 200, 250
-- [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md): stage 44
+- [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md): stage 44
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tunlon. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tunlon. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tunlon_start.json" data-npc="Tunlon" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (50 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tunlon-tunlon_start"></span>**`tunlon_start`** *(silent check: the first matching branch below is taken)*
 
@@ -99,7 +99,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-tunlon-bwmfill_killsheep_10"></span>**`bwmfill_killsheep_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 44 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-44))* → [bwmfill_killsheep_20](#d-tunlon-bwmfill_killsheep_20)
+    - branch 1 *(if NOT reached stage 44 of [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-44))* → [bwmfill_killsheep_20](#d-tunlon-bwmfill_killsheep_20)
     - branch 2 *(if reached stage 10 of [It makes no fence](../quests/tunlon_fence.md#stage-10); NOT reached stage 250 of [It makes no fence](../quests/tunlon_fence.md#stage-250); NOT reached stage 12 of [It makes no fence](../quests/tunlon_fence.md#stage-12))* → [bwmfill_killsheep_12](#d-tunlon-bwmfill_killsheep_12)
 
     <span id="d-tunlon-tunlon_start_2"></span>**`tunlon_start_2`** Tunlon: “I am Tunlon of Crossglen. I look after my flock of sheep here.”
@@ -136,7 +136,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “No, I am still searching.” *(if NOT reached stage 20 of [It makes no fence](../quests/tunlon_fence.md#stage-20))* → *conversation ends*
     - “No, I asked Jakrar in Fallhaven, but he just sent me to other woodcutters.” *(if reached stage 20 of [It makes no fence](../quests/tunlon_fence.md#stage-20))* → [tunlon_prog_2](#d-tunlon-tunlon_prog_2)
 
-    <span id="d-tunlon-bwmfill_killsheep_20"></span>**`bwmfill_killsheep_20`** [Tunlon](../monsters/tunlon.md#v-tunlon2): “You filthy MURDERER!!” — **effects:** sets stage 44 of [bwmfill_nondisplay (hidden flag)](../quests/bwmfill_nondisplay.md#stage-44), removes monsters from bwmfill3, spawns monsters on bwmfill3
+    <span id="d-tunlon-bwmfill_killsheep_20"></span>**`bwmfill_killsheep_20`** [Tunlon](../monsters/tunlon.md#v-tunlon2): “You filthy MURDERER!!” — **effects:** sets stage 44 of [Blackwater Mountain story flags (hidden flag)](../quests/bwmfill_nondisplay.md#stage-44), removes monsters from bwmfill3, spawns monsters on bwmfill3
 
     - Next → [bwmfill_killsheep_22](#d-tunlon-bwmfill_killsheep_22)
 
@@ -326,11 +326,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Bwmfill3 (tunlon2) { #v-tunlon2 }
+## Blackwater Mountain, Bwmfill 3 (tunlon2) { #v-tunlon2 }
 
 **Entry ID:** `tunlon2` · **Type:** Enemy
 
-**Location:** Blackwater Mountain: [bwmfill3](../maps/bwmfill3.md)
+**Location:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md)
 
 ### Combat statistics
 
@@ -368,7 +368,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bwmfill3](../maps/bwmfill3.md) | Blackwater Mountain | 1 | Appears later, during a quest |
+| [Bwmfill 3](../maps/bwmfill3.md) | Blackwater Mountain | 1 | Appears later, during a quest |
 
 
 ### Version history

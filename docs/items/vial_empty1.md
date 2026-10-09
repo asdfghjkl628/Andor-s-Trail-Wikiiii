@@ -42,29 +42,29 @@ description: "Small empty vial is a ordinary liquid container in Andor's Trail. 
 | [Strong aulaeth](../monsters/strong_aulaeth.md) | 25% | 1 | Blackwater Mountain |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | 25% | 1 | Blackwater Mountain |
 | [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 25% | 1 | Blackwater Mountain |
-| [Bogsten](../monsters/bogsten.md) | 25% | 100-200 | bogsten1 |
-| [Contaminated woodworm](../monsters/elm_woodworm.md) | 12.5% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
-| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 12.5% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 11.1111% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 11.1111% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Plaguestrider master](../monsters/plaguesp_13.md) | 5% | 1 | waytolake5 |
-| [Hirathil spawn](../monsters/hirathil0.md) | 5% | 1 | lodarcave0, lodarcave1, lodarcave2 |
-| [Aggressive hirathil ghost](../monsters/hirathil1.md) | 5% | 1 | lodarcave0, lodarcave1, lodarcave2 |
-| [Hirathil ghost](../monsters/hirathil2.md) | 5% | 1 | lodarcave0, lodarcave1, lodarcave2 |
-| [Ferocious hirathil ghost](../monsters/hirathil3.md) | 5% | 1 | lodarcave1, lodarcave2, lodarcave3 |
-| [Restless hirathil ghost](../monsters/hirathil4.md) | 5% | 1 | lodarcave1, lodarcave2, lodarcave3 |
-| [Hirathil servant](../monsters/hirathil5.md) | 5% | 1 | lodarcave1, lodarcave2, lodarcave3 |
-| [Hirathil master](../monsters/hirathil6.md) | 5% | 1 | lodarcave4a, lodarcave5, lodarcave6 |
-| [Ancient hirathil ghost](../monsters/hirathil7.md) | 5% | 1 | lodarcave4a, lodarcave5, lodarcave6 |
+| [Bogsten](../monsters/bogsten.md) | 25% | 100-200 | Bogsten 1 |
+| [Contaminated woodworm](../monsters/elm_woodworm.md) | 12.5% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 12.5% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 11.1111% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 11.1111% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Plaguestrider master](../monsters/plaguesp_13.md) | 5% | 1 | Waytolake 5 |
+| [Hirathil spawn](../monsters/hirathil0.md) | 5% | 1 | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
+| [Aggressive hirathil ghost](../monsters/hirathil1.md) | 5% | 1 | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
+| [Hirathil ghost](../monsters/hirathil2.md) | 5% | 1 | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
+| [Ferocious hirathil ghost](../monsters/hirathil3.md) | 5% | 1 | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
+| [Restless hirathil ghost](../monsters/hirathil4.md) | 5% | 1 | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
+| [Hirathil servant](../monsters/hirathil5.md) | 5% | 1 | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
+| [Hirathil master](../monsters/hirathil6.md) | 5% | 1 | Lodarcave 4a, Lodarcave 5, Lodarcave 6 |
+| [Ancient hirathil ghost](../monsters/hirathil7.md) | 5% | 1 | Lodarcave 4a, Lodarcave 5, Lodarcave 6 |
 
 ### Sold by
 
 - [Potion merchant](../monsters/potion_merchant.md) (Fallhaven)
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 
 ### Found in containers
 
-- [wild16_cave](../maps/wild16_cave.md#container-0) (container 1, 100%), Flagstone Prison
+- [Wild 16 cave](../maps/wild16_cave.md#container-0) (container 1, 100%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -76,9 +76,9 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Talion](../monsters/talion.md) | [I have it in me](../quests/maggots.md#stage-43) | handed over (1×) | “Here you go, one small empty vial.” |
-| walking into a blocked passage on [elm_2f_1](../maps/elm_2f_1.md) | – | handed over (1×) | “Pour some water into a small vial.” |
-| walking into a blocked passage on [elm_2f_1](../maps/elm_2f_1.md) | – | handed over (1×) | “Fill another vial.” |
-| walking into a blocked passage on [elm_2f_1](../maps/elm_2f_1.md) | – | handed over (1×) | “Try with another vial.” |
+| walking into a blocked passage on [Elm 2f 1](../maps/elm_2f_1.md) | – | handed over (1×) | “Pour some water into a small vial.” |
+| walking into a blocked passage on [Elm 2f 1](../maps/elm_2f_1.md) | – | handed over (1×) | “Fill another vial.” |
+| walking into a blocked passage on [Elm 2f 1](../maps/elm_2f_1.md) | – | handed over (1×) | “Try with another vial.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

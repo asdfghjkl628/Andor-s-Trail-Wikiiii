@@ -1,10 +1,10 @@
 ---
-description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, worth 461 XP, found in galmore_17, galmore_19, galmore_27."
+description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, worth 461 XP, found in Galmore 17, Galmore 19, Galmore 27."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_531.png){ .sprite } Swamp beetle
 
-**Found in:** [galmore_17](../maps/galmore_17.md), [galmore_19](../maps/galmore_19.md), [galmore_27](../maps/galmore_27.md), [galmore_29](../maps/galmore_29.md) (+1 more)
+**Found in:** [Galmore 17](../maps/galmore_17.md), [Galmore 19](../maps/galmore_19.md), [Galmore 27](../maps/galmore_27.md), [Galmore 29](../maps/galmore_29.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_17, galmore_19, galmore_27 |
+| **Found in** | Galmore 17, Galmore 19, Galmore 27 |
 | **Class** | Insect |
 | **HP** | 101 |
 | **XP when defeated** | 461 |
@@ -50,11 +50,11 @@ description: "Swamp beetle is an enemy in Andor's Trail (insect) with 101 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_17](../maps/galmore_17.md) | – | 4 | – |
-| [galmore_19](../maps/galmore_19.md) | – | 4 | – |
-| [galmore_27](../maps/galmore_27.md) | – | 13 | – |
-| [galmore_29](../maps/galmore_29.md) | – | 8 | – |
-| [galmore_37](../maps/galmore_37.md) | – | 2 | – |
+| [Galmore 17](../maps/galmore_17.md) | – | 4 | – |
+| [Galmore 19](../maps/galmore_19.md) | – | 4 | – |
+| [Galmore 27](../maps/galmore_27.md) | – | 13 | – |
+| [Galmore 29](../maps/galmore_29.md) | – | 8 | – |
+| [Galmore 37](../maps/galmore_37.md) | – | 2 | – |
 
 
 ## Version history

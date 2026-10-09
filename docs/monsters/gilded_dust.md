@@ -1,10 +1,10 @@
 ---
-description: "Gilded dust is an enemy in Andor's Trail (construct) with 235 HP, worth 655 XP, found in undertell_03, undertell_04. Drops: Emerald shard, Emerald, Gold coins, Undertell diamond."
+description: "Gilded dust is an enemy in Andor's Trail (construct) with 235 HP, worth 655 XP, found in Undertell 03, Undertell 04. Drops: Emerald shard, Emerald, Gold coins, Undertell diamond."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik10_25.png){ .sprite } Gilded dust
 
-**Found in:** [undertell_03](../maps/undertell_03.md), [undertell_04](../maps/undertell_04.md)
+**Found in:** [Undertell 03](../maps/undertell_03.md), [Undertell 04](../maps/undertell_04.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Gilded dust is an enemy in Andor's Trail (construct) with 235 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_03, undertell_04 |
+| **Found in** | Undertell 03, Undertell 04 |
 | **Class** | Construct |
 | **HP** | 235 |
 | **XP when defeated** | 655 |
@@ -64,8 +64,8 @@ description: "Gilded dust is an enemy in Andor's Trail (construct) with 235 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_03](../maps/undertell_03.md) | – | 2 | – |
-| [undertell_04](../maps/undertell_04.md) | – | 2 | – |
+| [Undertell 03](../maps/undertell_03.md) | – | 2 | – |
+| [Undertell 04](../maps/undertell_04.md) | – | 2 | – |
 
 
 ## Version history

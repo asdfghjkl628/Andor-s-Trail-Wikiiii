@@ -50,7 +50,7 @@ description: "Enchanted evergreen rod is a extraordinary scepter in Andor's Trai
 
 ### Quest & dialogue rewards
 
-- From [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) (100%)
+- From [Emmeline](../monsters/captive_girl.md) ([Lake shore road 1](../maps/lake_shore_road_1.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

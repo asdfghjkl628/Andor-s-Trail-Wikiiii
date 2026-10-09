@@ -11,9 +11,9 @@ description: "Wanted men is a quest in Andor's Trail, started by stepping on a t
 | **Quest ID** | `wanted_men` |
 | **In journal** | Yes |
 | **Stages** | 19 (completes at 57, 70, 80) |
-| **Started by** | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) |
-| **NPCs involved** | [Defy](../monsters/g04_defy.md#v-aidem_base_defy), [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), [Defy](../monsters/g04_defy.md#v-defy_wild6house), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
-| **Locations** | [aidem_base_2](../maps/aidem_base_2.md), [aidem_camp](../maps/aidem_camp.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
+| **Started by** | stepping on a trigger on [Aidem camp](../maps/aidem_camp.md) |
+| **NPCs involved** | [Defy](../monsters/g04_defy.md#v-defy_wild6house), [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), [Defy](../monsters/g04_defy.md#v-aidem_base_defy), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
+| **Locations** | [Aidem base 2](../maps/aidem_base_2.md), [Aidem camp](../maps/aidem_camp.md), [Fallhaven derelict 2](../maps/fallhaven_derelict2.md), [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) |
 | **Total XP** | 51,385 |
 | **Related quests** | 6 |
 
@@ -25,10 +25,10 @@ description: "Wanted men is a quest in Andor's Trail, started by stepping on a t
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Required:
+Start with stepping on a trigger on [Aidem camp](../maps/aidem_camp.md). Required:
 
 - NOT reached stage 10 of [Wanted men](../quests/wanted_men.md#stage-10)
-- reached stage 39 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-39)
+- reached stage 39 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-39)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -40,125 +40,253 @@ Start with stepping on a trigger on [aidem_camp](../maps/aidem_camp.md). Require
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Thief apprentice](Thieves01.md#stage-60) | stage 60 reached, for stages 45, 50, 55, 65, 80 here |
-| Requires | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-39) | stage 39 reached, for stage 10 here |
-| Requires | [Sutdove_nondisplay (hidden flag)](sutdover_hidden.md#stage-2) | stage 2 reached, for stage 57 here |
-| Unlocks | [laeroth_nondisplay (hidden flag)](laeroth_nondisplay.md#stage-107) | stage 107 there needs stage 80 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-60) | stage 60 there needs stage 77 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-40) | stage 40 there needs stage 57 here |
+| Requires | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-39) | stage 39 reached, for stage 10 here |
+| Requires | [Sutdover story flags (hidden flag)](sutdover_hidden.md#stage-2) | stage 2 reached, for stage 57 here |
+| Unlocks | [Laeroth story flags (hidden flag)](laeroth_nondisplay.md#stage-107) | stage 107 there needs stage 80 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-60) | stage 60 there needs stage 77 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-40) | stage 40 there needs stage 57 here |
 | Unlocks | [Troubling times](troubling_times.md#stage-10) | stage 10 there needs stages 70, 77, 80 here |
 | Unlocks | [Troubling times](troubling_times.md#stage-20) | stage 20 there needs stage 70 here |
 | Unlocks | [Troubling times](troubling_times.md#stage-30) | stage 30 there needs stages 77, 80 here |
 | Unlocks | [Troubling times](troubling_times.md#stage-40) | stage 40 there needs stage 80 here |
 | Unlocks | [Troubling times](troubling_times.md#stage-50) | stage 50 there needs stage 80 here |
-| Blocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-41) | reaching stage 15 here closes stage 41 there |
-| Blocks | [Sutdove_nondisplay (hidden flag)](sutdover_hidden.md#stage-2) | reaching stage 57 here closes stage 2 there |
+| Blocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-41) | reaching stage 15 here closes stage 41 there |
+| Blocks | [Sutdover story flags (hidden flag)](sutdover_hidden.md#stage-2) | reaching stage 57 here closes stage 2 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem camp](../maps/aidem_camp.md).</span> | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) | – | – |
-| <span id="stage-15"></span>15 | The sketchy looking men with familiar voices turned out to be the Aidem thieves from Sullengard. They were hiding-out in the woods.<br><span class="qnote">⚡ A scripted event can now trigger on [Aidem camp](../maps/aidem_camp.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem camp](../maps/aidem_camp.md).</span> | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) | stage 10 | – |
-| <span id="stage-20"></span>20 | While speaking with Defy, I've learned the he and his men have a grudge against the Thieves' Guild and they want to "hit them where it really hurts". Whatever that means. | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) | – | – |
-| <span id="stage-25"></span>25 | Defy has revealed the location of the Thieves' Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven. | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) | – | – |
-| <span id="stage-30"></span>30 | Defy has asked me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild6 house](../maps/wild6_house.md).</span><br><span class="qnote">🗺️ Part of [Wild6 house](../maps/wild6_house.md) visibly changes.</span> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) | – | – |
-| <span id="stage-35"></span>35 | Defy has agreed to pay me 20 percent of the looted Thieves' Guild treasure if I get the key from Troublemaker and hand it over to him. | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) | – | – |
-| <span id="stage-40"></span>40 | Defy has instructed me to bring Troublemaker's key to him at their new hideout located west of the Sutdover River, where the rail tracks end.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 10a](../maps/galmore_10a.md).</span> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) | – | removes monsters from aidem_camp<br>spawns monsters on aidem_base_2 |
-| <span id="stage-45"></span>45 | I have talked my way into acquiring the Thieves' Guild's vault key from Troublemaker, but I must return it to him quickly after I am done with it. | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 40 | gives [Thieves' vault key](../items/thieves_vault_key.md) |
-| <span id="stage-50"></span>50 | I told Troublemaker all that I knew about Defy, his men, and the "Lost Traveler", Alaric and how they hired me to help rob the Thieves' Guild. | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
-| <span id="stage-55"></span>55 | Troublemaker has asked me to help him trap Defy by providing Defy with a fake key. When Defy arrives at the secret vault, the Guild members will be waiting for him. | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 50 | gives [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md) |
-| <span id="stage-56"></span>56 | I gave Defy the fake version of the vault key that Troublemaker gave me. In return, Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Defy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake. | [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) | hand over 1× [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md) | gives [Aidem fake vault key](../items/aidem_fake_vault_key.md)<br>removes monsters from aidem_base_2<br>spawns monsters on wild6_house |
-| <span id="stage-57"></span>57 | I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves' Guild has apprehended all five men and that they are now in the Guild jail. **(completes quest)** | [Rennik](../monsters/wild6_house_thief.md) ([wild6_house](../maps/wild6_house.md)) | – | 19,797 XP<br>spawns monsters on guildbrig2 |
-| <span id="stage-60"></span>60 | Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Then I should report back to the vault in order to collect my share of the gold. | [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) | hand over 1× [Thieves' vault key](../items/thieves_vault_key.md), stage 45 | gives [Aidem fake vault key](../items/aidem_fake_vault_key.md) |
-| <span id="stage-65"></span>65 | I have given the fake Aidem key to Troublemaker as a replacement for the real vault key. | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Aidem fake vault key](../items/aidem_fake_vault_key.md), stage 60 | removes monsters from aidem_base_2<br>spawns monsters on wild6_house<br>faction “factionCountThieves” set to -8 |
-| <span id="stage-70"></span>70 | I reported back to Defy and he rewarded me with 25000 gold. **(completes quest)** | [Defy](../monsters/g04_defy.md#v-defy_wild6house) ([wild6_house](../maps/wild6_house.md)) | stage 65 | 14,700 XP<br>gives [Gold coins](../items/gold.md) |
-| <span id="stage-75"></span>75 | I told Defy that I was keeping the key for myself and plan to loot the Thieves' Guild's vault myself. A fight ensued. | [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) | carry 1× [Thieves' vault key](../items/thieves_vault_key.md), stage 45 | – |
-| <span id="stage-76"></span>76 | I have killed Defy, his three henchmen and Alaric. I really should go back to Fallhaven and talk to Troublemaker again.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem base 2](../maps/aidem_base_2.md).</span> | stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) | – | – |
-| <span id="stage-77"></span>77 | I've unlocked the hatch leading to the vault. It's time to head down.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild6 house](../maps/wild6_house.md).</span><br><span class="qnote">🗺️ Part of [Wild6 house](../maps/wild6_house.md) visibly changes.</span> | stepping on a trigger on [wild6_house](../maps/wild6_house.md) | carry 1× [Thieves' vault key](../items/thieves_vault_key.md), stage 76 | changes map wild6_house |
-| <span id="stage-80"></span>80 | I informed Troublemaker that Defy and his men are now dead. **(completes quest)** | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Defy's ring](../items/defy_ring.md), hand over 1× [Grabby's ring](../items/grabby_ring.md), hand over 1× [Greedy's ring](../items/greedy_ring.md), hand over 1× [Zachlanny ring](../items/zachlanny_ring.md), stage 76 | 16,888 XP<br>faction “factionCountThieves” set to 3 |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Off the main road, southeast of Deebo's Orchard, I've stumbled… ▸</span><span class="l">▴ less</span></summary>Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem camp](../maps/aidem_camp.md).</span> | stepping on a trigger on [Aidem camp](../maps/aidem_camp.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">The sketchy looking men with familiar voices turned out to be the… ▸</span><span class="l">▴ less</span></summary>The sketchy looking men with familiar voices turned out to be the Aidem thieves from Sullengard. They were hiding-out in the woods.</details><br><span class="qnote">⚡ A scripted event can now trigger on [Aidem camp](../maps/aidem_camp.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem camp](../maps/aidem_camp.md).</span> | stepping on a trigger on [Aidem camp](../maps/aidem_camp.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">While speaking with Defy, I've learned the he and his men have a… ▸</span><span class="l">▴ less</span></summary>While speaking with Defy, I've learned the he and his men have a grudge against the Thieves' Guild and they want to "hit them where it really hurts". Whatever that means.</details> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) | – |
+| <span id="stage-25"></span>[25](#route-25) | <details class="jt"><summary><span class="s">Defy has revealed the location of the Thieves' Guild's vault of… ▸</span><span class="l">▴ less</span></summary>Defy has revealed the location of the Thieves' Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven.</details> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Defy has asked me to convince Troublemaker to let me borrow the key… ▸</span><span class="l">▴ less</span></summary>Defy has asked me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild 6 house](../maps/wild6_house.md).</span><br><span class="qnote">🗺️ Part of [Wild 6 house](../maps/wild6_house.md) visibly changes.</span> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">Defy has agreed to pay me 20 percent of the looted Thieves' Guild… ▸</span><span class="l">▴ less</span></summary>Defy has agreed to pay me 20 percent of the looted Thieves' Guild treasure if I get the key from Troublemaker and hand it over to him.</details> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Defy has instructed me to bring Troublemaker's key to him at their… ▸</span><span class="l">▴ less</span></summary>Defy has instructed me to bring Troublemaker's key to him at their new hideout located west of the Sutdover River, where the rail tracks end.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Galmore 10a](../maps/galmore_10a.md).</span> | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) | removes monsters from aidem_camp, spawns monsters on aidem_base_2, spawns monsters on aidem_base_2 |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">I have talked my way into acquiring the Thieves' Guild's vault key… ▸</span><span class="l">▴ less</span></summary>I have talked my way into acquiring the Thieves' Guild's vault key from Troublemaker, but I must return it to him quickly after I am done with it.</details> | [Troublemaker](../monsters/troublemaker.md) | [Thieves' vault key](../items/thieves_vault_key.md) |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I told Troublemaker all that I knew about Defy, his men, and the… ▸</span><span class="l">▴ less</span></summary>I told Troublemaker all that I knew about Defy, his men, and the "Lost Traveler", Alaric and how they hired me to help rob the Thieves' Guild.</details> | [Troublemaker](../monsters/troublemaker.md) | – |
+| <span id="stage-55"></span>[55](#route-55) | <details class="jt"><summary><span class="s">Troublemaker has asked me to help him trap Defy by providing Defy… ▸</span><span class="l">▴ less</span></summary>Troublemaker has asked me to help him trap Defy by providing Defy with a fake key. When Defy arrives at the secret vault, the Guild members will be waiting for him.</details> | [Troublemaker](../monsters/troublemaker.md) | [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md) |
+| <span id="stage-56"></span>[56](#route-56) | <details class="jt"><summary><span class="s">I gave Defy the fake version of the vault key that Troublemaker gave… ▸</span><span class="l">▴ less</span></summary>I gave Defy the fake version of the vault key that Troublemaker gave me. In return, Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Defy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake.</details> | [Defy](../monsters/g04_defy.md#v-aidem_base_defy) | [Aidem fake vault key](../items/aidem_fake_vault_key.md), removes monsters from aidem_base_2, spawns monsters on wild6_house, removes monsters from aidem_base_2 |
+| <span id="stage-57"></span>[57](#route-57) | <details class="jt"><summary><span class="s">I have reported back to the vacant house and I met Rennik there. He… ▸</span><span class="l">▴ less</span></summary>I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves' Guild has apprehended all five men and that they are now in the Guild jail.</details> **(ends quest)** | [Rennik](../monsters/wild6_house_thief.md) | 19,797 XP, spawns monsters on guildbrig2 |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">Defy has given me a fake version of Troublemaker's vault key and has… ▸</span><span class="l">▴ less</span></summary>Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Then I should report back to the vault in order to collect my share of the gold.</details> | [Defy](../monsters/g04_defy.md#v-aidem_base_defy) | [Aidem fake vault key](../items/aidem_fake_vault_key.md) |
+| <span id="stage-65"></span>[65](#route-65) | <details class="jt"><summary><span class="s">I have given the fake Aidem key to Troublemaker as a replacement for… ▸</span><span class="l">▴ less</span></summary>I have given the fake Aidem key to Troublemaker as a replacement for the real vault key.</details> | [Troublemaker](../monsters/troublemaker.md) | removes monsters from aidem_base_2, spawns monsters on wild6_house, faction “factionCountThieves” set to -8, removes monsters from aidem_base_2 |
+| <span id="stage-70"></span>[70](#route-70) | I reported back to Defy and he rewarded me with 25000 gold. **(ends quest)** | [Defy](../monsters/g04_defy.md#v-defy_wild6house) | 14,700 XP, [Gold coins](../items/gold.md) |
+| <span id="stage-75"></span>[75](#route-75) | <details class="jt"><summary><span class="s">I told Defy that I was keeping the key for myself and plan to loot… ▸</span><span class="l">▴ less</span></summary>I told Defy that I was keeping the key for myself and plan to loot the Thieves' Guild's vault myself. A fight ensued.</details> | [Defy](../monsters/g04_defy.md#v-aidem_base_defy) | – |
+| <span id="stage-76"></span>[76](#route-76) | <details class="jt"><summary><span class="s">I have killed Defy, his three henchmen and Alaric. I really should… ▸</span><span class="l">▴ less</span></summary>I have killed Defy, his three henchmen and Alaric. I really should go back to Fallhaven and talk to Troublemaker again.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Aidem base 2](../maps/aidem_base_2.md).</span> | stepping on a trigger on [Aidem base 2](../maps/aidem_base_2.md) | – |
+| <span id="stage-77"></span>[77](#route-77) | I've unlocked the hatch leading to the vault. It's time to head down.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild 6 house](../maps/wild6_house.md).</span><br><span class="qnote">🗺️ Part of [Wild 6 house](../maps/wild6_house.md) visibly changes.</span> | stepping on a trigger on [Wild 6 house](../maps/wild6_house.md) | changes map wild6_house |
+| <span id="stage-80"></span>[80](#route-80) | I informed Troublemaker that Defy and his men are now dead. **(ends quest)** | [Troublemaker](../monsters/troublemaker.md) | 16,888 XP, faction “factionCountThieves” set to 3 |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [Wanted men](../quests/wanted_men.md#stage-10); reached stage 39 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-39) → **stage 10**. NPC: “I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew.”
+??? note "Stage 10 · stepping on a trigger on aidem_camp · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Stepping on a trigger on [Aidem camp](../maps/aidem_camp.md)
 
-    1. stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) → choose “Wait a minute, I recognize those guys.” — **conditions:** latest stage of [Wanted men](../quests/wanted_men.md#stage-10) is 10 → **stage 15**. NPC: “Ugh. Whatever.”
+    - **Needs:** not yet stage 10; reached stage 39 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-39)
+    - *“I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew.”*
 
-???+ note "Stage 20: 2 routes"
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) → choose “Who's that?” → **stage 20**. NPC: “I'm talking about the Thieves' Guild.”
-    2. Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) → choose “The Thieves' Guild?” → **stage 20**. NPC: “Exactly!”
+<span id="route-15"></span>
 
-???+ note "Stage 25: 1 route"
+??? note "Stage 15 · stepping on a trigger on aidem_camp · 1 way"
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) → choose “Of course I am.” → **stage 25**. NPC: “The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads…”
+    **Way 1:** Stepping on a trigger on [Aidem camp](../maps/aidem_camp.md), choose “Wait a minute, I recognize those guys.”
 
-???+ note "Stage 30: 1 route"
+    - **Needs:** latest stage of [Wanted men](../quests/wanted_men.md#stage-10) is 10
+    - *“Ugh. Whatever.”*
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) → choose “Then what do you need from me?” → **stage 30**. NPC: “What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him…”
 
-???+ note "Stage 35: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) → choose “I'll do it for twice that amount. 20 percent.” → **stage 35**. NPC: “Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference.”
+??? note "Stage 20 · Defy · 2 ways"
 
-???+ note "Stage 40: 1 route"
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), choose “Who's that?”
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy) ([aidem_camp](../maps/aidem_camp.md)) → choose “Sounds good, but where is your hideout?” → **stage 40**; also removes monsters from aidem_camp, spawns monsters on aidem_base_2, spawns monsters on aidem_base_2. NPC: “It's where the rail tracks end. West of the Sutdover River.”
+    - *“I'm talking about the Thieves' Guild.”*
 
-???+ note "Stage 45: 1 route"
+    **Way 2:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), choose “The Thieves' Guild?”
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Great! Just tell me where to go and you can consider it done.” — **conditions:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-40) is 40 → **stage 45**; also gives [Thieves' vault key](../items/thieves_vault_key.md). NPC: “Well, it's not that easy. You need more than the location. You need this key.”
+    - *“Exactly!”*
 
-???+ note "Stage 50: 1 route"
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Well, I agreed to, but only because I want to help you guys catch him.” — **conditions:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; reached stage 50 of [Wanted men](../quests/wanted_men.md#stage-50); NOT reached stage 55 of [Wanted men](../quests/wanted_men.md#stage-55) → **stage 50**. NPC: “Really? What did you say?”
+<span id="route-25"></span>
 
-???+ note "Stage 55: 1 route"
+??? note "Stage 25 · Defy · 1 way"
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Thanks a lot. I do feel a lot smarter now than I did before joining your guild.” — **conditions:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; reached stage 50 of [Wanted men](../quests/wanted_men.md#stage-50); NOT reached stage 55 of [Wanted men](../quests/wanted_men.md#stage-55) → **stage 55**; also gives [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md). NPC: “Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at…”
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), choose “Of course I am.”
 
-???+ note "Stage 56: 1 route"
+    - *“The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order…”*
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) → choose “Yes, Here it is. [Handing over the fake key]” — **conditions:** NOT reached stage 56 of [Wanted men](../quests/wanted_men.md#stage-56); hand over 1× [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md) → **stage 56**; also gives [Aidem fake vault key](../items/aidem_fake_vault_key.md), removes monsters from aidem_base_2, spawns monsters on wild6_house, removes monsters from aidem_base_2. NPC: “Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects…”
 
-???+ note "Stage 57: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Rennik](../monsters/wild6_house_thief.md) ([wild6_house](../maps/wild6_house.md)) → choose “That's great news indeed. Where are they now?” — **conditions:** NOT reached stage 57 of [Wanted men](../quests/wanted_men.md#stage-57); reached stage 2 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-2) → **stage 57**; also spawns monsters on guildbrig2. NPC: “We are keeping them in our holding cage in Fallhaven.”
+??? note "Stage 30 · Defy · 1 way"
 
-???+ note "Stage 60: 1 route"
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), choose “Then what do you need from me?”
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) → choose “Yes. Here it is.” — **conditions:** reached stage 45 of [Wanted men](../quests/wanted_men.md#stage-45); NOT reached stage 60 of [Wanted men](../quests/wanted_men.md#stage-60); hand over 1× [Thieves' vault key](../items/thieves_vault_key.md) → **stage 60**; also gives [Aidem fake vault key](../items/aidem_fake_vault_key.md). NPC: “Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects…”
+    - *“What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any…”*
 
-???+ note "Stage 65: 1 route"
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” — **conditions:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-60) is 60; hand over 1× [Aidem fake vault key](../items/aidem_fake_vault_key.md) → **stage 65**; also removes monsters from aidem_base_2, spawns monsters on wild6_house, faction “factionCountThieves” set to -8, removes monsters from aidem_base_2. NPC: “Thank you very much!”
+<span id="route-35"></span>
 
-???+ note "Stage 70: 1 route"
+??? note "Stage 35 · Defy · 1 way"
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-defy_wild6house) ([wild6_house](../maps/wild6_house.md)) → the conversation leads here automatically — **conditions:** reached stage 65 of [Wanted men](../quests/wanted_men.md#stage-65) → **stage 70**; also gives [Gold coins](../items/gold.md). NPC: “Here is your reward for your role in our success.”
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), choose “I'll do it for twice that amount. 20 percent.”
 
-???+ note "Stage 75: 1 route"
+    - *“Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference.”*
 
-    1. Talk to [Defy](../monsters/g04_defy.md#v-aidem_base_defy) ([aidem_base_2](../maps/aidem_base_2.md)) → choose “You heard me the first time. I'm keeping the key and looting the vault myself.” — **conditions:** reached stage 45 of [Wanted men](../quests/wanted_men.md#stage-45); NOT reached stage 60 of [Wanted men](../quests/wanted_men.md#stage-60); carry 1× [Thieves' vault key](../items/thieves_vault_key.md) → **stage 75**. NPC: “I will be taking that key now!”
 
-???+ note "Stage 76: 1 route"
+<span id="route-40"></span>
 
-    1. stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) → the conversation leads here automatically — **conditions:** killed 1× [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_base_greedy_aggressive); killed 1× [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_base_grabby_aggressive); killed 1× [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_base_zachlanny_aggressive); killed 1× [Alaric](../monsters/aidem_base_alaric.md#v-aidem_base_alaric_aggressive); killed 1× [Defy](../monsters/g04_defy.md#v-aidem_base_defy) → **stage 76**. NPC: “I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again.”
+??? note "Stage 40 · Defy · 1 way"
 
-???+ note "Stage 77: 1 route"
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), choose “Sounds good, but where is your hideout?”
 
-    1. stepping on a trigger on [wild6_house](../maps/wild6_house.md) → choose “Yes.” — **conditions:** latest stage of [Wanted men](../quests/wanted_men.md#stage-76) is 76; carry 1× [Thieves' vault key](../items/thieves_vault_key.md) → **stage 77**; also changes map wild6_house. NPC: “The lock creaks open, revealing a staircase.”
+    - **Gives:** removes monsters from aidem_camp, spawns monsters on aidem_base_2, spawns monsters on aidem_base_2
+    - *“It's where the rail tracks end. West of the Sutdover River.”*
 
-???+ note "Stage 80: 1 route"
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Yes. I looted their rings. [Shows them to Troublemaker]” — **conditions:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-76) is 76; hand over 1× [Defy's ring](../items/defy_ring.md); hand over 1× [Greedy's ring](../items/greedy_ring.md); hand over 1× [Grabby's ring](../items/grabby_ring.md); hand over 1× [Zachlanny ring](../items/zachlanny_ring.md) → **stage 80**; also faction “factionCountThieves” set to 3. NPC: “Well, this is great news indeed. However, we would like to have them alive.”
+<span id="route-45"></span>
+
+??? note "Stage 45 · Troublemaker · 1 way"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “Great! Just tell me where to go and you can consider it done.”
+
+    - **Needs:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-40) is 40
+    - **Gives:** [Thieves' vault key](../items/thieves_vault_key.md)
+    - *“Well, it's not that easy. You need more than the location. You need this key.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Troublemaker · 1 way"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “Well, I agreed to, but only because I want to help you guys catch him.”
+
+    - **Needs:** stage 50; not yet stage 55; latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60
+    - *“Really? What did you say?”*
+
+
+<span id="route-55"></span>
+
+??? note "Stage 55 · Troublemaker · 1 way"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “Thanks a lot. I do feel a lot smarter now than I did before joining your guild.”
+
+    - **Needs:** stage 50; not yet stage 55; latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60
+    - **Gives:** [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md)
+    - *“Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at the vault.”*
+
+
+<span id="route-56"></span>
+
+??? note "Stage 56 · Defy · 1 way"
+
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_base_defy), choose “Yes, Here it is. [Handing over the fake key]”
+
+    - **Needs:** not yet stage 56; hand over 1× [Fake Thieve's Guild vault key](../items/thieves_vault_key_fake.md)
+    - **Gives:** [Aidem fake vault key](../items/aidem_fake_vault_key.md), removes monsters from aidem_base_2, spawns monsters on wild6_house, removes monsters from aidem_base_2
+    - *“Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet…”*
+
+
+<span id="route-57"></span>
+
+??? note "Stage 57 · Rennik · 1 way"
+
+    **Way 1:** Talk to [Rennik](../monsters/wild6_house_thief.md), choose “That's great news indeed. Where are they now?”
+
+    - **Needs:** not yet stage 57; reached stage 2 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-2)
+    - **Gives:** spawns monsters on guildbrig2
+    - *“We are keeping them in our holding cage in Fallhaven.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Defy · 1 way"
+
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_base_defy), choose “Yes. Here it is.”
+
+    - **Needs:** stage 45; not yet stage 60; hand over 1× [Thieves' vault key](../items/thieves_vault_key.md)
+    - **Gives:** [Aidem fake vault key](../items/aidem_fake_vault_key.md)
+    - *“Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet…”*
+
+
+<span id="route-65"></span>
+
+??? note "Stage 65 · Troublemaker · 1 way"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.”
+
+    - **Needs:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-60) is 60; hand over 1× [Aidem fake vault key](../items/aidem_fake_vault_key.md)
+    - **Gives:** removes monsters from aidem_base_2, spawns monsters on wild6_house, faction “factionCountThieves” set to -8, removes monsters from aidem_base_2
+    - *“Thank you very much!”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Defy · 1 way"
+
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-defy_wild6house), automatic
+
+    - **Needs:** stage 65
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Here is your reward for your role in our success.”*
+
+
+<span id="route-75"></span>
+
+??? note "Stage 75 · Defy · 1 way"
+
+    **Way 1:** Talk to [Defy](../monsters/g04_defy.md#v-aidem_base_defy), choose “You heard me the first time. I'm keeping the key and looting the vault myself.”
+
+    - **Needs:** stage 45; not yet stage 60; carry 1× [Thieves' vault key](../items/thieves_vault_key.md)
+    - *“I will be taking that key now!”*
+
+
+<span id="route-76"></span>
+
+??? note "Stage 76 · stepping on a trigger on aidem_base_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Aidem base 2](../maps/aidem_base_2.md)
+
+    - **Needs:** killed 1× [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_base_greedy_aggressive); killed 1× [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_base_grabby_aggressive); killed 1× [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_base_zachlanny_aggressive); killed 1× [Alaric](../monsters/aidem_base_alaric.md#v-aidem_base_alaric_aggressive); killed 1× [Defy](../monsters/g04_defy.md#v-aidem_base_defy)
+    - *“I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again.”*
+
+
+<span id="route-77"></span>
+
+??? note "Stage 77 · stepping on a trigger on wild6_house · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Wild 6 house](../maps/wild6_house.md), choose “Yes.”
+
+    - **Needs:** latest stage of [Wanted men](../quests/wanted_men.md#stage-76) is 76; carry 1× [Thieves' vault key](../items/thieves_vault_key.md)
+    - **Gives:** changes map wild6_house
+    - *“The lock creaks open, revealing a staircase.”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Troublemaker · 1 way"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “Yes. I looted their rings. [Shows them to Troublemaker]”
+
+    - **Needs:** latest stage of [Thief apprentice](../quests/Thieves01.md#stage-60) is 60; latest stage of [Wanted men](../quests/wanted_men.md#stage-76) is 76; hand over 1× [Defy's ring](../items/defy_ring.md); hand over 1× [Greedy's ring](../items/greedy_ring.md); hand over 1× [Grabby's ring](../items/grabby_ring.md); hand over 1× [Zachlanny ring](../items/zachlanny_ring.md)
+    - **Gives:** faction “factionCountThieves” set to 3
+    - *“Well, this is great news indeed. However, we would like to have them alive.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

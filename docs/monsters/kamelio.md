@@ -1,10 +1,10 @@
 ---
-description: "Kamelio is an NPC who can also be fought in Andor's Trail, found in elm5f_2."
+description: "Kamelio is an NPC who can also be fought in Andor's Trail, found in Elm 5f 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } Kamelio
 
-**Where to find Kamelio:** [elm5f_2](../maps/elm5f_2.md#pin-npc-kamelio)
+**Where to find Kamelio:** [Elm 5f 2](../maps/elm5f_2.md#pin-npc-kamelio)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Kamelio is an NPC who can also be fought in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | elm5f_2 |
+| **Found in** | Elm 5f 2 |
 | **Class** | Demon |
 | **HP** | 177 |
 | **XP when defeated** | 602 |
@@ -66,20 +66,20 @@ description: "Kamelio is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_2](../maps/elm5f_2.md) | – | 1 | Appears later, during a quest |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- A conversation with [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) checks that this enemy has been defeated.
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-38) with stepping on a trigger on [elm5f_2](../maps/elm5f_2.md) checks that this enemy has been defeated.
+- A conversation with [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [Elm 5f 2](../maps/elm5f_2.md) checks that this enemy has been defeated.
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-38) with stepping on a trigger on [Elm 5f 2](../maps/elm5f_2.md) checks that this enemy has been defeated.
 
 ## Quests
 
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): stage 37
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): stage 37
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kamelio. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kamelio. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kamelio_s.json" data-npc="Kamelio" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -87,11 +87,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (12 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-kamelio_s"></span>**`kamelio_s`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 37 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-37))* → *fight starts*
+    - branch 1 *(if reached stage 37 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37))* → *fight starts*
     - branch 2 → [kamelio_1](#d-kamelio_1)
 
     <span id="d-kamelio_1"></span>**`kamelio_1`** Kamelio: “Hello, unfortunate soul. I'm Kamelio.”
@@ -109,7 +109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [kamelio_3b](#d-kamelio_3b)
 
-    <span id="d-kamelio_2c"></span>**`kamelio_2c`** Kamelio: “Ah...Yes. Don't worry, you go first. *approaches you*” — **effects:** sets stage 37 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
+    <span id="d-kamelio_2c"></span>**`kamelio_2c`** Kamelio: “Ah...Yes. Don't worry, you go first. *approaches you*” — **effects:** sets stage 37 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
 
     - “For the shadow!” → *fight starts*
     - “Wh...What?” → *fight starts*
@@ -125,7 +125,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Who tortured you?” → [kamelio_3a](#d-kamelio_3a)
     - “How did you escape?” → [kamelio_4b](#d-kamelio_4b)
 
-    <span id="d-kamelio_3b"></span>**`kamelio_3b`** Kamelio: “*approaching you* He's not going to see you alive again.” — **effects:** sets stage 37 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
+    <span id="d-kamelio_3b"></span>**`kamelio_3b`** Kamelio: “*approaching you* He's not going to see you alive again.” — **effects:** sets stage 37 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
 
     - “Betrayer, die!” → *fight starts*
     - “For the shadow!” → *fight starts*
@@ -141,13 +141,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “You're starting to sound very weird. I'd better leave and seek help,” → [kamelio_5a](#d-kamelio_5a)
     - “What must you do?” → [kamelio_5b](#d-kamelio_5b)
 
-    <span id="d-kamelio_5a"></span>**`kamelio_5a`** Kamelio: “Not so fast. My mind is clear, you need to die now along with that Feygard scum.” — **effects:** sets stage 37 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
+    <span id="d-kamelio_5a"></span>**`kamelio_5a`** Kamelio: “Not so fast. My mind is clear, you need to die now along with that Feygard scum.” — **effects:** sets stage 37 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
 
     - “Oh? Let's see if you can stand a single blow!” → *fight starts*
     - “This hatred against Feygard is injuring you; I'll be your cure.” → *fight starts*
     - “For Feygard!!” → *fight starts*
 
-    <span id="d-kamelio_5b"></span>**`kamelio_5b`** Kamelio: “Kill you first, then kill the guy over there. That's it.” — **effects:** sets stage 37 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
+    <span id="d-kamelio_5b"></span>**`kamelio_5b`** Kamelio: “Kill you first, then kill the guy over there. That's it.” — **effects:** sets stage 37 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37), spawns monsters on elm5f_2, spawns monsters on elm5f_2
 
     - “OK, you're completely out of your mind.” → *fight starts*
     - “Kill me? How dare you. Die!” → *fight starts*

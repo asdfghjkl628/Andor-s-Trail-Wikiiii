@@ -4,7 +4,7 @@ description: "Wood craftsman is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_tometik2_63.png){ .sprite } Wood craftsman
 
-**Where to find Wood craftsman:** Brimhaven: [brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md#pin-npc-brv_woodcraftsman)
+**Where to find Wood craftsman:** Brimhaven: [Brimhaven 2 woodcutter](../maps/brimhaven2_woodcutter.md#pin-npc-brv_woodcraftsman)
 
 <div class="infobox" markdown>
 
@@ -37,7 +37,7 @@ description: "Wood craftsman is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wood craftsman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wood craftsman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_woodcraftsman_0.json" data-npc="Wood craftsman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_woodcraftsman_0"></span>**`brv_woodcraftsman_0`** Wood craftsman: “Hello, we sell the finest wood products and tools. Do you want to buy some?”
 

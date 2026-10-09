@@ -4,7 +4,7 @@ description: "Virulent forest fawn is an enemy in Andor's Trail (animal) with 14
 
 # ![](../assets/icons/monsters/monsters_johny_10.png){ .sprite } Virulent forest fawn
 
-**Found in:** Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md), [waytobrightport11](../maps/waytobrightport11.md), [waytobrightport12](../maps/waytobrightport12.md) (+4 more)
+**Found in:** Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md), [Waytobrightport 11](../maps/waytobrightport11.md), [Waytobrightport 12](../maps/waytobrightport12.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -60,14 +60,14 @@ description: "Virulent forest fawn is an enemy in Andor's Trail (animal) with 14
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrightport11](../maps/waytobrightport11.md) | – | 6 | – |
-| [waytobrightport12](../maps/waytobrightport12.md) | – | 4 | – |
-| [waytobrightport13](../maps/waytobrightport13.md) | – | 9 | – |
-| [waytobrightport14](../maps/waytobrightport14.md) | – | 7 | – |
-| [waytobrightport22](../maps/waytobrightport22.md) | Brightport | 2 | – |
-| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [waytobrightport4](../maps/waytobrightport4.md) | – | 2 | – |
-| [waytobrightport7](../maps/waytobrightport7.md) | – | 1 | – |
+| [Waytobrightport 11](../maps/waytobrightport11.md) | – | 6 | – |
+| [Waytobrightport 12](../maps/waytobrightport12.md) | – | 4 | – |
+| [Waytobrightport 13](../maps/waytobrightport13.md) | – | 9 | – |
+| [Waytobrightport 14](../maps/waytobrightport14.md) | – | 7 | – |
+| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 2 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytobrightport 4](../maps/waytobrightport4.md) | – | 2 | – |
+| [Waytobrightport 7](../maps/waytobrightport7.md) | – | 1 | – |
 
 
 ## Version history

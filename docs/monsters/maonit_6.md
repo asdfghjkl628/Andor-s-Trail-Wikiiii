@@ -21,18 +21,18 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Strong maonit brute. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Strong maonit brute. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`maonit_6`](#v-maonit_6) | Enemy | Lake Laeroth: [mountainlake3](../maps/mountainlake3.md), [mountainlake4](../maps/mountainlake4.md) (+2 more) | – | 320 |
-| [`maonit_cr`](#v-maonit_cr) | Enemy | Lake Laeroth: [mountainlake1](../maps/mountainlake1.md) | – | 620 |
+| [`maonit_6`](#v-maonit_6) | Enemy | Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md) (+2 more) | – | 320 |
+| [`maonit_cr`](#v-maonit_cr) | Enemy | Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md) | – | 620 |
 
-## Lake Laeroth, Mountainlake3 and 3 more (maonit_6) { #v-maonit_6 }
+## Lake Laeroth, Mountainlake 3 and 3 more (maonit_6) { #v-maonit_6 }
 
 **Entry ID:** `maonit_6` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake3](../maps/mountainlake3.md), [mountainlake4](../maps/mountainlake4.md), [mountainlake5](../maps/mountainlake5.md), [waytolake11](../maps/waytolake11.md)
+**Location:** Lake Laeroth: [Mountainlake 3](../maps/mountainlake3.md), [Mountainlake 4](../maps/mountainlake4.md), [Mountainlake 5](../maps/mountainlake5.md), [Waytolake 11](../maps/waytolake11.md)
 
 ### Combat statistics
 
@@ -71,10 +71,10 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake3](../maps/mountainlake3.md) | Lake Laeroth | 4 | – |
-| [mountainlake4](../maps/mountainlake4.md) | – | 3 | – |
-| [mountainlake5](../maps/mountainlake5.md) | – | 2 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 3 | – |
+| [Mountainlake 3](../maps/mountainlake3.md) | Lake Laeroth | 4 | – |
+| [Mountainlake 4](../maps/mountainlake4.md) | – | 3 | – |
+| [Mountainlake 5](../maps/mountainlake5.md) | – | 2 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 3 | – |
 
 
 ### Version history
@@ -138,11 +138,11 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
     ```
 
 
-## Lake Laeroth, Mountainlake1 (maonit_cr) { #v-maonit_cr }
+## Lake Laeroth, Mountainlake 1 (maonit_cr) { #v-maonit_cr }
 
 **Entry ID:** `maonit_cr` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake1](../maps/mountainlake1.md)
+**Location:** Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md)
 
 ### Combat statistics
 
@@ -178,7 +178,7 @@ description: "Strong maonit brute is an enemy in Andor's Trail (giant) with 320�
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake1](../maps/mountainlake1.md) | Lake Laeroth | 1 | – |
+| [Mountainlake 1](../maps/mountainlake1.md) | Lake Laeroth | 1 | – |
 
 
 ### Version history

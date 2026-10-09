@@ -39,7 +39,7 @@ description: "Reinforced wooden buckler is a ordinary buckler in Andor's Trail (
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Thief warden](../monsters/g03_thief_2.md) | 40% | 1 | crackshot_hideout3 |
+| [Thief warden](../monsters/g03_thief_2.md) | 40% | 1 | Crackshot hideout 3 |
 
 ### Sold by
 

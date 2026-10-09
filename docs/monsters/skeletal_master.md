@@ -4,7 +4,7 @@ description: "Skeletal master is an enemy in Andor's Trail (construct) with 52 H
 
 # ![](../assets/icons/monsters/monsters_skeleton2_0.png){ .sprite } Skeletal master
 
-**Found in:** Flagstone Prison: [flagstone2](../maps/flagstone2.md), [hauntedhouse4](../maps/hauntedhouse4.md)
+**Found in:** Flagstone Prison: [Flagstone 2](../maps/flagstone2.md), [Hauntedhouse 4](../maps/hauntedhouse4.md)
 
 <div class="infobox" markdown>
 
@@ -61,8 +61,8 @@ description: "Skeletal master is an enemy in Andor's Trail (construct) with 52 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
-| [hauntedhouse4](../maps/hauntedhouse4.md) | – | 1 | – |
+| [Flagstone 2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
+| [Hauntedhouse 4](../maps/hauntedhouse4.md) | – | 1 | – |
 
 
 ## Version history

@@ -27,7 +27,7 @@ description: "Jerelin's seal is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-100) (1×)
+- From stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-10) | handed over (1×) | “Place seal on the tomb.” |
+| stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-10) | handed over (1×) | “Place seal on the tomb.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

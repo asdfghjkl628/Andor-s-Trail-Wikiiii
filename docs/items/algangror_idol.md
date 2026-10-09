@@ -25,7 +25,7 @@ description: "Small idol is a quest other in Andor's Trail. How to get it: quest
 
 ### Quest & dialogue rewards
 
-- From [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) during [The five idols](../quests/fiveidols.md#stage-37) (100%)
+- From [Algangror](../monsters/algangror.md) ([Lonelyhouse 0](../maps/lonelyhouse0.md)) during [The five idols](../quests/fiveidols.md#stage-37) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,11 +36,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| reading a sign on [remgard_tavern1](../maps/remgard_tavern1.md) | [The five idols](../quests/fiveidols.md#stage-41) | handed over (1×) | “Hide one of the idols under the bed.” |
-| reading a sign on [remgard_farmer1](../maps/remgard_farmer1.md) | [The five idols](../quests/fiveidols.md#stage-42) | handed over (1×) | “Hide one of the idols under the bed.” |
-| reading a sign on [remgard_weapon](../maps/remgard_weapon.md) | [The five idols](../quests/fiveidols.md#stage-43) | handed over (1×) | “Hide one of the idols under the bed.” |
-| reading a sign on [remgard_villager3](../maps/remgard_villager3.md) | [The five idols](../quests/fiveidols.md#stage-44) | handed over (1×) | “Hide one of the idols under the bed.” |
-| reading a sign on [remgard_farmer2](../maps/remgard_farmer2.md) | [The five idols](../quests/fiveidols.md#stage-45) | handed over (1×) | “Hide one of the idols under the bed.” |
+| reading a sign on [Remgard tavern 1](../maps/remgard_tavern1.md) | [The five idols](../quests/fiveidols.md#stage-41) | handed over (1×) | “Hide one of the idols under the bed.” |
+| reading a sign on [Remgard farmer 1](../maps/remgard_farmer1.md) | [The five idols](../quests/fiveidols.md#stage-42) | handed over (1×) | “Hide one of the idols under the bed.” |
+| reading a sign on [Remgard weapon](../maps/remgard_weapon.md) | [The five idols](../quests/fiveidols.md#stage-43) | handed over (1×) | “Hide one of the idols under the bed.” |
+| reading a sign on [Remgard villager 3](../maps/remgard_villager3.md) | [The five idols](../quests/fiveidols.md#stage-44) | handed over (1×) | “Hide one of the idols under the bed.” |
+| reading a sign on [Remgard farmer 2](../maps/remgard_farmer2.md) | [The five idols](../quests/fiveidols.md#stage-45) | handed over (1×) | “Hide one of the idols under the bed.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

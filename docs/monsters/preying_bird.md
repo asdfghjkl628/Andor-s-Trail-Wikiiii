@@ -1,10 +1,10 @@
 ---
-description: "Preying bird is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in way_to_sullengard_west_2."
+description: "Preying bird is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Way to sullengard west 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_223.png){ .sprite } Preying bird
 
-**Found in:** [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md)
+**Found in:** [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Preying bird is an enemy in Andor's Trail (animal) with 1 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_west_2 |
+| **Found in** | Way to sullengard west 2 |
 | **Class** | Animal |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -48,7 +48,7 @@ description: "Preying bird is an enemy in Andor's Trail (animal) with 1 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_west_2](../maps/way_to_sullengard_west_2.md) | – | 1 | – |
+| [Way to sullengard west 2](../maps/way_to_sullengard_west_2.md) | – | 1 | – |
 
 
 ## Version history

@@ -38,7 +38,7 @@ description: "Hardened leather boots is a ordinary footwear, leather in Andor's 
 
 ### Sold by
 
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

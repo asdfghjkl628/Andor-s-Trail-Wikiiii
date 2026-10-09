@@ -36,8 +36,8 @@ description: "Stuffed pepper is a ordinary food in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) (1×)
-- From [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) (5×)
+- From [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) (1×)
+- From [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) (5×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

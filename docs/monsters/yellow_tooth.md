@@ -4,7 +4,7 @@ description: "Yellow tooth slitherer is an enemy in Andor's Trail (reptile) with
 
 # ![](../assets/icons/monsters/monsters_snakes_5.png){ .sprite } Yellow tooth slitherer
 
-**Found in:** Deebo's Orchard: [sullengard_apple_farm_south](../maps/sullengard_apple_farm_south.md), Deebo's Orchard: [way_to_sullengard_east6](../maps/way_to_sullengard_east6.md), Deebo's Orchard: [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md), [cabin_norcity_road4](../maps/cabin_norcity_road4.md) (+12 more)
+**Found in:** Deebo's Orchard: [Sullengard apple farm south](../maps/sullengard_apple_farm_south.md), Deebo's Orchard: [Way to sullengard east 6](../maps/way_to_sullengard_east6.md), Deebo's Orchard: [Way to sullengard east 7](../maps/way_to_sullengard_east7.md), [Cabin norcity road 4](../maps/cabin_norcity_road4.md) (+12 more)
 
 <div class="infobox" markdown>
 
@@ -58,22 +58,22 @@ description: "Yellow tooth slitherer is an enemy in Andor's Trail (reptile) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [cabin_norcity_road4](../maps/cabin_norcity_road4.md) | – | 2 | – |
-| [sullengard_apple_farm_south](../maps/sullengard_apple_farm_south.md) | Deebo's Orchard | 6 | – |
-| [sullengard_ravine2](../maps/sullengard_ravine2.md) | – | 2 | – |
-| [sullengard_woods6](../maps/sullengard_woods6.md) | – | 2 | – |
-| [way_to_aidem_camp_1](../maps/way_to_aidem_camp_1.md) | – | 3 | – |
-| [way_to_sullengard_east1](../maps/way_to_sullengard_east1.md) | – | 5 | – |
-| [way_to_sullengard_east2](../maps/way_to_sullengard_east2.md) | – | 6 | – |
-| [way_to_sullengard_east4](../maps/way_to_sullengard_east4.md) | – | 4 | – |
-| [way_to_sullengard_east4_bridge](../maps/way_to_sullengard_east4_bridge.md) | – | 3 | – |
-| [way_to_sullengard_east5](../maps/way_to_sullengard_east5.md) | – | 4 | – |
-| [way_to_sullengard_east5_filler](../maps/way_to_sullengard_east5_filler.md) | – | 5 | – |
-| [way_to_sullengard_east6](../maps/way_to_sullengard_east6.md) | Deebo's Orchard | 5 | – |
-| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 4 | – |
-| [way_to_sullengard_east8](../maps/way_to_sullengard_east8.md) | – | 3 | – |
-| [way_to_sullengard_east_ravine](../maps/way_to_sullengard_east_ravine.md) | – | 5 | – |
-| [way_to_sullengard_east_ravine_north](../maps/way_to_sullengard_east_ravine_north.md) | – | 4 | – |
+| [Cabin norcity road 4](../maps/cabin_norcity_road4.md) | – | 2 | – |
+| [Sullengard apple farm south](../maps/sullengard_apple_farm_south.md) | Deebo's Orchard | 6 | – |
+| [Sullengard ravine 2](../maps/sullengard_ravine2.md) | – | 2 | – |
+| [Sullengard woods 6](../maps/sullengard_woods6.md) | – | 2 | – |
+| [Way to aidem camp 1](../maps/way_to_aidem_camp_1.md) | – | 3 | – |
+| [Way to sullengard east 1](../maps/way_to_sullengard_east1.md) | – | 5 | – |
+| [Way to sullengard east 2](../maps/way_to_sullengard_east2.md) | – | 6 | – |
+| [Way to sullengard east 4](../maps/way_to_sullengard_east4.md) | – | 4 | – |
+| [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md) | – | 3 | – |
+| [Way to sullengard east 5](../maps/way_to_sullengard_east5.md) | – | 4 | – |
+| [Way to sullengard east 5 filler](../maps/way_to_sullengard_east5_filler.md) | – | 5 | – |
+| [Way to sullengard east 6](../maps/way_to_sullengard_east6.md) | Deebo's Orchard | 5 | – |
+| [Way to sullengard east 7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 4 | – |
+| [Way to sullengard east 8](../maps/way_to_sullengard_east8.md) | – | 3 | – |
+| [Way to sullengard east ravine](../maps/way_to_sullengard_east_ravine.md) | – | 5 | – |
+| [Way to sullengard east ravine north](../maps/way_to_sullengard_east_ravine_north.md) | – | 4 | – |
 
 
 ## Version history

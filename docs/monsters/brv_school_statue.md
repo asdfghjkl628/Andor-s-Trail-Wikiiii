@@ -21,18 +21,18 @@ description: "Statue is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Statue. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Statue. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`brv_school_statue`](#v-brv_school_statue) | NPC/Enemy | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_school_statue) | – | 320 |
-| [`brv_school_statue2`](#v-brv_school_statue2) | Enemy | Brimhaven: [brimhaven_school](../maps/brimhaven_school.md) | – | 320 |
+| [`brv_school_statue`](#v-brv_school_statue) | NPC/Enemy | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_school_statue) | – | 320 |
+| [`brv_school_statue2`](#v-brv_school_statue2) | Enemy | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md) | – | 320 |
 
 ## Brimhaven, Brimhaven school (brv_school_statue) { #v-brv_school_statue }
 
 **Entry ID:** `brv_school_statue` · **Type:** NPC/Enemy
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-brv_school_statue)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_school_statue)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -63,16 +63,16 @@ description: "Statue is an NPC who can also be fought in Andor's Trail, found in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
 
 ### Quests
 
 - [Lessons learned](../quests/brv_school2.md): stage 150
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stage 30
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 30
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Statue. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Statue. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_statue.json" data-npc="Statue" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -80,14 +80,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_school_statue-brv_school_statue"></span>**`brv_school_statue`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 30 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-30); NOT reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100); NOT reached stage 102 of [Lessons learned](../quests/brv_school2.md#stage-102); NOT reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104); NOT reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120); NOT reached stage 122 of [Lessons learned](../quests/brv_school2.md#stage-122); NOT reached stage 124 of [Lessons learned](../quests/brv_school2.md#stage-124))* → [brv_school_statue_20](#d-brv_school_statue-brv_school_statue_20)
+    - branch 1 *(if reached stage 30 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-30); NOT reached stage 100 of [Lessons learned](../quests/brv_school2.md#stage-100); NOT reached stage 102 of [Lessons learned](../quests/brv_school2.md#stage-102); NOT reached stage 104 of [Lessons learned](../quests/brv_school2.md#stage-104); NOT reached stage 120 of [Lessons learned](../quests/brv_school2.md#stage-120); NOT reached stage 122 of [Lessons learned](../quests/brv_school2.md#stage-122); NOT reached stage 124 of [Lessons learned](../quests/brv_school2.md#stage-124))* → [brv_school_statue_20](#d-brv_school_statue-brv_school_statue_20)
     - branch 2 → [brv_school_statue_10](#d-brv_school_statue-brv_school_statue_10)
 
-    <span id="d-brv_school_statue-brv_school_statue_20"></span>**`brv_school_statue_20`** [Statue](../monsters/brv_school_statue.md): “Leave me alone! What do you want of me?” — **effects:** sets stage 30 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-30)
+    <span id="d-brv_school_statue-brv_school_statue_20"></span>**`brv_school_statue_20`** [Statue](../monsters/brv_school_statue.md): “Leave me alone! What do you want of me?” — **effects:** sets stage 30 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-30)
 
     - “Oh, you can talk?” → [brv_school_statue_30](#d-brv_school_statue-brv_school_statue_30)
 
@@ -206,7 +206,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_school_statue2` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md)
+**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md)
 
 ### Combat statistics
 
@@ -234,11 +234,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_school](../maps/brimhaven_school.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Lessons learned](../quests/brv_school2.md#stage-152) with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
+- [Lessons learned](../quests/brv_school2.md#stage-152) with stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
 
 
 ### Version history

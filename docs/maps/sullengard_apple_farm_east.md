@@ -1,5 +1,5 @@
 ---
-description: "Sullengard apple farm east is an outdoor location in Andor's Trail, in Deebo's Orchard (other). NPCs: Deebo, Pig. Enemies: Farm horse, Grazing horse. Exits to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house."
+description: "Sullengard apple farm east is an outdoor location in Andor's Trail, in Deebo's Orchard (other). NPCs: Deebo, Pig. Enemies: Grazing horse, Farm horse. Exits to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house."
 ---
 
 # Sullengard apple farm east
@@ -12,7 +12,7 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 | **Region** | In Deebo's Orchard (other) |
 | **Type** | Outdoors |
 | **Size** | 30×40 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **NPCs** | 2 |
 | **Enemy types** | 4 |
@@ -58,10 +58,10 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Farm horse](../monsters/farm_horse.md#v-farm_horse_right) | 0 | 0–0 | 1 | – |
-| [Farm horse](../monsters/farm_horse.md) | 0 | 0–0 | 1 | – |
-| [Grazing horse](../monsters/graze_horse_left.md) | 0 | 0–0 | 1 | – |
 | [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right) | 0 | 0–0 | 1 | – |
+| [Grazing horse](../monsters/graze_horse_left.md) | 0 | 0–0 | 1 | – |
+| [Farm horse](../monsters/farm_horse.md) | 0 | 0–0 | 1 | – |
+| [Farm horse](../monsters/farm_horse.md#v-farm_horse_right) | 0 | 0–0 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -73,8 +73,8 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 
 - [Bread and circus](../quests/brightport_bakery.md): [Deebo](../monsters/deebo_orchard_deebo.md) is involved
 - [Hunting the hunter](../quests/deebo_orchard_hth.md): [Deebo](../monsters/deebo_orchard_deebo.md) is involved
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Deebo](../monsters/deebo_orchard_deebo.md) is involved
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): [Deebo](../monsters/deebo_orchard_deebo.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Deebo](../monsters/deebo_orchard_deebo.md) is involved
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): [Deebo](../monsters/deebo_orchard_deebo.md) is involved
 
 
 ## Version history

@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain46 is an indoor location in Andor's Trail, in Prim (settlement). Exits to Blackwater mountain45, Blackwater mountain46, Blackwater mountain47."
+description: "Blackwater mountain 46 is an indoor location in Andor's Trail, in Prim (settlement). Exits to Blackwater mountain 45, Blackwater mountain 46, Blackwater mountain 47."
 ---
 
-# Blackwater mountain46
+# Blackwater mountain 46
 
 <div class="infobox" markdown>
 
@@ -18,21 +18,21 @@ description: "Blackwater mountain46 is an indoor location in Andor's Trail, in P
 
 </div>
 
-**Blackwater mountain46** is an indoor map, in Prim (settlement). It has no NPCs, and no enemies. Exits lead to Blackwater mountain45, Blackwater mountain46, Blackwater mountain47.
+**Blackwater mountain 46** is an indoor map, in Prim (settlement). It has no NPCs, and no enemies. Exits lead to Blackwater mountain 45, Blackwater mountain 46, Blackwater mountain 47.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain46.webp" alt="Map of Blackwater mountain46" width="288" height="224" loading="lazy"><span id="place-exit" class="mo mo-mapchange" title="Exit" style="left:11.111%;top:71.429%;width:11.111%;height:14.286%"></span><a id="place-entry1" class="mo mo-mapchange" href="../blackwater_mountain47/#place-exit" title="Exit to Blackwater mountain47" style="left:22.222%;top:42.857%;width:11.111%;height:14.286%"></a><a id="place-entry2" class="mo mo-mapchange" href="../blackwater_mountain46/#place-exit" title="Exit to Blackwater mountain46" style="left:44.444%;top:42.857%;width:11.111%;height:14.286%"></a><a id="place-entry3" class="mo mo-mapchange" href="../blackwater_mountain46/#place-exit" title="Exit to Blackwater mountain46" style="left:66.667%;top:42.857%;width:11.111%;height:14.286%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain45/#place-north" title="Exit to Blackwater mountain45" style="left:44.444%;top:85.714%;width:11.111%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:92.857%" title="Exit (south): to [Blackwater mountain45](blackwater_mountain45.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:50.000%" title="Exit (stairs / passage): to [Blackwater mountain46](blackwater_mountain46.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:72.222%;top:50.000%" title="Exit (stairs / passage): to [Blackwater mountain46](blackwater_mountain46.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:27.778%;top:50.000%" title="Exit (stairs / passage): to [Blackwater mountain47](blackwater_mountain47.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain46.webp" alt="Map of Blackwater mountain 46" width="288" height="224" loading="lazy"><span id="place-exit" class="mo mo-mapchange" title="Exit" style="left:11.111%;top:71.429%;width:11.111%;height:14.286%"></span><a id="place-entry1" class="mo mo-mapchange" href="../blackwater_mountain47/#place-exit" title="Exit to Blackwater mountain 47" style="left:22.222%;top:42.857%;width:11.111%;height:14.286%"></a><a id="place-entry2" class="mo mo-mapchange" href="../blackwater_mountain46/#place-exit" title="Exit to Blackwater mountain 46" style="left:44.444%;top:42.857%;width:11.111%;height:14.286%"></a><a id="place-entry3" class="mo mo-mapchange" href="../blackwater_mountain46/#place-exit" title="Exit to Blackwater mountain 46" style="left:66.667%;top:42.857%;width:11.111%;height:14.286%"></a><a id="place-south" class="mo mo-mapchange" href="../blackwater_mountain45/#place-north" title="Exit to Blackwater mountain 45" style="left:44.444%;top:85.714%;width:11.111%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:92.857%" title="Exit (south): to [Blackwater mountain 45](blackwater_mountain45.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:50.000%;top:50.000%" title="Exit (stairs / passage): to [Blackwater mountain 46](blackwater_mountain46.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:72.222%;top:50.000%" title="Exit (stairs / passage): to [Blackwater mountain 46](blackwater_mountain46.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:27.778%;top:50.000%" title="Exit (stairs / passage): to [Blackwater mountain 47](blackwater_mountain47.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain45](blackwater_mountain45.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain46](blackwater_mountain46.md) |
-    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Blackwater mountain47](blackwater_mountain47.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Blackwater mountain 45](blackwater_mountain45.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Blackwater mountain 46](blackwater_mountain46.md) |
+    | <span id="key-3"></span>3 | Exit (stairs / passage) | to [Blackwater mountain 47](blackwater_mountain47.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,9 +41,9 @@ description: "Blackwater mountain46 is an indoor location in Andor's Trail, in P
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Blackwater mountain45](blackwater_mountain45.md) | Prim | 1 |
-| Stairs / passage | [Blackwater mountain46](blackwater_mountain46.md) | Prim | 2 |
-| Stairs / passage | [Blackwater mountain47](blackwater_mountain47.md) | – | 3 |
+| South | [Blackwater mountain 45](blackwater_mountain45.md) | Prim | 1 |
+| Stairs / passage | [Blackwater mountain 46](blackwater_mountain46.md) | Prim | 2 |
+| Stairs / passage | [Blackwater mountain 47](blackwater_mountain47.md) | – | 3 |
 
 
 ## Version history

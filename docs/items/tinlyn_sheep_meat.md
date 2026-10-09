@@ -29,7 +29,7 @@ description: "Meat from Tinlyn's sheep is a quest animal part in Andor's Trail. 
 |---|---|---|---|
 | [Sheep](../monsters/sheep1.md#v-lostsheep1) | 100% | 1 | Crossroads Guardhouse |
 | [Sheep](../monsters/sheep1.md#v-lostsheep2) | 100% | 1 | Crossroads Guardhouse |
-| [Sheep](../monsters/sheep1.md#v-lostsheep3) | 100% | 1 | fields3 |
+| [Sheep](../monsters/sheep1.md#v-lostsheep3) | 100% | 1 | Fields 3 |
 | [Sheep](../monsters/sheep1.md#v-lostsheep4) | 100% | 1 | Crossroads Guardhouse |
 | [Sheep](../monsters/sheep1.md) | 100% | 1 | Crossroads Guardhouse |
 
@@ -42,7 +42,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) | [Cheap cuts](../quests/benbyr.md#stage-30) | handed over (8×) | “I have slain all eight of Tinlyn's sheep for you.” |
+| [Benbyr](../monsters/benbyr.md) ([Crossroads](../maps/crossroads.md)) | [Cheap cuts](../quests/benbyr.md#stage-30) | handed over (8×) | “I have slain all eight of Tinlyn's sheep for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

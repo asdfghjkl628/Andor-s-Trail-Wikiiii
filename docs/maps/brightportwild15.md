@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild15 is an indoor location in Andor's Trail, in Greenscale tribe (settlement). Exits to Brightportwild4, Brightportwild16."
+description: "Brightportwild 15 is an indoor location in Andor's Trail, in Greenscale tribe (settlement). Exits to Brightportwild 4, Brightportwild 16."
 ---
 
-# Brightportwild15
+# Brightportwild 15
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Brightportwild15 is an indoor location in Andor's Trail, in Greens
 | **Region** | In Greenscale tribe (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 8×8 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild15** is an indoor map, in Greenscale tribe (settlement). It has no NPCs, and no enemies. Exits lead to Brightportwild4, Brightportwild16.
+**Brightportwild 15** is an indoor map, in Greenscale tribe (settlement). It has no NPCs, and no enemies. Exits lead to Brightportwild 4, Brightportwild 16.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild15.webp" alt="Map of Brightportwild15" width="256" height="256" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild16/#place-west" title="Exit to Brightportwild16" style="left:87.500%;top:37.500%;width:12.500%;height:50.000%"></a><a id="place-north" class="mo mo-mapchange" href="../brightportwild4/#place-south1" title="Exit to Brightportwild4" style="left:12.500%;top:0.000%;width:62.500%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:43.750%;top:6.250%" title="Exit (north): to [Brightportwild4](brightportwild4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:93.750%;top:62.500%" title="Exit (east): to [Brightportwild16](brightportwild16.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild15.webp" alt="Map of Brightportwild 15" width="256" height="256" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild16/#place-west" title="Exit to Brightportwild 16" style="left:87.500%;top:37.500%;width:12.500%;height:50.000%"></a><a id="place-north" class="mo mo-mapchange" href="../brightportwild4/#place-south1" title="Exit to Brightportwild 4" style="left:12.500%;top:0.000%;width:62.500%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:43.750%;top:6.250%" title="Exit (north): to [Brightportwild 4](brightportwild4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:93.750%;top:62.500%" title="Exit (east): to [Brightportwild 16](brightportwild16.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild4](brightportwild4.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Brightportwild16](brightportwild16.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild 4](brightportwild4.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Brightportwild 16](brightportwild16.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Brightportwild15 is an indoor location in Andor's Trail, in Greens
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightportwild4](brightportwild4.md) | Burial cave | 1 |
-| East | [Brightportwild16](brightportwild16.md) | Greenscale tribe | 2 |
+| North | [Brightportwild 4](brightportwild4.md) | Burial cave | 1 |
+| East | [Brightportwild 16](brightportwild16.md) | Greenscale tribe | 2 |
 
 
 ## Version history

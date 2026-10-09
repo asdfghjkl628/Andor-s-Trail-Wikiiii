@@ -1,10 +1,10 @@
 ---
-description: "Bidro is a non-player character (NPC) in Andor's Trail, found in mountainlake11. Starts Brutes."
+description: "Bidro is a non-player character (NPC) in Andor's Trail, found in Mountainlake 11. Starts Brutes."
 ---
 
 # ![](../assets/icons/monsters/monsters_phoenix01_3.png){ .sprite } Bidro
 
-**Where to find Bidro:** [mountainlake11](../maps/mountainlake11.md#pin-npc-brute_fisherman)
+**Where to find Bidro:** [Mountainlake 11](../maps/mountainlake11.md#pin-npc-brute_fisherman)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Bidro is a non-player character (NPC) in Andor's Trail, found in m
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [Brutes](../quests/brute_creator.md) |
-| **Found in** | mountainlake11 |
+| **Found in** | Mountainlake 11 |
 | **Entry ID** | `brute_fisherman` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
@@ -26,7 +26,7 @@ description: "Bidro is a non-player character (NPC) in Andor's Trail, found in m
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bidro. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bidro. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brute_fisherman.json" data-npc="Bidro" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (27 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brute_fisherman"></span>**`brute_fisherman`** Bidro: “Hush.”
 

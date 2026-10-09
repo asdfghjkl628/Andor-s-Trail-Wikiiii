@@ -21,21 +21,21 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Ghost. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ratdom_ghost`](#v-ratdom_ghost) | Enemy | Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost1`](#v-ratdom_ghost1) | Enemy | Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost2`](#v-ratdom_ghost2) | Enemy | Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost3`](#v-ratdom_ghost3) | Enemy | Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost4`](#v-ratdom_ghost4) | Enemy | Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md) | – | 1 |
+| [`ratdom_ghost`](#v-ratdom_ghost) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
+| [`ratdom_ghost1`](#v-ratdom_ghost1) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
+| [`ratdom_ghost2`](#v-ratdom_ghost2) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
+| [`ratdom_ghost3`](#v-ratdom_ghost3) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
+| [`ratdom_ghost4`](#v-ratdom_ghost4) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
 
 ## Labyrinth, Ratdom maze 648 (ratdom_ghost) { #v-ratdom_ghost }
 
 **Entry ID:** `ratdom_ghost` · **Type:** Enemy
 
-**Location:** Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md)
+**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
 ### Combat statistics
 
@@ -63,7 +63,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_648](../maps/ratdom_maze_648.md) | Labyrinth | 1 | – |
+| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 1 | – |
 
 
 ### Version history
@@ -105,7 +105,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 **Entry ID:** `ratdom_ghost1` · **Type:** Enemy
 
-**Location:** Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md)
+**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
 ### Combat statistics
 
@@ -133,7 +133,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
+| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
 
 
 ### Version history
@@ -175,7 +175,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 **Entry ID:** `ratdom_ghost2` · **Type:** Enemy
 
-**Location:** Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md)
+**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
 ### Combat statistics
 
@@ -203,7 +203,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_648](../maps/ratdom_maze_648.md) | Labyrinth | 4 | – |
+| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 4 | – |
 
 
 ### Version history
@@ -245,7 +245,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 **Entry ID:** `ratdom_ghost3` · **Type:** Enemy
 
-**Location:** Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md)
+**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
 ### Combat statistics
 
@@ -273,7 +273,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
+| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
 
 
 ### Version history
@@ -315,7 +315,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 **Entry ID:** `ratdom_ghost4` · **Type:** Enemy
 
-**Location:** Labyrinth: [ratdom_maze_648](../maps/ratdom_maze_648.md)
+**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
 ### Combat statistics
 
@@ -343,7 +343,7 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
+| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
 
 
 ### Version history

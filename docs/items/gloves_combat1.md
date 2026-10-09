@@ -49,9 +49,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) | – | must be carried (1×) | “(automatic)” |
-| [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) | – | must be worn (1×) | “(automatic)” |
-| [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) | – | handed over (1×) | “Sure, here is the gold.” |
+| [Rothses](../monsters/rothses.md) ([Remgard armour](../maps/remgard_armour.md)) | – | must be carried (1×) | “(automatic)” |
+| [Rothses](../monsters/rothses.md) ([Remgard armour](../maps/remgard_armour.md)) | – | must be worn (1×) | “(automatic)” |
+| [Rothses](../monsters/rothses.md) ([Remgard armour](../maps/remgard_armour.md)) | – | handed over (1×) | “Sure, here is the gold.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

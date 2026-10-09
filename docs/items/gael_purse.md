@@ -24,7 +24,7 @@ description: "Snake leather purse is a ordinary other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)) (1×)
+- From [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

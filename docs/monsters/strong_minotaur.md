@@ -1,10 +1,10 @@
 ---
-description: "Strong minotaur is an enemy in Andor's Trail (giant) with 53 HP, worth 79 XP, found in jan_pitcave2. Drops: Gold coins, Ruby gem, Iron hammer, Minor vial of health."
+description: "Strong minotaur is an enemy in Andor's Trail (giant) with 53 HP, worth 79 XP, found in Jan pitcave 2. Drops: Gold coins, Ruby gem, Iron hammer, Minor vial of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_5.png){ .sprite } Strong minotaur
 
-**Found in:** [jan_pitcave2](../maps/jan_pitcave2.md)
+**Found in:** [Jan pitcave 2](../maps/jan_pitcave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Strong minotaur is an enemy in Andor's Trail (giant) with 53 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | jan_pitcave2 |
+| **Found in** | Jan pitcave 2 |
 | **Class** | Giant |
 | **HP** | 53 |
 | **XP when defeated** | 79 |
@@ -57,7 +57,7 @@ description: "Strong minotaur is an enemy in Andor's Trail (giant) with 53 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [jan_pitcave2](../maps/jan_pitcave2.md) | – | 1 | – |
+| [Jan pitcave 2](../maps/jan_pitcave2.md) | – | 1 | – |
 
 
 ## Version history

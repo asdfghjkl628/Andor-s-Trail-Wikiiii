@@ -4,7 +4,7 @@ description: "Forest fawn is an enemy in Andor's Trail (animal) with 120 HP, wor
 
 # ![](../assets/icons/monsters/monsters_johny_9.png){ .sprite } Forest fawn
 
-**Found in:** Brightport: [brightport8](../maps/brightport8.md), Brightport: [waytobrightport21](../maps/waytobrightport21.md), Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md) (+3 more)
+**Found in:** Brightport: [Brightport 8](../maps/brightport8.md), Brightport: [Waytobrightport 21](../maps/waytobrightport21.md), Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Forest fawn is an enemy in Andor's Trail (animal) with 120 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport8](../maps/brightport8.md) | Brightport | 1 | – |
-| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 2 | – |
-| [waytobrightport22](../maps/waytobrightport22.md) | Brightport | 1 | – |
-| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [waytobrightport3](../maps/waytobrightport3.md) | – | 5 | – |
-| [waytobrightport4](../maps/waytobrightport4.md) | – | 6 | – |
-| [waytobrightport7](../maps/waytobrightport7.md) | – | 1 | – |
+| [Brightport 8](../maps/brightport8.md) | Brightport | 1 | – |
+| [Waytobrightport 21](../maps/waytobrightport21.md) | Brightport | 2 | – |
+| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 1 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytobrightport 3](../maps/waytobrightport3.md) | – | 5 | – |
+| [Waytobrightport 4](../maps/waytobrightport4.md) | – | 6 | – |
+| [Waytobrightport 7](../maps/waytobrightport7.md) | – | 1 | – |
 
 
 ## Version history

@@ -25,7 +25,7 @@ description: "Vial of purifying spirit is a quest other in Andor's Trail. How to
 
 ### Quest & dialogue rewards
 
-- From [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) during [Lights in the dark](../quests/kazaul.md#stage-41) (100%)
+- From [Throdna](../monsters/throdna.md) ([Blackwater mountain 50](../maps/blackwater_mountain50.md)) during [Lights in the dark](../quests/kazaul.md#stage-41) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| reading a sign on [blackwater_mountain42](../maps/blackwater_mountain42.md) | [Lights in the dark](../quests/kazaul.md#stage-60) | handed over (1×) | “Apply the vial of purifying spirit on the formation.” |
+| reading a sign on [Blackwater mountain 42](../maps/blackwater_mountain42.md) | [Lights in the dark](../quests/kazaul.md#stage-60) | handed over (1×) | “Apply the vial of purifying spirit on the formation.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

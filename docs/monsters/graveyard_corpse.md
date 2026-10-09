@@ -1,10 +1,10 @@
 ---
-description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP, worth 333 XP, found in graveyard1. Drops: Bone, Gold coins, Wooden club, Crude iron shield."
+description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP, worth 333 XP, found in Graveyard 1. Drops: Bone, Gold coins, Wooden club, Crude iron shield."
 ---
 
 # ![](../assets/icons/monsters/monsters_zombie1_0.png){ .sprite } Graveyard corpse
 
-**Found in:** [graveyard1](../maps/graveyard1.md)
+**Found in:** [Graveyard 1](../maps/graveyard1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | graveyard1 |
+| **Found in** | Graveyard 1 |
 | **Class** | Undead |
 | **HP** | 70 |
 | **XP when defeated** | 333 |
@@ -59,7 +59,7 @@ description: "Graveyard corpse is an enemy in Andor's Trail (undead) with 70 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [graveyard1](../maps/graveyard1.md) | – | 17 | Appears later, during a quest |
+| [Graveyard 1](../maps/graveyard1.md) | – | 17 | Appears later, during a quest |
 
 
 ## Version history

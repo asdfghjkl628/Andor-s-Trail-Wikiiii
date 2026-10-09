@@ -1,10 +1,10 @@
 ---
-description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth 585 XP, found in undertell_1_0, undertell_1_1. Drops: Gold coins, Rat tail."
+description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth 585 XP, found in Undertell 1 0, Undertell 1 1. Drops: Gold coins, Rat tail."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_283.png){ .sprite } Ny'Ratees
 
-**Found in:** [undertell_1_0](../maps/undertell_1_0.md), [undertell_1_1](../maps/undertell_1_1.md)
+**Found in:** [Undertell 1 0](../maps/undertell_1_0.md), [Undertell 1 1](../maps/undertell_1_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_1_0, undertell_1_1 |
+| **Found in** | Undertell 1 0, Undertell 1 1 |
 | **Class** | Animal |
 | **HP** | 207 |
 | **XP when defeated** | 585 |
@@ -57,8 +57,8 @@ description: "Ny'Ratees is an enemy in Andor's Trail (animal) with 207 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_1_0](../maps/undertell_1_0.md) | – | 16 | – |
-| [undertell_1_1](../maps/undertell_1_1.md) | – | 5 | – |
+| [Undertell 1 0](../maps/undertell_1_0.md) | – | 16 | – |
+| [Undertell 1 1](../maps/undertell_1_1.md) | – | 5 | – |
 
 
 ## Version history

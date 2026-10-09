@@ -27,9 +27,9 @@ description: "Blessing of Shadow strength is a beneficial spiritual condition in
 |---|---|
 | Attack damage | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -48,13 +48,13 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Removed by** [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) during [Shadows](../quests/shadows.md#stage-160).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Removed by** [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) during [Shadows](../quests/shadows.md#stage-160).
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 ## Checked in dialogue
 
 - [Talion](../monsters/talion.md) checks whether you do not have this condition.
-- [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) checks whether you have this condition.
+- [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) checks whether you have this condition.
 
 
 ## Community notes

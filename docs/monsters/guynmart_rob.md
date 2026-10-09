@@ -18,31 +18,31 @@ description: "Rob is a non-player character (NPC) in Andor's Trail, found in Guy
 </div>
 
 !!! info "6 entries in the game data"
-    The game's data files define 6 separate characters named Rob. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 6 separate characters named Rob. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_rob`](#v-guynmart_rob) | NPC | Guynmart Castle: [guynmart_main_3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob) | – |
-| [`guynmart_rob2`](#v-guynmart_rob2) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2) | – |
-| [`guynmart_rob3`](#v-guynmart_rob3) | NPC | Guynmart Castle: [guynmart_tower_3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3) | – |
-| [`guynmart_rob4`](#v-guynmart_rob4) | NPC | Guynmart Castle: [guynmart_tower_2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4) | – |
-| [`guynmart_rob5`](#v-guynmart_rob5) | NPC | Guynmart Castle: [guynmart_wood_6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5) | – |
-| [`guynmart_rob6`](#v-guynmart_rob6) | NPC | Guynmart Castle: [guynmart_wood_7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6) | – |
+| [`guynmart_rob`](#v-guynmart_rob) | NPC | Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob) | – |
+| [`guynmart_rob2`](#v-guynmart_rob2) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2) | – |
+| [`guynmart_rob3`](#v-guynmart_rob3) | NPC | Guynmart Castle: [Guynmart tower 3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3) | – |
+| [`guynmart_rob4`](#v-guynmart_rob4) | NPC | Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4) | – |
+| [`guynmart_rob5`](#v-guynmart_rob5) | NPC | Guynmart Castle: [Guynmart wood 6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5) | – |
+| [`guynmart_rob6`](#v-guynmart_rob6) | NPC | Guynmart Castle: [Guynmart wood 7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6) | – |
 
 ## Guynmart Castle, Guynmart main 3 (guynmart_rob) { #v-guynmart_rob }
 
 **Entry ID:** `guynmart_rob` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob)
+**Location:** Guynmart Castle: [Guynmart main 3](../maps/guynmart_main_3.md#pin-npc-guynmart_rob)
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stage 45
-- [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md): stage 1
+- [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md): stage 1
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rob. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,11 +50,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_rob-guynmart_rob_10"></span>**`guynmart_rob_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1))* → [guynmart_rob_50](#d-guynmart_rob-guynmart_rob_50)
+    - branch 1 *(if reached stage 1 of [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1))* → [guynmart_rob_50](#d-guynmart_rob-guynmart_rob_50)
     - branch 2 → [guynmart_rob_12](#d-guynmart_rob-guynmart_rob_12)
 
     <span id="d-guynmart_rob-guynmart_rob_50"></span>**`guynmart_rob_50`** Rob: “Hi $playername! We could play together in the tower. It is so boring here as the only kid.”
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Where is your father?” → [guynmart_rob_60](#d-guynmart_rob-guynmart_rob_60)
     - “Where is Hannah?” → [guynmart_rob_70](#d-guynmart_rob-guynmart_rob_70)
 
-    <span id="d-guynmart_rob-guynmart_rob_12"></span>**`guynmart_rob_12`** Rob: “Hey - you found me at last! That was fun! I am Robalyrius, Guynmart's son, but please call me Rob. Who are you? Wait, I will open the shutters, so that we can see each other.” — **effects:** sets stage 1 of [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1), sets stage 45 of [Roses](../quests/guynmart.md#stage-45)
+    <span id="d-guynmart_rob-guynmart_rob_12"></span>**`guynmart_rob_12`** Rob: “Hey - you found me at last! That was fun! I am Robalyrius, Guynmart's son, but please call me Rob. Who are you? Wait, I will open the shutters, so that we can see each other.” — **effects:** sets stage 1 of [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md#stage-1), sets stage 45 of [Roses](../quests/guynmart.md#stage-45)
 
     - “Hi, I am $playername. I am glad that you are not really a ghost.” → *conversation ends*
 
@@ -129,11 +129,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_rob2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_rob2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rob. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob2_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -141,7 +141,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_rob2-guynmart_rob2_10"></span>**`guynmart_rob2_10`** Rob: “I am throwing little pebbles at the guard down there. Do you want to try too?”
 
@@ -193,7 +193,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_rob3` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_tower_3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3)
+**Location:** Guynmart Castle: [Guynmart tower 3](../maps/guynmart_tower_3.md#pin-npc-guynmart_rob3)
 
 ### Quests
 
@@ -201,7 +201,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rob. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob3_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -209,7 +209,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_rob3-guynmart_rob3_10"></span>**`guynmart_rob3_10`** Rob: “What shall we play now?”
 
@@ -269,11 +269,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_rob4` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_tower_2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4)
+**Location:** Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_rob4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rob. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob4_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -281,7 +281,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_rob4-guynmart_rob4_10"></span>**`guynmart_rob4_10`** Rob: “Quick! Downstairs!”
 
@@ -328,15 +328,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_rob5` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5)
+**Location:** Guynmart Castle: [Guynmart wood 6](../maps/guynmart_wood_6.md#pin-npc-guynmart_rob5)
 
 ### Quests
 
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 50
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 50
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rob. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob5_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -344,16 +344,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_rob5-guynmart_rob5_10"></span>**`guynmart_rob5_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 59 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-59))* → [guynmart_rob5_59](#d-guynmart_rob5-guynmart_rob5_59)
-    - branch 2 *(if reached stage 55 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-55))* → [guynmart_rob5_55](#d-guynmart_rob5-guynmart_rob5_55)
-    - branch 3 *(if reached stage 54 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-54))* → [guynmart_rob5_54](#d-guynmart_rob5-guynmart_rob5_54)
-    - branch 4 *(if reached stage 53 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-53))* → [guynmart_rob5_53](#d-guynmart_rob5-guynmart_rob5_53)
-    - branch 5 *(if reached stage 52 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-52))* → [guynmart_rob5_52](#d-guynmart_rob5-guynmart_rob5_52)
-    - branch 6 *(if reached stage 50 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-50))* → [guynmart_rob5_51](#d-guynmart_rob5-guynmart_rob5_51)
+    - branch 1 *(if reached stage 59 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-59))* → [guynmart_rob5_59](#d-guynmart_rob5-guynmart_rob5_59)
+    - branch 2 *(if reached stage 55 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-55))* → [guynmart_rob5_55](#d-guynmart_rob5-guynmart_rob5_55)
+    - branch 3 *(if reached stage 54 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-54))* → [guynmart_rob5_54](#d-guynmart_rob5-guynmart_rob5_54)
+    - branch 4 *(if reached stage 53 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-53))* → [guynmart_rob5_53](#d-guynmart_rob5-guynmart_rob5_53)
+    - branch 5 *(if reached stage 52 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-52))* → [guynmart_rob5_52](#d-guynmart_rob5-guynmart_rob5_52)
+    - branch 6 *(if reached stage 50 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-50))* → [guynmart_rob5_51](#d-guynmart_rob5-guynmart_rob5_51)
     - branch 7 → [guynmart_rob5_20](#d-guynmart_rob5-guynmart_rob5_20)
 
     <span id="d-guynmart_rob5-guynmart_rob5_59"></span>**`guynmart_rob5_59`** Rob: “Back to normal.”
@@ -378,7 +378,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [guynmart_rob5_30](#d-guynmart_rob5-guynmart_rob5_30)
 
-    <span id="d-guynmart_rob5-guynmart_rob5_30"></span>**`guynmart_rob5_30`** Rob: “I like this place very much. Each time I return here, I get a surprise.” — **effects:** sets stage 50 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-50)
+    <span id="d-guynmart_rob5-guynmart_rob5_30"></span>**`guynmart_rob5_30`** Rob: “I like this place very much. Each time I return here, I get a surprise.” — **effects:** sets stage 50 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-50)
 
 
 
@@ -423,15 +423,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_rob6` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6)
+**Location:** Guynmart Castle: [Guynmart wood 7](../maps/guynmart_wood_7.md#pin-npc-guynmart_rob6)
 
 ### Quests
 
-- [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md): stage 11
+- [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md): stage 11
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rob. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob6_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -439,14 +439,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_rob6-guynmart_rob6_10"></span>**`guynmart_rob6_10`** Rob: “Hello $playername. Do you wish to climb up to me?”
 
     - “Yes. Could you drop the rope down?” → [guynmart_rob6_30](#d-guynmart_rob6-guynmart_rob6_30)
     - “No thanks.” → *conversation ends*
 
-    <span id="d-guynmart_rob6-guynmart_rob6_30"></span>**`guynmart_rob6_30`** Rob: “Of course. There. But I am in a hurry and must leave now.” — **effects:** sets stage 11 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-11), removes monsters from guynmart_wood_7
+    <span id="d-guynmart_rob6-guynmart_rob6_30"></span>**`guynmart_rob6_30`** Rob: “Of course. There. But I am in a hurry and must leave now.” — **effects:** sets stage 11 of [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-11), removes monsters from guynmart_wood_7
 
     - “Great! I'll climb up now.” → *conversation ends*
 

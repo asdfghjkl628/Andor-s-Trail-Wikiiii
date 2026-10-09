@@ -1,5 +1,5 @@
 ---
-description: "Stoutford guard is an NPC who can also be fought in Andor's Trail, found in Flagstone Prison, Stoutford, Stoutford, stoutford_tower4, Flagstone Prison."
+description: "Stoutford guard is an NPC who can also be fought in Andor's Trail, found in Flagstone Prison, Stoutford, Stoutford, Stoutford tower 4, Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_44.png){ .sprite } Stoutford guard
@@ -11,7 +11,7 @@ description: "Stoutford guard is an NPC who can also be fought in Andor's Trail,
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Flagstone Prison, Stoutford, Stoutford, stoutford_tower4, Flagstone Prison |
+| **Found in** | Flagstone Prison, Stoutford, Stoutford, Stoutford tower 4, Flagstone Prison |
 | **Class** | Humanoid |
 | **HP** | 40 |
 | **XP when defeated** | 64 |
@@ -21,48 +21,48 @@ description: "Stoutford guard is an NPC who can also be fought in Andor's Trail,
 </div>
 
 !!! info "13 entries in the game data"
-    The game's data files define 13 separate characters named Stoutford guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 13 separate characters named Stoutford guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`stoutford_guard1`](#v-stoutford_guard1) | NPC | Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard1) (+8 more) | – | – |
-| [`stoutford_gateguard`](#v-stoutford_gateguard) | NPC | Stoutford: [wild20](../maps/wild20.md#pin-npc-stoutford_gateguard) | – | – |
-| [`stoutford_guard1_b`](#v-stoutford_guard1_b) | NPC | Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard1_b) (+8 more) | – | – |
-| [`stoutford_guard1_c`](#v-stoutford_guard1_c) | NPC | Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard1_c) (+8 more) | – | – |
-| [`stoutford_guard1a`](#v-stoutford_guard1a) | NPC | Stoutford: [wild21](../maps/wild21.md#pin-npc-stoutford_guard1a) | – | – |
-| [`stoutford_guard2`](#v-stoutford_guard2) | NPC | Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard2) (+8 more) | – | – |
-| [`stoutford_guard3`](#v-stoutford_guard3) | NPC | Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard3) (+8 more) | – | – |
-| [`stoutford_guard4`](#v-stoutford_guard4) | NPC | [stoutford_tower4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4) | – | – |
-| [`stoutford_guard_camp1`](#v-stoutford_guard_camp1) | NPC/Enemy | Flagstone Prison: [wild16](../maps/wild16.md#pin-npc-stoutford_guard_camp1) | – | 40 |
-| [`stoutford_guard_camp2`](#v-stoutford_guard_camp2) | NPC/Enemy | Flagstone Prison: [wild16](../maps/wild16.md#pin-npc-stoutford_guard_camp2) | – | 40 |
-| [`stoutford_guard_wild21a`](#v-stoutford_guard_wild21a) | NPC | Stoutford: [wild21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a) | – | – |
+| [`stoutford_guard1`](#v-stoutford_guard1) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1) (+8 more) | – | – |
+| [`stoutford_gateguard`](#v-stoutford_gateguard) | NPC | Stoutford: [Wild 20](../maps/wild20.md#pin-npc-stoutford_gateguard) | – | – |
+| [`stoutford_guard1_b`](#v-stoutford_guard1_b) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_b) (+8 more) | – | – |
+| [`stoutford_guard1_c`](#v-stoutford_guard1_c) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_c) (+8 more) | – | – |
+| [`stoutford_guard1a`](#v-stoutford_guard1a) | NPC | Stoutford: [Wild 21](../maps/wild21.md#pin-npc-stoutford_guard1a) | – | – |
+| [`stoutford_guard2`](#v-stoutford_guard2) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard2) (+8 more) | – | – |
+| [`stoutford_guard3`](#v-stoutford_guard3) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard3) (+8 more) | – | – |
+| [`stoutford_guard4`](#v-stoutford_guard4) | NPC | [Stoutford tower 4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4) | – | – |
+| [`stoutford_guard_camp1`](#v-stoutford_guard_camp1) | NPC/Enemy | Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp1) | – | 40 |
+| [`stoutford_guard_camp2`](#v-stoutford_guard_camp2) | NPC/Enemy | Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp2) | – | 40 |
+| [`stoutford_guard_wild21a`](#v-stoutford_guard_wild21a) | NPC | Stoutford: [Wild 21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a) | – | – |
 | [`stoutford_guard1b`](#v-stoutford_guard1b) | NPC | Not on a map | – | – |
 | [`stoutford_guard1c`](#v-stoutford_guard1c) | NPC | Not on a map | – | – |
 
-## Flagstone Prison, Flagstone0 and 9 more (stoutford_guard1) { #v-stoutford_guard1 }
+## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard1) { #v-stoutford_guard1 }
 
 **Entry ID:** `stoutford_guard1` · **Type:** NPC
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard1), Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_guard1), Stoutford: [stoutford_tower1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1), Stoutford: [wild17](../maps/wild17.md#pin-npc-stoutford_guard1), Stoutford: [wild19](../maps/wild19.md#pin-npc-stoutford_guard1) (+4 more)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1) (+4 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [stoutford_se](../maps/stoutford_se.md) | Stoutford | 2 | – |
-| [stoutford_tower1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 1 | – |
-| [wild18](../maps/wild18.md) | Flagstone Prison | 4 | – |
-| [wild19](../maps/wild19.md) | Stoutford | 4 | – |
-| [wild20](../maps/wild20.md) | Stoutford | 5 | – |
-| [wild21](../maps/wild21.md) | Stoutford | 1 | – |
-| [wild22](../maps/wild22.md) | Stoutford | 1 | – |
-| [wild23](../maps/wild23.md) | Stoutford | 3 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Stoutford south-east](../maps/stoutford_se.md) | Stoutford | 2 | – |
+| [Stoutford tower 1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 1 | – |
+| [Wild 18](../maps/wild18.md) | Flagstone Prison | 4 | – |
+| [Wild 19](../maps/wild19.md) | Stoutford | 4 | – |
+| [Wild 20](../maps/wild20.md) | Stoutford | 5 | – |
+| [Wild 21](../maps/wild21.md) | Stoutford | 1 | – |
+| [Wild 22](../maps/wild22.md) | Stoutford | 1 | – |
+| [Wild 23](../maps/wild23.md) | Stoutford | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -70,7 +70,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard1-stoutford_guard1_0"></span>**`stoutford_guard1_0`** Stoutford guard: “Don't cause trouble.”
 
@@ -111,11 +111,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Stoutford, Wild20 (stoutford_gateguard) { #v-stoutford_gateguard }
+## Stoutford, Wild 20 (stoutford_gateguard) { #v-stoutford_gateguard }
 
 **Entry ID:** `stoutford_gateguard` · **Type:** NPC
 
-**Location:** Stoutford: [wild20](../maps/wild20.md#pin-npc-stoutford_gateguard)
+**Location:** Stoutford: [Wild 20](../maps/wild20.md#pin-npc-stoutford_gateguard)
 
 ### Quests
 
@@ -123,7 +123,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_gateguard_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -131,7 +131,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_gateguard-stoutford_gateguard_0"></span>**`stoutford_gateguard_0`** Stoutford guard: “What do you want kid?”
 
@@ -222,30 +222,30 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Flagstone0 and 9 more (stoutford_guard1_b) { #v-stoutford_guard1_b }
+## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard1_b) { #v-stoutford_guard1_b }
 
 **Entry ID:** `stoutford_guard1_b` · **Type:** NPC
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard1_b), Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_guard1_b), Stoutford: [stoutford_tower1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_b), Stoutford: [wild17](../maps/wild17.md#pin-npc-stoutford_guard1_b), Stoutford: [wild19](../maps/wild19.md#pin-npc-stoutford_guard1_b) (+4 more)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_b), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1_b), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_b), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1_b), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1_b) (+4 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [stoutford_se](../maps/stoutford_se.md) | Stoutford | 2 | – |
-| [stoutford_tower1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 1 | – |
-| [wild18](../maps/wild18.md) | Flagstone Prison | 4 | – |
-| [wild19](../maps/wild19.md) | Stoutford | 4 | – |
-| [wild20](../maps/wild20.md) | Stoutford | 5 | – |
-| [wild21](../maps/wild21.md) | Stoutford | 1 | – |
-| [wild22](../maps/wild22.md) | Stoutford | 1 | – |
-| [wild23](../maps/wild23.md) | Stoutford | 3 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Stoutford south-east](../maps/stoutford_se.md) | Stoutford | 2 | – |
+| [Stoutford tower 1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 1 | – |
+| [Wild 18](../maps/wild18.md) | Flagstone Prison | 4 | – |
+| [Wild 19](../maps/wild19.md) | Stoutford | 4 | – |
+| [Wild 20](../maps/wild20.md) | Stoutford | 5 | – |
+| [Wild 21](../maps/wild21.md) | Stoutford | 1 | – |
+| [Wild 22](../maps/wild22.md) | Stoutford | 1 | – |
+| [Wild 23](../maps/wild23.md) | Stoutford | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0b.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -253,7 +253,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard1_b-stoutford_guard1_0b"></span>**`stoutford_guard1_0b`** Stoutford guard: “Hey. Be careful what you do.”
 
@@ -295,30 +295,30 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Flagstone0 and 9 more (stoutford_guard1_c) { #v-stoutford_guard1_c }
+## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard1_c) { #v-stoutford_guard1_c }
 
 **Entry ID:** `stoutford_guard1_c` · **Type:** NPC
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard1_c), Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_guard1_c), Stoutford: [stoutford_tower1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_c), Stoutford: [wild17](../maps/wild17.md#pin-npc-stoutford_guard1_c), Stoutford: [wild19](../maps/wild19.md#pin-npc-stoutford_guard1_c) (+4 more)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_c), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1_c), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_c), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1_c), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1_c) (+4 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [stoutford_se](../maps/stoutford_se.md) | Stoutford | 2 | – |
-| [stoutford_tower1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 1 | – |
-| [wild18](../maps/wild18.md) | Flagstone Prison | 4 | – |
-| [wild19](../maps/wild19.md) | Stoutford | 4 | – |
-| [wild20](../maps/wild20.md) | Stoutford | 5 | – |
-| [wild21](../maps/wild21.md) | Stoutford | 1 | – |
-| [wild22](../maps/wild22.md) | Stoutford | 1 | – |
-| [wild23](../maps/wild23.md) | Stoutford | 3 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Stoutford south-east](../maps/stoutford_se.md) | Stoutford | 2 | – |
+| [Stoutford tower 1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 1 | – |
+| [Wild 18](../maps/wild18.md) | Flagstone Prison | 4 | – |
+| [Wild 19](../maps/wild19.md) | Stoutford | 4 | – |
+| [Wild 20](../maps/wild20.md) | Stoutford | 5 | – |
+| [Wild 21](../maps/wild21.md) | Stoutford | 1 | – |
+| [Wild 22](../maps/wild22.md) | Stoutford | 1 | – |
+| [Wild 23](../maps/wild23.md) | Stoutford | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0c.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -326,7 +326,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard1_c-stoutford_guard1_0c"></span>**`stoutford_guard1_0c`** Stoutford guard: “Kids should not walk around alone in these times.”
 
@@ -368,15 +368,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Stoutford, Wild21 (stoutford_guard1a) { #v-stoutford_guard1a }
+## Stoutford, Wild 21 (stoutford_guard1a) { #v-stoutford_guard1a }
 
 **Entry ID:** `stoutford_guard1a` · **Type:** NPC
 
-**Location:** Stoutford: [wild21](../maps/wild21.md#pin-npc-stoutford_guard1a)
+**Location:** Stoutford: [Wild 21](../maps/wild21.md#pin-npc-stoutford_guard1a)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -420,30 +420,30 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Flagstone Prison, Flagstone0 and 9 more (stoutford_guard2) { #v-stoutford_guard2 }
+## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard2) { #v-stoutford_guard2 }
 
 **Entry ID:** `stoutford_guard2` · **Type:** NPC
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard2), Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_guard2), Stoutford: [stoutford_tower1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard2), Stoutford: [wild17](../maps/wild17.md#pin-npc-stoutford_guard2), Stoutford: [wild19](../maps/wild19.md#pin-npc-stoutford_guard2) (+4 more)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard2), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard2), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard2), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard2), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard2) (+4 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [stoutford_se](../maps/stoutford_se.md) | Stoutford | 2 | – |
-| [stoutford_tower1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 1 | – |
-| [wild18](../maps/wild18.md) | Flagstone Prison | 4 | – |
-| [wild19](../maps/wild19.md) | Stoutford | 4 | – |
-| [wild20](../maps/wild20.md) | Stoutford | 5 | – |
-| [wild21](../maps/wild21.md) | Stoutford | 1 | – |
-| [wild22](../maps/wild22.md) | Stoutford | 1 | – |
-| [wild23](../maps/wild23.md) | Stoutford | 3 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Stoutford south-east](../maps/stoutford_se.md) | Stoutford | 2 | – |
+| [Stoutford tower 1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 1 | – |
+| [Wild 18](../maps/wild18.md) | Flagstone Prison | 4 | – |
+| [Wild 19](../maps/wild19.md) | Stoutford | 4 | – |
+| [Wild 20](../maps/wild20.md) | Stoutford | 5 | – |
+| [Wild 21](../maps/wild21.md) | Stoutford | 1 | – |
+| [Wild 22](../maps/wild22.md) | Stoutford | 1 | – |
+| [Wild 23](../maps/wild23.md) | Stoutford | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard2.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -451,7 +451,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard2-stoutford_guard2"></span>**`stoutford_guard2`** Stoutford guard: “Oh, when does the shift end? I want to have some cold mead right now.”
 
@@ -494,30 +494,30 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Flagstone0 and 9 more (stoutford_guard3) { #v-stoutford_guard3 }
+## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard3) { #v-stoutford_guard3 }
 
 **Entry ID:** `stoutford_guard3` · **Type:** NPC
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [wild18](../maps/wild18.md#pin-npc-stoutford_guard3), Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_guard3), Stoutford: [stoutford_tower1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard3), Stoutford: [wild17](../maps/wild17.md#pin-npc-stoutford_guard3), Stoutford: [wild19](../maps/wild19.md#pin-npc-stoutford_guard3) (+4 more)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard3), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard3), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard3), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard3), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard3) (+4 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [stoutford_se](../maps/stoutford_se.md) | Stoutford | 2 | – |
-| [stoutford_tower1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 1 | – |
-| [wild18](../maps/wild18.md) | Flagstone Prison | 4 | – |
-| [wild19](../maps/wild19.md) | Stoutford | 4 | – |
-| [wild20](../maps/wild20.md) | Stoutford | 5 | – |
-| [wild21](../maps/wild21.md) | Stoutford | 1 | – |
-| [wild22](../maps/wild22.md) | Stoutford | 1 | – |
-| [wild23](../maps/wild23.md) | Stoutford | 3 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Stoutford south-east](../maps/stoutford_se.md) | Stoutford | 2 | – |
+| [Stoutford tower 1](../maps/stoutford_tower1.md) | Stoutford | 1 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 1 | – |
+| [Wild 18](../maps/wild18.md) | Flagstone Prison | 4 | – |
+| [Wild 19](../maps/wild19.md) | Stoutford | 4 | – |
+| [Wild 20](../maps/wild20.md) | Stoutford | 5 | – |
+| [Wild 21](../maps/wild21.md) | Stoutford | 1 | – |
+| [Wild 22](../maps/wild22.md) | Stoutford | 1 | – |
+| [Wild 23](../maps/wild23.md) | Stoutford | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard3.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -525,7 +525,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard3-stoutford_guard3"></span>**`stoutford_guard3`** Stoutford guard: “Stoutford shall prevail in these hard times, traveler.”
 
@@ -568,15 +568,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Stoutford tower4 (stoutford_guard4) { #v-stoutford_guard4 }
+## Stoutford tower 4 (stoutford_guard4) { #v-stoutford_guard4 }
 
 **Entry ID:** `stoutford_guard4` · **Type:** NPC
 
-**Location:** [stoutford_tower4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4)
+**Location:** [Stoutford tower 4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard4.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -584,7 +584,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard4-stoutford_guard4"></span>**`stoutford_guard4`** Stoutford guard: “Hey, kid, get out of here immediately!”
 
@@ -627,11 +627,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Wild16 (stoutford_guard_camp1) { #v-stoutford_guard_camp1 }
+## Flagstone Prison, Wild 16 (stoutford_guard_camp1) { #v-stoutford_guard_camp1 }
 
 **Entry ID:** `stoutford_guard_camp1` · **Type:** NPC/Enemy
 
-**Location:** Flagstone Prison: [wild16](../maps/wild16.md#pin-npc-stoutford_guard_camp1)
+**Location:** Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -662,11 +662,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild16](../maps/wild16.md) | Flagstone Prison | 1 | – |
+| [Wild 16](../maps/wild16.md) | Flagstone Prison | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard_camp1_10.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -674,7 +674,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard_camp1-stoutford_guard_camp1_10"></span>**`stoutford_guard_camp1_10`** Stoutford guard: “Hi kid. It is nice and warm here next to the fire. Come and make yourself comfortable.”
 
@@ -696,7 +696,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Cowardice. I'll report that to your commander.” → [stoutford_guard_camp2_42](#d-stoutford_guard_camp1-stoutford_guard_camp2_42)
     - “I had better leave now.” → *conversation ends*
-    - “I had better leave now. You do not need to hurry with your exercise. All your comrades have already been killed by the…” *(if reached stage 4 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-4))* → *conversation ends*
+    - “I had better leave now. You do not need to hurry with your exercise. All your comrades have already been killed by the…” *(if reached stage 4 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-4))* → *conversation ends*
 
     <span id="d-stoutford_guard_camp1-stoutford_guard_camp2_42"></span>**`stoutford_guard_camp2_42`** Stoutford guard: “No, you won't.” — **effects:** faction “stoutford_guard_camp” set to -10
 
@@ -752,11 +752,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Wild16 (stoutford_guard_camp2) { #v-stoutford_guard_camp2 }
+## Flagstone Prison, Wild 16 (stoutford_guard_camp2) { #v-stoutford_guard_camp2 }
 
 **Entry ID:** `stoutford_guard_camp2` · **Type:** NPC/Enemy
 
-**Location:** Flagstone Prison: [wild16](../maps/wild16.md#pin-npc-stoutford_guard_camp2)
+**Location:** Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -787,11 +787,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild16](../maps/wild16.md) | Flagstone Prison | 3 | – |
+| [Wild 16](../maps/wild16.md) | Flagstone Prison | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard_camp2_10.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -848,19 +848,19 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Stoutford, Wild21a (stoutford_guard_wild21a) { #v-stoutford_guard_wild21a }
+## Stoutford, Wild 21a (stoutford_guard_wild21a) { #v-stoutford_guard_wild21a }
 
 **Entry ID:** `stoutford_guard_wild21a` · **Type:** NPC
 
-**Location:** Stoutford: [wild21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a)
+**Location:** Stoutford: [Wild 21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a)
 
 ### Quests
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stage 204
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 204
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/key_wild21a.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -868,22 +868,22 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_guard_wild21a-key_wild21a"></span>**`key_wild21a`** [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a): “Do you know the password?”
 
     - “Yes.” → [key_wild21a_10](#d-stoutford_guard_wild21a-key_wild21a_10)
     - “No.” → [key_wild21a_20](#d-stoutford_guard_wild21a-key_wild21a_20)
 
-    <span id="d-stoutford_guard_wild21a-key_wild21a_10"></span>**`key_wild21a_10`** Stoutford guard: “OK, then you may pass.” — **effects:** sets stage 204 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-204)
+    <span id="d-stoutford_guard_wild21a-key_wild21a_10"></span>**`key_wild21a_10`** Stoutford guard: “OK, then you may pass.” — **effects:** sets stage 204 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-204)
 
 
-    <span id="d-stoutford_guard_wild21a-key_wild21a_20"></span>**`key_wild21a_20`** Stoutford guard: “No? Without the password, I cannot let you pass.” — **effects:** clears stage 204 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-204)
+    <span id="d-stoutford_guard_wild21a-key_wild21a_20"></span>**`key_wild21a_20`** Stoutford guard: “No? Without the password, I cannot let you pass.” — **effects:** clears stage 204 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-204)
 
     - “I will find the password and come back.” → *conversation ends*
     - “Haha, just kidding. Of course I know it.” → [key_wild21a_30](#d-stoutford_guard_wild21a-key_wild21a_30)
 
-    <span id="d-stoutford_guard_wild21a-key_wild21a_30"></span>**`key_wild21a_30`** Stoutford guard: “Ah, I knew you did. You may pass.” — **effects:** sets stage 204 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-204)
+    <span id="d-stoutford_guard_wild21a-key_wild21a_30"></span>**`key_wild21a_30`** Stoutford guard: “Ah, I knew you did. You may pass.” — **effects:** sets stage 204 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-204)
 
 
 
@@ -931,7 +931,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -982,7 +982,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stoutford guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

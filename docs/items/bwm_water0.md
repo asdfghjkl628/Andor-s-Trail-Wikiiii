@@ -39,12 +39,12 @@ description: "Small vial of mountain water is a ordinary potion in Andor's Trail
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 5% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 5% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 5% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 5% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [elm_2f_1](../maps/elm_2f_1.md) (1×)
+- From walking into a blocked passage on [Elm 2f 1](../maps/elm_2f_1.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

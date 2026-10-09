@@ -4,7 +4,7 @@ description: "Forest deer is an enemy in Andor's Trail (animal) with 212 HP, wor
 
 # ![](../assets/icons/monsters/monsters_johny_11.png){ .sprite } Forest deer
 
-**Found in:** Brightport: [brightportwild18](../maps/brightportwild18.md), Brightport: [waytobrightport18](../maps/waytobrightport18.md), Brightport: [waytobrightport20](../maps/waytobrightport20.md), [waytobrightport11](../maps/waytobrightport11.md) (+3 more)
+**Found in:** Brightport: [Brightportwild 18](../maps/brightportwild18.md), Brightport: [Waytobrightport 18](../maps/waytobrightport18.md), Brightport: [Waytobrightport 20](../maps/waytobrightport20.md), [Waytobrightport 11](../maps/waytobrightport11.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Forest deer is an enemy in Andor's Trail (animal) with 212 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild18](../maps/brightportwild18.md) | Brightport | 1 | – |
-| [waytobrightport11](../maps/waytobrightport11.md) | – | 2 | – |
-| [waytobrightport13](../maps/waytobrightport13.md) | – | 5 | – |
-| [waytobrightport18](../maps/waytobrightport18.md) | Brightport | 2 | – |
-| [waytobrightport20](../maps/waytobrightport20.md) | Brightport | 4 | – |
-| [waytobrightport5](../maps/waytobrightport5.md) | – | 1 | – |
-| [waytobrightport7](../maps/waytobrightport7.md) | – | 7 | – |
+| [Brightportwild 18](../maps/brightportwild18.md) | Brightport | 1 | – |
+| [Waytobrightport 11](../maps/waytobrightport11.md) | – | 2 | – |
+| [Waytobrightport 13](../maps/waytobrightport13.md) | – | 5 | – |
+| [Waytobrightport 18](../maps/waytobrightport18.md) | Brightport | 2 | – |
+| [Waytobrightport 20](../maps/waytobrightport20.md) | Brightport | 4 | – |
+| [Waytobrightport 5](../maps/waytobrightport5.md) | – | 1 | – |
+| [Waytobrightport 7](../maps/waytobrightport7.md) | – | 7 | – |
 
 
 ## Version history

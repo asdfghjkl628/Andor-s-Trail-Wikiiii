@@ -4,7 +4,7 @@ description: "Poisonous river frog is an enemy in Andor's Trail (reptile) with 2
 
 # ![](../assets/icons/monsters/monsters_rltiles1_130.png){ .sprite } Poisonous river frog
 
-**Found in:** Guynmart Castle: [fields5](../maps/fields5.md), [fields12](../maps/fields12.md), [waterway0](../maps/waterway0.md), [waterway1](../maps/waterway1.md) (+9 more)
+**Found in:** Guynmart Castle: [Fields 5](../maps/fields5.md), [Fields 12](../maps/fields12.md), [Waterway 0](../maps/waterway0.md), [Waterway 1](../maps/waterway1.md) (+9 more)
 
 <div class="infobox" markdown>
 
@@ -57,19 +57,19 @@ description: "Poisonous river frog is an enemy in Andor's Trail (reptile) with 2
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields12](../maps/fields12.md) | – | 1 | – |
-| [fields5](../maps/fields5.md) | Guynmart Castle | 2 | – |
-| [waterway0](../maps/waterway0.md) | – | 3 | – |
-| [waterway1](../maps/waterway1.md) | – | 2 | – |
-| [waterway14](../maps/waterway14.md) | – | 3 | – |
-| [waterway15](../maps/waterway15.md) | – | 4 | – |
-| [waterway2](../maps/waterway2.md) | – | 4 | – |
-| [waterway3](../maps/waterway3.md) | – | 4 | – |
-| [waterway4](../maps/waterway4.md) | – | 8 | – |
-| [waterway5](../maps/waterway5.md) | – | 4 | – |
-| [waterwaya1](../maps/waterwaya1.md) | – | 2 | – |
-| [waterwaya2](../maps/waterwaya2.md) | – | 3 | – |
-| [waterwayextention](../maps/waterwayextention.md) | – | 3 | – |
+| [Fields 12](../maps/fields12.md) | – | 1 | – |
+| [Fields 5](../maps/fields5.md) | Guynmart Castle | 2 | – |
+| [Waterway 0](../maps/waterway0.md) | – | 3 | – |
+| [Waterway 1](../maps/waterway1.md) | – | 2 | – |
+| [Waterway 14](../maps/waterway14.md) | – | 3 | – |
+| [Waterway 15](../maps/waterway15.md) | – | 4 | – |
+| [Waterway 2](../maps/waterway2.md) | – | 4 | – |
+| [Waterway 3](../maps/waterway3.md) | – | 4 | – |
+| [Waterway 4](../maps/waterway4.md) | – | 8 | – |
+| [Waterway 5](../maps/waterway5.md) | – | 4 | – |
+| [Waterwaya 1](../maps/waterwaya1.md) | – | 2 | – |
+| [Waterwaya 2](../maps/waterwaya2.md) | – | 3 | – |
+| [Waterwayextention](../maps/waterwayextention.md) | – | 3 | – |
 
 
 ## Version history

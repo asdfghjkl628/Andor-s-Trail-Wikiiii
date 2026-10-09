@@ -1,10 +1,10 @@
 ---
-description: "Taurophag is an enemy in Andor's Trail (animal) with 180 HP, worth 410 XP, found in mountainlake29."
+description: "Taurophag is an enemy in Andor's Trail (animal) with 180 HP, worth 410 XP, found in Mountainlake 29."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_3_20.png){ .sprite } Taurophag
 
-**Found in:** [mountainlake29](../maps/mountainlake29.md)
+**Found in:** [Mountainlake 29](../maps/mountainlake29.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Taurophag is an enemy in Andor's Trail (animal) with 180 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake29 |
+| **Found in** | Mountainlake 29 |
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 410 |
@@ -48,12 +48,12 @@ description: "Taurophag is an enemy in Andor's Trail (animal) with 180 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake29](../maps/mountainlake29.md) | – | 1 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-129) with stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [mountainlake29](../maps/mountainlake29.md) checks that this enemy has been defeated.
+- [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md#stage-129) with stepping on a trigger on [Mountainlake 29](../maps/mountainlake29.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Mountainlake 29](../maps/mountainlake29.md) checks that this enemy has been defeated.
 
 
 ## Version history

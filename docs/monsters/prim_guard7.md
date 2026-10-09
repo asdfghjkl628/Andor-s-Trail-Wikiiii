@@ -4,7 +4,7 @@ description: "Wounded Prim guard is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } Wounded Prim guard
 
-**Where to find Wounded Prim guard:** Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-prim_guard7)
+**Where to find Wounded Prim guard:** Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-prim_guard7)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Wounded Prim guard is a non-player character (NPC) in Andor's Trai
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wounded Prim guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wounded Prim guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_guard7_sleeping.json" data-npc="Wounded Prim guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_guard7_sleeping"></span>**`prim_guard7_sleeping`** Wounded Prim guard: “Zzz... Zzz...”
 

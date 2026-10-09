@@ -11,9 +11,9 @@ description: "A creeping fear is a quest in Andor's Trail, started by Lodar (lod
 | **Quest ID** | `xulviir` |
 | **In journal** | Yes |
 | **Stages** | 3 (completes at 20, 30) |
-| **Started by** | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
+| **Started by** | [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) |
 | **NPCs involved** | [Lodar](../monsters/lodar.md), [Vilegard smith](../monsters/vilegard_smith.md) |
-| **Locations** | [lodarhouse1](../maps/lodarhouse1.md), [vilegard_smith](../maps/vilegard_smith.md) |
+| **Locations** | [Lodarhouse 1](../maps/lodarhouse1.md), [Vilegard smith](../maps/vilegard_smith.md) |
 | **Total XP** | 4,000 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "A creeping fear is a quest in Andor's Trail, started by Lodar (lod
 
 ## Prerequisites to start
 
-Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)). Required:
+Start with [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)). Required:
 
 - reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60)
 - carry 1× [Broken sword](../items/xulviir0.md)
@@ -44,29 +44,54 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I was told that the broken sword that I found on the body of the Hira'zinn should be taken to the smith in Vilegard. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | carry 1× [Broken sword](../items/xulviir0.md) | – |
-| <span id="stage-20"></span>20 | I have restored the Xul'viir. I had to threaten the smith in Vilegard to get it restored. **(completes quest)** | [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | carry 1× [Broken sword](../items/xulviir0.md), carry 3× [Oegyth crystal](../items/oegyth.md), hand over 1× [Broken sword](../items/xulviir0.md), hand over 3× [Oegyth crystal](../items/oegyth.md) | 2,000 XP<br>gives [Xul'viir](../items/xulviir.md) |
-| <span id="stage-30"></span>30 | I have destroyed the Xul'viir. **(completes quest)** | [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | carry 1× [Broken sword](../items/xulviir0.md), hand over 1× [Broken sword](../items/xulviir0.md) | 2,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I was told that the broken sword that I found on the body of the… ▸</span><span class="l">▴ less</span></summary>I was told that the broken sword that I found on the body of the Hira'zinn should be taken to the smith in Vilegard.</details> | [Lodar](../monsters/lodar.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I have restored the Xul'viir. I had to threaten the smith in… ▸</span><span class="l">▴ less</span></summary>I have restored the Xul'viir. I had to threaten the smith in Vilegard to get it restored.</details> **(ends quest)** | [Vilegard smith](../monsters/vilegard_smith.md) | 2,000 XP, [Xul'viir](../items/xulviir.md) |
+| <span id="stage-30"></span>[30](#route-30) | I have destroyed the Xul'viir. **(ends quest)** | [Vilegard smith](../monsters/vilegard_smith.md) | 2,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “Vilegard?” — **conditions:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); carry 1× [Broken sword](../items/xulviir0.md) → **stage 10**. NPC: “Vilegard - yes, that's the place. You should go see the smith there. He might be able to guide you further.”
+??? note "Stage 10 · Lodar · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “Vilegard?”
 
-    1. Talk to [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) → choose “I'm sure. Here is the sword and three of those crystals. Restore it to how it once was.” — **conditions:** reached stage 56 of [Feygard errands](../quests/feygard_shipment.md#stage-56); carry 1× [Broken sword](../items/xulviir0.md); carry 3× [Oegyth crystal](../items/oegyth.md); hand over 3× [Oegyth crystal](../items/oegyth.md); hand over 1× [Broken sword](../items/xulviir0.md) → **stage 20**; also gives [Xul'viir](../items/xulviir.md). NPC: “Sigh. OK, whatever you say. We just need to fit these into there, and sharpen up this bit here. There. It should be…”
+    - **Needs:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60); carry 1× [Broken sword](../items/xulviir0.md)
+    - *“Vilegard - yes, that's the place. You should go see the smith there. He might be able to guide you further.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) → choose “Here it is. We had better get rid of it.” — **conditions:** reached stage 56 of [Feygard errands](../quests/feygard_shipment.md#stage-56); carry 1× [Broken sword](../items/xulviir0.md); hand over 1× [Broken sword](../items/xulviir0.md) → **stage 30**. NPC: “Into the smelting pit with it. Good. See how it bubbles and flares? That's the lives of countless people thanking you…”
+<span id="route-20"></span>
+
+??? note "Stage 20 · Vilegard smith · 1 way"
+
+    **Way 1:** Talk to [Vilegard smith](../monsters/vilegard_smith.md), choose “I'm sure. Here is the sword and three of those crystals. Restore it to how it once was.”
+
+    - **Needs:** reached stage 56 of [Feygard errands](../quests/feygard_shipment.md#stage-56); carry 1× [Broken sword](../items/xulviir0.md); carry 3× [Oegyth crystal](../items/oegyth.md); hand over 3× [Oegyth crystal](../items/oegyth.md); hand over 1× [Broken sword](../items/xulviir0.md)
+    - **Gives:** [Xul'viir](../items/xulviir.md)
+    - *“Sigh. OK, whatever you say. We just need to fit these into there, and sharpen up this bit here. There. It should be almost like it once was.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Vilegard smith · 1 way"
+
+    **Way 1:** Talk to [Vilegard smith](../monsters/vilegard_smith.md), choose “Here it is. We had better get rid of it.”
+
+    - **Needs:** reached stage 56 of [Feygard errands](../quests/feygard_shipment.md#stage-56); carry 1× [Broken sword](../items/xulviir0.md); hand over 1× [Broken sword](../items/xulviir0.md)
+    - *“Into the smelting pit with it. Good. See how it bubbles and flares? That's the lives of countless people thanking you for destroying it.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

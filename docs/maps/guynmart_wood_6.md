@@ -12,7 +12,7 @@ description: "Guynmart wood 6 is an outdoor location in Andor's Trail, near Guyn
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 15×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 2 |
@@ -61,7 +61,7 @@ description: "Guynmart wood 6 is an outdoor location in Andor's Trail, near Guyn
 ## Quests
 
 - [Unusual experiences and achievements](../quests/achievements.md): something on this map advances it; stepping on a trigger here sets stage 60
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): [Rob](../monsters/guynmart_rob.md#v-guynmart_rob5) is involved
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): [Rob](../monsters/guynmart_rob.md#v-guynmart_rob5) is involved
 
 ## Points of interest
 

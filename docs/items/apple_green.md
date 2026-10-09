@@ -38,15 +38,15 @@ description: "Green apple is a ordinary food in Andor's Trail. How to get it: sh
 - [Bela](../monsters/bela.md)
 - [Peasant grandfather](../monsters/brv_old_farmer.md) (Brimhaven)
 - [Bela](../monsters/bela.md#v-bela_2)
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 ### Found in containers
 
-- [guynmart_main_2](../maps/guynmart_main_2.md#container-0) (container 1, 100%), Guynmart Castle
+- [Guynmart main 2](../maps/guynmart_main_2.md#container-0) (container 1, 100%), Guynmart Castle
 
 ### Quest & dialogue rewards
 
-- From [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) during [Rumblings](../quests/rumblings.md#stage-90) (100%)
+- From [Tahalendor](../monsters/tahalendor.md) ([Stoutford church](../maps/stoutford_church.md)) during [Rumblings](../quests/rumblings.md#stage-90) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -57,7 +57,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “How about I set out a green apple? That could be enough to earn its trust.” |
+| stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “How about I set out a green apple? That could be enough to earn its trust.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

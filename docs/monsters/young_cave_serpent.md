@@ -1,10 +1,10 @@
 ---
-description: "Young cave serpent is an enemy in Andor's Trail (reptile) with 18 HP, worth 80 XP, found in basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3. Drops: Gold coins, Meat, Poison gland."
+description: "Young cave serpent is an enemy in Andor's Trail (reptile) with 18 HP, worth 80 XP, found in Basiliskcave 1 1 1, Basiliskcave 1 1 2, Basiliskcave 1 1 3. Drops: Gold coins, Meat, Poison gland."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_19.png){ .sprite } Young cave serpent
 
-**Found in:** [basiliskcave1_1_1](../maps/basiliskcave1_1_1.md), [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md), [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md)
+**Found in:** [Basiliskcave 1 1 1](../maps/basiliskcave1_1_1.md), [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md), [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young cave serpent is an enemy in Andor's Trail (reptile) with 18 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | basiliskcave1_1_1, basiliskcave1_1_2, basiliskcave1_1_3 |
+| **Found in** | Basiliskcave 1 1 1, Basiliskcave 1 1 2, Basiliskcave 1 1 3 |
 | **Class** | Reptile |
 | **HP** | 18 |
 | **XP when defeated** | 80 |
@@ -58,9 +58,9 @@ description: "Young cave serpent is an enemy in Andor's Trail (reptile) with 18 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave1_1_1](../maps/basiliskcave1_1_1.md) | – | 8 | – |
-| [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md) | – | 6 | – |
-| [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md) | – | 5 | – |
+| [Basiliskcave 1 1 1](../maps/basiliskcave1_1_1.md) | – | 8 | – |
+| [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md) | – | 6 | – |
+| [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md) | – | 5 | – |
 
 
 ## Version history

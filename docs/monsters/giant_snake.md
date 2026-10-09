@@ -4,7 +4,7 @@ description: "Giant snake is an enemy in Andor's Trail (animal) with 250 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rltiles2_21.png){ .sprite } Giant snake
 
-**Found in:** Fallhaven: [gapfiller2](../maps/gapfiller2.md)
+**Found in:** Fallhaven: [Gapfiller 2](../maps/gapfiller2.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Giant snake is an enemy in Andor's Trail (animal) with 250 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gapfiller2](../maps/gapfiller2.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Gapfiller 2](../maps/gapfiller2.md) | Fallhaven | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 

@@ -1,10 +1,10 @@
 ---
-description: "Enraged mountain brute is an enemy in Andor's Trail (giant) with 148 HP, worth 291 XP, found in mountainlake8, mountainlake8_cave. Drops: Bone, Animal hair, Mundane ring."
+description: "Enraged mountain brute is an enemy in Andor's Trail (giant) with 148 HP, worth 291 XP, found in Mountainlake 8, Mountainlake 8 cave. Drops: Bone, Animal hair, Mundane ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_33.png){ .sprite } Enraged mountain brute
 
-**Found in:** [mountainlake8](../maps/mountainlake8.md), [mountainlake8_cave](../maps/mountainlake8_cave.md)
+**Found in:** [Mountainlake 8](../maps/mountainlake8.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Enraged mountain brute is an enemy in Andor's Trail (giant) with 1
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake8, mountainlake8_cave |
+| **Found in** | Mountainlake 8, Mountainlake 8 cave |
 | **Class** | Giant |
 | **HP** | 148 |
 | **XP when defeated** | 291 |
@@ -56,8 +56,8 @@ description: "Enraged mountain brute is an enemy in Andor's Trail (giant) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake8](../maps/mountainlake8.md) | – | 4 | – |
-| [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | 4 | – |
+| [Mountainlake 8](../maps/mountainlake8.md) | – | 4 | – |
+| [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | – | 4 | – |
 
 
 ## Version history

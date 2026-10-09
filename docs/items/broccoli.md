@@ -35,7 +35,7 @@ description: "Broccoli is a ordinary food in Andor's Trail. How to get it: shops
 
 ### Sold by
 
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

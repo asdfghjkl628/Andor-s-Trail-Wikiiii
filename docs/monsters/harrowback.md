@@ -4,7 +4,7 @@ description: "Harrowback is an enemy in Andor's Trail (animal) with 197 HP, wort
 
 # ![](../assets/icons/monsters/monsters_tometik1_83.png){ .sprite } Harrowback
 
-**Found in:** Mt. Galmore: [galmore_24](../maps/galmore_24.md), Mt. Galmore: [galmore_33](../maps/galmore_33.md), Mt. Galmore: [galmore_34](../maps/galmore_34.md), [galmore_23](../maps/galmore_23.md)
+**Found in:** Mt. Galmore: [Galmore 24](../maps/galmore_24.md), Mt. Galmore: [Galmore 33](../maps/galmore_33.md), Mt. Galmore: [Galmore 34](../maps/galmore_34.md), [Galmore 23](../maps/galmore_23.md)
 
 <div class="infobox" markdown>
 
@@ -58,10 +58,10 @@ description: "Harrowback is an enemy in Andor's Trail (animal) with 197 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_23](../maps/galmore_23.md) | – | 10 | – |
-| [galmore_24](../maps/galmore_24.md) | Mt. Galmore | 7 | – |
-| [galmore_33](../maps/galmore_33.md) | Mt. Galmore | 7 | – |
-| [galmore_34](../maps/galmore_34.md) | Mt. Galmore | 6 | – |
+| [Galmore 23](../maps/galmore_23.md) | – | 10 | – |
+| [Galmore 24](../maps/galmore_24.md) | Mt. Galmore | 7 | – |
+| [Galmore 33](../maps/galmore_33.md) | Mt. Galmore | 7 | – |
+| [Galmore 34](../maps/galmore_34.md) | Mt. Galmore | 6 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Large catacomb rat is an enemy in Andor's Trail (animal) with 21 H
 
 # ![](../assets/icons/monsters/monsters_rats_3.png){ .sprite } Large catacomb rat
 
-**Found in:** Fallhaven: [catacombs1](../maps/catacombs1.md), Fallhaven: [catacombs2](../maps/catacombs2.md), Fallhaven: [catacombs3](../maps/catacombs3.md), Fallhaven: [fallhaven_tunnel1](../maps/fallhaven_tunnel1.md) (+1 more)
+**Found in:** Fallhaven: [Catacombs 1](../maps/catacombs1.md), Fallhaven: [Catacombs 2](../maps/catacombs2.md), Fallhaven: [Catacombs 3](../maps/catacombs3.md), Fallhaven: [Fallhaven tunnel 1](../maps/fallhaven_tunnel1.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -56,11 +56,11 @@ description: "Large catacomb rat is an enemy in Andor's Trail (animal) with 21 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [catacombs1](../maps/catacombs1.md) | Fallhaven | 4 | – |
-| [catacombs2](../maps/catacombs2.md) | Fallhaven | 4 | – |
-| [catacombs3](../maps/catacombs3.md) | Fallhaven | 2 | – |
-| [fallhaven_tunnel1](../maps/fallhaven_tunnel1.md) | Fallhaven | 2 | – |
-| [fallhaven_tunnel2](../maps/fallhaven_tunnel2.md) | Fallhaven | 2 | – |
+| [Catacombs 1](../maps/catacombs1.md) | Fallhaven | 4 | – |
+| [Catacombs 2](../maps/catacombs2.md) | Fallhaven | 4 | – |
+| [Catacombs 3](../maps/catacombs3.md) | Fallhaven | 2 | – |
+| [Fallhaven tunnel 1](../maps/fallhaven_tunnel1.md) | Fallhaven | 2 | – |
+| [Fallhaven tunnel 2](../maps/fallhaven_tunnel2.md) | Fallhaven | 2 | – |
 
 
 ## Version history

@@ -52,7 +52,7 @@ description: "Circlet of clarity is a extraordinary ring in Andor's Trail (Max H
 
 ### Quest & dialogue rewards
 
-- From [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) (1×)
+- From [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

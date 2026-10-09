@@ -39,7 +39,7 @@ description: "Dark protector is a extraordinary headwear, metal (light) in Andor
 
 ### Quest & dialogue rewards
 
-- From reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) during [The dark protector](../quests/darkprotector.md#stage-70) (100%)
+- From reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) during [The dark protector](../quests/darkprotector.md#stage-70) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

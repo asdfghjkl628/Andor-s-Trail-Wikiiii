@@ -4,7 +4,7 @@ description: "Ravenous carrion centipede is an enemy in Andor's Trail (insect) w
 
 # ![](../assets/icons/monsters/monsters_rltiles2_163.png){ .sprite } Ravenous carrion centipede
 
-**Found in:** Charwood: [minerhouse4](../maps/minerhouse4.md), Charwood: [minerhouse5](../maps/minerhouse5.md), Charwood: [waytolostmine0](../maps/waytolostmine0.md), Charwood: [waytolostmine2](../maps/waytolostmine2.md) (+2 more)
+**Found in:** Charwood: [Minerhouse 4](../maps/minerhouse4.md), Charwood: [Minerhouse 5](../maps/minerhouse5.md), Charwood: [Waytolostmine 0](../maps/waytolostmine0.md), Charwood: [Waytolostmine 2](../maps/waytolostmine2.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -58,12 +58,12 @@ description: "Ravenous carrion centipede is an enemy in Andor's Trail (insect) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [minerhouse4](../maps/minerhouse4.md) | Charwood | 7 | – |
-| [minerhouse5](../maps/minerhouse5.md) | Charwood | 6 | – |
-| [roadbeforecrossroads9](../maps/roadbeforecrossroads9.md) | Foaming Flask Tavern | 4 | – |
-| [waytolostmine0](../maps/waytolostmine0.md) | Charwood | 23 | – |
-| [waytolostmine2](../maps/waytolostmine2.md) | Charwood | 2 | – |
-| [waytominingtown3](../maps/waytominingtown3.md) | Charwood | 2 | – |
+| [Minerhouse 4](../maps/minerhouse4.md) | Charwood | 7 | – |
+| [Minerhouse 5](../maps/minerhouse5.md) | Charwood | 6 | – |
+| [Roadbeforecrossroads 9](../maps/roadbeforecrossroads9.md) | Foaming Flask Tavern | 4 | – |
+| [Waytolostmine 0](../maps/waytolostmine0.md) | Charwood | 23 | – |
+| [Waytolostmine 2](../maps/waytolostmine2.md) | Charwood | 2 | – |
+| [Waytominingtown 3](../maps/waytominingtown3.md) | Charwood | 2 | – |
 
 
 ## Version history

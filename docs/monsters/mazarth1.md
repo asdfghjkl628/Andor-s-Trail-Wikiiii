@@ -4,7 +4,7 @@ description: "Mazarth beast is an enemy in Andor's Trail (giant) with 129 HP, wo
 
 # ![](../assets/icons/monsters/monsters_ld2_36.png){ .sprite } Mazarth beast
 
-**Found in:** Charwood: [lostmine0](../maps/lostmine0.md), Charwood: [lostmine1](../maps/lostmine1.md), Charwood: [waytolostmine2](../maps/waytolostmine2.md), Charwood: [waytolostmine3](../maps/waytolostmine3.md) (+1 more)
+**Found in:** Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md), Charwood: [Waytolostmine 2](../maps/waytolostmine2.md), Charwood: [Waytolostmine 3](../maps/waytolostmine3.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Mazarth beast is an enemy in Andor's Trail (giant) with 129 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine0](../maps/lostmine0.md) | Charwood | 1 | – |
-| [lostmine1](../maps/lostmine1.md) | Charwood | 1 | – |
-| [lostmine2a](../maps/lostmine2a.md) | – | 3 | – |
-| [waytolostmine2](../maps/waytolostmine2.md) | Charwood | 2 | – |
-| [waytolostmine3](../maps/waytolostmine3.md) | Charwood | 1 | – |
+| [Lostmine 0](../maps/lostmine0.md) | Charwood | 1 | – |
+| [Lostmine 1](../maps/lostmine1.md) | Charwood | 1 | – |
+| [Lostmine 2a](../maps/lostmine2a.md) | – | 3 | – |
+| [Waytolostmine 2](../maps/waytolostmine2.md) | Charwood | 2 | – |
+| [Waytolostmine 3](../maps/waytolostmine3.md) | Charwood | 1 | – |
 
 
 ## Version history

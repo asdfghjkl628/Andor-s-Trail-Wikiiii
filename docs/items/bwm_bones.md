@@ -26,7 +26,7 @@ description: "Huge bones from the Blackwater Mountains is a ordinary animal part
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md) during [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) (1×)
+- From stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md) during [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

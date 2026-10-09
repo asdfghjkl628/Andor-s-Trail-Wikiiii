@@ -39,27 +39,27 @@ description: "Raw inkyfish is a ordinary edible animal part in Andor's Trail. Ho
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Aggressive bear](../monsters/cave_bear.md) | 100% | 5-7 | korhald_cave_bear |
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 6.25% | 1-3 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 6.25% | 1-3 | elm5f_1, elm5f_2 |
+| [Aggressive bear](../monsters/cave_bear.md) | 100% | 5-7 | Korhald cave bear |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 6.25% | 1-3 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 6.25% | 1-3 | Elm 5f 1, Elm 5f 2 |
 
 ### Found in containers
 
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-0) (container 1, 100%), Blackwater Mountain
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 100%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 100%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 100%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 100%), Blackwater Mountain
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 100%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-2) (container 3, 100%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-0) (container 1, 100%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-1) (container 2, 100%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-2) (container 3, 100%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-0) (container 1, 100%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-1) (container 2, 100%)
-- [elm_mine4](../maps/elm_mine4.md#container-0) (container 1, 100%)
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 50%)
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-0) (container 1, 100%), Blackwater Mountain
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-1) (container 2, 100%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-0) (container 1, 100%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-1) (container 2, 100%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-2) (container 3, 100%), Blackwater Mountain
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-1) (container 2, 100%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-2) (container 3, 100%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-0) (container 1, 100%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-1) (container 2, 100%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-2) (container 3, 100%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-0) (container 1, 100%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-1) (container 2, 100%)
+- [Elm mine 4](../maps/elm_mine4.md#container-0) (container 1, 100%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

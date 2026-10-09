@@ -38,25 +38,25 @@ description: "Jinxed ring of damage resistance is a ordinary ring in Andor's Tra
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | flagstone4 |
-| [Ancient death cob](../monsters/deathcobboss.md) | 100% | 1 | sullengard10 |
+| [Winged demon](../monsters/winged_demon.md) | 100% | 1 | Flagstone 4 |
+| [Ancient death cob](../monsters/deathcobboss.md) | 100% | 1 | Sullengard 10 |
 | [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard2) | 20% | 1-3 | Prim |
-| [Sinister wraith](../monsters/sinister_wraith.md) | 10% | 1 | haunted_underground_3, haunted_underground_4, haunted_underground_5 |
-| [Young izthiel](../monsters/izthiel_1.md) | 1% | 1 | korhald_cave_outdoor1, waterway0, waterway1 |
+| [Sinister wraith](../monsters/sinister_wraith.md) | 10% | 1 | Haunted underground 3, Haunted underground 4, Haunted underground 5 |
+| [Young izthiel](../monsters/izthiel_1.md) | 1% | 1 | Korhald cave outdoor 1, Waterway 0, Waterway 1 |
 | [Izthiel](../monsters/izthiel_2.md) | 1% | 1 | Brimhaven, Brightport |
 | [Strong izthiel](../monsters/izthiel_3.md) | 1% | 1 | Flagstone Prison, Brimhaven |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 1% | 1 | Brimhaven |
 
 ### Sold by
 
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 - [Rorthron](../monsters/guynmart_wizard.md) (Guynmart Castle)
 - [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) (Prim)
 
 ### Found in containers
 
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-4) (container 5, 100%), Prim
-- [guynmart_tower_4](../maps/guynmart_tower_4.md#container-0) (container 1, 100%), Guynmart Castle
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-4) (container 5, 100%), Prim
+- [Guynmart tower 4](../maps/guynmart_tower_4.md#container-0) (container 1, 100%), Guynmart Castle
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

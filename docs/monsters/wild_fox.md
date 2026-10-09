@@ -4,7 +4,7 @@ description: "Wild fox is an enemy in Andor's Trail (animal) with 25 HP, worth 4
 
 # ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } Wild fox
 
-**Found in:** Blackwater Mountain: [wild6](../maps/wild6.md), Crossroads Guardhouse: [roadbeforecrossroads](../maps/roadbeforecrossroads.md), Crossroads Guardhouse: [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md), Fallhaven: [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) (+3 more)
+**Found in:** Blackwater Mountain: [Wild 6](../maps/wild6.md), Crossroads Guardhouse: [Roadbeforecrossroads](../maps/roadbeforecrossroads.md), Crossroads Guardhouse: [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md), Fallhaven: [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -56,13 +56,13 @@ description: "Wild fox is an enemy in Andor's Trail (animal) with 25 HP, worth 4
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 1 | – |
-| [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 1 | – |
-| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 8 | – |
-| [roadbeforecrossroads3](../maps/roadbeforecrossroads3.md) | Fallhaven | 2 | – |
-| [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) | Fallhaven | 1 | – |
-| [wild5](../maps/wild5.md) | Fallhaven | 2 | – |
-| [wild6](../maps/wild6.md) | Blackwater Mountain | 2 | – |
+| [Roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 1 | – |
+| [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 1 | – |
+| [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) | Fallhaven | 8 | – |
+| [Roadbeforecrossroads 3](../maps/roadbeforecrossroads3.md) | Fallhaven | 2 | – |
+| [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md) | Fallhaven | 1 | – |
+| [Wild 5](../maps/wild5.md) | Fallhaven | 2 | – |
+| [Wild 6](../maps/wild6.md) | Blackwater Mountain | 2 | – |
 
 
 ## Version history

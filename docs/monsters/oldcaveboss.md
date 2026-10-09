@@ -4,7 +4,7 @@ description: "Dread zombie is an enemy in Andor's Trail (undead) with 95 HP, wor
 
 # ![](../assets/icons/monsters/monsters_tometik1_78.png){ .sprite } Dread zombie
 
-**Found in:** Foaming Flask Tavern: [oldcave1](../maps/oldcave1.md)
+**Found in:** Foaming Flask Tavern: [Oldcave 1](../maps/oldcave1.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Dread zombie is an enemy in Andor's Trail (undead) with 95 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [oldcave1](../maps/oldcave1.md) | Foaming Flask Tavern | 1 | – |
+| [Oldcave 1](../maps/oldcave1.md) | Foaming Flask Tavern | 1 | – |
 
 
 ## Version history

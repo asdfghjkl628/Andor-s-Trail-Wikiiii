@@ -11,9 +11,9 @@ description: "Everything in order is a quest in Andor's Trail, started by Bridge
 | **Quest ID** | `remgard` |
 | **In journal** | Yes |
 | **Stages** | 21 (completes at 80, 110) |
-| **Started by** | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) |
+| **Started by** | [Bridge lookout](../monsters/remgard_bridge.md) ([Mountainlake 13a](../maps/mountainlake13a.md)) |
 | **NPCs involved** | [Bridge lookout](../monsters/remgard_bridge.md), [Duaina](../monsters/duaina.md), [Jhaeld](../monsters/jhaeld.md), [Krell](../monsters/krell.md), [Norath](../monsters/norath.md), [Rothses](../monsters/rothses.md) |
-| **Locations** | [mountainlake13a](../maps/mountainlake13a.md), [remgard3](../maps/remgard3.md), [remgard_armour](../maps/remgard_armour.md), [remgard_farmer3](../maps/remgard_farmer3.md) |
+| **Locations** | [Mountainlake 13a](../maps/mountainlake13a.md), [Remgard 3](../maps/remgard3.md), [Remgard armour](../maps/remgard_armour.md), [Remgard farmer 3](../maps/remgard_farmer3.md) |
 | **Total XP** | 21,000 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "Everything in order is a quest in Andor's Trail, started by Bridge
 
 ## Prerequisites to start
 
-None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) to begin.
+None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([Mountainlake 13a](../maps/mountainlake13a.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -42,122 +42,254 @@ None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a]
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I have reached the bridge to enter the town of Remgard. According to the bridge guard, the town is closed for outsiders to enter, and no-one is currently allowed to leave. They are investigating some disappearances of some of the townspeople. | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) | – | – |
-| <span id="stage-15"></span>15 | I have offered my assistance in helping the people of Remgard investigate what has happened to the townspeople that have disappeared. | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) | – | – |
-| <span id="stage-20"></span>20 | The bridge guard has asked me to investigate an abandoned house to the east along the northern shore of the lake. I should be wary of any inhabitants that may be there. | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) | – | – |
-| <span id="stage-30"></span>30 | I have reported back to the bridge guard that I met Algangror in the abandoned house. | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) | – | 3,000 XP |
-| <span id="stage-31"></span>31 | I have reported back to the bridge guard that the abandoned house was empty. | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) | – | 3,000 XP |
-| <span id="stage-35"></span>35 | I have been granted entrance into Remgard. I should go visit Jhaeld, the town elder, to talk about what the next step should be. Jhaeld can probably be found in the tavern to the southeast. | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) | – | – |
-| <span id="stage-40"></span>40 | Jhaeld was rather arrogant, but told me that they have had a problem with people disappearing for a while now. They have no clue what could be causing it. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-50"></span>50 | I should visit four people in Remgard, and ask them about any clues on what might have happened to the missing people. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-51"></span>51 | First is Norath, whose wife Bethir has disappeared. Norath can be found in the south-westernmost farmhouse. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 50 | – |
-| <span id="stage-52"></span>52 | Second, I should go talk to the Knights of Elythom, here in the tavern. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 50 | – |
-| <span id="stage-53"></span>53 | Third, I should go talk to the old woman Duaina in her house to the south. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 50 | – |
-| <span id="stage-54"></span>54 | Lastly, I should talk to Rothses, the armorer. He lives on the west side of town. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 50 | – |
-| <span id="stage-59"></span>59 | I tried to tell Jhaeld about Algangror, but he dismissed me as he had not heard me. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 30, stage 50 | – |
-| <span id="stage-61"></span>61 | I have talked to Norath. He and his wife had been fighting recently, but he has no idea on what may have happened to her. | [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md)) | stage 51 | – |
-| <span id="stage-62"></span>62 | The Knights of Elythom in the Remgard tavern have had one of their knights disappearing recently. No one noticed anything when she disappeared, however. | [Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) | stage 52 | – |
-| <span id="stage-63"></span>63 | Duaina has seen me in her visions. I did not understand all that she spoke of, but the parts that were clear were that me and Andor were parts of a larger plot. I wonder what this means? She did not speak of any disappearing people however, not that I could understand anyway. | [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md)) | stage 52 | – |
-| <span id="stage-64"></span>64 | Rothses told me that Bethir visited him the night before she disappeared, to sell some equipment. He did not see where she went after that. | [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) | stage 52 | – |
-| <span id="stage-70"></span>70 | I have talked to all of the people that Jhaeld wanted me to talk to, but did not get any information from any of them about what may have happened to the missing people. I should go back to Jhaeld and ask what his plans are next. | [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md))<br>[Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md))<br>[Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md))<br>+1 more | stage 51, stage 52, stage 61, stage 62, stage 63, stage 64 | – |
-| <span id="stage-75"></span>75 | Jhaeld was really upset that I did not find out anything from the people that I was sent to talk to. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | 15,000 XP |
-| <span id="stage-80"></span>80 | If I still want to help Jhaeld and the people of Remgard, I should look for clues in other places. **(completes quest)** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-110"></span>110 | Jhaeld does not want to talk to me. I will not help them find out what happened to the missing people of Remgard. **(completes quest)** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 50 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I have reached the bridge to enter the town of Remgard. According to… ▸</span><span class="l">▴ less</span></summary>I have reached the bridge to enter the town of Remgard. According to the bridge guard, the town is closed for outsiders to enter, and no-one is currently allowed to leave. They are investigating some disappearances of some of the townspeople.</details> | [Bridge lookout](../monsters/remgard_bridge.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">I have offered my assistance in helping the people of Remgard… ▸</span><span class="l">▴ less</span></summary>I have offered my assistance in helping the people of Remgard investigate what has happened to the townspeople that have disappeared.</details> | [Bridge lookout](../monsters/remgard_bridge.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">The bridge guard has asked me to investigate an abandoned house to… ▸</span><span class="l">▴ less</span></summary>The bridge guard has asked me to investigate an abandoned house to the east along the northern shore of the lake. I should be wary of any inhabitants that may be there.</details> | [Bridge lookout](../monsters/remgard_bridge.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I have reported back to the bridge guard that I met Algangror in the… ▸</span><span class="l">▴ less</span></summary>I have reported back to the bridge guard that I met Algangror in the abandoned house.</details> | [Bridge lookout](../monsters/remgard_bridge.md) | 3,000 XP |
+| <span id="stage-31"></span>[31](#route-31) | I have reported back to the bridge guard that the abandoned house was empty. | [Bridge lookout](../monsters/remgard_bridge.md) | 3,000 XP |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">I have been granted entrance into Remgard. I should go visit Jhaeld,… ▸</span><span class="l">▴ less</span></summary>I have been granted entrance into Remgard. I should go visit Jhaeld, the town elder, to talk about what the next step should be. Jhaeld can probably be found in the tavern to the southeast.</details> | [Bridge lookout](../monsters/remgard_bridge.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Jhaeld was rather arrogant, but told me that they have had a problem… ▸</span><span class="l">▴ less</span></summary>Jhaeld was rather arrogant, but told me that they have had a problem with people disappearing for a while now. They have no clue what could be causing it.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I should visit four people in Remgard, and ask them about any clues… ▸</span><span class="l">▴ less</span></summary>I should visit four people in Remgard, and ask them about any clues on what might have happened to the missing people.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-51"></span>[51](#route-51) | <details class="jt"><summary><span class="s">First is Norath, whose wife Bethir has disappeared. Norath can be… ▸</span><span class="l">▴ less</span></summary>First is Norath, whose wife Bethir has disappeared. Norath can be found in the south-westernmost farmhouse.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-52"></span>[52](#route-52) | Second, I should go talk to the Knights of Elythom, here in the tavern. | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-53"></span>[53](#route-53) | Third, I should go talk to the old woman Duaina in her house to the south. | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-54"></span>[54](#route-54) | <details class="jt"><summary><span class="s">Lastly, I should talk to Rothses, the armorer. He lives on the west… ▸</span><span class="l">▴ less</span></summary>Lastly, I should talk to Rothses, the armorer. He lives on the west side of town.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-59"></span>[59](#route-59) | <details class="jt"><summary><span class="s">I tried to tell Jhaeld about Algangror, but he dismissed me as he… ▸</span><span class="l">▴ less</span></summary>I tried to tell Jhaeld about Algangror, but he dismissed me as he had not heard me.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-61"></span>[61](#route-61) | <details class="jt"><summary><span class="s">I have talked to Norath. He and his wife had been fighting recently,… ▸</span><span class="l">▴ less</span></summary>I have talked to Norath. He and his wife had been fighting recently, but he has no idea on what may have happened to her.</details> | [Norath](../monsters/norath.md) | – |
+| <span id="stage-62"></span>[62](#route-62) | <details class="jt"><summary><span class="s">The Knights of Elythom in the Remgard tavern have had one of their… ▸</span><span class="l">▴ less</span></summary>The Knights of Elythom in the Remgard tavern have had one of their knights disappearing recently. No one noticed anything when she disappeared, however.</details> | [Krell](../monsters/krell.md) | – |
+| <span id="stage-63"></span>[63](#route-63) | <details class="jt"><summary><span class="s">Duaina has seen me in her visions. I did not understand all that she… ▸</span><span class="l">▴ less</span></summary>Duaina has seen me in her visions. I did not understand all that she spoke of, but the parts that were clear were that me and Andor were parts of a larger plot. I wonder what this means? She did not speak of any disappearing people however, not that I could understand anyway.</details> | [Duaina](../monsters/duaina.md) | – |
+| <span id="stage-64"></span>[64](#route-64) | <details class="jt"><summary><span class="s">Rothses told me that Bethir visited him the night before she… ▸</span><span class="l">▴ less</span></summary>Rothses told me that Bethir visited him the night before she disappeared, to sell some equipment. He did not see where she went after that.</details> | [Rothses](../monsters/rothses.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I have talked to all of the people that Jhaeld wanted me to talk to,… ▸</span><span class="l">▴ less</span></summary>I have talked to all of the people that Jhaeld wanted me to talk to, but did not get any information from any of them about what may have happened to the missing people. I should go back to Jhaeld and ask what his plans are next.</details> | [Norath](../monsters/norath.md), [Krell](../monsters/krell.md) +2 | – |
+| <span id="stage-75"></span>[75](#route-75) | <details class="jt"><summary><span class="s">Jhaeld was really upset that I did not find out anything from the… ▸</span><span class="l">▴ less</span></summary>Jhaeld was really upset that I did not find out anything from the people that I was sent to talk to.</details> | [Jhaeld](../monsters/jhaeld.md) | 15,000 XP |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">If I still want to help Jhaeld and the people of Remgard, I should… ▸</span><span class="l">▴ less</span></summary>If I still want to help Jhaeld and the people of Remgard, I should look for clues in other places.</details> **(ends quest)** | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-110"></span>[110](#route-110) | <details class="jt"><summary><span class="s">Jhaeld does not want to talk to me. I will not help them find out… ▸</span><span class="l">▴ less</span></summary>Jhaeld does not want to talk to me. I will not help them find out what happened to the missing people of Remgard.</details> **(ends quest)** | [Jhaeld](../monsters/jhaeld.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) → choose “Why? Is there something wrong?” → **stage 10**. NPC: “We are searching for them in the town, and questioning everyone for clues on where they might be.”
+??? note "Stage 10 · Bridge lookout · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Bridge lookout](../monsters/remgard_bridge.md), choose “Why? Is there something wrong?”
 
-    1. Talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) → choose “I am willing to help you with the investigation if you want.” → **stage 15**. NPC: “Hmm, yes, that might be a good idea actually. Considering you made it up here, you must have some knowledge of the…”
+    - *“We are searching for them in the town, and questioning everyone for clues on where they might be.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) → choose “Not yet, I am still working on it.” — **conditions:** reached stage 20 of [Everything in order](../quests/remgard.md#stage-20) → **stage 20**. NPC: “Excellent. Report back as soon as possible.”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · Bridge lookout · 1 way"
 
-    1. Talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [Everything in order](../quests/remgard.md#stage-30) → **stage 30**. NPC: “Algangror, sigh. Then it is as we feared. This is terrible news.”
+    **Way 1:** Talk to [Bridge lookout](../monsters/remgard_bridge.md), choose “I am willing to help you with the investigation if you want.”
 
-???+ note "Stage 31: 1 route"
+    - *“Hmm, yes, that might be a good idea actually. Considering you made it up here, you must have some knowledge of the surroundings.”*
 
-    1. Talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) → the conversation leads here automatically — **conditions:** reached stage 31 of [Everything in order](../quests/remgard.md#stage-31) → **stage 31**. NPC: “Thank you for scouting that cabin. It's a relief to hear that it is empty. Our fears might not be true then after all.”
 
-???+ note "Stage 35: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) → the conversation leads here automatically — **conditions:** reached stage 35 of [Everything in order](../quests/remgard.md#stage-35) → **stage 35**. NPC: “You should go visit our village elder, Jhaeld, and talk to him about what we should do next. I will let you enter…”
+??? note "Stage 20 · Bridge lookout · 1 way"
 
-???+ note "Stage 40: 1 route"
+    **Way 1:** Talk to [Bridge lookout](../monsters/remgard_bridge.md), choose “Not yet, I am still working on it.”
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Sure, what do you need help with?” → **stage 40**. NPC: “Considering how many there are that have disappeared without anyone knowing what happened, it doesn't seem like they…”
+    - **Needs:** stage 20
+    - *“Excellent. Report back as soon as possible.”*
 
-???+ note "Stage 50: 1 route"
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Can you repeat the names of those that you wanted me to ask?” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 50**. NPC: “There are four people here in Remgard that I believe have more to tell than what we have managed to get out of them. I…”
+<span id="route-30"></span>
 
-???+ note "Stage 51: 1 route"
+??? note "Stage 30 · Bridge lookout · 1 way"
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Can you repeat the names of those that you wanted me to ask?” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 51**. NPC: “First, there's Norath and his wife Bethir that lives in the farmhouse on the southwestern shore. Bethir is nowhere to…”
+    **Way 1:** Talk to [Bridge lookout](../monsters/remgard_bridge.md), automatic
 
-???+ note "Stage 52: 1 route"
+    - **Needs:** stage 30
+    - *“Algangror, sigh. Then it is as we feared. This is terrible news.”*
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Can you repeat the names of those that you wanted me to ask?” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 52**. NPC: “Secondly, as you might have heard, we have been blessed by a visit from a delegation of the Knights of Elythom here in…”
 
-???+ note "Stage 53: 1 route"
+<span id="route-31"></span>
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Can you repeat the names of those that you wanted me to ask?” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 53**. NPC: “Third, the old woman Duaina usually has great wisdom to share, considering the experience she has with ... things out…”
+??? note "Stage 31 · Bridge lookout · 1 way"
 
-???+ note "Stage 54: 1 route"
+    **Way 1:** Talk to [Bridge lookout](../monsters/remgard_bridge.md), automatic
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Can you repeat the names of those that you wanted me to ask?” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 54**. NPC: “Lastly, you should go talk to Rothses, the armorer in town. He meets most people now and then, and might have picked…”
+    - **Needs:** stage 31
+    - *“Thank you for scouting that cabin. It's a relief to hear that it is empty. Our fears might not be true then after all.”*
 
-???+ note "Stage 59: 1 route"
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “What about that Algangror woman that lives outside town?” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50); reached stage 30 of [Everything in order](../quests/remgard.md#stage-30) → **stage 59**. NPC: “What was that? Are you still here? I told you to be as quick as possible.”
+<span id="route-35"></span>
 
-???+ note "Stage 61: 1 route"
+??? note "Stage 35 · Bridge lookout · 1 way"
 
-    1. Talk to [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md)) → choose “Is there anything else you have found out that you didn't tell the guards earlier?” — **conditions:** reached stage 51 of [Everything in order](../quests/remgard.md#stage-51) → **stage 61**
+    **Way 1:** Talk to [Bridge lookout](../monsters/remgard_bridge.md), automatic
 
-???+ note "Stage 62: 1 route"
+    - **Needs:** stage 35
+    - *“You should go visit our village elder, Jhaeld, and talk to him about what we should do next. I will let you enter Remgard to speak to him.”*
 
-    1. Talk to [Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “What do you know about the knight that is missing?” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52) → **stage 62**
 
-???+ note "Stage 63: 1 route"
+<span id="route-40"></span>
 
-    1. Talk to [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md)) → choose “I'm not here to hurt you!” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52) → **stage 63**
+??? note "Stage 40 · Jhaeld · 1 way"
 
-???+ note "Stage 64: 1 route"
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “Sure, what do you need help with?”
 
-    1. Talk to [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) → choose “I'll keep my eye on you.” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52) → **stage 64**
+    - *“Considering how many there are that have disappeared without anyone knowing what happened, it doesn't seem like they are out travelling.”*
 
-???+ note "Stage 70: 4 routes"
 
-    1. Talk to [Norath](../monsters/norath.md) ([remgard_farmer3](../maps/remgard_farmer3.md)) → choose “Is there anything else you have found out that you didn't tell the guards earlier?” — **conditions:** reached stage 51 of [Everything in order](../quests/remgard.md#stage-51); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
-    2. Talk to [Krell](../monsters/krell.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “What do you know about the knight that is missing?” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
-    3. Talk to [Duaina](../monsters/duaina.md) ([remgard3](../maps/remgard3.md)) → choose “I'm not here to hurt you!” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 64 of [Everything in order](../quests/remgard.md#stage-64) → **stage 70**
-    4. Talk to [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) → choose “I'll keep my eye on you.” — **conditions:** reached stage 52 of [Everything in order](../quests/remgard.md#stage-52); reached stage 61 of [Everything in order](../quests/remgard.md#stage-61); reached stage 62 of [Everything in order](../quests/remgard.md#stage-62); reached stage 63 of [Everything in order](../quests/remgard.md#stage-63) → **stage 70**
+<span id="route-50"></span>
 
-???+ note "Stage 75: 1 route"
+??? note "Stage 50 · Jhaeld · 1 way"
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 75 of [Everything in order](../quests/remgard.md#stage-75) → **stage 75**. NPC: “[Jhaeld mumbles] Stupid kids...”
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “Can you repeat the names of those that you wanted me to ask?”
 
-???+ note "Stage 80: 1 route"
+    - **Needs:** stage 50
+    - *“There are four people here in Remgard that I believe have more to tell than what we have managed to get out of them. I want you to go ask…”*
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 80 of [Everything in order](../quests/remgard.md#stage-80) → **stage 80**. NPC: “I suggest you go look in other places if you really want to help us.”
 
-???+ note "Stage 110: 1 route"
+<span id="route-51"></span>
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “I won't do it. I fail to see why I should help you.” — **conditions:** reached stage 50 of [Everything in order](../quests/remgard.md#stage-50) → **stage 110**
+??? note "Stage 51 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “Can you repeat the names of those that you wanted me to ask?”
+
+    - **Needs:** stage 50
+    - *“First, there's Norath and his wife Bethir that lives in the farmhouse on the southwestern shore. Bethir is nowhere to be found, and Norath…”*
+
+
+<span id="route-52"></span>
+
+??? note "Stage 52 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “Can you repeat the names of those that you wanted me to ask?”
+
+    - **Needs:** stage 50
+    - *“Secondly, as you might have heard, we have been blessed by a visit from a delegation of the Knights of Elythom here in Remgard.…”*
+
+
+<span id="route-53"></span>
+
+??? note "Stage 53 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “Can you repeat the names of those that you wanted me to ask?”
+
+    - **Needs:** stage 50
+    - *“Third, the old woman Duaina usually has great wisdom to share, considering the experience she has with ... things out of the ordinary.…”*
+
+
+<span id="route-54"></span>
+
+??? note "Stage 54 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “Can you repeat the names of those that you wanted me to ask?”
+
+    - **Needs:** stage 50
+    - *“Lastly, you should go talk to Rothses, the armorer in town. He meets most people now and then, and might have picked up something that he…”*
+
+
+<span id="route-59"></span>
+
+??? note "Stage 59 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “What about that Algangror woman that lives outside town?”
+
+    - **Needs:** stage 30, 50
+    - *“What was that? Are you still here? I told you to be as quick as possible.”*
+
+
+<span id="route-61"></span>
+
+??? note "Stage 61 · Norath · 1 way"
+
+    **Way 1:** Talk to [Norath](../monsters/norath.md), choose “Is there anything else you have found out that you didn't tell the guards earlier?”
+
+    - **Needs:** stage 51
+
+
+<span id="route-62"></span>
+
+??? note "Stage 62 · Krell · 1 way"
+
+    **Way 1:** Talk to [Krell](../monsters/krell.md), choose “What do you know about the knight that is missing?”
+
+    - **Needs:** stage 52
+
+
+<span id="route-63"></span>
+
+??? note "Stage 63 · Duaina · 1 way"
+
+    **Way 1:** Talk to [Duaina](../monsters/duaina.md), choose “I'm not here to hurt you!”
+
+    - **Needs:** stage 52
+
+
+<span id="route-64"></span>
+
+??? note "Stage 64 · Rothses · 1 way"
+
+    **Way 1:** Talk to [Rothses](../monsters/rothses.md), choose “I'll keep my eye on you.”
+
+    - **Needs:** stage 52
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Norath, Krell, Duaina, Rothses · 4 ways"
+
+    **Way 1:** Talk to [Norath](../monsters/norath.md), choose “Is there anything else you have found out that you didn't tell the guards earlier?”
+
+    - **Needs:** stage 51, 62, 63, 64
+
+    **Way 2:** Talk to [Krell](../monsters/krell.md), choose “What do you know about the knight that is missing?”
+
+    - **Needs:** stage 52, 61, 63, 64
+
+    **Way 3:** Talk to [Duaina](../monsters/duaina.md), choose “I'm not here to hurt you!”
+
+    - **Needs:** stage 52, 61, 62, 64
+
+    **Way 4:** Talk to [Rothses](../monsters/rothses.md), choose “I'll keep my eye on you.”
+
+    - **Needs:** stage 52, 61, 62, 63
+
+
+<span id="route-75"></span>
+
+??? note "Stage 75 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), automatic
+
+    - **Needs:** stage 75
+    - *“[Jhaeld mumbles] Stupid kids...”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), automatic
+
+    - **Needs:** stage 80
+    - *“I suggest you go look in other places if you really want to help us.”*
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “I won't do it. I fail to see why I should help you.”
+
+    - **Needs:** stage 50
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -168,7 +300,7 @@ None: talk to [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a]
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Third, the old woman Duaina usually has great wisdom to share, consid…” → “Third, the old woman Duaina usually has great wisdom to share, consid…”<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Third, the old woman Duaina usually has great wisdom to share, consid…” → “Third, the old woman Duaina usually has great wisdom to share, consid…”<br>· text: “Hm, yes, that might be a good idea actually. Considering you made it …” → “Hmm, yes, that might be a good idea actually. Considering you made it…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

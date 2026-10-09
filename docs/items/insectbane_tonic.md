@@ -36,7 +36,7 @@ description: "Insectbane tonic is a rare potion in Andor's Trail. How to get it:
 
 ### Quest & dialogue rewards
 
-- From [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) (10×)
+- From [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) (10×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

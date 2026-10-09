@@ -11,7 +11,7 @@ description: "Galmore 17 is an outdoor location in Andor's Trail. Enemies: Swamp
 | **Map ID** | `galmore_17` |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
@@ -65,7 +65,7 @@ description: "Galmore 17 is an outdoor location in Andor's Trail. Enemies: Swamp
 
 ## Quests
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 18
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): something on this map advances it; stepping on a trigger here sets stage 18
 
 ## Points of interest
 

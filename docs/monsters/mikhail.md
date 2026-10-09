@@ -22,26 +22,26 @@ description: "Mikhail is an NPC who can also be fought in Andor's Trail, found i
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Mikhail. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Mikhail. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`mikhail`](#v-mikhail) | NPC | Crossglen: [home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md#pin-npc-mikhail) | starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1 | – |
-| [`stn_colonel_mons3`](#v-stn_colonel_mons3) | Enemy | Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md) | – | 100 |
-| [`stn_colonel_mons3b`](#v-stn_colonel_mons3b) | Enemy | Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md) | – | 100 |
+| [`mikhail`](#v-mikhail) | NPC | Crossglen: [Home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-mikhail) | starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1 | – |
+| [`stn_colonel_mons3`](#v-stn_colonel_mons3) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
+| [`stn_colonel_mons3b`](#v-stn_colonel_mons3b) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
 
 ## Crossglen, Home and 1 more (mikhail) { #v-mikhail }
 
 **Entry ID:** `mikhail` · **Type:** NPC · **Role:** Starts [Breakfast bread](../quests/mikhail_bread.md), [More rats!](../quests/ratdom_mikhail.md), [Rats!](../quests/mikhail_rats.md), [Search for Andor](../quests/andor.md) +1
 
-**Location:** Crossglen: [home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md#pin-npc-mikhail)
+**Location:** Crossglen: [Home](../maps/home.md#pin-npc-mikhail), Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md#pin-npc-mikhail)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [home](../maps/home.md) | Crossglen | 1 | – |
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | – |
+| [Home](../maps/home.md) | Crossglen | 1 | – |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | – |
 
 ### Quests
 
@@ -52,14 +52,14 @@ description: "Mikhail is an NPC who can also be fought in Andor's Trail, found i
 - [Rats!](../quests/mikhail_rats.md): stages 10, 100
 - [Search for Andor](../quests/andor.md): stage 1
 - [Unusual experiences and achievements](../quests/achievements.md): stage 1
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): stage 20
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 90
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 1
-- [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 40
+- [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 40
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 90
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): stage 20
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 1
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mikhail. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mikhail. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mikhail_start_select.json" data-npc="Mikhail" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -67,11 +67,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (69 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mikhail-mikhail_start_select"></span>**`mikhail_start_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1))* → [ratdom_mikhail](#d-mikhail-ratdom_mikhail)
+    - branch 1 *(if reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1))* → [ratdom_mikhail](#d-mikhail-ratdom_mikhail)
     - branch 2 *(if reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100))* → [mikhail_start_select2](#d-mikhail-mikhail_start_select2)
     - branch 3 *(if reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10))* → [mikhail_bread_continue](#d-mikhail-mikhail_bread_continue)
     - branch 4 → [mikhail_start_select2](#d-mikhail-mikhail_start_select2)
@@ -144,10 +144,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Do you have any more tasks for me?” *(if NOT reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_rats_done](#d-mikhail-mikhail_rats_done)
     - “Do you have any tasks for me?” *(if NOT reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); NOT reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_tasks](#d-mikhail-mikhail_tasks)
     - “Is there anything else you can tell me about Andor?” → [mikhail_andor1](#d-mikhail-mikhail_andor1)
-    - “I have a present for you.” *(if reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40))* → [mikhail_present_20](#d-mikhail-mikhail_present_20)
-    - “I have a present for you.” *(if reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); NOT reached stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40))* → [mikhail_present_10](#d-mikhail-mikhail_present_10)
+    - “I have a present for you.” *(if reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); reached stage 40 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40))* → [mikhail_present_20](#d-mikhail-mikhail_present_20)
+    - “I have a present for you.” *(if reached stage 20 of [Honor your parents](../quests/brv_present.md#stage-20); NOT reached stage 40 of [Honor your parents](../quests/brv_present.md#stage-40); NOT reached stage 50 of [Honor your parents](../quests/brv_present.md#stage-50); NOT reached stage 60 of [Honor your parents](../quests/brv_present.md#stage-60); NOT reached stage 40 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40))* → [mikhail_present_10](#d-mikhail-mikhail_present_10)
     - “I was searching for Andor.” → [mikhail_news_10](#d-mikhail-mikhail_news_10)
-    - “What kind of book is it that you have in your hand?” *(if NOT reached stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_achievements_10](#d-mikhail-mikhail_achievements_10)
+    - “What kind of book is it that you have in your hand?” *(if NOT reached stage 1 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-1); NOT reached stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1); reached stage 100 of [Breakfast bread](../quests/mikhail_bread.md#stage-100); reached stage 100 of [Rats!](../quests/mikhail_rats.md#stage-100))* → [mikhail_achievements_10](#d-mikhail-mikhail_achievements_10)
     - “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” *(if hand over 1× [Plush pillow](../items/brv_wh_item_01.md); reached stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10); reached stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100))* → [brv_wh_delivery_mikhail](#d-mikhail-brv_wh_delivery_mikhail)
     - “I don't know...something feels wrong. I thought maybe you were in danger.” *(if latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-20) is 20)* → [galmore_marked_stone_mikhail](#d-mikhail-galmore_marked_stone_mikhail)
 
@@ -231,14 +231,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” *(if NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); reached stage 55 of [Search for Andor](../quests/andor.md#stage-55))* → [mikhail_news_30](#d-mikhail-mikhail_news_30)
     - “I met a man called Lodar and he told me that Andor probably went to Nor City.” *(if NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail-mikhail_news_40)
     - “No I did not find out anything yet.” *(if NOT reached stage 30 of [Search for Andor](../quests/andor.md#stage-30); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); NOT reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_default](#d-mikhail-mikhail_default)
-    - “I found Andor far north of here, at a fruit seller's stand.” *(if reached stage 310 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-310); NOT reached stage 20 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-20))* → [mikhail_news_60](#d-mikhail-mikhail_news_60)
-    - “I found Andor far south of here, at Alynndir's house.” *(if reached stage 290 of [Shadows](../quests/shadows.md#stage-290); NOT reached stage 20 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-20))* → [mikhail_news_60](#d-mikhail-mikhail_news_60)
+    - “I found Andor far north of here, at a fruit seller's stand.” *(if reached stage 310 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-310); NOT reached stage 20 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-20))* → [mikhail_news_60](#d-mikhail-mikhail_news_60)
+    - “I found Andor far south of here, at Alynndir's house.” *(if reached stage 290 of [Shadows](../quests/shadows.md#stage-290); NOT reached stage 20 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-20))* → [mikhail_news_60](#d-mikhail-mikhail_news_60)
 
     <span id="d-mikhail-mikhail_achievements_10"></span>**`mikhail_achievements_10`** Mikhail: “Just like my father once did, I want to give you a book to take with you on your way.”
 
     - Next → [mikhail_achievements_20](#d-mikhail-mikhail_achievements_20)
 
-    <span id="d-mikhail-brv_wh_delivery_mikhail"></span>**`brv_wh_delivery_mikhail`** Mikhail: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.” — **effects:** clears stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 90 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-90)
+    <span id="d-mikhail-brv_wh_delivery_mikhail"></span>**`brv_wh_delivery_mikhail`** Mikhail: “Oh wow! Finally, your brother's gift has arrived and we only have to wait for his arrival.” — **effects:** clears stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 90 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-90)
 
     - “Sigh. I hope so.” → [brv_wh_delivery_mikhail2](#d-mikhail-brv_wh_delivery_mikhail2)
     - “What?! Where's my gift?” → [brv_wh_delivery_mikhail3](#d-mikhail-brv_wh_delivery_mikhail3)
@@ -292,18 +292,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [mikhail_default](#d-mikhail-mikhail_default)
 
-    <span id="d-mikhail-mikhail_news_20"></span>**`mikhail_news_20`** Mikhail: “Did you go the dangerous way to Fallhaven?” — **effects:** sets stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
+    <span id="d-mikhail-mikhail_news_20"></span>**`mikhail_news_20`** Mikhail: “Did you go the dangerous way to Fallhaven?” — **effects:** sets stage 40 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
 
     - “Yes and someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.” *(if reached stage 55 of [Search for Andor](../quests/andor.md#stage-55))* → [mikhail_news_30](#d-mikhail-mikhail_news_30)
     - “Then I met a man called Lodar and he told me that Andor probably went to Nor City.” *(if NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55); reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail-mikhail_news_40)
     - “Not yet.” *(if NOT reached stage 80 of [Search for Andor](../quests/andor.md#stage-80); NOT reached stage 55 of [Search for Andor](../quests/andor.md#stage-55))* → [mikhail_news_50](#d-mikhail-mikhail_news_50)
 
-    <span id="d-mikhail-mikhail_news_30"></span>**`mikhail_news_30`** Mikhail: “Did you find this Lodar?” — **effects:** sets stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
+    <span id="d-mikhail-mikhail_news_30"></span>**`mikhail_news_30`** Mikhail: “Did you find this Lodar?” — **effects:** sets stage 40 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
 
     - “Yes, and he told me that Andor probably went to Nor City.” *(if reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_40](#d-mikhail-mikhail_news_40)
     - “No, not yet.” *(if NOT reached stage 80 of [Search for Andor](../quests/andor.md#stage-80))* → [mikhail_news_50](#d-mikhail-mikhail_news_50)
 
-    <span id="d-mikhail-mikhail_news_40"></span>**`mikhail_news_40`** Mikhail: “Did you go to Nor City?” — **effects:** sets stage 40 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
+    <span id="d-mikhail-mikhail_news_40"></span>**`mikhail_news_40`** Mikhail: “Did you go to Nor City?” — **effects:** sets stage 40 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-40)
 
     - “No, not yet.” → [mikhail_news_50](#d-mikhail-mikhail_news_50)
 
@@ -381,7 +381,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [mikhail_rats_start3](#d-mikhail-mikhail_rats_start3)
 
-    <span id="d-mikhail-mikhail_news_64"></span>**`mikhail_news_64`** [Valentina](../monsters/crossglen_valentina.md): “Mikhail! Don't you dare talk to our child like that!” — **effects:** sets stage 20 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-20)
+    <span id="d-mikhail-mikhail_news_64"></span>**`mikhail_news_64`** [Valentina](../monsters/crossglen_valentina.md): “Mikhail! Don't you dare talk to our child like that!” — **effects:** sets stage 20 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-20)
 
     - “I better go.” → [mikhail_news_66](#d-mikhail-mikhail_news_66)
     - “Sigh.” → [mikhail_news_66](#d-mikhail-mikhail_news_66)
@@ -389,7 +389,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-mikhail-mikhail_achievements_50"></span>**`mikhail_achievements_50`** Mikhail: “Here you are.” — **effects:** sets stage 1 of [Unusual experiences and achievements](../quests/achievements.md#stage-1)
 
 
-    <span id="d-mikhail-mikhail_achievements_40"></span>**`mikhail_achievements_40`** Mikhail: “No problem. I won't bother you with it again.” — **effects:** sets stage 1 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-1)
+    <span id="d-mikhail-mikhail_achievements_40"></span>**`mikhail_achievements_40`** Mikhail: “No problem. I won't bother you with it again.” — **effects:** sets stage 1 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-1)
 
 
     <span id="d-mikhail-mikhail_rats_start3"></span>**`mikhail_rats_start3`** Mikhail: “Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it.”
@@ -457,11 +457,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Waytogalmore0 (stn_colonel_mons3) { #v-stn_colonel_mons3 }
+## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons3) { #v-stn_colonel_mons3 }
 
 **Entry ID:** `stn_colonel_mons3` · **Type:** Enemy
 
-**Location:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
 
 ### Combat statistics
 
@@ -489,11 +489,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 2 | Appears later, during a quest |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 2 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that at least 2 of these enemies have been defeated.
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that at least 2 of these enemies have been defeated.
 
 
 ### Version history
@@ -543,11 +543,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Waytogalmore0 (stn_colonel_mons3b) { #v-stn_colonel_mons3b }
+## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons3b) { #v-stn_colonel_mons3b }
 
 **Entry ID:** `stn_colonel_mons3b` · **Type:** Enemy
 
-**Location:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
 
 ### Combat statistics
 
@@ -575,12 +575,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-132) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
 
 
 ### Version history

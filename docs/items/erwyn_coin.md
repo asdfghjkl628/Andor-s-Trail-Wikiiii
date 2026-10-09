@@ -27,7 +27,7 @@ description: "Gold coins is a quest other in Andor's Trail. How to get it: quest
 
 ### Quest & dialogue rewards
 
-- From [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) during [Stoutford's old castle](../quests/stoutford_castle.md#stage-14) (2×)
+- From [Tahalendor](../monsters/tahalendor.md) ([Stoutford church](../maps/stoutford_church.md)) during [Stoutford's old castle](../quests/stoutford_castle.md#stage-14) (2×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) | – | handed over (1×) | “(automatic)” |
-| stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) | [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-49) | must be carried (2×) | “(automatic)” |
+| stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) | – | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md) | [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-49) | must be carried (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

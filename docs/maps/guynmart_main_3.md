@@ -54,8 +54,8 @@ description: "Guynmart main 3 is an indoor location in Andor's Trail, in Guynmar
 ## Quests
 
 - [Roses](../quests/guynmart.md): [Maid](../monsters/guynmart_maid.md) is involved; [Rob](../monsters/guynmart_rob.md) is involved
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Servant](../monsters/erwyn_servant.md#v-guynmart_servant) is involved
-- [shutters open (hidden flag)](../quests/guynmart_qRpl_shutters.md): [Rob](../monsters/guynmart_rob.md) is involved
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): [Servant](../monsters/erwyn_servant.md#v-guynmart_servant) is involved
+- [Guynmart Castle shutters (hidden flag)](../quests/guynmart_qRpl_shutters.md): [Rob](../monsters/guynmart_rob.md) is involved
 
 ## Points of interest
 

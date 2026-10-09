@@ -23,11 +23,11 @@ description: "Gandoren is a non-player character (NPC) in Andor's Trail. Starts 
 
 - [Feygard errands](../quests/feygard_shipment.md): stages 10, 20, 21, 22, 25, 26, 80, 81
 - [Flows through the veins](../quests/loneford.md): stages 10, 11, 21
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 18
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 18
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gandoren. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gandoren. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gandoren.json" data-npc="Gandoren" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,7 +35,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (53 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gandoren"></span>**`gandoren`** *(silent check: the first matching branch below is taken)*
 
@@ -181,7 +181,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “What troubles in Loneford are you referring to?” → [cr_loneford_st_1](#d-cr_loneford_st_1)
     - “Anything I can do to help?” → [gandoren_6](#d-gandoren_6)
 
-    <span id="d-gandoren_tr_5"></span>**`gandoren_tr_5`** Gandoren: “Go up in the lookout tower over there and talk to Minarra about equipment. She has our supply.” — **effects:** sets stage 18 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-18)
+    <span id="d-gandoren_tr_5"></span>**`gandoren_tr_5`** Gandoren: “Go up in the lookout tower over there and talk to Minarra about equipment. She has our supply.” — **effects:** sets stage 18 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-18)
 
 
     <span id="d-gandoren_delivered_3"></span>**`gandoren_delivered_3`** Gandoren: “As for you, you have both my and the rest of the Feygard patrol's gratitude for helping us with this.”

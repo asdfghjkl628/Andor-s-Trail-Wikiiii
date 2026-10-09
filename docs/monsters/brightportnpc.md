@@ -4,7 +4,7 @@ description: "Stanwick is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld_edit_20.png){ .sprite } Stanwick
 
-**Where to find Stanwick:** Brightport: [brightport_school7](../maps/brightport_school7.md#pin-npc-brightportnpc)
+**Where to find Stanwick:** Brightport: [Brightport school 7](../maps/brightport_school7.md#pin-npc-brightportnpc)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Stanwick is a non-player character (NPC) in Andor's Trail, found i
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stages 20, 25, 110
 - [Search for Andor](../quests/andor.md): stages 126, 127, 128
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 70
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 70
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Stanwick. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Stanwick. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_stanwick_selector.json" data-npc="Stanwick" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,14 +35,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (37 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_stanwick_selector"></span>**`brightport_stanwick_selector`** *(silent check: the first matching branch below is taken)*
 
     - Next *(if reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_common](#d-brightport_stanwick_common)
     - Next *(if 4 rounds passed since timer “stanwick”; NOT reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_andor0](#d-brightport_stanwick_andor0)
-    - Next *(if reached stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70); NOT reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_end](#d-brightport_stanwick_end)
-    - Next *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70))* → [brightport_stanwick12](#d-brightport_stanwick12)
+    - Next *(if reached stage 70 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-70); NOT reached stage 128 of [Search for Andor](../quests/andor.md#stage-128))* → [brightport_stanwick_end](#d-brightport_stanwick_end)
+    - Next *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 70 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-70))* → [brightport_stanwick12](#d-brightport_stanwick12)
     - Next *(if reached stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20); NOT reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25))* → [brightport_stanwick7](#d-brightport_stanwick7)
     - Next *(if NOT reached stage 20 of [No rest for the wicked](../quests/Stanwickquest.md#stage-20); reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15))* → [brightport_stanwick1](#d-brightport_stanwick1)
 
@@ -91,7 +91,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_stanwick_incident1](#d-brightport_stanwick_incident1)
 
-    <span id="d-brightport_stanwick16"></span>**`brightport_stanwick16`** [Dummy NPC](../monsters/none.md): “Stanwick lets out a deep breath, his expression softening with visible relief as he sits down on his bed.” — **effects:** sets stage 70 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-70), sets stage 110 of [No rest for the wicked](../quests/Stanwickquest.md#stage-110)
+    <span id="d-brightport_stanwick16"></span>**`brightport_stanwick16`** [Dummy NPC](../monsters/none.md): “Stanwick lets out a deep breath, his expression softening with visible relief as he sits down on his bed.” — **effects:** sets stage 70 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-70), sets stage 110 of [No rest for the wicked](../quests/Stanwickquest.md#stage-110)
 
     - Next → [brightport_stanwick_end](#d-brightport_stanwick_end)
 

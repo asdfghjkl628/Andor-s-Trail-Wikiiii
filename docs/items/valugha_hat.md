@@ -41,11 +41,11 @@ description: "Valugha's shimmering hat is a extraordinary headwear, cloth in And
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Plaguestrider master](../monsters/plaguesp_13.md) | 0.1% | 1 | waytolake5 |
+| [Plaguestrider master](../monsters/plaguesp_13.md) | 0.1% | 1 | Waytolake 5 |
 
 ### Quest & dialogue rewards
 
-- From [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) during [Surprise?](../quests/halvor_surprise.md#stage-114) (1×)
+- From [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) during [Surprise?](../quests/halvor_surprise.md#stage-114) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

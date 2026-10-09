@@ -26,7 +26,7 @@ description: "Feygard gold coins is a ordinary money in Andor's Trail. How to ge
 
 ### Found in containers
 
-- [brightport_forenza](../maps/brightport_forenza.md#container-0) (container 1, 100%), Brightport
+- [Brightport forenza](../maps/brightport_forenza.md#container-0) (container 1, 100%), Brightport
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

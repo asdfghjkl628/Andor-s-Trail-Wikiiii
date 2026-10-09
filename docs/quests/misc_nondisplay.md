@@ -1,8 +1,8 @@
 ---
-description: "misc_nondisplay is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain5a. 2 stages. Found silver bar at bwm"
+description: "Miscellaneous story flags is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain5a. 2 stages. Found silver bar at bwm"
 ---
 
-# misc_nondisplay
+# Miscellaneous story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "misc_nondisplay is a hidden quest in Andor's Trail, started by ste
 | **Quest ID** | `misc_nondisplay` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 |
-| **Started by** | stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) |
+| **Started by** | stepping on a trigger on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md) |
 | **NPCs involved** | [Umar](../monsters/umar.md) |
-| **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) |
+| **Locations** | [Fallhaven derelict 2](../maps/fallhaven_derelict2.md), [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) |
 | **Related quests** | 3 |
 
 </div>
@@ -27,9 +27,9 @@ description: "misc_nondisplay is a hidden quest in Andor's Trail, started by ste
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md). Required:
+Start with stepping on a trigger on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md). Required:
 
-- NOT reached stage 10 of [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md#stage-10)
+- NOT reached stage 10 of [Miscellaneous story flags (hidden flag)](../quests/misc_nondisplay.md#stage-10)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -47,24 +47,43 @@ Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_m
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Found silver bar at bwm<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain5a](../maps/blackwater_mountain5a.md).</span> | stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) | – | gives 1× [Silver bar](../items/silver_bar.md) |
-| <span id="stage-20"></span>20 | Told by Umar to say he sent you at the inn. | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | Found silver bar at bwm<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md).</span> | stepping on a trigger on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md) | 1× [Silver bar](../items/silver_bar.md) |
+| <span id="stage-20"></span>[20](#route-20) | Told by Umar to say he sent you at the inn. | [Umar](../monsters/umar.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md#stage-10) → **stage 10**; also gives 1× [Silver bar](../items/silver_bar.md). NPC: “You have found a small, shiny, metal bar.”
+??? note "Stage 10 · stepping on a trigger on blackwater_mountain5a · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md)
 
-    1. Talk to [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I expected that. See you tomorrow then.” — **conditions:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); NOT reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75); NOT reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1) → **stage 20**. NPC: “I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you…”
+    - **Needs:** not yet stage 10
+    - **Gives:** 1× [Silver bar](../items/silver_bar.md)
+    - *“You have found a small, shiny, metal bar.”*
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Umar · 1 way"
+
+    **Way 1:** Talk to [Umar](../monsters/umar.md), choose “I expected that. See you tomorrow then.”
+
+    - **Needs:** reached stage 51 of [Search for Andor](../quests/andor.md#stage-51); reached stage 76 of [Immaculate kidnapping](../quests/Thieves02.md#stage-76); not reached stage 75 of [Immaculate kidnapping](../quests/Thieves02.md#stage-75); not reached stage 1 of [The ruthless Crackshot](../quests/Thieves03.md#stage-1)
+    - *“I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you tell them Umar sent…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -111,6 +130,7 @@ Start with stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_m
     | | |
     |---|---|
     | Quest ID | `misc_nondisplay` |
+    | Name in game data | `misc_nondisplay` |
     | showInLog | 0 |
     | Stage IDs | 10, 20 |
     | Dialogue nodes setting stages | 10: `blackwater_mountain5a_01`, 20: `umar_guild02_27d` |

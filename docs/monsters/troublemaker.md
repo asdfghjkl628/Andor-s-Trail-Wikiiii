@@ -4,7 +4,7 @@ description: "Troublemaker is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Troublemaker
 
-**Where to find Troublemaker:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-troublemaker), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-troublemaker)
+**Where to find Troublemaker:** Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-troublemaker), Fallhaven: [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md#pin-npc-troublemaker)
 
 <div class="infobox" markdown>
 
@@ -40,20 +40,20 @@ description: "Troublemaker is a non-player character (NPC) in Andor's Trail, fou
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
-| [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
 
 ## Quests
 
 - [Immaculate kidnapping](../quests/Thieves02.md): stages 45, 60, 70
 - [Thief apprentice](../quests/Thieves01.md): stages 15, 20, 60
 - [Wanted men](../quests/wanted_men.md): stages 45, 50, 55, 65, 80
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 60
-- [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md): stages 100, 110
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 60
+- [Thieves story flags (hidden flag)](../quests/thieves_hidden.md): stages 100, 110
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Troublemaker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Troublemaker. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/troublemaker_selector.json" data-npc="Troublemaker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -61,7 +61,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (58 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-troublemaker_selector"></span>**`troublemaker_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -83,13 +83,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I encountered Defy and his men and was forced to kill them!” *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-76) is 76)* → [troublemaker_wm_deffy_killed_10](#d-troublemaker_wm_deffy_killed_10)
     - “[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-77) is 77; hand over 1× [Thieves' vault key](../items/thieves_vault_key.md))* → [troublemaker_wm_return_real_key_10](#d-troublemaker_wm_return_real_key_10)
     - “Can I take a look at the Guild's current supplies?” → *shop opens*
-    - “[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” *(if reached stage 60 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-60); NOT reached stage 80 of [Wanted men](../quests/wanted_men.md#stage-80))* → [troublemaker_wm_return_real_key_10](#d-troublemaker_wm_return_real_key_10)
+    - “[Lie] I have deposited the 10,000 gold. Here is your key back, as promised.” *(if reached stage 60 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-60); NOT reached stage 80 of [Wanted men](../quests/wanted_men.md#stage-80))* → [troublemaker_wm_return_real_key_10](#d-troublemaker_wm_return_real_key_10)
 
     <span id="d-troublemaker_guild_10"></span>**`troublemaker_guild_10`** Troublemaker: “How is the mission going?”
 
     - “I've brought all the journals.” *(if reached stage 55 of [Thief apprentice](../quests/Thieves01.md#stage-55); hand over 1× [Dunla's Journal](../items/Dunla_journal.md); hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md); hand over 1× [Leta's Journal](../items/Leta_journal.md))* → [troublemaker_guild_11a](#d-troublemaker_guild_11a)
     - “I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout.” *(if latest stage of [Thief apprentice](../quests/Thieves01.md#stage-51) is 51; hand over 1× [Dunla's Journal](../items/Dunla_journal.md); hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md); hand over 1× [Leta's Journal](../items/Leta_journal.md))* → [troublemaker_guild_11b](#d-troublemaker_guild_11b)
-    - “I gave you the journals, so where's my reward?” *(if reached stage 100 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100); NOT reached stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110))* → [troublemaker_guild_12a](#d-troublemaker_guild_12a)
+    - “I gave you the journals, so where's my reward?” *(if reached stage 100 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-100); NOT reached stage 110 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-110))* → [troublemaker_guild_12a](#d-troublemaker_guild_12a)
     - “Almost done.” → [troublemaker_guild_11c](#d-troublemaker_guild_11c)
     - “Well, but can I take a look at your supplies again?” → *shop opens*
 
@@ -138,20 +138,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “You're never going to believe this, but they were inside that vacant house when I walked in.” → [troublemaker_wm_deffy_killed_20](#d-troublemaker_wm_deffy_killed_20)
 
-    <span id="d-troublemaker_wm_return_real_key_10"></span>**`troublemaker_wm_return_real_key_10`** Troublemaker: “Thank you very much!” — **effects:** faction “factionCountThieves” set to -8, sets stage 60 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-60)
+    <span id="d-troublemaker_wm_return_real_key_10"></span>**`troublemaker_wm_return_real_key_10`** Troublemaker: “Thank you very much!” — **effects:** faction “factionCountThieves” set to -8, sets stage 60 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-60)
 
     - “I encountered Defy and his men and was forced to kill them!” → [troublemaker_wm_deffy_killed_10](#d-troublemaker_wm_deffy_killed_10)
 
-    <span id="d-troublemaker_guild_11a"></span>**`troublemaker_guild_11a`** Troublemaker: “Well done kid! You can now consider yourself skilled enough to be a part of this guild.” — **effects:** sets stage 100 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100)
+    <span id="d-troublemaker_guild_11a"></span>**`troublemaker_guild_11a`** Troublemaker: “Well done kid! You can now consider yourself skilled enough to be a part of this guild.” — **effects:** sets stage 100 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-100)
 
     - “Thank you!” → [troublemaker_guild_12a](#d-troublemaker_guild_12a)
     - “Yes .... So where is my reward?” → [troublemaker_guild_12a](#d-troublemaker_guild_12a)
 
-    <span id="d-troublemaker_guild_11b"></span>**`troublemaker_guild_11b`** Troublemaker: “Well, that is the price of being one of us. There's always risk.” — **effects:** sets stage 100 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100)
+    <span id="d-troublemaker_guild_11b"></span>**`troublemaker_guild_11b`** Troublemaker: “Well, that is the price of being one of us. There's always risk.” — **effects:** sets stage 100 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-100)
 
     - Next → [troublemaker_guild_12a](#d-troublemaker_guild_12a)
 
-    <span id="d-troublemaker_guild_12a"></span>**`troublemaker_guild_12a`** Troublemaker: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.” — **effects:** sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60), gives 900× [Gold coins](../items/gold.md), sets stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110)
+    <span id="d-troublemaker_guild_12a"></span>**`troublemaker_guild_12a`** Troublemaker: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.” — **effects:** sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60), gives 900× [Gold coins](../items/gold.md), sets stage 110 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-110)
 
     - “Sure, I will talk to him.” → *conversation ends*
     - “At least I got some gold. Bye!” → *conversation ends*

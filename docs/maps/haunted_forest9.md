@@ -1,8 +1,8 @@
 ---
-description: "Haunted forest9 is an outdoor location in Andor's Trail. Enemies: Forest hunter, Grieveless dead, Deadwalker. Exits to Haunted forest6, Haunted forest8, Haunted forest13, Haunted forest filler."
+description: "Haunted forest 9 is an outdoor location in Andor's Trail. Enemies: Forest hunter, Grieveless dead, Deadwalker. Exits to Haunted forest 6, Haunted forest 8, Haunted forest 13, Haunted forest filler."
 ---
 
-# Haunted forest9
+# Haunted forest 9
 
 <div class="infobox" markdown>
 
@@ -11,28 +11,28 @@ description: "Haunted forest9 is an outdoor location in Andor's Trail. Enemies: 
 | **Map ID** | `haunted_forest9` |
 | **Type** | Outdoors |
 | **Size** | 11×7 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Haunted forest9** is an outdoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Haunted forest6, Haunted forest8, Haunted forest13, Haunted forest filler.
+**Haunted forest 9** is an outdoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Haunted forest 6, Haunted forest 8, Haunted forest 13, Haunted forest filler.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest9.webp" alt="Map of Haunted forest9" width="352" height="224" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest6/#place-west" title="Exit to Haunted forest6" style="left:90.909%;top:28.571%;width:9.091%;height:57.143%"></a><a id="place-southwest" class="mo mo-mapchange" href="../haunted_forest8/#place-northwest" title="Exit to Haunted forest8" style="left:9.091%;top:85.714%;width:27.273%;height:14.286%"></a><a id="place-south" class="mo mo-mapchange" href="../haunted_forest8/#place-north" title="Exit to Haunted forest8" style="left:63.636%;top:85.714%;width:27.273%;height:14.286%"></a><a id="place-northwest" class="mo mo-mapchange" href="../haunted_forest_filler/#place-east" title="Exit to Haunted forest filler" style="left:0.000%;top:14.286%;width:9.091%;height:14.286%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest13/#place-northeast" title="Exit to Haunted forest13" style="left:0.000%;top:71.429%;width:9.091%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Forest hunter" style="left:72.727%;top:57.143%;width:9.091%;height:14.286%"></span><span class="mo mo-spawn" title="Spawns: Grieveless dead" style="left:18.182%;top:14.286%;width:45.455%;height:14.286%"></span><span class="mo mo-spawn" title="Spawns: Grieveless dead" style="left:9.091%;top:42.857%;width:27.273%;height:28.571%"></span><span class="mo mo-spawn" title="Spawns: Deadwalker" style="left:45.455%;top:71.429%;width:9.091%;height:14.286%"></span><a class="mob" href="../../monsters/forest_hunter/" title="Forest hunter" style="left:72.727%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik10_50.png" alt="Forest hunter"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:36.364%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:18.182%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:27.273%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:18.182%;top:42.857%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:71.429%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="pin pin-exit" href="#key-1" style="left:95.455%;top:57.143%" title="Exit (east): to [Haunted forest6](haunted_forest6.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:22.727%;top:92.857%" title="Exit (south): to [Haunted forest8](haunted_forest8.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:77.273%;top:92.857%" title="Exit (south): to [Haunted forest8](haunted_forest8.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:4.545%;top:78.571%" title="Exit (southwest): to [Haunted forest13](haunted_forest13.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:4.545%;top:21.429%" title="Exit (northwest): to [Haunted forest filler](haunted_forest_filler.md)">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest9.webp" alt="Map of Haunted forest 9" width="352" height="224" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest6/#place-west" title="Exit to Haunted forest 6" style="left:90.909%;top:28.571%;width:9.091%;height:57.143%"></a><a id="place-southwest" class="mo mo-mapchange" href="../haunted_forest8/#place-northwest" title="Exit to Haunted forest 8" style="left:9.091%;top:85.714%;width:27.273%;height:14.286%"></a><a id="place-south" class="mo mo-mapchange" href="../haunted_forest8/#place-north" title="Exit to Haunted forest 8" style="left:63.636%;top:85.714%;width:27.273%;height:14.286%"></a><a id="place-northwest" class="mo mo-mapchange" href="../haunted_forest_filler/#place-east" title="Exit to Haunted forest filler" style="left:0.000%;top:14.286%;width:9.091%;height:14.286%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest13/#place-northeast" title="Exit to Haunted forest 13" style="left:0.000%;top:71.429%;width:9.091%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Forest hunter" style="left:72.727%;top:57.143%;width:9.091%;height:14.286%"></span><span class="mo mo-spawn" title="Spawns: Grieveless dead" style="left:18.182%;top:14.286%;width:45.455%;height:14.286%"></span><span class="mo mo-spawn" title="Spawns: Grieveless dead" style="left:9.091%;top:42.857%;width:27.273%;height:28.571%"></span><span class="mo mo-spawn" title="Spawns: Deadwalker" style="left:45.455%;top:71.429%;width:9.091%;height:14.286%"></span><a class="mob" href="../../monsters/forest_hunter/" title="Forest hunter" style="left:72.727%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik10_50.png" alt="Forest hunter"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:36.364%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:18.182%;top:14.286%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:27.273%;top:57.143%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/grieveless_dead/" title="Grieveless dead" style="left:18.182%;top:42.857%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik8_4.png" alt="Grieveless dead"></a><a class="mob" href="../../monsters/dead_walker/" title="Deadwalker" style="left:45.455%;top:71.429%;width:9.091%;height:14.286%"><img src="../../assets/icons/monsters/monsters_ld2_228.png" alt="Deadwalker"></a><a class="pin pin-exit" href="#key-1" style="left:95.455%;top:57.143%" title="Exit (east): to [Haunted forest 6](haunted_forest6.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:22.727%;top:92.857%" title="Exit (south): to [Haunted forest 8](haunted_forest8.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:77.273%;top:92.857%" title="Exit (south): to [Haunted forest 8](haunted_forest8.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:4.545%;top:78.571%" title="Exit (southwest): to [Haunted forest 13](haunted_forest13.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:4.545%;top:21.429%" title="Exit (northwest): to [Haunted forest filler](haunted_forest_filler.md)">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Haunted forest6](haunted_forest6.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Haunted forest8](haunted_forest8.md) |
-    | <span id="key-3"></span>3 | Exit (southwest) | to [Haunted forest13](haunted_forest13.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Haunted forest 6](haunted_forest6.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Haunted forest 8](haunted_forest8.md) |
+    | <span id="key-3"></span>3 | Exit (southwest) | to [Haunted forest 13](haunted_forest13.md) |
     | <span id="key-4"></span>4 | Exit (northwest) | to [Haunted forest filler](haunted_forest_filler.md) |
 
 
@@ -42,9 +42,9 @@ description: "Haunted forest9 is an outdoor location in Andor's Trail. Enemies: 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Haunted forest6](haunted_forest6.md) | – | 1 |
-| South | [Haunted forest8](haunted_forest8.md) | – | 2 |
-| Southwest | [Haunted forest13](haunted_forest13.md) | – | 3 |
+| East | [Haunted forest 6](haunted_forest6.md) | – | 1 |
+| South | [Haunted forest 8](haunted_forest8.md) | – | 2 |
+| Southwest | [Haunted forest 13](haunted_forest13.md) | – | 3 |
 | Northwest | [Haunted forest filler](haunted_forest_filler.md) | – | 4 |
 
 ## Enemies

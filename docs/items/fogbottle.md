@@ -39,10 +39,10 @@ description: "Fog in a bottle is a ordinary potion in Andor's Trail. How to get 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Wobbling foggerlump](../monsters/feygard_fogmonster1.md) | 100% | 1-2 | Guynmart Castle |
-| [Icy foggerlump](../monsters/feygard_fogmonster2.md) | 100% | 1-2 | swamp2 |
-| [Wet foggerlump](../monsters/feygard_fogmonster3.md) | 100% | 1-2 | swamp4 |
-| [Dizzy foggerlump](../monsters/feygard_fogmonster4.md) | 100% | 1-2 | swamp5 |
-| [Dense foggerlump](../monsters/feygard_fogmonster5.md) | 100% | 1-2 | swamp6 |
+| [Icy foggerlump](../monsters/feygard_fogmonster2.md) | 100% | 1-2 | Swamp 2 |
+| [Wet foggerlump](../monsters/feygard_fogmonster3.md) | 100% | 1-2 | Swamp 4 |
+| [Dizzy foggerlump](../monsters/feygard_fogmonster4.md) | 100% | 1-2 | Swamp 5 |
+| [Dense foggerlump](../monsters/feygard_fogmonster5.md) | 100% | 1-2 | Swamp 6 |
 | [Shiny Foggerlump](../monsters/feygard_fogmonster9.md) | 100% | 1-2 | Guynmart Castle |
 
 

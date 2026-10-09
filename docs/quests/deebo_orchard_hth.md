@@ -11,9 +11,9 @@ description: "Hunting the hunter is a quest in Andor's Trail, started by Deebo (
 | **Quest ID** | `deebo_orchard_hth` |
 | **In journal** | Yes |
 | **Stages** | 4 (completes at 50) |
-| **Started by** | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) |
+| **Started by** | [Deebo](../monsters/deebo_orchard_deebo.md) ([Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)) |
 | **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md) |
-| **Locations** | [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md) |
+| **Locations** | [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) |
 | **Total XP** | 10,000 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Hunting the hunter is a quest in Andor's Trail, started by Deebo (
 
 ## Prerequisites to start
 
-Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)). Required:
+Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)). Required:
 
 - NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50)
 - latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0
@@ -39,40 +39,75 @@ Start with [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_e
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Mutually exclusive | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-4) | stage 4 must NOT be reached, for stage 10 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-4) | stage 4 there needs stage 0 here |
+| Mutually exclusive | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-4) | stage 4 must NOT be reached, for stage 10 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-4) | stage 4 there needs stage 0 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-0"></span>0 | Deebo, the apple orchard farmer northeast of Sullengard informed me of a Golden jackal that is wreaking havoc in his orchard. | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | – | – |
-| <span id="stage-10"></span>10 | I accepted the challenge of tracking down the Golden jackal and bringing back proof to Deebo that I have killed it. | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | stage 0 | sets stage 4 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-4) |
-| <span id="stage-40"></span>40 | I killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as proof that I've killed it.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard west ravine](../maps/sullengard_west_ravine.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods gj1](../maps/sullengard_woods_gj1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods12](../maps/sullengard_woods12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods4](../maps/sullengard_woods4.md).</span> | stepping on a trigger on [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | – |
-| <span id="stage-50"></span>50 | I returned to Deebo with the killed the Golden jackal's fur as proof that I had killed it. He was now willing to trade with me. **(completes quest)** | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) | hand over 1× [Golden jackal fur](../items/golden_jackal_fur.md), stage 40 | 10,000 XP<br>gives 1× [Golden jackal fur](../items/golden_jackal_fur.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-0"></span>[0](#route-0) | <details class="jt"><summary><span class="s">Deebo, the apple orchard farmer northeast of Sullengard informed me… ▸</span><span class="l">▴ less</span></summary>Deebo, the apple orchard farmer northeast of Sullengard informed me of a Golden jackal that is wreaking havoc in his orchard.</details> | [Deebo](../monsters/deebo_orchard_deebo.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I accepted the challenge of tracking down the Golden jackal and… ▸</span><span class="l">▴ less</span></summary>I accepted the challenge of tracking down the Golden jackal and bringing back proof to Deebo that I have killed it.</details> | [Deebo](../monsters/deebo_orchard_deebo.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I killed the Golden jackal. I need to return to Deebo with the… ▸</span><span class="l">▴ less</span></summary>I killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as proof that I've killed it.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard west ravine](../maps/sullengard_west_ravine.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods 12](../maps/sullengard_woods12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods 4](../maps/sullengard_woods4.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods gj 1](../maps/sullengard_woods_gj1.md).</span> | stepping on a trigger on [Sullengard west ravine](../maps/sullengard_west_ravine.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I returned to Deebo with the killed the Golden jackal's fur as proof… ▸</span><span class="l">▴ less</span></summary>I returned to Deebo with the killed the Golden jackal's fur as proof that I had killed it. He was now willing to trade with me.</details> **(ends quest)** | [Deebo](../monsters/deebo_orchard_deebo.md) | 10,000 XP, 1× [Golden jackal fur](../items/golden_jackal_fur.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 0: 1 route"
+<span id="route-0"></span>
 
-    1. Talk to [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) → choose “I want to hunt down and kill that Golden jackal for you.” — **conditions:** NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50); latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0 → **stage 0**. NPC: “That's great to hear! When can you start?”
+??? note "Stage 0 · Deebo · 1 way"
 
-???+ note "Stage 10: 2 routes"
+    **Way 1:** Talk to [Deebo](../monsters/deebo_orchard_deebo.md), choose “I want to hunt down and kill that Golden jackal for you.”
 
-    1. Talk to [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) → choose “I am ready! No more talking.” — **conditions:** NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50); latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0; NOT reached stage 4 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-4); random chance (30%) → **stage 10**; also sets stage 4 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-4). NPC: “The Golden jackal was last seen heading back into the "Sullengard forest" just to the west of my orchard. Return to me…”
-    2. Talk to [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) → choose “I am ready! No more talking.” — **conditions:** NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50); latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0; NOT reached stage 4 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-4) → **stage 10**
+    - **Needs:** not yet stage 50; latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0
+    - *“That's great to hear! When can you start?”*
 
-???+ note "Stage 40: 1 route"
 
-    1. stepping on a trigger on [sullengard_west_ravine](../maps/sullengard_west_ravine.md) → the conversation leads here automatically — **conditions:** killed 1× [Golden jackal](../monsters/golden_jackal.md); NOT reached stage 40 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40) → **stage 40**. NPC: “[The Golden jackal has perished.]”
+<span id="route-10"></span>
 
-???+ note "Stage 50: 1 route"
+??? note "Stage 10 · Deebo · 2 ways"
 
-    1. Talk to [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) → choose “I have killed the Golden jackal and I have the requested proof.” — **conditions:** NOT reached stage 50 of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-50); hand over 1× [Golden jackal fur](../items/golden_jackal_fur.md); latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40) is 40 → **stage 50**; also gives 1× [Golden jackal fur](../items/golden_jackal_fur.md). NPC: “Wonderful. Let me have it. [You hand over the Golden jackal's fur] Ah yes, this is indeed proof it is dead.”
+    **Way 1:** Talk to [Deebo](../monsters/deebo_orchard_deebo.md), choose “I am ready! No more talking.”
+
+    - **Needs:** not yet stage 50; latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0; not reached stage 4 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-4); random chance (30%)
+    - <small>Also: sets stage 4 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-4)</small>
+    - *“The Golden jackal was last seen heading back into the "Sullengard forest" just to the west of my orchard. Return to me with proof of it's…”*
+
+    **Way 2:** Talk to [Deebo](../monsters/deebo_orchard_deebo.md), choose “I am ready! No more talking.”
+
+    - **Needs:** not yet stage 50; latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-0) is 0; not reached stage 4 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-4)
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · stepping on a trigger on sullengard_west_ravine · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Sullengard west ravine](../maps/sullengard_west_ravine.md)
+
+    - **Needs:** not yet stage 40; killed 1× [Golden jackal](../monsters/golden_jackal.md)
+    - *“[The Golden jackal has perished.]”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Deebo · 1 way"
+
+    **Way 1:** Talk to [Deebo](../monsters/deebo_orchard_deebo.md), choose “I have killed the Golden jackal and I have the requested proof.”
+
+    - **Needs:** not yet stage 50; hand over 1× [Golden jackal fur](../items/golden_jackal_fur.md); latest stage of [Hunting the hunter](../quests/deebo_orchard_hth.md#stage-40) is 40
+    - **Gives:** 1× [Golden jackal fur](../items/golden_jackal_fur.md)
+    - *“Wonderful. Let me have it. [You hand over the Golden jackal's fur] Ah yes, this is indeed proof it is dead.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

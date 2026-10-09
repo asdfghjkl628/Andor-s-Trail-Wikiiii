@@ -26,8 +26,8 @@ description: "Raw sapphire is a rare gem in Andor's Trail. How to get it: monste
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Forgotten miner](../monsters/forgotten_miner.md) | 1% | 1 | undertell_05, undertell_13, undertell_14 |
-| [Gilded dust](../monsters/gilded_dust.md) | 1% | 1 | undertell_03, undertell_04 |
+| [Forgotten miner](../monsters/forgotten_miner.md) | 1% | 1 | Undertell 05, Undertell 13, Undertell 14 |
+| [Gilded dust](../monsters/gilded_dust.md) | 1% | 1 | Undertell 03, Undertell 04 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

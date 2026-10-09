@@ -13,7 +13,7 @@ description: "Lost treasures is a quest in Andor's Trail, started by Unnmir. 15 
 | **Stages** | 15 (completes at 200) |
 | **Started by** | [Unnmir](../monsters/unnmir.md) |
 | **NPCs involved** | [Myrelis](../monsters/mg_myrelis.md), [Nocmar](../monsters/nocmar.md), [Unnmir](../monsters/unnmir.md) |
-| **Locations** | [galmore_58](../maps/galmore_58.md) |
+| **Locations** | [Galmore 58](../maps/galmore_58.md) |
 | **Total XP** | 10,036 |
 | **Related quests** | 5 |
 
@@ -42,137 +42,292 @@ Start with [Unnmir](../monsters/unnmir.md). Required:
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Drunken tale](fallhavendrunk.md#stage-100) | stage 100 reached, for stage 10 here |
-| Requires | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-9) | stage 9 reached, for stage 35 here |
+| Requires | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-9) | stage 9 reached, for stage 35 here |
 | Requires | [A place to forge](place_to_forge.md#stage-60) | stage 60 reached, for stage 90 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-3) | stage 3 reached, for stage 35 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-10) | stage 10 reached, for stage 80 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-25) | stage 25 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-30) | stage 30 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-31) | stage 31 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-32) | stage 32 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-33) | stage 33 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-34) | stage 34 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-35) | stage 35 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-36) | stage 36 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-37) | stage 37 reached, for stage 200 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-38) | stage 38 reached, for stage 110 here |
-| Requires | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-45) | stage 45 reached, for stage 110 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-3) | stage 3 reached, for stage 35 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-10) | stage 10 reached, for stage 80 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-25) | stage 25 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-30) | stage 30 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-31) | stage 31 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-32) | stage 32 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-33) | stage 33 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-34) | stage 34 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-35) | stage 35 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-36) | stage 36 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-37) | stage 37 reached, for stage 200 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-38) | stage 38 reached, for stage 110 here |
+| Requires | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-45) | stage 45 reached, for stage 110 here |
 | Mutually exclusive | [A place to forge](place_to_forge.md#stage-60) | stage 60 must NOT be reached, for stages 20, 30, 48, 80 here |
-| Mutually exclusive | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-39) | stage 39 must NOT be reached, for stage 200 here |
-| Mutually exclusive | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-50) | stage 50 must NOT be reached, for stage 110 here |
+| Mutually exclusive | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-39) | stage 39 must NOT be reached, for stage 200 here |
+| Mutually exclusive | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-50) | stage 50 must NOT be reached, for stage 110 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-10) | stage 10 there needs stages 10, 80 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-20) | stage 20 there needs stages 10, 80 here |
 | Unlocks | [A place to forge](place_to_forge.md#stage-60) | stage 60 there needs stages 10, 80 here |
 | Unlocks | [You shall pass](undertell_barricades.md#stage-10) | stage 10 there needs stage 35 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-10) | stage 10 there needs stages 10, 20 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-25) | stage 25 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-30) | stage 30 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-31) | stage 31 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-32) | stage 32 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-33) | stage 33 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-34) | stage 34 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-35) | stage 35 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-36) | stage 36 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-37) | stage 37 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-38) | stage 38 there needs stage 100 here |
-| Unlocks | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-39) | stage 39 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-10) | stage 10 there needs stages 10, 20 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-25) | stage 25 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-30) | stage 30 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-31) | stage 31 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-32) | stage 32 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-33) | stage 33 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-34) | stage 34 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-35) | stage 35 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-36) | stage 36 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-37) | stage 37 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-38) | stage 38 there needs stage 100 here |
+| Unlocks | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-39) | stage 39 there needs stage 100 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Unnmir told me he used to be an adventurer, and gave me a hint to go see Nocmar. His house is just southwest of the tavern in Fallhaven. | [Unnmir](../monsters/unnmir.md) | – | – |
-| <span id="stage-20"></span>20 | Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore. If I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again. | [Nocmar](../monsters/nocmar.md) | stage 10 | – |
-| <span id="stage-30"></span>30 | Nocmar, the Fallhaven smith, said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain. | [Nocmar](../monsters/nocmar.md) | stage 10, stage 20 | – |
-| <span id="stage-35"></span>35 | Myrelis, the ghost artist I met in the Galmore encampment, informed me that the entrance to Undertell is located just southwest of his building. | [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) | stage 20, stage 30 | – |
-| <span id="stage-40"></span>40 | I discovered the heartstone deep inside Undertell, but it was far too hot to move or even touch. Maybe Unnmir knows what I should do next? | walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | – |
-| <span id="stage-45"></span>45 | I discovered a heartstone deep inside Undertell. It's time to put Nocmar to work.<br><span class="qnote">🗺️ Part of [Undertell 10](../maps/undertell_10.md) visibly changes.</span> | walking into a blocked passage on [undertell_10](../maps/undertell_10.md) | – | gives 1× [Heartstone](../items/heartstone_unrefined.md) |
-| <span id="stage-48"></span>48 | Nocmar informed me that I must return the unrefined heartstone back to where I found it so it could "become whole".<br><span class="qnote">🔒 An area on [Undertell 10](../maps/undertell_10.md) becomes blocked off.</span> | [Nocmar](../monsters/nocmar.md) | carry 1× [Heartstone](../items/heartstone.md), carry 1× [Heartstone](../items/heartstone_unrefined.md), stage 10, stage 20 | – |
-| <span id="stage-50"></span>50 | Unnmir told me that the only way to cool the heartstone enough to carry it is to use a block of Galmore ice which he said I could find at the top of Galmore Mountain guarded by the snow beasts. This rare ice does not melt in the lowlands, only when placed against something extremely hot like lava or the heartstone itself. | [Unnmir](../monsters/unnmir.md) | stage 40 | – |
-| <span id="stage-60"></span>60 | I was spooked by a sound causing me to lose my grip on the unrefined heartstone, causing me to drop it. Thus shattering it into pieces.<br><span class="qnote">🗺️ Part of [Undertell 10](../maps/undertell_10.md) visibly changes.</span> | walking into a blocked passage on [undertell_10](../maps/undertell_10.md) | carry 1× [Heartstone](../items/heartstone_unrefined.md), hand over 1× [Heartstone](../items/heartstone_unrefined.md) | applies condition fear |
-| <span id="stage-70"></span>70 | I placed the Galmore ice on the heartstone. The block hissed and steamed as it melted away, cooling the heartstone until it was safe to touch. I picked it up at last.<br><span class="qnote">🗺️ Part of [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) visibly changes.</span> | walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | hand over 1× [Galmore ice](../items/galmore_ice.md), stage 50 | gives 1× [Heartstone](../items/heartstone.md) |
-| <span id="stage-80"></span>80 | I returned to Nocmar with the cooled heartstone. He was eager to begin his work, but... not in his Fallhaven shop. | [Nocmar](../monsters/nocmar.md) | stage 10, stage 20 | – |
-| <span id="stage-90"></span>90 | Nocmar told me to meet him at the glowing white house south of Fallhaven. He says the lock will no longer bar my entry, as he must prepare the forge and make sure the place is safe.<br><span class="qnote">⚡ A scripted event can now trigger on [Gapfiller2](../maps/gapfiller2.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Gapfiller2](../maps/gapfiller2.md).</span> | [Nocmar](../monsters/nocmar.md) | – | removes monsters from fallhaven_nocmar |
-| <span id="stage-100"></span>100 | I met Nocmar inside the glowing white house, where the ever-burning forge waits. He explained that with the heartstone I recovered, he can forge one heartsteel weapon of my choice. | [Nocmar](../monsters/nocmar.md) | stage 90 | – |
-| <span id="stage-110"></span>110 | As I refused a heartsteel weapon from Nocmar, Falkour, the forge dragon beneath the glowing house, gifted me a pendant.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [White house basement](../maps/white_house_basement.md).</span> | walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md)<br>stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) | – | gives 1× [Heartfire pendant of Kazaul](../items/heartfire_pendant.md) |
-| <span id="stage-200"></span>200 | Nocmar forged the heartsteel once again and rewarded me with a weapon type of my choice, reforged in the lost art. **(completes quest)**<br><span class="qnote">🔒 An area on [White house basement](../maps/white_house_basement.md) becomes blocked off.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [White house](../maps/white_house.md).</span> | [Nocmar](../monsters/nocmar.md) | stage 100 | 10,036 XP<br>gives 1× [Heartsteel blade breaker](../items/heartstone_blade_breaker.md)<br>gives 1× [Heartsteel claymore](../items/heartstone_2h_sword.md)<br>gives 1× [Heartsteel dagger](../items/heartstone_dagger.md)<br>gives 1× [Heartsteel trident](../items/heartstone_glaive.md)<br>gives 1× [Heartsteel greataxe](../items/heartstone_greataxe.md)<br>gives 1× [Heartsteel handaxe](../items/heartstone_handaxe.md)<br>gives 1× [Heartsteel mace](../items/heartstone_mace.md)<br>sets stage 38 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-38)<br>sets stage 39 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-39)<br>gives 1× [Heartsteel warblade](../items/heartstone_1h_sword.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Unnmir told me he used to be an adventurer, and gave me a hint to go… ▸</span><span class="l">▴ less</span></summary>Unnmir told me he used to be an adventurer, and gave me a hint to go see Nocmar. His house is just southwest of the tavern in Fallhaven.</details> | [Unnmir](../monsters/unnmir.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Nocmar tells me he used to be a smith. But Lord Geomyr has banned… ▸</span><span class="l">▴ less</span></summary>Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore. If I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.</details> | [Nocmar](../monsters/nocmar.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Nocmar, the Fallhaven smith, said that I could find a heartstone in… ▸</span><span class="l">▴ less</span></summary>Nocmar, the Fallhaven smith, said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain.</details> | [Nocmar](../monsters/nocmar.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">Myrelis, the ghost artist I met in the Galmore encampment, informed… ▸</span><span class="l">▴ less</span></summary>Myrelis, the ghost artist I met in the Galmore encampment, informed me that the entrance to Undertell is located just southwest of his building.</details> | [Myrelis](../monsters/mg_myrelis.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I discovered the heartstone deep inside Undertell, but it was far… ▸</span><span class="l">▴ less</span></summary>I discovered the heartstone deep inside Undertell, but it was far too hot to move or even touch. Maybe Unnmir knows what I should do next?</details> | walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">I discovered a heartstone deep inside Undertell. It's time to put… ▸</span><span class="l">▴ less</span></summary>I discovered a heartstone deep inside Undertell. It's time to put Nocmar to work.</details><br><span class="qnote">🗺️ Part of [Undertell 10](../maps/undertell_10.md) visibly changes.</span> | walking into a blocked passage on [Undertell 10](../maps/undertell_10.md) | 1× [Heartstone](../items/heartstone_unrefined.md) |
+| <span id="stage-48"></span>[48](#route-48) | <details class="jt"><summary><span class="s">Nocmar informed me that I must return the unrefined heartstone back… ▸</span><span class="l">▴ less</span></summary>Nocmar informed me that I must return the unrefined heartstone back to where I found it so it could "become whole".</details><br><span class="qnote">🔒 An area on [Undertell 10](../maps/undertell_10.md) becomes blocked off.</span> | [Nocmar](../monsters/nocmar.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Unnmir told me that the only way to cool the heartstone enough to… ▸</span><span class="l">▴ less</span></summary>Unnmir told me that the only way to cool the heartstone enough to carry it is to use a block of Galmore ice which he said I could find at the top of Galmore Mountain guarded by the snow beasts. This rare ice does not melt in the lowlands, only when placed against something extremely hot like lava or the heartstone itself.</details> | [Unnmir](../monsters/unnmir.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I was spooked by a sound causing me to lose my grip on the unrefined… ▸</span><span class="l">▴ less</span></summary>I was spooked by a sound causing me to lose my grip on the unrefined heartstone, causing me to drop it. Thus shattering it into pieces.</details><br><span class="qnote">🗺️ Part of [Undertell 10](../maps/undertell_10.md) visibly changes.</span> | walking into a blocked passage on [Undertell 10](../maps/undertell_10.md) | applies condition fear |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I placed the Galmore ice on the heartstone. The block hissed and… ▸</span><span class="l">▴ less</span></summary>I placed the Galmore ice on the heartstone. The block hissed and steamed as it melted away, cooling the heartstone until it was safe to touch. I picked it up at last.</details><br><span class="qnote">🗺️ Part of [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) visibly changes.</span> | walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | 1× [Heartstone](../items/heartstone.md) |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">I returned to Nocmar with the cooled heartstone. He was eager to… ▸</span><span class="l">▴ less</span></summary>I returned to Nocmar with the cooled heartstone. He was eager to begin his work, but... not in his Fallhaven shop.</details> | [Nocmar](../monsters/nocmar.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">Nocmar told me to meet him at the glowing white house south of… ▸</span><span class="l">▴ less</span></summary>Nocmar told me to meet him at the glowing white house south of Fallhaven. He says the lock will no longer bar my entry, as he must prepare the forge and make sure the place is safe.</details><br><span class="qnote">⚡ A scripted event can now trigger on [Gapfiller 2](../maps/gapfiller2.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Gapfiller 2](../maps/gapfiller2.md).</span> | [Nocmar](../monsters/nocmar.md) | removes monsters from fallhaven_nocmar |
+| <span id="stage-100"></span>[100](#route-100) | <details class="jt"><summary><span class="s">I met Nocmar inside the glowing white house, where the ever-burning… ▸</span><span class="l">▴ less</span></summary>I met Nocmar inside the glowing white house, where the ever-burning forge waits. He explained that with the heartstone I recovered, he can forge one heartsteel weapon of my choice.</details> | [Nocmar](../monsters/nocmar.md) | – |
+| <span id="stage-110"></span>[110](#route-110) | <details class="jt"><summary><span class="s">As I refused a heartsteel weapon from Nocmar, Falkour, the forge… ▸</span><span class="l">▴ less</span></summary>As I refused a heartsteel weapon from Nocmar, Falkour, the forge dragon beneath the glowing house, gifted me a pendant.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [White house basement](../maps/white_house_basement.md).</span> | walking into a blocked passage on [White house basement](../maps/white_house_basement.md), stepping on a trigger on [White house basement](../maps/white_house_basement.md) | 1× [Heartfire pendant of Kazaul](../items/heartfire_pendant.md) |
+| <span id="stage-200"></span>[200](#route-200) | <details class="jt"><summary><span class="s">Nocmar forged the heartsteel once again and rewarded me with a… ▸</span><span class="l">▴ less</span></summary>Nocmar forged the heartsteel once again and rewarded me with a weapon type of my choice, reforged in the lost art.</details> **(ends quest)**<br><span class="qnote">🔒 An area on [White house basement](../maps/white_house_basement.md) becomes blocked off.</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [White house](../maps/white_house.md).</span> | [Nocmar](../monsters/nocmar.md) | 10,036 XP; varies by route (see below) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Unnmir](../monsters/unnmir.md) → choose “Yes” — **conditions:** reached stage 100 of [Drunken tale](../quests/fallhavendrunk.md#stage-100) → **stage 10**. NPC: “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by the west side of town. Tell him I sent you.”
+??? note "Stage 10 · Unnmir · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Unnmir](../monsters/unnmir.md), choose “Yes”
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Unnmir sent me.” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60) → **stage 20**. NPC: “Unnmir sent you huh? I guess it must be important then.”
+    - **Needs:** reached stage 100 of [Drunken tale](../quests/fallhavendrunk.md#stage-100)
+    - *“Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by the west side of town. Tell him I sent you.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Undertell? Is that where I could find a heartstone?” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 20 of [Lost treasures](../quests/nocmar.md#stage-20) → **stage 30**. NPC: “Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the…”
+<span id="route-20"></span>
 
-???+ note "Stage 35: 2 routes"
+??? note "Stage 20 · Nocmar · 1 way"
 
-    1. Talk to [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) → choose “I'm looking for some place called "Undertell", do you know where it is?” — **conditions:** reached stage 9 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-9); latest stage of [Lost treasures](../quests/nocmar.md#stage-30) is 30 → **stage 35**. NPC: “Over there, but it looks like it's blocked.”
-    2. Talk to [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) → choose “I was wondering, why are those barricades there? [pointing southwest]” — **conditions:** reached stage 9 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-9); latest stage of [Lost treasures](../quests/nocmar.md#stage-20) is 20; reached stage 3 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-3) → **stage 35**. NPC: “[With a terrified expression on his face] Oh those? Yeah, you don't want to go past those. Past them is the entrance…”
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “Unnmir sent me.”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** stage 10; not yet stage 90; not reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60)
+    - *“Unnmir sent you huh? I guess it must be important then.”*
 
-    1. walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) → the conversation leads here automatically — **conditions:** NOT reached stage 70 of [Lost treasures](../quests/nocmar.md#stage-70) → **stage 40**. NPC: “This heartstone radiates unbearable heat, glowing faintly with the breath of the Rift itself. The surface scorches at…”
 
-???+ note "Stage 45: 1 route"
+<span id="route-30"></span>
 
-    1. walking into a blocked passage on [undertell_10](../maps/undertell_10.md) → the conversation leads here automatically — **conditions:** NOT reached stage 40 of [Lost treasures](../quests/nocmar.md#stage-40); NOT reached stage 45 of [Lost treasures](../quests/nocmar.md#stage-45) → **stage 45**; also gives 1× [Heartstone](../items/heartstone_unrefined.md). NPC: “Its size and presence leave little doubt - this must be what you came for.”
+??? note "Stage 30 · Nocmar · 1 way"
 
-???+ note "Stage 48: 2 routes"
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “Undertell? Is that where I could find a heartstone?”
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Actually, I found two. [extend your hands, one stone in each]” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 20 of [Lost treasures](../quests/nocmar.md#stage-20); carry 1× [Heartstone](../items/heartstone_unrefined.md); carry 1× [Heartstone](../items/heartstone.md) → **stage 48**. NPC: “Return it back where you found it, it will continue drawing heat and pressure from the Rift, hardening over years. But…”
-    2. Talk to [Nocmar](../monsters/nocmar.md) → choose “Yes, at last I found it.” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 20 of [Lost treasures](../quests/nocmar.md#stage-20); carry 1× [Heartstone](../items/heartstone_unrefined.md); NOT carry 1× [Heartstone](../items/heartstone.md) → **stage 48**. NPC: “Well, I can tell from here that it is unrefined. Still forming. No heartsteel can be forged from this. If you tried,…”
+    - **Needs:** stage 10, 20; not yet stage 90; not reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60)
+    - *“Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.”*
 
-???+ note "Stage 50: 1 route"
 
-    1. Talk to [Unnmir](../monsters/unnmir.md) → choose “Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot…” — **conditions:** reached stage 40 of [Lost treasures](../quests/nocmar.md#stage-40); NOT reached stage 50 of [Lost treasures](../quests/nocmar.md#stage-50) → **stage 50**. NPC: “Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see…”
+<span id="route-35"></span>
 
-???+ note "Stage 60: 1 route"
+??? note "Stage 35 · Myrelis · 2 ways"
 
-    1. walking into a blocked passage on [undertell_10](../maps/undertell_10.md) → the conversation leads here automatically — **conditions:** carry 1× [Heartstone](../items/heartstone_unrefined.md); hand over 1× [Heartstone](../items/heartstone_unrefined.md) → **stage 60**; also applies condition fear. NPC: “You flinch and the heartstone slips from your hands and shatters across the ground.”
+    **Way 1:** Talk to [Myrelis](../monsters/mg_myrelis.md), choose “I'm looking for some place called "Undertell", do you know where it is?”
 
-???+ note "Stage 70: 1 route"
+    - **Needs:** reached stage 9 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-9); latest stage of [Lost treasures](../quests/nocmar.md#stage-30) is 30
+    - *“Over there, but it looks like it's blocked.”*
 
-    1. walking into a blocked passage on [undertell_3_lava_01](../maps/undertell_3_lava_01.md) → choose “OK, it's time to see if Unnmir is right! [place the block of Galmore ice on the stone]” — **conditions:** NOT reached stage 70 of [Lost treasures](../quests/nocmar.md#stage-70); reached stage 50 of [Lost treasures](../quests/nocmar.md#stage-50); hand over 1× [Galmore ice](../items/galmore_ice.md) → **stage 70**; also gives 1× [Heartstone](../items/heartstone.md). NPC: “You set the block of Galmore ice onto the blazing heartstone. At once, a violent hiss erupts, filling the chamber with…”
+    **Way 2:** Talk to [Myrelis](../monsters/mg_myrelis.md), choose “I was wondering, why are those barricades there? [pointing southwest]”
 
-???+ note "Stage 80: 1 route"
+    - **Needs:** reached stage 9 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-9); latest stage of [Lost treasures](../quests/nocmar.md#stage-20) is 20; reached stage 3 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-3)
+    - *“[With a terrified expression on his face] Oh those? Yeah, you don't want to go past those. Past them is the entrance to Undertell.”*
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Oh, no!” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 10 of [Lost treasures](../quests/nocmar.md#stage-10); NOT reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 20 of [Lost treasures](../quests/nocmar.md#stage-20); reached stage 10 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-10) → **stage 80**. NPC: “But no, I cannot work it here. Too many eyes, too many whispers. If I were caught forging heartsteel in this shop, it…”
 
-???+ note "Stage 90: 1 route"
+<span id="route-40"></span>
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “What will you do now?” — **conditions:** NOT reached stage 90 of [Lost treasures](../quests/nocmar.md#stage-90); reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60) → **stage 90**; also removes monsters from fallhaven_nocmar. NPC: “Meet me at the white house south of town. The lock will no longer bar your entry. I must prepare the forge and make…”
+??? note "Stage 40 · walking into a blocked passage on undertell_3_lava_01 · 1 way"
 
-???+ note "Stage 100: 1 route"
+    **Way 1:** Walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md)
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “That explains the glow under the door?” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-90) is 90; NOT reached stage 100 of [Lost treasures](../quests/nocmar.md#stage-100) → **stage 100**. NPC: “Now, you brought one cooled heartstone. We can forge only one item from it.”
+    - **Needs:** not yet stage 70
+    - *“This heartstone radiates unbearable heat, glowing faintly with the breath of the Rift itself. The surface scorches at the slightest touch,…”*
 
-???+ note "Stage 110: 2 routes"
 
-    1. walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md) → choose “I chose not to have a weapon forged.” — **conditions:** reached stage 38 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-38); NOT reached stage 110 of [Lost treasures](../quests/nocmar.md#stage-110) → **stage 110**; also gives 1× [Heartfire pendant of Kazaul](../items/heartfire_pendant.md). NPC: “The dragon lowers a claw and nudges a small trinket toward you. It gleams faintly, warm but not burning. Take it, and…”
-    2. stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) → choose “I chose not to have a weapon forged.” — **conditions:** reached stage 45 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-45); NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50); reached stage 38 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-38); NOT reached stage 110 of [Lost treasures](../quests/nocmar.md#stage-110) → **stage 110**; also gives 1× [Heartfire pendant of Kazaul](../items/heartfire_pendant.md). NPC: “The dragon lowers a claw and nudges a small trinket toward you. It gleams faintly, warm but not burning. Take it, and…”
+<span id="route-45"></span>
 
-???+ note "Stage 200: 9 routes"
+??? note "Stage 45 · walking into a blocked passage on undertell_10 · 1 way"
 
-    1. Talk to [Nocmar](../monsters/nocmar.md) → choose “Carry on.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 37 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-37) → **stage 200**; also gives 1× [Heartsteel blade breaker](../items/heartstone_blade_breaker.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
-    2. Talk to [Nocmar](../monsters/nocmar.md) → choose “I will wait.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 30 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-30) → **stage 200**; also gives 1× [Heartsteel claymore](../items/heartstone_2h_sword.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it. And…”
-    3. Talk to [Nocmar](../monsters/nocmar.md) → choose “Very well.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 32 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-32) → **stage 200**; also gives 1× [Heartsteel dagger](../items/heartstone_dagger.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
-    4. Talk to [Nocmar](../monsters/nocmar.md) → choose “Proceed.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 33 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-33) → **stage 200**; also gives 1× [Heartsteel trident](../items/heartstone_glaive.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
-    5. Talk to [Nocmar](../monsters/nocmar.md) → choose “Do it.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 34 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-34) → **stage 200**; also gives 1× [Heartsteel greataxe](../items/heartstone_greataxe.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
-    6. Talk to [Nocmar](../monsters/nocmar.md) → choose “Good.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 35 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-35) → **stage 200**; also gives 1× [Heartsteel handaxe](../items/heartstone_handaxe.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
-    7. Talk to [Nocmar](../monsters/nocmar.md) → choose “Carry on.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 36 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-36) → **stage 200**; also gives 1× [Heartsteel mace](../items/heartstone_mace.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
-    8. Talk to [Nocmar](../monsters/nocmar.md) → choose “Yeah, I'm sure. Thanks anyway.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 25 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-25); NOT reached stage 39 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-39) → **stage 200**; also sets stage 38 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-38), sets stage 39 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-39). NPC: “Okay.”
-    9. Talk to [Nocmar](../monsters/nocmar.md) → choose “Make it so.” — **conditions:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 31 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-31) → **stage 200**; also gives 1× [Heartsteel warblade](../items/heartstone_1h_sword.md). NPC: “It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”
+    **Way 1:** Walking into a blocked passage on [Undertell 10](../maps/undertell_10.md)
+
+    - **Needs:** not yet stage 40, 45
+    - **Gives:** 1× [Heartstone](../items/heartstone_unrefined.md)
+    - *“Its size and presence leave little doubt - this must be what you came for.”*
+
+
+<span id="route-48"></span>
+
+??? note "Stage 48 · Nocmar · 2 ways"
+
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “Actually, I found two. [extend your hands, one stone in each]”
+
+    - **Needs:** stage 10, 20; not yet stage 90; not reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); carry 1× [Heartstone](../items/heartstone_unrefined.md); carry 1× [Heartstone](../items/heartstone.md)
+    - *“Return it back where you found it, it will continue drawing heat and pressure from the Rift, hardening over years. But taken from its…”*
+
+    **Way 2:** Talk to [Nocmar](../monsters/nocmar.md), choose “Yes, at last I found it.”
+
+    - **Needs:** stage 10, 20; not yet stage 90; not reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); carry 1× [Heartstone](../items/heartstone_unrefined.md); not carry 1× [Heartstone](../items/heartstone.md)
+    - *“Well, I can tell from here that it is unrefined. Still forming. No heartsteel can be forged from this. If you tried, the forge would…”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Unnmir · 1 way"
+
+    **Way 1:** Talk to [Unnmir](../monsters/unnmir.md), choose “Yes and I am really hoping that you can help me! I found the heartstone, but it burns to the touch. I cannot…”
+
+    - **Needs:** stage 40; not yet stage 50
+    - *“Climbing to that height is no small task, and the beasts there guard it jealously. But if you truly want to see heartsteel reforged,…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · walking into a blocked passage on undertell_10 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Undertell 10](../maps/undertell_10.md)
+
+    - **Needs:** carry 1× [Heartstone](../items/heartstone_unrefined.md); hand over 1× [Heartstone](../items/heartstone_unrefined.md)
+    - **Gives:** applies condition fear
+    - *“You flinch and the heartstone slips from your hands and shatters across the ground.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · walking into a blocked passage on undertell_3_lava_01 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), choose “OK, it's time to see if Unnmir is right! [place the block of Galmore ice on the stone]”
+
+    - **Needs:** stage 50; not yet stage 70; hand over 1× [Galmore ice](../items/galmore_ice.md)
+    - **Gives:** 1× [Heartstone](../items/heartstone.md)
+    - *“You set the block of Galmore ice onto the blazing heartstone. At once, a violent hiss erupts, filling the chamber with steam. The ice…”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Nocmar · 1 way"
+
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “Oh, no!”
+
+    - **Needs:** stage 10, 20; not yet stage 90; not reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60); reached stage 10 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-10)
+    - *“But no, I cannot work it here. Too many eyes, too many whispers. If I were caught forging heartsteel in this shop, it would mean ruin for…”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Nocmar · 1 way"
+
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “What will you do now?”
+
+    - **Needs:** not yet stage 90; reached stage 60 of [A place to forge](../quests/place_to_forge.md#stage-60)
+    - **Gives:** removes monsters from fallhaven_nocmar
+    - *“Meet me at the white house south of town. The lock will no longer bar your entry. I must prepare the forge and make certain the place is…”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Nocmar · 1 way"
+
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “That explains the glow under the door?”
+
+    - **Needs:** not yet stage 100; latest stage of [Lost treasures](../quests/nocmar.md#stage-90) is 90
+    - *“Now, you brought one cooled heartstone. We can forge only one item from it.”*
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · walking into a blocked passage on white_house_basement, step · 2 ways"
+
+    **Way 1:** Walking into a blocked passage on [White house basement](../maps/white_house_basement.md), choose “I chose not to have a weapon forged.”
+
+    - **Needs:** not yet stage 110; reached stage 38 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-38)
+    - **Gives:** 1× [Heartfire pendant of Kazaul](../items/heartfire_pendant.md)
+    - *“The dragon lowers a claw and nudges a small trinket toward you. It gleams faintly, warm but not burning. Take it, and keep your hands…”*
+
+    **Way 2:** Stepping on a trigger on [White house basement](../maps/white_house_basement.md), choose “I chose not to have a weapon forged.”
+
+    - **Needs:** not yet stage 110; reached stage 45 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-45); not reached stage 50 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-50); reached stage 38 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-38)
+    - **Gives:** 1× [Heartfire pendant of Kazaul](../items/heartfire_pendant.md)
+    - *“The dragon lowers a claw and nudges a small trinket toward you. It gleams faintly, warm but not burning. Take it, and keep your hands…”*
+
+
+<span id="route-200"></span>
+
+??? note "Stage 200 · Nocmar · 9 ways"
+
+    **Way 1:** Talk to [Nocmar](../monsters/nocmar.md), choose “Carry on.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 37 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-37)
+    - **Gives:** 1× [Heartsteel blade breaker](../items/heartstone_blade_breaker.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
+    **Way 2:** Talk to [Nocmar](../monsters/nocmar.md), choose “I will wait.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 30 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-30)
+    - **Gives:** 1× [Heartsteel claymore](../items/heartstone_2h_sword.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it. And tell no one where you…”*
+
+    **Way 3:** Talk to [Nocmar](../monsters/nocmar.md), choose “Very well.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 32 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-32)
+    - **Gives:** 1× [Heartsteel dagger](../items/heartstone_dagger.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
+    **Way 4:** Talk to [Nocmar](../monsters/nocmar.md), choose “Proceed.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 33 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-33)
+    - **Gives:** 1× [Heartsteel trident](../items/heartstone_glaive.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
+    **Way 5:** Talk to [Nocmar](../monsters/nocmar.md), choose “Do it.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 34 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-34)
+    - **Gives:** 1× [Heartsteel greataxe](../items/heartstone_greataxe.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
+    **Way 6:** Talk to [Nocmar](../monsters/nocmar.md), choose “Good.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 35 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-35)
+    - **Gives:** 1× [Heartsteel handaxe](../items/heartstone_handaxe.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
+    **Way 7:** Talk to [Nocmar](../monsters/nocmar.md), choose “Carry on.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 36 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-36)
+    - **Gives:** 1× [Heartsteel mace](../items/heartstone_mace.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
+    **Way 8:** Talk to [Nocmar](../monsters/nocmar.md), choose “Yeah, I'm sure. Thanks anyway.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 25 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-25); not reached stage 39 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-39)
+    - <small>Also: sets stage 38 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-38), sets stage 39 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-39)</small>
+    - *“Okay.”*
+
+    **Way 9:** Talk to [Nocmar](../monsters/nocmar.md), choose “Make it so.”
+
+    - **Needs:** latest stage of [Lost treasures](../quests/nocmar.md#stage-100) is 100; reached stage 31 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-31)
+    - **Gives:** 1× [Heartsteel warblade](../items/heartstone_1h_sword.md)
+    - *“It is done. The weapon cools beneath my hand. Take it, and guard it well. There will never be another like it.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

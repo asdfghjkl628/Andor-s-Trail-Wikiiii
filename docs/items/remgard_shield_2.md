@@ -38,7 +38,7 @@ description: "Remgard combat shield is a ordinary shield, metal (light) in Andor
 
 ### Quest & dialogue rewards
 
-- From [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) (100%)
+- From [Rothses](../monsters/rothses.md) ([Remgard armour](../maps/remgard_armour.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

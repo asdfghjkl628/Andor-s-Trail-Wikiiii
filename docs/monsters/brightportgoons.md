@@ -4,7 +4,7 @@ description: "Dynes is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_63.png){ .sprite } Dynes
 
-**Where to find Dynes:** Brightport: [brightport_benbyr](../maps/brightport_benbyr.md#pin-npc-brightportgoons)
+**Where to find Dynes:** Brightport: [Brightport benbyr](../maps/brightport_benbyr.md#pin-npc-brightportgoons)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Dynes is a non-player character (NPC) in Andor's Trail, found in B
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dynes. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dynes. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_dynes0.json" data-npc="Dynes" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (16 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_dynes0"></span>**`brightport_dynes0`** *(silent check: the first matching branch below is taken)*
 
@@ -37,9 +37,9 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - Next *(if reached stage 120 of [Priceful vengeance](../quests/brightport_goons.md#stage-120))* → [brightport_dynes_extreme](#d-brightport_dynes_extreme)
     - Next *(if reached stage 100 of [Priceful vengeance](../quests/brightport_goons.md#stage-100))* → [brightport_dynes_superhigh](#d-brightport_dynes_superhigh)
     - Next *(if reached stage 90 of [Priceful vengeance](../quests/brightport_goons.md#stage-90))* → [brightport_dynes_high](#d-brightport_dynes_high)
-    - Next *(if reached stage 30 of [Priceful vengeance](../quests/brightport_goons.md#stage-30); NOT reached stage 139 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-139))* → [brightport_dynes_medium](#d-brightport_dynes_medium)
-    - Next *(if reached stage 129 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-129))* → [brightport_dynes_mediumlow](#d-brightport_dynes_mediumlow)
-    - Next *(if NOT reached stage 128 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-128))* → [brightport_dynes_low](#d-brightport_dynes_low)
+    - Next *(if reached stage 30 of [Priceful vengeance](../quests/brightport_goons.md#stage-30); NOT reached stage 139 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-139))* → [brightport_dynes_medium](#d-brightport_dynes_medium)
+    - Next *(if reached stage 129 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-129))* → [brightport_dynes_mediumlow](#d-brightport_dynes_mediumlow)
+    - Next *(if NOT reached stage 128 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-128))* → [brightport_dynes_low](#d-brightport_dynes_low)
 
     <span id="d-brightport_dynes_superextreme"></span>**`brightport_dynes_superextreme`** Dynes: “Tch, get out of here, you greedy sellout. Money can be earned again. Trust doesn't come back.”
 

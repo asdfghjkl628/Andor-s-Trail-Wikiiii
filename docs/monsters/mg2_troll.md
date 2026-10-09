@@ -1,10 +1,10 @@
 ---
-description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trail, found in galmore_18."
+description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trail, found in Galmore 18."
 ---
 
 # ![](../assets/icons/monsters/monsters_cyclops_0.png){ .sprite } Sleepy giant ogre
 
-**Where to find Sleepy giant ogre:** [galmore_18](../maps/galmore_18.md#pin-npc-mg2_troll)
+**Where to find Sleepy giant ogre:** [Galmore 18](../maps/galmore_18.md#pin-npc-mg2_troll)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trai
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | galmore_18 |
+| **Found in** | Galmore 18 |
 | **Class** | Giant |
 | **HP** | 590 |
 | **XP when defeated** | 1,005 |
@@ -61,11 +61,11 @@ description: "Sleepy giant ogre is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_18](../maps/galmore_18.md) | – | 1 | – |
+| [Galmore 18](../maps/galmore_18.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sleepy giant ogre. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sleepy giant ogre. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_troll.json" data-npc="Sleepy giant ogre" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mg2_troll"></span>**`mg2_troll`** Sleepy giant ogre: “[Snoring]”
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “MOVE!!” *(if random chance (50%))* → [mg2_troll](#d-mg2_troll)
     - “Maybe I should just wait a bit?” → [mg2_troll](#d-mg2_troll)
     - “[singing]Troll sat alone on his seat of stone” *(if random chance (10%))* → [mg2_troll_10](#d-mg2_troll_10)
-    - “I think I'm going to poke you in your big fat nose.” *(if reached stage 12 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-12))* → [mg2_troll_20](#d-mg2_troll_20)
+    - “I think I'm going to poke you in your big fat nose.” *(if reached stage 12 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-12))* → [mg2_troll_20](#d-mg2_troll_20)
     - “Throw a rock at the troll.” *(if hand over 1× [Small rock](../items/rock.md))* → [mg2_troll_30](#d-mg2_troll_30)
 
     <span id="d-mg2_troll_10"></span>**`mg2_troll_10`** Sleepy giant ogre: “[Snoring]”

@@ -11,9 +11,9 @@ description: "More rats! is a quest in Andor's Trail, started by Mikhail (home).
 | **Quest ID** | `ratdom_mikhail` |
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 90) |
-| **Started by** | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) |
+| **Started by** | [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)), [Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md)) |
 | **NPCs involved** | [Gruiik](../monsters/ratdom_mikhail.md), [Mikhail](../monsters/mikhail.md) |
-| **Locations** | [home](../maps/home.md), [waytogalmore0](../maps/waytogalmore0.md) |
+| **Locations** | [Home](../maps/home.md), [Waytogalmore 0](../maps/waytogalmore0.md) |
 | **Total XP** | 1,200 |
 | **Related quests** | 2 |
 
@@ -25,17 +25,17 @@ description: "More rats! is a quest in Andor's Trail, started by Mikhail (home).
 
 ## Prerequisites to start
 
-**Route 1** ([Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))):
+**Route 1** ([Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md))):
 
-- reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
+- reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
 
-**Route 2** ([Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))):
+**Route 2** ([Gruiik](../monsters/ratdom_mikhail.md) ([Home](../maps/home.md))):
 
 - nothing
 
-**Route 3** (stepping on a trigger on [home](../maps/home.md)):
+**Route 3** (stepping on a trigger on [Home](../maps/home.md)):
 
-- reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
+- reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
 - reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950)
 - NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
 
@@ -48,94 +48,218 @@ description: "More rats! is a quest in Andor's Trail, started by Mikhail (home).
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 reached, for stages 10, 20, 52, 54, 70, 74, 90 here |
+| Requires | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 reached, for stages 10, 20, 52, 54, 70, 74, 90 here |
 | Requires | [Yellow is it](ratdom_quest.md#stage-950) | stage 950 reached, for stages 10, 20, 52, 54, 70, 74, 90 here |
 | Blocked by | [Yellow is it](ratdom_quest.md#stage-999) | stage 999 must NOT be reached, for stages 10, 20, 52, 54, 70, 74, 90 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-13) | stage 13 there needs stage 90 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-21) | stage 21 there needs stage 90 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-22) | stage 22 there needs stage 90 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-23) | stage 23 there needs stage 90 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-13) | stage 13 there needs stage 90 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-21) | stage 21 there needs stage 90 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-22) | stage 22 there needs stage 90 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-23) | stage 23 there needs stage 90 here |
 | Unlocks | [Yellow is it](ratdom_quest.md#stage-50) | stage 50 there needs stage 10 here |
 | Unlocks | [Yellow is it](ratdom_quest.md#stage-940) | stage 940 there needs stage 90 here |
 | Unlocks | [Yellow is it](ratdom_quest.md#stage-999) | stage 999 there needs stage 90 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | A huge rat called Gruiik told me that they drove all the people out of this village.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | – | – |
-| <span id="stage-20"></span>20 | Some two-legs were running around in the garden again. I should kill them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | – | – |
-| <span id="stage-30"></span>30 | I have killed Mara.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> | stepping on a trigger on [crossglen](../maps/crossglen.md) | – | removes monsters from crossglen_hall |
-| <span id="stage-32"></span>32 | I have killed Tharal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> | stepping on a trigger on [crossglen](../maps/crossglen.md) | – | removes monsters from crossglen_hall |
-| <span id="stage-52"></span>52 | I told Gruiik that I have killed Mara and Tharal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | stage 20 | 500 XP |
-| <span id="stage-54"></span>54 | I lied to Gruiik that I have killed Mara and Tharal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | stage 20 | 500 XP |
-| <span id="stage-70"></span>70 | Gruiik was hungry and asked to bring him bread.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | stage 20 | – |
-| <span id="stage-72"></span>72 | I found a bread in a bag hanging at the door of the Crossglen town hall. | walking into a blocked passage on [crossglen](../maps/crossglen.md) | – | gives 1× [Bread](../items/bread.md) |
-| <span id="stage-74"></span>74 | I gave a bread to Gruiik.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | hand over 1× [Bread](../items/bread.md), stage 20, stage 70 | 200 XP |
-| <span id="stage-90"></span>90 | The huge rat ignored me after he had got the bread. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md))<br>[Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md))<br>stepping on a trigger on [home](../maps/home.md) | stage 70, stage 74 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">A huge rat called Gruiik told me that they drove all the people out… ▸</span><span class="l">▴ less</span></summary>A huge rat called Gruiik told me that they drove all the people out of this village.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | – |
+| <span id="stage-20"></span>[20](#route-20) | Some two-legs were running around in the garden again. I should kill them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | – |
+| <span id="stage-30"></span>[30](#route-30) | I have killed Mara.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> | stepping on a trigger on [Crossglen](../maps/crossglen.md) | removes monsters from crossglen_hall |
+| <span id="stage-32"></span>[32](#route-32) | I have killed Tharal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> | stepping on a trigger on [Crossglen](../maps/crossglen.md) | removes monsters from crossglen_hall |
+| <span id="stage-52"></span>[52](#route-52) | I told Gruiik that I have killed Mara and Tharal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | 500 XP |
+| <span id="stage-54"></span>[54](#route-54) | I lied to Gruiik that I have killed Mara and Tharal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | 500 XP |
+| <span id="stage-70"></span>[70](#route-70) | Gruiik was hungry and asked to bring him bread.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | – |
+| <span id="stage-72"></span>[72](#route-72) | I found a bread in a bag hanging at the door of the Crossglen town hall. | walking into a blocked passage on [Crossglen](../maps/crossglen.md) | 1× [Bread](../items/bread.md) |
+| <span id="stage-74"></span>[74](#route-74) | I gave a bread to Gruiik.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | 200 XP |
+| <span id="stage-90"></span>[90](#route-90) | The huge rat ignored me after he had got the bread. **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Home](../maps/home.md).</span> | [Mikhail](../monsters/mikhail.md), [Gruiik](../monsters/ratdom_mikhail.md) +1 | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 3 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “What are you doing in my house? Where is Mikhail?” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1) → **stage 10**. NPC: “We rats took over this village. I am Gruiik, their leader.”
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “What are you doing in my house? Where is Mikhail?” → **stage 10**. NPC: “We rats took over this village. I am Gruiik, their leader.”
-    3. stepping on a trigger on [home](../maps/home.md) → choose “What are you doing in my house? Where is Mikhail?” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999) → **stage 10**. NPC: “We rats took over this village. I am Gruiik, their leader.”
+??? note "Stage 10 · Mikhail, Gruiik, stepping on a trigger on home · 3 ways"
 
-???+ note "Stage 20: 3 routes"
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “What are you doing in my house? Where is Mikhail?”
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “What are you doing in my house? Where is Mikhail?” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1) → **stage 20**. NPC: “However, there are two-legs running around in my garden again. Go and kill them.”
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “What are you doing in my house? Where is Mikhail?” → **stage 20**. NPC: “However, there are two-legs running around in my garden again. Go and kill them.”
-    3. stepping on a trigger on [home](../maps/home.md) → choose “What are you doing in my house? Where is Mikhail?” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999) → **stage 20**. NPC: “However, there are two-legs running around in my garden again. Go and kill them.”
+    - **Needs:** reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
+    - *“We rats took over this village. I am Gruiik, their leader.”*
 
-???+ note "Stage 30: 1 route"
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “What are you doing in my house? Where is Mikhail?”
 
-    1. stepping on a trigger on [crossglen](../maps/crossglen.md) → the conversation leads here automatically — **conditions:** killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); NOT reached stage 30 of [More rats!](../quests/ratdom_mikhail.md#stage-30) → **stage 30**; also removes monsters from crossglen_hall
+    - *“We rats took over this village. I am Gruiik, their leader.”*
 
-???+ note "Stage 32: 1 route"
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “What are you doing in my house? Where is Mikhail?”
 
-    1. stepping on a trigger on [crossglen](../maps/crossglen.md) → the conversation leads here automatically — **conditions:** killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal); NOT reached stage 32 of [More rats!](../quests/ratdom_mikhail.md#stage-32) → **stage 32**; also removes monsters from crossglen_hall
+    - **Needs:** reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
+    - *“We rats took over this village. I am Gruiik, their leader.”*
 
-???+ note "Stage 52: 3 routes"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Yes, I killed Mara and Tharal in the garden for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 52 of [More rats!](../quests/ratdom_mikhail.md#stage-52); NOT reached stage 54 of [More rats!](../quests/ratdom_mikhail.md#stage-54); killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal) → **stage 52**
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “Yes, I killed Mara and Tharal in the garden for you.” — **conditions:** reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 52 of [More rats!](../quests/ratdom_mikhail.md#stage-52); NOT reached stage 54 of [More rats!](../quests/ratdom_mikhail.md#stage-54); killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal) → **stage 52**
-    3. stepping on a trigger on [home](../maps/home.md) → choose “Yes, I killed Mara and Tharal in the garden for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 52 of [More rats!](../quests/ratdom_mikhail.md#stage-52); NOT reached stage 54 of [More rats!](../quests/ratdom_mikhail.md#stage-54); killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal) → **stage 52**
+<span id="route-20"></span>
 
-???+ note "Stage 54: 3 routes"
+??? note "Stage 20 · Mikhail, Gruiik, stepping on a trigger on home · 3 ways"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “(lie) I killed Mara and Tharal in the garden for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 52 of [More rats!](../quests/ratdom_mikhail.md#stage-52); NOT reached stage 54 of [More rats!](../quests/ratdom_mikhail.md#stage-54); NOT killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal) → **stage 54**
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “(lie) I killed Mara and Tharal in the garden for you.” — **conditions:** reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 52 of [More rats!](../quests/ratdom_mikhail.md#stage-52); NOT reached stage 54 of [More rats!](../quests/ratdom_mikhail.md#stage-54); NOT killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal) → **stage 54**
-    3. stepping on a trigger on [home](../maps/home.md) → choose “(lie) I killed Mara and Tharal in the garden for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 52 of [More rats!](../quests/ratdom_mikhail.md#stage-52); NOT reached stage 54 of [More rats!](../quests/ratdom_mikhail.md#stage-54); NOT killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal) → **stage 54**
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “What are you doing in my house? Where is Mikhail?”
 
-???+ note "Stage 70: 3 routes"
+    - **Needs:** reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
+    - *“However, there are two-legs running around in my garden again. Go and kill them.”*
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → the conversation leads here automatically — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70) → **stage 70**. NPC: “And I am hungry. Go to the town hall and bring me some bread.”
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70) → **stage 70**. NPC: “And I am hungry. Go to the town hall and bring me some bread.”
-    3. stepping on a trigger on [home](../maps/home.md) → choose “Oh. Hello Gruiik.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70) → **stage 70**. NPC: “And I am hungry. Go to the town hall and bring me some bread.”
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “What are you doing in my house? Where is Mikhail?”
 
-???+ note "Stage 72: 1 route"
+    - *“However, there are two-legs running around in my garden again. Go and kill them.”*
 
-    1. walking into a blocked passage on [crossglen](../maps/crossglen.md) → choose “Oh, what's this?” — **conditions:** NOT reached stage 72 of [More rats!](../quests/ratdom_mikhail.md#stage-72) → **stage 72**; also gives 1× [Bread](../items/bread.md). NPC: “A bag of freshly baked bread is dangling at the door.”
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “What are you doing in my house? Where is Mikhail?”
 
-???+ note "Stage 74: 6 routes"
+    - **Needs:** reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
+    - *“However, there are two-legs running around in my garden again. Go and kill them.”*
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Here I have some bread for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); hand over 1× [Bread](../items/bread.md) → **stage 74**. NPC: “It's about time.”
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “Here I have some bread for you.” — **conditions:** reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); hand over 1× [Bread](../items/bread.md) → **stage 74**. NPC: “It's about time.”
-    3. stepping on a trigger on [home](../maps/home.md) → choose “Here I have some bread for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 20 of [More rats!](../quests/ratdom_mikhail.md#stage-20); NOT reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); hand over 1× [Bread](../items/bread.md) → **stage 74**. NPC: “It's about time.”
-    4. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Here I have some bread for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); hand over 1× [Bread](../items/bread.md) → **stage 74**
-    5. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “Here I have some bread for you.” — **conditions:** reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); hand over 1× [Bread](../items/bread.md) → **stage 74**
-    6. stepping on a trigger on [home](../maps/home.md) → choose “Here I have some bread for you.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); hand over 1× [Bread](../items/bread.md) → **stage 74**
 
-???+ note "Stage 90: 3 routes"
+<span id="route-30"></span>
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “Hey - I have brought some bread already.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); reached stage 74 of [More rats!](../quests/ratdom_mikhail.md#stage-74) → **stage 90**. NPC: “Good! Now I don't need you anymore!”
-    2. Talk to [Gruiik](../monsters/ratdom_mikhail.md) ([home](../maps/home.md)) → choose “Hey - I have brought some bread already.” — **conditions:** reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); reached stage 74 of [More rats!](../quests/ratdom_mikhail.md#stage-74) → **stage 90**. NPC: “Good! Now I don't need you anymore!”
-    3. stepping on a trigger on [home](../maps/home.md) → choose “Hey - I have brought some bread already.” — **conditions:** reached stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); NOT reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); reached stage 70 of [More rats!](../quests/ratdom_mikhail.md#stage-70); reached stage 74 of [More rats!](../quests/ratdom_mikhail.md#stage-74) → **stage 90**. NPC: “Good! Now I don't need you anymore!”
+??? note "Stage 30 · stepping on a trigger on crossglen · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Crossglen](../maps/crossglen.md)
+
+    - **Needs:** not yet stage 30; killed 1× [Mara](../monsters/mara.md#v-ratdom_mara)
+    - **Gives:** removes monsters from crossglen_hall
+
+
+<span id="route-32"></span>
+
+??? note "Stage 32 · stepping on a trigger on crossglen · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Crossglen](../maps/crossglen.md)
+
+    - **Needs:** not yet stage 32; killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+    - **Gives:** removes monsters from crossglen_hall
+
+
+<span id="route-52"></span>
+
+??? note "Stage 52 · Mikhail, Gruiik, stepping on a trigger on home · 3 ways"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “Yes, I killed Mara and Tharal in the garden for you.”
+
+    - **Needs:** stage 20; not yet stage 52, 54; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “Yes, I killed Mara and Tharal in the garden for you.”
+
+    - **Needs:** stage 20; not yet stage 52, 54; killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “Yes, I killed Mara and Tharal in the garden for you.”
+
+    - **Needs:** stage 20; not yet stage 52, 54; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+
+
+<span id="route-54"></span>
+
+??? note "Stage 54 · Mikhail, Gruiik, stepping on a trigger on home · 3 ways"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “(lie) I killed Mara and Tharal in the garden for you.”
+
+    - **Needs:** stage 20; not yet stage 52, 54; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); not killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “(lie) I killed Mara and Tharal in the garden for you.”
+
+    - **Needs:** stage 20; not yet stage 52, 54; not killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “(lie) I killed Mara and Tharal in the garden for you.”
+
+    - **Needs:** stage 20; not yet stage 52, 54; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); not killed 1× [Mara](../monsters/mara.md#v-ratdom_mara); killed 1× [Tharal](../monsters/tharal.md#v-ratdom_tharal)
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Mikhail, Gruiik, stepping on a trigger on home · 3 ways"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), automatic
+
+    - **Needs:** stage 20; not yet stage 70; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
+    - *“And I am hungry. Go to the town hall and bring me some bread.”*
+
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), automatic
+
+    - **Needs:** stage 20; not yet stage 70
+    - *“And I am hungry. Go to the town hall and bring me some bread.”*
+
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “Oh. Hello Gruiik.”
+
+    - **Needs:** stage 20; not yet stage 70; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
+    - *“And I am hungry. Go to the town hall and bring me some bread.”*
+
+
+<span id="route-72"></span>
+
+??? note "Stage 72 · walking into a blocked passage on crossglen · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Crossglen](../maps/crossglen.md), choose “Oh, what's this?”
+
+    - **Needs:** not yet stage 72
+    - **Gives:** 1× [Bread](../items/bread.md)
+    - *“A bag of freshly baked bread is dangling at the door.”*
+
+
+<span id="route-74"></span>
+
+??? note "Stage 74 · Mikhail, Gruiik, stepping on a trigger on home · 6 ways"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “Here I have some bread for you.”
+
+    - **Needs:** stage 20; not yet stage 70; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); hand over 1× [Bread](../items/bread.md)
+    - *“It's about time.”*
+
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “Here I have some bread for you.”
+
+    - **Needs:** stage 20; not yet stage 70; hand over 1× [Bread](../items/bread.md)
+    - *“It's about time.”*
+
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “Here I have some bread for you.”
+
+    - **Needs:** stage 20; not yet stage 70; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); hand over 1× [Bread](../items/bread.md)
+    - *“It's about time.”*
+
+    **Way 4:** Talk to [Mikhail](../monsters/mikhail.md), choose “Here I have some bread for you.”
+
+    - **Needs:** stage 70; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); hand over 1× [Bread](../items/bread.md)
+
+    **Way 5:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “Here I have some bread for you.”
+
+    - **Needs:** stage 70; hand over 1× [Bread](../items/bread.md)
+
+    **Way 6:** Stepping on a trigger on [Home](../maps/home.md), choose “Here I have some bread for you.”
+
+    - **Needs:** stage 70; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999); hand over 1× [Bread](../items/bread.md)
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Mikhail, Gruiik, stepping on a trigger on home · 3 ways"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “Hey - I have brought some bread already.”
+
+    - **Needs:** stage 70, 74; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1)
+    - *“Good! Now I don't need you anymore!”*
+
+    **Way 2:** Talk to [Gruiik](../monsters/ratdom_mikhail.md), choose “Hey - I have brought some bread already.”
+
+    - **Needs:** stage 70, 74
+    - *“Good! Now I don't need you anymore!”*
+
+    **Way 3:** Stepping on a trigger on [Home](../maps/home.md), choose “Hey - I have brought some bread already.”
+
+    - **Needs:** stage 70, 74; reached stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1); reached stage 950 of [Yellow is it](../quests/ratdom_quest.md#stage-950); not reached stage 999 of [Yellow is it](../quests/ratdom_quest.md#stage-999)
+    - *“Good! Now I don't need you anymore!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

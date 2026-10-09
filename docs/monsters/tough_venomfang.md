@@ -4,7 +4,7 @@ description: "Tough venomfang is an enemy in Andor's Trail (reptile) with 41 HP,
 
 # ![](../assets/icons/monsters/monsters_snakes_3.png){ .sprite } Tough venomfang
 
-**Found in:** Blackwater Mountain: [blackwater_mountain17](../maps/blackwater_mountain17.md), Blackwater Mountain: [blackwater_mountain18](../maps/blackwater_mountain18.md), Blackwater Mountain: [blackwater_mountain19](../maps/blackwater_mountain19.md), Blackwater Mountain: [blackwater_mountain71](../maps/blackwater_mountain71.md) (+4 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md), Blackwater Mountain: [Blackwater mountain 18](../maps/blackwater_mountain18.md), Blackwater Mountain: [Blackwater mountain 19](../maps/blackwater_mountain19.md), Blackwater Mountain: [Blackwater mountain 71](../maps/blackwater_mountain71.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -58,14 +58,14 @@ description: "Tough venomfang is an enemy in Andor's Trail (reptile) with 41 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain17](../maps/blackwater_mountain17.md) | Blackwater Mountain | 1 | – |
-| [blackwater_mountain18](../maps/blackwater_mountain18.md) | Blackwater Mountain | 3 | – |
-| [blackwater_mountain19](../maps/blackwater_mountain19.md) | Blackwater Mountain | 1 | – |
-| [blackwater_mountain71](../maps/blackwater_mountain71.md) | Blackwater Mountain | 1 | – |
-| [blackwater_mountain73](../maps/blackwater_mountain73.md) | Blackwater Mountain | 6 | – |
-| [blackwater_mountain74](../maps/blackwater_mountain74.md) | – | 3 | – |
-| [lake_shore_road_5](../maps/lake_shore_road_5.md) | Flagstone Prison | 4 | – |
-| [lake_shore_road_6](../maps/lake_shore_road_6.md) | Flagstone Prison | 3 | – |
+| [Blackwater mountain 17](../maps/blackwater_mountain17.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 18](../maps/blackwater_mountain18.md) | Blackwater Mountain | 3 | – |
+| [Blackwater mountain 19](../maps/blackwater_mountain19.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 71](../maps/blackwater_mountain71.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 73](../maps/blackwater_mountain73.md) | Blackwater Mountain | 6 | – |
+| [Blackwater mountain 74](../maps/blackwater_mountain74.md) | – | 3 | – |
+| [Lake shore road 5](../maps/lake_shore_road_5.md) | Flagstone Prison | 4 | – |
+| [Lake shore road 6](../maps/lake_shore_road_6.md) | Flagstone Prison | 3 | – |
 
 
 ## Version history

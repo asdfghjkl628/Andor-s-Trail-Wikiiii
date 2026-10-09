@@ -1,10 +1,10 @@
 ---
-description: "Feeding goat is a non-player character (NPC) in Andor's Trail, found in way_to_sullengard_east11."
+description: "Feeding goat is a non-player character (NPC) in Andor's Trail, found in Way to sullengard east 11."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_1.png){ .sprite } Feeding goat
 
-**Where to find Feeding goat:** [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_feeding)
+**Where to find Feeding goat:** [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_feeding)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Feeding goat is a non-player character (NPC) in Andor's Trail, fou
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | way_to_sullengard_east11 |
+| **Found in** | Way to sullengard east 11 |
 | **Entry ID** | `sullengard_goat_feeding` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
@@ -21,7 +21,7 @@ description: "Feeding goat is a non-player character (NPC) in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feeding goat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feeding goat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_goat_0.json" data-npc="Feeding goat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_goat_0"></span>**`sullengard_goat_0`** Feeding goat: “Baa.”
 

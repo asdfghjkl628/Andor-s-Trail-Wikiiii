@@ -1,5 +1,5 @@
 ---
-description: "Godoe is a non-player character (NPC) in Andor's Trail, found in guynmart_wood_18."
+description: "Godoe is a non-player character (NPC) in Andor's Trail, found in Guynmart wood 18."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Godoe
@@ -11,33 +11,33 @@ description: "Godoe is a non-player character (NPC) in Andor's Trail, found in g
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | guynmart_wood_18 |
+| **Found in** | Guynmart wood 18 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Godoe. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Godoe. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`godoe1`](#v-godoe1) | NPC | [guynmart_wood_18](../maps/guynmart_wood_18.md#pin-npc-godoe1) | – |
-| [`godoe2`](#v-godoe2) | NPC | [guynmart_wood_18](../maps/guynmart_wood_18.md#pin-npc-godoe2) | – |
+| [`godoe1`](#v-godoe1) | NPC | [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe1) | – |
+| [`godoe2`](#v-godoe2) | NPC | [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe2) | – |
 
 ## Guynmart wood 18 (godoe1) { #v-godoe1 }
 
 **Entry ID:** `godoe1` · **Type:** NPC
 
-**Location:** [guynmart_wood_18](../maps/guynmart_wood_18.md#pin-npc-godoe1)
+**Location:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe1)
 
 ### Quests
 
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 80
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 80
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Godoe. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Godoe. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/godoe.json" data-npc="Godoe" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-godoe1-godoe"></span>**`godoe`** Godoe: “Hello, strange kid. Wanna pass?”
 
@@ -56,7 +56,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sure, I have plenty of them.” *(if hand over 5× [Ruby gem](../items/gem2.md))* → [godoe_10](#d-godoe1-godoe_10)
     - “Are 5 shiny gold coins OK too?” *(if have 5 gold)* → [godoe_4](#d-godoe1-godoe_4)
 
-    <span id="d-godoe1-godoe_10"></span>**`godoe_10`** Godoe: “Good, good! Here you go. But don't waste time.” — **effects:** sets stage 80 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-80), faction “guynmart18” set to 0
+    <span id="d-godoe1-godoe_10"></span>**`godoe_10`** Godoe: “Good, good! Here you go. But don't waste time.” — **effects:** sets stage 80 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-80), faction “guynmart18” set to 0
 
 
     <span id="d-godoe1-godoe_4"></span>**`godoe_4`** Godoe: “Did I hear 500?”
@@ -106,15 +106,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `godoe2` · **Type:** NPC
 
-**Location:** [guynmart_wood_18](../maps/guynmart_wood_18.md#pin-npc-godoe2)
+**Location:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-godoe2)
 
 ### Quests
 
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 80
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 80
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Godoe. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Godoe. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/godoe.json" data-npc="Godoe" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

@@ -4,7 +4,7 @@ description: "Young erumen lizard is an enemy in Andor's Trail (reptile) with 45
 
 # ![](../assets/icons/monsters/monsters_rltiles2_114.png){ .sprite } Young erumen lizard
 
-**Found in:** Brimhaven: [waterway12](../maps/waterway12.md), Brimhaven: [waterway6](../maps/waterway6.md), Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md), Brimhaven: [waytobrimhaven5](../maps/waytobrimhaven5.md) (+12 more)
+**Found in:** Brimhaven: [Waterway 12](../maps/waterway12.md), Brimhaven: [Waterway 6](../maps/waterway6.md), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md), Brimhaven: [Waytobrimhaven 5](../maps/waytobrimhaven5.md) (+12 more)
 
 <div class="infobox" markdown>
 
@@ -55,22 +55,22 @@ description: "Young erumen lizard is an enemy in Andor's Trail (reptile) with 45
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md) | – | 2 | – |
-| [basiliskcave1_1_5](../maps/basiliskcave1_1_5.md) | – | 2 | – |
-| [waterway11](../maps/waterway11.md) | – | 7 | – |
-| [waterway11_east](../maps/waterway11_east.md) | – | 4 | – |
-| [waterway12](../maps/waterway12.md) | Brimhaven | 4 | – |
-| [waterway13](../maps/waterway13.md) | – | 3 | – |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 3 | – |
-| [waterway7](../maps/waterway7.md) | – | 7 | – |
-| [waterway_forest3](../maps/waterway_forest3.md) | – | 6 | – |
-| [waterwayb1](../maps/waterwayb1.md) | Loneford | 2 | – |
-| [waytobrimhaven1](../maps/waytobrimhaven1.md) | Loneford | 3 | – |
-| [waytobrimhaven2](../maps/waytobrimhaven2.md) | Loneford | 3 | – |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 3 | – |
-| [waytobrimhaven4](../maps/waytobrimhaven4.md) | Loneford | 2 | – |
-| [waytobrimhaven5](../maps/waytobrimhaven5.md) | Brimhaven | 3 | – |
-| [waytolake7](../maps/waytolake7.md) | – | 2 | – |
+| [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md) | – | 2 | – |
+| [Basiliskcave 1 1 5](../maps/basiliskcave1_1_5.md) | – | 2 | – |
+| [Waterway 11](../maps/waterway11.md) | – | 7 | – |
+| [Waterway 11 east](../maps/waterway11_east.md) | – | 4 | – |
+| [Waterway 12](../maps/waterway12.md) | Brimhaven | 4 | – |
+| [Waterway 13](../maps/waterway13.md) | – | 3 | – |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 3 | – |
+| [Waterway 7](../maps/waterway7.md) | – | 7 | – |
+| [Waterway forest 3](../maps/waterway_forest3.md) | – | 6 | – |
+| [Waterwayb 1](../maps/waterwayb1.md) | Loneford | 2 | – |
+| [Waytobrimhaven 1](../maps/waytobrimhaven1.md) | Loneford | 3 | – |
+| [Waytobrimhaven 2](../maps/waytobrimhaven2.md) | Loneford | 3 | – |
+| [Waytobrimhaven 3](../maps/waytobrimhaven3.md) | Brimhaven | 3 | – |
+| [Waytobrimhaven 4](../maps/waytobrimhaven4.md) | Loneford | 2 | – |
+| [Waytobrimhaven 5](../maps/waytobrimhaven5.md) | Brimhaven | 3 | – |
+| [Waytolake 7](../maps/waytolake7.md) | – | 2 | – |
 
 
 ## Version history

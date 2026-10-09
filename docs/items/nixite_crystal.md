@@ -26,7 +26,7 @@ description: "Nixite crystal is a extraordinary gem in Andor's Trail. How to get
 
 ### Quest & dialogue rewards
 
-- From [Rennik](../monsters/wild6_house_thief.md) ([wild6_house](../maps/wild6_house.md)) during [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-2) (100%)
+- From [Rennik](../monsters/wild6_house_thief.md) ([Wild 6 house](../maps/wild6_house.md)) during [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-2) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,7 +37,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Rock eater](../monsters/rock_eater.md) ([undertell_exit](../maps/undertell_exit.md)) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-60) | handed over (1×) | “Here, I have it. Take it.” |
+| [Rock eater](../monsters/rock_eater.md) ([Undertell exit](../maps/undertell_exit.md)) | [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-60) | handed over (1×) | “Here, I have it. Take it.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

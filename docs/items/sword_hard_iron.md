@@ -42,7 +42,7 @@ description: "Hardened iron sword is a ordinary longsword in Andor's Trail (Atta
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | elm_mine2 |
+| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | Elm mine 2 |
 
 ### Sold by
 

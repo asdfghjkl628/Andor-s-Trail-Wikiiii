@@ -45,7 +45,7 @@ description: "Broken Feygard medallion is a ordinary necklace in Andor's Trail (
 
 ### Found in containers
 
-- [elm_mine5](../maps/elm_mine5.md#container-1) (container 2, 100%)
+- [Elm mine 5](../maps/elm_mine5.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

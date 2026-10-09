@@ -11,7 +11,7 @@ description: "Galmore 71 is an outdoor location in Andor's Trail. Enemies: Ember
 | **Map ID** | `galmore_71` |
 | **Type** | Outdoors |
 | **Size** | 15×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |

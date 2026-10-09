@@ -39,19 +39,19 @@ description: "Shielding necklace is a rare necklace in Andor's Trail (Block chan
 
 ### Found in containers
 
-- [blackwater_mountain71](../maps/blackwater_mountain71.md#container-1) (container 2, 0.4%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-0) (container 1, 0.4%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-1) (container 2, 0.4%), Blackwater Mountain
-- [blackwater_mountain73](../maps/blackwater_mountain73.md#container-2) (container 3, 0.4%), Blackwater Mountain
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-1) (container 2, 0.4%)
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-2) (container 3, 0.4%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-0) (container 1, 0.4%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-1) (container 2, 0.4%)
-- [blackwater_mountain75](../maps/blackwater_mountain75.md#container-2) (container 3, 0.4%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-0) (container 1, 0.4%)
-- [blackwater_mountain76](../maps/blackwater_mountain76.md#container-1) (container 2, 0.4%)
-- [elm_mine4](../maps/elm_mine4.md#container-0) (container 1, 0.4%)
-- [thieves_vault](../maps/thieves_vault.md#container-9) (container 10, 100%), Blackwater Mountain
+- [Blackwater mountain 71](../maps/blackwater_mountain71.md#container-1) (container 2, 0.4%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-0) (container 1, 0.4%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-1) (container 2, 0.4%), Blackwater Mountain
+- [Blackwater mountain 73](../maps/blackwater_mountain73.md#container-2) (container 3, 0.4%), Blackwater Mountain
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-1) (container 2, 0.4%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-2) (container 3, 0.4%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-0) (container 1, 0.4%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-1) (container 2, 0.4%)
+- [Blackwater mountain 75](../maps/blackwater_mountain75.md#container-2) (container 3, 0.4%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-0) (container 1, 0.4%)
+- [Blackwater mountain 76](../maps/blackwater_mountain76.md#container-1) (container 2, 0.4%)
+- [Elm mine 4](../maps/elm_mine4.md#container-0) (container 1, 0.4%)
+- [Thieves vault](../maps/thieves_vault.md#container-9) (container 10, 100%), Blackwater Mountain
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

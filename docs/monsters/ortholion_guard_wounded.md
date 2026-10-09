@@ -4,7 +4,7 @@ description: "Wounded Feygard mountain scout is a non-player character (NPC) in 
 
 # ![](../assets/icons/monsters/monsters_omi2_11.png){ .sprite } Wounded Feygard mountain scout
 
-**Where to find Wounded Feygard mountain scout:** Blackwater Mountain: [blackwater_mountain31](../maps/blackwater_mountain31.md#pin-npc-ortholion_guard_wounded)
+**Where to find Wounded Feygard mountain scout:** Blackwater Mountain: [Blackwater mountain 31](../maps/blackwater_mountain31.md#pin-npc-ortholion_guard_wounded)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Wounded Feygard mountain scout is a non-player character (NPC) in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wounded Feygard mountain scout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wounded Feygard mountain scout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_gw_selector.json" data-npc="Wounded Feygard mountain scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_gw_selector"></span>**`ortholion_gw_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -54,7 +54,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “[Lie] I have an important message to deliver to him. It comes from Prim.” → [ortholion_gw_3a](#d-ortholion_gw_3a)
     - “Never mind, what happened to you?” → [ortholion_gw_2b](#d-ortholion_gw_2b)
 
-    <span id="d-ortholion_gw_2b"></span>**`ortholion_gw_2b`** Wounded Feygard mountain scout: “We were on the way to Blackwater Settlement, when we *cough*, *cough*, were attacked by a group of white wyrms. I got, uh, somewhat injured... So my general decided I should wait right here, safe from the monsters.” — **effects:** sets stage 34 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-34), clears stage 16 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-16)
+    <span id="d-ortholion_gw_2b"></span>**`ortholion_gw_2b`** Wounded Feygard mountain scout: “We were on the way to Blackwater Settlement, when we *cough*, *cough*, were attacked by a group of white wyrms. I got, uh, somewhat injured... So my general decided I should wait right here, safe from the monsters.” — **effects:** sets stage 34 of [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-34), clears stage 16 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-16)
 
     - “Hope you get better. I must leave.” → [ortholion_gw_3b](#d-ortholion_gw_3b)
     - “OK. That's everything I need to know.” → [ortholion_gw_3c](#d-ortholion_gw_3c)

@@ -1,8 +1,8 @@
 ---
-description: "Bwmfill8 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Gornaud, Gornaud leader. Exits to Wild6."
+description: "Bwmfill 8 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Gornaud, Gornaud leader. Exits to Wild 6."
 ---
 
-# Bwmfill8
+# Bwmfill 8
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Bwmfill8 is an outdoor location in Andor's Trail, in Blackwater Mo
 | **Region** | In Blackwater Mountain (other) |
 | **Type** | Outdoors |
 | **Size** | 9×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.10](../versions/0.8.10.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Bwmfill8** is an outdoor map, in Blackwater Mountain (other). It has no NPCs and 3 kinds of enemy. Exits lead to Wild6.
+**Bwmfill 8** is an outdoor map, in Blackwater Mountain (other). It has no NPCs and 3 kinds of enemy. Exits lead to Wild 6.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bwmfill8.webp" alt="Map of Bwmfill8" width="288" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../wild6/#place-west" title="Exit to Wild6" style="left:88.889%;top:6.667%;width:11.111%;height:43.333%"></a><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:66.667%;top:40.000%;width:22.222%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Gornaud leader" style="left:22.222%;top:50.000%;width:33.333%;height:20.000%"></span><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:77.778%;top:40.000%;width:11.111%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:77.778%;top:46.667%;width:11.111%;height:3.333%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob" href="../../monsters/gornaud_boss/" title="Gornaud leader" style="left:22.222%;top:53.333%;width:11.111%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_30.png" alt="Gornaud leader"></a><a class="pin pin-exit" href="#key-1" style="left:94.444%;top:28.333%" title="Exit (east): to [Wild6](wild6.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bwmfill8.webp" alt="Map of Bwmfill 8" width="288" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../wild6/#place-west" title="Exit to Wild 6" style="left:88.889%;top:6.667%;width:11.111%;height:43.333%"></a><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:66.667%;top:40.000%;width:22.222%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Gornaud leader" style="left:22.222%;top:50.000%;width:33.333%;height:20.000%"></span><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:77.778%;top:40.000%;width:11.111%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/scaled_venomfang/" title="Scaled venomfang" style="left:77.778%;top:46.667%;width:11.111%;height:3.333%"><img src="../../assets/icons/monsters/monsters_snakes_3.png" alt="Scaled venomfang"></a><a class="mob" href="../../monsters/gornaud_boss/" title="Gornaud leader" style="left:22.222%;top:53.333%;width:11.111%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_30.png" alt="Gornaud leader"></a><a class="pin pin-exit" href="#key-1" style="left:94.444%;top:28.333%" title="Exit (east): to [Wild 6](wild6.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Wild6](wild6.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Wild 6](wild6.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,7 +40,7 @@ description: "Bwmfill8 is an outdoor location in Andor's Trail, in Blackwater Mo
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Wild6](wild6.md) | Blackwater Mountain | 1 |
+| East | [Wild 6](wild6.md) | Blackwater Mountain | 1 |
 
 ## Enemies
 

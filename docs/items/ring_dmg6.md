@@ -40,7 +40,7 @@ description: "Ring of damage +6 is a rare ring in Andor's Trail (Attack damage 6
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) during [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-140) (1×)
+- From stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md) during [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-140) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

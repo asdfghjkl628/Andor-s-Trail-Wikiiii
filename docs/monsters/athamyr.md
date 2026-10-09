@@ -21,11 +21,11 @@ description: "Athamyr is a non-player character (NPC) in Andor's Trail."
 ## Quests
 
 - [Key of Luthor](../quests/bucus.md): stages 30, 40, 50
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stages 60, 61, 63, 71, 73
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stages 60, 61, 63, 71, 73
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Athamyr. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Athamyr. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/athamyr.json" data-npc="Athamyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,16 +33,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (29 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-athamyr"></span>**`athamyr`** Athamyr: “Walk with the Shadow.”
 
     - “Have you been down in the catacombs?” *(if reached stage 20 of [Key of Luthor](../quests/bucus.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [athamyr_select](#d-athamyr_select)
-    - “May I ask you a question? Do you know a way to climb over the graveyard fence to the south?” *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); NOT reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69); NOT carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md); NOT wearing [Jewel of Fallhaven](../items/jewel_fallhaven.md))* → [athamyr_coup_10](#d-athamyr_coup_10)
-    - “What about the ladder?” *(if reached stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 61 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-61); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_24a](#d-athamyr_coup_24a)
-    - “I will go and find your ladder.” *(if reached stage 71 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-71); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → *conversation ends*
-    - “I tried the ladder, but the window is locked.” *(if reached stage 62 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-62); NOT reached stage 63 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63); NOT reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_30](#d-athamyr_coup_30)
-    - “The ladder is gone and the window shut.” *(if reached stage 63 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63); reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_40](#d-athamyr_coup_40)
+    - “May I ask you a question? Do you know a way to climb over the graveyard fence to the south?” *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); NOT reached stage 60 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 69 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69); NOT carry 1× [Jewel of Fallhaven](../items/jewel_fallhaven.md); NOT wearing [Jewel of Fallhaven](../items/jewel_fallhaven.md))* → [athamyr_coup_10](#d-athamyr_coup_10)
+    - “What about the ladder?” *(if reached stage 60 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-60); NOT reached stage 61 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-61); NOT reached stage 69 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_24a](#d-athamyr_coup_24a)
+    - “I will go and find your ladder.” *(if reached stage 71 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-71); NOT reached stage 69 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → *conversation ends*
+    - “I tried the ladder, but the window is locked.” *(if reached stage 62 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-62); NOT reached stage 63 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-63); NOT reached stage 69 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_30](#d-athamyr_coup_30)
+    - “The ladder is gone and the window shut.” *(if reached stage 63 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-63); reached stage 69 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [athamyr_coup_40](#d-athamyr_coup_40)
     - “The catacombs were interesting.” *(if reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100))* → [athamyr_complete_12](#d-athamyr_complete_12)
 
     <span id="d-athamyr_select"></span>**`athamyr_select`** *(silent check: the first matching branch below is taken)*
@@ -100,7 +100,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Well, behind the fence is the shop of the tailor.” → [athamyr_coup_14](#d-athamyr_coup_14)
 
-    <span id="d-athamyr_coup_28"></span>**`athamyr_coup_28`** Athamyr: “I knew you would do that, my friend. So I have already hidden the ladder in the basement near the window.” — **effects:** sets stage 61 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-61), sets stage 71 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-71)
+    <span id="d-athamyr_coup_28"></span>**`athamyr_coup_28`** Athamyr: “I knew you would do that, my friend. So I have already hidden the ladder in the basement near the window.” — **effects:** sets stage 61 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-61), sets stage 71 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-71)
 
     - “Thank you.” → *conversation ends*
 
@@ -131,7 +131,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Eh, yes. Exactly.” → [athamyr_coup_18](#d-athamyr_coup_18)
 
-    <span id="d-athamyr_coup_38"></span>**`athamyr_coup_38`** Athamyr: “The window is already unlocked.” — **effects:** sets stage 63 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63), clears stage 72 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-72), sets stage 73 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-73)
+    <span id="d-athamyr_coup_38"></span>**`athamyr_coup_38`** Athamyr: “The window is already unlocked.” — **effects:** sets stage 63 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-63), clears stage 72 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-72), sets stage 73 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-73)
 
     - “Thank you.” → *conversation ends*
     - “I hope for your sake that was all.” → *conversation ends*
@@ -156,7 +156,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [athamyr_coup_24](#d-athamyr_coup_24)
 
-    <span id="d-athamyr_coup_24"></span>**`athamyr_coup_24`** Athamyr: “Then you can climb through a window and reach a path right to the back of the tailor's house.” — **effects:** sets stage 60 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60)
+    <span id="d-athamyr_coup_24"></span>**`athamyr_coup_24`** Athamyr: “Then you can climb through a window and reach a path right to the back of the tailor's house.” — **effects:** sets stage 60 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-60)
 
     - “OK. I have ten deliciously cooked pieces of meat now.” *(if carry 10× [Cooked meat](../items/meat_cooked.md))* → [athamyr_coup_26](#d-athamyr_coup_26)
     - “I will go for it now.” *(if NOT carry 10× [Cooked meat](../items/meat_cooked.md))* → *conversation ends*

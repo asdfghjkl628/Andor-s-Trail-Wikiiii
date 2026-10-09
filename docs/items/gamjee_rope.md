@@ -29,12 +29,12 @@ description: "Gamjee's rope is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gamjee](../monsters/gamjee.md) | 100% | 1 | gamjee_well_4_1 |
-| [Gamjee](../monsters/gamjee.md#v-gamjee_oc) | 100% | 1 | gamjee_well_4_1 |
+| [Gamjee](../monsters/gamjee.md) | 100% | 1 | Gamjee well 4 1 |
+| [Gamjee](../monsters/gamjee.md#v-gamjee_oc) | 100% | 1 | Gamjee well 4 1 |
 
 ### Quest & dialogue rewards
 
-- From [Gamjee](../monsters/gamjee.md) ([gamjee_well_4_1](../maps/gamjee_well_4_1.md)), [Gamjee](../monsters/gamjee.md#v-gamjee_oc) ([gamjee_well_4_1](../maps/gamjee_well_4_1.md)) during [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-13) (1×)
+- From [Gamjee](../monsters/gamjee.md) ([Gamjee well 4 1](../maps/gamjee_well_4_1.md)), [Gamjee](../monsters/gamjee.md#v-gamjee_oc) ([Gamjee well 4 1](../maps/gamjee_well_4_1.md)) during [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-13) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -45,8 +45,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | must be carried (1×) | “Matter of fact, I have. But what I have will require a lot of effort on you guys” |
-| stepping on a trigger on [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-10) | handed over (1×) | “[Tie the rope to the rock]” |
+| stepping on a trigger on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | must be carried (1×) | “Matter of fact, I have. But what I have will require a lot of effort on you guys” |
+| stepping on a trigger on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-10) | handed over (1×) | “[Tie the rope to the rock]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

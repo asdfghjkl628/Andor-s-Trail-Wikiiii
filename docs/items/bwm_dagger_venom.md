@@ -46,7 +46,7 @@ description: "Blackwater poisoned dagger is a rare dagger in Andor's Trail (Atta
 
 ### Sold by
 
-- [Waeges](../monsters/waeges.md) (blackwater_mountain43)
+- [Waeges](../monsters/waeges.md) (Blackwater mountain 43)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

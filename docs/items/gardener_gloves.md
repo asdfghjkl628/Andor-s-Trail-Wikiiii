@@ -27,7 +27,7 @@ description: "Gardener's gloves is a extraordinary gloves, cloth in Andor's Trai
 
 ### Found in containers
 
-- [mushroom_m2_4b](../maps/mushroom_m2_4b.md#container-0) (container 1, 100%)
+- [Mushroom m 2 4b](../maps/mushroom_m2_4b.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [blackwater_mountain32](../maps/blackwater_mountain32.md), stepping on a trigger on [gapfiller2](../maps/gapfiller2.md) | [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110) | must be worn (1×) | “(automatic)” |
-| [Undina Bogsten](../monsters/bogsten_granny.md) ([mushroom_m2_4](../maps/mushroom_m2_4.md)), [Undina Bogsten](../monsters/bogsten_granny.md#v-bogsten_granny1) ([mushroom_m2_4](../maps/mushroom_m2_4.md)) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Blackwater mountain 32](../maps/blackwater_mountain32.md), stepping on a trigger on [Gapfiller 2](../maps/gapfiller2.md) | [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110) | must be worn (1×) | “(automatic)” |
+| [Undina Bogsten](../monsters/bogsten_granny.md) ([Mushroom m 2 4](../maps/mushroom_m2_4.md)), [Undina Bogsten](../monsters/bogsten_granny.md#v-bogsten_granny1) ([Mushroom m 2 4](../maps/mushroom_m2_4.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

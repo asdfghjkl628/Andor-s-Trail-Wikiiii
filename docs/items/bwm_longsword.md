@@ -42,7 +42,7 @@ description: "Blackwater iron longsword is a rare longsword in Andor's Trail (At
 
 ### Found in containers
 
-- [bwmfill6](../maps/bwmfill6.md#container-0) (container 1, 100%), Blackwater Mountain
+- [Bwmfill 6](../maps/bwmfill6.md#container-0) (container 1, 100%), Blackwater Mountain
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

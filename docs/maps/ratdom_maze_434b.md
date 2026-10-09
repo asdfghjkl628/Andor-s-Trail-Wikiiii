@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 434b is an indoor location in Andor's Trail, in Gold hunter (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Ogre. Exits to Ratdom maze 434, Ratdom maze 535a."
+description: "Ratdom maze 434b is an indoor location in Andor's Trail, in Gold hunter (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Ogre. Exits to Ratdom maze 434, Ratdom maze 535a."
 ---
 
 # Ratdom maze 434b
@@ -59,8 +59,8 @@ description: "Ratdom maze 434b is an indoor location in Andor's Trail, in Gold h
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Ogre](../monsters/ratdom_uglybrute.md) | 230 | 1–30 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -68,7 +68,7 @@ description: "Ratdom maze 434b is an indoor location in Andor's Trail, in Gold h
 ## Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; part of the map changes at stage 70; part of the map changes at stage 74; part of the map changes at stage 75; something on this map advances it; stepping on a trigger here sets stage 70
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; part of the map changes at stage 70; part of the map changes at stage 74; part of the map changes at stage 75; something on this map advances it; stepping on a trigger here sets stage 70
 
 ## Points of interest
 

@@ -35,16 +35,16 @@ description: "Burnt ash is a ordinary other in Andor's Trail. How to get it: mon
 | [Hardened ash gargoyle](../monsters/ash4.md) | 10% | 0-3 | Charwood |
 | [Young ash spawn](../monsters/ash5.md) | 10% | 0-2 | Charwood |
 | [Ash spawn](../monsters/ash6.md) | 10% | 0-2 | Charwood |
-| [Tough ash spawn](../monsters/ash7.md) | 10% | 0-2 | lostmine5, lostmine6, lostmine7 |
-| [Glowing abcess](../monsters/fire1.md) | 10% | 0-1 | lostmine6, lostmine7, lostmine8 |
-| [Blazing abcess](../monsters/fire2.md) | 10% | 0-1 | lostmine6, lostmine7, lostmine8 |
-| [Lava spawn](../monsters/fire3.md) | 10% | 0-1 | lostmine7, lostmine8, lostmine9 |
-| [Tough lava spawn](../monsters/fire4.md) | 10% | 0-1 | lostmine7, lostmine8, lostmine9 |
-| [Glowing flame](../monsters/fire5.md) | 10% | 0-1 | lostmine10, lostmine9 |
-| [Flame spawn](../monsters/fire6.md) | 10% | 0-1 | lostmine10, lostmine9 |
-| [Walking flame](../monsters/fire7.md) | 10% | 0-1 | lostmine10, lostmine11 |
-| [Walking inferno](../monsters/fire8.md) | 10% | 0-1 | lostmine10, lostmine11 |
-| [Ancient walking inferno](../monsters/fire9.md) | 10% | 0-1 | lostmine11 |
+| [Tough ash spawn](../monsters/ash7.md) | 10% | 0-2 | Lostmine 5, Lostmine 6, Lostmine 7 |
+| [Glowing abcess](../monsters/fire1.md) | 10% | 0-1 | Lostmine 6, Lostmine 7, Lostmine 8 |
+| [Blazing abcess](../monsters/fire2.md) | 10% | 0-1 | Lostmine 6, Lostmine 7, Lostmine 8 |
+| [Lava spawn](../monsters/fire3.md) | 10% | 0-1 | Lostmine 7, Lostmine 8, Lostmine 9 |
+| [Tough lava spawn](../monsters/fire4.md) | 10% | 0-1 | Lostmine 7, Lostmine 8, Lostmine 9 |
+| [Glowing flame](../monsters/fire5.md) | 10% | 0-1 | Lostmine 10, Lostmine 9 |
+| [Flame spawn](../monsters/fire6.md) | 10% | 0-1 | Lostmine 10, Lostmine 9 |
+| [Walking flame](../monsters/fire7.md) | 10% | 0-1 | Lostmine 10, Lostmine 11 |
+| [Walking inferno](../monsters/fire8.md) | 10% | 0-1 | Lostmine 10, Lostmine 11 |
+| [Ancient walking inferno](../monsters/fire9.md) | 10% | 0-1 | Lostmine 11 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

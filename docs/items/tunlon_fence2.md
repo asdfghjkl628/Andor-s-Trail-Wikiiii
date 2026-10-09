@@ -27,7 +27,7 @@ description: "New fence is a quest other in Andor's Trail. How to get it: quests
 
 ### Quest & dialogue rewards
 
-- From [Wood craftsman](../monsters/brv_woodcraftsman.md) ([brimhaven2_woodcutter](../maps/brimhaven2_woodcutter.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-240) (100%)
+- From [Wood craftsman](../monsters/brv_woodcraftsman.md) ([Brimhaven 2 woodcutter](../maps/brimhaven2_woodcutter.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-240) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) | [It makes no fence](../quests/tunlon_fence.md#stage-250) | handed over (10×) | “Here, I hope these are better.” |
+| [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) | [It makes no fence](../quests/tunlon_fence.md#stage-250) | handed over (10×) | “Here, I hope these are better.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

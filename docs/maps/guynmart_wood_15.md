@@ -11,7 +11,7 @@ description: "Guynmart wood 15 is an outdoor location in Andor's Trail. Enemies:
 | **Map ID** | `guynmart_wood_15` |
 | **Type** | Outdoors |
 | **Size** | 22×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |

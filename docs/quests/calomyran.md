@@ -11,9 +11,9 @@ description: "Calomyran secrets is a quest in Andor's Trail, started by Old man 
 | **Quest ID** | `calomyran` |
 | **In journal** | Yes |
 | **Stages** | 3 (completes at 100) |
-| **Started by** | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
+| **Started by** | [Old man](../monsters/old_man.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) |
 | **NPCs involved** | [Old man](../monsters/old_man.md) |
-| **Locations** | [fallhaven_nw](../maps/fallhaven_nw.md) |
+| **Locations** | [Fallhaven north-west](../maps/fallhaven_nw.md) |
 | **Total XP** | 600 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Calomyran secrets is a quest in Andor's Trail, started by Old man 
 
 ## Prerequisites to start
 
-Start with [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)). Required:
+Start with [Old man](../monsters/old_man.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)). Required:
 
 - reached stage 10 of [Calomyran secrets](../quests/calomyran.md#stage-10)
 
@@ -39,29 +39,53 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | An old man standing outside in Fallhaven has lost his book 'Calomyran Secrets'. I should go look for it. Maybe in Arcir's house to the south? | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | – |
-| <span id="stage-20"></span>20 | I found a torn page of a book called 'Calomyran Secrets' with the name 'Larcal' written on it. | reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) | – | – |
-| <span id="stage-100"></span>100 | I gave the book back to the old man. **(completes quest)** | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | hand over 1× [Calomyran secrets](../items/calomyran_secrets.md), stage 10 | 600 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">An old man standing outside in Fallhaven has lost his book… ▸</span><span class="l">▴ less</span></summary>An old man standing outside in Fallhaven has lost his book 'Calomyran Secrets'. I should go look for it. Maybe in Arcir's house to the south?</details> | [Old man](../monsters/old_man.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I found a torn page of a book called 'Calomyran Secrets' with the… ▸</span><span class="l">▴ less</span></summary>I found a torn page of a book called 'Calomyran Secrets' with the name 'Larcal' written on it.</details> | reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | I gave the book back to the old man. **(ends quest)** | [Old man](../monsters/old_man.md) | 600 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “No, I have not found it yet.” — **conditions:** reached stage 10 of [Calomyran secrets](../quests/calomyran.md#stage-10) → **stage 10**. NPC: “I have no idea where it might be. You could go ask Arcir, he seems very fond of his books. [Points at the house to the…”
+??? note "Stage 10 · Old man · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Old man](../monsters/old_man.md), choose “No, I have not found it yet.”
 
-    1. reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) → the conversation leads here automatically → **stage 20**. NPC: “You see a torn page from a book titled 'Calomyran Secrets'. Blood stains its edges, and someone has scribbled the…”
+    - **Needs:** stage 10
+    - *“I have no idea where it might be. You could go ask Arcir, he seems very fond of his books. [Points at the house to the south]”*
 
-???+ note "Stage 100: 1 route"
 
-    1. Talk to [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) → choose “Yes, I found it.” — **conditions:** reached stage 10 of [Calomyran secrets](../quests/calomyran.md#stage-10); hand over 1× [Calomyran secrets](../items/calomyran_secrets.md) → **stage 100**; also gives [Gold coins](../items/gold.md). NPC: “My book! Thank you, thank you! Where was it? No, don't tell me. Here, take these coins for your trouble.”
+<span id="route-20"></span>
+
+??? note "Stage 20 · reading a sign on fallhaven_arcir_basement · 1 way"
+
+    **Way 1:** Reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md)
+
+    - *“You see a torn page from a book titled 'Calomyran Secrets'. Blood stains its edges, and someone has scribbled the words 'Larcal' with the…”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Old man · 1 way"
+
+    **Way 1:** Talk to [Old man](../monsters/old_man.md), choose “Yes, I found it.”
+
+    - **Needs:** stage 10; hand over 1× [Calomyran secrets](../items/calomyran_secrets.md)
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“My book! Thank you, thank you! Where was it? No, don't tell me. Here, take these coins for your trouble.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

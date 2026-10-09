@@ -1,10 +1,10 @@
 ---
-description: "Venomous beach crawler is an enemy in Andor's Trail (animal) with 70 HP, worth 131 XP, found in island3, island4, laerothcave0. Drops: Stinging gland, Weak poison."
+description: "Venomous beach crawler is an enemy in Andor's Trail (animal) with 70 HP, worth 131 XP, found in Island 3, Island 4, Laerothcave 0. Drops: Stinging gland, Weak poison."
 ---
 
 # ![](../assets/icons/monsters/monsters_redshrike1_6.png){ .sprite } Venomous beach crawler
 
-**Found in:** [island3](../maps/island3.md), [island4](../maps/island4.md), [laerothcave0](../maps/laerothcave0.md)
+**Found in:** [Island 3](../maps/island3.md), [Island 4](../maps/island4.md), [Laerothcave 0](../maps/laerothcave0.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Venomous beach crawler is an enemy in Andor's Trail (animal) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | island3, island4, laerothcave0 |
+| **Found in** | Island 3, Island 4, Laerothcave 0 |
 | **Class** | Animal |
 | **HP** | 70 |
 | **XP when defeated** | 131 |
@@ -57,9 +57,9 @@ description: "Venomous beach crawler is an enemy in Andor's Trail (animal) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [island3](../maps/island3.md) | – | 3 | – |
-| [island4](../maps/island4.md) | – | 4 | – |
-| [laerothcave0](../maps/laerothcave0.md) | – | 6 | – |
+| [Island 3](../maps/island3.md) | – | 3 | – |
+| [Island 4](../maps/island4.md) | – | 4 | – |
+| [Laerothcave 0](../maps/laerothcave0.md) | – | 6 | – |
 
 
 ## Version history

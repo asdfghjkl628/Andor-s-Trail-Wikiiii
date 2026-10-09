@@ -1,8 +1,8 @@
 ---
-description: "Island2 cave is an outdoor location in Andor's Trail. Enemies: Cave bat. Exits to Island2."
+description: "Island 2 cave is an outdoor location in Andor's Trail. Enemies: Cave bat. Exits to Island 2."
 ---
 
-# Island2 cave
+# Island 2 cave
 
 <div class="infobox" markdown>
 
@@ -17,20 +17,20 @@ description: "Island2 cave is an outdoor location in Andor's Trail. Enemies: Cav
 
 </div>
 
-**Island2 cave** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Island2.
+**Island 2 cave** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Island 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/island2_cave.webp" alt="Map of Island2 cave" width="640" height="480" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../island2/#place-cave" title="Exit to Island2" style="left:55.000%;top:93.333%;width:5.000%;height:6.667%"></a><a id="place-up" class="mo mo-mapchange" href="../island2/#place-down" title="Exit to Island2" style="left:90.000%;top:66.667%;width:5.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Cave bat" style="left:15.000%;top:20.000%;width:70.000%;height:66.667%"></span><a class="mob" href="../../monsters/cavebat4/" title="Cave bat" style="left:20.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_2.png" alt="Cave bat"></a><a class="mob" href="../../monsters/cavebat4/" title="Cave bat" style="left:30.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_2.png" alt="Cave bat"></a><a class="mob" href="../../monsters/cavebat4/" title="Cave bat" style="left:20.000%;top:46.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_2.png" alt="Cave bat"></a><a class="pin pin-exit" href="#key-1" style="left:92.500%;top:70.000%" title="Exit (east): to [Island2](island2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:57.500%;top:96.667%" title="Exit (south): to [Island2](island2.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/island2_cave.webp" alt="Map of Island 2 cave" width="640" height="480" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../island2/#place-cave" title="Exit to Island 2" style="left:55.000%;top:93.333%;width:5.000%;height:6.667%"></a><a id="place-up" class="mo mo-mapchange" href="../island2/#place-down" title="Exit to Island 2" style="left:90.000%;top:66.667%;width:5.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Cave bat" style="left:15.000%;top:20.000%;width:70.000%;height:66.667%"></span><a class="mob" href="../../monsters/cavebat4/" title="Cave bat" style="left:20.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_2.png" alt="Cave bat"></a><a class="mob" href="../../monsters/cavebat4/" title="Cave bat" style="left:30.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_2.png" alt="Cave bat"></a><a class="mob" href="../../monsters/cavebat4/" title="Cave bat" style="left:20.000%;top:46.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_2.png" alt="Cave bat"></a><a class="pin pin-exit" href="#key-1" style="left:92.500%;top:70.000%" title="Exit (east): to [Island 2](island2.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:57.500%;top:96.667%" title="Exit (south): to [Island 2](island2.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Island2](island2.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Island2](island2.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Island 2](island2.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Island 2](island2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -39,8 +39,8 @@ description: "Island2 cave is an outdoor location in Andor's Trail. Enemies: Cav
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Island2](island2.md) | – | 1 |
-| South | [Island2](island2.md) | – | 2 |
+| East | [Island 2](island2.md) | – | 1 |
+| South | [Island 2](island2.md) | – | 2 |
 
 ## Enemies
 

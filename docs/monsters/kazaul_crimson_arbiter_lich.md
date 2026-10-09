@@ -1,10 +1,10 @@
 ---
-description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) with 305 HP, worth 883 XP, found in undertell_4_00, undertell_4_01, undertell_4_10. Drops: Gold coins, Lich dust, Major potion of health, Kazaul bonemeal."
+description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) with 305 HP, worth 883 XP, found in Undertell 4 00, Undertell 4 01, Undertell 4 10. Drops: Gold coins, Lich dust, Major potion of health, Kazaul bonemeal."
 ---
 
 # ![](../assets/icons/monsters/monsters_antison_5.png){ .sprite } Kazaul crimson arbiter lich
 
-**Found in:** [undertell_4_00](../maps/undertell_4_00.md), [undertell_4_01](../maps/undertell_4_01.md), [undertell_4_10](../maps/undertell_4_10.md), [undertell_4_11](../maps/undertell_4_11.md) (+5 more)
+**Found in:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_4_00, undertell_4_01, undertell_4_10 |
+| **Found in** | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
 | **Class** | Undead |
 | **HP** | 305 |
 | **XP when defeated** | 883 |
@@ -63,15 +63,15 @@ description: "Kazaul crimson arbiter lich is an enemy in Andor's Trail (undead) 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_4_00](../maps/undertell_4_00.md) | – | 3 | – |
-| [undertell_4_01](../maps/undertell_4_01.md) | – | 5 | – |
-| [undertell_4_10](../maps/undertell_4_10.md) | – | 7 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 3 | – |
-| [undertell_5](../maps/undertell_5.md) | – | 4 | – |
-| [undertell_7_00](../maps/undertell_7_00.md) | – | 1 | – |
-| [undertell_7_01](../maps/undertell_7_01.md) | – | 4 | – |
-| [undertell_7_10](../maps/undertell_7_10.md) | – | 9 | – |
-| [undertell_7_11](../maps/undertell_7_11.md) | – | 5 | – |
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 3 | – |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 5 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 7 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 3 | – |
+| [Undertell 5](../maps/undertell_5.md) | – | 4 | – |
+| [Undertell 7 00](../maps/undertell_7_00.md) | – | 1 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 4 | – |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 9 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 5 | – |
 
 
 ## Version history

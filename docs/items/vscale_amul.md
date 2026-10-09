@@ -37,8 +37,8 @@ description: "Venomscale amulet is a rare necklace in Andor's Trail (Critical sk
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Breeder of venomscale](../monsters/vscaleb1.md) | 1% | 1 | lodar16, lodar19 |
-| [Venomscale master](../monsters/vscaleb2.md) | 1% | 1 | lodar17, lodar19 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | 1% | 1 | Lodar 16, Lodar 19 |
+| [Venomscale master](../monsters/vscaleb2.md) | 1% | 1 | Lodar 17, Lodar 19 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

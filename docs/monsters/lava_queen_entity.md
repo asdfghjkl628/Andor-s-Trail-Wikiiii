@@ -1,10 +1,10 @@
 ---
-description: "Queen lava entity is an enemy in Andor's Trail (construct) with 490 HP, worth 1513 XP, found in way_to_sullengard_east5_filler. Drops: Diamond Ring, Small rock."
+description: "Queen lava entity is an enemy in Andor's Trail (construct) with 490 HP, worth 1513 XP, found in Way to sullengard east 5 filler. Drops: Diamond Ring, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik10_24.png){ .sprite } Queen lava entity
 
-**Found in:** [way_to_sullengard_east5_filler](../maps/way_to_sullengard_east5_filler.md)
+**Found in:** [Way to sullengard east 5 filler](../maps/way_to_sullengard_east5_filler.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Queen lava entity is an enemy in Andor's Trail (construct) with 49
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_east5_filler |
+| **Found in** | Way to sullengard east 5 filler |
 | **Class** | Construct |
 | **HP** | 490 |
 | **XP when defeated** | 1,513 |
@@ -59,7 +59,7 @@ description: "Queen lava entity is an enemy in Andor's Trail (construct) with 49
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_east5_filler](../maps/way_to_sullengard_east5_filler.md) | – | 1 | – |
+| [Way to sullengard east 5 filler](../maps/way_to_sullengard_east5_filler.md) | – | 1 | – |
 
 
 ## Version history

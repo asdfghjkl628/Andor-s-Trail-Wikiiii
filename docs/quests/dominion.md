@@ -11,9 +11,9 @@ description: "Dominion is a quest in Andor's Trail, started by Ysrine (undertell
 | **Quest ID** | `dominion` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 90) |
-| **Started by** | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) |
+| **Started by** | [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)) |
 | **NPCs involved** | [Saki](../monsters/saki.md), [Ysrine](../monsters/ysrine.md) |
-| **Locations** | [undertell_1_1](../maps/undertell_1_1.md), [undertell_exit](../maps/undertell_exit.md) |
+| **Locations** | [Undertell 1 1](../maps/undertell_1_1.md), [Undertell exit](../maps/undertell_exit.md) |
 | **Total XP** | 9,000 |
 | **Related quests** | 3 |
 
@@ -25,7 +25,7 @@ description: "Dominion is a quest in Andor's Trail, started by Ysrine (undertell
 
 ## Prerequisites to start
 
-Start with [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)). Required:
+Start with [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)). Required:
 
 - reached stage 450 of [Devotion](../quests/devotion.md#stage-450)
 - NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10)
@@ -41,56 +41,122 @@ Start with [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_
 |---|---|---|
 | Requires | [Devotion](devotion.md#stage-450) | stage 450 reached, for stages 10, 20, 30, 70 here |
 | Requires | [The fifth master](fifth_master.md#stage-10) | stage 10 reached, for stage 50 here |
-| Blocked by | [hidden_undertell (hidden flag)](undertell_hidden.md#stage-7) | stage 7 must NOT be reached, for stage 50 here |
+| Blocked by | [Undertell story flags (hidden flag)](undertell_hidden.md#stage-7) | stage 7 must NOT be reached, for stage 50 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Ysrine introduced me to Saki, ghost of an Elytharan mage. Now that the Kha'zaan were destroyed, Saki wanted me to help revive his Elytharan colleagues. They had become incorporeal during the war, and their souls became soul pearls. | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | – | spawns monsters on undertell_1_1 |
-| <span id="stage-20"></span>20 | Saki wanted me to defeat the liches who had picked up the soul pearls, and get back all five of them. | [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md))<br>[Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | stage 10 | spawns monsters on undertell_21<br>spawns monsters on undertell_3_lava_01<br>spawns monsters on undertell_4_01<br>spawns monsters on undertell_7_10<br>spawns monsters on undertell_5 |
-| <span id="stage-30"></span>30 | I returned to Saki with all five soul pearls. He took them in haste and disappeared. | [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md))<br>[Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | hand over 5× [Soul pearl](../items/soul_pearl.md), stage 20 | 1,500 XP<br>removes monsters from undertell_1_1 |
-| <span id="stage-50"></span>50 | Ysrine told me that Saki's behavior had confirmed her suspicions that Saki was a Kazaul mage and wanted to absorb the Elytharan mage souls to make himself stronger. | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | stage 30 | – |
-| <span id="stage-60"></span>60 | Ysrine told me that Saki was trying to flee Undertell. I was to find him, defeat him, and get the soul pearls back. | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | stage 50 | spawns monsters on undertell_exit |
-| <span id="stage-70"></span>70 | Prevented from escaping Undertell by Shannal, I found Saki at the passage to Undertell. | [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md))<br>[Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | stage 60 | – |
-| <span id="stage-90"></span>90 | Ysrine thanked me and told me to keep the soul pearls safe. **(completes quest)** | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | carry 5× [Soul pearl](../items/soul_pearl.md) | 7,500 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Ysrine introduced me to Saki, ghost of an Elytharan mage. Now that… ▸</span><span class="l">▴ less</span></summary>Ysrine introduced me to Saki, ghost of an Elytharan mage. Now that the Kha'zaan were destroyed, Saki wanted me to help revive his Elytharan colleagues. They had become incorporeal during the war, and their souls became soul pearls.</details> | [Ysrine](../monsters/ysrine.md) | spawns monsters on undertell_1_1 |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Saki wanted me to defeat the liches who had picked up the soul… ▸</span><span class="l">▴ less</span></summary>Saki wanted me to defeat the liches who had picked up the soul pearls, and get back all five of them.</details> | [Saki](../monsters/saki.md), [Ysrine](../monsters/ysrine.md) | spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5 |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I returned to Saki with all five soul pearls. He took them in haste… ▸</span><span class="l">▴ less</span></summary>I returned to Saki with all five soul pearls. He took them in haste and disappeared.</details> | [Saki](../monsters/saki.md), [Ysrine](../monsters/ysrine.md) | 1,500 XP, removes monsters from undertell_1_1 |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Ysrine told me that Saki's behavior had confirmed her suspicions… ▸</span><span class="l">▴ less</span></summary>Ysrine told me that Saki's behavior had confirmed her suspicions that Saki was a Kazaul mage and wanted to absorb the Elytharan mage souls to make himself stronger.</details> | [Ysrine](../monsters/ysrine.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">Ysrine told me that Saki was trying to flee Undertell. I was to find… ▸</span><span class="l">▴ less</span></summary>Ysrine told me that Saki was trying to flee Undertell. I was to find him, defeat him, and get the soul pearls back.</details> | [Ysrine](../monsters/ysrine.md) | spawns monsters on undertell_exit |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">Prevented from escaping Undertell by Shannal, I found Saki at the… ▸</span><span class="l">▴ less</span></summary>Prevented from escaping Undertell by Shannal, I found Saki at the passage to Undertell.</details> | [Saki](../monsters/saki.md), [Ysrine](../monsters/ysrine.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | Ysrine thanked me and told me to keep the soul pearls safe. **(ends quest)** | [Ysrine](../monsters/ysrine.md) | 7,500 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → the conversation leads here automatically — **conditions:** reached stage 450 of [Devotion](../quests/devotion.md#stage-450); NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10) → **stage 10**; also spawns monsters on undertell_1_1. NPC: “Here, on my left.”
+??? note "Stage 10 · Ysrine · 1 way"
 
-???+ note "Stage 20: 2 routes"
+    **Way 1:** Talk to [Ysrine](../monsters/ysrine.md), automatic
 
-    1. Talk to [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “So I must destroy the liches and recover the pearls.” — **conditions:** latest stage of [Dominion](../quests/dominion.md#stage-10) is 10; reached stage 450 of [Devotion](../quests/devotion.md#stage-450) → **stage 20**; also spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5. NPC: “They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.”
-    2. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “So I must destroy the liches and recover the pearls.” — **conditions:** reached stage 450 of [Devotion](../quests/devotion.md#stage-450); NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10); latest stage of [Dominion](../quests/dominion.md#stage-10) is 10 → **stage 20**; also spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5. NPC: “They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.”
+    - **Needs:** not yet stage 10; reached stage 450 of [Devotion](../quests/devotion.md#stage-450)
+    - **Gives:** spawns monsters on undertell_1_1
+    - *“Here, on my left.”*
 
-???+ note "Stage 30: 2 routes"
 
-    1. Talk to [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “Yeah, here they are.” — **conditions:** reached stage 20 of [Dominion](../quests/dominion.md#stage-20); NOT reached stage 30 of [Dominion](../quests/dominion.md#stage-30); hand over 5× [Soul pearl](../items/soul_pearl.md) → **stage 30**; also removes monsters from undertell_1_1. NPC: “Thank you for these powerful artifacts!”
-    2. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “Yeah, here they are.” — **conditions:** reached stage 450 of [Devotion](../quests/devotion.md#stage-450); NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10); reached stage 20 of [Dominion](../quests/dominion.md#stage-20); NOT reached stage 30 of [Dominion](../quests/dominion.md#stage-30); hand over 5× [Soul pearl](../items/soul_pearl.md) → **stage 30**; also removes monsters from undertell_1_1. NPC: “Thank you for these powerful artifacts!”
+<span id="route-20"></span>
 
-???+ note "Stage 50: 1 route"
+??? note "Stage 20 · Saki, Ysrine · 2 ways"
 
-    1. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “Wrong how?” — **conditions:** reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10); NOT reached stage 7 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-7); reached stage 30 of [Dominion](../quests/dominion.md#stage-30); NOT reached stage 50 of [Dominion](../quests/dominion.md#stage-50) → **stage 50**. NPC: “Saki was no follower of Elythara. He sought to absorb the spirits of the Elytharan mages and draw power from them. I…”
+    **Way 1:** Talk to [Saki](../monsters/saki.md), choose “So I must destroy the liches and recover the pearls.”
 
-???+ note "Stage 60: 1 route"
+    - **Needs:** latest stage of [Dominion](../quests/dominion.md#stage-10) is 10; reached stage 450 of [Devotion](../quests/devotion.md#stage-450)
+    - **Gives:** spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5
+    - *“They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.”*
 
-    1. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [Dominion](../quests/dominion.md#stage-50); NOT reached stage 60 of [Dominion](../quests/dominion.md#stage-60) → **stage 60**; also spawns monsters on undertell_exit. NPC: “Saki is trying to flee Undertell. Find him, defeat him, and recover the soul pearls and anything else he carries.…”
+    **Way 2:** Talk to [Ysrine](../monsters/ysrine.md), choose “So I must destroy the liches and recover the pearls.”
 
-???+ note "Stage 70: 2 routes"
+    - **Needs:** not yet stage 10; reached stage 450 of [Devotion](../quests/devotion.md#stage-450); latest stage of [Dominion](../quests/dominion.md#stage-10) is 10
+    - **Gives:** spawns monsters on undertell_21, spawns monsters on undertell_3_lava_01, spawns monsters on undertell_4_01, spawns monsters on undertell_7_10, spawns monsters on undertell_5
+    - *“They will return again and again unless stopped. Kill them, reclaim the pearls, and bring them here.”*
 
-    1. Talk to [Saki](../monsters/saki.md) ([undertell_1_1](../maps/undertell_1_1.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Dominion](../quests/dominion.md#stage-60) → **stage 70**. NPC: “My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername,…”
-    2. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → the conversation leads here automatically — **conditions:** reached stage 450 of [Devotion](../quests/devotion.md#stage-450); NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10); reached stage 60 of [Dominion](../quests/dominion.md#stage-60) → **stage 70**. NPC: “My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername,…”
 
-???+ note "Stage 90: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) → choose “What do I do with the Soul pearls?” — **conditions:** killed 1× [Saki](../monsters/saki.md); NOT reached stage 90 of [Dominion](../quests/dominion.md#stage-90); carry 5× [Soul pearl](../items/soul_pearl.md) → **stage 90**. NPC: “Besides keeping them away from those Kazaul Masters? I do not know yet. Powerful they are - they could perhaps bring…”
+??? note "Stage 30 · Saki, Ysrine · 2 ways"
+
+    **Way 1:** Talk to [Saki](../monsters/saki.md), choose “Yeah, here they are.”
+
+    - **Needs:** stage 20; not yet stage 30; hand over 5× [Soul pearl](../items/soul_pearl.md)
+    - **Gives:** removes monsters from undertell_1_1
+    - *“Thank you for these powerful artifacts!”*
+
+    **Way 2:** Talk to [Ysrine](../monsters/ysrine.md), choose “Yeah, here they are.”
+
+    - **Needs:** stage 20; not yet stage 10, 30; reached stage 450 of [Devotion](../quests/devotion.md#stage-450); hand over 5× [Soul pearl](../items/soul_pearl.md)
+    - **Gives:** removes monsters from undertell_1_1
+    - *“Thank you for these powerful artifacts!”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Ysrine · 1 way"
+
+    **Way 1:** Talk to [Ysrine](../monsters/ysrine.md), choose “Wrong how?”
+
+    - **Needs:** stage 30; not yet stage 50; reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10); not reached stage 7 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-7)
+    - *“Saki was no follower of Elythara. He sought to absorb the spirits of the Elytharan mages and draw power from them. I fear he serves the…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Ysrine · 1 way"
+
+    **Way 1:** Talk to [Ysrine](../monsters/ysrine.md), automatic
+
+    - **Needs:** stage 50; not yet stage 60
+    - **Gives:** spawns monsters on undertell_exit
+    - *“Saki is trying to flee Undertell. Find him, defeat him, and recover the soul pearls and anything else he carries. Bring them back here.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Saki, Ysrine · 2 ways"
+
+    **Way 1:** Talk to [Saki](../monsters/saki.md), automatic
+
+    - **Needs:** stage 60
+    - *“My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername, get this guy!”*
+
+    **Way 2:** Talk to [Ysrine](../monsters/ysrine.md), automatic
+
+    - **Needs:** stage 60; not yet stage 10; reached stage 450 of [Devotion](../quests/devotion.md#stage-450)
+    - *“My barriers are not just physical, but magical. No one can enter or leave Undertell without my say so. $playername, get this guy!”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Ysrine · 1 way"
+
+    **Way 1:** Talk to [Ysrine](../monsters/ysrine.md), choose “What do I do with the Soul pearls?”
+
+    - **Needs:** not yet stage 90; killed 1× [Saki](../monsters/saki.md); carry 5× [Soul pearl](../items/soul_pearl.md)
+    - *“Besides keeping them away from those Kazaul Masters? I do not know yet. Powerful they are - they could perhaps bring Elythara back, help…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

@@ -43,7 +43,7 @@ description: "Bogsten's staff is a quest quarterstaff in Andor's Trail (Attack d
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Bogsten](../monsters/bogsten.md) | 100% | 1 | bogsten1 |
+| [Bogsten](../monsters/bogsten.md) | 100% | 1 | Bogsten 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -54,10 +54,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) | – | must be carried (1×) | “(automatic)” |
-| [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) | – | must be worn (1×) | “(automatic)” |
-| [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) | [Fungi panic](../quests/fungi_panic.md#stage-150) | handed over (1×) | “Here it is.” |
-| [Zuul'khan](../monsters/zuul_khan.md) ([bogsten4](../maps/bogsten4.md)) | [Fungi panic](../quests/fungi_panic.md#stage-150) | worn item is taken (1×) | “Here it is.” |
+| [Zuul'khan](../monsters/zuul_khan.md) ([Bogsten 4](../maps/bogsten4.md)) | – | must be carried (1×) | “(automatic)” |
+| [Zuul'khan](../monsters/zuul_khan.md) ([Bogsten 4](../maps/bogsten4.md)) | – | must be worn (1×) | “(automatic)” |
+| [Zuul'khan](../monsters/zuul_khan.md) ([Bogsten 4](../maps/bogsten4.md)) | [Fungi panic](../quests/fungi_panic.md#stage-150) | handed over (1×) | “Here it is.” |
+| [Zuul'khan](../monsters/zuul_khan.md) ([Bogsten 4](../maps/bogsten4.md)) | [Fungi panic](../quests/fungi_panic.md#stage-150) | worn item is taken (1×) | “Here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

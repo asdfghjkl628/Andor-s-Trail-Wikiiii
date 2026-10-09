@@ -31,9 +31,9 @@ description: "Feygard Loyalist is a beneficial mental condition in Andor's Trail
 | Block chance | +5 |
 | Damage resistance | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -53,7 +53,7 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

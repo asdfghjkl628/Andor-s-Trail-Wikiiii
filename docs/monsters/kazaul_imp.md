@@ -1,10 +1,10 @@
 ---
-description: "Kazaul imp is an enemy in Andor's Trail (demon) with 45 HP, worth 111 XP, found in blackwater_mountain42. Drops: Gold coins, Polished sparkling gem, Regular potion of health, Small rock."
+description: "Kazaul imp is an enemy in Andor's Trail (demon) with 45 HP, worth 111 XP, found in Blackwater mountain 42. Drops: Gold coins, Polished sparkling gem, Regular potion of health, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_45.png){ .sprite } Kazaul imp
 
-**Found in:** [blackwater_mountain42](../maps/blackwater_mountain42.md)
+**Found in:** [Blackwater mountain 42](../maps/blackwater_mountain42.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Kazaul imp is an enemy in Andor's Trail (demon) with 45 HP, worth 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | blackwater_mountain42 |
+| **Found in** | Blackwater mountain 42 |
 | **Class** | Demon |
 | **HP** | 45 |
 | **XP when defeated** | 111 |
@@ -62,7 +62,7 @@ description: "Kazaul imp is an enemy in Andor's Trail (demon) with 45 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain42](../maps/blackwater_mountain42.md) | – | 8 | – |
+| [Blackwater mountain 42](../maps/blackwater_mountain42.md) | – | 8 | – |
 
 
 ## Version history

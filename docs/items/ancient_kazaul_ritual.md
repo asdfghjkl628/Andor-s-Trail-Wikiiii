@@ -27,7 +27,7 @@ description: "The Ritual of Five Aspects is a quest other in Andor's Trail. How 
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) during [The fifth master](../quests/fifth_master.md#stage-75) (1×)
+- From stepping on a trigger on [White house basement](../maps/white_house_basement.md) during [The fifth master](../quests/fifth_master.md#stage-75) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,11 +38,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Morvath](../monsters/morvath.md) ([undertell_00](../maps/undertell_00.md)) | – | must be carried (1×) | “(automatic)” |
-| [Thalen](../monsters/thalen.md) ([undertell_3_lava_00](../maps/undertell_3_lava_00.md)) | – | must be carried (1×) | “(automatic)” |
-| [Thalen](../monsters/thalen.md) ([undertell_3_lava_00](../maps/undertell_3_lava_00.md)) | [The fifth master](../quests/fifth_master.md#stage-80) | handed over (1×) | “Then I will take it to the shrine.” |
-| [Vaelzahr](../monsters/vaelzahr.md) ([undertell_7_00](../maps/undertell_7_00.md)) | – | must be carried (1×) | “(automatic)” |
-| [Zaroth](../monsters/zaroth.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
+| [Morvath](../monsters/morvath.md) ([Undertell 00](../maps/undertell_00.md)) | – | must be carried (1×) | “(automatic)” |
+| [Thalen](../monsters/thalen.md) ([Undertell 3 lava 00](../maps/undertell_3_lava_00.md)) | – | must be carried (1×) | “(automatic)” |
+| [Thalen](../monsters/thalen.md) ([Undertell 3 lava 00](../maps/undertell_3_lava_00.md)) | [The fifth master](../quests/fifth_master.md#stage-80) | handed over (1×) | “Then I will take it to the shrine.” |
+| [Vaelzahr](../monsters/vaelzahr.md) ([Undertell 7 00](../maps/undertell_7_00.md)) | – | must be carried (1×) | “(automatic)” |
+| [Zaroth](../monsters/zaroth.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

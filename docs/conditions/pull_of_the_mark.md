@@ -30,9 +30,9 @@ description: "Pull of the mark is a harmful spiritual condition in Andor's Trail
 | Attack cost (AP) | +1 |
 | Move cost (AP) | +1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -43,24 +43,24 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [galmore_32](../maps/galmore_32.md) | [A familiar shadow](../quests/familiar_shadow.md#stage-10) | Permanent |
+| walking into a blocked passage on [Galmore 32](../maps/galmore_32.md) | [A familiar shadow](../quests/familiar_shadow.md#stage-10) | Permanent |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Removed by** stepping on a trigger on [galmore_32](../maps/galmore_32.md) during [A familiar shadow](../quests/familiar_shadow.md#stage-60).
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Removed by** stepping on a trigger on [Galmore 32](../maps/galmore_32.md) during [A familiar shadow](../quests/familiar_shadow.md#stage-60).
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 ## Checked in dialogue
 
-- stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) ([galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-1)) checks whether you have this condition.
-- stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) ([galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-2)) checks whether you have this condition.
-- stepping on a trigger on [galmore_10](../maps/galmore_10.md), stepping on a trigger on [galmore_12a](../maps/galmore_12a.md) checks whether you have this condition.
-- walking into a blocked passage on [crossglen](../maps/crossglen.md) ([galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-1)) checks whether you have this condition.
-- walking into a blocked passage on [crossglen](../maps/crossglen.md) ([galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-2)) checks whether you have this condition.
-- walking into a blocked passage on [crossglen](../maps/crossglen.md) checks whether you have this condition.
+- stepping on a trigger on [Galmore 10](../maps/galmore_10.md), stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) ([Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-1)) checks whether you have this condition.
+- stepping on a trigger on [Galmore 10](../maps/galmore_10.md), stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) ([Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-2)) checks whether you have this condition.
+- stepping on a trigger on [Galmore 10](../maps/galmore_10.md), stepping on a trigger on [Galmore 12a](../maps/galmore_12a.md) checks whether you have this condition.
+- walking into a blocked passage on [Crossglen](../maps/crossglen.md) ([Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-1)) checks whether you have this condition.
+- walking into a blocked passage on [Crossglen](../maps/crossglen.md) ([Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-2)) checks whether you have this condition.
+- walking into a blocked passage on [Crossglen](../maps/crossglen.md) checks whether you have this condition.
 
 
 ## Community notes

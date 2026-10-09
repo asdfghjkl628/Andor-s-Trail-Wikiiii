@@ -34,8 +34,8 @@ description: "Potion of deftness is a ordinary potion in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) during [The roots of love](../quests/roots_love.md#stage-30) (1×)
-- From [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) ([stoutford_potion](../maps/stoutford_potion.md)) (1×)
+- From [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) during [The roots of love](../quests/roots_love.md#stage-30) (1×)
+- From [Aryfora](../monsters/stoutford_widow.md#v-stoutford_widow2) ([Stoutford potion](../maps/stoutford_potion.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -46,8 +46,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | must have been used (1×) | “Your potion was great! Can I have some more?” |
-| [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) | – | must be carried (1×) | “That potion you made smells really interesting. Can I buy another?” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | – | must have been used (1×) | “Your potion was great! Can I have some more?” |
+| [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) | – | must be carried (1×) | “That potion you made smells really interesting. Can I buy another?” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

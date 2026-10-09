@@ -4,7 +4,7 @@ description: "Wulfric is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_tometik3_10.png){ .sprite } Wulfric
 
-**Where to find Wulfric:** Wexlow Village: [way_to_wexlow1](../maps/way_to_wexlow1.md#pin-npc-wulfric)
+**Where to find Wulfric:** Wexlow Village: [Way to wexlow 1](../maps/way_to_wexlow1.md#pin-npc-wulfric)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Wulfric is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wulfric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wulfric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wulfric_ip.json" data-npc="Wulfric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-wulfric_ip"></span>**`wulfric_ip`** Wulfric: “Hey there. I am "Wulfric the Wonderful".”
 
@@ -38,7 +38,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-wulfric_wonder"></span>**`wulfric_wonder`** Wulfric: “Why I'm so wonderful?”
 
     - “Well, yeah, but no, not really.” → [wulfric_ask_about_andor](#d-wulfric_ask_about_andor)
-    - “Do you know where the residents of Wexlow Village are?” *(if reached stage 11 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-11); NOT reached stage 10 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-10))* → [wulfric_wexlow](#d-wulfric_wexlow)
+    - “Do you know where the residents of Wexlow Village are?” *(if reached stage 11 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-11); NOT reached stage 10 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-10))* → [wulfric_wexlow](#d-wulfric_wexlow)
     - “Yes, why are you so wonderful?” → [wulfric_wonder_answer](#d-wulfric_wonder_answer)
 
     <span id="d-wulfric_ask_about_andor"></span>**`wulfric_ask_about_andor`** Wulfric: “What then?”

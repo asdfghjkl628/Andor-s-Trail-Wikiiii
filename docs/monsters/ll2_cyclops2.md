@@ -1,10 +1,10 @@
 ---
-description: "Aphem is an NPC who can also be fought in Andor's Trail, found in ll2_cyclops_cave, mountainlake27."
+description: "Aphem is an NPC who can also be fought in Andor's Trail, found in Ll 2 cyclops cave, Mountainlake 27."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Aphem
 
-**Where to find Aphem:** [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops2), [mountainlake27](../maps/mountainlake27.md#pin-npc-ll2_cyclops2)
+**Where to find Aphem:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops2), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops2)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Aphem is an NPC who can also be fought in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | ll2_cyclops_cave, mountainlake27 |
+| **Found in** | Ll 2 cyclops cave, Mountainlake 27 |
 | **Class** | Humanoid |
 | **HP** | 100 |
 | **XP when defeated** | 194 |
@@ -51,12 +51,12 @@ description: "Aphem is an NPC who can also be fought in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md) | – | 1 | – |
-| [mountainlake27](../maps/mountainlake27.md) | – | 1 | Appears later, during a quest |
+| [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md) | – | 1 | – |
+| [Mountainlake 27](../maps/mountainlake27.md) | – | 1 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aphem. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Aphem. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ll2_cyclops.json" data-npc="Aphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ll2_cyclops"></span>**`ll2_cyclops`** Aphem: “Ah, there is Nobody. You think you're particularly clever, don't you?”
 

@@ -4,7 +4,7 @@ description: "Hungry pig is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } Hungry pig
 
-**Where to find Hungry pig:** Fallhaven: [gapfillerhole](../maps/gapfillerhole.md#pin-npc-hungry_pig)
+**Where to find Hungry pig:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md#pin-npc-hungry_pig)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Hungry pig is a non-player character (NPC) in Andor's Trail, found
 ## Quests
 
 - [Unusual experiences and achievements](../quests/achievements.md): stage 135
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 51
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 51
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hungry pig. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hungry pig. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hungry_pig_selector.json" data-npc="Hungry pig" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-hungry_pig_selector"></span>**`hungry_pig_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -49,8 +49,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-hungry_pig_upset_stomach"></span>**`hungry_pig_upset_stomach`** Hungry pig: “[Squeal] Please, stop feeding these to me. They're making my stomach hurt.”
 
-    - “What? You can talk?” *(if NOT reached stage 51 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-51))* → [hungry_pig_upset_stomach_2](#d-hungry_pig_upset_stomach_2)
-    - “More eating and less talking.” *(if reached stage 51 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-51))* → [hungry_pig_upset_stomach_2](#d-hungry_pig_upset_stomach_2)
+    - “What? You can talk?” *(if NOT reached stage 51 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-51))* → [hungry_pig_upset_stomach_2](#d-hungry_pig_upset_stomach_2)
+    - “More eating and less talking.” *(if reached stage 51 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-51))* → [hungry_pig_upset_stomach_2](#d-hungry_pig_upset_stomach_2)
 
     <span id="d-hungry_pig_feed"></span>**`hungry_pig_feed`** Hungry pig: “[Grunt]”
 
@@ -62,7 +62,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-hungry_pig_dies"></span>**`hungry_pig_dies`** [Dummy NPC](../monsters/none.md): “The hungry pig dies due to the rotten meat.” — **effects:** removes monsters from gapfillerhole, sets stage 135 of [Unusual experiences and achievements](../quests/achievements.md#stage-135)
 
 
-    <span id="d-hungry_pig_upset_stomach_2"></span>**`hungry_pig_upset_stomach_2`** Hungry pig: “[Grunt]” — **effects:** sets stage 51 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-51)
+    <span id="d-hungry_pig_upset_stomach_2"></span>**`hungry_pig_upset_stomach_2`** Hungry pig: “[Grunt]” — **effects:** sets stage 51 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-51)
 
     - “Here. Have another piece of rotten meat. It's good for you.” *(if hand over 1× [Rotten meat](../items/meat2.md))* → [hungry_pig_upset_stomach_3](#d-hungry_pig_upset_stomach_3)
 

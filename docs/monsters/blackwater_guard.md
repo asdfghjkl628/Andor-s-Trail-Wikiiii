@@ -4,7 +4,7 @@ description: "Blackwater guard is an NPC who can also be fought in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } Blackwater guard
 
-**Where to find Blackwater guard:** Prim: [blackwater_mountain45](../maps/blackwater_mountain45.md#pin-npc-blackwater_guard), [blackwater_mountain44](../maps/blackwater_mountain44.md#pin-npc-blackwater_guard)
+**Where to find Blackwater guard:** Prim: [Blackwater mountain 45](../maps/blackwater_mountain45.md#pin-npc-blackwater_guard), [Blackwater mountain 44](../maps/blackwater_mountain44.md#pin-npc-blackwater_guard)
 
 <div class="infobox" markdown>
 
@@ -51,12 +51,12 @@ description: "Blackwater guard is an NPC who can also be fought in Andor's Trail
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain44](../maps/blackwater_mountain44.md) | – | 2 | – |
-| [blackwater_mountain45](../maps/blackwater_mountain45.md) | Prim | 1 | – |
+| [Blackwater mountain 44](../maps/blackwater_mountain44.md) | – | 2 | – |
+| [Blackwater mountain 45](../maps/blackwater_mountain45.md) | Prim | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blackwater guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blackwater guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_guard1.json" data-npc="Blackwater guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blackwater_guard1"></span>**`blackwater_guard1`** Blackwater guard: “Stay out of trouble and trouble will stay away from you.”
 

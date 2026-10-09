@@ -36,16 +36,16 @@ description: "Liquid courage is a ordinary potion in Andor's Trail. How to get i
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) | 10% | 1 | waterway5 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 10% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 10% | 1 | undertell_3_lava_00 |
-| [Morkin lookout](../monsters/morkin1.md) | 5% | 1 | lodar10, lodar11, lodar12 |
-| [Morkin scout](../monsters/morkin2.md) | 5% | 1 | lodar11, lodar12, lodar18 |
-| [Morkin fighter](../monsters/morkin3.md) | 5% | 1 | lodar11, lodar12, lodar18 |
-| [Morkin guard](../monsters/morkin4.md) | 5% | 1 | lodar11, lodar12, lodar18 |
-| [Morkin berserker](../monsters/morkin5.md) | 5% | 1 | lodar11, lodar12 |
-| [Morkin leader](../monsters/morkin6.md) | 5% | 1 | lodar12 |
-| [Guardian of the bridge](../monsters/lbridge.md) | 5% | 1 | lodar8 |
+| [Gylew](../monsters/gylew.md) | 10% | 1 | Waterway 5 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 10% | 1 | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 10 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 10% | 1 | Undertell 3 lava 00 |
+| [Morkin lookout](../monsters/morkin1.md) | 5% | 1 | Lodar 10, Lodar 11, Lodar 12 |
+| [Morkin scout](../monsters/morkin2.md) | 5% | 1 | Lodar 11, Lodar 12, Lodar 18 |
+| [Morkin fighter](../monsters/morkin3.md) | 5% | 1 | Lodar 11, Lodar 12, Lodar 18 |
+| [Morkin guard](../monsters/morkin4.md) | 5% | 1 | Lodar 11, Lodar 12, Lodar 18 |
+| [Morkin berserker](../monsters/morkin5.md) | 5% | 1 | Lodar 11, Lodar 12 |
+| [Morkin leader](../monsters/morkin6.md) | 5% | 1 | Lodar 12 |
+| [Guardian of the bridge](../monsters/lbridge.md) | 5% | 1 | Lodar 8 |
 
 ### Sold by
 
@@ -53,7 +53,7 @@ description: "Liquid courage is a ordinary potion in Andor's Trail. How to get i
 
 ### Found in containers
 
-- [galmore_73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
+- [Galmore 73](../maps/galmore_73.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Galmore wolf's pup is an NPC who can also be fought in Andor's Tra
 
 # ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } Galmore wolf's pup
 
-**Where to find Galmore wolf's pup:** Mt. Galmore: [galmore_54](../maps/galmore_54.md#pin-npc-mg2_wolves_pup)
+**Where to find Galmore wolf's pup:** Mt. Galmore: [Galmore 54](../maps/galmore_54.md#pin-npc-mg2_wolves_pup)
 
 <div class="infobox" markdown>
 
@@ -58,7 +58,7 @@ description: "Galmore wolf's pup is an NPC who can also be fought in Andor's Tra
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_54](../maps/galmore_54.md) | Mt. Galmore | 16 | – |
+| [Galmore 54](../maps/galmore_54.md) | Mt. Galmore | 16 | – |
 
 ## Quests
 
@@ -66,7 +66,7 @@ description: "Galmore wolf's pup is an NPC who can also be fought in Andor's Tra
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Galmore wolf's pup. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Galmore wolf's pup. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mg2_wolves_pup.json" data-npc="Galmore wolf&#x27;s pup" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-mg2_wolves_pup"></span>**`mg2_wolves_pup`** *(silent check: the first matching branch below is taken)*
 

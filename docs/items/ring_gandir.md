@@ -27,7 +27,7 @@ description: "Gandir's ring is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Irogotu](../monsters/irogotu.md) | 100% | 1 | jan_pitcave3 |
+| [Irogotu](../monsters/irogotu.md) | 100% | 1 | Jan pitcave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

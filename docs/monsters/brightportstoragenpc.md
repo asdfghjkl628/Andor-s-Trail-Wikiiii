@@ -4,7 +4,7 @@ description: "Allares is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld_edit_0.png){ .sprite } Allares
 
-**Where to find Allares:** Brightport: [brightport_bakery1](../maps/brightport_bakery1.md#pin-npc-brightportstoragenpc)
+**Where to find Allares:** Brightport: [Brightport bakery 1](../maps/brightport_bakery1.md#pin-npc-brightportstoragenpc)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Allares is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Allares. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Allares. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_allares.json" data-npc="Allares" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (17 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_allares"></span>**`brightport_allares`** *(silent check: the first matching branch below is taken)*
 
@@ -54,16 +54,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_allares3"></span>**`brightport_allares3`** Allares: “Hello, how is the work?”
 
-    - “I brought the apples to Eatloni, he'll have them brought in soon.” *(if reached stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198))* → [brightport_allares9](#d-brightport_allares9)
+    - “I brought the apples to Eatloni, he'll have them brought in soon.” *(if reached stage 198 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-198))* → [brightport_allares9](#d-brightport_allares9)
     - “Delon said there was an apple delivery that was supposed to arrive but didn't.” *(if reached stage 20 of [Bread and circus](../quests/brightport_bakery.md#stage-20); NOT reached stage 22 of [Bread and circus](../quests/brightport_bakery.md#stage-22))* → [brightport_allares6](#d-brightport_allares6)
-    - “I have the 30 apples here.” *(if reached stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25); carry 30× [Orchard apple](../items/deebo_apples.md); NOT reached stage 198 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198))* → [brightport_allares_apples](#d-brightport_allares_apples)
+    - “I have the 30 apples here.” *(if reached stage 25 of [Bread and circus](../quests/brightport_bakery.md#stage-25); carry 30× [Orchard apple](../items/deebo_apples.md); NOT reached stage 198 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-198))* → [brightport_allares_apples](#d-brightport_allares_apples)
     - “I'm still doing it.” *(if NOT reached stage 16 of [Bread and circus](../quests/brightport_bakery.md#stage-16))* → *conversation ends*
     - “I'm still looking for those apples.” *(if reached stage 23 of [Bread and circus](../quests/brightport_bakery.md#stage-23); NOT reached stage 70 of [Bread and circus](../quests/brightport_bakery.md#stage-70))* → *conversation ends*
 
     <span id="d-brightport_allares0"></span>**`brightport_allares0`** Allares: “Please don't bother the cooks. We are very busy today. We've got some big orders for the festival down in Sullengard.”
 
-    - “Perhaps I could help?” *(if NOT reached stage 157 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-157); NOT reached stage 1 of [Bread and circus](../quests/brightport_bakery.md#stage-1))* → [brightport_allares1](#d-brightport_allares1)
-    - “Eatloni told me to see you.” *(if reached stage 157 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-157); NOT reached stage 1 of [Bread and circus](../quests/brightport_bakery.md#stage-1))* → [brightport_allares2](#d-brightport_allares2)
+    - “Perhaps I could help?” *(if NOT reached stage 157 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-157); NOT reached stage 1 of [Bread and circus](../quests/brightport_bakery.md#stage-1))* → [brightport_allares1](#d-brightport_allares1)
+    - “Eatloni told me to see you.” *(if reached stage 157 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-157); NOT reached stage 1 of [Bread and circus](../quests/brightport_bakery.md#stage-1))* → [brightport_allares2](#d-brightport_allares2)
     - “That's nice. But I don't care. See you later.” → *conversation ends*
 
     <span id="d-brightport_allares5"></span>**`brightport_allares5`** Allares: “Very good, you've convinced me of your capabilities. Please talk to Eatloni outside, he was in charge of the apple delivery and should know more.” — **effects:** sets stage 23 of [Bread and circus](../quests/brightport_bakery.md#stage-23)

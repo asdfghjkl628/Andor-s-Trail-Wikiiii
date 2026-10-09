@@ -4,7 +4,7 @@ description: "Feygard road guard is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } Feygard road guard
 
-**Where to find Feygard road guard:** Guynmart Castle: [guynmart_wood_13](../maps/guynmart_wood_13.md#pin-npc-guynmart_roadguard)
+**Where to find Feygard road guard:** Guynmart Castle: [Guynmart wood 13](../maps/guynmart_wood_13.md#pin-npc-guynmart_roadguard)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Feygard road guard is a non-player character (NPC) in Andor's Trai
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Feygard road guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Feygard road guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_roadguard_10.json" data-npc="Feygard road guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,17 +29,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_roadguard_10"></span>**`guynmart_roadguard_10`** Feygard road guard: “Sorry, the road to Feygard is closed until further notice.”
 
     - “Oh? Is it the fog that is the problem?” → [guynmart_roadguard_20](#d-guynmart_roadguard_20)
-    - “Why?” *(if reached stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1))* → [guynmart_roadguard_12](#d-guynmart_roadguard_12)
+    - “Why?” *(if reached stage 1 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1))* → [guynmart_roadguard_12](#d-guynmart_roadguard_12)
     - “Why?” *(if reached stage 80 of [Fog in the woods](../quests/fogmonster.md#stage-80))* → [guynmart_roadguard_12](#d-guynmart_roadguard_12)
 
     <span id="d-guynmart_roadguard_20"></span>**`guynmart_roadguard_20`** Feygard road guard: “Yes. Several men already got lost and never reappeared. There is no way through.”
 
-    - “But ... which fog?” *(if reached stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1))* → [guynmart_roadguard_30](#d-guynmart_roadguard_30)
+    - “But ... which fog?” *(if reached stage 1 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1))* → [guynmart_roadguard_30](#d-guynmart_roadguard_30)
 
     <span id="d-guynmart_roadguard_12"></span>**`guynmart_roadguard_12`** Feygard road guard: “The fog over there is very dangerous.”
 

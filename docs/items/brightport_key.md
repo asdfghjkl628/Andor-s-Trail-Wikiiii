@@ -27,8 +27,8 @@ description: "Library key is a quest other in Andor's Trail. How to get it: ques
 
 ### Quest & dialogue rewards
 
-- From [Counterfeit](../monsters/brightportthieves2.md) ([brightport_thieves](../maps/brightport_thieves.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-50) (1×)
-- From [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-47) (1×)
+- From [Counterfeit](../monsters/brightportthieves2.md) ([Brightport thieves](../maps/brightport_thieves.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-50) (1×)
+- From [Oswald](../monsters/brightportnpc6.md) ([Brightport school 9](../maps/brightport_school9.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-47) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,7 +39,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [brightport_school2](../maps/brightport_school2.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-103) | must be carried (1×) | “[Unlock it]” |
+| walking into a blocked passage on [Brightport school 2](../maps/brightport_school2.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-103) | must be carried (1×) | “[Unlock it]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

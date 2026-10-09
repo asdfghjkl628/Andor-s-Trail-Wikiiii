@@ -29,7 +29,7 @@ description: "Gylew's key is a quest other in Andor's Trail. How to get it: mons
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) | 100% | 1 | waterway5 |
+| [Gylew](../monsters/gylew.md) | 100% | 1 | Waterway 5 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,8 +40,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-108) | handed over (1×) | “Yes, and I also have the chest. Here, take them. [You give both items to Forenza” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | – | must be carried (1×) | “Yes, but I don't have the chest.” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-108) | handed over (1×) | “Yes, and I also have the chest. Here, take them. [You give both items to Forenza” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | – | must be carried (1×) | “Yes, but I don't have the chest.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

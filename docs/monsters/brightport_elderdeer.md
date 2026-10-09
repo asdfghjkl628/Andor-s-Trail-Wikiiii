@@ -4,7 +4,7 @@ description: "Elder deer is an enemy in Andor's Trail (animal) with 293 HP, wort
 
 # ![](../assets/icons/monsters/monsters_johny_13.png){ .sprite } Elder deer
 
-**Found in:** Brightport: [brightportwild18](../maps/brightportwild18.md), Burial cave: [brightportwild3](../maps/brightportwild3.md), Buried citadel: [brightportwild6](../maps/brightportwild6.md), [brightportwild19](../maps/brightportwild19.md) (+6 more)
+**Found in:** Brightport: [Brightportwild 18](../maps/brightportwild18.md), Burial cave: [Brightportwild 3](../maps/brightportwild3.md), Buried citadel: [Brightportwild 6](../maps/brightportwild6.md), [Brightportwild 19](../maps/brightportwild19.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -56,16 +56,16 @@ description: "Elder deer is an enemy in Andor's Trail (animal) with 293 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild18](../maps/brightportwild18.md) | Brightport | 1 | – |
-| [brightportwild19](../maps/brightportwild19.md) | – | 5 | – |
-| [brightportwild21](../maps/brightportwild21.md) | – | 1 | – |
-| [brightportwild3](../maps/brightportwild3.md) | Burial cave | 4 | – |
-| [brightportwild5](../maps/brightportwild5.md) | – | 5 | – |
-| [brightportwild6](../maps/brightportwild6.md) | Buried citadel | 1 | – |
-| [brightportwild8](../maps/brightportwild8.md) | – | 3 | – |
-| [brightportwild9](../maps/brightportwild9.md) | – | 3 | – |
-| [waytobrightport10](../maps/waytobrightport10.md) | – | 3 | – |
-| [waytobrightport9](../maps/waytobrightport9.md) | – | 3 | – |
+| [Brightportwild 18](../maps/brightportwild18.md) | Brightport | 1 | – |
+| [Brightportwild 19](../maps/brightportwild19.md) | – | 5 | – |
+| [Brightportwild 21](../maps/brightportwild21.md) | – | 1 | – |
+| [Brightportwild 3](../maps/brightportwild3.md) | Burial cave | 4 | – |
+| [Brightportwild 5](../maps/brightportwild5.md) | – | 5 | – |
+| [Brightportwild 6](../maps/brightportwild6.md) | Buried citadel | 1 | – |
+| [Brightportwild 8](../maps/brightportwild8.md) | – | 3 | – |
+| [Brightportwild 9](../maps/brightportwild9.md) | – | 3 | – |
+| [Waytobrightport 10](../maps/waytobrightport10.md) | – | 3 | – |
+| [Waytobrightport 9](../maps/waytobrightport9.md) | – | 3 | – |
 
 
 ## Version history

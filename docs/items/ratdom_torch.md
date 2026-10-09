@@ -51,7 +51,7 @@ description: "Ratcave Torch is a quest big torch in Andor's Trail (Attack damage
 
 ### Found in containers
 
-- [ratdom_maze1](../maps/ratdom_maze1.md#container-0) (container 1, 100%), Crossglen
+- [Ratdom maze 1](../maps/ratdom_maze1.md#container-0) (container 1, 100%), Crossglen
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -62,16 +62,16 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze2](../maps/ratdom_maze2.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-1) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze2](../maps/ratdom_maze2.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-2) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze2](../maps/ratdom_maze2.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-3) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze2](../maps/ratdom_maze2.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-4) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze2](../maps/ratdom_maze2.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-5) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze2](../maps/ratdom_maze2.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-6) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md), stepping on a trigger on [ratdom_maze_402](../maps/ratdom_maze_402.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-7) | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md) | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-8) | must be worn (1×) | “(automatic)” |
-| a scripted event | [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md#stage-9) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 2](../maps/ratdom_maze2.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-1) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 2](../maps/ratdom_maze2.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-2) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 2](../maps/ratdom_maze2.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-3) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 2](../maps/ratdom_maze2.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-4) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 2](../maps/ratdom_maze2.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-5) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 2](../maps/ratdom_maze2.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-6) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md), stepping on a trigger on [Ratdom maze 402](../maps/ratdom_maze_402.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-7) | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md) | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-8) | must be worn (1×) | “(automatic)” |
+| a scripted event | [Ratdom maze (hidden flag)](../quests/ratdom_maze.md#stage-9) | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

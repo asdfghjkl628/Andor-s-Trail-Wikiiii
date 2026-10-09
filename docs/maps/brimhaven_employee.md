@@ -1,5 +1,5 @@
 ---
-description: "Brimhaven employee is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Hettah, Stebbarik. Exits to Brimhaven3."
+description: "Brimhaven employee is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Hettah, Stebbarik. Exits to Brimhaven 3."
 ---
 
 # Brimhaven employee
@@ -18,19 +18,19 @@ description: "Brimhaven employee is an indoor location in Andor's Trail, in Brim
 
 </div>
 
-**Brimhaven employee** is an indoor map, in Brimhaven (settlement). It has 2 NPCs, and no enemies. Exits lead to Brimhaven3.
+**Brimhaven employee** is an indoor map, in Brimhaven (settlement). It has 2 NPCs, and no enemies. Exits lead to Brimhaven 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_employee.webp" alt="Map of Brimhaven employee" width="256" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven3/#place-brimhaven_employee" title="Exit to Brimhaven3" style="left:37.500%;top:87.500%;width:12.500%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Stebbarik (only appears later, during a quest)" style="left:75.000%;top:62.500%;width:12.500%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Hettah" style="left:12.500%;top:37.500%;width:75.000%;height:25.000%"></span><a class="mob mob-later" href="../../monsters/brv_employee/" title="Stebbarik (appears later in a quest)" style="left:75.000%;top:62.500%;width:12.500%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_34.png" alt="Stebbarik"></a><a class="mob" href="../../monsters/brv_employee_wife/" title="Hettah" style="left:62.500%;top:37.500%;width:12.500%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_155.png" alt="Hettah"></a><a class="pin pin-exit" href="#key-1" style="left:43.750%;top:93.750%" title="Exit (south): to [Brimhaven3](brimhaven3.md)">1</a><a id="pin-npc-brv_employee_wife" class="pin pin-npc" href="#key-2" style="left:68.750%;top:43.750%" title="[Hettah](../../monsters/brv_employee_wife.md): NPC">2</a><a id="pin-npc-brv_employee" class="pin pin-npc" href="#key-3" style="left:81.250%;top:68.750%" title="[Stebbarik](../../monsters/brv_employee.md): 1 quest">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_employee.webp" alt="Map of Brimhaven employee" width="256" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven3/#place-brimhaven_employee" title="Exit to Brimhaven 3" style="left:37.500%;top:87.500%;width:12.500%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Stebbarik (only appears later, during a quest)" style="left:75.000%;top:62.500%;width:12.500%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Hettah" style="left:12.500%;top:37.500%;width:75.000%;height:25.000%"></span><a class="mob mob-later" href="../../monsters/brv_employee/" title="Stebbarik (appears later in a quest)" style="left:75.000%;top:62.500%;width:12.500%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_34.png" alt="Stebbarik"></a><a class="mob" href="../../monsters/brv_employee_wife/" title="Hettah" style="left:62.500%;top:37.500%;width:12.500%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_155.png" alt="Hettah"></a><a class="pin pin-exit" href="#key-1" style="left:43.750%;top:93.750%" title="Exit (south): to [Brimhaven 3](brimhaven3.md)">1</a><a id="pin-npc-brv_employee_wife" class="pin pin-npc" href="#key-2" style="left:68.750%;top:43.750%" title="[Hettah](../../monsters/brv_employee_wife.md): NPC">2</a><a id="pin-npc-brv_employee" class="pin pin-npc" href="#key-3" style="left:81.250%;top:68.750%" title="[Stebbarik](../../monsters/brv_employee.md): 1 quest">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven3](brimhaven3.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven 3](brimhaven3.md) |
     | <span id="key-2"></span>2 | [Hettah](../monsters/brv_employee_wife.md) | NPC |
     | <span id="key-3"></span>3 | [Stebbarik](../monsters/brv_employee.md) | 1 quest |
 
@@ -41,7 +41,7 @@ description: "Brimhaven employee is an indoor location in Andor's Trail, in Brim
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brimhaven3](brimhaven3.md) | Brimhaven | 1 |
+| South | [Brimhaven 3](brimhaven3.md) | Brimhaven | 1 |
 
 ## NPCs
 

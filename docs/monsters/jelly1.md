@@ -4,7 +4,7 @@ description: "Olive ooze is an enemy in Andor's Trail (construct) with 20 HP, wo
 
 # ![](../assets/icons/monsters/monsters_tometik2_4.png){ .sprite } Olive ooze
 
-**Found in:** Crossroads Guardhouse: [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md), Crossroads Guardhouse: [roadcave0](../maps/roadcave0.md), [roadcave1](../maps/roadcave1.md)
+**Found in:** Crossroads Guardhouse: [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md), Crossroads Guardhouse: [Roadcave 0](../maps/roadcave0.md), [Roadcave 1](../maps/roadcave1.md)
 
 <div class="infobox" markdown>
 
@@ -64,9 +64,9 @@ description: "Olive ooze is an enemy in Andor's Trail (construct) with 20 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 3 | – |
-| [roadcave0](../maps/roadcave0.md) | Crossroads Guardhouse | 11 | – |
-| [roadcave1](../maps/roadcave1.md) | – | 1 | – |
+| [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 3 | – |
+| [Roadcave 0](../maps/roadcave0.md) | Crossroads Guardhouse | 11 | – |
+| [Roadcave 1](../maps/roadcave1.md) | – | 1 | – |
 
 
 ## Version history

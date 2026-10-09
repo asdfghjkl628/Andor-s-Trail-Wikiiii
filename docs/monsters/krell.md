@@ -4,7 +4,7 @@ description: "Krell is a non-player character (NPC) in Andor's Trail, found in R
 
 # ![](../assets/icons/monsters/monsters_men2_6.png){ .sprite } Krell
 
-**Where to find Krell:** Remgard: [remgard_tavern0](../maps/remgard_tavern0.md#pin-npc-krell)
+**Where to find Krell:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-krell)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Krell is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Krell. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Krell. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/krell.json" data-npc="Krell" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-krell"></span>**`krell`** *(silent check: the first matching branch below is taken)*
 
@@ -149,7 +149,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Me and my band of knights are just visiting Remgard in .. shall we sa…” → “Me and my band of knights are just visiting Remgard in ... shall we s…”<br>· text: “We also help people find .. erm .. people that have gone missing.” → “We also help people find ... erm ... people that have gone missing.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “You see, usually it is us knights that find .. missing people. Now, w…” → “You see, usually it is us knights that find ... missing people. Now, …”<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

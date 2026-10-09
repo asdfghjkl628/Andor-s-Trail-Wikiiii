@@ -54,8 +54,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Tocsin](../monsters/tocsin.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | handed over (1×) | “(automatic)” |
-| [Tocsin](../monsters/tocsin.md) ([undertell_4_00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
+| [Tocsin](../monsters/tocsin.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | handed over (1×) | “(automatic)” |
+| [Tocsin](../monsters/tocsin.md) ([Undertell 4 00](../maps/undertell_4_00.md)) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

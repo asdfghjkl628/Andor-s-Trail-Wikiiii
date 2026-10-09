@@ -1,5 +1,5 @@
 ---
-description: "Brightport temple is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Chapelgoer , Othinus, Praying woman. Exits to Brightport7."
+description: "Brightport temple is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Chapelgoer , Othinus, Praying woman. Exits to Brightport 7."
 ---
 
 # Brightport temple
@@ -18,19 +18,19 @@ description: "Brightport temple is an indoor location in Andor's Trail, in Brigh
 
 </div>
 
-**Brightport temple** is an indoor map, in Brightport (settlement). It has 3 NPCs, and no enemies. Exits lead to Brightport7.
+**Brightport temple** is an indoor map, in Brightport (settlement). It has 3 NPCs, and no enemies. Exits lead to Brightport 7.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_temple.webp" alt="Map of Brightport temple" width="512" height="320" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport7/#place-church" title="Exit to Brightport7" style="left:43.750%;top:90.000%;width:12.500%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Othinus" style="left:43.750%;top:40.000%;width:12.500%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Chapelgoer " style="left:68.750%;top:70.000%;width:18.750%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Praying woman" style="left:12.500%;top:70.000%;width:18.750%;height:10.000%"></span><a class="mob" href="../../monsters/brightportpriest/" title="Othinus" style="left:50.000%;top:40.000%;width:6.250%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld1_2.png" alt="Othinus"></a><a class="mob" href="../../monsters/brightportchurch/" title="Chapelgoer " style="left:75.000%;top:70.000%;width:6.250%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld1_19.png" alt="Chapelgoer "></a><a class="mob" href="../../monsters/brightportchurch1/" title="Praying woman" style="left:12.500%;top:70.000%;width:6.250%;height:10.000%"><img src="../../assets/icons/monsters/monsters_men_6.png" alt="Praying woman"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:95.000%" title="Exit (south): to [Brightport7](brightport7.md)">1</a><a id="pin-npc-brightportchurch" class="pin pin-npc" href="#key-2" style="left:78.125%;top:75.000%" title="[Chapelgoer ](../../monsters/brightportchurch.md): NPC">2</a><a id="pin-npc-brightportpriest" class="pin pin-npc" href="#key-3" style="left:53.125%;top:45.000%" title="[Othinus](../../monsters/brightportpriest.md): NPC">3</a><a id="pin-npc-brightportchurch1" class="pin pin-npc" href="#key-4" style="left:15.625%;top:75.000%" title="[Praying woman](../../monsters/brightportchurch1.md): NPC">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_temple.webp" alt="Map of Brightport temple" width="512" height="320" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport7/#place-church" title="Exit to Brightport 7" style="left:43.750%;top:90.000%;width:12.500%;height:10.000%"></a><span class="mo mo-spawn" title="Spawns: Othinus" style="left:43.750%;top:40.000%;width:12.500%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Chapelgoer " style="left:68.750%;top:70.000%;width:18.750%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Praying woman" style="left:12.500%;top:70.000%;width:18.750%;height:10.000%"></span><a class="mob" href="../../monsters/brightportpriest/" title="Othinus" style="left:50.000%;top:40.000%;width:6.250%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld1_2.png" alt="Othinus"></a><a class="mob" href="../../monsters/brightportchurch/" title="Chapelgoer " style="left:75.000%;top:70.000%;width:6.250%;height:10.000%"><img src="../../assets/icons/monsters/monsters_ld1_19.png" alt="Chapelgoer "></a><a class="mob" href="../../monsters/brightportchurch1/" title="Praying woman" style="left:12.500%;top:70.000%;width:6.250%;height:10.000%"><img src="../../assets/icons/monsters/monsters_men_6.png" alt="Praying woman"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:95.000%" title="Exit (south): to [Brightport 7](brightport7.md)">1</a><a id="pin-npc-brightportchurch" class="pin pin-npc" href="#key-2" style="left:78.125%;top:75.000%" title="[Chapelgoer ](../../monsters/brightportchurch.md): NPC">2</a><a id="pin-npc-brightportpriest" class="pin pin-npc" href="#key-3" style="left:53.125%;top:45.000%" title="[Othinus](../../monsters/brightportpriest.md): NPC">3</a><a id="pin-npc-brightportchurch1" class="pin pin-npc" href="#key-4" style="left:15.625%;top:75.000%" title="[Praying woman](../../monsters/brightportchurch1.md): NPC">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brightport7](brightport7.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brightport 7](brightport7.md) |
     | <span id="key-2"></span>2 | [Chapelgoer ](../monsters/brightportchurch.md) | NPC |
     | <span id="key-3"></span>3 | [Othinus](../monsters/brightportpriest.md) | NPC |
     | <span id="key-4"></span>4 | [Praying woman](../monsters/brightportchurch1.md) | NPC |
@@ -42,7 +42,7 @@ description: "Brightport temple is an indoor location in Andor's Trail, in Brigh
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brightport7](brightport7.md) | Brightport | 1 |
+| South | [Brightport 7](brightport7.md) | Brightport | 1 |
 
 ## NPCs
 
@@ -52,7 +52,7 @@ description: "Brightport temple is an indoor location in Andor's Trail, in Brigh
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Othinus](../monsters/brightportpriest.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Othinus](../monsters/brightportpriest.md) is involved
 
 
 ## Version history

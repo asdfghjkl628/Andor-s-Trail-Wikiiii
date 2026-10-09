@@ -4,7 +4,7 @@ description: "Eliszylae is an enemy in Andor's Trail (undead) with 135 HP, worth
 
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Eliszylae
 
-**Found in:** Stoutford: [stoutford_cellar2](../maps/stoutford_cellar2.md)
+**Found in:** Stoutford: [Stoutford cellar 2](../maps/stoutford_cellar2.md)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Eliszylae is an enemy in Andor's Trail (undead) with 135 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_cellar2](../maps/stoutford_cellar2.md) | Stoutford | 1 | – |
+| [Stoutford cellar 2](../maps/stoutford_cellar2.md) | Stoutford | 1 | – |
 
 ## Quests that count defeats
 
-- [Rumblings](../quests/rumblings.md#stage-50) with stepping on a trigger on [stoutford_cellar2](../maps/stoutford_cellar2.md) checks that this enemy has been defeated.
+- [Rumblings](../quests/rumblings.md#stage-50) with stepping on a trigger on [Stoutford cellar 2](../maps/stoutford_cellar2.md) checks that this enemy has been defeated.
 
 
 ## Version history

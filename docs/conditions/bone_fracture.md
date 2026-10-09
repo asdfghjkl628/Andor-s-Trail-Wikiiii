@@ -27,9 +27,9 @@ description: "Bone fracture is a harmful physical condition in Andor's Trail: �
 |---|---|
 | HP every round | −20 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -40,17 +40,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [guynmart](../maps/guynmart.md) | [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-71) | 1 round |
-| stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-2) | 1 round |
-| walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-1) | 1 round |
+| stepping on a trigger on [Guynmart](../maps/guynmart.md) | [Guest tour (hidden flag)](../quests/guynmart_quest_olav.md#stage-71) | 1 round |
+| stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) | [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-2) | 1 round |
+| walking into a blocked passage on [Guynmart wood 16](../maps/guynmart_wood_16.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-1) | 1 round |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

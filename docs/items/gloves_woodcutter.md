@@ -43,7 +43,7 @@ description: "Woodcutter's gloves is a ordinary gloves, leather in Andor's Trail
 
 ### Quest & dialogue rewards
 
-- From [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) during [Devastated land](../quests/hadracor.md#stage-21) (100%)
+- From [Hadracor](../monsters/hadracor.md) ([Roadtocarntower 1](../maps/roadtocarntower1.md)) during [Devastated land](../quests/hadracor.md#stage-21) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

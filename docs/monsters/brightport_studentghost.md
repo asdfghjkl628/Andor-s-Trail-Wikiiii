@@ -4,7 +4,7 @@ description: "Erelyn is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_36.png){ .sprite } Erelyn
 
-**Where to find Erelyn:** Brightport: [brightport_grave](../maps/brightport_grave.md#pin-npc-brightport_studentghost), Brightport: [brightport_school8](../maps/brightport_school8.md#pin-npc-brightport_studentghost)
+**Where to find Erelyn:** Brightport: [Brightport grave](../maps/brightport_grave.md#pin-npc-brightport_studentghost), Brightport: [Brightport school 8](../maps/brightport_school8.md#pin-npc-brightport_studentghost)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Erelyn is a non-player character (NPC) in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_grave](../maps/brightport_grave.md) | Brightport | 1 | – |
-| [brightport_school8](../maps/brightport_school8.md) | Brightport | 1 | Appears later, during a quest |
+| [Brightport grave](../maps/brightport_grave.md) | Brightport | 1 | – |
+| [Brightport school 8](../maps/brightport_school8.md) | Brightport | 1 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Erelyn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Erelyn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_studentghost_selector.json" data-npc="Erelyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,11 +36,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_studentghost_selector"></span>**`brightport_studentghost_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 238 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-238))* → [brightport_studentghost_1](#d-brightport_studentghost_1)
+    - Next *(if NOT reached stage 238 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-238))* → [brightport_studentghost_1](#d-brightport_studentghost_1)
     - Next → [brightport_studentghost_2](#d-brightport_studentghost_2)
 
     <span id="d-brightport_studentghost_1"></span>**`brightport_studentghost_1`** Erelyn: “Eek!”

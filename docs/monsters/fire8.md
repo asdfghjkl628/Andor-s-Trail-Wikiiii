@@ -1,10 +1,10 @@
 ---
-description: "Walking inferno is an enemy in Andor's Trail (construct) with 135 HP, worth 339 XP, found in lostmine10, lostmine11. Drops: Burnt ash, Glass gem."
+description: "Walking inferno is an enemy in Andor's Trail (construct) with 135 HP, worth 339 XP, found in Lostmine 10, Lostmine 11. Drops: Burnt ash, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_36.png){ .sprite } Walking inferno
 
-**Found in:** [lostmine10](../maps/lostmine10.md), [lostmine11](../maps/lostmine11.md)
+**Found in:** [Lostmine 10](../maps/lostmine10.md), [Lostmine 11](../maps/lostmine11.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Walking inferno is an enemy in Andor's Trail (construct) with 135 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lostmine10, lostmine11 |
+| **Found in** | Lostmine 10, Lostmine 11 |
 | **Class** | Construct |
 | **HP** | 135 |
 | **XP when defeated** | 339 |
@@ -61,8 +61,8 @@ description: "Walking inferno is an enemy in Andor's Trail (construct) with 135 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine10](../maps/lostmine10.md) | – | 4 | – |
-| [lostmine11](../maps/lostmine11.md) | – | 10 | – |
+| [Lostmine 10](../maps/lostmine10.md) | – | 4 | – |
+| [Lostmine 11](../maps/lostmine11.md) | – | 10 | – |
 
 
 ## Version history

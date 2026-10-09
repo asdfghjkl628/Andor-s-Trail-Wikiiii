@@ -4,7 +4,7 @@ description: "Hexapede crawler is an enemy in Andor's Trail (insect) with 228 HP
 
 # ![](../assets/icons/monsters/monsters_newb_1_573.png){ .sprite } Hexapede crawler
 
-**Found in:** Flagstone Prison: [rat_mountain_7](../maps/rat_mountain_7.md), [sullengard_hill_west](../maps/sullengard_hill_west.md), [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md)
+**Found in:** Flagstone Prison: [Rat mountain 7](../maps/rat_mountain_7.md), [Sullengard hill west](../maps/sullengard_hill_west.md), [Way to sullengard west 4](../maps/way_to_sullengard_west_4.md)
 
 <div class="infobox" markdown>
 
@@ -54,9 +54,9 @@ description: "Hexapede crawler is an enemy in Andor's Trail (insect) with 228 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [rat_mountain_7](../maps/rat_mountain_7.md) | Flagstone Prison | 5 | – |
-| [sullengard_hill_west](../maps/sullengard_hill_west.md) | – | 12 | – |
-| [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md) | – | 1 | – |
+| [Rat mountain 7](../maps/rat_mountain_7.md) | Flagstone Prison | 5 | – |
+| [Sullengard hill west](../maps/sullengard_hill_west.md) | – | 12 | – |
+| [Way to sullengard west 4](../maps/way_to_sullengard_west_4.md) | – | 1 | – |
 
 
 ## Version history

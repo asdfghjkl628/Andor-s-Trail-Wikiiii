@@ -18,22 +18,22 @@ description: "Old farmer is a non-player character (NPC) in Andor's Trail, found
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Old farmer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Old farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`old_farmer`](#v-old_farmer) | NPC | Remgard: [remgard4](../maps/remgard4.md#pin-npc-old_farmer) | – |
-| [`stoutford_farmer3`](#v-stoutford_farmer3) | NPC | Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_farmer3) | – |
+| [`old_farmer`](#v-old_farmer) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-old_farmer) | – |
+| [`stoutford_farmer3`](#v-stoutford_farmer3) | NPC | Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_farmer3) | – |
 
-## Remgard, Remgard4 (old_farmer) { #v-old_farmer }
+## Remgard, Remgard 4 (old_farmer) { #v-old_farmer }
 
 **Entry ID:** `old_farmer` · **Type:** NPC
 
-**Location:** Remgard: [remgard4](../maps/remgard4.md#pin-npc-old_farmer)
+**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-old_farmer)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Old farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_farmer2.json" data-npc="Old farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-old_farmer-fallhaven_farmer2"></span>**`fallhaven_farmer2`** Old farmer: “Hello. Could you please move out of the way? I am trying to work here.”
 
@@ -89,11 +89,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_farmer3` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_se](../maps/stoutford_se.md#pin-npc-stoutford_farmer3)
+**Location:** Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_farmer3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old farmer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Old farmer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_farmer3.json" data-npc="Old farmer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -101,7 +101,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_farmer3-stoutford_farmer3"></span>**`stoutford_farmer3`** Old farmer: “Hello. Could you please move out of the way? I am trying to work here.”
 

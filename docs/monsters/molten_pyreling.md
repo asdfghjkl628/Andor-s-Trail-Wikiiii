@@ -4,7 +4,7 @@ description: "Molten pyreling is an enemy in Andor's Trail (construct) with 236 
 
 # ![](../assets/icons/monsters/monsters_newb_1_1201.png){ .sprite } Molten pyreling
 
-**Found in:** Mt. Galmore: [galmore_33](../maps/galmore_33.md), Mt. Galmore: [galmore_42](../maps/galmore_42.md), Mt. Galmore: [galmore_43](../maps/galmore_43.md), Mt. Galmore: [galmore_53](../maps/galmore_53.md) (+8 more)
+**Found in:** Mt. Galmore: [Galmore 33](../maps/galmore_33.md), Mt. Galmore: [Galmore 42](../maps/galmore_42.md), Mt. Galmore: [Galmore 43](../maps/galmore_43.md), Mt. Galmore: [Galmore 53](../maps/galmore_53.md) (+8 more)
 
 <div class="infobox" markdown>
 
@@ -60,18 +60,18 @@ description: "Molten pyreling is an enemy in Andor's Trail (construct) with 236 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_33](../maps/galmore_33.md) | Mt. Galmore | 2 | – |
-| [galmore_41](../maps/galmore_41.md) | – | 2 | – |
-| [galmore_42](../maps/galmore_42.md) | Mt. Galmore | 2 | – |
-| [galmore_43](../maps/galmore_43.md) | Mt. Galmore | 10 | – |
-| [galmore_53](../maps/galmore_53.md) | Mt. Galmore | 3 | – |
-| [undertell_00](../maps/undertell_00.md) | – | 5 | – |
-| [undertell_10](../maps/undertell_10.md) | – | 5 | – |
-| [undertell_11](../maps/undertell_11.md) | – | 4 | – |
-| [undertell_21](../maps/undertell_21.md) | – | 3 | – |
-| [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 2 | – |
-| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 4 | – |
-| [undertell_3_lava_11](../maps/undertell_3_lava_11.md) | – | 2 | – |
+| [Galmore 33](../maps/galmore_33.md) | Mt. Galmore | 2 | – |
+| [Galmore 41](../maps/galmore_41.md) | – | 2 | – |
+| [Galmore 42](../maps/galmore_42.md) | Mt. Galmore | 2 | – |
+| [Galmore 43](../maps/galmore_43.md) | Mt. Galmore | 10 | – |
+| [Galmore 53](../maps/galmore_53.md) | Mt. Galmore | 3 | – |
+| [Undertell 00](../maps/undertell_00.md) | – | 5 | – |
+| [Undertell 10](../maps/undertell_10.md) | – | 5 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 4 | – |
+| [Undertell 21](../maps/undertell_21.md) | – | 3 | – |
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 2 | – |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 4 | – |
+| [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) | – | 2 | – |
 
 
 ## Version history

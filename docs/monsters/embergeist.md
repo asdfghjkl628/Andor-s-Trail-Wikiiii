@@ -4,7 +4,7 @@ description: "Embergeist is an enemy in Andor's Trail (construct) with 266 HP, w
 
 # ![](../assets/icons/monsters/monsters_newb_1_658.png){ .sprite } Embergeist
 
-**Found in:** Mt. Galmore: [galmore_52](../maps/galmore_52.md), Mt. Galmore: [galmore_62](../maps/galmore_62.md), [galmore_71](../maps/galmore_71.md), [galmore_72](../maps/galmore_72.md) (+10 more)
+**Found in:** Mt. Galmore: [Galmore 52](../maps/galmore_52.md), Mt. Galmore: [Galmore 62](../maps/galmore_62.md), [Galmore 71](../maps/galmore_71.md), [Galmore 72](../maps/galmore_72.md) (+10 more)
 
 <div class="infobox" markdown>
 
@@ -63,20 +63,20 @@ description: "Embergeist is an enemy in Andor's Trail (construct) with 266 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_52](../maps/galmore_52.md) | Mt. Galmore | 1 | – |
-| [galmore_62](../maps/galmore_62.md) | Mt. Galmore | 14 | – |
-| [galmore_71](../maps/galmore_71.md) | – | 1 | – |
-| [galmore_72](../maps/galmore_72.md) | – | 8 | – |
-| [undertell_3_lava_01](../maps/undertell_3_lava_01.md) | – | 1 | – |
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 1 | – |
-| [undertell_4_00](../maps/undertell_4_00.md) | – | 3 | – |
-| [undertell_4_01](../maps/undertell_4_01.md) | – | 8 | – |
-| [undertell_4_10](../maps/undertell_4_10.md) | – | 5 | – |
-| [undertell_4_11](../maps/undertell_4_11.md) | – | 4 | – |
-| [undertell_7_00](../maps/undertell_7_00.md) | – | 2 | – |
-| [undertell_7_01](../maps/undertell_7_01.md) | – | 3 | – |
-| [undertell_7_10](../maps/undertell_7_10.md) | – | 8 | – |
-| [undertell_7_11](../maps/undertell_7_11.md) | – | 3 | – |
+| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 1 | – |
+| [Galmore 62](../maps/galmore_62.md) | Mt. Galmore | 14 | – |
+| [Galmore 71](../maps/galmore_71.md) | – | 1 | – |
+| [Galmore 72](../maps/galmore_72.md) | – | 8 | – |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 1 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 1 | – |
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 3 | – |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 8 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 5 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 4 | – |
+| [Undertell 7 00](../maps/undertell_7_00.md) | – | 2 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 3 | – |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 8 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 3 | – |
 
 
 ## Version history

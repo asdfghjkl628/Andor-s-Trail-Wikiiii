@@ -11,9 +11,9 @@ description: "The dark protector is a quest in Andor's Trail, started by reading
 | **Quest ID** | `darkprotector` |
 | **In journal** | Yes |
 | **Stages** | 15 (completes at 40, 41, 70) |
-| **Started by** | reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) |
+| **Started by** | reading a sign on [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) |
 | **NPCs involved** | [Ulirfendor](../monsters/ulirfendor.md) |
-| **Locations** | [waytobrimhavencave4](../maps/waytobrimhavencave4.md) |
+| **Locations** | [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) |
 | **Total XP** | 55,000 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "The dark protector is a quest in Andor's Trail, started by reading
 
 ## Prerequisites to start
 
-None: talk to reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) to begin.
+None: talk to reading a sign on [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -40,89 +40,185 @@ None: talk to reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencav
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I have found a strange looking helmet from the lich 'Toszylae' that I defeated. I should go ask Ulirfendor if he knows anything about it.<br><span class="qnote">⚡ A scripted event can now trigger on [Waytobrimhavencave3a](../maps/waytobrimhavencave3a.md).</span> | reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | gives [Strange looking helmet](../items/helm_protector0.md) |
-| <span id="stage-15"></span>15 | Ulirfendor in the same dungeon thinks this artifact is what the shrine speaks of, and that it will bring misery to the surroundings of whoever carries it. He wants me to help him destroy it immediately. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | – | – |
-| <span id="stage-26"></span>26 | To destroy the artifact, I would need give the helmet and the heart of the lich to Ulirfendor. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | stage 15 | – |
-| <span id="stage-30"></span>30 | I have given the helmet to Ulirfendor. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | hand over 1× [Demon heart](../items/toszylae_heart.md), hand over 1× [Strange looking helmet](../items/helm_protector0.md), stage 15 | – |
-| <span id="stage-31"></span>31 | I have given the heart of the lich to Ulirfendor. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | hand over 1× [Demon heart](../items/toszylae_heart.md), hand over 1× [Strange looking helmet](../items/helm_protector0.md), stage 15 | – |
-| <span id="stage-35"></span>35 | Ulirfendor has destroyed the artifact. The people of the surrounding towns are safe from whatever misery the helmet would have brought. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | stage 31 | – |
-| <span id="stage-40"></span>40 | For helping with both the lich and the helmet, Ulirfendor has given me the dark blessing of the Shadow. **(completes quest)** | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | stage 35 | 15,000 XP<br>+1 [Dark blessing of the Shadow](../skills/shadowBless.md) |
-| <span id="stage-41"></span>41 | For helping with both the lich and the helmet, Ulirfendor wanted to give me the dark blessing of the Shadow, but I declined. **(completes quest)** | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | stage 35 | 35,000 XP |
-| <span id="stage-50"></span>50 | I have decided to keep the helmet for myself. Who knows what power I could gain from it. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | – | – |
-| <span id="stage-51"></span>51 | Ulirfendor attacked me for keeping the helmet. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | – | – |
-| <span id="stage-55"></span>55 | I found a book by the shrine where Ulirfendor was. The book talks of a ritual that would restore the helmet to its true power. I should complete the ritual by the shrine if I want to use the helmet. | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | – |
-| <span id="stage-60"></span>60 | I have started the Kazaul ritual. | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | – |
-| <span id="stage-65"></span>65 | I have placed the helmet in front of the Kazaul shrine. | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | – |
-| <span id="stage-66"></span>66 | I have placed the lich's heart in front of the Kazaul shrine. | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | hand over 1× [Demon heart](../items/toszylae_heart.md), stage 65 | – |
-| <span id="stage-70"></span>70 | The ritual is complete, and I have restored the power of the helmet to its former glory. **(completes quest)** | reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | stage 66 | 5,000 XP<br>gives [Dark protector](../items/helm_protector.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I have found a strange looking helmet from the lich 'Toszylae' that… ▸</span><span class="l">▴ less</span></summary>I have found a strange looking helmet from the lich 'Toszylae' that I defeated. I should go ask Ulirfendor if he knows anything about it.</details><br><span class="qnote">⚡ A scripted event can now trigger on [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md).</span> | reading a sign on [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | [Strange looking helmet](../items/helm_protector0.md) |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">Ulirfendor in the same dungeon thinks this artifact is what the… ▸</span><span class="l">▴ less</span></summary>Ulirfendor in the same dungeon thinks this artifact is what the shrine speaks of, and that it will bring misery to the surroundings of whoever carries it. He wants me to help him destroy it immediately.</details> | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-26"></span>[26](#route-26) | <details class="jt"><summary><span class="s">To destroy the artifact, I would need give the helmet and the heart… ▸</span><span class="l">▴ less</span></summary>To destroy the artifact, I would need give the helmet and the heart of the lich to Ulirfendor.</details> | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I have given the helmet to Ulirfendor. | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | I have given the heart of the lich to Ulirfendor. | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">Ulirfendor has destroyed the artifact. The people of the surrounding… ▸</span><span class="l">▴ less</span></summary>Ulirfendor has destroyed the artifact. The people of the surrounding towns are safe from whatever misery the helmet would have brought.</details> | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">For helping with both the lich and the helmet, Ulirfendor has given… ▸</span><span class="l">▴ less</span></summary>For helping with both the lich and the helmet, Ulirfendor has given me the dark blessing of the Shadow.</details> **(ends quest)** | [Ulirfendor](../monsters/ulirfendor.md) | 15,000 XP, +1 [Dark blessing of the Shadow](../skills/shadowBless.md) |
+| <span id="stage-41"></span>[41](#route-41) | <details class="jt"><summary><span class="s">For helping with both the lich and the helmet, Ulirfendor wanted to… ▸</span><span class="l">▴ less</span></summary>For helping with both the lich and the helmet, Ulirfendor wanted to give me the dark blessing of the Shadow, but I declined.</details> **(ends quest)** | [Ulirfendor](../monsters/ulirfendor.md) | 35,000 XP |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I have decided to keep the helmet for myself. Who knows what power I… ▸</span><span class="l">▴ less</span></summary>I have decided to keep the helmet for myself. Who knows what power I could gain from it.</details> | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-51"></span>[51](#route-51) | Ulirfendor attacked me for keeping the helmet. | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-55"></span>[55](#route-55) | <details class="jt"><summary><span class="s">I found a book by the shrine where Ulirfendor was. The book talks of… ▸</span><span class="l">▴ less</span></summary>I found a book by the shrine where Ulirfendor was. The book talks of a ritual that would restore the helmet to its true power. I should complete the ritual by the shrine if I want to use the helmet.</details> | reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | I have started the Kazaul ritual. | reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – |
+| <span id="stage-65"></span>[65](#route-65) | I have placed the helmet in front of the Kazaul shrine. | reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – |
+| <span id="stage-66"></span>[66](#route-66) | I have placed the lich's heart in front of the Kazaul shrine. | reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">The ritual is complete, and I have restored the power of the helmet… ▸</span><span class="l">▴ less</span></summary>The ritual is complete, and I have restored the power of the helmet to its former glory.</details> **(ends quest)** | reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | 5,000 XP, [Dark protector](../items/helm_protector.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) → the conversation leads here automatically → **stage 10**; also gives [Strange looking helmet](../items/helm_protector0.md). NPC: “[On the shrine that was behind the lich 'Toszylae' that you defeated, you find a strange looking helmet]”
+??? note "Stage 10 · reading a sign on waytobrimhavencave3a · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Reading a sign on [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md)
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “What was that about destroying the helmet?” — **conditions:** reached stage 15 of [The dark protector](../quests/darkprotector.md#stage-15) → **stage 15**. NPC: “I say, we must destroy that item immediately to make sure that the Kazaul taint is forever cleansed from this place…”
+    - **Gives:** [Strange looking helmet](../items/helm_protector0.md)
+    - *“[On the shrine that was behind the lich 'Toszylae' that you defeated, you find a strange looking helmet]”*
 
-???+ note "Stage 26: 1 route"
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “I managed to get the heart of the lich, would that do?” — **conditions:** reached stage 15 of [The dark protector](../quests/darkprotector.md#stage-15) → **stage 26**. NPC: “The heart? Oh yes, that would surely do.”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · Ulirfendor · 1 way"
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “Here is the helmet and the heart.” — **conditions:** reached stage 15 of [The dark protector](../quests/darkprotector.md#stage-15); hand over 1× [Strange looking helmet](../items/helm_protector0.md); hand over 1× [Demon heart](../items/toszylae_heart.md) → **stage 30**. NPC: “Excellent. I will begin the procedure immediately.”
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “What was that about destroying the helmet?”
 
-???+ note "Stage 31: 1 route"
+    - **Needs:** stage 15
+    - *“I say, we must destroy that item immediately to make sure that the Kazaul taint is forever cleansed from this place and to make sure it…”*
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “Here is the helmet and the heart.” — **conditions:** reached stage 15 of [The dark protector](../quests/darkprotector.md#stage-15); hand over 1× [Strange looking helmet](../items/helm_protector0.md); hand over 1× [Demon heart](../items/toszylae_heart.md) → **stage 31**. NPC: “Excellent. I will begin the procedure immediately.”
 
-???+ note "Stage 35: 1 route"
+<span id="route-26"></span>
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → the conversation leads here automatically — **conditions:** reached stage 31 of [The dark protector](../quests/darkprotector.md#stage-31) → **stage 35**. NPC: “[The helmet completely shatters, leaving nothing but a fine dust]”
+??? note "Stage 26 · Ulirfendor · 1 way"
 
-???+ note "Stage 40: 1 route"
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “I managed to get the heart of the lich, would that do?”
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “Thank you, please go ahead.” — **conditions:** reached stage 35 of [The dark protector](../quests/darkprotector.md#stage-35) → **stage 40**; also +1 [Dark blessing of the Shadow](../skills/shadowBless.md). NPC: “There. You now have the dark blessing of the Shadow upon you.”
+    - **Needs:** stage 15
+    - *“The heart? Oh yes, that would surely do.”*
 
-???+ note "Stage 41: 1 route"
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “Thank you, but that will not be necessary. I am just happy to help.” — **conditions:** reached stage 35 of [The dark protector](../quests/darkprotector.md#stage-35) → **stage 41**. NPC: “You truly have a large heart.”
+<span id="route-30"></span>
 
-???+ note "Stage 50: 1 route"
+??? note "Stage 30 · Ulirfendor · 1 way"
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [The dark protector](../quests/darkprotector.md#stage-50) → **stage 50**. NPC: “What is this!? I knew there was something wrong about you the first time I saw you.”
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “Here is the helmet and the heart.”
 
-???+ note "Stage 51: 1 route"
+    - **Needs:** stage 15; hand over 1× [Strange looking helmet](../items/helm_protector0.md); hand over 1× [Demon heart](../items/toszylae_heart.md)
+    - *“Excellent. I will begin the procedure immediately.”*
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → the conversation leads here automatically — **conditions:** reached stage 51 of [The dark protector](../quests/darkprotector.md#stage-51) → **stage 51**. NPC: “By the Shadow, I will stop you. Whatever it takes. You will not live to see the next day!”
 
-???+ note "Stage 55: 1 route"
+<span id="route-31"></span>
 
-    1. reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) → the conversation leads here automatically → **stage 55**. NPC: “The ritual itself would require the heart of a lich, and from the text surrounding the ritual in the book, it could…”
+??? note "Stage 31 · Ulirfendor · 1 way"
 
-???+ note "Stage 60: 1 route"
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “Here is the helmet and the heart.”
 
-    1. reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) → choose “Begin the ritual.” → **stage 60**. NPC: “You place yourself in front of the shrine, kneeling like the drawings in the book show.”
+    - **Needs:** stage 15; hand over 1× [Strange looking helmet](../items/helm_protector0.md); hand over 1× [Demon heart](../items/toszylae_heart.md)
+    - *“Excellent. I will begin the procedure immediately.”*
 
-???+ note "Stage 65: 1 route"
 
-    1. reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) → the conversation leads here automatically — **conditions:** reached stage 65 of [The dark protector](../quests/darkprotector.md#stage-65) → **stage 65**. NPC: “You place the helmet on the ground in front of you, leaning it slightly against the shrine.”
+<span id="route-35"></span>
 
-???+ note "Stage 66: 1 route"
+??? note "Stage 35 · Ulirfendor · 1 way"
 
-    1. reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) → choose “Place the heart of the lich in front of the shrine” — **conditions:** reached stage 65 of [The dark protector](../quests/darkprotector.md#stage-65); hand over 1× [Demon heart](../items/toszylae_heart.md) → **stage 66**. NPC: “You place the heart of the lich beside the helmet in front of the shrine.”
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), automatic
 
-???+ note "Stage 70: 1 route"
+    - **Needs:** stage 31
+    - *“[The helmet completely shatters, leaving nothing but a fine dust]”*
 
-    1. reading a sign on [waytobrimhavencave4](../maps/waytobrimhavencave4.md) → choose “Take the helmet” — **conditions:** reached stage 66 of [The dark protector](../quests/darkprotector.md#stage-66) → **stage 70**; also gives [Dark protector](../items/helm_protector.md). NPC: “You take the helmet, and examine it more closely.”
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Ulirfendor · 1 way"
+
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “Thank you, please go ahead.”
+
+    - **Needs:** stage 35
+    - **Gives:** +1 [Dark blessing of the Shadow](../skills/shadowBless.md)
+    - *“There. You now have the dark blessing of the Shadow upon you.”*
+
+
+<span id="route-41"></span>
+
+??? note "Stage 41 · Ulirfendor · 1 way"
+
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “Thank you, but that will not be necessary. I am just happy to help.”
+
+    - **Needs:** stage 35
+    - *“You truly have a large heart.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Ulirfendor · 1 way"
+
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), automatic
+
+    - **Needs:** stage 50
+    - *“What is this!? I knew there was something wrong about you the first time I saw you.”*
+
+
+<span id="route-51"></span>
+
+??? note "Stage 51 · Ulirfendor · 1 way"
+
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), automatic
+
+    - **Needs:** stage 51
+    - *“By the Shadow, I will stop you. Whatever it takes. You will not live to see the next day!”*
+
+
+<span id="route-55"></span>
+
+??? note "Stage 55 · reading a sign on waytobrimhavencave4 · 1 way"
+
+    **Way 1:** Reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md)
+
+    - *“The ritual itself would require the heart of a lich, and from the text surrounding the ritual in the book, it could surely restore the…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · reading a sign on waytobrimhavencave4 · 1 way"
+
+    **Way 1:** Reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md), choose “Begin the ritual.”
+
+    - *“You place yourself in front of the shrine, kneeling like the drawings in the book show.”*
+
+
+<span id="route-65"></span>
+
+??? note "Stage 65 · reading a sign on waytobrimhavencave4 · 1 way"
+
+    **Way 1:** Reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md)
+
+    - **Needs:** stage 65
+    - *“You place the helmet on the ground in front of you, leaning it slightly against the shrine.”*
+
+
+<span id="route-66"></span>
+
+??? note "Stage 66 · reading a sign on waytobrimhavencave4 · 1 way"
+
+    **Way 1:** Reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md), choose “Place the heart of the lich in front of the shrine”
+
+    - **Needs:** stage 65; hand over 1× [Demon heart](../items/toszylae_heart.md)
+    - *“You place the heart of the lich beside the helmet in front of the shrine.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · reading a sign on waytobrimhavencave4 · 1 way"
+
+    **Way 1:** Reading a sign on [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md), choose “Take the helmet”
+
+    - **Needs:** stage 66
+    - **Gives:** [Dark protector](../items/helm_protector.md)
+    - *“You take the helmet, and examine it more closely.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -133,7 +229,7 @@ None: talk to reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencav
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “(The helmet completely shatters, leaving nothing but a fine dust.)” → “[The helmet completely shatters, leaving nothing but a fine dust]”<br>· text: “(Among the remains of the lich 'Toszylae' that you defeated, you find…” → “[On the shrine that was behind the lich 'Toszylae' that you defeated,…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “(Among the remains of the lich 'Toszylae' that you defeated, you find…” → “[On the shrine that was behind the lich 'Toszylae' that you defeated,…”<br>· text: “(The helmet completely shatters, leaving nothing but a fine dust.)” → “[The helmet completely shatters, leaving nothing but a fine dust]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

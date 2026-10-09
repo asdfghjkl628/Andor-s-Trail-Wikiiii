@@ -1,8 +1,8 @@
 ---
-description: "Wild1 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Small rabid dog, Forest wasp, Rabid boar, Rabid fox. Exits to Wild0, Wild4, Gapfiller3, Crossglen."
+description: "Wild 1 is an outdoor location in Andor's Trail, near Crossglen (settlement). Enemies: Forest wasp, Small rabid dog, Rabid boar, Rabid fox. Exits to Wild 0, Wild 4, Gapfiller 3, Crossglen."
 ---
 
-# Wild1
+# Wild 1
 
 <div class="infobox" markdown>
 
@@ -12,22 +12,22 @@ description: "Wild1 is an outdoor location in Andor's Trail, near Crossglen (set
 | **Region** | Near Crossglen (settlement) |
 | **Type** | Outdoors |
 | **Size** | 21×21 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
 
 </div>
 
-**Wild1** is an outdoor map, near Crossglen (settlement). It has no NPCs and 4 kinds of enemy. Exits lead to Wild0, Wild4, Gapfiller3, Crossglen.
+**Wild 1** is an outdoor map, near Crossglen (settlement). It has no NPCs and 4 kinds of enemy. Exits lead to Wild 0, Wild 4, Gapfiller 3, Crossglen.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild1.webp" alt="Map of Wild1" width="672" height="672" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../crossglen/#place-east" title="Exit to Crossglen" style="left:0.000%;top:71.429%;width:4.762%;height:9.524%"></a><a id="place-south" class="mo mo-mapchange" href="../gapfiller3/#place-north" title="Exit to Gapfiller3" style="left:23.810%;top:95.238%;width:9.524%;height:4.762%"></a><a id="place-east" class="mo mo-mapchange" href="../wild4/#place-west" title="Exit to Wild4" style="left:95.238%;top:4.762%;width:4.762%;height:4.762%"></a><span class="mo mo-sign" title="Sign: West: Crossglen
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild1.webp" alt="Map of Wild 1" width="672" height="672" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../crossglen/#place-east" title="Exit to Crossglen" style="left:0.000%;top:71.429%;width:4.762%;height:9.524%"></a><a id="place-south" class="mo mo-mapchange" href="../gapfiller3/#place-north" title="Exit to Gapfiller 3" style="left:23.810%;top:95.238%;width:9.524%;height:4.762%"></a><a id="place-east" class="mo mo-mapchange" href="../wild4/#place-west" title="Exit to Wild 4" style="left:95.238%;top:4.762%;width:4.762%;height:4.762%"></a><span class="mo mo-sign" title="Sign: West: Crossglen
 South: Fallhaven
-North: Feygard" style="left:19.048%;top:76.190%;width:4.762%;height:4.762%"></span><a id="place-north" class="mo mo-mapchange" href="../wild0/#place-south" title="Exit to Wild0" style="left:57.143%;top:0.000%;width:4.762%;height:4.762%"></a><span class="mo mo-spawn" title="Spawns: Small rabid dog" style="left:14.286%;top:9.524%;width:33.333%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Rabid boar" style="left:9.524%;top:9.524%;width:19.048%;height:23.810%"></span><span class="mo mo-spawn" title="Spawns: Rabid fox" style="left:47.619%;top:90.476%;width:19.048%;height:4.762%"></span><span class="mo mo-spawn" title="Spawns: Rabid fox" style="left:85.714%;top:33.333%;width:4.762%;height:9.524%"></span><span class="mo mo-spawn" title="Spawns: Rabid fox" style="left:80.952%;top:14.286%;width:4.762%;height:9.524%"></span><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:42.857%;top:52.381%;width:28.571%;height:23.810%"></span><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:28.571%;top:9.524%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:28.571%;top:23.810%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:19.048%;top:38.095%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:33.333%;top:19.048%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/rabid_boar/" title="Rabid boar" style="left:14.286%;top:14.286%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Rabid boar"></a><a class="mob" href="../../monsters/rabid_fox/" title="Rabid fox" style="left:61.905%;top:90.476%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Rabid fox"></a><a class="mob" href="../../monsters/rabid_fox/" title="Rabid fox" style="left:85.714%;top:38.095%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Rabid fox"></a><a class="mob" href="../../monsters/rabid_fox/" title="Rabid fox" style="left:80.952%;top:14.286%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Rabid fox"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:52.381%;top:61.905%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:57.143%;top:66.667%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="pin pin-exit" href="#key-1" style="left:59.524%;top:2.381%" title="Exit (north): to [Wild0](wild0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.619%;top:7.143%" title="Exit (northeast): to [Wild4](wild4.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:28.571%;top:97.619%" title="Exit (south): to [Gapfiller3](gapfiller3.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:2.381%;top:76.190%" title="Exit (west): to [Crossglen](crossglen.md)">4</a><a class="pin pin-sign" href="#key-5" style="left:21.429%;top:78.571%" title="Sign: “West: Crossglen
+North: Feygard" style="left:19.048%;top:76.190%;width:4.762%;height:4.762%"></span><a id="place-north" class="mo mo-mapchange" href="../wild0/#place-south" title="Exit to Wild 0" style="left:57.143%;top:0.000%;width:4.762%;height:4.762%"></a><span class="mo mo-spawn" title="Spawns: Small rabid dog" style="left:14.286%;top:9.524%;width:33.333%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Rabid boar" style="left:9.524%;top:9.524%;width:19.048%;height:23.810%"></span><span class="mo mo-spawn" title="Spawns: Rabid fox" style="left:47.619%;top:90.476%;width:19.048%;height:4.762%"></span><span class="mo mo-spawn" title="Spawns: Rabid fox" style="left:85.714%;top:33.333%;width:4.762%;height:9.524%"></span><span class="mo mo-spawn" title="Spawns: Rabid fox" style="left:80.952%;top:14.286%;width:4.762%;height:9.524%"></span><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:42.857%;top:52.381%;width:28.571%;height:23.810%"></span><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:28.571%;top:9.524%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:28.571%;top:23.810%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:19.048%;top:38.095%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/small_rabid_dog/" title="Small rabid dog" style="left:33.333%;top:19.048%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_1.png" alt="Small rabid dog"></a><a class="mob" href="../../monsters/rabid_boar/" title="Rabid boar" style="left:14.286%;top:14.286%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Rabid boar"></a><a class="mob" href="../../monsters/rabid_fox/" title="Rabid fox" style="left:61.905%;top:90.476%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Rabid fox"></a><a class="mob" href="../../monsters/rabid_fox/" title="Rabid fox" style="left:85.714%;top:38.095%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Rabid fox"></a><a class="mob" href="../../monsters/rabid_fox/" title="Rabid fox" style="left:80.952%;top:14.286%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Rabid fox"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:52.381%;top:61.905%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:57.143%;top:66.667%;width:4.762%;height:4.762%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="pin pin-exit" href="#key-1" style="left:59.524%;top:2.381%" title="Exit (north): to [Wild 0](wild0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.619%;top:7.143%" title="Exit (northeast): to [Wild 4](wild4.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:28.571%;top:97.619%" title="Exit (south): to [Gapfiller 3](gapfiller3.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:2.381%;top:76.190%" title="Exit (west): to [Crossglen](crossglen.md)">4</a><a class="pin pin-sign" href="#key-5" style="left:21.429%;top:78.571%" title="Sign: “West: Crossglen
 South: Fallhaven
 North: Feygard”">5</a></div>
 
@@ -35,9 +35,9 @@ North: Feygard”">5</a></div>
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Wild0](wild0.md) |
-    | <span id="key-2"></span>2 | Exit (northeast) | to [Wild4](wild4.md) |
-    | <span id="key-3"></span>3 | Exit (south) | to [Gapfiller3](gapfiller3.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Wild 0](wild0.md) |
+    | <span id="key-2"></span>2 | Exit (northeast) | to [Wild 4](wild4.md) |
+    | <span id="key-3"></span>3 | Exit (south) | to [Gapfiller 3](gapfiller3.md) |
     | <span id="key-4"></span>4 | Exit (west) | to [Crossglen](crossglen.md) |
     | <span id="key-5"></span>5 | Sign | “West: Crossglen South: Fallhaven North: Feygard” |
 
@@ -48,17 +48,17 @@ North: Feygard”">5</a></div>
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Wild0](wild0.md) | Crossroads Guardhouse | 1 |
-| Northeast | [Wild4](wild4.md) | Crossglen | 2 |
-| South | [Gapfiller3](gapfiller3.md) | Crossglen | 3 |
+| North | [Wild 0](wild0.md) | Crossroads Guardhouse | 1 |
+| Northeast | [Wild 4](wild4.md) | Crossglen | 2 |
+| South | [Gapfiller 3](gapfiller3.md) | Crossglen | 3 |
 | West | [Crossglen](crossglen.md) | Crossglen | 4 |
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 4 | – |
 | [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
+| [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 4 | – |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 | 3–3 | 1 | – |
 | [Rabid fox](../monsters/rabid_fox.md) | 25 | 3–3 | 3 | – |
 

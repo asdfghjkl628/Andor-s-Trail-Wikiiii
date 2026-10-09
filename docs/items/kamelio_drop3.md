@@ -51,7 +51,7 @@ description: "Kazarite cloak is a extraordinary hide armor in Andor's Trail (Att
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Undead Kamelio](../monsters/kamelio2.md) | 100% | 1 | elm5f_2 |
+| [Undead Kamelio](../monsters/kamelio2.md) | 100% | 1 | Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -62,7 +62,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Prim guard captain](../monsters/prim_guard5.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), [Jern](../monsters/prim_bar_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) | – | must be carried (1×) | “This is his cloak, right? [Show the Kazarite cloak]” |
+| [Prim guard captain](../monsters/prim_guard5.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), [Jern](../monsters/prim_bar_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) | – | must be carried (1×) | “This is his cloak, right? [Show the Kazarite cloak]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -1,8 +1,8 @@
 ---
-description: "troubling_times_nd is a hidden quest in Andor's Trail, started by Sly Seraphina (crackshot_hideout4). 3 stages. Seraphina search"
+description: "Troubling times story flags is a hidden quest in Andor's Trail, started by Sly Seraphina (crackshot_hideout4). 3 stages. Seraphina search"
 ---
 
-# troubling_times_nd
+# Troubling times story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "troubling_times_nd is a hidden quest in Andor's Trail, started by 
 | **Quest ID** | `troubling_times_nd` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
-| **Started by** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
-| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) |
-| **Locations** | [crackshot_hideout3](../maps/crackshot_hideout3.md), [crackshot_hideout4](../maps/crackshot_hideout4.md) |
+| **Started by** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) |
+| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) |
+| **Locations** | [Crackshot hideout 3](../maps/crackshot_hideout3.md), [Crackshot hideout 4](../maps/crackshot_hideout4.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -27,7 +27,7 @@ description: "troubling_times_nd is a hidden quest in Andor's Trail, started by 
 
 ## Prerequisites to start
 
-None: talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) to begin.
+None: talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -43,30 +43,57 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([cra
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Seraphina search | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | – |
-| <span id="stage-20"></span>20 | Crackshot's door unsealed<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout3](../maps/crackshot_hideout3.md).</span><br><span class="qnote">🗺️ Part of [Crackshot hideout3](../maps/crackshot_hideout3.md) visibly changes.</span> | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | hand over 1× [Key of Luthor](../items/key_luthor.md) | sets stage 210 of [Troubling times](../quests/troubling_times.md#stage-210)<br>removes monsters from crackshot_hideout3 |
-| <span id="stage-30"></span>30 | 1=standing north of Sly while she blocks the passage<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout4](../maps/crackshot_hideout4.md).</span> | stepping on a trigger on [crackshot_hideout4](../maps/crackshot_hideout4.md)<br>[Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | faction “tt_sly_attack2” +1<br>moves you to [crackshot_hideout4](../maps/crackshot_hideout4.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | Seraphina search | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) | – |
+| <span id="stage-20"></span>[20](#route-20) | Crackshot's door unsealed<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout 3](../maps/crackshot_hideout3.md).</span><br><span class="qnote">🗺️ Part of [Crackshot hideout 3](../maps/crackshot_hideout3.md) visibly changes.</span> | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) | sets stage 210 of [Troubling times](../quests/troubling_times.md#stage-210), removes monsters from crackshot_hideout3 |
+| <span id="stage-30"></span>[30](#route-30) | 1=standing north of Sly while she blocks the passage<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout 4](../maps/crackshot_hideout4.md).</span> | stepping on a trigger on [Crackshot hideout 4](../maps/crackshot_hideout4.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) | varies by route (see below) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “[Sarcastic] Truly royal.” → **stage 10**. NPC: “In fact, I am King Luthor's heir. He's my ancestor.”
+??? note "Stage 10 · Sly Seraphina · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), choose “[Sarcastic] Truly royal.”
 
-    1. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) → choose “Here it is. Let's do it.” — **conditions:** hand over 1× [Key of Luthor](../items/key_luthor.md) → **stage 20**; also sets stage 210 of [Troubling times](../quests/troubling_times.md#stage-210), removes monsters from crackshot_hideout3. NPC: “Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.”
+    - *“In fact, I am King Luthor's heir. He's my ancestor.”*
 
-???+ note "Stage 30: 2 routes"
 
-    1. stepping on a trigger on [crackshot_hideout4](../maps/crackshot_hideout4.md) → the conversation leads here automatically → **stage 30**; also faction “tt_sly_attack2” +1
-    2. Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) → choose “Hey, I'm back. Don't be alarmed, I'll squeeze past you.” — **conditions:** NOT reached stage 30 of [troubling_times_nd (hidden flag)](../quests/troubling_times_nd.md#stage-30) → **stage 30**; also moves you to [crackshot_hideout4](../maps/crackshot_hideout4.md)
+<span id="route-20"></span>
+
+??? note "Stage 20 · Sly Seraphina · 1 way"
+
+    **Way 1:** Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), choose “Here it is. Let's do it.”
+
+    - **Needs:** hand over 1× [Key of Luthor](../items/key_luthor.md)
+    - **Gives:** sets stage 210 of [Troubling times](../quests/troubling_times.md#stage-210), removes monsters from crackshot_hideout3
+    - *“Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · stepping on a trigger on crackshot_hideout4, Sly Seraphina · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Crackshot hideout 4](../maps/crackshot_hideout4.md)
+
+    - **Gives:** faction “tt_sly_attack2” +1
+
+    **Way 2:** Talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), choose “Hey, I'm back. Don't be alarmed, I'll squeeze past you.”
+
+    - **Needs:** not yet stage 30
+    - **Gives:** moves you to [Crackshot hideout 4](../maps/crackshot_hideout4.md)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -111,6 +138,7 @@ None: talk to [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([cra
     | | |
     |---|---|
     | Quest ID | `troubling_times_nd` |
+    | Name in game data | `troubling_times_nd` |
     | showInLog | 0 |
     | Stage IDs | 10, 20, 30 |
     | Dialogue nodes setting stages | 10: `tt_sly5_3`, 20: `tt_sly2_20`, 30: `tt_sly_attack2`, 30: `tt_sly4_6` |

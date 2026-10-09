@@ -4,7 +4,7 @@ description: "Miri is a non-player character (NPC) in Andor's Trail, found in Mt
 
 # ![](../assets/icons/monsters/monsters_ld1_228.png){ .sprite } Miri
 
-**Where to find Miri:** Crossroads Guardhouse: [houseatcrossroads0](../maps/houseatcrossroads0.md#pin-npc-dds_miri), Mt. Galmore: [galmore_45](../maps/galmore_45.md#pin-npc-dds_miri), [galmore_41](../maps/galmore_41.md#pin-npc-dds_miri)
+**Where to find Miri:** Crossroads Guardhouse: [Houseatcrossroads 0](../maps/houseatcrossroads0.md#pin-npc-dds_miri), Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_miri), [Galmore 41](../maps/galmore_41.md#pin-npc-dds_miri)
 
 <div class="infobox" markdown>
 
@@ -24,18 +24,18 @@ description: "Miri is a non-player character (NPC) in Andor's Trail, found in Mt
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
-| [houseatcrossroads0](../maps/houseatcrossroads0.md) | Crossroads Guardhouse | 1 | Appears later, during a quest |
+| [Galmore 41](../maps/galmore_41.md) | – | 1 | Appears later, during a quest |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Houseatcrossroads 0](../maps/houseatcrossroads0.md) | Crossroads Guardhouse | 1 | Appears later, during a quest |
 
 ## Quests
 
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): stages 10, 20, 30, 40, 50, 80, 90, 120, 150, 160, 190, 210, 220, 240, 260, 270, 280
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): stages 3, 6
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): stages 3, 6
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Miri. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Miri. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_miri.json" data-npc="Miri" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (75 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_miri"></span>**`dds_miri`** *(silent check: the first matching branch below is taken)*
 
@@ -118,7 +118,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “There's some sort of force shield blocking the path.” → [dds_miri_202](#d-dds_miri_202)
 
-    <span id="d-dds_miri_110"></span>**`dds_miri_110`** Miri: “Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Purple Hills.” — **effects:** sets stage 50 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-50), sets stage 3 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-3), spawns monsters on galmore_45, spawns monsters on galmore_45
+    <span id="d-dds_miri_110"></span>**`dds_miri_110`** Miri: “Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Purple Hills.” — **effects:** sets stage 50 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-50), sets stage 3 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-3), spawns monsters on galmore_45, spawns monsters on galmore_45
 
     - “OK, I'm off. Stoutford ... I haven't been there in a long time ...” → *conversation ends*
     - “The Purple Hills?” → [dds_miri_112](#d-dds_miri_112)
@@ -306,7 +306,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “How would you know that I did such things?” → [dds_miri_25](#d-dds_miri_25)
 
-    <span id="d-dds_miri_590"></span>**`dds_miri_590`** Miri: “Andor is going to visit Rosmara to refill his travel supplies.” — **effects:** sets stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280), removes monsters from galmore_41, spawns monsters on houseatcrossroads0, sets stage 6 of [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on wayto_feygard_duleian_2
+    <span id="d-dds_miri_590"></span>**`dds_miri_590`** Miri: “Andor is going to visit Rosmara to refill his travel supplies.” — **effects:** sets stage 280 of [Darkness in the Daylight](../quests/darkness_in_daylight.md#stage-280), removes monsters from galmore_41, spawns monsters on houseatcrossroads0, sets stage 6 of [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md#stage-6), spawns monsters on wayto_feygard_duleian_2
 
     - “Thank you!” → *conversation ends*
     - “Who is Rosmara?” → [dds_miri_592](#d-dds_miri_592)

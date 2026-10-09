@@ -4,7 +4,7 @@ description: "Vicious hound is an enemy in Andor's Trail (animal) with 31 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rltiles2_110.png){ .sprite } Vicious hound
 
-**Found in:** Blackwater Mountain: [blackwater_mountain14](../maps/blackwater_mountain14.md), Blackwater Mountain: [blackwater_mountain70](../maps/blackwater_mountain70.md), Blackwater Mountain: [bwmfill1](../maps/bwmfill1.md), Flagstone Prison: [lake_shore_road_2](../maps/lake_shore_road_2.md) (+19 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md), Blackwater Mountain: [Blackwater mountain 70](../maps/blackwater_mountain70.md), Blackwater Mountain: [Bwmfill 1](../maps/bwmfill1.md), Flagstone Prison: [Lake shore road 2](../maps/lake_shore_road_2.md) (+19 more)
 
 <div class="infobox" markdown>
 
@@ -57,29 +57,29 @@ description: "Vicious hound is an enemy in Andor's Trail (animal) with 31 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [beekeeper2](../maps/beekeeper2.md) | Foaming Flask Tavern | 3 | – |
-| [blackwater_mountain1](../maps/blackwater_mountain1.md) | Stoutford | 3 | – |
-| [blackwater_mountain10](../maps/blackwater_mountain10.md) | Prim | 2 | – |
-| [blackwater_mountain12](../maps/blackwater_mountain12.md) | Prim | 2 | – |
-| [blackwater_mountain14](../maps/blackwater_mountain14.md) | Blackwater Mountain | 2 | – |
-| [blackwater_mountain70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 3 | – |
-| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_10](../maps/guynmart_wood_10.md) | Guynmart Castle | 1 | – |
-| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 3 | – |
-| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 1 | – |
-| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 4 | – |
-| [guynmart_wood_15](../maps/guynmart_wood_15.md) | – | 3 | – |
-| [guynmart_wood_17](../maps/guynmart_wood_17.md) | – | 3 | – |
-| [guynmart_wood_17b](../maps/guynmart_wood_17b.md) | – | 3 | – |
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_4](../maps/guynmart_wood_4.md) | Guynmart Castle | 1 | – |
-| [guynmart_wood_6](../maps/guynmart_wood_6.md) | Guynmart Castle | 3 | – |
-| [guynmart_wood_8](../maps/guynmart_wood_8.md) | Guynmart Castle | 5 | – |
-| [lake_shore_road_2](../maps/lake_shore_road_2.md) | Flagstone Prison | 2 | – |
-| [wild17](../maps/wild17.md) | Stoutford | 2 | – |
+| [Beekeeper 2](../maps/beekeeper2.md) | Foaming Flask Tavern | 3 | – |
+| [Blackwater mountain 1](../maps/blackwater_mountain1.md) | Stoutford | 3 | – |
+| [Blackwater mountain 10](../maps/blackwater_mountain10.md) | Prim | 2 | – |
+| [Blackwater mountain 12](../maps/blackwater_mountain12.md) | Prim | 2 | – |
+| [Blackwater mountain 14](../maps/blackwater_mountain14.md) | Blackwater Mountain | 2 | – |
+| [Blackwater mountain 70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 3 | – |
+| [Bwmfill 1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 1](../maps/guynmart_wood_1.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 10](../maps/guynmart_wood_10.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 11](../maps/guynmart_wood_11.md) | Guynmart Castle | 3 | – |
+| [Guynmart wood 12](../maps/guynmart_wood_12.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 13](../maps/guynmart_wood_13.md) | Guynmart Castle | 4 | – |
+| [Guynmart wood 15](../maps/guynmart_wood_15.md) | – | 3 | – |
+| [Guynmart wood 17](../maps/guynmart_wood_17.md) | – | 3 | – |
+| [Guynmart wood 17b](../maps/guynmart_wood_17b.md) | – | 3 | – |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 4](../maps/guynmart_wood_4.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 6](../maps/guynmart_wood_6.md) | Guynmart Castle | 3 | – |
+| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 5 | – |
+| [Lake shore road 2](../maps/lake_shore_road_2.md) | Flagstone Prison | 2 | – |
+| [Wild 17](../maps/wild17.md) | Stoutford | 2 | – |
 
 
 ## Version history

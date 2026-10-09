@@ -1,10 +1,10 @@
 ---
-description: "King yellow tooth slitherer is an enemy in Andor's Trail (reptile) with 208 HP, worth 767 XP, found in way_to_sullengard_east1. Drops: Snake meat, Poison gland, Venomscale scales."
+description: "King yellow tooth slitherer is an enemy in Andor's Trail (reptile) with 208 HP, worth 767 XP, found in Way to sullengard east 1. Drops: Snake meat, Poison gland, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_snakes_5.png){ .sprite } King yellow tooth slitherer
 
-**Found in:** [way_to_sullengard_east1](../maps/way_to_sullengard_east1.md)
+**Found in:** [Way to sullengard east 1](../maps/way_to_sullengard_east1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "King yellow tooth slitherer is an enemy in Andor's Trail (reptile)
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | way_to_sullengard_east1 |
+| **Found in** | Way to sullengard east 1 |
 | **Class** | Reptile |
 | **HP** | 208 |
 | **XP when defeated** | 767 |
@@ -58,7 +58,7 @@ description: "King yellow tooth slitherer is an enemy in Andor's Trail (reptile)
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_east1](../maps/way_to_sullengard_east1.md) | – | 1 | – |
+| [Way to sullengard east 1](../maps/way_to_sullengard_east1.md) | – | 1 | – |
 
 
 ## Version history

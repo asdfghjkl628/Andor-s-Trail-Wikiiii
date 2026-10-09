@@ -1,8 +1,8 @@
 ---
-description: "Hidden: Corpses found is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain72. 3 stages. Corpse north discovered"
+description: "Blackwater Mountain corpses found is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain72. 3 stages. Corpse north discovered"
 ---
 
-# Hidden: Corpses found
+# Blackwater Mountain corpses found
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "Hidden: Corpses found is a hidden quest in Andor's Trail, started 
 | **Quest ID** | `bwm72_corpses` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
-| **Started by** | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) |
+| **Started by** | stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) |
 
 </div>
 
@@ -24,7 +24,7 @@ description: "Hidden: Corpses found is a hidden quest in Andor's Trail, started 
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) to begin.
+None: talk to stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,29 +37,47 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Corpse north discovered <br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) | – | – |
-| <span id="stage-2"></span>2 | Corpse west discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) | – | – |
-| <span id="stage-3"></span>3 | Corpse south discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | Corpse north discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) | – |
+| <span id="stage-2"></span>[2](#route-2) | Corpse west discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) | – |
+| <span id="stage-3"></span>[3](#route-3) | Corpse south discovered<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 72](../maps/blackwater_mountain72.md).</span> | stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) → the conversation leads here automatically → **stage 1**
+??? note "Stage 1 · stepping on a trigger on blackwater_mountain72 · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md)
 
-    1. stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) → the conversation leads here automatically → **stage 2**
 
-???+ note "Stage 3: 1 route"
 
-    1. stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) → the conversation leads here automatically → **stage 3**
+<span id="route-2"></span>
+
+??? note "Stage 2 · stepping on a trigger on blackwater_mountain72 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md)
+
+
+
+<span id="route-3"></span>
+
+??? note "Stage 3 · stepping on a trigger on blackwater_mountain72 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md)
+
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -104,6 +122,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `bwm72_corpses` |
+    | Name in game data | `Hidden: Corpses found` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3 |
     | Dialogue nodes setting stages | 1: `bwm72_corpse_n_1`, 2: `bwm72_corpse_w_1`, 3: `bwm72_corpse_s_1` |

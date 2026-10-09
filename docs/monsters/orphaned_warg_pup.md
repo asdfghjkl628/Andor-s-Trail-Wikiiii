@@ -4,7 +4,7 @@ description: "Orphaned warg pup is an enemy in Andor's Trail (animal) with 187 H
 
 # ![](../assets/icons/monsters/monsters_tometik10_75.png){ .sprite } Orphaned warg pup
 
-**Found in:** Mt. Galmore: [mt_galmore1_h3](../maps/mt_galmore1_h3.md)
+**Found in:** Mt. Galmore: [Mt galmore 1 h 3](../maps/mt_galmore1_h3.md)
 
 <div class="infobox" markdown>
 
@@ -55,7 +55,7 @@ description: "Orphaned warg pup is an enemy in Andor's Trail (animal) with 187 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mt_galmore1_h3](../maps/mt_galmore1_h3.md) | Mt. Galmore | 5 | Appears later, during a quest |
+| [Mt galmore 1 h 3](../maps/mt_galmore1_h3.md) | Mt. Galmore | 5 | Appears later, during a quest |
 
 
 ## Version history

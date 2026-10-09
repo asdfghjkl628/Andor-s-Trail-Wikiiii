@@ -1,10 +1,10 @@
 ---
-description: "Ysrine is an NPC who can also be fought in Andor's Trail, found in undertell_1_1. Starts Dominion."
+description: "Ysrine is an NPC who can also be fought in Andor's Trail, found in Undertell 1 1. Starts Dominion."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_124.png){ .sprite } Ysrine
 
-**Where to find Ysrine:** [undertell_1_1](../maps/undertell_1_1.md#pin-npc-ysrine)
+**Where to find Ysrine:** [Undertell 1 1](../maps/undertell_1_1.md#pin-npc-ysrine)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Ysrine is an NPC who can also be fought in Andor's Trail, found in
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [Dominion](../quests/dominion.md) |
-| **Found in** | undertell_1_1 |
+| **Found in** | Undertell 1 1 |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -32,7 +32,7 @@ No combat statistics are defined for this entry in the game data. Where the stor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_1_1](../maps/undertell_1_1.md) | – | 1 | – |
+| [Undertell 1 1](../maps/undertell_1_1.md) | – | 1 | – |
 
 ## Quests
 
@@ -41,7 +41,7 @@ No combat statistics are defined for this entry in the game data. Where the stor
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ysrine. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ysrine. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ysrine_selector.json" data-npc="Ysrine" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,11 +49,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (58 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ysrine_selector"></span>**`ysrine_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10); NOT reached stage 7 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-7))* → [ysrine_warn_of_master_lies_10](#d-ysrine_warn_of_master_lies_10)
+    - branch 1 *(if reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10); NOT reached stage 7 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-7))* → [ysrine_warn_of_master_lies_10](#d-ysrine_warn_of_master_lies_10)
     - branch 2 *(if reached stage 450 of [Devotion](../quests/devotion.md#stage-450); NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10))* → [ysrine_start_devotion_10](#d-ysrine_start_devotion_10)
     - branch 3 *(if reached stage 480 of [Devotion](../quests/devotion.md#stage-480); NOT reached stage 10 of [Dominion](../quests/dominion.md#stage-10))* → [ysrine_start_devotion_10](#d-ysrine_start_devotion_10)
     - branch 4 *(if reached stage 30 of [Dominion](../quests/dominion.md#stage-30); NOT reached stage 50 of [Dominion](../quests/dominion.md#stage-50))* → [ysrine_dominion_saki_fleed_10](#d-ysrine_dominion_saki_fleed_10)

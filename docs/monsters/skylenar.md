@@ -4,7 +4,7 @@ description: "Skylenar is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_3.png){ .sprite } Skylenar
 
-**Where to find Skylenar:** Remgard: [remgard_church](../maps/remgard_church.md#pin-npc-skylenar)
+**Where to find Skylenar:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-skylenar)
 
 <div class="infobox" markdown>
 
@@ -36,7 +36,7 @@ description: "Skylenar is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Skylenar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Skylenar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/skylenar.json" data-npc="Skylenar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-skylenar"></span>**`skylenar`** Skylenar: “May you forever walk with the Shadow, my child.”
 
@@ -67,8 +67,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-skylenar_kazaul_20"></span>**`skylenar_kazaul_20`** Skylenar: “Relics from before the rise of the Shadow. Some were bound by the breath of dragonkind. Only a claw or fang from those creatures could undo their locks. At least, that is what the old sermons used to say.” — **effects:** sets stage 60 of [The fifth master](../quests/fifth_master.md#stage-60)
 
-    - “Where would I find a dragon in this age?” *(if NOT reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50))* → [skylenar_kazaul_30](#d-skylenar_kazaul_30)
-    - “I've encountered a dragon.” *(if reached stage 50 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-50))* → [skylenar_kazaul_25](#d-skylenar_kazaul_25)
+    - “Where would I find a dragon in this age?” *(if NOT reached stage 50 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-50))* → [skylenar_kazaul_30](#d-skylenar_kazaul_30)
+    - “I've encountered a dragon.” *(if reached stage 50 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-50))* → [skylenar_kazaul_25](#d-skylenar_kazaul_25)
 
     <span id="d-skylenar_kazaul_30"></span>**`skylenar_kazaul_30`** Skylenar: “I have never seen one, and few alive have. I have heard the oldest priests whisper of strange remains found deep beneath the earth. They spoke of ash-covered scales in Undertell - relics of some creature that once breathed fire into the…” — **effects:** sets stage 65 of [The fifth master](../quests/fifth_master.md#stage-65)
 

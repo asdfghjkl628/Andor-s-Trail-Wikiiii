@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 455 is an indoor location in Andor's Trail, in Instrument maker (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Snappy cave lizard, Fierce cave lizard. Exits to Ratdom maze 445, Ratdom maze 455a, Ratdom maze 564, Ratdom maze 444."
+description: "Ratdom maze 455 is an indoor location in Andor's Trail, in Instrument maker (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Fierce cave lizard, Snappy cave lizard. Exits to Ratdom maze 445, Ratdom maze 455a, Ratdom maze 564, Ratdom maze 444."
 ---
 
 # Ratdom maze 455
@@ -80,8 +80,8 @@ description: "Ratdom maze 455 is an indoor location in Andor's Trail, in Instrum
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
-| [Snappy cave lizard](../monsters/ratdom_m7b.md) | 30 | 5–5 | 2 | shares spawn with Fierce cave lizard |
 | [Fierce cave lizard](../monsters/ratdom_m7a.md) | 30 | 5–5 | 2 | shares spawn with Snappy cave lizard |
+| [Snappy cave lizard](../monsters/ratdom_m7b.md) | 30 | 5–5 | 2 | shares spawn with Fierce cave lizard |
 | [Giant larval burrower](../monsters/burrower_4.md) | 75 | 1–25 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -90,8 +90,8 @@ description: "Ratdom maze 455 is an indoor location in Andor's Trail, in Instrum
 
 - [Rats!](../quests/mikhail_rats.md): a scripted event can trigger here from stage 100
 - [Yellow is it](../quests/ratdom_quest.md): [Clevred](../monsters/ratdom_rat.md) is involved
-- [Ratdom_maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10; something on this map advances it; stepping on a trigger here sets stage 150
+- [Ratdom maze (hidden flag)](../quests/ratdom_maze.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 2; part of the map changes at stage 3; part of the map changes at stage 31; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): [Clevred](../monsters/ratdom_rat.md) is involved; a scripted event can trigger here from stage 10; something on this map advances it; stepping on a trigger here sets stage 150
 
 ## Points of interest
 

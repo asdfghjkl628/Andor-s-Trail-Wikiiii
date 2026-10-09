@@ -40,7 +40,7 @@ description: "Crude iron helmet is a ordinary headwear, metal (heavy) in Andor's
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | elm_mine2 |
+| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | Elm mine 2 |
 
 ### Sold by
 

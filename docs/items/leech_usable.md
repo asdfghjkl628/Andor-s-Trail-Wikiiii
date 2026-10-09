@@ -38,13 +38,13 @@ description: "Leech is a ordinary edible animal part in Andor's Trail. How to ge
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 5% | 1-2 | galmore_18, galmore_28, galmore_38 |
-| [Bog eel](../monsters/bog_eel.md#v-bog_eel_leech) | 5% | 1-2 | galmore_18, galmore_28, galmore_38 |
+| [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 5% | 1-2 | Galmore 18, Galmore 28, Galmore 38 |
+| [Bog eel](../monsters/bog_eel.md#v-bog_eel_leech) | 5% | 1-2 | Galmore 18, Galmore 28, Galmore 38 |
 
 ### Quest & dialogue rewards
 
-- From [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) during [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59) (1×)
-- From stepping on a trigger on [galmore_17_house](../maps/galmore_17_house.md) (1×)
+- From [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) during [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-59) (1×)
+- From stepping on a trigger on [Galmore 17 house](../maps/galmore_17_house.md) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Giant ogre is an enemy in Andor's Trail (giant) with 590 HP, worth 1005 XP, found in ratdom_maze_517a. Drops: Gold coins, Iron club."
+description: "Giant ogre is an enemy in Andor's Trail (giant) with 590 HP, worth 1005 XP, found in Ratdom maze 517a. Drops: Gold coins, Iron club."
 ---
 
 # ![](../assets/icons/monsters/monsters_cyclops_0.png){ .sprite } Giant ogre
 
-**Found in:** [ratdom_maze_517a](../maps/ratdom_maze_517a.md)
+**Found in:** [Ratdom maze 517a](../maps/ratdom_maze_517a.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Giant ogre is an enemy in Andor's Trail (giant) with 590 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | ratdom_maze_517a |
+| **Found in** | Ratdom maze 517a |
 | **Class** | Giant |
 | **HP** | 590 |
 | **XP when defeated** | 1,005 |
@@ -57,7 +57,7 @@ description: "Giant ogre is an enemy in Andor's Trail (giant) with 590 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_517a](../maps/ratdom_maze_517a.md) | – | 1 | – |
+| [Ratdom maze 517a](../maps/ratdom_maze_517a.md) | – | 1 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Wrye is a non-player character (NPC) in Andor's Trail, found in Vi
 
 # ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } Wrye
 
-**Where to find Wrye:** Vilegard: [vilegard_wrye](../maps/vilegard_wrye.md#pin-npc-wrye)
+**Where to find Wrye:** Vilegard: [Vilegard wrye](../maps/vilegard_wrye.md#pin-npc-wrye)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Wrye is a non-player character (NPC) in Andor's Trail, found in Vi
 ## Quests
 
 - [Uncertain cause](../quests/wrye.md): stages 20, 30, 40, 41, 90
-- [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 80
+- [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md): stage 80
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wrye. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wrye. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wrye_select_1.json" data-npc="Wrye" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (40 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-wrye_select_1"></span>**`wrye_select_1`** *(silent check: the first matching branch below is taken)*
 
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-wrye_story_15"></span>**`wrye_story_15`** Wrye: “Walk with the Shadow.”
 
 
-    <span id="d-brv_wh_delivery_wyre"></span>**`brv_wh_delivery_wyre`** Wrye: “Yes, I'm longing for it just like how I'm longing for my son. But now I can mourn as I play his favorite song until I die.” — **effects:** clears stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 80 of [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-80)
+    <span id="d-brv_wh_delivery_wyre"></span>**`brv_wh_delivery_wyre`** Wrye: “Yes, I'm longing for it just like how I'm longing for my son. But now I can mourn as I play his favorite song until I die.” — **effects:** clears stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 80 of [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-80)
 
     - “My sincere condolence for the loss of your beloved son.” → *conversation ends*
 

@@ -42,7 +42,7 @@ description: "Sturdy leather cuirass is a ordinary armor (light) in Andor's Trai
 
 ### Sold by
 
-- [Minarra](../monsters/minarra.md) (houseatcrossroads4)
+- [Minarra](../monsters/minarra.md) (Houseatcrossroads 4)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

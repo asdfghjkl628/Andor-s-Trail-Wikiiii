@@ -48,7 +48,7 @@ description: "Ring of damage +2 is a ordinary ring in Andor's Trail (Attack dama
 
 ### Found in containers
 
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-3) (container 4, 33%), Prim
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-3) (container 4, 33%), Prim
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -26,7 +26,7 @@ description: "Empty potion bottle is a ordinary liquid container in Andor's Trai
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Shadowfang](../monsters/shadowfang1.md) | 33.3333% | 1 | blackwater_mountain76, elm_2f_1, elm_2f_3 |
+| [Shadowfang](../monsters/shadowfang1.md) | 33.3333% | 1 | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
 
 ### Sold by
 
@@ -34,7 +34,7 @@ description: "Empty potion bottle is a ordinary liquid container in Andor's Trai
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 33.3333%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 33.3333%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -45,7 +45,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [blackwater_mountain75](../maps/blackwater_mountain75.md) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) | handed over (1×) | “Fill a large bottle.” |
+| walking into a blocked passage on [Blackwater mountain 75](../maps/blackwater_mountain75.md) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) | handed over (1×) | “Fill a large bottle.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

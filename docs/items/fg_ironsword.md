@@ -52,9 +52,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | [Feygard errands](../quests/feygard_shipment.md#stage-55) | handed over (10×) | “I have a shipment of Feygard items for you.” |
-| [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) | [Trusting an outsider](../quests/vilegard.md#stage-10) | must be carried (10×) | “I have a shipment of Feygard items for you.” |
-| [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) | [Feygard errands](../quests/feygard_shipment.md#stage-50) | handed over (10×) | “I have a shipment of iron swords from Gandoren for you.” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | [Feygard errands](../quests/feygard_shipment.md#stage-55) | handed over (10×) | “I have a shipment of Feygard items for you.” |
+| [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) | [Trusting an outsider](../quests/vilegard.md#stage-10) | must be carried (10×) | “I have a shipment of Feygard items for you.” |
+| [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([Foaming flask](../maps/foaming_flask.md)) | [Feygard errands](../quests/feygard_shipment.md#stage-50) | handed over (10×) | “I have a shipment of iron swords from Gandoren for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

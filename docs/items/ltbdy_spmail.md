@@ -41,7 +41,7 @@ description: "Lightweight splint mail is a ordinary armor (light) in Andor's Tra
 ### Sold by
 
 - [Rothses](../monsters/rothses.md) (Remgard)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

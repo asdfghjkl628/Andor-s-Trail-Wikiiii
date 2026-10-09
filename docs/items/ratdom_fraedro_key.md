@@ -33,7 +33,7 @@ description: "Fraedro's key is a quest other in Andor's Trail. How to get it: mo
 
 ### Quest & dialogue rewards
 
-- From [Fraedro](../monsters/ratdom_fraedro.md) ([ratdom_maze_626](../maps/ratdom_maze_626.md)) during [Yellow is it](../quests/ratdom_quest.md#stage-398) (1×)
+- From [Fraedro](../monsters/ratdom_fraedro.md) ([Ratdom maze 626](../maps/ratdom_maze_626.md)) during [Yellow is it](../quests/ratdom_quest.md#stage-398) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -44,7 +44,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [ratdom_maze_626](../maps/ratdom_maze_626.md) | [Yellow is it](../quests/ratdom_quest.md#stage-400) | handed over (1×) | “Insert Fraedro's golden key into the hole.” |
+| walking into a blocked passage on [Ratdom maze 626](../maps/ratdom_maze_626.md) | [Yellow is it](../quests/ratdom_quest.md#stage-400) | handed over (1×) | “Insert Fraedro's golden key into the hole.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

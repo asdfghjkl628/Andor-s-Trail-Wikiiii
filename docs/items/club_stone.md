@@ -48,7 +48,7 @@ description: "Stone club is a ordinary club in Andor's Trail (Attack damage 3 to
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Rock fiend](../monsters/waterwaycaverockmonster.md) | 2% | 1 | waterwayacave1, waterwayacave2, waterwayacave3 |
+| [Rock fiend](../monsters/waterwaycaverockmonster.md) | 2% | 1 | Waterwayacave 1, Waterwayacave 2, Waterwayacave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

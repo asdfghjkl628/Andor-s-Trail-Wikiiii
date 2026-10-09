@@ -41,7 +41,7 @@ description: "Deerskin gloves is a rare gloves, leather in Andor's Trail (Max HP
 
 ### Quest & dialogue rewards
 
-- From [Oswald](../monsters/brightportnpc6.md) ([brightport_school9](../maps/brightport_school9.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-100) (1×)
+- From [Oswald](../monsters/brightportnpc6.md) ([Brightport school 9](../maps/brightport_school9.md)) during [No rest for the wicked](../quests/Stanwickquest.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

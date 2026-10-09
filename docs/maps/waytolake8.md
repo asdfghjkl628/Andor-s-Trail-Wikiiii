@@ -1,8 +1,8 @@
 ---
-description: "Waytolake8 is an outdoor location in Andor's Trail. Enemies: Scaradon, Small scaradon, Tough scaradon, Hardshell scaradon. Exits to Waytolake9, Waytolake7."
+description: "Waytolake 8 is an outdoor location in Andor's Trail. Enemies: Small scaradon, Scaradon, Tough scaradon, Hardshell scaradon. Exits to Waytolake 9, Waytolake 7."
 ---
 
-# Waytolake8
+# Waytolake 8
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Waytolake8 is an outdoor location in Andor's Trail. Enemies: Scara
 | **Map ID** | `waytolake8` |
 | **Type** | Outdoors |
 | **Size** | 28×20 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytolake8** is an outdoor map. It has no NPCs and 4 kinds of enemy. Exits lead to Waytolake9, Waytolake7.
+**Waytolake 8** is an outdoor map. It has no NPCs and 4 kinds of enemy. Exits lead to Waytolake 9, Waytolake 7.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytolake8.webp" alt="Map of Waytolake8" width="896" height="640" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytolake7/#place-north" title="Exit to Waytolake7" style="left:21.429%;top:95.000%;width:17.857%;height:5.000%"></a><a id="place-north" class="mo mo-mapchange" href="../waytolake9/#place-south" title="Exit to Waytolake9" style="left:28.571%;top:0.000%;width:17.857%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Hardshell scaradon" style="left:3.571%;top:30.000%;width:57.143%;height:35.000%"></span><span class="mo mo-spawn" title="Spawns: Scaradon, Small scaradon, Tough scaradon" style="left:17.857%;top:55.000%;width:35.714%;height:40.000%"></span><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:46.429%;top:60.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:35.714%;top:35.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:21.429%;top:55.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:10.714%;top:55.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:46.429%;top:50.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:50.000%;top:50.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_3/" title="Scaradon" style="left:35.714%;top:85.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Scaradon"></a><a class="mob" href="../../monsters/scaradon_2/" title="Small scaradon" style="left:35.714%;top:70.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_98.png" alt="Small scaradon"></a><a class="mob" href="../../monsters/scaradon_4/" title="Tough scaradon" style="left:39.286%;top:85.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Tough scaradon"></a><a class="mob" href="../../monsters/scaradon_4/" title="Tough scaradon" style="left:25.000%;top:65.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Tough scaradon"></a><a class="pin pin-exit" href="#key-1" style="left:37.500%;top:2.500%" title="Exit (north): to [Waytolake9](waytolake9.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:30.357%;top:97.500%" title="Exit (south): to [Waytolake7](waytolake7.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytolake8.webp" alt="Map of Waytolake 8" width="896" height="640" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytolake7/#place-north" title="Exit to Waytolake 7" style="left:21.429%;top:95.000%;width:17.857%;height:5.000%"></a><a id="place-north" class="mo mo-mapchange" href="../waytolake9/#place-south" title="Exit to Waytolake 9" style="left:28.571%;top:0.000%;width:17.857%;height:5.000%"></a><span class="mo mo-spawn" title="Spawns: Hardshell scaradon" style="left:3.571%;top:30.000%;width:57.143%;height:35.000%"></span><span class="mo mo-spawn" title="Spawns: Scaradon, Small scaradon, Tough scaradon" style="left:17.857%;top:55.000%;width:35.714%;height:40.000%"></span><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:46.429%;top:60.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:35.714%;top:35.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:21.429%;top:55.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:10.714%;top:55.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:46.429%;top:50.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_5/" title="Hardshell scaradon" style="left:50.000%;top:50.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Hardshell scaradon"></a><a class="mob" href="../../monsters/scaradon_3/" title="Scaradon" style="left:35.714%;top:85.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Scaradon"></a><a class="mob" href="../../monsters/scaradon_2/" title="Small scaradon" style="left:35.714%;top:70.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_98.png" alt="Small scaradon"></a><a class="mob" href="../../monsters/scaradon_4/" title="Tough scaradon" style="left:39.286%;top:85.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Tough scaradon"></a><a class="mob" href="../../monsters/scaradon_4/" title="Tough scaradon" style="left:25.000%;top:65.000%;width:3.571%;height:5.000%"><img src="../../assets/icons/monsters/monsters_rltiles1_97.png" alt="Tough scaradon"></a><a class="pin pin-exit" href="#key-1" style="left:37.500%;top:2.500%" title="Exit (north): to [Waytolake 9](waytolake9.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:30.357%;top:97.500%" title="Exit (south): to [Waytolake 7](waytolake7.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Waytolake9](waytolake9.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Waytolake7](waytolake7.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Waytolake 9](waytolake9.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Waytolake 7](waytolake7.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,15 +40,15 @@ description: "Waytolake8 is an outdoor location in Andor's Trail. Enemies: Scara
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Waytolake9](waytolake9.md) | – | 1 |
-| South | [Waytolake7](waytolake7.md) | – | 2 |
+| North | [Waytolake 9](waytolake9.md) | – | 1 |
+| South | [Waytolake 7](waytolake7.md) | – | 2 |
 
 ## Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 4 | shares spawn with Small scaradon, Tough scaradon |
 | [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 4 | shares spawn with Scaradon, Tough scaradon |
+| [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 4 | shares spawn with Small scaradon, Tough scaradon |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 | 1–4 | 4 | shares spawn with Scaradon, Small scaradon |
 | [Hardshell scaradon](../monsters/scaradon_5.md) | 38 | 1–5 | 6 | – |
 

@@ -36,8 +36,8 @@ description: "Mead is a ordinary drink in Andor's Trail. How to get it: monster 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Afflicted Feygard guard](../monsters/lodar_fg3.md) | 100% | 1 | lodar11 |
-| [Insane Feygard guard](../monsters/lodar_fg4.md) | 100% | 1 | lodar8 |
+| [Afflicted Feygard guard](../monsters/lodar_fg3.md) | 100% | 1 | Lodar 11 |
+| [Insane Feygard guard](../monsters/lodar_fg4.md) | 100% | 1 | Lodar 8 |
 | [Highwayman](../monsters/highwayman.md#v-highwayman1) | 100% | 1 | Fallhaven |
 
 ### Sold by
@@ -60,21 +60,21 @@ description: "Mead is a ordinary drink in Andor's Trail. How to get it: monster 
 
 ### Found in containers
 
-- [beekeeper2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
-- [brimhaven7](../maps/brimhaven7.md#container-0) (container 1, 100%), Brimhaven
-- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 66.6667%)
-- [island_underground5](../maps/island_underground5.md#container-0) (container 1, 100%)
-- [laerothisland3](../maps/laerothisland3.md#container-1) (container 2, 100%), Lake Laeroth
-- [laerothprison2](../maps/laerothprison2.md#container-1) (container 2, 100%), Lake Laeroth
-- [stoutford_castle2](../maps/stoutford_castle2.md#container-0) (container 1, 100%)
-- [wild23](../maps/wild23.md#container-1) (container 2, 100%), Stoutford
+- [Beekeeper 2](../maps/beekeeper2.md#container-3) (container 4, 100%), Foaming Flask Tavern
+- [Brimhaven 7](../maps/brimhaven7.md#container-0) (container 1, 100%), Brimhaven
+- [Elm mine 2](../maps/elm_mine2.md#container-2) (container 3, 66.6667%)
+- [Island underground 5](../maps/island_underground5.md#container-0) (container 1, 100%)
+- [Laerothisland 3](../maps/laerothisland3.md#container-1) (container 2, 100%), Lake Laeroth
+- [Laerothprison 2](../maps/laerothprison2.md#container-1) (container 2, 100%), Lake Laeroth
+- [Stoutford castle 2](../maps/stoutford_castle2.md#container-0) (container 1, 100%)
+- [Wild 23](../maps/wild23.md#container-1) (container 2, 100%), Stoutford
 
 ### Quest & dialogue rewards
 
 - From [Bela](../monsters/bela.md) during [A giant snake](../quests/bela_gsnake.md#stage-90) (1×)
-- From [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) during [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-45) (1×)
-- From [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [The ruthless Crackshot](../quests/Thieves03.md#stage-50) (10×)
-- From stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) during [Vines in bwm_17 (hidden flag)](../quests/bwm17_vine.md#stage-1) (50%)
+- From [Lord Berbane](../monsters/berbane.md) ([Stoutford tavern](../maps/stoutford_tavern.md)) during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-45) (1×)
+- From [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [The ruthless Crackshot](../quests/Thieves03.md#stage-50) (10×)
+- From stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) during [Blackwater Mountain vines (hidden flag)](../quests/bwm17_vine.md#stage-1) (50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -85,9 +85,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | [Drunken tale](../quests/fallhavendrunk.md#stage-10) | handed over (1×) | “Here, have some mead.” |
-| [Prim tavern regular](../monsters/prim_tavern_regular.md) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) | – | handed over (1×) | “Sure. Here you go.” |
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-31) | handed over (4×) | “Yes, here is your mead.” |
+| [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) | [Drunken tale](../quests/fallhavendrunk.md#stage-10) | handed over (1×) | “Here, have some mead.” |
+| [Prim tavern regular](../monsters/prim_tavern_regular.md) ([Blackwater mountain 22](../maps/blackwater_mountain22.md)) | – | handed over (1×) | “Sure. Here you go.” |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-31) | handed over (4×) | “Yes, here is your mead.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

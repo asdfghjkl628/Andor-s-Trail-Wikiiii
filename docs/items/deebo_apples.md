@@ -40,8 +40,8 @@ description: "Orchard apple is a rare food in Andor's Trail. How to get it: shop
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [brightportwild2](../maps/brightportwild2.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-197) (15×)
-- From [Alduan](../monsters/brightport_orchardsupervisor.md) ([sullengard_apple_farm_west](../maps/sullengard_apple_farm_west.md)) during [Bread and circus](../quests/brightport_bakery.md#stage-50) (30×)
+- From walking into a blocked passage on [Brightportwild 2](../maps/brightportwild2.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-197) (15×)
+- From [Alduan](../monsters/brightport_orchardsupervisor.md) ([Sullengard apple farm west](../maps/sullengard_apple_farm_west.md)) during [Bread and circus](../quests/brightport_bakery.md#stage-50) (30×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -52,11 +52,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “What if I leave an orchard apple from Deebo's farm behind? That might gain its t” |
-| [Eatloni](../monsters/brightportbakeryoutside.md) ([brightport5](../maps/brightport5.md)) | [Bread and circus](../quests/brightport_bakery.md#stage-65) | handed over (15×) | “Here you go. [Hand over the apples.]” |
-| [Eatloni](../monsters/brightportbakeryoutside.md) ([brightport5](../maps/brightport5.md)) | – | must have been used (1×) | “I think I might have eaten some.” |
-| [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | – | must be carried (30×) | “I have the 30 apples here.” |
-| [Eatloni](../monsters/brightportbakeryoutside.md) ([brightport5](../maps/brightport5.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-198) | handed over (30×) | “Here you go. [Hand over the apples.]” |
+| stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “What if I leave an orchard apple from Deebo's farm behind? That might gain its t” |
+| [Eatloni](../monsters/brightportbakeryoutside.md) ([Brightport 5](../maps/brightport5.md)) | [Bread and circus](../quests/brightport_bakery.md#stage-65) | handed over (15×) | “Here you go. [Hand over the apples.]” |
+| [Eatloni](../monsters/brightportbakeryoutside.md) ([Brightport 5](../maps/brightport5.md)) | – | must have been used (1×) | “I think I might have eaten some.” |
+| [Allares](../monsters/brightportstoragenpc.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | – | must be carried (30×) | “I have the 30 apples here.” |
+| [Eatloni](../monsters/brightportbakeryoutside.md) ([Brightport 5](../maps/brightport5.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-198) | handed over (30×) | “Here you go. [Hand over the apples.]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

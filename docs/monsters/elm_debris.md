@@ -1,10 +1,10 @@
 ---
-description: "Animated debris is an enemy in Andor's Trail (construct) with 70 HP, worth 317 XP, found in elm5f_2, elm_2f_1."
+description: "Animated debris is an enemy in Andor's Trail (construct) with 70 HP, worth 317 XP, found in Elm 5f 2, Elm 2f 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_16.png){ .sprite } Animated debris
 
-**Found in:** [elm5f_2](../maps/elm5f_2.md), [elm_2f_1](../maps/elm_2f_1.md)
+**Found in:** [Elm 5f 2](../maps/elm5f_2.md), [Elm 2f 1](../maps/elm_2f_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Animated debris is an enemy in Andor's Trail (construct) with 70 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_2, elm_2f_1 |
+| **Found in** | Elm 5f 2, Elm 2f 1 |
 | **Class** | Construct |
 | **HP** | 70 |
 | **XP when defeated** | 317 |
@@ -54,8 +54,8 @@ description: "Animated debris is an enemy in Andor's Trail (construct) with 70 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_2](../maps/elm5f_2.md) | – | 2 | Appears later, during a quest |
-| [elm_2f_1](../maps/elm_2f_1.md) | – | 2 | Appears later, during a quest |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 2 | Appears later, during a quest |
+| [Elm 2f 1](../maps/elm_2f_1.md) | – | 2 | Appears later, during a quest |
 
 
 ## Version history

@@ -64,8 +64,8 @@ description: "Vilegard tavern is an indoor location in Andor's Trail, in Vilegar
 - [Thief apprentice](../quests/Thieves01.md): [Dunla](../monsters/dunla.md) is involved
 - [Trusting an outsider](../quests/vilegard.md): [Tharwyn](../monsters/tharwyn.md) is involved
 - [Young merchant](../quests/quest_burhczyd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd4e) is involved
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): [Tharwyn](../monsters/tharwyn.md) is involved
-- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd4e) is involved
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): [Tharwyn](../monsters/tharwyn.md) is involved
+- [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd4e) is involved
 
 
 ## Version history

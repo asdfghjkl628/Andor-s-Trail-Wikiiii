@@ -1,10 +1,10 @@
 ---
-description: "Pack hunter is an enemy in Andor's Trail (animal) with 45 HP, worth 84 XP, found in clearing_level2. Drops: Gold coins, Sharpened gem, Meat, Animal hair."
+description: "Pack hunter is an enemy in Andor's Trail (animal) with 45 HP, worth 84 XP, found in Clearing level 2. Drops: Gold coins, Sharpened gem, Meat, Animal hair."
 ---
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Pack hunter
 
-**Found in:** [clearing_level2](../maps/clearing_level2.md)
+**Found in:** [Clearing level 2](../maps/clearing_level2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Pack hunter is an enemy in Andor's Trail (animal) with 45 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | clearing_level2 |
+| **Found in** | Clearing level 2 |
 | **Class** | Animal |
 | **HP** | 45 |
 | **XP when defeated** | 84 |
@@ -57,7 +57,7 @@ description: "Pack hunter is an enemy in Andor's Trail (animal) with 45 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [clearing_level2](../maps/clearing_level2.md) | – | 4 | – |
+| [Clearing level 2](../maps/clearing_level2.md) | – | 4 | – |
 
 
 ## Version history

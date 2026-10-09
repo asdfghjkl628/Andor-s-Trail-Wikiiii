@@ -39,7 +39,7 @@ description: "Kid's boots is a rare footwear, cloth in Andor's Trail (Max HP +1,
 
 ### Quest & dialogue rewards
 
-- From [Oromir](../monsters/oromir.md#v-oromir_basement_help) ([crossglen_farmhouse_basement](../maps/crossglen_farmhouse_basement.md)) during [Missing husband](../quests/leta.md#stage-105) (1×)
+- From [Oromir](../monsters/oromir.md#v-oromir_basement_help) ([Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md)) during [Missing husband](../quests/leta.md#stage-105) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

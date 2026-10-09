@@ -26,7 +26,7 @@ description: "Mysterious coin is a rare money in Andor's Trail. How to get it: c
 
 ### Found in containers
 
-- [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md#container-0) (container 1, 100%)
+- [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,9 +37,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (3×) | “I found these glowing coins in a pit beneath the well in Wexlow Village. They se” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | – | must be carried (3×) | “I found these glowing coins in a pit beneath the well in Wexlow Village. They se” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | handed over (3×) | “Umm, I guess I can trust you now.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (3×) | “I found these glowing coins in a pit beneath the well in Wexlow Village. They se” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | – | must be carried (3×) | “I found these glowing coins in a pit beneath the well in Wexlow Village. They se” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | handed over (3×) | “Umm, I guess I can trust you now.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

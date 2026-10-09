@@ -1,10 +1,10 @@
 ---
-description: "Evil shade is an enemy in Andor's Trail (ghost) with 431 HP, worth 1215 XP, found in undertell_3_02."
+description: "Evil shade is an enemy in Andor's Trail (ghost) with 431 HP, worth 1215 XP, found in Undertell 3 02."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_663.png){ .sprite } Evil shade
 
-**Found in:** [undertell_3_02](../maps/undertell_3_02.md)
+**Found in:** [Undertell 3 02](../maps/undertell_3_02.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Evil shade is an enemy in Andor's Trail (ghost) with 431 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_3_02 |
+| **Found in** | Undertell 3 02 |
 | **Class** | Ghost |
 | **HP** | 431 |
 | **XP when defeated** | 1,215 |
@@ -58,21 +58,21 @@ description: "Evil shade is an enemy in Andor's Trail (ghost) with 431 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_3_02](../maps/undertell_3_02.md) | – | 66 | Appears later, during a quest |
+| [Undertell 3 02](../maps/undertell_3_02.md) | – | 66 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 11 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 10 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 9 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 8 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 7 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 6 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 5 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 4 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 3 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that at least 2 of these enemies have been defeated.
-- A conversation with stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 11 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 10 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 9 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 8 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 7 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 6 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 5 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 4 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 3 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that at least 2 of these enemies have been defeated.
+- A conversation with stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) checks that this enemy has been defeated.
 
 
 ## Version history

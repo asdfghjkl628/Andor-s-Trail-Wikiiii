@@ -41,7 +41,7 @@ description: "Villain's leather armor is a ordinary armor, leather in Andor's Tr
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Crackshot](../monsters/g03_crackshot.md) | 20% | 1 | crackshot_hideout3 |
+| [Crackshot](../monsters/g03_crackshot.md) | 20% | 1 | Crackshot hideout 3 |
 
 ### Sold by
 

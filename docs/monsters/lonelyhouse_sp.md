@@ -1,10 +1,10 @@
 ---
-description: "Basement rat is an enemy in Andor's Trail (animal) with 79 HP, worth 224 XP, found in lonelyhouse1. Drops: Strange looking rat tail."
+description: "Basement rat is an enemy in Andor's Trail (animal) with 79 HP, worth 224 XP, found in Lonelyhouse 1. Drops: Strange looking rat tail."
 ---
 
 # ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } Basement rat
 
-**Found in:** [lonelyhouse1](../maps/lonelyhouse1.md)
+**Found in:** [Lonelyhouse 1](../maps/lonelyhouse1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Basement rat is an enemy in Andor's Trail (animal) with 79 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lonelyhouse1 |
+| **Found in** | Lonelyhouse 1 |
 | **Class** | Animal |
 | **HP** | 79 |
 | **XP when defeated** | 224 |
@@ -54,7 +54,7 @@ description: "Basement rat is an enemy in Andor's Trail (animal) with 79 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lonelyhouse1](../maps/lonelyhouse1.md) | – | 6 | – |
+| [Lonelyhouse 1](../maps/lonelyhouse1.md) | – | 6 | – |
 
 
 ## Version history

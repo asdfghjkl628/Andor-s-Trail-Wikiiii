@@ -38,7 +38,7 @@ description: "Leather gloves is a ordinary gloves, leather in Andor's Trail (Blo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Graverobber](../monsters/graverobber.md) | 100% | 1 | blackwater_mountain35 |
+| [Graverobber](../monsters/graverobber.md) | 100% | 1 | Blackwater mountain 35 |
 | [Guardian of the catacombs](../monsters/guardian_of_the_catacombs.md) | 5% | 1 | Fallhaven |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 5% | 1 | Fallhaven |
 | [Spectre](../monsters/spectre.md) | 5% | 1 | Fallhaven |

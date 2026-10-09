@@ -4,7 +4,7 @@ description: "Crescenzio is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_ld1_22.png){ .sprite } Crescenzio
 
-**Where to find Crescenzio:** Brightport: [brightport_bakery1](../maps/brightport_bakery1.md#pin-npc-brightport_chef2)
+**Where to find Crescenzio:** Brightport: [Brightport bakery 1](../maps/brightport_bakery1.md#pin-npc-brightport_chef2)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Crescenzio is a non-player character (NPC) in Andor's Trail, found
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 187, 189
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 187, 189
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Crescenzio. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Crescenzio. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_crescenzio_0.json" data-npc="Crescenzio" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,11 +33,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (25 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_crescenzio_0"></span>**`brightport_crescenzio_0`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189))* → [brightport_crescenzio15](#d-brightport_crescenzio15)
+    - Next *(if reached stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189))* → [brightport_crescenzio15](#d-brightport_crescenzio15)
     - Next → [brightport_crescenzio](#d-brightport_crescenzio)
 
     <span id="d-brightport_crescenzio15"></span>**`brightport_crescenzio15`** Crescenzio: “Hello child from Crossglen. Back for my cooking?”
@@ -60,8 +60,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brightport_crescenzio_selector"></span>**`brightport_crescenzio_selector`** *(silent check: the first matching branch below is taken)*
 
     - Next *(if reached stage 70 of [Bread and circus](../quests/brightport_bakery.md#stage-70))* → [brightport_crescenzio4](#d-brightport_crescenzio4)
-    - Next *(if reached stage 187 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-187))* → [brightport_crescenzio3](#d-brightport_crescenzio3)
-    - Next *(if NOT reached stage 187 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-187))* → [brightport_crescenzio0](#d-brightport_crescenzio0)
+    - Next *(if reached stage 187 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-187))* → [brightport_crescenzio3](#d-brightport_crescenzio3)
+    - Next *(if NOT reached stage 187 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-187))* → [brightport_crescenzio0](#d-brightport_crescenzio0)
 
     <span id="d-brightport_crescenzio1"></span>**`brightport_crescenzio1`** Crescenzio: “Do I have? No. Do we have? Yes, quite a lot of both. But no, I will not give you any, if that's what you were about to ask. I have a great deal of work, and you'd do well not to intrude on it.”
 
@@ -88,27 +88,27 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Crossglen.” → [brightport_crescenzio2](#d-brightport_crescenzio2)
 
-    <span id="d-brightport_crescenzio8"></span>**`brightport_crescenzio8`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
+    <span id="d-brightport_crescenzio8"></span>**`brightport_crescenzio8`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
 
     - Next → [brightport_crescenzio9](#d-brightport_crescenzio9)
 
-    <span id="d-brightport_crescenzio_1"></span>**`brightport_crescenzio_1`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
+    <span id="d-brightport_crescenzio_1"></span>**`brightport_crescenzio_1`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
 
     - Next → [brightport_crescenzio10](#d-brightport_crescenzio10)
 
-    <span id="d-brightport_crescenzio_2"></span>**`brightport_crescenzio_2`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
+    <span id="d-brightport_crescenzio_2"></span>**`brightport_crescenzio_2`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
 
     - Next → [brightport_crescenzio11](#d-brightport_crescenzio11)
 
-    <span id="d-brightport_crescenzio_3"></span>**`brightport_crescenzio_3`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
+    <span id="d-brightport_crescenzio_3"></span>**`brightport_crescenzio_3`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
 
     - Next → [brightport_crescenzio12](#d-brightport_crescenzio12)
 
-    <span id="d-brightport_crescenzio_4"></span>**`brightport_crescenzio_4`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
+    <span id="d-brightport_crescenzio_4"></span>**`brightport_crescenzio_4`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
 
     - Next → [brightport_crescenzio13](#d-brightport_crescenzio13)
 
-    <span id="d-brightport_crescnezio_5"></span>**`brightport_crescnezio_5`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
+    <span id="d-brightport_crescnezio_5"></span>**`brightport_crescnezio_5`** Crescenzio: “Just a moment...” — **effects:** sets stage 189 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189)
 
     - Next → [brightport_crescenzio14](#d-brightport_crescenzio14)
 
@@ -116,7 +116,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_crescenzio6](#d-brightport_crescenzio6)
 
-    <span id="d-brightport_crescenzio2"></span>**`brightport_crescenzio2`** Crescenzio: “Understood. Now, I wouldn't mind your presence here if we weren't so busy, so please leave.” — **effects:** sets stage 187 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-187)
+    <span id="d-brightport_crescenzio2"></span>**`brightport_crescenzio2`** Crescenzio: “Understood. Now, I wouldn't mind your presence here if we weren't so busy, so please leave.” — **effects:** sets stage 187 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-187)
 
     - “Got it, bye.” → *conversation ends*
 

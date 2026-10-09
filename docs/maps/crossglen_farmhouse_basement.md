@@ -63,7 +63,7 @@ description: "Crossglen farmhouse basement is an indoor location in Andor's Trai
 ## Quests
 
 - [Missing husband](../quests/leta.md): [Oromir](../monsters/oromir.md#v-oromir_basement) is involved; [Oromir](../monsters/oromir.md#v-oromir_basement_help) is involved
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): [Leta's son](../monsters/leta_child.md) is involved
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): [Leta's son](../monsters/leta_child.md) is involved
 
 ## Points of interest
 

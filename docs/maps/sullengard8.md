@@ -1,8 +1,8 @@
 ---
-description: "Sullengard8 is an outdoor location in Andor's Trail. Enemies: Death cob. Exits to Sullengard4, Sullengard7, Way to sullengard west 6."
+description: "Sullengard 8 is an outdoor location in Andor's Trail. Enemies: Death cob. Exits to Sullengard 4, Sullengard 7, Way to sullengard west 6."
 ---
 
-# Sullengard8
+# Sullengard 8
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Sullengard8 is an outdoor location in Andor's Trail. Enemies: Deat
 | **Map ID** | `sullengard8` |
 | **Type** | Outdoors |
 | **Size** | 26×12 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Sullengard8** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Sullengard4, Sullengard7, Way to sullengard west 6.
+**Sullengard 8** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Sullengard 4, Sullengard 7, Way to sullengard west 6.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard8.webp" alt="Map of Sullengard8" width="832" height="384" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../sullengard7/#place-west" title="Exit to Sullengard7" style="left:96.154%;top:25.000%;width:3.846%;height:25.000%"></a><a id="place-north" class="mo mo-mapchange" href="../sullengard4/#place-south" title="Exit to Sullengard4" style="left:30.769%;top:0.000%;width:3.846%;height:8.333%"></a><a id="place-east2" class="mo mo-mapchange" href="../sullengard7/#place-west2" title="Exit to Sullengard7" style="left:96.154%;top:66.667%;width:3.846%;height:16.667%"></a><a id="place-west" class="mo mo-mapchange" href="../way_to_sullengard_west_6/#place-east" title="Exit to Way to sullengard west 6" style="left:0.000%;top:75.000%;width:3.846%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Death cob" style="left:65.385%;top:58.333%;width:19.231%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Death cob" style="left:7.692%;top:58.333%;width:19.231%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Death cob" style="left:50.000%;top:25.000%;width:26.923%;height:8.333%"></span><a class="mob" href="../../monsters/deathcob/" title="Death cob" style="left:80.769%;top:75.000%;width:3.846%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_4.png" alt="Death cob"></a><a class="mob" href="../../monsters/deathcob/" title="Death cob" style="left:7.692%;top:58.333%;width:3.846%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_4.png" alt="Death cob"></a><a class="mob" href="../../monsters/deathcob/" title="Death cob" style="left:50.000%;top:25.000%;width:3.846%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_4.png" alt="Death cob"></a><a class="pin pin-exit" href="#key-1" style="left:32.692%;top:4.167%" title="Exit (north): to [Sullengard4](sullengard4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.077%;top:37.500%" title="Exit (east): to [Sullengard7](sullengard7.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:98.077%;top:75.000%" title="Exit (east): to [Sullengard7](sullengard7.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:1.923%;top:83.333%" title="Exit (southwest): to [Way to sullengard west 6](way_to_sullengard_west_6.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/sullengard8.webp" alt="Map of Sullengard 8" width="832" height="384" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../sullengard7/#place-west" title="Exit to Sullengard 7" style="left:96.154%;top:25.000%;width:3.846%;height:25.000%"></a><a id="place-north" class="mo mo-mapchange" href="../sullengard4/#place-south" title="Exit to Sullengard 4" style="left:30.769%;top:0.000%;width:3.846%;height:8.333%"></a><a id="place-east2" class="mo mo-mapchange" href="../sullengard7/#place-west2" title="Exit to Sullengard 7" style="left:96.154%;top:66.667%;width:3.846%;height:16.667%"></a><a id="place-west" class="mo mo-mapchange" href="../way_to_sullengard_west_6/#place-east" title="Exit to Way to sullengard west 6" style="left:0.000%;top:75.000%;width:3.846%;height:16.667%"></a><span class="mo mo-spawn" title="Spawns: Death cob" style="left:65.385%;top:58.333%;width:19.231%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Death cob" style="left:7.692%;top:58.333%;width:19.231%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Death cob" style="left:50.000%;top:25.000%;width:26.923%;height:8.333%"></span><a class="mob" href="../../monsters/deathcob/" title="Death cob" style="left:80.769%;top:75.000%;width:3.846%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_4.png" alt="Death cob"></a><a class="mob" href="../../monsters/deathcob/" title="Death cob" style="left:7.692%;top:58.333%;width:3.846%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_4.png" alt="Death cob"></a><a class="mob" href="../../monsters/deathcob/" title="Death cob" style="left:50.000%;top:25.000%;width:3.846%;height:8.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_4.png" alt="Death cob"></a><a class="pin pin-exit" href="#key-1" style="left:32.692%;top:4.167%" title="Exit (north): to [Sullengard 4](sullengard4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.077%;top:37.500%" title="Exit (east): to [Sullengard 7](sullengard7.md)">2</a><a class="pin pin-exit" href="#key-2" style="left:98.077%;top:75.000%" title="Exit (east): to [Sullengard 7](sullengard7.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:1.923%;top:83.333%" title="Exit (southwest): to [Way to sullengard west 6](way_to_sullengard_west_6.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Sullengard4](sullengard4.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Sullengard7](sullengard7.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Sullengard 4](sullengard4.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Sullengard 7](sullengard7.md) |
     | <span id="key-3"></span>3 | Exit (southwest) | to [Way to sullengard west 6](way_to_sullengard_west_6.md) |
 
 
@@ -41,8 +41,8 @@ description: "Sullengard8 is an outdoor location in Andor's Trail. Enemies: Deat
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Sullengard4](sullengard4.md) | – | 1 |
-| East | [Sullengard7](sullengard7.md) | Sullengard | 2 |
+| North | [Sullengard 4](sullengard4.md) | – | 1 |
+| East | [Sullengard 7](sullengard7.md) | Sullengard | 2 |
 | Southwest | [Way to sullengard west 6](way_to_sullengard_west_6.md) | – | 3 |
 
 ## Enemies

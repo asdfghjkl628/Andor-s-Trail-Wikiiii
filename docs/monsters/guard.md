@@ -19,44 +19,44 @@ description: "Guard is a non-player character (NPC) in Andor's Trail, found in F
 </div>
 
 !!! info "16 entries in the game data"
-    The game's data files define 16 separate characters named Guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 16 separate characters named Guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guard`](#v-guard) | NPC | Fallhaven: [fallhaven_nw](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [fallhaven_prison](../maps/fallhaven_prison.md#pin-npc-guard) (+1 more) | – |
-| [`brv_exit_guard`](#v-brv_exit_guard) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_exit_guard) | – |
-| [`brv_prison_guard`](#v-brv_prison_guard) | NPC | Brimhaven: [brimhaven_prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard) | – |
-| [`brv_shop_guard`](#v-brv_shop_guard) | NPC | Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_shop_guard) | – |
-| [`brv_tavern_west_guard`](#v-brv_tavern_west_guard) | NPC | Brimhaven: [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard) | starts [Fair play?](../quests/brv_blackjack.md) |
-| [`charwd_guard`](#v-charwd_guard) | NPC | Foaming Flask Tavern: [waytominingtown2](../maps/waytominingtown2.md#pin-npc-charwd_guard) | – |
-| [`crossroads_backguard`](#v-crossroads_backguard) | NPC | Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard) | – |
-| [`crossroads_guard`](#v-crossroads_guard) | NPC | Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [houseatcrossroads2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard) (+1 more) | – |
-| [`crossroads_sleepguard`](#v-crossroads_sleepguard) | NPC | Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard) | – |
-| [`flagstone_guard`](#v-flagstone_guard) | NPC | Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-flagstone_guard) | – |
-| [`guard_advent`](#v-guard_advent) | NPC | Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-guard_advent) | – |
-| [`loneford_guard0`](#v-loneford_guard0) | NPC | Loneford: [loneford10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_guard0) | – |
-| [`loneford_wellguard`](#v-loneford_wellguard) | NPC | Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_wellguard) | – |
-| [`remgard_g1`](#v-remgard_g1) | NPC | Remgard: [remgard_church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-remgard_g1) | – |
-| [`remgard_g2`](#v-remgard_g2) | NPC | Remgard: [remgard_church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-remgard_g2) | – |
-| [`remgard_g3`](#v-remgard_g3) | NPC | Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-remgard_g3) | – |
+| [`guard`](#v-guard) | NPC | Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [Fallhaven prison](../maps/fallhaven_prison.md#pin-npc-guard) (+1 more) | – |
+| [`brv_exit_guard`](#v-brv_exit_guard) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_exit_guard) | – |
+| [`brv_prison_guard`](#v-brv_prison_guard) | NPC | Brimhaven: [Brimhaven prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard) | – |
+| [`brv_shop_guard`](#v-brv_shop_guard) | NPC | Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_shop_guard) | – |
+| [`brv_tavern_west_guard`](#v-brv_tavern_west_guard) | NPC | Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard) | starts [Fair play?](../quests/brv_blackjack.md) |
+| [`charwd_guard`](#v-charwd_guard) | NPC | Foaming Flask Tavern: [Waytominingtown 2](../maps/waytominingtown2.md#pin-npc-charwd_guard) | – |
+| [`crossroads_backguard`](#v-crossroads_backguard) | NPC | Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard) | – |
+| [`crossroads_guard`](#v-crossroads_guard) | NPC | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard) (+1 more) | – |
+| [`crossroads_sleepguard`](#v-crossroads_sleepguard) | NPC | Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard) | – |
+| [`flagstone_guard`](#v-flagstone_guard) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-flagstone_guard) | – |
+| [`guard_advent`](#v-guard_advent) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-guard_advent) | – |
+| [`loneford_guard0`](#v-loneford_guard0) | NPC | Loneford: [Loneford 10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_guard0) | – |
+| [`loneford_wellguard`](#v-loneford_wellguard) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_wellguard) | – |
+| [`remgard_g1`](#v-remgard_g1) | NPC | Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g1) | – |
+| [`remgard_g2`](#v-remgard_g2) | NPC | Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g2) | – |
+| [`remgard_g3`](#v-remgard_g3) | NPC | Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g3) | – |
 
 ## Fallhaven, Fallhaven north-west and 2 more (guard) { #v-guard }
 
 **Entry ID:** `guard` · **Type:** NPC
 
-**Location:** Fallhaven: [fallhaven_nw](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [fallhaven_prison](../maps/fallhaven_prison.md#pin-npc-guard), Fallhaven: [gapfiller4](../maps/gapfiller4.md#pin-npc-guard)
+**Location:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [Fallhaven prison](../maps/fallhaven_prison.md#pin-npc-guard), Fallhaven: [Gapfiller 4](../maps/gapfiller4.md#pin-npc-guard)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_nw](../maps/fallhaven_nw.md) | Fallhaven | 1 | – |
-| [fallhaven_prison](../maps/fallhaven_prison.md) | Fallhaven | 2 | – |
-| [gapfiller4](../maps/gapfiller4.md) | Fallhaven | 1 | – |
+| [Fallhaven north-west](../maps/fallhaven_nw.md) | Fallhaven | 1 | – |
+| [Fallhaven prison](../maps/fallhaven_prison.md) | Fallhaven | 2 | – |
+| [Gapfiller 4](../maps/gapfiller4.md) | Fallhaven | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guard-fallhaven_guard"></span>**`fallhaven_guard`** Guard: “Keep out of trouble.”
 
@@ -107,18 +107,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 and 1 more (brv_exit_guard) { #v-brv_exit_guard }
+## Brimhaven, Brimhaven 3 and 1 more (brv_exit_guard) { #v-brv_exit_guard }
 
 **Entry ID:** `brv_exit_guard` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_exit_guard)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_exit_guard)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven3](../maps/brimhaven3.md) | Brimhaven | 1 | Appears later, during a quest |
-| [brimhaven4](../maps/brimhaven4.md) | Brimhaven | 2 | Appears later, during a quest |
+| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven 4](../maps/brimhaven4.md) | Brimhaven | 2 | Appears later, during a quest |
 
 ### Quests
 
@@ -126,7 +126,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_exit_forbidden_10.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -134,7 +134,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_exit_guard-brv_exit_forbidden_10"></span>**`brv_exit_forbidden_10`** [Guard](../monsters/guard.md#v-brv_exit_guard): “Stop! All foreigners have to stay in town until we have investigated who destroyed the great dam.” — **effects:** sets stage 100 of [Much water](../quests/brv_flood.md#stage-100)
 
@@ -183,11 +183,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_prison_guard` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard)
+**Location:** Brimhaven: [Brimhaven prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_prison_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -195,7 +195,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_prison_guard-brv_prison_guard"></span>**`brv_prison_guard`** *(silent check: the first matching branch below is taken)*
 
@@ -249,15 +249,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven4 (brv_shop_guard) { #v-brv_shop_guard }
+## Brimhaven, Brimhaven 4 (brv_shop_guard) { #v-brv_shop_guard }
 
 **Entry ID:** `brv_shop_guard` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_shop_guard)
+**Location:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_shop_guard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_shop_guard_select.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -265,11 +265,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_shop_guard-brv_shop_guard_select"></span>**`brv_shop_guard_select`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 130 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-130))* → [brv_shop_guard_20](#d-brv_shop_guard-brv_shop_guard_20)
+    - Next *(if reached stage 130 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-130))* → [brv_shop_guard_20](#d-brv_shop_guard-brv_shop_guard_20)
     - Next → [brv_shop_guard_10](#d-brv_shop_guard-brv_shop_guard_10)
 
     <span id="d-brv_shop_guard-brv_shop_guard_20"></span>**`brv_shop_guard_20`** Guard: “Hello again, traveler.”
@@ -319,16 +319,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_tavern_west_guard` · **Type:** NPC · **Role:** Starts [Fair play?](../quests/brv_blackjack.md)
 
-**Location:** Brimhaven: [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard)
+**Location:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard)
 
 ### Quests
 
 - [Fair play?](../quests/brv_blackjack.md): stages 10, 40, 60
-- [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md): stage 150
+- [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md): stage 150
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_tavern_west_guard_select.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_select"></span>**`brv_tavern_west_guard_select`** *(silent check: the first matching branch below is taken)*
 
@@ -350,12 +350,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sure I am. I'm on official Alkapoan business.” *(if latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40)* → [brv_tavern_west_guard_alkapaon_business_10](#d-brv_tavern_west_guard-brv_tavern_west_guard_alkapaon_business_10)
     - “Ah, right. I forgot.” → *conversation ends*
 
-    <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_90"></span>**`brv_tavern_west_guard_90`** [Guard](../monsters/guard.md#v-brv_tavern_west_guard): “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.” — **effects:** sets stage 60 of [Fair play?](../quests/brv_blackjack.md#stage-60), clears stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150)
+    <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_90"></span>**`brv_tavern_west_guard_90`** [Guard](../monsters/guard.md#v-brv_tavern_west_guard): “I heard you fighting in there. Lucky for you that no one got killed. You are not welcome anymore.” — **effects:** sets stage 60 of [Fair play?](../quests/brv_blackjack.md#stage-60), clears stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150)
 
     - “Sure I am. I'm on official Alkapoan business.” *(if latest stage of [A place to forge](../quests/place_to_forge.md#stage-40) is 40)* → [brv_tavern_west_guard_alkapaon_business_10](#d-brv_tavern_west_guard-brv_tavern_west_guard_alkapaon_business_10)
     - “Calm down! I'm leaving right now.” → *conversation ends*
 
-    <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_20"></span>**`brv_tavern_west_guard_20`** Guard: “I wish you good luck. [Laughs]” — **effects:** sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150), sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40)
+    <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_20"></span>**`brv_tavern_west_guard_20`** Guard: “I wish you good luck. [Laughs]” — **effects:** sets stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150), sets stage 40 of [Fair play?](../quests/brv_blackjack.md#stage-40)
 
 
     <span id="d-brv_tavern_west_guard-brv_tavern_west_backroom_5"></span>**`brv_tavern_west_backroom_5`** *(silent check: the first matching branch below is taken)*
@@ -363,7 +363,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 20 of [Fair play?](../quests/brv_blackjack.md#stage-20))* → [brv_tavern_west_guard_10](#d-brv_tavern_west_guard-brv_tavern_west_guard_10)
     - branch 2 → [brv_tavern_west_backroom_6](#d-brv_tavern_west_guard-brv_tavern_west_backroom_6)
 
-    <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_alkapaon_business_10"></span>**`brv_tavern_west_guard_alkapaon_business_10`** Guard: “Oh, sorry. Please don't tell Alkapoan that I hassled you.” — **effects:** sets stage 150 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150), spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back
+    <span id="d-brv_tavern_west_guard-brv_tavern_west_guard_alkapaon_business_10"></span>**`brv_tavern_west_guard_alkapaon_business_10`** Guard: “Oh, sorry. Please don't tell Alkapoan that I hassled you.” — **effects:** sets stage 150 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-150), spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back, spawns monsters on brimhaven_tavern_west_back
 
     - “Now that's the attitude I like to see.” → *conversation ends*
 
@@ -416,11 +416,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Foaming Flask Tavern, Waytominingtown2 (charwd_guard) { #v-charwd_guard }
+## Foaming Flask Tavern, Waytominingtown 2 (charwd_guard) { #v-charwd_guard }
 
 **Entry ID:** `charwd_guard` · **Type:** NPC
 
-**Location:** Foaming Flask Tavern: [waytominingtown2](../maps/waytominingtown2.md#pin-npc-charwd_guard)
+**Location:** Foaming Flask Tavern: [Waytominingtown 2](../maps/waytominingtown2.md#pin-npc-charwd_guard)
 
 ### Quests
 
@@ -428,7 +428,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/charwd_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -436,7 +436,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-charwd_guard-charwd_guard"></span>**`charwd_guard`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 19 of [Destined for great things](../quests/charwood1.md#stage-19)
 
@@ -504,15 +504,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Houseatcrossroads1 (crossroads_backguard) { #v-crossroads_backguard }
+## Crossroads Guardhouse, Houseatcrossroads 1 (crossroads_backguard) { #v-crossroads_backguard }
 
 **Entry ID:** `crossroads_backguard` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard)
+**Location:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_backguard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -520,7 +520,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-crossroads_backguard-crossroads_backguard"></span>**`crossroads_backguard`** Guard: “Uh, hello.”
 
@@ -617,15 +617,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `crossroads_guard` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [houseatcrossroads2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [houseatcrossroads3](../maps/houseatcrossroads3.md#pin-npc-crossroads_guard)
+**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 3](../maps/houseatcrossroads3.md#pin-npc-crossroads_guard)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 2 | – |
-| [houseatcrossroads2](../maps/houseatcrossroads2.md) | Crossroads Guardhouse | 1 | – |
-| [houseatcrossroads3](../maps/houseatcrossroads3.md) | Crossroads Guardhouse | 1 | – |
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 2 | – |
+| [Houseatcrossroads 2](../maps/houseatcrossroads2.md) | Crossroads Guardhouse | 1 | – |
+| [Houseatcrossroads 3](../maps/houseatcrossroads3.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -633,7 +633,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -641,7 +641,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-crossroads_guard-crossroads_guard"></span>**`crossroads_guard`** *(silent check: the first matching branch below is taken)*
 
@@ -723,19 +723,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Houseatcrossroads1 (crossroads_sleepguard) { #v-crossroads_sleepguard }
+## Crossroads Guardhouse, Houseatcrossroads 1 (crossroads_sleepguard) { #v-crossroads_sleepguard }
 
 **Entry ID:** `crossroads_sleepguard` · **Type:** NPC
 
-**Location:** Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard)
+**Location:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard)
 
 ### Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 17
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 17
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_sleepguard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -743,11 +743,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-crossroads_sleepguard-crossroads_sleepguard"></span>**`crossroads_sleepguard`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 17 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-17))* → [crossroads_sleepguard_2](#d-crossroads_sleepguard-crossroads_sleepguard_2)
+    - branch 1 *(if reached stage 17 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-17))* → [crossroads_sleepguard_2](#d-crossroads_sleepguard-crossroads_sleepguard_2)
     - branch 2 → [crossroads_sleepguard_1](#d-crossroads_sleepguard-crossroads_sleepguard_1)
 
     <span id="d-crossroads_sleepguard-crossroads_sleepguard_2"></span>**`crossroads_sleepguard_2`** Guard: “Hello again. I hope the bed is comfortable enough. Use it as much as you like.”
@@ -770,7 +770,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-crossroads_sleepguard-crossroads_sleepguard_4"></span>**`crossroads_sleepguard_4`** Guard: “No, sorry. These beds are for guards and allies of Feygard only.”
 
 
-    <span id="d-crossroads_sleepguard-crossroads_sleepguard_6"></span>**`crossroads_sleepguard_6`** Guard: “I knew I had heard about you somewhere. You are always welcome by us guards. You can use that second bed over there to the left if you need to rest.” — **effects:** sets stage 17 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-17)
+    <span id="d-crossroads_sleepguard-crossroads_sleepguard_6"></span>**`crossroads_sleepguard_6`** Guard: “I knew I had heard about you somewhere. You are always welcome by us guards. You can use that second bed over there to the left if you need to rest.” — **effects:** sets stage 17 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-17)
 
 
 
@@ -812,15 +812,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Flagstone Prison, Flagstone0 (flagstone_guard) { #v-flagstone_guard }
+## Flagstone Prison, Flagstone 0 (flagstone_guard) { #v-flagstone_guard }
 
 **Entry ID:** `flagstone_guard` · **Type:** NPC
 
-**Location:** Flagstone Prison: [flagstone0](../maps/flagstone0.md#pin-npc-flagstone_guard)
+**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-flagstone_guard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/flagstone_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -828,7 +828,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-flagstone_guard-flagstone_guard"></span>**`flagstone_guard`** Guard: “I hate this place. It rains all the time and I can't stand the eerie screams of the undead!”
 
@@ -870,15 +870,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Brimhaven3 (guard_advent) { #v-guard_advent }
+## Brimhaven, Brimhaven 3 (guard_advent) { #v-guard_advent }
 
 **Entry ID:** `guard_advent` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md#pin-npc-guard_advent)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-guard_advent)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guard_advent.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -886,7 +886,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (19 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guard_advent-guard_advent"></span>**`guard_advent`** Guard: “I used to be an adventurer like you,”
 
@@ -1004,22 +1004,22 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford10 and 1 more (loneford_guard0) { #v-loneford_guard0 }
+## Loneford, Loneford 10 and 1 more (loneford_guard0) { #v-loneford_guard0 }
 
 **Entry ID:** `loneford_guard0` · **Type:** NPC
 
-**Location:** Loneford: [loneford10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_guard0)
+**Location:** Loneford: [Loneford 10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_guard0)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [loneford10](../maps/loneford10.md) | Loneford | 2 | – |
-| [loneford2](../maps/loneford2.md) | Loneford | 1 | – |
+| [Loneford 10](../maps/loneford10.md) | Loneford | 2 | – |
+| [Loneford 2](../maps/loneford2.md) | Loneford | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_guard0.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1027,7 +1027,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_guard0-loneford_guard0"></span>**`loneford_guard0`** Guard: “We keep the order around here. I wonder what the people of Loneford would do without us guards from Feygard. Poor things.”
 
@@ -1070,15 +1070,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford2 (loneford_wellguard) { #v-loneford_wellguard }
+## Loneford, Loneford 2 (loneford_wellguard) { #v-loneford_wellguard }
 
 **Entry ID:** `loneford_wellguard` · **Type:** NPC
 
-**Location:** Loneford: [loneford2](../maps/loneford2.md#pin-npc-loneford_wellguard)
+**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_wellguard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_wellguard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1086,7 +1086,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_wellguard-loneford_wellguard"></span>**`loneford_wellguard`** Guard: “Please report any suspicious behavior you might see to Kuldan.”
 
@@ -1133,18 +1133,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `remgard_g1` · **Type:** NPC
 
-**Location:** Remgard: [remgard_church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-remgard_g1)
+**Location:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g1)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [remgard_church](../maps/remgard_church.md) | Remgard | 1 | – |
-| [remgard_tavern1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
+| [Remgard church](../maps/remgard_church.md) | Remgard | 1 | – |
+| [Remgard tavern 1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1193,18 +1193,18 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `remgard_g2` · **Type:** NPC
 
-**Location:** Remgard: [remgard_church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-remgard_g2)
+**Location:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g2)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [remgard_church](../maps/remgard_church.md) | Remgard | 1 | – |
-| [remgard_tavern1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
+| [Remgard church](../maps/remgard_church.md) | Remgard | 1 | – |
+| [Remgard tavern 1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_guard1.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1212,7 +1212,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-remgard_g2-blackwater_guard1"></span>**`blackwater_guard1`** Guard: “Stay out of trouble and trouble will stay away from you.”
 
@@ -1255,15 +1255,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Remgard, Remgard tavern1 (remgard_g3) { #v-remgard_g3 }
+## Remgard, Remgard tavern 1 (remgard_g3) { #v-remgard_g3 }
 
 **Entry ID:** `remgard_g3` · **Type:** NPC
 
-**Location:** Remgard: [remgard_tavern1](../maps/remgard_tavern1.md#pin-npc-remgard_g3)
+**Location:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_guard1.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -1271,7 +1271,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-remgard_g3-remgard_guard1"></span>**`remgard_guard1`** Guard: “I've got my eye on you. Don't do anything stupid.”
 

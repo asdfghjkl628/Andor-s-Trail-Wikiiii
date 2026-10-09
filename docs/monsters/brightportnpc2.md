@@ -4,7 +4,7 @@ description: "Richimor is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_96.png){ .sprite } Richimor
 
-**Where to find Richimor:** Brightport: [brightport1](../maps/brightport1.md#pin-npc-brightportnpc2)
+**Where to find Richimor:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportnpc2)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Richimor is a non-player character (NPC) in Andor's Trail, found i
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stage 60
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 86, 248
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 86, 248
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Richimor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Richimor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightpor_richimor_selector.json" data-npc="Richimor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,11 +34,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightpor_richimor_selector"></span>**`brightpor_richimor_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 86 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-86))* → [brightport_richimor3](#d-brightport_richimor3)
+    - Next *(if reached stage 86 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-86))* → [brightport_richimor3](#d-brightport_richimor3)
     - Next → [brightport_richimor](#d-brightport_richimor)
 
     <span id="d-brightport_richimor3"></span>**`brightport_richimor3`** Richimor: “Ho, ho, what resplendent blue waves.”
@@ -75,11 +75,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “She might be my only clue to solve a problem. Is there really nothing you can tell me about her whereabouts?” → [brightport_richimor8](#d-brightport_richimor8)
 
-    <span id="d-brightport_richimor2"></span>**`brightport_richimor2`** Richimor: “That, and the confluence of other rivers to the east, which drain into the lake, causes the water level to rise and flood the grasslands surrounding the lake. It reaches up until the foundation of the houses but never rises more than the…” — **effects:** sets stage 86 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-86)
+    <span id="d-brightport_richimor2"></span>**`brightport_richimor2`** Richimor: “That, and the confluence of other rivers to the east, which drain into the lake, causes the water level to rise and flood the grasslands surrounding the lake. It reaches up until the foundation of the houses but never rises more than the…” — **effects:** sets stage 86 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-86)
 
     - “Wow, that's fascinating!” → *conversation ends*
 
-    <span id="d-brightport_richimor8"></span>**`brightport_richimor8`** Richimor: “Hmm, it sounds like you've found yourself in some kind of argument. If it helps, she left a lot of her writings and research at my house for safekeeping. You can read through them. I hope it proves helpful.” — **effects:** sets stage 60 of [No rest for the wicked](../quests/Stanwickquest.md#stage-60), sets stage 248 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-248)
+    <span id="d-brightport_richimor8"></span>**`brightport_richimor8`** Richimor: “Hmm, it sounds like you've found yourself in some kind of argument. If it helps, she left a lot of her writings and research at my house for safekeeping. You can read through them. I hope it proves helpful.” — **effects:** sets stage 60 of [No rest for the wicked](../quests/Stanwickquest.md#stage-60), sets stage 248 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-248)
 
 
 

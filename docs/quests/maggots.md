@@ -11,9 +11,9 @@ description: "I have it in me is a quest in Andor's Trail, started by Toszylae (
 | **Quest ID** | `maggots` |
 | **In journal** | Yes |
 | **Stages** | 11 (completes at 51) |
-| **Started by** | [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)) |
+| **Started by** | [Toszylae](../monsters/toszylae.md) ([Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md)) |
 | **NPCs involved** | [Talion](../monsters/talion.md), [Toszylae](../monsters/toszylae.md), [Ulirfendor](../monsters/ulirfendor.md) |
-| **Locations** | [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md), [waytobrimhavencave4](../maps/waytobrimhavencave4.md) |
+| **Locations** | [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md), [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) |
 | **Total XP** | 30,000 |
 | **Related quests** | 4 |
 
@@ -25,7 +25,7 @@ description: "I have it in me is a quest in Andor's Trail, started by Toszylae (
 
 ## Prerequisites to start
 
-None: talk to [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)) to begin.
+None: talk to [Toszylae](../monsters/toszylae.md) ([Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -51,69 +51,142 @@ None: talk to [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../map
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Deep inside a cavern, I encountered a lich of Kazaul. Somehow the lich managed to infect me with things that crawl around in my stomach! I must find some way to get rid of these things inside of me. I should go talk to Ulirfendor, or seek help in one of the chapels. | [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)) | – | applies condition rotworm<br>sets stage 50 of [An involuntary carrier](../quests/toszylae.md#stage-50) |
-| <span id="stage-20"></span>20 | Ulirfendor tells me that he read something long ago about rotworms that feed upon living tissue. They can have what he called 'unusual' effects on whoever carries them, and their eggs can slowly kill a person from the inside. I should seek help immediately, before it is too late. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | – | – |
-| <span id="stage-21"></span>21 | Ulirfendor says that one of the priests of the Shadow should be able help me. I should go visit Talion at the chapel in Loneford at once. | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) | – | – |
-| <span id="stage-30"></span>30 | Talion in Loneford told me that in order to be cured of my affliction, I will need to bring four parts to him. The parts that I will need are five bones, two pieces of animal hair, one irdegh poison gland and one empty vial. Bones and fur can probably be found on some animal in the wilderness, and the poison gland can be found on one of the irdeghs that have been spotted to the east. | [Talion](../monsters/talion.md) | – | – |
-| <span id="stage-40"></span>40 | I have brought the five bones to Talion. | [Talion](../monsters/talion.md) | hand over 5× [Bone](../items/bone.md), stage 30 | – |
-| <span id="stage-41"></span>41 | I have brought the two pieces of animal hair to Talion. | [Talion](../monsters/talion.md) | hand over 2× [Animal hair](../items/hair.md), stage 30 | – |
-| <span id="stage-42"></span>42 | I have brought one irdegh poison gland to Talion. | [Talion](../monsters/talion.md) | hand over 1× [Irdegh poison gland](../items/irdegh.md), stage 30 | – |
-| <span id="stage-43"></span>43 | I have brought an empty vial to Talion. | [Talion](../monsters/talion.md) | hand over 1× [Small empty vial](../items/vial_empty1.md), stage 30 | – |
-| <span id="stage-45"></span>45 | I have now brought all pieces that Talion needs in order to cure me of these things. | [Talion](../monsters/talion.md) | stage 30, stage 40, stage 41, stage 42, stage 43 | – |
-| <span id="stage-50"></span>50 | Talion has cured me of the Kazaul rotworms. I managed to get one of the rotworms into an empty vial, and Talion told me that it would be very valuable. I cannot imagine for what. | [Talion](../monsters/talion.md) | stage 45 | 30,000 XP<br>gives [Kazaul rotworm](../items/potion_rotworm.md)<br>applies condition rotworm |
-| <span id="stage-51"></span>51 | Because of my former affliction, Talion has agreed to help me by placing blessings of the Shadow upon me whenever I wish, for a fee. **(completes quest)** | [Talion](../monsters/talion.md) | stage 50 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Deep inside a cavern, I encountered a lich of Kazaul. Somehow the… ▸</span><span class="l">▴ less</span></summary>Deep inside a cavern, I encountered a lich of Kazaul. Somehow the lich managed to infect me with things that crawl around in my stomach! I must find some way to get rid of these things inside of me. I should go talk to Ulirfendor, or seek help in one of the chapels.</details> | [Toszylae](../monsters/toszylae.md) | applies condition rotworm, sets stage 50 of [An involuntary carrier](../quests/toszylae.md#stage-50) |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Ulirfendor tells me that he read something long ago about rotworms… ▸</span><span class="l">▴ less</span></summary>Ulirfendor tells me that he read something long ago about rotworms that feed upon living tissue. They can have what he called 'unusual' effects on whoever carries them, and their eggs can slowly kill a person from the inside. I should seek help immediately, before it is too late.</details> | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">Ulirfendor says that one of the priests of the Shadow should be able… ▸</span><span class="l">▴ less</span></summary>Ulirfendor says that one of the priests of the Shadow should be able help me. I should go visit Talion at the chapel in Loneford at once.</details> | [Ulirfendor](../monsters/ulirfendor.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Talion in Loneford told me that in order to be cured of my… ▸</span><span class="l">▴ less</span></summary>Talion in Loneford told me that in order to be cured of my affliction, I will need to bring four parts to him. The parts that I will need are five bones, two pieces of animal hair, one irdegh poison gland and one empty vial. Bones and fur can probably be found on some animal in the wilderness, and the poison gland can be found on one of the irdeghs that have been spotted to the east.</details> | [Talion](../monsters/talion.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I have brought the five bones to Talion. | [Talion](../monsters/talion.md) | – |
+| <span id="stage-41"></span>[41](#route-41) | I have brought the two pieces of animal hair to Talion. | [Talion](../monsters/talion.md) | – |
+| <span id="stage-42"></span>[42](#route-42) | I have brought one irdegh poison gland to Talion. | [Talion](../monsters/talion.md) | – |
+| <span id="stage-43"></span>[43](#route-43) | I have brought an empty vial to Talion. | [Talion](../monsters/talion.md) | – |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">I have now brought all pieces that Talion needs in order to cure me… ▸</span><span class="l">▴ less</span></summary>I have now brought all pieces that Talion needs in order to cure me of these things.</details> | [Talion](../monsters/talion.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Talion has cured me of the Kazaul rotworms. I managed to get one of… ▸</span><span class="l">▴ less</span></summary>Talion has cured me of the Kazaul rotworms. I managed to get one of the rotworms into an empty vial, and Talion told me that it would be very valuable. I cannot imagine for what.</details> | [Talion](../monsters/talion.md) | 30,000 XP, [Kazaul rotworm](../items/potion_rotworm.md), applies condition rotworm |
+| <span id="stage-51"></span>[51](#route-51) | <details class="jt"><summary><span class="s">Because of my former affliction, Talion has agreed to help me by… ▸</span><span class="l">▴ less</span></summary>Because of my former affliction, Talion has agreed to help me by placing blessings of the Shadow upon me whenever I wish, for a fee.</details> **(ends quest)** | [Talion](../monsters/talion.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)) → the conversation leads here automatically → **stage 10**; also applies condition rotworm, sets stage 50 of [An involuntary carrier](../quests/toszylae.md#stage-50). NPC: “[As if having swallowed a thousand needles, you are suddenly stricken with a cascading series of spikes of pain…”
+??? note "Stage 10 · Toszylae · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Toszylae](../monsters/toszylae.md), automatic
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “What is?” — **conditions:** reached stage 60 of [An involuntary carrier](../quests/toszylae.md#stage-60) → **stage 20**. NPC: “Needless to say, you are in great danger, and you should seek help immediately.”
+    - **Gives:** applies condition rotworm, sets stage 50 of [An involuntary carrier](../quests/toszylae.md#stage-50)
+    - *“[As if having swallowed a thousand needles, you are suddenly stricken with a cascading series of spikes of pain throughout your stomach]”*
 
-???+ note "Stage 21: 1 route"
 
-    1. Talk to [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) → choose “I found a strange looking helmet among the remains of the lich that I defeated. Do you know anything about it?” — **conditions:** reached stage 60 of [An involuntary carrier](../quests/toszylae.md#stage-60); reached stage 70 of [An involuntary carrier](../quests/toszylae.md#stage-70) → **stage 21**. NPC: “You should hurry and seek help from one of the priests of the Shadow as quickly as possible. My dear friend Talion in…”
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Ulirfendor · 1 way"
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Got it. Anything else?” — **conditions:** reached stage 30 of [I have it in me](../quests/maggots.md#stage-30) → **stage 30**. NPC: “Bring me these things and I will be able to help you with your ... condition.”
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “What is?”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** reached stage 60 of [An involuntary carrier](../quests/toszylae.md#stage-60)
+    - *“Needless to say, you are in great danger, and you should seek help immediately.”*
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Here you go.” — **conditions:** reached stage 30 of [I have it in me](../quests/maggots.md#stage-30); hand over 5× [Bone](../items/bone.md) → **stage 40**. NPC: “Thank you.”
 
-???+ note "Stage 41: 1 route"
+<span id="route-21"></span>
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Here you go.” — **conditions:** reached stage 30 of [I have it in me](../quests/maggots.md#stage-30); hand over 2× [Animal hair](../items/hair.md) → **stage 41**. NPC: “Thank you.”
+??? note "Stage 21 · Ulirfendor · 1 way"
 
-???+ note "Stage 42: 1 route"
+    **Way 1:** Talk to [Ulirfendor](../monsters/ulirfendor.md), choose “I found a strange looking helmet among the remains of the lich that I defeated. Do you know anything about it?”
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Here you go.” — **conditions:** reached stage 30 of [I have it in me](../quests/maggots.md#stage-30); hand over 1× [Irdegh poison gland](../items/irdegh.md) → **stage 42**. NPC: “Thank you.”
+    - **Needs:** reached stage 60 of [An involuntary carrier](../quests/toszylae.md#stage-60); reached stage 70 of [An involuntary carrier](../quests/toszylae.md#stage-70)
+    - *“You should hurry and seek help from one of the priests of the Shadow as quickly as possible. My dear friend Talion in the temple of…”*
 
-???+ note "Stage 43: 1 route"
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Here you go, one small empty vial.” — **conditions:** reached stage 30 of [I have it in me](../quests/maggots.md#stage-30); hand over 1× [Small empty vial](../items/vial_empty1.md) → **stage 43**. NPC: “Thank you.”
+<span id="route-30"></span>
 
-???+ note "Stage 45: 1 route"
+??? note "Stage 30 · Talion · 1 way"
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “I brought five bones for you.” — **conditions:** reached stage 30 of [I have it in me](../quests/maggots.md#stage-30); reached stage 40 of [I have it in me](../quests/maggots.md#stage-40); reached stage 41 of [I have it in me](../quests/maggots.md#stage-41); reached stage 42 of [I have it in me](../quests/maggots.md#stage-42); reached stage 43 of [I have it in me](../quests/maggots.md#stage-43) → **stage 45**. NPC: “That's all I need to cure you. Good work.”
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Got it. Anything else?”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 30
+    - *“Bring me these things and I will be able to help you with your ... condition.”*
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “Drink the potion.” — **conditions:** reached stage 45 of [I have it in me](../quests/maggots.md#stage-45) → **stage 50**; also gives [Kazaul rotworm](../items/potion_rotworm.md), applies condition rotworm. NPC: “[The potion smells rancid, but you manage to drink it all down. The pain from the stomach decreases, and you feel one…”
 
-???+ note "Stage 51: 1 route"
+<span id="route-40"></span>
 
-    1. Talk to [Talion](../monsters/talion.md) → choose “OK, I will hold on to it.” — **conditions:** reached stage 50 of [I have it in me](../quests/maggots.md#stage-50) → **stage 51**. NPC: “Seeing as you managed to pull through all of this, I would be willing to offer you the help of giving you blessings of…”
+??? note "Stage 40 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Here you go.”
+
+    - **Needs:** stage 30; hand over 5× [Bone](../items/bone.md)
+    - *“Thank you.”*
+
+
+<span id="route-41"></span>
+
+??? note "Stage 41 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Here you go.”
+
+    - **Needs:** stage 30; hand over 2× [Animal hair](../items/hair.md)
+    - *“Thank you.”*
+
+
+<span id="route-42"></span>
+
+??? note "Stage 42 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Here you go.”
+
+    - **Needs:** stage 30; hand over 1× [Irdegh poison gland](../items/irdegh.md)
+    - *“Thank you.”*
+
+
+<span id="route-43"></span>
+
+??? note "Stage 43 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Here you go, one small empty vial.”
+
+    - **Needs:** stage 30; hand over 1× [Small empty vial](../items/vial_empty1.md)
+    - *“Thank you.”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “I brought five bones for you.”
+
+    - **Needs:** stage 30, 40, 41, 42, 43
+    - *“That's all I need to cure you. Good work.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “Drink the potion.”
+
+    - **Needs:** stage 45
+    - **Gives:** [Kazaul rotworm](../items/potion_rotworm.md), applies condition rotworm
+    - *“[The potion smells rancid, but you manage to drink it all down. The pain from the stomach decreases, and you feel one of the rotworms…”*
+
+
+<span id="route-51"></span>
+
+??? note "Stage 51 · Talion · 1 way"
+
+    **Way 1:** Talk to [Talion](../monsters/talion.md), choose “OK, I will hold on to it.”
+
+    - **Needs:** stage 50
+    - *“Seeing as you managed to pull through all of this, I would be willing to offer you the help of giving you blessings of the Shadow if you…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -124,7 +197,7 @@ None: talk to [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../map
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Stage 30 journal text changed<br>Stage 42 journal text changed<br>Dialogue: 4 lines changed<br>· text: “(The potion smells rancid, but you manage to drink it all down. The p…” → “[The potion smells rancid, but you manage to drink it all down. The p…”<br>· text: “Bring me these things and I will be able to help you with your .. con…” → “Bring me these things and I will be able to help you with your ... co…” |
+| [v0.7.2](../versions/0.7.2.md) | Stage 30 journal text changed<br>Stage 42 journal text changed<br>Dialogue: 4 lines changed<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…”<br>· text: “(The potion smells rancid, but you manage to drink it all down. The p…” → “[The potion smells rancid, but you manage to drink it all down. The p…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

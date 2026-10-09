@@ -1,10 +1,10 @@
 ---
-description: "Ancient piercing irdegh is an enemy in Andor's Trail (reptile) with 130 HP, worth 345 XP, found in waytomountaincave2. Drops: Meat, Poison gland, Irdegh poison gland, Crude combat ring."
+description: "Ancient piercing irdegh is an enemy in Andor's Trail (reptile) with 130 HP, worth 345 XP, found in Waytomountaincave 2. Drops: Meat, Poison gland, Irdegh poison gland, Crude combat ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_14.png){ .sprite } Ancient piercing irdegh
 
-**Found in:** [waytomountaincave2](../maps/waytomountaincave2.md)
+**Found in:** [Waytomountaincave 2](../maps/waytomountaincave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient piercing irdegh is an enemy in Andor's Trail (reptile) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytomountaincave2 |
+| **Found in** | Waytomountaincave 2 |
 | **Class** | Reptile |
 | **HP** | 130 |
 | **XP when defeated** | 345 |
@@ -59,7 +59,7 @@ description: "Ancient piercing irdegh is an enemy in Andor's Trail (reptile) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytomountaincave2](../maps/waytomountaincave2.md) | – | 1 | – |
+| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 1 | – |
 
 
 ## Version history

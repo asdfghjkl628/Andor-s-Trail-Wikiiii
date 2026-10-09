@@ -1,10 +1,10 @@
 ---
-description: "Graveyard king is an NPC who can also be fought in Andor's Trail, found in graveyard1."
+description: "Graveyard king is an NPC who can also be fought in Andor's Trail, found in Graveyard 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_70.png){ .sprite } Graveyard king
 
-**Where to find Graveyard king:** [graveyard1](../maps/graveyard1.md#pin-npc-graveyardking)
+**Where to find Graveyard king:** [Graveyard 1](../maps/graveyard1.md#pin-npc-graveyardking)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Graveyard king is an NPC who can also be fought in Andor's Trail, 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | graveyard1 |
+| **Found in** | Graveyard 1 |
 | **Class** | Undead |
 | **HP** | 300 |
 | **XP when defeated** | 984 |
@@ -60,12 +60,12 @@ description: "Graveyard king is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [graveyard1](../maps/graveyard1.md) | – | 1 | – |
+| [Graveyard 1](../maps/graveyard1.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [Mine for the taking](../quests/graveyard_quest.md#stage-70) with stepping on a trigger on [graveyard1](../maps/graveyard1.md) checks that this enemy has been defeated.
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-240) with stepping on a trigger on [graveyard1](../maps/graveyard1.md) checks that this enemy has been defeated.
+- [Mine for the taking](../quests/graveyard_quest.md#stage-70) with stepping on a trigger on [Graveyard 1](../maps/graveyard1.md) checks that this enemy has been defeated.
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-240) with stepping on a trigger on [Graveyard 1](../maps/graveyard1.md) checks that this enemy has been defeated.
 
 ## Quests
 
@@ -73,7 +73,7 @@ description: "Graveyard king is an NPC who can also be fought in Andor's Trail, 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Graveyard king. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Graveyard king. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/graveyardking_1.json" data-npc="Graveyard king" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-graveyardking_1"></span>**`graveyardking_1`** Graveyard king: “[You notice this undead is wearing a key around its neck]” — **effects:** sets stage 60 of [Mine for the taking](../quests/graveyard_quest.md#stage-60)
 

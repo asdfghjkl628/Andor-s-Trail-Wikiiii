@@ -29,9 +29,9 @@ description: "Deathtouch is a harmful spiritual condition in Andor's Trail: atta
 | Damage resistance | −1 |
 | HP every round | −1 to 0 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,8 +42,8 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Evil shade](../monsters/evil_shade.md) | When it hits you | 1 | 2 rounds | 25% | undertell_3_02 |
-| [Forsaken shade](../monsters/shade1.md) | When it hits you | 1 | 3 rounds | 50% | undertell_3_02 |
+| [Evil shade](../monsters/evil_shade.md) | When it hits you | 1 | 2 rounds | 25% | Undertell 3 02 |
+| [Forsaken shade](../monsters/shade1.md) | When it hits you | 1 | 3 rounds | 50% | Undertell 3 02 |
 | [Saki](../monsters/saki.md) | When it hits you | 1 | 3 rounds | 50% | Mt. Galmore |
 
 
@@ -51,9 +51,9 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** spiritual conditions are not reduced by any of the three resistance skills.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Resistance:** none; spiritual conditions ignore resistance skills.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

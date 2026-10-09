@@ -1,10 +1,10 @@
 ---
-description: "Honor Guard is an enemy in Andor's Trail (humanoid) with 220 HP, worth 497 XP, found in guynmart_wood_16."
+description: "Honor Guard is an enemy in Andor's Trail (humanoid) with 220 HP, worth 497 XP, found in Guynmart wood 16."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis1_1.png){ .sprite } Honor Guard
 
-**Found in:** [guynmart_wood_16](../maps/guynmart_wood_16.md)
+**Found in:** [Guynmart wood 16](../maps/guynmart_wood_16.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Honor Guard is an enemy in Andor's Trail (humanoid) with 220 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | guynmart_wood_16 |
+| **Found in** | Guynmart wood 16 |
 | **Class** | Humanoid |
 | **HP** | 220 |
 | **XP when defeated** | 497 |
@@ -48,7 +48,7 @@ description: "Honor Guard is an enemy in Andor's Trail (humanoid) with 220 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_16](../maps/guynmart_wood_16.md) | – | 7 | Appears later, during a quest |
+| [Guynmart wood 16](../maps/guynmart_wood_16.md) | – | 7 | Appears later, during a quest |
 
 
 ## Version history

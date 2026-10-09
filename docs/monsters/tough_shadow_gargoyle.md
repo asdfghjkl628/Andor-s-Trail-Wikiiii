@@ -1,10 +1,10 @@
 ---
-description: "Tough shadow gargoyle is an enemy in Andor's Trail (construct) with 37 HP, worth 99 XP, found in gargoylecave1, gargoylecave2. Drops: Gold coins, Ruby gem, Regular potion of health, Small rock."
+description: "Tough shadow gargoyle is an enemy in Andor's Trail (construct) with 37 HP, worth 99 XP, found in Gargoylecave 1, Gargoylecave 2. Drops: Gold coins, Ruby gem, Regular potion of health, Small rock."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_2.png){ .sprite } Tough shadow gargoyle
 
-**Found in:** [gargoylecave1](../maps/gargoylecave1.md), [gargoylecave2](../maps/gargoylecave2.md)
+**Found in:** [Gargoylecave 1](../maps/gargoylecave1.md), [Gargoylecave 2](../maps/gargoylecave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough shadow gargoyle is an enemy in Andor's Trail (construct) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | gargoylecave1, gargoylecave2 |
+| **Found in** | Gargoylecave 1, Gargoylecave 2 |
 | **Class** | Construct |
 | **HP** | 37 |
 | **XP when defeated** | 99 |
@@ -61,8 +61,8 @@ description: "Tough shadow gargoyle is an enemy in Andor's Trail (construct) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gargoylecave1](../maps/gargoylecave1.md) | – | 3 | – |
-| [gargoylecave2](../maps/gargoylecave2.md) | – | 2 | – |
+| [Gargoylecave 1](../maps/gargoylecave1.md) | – | 3 | – |
+| [Gargoylecave 2](../maps/gargoylecave2.md) | – | 2 | – |
 
 
 ## Version history

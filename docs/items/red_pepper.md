@@ -45,11 +45,11 @@ description: "Red Pepper is a ordinary food in Andor's Trail. How to get it: mon
 
 ### Found in containers
 
-- [bwmfill2](../maps/bwmfill2.md#container-0) (container 1, 100%), Blackwater Mountain
+- [Bwmfill 2](../maps/bwmfill2.md#container-0) (container 1, 100%), Blackwater Mountain
 
 ### Quest & dialogue rewards
 
-- From [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-250) (50%)
+- From [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) during [It makes no fence](../quests/tunlon_fence.md#stage-250) (50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -60,8 +60,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 red pepper and rice.” |
-| [Crescenzio](../monsters/brightport_chef2.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 red peppers and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (1×) | “Here's 1 red pepper and rice.” |
+| [Crescenzio](../monsters/brightport_chef2.md) ([Brightport bakery 1](../maps/brightport_bakery1.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-189) | handed over (5×) | “Here are 5 red peppers and rice.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

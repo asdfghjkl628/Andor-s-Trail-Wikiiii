@@ -21,28 +21,28 @@ description: "Wolfhound is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Wolfhound. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Wolfhound. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`hettar_dog`](#v-hettar_dog) | NPC | Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog) | – | – |
-| [`hettar_dog2`](#v-hettar_dog2) | NPC | Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2) | – | – |
-| [`hettar_dog3`](#v-hettar_dog3) | Enemy | Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md) | – | 40 |
+| [`hettar_dog`](#v-hettar_dog) | NPC | Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog) | – | – |
+| [`hettar_dog2`](#v-hettar_dog2) | NPC | Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2) | – | – |
+| [`hettar_dog3`](#v-hettar_dog3) | Enemy | Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md) | – | 40 |
 
-## Blackwater Mountain, Blackwater mountain55 (hettar_dog) { #v-hettar_dog }
+## Blackwater Mountain, Blackwater mountain 55 (hettar_dog) { #v-hettar_dog }
 
 **Entry ID:** `hettar_dog` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog)
+**Location:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog)
 
 ### Quests
 
 - [Where is Norry?](../quests/hettar_dog.md): stages 40, 50
-- [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md): stages 1, 2
+- [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md): stages 1, 2
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wolfhound. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wolfhound. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hettar_dog.json" data-npc="Wolfhound" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,16 +50,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-hettar_dog-hettar_dog"></span>**`hettar_dog`** Wolfhound: “Growl!” — **effects:** sets stage 1 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1)
+    <span id="d-hettar_dog-hettar_dog"></span>**`hettar_dog`** Wolfhound: “Growl!” — **effects:** sets stage 1 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-1)
 
-    - “Hey Norry, look here! I have some much better food for you from Hettar.” *(if hand over 1× [Wyrm meat](../items/hettar_bone.md); reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2))* → [hettar_dog_10](#d-hettar_dog-hettar_dog_10)
-    - “Hey Norry, look here! I have a Wyrm steak for you from Hettar.” *(if carry 1× [Wyrm meat](../items/hettar_bone.md); NOT reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2))* → [hettar_dog_50](#d-hettar_dog-hettar_dog_50)
+    - “Hey Norry, look here! I have some much better food for you from Hettar.” *(if hand over 1× [Wyrm meat](../items/hettar_bone.md); reached stage 2 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2))* → [hettar_dog_10](#d-hettar_dog-hettar_dog_10)
+    - “Hey Norry, look here! I have a Wyrm steak for you from Hettar.” *(if carry 1× [Wyrm meat](../items/hettar_bone.md); NOT reached stage 2 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2))* → [hettar_dog_50](#d-hettar_dog-hettar_dog_50)
     - “Now run to Hettar! He is waiting for you.” *(if reached stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40))* → [hettar_dog_20](#d-hettar_dog-hettar_dog_20)
     - “OK, I go. Stupid dog.” → *conversation ends*
 
-    <span id="d-hettar_dog-hettar_dog_10"></span>**`hettar_dog_10`** [Dummy NPC](../monsters/none.md): “The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.” — **effects:** sets stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2), sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40)
+    <span id="d-hettar_dog-hettar_dog_10"></span>**`hettar_dog_10`** [Dummy NPC](../monsters/none.md): “The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.” — **effects:** sets stage 2 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2), sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40)
 
     - “There, there. And now run to Hettar! He is waiting for you.” → [hettar_dog_20](#d-hettar_dog-hettar_dog_20)
 
@@ -108,15 +108,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Blackwater mountain55 (hettar_dog2) { #v-hettar_dog2 }
+## Blackwater Mountain, Blackwater mountain 55 (hettar_dog2) { #v-hettar_dog2 }
 
 **Entry ID:** `hettar_dog2` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2)
+**Location:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wolfhound. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wolfhound. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hettar_dog2.json" data-npc="Wolfhound" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -124,7 +124,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-hettar_dog2-hettar_dog2"></span>**`hettar_dog2`** Wolfhound: “Growl!”
 
@@ -167,11 +167,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Blackwater mountain55 (hettar_dog3) { #v-hettar_dog3 }
+## Blackwater Mountain, Blackwater mountain 55 (hettar_dog3) { #v-hettar_dog3 }
 
 **Entry ID:** `hettar_dog3` · **Type:** Enemy
 
-**Location:** Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md)
+**Location:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md)
 
 ### Combat statistics
 
@@ -205,11 +205,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 1 | Appears later, during a quest |
+| [Blackwater mountain 55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Where is Norry?](../quests/hettar_dog.md#stage-90) with [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) checks that this enemy has been defeated.
+- [Where is Norry?](../quests/hettar_dog.md#stage-90) with [Little Hettar](../monsters/hettar.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) checks that this enemy has been defeated.
 
 
 ### Version history

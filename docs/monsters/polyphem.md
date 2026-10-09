@@ -1,5 +1,5 @@
 ---
-description: "Polyphem is a non-player character (NPC) in Andor's Trail, found in ll2_cyclops_cave."
+description: "Polyphem is a non-player character (NPC) in Andor's Trail, found in Ll 2 cyclops cave."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_36.png){ .sprite } Polyphem
@@ -11,26 +11,26 @@ description: "Polyphem is a non-player character (NPC) in Andor's Trail, found i
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | ll2_cyclops_cave |
+| **Found in** | Ll 2 cyclops cave |
 | **Entries in game data** | 3 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Polyphem. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. These entries are identical apart from their IDs. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Polyphem. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. These entries are identical apart from their IDs. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`polyphem`](#v-polyphem) | NPC | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem) | – |
-| [`polyphem_bed`](#v-polyphem_bed) | NPC | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed) | – |
-| [`polyphem_door`](#v-polyphem_door) | NPC | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door) | – |
+| [`polyphem`](#v-polyphem) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem) | – |
+| [`polyphem_bed`](#v-polyphem_bed) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed) | – |
+| [`polyphem_door`](#v-polyphem_door) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door) | – |
 
-## Ll2 cyclops cave (polyphem) { #v-polyphem }
+## Ll 2 cyclops cave (polyphem) { #v-polyphem }
 
 **Entry ID:** `polyphem` · **Type:** NPC
 
-**Location:** [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem)
+**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem)
 
 ### Quests
 
@@ -38,7 +38,7 @@ description: "Polyphem is a non-player character (NPC) in Andor's Trail, found i
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Polyphem. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (56 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-polyphem-polyphem"></span>**`polyphem`** *(silent check: the first matching branch below is taken)*
 
@@ -271,7 +271,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [polyphem_129](#d-polyphem-polyphem_129)
 
-    <span id="d-polyphem-polyphem_129"></span>**`polyphem_129`** Polyphem: “I'll let the sheep out, then I'll find you more easily.” — **effects:** removes monsters from ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave, sets stage 57 of [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-57), clears stage 110 of [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-110), changes map ll2_cyclops_cave, spawns monsters on mountainlake27, spawns monsters on mountainlake27, changes map mountainlake27
+    <span id="d-polyphem-polyphem_129"></span>**`polyphem_129`** Polyphem: “I'll let the sheep out, then I'll find you more easily.” — **effects:** removes monsters from ll2_cyclops_cave, spawns monsters on ll2_cyclops_cave, sets stage 57 of [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-57), clears stage 110 of [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md#stage-110), changes map ll2_cyclops_cave, spawns monsters on mountainlake27, spawns monsters on mountainlake27, changes map mountainlake27
 
 
 
@@ -312,11 +312,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Ll2 cyclops cave (polyphem_bed) { #v-polyphem_bed }
+## Ll 2 cyclops cave (polyphem_bed) { #v-polyphem_bed }
 
 **Entry ID:** `polyphem_bed` · **Type:** NPC
 
-**Location:** [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed)
+**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed)
 
 ### Quests
 
@@ -324,7 +324,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Polyphem. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -369,11 +369,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
     ```
 
 
-## Ll2 cyclops cave (polyphem_door) { #v-polyphem_door }
+## Ll 2 cyclops cave (polyphem_door) { #v-polyphem_door }
 
 **Entry ID:** `polyphem_door` · **Type:** NPC
 
-**Location:** [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door)
+**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door)
 
 ### Quests
 
@@ -381,7 +381,7 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Polyphem. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

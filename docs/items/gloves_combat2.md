@@ -38,7 +38,7 @@ description: "Enhanced combat gloves is a ordinary gloves, leather in Andor's Tr
 
 ### Quest & dialogue rewards
 
-- From [Rothses](../monsters/rothses.md) ([remgard_armour](../maps/remgard_armour.md)) (100%)
+- From [Rothses](../monsters/rothses.md) ([Remgard armour](../maps/remgard_armour.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Cute dog puppy is an enemy in Andor's Trail (animal) with 6 HP, wo
 
 # ![](../assets/icons/monsters/monsters_dogs_0.png){ .sprite } Cute dog puppy
 
-**Found in:** Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md)
+**Found in:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
 <div class="infobox" markdown>
 
@@ -56,11 +56,11 @@ description: "Cute dog puppy is an enemy in Andor's Trail (animal) with 6 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 1 | – |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 1 | – |
 
 ## Quests that count defeats
 
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-1) with stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) checks that this enemy has been defeated.
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-1) with stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) checks that this enemy has been defeated.
 
 
 ## Version history

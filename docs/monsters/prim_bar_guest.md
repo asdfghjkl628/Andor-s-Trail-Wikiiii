@@ -4,7 +4,7 @@ description: "Prim bar guest is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_rltiles1_106.png){ .sprite } Prim bar guest
 
-**Where to find Prim bar guest:** Prim: [blackwater_mountain22](../maps/blackwater_mountain22.md#pin-npc-prim_bar_guest)
+**Where to find Prim bar guest:** Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-prim_bar_guest)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Prim bar guest is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim bar guest. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim bar guest. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_tavern_guest3.json" data-npc="Prim bar guest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_tavern_guest3"></span>**`prim_tavern_guest3`** Prim bar guest: “*grumbles*”
 

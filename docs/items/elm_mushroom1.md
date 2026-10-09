@@ -37,8 +37,8 @@ description: "Boletus spelunca is a rare food in Andor's Trail. How to get it: c
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-0) (container 1, 100%)
-- [elm_4f_3](../maps/elm_4f_3.md#container-0) (container 1, 100%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-0) (container 1, 100%)
+- [Elm 4f 3](../maps/elm_4f_3.md#container-0) (container 1, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

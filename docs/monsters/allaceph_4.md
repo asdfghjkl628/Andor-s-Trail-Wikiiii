@@ -1,10 +1,10 @@
 ---
-description: "Tough allaceph is an enemy in Andor's Trail (demon) with 111 HP, worth 272 XP, found in waytobrimhavencave2, waytobrimhavencave3. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
+description: "Tough allaceph is an enemy in Andor's Trail (demon) with 111 HP, worth 272 XP, found in Waytobrimhavencave 2, Waytobrimhavencave 3. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_102.png){ .sprite } Tough allaceph
 
-**Found in:** [waytobrimhavencave2](../maps/waytobrimhavencave2.md), [waytobrimhavencave3](../maps/waytobrimhavencave3.md)
+**Found in:** [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md), [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough allaceph is an enemy in Andor's Trail (demon) with 111 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrimhavencave2, waytobrimhavencave3 |
+| **Found in** | Waytobrimhavencave 2, Waytobrimhavencave 3 |
 | **Class** | Demon |
 | **HP** | 111 |
 | **XP when defeated** | 272 |
@@ -63,8 +63,8 @@ description: "Tough allaceph is an enemy in Andor's Trail (demon) with 111 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 3 | – |
-| [waytobrimhavencave3](../maps/waytobrimhavencave3.md) | – | 10 | – |
+| [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) | – | 3 | – |
+| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 10 | – |
 
 
 ## Version history

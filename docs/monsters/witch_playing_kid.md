@@ -4,7 +4,7 @@ description: "Playing kid is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_ld1_158.png){ .sprite } Playing kid
 
-**Where to find Playing kid:** Flagstone Prison: [lake_shore_road_0](../maps/lake_shore_road_0.md#pin-npc-witch_playing_kid)
+**Where to find Playing kid:** Flagstone Prison: [Lake shore road 0](../maps/lake_shore_road_0.md#pin-npc-witch_playing_kid)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Playing kid is a non-player character (NPC) in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Playing kid. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Playing kid. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/witch_playing_kid.json" data-npc="Playing kid" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-witch_playing_kid"></span>**`witch_playing_kid`** Playing kid: “Look what I have found here - bewitched crystals! They are really fun!”
 

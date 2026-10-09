@@ -1,10 +1,10 @@
 ---
-description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, found in final_cave2."
+description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, found in Final cave 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_3_2.png){ .sprite } Dorhantarh
 
-**Where to find Dorhantarh:** [final_cave2](../maps/final_cave2.md#pin-npc-lae_island_boss)
+**Where to find Dorhantarh:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_island_boss)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, foun
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | final_cave2 |
+| **Found in** | Final cave 2 |
 | **Class** | Animal |
 | **HP** | 297 |
 | **XP when defeated** | 752 |
@@ -59,19 +59,19 @@ description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, foun
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave2](../maps/final_cave2.md) | – | 1 | – |
+| [Final cave 2](../maps/final_cave2.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- A conversation with walking into a blocked passage on [final_cave1](../maps/final_cave1.md), stepping on a trigger on [final_cave1](../maps/final_cave1.md) checks that this enemy has been defeated.
-- [Not Pony Island](../quests/lae_centaurs.md#stage-160) with stepping on a trigger on [final_cave1](../maps/final_cave1.md) checks that this enemy has been defeated.
-- A conversation with [Algangror](../monsters/algangror.md#v-lae_algangror3) ([final_cave2](../maps/final_cave2.md)), [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld3) ([final_cave2](../maps/final_cave2.md)) checks that this enemy has been defeated.
-- [Not Pony Island](../quests/lae_centaurs.md#stage-210) with stepping on a trigger on [final_cave2](../maps/final_cave2.md) checks that at least 123 of these enemies have been defeated.
-- A conversation with [Thalos, the centaur](../monsters/lae_centaur9.md) ([island2](../maps/island2.md)) checks that this enemy has been defeated.
+- A conversation with walking into a blocked passage on [Final cave 1](../maps/final_cave1.md), stepping on a trigger on [Final cave 1](../maps/final_cave1.md) checks that this enemy has been defeated.
+- [Not Pony Island](../quests/lae_centaurs.md#stage-160) with stepping on a trigger on [Final cave 1](../maps/final_cave1.md) checks that this enemy has been defeated.
+- A conversation with [Algangror](../monsters/algangror.md#v-lae_algangror3) ([Final cave 2](../maps/final_cave2.md)), [Jhaeld](../monsters/jhaeld.md#v-lae_jhaeld3) ([Final cave 2](../maps/final_cave2.md)) checks that this enemy has been defeated.
+- [Not Pony Island](../quests/lae_centaurs.md#stage-210) with stepping on a trigger on [Final cave 2](../maps/final_cave2.md) checks that at least 123 of these enemies have been defeated.
+- A conversation with [Thalos, the centaur](../monsters/lae_centaur9.md) ([Island 2](../maps/island2.md)) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dorhantarh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dorhantarh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_island_boss.json" data-npc="Dorhantarh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -79,7 +79,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_island_boss"></span>**`lae_island_boss`** Dorhantarh: “Ah, my dinner at last.”
 

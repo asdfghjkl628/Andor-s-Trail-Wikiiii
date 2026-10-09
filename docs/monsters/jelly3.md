@@ -4,7 +4,7 @@ description: "Poisonous ooze is an enemy in Andor's Trail (construct) with 45 HP
 
 # ![](../assets/icons/monsters/monsters_tometik2_0.png){ .sprite } Poisonous ooze
 
-**Found in:** Crossroads Guardhouse: [roadcave0](../maps/roadcave0.md), [roadcave1](../maps/roadcave1.md)
+**Found in:** Crossroads Guardhouse: [Roadcave 0](../maps/roadcave0.md), [Roadcave 1](../maps/roadcave1.md)
 
 <div class="infobox" markdown>
 
@@ -64,8 +64,8 @@ description: "Poisonous ooze is an enemy in Andor's Trail (construct) with 45 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadcave0](../maps/roadcave0.md) | Crossroads Guardhouse | 7 | – |
-| [roadcave1](../maps/roadcave1.md) | – | 8 | – |
+| [Roadcave 0](../maps/roadcave0.md) | Crossroads Guardhouse | 7 | – |
+| [Roadcave 1](../maps/roadcave1.md) | – | 8 | – |
 
 
 ## Version history

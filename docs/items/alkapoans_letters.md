@@ -25,7 +25,7 @@ description: "Alkapoans's letters is a quest other in Andor's Trail. How to get 
 
 ### Quest & dialogue rewards
 
-- From [Alkapoan](../monsters/brv_richman.md) ([brimhaven_house1](../maps/brimhaven_house1.md)) during [Much water](../quests/brv_flood.md#stage-150) (1×)
+- From [Alkapoan](../monsters/brv_richman.md) ([Brimhaven house 1](../maps/brimhaven_house1.md)) during [Much water](../quests/brv_flood.md#stage-150) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Mustura](../monsters/brv_guard_captain.md) ([brimhaven4](../maps/brimhaven4.md)) | [Much water](../quests/brv_flood.md#stage-200) | handed over (1×) | “Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his” |
+| [Mustura](../monsters/brv_guard_captain.md) ([Brimhaven 4](../maps/brimhaven4.md)) | [Much water](../quests/brv_flood.md#stage-200) | handed over (1×) | “Alkapoan was behind it. Here are letters proving his guilt. He is waiting at his” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

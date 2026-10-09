@@ -4,7 +4,7 @@ description: "Demon is an enemy in Andor's Trail (demon) with 180 HP, worth 313 
 
 # ![](../assets/icons/monsters/monsters_ld2_238.png){ .sprite } Demon
 
-**Found in:** Mt. Galmore: [galmore_52](../maps/galmore_52.md)
+**Found in:** Mt. Galmore: [Galmore 52](../maps/galmore_52.md)
 
 <div class="infobox" markdown>
 
@@ -63,7 +63,7 @@ description: "Demon is an enemy in Andor's Trail (demon) with 180 HP, worth 313 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_52](../maps/galmore_52.md) | Mt. Galmore | 3 | Appears later, during a quest |
+| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 3 | Appears later, during a quest |
 
 
 ## Version history

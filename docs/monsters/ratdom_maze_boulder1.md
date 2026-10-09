@@ -1,5 +1,5 @@
 ---
-description: "Flaming orb is a non-player character (NPC) in Andor's Trail, found in ratdom_maze_551."
+description: "Flaming orb is a non-player character (NPC) in Andor's Trail, found in Ratdom maze 551."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_15.png){ .sprite } Flaming orb
@@ -11,32 +11,32 @@ description: "Flaming orb is a non-player character (NPC) in Andor's Trail, foun
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | ratdom_maze_551 |
+| **Found in** | Ratdom maze 551 |
 | **Entries in game data** | 5 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Flaming orb. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Flaming orb. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`ratdom_maze_boulder1`](#v-ratdom_maze_boulder1) | NPC | [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1) | – |
-| [`ratdom_maze_boulder2`](#v-ratdom_maze_boulder2) | NPC | [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2) | – |
-| [`ratdom_maze_boulder3`](#v-ratdom_maze_boulder3) | NPC | [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3) | – |
-| [`ratdom_maze_boulder4`](#v-ratdom_maze_boulder4) | NPC | [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4) | – |
-| [`ratdom_maze_boulder5`](#v-ratdom_maze_boulder5) | NPC | [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5) | – |
+| [`ratdom_maze_boulder1`](#v-ratdom_maze_boulder1) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1) | – |
+| [`ratdom_maze_boulder2`](#v-ratdom_maze_boulder2) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2) | – |
+| [`ratdom_maze_boulder3`](#v-ratdom_maze_boulder3) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3) | – |
+| [`ratdom_maze_boulder4`](#v-ratdom_maze_boulder4) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4) | – |
+| [`ratdom_maze_boulder5`](#v-ratdom_maze_boulder5) | NPC | [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5) | – |
 
 ## Ratdom maze 551 (ratdom_maze_boulder1) { #v-ratdom_maze_boulder1 }
 
 **Entry ID:** `ratdom_maze_boulder1` · **Type:** NPC
 
-**Location:** [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1)
+**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Flaming orb. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_maze_boulder1-ratdom_maze_boulder"></span>**`ratdom_maze_boulder`** Flaming orb: “Ouch!” — **effects:** applies condition fire
 
@@ -91,11 +91,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_maze_boulder2` · **Type:** NPC
 
-**Location:** [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2)
+**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Flaming orb. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -144,11 +144,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_maze_boulder3` · **Type:** NPC
 
-**Location:** [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3)
+**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Flaming orb. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -197,11 +197,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_maze_boulder4` · **Type:** NPC
 
-**Location:** [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4)
+**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Flaming orb. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -250,11 +250,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 **Entry ID:** `ratdom_maze_boulder5` · **Type:** NPC
 
-**Location:** [ratdom_maze_551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5)
+**Location:** [Ratdom maze 551](../maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Flaming orb. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Flaming orb. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_maze_boulder.json" data-npc="Flaming orb" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

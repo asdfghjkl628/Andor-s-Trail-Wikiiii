@@ -4,7 +4,7 @@ description: "Tainted zombie is an enemy in Andor's Trail (undead) with 87 HP, w
 
 # ![](../assets/icons/monsters/monsters_zombie2_0.png){ .sprite } Tainted zombie
 
-**Found in:** Foaming Flask Tavern: [oldcave1](../maps/oldcave1.md)
+**Found in:** Foaming Flask Tavern: [Oldcave 1](../maps/oldcave1.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Tainted zombie is an enemy in Andor's Trail (undead) with 87 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [oldcave1](../maps/oldcave1.md) | Foaming Flask Tavern | 8 | – |
+| [Oldcave 1](../maps/oldcave1.md) | Foaming Flask Tavern | 8 | – |
 
 
 ## Version history

@@ -47,7 +47,7 @@ description: "Sword of Shadow's rage is a extraordinary rapier in Andor's Trail 
 
 ### Quest & dialogue rewards
 
-- From [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) during [The agent and the beast](../quests/bwm_agent.md#stage-150) (100%)
+- From [Harlenn](../monsters/harlenn.md) ([Blackwater mountain 45](../maps/blackwater_mountain45.md)) during [The agent and the beast](../quests/bwm_agent.md#stage-150) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Rabid boar is an enemy in Andor's Trail (animal) with 20 HP, worth
 
 # ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } Rabid boar
 
-**Found in:** Blackwater Mountain: [blackwater_mountain54](../maps/blackwater_mountain54.md), Blackwater Mountain: [bwmfill1](../maps/bwmfill1.md), Crossglen: [wild1](../maps/wild1.md), Crossroads Guardhouse: [wild0](../maps/wild0.md)
+**Found in:** Blackwater Mountain: [Blackwater mountain 54](../maps/blackwater_mountain54.md), Blackwater Mountain: [Bwmfill 1](../maps/bwmfill1.md), Crossglen: [Wild 1](../maps/wild1.md), Crossroads Guardhouse: [Wild 0](../maps/wild0.md)
 
 <div class="infobox" markdown>
 
@@ -57,10 +57,10 @@ description: "Rabid boar is an enemy in Andor's Trail (animal) with 20 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain54](../maps/blackwater_mountain54.md) | Blackwater Mountain | 2 | – |
-| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 5 | – |
-| [wild0](../maps/wild0.md) | Crossroads Guardhouse | 3 | – |
-| [wild1](../maps/wild1.md) | Crossglen | 1 | – |
+| [Blackwater mountain 54](../maps/blackwater_mountain54.md) | Blackwater Mountain | 2 | – |
+| [Bwmfill 1](../maps/bwmfill1.md) | Blackwater Mountain | 5 | – |
+| [Wild 0](../maps/wild0.md) | Crossroads Guardhouse | 3 | – |
+| [Wild 1](../maps/wild1.md) | Crossglen | 1 | – |
 
 
 ## Version history

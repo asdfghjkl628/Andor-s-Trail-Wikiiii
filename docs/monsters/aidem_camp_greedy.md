@@ -1,5 +1,5 @@
 ---
-description: "Greedy is an NPC who can also be fought in Andor's Trail, found in aidem_base_2, aidem_camp, aidem_base_2, Fallhaven."
+description: "Greedy is an NPC who can also be fought in Andor's Trail, found in Aidem base 2, Aidem camp, Aidem base 2, Fallhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Greedy
@@ -11,7 +11,7 @@ description: "Greedy is an NPC who can also be fought in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | aidem_base_2, aidem_camp, aidem_base_2, Fallhaven |
+| **Found in** | Aidem base 2, Aidem camp, Aidem base 2, Fallhaven |
 | **Class** | Humanoid |
 | **HP** | 329 |
 | **XP when defeated** | 707 |
@@ -21,30 +21,30 @@ description: "Greedy is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Greedy. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Greedy. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`aidem_camp_greedy`](#v-aidem_camp_greedy) | NPC | [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy) | – | – |
-| [`aidem_base_greedy_aggressive`](#v-aidem_base_greedy_aggressive) | Enemy | [aidem_base_2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_greedy`](#v-aidem_jail_greedy) | Enemy | Fallhaven: [guildbrig2](../maps/guildbrig2.md) | – | 1 |
+| [`aidem_camp_greedy`](#v-aidem_camp_greedy) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy) | – | – |
+| [`aidem_base_greedy_aggressive`](#v-aidem_base_greedy_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
+| [`aidem_jail_greedy`](#v-aidem_jail_greedy) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
 
 ## Aidem base 2 and 1 more (aidem_camp_greedy) { #v-aidem_camp_greedy }
 
 **Entry ID:** `aidem_camp_greedy` · **Type:** NPC
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
-| [aidem_camp](../maps/aidem_camp.md) | – | 1 | Appears later, during a quest |
+| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+| [Aidem camp](../maps/aidem_camp.md) | – | 1 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Greedy. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Greedy. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_camp_greedy_10.json" data-npc="Greedy" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aidem_camp_greedy-aidem_camp_greedy_10"></span>**`aidem_camp_greedy_10`** Greedy: “I'm just the...um...”
 
@@ -109,7 +109,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `aidem_base_greedy_aggressive` · **Type:** Enemy
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md)
 
 ### Combat statistics
 
@@ -144,11 +144,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
+- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [Aidem base 2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -201,11 +201,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Guildbrig2 (aidem_jail_greedy) { #v-aidem_jail_greedy }
+## Fallhaven, Guildbrig 2 (aidem_jail_greedy) { #v-aidem_jail_greedy }
 
 **Entry ID:** `aidem_jail_greedy` · **Type:** Enemy
 
-**Location:** Fallhaven: [guildbrig2](../maps/guildbrig2.md)
+**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
 ### Combat statistics
 
@@ -233,7 +233,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guildbrig2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
 
 
 ### Version history

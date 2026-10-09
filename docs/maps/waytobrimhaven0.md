@@ -1,8 +1,8 @@
 ---
-description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Grasslands ant, Tough grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Loneford11, Waytobrimhaven1, Loneford2."
+description: "Waytobrimhaven 0 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Grasslands ant, Tough grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Loneford 11, Waytobrimhaven 1, Loneford 2."
 ---
 
-# Waytobrimhaven0
+# Waytobrimhaven 0
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Lone
 | **Region** | Near Loneford (settlement) |
 | **Type** | Outdoors |
 | **Size** | 32×23 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 4 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytobrimhaven0** is an outdoor map, near Loneford (settlement). It has no NPCs and 4 kinds of enemy. Exits lead to Loneford11, Waytobrimhaven1, Loneford2.
+**Waytobrimhaven 0** is an outdoor map, near Loneford (settlement). It has no NPCs and 4 kinds of enemy. Exits lead to Loneford 11, Waytobrimhaven 1, Loneford 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhaven0.webp" alt="Map of Waytobrimhaven0" width="1024" height="736" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waytobrimhaven1/#place-west" title="Exit to Waytobrimhaven1" style="left:96.875%;top:21.739%;width:3.125%;height:60.870%"></a><a id="place-west" class="mo mo-mapchange" href="../loneford2/#place-east" title="Exit to Loneford2" style="left:0.000%;top:34.783%;width:3.125%;height:4.348%"></a><a id="place-north" class="mo mo-mapchange" href="../loneford11/#place-south2" title="Exit to Loneford11" style="left:3.125%;top:0.000%;width:21.875%;height:4.348%"></a><a id="place-west2" class="mo mo-mapchange" href="../loneford2/#place-east2" title="Exit to Loneford2" style="left:0.000%;top:8.696%;width:3.125%;height:21.739%"></a><a id="place-west3" class="mo mo-mapchange" href="../loneford2/#place-east3" title="Exit to Loneford2" style="left:0.000%;top:43.478%;width:3.125%;height:4.348%"></a><span class="mo mo-spawn" title="Spawns: Grasslands ant, Tough grasslands ant" style="left:28.125%;top:26.087%;width:34.375%;height:21.739%"></span><span class="mo mo-spawn" title="Spawns: Grasslands beetle, Tough grasslands beetle" style="left:62.500%;top:26.087%;width:31.250%;height:26.087%"></span><a class="mob" href="../../monsters/grass_ant/" title="Grasslands ant" style="left:40.625%;top:30.435%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_0.png" alt="Grasslands ant"></a><a class="mob" href="../../monsters/grass_ant2/" title="Tough grasslands ant" style="left:34.375%;top:34.783%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_2.png" alt="Tough grasslands ant"></a><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:81.250%;top:30.435%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle2/" title="Tough grasslands beetle" style="left:71.875%;top:26.087%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Tough grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle2/" title="Tough grasslands beetle" style="left:90.625%;top:34.783%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Tough grasslands beetle"></a><a class="pin pin-exit" href="#key-1" style="left:14.062%;top:2.174%" title="Exit (north): to [Loneford11](loneford11.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.438%;top:52.174%" title="Exit (east): to [Waytobrimhaven1](waytobrimhaven1.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:1.562%;top:36.957%" title="Exit (west): to [Loneford2](loneford2.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:1.562%;top:19.565%" title="Exit (west): to [Loneford2](loneford2.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:1.562%;top:45.652%" title="Exit (west): to [Loneford2](loneford2.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhaven0.webp" alt="Map of Waytobrimhaven 0" width="1024" height="736" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waytobrimhaven1/#place-west" title="Exit to Waytobrimhaven 1" style="left:96.875%;top:21.739%;width:3.125%;height:60.870%"></a><a id="place-west" class="mo mo-mapchange" href="../loneford2/#place-east" title="Exit to Loneford 2" style="left:0.000%;top:34.783%;width:3.125%;height:4.348%"></a><a id="place-north" class="mo mo-mapchange" href="../loneford11/#place-south2" title="Exit to Loneford 11" style="left:3.125%;top:0.000%;width:21.875%;height:4.348%"></a><a id="place-west2" class="mo mo-mapchange" href="../loneford2/#place-east2" title="Exit to Loneford 2" style="left:0.000%;top:8.696%;width:3.125%;height:21.739%"></a><a id="place-west3" class="mo mo-mapchange" href="../loneford2/#place-east3" title="Exit to Loneford 2" style="left:0.000%;top:43.478%;width:3.125%;height:4.348%"></a><span class="mo mo-spawn" title="Spawns: Grasslands ant, Tough grasslands ant" style="left:28.125%;top:26.087%;width:34.375%;height:21.739%"></span><span class="mo mo-spawn" title="Spawns: Grasslands beetle, Tough grasslands beetle" style="left:62.500%;top:26.087%;width:31.250%;height:26.087%"></span><a class="mob" href="../../monsters/grass_ant/" title="Grasslands ant" style="left:40.625%;top:30.435%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_0.png" alt="Grasslands ant"></a><a class="mob" href="../../monsters/grass_ant2/" title="Tough grasslands ant" style="left:34.375%;top:34.783%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_2.png" alt="Tough grasslands ant"></a><a class="mob" href="../../monsters/grass_beetle/" title="Grasslands beetle" style="left:81.250%;top:30.435%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle2/" title="Tough grasslands beetle" style="left:71.875%;top:26.087%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Tough grasslands beetle"></a><a class="mob" href="../../monsters/grass_beetle2/" title="Tough grasslands beetle" style="left:90.625%;top:34.783%;width:3.125%;height:4.348%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Tough grasslands beetle"></a><a class="pin pin-exit" href="#key-1" style="left:14.062%;top:2.174%" title="Exit (north): to [Loneford 11](loneford11.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:98.438%;top:52.174%" title="Exit (east): to [Waytobrimhaven 1](waytobrimhaven1.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:1.562%;top:36.957%" title="Exit (west): to [Loneford 2](loneford2.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:1.562%;top:19.565%" title="Exit (west): to [Loneford 2](loneford2.md)">3</a><a class="pin pin-exit" href="#key-3" style="left:1.562%;top:45.652%" title="Exit (west): to [Loneford 2](loneford2.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Loneford11](loneford11.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Waytobrimhaven1](waytobrimhaven1.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Loneford2](loneford2.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Loneford 11](loneford11.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Waytobrimhaven 1](waytobrimhaven1.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Loneford 2](loneford2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Waytobrimhaven0 is an outdoor location in Andor's Trail, near Lone
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Loneford11](loneford11.md) | Loneford | 1 |
-| East | [Waytobrimhaven1](waytobrimhaven1.md) | Loneford | 2 |
-| West | [Loneford2](loneford2.md) | Loneford | 3 |
+| North | [Loneford 11](loneford11.md) | Loneford | 1 |
+| East | [Waytobrimhaven 1](waytobrimhaven1.md) | Loneford | 2 |
+| West | [Loneford 2](loneford2.md) | Loneford | 3 |
 
 ## Enemies
 

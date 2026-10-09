@@ -28,9 +28,9 @@ description: "Ablaze is a harmful physical condition in Andor's Trail: attack ch
 | Attack chance | −15 |
 | HP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -47,29 +47,29 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Ancient walking inferno](../monsters/fire9.md) | When it hits you | 3 | 5 rounds | 20% | lostmine11 |
-| [Blazing abcess](../monsters/fire2.md) | When it hits you | 5 | 4 rounds | 20% | lostmine6, lostmine7, lostmine8 |
+| [Ancient walking inferno](../monsters/fire9.md) | When it hits you | 3 | 5 rounds | 20% | Lostmine 11 |
+| [Blazing abcess](../monsters/fire2.md) | When it hits you | 5 | 4 rounds | 20% | Lostmine 6, Lostmine 7, Lostmine 8 |
 | [Embergeist](../monsters/embergeist.md) | When you hit it | 2 | 5 rounds | 90% | Mt. Galmore |
-| [Flame spawn](../monsters/fire6.md) | When it hits you | 2 | 5 rounds | 10% | lostmine10, lostmine9 |
-| [Glowing abcess](../monsters/fire1.md) | When it hits you | 5 | 3 rounds | 20% | lostmine6, lostmine7, lostmine8 |
-| [Glowing flame](../monsters/fire5.md) | When it hits you | 1 | 5 rounds | 20% | lostmine10, lostmine9 |
-| [Lava spawn](../monsters/fire3.md) | When it hits you | 1 | 4 rounds | 10% | lostmine7, lostmine8, lostmine9 |
-| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | When you hit it | 2 | 4 rounds | 75% | galmore_71 |
+| [Flame spawn](../monsters/fire6.md) | When it hits you | 2 | 5 rounds | 10% | Lostmine 10, Lostmine 9 |
+| [Glowing abcess](../monsters/fire1.md) | When it hits you | 5 | 3 rounds | 20% | Lostmine 6, Lostmine 7, Lostmine 8 |
+| [Glowing flame](../monsters/fire5.md) | When it hits you | 1 | 5 rounds | 20% | Lostmine 10, Lostmine 9 |
+| [Lava spawn](../monsters/fire3.md) | When it hits you | 1 | 4 rounds | 10% | Lostmine 7, Lostmine 8, Lostmine 9 |
+| [Pyreling behemoth](../monsters/Pyreling_behemoth.md) | When you hit it | 2 | 4 rounds | 75% | Galmore 71 |
 | [Spitfire bug](../monsters/spitfire_bug.md) | When it hits you | 2 | 4 rounds | 50% | Mt. Galmore |
-| [Thukuzun](../monsters/thukuzun.md) | When it hits you | 3 | 7 rounds | 30% | lostmine11 |
-| [Tough lava spawn](../monsters/fire4.md) | When it hits you | 1 | 5 rounds | 10% | lostmine7, lostmine8, lostmine9 |
-| [Walking flame](../monsters/fire7.md) | When it hits you | 2 | 5 rounds | 20% | lostmine10, lostmine11 |
-| [Walking inferno](../monsters/fire8.md) | When it hits you | 3 | 5 rounds | 20% | lostmine10, lostmine11 |
+| [Thukuzun](../monsters/thukuzun.md) | When it hits you | 3 | 7 rounds | 30% | Lostmine 11 |
+| [Tough lava spawn](../monsters/fire4.md) | When it hits you | 1 | 5 rounds | 10% | Lostmine 7, Lostmine 8, Lostmine 9 |
+| [Walking flame](../monsters/fire7.md) | When it hits you | 2 | 5 rounds | 20% | Lostmine 10, Lostmine 11 |
+| [Walking inferno](../monsters/fire8.md) | When it hits you | 3 | 5 rounds | 20% | Lostmine 10, Lostmine 11 |
 | [Young spitfire bug](../monsters/young_spitfire_bug.md) | When it hits you | 2 | 4 rounds | 50% | Mt. Galmore |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [arulircave6](../maps/arulircave6.md) | – | 1 round |
-| stepping on a trigger on [arulircave6](../maps/arulircave6.md) | – | 2 rounds |
-| [Flaming orb](../monsters/ratdom_maze_boulder1.md) ([ratdom_maze_551](../maps/ratdom_maze_551.md)), [Flaming orb](../monsters/ratdom_maze_boulder1.md#v-ratdom_maze_boulder2) ([ratdom_maze_551](../maps/ratdom_maze_551.md)) | – | 3 rounds |
-| stepping on a trigger on [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | 3 rounds |
+| stepping on a trigger on [Arulircave 6](../maps/arulircave6.md) | – | 1 round |
+| stepping on a trigger on [Arulircave 6](../maps/arulircave6.md) | – | 2 rounds |
+| [Flaming orb](../monsters/ratdom_maze_boulder1.md) ([Ratdom maze 551](../maps/ratdom_maze_551.md)), [Flaming orb](../monsters/ratdom_maze_boulder1.md#v-ratdom_maze_boulder2) ([Ratdom maze 551](../maps/ratdom_maze_551.md)) | – | 3 rounds |
+| stepping on a trigger on [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | – | 3 rounds |
 
 ## Applied to enemies
 
@@ -85,12 +85,12 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Immunity** from [Iced leather armor](../items/armor5.md) (while equipped; while equipped).
 - **Immunity** from [Heartfire pendant of Kazaul](../items/heartfire_pendant.md) (while equipped; while equipped).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

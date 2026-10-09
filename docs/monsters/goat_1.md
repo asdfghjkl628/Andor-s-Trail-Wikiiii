@@ -1,5 +1,5 @@
 ---
-description: "Goat is a non-player character (NPC) in Andor's Trail, found in Mt. Galmore, Stoutford, way_to_sullengard_east11."
+description: "Goat is a non-player character (NPC) in Andor's Trail, found in Mt. Galmore, Stoutford, Way to sullengard east 11."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_0.png){ .sprite } Goat
@@ -11,36 +11,36 @@ description: "Goat is a non-player character (NPC) in Andor's Trail, found in Mt
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | Mt. Galmore, Stoutford, way_to_sullengard_east11 |
+| **Found in** | Mt. Galmore, Stoutford, Way to sullengard east 11 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Goat. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Goat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`goat_1`](#v-goat_1) | NPC | Mt. Galmore: [galmore_24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [stoutford_sw](../maps/stoutford_sw.md#pin-npc-goat_1) | – |
-| [`sullengard_goat_standing`](#v-sullengard_goat_standing) | NPC | [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing) | – |
+| [`goat_1`](#v-goat_1) | NPC | Mt. Galmore: [Galmore 24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [Stoutford south-west](../maps/stoutford_sw.md#pin-npc-goat_1) | – |
+| [`sullengard_goat_standing`](#v-sullengard_goat_standing) | NPC | [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing) | – |
 
 ## Mt. Galmore, Galmore 24 and 1 more (goat_1) { #v-goat_1 }
 
 **Entry ID:** `goat_1` · **Type:** NPC
 
-**Location:** Mt. Galmore: [galmore_24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [stoutford_sw](../maps/stoutford_sw.md#pin-npc-goat_1)
+**Location:** Mt. Galmore: [Galmore 24](../maps/galmore_24.md#pin-npc-goat_1), Stoutford: [Stoutford south-west](../maps/stoutford_sw.md#pin-npc-goat_1)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_24](../maps/galmore_24.md) | Mt. Galmore | 1 | – |
-| [stoutford_sw](../maps/stoutford_sw.md) | Stoutford | 6 | – |
+| [Galmore 24](../maps/galmore_24.md) | Mt. Galmore | 1 | – |
+| [Stoutford south-west](../maps/stoutford_sw.md) | Stoutford | 6 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Goat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Goat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/goat_0.json" data-npc="Goat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-goat_1-goat_0"></span>**`goat_0`** Goat: “Baaaaaa!”
 
@@ -89,15 +89,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Way to sullengard east11 (sullengard_goat_standing) { #v-sullengard_goat_standing }
+## Way to sullengard east 11 (sullengard_goat_standing) { #v-sullengard_goat_standing }
 
 **Entry ID:** `sullengard_goat_standing` · **Type:** NPC
 
-**Location:** [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing)
+**Location:** [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sullengard_goat_standing)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Goat. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Goat. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_goat_0.json" data-npc="Goat" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_goat_standing-sullengard_goat_0"></span>**`sullengard_goat_0`** Goat: “Baa.”
 

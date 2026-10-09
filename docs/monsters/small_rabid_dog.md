@@ -4,7 +4,7 @@ description: "Small rabid dog is an enemy in Andor's Trail (animal) with 6 HP, w
 
 # ![](../assets/icons/monsters/monsters_dogs_1.png){ .sprite } Small rabid dog
 
-**Found in:** Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md), Crossglen: [wild1](../maps/wild1.md), Crossroads Guardhouse: [wild0](../maps/wild0.md), Fallhaven: [gapfiller4](../maps/gapfiller4.md) (+1 more)
+**Found in:** Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md), Crossglen: [Wild 1](../maps/wild1.md), Crossroads Guardhouse: [Wild 0](../maps/wild0.md), Fallhaven: [Gapfiller 4](../maps/gapfiller4.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -56,11 +56,11 @@ description: "Small rabid dog is an enemy in Andor's Trail (animal) with 6 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gapfiller4](../maps/gapfiller4.md) | Fallhaven | 3 | – |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 4 | – |
-| [wild0](../maps/wild0.md) | Crossroads Guardhouse | 3 | – |
-| [wild1](../maps/wild1.md) | Crossglen | 4 | – |
-| [wild3](../maps/wild3.md) | Fallhaven | 2 | – |
+| [Gapfiller 4](../maps/gapfiller4.md) | Fallhaven | 3 | – |
+| [Waytobrimhaven 3](../maps/waytobrimhaven3.md) | Brimhaven | 4 | – |
+| [Wild 0](../maps/wild0.md) | Crossroads Guardhouse | 3 | – |
+| [Wild 1](../maps/wild1.md) | Crossglen | 4 | – |
+| [Wild 3](../maps/wild3.md) | Fallhaven | 2 | – |
 
 
 ## Version history

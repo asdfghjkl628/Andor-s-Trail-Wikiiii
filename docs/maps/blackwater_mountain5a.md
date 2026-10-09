@@ -1,8 +1,8 @@
 ---
-description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain5."
+description: "Blackwater mountain 5a is an indoor location in Andor's Trail. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 5."
 ---
 
-# Blackwater mountain5a
+# Blackwater mountain 5a
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enem
 
 </div>
 
-**Blackwater mountain5a** is an indoor map. It has no NPCs and 4 kinds of enemy. Exits lead to Blackwater mountain5.
+**Blackwater mountain 5a** is an indoor map. It has no NPCs and 4 kinds of enemy. Exits lead to Blackwater mountain 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain5a.webp" alt="Map of Blackwater mountain5a" width="640" height="576" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../blackwater_mountain5/#place-west" title="Exit to Blackwater mountain5" style="left:95.000%;top:44.444%;width:5.000%;height:5.556%"></a><a class="mo mo-script" href="../../quests/misc_nondisplay/#stage-10" title="Scripted event: advances the quest: hidden story flag “misc_nondisplay” to stage 10 (“Found silver bar at bwm”)" style="left:25.000%;top:27.778%;width:5.000%;height:5.556%"></a><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:10.000%;top:44.444%;width:15.000%;height:27.778%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:25.000%;top:66.667%;width:5.000%;height:5.556%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:25.000%;top:22.222%;width:20.000%;height:44.444%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:55.000%;top:27.778%;width:35.000%;height:55.556%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:30.000%;top:66.667%;width:30.000%;height:22.222%"></span><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:20.000%;top:61.111%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:25.000%;top:66.667%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:30.000%;top:33.333%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:40.000%;top:38.889%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:80.000%;top:61.111%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:70.000%;top:61.111%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:40.000%;top:77.778%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:47.222%" title="Exit (east): to [Blackwater mountain5](blackwater_mountain5.md)">1</a><a class="pin pin-script" href="#key-2" style="left:27.500%;top:30.556%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “misc_nondisplay” to stage 10 (“Found silver bar at bwm”)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/blackwater_mountain5a.webp" alt="Map of Blackwater mountain 5a" width="640" height="576" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../blackwater_mountain5/#place-west" title="Exit to Blackwater mountain 5" style="left:95.000%;top:44.444%;width:5.000%;height:5.556%"></a><a class="mo mo-script" href="../../quests/misc_nondisplay/#stage-10" title="Scripted event: advances the quest: hidden story flag “misc_nondisplay” to stage 10 (“Found silver bar at bwm”)" style="left:25.000%;top:27.778%;width:5.000%;height:5.556%"></a><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:10.000%;top:44.444%;width:15.000%;height:27.778%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:25.000%;top:66.667%;width:5.000%;height:5.556%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:25.000%;top:22.222%;width:20.000%;height:44.444%"></span><span class="mo mo-spawn" title="Spawns: Slithering venomfang, Young gornaud" style="left:55.000%;top:27.778%;width:35.000%;height:55.556%"></span><span class="mo mo-spawn" title="Spawns: Gornaud, Scaled venomfang" style="left:30.000%;top:66.667%;width:30.000%;height:22.222%"></span><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:20.000%;top:61.111%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:25.000%;top:66.667%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:30.000%;top:33.333%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:40.000%;top:38.889%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="mob" href="../../monsters/slithering_venomfang/" title="Slithering venomfang" style="left:80.000%;top:61.111%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_snakes_2.png" alt="Slithering venomfang"></a><a class="mob" href="../../monsters/young_gornaud/" title="Young gornaud" style="left:70.000%;top:61.111%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Young gornaud"></a><a class="mob" href="../../monsters/gornaud/" title="Gornaud" style="left:40.000%;top:77.778%;width:5.000%;height:5.556%"><img src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt="Gornaud"></a><a class="pin pin-exit" href="#key-1" style="left:97.500%;top:47.222%" title="Exit (east): to [Blackwater mountain 5](blackwater_mountain5.md)">1</a><a class="pin pin-script" href="#key-2" style="left:27.500%;top:30.556%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “misc_nondisplay” to stage 10 (“Found silver bar at bwm”)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Blackwater mountain5](blackwater_mountain5.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Blackwater mountain 5](blackwater_mountain5.md) |
     | <span id="key-2"></span>2 | Quest trigger | Scripted event: advances the quest: hidden story flag “misc_nondisplay” to stage 10 (“Found silver bar at bwm”) |
 
 
@@ -40,7 +40,7 @@ description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enem
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Blackwater mountain5](blackwater_mountain5.md) | – | 1 |
+| East | [Blackwater mountain 5](blackwater_mountain5.md) | – | 1 |
 
 ## Enemies
 
@@ -55,7 +55,7 @@ description: "Blackwater mountain5a is an indoor location in Andor's Trail. Enem
 
 ## Quests
 
-- [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 10
+- [Miscellaneous story flags (hidden flag)](../quests/misc_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 10
 
 ## Points of interest
 

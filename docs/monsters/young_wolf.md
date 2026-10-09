@@ -4,7 +4,7 @@ description: "Young wolf is an enemy in Andor's Trail (animal) with 35 HP, worth
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Young wolf
 
-**Found in:** Fallhaven: [wild11](../maps/wild11.md), Fallhaven: [wild11_clearing](../maps/wild11_clearing.md), [clearing_level1](../maps/clearing_level1.md)
+**Found in:** Fallhaven: [Wild 11](../maps/wild11.md), Fallhaven: [Wild 11 clearing](../maps/wild11_clearing.md), [Clearing level 1](../maps/clearing_level1.md)
 
 <div class="infobox" markdown>
 
@@ -57,9 +57,9 @@ description: "Young wolf is an enemy in Andor's Trail (animal) with 35 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [clearing_level1](../maps/clearing_level1.md) | – | 12 | – |
-| [wild11](../maps/wild11.md) | Fallhaven | 1 | – |
-| [wild11_clearing](../maps/wild11_clearing.md) | Fallhaven | 7 | – |
+| [Clearing level 1](../maps/clearing_level1.md) | – | 12 | – |
+| [Wild 11](../maps/wild11.md) | Fallhaven | 1 | – |
+| [Wild 11 clearing](../maps/wild11_clearing.md) | Fallhaven | 7 | – |
 
 
 ## Version history

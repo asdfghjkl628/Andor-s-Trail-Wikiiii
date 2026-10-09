@@ -25,7 +25,7 @@ description: "Tinlyn's sheep bell is a quest other in Andor's Trail. How to get 
 
 ### Quest & dialogue rewards
 
-- From [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) during [Lost sheep](../quests/tinlyn.md#stage-15) (100%)
+- From [Tinlyn](../monsters/tinlyn.md) ([Fields 6](../maps/fields6.md)) during [Lost sheep](../quests/tinlyn.md#stage-15) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,10 +36,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Sheep](../monsters/sheep1.md#v-lostsheep1) ([fields1](../maps/fields1.md)) | [Lost sheep](../quests/tinlyn.md#stage-20) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
-| [Sheep](../monsters/sheep1.md#v-lostsheep2) ([fields2](../maps/fields2.md)) | [Lost sheep](../quests/tinlyn.md#stage-21) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
-| [Sheep](../monsters/sheep1.md#v-lostsheep3) ([fields3](../maps/fields3.md)) | [Lost sheep](../quests/tinlyn.md#stage-22) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
-| [Sheep](../monsters/sheep1.md#v-lostsheep4) ([loneford1](../maps/loneford1.md)) | [Lost sheep](../quests/tinlyn.md#stage-23) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
+| [Sheep](../monsters/sheep1.md#v-lostsheep1) ([Fields 1](../maps/fields1.md)) | [Lost sheep](../quests/tinlyn.md#stage-20) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
+| [Sheep](../monsters/sheep1.md#v-lostsheep2) ([Fields 2](../maps/fields2.md)) | [Lost sheep](../quests/tinlyn.md#stage-21) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
+| [Sheep](../monsters/sheep1.md#v-lostsheep3) ([Fields 3](../maps/fields3.md)) | [Lost sheep](../quests/tinlyn.md#stage-22) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
+| [Sheep](../monsters/sheep1.md#v-lostsheep4) ([Loneford 1](../maps/loneford1.md)) | [Lost sheep](../quests/tinlyn.md#stage-23) | handed over (1×) | “[Place Tinlyn's bell around the neck of the sheep]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

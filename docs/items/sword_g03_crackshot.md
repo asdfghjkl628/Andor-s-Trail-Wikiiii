@@ -49,7 +49,7 @@ description: "Yatagan is a extraordinary broadsword in Andor's Trail (Attack dam
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Crackshot](../monsters/g03_crackshot.md) | 100% | 1 | crackshot_hideout3 |
+| [Crackshot](../monsters/g03_crackshot.md) | 100% | 1 | Crackshot hideout 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Fearless mountain brute is an enemy in Andor's Trail (giant) with 137 HP, worth 261 XP, found in mountainlake8, mountainlake8_cave. Drops: Bone, Animal hair, Mundane ring."
+description: "Fearless mountain brute is an enemy in Andor's Trail (giant) with 137 HP, worth 261 XP, found in Mountainlake 8, Mountainlake 8 cave. Drops: Bone, Animal hair, Mundane ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_33.png){ .sprite } Fearless mountain brute
 
-**Found in:** [mountainlake8](../maps/mountainlake8.md), [mountainlake8_cave](../maps/mountainlake8_cave.md)
+**Found in:** [Mountainlake 8](../maps/mountainlake8.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Fearless mountain brute is an enemy in Andor's Trail (giant) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake8, mountainlake8_cave |
+| **Found in** | Mountainlake 8, Mountainlake 8 cave |
 | **Class** | Giant |
 | **HP** | 137 |
 | **XP when defeated** | 261 |
@@ -56,8 +56,8 @@ description: "Fearless mountain brute is an enemy in Andor's Trail (giant) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake8](../maps/mountainlake8.md) | – | 4 | – |
-| [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | 4 | – |
+| [Mountainlake 8](../maps/mountainlake8.md) | – | 4 | – |
+| [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | – | 4 | – |
 
 
 ## Version history

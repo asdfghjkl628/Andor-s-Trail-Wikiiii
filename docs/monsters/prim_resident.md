@@ -4,7 +4,7 @@ description: "Prim resident is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } Prim resident
 
-**Where to find Prim resident:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-prim_resident)
+**Where to find Prim resident:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-prim_resident)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Prim resident is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Prim resident. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Prim resident. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_commoner3.json" data-npc="Prim resident" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-prim_commoner3"></span>**`prim_commoner3`** Prim resident: “Hello. Welcome to Prim.”
 
@@ -43,7 +43,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-prim_commoner3_2"></span>**`prim_commoner3_2`** Prim resident: “Oh, poor Lorn. I heard that he fell off the mountain.”
 
     - “Anything more?” → [prim_commoner3_3](#d-prim_commoner3_3)
-    - “People say he was quite skilled at climbing.” *(if reached stage 9 of [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-9))* → [prim_commoner3_4](#d-prim_commoner3_4)
+    - “People say he was quite skilled at climbing.” *(if reached stage 9 of [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-9))* → [prim_commoner3_4](#d-prim_commoner3_4)
 
     <span id="d-prim_commoner3_3"></span>**`prim_commoner3_3`** Prim resident: “No, sorry. I didn't know him much.”
 

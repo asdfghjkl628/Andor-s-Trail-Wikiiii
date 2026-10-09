@@ -1,5 +1,5 @@
 ---
-description: "Brightport forest is an indoor location in Andor's Trail. NPCs: Bryma, Writhing bread. Exits to Brightportwild8."
+description: "Brightport forest is an indoor location in Andor's Trail. NPCs: Bryma, Writhing bread. Exits to Brightportwild 8."
 ---
 
 # Brightport forest
@@ -17,20 +17,20 @@ description: "Brightport forest is an indoor location in Andor's Trail. NPCs: Br
 
 </div>
 
-**Brightport forest** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Brightportwild8.
+**Brightport forest** is an indoor map. It has 2 NPCs, and no enemies. Exits lead to Brightportwild 8.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_forest.webp" alt="Map of Brightport forest" width="384" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightportwild8/#place-forest" title="Exit to Brightportwild8" style="left:58.333%;top:87.500%;width:8.333%;height:12.500%"></a><a id="place-entrance1" class="mo mo-mapchange" href="../brightportwild8/#place-forest1" title="Exit to Brightportwild8" style="left:58.333%;top:25.000%;width:8.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Writhing bread" style="left:16.667%;top:50.000%;width:16.667%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Bryma" style="left:50.000%;top:50.000%;width:33.333%;height:25.000%"></span><a class="mob" href="../../monsters/breadgolem1/" title="Writhing bread" style="left:16.667%;top:62.500%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_tometik10_5.png" alt="Writhing bread"></a><a class="mob" href="../../monsters/brightportnpc7/" title="Bryma" style="left:50.000%;top:50.000%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt="Bryma"></a><a class="pin pin-exit" href="#key-1" style="left:62.500%;top:93.750%" title="Exit (south): to [Brightportwild8](brightportwild8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:62.500%;top:31.250%" title="Exit (stairs / passage): to [Brightportwild8](brightportwild8.md)">2</a><a id="pin-npc-brightportnpc7" class="pin pin-npc" href="#key-3" style="left:54.167%;top:56.250%" title="[Bryma](../../monsters/brightportnpc7.md): 3 quests">3</a><a id="pin-npc-breadgolem1" class="pin pin-npc" href="#key-4" style="left:20.833%;top:68.750%" title="[Writhing bread](../../monsters/breadgolem1.md): NPC">4</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_forest.webp" alt="Map of Brightport forest" width="384" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightportwild8/#place-forest" title="Exit to Brightportwild 8" style="left:58.333%;top:87.500%;width:8.333%;height:12.500%"></a><a id="place-entrance1" class="mo mo-mapchange" href="../brightportwild8/#place-forest1" title="Exit to Brightportwild 8" style="left:58.333%;top:25.000%;width:8.333%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Writhing bread" style="left:16.667%;top:50.000%;width:16.667%;height:25.000%"></span><span class="mo mo-spawn" title="Spawns: Bryma" style="left:50.000%;top:50.000%;width:33.333%;height:25.000%"></span><a class="mob" href="../../monsters/breadgolem1/" title="Writhing bread" style="left:16.667%;top:62.500%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_tometik10_5.png" alt="Writhing bread"></a><a class="mob" href="../../monsters/brightportnpc7/" title="Bryma" style="left:50.000%;top:50.000%;width:8.333%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt="Bryma"></a><a class="pin pin-exit" href="#key-1" style="left:62.500%;top:93.750%" title="Exit (south): to [Brightportwild 8](brightportwild8.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:62.500%;top:31.250%" title="Exit (stairs / passage): to [Brightportwild 8](brightportwild8.md)">2</a><a id="pin-npc-brightportnpc7" class="pin pin-npc" href="#key-3" style="left:54.167%;top:56.250%" title="[Bryma](../../monsters/brightportnpc7.md): 3 quests">3</a><a id="pin-npc-breadgolem1" class="pin pin-npc" href="#key-4" style="left:20.833%;top:68.750%" title="[Writhing bread](../../monsters/breadgolem1.md): NPC">4</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brightportwild8](brightportwild8.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightportwild8](brightportwild8.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brightportwild 8](brightportwild8.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightportwild 8](brightportwild8.md) |
     | <span id="key-3"></span>3 | [Bryma](../monsters/brightportnpc7.md) | 3 quests |
     | <span id="key-4"></span>4 | [Writhing bread](../monsters/breadgolem1.md) | NPC |
 
@@ -41,8 +41,8 @@ description: "Brightport forest is an indoor location in Andor's Trail. NPCs: Br
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brightportwild8](brightportwild8.md) | – | 1 |
-| Stairs / passage | [Brightportwild8](brightportwild8.md) | – | 2 |
+| South | [Brightportwild 8](brightportwild8.md) | – | 1 |
+| Stairs / passage | [Brightportwild 8](brightportwild8.md) | – | 2 |
 
 ## NPCs
 
@@ -54,7 +54,7 @@ description: "Brightport forest is an indoor location in Andor's Trail. NPCs: Br
 - [No rest for the wicked](../quests/Stanwickquest.md): [Bryma](../monsters/brightportnpc7.md) is involved
 - [Search for Andor](../quests/andor.md): [Bryma](../monsters/brightportnpc7.md) is involved
 - [The balance of scales](../quests/brightport_lizard.md): [Bryma](../monsters/brightportnpc7.md) is involved
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Bryma](../monsters/brightportnpc7.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Bryma](../monsters/brightportnpc7.md) is involved
 
 
 ## Version history

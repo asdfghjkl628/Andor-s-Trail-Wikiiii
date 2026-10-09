@@ -67,7 +67,7 @@ description: "Brightport thieves is an indoor location in Andor's Trail, in Brig
 - [Boxed in](../quests/brightport_thieves.md): [Elysa](../monsters/brightportthieves6.md) is involved
 - [No rest for the wicked](../quests/Stanwickquest.md): [Counterfeit](../monsters/brightportthieves2.md) is involved
 - [Search for Andor](../quests/andor.md): [Elysa](../monsters/brightportthieves6.md) is involved
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Elysa](../monsters/brightportthieves6.md) is involved; [Mordred](../monsters/brightport_huntingdog.md) is involved; [Oseanpry](../monsters/Brightportthieves5.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Elysa](../monsters/brightportthieves6.md) is involved; [Mordred](../monsters/brightport_huntingdog.md) is involved; [Oseanpry](../monsters/Brightportthieves5.md) is involved
 
 
 ## Version history

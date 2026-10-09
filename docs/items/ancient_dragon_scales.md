@@ -26,10 +26,10 @@ description: "Ash covered dragon scales is a rare animal part in Andor's Trail. 
 
 ### Found in containers
 
-- [undertell_3_lava_00](../maps/undertell_3_lava_00.md#container-0) (container 1, 100%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-0) (container 1, 100%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-1) (container 2, 100%)
-- [undertell_3_lava_01](../maps/undertell_3_lava_01.md#container-2) (container 3, 100%)
+- [Undertell 3 lava 00](../maps/undertell_3_lava_00.md#container-0) (container 1, 100%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-0) (container 1, 100%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-1) (container 2, 100%)
+- [Undertell 3 lava 01](../maps/undertell_3_lava_01.md#container-2) (container 3, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -40,7 +40,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lethgar miner ghost](../monsters/lethgar_miner_ghost.md#v-lethgar_miner_ghost2) ([undertell_1_1](../maps/undertell_1_1.md)) | – | must be carried (1×) | “I found these ash covered dragon scales. Was this place once home to a dragon?” |
+| [Lethgar miner ghost](../monsters/lethgar_miner_ghost.md#v-lethgar_miner_ghost2) ([Undertell 1 1](../maps/undertell_1_1.md)) | – | must be carried (1×) | “I found these ash covered dragon scales. Was this place once home to a dragon?” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

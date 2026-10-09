@@ -4,7 +4,7 @@ description: "Corrupted zombie is an enemy in Andor's Trail (undead) with 42 HP,
 
 # ![](../assets/icons/monsters/monsters_zombie2_0.png){ .sprite } Corrupted zombie
 
-**Found in:** Foaming Flask Tavern: [oldcave0](../maps/oldcave0.md), Foaming Flask Tavern: [oldcave1](../maps/oldcave1.md)
+**Found in:** Foaming Flask Tavern: [Oldcave 0](../maps/oldcave0.md), Foaming Flask Tavern: [Oldcave 1](../maps/oldcave1.md)
 
 <div class="infobox" markdown>
 
@@ -57,8 +57,8 @@ description: "Corrupted zombie is an enemy in Andor's Trail (undead) with 42 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [oldcave0](../maps/oldcave0.md) | Foaming Flask Tavern | 3 | – |
-| [oldcave1](../maps/oldcave1.md) | Foaming Flask Tavern | 8 | – |
+| [Oldcave 0](../maps/oldcave0.md) | Foaming Flask Tavern | 3 | – |
+| [Oldcave 1](../maps/oldcave1.md) | Foaming Flask Tavern | 8 | – |
 
 
 ## Version history

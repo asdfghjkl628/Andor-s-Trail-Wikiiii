@@ -4,7 +4,7 @@ description: "Churrie is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_184.png){ .sprite } Churrie
 
-**Where to find Churrie:** Loneford: [waytobrimhaven2](../maps/waytobrimhaven2.md#pin-npc-churrie)
+**Where to find Churrie:** Loneford: [Waytobrimhaven 2](../maps/waytobrimhaven2.md#pin-npc-churrie)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Churrie is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 87
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 87
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Churrie. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Churrie. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/churrie.json" data-npc="Churrie" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-churrie"></span>**`churrie`** Churrie: “Attention, kid! This is a dangerous place.”
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “What has money to do with it? I better go.” → *conversation ends*
     - “It should not fail because of a lack of money. Here you have 2,500 gold.” *(if pay 2,500 gold)* → [churrie_30](#d-churrie_30)
 
-    <span id="d-churrie_30"></span>**`churrie_30`** Churrie: “Oh, wow! I will take care of it. So much money! Probably tonight ...” — **effects:** sets stage 87 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-87)
+    <span id="d-churrie_30"></span>**`churrie_30`** Churrie: “Oh, wow! I will take care of it. So much money! Probably tonight ...” — **effects:** sets stage 87 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-87)
 
 
 

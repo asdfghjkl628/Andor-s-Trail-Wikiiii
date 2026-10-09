@@ -1,10 +1,10 @@
 ---
-description: "Brenor is a non-player character (NPC) in Andor's Trail, found in undertell_1_0."
+description: "Brenor is a non-player character (NPC) in Andor's Trail, found in Undertell 1 0."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_45.png){ .sprite } Brenor
 
-**Where to find Brenor:** [undertell_1_0](../maps/undertell_1_0.md#pin-npc-brenor)
+**Where to find Brenor:** [Undertell 1 0](../maps/undertell_1_0.md#pin-npc-brenor)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Brenor is a non-player character (NPC) in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | undertell_1_0 |
+| **Found in** | Undertell 1 0 |
 | **Entry ID** | `brenor` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -22,11 +22,11 @@ description: "Brenor is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Undertell: What was not written](../quests/undertell_book.md): stages 50, 80
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stage 100
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stage 100
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Brenor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Brenor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brenor_selector.json" data-npc="Brenor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brenor_selector"></span>**`brenor_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I must continue my search.” *(if reached stage 50 of [Undertell: What was not written](../quests/undertell_book.md#stage-50); reached stage 60 of [Undertell: What was not written](../quests/undertell_book.md#stage-60); reached stage 70 of [Undertell: What was not written](../quests/undertell_book.md#stage-70); NOT reached stage 80 of [Undertell: What was not written](../quests/undertell_book.md#stage-80))* → [brenor_reward_qs80](#d-brenor_reward_qs80)
     - “I must go now.” → *conversation ends*
 
-    <span id="d-brenor_heartsteel_30"></span>**`brenor_heartsteel_30`** Brenor: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease, but that was never what we feared most.” — **effects:** sets stage 100 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-100)
+    <span id="d-brenor_heartsteel_30"></span>**`brenor_heartsteel_30`** Brenor: “When the Shadow rose, many who came for the Elytharans carried heartsteel. It cut through armor with frightening ease, but that was never what we feared most.” — **effects:** sets stage 100 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-100)
 
     - “What did you fear?” → [brenor_heartsteel_40](#d-brenor_heartsteel_40)
 

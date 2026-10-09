@@ -11,9 +11,9 @@ description: "Night visit is a quest in Andor's Trail, started by Farrik (fallha
 | **Quest ID** | `farrik` |
 | **In journal** | Yes |
 | **Stages** | 11 (completes at 70, 90) |
-| **Started by** | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
+| **Started by** | [Farrik](../monsters/farrik.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) |
 | **NPCs involved** | [Farrik](../monsters/farrik.md), [Guard captain](../monsters/warden.md), [Thieves guild cook](../monsters/thieves_guild_cook.md) |
-| **Locations** | [fallhaven_derelict2](../maps/fallhaven_derelict2.md), [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md), [fallhaven_prison](../maps/fallhaven_prison.md) |
+| **Locations** | [Fallhaven derelict 2](../maps/fallhaven_derelict2.md), [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md), [Fallhaven prison](../maps/fallhaven_prison.md) |
 | **Total XP** | 3,200 |
 | **Related quests** | 4 |
 
@@ -25,7 +25,7 @@ description: "Night visit is a quest in Andor's Trail, started by Farrik (fallha
 
 ## Prerequisites to start
 
-None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) to begin.
+None: talk to [Farrik](../monsters/farrik.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,75 +37,149 @@ None: talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fal
 | Relationship | Quest | Detail |
 |---|---|---|
 | Unlocks | [Beer Bootlegging](beer_bootlegging.md#stage-50) | stage 50 there needs stage 70 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-17) | stage 17 there needs stage 90 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-17) | stage 17 there needs stage 90 here |
 | Unlocks | [A path to the Duleian Road](pathway_fallhaven.md#stage-20) | stage 20 there needs stage 60 here |
 | Unlocks | [Rumblings](rumblings.md#stage-25) | stage 25 there needs stage 70 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Farrik in the Fallhaven Thieves' Guild told me of a plan to help a fellow thief escape from the Fallhaven jail. | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
-| <span id="stage-20"></span>20 | Farrik in the Fallhaven Thieves' Guild told me the details of the plan, and I accepted the task of helping him. The guard captain apparently has a drinking problem. The plan is that I get a prepared mead from the cook in the Thieves' Guild that will knock out the guard captain in the jail. I might be required to bribe the guard captain. | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
-| <span id="stage-25"></span>25 | I got the prepared mead from the cook in the Thieves' Guild. | [Thieves guild cook](../monsters/thieves_guild_cook.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 20 | gives [Prepared sleepy mead](../items/sleepingmead.md) |
-| <span id="stage-30"></span>30 | I told Farrik that I don't fully agree with their plan. I might tell the guard captain about their shady plan. | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | – |
-| <span id="stage-32"></span>32 | I have given the prepared mead to the guard captain. | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | hand over 1× [Prepared sleepy mead](../items/sleepingmead.md), stage 20, stage 25 | – |
-| <span id="stage-40"></span>40 | I have told the guard captain of the plan that the thieves have to release their friend. | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | stage 30 | – |
-| <span id="stage-50"></span>50 | The guard captain wants me to tell the thieves that the security will be lowered for tonight. We might be able to catch some of the thieves. | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | – | – |
-| <span id="stage-60"></span>60 | I managed to bribe the guard captain into drinking the prepared mead. He should be out during the night allowing the thieves to break their friend free. | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | pay 500 gold, stage 32 | – |
-| <span id="stage-70"></span>70 | Farrik rewarded me for helping the Thieves' Guild. **(completes quest)** | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 20, stage 60 | 1,500 XP<br>removes monsters from fallhaven_prison |
-| <span id="stage-80"></span>80 | I have told Farrik that the security will be lowered tonight. | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 30, stage 50 | – |
-| <span id="stage-90"></span>90 | The guard captain thanked me for helping him plan to catch the thieves. He said he will also tell other guards that I helped him. **(completes quest)** | [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) | stage 50, stage 80 | 1,700 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Farrik in the Fallhaven Thieves' Guild told me of a plan to help a… ▸</span><span class="l">▴ less</span></summary>Farrik in the Fallhaven Thieves' Guild told me of a plan to help a fellow thief escape from the Fallhaven jail.</details> | [Farrik](../monsters/farrik.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Farrik in the Fallhaven Thieves' Guild told me the details of the… ▸</span><span class="l">▴ less</span></summary>Farrik in the Fallhaven Thieves' Guild told me the details of the plan, and I accepted the task of helping him. The guard captain apparently has a drinking problem. The plan is that I get a prepared mead from the cook in the Thieves' Guild that will knock out the guard captain in the jail. I might be required to bribe the guard captain.</details> | [Farrik](../monsters/farrik.md) | – |
+| <span id="stage-25"></span>[25](#route-25) | I got the prepared mead from the cook in the Thieves' Guild. | [Thieves guild cook](../monsters/thieves_guild_cook.md) | [Prepared sleepy mead](../items/sleepingmead.md) |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I told Farrik that I don't fully agree with their plan. I might tell… ▸</span><span class="l">▴ less</span></summary>I told Farrik that I don't fully agree with their plan. I might tell the guard captain about their shady plan.</details> | [Farrik](../monsters/farrik.md) | – |
+| <span id="stage-32"></span>[32](#route-32) | I have given the prepared mead to the guard captain. | [Guard captain](../monsters/warden.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I have told the guard captain of the plan that the thieves have to… ▸</span><span class="l">▴ less</span></summary>I have told the guard captain of the plan that the thieves have to release their friend.</details> | [Guard captain](../monsters/warden.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">The guard captain wants me to tell the thieves that the security… ▸</span><span class="l">▴ less</span></summary>The guard captain wants me to tell the thieves that the security will be lowered for tonight. We might be able to catch some of the thieves.</details> | [Guard captain](../monsters/warden.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I managed to bribe the guard captain into drinking the prepared… ▸</span><span class="l">▴ less</span></summary>I managed to bribe the guard captain into drinking the prepared mead. He should be out during the night allowing the thieves to break their friend free.</details> | [Guard captain](../monsters/warden.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | Farrik rewarded me for helping the Thieves' Guild. **(ends quest)** | [Farrik](../monsters/farrik.md) | 1,500 XP, removes monsters from fallhaven_prison |
+| <span id="stage-80"></span>[80](#route-80) | I have told Farrik that the security will be lowered tonight. | [Farrik](../monsters/farrik.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">The guard captain thanked me for helping him plan to catch the… ▸</span><span class="l">▴ less</span></summary>The guard captain thanked me for helping him plan to catch the thieves. He said he will also tell other guards that I helped him.</details> **(ends quest)** | [Guard captain](../monsters/warden.md) | 1,700 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “What did he do?” → **stage 10**. NPC: “I guess I can trust you with this secret. We are planning a mission tonight to help him out of jail.”
+??? note "Stage 10 · Farrik · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Farrik](../monsters/farrik.md), choose “What did he do?”
 
-    1. Talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I am not done yet, but I am working on it.” — **conditions:** reached stage 20 of [Night visit](../quests/farrik.md#stage-20); NOT reached stage 30 of [Night visit](../quests/farrik.md#stage-30) → **stage 20**. NPC: “Good. Report back to me when you have gotten the guard captain to drink that special mead.”
+    - *“I guess I can trust you with this secret. We are planning a mission tonight to help him out of jail.”*
 
-???+ note "Stage 25: 1 route"
 
-    1. Talk to [Thieves guild cook](../monsters/thieves_guild_cook.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Farrik said you can prepare me a round of special mead.” — **conditions:** reached stage 20 of [Night visit](../quests/farrik.md#stage-20) → **stage 25**; also gives [Prepared sleepy mead](../items/sleepingmead.md). NPC: “There. This should do it. Here you go.”
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Farrik · 1 way"
 
-    1. Talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “Maybe I should tell the guards that you are planning to get him out?” — **conditions:** NOT reached stage 20 of [Night visit](../quests/farrik.md#stage-20) → **stage 30**. NPC: “Whatever, they wouldn't believe you anyway.”
+    **Way 1:** Talk to [Farrik](../monsters/farrik.md), choose “I am not done yet, but I am working on it.”
 
-???+ note "Stage 32: 1 route"
+    - **Needs:** stage 20; not yet stage 30
+    - *“Good. Report back to me when you have gotten the guard captain to drink that special mead.”*
 
-    1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “I brought some with me if you would like to have a sip.” — **conditions:** reached stage 20 of [Night visit](../quests/farrik.md#stage-20); reached stage 25 of [Night visit](../quests/farrik.md#stage-25); hand over 1× [Prepared sleepy mead](../items/sleepingmead.md) → **stage 32**. NPC: “Oh sweet drinks of joy. I really shouldn't have this while on duty though.”
 
-???+ note "Stage 40: 1 route"
+<span id="route-25"></span>
 
-    1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “I heard they are planning his escape tonight.” — **conditions:** reached stage 30 of [Night visit](../quests/farrik.md#stage-30) → **stage 40**. NPC: “Tonight? Thank you for this information. We will make sure to increase the security tonight then, but in such a way…”
+??? note "Stage 25 · Thieves guild cook · 1 way"
 
-???+ note "Stage 50: 1 route"
+    **Way 1:** Talk to [Thieves guild cook](../monsters/thieves_guild_cook.md), choose “Farrik said you can prepare me a round of special mead.”
 
-    1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “No, not yet. I'm working on it.” — **conditions:** reached stage 50 of [Night visit](../quests/farrik.md#stage-50) → **stage 50**. NPC: “Good. Report back to me when you have told them.”
+    - **Needs:** stage 20
+    - **Gives:** [Prepared sleepy mead](../items/sleepingmead.md)
+    - *“There. This should do it. Here you go.”*
 
-???+ note "Stage 60: 1 route"
 
-    1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “I have 500 gold right here that you could have.” — **conditions:** reached stage 32 of [Night visit](../quests/farrik.md#stage-32); pay 500 gold → **stage 60**. NPC: “Wow, that much gold? I'm sure I could even get away with this without being fined. Then I could have the gold AND a…”
+<span id="route-30"></span>
 
-???+ note "Stage 70: 1 route"
+??? note "Stage 30 · Farrik · 1 way"
 
-    1. Talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “It is done. He should be no problem during the night.” — **conditions:** reached stage 20 of [Night visit](../quests/farrik.md#stage-20); NOT reached stage 30 of [Night visit](../quests/farrik.md#stage-30); reached stage 60 of [Night visit](../quests/farrik.md#stage-60) → **stage 70**; also removes monsters from fallhaven_prison. NPC: “That is good news! Now we should be able to get our friend out from jail tonight.”
+    **Way 1:** Talk to [Farrik](../monsters/farrik.md), choose “Maybe I should tell the guards that you are planning to get him out?”
 
-???+ note "Stage 80: 1 route"
+    - **Needs:** not yet stage 20
+    - *“Whatever, they wouldn't believe you anyway.”*
 
-    1. Talk to [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “[Lie]. No. I went there, but I overheard the guard captain saying there was no real threat, so they will…” — **conditions:** reached stage 30 of [Night visit](../quests/farrik.md#stage-30); NOT reached stage 20 of [Night visit](../quests/farrik.md#stage-20); reached stage 50 of [Night visit](../quests/farrik.md#stage-50) → **stage 80**. NPC: “That's very useful information. Well done. You have my thanks, friend.”
 
-???+ note "Stage 90: 1 route"
+<span id="route-32"></span>
 
-    1. Talk to [Guard captain](../monsters/warden.md) ([fallhaven_prison](../maps/fallhaven_prison.md)) → choose “Yes, they won't expect a thing.” — **conditions:** reached stage 50 of [Night visit](../quests/farrik.md#stage-50); reached stage 80 of [Night visit](../quests/farrik.md#stage-80) → **stage 90**; also gives [Gold coins](../items/gold.md). NPC: “Great. Thank you for your help. Here, take these coins as a token of our appreciation.”
+??? note "Stage 32 · Guard captain · 1 way"
+
+    **Way 1:** Talk to [Guard captain](../monsters/warden.md), choose “I brought some with me if you would like to have a sip.”
+
+    - **Needs:** stage 20, 25; hand over 1× [Prepared sleepy mead](../items/sleepingmead.md)
+    - *“Oh sweet drinks of joy. I really shouldn't have this while on duty though.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Guard captain · 1 way"
+
+    **Way 1:** Talk to [Guard captain](../monsters/warden.md), choose “I heard they are planning his escape tonight.”
+
+    - **Needs:** stage 30
+    - *“Tonight? Thank you for this information. We will make sure to increase the security tonight then, but in such a way that they won't notice.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Guard captain · 1 way"
+
+    **Way 1:** Talk to [Guard captain](../monsters/warden.md), choose “No, not yet. I'm working on it.”
+
+    - **Needs:** stage 50
+    - *“Good. Report back to me when you have told them.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Guard captain · 1 way"
+
+    **Way 1:** Talk to [Guard captain](../monsters/warden.md), choose “I have 500 gold right here that you could have.”
+
+    - **Needs:** stage 32; pay 500 gold
+    - *“Wow, that much gold? I'm sure I could even get away with this without being fined. Then I could have the gold AND a nice drink of mead at…”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Farrik · 1 way"
+
+    **Way 1:** Talk to [Farrik](../monsters/farrik.md), choose “It is done. He should be no problem during the night.”
+
+    - **Needs:** stage 20, 60; not yet stage 30
+    - **Gives:** removes monsters from fallhaven_prison
+    - *“That is good news! Now we should be able to get our friend out from jail tonight.”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Farrik · 1 way"
+
+    **Way 1:** Talk to [Farrik](../monsters/farrik.md), choose “[Lie]. No. I went there, but I overheard the guard captain saying there was no real threat, so they will…”
+
+    - **Needs:** stage 30, 50; not yet stage 20
+    - *“That's very useful information. Well done. You have my thanks, friend.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Guard captain · 1 way"
+
+    **Way 1:** Talk to [Guard captain](../monsters/warden.md), choose “Yes, they won't expect a thing.”
+
+    - **Needs:** stage 50, 80
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“Great. Thank you for your help. Here, take these coins as a token of our appreciation.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

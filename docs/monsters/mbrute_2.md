@@ -1,10 +1,10 @@
 ---
-description: "Weak mountain brute is an enemy in Andor's Trail (giant) with 157 HP, worth 232 XP, found in mountainlake10, mountainlake6, mountainlake7. Drops: Bone, Mundane ring."
+description: "Weak mountain brute is an enemy in Andor's Trail (giant) with 157 HP, worth 232 XP, found in Mountainlake 10, Mountainlake 6, Mountainlake 7. Drops: Bone, Mundane ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_35.png){ .sprite } Weak mountain brute
 
-**Found in:** [mountainlake10](../maps/mountainlake10.md), [mountainlake6](../maps/mountainlake6.md), [mountainlake7](../maps/mountainlake7.md), [mountainlake8_cave](../maps/mountainlake8_cave.md) (+1 more)
+**Found in:** [Mountainlake 10](../maps/mountainlake10.md), [Mountainlake 6](../maps/mountainlake6.md), [Mountainlake 7](../maps/mountainlake7.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Weak mountain brute is an enemy in Andor's Trail (giant) with 157 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake10, mountainlake6, mountainlake7 |
+| **Found in** | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
 | **Class** | Giant |
 | **HP** | 157 |
 | **XP when defeated** | 232 |
@@ -55,11 +55,11 @@ description: "Weak mountain brute is an enemy in Andor's Trail (giant) with 157 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake10](../maps/mountainlake10.md) | – | 3 | – |
-| [mountainlake6](../maps/mountainlake6.md) | – | 2 | – |
-| [mountainlake7](../maps/mountainlake7.md) | – | 4 | – |
-| [mountainlake8_cave](../maps/mountainlake8_cave.md) | – | 4 | – |
-| [mountainlake9](../maps/mountainlake9.md) | – | 1 | – |
+| [Mountainlake 10](../maps/mountainlake10.md) | – | 3 | – |
+| [Mountainlake 6](../maps/mountainlake6.md) | – | 2 | – |
+| [Mountainlake 7](../maps/mountainlake7.md) | – | 4 | – |
+| [Mountainlake 8 cave](../maps/mountainlake8_cave.md) | – | 4 | – |
+| [Mountainlake 9](../maps/mountainlake9.md) | – | 1 | – |
 
 
 ## Version history

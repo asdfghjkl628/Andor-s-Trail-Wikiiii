@@ -29,9 +29,9 @@ description: "Potent venom is a harmful blood condition in Andor's Trail: max HP
 | Move cost (AP) | +1 |
 | HP every round | −3 to −2 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -42,17 +42,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | When it hits you | 1 | 3 rounds | 15% | galmore_28 |
+| [Venomous swamp creature](../monsters/venomous_swamp_creature.md) | When it hits you | 1 | 3 rounds | 15% | Galmore 28 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Resistance:** each level of [Pure Blood](../skills/resistanceBlood.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Resistance:** [Pure Blood](../skills/resistanceBlood.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

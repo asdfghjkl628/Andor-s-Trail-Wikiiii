@@ -1,8 +1,8 @@
 ---
-description: "Wild21a is an indoor location in Andor's Trail, in Stoutford (settlement). NPCs: Stoutford guard. Exits to Wild21."
+description: "Wild 21a is an indoor location in Andor's Trail, in Stoutford (settlement). NPCs: Stoutford guard. Exits to Wild 21."
 ---
 
-# Wild21a
+# Wild 21a
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Wild21a is an indoor location in Andor's Trail, in Stoutford (sett
 
 </div>
 
-**Wild21a** is an indoor map, in Stoutford (settlement). It has 1 NPC, and no enemies. Exits lead to Wild21.
+**Wild 21a** is an indoor map, in Stoutford (settlement). It has 1 NPC, and no enemies. Exits lead to Wild 21.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild21a.webp" alt="Map of Wild21a" width="192" height="224" loading="lazy"><span class="mo mo-spawn" title="Spawns: Stoutford guard" style="left:66.667%;top:71.429%;width:16.667%;height:14.286%"></span><a id="place-north" class="mo mo-mapchange" href="../wild21/#place-wall_north" title="Exit to Wild21" style="left:16.667%;top:0.000%;width:33.333%;height:14.286%"></a><a id="place-south" class="mo mo-mapchange" href="../wild21/#place-wall_south" title="Exit to Wild21" style="left:33.333%;top:85.714%;width:16.667%;height:14.286%"></a><a class="mo mo-key" href="../../quests/stn_nondisplay/#stage-204" title="Unlocked during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)" style="left:33.333%;top:42.857%;width:16.667%;height:14.286%"></a><a class="mo mo-replace" href="../../quests/stn_nondisplay/#stage-204" title="This area changes during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)" style="left:33.333%;top:28.571%;width:16.667%;height:28.571%"></a><a class="mo mo-replace" href="../../quests/stn_nondisplay/#stage-204" title="This area changes back during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)" style="left:33.333%;top:28.571%;width:16.667%;height:28.571%"></a><a class="mob" href="../../monsters/stoutford_guard1/#v-stoutford_guard_wild21a" title="Stoutford guard" style="left:66.667%;top:71.429%;width:16.667%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik7_71.png" alt="Stoutford guard"></a><a class="pin pin-exit" href="#key-1" style="left:41.667%;top:92.857%" title="Exit (south): to [Wild21](wild21.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:33.333%;top:7.143%" title="Exit (northwest): to [Wild21](wild21.md)">2</a><a id="pin-npc-stoutford_guard_wild21a" class="pin pin-npc" href="#key-3" style="left:75.000%;top:78.571%" title="[Stoutford guard](../../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a): NPC">3</a><a class="pin pin-key" href="#key-4" style="left:41.667%;top:50.000%" title="Blocked passage: Unlocked during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)">4</a><a class="pin pin-replace" href="#key-5" style="left:42.763%;top:32.144%" title="Changes during a quest: This area changes during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)">5</a><a class="pin pin-replace" href="#key-6" style="left:26.999%;top:40.633%" title="Changes during a quest: This area changes back during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)">6</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/wild21a.webp" alt="Map of Wild 21a" width="192" height="224" loading="lazy"><span class="mo mo-spawn" title="Spawns: Stoutford guard" style="left:66.667%;top:71.429%;width:16.667%;height:14.286%"></span><a id="place-north" class="mo mo-mapchange" href="../wild21/#place-wall_north" title="Exit to Wild 21" style="left:16.667%;top:0.000%;width:33.333%;height:14.286%"></a><a id="place-south" class="mo mo-mapchange" href="../wild21/#place-wall_south" title="Exit to Wild 21" style="left:33.333%;top:85.714%;width:16.667%;height:14.286%"></a><a class="mo mo-key" href="../../quests/stn_nondisplay/#stage-204" title="Unlocked during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)" style="left:33.333%;top:42.857%;width:16.667%;height:14.286%"></a><a class="mo mo-replace" href="../../quests/stn_nondisplay/#stage-204" title="This area changes during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)" style="left:33.333%;top:28.571%;width:16.667%;height:28.571%"></a><a class="mo mo-replace" href="../../quests/stn_nondisplay/#stage-204" title="This area changes back during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)" style="left:33.333%;top:28.571%;width:16.667%;height:28.571%"></a><a class="mob" href="../../monsters/stoutford_guard1/#v-stoutford_guard_wild21a" title="Stoutford guard" style="left:66.667%;top:71.429%;width:16.667%;height:14.286%"><img src="../../assets/icons/monsters/monsters_tometik7_71.png" alt="Stoutford guard"></a><a class="pin pin-exit" href="#key-1" style="left:41.667%;top:92.857%" title="Exit (south): to [Wild 21](wild21.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:33.333%;top:7.143%" title="Exit (northwest): to [Wild 21](wild21.md)">2</a><a id="pin-npc-stoutford_guard_wild21a" class="pin pin-npc" href="#key-3" style="left:75.000%;top:78.571%" title="[Stoutford guard](../../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a): NPC">3</a><a class="pin pin-key" href="#key-4" style="left:41.667%;top:50.000%" title="Blocked passage: Unlocked during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)">4</a><a class="pin pin-replace" href="#key-5" style="left:42.763%;top:32.144%" title="Changes during a quest: This area changes during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)">5</a><a class="pin pin-replace" href="#key-6" style="left:26.999%;top:40.633%" title="Changes during a quest: This area changes back during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”)">6</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Wild21](wild21.md) |
-    | <span id="key-2"></span>2 | Exit (northwest) | to [Wild21](wild21.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Wild 21](wild21.md) |
+    | <span id="key-2"></span>2 | Exit (northwest) | to [Wild 21](wild21.md) |
     | <span id="key-3"></span>3 | [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a) | NPC |
     | <span id="key-4"></span>4 | Blocked passage | Unlocked during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”) |
     | <span id="key-5"></span>5 | Changes during a quest | This area changes during the quest: hidden story flag “stn_nondisplay” (stage 204: “204=wall door opened”) |
@@ -44,8 +44,8 @@ description: "Wild21a is an indoor location in Andor's Trail, in Stoutford (sett
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Wild21](wild21.md) | Stoutford | 1 |
-| Northwest | [Wild21](wild21.md) | Stoutford | 2 |
+| South | [Wild 21](wild21.md) | Stoutford | 1 |
+| Northwest | [Wild 21](wild21.md) | Stoutford | 2 |
 
 ## NPCs
 
@@ -53,7 +53,7 @@ description: "Wild21a is an indoor location in Andor's Trail, in Stoutford (sett
 
 ## Quests
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a) is involved; blocked passage opens at stage 204; part of the map changes at stage 204; something on this map advances it
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): [Stoutford guard](../monsters/stoutford_guard1.md#v-stoutford_guard_wild21a) is involved; blocked passage opens at stage 204; part of the map changes at stage 204; something on this map advances it
 
 ## Points of interest
 

@@ -4,7 +4,7 @@ description: "Tough grasslands snake is an enemy in Andor's Trail (reptile) with
 
 # ![](../assets/icons/monsters/monsters_rltiles2_25.png){ .sprite } Tough grasslands snake
 
-**Found in:** Crossroads Guardhouse: [loneford1](../maps/loneford1.md), Guynmart Castle: [swamp1](../maps/swamp1.md), Guynmart Castle: [swamp3](../maps/swamp3.md), Loneford: [fields4](../maps/fields4.md) (+4 more)
+**Found in:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md), Guynmart Castle: [Swamp 1](../maps/swamp1.md), Guynmart Castle: [Swamp 3](../maps/swamp3.md), Loneford: [Fields 4](../maps/fields4.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -56,14 +56,14 @@ description: "Tough grasslands snake is an enemy in Andor's Trail (reptile) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields3](../maps/fields3.md) | – | 2 | – |
-| [fields4](../maps/fields4.md) | Loneford | 2 | – |
-| [loneford1](../maps/loneford1.md) | Crossroads Guardhouse | 1 | – |
-| [swamp1](../maps/swamp1.md) | Guynmart Castle | 2 | – |
-| [swamp3](../maps/swamp3.md) | Guynmart Castle | 2 | – |
-| [swamp4](../maps/swamp4.md) | – | 2 | – |
-| [swamp5](../maps/swamp5.md) | – | 2 | – |
-| [swamp6](../maps/swamp6.md) | – | 2 | – |
+| [Fields 3](../maps/fields3.md) | – | 2 | – |
+| [Fields 4](../maps/fields4.md) | Loneford | 2 | – |
+| [Loneford 1](../maps/loneford1.md) | Crossroads Guardhouse | 1 | – |
+| [Swamp 1](../maps/swamp1.md) | Guynmart Castle | 2 | – |
+| [Swamp 3](../maps/swamp3.md) | Guynmart Castle | 2 | – |
+| [Swamp 4](../maps/swamp4.md) | – | 2 | – |
+| [Swamp 5](../maps/swamp5.md) | – | 2 | – |
+| [Swamp 6](../maps/swamp6.md) | – | 2 | – |
 
 
 ## Version history

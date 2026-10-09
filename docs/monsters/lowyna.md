@@ -4,7 +4,7 @@ description: "Lowyna is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite } Lowyna
 
-**Where to find Lowyna:** Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-lowyna)
+**Where to find Lowyna:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-lowyna)
 
 <div class="infobox" markdown>
 
@@ -36,7 +36,7 @@ description: "Lowyna is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lowyna. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lowyna. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lowyna.json" data-npc="Lowyna" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -44,7 +44,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lowyna"></span>**`lowyna`** Lowyna: “Uh. Hello.”
 

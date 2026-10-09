@@ -39,11 +39,11 @@ description: "Snake meat is a ordinary food in Andor's Trail. How to get it: mon
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 15% | 1-3 | Sullengard |
-| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 15% | 1-3 | way_to_sullengard_east9 |
-| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 15% | 1-3 | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [King Sullengard forest snake](../monsters/sullengard_venom_snake_king.md) | 15% | 3-6 | way_to_sullengard_east8 |
+| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | 15% | 1-3 | Way to sullengard east 9 |
+| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | 15% | 1-3 | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [King Sullengard forest snake](../monsters/sullengard_venom_snake_king.md) | 15% | 3-6 | Way to sullengard east 8 |
 | [Yellow tooth slitherer](../monsters/yellow_tooth.md) | 5% | 1 | Deebo's Orchard |
-| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 5% | 1 | way_to_sullengard_east1 |
+| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | 5% | 1 | Way to sullengard east 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -54,7 +54,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)) | – | handed over (8×) | “Here, I have 8 nice pieces of snake meat for you.” |
+| [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)) | – | handed over (8×) | “Here, I have 8 nice pieces of snake meat for you.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

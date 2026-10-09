@@ -1,10 +1,10 @@
 ---
-description: "Bright mist of the crypt is an enemy in Andor's Trail (ghost) with 176 HP, worth 347 XP, found in lodar12cave1. Drops: Axe of fear."
+description: "Bright mist of the crypt is an enemy in Andor's Trail (ghost) with 176 HP, worth 347 XP, found in Lodar 12cave 1. Drops: Axe of fear."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_3.png){ .sprite } Bright mist of the crypt
 
-**Found in:** [lodar12cave1](../maps/lodar12cave1.md)
+**Found in:** [Lodar 12cave 1](../maps/lodar12cave1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Bright mist of the crypt is an enemy in Andor's Trail (ghost) with
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar12cave1 |
+| **Found in** | Lodar 12cave 1 |
 | **Class** | Ghost |
 | **HP** | 176 |
 | **XP when defeated** | 347 |
@@ -58,7 +58,7 @@ description: "Bright mist of the crypt is an enemy in Andor's Trail (ghost) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar12cave1](../maps/lodar12cave1.md) | – | 3 | – |
+| [Lodar 12cave 1](../maps/lodar12cave1.md) | – | 3 | – |
 
 
 ## Version history

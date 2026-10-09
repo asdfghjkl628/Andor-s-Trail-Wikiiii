@@ -1,8 +1,8 @@
 ---
-description: "Haunted forest12 is an outdoor location in Andor's Trail. Enemies: Graveyard gatekeeper, Musty prowler. Exits to Haunted forest13, Haunted forest7, Haunted forest coffin2, Haunted forest way to house1."
+description: "Haunted forest 12 is an outdoor location in Andor's Trail. Enemies: Graveyard gatekeeper, Musty prowler. Exits to Haunted forest 13, Haunted forest 7, Haunted forest coffin 2, Haunted forest way to house 1."
 ---
 
-# Haunted forest12
+# Haunted forest 12
 
 <div class="infobox" markdown>
 
@@ -11,30 +11,30 @@ description: "Haunted forest12 is an outdoor location in Andor's Trail. Enemies:
 | **Map ID** | `haunted_forest12` |
 | **Type** | Outdoors |
 | **Size** | 7×13 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.3](../versions/0.8.3.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Haunted forest12** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Haunted forest13, Haunted forest7, Haunted forest coffin2, Haunted forest way to house1 and 1 more.
+**Haunted forest 12** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Haunted forest 13, Haunted forest 7, Haunted forest coffin 2, Haunted forest way to house 1 and 1 more.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest12.webp" alt="Map of Haunted forest12" width="224" height="416" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest7/#place-west" title="Exit to Haunted forest7" style="left:85.714%;top:7.692%;width:14.286%;height:23.077%"></a><a id="place-north" class="mo mo-mapchange" href="../haunted_forest13/#place-south" title="Exit to Haunted forest13" style="left:14.286%;top:0.000%;width:71.429%;height:7.692%"></a><a id="place-cemetery" class="mo mo-mapchange" href="../haunted_cemetery1/#place-east" title="Exit to Haunted cemetery1" style="left:0.000%;top:7.692%;width:14.286%;height:15.385%"></a><a id="place-southeast" class="mo mo-mapchange" href="../haunted_forest_coffin2/#place-west" title="Exit to Haunted forest coffin2" style="left:85.714%;top:69.231%;width:14.286%;height:23.077%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest_way_to_house1/#place-east" title="Exit to Haunted forest way to house1" style="left:0.000%;top:84.615%;width:14.286%;height:15.385%"></a><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:28.571%;top:15.385%;width:42.857%;height:7.692%"></span><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:42.857%;top:30.769%;width:28.571%;height:30.769%"></span><span class="mo mo-spawn" title="Spawns: Musty prowler" style="left:28.571%;top:69.231%;width:42.857%;height:15.385%"></span><span class="mo mo-spawn" title="Spawns: Musty prowler" style="left:28.571%;top:84.615%;width:28.571%;height:7.692%"></span><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:28.571%;top:15.385%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:42.857%;top:53.846%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:57.143%;top:30.769%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:57.143%;top:76.923%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:42.857%;top:76.923%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:42.857%;top:84.615%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:3.846%" title="Exit (north): to [Haunted forest13](haunted_forest13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:92.857%;top:19.231%" title="Exit (east): to [Haunted forest7](haunted_forest7.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:92.857%;top:80.769%" title="Exit (east): to [Haunted forest coffin2](haunted_forest_coffin2.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:7.143%;top:92.308%" title="Exit (southwest): to [Haunted forest way to house1](haunted_forest_way_to_house1.md)">4</a><a class="pin pin-exit" href="#key-5" style="left:7.143%;top:15.385%" title="Exit (northwest): to [Haunted cemetery1](haunted_cemetery1.md)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/haunted_forest12.webp" alt="Map of Haunted forest 12" width="224" height="416" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../haunted_forest7/#place-west" title="Exit to Haunted forest 7" style="left:85.714%;top:7.692%;width:14.286%;height:23.077%"></a><a id="place-north" class="mo mo-mapchange" href="../haunted_forest13/#place-south" title="Exit to Haunted forest 13" style="left:14.286%;top:0.000%;width:71.429%;height:7.692%"></a><a id="place-cemetery" class="mo mo-mapchange" href="../haunted_cemetery1/#place-east" title="Exit to Haunted cemetery 1" style="left:0.000%;top:7.692%;width:14.286%;height:15.385%"></a><a id="place-southeast" class="mo mo-mapchange" href="../haunted_forest_coffin2/#place-west" title="Exit to Haunted forest coffin 2" style="left:85.714%;top:69.231%;width:14.286%;height:23.077%"></a><a id="place-west" class="mo mo-mapchange" href="../haunted_forest_way_to_house1/#place-east" title="Exit to Haunted forest way to house 1" style="left:0.000%;top:84.615%;width:14.286%;height:15.385%"></a><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:28.571%;top:15.385%;width:42.857%;height:7.692%"></span><span class="mo mo-spawn" title="Spawns: Graveyard gatekeeper" style="left:42.857%;top:30.769%;width:28.571%;height:30.769%"></span><span class="mo mo-spawn" title="Spawns: Musty prowler" style="left:28.571%;top:69.231%;width:42.857%;height:15.385%"></span><span class="mo mo-spawn" title="Spawns: Musty prowler" style="left:28.571%;top:84.615%;width:28.571%;height:7.692%"></span><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:28.571%;top:15.385%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:42.857%;top:53.846%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/graveyard_gatekeeper/" title="Graveyard gatekeeper" style="left:57.143%;top:30.769%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_tometik1_70.png" alt="Graveyard gatekeeper"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:57.143%;top:76.923%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:42.857%;top:76.923%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="mob" href="../../monsters/musty_prowler/" title="Musty prowler" style="left:42.857%;top:84.615%;width:14.286%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_238.png" alt="Musty prowler"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:3.846%" title="Exit (north): to [Haunted forest 13](haunted_forest13.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:92.857%;top:19.231%" title="Exit (east): to [Haunted forest 7](haunted_forest7.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:92.857%;top:80.769%" title="Exit (east): to [Haunted forest coffin 2](haunted_forest_coffin2.md)">3</a><a class="pin pin-exit" href="#key-4" style="left:7.143%;top:92.308%" title="Exit (southwest): to [Haunted forest way to house 1](haunted_forest_way_to_house1.md)">4</a><a class="pin pin-exit" href="#key-5" style="left:7.143%;top:15.385%" title="Exit (northwest): to [Haunted cemetery 1](haunted_cemetery1.md)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Haunted forest13](haunted_forest13.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Haunted forest7](haunted_forest7.md) |
-    | <span id="key-3"></span>3 | Exit (east) | to [Haunted forest coffin2](haunted_forest_coffin2.md) |
-    | <span id="key-4"></span>4 | Exit (southwest) | to [Haunted forest way to house1](haunted_forest_way_to_house1.md) |
-    | <span id="key-5"></span>5 | Exit (northwest) | to [Haunted cemetery1](haunted_cemetery1.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Haunted forest 13](haunted_forest13.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Haunted forest 7](haunted_forest7.md) |
+    | <span id="key-3"></span>3 | Exit (east) | to [Haunted forest coffin 2](haunted_forest_coffin2.md) |
+    | <span id="key-4"></span>4 | Exit (southwest) | to [Haunted forest way to house 1](haunted_forest_way_to_house1.md) |
+    | <span id="key-5"></span>5 | Exit (northwest) | to [Haunted cemetery 1](haunted_cemetery1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -43,11 +43,11 @@ description: "Haunted forest12 is an outdoor location in Andor's Trail. Enemies:
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Haunted forest13](haunted_forest13.md) | – | 1 |
-| East | [Haunted forest7](haunted_forest7.md) | – | 2 |
-| East | [Haunted forest coffin2](haunted_forest_coffin2.md) | – | 3 |
-| Southwest | [Haunted forest way to house1](haunted_forest_way_to_house1.md) | – | 4 |
-| Northwest | [Haunted cemetery1](haunted_cemetery1.md) | – | 5 |
+| North | [Haunted forest 13](haunted_forest13.md) | – | 1 |
+| East | [Haunted forest 7](haunted_forest7.md) | – | 2 |
+| East | [Haunted forest coffin 2](haunted_forest_coffin2.md) | – | 3 |
+| Southwest | [Haunted forest way to house 1](haunted_forest_way_to_house1.md) | – | 4 |
+| Northwest | [Haunted cemetery 1](haunted_cemetery1.md) | – | 5 |
 
 ## Enemies
 

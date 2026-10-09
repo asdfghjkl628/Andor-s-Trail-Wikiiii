@@ -1,8 +1,8 @@
 ---
-description: "Brightport cave16 is an indoor location in Andor's Trail. Enemies: Cavern snake. Exits to Brightportwild14, Brightport cave15."
+description: "Brightport cave 16 is an indoor location in Andor's Trail. Enemies: Cavern snake. Exits to Brightportwild 14, Brightport cave 15."
 ---
 
-# Brightport cave16
+# Brightport cave 16
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Brightport cave16 is an indoor location in Andor's Trail. Enemies:
 
 </div>
 
-**Brightport cave16** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild14, Brightport cave15.
+**Brightport cave 16** is an indoor map. It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild 14, Brightport cave 15.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave16.webp" alt="Map of Brightport cave16" width="448" height="288" loading="lazy"><a id="place-cave" class="mo mo-mapchange" href="../brightport_cave15/#place-entrance" title="Exit to Brightport cave15" style="left:14.286%;top:33.333%;width:7.143%;height:11.111%"></a><a id="place-entrance" class="mo mo-mapchange" href="../brightportwild14/#place-cave" title="Exit to Brightportwild14" style="left:71.429%;top:11.111%;width:7.143%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Cavern snake" style="left:21.429%;top:55.556%;width:42.857%;height:33.333%"></span><a class="mob" href="../../monsters/brightport_snake/" title="Cavern snake" style="left:28.571%;top:66.667%;width:7.143%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_23.png" alt="Cavern snake"></a><a class="pin pin-exit" href="#key-1" style="left:75.000%;top:16.667%" title="Exit (north): to [Brightportwild14](brightportwild14.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:17.857%;top:38.889%" title="Exit (stairs / passage): to [Brightport cave15](brightport_cave15.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave16.webp" alt="Map of Brightport cave 16" width="448" height="288" loading="lazy"><a id="place-cave" class="mo mo-mapchange" href="../brightport_cave15/#place-entrance" title="Exit to Brightport cave 15" style="left:14.286%;top:33.333%;width:7.143%;height:11.111%"></a><a id="place-entrance" class="mo mo-mapchange" href="../brightportwild14/#place-cave" title="Exit to Brightportwild 14" style="left:71.429%;top:11.111%;width:7.143%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Cavern snake" style="left:21.429%;top:55.556%;width:42.857%;height:33.333%"></span><a class="mob" href="../../monsters/brightport_snake/" title="Cavern snake" style="left:28.571%;top:66.667%;width:7.143%;height:11.111%"><img src="../../assets/icons/monsters/monsters_tometik4_23.png" alt="Cavern snake"></a><a class="pin pin-exit" href="#key-1" style="left:75.000%;top:16.667%" title="Exit (north): to [Brightportwild 14](brightportwild14.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:17.857%;top:38.889%" title="Exit (stairs / passage): to [Brightport cave 15](brightport_cave15.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild14](brightportwild14.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport cave15](brightport_cave15.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild 14](brightportwild14.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport cave 15](brightport_cave15.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Brightport cave16 is an indoor location in Andor's Trail. Enemies:
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightportwild14](brightportwild14.md) | – | 1 |
-| Stairs / passage | [Brightport cave15](brightport_cave15.md) | – | 2 |
+| North | [Brightportwild 14](brightportwild14.md) | – | 1 |
+| Stairs / passage | [Brightport cave 15](brightport_cave15.md) | – | 2 |
 
 ## Enemies
 

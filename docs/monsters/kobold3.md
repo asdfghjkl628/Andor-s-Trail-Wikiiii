@@ -1,10 +1,10 @@
 ---
-description: "Ancient kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 273 XP, found in guynmart_wood_18, guynmart_wood_18b. Drops: Gold coins."
+description: "Ancient kobold is an enemy in Andor's Trail (humanoid) with 70 HP, worth 273 XP, found in Guynmart wood 18, Guynmart wood 18b. Drops: Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis1_0.png){ .sprite } Ancient kobold
 
-**Found in:** [guynmart_wood_18](../maps/guynmart_wood_18.md), [guynmart_wood_18b](../maps/guynmart_wood_18b.md)
+**Found in:** [Guynmart wood 18](../maps/guynmart_wood_18.md), [Guynmart wood 18b](../maps/guynmart_wood_18b.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient kobold is an enemy in Andor's Trail (humanoid) with 70 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | guynmart_wood_18, guynmart_wood_18b |
+| **Found in** | Guynmart wood 18, Guynmart wood 18b |
 | **Class** | Humanoid |
 | **HP** | 70 |
 | **XP when defeated** | 273 |
@@ -56,8 +56,8 @@ description: "Ancient kobold is an enemy in Andor's Trail (humanoid) with 70 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_18](../maps/guynmart_wood_18.md) | – | 3 | – |
-| [guynmart_wood_18b](../maps/guynmart_wood_18b.md) | – | 3 | – |
+| [Guynmart wood 18](../maps/guynmart_wood_18.md) | – | 3 | – |
+| [Guynmart wood 18b](../maps/guynmart_wood_18b.md) | – | 3 | – |
 
 
 ## Version history

@@ -1,8 +1,8 @@
 ---
-description: "guynmart lake is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart_wood_2. 21 stages. 1"
+description: "Guynmart lake is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart_wood_2. 21 stages. 1"
 ---
 
-# guynmart lake
+# Guynmart lake
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "guynmart lake is a hidden quest in Andor's Trail, started by stepp
 | **Quest ID** | `guynmart_r_lake` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 21 |
-| **Started by** | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
+| **Started by** | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) |
 
 </div>
 
@@ -24,7 +24,7 @@ description: "guynmart lake is a hidden quest in Andor's Trail, started by stepp
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) to begin.
+None: talk to stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,119 +37,240 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | – |
-| <span id="stage-2"></span>2 | 2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 1 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1) |
-| <span id="stage-3"></span>3 | 3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 1 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1)<br>clears stage 2 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2) |
-| <span id="stage-4"></span>4 | 4<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 2 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2)<br>clears stage 3 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3) |
-| <span id="stage-5"></span>5 | 5<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 3 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3)<br>clears stage 4 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4) |
-| <span id="stage-6"></span>6 | 6<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 4 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4)<br>clears stage 5 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5) |
-| <span id="stage-7"></span>7 | 7<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 5 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5)<br>clears stage 6 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6) |
-| <span id="stage-8"></span>8 | 8<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 6 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6)<br>clears stage 7 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7) |
-| <span id="stage-9"></span>9 | 9<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 7 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7)<br>clears stage 8 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8) |
-| <span id="stage-10"></span>10 | 10<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 8 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8)<br>clears stage 9 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-9) |
-| <span id="stage-11"></span>11 | 11<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | – | clears stage 1 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1)<br>clears stage 2 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2)<br>clears stage 3 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3)<br>clears stage 4 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4)<br>clears stage 5 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5)<br>clears stage 6 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6)<br>clears stage 7 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7)<br>clears stage 8 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8)<br>clears stage 9 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-9)<br>clears stage 10 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-10) |
-| <span id="stage-21"></span>21 | 21<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 22 | clears stage 22 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-22) |
-| <span id="stage-22"></span>22 | 22<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 23 | clears stage 23 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-23) |
-| <span id="stage-23"></span>23 | 23<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 24 | clears stage 24 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-24) |
-| <span id="stage-24"></span>24 | 24<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 25 | clears stage 25 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-25) |
-| <span id="stage-25"></span>25 | 25<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 26 | clears stage 26 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-26) |
-| <span id="stage-26"></span>26 | 26<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 27 | clears stage 27 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-27) |
-| <span id="stage-27"></span>27 | 27<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 28 | clears stage 28 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-28) |
-| <span id="stage-28"></span>28 | 28<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 29 | clears stage 29 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-29) |
-| <span id="stage-29"></span>29 | 29<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 30 | clears stage 30 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-30) |
-| <span id="stage-30"></span>30 | 30<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) | stage 11 | clears stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-2"></span>[2](#route-2) | 2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-3"></span>[3](#route-3) | 3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-4"></span>[4](#route-4) | 4<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-5"></span>[5](#route-5) | 5<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-6"></span>[6](#route-6) | 6<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-7"></span>[7](#route-7) | 7<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-8"></span>[8](#route-8) | 8<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-9"></span>[9](#route-9) | 9<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | 10<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-11"></span>[11](#route-11) | 11<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | 21<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | 22<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-23"></span>[23](#route-23) | 23<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-24"></span>[24](#route-24) | 24<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-25"></span>[25](#route-25) | 25<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-26"></span>[26](#route-26) | 26<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-27"></span>[27](#route-27) | 27<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-28"></span>[28](#route-28) | 28<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-29"></span>[29](#route-29) | 29<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | 30<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 2](../maps/guynmart_wood_2.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 2](../maps/guynmart_wood_2.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → choose “I will use it anyway.” → **stage 1**
+??? note "Stage 1 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md), choose “I will use it anyway.”
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 2**; also clears stage 1 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1)
 
-???+ note "Stage 3: 1 route"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 3**; also clears stage 1 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1), clears stage 2 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2)
+<span id="route-2"></span>
 
-???+ note "Stage 4: 1 route"
+??? note "Stage 2 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 4**; also clears stage 2 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2), clears stage 3 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3)
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-???+ note "Stage 5: 1 route"
+    - <small>Also: clears stage 1 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1)</small>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 5**; also clears stage 3 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3), clears stage 4 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4)
 
-???+ note "Stage 6: 1 route"
+<span id="route-3"></span>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 6**; also clears stage 4 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4), clears stage 5 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5)
+??? note "Stage 3 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-???+ note "Stage 7: 1 route"
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 7**; also clears stage 5 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5), clears stage 6 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6)
+    - <small>Also: clears stage 1 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1), clears stage 2 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2)</small>
 
-???+ note "Stage 8: 1 route"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 8**; also clears stage 6 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6), clears stage 7 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7)
+<span id="route-4"></span>
 
-???+ note "Stage 9: 1 route"
+??? note "Stage 4 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 9**; also clears stage 7 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7), clears stage 8 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8)
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-???+ note "Stage 10: 1 route"
+    - <small>Also: clears stage 2 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2), clears stage 3 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3)</small>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 10**; also clears stage 8 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8), clears stage 9 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-9)
 
-???+ note "Stage 11: 1 route"
+<span id="route-5"></span>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically → **stage 11**; also clears stage 1 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1), clears stage 2 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2), clears stage 3 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3), clears stage 4 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4), clears stage 5 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5), clears stage 6 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6), clears stage 7 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7), clears stage 8 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8), clears stage 9 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-9), clears stage 10 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-10)
+??? note "Stage 5 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-???+ note "Stage 21: 1 route"
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 22 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-22) → **stage 21**; also clears stage 22 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-22)
+    - <small>Also: clears stage 3 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3), clears stage 4 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4)</small>
 
-???+ note "Stage 22: 1 route"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 23 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-23) → **stage 22**; also clears stage 23 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-23)
+<span id="route-6"></span>
 
-???+ note "Stage 23: 1 route"
+??? note "Stage 6 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 24 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-24) → **stage 23**; also clears stage 24 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-24)
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-???+ note "Stage 24: 1 route"
+    - <small>Also: clears stage 4 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4), clears stage 5 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5)</small>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 25 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-25) → **stage 24**; also clears stage 25 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-25)
 
-???+ note "Stage 25: 1 route"
+<span id="route-7"></span>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 26 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-26) → **stage 25**; also clears stage 26 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-26)
+??? note "Stage 7 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-???+ note "Stage 26: 1 route"
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 27 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-27) → **stage 26**; also clears stage 27 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-27)
+    - <small>Also: clears stage 5 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5), clears stage 6 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6)</small>
 
-???+ note "Stage 27: 1 route"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 28 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-28) → **stage 27**; also clears stage 28 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-28)
+<span id="route-8"></span>
 
-???+ note "Stage 28: 1 route"
+??? note "Stage 8 · stepping on a trigger on guynmart_wood_2 · 1 way"
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 29 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-29) → **stage 28**; also clears stage 29 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-29)
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-???+ note "Stage 29: 1 route"
+    - <small>Also: clears stage 6 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6), clears stage 7 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7)</small>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 30 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-30) → **stage 29**; also clears stage 30 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-30)
 
-???+ note "Stage 30: 1 route"
+<span id="route-9"></span>
 
-    1. stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) → the conversation leads here automatically — **conditions:** reached stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11) → **stage 30**; also clears stage 11 of [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11). NPC: “Oh no, the raft has drifted off!”
+??? note "Stage 9 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - <small>Also: clears stage 7 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7), clears stage 8 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8)</small>
+
+
+<span id="route-10"></span>
+
+??? note "Stage 10 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - <small>Also: clears stage 8 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8), clears stage 9 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-9)</small>
+
+
+<span id="route-11"></span>
+
+??? note "Stage 11 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - <small>Also: clears stage 1 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-1), clears stage 2 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-2), clears stage 3 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-3), clears stage 4 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-4), clears stage 5 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-5), clears stage 6 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-6), clears stage 7 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-7), clears stage 8 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-8), clears stage 9 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-9), clears stage 10 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-10)</small>
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 22
+    - <small>Also: clears stage 22 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-22)</small>
+
+
+<span id="route-22"></span>
+
+??? note "Stage 22 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 23
+    - <small>Also: clears stage 23 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-23)</small>
+
+
+<span id="route-23"></span>
+
+??? note "Stage 23 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 24
+    - <small>Also: clears stage 24 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-24)</small>
+
+
+<span id="route-24"></span>
+
+??? note "Stage 24 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 25
+    - <small>Also: clears stage 25 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-25)</small>
+
+
+<span id="route-25"></span>
+
+??? note "Stage 25 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 26
+    - <small>Also: clears stage 26 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-26)</small>
+
+
+<span id="route-26"></span>
+
+??? note "Stage 26 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 27
+    - <small>Also: clears stage 27 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-27)</small>
+
+
+<span id="route-27"></span>
+
+??? note "Stage 27 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 28
+    - <small>Also: clears stage 28 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-28)</small>
+
+
+<span id="route-28"></span>
+
+??? note "Stage 28 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 29
+    - <small>Also: clears stage 29 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-29)</small>
+
+
+<span id="route-29"></span>
+
+??? note "Stage 29 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 30
+    - <small>Also: clears stage 30 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-30)</small>
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · stepping on a trigger on guynmart_wood_2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+    - **Needs:** stage 11
+    - <small>Also: clears stage 11 of [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md#stage-11)</small>
+    - *“Oh no, the raft has drifted off!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -196,6 +317,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_r_lake` |
+    | Name in game data | `guynmart lake` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 |
     | Dialogue nodes setting stages | 1: `guynmart_s_lake_1a`, 2: `guynmart_s_lake_2`, 3: `guynmart_s_lake_3`, 4: `guynmart_s_lake_4`, 5: `guynmart_s_lake_5`, 6: `guynmart_s_lake_6`, 7: `guynmart_s_lake_7`, 8: `guynmart_s_lake_8`, 9: `guynmart_s_lake_9`, 10: `guynmart_s_lake_10`, 11: `guynmart_s_lake_11`, 21: `guynmart_s_lake_3x_21`, 22: `guynmart_s_lake_3x_22`, 23: `guynmart_s_lake_3x_23`, 24: `guynmart_s_lake_3x_24`, 25: `guynmart_s_lake_3x_25`, 26: `guynmart_s_lake_3x_26`, 27: `guynmart_s_lake_3x_27`, 28: `guynmart_s_lake_3x_28`, 29: `guynmart_s_lake_3x_29`, 30: `guynmart_s_lake_3x_30` |

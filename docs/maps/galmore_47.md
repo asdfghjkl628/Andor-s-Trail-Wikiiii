@@ -12,7 +12,7 @@ description: "Galmore 47 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Region** | Near Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **Enemy types** | 3 |
 | **Quests** | 1 |
@@ -66,7 +66,7 @@ description: "Galmore 47 is an outdoor location in Andor's Trail, near Mt. Galmo
 ## Quests
 
 - [Restless in the grave](../quests/mg_restless_grave.md): part of the map changes at stage 30; part of the map changes at stage 40; something on this map advances it; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 15; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 40
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): blocked passage opens at stage 14; part of the map changes at stage 14; something on this map advances it; stepping on a trigger here sets stage 5
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): blocked passage opens at stage 14; part of the map changes at stage 14; something on this map advances it; stepping on a trigger here sets stage 5
 
 ## Points of interest
 

@@ -1,10 +1,10 @@
 ---
-description: "Iducus is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain44. Shopkeeper."
+description: "Iducus is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 44. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_87.png){ .sprite } Iducus
 
-**Where to find Iducus:** [blackwater_mountain44](../maps/blackwater_mountain44.md#pin-npc-iducus)
+**Where to find Iducus:** [Blackwater mountain 44](../maps/blackwater_mountain44.md#pin-npc-iducus)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Iducus is a non-player character (NPC) in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | blackwater_mountain44 |
+| **Found in** | Blackwater mountain 44 |
 | **Entry ID** | `iducus` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -30,7 +30,7 @@ description: "Iducus is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Iducus. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Iducus. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/iducus.json" data-npc="Iducus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -38,7 +38,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-iducus"></span>**`iducus`** *(silent check: the first matching branch below is taken)*
 

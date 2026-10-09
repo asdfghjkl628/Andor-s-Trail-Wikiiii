@@ -1,8 +1,8 @@
 ---
-description: "Galmore 58 house3 is an indoor location in Andor's Trail, in Mt. Galmore (other). Exits to Galmore 58."
+description: "Galmore 58 house 3 is an indoor location in Andor's Trail, in Mt. Galmore (other). Exits to Galmore 58."
 ---
 
-# Galmore 58 house3
+# Galmore 58 house 3
 
 <div class="infobox" markdown>
 
@@ -18,13 +18,13 @@ description: "Galmore 58 house3 is an indoor location in Andor's Trail, in Mt. G
 
 </div>
 
-**Galmore 58 house3** is an indoor map, in Mt. Galmore (other). It has no NPCs, and no enemies. Exits lead to Galmore 58.
+**Galmore 58 house 3** is an indoor map, in Mt. Galmore (other). It has no NPCs, and no enemies. Exits lead to Galmore 58.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/galmore_58_house3.webp" alt="Map of Galmore 58 house3" width="320" height="384" loading="lazy"><a id="place-exit" class="mo mo-mapchange" href="../galmore_58/#place-galmore_58_house3" title="Exit to Galmore 58" style="left:60.000%;top:91.667%;width:10.000%;height:8.333%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:80.000%;top:33.333%;width:10.000%;height:8.333%"></a><a class="pin pin-exit" href="#key-1" style="left:65.000%;top:95.833%" title="Exit (south): to [Galmore 58](galmore_58.md)">1</a><a class="pin pin-container" href="#key-2" style="left:85.000%;top:37.500%" title="Container 1: Blackwater rusted pickaxe">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/galmore_58_house3.webp" alt="Map of Galmore 58 house 3" width="320" height="384" loading="lazy"><a id="place-exit" class="mo mo-mapchange" href="../galmore_58/#place-galmore_58_house3" title="Exit to Galmore 58" style="left:60.000%;top:91.667%;width:10.000%;height:8.333%"></a><a data-container="container-0" class="mo mo-container" href="#container-0" title="Container: click to see what&#x27;s inside" style="left:80.000%;top:33.333%;width:10.000%;height:8.333%"></a><a class="pin pin-exit" href="#key-1" style="left:65.000%;top:95.833%" title="Exit (south): to [Galmore 58](galmore_58.md)">1</a><a class="pin pin-container" href="#key-2" style="left:85.000%;top:37.500%" title="Container 1: Blackwater rusted pickaxe">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 

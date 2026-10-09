@@ -11,9 +11,9 @@ description: "Old friends? is a quest in Andor's Trail, started by Kaverin (remg
 | **Quest ID** | `kaverin` |
 | **In journal** | Yes |
 | **Stages** | 13 (completes at 21, 100) |
-| **Started by** | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) |
+| **Started by** | [Kaverin](../monsters/kaverin.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)) |
 | **NPCs involved** | [Kaverin](../monsters/kaverin.md), [Unzel](../monsters/unzel.md), [Vacor](../monsters/vacor.md) |
-| **Locations** | [fallhaven_sw](../maps/fallhaven_sw.md), [remgard_tavern1](../maps/remgard_tavern1.md), [wild6](../maps/wild6.md) |
+| **Locations** | [Fallhaven south-west](../maps/fallhaven_sw.md), [Remgard tavern 1](../maps/remgard_tavern1.md), [Wild 6](../maps/wild6.md) |
 | **Total XP** | 20,000 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Old friends? is a quest in Andor's Trail, started by Kaverin (remg
 
 ## Prerequisites to start
 
-None: talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) to begin.
+None: talk to [Kaverin](../monsters/kaverin.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -41,80 +41,169 @@ None: talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remga
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I met Kaverin in Remgard, that apparently is an old acquaintance of Unzel, who lives outside of Fallhaven. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-20"></span>20 | Kaverin wants me to deliver a message to Unzel. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-21"></span>21 | I have declined to help Kaverin. **(completes quest)** | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 20 | – |
-| <span id="stage-22"></span>22 | I have agreed to deliver the message. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 20 | – |
-| <span id="stage-25"></span>25 | Kaverin has given me the message that he wants me to deliver to Unzel. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 22 | gives [Kaverin's sealed message](../items/kaverin_message.md) |
-| <span id="stage-30"></span>30 | I have delivered the message to Unzel. I should return to Kaverin in Remgard. | [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | carry 1× [Kaverin's sealed message](../items/kaverin_message.md), hand over 1× [Kaverin's sealed message](../items/kaverin_message.md), stage 25 | – |
-| <span id="stage-40"></span>40 | Kaverin thanked me for delivering the message to Unzel. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | 10,000 XP |
-| <span id="stage-45"></span>45 | In return, Kaverin gave me an old map that he had acquired. Apparently, it leads to Vacor's old hideout. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 40 | gives [Map to Vacor's old hideout](../items/vacor_map.md) |
-| <span id="stage-60"></span>60 | Kaverin was furious over the fact that I killed Unzel, and that I helped Vacor. He started attacking me. I should return to Vacor once Kaverin is dead. | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-70"></span>70 | Kaverin was carrying a sealed message. Vacor immediately recognized the seal, and seemed very interested in it. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | carry 1× [Kaverin's sealed message](../items/kaverin_message.md), stage 60 | – |
-| <span id="stage-75"></span>75 | I have given Vacor the message that Kaverin was carrying. In return, Vacor gave me an old map, leading to his old hideout. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | carry 1× [Kaverin's sealed message](../items/kaverin_message.md), hand over 1× [Kaverin's sealed message](../items/kaverin_message.md), stage 60 | 10,000 XP<br>gives [Map to Vacor's old hideout](../items/vacor_map.md) |
-| <span id="stage-90"></span>90 | I should try to find Vacor's old hideout, on the road to the west of the former prison of Flagstone, southwest of Fallhaven.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild16](../maps/wild16.md).</span> | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md))<br>[Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 45, stage 75 | – |
-| <span id="stage-100"></span>100 | I have found Vacor's old hideout. **(completes quest)** | reading a sign on [wild16_cave](../maps/wild16_cave.md) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I met Kaverin in Remgard, that apparently is an old acquaintance of… ▸</span><span class="l">▴ less</span></summary>I met Kaverin in Remgard, that apparently is an old acquaintance of Unzel, who lives outside of Fallhaven.</details> | [Kaverin](../monsters/kaverin.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | Kaverin wants me to deliver a message to Unzel. | [Kaverin](../monsters/kaverin.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | I have declined to help Kaverin. **(ends quest)** | [Kaverin](../monsters/kaverin.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | I have agreed to deliver the message. | [Kaverin](../monsters/kaverin.md) | – |
+| <span id="stage-25"></span>[25](#route-25) | Kaverin has given me the message that he wants me to deliver to Unzel. | [Kaverin](../monsters/kaverin.md) | [Kaverin's sealed message](../items/kaverin_message.md) |
+| <span id="stage-30"></span>[30](#route-30) | I have delivered the message to Unzel. I should return to Kaverin in Remgard. | [Unzel](../monsters/unzel.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | Kaverin thanked me for delivering the message to Unzel. | [Kaverin](../monsters/kaverin.md) | 10,000 XP |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">In return, Kaverin gave me an old map that he had acquired.… ▸</span><span class="l">▴ less</span></summary>In return, Kaverin gave me an old map that he had acquired. Apparently, it leads to Vacor's old hideout.</details> | [Kaverin](../monsters/kaverin.md) | [Map to Vacor's old hideout](../items/vacor_map.md) |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">Kaverin was furious over the fact that I killed Unzel, and that I… ▸</span><span class="l">▴ less</span></summary>Kaverin was furious over the fact that I killed Unzel, and that I helped Vacor. He started attacking me. I should return to Vacor once Kaverin is dead.</details> | [Kaverin](../monsters/kaverin.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">Kaverin was carrying a sealed message. Vacor immediately recognized… ▸</span><span class="l">▴ less</span></summary>Kaverin was carrying a sealed message. Vacor immediately recognized the seal, and seemed very interested in it.</details> | [Vacor](../monsters/vacor.md) | – |
+| <span id="stage-75"></span>[75](#route-75) | <details class="jt"><summary><span class="s">I have given Vacor the message that Kaverin was carrying. In return,… ▸</span><span class="l">▴ less</span></summary>I have given Vacor the message that Kaverin was carrying. In return, Vacor gave me an old map, leading to his old hideout.</details> | [Vacor](../monsters/vacor.md) | 10,000 XP, [Map to Vacor's old hideout](../items/vacor_map.md) |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">I should try to find Vacor's old hideout, on the road to the west of… ▸</span><span class="l">▴ less</span></summary>I should try to find Vacor's old hideout, on the road to the west of the former prison of Flagstone, southwest of Fallhaven.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Wild 16](../maps/wild16.md).</span> | [Kaverin](../monsters/kaverin.md), [Vacor](../monsters/vacor.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | I have found Vacor's old hideout. **(ends quest)** | reading a sign on [Wild 16 cave](../maps/wild16_cave.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “I'm from the village of Crossglen, far to the west of here.” → **stage 10**. NPC: “You wouldn't by any chance have met him, would you?”
+??? note "Stage 10 · Kaverin · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), choose “I'm from the village of Crossglen, far to the west of here.”
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [Old friends?](../quests/kaverin.md#stage-20) → **stage 20**. NPC: “Would you be willing to deliver a message to him?”
+    - *“You wouldn't by any chance have met him, would you?”*
 
-???+ note "Stage 21: 1 route"
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “No, I am done helping you people.” — **conditions:** reached stage 20 of [Old friends?](../quests/kaverin.md#stage-20) → **stage 21**. NPC: “That is unfortunate, you seemed like such a bright boy too.”
+<span id="route-20"></span>
 
-???+ note "Stage 22: 1 route"
+??? note "Stage 20 · Kaverin · 1 way"
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “Anything for the sake of the Shadow.” — **conditions:** reached stage 20 of [Old friends?](../quests/kaverin.md#stage-20) → **stage 22**. NPC: “Good, that's exactly what I wanted to hear.”
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), automatic
 
-???+ note "Stage 25: 1 route"
+    - **Needs:** stage 20
+    - *“Would you be willing to deliver a message to him?”*
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 22 of [Old friends?](../quests/kaverin.md#stage-22) → **stage 25**; also gives [Kaverin's sealed message](../items/kaverin_message.md). NPC: “[He gives you a sealed message]”
 
-???+ note "Stage 30: 1 route"
+<span id="route-21"></span>
 
-    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “Here it is.” — **conditions:** reached stage 61 of [Missing pieces](../quests/vacor.md#stage-61); reached stage 25 of [Old friends?](../quests/kaverin.md#stage-25); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 30**. NPC: “Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]”
+??? note "Stage 21 · Kaverin · 1 way"
 
-???+ note "Stage 40: 1 route"
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), choose “No, I am done helping you people.”
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Old friends?](../quests/kaverin.md#stage-40) → **stage 40**. NPC: “Thank you, my friend. May you walk in the glow of the Shadow.”
+    - **Needs:** stage 20
+    - *“That is unfortunate, you seemed like such a bright boy too.”*
 
-???+ note "Stage 45: 1 route"
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [Old friends?](../quests/kaverin.md#stage-40) → **stage 45**; also gives [Map to Vacor's old hideout](../items/vacor_map.md). NPC: “Take this map as compensation for a job well done.”
+<span id="route-22"></span>
 
-???+ note "Stage 60: 1 route"
+??? note "Stage 22 · Kaverin · 1 way"
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60) → **stage 60**. NPC: “Oh yes, I can feel it. You work for Vacor! He must be stopped!”
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), choose “Anything for the sake of the Shadow.”
 
-???+ note "Stage 70: 1 route"
+    - **Needs:** stage 20
+    - *“Good, that's exactly what I wanted to hear.”*
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 70**. NPC: “What's that in your hands?! ... I recognize that seal!”
 
-???+ note "Stage 75: 1 route"
+<span id="route-25"></span>
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “Here, have the message.” — **conditions:** reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); reached stage 60 of [Old friends?](../quests/kaverin.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md) → **stage 75**; also gives [Map to Vacor's old hideout](../items/vacor_map.md). NPC: “Here, take this map as compensation for your troubles.”
+??? note "Stage 25 · Kaverin · 1 way"
 
-???+ note "Stage 90: 2 routes"
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), automatic
 
-    1. Talk to [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 45 of [Old friends?](../quests/kaverin.md#stage-45) → **stage 90**. NPC: “According to the map, the hideout should be just to the northwest of the former prison of Flagstone. Feel free to take…”
-    2. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); reached stage 75 of [Old friends?](../quests/kaverin.md#stage-75) → **stage 90**. NPC: “[The map shows a location to the northwest of the former prison of Flagstone]”
+    - **Needs:** stage 22
+    - **Gives:** [Kaverin's sealed message](../items/kaverin_message.md)
+    - *“[He gives you a sealed message]”*
 
-???+ note "Stage 100: 1 route"
 
-    1. reading a sign on [wild16_cave](../maps/wild16_cave.md) → the conversation leads here automatically → **stage 100**. NPC: “You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its…”
+<span id="route-30"></span>
+
+??? note "Stage 30 · Unzel · 1 way"
+
+    **Way 1:** Talk to [Unzel](../monsters/unzel.md), choose “Here it is.”
+
+    - **Needs:** stage 25; reached stage 61 of [Missing pieces](../quests/vacor.md#stage-61); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md)
+    - *“Hmm, yes... Let's see... [Unzel opens the sealed message and reads it]”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Kaverin · 1 way"
+
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), automatic
+
+    - **Needs:** stage 40
+    - *“Thank you, my friend. May you walk in the glow of the Shadow.”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Kaverin · 1 way"
+
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), automatic
+
+    - **Needs:** stage 40
+    - **Gives:** [Map to Vacor's old hideout](../items/vacor_map.md)
+    - *“Take this map as compensation for a job well done.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Kaverin · 1 way"
+
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), automatic
+
+    - **Needs:** stage 60
+    - *“Oh yes, I can feel it. You work for Vacor! He must be stopped!”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Vacor · 1 way"
+
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), automatic
+
+    - **Needs:** stage 60; reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md)
+    - *“What's that in your hands?! ... I recognize that seal!”*
+
+
+<span id="route-75"></span>
+
+??? note "Stage 75 · Vacor · 1 way"
+
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “Here, have the message.”
+
+    - **Needs:** stage 60; reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60); carry 1× [Kaverin's sealed message](../items/kaverin_message.md); hand over 1× [Kaverin's sealed message](../items/kaverin_message.md)
+    - **Gives:** [Map to Vacor's old hideout](../items/vacor_map.md)
+    - *“Here, take this map as compensation for your troubles.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Kaverin, Vacor · 2 ways"
+
+    **Way 1:** Talk to [Kaverin](../monsters/kaverin.md), automatic
+
+    - **Needs:** stage 45
+    - *“According to the map, the hideout should be just to the northwest of the former prison of Flagstone. Feel free to take whatever is left in…”*
+
+    **Way 2:** Talk to [Vacor](../monsters/vacor.md), automatic
+
+    - **Needs:** stage 75; reached stage 60 of [Missing pieces](../quests/vacor.md#stage-60)
+    - *“[The map shows a location to the northwest of the former prison of Flagstone]”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · reading a sign on wild16_cave · 1 way"
+
+    **Way 1:** Reading a sign on [Wild 16 cave](../maps/wild16_cave.md)
+
+    - *“You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its hints of mold and old…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

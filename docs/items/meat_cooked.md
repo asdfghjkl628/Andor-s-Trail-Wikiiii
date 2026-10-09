@@ -49,7 +49,7 @@ description: "Cooked meat is a ordinary food in Andor's Trail. How to get it: sh
 
 ### Quest & dialogue rewards
 
-- From [Gael](../monsters/gael.md) ([mywild20_houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) (100%)
+- From [Gael](../monsters/gael.md) ([Mywild 20 houseright](../maps/mywild20_houseright.md)), [Kendelow](../monsters/kendelow.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -61,17 +61,17 @@ Where the game checks for this item in dialogue:
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
 | [Athamyr](../monsters/athamyr.md) | [Key of Luthor](../quests/bucus.md#stage-40) | handed over (1×) | “Here, I have cooked meat for you.” |
-| [Athamyr](../monsters/athamyr.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-60) | must be carried (10×) | “OK. I have ten deliciously cooked pieces of meat now.” |
+| [Athamyr](../monsters/athamyr.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-60) | must be carried (10×) | “OK. I have ten deliciously cooked pieces of meat now.” |
 | [Athamyr](../monsters/athamyr.md) | – | must be carried (10×) | “I have ten deliciously cooked pieces of meat now.” |
-| [Athamyr](../monsters/athamyr.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-61) | handed over (10×) | “Here, take it.” |
+| [Athamyr](../monsters/athamyr.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-61) | handed over (10×) | “Here, take it.” |
 | [Athamyr](../monsters/athamyr.md) | – | must be carried (20×) | “I have bought the twenty cooked pieces of cooked meat.” |
-| [Athamyr](../monsters/athamyr.md) | [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-63) | handed over (20×) | “Here take it. And don't forget to unlock the window.” |
-| [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-32) | handed over (1×) | “Take these supplies and leave. I'll avenge your mates.” |
-| [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-32) | handed over (1×) | “Calm down. Take these supplies and call backup!” |
-| [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | handed over (1×) | “How about some cooked meat?” |
-| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-130) | must be carried (10×) | “OK, I have it here.” |
-| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | handed over (10×) | “Yes, I'm sure.” |
-| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | – | must be carried (10×) | “Sure. Here, enjoy.” |
+| [Athamyr](../monsters/athamyr.md) | [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-63) | handed over (20×) | “Here take it. And don't forget to unlock the window.” |
+| [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([Crackshot hideout 3](../maps/crackshot_hideout3.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-32) | handed over (1×) | “Take these supplies and leave. I'll avenge your mates.” |
+| [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([Crackshot hideout 3](../maps/crackshot_hideout3.md)) | [The ruthless Crackshot](../quests/Thieves03.md#stage-32) | handed over (1×) | “Calm down. Take these supplies and call backup!” |
+| [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) | – | handed over (1×) | “How about some cooked meat?” |
+| [Favlon](../monsters/dds_favlon.md) ([Nw sullengard 1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-130) | must be carried (10×) | “OK, I have it here.” |
+| [Favlon](../monsters/dds_favlon.md) ([Nw sullengard 1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | handed over (10×) | “Yes, I'm sure.” |
+| [Favlon](../monsters/dds_favlon.md) ([Nw sullengard 1](../maps/nw_sullengard_1.md)) | – | must be carried (10×) | “Sure. Here, enjoy.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

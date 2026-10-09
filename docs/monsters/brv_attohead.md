@@ -4,7 +4,7 @@ description: "Attohead is an NPC who can also be fought in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_tometik7_45.png){ .sprite } Attohead
 
-**Where to find Attohead:** Brimhaven: [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md#pin-npc-brv_attohead)
+**Where to find Attohead:** Brimhaven: [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md#pin-npc-brv_attohead)
 
 <div class="infobox" markdown>
 
@@ -58,7 +58,7 @@ description: "Attohead is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) | Brimhaven | 1 | – |
+| [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | Brimhaven | 1 | – |
 
 ## Quests
 
@@ -66,7 +66,7 @@ description: "Attohead is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Attohead. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Attohead. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_brothers_select.json" data-npc="Attohead" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -74,7 +74,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_brothers_select"></span>**`brv_brothers_select`** *(silent check: the first matching branch below is taken)*
 
@@ -129,7 +129,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “[You accidently make a noise and they turn their heads towards you] H…” → “[You accidently make a noise and they turn their heads towards you] H…”<br>· text: “Since he is already here, we could ask him if he will help us for sav…” → “Since they are already here, we could ask them to help us, if they wa…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Since he is already here, we could ask him if he will help us for sav…” → “Since they are already here, we could ask them to help us, if they wa…”<br>· text: “[You accidently make a noise and they turn their heads towards you] H…” → “[You accidently make a noise and they turn their heads towards you] H…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -4,7 +4,7 @@ description: "Nor agent is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } Nor agent
 
-**Where to find Nor agent:** Brightport: [brightport_abandoned](../maps/brightport_abandoned.md#pin-npc-brightport_agent), Brightport: [brightport_jail](../maps/brightport_jail.md#pin-npc-brightport_agent)
+**Where to find Nor agent:** Brightport: [Brightport abandoned](../maps/brightport_abandoned.md#pin-npc-brightport_agent), Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightport_agent)
 
 <div class="infobox" markdown>
 
@@ -23,17 +23,17 @@ description: "Nor agent is a non-player character (NPC) in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_abandoned](../maps/brightport_abandoned.md) | Brightport | 1 | Appears later, during a quest |
-| [brightport_jail](../maps/brightport_jail.md) | Brightport | 1 | Appears later, during a quest |
+| [Brightport abandoned](../maps/brightport_abandoned.md) | Brightport | 1 | Appears later, during a quest |
+| [Brightport jail](../maps/brightport_jail.md) | Brightport | 1 | Appears later, during a quest |
 
 ## Quests
 
 - [Boxed in](../quests/brightport_thieves.md): stages 20, 30, 32
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 141, 142, 143, 158, 208
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 141, 142, 143, 158, 208
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Nor agent. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Nor agent. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_agent.json" data-npc="Nor agent" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (16 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_agent"></span>**`brightport_agent`** *(silent check: the first matching branch below is taken)*
 
@@ -85,15 +85,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Hey, you clearly were expecting me!” → [brightport_agent4](#d-brightport_agent4)
     - “If it's a code word I'm supposed to use, no one told me anything.” → [brightport_agent4](#d-brightport_agent4)
 
-    <span id="d-brightport_crate1"></span>**`brightport_crate1`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 141 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-141)
+    <span id="d-brightport_crate1"></span>**`brightport_crate1`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 141 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-141)
 
     - Next → [brightport_agent7](#d-brightport_agent7)
 
-    <span id="d-brightport_crate2"></span>**`brightport_crate2`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 142 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-142)
+    <span id="d-brightport_crate2"></span>**`brightport_crate2`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 142 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-142)
 
     - Next → [brightport_agent7](#d-brightport_agent7)
 
-    <span id="d-brightport_crate3"></span>**`brightport_crate3`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 143 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-143)
+    <span id="d-brightport_crate3"></span>**`brightport_crate3`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 143 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-143)
 
     - Next → [brightport_agent7](#d-brightport_agent7)
 
@@ -101,10 +101,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [brightport_agent5](#d-brightport_agent5)
 
-    <span id="d-brightport_agent7"></span>**`brightport_agent7`** Nor agent: “Take this package and hide somewhere before the guards get here, I will escape through the chimney. Shadow be with you.” — **effects:** sets stage 32 of [Boxed in](../quests/brightport_thieves.md#stage-32), gives 1× [Package](../items/brightportpackage.md), removes monsters from brightport_abandoned, starts timer “brightporthide”, sets stage 208 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-208)
+    <span id="d-brightport_agent7"></span>**`brightport_agent7`** Nor agent: “Take this package and hide somewhere before the guards get here, I will escape through the chimney. Shadow be with you.” — **effects:** sets stage 32 of [Boxed in](../quests/brightport_thieves.md#stage-32), gives 1× [Package](../items/brightportpackage.md), removes monsters from brightport_abandoned, starts timer “brightporthide”, sets stage 208 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-208)
 
 
-    <span id="d-brightport_agent5"></span>**`brightport_agent5`** [Dummy NPC](../monsters/none.md): “As the courier is taking something out of his robe you hear a whistle.” — **effects:** sets stage 158 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-158)
+    <span id="d-brightport_agent5"></span>**`brightport_agent5`** [Dummy NPC](../monsters/none.md): “As the courier is taking something out of his robe you hear a whistle.” — **effects:** sets stage 158 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-158)
 
     - Next → [brightport_agent6_selector](#d-brightport_agent6_selector)
 

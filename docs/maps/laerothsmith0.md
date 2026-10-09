@@ -1,8 +1,8 @@
 ---
-description: "Laerothsmith0 is an indoor location in Andor's Trail, in Lake Laeroth (other). Enemies: Giant spider. Exits to Laerothisland2."
+description: "Laerothsmith 0 is an indoor location in Andor's Trail, in Lake Laeroth (other). Enemies: Giant spider. Exits to Laerothisland 2."
 ---
 
-# Laerothsmith0
+# Laerothsmith 0
 
 <div class="infobox" markdown>
 
@@ -18,19 +18,19 @@ description: "Laerothsmith0 is an indoor location in Andor's Trail, in Lake Laer
 
 </div>
 
-**Laerothsmith0** is an indoor map, in Lake Laeroth (other). It has no NPCs and 1 kind of enemy. Exits lead to Laerothisland2.
+**Laerothsmith 0** is an indoor map, in Lake Laeroth (other). It has no NPCs and 1 kind of enemy. Exits lead to Laerothisland 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothsmith0.webp" alt="Map of Laerothsmith0" width="320" height="288" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../laerothisland2/#place-north2" title="Exit to Laerothisland2" style="left:50.000%;top:88.889%;width:10.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Giant spider" style="left:10.000%;top:33.333%;width:80.000%;height:44.444%"></span><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:40.000%;top:66.667%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:30.000%;top:33.333%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:70.000%;top:44.444%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:40.000%;top:55.556%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="pin pin-exit" href="#key-1" style="left:55.000%;top:94.444%" title="Exit (south): to [Laerothisland2](laerothisland2.md)">1</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/laerothsmith0.webp" alt="Map of Laerothsmith 0" width="320" height="288" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../laerothisland2/#place-north2" title="Exit to Laerothisland 2" style="left:50.000%;top:88.889%;width:10.000%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Giant spider" style="left:10.000%;top:33.333%;width:80.000%;height:44.444%"></span><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:40.000%;top:66.667%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:30.000%;top:33.333%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:70.000%;top:44.444%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="mob" href="../../monsters/spider_massive/" title="Giant spider" style="left:40.000%;top:55.556%;width:10.000%;height:11.111%"><img src="../../assets/icons/monsters/monsters_rltiles4_45.png" alt="Giant spider"></a><a class="pin pin-exit" href="#key-1" style="left:55.000%;top:94.444%" title="Exit (south): to [Laerothisland 2](laerothisland2.md)">1</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Laerothisland2](laerothisland2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Laerothisland 2](laerothisland2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -39,7 +39,7 @@ description: "Laerothsmith0 is an indoor location in Andor's Trail, in Lake Laer
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Laerothisland2](laerothisland2.md) | Lake Laeroth | 1 |
+| South | [Laerothisland 2](laerothisland2.md) | Lake Laeroth | 1 |
 
 ## Enemies
 

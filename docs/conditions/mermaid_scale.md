@@ -32,9 +32,9 @@ description: "Mermaid curse is a harmful spiritual condition in Andor's Trail: m
 | Damage resistance | −1 |
 | HP every round | −1 to 0 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -45,15 +45,15 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) | [The silver scale](../quests/mermaid_scale.md#stage-100) | Permanent |
+| [Tjure](../monsters/tjure.md) ([Blackwater mountain 54](../maps/blackwater_mountain54.md)) | [The silver scale](../quests/mermaid_scale.md#stage-100) | Permanent |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Removed by** stepping on a trigger on [roadtocarntower2](../maps/roadtocarntower2.md) during [The silver scale](../quests/mermaid_scale.md#stage-200).
-- **Duration and rest:** permanent applications (from equipment or story events) are not removed by resting.
+- **Removed by** stepping on a trigger on [Roadtocarntower 2](../maps/roadtocarntower2.md) during [The silver scale](../quests/mermaid_scale.md#stage-200).
+- **Duration and rest:** permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

@@ -1,10 +1,10 @@
 ---
-description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, worth 52 XP, found in snakecave3. Drops: Gold coins, Ruby gem, Minor vial of health."
+description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, worth 52 XP, found in Snakecave 3. Drops: Gold coins, Ruby gem, Minor vial of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Snake servant
 
-**Found in:** [snakecave3](../maps/snakecave3.md)
+**Found in:** [Snakecave 3](../maps/snakecave3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | snakecave3 |
+| **Found in** | Snakecave 3 |
 | **Class** | Undead |
 | **HP** | 35 |
 | **XP when defeated** | 52 |
@@ -56,7 +56,7 @@ description: "Snake servant is an enemy in Andor's Trail (undead) with 35 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [snakecave3](../maps/snakecave3.md) | – | 9 | – |
+| [Snakecave 3](../maps/snakecave3.md) | – | 9 | – |
 
 
 ## Version history

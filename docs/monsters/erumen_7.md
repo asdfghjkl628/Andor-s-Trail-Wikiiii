@@ -1,10 +1,10 @@
 ---
-description: "Hardened erumen lizard is an enemy in Andor's Trail (reptile) with 93 HP, worth 243 XP, found in waterway11, waterway11_east, waterway9. Drops: Gold coins, Ruby gem."
+description: "Hardened erumen lizard is an enemy in Andor's Trail (reptile) with 93 HP, worth 243 XP, found in Waterway 11, Waterway 11 east, Waterway 9. Drops: Gold coins, Ruby gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_117.png){ .sprite } Hardened erumen lizard
 
-**Found in:** [waterway11](../maps/waterway11.md), [waterway11_east](../maps/waterway11_east.md), [waterway9](../maps/waterway9.md), [waterway_forest1](../maps/waterway_forest1.md) (+1 more)
+**Found in:** [Waterway 11](../maps/waterway11.md), [Waterway 11 east](../maps/waterway11_east.md), [Waterway 9](../maps/waterway9.md), [Waterway forest 1](../maps/waterway_forest1.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Hardened erumen lizard is an enemy in Andor's Trail (reptile) with
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterway11, waterway11_east, waterway9 |
+| **Found in** | Waterway 11, Waterway 11 east, Waterway 9 |
 | **Class** | Reptile |
 | **HP** | 93 |
 | **XP when defeated** | 243 |
@@ -55,11 +55,11 @@ description: "Hardened erumen lizard is an enemy in Andor's Trail (reptile) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway11](../maps/waterway11.md) | – | 2 | – |
-| [waterway11_east](../maps/waterway11_east.md) | – | 2 | – |
-| [waterway9](../maps/waterway9.md) | – | 3 | – |
-| [waterway_forest1](../maps/waterway_forest1.md) | – | 2 | – |
-| [waytolake7](../maps/waytolake7.md) | – | 1 | – |
+| [Waterway 11](../maps/waterway11.md) | – | 2 | – |
+| [Waterway 11 east](../maps/waterway11_east.md) | – | 2 | – |
+| [Waterway 9](../maps/waterway9.md) | – | 3 | – |
+| [Waterway forest 1](../maps/waterway_forest1.md) | – | 2 | – |
+| [Waytolake 7](../maps/waytolake7.md) | – | 1 | – |
 
 
 ## Version history

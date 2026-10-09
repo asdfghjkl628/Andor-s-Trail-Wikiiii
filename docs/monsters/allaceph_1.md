@@ -1,10 +1,10 @@
 ---
-description: "Young allaceph is an enemy in Andor's Trail (demon) with 90 HP, worth 231 XP, found in waytobrimhavencave1, waytobrimhavencave2. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
+description: "Young allaceph is an enemy in Andor's Trail (demon) with 90 HP, worth 231 XP, found in Waytobrimhavencave 1, Waytobrimhavencave 2. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite } Young allaceph
 
-**Found in:** [waytobrimhavencave1](../maps/waytobrimhavencave1.md), [waytobrimhavencave2](../maps/waytobrimhavencave2.md)
+**Found in:** [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md), [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young allaceph is an enemy in Andor's Trail (demon) with 90 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrimhavencave1, waytobrimhavencave2 |
+| **Found in** | Waytobrimhavencave 1, Waytobrimhavencave 2 |
 | **Class** | Demon |
 | **HP** | 90 |
 | **XP when defeated** | 231 |
@@ -63,8 +63,8 @@ description: "Young allaceph is an enemy in Andor's Trail (demon) with 90 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave1](../maps/waytobrimhavencave1.md) | – | 9 | – |
-| [waytobrimhavencave2](../maps/waytobrimhavencave2.md) | – | 6 | – |
+| [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md) | – | 9 | – |
+| [Waytobrimhavencave 2](../maps/waytobrimhavencave2.md) | – | 6 | – |
 
 
 ## Version history

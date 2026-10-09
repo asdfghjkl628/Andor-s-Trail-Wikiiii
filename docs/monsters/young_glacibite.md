@@ -4,7 +4,7 @@ description: "Young glacibite is an enemy in Andor's Trail (humanoid) with 201 H
 
 # ![](../assets/icons/monsters/monsters_rltiles4_24.png){ .sprite } Young glacibite
 
-**Found in:** Mt. Galmore: [galmore_65](../maps/galmore_65.md), Mt. Galmore: [galmore_66](../maps/galmore_66.md), Mt. Galmore: [galmore_74](../maps/galmore_74.md), Mt. Galmore: [galmore_75](../maps/galmore_75.md) (+3 more)
+**Found in:** Mt. Galmore: [Galmore 65](../maps/galmore_65.md), Mt. Galmore: [Galmore 66](../maps/galmore_66.md), Mt. Galmore: [Galmore 74](../maps/galmore_74.md), Mt. Galmore: [Galmore 75](../maps/galmore_75.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -57,13 +57,13 @@ description: "Young glacibite is an enemy in Andor's Trail (humanoid) with 201 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_65](../maps/galmore_65.md) | Mt. Galmore | 1 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 1 | – |
-| [galmore_74](../maps/galmore_74.md) | Mt. Galmore | 7 | – |
-| [galmore_75](../maps/galmore_75.md) | Mt. Galmore | 10 | – |
-| [galmore_76](../maps/galmore_76.md) | Mt. Galmore | 11 | – |
-| [galmore_77](../maps/galmore_77.md) | Mt. Galmore | 3 | – |
-| [galmore_85](../maps/galmore_85.md) | Mt. Galmore | 5 | – |
+| [Galmore 65](../maps/galmore_65.md) | Mt. Galmore | 1 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 1 | – |
+| [Galmore 74](../maps/galmore_74.md) | Mt. Galmore | 7 | – |
+| [Galmore 75](../maps/galmore_75.md) | Mt. Galmore | 10 | – |
+| [Galmore 76](../maps/galmore_76.md) | Mt. Galmore | 11 | – |
+| [Galmore 77](../maps/galmore_77.md) | Mt. Galmore | 3 | – |
+| [Galmore 85](../maps/galmore_85.md) | Mt. Galmore | 5 | – |
 
 
 ## Version history

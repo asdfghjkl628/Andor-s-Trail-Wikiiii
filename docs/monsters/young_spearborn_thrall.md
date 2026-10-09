@@ -1,10 +1,10 @@
 ---
-description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) with 236 HP, worth 572 XP, found in crackshot_hideout4. Drops: Small rock, Glass gem, Azure gem."
+description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) with 236 HP, worth 572 XP, found in Crackshot hideout 4. Drops: Small rock, Glass gem, Azure gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_89.png){ .sprite } Young spearborn thrall
 
-**Found in:** [crackshot_hideout4](../maps/crackshot_hideout4.md)
+**Found in:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | crackshot_hideout4 |
+| **Found in** | Crackshot hideout 4 |
 | **Class** | Humanoid |
 | **HP** | 236 |
 | **XP when defeated** | 572 |
@@ -58,7 +58,7 @@ description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 3 | – |
+| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 3 | – |
 
 
 ## Version history

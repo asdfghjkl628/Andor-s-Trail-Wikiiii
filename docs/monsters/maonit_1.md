@@ -4,7 +4,7 @@ description: "Maonit troll is an enemy in Andor's Trail (giant) with 255 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rltiles1_104.png){ .sprite } Maonit troll
 
-**Found in:** Lake Laeroth: [mountainlake1](../maps/mountainlake1.md), Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), [mountainlake0](../maps/mountainlake0.md), [mountainlake4](../maps/mountainlake4.md) (+3 more)
+**Found in:** Lake Laeroth: [Mountainlake 1](../maps/mountainlake1.md), Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), [Mountainlake 0](../maps/mountainlake0.md), [Mountainlake 4](../maps/mountainlake4.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -57,13 +57,13 @@ description: "Maonit troll is an enemy in Andor's Trail (giant) with 255 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake0](../maps/mountainlake0.md) | – | 2 | – |
-| [mountainlake1](../maps/mountainlake1.md) | Lake Laeroth | 8 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 5 | – |
-| [mountainlake4](../maps/mountainlake4.md) | – | 2 | – |
-| [waytolake10](../maps/waytolake10.md) | – | 9 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 5 | – |
-| [waytolake9](../maps/waytolake9.md) | – | 6 | – |
+| [Mountainlake 0](../maps/mountainlake0.md) | – | 2 | – |
+| [Mountainlake 1](../maps/mountainlake1.md) | Lake Laeroth | 8 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 4](../maps/mountainlake4.md) | – | 2 | – |
+| [Waytolake 10](../maps/waytolake10.md) | – | 9 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 5 | – |
+| [Waytolake 9](../maps/waytolake9.md) | – | 6 | – |
 
 
 ## Version history

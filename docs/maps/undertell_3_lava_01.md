@@ -1,5 +1,5 @@
 ---
-description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemies: Bone-Marshal lich, Molten pyreling, Erupting pyreling, Embergeist, Pyreling. Exits to Undertell 3 lava 00."
+description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemies: Bone-Marshal lich, Molten pyreling, Erupting pyreling, Pyreling, Embergeist. Exits to Undertell 3 lava 00."
 ---
 
 # Undertell 3 lava 01
@@ -11,7 +11,7 @@ description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemie
 | **Map ID** | `undertell_3_lava_01` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [Undertell level3](index.md) |
+| **World map** | [Undertell level 3](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 6 |
 | **Quests** | 2 |
@@ -56,8 +56,8 @@ description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemie
 | [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_pearl) | 232 | 9–11 | 1 | appears later, during a quest |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 236 | 15–21 | 4 | – |
 | [Erupting pyreling](../monsters/erupting_pyreling.md) | 246 | 19–26 | 4 | – |
-| [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 1 | – |
 | [Pyreling](../monsters/pyreling.md) | 266 | 20–28 | 2 | – |
+| [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 1 | – |
 | [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 285 | 10–13 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
@@ -78,7 +78,7 @@ description: "Undertell 3 lava 01 is an indoor location in Andor's Trail. Enemie
 
 - [Lost treasures](../quests/nocmar.md): part of the map changes at stage 70; something on this map advances it
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [hidden_lava_burning_rounds (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
+- [Lava burning timer (hidden flag)](../quests/lava_burning.md): a scripted event can trigger here from stage 1; a scripted event can trigger here from stage 3; a scripted event can trigger here from stage 4; a scripted event can trigger here from stage 7
 
 ## Points of interest
 

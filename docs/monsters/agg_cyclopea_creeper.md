@@ -1,10 +1,10 @@
 ---
-description: "Crimoculus Cyclopea creeper is an enemy in Andor's Trail (reptile) with 245 HP, worth 626 XP, found in nw_sullengard_1. Drops: Cyclopean eye gem, Cyclopea root, Photosynthetic leaf."
+description: "Crimoculus Cyclopea creeper is an enemy in Andor's Trail (reptile) with 245 HP, worth 626 XP, found in Nw sullengard 1. Drops: Cyclopean eye gem, Cyclopea root, Photosynthetic leaf."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_1091.png){ .sprite } Crimoculus Cyclopea creeper
 
-**Found in:** [nw_sullengard_1](../maps/nw_sullengard_1.md)
+**Found in:** [Nw sullengard 1](../maps/nw_sullengard_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Crimoculus Cyclopea creeper is an enemy in Andor's Trail (reptile)
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | nw_sullengard_1 |
+| **Found in** | Nw sullengard 1 |
 | **Class** | Reptile |
 | **HP** | 245 |
 | **XP when defeated** | 626 |
@@ -58,7 +58,7 @@ description: "Crimoculus Cyclopea creeper is an enemy in Andor's Trail (reptile)
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [nw_sullengard_1](../maps/nw_sullengard_1.md) | – | 9 | – |
+| [Nw sullengard 1](../maps/nw_sullengard_1.md) | – | 9 | – |
 
 
 ## Version history

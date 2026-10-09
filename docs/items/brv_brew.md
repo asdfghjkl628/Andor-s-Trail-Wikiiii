@@ -36,7 +36,7 @@ description: "Brimhaven brew is a ordinary drink in Andor's Trail. How to get it
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gylew's henchman](../monsters/gylew_henchman.md#v-gylew_henchman_aggresive) | 100% | 1-3 | waterway5 |
+| [Gylew's henchman](../monsters/gylew_henchman.md#v-gylew_henchman_aggresive) | 100% | 1-3 | Waterway 5 |
 
 ### Sold by
 
@@ -51,7 +51,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [sullengard_tavern](../maps/sullengard_tavern.md) | – | must be carried (1×) | “I have seen your choices of brews before and I am not interested in those. So I ” |
+| stepping on a trigger on [Sullengard tavern](../maps/sullengard_tavern.md) | – | must be carried (1×) | “I have seen your choices of brews before and I am not interested in those. So I ” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

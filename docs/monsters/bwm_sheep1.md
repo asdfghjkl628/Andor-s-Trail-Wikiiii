@@ -4,7 +4,7 @@ description: "Mountain Sheep is an NPC who can also be fought in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_55.png){ .sprite } Mountain Sheep
 
-**Where to find Mountain Sheep:** Blackwater Mountain: [bwmfill3](../maps/bwmfill3.md#pin-npc-bwm_sheep1), Blackwater Mountain: [bwmfill_tunlon](../maps/bwmfill_tunlon.md#pin-npc-bwm_sheep1)
+**Where to find Mountain Sheep:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md#pin-npc-bwm_sheep1), Blackwater Mountain: [Bwmfill tunlon](../maps/bwmfill_tunlon.md#pin-npc-bwm_sheep1)
 
 <div class="infobox" markdown>
 
@@ -57,18 +57,18 @@ description: "Mountain Sheep is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bwmfill3](../maps/bwmfill3.md) | Blackwater Mountain | 10 | – |
-| [bwmfill_tunlon](../maps/bwmfill_tunlon.md) | Blackwater Mountain | 2 | – |
+| [Bwmfill 3](../maps/bwmfill3.md) | Blackwater Mountain | 10 | – |
+| [Bwmfill tunlon](../maps/bwmfill_tunlon.md) | Blackwater Mountain | 2 | – |
 
 ## Quests that count defeats
 
-- A conversation with [Mountain Sheep](../monsters/bwm_sheep1.md) ([bwmfill3](../maps/bwmfill3.md)) checks that this enemy has been defeated.
-- A conversation with stepping on a trigger on [bwmfill3](../maps/bwmfill3.md), [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) checks that this enemy has been defeated.
-- A conversation with [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) checks that this enemy has been defeated.
+- A conversation with [Mountain Sheep](../monsters/bwm_sheep1.md) ([Bwmfill 3](../maps/bwmfill3.md)) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Bwmfill 3](../maps/bwmfill3.md), [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) checks that this enemy has been defeated.
+- A conversation with [Tunlon](../monsters/tunlon.md) ([Bwmfill 3](../maps/bwmfill3.md)) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mountain Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mountain Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bwm_sheep_dialogue.json" data-npc="Mountain Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bwm_sheep_dialogue"></span>**`bwm_sheep_dialogue`** Mountain Sheep: “Baa!”
 

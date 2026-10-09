@@ -56,7 +56,7 @@ description: "Galmore 17 house is an indoor location in Andor's Trail. NPCs: Vae
 - [Restless in the grave](../quests/mg_restless_grave.md): [Vaelric](../monsters/vaelric.md) is involved
 - [Search for Andor](../quests/andor.md): [Vaelric](../monsters/vaelric.md) is involved
 - [The swamp healer](../quests/swamp_healer.md): [Vaelric](../monsters/vaelric.md) is involved
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): [Vaelric](../monsters/vaelric.md) is involved
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): [Vaelric](../monsters/vaelric.md) is involved
 
 
 ## Version history

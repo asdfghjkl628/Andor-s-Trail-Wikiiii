@@ -29,11 +29,11 @@ description: "Bag with mushrooms is a quest other in Andor's Trail. How to get i
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Bogsten](../monsters/bogsten.md) | 100% | 1 | bogsten1 |
+| [Bogsten](../monsters/bogsten.md) | 100% | 1 | Bogsten 1 |
 
 ### Quest & dialogue rewards
 
-- From [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) during [Fungi panic](../quests/fungi_panic.md#stage-100) (1×)
+- From [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) during [Fungi panic](../quests/fungi_panic.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -44,7 +44,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) | – | handed over (1×) | “Here are some of Bogsten's mushrooms.” |
+| [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) | – | handed over (1×) | “Here are some of Bogsten's mushrooms.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

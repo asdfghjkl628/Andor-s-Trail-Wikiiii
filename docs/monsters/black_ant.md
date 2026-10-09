@@ -4,7 +4,7 @@ description: "Black ant is an enemy in Andor's Trail (insect) with 3 HP, worth 5
 
 # ![](../assets/icons/monsters/monsters_insects_0.png){ .sprite } Black ant
 
-**Found in:** Crossglen: [crossglen](../maps/crossglen.md), Guynmart Castle: [guynmart_wood_3_hole](../maps/guynmart_wood_3_hole.md), [guynmart_wood_19](../maps/guynmart_wood_19.md)
+**Found in:** Crossglen: [Crossglen](../maps/crossglen.md), Guynmart Castle: [Guynmart wood 3 hole](../maps/guynmart_wood_3_hole.md), [Guynmart wood 19](../maps/guynmart_wood_19.md)
 
 <div class="infobox" markdown>
 
@@ -55,9 +55,9 @@ description: "Black ant is an enemy in Andor's Trail (insect) with 3 HP, worth 5
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crossglen](../maps/crossglen.md) | Crossglen | 3 | – |
-| [guynmart_wood_19](../maps/guynmart_wood_19.md) | – | 4 | – |
-| [guynmart_wood_3_hole](../maps/guynmart_wood_3_hole.md) | Guynmart Castle | 2 | – |
+| [Crossglen](../maps/crossglen.md) | Crossglen | 3 | – |
+| [Guynmart wood 19](../maps/guynmart_wood_19.md) | – | 4 | – |
+| [Guynmart wood 3 hole](../maps/guynmart_wood_3_hole.md) | Guynmart Castle | 2 | – |
 
 
 ## Version history

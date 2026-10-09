@@ -4,7 +4,7 @@ description: "Ash spectre is an enemy in Andor's Trail (ghost) with 97 HP, worth
 
 # ![](../assets/icons/monsters/monsters_ld2_220.png){ .sprite } Ash spectre
 
-**Found in:** Charwood: [lostmine1a](../maps/lostmine1a.md), Charwood: [lostmine2](../maps/lostmine2.md), [lostmine3](../maps/lostmine3.md)
+**Found in:** Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md), [Lostmine 3](../maps/lostmine3.md)
 
 <div class="infobox" markdown>
 
@@ -59,9 +59,9 @@ description: "Ash spectre is an enemy in Andor's Trail (ghost) with 97 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine1a](../maps/lostmine1a.md) | Charwood | 3 | – |
-| [lostmine2](../maps/lostmine2.md) | Charwood | 10 | – |
-| [lostmine3](../maps/lostmine3.md) | – | 1 | – |
+| [Lostmine 1a](../maps/lostmine1a.md) | Charwood | 3 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 10 | – |
+| [Lostmine 3](../maps/lostmine3.md) | – | 1 | – |
 
 
 ## Version history

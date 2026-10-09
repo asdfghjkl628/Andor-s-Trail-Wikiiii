@@ -47,7 +47,7 @@ description: "Elm steel mace is a ordinary mace in Andor's Trail (Attack damage 
 
 ### Found in containers
 
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

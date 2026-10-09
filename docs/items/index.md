@@ -1,6 +1,6 @@
 # Items
 
-Every item in Andor's Trail v0.8.18, all 1000 of them. Items are grouped by type and category. Use the search box to find a specific item.
+Every item in Andor's Trail v0.8.18, all 1000 of them, 61 of which are rings ~~because apparently that's how many one hero needs~~. Grouped by type and category; the search box is faster.
 
 ## Equipment
 

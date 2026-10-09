@@ -1,10 +1,10 @@
 ---
-description: "Small scaradon is an enemy in Andor's Trail (insect) with 35 HP, worth 135 XP, found in mountaincave1, mountaincave2, waytolake0. Drops: Gold coins, Insect shell, Glass gem."
+description: "Small scaradon is an enemy in Andor's Trail (insect) with 35 HP, worth 135 XP, found in Mountaincave 1, Mountaincave 2, Waytolake 0. Drops: Gold coins, Insect shell, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_98.png){ .sprite } Small scaradon
 
-**Found in:** [mountaincave1](../maps/mountaincave1.md), [mountaincave2](../maps/mountaincave2.md), [waytolake0](../maps/waytolake0.md), [waytolake7](../maps/waytolake7.md) (+1 more)
+**Found in:** [Mountaincave 1](../maps/mountaincave1.md), [Mountaincave 2](../maps/mountaincave2.md), [Waytolake 0](../maps/waytolake0.md), [Waytolake 7](../maps/waytolake7.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Small scaradon is an enemy in Andor's Trail (insect) with 35 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountaincave1, mountaincave2, waytolake0 |
+| **Found in** | Mountaincave 1, Mountaincave 2, Waytolake 0 |
 | **Class** | Insect |
 | **HP** | 35 |
 | **XP when defeated** | 135 |
@@ -56,11 +56,11 @@ description: "Small scaradon is an enemy in Andor's Trail (insect) with 35 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountaincave1](../maps/mountaincave1.md) | – | 4 | – |
-| [mountaincave2](../maps/mountaincave2.md) | – | 9 | – |
-| [waytolake0](../maps/waytolake0.md) | – | 1 | – |
-| [waytolake7](../maps/waytolake7.md) | – | 4 | – |
-| [waytolake8](../maps/waytolake8.md) | – | 4 | – |
+| [Mountaincave 1](../maps/mountaincave1.md) | – | 4 | – |
+| [Mountaincave 2](../maps/mountaincave2.md) | – | 9 | – |
+| [Waytolake 0](../maps/waytolake0.md) | – | 1 | – |
+| [Waytolake 7](../maps/waytolake7.md) | – | 4 | – |
+| [Waytolake 8](../maps/waytolake8.md) | – | 4 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Yellowjacket queen is an enemy in Andor's Trail (insect) with 87 HP, worth 277 XP, found in lodar15. Drops: Gold coins, Insect wing."
+description: "Yellowjacket queen is an enemy in Andor's Trail (insect) with 87 HP, worth 277 XP, found in Lodar 15. Drops: Gold coins, Insect wing."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_17.png){ .sprite } Yellowjacket queen
 
-**Found in:** [lodar15](../maps/lodar15.md)
+**Found in:** [Lodar 15](../maps/lodar15.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Yellowjacket queen is an enemy in Andor's Trail (insect) with 87 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar15 |
+| **Found in** | Lodar 15 |
 | **Class** | Insect |
 | **HP** | 87 |
 | **XP when defeated** | 277 |
@@ -55,7 +55,7 @@ description: "Yellowjacket queen is an enemy in Andor's Trail (insect) with 87 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar15](../maps/lodar15.md) | – | 3 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 3 | – |
 
 
 ## Version history

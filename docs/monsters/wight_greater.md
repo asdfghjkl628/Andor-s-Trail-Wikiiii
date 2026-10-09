@@ -1,10 +1,10 @@
 ---
-description: "Greater wight is an enemy in Andor's Trail (undead) with 150 HP, worth 227 XP, found in laerothprison6, laerothprison7. Drops: Gold coins, Bone, Reinforced leather buckler."
+description: "Greater wight is an enemy in Andor's Trail (undead) with 150 HP, worth 227 XP, found in Laerothprison 6, Laerothprison 7. Drops: Gold coins, Bone, Reinforced leather buckler."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_14.png){ .sprite } Greater wight
 
-**Found in:** [laerothprison6](../maps/laerothprison6.md), [laerothprison7](../maps/laerothprison7.md)
+**Found in:** [Laerothprison 6](../maps/laerothprison6.md), [Laerothprison 7](../maps/laerothprison7.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Greater wight is an enemy in Andor's Trail (undead) with 150 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothprison6, laerothprison7 |
+| **Found in** | Laerothprison 6, Laerothprison 7 |
 | **Class** | Undead |
 | **HP** | 150 |
 | **XP when defeated** | 227 |
@@ -60,8 +60,8 @@ description: "Greater wight is an enemy in Andor's Trail (undead) with 150 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison6](../maps/laerothprison6.md) | – | 3 | – |
-| [laerothprison7](../maps/laerothprison7.md) | – | 17 | – |
+| [Laerothprison 6](../maps/laerothprison6.md) | – | 3 | – |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 17 | – |
 
 
 ## Version history

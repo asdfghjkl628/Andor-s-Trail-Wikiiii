@@ -4,7 +4,7 @@ description: "Kizzo is a non-player character (NPC) in Andor's Trail, found in L
 
 # ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } Kizzo
 
-**Where to find Kizzo:** Loneford: [loneford6](../maps/loneford6.md#pin-npc-loneford_tavern_patron)
+**Where to find Kizzo:** Loneford: [Loneford 6](../maps/loneford6.md#pin-npc-loneford_tavern_patron)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Kizzo is a non-player character (NPC) in Andor's Trail, found in L
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kizzo. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kizzo. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_tavern_patron.json" data-npc="Kizzo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_tavern_patron"></span>**`loneford_tavern_patron`** Kizzo: “This is no place for a kid like you. I think you had better leave now.”
 

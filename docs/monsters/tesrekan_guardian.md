@@ -1,10 +1,10 @@
 ---
-description: "Dread guardian is an NPC who can also be fought in Andor's Trail, found in waterwayacave1."
+description: "Dread guardian is an NPC who can also be fought in Andor's Trail, found in Waterwayacave 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_redshrike1_3.png){ .sprite } Dread guardian
 
-**Where to find Dread guardian:** [waterwayacave1](../maps/waterwayacave1.md#pin-npc-tesrekan_guardian)
+**Where to find Dread guardian:** [Waterwayacave 1](../maps/waterwayacave1.md#pin-npc-tesrekan_guardian)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dread guardian is an NPC who can also be fought in Andor's Trail, 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | waterwayacave1 |
+| **Found in** | Waterwayacave 1 |
 | **Class** | Demon |
 | **HP** | 200 |
 | **XP when defeated** | 484 |
@@ -57,11 +57,11 @@ description: "Dread guardian is an NPC who can also be fought in Andor's Trail, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwayacave1](../maps/waterwayacave1.md) | – | 1 | – |
+| [Waterwayacave 1](../maps/waterwayacave1.md) | – | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dread guardian. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dread guardian. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tesrekan_guardian_0.json" data-npc="Dread guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -69,7 +69,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tesrekan_guardian_0"></span>**`tesrekan_guardian_0`** Dread guardian: “You dare approach me? You will die!”
 

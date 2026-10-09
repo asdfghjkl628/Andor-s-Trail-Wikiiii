@@ -25,7 +25,7 @@ description: "Lodar's activation vial is a quest other in Andor's Trail. How to 
 
 ### Quest & dialogue rewards
 
-- From [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) during [The way out is through](../quests/shortcut_lodar.md#stage-30) (1×)
+- From [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) during [The way out is through](../quests/shortcut_lodar.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

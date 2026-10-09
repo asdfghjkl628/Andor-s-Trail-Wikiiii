@@ -26,8 +26,8 @@ description: "Polished sparkling gem is a ordinary gem in Andor's Trail. How to 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Toszylae](../monsters/toszylae.md) | 100% | 2 | waytobrimhavencave3a |
-| [Kazaul imp](../monsters/kazaul_imp.md) | 10% | 1 | blackwater_mountain42 |
+| [Toszylae](../monsters/toszylae.md) | 100% | 2 | Waytobrimhavencave 3a |
+| [Kazaul imp](../monsters/kazaul_imp.md) | 10% | 1 | Blackwater mountain 42 |
 
 ### Sold by
 
@@ -35,37 +35,37 @@ description: "Polished sparkling gem is a ordinary gem in Andor's Trail. How to 
 
 ### Found in containers
 
-- [arulircave6](../maps/arulircave6.md#container-0) (container 1, 100%)
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-2) (container 3, 50%), Prim
-- [guynmart_main_1](../maps/guynmart_main_1.md#container-0) (container 1, 100%), Guynmart Castle
-- [guynmart_wood_18b](../maps/guynmart_wood_18b.md#container-0) (container 1, 100%)
-- [guynmart_wood_18b](../maps/guynmart_wood_18b.md#container-1) (container 2, 100%)
-- [guynmart_wood_18c](../maps/guynmart_wood_18c.md#container-0) (container 1, 100%)
-- [guynmart_wood_18c](../maps/guynmart_wood_18c.md#container-1) (container 2, 100%)
-- [haunted_house](../maps/haunted_house.md#container-0) (container 1, 100%)
-- [island1](../maps/island1.md#container-12) (container 13, 33%)
-- [island2](../maps/island2.md#container-3) (container 4, 33%)
-- [island2](../maps/island2.md#container-7) (container 8, 33%)
-- [island2](../maps/island2.md#container-10) (container 11, 33%)
-- [island2](../maps/island2.md#container-12) (container 13, 33%)
-- [island2](../maps/island2.md#container-13) (container 14, 33%)
-- [island3](../maps/island3.md#container-3) (container 4, 33%)
-- [island3](../maps/island3.md#container-7) (container 8, 33%)
-- [island3](../maps/island3.md#container-10) (container 11, 33%)
-- [island3](../maps/island3.md#container-12) (container 13, 33%)
-- [island3](../maps/island3.md#container-13) (container 14, 33%)
-- [island4](../maps/island4.md#container-3) (container 4, 33%)
-- [island4](../maps/island4.md#container-12) (container 13, 33%)
-- [laerothisland3](../maps/laerothisland3.md#container-0) (container 1, 100%), Lake Laeroth
-- [laerothprison1](../maps/laerothprison1.md#container-0) (container 1, 70%), Lake Laeroth
-- [ratdom_maze_531](../maps/ratdom_maze_531.md#container-1) (container 2, 50%)
-- [ratdom_maze_567](../maps/ratdom_maze_567.md#container-1) (container 2, 50%), 4 wells
-- [swamp_hut](../maps/swamp_hut.md#container-0) (container 1, 100%)
+- [Arulircave 6](../maps/arulircave6.md#container-0) (container 1, 100%)
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-2) (container 3, 50%), Prim
+- [Guynmart main 1](../maps/guynmart_main_1.md#container-0) (container 1, 100%), Guynmart Castle
+- [Guynmart wood 18b](../maps/guynmart_wood_18b.md#container-0) (container 1, 100%)
+- [Guynmart wood 18b](../maps/guynmart_wood_18b.md#container-1) (container 2, 100%)
+- [Guynmart wood 18c](../maps/guynmart_wood_18c.md#container-0) (container 1, 100%)
+- [Guynmart wood 18c](../maps/guynmart_wood_18c.md#container-1) (container 2, 100%)
+- [Haunted house](../maps/haunted_house.md#container-0) (container 1, 100%)
+- [Island 1](../maps/island1.md#container-12) (container 13, 33%)
+- [Island 2](../maps/island2.md#container-3) (container 4, 33%)
+- [Island 2](../maps/island2.md#container-7) (container 8, 33%)
+- [Island 2](../maps/island2.md#container-10) (container 11, 33%)
+- [Island 2](../maps/island2.md#container-12) (container 13, 33%)
+- [Island 2](../maps/island2.md#container-13) (container 14, 33%)
+- [Island 3](../maps/island3.md#container-3) (container 4, 33%)
+- [Island 3](../maps/island3.md#container-7) (container 8, 33%)
+- [Island 3](../maps/island3.md#container-10) (container 11, 33%)
+- [Island 3](../maps/island3.md#container-12) (container 13, 33%)
+- [Island 3](../maps/island3.md#container-13) (container 14, 33%)
+- [Island 4](../maps/island4.md#container-3) (container 4, 33%)
+- [Island 4](../maps/island4.md#container-12) (container 13, 33%)
+- [Laerothisland 3](../maps/laerothisland3.md#container-0) (container 1, 100%), Lake Laeroth
+- [Laerothprison 1](../maps/laerothprison1.md#container-0) (container 1, 70%), Lake Laeroth
+- [Ratdom maze 531](../maps/ratdom_maze_531.md#container-1) (container 2, 50%)
+- [Ratdom maze 567](../maps/ratdom_maze_567.md#container-1) (container 2, 50%), 4 wells
+- [Swamp hut](../maps/swamp_hut.md#container-0) (container 1, 100%)
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [waytolake6](../maps/waytolake6.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-40) (1×)
-- From stepping on a trigger on [arulircave5](../maps/arulircave5.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-250) (70%)
+- From stepping on a trigger on [Waytolake 6](../maps/waytolake6.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-40) (1×)
+- From stepping on a trigger on [Arulircave 5](../maps/arulircave5.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-250) (70%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -76,7 +76,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw Polished sparkling gem]” |
+| stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) | – | handed over (1×) | “[Throw Polished sparkling gem]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

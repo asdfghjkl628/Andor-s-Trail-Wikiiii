@@ -11,7 +11,7 @@ description: "The last lord of Laeroth is a quest in Andor's Trail, started by s
 | **Quest ID** | `last_lord` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 15, 70) |
-| **Started by** | stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md), stepping on a trigger on [laerothisland1](../maps/laerothisland1.md) |
+| **Started by** | stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md), stepping on a trigger on [Laerothisland 1](../maps/laerothisland1.md) |
 | **Total XP** | 1,001 |
 | **Related quests** | 2 |
 
@@ -23,7 +23,7 @@ description: "The last lord of Laeroth is a quest in Andor's Trail, started by s
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md). Required:
+Start with stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md). Required:
 
 - NOT reached stage 10 of [The last lord of Laeroth](../quests/last_lord.md#stage-10)
 - NOT reached stage 15 of [The last lord of Laeroth](../quests/last_lord.md#stage-15)
@@ -39,58 +39,115 @@ Start with stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.
 | Relationship | Quest | Detail |
 |---|---|---|
 | Requires | [Take care of the caretaker](laeroth_caretaker.md#stage-180) | stage 180 reached, for stages 10, 15 here |
-| Unlocks | [laeroth_nondisplay (hidden flag)](laeroth_nondisplay.md#stage-140) | stage 140 there needs stage 40 here |
+| Unlocks | [Laeroth story flags (hidden flag)](laeroth_nondisplay.md#stage-140) | stage 140 there needs stage 40 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Before I leave Laeroth, perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement1](../maps/laerothbasement1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothisland1](../maps/laerothisland1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor0](../maps/laerothmanor0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor3](../maps/laerothmanor3.md).</span> | stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md) | – | – |
-| <span id="stage-15"></span>15 | I didn't really care about where the last lord went. I left this place, and whatever happened to him didn't make any difference to me. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement1](../maps/laerothbasement1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothisland1](../maps/laerothisland1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor0](../maps/laerothmanor0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor3](../maps/laerothmanor3.md).</span> | stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md) | – | 1 XP |
-| <span id="stage-20"></span>20 | I searched the caretakers room, and found a letter from "Adakin". It says he is leaving to explore his future, but little more than that except that it mentions a chest that contains a diary and other things he could not take with him. I should look for this chest.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | stage 10 | – |
-| <span id="stage-30"></span>30 | I have found a chest, with an inscription "Adakin" on the top. It is locked though, so I need to find the key. Hopefully he did not take it with him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement0](../maps/laerothbasement0.md).</span> | stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) | stage 20 | – |
-| <span id="stage-40"></span>40 | I have found a key that looks like it should fit Adakin's chest.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor0](../maps/laerothmanor0.md).</span> | stepping on a trigger on [laerothmanor0](../maps/laerothmanor0.md) | stage 30 | gives 1× [Key for Adakin's chest](../items/adakin_chest_key.md) |
-| <span id="stage-50"></span>50 | I have opened Adakin's chest. There are some useful items in here, as well as his diary. The diary has a lock though, so it seems I must find a small key that fits this lock.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement0](../maps/laerothbasement0.md).</span> | stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) | hand over 1× [Key for Adakin's chest](../items/adakin_chest_key.md), stage 40 | gives 1× [Adakin's diary](../items/adakin_diary.md) |
-| <span id="stage-60"></span>60 | I have found a jeweled key that looks like it might be for the diary. Time to try it.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | stage 50 | gives 1× [Key for Adakin's diary](../items/adakin_diary_key.md) |
-| <span id="stage-70"></span>70 | The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) | hand over 1× [Adakin's diary](../items/adakin_diary.md), hand over 1× [Key for Adakin's diary](../items/adakin_diary_key.md), stage 60 | 1,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Before I leave Laeroth, perhaps I should try to find out where the… ▸</span><span class="l">▴ less</span></summary>Before I leave Laeroth, perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement 1](../maps/laerothbasement1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothisland 1](../maps/laerothisland1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 0](../maps/laerothmanor0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 3](../maps/laerothmanor3.md).</span> | stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">I didn't really care about where the last lord went. I left this… ▸</span><span class="l">▴ less</span></summary>I didn't really care about where the last lord went. I left this place, and whatever happened to him didn't make any difference to me.</details> **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement 1](../maps/laerothbasement1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothisland 1](../maps/laerothisland1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 0](../maps/laerothmanor0.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 3](../maps/laerothmanor3.md).</span> | stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md) | 1 XP |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I searched the caretakers room, and found a letter from "Adakin". It… ▸</span><span class="l">▴ less</span></summary>I searched the caretakers room, and found a letter from "Adakin". It says he is leaving to explore his future, but little more than that except that it mentions a chest that contains a diary and other things he could not take with him. I should look for this chest.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I have found a chest, with an inscription "Adakin" on the top. It is… ▸</span><span class="l">▴ less</span></summary>I have found a chest, with an inscription "Adakin" on the top. It is locked though, so I need to find the key. Hopefully he did not take it with him.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement 0](../maps/laerothbasement0.md).</span> | stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I have found a key that looks like it should fit Adakin's chest.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 0](../maps/laerothmanor0.md).</span> | stepping on a trigger on [Laerothmanor 0](../maps/laerothmanor0.md) | 1× [Key for Adakin's chest](../items/adakin_chest_key.md) |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I have opened Adakin's chest. There are some useful items in here,… ▸</span><span class="l">▴ less</span></summary>I have opened Adakin's chest. There are some useful items in here, as well as his diary. The diary has a lock though, so it seems I must find a small key that fits this lock.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothbasement 0](../maps/laerothbasement0.md).</span> | stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md) | 1× [Adakin's diary](../items/adakin_diary.md) |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I have found a jeweled key that looks like it might be for the… ▸</span><span class="l">▴ less</span></summary>I have found a jeweled key that looks like it might be for the diary. Time to try it.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md) | 1× [Key for Adakin's diary](../items/adakin_diary_key.md) |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">The key unlocked the diary. The final entry did not really give an… ▸</span><span class="l">▴ less</span></summary>The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day.</details> **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Laerothmanor 1](../maps/laerothmanor1.md).</span> | stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md) | 1,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md) → choose “Perhaps I should try to find out more.” — **conditions:** NOT reached stage 10 of [The last lord of Laeroth](../quests/last_lord.md#stage-10); NOT reached stage 15 of [The last lord of Laeroth](../quests/last_lord.md#stage-15); reached stage 180 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-180) → **stage 10**. NPC: “I will look around. The main quarters are probably a good place to start.”
+??? note "Stage 10 · stepping on a trigger on laerothbasement1 · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md), choose “Perhaps I should try to find out more.”
 
-    1. stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md) → choose “I am just wasting time here. Time to leave.” — **conditions:** NOT reached stage 10 of [The last lord of Laeroth](../quests/last_lord.md#stage-10); NOT reached stage 15 of [The last lord of Laeroth](../quests/last_lord.md#stage-15); reached stage 180 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-180) → **stage 15**. NPC: “It doesn't matter where the last lord went.”
+    - **Needs:** not yet stage 10, 15; reached stage 180 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-180)
+    - *“I will look around. The main quarters are probably a good place to start.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [The last lord of Laeroth](../quests/last_lord.md#stage-10); NOT reached stage 30 of [The last lord of Laeroth](../quests/last_lord.md#stage-30) → **stage 20**. NPC: “There is a chest here that contains what the caretaker left behind. Maybe there is something here about the last lord.…”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · stepping on a trigger on laerothbasement1 · 1 way"
 
-    1. stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) → the conversation leads here automatically — **conditions:** reached stage 20 of [The last lord of Laeroth](../quests/last_lord.md#stage-20); NOT reached stage 30 of [The last lord of Laeroth](../quests/last_lord.md#stage-30) → **stage 30**. NPC: “There is a chest here with "Adakin" written on the top. It is locked though. I need the key.”
+    **Way 1:** Stepping on a trigger on [Laerothbasement 1](../maps/laerothbasement1.md), choose “I am just wasting time here. Time to leave.”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** not yet stage 10, 15; reached stage 180 of [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-180)
+    - *“It doesn't matter where the last lord went.”*
 
-    1. stepping on a trigger on [laerothmanor0](../maps/laerothmanor0.md) → the conversation leads here automatically — **conditions:** reached stage 30 of [The last lord of Laeroth](../quests/last_lord.md#stage-30); NOT reached stage 40 of [The last lord of Laeroth](../quests/last_lord.md#stage-40) → **stage 40**; also gives 1× [Key for Adakin's chest](../items/adakin_chest_key.md). NPC: “This small chest looks like it might contain something useful. Yes! A key that looks about the right size for Adakin's…”
 
-???+ note "Stage 50: 1 route"
+<span id="route-20"></span>
 
-    1. stepping on a trigger on [laerothbasement0](../maps/laerothbasement0.md) → the conversation leads here automatically — **conditions:** reached stage 40 of [The last lord of Laeroth](../quests/last_lord.md#stage-40); hand over 1× [Key for Adakin's chest](../items/adakin_chest_key.md) → **stage 50**; also gives 1× [Adakin's diary](../items/adakin_diary.md). NPC: “The key works, and the chest is open! Here is his diary. It has its own lock though, so now I need a key for this!…”
+??? note "Stage 20 · stepping on a trigger on laerothmanor1 · 1 way"
 
-???+ note "Stage 60: 1 route"
+    **Way 1:** Stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md)
 
-    1. stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) → the conversation leads here automatically — **conditions:** reached stage 50 of [The last lord of Laeroth](../quests/last_lord.md#stage-50); NOT reached stage 60 of [The last lord of Laeroth](../quests/last_lord.md#stage-60) → **stage 60**; also gives 1× [Key for Adakin's diary](../items/adakin_diary_key.md). NPC: “I have found a smalled jeweled key that looks like it will fit Adakin's diary.”
+    - **Needs:** stage 10; not yet stage 30
+    - *“There is a chest here that contains what the caretaker left behind. Maybe there is something here about the last lord. There is a letter…”*
 
-???+ note "Stage 70: 1 route"
 
-    1. stepping on a trigger on [laerothmanor1](../maps/laerothmanor1.md) → the conversation leads here automatically — **conditions:** reached stage 60 of [The last lord of Laeroth](../quests/last_lord.md#stage-60); hand over 1× [Key for Adakin's diary](../items/adakin_diary_key.md); NOT reached stage 70 of [The last lord of Laeroth](../quests/last_lord.md#stage-70); hand over 1× [Adakin's diary](../items/adakin_diary.md) → **stage 70**. NPC: “It reads: "I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies…”
+<span id="route-30"></span>
+
+??? note "Stage 30 · stepping on a trigger on laerothbasement0 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md)
+
+    - **Needs:** stage 20; not yet stage 30
+    - *“There is a chest here with "Adakin" written on the top. It is locked though. I need the key.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · stepping on a trigger on laerothmanor0 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Laerothmanor 0](../maps/laerothmanor0.md)
+
+    - **Needs:** stage 30; not yet stage 40
+    - **Gives:** 1× [Key for Adakin's chest](../items/adakin_chest_key.md)
+    - *“This small chest looks like it might contain something useful. Yes! A key that looks about the right size for Adakin's chest!”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · stepping on a trigger on laerothbasement0 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Laerothbasement 0](../maps/laerothbasement0.md)
+
+    - **Needs:** stage 40; hand over 1× [Key for Adakin's chest](../items/adakin_chest_key.md)
+    - **Gives:** 1× [Adakin's diary](../items/adakin_diary.md)
+    - *“The key works, and the chest is open! Here is his diary. It has its own lock though, so now I need a key for this! There's some other nice…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on laerothmanor1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md)
+
+    - **Needs:** stage 50; not yet stage 60
+    - **Gives:** 1× [Key for Adakin's diary](../items/adakin_diary_key.md)
+    - *“I have found a smalled jeweled key that looks like it will fit Adakin's diary.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · stepping on a trigger on laerothmanor1 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Laerothmanor 1](../maps/laerothmanor1.md)
+
+    - **Needs:** stage 60; not yet stage 70; hand over 1× [Key for Adakin's diary](../items/adakin_diary_key.md); hand over 1× [Adakin's diary](../items/adakin_diary.md)
+    - *“It reads: "I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies ahead for me. I will go…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

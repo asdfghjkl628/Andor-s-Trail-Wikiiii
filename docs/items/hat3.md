@@ -40,7 +40,7 @@ description: "Crude leather cap is a ordinary headwear, leather in Andor's Trail
 
 ### Quest & dialogue rewards
 
-- From reading a sign on [waterwayacave2](../maps/waterwayacave2.md) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-80) (100%)
+- From reading a sign on [Waterwayacave 2](../maps/waterwayacave2.md) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-80) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

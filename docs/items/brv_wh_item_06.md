@@ -25,8 +25,8 @@ description: "Old, worn cape is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_06](../monsters/brv_wh_item_06.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_26](../monsters/brv_wh_item_26.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-106) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_06](../monsters/brv_wh_item_06.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_26](../monsters/brv_wh_item_26.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-106) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,8 +37,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-40) | handed over (1×) | “Did you order an 'Old, worn cape'?” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-40) | handed over (1×) | “Did you order an 'Old, worn cape'?” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -4,7 +4,7 @@ description: "Slippery Venomfang is an enemy in Andor's Trail (reptile) with 38 
 
 # ![](../assets/icons/monsters/monsters_omi2_8.png){ .sprite } Slippery Venomfang
 
-**Found in:** Blackwater Mountain: [blackwater_mountain73](../maps/blackwater_mountain73.md), [blackwater_mountain74](../maps/blackwater_mountain74.md), [blackwater_mountain75](../maps/blackwater_mountain75.md), [blackwater_mountain76](../maps/blackwater_mountain76.md) (+3 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 73](../maps/blackwater_mountain73.md), [Blackwater mountain 74](../maps/blackwater_mountain74.md), [Blackwater mountain 75](../maps/blackwater_mountain75.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -60,13 +60,13 @@ description: "Slippery Venomfang is an enemy in Andor's Trail (reptile) with 38 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain73](../maps/blackwater_mountain73.md) | Blackwater Mountain | 9 | – |
-| [blackwater_mountain74](../maps/blackwater_mountain74.md) | – | 3 | – |
-| [blackwater_mountain75](../maps/blackwater_mountain75.md) | – | 7 | – |
-| [blackwater_mountain76](../maps/blackwater_mountain76.md) | – | 2 | – |
-| [elm_mine2](../maps/elm_mine2.md) | – | 5 | – |
-| [elm_mine3](../maps/elm_mine3.md) | – | 4 | – |
-| [elm_mine5](../maps/elm_mine5.md) | – | 5 | – |
+| [Blackwater mountain 73](../maps/blackwater_mountain73.md) | Blackwater Mountain | 9 | – |
+| [Blackwater mountain 74](../maps/blackwater_mountain74.md) | – | 3 | – |
+| [Blackwater mountain 75](../maps/blackwater_mountain75.md) | – | 7 | – |
+| [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – | 2 | – |
+| [Elm mine 2](../maps/elm_mine2.md) | – | 5 | – |
+| [Elm mine 3](../maps/elm_mine3.md) | – | 4 | – |
+| [Elm mine 5](../maps/elm_mine5.md) | – | 5 | – |
 
 
 ## Version history

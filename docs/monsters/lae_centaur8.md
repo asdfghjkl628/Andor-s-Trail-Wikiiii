@@ -1,10 +1,10 @@
 ---
-description: "Lyra, the centaur is a non-player character (NPC) in Andor's Trail, found in island4."
+description: "Lyra, the centaur is a non-player character (NPC) in Andor's Trail, found in Island 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_42.png){ .sprite } Lyra, the centaur
 
-**Where to find Lyra, the centaur:** [island4](../maps/island4.md#pin-npc-lae_centaur8)
+**Where to find Lyra, the centaur:** [Island 4](../maps/island4.md#pin-npc-lae_centaur8)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Lyra, the centaur is a non-player character (NPC) in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | island4 |
+| **Found in** | Island 4 |
 | **Entry ID** | `lae_centaur8` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
@@ -21,7 +21,7 @@ description: "Lyra, the centaur is a non-player character (NPC) in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lyra, the centaur. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lyra, the centaur. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_centaur8.json" data-npc="Lyra, the centaur" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_centaur8"></span>**`lae_centaur8`** Lyra, the centaur: “The stars are bright tonight.”
 

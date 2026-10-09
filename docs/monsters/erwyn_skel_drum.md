@@ -21,12 +21,12 @@ description: "Drummer is an NPC who can also be fought in Andor's Trail, found i
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Drummer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Drummer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`erwyn_skel_drum`](#v-erwyn_skel_drum) | NPC | Flagstone Prison: [stoutford_castle_shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum) | – | – |
-| [`ratdom_skel_drum`](#v-ratdom_skel_drum) | Enemy | Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | – | 1 |
+| [`erwyn_skel_drum`](#v-erwyn_skel_drum) | NPC | Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum) | – | – |
+| [`ratdom_skel_drum`](#v-ratdom_skel_drum) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 1 |
 | [`ratdom_skel_drum1`](#v-ratdom_skel_drum1) | Enemy | Not on a map | – | 1 |
 | [`ratdom_skel_drum2`](#v-ratdom_skel_drum2) | Enemy | Not on a map | – | 1 |
 
@@ -34,11 +34,11 @@ description: "Drummer is an NPC who can also be fought in Andor's Trail, found i
 
 **Entry ID:** `erwyn_skel_drum` · **Type:** NPC
 
-**Location:** Flagstone Prison: [stoutford_castle_shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum)
+**Location:** Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Drummer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Drummer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/erwyn_skel_band.json" data-npc="Drummer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-erwyn_skel_drum-erwyn_skel_band"></span>**`erwyn_skel_band`** Drummer: “Please don't disturb. We have to practice.”
 
@@ -93,7 +93,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_skel_drum` · **Type:** Enemy
 
-**Location:** Skeleton dance: [ratdom_maze_543d](../maps/ratdom_maze_543d.md)
+**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
 ### Combat statistics
 
@@ -121,7 +121,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 1 | – |
+| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 1 | – |
 
 
 ### Version history

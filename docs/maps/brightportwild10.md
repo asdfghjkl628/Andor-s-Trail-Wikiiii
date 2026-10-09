@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild10 is an indoor location in Andor's Trail. NPCs: Seire. Enemies: Rash Muskrat, Duleian panther, Lizardman fencer, Lizardman corsair. Exits to Brightportwild12."
+description: "Brightportwild 10 is an indoor location in Andor's Trail. NPCs: Seire. Enemies: Rash Muskrat, Duleian panther, Lizardman corsair, Lizardman fencer. Exits to Brightportwild 12."
 ---
 
-# Brightportwild10
+# Brightportwild 10
 
 <div class="infobox" markdown>
 
@@ -11,7 +11,7 @@ description: "Brightportwild10 is an indoor location in Andor's Trail. NPCs: Sei
 | **Map ID** | `brightportwild10` |
 | **Type** | Indoors / underground |
 | **Size** | 20×25 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -19,19 +19,19 @@ description: "Brightportwild10 is an indoor location in Andor's Trail. NPCs: Sei
 
 </div>
 
-**Brightportwild10** is an indoor map. It has 1 NPC and 4 kinds of enemy. Exits lead to Brightportwild12.
+**Brightportwild 10** is an indoor map. It has 1 NPC and 4 kinds of enemy. Exits lead to Brightportwild 12.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild10.webp" alt="Map of Brightportwild10" width="640" height="800" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../brightportwild12/#place-east" title="Exit to Brightportwild12" style="left:0.000%;top:56.000%;width:5.000%;height:4.000%"></a><span class="mo mo-spawn" title="Spawns: Rash Muskrat" style="left:20.000%;top:40.000%;width:75.000%;height:56.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:35.000%;top:32.000%;width:40.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman fencer" style="left:20.000%;top:24.000%;width:60.000%;height:28.000%"></span><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:20.000%;top:60.000%;width:55.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Seire" style="left:85.000%;top:76.000%;width:5.000%;height:4.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:70.000%;top:48.000%;width:5.000%;height:4.000%"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:40.000%;top:48.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:25.000%;top:92.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:55.000%;top:40.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:35.000%;top:36.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="mob" href="../../monsters/brightport_redlizard2/" title="Lizardman fencer" style="left:55.000%;top:48.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_johny_6.png" alt="Lizardman fencer"></a><a class="mob" href="../../monsters/brightport_redlizard2/" title="Lizardman fencer" style="left:70.000%;top:44.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_johny_6.png" alt="Lizardman fencer"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:65.000%;top:68.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:50.000%;top:64.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_blockernpc/" title="Seire" style="left:85.000%;top:76.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_ld1_27.png" alt="Seire"></a><a class="pin pin-exit" href="#key-1" style="left:2.500%;top:58.000%" title="Exit (west): to [Brightportwild12](brightportwild12.md)">1</a><a id="pin-npc-brightport_blockernpc" class="pin pin-npc" href="#key-2" style="left:87.500%;top:78.000%" title="[Seire](../../monsters/brightport_blockernpc.md): NPC">2</a><a class="pin pin-key" href="#key-3" style="left:72.500%;top:50.000%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild10.webp" alt="Map of Brightportwild 10" width="640" height="800" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../brightportwild12/#place-east" title="Exit to Brightportwild 12" style="left:0.000%;top:56.000%;width:5.000%;height:4.000%"></a><span class="mo mo-spawn" title="Spawns: Rash Muskrat" style="left:20.000%;top:40.000%;width:75.000%;height:56.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:35.000%;top:32.000%;width:40.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Lizardman fencer" style="left:20.000%;top:24.000%;width:60.000%;height:28.000%"></span><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:20.000%;top:60.000%;width:55.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Seire" style="left:85.000%;top:76.000%;width:5.000%;height:4.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:70.000%;top:48.000%;width:5.000%;height:4.000%"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:40.000%;top:48.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:25.000%;top:92.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_squirrel2/" title="Rash Muskrat" style="left:55.000%;top:40.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik5_27.png" alt="Rash Muskrat"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:35.000%;top:36.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="mob" href="../../monsters/brightport_redlizard2/" title="Lizardman fencer" style="left:55.000%;top:48.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_johny_6.png" alt="Lizardman fencer"></a><a class="mob" href="../../monsters/brightport_redlizard2/" title="Lizardman fencer" style="left:70.000%;top:44.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_johny_6.png" alt="Lizardman fencer"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:65.000%;top:68.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:50.000%;top:64.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_blockernpc/" title="Seire" style="left:85.000%;top:76.000%;width:5.000%;height:4.000%"><img src="../../assets/icons/monsters/monsters_ld1_27.png" alt="Seire"></a><a class="pin pin-exit" href="#key-1" style="left:2.500%;top:58.000%" title="Exit (west): to [Brightportwild 12](brightportwild12.md)">1</a><a id="pin-npc-brightport_blockernpc" class="pin pin-npc" href="#key-2" style="left:87.500%;top:78.000%" title="[Seire](../../monsters/brightport_blockernpc.md): NPC">2</a><a class="pin pin-key" href="#key-3" style="left:72.500%;top:50.000%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (west) | to [Brightportwild12](brightportwild12.md) |
+    | <span id="key-1"></span>1 | Exit (west) | to [Brightportwild 12](brightportwild12.md) |
     | <span id="key-2"></span>2 | [Seire](../monsters/brightport_blockernpc.md) | NPC |
     | <span id="key-3"></span>3 | Blocked passage | Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”) |
 
@@ -42,7 +42,7 @@ description: "Brightportwild10 is an indoor location in Andor's Trail. NPCs: Sei
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| West | [Brightportwild12](brightportwild12.md) | Buried citadel | 1 |
+| West | [Brightportwild 12](brightportwild12.md) | Buried citadel | 1 |
 
 ## NPCs
 
@@ -54,8 +54,8 @@ description: "Brightportwild10 is an indoor location in Andor's Trail. NPCs: Sei
 |---|---|---|---|---|
 | [Rash Muskrat](../monsters/brightport_squirrel2.md) | 140 | 6–19 | 3 | – |
 | [Duleian panther](../monsters/brightport_cat2.md) | 220 | 14–25 | 2 | – |
-| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 2 | – |
 | [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
+| [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

@@ -38,7 +38,7 @@ description: "Fine green hat is a ordinary headwear, cloth in Andor's Trail (Blo
 - [Arambold](../monsters/arambold.md)
 - [Tailor](../monsters/tailor.md) (Fallhaven)
 - [Quiet thief](../monsters/stoutford_thief.md) (Stoutford)
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 - [Arlish](../monsters/arlish.md) (Brimhaven)
 
 
@@ -50,8 +50,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Please improve my fine green hat.” |
-| [Venanra](../monsters/brv_laundry_boss.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) | – | handed over (1×) | “Please improve my fine green hat.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | must be carried (1×) | “Please improve my fine green hat.” |
+| [Venanra](../monsters/brv_laundry_boss.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) | – | handed over (1×) | “Please improve my fine green hat.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

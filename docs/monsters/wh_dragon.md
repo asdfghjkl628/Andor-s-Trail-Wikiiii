@@ -4,7 +4,7 @@ description: "Falkour the Forge Dragon is an enemy in Andor's Trail (animal) wit
 
 # ![](../assets/icons/monsters/monsters_bosses_2x2_12.png){ .sprite } Falkour the Forge Dragon
 
-**Found in:** Fallhaven: [white_house_basement](../maps/white_house_basement.md)
+**Found in:** Fallhaven: [White house basement](../maps/white_house_basement.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Falkour the Forge Dragon is an enemy in Andor's Trail (animal) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [white_house_basement](../maps/white_house_basement.md) | Fallhaven | 1 | – |
+| [White house basement](../maps/white_house_basement.md) | Fallhaven | 1 | – |
 
 
 ## Version history

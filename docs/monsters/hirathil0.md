@@ -1,10 +1,10 @@
 ---
-description: "Hirathil spawn is an enemy in Andor's Trail (ghost) with 73 HP, worth 316 XP, found in lodarcave0, lodarcave1, lodarcave2. Drops: Small empty vial, Glass gem, Runed scepter."
+description: "Hirathil spawn is an enemy in Andor's Trail (ghost) with 73 HP, worth 316 XP, found in Lodarcave 0, Lodarcave 1, Lodarcave 2. Drops: Small empty vial, Glass gem, Runed scepter."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_40.png){ .sprite } Hirathil spawn
 
-**Found in:** [lodarcave0](../maps/lodarcave0.md), [lodarcave1](../maps/lodarcave1.md), [lodarcave2](../maps/lodarcave2.md), [lodarcave3](../maps/lodarcave3.md) (+4 more)
+**Found in:** [Lodarcave 0](../maps/lodarcave0.md), [Lodarcave 1](../maps/lodarcave1.md), [Lodarcave 2](../maps/lodarcave2.md), [Lodarcave 3](../maps/lodarcave3.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Hirathil spawn is an enemy in Andor's Trail (ghost) with 73 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodarcave0, lodarcave1, lodarcave2 |
+| **Found in** | Lodarcave 0, Lodarcave 1, Lodarcave 2 |
 | **Class** | Ghost |
 | **HP** | 73 |
 | **XP when defeated** | 316 |
@@ -60,14 +60,14 @@ description: "Hirathil spawn is an enemy in Andor's Trail (ghost) with 73 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodarcave0](../maps/lodarcave0.md) | – | 9 | – |
-| [lodarcave1](../maps/lodarcave1.md) | – | 14 | – |
-| [lodarcave2](../maps/lodarcave2.md) | – | 10 | – |
-| [lodarcave3](../maps/lodarcave3.md) | – | 20 | – |
-| [lodarcave4](../maps/lodarcave4.md) | – | 3 | – |
-| [lodarcave5](../maps/lodarcave5.md) | – | 5 | – |
-| [lodarcave7](../maps/lodarcave7.md) | – | 6 | – |
-| [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | 3 | – |
+| [Lodarcave 0](../maps/lodarcave0.md) | – | 9 | – |
+| [Lodarcave 1](../maps/lodarcave1.md) | – | 14 | – |
+| [Lodarcave 2](../maps/lodarcave2.md) | – | 10 | – |
+| [Lodarcave 3](../maps/lodarcave3.md) | – | 20 | – |
+| [Lodarcave 4](../maps/lodarcave4.md) | – | 3 | – |
+| [Lodarcave 5](../maps/lodarcave5.md) | – | 5 | – |
+| [Lodarcave 7](../maps/lodarcave7.md) | – | 6 | – |
+| [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – | 3 | – |
 
 
 ## Version history

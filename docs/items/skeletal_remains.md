@@ -28,10 +28,10 @@ description: "Skeletal remains is a ordinary other in Andor's Trail. How to get 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Deadwalker](../monsters/dead_walker.md) | 35% | 1 | haunted_forest1, haunted_forest14, haunted_forest19 |
-| [Graveyard gatekeeper](../monsters/graveyard_gatekeeper.md) | 25% | 1-2 | haunted_cemetery1, haunted_cemetery2, haunted_forest12 |
-| [Death wrecker](../monsters/death_wrecker.md) | 20% | 1 | haunted_house, haunted_house_basement, haunted_underground_1 |
-| [Skeletal raider](../monsters/skeletal_raider.md) | 10% | 1-2 | haunted_forest14, haunted_forest15, haunted_forest19 |
+| [Deadwalker](../monsters/dead_walker.md) | 35% | 1 | Haunted forest 1, Haunted forest 14, Haunted forest 19 |
+| [Graveyard gatekeeper](../monsters/graveyard_gatekeeper.md) | 25% | 1-2 | Haunted cemetery 1, Haunted cemetery 2, Haunted forest 12 |
+| [Death wrecker](../monsters/death_wrecker.md) | 20% | 1 | Haunted house, Haunted house basement, Haunted underground 1 |
+| [Skeletal raider](../monsters/skeletal_raider.md) | 10% | 1-2 | Haunted forest 14, Haunted forest 15, Haunted forest 19 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

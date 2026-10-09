@@ -1,10 +1,10 @@
 ---
-description: "Piercing irdegh is an enemy in Andor's Trail (reptile) with 125 HP, worth 305 XP, found in waytomountaincave1, waytomountaincave2. Drops: Meat, Poison gland, Irdegh poison gland."
+description: "Piercing irdegh is an enemy in Andor's Trail (reptile) with 125 HP, worth 305 XP, found in Waytomountaincave 1, Waytomountaincave 2. Drops: Meat, Poison gland, Irdegh poison gland."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_14.png){ .sprite } Piercing irdegh
 
-**Found in:** [waytomountaincave1](../maps/waytomountaincave1.md), [waytomountaincave2](../maps/waytomountaincave2.md)
+**Found in:** [Waytomountaincave 1](../maps/waytomountaincave1.md), [Waytomountaincave 2](../maps/waytomountaincave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Piercing irdegh is an enemy in Andor's Trail (reptile) with 125 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytomountaincave1, waytomountaincave2 |
+| **Found in** | Waytomountaincave 1, Waytomountaincave 2 |
 | **Class** | Reptile |
 | **HP** | 125 |
 | **XP when defeated** | 305 |
@@ -58,8 +58,8 @@ description: "Piercing irdegh is an enemy in Andor's Trail (reptile) with 125 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytomountaincave1](../maps/waytomountaincave1.md) | – | 1 | – |
-| [waytomountaincave2](../maps/waytomountaincave2.md) | – | 4 | – |
+| [Waytomountaincave 1](../maps/waytomountaincave1.md) | – | 1 | – |
+| [Waytomountaincave 2](../maps/waytomountaincave2.md) | – | 4 | – |
 
 
 ## Version history

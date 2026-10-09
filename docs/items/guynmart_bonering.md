@@ -26,7 +26,7 @@ description: "Old man's ring of bone is a quest ring in Andor's Trail. How to ge
 
 ### Quest & dialogue rewards
 
-- From [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) during [Rare delicacies](../quests/guynmart_wise.md#stage-20) (1×)
+- From [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) during [Rare delicacies](../quests/guynmart_wise.md#stage-20) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,9 +37,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [guynmart_passage](../maps/guynmart_passage.md) | – | must be worn (1×) | “(automatic)” |
-| [Skeleton](../monsters/skeleton.md#v-ratdom_skeleton1) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) | – | must be worn (1×) | “(automatic)” |
-| [Skeleton](../monsters/skeleton.md#v-ratdom_skeleton2) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Guynmart passage](../maps/guynmart_passage.md) | – | must be worn (1×) | “(automatic)” |
+| [Skeleton](../monsters/skeleton.md#v-ratdom_skeleton1) ([Ratdom maze 415](../maps/ratdom_maze_415.md)) | – | must be worn (1×) | “(automatic)” |
+| [Skeleton](../monsters/skeleton.md#v-ratdom_skeleton2) ([Ratdom maze 416](../maps/ratdom_maze_416.md)) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

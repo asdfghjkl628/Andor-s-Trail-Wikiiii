@@ -26,8 +26,8 @@ description: "Rose is a extraordinary other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/guynmart.md)) during [gardenGuard blocks (hidden flag)](../quests/guynmart_quest_gguard.md#stage-82) (100%)
-- From [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) during [Roses](../quests/guynmart.md#stage-190) (1×)
+- From [Guynmart guard](../monsters/guynmart_gguard.md) ([Guynmart](../maps/guynmart.md)) during [Guynmart garden guard (hidden flag)](../quests/guynmart_quest_gguard.md#stage-82) (100%)
+- From [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) during [Roses](../quests/guynmart.md#stage-190) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([guynmart_main_1](../maps/guynmart_main_1.md)) | [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-34) | must be carried (1×) | “(automatic)” |
-| [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([guynmart_main_1](../maps/guynmart_main_1.md)) | [Roses](../quests/guynmart.md#stage-90) | handed over (1×) | “N” |
+| [Hannah](../monsters/guynmart_hannah.md) ([Guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([Guynmart main 1](../maps/guynmart_main_1.md)) | [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-34) | must be carried (1×) | “(automatic)” |
+| [Hannah](../monsters/guynmart_hannah.md) ([Guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([Guynmart main 1](../maps/guynmart_main_1.md)) | [Roses](../quests/guynmart.md#stage-90) | handed over (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

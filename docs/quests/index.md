@@ -1,145 +1,7 @@
-# Quests
+    **Way 44:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “Burhczyd, is it really you? Wait, don't run away ...”
 
-Every quest that appears in the journal, followed by the hidden story flags the game uses internally to track progress. Each quest page shows what starts it, what each stage needs, what it unlocks and what it prevents.
-
-| Quest | Stages | Starts with |
-|---|---|---|
-| [A cat and mouse game](cat_and_mouse.md) | 9 | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) |
-| [A creeping fear](xulviir.md) | 3 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
-| [A difference of opinion](sisterfight.md) | 15 | [Ingus](../monsters/ingus.md) ([remgard0](../maps/remgard0.md)) |
-| [A familiar shadow](familiar_shadow.md) | 8 | walking into a blocked passage on [galmore_32](../maps/galmore_32.md) |
-| [A Feygard delicacy](feygard_delicacy.md) | 8 | [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) |
-| [A giant snake](bela_gsnake.md) | 2 | [Bela](../monsters/bela.md) |
-| [A lost potion](lodar.md) | 17 | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [A map of the Great Lake Laeroth](lake_map.md) | 32 | [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([remgard_tavern0](../maps/remgard_tavern0.md)) |
-| [A path to the Duleian Road](pathway_fallhaven.md) | 7 | [Watchman](../monsters/guard_pathway.md) ([fallhaven_ne](../maps/fallhaven_ne.md)) |
-| [A place to forge](place_to_forge.md) | 8 | [Nocmar](../monsters/nocmar.md) |
-| [A quick glance](quick_glance.md) | 14 | [Anakis](../monsters/anakis.md) ([brimhaven7](../maps/brimhaven7.md)) |
-| [A raid for a cookbook](gison_cookbook.md) | 8 | [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) |
-| [A secret garden](secret_garden.md) | 8 | [Caeda](../monsters/caeda.md) ([lakecave2](../maps/lakecave2.md)) |
-| [A strange looking dagger](brv_dagger.md) | 26 | [Edrin](../monsters/brv_metalsmith.md) ([brimhaven_metalsmith](../maps/brimhaven_metalsmith.md)) |
-| [A Wicked witch](wicked_witch.md) | 14 | [Bela](../monsters/bela.md) |
-| [About a girl](about_a_girl.md) | 9 | [Liberated Elytharan ghost](../monsters/elytharan_liberated_ghost.md) ([undertell_3_00](../maps/undertell_3_00.md)) |
-| [An involuntary carrier](toszylae.md) | 12 | [Ulirfendor](../monsters/ulirfendor.md) ([waytobrimhavencave4](../maps/waytobrimhavencave4.md)) |
-| [Ancient secrets](flagstone.md) | 10 | [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) |
-| [Another ruthless Crackshot](Thieves04.md) | 10 | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [Awoken from slumber](bjorgur_grave.md) | 8 | [Bjorgur](../monsters/bjorgur.md) ([blackwater_mountain26](../maps/blackwater_mountain26.md)) |
-| [base_nondisplay](base_nondisplay.md) | 2 | stepping on a trigger on [stoutford_castle_barrack2](../maps/stoutford_castle_barrack2.md) |
-| [Beer Bootlegging](beer_bootlegging.md) | 12 | [Feygard patrol captain](../monsters/feygard_patrol_captain.md) ([foaming_flask](../maps/foaming_flask.md)) |
-| [Bits and pieces](thorin.md) | 8 | [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) |
-| [Boxed in](brightport_thieves.md) | 10 | [Elysa](../monsters/brightportthieves6.md) ([brightport_thieves](../maps/brightport_thieves.md)) |
-| [Bread and circus](brightport_bakery.md) | 18 | [Allares](../monsters/brightportstoragenpc.md) ([brightport_bakery1](../maps/brightport_bakery1.md)) |
-| [Breakfast bread](mikhail_bread.md) | 2 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
-| [Brutes](brute_creator.md) | 6 | [Bidro](../monsters/brute_fisherman.md) ([mountainlake11](../maps/mountainlake11.md)) |
-| [Calomyran secrets](calomyran.md) | 3 | [Old man](../monsters/old_man.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
-| [Cheap cuts](benbyr.md) | 5 | [Benbyr](../monsters/benbyr.md) ([crossroads](../maps/crossroads.md)) |
-| [Climbing up is forbidden](Omi2_bwm1.md) | 41 | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) |
-| [Clouded intent](prim_hunt.md) | 19 | [Tonis](../monsters/tonis.md) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) |
-| [Colonel Lutarc](stn_colonel.md) | 22 | [Colonel Lutarc](../monsters/stn_colonel.md) ([waytogalmore0](../maps/waytogalmore0.md)) |
-| [Darkness in the Daylight](darkness_in_daylight.md) | 32 | [Miri](../monsters/dds_miri.md) ([galmore_41](../maps/galmore_41.md)) |
-| [Deep wound](erinith.md) | 9 | [Erinith](../monsters/erinith.md) ([wild0](../maps/wild0.md)) |
-| [Delicious soup](gison_soup.md) | 17 | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) |
-| [Delivery](brv_wh_delivery.md) | 13 | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) |
-| [Destined for great things](charwood1.md) | 31 | [Lethenlor](../monsters/lethenlor.md) ([tradehouse1](../maps/tradehouse1.md)) |
-| [Devastated land](hadracor.md) | 4 | [Hadracor](../monsters/hadracor.md) ([roadtocarntower1](../maps/roadtocarntower1.md)) |
-| [Devotion](devotion.md) | 24 | [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) |
-| [Disallowed substance](bonemeal.md) | 7 | [Leonid](../monsters/leonid.md) |
-| [Dominion](dominion.md) | 7 | [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) |
-| [Drunken tale](fallhavendrunk.md) | 2 | [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) |
-| [Echoes of enchantment](echoes_of_enchantment.md) | 14 | stepping on a trigger on [wexlow_village](../maps/wexlow_village.md) |
-| [Everything in order](remgard.md) | 21 | [Bridge lookout](../monsters/remgard_bridge.md) ([mountainlake13a](../maps/mountainlake13a.md)) |
-| [Fair play?](brv_blackjack.md) | 10 | [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)) |
-| [Fallen friends](jan.md) | 2 | [Jan](../monsters/jan.md) |
-| [Feygard errands](feygard_shipment.md) | 15 | [Gandoren](../monsters/gandoren.md) |
-| [Flows through the veins](loneford.md) | 17 | [Gandoren](../monsters/gandoren.md) |
-| [Fog in the woods](fogmonster.md) | 8 | stepping on a trigger on [guynmart_wood_13](../maps/guynmart_wood_13.md) |
-| [Fungi panic](fungi_panic.md) | 30 | [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) |
-| [Getting home on time](deebo_orchard_ght.md) | 7 | [Hadena](../monsters/sullengard_cabin_wife.md) ([sullengard_ravine_cabin](../maps/sullengard_ravine_cabin.md)) |
-| [Honor your parents](brv_present.md) | 6 | [Shop Owner](../monsters/brv_shop_owner.md) ([brimhaven_shop](../maps/brimhaven_shop.md)) |
-| [Hunting the hunter](deebo_orchard_hth.md) | 4 | [Deebo](../monsters/deebo_orchard_deebo.md) ([sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md)) |
-| [I have it in me](maggots.md) | 11 | [Toszylae](../monsters/toszylae.md) ([waytobrimhavencave3a](../maps/waytobrimhavencave3a.md)) |
-| [Immaculate kidnapping](Thieves02.md) | 19 | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [Inventory](brv_wh.md) | 12 | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) |
-| [It makes no fence](tunlon_fence.md) | 16 | [Tunlon](../monsters/tunlon.md) ([bwmfill3](../maps/bwmfill3.md)) |
-| [It's knot funny](fallhaven_lytwings.md) | 19 | [Arensia](../monsters/arensia.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) |
-| [Just the beginning](waterwayacave.md) | 13 | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) |
-| [Kaori's errands](kaori.md) | 3 | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) |
-| [Key of Luthor](bucus.md) | 6 | [Bucus](../monsters/bucus.md) |
-| [Lessons learned](brv_school2.md) | 22 | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| [Lights in the dark](kazaul.md) | 15 | [Throdna](../monsters/throdna.md) ([blackwater_mountain50](../maps/blackwater_mountain50.md)) |
-| [Lodar's potions](lodar_pots.md) | 7 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
-| [Long lost memories](lleglaris.md) | 4 | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) |
-| [Lost girl looking for lost things](stn_quest_gyra.md) | 14 | walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) |
-| [Lost sheep](tinlyn.md) | 10 | [Tinlyn](../monsters/tinlyn.md) ([fields6](../maps/fields6.md)) |
-| [Lost treasures](nocmar.md) | 15 | [Unnmir](../monsters/unnmir.md) |
-| [Marble hunting](guynmart_marbles.md) | 8 | [Stuephant](../monsters/guynmart_child.md) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
-| [Mine for the taking](graveyard_quest.md) | 13 | stepping on a trigger on [graveyard0](../maps/graveyard0.md) |
-| [Missing husband](leta.md) | 13 | [Leta](../monsters/leta.md) |
-| [Missing pieces](vacor.md) | 10 | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) |
-| [More rats!](ratdom_mikhail.md) | 10 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
-| [Much water](brv_flood.md) | 17 | walking into a blocked passage on [brimhaven_brother1_to_2](../maps/brimhaven_brother1_to_2.md) |
-| [Night visit](farrik.md) | 11 | [Farrik](../monsters/farrik.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [No rest for the guilty](lodar13_rest.md) | 11 | [Aulowenn](../monsters/aulowenn.md) ([lodar13](../maps/lodar13.md)) |
-| [No rest for the wicked](Stanwickquest.md) | 30 | [Dibella](../monsters/brightportnpc3.md) ([brightport_school](../maps/brightport_school.md)) |
-| [No weakness](bwm_wyrms.md) | 3 | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) |
-| [Not Pony Island](lae_centaurs.md) | 17 | [Orion, the centaur](../monsters/lae_centaur1.md) ([island1](../maps/island1.md)) |
-| [Of mice and men](algangror.md) | 7 | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) |
-| [Old friends?](kaverin.md) | 13 | [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) |
-| [Perception is not reality](new_snake_master.md) | 5 | [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) |
-| [Pond safety](sullengard_pond_safety.md) | 5 | [Nanette](../monsters/sullengard_nanette.md) ([sullengard2_northwest_house](../maps/sullengard2_northwest_house.md)) |
-| [Priceful vengeance](brightport_goons.md) | 17 | [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../maps/brightport_benbyr.md)) |
-| [Rare delicacies](guynmart_wise.md) | 4 | [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) |
-| [Rat infestation](odair.md) | 2 | [Odair](../monsters/odair.md) ([crossglen](../maps/crossglen.md)) |
-| [Rats!](mikhail_rats.md) | 2 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
-| [Recovering stolen property](sullengard_recover_items.md) | 7 | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) |
-| [Restless in the grave](mg_restless_grave.md) | 25 | stepping on a trigger on [galmore_47](../maps/galmore_47.md) |
-| [Roses](guynmart.md) | 41 | [Rhodita](../monsters/guynmart_farmer.md) ([guynmart_wood_1](../maps/guynmart_wood_1.md)) |
-| [Rumblings](rumblings.md) | 13 | [Tahalendor](../monsters/tahalendor.md) ([stoutford_church](../maps/stoutford_church.md)) |
-| [Search for Andor](andor.md) | 37 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
-| [Searching for madness](lodar2.md) | 9 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
-| [Shadow of the torturer](lae_torturer.md) | 16 | [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)) |
-| [Shadows](shadows.md) | 32 | [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) |
-| [Skeleton brothers](ratdom_skeleton.md) | 9 | [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)) |
-| [Sobby's Trail](tobby.md) | 10 | [Tobby](../monsters/tobby.md) ([guynmart_wood_19](../maps/guynmart_wood_19.md)) |
-| [Spies in the foam](jolnor.md) | 4 | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) |
-| [Stoutford's old castle](stoutford_castle.md) | 11 | stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md) |
-| [Surprise?](halvor_surprise.md) | 32 | [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) |
-| [Sweet sweet rat poison](lowyna.md) | 3 | [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) |
-| [Take care of the caretaker](laeroth_caretaker.md) | 21 | [Moriath](../monsters/moriath.md) ([laerothmanor1](../maps/laerothmanor1.md)) |
-| [Taste is everything](antifoodp.md) | 6 | [Tharal](../monsters/tharal.md) |
-| [The agent and the beast](bwm_agent.md) | 25 | [Agent](../monsters/agent1.md) ([blackwater_mountain5](../maps/blackwater_mountain5.md)) |
-| [The balance of scales](brightport_lizard.md) | 22 | stepping on a trigger on [brightport_cave1](../maps/brightport_cave1.md) |
-| [The dark protector](darkprotector.md) | 15 | reading a sign on [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) |
-| [The Dead are Walking](dead_walking.md) | 7 | [Gabriel](../monsters/gabriel.md) ([vilegard_s](../maps/vilegard_s.md)) |
-| [The exploded star](mg2_exploded_star.md) | 30 | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) |
-| [The fifth master](fifth_master.md) | 16 | [Zaroth](../monsters/zaroth.md) ([undertell_4_00](../maps/undertell_4_00.md)) |
-| [The five idols](fiveidols.md) | 20 | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) |
-| [The last lord of Laeroth](last_lord.md) | 8 | stepping on a trigger on [laerothbasement1](../maps/laerothbasement1.md) |
-| [The odd coin collector](odd_coin_collector.md) | 25 | [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) |
-| [The path is clear to me](rogorn.md) | 10 | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) |
-| [The roots of love](roots_love.md) | 5 | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) |
-| [The ruthless Crackshot](Thieves03.md) | 26 | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [The silver scale](mermaid_scale.md) | 8 | [Tjure](../monsters/tjure.md) ([blackwater_mountain54](../maps/blackwater_mountain54.md)) |
-| [The swamp healer](swamp_healer.md) | 3 | [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) |
-| [The thorns of vengeance](thorns_vengeance.md) | 16 | [Aryfora](../monsters/stoutford_widow.md) ([stoutford_gate](../maps/stoutford_gate.md)) |
-| [The way out is through](shortcut_lodar.md) | 7 | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
-| [Thief apprentice](Thieves01.md) | 13 | [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [Too hot to handle](brightport_fiamma.md) | 10 | [Fiamma](../monsters/brightportsmith.md) ([brightport_weapon](../maps/brightport_weapon.md)) |
-| [Trial by fire](charwood2.md) | 6 | [Kantya](../monsters/kantya.md) ([tradehouse0](../maps/tradehouse0.md)) |
-| [Troubling times](troubling_times.md) | 42 | [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) |
-| [Trusting an outsider](vilegard.md) | 3 | [Kaori](../monsters/kaori.md) ([vilegard_kaori](../maps/vilegard_kaori.md)) |
-| [Uncertain cause](wrye.md) | 8 | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) |
-| [Undertell: What was not written](undertell_book.md) | 8 | stepping on a trigger on [undertell_exit](../maps/undertell_exit.md) |
-| [Unusual experiences and achievements](achievements.md) | 19 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
-| [Wanted men](wanted_men.md) | 19 | stepping on a trigger on [aidem_camp](../maps/aidem_camp.md) |
-| [Well rested](prim_innquest.md) | 5 | [Prim cook](../monsters/prim_cook.md) ([blackwater_mountain21](../maps/blackwater_mountain21.md)) |
-| [What is that stench?](remgard2.md) | 9 | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) |
-| [Where is Norry?](hettar_dog.md) | 7 | [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) |
-| [Work for debts](brv_employee.md) | 9 | [Stebbarik](../monsters/brv_employee.md) ([brimhaven_employee](../maps/brimhaven_employee.md)) |
-| [Yellow is it](ratdom_quest.md) | 44 | stepping on a trigger on [home](../maps/home.md) |
-| [You shall pass](undertell_barricades.md) | 14 | [Myrelis](../monsters/mg_myrelis.md) ([galmore_58](../maps/galmore_58.md)) |
-| [You're the postman](postman.md) | 5 | [Gorwath](../monsters/gorwath.md) ([crossglen](../maps/crossglen.md)) |
-| [Young merchant](quest_burhczyd.md) | 22 | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) |
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-210) is 210
+    - **Gives:** removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from fallhaven_tavern, removes monsters from fallhaven_tavern, removes monsters from loneford6, removes monsters from loneford6, removes monsters from vilegard_tavern, removes monsters from vilegard_tavern, removes monsters from stoutford_tavern, removes monsters from stoutford_tavern, removes monsters from blackwater_mountain43, removes monsters from blackwater_mountain43, removes monsters from remgard_tavern0, removes monsters from remgard_tavern0, removes monsters from woodhouse2, removes monsters from woodhouse2, removes monsters from blackwater_mountain22, removes monsters from blackwater_mountain22, removes monsters from brimhaven_tavern1, removes monsters from brimhaven_tavern1, removes monsters from sullengard_tavern, removes monsters from sullengard_tavern, removes monsters from houseatcrossroads0, removes monsters from houseatcrossroads0, removes monsters from foaming_flask, removes monsters from foaming_flask, removes monsters from brightport_bakery, removes monsters from brightport_bakery, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall, removes monsters from crossglen_hall
 
 ## Hidden story flags
 
@@ -147,74 +9,74 @@ Internal progress trackers that do not appear in the journal but determine which
 
 | Flag | Stages | Set by |
 |---|---|---|
-| [Alaun soup rewards](alaun_soup_reward.md) | 7 | [Alaun](../monsters/alaun.md) ([fallhaven_alaun](../maps/fallhaven_alaun.md)) |
-| [Arulir Cave Traps](arulircave_trap.md) | 11 | stepping on a trigger on [arulircave1](../maps/arulircave1.md) |
-| [Arulir Mountain Trap](arulirmountain_trap.md) | 5 | stepping on a trigger on [arulirmountain2](../maps/arulirmountain2.md) |
-| [Arulircave secret room](arulircave_secret.md) | 2 | stepping on a trigger on [arulircave5](../maps/arulircave5.md) |
-| [arulircave_non_display](arulircave_non_display.md) | 2 | [Bernhar](../monsters/bernhar.md) ([arulirmountain1](../maps/arulirmountain1.md)) |
-| [brightport_nondisplay](brightport_nondisplay.md) | 197 | [Othinus](../monsters/brightportpriest.md) ([brightport_temple](../maps/brightport_temple.md)) |
-| [brv_blackjack_hidden](brv_blackjack_hidden.md) | 10 | [Dealer](../monsters/brv_blackjack_dealer.md) ([brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)) |
-| [brv_dagger_nondisplay](brv_dagger_nondisplay.md) | 4 | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) |
-| [brv_nondisplay](brv_nondisplay.md) | 36 | stepping on a trigger on [brimhaven_inn_east](../maps/brimhaven_inn_east.md) |
-| [brv_nondisplay2](brv_nondisplay2.md) | 9 | stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) |
-| [brv_nondisplay_multipurpose](brv_nondisplay_multipurpose.md) | 7 | [Worker](../monsters/brv_laundry_worker.md) ([brimhaven2_laundry](../maps/brimhaven2_laundry.md)) |
-| [bwmfill_nondisplay](bwmfill_nondisplay.md) | 5 | stepping on a trigger on [brimhaven4](../maps/brimhaven4.md) |
-| [Darkness in the Daylight and Shadows - Non displayed](dds_nd.md) | 8 | stepping on a trigger on [crossroads](../maps/crossroads.md) |
-| [Delivery - nondisplay](brv_wh_delivery_nondisplay.md) | 10 | [Arcir](../monsters/arcir.md) |
-| [Elythara](arcir.md) | 1 | reading a sign on [fallhaven_arcir_basement](../maps/fallhaven_arcir_basement.md) |
-| [Excluded endings for the main quest andor](andor_ending.md) | 2 | – |
-| [faction_count_feygard](faction_count_feygard.md) | 30 | – |
-| [faction_count_shadow](faction_count_shadow.md) | 33 | – |
-| [faction_count_thieves](faction_count_thieves.md) | 30 | – |
-| [feygard fog](feygard_fog.md) | 10 | stepping on a trigger on [guynmart_wood_14](../maps/guynmart_wood_14.md) |
-| [feygard_nondisplayed](feygard_nondisplayed.md) | 35 | walking into a blocked passage on [guynmart_wood_16](../maps/guynmart_wood_16.md) |
-| [final_cave](final_cave.md) | 12 | walking into a blocked passage on [final_cave1](../maps/final_cave1.md) |
-| [Fungi Panic - non displayed](fungi_panic_nondisplayed.md) | 9 | stepping on a trigger on [mushroom_m3_1](../maps/mushroom_m3_1.md) |
-| [galmore_nondisplayed](galmore_nondisplayed.md) | 46 | stepping on a trigger on [galmore_10](../maps/galmore_10.md) |
-| [gardenGuard blocks](guynmart_quest_gguard.md) | 1 | [Guynmart guard](../monsters/guynmart_gguard.md) ([guynmart](../maps/guynmart.md)) |
-| [Gison bottle](gison_bottle.md) | 8 | stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) |
-| [Gold and Exp reward for Delivery quest completed - nondisplay](brv_wh_delivery_reward_nondisplay.md) | 3 | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) |
-| [Gold and Exp reward for Inventory quest completed - nondisplay](brv_wh_reward_nondisplay.md) | 3 | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) |
-| [Guest tour](guynmart_quest_olav.md) | 3 | stepping on a trigger on [guynmart](../maps/guynmart.md) |
-| [guynmart lake](guynmart_r_lake.md) | 21 | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
-| [guynmart nondisplay](guynmart_nondisplay.md) | 29 | stepping on a trigger on [guynmart_wood_2](../maps/guynmart_wood_2.md) |
-| [guynmart Replace Walkable unten/oben](guynmart_qRpl_main.md) | 7 | stepping on a trigger on [guynmart](../maps/guynmart.md) |
-| [guynmart rope](guynmart_r_rope.md) | 3 | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) |
-| [guynmart_q1](guynmart_q1.md) | 2 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) |
-| [guynmart_q1ta](guynmart_Please_Never_Talk_About__.md) | 1 | – |
-| [guynmart_q1tb](guynmart_This_Mechanism_In_Forum__.md) | 1 | – |
-| [guynmart_q2 Step](guynmart_q2.md) | 14 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([guynmart](../maps/guynmart.md)) |
-| [guynmart_quest_cook_bread](guynmart_quest_cook_bread.md) | 1 | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) |
-| [guynmart_quest_cook_lunch](guynmart_quest_cook_lunch.md) | 1 | [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) |
-| [Heights change in bwm_17 (Actually 70)](bwm17_heights.md) | 2 | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) |
-| [hettar_dog_nd](hettar_dog_nd.md) | 2 | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md) |
-| [Hidden: Corpses found](bwm72_corpses.md) | 3 | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) |
-| [Hidden: events in bwm](bwm72_beginning.md) | 42 | stepping on a trigger on [blackwater_mountain72](../maps/blackwater_mountain72.md) |
-| [hidden_devotion](hidden_devotion.md) | 24 | stepping on a trigger on [undertell_3_02](../maps/undertell_3_02.md) |
-| [hidden_lava_burning_rounds](lava_burning.md) | 4 | stepping on a trigger on [undertell_exit](../maps/undertell_exit.md) |
-| [hidden_undertell](undertell_hidden.md) | 39 | walking into a blocked passage on [galmore_58](../maps/galmore_58.md) |
-| [laeroth_nondisplay](laeroth_nondisplay.md) | 32 | stepping on a trigger on [island_underground1](../maps/island_underground1.md) |
-| [Lake Laeroth Maps found](ll2_maps.md) | 25 | stepping on a trigger on [mountainlake14](../maps/mountainlake14.md) |
-| [Lake Laeroth nondisplay](ll2_nd.md) | 25 | stepping on a trigger on [mountainlake22](../maps/mountainlake22.md) |
-| [mg2_exploded_star_nd](mg2_exploded_star_nd.md) | 12 | stepping on a trigger on [galmore_9](../maps/galmore_9.md) |
-| [misc_nondisplay](misc_nondisplay.md) | 2 | stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) |
-| [mushroomcave_pathblock](mushroomcave_pathblock.md) | 1 | – |
-| [mushroomcave_trap](mushroomcave_trap.md) | 1 | stepping on a trigger on [mushroom_m2_2](../maps/mushroom_m2_2.md) |
-| [Placeholder for hidden quest stages (not displayed)](nondisplay.md) | 48 | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) |
-| [Placeholder for hidden quest stages 2 (not displayed)](nondisplay_2.md) | 26 | [Cithurn](../monsters/waterwayhermit.md) ([waterwaybhouse](../maps/waterwaybhouse.md)) |
-| [quick_glance_hidden_found_statue](quick_glance_hidden_found_statue.md) | 6 | walking into a blocked passage on [basiliskcave2](../maps/basiliskcave2.md) |
-| [quick_glance_hidden_position](quick_glance_hidden_position.md) | 2 | stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) |
-| [Ratdom_maze](ratdom_maze.md) | 25 | stepping on a trigger on [ratdom_maze1](../maps/ratdom_maze1.md) |
-| [ratdom_nondisplay](ratdom_nondisplay.md) | 88 | stepping on a trigger on [home](../maps/home.md) |
-| [Ringmaker](guynmart_quest_wizard.md) | 5 | [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) |
-| [Room to rent](fallhaventavern.md) | 2 | [Bela](../monsters/bela.md#v-bela_2) |
-| [scores](scores.md) | 53 | stepping on a trigger on [debugmap](../maps/debugmap.md) |
-| [shutters open](guynmart_qRpl_shutters.md) | 1 | [Hannah](../monsters/guynmart_hannah.md) ([guynmart](../maps/guynmart.md)) |
-| [stn_nondisplay](stn_nondisplay.md) | 83 | walking into a blocked passage on [waytogalmore0](../maps/waytogalmore0.md) |
-| [sullengard_nondisplay](sullengard_hidden.md) | 47 | [Godfrey](../monsters/sullengard_innkeeper.md) ([sullengard_inn](../maps/sullengard_inn.md)) |
-| [Sutdove_nondisplay](sutdover_hidden.md) | 5 | [Emmeline](../monsters/captive_girl.md) ([lake_shore_road_1](../maps/lake_shore_road_1.md)) |
-| [Thieves Hidden](thieves_hidden.md) | 11 | [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) |
-| [TODO](crossglen.md) | 1 | [Leonid](../monsters/leonid.md) |
-| [troubling_times_nd](troubling_times_nd.md) | 3 | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) |
-| [Vines in bwm_17](bwm17_vine.md) | 3 | stepping on a trigger on [blackwater_mountain70](../maps/blackwater_mountain70.md) |
-| [Young merchant Non-displayed](quest_burhczyd_nd.md) | 94 | stepping on a trigger on [crossglen](../maps/crossglen.md) |
+| [Alaun soup rewards](alaun_soup_reward.md) | 7 | [Alaun](../monsters/alaun.md) ([Fallhaven alaun](../maps/fallhaven_alaun.md)) |
+| [Arulir cave story flags](arulircave_non_display.md) | 2 | [Bernhar](../monsters/bernhar.md) ([Arulirmountain 1](../maps/arulirmountain1.md)) |
+| [Arulir Cave Traps](arulircave_trap.md) | 11 | stepping on a trigger on [Arulircave 1](../maps/arulircave1.md) |
+| [Arulir Mountain Trap](arulirmountain_trap.md) | 5 | stepping on a trigger on [Arulirmountain 2](../maps/arulirmountain2.md) |
+| [Arulircave secret room](arulircave_secret.md) | 2 | stepping on a trigger on [Arulircave 5](../maps/arulircave5.md) |
+| [Blackwater Mountain corpses found](bwm72_corpses.md) | 3 | stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) |
+| [Blackwater Mountain events](bwm72_beginning.md) | 42 | stepping on a trigger on [Blackwater mountain 72](../maps/blackwater_mountain72.md) |
+| [Blackwater Mountain heights](bwm17_heights.md) | 2 | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) |
+| [Blackwater Mountain story flags](bwmfill_nondisplay.md) | 5 | stepping on a trigger on [Brimhaven 4](../maps/brimhaven4.md) |
+| [Blackwater Mountain vines](bwm17_vine.md) | 3 | stepping on a trigger on [Blackwater mountain 70](../maps/blackwater_mountain70.md) |
+| [Brightport story flags](brightport_nondisplay.md) | 197 | [Othinus](../monsters/brightportpriest.md) ([Brightport temple](../maps/brightport_temple.md)) |
+| [Brimhaven blackjack story flags](brv_blackjack_hidden.md) | 10 | [Dealer](../monsters/brv_blackjack_dealer.md) ([Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)) |
+| [Brimhaven dagger story flags](brv_dagger_nondisplay.md) | 4 | stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) |
+| [Brimhaven multipurpose story flags](brv_nondisplay_multipurpose.md) | 7 | [Worker](../monsters/brv_laundry_worker.md) ([Brimhaven 2 laundry](../maps/brimhaven2_laundry.md)) |
+| [Brimhaven story flags](brv_nondisplay.md) | 36 | stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) |
+| [Brimhaven story flags 2](brv_nondisplay2.md) | 9 | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) |
+| [Brimhaven warehouse delivery](brv_wh_delivery_nondisplay.md) | 10 | [Arcir](../monsters/arcir.md) |
+| [Brimhaven warehouse delivery reward](brv_wh_delivery_reward_nondisplay.md) | 3 | [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) |
+| [Brimhaven warehouse inventory reward](brv_wh_reward_nondisplay.md) | 3 | [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) |
+| [Crossglen story flags](crossglen.md) | 1 | [Leonid](../monsters/leonid.md) |
+| [Darkness in the Daylight and Shadows story flags](dds_nd.md) | 8 | stepping on a trigger on [Crossroads](../maps/crossroads.md) |
+| [Devotion story flags](hidden_devotion.md) | 24 | stepping on a trigger on [Undertell 3 02](../maps/undertell_3_02.md) |
+| [Elythara (Arcir) flags](arcir.md) | 1 | reading a sign on [Fallhaven arcir basement](../maps/fallhaven_arcir_basement.md) |
+| [Fallhaven tavern room](fallhaventavern.md) | 2 | [Bela](../monsters/bela.md#v-bela_2) |
+| [Feygard faction counter](faction_count_feygard.md) | 30 | – |
+| [Feygard fog](feygard_fog.md) | 10 | stepping on a trigger on [Guynmart wood 14](../maps/guynmart_wood_14.md) |
+| [Feygard story flags](feygard_nondisplayed.md) | 35 | walking into a blocked passage on [Guynmart wood 16](../maps/guynmart_wood_16.md) |
+| [Final cave](final_cave.md) | 12 | walking into a blocked passage on [Final cave 1](../maps/final_cave1.md) |
+| [Fungi Panic story flags](fungi_panic_nondisplayed.md) | 9 | stepping on a trigger on [Mushroom m 3 1](../maps/mushroom_m3_1.md) |
+| [Galmore story flags](galmore_nondisplayed.md) | 46 | stepping on a trigger on [Galmore 10](../maps/galmore_10.md) |
+| [General story flags](nondisplay.md) | 48 | [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) |
+| [General story flags 2](nondisplay_2.md) | 26 | [Cithurn](../monsters/waterwayhermit.md) ([Waterwaybhouse](../maps/waterwaybhouse.md)) |
+| [Gison bottle](gison_bottle.md) | 8 | stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) |
+| [Guest tour](guynmart_quest_olav.md) | 3 | stepping on a trigger on [Guynmart](../maps/guynmart.md) |
+| [Guynmart Castle shutters](guynmart_qRpl_shutters.md) | 1 | [Hannah](../monsters/guynmart_hannah.md) ([Guynmart](../maps/guynmart.md)) |
+| [Guynmart Castle step 1](guynmart_q1.md) | 2 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md)) |
+| [Guynmart Castle step 1a](guynmart_Please_Never_Talk_About__.md) | 1 | – |
+| [Guynmart Castle step 1b](guynmart_This_Mechanism_In_Forum__.md) | 1 | – |
+| [Guynmart Castle step 2](guynmart_q2.md) | 14 | [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_player) ([Guynmart](../maps/guynmart.md)) |
+| [Guynmart Castle walkable areas](guynmart_qRpl_main.md) | 7 | stepping on a trigger on [Guynmart](../maps/guynmart.md) |
+| [Guynmart garden guard](guynmart_quest_gguard.md) | 1 | [Guynmart guard](../monsters/guynmart_gguard.md) ([Guynmart](../maps/guynmart.md)) |
+| [Guynmart lake](guynmart_r_lake.md) | 21 | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) |
+| [Guynmart quest cook bread](guynmart_quest_cook_bread.md) | 1 | [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) |
+| [Guynmart quest cook lunch](guynmart_quest_cook_lunch.md) | 1 | [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) |
+| [Guynmart quest wizard](guynmart_quest_wizard.md) | 5 | [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) |
+| [Guynmart rope](guynmart_r_rope.md) | 3 | stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) |
+| [Guynmart story flags](guynmart_nondisplay.md) | 29 | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) |
+| [Hettar dog story flags](hettar_dog_nd.md) | 2 | stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md) |
+| [Laeroth story flags](laeroth_nondisplay.md) | 32 | stepping on a trigger on [Island underground 1](../maps/island_underground1.md) |
+| [Lake Laeroth maps found](ll2_maps.md) | 25 | stepping on a trigger on [Mountainlake 14](../maps/mountainlake14.md) |
+| [Lake Laeroth story flags](ll2_nd.md) | 25 | stepping on a trigger on [Mountainlake 22](../maps/mountainlake22.md) |
+| [Lava burning timer](lava_burning.md) | 4 | stepping on a trigger on [Undertell exit](../maps/undertell_exit.md) |
+| [Main quest endings](andor_ending.md) | 2 | – |
+| [Miscellaneous story flags](misc_nondisplay.md) | 2 | stepping on a trigger on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md) |
+| [Mt. Galmore exploded star](mg2_exploded_star_nd.md) | 12 | stepping on a trigger on [Galmore 9](../maps/galmore_9.md) |
+| [Mushroom cave pathblock](mushroomcave_pathblock.md) | 1 | – |
+| [Mushroom cave trap](mushroomcave_trap.md) | 1 | stepping on a trigger on [Mushroom m 2 2](../maps/mushroom_m2_2.md) |
+| [Quick glance: position](quick_glance_hidden_position.md) | 2 | stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) |
+| [Quick glance: statue found](quick_glance_hidden_found_statue.md) | 6 | walking into a blocked passage on [Basiliskcave 2](../maps/basiliskcave2.md) |
+| [Ratdom maze](ratdom_maze.md) | 25 | stepping on a trigger on [Ratdom maze 1](../maps/ratdom_maze1.md) |
+| [Ratdom story flags](ratdom_nondisplay.md) | 88 | stepping on a trigger on [Home](../maps/home.md) |
+| [Score counters](scores.md) | 53 | stepping on a trigger on [Debugmap](../maps/debugmap.md) |
+| [Shadow faction counter](faction_count_shadow.md) | 33 | – |
+| [Stoutford story flags](stn_nondisplay.md) | 83 | walking into a blocked passage on [Waytogalmore 0](../maps/waytogalmore0.md) |
+| [Sullengard story flags](sullengard_hidden.md) | 47 | [Godfrey](../monsters/sullengard_innkeeper.md) ([Sullengard inn](../maps/sullengard_inn.md)) |
+| [Sutdover story flags](sutdover_hidden.md) | 5 | [Emmeline](../monsters/captive_girl.md) ([Lake shore road 1](../maps/lake_shore_road_1.md)) |
+| [Thieves faction counter](faction_count_thieves.md) | 30 | – |
+| [Thieves story flags](thieves_hidden.md) | 11 | [Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md)) |
+| [Troubling times story flags](troubling_times_nd.md) | 3 | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) |
+| [Undertell story flags](undertell_hidden.md) | 39 | walking into a blocked passage on [Galmore 58](../maps/galmore_58.md) |
+| [Young merchant story flags](quest_burhczyd_nd.md) | 94 | stepping on a trigger on [Crossglen](../maps/crossglen.md) |

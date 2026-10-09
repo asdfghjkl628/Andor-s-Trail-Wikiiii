@@ -34,11 +34,11 @@ description: "Potion of lightning attack is a extraordinary potion in Andor's Tr
 
 ### Found in containers
 
-- [witch_house_basement](../maps/witch_house_basement.md#container-0) (container 1, 100%)
+- [Witch house basement](../maps/witch_house_basement.md#container-0) (container 1, 100%)
 
 ### Quest & dialogue rewards
 
-- From [Teksin](../monsters/teksin.md) ([waytolake11](../maps/waytolake11.md)) during [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-150) (1×)
+- From [Teksin](../monsters/teksin.md) ([Waytolake 11](../maps/waytolake11.md)) during [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-150) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

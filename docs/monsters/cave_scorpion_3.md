@@ -1,10 +1,10 @@
 ---
-description: "Tough cave scorpion is an enemy in Andor's Trail (insect) with 30 HP, worth 128 XP, found in laerothcave2, laerothcave3, lakecave0. Drops: Gold coins, Scorpion sting."
+description: "Tough cave scorpion is an enemy in Andor's Trail (insect) with 30 HP, worth 128 XP, found in Laerothcave 2, Laerothcave 3, Lakecave 0. Drops: Gold coins, Scorpion sting."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik3_76.png){ .sprite } Tough cave scorpion
 
-**Found in:** [laerothcave2](../maps/laerothcave2.md), [laerothcave3](../maps/laerothcave3.md), [lakecave0](../maps/lakecave0.md), [secretpassage1](../maps/secretpassage1.md)
+**Found in:** [Laerothcave 2](../maps/laerothcave2.md), [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md), [Secretpassage 1](../maps/secretpassage1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough cave scorpion is an enemy in Andor's Trail (insect) with 30 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave2, laerothcave3, lakecave0 |
+| **Found in** | Laerothcave 2, Laerothcave 3, Lakecave 0 |
 | **Class** | Insect |
 | **HP** | 30 |
 | **XP when defeated** | 128 |
@@ -57,10 +57,10 @@ description: "Tough cave scorpion is an enemy in Andor's Trail (insect) with 30 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave2](../maps/laerothcave2.md) | – | 3 | – |
-| [laerothcave3](../maps/laerothcave3.md) | – | 6 | – |
-| [lakecave0](../maps/lakecave0.md) | – | 3 | – |
-| [secretpassage1](../maps/secretpassage1.md) | – | 1 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 3 | – |
+| [Laerothcave 3](../maps/laerothcave3.md) | – | 6 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 3 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 1 | – |
 
 
 ## Version history

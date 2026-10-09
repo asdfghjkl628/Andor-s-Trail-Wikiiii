@@ -4,7 +4,7 @@ description: "Warg is an enemy in Andor's Trail (animal) with 251 HP, worth 679 
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Warg
 
-**Found in:** Mt. Galmore: [mt_galmore1_h3](../maps/mt_galmore1_h3.md)
+**Found in:** Mt. Galmore: [Mt galmore 1 h 3](../maps/mt_galmore1_h3.md)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Warg is an enemy in Andor's Trail (animal) with 251 HP, worth 679 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mt_galmore1_h3](../maps/mt_galmore1_h3.md) | Mt. Galmore | 1 | – |
+| [Mt galmore 1 h 3](../maps/mt_galmore1_h3.md) | Mt. Galmore | 1 | – |
 
 ## Quests that count defeats
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-13) with stepping on a trigger on [mt_galmore1_h3](../maps/mt_galmore1_h3.md) checks that this enemy has been defeated.
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-13) with stepping on a trigger on [Mt galmore 1 h 3](../maps/mt_galmore1_h3.md) checks that this enemy has been defeated.
 
 
 ## Version history

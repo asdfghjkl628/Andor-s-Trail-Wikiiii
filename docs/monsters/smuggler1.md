@@ -1,5 +1,5 @@
 ---
-description: "Outcast is a non-player character (NPC) in Andor's Trail, found in Fallhaven, woodhouse3."
+description: "Outcast is a non-player character (NPC) in Andor's Trail, found in Fallhaven, Woodhouse 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_26.png){ .sprite } Outcast
@@ -11,33 +11,33 @@ description: "Outcast is a non-player character (NPC) in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | Fallhaven, woodhouse3 |
+| **Found in** | Fallhaven, Woodhouse 3 |
 | **Entries in game data** | 6 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
 !!! info "6 entries in the game data"
-    The game's data files define 6 separate characters named Outcast. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 6 separate characters named Outcast. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`smuggler1`](#v-smuggler1) | NPC | Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler1) | – |
-| [`smuggler2`](#v-smuggler2) | NPC | Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler2) | – |
-| [`smuggler4`](#v-smuggler4) | NPC | Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-smuggler4) | – |
-| [`smuggler5`](#v-smuggler5) | NPC | Fallhaven: [woodhouse0](../maps/woodhouse0.md#pin-npc-smuggler5) | – |
-| [`smuggler6`](#v-smuggler6) | NPC | Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-smuggler6) | – |
-| [`smuggler7`](#v-smuggler7) | NPC | [woodhouse3](../maps/woodhouse3.md#pin-npc-smuggler7) | – |
+| [`smuggler1`](#v-smuggler1) | NPC | Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler1) | – |
+| [`smuggler2`](#v-smuggler2) | NPC | Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler2) | – |
+| [`smuggler4`](#v-smuggler4) | NPC | Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-smuggler4) | – |
+| [`smuggler5`](#v-smuggler5) | NPC | Fallhaven: [Woodhouse 0](../maps/woodhouse0.md#pin-npc-smuggler5) | – |
+| [`smuggler6`](#v-smuggler6) | NPC | Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-smuggler6) | – |
+| [`smuggler7`](#v-smuggler7) | NPC | [Woodhouse 3](../maps/woodhouse3.md#pin-npc-smuggler7) | – |
 
-## Fallhaven, Woodhouse2 (smuggler1) { #v-smuggler1 }
+## Fallhaven, Woodhouse 2 (smuggler1) { #v-smuggler1 }
 
 **Entry ID:** `smuggler1` · **Type:** NPC
 
-**Location:** Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler1)
+**Location:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Outcast. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler1_0.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-smuggler1-smuggler1_0"></span>**`smuggler1_0`** Outcast: “[Mutter] Just one more...”
 
@@ -87,15 +87,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Woodhouse2 (smuggler2) { #v-smuggler2 }
+## Fallhaven, Woodhouse 2 (smuggler2) { #v-smuggler2 }
 
 **Entry ID:** `smuggler2` · **Type:** NPC
 
-**Location:** Fallhaven: [woodhouse2](../maps/woodhouse2.md#pin-npc-smuggler2)
+**Location:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-smuggler2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Outcast. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler2_0.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -103,7 +103,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-smuggler2-smuggler2_0"></span>**`smuggler2_0`** Outcast: “What? No, you're not it.”
 
@@ -144,15 +144,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Woodhouse1 (smuggler4) { #v-smuggler4 }
+## Fallhaven, Woodhouse 1 (smuggler4) { #v-smuggler4 }
 
 **Entry ID:** `smuggler4` · **Type:** NPC
 
-**Location:** Fallhaven: [woodhouse1](../maps/woodhouse1.md#pin-npc-smuggler4)
+**Location:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-smuggler4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Outcast. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler4_0.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -160,7 +160,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-smuggler4-smuggler4_0"></span>**`smuggler4_0`** Outcast: “Uhh. Lowyna sure makes the best stuff!”
 
@@ -211,15 +211,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Woodhouse0 (smuggler5) { #v-smuggler5 }
+## Fallhaven, Woodhouse 0 (smuggler5) { #v-smuggler5 }
 
 **Entry ID:** `smuggler5` · **Type:** NPC
 
-**Location:** Fallhaven: [woodhouse0](../maps/woodhouse0.md#pin-npc-smuggler5)
+**Location:** Fallhaven: [Woodhouse 0](../maps/woodhouse0.md#pin-npc-smuggler5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Outcast. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler5_1.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -227,12 +227,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-smuggler5-smuggler5_1"></span>**`smuggler5_1`** Outcast: “[blank stare]”
 
     - “You're all sweaty and pale, what's wrong?” → [smuggler5_2](#d-smuggler5-smuggler5_2)
-    - “I just met a talking pig right over there. [You point in the direction of west]” *(if reached stage 51 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-51))* → [smuggler5_pig](#d-smuggler5-smuggler5_pig)
+    - “I just met a talking pig right over there. [You point in the direction of west]” *(if reached stage 51 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-51))* → [smuggler5_pig](#d-smuggler5-smuggler5_pig)
 
     <span id="d-smuggler5-smuggler5_2"></span>**`smuggler5_2`** Outcast: “Um. Just one more. Please, just one more.”
 
@@ -277,15 +277,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Woodsettlement0 (smuggler6) { #v-smuggler6 }
+## Fallhaven, Woodsettlement 0 (smuggler6) { #v-smuggler6 }
 
 **Entry ID:** `smuggler6` · **Type:** NPC
 
-**Location:** Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-smuggler6)
+**Location:** Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-smuggler6)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Outcast. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler6_1.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -293,7 +293,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-smuggler6-smuggler6_1"></span>**`smuggler6_1`** Outcast: “Can you spare some gold?”
 
@@ -344,15 +344,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Woodhouse3 (smuggler7) { #v-smuggler7 }
+## Woodhouse 3 (smuggler7) { #v-smuggler7 }
 
 **Entry ID:** `smuggler7` · **Type:** NPC
 
-**Location:** [woodhouse3](../maps/woodhouse3.md#pin-npc-smuggler7)
+**Location:** [Woodhouse 3](../maps/woodhouse3.md#pin-npc-smuggler7)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Outcast. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Outcast. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler7_1.json" data-npc="Outcast" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -360,7 +360,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-smuggler7-smuggler7_1"></span>**`smuggler7_1`** Outcast: “I've seen them. Their camps.”
 

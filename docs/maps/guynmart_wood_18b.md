@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 18b is an outdoor location in Andor's Trail. Enemies: Quick kobold, Ancient kobold, Kobold. Exits to Guynmart wood 18, Guynmart wood 18c."
+description: "Guynmart wood 18b is an outdoor location in Andor's Trail. Enemies: Kobold, Ancient kobold, Quick kobold. Exits to Guynmart wood 18, Guynmart wood 18c."
 ---
 
 # Guynmart wood 18b
@@ -50,9 +50,9 @@ description: "Guynmart wood 18b is an outdoor location in Andor's Trail. Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Quick kobold](../monsters/kobold1.md) | 70 | 1–10 | 4 | – |
-| [Ancient kobold](../monsters/kobold3.md) | 70 | 1–10 | 3 | – |
 | [Kobold](../monsters/kobold2.md) | 70 | 1–10 | 1 | – |
+| [Ancient kobold](../monsters/kobold3.md) | 70 | 1–10 | 3 | – |
+| [Quick kobold](../monsters/kobold1.md) | 70 | 1–10 | 4 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -65,7 +65,7 @@ description: "Guynmart wood 18b is an outdoor location in Andor's Trail. Enemies
 ## Quests
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): a scripted event can trigger here from stage 81
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): a scripted event can trigger here from stage 81
 
 ## Points of interest
 

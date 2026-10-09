@@ -43,7 +43,7 @@ description: "Two-handed iron claymore is a ordinary two-handed sword in Andor's
 
 ### Sold by
 
-- [Minarra](../monsters/minarra.md) (houseatcrossroads4)
+- [Minarra](../monsters/minarra.md) (Houseatcrossroads 4)
 - [Fiamma](../monsters/brightportsmith.md) (Brightport)
 
 

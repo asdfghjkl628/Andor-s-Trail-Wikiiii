@@ -44,7 +44,7 @@ description: "Iron sword is a ordinary longsword in Andor's Trail (Attack damage
 |---|---|---|---|
 | [Cave guardian](../monsters/cave_guardian.md) | 100% | 1 | Flagstone Prison |
 | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | 100% | 1 | Foaming Flask Tavern |
-| [Thief warden](../monsters/g03_thief_2.md) | 60% | 1 | crackshot_hideout3 |
+| [Thief warden](../monsters/g03_thief_2.md) | 60% | 1 | Crackshot hideout 3 |
 | [Rotting corpse](../monsters/rotting_corpse.md) | 10% | 1 | Flagstone Prison |
 | [Walking corpse](../monsters/walking_corpse.md) | 10% | 1 | Flagstone Prison |
 | [Gargoyle](../monsters/gargoyle.md) | 10% | 1 | Flagstone Prison |

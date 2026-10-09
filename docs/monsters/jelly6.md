@@ -1,10 +1,10 @@
 ---
-description: "Emerald ooze is an enemy in Andor's Trail (construct) with 131 HP, worth 308 XP, found in roadcave1. Drops: Gold coins, Bloodletter."
+description: "Emerald ooze is an enemy in Andor's Trail (construct) with 131 HP, worth 308 XP, found in Roadcave 1. Drops: Gold coins, Bloodletter."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_2.png){ .sprite } Emerald ooze
 
-**Found in:** [roadcave1](../maps/roadcave1.md)
+**Found in:** [Roadcave 1](../maps/roadcave1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Emerald ooze is an enemy in Andor's Trail (construct) with 131 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | roadcave1 |
+| **Found in** | Roadcave 1 |
 | **Class** | Construct |
 | **HP** | 131 |
 | **XP when defeated** | 308 |
@@ -61,7 +61,7 @@ description: "Emerald ooze is an enemy in Andor's Trail (construct) with 131 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadcave1](../maps/roadcave1.md) | – | 1 | – |
+| [Roadcave 1](../maps/roadcave1.md) | – | 1 | – |
 
 
 ## Version history

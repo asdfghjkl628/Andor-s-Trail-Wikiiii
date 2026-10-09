@@ -1,10 +1,10 @@
 ---
-description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, worth 64 XP, found in jan_pitcave2. Drops: Gold coins, Ruby gem, Iron hammer, Minor vial of health."
+description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, worth 64 XP, found in Jan pitcave 2. Drops: Gold coins, Ruby gem, Iron hammer, Minor vial of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_misc_5.png){ .sprite } Young minotaur
 
-**Found in:** [jan_pitcave2](../maps/jan_pitcave2.md)
+**Found in:** [Jan pitcave 2](../maps/jan_pitcave2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | jan_pitcave2 |
+| **Found in** | Jan pitcave 2 |
 | **Class** | Giant |
 | **HP** | 45 |
 | **XP when defeated** | 64 |
@@ -57,7 +57,7 @@ description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [jan_pitcave2](../maps/jan_pitcave2.md) | – | 15 | – |
+| [Jan pitcave 2](../maps/jan_pitcave2.md) | – | 15 | – |
 
 
 ## Version history

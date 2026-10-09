@@ -4,7 +4,7 @@ description: "Poisonous jitterfly is an enemy in Andor's Trail (insect) with 97 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_65.png){ .sprite } Poisonous jitterfly
 
-**Found in:** Deebo's Orchard: [way_to_sullengard_east6](../maps/way_to_sullengard_east6.md), Deebo's Orchard: [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md), Deebo's Orchard: [way_to_sullengard_east7a](../maps/way_to_sullengard_east7a.md), [way_to_sullengard_east1](../maps/way_to_sullengard_east1.md) (+11 more)
+**Found in:** Deebo's Orchard: [Way to sullengard east 6](../maps/way_to_sullengard_east6.md), Deebo's Orchard: [Way to sullengard east 7](../maps/way_to_sullengard_east7.md), Deebo's Orchard: [Way to sullengard east 7a](../maps/way_to_sullengard_east7a.md), [Way to sullengard east 1](../maps/way_to_sullengard_east1.md) (+11 more)
 
 <div class="infobox" markdown>
 
@@ -57,21 +57,21 @@ description: "Poisonous jitterfly is an enemy in Andor's Trail (insect) with 97 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [way_to_sullengard_east1](../maps/way_to_sullengard_east1.md) | – | 2 | – |
-| [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md) | – | 6 | – |
-| [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md) | – | 4 | – |
-| [way_to_sullengard_east2](../maps/way_to_sullengard_east2.md) | – | 2 | – |
-| [way_to_sullengard_east2a](../maps/way_to_sullengard_east2a.md) | – | 1 | – |
-| [way_to_sullengard_east4](../maps/way_to_sullengard_east4.md) | – | 3 | – |
-| [way_to_sullengard_east5](../maps/way_to_sullengard_east5.md) | – | 6 | – |
-| [way_to_sullengard_east6](../maps/way_to_sullengard_east6.md) | Deebo's Orchard | 11 | – |
-| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 6 | – |
-| [way_to_sullengard_east7a](../maps/way_to_sullengard_east7a.md) | Deebo's Orchard | 6 | – |
-| [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md) | – | 4 | – |
-| [way_to_sullengard_east9a](../maps/way_to_sullengard_east9a.md) | – | 5 | – |
-| [way_to_sullengard_east_ravine_cabin](../maps/way_to_sullengard_east_ravine_cabin.md) | – | 10 | – |
-| [way_to_sullengard_pond_road](../maps/way_to_sullengard_pond_road.md) | – | 6 | – |
-| [way_to_sullengard_west_6](../maps/way_to_sullengard_west_6.md) | – | 3 | – |
+| [Way to sullengard east 1](../maps/way_to_sullengard_east1.md) | – | 2 | – |
+| [Way to sullengard east 10](../maps/way_to_sullengard_east10.md) | – | 6 | – |
+| [Way to sullengard east 11](../maps/way_to_sullengard_east11.md) | – | 4 | – |
+| [Way to sullengard east 2](../maps/way_to_sullengard_east2.md) | – | 2 | – |
+| [Way to sullengard east 2a](../maps/way_to_sullengard_east2a.md) | – | 1 | – |
+| [Way to sullengard east 4](../maps/way_to_sullengard_east4.md) | – | 3 | – |
+| [Way to sullengard east 5](../maps/way_to_sullengard_east5.md) | – | 6 | – |
+| [Way to sullengard east 6](../maps/way_to_sullengard_east6.md) | Deebo's Orchard | 11 | – |
+| [Way to sullengard east 7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 6 | – |
+| [Way to sullengard east 7a](../maps/way_to_sullengard_east7a.md) | Deebo's Orchard | 6 | – |
+| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 4 | – |
+| [Way to sullengard east 9a](../maps/way_to_sullengard_east9a.md) | – | 5 | – |
+| [Way to sullengard east ravine cabin](../maps/way_to_sullengard_east_ravine_cabin.md) | – | 10 | – |
+| [Way to sullengard pond road](../maps/way_to_sullengard_pond_road.md) | – | 6 | – |
+| [Way to sullengard west 6](../maps/way_to_sullengard_west_6.md) | – | 3 | – |
 
 
 ## Version history

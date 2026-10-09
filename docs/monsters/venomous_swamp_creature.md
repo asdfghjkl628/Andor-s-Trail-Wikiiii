@@ -1,10 +1,10 @@
 ---
-description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 301 HP, worth 1175 XP, found in galmore_28. Drops: Leech, Gold coins, Small rock, Poison gland."
+description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 301 HP, worth 1175 XP, found in Galmore 28. Drops: Leech, Gold coins, Small rock, Poison gland."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_3_1.png){ .sprite } Venomous swamp creature
 
-**Found in:** [galmore_28](../maps/galmore_28.md)
+**Found in:** [Galmore 28](../maps/galmore_28.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | galmore_28 |
+| **Found in** | Galmore 28 |
 | **Class** | Giant |
 | **HP** | 301 |
 | **XP when defeated** | 1,175 |
@@ -60,11 +60,11 @@ description: "Venomous swamp creature is an enemy in Andor's Trail (giant) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_28](../maps/galmore_28.md) | – | 1 | Appears later, during a quest |
+| [Galmore 28](../maps/galmore_28.md) | – | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- A conversation with stepping on a trigger on [galmore_28](../maps/galmore_28.md) checks that this enemy has been defeated.
+- A conversation with stepping on a trigger on [Galmore 28](../maps/galmore_28.md) checks that this enemy has been defeated.
 
 
 ## Version history

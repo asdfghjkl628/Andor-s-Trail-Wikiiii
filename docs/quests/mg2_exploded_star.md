@@ -11,9 +11,9 @@ description: "The exploded star is a quest in Andor's Trail, started by Teccow (
 | **Quest ID** | `mg2_exploded_star` |
 | **In journal** | Yes |
 | **Stages** | 30 (completes at 20, 40, 46, 48, 50, 52, 60, 62) |
-| **Started by** | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) |
+| **Started by** | [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)) |
 | **NPCs involved** | [Kealwea](../monsters/sullengard_priest.md), [Pangitain](../monsters/brv_fortune_teller.md), [Teccow](../monsters/mg2_starwatcher.md) |
-| **Locations** | [brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md), [sullengard_church](../maps/sullengard_church.md), [wild22](../maps/wild22.md) |
+| **Locations** | [Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md), [Sullengard church](../maps/sullengard_church.md), [Wild 22](../maps/wild22.md) |
 | **Total XP** | 157,000 |
 | **Related quests** | 3 |
 
@@ -25,7 +25,7 @@ description: "The exploded star is a quest in Andor's Trail, started by Teccow (
 
 ## Prerequisites to start
 
-Start with [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)). Required:
+Start with [Teccow](../monsters/mg2_starwatcher.md) ([Wild 22](../maps/wild22.md)). Required:
 
 - NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10)
 - NOT reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80)
@@ -39,316 +39,998 @@ Start with [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-144) | stage 144 reached, for stages 60, 62 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-1) | stage 1 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-2) | stage 2 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-3) | stage 3 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-4) | stage 4 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-5) | stage 5 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-6) | stage 6 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-7) | stage 7 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-8) | stage 8 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-9) | stage 9 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
-| Requires | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-10) | stage 10 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-144) | stage 144 reached, for stages 60, 62 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-1) | stage 1 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-2) | stage 2 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-3) | stage 3 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-4) | stage 4 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-5) | stage 5 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-6) | stage 6 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-7) | stage 7 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-8) | stage 8 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-9) | stage 9 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
+| Requires | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-10) | stage 10 reached, for stages 21, 22, 23, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110 here |
 | Blocked by | [Beer Bootlegging](beer_bootlegging.md#stage-80) | stage 80 must NOT be reached, for stage 5 here |
-| Mutually exclusive | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-91) | stage 91 must NOT be reached, for stages 10, 15, 20, 30, 40, 45, 46, 50 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-1) | stage 1 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-2) | stage 2 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-3) | stage 3 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-4) | stage 4 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-5) | stage 5 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-6) | stage 6 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-7) | stage 7 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-8) | stage 8 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-9) | stage 9 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-10) | stage 10 there needs stage 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-90) | stage 90 there needs stages 10, 12, 15 here |
-| Unlocks | [mg2_exploded_star_nd (hidden flag)](mg2_exploded_star_nd.md#stage-91) | stage 91 there needs stages 10, 12, 15, 17, 50, 52, 110 here |
+| Mutually exclusive | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-91) | stage 91 must NOT be reached, for stages 10, 15, 20, 30, 40, 45, 46, 50 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-1) | stage 1 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-2) | stage 2 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-3) | stage 3 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-4) | stage 4 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-5) | stage 5 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-6) | stage 6 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-7) | stage 7 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-8) | stage 8 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-9) | stage 9 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-10) | stage 10 there needs stage 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-90) | stage 90 there needs stages 10, 12, 15 here |
+| Unlocks | [Mt. Galmore exploded star (hidden flag)](mg2_exploded_star_nd.md#stage-91) | stage 91 there needs stages 10, 12, 15, 17, 50, 52, 110 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-5"></span>5 | Teccow wouldn't talk to me at the moment. I should get stronger and come back later. | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | – | – |
-| <span id="stage-10"></span>10 | Teccow of Stoutford has seen ten tongues of light falling down to earth, or so he said. | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | – | – |
-| <span id="stage-12"></span>12 | Kealwea, the priest of Sullengard, has seen ten tongues of light falling down to earth, or so he said. | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | – | – |
-| <span id="stage-15"></span>15 | Teccow asked me to investigate and bring the fallen pieces. | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | stage 10, stage 12 | – |
-| <span id="stage-17"></span>17 | Kealwea asked me to investigate and bring the fallen pieces. | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | stage 10, stage 12 | – |
-| <span id="stage-20"></span>20 | I refused to do his work. **(completes quest)** | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md))<br>[Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | stage 10, stage 12 | sets stage 90 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90)<br>sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91) |
-| <span id="stage-21"></span>21 | Teccow would be delighted, I should bring the pieces to him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | stage 10 | – |
-| <span id="stage-22"></span>22 | Kealwea would be delighted, I should bring the pieces to him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | stage 12 | – |
-| <span id="stage-23"></span>23 | Kealwea or Teccow would be delighted, I should bring the pieces to one of them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | stage 10, stage 12 | – |
-| <span id="stage-30"></span>30 | I told Teccow that I have found all ten pieces. He required them so that he could destroy them. | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | stage 110, stage 15 | – |
-| <span id="stage-32"></span>32 | I told Kealwea that I have found all ten pieces. He required them so that he could destroy them. | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | stage 110, stage 17 | – |
-| <span id="stage-40"></span>40 | I changed my mind and would keep these glittery things. They're too pretty to be destroyed. **(completes quest)** | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md))<br>[Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 110, stage 15, stage 17 | 5,000 XP<br>sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91) |
-| <span id="stage-45"></span>45 | I gave half of the pieces to Teccow who would destroy them. | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 15, stage 17 | 10,000 XP |
-| <span id="stage-46"></span>46 | I gave the other half of the pieces to Teccow who would destroy them. **(completes quest)** | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 15, stage 47 | 20,000 XP |
-| <span id="stage-47"></span>47 | I gave half of the pieces to Kealwea who would destroy them. | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 15, stage 17 | 10,000 XP |
-| <span id="stage-48"></span>48 | I gave the other half of the pieces to Kealwea who would destroy them. **(completes quest)** | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 17, stage 45 | 30,000 XP |
-| <span id="stage-50"></span>50 | I gave the pieces to Teccow who would destroy them. **(completes quest)** | [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) | carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 15, stage 17 | 20,000 XP |
-| <span id="stage-52"></span>52 | I gave the pieces to Kealwea who would destroy them. **(completes quest)** | [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) | carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md), hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md), stage 15, stage 17 | 20,000 XP |
-| <span id="stage-60"></span>60 | I gave the pieces to Pangitain who was very grateful. I felt like I was filled with warmth and wisdom. **(completes quest)** | [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md), hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) | 40,000 XP |
-| <span id="stage-62"></span>62 | I gave the pieces to Pangitain who was very grateful. **(completes quest)** | [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) | carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md), hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) | 2,000 XP<br>+1 [Weapon Accuracy](../skills/weaponChance.md)<br>+1 [Increased Fortitude](../skills/fortitude.md)<br>+1 [Treasure Hunter](../skills/coinfinder.md)<br>+1 [Merchant](../skills/barter.md)<br>+1 [Dodge](../skills/dodge.md)<br>+1 [Cleave](../skills/cleave.md)<br>+1 [Magic Finder](../skills/magicfinder.md) |
-| <span id="stage-101"></span>101 | I have found a brightly shining piece of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | – |
-| <span id="stage-102"></span>102 | I have found a second brightly shining piece of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101) |
-| <span id="stage-103"></span>103 | I have found three brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102) |
-| <span id="stage-104"></span>104 | I have found four brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103) |
-| <span id="stage-105"></span>105 | I have found five brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104) |
-| <span id="stage-106"></span>106 | I have found six brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105) |
-| <span id="stage-107"></span>107 | I have found seven brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106) |
-| <span id="stage-108"></span>108 | I have found eight brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107) |
-| <span id="stage-109"></span>109 | I have found nine brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108) |
-| <span id="stage-110"></span>110 | Done at last - I have found the last piece of the crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [galmore_66](../maps/galmore_66.md)<br>stepping on a trigger on [galmore_77](../maps/galmore_77.md)<br>stepping on a trigger on [galmore_76](../maps/galmore_76.md)<br>+6 more | – | clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-5"></span>[5](#route-5) | <details class="jt"><summary><span class="s">Teccow wouldn't talk to me at the moment. I should get stronger and… ▸</span><span class="l">▴ less</span></summary>Teccow wouldn't talk to me at the moment. I should get stronger and come back later.</details> | [Teccow](../monsters/mg2_starwatcher.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Teccow of Stoutford has seen ten tongues of light falling down to… ▸</span><span class="l">▴ less</span></summary>Teccow of Stoutford has seen ten tongues of light falling down to earth, or so he said.</details> | [Teccow](../monsters/mg2_starwatcher.md) | – |
+| <span id="stage-12"></span>[12](#route-12) | <details class="jt"><summary><span class="s">Kealwea, the priest of Sullengard, has seen ten tongues of light… ▸</span><span class="l">▴ less</span></summary>Kealwea, the priest of Sullengard, has seen ten tongues of light falling down to earth, or so he said.</details> | [Kealwea](../monsters/sullengard_priest.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | Teccow asked me to investigate and bring the fallen pieces. | [Teccow](../monsters/mg2_starwatcher.md) | – |
+| <span id="stage-17"></span>[17](#route-17) | Kealwea asked me to investigate and bring the fallen pieces. | [Kealwea](../monsters/sullengard_priest.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I refused to do his work. **(ends quest)** | [Teccow](../monsters/mg2_starwatcher.md), [Kealwea](../monsters/sullengard_priest.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | Teccow would be delighted, I should bring the pieces to him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | – |
+| <span id="stage-22"></span>[22](#route-22) | Kealwea would be delighted, I should bring the pieces to him.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | – |
+| <span id="stage-23"></span>[23](#route-23) | Kealwea or Teccow would be delighted, I should bring the pieces to one of them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I told Teccow that I have found all ten pieces. He required them so… ▸</span><span class="l">▴ less</span></summary>I told Teccow that I have found all ten pieces. He required them so that he could destroy them.</details> | [Teccow](../monsters/mg2_starwatcher.md) | – |
+| <span id="stage-32"></span>[32](#route-32) | <details class="jt"><summary><span class="s">I told Kealwea that I have found all ten pieces. He required them so… ▸</span><span class="l">▴ less</span></summary>I told Kealwea that I have found all ten pieces. He required them so that he could destroy them.</details> | [Kealwea](../monsters/sullengard_priest.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I changed my mind and would keep these glittery things. They're too… ▸</span><span class="l">▴ less</span></summary>I changed my mind and would keep these glittery things. They're too pretty to be destroyed.</details> **(ends quest)** | [Teccow](../monsters/mg2_starwatcher.md), [Kealwea](../monsters/sullengard_priest.md) | 5,000 XP |
+| <span id="stage-45"></span>[45](#route-45) | I gave half of the pieces to Teccow who would destroy them. | [Teccow](../monsters/mg2_starwatcher.md) | 10,000 XP |
+| <span id="stage-46"></span>[46](#route-46) | I gave the other half of the pieces to Teccow who would destroy them. **(ends quest)** | [Teccow](../monsters/mg2_starwatcher.md) | 20,000 XP |
+| <span id="stage-47"></span>[47](#route-47) | I gave half of the pieces to Kealwea who would destroy them. | [Kealwea](../monsters/sullengard_priest.md) | 10,000 XP |
+| <span id="stage-48"></span>[48](#route-48) | I gave the other half of the pieces to Kealwea who would destroy them. **(ends quest)** | [Kealwea](../monsters/sullengard_priest.md) | 30,000 XP |
+| <span id="stage-50"></span>[50](#route-50) | I gave the pieces to Teccow who would destroy them. **(ends quest)** | [Teccow](../monsters/mg2_starwatcher.md) | 20,000 XP |
+| <span id="stage-52"></span>[52](#route-52) | I gave the pieces to Kealwea who would destroy them. **(ends quest)** | [Kealwea](../monsters/sullengard_priest.md) | 20,000 XP |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">I gave the pieces to Pangitain who was very grateful. I felt like I… ▸</span><span class="l">▴ less</span></summary>I gave the pieces to Pangitain who was very grateful. I felt like I was filled with warmth and wisdom.</details> **(ends quest)** | [Pangitain](../monsters/brv_fortune_teller.md) | 40,000 XP |
+| <span id="stage-62"></span>[62](#route-62) | I gave the pieces to Pangitain who was very grateful. **(ends quest)** | [Pangitain](../monsters/brv_fortune_teller.md) | 2,000 XP; varies by route (see below) |
+| <span id="stage-101"></span>[101](#route-101) | I have found a brightly shining piece of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | – |
+| <span id="stage-102"></span>[102](#route-102) | I have found a second brightly shining piece of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101) |
+| <span id="stage-103"></span>[103](#route-103) | I have found three brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102) |
+| <span id="stage-104"></span>[104](#route-104) | I have found four brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103) |
+| <span id="stage-105"></span>[105](#route-105) | I have found five brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104) |
+| <span id="stage-106"></span>[106](#route-106) | I have found six brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105) |
+| <span id="stage-107"></span>[107](#route-107) | I have found seven brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106) |
+| <span id="stage-108"></span>[108](#route-108) | I have found eight brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107) |
+| <span id="stage-109"></span>[109](#route-109) | I have found nine brightly shining pieces of a crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108) |
+| <span id="stage-110"></span>[110](#route-110) | Done at last - I have found the last piece of the crystal.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 56](../maps/galmore_56.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 57](../maps/galmore_57.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 65](../maps/galmore_65.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 66](../maps/galmore_66.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 73](../maps/galmore_73.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 74](../maps/galmore_74.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 75](../maps/galmore_75.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 76](../maps/galmore_76.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 77](../maps/galmore_77.md).</span> | stepping on a trigger on [Galmore 66](../maps/galmore_66.md), stepping on a trigger on [Galmore 77](../maps/galmore_77.md) +7 | clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 5: 1 route"
+<span id="route-5"></span>
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “What are you doing here?” — **conditions:** NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80) → **stage 5**. NPC: “I'm doing adult things. Come back when you're much stronger. Then we can talk.”
+??? note "Stage 5 · Teccow · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “What are you doing here?”
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “About the falling star ...” — **conditions:** reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91) → **stage 10**. NPC: “Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.”
+    - **Needs:** not yet stage 10; not reached stage 80 of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-80)
+    - *“I'm doing adult things. Come back when you're much stronger. Then we can talk.”*
 
-???+ note "Stage 12: 1 route"
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → the conversation leads here automatically — **conditions:** reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12); NOT reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17) → **stage 12**. NPC: “Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.”
+<span id="route-10"></span>
 
-???+ note "Stage 15: 1 route"
+??? note "Stage 10 · Teccow · 1 way"
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “What for?” — **conditions:** reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 15**. NPC: “'Bring these shards to me now. Before the mountain's curse draws worse than beasts to them!”
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “About the falling star ...”
 
-???+ note "Stage 17: 1 route"
+    - **Needs:** stage 10; not yet stage 15, 45, 46, 50; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    - *“Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.”*
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “Me?” — **conditions:** reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12); NOT reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10) → **stage 17**. NPC: “'Yes. Bring these shards to me. Before the mountain's curse draws worse than beasts to them!”
 
-???+ note "Stage 20: 2 routes"
+<span id="route-12"></span>
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “No, I have enough other things to do.” — **conditions:** reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12); NOT faction “mg2_exploded_star” ≥ 1 → **stage 20**; also sets stage 90 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91). NPC: “Woe, woe! Then leave me. I hope you can live with the guilt.”
-    2. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “No, I have enough other things to do.” — **conditions:** reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12); NOT reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT faction “mg2_exploded_star” ≥ 1 → **stage 20**; also sets stage 90 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91). NPC: “Woe, woe! Then leave me. I hope you can live with the guilt.”
+??? note "Stage 12 · Kealwea · 1 way"
 
-???+ note "Stage 21: 10 routes"
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), automatic
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → choose “At last.” — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → choose “At last.” — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → choose “At last.” — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → choose “At last.” — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → choose “At last.” — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → choose “At last.” — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → choose “At last.” — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → choose “At last.” — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → choose “At last.” — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → choose “At last.” — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); NOT reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 21**. NPC: “Best bring them to Teccow and ask him what to do with the shining pieces.”
+    - **Needs:** stage 12; not yet stage 17
+    - *“Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.”*
 
-???+ note "Stage 22: 10 routes"
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → choose “At last.” — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → choose “At last.” — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → choose “At last.” — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → choose “At last.” — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → choose “At last.” — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → choose “At last.” — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → choose “At last.” — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → choose “At last.” — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → choose “At last.” — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → choose “At last.” — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; NOT reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 22**. NPC: “Best bring them to Kealwea and ask him what to do with the shining pieces.”
+<span id="route-15"></span>
 
-???+ note "Stage 23: 10 routes"
+??? note "Stage 15 · Teccow · 1 way"
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → choose “At last.” — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → choose “At last.” — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → choose “At last.” — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → choose “At last.” — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → choose “At last.” — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → choose “At last.” — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → choose “At last.” — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → choose “At last.” — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → choose “At last.” — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → choose “At last.” — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10; reached stage 10 of [The exploded star](../quests/mg2_exploded_star.md#stage-10); reached stage 12 of [The exploded star](../quests/mg2_exploded_star.md#stage-12) → **stage 23**. NPC: “Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “What for?”
 
-???+ note "Stage 30: 1 route"
+    - **Needs:** stage 10, 12; not yet stage 15, 45, 46, 50; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    - *“'Bring these shards to me now. Before the mountain's curse draws worse than beasts to them!”*
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “Anyway, I have found all of the ten pieces.” — **conditions:** reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); reached stage 110 of [The exploded star](../quests/mg2_exploded_star.md#stage-110); NOT reached stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20); NOT reached stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52) → **stage 30**. NPC: “Good, good. Give them to me. I'll destroy these dangerous things.”
 
-???+ note "Stage 32: 1 route"
+<span id="route-17"></span>
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “I have found all of the ten pieces.” — **conditions:** reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); reached stage 110 of [The exploded star](../quests/mg2_exploded_star.md#stage-110); NOT reached stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20); NOT reached stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50) → **stage 32**. NPC: “Good, good. Give them to me. I'll destroy these dangerous things.”
+??? note "Stage 17 · Kealwea · 1 way"
 
-???+ note "Stage 40: 2 routes"
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “Me?”
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “No. I will keep them.” — **conditions:** reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); reached stage 110 of [The exploded star](../quests/mg2_exploded_star.md#stage-110); NOT reached stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20); NOT reached stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40); NOT reached stage 46 of [The exploded star](../quests/mg2_exploded_star.md#stage-46); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 40**; also sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91). NPC: “NOOOOO!!”
-    2. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “No. I will keep them.” — **conditions:** reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); reached stage 110 of [The exploded star](../quests/mg2_exploded_star.md#stage-110); NOT reached stage 20 of [The exploded star](../quests/mg2_exploded_star.md#stage-20); NOT reached stage 40 of [The exploded star](../quests/mg2_exploded_star.md#stage-40); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 40**; also sets stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91). NPC: “NOOOOO!!”
+    - **Needs:** stage 10, 12; not yet stage 17
+    - *“'Yes. Bring these shards to me. Before the mountain's curse draws worse than beasts to them!”*
 
-???+ note "Stage 45: 1 route"
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “No, I will give you only half of them.” — **conditions:** reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 45**. NPC: “Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision.”
+<span id="route-20"></span>
 
-???+ note "Stage 46: 1 route"
+??? note "Stage 20 · Teccow, Kealwea · 2 ways"
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “I might give you the rest of them - five pieces.” — **conditions:** reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47) → **stage 46**. NPC: “Good, good. I'll destroy these dangerous things.”
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “No, I have enough other things to do.”
 
-???+ note "Stage 47: 1 route"
+    - **Needs:** stage 10, 12; not yet stage 15, 45, 46, 50; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); not faction “mg2_exploded_star” ≥ 1
+    - <small>Also: sets stage 90 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)</small>
+    - *“Woe, woe! Then leave me. I hope you can live with the guilt.”*
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “No, I will give you only half of them.” — **conditions:** reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 47**. NPC: “Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision.”
+    **Way 2:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “No, I have enough other things to do.”
 
-???+ note "Stage 48: 1 route"
+    - **Needs:** stage 10, 12; not yet stage 17; not faction “mg2_exploded_star” ≥ 1
+    - <small>Also: sets stage 90 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-90), sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)</small>
+    - *“Woe, woe! Then leave me. I hope you can live with the guilt.”*
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “I might give you the rest of them - five pieces.” — **conditions:** reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45) → **stage 48**. NPC: “Good, good. I'll destroy these dangerous things.”
 
-???+ note "Stage 50: 1 route"
+<span id="route-21"></span>
 
-    1. Talk to [Teccow](../monsters/mg2_starwatcher.md) ([wild22](../maps/wild22.md)) → choose “OK, you are right. Here take them and do what you must.” — **conditions:** reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); NOT reached stage 50 of [The exploded star](../quests/mg2_exploded_star.md#stage-50); NOT reached stage 91 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 50**. NPC: “Wonderful. You have no idea what terrible things this crystal could have done.”
+??? note "Stage 21 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
 
-???+ note "Stage 52: 1 route"
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md), choose “At last.”
 
-    1. Talk to [Kealwea](../monsters/sullengard_priest.md) ([sullengard_church](../maps/sullengard_church.md)) → choose “OK, you are right. Here take them and do what you must.” — **conditions:** reached stage 17 of [The exploded star](../quests/mg2_exploded_star.md#stage-17); NOT reached stage 47 of [The exploded star](../quests/mg2_exploded_star.md#stage-47); NOT reached stage 48 of [The exploded star](../quests/mg2_exploded_star.md#stage-48); NOT reached stage 52 of [The exploded star](../quests/mg2_exploded_star.md#stage-52); carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); reached stage 15 of [The exploded star](../quests/mg2_exploded_star.md#stage-15); NOT reached stage 45 of [The exploded star](../quests/mg2_exploded_star.md#stage-45); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 52**. NPC: “Wonderful. You have no idea what terrible things this crystal could have done.”
+    - **Needs:** stage 10; not yet stage 12; reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 60: 1 route"
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md), choose “At last.”
 
-    1. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Here, you can have them for the greater glory.” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 60**. NPC: “Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ...”
+    - **Needs:** stage 10; not yet stage 12; reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 62: 6 routes"
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md), choose “At last.”
 
-    1. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Sounds great - I choose this one. [Touch the item]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 62**; also +1 [Weapon Accuracy](../skills/weaponChance.md). NPC: “A good choice. Do you feel it already?”
-    2. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Sounds great - I choose this one. [Touch the item]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); skillIncrease fortitude 1; hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 62**; also +1 [Increased Fortitude](../skills/fortitude.md). NPC: “A good choice. Do you feel it already?”
-    3. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Sounds great - I choose this one. [Touch the item]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 62**; also +1 [Treasure Hunter](../skills/coinfinder.md), +1 [Merchant](../skills/barter.md). NPC: “A good choice. Do you feel it already?”
-    4. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Sounds great - I choose this one. [Touch the item]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 62**; also +1 [Dodge](../skills/dodge.md). NPC: “A good choice. Do you feel it already?”
-    5. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Sounds great - I choose this one. [Touch the item]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); skillIncrease cleave 1; hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 62**; also +1 [Cleave](../skills/cleave.md). NPC: “A good choice. Do you feel it already?”
-    6. Talk to [Pangitain](../monsters/brv_fortune_teller.md) ([brimhaven_fortune_teller](../maps/brimhaven_fortune_teller.md)) → choose “Sounds great - I choose this one. [Touch the item]” — **conditions:** reached stage 144 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → **stage 62**; also +1 [Magic Finder](../skills/magicfinder.md). NPC: “A good choice. Do you feel it already?”
+    - **Needs:** stage 10; not yet stage 12; reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 101: 10 routes"
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0 → **stage 101**
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0 → **stage 101**
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0 → **stage 101**
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0 → **stage 101**
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0 → **stage 101**
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0 → **stage 101**
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0 → **stage 101**
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0 → **stage 101**
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0 → **stage 101**
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0 → **stage 101**
+    - **Needs:** stage 10; not yet stage 12; reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 102: 10 routes"
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 1 → **stage 102**; also clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+    - **Needs:** stage 10; not yet stage 12; reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 103: 10 routes"
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 2 → **stage 103**; also clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+    - **Needs:** stage 10; not yet stage 12; reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 104: 10 routes"
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 3 → **stage 104**; also clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+    - **Needs:** stage 10; not yet stage 12; reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 105: 10 routes"
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 4 → **stage 105**; also clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+    - **Needs:** stage 10; not yet stage 12; reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 106: 10 routes"
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 5 → **stage 106**; also clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+    - **Needs:** stage 10; not yet stage 12; reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 107: 10 routes"
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md), choose “At last.”
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 6 → **stage 107**; also clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+    - **Needs:** stage 10; not yet stage 12; reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Teccow and ask him what to do with the shining pieces.”*
 
-???+ note "Stage 108: 10 routes"
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 7 → **stage 108**; also clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+<span id="route-22"></span>
 
-???+ note "Stage 109: 10 routes"
+??? note "Stage 22 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 8 → **stage 109**; also clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md), choose “At last.”
 
-???+ note "Stage 110: 10 routes"
+    - **Needs:** stage 12; not yet stage 10; reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
 
-    1. stepping on a trigger on [galmore_66](../maps/galmore_66.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    2. stepping on a trigger on [galmore_77](../maps/galmore_77.md) → the conversation leads here automatically — **conditions:** reached stage 10 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    3. stepping on a trigger on [galmore_76](../maps/galmore_76.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    4. stepping on a trigger on [galmore_73](../maps/galmore_73.md) → the conversation leads here automatically — **conditions:** reached stage 3 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    5. stepping on a trigger on [galmore_65](../maps/galmore_65.md) → the conversation leads here automatically — **conditions:** reached stage 4 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    6. stepping on a trigger on [galmore_56](../maps/galmore_56.md) → the conversation leads here automatically — **conditions:** reached stage 5 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    7. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 6 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    8. stepping on a trigger on [galmore_57](../maps/galmore_57.md) → the conversation leads here automatically — **conditions:** reached stage 7 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    9. stepping on a trigger on [galmore_75](../maps/galmore_75.md) → the conversation leads here automatically — **conditions:** reached stage 8 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
-    10. stepping on a trigger on [galmore_74](../maps/galmore_74.md) → the conversation leads here automatically — **conditions:** reached stage 9 of [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 9 → **stage 110**; also clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md), choose “At last.”
+
+    - **Needs:** stage 12; not yet stage 10; reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea and ask him what to do with the shining pieces.”*
+
+
+<span id="route-23"></span>
+
+??? note "Stage 23 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md), choose “At last.”
+
+    - **Needs:** stage 10, 12; reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0; faction “mg2_exploded_star” ≥ 10
+    - *“Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Teccow · 1 way"
+
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “Anyway, I have found all of the ten pieces.”
+
+    - **Needs:** stage 15, 110; not yet stage 20, 40, 45, 46, 50, 52; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)
+    - *“Good, good. Give them to me. I'll destroy these dangerous things.”*
+
+
+<span id="route-32"></span>
+
+??? note "Stage 32 · Kealwea · 1 way"
+
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “I have found all of the ten pieces.”
+
+    - **Needs:** stage 17, 110; not yet stage 20, 40, 47, 48, 50, 52
+    - *“Good, good. Give them to me. I'll destroy these dangerous things.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Teccow, Kealwea · 2 ways"
+
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “No. I will keep them.”
+
+    - **Needs:** stage 15, 110; not yet stage 20, 40, 45, 46, 50, 52; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - <small>Also: sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)</small>
+    - *“NOOOOO!!”*
+
+    **Way 2:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “No. I will keep them.”
+
+    - **Needs:** stage 17, 110; not yet stage 20, 40, 47, 48, 50, 52; carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - <small>Also: sets stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91)</small>
+    - *“NOOOOO!!”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Teccow · 1 way"
+
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “No, I will give you only half of them.”
+
+    - **Needs:** stage 15, 17; not yet stage 45, 47, 50; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision.”*
+
+
+<span id="route-46"></span>
+
+??? note "Stage 46 · Teccow · 1 way"
+
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “I might give you the rest of them - five pieces.”
+
+    - **Needs:** stage 15, 47; not yet stage 45, 50; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Good, good. I'll destroy these dangerous things.”*
+
+
+<span id="route-47"></span>
+
+??? note "Stage 47 · Kealwea · 1 way"
+
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “No, I will give you only half of them.”
+
+    - **Needs:** stage 15, 17; not yet stage 45, 47, 48, 52; carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision.”*
+
+
+<span id="route-48"></span>
+
+??? note "Stage 48 · Kealwea · 1 way"
+
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “I might give you the rest of them - five pieces.”
+
+    - **Needs:** stage 17, 45; not yet stage 47, 48, 52; hand over 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Good, good. I'll destroy these dangerous things.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Teccow · 1 way"
+
+    **Way 1:** Talk to [Teccow](../monsters/mg2_starwatcher.md), choose “OK, you are right. Here take them and do what you must.”
+
+    - **Needs:** stage 15, 17; not yet stage 45, 47, 50; not reached stage 91 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-91); carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Wonderful. You have no idea what terrible things this crystal could have done.”*
+
+
+<span id="route-52"></span>
+
+??? note "Stage 52 · Kealwea · 1 way"
+
+    **Way 1:** Talk to [Kealwea](../monsters/sullengard_priest.md), choose “OK, you are right. Here take them and do what you must.”
+
+    - **Needs:** stage 15, 17; not yet stage 45, 47, 48, 52; carry 5× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Wonderful. You have no idea what terrible things this crystal could have done.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Pangitain · 1 way"
+
+    **Way 1:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Here, you can have them for the greater glory.”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - *“Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ...”*
+
+
+<span id="route-62"></span>
+
+??? note "Stage 62 · Pangitain · 6 ways"
+
+    **Way 1:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Sounds great - I choose this one. [Touch the item]”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - **Gives:** +1 [Weapon Accuracy](../skills/weaponChance.md)
+    - *“A good choice. Do you feel it already?”*
+
+    **Way 2:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Sounds great - I choose this one. [Touch the item]”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); skillIncrease fortitude 1; hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - **Gives:** +1 [Increased Fortitude](../skills/fortitude.md)
+    - *“A good choice. Do you feel it already?”*
+
+    **Way 3:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Sounds great - I choose this one. [Touch the item]”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - **Gives:** +1 [Treasure Hunter](../skills/coinfinder.md), +1 [Merchant](../skills/barter.md)
+    - *“A good choice. Do you feel it already?”*
+
+    **Way 4:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Sounds great - I choose this one. [Touch the item]”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - **Gives:** +1 [Dodge](../skills/dodge.md)
+    - *“A good choice. Do you feel it already?”*
+
+    **Way 5:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Sounds great - I choose this one. [Touch the item]”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); skillIncrease cleave 1; hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - **Gives:** +1 [Cleave](../skills/cleave.md)
+    - *“A good choice. Do you feel it already?”*
+
+    **Way 6:** Talk to [Pangitain](../monsters/brv_fortune_teller.md), choose “Sounds great - I choose this one. [Touch the item]”
+
+    - **Needs:** reached stage 144 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-144); carry 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md); hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md)
+    - **Gives:** +1 [Magic Finder](../skills/magicfinder.md)
+    - *“A good choice. Do you feel it already?”*
+
+
+<span id="route-101"></span>
+
+??? note "Stage 101 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 0
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 0
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 0
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 0
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 0
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 0
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 0
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 0
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 0
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 0
+
+
+<span id="route-102"></span>
+
+??? note "Stage 102 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 1
+    - **Gives:** clears stage 101 of [The exploded star](../quests/mg2_exploded_star.md#stage-101)
+
+
+<span id="route-103"></span>
+
+??? note "Stage 103 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 2
+    - **Gives:** clears stage 102 of [The exploded star](../quests/mg2_exploded_star.md#stage-102)
+
+
+<span id="route-104"></span>
+
+??? note "Stage 104 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 3
+    - **Gives:** clears stage 103 of [The exploded star](../quests/mg2_exploded_star.md#stage-103)
+
+
+<span id="route-105"></span>
+
+??? note "Stage 105 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 4
+    - **Gives:** clears stage 104 of [The exploded star](../quests/mg2_exploded_star.md#stage-104)
+
+
+<span id="route-106"></span>
+
+??? note "Stage 106 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 5
+    - **Gives:** clears stage 105 of [The exploded star](../quests/mg2_exploded_star.md#stage-105)
+
+
+<span id="route-107"></span>
+
+??? note "Stage 107 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 6
+    - **Gives:** clears stage 106 of [The exploded star](../quests/mg2_exploded_star.md#stage-106)
+
+
+<span id="route-108"></span>
+
+??? note "Stage 108 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 7
+    - **Gives:** clears stage 107 of [The exploded star](../quests/mg2_exploded_star.md#stage-107)
+
+
+<span id="route-109"></span>
+
+??? note "Stage 109 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 8
+    - **Gives:** clears stage 108 of [The exploded star](../quests/mg2_exploded_star.md#stage-108)
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · stepping on a trigger on galmore_66, stepping on a trigger o · 10 ways"
+
+    **Way 1:** Stepping on a trigger on [Galmore 66](../maps/galmore_66.md)
+
+    - **Needs:** reached stage 1 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-1); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 2:** Stepping on a trigger on [Galmore 77](../maps/galmore_77.md)
+
+    - **Needs:** reached stage 10 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-10); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 3:** Stepping on a trigger on [Galmore 76](../maps/galmore_76.md)
+
+    - **Needs:** reached stage 2 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-2); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 4:** Stepping on a trigger on [Galmore 73](../maps/galmore_73.md)
+
+    - **Needs:** reached stage 3 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-3); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 5:** Stepping on a trigger on [Galmore 65](../maps/galmore_65.md)
+
+    - **Needs:** reached stage 4 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-4); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 6:** Stepping on a trigger on [Galmore 56](../maps/galmore_56.md)
+
+    - **Needs:** reached stage 5 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-5); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 7:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 6 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-6); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 8:** Stepping on a trigger on [Galmore 57](../maps/galmore_57.md)
+
+    - **Needs:** reached stage 7 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-7); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 9:** Stepping on a trigger on [Galmore 75](../maps/galmore_75.md)
+
+    - **Needs:** reached stage 8 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-8); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
+    **Way 10:** Stepping on a trigger on [Galmore 74](../maps/galmore_74.md)
+
+    - **Needs:** reached stage 9 of [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md#stage-9); faction “mg2_exploded_star” = 9
+    - **Gives:** clears stage 109 of [The exploded star](../quests/mg2_exploded_star.md#stage-109)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

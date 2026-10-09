@@ -37,7 +37,7 @@ description: "Ring of damage +1 is a ordinary ring in Andor's Trail (Attack dama
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | elm_mine2 |
+| [Confused Feygard soldier](../monsters/ortholion_guard7.md) | 25% | 1 | Elm mine 2 |
 | [Bone warrior](../monsters/bone_warrior.md) | 1% | 1 | Flagstone Prison |
 
 ### Sold by
@@ -48,8 +48,8 @@ description: "Ring of damage +1 is a ordinary ring in Andor's Trail (Attack dama
 
 ### Found in containers
 
-- [blackwater_mountain25](../maps/blackwater_mountain25.md#container-3) (container 4, 33%), Prim
-- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 50%)
+- [Blackwater mountain 25](../maps/blackwater_mountain25.md#container-3) (container 4, 33%), Prim
+- [Elm mine 2](../maps/elm_mine2.md#container-2) (container 3, 50%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Huckleberreaper is an enemy in Andor's Trail (construct) with 265 HP, worth 962 XP, found in sullengard_west_ravine, sullengard_woods1, sullengard_woods13. Drops: Small tree branch, Gold coins, Rotten apple."
+description: "Huckleberreaper is an enemy in Andor's Trail (construct) with 265 HP, worth 962 XP, found in Sullengard west ravine, Sullengard woods 1, Sullengard woods 13. Drops: Small tree branch, Gold coins, Rotten apple."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_1081.png){ .sprite } Huckleberreaper
 
-**Found in:** [sullengard_west_ravine](../maps/sullengard_west_ravine.md), [sullengard_woods1](../maps/sullengard_woods1.md), [sullengard_woods13](../maps/sullengard_woods13.md), [sullengard_woods14](../maps/sullengard_woods14.md) (+1 more)
+**Found in:** [Sullengard west ravine](../maps/sullengard_west_ravine.md), [Sullengard woods 1](../maps/sullengard_woods1.md), [Sullengard woods 13](../maps/sullengard_woods13.md), [Sullengard woods 14](../maps/sullengard_woods14.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Huckleberreaper is an enemy in Andor's Trail (construct) with 265 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
+| **Found in** | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
 | **Class** | Construct |
 | **HP** | 265 |
 | **XP when defeated** | 962 |
@@ -60,11 +60,11 @@ description: "Huckleberreaper is an enemy in Andor's Trail (construct) with 265 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | 3 | – |
-| [sullengard_woods1](../maps/sullengard_woods1.md) | – | 3 | – |
-| [sullengard_woods13](../maps/sullengard_woods13.md) | – | 1 | – |
-| [sullengard_woods14](../maps/sullengard_woods14.md) | – | 7 | – |
-| [sullengard_woods_gj1](../maps/sullengard_woods_gj1.md) | – | 3 | – |
+| [Sullengard west ravine](../maps/sullengard_west_ravine.md) | – | 3 | – |
+| [Sullengard woods 1](../maps/sullengard_woods1.md) | – | 3 | – |
+| [Sullengard woods 13](../maps/sullengard_woods13.md) | – | 1 | – |
+| [Sullengard woods 14](../maps/sullengard_woods14.md) | – | 7 | – |
+| [Sullengard woods gj 1](../maps/sullengard_woods_gj1.md) | – | 3 | – |
 
 
 ## Version history

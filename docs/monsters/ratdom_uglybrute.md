@@ -4,7 +4,7 @@ description: "Ogre is an enemy in Andor's Trail (giant) with 230 HP, worth 383 X
 
 # ![](../assets/icons/monsters/monsters_tometik5_14.png){ .sprite } Ogre
 
-**Found in:** Gold hunter: [ratdom_maze_434b](../maps/ratdom_maze_434b.md)
+**Found in:** Gold hunter: [Ratdom maze 434b](../maps/ratdom_maze_434b.md)
 
 <div class="infobox" markdown>
 
@@ -57,7 +57,7 @@ description: "Ogre is an enemy in Andor's Trail (giant) with 230 HP, worth 383 X
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_434b](../maps/ratdom_maze_434b.md) | Gold hunter | 1 | – |
+| [Ratdom maze 434b](../maps/ratdom_maze_434b.md) | Gold hunter | 1 | – |
 
 
 ## Version history

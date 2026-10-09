@@ -4,7 +4,7 @@ description: "Worker is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_tometik2_62.png){ .sprite } Worker
 
-**Where to find Worker:** Brimhaven: [brimhaven2_laundry](../maps/brimhaven2_laundry.md#pin-npc-brv_laundry_worker)
+**Where to find Worker:** Brimhaven: [Brimhaven 2 laundry](../maps/brimhaven2_laundry.md#pin-npc-brv_laundry_worker)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Worker is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 10
+- [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md): stage 10
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Worker. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Worker. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_laundry_worker_0.json" data-npc="Worker" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,14 +33,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_laundry_worker_0"></span>**`brv_laundry_worker_0`** Worker: “Hello, how can I help you?”
 
     - “What are you working on?” → [brv_laundry_worker_2](#d-brv_laundry_worker_2)
     - “Can you sell me something?” → [brv_laundry_worker_1](#d-brv_laundry_worker_1)
 
-    <span id="d-brv_laundry_worker_2"></span>**`brv_laundry_worker_2`** Worker: “Currently I am coloring some cloth, but we do everything related to cloth, like repairing, custom tailoring, or enhancing. We also do some work with leather.” — **effects:** sets stage 10 of [brv_nondisplay_multipurpose (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10)
+    <span id="d-brv_laundry_worker_2"></span>**`brv_laundry_worker_2`** Worker: “Currently I am coloring some cloth, but we do everything related to cloth, like repairing, custom tailoring, or enhancing. We also do some work with leather.” — **effects:** sets stage 10 of [Brimhaven multipurpose story flags (hidden flag)](../quests/brv_nondisplay_multipurpose.md#stage-10)
 
     - “Can you sell me something?” → [brv_laundry_worker_1](#d-brv_laundry_worker_1)
 

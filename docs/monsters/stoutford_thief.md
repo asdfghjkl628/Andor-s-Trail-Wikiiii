@@ -4,7 +4,7 @@ description: "Quiet thief is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Quiet thief
 
-**Where to find Quiet thief:** Stoutford: [stoutford_tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_thief)
+**Where to find Quiet thief:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_thief)
 
 <div class="infobox" markdown>
 
@@ -44,7 +44,7 @@ description: "Quiet thief is a non-player character (NPC) in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Quiet thief. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Quiet thief. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_thief_0.json" data-npc="Quiet thief" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_thief_0"></span>**`stoutford_thief_0`** *(silent check: the first matching branch below is taken)*
 

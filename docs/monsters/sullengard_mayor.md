@@ -4,7 +4,7 @@ description: "Mayor Ale is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } Mayor Ale
 
-**Where to find Mayor Ale:** Sullengard: [sullengard1_townhall](../maps/sullengard1_townhall.md#pin-npc-sullengard_mayor)
+**Where to find Mayor Ale:** Sullengard: [Sullengard 1 townhall](../maps/sullengard1_townhall.md#pin-npc-sullengard_mayor)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Mayor Ale is a non-player character (NPC) in Andor's Trail, found 
 
 - [Another ruthless Crackshot](../quests/Thieves04.md): stage 75
 - [Beer Bootlegging](../quests/beer_bootlegging.md): stages 60, 80
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stages 25, 30
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stages 25, 30
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mayor Ale. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mayor Ale. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_mayor.json" data-npc="Mayor Ale" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,11 +35,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (35 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_mayor"></span>**`sullengard_mayor`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 25 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-25); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_mayor_10](#d-sullengard_mayor_10)
+    - branch 1 *(if NOT reached stage 25 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-25); latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30)* → [sullengard_mayor_10](#d-sullengard_mayor_10)
     - branch 2 *(if latest stage of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-50) is 50)* → [sullengard_mayor_beer_0](#d-sullengard_mayor_beer_0)
     - branch 3 *(if latest stage of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-70) is 70)* → [sullengard_mayor_letter_delivered](#d-sullengard_mayor_letter_delivered)
     - branch 4 *(if latest stage of [Beer Bootlegging](../quests/beer_bootlegging.md#stage-60) is 60)* → [sullengard_mayor_no_letter_delivered](#d-sullengard_mayor_no_letter_delivered)
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “How did you know that?” → [sullengard_mayor_beer_letter_not_delivered_10](#d-sullengard_mayor_beer_letter_not_delivered_10)
     - “We want to contribute gold coins for your financial loss.” *(if NOT faction “gold_contribute” ≥ 50000; reached stage 70 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-70))* → [sullengard_mayor_4](#d-sullengard_mayor_4)
 
-    <span id="d-sullengard_mayor_5"></span>**`sullengard_mayor_5`** Mayor Ale: “Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena.” — **effects:** sets stage 30 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-30), sets stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75)
+    <span id="d-sullengard_mayor_5"></span>**`sullengard_mayor_5`** Mayor Ale: “Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena.” — **effects:** sets stage 30 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-30), sets stage 75 of [Another ruthless Crackshot](../quests/Thieves04.md#stage-75)
 
     - “Of course, he is my brother.” → [sullengard_mayor_6](#d-sullengard_mayor_6)
     - “How did you know?” → [sullengard_mayor_6](#d-sullengard_mayor_6)
@@ -110,7 +110,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [sullengard_mayor_3](#d-sullengard_mayor_3)
 
-    <span id="d-sullengard_mayor_30"></span>**`sullengard_mayor_30`** Mayor Ale: “I wish I knew more, but I don't. Maybe ask around near the tavern?” — **effects:** sets stage 25 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-25)
+    <span id="d-sullengard_mayor_30"></span>**`sullengard_mayor_30`** Mayor Ale: “I wish I knew more, but I don't. Maybe ask around near the tavern?” — **effects:** sets stage 25 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-25)
 
 
     <span id="d-sullengard_mayor_beer_10"></span>**`sullengard_mayor_beer_10`** Mayor Ale: “What do you know?”

@@ -11,9 +11,9 @@ description: "What is that stench? is a quest in Andor's Trail, started by Jhael
 | **Quest ID** | `remgard2` |
 | **In journal** | Yes |
 | **Stages** | 9 (completes at 45) |
-| **Started by** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) |
+| **Started by** | [Jhaeld](../monsters/jhaeld.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)) |
 | **NPCs involved** | [Algangror](../monsters/algangror.md), [Ervelyn](../monsters/ervelyn.md), [Jhaeld](../monsters/jhaeld.md) |
-| **Locations** | [lonelyhouse0](../maps/lonelyhouse0.md), [remgard_clothes](../maps/remgard_clothes.md), [remgard_tavern1](../maps/remgard_tavern1.md) |
+| **Locations** | [Lonelyhouse 0](../maps/lonelyhouse0.md), [Remgard clothes](../maps/remgard_clothes.md), [Remgard tavern 1](../maps/remgard_tavern1.md) |
 | **Total XP** | 21,000 |
 | **Related quests** | 4 |
 
@@ -25,7 +25,7 @@ description: "What is that stench? is a quest in Andor's Trail, started by Jhael
 
 ## Prerequisites to start
 
-Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)). Required:
+Start with [Jhaeld](../monsters/jhaeld.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)). Required:
 
 - reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10)
 
@@ -40,64 +40,124 @@ Start with [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_ta
 |---|---|---|
 | Unlocks | [Of mice and men](algangror.md#stage-101) | stage 101 there needs stages 10, 21 here |
 | Unlocks | [The five idols](fiveidols.md#stage-100) | stage 100 there needs stage 21 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-21) | stage 21 there needs stage 45 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-21) | stage 21 there needs stage 45 here |
 | Unlocks | [A difference of opinion](sisterfight.md#stage-10) | stage 10 there needs stage 45 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I have told Jhaeld, the village elder in Remgard, about the woman named Algangror that lives in the abandoned house to the east along the northern shore of the lake outside Remgard. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-20"></span>20 | Jhaeld told me that he would rather not deal with her, since he believes she is very dangerous. For the sake of his guards, he will not risk going against her since he is afraid of what might happen to all of them. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 21 | – |
-| <span id="stage-21"></span>21 | If I want to help Jhaeld and the people of Remgard, I should find a way to make Algangror disappear. He also warns me to be extremely careful. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-30"></span>30 | Algangror admitted to me that she had made some people disappear from Remgard. She would not tell me what happened to them though. | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | – | – |
-| <span id="stage-35"></span>35 | I have started attacking Algangror. I should return to Jhaeld with proof of defeating her when she is dead. | [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) | – | – |
-| <span id="stage-40"></span>40 | I have told Jhaeld that I defeated Algangror. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | hand over 1× [Algangror's ring](../items/algangror_ring.md), stage 21, stage 35 | – |
-| <span id="stage-41"></span>41 | Jhaeld was very pleased to hear the good news. The people of Remgard should now be safe, and the town can be opened to outsiders again. | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | – | – |
-| <span id="stage-45"></span>45 | For helping the people of Remgard find the cause of the disappearing people, Jhaeld told me to talk to Rothses. He might be able to improve some of my equipment. **(completes quest)** | [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) | stage 41 | 21,000 XP |
-| <span id="stage-46"></span>46 | Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for helping the people of Remgard find out what happened to the missing people. | [Ervelyn](../monsters/ervelyn.md) ([remgard_clothes](../maps/remgard_clothes.md)) | stage 45 | gives [Woodcutter's feathered hat](../items/hat_crit.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I have told Jhaeld, the village elder in Remgard, about the woman… ▸</span><span class="l">▴ less</span></summary>I have told Jhaeld, the village elder in Remgard, about the woman named Algangror that lives in the abandoned house to the east along the northern shore of the lake outside Remgard.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Jhaeld told me that he would rather not deal with her, since he… ▸</span><span class="l">▴ less</span></summary>Jhaeld told me that he would rather not deal with her, since he believes she is very dangerous. For the sake of his guards, he will not risk going against her since he is afraid of what might happen to all of them.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">If I want to help Jhaeld and the people of Remgard, I should find a… ▸</span><span class="l">▴ less</span></summary>If I want to help Jhaeld and the people of Remgard, I should find a way to make Algangror disappear. He also warns me to be extremely careful.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Algangror admitted to me that she had made some people disappear… ▸</span><span class="l">▴ less</span></summary>Algangror admitted to me that she had made some people disappear from Remgard. She would not tell me what happened to them though.</details> | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">I have started attacking Algangror. I should return to Jhaeld with… ▸</span><span class="l">▴ less</span></summary>I have started attacking Algangror. I should return to Jhaeld with proof of defeating her when she is dead.</details> | [Algangror](../monsters/algangror.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I have told Jhaeld that I defeated Algangror. | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-41"></span>[41](#route-41) | <details class="jt"><summary><span class="s">Jhaeld was very pleased to hear the good news. The people of Remgard… ▸</span><span class="l">▴ less</span></summary>Jhaeld was very pleased to hear the good news. The people of Remgard should now be safe, and the town can be opened to outsiders again.</details> | [Jhaeld](../monsters/jhaeld.md) | – |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">For helping the people of Remgard find the cause of the disappearing… ▸</span><span class="l">▴ less</span></summary>For helping the people of Remgard find the cause of the disappearing people, Jhaeld told me to talk to Rothses. He might be able to improve some of my equipment.</details> **(ends quest)** | [Jhaeld](../monsters/jhaeld.md) | 21,000 XP |
+| <span id="stage-46"></span>[46](#route-46) | <details class="jt"><summary><span class="s">Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for… ▸</span><span class="l">▴ less</span></summary>Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for helping the people of Remgard find out what happened to the missing people.</details> | [Ervelyn](../monsters/ervelyn.md) | [Woodcutter's feathered hat](../items/hat_crit.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 10 of [What is that stench?](../quests/remgard2.md#stage-10) → **stage 10**. NPC: “If Algangror is here, this is grim news indeed.”
+??? note "Stage 10 · Jhaeld · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), automatic
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “So, what then?” — **conditions:** reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21) → **stage 20**. NPC: “If I were to choose, I would rather not deal with it, and just seal the town bridge as safely as possible, to prevent…”
+    - **Needs:** stage 10
+    - *“If Algangror is here, this is grim news indeed.”*
 
-???+ note "Stage 21: 1 route"
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “I am still trying to find a way to make Algangror disappear.” — **conditions:** reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21) → **stage 21**. NPC: “Remember, please be careful! I would not want to be responsible for another person disappearing.”
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Jhaeld · 1 way"
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [What is that stench?](../quests/remgard2.md#stage-30) → **stage 30**. NPC: “Jhaeld, the fool. He hides behind his guards and his stone walls. Such a pitiful man he is. Yes, I made those people…”
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “So, what then?”
 
-???+ note "Stage 35: 1 route"
+    - **Needs:** stage 21
+    - *“If I were to choose, I would rather not deal with it, and just seal the town bridge as safely as possible, to prevent any more people from…”*
 
-    1. Talk to [Algangror](../monsters/algangror.md) ([lonelyhouse0](../maps/lonelyhouse0.md)) → the conversation leads here automatically — **conditions:** reached stage 35 of [What is that stench?](../quests/remgard2.md#stage-35) → **stage 35**
 
-???+ note "Stage 40: 1 route"
+<span id="route-21"></span>
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “I have brought you her ring as proof that what I say is true.” — **conditions:** reached stage 21 of [What is that stench?](../quests/remgard2.md#stage-21); reached stage 35 of [What is that stench?](../quests/remgard2.md#stage-35); hand over 1× [Algangror's ring](../items/algangror_ring.md) → **stage 40**. NPC: “I can hardly believe it! Yes, this is indeed her ring.”
+??? note "Stage 21 · Jhaeld · 1 way"
 
-???+ note "Stage 41: 1 route"
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “I am still trying to find a way to make Algangror disappear.”
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → the conversation leads here automatically — **conditions:** reached stage 41 of [What is that stench?](../quests/remgard2.md#stage-41) → **stage 41**. NPC: “This means that the people of Remgard are now safe from her, and it is all thanks to you! Who would have thought.”
+    - **Needs:** stage 21
+    - *“Remember, please be careful! I would not want to be responsible for another person disappearing.”*
 
-???+ note "Stage 45: 1 route"
 
-    1. Talk to [Jhaeld](../monsters/jhaeld.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) → choose “You are most welcome.” — **conditions:** reached stage 41 of [What is that stench?](../quests/remgard2.md#stage-41) → **stage 45**. NPC: “Go talk to Rothses over at the west side of town. He should be able to help you improve some of your equipment.”
+<span id="route-30"></span>
 
-???+ note "Stage 46: 1 route"
+??? note "Stage 30 · Algangror · 1 way"
 
-    1. Talk to [Ervelyn](../monsters/ervelyn.md) ([remgard_clothes](../maps/remgard_clothes.md)) → the conversation leads here automatically — **conditions:** reached stage 45 of [What is that stench?](../quests/remgard2.md#stage-45) → **stage 46**; also gives [Woodcutter's feathered hat](../items/hat_crit.md). NPC: “As a token of my appreciation, please accept this hat that I made. May it guide you through the blinding light.”
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), automatic
+
+    - **Needs:** stage 30
+    - *“Jhaeld, the fool. He hides behind his guards and his stone walls. Such a pitiful man he is. Yes, I made those people disappear, but they…”*
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · Algangror · 1 way"
+
+    **Way 1:** Talk to [Algangror](../monsters/algangror.md), automatic
+
+    - **Needs:** stage 35
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “I have brought you her ring as proof that what I say is true.”
+
+    - **Needs:** stage 21, 35; hand over 1× [Algangror's ring](../items/algangror_ring.md)
+    - *“I can hardly believe it! Yes, this is indeed her ring.”*
+
+
+<span id="route-41"></span>
+
+??? note "Stage 41 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), automatic
+
+    - **Needs:** stage 41
+    - *“This means that the people of Remgard are now safe from her, and it is all thanks to you! Who would have thought.”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Jhaeld · 1 way"
+
+    **Way 1:** Talk to [Jhaeld](../monsters/jhaeld.md), choose “You are most welcome.”
+
+    - **Needs:** stage 41
+    - *“Go talk to Rothses over at the west side of town. He should be able to help you improve some of your equipment.”*
+
+
+<span id="route-46"></span>
+
+??? note "Stage 46 · Ervelyn · 1 way"
+
+    **Way 1:** Talk to [Ervelyn](../monsters/ervelyn.md), automatic
+
+    - **Needs:** stage 45
+    - **Gives:** [Woodcutter's feathered hat](../items/hat_crit.md)
+    - *“As a token of my appreciation, please accept this hat that I made. May it guide you through the blinding light.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

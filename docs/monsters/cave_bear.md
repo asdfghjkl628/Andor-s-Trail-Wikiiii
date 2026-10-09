@@ -1,10 +1,10 @@
 ---
-description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP, worth 601 XP, found in korhald_cave_bear. Drops: Raw inkyfish, Claws, Wild red berries."
+description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP, worth 601 XP, found in Korhald cave bear. Drops: Raw inkyfish, Claws, Wild red berries."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_242.png){ .sprite } Aggressive bear
 
-**Found in:** [korhald_cave_bear](../maps/korhald_cave_bear.md)
+**Found in:** [Korhald cave bear](../maps/korhald_cave_bear.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | korhald_cave_bear |
+| **Found in** | Korhald cave bear |
 | **Class** | Animal |
 | **HP** | 297 |
 | **XP when defeated** | 601 |
@@ -56,7 +56,7 @@ description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [korhald_cave_bear](../maps/korhald_cave_bear.md) | – | 1 | – |
+| [Korhald cave bear](../maps/korhald_cave_bear.md) | – | 1 | – |
 
 
 ## Version history

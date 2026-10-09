@@ -39,10 +39,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | must be carried (5×) | “(automatic)” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | must be carried (5×) | “(automatic)” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | handed over (5×) | “Here, take them, please.” |
-| [Vaelric](../monsters/vaelric.md) ([galmore_17_house](../maps/galmore_17_house.md)) | – | handed over (5×) | “Here, take them, please.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | must be carried (5×) | “(automatic)” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | must be carried (5×) | “(automatic)” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | [Restless in the grave](../quests/mg_restless_grave.md#stage-115) | handed over (5×) | “Here, take them, please.” |
+| [Vaelric](../monsters/vaelric.md) ([Galmore 17 house](../maps/galmore_17_house.md)) | – | handed over (5×) | “Here, take them, please.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

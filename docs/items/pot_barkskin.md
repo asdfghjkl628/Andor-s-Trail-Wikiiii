@@ -34,7 +34,7 @@ description: "Potion of bark skin is a ordinary potion in Andor's Trail. How to 
 
 ### Quest & dialogue rewards
 
-- From [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) (100%)
+- From [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

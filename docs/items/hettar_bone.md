@@ -27,7 +27,7 @@ description: "Wyrm meat is a quest animal part in Andor's Trail. How to get it: 
 
 ### Quest & dialogue rewards
 
-- From [Little Hettar](../monsters/hettar.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) during [Where is Norry?](../quests/hettar_dog.md#stage-30) (1×)
+- From [Little Hettar](../monsters/hettar.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) during [Where is Norry?](../quests/hettar_dog.md#stage-30) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,8 +38,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) | handed over (1×) | “Hey Norry, look here! I have some much better food for you from Hettar.” |
-| [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1) | must be carried (1×) | “Hey Norry, look here! I have a Wyrm steak for you from Hettar.” |
+| [Wolfhound](../monsters/hettar_dog.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) | [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2) | handed over (1×) | “Hey Norry, look here! I have some much better food for you from Hettar.” |
+| [Wolfhound](../monsters/hettar_dog.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) | [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-1) | must be carried (1×) | “Hey Norry, look here! I have a Wyrm steak for you from Hettar.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -4,7 +4,7 @@ description: "Ogea is a non-player character (NPC) in Andor's Trail, found in Br
 
 # ![](../assets/icons/monsters/monsters_tometik2_63.png){ .sprite } Ogea
 
-**Where to find Ogea:** Brimhaven: [brimhaven4](../maps/brimhaven4.md#pin-npc-brv_villager3), Brimhaven: [brimhaven_prison](../maps/brimhaven_prison.md#pin-npc-brv_villager3)
+**Where to find Ogea:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager3), Brimhaven: [Brimhaven prison](../maps/brimhaven_prison.md#pin-npc-brv_villager3)
 
 <div class="infobox" markdown>
 
@@ -23,8 +23,8 @@ description: "Ogea is a non-player character (NPC) in Andor's Trail, found in Br
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
-| [brimhaven_prison](../maps/brimhaven_prison.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven 4](../maps/brimhaven4.md) | Brimhaven | 1 | – |
+| [Brimhaven prison](../maps/brimhaven_prison.md) | Brimhaven | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -32,7 +32,7 @@ description: "Ogea is a non-player character (NPC) in Andor's Trail, found in Br
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Ogea. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Ogea. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_villager3.json" data-npc="Ogea" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -40,7 +40,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_villager3"></span>**`brv_villager3`** Ogea: “You are not from Brimhaven, are you? If you need a place to stay, visit the inn in the eastern part of the town. There are beds available for rent. But it is a bit untidy there.”
 

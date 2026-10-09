@@ -4,7 +4,7 @@ description: "Waitress is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_162.png){ .sprite } Waitress
 
-**Where to find Waitress:** Brimhaven: [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_waitress)
+**Where to find Waitress:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_waitress)
 
 <div class="infobox" markdown>
 
@@ -33,7 +33,7 @@ description: "Waitress is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Waitress. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Waitress. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_tavern_west_waitress_select.json" data-npc="Waitress" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_tavern_west_waitress_select"></span>**`brv_tavern_west_waitress_select`** *(silent check: the first matching branch below is taken)*
 
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_tavern_west_waitress_10"></span>**`brv_tavern_west_waitress_10`** Waitress: “Welcome to my tavern. How can I help you?”
 
-    - “Do you know something about the back room?” *(if reached stage 10 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10))* → [brv_tavern_west_waitress_20](#d-brv_tavern_west_waitress_20)
+    - “Do you know something about the back room?” *(if reached stage 10 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10))* → [brv_tavern_west_waitress_20](#d-brv_tavern_west_waitress_20)
     - “What do you offer for trade?” → *shop opens*
     - “I am looking for my brother, Andor. He looks a bit like me.” → [brv_tavern_west_waitress_11](#d-brv_tavern_west_waitress_11)
 

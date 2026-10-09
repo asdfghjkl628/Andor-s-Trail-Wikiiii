@@ -4,7 +4,7 @@ description: "Eyvipa is an enemy in Andor's Trail (undead) with 1 HP, worth 1 XP
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Eyvipa
 
-**Found in:** Lake Laeroth: [laerothtomb1](../maps/laerothtomb1.md)
+**Found in:** Lake Laeroth: [Laerothtomb 1](../maps/laerothtomb1.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Eyvipa is an enemy in Andor's Trail (undead) with 1 HP, worth 1 XP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothtomb1](../maps/laerothtomb1.md) | Lake Laeroth | 1 | Appears later, during a quest |
+| [Laerothtomb 1](../maps/laerothtomb1.md) | Lake Laeroth | 1 | Appears later, during a quest |
 
 
 ## Version history

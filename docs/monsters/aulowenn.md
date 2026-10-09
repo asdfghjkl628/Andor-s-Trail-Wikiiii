@@ -1,10 +1,10 @@
 ---
-description: "Aulowenn is an NPC who can also be fought in Andor's Trail, found in lodar13. Starts No rest for the guilty."
+description: "Aulowenn is an NPC who can also be fought in Andor's Trail, found in Lodar 13. Starts No rest for the guilty."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } Aulowenn
 
-**Where to find Aulowenn:** [lodar13](../maps/lodar13.md#pin-npc-aulowenn)
+**Where to find Aulowenn:** [Lodar 13](../maps/lodar13.md#pin-npc-aulowenn)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Aulowenn is an NPC who can also be fought in Andor's Trail, found 
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [No rest for the guilty](../quests/lodar13_rest.md) |
-| **Found in** | lodar13 |
+| **Found in** | Lodar 13 |
 | **Class** | Humanoid |
 | **HP** | 194 |
 | **XP when defeated** | 324 |
@@ -61,7 +61,7 @@ description: "Aulowenn is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar13](../maps/lodar13.md) | – | 1 | – |
+| [Lodar 13](../maps/lodar13.md) | – | 1 | – |
 
 ## Quests
 
@@ -69,7 +69,7 @@ description: "Aulowenn is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aulowenn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Aulowenn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aulowenn0.json" data-npc="Aulowenn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (36 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aulowenn0"></span>**`aulowenn0`** *(silent check: the first matching branch below is taken)*
 

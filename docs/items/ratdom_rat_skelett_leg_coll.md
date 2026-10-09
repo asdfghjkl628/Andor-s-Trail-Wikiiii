@@ -27,7 +27,7 @@ description: "Leg bone of a rat is a quest other in Andor's Trail. How to get it
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) during [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-120) (1×)
+- From stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) during [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-120) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,14 +38,14 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | – | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | – | handed over (1×) | “Put the leg bone back onto the pile.” |
-| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A bone.” |
-| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A contaminated bone.” |
-| stepping on a trigger on [ratdom_maze_464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “(automatic)” |
-| stepping on a trigger on [ratdom_maze_634](../maps/ratdom_maze_634.md) | – | handed over (1×) | “(automatic)” |
-| [Loirash](../monsters/ratdom_bone_collector.md) ([ratdom_maze_464](../maps/ratdom_maze_464.md)) | – | must be carried (1×) | “(automatic)” |
-| [Loirash](../monsters/ratdom_bone_collector.md) ([ratdom_maze_464](../maps/ratdom_maze_464.md)), walking into a blocked passage on [ratdom_maze_464](../maps/ratdom_maze_464.md) | – | handed over (1×) | “[Lie] No. I haven't taken anything.” |
+| stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) | – | handed over (1×) | “Put the leg bone back onto the pile.” |
+| stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A bone.” |
+| stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “A contaminated bone.” |
+| stepping on a trigger on [Ratdom maze 464](../maps/ratdom_maze_464.md) | [Yellow is it](../quests/ratdom_quest.md#stage-32) | handed over (1×) | “(automatic)” |
+| stepping on a trigger on [Ratdom maze 634](../maps/ratdom_maze_634.md) | – | handed over (1×) | “(automatic)” |
+| [Loirash](../monsters/ratdom_bone_collector.md) ([Ratdom maze 464](../maps/ratdom_maze_464.md)) | – | must be carried (1×) | “(automatic)” |
+| [Loirash](../monsters/ratdom_bone_collector.md) ([Ratdom maze 464](../maps/ratdom_maze_464.md)), walking into a blocked passage on [Ratdom maze 464](../maps/ratdom_maze_464.md) | – | handed over (1×) | “[Lie] No. I haven't taken anything.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

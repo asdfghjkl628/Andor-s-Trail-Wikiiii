@@ -31,9 +31,9 @@ description: "Fatigue is a harmful physical condition in Andor's Trail: −1 HP 
 | HP every round | −1 |
 | AP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -44,26 +44,26 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) | – | 99 rounds |
-| walking into a blocked passage on [brimhaven1](../maps/brimhaven1.md) | – | 99 rounds |
-| [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | Until you rest |
+| stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) | – | 99 rounds |
+| walking into a blocked passage on [Brimhaven 1](../maps/brimhaven1.md) | – | 99 rounds |
+| [Favlon](../monsters/dds_favlon.md) ([Nw sullengard 1](../maps/nw_sullengard_1.md)) | [Shadows](../quests/shadows.md#stage-140) | Until you rest |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
-- **Removed by** stepping on a trigger on [brimhaven1](../maps/brimhaven1.md).
-- **Removed by** [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) during [Shadows](../quests/shadows.md#stage-160).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
+- **Removed by** stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md).
+- **Removed by** [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) during [Shadows](../quests/shadows.md#stage-160).
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 ## Checked in dialogue
 
-- stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) checks whether you have this condition.
-- stepping on a trigger on [brimhaven1](../maps/brimhaven1.md) checks whether you do not have this condition.
-- [Borvis](../monsters/dds_borvis.md) ([galmore_41](../maps/galmore_41.md)) checks whether you have this condition.
-- [Favlon](../monsters/dds_favlon.md) ([nw_sullengard_1](../maps/nw_sullengard_1.md)) checks whether you do not have this condition.
+- stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) checks whether you have this condition.
+- stepping on a trigger on [Brimhaven 1](../maps/brimhaven1.md) checks whether you do not have this condition.
+- [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) checks whether you have this condition.
+- [Favlon](../monsters/dds_favlon.md) ([Nw sullengard 1](../maps/nw_sullengard_1.md)) checks whether you do not have this condition.
 
 
 ## Community notes

@@ -38,7 +38,7 @@ description: "Superior combat boots is a ordinary footwear, metal (heavy) in And
 
 ### Sold by
 
-- [Teksin](../monsters/teksin.md) (waytolake11)
+- [Teksin](../monsters/teksin.md) (Waytolake 11)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

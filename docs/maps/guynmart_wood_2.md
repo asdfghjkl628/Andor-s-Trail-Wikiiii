@@ -12,7 +12,7 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 8 |
 | **Quests** | 0 |
@@ -89,16 +89,16 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 | [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 6 | 2–2 | 1 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 2 | – |
+| [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
 | [Wild dog](../monsters/guynmart_dog2a.md#v-guynmart_dog3a) | 40 | 3–9 | 5 | appears later, during a quest |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 1 | – |
-| [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
 ## Quests
 
-- [guynmart lake (hidden flag)](../quests/guynmart_r_lake.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 11; part of the map changes at stage 2; part of the map changes at stage 21; part of the map changes at stage 22; part of the map changes at stage 23; part of the map changes at stage 24; part of the map changes at stage 25; part of the map changes at stage 26; part of the map changes at stage 27; part of the map changes at stage 28; part of the map changes at stage 29; part of the map changes at stage 3; part of the map changes at stage 30; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; part of the map changes at stage 9; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 23; stepping on a trigger here sets stage 24; stepping on a trigger here sets stage 25; stepping on a trigger here sets stage 26; stepping on a trigger here sets stage 27; stepping on a trigger here sets stage 28; stepping on a trigger here sets stage 29; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8; stepping on a trigger here sets stage 9
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 1
+- [Guynmart lake (hidden flag)](../quests/guynmart_r_lake.md): part of the map changes at stage 1; part of the map changes at stage 10; part of the map changes at stage 11; part of the map changes at stage 2; part of the map changes at stage 21; part of the map changes at stage 22; part of the map changes at stage 23; part of the map changes at stage 24; part of the map changes at stage 25; part of the map changes at stage 26; part of the map changes at stage 27; part of the map changes at stage 28; part of the map changes at stage 29; part of the map changes at stage 3; part of the map changes at stage 30; part of the map changes at stage 4; part of the map changes at stage 5; part of the map changes at stage 6; part of the map changes at stage 7; part of the map changes at stage 8; part of the map changes at stage 9; something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 21; stepping on a trigger here sets stage 22; stepping on a trigger here sets stage 23; stepping on a trigger here sets stage 24; stepping on a trigger here sets stage 25; stepping on a trigger here sets stage 26; stepping on a trigger here sets stage 27; stepping on a trigger here sets stage 28; stepping on a trigger here sets stage 29; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 30; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8; stepping on a trigger here sets stage 9
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 1
 
 ## Points of interest
 

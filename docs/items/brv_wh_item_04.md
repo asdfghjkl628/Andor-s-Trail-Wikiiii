@@ -25,8 +25,8 @@ description: "Chandelier is a quest other in Andor's Trail. How to get it: quest
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_04](../monsters/brv_wh_item_04.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_24](../monsters/brv_wh_item_24.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-104) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_04](../monsters/brv_wh_item_04.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_24](../monsters/brv_wh_item_24.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-104) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,8 +37,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Servant](../monsters/erwyn_servant.md#v-guynmart_servant) ([guynmart_main_3](../maps/guynmart_main_3.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60) | handed over (1×) | “I'm here to give you your ordered item. You don't want it?” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Servant](../monsters/erwyn_servant.md#v-guynmart_servant) ([Guynmart main 3](../maps/guynmart_main_3.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-60) | handed over (1×) | “I'm here to give you your ordered item. You don't want it?” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

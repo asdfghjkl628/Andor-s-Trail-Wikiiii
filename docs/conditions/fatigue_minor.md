@@ -29,9 +29,9 @@ description: "Minor fatigue is a harmful physical condition in Andor's Trail: da
 | Attack cost (AP) | +2 |
 | Move cost (AP) | +2 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -51,10 +51,10 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Cave troll shaman](../monsters/cave_troll_4.md) | When it hits you | 1 | 4 rounds | 10% | lakecave0, lakecave2 |
-| [Guardian of the bridge](../monsters/lbridge.md) | When it hits you | 1 | 7 rounds | 30% | lodar8 |
+| [Cave troll shaman](../monsters/cave_troll_4.md) | When it hits you | 1 | 4 rounds | 10% | Lakecave 0, Lakecave 2 |
+| [Guardian of the bridge](../monsters/lbridge.md) | When it hits you | 1 | 7 rounds | 30% | Lodar 8 |
 | [Hatchling white wyrm](../monsters/hatchling_white_wyrm.md) | When it hits you | 1 | 5 rounds | 10% | Blackwater Mountain |
-| [Morkin elder](../monsters/morkin_cr.md) | When it hits you | 1 | 3 rounds | 30% | lodar12 |
+| [Morkin elder](../monsters/morkin_cr.md) | When it hits you | 1 | 3 rounds | 30% | Lodar 12 |
 | [White wyrm](../monsters/white_wyrm.md) | When it hits you | 1 | 5 rounds | 50% | Blackwater Mountain |
 | [Wyrm apprentice](../monsters/wyrm_apprentice.md) | When it hits you | 1 | 10 rounds | 70% | Blackwater Mountain |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | When it hits you | 1 | 10 rounds | 70% | Blackwater Mountain |
@@ -64,10 +64,10 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | From | Quest | Duration |
 |---|---|---|
-| [Gyra](../monsters/stn_gyra.md#v-stn_gyra1) ([flagstone0](../maps/flagstone0.md)), [Gyra](../monsters/stn_gyra.md#v-stn_gyra2) ([flagstone0](../maps/flagstone0.md)) | [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-29) | 99 rounds |
-| stepping on a trigger on [swamp_hut](../maps/swamp_hut.md) | – | 15 rounds |
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-11) | 6 rounds |
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | – | 6 rounds |
+| [Gyra](../monsters/stn_gyra.md#v-stn_gyra1) ([Flagstone 0](../maps/flagstone0.md)), [Gyra](../monsters/stn_gyra.md#v-stn_gyra2) ([Flagstone 0](../maps/flagstone0.md)) | [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-29) | 99 rounds |
+| stepping on a trigger on [Swamp hut](../maps/swamp_hut.md) | – | 15 rounds |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-11) | 6 rounds |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | – | 6 rounds |
 
 ## Applied to enemies
 
@@ -82,17 +82,17 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Removed by** [Restore fatigue](../items/pot_fatigue_restore.md) (when used).
 - **Removed by** [Orchard apple](../items/deebo_apples.md) (when used).
-- **Removed by** stepping on a trigger on [waytogalmore1](../maps/waytogalmore1.md).
-- **Removed by** stepping on a trigger on [flagstone0](../maps/flagstone0.md), walking into a blocked passage on [flagstone0](../maps/flagstone0.md).
-- **Removed by** stepping on a trigger on [wild19](../maps/wild19.md) during [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60).
-- **Removed by** stepping on a trigger on [wild19](../maps/wild19.md).
-- **Removed by** stepping on a trigger on [stoutford_castle1](../maps/stoutford_castle1.md), stepping on a trigger on [stoutford_castle0](../maps/stoutford_castle0.md).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Removed by** stepping on a trigger on [Waytogalmore 1](../maps/waytogalmore1.md).
+- **Removed by** stepping on a trigger on [Flagstone 0](../maps/flagstone0.md), walking into a blocked passage on [Flagstone 0](../maps/flagstone0.md).
+- **Removed by** stepping on a trigger on [Wild 19](../maps/wild19.md) during [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60).
+- **Removed by** stepping on a trigger on [Wild 19](../maps/wild19.md).
+- **Removed by** stepping on a trigger on [Stoutford castle 1](../maps/stoutford_castle1.md), stepping on a trigger on [Stoutford castle 0](../maps/stoutford_castle0.md).
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

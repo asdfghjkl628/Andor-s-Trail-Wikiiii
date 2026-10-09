@@ -1,8 +1,8 @@
 ---
-description: "Ringmaker is a hidden quest in Andor's Trail, started by Rorthron (guynmart_tower_4). 5 stages, 1,000 XP in total. 1=ROLS taken"
+description: "Guynmart quest wizard is a hidden quest in Andor's Trail, started by Rorthron (guynmart_tower_4). 5 stages, 1,000 XP in total. 1=ROLS taken"
 ---
 
-# Ringmaker
+# Guynmart quest wizard
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "Ringmaker is a hidden quest in Andor's Trail, started by Rorthron 
 | **Quest ID** | `guynmart_quest_wizard` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 5 |
-| **Started by** | [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) |
+| **Started by** | [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) |
 | **NPCs involved** | [Rorthron](../monsters/guynmart_wizard.md) |
-| **Locations** | [guynmart_tower_4](../maps/guynmart_tower_4.md) |
+| **Locations** | [Guynmart tower 4](../maps/guynmart_tower_4.md) |
 | **Total XP** | 1,000 |
 
 </div>
@@ -27,9 +27,9 @@ description: "Ringmaker is a hidden quest in Andor's Trail, started by Rorthron 
 
 ## Prerequisites to start
 
-Start with [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)). Required:
+Start with [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)). Required:
 
-- reached stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12)
+- reached stage 12 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12)
 - carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md)
 - hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md)
 
@@ -44,40 +44,80 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=ROLS taken | [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md), hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md), stage 12 | gives [Ring of far lesser Shadow](../items/ring_shadow1.md) |
-| <span id="stage-2"></span>2 | 2=Shutter down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart tower 4](../maps/guynmart_tower_4.md).</span> | stepping on a trigger on [guynmart_tower_4](../maps/guynmart_tower_4.md)<br>[Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md), hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md), stage 100, stage 12 | gives [Ring of far lesser Shadow](../items/ring_shadow1.md) |
-| <span id="stage-11"></span>11 | 11=inside<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart tower 4](../maps/guynmart_tower_4.md).</span> | stepping on a trigger on [guynmart_tower_4](../maps/guynmart_tower_4.md) | – | clears stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12) |
-| <span id="stage-12"></span>12 | 12=outside<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart tower 4](../maps/guynmart_tower_4.md).</span> | stepping on a trigger on [guynmart_tower_4](../maps/guynmart_tower_4.md) | – | clears stage 11 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-11) |
-| <span id="stage-100"></span>100 | 100=Shop closed | [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) | carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md), hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md), stage 12 | 1,000 XP<br>gives [Ring of far lesser Shadow](../items/ring_shadow1.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=ROLS taken | [Rorthron](../monsters/guynmart_wizard.md) | [Ring of far lesser Shadow](../items/ring_shadow1.md) |
+| <span id="stage-2"></span>[2](#route-2) | 2=Shutter down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart tower 4](../maps/guynmart_tower_4.md).</span> | stepping on a trigger on [Guynmart tower 4](../maps/guynmart_tower_4.md), [Rorthron](../monsters/guynmart_wizard.md) | varies by route (see below) |
+| <span id="stage-11"></span>[11](#route-11) | 11=inside<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart tower 4](../maps/guynmart_tower_4.md).</span> | stepping on a trigger on [Guynmart tower 4](../maps/guynmart_tower_4.md) | – |
+| <span id="stage-12"></span>[12](#route-12) | 12=outside<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart tower 4](../maps/guynmart_tower_4.md).</span> | stepping on a trigger on [Guynmart tower 4](../maps/guynmart_tower_4.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | 100=Shop closed | [Rorthron](../monsters/guynmart_wizard.md) | 1,000 XP, [Ring of far lesser Shadow](../items/ring_shadow1.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) → choose “Thank you for your offer Rorthron. Here is the ring - be careful with it.” — **conditions:** reached stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12); carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md); hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md) → **stage 1**; also gives [Ring of far lesser Shadow](../items/ring_shadow1.md). NPC: “Oops!”
+??? note "Stage 1 · Rorthron · 1 way"
 
-???+ note "Stage 2: 2 routes"
+    **Way 1:** Talk to [Rorthron](../monsters/guynmart_wizard.md), choose “Thank you for your offer Rorthron. Here is the ring - be careful with it.”
 
-    1. stepping on a trigger on [guynmart_tower_4](../maps/guynmart_tower_4.md) → the conversation leads here automatically — **conditions:** reached stage 100 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-100) → **stage 2**
-    2. Talk to [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) → choose “Thank you for your offer Rorthron. Here is the ring - be careful with it.” — **conditions:** reached stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12); carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md); hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md) → **stage 2**; also gives [Ring of far lesser Shadow](../items/ring_shadow1.md). NPC: “Oops!”
+    - **Needs:** stage 12; carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md); hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md)
+    - **Gives:** [Ring of far lesser Shadow](../items/ring_shadow1.md)
+    - *“Oops!”*
 
-???+ note "Stage 11: 1 route"
 
-    1. stepping on a trigger on [guynmart_tower_4](../maps/guynmart_tower_4.md) → the conversation leads here automatically → **stage 11**; also clears stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12)
+<span id="route-2"></span>
 
-???+ note "Stage 12: 1 route"
+??? note "Stage 2 · stepping on a trigger on guynmart_tower_4, Rorthron · 2 ways"
 
-    1. stepping on a trigger on [guynmart_tower_4](../maps/guynmart_tower_4.md) → the conversation leads here automatically → **stage 12**; also clears stage 11 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-11)
+    **Way 1:** Stepping on a trigger on [Guynmart tower 4](../maps/guynmart_tower_4.md)
 
-???+ note "Stage 100: 1 route"
+    - **Needs:** stage 100
 
-    1. Talk to [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) → choose “Thank you for your offer Rorthron. Here is the ring - be careful with it.” — **conditions:** reached stage 12 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12); carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md); hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md) → **stage 100**; also gives [Ring of far lesser Shadow](../items/ring_shadow1.md). NPC: “Oops!”
+    **Way 2:** Talk to [Rorthron](../monsters/guynmart_wizard.md), choose “Thank you for your offer Rorthron. Here is the ring - be careful with it.”
+
+    - **Needs:** stage 12; carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md); hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md)
+    - **Gives:** [Ring of far lesser Shadow](../items/ring_shadow1.md)
+    - *“Oops!”*
+
+
+<span id="route-11"></span>
+
+??? note "Stage 11 · stepping on a trigger on guynmart_tower_4 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart tower 4](../maps/guynmart_tower_4.md)
+
+    - <small>Also: clears stage 12 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-12)</small>
+
+
+<span id="route-12"></span>
+
+??? note "Stage 12 · stepping on a trigger on guynmart_tower_4 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart tower 4](../maps/guynmart_tower_4.md)
+
+    - <small>Also: clears stage 11 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-11)</small>
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Rorthron · 1 way"
+
+    **Way 1:** Talk to [Rorthron](../monsters/guynmart_wizard.md), choose “Thank you for your offer Rorthron. Here is the ring - be careful with it.”
+
+    - **Needs:** stage 12; carry 1× [Ring of lesser Shadow](../items/ring_shadow0.md); hand over 1× [Ring of lesser Shadow](../items/ring_shadow0.md)
+    - **Gives:** [Ring of far lesser Shadow](../items/ring_shadow1.md)
+    - *“Oops!”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -122,6 +162,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_quest_wizard` |
+    | Name in game data | `Ringmaker` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 11, 12, 100 |
     | Dialogue nodes setting stages | 1: `guynmart_wizard_70`, 2: `guynmart_s_wizard_shutter_10`, 2: `guynmart_wizard_70`, 11: `guynmart_sign_wizard_in`, 12: `guynmart_sign_wizard_out`, 100: `guynmart_wizard_70` |

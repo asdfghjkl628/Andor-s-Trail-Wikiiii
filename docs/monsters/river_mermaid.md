@@ -4,7 +4,7 @@ description: "Mermaid is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1
 
 # ![](../assets/icons/monsters/monsters_rltiles2_5.png){ .sprite } Mermaid
 
-**Found in:** Crossroads Guardhouse: [roadtocarntower2](../maps/roadtocarntower2.md)
+**Found in:** Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Mermaid is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [roadtocarntower2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
+| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
 
 
 ## Version history

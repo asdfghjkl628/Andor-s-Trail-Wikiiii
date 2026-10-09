@@ -13,7 +13,7 @@ description: "Key of Luthor is a quest in Andor's Trail, started by Bucus. 6 sta
 | **Stages** | 6 (completes at 100) |
 | **Started by** | [Bucus](../monsters/bucus.md) |
 | **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Bucus](../monsters/bucus.md), [Thoronir](../monsters/thoronir.md) |
-| **Locations** | [fallhaven_church](../maps/fallhaven_church.md) |
+| **Locations** | [Fallhaven church](../maps/fallhaven_church.md) |
 | **Total XP** | 2,850 |
 | **Related quests** | 4 |
 
@@ -38,51 +38,93 @@ Start with [Bucus](../monsters/bucus.md). Required:
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [scores (hidden flag)](scores.md#stage-18) | stage 18 reached, for stage 20 here |
+| Requires | [Score counters (hidden flag)](scores.md#stage-18) | stage 18 reached, for stage 20 here |
 | Unlocks | [Thief apprentice](Thieves01.md#stage-5) | stage 5 there needs stage 100 here |
 | Unlocks | [Search for Andor](andor.md#stage-50) | stage 50 there needs stage 100 here |
-| Unlocks | [feygard_nondisplayed (hidden flag)](feygard_nondisplayed.md#stage-60) | stage 60 there needs stage 100 here |
+| Unlocks | [Feygard story flags (hidden flag)](feygard_nondisplayed.md#stage-60) | stage 60 there needs stage 100 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Bucus in Fallhaven might know something about Andor. He wants me to bring him the key of Luthor from the catacombs beneath Fallhaven church. | [Bucus](../monsters/bucus.md) | – | – |
-| <span id="stage-20"></span>20 | The catacombs beneath Fallhaven church are closed off. Athamyr is the only one with both permission and the bravery to enter them. I should go see him in his house southwest of the church. | [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | Athamyr wants me to bring him some cooked meat, then maybe he will want to talk more. | [Athamyr](../monsters/athamyr.md) | stage 20 | – |
-| <span id="stage-40"></span>40 | I brought some cooked meat to Athamyr. | [Athamyr](../monsters/athamyr.md) | hand over 1× [Cooked meat](../items/meat_cooked.md), stage 20 | 700 XP |
-| <span id="stage-50"></span>50 | Athamyr has given me permission to enter the catacombs beneath Fallhaven church.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven church](../maps/fallhaven_church.md).</span> | [Athamyr](../monsters/athamyr.md) | stage 20, stage 40 | – |
-| <span id="stage-100"></span>100 | I brought Bucus the key of Luthor. **(completes quest)** | [Bucus](../monsters/bucus.md) | hand over 1× [Key of Luthor](../items/key_luthor.md), stage 10 | 2,150 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Bucus in Fallhaven might know something about Andor. He wants me to… ▸</span><span class="l">▴ less</span></summary>Bucus in Fallhaven might know something about Andor. He wants me to bring him the key of Luthor from the catacombs beneath Fallhaven church.</details> | [Bucus](../monsters/bucus.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">The catacombs beneath Fallhaven church are closed off. Athamyr is… ▸</span><span class="l">▴ less</span></summary>The catacombs beneath Fallhaven church are closed off. Athamyr is the only one with both permission and the bravery to enter them. I should go see him in his house southwest of the church.</details> | [Thoronir](../monsters/thoronir.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Athamyr wants me to bring him some cooked meat, then maybe he will… ▸</span><span class="l">▴ less</span></summary>Athamyr wants me to bring him some cooked meat, then maybe he will want to talk more.</details> | [Athamyr](../monsters/athamyr.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I brought some cooked meat to Athamyr. | [Athamyr](../monsters/athamyr.md) | 700 XP |
+| <span id="stage-50"></span>[50](#route-50) | Athamyr has given me permission to enter the catacombs beneath Fallhaven church.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven church](../maps/fallhaven_church.md).</span> | [Athamyr](../monsters/athamyr.md) | – |
+| <span id="stage-100"></span>[100](#route-100) | I brought Bucus the key of Luthor. **(ends quest)** | [Bucus](../monsters/bucus.md) | 2,150 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Bucus](../monsters/bucus.md) → choose “What was I supposed to do again?” — **conditions:** reached stage 10 of [Key of Luthor](../quests/bucus.md#stage-10) → **stage 10**. NPC: “Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it…”
+??? note "Stage 10 · Bucus · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Bucus](../monsters/bucus.md), choose “What was I supposed to do again?”
 
-    1. Talk to [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) → choose “Has anyone entered the catacombs?” — **conditions:** reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18); reached stage 10 of [Key of Luthor](../quests/bucus.md#stage-10) → **stage 20**. NPC: “No one is allowed down in the catacombs, except for Athamyr, my apprentice. He is the only one that has been down…”
+    - **Needs:** stage 10
+    - *“Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere…”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Athamyr](../monsters/athamyr.md) → choose “How can I get permission to go down there?” — **conditions:** reached stage 20 of [Key of Luthor](../quests/bucus.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100) → **stage 30**. NPC: “Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs…”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Thoronir · 1 way"
 
-    1. Talk to [Athamyr](../monsters/athamyr.md) → choose “Here, I have cooked meat for you.” — **conditions:** reached stage 20 of [Key of Luthor](../quests/bucus.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); hand over 1× [Cooked meat](../items/meat_cooked.md) → **stage 40**. NPC: “Thanks, this will do nicely.”
+    **Way 1:** Talk to [Thoronir](../monsters/thoronir.md), choose “Has anyone entered the catacombs?”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 10; reached stage 18 of [Score counters (hidden flag)](../quests/scores.md#stage-18)
+    - *“No one is allowed down in the catacombs, except for Athamyr, my apprentice. He is the only one that has been down there for years.”*
 
-    1. Talk to [Athamyr](../monsters/athamyr.md) → choose “Have you been down in the catacombs?” — **conditions:** reached stage 20 of [Key of Luthor](../quests/bucus.md#stage-20); NOT reached stage 100 of [Key of Luthor](../quests/bucus.md#stage-100); reached stage 40 of [Key of Luthor](../quests/bucus.md#stage-40) → **stage 50**. NPC: “You have my permission to enter the catacombs of Fallhaven Church.”
 
-???+ note "Stage 100: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Bucus](../monsters/bucus.md) → choose “Here, I have it. The key of Luthor.” — **conditions:** reached stage 10 of [Key of Luthor](../quests/bucus.md#stage-10); hand over 1× [Key of Luthor](../items/key_luthor.md) → **stage 100**. NPC: “Wow, you actually got the key of Luthor? I didn't think you would make it out of there.”
+??? note "Stage 30 · Athamyr · 1 way"
+
+    **Way 1:** Talk to [Athamyr](../monsters/athamyr.md), choose “How can I get permission to go down there?”
+
+    - **Needs:** stage 20; not yet stage 100
+    - *“Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs of Fallhaven Church.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Athamyr · 1 way"
+
+    **Way 1:** Talk to [Athamyr](../monsters/athamyr.md), choose “Here, I have cooked meat for you.”
+
+    - **Needs:** stage 20; not yet stage 100; hand over 1× [Cooked meat](../items/meat_cooked.md)
+    - *“Thanks, this will do nicely.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Athamyr · 1 way"
+
+    **Way 1:** Talk to [Athamyr](../monsters/athamyr.md), choose “Have you been down in the catacombs?”
+
+    - **Needs:** stage 20, 40; not yet stage 100
+    - *“You have my permission to enter the catacombs of Fallhaven Church.”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Bucus · 1 way"
+
+    **Way 1:** Talk to [Bucus](../monsters/bucus.md), choose “Here, I have it. The key of Luthor.”
+
+    - **Needs:** stage 10; hand over 1× [Key of Luthor](../items/key_luthor.md)
+    - *“Wow, you actually got the key of Luthor? I didn't think you would make it out of there.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

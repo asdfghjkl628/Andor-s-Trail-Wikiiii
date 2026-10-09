@@ -22,18 +22,18 @@ description: "General's henchman is an NPC who can also be fought in Andor's Tra
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named General's henchman. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named General's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`ortholion_guard1`](#v-ortholion_guard1) | NPC | Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1) | shopkeeper | – |
-| [`ortholion_guard_hidden`](#v-ortholion_guard_hidden) | Enemy | Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md) | – | 1 |
+| [`ortholion_guard1`](#v-ortholion_guard1) | NPC | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1) | shopkeeper | – |
+| [`ortholion_guard_hidden`](#v-ortholion_guard_hidden) | Enemy | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – | 1 |
 
-## Prim, Blackwater mountain11 and 1 more (ortholion_guard1) { #v-ortholion_guard1 }
+## Prim, Blackwater mountain 11 and 1 more (ortholion_guard1) { #v-ortholion_guard1 }
 
 **Entry ID:** `ortholion_guard1` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [blackwater_mountain29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1)
+**Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1)
 
 ### Shop stock
 
@@ -57,12 +57,12 @@ description: "General's henchman is an NPC who can also be fought in Andor's Tra
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain11](../maps/blackwater_mountain11.md) | Prim | 2 | Appears later, during a quest |
-| [blackwater_mountain29](../maps/blackwater_mountain29.md) | Prim | 1 | Appears later, during a quest |
+| [Blackwater mountain 11](../maps/blackwater_mountain11.md) | Prim | 2 | Appears later, during a quest |
+| [Blackwater mountain 29](../maps/blackwater_mountain29.md) | Prim | 1 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with General's henchman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to General's henchman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard_selector.json" data-npc="General&#x27;s henchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -70,7 +70,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (33 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_guard1-ortholion_guard_selector"></span>**`ortholion_guard_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -289,11 +289,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Prim, Blackwater mountain11 (ortholion_guard_hidden) { #v-ortholion_guard_hidden }
+## Prim, Blackwater mountain 11 (ortholion_guard_hidden) { #v-ortholion_guard_hidden }
 
 **Entry ID:** `ortholion_guard_hidden` · **Type:** Enemy
 
-**Location:** Prim: [blackwater_mountain11](../maps/blackwater_mountain11.md)
+**Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
 
 ### Combat statistics
 
@@ -321,7 +321,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain11](../maps/blackwater_mountain11.md) | Prim | 1 | – |
+| [Blackwater mountain 11](../maps/blackwater_mountain11.md) | Prim | 1 | – |
 
 
 ### Version history

@@ -29,7 +29,7 @@ description: "Ewmondold's map is a quest other in Andor's Trail. How to get it: 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Snake master](../monsters/snake_master.md) | 100% | 1 | snakecave3 |
+| [Snake master](../monsters/snake_master.md) | 100% | 1 | Snakecave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -42,7 +42,7 @@ Where the game checks for this item in dialogue:
 |---|---|---|---|
 | [Arcir](../monsters/arcir.md) | – | must be carried (1×) | “I have found some valuable-looking map. Want to have a look?” |
 | [Arcir](../monsters/arcir.md) | – | handed over (1×) | “OK. Here is Ewmondold's map.” |
-| [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([wild2](../maps/wild2.md)) | [Perception is not reality](../quests/new_snake_master.md#stage-20) | handed over (1×) | “N” |
+| [Ewmondold](../monsters/ewmondold_snake_master.md#v-inspiring_snake_master) ([Wild 2](../maps/wild2.md)) | [Perception is not reality](../quests/new_snake_master.md#stage-20) | handed over (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

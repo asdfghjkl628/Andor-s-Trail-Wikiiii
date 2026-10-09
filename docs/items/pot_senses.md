@@ -45,8 +45,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | – | must be carried (1×) | “No, I am here to give you something.” |
-| [Drunkard](../monsters/drunkard.md) ([fallhaven_nw](../maps/fallhaven_nw.md)) | [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-55) | handed over (1×) | “No. I have a potion that will make you recover. Shannal's ghost has asked that y” |
+| [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) | – | must be carried (1×) | “No, I am here to give you something.” |
+| [Drunkard](../monsters/drunkard.md) ([Fallhaven north-west](../maps/fallhaven_nw.md)) | [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-55) | handed over (1×) | “No. I have a potion that will make you recover. Shannal's ghost has asked that y” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

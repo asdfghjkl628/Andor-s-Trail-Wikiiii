@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | [Missing pieces](../quests/vacor.md#stage-61) | handed over (1×) | “Yes, I have dealt with him.” |
+| [Unzel](../monsters/unzel.md) ([Wild 6](../maps/wild6.md)) | [Missing pieces](../quests/vacor.md#stage-61) | handed over (1×) | “Yes, I have dealt with him.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

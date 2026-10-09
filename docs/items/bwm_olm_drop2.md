@@ -40,10 +40,10 @@ description: "Wizened amphibian boots is a ordinary footwear, leather in Andor's
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Albino olm](../monsters/bwm_olm2.md) | 3.5% | 1 | blackwater_mountain74, blackwater_mountain74_h, blackwater_mountain75 |
-| [Hard-skinned olm](../monsters/bwm_olm3.md) | 3.5% | 1 | blackwater_mountain75, elm_4f_5, elm_mine2 |
-| [Blackened olm](../monsters/bwm_olm4.md) | 3.5% | 1 | blackwater_mountain75, elm_4f_5, elm_mine2 |
-| [Contaminated olm](../monsters/bwm_olm5.md) | 3.5% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
+| [Albino olm](../monsters/bwm_olm2.md) | 3.5% | 1 | Blackwater mountain 74, Blackwater mountain 74 h, Blackwater mountain 75 |
+| [Hard-skinned olm](../monsters/bwm_olm3.md) | 3.5% | 1 | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
+| [Blackened olm](../monsters/bwm_olm4.md) | 3.5% | 1 | Blackwater mountain 75, Elm 4f 5, Elm mine 2 |
+| [Contaminated olm](../monsters/bwm_olm5.md) | 3.5% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

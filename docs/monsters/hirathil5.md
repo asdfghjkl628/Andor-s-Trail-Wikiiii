@@ -1,10 +1,10 @@
 ---
-description: "Hirathil servant is an enemy in Andor's Trail (ghost) with 87 HP, worth 356 XP, found in lodarcave1, lodarcave2, lodarcave3. Drops: Small empty vial, Glass gem, Runed scepter."
+description: "Hirathil servant is an enemy in Andor's Trail (ghost) with 87 HP, worth 356 XP, found in Lodarcave 1, Lodarcave 2, Lodarcave 3. Drops: Small empty vial, Glass gem, Runed scepter."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_42.png){ .sprite } Hirathil servant
 
-**Found in:** [lodarcave1](../maps/lodarcave1.md), [lodarcave2](../maps/lodarcave2.md), [lodarcave3](../maps/lodarcave3.md), [lodarcave4](../maps/lodarcave4.md) (+4 more)
+**Found in:** [Lodarcave 1](../maps/lodarcave1.md), [Lodarcave 2](../maps/lodarcave2.md), [Lodarcave 3](../maps/lodarcave3.md), [Lodarcave 4](../maps/lodarcave4.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Hirathil servant is an enemy in Andor's Trail (ghost) with 87 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodarcave1, lodarcave2, lodarcave3 |
+| **Found in** | Lodarcave 1, Lodarcave 2, Lodarcave 3 |
 | **Class** | Ghost |
 | **HP** | 87 |
 | **XP when defeated** | 356 |
@@ -60,14 +60,14 @@ description: "Hirathil servant is an enemy in Andor's Trail (ghost) with 87 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodarcave1](../maps/lodarcave1.md) | – | 1 | – |
-| [lodarcave2](../maps/lodarcave2.md) | – | 2 | – |
-| [lodarcave3](../maps/lodarcave3.md) | – | 6 | – |
-| [lodarcave4](../maps/lodarcave4.md) | – | 14 | – |
-| [lodarcave5](../maps/lodarcave5.md) | – | 16 | – |
-| [lodarcave6](../maps/lodarcave6.md) | – | 12 | – |
-| [lodarcave7](../maps/lodarcave7.md) | – | 6 | – |
-| [shortcut_lodar0](../maps/shortcut_lodar0.md) | – | 4 | – |
+| [Lodarcave 1](../maps/lodarcave1.md) | – | 1 | – |
+| [Lodarcave 2](../maps/lodarcave2.md) | – | 2 | – |
+| [Lodarcave 3](../maps/lodarcave3.md) | – | 6 | – |
+| [Lodarcave 4](../maps/lodarcave4.md) | – | 14 | – |
+| [Lodarcave 5](../maps/lodarcave5.md) | – | 16 | – |
+| [Lodarcave 6](../maps/lodarcave6.md) | – | 12 | – |
+| [Lodarcave 7](../maps/lodarcave7.md) | – | 6 | – |
+| [Shortcut lodar 0](../maps/shortcut_lodar0.md) | – | 4 | – |
 
 
 ## Version history

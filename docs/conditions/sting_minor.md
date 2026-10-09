@@ -27,9 +27,9 @@ description: "Minor sting is a harmful physical condition in Andor's Trail: −1
 |---|---|
 | HP every round | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -40,29 +40,29 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | When it hits you | 2 | 2 rounds | 20% | laerothcave2, laerothcave3, lakecave0 |
-| [Aggressive yellowjacket](../monsters/yjacket6.md) | When it hits you | 2 | 5 rounds | 30% | lodar14, lodar15 |
-| [Armored cave scorpion](../monsters/cave_scorpion_4.md) | When it hits you | 2 | 3 rounds | 25% | laerothcave2, laerothcave3, lakecave0 |
-| [Cave scorpion](../monsters/cave_scorpion_0.md) | When it hits you | 1 | 3 rounds | 20% | laerothcave3, lakecave0, lakecave2 |
-| [Enraged yellowjacket](../monsters/yjacket7.md) | When it hits you | 3 | 3 rounds | 30% | lodar14, lodar15 |
-| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | When it hits you | 2 | 3 rounds | 25% | laerothcave2, laerothcave3, lakecave0 |
-| [Giant yellowjacket](../monsters/yjacket8.md) | When it hits you | 3 | 5 rounds | 30% | lodar14, lodar15, lodar16 |
+| [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | When it hits you | 2 | 2 rounds | 20% | Laerothcave 2, Laerothcave 3, Lakecave 0 |
+| [Aggressive yellowjacket](../monsters/yjacket6.md) | When it hits you | 2 | 5 rounds | 30% | Lodar 14, Lodar 15 |
+| [Armored cave scorpion](../monsters/cave_scorpion_4.md) | When it hits you | 2 | 3 rounds | 25% | Laerothcave 2, Laerothcave 3, Lakecave 0 |
+| [Cave scorpion](../monsters/cave_scorpion_0.md) | When it hits you | 1 | 3 rounds | 20% | Laerothcave 3, Lakecave 0, Lakecave 2 |
+| [Enraged yellowjacket](../monsters/yjacket7.md) | When it hits you | 3 | 3 rounds | 30% | Lodar 14, Lodar 15 |
+| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | When it hits you | 2 | 3 rounds | 25% | Laerothcave 2, Laerothcave 3, Lakecave 0 |
+| [Giant yellowjacket](../monsters/yjacket8.md) | When it hits you | 3 | 5 rounds | 30% | Lodar 14, Lodar 15, Lodar 16 |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | When it hits you | 3 | 3 rounds | 35% | Deebo's Orchard |
 | [Preabola fly](../monsters/preabola_fly.md) | When it hits you | 5 | 5 rounds | 25% | Sullengard |
-| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | When it hits you | 1 | 2 rounds | 20% | laerothcave3, lakecave0, lakecave2 |
-| [Puny yellowjacket](../monsters/yjacket1.md) | When it hits you | 1 | 3 rounds | 30% | lodar11, lodar14, lodar4 |
-| [Quick yellowjacket](../monsters/yjacket5.md) | When it hits you | 2 | 3 rounds | 30% | lodar11, lodar14, lodar15 |
-| [Small yellowjacket](../monsters/yjacket2.md) | When it hits you | 1 | 5 rounds | 30% | lodar11, lodar14, lodar4 |
-| [Stinging yellowjacket](../monsters/yjacket4.md) | When it hits you | 2 | 5 rounds | 30% | lodar11, lodar14, lodar15 |
-| [Swarming yellowjacket](../monsters/yjacket3.md) | When it hits you | 2 | 3 rounds | 30% | lodar11, lodar14, lodar4 |
-| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | When it hits you | 2 | 2 rounds | 20% | laerothcave2, laerothcave3, lakecave0 |
+| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | When it hits you | 1 | 2 rounds | 20% | Laerothcave 3, Lakecave 0, Lakecave 2 |
+| [Puny yellowjacket](../monsters/yjacket1.md) | When it hits you | 1 | 3 rounds | 30% | Lodar 11, Lodar 14, Lodar 4 |
+| [Quick yellowjacket](../monsters/yjacket5.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 11, Lodar 14, Lodar 15 |
+| [Small yellowjacket](../monsters/yjacket2.md) | When it hits you | 1 | 5 rounds | 30% | Lodar 11, Lodar 14, Lodar 4 |
+| [Stinging yellowjacket](../monsters/yjacket4.md) | When it hits you | 2 | 5 rounds | 30% | Lodar 11, Lodar 14, Lodar 15 |
+| [Swarming yellowjacket](../monsters/yjacket3.md) | When it hits you | 2 | 3 rounds | 30% | Lodar 11, Lodar 14, Lodar 4 |
+| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | When it hits you | 2 | 2 rounds | 20% | Laerothcave 2, Laerothcave 3, Lakecave 0 |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [mywildcave3](../maps/mywildcave3.md) | – | 10 rounds |
-| walking into a blocked passage on [mywildcave2](../maps/mywildcave2.md) | – | 10 rounds |
+| walking into a blocked passage on [Mywildcave 3](../maps/mywildcave3.md) | – | 10 rounds |
+| walking into a blocked passage on [Mywildcave 2](../maps/mywildcave2.md) | – | 10 rounds |
 
 ## Applied to enemies
 
@@ -77,10 +77,10 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

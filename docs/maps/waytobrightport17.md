@@ -1,8 +1,8 @@
 ---
-description: "Waytobrightport17 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Lizardman corsair. Exits to Brightport1, Waytobrightport18, Waytobrightport16."
+description: "Waytobrightport 17 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Lizardman corsair. Exits to Brightport 1, Waytobrightport 18, Waytobrightport 16."
 ---
 
-# Waytobrightport17
+# Waytobrightport 17
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Waytobrightport17 is an indoor location in Andor's Trail, in Brigh
 | **Region** | In Brightport (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 22×22 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Waytobrightport17** is an indoor map, in Brightport (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Brightport1, Waytobrightport18, Waytobrightport16.
+**Waytobrightport 17** is an indoor map, in Brightport (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Brightport 1, Waytobrightport 18, Waytobrightport 16.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport17.webp" alt="Map of Waytobrightport17" width="704" height="704" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytobrightport18/#place-north" title="Exit to Waytobrightport18" style="left:4.545%;top:95.455%;width:63.636%;height:4.545%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport16/#place-east" title="Exit to Waytobrightport16" style="left:0.000%;top:63.636%;width:4.545%;height:31.818%"></a><a id="place-north" class="mo mo-mapchange" href="../brightport1/#place-south" title="Exit to Brightport1" style="left:36.364%;top:0.000%;width:9.091%;height:4.545%"></a><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:9.091%;top:63.636%;width:50.000%;height:27.273%"></span><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:18.182%;top:86.364%;width:4.545%;height:4.545%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:27.273%;top:72.727%;width:4.545%;height:4.545%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="pin pin-exit" href="#key-1" style="left:40.909%;top:2.273%" title="Exit (north): to [Brightport1](brightport1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:36.364%;top:97.727%" title="Exit (south): to [Waytobrightport18](waytobrightport18.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.273%;top:79.545%" title="Exit (west): to [Waytobrightport16](waytobrightport16.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrightport17.webp" alt="Map of Waytobrightport 17" width="704" height="704" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../waytobrightport18/#place-north" title="Exit to Waytobrightport 18" style="left:4.545%;top:95.455%;width:63.636%;height:4.545%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport16/#place-east" title="Exit to Waytobrightport 16" style="left:0.000%;top:63.636%;width:4.545%;height:31.818%"></a><a id="place-north" class="mo mo-mapchange" href="../brightport1/#place-south" title="Exit to Brightport 1" style="left:36.364%;top:0.000%;width:9.091%;height:4.545%"></a><span class="mo mo-spawn" title="Spawns: Lizardman corsair" style="left:9.091%;top:63.636%;width:50.000%;height:27.273%"></span><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:18.182%;top:86.364%;width:4.545%;height:4.545%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="mob" href="../../monsters/brightport_redlizard/" title="Lizardman corsair" style="left:27.273%;top:72.727%;width:4.545%;height:4.545%"><img src="../../assets/icons/monsters/monsters_johny_5.png" alt="Lizardman corsair"></a><a class="pin pin-exit" href="#key-1" style="left:40.909%;top:2.273%" title="Exit (north): to [Brightport 1](brightport1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:36.364%;top:97.727%" title="Exit (south): to [Waytobrightport 18](waytobrightport18.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.273%;top:79.545%" title="Exit (west): to [Waytobrightport 16](waytobrightport16.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightport1](brightport1.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Waytobrightport18](waytobrightport18.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Waytobrightport16](waytobrightport16.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightport 1](brightport1.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Waytobrightport 18](waytobrightport18.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Waytobrightport 16](waytobrightport16.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Waytobrightport17 is an indoor location in Andor's Trail, in Brigh
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightport1](brightport1.md) | Brightport | 1 |
-| South | [Waytobrightport18](waytobrightport18.md) | Brightport | 2 |
-| West | [Waytobrightport16](waytobrightport16.md) | Brightport | 3 |
+| North | [Brightport 1](brightport1.md) | Brightport | 1 |
+| South | [Waytobrightport 18](waytobrightport18.md) | Brightport | 2 |
+| West | [Waytobrightport 16](waytobrightport16.md) | Brightport | 3 |
 
 ## Enemies
 

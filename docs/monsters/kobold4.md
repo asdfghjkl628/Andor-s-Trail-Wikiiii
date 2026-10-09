@@ -1,10 +1,10 @@
 ---
-description: "Tough kobold is an enemy in Andor's Trail (humanoid) with 300 HP, worth 570 XP, found in guynmart_wood_18. Drops: Gold coins."
+description: "Tough kobold is an enemy in Andor's Trail (humanoid) with 300 HP, worth 570 XP, found in Guynmart wood 18. Drops: Gold coins."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis1_0.png){ .sprite } Tough kobold
 
-**Found in:** [guynmart_wood_18](../maps/guynmart_wood_18.md)
+**Found in:** [Guynmart wood 18](../maps/guynmart_wood_18.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough kobold is an enemy in Andor's Trail (humanoid) with 300 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | guynmart_wood_18 |
+| **Found in** | Guynmart wood 18 |
 | **Class** | Humanoid |
 | **HP** | 300 |
 | **XP when defeated** | 570 |
@@ -54,7 +54,7 @@ description: "Tough kobold is an enemy in Andor's Trail (humanoid) with 300 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_18](../maps/guynmart_wood_18.md) | – | 2 | Appears later, during a quest |
+| [Guynmart wood 18](../maps/guynmart_wood_18.md) | – | 2 | Appears later, during a quest |
 
 
 ## Version history

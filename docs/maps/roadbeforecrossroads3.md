@@ -1,8 +1,8 @@
 ---
-description: "Roadbeforecrossroads3 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Highwayman. Enemies: Wild fox, Anklebiter. Exits to Roadbeforecrossroads4, Roadbeforecrossroads2."
+description: "Roadbeforecrossroads 3 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Highwayman. Enemies: Wild fox, Anklebiter. Exits to Roadbeforecrossroads 4, Roadbeforecrossroads 2."
 ---
 
-# Roadbeforecrossroads3
+# Roadbeforecrossroads 3
 
 <div class="infobox" markdown>
 
@@ -12,7 +12,7 @@ description: "Roadbeforecrossroads3 is an outdoor location in Andor's Trail, nea
 | **Region** | Near Fallhaven (settlement) |
 | **Type** | Outdoors |
 | **Size** | 30×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 1 |
 | **Enemy types** | 2 |
@@ -20,20 +20,20 @@ description: "Roadbeforecrossroads3 is an outdoor location in Andor's Trail, nea
 
 </div>
 
-**Roadbeforecrossroads3** is an outdoor map, near Fallhaven (settlement). It has 1 NPC and 2 kinds of enemy. Exits lead to Roadbeforecrossroads4, Roadbeforecrossroads2.
+**Roadbeforecrossroads 3** is an outdoor map, near Fallhaven (settlement). It has 1 NPC and 2 kinds of enemy. Exits lead to Roadbeforecrossroads 4, Roadbeforecrossroads 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/roadbeforecrossroads3.webp" alt="Map of Roadbeforecrossroads3" width="960" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../roadbeforecrossroads2/#place-east" title="Exit to Roadbeforecrossroads2" style="left:0.000%;top:33.333%;width:3.333%;height:40.000%"></a><a id="place-south" class="mo mo-mapchange" href="../roadbeforecrossroads4/#place-north" title="Exit to Roadbeforecrossroads4" style="left:56.667%;top:93.333%;width:30.000%;height:6.667%"></a><span class="mo mo-script" title="Scripted event" style="left:6.667%;top:46.667%;width:70.000%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Anklebiter" style="left:73.333%;top:26.667%;width:23.333%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Wild fox" style="left:26.667%;top:13.333%;width:30.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Highwayman" style="left:10.000%;top:53.333%;width:63.333%;height:26.667%"></span><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:90.000%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:86.667%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/wild_fox/" title="Wild fox" style="left:50.000%;top:20.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Wild fox"></a><a class="mob" href="../../monsters/wild_fox/" title="Wild fox" style="left:30.000%;top:20.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Wild fox"></a><a class="mob" href="../../monsters/highwayman/#v-highwayman1" title="Highwayman" style="left:13.333%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_men_8.png" alt="Highwayman"></a><a class="pin pin-exit" href="#key-1" style="left:71.667%;top:96.667%" title="Exit (south): to [Roadbeforecrossroads4](roadbeforecrossroads4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:53.333%" title="Exit (west): to [Roadbeforecrossroads2](roadbeforecrossroads2.md)">2</a><a id="pin-npc-highwayman1" class="pin pin-npc" href="#key-3" style="left:15.000%;top:56.667%" title="[Highwayman](../../monsters/highwayman.md#v-highwayman1): NPC">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/roadbeforecrossroads3.webp" alt="Map of Roadbeforecrossroads 3" width="960" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../roadbeforecrossroads2/#place-east" title="Exit to Roadbeforecrossroads 2" style="left:0.000%;top:33.333%;width:3.333%;height:40.000%"></a><a id="place-south" class="mo mo-mapchange" href="../roadbeforecrossroads4/#place-north" title="Exit to Roadbeforecrossroads 4" style="left:56.667%;top:93.333%;width:30.000%;height:6.667%"></a><span class="mo mo-script" title="Scripted event" style="left:6.667%;top:46.667%;width:70.000%;height:40.000%"></span><span class="mo mo-spawn" title="Spawns: Anklebiter" style="left:73.333%;top:26.667%;width:23.333%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Wild fox" style="left:26.667%;top:13.333%;width:30.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Highwayman" style="left:10.000%;top:53.333%;width:63.333%;height:26.667%"></span><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:90.000%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/anklebiter/" title="Anklebiter" style="left:86.667%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_6.png" alt="Anklebiter"></a><a class="mob" href="../../monsters/wild_fox/" title="Wild fox" style="left:50.000%;top:20.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Wild fox"></a><a class="mob" href="../../monsters/wild_fox/" title="Wild fox" style="left:30.000%;top:20.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_dogs_3.png" alt="Wild fox"></a><a class="mob" href="../../monsters/highwayman/#v-highwayman1" title="Highwayman" style="left:13.333%;top:53.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_men_8.png" alt="Highwayman"></a><a class="pin pin-exit" href="#key-1" style="left:71.667%;top:96.667%" title="Exit (south): to [Roadbeforecrossroads 4](roadbeforecrossroads4.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:53.333%" title="Exit (west): to [Roadbeforecrossroads 2](roadbeforecrossroads2.md)">2</a><a id="pin-npc-highwayman1" class="pin pin-npc" href="#key-3" style="left:15.000%;top:56.667%" title="[Highwayman](../../monsters/highwayman.md#v-highwayman1): NPC">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Roadbeforecrossroads4](roadbeforecrossroads4.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Roadbeforecrossroads2](roadbeforecrossroads2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Roadbeforecrossroads 4](roadbeforecrossroads4.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Roadbeforecrossroads 2](roadbeforecrossroads2.md) |
     | <span id="key-3"></span>3 | [Highwayman](../monsters/highwayman.md#v-highwayman1) | NPC |
 
 
@@ -43,8 +43,8 @@ description: "Roadbeforecrossroads3 is an outdoor location in Andor's Trail, nea
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Roadbeforecrossroads4](roadbeforecrossroads4.md) | Fallhaven | 1 |
-| West | [Roadbeforecrossroads2](roadbeforecrossroads2.md) | Fallhaven | 2 |
+| South | [Roadbeforecrossroads 4](roadbeforecrossroads4.md) | Fallhaven | 1 |
+| West | [Roadbeforecrossroads 2](roadbeforecrossroads2.md) | Fallhaven | 2 |
 
 ## NPCs
 

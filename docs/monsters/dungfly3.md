@@ -4,7 +4,7 @@ description: "Vicious dungfly is an enemy in Andor's Trail (insect) with 34 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_169.png){ .sprite } Vicious dungfly
 
-**Found in:** Loneford: [lodar2](../maps/lodar2.md), [lodar11](../maps/lodar11.md), [lodar3](../maps/lodar3.md), [lodar4](../maps/lodar4.md) (+1 more)
+**Found in:** Loneford: [Lodar 2](../maps/lodar2.md), [Lodar 11](../maps/lodar11.md), [Lodar 3](../maps/lodar3.md), [Lodar 4](../maps/lodar4.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Vicious dungfly is an enemy in Andor's Trail (insect) with 34 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar11](../maps/lodar11.md) | – | 3 | – |
-| [lodar2](../maps/lodar2.md) | Loneford | 5 | – |
-| [lodar3](../maps/lodar3.md) | – | 1 | – |
-| [lodar4](../maps/lodar4.md) | – | 3 | – |
-| [lodar9](../maps/lodar9.md) | – | 2 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 3 | – |
+| [Lodar 2](../maps/lodar2.md) | Loneford | 5 | – |
+| [Lodar 3](../maps/lodar3.md) | – | 1 | – |
+| [Lodar 4](../maps/lodar4.md) | – | 3 | – |
+| [Lodar 9](../maps/lodar9.md) | – | 2 | – |
 
 
 ## Version history

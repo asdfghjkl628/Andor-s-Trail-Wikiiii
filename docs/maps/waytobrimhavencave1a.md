@@ -1,8 +1,8 @@
 ---
-description: "Waytobrimhavencave1a is an indoor location in Andor's Trail. Enemies: Vile erumen lizard, Tough erumen lizard. Exits to Waytobrimhavencave1, Waytobrimhavencave4."
+description: "Waytobrimhavencave 1a is an indoor location in Andor's Trail. Enemies: Vile erumen lizard, Tough erumen lizard. Exits to Waytobrimhavencave 1, Waytobrimhavencave 4."
 ---
 
-# Waytobrimhavencave1a
+# Waytobrimhavencave 1a
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Waytobrimhavencave1a is an indoor location in Andor's Trail. Enemi
 
 </div>
 
-**Waytobrimhavencave1a** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrimhavencave1, Waytobrimhavencave4.
+**Waytobrimhavencave 1a** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waytobrimhavencave 1, Waytobrimhavencave 4.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhavencave1a.webp" alt="Map of Waytobrimhavencave1a" width="960" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../waytobrimhavencave4/#place-east" title="Exit to Waytobrimhavencave4" style="left:0.000%;top:26.667%;width:3.333%;height:6.667%"></a><a id="place-east" class="mo mo-mapchange" href="../waytobrimhavencave1/#place-west" title="Exit to Waytobrimhavencave1" style="left:96.667%;top:26.667%;width:3.333%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Tough erumen lizard, Vile erumen lizard" style="left:6.667%;top:20.000%;width:86.667%;height:60.000%"></span><a class="mob" href="../../monsters/erumen_6/" title="Tough erumen lizard" style="left:83.333%;top:20.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_117.png" alt="Tough erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:80.000%;top:33.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:46.667%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:60.000%;top:60.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:16.667%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:30.000%" title="Exit (east): to [Waytobrimhavencave1](waytobrimhavencave1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:30.000%" title="Exit (west): to [Waytobrimhavencave4](waytobrimhavencave4.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waytobrimhavencave1a.webp" alt="Map of Waytobrimhavencave 1a" width="960" height="480" loading="lazy"><a id="place-west" class="mo mo-mapchange" href="../waytobrimhavencave4/#place-east" title="Exit to Waytobrimhavencave 4" style="left:0.000%;top:26.667%;width:3.333%;height:6.667%"></a><a id="place-east" class="mo mo-mapchange" href="../waytobrimhavencave1/#place-west" title="Exit to Waytobrimhavencave 1" style="left:96.667%;top:26.667%;width:3.333%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Tough erumen lizard, Vile erumen lizard" style="left:6.667%;top:20.000%;width:86.667%;height:60.000%"></span><a class="mob" href="../../monsters/erumen_6/" title="Tough erumen lizard" style="left:83.333%;top:20.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_117.png" alt="Tough erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:80.000%;top:33.333%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:46.667%;top:46.667%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:60.000%;top:60.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="mob" href="../../monsters/erumen_5/" title="Vile erumen lizard" style="left:16.667%;top:40.000%;width:3.333%;height:6.667%"><img src="../../assets/icons/monsters/monsters_rltiles2_115.png" alt="Vile erumen lizard"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:30.000%" title="Exit (east): to [Waytobrimhavencave 1](waytobrimhavencave1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:30.000%" title="Exit (west): to [Waytobrimhavencave 4](waytobrimhavencave4.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Waytobrimhavencave1](waytobrimhavencave1.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrimhavencave4](waytobrimhavencave4.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Waytobrimhavencave 1](waytobrimhavencave1.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrimhavencave 4](waytobrimhavencave4.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Waytobrimhavencave1a is an indoor location in Andor's Trail. Enemi
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Waytobrimhavencave1](waytobrimhavencave1.md) | – | 1 |
-| West | [Waytobrimhavencave4](waytobrimhavencave4.md) | – | 2 |
+| East | [Waytobrimhavencave 1](waytobrimhavencave1.md) | – | 1 |
+| West | [Waytobrimhavencave 4](waytobrimhavencave4.md) | – | 2 |
 
 ## Enemies
 

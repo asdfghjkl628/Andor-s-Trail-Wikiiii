@@ -11,9 +11,9 @@ description: "Young merchant is a quest in Andor's Trail, started by Burhczyd (c
 | **Quest ID** | `quest_burhczyd` |
 | **In journal** | Yes |
 | **Stages** | 22 |
-| **Started by** | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([crossglen_hall](../maps/crossglen_hall.md)) |
-| **NPCs involved** | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) +38 |
-| **Locations** | [blackwater_mountain22](../maps/blackwater_mountain22.md), [blackwater_mountain43](../maps/blackwater_mountain43.md), [brightport_bakery](../maps/brightport_bakery.md), [brimhaven_tavern1](../maps/brimhaven_tavern1.md) |
+| **Started by** | [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) |
+| **NPCs involved** | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) +38 |
+| **Locations** | [Blackwater mountain 22](../maps/blackwater_mountain22.md), [Blackwater mountain 43](../maps/blackwater_mountain43.md), [Brightport bakery](../maps/brightport_bakery.md), [Brimhaven tavern 1](../maps/brimhaven_tavern1.md) |
 | **Total XP** | 204,370 |
 | **Related quests** | 3 |
 
@@ -28,7 +28,7 @@ description: "Young merchant is a quest in Andor's Trail, started by Burhczyd (c
 
 ## Prerequisites to start
 
-None: talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) to begin.
+None: talk to [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -39,453 +39,1387 @@ None: talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/cro
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-61) | stage 61 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-62) | stage 62 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-63) | stage 63 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-64) | stage 64 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-65) | stage 65 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-66) | stage 66 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-67) | stage 67 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-68) | stage 68 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-69) | stage 69 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-610) | stage 610 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-611) | stage 611 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-612) | stage 612 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-613) | stage 613 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-614) | stage 614 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-615) | stage 615 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-616) | stage 616 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-617) | stage 617 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-618) | stage 618 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-619) | stage 619 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-620) | stage 620 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-621) | stage 621 reached, for stage 140 here |
-| Requires | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-622) | stage 622 reached, for stage 140 here |
-| Blocked by | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-81) | stage 81 must NOT be reached, for stage 90 here |
-| Blocked by | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-82) | stage 82 must NOT be reached, for stage 90 here |
-| Blocked by | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-83) | stage 83 must NOT be reached, for stage 90 here |
-| Blocked by | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-84) | stage 84 must NOT be reached, for stage 90 here |
-| Blocked by | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-85) | stage 85 must NOT be reached, for stage 90 here |
-| Unlocks | [brv_nondisplay (hidden flag)](brv_nondisplay.md#stage-142) | stage 142 there needs stage 80 here |
-| Unlocks | [bwmfill_nondisplay (hidden flag)](bwmfill_nondisplay.md#stage-40) | stage 40 there needs stage 80 here |
-| Unlocks | [bwmfill_nondisplay (hidden flag)](bwmfill_nondisplay.md#stage-41) | stage 41 there needs stage 80 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-51) | stage 51 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-52) | stage 52 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-53) | stage 53 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-54) | stage 54 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-55) | stage 55 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-56) | stage 56 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-57) | stage 57 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-58) | stage 58 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-59) | stage 59 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-81) | stage 81 there needs stage 70 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-82) | stage 82 there needs stage 70 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-83) | stage 83 there needs stage 70 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-84) | stage 84 there needs stage 70 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-85) | stage 85 there needs stage 70 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-91) | stage 91 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-92) | stage 92 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-93) | stage 93 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-94) | stage 94 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-95) | stage 95 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-96) | stage 96 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-97) | stage 97 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-98) | stage 98 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-99) | stage 99 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-510) | stage 510 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-511) | stage 511 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-512) | stage 512 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-513) | stage 513 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-514) | stage 514 there needs stage 120 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-910) | stage 910 there needs stage 210 here |
-| Unlocks | [Young merchant Non-displayed (hidden flag)](quest_burhczyd_nd.md#stage-911) | stage 911 there needs stage 210 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-61) | stage 61 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-62) | stage 62 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-63) | stage 63 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-64) | stage 64 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-65) | stage 65 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-66) | stage 66 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-67) | stage 67 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-68) | stage 68 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-69) | stage 69 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-610) | stage 610 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-611) | stage 611 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-612) | stage 612 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-613) | stage 613 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-614) | stage 614 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-615) | stage 615 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-616) | stage 616 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-617) | stage 617 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-618) | stage 618 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-619) | stage 619 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-620) | stage 620 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-621) | stage 621 reached, for stage 140 here |
+| Requires | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-622) | stage 622 reached, for stage 140 here |
+| Blocked by | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-81) | stage 81 must NOT be reached, for stage 90 here |
+| Blocked by | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-82) | stage 82 must NOT be reached, for stage 90 here |
+| Blocked by | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-83) | stage 83 must NOT be reached, for stage 90 here |
+| Blocked by | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-84) | stage 84 must NOT be reached, for stage 90 here |
+| Blocked by | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-85) | stage 85 must NOT be reached, for stage 90 here |
+| Unlocks | [Brimhaven story flags (hidden flag)](brv_nondisplay.md#stage-142) | stage 142 there needs stage 80 here |
+| Unlocks | [Blackwater Mountain story flags (hidden flag)](bwmfill_nondisplay.md#stage-40) | stage 40 there needs stage 80 here |
+| Unlocks | [Blackwater Mountain story flags (hidden flag)](bwmfill_nondisplay.md#stage-41) | stage 41 there needs stage 80 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-51) | stage 51 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-52) | stage 52 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-53) | stage 53 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-54) | stage 54 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-55) | stage 55 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-56) | stage 56 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-57) | stage 57 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-58) | stage 58 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-59) | stage 59 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-81) | stage 81 there needs stage 70 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-82) | stage 82 there needs stage 70 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-83) | stage 83 there needs stage 70 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-84) | stage 84 there needs stage 70 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-85) | stage 85 there needs stage 70 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-91) | stage 91 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-92) | stage 92 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-93) | stage 93 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-94) | stage 94 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-95) | stage 95 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-96) | stage 96 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-97) | stage 97 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-98) | stage 98 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-99) | stage 99 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-510) | stage 510 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-511) | stage 511 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-512) | stage 512 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-513) | stage 513 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-514) | stage 514 there needs stage 120 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-910) | stage 910 there needs stage 210 here |
+| Unlocks | [Young merchant story flags (hidden flag)](quest_burhczyd_nd.md#stage-911) | stage 911 there needs stage 210 here |
 
 *…and 11 more.*
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | You met Burhczyd afgz Dtaloumiye, a likable young man, in a tavern. He wanted to see the world and followed your advice to travel as a trader from city to city. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | – | 20 XP |
-| <span id="stage-20"></span>20 | In another tavern you met Burhczyd again. He never got any customers, because he had named his company 'Burhczyd afgz Dtaloumiye - Transports'. You told him to find an easier name. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 10 | 50 XP |
-| <span id="stage-30"></span>30 | You saw Burhczyd in a tavern, but he still did not have any customers. You told him that 'B.A.D. Transports' was not a good idea either. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 20 | 100 XP |
-| <span id="stage-40"></span>40 | Another place, another tavern, Burhczyd again sitting there. He did get a shipment from Remgard of almost fresh fish, but nobody wanted to buy it. You bought the entire cargo and got it disposed of. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | pay 1,000 gold, stage 30 | 200 XP |
-| <span id="stage-50"></span>50 | What a surprise - you met Burhczyd again in a tavern. He told you that he finally sold something successfully - his cart. The fool, how will he earn money now? | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 40 | 500 XP |
-| <span id="stage-60"></span>60 | In a tavern a bard sang in a high, shrill voice. It's an old acquaintance - Burhczyd. His singing was incredibly bad. Maybe he should just play his instrument without singing? | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 50 | 1,000 XP |
-| <span id="stage-70"></span>70 | You found Burhczyd collapsed at a table in the tavern, his lute lying in front of him. The landlord forbade him to play his lovely music, because then all the guests forgot to drink. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 60 | 1,500 XP |
-| <span id="stage-80"></span>80 | Again you met Burhczyd in a tavern. He told you that he had become a master thief. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 70 | 2,000 XP |
-| <span id="stage-90"></span>90 | When you met Burhczyd again, he gave you some of your things back. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 80 | 3,000 XP |
-| <span id="stage-100"></span>100 | You've talked with a Knight of Elythom who happened to be an old acquaintance - Burhczyd. He had to hide from the Elythom, because he had 'borrowed' something of value from their leader. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 90 | 4,000 XP |
-| <span id="stage-110"></span>110 | Burhczyd was no longer dressed like a knight of the Elythom. He said he's going to marry the prettiest girl in the world - she just doesn't know yet... | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 100 | 5,000 XP |
-| <span id="stage-120"></span>120 | You've met a very depressed Burhczyd. His love was going to marry a baker! Therefore, he bought an oven to outdo his rival. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 110 | 6,000 XP |
-| <span id="stage-130"></span>130 | Burhczyd planned to bake larger and more beautiful loaves of bread in the tavern than the baker whom his love is going to marry. Yet he still had to learn how to bake. | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | stage 120 | 7,000 XP |
-| <span id="stage-140"></span>140 | Burhczyd has begun the life of a monk. Fasting was not at all easy for him.  [Quest is not completable at this time.] | [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md))<br>[Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md))<br>+19 more | – | 8,000 XP |
-| <span id="stage-150"></span>150 | - | dialogue `burhczydx_15a_9`, which nothing in the data starts directly | – | 10,000 XP |
-| <span id="stage-160"></span>160 | - | dialogue `burhczydx_16a_9`, which nothing in the data starts directly | – | 12,000 XP |
-| <span id="stage-170"></span>170 | - | dialogue `burhczydx_17a_9`, which nothing in the data starts directly | – | 15,000 XP |
-| <span id="stage-180"></span>180 | - | dialogue `burhczydx_18a_9`, which nothing in the data starts directly | – | 20,000 XP |
-| <span id="stage-190"></span>190 | - | dialogue `burhczydx_19a_9`, which nothing in the data starts directly | – | 22,000 XP |
-| <span id="stage-200"></span>200 | - | dialogue `burhczydx_20a_9`, which nothing in the data starts directly | – | 25,000 XP |
-| <span id="stage-210"></span>210 | - | dialogue `burhczydx_21a_9`, which nothing in the data starts directly | – | 30,000 XP |
-| <span id="stage-220"></span>220 | - | dialogue `burhczydx_22a_9`, which nothing in the data starts directly | – | 32,000 XP |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">You met Burhczyd afgz Dtaloumiye, a likable young man, in a tavern.… ▸</span><span class="l">▴ less</span></summary>You met Burhczyd afgz Dtaloumiye, a likable young man, in a tavern. He wanted to see the world and followed your advice to travel as a trader from city to city.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 20 XP |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">In another tavern you met Burhczyd again. He never got any… ▸</span><span class="l">▴ less</span></summary>In another tavern you met Burhczyd again. He never got any customers, because he had named his company 'Burhczyd afgz Dtaloumiye - Transports'. You told him to find an easier name.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 50 XP |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">You saw Burhczyd in a tavern, but he still did not have any… ▸</span><span class="l">▴ less</span></summary>You saw Burhczyd in a tavern, but he still did not have any customers. You told him that 'B.A.D. Transports' was not a good idea either.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 100 XP |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Another place, another tavern, Burhczyd again sitting there. He did… ▸</span><span class="l">▴ less</span></summary>Another place, another tavern, Burhczyd again sitting there. He did get a shipment from Remgard of almost fresh fish, but nobody wanted to buy it. You bought the entire cargo and got it disposed of.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 200 XP |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">What a surprise - you met Burhczyd again in a tavern. He told you… ▸</span><span class="l">▴ less</span></summary>What a surprise - you met Burhczyd again in a tavern. He told you that he finally sold something successfully - his cart. The fool, how will he earn money now?</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 500 XP |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">In a tavern a bard sang in a high, shrill voice. It's an old… ▸</span><span class="l">▴ less</span></summary>In a tavern a bard sang in a high, shrill voice. It's an old acquaintance - Burhczyd. His singing was incredibly bad. Maybe he should just play his instrument without singing?</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 1,000 XP |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">You found Burhczyd collapsed at a table in the tavern, his lute… ▸</span><span class="l">▴ less</span></summary>You found Burhczyd collapsed at a table in the tavern, his lute lying in front of him. The landlord forbade him to play his lovely music, because then all the guests forgot to drink.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 1,500 XP |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">Again you met Burhczyd in a tavern. He told you that he had become a… ▸</span><span class="l">▴ less</span></summary>Again you met Burhczyd in a tavern. He told you that he had become a master thief.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 2,000 XP |
+| <span id="stage-90"></span>[90](#route-90) | When you met Burhczyd again, he gave you some of your things back. | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 3,000 XP |
+| <span id="stage-100"></span>[100](#route-100) | <details class="jt"><summary><span class="s">You've talked with a Knight of Elythom who happened to be an old… ▸</span><span class="l">▴ less</span></summary>You've talked with a Knight of Elythom who happened to be an old acquaintance - Burhczyd. He had to hide from the Elythom, because he had 'borrowed' something of value from their leader.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 4,000 XP |
+| <span id="stage-110"></span>[110](#route-110) | <details class="jt"><summary><span class="s">Burhczyd was no longer dressed like a knight of the Elythom. He said… ▸</span><span class="l">▴ less</span></summary>Burhczyd was no longer dressed like a knight of the Elythom. He said he's going to marry the prettiest girl in the world - she just doesn't know yet...</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 5,000 XP |
+| <span id="stage-120"></span>[120](#route-120) | <details class="jt"><summary><span class="s">You've met a very depressed Burhczyd. His love was going to marry a… ▸</span><span class="l">▴ less</span></summary>You've met a very depressed Burhczyd. His love was going to marry a baker! Therefore, he bought an oven to outdo his rival.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 6,000 XP |
+| <span id="stage-130"></span>[130](#route-130) | <details class="jt"><summary><span class="s">Burhczyd planned to bake larger and more beautiful loaves of bread… ▸</span><span class="l">▴ less</span></summary>Burhczyd planned to bake larger and more beautiful loaves of bread in the tavern than the baker whom his love is going to marry. Yet he still had to learn how to bake.</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 7,000 XP |
+| <span id="stage-140"></span>[140](#route-140) | <details class="jt"><summary><span class="s">Burhczyd has begun the life of a monk. Fasting was not at all easy… ▸</span><span class="l">▴ less</span></summary>Burhczyd has begun the life of a monk. Fasting was not at all easy for him. [Quest is not completable at this time.]</details> | [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) +20 | 8,000 XP |
+| <span id="stage-150"></span>150 | - | dialogue `burhczydx_15a_9`, never started directly | 10,000 XP |
+| <span id="stage-160"></span>160 | - | dialogue `burhczydx_16a_9`, never started directly | 12,000 XP |
+| <span id="stage-170"></span>170 | - | dialogue `burhczydx_17a_9`, never started directly | 15,000 XP |
+| <span id="stage-180"></span>180 | - | dialogue `burhczydx_18a_9`, never started directly | 20,000 XP |
+| <span id="stage-190"></span>190 | - | dialogue `burhczydx_19a_9`, never started directly | 22,000 XP |
+| <span id="stage-200"></span>200 | - | dialogue `burhczydx_20a_9`, never started directly | 25,000 XP |
+| <span id="stage-210"></span>210 | - | dialogue `burhczydx_21a_9`, never started directly | 30,000 XP |
+| <span id="stage-220"></span>220 | - | dialogue `burhczydx_22a_9`, never started directly | 32,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 22 routes"
+<span id="route-10"></span>
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “My pleasure.” → **stage 10**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “My pleasure.” → **stage 10**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “My pleasure.” → **stage 10**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “My pleasure.” → **stage 10**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “My pleasure.” → **stage 10**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “My pleasure.” → **stage 10**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “My pleasure.” → **stage 10**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “My pleasure.” → **stage 10**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “My pleasure.” → **stage 10**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “My pleasure.” → **stage 10**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “My pleasure.” → **stage 10**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “My pleasure.” → **stage 10**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “My pleasure.” → **stage 10**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “My pleasure.” → **stage 10**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “My pleasure.” → **stage 10**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “My pleasure.” → **stage 10**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “My pleasure.” → **stage 10**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “My pleasure.” → **stage 10**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “My pleasure.” → **stage 10**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “My pleasure.” → **stage 10**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “My pleasure.” → **stage 10**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “My pleasure.” → **stage 10**
+??? note "Stage 10 · Burhczyd · 22 ways"
 
-???+ note "Stage 20: 22 routes"
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “Sure. You have to use a short and catchy name.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10 → **stage 20**
 
-???+ note "Stage 30: 22 routes"
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “Look, just call your company 'Easy Transports'. That will do.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20 → **stage 30**
 
-???+ note "Stage 40: 22 routes"
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “Sure.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold → **stage 40**
 
-???+ note "Stage 50: 22 routes"
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “I wish you the best of luck!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40 → **stage 50**
 
-???+ note "Stage 60: 22 routes"
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “That would be good!” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50 → **stage 60**
 
-???+ note "Stage 70: 22 routes"
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “I am sure you will come up with something.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60 → **stage 70**
 
-???+ note "Stage 80: 22 routes"
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “I am still surprised.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70 → **stage 80**
 
-???+ note "Stage 90: 22 routes"
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “And you are naughty in addition to that.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; NOT reached stage 81 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); NOT reached stage 82 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); NOT reached stage 83 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); NOT reached stage 84 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); NOT reached stage 85 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85) → **stage 90**
 
-???+ note "Stage 100: 22 routes"
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “You are right. We'll surely meet another time.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90 → **stage 100**
 
-???+ note "Stage 110: 22 routes"
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “[mumbling] ... end in disaster again. Oh dear.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100 → **stage 110**
 
-???+ note "Stage 120: 22 routes"
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110 → **stage 120**
 
-???+ note "Stage 130: 22 routes"
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “I wish you luck. Much luck. You will need it.” — **conditions:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120 → **stage 130**
 
-???+ note "Stage 140: 22 routes"
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “My pleasure.”
 
-    1. Talk to [Burhczyd](../monsters/burhczyd1.md) ([crossglen_hall](../maps/crossglen_hall.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 61 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-61); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    2. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10) ([brimhaven_tavern1](../maps/brimhaven_tavern1.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 610 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-610); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    3. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11) ([sullengard_tavern](../maps/sullengard_tavern.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 611 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-611); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    4. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12) ([houseatcrossroads0](../maps/houseatcrossroads0.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 612 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-612); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    5. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) ([foaming_flask](../maps/foaming_flask.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 613 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-613); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    6. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14) ([brightport_bakery](../maps/brightport_bakery.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 614 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-614); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    7. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15) → choose “Maybe in another tavern.” — **conditions:** reached stage 615 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-615); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    8. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) → choose “Maybe in another tavern.” — **conditions:** reached stage 616 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-616); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    9. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17) → choose “Maybe in another tavern.” — **conditions:** reached stage 617 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-617); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    10. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18) → choose “Maybe in another tavern.” — **conditions:** reached stage 618 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-618); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    11. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) → choose “Maybe in another tavern.” — **conditions:** reached stage 619 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-619); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    12. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2) ([fallhaven_tavern](../maps/fallhaven_tavern.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 62 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-62); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    13. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20) → choose “Maybe in another tavern.” — **conditions:** reached stage 620 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-620); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    14. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21) → choose “Maybe in another tavern.” — **conditions:** reached stage 621 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-621); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    15. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22) → choose “Maybe in another tavern.” — **conditions:** reached stage 622 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-622); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    16. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3) ([loneford6](../maps/loneford6.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 63 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-63); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    17. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4) ([vilegard_tavern](../maps/vilegard_tavern.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 64 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-64); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    18. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 65 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-65); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    19. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6) ([blackwater_mountain43](../maps/blackwater_mountain43.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 66 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-66); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    20. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7) ([remgard_tavern0](../maps/remgard_tavern0.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 67 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-67); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    21. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) ([woodhouse2](../maps/woodhouse2.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 68 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-68); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
-    22. Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9) ([blackwater_mountain22](../maps/blackwater_mountain22.md)) → choose “Maybe in another tavern.” — **conditions:** reached stage 69 of [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md#stage-69); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; NOT reached stage 140 of [Young merchant](../quests/quest_burhczyd.md#stage-140); random chance (10%) → **stage 140**
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “My pleasure.”
+
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “My pleasure.”
+
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “My pleasure.”
+
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “My pleasure.”
+
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “My pleasure.”
+
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “My pleasure.”
+
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “My pleasure.”
+
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “My pleasure.”
+
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “My pleasure.”
+
+
+
+<span id="route-20"></span>
+
+??? note "Stage 20 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “Sure. You have to use a short and catchy name.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-10) is 10
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “Look, just call your company 'Easy Transports'. That will do.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-20) is 20
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “Sure.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-30) is 30; pay 1,000 gold
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “I wish you the best of luck!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-40) is 40
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “That would be good!”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-50) is 50
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “I am sure you will come up with something.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-60) is 60
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “I am still surprised.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-70) is 70
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “And you are naughty in addition to that.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-80) is 80; not reached stage 81 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-81); not reached stage 82 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-82); not reached stage 83 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-83); not reached stage 84 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-84); not reached stage 85 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-85)
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “You are right. We'll surely meet another time.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-90) is 90
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “[mumbling] ... end in disaster again. Oh dear.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-100) is 100
+
+
+<span id="route-120"></span>
+
+??? note "Stage 120 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure…”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-110) is 110
+
+
+<span id="route-130"></span>
+
+??? note "Stage 130 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “I wish you luck. Much luck. You will need it.”
+
+    - **Needs:** latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-120) is 120
+
+
+<span id="route-140"></span>
+
+??? note "Stage 140 · Burhczyd · 22 ways"
+
+    **Way 1:** Talk to [Burhczyd](../monsters/burhczyd1.md), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 61 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-61); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 2:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 610 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-610); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 3:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd11), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 611 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-611); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 4:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 612 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-612); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 5:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 613 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-613); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 6:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 614 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-614); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 7:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd15), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 615 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-615); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 8:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 616 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-616); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 9:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd17), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 617 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-617); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 10:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd18), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 618 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-618); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 11:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 619 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-619); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 12:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd2), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 62 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-62); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 13:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 620 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-620); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 14:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd21), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 621 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-621); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 15:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 622 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-622); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 16:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd3), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 63 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-63); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 17:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd4), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 64 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-64); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 18:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd5), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 65 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-65); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 19:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 66 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-66); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 20:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 67 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-67); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 21:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 68 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-68); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
+    **Way 22:** Talk to [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), choose “Maybe in another tavern.”
+
+    - **Needs:** not yet stage 140; reached stage 69 of [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md#stage-69); latest stage of [Young merchant](../quests/quest_burhczyd.md#stage-140) is 140; random chance (10%)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

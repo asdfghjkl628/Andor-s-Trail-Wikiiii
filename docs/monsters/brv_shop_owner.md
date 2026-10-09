@@ -4,7 +4,7 @@ description: "Shop Owner is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } Shop Owner
 
-**Where to find Shop Owner:** Brimhaven: [brimhaven_shop](../maps/brimhaven_shop.md#pin-npc-brv_shop_owner)
+**Where to find Shop Owner:** Brimhaven: [Brimhaven shop](../maps/brimhaven_shop.md#pin-npc-brv_shop_owner)
 
 <div class="infobox" markdown>
 
@@ -37,11 +37,11 @@ description: "Shop Owner is a non-player character (NPC) in Andor's Trail, found
 ## Quests
 
 - [Honor your parents](../quests/brv_present.md): stages 10, 20
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 130
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 130
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shop Owner. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shop Owner. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_shop_owner_select.json" data-npc="Shop Owner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,11 +49,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_shop_owner_select"></span>**`brv_shop_owner_select`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 130 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-130))* → [brv_shop_owner_20](#d-brv_shop_owner_20)
+    - Next *(if reached stage 130 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-130))* → [brv_shop_owner_20](#d-brv_shop_owner_20)
     - Next → [brv_shop_owner_1](#d-brv_shop_owner_1)
 
     <span id="d-brv_shop_owner_20"></span>**`brv_shop_owner_20`** Shop Owner: “How can I serve you, traveler?” — **effects:** sets stage 10 of [Honor your parents](../quests/brv_present.md#stage-10)
@@ -93,7 +93,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “[You slowly pull out your coin bag and show him your gold.]” *(if have 1,000 gold)* → [brv_shop_owner_10](#d-brv_shop_owner_10)
 
-    <span id="d-brv_shop_owner_10"></span>**`brv_shop_owner_10`** Shop Owner: “[His eyes widen.] Oh I was just kidding, child... I mean... honored customer!” — **effects:** sets stage 130 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-130)
+    <span id="d-brv_shop_owner_10"></span>**`brv_shop_owner_10`** Shop Owner: “[His eyes widen.] Oh I was just kidding, child... I mean... honored customer!” — **effects:** sets stage 130 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-130)
 
     - “Show me your wares, you worm.” → *shop opens*
 
@@ -105,7 +105,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Are you lookng for something in particular?” → “Are you looking for something in particular?” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “How can I serve you, Sir?” → “How can I serve you, traveler?”<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…”<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

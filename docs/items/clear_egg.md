@@ -26,7 +26,7 @@ description: "Sparkling egg is a extraordinary other in Andor's Trail. How to ge
 
 ### Found in containers
 
-- [beekeeper2](../maps/beekeeper2.md#container-4) (container 5, 100%), Foaming Flask Tavern
+- [Beekeeper 2](../maps/beekeeper2.md#container-4) (container 5, 100%), Foaming Flask Tavern
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

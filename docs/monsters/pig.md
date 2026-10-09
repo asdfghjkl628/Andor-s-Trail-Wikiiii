@@ -1,5 +1,5 @@
 ---
-description: "Pig is a non-player character (NPC) in Andor's Trail, found in Loneford, Sullengard, Deebo's Orchard, mountainlake_circe."
+description: "Pig is a non-player character (NPC) in Andor's Trail, found in Loneford, Sullengard, Deebo's Orchard, Mountainlake circe."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_106.png){ .sprite } Pig
@@ -11,39 +11,39 @@ description: "Pig is a non-player character (NPC) in Andor's Trail, found in Lon
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | Loneford, Sullengard, Deebo's Orchard, mountainlake_circe |
+| **Found in** | Loneford, Sullengard, Deebo's Orchard, Mountainlake circe |
 | **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Pig. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Pig. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`pig`](#v-pig) | NPC | Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-pig) (+3 more) | – |
-| [`ll2_circe_pig`](#v-ll2_circe_pig) | NPC | [mountainlake_circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig) | – |
+| [`pig`](#v-pig) | NPC | Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-pig) (+3 more) | – |
+| [`ll2_circe_pig`](#v-ll2_circe_pig) | NPC | [Mountainlake circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig) | – |
 
 ## Deebo's Orchard, Sullengard apple farm east and 4 more (pig) { #v-pig }
 
 **Entry ID:** `pig` · **Type:** NPC
 
-**Location:** Deebo's Orchard: [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [woodsettlement0](../maps/woodsettlement0.md#pin-npc-pig), Loneford: [loneford2](../maps/loneford2.md#pin-npc-pig), Sullengard: [sullengard1](../maps/sullengard1.md#pin-npc-pig), [waterwayb4](../maps/waterwayb4.md#pin-npc-pig)
+**Location:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md#pin-npc-pig), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-pig), Sullengard: [Sullengard 1](../maps/sullengard1.md#pin-npc-pig), [Waterwayb 4](../maps/waterwayb4.md#pin-npc-pig)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [loneford2](../maps/loneford2.md) | Loneford | 2 | – |
-| [sullengard1](../maps/sullengard1.md) | Sullengard | 1 | – |
-| [sullengard_apple_farm_east](../maps/sullengard_apple_farm_east.md) | Deebo's Orchard | 2 | – |
-| [waterwayb4](../maps/waterwayb4.md) | – | 2 | – |
-| [woodsettlement0](../maps/woodsettlement0.md) | Fallhaven | 2 | – |
+| [Loneford 2](../maps/loneford2.md) | Loneford | 2 | – |
+| [Sullengard 1](../maps/sullengard1.md) | Sullengard | 1 | – |
+| [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | Deebo's Orchard | 2 | – |
+| [Waterwayb 4](../maps/waterwayb4.md) | – | 2 | – |
+| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pig. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pig. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/pig.json" data-npc="Pig" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-pig-pig"></span>**`pig`** Pig: “[Grunt]”
 
@@ -99,11 +99,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ll2_circe_pig` · **Type:** NPC
 
-**Location:** [mountainlake_circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig)
+**Location:** [Mountainlake circe](../maps/mountainlake_circe.md#pin-npc-ll2_circe_pig)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pig. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pig. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ll2_circe_pig.json" data-npc="Pig" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -111,7 +111,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ll2_circe_pig-ll2_circe_pig"></span>**`ll2_circe_pig`** Pig: “Oink oink.”
 

@@ -31,7 +31,7 @@ and a blood stained fingerprint underneath.
 
 ### Found in containers
 
-- [ratdom_maze_618](../maps/ratdom_maze_618.md#container-1) (container 2, 100%), Roundlings
+- [Ratdom maze 618](../maps/ratdom_maze_618.md#container-1) (container 2, 100%), Roundlings
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Aggressive khakin beast is an enemy in Andor's Trail (reptile) with 48 HP, worth 248 XP, found in lodar10, lodar3, lodar9. Drops: Gold coins, Meat, Khakin eye."
+description: "Aggressive khakin beast is an enemy in Andor's Trail (reptile) with 48 HP, worth 248 XP, found in Lodar 10, Lodar 3, Lodar 9. Drops: Gold coins, Meat, Khakin eye."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_112.png){ .sprite } Aggressive khakin beast
 
-**Found in:** [lodar10](../maps/lodar10.md), [lodar3](../maps/lodar3.md), [lodar9](../maps/lodar9.md)
+**Found in:** [Lodar 10](../maps/lodar10.md), [Lodar 3](../maps/lodar3.md), [Lodar 9](../maps/lodar9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Aggressive khakin beast is an enemy in Andor's Trail (reptile) wit
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar10, lodar3, lodar9 |
+| **Found in** | Lodar 10, Lodar 3, Lodar 9 |
 | **Class** | Reptile |
 | **HP** | 48 |
 | **XP when defeated** | 248 |
@@ -56,9 +56,9 @@ description: "Aggressive khakin beast is an enemy in Andor's Trail (reptile) wit
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar10](../maps/lodar10.md) | – | 6 | – |
-| [lodar3](../maps/lodar3.md) | – | 6 | – |
-| [lodar9](../maps/lodar9.md) | – | 5 | – |
+| [Lodar 10](../maps/lodar10.md) | – | 6 | – |
+| [Lodar 3](../maps/lodar3.md) | – | 6 | – |
+| [Lodar 9](../maps/lodar9.md) | – | 5 | – |
 
 
 ## Version history

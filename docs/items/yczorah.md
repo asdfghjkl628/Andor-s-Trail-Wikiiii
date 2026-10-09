@@ -28,8 +28,8 @@ description: "Yczorah tentacle is a ordinary animal part in Andor's Trail. How t
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 10% | 1 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 10% | 1 | elm5f_1, elm5f_2 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 10% | 1 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 10% | 1 | Elm 5f 1, Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

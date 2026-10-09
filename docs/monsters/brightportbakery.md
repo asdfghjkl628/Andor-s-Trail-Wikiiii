@@ -4,7 +4,7 @@ description: "Hortensia is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld_edit_3.png){ .sprite } Hortensia
 
-**Where to find Hortensia:** Brightport: [brightport_bakery](../maps/brightport_bakery.md#pin-npc-brightportbakery)
+**Where to find Hortensia:** Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-brightportbakery)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Hortensia is a non-player character (NPC) in Andor's Trail, found 
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 35
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 35
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Hortensia. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Hortensia. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_hortensia.json" data-npc="Hortensia" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,12 +33,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_hortensia"></span>**`brightport_hortensia`** Hortensia: “Hello, today's astronomy class at the Academy will be held in the evening, you musn't miss it.”
 
-    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
-    - “Academy, where is that?” *(if NOT reached stage 231 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-231))* → [brightport_hortensia3](#d-brightport_hortensia3)
+    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [Main quest endings (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
+    - “Academy, where is that?” *(if NOT reached stage 231 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-231))* → [brightport_hortensia3](#d-brightport_hortensia3)
     - “Sorry to disturb your meal. [Leave]” → *conversation ends*
 
     <span id="d-brightport_hortensia1"></span>**`brightport_hortensia1`** Hortensia: “That boy Andor? He was a bit unremarkable but he had a real passion for astronomy. What has happened to him?”
@@ -47,10 +47,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_hortensia3"></span>**`brightport_hortensia3`** Hortensia: “It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you were a student. Head to the western part of town, and you will find it.”
 
-    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
+    - “I don't have time to attend classes, I must find my brother Andor.” *(if NOT reached stage 900 of [Main quest endings (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_hortensia1](#d-brightport_hortensia1)
     - “Thanks, bye.” → *conversation ends*
 
-    <span id="d-brightport_hortensia2"></span>**`brightport_hortensia2`** Hortensia: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find him soon.” — **effects:** sets stage 35 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-35)
+    <span id="d-brightport_hortensia2"></span>**`brightport_hortensia2`** Hortensia: “I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find him soon.” — **effects:** sets stage 35 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-35)
 
     - “I hope so too.” → *conversation ends*
 

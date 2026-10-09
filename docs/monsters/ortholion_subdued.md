@@ -4,7 +4,7 @@ description: "Subdued Feygard mountain scout is an NPC who can also be fought in
 
 # ![](../assets/icons/monsters/monsters_omi2_11.png){ .sprite } Subdued Feygard mountain scout
 
-**Where to find Subdued Feygard mountain scout:** Blackwater Mountain: [blackwater_mountain32](../maps/blackwater_mountain32.md#pin-npc-ortholion_subdued)
+**Where to find Subdued Feygard mountain scout:** Blackwater Mountain: [Blackwater mountain 32](../maps/blackwater_mountain32.md#pin-npc-ortholion_subdued)
 
 <div class="infobox" markdown>
 
@@ -67,15 +67,15 @@ description: "Subdued Feygard mountain scout is an NPC who can also be fought in
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 1 | Appears later, during a quest |
+| [Blackwater mountain 32](../maps/blackwater_mountain32.md) | Blackwater Mountain | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-41) with stepping on a trigger on [blackwater_mountain32](../maps/blackwater_mountain32.md) checks that this enemy has been defeated.
+- [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-41) with stepping on a trigger on [Blackwater mountain 32](../maps/blackwater_mountain32.md) checks that this enemy has been defeated.
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Subdued Feygard mountain scout. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Subdued Feygard mountain scout. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_subdued_1.json" data-npc="Subdued Feygard mountain scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -83,7 +83,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ortholion_subdued_1"></span>**`ortholion_subdued_1`** [Subdued Feygard mountain scout](../monsters/ortholion_subdued.md): “Hmmm... Hmmm....”
 

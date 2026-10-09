@@ -50,7 +50,7 @@ description: "Xul'viir is a extraordinary two-handed sword in Andor's Trail (Att
 
 ### Quest & dialogue rewards
 
-- From [Vilegard smith](../monsters/vilegard_smith.md) ([vilegard_smith](../maps/vilegard_smith.md)) during [A creeping fear](../quests/xulviir.md#stage-20) (100%)
+- From [Vilegard smith](../monsters/vilegard_smith.md) ([Vilegard smith](../maps/vilegard_smith.md)) during [A creeping fear](../quests/xulviir.md#stage-20) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

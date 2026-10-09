@@ -37,7 +37,7 @@ description: "Crude leather armor is a ordinary armor, leather in Andor's Trail 
 
 ### Sold by
 
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 - [Hadracor](../monsters/hadracor.md) (Crossroads Guardhouse)
 
 

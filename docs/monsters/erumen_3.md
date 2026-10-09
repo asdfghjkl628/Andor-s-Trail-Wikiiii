@@ -4,7 +4,7 @@ description: "Erumen lizard is an enemy in Andor's Trail (reptile) with 45 HP, w
 
 # ![](../assets/icons/monsters/monsters_rltiles2_114.png){ .sprite } Erumen lizard
 
-**Found in:** Brightport: [waterway_forest2](../maps/waterway_forest2.md), Brightport: [waytobrightport21](../maps/waytobrightport21.md), Brightport: [waytobrightport22](../maps/waytobrightport22.md), Brightport: [waytobrightport23](../maps/waytobrightport23.md) (+12 more)
+**Found in:** Brightport: [Waterway forest 2](../maps/waterway_forest2.md), Brightport: [Waytobrightport 21](../maps/waytobrightport21.md), Brightport: [Waytobrightport 22](../maps/waytobrightport22.md), Brightport: [Waytobrightport 23](../maps/waytobrightport23.md) (+12 more)
 
 <div class="infobox" markdown>
 
@@ -55,22 +55,22 @@ description: "Erumen lizard is an enemy in Andor's Trail (reptile) with 45 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave1_1_4](../maps/basiliskcave1_1_4.md) | – | 4 | – |
-| [basiliskcave1_1_5](../maps/basiliskcave1_1_5.md) | – | 1 | – |
-| [waterway11](../maps/waterway11.md) | – | 3 | – |
-| [waterway12](../maps/waterway12.md) | Brimhaven | 2 | – |
-| [waterway13](../maps/waterway13.md) | – | 6 | – |
-| [waterway8](../maps/waterway8.md) | – | 4 | – |
-| [waterway9](../maps/waterway9.md) | – | 2 | – |
-| [waterway_forest1](../maps/waterway_forest1.md) | – | 4 | – |
-| [waterway_forest2](../maps/waterway_forest2.md) | Brightport | 4 | – |
-| [waytobrightport21](../maps/waytobrightport21.md) | Brightport | 1 | – |
-| [waytobrightport22](../maps/waytobrightport22.md) | Brightport | 1 | – |
-| [waytobrightport23](../maps/waytobrightport23.md) | Brightport | 1 | – |
-| [waytobrimhaven2](../maps/waytobrimhaven2.md) | Loneford | 7 | – |
-| [waytobrimhaven3](../maps/waytobrimhaven3.md) | Brimhaven | 6 | – |
-| [waytobrimhavencave0](../maps/waytobrimhavencave0.md) | – | 2 | – |
-| [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | 2 | – |
+| [Basiliskcave 1 1 4](../maps/basiliskcave1_1_4.md) | – | 4 | – |
+| [Basiliskcave 1 1 5](../maps/basiliskcave1_1_5.md) | – | 1 | – |
+| [Waterway 11](../maps/waterway11.md) | – | 3 | – |
+| [Waterway 12](../maps/waterway12.md) | Brimhaven | 2 | – |
+| [Waterway 13](../maps/waterway13.md) | – | 6 | – |
+| [Waterway 8](../maps/waterway8.md) | – | 4 | – |
+| [Waterway 9](../maps/waterway9.md) | – | 2 | – |
+| [Waterway forest 1](../maps/waterway_forest1.md) | – | 4 | – |
+| [Waterway forest 2](../maps/waterway_forest2.md) | Brightport | 4 | – |
+| [Waytobrightport 21](../maps/waytobrightport21.md) | Brightport | 1 | – |
+| [Waytobrightport 22](../maps/waytobrightport22.md) | Brightport | 1 | – |
+| [Waytobrightport 23](../maps/waytobrightport23.md) | Brightport | 1 | – |
+| [Waytobrimhaven 2](../maps/waytobrimhaven2.md) | Loneford | 7 | – |
+| [Waytobrimhaven 3](../maps/waytobrimhaven3.md) | Brimhaven | 6 | – |
+| [Waytobrimhavencave 0](../maps/waytobrimhavencave0.md) | – | 2 | – |
+| [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – | 2 | – |
 
 
 ## Version history

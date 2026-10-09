@@ -4,7 +4,7 @@ description: "Vicious cave snake is an enemy in Andor's Trail (reptile) with 30 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_26.png){ .sprite } Vicious cave snake
 
-**Found in:** Entry: [ratdom_maze_457](../maps/ratdom_maze_457.md), [ratdom_maze_466](../maps/ratdom_maze_466.md), [ratdom_maze_476](../maps/ratdom_maze_476.md)
+**Found in:** Entry: [Ratdom maze 457](../maps/ratdom_maze_457.md), [Ratdom maze 466](../maps/ratdom_maze_466.md), [Ratdom maze 476](../maps/ratdom_maze_476.md)
 
 <div class="infobox" markdown>
 
@@ -58,9 +58,9 @@ description: "Vicious cave snake is an enemy in Andor's Trail (reptile) with 30 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_457](../maps/ratdom_maze_457.md) | Entry | 2 | – |
-| [ratdom_maze_466](../maps/ratdom_maze_466.md) | – | 2 | – |
-| [ratdom_maze_476](../maps/ratdom_maze_476.md) | – | 1 | – |
+| [Ratdom maze 457](../maps/ratdom_maze_457.md) | Entry | 2 | – |
+| [Ratdom maze 466](../maps/ratdom_maze_466.md) | – | 2 | – |
+| [Ratdom maze 476](../maps/ratdom_maze_476.md) | – | 1 | – |
 
 
 ## Version history

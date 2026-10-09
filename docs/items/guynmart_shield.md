@@ -45,7 +45,7 @@ description: "Guynmart shield is a ordinary shield, metal (light) in Andor's Tra
 
 ### Quest & dialogue rewards
 
-- From [Armor](../monsters/guynmart_reward3.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) during [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32) (1×)
+- From [Armor](../monsters/guynmart_reward3.md) ([Guynmart main 1](../maps/guynmart_main_1.md)) during [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

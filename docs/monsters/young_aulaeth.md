@@ -4,7 +4,7 @@ description: "Young aulaeth is an enemy in Andor's Trail (giant) with 105 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rltiles2_176.png){ .sprite } Young aulaeth
 
-**Found in:** Blackwater Mountain: [blackwater_mountain20](../maps/blackwater_mountain20.md), Blackwater Mountain: [blackwater_mountain30](../maps/blackwater_mountain30.md)
+**Found in:** Blackwater Mountain: [Blackwater mountain 20](../maps/blackwater_mountain20.md), Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md)
 
 <div class="infobox" markdown>
 
@@ -62,8 +62,8 @@ description: "Young aulaeth is an enemy in Andor's Trail (giant) with 105 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain20](../maps/blackwater_mountain20.md) | Blackwater Mountain | 4 | – |
-| [blackwater_mountain30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 20](../maps/blackwater_mountain20.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

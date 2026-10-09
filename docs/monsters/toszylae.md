@@ -1,10 +1,10 @@
 ---
-description: "Toszylae is an NPC who can also be fought in Andor's Trail, found in waytobrimhavencave3a. Starts I have it in me."
+description: "Toszylae is an NPC who can also be fought in Andor's Trail, found in Waytobrimhavencave 3a. Starts I have it in me."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_1.png){ .sprite } Toszylae
 
-**Where to find Toszylae:** [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md#pin-npc-toszylae)
+**Where to find Toszylae:** [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md#pin-npc-toszylae)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Toszylae is an NPC who can also be fought in Andor's Trail, found 
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [I have it in me](../quests/maggots.md) |
-| **Found in** | waytobrimhavencave3a |
+| **Found in** | Waytobrimhavencave 3a |
 | **Class** | Undead |
 | **HP** | 207 |
 | **XP when defeated** | 449 |
@@ -64,7 +64,7 @@ description: "Toszylae is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
+| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
 
 ## Quests
 
@@ -73,7 +73,7 @@ description: "Toszylae is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Toszylae. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Toszylae. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/toszylae.json" data-npc="Toszylae" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -81,7 +81,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (11 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-toszylae"></span>**`toszylae`** *(silent check: the first matching branch below is taken)*
 
@@ -135,7 +135,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(While chanting, it slowly lowers its hands forward, until pointing d…” → “[While chanting, it slowly lowers its hands forward, until pointing d…”<br>· text: “(The pain increases slightly, and you start to realize that something…” → “[The pain increases slightly, and you start to realize that something…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…”<br>· text: “(The lich seems to enjoy seeing you in pain.)” → “[The lich seems to enjoy seeing you in pain]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

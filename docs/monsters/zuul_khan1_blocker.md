@@ -1,5 +1,5 @@
 ---
-description: "Black fog is a non-player character (NPC) in Andor's Trail, found in bogsten4, mushroom_m2_3, mushroom_m2_6, mushroom_m2_8, mushroom_m3_1, mywildcave4."
+description: "Black fog is a non-player character (NPC) in Andor's Trail, found in Bogsten 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1, Mywildcave 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik3_44.png){ .sprite } Black fog
@@ -11,28 +11,28 @@ description: "Black fog is a non-player character (NPC) in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | bogsten4, mushroom_m2_3, mushroom_m2_6, mushroom_m2_8, mushroom_m3_1, mywildcave4 |
+| **Found in** | Bogsten 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1, Mywildcave 4 |
 | **Entries in game data** | 5 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
 !!! info "5 entries in the game data"
-    The game's data files define 5 separate characters named Black fog. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 5 separate characters named Black fog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`zuul_khan1_blocker`](#v-zuul_khan1_blocker) | NPC | [bogsten4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker) | – |
-| [`zuul_khan2_blocker`](#v-zuul_khan2_blocker) | NPC | [mushroom_m2_3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker) | – |
-| [`zuul_khan3_blocker`](#v-zuul_khan3_blocker) | NPC | [mushroom_m2_6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker) | – |
-| [`zuul_khan4_blocker`](#v-zuul_khan4_blocker) | NPC | [mushroom_m2_8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker) | – |
-| [`zuul_khan9_blocker`](#v-zuul_khan9_blocker) | NPC | [mushroom_m3_1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [mywildcave4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker) | – |
+| [`zuul_khan1_blocker`](#v-zuul_khan1_blocker) | NPC | [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker) | – |
+| [`zuul_khan2_blocker`](#v-zuul_khan2_blocker) | NPC | [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker) | – |
+| [`zuul_khan3_blocker`](#v-zuul_khan3_blocker) | NPC | [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker) | – |
+| [`zuul_khan4_blocker`](#v-zuul_khan4_blocker) | NPC | [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker) | – |
+| [`zuul_khan9_blocker`](#v-zuul_khan9_blocker) | NPC | [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [Mywildcave 4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker) | – |
 
-## Bogsten4 (zuul_khan1_blocker) { #v-zuul_khan1_blocker }
+## Bogsten 4 (zuul_khan1_blocker) { #v-zuul_khan1_blocker }
 
 **Entry ID:** `zuul_khan1_blocker` · **Type:** NPC
 
-**Location:** [bogsten4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker)
+**Location:** [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan1_blocker)
 
 ### Quests
 
@@ -40,7 +40,7 @@ description: "Black fog is a non-player character (NPC) in Andor's Trail, found 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Black fog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Black fog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan1_blocker.json" data-npc="Black fog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan1_blocker-zuul_khan1_blocker"></span>**`zuul_khan1_blocker`** Black fog: “You shall not pass.”
 
@@ -99,11 +99,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 3 (zuul_khan2_blocker) { #v-zuul_khan2_blocker }
+## Mushroom m 2 3 (zuul_khan2_blocker) { #v-zuul_khan2_blocker }
 
 **Entry ID:** `zuul_khan2_blocker` · **Type:** NPC
 
-**Location:** [mushroom_m2_3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker)
+**Location:** [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2_blocker)
 
 ### Quests
 
@@ -111,7 +111,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Black fog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Black fog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan2_blocker.json" data-npc="Black fog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -119,7 +119,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan2_blocker-zuul_khan2_blocker"></span>**`zuul_khan2_blocker`** Black fog: “You shall not pass.”
 
@@ -169,11 +169,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 6 (zuul_khan3_blocker) { #v-zuul_khan3_blocker }
+## Mushroom m 2 6 (zuul_khan3_blocker) { #v-zuul_khan3_blocker }
 
 **Entry ID:** `zuul_khan3_blocker` · **Type:** NPC
 
-**Location:** [mushroom_m2_6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker)
+**Location:** [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3_blocker)
 
 ### Quests
 
@@ -181,7 +181,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Black fog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Black fog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan3_blocker.json" data-npc="Black fog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -189,7 +189,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan3_blocker-zuul_khan3_blocker"></span>**`zuul_khan3_blocker`** Black fog: “You shall not pass.”
 
@@ -239,11 +239,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 8 (zuul_khan4_blocker) { #v-zuul_khan4_blocker }
+## Mushroom m 2 8 (zuul_khan4_blocker) { #v-zuul_khan4_blocker }
 
 **Entry ID:** `zuul_khan4_blocker` · **Type:** NPC
 
-**Location:** [mushroom_m2_8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker)
+**Location:** [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4_blocker)
 
 ### Quests
 
@@ -251,7 +251,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Black fog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Black fog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan4_blocker.json" data-npc="Black fog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -259,7 +259,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan4_blocker-zuul_khan4_blocker"></span>**`zuul_khan4_blocker`** Black fog: “You shall not pass.”
 
@@ -309,18 +309,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m3 1 and 1 more (zuul_khan9_blocker) { #v-zuul_khan9_blocker }
+## Mushroom m 3 1 and 1 more (zuul_khan9_blocker) { #v-zuul_khan9_blocker }
 
 **Entry ID:** `zuul_khan9_blocker` · **Type:** NPC
 
-**Location:** [mushroom_m3_1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [mywildcave4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker)
+**Location:** [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9_blocker), [Mywildcave 4](../maps/mywildcave4.md#pin-npc-zuul_khan9_blocker)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m3_1](../maps/mushroom_m3_1.md) | – | 1 | – |
-| [mywildcave4](../maps/mywildcave4.md) | – | 1 | – |
+| [Mushroom m 3 1](../maps/mushroom_m3_1.md) | – | 1 | – |
+| [Mywildcave 4](../maps/mywildcave4.md) | – | 1 | – |
 
 ### Quests
 
@@ -328,7 +328,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Black fog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Black fog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan9_blocker.json" data-npc="Black fog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -336,7 +336,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan9_blocker-zuul_khan9_blocker"></span>**`zuul_khan9_blocker`** Black fog: “You shall not pass.”
 

@@ -4,7 +4,7 @@ description: "Laurenz is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } Laurenz
 
-**Where to find Laurenz:** Brightport: [brightport_school12](../maps/brightport_school12.md#pin-npc-brightportstudent10)
+**Where to find Laurenz:** Brightport: [Brightport school 12](../maps/brightport_school12.md#pin-npc-brightportstudent10)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Laurenz is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Laurenz. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Laurenz. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_student_2.json" data-npc="Laurenz" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_student_2"></span>**`brightport_student_2`** [Laurenz](../monsters/brightportstudent10.md): “I would rather work on these terrible assignments than be in that Feygard professor's history class.”
 

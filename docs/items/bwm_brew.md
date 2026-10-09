@@ -42,14 +42,14 @@ description: "Blackwater brew is a ordinary potion in Andor's Trail. How to get 
 
 ### Sold by
 
-- [Mazeg](../monsters/mazeg.md) (blackwater_mountain43)
+- [Mazeg](../monsters/mazeg.md) (Blackwater mountain 43)
 - [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) (Prim)
 
 ### Found in containers
 
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 50%)
-- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 66.6667%)
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 50%)
+- [Elm mine 2](../maps/elm_mine2.md#container-2) (container 3, 66.6667%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

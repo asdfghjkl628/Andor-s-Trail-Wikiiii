@@ -11,9 +11,9 @@ description: "Missing pieces is a quest in Andor's Trail, started by Vacor (fall
 | **Quest ID** | `vacor` |
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 60, 61) |
-| **Started by** | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) |
+| **Started by** | [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) |
 | **NPCs involved** | [Unzel](../monsters/unzel.md), [Vacor](../monsters/vacor.md) |
-| **Locations** | [fallhaven_sw](../maps/fallhaven_sw.md), [wild6](../maps/wild6.md) |
+| **Locations** | [Fallhaven south-west](../maps/fallhaven_sw.md), [Wild 6](../maps/wild6.md) |
 | **Total XP** | 4,400 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Missing pieces is a quest in Andor's Trail, started by Vacor (fall
 
 ## Prerequisites to start
 
-Start with [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)). Required:
+Start with [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)). Required:
 
 - reached stage 20 of [Missing pieces](../quests/vacor.md#stage-20)
 
@@ -45,64 +45,131 @@ Start with [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | A mage called Vacor in southwest Fallhaven has been trying to cast a rift spell. There was something not right about him, he seemed very obsessed with his spell. Something about him gaining a power from it. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 20 | – |
-| <span id="stage-20"></span>20 | Vacor wants me to bring him the four pieces of the rift spell that he claims was stolen from him. The four bandits should be somewhere south of Fallhaven. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | – | – |
-| <span id="stage-30"></span>30 | I have brought the four pieces of the rift spell to Vacor. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | hand over 4× [Piece of Vacor's spell](../items/vacor_spell.md), stage 20 | 1,200 XP |
-| <span id="stage-40"></span>40 | Vacor tells me about his former apprentice Unzel, who had started to question Vacor. Vacor now wants me to kill Unzel. I should be able to find him to the southwest outside of Fallhaven. I should bring his signet ring to Vacor once I have killed him. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | – | – |
-| <span id="stage-50"></span>50 | Unzel gives me a choice to side with either Vacor or him. | [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | stage 40 | – |
-| <span id="stage-51"></span>51 | I have chosen to side with Unzel. I should go to southwest Fallhaven to talk to Vacor about Unzel and the Shadow. | [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | stage 40, stage 50 | – |
-| <span id="stage-53"></span>53 | I started a fight with Unzel. I should bring his ring to Vacor once he is dead. | [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | stage 40 | – |
-| <span id="stage-54"></span>54 | I started a fight with Vacor. I should bring his ring to Unzel once he is dead. | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | stage 40, stage 51 | – |
-| <span id="stage-60"></span>60 | I have killed Unzel and told Vacor about the deed. **(completes quest)** | [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | hand over 1× [Unzel's ring](../items/ring_unzel.md), stage 40 | 1,600 XP |
-| <span id="stage-61"></span>61 | I have killed Vacor and told Unzel about the deed. **(completes quest)** | [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | hand over 1× [Vacor's ring](../items/ring_vacor.md), stage 51 | 1,600 XP<br>gives [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">A mage called Vacor in southwest Fallhaven has been trying to cast a… ▸</span><span class="l">▴ less</span></summary>A mage called Vacor in southwest Fallhaven has been trying to cast a rift spell. There was something not right about him, he seemed very obsessed with his spell. Something about him gaining a power from it.</details> | [Vacor](../monsters/vacor.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Vacor wants me to bring him the four pieces of the rift spell that… ▸</span><span class="l">▴ less</span></summary>Vacor wants me to bring him the four pieces of the rift spell that he claims was stolen from him. The four bandits should be somewhere south of Fallhaven.</details> | [Vacor](../monsters/vacor.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I have brought the four pieces of the rift spell to Vacor. | [Vacor](../monsters/vacor.md) | 1,200 XP |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">Vacor tells me about his former apprentice Unzel, who had started to… ▸</span><span class="l">▴ less</span></summary>Vacor tells me about his former apprentice Unzel, who had started to question Vacor. Vacor now wants me to kill Unzel. I should be able to find him to the southwest outside of Fallhaven. I should bring his signet ring to Vacor once I have killed him.</details> | [Vacor](../monsters/vacor.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | Unzel gives me a choice to side with either Vacor or him. | [Unzel](../monsters/unzel.md) | – |
+| <span id="stage-51"></span>[51](#route-51) | <details class="jt"><summary><span class="s">I have chosen to side with Unzel. I should go to southwest Fallhaven… ▸</span><span class="l">▴ less</span></summary>I have chosen to side with Unzel. I should go to southwest Fallhaven to talk to Vacor about Unzel and the Shadow.</details> | [Unzel](../monsters/unzel.md) | – |
+| <span id="stage-53"></span>[53](#route-53) | I started a fight with Unzel. I should bring his ring to Vacor once he is dead. | [Unzel](../monsters/unzel.md) | – |
+| <span id="stage-54"></span>[54](#route-54) | I started a fight with Vacor. I should bring his ring to Unzel once he is dead. | [Vacor](../monsters/vacor.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | I have killed Unzel and told Vacor about the deed. **(ends quest)** | [Vacor](../monsters/vacor.md) | 1,600 XP |
+| <span id="stage-61"></span>[61](#route-61) | I have killed Vacor and told Unzel about the deed. **(ends quest)** | [Unzel](../monsters/unzel.md) | 1,600 XP, [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “Could you tell me the whole story again?” — **conditions:** reached stage 20 of [Missing pieces](../quests/vacor.md#stage-20) → **stage 10**. NPC: “Oh, the power I could have had. My dear rift spell.”
+??? note "Stage 10 · Vacor · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “Could you tell me the whole story again?”
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “What was I supposed to do again?” — **conditions:** reached stage 20 of [Missing pieces](../quests/vacor.md#stage-20) → **stage 20**. NPC: “OK, find the four pieces of my rift spell that the bandits took, and bring the pieces to me.”
+    - **Needs:** stage 20
+    - *“Oh, the power I could have had. My dear rift spell.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “I have found all the pieces.” — **conditions:** reached stage 20 of [Missing pieces](../quests/vacor.md#stage-20); hand over 4× [Piece of Vacor's spell](../items/vacor_spell.md) → **stage 30**. NPC: “Oh, you found all four pieces? Hurry, give them to me.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Vacor · 1 way"
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “Could you tell me the story again?” — **conditions:** reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40) → **stage 40**. NPC: “I need you to find Unzel and kill him for me. He can probably be found somewhere southwest of Fallhaven.”
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “What was I supposed to do again?”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 20
+    - *“OK, find the four pieces of my rift spell that the bandits took, and bring the pieces to me.”*
 
-    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “I will listen to your story.” — **conditions:** reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40); reached stage 50 of [Missing pieces](../quests/vacor.md#stage-50) → **stage 50**. NPC: “Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?”
 
-???+ note "Stage 51: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “I will side with you. The Shadow must not be disturbed.” — **conditions:** reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40); reached stage 50 of [Missing pieces](../quests/vacor.md#stage-50) → **stage 51**. NPC: “Thank you my friend. We will keep the Shadow safe from Vacor.”
+??? note "Stage 30 · Vacor · 1 way"
 
-???+ note "Stage 53: 1 route"
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “I have found all the pieces.”
 
-    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “Hah, I will enjoy killing you!” — **conditions:** reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40) → **stage 53**. NPC: “Very well, let's fight then.”
+    - **Needs:** stage 20; hand over 4× [Piece of Vacor's spell](../items/vacor_spell.md)
+    - *“Oh, you found all four pieces? Hurry, give them to me.”*
 
-???+ note "Stage 54: 1 route"
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “No. You must be stopped.” — **conditions:** reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40); reached stage 51 of [Missing pieces](../quests/vacor.md#stage-51) → **stage 54**. NPC: “Bah, lowly creature. I knew I shouldn't have trusted you. Now you will die along with your precious Shadow.”
+<span id="route-40"></span>
 
-???+ note "Stage 60: 1 route"
+??? note "Stage 40 · Vacor · 1 way"
 
-    1. Talk to [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) → choose “I have dealt with him. Here is his ring.” — **conditions:** reached stage 40 of [Missing pieces](../quests/vacor.md#stage-40); hand over 1× [Unzel's ring](../items/ring_unzel.md) → **stage 60**. NPC: “Ha ha, Unzel is dead! That pathetic creature is gone!”
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “Could you tell me the story again?”
 
-???+ note "Stage 61: 1 route"
+    - **Needs:** stage 40
+    - *“I need you to find Unzel and kill him for me. He can probably be found somewhere southwest of Fallhaven.”*
 
-    1. Talk to [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) → choose “Yes, I have dealt with him.” — **conditions:** reached stage 51 of [Missing pieces](../quests/vacor.md#stage-51); hand over 1× [Vacor's ring](../items/ring_vacor.md) → **stage 61**; also gives [Gold coins](../items/gold.md). NPC: “You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your…”
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Unzel · 1 way"
+
+    **Way 1:** Talk to [Unzel](../monsters/unzel.md), choose “I will listen to your story.”
+
+    - **Needs:** stage 40, 50
+    - *“Either you side with Vacor and his rift spell, or side with the Shadow, and help me get rid of him. Who will you help?”*
+
+
+<span id="route-51"></span>
+
+??? note "Stage 51 · Unzel · 1 way"
+
+    **Way 1:** Talk to [Unzel](../monsters/unzel.md), choose “I will side with you. The Shadow must not be disturbed.”
+
+    - **Needs:** stage 40, 50
+    - *“Thank you my friend. We will keep the Shadow safe from Vacor.”*
+
+
+<span id="route-53"></span>
+
+??? note "Stage 53 · Unzel · 1 way"
+
+    **Way 1:** Talk to [Unzel](../monsters/unzel.md), choose “Hah, I will enjoy killing you!”
+
+    - **Needs:** stage 40
+    - *“Very well, let's fight then.”*
+
+
+<span id="route-54"></span>
+
+??? note "Stage 54 · Vacor · 1 way"
+
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “No. You must be stopped.”
+
+    - **Needs:** stage 40, 51
+    - *“Bah, lowly creature. I knew I shouldn't have trusted you. Now you will die along with your precious Shadow.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Vacor · 1 way"
+
+    **Way 1:** Talk to [Vacor](../monsters/vacor.md), choose “I have dealt with him. Here is his ring.”
+
+    - **Needs:** stage 40; hand over 1× [Unzel's ring](../items/ring_unzel.md)
+    - *“Ha ha, Unzel is dead! That pathetic creature is gone!”*
+
+
+<span id="route-61"></span>
+
+??? note "Stage 61 · Unzel · 1 way"
+
+    **Way 1:** Talk to [Unzel](../monsters/unzel.md), choose “Yes, I have dealt with him.”
+
+    - **Needs:** stage 51; hand over 1× [Vacor's ring](../items/ring_vacor.md)
+    - **Gives:** [Gold coins](../items/gold.md)
+    - *“You killed him? You have my thanks friend. Now we are safe from Vacor's rift spell. Here, take these coins for your help.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

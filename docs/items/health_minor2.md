@@ -54,7 +54,7 @@ description: "Minor potion of health is a ordinary potion in Andor's Trail. How 
 
 ### Found in containers
 
-- [wild16_cave](../maps/wild16_cave.md#container-0) (container 1, 100%), Flagstone Prison
+- [Wild 16 cave](../maps/wild16_cave.md#container-0) (container 1, 100%), Flagstone Prison
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -65,9 +65,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-111) | handed over (1×) | “Here, take this minor potion of health.” |
-| [Forenza](../monsters/forenza.md) ([laerothbasement2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-48) | handed over (1×) | “I have an little health potion for you. It's all I have. Take it!” |
-| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([crackshot_hideout4](../maps/crackshot_hideout4.md)) | – | handed over (1×) | “Here, have a minor vial of health.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-111) | handed over (1×) | “Here, take this minor potion of health.” |
+| [Forenza](../monsters/forenza.md) ([Laerothbasement 2](../maps/laerothbasement2.md)) | [The odd coin collector](../quests/odd_coin_collector.md#stage-48) | handed over (1×) | “I have an little health potion for you. It's all I have. Take it!” |
+| [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) | – | handed over (1×) | “Here, have a minor vial of health.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

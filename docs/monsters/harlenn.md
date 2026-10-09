@@ -4,7 +4,7 @@ description: "Harlenn is an NPC who can also be fought in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_men2_6.png){ .sprite } Harlenn
 
-**Where to find Harlenn:** Prim: [blackwater_mountain45](../maps/blackwater_mountain45.md#pin-npc-harlenn)
+**Where to find Harlenn:** Prim: [Blackwater mountain 45](../maps/blackwater_mountain45.md#pin-npc-harlenn)
 
 <div class="infobox" markdown>
 
@@ -59,7 +59,7 @@ description: "Harlenn is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain45](../maps/blackwater_mountain45.md) | Prim | 1 | – |
+| [Blackwater mountain 45](../maps/blackwater_mountain45.md) | Prim | 1 | – |
 
 ## Quests
 
@@ -68,7 +68,7 @@ description: "Harlenn is an NPC who can also be fought in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Harlenn. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Harlenn. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/harlenn_start.json" data-npc="Harlenn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (73 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-harlenn_start"></span>**`harlenn_start`** *(silent check: the first matching branch below is taken)*
 
@@ -412,7 +412,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Thank you, friend. Your help is greatly appreciated. Everyone in the …” → “Thank you, friend. Your help is greatly appreciated. Everyone in the …”<br>· text: “We believe they are planning to attack us any day now. But we lack an…” → “We believe they are planning to attack us any day now. But we lack th…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Hm, you might have a point there.” → “Hmm, you might have a point there.”<br>· text: “Ok, this leaves us with no choice. We will have to step this up to an…” → “OK, this leaves us with no choice. We will have to step this up to an…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

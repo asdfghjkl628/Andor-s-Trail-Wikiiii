@@ -24,9 +24,9 @@ description: "Nor city made blade is a ordinary other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [brightport_smugglercave1](../maps/brightport_smugglercave1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-154) (1×)
-- From walking into a blocked passage on [brightport_smugglercave1](../maps/brightport_smugglercave1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-223) (3×)
-- From walking into a blocked passage on [brightport_smugglercave1](../maps/brightport_smugglercave1.md) during [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-223) (7×)
+- From walking into a blocked passage on [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-154) (1×)
+- From walking into a blocked passage on [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-223) (3×)
+- From walking into a blocked passage on [Brightport smugglercave 1](../maps/brightport_smugglercave1.md) during [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-223) (7×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,10 +37,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gunfryk](../monsters/brightportguardcaptain.md#v-brightport_gunfrykstill) ([brightport_bakery](../maps/brightport_bakery.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-240) | handed over (1×) | “I found their hideout and inside was this blade.” |
-| [Gunfryk](../monsters/brightportguardcaptain.md#v-brightport_gunfrykstill) ([brightport_bakery](../maps/brightport_bakery.md)) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-211) | handed over (1×) | “I found a bunch of goods hidden in a cave east, here's a blade I took.” |
-| [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../maps/brightport_benbyr.md)) | – | must be carried (1×) | “I think you guys owe me some gold now.” |
-| [Barthold](../monsters/brightportgoons1.md) ([brightport_benbyr](../maps/brightport_benbyr.md)) | – | must be carried (1×) | “You don't have the Guild's protection. Either I give this blade I took from your” |
+| [Gunfryk](../monsters/brightportguardcaptain.md#v-brightport_gunfrykstill) ([Brightport bakery](../maps/brightport_bakery.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-240) | handed over (1×) | “I found their hideout and inside was this blade.” |
+| [Gunfryk](../monsters/brightportguardcaptain.md#v-brightport_gunfrykstill) ([Brightport bakery](../maps/brightport_bakery.md)) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-211) | handed over (1×) | “I found a bunch of goods hidden in a cave east, here's a blade I took.” |
+| [Barthold](../monsters/brightportgoons1.md) ([Brightport benbyr](../maps/brightport_benbyr.md)) | – | must be carried (1×) | “I think you guys owe me some gold now.” |
+| [Barthold](../monsters/brightportgoons1.md) ([Brightport benbyr](../maps/brightport_benbyr.md)) | – | must be carried (1×) | “You don't have the Guild's protection. Either I give this blade I took from your” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

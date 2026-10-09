@@ -38,7 +38,7 @@ description: "Kid's gloves is a ordinary gloves, cloth in Andor's Trail (Max HP 
 
 ### Found in containers
 
-- [home](../maps/home.md#container-0) (container 1, 100%), Crossglen
+- [Home](../maps/home.md#container-0) (container 1, 100%), Crossglen
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

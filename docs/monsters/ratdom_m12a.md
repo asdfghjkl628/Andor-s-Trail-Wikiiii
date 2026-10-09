@@ -4,7 +4,7 @@ description: "Quick viper is an enemy in Andor's Trail (reptile) with 30 HP, wor
 
 # ![](../assets/icons/monsters/monsters_tometik4_20.png){ .sprite } Quick viper
 
-**Found in:** Instrument maker: [ratdom_maze_544](../maps/ratdom_maze_544.md), Museum: [ratdom_maze_624](../maps/ratdom_maze_624.md), Museum: [ratdom_maze_634](../maps/ratdom_maze_634.md), Pub: [ratdom_maze_623](../maps/ratdom_maze_623.md) (+2 more)
+**Found in:** Instrument maker: [Ratdom maze 544](../maps/ratdom_maze_544.md), Museum: [Ratdom maze 624](../maps/ratdom_maze_624.md), Museum: [Ratdom maze 634](../maps/ratdom_maze_634.md), Pub: [Ratdom maze 623](../maps/ratdom_maze_623.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -58,12 +58,12 @@ description: "Quick viper is an enemy in Andor's Trail (reptile) with 30 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_533](../maps/ratdom_maze_533.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_544](../maps/ratdom_maze_544.md) | Instrument maker | 2 | – |
-| [ratdom_maze_622](../maps/ratdom_maze_622.md) | Skeleton dance | 2 | – |
-| [ratdom_maze_623](../maps/ratdom_maze_623.md) | Pub | 2 | – |
-| [ratdom_maze_624](../maps/ratdom_maze_624.md) | Museum | 2 | – |
-| [ratdom_maze_634](../maps/ratdom_maze_634.md) | Museum | 2 | – |
+| [Ratdom maze 533](../maps/ratdom_maze_533.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 544](../maps/ratdom_maze_544.md) | Instrument maker | 2 | – |
+| [Ratdom maze 622](../maps/ratdom_maze_622.md) | Skeleton dance | 2 | – |
+| [Ratdom maze 623](../maps/ratdom_maze_623.md) | Pub | 2 | – |
+| [Ratdom maze 624](../maps/ratdom_maze_624.md) | Museum | 2 | – |
+| [Ratdom maze 634](../maps/ratdom_maze_634.md) | Museum | 2 | – |
 
 
 ## Version history

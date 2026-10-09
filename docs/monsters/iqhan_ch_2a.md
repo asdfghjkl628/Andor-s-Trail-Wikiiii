@@ -1,5 +1,5 @@
 ---
-description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 78–79 HP, worth 244–254 XP, found in pwcave3, pwcave4. Drops: Gold coins, Iqhan pendant, Wooden buckler, Iron dagger."
+description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 78–79 HP, worth 244–254 XP, found in Pwcave 3, Pwcave 4. Drops: Gold coins, Iqhan pendant, Wooden buckler, Iron dagger."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_134.png){ .sprite } Iqhan chaos servant
@@ -11,7 +11,7 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave3, pwcave4 |
+| **Found in** | Pwcave 3, Pwcave 4 |
 | **Class** | Humanoid |
 | **HP** | 78–79 |
 | **XP when defeated** | 244–254 |
@@ -21,18 +21,18 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Iqhan chaos servant. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Iqhan chaos servant. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`iqhan_ch_2a`](#v-iqhan_ch_2a) | Enemy | [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md) | – | 78 |
-| [`iqhan_ch_2b`](#v-iqhan_ch_2b) | Enemy | [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md) | – | 79 |
+| [`iqhan_ch_2a`](#v-iqhan_ch_2a) | Enemy | [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md) | – | 78 |
+| [`iqhan_ch_2b`](#v-iqhan_ch_2b) | Enemy | [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md) | – | 79 |
 
-## Pwcave3 and 1 more (iqhan_ch_2a) { #v-iqhan_ch_2a }
+## Pwcave 3 and 1 more (iqhan_ch_2a) { #v-iqhan_ch_2a }
 
 **Entry ID:** `iqhan_ch_2a` · **Type:** Enemy
 
-**Location:** [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -71,8 +71,8 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave3](../maps/pwcave3.md) | – | 5 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 2 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 5 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
 
 
 ### Version history
@@ -134,11 +134,11 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
     ```
 
 
-## Pwcave3 and 1 more (iqhan_ch_2b) { #v-iqhan_ch_2b }
+## Pwcave 3 and 1 more (iqhan_ch_2b) { #v-iqhan_ch_2b }
 
 **Entry ID:** `iqhan_ch_2b` · **Type:** Enemy
 
-**Location:** [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -177,8 +177,8 @@ description: "Iqhan chaos servant is an enemy in Andor's Trail (humanoid) with 7
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave3](../maps/pwcave3.md) | – | 5 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 2 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 5 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
 
 
 ### Version history

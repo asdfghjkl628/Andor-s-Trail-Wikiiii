@@ -1,8 +1,8 @@
 ---
-description: "Brightport bakery2 is an indoor location in Andor's Trail, in Brightport (settlement). Exits to Brightport bakery, Brightport bakery3."
+description: "Brightport bakery 2 is an indoor location in Andor's Trail, in Brightport (settlement). Exits to Brightport bakery, Brightport bakery 3."
 ---
 
-# Brightport bakery2
+# Brightport bakery 2
 
 <div class="infobox" markdown>
 
@@ -17,20 +17,20 @@ description: "Brightport bakery2 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport bakery2** is an indoor map, in Brightport (settlement). It has no NPCs, and no enemies. Exits lead to Brightport bakery, Brightport bakery3.
+**Brightport bakery 2** is an indoor map, in Brightport (settlement). It has no NPCs, and no enemies. Exits lead to Brightport bakery, Brightport bakery 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_bakery2.webp" alt="Map of Brightport bakery2" width="512" height="224" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport_bakery/#place-stair" title="Exit to Brightport bakery" style="left:6.250%;top:57.143%;width:6.250%;height:14.286%"></a><a id="place-office" class="mo mo-mapchange" href="../brightport_bakery3/#place-entrance" title="Exit to Brightport bakery3" style="left:43.750%;top:28.571%;width:6.250%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:9.375%;top:64.286%" title="Exit (west): to [Brightport bakery](brightport_bakery.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:46.875%;top:35.714%" title="Exit (stairs / passage): to [Brightport bakery3](brightport_bakery3.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_bakery2.webp" alt="Map of Brightport bakery 2" width="512" height="224" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brightport_bakery/#place-stair" title="Exit to Brightport bakery" style="left:6.250%;top:57.143%;width:6.250%;height:14.286%"></a><a id="place-office" class="mo mo-mapchange" href="../brightport_bakery3/#place-entrance" title="Exit to Brightport bakery 3" style="left:43.750%;top:28.571%;width:6.250%;height:14.286%"></a><a class="pin pin-exit" href="#key-1" style="left:9.375%;top:64.286%" title="Exit (west): to [Brightport bakery](brightport_bakery.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:46.875%;top:35.714%" title="Exit (stairs / passage): to [Brightport bakery 3](brightport_bakery3.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
     | <span id="key-1"></span>1 | Exit (west) | to [Brightport bakery](brightport_bakery.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport bakery3](brightport_bakery3.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport bakery 3](brightport_bakery3.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,7 +40,7 @@ description: "Brightport bakery2 is an indoor location in Andor's Trail, in Brig
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
 | West | [Brightport bakery](brightport_bakery.md) | Brightport | 1 |
-| Stairs / passage | [Brightport bakery3](brightport_bakery3.md) | Brightport | 2 |
+| Stairs / passage | [Brightport bakery 3](brightport_bakery3.md) | Brightport | 2 |
 
 
 ## Version history

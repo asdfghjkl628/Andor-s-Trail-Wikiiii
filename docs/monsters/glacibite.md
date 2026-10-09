@@ -4,7 +4,7 @@ description: "Glacibite is an enemy in Andor's Trail (humanoid) with 212 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rltiles4_25.png){ .sprite } Glacibite
 
-**Found in:** Mt. Galmore: [galmore_75](../maps/galmore_75.md), Mt. Galmore: [galmore_76](../maps/galmore_76.md), Mt. Galmore: [galmore_85](../maps/galmore_85.md), Mt. Galmore: [galmore_86](../maps/galmore_86.md)
+**Found in:** Mt. Galmore: [Galmore 75](../maps/galmore_75.md), Mt. Galmore: [Galmore 76](../maps/galmore_76.md), Mt. Galmore: [Galmore 85](../maps/galmore_85.md), Mt. Galmore: [Galmore 86](../maps/galmore_86.md)
 
 <div class="infobox" markdown>
 
@@ -58,10 +58,10 @@ description: "Glacibite is an enemy in Andor's Trail (humanoid) with 212 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_75](../maps/galmore_75.md) | Mt. Galmore | 8 | – |
-| [galmore_76](../maps/galmore_76.md) | Mt. Galmore | 7 | – |
-| [galmore_85](../maps/galmore_85.md) | Mt. Galmore | 13 | – |
-| [galmore_86](../maps/galmore_86.md) | Mt. Galmore | 4 | – |
+| [Galmore 75](../maps/galmore_75.md) | Mt. Galmore | 8 | – |
+| [Galmore 76](../maps/galmore_76.md) | Mt. Galmore | 7 | – |
+| [Galmore 85](../maps/galmore_85.md) | Mt. Galmore | 13 | – |
+| [Galmore 86](../maps/galmore_86.md) | Mt. Galmore | 4 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Tough plaguecrawler is an enemy in Andor's Trail (insect) with 59 HP, worth 199 XP, found in waytolake0, waytolake1, waytolake2. Drops: Gold coins, Poison gland, Dead spider."
+description: "Tough plaguecrawler is an enemy in Andor's Trail (insect) with 59 HP, worth 199 XP, found in Waytolake 0, Waytolake 1, Waytolake 2. Drops: Gold coins, Poison gland, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_61.png){ .sprite } Tough plaguecrawler
 
-**Found in:** [waytolake0](../maps/waytolake0.md), [waytolake1](../maps/waytolake1.md), [waytolake2](../maps/waytolake2.md), [waytolake4](../maps/waytolake4.md) (+1 more)
+**Found in:** [Waytolake 0](../maps/waytolake0.md), [Waytolake 1](../maps/waytolake1.md), [Waytolake 2](../maps/waytolake2.md), [Waytolake 4](../maps/waytolake4.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough plaguecrawler is an enemy in Andor's Trail (insect) with 59 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytolake0, waytolake1, waytolake2 |
+| **Found in** | Waytolake 0, Waytolake 1, Waytolake 2 |
 | **Class** | Insect |
 | **HP** | 59 |
 | **XP when defeated** | 199 |
@@ -58,11 +58,11 @@ description: "Tough plaguecrawler is an enemy in Andor's Trail (insect) with 59 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolake0](../maps/waytolake0.md) | – | 6 | – |
-| [waytolake1](../maps/waytolake1.md) | – | 3 | – |
-| [waytolake2](../maps/waytolake2.md) | – | 2 | – |
-| [waytolake4](../maps/waytolake4.md) | – | 1 | – |
-| [waytolake9](../maps/waytolake9.md) | – | 5 | – |
+| [Waytolake 0](../maps/waytolake0.md) | – | 6 | – |
+| [Waytolake 1](../maps/waytolake1.md) | – | 3 | – |
+| [Waytolake 2](../maps/waytolake2.md) | – | 2 | – |
+| [Waytolake 4](../maps/waytolake4.md) | – | 1 | – |
+| [Waytolake 9](../maps/waytolake9.md) | – | 5 | – |
 
 
 ## Version history

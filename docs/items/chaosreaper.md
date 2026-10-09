@@ -50,8 +50,8 @@ description: "Chaosreaper is a extraordinary scepter in Andor's Trail (Attack da
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Iqhan chaos beast](../monsters/iqhan_chb_1a.md) | 0.1% | 1 | pwcave2a, pwcave4 |
-| [Iqhan chaos beast](../monsters/iqhan_chb_1a.md#v-iqhan_chb_1b) | 0.1% | 1 | pwcave2a, pwcave4 |
+| [Iqhan chaos beast](../monsters/iqhan_chb_1a.md) | 0.1% | 1 | Pwcave 2a, Pwcave 4 |
+| [Iqhan chaos beast](../monsters/iqhan_chb_1a.md#v-iqhan_chb_1b) | 0.1% | 1 | Pwcave 2a, Pwcave 4 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

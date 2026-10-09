@@ -4,7 +4,7 @@ description: "Strong gornaud is an enemy in Andor's Trail (giant) with 95 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rltiles2_30.png){ .sprite } Strong gornaud
 
-**Found in:** Blackwater Mountain: [blackwater_mountain17](../maps/blackwater_mountain17.md), Blackwater Mountain: [blackwater_mountain18](../maps/blackwater_mountain18.md), Blackwater Mountain: [blackwater_mountain19](../maps/blackwater_mountain19.md)
+**Found in:** Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md), Blackwater Mountain: [Blackwater mountain 18](../maps/blackwater_mountain18.md), Blackwater Mountain: [Blackwater mountain 19](../maps/blackwater_mountain19.md)
 
 <div class="infobox" markdown>
 
@@ -59,9 +59,9 @@ description: "Strong gornaud is an enemy in Andor's Trail (giant) with 95 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain17](../maps/blackwater_mountain17.md) | Blackwater Mountain | 1 | – |
-| [blackwater_mountain18](../maps/blackwater_mountain18.md) | Blackwater Mountain | 3 | – |
-| [blackwater_mountain19](../maps/blackwater_mountain19.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 17](../maps/blackwater_mountain17.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 18](../maps/blackwater_mountain18.md) | Blackwater Mountain | 3 | – |
+| [Blackwater mountain 19](../maps/blackwater_mountain19.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

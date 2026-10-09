@@ -1,10 +1,10 @@
 ---
-description: "Arulir Pack Leader is an enemy in Andor's Trail (giant) with 1000 HP, worth 1299 XP, found in arulircave6. Drops: Arulir skin, Gold coins, Blue Crystals, Red Crystals."
+description: "Arulir Pack Leader is an enemy in Andor's Trail (giant) with 1000 HP, worth 1299 XP, found in Arulircave 6. Drops: Arulir skin, Gold coins, Blue Crystals, Red Crystals."
 ---
 
 # ![](../assets/icons/monsters/monsters_arulirs_8.png){ .sprite } Arulir Pack Leader
 
-**Found in:** [arulircave6](../maps/arulircave6.md)
+**Found in:** [Arulircave 6](../maps/arulircave6.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Arulir Pack Leader is an enemy in Andor's Trail (giant) with 1000 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | arulircave6 |
+| **Found in** | Arulircave 6 |
 | **Class** | Giant |
 | **HP** | 1000 |
 | **XP when defeated** | 1,299 |
@@ -61,7 +61,7 @@ description: "Arulir Pack Leader is an enemy in Andor's Trail (giant) with 1000 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [arulircave6](../maps/arulircave6.md) | – | 1 | – |
+| [Arulircave 6](../maps/arulircave6.md) | – | 1 | – |
 
 
 ## Version history

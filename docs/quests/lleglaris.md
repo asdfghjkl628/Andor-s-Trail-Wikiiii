@@ -11,9 +11,9 @@ description: "Long lost memories is a quest in Andor's Trail, started by Lleglar
 | **Quest ID** | `lleglaris` |
 | **In journal** | Yes |
 | **Stages** | 4 (completes at 40) |
-| **Started by** | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) |
+| **Started by** | [Lleglaris](../monsters/lleglaris.md) ([Tradehouse 1](../maps/tradehouse1.md)) |
 | **NPCs involved** | [Lleglaris](../monsters/lleglaris.md) |
-| **Locations** | [tradehouse1](../maps/tradehouse1.md) |
+| **Locations** | [Tradehouse 1](../maps/tradehouse1.md) |
 | **Total XP** | 3,000 |
 
 </div>
@@ -24,7 +24,7 @@ description: "Long lost memories is a quest in Andor's Trail, started by Lleglar
 
 ## Prerequisites to start
 
-Start with [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)). Required:
+Start with [Lleglaris](../monsters/lleglaris.md) ([Tradehouse 1](../maps/tradehouse1.md)). Required:
 
 - reached stage 15 of [Long lost memories](../quests/lleglaris.md#stage-15)
 
@@ -39,34 +39,64 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | In a cabin just off the Duleian road northwest of the Foaming Flask tavern, I met a man called Lleglaris. He wants me to retrieve an amulet that he has lost. | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | stage 15 | – |
-| <span id="stage-15"></span>15 | The amulet can be found in a cave infested with undead to the east of his cabin. He said something about the ground having been corrupted around that cave. I don't know what he meant. | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | I have given the amulet back to Lleglaris. | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | hand over 1× [Lleglaris' amulet](../items/lleglaris.md), stage 15 | – |
-| <span id="stage-40"></span>40 | As thanks, Lleglaris offered to trade some of his items with me. **(completes quest)** | [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) | stage 30 | 3,000 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">In a cabin just off the Duleian road northwest of the Foaming Flask… ▸</span><span class="l">▴ less</span></summary>In a cabin just off the Duleian road northwest of the Foaming Flask tavern, I met a man called Lleglaris. He wants me to retrieve an amulet that he has lost.</details> | [Lleglaris](../monsters/lleglaris.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | <details class="jt"><summary><span class="s">The amulet can be found in a cave infested with undead to the east… ▸</span><span class="l">▴ less</span></summary>The amulet can be found in a cave infested with undead to the east of his cabin. He said something about the ground having been corrupted around that cave. I don't know what he meant.</details> | [Lleglaris](../monsters/lleglaris.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I have given the amulet back to Lleglaris. | [Lleglaris](../monsters/lleglaris.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | As thanks, Lleglaris offered to trade some of his items with me. **(ends quest)** | [Lleglaris](../monsters/lleglaris.md) | 3,000 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) → choose “I'll go look for your amulet.” — **conditions:** reached stage 15 of [Long lost memories](../quests/lleglaris.md#stage-15) → **stage 10**. NPC: “Good.”
+??? note "Stage 10 · Lleglaris · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Lleglaris](../monsters/lleglaris.md), choose “I'll go look for your amulet.”
 
-    1. Talk to [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) → the conversation leads here automatically — **conditions:** reached stage 10 of [Long lost memories](../quests/lleglaris.md#stage-10) → **stage 15**. NPC: “Go look just east of my cabin here. You probably need to take the path north when you exit the cabin, and then head…”
+    - **Needs:** stage 15
+    - *“Good.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) → choose “Yes, here it is.” — **conditions:** reached stage 15 of [Long lost memories](../quests/lleglaris.md#stage-15); hand over 1× [Lleglaris' amulet](../items/lleglaris.md) → **stage 30**. NPC: “Yes, that's the one. It's good to see it back in my hands again.”
+<span id="route-15"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 15 · Lleglaris · 1 way"
 
-    1. Talk to [Lleglaris](../monsters/lleglaris.md) ([tradehouse1](../maps/tradehouse1.md)) → the conversation leads here automatically — **conditions:** reached stage 30 of [Long lost memories](../quests/lleglaris.md#stage-30) → **stage 40**. NPC: “Anyway, see this table here? It's just some old trinkets that I've gathered along the years. Maybe some of them could…”
+    **Way 1:** Talk to [Lleglaris](../monsters/lleglaris.md), automatic
+
+    - **Needs:** stage 10
+    - *“Go look just east of my cabin here. You probably need to take the path north when you exit the cabin, and then head east.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Lleglaris · 1 way"
+
+    **Way 1:** Talk to [Lleglaris](../monsters/lleglaris.md), choose “Yes, here it is.”
+
+    - **Needs:** stage 15; hand over 1× [Lleglaris' amulet](../items/lleglaris.md)
+    - *“Yes, that's the one. It's good to see it back in my hands again.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Lleglaris · 1 way"
+
+    **Way 1:** Talk to [Lleglaris](../monsters/lleglaris.md), automatic
+
+    - **Needs:** stage 30
+    - *“Anyway, see this table here? It's just some old trinkets that I've gathered along the years. Maybe some of them could come in handy for you?”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

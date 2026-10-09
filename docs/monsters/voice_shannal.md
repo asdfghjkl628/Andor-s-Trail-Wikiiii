@@ -4,7 +4,7 @@ description: "Voice of Shannal is an enemy in Andor's Trail (humanoid) with 1 HP
 
 # ![](../assets/icons/monsters/monsters_gisons_15.png){ .sprite } Voice of Shannal
 
-**Found in:** Mt. Galmore: [undertell_exit](../maps/undertell_exit.md)
+**Found in:** Mt. Galmore: [Undertell exit](../maps/undertell_exit.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Voice of Shannal is an enemy in Andor's Trail (humanoid) with 1 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_exit](../maps/undertell_exit.md) | Mt. Galmore | 1 | – |
+| [Undertell exit](../maps/undertell_exit.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

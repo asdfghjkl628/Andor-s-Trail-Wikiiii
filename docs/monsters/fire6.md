@@ -1,10 +1,10 @@
 ---
-description: "Flame spawn is an enemy in Andor's Trail (construct) with 127 HP, worth 319 XP, found in lostmine10, lostmine9. Drops: Burnt ash, Glass gem."
+description: "Flame spawn is an enemy in Andor's Trail (construct) with 127 HP, worth 319 XP, found in Lostmine 10, Lostmine 9. Drops: Burnt ash, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_2.png){ .sprite } Flame spawn
 
-**Found in:** [lostmine10](../maps/lostmine10.md), [lostmine9](../maps/lostmine9.md)
+**Found in:** [Lostmine 10](../maps/lostmine10.md), [Lostmine 9](../maps/lostmine9.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Flame spawn is an enemy in Andor's Trail (construct) with 127 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lostmine10, lostmine9 |
+| **Found in** | Lostmine 10, Lostmine 9 |
 | **Class** | Construct |
 | **HP** | 127 |
 | **XP when defeated** | 319 |
@@ -61,8 +61,8 @@ description: "Flame spawn is an enemy in Andor's Trail (construct) with 127 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine10](../maps/lostmine10.md) | – | 7 | – |
-| [lostmine9](../maps/lostmine9.md) | – | 6 | – |
+| [Lostmine 10](../maps/lostmine10.md) | – | 7 | – |
+| [Lostmine 9](../maps/lostmine9.md) | – | 6 | – |
 
 
 ## Version history

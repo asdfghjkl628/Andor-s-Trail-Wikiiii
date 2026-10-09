@@ -29,8 +29,8 @@ description: "Grabby's ring is a quest other in Andor's Trail. How to get it: mo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Grabby](../monsters/aidem_camp_grabby.md) | 100% | 1 | aidem_base_2, aidem_camp |
-| [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_base_grabby_aggressive) | 100% | 1 | aidem_base_2 |
+| [Grabby](../monsters/aidem_camp_grabby.md) | 100% | 1 | Aidem base 2, Aidem camp |
+| [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_base_grabby_aggressive) | 100% | 1 | Aidem base 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -41,7 +41,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | [Wanted men](../quests/wanted_men.md#stage-80) | handed over (1×) | “Yes. I looted their rings. [Shows them to Troublemaker]” |
+| [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | [Wanted men](../quests/wanted_men.md#stage-80) | handed over (1×) | “Yes. I looted their rings. [Shows them to Troublemaker]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

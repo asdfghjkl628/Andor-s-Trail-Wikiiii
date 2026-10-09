@@ -4,7 +4,7 @@ description: "Erinith is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_rltiles1_82.png){ .sprite } Erinith
 
-**Where to find Erinith:** Crossroads Guardhouse: [wild0](../maps/wild0.md#pin-npc-erinith)
+**Where to find Erinith:** Crossroads Guardhouse: [Wild 0](../maps/wild0.md#pin-npc-erinith)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Erinith is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Erinith. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Erinith. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/erinith.json" data-npc="Erinith" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (30 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-erinith"></span>**`erinith`** *(silent check: the first matching branch below is taken)*
 
@@ -178,7 +178,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Bonemeal potion? But.. but.. We are not allowed to use them since the…” → “Bonemeal potion? But ... but ... we are not allowed to use them since…”<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Thank you for bringing them to me. *drinks all four potions*” → “Thank you for bringing them to me. [Drinks all four potions]”<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
 | [v0.8.7](../versions/0.8.7.md) | Dialogue: 1 line changed<br>· text: “I have heard that the potion makers these days have potions of major …” → “I have heard that the potion makers these days have major potions of …” |
 

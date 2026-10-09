@@ -1,10 +1,10 @@
 ---
-description: "Teksin is a non-player character (NPC) in Andor's Trail, found in waytolake11. Shopkeeper."
+description: "Teksin is a non-player character (NPC) in Andor's Trail, found in Waytolake 11. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_71.png){ .sprite } Teksin
 
-**Where to find Teksin:** [waytolake11](../maps/waytolake11.md#pin-npc-teksin)
+**Where to find Teksin:** [Waytolake 11](../maps/waytolake11.md#pin-npc-teksin)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Teksin is a non-player character (NPC) in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
-| **Found in** | waytolake11 |
+| **Found in** | Waytolake 11 |
 | **Entry ID** | `teksin` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
@@ -44,11 +44,11 @@ description: "Teksin is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): stages 140, 150, 160
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): stages 140, 150, 160
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Teksin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Teksin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/teksin_10.json" data-npc="Teksin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -56,21 +56,21 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (14 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-teksin_10"></span>**`teksin_10`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 140 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-140))* → [teksin11](#d-teksin11)
-    - Next *(if NOT reached stage 140 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-140))* → [teksin12](#d-teksin12)
+    - Next *(if reached stage 140 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-140))* → [teksin11](#d-teksin11)
+    - Next *(if NOT reached stage 140 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-140))* → [teksin12](#d-teksin12)
 
     <span id="d-teksin11"></span>**`teksin11`** Teksin: “Hello again.”
 
-    - “How do I get to Remgard?” *(if reached stage 160 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-160))* → [teksin70](#d-teksin70)
-    - “What can you tell me about Remgard?” *(if reached stage 160 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-160))* → [teksin60](#d-teksin60)
+    - “How do I get to Remgard?” *(if reached stage 160 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-160))* → [teksin70](#d-teksin70)
+    - “What can you tell me about Remgard?” *(if reached stage 160 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-160))* → [teksin60](#d-teksin60)
     - “Do you have anything to trade?” → [teksin80](#d-teksin80)
     - “I'm looking for my brother, Andor. He looks a bit like me.” → [teksin20](#d-teksin20)
 
-    <span id="d-teksin12"></span>**`teksin12`** Teksin: “Hello. My name is Teksin. I'm a trader. Who are you?” — **effects:** sets stage 140 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-140)
+    <span id="d-teksin12"></span>**`teksin12`** Teksin: “Hello. My name is Teksin. I'm a trader. Who are you?” — **effects:** sets stage 140 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-140)
 
     - “I am $playername. I am looking for my brother, Andor. He looks a bit like me.” → [teksin20](#d-teksin20)
 
@@ -95,7 +95,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-teksin85"></span>**`teksin85`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 150 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-150))* → [teksin90](#d-teksin90)
+    - Next *(if NOT reached stage 150 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-150))* → [teksin90](#d-teksin90)
     - “OK. Show me what you have.” → *shop opens*
 
     <span id="d-teksin30"></span>**`teksin30`** Teksin: “I have been out in the wild for a while, and have seen nobody since I left the main road weeks ago.”
@@ -118,14 +118,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “OK. I'll take it.” *(if pay 4,999 gold)* → [teksin110](#d-teksin110)
     - “I think I'll just be on my way.” → *conversation ends*
 
-    <span id="d-teksin50"></span>**`teksin50`** Teksin: “This is as close as I can get coming this way. I am an experienced traveler, and I know that Remgard is close. It's north across this lake, but there is no way to cross, or to go further east around the lake.” — **effects:** sets stage 160 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-160)
+    <span id="d-teksin50"></span>**`teksin50`** Teksin: “This is as close as I can get coming this way. I am an experienced traveler, and I know that Remgard is close. It's north across this lake, but there is no way to cross, or to go further east around the lake.” — **effects:** sets stage 160 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-160)
 
     - “It sounds like you are not quite the experienced traveler you claim to be.” → *conversation ends*
     - “I guess it was worth a try. What can you tell me about Remgard?” → [teksin60](#d-teksin60)
     - “How do I get to Remgard?” → [teksin70](#d-teksin70)
     - “Do you have anything to trade?” → [teksin80](#d-teksin80)
 
-    <span id="d-teksin110"></span>**`teksin110`** Teksin: “Use it wisely. Such a potion is very hard to obtain. It is unlikely I will have any more to sell in the future.” — **effects:** sets stage 150 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-150), gives 1× [Potion of lightning attack](../items/pot_light_attack.md)
+    <span id="d-teksin110"></span>**`teksin110`** Teksin: “Use it wisely. Such a potion is very hard to obtain. It is unlikely I will have any more to sell in the future.” — **effects:** sets stage 150 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-150), gives 1× [Potion of lightning attack](../items/pot_light_attack.md)
 
     - “Thanks for the advice. Please show me what else you have to trade.” → *shop opens*
     - “Thanks for the advice. I need to go now.” → *conversation ends*

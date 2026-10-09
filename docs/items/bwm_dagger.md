@@ -49,11 +49,11 @@ description: "Blackwater dagger is a rare dagger in Andor's Trail (Attack damage
 
 ### Sold by
 
-- [Waeges](../monsters/waeges.md) (blackwater_mountain43)
+- [Waeges](../monsters/waeges.md) (Blackwater mountain 43)
 
 ### Quest & dialogue rewards
 
-- From [Guthbered](../monsters/guthbered.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
+- From [Guthbered](../monsters/guthbered.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) during [Clouded intent](../quests/prim_hunt.md#stage-100) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

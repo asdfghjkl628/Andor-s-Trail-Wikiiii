@@ -1,8 +1,8 @@
 ---
-description: "Gold and Exp reward for Delivery quest completed - nondisplay is a hidden quest in Andor's Trail, started by Facutloni (brimhaven_warehouse). 3 stages. Not yet done."
+description: "Brimhaven warehouse delivery reward is a hidden quest in Andor's Trail, started by Facutloni (brimhaven_warehouse). 3 stages. Not yet done."
 ---
 
-# Gold and Exp reward for Delivery quest completed - nondisplay
+# Brimhaven warehouse delivery reward
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "Gold and Exp reward for Delivery quest completed - nondisplay is a
 | **Quest ID** | `brv_wh_delivery_reward_nondisplay` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
-| **Started by** | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) |
+| **Started by** | [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) |
 | **NPCs involved** | [Facutloni](../monsters/brv_wh_boss.md) |
-| **Locations** | [brimhaven_warehouse](../maps/brimhaven_warehouse.md) |
+| **Locations** | [Brimhaven warehouse](../maps/brimhaven_warehouse.md) |
 | **Related quests** | 2 |
 
 </div>
@@ -27,9 +27,9 @@ description: "Gold and Exp reward for Delivery quest completed - nondisplay is a
 
 ## Prerequisites to start
 
-Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)). Required:
+Start with [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)). Required:
 
-- reached stage 3 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3)
+- reached stage 3 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -40,34 +40,60 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](brv_wh_reward_nondisplay.md#stage-3) | stage 3 reached, for stage 1 here |
+| Requires | [Brimhaven warehouse inventory reward (hidden flag)](brv_wh_reward_nondisplay.md#stage-3) | stage 3 reached, for stage 1 here |
 | Unlocks | [Delivery](brv_wh_delivery.md#stage-130) | stage 130 there needs stage 2 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | Not yet done. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | – | sets stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10)<br>sets stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20)<br>sets stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30)<br>sets stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40)<br>sets stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50)<br>sets stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60)<br>sets stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70)<br>sets stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80)<br>sets stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90)<br>sets stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100)<br>sets stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110)<br>sets stage 120 of [Delivery](../quests/brv_wh_delivery.md#stage-120)<br>gives 1× [Crystal globe](../items/brv_wh_item_00.md)<br>gives 1× [Plush pillow](../items/brv_wh_item_01.md)<br>gives 1× [Lyre](../items/brv_wh_item_02.md)<br>gives 1× [Yellow boot](../items/brv_wh_item_03.md)<br>gives 1× [Chandelier](../items/brv_wh_item_04.md)<br>gives 1× [Mysterious green something](../items/brv_wh_item_05.md)<br>gives 1× [Old, worn cape](../items/brv_wh_item_06.md)<br>gives 1× [Pretty porcelain figure](../items/brv_wh_item_07.md)<br>gives 1× [Striped hammer](../items/brv_wh_item_08.md)<br>gives 1× [Dusty old book](../items/brv_wh_item_09.md)<br>gives 1× [Facutloni's Docket](../items/facutloni_docket.md) |
-| <span id="stage-2"></span>2 | Done. But haven't received gold and exp reward yet. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | pay 330 gold | – |
-| <span id="stage-3"></span>3 | Done. I received gold and exp reward. Old scrooge again. | [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | pay 330 gold, stage 2 | sets stage 130 of [Delivery](../quests/brv_wh_delivery.md#stage-130)<br>gives 100× [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | Not yet done. | [Facutloni](../monsters/brv_wh_boss.md) | sets stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10), sets stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110), sets stage 120 of [Delivery](../quests/brv_wh_delivery.md#stage-120), 1× [Crystal globe](../items/brv_wh_item_00.md), 1× [Plush pillow](../items/brv_wh_item_01.md), 1× [Lyre](../items/brv_wh_item_02.md), 1× [Yellow boot](../items/brv_wh_item_03.md), 1× [Chandelier](../items/brv_wh_item_04.md), 1× [Mysterious green something](../items/brv_wh_item_05.md), 1× [Old, worn cape](../items/brv_wh_item_06.md), 1× [Pretty porcelain figure](../items/brv_wh_item_07.md), 1× [Striped hammer](../items/brv_wh_item_08.md), 1× [Dusty old book](../items/brv_wh_item_09.md), 1× [Facutloni's Docket](../items/facutloni_docket.md) |
+| <span id="stage-2"></span>[2](#route-2) | Done. But haven't received gold and exp reward yet. | [Facutloni](../monsters/brv_wh_boss.md) | – |
+| <span id="stage-3"></span>[3](#route-3) | Done. I received gold and exp reward. Old scrooge again. | [Facutloni](../monsters/brv_wh_boss.md) | sets stage 130 of [Delivery](../quests/brv_wh_delivery.md#stage-130), 100× [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “How may I be of service?” — **conditions:** reached stage 3 of [Gold and Exp reward for Inventory quest completed - nondisplay (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3) → **stage 1**; also sets stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10), sets stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110), sets stage 120 of [Delivery](../quests/brv_wh_delivery.md#stage-120), gives 1× [Crystal globe](../items/brv_wh_item_00.md), gives 1× [Plush pillow](../items/brv_wh_item_01.md), gives 1× [Lyre](../items/brv_wh_item_02.md), gives 1× [Yellow boot](../items/brv_wh_item_03.md), gives 1× [Chandelier](../items/brv_wh_item_04.md), gives 1× [Mysterious green something](../items/brv_wh_item_05.md), gives 1× [Old, worn cape](../items/brv_wh_item_06.md), gives 1× [Pretty porcelain figure](../items/brv_wh_item_07.md), gives 1× [Striped hammer](../items/brv_wh_item_08.md), gives 1× [Dusty old book](../items/brv_wh_item_09.md), gives 1× [Facutloni's Docket](../items/facutloni_docket.md). NPC: “Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.”
+??? note "Stage 1 · Facutloni · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Talk to [Facutloni](../monsters/brv_wh_boss.md), choose “How may I be of service?”
 
-    1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “Sure. Here you are.” — **conditions:** reached stage 2 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2); pay 330 gold → **stage 2**. NPC: “Good job! I am glad that you work responsibly.”
+    - **Needs:** reached stage 3 of [Brimhaven warehouse inventory reward (hidden flag)](../quests/brv_wh_reward_nondisplay.md#stage-3)
+    - **Gives:** sets stage 10 of [Delivery](../quests/brv_wh_delivery.md#stage-10), sets stage 20 of [Delivery](../quests/brv_wh_delivery.md#stage-20), sets stage 30 of [Delivery](../quests/brv_wh_delivery.md#stage-30), sets stage 40 of [Delivery](../quests/brv_wh_delivery.md#stage-40), sets stage 50 of [Delivery](../quests/brv_wh_delivery.md#stage-50), sets stage 60 of [Delivery](../quests/brv_wh_delivery.md#stage-60), sets stage 70 of [Delivery](../quests/brv_wh_delivery.md#stage-70), sets stage 80 of [Delivery](../quests/brv_wh_delivery.md#stage-80), sets stage 90 of [Delivery](../quests/brv_wh_delivery.md#stage-90), sets stage 100 of [Delivery](../quests/brv_wh_delivery.md#stage-100), sets stage 110 of [Delivery](../quests/brv_wh_delivery.md#stage-110), sets stage 120 of [Delivery](../quests/brv_wh_delivery.md#stage-120), 1× [Crystal globe](../items/brv_wh_item_00.md), 1× [Plush pillow](../items/brv_wh_item_01.md), 1× [Lyre](../items/brv_wh_item_02.md), 1× [Yellow boot](../items/brv_wh_item_03.md), 1× [Chandelier](../items/brv_wh_item_04.md), 1× [Mysterious green something](../items/brv_wh_item_05.md), 1× [Old, worn cape](../items/brv_wh_item_06.md), 1× [Pretty porcelain figure](../items/brv_wh_item_07.md), 1× [Striped hammer](../items/brv_wh_item_08.md), 1× [Dusty old book](../items/brv_wh_item_09.md), 1× [Facutloni's Docket](../items/facutloni_docket.md)
+    - *“Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.”*
 
-???+ note "Stage 3: 1 route"
 
-    1. Talk to [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) → choose “And seriously.” — **conditions:** reached stage 2 of [Gold and Exp reward for Delivery quest completed - nondisplay (hidden flag)](../quests/brv_wh_delivery_reward_nondisplay.md#stage-2); pay 330 gold → **stage 3**; also sets stage 130 of [Delivery](../quests/brv_wh_delivery.md#stage-130), gives 100× [Gold coins](../items/gold.md). NPC: “That is serious. And here you have your well-deserved reward: 100 gold.”
+<span id="route-2"></span>
+
+??? note "Stage 2 · Facutloni · 1 way"
+
+    **Way 1:** Talk to [Facutloni](../monsters/brv_wh_boss.md), choose “Sure. Here you are.”
+
+    - **Needs:** stage 2; pay 330 gold
+    - *“Good job! I am glad that you work responsibly.”*
+
+
+<span id="route-3"></span>
+
+??? note "Stage 3 · Facutloni · 1 way"
+
+    **Way 1:** Talk to [Facutloni](../monsters/brv_wh_boss.md), choose “And seriously.”
+
+    - **Needs:** stage 2; pay 330 gold
+    - **Gives:** sets stage 130 of [Delivery](../quests/brv_wh_delivery.md#stage-130), 100× [Gold coins](../items/gold.md)
+    - *“That is serious. And here you have your well-deserved reward: 100 gold.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -112,6 +138,7 @@ Start with [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../map
     | | |
     |---|---|
     | Quest ID | `brv_wh_delivery_reward_nondisplay` |
+    | Name in game data | `Gold and Exp reward for Delivery quest completed - nondisplay` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3 |
     | Dialogue nodes setting stages | 1: `brv_wh_delivery_boss_30`, 2: `brv_wh_delivery_boss_10_10_yes_10`, 3: `brv_wh_delivery_boss_reward` |

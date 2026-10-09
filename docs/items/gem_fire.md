@@ -28,7 +28,7 @@ description: "Gem of warmth is a extraordinary gem in Andor's Trail. How to get 
 |---|---|---|---|
 | [Young ash spawn](../monsters/ash5.md) | 0.1% | 1 | Charwood |
 | [Ash spawn](../monsters/ash6.md) | 0.1% | 1 | Charwood |
-| [Tough ash spawn](../monsters/ash7.md) | 0.1% | 1 | lostmine5, lostmine6, lostmine7 |
+| [Tough ash spawn](../monsters/ash7.md) | 0.1% | 1 | Lostmine 5, Lostmine 6, Lostmine 7 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,9 +39,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Road rondel](../monsters/road_rondel.md#v-road_rondel_blocker) ([wayto_feygard_duleian_1](../maps/wayto_feygard_duleian_1.md)) | – | must be carried (1×) | “Step aside before I am forced to reunite you two.” |
-| [Local artist](../monsters/stoutford_artist.md) ([stoutford_artist](../maps/stoutford_artist.md)) | [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-58) | must be carried (1×) | “Oh, but I can stay.” |
-| walking into a blocked passage on [brightport_bakery1](../maps/brightport_bakery1.md) | – | must be carried (1×) | “N” |
+| [Road rondel](../monsters/road_rondel.md#v-road_rondel_blocker) ([Wayto feygard duleian 1](../maps/wayto_feygard_duleian_1.md)) | – | must be carried (1×) | “Step aside before I am forced to reunite you two.” |
+| [Local artist](../monsters/stoutford_artist.md) ([Stoutford artist](../maps/stoutford_artist.md)) | [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-58) | must be carried (1×) | “Oh, but I can stay.” |
+| walking into a blocked passage on [Brightport bakery 1](../maps/brightport_bakery1.md) | – | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -4,7 +4,7 @@ description: "Island lizard is an enemy in Andor's Trail (reptile) with 70 HP, w
 
 # ![](../assets/icons/monsters/monsters_tometik2_14.png){ .sprite } Island lizard
 
-**Found in:** Lake Laeroth: [laerothisland0](../maps/laerothisland0.md), Lake Laeroth: [laerothisland1](../maps/laerothisland1.md), Lake Laeroth: [laerothisland2](../maps/laerothisland2.md), Lake Laeroth: [laerothisland3](../maps/laerothisland3.md)
+**Found in:** Lake Laeroth: [Laerothisland 0](../maps/laerothisland0.md), Lake Laeroth: [Laerothisland 1](../maps/laerothisland1.md), Lake Laeroth: [Laerothisland 2](../maps/laerothisland2.md), Lake Laeroth: [Laerothisland 3](../maps/laerothisland3.md)
 
 <div class="infobox" markdown>
 
@@ -55,10 +55,10 @@ description: "Island lizard is an enemy in Andor's Trail (reptile) with 70 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothisland0](../maps/laerothisland0.md) | Lake Laeroth | 4 | – |
-| [laerothisland1](../maps/laerothisland1.md) | Lake Laeroth | 2 | – |
-| [laerothisland2](../maps/laerothisland2.md) | Lake Laeroth | 3 | – |
-| [laerothisland3](../maps/laerothisland3.md) | Lake Laeroth | 2 | – |
+| [Laerothisland 0](../maps/laerothisland0.md) | Lake Laeroth | 4 | – |
+| [Laerothisland 1](../maps/laerothisland1.md) | Lake Laeroth | 2 | – |
+| [Laerothisland 2](../maps/laerothisland2.md) | Lake Laeroth | 3 | – |
+| [Laerothisland 3](../maps/laerothisland3.md) | Lake Laeroth | 2 | – |
 
 
 ## Version history

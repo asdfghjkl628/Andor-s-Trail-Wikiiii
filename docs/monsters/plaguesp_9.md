@@ -1,10 +1,10 @@
 ---
-description: "Tough wooly plaguestrider is an enemy in Andor's Trail (insect) with 66 HP, worth 241 XP, found in mountainlake0, waytolake11, waytolake12. Drops: Gold coins, Poison gland, Dead spider."
+description: "Tough wooly plaguestrider is an enemy in Andor's Trail (insect) with 66 HP, worth 241 XP, found in Mountainlake 0, Waytolake 11, Waytolake 12. Drops: Gold coins, Poison gland, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_153.png){ .sprite } Tough wooly plaguestrider
 
-**Found in:** [mountainlake0](../maps/mountainlake0.md), [waytolake11](../maps/waytolake11.md), [waytolake12](../maps/waytolake12.md), [waytolake2](../maps/waytolake2.md) (+3 more)
+**Found in:** [Mountainlake 0](../maps/mountainlake0.md), [Waytolake 11](../maps/waytolake11.md), [Waytolake 12](../maps/waytolake12.md), [Waytolake 2](../maps/waytolake2.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Tough wooly plaguestrider is an enemy in Andor's Trail (insect) wi
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake0, waytolake11, waytolake12 |
+| **Found in** | Mountainlake 0, Waytolake 11, Waytolake 12 |
 | **Class** | Insect |
 | **HP** | 66 |
 | **XP when defeated** | 241 |
@@ -58,13 +58,13 @@ description: "Tough wooly plaguestrider is an enemy in Andor's Trail (insect) wi
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake0](../maps/mountainlake0.md) | – | 3 | – |
-| [waytolake11](../maps/waytolake11.md) | – | 3 | – |
-| [waytolake12](../maps/waytolake12.md) | – | 3 | – |
-| [waytolake2](../maps/waytolake2.md) | – | 1 | – |
-| [waytolake3](../maps/waytolake3.md) | – | 8 | – |
-| [waytolake4](../maps/waytolake4.md) | – | 3 | – |
-| [waytolake6](../maps/waytolake6.md) | – | 10 | – |
+| [Mountainlake 0](../maps/mountainlake0.md) | – | 3 | – |
+| [Waytolake 11](../maps/waytolake11.md) | – | 3 | – |
+| [Waytolake 12](../maps/waytolake12.md) | – | 3 | – |
+| [Waytolake 2](../maps/waytolake2.md) | – | 1 | – |
+| [Waytolake 3](../maps/waytolake3.md) | – | 8 | – |
+| [Waytolake 4](../maps/waytolake4.md) | – | 3 | – |
+| [Waytolake 6](../maps/waytolake6.md) | – | 10 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Minarra is a non-player character (NPC) in Andor's Trail, found in houseatcrossroads4. Shopkeeper; starts Flows through the veins, The path is clear to me."
+description: "Minarra is a non-player character (NPC) in Andor's Trail, found in Houseatcrossroads 4. Shopkeeper; starts Flows through the veins, The path is clear to me."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_86.png){ .sprite } Minarra
 
-**Where to find Minarra:** [houseatcrossroads4](../maps/houseatcrossroads4.md#pin-npc-minarra)
+**Where to find Minarra:** [Houseatcrossroads 4](../maps/houseatcrossroads4.md#pin-npc-minarra)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Minarra is a non-player character (NPC) in Andor's Trail, found in
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper; starts [Flows through the veins](../quests/loneford.md), [The path is clear to me](../quests/rogorn.md) |
-| **Found in** | houseatcrossroads4 |
+| **Found in** | Houseatcrossroads 4 |
 | **Entry ID** | `minarra` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -51,7 +51,7 @@ description: "Minarra is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Minarra. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Minarra. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/minarra.json" data-npc="Minarra" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -59,7 +59,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (45 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-minarra"></span>**`minarra`** *(silent check: the first matching branch below is taken)*
 
@@ -101,7 +101,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-minarra_trade_1"></span>**`minarra_trade_1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 18 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-18))* → [minarra_trade_2](#d-minarra_trade_2)
+    - branch 1 *(if reached stage 18 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-18))* → [minarra_trade_2](#d-minarra_trade_2)
     - branch 2 → [minarra_trade_rej](#d-minarra_trade_rej)
 
     <span id="d-minarra_first_2"></span>**`minarra_first_2`** Minarra: “Mostly, I see the travellers on the Duleian road from and to Feygard here.”

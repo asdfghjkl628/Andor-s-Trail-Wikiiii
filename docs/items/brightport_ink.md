@@ -35,14 +35,14 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | – | must be carried (1×) | “N” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-61) | handed over (1×) | “We're in a classroom, so evidently, a scholarly question!” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-60) | handed over (1×) | “I should write down my question regarding the theft.” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-62) | handed over (1×) | “Evidently. A tale of my adventures!” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-63) | handed over (1×) | “Perhaps a question?” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-55) | must be carried (1×) | “N” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-64) | must be carried (1×) | “N” |
-| stepping on a trigger on [brightport_school12](../maps/brightport_school12.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-65) | must be carried (1×) | “N” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | – | must be carried (1×) | “N” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-61) | handed over (1×) | “We're in a classroom, so evidently, a scholarly question!” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-60) | handed over (1×) | “I should write down my question regarding the theft.” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-62) | handed over (1×) | “Evidently. A tale of my adventures!” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-63) | handed over (1×) | “Perhaps a question?” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-55) | must be carried (1×) | “N” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-64) | must be carried (1×) | “N” |
+| stepping on a trigger on [Brightport school 12](../maps/brightport_school12.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-65) | must be carried (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

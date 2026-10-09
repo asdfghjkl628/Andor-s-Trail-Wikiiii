@@ -4,7 +4,7 @@ description: "Emmeline is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_220.png){ .sprite } Emmeline
 
-**Where to find Emmeline:** Flagstone Prison: [lake_shore_road_1](../maps/lake_shore_road_1.md#pin-npc-captive_girl)
+**Where to find Emmeline:** Flagstone Prison: [Lake shore road 1](../maps/lake_shore_road_1.md#pin-npc-captive_girl)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Emmeline is a non-player character (NPC) in Andor's Trail, found i
 ## Quests
 
 - [A Wicked witch](../quests/wicked_witch.md): stages 80, 85, 90, 95, 96
-- [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md): stage 1
+- [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md): stage 1
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Emmeline. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Emmeline. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/captive_girl_selector.json" data-npc="Emmeline" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (19 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-captive_girl_selector"></span>**`captive_girl_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → *NPC leaves*
 
-    <span id="d-captive_girl_20"></span>**`captive_girl_20`** Emmeline: “Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.” — **effects:** sets stage 80 of [A Wicked witch](../quests/wicked_witch.md#stage-80), sets stage 1 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-1), spawns monsters on lake_shore_road_0, changes map lake_shore_road_0
+    <span id="d-captive_girl_20"></span>**`captive_girl_20`** Emmeline: “Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.” — **effects:** sets stage 80 of [A Wicked witch](../quests/wicked_witch.md#stage-80), sets stage 1 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-1), spawns monsters on lake_shore_road_0, changes map lake_shore_road_0
 
     - “Thank you, but you don't look well.” → [captive_girl_30](#d-captive_girl_30)
 

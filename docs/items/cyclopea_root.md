@@ -38,10 +38,10 @@ description: "Cyclopea root is a rare edible animal part in Andor's Trail. How t
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cyclopea creeper](../monsters/cyclopea_creeper.md) | 5% | 1 | nw_sullengard_1, way_to_sullengard_west_4 |
-| [Crimoculus Cyclopea creeper](../monsters/agg_cyclopea_creeper.md) | 5% | 1 | nw_sullengard_1 |
-| [Spiked cyclopea creeper](../monsters/spiked_cyclopea_creeper.md) | 3% | 1 | way_to_sullengard_west_2, way_to_sullengard_west_4 |
-| [Verdant cyclopea creeper](../monsters/verdant_cyclopea_creeper.md) | 2% | 1 | way_to_sullengard_west_2, way_to_sullengard_west_5 |
+| [Cyclopea creeper](../monsters/cyclopea_creeper.md) | 5% | 1 | Nw sullengard 1, Way to sullengard west 4 |
+| [Crimoculus Cyclopea creeper](../monsters/agg_cyclopea_creeper.md) | 5% | 1 | Nw sullengard 1 |
+| [Spiked cyclopea creeper](../monsters/spiked_cyclopea_creeper.md) | 3% | 1 | Way to sullengard west 2, Way to sullengard west 4 |
+| [Verdant cyclopea creeper](../monsters/verdant_cyclopea_creeper.md) | 2% | 1 | Way to sullengard west 2, Way to sullengard west 5 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

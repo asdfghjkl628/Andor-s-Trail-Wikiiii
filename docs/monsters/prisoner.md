@@ -4,7 +4,7 @@ description: "Prisoner is an enemy in Andor's Trail (humanoid) with 1 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Prisoner
 
-**Found in:** Fallhaven: [fallhaven_prison](../maps/fallhaven_prison.md)
+**Found in:** Fallhaven: [Fallhaven prison](../maps/fallhaven_prison.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Prisoner is an enemy in Andor's Trail (humanoid) with 1 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_prison](../maps/fallhaven_prison.md) | Fallhaven | 1 | – |
+| [Fallhaven prison](../maps/fallhaven_prison.md) | Fallhaven | 1 | – |
 
 
 ## Version history

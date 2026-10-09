@@ -1,10 +1,10 @@
 ---
-description: "Golden Arulir is an enemy in Andor's Trail (giant) with 403 HP, worth 571 XP, found in arulircave4, arulircave5, arulircave6. Drops: Gold coins, Meat, Animal hair, Arulir skin."
+description: "Golden Arulir is an enemy in Andor's Trail (giant) with 403 HP, worth 571 XP, found in Arulircave 4, Arulircave 5, Arulircave 6. Drops: Gold coins, Meat, Animal hair, Arulir skin."
 ---
 
 # ![](../assets/icons/monsters/monsters_arulirs_12.png){ .sprite } Golden Arulir
 
-**Found in:** [arulircave4](../maps/arulircave4.md), [arulircave5](../maps/arulircave5.md), [arulircave6](../maps/arulircave6.md)
+**Found in:** [Arulircave 4](../maps/arulircave4.md), [Arulircave 5](../maps/arulircave5.md), [Arulircave 6](../maps/arulircave6.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Golden Arulir is an enemy in Andor's Trail (giant) with 403 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | arulircave4, arulircave5, arulircave6 |
+| **Found in** | Arulircave 4, Arulircave 5, Arulircave 6 |
 | **Class** | Giant |
 | **HP** | 403 |
 | **XP when defeated** | 571 |
@@ -59,9 +59,9 @@ description: "Golden Arulir is an enemy in Andor's Trail (giant) with 403 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [arulircave4](../maps/arulircave4.md) | – | 4 | – |
-| [arulircave5](../maps/arulircave5.md) | – | 3 | – |
-| [arulircave6](../maps/arulircave6.md) | – | 6 | – |
+| [Arulircave 4](../maps/arulircave4.md) | – | 4 | – |
+| [Arulircave 5](../maps/arulircave5.md) | – | 3 | – |
+| [Arulircave 6](../maps/arulircave6.md) | – | 6 | – |
 
 
 ## Version history

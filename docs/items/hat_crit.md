@@ -35,7 +35,7 @@ description: "Woodcutter's feathered hat is a extraordinary headwear, cloth in A
 
 ### Quest & dialogue rewards
 
-- From [Ervelyn](../monsters/ervelyn.md) ([remgard_clothes](../maps/remgard_clothes.md)) during [What is that stench?](../quests/remgard2.md#stage-46) (100%)
+- From [Ervelyn](../monsters/ervelyn.md) ([Remgard clothes](../maps/remgard_clothes.md)) during [What is that stench?](../quests/remgard2.md#stage-46) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

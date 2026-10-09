@@ -12,7 +12,7 @@ description: "Guynmart wood 1 is an outdoor location in Andor's Trail, near Guyn
 | **Region** | Near Guynmart Castle (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -74,7 +74,7 @@ description: "Guynmart wood 1 is an outdoor location in Andor's Trail, near Guyn
 ## Quests
 
 - [Roses](../quests/guynmart.md): [Rhodita](../monsters/guynmart_farmer.md) is involved; something on this map advances it; stepping on a trigger here sets stage 180; stepping on a trigger here sets stage 181
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 60
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): something on this map advances it; stepping on a trigger here sets stage 60
 
 ## Points of interest
 

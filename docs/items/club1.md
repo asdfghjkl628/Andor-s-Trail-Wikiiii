@@ -45,9 +45,9 @@ description: "Wooden club is a ordinary club in Andor's Trail (Attack damage 0 t
 | [Larcal](../monsters/larcal.md) | 100% | 1 | – |
 | [Torturer](../monsters/guynmart_tort1.md) | 33% | 1 | Guynmart Castle |
 | [Assistant torturer](../monsters/guynmart_tort2.md) | 20% | 1 | Guynmart Castle |
-| [Graveyard corpse](../monsters/graveyard_corpse.md) | 10% | 1 | graveyard1 |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 5.55556% | 1 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 5.55556% | 1 | elm5f_2, elm_2f_1, elm_3f |
+| [Graveyard corpse](../monsters/graveyard_corpse.md) | 10% | 1 | Graveyard 1 |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 5.55556% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 5.55556% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
 
 ### Sold by
 

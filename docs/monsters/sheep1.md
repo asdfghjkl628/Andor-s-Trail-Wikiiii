@@ -1,5 +1,5 @@
 ---
-description: "Sheep is an NPC who can also be fought in Andor's Trail, found in Crossroads Guardhouse, waterwayb4, Guynmart Castle, ll2_cyclops_cave, mountainlake27, mountainlake28, fields3."
+description: "Sheep is an NPC who can also be fought in Andor's Trail, found in Crossroads Guardhouse, Waterwayb 4, Guynmart Castle, Ll 2 cyclops cave, Mountainlake 27, Mountainlake 28, Fields 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis2_8.png){ .sprite } Sheep
@@ -11,7 +11,7 @@ description: "Sheep is an NPC who can also be fought in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Crossroads Guardhouse, waterwayb4, Guynmart Castle, ll2_cyclops_cave, mountainlake27, mountainlake28, fields3 |
+| **Found in** | Crossroads Guardhouse, Waterwayb 4, Guynmart Castle, Ll 2 cyclops cave, Mountainlake 27, Mountainlake 28, Fields 3 |
 | **Class** | Animal |
 | **HP** | 5 |
 | **XP when defeated** | 4 |
@@ -21,25 +21,25 @@ description: "Sheep is an NPC who can also be fought in Andor's Trail, found in 
 </div>
 
 !!! info "9 entries in the game data"
-    The game's data files define 9 separate characters named Sheep. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 9 separate characters named Sheep. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`sheep1`](#v-sheep1) | NPC/Enemy | Crossroads Guardhouse: [fields6](../maps/fields6.md#pin-npc-sheep1) | – | 5 |
-| [`cithurnsheep`](#v-cithurnsheep) | NPC | [waterwayb4](../maps/waterwayb4.md#pin-npc-cithurnsheep) | – | – |
-| [`guynmart_sheep`](#v-guynmart_sheep) | NPC/Enemy | Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep) | – | 5 |
-| [`ll2_cyclops_sheep1`](#v-ll2_cyclops_sheep1) | NPC | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [mountainlake27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1) (+1 more) | – | – |
-| [`ll2_cyclops_sheep2`](#v-ll2_cyclops_sheep2) | NPC | [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [mountainlake27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2) (+1 more) | – | – |
-| [`lostsheep1`](#v-lostsheep1) | NPC/Enemy | Crossroads Guardhouse: [fields1](../maps/fields1.md#pin-npc-lostsheep1) | – | 5 |
-| [`lostsheep2`](#v-lostsheep2) | NPC/Enemy | Crossroads Guardhouse: [fields2](../maps/fields2.md#pin-npc-lostsheep2) | – | 5 |
-| [`lostsheep3`](#v-lostsheep3) | NPC/Enemy | [fields3](../maps/fields3.md#pin-npc-lostsheep3) | – | 5 |
-| [`lostsheep4`](#v-lostsheep4) | NPC/Enemy | Crossroads Guardhouse: [loneford1](../maps/loneford1.md#pin-npc-lostsheep4) | – | 5 |
+| [`sheep1`](#v-sheep1) | NPC/Enemy | Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-sheep1) | – | 5 |
+| [`cithurnsheep`](#v-cithurnsheep) | NPC | [Waterwayb 4](../maps/waterwayb4.md#pin-npc-cithurnsheep) | – | – |
+| [`guynmart_sheep`](#v-guynmart_sheep) | NPC/Enemy | Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep) | – | 5 |
+| [`ll2_cyclops_sheep1`](#v-ll2_cyclops_sheep1) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1) (+1 more) | – | – |
+| [`ll2_cyclops_sheep2`](#v-ll2_cyclops_sheep2) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2) (+1 more) | – | – |
+| [`lostsheep1`](#v-lostsheep1) | NPC/Enemy | Crossroads Guardhouse: [Fields 1](../maps/fields1.md#pin-npc-lostsheep1) | – | 5 |
+| [`lostsheep2`](#v-lostsheep2) | NPC/Enemy | Crossroads Guardhouse: [Fields 2](../maps/fields2.md#pin-npc-lostsheep2) | – | 5 |
+| [`lostsheep3`](#v-lostsheep3) | NPC/Enemy | [Fields 3](../maps/fields3.md#pin-npc-lostsheep3) | – | 5 |
+| [`lostsheep4`](#v-lostsheep4) | NPC/Enemy | Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-lostsheep4) | – | 5 |
 
-## Crossroads Guardhouse, Fields6 (sheep1) { #v-sheep1 }
+## Crossroads Guardhouse, Fields 6 (sheep1) { #v-sheep1 }
 
 **Entry ID:** `sheep1` · **Type:** NPC/Enemy
 
-**Location:** Crossroads Guardhouse: [fields6](../maps/fields6.md#pin-npc-sheep1)
+**Location:** Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-sheep1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -77,7 +77,7 @@ description: "Sheep is an NPC who can also be fought in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields6](../maps/fields6.md) | Crossroads Guardhouse | 4 | – |
+| [Fields 6](../maps/fields6.md) | Crossroads Guardhouse | 4 | – |
 
 ### Quests
 
@@ -86,7 +86,7 @@ description: "Sheep is an NPC who can also be fought in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tinlyn_sheep.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -94,7 +94,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sheep1-tinlyn_sheep"></span>**`tinlyn_sheep`** Sheep: “Baah!”
 
@@ -164,15 +164,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Waterwayb4 (cithurnsheep) { #v-cithurnsheep }
+## Waterwayb 4 (cithurnsheep) { #v-cithurnsheep }
 
 **Entry ID:** `cithurnsheep` · **Type:** NPC
 
-**Location:** [waterwayb4](../maps/waterwayb4.md#pin-npc-cithurnsheep)
+**Location:** [Waterwayb 4](../maps/waterwayb4.md#pin-npc-cithurnsheep)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/cithurnsheep.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -180,7 +180,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-cithurnsheep-cithurnsheep"></span>**`cithurnsheep`** Sheep: “Baah!”
 
@@ -228,7 +228,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_sheep` · **Type:** NPC/Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep)
+**Location:** Guynmart Castle: [Guynmart wood 9](../maps/guynmart_wood_9.md#pin-npc-guynmart_sheep)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -265,30 +265,30 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_9](../maps/guynmart_wood_9.md) | Guynmart Castle | 25 | – |
+| [Guynmart wood 9](../maps/guynmart_wood_9.md) | Guynmart Castle | 25 | – |
 
 ### Quests that count defeats
 
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that this enemy has been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 25 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 20 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 15 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 10 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 9 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 8 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 7 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 6 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 5 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 4 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 3 of these enemies have been defeated.
-- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([guynmart_main_1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([guynmart_main_0](../maps/guynmart_main_0.md)) checks that at least 2 of these enemies have been defeated.
-- [Roses](../quests/guynmart.md#stage-170) with stepping on a trigger on [guynmart_farmhouse](../maps/guynmart_farmhouse.md) checks that this enemy has been defeated.
-- A conversation with [Shepherd](../monsters/guynmart_shephard.md) ([guynmart_wood_9](../maps/guynmart_wood_9.md)), [Shepherd](../monsters/guynmart_shephard.md#v-guynmart_shephard2) ([guynmart_main_1](../maps/guynmart_main_1.md)) checks that this enemy has been defeated.
-- A conversation with [Shepherd](../monsters/guynmart_shephard.md) ([guynmart_wood_9](../maps/guynmart_wood_9.md)), [Shepherd](../monsters/guynmart_shephard.md#v-guynmart_shephard2) ([guynmart_main_1](../maps/guynmart_main_1.md)) checks that at least 20 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that this enemy has been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 25 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 20 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 15 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 10 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 9 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 8 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 7 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 6 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 5 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 4 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 3 of these enemies have been defeated.
+- A conversation with [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) ([Guynmart main 1](../maps/guynmart_main_1.md)), [Lovis](../monsters/guynmart_lovis.md#v-guynmart_lovis2) ([Guynmart main 0](../maps/guynmart_main_0.md)) checks that at least 2 of these enemies have been defeated.
+- [Roses](../quests/guynmart.md#stage-170) with stepping on a trigger on [Guynmart farmhouse](../maps/guynmart_farmhouse.md) checks that this enemy has been defeated.
+- A conversation with [Shepherd](../monsters/guynmart_shephard.md) ([Guynmart wood 9](../maps/guynmart_wood_9.md)), [Shepherd](../monsters/guynmart_shephard.md#v-guynmart_shephard2) ([Guynmart main 1](../maps/guynmart_main_1.md)) checks that this enemy has been defeated.
+- A conversation with [Shepherd](../monsters/guynmart_shephard.md) ([Guynmart wood 9](../maps/guynmart_wood_9.md)), [Shepherd](../monsters/guynmart_shephard.md#v-guynmart_shephard2) ([Guynmart main 1](../maps/guynmart_main_1.md)) checks that at least 20 of these enemies have been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_sheep_10.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -296,7 +296,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_sheep-guynmart_sheep_10"></span>**`guynmart_sheep_10`** Sheep: “Baah!”
 
@@ -352,23 +352,23 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Ll2 cyclops cave and 2 more (ll2_cyclops_sheep1) { #v-ll2_cyclops_sheep1 }
+## Ll 2 cyclops cave and 2 more (ll2_cyclops_sheep1) { #v-ll2_cyclops_sheep1 }
 
 **Entry ID:** `ll2_cyclops_sheep1` · **Type:** NPC
 
-**Location:** [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [mountainlake27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1), [mountainlake28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep1)
+**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep1), [Mountainlake 28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep1)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md) | – | 5 | Appears later, during a quest |
-| [mountainlake27](../maps/mountainlake27.md) | – | 5 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 2 | – |
+| [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md) | – | 5 | Appears later, during a quest |
+| [Mountainlake 27](../maps/mountainlake27.md) | – | 5 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ll2_cyclops_sheep.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -376,7 +376,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ll2_cyclops_sheep1-ll2_cyclops_sheep"></span>**`ll2_cyclops_sheep`** Sheep: “Baaah.”
 
@@ -420,19 +420,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Ll2 cyclops cave and 2 more (ll2_cyclops_sheep2) { #v-ll2_cyclops_sheep2 }
+## Ll 2 cyclops cave and 2 more (ll2_cyclops_sheep2) { #v-ll2_cyclops_sheep2 }
 
 **Entry ID:** `ll2_cyclops_sheep2` · **Type:** NPC
 
-**Location:** [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [mountainlake27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2), [mountainlake28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep2)
+**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 27](../maps/mountainlake27.md#pin-npc-ll2_cyclops_sheep2), [Mountainlake 28](../maps/mountainlake28.md#pin-npc-ll2_cyclops_sheep2)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md) | – | 1 | Appears later, during a quest |
-| [mountainlake27](../maps/mountainlake27.md) | – | 1 | Appears later, during a quest |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
+| [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md) | – | 1 | Appears later, during a quest |
+| [Mountainlake 27](../maps/mountainlake27.md) | – | 1 | Appears later, during a quest |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
 
 ### Quests
 
@@ -440,7 +440,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ll2_cyclops_sheep2.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -448,7 +448,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ll2_cyclops_sheep2-ll2_cyclops_sheep2"></span>**`ll2_cyclops_sheep2`** *(silent check: the first matching branch below is taken)*
 
@@ -501,11 +501,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Fields1 (lostsheep1) { #v-lostsheep1 }
+## Crossroads Guardhouse, Fields 1 (lostsheep1) { #v-lostsheep1 }
 
 **Entry ID:** `lostsheep1` · **Type:** NPC/Enemy
 
-**Location:** Crossroads Guardhouse: [fields1](../maps/fields1.md#pin-npc-lostsheep1)
+**Location:** Crossroads Guardhouse: [Fields 1](../maps/fields1.md#pin-npc-lostsheep1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -543,7 +543,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields1](../maps/fields1.md) | Crossroads Guardhouse | 1 | – |
+| [Fields 1](../maps/fields1.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -552,7 +552,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tinlyn_lostsheep1.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -560,7 +560,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lostsheep1-tinlyn_lostsheep1"></span>**`tinlyn_lostsheep1`** *(silent check: the first matching branch below is taken)*
 
@@ -658,11 +658,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Fields2 (lostsheep2) { #v-lostsheep2 }
+## Crossroads Guardhouse, Fields 2 (lostsheep2) { #v-lostsheep2 }
 
 **Entry ID:** `lostsheep2` · **Type:** NPC/Enemy
 
-**Location:** Crossroads Guardhouse: [fields2](../maps/fields2.md#pin-npc-lostsheep2)
+**Location:** Crossroads Guardhouse: [Fields 2](../maps/fields2.md#pin-npc-lostsheep2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -700,7 +700,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields2](../maps/fields2.md) | Crossroads Guardhouse | 1 | – |
+| [Fields 2](../maps/fields2.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -709,7 +709,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tinlyn_lostsheep2.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -717,7 +717,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lostsheep2-tinlyn_lostsheep2"></span>**`tinlyn_lostsheep2`** *(silent check: the first matching branch below is taken)*
 
@@ -784,11 +784,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fields3 (lostsheep3) { #v-lostsheep3 }
+## Fields 3 (lostsheep3) { #v-lostsheep3 }
 
 **Entry ID:** `lostsheep3` · **Type:** NPC/Enemy
 
-**Location:** [fields3](../maps/fields3.md#pin-npc-lostsheep3)
+**Location:** [Fields 3](../maps/fields3.md#pin-npc-lostsheep3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -826,7 +826,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields3](../maps/fields3.md) | – | 1 | – |
+| [Fields 3](../maps/fields3.md) | – | 1 | – |
 
 ### Quests
 
@@ -835,7 +835,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tinlyn_lostsheep3.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -843,7 +843,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lostsheep3-tinlyn_lostsheep3"></span>**`tinlyn_lostsheep3`** *(silent check: the first matching branch below is taken)*
 
@@ -910,11 +910,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Crossroads Guardhouse, Loneford1 (lostsheep4) { #v-lostsheep4 }
+## Crossroads Guardhouse, Loneford 1 (lostsheep4) { #v-lostsheep4 }
 
 **Entry ID:** `lostsheep4` · **Type:** NPC/Enemy
 
-**Location:** Crossroads Guardhouse: [loneford1](../maps/loneford1.md#pin-npc-lostsheep4)
+**Location:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-lostsheep4)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -952,7 +952,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [loneford1](../maps/loneford1.md) | Crossroads Guardhouse | 1 | – |
+| [Loneford 1](../maps/loneford1.md) | Crossroads Guardhouse | 1 | – |
 
 ### Quests
 
@@ -961,7 +961,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Sheep. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Sheep. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tinlyn_lostsheep4.json" data-npc="Sheep" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -969,7 +969,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lostsheep4-tinlyn_lostsheep4"></span>**`tinlyn_lostsheep4`** *(silent check: the first matching branch below is taken)*
 

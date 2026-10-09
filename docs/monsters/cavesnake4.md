@@ -4,7 +4,7 @@ description: "Big cave snake is an enemy in Andor's Trail (reptile) with 50 HP, 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_22.png){ .sprite } Big cave snake
 
-**Found in:** 4 wells: [ratdom_maze_567](../maps/ratdom_maze_567.md), Roundlings: [ratdom_maze_646](../maps/ratdom_maze_646.md)
+**Found in:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), Roundlings: [Ratdom maze 646](../maps/ratdom_maze_646.md)
 
 <div class="infobox" markdown>
 
@@ -58,8 +58,8 @@ description: "Big cave snake is an enemy in Andor's Trail (reptile) with 50 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_567](../maps/ratdom_maze_567.md) | 4 wells | 2 | – |
-| [ratdom_maze_646](../maps/ratdom_maze_646.md) | Roundlings | 1 | – |
+| [Ratdom maze 567](../maps/ratdom_maze_567.md) | 4 wells | 2 | – |
+| [Ratdom maze 646](../maps/ratdom_maze_646.md) | Roundlings | 1 | – |
 
 
 ## Version history

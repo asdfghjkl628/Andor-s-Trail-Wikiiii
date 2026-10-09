@@ -4,7 +4,7 @@ description: "Venomfang is an enemy in Andor's Trail (humanoid) with 1 HP, worth
 
 # ![](../assets/icons/monsters/monsters_tometik4_22.png){ .sprite } Venomfang
 
-**Found in:** Stoutford: [stoutford_sw](../maps/stoutford_sw.md)
+**Found in:** Stoutford: [Stoutford south-west](../maps/stoutford_sw.md)
 
 <div class="infobox" markdown>
 
@@ -48,7 +48,7 @@ description: "Venomfang is an enemy in Andor's Trail (humanoid) with 1 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_sw](../maps/stoutford_sw.md) | Stoutford | 3 | – |
+| [Stoutford south-west](../maps/stoutford_sw.md) | Stoutford | 3 | – |
 
 
 ## Version history

@@ -11,9 +11,9 @@ description: "A familiar shadow is a quest in Andor's Trail, started by walking 
 | **Quest ID** | `familiar_shadow` |
 | **In journal** | Yes |
 | **Stages** | 8 (completes at 70) |
-| **Started by** | walking into a blocked passage on [galmore_32](../maps/galmore_32.md) |
+| **Started by** | walking into a blocked passage on [Galmore 32](../maps/galmore_32.md) |
 | **NPCs involved** | [Leta](../monsters/leta.md), [Mikhail](../monsters/mikhail.md), [Old Leta](../monsters/old_leta.md), [Old Oromir](../monsters/old_oromir.md) |
-| **Locations** | [crossglen_farmhouse](../maps/crossglen_farmhouse.md), [home](../maps/home.md), [waytogalmore0](../maps/waytogalmore0.md) |
+| **Locations** | [Crossglen farmhouse](../maps/crossglen_farmhouse.md), [Home](../maps/home.md), [Waytogalmore 0](../maps/waytogalmore0.md) |
 | **Total XP** | 6,548 |
 | **Related quests** | 5 |
 
@@ -25,7 +25,7 @@ description: "A familiar shadow is a quest in Andor's Trail, started by walking 
 
 ## Prerequisites to start
 
-Start with walking into a blocked passage on [galmore_32](../maps/galmore_32.md). Required:
+Start with walking into a blocked passage on [Galmore 32](../maps/galmore_32.md). Required:
 
 - NOT reached stage 10 of [A familiar shadow](../quests/familiar_shadow.md#stage-10)
 
@@ -42,60 +42,121 @@ Start with walking into a blocked passage on [galmore_32](../maps/galmore_32.md)
 | Requires | [Missing husband](leta.md#stage-100) | stage 100 reached, for stage 10 here |
 | Requires | [Breakfast bread](mikhail_bread.md#stage-10) | stage 10 reached, for stage 30 here |
 | Requires | [You're the postman](postman.md#stage-10) | stage 10 reached, for stage 10 here |
-| Blocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-1) | reaching stage 50 here closes stage 1 there |
-| Blocks | [galmore_nondisplayed (hidden flag)](galmore_nondisplayed.md#stage-2) | reaching stage 50 here closes stage 2 there |
+| Blocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-1) | reaching stage 50 here closes stage 1 there |
+| Blocks | [Galmore story flags (hidden flag)](galmore_nondisplayed.md#stage-2) | reaching stage 50 here closes stage 2 there |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-5"></span>5 | In the devastated lands south of Stoutford, I found an ominous stone etched with strange symbols. | walking into a blocked passage on [galmore_32](../maps/galmore_32.md) | – | – |
-| <span id="stage-10"></span>10 | As I touched its glowing mark, an unnatural chill ran through me, and I heard a voice in my mind, calling out for help. It spoke of torment and told me to return to Crossglen to find answers.<br><span class="qnote">🔒 An area on [Galmore 32](../maps/galmore_32.md) becomes blocked off.</span> | walking into a blocked passage on [galmore_32](../maps/galmore_32.md) | – | applies condition pull_of_the_mark<br>applies condition fear<br>removes monsters from galmore_32 |
-| <span id="stage-20"></span>20 | The presence of the mark grows unbearable. I feel an overwhelming pull to return to Crossglen. There is something wrong, and I sense it's tied to my father. I must hurry to see what's happening.<br><span class="qnote">🔒 An area on [Crossglen](../maps/crossglen.md) becomes blocked off.</span> | walking into a blocked passage on [galmore_32](../maps/galmore_32.md) | – | spawns monsters on galmore_32 |
-| <span id="stage-30"></span>30 | I spoke to father. He assured me he's fine, but mentioned Leta hasn't been herself lately. She's been pacing her home and muttering to herself. I should check on her and see what's going on. | [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | stage 20 | – |
-| <span id="stage-40"></span>40 | When I confronted Leta, she seemed different--angrier, more agitated. As I pressed her, a dark spirit suddenly manifested before me and attacked. | [Leta](../monsters/leta.md) | stage 30 | spawns monsters on crossglen_farmhouse<br>removes monsters from crossglen_farmhouse<br>removes monsters from crossglen_farmhouse_basement<br>removes monsters from crossglen |
-| <span id="stage-50"></span>50 | I defeated the Dark spirit, but it didn't feel like the end. The Dark spirit trapped inside Leta has fled back to the devastated lands south of Stoutford, where its power can grow stronger. I need to return there and finish what I started.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> | stepping on a trigger on [crossglen](../maps/crossglen.md) | – | spawns monsters on galmore_32 |
-| <span id="stage-60"></span>60 | In the depths of the devastated lands south of Stoutford, I found the dark spirit waiting for me. It was stronger this time, but I defeated it once and for all. Whatever bond it had with me and Leta is broken. I should check-up on Leta again.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 32](../maps/galmore_32.md).</span> | stepping on a trigger on [galmore_32](../maps/galmore_32.md) | – | spawns monsters on crossglen_farmhouse<br>spawns monsters on crossglen_farmhouse_basement<br>applies condition pull_of_the_mark<br>removes monsters from galmore_32 |
-| <span id="stage-70"></span>70 | I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched. **(completes quest)** | [Old Leta](../monsters/old_leta.md) ([crossglen_farmhouse](../maps/crossglen_farmhouse.md))<br>[Old Oromir](../monsters/old_oromir.md) ([crossglen_farmhouse](../maps/crossglen_farmhouse.md)) | stage 60 | 6,548 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-5"></span>[5](#route-5) | <details class="jt"><summary><span class="s">In the devastated lands south of Stoutford, I found an ominous stone… ▸</span><span class="l">▴ less</span></summary>In the devastated lands south of Stoutford, I found an ominous stone etched with strange symbols.</details> | walking into a blocked passage on [Galmore 32](../maps/galmore_32.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">As I touched its glowing mark, an unnatural chill ran through me,… ▸</span><span class="l">▴ less</span></summary>As I touched its glowing mark, an unnatural chill ran through me, and I heard a voice in my mind, calling out for help. It spoke of torment and told me to return to Crossglen to find answers.</details><br><span class="qnote">🔒 An area on [Galmore 32](../maps/galmore_32.md) becomes blocked off.</span> | walking into a blocked passage on [Galmore 32](../maps/galmore_32.md) | applies condition pull_of_the_mark, applies condition fear, removes monsters from galmore_32, removes monsters from galmore_32 |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">The presence of the mark grows unbearable. I feel an overwhelming… ▸</span><span class="l">▴ less</span></summary>The presence of the mark grows unbearable. I feel an overwhelming pull to return to Crossglen. There is something wrong, and I sense it's tied to my father. I must hurry to see what's happening.</details><br><span class="qnote">🔒 An area on [Crossglen](../maps/crossglen.md) becomes blocked off.</span> | walking into a blocked passage on [Galmore 32](../maps/galmore_32.md) | spawns monsters on galmore_32, spawns monsters on galmore_32 |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I spoke to father. He assured me he's fine, but mentioned Leta… ▸</span><span class="l">▴ less</span></summary>I spoke to father. He assured me he's fine, but mentioned Leta hasn't been herself lately. She's been pacing her home and muttering to herself. I should check on her and see what's going on.</details> | [Mikhail](../monsters/mikhail.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">When I confronted Leta, she seemed different--angrier, more… ▸</span><span class="l">▴ less</span></summary>When I confronted Leta, she seemed different--angrier, more agitated. As I pressed her, a dark spirit suddenly manifested before me and attacked.</details> | [Leta](../monsters/leta.md) | spawns monsters on crossglen_farmhouse, removes monsters from crossglen_farmhouse, removes monsters from crossglen_farmhouse_basement, removes monsters from crossglen, removes monsters from crossglen_farmhouse_basement |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I defeated the Dark spirit, but it didn't feel like the end. The… ▸</span><span class="l">▴ less</span></summary>I defeated the Dark spirit, but it didn't feel like the end. The Dark spirit trapped inside Leta has fled back to the devastated lands south of Stoutford, where its power can grow stronger. I need to return there and finish what I started.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crossglen](../maps/crossglen.md).</span> | stepping on a trigger on [Crossglen](../maps/crossglen.md) | spawns monsters on galmore_32 |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">In the depths of the devastated lands south of Stoutford, I found… ▸</span><span class="l">▴ less</span></summary>In the depths of the devastated lands south of Stoutford, I found the dark spirit waiting for me. It was stronger this time, but I defeated it once and for all. Whatever bond it had with me and Leta is broken. I should check-up on Leta again.</details><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Galmore 32](../maps/galmore_32.md).</span> | stepping on a trigger on [Galmore 32](../maps/galmore_32.md) | spawns monsters on crossglen_farmhouse, spawns monsters on crossglen_farmhouse_basement, applies condition pull_of_the_mark, removes monsters from galmore_32, removes monsters from galmore_32, removes monsters from galmore_32 |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I returned to Crossglen to find everything changed. Leta has aged… ▸</span><span class="l">▴ less</span></summary>I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched.</details> **(ends quest)** | [Old Leta](../monsters/old_leta.md), [Old Oromir](../monsters/old_oromir.md) | 6,548 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 5: 1 route"
+<span id="route-5"></span>
 
-    1. walking into a blocked passage on [galmore_32](../maps/galmore_32.md) → the conversation leads here automatically — **conditions:** NOT reached stage 10 of [A familiar shadow](../quests/familiar_shadow.md#stage-10) → **stage 5**
+??? note "Stage 5 · walking into a blocked passage on galmore_32 · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Walking into a blocked passage on [Galmore 32](../maps/galmore_32.md)
 
-    1. walking into a blocked passage on [galmore_32](../maps/galmore_32.md) → choose “[Touch the stone.]” — **conditions:** NOT reached stage 10 of [A familiar shadow](../quests/familiar_shadow.md#stage-10); reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 100 of [Missing husband](../quests/leta.md#stage-100); reached stage 10 of [You're the postman](../quests/postman.md#stage-10) → **stage 10**; also applies condition pull_of_the_mark, applies condition fear, removes monsters from galmore_32, removes monsters from galmore_32. NPC: “The moment your hand meets the mark, an icy jolt shoots through your body. A voice echoes in your mind, low and…”
+    - **Needs:** not yet stage 10
 
-???+ note "Stage 20: 1 route"
 
-    1. walking into a blocked passage on [galmore_32](../maps/galmore_32.md) → the conversation leads here automatically → **stage 20**; also spawns monsters on galmore_32, spawns monsters on galmore_32. NPC: “The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to…”
+<span id="route-10"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 10 · walking into a blocked passage on galmore_32 · 1 way"
 
-    1. Talk to [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) → choose “I don't know...something feels wrong. I thought maybe you were in danger.” — **conditions:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-20) is 20 → **stage 30**. NPC: “What's gotten into you? I'm fine, but the same can't be said for Leta. I've seen her pacing in that house of hers,…”
+    **Way 1:** Walking into a blocked passage on [Galmore 32](../maps/galmore_32.md), choose “[Touch the stone.]”
 
-???+ note "Stage 40: 1 route"
+    - **Needs:** not yet stage 10; reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 100 of [Missing husband](../quests/leta.md#stage-100); reached stage 10 of [You're the postman](../quests/postman.md#stage-10)
+    - **Gives:** applies condition pull_of_the_mark, applies condition fear, removes monsters from galmore_32, removes monsters from galmore_32
+    - *“The moment your hand meets the mark, an icy jolt shoots through your body. A voice echoes in your mind, low and venomous, yet pleading:…”*
 
-    1. Talk to [Leta](../monsters/leta.md) → choose “Leta, talk to me. What's going on?” — **conditions:** reached stage 30 of [A familiar shadow](../quests/familiar_shadow.md#stage-30) → **stage 40**; also spawns monsters on crossglen_farmhouse, removes monsters from crossglen_farmhouse, removes monsters from crossglen_farmhouse_basement, removes monsters from crossglen, removes monsters from crossglen_farmhouse_basement. NPC: “A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.”
 
-???+ note "Stage 50: 1 route"
+<span id="route-20"></span>
 
-    1. stepping on a trigger on [crossglen](../maps/crossglen.md) → the conversation leads here automatically — **conditions:** killed 1× [Dark spirit](../monsters/crossglen_dark_spirit.md); NOT reached stage 50 of [A familiar shadow](../quests/familiar_shadow.md#stage-50) → **stage 50**; also spawns monsters on galmore_32. NPC: “The Dark spirit has been defeated, but you feel as if this issue is unresolved. Something is telling you that it has…”
+??? note "Stage 20 · walking into a blocked passage on galmore_32 · 1 way"
 
-???+ note "Stage 60: 1 route"
+    **Way 1:** Walking into a blocked passage on [Galmore 32](../maps/galmore_32.md)
 
-    1. stepping on a trigger on [galmore_32](../maps/galmore_32.md) → the conversation leads here automatically — **conditions:** killed 1× [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit); NOT reached stage 60 of [A familiar shadow](../quests/familiar_shadow.md#stage-60) → **stage 60**; also spawns monsters on crossglen_farmhouse, spawns monsters on crossglen_farmhouse_basement, applies condition pull_of_the_mark, removes monsters from galmore_32, removes monsters from galmore_32, removes monsters from galmore_32. NPC: “As the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter,…”
+    - **Gives:** spawns monsters on galmore_32, spawns monsters on galmore_32
+    - *“The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and…”*
 
-???+ note "Stage 70: 2 routes"
 
-    1. Talk to [Old Leta](../monsters/old_leta.md) ([crossglen_farmhouse](../maps/crossglen_farmhouse.md)) → choose “I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?” — **conditions:** latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-60) is 60 → **stage 70**. NPC: “While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the…”
-    2. Talk to [Old Oromir](../monsters/old_oromir.md) ([crossglen_farmhouse](../maps/crossglen_farmhouse.md)) → choose “I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?” — **conditions:** latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-60) is 60 → **stage 70**. NPC: “While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the…”
+<span id="route-30"></span>
+
+??? note "Stage 30 · Mikhail · 1 way"
+
+    **Way 1:** Talk to [Mikhail](../monsters/mikhail.md), choose “I don't know...something feels wrong. I thought maybe you were in danger.”
+
+    - **Needs:** reached stage 10 of [Breakfast bread](../quests/mikhail_bread.md#stage-10); latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-20) is 20
+    - *“What's gotten into you? I'm fine, but the same can't be said for Leta. I've seen her pacing in that house of hers, muttering to herself…”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Leta · 1 way"
+
+    **Way 1:** Talk to [Leta](../monsters/leta.md), choose “Leta, talk to me. What's going on?”
+
+    - **Needs:** stage 30
+    - **Gives:** spawns monsters on crossglen_farmhouse, removes monsters from crossglen_farmhouse, removes monsters from crossglen_farmhouse_basement, removes monsters from crossglen, removes monsters from crossglen_farmhouse_basement
+    - *“A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · stepping on a trigger on crossglen · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Crossglen](../maps/crossglen.md)
+
+    - **Needs:** not yet stage 50; killed 1× [Dark spirit](../monsters/crossglen_dark_spirit.md)
+    - **Gives:** spawns monsters on galmore_32
+    - *“The Dark spirit has been defeated, but you feel as if this issue is unresolved. Something is telling you that it has fled back to the…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on galmore_32 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Galmore 32](../maps/galmore_32.md)
+
+    - **Needs:** not yet stage 60; killed 1× [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit)
+    - **Gives:** spawns monsters on crossglen_farmhouse, spawns monsters on crossglen_farmhouse_basement, applies condition pull_of_the_mark, removes monsters from galmore_32, removes monsters from galmore_32, removes monsters from galmore_32
+    - *“As the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the…”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Old Leta, Old Oromir · 2 ways"
+
+    **Way 1:** Talk to [Old Leta](../monsters/old_leta.md), choose “I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?”
+
+    - **Needs:** latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-60) is 60
+    - *“While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the air is heavy with…”*
+
+    **Way 2:** Talk to [Old Oromir](../monsters/old_oromir.md), choose “I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?”
+
+    - **Needs:** latest stage of [A familiar shadow](../quests/familiar_shadow.md#stage-60) is 60
+    - *“While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the air is heavy with…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

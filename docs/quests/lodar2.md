@@ -11,9 +11,9 @@ description: "Searching for madness is a quest in Andor's Trail, started by Loda
 | **Quest ID** | `lodar2` |
 | **In journal** | Yes |
 | **Stages** | 9 (completes at 60) |
-| **Started by** | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) |
+| **Started by** | [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) |
 | **NPCs involved** | [Hira'zinn](../monsters/hirazinn.md), [Lodar](../monsters/lodar.md) |
-| **Locations** | [lodarcave4a](../maps/lodarcave4a.md), [lodarhouse1](../maps/lodarhouse1.md) |
+| **Locations** | [Lodarcave 4a](../maps/lodarcave4a.md), [Lodarhouse 1](../maps/lodarhouse1.md) |
 | **Total XP** | 1,000 |
 | **Related quests** | 7 |
 
@@ -25,7 +25,7 @@ description: "Searching for madness is a quest in Andor's Trail, started by Loda
 
 ## Prerequisites to start
 
-Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)). Required:
+Start with [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)). Required:
 
 - reached stage 110 of [A lost potion](../quests/lodar.md#stage-110)
 
@@ -50,9 +50,9 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 | Unlocks | [Lodar's potions](lodar_pots.md#stage-41) | stage 41 there needs stage 60 here |
 | Unlocks | [Lodar's potions](lodar_pots.md#stage-42) | stage 42 there needs stage 60 here |
 | Unlocks | [Lodar's potions](lodar_pots.md#stage-43) | stage 43 there needs stage 60 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 there needs stage 60 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-2) | stage 2 there needs stage 60 here |
-| Unlocks | [ratdom_nondisplay (hidden flag)](ratdom_nondisplay.md#stage-10) | stage 10 there needs stage 60 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-1) | stage 1 there needs stage 60 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-2) | stage 2 there needs stage 60 here |
+| Unlocks | [Ratdom story flags (hidden flag)](ratdom_nondisplay.md#stage-10) | stage 10 there needs stage 60 here |
 | Unlocks | [Yellow is it](ratdom_quest.md#stage-10) | stage 10 there needs stage 60 here |
 | Unlocks | [The way out is through](shortcut_lodar.md#stage-10) | stage 10 there needs stage 60 here |
 | Unlocks | [The way out is through](shortcut_lodar.md#stage-22) | stage 22 there needs stage 50 here |
@@ -62,59 +62,118 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | The potion-maker Lodar seems to be obsessed with something called the Hira'zinn. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | – |
-| <span id="stage-15"></span>15 | Apparently, it relates to something that has started to happen recently. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | – |
-| <span id="stage-20"></span>20 | Lodar gave me a glowing stone, that he said would allow me to enter some sort of tomb. He did not say which tomb, where the tomb is located, or how to reach it - only that it's somewhere 'below'. Below what, I wonder? | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | gives [Gatekeeper stone](../items/lodarstone.md) |
-| <span id="stage-30"></span>30 | In the cave leading to Lodar's Hideaway, I reached what looks like a tomb. Could this be the one Lodar was referring to? | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | stage 20 | – |
-| <span id="stage-35"></span>35 | The glowing stone that Lodar gave me, crumbled to dust as I got near the tomb. However, it seems that I am now able to enter.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Lodarcave4a](../maps/lodarcave4a.md).</span> | walking into a blocked passage on [lodarcave4a](../maps/lodarcave4a.md) | hand over 1× [Gatekeeper stone](../items/lodarstone.md) | – |
-| <span id="stage-40"></span>40 | I have encountered a foul creature inside the tomb. I assume this is the Hira'zinn that Lodar was referring to. I should kill it and then tell Lodar. | [Hira'zinn](../monsters/hirazinn.md) ([lodarcave4a](../maps/lodarcave4a.md)) | – | – |
-| <span id="stage-50"></span>50 | I have presented the heart of the Hira'zinn to Lodar.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar4](../maps/shortcut_lodar4.md).</span> | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | hand over 1× [Heart of the Hira'zinn](../items/hirazinn.md), stage 20 | 1,000 XP |
-| <span id="stage-51"></span>51 | As soon as I presented the heart of the Hira'zinn to Lodar, he seemed to snap out of his previous state of mind. | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | stage 50 | – |
-| <span id="stage-60"></span>60 | Lodar thanked me for defeating the Hira'zinn. In return, he promised to help me in any way he can. He has a large selection of potent potions available for me to purchase at a discount. **(completes quest)** | [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | – | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | The potion-maker Lodar seems to be obsessed with something called the Hira'zinn. | [Lodar](../monsters/lodar.md) | – |
+| <span id="stage-15"></span>[15](#route-15) | Apparently, it relates to something that has started to happen recently. | [Lodar](../monsters/lodar.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Lodar gave me a glowing stone, that he said would allow me to enter… ▸</span><span class="l">▴ less</span></summary>Lodar gave me a glowing stone, that he said would allow me to enter some sort of tomb. He did not say which tomb, where the tomb is located, or how to reach it - only that it's somewhere 'below'. Below what, I wonder?</details> | [Lodar](../monsters/lodar.md) | [Gatekeeper stone](../items/lodarstone.md) |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">In the cave leading to Lodar's Hideaway, I reached what looks like a… ▸</span><span class="l">▴ less</span></summary>In the cave leading to Lodar's Hideaway, I reached what looks like a tomb. Could this be the one Lodar was referring to?</details> | [Lodar](../monsters/lodar.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">The glowing stone that Lodar gave me, crumbled to dust as I got near… ▸</span><span class="l">▴ less</span></summary>The glowing stone that Lodar gave me, crumbled to dust as I got near the tomb. However, it seems that I am now able to enter.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Lodarcave 4a](../maps/lodarcave4a.md).</span> | walking into a blocked passage on [Lodarcave 4a](../maps/lodarcave4a.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I have encountered a foul creature inside the tomb. I assume this is… ▸</span><span class="l">▴ less</span></summary>I have encountered a foul creature inside the tomb. I assume this is the Hira'zinn that Lodar was referring to. I should kill it and then tell Lodar.</details> | [Hira'zinn](../monsters/hirazinn.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | I have presented the heart of the Hira'zinn to Lodar.<br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar 0](../maps/shortcut_lodar0.md).</span><br><span class="qnote">🔓 You can finally access a previously blocked area on [Shortcut lodar 4](../maps/shortcut_lodar4.md).</span> | [Lodar](../monsters/lodar.md) | 1,000 XP |
+| <span id="stage-51"></span>[51](#route-51) | <details class="jt"><summary><span class="s">As soon as I presented the heart of the Hira'zinn to Lodar, he… ▸</span><span class="l">▴ less</span></summary>As soon as I presented the heart of the Hira'zinn to Lodar, he seemed to snap out of his previous state of mind.</details> | [Lodar](../monsters/lodar.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">Lodar thanked me for defeating the Hira'zinn. In return, he promised… ▸</span><span class="l">▴ less</span></summary>Lodar thanked me for defeating the Hira'zinn. In return, he promised to help me in any way he can. He has a large selection of potent potions available for me to purchase at a discount.</details> **(ends quest)** | [Lodar](../monsters/lodar.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “The Hira'zinn?” — **conditions:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110) → **stage 10**. NPC: “Yes yes, the Hira'zinn. As I said, I must find the correct mixture before it moves again.”
+??? note "Stage 10 · Lodar · 1 way"
 
-???+ note "Stage 15: 1 route"
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “The Hira'zinn?”
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “You are still not making any sense to me. What is this Hira'zinn that you keep mentioning?” — **conditions:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110) → **stage 15**. NPC: “It never used to be like this, or did it? I can't remember.”
+    - **Needs:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110)
+    - *“Yes yes, the Hira'zinn. As I said, I must find the correct mixture before it moves again.”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “I'm up for it! What do you need help with?” — **conditions:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110) → **stage 20**; also gives [Gatekeeper stone](../items/lodarstone.md). NPC: “[Lodar hands you an odd looking stone that seems to be glowing from within] Good. Take this stone, it will allow you…”
+<span id="route-15"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 15 · Lodar · 1 way"
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “Fine. I still don't understand, but I'll try to do as you ask.” — **conditions:** reached stage 20 of [Searching for madness](../quests/lodar2.md#stage-20); reached stage 100 of [A lost potion](../quests/lodar.md#stage-100) → **stage 30**
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “You are still not making any sense to me. What is this Hira'zinn that you keep mentioning?”
 
-???+ note "Stage 35: 1 route"
+    - **Needs:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110)
+    - *“It never used to be like this, or did it? I can't remember.”*
 
-    1. walking into a blocked passage on [lodarcave4a](../maps/lodarcave4a.md) → the conversation leads here automatically — **conditions:** hand over 1× [Gatekeeper stone](../items/lodarstone.md) → **stage 35**. NPC: “From the stone that Lodar gave you, you start hearing cracking noises.”
 
-???+ note "Stage 40: 1 route"
+<span id="route-20"></span>
 
-    1. Talk to [Hira'zinn](../monsters/hirazinn.md) ([lodarcave4a](../maps/lodarcave4a.md)) → the conversation leads here automatically → **stage 40**. NPC: “[You also feel a strong urge to leave this place]”
+??? note "Stage 20 · Lodar · 1 way"
 
-???+ note "Stage 50: 1 route"
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “I'm up for it! What do you need help with?”
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “I have defeated the Hira'zinn in the tomb below. Here is its heart.” — **conditions:** reached stage 20 of [Searching for madness](../quests/lodar2.md#stage-20); hand over 1× [Heart of the Hira'zinn](../items/hirazinn.md) → **stage 50**. NPC: “Give me that. Oh, yes ... yes!”
+    - **Needs:** reached stage 110 of [A lost potion](../quests/lodar.md#stage-110)
+    - **Gives:** [Gatekeeper stone](../items/lodarstone.md)
+    - *“[Lodar hands you an odd looking stone that seems to be glowing from within] Good. Take this stone, it will allow you to enter the tomb. Go…”*
 
-???+ note "Stage 51: 1 route"
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → choose “Yes, we spoke before, but you seemed to be obsessed with the Hira'zinn and did not make much sense.” — **conditions:** reached stage 50 of [Searching for madness](../quests/lodar2.md#stage-50) → **stage 51**. NPC: “Well, I feel much better now.”
+<span id="route-30"></span>
 
-???+ note "Stage 60: 1 route"
+??? note "Stage 30 · Lodar · 1 way"
 
-    1. Talk to [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) → the conversation leads here automatically — **conditions:** reached stage 60 of [Searching for madness](../quests/lodar2.md#stage-60) → **stage 60**. NPC: “Again, thank you for your help.”
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “Fine. I still don't understand, but I'll try to do as you ask.”
+
+    - **Needs:** stage 20; reached stage 100 of [A lost potion](../quests/lodar.md#stage-100)
+
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · walking into a blocked passage on lodarcave4a · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Lodarcave 4a](../maps/lodarcave4a.md)
+
+    - **Needs:** hand over 1× [Gatekeeper stone](../items/lodarstone.md)
+    - *“From the stone that Lodar gave you, you start hearing cracking noises.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Hira'zinn · 1 way"
+
+    **Way 1:** Talk to [Hira'zinn](../monsters/hirazinn.md), automatic
+
+    - *“[You also feel a strong urge to leave this place]”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Lodar · 1 way"
+
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “I have defeated the Hira'zinn in the tomb below. Here is its heart.”
+
+    - **Needs:** stage 20; hand over 1× [Heart of the Hira'zinn](../items/hirazinn.md)
+    - *“Give me that. Oh, yes ... yes!”*
+
+
+<span id="route-51"></span>
+
+??? note "Stage 51 · Lodar · 1 way"
+
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), choose “Yes, we spoke before, but you seemed to be obsessed with the Hira'zinn and did not make much sense.”
+
+    - **Needs:** stage 50
+    - *“Well, I feel much better now.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Lodar · 1 way"
+
+    **Way 1:** Talk to [Lodar](../monsters/lodar.md), automatic
+
+    - **Needs:** stage 60
+    - *“Again, thank you for your help.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -125,7 +184,7 @@ Start with [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md))
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Good. Take this stone, it will allow you to enter the tomb. Go below.…” → “[Lodar hands you an odd looking stone that seems to be glowing from w…”<br>· text: “Give me that. Oh, yes.. Yes!” → “Give me that. Oh, yes ... yes!” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Give me that. Oh, yes.. Yes!” → “Give me that. Oh, yes ... yes!”<br>· text: “Good. Take this stone, it will allow you to enter the tomb. Go below.…” → “[Lodar hands you an odd looking stone that seems to be glowing from w…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

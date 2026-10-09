@@ -1,10 +1,10 @@
 ---
-description: "Weak fungi is an enemy in Andor's Trail (animal) with 20 HP, worth 23 XP, found in bogsten2, bogsten3, mushroom_m2_2. Drops: Spores of the giant mushroom, Bogsten's mushroom."
+description: "Weak fungi is an enemy in Andor's Trail (animal) with 20 HP, worth 23 XP, found in Bogsten 2, Bogsten 3, Mushroom m 2 2. Drops: Spores of the giant mushroom, Bogsten's mushroom."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_3.png){ .sprite } Weak fungi
 
-**Found in:** [bogsten2](../maps/bogsten2.md), [bogsten3](../maps/bogsten3.md), [mushroom_m2_2](../maps/mushroom_m2_2.md), [mushroom_m2_4](../maps/mushroom_m2_4.md) (+3 more)
+**Found in:** [Bogsten 2](../maps/bogsten2.md), [Bogsten 3](../maps/bogsten3.md), [Mushroom m 2 2](../maps/mushroom_m2_2.md), [Mushroom m 2 4](../maps/mushroom_m2_4.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Weak fungi is an enemy in Andor's Trail (animal) with 20 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | bogsten2, bogsten3, mushroom_m2_2 |
+| **Found in** | Bogsten 2, Bogsten 3, Mushroom m 2 2 |
 | **Class** | Animal |
 | **HP** | 20 |
 | **XP when defeated** | 23 |
@@ -55,13 +55,13 @@ description: "Weak fungi is an enemy in Andor's Trail (animal) with 20 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bogsten2](../maps/bogsten2.md) | – | 4 | – |
-| [bogsten3](../maps/bogsten3.md) | – | 8 | – |
-| [mushroom_m2_2](../maps/mushroom_m2_2.md) | – | 4 | – |
-| [mushroom_m2_4](../maps/mushroom_m2_4.md) | – | 5 | – |
-| [mushroom_m2_5](../maps/mushroom_m2_5.md) | – | 3 | – |
-| [mushroom_m3_1](../maps/mushroom_m3_1.md) | – | 1 | – |
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 2 | – |
+| [Bogsten 2](../maps/bogsten2.md) | – | 4 | – |
+| [Bogsten 3](../maps/bogsten3.md) | – | 8 | – |
+| [Mushroom m 2 2](../maps/mushroom_m2_2.md) | – | 4 | – |
+| [Mushroom m 2 4](../maps/mushroom_m2_4.md) | – | 5 | – |
+| [Mushroom m 2 5](../maps/mushroom_m2_5.md) | – | 3 | – |
+| [Mushroom m 3 1](../maps/mushroom_m3_1.md) | – | 1 | – |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 2 | – |
 
 
 ## Version history

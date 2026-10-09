@@ -19,18 +19,18 @@ description: "Aryfora is a non-player character (NPC) in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Aryfora. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Aryfora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`stoutford_widow`](#v-stoutford_widow) | NPC | Stoutford: [stoutford_gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow) | starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md) |
-| [`stoutford_widow2`](#v-stoutford_widow2) | NPC | Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2) | shopkeeper |
+| [`stoutford_widow`](#v-stoutford_widow) | NPC | Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow) | starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md) |
+| [`stoutford_widow2`](#v-stoutford_widow2) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2) | shopkeeper |
 
 ## Stoutford, Stoutford gate (stoutford_widow) { #v-stoutford_widow }
 
 **Entry ID:** `stoutford_widow` · **Type:** NPC · **Role:** Starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md)
 
-**Location:** Stoutford: [stoutford_gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow)
+**Location:** Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow)
 
 ### Quests
 
@@ -39,7 +39,7 @@ description: "Aryfora is a non-player character (NPC) in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aryfora. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Aryfora. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_widow_select_0.json" data-npc="Aryfora" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -47,7 +47,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (67 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_widow-stoutford_widow_select_0"></span>**`stoutford_widow_select_0`** *(silent check: the first matching branch below is taken)*
 
@@ -300,7 +300,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “I've had enough - bye.” → *conversation ends*
     - “Don't worry about me. I can handle myself.” → [stoutford_widow_10](#d-stoutford_widow-stoutford_widow_10)
     - “I'm an adventurer. I'm afraid of nothing.” → [stoutford_widow_10](#d-stoutford_widow-stoutford_widow_10)
-    - “Remgard. *sigh*. OK, I'll do it.” *(if reached stage 170 of [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md#stage-170))* → [stoutford_widow_10](#d-stoutford_widow-stoutford_widow_10)
+    - “Remgard. *sigh*. OK, I'll do it.” *(if reached stage 170 of [General story flags 2 (hidden flag)](../quests/nondisplay_2.md#stage-170))* → [stoutford_widow_10](#d-stoutford_widow-stoutford_widow_10)
 
     <span id="d-stoutford_widow-stoutford_widow_roots4045_10"></span>**`stoutford_widow_roots4045_10`** Aryfora: “My uncle also convinced the whole village that I was too young to be their alchemist, and that they needed him to take over the shop.”
 
@@ -405,7 +405,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stoutford_widow2` · **Type:** NPC · **Role:** Shopkeeper
 
-**Location:** Stoutford: [stoutford_potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2)
+**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2)
 
 ### Shop stock
 
@@ -422,7 +422,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Aryfora. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Aryfora. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_widow2_0.json" data-npc="Aryfora" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -430,7 +430,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stoutford_widow2-stoutford_widow2_0"></span>**`stoutford_widow2_0`** Aryfora: “Welcome! I already created some good potions - better than Blornvale's stuff. Want to have a look?”
 
@@ -440,7 +440,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-stoutford_widow2-stoutford_widow2_1"></span>**`stoutford_widow2_1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 207 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-207))* → [stoutford_widow2_2](#d-stoutford_widow2-stoutford_widow2_2)
+    - branch 1 *(if reached stage 207 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-207))* → [stoutford_widow2_2](#d-stoutford_widow2-stoutford_widow2_2)
     - branch 2 → [stoutford_widow2_3](#d-stoutford_widow2-stoutford_widow2_3)
 
     <span id="d-stoutford_widow2-stoutford_widow2_2"></span>**`stoutford_widow2_2`** Aryfora: “Well, no. Somehow I have the feeling that you did not always tell the truth about the damerilias. I don't think that you are old enough to get such a potent potion.”

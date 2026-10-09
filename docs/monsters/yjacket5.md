@@ -1,10 +1,10 @@
 ---
-description: "Quick yellowjacket is an enemy in Andor's Trail (insect) with 53 HP, worth 151 XP, found in lodar11, lodar14, lodar15. Drops: Gold coins, Insect wing."
+description: "Quick yellowjacket is an enemy in Andor's Trail (insect) with 53 HP, worth 151 XP, found in Lodar 11, Lodar 14, Lodar 15. Drops: Gold coins, Insect wing."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_112.png){ .sprite } Quick yellowjacket
 
-**Found in:** [lodar11](../maps/lodar11.md), [lodar14](../maps/lodar14.md), [lodar15](../maps/lodar15.md), [lodar16](../maps/lodar16.md) (+1 more)
+**Found in:** [Lodar 11](../maps/lodar11.md), [Lodar 14](../maps/lodar14.md), [Lodar 15](../maps/lodar15.md), [Lodar 16](../maps/lodar16.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Quick yellowjacket is an enemy in Andor's Trail (insect) with 53 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar11, lodar14, lodar15 |
+| **Found in** | Lodar 11, Lodar 14, Lodar 15 |
 | **Class** | Insect |
 | **HP** | 53 |
 | **XP when defeated** | 151 |
@@ -57,11 +57,11 @@ description: "Quick yellowjacket is an enemy in Andor's Trail (insect) with 53 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar11](../maps/lodar11.md) | – | 2 | – |
-| [lodar14](../maps/lodar14.md) | – | 11 | – |
-| [lodar15](../maps/lodar15.md) | – | 2 | – |
-| [lodar16](../maps/lodar16.md) | – | 3 | – |
-| [lodar7](../maps/lodar7.md) | – | 11 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 2 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 11 | – |
+| [Lodar 15](../maps/lodar15.md) | – | 2 | – |
+| [Lodar 16](../maps/lodar16.md) | – | 3 | – |
+| [Lodar 7](../maps/lodar7.md) | – | 11 | – |
 
 
 ## Version history

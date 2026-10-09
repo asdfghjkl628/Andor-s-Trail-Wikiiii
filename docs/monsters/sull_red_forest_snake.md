@@ -1,10 +1,10 @@
 ---
-description: "Sullengard red forest snake is an enemy in Andor's Trail (reptile) with 175 HP, worth 768 XP, found in sullengard_west_ravine, sullengard_woods1, sullengard_woods13. Drops: Poison gland, Snake meat, Venomscale scales."
+description: "Sullengard red forest snake is an enemy in Andor's Trail (reptile) with 175 HP, worth 768 XP, found in Sullengard west ravine, Sullengard woods 1, Sullengard woods 13. Drops: Poison gland, Snake meat, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_27.png){ .sprite } Sullengard red forest snake
 
-**Found in:** [sullengard_west_ravine](../maps/sullengard_west_ravine.md), [sullengard_woods1](../maps/sullengard_woods1.md), [sullengard_woods13](../maps/sullengard_woods13.md), [sullengard_woods14](../maps/sullengard_woods14.md) (+2 more)
+**Found in:** [Sullengard west ravine](../maps/sullengard_west_ravine.md), [Sullengard woods 1](../maps/sullengard_woods1.md), [Sullengard woods 13](../maps/sullengard_woods13.md), [Sullengard woods 14](../maps/sullengard_woods14.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Sullengard red forest snake is an enemy in Andor's Trail (reptile)
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
+| **Found in** | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
 | **Class** | Reptile |
 | **HP** | 175 |
 | **XP when defeated** | 768 |
@@ -58,12 +58,12 @@ description: "Sullengard red forest snake is an enemy in Andor's Trail (reptile)
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | 10 | – |
-| [sullengard_woods1](../maps/sullengard_woods1.md) | – | 5 | – |
-| [sullengard_woods13](../maps/sullengard_woods13.md) | – | 3 | – |
-| [sullengard_woods14](../maps/sullengard_woods14.md) | – | 7 | – |
-| [sullengard_woods2](../maps/sullengard_woods2.md) | – | 1 | – |
-| [sullengard_woods_gj1](../maps/sullengard_woods_gj1.md) | – | 13 | – |
+| [Sullengard west ravine](../maps/sullengard_west_ravine.md) | – | 10 | – |
+| [Sullengard woods 1](../maps/sullengard_woods1.md) | – | 5 | – |
+| [Sullengard woods 13](../maps/sullengard_woods13.md) | – | 3 | – |
+| [Sullengard woods 14](../maps/sullengard_woods14.md) | – | 7 | – |
+| [Sullengard woods 2](../maps/sullengard_woods2.md) | – | 1 | – |
+| [Sullengard woods gj 1](../maps/sullengard_woods_gj1.md) | – | 13 | – |
 
 
 ## Version history

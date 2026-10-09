@@ -1,10 +1,10 @@
 ---
-description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 346 XP, found in waytobrimhavencave3a, waytobrimhavencave3b. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
+description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 346 XP, found in Waytobrimhavencave 3a, Waytobrimhavencave 3b. Drops: Gold coins, Glass gem, Regular potion of health, Empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite } Vaeregh
 
-**Found in:** [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md), [waytobrimhavencave3b](../maps/waytobrimhavencave3b.md)
+**Found in:** [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md), [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 34
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrimhavencave3a, waytobrimhavencave3b |
+| **Found in** | Waytobrimhavencave 3a, Waytobrimhavencave 3b |
 | **Class** | Demon |
 | **HP** | 149 |
 | **XP when defeated** | 346 |
@@ -63,8 +63,8 @@ description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 34
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | 5 | – |
-| [waytobrimhavencave3b](../maps/waytobrimhavencave3b.md) | – | 2 | – |
+| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 5 | – |
+| [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md) | – | 2 | – |
 
 
 ## Version history

@@ -25,7 +25,7 @@ description: "Hannah's special herbs is a quest other in Andor's Trail. How to g
 
 ### Quest & dialogue rewards
 
-- From [Nuik](../monsters/guynmart_nuik.md) ([guynmart](../maps/guynmart.md)) (100%)
+- From [Nuik](../monsters/guynmart_nuik.md) ([Guynmart](../maps/guynmart.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,7 +36,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hofala](../monsters/guynmart_cook.md) ([guynmart_main_2](../maps/guynmart_main_2.md)) | – | handed over (1×) | “(automatic)” |
+| [Hofala](../monsters/guynmart_cook.md) ([Guynmart main 2](../maps/guynmart_main_2.md)) | – | handed over (1×) | “(automatic)” |
 | a scripted event | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

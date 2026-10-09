@@ -18,28 +18,28 @@ description: "Boralla is a non-player character (NPC) in Andor's Trail, found in
 </div>
 
 !!! info "8 entries in the game data"
-    The game's data files define 8 separate characters named Boralla. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation. This page combines them; each entry is described in its own section below.
+    The game data defines 8 separate characters named Boralla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`stn_boralla`](#v-stn_boralla) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla) | – |
-| [`stn_boralla1`](#v-stn_boralla1) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla1) | – |
-| [`stn_boralla2`](#v-stn_boralla2) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla2) | – |
-| [`stn_boralla3`](#v-stn_boralla3) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla3) | – |
-| [`stn_boralla4`](#v-stn_boralla4) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla4) | – |
-| [`stn_boralla5`](#v-stn_boralla5) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla5) | – |
-| [`stn_boralla6`](#v-stn_boralla6) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla6) | – |
-| [`stn_boralla7`](#v-stn_boralla7) | NPC | Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla7) | – |
+| [`stn_boralla`](#v-stn_boralla) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla) | – |
+| [`stn_boralla1`](#v-stn_boralla1) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla1) | – |
+| [`stn_boralla2`](#v-stn_boralla2) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla2) | – |
+| [`stn_boralla3`](#v-stn_boralla3) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla3) | – |
+| [`stn_boralla4`](#v-stn_boralla4) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla4) | – |
+| [`stn_boralla5`](#v-stn_boralla5) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla5) | – |
+| [`stn_boralla6`](#v-stn_boralla6) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla6) | – |
+| [`stn_boralla7`](#v-stn_boralla7) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla7) | – |
 
 ## Stoutford, Stoutford north-east (stn_boralla) { #v-stn_boralla }
 
 **Entry ID:** `stn_boralla` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -47,7 +47,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla-stn_boralla"></span>**`stn_boralla`** Boralla: “Hi kid, should we play hide and seek?”
 
@@ -105,11 +105,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla1` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla1)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla1)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla1.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -117,7 +117,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla1-stn_boralla1"></span>**`stn_boralla1`** Boralla: “You found me too quickly! Once more, please. Count to ten again!”
 
@@ -170,11 +170,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla2` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla2)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla2.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -182,7 +182,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla2-stn_boralla2"></span>**`stn_boralla2`** Boralla: “Hey, you found me again! Once more?”
 
@@ -235,11 +235,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla3` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla3)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla3.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -247,7 +247,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla3-stn_boralla3"></span>**`stn_boralla3`** Boralla: “You didn't count to 10! Don't cheat. Another time!”
 
@@ -300,11 +300,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla4` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla4)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla4)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla4.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -312,7 +312,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla4-stn_boralla4"></span>**`stn_boralla4`** Boralla: “Are you sure you didn't cheat this time?”
 
@@ -365,11 +365,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla5` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla5)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla5)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla5.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -377,7 +377,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla5-stn_boralla5"></span>**`stn_boralla5`** Boralla: “You found me again! Once...”
 
@@ -430,11 +430,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla6` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla6)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla6)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla6.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -442,7 +442,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla6-stn_boralla6"></span>**`stn_boralla6`** Boralla: “How did you know I'm here?”
 
@@ -495,11 +495,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `stn_boralla7` · **Type:** NPC
 
-**Location:** Stoutford: [stoutford_ne](../maps/stoutford_ne.md#pin-npc-stn_boralla7)
+**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stn_boralla7)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Boralla. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Boralla. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stn_boralla7.json" data-npc="Boralla" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -507,7 +507,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-stn_boralla7-stn_boralla7"></span>**`stn_boralla7`** Boralla: “That time it took you a bit longer to find me!”
 

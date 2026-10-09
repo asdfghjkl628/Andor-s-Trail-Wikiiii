@@ -18,30 +18,30 @@ description: "Guynmart elite guard is a non-player character (NPC) in Andor's Tr
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Guynmart elite guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Guynmart elite guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_pguard`](#v-guynmart_pguard) | NPC | Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard) | – |
-| [`guynmart_pguard2`](#v-guynmart_pguard2) | NPC | Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2) | – |
-| [`guynmart_pguard3`](#v-guynmart_pguard3) | NPC | Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3) | – |
+| [`guynmart_pguard`](#v-guynmart_pguard) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard) | – |
+| [`guynmart_pguard2`](#v-guynmart_pguard2) | NPC | Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2) | – |
+| [`guynmart_pguard3`](#v-guynmart_pguard3) | NPC | Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3) | – |
 
 ## Guynmart Castle, Guynmart and 1 more (guynmart_pguard) { #v-guynmart_pguard }
 
 **Entry ID:** `guynmart_pguard` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard)
+**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart](../maps/guynmart.md) | Guynmart Castle | 4 | Appears later, during a quest |
-| [guynmart_wood_4](../maps/guynmart_wood_4.md) | Guynmart Castle | 3 | – |
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 4 | Appears later, during a quest |
+| [Guynmart wood 4](../maps/guynmart_wood_4.md) | Guynmart Castle | 3 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart elite guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart elite guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_guard_10.json" data-npc="Guynmart elite guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -49,7 +49,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_pguard-guynmart_guard_10"></span>**`guynmart_guard_10`** Guynmart elite guard: “Go away, kid.”
 
@@ -96,11 +96,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_pguard2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2)
+**Location:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart elite guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart elite guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_pguard2_10.json" data-npc="Guynmart elite guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -108,7 +108,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_pguard2-guynmart_pguard2_10"></span>**`guynmart_pguard2_10`** *(silent check: the first matching branch below is taken)*
 
@@ -163,11 +163,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_pguard3` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_wood_4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3)
+**Location:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart elite guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart elite guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_pguard3_10.json" data-npc="Guynmart elite guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -175,7 +175,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_pguard3-guynmart_pguard3_10"></span>**`guynmart_pguard3_10`** *(silent check: the first matching branch below is taken)*
 

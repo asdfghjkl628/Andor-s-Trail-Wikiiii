@@ -1,10 +1,10 @@
 ---
-description: "Giant Cave Arulir is an enemy in Andor's Trail (giant) with 380 HP, worth 503 XP, found in arulircave1, arulircave2, arulircave3. Drops: Gold coins, Meat, Animal hair, Arulir skin."
+description: "Giant Cave Arulir is an enemy in Andor's Trail (giant) with 380 HP, worth 503 XP, found in Arulircave 1, Arulircave 2, Arulircave 3. Drops: Gold coins, Meat, Animal hair, Arulir skin."
 ---
 
 # ![](../assets/icons/monsters/monsters_arulirs_1.png){ .sprite } Giant Cave Arulir
 
-**Found in:** [arulircave1](../maps/arulircave1.md), [arulircave2](../maps/arulircave2.md), [arulircave3](../maps/arulircave3.md), [arulirmountain1](../maps/arulirmountain1.md)
+**Found in:** [Arulircave 1](../maps/arulircave1.md), [Arulircave 2](../maps/arulircave2.md), [Arulircave 3](../maps/arulircave3.md), [Arulirmountain 1](../maps/arulirmountain1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Giant Cave Arulir is an enemy in Andor's Trail (giant) with 380 HP
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | arulircave1, arulircave2, arulircave3 |
+| **Found in** | Arulircave 1, Arulircave 2, Arulircave 3 |
 | **Class** | Giant |
 | **HP** | 380 |
 | **XP when defeated** | 503 |
@@ -59,10 +59,10 @@ description: "Giant Cave Arulir is an enemy in Andor's Trail (giant) with 380 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [arulircave1](../maps/arulircave1.md) | – | 18 | – |
-| [arulircave2](../maps/arulircave2.md) | – | 5 | – |
-| [arulircave3](../maps/arulircave3.md) | – | 4 | – |
-| [arulirmountain1](../maps/arulirmountain1.md) | – | 1 | – |
+| [Arulircave 1](../maps/arulircave1.md) | – | 18 | – |
+| [Arulircave 2](../maps/arulircave2.md) | – | 5 | – |
+| [Arulircave 3](../maps/arulircave3.md) | – | 4 | – |
+| [Arulirmountain 1](../maps/arulirmountain1.md) | – | 1 | – |
 
 
 ## Version history

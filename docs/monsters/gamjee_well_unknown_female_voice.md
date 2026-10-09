@@ -1,10 +1,10 @@
 ---
-description: "Unknown female voice is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in gamjee_well_2_1."
+description: "Unknown female voice is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in Gamjee well 2 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_unknown_0.png){ .sprite } Unknown female voice
 
-**Found in:** [gamjee_well_2_1](../maps/gamjee_well_2_1.md)
+**Found in:** [Gamjee well 2 1](../maps/gamjee_well_2_1.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Unknown female voice is an enemy in Andor's Trail (humanoid) with 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | gamjee_well_2_1 |
+| **Found in** | Gamjee well 2 1 |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -48,7 +48,7 @@ description: "Unknown female voice is an enemy in Andor's Trail (humanoid) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_2_1](../maps/gamjee_well_2_1.md) | – | 1 | – |
+| [Gamjee well 2 1](../maps/gamjee_well_2_1.md) | – | 1 | – |
 
 
 ## Version history

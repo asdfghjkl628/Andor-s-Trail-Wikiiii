@@ -4,7 +4,7 @@ description: "River troll is an enemy in Andor's Trail (giant) with 210 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles1_104.png){ .sprite } River troll
 
-**Found in:** Crossroads Guardhouse: [roadtocarntower2](../maps/roadtocarntower2.md), Flagstone Prison: [lake_shore_road7a](../maps/lake_shore_road7a.md), Flagstone Prison: [lake_shore_road_7](../maps/lake_shore_road_7.md), [lake_shore_road_8a](../maps/lake_shore_road_8a.md)
+**Found in:** Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md), Flagstone Prison: [Lake shore road 7a](../maps/lake_shore_road7a.md), Flagstone Prison: [Lake shore road 7](../maps/lake_shore_road_7.md), [Lake shore road 8a](../maps/lake_shore_road_8a.md)
 
 <div class="infobox" markdown>
 
@@ -57,10 +57,10 @@ description: "River troll is an enemy in Andor's Trail (giant) with 210 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road7a](../maps/lake_shore_road7a.md) | Flagstone Prison | 3 | – |
-| [lake_shore_road_7](../maps/lake_shore_road_7.md) | Flagstone Prison | 2 | – |
-| [lake_shore_road_8a](../maps/lake_shore_road_8a.md) | – | 2 | – |
-| [roadtocarntower2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
+| [Lake shore road 7a](../maps/lake_shore_road7a.md) | Flagstone Prison | 3 | – |
+| [Lake shore road 7](../maps/lake_shore_road_7.md) | Flagstone Prison | 2 | – |
+| [Lake shore road 8a](../maps/lake_shore_road_8a.md) | – | 2 | – |
+| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP, worth 294 XP, found in elm_2f_1, elm_3f, elm_4f_1. Drops: Thin amphibian skin, Gold coins, Wizened amphibian boots, Battered amphibian gloves."
+description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP, worth 294 XP, found in Elm 2f 1, Elm 3f, Elm 4f 1. Drops: Thin amphibian skin, Gold coins, Wizened amphibian boots, Battered amphibian gloves."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_23.png){ .sprite } Contaminated olm
 
-**Found in:** [elm_2f_1](../maps/elm_2f_1.md), [elm_3f](../maps/elm_3f.md), [elm_4f_1](../maps/elm_4f_1.md), [elm_4f_2](../maps/elm_4f_2.md) (+4 more)
+**Found in:** [Elm 2f 1](../maps/elm_2f_1.md), [Elm 3f](../maps/elm_3f.md), [Elm 4f 1](../maps/elm_4f_1.md), [Elm 4f 2](../maps/elm_4f_2.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm_2f_1, elm_3f, elm_4f_1 |
+| **Found in** | Elm 2f 1, Elm 3f, Elm 4f 1 |
 | **Class** | Animal |
 | **HP** | 90 |
 | **XP when defeated** | 294 |
@@ -61,14 +61,14 @@ description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm_2f_1](../maps/elm_2f_1.md) | – | 19 | – |
-| [elm_3f](../maps/elm_3f.md) | – | 9 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 6 | – |
-| [elm_4f_2](../maps/elm_4f_2.md) | – | 7 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 2 | – |
-| [elm_4f_4](../maps/elm_4f_4.md) | – | 3 | – |
-| [elm_4f_5](../maps/elm_4f_5.md) | – | 3 | – |
-| [elm_mine5](../maps/elm_mine5.md) | – | 7 | – |
+| [Elm 2f 1](../maps/elm_2f_1.md) | – | 19 | – |
+| [Elm 3f](../maps/elm_3f.md) | – | 9 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 6 | – |
+| [Elm 4f 2](../maps/elm_4f_2.md) | – | 7 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 2 | – |
+| [Elm 4f 4](../maps/elm_4f_4.md) | – | 3 | – |
+| [Elm 4f 5](../maps/elm_4f_5.md) | – | 3 | – |
+| [Elm mine 5](../maps/elm_mine5.md) | – | 7 | – |
 
 
 ## Version history

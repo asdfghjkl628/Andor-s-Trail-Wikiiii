@@ -1,10 +1,10 @@
 ---
-description: "Morkin guard is an enemy in Andor's Trail (humanoid) with 165 HP, worth 294 XP, found in lodar11, lodar12, lodar18. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
+description: "Morkin guard is an enemy in Andor's Trail (humanoid) with 165 HP, worth 294 XP, found in Lodar 11, Lodar 12, Lodar 18. Drops: Gold coins, Liquid courage, Regular potion of health, Dull two-handed sword."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_70.png){ .sprite } Morkin guard
 
-**Found in:** [lodar11](../maps/lodar11.md), [lodar12](../maps/lodar12.md), [lodar18](../maps/lodar18.md)
+**Found in:** [Lodar 11](../maps/lodar11.md), [Lodar 12](../maps/lodar12.md), [Lodar 18](../maps/lodar18.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Morkin guard is an enemy in Andor's Trail (humanoid) with 165 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar11, lodar12, lodar18 |
+| **Found in** | Lodar 11, Lodar 12, Lodar 18 |
 | **Class** | Humanoid |
 | **HP** | 165 |
 | **XP when defeated** | 294 |
@@ -58,9 +58,9 @@ description: "Morkin guard is an enemy in Andor's Trail (humanoid) with 165 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar11](../maps/lodar11.md) | – | 1 | – |
-| [lodar12](../maps/lodar12.md) | – | 4 | – |
-| [lodar18](../maps/lodar18.md) | – | 1 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 1 | – |
+| [Lodar 12](../maps/lodar12.md) | – | 4 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 1 | – |
 
 
 ## Version history

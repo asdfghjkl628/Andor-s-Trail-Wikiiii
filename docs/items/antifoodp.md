@@ -34,8 +34,8 @@ description: "Antidote is a ordinary potion in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) during [Taste is everything](../quests/antifoodp.md#stage-35) (100%)
-- From [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) (100%)
+- From [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) during [Taste is everything](../quests/antifoodp.md#stage-35) (100%)
+- From [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -28,7 +28,7 @@ description: "Empty flask is a ordinary liquid container in Andor's Trail. How t
 
 ### Found in containers
 
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 20%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 20%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -39,9 +39,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [blackwater_mountain75](../maps/blackwater_mountain75.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-12) | handed over (1×) | “Fill a bottle of water.” |
-| walking into a blocked passage on [blackwater_mountain75](../maps/blackwater_mountain75.md) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) | handed over (1×) | “Fill another bottle of water.” |
-| stepping on a trigger on [loneford13](../maps/loneford13.md) | – | handed over (1×) | “[Whip an empty flask down there.]” |
+| walking into a blocked passage on [Blackwater mountain 75](../maps/blackwater_mountain75.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-12) | handed over (1×) | “Fill a bottle of water.” |
+| walking into a blocked passage on [Blackwater mountain 75](../maps/blackwater_mountain75.md) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-24) | handed over (1×) | “Fill another bottle of water.” |
+| stepping on a trigger on [Loneford 13](../maps/loneford13.md) | – | handed over (1×) | “[Whip an empty flask down there.]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

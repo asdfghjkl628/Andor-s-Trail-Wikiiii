@@ -42,22 +42,22 @@ description: "Iron club is a ordinary mace in Andor's Trail (Attack damage 2 to 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 1 | waytobrimhavencave4 |
-| [Giant ogre](../monsters/ratdom_troll_9.md) | 100% | 1 | ratdom_maze_517a |
+| [Ulirfendor](../monsters/ulirfendor.md) | 100% | 1 | Waytobrimhavencave 4 |
+| [Giant ogre](../monsters/ratdom_troll_9.md) | 100% | 1 | Ratdom maze 517a |
 | [Ogre](../monsters/ratdom_uglybrute.md) | 75% | 1 | Gold hunter |
-| [Cave troll](../monsters/cave_troll_1.md) | 5% | 1 | lakecave0 |
-| [Strong cave troll](../monsters/cave_troll_2.md) | 5% | 1 | lakecave0, lakecave2 |
-| [Tough cave troll](../monsters/cave_troll_3.md) | 5% | 1 | lakecave0, lakecave2 |
-| [Cave troll shaman](../monsters/cave_troll_4.md) | 5% | 1 | lakecave0, lakecave2 |
-| [Cave troll](../monsters/cave_troll_1.md#v-cave_troll_7) | 5% | 1 | lakecave0 |
+| [Cave troll](../monsters/cave_troll_1.md) | 5% | 1 | Lakecave 0 |
+| [Strong cave troll](../monsters/cave_troll_2.md) | 5% | 1 | Lakecave 0, Lakecave 2 |
+| [Tough cave troll](../monsters/cave_troll_3.md) | 5% | 1 | Lakecave 0, Lakecave 2 |
+| [Cave troll shaman](../monsters/cave_troll_4.md) | 5% | 1 | Lakecave 0, Lakecave 2 |
+| [Cave troll](../monsters/cave_troll_1.md#v-cave_troll_7) | 5% | 1 | Lakecave 0 |
 | [Cave gnome](../monsters/ratdom_m6a.md) | 5% | 1 | Labyrinth |
 | [Plump cave gnome](../monsters/ratdom_m6b.md) | 5% | 1 | Labyrinth |
-| [Young ogre](../monsters/ratdom_troll_1.md) | 5% | 1 | ratdom_maze_517a |
-| [Weak ogre](../monsters/ratdom_troll_2.md) | 5% | 1 | ratdom_maze_517a |
-| [Angry ogre](../monsters/ratdom_troll_3.md) | 5% | 1 | ratdom_maze_517a |
-| [Mad ogre](../monsters/ratdom_troll_4.md) | 5% | 1 | ratdom_maze_517a |
-| [Dangerous ogre](../monsters/ratdom_troll_5.md) | 5% | 1 | ratdom_maze_517a |
-| [Ancient ogre](../monsters/ratdom_troll_6.md) | 5% | 1 | ratdom_maze_517a |
+| [Young ogre](../monsters/ratdom_troll_1.md) | 5% | 1 | Ratdom maze 517a |
+| [Weak ogre](../monsters/ratdom_troll_2.md) | 5% | 1 | Ratdom maze 517a |
+| [Angry ogre](../monsters/ratdom_troll_3.md) | 5% | 1 | Ratdom maze 517a |
+| [Mad ogre](../monsters/ratdom_troll_4.md) | 5% | 1 | Ratdom maze 517a |
+| [Dangerous ogre](../monsters/ratdom_troll_5.md) | 5% | 1 | Ratdom maze 517a |
+| [Ancient ogre](../monsters/ratdom_troll_6.md) | 5% | 1 | Ratdom maze 517a |
 
 ### Sold by
 
@@ -65,23 +65,23 @@ description: "Iron club is a ordinary mace in Andor's Trail (Attack damage 2 to 
 
 ### Found in containers
 
-- [ratdom_maze_427](../maps/ratdom_maze_427.md#container-0) (container 1, 5%), Entry
-- [ratdom_maze_432](../maps/ratdom_maze_432.md#container-0) (container 1, 5%), Pub
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-0) (container 1, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-1) (container 2, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-2) (container 3, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-3) (container 4, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-4) (container 5, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-5) (container 6, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-6) (container 7, 5%), Gold hunter
-- [ratdom_maze_444](../maps/ratdom_maze_444.md#container-7) (container 8, 5%), Gold hunter
-- [ratdom_maze_457](../maps/ratdom_maze_457.md#container-0) (container 1, 5%), Entry
-- [ratdom_maze_536](../maps/ratdom_maze_536.md#container-0) (container 1, 5%), Bloskelt + Roskelt
-- [ratdom_maze_546](../maps/ratdom_maze_546.md#container-0) (container 1, 5%), Bloskelt + Roskelt
-- [ratdom_maze_547](../maps/ratdom_maze_547.md#container-0) (container 1, 5%), Labyrinth
-- [ratdom_maze_562](../maps/ratdom_maze_562.md#container-0) (container 1, 5%)
-- [ratdom_maze_633](../maps/ratdom_maze_633.md#container-0) (container 1, 5%)
-- [ratdom_maze_636](../maps/ratdom_maze_636.md#container-0) (container 1, 5%), Bloskelt + Roskelt
+- [Ratdom maze 427](../maps/ratdom_maze_427.md#container-0) (container 1, 5%), Entry
+- [Ratdom maze 432](../maps/ratdom_maze_432.md#container-0) (container 1, 5%), Pub
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-0) (container 1, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-1) (container 2, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-2) (container 3, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-3) (container 4, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-4) (container 5, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-5) (container 6, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-6) (container 7, 5%), Gold hunter
+- [Ratdom maze 444](../maps/ratdom_maze_444.md#container-7) (container 8, 5%), Gold hunter
+- [Ratdom maze 457](../maps/ratdom_maze_457.md#container-0) (container 1, 5%), Entry
+- [Ratdom maze 536](../maps/ratdom_maze_536.md#container-0) (container 1, 5%), Bloskelt + Roskelt
+- [Ratdom maze 546](../maps/ratdom_maze_546.md#container-0) (container 1, 5%), Bloskelt + Roskelt
+- [Ratdom maze 547](../maps/ratdom_maze_547.md#container-0) (container 1, 5%), Labyrinth
+- [Ratdom maze 562](../maps/ratdom_maze_562.md#container-0) (container 1, 5%)
+- [Ratdom maze 633](../maps/ratdom_maze_633.md#container-0) (container 1, 5%)
+- [Ratdom maze 636](../maps/ratdom_maze_636.md#container-0) (container 1, 5%), Bloskelt + Roskelt
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

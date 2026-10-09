@@ -27,7 +27,7 @@ description: "Farmer's pitchfork is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [loneford13](../maps/loneford13.md) during [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-100) (1×)
+- From walking into a blocked passage on [Loneford 13](../maps/loneford13.md) during [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Ainsley](../monsters/deebo_orchard_farmer_ainsley.md) ([sullengard_apple_farm_west](../maps/sullengard_apple_farm_west.md)) | [Getting home on time](../quests/deebo_orchard_ght.md#stage-50) | handed over (1×) | “I have a new pitchfork here.” |
+| [Ainsley](../monsters/deebo_orchard_farmer_ainsley.md) ([Sullengard apple farm west](../maps/sullengard_apple_farm_west.md)) | [Getting home on time](../quests/deebo_orchard_ght.md#stage-50) | handed over (1×) | “I have a new pitchfork here.” |
 | a scripted event | [Getting home on time](../quests/deebo_orchard_ght.md#stage-50) | handed over (1×) | “Correct. Here's the new pitchfork.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

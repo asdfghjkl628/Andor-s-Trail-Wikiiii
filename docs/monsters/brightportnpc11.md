@@ -4,7 +4,7 @@ description: "Jalmor is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_84.png){ .sprite } Jalmor
 
-**Where to find Jalmor:** Brightport: [brightport_house](../maps/brightport_house.md#pin-npc-brightportnpc11)
+**Where to find Jalmor:** Brightport: [Brightport house](../maps/brightport_house.md#pin-npc-brightportnpc11)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Jalmor is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jalmor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jalmor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_npc11.json" data-npc="Jalmor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,11 +29,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_npc11"></span>**`brightport_npc11`** Jalmor: “I'm not mad, but entering people's homes isn't exactly a nice thing to do, you know.”
 
-    - “Is this Richimor's house?” *(if NOT reached stage 65 of [No rest for the wicked](../quests/Stanwickquest.md#stage-65); reached stage 248 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-248))* → [brightport_npc110](#d-brightport_npc110)
+    - “Is this Richimor's house?” *(if NOT reached stage 65 of [No rest for the wicked](../quests/Stanwickquest.md#stage-65); reached stage 248 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-248))* → [brightport_npc110](#d-brightport_npc110)
 
     <span id="d-brightport_npc110"></span>**`brightport_npc110`** Jalmor: “Grandfather? Well yes, but he's outside at the moment.”
 

@@ -26,27 +26,27 @@ description: "Rat tail is a ordinary animal part in Andor's Trail. How to get it
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan4) | 100% | 1-2 | mushroom_m2_8 |
-| [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_second) | 100% | 7-12 | witch_house |
-| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 2-5 | swamp_hut |
-| [Ny'Ratees](../monsters/nyratees.md) | 100% | 1 | undertell_1_0, undertell_1_1 |
+| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan4) | 100% | 1-2 | Mushroom m 2 8 |
+| [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_second) | 100% | 7-12 | Witch house |
+| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 2-5 | Swamp hut |
+| [Ny'Ratees](../monsters/nyratees.md) | 100% | 1 | Undertell 1 0, Undertell 1 1 |
 | [Cave rat](../monsters/cave_rat.md) | 30% | 1 | Crossglen, Mt. Galmore, Flagstone Prison |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 30% | 1 | Crossglen, Mt. Galmore, Guynmart Castle |
-| [Cave rat](../monsters/cave_rat.md#v-puny_caverat) | 30% | 1 | blackwater_mountain6 |
+| [Cave rat](../monsters/cave_rat.md#v-puny_caverat) | 30% | 1 | Blackwater mountain 6 |
 | [Rat](../monsters/vermin0.md#v-crossroads_rat) | 30% | 1 | Crossroads Guardhouse, Remgard, Wexlow Village |
 | [Warehouse rat](../monsters/puny_warehouserat.md) | 30% | 1 | Loneford |
-| [Mouse](../monsters/brv_churchmouse.md) | 30% | 1 | brimhaven_church_upstairs |
+| [Mouse](../monsters/brv_churchmouse.md) | 30% | 1 | Brimhaven church upstairs |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
 | [Slime](../monsters/ratdom_maze_slime.md) | 30% | 1 | Gold hunter |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
-| [Tiny rat](../monsters/tiny_rat.md#v-tobby_trainingrat) | 30% | 1 | guynmart_wood_19 |
+| [Tiny rat](../monsters/tiny_rat.md#v-tobby_trainingrat) | 30% | 1 | Guynmart wood 19 |
 | [Brown church rat](../monsters/brown_church_rat.md) | 11% | 1 | Remgard |
 | [Pup rat](../monsters/young_church_rat.md) | 10% | 1 | Remgard |
 
 ### Sold by
 
 - [Potion merchant](../monsters/potion_merchant.md) (Fallhaven)
-- [Alynndir](../monsters/alynndir.md) (road5_house)
+- [Alynndir](../monsters/alynndir.md) (Road 5 house)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -57,11 +57,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-25) | handed over (5×) | “I already possess 5 rat tails. You can take them.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-30) | handed over (5×) | “Well, I do have these 5 other rat tails here.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-25) | handed over (5×) | “Here you go.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-65) | handed over (5×) | “Here, take these.” |
-| [Halvor](../monsters/halvor.md) ([blackwater_mountain4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-65) | handed over (5×) | “Yes. Here they are.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-25) | handed over (5×) | “I already possess 5 rat tails. You can take them.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-30) | handed over (5×) | “Well, I do have these 5 other rat tails here.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-25) | handed over (5×) | “Here you go.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-65) | handed over (5×) | “Here, take these.” |
+| [Halvor](../monsters/halvor.md) ([Blackwater mountain 4](../maps/blackwater_mountain4.md)) | [Surprise?](../quests/halvor_surprise.md#stage-65) | handed over (5×) | “Yes. Here they are.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

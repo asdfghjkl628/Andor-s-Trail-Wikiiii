@@ -1,8 +1,8 @@
 ---
-description: "Brightport school9 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Oswald. Exits to Brightport school."
+description: "Brightport school 9 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Oswald. Exits to Brightport school."
 ---
 
-# Brightport school9
+# Brightport school 9
 
 <div class="infobox" markdown>
 
@@ -18,13 +18,13 @@ description: "Brightport school9 is an indoor location in Andor's Trail, in Brig
 
 </div>
 
-**Brightport school9** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport school.
+**Brightport school 9** is an indoor map, in Brightport (settlement). It has 1 NPC, and no enemies. Exits lead to Brightport school.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school9.webp" alt="Map of Brightport school9" width="384" height="352" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightport_school/#place-north" title="Exit to Brightport school" style="left:41.667%;top:81.818%;width:16.667%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Oswald" style="left:41.667%;top:27.273%;width:16.667%;height:18.182%"></span><a class="mob" href="../../monsters/brightportnpc6/" title="Oswald" style="left:50.000%;top:27.273%;width:8.333%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_56.png" alt="Oswald"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:86.364%" title="Exit (south): to [Brightport school](brightport_school.md)">1</a><a id="pin-npc-brightportnpc6" class="pin pin-npc" href="#key-2" style="left:54.167%;top:31.818%" title="[Oswald](../../monsters/brightportnpc6.md): 1 quest">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_school9.webp" alt="Map of Brightport school 9" width="384" height="352" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightport_school/#place-north" title="Exit to Brightport school" style="left:41.667%;top:81.818%;width:16.667%;height:9.091%"></a><span class="mo mo-spawn" title="Spawns: Oswald" style="left:41.667%;top:27.273%;width:16.667%;height:18.182%"></span><a class="mob" href="../../monsters/brightportnpc6/" title="Oswald" style="left:50.000%;top:27.273%;width:8.333%;height:9.091%"><img src="../../assets/icons/monsters/monsters_ld1_56.png" alt="Oswald"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:86.364%" title="Exit (south): to [Brightport school](brightport_school.md)">1</a><a id="pin-npc-brightportnpc6" class="pin pin-npc" href="#key-2" style="left:54.167%;top:31.818%" title="[Oswald](../../monsters/brightportnpc6.md): 1 quest">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
@@ -49,7 +49,7 @@ description: "Brightport school9 is an indoor location in Andor's Trail, in Brig
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): [Oswald](../monsters/brightportnpc6.md) is involved
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): [Oswald](../monsters/brightportnpc6.md) is involved
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): [Oswald](../monsters/brightportnpc6.md) is involved
 
 
 ## Version history

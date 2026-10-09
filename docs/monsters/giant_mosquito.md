@@ -4,7 +4,7 @@ description: "Giant mosquito is an enemy in Andor's Trail (insect) with 106 HP, 
 
 # ![](../assets/icons/monsters/monsters_newb_1_580.png){ .sprite } Giant mosquito
 
-**Found in:** Mt. Galmore: [galmore_47](../maps/galmore_47.md), [galmore_17](../maps/galmore_17.md), [galmore_18](../maps/galmore_18.md), [galmore_19](../maps/galmore_19.md) (+6 more)
+**Found in:** Mt. Galmore: [Galmore 47](../maps/galmore_47.md), [Galmore 17](../maps/galmore_17.md), [Galmore 18](../maps/galmore_18.md), [Galmore 19](../maps/galmore_19.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -56,16 +56,16 @@ description: "Giant mosquito is an enemy in Andor's Trail (insect) with 106 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_17](../maps/galmore_17.md) | – | 4 | – |
-| [galmore_18](../maps/galmore_18.md) | – | 8 | – |
-| [galmore_19](../maps/galmore_19.md) | – | 2 | – |
-| [galmore_27](../maps/galmore_27.md) | – | 4 | – |
-| [galmore_28](../maps/galmore_28.md) | – | 11 | – |
-| [galmore_29](../maps/galmore_29.md) | – | 2 | – |
-| [galmore_37](../maps/galmore_37.md) | – | 9 | – |
-| [galmore_38](../maps/galmore_38.md) | – | 11 | – |
-| [galmore_39](../maps/galmore_39.md) | – | 5 | – |
-| [galmore_47](../maps/galmore_47.md) | Mt. Galmore | 1 | – |
+| [Galmore 17](../maps/galmore_17.md) | – | 4 | – |
+| [Galmore 18](../maps/galmore_18.md) | – | 8 | – |
+| [Galmore 19](../maps/galmore_19.md) | – | 2 | – |
+| [Galmore 27](../maps/galmore_27.md) | – | 4 | – |
+| [Galmore 28](../maps/galmore_28.md) | – | 11 | – |
+| [Galmore 29](../maps/galmore_29.md) | – | 2 | – |
+| [Galmore 37](../maps/galmore_37.md) | – | 9 | – |
+| [Galmore 38](../maps/galmore_38.md) | – | 11 | – |
+| [Galmore 39](../maps/galmore_39.md) | – | 5 | – |
+| [Galmore 47](../maps/galmore_47.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

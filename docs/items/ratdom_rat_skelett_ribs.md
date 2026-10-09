@@ -25,7 +25,7 @@ description: "Rib bones of a rat is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([ratdom_maze_415](../maps/ratdom_maze_415.md)), [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([ratdom_maze_416](../maps/ratdom_maze_416.md)) during [Skeleton brothers](../quests/ratdom_skeleton.md#stage-90) (1×)
+- From [Roskelt](../monsters/ratdom_skeleton_boss1.md) ([Ratdom maze 415](../maps/ratdom_maze_415.md)), [Bloskelt](../monsters/ratdom_skeleton_boss2.md) ([Ratdom maze 416](../maps/ratdom_maze_416.md)) during [Skeleton brothers](../quests/ratdom_skeleton.md#stage-90) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,12 +36,12 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-390) | handed over (1×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | – | must be carried (1×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-321) | must be carried (1×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-325) | must be carried (1×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-324) | must be carried (1×) | “(automatic)” |
-| [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-322) | must be carried (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-390) | handed over (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | – | must be carried (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-321) | must be carried (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-325) | must be carried (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-324) | must be carried (1×) | “(automatic)” |
+| [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) | [Yellow is it](../quests/ratdom_quest.md#stage-322) | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

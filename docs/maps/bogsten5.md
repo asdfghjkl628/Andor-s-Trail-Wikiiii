@@ -1,8 +1,8 @@
 ---
-description: "Bogsten5 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Forest wasp. Exits to Wild12, Bogsten0."
+description: "Bogsten 5 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Forest wasp. Exits to Wild 12, Bogsten 0."
 ---
 
-# Bogsten5
+# Bogsten 5
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Bogsten5 is an indoor location in Andor's Trail, in Fallhaven (set
 | **Region** | In Fallhaven (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 10×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Bogsten5** is an indoor map, in Fallhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Wild12, Bogsten0.
+**Bogsten 5** is an indoor map, in Fallhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Wild 12, Bogsten 0.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bogsten5.webp" alt="Map of Bogsten5" width="320" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../bogsten0/#place-west" title="Exit to Bogsten0" style="left:90.000%;top:73.333%;width:10.000%;height:13.333%"></a><a id="place-north" class="mo mo-mapchange" href="../wild12/#place-south" title="Exit to Wild12" style="left:30.000%;top:0.000%;width:10.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:20.000%;top:13.333%;width:70.000%;height:46.667%"></span><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:20.000%;top:53.333%;width:60.000%;height:40.000%"></span><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:50.000%;top:20.000%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:50.000%;top:26.667%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:40.000%;top:53.333%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:50.000%;top:66.667%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="pin pin-exit" href="#key-1" style="left:35.000%;top:3.333%" title="Exit (north): to [Wild12](wild12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:95.000%;top:80.000%" title="Exit (east): to [Bogsten0](bogsten0.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bogsten5.webp" alt="Map of Bogsten 5" width="320" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../bogsten0/#place-west" title="Exit to Bogsten 0" style="left:90.000%;top:73.333%;width:10.000%;height:13.333%"></a><a id="place-north" class="mo mo-mapchange" href="../wild12/#place-south" title="Exit to Wild 12" style="left:30.000%;top:0.000%;width:10.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:20.000%;top:13.333%;width:70.000%;height:46.667%"></span><span class="mo mo-spawn" title="Spawns: Forest wasp" style="left:20.000%;top:53.333%;width:60.000%;height:40.000%"></span><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:50.000%;top:20.000%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:50.000%;top:26.667%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:40.000%;top:53.333%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="mob" href="../../monsters/forest_wasp/" title="Forest wasp" style="left:50.000%;top:66.667%;width:10.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_insects_1.png" alt="Forest wasp"></a><a class="pin pin-exit" href="#key-1" style="left:35.000%;top:3.333%" title="Exit (north): to [Wild 12](wild12.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:95.000%;top:80.000%" title="Exit (east): to [Bogsten 0](bogsten0.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Wild12](wild12.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Bogsten0](bogsten0.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Wild 12](wild12.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Bogsten 0](bogsten0.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Bogsten5 is an indoor location in Andor's Trail, in Fallhaven (set
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Wild12](wild12.md) | Fallhaven | 1 |
-| East | [Bogsten0](bogsten0.md) | Fallhaven | 2 |
+| North | [Wild 12](wild12.md) | Fallhaven | 1 |
+| East | [Bogsten 0](bogsten0.md) | Fallhaven | 2 |
 
 ## Enemies
 

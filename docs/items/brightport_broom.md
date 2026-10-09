@@ -54,10 +54,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [brightport_bakery1](../maps/brightport_bakery1.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-166) | must be worn (1×) | “N” |
-| stepping on a trigger on [brightport_bakery1](../maps/brightport_bakery1.md) | – | must be carried (1×) | “N” |
-| stepping on a trigger on [brightport_bakery1](../maps/brightport_bakery1.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-167) | must be worn (1×) | “N” |
-| stepping on a trigger on [brightport_bakery1](../maps/brightport_bakery1.md) | [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-165) | must be worn (1×) | “N” |
+| stepping on a trigger on [Brightport bakery 1](../maps/brightport_bakery1.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-166) | must be worn (1×) | “N” |
+| stepping on a trigger on [Brightport bakery 1](../maps/brightport_bakery1.md) | – | must be carried (1×) | “N” |
+| stepping on a trigger on [Brightport bakery 1](../maps/brightport_bakery1.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-167) | must be worn (1×) | “N” |
+| stepping on a trigger on [Brightport bakery 1](../maps/brightport_bakery1.md) | [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-165) | must be worn (1×) | “N” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

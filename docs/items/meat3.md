@@ -39,13 +39,13 @@ description: "Worm meat is a ordinary edible animal part in Andor's Trail. How t
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 25% | 1 | gamjee_well_1_1, gamjee_well_1_3, gamjee_well_2_1 |
-| [Contaminated woodworm](../monsters/elm_woodworm.md) | 20% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
-| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 20% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
+| [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 25% | 1 | Gamjee well 1 1, Gamjee well 1 3, Gamjee well 2 1 |
+| [Contaminated woodworm](../monsters/elm_woodworm.md) | 20% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 20% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
 
 ### Found in containers
 
-- [elm_mine5](../maps/elm_mine5.md#container-1) (container 2, 100%)
+- [Elm mine 5](../maps/elm_mine5.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

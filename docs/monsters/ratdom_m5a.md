@@ -4,7 +4,7 @@ description: "Lazy snail is an enemy in Andor's Trail (reptile) with 30 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles2_122.png){ .sprite } Lazy snail
 
-**Found in:** Bloskelt + Roskelt: [ratdom_maze_414](../maps/ratdom_maze_414.md), Gold hunter: [ratdom_maze_423](../maps/ratdom_maze_423.md), Gold hunter: [ratdom_maze_434](../maps/ratdom_maze_434.md), Pub: [ratdom_maze_412](../maps/ratdom_maze_412.md) (+4 more)
+**Found in:** Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Gold hunter: [Ratdom maze 423](../maps/ratdom_maze_423.md), Gold hunter: [Ratdom maze 434](../maps/ratdom_maze_434.md), Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -58,14 +58,14 @@ description: "Lazy snail is an enemy in Andor's Trail (reptile) with 30 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_412](../maps/ratdom_maze_412.md) | Pub | 4 | – |
-| [ratdom_maze_413](../maps/ratdom_maze_413.md) | Pub | 1 | – |
-| [ratdom_maze_414](../maps/ratdom_maze_414.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_421](../maps/ratdom_maze_421.md) | Pub | 2 | – |
-| [ratdom_maze_422](../maps/ratdom_maze_422.md) | Pub | 3 | – |
-| [ratdom_maze_423](../maps/ratdom_maze_423.md) | Gold hunter | 2 | – |
-| [ratdom_maze_432](../maps/ratdom_maze_432.md) | Pub | 2 | – |
-| [ratdom_maze_434](../maps/ratdom_maze_434.md) | Gold hunter | 2 | – |
+| [Ratdom maze 412](../maps/ratdom_maze_412.md) | Pub | 4 | – |
+| [Ratdom maze 413](../maps/ratdom_maze_413.md) | Pub | 1 | – |
+| [Ratdom maze 414](../maps/ratdom_maze_414.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 421](../maps/ratdom_maze_421.md) | Pub | 2 | – |
+| [Ratdom maze 422](../maps/ratdom_maze_422.md) | Pub | 3 | – |
+| [Ratdom maze 423](../maps/ratdom_maze_423.md) | Gold hunter | 2 | – |
+| [Ratdom maze 432](../maps/ratdom_maze_432.md) | Pub | 2 | – |
+| [Ratdom maze 434](../maps/ratdom_maze_434.md) | Gold hunter | 2 | – |
 
 
 ## Version history

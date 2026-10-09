@@ -4,7 +4,7 @@ description: "Sow aroughcun is an enemy in Andor's Trail (animal) with 175 HP, w
 
 # ![](../assets/icons/monsters/monsters_newb_1_274.png){ .sprite } Sow aroughcun
 
-**Found in:** Mt. Galmore: [galmore_48](../maps/galmore_48.md), Mt. Galmore: [galmore_57](../maps/galmore_57.md), Mt. Galmore: [galmore_58](../maps/galmore_58.md), Mt. Galmore: [galmore_58_house1](../maps/galmore_58_house1.md) (+6 more)
+**Found in:** Mt. Galmore: [Galmore 48](../maps/galmore_48.md), Mt. Galmore: [Galmore 57](../maps/galmore_57.md), Mt. Galmore: [Galmore 58](../maps/galmore_58.md), Mt. Galmore: [Galmore 58 house 1](../maps/galmore_58_house1.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -60,16 +60,16 @@ description: "Sow aroughcun is an enemy in Andor's Trail (animal) with 175 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_48](../maps/galmore_48.md) | Mt. Galmore | 3 | – |
-| [galmore_57](../maps/galmore_57.md) | Mt. Galmore | 3 | – |
-| [galmore_58](../maps/galmore_58.md) | Mt. Galmore | 10 | – |
-| [galmore_58_house1](../maps/galmore_58_house1.md) | Mt. Galmore | 1 | – |
-| [galmore_58_house1b](../maps/galmore_58_house1b.md) | – | 1 | – |
-| [galmore_66_house](../maps/galmore_66_house.md) | Mt. Galmore | 1 | – |
-| [galmore_67](../maps/galmore_67.md) | Mt. Galmore | 5 | – |
-| [galmore_68](../maps/galmore_68.md) | Mt. Galmore | 2 | – |
-| [mt_galmore0_h2](../maps/mt_galmore0_h2.md) | – | 1 | – |
-| [undertell_exit](../maps/undertell_exit.md) | Mt. Galmore | 2 | – |
+| [Galmore 48](../maps/galmore_48.md) | Mt. Galmore | 3 | – |
+| [Galmore 57](../maps/galmore_57.md) | Mt. Galmore | 3 | – |
+| [Galmore 58](../maps/galmore_58.md) | Mt. Galmore | 10 | – |
+| [Galmore 58 house 1](../maps/galmore_58_house1.md) | Mt. Galmore | 1 | – |
+| [Galmore 58 house 1b](../maps/galmore_58_house1b.md) | – | 1 | – |
+| [Galmore 66 house](../maps/galmore_66_house.md) | Mt. Galmore | 1 | – |
+| [Galmore 67](../maps/galmore_67.md) | Mt. Galmore | 5 | – |
+| [Galmore 68](../maps/galmore_68.md) | Mt. Galmore | 2 | – |
+| [Mt galmore 0 h 2](../maps/mt_galmore0_h2.md) | – | 1 | – |
+| [Undertell exit](../maps/undertell_exit.md) | Mt. Galmore | 2 | – |
 
 
 ## Version history

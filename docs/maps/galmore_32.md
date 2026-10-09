@@ -11,7 +11,7 @@ description: "Galmore 32 is an outdoor location in Andor's Trail. NPCs: Dark spi
 | **Map ID** | `galmore_32` |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 3 |
@@ -66,7 +66,7 @@ description: "Galmore 32 is an outdoor location in Andor's Trail. NPCs: Dark spi
 
 - [A familiar shadow](../quests/familiar_shadow.md): blocked passage closes at stage 10; something on this map advances it; stepping on a trigger here sets stage 60
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) is involved; something on this map advances it
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): [Dark spirit](../monsters/crossglen_dark_spirit.md#v-undertell_dark_spirit) is involved; something on this map advances it
 
 ## Points of interest
 

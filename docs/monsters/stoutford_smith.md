@@ -4,7 +4,7 @@ description: "Cornith is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_29.png){ .sprite } Cornith
 
-**Where to find Cornith:** Stoutford: [stoutford_smith](../maps/stoutford_smith.md#pin-npc-stoutford_smith)
+**Where to find Cornith:** Stoutford: [Stoutford smith](../maps/stoutford_smith.md#pin-npc-stoutford_smith)
 
 <div class="infobox" markdown>
 
@@ -40,7 +40,7 @@ description: "Cornith is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Cornith. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Cornith. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/cornith_0.json" data-npc="Cornith" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-cornith_0"></span>**`cornith_0`** Cornith: “Hello, welcome to my shop.”
 

@@ -4,7 +4,7 @@ description: "Tamarukh is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_141.png){ .sprite } Tamarukh
 
-**Where to find Tamarukh:** Loneford: [waytobrimhaven2](../maps/waytobrimhaven2.md#pin-npc-tamarukh)
+**Where to find Tamarukh:** Loneford: [Waytobrimhaven 2](../maps/waytobrimhaven2.md#pin-npc-tamarukh)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Tamarukh is a non-player character (NPC) in Andor's Trail, found i
 
 ## Quests
 
-- [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md): stage 88
+- [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md): stage 88
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tamarukh. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tamarukh. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tamarukh.json" data-npc="Tamarukh" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-tamarukh"></span>**`tamarukh`** Tamarukh: “Isn't it a pity to see all that fertile land wasted?”
 
@@ -48,7 +48,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Everyone wants my money. I better go.” → *conversation ends*
     - “It should not fail because of a lack of money. Here you have 2,500 gold.” *(if pay 2,500 gold)* → [tamarukh_30](#d-tamarukh_30)
 
-    <span id="d-tamarukh_30"></span>**`tamarukh_30`** Tamarukh: “That is very noble of you. I will take care of it.” — **effects:** sets stage 88 of [brv_nondisplay (hidden flag)](../quests/brv_nondisplay.md#stage-88)
+    <span id="d-tamarukh_30"></span>**`tamarukh_30`** Tamarukh: “That is very noble of you. I will take care of it.” — **effects:** sets stage 88 of [Brimhaven story flags (hidden flag)](../quests/brv_nondisplay.md#stage-88)
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: "Algangror is an NPC who can also be fought in Andor's Trail, found in lonelyhouse0, island_4_cave1, final_cave1, final_cave2. Starts Of mice and men, The five idols."
+description: "Algangror is an NPC who can also be fought in Andor's Trail, found in Lonelyhouse 0, Island 4 cave 1, Final cave 1, Final cave 2. Starts Of mice and men, The five idols."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_68.png){ .sprite } Algangror
@@ -12,7 +12,7 @@ description: "Algangror is an NPC who can also be fought in Andor's Trail, found
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md) |
-| **Found in** | lonelyhouse0, island_4_cave1, final_cave1, final_cave2 |
+| **Found in** | Lonelyhouse 0, Island 4 cave 1, Final cave 1, Final cave 2 |
 | **Class** | Humanoid |
 | **HP** | 200–241 |
 | **XP when defeated** | 258–548 |
@@ -22,20 +22,20 @@ description: "Algangror is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Algangror. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Algangror. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`algangror`](#v-algangror) | NPC/Enemy | [lonelyhouse0](../maps/lonelyhouse0.md#pin-npc-algangror) | starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md) | 241 |
-| [`lae_algangror1`](#v-lae_algangror1) | NPC | [island_4_cave1](../maps/island_4_cave1.md#pin-npc-lae_algangror1) | – | – |
-| [`lae_algangror2`](#v-lae_algangror2) | NPC | [final_cave1](../maps/final_cave1.md#pin-npc-lae_algangror2) | – | – |
-| [`lae_algangror3`](#v-lae_algangror3) | NPC/Enemy | [final_cave2](../maps/final_cave2.md#pin-npc-lae_algangror3) | – | 200 |
+| [`algangror`](#v-algangror) | NPC/Enemy | [Lonelyhouse 0](../maps/lonelyhouse0.md#pin-npc-algangror) | starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md) | 241 |
+| [`lae_algangror1`](#v-lae_algangror1) | NPC | [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_algangror1) | – | – |
+| [`lae_algangror2`](#v-lae_algangror2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_algangror2) | – | – |
+| [`lae_algangror3`](#v-lae_algangror3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_algangror3) | – | 200 |
 
-## Lonelyhouse0 (algangror) { #v-algangror }
+## Lonelyhouse 0 (algangror) { #v-algangror }
 
 **Entry ID:** `algangror` · **Type:** NPC/Enemy · **Role:** Starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md)
 
-**Location:** [lonelyhouse0](../maps/lonelyhouse0.md#pin-npc-algangror)
+**Location:** [Lonelyhouse 0](../maps/lonelyhouse0.md#pin-npc-algangror)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -76,11 +76,11 @@ description: "Algangror is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lonelyhouse0](../maps/lonelyhouse0.md) | – | 1 | – |
+| [Lonelyhouse 0](../maps/lonelyhouse0.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [final_cave (hidden flag)](../quests/final_cave.md#stage-10) with stepping on a trigger on [island4](../maps/island4.md) checks that this enemy has been defeated.
+- [Final cave (hidden flag)](../quests/final_cave.md#stage-10) with stepping on a trigger on [Island 4](../maps/island4.md) checks that this enemy has been defeated.
 
 ### Quests
 
@@ -90,7 +90,7 @@ description: "Algangror is an NPC who can also be fought in Andor's Trail, found
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Algangror. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/algangror.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -98,7 +98,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (108 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-algangror-algangror"></span>**`algangror`** *(silent check: the first matching branch below is taken)*
 
@@ -591,7 +591,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “You should probably leave before you tip something over that might ..…” → “You should probably leave before you tip something over that might ..…”<br>· text: “So I went to Nor City myself, and visited many .. interesting people …” → “So I went to Nor City myself, and visited many ... interesting people…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “You could say I got obsessed with learning more. I guess the others l…” → “You could say I got obsessed with learning more. I guess the others l…”<br>· text: “As I said, I cannot tell you what task I have in mind, or my reasonin…” → “As I said, I cannot tell you what task I have in mind, or my reasonin…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 
@@ -640,20 +640,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Island 4 cave1 (lae_algangror1) { #v-lae_algangror1 }
+## Island 4 cave 1 (lae_algangror1) { #v-lae_algangror1 }
 
 **Entry ID:** `lae_algangror1` · **Type:** NPC
 
-**Location:** [island_4_cave1](../maps/island_4_cave1.md#pin-npc-lae_algangror1)
+**Location:** [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_algangror1)
 
 ### Quests
 
 - [Not Pony Island](../quests/lae_centaurs.md): stages 110, 120
-- [final_cave (hidden flag)](../quests/final_cave.md): stage 12
+- [Final cave (hidden flag)](../quests/final_cave.md): stage 12
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Algangror. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror1.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -661,7 +661,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_algangror1-lae_algangror1"></span>**`lae_algangror1`** Algangror: “$playername - good that you are here! I need your help urgently.” — **effects:** sets stage 110 of [Not Pony Island](../quests/lae_centaurs.md#stage-110)
 
@@ -680,7 +680,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Of course I'm happy to help.” → [lae_algangror1_30](#d-lae_algangror1-lae_algangror1_30)
     - “Who is this friend?” → [lae_algangror1_30](#d-lae_algangror1-lae_algangror1_30)
 
-    <span id="d-lae_algangror1-lae_algangror1_30"></span>**`lae_algangror1_30`** Algangror: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.” — **effects:** sets stage 12 of [final_cave (hidden flag)](../quests/final_cave.md#stage-12)
+    <span id="d-lae_algangror1-lae_algangror1_30"></span>**`lae_algangror1_30`** Algangror: “To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.” — **effects:** sets stage 12 of [Final cave (hidden flag)](../quests/final_cave.md#stage-12)
 
     - “Well, first I am going downstairs to talk to our friend and find out who he is.” → [lae_algangror1_40](#d-lae_algangror1-lae_algangror1_40)
 
@@ -725,11 +725,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Final cave1 (lae_algangror2) { #v-lae_algangror2 }
+## Final cave 1 (lae_algangror2) { #v-lae_algangror2 }
 
 **Entry ID:** `lae_algangror2` · **Type:** NPC
 
-**Location:** [final_cave1](../maps/final_cave1.md#pin-npc-lae_algangror2)
+**Location:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_algangror2)
 
 ### Quests
 
@@ -737,7 +737,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Algangror. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror2.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -745,7 +745,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (6 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_algangror2-lae_algangror2"></span>**`lae_algangror2`** Algangror: “$playername, what have you done?”
 
@@ -813,11 +813,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Final cave2 (lae_algangror3) { #v-lae_algangror3 }
+## Final cave 2 (lae_algangror3) { #v-lae_algangror3 }
 
 **Entry ID:** `lae_algangror3` · **Type:** NPC/Enemy
 
-**Location:** [final_cave2](../maps/final_cave2.md#pin-npc-lae_algangror3)
+**Location:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_algangror3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -854,7 +854,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [final_cave2](../maps/final_cave2.md) | – | 1 | Appears later, during a quest |
+| [Final cave 2](../maps/final_cave2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -862,7 +862,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Algangror. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror3.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -870,7 +870,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_algangror3-lae_algangror3"></span>**`lae_algangror3`** *(silent check: the first matching branch below is taken)*
 

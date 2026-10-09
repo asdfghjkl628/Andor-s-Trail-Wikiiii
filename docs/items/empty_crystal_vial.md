@@ -25,7 +25,7 @@ description: "Empty crystal vial is a quest liquid container in Andor's Trail. H
 
 ### Quest & dialogue rewards
 
-- From [Potion merchant](../monsters/potion_merchant.md) ([fallhaven_potions](../maps/fallhaven_potions.md)) (1×)
+- From [Potion merchant](../monsters/potion_merchant.md) ([Fallhaven potions](../maps/fallhaven_potions.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-20) | must be carried (1×) | “I use the crystal vial and pour the blood over the stone statue.” |
-| stepping on a trigger on [basiliskcave2](../maps/basiliskcave2.md) | [quick_glance_hidden_found_statue (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30) | handed over (1×) | “I keep the blood for myself using the empty crystal vial.” |
+| stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-20) | must be carried (1×) | “I use the crystal vial and pour the blood over the stone statue.” |
+| stepping on a trigger on [Basiliskcave 2](../maps/basiliskcave2.md) | [Quick glance: statue found (hidden flag)](../quests/quick_glance_hidden_found_statue.md#stage-30) | handed over (1×) | “I keep the blood for myself using the empty crystal vial.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

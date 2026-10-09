@@ -4,7 +4,7 @@ description: "Guynmart is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_tometik1_2.png){ .sprite } Guynmart
 
-**Where to find Guynmart:** Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart)
+**Where to find Guynmart:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Guynmart is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Guynmart. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Guynmart. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_10.json" data-npc="Guynmart" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (37 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_10"></span>**`guynmart_10`** *(silent check: the first matching branch below is taken)*
 

@@ -4,7 +4,7 @@ description: "Shiny Foggerlump is an NPC who can also be fought in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_tometik8_26.png){ .sprite } Shiny Foggerlump
 
-**Where to find Shiny Foggerlump:** Guynmart Castle: [swamp3](../maps/swamp3.md#pin-npc-feygard_fogmonster9)
+**Where to find Shiny Foggerlump:** Guynmart Castle: [Swamp 3](../maps/swamp3.md#pin-npc-feygard_fogmonster9)
 
 <div class="infobox" markdown>
 
@@ -63,7 +63,7 @@ description: "Shiny Foggerlump is an NPC who can also be fought in Andor's Trail
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [swamp3](../maps/swamp3.md) | Guynmart Castle | 1 | – |
+| [Swamp 3](../maps/swamp3.md) | Guynmart Castle | 1 | – |
 
 ## Quests
 
@@ -71,7 +71,7 @@ description: "Shiny Foggerlump is an NPC who can also be fought in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Shiny Foggerlump. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Shiny Foggerlump. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/feygard_fogmonster9.json" data-npc="Shiny Foggerlump" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -79,16 +79,16 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-feygard_fogmonster9"></span>**`feygard_fogmonster9`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1); reached stage 2 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2); reached stage 3 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3); reached stage 4 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4); reached stage 5 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5))* → [feygard_fogmonster9_5](#d-feygard_fogmonster9_5)
-    - Next *(if reached stage 1 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
-    - Next *(if reached stage 2 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
-    - Next *(if reached stage 3 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
-    - Next *(if reached stage 4 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
-    - Next *(if reached stage 5 of [feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
+    - Next *(if reached stage 1 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1); reached stage 2 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2); reached stage 3 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3); reached stage 4 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4); reached stage 5 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5))* → [feygard_fogmonster9_5](#d-feygard_fogmonster9_5)
+    - Next *(if reached stage 1 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-1))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
+    - Next *(if reached stage 2 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-2))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
+    - Next *(if reached stage 3 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-3))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
+    - Next *(if reached stage 4 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-4))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
+    - Next *(if reached stage 5 of [Feygard fog (hidden flag)](../quests/feygard_fog.md#stage-5))* → [feygard_fogmonster9_1](#d-feygard_fogmonster9_1)
     - Next → [feygard_fogmonster9_10](#d-feygard_fogmonster9_10)
 
     <span id="d-feygard_fogmonster9_5"></span>**`feygard_fogmonster9_5`** Shiny Foggerlump: “Me and my brothers watch over the ruler of the swamp.”

@@ -4,7 +4,7 @@ description: "Forest guardian is a non-player character (NPC) in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_tometik5_80.png){ .sprite } Forest guardian
 
-**Where to find Forest guardian:** Loneford: [lodar0](../maps/lodar0.md#pin-npc-lodar0_g)
+**Where to find Forest guardian:** Loneford: [Lodar 0](../maps/lodar0.md#pin-npc-lodar0_g)
 
 <div class="infobox" markdown>
 
@@ -25,7 +25,7 @@ description: "Forest guardian is a non-player character (NPC) in Andor's Trail, 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forest guardian. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forest guardian. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lodar0_g.json" data-npc="Forest guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lodar0_g"></span>**`lodar0_g`** *(silent check: the first matching branch below is taken)*
 

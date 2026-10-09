@@ -4,7 +4,7 @@ description: "Duleian panther is an enemy in Andor's Trail (animal) with 220 HP,
 
 # ![](../assets/icons/monsters/monsters_tometik4_67.png){ .sprite } Duleian panther
 
-**Found in:** Burial cave: [brightportwild11](../maps/brightportwild11.md), Burial cave: [brightportwild3](../maps/brightportwild3.md), Burial cave: [brightportwild4](../maps/brightportwild4.md), Buried citadel: [brightport_cave4](../maps/brightport_cave4.md) (+4 more)
+**Found in:** Burial cave: [Brightportwild 11](../maps/brightportwild11.md), Burial cave: [Brightportwild 3](../maps/brightportwild3.md), Burial cave: [Brightportwild 4](../maps/brightportwild4.md), Buried citadel: [Brightport cave 4](../maps/brightport_cave4.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -57,14 +57,14 @@ description: "Duleian panther is an enemy in Andor's Trail (animal) with 220 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightport_cave4](../maps/brightport_cave4.md) | Buried citadel | 1 | – |
-| [brightportwild10](../maps/brightportwild10.md) | – | 2 | – |
-| [brightportwild11](../maps/brightportwild11.md) | Burial cave | 6 | – |
-| [brightportwild12](../maps/brightportwild12.md) | Buried citadel | 3 | – |
-| [brightportwild14](../maps/brightportwild14.md) | – | 3 | – |
-| [brightportwild21](../maps/brightportwild21.md) | – | 2 | – |
-| [brightportwild3](../maps/brightportwild3.md) | Burial cave | 2 | – |
-| [brightportwild4](../maps/brightportwild4.md) | Burial cave | 8 | – |
+| [Brightport cave 4](../maps/brightport_cave4.md) | Buried citadel | 1 | – |
+| [Brightportwild 10](../maps/brightportwild10.md) | – | 2 | – |
+| [Brightportwild 11](../maps/brightportwild11.md) | Burial cave | 6 | – |
+| [Brightportwild 12](../maps/brightportwild12.md) | Buried citadel | 3 | – |
+| [Brightportwild 14](../maps/brightportwild14.md) | – | 3 | – |
+| [Brightportwild 21](../maps/brightportwild21.md) | – | 2 | – |
+| [Brightportwild 3](../maps/brightportwild3.md) | Burial cave | 2 | – |
+| [Brightportwild 4](../maps/brightportwild4.md) | Burial cave | 8 | – |
 
 
 ## Version history

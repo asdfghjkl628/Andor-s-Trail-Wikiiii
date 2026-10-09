@@ -1,8 +1,8 @@
 ---
-description: "guynmart Replace Walkable unten/oben is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart. 7 stages. 1=ground"
+description: "Guynmart Castle walkable areas is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart. 7 stages. 1=ground"
 ---
 
-# guynmart Replace Walkable unten/oben
+# Guynmart Castle walkable areas
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,7 +14,7 @@ description: "guynmart Replace Walkable unten/oben is a hidden quest in Andor's 
 | **Quest ID** | `guynmart_qRpl_main` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 7 |
-| **Started by** | stepping on a trigger on [guynmart](../maps/guynmart.md), stepping on a trigger on [guynmart](../maps/guynmart.md) |
+| **Started by** | stepping on a trigger on [Guynmart](../maps/guynmart.md), stepping on a trigger on [Guynmart](../maps/guynmart.md) |
 
 </div>
 
@@ -24,7 +24,7 @@ description: "guynmart Replace Walkable unten/oben is a hidden quest in Andor's 
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [guynmart](../maps/guynmart.md) to begin.
+None: talk to stepping on a trigger on [Guynmart](../maps/guynmart.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -37,63 +37,167 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=ground<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | – | removes monsters from guynmart |
-| <span id="stage-2"></span>2 | 2=wall<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | stage 1 | clears stage 31 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-31)<br>clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22)<br>clears stage 21 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21)<br>clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)<br>clears stage 11 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11)<br>clears stage 1 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1)<br>removes monsters from guynmart<br>clears stage 2 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2) |
-| <span id="stage-11"></span>11 | 11=ground2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | stage 2 | clears stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2) |
-| <span id="stage-12"></span>12 | 12=wall2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | stage 11 | clears stage 11 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11) |
-| <span id="stage-21"></span>21 | 21=ground2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | stage 12 | clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12) |
-| <span id="stage-22"></span>22 | 22=wall2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | stage 21 | clears stage 21 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21) |
-| <span id="stage-31"></span>31 | 31=ground3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [guynmart](../maps/guynmart.md) | stage 22 | clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22)<br>spawns monsters on guynmart |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=ground<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | removes monsters from guynmart |
+| <span id="stage-2"></span>[2](#route-2) | 2=wall<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | varies by route (see below) |
+| <span id="stage-11"></span>[11](#route-11) | 11=ground2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | – |
+| <span id="stage-12"></span>[12](#route-12) | 12=wall2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | 21=ground2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | – |
+| <span id="stage-22"></span>[22](#route-22) | 22=wall2<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | – |
+| <span id="stage-31"></span>[31](#route-31) | 31=ground3<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart](../maps/guynmart.md).</span> | stepping on a trigger on [Guynmart](../maps/guynmart.md) | spawns monsters on guynmart |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 4 routes"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 1**; also removes monsters from guynmart
-    2. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 1**; also removes monsters from guynmart
-    3. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 1**; also removes monsters from guynmart
-    4. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 1**; also removes monsters from guynmart
+??? note "Stage 1 · stepping on a trigger on guynmart · 4 ways"
 
-???+ note "Stage 2: 3 routes"
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 2**; also clears stage 31 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-31), clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), clears stage 21 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21), clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12), clears stage 11 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11), clears stage 1 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1), removes monsters from guynmart, clears stage 2 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2)
-    2. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically → **stage 2**; also clears stage 31 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-31), clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), clears stage 21 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21), clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12), clears stage 11 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11), clears stage 1 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1), removes monsters from guynmart, clears stage 2 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2)
-    3. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1) → **stage 2**; also clears stage 1 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1)
+    - **Gives:** removes monsters from guynmart
 
-???+ note "Stage 11: 4 routes"
+    **Way 2:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2) → **stage 11**; also clears stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)
-    2. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2) → **stage 11**; also clears stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)
-    3. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2) → **stage 11**; also clears stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)
-    4. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2) → **stage 11**; also clears stage 2 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)
+    - **Gives:** removes monsters from guynmart
 
-???+ note "Stage 12: 1 route"
+    **Way 3:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 11 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11) → **stage 12**; also clears stage 11 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11)
+    - **Gives:** removes monsters from guynmart
 
-???+ note "Stage 21: 4 routes"
+    **Way 4:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12) → **stage 21**; also clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)
-    2. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12) → **stage 21**; also clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)
-    3. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12) → **stage 21**; also clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)
-    4. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12) → **stage 21**; also clears stage 12 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)
+    - **Gives:** removes monsters from guynmart
 
-???+ note "Stage 22: 1 route"
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 21 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21) → **stage 22**; also clears stage 21 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21)
+<span id="route-2"></span>
 
-???+ note "Stage 31: 4 routes"
+??? note "Stage 2 · stepping on a trigger on guynmart · 3 ways"
 
-    1. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22) → **stage 31**; also clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), spawns monsters on guynmart
-    2. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22) → **stage 31**; also clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), spawns monsters on guynmart
-    3. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22) → **stage 31**; also clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), spawns monsters on guynmart
-    4. stepping on a trigger on [guynmart](../maps/guynmart.md) → the conversation leads here automatically — **conditions:** reached stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22) → **stage 31**; also clears stage 22 of [guynmart Replace Walkable unten/oben (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), spawns monsters on guynmart
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Gives:** removes monsters from guynmart
+    - <small>Also: clears stage 31 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-31), clears stage 22 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), clears stage 21 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21), clears stage 12 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12), clears stage 11 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11), clears stage 1 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1), clears stage 2 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2)</small>
+
+    **Way 2:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Gives:** removes monsters from guynmart
+    - <small>Also: clears stage 31 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-31), clears stage 22 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22), clears stage 21 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21), clears stage 12 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12), clears stage 11 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11), clears stage 1 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1), clears stage 2 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-2)</small>
+
+    **Way 3:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 1
+    - <small>Also: clears stage 1 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-1)</small>
+
+
+<span id="route-11"></span>
+
+??? note "Stage 11 · stepping on a trigger on guynmart · 4 ways"
+
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 2
+    - <small>Also: clears stage 2 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)</small>
+
+    **Way 2:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 2
+    - <small>Also: clears stage 2 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)</small>
+
+    **Way 3:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 2
+    - <small>Also: clears stage 2 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)</small>
+
+    **Way 4:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 2
+    - <small>Also: clears stage 2 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-2)</small>
+
+
+<span id="route-12"></span>
+
+??? note "Stage 12 · stepping on a trigger on guynmart · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 11
+    - <small>Also: clears stage 11 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-11)</small>
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · stepping on a trigger on guynmart · 4 ways"
+
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 12
+    - <small>Also: clears stage 12 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)</small>
+
+    **Way 2:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 12
+    - <small>Also: clears stage 12 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)</small>
+
+    **Way 3:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 12
+    - <small>Also: clears stage 12 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)</small>
+
+    **Way 4:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 12
+    - <small>Also: clears stage 12 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-12)</small>
+
+
+<span id="route-22"></span>
+
+??? note "Stage 22 · stepping on a trigger on guynmart · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 21
+    - <small>Also: clears stage 21 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-21)</small>
+
+
+<span id="route-31"></span>
+
+??? note "Stage 31 · stepping on a trigger on guynmart · 4 ways"
+
+    **Way 1:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 22
+    - **Gives:** spawns monsters on guynmart
+    - <small>Also: clears stage 22 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22)</small>
+
+    **Way 2:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 22
+    - **Gives:** spawns monsters on guynmart
+    - <small>Also: clears stage 22 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22)</small>
+
+    **Way 3:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 22
+    - **Gives:** spawns monsters on guynmart
+    - <small>Also: clears stage 22 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22)</small>
+
+    **Way 4:** Stepping on a trigger on [Guynmart](../maps/guynmart.md)
+
+    - **Needs:** stage 22
+    - **Gives:** spawns monsters on guynmart
+    - <small>Also: clears stage 22 of [Guynmart Castle walkable areas (hidden flag)](../quests/guynmart_qRpl_main.md#stage-22)</small>
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -138,6 +242,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `guynmart_qRpl_main` |
+    | Name in game data | `guynmart Replace Walkable unten/oben` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 11, 12, 21, 22, 31 |
     | Dialogue nodes setting stages | 1: `guynmart_sRpl_main_q01`, 2: `guynmart_sRpl_main_2c`, 2: `guynmart_sRpl_main_q02`, 11: `guynmart_sRpl_main_q11`, 12: `guynmart_sRpl_main_q12`, 21: `guynmart_sRpl_main_q21`, 22: `guynmart_sRpl_main_q22`, 31: `guynmart_sRpl_main_q31` |

@@ -4,7 +4,7 @@ description: "Tough cave snake is an enemy in Andor's Trail (reptile) with 21 HP
 
 # ![](../assets/icons/monsters/monsters_snakes_3.png){ .sprite } Tough cave snake
 
-**Found in:** Blackwater Mountain: [snakecave2](../maps/snakecave2.md), Bloskelt + Roskelt: [ratdom_maze_417](../maps/ratdom_maze_417.md), Bloskelt + Roskelt: [ratdom_maze_436](../maps/ratdom_maze_436.md), Bloskelt + Roskelt: [ratdom_maze_437](../maps/ratdom_maze_437.md) (+18 more)
+**Found in:** Blackwater Mountain: [Snakecave 2](../maps/snakecave2.md), Bloskelt + Roskelt: [Ratdom maze 417](../maps/ratdom_maze_417.md), Bloskelt + Roskelt: [Ratdom maze 436](../maps/ratdom_maze_436.md), Bloskelt + Roskelt: [Ratdom maze 437](../maps/ratdom_maze_437.md) (+18 more)
 
 <div class="infobox" markdown>
 
@@ -56,28 +56,28 @@ description: "Tough cave snake is an enemy in Andor's Trail (reptile) with 21 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave1](../maps/basiliskcave1.md) | Brimhaven | 2 | – |
-| [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md) | – | 4 | – |
-| [basiliskcave1_1_3](../maps/basiliskcave1_1_3.md) | – | 1 | – |
-| [ratdom_maze_417](../maps/ratdom_maze_417.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_427](../maps/ratdom_maze_427.md) | Entry | 2 | – |
-| [ratdom_maze_428](../maps/ratdom_maze_428.md) | Entry | 2 | – |
-| [ratdom_maze_436](../maps/ratdom_maze_436.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_438](../maps/ratdom_maze_438.md) | Entry | 2 | – |
-| [ratdom_maze_446](../maps/ratdom_maze_446.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_447](../maps/ratdom_maze_447.md) | Entry | 2 | – |
-| [ratdom_maze_458](../maps/ratdom_maze_458.md) | Entry | 3 | – |
-| [ratdom_maze_516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_517](../maps/ratdom_maze_517.md) | Entry | 2 | – |
-| [ratdom_maze_555](../maps/ratdom_maze_555.md) | Instrument maker | 2 | – |
-| [ratdom_maze_568](../maps/ratdom_maze_568.md) | Labyrinth | 7 | – |
-| [ratdom_maze_616](../maps/ratdom_maze_616.md) | Pub | 3 | – |
-| [ratdom_maze_626](../maps/ratdom_maze_626.md) | Pub | 5 | – |
-| [ratdom_maze_635](../maps/ratdom_maze_635.md) | Entry | 1 | – |
-| [ratdom_maze_705](../maps/ratdom_maze_705.md) | Pub | 4 | – |
-| [snakecave2](../maps/snakecave2.md) | Blackwater Mountain | 7 | – |
-| [snakecave3](../maps/snakecave3.md) | – | 2 | – |
+| [Basiliskcave 1](../maps/basiliskcave1.md) | Brimhaven | 2 | – |
+| [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md) | – | 4 | – |
+| [Basiliskcave 1 1 3](../maps/basiliskcave1_1_3.md) | – | 1 | – |
+| [Ratdom maze 417](../maps/ratdom_maze_417.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 427](../maps/ratdom_maze_427.md) | Entry | 2 | – |
+| [Ratdom maze 428](../maps/ratdom_maze_428.md) | Entry | 2 | – |
+| [Ratdom maze 436](../maps/ratdom_maze_436.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 438](../maps/ratdom_maze_438.md) | Entry | 2 | – |
+| [Ratdom maze 446](../maps/ratdom_maze_446.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 447](../maps/ratdom_maze_447.md) | Entry | 2 | – |
+| [Ratdom maze 458](../maps/ratdom_maze_458.md) | Entry | 3 | – |
+| [Ratdom maze 516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 517](../maps/ratdom_maze_517.md) | Entry | 2 | – |
+| [Ratdom maze 555](../maps/ratdom_maze_555.md) | Instrument maker | 2 | – |
+| [Ratdom maze 568](../maps/ratdom_maze_568.md) | Labyrinth | 7 | – |
+| [Ratdom maze 616](../maps/ratdom_maze_616.md) | Pub | 3 | – |
+| [Ratdom maze 626](../maps/ratdom_maze_626.md) | Pub | 5 | – |
+| [Ratdom maze 635](../maps/ratdom_maze_635.md) | Entry | 1 | – |
+| [Ratdom maze 705](../maps/ratdom_maze_705.md) | Pub | 4 | – |
+| [Snakecave 2](../maps/snakecave2.md) | Blackwater Mountain | 7 | – |
+| [Snakecave 3](../maps/snakecave3.md) | – | 2 | – |
 
 
 ## Version history

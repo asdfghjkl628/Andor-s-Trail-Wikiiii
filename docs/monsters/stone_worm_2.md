@@ -1,10 +1,10 @@
 ---
-description: "Stone worm is an enemy in Andor's Trail (reptile) with 26 HP, worth 122 XP, found in mywildcave, mywildcave1, mywildcave2. Drops: Gold coins, Meat, Lithic scales."
+description: "Stone worm is an enemy in Andor's Trail (reptile) with 26 HP, worth 122 XP, found in Mywildcave, Mywildcave 1, Mywildcave 2. Drops: Gold coins, Meat, Lithic scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik9_37.png){ .sprite } Stone worm
 
-**Found in:** [mywildcave](../maps/mywildcave.md), [mywildcave1](../maps/mywildcave1.md), [mywildcave2](../maps/mywildcave2.md), [mywildcave3](../maps/mywildcave3.md)
+**Found in:** [Mywildcave](../maps/mywildcave.md), [Mywildcave 1](../maps/mywildcave1.md), [Mywildcave 2](../maps/mywildcave2.md), [Mywildcave 3](../maps/mywildcave3.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Stone worm is an enemy in Andor's Trail (reptile) with 26 HP, wort
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mywildcave, mywildcave1, mywildcave2 |
+| **Found in** | Mywildcave, Mywildcave 1, Mywildcave 2 |
 | **Class** | Reptile |
 | **HP** | 26 |
 | **XP when defeated** | 122 |
@@ -58,10 +58,10 @@ description: "Stone worm is an enemy in Andor's Trail (reptile) with 26 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mywildcave](../maps/mywildcave.md) | – | 7 | – |
-| [mywildcave1](../maps/mywildcave1.md) | – | 1 | – |
-| [mywildcave2](../maps/mywildcave2.md) | – | 4 | – |
-| [mywildcave3](../maps/mywildcave3.md) | – | 5 | – |
+| [Mywildcave](../maps/mywildcave.md) | – | 7 | – |
+| [Mywildcave 1](../maps/mywildcave1.md) | – | 1 | – |
+| [Mywildcave 2](../maps/mywildcave2.md) | – | 4 | – |
+| [Mywildcave 3](../maps/mywildcave3.md) | – | 5 | – |
 
 
 ## Version history

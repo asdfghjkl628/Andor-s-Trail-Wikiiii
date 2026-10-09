@@ -11,9 +11,9 @@ description: "A cat and mouse game is a quest in Andor's Trail, started by Sevir
 | **Quest ID** | `cat_and_mouse` |
 | **In journal** | Yes |
 | **Stages** | 9 (completes at 70, 90) |
-| **Started by** | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) |
+| **Started by** | [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)) |
 | **NPCs involved** | [Arlish](../monsters/arlish.md), [Seviron](../monsters/brv_churchman.md) |
-| **Locations** | [brimhaven_church](../maps/brimhaven_church.md), [brimhaven_church_upstairs](../maps/brimhaven_church_upstairs.md), [brimhaven_general1](../maps/brimhaven_general1.md) |
+| **Locations** | [Brimhaven church](../maps/brimhaven_church.md), [Brimhaven church upstairs](../maps/brimhaven_church_upstairs.md), [Brimhaven general 1](../maps/brimhaven_general1.md) |
 | **Total XP** | 2,500 |
 | **Related quests** | 1 |
 
@@ -25,10 +25,10 @@ description: "A cat and mouse game is a quest in Andor's Trail, started by Sevir
 
 ## Prerequisites to start
 
-Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)). Required:
+Start with [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)). Required:
 
 - NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10)
-- NOT reached stage 30 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-30)
+- NOT reached stage 30 of nondisplay bhvt (flag not defined in the game data)
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -39,65 +39,138 @@ Start with [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/b
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Unlocks | [brv_nondisplay2 (hidden flag)](brv_nondisplay2.md#stage-60) | stage 60 there needs stage 60 here |
+| Unlocks | [Brimhaven story flags 2 (hidden flag)](brv_nondisplay2.md#stage-60) | stage 60 there needs stage 60 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I agreed to help Seviron trap the mouse that the cat cannot catch. I need to get some cheese, a large empty bottle, and three rocks. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | – | – |
-| <span id="stage-20"></span>20 | I have given Seviron the rocks. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | hand over 3× [Small rock](../items/rock.md), stage 10, stage 30 | – |
-| <span id="stage-30"></span>30 | I have given Seviron the cheese. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | hand over 1× [Cheese](../items/cheese.md), hand over 3× [Small rock](../items/rock.md), stage 10, stage 20 | – |
-| <span id="stage-40"></span>40 | I obtained a suitable bottle from Arlish. | [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) | stage 20, stage 30 | gives [Large empty bottle](../items/large_bottle.md) |
-| <span id="stage-50"></span>50 | I have given Seviron the bottle. Seviron will set the trap, but it may take some time to catch the mouse. I should come back later. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | hand over 1× [Large empty bottle](../items/large_bottle.md), stage 20, stage 30 | starts timer “mouse_trap” |
-| <span id="stage-60"></span>60 | The mouse has been caught! Seviron gave it to me in the bottle. He said I can decide what to do with it. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | stage 50 | gives [Trapped mouse](../items/trapped_mouse.md), [Gold coins](../items/gold.md) |
-| <span id="stage-70"></span>70 | I decided to give the mouse to the cat. The cat would have eventually killed it anyway. **(completes quest)** | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | carry 1× [Trapped mouse](../items/trapped_mouse.md), hand over 1× [Trapped mouse](../items/trapped_mouse.md), stage 60 | 1,000 XP<br>gives [Large empty bottle](../items/large_bottle.md) |
-| <span id="stage-80"></span>80 | I decided to release the mouse outside. Seviron told me to do that outside the town. | [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | carry 1× [Trapped mouse](../items/trapped_mouse.md), stage 60 | – |
-| <span id="stage-90"></span>90 | I released the mouse. **(completes quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven exit](../maps/brimhaven_exit.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven7](../maps/brimhaven7.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterway12](../maps/waterway12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven3](../maps/waytobrimhaven3.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven6](../maps/waytobrimhaven6.md).</span> | stepping on a trigger on [brimhaven7](../maps/brimhaven7.md) | carry 1× [Trapped mouse](../items/trapped_mouse.md), hand over 1× [Trapped mouse](../items/trapped_mouse.md) | 1,500 XP<br>gives [Large empty bottle](../items/large_bottle.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I agreed to help Seviron trap the mouse that the cat cannot catch. I… ▸</span><span class="l">▴ less</span></summary>I agreed to help Seviron trap the mouse that the cat cannot catch. I need to get some cheese, a large empty bottle, and three rocks.</details> | [Seviron](../monsters/brv_churchman.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I have given Seviron the rocks. | [Seviron](../monsters/brv_churchman.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I have given Seviron the cheese. | [Seviron](../monsters/brv_churchman.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | I obtained a suitable bottle from Arlish. | [Arlish](../monsters/arlish.md) | [Large empty bottle](../items/large_bottle.md) |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I have given Seviron the bottle. Seviron will set the trap, but it… ▸</span><span class="l">▴ less</span></summary>I have given Seviron the bottle. Seviron will set the trap, but it may take some time to catch the mouse. I should come back later.</details> | [Seviron](../monsters/brv_churchman.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | <details class="jt"><summary><span class="s">The mouse has been caught! Seviron gave it to me in the bottle. He… ▸</span><span class="l">▴ less</span></summary>The mouse has been caught! Seviron gave it to me in the bottle. He said I can decide what to do with it.</details> | [Seviron](../monsters/brv_churchman.md) | [Trapped mouse](../items/trapped_mouse.md), [Gold coins](../items/gold.md) |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">I decided to give the mouse to the cat. The cat would have… ▸</span><span class="l">▴ less</span></summary>I decided to give the mouse to the cat. The cat would have eventually killed it anyway.</details> **(ends quest)** | [Seviron](../monsters/brv_churchman.md) | 1,000 XP, [Large empty bottle](../items/large_bottle.md) |
+| <span id="stage-80"></span>[80](#route-80) | <details class="jt"><summary><span class="s">I decided to release the mouse outside. Seviron told me to do that… ▸</span><span class="l">▴ less</span></summary>I decided to release the mouse outside. Seviron told me to do that outside the town.</details> | [Seviron](../monsters/brv_churchman.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | I released the mouse. **(ends quest)**<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven 7](../maps/brimhaven7.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Brimhaven exit](../maps/brimhaven_exit.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waterway 12](../maps/waterway12.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven 3](../maps/waytobrimhaven3.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Waytobrimhaven 6](../maps/waytobrimhaven6.md).</span> | stepping on a trigger on [Brimhaven 7](../maps/brimhaven7.md) | 1,500 XP, [Large empty bottle](../items/large_bottle.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “OK. I'll help.” — **conditions:** NOT reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); NOT reached stage 30 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-30) → **stage 10**. NPC: “Thanks. Just bring me the items. I think three rocks should be enough.”
+??? note "Stage 10 · Seviron · 1 way"
 
-???+ note "Stage 20: 2 routes"
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), choose “OK. I'll help.”
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I have the rocks.” — **conditions:** reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); NOT reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); hand over 3× [Small rock](../items/rock.md); NOT carry 1× [Cheese](../items/cheese.md); NOT reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) → **stage 20**. NPC: “Thanks. Now we just need the cheese and the bottle.”
-    2. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I have the rocks.” — **conditions:** reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); NOT reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); hand over 3× [Small rock](../items/rock.md); reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); NOT reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) → **stage 20**. NPC: “Thanks. Now we just need the bottle. You should ask around town. Someone must have one.”
+    - **Needs:** not yet stage 10; not reached stage 30 of nondisplay bhvt (flag not defined in the game data)
+    - *“Thanks. Just bring me the items. I think three rocks should be enough.”*
 
-???+ note "Stage 30: 2 routes"
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I have the cheese.” — **conditions:** reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); NOT reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); hand over 1× [Cheese](../items/cheese.md); NOT reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); NOT carry 3× [Small rock](../items/rock.md) → **stage 30**. NPC: “Thanks. Now we just need the rocks and the bottle.”
-    2. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I have the rocks.” — **conditions:** reached stage 10 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-10); reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); NOT reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); hand over 3× [Small rock](../items/rock.md); reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); NOT reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) → **stage 30**. NPC: “Thanks. Now we just need the bottle. You should ask around town. Someone must have one.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Seviron · 2 ways"
 
-    1. Talk to [Arlish](../monsters/arlish.md) ([brimhaven_general1](../maps/brimhaven_general1.md)) → choose “Seviron at the church needs it. I'm just helping out.” — **conditions:** reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); NOT reached stage 40 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-40) → **stage 40**; also gives [Large empty bottle](../items/large_bottle.md). NPC: “Well, I do happen to have one. I don't display it as shop inventory because I've never been asked for such a thing…”
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), choose “I have the rocks.”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** stage 10, 20; not yet stage 20, 30; hand over 3× [Small rock](../items/rock.md); not carry 1× [Cheese](../items/cheese.md)
+    - *“Thanks. Now we just need the cheese and the bottle.”*
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “Yes. Here it is.” — **conditions:** reached stage 20 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-20); reached stage 30 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-30); NOT reached stage 50 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-50); hand over 1× [Large empty bottle](../items/large_bottle.md) → **stage 50**; also starts timer “mouse_trap”. NPC: “Excellent. I'll set the trap. This will require some patience though, so you should come back later to see if it worked.”
+    **Way 2:** Talk to [Seviron](../monsters/brv_churchman.md), choose “I have the rocks.”
 
-???+ note "Stage 60: 1 route"
+    - **Needs:** stage 10, 20, 30; not yet stage 20, 30; hand over 3× [Small rock](../items/rock.md)
+    - *“Thanks. Now we just need the bottle. You should ask around town. Someone must have one.”*
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → the conversation leads here automatically — **conditions:** reached stage 50 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-50); NOT reached stage 60 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-60); reached stage 40 of [nondisplay_bhvt (hidden flag)](../quests/nondisplay_bhvt.md#stage-40) → **stage 60**; also gives [Trapped mouse](../items/trapped_mouse.md), [Gold coins](../items/gold.md). NPC: “We caught the mouse! Here it is, in the bottle. You can decide what to do with it. And here's a little gold for your…”
 
-???+ note "Stage 70: 1 route"
+<span id="route-30"></span>
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I'll give it to the cat. That should solve the problem.” — **conditions:** reached stage 60 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-60); NOT reached stage 70 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-70); NOT reached stage 80 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-80); NOT reached stage 90 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-90); carry 1× [Trapped mouse](../items/trapped_mouse.md); hand over 1× [Trapped mouse](../items/trapped_mouse.md) → **stage 70**; also gives [Large empty bottle](../items/large_bottle.md). NPC: “Hmm. I'm sure the cat will be happy, but I doubt the mouse will!”
+??? note "Stage 30 · Seviron · 2 ways"
 
-???+ note "Stage 80: 1 route"
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), choose “I have the cheese.”
 
-    1. Talk to [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) → choose “I'll release it outside.” — **conditions:** reached stage 60 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-60); NOT reached stage 70 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-70); NOT reached stage 80 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-80); NOT reached stage 90 of [A cat and mouse game](../quests/cat_and_mouse.md#stage-90); carry 1× [Trapped mouse](../items/trapped_mouse.md) → **stage 80**. NPC: “Well, don't release it in the town. It will just go into another building.”
+    - **Needs:** stage 10, 20; not yet stage 20, 30; hand over 1× [Cheese](../items/cheese.md); not carry 3× [Small rock](../items/rock.md)
+    - *“Thanks. Now we just need the rocks and the bottle.”*
 
-???+ note "Stage 90: 1 route"
+    **Way 2:** Talk to [Seviron](../monsters/brv_churchman.md), choose “I have the rocks.”
 
-    1. stepping on a trigger on [brimhaven7](../maps/brimhaven7.md) → choose “[Open the bottle]” — **conditions:** carry 1× [Trapped mouse](../items/trapped_mouse.md); hand over 1× [Trapped mouse](../items/trapped_mouse.md) → **stage 90**; also gives [Large empty bottle](../items/large_bottle.md). NPC: “You look after as it disappears quickly.”
+    - **Needs:** stage 10, 20, 30; not yet stage 20, 30; hand over 3× [Small rock](../items/rock.md)
+    - *“Thanks. Now we just need the bottle. You should ask around town. Someone must have one.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Arlish · 1 way"
+
+    **Way 1:** Talk to [Arlish](../monsters/arlish.md), choose “Seviron at the church needs it. I'm just helping out.”
+
+    - **Needs:** stage 20, 30; not yet stage 40
+    - **Gives:** [Large empty bottle](../items/large_bottle.md)
+    - *“Well, I do happen to have one. I don't display it as shop inventory because I've never been asked for such a thing before. Since it's for…”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Seviron · 1 way"
+
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), choose “Yes. Here it is.”
+
+    - **Needs:** stage 20, 30; not yet stage 50; hand over 1× [Large empty bottle](../items/large_bottle.md)
+    - <small>Also: starts timer “mouse_trap”</small>
+    - *“Excellent. I'll set the trap. This will require some patience though, so you should come back later to see if it worked.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Seviron · 1 way"
+
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), automatic
+
+    - **Needs:** stage 50; not yet stage 60; reached stage 40 of nondisplay bhvt (flag not defined in the game data)
+    - **Gives:** [Trapped mouse](../items/trapped_mouse.md), [Gold coins](../items/gold.md)
+    - *“We caught the mouse! Here it is, in the bottle. You can decide what to do with it. And here's a little gold for your help.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Seviron · 1 way"
+
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), choose “I'll give it to the cat. That should solve the problem.”
+
+    - **Needs:** stage 60; not yet stage 70, 80, 90; carry 1× [Trapped mouse](../items/trapped_mouse.md); hand over 1× [Trapped mouse](../items/trapped_mouse.md)
+    - **Gives:** [Large empty bottle](../items/large_bottle.md)
+    - *“Hmm. I'm sure the cat will be happy, but I doubt the mouse will!”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Seviron · 1 way"
+
+    **Way 1:** Talk to [Seviron](../monsters/brv_churchman.md), choose “I'll release it outside.”
+
+    - **Needs:** stage 60; not yet stage 70, 80, 90; carry 1× [Trapped mouse](../items/trapped_mouse.md)
+    - *“Well, don't release it in the town. It will just go into another building.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · stepping on a trigger on brimhaven7 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Brimhaven 7](../maps/brimhaven7.md), choose “[Open the bottle]”
+
+    - **Needs:** carry 1× [Trapped mouse](../items/trapped_mouse.md); hand over 1× [Trapped mouse](../items/trapped_mouse.md)
+    - **Gives:** [Large empty bottle](../items/large_bottle.md)
+    - *“You look after as it disappears quickly.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

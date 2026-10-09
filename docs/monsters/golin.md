@@ -4,7 +4,7 @@ description: "Golin is an NPC who can also be fought in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_12.png){ .sprite } Golin
 
-**Where to find Golin:** Brimhaven: [brimhaven_school](../maps/brimhaven_school.md#pin-npc-golin)
+**Where to find Golin:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-golin)
 
 <div class="infobox" markdown>
 
@@ -51,21 +51,21 @@ description: "Golin is an NPC who can also be fought in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
 
 ## Quests that count defeats
 
-- [Lessons learned](../quests/brv_school2.md#stage-102) with stepping on a trigger on [brimhaven_school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
-- A conversation with [Statue](../monsters/brv_school_statue.md) ([brimhaven_school](../maps/brimhaven_school.md)) checks that this enemy has been defeated.
+- [Lessons learned](../quests/brv_school2.md#stage-102) with stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
+- A conversation with [Statue](../monsters/brv_school_statue.md) ([Brimhaven school](../maps/brimhaven_school.md)) checks that this enemy has been defeated.
 
 ## Quests
 
 - [Lessons learned](../quests/brv_school2.md): stages 20, 30, 40, 50, 60, 100, 104, 240
-- [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md): stages 20, 21
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stages 20, 21
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Golin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Golin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/golin.json" data-npc="Golin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -73,7 +73,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (75 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-golin"></span>**`golin`** *(silent check: the first matching branch below is taken)*
 
@@ -300,7 +300,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_school_history_50"></span>**`brv_school_history_50`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 20 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-20))* → [brv_school_history_50_1](#d-brv_school_history_50_1)
+    - branch 1 *(if NOT reached stage 20 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-20))* → [brv_school_history_50_1](#d-brv_school_history_50_1)
     - branch 2 → [brv_school_history_60](#d-brv_school_history_60)
 
     <span id="d-brv_school_history_50_1"></span>**`brv_school_history_50_1`** [Golin](../monsters/golin.md): “Psst...”
@@ -310,10 +310,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_school_history_60"></span>**`brv_school_history_60`** [Teacher](../monsters/brv_teacher.md): “However Elythara and her cultists failed to completely annihilate the old ways. Many true men managed to hide in remote places in the total darkness, unknown to the Elytharans. Also, Elythara's power is diminished underground.”
 
-    - “[whispering to Golin] What's up?” *(if NOT reached stage 20 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-20))* → [brv_school_history_52](#d-brv_school_history_52)
+    - “[whispering to Golin] What's up?” *(if NOT reached stage 20 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-20))* → [brv_school_history_52](#d-brv_school_history_52)
     - “[keep silent]” → [brv_school_history_70](#d-brv_school_history_70)
 
-    <span id="d-brv_school_history_52"></span>**`brv_school_history_52`** [Teacher](../monsters/brv_teacher.md): “Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I had better start anew.” — **effects:** sets stage 20 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-20)
+    <span id="d-brv_school_history_52"></span>**`brv_school_history_52`** [Teacher](../monsters/brv_teacher.md): “Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I had better start anew.” — **effects:** sets stage 20 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-20)
 
     - “Yes, sorry.” → [brv_school_history_10](#d-brv_school_history_10)
 
@@ -351,7 +351,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_school_history_80"></span>**`brv_school_history_80`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 21 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21))* → [brv_school_history_88](#d-brv_school_history_88)
+    - branch 1 *(if reached stage 21 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21))* → [brv_school_history_88](#d-brv_school_history_88)
     - branch 2 → [brv_school_history_82](#d-brv_school_history_82)
 
     <span id="d-brv_school_history_88"></span>**`brv_school_history_88`** Golin: “However, bands of thieves were soon attracted by the growing wealth and united under one big organization, the Thieves' Guild, whose guild halls were secretly placed in Fallhaven, Feygard, and Nor City, those being the richest cities at…”
@@ -368,7 +368,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “[Sigh] 'At last' sounds good.” → [brv_school_history_52](#d-brv_school_history_52)
     - “[keep silent]” → [brv_school_history_92](#d-brv_school_history_92)
 
-    <span id="d-brv_school_history_84"></span>**`brv_school_history_84`** Golin: “Yes thieves. Dishonorable men who cut cheeky children's neck for a few pennies. But ... where was I?” — **effects:** sets stage 21 of [brv_nondisplay2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21)
+    <span id="d-brv_school_history_84"></span>**`brv_school_history_84`** Golin: “Yes thieves. Dishonorable men who cut cheeky children's neck for a few pennies. But ... where was I?” — **effects:** sets stage 21 of [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md#stage-21)
 
     - “You said 'However, bands of thieves'” → [brv_school_history_52](#d-brv_school_history_52)
     - “[keep silent]” → [brv_school_history_85](#d-brv_school_history_85)
@@ -413,7 +413,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 75 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “The cultists worshipped the blinding and cleansing light of Elythara.…” → “The cultists worshipped the blinding and cleansing light of Elythara.…”<br>· text: “Just imagine all those mighty churches and splendid palaces! It was a…” → “Just imagine all those mighty churches and splendid palaces! It was a…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “And now we get to a completely different thing. Let's have some pract…” → “And now we will do something completely different. Let's practice fig…”<br>· text: “The Elytharans built several towns and cities, dedicated to their god…” → “The Elytharans built several towns and cities, dedicated to their god…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “It's about time. This is my favourite class.” → “It's about time. This is my favorite class.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -4,7 +4,7 @@ description: "Basement spider is an enemy in Andor's Trail (insect) with 90 HP, 
 
 # ![](../assets/icons/monsters/monsters_tometik10_54.png){ .sprite } Basement spider
 
-**Found in:** Lake Laeroth: [laerothbarn0](../maps/laerothbarn0.md), Lake Laeroth: [laerothbarn1](../maps/laerothbarn1.md), Lake Laeroth: [laerothbasement0](../maps/laerothbasement0.md), Lake Laeroth: [laerothbasement1](../maps/laerothbasement1.md) (+2 more)
+**Found in:** Lake Laeroth: [Laerothbarn 0](../maps/laerothbarn0.md), Lake Laeroth: [Laerothbarn 1](../maps/laerothbarn1.md), Lake Laeroth: [Laerothbasement 0](../maps/laerothbasement0.md), Lake Laeroth: [Laerothbasement 1](../maps/laerothbasement1.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -57,12 +57,12 @@ description: "Basement spider is an enemy in Andor's Trail (insect) with 90 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothbarn0](../maps/laerothbarn0.md) | Lake Laeroth | 2 | – |
-| [laerothbarn1](../maps/laerothbarn1.md) | Lake Laeroth | 2 | Appears later, during a quest |
-| [laerothbasement0](../maps/laerothbasement0.md) | Lake Laeroth | 9 | – |
-| [laerothbasement1](../maps/laerothbasement1.md) | Lake Laeroth | 7 | – |
-| [laerothbasement2](../maps/laerothbasement2.md) | Lake Laeroth | 4 | – |
-| [laerothcave2](../maps/laerothcave2.md) | – | 3 | – |
+| [Laerothbarn 0](../maps/laerothbarn0.md) | Lake Laeroth | 2 | – |
+| [Laerothbarn 1](../maps/laerothbarn1.md) | Lake Laeroth | 2 | Appears later, during a quest |
+| [Laerothbasement 0](../maps/laerothbasement0.md) | Lake Laeroth | 9 | – |
+| [Laerothbasement 1](../maps/laerothbasement1.md) | Lake Laeroth | 7 | – |
+| [Laerothbasement 2](../maps/laerothbasement2.md) | Lake Laeroth | 4 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 3 | – |
 
 
 ## Version history

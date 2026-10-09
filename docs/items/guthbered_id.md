@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Harlenn](../monsters/harlenn.md) ([blackwater_mountain45](../maps/blackwater_mountain45.md)) | [The agent and the beast](../quests/bwm_agent.md#stage-149) | handed over (1×) | “Yes, he is dead.” |
+| [Harlenn](../monsters/harlenn.md) ([Blackwater mountain 45](../maps/blackwater_mountain45.md)) | [The agent and the beast](../quests/bwm_agent.md#stage-149) | handed over (1×) | “Yes, he is dead.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

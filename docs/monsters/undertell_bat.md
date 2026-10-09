@@ -1,10 +1,10 @@
 ---
-description: "Gravewing is an enemy in Andor's Trail (animal) with 138 HP, worth 561 XP, found in undertell_03, undertell_04, undertell_05."
+description: "Gravewing is an enemy in Andor's Trail (animal) with 138 HP, worth 561 XP, found in Undertell 03, Undertell 04, Undertell 05."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_71.png){ .sprite } Gravewing
 
-**Found in:** [undertell_03](../maps/undertell_03.md), [undertell_04](../maps/undertell_04.md), [undertell_05](../maps/undertell_05.md), [undertell_13](../maps/undertell_13.md) (+7 more)
+**Found in:** [Undertell 03](../maps/undertell_03.md), [Undertell 04](../maps/undertell_04.md), [Undertell 05](../maps/undertell_05.md), [Undertell 13](../maps/undertell_13.md) (+7 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Gravewing is an enemy in Andor's Trail (animal) with 138 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_03, undertell_04, undertell_05 |
+| **Found in** | Undertell 03, Undertell 04, Undertell 05 |
 | **Class** | Animal |
 | **HP** | 138 |
 | **XP when defeated** | 561 |
@@ -50,17 +50,17 @@ description: "Gravewing is an enemy in Andor's Trail (animal) with 138 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_03](../maps/undertell_03.md) | – | 1 | – |
-| [undertell_04](../maps/undertell_04.md) | – | 2 | – |
-| [undertell_05](../maps/undertell_05.md) | – | 2 | – |
-| [undertell_13](../maps/undertell_13.md) | – | 3 | – |
-| [undertell_14](../maps/undertell_14.md) | – | 4 | – |
-| [undertell_15](../maps/undertell_15.md) | – | 4 | – |
-| [undertell_22](../maps/undertell_22.md) | – | 2 | – |
-| [undertell_23](../maps/undertell_23.md) | – | 2 | – |
-| [undertell_24](../maps/undertell_24.md) | – | 2 | – |
-| [undertell_3_01](../maps/undertell_3_01.md) | – | 3 | – |
-| [undertell_3_11](../maps/undertell_3_11.md) | – | 1 | – |
+| [Undertell 03](../maps/undertell_03.md) | – | 1 | – |
+| [Undertell 04](../maps/undertell_04.md) | – | 2 | – |
+| [Undertell 05](../maps/undertell_05.md) | – | 2 | – |
+| [Undertell 13](../maps/undertell_13.md) | – | 3 | – |
+| [Undertell 14](../maps/undertell_14.md) | – | 4 | – |
+| [Undertell 15](../maps/undertell_15.md) | – | 4 | – |
+| [Undertell 22](../maps/undertell_22.md) | – | 2 | – |
+| [Undertell 23](../maps/undertell_23.md) | – | 2 | – |
+| [Undertell 24](../maps/undertell_24.md) | – | 2 | – |
+| [Undertell 3 01](../maps/undertell_3_01.md) | – | 3 | – |
+| [Undertell 3 11](../maps/undertell_3_11.md) | – | 1 | – |
 
 
 ## Version history

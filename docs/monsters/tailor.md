@@ -4,7 +4,7 @@ description: "Tailor is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_men2_0.png){ .sprite } Tailor
 
-**Where to find Tailor:** Fallhaven: [fallhaven_clothes](../maps/fallhaven_clothes.md#pin-npc-tailor)
+**Where to find Tailor:** Fallhaven: [Fallhaven clothes](../maps/fallhaven_clothes.md#pin-npc-tailor)
 
 <div class="infobox" markdown>
 
@@ -49,11 +49,11 @@ description: "Tailor is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 68
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 68
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Tailor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Tailor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_clothes_0.json" data-npc="Tailor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -61,20 +61,20 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_clothes_0"></span>**`fallhaven_clothes_0`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 69 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [fallhaven_clothes](#d-fallhaven_clothes)
-    - Next *(if reached stage 66 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-66))* → [fallhaven_clothes_10](#d-fallhaven_clothes_10)
-    - Next *(if reached stage 68 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-68))* → [fallhaven_clothes_40](#d-fallhaven_clothes_40)
+    - Next *(if reached stage 69 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-69))* → [fallhaven_clothes](#d-fallhaven_clothes)
+    - Next *(if reached stage 66 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-66))* → [fallhaven_clothes_10](#d-fallhaven_clothes_10)
+    - Next *(if reached stage 68 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-68))* → [fallhaven_clothes_40](#d-fallhaven_clothes_40)
     - Next → [fallhaven_clothes](#d-fallhaven_clothes)
 
     <span id="d-fallhaven_clothes"></span>**`fallhaven_clothes`** Tailor: “Welcome to my shop. Please browse my selection of fine clothing and jewelry.”
 
     - “Let me see your wares.” → *shop opens*
 
-    <span id="d-fallhaven_clothes_10"></span>**`fallhaven_clothes_10`** [Tailor](../monsters/tailor.md): “Hey! What are you doing here? How did you get in?” — **effects:** sets stage 68 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-68)
+    <span id="d-fallhaven_clothes_10"></span>**`fallhaven_clothes_10`** [Tailor](../monsters/tailor.md): “Hey! What are you doing here? How did you get in?” — **effects:** sets stage 68 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-68)
 
     - “By the door. Why?” → [fallhaven_clothes_20](#d-fallhaven_clothes_20)
 

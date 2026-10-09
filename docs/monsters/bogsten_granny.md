@@ -1,5 +1,5 @@
 ---
-description: "Undina Bogsten is a non-player character (NPC) in Andor's Trail, found in mushroom_m2_4."
+description: "Undina Bogsten is a non-player character (NPC) in Andor's Trail, found in Mushroom m 2 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_8.png){ .sprite } Undina Bogsten
@@ -11,33 +11,33 @@ description: "Undina Bogsten is a non-player character (NPC) in Andor's Trail, f
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | mushroom_m2_4 |
+| **Found in** | Mushroom m 2 4 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Undina Bogsten. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Undina Bogsten. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`bogsten_granny`](#v-bogsten_granny) | NPC | [mushroom_m2_4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny) | – |
-| [`bogsten_granny1`](#v-bogsten_granny1) | NPC | [mushroom_m2_4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1) | – |
+| [`bogsten_granny`](#v-bogsten_granny) | NPC | [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny) | – |
+| [`bogsten_granny1`](#v-bogsten_granny1) | NPC | [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1) | – |
 
-## Mushroom m2 4 (bogsten_granny) { #v-bogsten_granny }
+## Mushroom m 2 4 (bogsten_granny) { #v-bogsten_granny }
 
 **Entry ID:** `bogsten_granny` · **Type:** NPC
 
-**Location:** [mushroom_m2_4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny)
+**Location:** [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny)
 
 ### Quests
 
-- [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md): stage 200
+- [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md): stage 200
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Undina Bogsten. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Undina Bogsten. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bogsten_granny.json" data-npc="Undina Bogsten" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,13 +45,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (17 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-bogsten_granny-bogsten_granny"></span>**`bogsten_granny`** *(silent check: the first matching branch below is taken)*
 
     - branch 1 *(if carry 1× [Gardener's gloves](../items/gardener_gloves.md))* → [bogsten_granny_94](#d-bogsten_granny-bogsten_granny_94)
-    - branch 2 *(if reached stage 210 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-210))* → [bogsten_granny_92](#d-bogsten_granny-bogsten_granny_92)
-    - branch 3 *(if reached stage 200 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-200))* → [bogsten_granny_90](#d-bogsten_granny-bogsten_granny_90)
+    - branch 2 *(if reached stage 210 of [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-210))* → [bogsten_granny_92](#d-bogsten_granny-bogsten_granny_92)
+    - branch 3 *(if reached stage 200 of [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-200))* → [bogsten_granny_90](#d-bogsten_granny-bogsten_granny_90)
     - branch 4 → [bogsten_granny_10](#d-bogsten_granny-bogsten_granny_10)
 
     <span id="d-bogsten_granny-bogsten_granny_94"></span>**`bogsten_granny_94`** Undina Bogsten: “So you've chosen my gardening gloves. A wise choice!”
@@ -115,7 +115,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Oh, you don't have to!” → [bogsten_granny_80](#d-bogsten_granny-bogsten_granny_80)
     - “At last some gold.” → [bogsten_granny_80](#d-bogsten_granny-bogsten_granny_80)
 
-    <span id="d-bogsten_granny-bogsten_granny_80"></span>**`bogsten_granny_80`** Undina Bogsten: “Go ye into our family tomb. You may pick something from our treasures.” — **effects:** sets stage 200 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-200), removes monsters from mushroom_m2_4, spawns monsters on mushroom_m2_4
+    <span id="d-bogsten_granny-bogsten_granny_80"></span>**`bogsten_granny_80`** Undina Bogsten: “Go ye into our family tomb. You may pick something from our treasures.” — **effects:** sets stage 200 of [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-200), removes monsters from mushroom_m2_4, spawns monsters on mushroom_m2_4
 
 
 
@@ -157,19 +157,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 4 (bogsten_granny1) { #v-bogsten_granny1 }
+## Mushroom m 2 4 (bogsten_granny1) { #v-bogsten_granny1 }
 
 **Entry ID:** `bogsten_granny1` · **Type:** NPC
 
-**Location:** [mushroom_m2_4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1)
+**Location:** [Mushroom m 2 4](../maps/mushroom_m2_4.md#pin-npc-bogsten_granny1)
 
 ### Quests
 
-- [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md): stage 200
+- [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md): stage 200
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Undina Bogsten. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Undina Bogsten. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bogsten_granny.json" data-npc="Undina Bogsten" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 

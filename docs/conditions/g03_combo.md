@@ -29,9 +29,9 @@ description: "Combo is a beneficial physical condition in Andor's Trail: damage 
 | Critical skill | +2 |
 | Attack cost (AP) | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -46,15 +46,15 @@ Nothing in the game data applies this condition to you.
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Crackshot](../monsters/g03_crackshot.md) | On itself, when it hits you | 1 | 1 round | 25% | crackshot_hideout3 |
-| [Rebelled rogue](../monsters/g03_thief_3.md) | On itself, when it hits you | 1 | 1 round | 33% | crackshot_hideout3 |
+| [Crackshot](../monsters/g03_crackshot.md) | On itself, when it hits you | 1 | 1 round | 25% | Crackshot hideout 3 |
+| [Rebelled rogue](../monsters/g03_thief_3.md) | On itself, when it hits you | 1 | 1 round | 33% | Crackshot hideout 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, monster, dialogue and skill data.</p>
 
 ## Removal and protection
 
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

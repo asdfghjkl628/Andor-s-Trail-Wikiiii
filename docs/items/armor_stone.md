@@ -40,7 +40,7 @@ description: "Stone Cuirass is a extraordinary armor (heavy) in Andor's Trail (A
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Maelveon](../monsters/maelveon.md) | 100% | 1 | gargoylecave3 |
+| [Maelveon](../monsters/maelveon.md) | 100% | 1 | Gargoylecave 3 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

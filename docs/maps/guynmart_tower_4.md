@@ -61,7 +61,7 @@ description: "Guynmart tower 4 is an indoor location in Andor's Trail, in Guynma
 
 ## Quests
 
-- [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md): [Rorthron](../monsters/guynmart_wizard.md) is involved; something on this map advances it; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 12; stepping on a trigger here sets stage 2
+- [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md): [Rorthron](../monsters/guynmart_wizard.md) is involved; something on this map advances it; stepping on a trigger here sets stage 11; stepping on a trigger here sets stage 12; stepping on a trigger here sets stage 2
 
 ## Points of interest
 

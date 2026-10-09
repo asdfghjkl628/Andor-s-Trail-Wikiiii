@@ -26,13 +26,13 @@ description: "Silver bar is a ordinary gem in Andor's Trail. How to get it: cont
 
 ### Found in containers
 
-- [elm5f_2](../maps/elm5f_2.md#container-1) (container 2, 100%)
-- [elm_4f_1](../maps/elm_4f_1.md#container-0) (container 1, 100%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 20%)
+- [Elm 5f 2](../maps/elm5f_2.md#container-1) (container 2, 100%)
+- [Elm 4f 1](../maps/elm_4f_1.md#container-0) (container 1, 100%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 20%)
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [blackwater_mountain5a](../maps/blackwater_mountain5a.md) during [misc_nondisplay (hidden flag)](../quests/misc_nondisplay.md#stage-10) (1×)
+- From stepping on a trigger on [Blackwater mountain 5a](../maps/blackwater_mountain5a.md) during [Miscellaneous story flags (hidden flag)](../quests/misc_nondisplay.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

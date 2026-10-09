@@ -25,7 +25,7 @@ description: "Guild brig key is a quest other in Andor's Trail. How to get it: q
 
 ### Quest & dialogue rewards
 
-- From [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) during [Immaculate kidnapping](../quests/Thieves02.md#stage-45) (1×)
+- From [Troublemaker](../monsters/troublemaker.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) during [Immaculate kidnapping](../quests/Thieves02.md#stage-45) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [fallhaven_gravedigger](../maps/fallhaven_gravedigger.md) | – | must be carried (1×) | “N” |
-| walking into a blocked passage on [fallhaven_gravedigger](../maps/fallhaven_gravedigger.md) | [Immaculate kidnapping](../quests/Thieves02.md#stage-50) | handed over (1×) | “Put the key into the lock.” |
+| walking into a blocked passage on [Fallhaven gravedigger](../maps/fallhaven_gravedigger.md) | – | must be carried (1×) | “N” |
+| walking into a blocked passage on [Fallhaven gravedigger](../maps/fallhaven_gravedigger.md) | [Immaculate kidnapping](../quests/Thieves02.md#stage-50) | handed over (1×) | “Put the key into the lock.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -4,7 +4,7 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
 
 # ![](../assets/icons/monsters/monsters_newb_1_216.png){ .sprite } Rubycrest strider
 
-**Found in:** Stoutford: [stoutford_filler_1](../maps/stoutford_filler_1.md), Stoutford: [stoutford_filler_2](../maps/stoutford_filler_2.md), Stoutford: [stoutford_filler_3](../maps/stoutford_filler_3.md), [stoutford_filler_4](../maps/stoutford_filler_4.md)
+**Found in:** Stoutford: [Stoutford filler 1](../maps/stoutford_filler_1.md), Stoutford: [Stoutford filler 2](../maps/stoutford_filler_2.md), Stoutford: [Stoutford filler 3](../maps/stoutford_filler_3.md), [Stoutford filler 4](../maps/stoutford_filler_4.md)
 
 <div class="infobox" markdown>
 
@@ -59,14 +59,14 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [stoutford_filler_1](../maps/stoutford_filler_1.md) | Stoutford | 1 | Appears later, during a quest |
-| [stoutford_filler_2](../maps/stoutford_filler_2.md) | Stoutford | 1 | Appears later, during a quest |
-| [stoutford_filler_3](../maps/stoutford_filler_3.md) | Stoutford | 2 | Appears later, during a quest |
-| [stoutford_filler_4](../maps/stoutford_filler_4.md) | – | 1 | Appears later, during a quest |
+| [Stoutford filler 1](../maps/stoutford_filler_1.md) | Stoutford | 1 | Appears later, during a quest |
+| [Stoutford filler 2](../maps/stoutford_filler_2.md) | Stoutford | 1 | Appears later, during a quest |
+| [Stoutford filler 3](../maps/stoutford_filler_3.md) | Stoutford | 2 | Appears later, during a quest |
+| [Stoutford filler 4](../maps/stoutford_filler_4.md) | – | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-57) with stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) checks that this enemy has been defeated.
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-57) with stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) checks that this enemy has been defeated.
 
 
 ## Version history

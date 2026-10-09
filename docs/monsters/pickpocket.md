@@ -4,7 +4,7 @@ description: "Pickpocket is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_men_7.png){ .sprite } Pickpocket
 
-**Where to find Pickpocket:** Fallhaven: [fallhaven_derelict2](../maps/fallhaven_derelict2.md#pin-npc-pickpocket), Fallhaven: [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md#pin-npc-pickpocket)
+**Where to find Pickpocket:** Fallhaven: [Fallhaven derelict 2](../maps/fallhaven_derelict2.md#pin-npc-pickpocket), Fallhaven: [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md#pin-npc-pickpocket)
 
 <div class="infobox" markdown>
 
@@ -23,12 +23,12 @@ description: "Pickpocket is a non-player character (NPC) in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_derelict2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
-| [fallhaven_derelict2_t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) | Fallhaven | 1 | – |
+| [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) | Fallhaven | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Pickpocket. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Pickpocket. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thievesguild_pickpocket_1.json" data-npc="Pickpocket" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,7 +36,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thievesguild_pickpocket_1"></span>**`thievesguild_pickpocket_1`** Pickpocket: “Hello there.”
 
@@ -88,7 +88,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “He is probably in his room over there. *points*” → “He is probably in his room over there [points].”<br>· text: “Well, I have a tendency to .. how shall I put this .. acquire certain…” → “Well, I have a tendency to ... how shall I put this ... acquire certa…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “Well, I have a tendency to .. how shall I put this .. acquire certain…” → “Well, I have a tendency to ... how shall I put this ... acquire certa…”<br>· text: “He is probably in his room over there. *points*” → “He is probably in his room over there [points].” |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

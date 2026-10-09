@@ -18,27 +18,27 @@ description: "Lovis is a non-player character (NPC) in Andor's Trail, found in G
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Lovis. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Lovis. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`guynmart_lovis`](#v-guynmart_lovis) | NPC | Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis) | – |
-| [`guynmart_lovis2`](#v-guynmart_lovis2) | NPC | Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2) (+1 more) | – |
+| [`guynmart_lovis`](#v-guynmart_lovis) | NPC | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis) | – |
+| [`guynmart_lovis2`](#v-guynmart_lovis2) | NPC | Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2) (+1 more) | – |
 
 ## Guynmart Castle, Guynmart tower 0 (guynmart_lovis) { #v-guynmart_lovis }
 
 **Entry ID:** `guynmart_lovis` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_tower_0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis)
+**Location:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md#pin-npc-guynmart_lovis)
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 132, 134
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stage 6
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stage 6
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lovis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lovis. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_lovis_10.json" data-npc="Lovis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_lovis-guynmart_lovis_10"></span>**`guynmart_lovis_10`** *(silent check: the first matching branch below is taken)*
 
@@ -94,7 +94,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “What a lovely tune! I almost seem to understand the meaning.” → [guynmart_lovis_120](#d-guynmart_lovis-guynmart_lovis_120)
     - “Eh, nice, thank you for trying.” → *conversation ends*
 
-    <span id="d-guynmart_lovis-guynmart_lovis_40"></span>**`guynmart_lovis_40`** Lovis: “My flute! How I have missed it! I believe you now.” — **effects:** sets stage 132 of [Roses](../quests/guynmart.md#stage-132), sets stage 6 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-6), starts timer “guynmart_flute”
+    <span id="d-guynmart_lovis-guynmart_lovis_40"></span>**`guynmart_lovis_40`** Lovis: “My flute! How I have missed it! I believe you now.” — **effects:** sets stage 132 of [Roses](../quests/guynmart.md#stage-132), sets stage 6 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-6), starts timer “guynmart_flute”
 
     - “This is settled then. Let us now look for an exit.” → *conversation ends*
 
@@ -152,24 +152,24 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guynmart_lovis2` · **Type:** NPC
 
-**Location:** Guynmart Castle: [guynmart_main_0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [guynmart_main_1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2), Guynmart Castle: [guynmart_main_2](../maps/guynmart_main_2.md#pin-npc-guynmart_lovis2)
+**Location:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_lovis2), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_lovis2)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_main_0](../maps/guynmart_main_0.md) | Guynmart Castle | 1 | Appears later, during a quest |
-| [guynmart_main_1](../maps/guynmart_main_1.md) | Guynmart Castle | 1 | Appears later, during a quest |
-| [guynmart_main_2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 0](../maps/guynmart_main_0.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 1](../maps/guynmart_main_1.md) | Guynmart Castle | 1 | Appears later, during a quest |
+| [Guynmart main 2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
 
 ### Quests
 
 - [Roses](../quests/guynmart.md): stages 190, 200, 210, 211
-- [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md): stages 33, 36
+- [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md): stages 33, 36
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lovis. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lovis. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_lovis2_10.json" data-npc="Lovis" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -177,15 +177,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (58 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_lovis2-guynmart_lovis2_10"></span>**`guynmart_lovis2_10`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 210 of [Roses](../quests/guynmart.md#stage-210); reached stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_450](#d-guynmart_lovis2-guynmart_lovis2_450)
+    - branch 1 *(if reached stage 210 of [Roses](../quests/guynmart.md#stage-210); reached stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_450](#d-guynmart_lovis2-guynmart_lovis2_450)
     - branch 2 *(if reached stage 210 of [Roses](../quests/guynmart.md#stage-210); NOT reached stage 200 of [Roses](../quests/guynmart.md#stage-200))* → [guynmart_lovis2_12](#d-guynmart_lovis2-guynmart_lovis2_12)
     - branch 3 *(if reached stage 210 of [Roses](../quests/guynmart.md#stage-210))* → [guynmart_lovis2_14](#d-guynmart_lovis2-guynmart_lovis2_14)
     - branch 4 *(if NOT reached stage 190 of [Roses](../quests/guynmart.md#stage-190))* → [guynmart_lovis2_20](#d-guynmart_lovis2-guynmart_lovis2_20)
-    - branch 5 *(if reached stage 32 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_lovis2_120](#d-guynmart_lovis2-guynmart_lovis2_120)
+    - branch 5 *(if reached stage 32 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32))* → [guynmart_lovis2_120](#d-guynmart_lovis2-guynmart_lovis2_120)
     - branch 6 → [guynmart_lovis2_30](#d-guynmart_lovis2-guynmart_lovis2_30)
 
     <span id="d-guynmart_lovis2-guynmart_lovis2_450"></span>**`guynmart_lovis2_450`** Lovis: “We have good news for you.”
@@ -219,14 +219,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [guynmart_hannah2_32](#d-guynmart_lovis2-guynmart_hannah2_32)
 
-    <span id="d-guynmart_lovis2-guynmart_lovis2_130"></span>**`guynmart_lovis2_130`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36)
+    <span id="d-guynmart_lovis2-guynmart_lovis2_130"></span>**`guynmart_lovis2_130`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36)
 
     - branch 1 *(if reached stage 181 of [Roses](../quests/guynmart.md#stage-181))* → [guynmart_lovis2_141](#d-guynmart_lovis2-guynmart_lovis2_141)
     - branch 2 → [guynmart_lovis2_140](#d-guynmart_lovis2-guynmart_lovis2_140)
 
     <span id="d-guynmart_lovis2-guynmart_lovis2_40"></span>**`guynmart_lovis2_40`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_50](#d-guynmart_lovis2-guynmart_lovis2_50)
+    - branch 1 *(if reached stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1))* → [guynmart_lovis2_50](#d-guynmart_lovis2-guynmart_lovis2_50)
     - branch 2 → [guynmart_lovis2_70](#d-guynmart_lovis2-guynmart_lovis2_70)
 
     <span id="d-guynmart_lovis2-guynmart_lovis2_454"></span>**`guynmart_lovis2_454`** Lovis: “He eventually admitted that he secretly exchanged your ring for a worthless ring.”
@@ -251,7 +251,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-guynmart_lovis2-guynmart_lovis2_70"></span>**`guynmart_lovis2_70`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if killed 1× [Sheep](../monsters/sheep1.md#v-guynmart_sheep); NOT reached stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33))* → [guynmart_lovis2_200](#d-guynmart_lovis2-guynmart_lovis2_200)
+    - branch 1 *(if killed 1× [Sheep](../monsters/sheep1.md#v-guynmart_sheep); NOT reached stage 33 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-33))* → [guynmart_lovis2_200](#d-guynmart_lovis2-guynmart_lovis2_200)
     - branch 2 → [guynmart_lovis2_100](#d-guynmart_lovis2-guynmart_lovis2_100)
 
     <span id="d-guynmart_lovis2-guynmart_lovis2_456"></span>**`guynmart_lovis2_456`** Lovis: “He promised never to do such things again and handed the real ring over to us. We want to leave it at that.”
@@ -281,7 +281,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-guynmart_lovis2-guynmart_lovis2_100"></span>**`guynmart_lovis2_100`** Lovis: “You have earned your reward. Go now into our treasury.” — **effects:** sets stage 200 of [Roses](../quests/guynmart.md#stage-200), spawns monsters on guynmart_main_1, removes monsters from guynmart_main_1
 
 
-    <span id="d-guynmart_lovis2-guynmart_lovis2_460"></span>**`guynmart_lovis2_460`** Lovis: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
+    <span id="d-guynmart_lovis2-guynmart_lovis2_460"></span>**`guynmart_lovis2_460`** Lovis: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
 
     - “Oh! I can't believe it! Is it really true?” → *conversation ends*
 
@@ -314,7 +314,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [guynmart_lovis2_30](#d-guynmart_lovis2-guynmart_lovis2_30)
 
-    <span id="d-guynmart_lovis2-guynmart_lovis2_60"></span>**`guynmart_lovis2_60`** Lovis: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
+    <span id="d-guynmart_lovis2-guynmart_lovis2_60"></span>**`guynmart_lovis2_60`** Lovis: “So here, take your precious ring back.” — **effects:** gives 1× [Ring of lesser Shadow](../items/ring_shadow0.md), clears stage 1 of [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1)
 
     - “Oh! I can't believe it! Is it really true?” → [guynmart_lovis2_70](#d-guynmart_lovis2-guynmart_lovis2_70)
 
@@ -432,7 +432,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “No, sorry, I didn't mean it.” → [guynmart_lovis2_220](#d-guynmart_lovis2-guynmart_lovis2_220)
     - “I will go. Bye.” → [guynmart_lovis2_240](#d-guynmart_lovis2-guynmart_lovis2_240)
 
-    <span id="d-guynmart_lovis2-guynmart_lovis2_360"></span>**`guynmart_lovis2_360`** Lovis: “[Gold taken] All the sheep you killed are paid for, so now we will forget the whole thing.” — **effects:** sets stage 33 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-33), removes monsters from guynmart_main_1
+    <span id="d-guynmart_lovis2-guynmart_lovis2_360"></span>**`guynmart_lovis2_360`** Lovis: “[Gold taken] All the sheep you killed are paid for, so now we will forget the whole thing.” — **effects:** sets stage 33 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-33), removes monsters from guynmart_main_1
 
     - “I am relieved.” → [guynmart_lovis2_100](#d-guynmart_lovis2-guynmart_lovis2_100)
 
@@ -440,10 +440,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “OK.” → *conversation ends*
 
-    <span id="d-guynmart_lovis2-guynmart_lovis2_241"></span>**`guynmart_lovis2_241`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 211 of [Roses](../quests/guynmart.md#stage-211), sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
+    <span id="d-guynmart_lovis2-guynmart_lovis2_241"></span>**`guynmart_lovis2_241`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 211 of [Roses](../quests/guynmart.md#stage-211), sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1
 
 
-    <span id="d-guynmart_lovis2-guynmart_lovis2_240"></span>**`guynmart_lovis2_240`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 210 of [Roses](../quests/guynmart.md#stage-210), sets stage 36 of [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9
+    <span id="d-guynmart_lovis2-guynmart_lovis2_240"></span>**`guynmart_lovis2_240`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 210 of [Roses](../quests/guynmart.md#stage-210), sets stage 36 of [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-36), removes monsters from guynmart_main_1, spawns monsters on guynmart_wood_9
 
 
 

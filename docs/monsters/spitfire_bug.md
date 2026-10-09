@@ -4,7 +4,7 @@ description: "Spitfire bug is an enemy in Andor's Trail (insect) with 106 HP, wo
 
 # ![](../assets/icons/monsters/monsters_insects_6.png){ .sprite } Spitfire bug
 
-**Found in:** Mt. Galmore: [galmore_33](../maps/galmore_33.md), Mt. Galmore: [galmore_42](../maps/galmore_42.md), Mt. Galmore: [galmore_43](../maps/galmore_43.md), Mt. Galmore: [galmore_53](../maps/galmore_53.md) (+1 more)
+**Found in:** Mt. Galmore: [Galmore 33](../maps/galmore_33.md), Mt. Galmore: [Galmore 42](../maps/galmore_42.md), Mt. Galmore: [Galmore 43](../maps/galmore_43.md), Mt. Galmore: [Galmore 53](../maps/galmore_53.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -58,11 +58,11 @@ description: "Spitfire bug is an enemy in Andor's Trail (insect) with 106 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_33](../maps/galmore_33.md) | Mt. Galmore | 2 | – |
-| [galmore_41](../maps/galmore_41.md) | – | 4 | – |
-| [galmore_42](../maps/galmore_42.md) | Mt. Galmore | 5 | – |
-| [galmore_43](../maps/galmore_43.md) | Mt. Galmore | 11 | – |
-| [galmore_53](../maps/galmore_53.md) | Mt. Galmore | 5 | – |
+| [Galmore 33](../maps/galmore_33.md) | Mt. Galmore | 2 | – |
+| [Galmore 41](../maps/galmore_41.md) | – | 4 | – |
+| [Galmore 42](../maps/galmore_42.md) | Mt. Galmore | 5 | – |
+| [Galmore 43](../maps/galmore_43.md) | Mt. Galmore | 11 | – |
+| [Galmore 53](../maps/galmore_53.md) | Mt. Galmore | 5 | – |
 
 
 ## Version history

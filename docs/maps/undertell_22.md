@@ -11,7 +11,7 @@ description: "Undertell 22 is an indoor location in Andor's Trail. Enemies: Grav
 | **Map ID** | `undertell_22` |
 | **Type** | Indoors / underground |
 | **Size** | 30×18 tiles |
-| **World map** | [Undertell floor1](index.md) |
+| **World map** | [Undertell floor 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
@@ -57,7 +57,7 @@ description: "Undertell 22 is an indoor location in Andor's Trail. Enemies: Grav
 
 ## Quests
 
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 8
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): part of the map changes at stage 8; something on this map advances it; stepping on a trigger here sets stage 8
 
 ## Points of interest
 

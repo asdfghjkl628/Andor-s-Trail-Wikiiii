@@ -1,5 +1,5 @@
 ---
-description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) with 52 HP, worth 63 XP, found in crackshot_hideout4. Drops: Gold coins, Ruby gem, Regular potion of health, Bone."
+description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) with 52 HP, worth 63 XP, found in Crackshot hideout 4. Drops: Gold coins, Ruby gem, Regular potion of health, Bone."
 ---
 
 # ![](../assets/icons/monsters/monsters_skeleton1_0.png){ .sprite } Luthor's skeleton guard
@@ -11,7 +11,7 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | crackshot_hideout4 |
+| **Found in** | Crackshot hideout 4 |
 | **Class** | Construct |
 | **HP** | 52 |
 | **XP when defeated** | 63 |
@@ -22,19 +22,19 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Luthor's skeleton guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Luthor's skeleton guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`tt_monster1`](#v-tt_monster1) | Enemy | [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 52 |
-| [`tt_monster2`](#v-tt_monster2) | Enemy | [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 52 |
-| [`tt_monster3`](#v-tt_monster3) | Enemy | [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 52 |
+| [`tt_monster1`](#v-tt_monster1) | Enemy | [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 52 |
+| [`tt_monster2`](#v-tt_monster2) | Enemy | [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 52 |
+| [`tt_monster3`](#v-tt_monster3) | Enemy | [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 52 |
 
-## Crackshot hideout4 (tt_monster1) { #v-tt_monster1 }
+## Crackshot hideout 4 (tt_monster1) { #v-tt_monster1 }
 
 **Entry ID:** `tt_monster1` · **Type:** Enemy
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
 
 ### Combat statistics
 
@@ -74,7 +74,7 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 1 | – |
+| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 1 | – |
 
 
 ### Version history
@@ -124,11 +124,11 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
     ```
 
 
-## Crackshot hideout4 (tt_monster2) { #v-tt_monster2 }
+## Crackshot hideout 4 (tt_monster2) { #v-tt_monster2 }
 
 **Entry ID:** `tt_monster2` · **Type:** Enemy
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
 
 ### Combat statistics
 
@@ -168,7 +168,7 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 1 | – |
+| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 1 | – |
 
 
 ### Version history
@@ -218,11 +218,11 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
     ```
 
 
-## Crackshot hideout4 (tt_monster3) { #v-tt_monster3 }
+## Crackshot hideout 4 (tt_monster3) { #v-tt_monster3 }
 
 **Entry ID:** `tt_monster3` · **Type:** Enemy
 
-**Location:** [crackshot_hideout4](../maps/crackshot_hideout4.md)
+**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md)
 
 ### Combat statistics
 
@@ -262,7 +262,7 @@ description: "Luthor's skeleton guard is an enemy in Andor's Trail (construct) w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [crackshot_hideout4](../maps/crackshot_hideout4.md) | – | 3 | – |
+| [Crackshot hideout 4](../maps/crackshot_hideout4.md) | – | 3 | – |
 
 
 ### Version history

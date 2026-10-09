@@ -4,7 +4,7 @@ description: "Duleian mountain cat is an enemy in Andor's Trail (animal) with 97
 
 # ![](../assets/icons/monsters/monsters_tometik4_70.png){ .sprite } Duleian mountain cat
 
-**Found in:** Burial cave: [brightportwild3](../maps/brightportwild3.md), [brightportwild1](../maps/brightportwild1.md), [brightportwild2](../maps/brightportwild2.md), [cabin_norcity_road3](../maps/cabin_norcity_road3.md) (+1 more)
+**Found in:** Burial cave: [Brightportwild 3](../maps/brightportwild3.md), [Brightportwild 1](../maps/brightportwild1.md), [Brightportwild 2](../maps/brightportwild2.md), [Cabin norcity road 3](../maps/cabin_norcity_road3.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Duleian mountain cat is an enemy in Andor's Trail (animal) with 97
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brightportwild1](../maps/brightportwild1.md) | – | 7 | – |
-| [brightportwild2](../maps/brightportwild2.md) | – | 3 | – |
-| [brightportwild3](../maps/brightportwild3.md) | Burial cave | 2 | – |
-| [cabin_norcity_road3](../maps/cabin_norcity_road3.md) | – | 4 | – |
-| [cabin_norcity_road4](../maps/cabin_norcity_road4.md) | – | 6 | – |
+| [Brightportwild 1](../maps/brightportwild1.md) | – | 7 | – |
+| [Brightportwild 2](../maps/brightportwild2.md) | – | 3 | – |
+| [Brightportwild 3](../maps/brightportwild3.md) | Burial cave | 2 | – |
+| [Cabin norcity road 3](../maps/cabin_norcity_road3.md) | – | 4 | – |
+| [Cabin norcity road 4](../maps/cabin_norcity_road4.md) | – | 6 | – |
 
 
 ## Version history

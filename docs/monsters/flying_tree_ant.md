@@ -4,7 +4,7 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 
 # ![](../assets/icons/monsters/monsters_omi2_5.png){ .sprite } Flying tree ant
 
-**Found in:** Deebo's Orchard: [way_to_sullengard_east6](../maps/way_to_sullengard_east6.md), Deebo's Orchard: [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md), Deebo's Orchard: [way_to_sullengard_east7a](../maps/way_to_sullengard_east7a.md), Flagstone Prison: [lake_shore_road7a](../maps/lake_shore_road7a.md) (+22 more)
+**Found in:** Deebo's Orchard: [Way to sullengard east 6](../maps/way_to_sullengard_east6.md), Deebo's Orchard: [Way to sullengard east 7](../maps/way_to_sullengard_east7.md), Deebo's Orchard: [Way to sullengard east 7a](../maps/way_to_sullengard_east7a.md), Flagstone Prison: [Lake shore road 7a](../maps/lake_shore_road7a.md) (+22 more)
 
 <div class="infobox" markdown>
 
@@ -57,32 +57,32 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_camp](../maps/aidem_camp.md) | – | 4 | – |
-| [galmore_10a](../maps/galmore_10a.md) | – | 2 | – |
-| [galmore_13](../maps/galmore_13.md) | Stoutford | 11 | – |
-| [galmore_14](../maps/galmore_14.md) | – | 7 | – |
-| [galmore_23](../maps/galmore_23.md) | – | 1 | – |
-| [lake_shore_road7a](../maps/lake_shore_road7a.md) | Flagstone Prison | 4 | – |
-| [lake_shore_road_9](../maps/lake_shore_road_9.md) | – | 3 | – |
-| [sullengard_pond](../maps/sullengard_pond.md) | Sullengard | 3 | – |
-| [sullengard_west_ravine](../maps/sullengard_west_ravine.md) | – | 2 | – |
-| [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md) | – | 6 | – |
-| [way_to_sullengard_east2](../maps/way_to_sullengard_east2.md) | – | 4 | – |
-| [way_to_sullengard_east2a](../maps/way_to_sullengard_east2a.md) | – | 2 | – |
-| [way_to_sullengard_east4](../maps/way_to_sullengard_east4.md) | – | 3 | – |
-| [way_to_sullengard_east5](../maps/way_to_sullengard_east5.md) | – | 9 | – |
-| [way_to_sullengard_east6](../maps/way_to_sullengard_east6.md) | Deebo's Orchard | 8 | – |
-| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 13 | – |
-| [way_to_sullengard_east7a](../maps/way_to_sullengard_east7a.md) | Deebo's Orchard | 5 | – |
-| [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
-| [way_to_sullengard_east9a](../maps/way_to_sullengard_east9a.md) | – | 1 | – |
-| [way_to_sullengard_east_ravine_cabin](../maps/way_to_sullengard_east_ravine_cabin.md) | – | 9 | – |
-| [way_to_sullengard_east_ravine_north](../maps/way_to_sullengard_east_ravine_north.md) | – | 7 | – |
-| [way_to_sullengard_west_0](../maps/way_to_sullengard_west_0.md) | – | 10 | – |
-| [way_to_sullengard_west_1](../maps/way_to_sullengard_west_1.md) | – | 4 | – |
-| [way_to_sullengard_west_3](../maps/way_to_sullengard_west_3.md) | – | 4 | – |
-| [way_to_sullengard_west_4](../maps/way_to_sullengard_west_4.md) | – | 2 | – |
-| [way_to_sullengard_west_5](../maps/way_to_sullengard_west_5.md) | – | 4 | – |
+| [Aidem camp](../maps/aidem_camp.md) | – | 4 | – |
+| [Galmore 10a](../maps/galmore_10a.md) | – | 2 | – |
+| [Galmore 13](../maps/galmore_13.md) | Stoutford | 11 | – |
+| [Galmore 14](../maps/galmore_14.md) | – | 7 | – |
+| [Galmore 23](../maps/galmore_23.md) | – | 1 | – |
+| [Lake shore road 7a](../maps/lake_shore_road7a.md) | Flagstone Prison | 4 | – |
+| [Lake shore road 9](../maps/lake_shore_road_9.md) | – | 3 | – |
+| [Sullengard pond](../maps/sullengard_pond.md) | Sullengard | 3 | – |
+| [Sullengard west ravine](../maps/sullengard_west_ravine.md) | – | 2 | – |
+| [Way to sullengard east 11](../maps/way_to_sullengard_east11.md) | – | 6 | – |
+| [Way to sullengard east 2](../maps/way_to_sullengard_east2.md) | – | 4 | – |
+| [Way to sullengard east 2a](../maps/way_to_sullengard_east2a.md) | – | 2 | – |
+| [Way to sullengard east 4](../maps/way_to_sullengard_east4.md) | – | 3 | – |
+| [Way to sullengard east 5](../maps/way_to_sullengard_east5.md) | – | 9 | – |
+| [Way to sullengard east 6](../maps/way_to_sullengard_east6.md) | Deebo's Orchard | 8 | – |
+| [Way to sullengard east 7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 13 | – |
+| [Way to sullengard east 7a](../maps/way_to_sullengard_east7a.md) | Deebo's Orchard | 5 | – |
+| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 1 | – |
+| [Way to sullengard east 9a](../maps/way_to_sullengard_east9a.md) | – | 1 | – |
+| [Way to sullengard east ravine cabin](../maps/way_to_sullengard_east_ravine_cabin.md) | – | 9 | – |
+| [Way to sullengard east ravine north](../maps/way_to_sullengard_east_ravine_north.md) | – | 7 | – |
+| [Way to sullengard west 0](../maps/way_to_sullengard_west_0.md) | – | 10 | – |
+| [Way to sullengard west 1](../maps/way_to_sullengard_west_1.md) | – | 4 | – |
+| [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md) | – | 4 | – |
+| [Way to sullengard west 4](../maps/way_to_sullengard_west_4.md) | – | 2 | – |
+| [Way to sullengard west 5](../maps/way_to_sullengard_west_5.md) | – | 4 | – |
 
 
 ## Version history

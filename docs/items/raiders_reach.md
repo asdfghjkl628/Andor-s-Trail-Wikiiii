@@ -52,7 +52,7 @@ description: "Raider's reach is a rare whip in Andor's Trail (Attack damage 1 to
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dorhantarh](../monsters/lae_island_boss.md) | 100% | 1 | final_cave2 |
+| [Dorhantarh](../monsters/lae_island_boss.md) | 100% | 1 | Final cave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

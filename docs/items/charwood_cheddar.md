@@ -44,7 +44,7 @@ description: "Charwood cheddar is a ordinary food in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) (1×)
+- From [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -55,9 +55,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-90) | handed over (1×) | “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” |
-| walking into a blocked passage on [ratdom_maze_624](../maps/ratdom_maze_624.md) | – | handed over (1×) | “(automatic)” |
-| [Fraedro](../monsters/ratdom_fraedro.md) ([ratdom_maze_626](../maps/ratdom_maze_626.md)) | – | handed over (1×) | “Starving? I have some good cheddar from Charwood for you here.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-90) | handed over (1×) | “Yes, finally I got it. I hope the cheddar is still fresh after the long journey.” |
+| walking into a blocked passage on [Ratdom maze 624](../maps/ratdom_maze_624.md) | – | handed over (1×) | “(automatic)” |
+| [Fraedro](../monsters/ratdom_fraedro.md) ([Ratdom maze 626](../maps/ratdom_maze_626.md)) | – | handed over (1×) | “Starving? I have some good cheddar from Charwood for you here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

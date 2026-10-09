@@ -19,95 +19,95 @@ description: "Clevred is a non-player character (NPC) in Andor's Trail, found in
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Clevred. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Clevred. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`ratdom_rat`](#v-ratdom_rat) | NPC | 4 wells: [ratdom_maze_567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [ratdom_maze_658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat) (+139 more) | starts [Yellow is it](../quests/ratdom_quest.md) |
-| [`ratdom_rat_bwm1`](#v-ratdom_rat_bwm1) | NPC | Blackwater Mountain: [ratdom_bwm1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1) | – |
-| [`ratdom_rat_crossglen`](#v-ratdom_rat_crossglen) | NPC | Crossglen: [crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen) | – |
+| [`ratdom_rat`](#v-ratdom_rat) | NPC | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat) (+139 more) | starts [Yellow is it](../quests/ratdom_quest.md) |
+| [`ratdom_rat_bwm1`](#v-ratdom_rat_bwm1) | NPC | Blackwater Mountain: [Ratdom bwm 1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1) | – |
+| [`ratdom_rat_crossglen`](#v-ratdom_rat_crossglen) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen) | – |
 
 ## 4 wells, Ratdom maze 567 and 140 more (ratdom_rat) { #v-ratdom_rat }
 
 **Entry ID:** `ratdom_rat` · **Type:** NPC · **Role:** Starts [Yellow is it](../quests/ratdom_quest.md)
 
-**Location:** 4 wells: [ratdom_maze_567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [ratdom_maze_658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat), 4 wells: [ratdom_maze_768](../maps/ratdom_maze_768.md#pin-npc-ratdom_rat), Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-ratdom_rat), Blackwater Mountain: [ratdom_maze3](../maps/ratdom_maze3.md#pin-npc-ratdom_rat), Blackwater Mountain: [ratdom_maze_455a](../maps/ratdom_maze_455a.md#pin-npc-ratdom_rat) (+135 more)
+**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md#pin-npc-ratdom_rat), Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-ratdom_rat), Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md#pin-npc-ratdom_rat), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md#pin-npc-ratdom_rat) (+135 more)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 1 | – |
-| [crossglen_cave](../maps/crossglen_cave.md) | Crossglen | 1 | – |
-| [home](../maps/home.md) | Crossglen | 1 | Appears later, during a quest |
-| [ratdom_maze1](../maps/ratdom_maze1.md) | Crossglen | 1 | – |
-| [ratdom_maze2](../maps/ratdom_maze2.md) | Entry | 1 | – |
-| [ratdom_maze3](../maps/ratdom_maze3.md) | Blackwater Mountain | 1 | – |
-| [ratdom_maze_402](../maps/ratdom_maze_402.md) | Pub | 1 | – |
-| [ratdom_maze_403](../maps/ratdom_maze_403.md) | Pub | 1 | – |
-| [ratdom_maze_412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
-| [ratdom_maze_413](../maps/ratdom_maze_413.md) | Pub | 1 | – |
-| [ratdom_maze_414](../maps/ratdom_maze_414.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_415](../maps/ratdom_maze_415.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_417](../maps/ratdom_maze_417.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_418](../maps/ratdom_maze_418.md) | Entry | 1 | – |
-| [ratdom_maze_421](../maps/ratdom_maze_421.md) | Pub | 1 | – |
-| [ratdom_maze_422](../maps/ratdom_maze_422.md) | Pub | 1 | – |
-| [ratdom_maze_423](../maps/ratdom_maze_423.md) | Gold hunter | 1 | – |
-| [ratdom_maze_424](../maps/ratdom_maze_424.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_425](../maps/ratdom_maze_425.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_426](../maps/ratdom_maze_426.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_427](../maps/ratdom_maze_427.md) | Entry | 1 | – |
-| [ratdom_maze_428](../maps/ratdom_maze_428.md) | Entry | 1 | – |
-| [ratdom_maze_432](../maps/ratdom_maze_432.md) | Pub | 1 | – |
-| [ratdom_maze_433](../maps/ratdom_maze_433.md) | Pub | 1 | – |
-| [ratdom_maze_434](../maps/ratdom_maze_434.md) | Gold hunter | 1 | – |
-| [ratdom_maze_434b](../maps/ratdom_maze_434b.md) | Gold hunter | 1 | – |
-| [ratdom_maze_435](../maps/ratdom_maze_435.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_436](../maps/ratdom_maze_436.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_438](../maps/ratdom_maze_438.md) | Entry | 1 | – |
-| [ratdom_maze_441](../maps/ratdom_maze_441.md) | Pub | 1 | – |
-| [ratdom_maze_442](../maps/ratdom_maze_442.md) | Pub | 1 | – |
-| [ratdom_maze_443](../maps/ratdom_maze_443.md) | Gold hunter | 1 | – |
-| [ratdom_maze_444](../maps/ratdom_maze_444.md) | Gold hunter | 1 | – |
-| [ratdom_maze_445](../maps/ratdom_maze_445.md) | Instrument maker | 1 | – |
-| [ratdom_maze_446](../maps/ratdom_maze_446.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_447](../maps/ratdom_maze_447.md) | Entry | 1 | – |
-| [ratdom_maze_448](../maps/ratdom_maze_448.md) | Entry | 1 | – |
-| [ratdom_maze_451](../maps/ratdom_maze_451.md) | – | 1 | – |
-| [ratdom_maze_452](../maps/ratdom_maze_452.md) | – | 1 | – |
-| [ratdom_maze_453](../maps/ratdom_maze_453.md) | Gold hunter | 1 | – |
-| [ratdom_maze_454](../maps/ratdom_maze_454.md) | Instrument maker | 1 | – |
-| [ratdom_maze_455](../maps/ratdom_maze_455.md) | Instrument maker | 1 | – |
-| [ratdom_maze_455a](../maps/ratdom_maze_455a.md) | Blackwater Mountain | 1 | – |
-| [ratdom_maze_456](../maps/ratdom_maze_456.md) | Instrument maker | 1 | – |
-| [ratdom_maze_457](../maps/ratdom_maze_457.md) | Entry | 1 | – |
-| [ratdom_maze_458](../maps/ratdom_maze_458.md) | Entry | 1 | – |
-| [ratdom_maze_461](../maps/ratdom_maze_461.md) | – | 1 | – |
-| [ratdom_maze_463](../maps/ratdom_maze_463.md) | Instrument maker | 1 | – |
-| [ratdom_maze_464](../maps/ratdom_maze_464.md) | Instrument maker | 1 | – |
-| [ratdom_maze_466](../maps/ratdom_maze_466.md) | – | 1 | – |
-| [ratdom_maze_467](../maps/ratdom_maze_467.md) | Entry | 1 | – |
-| [ratdom_maze_476](../maps/ratdom_maze_476.md) | – | 1 | – |
-| [ratdom_maze_506](../maps/ratdom_maze_506.md) | Pub | 1 | – |
-| [ratdom_maze_513](../maps/ratdom_maze_513.md) | Pub | 1 | – |
-| [ratdom_maze_514](../maps/ratdom_maze_514.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_515](../maps/ratdom_maze_515.md) | Museum | 1 | – |
-| [ratdom_maze_516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 1 | – |
-| [ratdom_maze_517](../maps/ratdom_maze_517.md) | Entry | 1 | – |
+| [Blackwater mountain 55](../maps/blackwater_mountain55.md) | Blackwater Mountain | 1 | – |
+| [Crossglen cave](../maps/crossglen_cave.md) | Crossglen | 1 | – |
+| [Home](../maps/home.md) | Crossglen | 1 | Appears later, during a quest |
+| [Ratdom maze 1](../maps/ratdom_maze1.md) | Crossglen | 1 | – |
+| [Ratdom maze 2](../maps/ratdom_maze2.md) | Entry | 1 | – |
+| [Ratdom maze 3](../maps/ratdom_maze3.md) | Blackwater Mountain | 1 | – |
+| [Ratdom maze 402](../maps/ratdom_maze_402.md) | Pub | 1 | – |
+| [Ratdom maze 403](../maps/ratdom_maze_403.md) | Pub | 1 | – |
+| [Ratdom maze 412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
+| [Ratdom maze 413](../maps/ratdom_maze_413.md) | Pub | 1 | – |
+| [Ratdom maze 414](../maps/ratdom_maze_414.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 415](../maps/ratdom_maze_415.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 417](../maps/ratdom_maze_417.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 418](../maps/ratdom_maze_418.md) | Entry | 1 | – |
+| [Ratdom maze 421](../maps/ratdom_maze_421.md) | Pub | 1 | – |
+| [Ratdom maze 422](../maps/ratdom_maze_422.md) | Pub | 1 | – |
+| [Ratdom maze 423](../maps/ratdom_maze_423.md) | Gold hunter | 1 | – |
+| [Ratdom maze 424](../maps/ratdom_maze_424.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 425](../maps/ratdom_maze_425.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 426](../maps/ratdom_maze_426.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 427](../maps/ratdom_maze_427.md) | Entry | 1 | – |
+| [Ratdom maze 428](../maps/ratdom_maze_428.md) | Entry | 1 | – |
+| [Ratdom maze 432](../maps/ratdom_maze_432.md) | Pub | 1 | – |
+| [Ratdom maze 433](../maps/ratdom_maze_433.md) | Pub | 1 | – |
+| [Ratdom maze 434](../maps/ratdom_maze_434.md) | Gold hunter | 1 | – |
+| [Ratdom maze 434b](../maps/ratdom_maze_434b.md) | Gold hunter | 1 | – |
+| [Ratdom maze 435](../maps/ratdom_maze_435.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 436](../maps/ratdom_maze_436.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 437](../maps/ratdom_maze_437.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 438](../maps/ratdom_maze_438.md) | Entry | 1 | – |
+| [Ratdom maze 441](../maps/ratdom_maze_441.md) | Pub | 1 | – |
+| [Ratdom maze 442](../maps/ratdom_maze_442.md) | Pub | 1 | – |
+| [Ratdom maze 443](../maps/ratdom_maze_443.md) | Gold hunter | 1 | – |
+| [Ratdom maze 444](../maps/ratdom_maze_444.md) | Gold hunter | 1 | – |
+| [Ratdom maze 445](../maps/ratdom_maze_445.md) | Instrument maker | 1 | – |
+| [Ratdom maze 446](../maps/ratdom_maze_446.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 447](../maps/ratdom_maze_447.md) | Entry | 1 | – |
+| [Ratdom maze 448](../maps/ratdom_maze_448.md) | Entry | 1 | – |
+| [Ratdom maze 451](../maps/ratdom_maze_451.md) | – | 1 | – |
+| [Ratdom maze 452](../maps/ratdom_maze_452.md) | – | 1 | – |
+| [Ratdom maze 453](../maps/ratdom_maze_453.md) | Gold hunter | 1 | – |
+| [Ratdom maze 454](../maps/ratdom_maze_454.md) | Instrument maker | 1 | – |
+| [Ratdom maze 455](../maps/ratdom_maze_455.md) | Instrument maker | 1 | – |
+| [Ratdom maze 455a](../maps/ratdom_maze_455a.md) | Blackwater Mountain | 1 | – |
+| [Ratdom maze 456](../maps/ratdom_maze_456.md) | Instrument maker | 1 | – |
+| [Ratdom maze 457](../maps/ratdom_maze_457.md) | Entry | 1 | – |
+| [Ratdom maze 458](../maps/ratdom_maze_458.md) | Entry | 1 | – |
+| [Ratdom maze 461](../maps/ratdom_maze_461.md) | – | 1 | – |
+| [Ratdom maze 463](../maps/ratdom_maze_463.md) | Instrument maker | 1 | – |
+| [Ratdom maze 464](../maps/ratdom_maze_464.md) | Instrument maker | 1 | – |
+| [Ratdom maze 466](../maps/ratdom_maze_466.md) | – | 1 | – |
+| [Ratdom maze 467](../maps/ratdom_maze_467.md) | Entry | 1 | – |
+| [Ratdom maze 476](../maps/ratdom_maze_476.md) | – | 1 | – |
+| [Ratdom maze 506](../maps/ratdom_maze_506.md) | Pub | 1 | – |
+| [Ratdom maze 513](../maps/ratdom_maze_513.md) | Pub | 1 | – |
+| [Ratdom maze 514](../maps/ratdom_maze_514.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 515](../maps/ratdom_maze_515.md) | Museum | 1 | – |
+| [Ratdom maze 516](../maps/ratdom_maze_516.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 517](../maps/ratdom_maze_517.md) | Entry | 1 | – |
 
 *81 further maps are not listed.*
 
 ### Quests
 
 - [Yellow is it](../quests/ratdom_quest.md): stages 10, 50, 52, 70, 940
-- [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md): stages 13, 21, 22, 23
+- [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md): stages 13, 21, 22, 23
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Clevred. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Clevred. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_rat.json" data-npc="Clevred" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -115,7 +115,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (24 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_rat-ratdom_rat"></span>**`ratdom_rat`** Clevred: “This is my bed - go away!” — **effects:** sets stage 10 of [Yellow is it](../quests/ratdom_quest.md#stage-10)
 
@@ -212,7 +212,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Farewell. And sorry.” → [ratdom_rat_250](#d-ratdom_rat-ratdom_rat_250)
     - “Wait ...” → [ratdom_rat_242](#d-ratdom_rat-ratdom_rat_242)
 
-    <span id="d-ratdom_rat-ratdom_rat_250"></span>**`ratdom_rat_250`** Clevred: “Bye. We will never meet again.” — **effects:** sets stage 940 of [Yellow is it](../quests/ratdom_quest.md#stage-940), clears stage 942 of [Yellow is it](../quests/ratdom_quest.md#stage-942), clears stage 1 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-1), clears stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10), sets stage 13 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-13), sets stage 21 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-21), sets stage 22 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-22), sets stage 23 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-23), removes monsters from home, removes monsters from ratdom_bwm1, removes monsters from ratdom_maze_448, removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_627, removes monsters from crossglen, removes monsters from crossglen, removes monsters from crossglen, changes map crossglen
+    <span id="d-ratdom_rat-ratdom_rat_250"></span>**`ratdom_rat_250`** Clevred: “Bye. We will never meet again.” — **effects:** sets stage 940 of [Yellow is it](../quests/ratdom_quest.md#stage-940), clears stage 942 of [Yellow is it](../quests/ratdom_quest.md#stage-942), clears stage 1 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-1), clears stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10), sets stage 13 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-13), sets stage 21 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-21), sets stage 22 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-22), sets stage 23 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-23), removes monsters from home, removes monsters from ratdom_bwm1, removes monsters from ratdom_maze_448, removes monsters from ratdom_maze_627, removes monsters from ratdom_maze_627, removes monsters from crossglen, removes monsters from crossglen, removes monsters from crossglen, changes map crossglen
 
     - “Bye.” → *conversation ends*
 
@@ -260,11 +260,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Ratdom bwm1 (ratdom_rat_bwm1) { #v-ratdom_rat_bwm1 }
+## Blackwater Mountain, Ratdom bwm 1 (ratdom_rat_bwm1) { #v-ratdom_rat_bwm1 }
 
 **Entry ID:** `ratdom_rat_bwm1` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [ratdom_bwm1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1)
+**Location:** Blackwater Mountain: [Ratdom bwm 1](../maps/ratdom_bwm1.md#pin-npc-ratdom_rat_bwm1)
 
 ### Quests
 
@@ -272,7 +272,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Clevred. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Clevred. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_rat_bwm1.json" data-npc="Clevred" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -280,11 +280,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_rat_bwm1-ratdom_rat_bwm1"></span>**`ratdom_rat_bwm1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 10 of [ratdom_nondisplay (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_bwm1_10](#d-ratdom_rat_bwm1-ratdom_rat_bwm1_10)
+    - branch 1 *(if reached stage 10 of [Ratdom story flags (hidden flag)](../quests/ratdom_nondisplay.md#stage-10))* → [ratdom_rat_bwm1_10](#d-ratdom_rat_bwm1-ratdom_rat_bwm1_10)
     - branch 2 → [ratdom_rat_bwm1_20](#d-ratdom_rat_bwm1-ratdom_rat_bwm1_20)
 
     <span id="d-ratdom_rat_bwm1-ratdom_rat_bwm1_10"></span>**`ratdom_rat_bwm1_10`** Clevred: “Your brother was here often. He had made himself rather comfortable.” — **effects:** sets stage 130 of [Yellow is it](../quests/ratdom_quest.md#stage-130)
@@ -334,11 +334,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `ratdom_rat_crossglen` · **Type:** NPC
 
-**Location:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen)
+**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-ratdom_rat_crossglen)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Clevred. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Clevred. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_rat_crossglen.json" data-npc="Clevred" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -346,7 +346,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_rat_crossglen-ratdom_rat_crossglen"></span>**`ratdom_rat_crossglen`** [Clevred](../monsters/ratdom_rat.md#v-ratdom_rat_crossglen): “A beautiful view.” — **effects:** starts timer “ratdom_rat_crossglen”
 

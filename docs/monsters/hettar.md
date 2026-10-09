@@ -4,7 +4,7 @@ description: "Little Hettar is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_ld1_20.png){ .sprite } Little Hettar
 
-**Where to find Little Hettar:** Blackwater Mountain: [blackwater_mountain55](../maps/blackwater_mountain55.md#pin-npc-hettar)
+**Where to find Little Hettar:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Little Hettar is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Little Hettar. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Little Hettar. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hettar.json" data-npc="Little Hettar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (17 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-hettar"></span>**`hettar`** *(silent check: the first matching branch below is taken)*
 
@@ -60,7 +60,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-hettar_30"></span>**`hettar_30`** Little Hettar: “I can read it in your face - there is no hope for Norry.”
 
     - “This brute attacked me, so I had to kill it.” *(if killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_10_6](#d-hettar_10_6)
-    - “This brute growled at me, but I got away and let it live.” *(if reached stage 1 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1); NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_20](#d-hettar_20)
+    - “This brute growled at me, but I got away and let it live.” *(if reached stage 1 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-1); NOT killed 1× [Wolfhound](../monsters/hettar_dog.md#v-hettar_dog3))* → [hettar_20](#d-hettar_20)
     - “I am still searching.” → *conversation ends*
 
     <span id="d-hettar_20"></span>**`hettar_20`** Little Hettar: “Please go down there and look for my doggie. Maybe he is injured? Bring him back! You must!”
@@ -72,7 +72,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-hettar_10"></span>**`hettar_10`** Little Hettar: “Please help to find Norry. He is my only friend, and he is helpless without me.”
 
     - “How can I help you?” → [hettar_20](#d-hettar_20)
-    - “The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge…” *(if reached stage 1 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1))* → [hettar_10_4](#d-hettar_10_4)
+    - “The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge…” *(if reached stage 1 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-1))* → [hettar_10_4](#d-hettar_10_4)
 
     <span id="d-hettar_1"></span>**`hettar_1`** Little Hettar: “Norry! Nooorryyyy!”
 
@@ -108,7 +108,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Oh dear.” → [hettar_10](#d-hettar_10)
     - “A dog! He will be back soon... I better go now.” → *conversation ends*
-    - “I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.” *(if reached stage 1 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-1))* → [hettar_10](#d-hettar_10)
+    - “I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.” *(if reached stage 1 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-1))* → [hettar_10](#d-hettar_10)
 
     <span id="d-hettar_20_30"></span>**`hettar_20_30`** Little Hettar: “Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.” — **effects:** sets stage 30 of [Where is Norry?](../quests/hettar_dog.md#stage-30), gives 1× [Wyrm meat](../items/hettar_bone.md)
 

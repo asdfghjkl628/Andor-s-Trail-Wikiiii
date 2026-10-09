@@ -4,7 +4,7 @@ description: "ViridToxin dartmaw is an enemy in Andor's Trail (reptile) with 93 
 
 # ![](../assets/icons/monsters/monsters_newb_1_365.png){ .sprite } ViridToxin dartmaw
 
-**Found in:** Flagstone Prison: [lake_shore_road7a](../maps/lake_shore_road7a.md), Flagstone Prison: [lake_shore_road_7](../maps/lake_shore_road_7.md), Flagstone Prison: [lake_shore_road_8](../maps/lake_shore_road_8.md), [lake_shore_road_8a](../maps/lake_shore_road_8a.md) (+2 more)
+**Found in:** Flagstone Prison: [Lake shore road 7a](../maps/lake_shore_road7a.md), Flagstone Prison: [Lake shore road 7](../maps/lake_shore_road_7.md), Flagstone Prison: [Lake shore road 8](../maps/lake_shore_road_8.md), [Lake shore road 8a](../maps/lake_shore_road_8a.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -58,12 +58,12 @@ description: "ViridToxin dartmaw is an enemy in Andor's Trail (reptile) with 93 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lake_shore_road7a](../maps/lake_shore_road7a.md) | Flagstone Prison | 6 | – |
-| [lake_shore_road_7](../maps/lake_shore_road_7.md) | Flagstone Prison | 6 | – |
-| [lake_shore_road_8](../maps/lake_shore_road_8.md) | Flagstone Prison | 3 | – |
-| [lake_shore_road_8a](../maps/lake_shore_road_8a.md) | – | 3 | – |
-| [lake_shore_road_9](../maps/lake_shore_road_9.md) | – | 4 | – |
-| [way_to_sullengard_west_0](../maps/way_to_sullengard_west_0.md) | – | 2 | – |
+| [Lake shore road 7a](../maps/lake_shore_road7a.md) | Flagstone Prison | 6 | – |
+| [Lake shore road 7](../maps/lake_shore_road_7.md) | Flagstone Prison | 6 | – |
+| [Lake shore road 8](../maps/lake_shore_road_8.md) | Flagstone Prison | 3 | – |
+| [Lake shore road 8a](../maps/lake_shore_road_8a.md) | – | 3 | – |
+| [Lake shore road 9](../maps/lake_shore_road_9.md) | – | 4 | – |
+| [Way to sullengard west 0](../maps/way_to_sullengard_west_0.md) | – | 2 | – |
 
 
 ## Version history

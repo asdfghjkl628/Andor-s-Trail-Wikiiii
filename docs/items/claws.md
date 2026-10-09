@@ -26,16 +26,16 @@ description: "Claws is a ordinary animal part in Andor's Trail. How to get it: m
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan3) | 100% | 1-2 | mushroom_m2_6 |
-| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 5-8 | swamp_hut |
+| [Zuul'khan](../monsters/zuul_khan.md#v-zuul_khan3) | 100% | 1-2 | Mushroom m 2 6 |
+| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 5-8 | Swamp hut |
 | [Duleian mountain cat](../monsters/duleian_mountain_cat.md) | 40% | 2-5 | Burial cave |
 | [Duleian panther](../monsters/brightport_cat2.md) | 40% | 2-5 | Buried citadel, Burial cave |
-| [Aggressive bear](../monsters/cave_bear.md) | 35% | 1-2 | korhald_cave_bear |
-| [Contaminated woodworm](../monsters/elm_woodworm.md) | 33.3333% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
-| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 33.3333% | 1 | elm_2f_1, elm_3f, elm_4f_1 |
+| [Aggressive bear](../monsters/cave_bear.md) | 35% | 1-2 | Korhald cave bear |
+| [Contaminated woodworm](../monsters/elm_woodworm.md) | 33.3333% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Aggresive woodworm](../monsters/elm_woodworm2.md) | 33.3333% | 1 | Elm 2f 1, Elm 3f, Elm 4f 1 |
 | [Basilisk](../monsters/basilisk.md) | 30% | 1 | Flagstone Prison, Foaming Flask Tavern, Blackwater Mountain |
-| [Young teeth critter](../monsters/young_teeth_critter.md) | 30% | 1 | jan_pitcave2 |
-| [Teeth critter](../monsters/teeth_critter.md) | 30% | 1 | jan_pitcave2 |
+| [Young teeth critter](../monsters/young_teeth_critter.md) | 30% | 1 | Jan pitcave 2 |
+| [Teeth critter](../monsters/teeth_critter.md) | 30% | 1 | Jan pitcave 2 |
 | [Trained mountain wolf](../monsters/mountain_wolf_2.md) | 15% | 1 | Blackwater Mountain |
 
 ### Sold by
@@ -51,9 +51,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (1×) | “I have those things on me, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (1×) | “I have those things on me, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (5×) | “I have enough of those things on me for five potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-43) | handed over (10×) | “I have enough of those things on me for ten potions, here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

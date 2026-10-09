@@ -1,10 +1,10 @@
 ---
-description: "Dizzy foggerlump is an enemy in Andor's Trail (demon) with 220 HP, worth 540 XP, found in swamp5. Drops: Fog in a bottle."
+description: "Dizzy foggerlump is an enemy in Andor's Trail (demon) with 220 HP, worth 540 XP, found in Swamp 5. Drops: Fog in a bottle."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_26.png){ .sprite } Dizzy foggerlump
 
-**Found in:** [swamp5](../maps/swamp5.md)
+**Found in:** [Swamp 5](../maps/swamp5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Dizzy foggerlump is an enemy in Andor's Trail (demon) with 220 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | swamp5 |
+| **Found in** | Swamp 5 |
 | **Class** | Demon |
 | **HP** | 220 |
 | **XP when defeated** | 540 |
@@ -60,7 +60,7 @@ description: "Dizzy foggerlump is an enemy in Andor's Trail (demon) with 220 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [swamp5](../maps/swamp5.md) | – | 2 | – |
+| [Swamp 5](../maps/swamp5.md) | – | 2 | – |
 
 
 ## Version history

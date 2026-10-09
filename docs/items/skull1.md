@@ -26,14 +26,14 @@ description: "Human skull is a ordinary animal part in Andor's Trail. How to get
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 42.5% | 1-3 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 42.5% | 1-3 | elm5f_1, elm5f_2 |
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 16.6667% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 16.6667% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 42.5% | 1-3 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 42.5% | 1-3 | Elm 5f 1, Elm 5f 2 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 16.6667% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 16.6667% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
 
 ### Found in containers
 
-- [ll2_cyclops_cave](../maps/ll2_cyclops_cave.md#container-1) (container 2, 100%)
+- [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#container-1) (container 2, 100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

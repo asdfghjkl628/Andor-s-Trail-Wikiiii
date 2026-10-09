@@ -1,5 +1,5 @@
 ---
-description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found in aidem_base_2, aidem_camp, aidem_base_2, Fallhaven, Sullengard."
+description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found in Aidem base 2, Aidem camp, Aidem base 2, Fallhaven, Sullengard."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Zachlanny
@@ -11,7 +11,7 @@ description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | aidem_base_2, aidem_camp, aidem_base_2, Fallhaven, Sullengard |
+| **Found in** | Aidem base 2, Aidem camp, Aidem base 2, Fallhaven, Sullengard |
 | **Class** | Humanoid |
 | **HP** | 329 |
 | **XP when defeated** | 707 |
@@ -21,31 +21,31 @@ description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Zachlanny. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Zachlanny. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`aidem_camp_zachlanny`](#v-aidem_camp_zachlanny) | NPC | [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny) | – | – |
-| [`aidem_base_zachlanny_aggressive`](#v-aidem_base_zachlanny_aggressive) | Enemy | [aidem_base_2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_zachlanny`](#v-aidem_jail_zachlanny) | Enemy | Fallhaven: [guildbrig2](../maps/guildbrig2.md) | – | 1 |
-| [`guild04_rebcomrade_3`](#v-guild04_rebcomrade_3) | NPC | Sullengard: [sullengard_tavern_basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3) | – | – |
+| [`aidem_camp_zachlanny`](#v-aidem_camp_zachlanny) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny) | – | – |
+| [`aidem_base_zachlanny_aggressive`](#v-aidem_base_zachlanny_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
+| [`aidem_jail_zachlanny`](#v-aidem_jail_zachlanny) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`guild04_rebcomrade_3`](#v-guild04_rebcomrade_3) | NPC | Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3) | – | – |
 
 ## Aidem base 2 and 1 more (aidem_camp_zachlanny) { #v-aidem_camp_zachlanny }
 
 **Entry ID:** `aidem_camp_zachlanny` · **Type:** NPC
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [aidem_camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
-| [aidem_camp](../maps/aidem_camp.md) | – | 1 | Appears later, during a quest |
+| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+| [Aidem camp](../maps/aidem_camp.md) | – | 1 | Appears later, during a quest |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zachlanny. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zachlanny. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_camp_zachlanny_10.json" data-npc="Zachlanny" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aidem_camp_zachlanny-aidem_camp_zachlanny_10"></span>**`aidem_camp_zachlanny_10`** Zachlanny: “Are you lost, kid?”
 
@@ -104,7 +104,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `aidem_base_zachlanny_aggressive` · **Type:** Enemy
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md)
 
 ### Combat statistics
 
@@ -139,11 +139,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
+- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [Aidem base 2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -195,11 +195,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Guildbrig2 (aidem_jail_zachlanny) { #v-aidem_jail_zachlanny }
+## Fallhaven, Guildbrig 2 (aidem_jail_zachlanny) { #v-aidem_jail_zachlanny }
 
 **Entry ID:** `aidem_jail_zachlanny` · **Type:** Enemy
 
-**Location:** Fallhaven: [guildbrig2](../maps/guildbrig2.md)
+**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
 ### Combat statistics
 
@@ -227,7 +227,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guildbrig2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
 
 
 ### Version history
@@ -268,11 +268,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `guild04_rebcomrade_3` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard_tavern_basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3)
+**Location:** Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zachlanny. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zachlanny. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/smuggler6_1.json" data-npc="Zachlanny" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -280,7 +280,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guild04_rebcomrade_3-smuggler6_1"></span>**`smuggler6_1`** Zachlanny: “Can you spare some gold?”
 

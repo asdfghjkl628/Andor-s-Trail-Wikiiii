@@ -1,8 +1,8 @@
 ---
-description: "Waterway0 is an outdoor location in Andor's Trail. Enemies: Poisonous river frog, Young izthiel, Izthiel. Exits to Waterway1, Fields12."
+description: "Waterway 0 is an outdoor location in Andor's Trail. Enemies: Poisonous river frog, Young izthiel, Izthiel. Exits to Waterway 1, Fields 12."
 ---
 
-# Waterway0
+# Waterway 0
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Waterway0 is an outdoor location in Andor's Trail. Enemies: Poison
 | **Map ID** | `waterway0` |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Waterway0** is an outdoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Waterway1, Fields12.
+**Waterway 0** is an outdoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Waterway 1, Fields 12.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterway0.webp" alt="Map of Waterway0" width="960" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waterway1/#place-south" title="Exit to Waterway1" style="left:96.667%;top:16.667%;width:3.333%;height:13.333%"></a><a id="place-west" class="mo mo-mapchange" href="../fields12/#place-east" title="Exit to Fields12" style="left:0.000%;top:73.333%;width:3.333%;height:26.667%"></a><span class="mo mo-spawn" title="Spawns: Poisonous river frog" style="left:6.667%;top:63.333%;width:30.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:30.000%;top:60.000%;width:16.667%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:46.667%;top:66.667%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:76.667%;top:56.667%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Izthiel" style="left:76.667%;top:43.333%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:76.667%;top:16.667%;width:16.667%;height:23.333%"></span><a class="mob" href="../../monsters/frog_3/" title="Poisonous river frog" style="left:16.667%;top:70.000%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_130.png" alt="Poisonous river frog"></a><a class="mob" href="../../monsters/frog_3/" title="Poisonous river frog" style="left:30.000%;top:93.333%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_130.png" alt="Poisonous river frog"></a><a class="mob" href="../../monsters/frog_3/" title="Poisonous river frog" style="left:10.000%;top:90.000%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_130.png" alt="Poisonous river frog"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:33.333%;top:66.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:46.667%;top:66.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:76.667%;top:56.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="mob" href="../../monsters/izthiel_2/" title="Izthiel" style="left:76.667%;top:43.333%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_49.png" alt="Izthiel"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:83.333%;top:26.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:23.333%" title="Exit (east): to [Waterway1](waterway1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:86.667%" title="Exit (west): to [Fields12](fields12.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterway0.webp" alt="Map of Waterway 0" width="960" height="960" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../waterway1/#place-south" title="Exit to Waterway 1" style="left:96.667%;top:16.667%;width:3.333%;height:13.333%"></a><a id="place-west" class="mo mo-mapchange" href="../fields12/#place-east" title="Exit to Fields 12" style="left:0.000%;top:73.333%;width:3.333%;height:26.667%"></a><span class="mo mo-spawn" title="Spawns: Poisonous river frog" style="left:6.667%;top:63.333%;width:30.000%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:30.000%;top:60.000%;width:16.667%;height:16.667%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:46.667%;top:66.667%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:76.667%;top:56.667%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Izthiel" style="left:76.667%;top:43.333%;width:3.333%;height:3.333%"></span><span class="mo mo-spawn" title="Spawns: Young izthiel" style="left:76.667%;top:16.667%;width:16.667%;height:23.333%"></span><a class="mob" href="../../monsters/frog_3/" title="Poisonous river frog" style="left:16.667%;top:70.000%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_130.png" alt="Poisonous river frog"></a><a class="mob" href="../../monsters/frog_3/" title="Poisonous river frog" style="left:30.000%;top:93.333%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_130.png" alt="Poisonous river frog"></a><a class="mob" href="../../monsters/frog_3/" title="Poisonous river frog" style="left:10.000%;top:90.000%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles1_130.png" alt="Poisonous river frog"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:33.333%;top:66.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:46.667%;top:66.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:76.667%;top:56.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="mob" href="../../monsters/izthiel_2/" title="Izthiel" style="left:76.667%;top:43.333%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_49.png" alt="Izthiel"></a><a class="mob" href="../../monsters/izthiel_1/" title="Young izthiel" style="left:83.333%;top:26.667%;width:3.333%;height:3.333%"><img src="../../assets/icons/monsters/monsters_rltiles2_51.png" alt="Young izthiel"></a><a class="pin pin-exit" href="#key-1" style="left:98.333%;top:23.333%" title="Exit (east): to [Waterway 1](waterway1.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:1.667%;top:86.667%" title="Exit (west): to [Fields 12](fields12.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Waterway1](waterway1.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Fields12](fields12.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Waterway 1](waterway1.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Fields 12](fields12.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Waterway0 is an outdoor location in Andor's Trail. Enemies: Poison
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Waterway1](waterway1.md) | – | 1 |
-| West | [Fields12](fields12.md) | – | 2 |
+| East | [Waterway 1](waterway1.md) | – | 1 |
+| West | [Fields 12](fields12.md) | – | 2 |
 
 ## Enemies
 

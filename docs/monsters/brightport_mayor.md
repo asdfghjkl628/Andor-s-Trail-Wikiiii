@@ -4,7 +4,7 @@ description: "Rubiano is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_77.png){ .sprite } Rubiano
 
-**Where to find Rubiano:** Brightport: [brightport_bakery3](../maps/brightport_bakery3.md#pin-npc-brightport_mayor)
+**Where to find Rubiano:** Brightport: [Brightport bakery 3](../maps/brightport_bakery3.md#pin-npc-brightport_mayor)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Rubiano is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rubiano. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rubiano. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_mayor.json" data-npc="Rubiano" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,14 +29,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_mayor"></span>**`brightport_mayor`** Rubiano: “I'm Rubiano, the Doughe of Brightport, speak up.”
 
-    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
+    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Main quest endings (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
     - “What's the history of the town?” → [brightport_mayor5](#d-brightport_mayor5)
     - “What's a doughe?” → [brightport_mayor1](#d-brightport_mayor1)
-    - “Can you give Freya permission to sell me better equipment?” *(if reached stage 236 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-236))* → [brightport_mayor8](#d-brightport_mayor8)
+    - “Can you give Freya permission to sell me better equipment?” *(if reached stage 236 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-236))* → [brightport_mayor8](#d-brightport_mayor8)
 
     <span id="d-brightport_mayor0"></span>**`brightport_mayor0`** Rubiano: “Your brother, you say? Let's see... [Rubiano pulls out a small folder from his desk and starts browsing through it, muttering to himself.] Andor, Andor...”
 
@@ -64,7 +64,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_mayor2"></span>**`brightport_mayor2`** Rubiano: “Haha, think nothing of it! We're Brightporters, like any other. So, what brings you here?”
 
-    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Excluded endings for the main quest andor (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
+    - “Have you seen my brother Andor?” *(if NOT reached stage 900 of [Main quest endings (hidden flag)](../quests/andor_ending.md#stage-900))* → [brightport_mayor0](#d-brightport_mayor0)
     - “What's the history of the town?” → [brightport_mayor5](#d-brightport_mayor5)
 
     <span id="d-brightport_mayor9"></span>**`brightport_mayor9`** Rubiano: “That would be a no.”
@@ -95,7 +95,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 13 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.”<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…”<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

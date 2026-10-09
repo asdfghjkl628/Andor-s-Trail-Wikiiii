@@ -12,7 +12,7 @@ description: "Galmore 45 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Region** | Near Mt. Galmore (other) |
 | **Type** | Outdoors |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 | **NPCs** | 3 |
 | **Enemy types** | 6 |
@@ -80,7 +80,7 @@ description: "Galmore 45 is an outdoor location in Andor's Trail, near Mt. Galmo
 - [Darkness in the Daylight](../quests/darkness_in_daylight.md): [Miri](../monsters/dds_miri.md) is involved; [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) is involved; something on this map advances it
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
 - [Shadows](../quests/shadows.md): [Borvis](../monsters/dds_borvis.md) is involved; [Mourning woman](../monsters/chapelgoer.md#v-dds_mourning_woman) is involved; something on this map advances it
-- [Darkness in the Daylight and Shadows - Non displayed (hidden flag)](../quests/dds_nd.md): [Borvis](../monsters/dds_borvis.md) is involved; [Miri](../monsters/dds_miri.md) is involved; blocked passage closes at stage 3; part of the map changes at stage 3
+- [Darkness in the Daylight and Shadows story flags (hidden flag)](../quests/dds_nd.md): [Borvis](../monsters/dds_borvis.md) is involved; [Miri](../monsters/dds_miri.md) is involved; blocked passage closes at stage 3; part of the map changes at stage 3
 
 ## Points of interest
 

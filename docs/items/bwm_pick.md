@@ -54,23 +54,23 @@ description: "Blackwater rusted pickaxe is a ordinary pole weapon in Andor's Tra
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | 20% | 1 | elm5f_2, elm_2f_1, elm_3f |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 20% | 1 | elm5f_2, elm_2f_1, elm_3f |
-| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 3.33333% | 1 | elm5f_1, elm5f_2, elm_4f_2 |
-| [Foul miner's skeleton](../monsters/elm_miner2.md) | 3.33333% | 1 | elm5f_1, elm5f_2, elm_4f_2 |
-| [Kazarite golem](../monsters/elm_golem1.md) | 1% | 0-1 | elm5f_1, elm5f_2, elm_3f |
-| [Dried kazarite golem](../monsters/elm_golem2.md) | 1% | 0-1 | elm5f_1, elm5f_2, elm_3f |
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 0.8% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | 0.8% | 1 | elm5f_1, elm5f_2, elm_4f_1 |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | 20% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | 20% | 1 | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Resurrected miner's skeleton](../monsters/elm_miner1.md) | 3.33333% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
+| [Foul miner's skeleton](../monsters/elm_miner2.md) | 3.33333% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 2 |
+| [Kazarite golem](../monsters/elm_golem1.md) | 1% | 0-1 | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [Dried kazarite golem](../monsters/elm_golem2.md) | 1% | 0-1 | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | 0.8% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | 0.8% | 1 | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
 
 ### Found in containers
 
-- [blackwater_mountain74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
-- [elm_2f_2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
-- [elm_4f_2](../maps/elm_4f_2.md#container-0) (container 1, 1%)
-- [elm_mine2](../maps/elm_mine2.md#container-0) (container 1, 100%)
-- [elm_mine5](../maps/elm_mine5.md#container-0) (container 1, 66.6667%)
-- [galmore_58_house3](../maps/galmore_58_house3.md#container-0) (container 1, 100%), Mt. Galmore
+- [Blackwater mountain 74](../maps/blackwater_mountain74.md#container-0) (container 1, 100%)
+- [Elm 2f 2](../maps/elm_2f_2.md#container-1) (container 2, 100%)
+- [Elm 4f 2](../maps/elm_4f_2.md#container-0) (container 1, 1%)
+- [Elm mine 2](../maps/elm_mine2.md#container-0) (container 1, 100%)
+- [Elm mine 5](../maps/elm_mine5.md#container-0) (container 1, 66.6667%)
+- [Galmore 58 house 3](../maps/galmore_58_house3.md#container-0) (container 1, 100%), Mt. Galmore
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -81,10 +81,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) | – | must be carried (1×) | “Take the ore.” |
-| walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) | – | handed over (1×) | “(automatic)” |
-| walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) | – | must be carried (1×) | “Try again with another pick.” |
-| walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) | – | must be carried (1×) | “Try again.” |
+| walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) | – | must be carried (1×) | “Take the ore.” |
+| walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) | – | handed over (1×) | “(automatic)” |
+| walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) | – | must be carried (1×) | “Try again with another pick.” |
+| walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) | – | must be carried (1×) | “Try again.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

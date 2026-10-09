@@ -1,10 +1,10 @@
 ---
-description: "Strong venomscale is an enemy in Andor's Trail (reptile) with 63 HP, worth 333 XP, found in lodar18, lodar19, lodar21. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
+description: "Strong venomscale is an enemy in Andor's Trail (reptile) with 63 HP, worth 333 XP, found in Lodar 18, Lodar 19, Lodar 21. Drops: Gold coins, Meat, Poison gland, Venomscale scales."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_32.png){ .sprite } Strong venomscale
 
-**Found in:** [lodar18](../maps/lodar18.md), [lodar19](../maps/lodar19.md), [lodar21](../maps/lodar21.md)
+**Found in:** [Lodar 18](../maps/lodar18.md), [Lodar 19](../maps/lodar19.md), [Lodar 21](../maps/lodar21.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Strong venomscale is an enemy in Andor's Trail (reptile) with 63 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar18, lodar19, lodar21 |
+| **Found in** | Lodar 18, Lodar 19, Lodar 21 |
 | **Class** | Reptile |
 | **HP** | 63 |
 | **XP when defeated** | 333 |
@@ -59,9 +59,9 @@ description: "Strong venomscale is an enemy in Andor's Trail (reptile) with 63 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar18](../maps/lodar18.md) | – | 6 | – |
-| [lodar19](../maps/lodar19.md) | – | 4 | – |
-| [lodar21](../maps/lodar21.md) | – | 1 | – |
+| [Lodar 18](../maps/lodar18.md) | – | 6 | – |
+| [Lodar 19](../maps/lodar19.md) | – | 4 | – |
+| [Lodar 21](../maps/lodar21.md) | – | 1 | – |
 
 
 ## Version history

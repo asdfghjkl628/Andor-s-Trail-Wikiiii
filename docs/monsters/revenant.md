@@ -1,10 +1,10 @@
 ---
-description: "Revenant is an enemy in Andor's Trail (undead) with 115 HP, worth 279 XP, found in waterwayacave2, waterwayacave3, waterwayacave4. Drops: Gold coins, Curved dagger, Rotten meat, Whip of binding."
+description: "Revenant is an enemy in Andor's Trail (undead) with 115 HP, worth 279 XP, found in Waterwayacave 2, Waterwayacave 3, Waterwayacave 4. Drops: Gold coins, Curved dagger, Rotten meat, Whip of binding."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_37.png){ .sprite } Revenant
 
-**Found in:** [waterwayacave2](../maps/waterwayacave2.md), [waterwayacave3](../maps/waterwayacave3.md), [waterwayacave4](../maps/waterwayacave4.md)
+**Found in:** [Waterwayacave 2](../maps/waterwayacave2.md), [Waterwayacave 3](../maps/waterwayacave3.md), [Waterwayacave 4](../maps/waterwayacave4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Revenant is an enemy in Andor's Trail (undead) with 115 HP, worth 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterwayacave2, waterwayacave3, waterwayacave4 |
+| **Found in** | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
 | **Class** | Undead |
 | **HP** | 115 |
 | **XP when defeated** | 279 |
@@ -59,9 +59,9 @@ description: "Revenant is an enemy in Andor's Trail (undead) with 115 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwayacave2](../maps/waterwayacave2.md) | – | 4 | – |
-| [waterwayacave3](../maps/waterwayacave3.md) | – | 9 | – |
-| [waterwayacave4](../maps/waterwayacave4.md) | – | 15 | – |
+| [Waterwayacave 2](../maps/waterwayacave2.md) | – | 4 | – |
+| [Waterwayacave 3](../maps/waterwayacave3.md) | – | 9 | – |
+| [Waterwayacave 4](../maps/waterwayacave4.md) | – | 15 | – |
 
 
 ## Version history

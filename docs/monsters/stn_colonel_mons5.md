@@ -4,7 +4,7 @@ description: "Bully is an enemy in Andor's Trail (humanoid) with 100 HP, worth 2
 
 # ![](../assets/icons/monsters/monsters_ld2_119.png){ .sprite } Bully
 
-**Found in:** Flagstone Prison: [waytogalmore0](../maps/waytogalmore0.md)
+**Found in:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
 
 <div class="infobox" markdown>
 
@@ -48,11 +48,11 @@ description: "Bully is an enemy in Andor's Trail (humanoid) with 100 HP, worth 2
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytogalmore0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
 
 ## Quests that count defeats
 
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-152) with stepping on a trigger on [waytogalmore0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-152) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
 
 
 ## Version history

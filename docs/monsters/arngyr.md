@@ -4,7 +4,7 @@ description: "Arngyr is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_rltiles1_65.png){ .sprite } Arngyr
 
-**Where to find Arngyr:** Loneford: [loneford10](../maps/loneford10.md#pin-npc-arngyr)
+**Where to find Arngyr:** Loneford: [Loneford 10](../maps/loneford10.md#pin-npc-arngyr)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Arngyr is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 19
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 19
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Arngyr. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Arngyr. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/arngyr.json" data-npc="Arngyr" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,11 +33,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-arngyr"></span>**`arngyr`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if reached stage 19 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-19))* → [arngyr_back_1](#d-arngyr_back_1)
+    - branch 1 *(if reached stage 19 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-19))* → [arngyr_back_1](#d-arngyr_back_1)
     - branch 2 → [arngyr_1](#d-arngyr_1)
 
     <span id="d-arngyr_back_1"></span>**`arngyr_back_1`** Arngyr: “Hello again. I hope the bed is comfortable enough.”
@@ -52,7 +52,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if reached stage 55 of [Flows through the veins](../quests/loneford.md#stage-55))* → [arngyr_3](#d-arngyr_3)
     - branch 2 → [arngyr_4](#d-arngyr_4)
 
-    <span id="d-arngyr_3"></span>**`arngyr_3`** Arngyr: “Oh no, not at all. Go ahead. After all you have done for us here in Loneford, it would be a privilege to be able to give something back to you.” — **effects:** sets stage 19 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-19)
+    <span id="d-arngyr_3"></span>**`arngyr_3`** Arngyr: “Oh no, not at all. Go ahead. After all you have done for us here in Loneford, it would be a privilege to be able to give something back to you.” — **effects:** sets stage 19 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-19)
 
     - Next → [arngyr_6](#d-arngyr_6)
 
@@ -65,7 +65,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Thanks.” → *conversation ends*
 
-    <span id="d-arngyr_5"></span>**`arngyr_5`** Arngyr: “Thank you.” — **effects:** sets stage 19 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-19)
+    <span id="d-arngyr_5"></span>**`arngyr_5`** Arngyr: “Thank you.” — **effects:** sets stage 19 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-19)
 
     - Next → [arngyr_6](#d-arngyr_6)
 

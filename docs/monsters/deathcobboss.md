@@ -1,10 +1,10 @@
 ---
-description: "Ancient death cob is an enemy in Andor's Trail (undead) with 210 HP, worth 567 XP, found in sullengard10. Drops: Gold coins, Jinxed ring of damage resistance."
+description: "Ancient death cob is an enemy in Andor's Trail (undead) with 210 HP, worth 567 XP, found in Sullengard 10. Drops: Gold coins, Jinxed ring of damage resistance."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_35.png){ .sprite } Ancient death cob
 
-**Found in:** [sullengard10](../maps/sullengard10.md)
+**Found in:** [Sullengard 10](../maps/sullengard10.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Ancient death cob is an enemy in Andor's Trail (undead) with 210 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard10 |
+| **Found in** | Sullengard 10 |
 | **Class** | Undead |
 | **HP** | 210 |
 | **XP when defeated** | 567 |
@@ -55,7 +55,7 @@ description: "Ancient death cob is an enemy in Andor's Trail (undead) with 210 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard10](../maps/sullengard10.md) | – | 1 | – |
+| [Sullengard 10](../maps/sullengard10.md) | – | 1 | – |
 
 
 ## Version history

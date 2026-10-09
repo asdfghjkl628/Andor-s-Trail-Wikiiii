@@ -27,7 +27,7 @@ description: "Diamond Ring is a extraordinary ring in Andor's Trail. How to get 
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Queen lava entity](../monsters/lava_queen_entity.md) | 100% | 1 | way_to_sullengard_east5_filler |
+| [Queen lava entity](../monsters/lava_queen_entity.md) | 100% | 1 | Way to sullengard east 5 filler |
 
 ### Sold by
 

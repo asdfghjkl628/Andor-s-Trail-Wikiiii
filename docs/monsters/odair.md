@@ -4,7 +4,7 @@ description: "Odair is a non-player character (NPC) in Andor's Trail, found in C
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Odair
 
-**Where to find Odair:** Crossglen: [crossglen](../maps/crossglen.md#pin-npc-odair)
+**Where to find Odair:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-odair)
 
 <div class="infobox" markdown>
 
@@ -26,7 +26,7 @@ description: "Odair is a non-player character (NPC) in Andor's Trail, found in C
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Odair. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Odair. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/odair1.json" data-npc="Odair" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,7 +34,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (10 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-odair1"></span>**`odair1`** Odair: “Oh, it's you. You with that brother of yours. Always causing trouble.”
 

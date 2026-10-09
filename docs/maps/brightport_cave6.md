@@ -1,8 +1,8 @@
 ---
-description: "Brightport cave6 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Darkness beast. Exits to Brightport cave5."
+description: "Brightport cave 6 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Darkness beast. Exits to Brightport cave 5."
 ---
 
-# Brightport cave6
+# Brightport cave 6
 
 <div class="infobox" markdown>
 
@@ -19,19 +19,19 @@ description: "Brightport cave6 is an indoor location in Andor's Trail, in Buried
 
 </div>
 
-**Brightport cave6** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave5.
+**Brightport cave 6** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave 5.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave6.webp" alt="Map of Brightport cave6" width="224" height="320" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_cave5/#place-west" title="Exit to Brightport cave5" style="left:85.714%;top:60.000%;width:14.286%;height:10.000%"></a><span id="place-room" class="mo mo-mapchange" title="Room" style="left:42.857%;top:80.000%;width:14.286%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Darkness beast" style="left:28.571%;top:40.000%;width:42.857%;height:40.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:42.857%;top:30.000%;width:14.286%;height:10.000%"></a><a class="mo mo-replace" href="../../quests/brightport_nondisplay/#stage-124" title="This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 124: “crystal 2 shattered”)" style="left:28.571%;top:10.000%;width:42.857%;height:40.000%"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:42.857%;top:40.000%;width:14.286%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:42.857%;top:60.000%;width:14.286%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:42.857%;top:70.000%;width:14.286%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="pin pin-exit" href="#key-1" style="left:92.857%;top:65.000%" title="Exit (east): to [Brightport cave5](brightport_cave5.md)">1</a><a class="pin pin-key" href="#key-2" style="left:50.000%;top:35.000%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">2</a><a class="pin pin-replace" href="#key-3" style="left:50.940%;top:22.501%" title="Changes during a quest: This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 124: “crystal 2 shattered”)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave6.webp" alt="Map of Brightport cave 6" width="224" height="320" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_cave5/#place-west" title="Exit to Brightport cave 5" style="left:85.714%;top:60.000%;width:14.286%;height:10.000%"></a><span id="place-room" class="mo mo-mapchange" title="Room" style="left:42.857%;top:80.000%;width:14.286%;height:10.000%"></span><span class="mo mo-spawn" title="Spawns: Darkness beast" style="left:28.571%;top:40.000%;width:42.857%;height:40.000%"></span><a class="mo mo-key" href="../../quests/andor/#stage-1" title="Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)" style="left:42.857%;top:30.000%;width:14.286%;height:10.000%"></a><a class="mo mo-replace" href="../../quests/brightport_nondisplay/#stage-124" title="This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 124: “crystal 2 shattered”)" style="left:28.571%;top:10.000%;width:42.857%;height:40.000%"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:42.857%;top:40.000%;width:14.286%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:42.857%;top:60.000%;width:14.286%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="mob" href="../../monsters/brightport_beast/" title="Darkness beast" style="left:42.857%;top:70.000%;width:14.286%;height:10.000%"><img src="../../assets/icons/monsters/monsters_newb_1_657.png" alt="Darkness beast"></a><a class="pin pin-exit" href="#key-1" style="left:92.857%;top:65.000%" title="Exit (east): to [Brightport cave 5](brightport_cave5.md)">1</a><a class="pin pin-key" href="#key-2" style="left:50.000%;top:35.000%" title="Blocked passage: Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”)">2</a><a class="pin pin-replace" href="#key-3" style="left:50.940%;top:22.501%" title="Changes during a quest: This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 124: “crystal 2 shattered”)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightport cave5](brightport_cave5.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightport cave 5](brightport_cave5.md) |
     | <span id="key-2"></span>2 | Blocked passage | Closed off once you reach this point in the quest: Search for Andor (stage 1: “My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.”) |
     | <span id="key-3"></span>3 | Changes during a quest | This area changes during the quest: hidden story flag “brightport_nondisplay” (stage 124: “crystal 2 shattered”) |
 
@@ -42,7 +42,7 @@ description: "Brightport cave6 is an indoor location in Andor's Trail, in Buried
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightport cave5](brightport_cave5.md) | Buried citadel | 1 |
+| East | [Brightport cave 5](brightport_cave5.md) | Buried citadel | 1 |
 
 ## Enemies
 
@@ -56,7 +56,7 @@ description: "Brightport cave6 is an indoor location in Andor's Trail, in Buried
 
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
 - [The balance of scales](../quests/brightport_lizard.md): something on this map advances it
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): part of the map changes at stage 124; something on this map advances it
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): part of the map changes at stage 124; something on this map advances it
 
 ## Points of interest
 

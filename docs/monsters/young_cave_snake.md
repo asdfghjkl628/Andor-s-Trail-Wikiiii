@@ -4,7 +4,7 @@ description: "Young cave snake is an enemy in Andor's Trail (reptile) with 8 HP,
 
 # ![](../assets/icons/monsters/monsters_snakes_3.png){ .sprite } Young cave snake
 
-**Found in:** Blackwater Mountain: [snakecave1](../maps/snakecave1.md), Blackwater Mountain: [snakecave2](../maps/snakecave2.md), [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md)
+**Found in:** Blackwater Mountain: [Snakecave 1](../maps/snakecave1.md), Blackwater Mountain: [Snakecave 2](../maps/snakecave2.md), [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md)
 
 <div class="infobox" markdown>
 
@@ -56,9 +56,9 @@ description: "Young cave snake is an enemy in Andor's Trail (reptile) with 8 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [basiliskcave1_1_2](../maps/basiliskcave1_1_2.md) | – | 3 | – |
-| [snakecave1](../maps/snakecave1.md) | Blackwater Mountain | 8 | – |
-| [snakecave2](../maps/snakecave2.md) | Blackwater Mountain | 2 | – |
+| [Basiliskcave 1 1 2](../maps/basiliskcave1_1_2.md) | – | 3 | – |
+| [Snakecave 1](../maps/snakecave1.md) | Blackwater Mountain | 8 | – |
+| [Snakecave 2](../maps/snakecave2.md) | Blackwater Mountain | 2 | – |
 
 
 ## Version history

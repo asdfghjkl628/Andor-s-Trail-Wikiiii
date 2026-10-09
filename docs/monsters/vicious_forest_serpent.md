@@ -4,7 +4,7 @@ description: "Vicious forest serpent is an enemy in Andor's Trail (reptile) with
 
 # ![](../assets/icons/monsters/monsters_snakes_4.png){ .sprite } Vicious forest serpent
 
-**Found in:** Fallhaven: [roadbeforecrossroads4](../maps/roadbeforecrossroads4.md), Fallhaven: [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md), Fallhaven: [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md), Flagstone Prison: [wild8](../maps/wild8.md) (+15 more)
+**Found in:** Fallhaven: [Roadbeforecrossroads 4](../maps/roadbeforecrossroads4.md), Fallhaven: [Roadbeforecrossroads 5](../maps/roadbeforecrossroads5.md), Fallhaven: [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md), Flagstone Prison: [Wild 8](../maps/wild8.md) (+15 more)
 
 <div class="infobox" markdown>
 
@@ -56,25 +56,25 @@ description: "Vicious forest serpent is an enemy in Andor's Trail (reptile) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 4 | – |
-| [guynmart_wood_12](../maps/guynmart_wood_12.md) | Guynmart Castle | 3 | – |
-| [guynmart_wood_13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
-| [guynmart_wood_15](../maps/guynmart_wood_15.md) | – | 4 | – |
-| [guynmart_wood_16](../maps/guynmart_wood_16.md) | – | 3 | – |
-| [guynmart_wood_17](../maps/guynmart_wood_17.md) | – | 4 | – |
-| [guynmart_wood_17b](../maps/guynmart_wood_17b.md) | – | 5 | – |
-| [guynmart_wood_8](../maps/guynmart_wood_8.md) | Guynmart Castle | 5 | – |
-| [road1](../maps/road1.md) | Foaming Flask Tavern | 1 | – |
-| [road2](../maps/road2.md) | Foaming Flask Tavern | 1 | – |
-| [road3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
-| [road4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
-| [roadbeforecrossroads4](../maps/roadbeforecrossroads4.md) | Fallhaven | 4 | – |
-| [roadbeforecrossroads5](../maps/roadbeforecrossroads5.md) | Fallhaven | 3 | – |
-| [roadbeforecrossroads6](../maps/roadbeforecrossroads6.md) | Fallhaven | 2 | – |
-| [roadbeforecrossroads8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 4 | – |
-| [roadbeforecrossroads9](../maps/roadbeforecrossroads9.md) | Foaming Flask Tavern | 2 | – |
-| [wild14](../maps/wild14.md) | Foaming Flask Tavern | 2 | – |
-| [wild8](../maps/wild8.md) | Flagstone Prison | 1 | – |
+| [Guynmart wood 11](../maps/guynmart_wood_11.md) | Guynmart Castle | 4 | – |
+| [Guynmart wood 12](../maps/guynmart_wood_12.md) | Guynmart Castle | 3 | – |
+| [Guynmart wood 13](../maps/guynmart_wood_13.md) | Guynmart Castle | 2 | – |
+| [Guynmart wood 15](../maps/guynmart_wood_15.md) | – | 4 | – |
+| [Guynmart wood 16](../maps/guynmart_wood_16.md) | – | 3 | – |
+| [Guynmart wood 17](../maps/guynmart_wood_17.md) | – | 4 | – |
+| [Guynmart wood 17b](../maps/guynmart_wood_17b.md) | – | 5 | – |
+| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 5 | – |
+| [Road 1](../maps/road1.md) | Foaming Flask Tavern | 1 | – |
+| [Road 2](../maps/road2.md) | Foaming Flask Tavern | 1 | – |
+| [Road 3](../maps/road3.md) | Foaming Flask Tavern | 1 | – |
+| [Road 4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
+| [Roadbeforecrossroads 4](../maps/roadbeforecrossroads4.md) | Fallhaven | 4 | – |
+| [Roadbeforecrossroads 5](../maps/roadbeforecrossroads5.md) | Fallhaven | 3 | – |
+| [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md) | Fallhaven | 2 | – |
+| [Roadbeforecrossroads 8](../maps/roadbeforecrossroads8.md) | Foaming Flask Tavern | 4 | – |
+| [Roadbeforecrossroads 9](../maps/roadbeforecrossroads9.md) | Foaming Flask Tavern | 2 | – |
+| [Wild 14](../maps/wild14.md) | Foaming Flask Tavern | 2 | – |
+| [Wild 8](../maps/wild8.md) | Flagstone Prison | 1 | – |
 
 
 ## Version history

@@ -4,7 +4,7 @@ description: "Tough Charwood goblin is an enemy in Andor's Trail (humanoid) with
 
 # ![](../assets/icons/monsters/monsters_rltiles4_21.png){ .sprite } Tough Charwood goblin
 
-**Found in:** Charwood: [lostmine0](../maps/lostmine0.md), Charwood: [lostmine1](../maps/lostmine1.md), Charwood: [lostmine1a](../maps/lostmine1a.md), Charwood: [lostmine2](../maps/lostmine2.md) (+11 more)
+**Found in:** Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md), Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md) (+11 more)
 
 <div class="infobox" markdown>
 
@@ -58,21 +58,21 @@ description: "Tough Charwood goblin is an enemy in Andor's Trail (humanoid) with
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine0](../maps/lostmine0.md) | Charwood | 8 | – |
-| [lostmine1](../maps/lostmine1.md) | Charwood | 4 | – |
-| [lostmine1a](../maps/lostmine1a.md) | Charwood | 2 | – |
-| [lostmine2](../maps/lostmine2.md) | Charwood | 3 | – |
-| [lostmine2a](../maps/lostmine2a.md) | – | 1 | – |
-| [minerhouse0](../maps/minerhouse0.md) | Charwood | 3 | – |
-| [minerhouse1](../maps/minerhouse1.md) | Charwood | 2 | – |
-| [minerhouse2](../maps/minerhouse2.md) | Charwood | 4 | – |
-| [minerhouse3](../maps/minerhouse3.md) | Charwood | 6 | – |
-| [minerhouse7](../maps/minerhouse7.md) | Charwood | 5 | – |
-| [minerhouse8](../maps/minerhouse8.md) | Charwood | 1 | – |
-| [minerhouse9](../maps/minerhouse9.md) | Charwood | 2 | – |
-| [waytolostmine1](../maps/waytolostmine1.md) | Charwood | 8 | – |
-| [waytolostmine2](../maps/waytolostmine2.md) | Charwood | 12 | – |
-| [waytolostmine3](../maps/waytolostmine3.md) | Charwood | 19 | – |
+| [Lostmine 0](../maps/lostmine0.md) | Charwood | 8 | – |
+| [Lostmine 1](../maps/lostmine1.md) | Charwood | 4 | – |
+| [Lostmine 1a](../maps/lostmine1a.md) | Charwood | 2 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 3 | – |
+| [Lostmine 2a](../maps/lostmine2a.md) | – | 1 | – |
+| [Minerhouse 0](../maps/minerhouse0.md) | Charwood | 3 | – |
+| [Minerhouse 1](../maps/minerhouse1.md) | Charwood | 2 | – |
+| [Minerhouse 2](../maps/minerhouse2.md) | Charwood | 4 | – |
+| [Minerhouse 3](../maps/minerhouse3.md) | Charwood | 6 | – |
+| [Minerhouse 7](../maps/minerhouse7.md) | Charwood | 5 | – |
+| [Minerhouse 8](../maps/minerhouse8.md) | Charwood | 1 | – |
+| [Minerhouse 9](../maps/minerhouse9.md) | Charwood | 2 | – |
+| [Waytolostmine 1](../maps/waytolostmine1.md) | Charwood | 8 | – |
+| [Waytolostmine 2](../maps/waytolostmine2.md) | Charwood | 12 | – |
+| [Waytolostmine 3](../maps/waytolostmine3.md) | Charwood | 19 | – |
 
 
 ## Version history

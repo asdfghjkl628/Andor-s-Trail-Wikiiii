@@ -50,10 +50,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | [Stoutford's old castle](../quests/stoutford_castle.md#stage-42) | must be carried (1×) | “Sure. I found this ring among his remains.” |
-| [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | [Stoutford's old castle](../quests/stoutford_castle.md#stage-42) | handed over (1×) | “Sounds fine to me. Anything for the safety of the people of Stoutford.” |
-| [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | [Stoutford's old castle](../quests/stoutford_castle.md#stage-42) | must be carried (1×) | “Yes, indeed, look at this ring.” |
-| [Yolgen](../monsters/yolgen.md) ([stoutford_church](../maps/stoutford_church.md)) | – | handed over (1×) | “You are probably right. Here is the ring.” |
+| [Yolgen](../monsters/yolgen.md) ([Stoutford church](../maps/stoutford_church.md)) | [Stoutford's old castle](../quests/stoutford_castle.md#stage-42) | must be carried (1×) | “Sure. I found this ring among his remains.” |
+| [Yolgen](../monsters/yolgen.md) ([Stoutford church](../maps/stoutford_church.md)) | [Stoutford's old castle](../quests/stoutford_castle.md#stage-42) | handed over (1×) | “Sounds fine to me. Anything for the safety of the people of Stoutford.” |
+| [Yolgen](../monsters/yolgen.md) ([Stoutford church](../maps/stoutford_church.md)) | [Stoutford's old castle](../quests/stoutford_castle.md#stage-42) | must be carried (1×) | “Yes, indeed, look at this ring.” |
+| [Yolgen](../monsters/yolgen.md) ([Stoutford church](../maps/stoutford_church.md)) | – | handed over (1×) | “You are probably right. Here is the ring.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

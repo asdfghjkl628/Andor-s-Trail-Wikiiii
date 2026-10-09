@@ -11,9 +11,9 @@ description: "Recovering stolen property is a quest in Andor's Trail, started by
 | **Quest ID** | `sullengard_recover_items` |
 | **In journal** | Yes |
 | **Stages** | 7 (completes at 70) |
-| **Started by** | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) |
+| **Started by** | [Zaccheria](../monsters/sullengard_zaccheria.md) ([Sullengard 2 armory](../maps/sullengard2_armory.md)) |
 | **NPCs involved** | [Gaelian](../monsters/sullengard_gaelian.md), [Lost traveler](../monsters/sullengard_inn_traveler.md), [Prowling Arantxa](../monsters/sullengard_arantxa.md), [Zaccheria](../monsters/sullengard_zaccheria.md) |
-| **Locations** | [sullengard2_armory](../maps/sullengard2_armory.md), [sullengard_inn](../maps/sullengard_inn.md), [sullengard_tavern_basement](../maps/sullengard_tavern_basement.md) |
+| **Locations** | [Sullengard 2 armory](../maps/sullengard2_armory.md), [Sullengard inn](../maps/sullengard_inn.md), [Sullengard tavern basement](../maps/sullengard_tavern_basement.md) |
 | **Total XP** | 3,800 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Recovering stolen property is a quest in Andor's Trail, started by
 
 ## Prerequisites to start
 
-Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)). Required:
+Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([Sullengard 2 armory](../maps/sullengard2_armory.md)). Required:
 
 - NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60
 - NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70
@@ -39,60 +39,111 @@ Start with [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-23) | stage 23 reached, for stage 40 here |
-| Requires | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-24) | stage 24 reached, for stage 40 here |
-| Requires | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-25) | stage 25 reached, for stage 40 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-23) | stage 23 there needs stage 30 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-24) | stage 24 there needs stage 30 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-25) | stage 25 there needs stage 30 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-39) | stage 39 there needs stage 70 here |
-| Unlocks | [sullengard_nondisplay (hidden flag)](sullengard_hidden.md#stage-42) | stage 42 there needs stage 70 here |
+| Requires | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-23) | stage 23 reached, for stage 40 here |
+| Requires | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-24) | stage 24 reached, for stage 40 here |
+| Requires | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-25) | stage 25 reached, for stage 40 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-23) | stage 23 there needs stage 30 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-24) | stage 24 there needs stage 30 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-25) | stage 25 there needs stage 30 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-39) | stage 39 there needs stage 70 here |
+| Unlocks | [Sullengard story flags (hidden flag)](sullengard_hidden.md#stage-42) | stage 42 there needs stage 70 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | I've agreed to help the armour shop owner, Zaccheria investigate the theft of his shop's entire inventory. | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | – | – |
-| <span id="stage-20"></span>20 | Zaccheria suggested that I should start my investigation by speaking with Gaelian from the Briwerra family. | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | – | – |
-| <span id="stage-30"></span>30 | I spoke with Gaelian from the Briwerra family and I suspect that he had nothing to do with this crime. | [Gaelian](../monsters/sullengard_gaelian.md) ([sullengard_tavern_basement](../maps/sullengard_tavern_basement.md)) | stage 20 | – |
-| <span id="stage-40"></span>40 | I spoke with Prowling Arantxa, a thief in the Sullengard tavern basement and she informed me that the 'lost traveler' recently tried to sell her some items that she recgonized as belonging to Zaccheria. I should speak with the 'lost traveler'. | [Prowling Arantxa](../monsters/sullengard_arantxa.md) ([sullengard_tavern_basement](../maps/sullengard_tavern_basement.md)) | stage 30 | – |
-| <span id="stage-50"></span>50 | I had paid the 'lost traveler' in exchange for the location of Zaccheria's stolen items. He told me that he had hidden them on the eastern boundaries of town. | [Lost traveler](../monsters/sullengard_inn_traveler.md) ([sullengard_inn](../maps/sullengard_inn.md)) | pay 10,000 gold, stage 40 | removes monsters from sullengard_inn |
-| <span id="stage-60"></span>60 | I found the stolen items and should return to Zaccheria with them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods9](../maps/sullengard_woods9.md).</span> | stepping on a trigger on [sullengard_woods9](../maps/sullengard_woods9.md) | stage 50 | gives 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md) |
-| <span id="stage-70"></span>70 | Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold. **(completes quest)** | [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) | carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md), hand over 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md), stage 60 | 3,800 XP<br>gives 15000× [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">I've agreed to help the armour shop owner, Zaccheria investigate the… ▸</span><span class="l">▴ less</span></summary>I've agreed to help the armour shop owner, Zaccheria investigate the theft of his shop's entire inventory.</details> | [Zaccheria](../monsters/sullengard_zaccheria.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Zaccheria suggested that I should start my investigation by speaking… ▸</span><span class="l">▴ less</span></summary>Zaccheria suggested that I should start my investigation by speaking with Gaelian from the Briwerra family.</details> | [Zaccheria](../monsters/sullengard_zaccheria.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I spoke with Gaelian from the Briwerra family and I suspect that he… ▸</span><span class="l">▴ less</span></summary>I spoke with Gaelian from the Briwerra family and I suspect that he had nothing to do with this crime.</details> | [Gaelian](../monsters/sullengard_gaelian.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I spoke with Prowling Arantxa, a thief in the Sullengard tavern… ▸</span><span class="l">▴ less</span></summary>I spoke with Prowling Arantxa, a thief in the Sullengard tavern basement and she informed me that the 'lost traveler' recently tried to sell her some items that she recgonized as belonging to Zaccheria. I should speak with the 'lost traveler'.</details> | [Prowling Arantxa](../monsters/sullengard_arantxa.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">I had paid the 'lost traveler' in exchange for the location of… ▸</span><span class="l">▴ less</span></summary>I had paid the 'lost traveler' in exchange for the location of Zaccheria's stolen items. He told me that he had hidden them on the eastern boundaries of town.</details> | [Lost traveler](../monsters/sullengard_inn_traveler.md) | removes monsters from sullengard_inn |
+| <span id="stage-60"></span>[60](#route-60) | I found the stolen items and should return to Zaccheria with them.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Sullengard woods 9](../maps/sullengard_woods9.md).</span> | stepping on a trigger on [Sullengard woods 9](../maps/sullengard_woods9.md) | 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md) |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">Zaccheria was very happy that I was able to return his items to him.… ▸</span><span class="l">▴ less</span></summary>Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold.</details> **(ends quest)** | [Zaccheria](../monsters/sullengard_zaccheria.md) | 3,800 XP, 15000× [Gold coins](../items/gold.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) → choose “I'll take it, but can you give me some more details?” — **conditions:** NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70 → **stage 10**. NPC: “Sure. You see, I was at the tavern last night enjoying a couple "Southernhaze" beers like I almost always do after…”
+??? note "Stage 10 · Zaccheria · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Zaccheria](../monsters/sullengard_zaccheria.md), choose “I'll take it, but can you give me some more details?”
 
-    1. Talk to [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) → choose “Why is that?” — **conditions:** NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70 → **stage 20**. NPC: “Anyways, I think you should start there, but I suspect others too.”
+    - **Needs:** not latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; not latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70
+    - *“Sure. You see, I was at the tavern last night enjoying a couple "Southernhaze" beers like I almost always do after work, when someone or…”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Gaelian](../monsters/sullengard_gaelian.md) ([sullengard_tavern_basement](../maps/sullengard_tavern_basement.md)) → choose “I was told that maybe you know some information about these crimes.” — **conditions:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-20) is 20; NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30 → **stage 30**. NPC: “I know nothing except that Zaccheria deserved it.”
+<span id="route-20"></span>
 
-???+ note "Stage 40: 1 route"
+??? note "Stage 20 · Zaccheria · 1 way"
 
-    1. Talk to [Prowling Arantxa](../monsters/sullengard_arantxa.md) ([sullengard_tavern_basement](../maps/sullengard_tavern_basement.md)) → choose “Well, let's be honest. You are a thief after all.” — **conditions:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30; reached stage 23 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-23); reached stage 24 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-24); reached stage 25 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-25) → **stage 40**. NPC: “You see kid, here in Sullengard, we have a working agreement with the townspeople. They pay us for our services and we…”
+    **Way 1:** Talk to [Zaccheria](../monsters/sullengard_zaccheria.md), choose “Why is that?”
 
-???+ note "Stage 50: 1 route"
+    - **Needs:** not latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; not latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70
+    - *“Anyways, I think you should start there, but I suspect others too.”*
 
-    1. Talk to [Lost traveler](../monsters/sullengard_inn_traveler.md) ([sullengard_inn](../maps/sullengard_inn.md)) → choose “Whatever. I can spare it.” — **conditions:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-40) is 40; pay 10,000 gold → **stage 50**; also removes monsters from sullengard_inn. NPC: “Excellent. Nice doing 'business' with you. I hid them somewhere east of town. Close by, but I doubt you can find it…”
 
-???+ note "Stage 60: 1 route"
+<span id="route-30"></span>
 
-    1. stepping on a trigger on [sullengard_woods9](../maps/sullengard_woods9.md) → choose “Oh yeah! I've come this far already. There's no reason to stop.” — **conditions:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-50) is 50 → **stage 60**; also gives 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md). NPC: “You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.”
+??? note "Stage 30 · Gaelian · 1 way"
 
-???+ note "Stage 70: 1 route"
+    **Way 1:** Talk to [Gaelian](../monsters/sullengard_gaelian.md), choose “I was told that maybe you know some information about these crimes.”
 
-    1. Talk to [Zaccheria](../monsters/sullengard_zaccheria.md) ([sullengard2_armory](../maps/sullengard2_armory.md)) → choose “I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what…” — **conditions:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md); hand over 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md) → **stage 70**; also gives 15000× [Gold coins](../items/gold.md). NPC: “Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my…”
+    - **Needs:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-20) is 20; not latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30
+    - *“I know nothing except that Zaccheria deserved it.”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Prowling Arantxa · 1 way"
+
+    **Way 1:** Talk to [Prowling Arantxa](../monsters/sullengard_arantxa.md), choose “Well, let's be honest. You are a thief after all.”
+
+    - **Needs:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-30) is 30; reached stage 23 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-23); reached stage 24 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-24); reached stage 25 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-25)
+    - *“You see kid, here in Sullengard, we have a working agreement with the townspeople. They pay us for our services and we do not steal from…”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Lost traveler · 1 way"
+
+    **Way 1:** Talk to [Lost traveler](../monsters/sullengard_inn_traveler.md), choose “Whatever. I can spare it.”
+
+    - **Needs:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-40) is 40; pay 10,000 gold
+    - **Gives:** removes monsters from sullengard_inn
+    - *“Excellent. Nice doing 'business' with you. I hid them somewhere east of town. Close by, but I doubt you can find it easily. ['the lost…”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on sullengard_woods9 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Sullengard woods 9](../maps/sullengard_woods9.md), choose “Oh yeah! I've come this far already. There's no reason to stop.”
+
+    - **Needs:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-50) is 50
+    - **Gives:** 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md)
+    - *“You have successfully removed an extremely heavy sack. This must be Zaccheria stolen inventory.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Zaccheria · 1 way"
+
+    **Way 1:** Talk to [Zaccheria](../monsters/sullengard_zaccheria.md), choose “I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what…”
+
+    - **Needs:** latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md); hand over 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md)
+    - **Gives:** 15000× [Gold coins](../items/gold.md)
+    - *“Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my items and I am very…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

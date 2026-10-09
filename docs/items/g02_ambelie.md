@@ -38,7 +38,7 @@ description: "Sapphire Necklace is a quest necklace in Andor's Trail (Max HP +5)
 
 ### Quest & dialogue rewards
 
-- From [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) during [Immaculate kidnapping](../quests/Thieves02.md#stage-24) (1×)
+- From [Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md)) during [Immaculate kidnapping](../quests/Thieves02.md#stage-24) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -49,7 +49,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Umar](../monsters/umar.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | handed over (1×) | “I brought a valuable necklace from the noblewoman.” |
+| [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | – | handed over (1×) | “I brought a valuable necklace from the noblewoman.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

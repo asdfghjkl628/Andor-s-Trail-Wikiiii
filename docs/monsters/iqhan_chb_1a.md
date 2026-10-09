@@ -1,5 +1,5 @@
 ---
-description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 122–140 HP, worth 262–280 XP, found in pwcave2a, pwcave4. Drops: Gold coins, Chaosreaper, Regular potion of health."
+description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 122–140 HP, worth 262–280 XP, found in Pwcave 2a, Pwcave 4. Drops: Gold coins, Chaosreaper, Regular potion of health."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_19.png){ .sprite } Iqhan chaos beast
@@ -11,7 +11,7 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave2a, pwcave4 |
+| **Found in** | Pwcave 2a, Pwcave 4 |
 | **Class** | Construct |
 | **HP** | 122–140 |
 | **XP when defeated** | 262–280 |
@@ -22,18 +22,18 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Iqhan chaos beast. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Iqhan chaos beast. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`iqhan_chb_1a`](#v-iqhan_chb_1a) | Enemy | [pwcave2a](../maps/pwcave2a.md), [pwcave4](../maps/pwcave4.md) | – | 122 |
-| [`iqhan_chb_1b`](#v-iqhan_chb_1b) | Enemy | [pwcave2a](../maps/pwcave2a.md), [pwcave4](../maps/pwcave4.md) | – | 140 |
+| [`iqhan_chb_1a`](#v-iqhan_chb_1a) | Enemy | [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md) | – | 122 |
+| [`iqhan_chb_1b`](#v-iqhan_chb_1b) | Enemy | [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md) | – | 140 |
 
-## Pwcave2a and 1 more (iqhan_chb_1a) { #v-iqhan_chb_1a }
+## Pwcave 2a and 1 more (iqhan_chb_1a) { #v-iqhan_chb_1a }
 
 **Entry ID:** `iqhan_chb_1a` · **Type:** Enemy
 
-**Location:** [pwcave2a](../maps/pwcave2a.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -74,8 +74,8 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2a](../maps/pwcave2a.md) | – | 1 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 7 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 7 | – |
 
 
 ### Version history
@@ -139,11 +139,11 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
     ```
 
 
-## Pwcave2a and 1 more (iqhan_chb_1b) { #v-iqhan_chb_1b }
+## Pwcave 2a and 1 more (iqhan_chb_1b) { #v-iqhan_chb_1b }
 
 **Entry ID:** `iqhan_chb_1b` · **Type:** Enemy
 
-**Location:** [pwcave2a](../maps/pwcave2a.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -184,8 +184,8 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2a](../maps/pwcave2a.md) | – | 1 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 7 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 7 | – |
 
 
 ### Version history

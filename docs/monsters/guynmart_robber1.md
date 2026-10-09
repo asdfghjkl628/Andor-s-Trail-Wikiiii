@@ -4,7 +4,7 @@ description: "Bridge guard is an NPC who can also be fought in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_tometik6_1.png){ .sprite } Bridge guard
 
-**Where to find Bridge guard:** Guynmart Castle: [fields5](../maps/fields5.md#pin-npc-guynmart_robber1)
+**Where to find Bridge guard:** Guynmart Castle: [Fields 5](../maps/fields5.md#pin-npc-guynmart_robber1)
 
 <div class="infobox" markdown>
 
@@ -57,11 +57,11 @@ description: "Bridge guard is an NPC who can also be fought in Andor's Trail, fo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields5](../maps/fields5.md) | Guynmart Castle | 1 | – |
+| [Fields 5](../maps/fields5.md) | Guynmart Castle | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bridge guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bridge guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_robber1_10.json" data-npc="Bridge guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -69,7 +69,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-guynmart_robber1_10"></span>**`guynmart_robber1_10`** *(silent check: the first matching branch below is taken)*
 

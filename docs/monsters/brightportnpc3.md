@@ -4,7 +4,7 @@ description: "Dibella is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_188.png){ .sprite } Dibella
 
-**Where to find Dibella:** Brightport: [brightport_school](../maps/brightport_school.md#pin-npc-brightportnpc3)
+**Where to find Dibella:** Brightport: [Brightport school](../maps/brightport_school.md#pin-npc-brightportnpc3)
 
 <div class="infobox" markdown>
 
@@ -23,11 +23,11 @@ description: "Dibella is a non-player character (NPC) in Andor's Trail, found in
 ## Quests
 
 - [No rest for the wicked](../quests/Stanwickquest.md): stages 5, 15, 16, 31
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stages 66, 231
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stages 66, 231
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dibella. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dibella. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_dibella.json" data-npc="Dibella" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -35,30 +35,30 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (16 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
-    <span id="d-brightport_dibella"></span>**`brightport_dibella`** Dibella: “Welcome to the Brightport Academy. I'm Dibella, the Headmaster's assistant.” — **effects:** sets stage 231 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-231)
+    <span id="d-brightport_dibella"></span>**`brightport_dibella`** Dibella: “Welcome to the Brightport Academy. I'm Dibella, the Headmaster's assistant.” — **effects:** sets stage 231 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-231)
 
-    - Next *(if NOT reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40))* → [brightport_dibella_selector](#d-brightport_dibella_selector)
+    - Next *(if NOT reached stage 40 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-40))* → [brightport_dibella_selector](#d-brightport_dibella_selector)
 
     <span id="d-brightport_dibella_selector"></span>**`brightport_dibella_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 40 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-40))* → [brightport_dibella0](#d-brightport_dibella0)
+    - Next *(if reached stage 40 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-40))* → [brightport_dibella0](#d-brightport_dibella0)
     - Next → [brightport_dibella1](#d-brightport_dibella1)
 
     <span id="d-brightport_dibella0"></span>**`brightport_dibella0`** Dibella: “Is there something I can assist you with?”
 
-    - “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts. Could you…” *(if reached stage 110 of [Search for Andor](../quests/andor.md#stage-110); NOT reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella4](#d-brightport_dibella4)
-    - “I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” *(if NOT reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15); carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md); reached stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella2](#d-brightport_dibella2)
-    - “Could you tell me about the incident again?” *(if NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella6](#d-brightport_dibella6)
+    - “My brother has been missing, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts. Could you…” *(if reached stage 110 of [Search for Andor](../quests/andor.md#stage-110); NOT reached stage 66 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella4](#d-brightport_dibella4)
+    - “I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” *(if NOT reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15); carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md); reached stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16); reached stage 66 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella2](#d-brightport_dibella2)
+    - “Could you tell me about the incident again?” *(if NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96); reached stage 66 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella6](#d-brightport_dibella6)
     - “Could you tell me what you know about the library theft?” *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96))* → [brightport_dibella9](#d-brightport_dibella9)
     - “No, thanks.” → *conversation ends*
 
     <span id="d-brightport_dibella1"></span>**`brightport_dibella1`** Dibella: “It's time for the history lecture. If you hurry, you might still make it to the lecture room on time!”
 
     - “My brother has been missing for a while, so I'm here to ask his friend Stanwick for a clue regarding his whereabouts.…” *(if NOT reached stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16); reached stage 110 of [Search for Andor](../quests/andor.md#stage-110))* → [brightport_dibella4](#d-brightport_dibella4)
-    - “I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” *(if NOT reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15); carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella2](#d-brightport_dibella2)
-    - “Could you tell me about the incident again?” *(if NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96); reached stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella6](#d-brightport_dibella6)
+    - “I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.” *(if NOT reached stage 15 of [No rest for the wicked](../quests/Stanwickquest.md#stage-15); carry 1× [Fresh fruit for Stanwick](../items/brightport_fruit.md); reached stage 66 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella2](#d-brightport_dibella2)
+    - “Could you tell me about the incident again?” *(if NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96); reached stage 66 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-66))* → [brightport_dibella6](#d-brightport_dibella6)
     - “Could you tell me what you know about the library theft?” *(if reached stage 25 of [No rest for the wicked](../quests/Stanwickquest.md#stage-25); NOT reached stage 96 of [No rest for the wicked](../quests/Stanwickquest.md#stage-96))* → [brightport_dibella9](#d-brightport_dibella9)
 
     <span id="d-brightport_dibella4"></span>**`brightport_dibella4`** Dibella: “Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed to enter his room except for his roommate and family.” — **effects:** sets stage 5 of [No rest for the wicked](../quests/Stanwickquest.md#stage-5)
@@ -86,7 +86,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “Thank you miss.” → *conversation ends*
 
-    <span id="d-brightport_dibella7"></span>**`brightport_dibella7`** Dibella: “Stanwick looks after the library, so after questioning the teachers and students, the headmaster decided that Stanwick would stay in his room until the end of the investigation.” — **effects:** sets stage 66 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-66), sets stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16)
+    <span id="d-brightport_dibella7"></span>**`brightport_dibella7`** Dibella: “Stanwick looks after the library, so after questioning the teachers and students, the headmaster decided that Stanwick would stay in his room until the end of the investigation.” — **effects:** sets stage 66 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-66), sets stage 16 of [No rest for the wicked](../quests/Stanwickquest.md#stage-16)
 
     - “Judging by that, it sounds like this document was really important. Do you know what it was?” → [brightport_dibella8](#d-brightport_dibella8)
 

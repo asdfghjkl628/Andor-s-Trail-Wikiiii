@@ -11,9 +11,9 @@ description: "The path is clear to me is a quest in Andor's Trail, started by Mi
 | **Quest ID** | `rogorn` |
 | **In journal** | Yes |
 | **Stages** | 10 (completes at 60) |
-| **Started by** | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) |
+| **Started by** | [Minarra](../monsters/minarra.md) ([Houseatcrossroads 4](../maps/houseatcrossroads4.md)) |
 | **NPCs involved** | [Minarra](../monsters/minarra.md), [Rogorn](../monsters/rogorn.md) |
-| **Locations** | [houseatcrossroads4](../maps/houseatcrossroads4.md), [roadtocarntower2](../maps/roadtocarntower2.md) |
+| **Locations** | [Houseatcrossroads 4](../maps/houseatcrossroads4.md), [Roadtocarntower 2](../maps/roadtocarntower2.md) |
 | **Related quests** | 2 |
 
 </div>
@@ -24,7 +24,7 @@ description: "The path is clear to me is a quest in Andor's Trail, started by Mi
 
 ## Prerequisites to start
 
-Start with [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)). Required:
+Start with [Minarra](../monsters/minarra.md) ([Houseatcrossroads 4](../maps/houseatcrossroads4.md)). Required:
 
 - reached stage 10 of [The path is clear to me](../quests/rogorn.md#stage-10)
 
@@ -40,68 +40,134 @@ Start with [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/house
 | Unlocks | [Flows through the veins](loneford.md#stage-10) | stage 10 there needs stage 20 here |
 | Unlocks | [Flows through the veins](loneford.md#stage-11) | stage 11 there needs stage 20 here |
 | Unlocks | [Flows through the veins](loneford.md#stage-21) | stage 21 there needs stage 20 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-18) | stage 18 there needs stage 60 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-18) | stage 18 there needs stage 60 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Minarra up in the tower at the Crossroads guardhouse has seen a band of rogues heading west from the guardhouse, towards Carn Tower. Minarra was sure they matched the description of some men whose heads have a bounty on them from the Feygard patrol. If these are the men that Minarra thinks, they are supposedly led by particularly ruthless savage named Rogorn. | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | – | – |
-| <span id="stage-20"></span>20 | I am helping Minarra find the band of rogues. I should travel the road west from the Crossroads guardhouse towards Carn Tower and look for them. They have supposedly stolen three pieces of a valuable painting and are wanted dead for their crimes. | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | stage 10 | – |
-| <span id="stage-21"></span>21 | Minarra also tells me that I should not trust anything I hear from them. In particular, anything from Rogorn should be viewed with great suspicion. | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | I have found the band of rogues on the road west towards Carn Tower, led by Rogorn. | [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) | stage 20 | – |
-| <span id="stage-35"></span>35 | Rogorn tells me that they are wrongly accused of murder and theft in Feygard, while they themselves have never even been to Feygard. | [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) | – | – |
-| <span id="stage-40"></span>40 | I have decided to attack Rogorn and his band of rogues. I should return to Minarra with the three pieces of the painting once they are dead. | [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) | – | – |
-| <span id="stage-45"></span>45 | I have decided not to attack Rogorn and his band of rogues, but instead report back to Minarra that she must have mistaken the men she saw for someone else. | [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) | – | – |
-| <span id="stage-50"></span>50 | Minarra thanked me for dealing with the thieves, and told me that my services to Feygard will be appreciated. | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | hand over 3× [Piece of painting](../items/rogorn_qitem.md), stage 20, stage 40 | – |
-| <span id="stage-55"></span>55 | After telling Minarra that she must have mistaken the men for someone else, she seemed a bit suspicious, but thanked me for helping her look into the matter. | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | stage 20, stage 45 | – |
-| <span id="stage-60"></span>60 | I have helped Minarra with her task. **(completes quest)** | [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) | stage 55 | – |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Minarra up in the tower at the Crossroads guardhouse has seen a band… ▸</span><span class="l">▴ less</span></summary>Minarra up in the tower at the Crossroads guardhouse has seen a band of rogues heading west from the guardhouse, towards Carn Tower. Minarra was sure they matched the description of some men whose heads have a bounty on them from the Feygard patrol. If these are the men that Minarra thinks, they are supposedly led by particularly ruthless savage named Rogorn.</details> | [Minarra](../monsters/minarra.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I am helping Minarra find the band of rogues. I should travel the… ▸</span><span class="l">▴ less</span></summary>I am helping Minarra find the band of rogues. I should travel the road west from the Crossroads guardhouse towards Carn Tower and look for them. They have supposedly stolen three pieces of a valuable painting and are wanted dead for their crimes.</details> | [Minarra](../monsters/minarra.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">Minarra also tells me that I should not trust anything I hear from… ▸</span><span class="l">▴ less</span></summary>Minarra also tells me that I should not trust anything I hear from them. In particular, anything from Rogorn should be viewed with great suspicion.</details> | [Minarra](../monsters/minarra.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">I have found the band of rogues on the road west towards Carn Tower,… ▸</span><span class="l">▴ less</span></summary>I have found the band of rogues on the road west towards Carn Tower, led by Rogorn.</details> | [Rogorn](../monsters/rogorn.md) | – |
+| <span id="stage-35"></span>[35](#route-35) | <details class="jt"><summary><span class="s">Rogorn tells me that they are wrongly accused of murder and theft in… ▸</span><span class="l">▴ less</span></summary>Rogorn tells me that they are wrongly accused of murder and theft in Feygard, while they themselves have never even been to Feygard.</details> | [Rogorn](../monsters/rogorn.md) | – |
+| <span id="stage-40"></span>[40](#route-40) | <details class="jt"><summary><span class="s">I have decided to attack Rogorn and his band of rogues. I should… ▸</span><span class="l">▴ less</span></summary>I have decided to attack Rogorn and his band of rogues. I should return to Minarra with the three pieces of the painting once they are dead.</details> | [Rogorn](../monsters/rogorn.md) | – |
+| <span id="stage-45"></span>[45](#route-45) | <details class="jt"><summary><span class="s">I have decided not to attack Rogorn and his band of rogues, but… ▸</span><span class="l">▴ less</span></summary>I have decided not to attack Rogorn and his band of rogues, but instead report back to Minarra that she must have mistaken the men she saw for someone else.</details> | [Rogorn](../monsters/rogorn.md) | – |
+| <span id="stage-50"></span>[50](#route-50) | <details class="jt"><summary><span class="s">Minarra thanked me for dealing with the thieves, and told me that my… ▸</span><span class="l">▴ less</span></summary>Minarra thanked me for dealing with the thieves, and told me that my services to Feygard will be appreciated.</details> | [Minarra](../monsters/minarra.md) | – |
+| <span id="stage-55"></span>[55](#route-55) | <details class="jt"><summary><span class="s">After telling Minarra that she must have mistaken the men for… ▸</span><span class="l">▴ less</span></summary>After telling Minarra that she must have mistaken the men for someone else, she seemed a bit suspicious, but thanked me for helping her look into the matter.</details> | [Minarra](../monsters/minarra.md) | – |
+| <span id="stage-60"></span>[60](#route-60) | I have helped Minarra with her task. **(ends quest)** | [Minarra](../monsters/minarra.md) | – |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “Can you tell me again about those men you saw?” — **conditions:** reached stage 10 of [The path is clear to me](../quests/rogorn.md#stage-10) → **stage 10**. NPC: “I am sure that those were the men. If we were to catch and kill them, the people of Feygard would be much safer.”
+??? note "Stage 10 · Minarra · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Minarra](../monsters/minarra.md), choose “Can you tell me again about those men you saw?”
 
-    1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I could go look for them if you want.” — **conditions:** reached stage 10 of [The path is clear to me](../quests/rogorn.md#stage-10) → **stage 20**. NPC: “They have stolen three pieces of a very valuable painting from Feygard, from the report that I have read. For their…”
+    - **Needs:** stage 10
+    - *“I am sure that those were the men. If we were to catch and kill them, the people of Feygard would be much safer.”*
 
-???+ note "Stage 21: 1 route"
 
-    1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I will be back once they are dead. Anything else?” — **conditions:** reached stage 10 of [The path is clear to me](../quests/rogorn.md#stage-10) → **stage 21**. NPC: “I urge you not to listen to their lies. Their crimes must be punished in order to uphold the law.”
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Minarra · 1 way"
 
-    1. Talk to [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) → choose “I am looking for a group of men led by someone by the name of Rogorn. Are you him?” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20) → **stage 30**. NPC: “That depends, why do you want to know?”
+    **Way 1:** Talk to [Minarra](../monsters/minarra.md), choose “I could go look for them if you want.”
 
-???+ note "Stage 35: 1 route"
+    - **Needs:** stage 10
+    - *“They have stolen three pieces of a very valuable painting from Feygard, from the report that I have read. For their crimes and the…”*
 
-    1. Talk to [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) → choose “Can you tell me your side of the story again?” — **conditions:** reached stage 35 of [The path is clear to me](../quests/rogorn.md#stage-35) → **stage 35**. NPC: “However, something must have upset the guards there anyway. Now we hear that we are accused of murder and theft in…”
 
-???+ note "Stage 40: 1 route"
+<span id="route-21"></span>
 
-    1. Talk to [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) → the conversation leads here automatically — **conditions:** reached stage 40 of [The path is clear to me](../quests/rogorn.md#stage-40) → **stage 40**. NPC: “I had hoped it would not come to this. For the Shadow!”
+??? note "Stage 21 · Minarra · 1 way"
 
-???+ note "Stage 45: 1 route"
+    **Way 1:** Talk to [Minarra](../monsters/minarra.md), choose “I will be back once they are dead. Anything else?”
 
-    1. Talk to [Rogorn](../monsters/rogorn.md) ([roadtocarntower2](../maps/roadtocarntower2.md)) → choose “What now? I was sent here to find you by some guards in the Crossroads guardhouse.” — **conditions:** reached stage 45 of [The path is clear to me](../quests/rogorn.md#stage-45) → **stage 45**. NPC: “You tell those guards that you searched for us, but did not find anyone.”
+    - **Needs:** stage 10
+    - *“I urge you not to listen to their lies. Their crimes must be punished in order to uphold the law.”*
 
-???+ note "Stage 50: 1 route"
 
-    1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “Yes, I killed them and recovered the three pieces of the painting.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); reached stage 40 of [The path is clear to me](../quests/rogorn.md#stage-40); hand over 3× [Piece of painting](../items/rogorn_qitem.md) → **stage 50**. NPC: “That is excellent news indeed! I knew that we could trust you.”
+<span id="route-30"></span>
 
-???+ note "Stage 55: 1 route"
+??? note "Stage 30 · Rogorn · 1 way"
 
-    1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → choose “I travelled west and found a travelling group of men, but they did not match the men you described.” — **conditions:** reached stage 20 of [The path is clear to me](../quests/rogorn.md#stage-20); reached stage 45 of [The path is clear to me](../quests/rogorn.md#stage-45) → **stage 55**. NPC: “I guess I will have to take your word for it.”
+    **Way 1:** Talk to [Rogorn](../monsters/rogorn.md), choose “I am looking for a group of men led by someone by the name of Rogorn. Are you him?”
 
-???+ note "Stage 60: 1 route"
+    - **Needs:** stage 20
+    - *“That depends, why do you want to know?”*
 
-    1. Talk to [Minarra](../monsters/minarra.md) ([houseatcrossroads4](../maps/houseatcrossroads4.md)) → the conversation leads here automatically — **conditions:** reached stage 55 of [The path is clear to me](../quests/rogorn.md#stage-55) → **stage 60**. NPC: “Thank you for helping me investigate this matter.”
+
+<span id="route-35"></span>
+
+??? note "Stage 35 · Rogorn · 1 way"
+
+    **Way 1:** Talk to [Rogorn](../monsters/rogorn.md), choose “Can you tell me your side of the story again?”
+
+    - **Needs:** stage 35
+    - *“However, something must have upset the guards there anyway. Now we hear that we are accused of murder and theft in Feygard, without even…”*
+
+
+<span id="route-40"></span>
+
+??? note "Stage 40 · Rogorn · 1 way"
+
+    **Way 1:** Talk to [Rogorn](../monsters/rogorn.md), automatic
+
+    - **Needs:** stage 40
+    - *“I had hoped it would not come to this. For the Shadow!”*
+
+
+<span id="route-45"></span>
+
+??? note "Stage 45 · Rogorn · 1 way"
+
+    **Way 1:** Talk to [Rogorn](../monsters/rogorn.md), choose “What now? I was sent here to find you by some guards in the Crossroads guardhouse.”
+
+    - **Needs:** stage 45
+    - *“You tell those guards that you searched for us, but did not find anyone.”*
+
+
+<span id="route-50"></span>
+
+??? note "Stage 50 · Minarra · 1 way"
+
+    **Way 1:** Talk to [Minarra](../monsters/minarra.md), choose “Yes, I killed them and recovered the three pieces of the painting.”
+
+    - **Needs:** stage 20, 40; hand over 3× [Piece of painting](../items/rogorn_qitem.md)
+    - *“That is excellent news indeed! I knew that we could trust you.”*
+
+
+<span id="route-55"></span>
+
+??? note "Stage 55 · Minarra · 1 way"
+
+    **Way 1:** Talk to [Minarra](../monsters/minarra.md), choose “I travelled west and found a travelling group of men, but they did not match the men you described.”
+
+    - **Needs:** stage 20, 45
+    - *“I guess I will have to take your word for it.”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · Minarra · 1 way"
+
+    **Way 1:** Talk to [Minarra](../monsters/minarra.md), automatic
+
+    - **Needs:** stage 55
+    - *“Thank you for helping me investigate this matter.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

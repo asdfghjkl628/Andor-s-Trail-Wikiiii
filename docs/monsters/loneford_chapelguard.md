@@ -18,22 +18,22 @@ description: "Chapel guard is a non-player character (NPC) in Andor's Trail, fou
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Chapel guard. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Chapel guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`loneford_chapelguard`](#v-loneford_chapelguard) | NPC | Loneford: [loneford4](../maps/loneford4.md#pin-npc-loneford_chapelguard) | – |
-| [`sullengard_church_guard`](#v-sullengard_church_guard) | NPC | Sullengard: [sullengard_church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard) | – |
+| [`loneford_chapelguard`](#v-loneford_chapelguard) | NPC | Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-loneford_chapelguard) | – |
+| [`sullengard_church_guard`](#v-sullengard_church_guard) | NPC | Sullengard: [Sullengard church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard) | – |
 
-## Loneford, Loneford4 (loneford_chapelguard) { #v-loneford_chapelguard }
+## Loneford, Loneford 4 (loneford_chapelguard) { #v-loneford_chapelguard }
 
 **Entry ID:** `loneford_chapelguard` · **Type:** NPC
 
-**Location:** Loneford: [loneford4](../maps/loneford4.md#pin-npc-loneford_chapelguard)
+**Location:** Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-loneford_chapelguard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Chapel guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Chapel guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_chapelguard.json" data-npc="Chapel guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-loneford_chapelguard-loneford_chapelguard"></span>**`loneford_chapelguard`** Chapel guard: “Walk with the Shadow, child.”
 
@@ -88,11 +88,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `sullengard_church_guard` · **Type:** NPC
 
-**Location:** Sullengard: [sullengard_church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard)
+**Location:** Sullengard: [Sullengard church](../maps/sullengard_church.md#pin-npc-sullengard_church_guard)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Chapel guard. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Chapel guard. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_church_guard.json" data-npc="Chapel guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -100,7 +100,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_church_guard-sullengard_church_guard"></span>**`sullengard_church_guard`** Chapel guard: “Walk with the Shadow, child”
 

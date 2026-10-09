@@ -35,7 +35,7 @@ description: "Corn is a ordinary food in Andor's Trail. How to get it: shops."
 ### Sold by
 
 - [Melona](../monsters/melona.md) (Brimhaven)
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -46,7 +46,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [stoutford_filler_1](../maps/stoutford_filler_1.md), stepping on a trigger on [stoutford_filler_2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “Oh, I have an idea. Let's leave some corn for it. Yeah, that should work to gain” |
+| stepping on a trigger on [Stoutford filler 1](../maps/stoutford_filler_1.md), stepping on a trigger on [Stoutford filler 2](../maps/stoutford_filler_2.md) | – | handed over (1×) | “Oh, I have an idea. Let's leave some corn for it. Yeah, that should work to gain” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

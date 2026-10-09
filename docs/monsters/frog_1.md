@@ -4,7 +4,7 @@ description: "River frog is an enemy in Andor's Trail (reptile) with 15 HP, wort
 
 # ![](../assets/icons/monsters/monsters_rltiles1_131.png){ .sprite } River frog
 
-**Found in:** Loneford: [fields11](../maps/fields11.md), Loneford: [fields7](../maps/fields7.md)
+**Found in:** Loneford: [Fields 11](../maps/fields11.md), Loneford: [Fields 7](../maps/fields7.md)
 
 <div class="infobox" markdown>
 
@@ -54,8 +54,8 @@ description: "River frog is an enemy in Andor's Trail (reptile) with 15 HP, wort
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fields11](../maps/fields11.md) | Loneford | 2 | – |
-| [fields7](../maps/fields7.md) | Loneford | 3 | – |
+| [Fields 11](../maps/fields11.md) | Loneford | 2 | – |
+| [Fields 7](../maps/fields7.md) | Loneford | 3 | – |
 
 
 ## Version history

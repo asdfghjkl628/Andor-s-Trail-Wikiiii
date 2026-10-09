@@ -1,10 +1,10 @@
 ---
-description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth 231 XP, found in blackwater_mountain74, blackwater_mountain74_h, blackwater_mountain75. Drops: Thin amphibian skin, Gold coins, Wizened amphibian boots, Battered amphibian gloves."
+description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth 231 XP, found in Blackwater mountain 74, Blackwater mountain 74 h, Blackwater mountain 75. Drops: Thin amphibian skin, Gold coins, Wizened amphibian boots, Battered amphibian gloves."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_9.png){ .sprite } Albino olm
 
-**Found in:** [blackwater_mountain74](../maps/blackwater_mountain74.md), [blackwater_mountain74_h](../maps/blackwater_mountain74_h.md), [blackwater_mountain75](../maps/blackwater_mountain75.md), [elm5f_1](../maps/elm5f_1.md) (+4 more)
+**Found in:** [Blackwater mountain 74](../maps/blackwater_mountain74.md), [Blackwater mountain 74 h](../maps/blackwater_mountain74_h.md), [Blackwater mountain 75](../maps/blackwater_mountain75.md), [Elm 5f 1](../maps/elm5f_1.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | blackwater_mountain74, blackwater_mountain74_h, blackwater_mountain75 |
+| **Found in** | Blackwater mountain 74, Blackwater mountain 74 h, Blackwater mountain 75 |
 | **Class** | Animal |
 | **HP** | 66 |
 | **XP when defeated** | 231 |
@@ -59,14 +59,14 @@ description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain74](../maps/blackwater_mountain74.md) | – | 7 | – |
-| [blackwater_mountain74_h](../maps/blackwater_mountain74_h.md) | – | 3 | – |
-| [blackwater_mountain75](../maps/blackwater_mountain75.md) | – | 8 | – |
-| [elm5f_1](../maps/elm5f_1.md) | – | 1 | – |
-| [elm_2f_1](../maps/elm_2f_1.md) | – | 2 | – |
-| [elm_mine2](../maps/elm_mine2.md) | – | 6 | – |
-| [elm_mine3](../maps/elm_mine3.md) | – | 2 | – |
-| [elm_mine4](../maps/elm_mine4.md) | – | 6 | – |
+| [Blackwater mountain 74](../maps/blackwater_mountain74.md) | – | 7 | – |
+| [Blackwater mountain 74 h](../maps/blackwater_mountain74_h.md) | – | 3 | – |
+| [Blackwater mountain 75](../maps/blackwater_mountain75.md) | – | 8 | – |
+| [Elm 5f 1](../maps/elm5f_1.md) | – | 1 | – |
+| [Elm 2f 1](../maps/elm_2f_1.md) | – | 2 | – |
+| [Elm mine 2](../maps/elm_mine2.md) | – | 6 | – |
+| [Elm mine 3](../maps/elm_mine3.md) | – | 2 | – |
+| [Elm mine 4](../maps/elm_mine4.md) | – | 6 | – |
 
 
 ## Version history

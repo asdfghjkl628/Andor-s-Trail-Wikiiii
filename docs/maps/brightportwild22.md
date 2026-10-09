@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild22 is an indoor location in Andor's Trail, in Brightport (settlement). Exits to Brightportwild7, Waytobrightport18."
+description: "Brightportwild 22 is an indoor location in Andor's Trail, in Brightport (settlement). Exits to Brightportwild 7, Waytobrightport 18."
 ---
 
-# Brightportwild22
+# Brightportwild 22
 
 <div class="infobox" markdown>
 
@@ -12,26 +12,26 @@ description: "Brightportwild22 is an indoor location in Andor's Trail, in Bright
 | **Region** | In Brightport (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 7×16 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild22** is an indoor map, in Brightport (settlement). It has no NPCs, and no enemies. Exits lead to Brightportwild7, Waytobrightport18.
+**Brightportwild 22** is an indoor map, in Brightport (settlement). It has no NPCs, and no enemies. Exits lead to Brightportwild 7, Waytobrightport 18.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild22.webp" alt="Map of Brightportwild22" width="224" height="512" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightportwild7/#place-north1" title="Exit to Brightportwild7" style="left:0.000%;top:93.750%;width:28.571%;height:6.250%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport18/#place-east" title="Exit to Waytobrightport18" style="left:0.000%;top:75.000%;width:14.286%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:14.286%;top:96.875%" title="Exit (southwest): to [Brightportwild7](brightportwild7.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:7.143%;top:81.250%" title="Exit (west): to [Waytobrightport18](waytobrightport18.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild22.webp" alt="Map of Brightportwild 22" width="224" height="512" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../brightportwild7/#place-north1" title="Exit to Brightportwild 7" style="left:0.000%;top:93.750%;width:28.571%;height:6.250%"></a><a id="place-west" class="mo mo-mapchange" href="../waytobrightport18/#place-east" title="Exit to Waytobrightport 18" style="left:0.000%;top:75.000%;width:14.286%;height:12.500%"></a><a class="pin pin-exit" href="#key-1" style="left:14.286%;top:96.875%" title="Exit (southwest): to [Brightportwild 7](brightportwild7.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:7.143%;top:81.250%" title="Exit (west): to [Waytobrightport 18](waytobrightport18.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (southwest) | to [Brightportwild7](brightportwild7.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrightport18](waytobrightport18.md) |
+    | <span id="key-1"></span>1 | Exit (southwest) | to [Brightportwild 7](brightportwild7.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Waytobrightport 18](waytobrightport18.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Brightportwild22 is an indoor location in Andor's Trail, in Bright
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| Southwest | [Brightportwild7](brightportwild7.md) | Brightport | 1 |
-| West | [Waytobrightport18](waytobrightport18.md) | Brightport | 2 |
+| Southwest | [Brightportwild 7](brightportwild7.md) | Brightport | 1 |
+| West | [Waytobrightport 18](waytobrightport18.md) | Brightport | 2 |
 
 
 ## Version history

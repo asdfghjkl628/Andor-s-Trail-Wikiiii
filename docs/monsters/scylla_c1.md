@@ -1,10 +1,10 @@
 ---
-description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 7573 XP, found in mountainlake32."
+description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 7573 XP, found in Mountainlake 32."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } Enraged Scylla
 
-**Found in:** [mountainlake32](../maps/mountainlake32.md)
+**Found in:** [Mountainlake 32](../maps/mountainlake32.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake32 |
+| **Found in** | Mountainlake 32 |
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 7,573 |
@@ -50,7 +50,7 @@ description: "Enraged Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
 
 
 ## Version history

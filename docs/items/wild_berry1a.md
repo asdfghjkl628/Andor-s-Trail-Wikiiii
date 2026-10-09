@@ -34,7 +34,7 @@ description: "Especially sweet wild berries is a ordinary food in Andor's Trail.
 
 ### Quest & dialogue rewards
 
-- From [Wild berries](../monsters/wild_berry.md) ([gapfiller2](../maps/gapfiller2.md)) (1×)
+- From [Wild berries](../monsters/wild_berry.md) ([Gapfiller 2](../maps/gapfiller2.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

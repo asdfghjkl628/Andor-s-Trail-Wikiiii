@@ -21,18 +21,18 @@ description: "Forenza is an NPC who can also be fought in Andor's Trail, found i
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Forenza. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Forenza. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, appearance, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`forenza`](#v-forenza) | NPC/Enemy | Lake Laeroth: [laerothbasement2](../maps/laerothbasement2.md#pin-npc-forenza) | – | 215 |
-| [`forenza_waytobrimhaven3`](#v-forenza_waytobrimhaven3) | NPC | Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3) | – | – |
+| [`forenza`](#v-forenza) | NPC/Enemy | Lake Laeroth: [Laerothbasement 2](../maps/laerothbasement2.md#pin-npc-forenza) | – | 215 |
+| [`forenza_waytobrimhaven3`](#v-forenza_waytobrimhaven3) | NPC | Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3) | – | – |
 
-## Lake Laeroth, Laerothbasement2 (forenza) { #v-forenza }
+## Lake Laeroth, Laerothbasement 2 (forenza) { #v-forenza }
 
 **Entry ID:** `forenza` · **Type:** NPC/Enemy
 
-**Location:** Lake Laeroth: [laerothbasement2](../maps/laerothbasement2.md#pin-npc-forenza)
+**Location:** Lake Laeroth: [Laerothbasement 2](../maps/laerothbasement2.md#pin-npc-forenza)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -71,16 +71,16 @@ description: "Forenza is an NPC who can also be fought in Andor's Trail, found i
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothbasement2](../maps/laerothbasement2.md) | Lake Laeroth | 1 | Appears later, during a quest |
+| [Laerothbasement 2](../maps/laerothbasement2.md) | Lake Laeroth | 1 | Appears later, during a quest |
 
 ### Quests
 
 - [The odd coin collector](../quests/odd_coin_collector.md): stages 41, 42, 43, 44, 45, 46, 47, 48, 50
-- [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stage 104
+- [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md): stage 104
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forenza. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forenza. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/forenza_island_selector.json" data-npc="Forenza" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -88,11 +88,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (32 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-forenza-forenza_island_selector"></span>**`forenza_island_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104))* → [forenza_island_injured](#d-forenza-forenza_island_injured)
+    - branch 1 *(if NOT reached stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104))* → [forenza_island_injured](#d-forenza-forenza_island_injured)
     - branch 2 → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
     <span id="d-forenza-forenza_island_injured"></span>**`forenza_island_injured`** Forenza: “Hey, you. I need your help!”
@@ -119,7 +119,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “And why is that?” → [forenza_island_20](#d-forenza-forenza_island_20)
 
-    <span id="d-forenza-forenza_island_injured_ointment"></span>**`forenza_island_injured_ointment`** Forenza: “Oh, that's wonderful. Thank you.” — **effects:** sets stage 42 of [The odd coin collector](../quests/odd_coin_collector.md#stage-42), sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_ointment"></span>**`forenza_island_injured_ointment`** Forenza: “Oh, that's wonderful. Thank you.” — **effects:** sets stage 42 of [The odd coin collector](../quests/odd_coin_collector.md#stage-42), sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_injured_help](#d-forenza-forenza_island_injured_help)
 
@@ -137,27 +137,27 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “How do you figure?” → [forenza_island_30](#d-forenza-forenza_island_30)
 
-    <span id="d-forenza-forenza_island_injured_help_bm"></span>**`forenza_island_injured_help_bm`** Forenza: “Oh, this stuff is great!” — **effects:** sets stage 43 of [The odd coin collector](../quests/odd_coin_collector.md#stage-43), sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_help_bm"></span>**`forenza_island_injured_help_bm`** Forenza: “Oh, this stuff is great!” — **effects:** sets stage 43 of [The odd coin collector](../quests/odd_coin_collector.md#stage-43), sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
-    <span id="d-forenza-forenza_island_injured_help_mph"></span>**`forenza_island_injured_help_mph`** Forenza: “This stuff tastes nasty, but I swear I can feel it helping already.” — **effects:** sets stage 44 of [The odd coin collector](../quests/odd_coin_collector.md#stage-44), sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_help_mph"></span>**`forenza_island_injured_help_mph`** Forenza: “This stuff tastes nasty, but I swear I can feel it helping already.” — **effects:** sets stage 44 of [The odd coin collector](../quests/odd_coin_collector.md#stage-44), sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
-    <span id="d-forenza-forenza_island_injured_help_lph"></span>**`forenza_island_injured_help_lph`** Forenza: “Oh, now this stuff feels like its healing power will last just a little bit longer.” — **effects:** sets stage 46 of [The odd coin collector](../quests/odd_coin_collector.md#stage-46), sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_help_lph"></span>**`forenza_island_injured_help_lph`** Forenza: “Oh, now this stuff feels like its healing power will last just a little bit longer.” — **effects:** sets stage 46 of [The odd coin collector](../quests/odd_coin_collector.md#stage-46), sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
-    <span id="d-forenza-forenza_island_injured_help_rph"></span>**`forenza_island_injured_help_rph`** Forenza: “Oh, this should help. Thank you.” — **effects:** sets stage 47 of [The odd coin collector](../quests/odd_coin_collector.md#stage-47), sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_help_rph"></span>**`forenza_island_injured_help_rph`** Forenza: “Oh, this should help. Thank you.” — **effects:** sets stage 47 of [The odd coin collector](../quests/odd_coin_collector.md#stage-47), sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
-    <span id="d-forenza-forenza_island_injured_help_minor_ph"></span>**`forenza_island_injured_help_minor_ph`** Forenza: “Oh, this should help. I guess.” — **effects:** sets stage 48 of [The odd coin collector](../quests/odd_coin_collector.md#stage-48), sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_help_minor_ph"></span>**`forenza_island_injured_help_minor_ph`** Forenza: “Oh, this should help. I guess.” — **effects:** sets stage 48 of [The odd coin collector](../quests/odd_coin_collector.md#stage-48), sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
-    <span id="d-forenza-forenza_island_injured_help_not"></span>**`forenza_island_injured_help_not`** Forenza: “You are a disappointment. Anyways...” — **effects:** sets stage 104 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
+    <span id="d-forenza-forenza_island_injured_help_not"></span>**`forenza_island_injured_help_not`** Forenza: “You are a disappointment. Anyways...” — **effects:** sets stage 104 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-104)
 
     - Next → [forenza_island_initial_phrase](#d-forenza-forenza_island_initial_phrase)
 
@@ -288,22 +288,22 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Brimhaven, Waytobrimhaven3 (forenza_waytobrimhaven3) { #v-forenza_waytobrimhaven3 }
+## Brimhaven, Waytobrimhaven 3 (forenza_waytobrimhaven3) { #v-forenza_waytobrimhaven3 }
 
 **Entry ID:** `forenza_waytobrimhaven3` · **Type:** NPC
 
-**Location:** Brimhaven: [waytobrimhaven3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3)
+**Location:** Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3)
 
 ### Quests
 
 - [The odd coin collector](../quests/odd_coin_collector.md): stages 60, 110, 115
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stages 44, 45, 47, 48
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 255
-- [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md): stages 106, 107, 108
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 255
+- [General story flags (hidden flag)](../quests/nondisplay.md): stages 44, 45, 47, 48
+- [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md): stages 106, 107, 108
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Forenza. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Forenza. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/forenza_waytobrimhaven3_initial_phrase.json" data-npc="Forenza" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -311,29 +311,29 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (36 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-forenza_waytobrimhaven3-forenza_waytobrimhaven3_initial_phrase"></span>**`forenza_waytobrimhaven3_initial_phrase`** Forenza: “Hey, kid, nice to see you again.”
 
     - “It's nice to see you too. Can we talk about the Korhald coins?” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-63) is 63; NOT reached stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60))* → [forenza_brimhaven_5](#d-forenza_waytobrimhaven3-forenza_brimhaven_5)
     - “Hey. I found the Korhald tomb and it had two items that I think might interest you.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-65) is 65; carry 1× [Shield of the Brave](../items/shield_of_brave.md); carry 1× [Coin of Prestige](../items/hero_coin.md))* → [forenza_korhald_cop_0](#d-forenza_waytobrimhaven3-forenza_korhald_cop_0)
     - “Hey. I found the Korhald tomb and it had two items that I think might interest you.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-65) is 65; wearing [Shield of the Brave](../items/shield_of_brave.md); carry 1× [Coin of Prestige](../items/hero_coin.md))* → [forenza_korhald_cop_0](#d-forenza_waytobrimhaven3-forenza_korhald_cop_0)
-    - “Inside the Korhald tomb, I found a locked chest. Do you know where I can find its key?” *(if reached stage 65 of [The odd coin collector](../quests/odd_coin_collector.md#stage-65); reached stage 50 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-50))* → [odd_coin_collector_ask_about_locked_chest](#d-forenza_waytobrimhaven3-odd_coin_collector_ask_about_locked_chest)
+    - “Inside the Korhald tomb, I found a locked chest. Do you know where I can find its key?” *(if reached stage 65 of [The odd coin collector](../quests/odd_coin_collector.md#stage-65); reached stage 50 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-50))* → [odd_coin_collector_ask_about_locked_chest](#d-forenza_waytobrimhaven3-odd_coin_collector_ask_about_locked_chest)
     - “I tried to get Gylew's key, but...” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-62) is 62)* → [forenza_korhald_gylew_not_dead](#d-forenza_waytobrimhaven3-forenza_korhald_gylew_not_dead)
     - “I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not…” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-50) is 50)* → *conversation ends*
     - “Hey. I need to go now and follow this map.” *(if latest stage of [The odd coin collector](../quests/odd_coin_collector.md#stage-60) is 60)* → *conversation ends*
     - “I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.” *(if reached stage 110 of [The odd coin collector](../quests/odd_coin_collector.md#stage-110); carry 3× [Mysterious coin](../items/mysterious_coin.md))* → [coin_collector_troll_coins](#d-forenza_waytobrimhaven3-coin_collector_troll_coins)
-    - “I visited your daughter Florencia in Brightport. She wishes you would come home more often.” *(if reached stage 254 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-254); NOT reached stage 255 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-255))* → [brightport_forenza](#d-forenza_waytobrimhaven3-brightport_forenza)
+    - “I visited your daughter Florencia in Brightport. She wishes you would come home more often.” *(if reached stage 254 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-254); NOT reached stage 255 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-255))* → [brightport_forenza](#d-forenza_waytobrimhaven3-brightport_forenza)
     - “We have no more business to discuss. I'll see you later.” *(if reached stage 110 of [The odd coin collector](../quests/odd_coin_collector.md#stage-110))* → *conversation ends*
     - “I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.” *(if reached stage 115 of [The odd coin collector](../quests/odd_coin_collector.md#stage-115); carry 3× [Mysterious coin](../items/mysterious_coin.md))* → [coin_collector_troll_coins](#d-forenza_waytobrimhaven3-coin_collector_troll_coins)
     - “I hope that these coins will enable you to make peace with your father. Take care.” *(if reached stage 115 of [The odd coin collector](../quests/odd_coin_collector.md#stage-115))* → *conversation ends*
-    - “[Lie] I have these bronze and silver coins that I "acquired" in a game of chance. I would like to know if you are…” *(if reached stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106); reached stage 80 of [Wanted men](../quests/wanted_men.md#stage-80); carry 60× [Silver coin](../items/silver_coin.md); carry 50× [Bronze coin](../items/bronze_coin.md); NOT reached stage 107 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-107))* → [coin_collector_thief_coins_10](#d-forenza_waytobrimhaven3-coin_collector_thief_coins_10)
+    - “[Lie] I have these bronze and silver coins that I "acquired" in a game of chance. I would like to know if you are…” *(if reached stage 106 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-106); reached stage 80 of [Wanted men](../quests/wanted_men.md#stage-80); carry 60× [Silver coin](../items/silver_coin.md); carry 50× [Bronze coin](../items/bronze_coin.md); NOT reached stage 107 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-107))* → [coin_collector_thief_coins_10](#d-forenza_waytobrimhaven3-coin_collector_thief_coins_10)
 
     <span id="d-forenza_waytobrimhaven3-forenza_brimhaven_5"></span>**`forenza_brimhaven_5`** Forenza: “Do you have Gylew's key?”
 
     - “Yes, and I also have the chest. Here, take them. [You give both items to Forenza]” *(if hand over 1× [Gylew's key](../items/gylew_key.md); hand over 1× [Korhald coin chest](../items/korhald_coins.md))* → [forenza_brimhaven_10](#d-forenza_waytobrimhaven3-forenza_brimhaven_10)
     - “Yes, but I don't have the chest.” *(if carry 1× [Gylew's key](../items/gylew_key.md); NOT carry 1× [Korhald coin chest](../items/korhald_coins.md))* → [forenza_brimhaven_15](#d-forenza_waytobrimhaven3-forenza_brimhaven_15)
-    - “What are you talking about? I already gave it to you along with the chest I found on the island.” *(if reached stage 108 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-108); NOT reached stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60))* → [forenza_brimhaven_11](#d-forenza_waytobrimhaven3-forenza_brimhaven_11)
+    - “What are you talking about? I already gave it to you along with the chest I found on the island.” *(if reached stage 108 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-108); NOT reached stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60))* → [forenza_brimhaven_11](#d-forenza_waytobrimhaven3-forenza_brimhaven_11)
     - “No” *(if NOT carry 1× [Gylew's key](../items/gylew_key.md))* → [forenza_brimhaven_15](#d-forenza_waytobrimhaven3-forenza_brimhaven_15)
 
     <span id="d-forenza_waytobrimhaven3-forenza_korhald_cop_0"></span>**`forenza_korhald_cop_0`** Forenza: “Oh, really?! Let me see them and we can talk more.”
@@ -353,14 +353,14 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “What can you tell me about their enchantment?” → [coin_collector_troll_coins_2](#d-forenza_waytobrimhaven3-coin_collector_troll_coins_2)
     - “Boring.” → *conversation ends*
 
-    <span id="d-forenza_waytobrimhaven3-brightport_forenza"></span>**`brightport_forenza`** Forenza: “Yes... maybe I should do that sometime. Take care, $playername.” — **effects:** sets stage 255 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-255)
+    <span id="d-forenza_waytobrimhaven3-brightport_forenza"></span>**`brightport_forenza`** Forenza: “Yes... maybe I should do that sometime. Take care, $playername.” — **effects:** sets stage 255 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-255)
 
 
     <span id="d-forenza_waytobrimhaven3-coin_collector_thief_coins_10"></span>**`coin_collector_thief_coins_10`** Forenza: “Sure. Let's see what you have.”
 
     - “[Show the coins]” → [coin_collector_thief_coins_20](#d-forenza_waytobrimhaven3-coin_collector_thief_coins_20)
 
-    <span id="d-forenza_waytobrimhaven3-forenza_brimhaven_10"></span>**`forenza_brimhaven_10`** [Dummy NPC](../monsters/none.md): “With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.” — **effects:** sets stage 108 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-108)
+    <span id="d-forenza_waytobrimhaven3-forenza_brimhaven_10"></span>**`forenza_brimhaven_10`** [Dummy NPC](../monsters/none.md): “With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.” — **effects:** sets stage 108 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-108)
 
     - Next → [korhald_chest_examine_10](#d-forenza_waytobrimhaven3-korhald_chest_examine_10)
 
@@ -425,7 +425,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Sounds like a great deal. I'll take it.” *(if hand over 1× [Coin of Prestige](../items/hero_coin.md))* → [forenza_korhald_cop_50](#d-forenza_waytobrimhaven3-forenza_korhald_cop_50)
     - “Let me think about it. I will be back shortly.” → [forenza_korhald_41](#d-forenza_waytobrimhaven3-forenza_korhald_41)
 
-    <span id="d-forenza_waytobrimhaven3-forenza_korhald_cop_35"></span>**`forenza_korhald_cop_35`** Forenza: “Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport, seek out my family. They will reward you for all of your generosity and hard work.” — **effects:** sets stage 115 of [The odd coin collector](../quests/odd_coin_collector.md#stage-115), clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
+    <span id="d-forenza_waytobrimhaven3-forenza_korhald_cop_35"></span>**`forenza_korhald_cop_35`** Forenza: “Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport, seek out my family. They will reward you for all of your generosity and hard work.” — **effects:** sets stage 115 of [The odd coin collector](../quests/odd_coin_collector.md#stage-115), clears stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
 
 
     <span id="d-forenza_waytobrimhaven3-coin_collector_thief_coins_40"></span>**`coin_collector_thief_coins_40`** Forenza: “These silver coins hold the captivating history of a nomadic people, a seafaring tribe whose exploits were as boundless as the horizon. Born from the hands of skilled minters among the maritime wanderers, these coins tell the tale of the…”
@@ -436,17 +436,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [korhald_chest_examine_50](#d-forenza_waytobrimhaven3-korhald_chest_examine_50)
 
-    <span id="d-forenza_waytobrimhaven3-forenza_korhald_cop_50"></span>**`forenza_korhald_cop_50`** Forenza: “Excellent. Come see me if you ever find any more interesting coins.” — **effects:** gives [Gold coins](../items/gold.md), sets stage 110 of [The odd coin collector](../quests/odd_coin_collector.md#stage-110), clears stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
+    <span id="d-forenza_waytobrimhaven3-forenza_korhald_cop_50"></span>**`forenza_korhald_cop_50`** Forenza: “Excellent. Come see me if you ever find any more interesting coins.” — **effects:** gives [Gold coins](../items/gold.md), sets stage 110 of [The odd coin collector](../quests/odd_coin_collector.md#stage-110), clears stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47), sets stage 106 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-106)
 
 
-    <span id="d-forenza_waytobrimhaven3-forenza_korhald_41"></span>**`forenza_korhald_41`** Forenza: “OK, but don't keep this coin collector waiting too long. I want that coin.” — **effects:** sets stage 47 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-47)
+    <span id="d-forenza_waytobrimhaven3-forenza_korhald_41"></span>**`forenza_korhald_41`** Forenza: “OK, but don't keep this coin collector waiting too long. I want that coin.” — **effects:** sets stage 47 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-47)
 
 
     <span id="d-forenza_waytobrimhaven3-coin_collector_thief_coins_45"></span>**`coin_collector_thief_coins_45`** Forenza: “The silver pieces depict a mighty ship sailing under the moonlit sky, capturing the essence of the Ocean Nomads' freedom and unity. Legends speak of these coins being crafted during the tribe's grand gatherings, where sailors from various…”
 
     - “So they are priceless?” → [coin_collector_thief_coins_50](#d-forenza_waytobrimhaven3-coin_collector_thief_coins_50)
 
-    <span id="d-forenza_waytobrimhaven3-korhald_chest_examine_50"></span>**`korhald_chest_examine_50`** Forenza: “Here, take the map and the pendant. If you need me, I'll be here for a little bit longer.” — **effects:** gives 1× [Mysterious Korhald map](../items/korhald_map.md), sets stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60), gives 1× [Mysterious Korhald pendant](../items/korhald_chamber_key.md), sets stage 44 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-44), sets stage 45 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-45), sets stage 48 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-48)
+    <span id="d-forenza_waytobrimhaven3-korhald_chest_examine_50"></span>**`korhald_chest_examine_50`** Forenza: “Here, take the map and the pendant. If you need me, I'll be here for a little bit longer.” — **effects:** gives 1× [Mysterious Korhald map](../items/korhald_map.md), sets stage 60 of [The odd coin collector](../quests/odd_coin_collector.md#stage-60), gives 1× [Mysterious Korhald pendant](../items/korhald_chamber_key.md), sets stage 44 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-44), sets stage 45 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-45), sets stage 48 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-48)
 
 
     <span id="d-forenza_waytobrimhaven3-coin_collector_thief_coins_50"></span>**`coin_collector_thief_coins_50`** Forenza: “[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past, a glimpse into the underground world where alliances were forged in secrecy. I'd be willing to make you an…”
@@ -466,7 +466,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “That little? No, thanks” → *conversation ends*
     - “Well, something is better than nothing.” *(if hand over 5× [Silver coin](../items/silver_coin.md); hand over 5× [Bronze coin](../items/bronze_coin.md))* → [coin_collector_thief_coins_70](#d-forenza_waytobrimhaven3-coin_collector_thief_coins_70)
 
-    <span id="d-forenza_waytobrimhaven3-coin_collector_thief_coins_70"></span>**`coin_collector_thief_coins_70`** Forenza: “Thank you so much.” — **effects:** gives 160× [Gold coins](../items/gold.md), sets stage 107 of [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-107)
+    <span id="d-forenza_waytobrimhaven3-coin_collector_thief_coins_70"></span>**`coin_collector_thief_coins_70`** Forenza: “Thank you so much.” — **effects:** gives 160× [Gold coins](../items/gold.md), sets stage 107 of [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-107)
 
 
 

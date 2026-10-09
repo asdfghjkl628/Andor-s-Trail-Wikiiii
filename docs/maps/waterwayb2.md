@@ -1,8 +1,8 @@
 ---
-description: "Waterwayb2 is an outdoor location in Andor's Trail. Enemies: Aggressive caterpillar, Creeping fungus. Exits to Waterwayb3, Waterwayb1."
+description: "Waterwayb 2 is an outdoor location in Andor's Trail. Enemies: Aggressive caterpillar, Creeping fungus. Exits to Waterwayb 3, Waterwayb 1."
 ---
 
-# Waterwayb2
+# Waterwayb 2
 
 <div class="infobox" markdown>
 
@@ -11,27 +11,27 @@ description: "Waterwayb2 is an outdoor location in Andor's Trail. Enemies: Aggre
 | **Map ID** | `waterwayb2` |
 | **Type** | Outdoors |
 | **Size** | 22×13 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Waterwayb2** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waterwayb3, Waterwayb1.
+**Waterwayb 2** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Waterwayb 3, Waterwayb 1.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterwayb2.webp" alt="Map of Waterwayb2" width="704" height="416" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../waterwayb3/#place-south" title="Exit to Waterwayb3" style="left:36.364%;top:0.000%;width:4.545%;height:7.692%"></a><a id="place-east" class="mo mo-mapchange" href="../waterwayb1/#place-west" title="Exit to Waterwayb1" style="left:95.455%;top:30.769%;width:4.545%;height:30.769%"></a><span class="mo mo-spawn" title="Spawns: Aggressive caterpillar" style="left:54.545%;top:30.769%;width:27.273%;height:30.769%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:36.364%;top:15.385%;width:22.727%;height:30.769%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:72.727%;top:15.385%;width:18.182%;height:46.154%"></span><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:63.636%;top:30.769%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:63.636%;top:46.154%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:77.273%;top:53.846%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:36.364%;top:15.385%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:72.727%;top:38.462%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="pin pin-exit" href="#key-1" style="left:38.636%;top:3.846%" title="Exit (north): to [Waterwayb3](waterwayb3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.727%;top:46.154%" title="Exit (east): to [Waterwayb1](waterwayb1.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/waterwayb2.webp" alt="Map of Waterwayb 2" width="704" height="416" loading="lazy"><a id="place-north" class="mo mo-mapchange" href="../waterwayb3/#place-south" title="Exit to Waterwayb 3" style="left:36.364%;top:0.000%;width:4.545%;height:7.692%"></a><a id="place-east" class="mo mo-mapchange" href="../waterwayb1/#place-west" title="Exit to Waterwayb 1" style="left:95.455%;top:30.769%;width:4.545%;height:30.769%"></a><span class="mo mo-spawn" title="Spawns: Aggressive caterpillar" style="left:54.545%;top:30.769%;width:27.273%;height:30.769%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:36.364%;top:15.385%;width:22.727%;height:30.769%"></span><span class="mo mo-spawn" title="Spawns: Creeping fungus" style="left:72.727%;top:15.385%;width:18.182%;height:46.154%"></span><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:63.636%;top:30.769%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:63.636%;top:46.154%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayacaterpillar/" title="Aggressive caterpillar" style="left:77.273%;top:53.846%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_rltiles4_39.png" alt="Aggressive caterpillar"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:36.364%;top:15.385%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="mob" href="../../monsters/waterwayamushroom/" title="Creeping fungus" style="left:72.727%;top:38.462%;width:4.545%;height:7.692%"><img src="../../assets/icons/monsters/monsters_ld2_30.png" alt="Creeping fungus"></a><a class="pin pin-exit" href="#key-1" style="left:38.636%;top:3.846%" title="Exit (north): to [Waterwayb 3](waterwayb3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.727%;top:46.154%" title="Exit (east): to [Waterwayb 1](waterwayb1.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Waterwayb3](waterwayb3.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Waterwayb1](waterwayb1.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Waterwayb 3](waterwayb3.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Waterwayb 1](waterwayb1.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Waterwayb2 is an outdoor location in Andor's Trail. Enemies: Aggre
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Waterwayb3](waterwayb3.md) | – | 1 |
-| East | [Waterwayb1](waterwayb1.md) | Loneford | 2 |
+| North | [Waterwayb 3](waterwayb3.md) | – | 1 |
+| East | [Waterwayb 1](waterwayb1.md) | Loneford | 2 |
 
 ## Enemies
 

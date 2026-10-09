@@ -51,7 +51,7 @@ description: "Leather gloves of attack is a ordinary gloves, leather in Andor's 
 
 ### Found in containers
 
-- [elm_mine2](../maps/elm_mine2.md#container-2) (container 3, 25%)
+- [Elm mine 2](../maps/elm_mine2.md#container-2) (container 3, 25%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

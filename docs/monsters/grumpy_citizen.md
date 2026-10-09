@@ -4,7 +4,7 @@ description: "Grumpy citizen is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_men_2.png){ .sprite } Grumpy citizen
 
-**Where to find Grumpy citizen:** Fallhaven: [fallhaven_ne](../maps/fallhaven_ne.md#pin-npc-grumpy_citizen)
+**Where to find Grumpy citizen:** Fallhaven: [Fallhaven north-east](../maps/fallhaven_ne.md#pin-npc-grumpy_citizen)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Grumpy citizen is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Grumpy citizen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Grumpy citizen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_citizen5.json" data-npc="Grumpy citizen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-fallhaven_citizen5"></span>**`fallhaven_citizen5`** Grumpy citizen: “Out of the way, peasant.”
 

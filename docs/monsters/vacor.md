@@ -4,7 +4,7 @@ description: "Vacor is an NPC who can also be fought in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } Vacor
 
-**Where to find Vacor:** Fallhaven: [fallhaven_sw](../maps/fallhaven_sw.md#pin-npc-vacor)
+**Where to find Vacor:** Fallhaven: [Fallhaven south-west](../maps/fallhaven_sw.md#pin-npc-vacor)
 
 <div class="infobox" markdown>
 
@@ -61,7 +61,7 @@ description: "Vacor is an NPC who can also be fought in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [fallhaven_sw](../maps/fallhaven_sw.md) | Fallhaven | 1 | – |
+| [Fallhaven south-west](../maps/fallhaven_sw.md) | Fallhaven | 1 | – |
 
 ## Quests
 
@@ -70,7 +70,7 @@ description: "Vacor is an NPC who can also be fought in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Vacor. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Vacor. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/vacor.json" data-npc="Vacor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -78,7 +78,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (68 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-vacor"></span>**`vacor`** *(silent check: the first matching branch below is taken)*
 
@@ -372,7 +372,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “What are you, some kind of adventurer? Hm. Maybe you can be of use to…” → “What are you, some kind of adventurer? Hmm. Maybe you can be of use t…”<br>· text: “After years of work, I can't seem to remember the last parts of the s…” → “After years of work, I can't seem to remember the last parts of the s…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Ok, find the four pieces of my rift spell that the bandits took, and …” → “OK, find the four pieces of my rift spell that the bandits took, and …”<br>· text: “(Vacor opens the sealed message and starts reading)” → “[Vacor opens the sealed message and starts reading]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

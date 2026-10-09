@@ -41,7 +41,7 @@ description: "Ring of far lesser Shadow is a legendary ring in Andor's Trail (At
 
 ### Quest & dialogue rewards
 
-- From [Rorthron](../monsters/guynmart_wizard.md) ([guynmart_tower_4](../maps/guynmart_tower_4.md)) during [Ringmaker (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1) (100%)
+- From [Rorthron](../monsters/guynmart_wizard.md) ([Guynmart tower 4](../maps/guynmart_tower_4.md)) during [Guynmart quest wizard (hidden flag)](../quests/guynmart_quest_wizard.md#stage-1) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

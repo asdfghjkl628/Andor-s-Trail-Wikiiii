@@ -1,10 +1,10 @@
 ---
-description: "Plague groundberry is an enemy in Andor's Trail (construct) with 149 HP, worth 588 XP, found in sullengard_woods11, sullengard_woods12, sullengard_woods3. Drops: Poison gland, Poisonous spores."
+description: "Plague groundberry is an enemy in Andor's Trail (construct) with 149 HP, worth 588 XP, found in Sullengard woods 11, Sullengard woods 12, Sullengard woods 3. Drops: Poison gland, Poisonous spores."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik4_12.png){ .sprite } Plague groundberry
 
-**Found in:** [sullengard_woods11](../maps/sullengard_woods11.md), [sullengard_woods12](../maps/sullengard_woods12.md), [sullengard_woods3](../maps/sullengard_woods3.md), [sullengard_woods4](../maps/sullengard_woods4.md) (+2 more)
+**Found in:** [Sullengard woods 11](../maps/sullengard_woods11.md), [Sullengard woods 12](../maps/sullengard_woods12.md), [Sullengard woods 3](../maps/sullengard_woods3.md), [Sullengard woods 4](../maps/sullengard_woods4.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Plague groundberry is an enemy in Andor's Trail (construct) with 1
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | sullengard_woods11, sullengard_woods12, sullengard_woods3 |
+| **Found in** | Sullengard woods 11, Sullengard woods 12, Sullengard woods 3 |
 | **Class** | Construct |
 | **HP** | 149 |
 | **XP when defeated** | 588 |
@@ -61,12 +61,12 @@ description: "Plague groundberry is an enemy in Andor's Trail (construct) with 1
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard_woods11](../maps/sullengard_woods11.md) | – | 2 | – |
-| [sullengard_woods12](../maps/sullengard_woods12.md) | – | 6 | – |
-| [sullengard_woods3](../maps/sullengard_woods3.md) | – | 3 | – |
-| [sullengard_woods4](../maps/sullengard_woods4.md) | – | 5 | – |
-| [sullengard_woods5](../maps/sullengard_woods5.md) | – | 8 | – |
-| [sullengard_woods7](../maps/sullengard_woods7.md) | – | 1 | – |
+| [Sullengard woods 11](../maps/sullengard_woods11.md) | – | 2 | – |
+| [Sullengard woods 12](../maps/sullengard_woods12.md) | – | 6 | – |
+| [Sullengard woods 3](../maps/sullengard_woods3.md) | – | 3 | – |
+| [Sullengard woods 4](../maps/sullengard_woods4.md) | – | 5 | – |
+| [Sullengard woods 5](../maps/sullengard_woods5.md) | – | 8 | – |
+| [Sullengard woods 7](../maps/sullengard_woods7.md) | – | 1 | – |
 
 
 ## Version history

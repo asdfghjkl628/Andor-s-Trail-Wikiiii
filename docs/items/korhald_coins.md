@@ -27,7 +27,7 @@ description: "Korhald coin chest is a quest other in Andor's Trail. How to get i
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [laerothbasement2](../maps/laerothbasement2.md) during [The odd coin collector](../quests/odd_coin_collector.md#stage-40) (1×)
+- From stepping on a trigger on [Laerothbasement 2](../maps/laerothbasement2.md) during [The odd coin collector](../quests/odd_coin_collector.md#stage-40) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,9 +38,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | – | must be carried (1×) | “Yes.” |
-| [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-105) | handed over (1×) | “Here you go.” |
-| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)) | [laeroth_nondisplay (hidden flag)](../quests/laeroth_nondisplay.md#stage-108) | handed over (1×) | “Yes, and I also have the chest. Here, take them. [You give both items to Forenza” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | – | must be carried (1×) | “Yes.” |
+| [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-105) | handed over (1×) | “Here you go.” |
+| [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)) | [Laeroth story flags (hidden flag)](../quests/laeroth_nondisplay.md#stage-108) | handed over (1×) | “Yes, and I also have the chest. Here, take them. [You give both items to Forenza” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

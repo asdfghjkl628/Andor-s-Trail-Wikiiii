@@ -28,22 +28,22 @@ description: "Lich dust is a rare other in Andor's Trail. How to get it: monster
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 11% | 1 | undertell_4_01, undertell_5 |
-| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 11% | 1 | undertell_4_00, undertell_4_10, undertell_4_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 11% | 1 | undertell_4_00, undertell_4_11, undertell_7_11 |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 11% | 1 | undertell_4_00, undertell_4_01, undertell_4_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md) | 10% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_11 |
-| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 10% | 1 | undertell_3_lava_01, undertell_3_lava_10 |
-| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 10% | 1 | undertell_3_lava_00 |
-| [Plague-Lich](../monsters/plague_lich.md) | 9% | 1 | undertell_10, undertell_11, undertell_21 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 9% | 1 | undertell_3_lava_10, undertell_3_lava_11, undertell_4_10 |
-| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 9% | 1 | undertell_3_lava_00 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 8% | 1 | undertell_11, undertell_12, undertell_21 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 8% | 1 | undertell_10, undertell_11, undertell_21 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 8% | 1 | undertell_00, undertell_10, undertell_12 |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_others) | 8% | 1 | undertell_11 |
-| [Drybone lich](../monsters/drybone_lich.md) | 5% | 1 | undertell_00, undertell_10, undertell_11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md) | 11% | 1 | Undertell 4 01, Undertell 5 |
+| [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 11% | 1 | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 11% | 1 | Undertell 4 00, Undertell 4 10, Undertell 4 11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 11% | 1 | Undertell 4 00, Undertell 4 11, Undertell 7 11 |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 11% | 1 | Undertell 4 00, Undertell 4 01, Undertell 4 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md) | 10% | 1 | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 11 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_plague) | 10% | 1 | Undertell 3 lava 01, Undertell 3 lava 10 |
+| [Dreadstaff lich](../monsters/dreadblade.md#v-dreadstaff_help_liches) | 10% | 1 | Undertell 3 lava 00 |
+| [Plague-Lich](../monsters/plague_lich.md) | 9% | 1 | Undertell 10, Undertell 11, Undertell 21 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md) | 9% | 1 | Undertell 3 lava 10, Undertell 3 lava 11, Undertell 4 10 |
+| [Kazaul Hex-Binder lich](../monsters/hexbinder.md#v-hexbinder_help_liches) | 9% | 1 | Undertell 3 lava 00 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 8% | 1 | Undertell 11, Undertell 12, Undertell 21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 8% | 1 | Undertell 10, Undertell 11, Undertell 21 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 8% | 1 | Undertell 00, Undertell 10, Undertell 12 |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_others) | 8% | 1 | Undertell 11 |
+| [Drybone lich](../monsters/drybone_lich.md) | 5% | 1 | Undertell 00, Undertell 10, Undertell 11 |
 | [Drybone lich](../monsters/drybone_lich.md#v-drybone_lich_help_liches) | 5% | 1 | – |
 
 

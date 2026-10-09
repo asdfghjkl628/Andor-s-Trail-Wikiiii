@@ -28,9 +28,9 @@ description: "Nausea is a harmful physical condition in Andor's Trail: attack ch
 | Attack chance | −10 |
 | Block chance | −10 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -50,33 +50,33 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Aggresive woodworm](../monsters/elm_woodworm2.md) | When you hit it | 2 | 2 rounds | 30% | elm_2f_1, elm_3f, elm_4f_1 |
-| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | When you hit it | 4 | 3 rounds | 20% | elm5f_1, elm5f_2, elm_4f_1 |
-| [Contaminated olm](../monsters/bwm_olm5.md) | When you hit it | 2 | 2 rounds | 15% | elm_2f_1, elm_3f, elm_4f_1 |
-| [Contaminated woodworm](../monsters/elm_woodworm.md) | When you hit it | 2 | 3 rounds | 30% | elm_2f_1, elm_3f, elm_4f_1 |
-| [Dried kazarite golem](../monsters/elm_golem2.md) | When you hit it | 4 | 4 rounds | 15% | elm5f_1, elm5f_2, elm_3f |
-| [Glowing mudfiend](../monsters/elm_fiend1.md) | When you hit it | 3 | 3 rounds | 20% | elm5f_2, elm_2f_1, elm_3f |
-| [Kazarite golem](../monsters/elm_golem1.md) | When you hit it | 3 | 5 rounds | 15% | elm5f_1, elm5f_2, elm_3f |
-| [King Sullengard forest snake](../monsters/sullengard_venom_snake_king.md) | When it hits you | 3 | 5 rounds | 43% | way_to_sullengard_east8 |
-| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | When it hits you | 3 | 4 rounds | 49% | way_to_sullengard_east1 |
-| [Plague groundberry](../monsters/plague_groundberry.md) | When it hits you | 2 | 2 rounds | 25% | sullengard_woods11, sullengard_woods12, sullengard_woods3 |
-| [Prim guard skeleton](../monsters/elm_miner4.md) | When you hit it | 5 | 2 rounds | 25% | elm5f_1, elm5f_2, elm_4f_1 |
-| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | When it hits you | 3 | 5 rounds | 43% | way_to_sullengard_east9 |
-| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | When you hit it | 3 | 5 rounds | 30% | elm5f_2, elm_2f_1, elm_3f |
+| [Aggresive woodworm](../monsters/elm_woodworm2.md) | When you hit it | 2 | 2 rounds | 30% | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Contaminated miner's skeleton](../monsters/elm_miner3.md) | When you hit it | 4 | 3 rounds | 20% | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Contaminated olm](../monsters/bwm_olm5.md) | When you hit it | 2 | 2 rounds | 15% | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Contaminated woodworm](../monsters/elm_woodworm.md) | When you hit it | 2 | 3 rounds | 30% | Elm 2f 1, Elm 3f, Elm 4f 1 |
+| [Dried kazarite golem](../monsters/elm_golem2.md) | When you hit it | 4 | 4 rounds | 15% | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [Glowing mudfiend](../monsters/elm_fiend1.md) | When you hit it | 3 | 3 rounds | 20% | Elm 5f 2, Elm 2f 1, Elm 3f |
+| [Kazarite golem](../monsters/elm_golem1.md) | When you hit it | 3 | 5 rounds | 15% | Elm 5f 1, Elm 5f 2, Elm 3f |
+| [King Sullengard forest snake](../monsters/sullengard_venom_snake_king.md) | When it hits you | 3 | 5 rounds | 43% | Way to sullengard east 8 |
+| [King yellow tooth slitherer](../monsters/yellow_tooth_king.md) | When it hits you | 3 | 4 rounds | 49% | Way to sullengard east 1 |
+| [Plague groundberry](../monsters/plague_groundberry.md) | When it hits you | 2 | 2 rounds | 25% | Sullengard woods 11, Sullengard woods 12, Sullengard woods 3 |
+| [Prim guard skeleton](../monsters/elm_miner4.md) | When you hit it | 5 | 2 rounds | 25% | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
+| [Queen Sullengard forest snake](../monsters/sullengard_venom_snake_queen.md) | When it hits you | 3 | 5 rounds | 43% | Way to sullengard east 9 |
+| [Ravenous glowing mudfiend](../monsters/elm_fiend2.md) | When you hit it | 3 | 5 rounds | 30% | Elm 5f 2, Elm 2f 1, Elm 3f |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | When it hits you | 3 | 5 rounds | 40% | Sullengard |
-| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | When it hits you | 3 | 5 rounds | 50% | sullengard_west_ravine, sullengard_woods1, sullengard_woods13 |
-| [Undead Kamelio](../monsters/kamelio2.md) | When you hit it | 4 | 2 rounds | 30% | elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | When you hit it | 5 | 3 rounds | 20% | elm5f_1, elm5f_2 |
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | When you hit it | 5 | 2 rounds | 20% | elm5f_1, elm5f_2 |
+| [Sullengard red forest snake](../monsters/sull_red_forest_snake.md) | When it hits you | 3 | 5 rounds | 50% | Sullengard west ravine, Sullengard woods 1, Sullengard woods 13 |
+| [Undead Kamelio](../monsters/kamelio2.md) | When you hit it | 4 | 2 rounds | 30% | Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | When you hit it | 5 | 3 rounds | 20% | Elm 5f 1, Elm 5f 2 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | When you hit it | 5 | 2 rounds | 20% | Elm 5f 1, Elm 5f 2 |
 | [Yellow tooth slitherer](../monsters/yellow_tooth.md) | When it hits you | 3 | 4 rounds | 42% | Deebo's Orchard |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) | – | 6 rounds |
-| walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-29) | 12 rounds |
-| stepping on a trigger on [elm5f_1](../maps/elm5f_1.md), stepping on a trigger on [elm5f_2](../maps/elm5f_2.md) | – | 5 rounds |
+| walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) | – | 6 rounds |
+| walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-29) | 12 rounds |
+| stepping on a trigger on [Elm 5f 1](../maps/elm5f_1.md), stepping on a trigger on [Elm 5f 2](../maps/elm5f_2.md) | – | 5 rounds |
 
 ## Applied to enemies
 
@@ -91,14 +91,14 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Removed by** [Deebo's apple cider](../items/apple_orchard_cider.md) (when used).
 - **Removed by** [Pink potion of stomach calming](../items/pink_potion.md) (when used).
 - **Immunity** from [Boletus spelunca](../items/elm_mushroom1.md) (when used; 75 rounds).
 - **Immunity** from [Kazarite cloak](../items/kamelio_drop3.md) (while equipped; while equipped).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

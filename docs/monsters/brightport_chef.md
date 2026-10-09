@@ -4,7 +4,7 @@ description: "Androni is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_ld1_23.png){ .sprite } Androni
 
-**Where to find Androni:** Brightport: [brightport_bakery1](../maps/brightport_bakery1.md#pin-npc-brightport_chef)
+**Where to find Androni:** Brightport: [Brightport bakery 1](../maps/brightport_bakery1.md#pin-npc-brightport_chef)
 
 <div class="infobox" markdown>
 
@@ -21,11 +21,11 @@ description: "Androni is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md): stage 188
+- [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md): stage 188
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Androni. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Androni. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_androni.json" data-npc="Androni" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,7 +33,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_androni"></span>**`brightport_androni`** Androni: “Ah hello, like the smell?”
 
@@ -42,13 +42,13 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brightport_androni1"></span>**`brightport_androni1`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if reached stage 188 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-188))* → [brightport_androni2](#d-brightport_androni2)
-    - Next *(if NOT reached stage 188 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-188))* → [brightport_androni3](#d-brightport_androni3)
+    - Next *(if reached stage 188 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-188))* → [brightport_androni2](#d-brightport_androni2)
+    - Next *(if NOT reached stage 188 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-188))* → [brightport_androni3](#d-brightport_androni3)
 
     <span id="d-brightport_androni2"></span>**`brightport_androni2`** Androni: “I already gave you some, don't be cheeky.”
 
 
-    <span id="d-brightport_androni3"></span>**`brightport_androni3`** Androni: “You want some? Here, I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.” — **effects:** sets stage 188 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-188), gives 1× [Raw dough](../items/dough.md), gives 1× [Butter](../items/butter.md)
+    <span id="d-brightport_androni3"></span>**`brightport_androni3`** Androni: “You want some? Here, I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.” — **effects:** sets stage 188 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-188), gives 1× [Raw dough](../items/dough.md), gives 1× [Butter](../items/butter.md)
 
 
 

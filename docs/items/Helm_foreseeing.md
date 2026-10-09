@@ -48,7 +48,7 @@ description: "Helm of Foreseeing is a legendary headwear, metal (light) in Andor
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Cave troll shaman](../monsters/cave_troll_4.md) | 0.01% | 1 | lakecave0, lakecave2 |
+| [Cave troll shaman](../monsters/cave_troll_4.md) | 0.01% | 1 | Lakecave 0, Lakecave 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

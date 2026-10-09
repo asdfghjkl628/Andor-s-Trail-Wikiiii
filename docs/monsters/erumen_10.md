@@ -1,10 +1,10 @@
 ---
-description: "Erumen forest lizard matriarch is an enemy in Andor's Trail (reptile) with 114 HP, worth 309 XP, found in lodar6. Drops: Gold coins, Glass gem."
+description: "Erumen forest lizard matriarch is an enemy in Andor's Trail (reptile) with 114 HP, worth 309 XP, found in Lodar 6. Drops: Gold coins, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_79.png){ .sprite } Erumen forest lizard matriarch
 
-**Found in:** [lodar6](../maps/lodar6.md)
+**Found in:** [Lodar 6](../maps/lodar6.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Erumen forest lizard matriarch is an enemy in Andor's Trail (repti
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar6 |
+| **Found in** | Lodar 6 |
 | **Class** | Reptile |
 | **HP** | 114 |
 | **XP when defeated** | 309 |
@@ -55,7 +55,7 @@ description: "Erumen forest lizard matriarch is an enemy in Andor's Trail (repti
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar6](../maps/lodar6.md) | – | 1 | – |
+| [Lodar 6](../maps/lodar6.md) | – | 1 | – |
 
 
 ## Version history

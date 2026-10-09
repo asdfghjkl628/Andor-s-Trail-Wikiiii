@@ -11,9 +11,9 @@ description: "No weakness is a quest in Andor's Trail, started by Herec (blackwa
 | **Quest ID** | `bwm_wyrms` |
 | **In journal** | Yes |
 | **Stages** | 3 (completes at 30) |
-| **Started by** | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) |
+| **Started by** | [Herec](../monsters/herec.md) ([Blackwater mountain 44](../maps/blackwater_mountain44.md)) |
 | **NPCs involved** | [Herec](../monsters/herec.md) |
-| **Locations** | [blackwater_mountain44](../maps/blackwater_mountain44.md) |
+| **Locations** | [Blackwater mountain 44](../maps/blackwater_mountain44.md) |
 | **Total XP** | 1,500 |
 
 </div>
@@ -24,7 +24,7 @@ description: "No weakness is a quest in Andor's Trail, started by Herec (blackwa
 
 ## Prerequisites to start
 
-Start with [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)). Required:
+Start with [Herec](../monsters/herec.md) ([Blackwater mountain 44](../maps/blackwater_mountain44.md)). Required:
 
 - reached stage 10 of [No weakness](../quests/bwm_wyrms.md#stage-10)
 
@@ -39,29 +39,53 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Herec on the second level of the Blackwater mountain settlement is researching the white wyrms outside the settlement. He wants me to bring him 5 white wyrm claws so that he can continue his research. Apparently, only some of the wyrms have these claws. I will have to kill some to find them. | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) | – | – |
-| <span id="stage-20"></span>20 | I have given the 5 white wyrm claws to Herec. | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) | hand over 5× [White wyrm claw](../items/bwm_claws.md), stage 10 | – |
-| <span id="stage-30"></span>30 | Herec has finished making a potion of fatigue restoration that will be very useful when fighting against the wyrms in the future. **(completes quest)** | [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) | stage 20 | 1,500 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Herec on the second level of the Blackwater mountain settlement is… ▸</span><span class="l">▴ less</span></summary>Herec on the second level of the Blackwater mountain settlement is researching the white wyrms outside the settlement. He wants me to bring him 5 white wyrm claws so that he can continue his research. Apparently, only some of the wyrms have these claws. I will have to kill some to find them.</details> | [Herec](../monsters/herec.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | I have given the 5 white wyrm claws to Herec. | [Herec](../monsters/herec.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | <details class="jt"><summary><span class="s">Herec has finished making a potion of fatigue restoration that will… ▸</span><span class="l">▴ less</span></summary>Herec has finished making a potion of fatigue restoration that will be very useful when fighting against the wyrms in the future.</details> **(ends quest)** | [Herec](../monsters/herec.md) | 1,500 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) → choose “I haven't found everything yet. But I am working on it.” — **conditions:** reached stage 10 of [No weakness](../quests/bwm_wyrms.md#stage-10) → **stage 10**. NPC: “Good. Thank you. Please hurry back so I can continue my research on these beasts.”
+??? note "Stage 10 · Herec · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Herec](../monsters/herec.md), choose “I haven't found everything yet. But I am working on it.”
 
-    1. Talk to [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) → choose “I have found what you asked for.” — **conditions:** reached stage 10 of [No weakness](../quests/bwm_wyrms.md#stage-10); hand over 5× [White wyrm claw](../items/bwm_claws.md) → **stage 20**. NPC: “Very well done my friend! These will be very valuable in my research.”
+    - **Needs:** stage 10
+    - *“Good. Thank you. Please hurry back so I can continue my research on these beasts.”*
 
-???+ note "Stage 30: 1 route"
 
-    1. Talk to [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [No weakness](../quests/bwm_wyrms.md#stage-20) → **stage 30**. NPC: “Now I am able to create effective potions that contain some essence of the white wyrms. These potions will be very…”
+<span id="route-20"></span>
+
+??? note "Stage 20 · Herec · 1 way"
+
+    **Way 1:** Talk to [Herec](../monsters/herec.md), choose “I have found what you asked for.”
+
+    - **Needs:** stage 10; hand over 5× [White wyrm claw](../items/bwm_claws.md)
+    - *“Very well done my friend! These will be very valuable in my research.”*
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Herec · 1 way"
+
+    **Way 1:** Talk to [Herec](../monsters/herec.md), automatic
+
+    - **Needs:** stage 20
+    - *“Now I am able to create effective potions that contain some essence of the white wyrms. These potions will be very useful in future…”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

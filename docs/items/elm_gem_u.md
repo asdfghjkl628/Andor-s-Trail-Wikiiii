@@ -27,7 +27,7 @@ description: "Unknown gem (extracted from the Elm mine) is a quest gem in Andor'
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [elm_mine5](../maps/elm_mine5.md) during [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-29) (1×)
+- From walking into a blocked passage on [Elm mine 5](../maps/elm_mine5.md) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-29) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

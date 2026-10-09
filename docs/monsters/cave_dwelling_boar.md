@@ -4,7 +4,7 @@ description: "Cave dwelling boar is an enemy in Andor's Trail (animal) with 35 H
 
 # ![](../assets/icons/monsters/monsters_dogs_6.png){ .sprite } Cave dwelling boar
 
-**Found in:** Foaming Flask Tavern: [wild14](../maps/wild14.md), Foaming Flask Tavern: [wild14_cave](../maps/wild14_cave.md), Foaming Flask Tavern: [wild15](../maps/wild15.md)
+**Found in:** Foaming Flask Tavern: [Wild 14](../maps/wild14.md), Foaming Flask Tavern: [Wild 14 cave](../maps/wild14_cave.md), Foaming Flask Tavern: [Wild 15](../maps/wild15.md)
 
 <div class="infobox" markdown>
 
@@ -57,9 +57,9 @@ description: "Cave dwelling boar is an enemy in Andor's Trail (animal) with 35 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild14](../maps/wild14.md) | Foaming Flask Tavern | 2 | – |
-| [wild14_cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 1 | – |
-| [wild15](../maps/wild15.md) | Foaming Flask Tavern | 2 | – |
+| [Wild 14](../maps/wild14.md) | Foaming Flask Tavern | 2 | – |
+| [Wild 14 cave](../maps/wild14_cave.md) | Foaming Flask Tavern | 1 | – |
+| [Wild 15](../maps/wild15.md) | Foaming Flask Tavern | 2 | – |
 
 
 ## Version history

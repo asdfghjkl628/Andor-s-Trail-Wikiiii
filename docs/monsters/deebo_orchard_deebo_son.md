@@ -4,7 +4,7 @@ description: "Howkin is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } Howkin
 
-**Where to find Howkin:** Deebo's Orchard: [deebo_orchard_house](../maps/deebo_orchard_house.md#pin-npc-deebo_orchard_deebo_son)
+**Where to find Howkin:** Deebo's Orchard: [Deebo orchard house](../maps/deebo_orchard_house.md#pin-npc-deebo_orchard_deebo_son)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Howkin is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Howkin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Howkin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/deebo_orchard_howkin.json" data-npc="Howkin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-deebo_orchard_howkin"></span>**`deebo_orchard_howkin`** Howkin: “Hey there. What are you here for? A job, maybe?”
 

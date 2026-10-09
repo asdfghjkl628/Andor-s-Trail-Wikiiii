@@ -1,10 +1,10 @@
 ---
-description: "Contaminated miner's skeleton is an enemy in Andor's Trail (undead) with 101 HP, worth 383 XP, found in elm5f_1, elm5f_2, elm_4f_1. Drops: Bone, Human skull, Gold coins, Small empty vial."
+description: "Contaminated miner's skeleton is an enemy in Andor's Trail (undead) with 101 HP, worth 383 XP, found in Elm 5f 1, Elm 5f 2, Elm 4f 1. Drops: Bone, Human skull, Gold coins, Small empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_17.png){ .sprite } Contaminated miner's skeleton
 
-**Found in:** [elm5f_1](../maps/elm5f_1.md), [elm5f_2](../maps/elm5f_2.md), [elm_4f_1](../maps/elm_4f_1.md), [elm_4f_3](../maps/elm_4f_3.md) (+1 more)
+**Found in:** [Elm 5f 1](../maps/elm5f_1.md), [Elm 5f 2](../maps/elm5f_2.md), [Elm 4f 1](../maps/elm_4f_1.md), [Elm 4f 3](../maps/elm_4f_3.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Contaminated miner's skeleton is an enemy in Andor's Trail (undead
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | elm5f_1, elm5f_2, elm_4f_1 |
+| **Found in** | Elm 5f 1, Elm 5f 2, Elm 4f 1 |
 | **Class** | Undead |
 | **HP** | 101 |
 | **XP when defeated** | 383 |
@@ -66,11 +66,11 @@ description: "Contaminated miner's skeleton is an enemy in Andor's Trail (undead
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [elm5f_1](../maps/elm5f_1.md) | – | 8 | – |
-| [elm5f_2](../maps/elm5f_2.md) | – | 7 | – |
-| [elm_4f_1](../maps/elm_4f_1.md) | – | 2 | – |
-| [elm_4f_3](../maps/elm_4f_3.md) | – | 2 | – |
-| [elm_4f_4](../maps/elm_4f_4.md) | – | 2 | – |
+| [Elm 5f 1](../maps/elm5f_1.md) | – | 8 | – |
+| [Elm 5f 2](../maps/elm5f_2.md) | – | 7 | – |
+| [Elm 4f 1](../maps/elm_4f_1.md) | – | 2 | – |
+| [Elm 4f 3](../maps/elm_4f_3.md) | – | 2 | – |
+| [Elm 4f 4](../maps/elm_4f_4.md) | – | 2 | – |
 
 
 ## Version history

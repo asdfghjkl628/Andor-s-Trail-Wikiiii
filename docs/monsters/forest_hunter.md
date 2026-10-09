@@ -1,10 +1,10 @@
 ---
-description: "Forest hunter is an enemy in Andor's Trail (insect) with 90 HP, worth 356 XP, found in haunted_forest1, haunted_forest13, haunted_forest14. Drops: Spider eggs, Dead spider."
+description: "Forest hunter is an enemy in Andor's Trail (insect) with 90 HP, worth 356 XP, found in Haunted forest 1, Haunted forest 13, Haunted forest 14. Drops: Spider eggs, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik10_50.png){ .sprite } Forest hunter
 
-**Found in:** [haunted_forest1](../maps/haunted_forest1.md), [haunted_forest13](../maps/haunted_forest13.md), [haunted_forest14](../maps/haunted_forest14.md), [haunted_forest15](../maps/haunted_forest15.md) (+13 more)
+**Found in:** [Haunted forest 1](../maps/haunted_forest1.md), [Haunted forest 13](../maps/haunted_forest13.md), [Haunted forest 14](../maps/haunted_forest14.md), [Haunted forest 15](../maps/haunted_forest15.md) (+13 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Forest hunter is an enemy in Andor's Trail (insect) with 90 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | haunted_forest1, haunted_forest13, haunted_forest14 |
+| **Found in** | Haunted forest 1, Haunted forest 13, Haunted forest 14 |
 | **Class** | Insect |
 | **HP** | 90 |
 | **XP when defeated** | 356 |
@@ -57,23 +57,23 @@ description: "Forest hunter is an enemy in Andor's Trail (insect) with 90 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [haunted_forest1](../maps/haunted_forest1.md) | – | 4 | – |
-| [haunted_forest13](../maps/haunted_forest13.md) | – | 1 | – |
-| [haunted_forest14](../maps/haunted_forest14.md) | – | 3 | – |
-| [haunted_forest15](../maps/haunted_forest15.md) | – | 2 | – |
-| [haunted_forest16](../maps/haunted_forest16.md) | – | 1 | – |
-| [haunted_forest19](../maps/haunted_forest19.md) | – | 1 | – |
-| [haunted_forest2](../maps/haunted_forest2.md) | – | 3 | – |
-| [haunted_forest25](../maps/haunted_forest25.md) | – | 2 | – |
-| [haunted_forest3](../maps/haunted_forest3.md) | – | 2 | – |
-| [haunted_forest4](../maps/haunted_forest4.md) | – | 2 | – |
-| [haunted_forest5](../maps/haunted_forest5.md) | – | 2 | – |
-| [haunted_forest6](../maps/haunted_forest6.md) | – | 2 | – |
-| [haunted_forest8](../maps/haunted_forest8.md) | – | 1 | – |
-| [haunted_forest9](../maps/haunted_forest9.md) | – | 1 | – |
-| [haunted_forest_filler](../maps/haunted_forest_filler.md) | – | 2 | – |
-| [haunted_forest_way_to_house4](../maps/haunted_forest_way_to_house4.md) | – | 1 | – |
-| [vilegard_sullengard_filler1](../maps/vilegard_sullengard_filler1.md) | – | 2 | – |
+| [Haunted forest 1](../maps/haunted_forest1.md) | – | 4 | – |
+| [Haunted forest 13](../maps/haunted_forest13.md) | – | 1 | – |
+| [Haunted forest 14](../maps/haunted_forest14.md) | – | 3 | – |
+| [Haunted forest 15](../maps/haunted_forest15.md) | – | 2 | – |
+| [Haunted forest 16](../maps/haunted_forest16.md) | – | 1 | – |
+| [Haunted forest 19](../maps/haunted_forest19.md) | – | 1 | – |
+| [Haunted forest 2](../maps/haunted_forest2.md) | – | 3 | – |
+| [Haunted forest 25](../maps/haunted_forest25.md) | – | 2 | – |
+| [Haunted forest 3](../maps/haunted_forest3.md) | – | 2 | – |
+| [Haunted forest 4](../maps/haunted_forest4.md) | – | 2 | – |
+| [Haunted forest 5](../maps/haunted_forest5.md) | – | 2 | – |
+| [Haunted forest 6](../maps/haunted_forest6.md) | – | 2 | – |
+| [Haunted forest 8](../maps/haunted_forest8.md) | – | 1 | – |
+| [Haunted forest 9](../maps/haunted_forest9.md) | – | 1 | – |
+| [Haunted forest filler](../maps/haunted_forest_filler.md) | – | 2 | – |
+| [Haunted forest way to house 4](../maps/haunted_forest_way_to_house4.md) | – | 1 | – |
+| [Vilegard sullengard filler 1](../maps/vilegard_sullengard_filler1.md) | – | 2 | – |
 
 
 ## Version history

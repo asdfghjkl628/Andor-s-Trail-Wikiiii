@@ -41,7 +41,7 @@ description: "Mysterious Korhald pendant is a quest necklace in Andor's Trail (M
 
 ### Quest & dialogue rewards
 
-- From [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([waytobrimhaven3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([waterway5](../maps/waterway5.md)) during [The odd coin collector](../quests/odd_coin_collector.md#stage-60) (1×)
+- From [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3) ([Waytobrimhaven 3](../maps/waytobrimhaven3.md)), [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) during [The odd coin collector](../quests/odd_coin_collector.md#stage-60) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -52,10 +52,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| walking into a blocked passage on [korhald_cave2](../maps/korhald_cave2.md) | – | must be carried (1×) | “(automatic)” |
-| walking into a blocked passage on [korhald_cave2](../maps/korhald_cave2.md) | – | must be worn (1×) | “(automatic)” |
-| stepping on a trigger on [korhald_cave2](../maps/korhald_cave2.md) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-43) | must be carried (1×) | “(automatic)” |
-| stepping on a trigger on [korhald_cave2](../maps/korhald_cave2.md) | [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-43) | must be worn (1×) | “(automatic)” |
+| walking into a blocked passage on [Korhald cave 2](../maps/korhald_cave2.md) | – | must be carried (1×) | “(automatic)” |
+| walking into a blocked passage on [Korhald cave 2](../maps/korhald_cave2.md) | – | must be worn (1×) | “(automatic)” |
+| stepping on a trigger on [Korhald cave 2](../maps/korhald_cave2.md) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-43) | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [Korhald cave 2](../maps/korhald_cave2.md) | [General story flags (hidden flag)](../quests/nondisplay.md#stage-43) | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

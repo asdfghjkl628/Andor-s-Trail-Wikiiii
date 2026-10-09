@@ -27,7 +27,7 @@ description: "Dragon claw is a quest animal part in Andor's Trail. How to get it
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [white_house_basement](../maps/white_house_basement.md), stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) during [The fifth master](../quests/fifth_master.md#stage-72) (1×)
+- From walking into a blocked passage on [White house basement](../maps/white_house_basement.md), stepping on a trigger on [White house basement](../maps/white_house_basement.md) during [The fifth master](../quests/fifth_master.md#stage-72) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -38,7 +38,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [white_house_basement](../maps/white_house_basement.md) | – | must be carried (1×) | “(automatic)” |
+| stepping on a trigger on [White house basement](../maps/white_house_basement.md) | – | must be carried (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

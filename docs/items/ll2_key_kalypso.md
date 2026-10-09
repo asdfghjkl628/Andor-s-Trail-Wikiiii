@@ -25,7 +25,7 @@ description: "Wooden green key from Kalypso is a quest other in Andor's Trail. H
 
 ### Quest & dialogue rewards
 
-- From [Kalypso](../monsters/kalypso.md) ([mountainlake14](../maps/mountainlake14.md)) during [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-24) (1×)
+- From [Kalypso](../monsters/kalypso.md) ([Mountainlake 14](../maps/mountainlake14.md)) during [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-24) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -36,8 +36,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [mountainlake_sub](../maps/mountainlake_sub.md) | [Lake Laeroth nondisplay (hidden flag)](../quests/ll2_nd.md#stage-111) | handed over (1×) | “Use Kalypso's key.” |
-| stepping on a trigger on [mountainlake_sub](../maps/mountainlake_sub.md) | – | handed over (1×) | “Use Kalypso's key.” |
+| stepping on a trigger on [Mountainlake sub](../maps/mountainlake_sub.md) | [Lake Laeroth story flags (hidden flag)](../quests/ll2_nd.md#stage-111) | handed over (1×) | “Use Kalypso's key.” |
+| stepping on a trigger on [Mountainlake sub](../maps/mountainlake_sub.md) | – | handed over (1×) | “Use Kalypso's key.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

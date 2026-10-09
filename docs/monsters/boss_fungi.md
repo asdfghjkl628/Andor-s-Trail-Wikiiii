@@ -1,10 +1,10 @@
 ---
-description: "Great fungi is an enemy in Andor's Trail (animal) with 175 HP, worth 316 XP, found in mushroom_m3_2. Drops: Spores of the giant mushroom, Bogsten's mushroom."
+description: "Great fungi is an enemy in Andor's Trail (animal) with 175 HP, worth 316 XP, found in Mushroom m 3 2. Drops: Spores of the giant mushroom, Bogsten's mushroom."
 ---
 
 # ![](../assets/icons/monsters/monsters_bosses_2x2_0.png){ .sprite } Great fungi
 
-**Found in:** [mushroom_m3_2](../maps/mushroom_m3_2.md)
+**Found in:** [Mushroom m 3 2](../maps/mushroom_m3_2.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Great fungi is an enemy in Andor's Trail (animal) with 175 HP, wor
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mushroom_m3_2 |
+| **Found in** | Mushroom m 3 2 |
 | **Class** | Animal |
 | **HP** | 175 |
 | **XP when defeated** | 316 |
@@ -57,11 +57,11 @@ description: "Great fungi is an enemy in Andor's Trail (animal) with 175 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m3_2](../maps/mushroom_m3_2.md) | – | 1 | – |
+| [Mushroom m 3 2](../maps/mushroom_m3_2.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-90) with stepping on a trigger on [mushroom_m3_2](../maps/mushroom_m3_2.md) checks that this enemy has been defeated.
+- [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-90) with stepping on a trigger on [Mushroom m 3 2](../maps/mushroom_m3_2.md) checks that this enemy has been defeated.
 
 
 ## Version history

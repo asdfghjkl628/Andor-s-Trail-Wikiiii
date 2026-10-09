@@ -61,8 +61,8 @@ description: "Stoutford church is an indoor location in Andor's Trail, in Stoutf
 - [Search for Andor](../quests/andor.md): [Yolgen](../monsters/yolgen.md) is involved
 - [Stoutford's old castle](../quests/stoutford_castle.md): [Tahalendor](../monsters/tahalendor.md) is involved; [Yolgen](../monsters/yolgen.md) is involved
 - [The thorns of vengeance](../quests/thorns_vengeance.md): [Tahalendor](../monsters/tahalendor.md) is involved
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): [Tahalendor](../monsters/tahalendor.md) is involved
-- [Placeholder for hidden quest stages 2 (not displayed) (hidden flag)](../quests/nondisplay_2.md): [Yolgen](../monsters/yolgen.md) is involved
+- [General story flags (hidden flag)](../quests/nondisplay.md): [Tahalendor](../monsters/tahalendor.md) is involved
+- [General story flags 2 (hidden flag)](../quests/nondisplay_2.md): [Yolgen](../monsters/yolgen.md) is involved
 
 
 ## Version history

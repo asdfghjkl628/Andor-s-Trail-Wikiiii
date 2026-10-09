@@ -4,7 +4,7 @@ description: "Wild berries is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/items_japozero_488.png){ .sprite } Wild berries
 
-**Where to find Wild berries:** Deebo's Orchard: [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md#pin-npc-wild_berry), Fallhaven: [gapfiller2](../maps/gapfiller2.md#pin-npc-wild_berry), Fallhaven: [wild9](../maps/wild9.md#pin-npc-wild_berry), Guynmart Castle: [guynmart_wood_10](../maps/guynmart_wood_10.md#pin-npc-wild_berry) (+3 more)
+**Where to find Wild berries:** Deebo's Orchard: [Way to sullengard east 7](../maps/way_to_sullengard_east7.md#pin-npc-wild_berry), Fallhaven: [Gapfiller 2](../maps/gapfiller2.md#pin-npc-wild_berry), Fallhaven: [Wild 9](../maps/wild9.md#pin-npc-wild_berry), Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-wild_berry) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -23,17 +23,17 @@ description: "Wild berries is a non-player character (NPC) in Andor's Trail, fou
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gapfiller2](../maps/gapfiller2.md) | Fallhaven | 3 | Appears later, during a quest |
-| [guynmart_wood_10](../maps/guynmart_wood_10.md) | Guynmart Castle | 4 | Appears later, during a quest |
-| [guynmart_wood_11](../maps/guynmart_wood_11.md) | Guynmart Castle | 5 | Appears later, during a quest |
-| [guynmart_wood_8](../maps/guynmart_wood_8.md) | Guynmart Castle | 3 | Appears later, during a quest |
-| [way_to_sullengard_east7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 3 | Appears later, during a quest |
-| [way_to_sullengard_east8](../maps/way_to_sullengard_east8.md) | – | 3 | Appears later, during a quest |
-| [wild9](../maps/wild9.md) | Fallhaven | 5 | Appears later, during a quest |
+| [Gapfiller 2](../maps/gapfiller2.md) | Fallhaven | 3 | Appears later, during a quest |
+| [Guynmart wood 10](../maps/guynmart_wood_10.md) | Guynmart Castle | 4 | Appears later, during a quest |
+| [Guynmart wood 11](../maps/guynmart_wood_11.md) | Guynmart Castle | 5 | Appears later, during a quest |
+| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 3 | Appears later, during a quest |
+| [Way to sullengard east 7](../maps/way_to_sullengard_east7.md) | Deebo's Orchard | 3 | Appears later, during a quest |
+| [Way to sullengard east 8](../maps/way_to_sullengard_east8.md) | – | 3 | Appears later, during a quest |
+| [Wild 9](../maps/wild9.md) | Fallhaven | 5 | Appears later, during a quest |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Wild berries. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Wild berries. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chk_wild_berry1.json" data-npc="Wild berries" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,11 +41,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-chk_wild_berry1"></span>**`chk_wild_berry1`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT wearing [Gardener's gloves](../items/gardener_gloves.md); reached stage 110 of [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110))* → [chk_wild_berry_50](#d-chk_wild_berry_50)
+    - branch 1 *(if NOT wearing [Gardener's gloves](../items/gardener_gloves.md); reached stage 110 of [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md#stage-110))* → [chk_wild_berry_50](#d-chk_wild_berry_50)
     - branch 2 *(if random chance (5%))* → [chk_wild_berry1_20](#d-chk_wild_berry1_20)
     - branch 3 → [chk_wild_berry1_10](#d-chk_wild_berry1_10)
 

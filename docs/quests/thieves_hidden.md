@@ -1,8 +1,8 @@
 ---
-description: "Thieves Hidden is a hidden quest in Andor's Trail, started by Ambelie (foaming_flask). 11 stages. Must be never fulfilled"
+description: "Thieves story flags is a hidden quest in Andor's Trail, started by Ambelie (foaming_flask). 11 stages. Must be never fulfilled"
 ---
 
-# Thieves Hidden
+# Thieves story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "Thieves Hidden is a hidden quest in Andor's Trail, started by Ambe
 | **Quest ID** | `thieves_hidden` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 11 |
-| **Started by** | [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)), [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) |
+| **Started by** | [Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md)), [Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md)) |
 | **NPCs involved** | [Ambelie](../monsters/ambelie.md), [Dying Patrol](../monsters/g03_deadpatrol_2.md), [Dying patrol](../monsters/g03_deadpatrol_1.md), [Feygard patrol sergeant](../monsters/g03_sergeant.md), [Thoronir](../monsters/thoronir.md), [Troublemaker](../monsters/troublemaker.md) |
-| **Locations** | [crackshot_hideout2](../maps/crackshot_hideout2.md), [crackshot_hideout3](../maps/crackshot_hideout3.md), [fallhaven_church](../maps/fallhaven_church.md), [fallhaven_derelict2](../maps/fallhaven_derelict2.md) |
+| **Locations** | [Crackshot hideout 2](../maps/crackshot_hideout2.md), [Crackshot hideout 3](../maps/crackshot_hideout3.md), [Fallhaven church](../maps/fallhaven_church.md), [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) |
 | **Related quests** | 6 |
 
 </div>
@@ -27,11 +27,11 @@ description: "Thieves Hidden is a hidden quest in Andor's Trail, started by Ambe
 
 ## Prerequisites to start
 
-**Route 1** ([Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md))):
+**Route 1** ([Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md))):
 
 - reached stage 15 of [Immaculate kidnapping](../quests/Thieves02.md#stage-15)
 
-**Route 2** ([Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md))):
+**Route 2** ([Ambelie](../monsters/ambelie.md) ([Foaming flask](../maps/foaming_flask.md))):
 
 - reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21)
 
@@ -51,7 +51,7 @@ description: "Thieves Hidden is a hidden quest in Andor's Trail, started by Ambe
 | Requires | [Immaculate kidnapping](Thieves02.md#stage-15) | stage 15 reached, for stage 20 here |
 | Requires | [Immaculate kidnapping](Thieves02.md#stage-21) | stage 21 reached, for stage 20 here |
 | Requires | [Disallowed substance](bonemeal.md#stage-100) | stage 100 reached, for stage 80 here |
-| Requires | [scores (hidden flag)](scores.md#stage-18) | stage 18 reached, for stage 80 here |
+| Requires | [Score counters (hidden flag)](scores.md#stage-18) | stage 18 reached, for stage 80 here |
 | Mutually exclusive | [Thief apprentice](Thieves01.md#stage-50) | stage 50 must NOT be reached, for stage 80 here |
 | Mutually exclusive | [Thief apprentice](Thieves01.md#stage-60) | stage 60 must NOT be reached, for stages 100, 110 here |
 | Mutually exclusive | [The ruthless Crackshot](Thieves03.md#stage-40) | stage 40 must NOT be reached, for stage 30 here |
@@ -61,69 +61,148 @@ description: "Thieves Hidden is a hidden quest in Andor's Trail, started by Ambe
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Must be never fulfilled<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven gravedigger](../maps/fallhaven_gravedigger.md).</span> | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-20"></span>20 | Block road1 | [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) | – | sets stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20)<br>removes monsters from foaming_flask<br>spawns monsters on road1<br>applies condition carrying_ambelie<br>gives 1× [Sapphire Necklace](../items/g02_ambelie.md)<br>sets stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24) |
-| <span id="stage-30"></span>30 | Spoke to dying Crackshot. Remove block road1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout3](../maps/crackshot_hideout3.md).</span><br><span class="qnote">🗺️ Part of [Road1](../maps/road1.md) visibly changes.</span> | stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | sets stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40)<br>clears stage 20 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-20)<br>removes monsters from road1 |
-| <span id="stage-40"></span>40 | thieves3 - Found patrol 1<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout2](../maps/crackshot_hideout2.md).</span> | [Dying patrol](../monsters/g03_deadpatrol_1.md) ([crackshot_hideout2](../maps/crackshot_hideout2.md)) | – | removes monsters from crackshot_hideout2 |
-| <span id="stage-50"></span>50 | thieves3 - Found patrol 2<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout2](../maps/crackshot_hideout2.md).</span> | [Dying Patrol](../monsters/g03_deadpatrol_2.md) ([crackshot_hideout2](../maps/crackshot_hideout2.md)) | stage 40 | removes monsters from crackshot_hideout2 |
-| <span id="stage-60"></span>60 | thieves3 - Open chest<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout3](../maps/crackshot_hideout3.md).</span> | stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) | – | – |
-| <span id="stage-70"></span>70 | thieves3 - Open door (can currently not be fulfilled, beause the blessed key of luthor can't be obtained in the game) | walking into a blocked passage on [crackshot_hideout3](../maps/crackshot_hideout3.md) | carry 1× [Blessed key of luthor](../items/g03_luthor2.md) | – |
-| <span id="stage-80"></span>80 | Talked about thieves to Thoronir | [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) | – | – |
-| <span id="stage-90"></span>90 | Sergeant died. | [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) | – | removes monsters from crackshot_hideout3 |
-| <span id="stage-100"></span>100 | Gave journals | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | hand over 1× [Dunla's Journal](../items/Dunla_journal.md), hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md), hand over 1× [Leta's Journal](../items/Leta_journal.md) | – |
-| <span id="stage-110"></span>110 | Got reward | [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | stage 100 | sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60)<br>gives 900× [Gold coins](../items/gold.md) |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>10 | Must be never fulfilled<br><span class="qnote">🔓 You can finally access a previously blocked area on [Fallhaven gravedigger](../maps/fallhaven_gravedigger.md).</span> | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-20"></span>[20](#route-20) | Block road1 | [Ambelie](../monsters/ambelie.md) | varies by route (see below) |
+| <span id="stage-30"></span>[30](#route-30) | Spoke to dying Crackshot. Remove block road1<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout 3](../maps/crackshot_hideout3.md).</span><br><span class="qnote">🗺️ Part of [Road 1](../maps/road1.md) visibly changes.</span> | stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md) | sets stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40), removes monsters from road1 |
+| <span id="stage-40"></span>[40](#route-40) | thieves3 - Found patrol 1<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout 2](../maps/crackshot_hideout2.md).</span> | [Dying patrol](../monsters/g03_deadpatrol_1.md) | removes monsters from crackshot_hideout2 |
+| <span id="stage-50"></span>[50](#route-50) | thieves3 - Found patrol 2<br><span class="qnote">🔓 You can finally access a previously blocked area on [Crackshot hideout 2](../maps/crackshot_hideout2.md).</span> | [Dying Patrol](../monsters/g03_deadpatrol_2.md) | removes monsters from crackshot_hideout2 |
+| <span id="stage-60"></span>[60](#route-60) | thieves3 - Open chest<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Crackshot hideout 3](../maps/crackshot_hideout3.md).</span> | stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – |
+| <span id="stage-70"></span>[70](#route-70) | <details class="jt"><summary><span class="s">thieves3 - Open door (can currently not be fulfilled, beause the… ▸</span><span class="l">▴ less</span></summary>thieves3 - Open door (can currently not be fulfilled, beause the blessed key of luthor can't be obtained in the game)</details> | walking into a blocked passage on [Crackshot hideout 3](../maps/crackshot_hideout3.md) | – |
+| <span id="stage-80"></span>[80](#route-80) | Talked about thieves to Thoronir | [Thoronir](../monsters/thoronir.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | Sergeant died. | [Feygard patrol sergeant](../monsters/g03_sergeant.md) | removes monsters from crackshot_hideout3 |
+| <span id="stage-100"></span>[100](#route-100) | Gave journals | [Troublemaker](../monsters/troublemaker.md) | – |
+| <span id="stage-110"></span>[110](#route-110) | Got reward | [Troublemaker](../monsters/troublemaker.md) | sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60), 900× [Gold coins](../items/gold.md) |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 20: 2 routes"
+<span id="route-20"></span>
 
-    1. Talk to [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) → choose “(Knock her out) Time to sleep!” — **conditions:** reached stage 15 of [Immaculate kidnapping](../quests/Thieves02.md#stage-15) → **stage 20**; also sets stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20), removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie. NPC: “(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)”
-    2. Talk to [Ambelie](../monsters/ambelie.md) ([foaming_flask](../maps/foaming_flask.md)) → choose “Give me something of value, and you won't see me again.” — **conditions:** reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21) → **stage 20**; also gives 1× [Sapphire Necklace](../items/g02_ambelie.md), sets stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24), spawns monsters on road1. NPC: “Take this and leave me, please.”
+??? note "Stage 20 · Ambelie · 2 ways"
 
-???+ note "Stage 30: 1 route"
+    **Way 1:** Talk to [Ambelie](../monsters/ambelie.md), choose “(Knock her out) Time to sleep!”
 
-    1. stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) → choose “What are you talking about?” — **conditions:** killed 1× [Crackshot](../monsters/g03_crackshot.md); NOT reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40) → **stage 30**; also sets stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40), clears stage 20 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-20), removes monsters from road1. NPC: “The key is cursed .... She ... I am ... (Crackshot finally dies, emitting a soft bluish breath)”
+    - **Needs:** reached stage 15 of [Immaculate kidnapping](../quests/Thieves02.md#stage-15)
+    - **Gives:** sets stage 20 of [Immaculate kidnapping](../quests/Thieves02.md#stage-20), removes monsters from foaming_flask, spawns monsters on road1, applies condition carrying_ambelie
+    - *“(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)”*
 
-???+ note "Stage 40: 1 route"
+    **Way 2:** Talk to [Ambelie](../monsters/ambelie.md), choose “Give me something of value, and you won't see me again.”
 
-    1. Talk to [Dying patrol](../monsters/g03_deadpatrol_1.md) ([crackshot_hideout2](../maps/crackshot_hideout2.md)) → the conversation leads here automatically — **conditions:** NOT reached stage 50 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-50) → **stage 40**; also removes monsters from crackshot_hideout2. NPC: “(You see, horrified, how this man is bleeding out rapidly. He has countless cuts and his face is mutilated. You can…”
+    - **Needs:** reached stage 21 of [Immaculate kidnapping](../quests/Thieves02.md#stage-21)
+    - **Gives:** 1× [Sapphire Necklace](../items/g02_ambelie.md), sets stage 24 of [Immaculate kidnapping](../quests/Thieves02.md#stage-24), spawns monsters on road1
+    - *“Take this and leave me, please.”*
 
-???+ note "Stage 50: 1 route"
 
-    1. Talk to [Dying Patrol](../monsters/g03_deadpatrol_2.md) ([crackshot_hideout2](../maps/crackshot_hideout2.md)) → choose “What guy?” — **conditions:** reached stage 40 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-40) → **stage 50**; also removes monsters from crackshot_hideout2. NPC: “No ... he's not .... Agggh! [He has stopped breathing. I cannot do anything for him. Better to move on.]”
+<span id="route-30"></span>
 
-???+ note "Stage 60: 1 route"
+??? note "Stage 30 · stepping on a trigger on crackshot_hideout3 · 1 way"
 
-    1. stepping on a trigger on [crackshot_hideout3](../maps/crackshot_hideout3.md) → the conversation leads here automatically → **stage 60**
+    **Way 1:** Stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md), choose “What are you talking about?”
 
-???+ note "Stage 70: 1 route"
+    - **Needs:** killed 1× [Crackshot](../monsters/g03_crackshot.md); not reached stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40)
+    - **Gives:** sets stage 40 of [The ruthless Crackshot](../quests/Thieves03.md#stage-40), removes monsters from road1
+    - <small>Also: clears stage 20 of [Thieves story flags (hidden flag)](../quests/thieves_hidden.md#stage-20)</small>
+    - *“The key is cursed .... She ... I am ... (Crackshot finally dies, emitting a soft bluish breath)”*
 
-    1. walking into a blocked passage on [crackshot_hideout3](../maps/crackshot_hideout3.md) → choose “Insert the blessed key of Luthor into the lock.” — **conditions:** NOT reached stage 210 of [Troubling times](../quests/troubling_times.md#stage-210); carry 1× [Blessed key of luthor](../items/g03_luthor2.md) → **stage 70**. NPC: “The door opens.”
 
-???+ note "Stage 80: 1 route"
+<span id="route-40"></span>
 
-    1. Talk to [Thoronir](../monsters/thoronir.md) ([fallhaven_church](../maps/fallhaven_church.md)) → choose “Fanamor, a member of Thieves' Guild, is severely wounded. Please give me a bandage for her!” — **conditions:** reached stage 18 of [scores (hidden flag)](../quests/scores.md#stage-18); reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100); NOT reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50) → **stage 80**
+??? note "Stage 40 · Dying patrol · 1 way"
 
-???+ note "Stage 90: 1 route"
+    **Way 1:** Talk to [Dying patrol](../monsters/g03_deadpatrol_1.md), automatic
 
-    1. Talk to [Feygard patrol sergeant](../monsters/g03_sergeant.md) ([crackshot_hideout3](../maps/crackshot_hideout3.md)) → the conversation leads here automatically — **conditions:** killed 1× [Crackshot](../monsters/g03_crackshot.md) → **stage 90**; also removes monsters from crackshot_hideout3. NPC: “You ... Argh ... [The sergeant takes one final breath and then dies. You should have come earlier. Now you will never…”
+    - **Needs:** not yet stage 50
+    - **Gives:** removes monsters from crackshot_hideout2
+    - *“(You see, horrified, how this man is bleeding out rapidly. He has countless cuts and his face is mutilated. You can almost hear his gasps.)”*
 
-???+ note "Stage 100: 2 routes"
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I've brought all the journals.” — **conditions:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); NOT reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 55 of [Thief apprentice](../quests/Thieves01.md#stage-55); hand over 1× [Dunla's Journal](../items/Dunla_journal.md); hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md); hand over 1× [Leta's Journal](../items/Leta_journal.md) → **stage 100**. NPC: “Well done kid! You can now consider yourself skilled enough to be a part of this guild.”
-    2. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout.” — **conditions:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); NOT reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); latest stage of [Thief apprentice](../quests/Thieves01.md#stage-51) is 51; hand over 1× [Dunla's Journal](../items/Dunla_journal.md); hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md); hand over 1× [Leta's Journal](../items/Leta_journal.md) → **stage 100**. NPC: “Well, that is the price of being one of us. There's always risk.”
+<span id="route-50"></span>
 
-???+ note "Stage 110: 1 route"
+??? note "Stage 50 · Dying Patrol · 1 way"
 
-    1. Talk to [Troublemaker](../monsters/troublemaker.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) → choose “I gave you the journals, so where's my reward?” — **conditions:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); NOT reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 100 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-100); NOT reached stage 110 of [Thieves Hidden (hidden flag)](../quests/thieves_hidden.md#stage-110) → **stage 110**; also sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60), gives 900× [Gold coins](../items/gold.md). NPC: “You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.”
+    **Way 1:** Talk to [Dying Patrol](../monsters/g03_deadpatrol_2.md), choose “What guy?”
+
+    - **Needs:** stage 40
+    - **Gives:** removes monsters from crackshot_hideout2
+    - *“No ... he's not .... Agggh! [He has stopped breathing. I cannot do anything for him. Better to move on.]”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on crackshot_hideout3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md)
+
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · walking into a blocked passage on crackshot_hideout3 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Crackshot hideout 3](../maps/crackshot_hideout3.md), choose “Insert the blessed key of Luthor into the lock.”
+
+    - **Needs:** not reached stage 210 of [Troubling times](../quests/troubling_times.md#stage-210); carry 1× [Blessed key of luthor](../items/g03_luthor2.md)
+    - *“The door opens.”*
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · Thoronir · 1 way"
+
+    **Way 1:** Talk to [Thoronir](../monsters/thoronir.md), choose “Fanamor, a member of Thieves' Guild, is severely wounded. Please give me a bandage for her!”
+
+    - **Needs:** reached stage 18 of [Score counters (hidden flag)](../quests/scores.md#stage-18); reached stage 45 of [Thief apprentice](../quests/Thieves01.md#stage-45); reached stage 100 of [Disallowed substance](../quests/bonemeal.md#stage-100); not reached stage 50 of [Thief apprentice](../quests/Thieves01.md#stage-50)
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Feygard patrol sergeant · 1 way"
+
+    **Way 1:** Talk to [Feygard patrol sergeant](../monsters/g03_sergeant.md), automatic
+
+    - **Needs:** killed 1× [Crackshot](../monsters/g03_crackshot.md)
+    - **Gives:** removes monsters from crackshot_hideout3
+    - *“You ... Argh ... [The sergeant takes one final breath and then dies. You should have come earlier. Now you will never get to know what he…”*
+
+
+<span id="route-100"></span>
+
+??? note "Stage 100 · Troublemaker · 2 ways"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “I've brought all the journals.”
+
+    - **Needs:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); not reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); reached stage 55 of [Thief apprentice](../quests/Thieves01.md#stage-55); hand over 1× [Dunla's Journal](../items/Dunla_journal.md); hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md); hand over 1× [Leta's Journal](../items/Leta_journal.md)
+    - *“Well done kid! You can now consider yourself skilled enough to be a part of this guild.”*
+
+    **Way 2:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout.”
+
+    - **Needs:** reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); not reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60); latest stage of [Thief apprentice](../quests/Thieves01.md#stage-51) is 51; hand over 1× [Dunla's Journal](../items/Dunla_journal.md); hand over 1× [Fanamor's Journal](../items/Fanamor_journal.md); hand over 1× [Leta's Journal](../items/Leta_journal.md)
+    - *“Well, that is the price of being one of us. There's always risk.”*
+
+
+<span id="route-110"></span>
+
+??? note "Stage 110 · Troublemaker · 1 way"
+
+    **Way 1:** Talk to [Troublemaker](../monsters/troublemaker.md), choose “I gave you the journals, so where's my reward?”
+
+    - **Needs:** stage 100; not yet stage 110; reached stage 20 of [Thief apprentice](../quests/Thieves01.md#stage-20); not reached stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60)
+    - **Gives:** sets stage 60 of [Thief apprentice](../quests/Thieves01.md#stage-60), 900× [Gold coins](../items/gold.md)
+    - *“You should talk with Umar. Maybe he has another task ... one that's more in your line of work, you know.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -169,6 +248,7 @@ description: "Thieves Hidden is a hidden quest in Andor's Trail, started by Ambe
     | | |
     |---|---|
     | Quest ID | `thieves_hidden` |
+    | Name in game data | `Thieves Hidden` |
     | showInLog | 0 |
     | Stage IDs | 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 |
     | Dialogue nodes setting stages | 20: `ambelie_guild02_4b`, 20: `ambelie_guild02_19`, 30: `guild03_hideout3_exit_3`, 40: `guild03_deadpatrol_1_1`, 50: `guild03_deadpatrol_2_3`, 60: `guild03_hideout3_open_chest`, 70: `guild03_hideout3_unlock`, 80: `thoronir_guild_2`, 90: `FeygardSerg_guild03_dead`, 100: `troublemaker_guild_11a`, 100: `troublemaker_guild_11b`, 110: `troublemaker_guild_12a` |

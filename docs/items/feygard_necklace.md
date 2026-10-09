@@ -40,7 +40,7 @@ description: "Necklace of Feygard's Glory is a extraordinary necklace in Andor's
 
 ### Found in containers
 
-- [thieves_vault](../maps/thieves_vault.md#container-0) (container 1, 100%), Blackwater Mountain
+- [Thieves vault](../maps/thieves_vault.md#container-0) (container 1, 100%), Blackwater Mountain
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

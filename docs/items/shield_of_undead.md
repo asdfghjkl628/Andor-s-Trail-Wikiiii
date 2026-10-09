@@ -55,7 +55,7 @@ description: "Shield of the undead is a extraordinary shield, metal (light) in A
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Benzimos](../monsters/haunted_benzimos.md) | 100% | 1 | haunted_house_basement |
+| [Benzimos](../monsters/haunted_benzimos.md) | 100% | 1 | Haunted house basement |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

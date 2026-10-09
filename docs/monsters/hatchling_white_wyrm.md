@@ -4,7 +4,7 @@ description: "Hatchling white wyrm is an enemy in Andor's Trail (reptile) with 4
 
 # ![](../assets/icons/monsters/monsters_rltiles1_118.png){ .sprite } Hatchling white wyrm
 
-**Found in:** Blackwater Mountain: [blackwater_mountain20](../maps/blackwater_mountain20.md), Blackwater Mountain: [blackwater_mountain30](../maps/blackwater_mountain30.md)
+**Found in:** Blackwater Mountain: [Blackwater mountain 20](../maps/blackwater_mountain20.md), Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md)
 
 <div class="infobox" markdown>
 
@@ -59,8 +59,8 @@ description: "Hatchling white wyrm is an enemy in Andor's Trail (reptile) with 4
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain20](../maps/blackwater_mountain20.md) | Blackwater Mountain | 4 | – |
-| [blackwater_mountain30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 20](../maps/blackwater_mountain20.md) | Blackwater Mountain | 4 | – |
+| [Blackwater mountain 30](../maps/blackwater_mountain30.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

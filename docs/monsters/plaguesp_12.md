@@ -1,10 +1,10 @@
 ---
-description: "Plaguestrider servant is an enemy in Andor's Trail (undead) with 65 HP, worth 282 XP, found in waytolake4, waytolake5. Drops: Gold coins, Poison gland, Dead spider."
+description: "Plaguestrider servant is an enemy in Andor's Trail (undead) with 65 HP, worth 282 XP, found in Waytolake 4, Waytolake 5. Drops: Gold coins, Poison gland, Dead spider."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_38.png){ .sprite } Plaguestrider servant
 
-**Found in:** [waytolake4](../maps/waytolake4.md), [waytolake5](../maps/waytolake5.md)
+**Found in:** [Waytolake 4](../maps/waytolake4.md), [Waytolake 5](../maps/waytolake5.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Plaguestrider servant is an enemy in Andor's Trail (undead) with 6
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytolake4, waytolake5 |
+| **Found in** | Waytolake 4, Waytolake 5 |
 | **Class** | Undead |
 | **HP** | 65 |
 | **XP when defeated** | 282 |
@@ -58,8 +58,8 @@ description: "Plaguestrider servant is an enemy in Andor's Trail (undead) with 6
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolake4](../maps/waytolake4.md) | – | 5 | – |
-| [waytolake5](../maps/waytolake5.md) | – | 2 | – |
+| [Waytolake 4](../maps/waytolake4.md) | – | 5 | – |
+| [Waytolake 5](../maps/waytolake5.md) | – | 2 | – |
 
 
 ## Version history

@@ -27,9 +27,9 @@ description: "Putrefaction is a harmful physical condition in Andor's Trail: max
 |---|---|
 | Max AP | −1 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** Yes. A second application with the same duration adds its magnitude to the existing one; one with a different duration is kept as a separate instance.
+**Stacking:** Yes (same duration → magnitudes add up).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -40,15 +40,15 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Angry graveyard corpse](../monsters/graveyard_corpse2.md) | When it hits you | 2 | 3 rounds | 30% | graveyard1 |
-| [Graveyard corpse](../monsters/graveyard_corpse.md) | When it hits you | 1 | 3 rounds | 25% | graveyard1 |
-| [Graveyard king](../monsters/graveyardking.md) | When it hits you | 3 | 3 rounds | 50% | graveyard1 |
+| [Angry graveyard corpse](../monsters/graveyard_corpse2.md) | When it hits you | 2 | 3 rounds | 30% | Graveyard 1 |
+| [Graveyard corpse](../monsters/graveyard_corpse.md) | When it hits you | 1 | 3 rounds | 25% | Graveyard 1 |
+| [Graveyard king](../monsters/graveyardking.md) | When it hits you | 3 | 3 rounds | 50% | Graveyard 1 |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [elm5f_2](../maps/elm5f_2.md) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-39) | 5 rounds |
+| [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)), walking into a blocked passage on [Elm 5f 2](../maps/elm5f_2.md) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-39) | 5 rounds |
 
 ## Applied to enemies
 
@@ -63,11 +63,11 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Enduring Body](../skills/resistancePhysical.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Enduring Body](../skills/resistancePhysical.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Immunity** from [Cave fern](../items/elm_fern.md) (when used; 10 rounds).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier.
+- **Duration and rest:** timed ones wear off, or rest them away.
 
 
 ## Community notes

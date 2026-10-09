@@ -30,7 +30,7 @@ description: "White wyrm claw is a ordinary animal part in Andor's Trail. How to
 
 ### Found in containers
 
-- [bwmfill6](../maps/bwmfill6.md#container-0) (container 1, 50%), Blackwater Mountain
+- [Bwmfill 6](../maps/bwmfill6.md#container-0) (container 1, 50%), Blackwater Mountain
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -41,10 +41,10 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Herec](../monsters/herec.md) ([blackwater_mountain44](../maps/blackwater_mountain44.md)) | [No weakness](../quests/bwm_wyrms.md#stage-20) | handed over (5×) | “I have found what you asked for.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (2×) | “I have those things on me, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (10×) | “I have enough of those things on me for five potions, here.” |
-| [Lodar](../monsters/lodar.md) ([lodarhouse1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (20×) | “I have enough of those things on me for ten potions, here.” |
+| [Herec](../monsters/herec.md) ([Blackwater mountain 44](../maps/blackwater_mountain44.md)) | [No weakness](../quests/bwm_wyrms.md#stage-20) | handed over (5×) | “I have found what you asked for.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (2×) | “I have those things on me, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (10×) | “I have enough of those things on me for five potions, here.” |
+| [Lodar](../monsters/lodar.md) ([Lodarhouse 1](../maps/lodarhouse1.md)) | [Lodar's potions](../quests/lodar_pots.md#stage-41) | handed over (20×) | “I have enough of those things on me for ten potions, here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

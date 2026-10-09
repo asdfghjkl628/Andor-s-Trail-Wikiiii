@@ -1,10 +1,10 @@
 ---
-description: "Radiant allaceph is an enemy in Andor's Trail (demon) with 124 HP, worth 297 XP, found in waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b. Drops: Gold coins, Sharpened gem, Regular potion of health, Empty vial."
+description: "Radiant allaceph is an enemy in Andor's Trail (demon) with 124 HP, worth 297 XP, found in Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b. Drops: Gold coins, Sharpened gem, Regular potion of health, Empty vial."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_103.png){ .sprite } Radiant allaceph
 
-**Found in:** [waytobrimhavencave3](../maps/waytobrimhavencave3.md), [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md), [waytobrimhavencave3b](../maps/waytobrimhavencave3b.md)
+**Found in:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md), [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md), [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Radiant allaceph is an enemy in Andor's Trail (demon) with 124 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waytobrimhavencave3, waytobrimhavencave3a, waytobrimhavencave3b |
+| **Found in** | Waytobrimhavencave 3, Waytobrimhavencave 3a, Waytobrimhavencave 3b |
 | **Class** | Demon |
 | **HP** | 124 |
 | **XP when defeated** | 297 |
@@ -63,9 +63,9 @@ description: "Radiant allaceph is an enemy in Andor's Trail (demon) with 124 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytobrimhavencave3](../maps/waytobrimhavencave3.md) | – | 6 | – |
-| [waytobrimhavencave3a](../maps/waytobrimhavencave3a.md) | – | 5 | – |
-| [waytobrimhavencave3b](../maps/waytobrimhavencave3b.md) | – | 2 | – |
+| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 6 | – |
+| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 5 | – |
+| [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md) | – | 2 | – |
 
 
 ## Version history

@@ -1,10 +1,10 @@
 ---
-description: "Young izthiel is an enemy in Andor's Trail (reptile) with 40 HP, worth 96 XP, found in korhald_cave_outdoor1, waterway0, waterway1. Drops: Gold coins, Izthiel claw, Jinxed ring of damage resistance, Polished ring."
+description: "Young izthiel is an enemy in Andor's Trail (reptile) with 40 HP, worth 96 XP, found in Korhald cave outdoor 1, Waterway 0, Waterway 1. Drops: Gold coins, Izthiel claw, Jinxed ring of damage resistance, Polished ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_51.png){ .sprite } Young izthiel
 
-**Found in:** [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md), [waterway0](../maps/waterway0.md), [waterway1](../maps/waterway1.md), [waterway10](../maps/waterway10.md) (+2 more)
+**Found in:** [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md), [Waterway 0](../maps/waterway0.md), [Waterway 1](../maps/waterway1.md), [Waterway 10](../maps/waterway10.md) (+2 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young izthiel is an enemy in Andor's Trail (reptile) with 40 HP, w
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | korhald_cave_outdoor1, waterway0, waterway1 |
+| **Found in** | Korhald cave outdoor 1, Waterway 0, Waterway 1 |
 | **Class** | Reptile |
 | **HP** | 40 |
 | **XP when defeated** | 96 |
@@ -57,12 +57,12 @@ description: "Young izthiel is an enemy in Andor's Trail (reptile) with 40 HP, w
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md) | – | 1 | – |
-| [waterway0](../maps/waterway0.md) | – | 4 | – |
-| [waterway1](../maps/waterway1.md) | – | 2 | – |
-| [waterway10](../maps/waterway10.md) | – | 1 | – |
-| [waterway11](../maps/waterway11.md) | – | 1 | – |
-| [waterway_forest1](../maps/waterway_forest1.md) | – | 3 | – |
+| [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md) | – | 1 | – |
+| [Waterway 0](../maps/waterway0.md) | – | 4 | – |
+| [Waterway 1](../maps/waterway1.md) | – | 2 | – |
+| [Waterway 10](../maps/waterway10.md) | – | 1 | – |
+| [Waterway 11](../maps/waterway11.md) | – | 1 | – |
+| [Waterway forest 1](../maps/waterway_forest1.md) | – | 3 | – |
 
 
 ## Version history

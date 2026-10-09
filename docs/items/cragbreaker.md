@@ -53,8 +53,8 @@ description: "Cragbreaker is a extraordinary club in Andor's Trail (Attack damag
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Gamjee](../monsters/gamjee.md) | 100% | 1 | gamjee_well_4_1 |
-| [Gamjee](../monsters/gamjee.md#v-gamjee_oc) | 100% | 1 | gamjee_well_4_1 |
+| [Gamjee](../monsters/gamjee.md) | 100% | 1 | Gamjee well 4 1 |
+| [Gamjee](../monsters/gamjee.md#v-gamjee_oc) | 100% | 1 | Gamjee well 4 1 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

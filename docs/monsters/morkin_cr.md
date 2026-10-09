@@ -1,10 +1,10 @@
 ---
-description: "Morkin elder is an enemy in Andor's Trail (humanoid) with 375 HP, worth 755 XP, found in lodar12. Drops: Oegyth crystal."
+description: "Morkin elder is an enemy in Andor's Trail (humanoid) with 375 HP, worth 755 XP, found in Lodar 12. Drops: Oegyth crystal."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik1_21.png){ .sprite } Morkin elder
 
-**Found in:** [lodar12](../maps/lodar12.md)
+**Found in:** [Lodar 12](../maps/lodar12.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Morkin elder is an enemy in Andor's Trail (humanoid) with 375 HP, 
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar12 |
+| **Found in** | Lodar 12 |
 | **Class** | Humanoid |
 | **HP** | 375 |
 | **XP when defeated** | 755 |
@@ -56,7 +56,7 @@ description: "Morkin elder is an enemy in Andor's Trail (humanoid) with 375 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar12](../maps/lodar12.md) | – | 1 | – |
+| [Lodar 12](../maps/lodar12.md) | – | 1 | – |
 
 
 ## Version history

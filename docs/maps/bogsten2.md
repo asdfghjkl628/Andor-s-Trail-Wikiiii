@@ -1,8 +1,8 @@
 ---
-description: "Bogsten2 is an indoor location in Andor's Trail. Enemies: Weak fungi, Fungi. Exits to Bogsten0, Bogsten3."
+description: "Bogsten 2 is an indoor location in Andor's Trail. Enemies: Weak fungi, Fungi. Exits to Bogsten 0, Bogsten 3."
 ---
 
-# Bogsten2
+# Bogsten 2
 
 <div class="infobox" markdown>
 
@@ -18,20 +18,20 @@ description: "Bogsten2 is an indoor location in Andor's Trail. Enemies: Weak fun
 
 </div>
 
-**Bogsten2** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Bogsten0, Bogsten3.
+**Bogsten 2** is an indoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Bogsten 0, Bogsten 3.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bogsten2.webp" alt="Map of Bogsten2" width="512" height="672" loading="lazy"><a id="place-exit" class="mo mo-mapchange" href="../bogsten0/#place-cave_entrance" title="Exit to Bogsten0" style="left:43.750%;top:4.762%;width:6.250%;height:4.762%"></a><a id="place-south" class="mo mo-mapchange" href="../bogsten3/#place-north" title="Exit to Bogsten3" style="left:81.250%;top:95.238%;width:6.250%;height:4.762%"></a><span class="mo mo-spawn" title="Spawns: Weak fungi" style="left:62.500%;top:14.286%;width:31.250%;height:19.048%"></span><span class="mo mo-spawn" title="Spawns: Weak fungi" style="left:12.500%;top:52.381%;width:87.500%;height:19.048%"></span><span class="mo mo-spawn" title="Spawns: Fungi" style="left:6.250%;top:61.905%;width:43.750%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Fungi" style="left:50.000%;top:71.429%;width:43.750%;height:19.048%"></span><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:62.500%;top:19.048%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:31.250%;top:66.667%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:75.000%;top:66.667%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:31.250%;top:61.905%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:31.250%;top:80.952%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:31.250%;top:76.190%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:56.250%;top:85.714%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:62.500%;top:85.714%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:62.500%;top:80.952%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="pin pin-exit" href="#key-1" style="left:46.875%;top:7.143%" title="Exit (north): to [Bogsten0](bogsten0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:84.375%;top:97.619%" title="Exit (south): to [Bogsten3](bogsten3.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bogsten2.webp" alt="Map of Bogsten 2" width="512" height="672" loading="lazy"><a id="place-exit" class="mo mo-mapchange" href="../bogsten0/#place-cave_entrance" title="Exit to Bogsten 0" style="left:43.750%;top:4.762%;width:6.250%;height:4.762%"></a><a id="place-south" class="mo mo-mapchange" href="../bogsten3/#place-north" title="Exit to Bogsten 3" style="left:81.250%;top:95.238%;width:6.250%;height:4.762%"></a><span class="mo mo-spawn" title="Spawns: Weak fungi" style="left:62.500%;top:14.286%;width:31.250%;height:19.048%"></span><span class="mo mo-spawn" title="Spawns: Weak fungi" style="left:12.500%;top:52.381%;width:87.500%;height:19.048%"></span><span class="mo mo-spawn" title="Spawns: Fungi" style="left:6.250%;top:61.905%;width:43.750%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Fungi" style="left:50.000%;top:71.429%;width:43.750%;height:19.048%"></span><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:62.500%;top:19.048%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:31.250%;top:66.667%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:75.000%;top:66.667%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/weak_fungi/" title="Weak fungi" style="left:31.250%;top:61.905%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_3.png" alt="Weak fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:31.250%;top:80.952%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:31.250%;top:76.190%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:56.250%;top:85.714%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:62.500%;top:85.714%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="mob" href="../../monsters/mid_fungi/" title="Fungi" style="left:62.500%;top:80.952%;width:6.250%;height:4.762%"><img src="../../assets/icons/monsters/monsters_gisons_4.png" alt="Fungi"></a><a class="pin pin-exit" href="#key-1" style="left:46.875%;top:7.143%" title="Exit (north): to [Bogsten 0](bogsten0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:84.375%;top:97.619%" title="Exit (south): to [Bogsten 3](bogsten3.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Bogsten0](bogsten0.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Bogsten3](bogsten3.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Bogsten 0](bogsten0.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Bogsten 3](bogsten3.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -40,8 +40,8 @@ description: "Bogsten2 is an indoor location in Andor's Trail. Enemies: Weak fun
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Bogsten0](bogsten0.md) | Fallhaven | 1 |
-| South | [Bogsten3](bogsten3.md) | – | 2 |
+| North | [Bogsten 0](bogsten0.md) | Fallhaven | 1 |
+| South | [Bogsten 3](bogsten3.md) | – | 2 |
 
 ## Enemies
 

@@ -11,9 +11,9 @@ description: "Lost girl looking for lost things is a quest in Andor's Trail, sta
 | **Quest ID** | `stn_quest_gyra` |
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 170, 199) |
-| **Started by** | walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) |
+| **Started by** | walking into a blocked passage on [Waytogalmore 1](../maps/waytogalmore1.md) |
 | **NPCs involved** | [Gyra](../monsters/stn_gyra.md), [Lord Berbane](../monsters/berbane.md), [Odirath](../monsters/stoutford_armorer.md) |
-| **Locations** | [stoutford_armorer](../maps/stoutford_armorer.md), [stoutford_castle1](../maps/stoutford_castle1.md), [stoutford_tavern](../maps/stoutford_tavern.md) |
+| **Locations** | [Stoutford armorer](../maps/stoutford_armorer.md), [Stoutford castle 1](../maps/stoutford_castle1.md), [Stoutford tavern](../maps/stoutford_tavern.md) |
 | **Total XP** | 5,000 |
 | **Related quests** | 2 |
 
@@ -25,7 +25,7 @@ description: "Lost girl looking for lost things is a quest in Andor's Trail, sta
 
 ## Prerequisites to start
 
-None: talk to walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) to begin.
+None: talk to walking into a blocked passage on [Waytogalmore 1](../maps/waytogalmore1.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -36,97 +36,191 @@ None: talk to walking into a blocked passage on [waytogalmore1](../maps/waytogal
 
 | Relationship | Quest | Detail |
 |---|---|---|
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-13) | stage 13 reached, for stage 50 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-17) | stage 17 reached, for stage 50 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-19) | stage 19 reached, for stage 60 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-21) | stage 21 reached, for stage 50 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-41) | stage 41 reached, for stage 50 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-42) | stage 42 reached, for stage 50 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-43) | stage 43 reached, for stage 50 here |
-| Requires | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-44) | stage 44 reached, for stages 92, 99, 199 here |
-| Unlocks | [Placeholder for hidden quest stages (not displayed) (hidden flag)](nondisplay.md#stage-149) | stage 149 there needs stage 70 here |
-| Unlocks | [stn_nondisplay (hidden flag)](stn_nondisplay.md#stage-9) | stage 9 there needs stage 5 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-13) | stage 13 reached, for stage 50 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-17) | stage 17 reached, for stage 50 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-19) | stage 19 reached, for stage 60 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-21) | stage 21 reached, for stage 50 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-41) | stage 41 reached, for stage 50 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-42) | stage 42 reached, for stage 50 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-43) | stage 43 reached, for stage 50 here |
+| Requires | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-44) | stage 44 reached, for stages 92, 99, 199 here |
+| Unlocks | [General story flags (hidden flag)](nondisplay.md#stage-149) | stage 149 there needs stage 70 here |
+| Unlocks | [Stoutford story flags (hidden flag)](stn_nondisplay.md#stage-9) | stage 9 there needs stage 5 here |
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-5"></span>5 | The mechanism of the south gate seemed to be broken. Maybe someone in Stoutford could repair it? | walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) | – | – |
-| <span id="stage-10"></span>10 | The little daughter of Odirath the armorer has been missing for several days now. You offered to help search for her. | [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) | – | – |
-| <span id="stage-20"></span>20 | Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave her hiding place. She was looking for Lord Berbane's helmet, which he had forgotten somewhere in the castle. | [Gyra](../monsters/stn_gyra.md) ([stoutford_castle1](../maps/stoutford_castle1.md)) | – | – |
-| <span id="stage-30"></span>30 | You offered Gyra to lead her back home safely. | [Gyra](../monsters/stn_gyra.md) ([stoutford_castle1](../maps/stoutford_castle1.md)) | – | sets stage 11 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-11)<br>starts timer “stn_gyra_hint”<br>removes monsters from stoutford_castle1<br>spawns monsters on stoutford_castle1 |
-| <span id="stage-40"></span>40 | Gyra has the feeling that the helmet is very close. | *no trigger in the game data or code* <sup>[?](#untraced)</sup> | – | – |
-| <span id="stage-50"></span>50 | You found the helmet.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle barrack1](../maps/stoutford_castle_barrack1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle tower1](../maps/stoutford_castle_tower1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle2](../maps/stoutford_castle2.md).</span> | stepping on a trigger on [stoutford_castle2](../maps/stoutford_castle2.md)<br>stepping on a trigger on [stoutford_castle_barrack1](../maps/stoutford_castle_barrack1.md)<br>stepping on a trigger on [stoutford_castle_tower1](../maps/stoutford_castle_tower1.md) | – | gives 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) |
-| <span id="stage-60"></span>60 | Once back in Stoutford Gyra knew the way and ran to her father Odirath.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild19](../maps/wild19.md).</span> | stepping on a trigger on [wild19](../maps/wild19.md) | stage 50 | clears stage 19 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-19)<br>clears stage 29 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-29)<br>removes monsters from wild19<br>applies condition fatigue_minor |
-| <span id="stage-70"></span>70 | Odirath thanks you many thousand times. | [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) | stage 60 | 2,300 XP |
-| <span id="stage-80"></span>80 | Odirath had repaired the mechanism of the southern castle gate. | walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) | – | – |
-| <span id="stage-90"></span>90 | Lord Berbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever. | [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | carry 1× [Stoutford chief's helmet](../items/stoutford_helmet.md), hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md), stage 70 | sets stage 149 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-149) |
-| <span id="stage-92"></span>92 | Lord Berbane took his helmet. But somehow that does not really satisfy you. | [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) | sets stage 149 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-149) |
-| <span id="stage-99"></span>99 | Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster. | [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) | – |
-| <span id="stage-170"></span>170 | Odirath thanked you many thousands of times. **(completes quest)** | [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) | stage 60, stage 99 | 2,500 XP |
-| <span id="stage-199"></span>199 | Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster. **(completes quest)** | [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) | hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md), stage 70 | 200 XP |
+<div class="stages" markdown>
 
-<span id="untraced"></span>*No trigger*: as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished content, or set in a way this wiki cannot yet trace. Claims about how to reach it should be treated as unverified.
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-5"></span>[5](#route-5) | <details class="jt"><summary><span class="s">The mechanism of the south gate seemed to be broken. Maybe someone… ▸</span><span class="l">▴ less</span></summary>The mechanism of the south gate seemed to be broken. Maybe someone in Stoutford could repair it?</details> | walking into a blocked passage on [Waytogalmore 1](../maps/waytogalmore1.md) | – |
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">The little daughter of Odirath the armorer has been missing for… ▸</span><span class="l">▴ less</span></summary>The little daughter of Odirath the armorer has been missing for several days now. You offered to help search for her.</details> | [Odirath](../monsters/stoutford_armorer.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">Odirath's daughter Gyra was hidden in the storeroom of the main… ▸</span><span class="l">▴ less</span></summary>Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave her hiding place. She was looking for Lord Berbane's helmet, which he had forgotten somewhere in the castle.</details> | [Gyra](../monsters/stn_gyra.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | You offered Gyra to lead her back home safely. | [Gyra](../monsters/stn_gyra.md) | removes monsters from stoutford_castle1, spawns monsters on stoutford_castle1 |
+| <span id="stage-40"></span>40 | Gyra has the feeling that the helmet is very close. | *no trigger found* <sup>[?](#untraced)</sup> | – |
+| <span id="stage-50"></span>[50](#route-50) | You found the helmet.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle 2](../maps/stoutford_castle2.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle barrack 1](../maps/stoutford_castle_barrack1.md).</span><br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Stoutford castle tower 1](../maps/stoutford_castle_tower1.md).</span> | stepping on a trigger on [Stoutford castle 2](../maps/stoutford_castle2.md), stepping on a trigger on [Stoutford castle barrack 1](../maps/stoutford_castle_barrack1.md) +1 | 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) |
+| <span id="stage-60"></span>[60](#route-60) | Once back in Stoutford Gyra knew the way and ran to her father Odirath.<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Wild 19](../maps/wild19.md).</span> | stepping on a trigger on [Wild 19](../maps/wild19.md) | removes monsters from wild19, applies condition fatigue_minor |
+| <span id="stage-70"></span>[70](#route-70) | Odirath thanks you many thousand times. | [Odirath](../monsters/stoutford_armorer.md) | 2,300 XP |
+| <span id="stage-80"></span>[80](#route-80) | Odirath had repaired the mechanism of the southern castle gate. | walking into a blocked passage on [Waytogalmore 1](../maps/waytogalmore1.md) | – |
+| <span id="stage-90"></span>[90](#route-90) | <details class="jt"><summary><span class="s">Lord Berbane slowly took his helmet. Nevertheless, he remained… ▸</span><span class="l">▴ less</span></summary>Lord Berbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.</details> | [Lord Berbane](../monsters/berbane.md) | – |
+| <span id="stage-92"></span>[92](#route-92) | Lord Berbane took his helmet. But somehow that does not really satisfy you. | [Lord Berbane](../monsters/berbane.md) | – |
+| <span id="stage-99"></span>[99](#route-99) | <details class="jt"><summary><span class="s">Lord Berbane is singing merrily about his pretended heroic deeds.… ▸</span><span class="l">▴ less</span></summary>Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster.</details> | [Lord Berbane](../monsters/berbane.md) | – |
+| <span id="stage-170"></span>[170](#route-170) | Odirath thanked you many thousands of times. **(ends quest)** | [Odirath](../monsters/stoutford_armorer.md) | 2,500 XP |
+| <span id="stage-199"></span>[199](#route-199) | <details class="jt"><summary><span class="s">Lord Berbane is singing merrily about his pretended heroic deeds.… ▸</span><span class="l">▴ less</span></summary>Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster.</details> **(ends quest)** | [Lord Berbane](../monsters/berbane.md) | 200 XP |
+
+</div>
+
+<span id="untraced"></span>*No trigger found:* as of v0.8.18, nothing in the game's dialogue, maps or code sets this stage. It may be unused or unfinished.
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 5: 1 route"
+<span id="route-5"></span>
 
-    1. walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) → the conversation leads here automatically → **stage 5**. NPC: “The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?”
+??? note "Stage 5 · walking into a blocked passage on waytogalmore1 · 1 way"
 
-???+ note "Stage 10: 1 route"
+    **Way 1:** Walking into a blocked passage on [Waytogalmore 1](../maps/waytogalmore1.md)
 
-    1. Talk to [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) → choose “I'm not afraid. I could have a look in the castle.” — **conditions:** NOT reached stage 10 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-10); NOT reached stage 60 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60) → **stage 10**. NPC: “You would do that for me? I can hardly accept your offer.”
+    - *“The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?”*
 
-???+ note "Stage 20: 1 route"
 
-    1. Talk to [Gyra](../monsters/stn_gyra.md) ([stoutford_castle1](../maps/stoutford_castle1.md)) → choose “What is your problem, my little one?” → **stage 20**. NPC: “I was looking for Lord Bourbon's helmet, when I was surprised by these monsters.”
+<span id="route-10"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 10 · Odirath · 1 way"
 
-    1. Talk to [Gyra](../monsters/stn_gyra.md) ([stoutford_castle1](../maps/stoutford_castle1.md)) → choose “Of course I will help you. Just follow me.” → **stage 30**; also sets stage 11 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-11), starts timer “stn_gyra_hint”, removes monsters from stoutford_castle1, spawns monsters on stoutford_castle1. NPC: “I started to look in the main house, but maybe we have to search the whole castle.”
+    **Way 1:** Talk to [Odirath](../monsters/stoutford_armorer.md), choose “I'm not afraid. I could have a look in the castle.”
 
-???+ note "Stage 50: 3 routes"
+    - **Needs:** not yet stage 10, 60
+    - *“You would do that for me? I can hardly accept your offer.”*
 
-    1. stepping on a trigger on [stoutford_castle2](../maps/stoutford_castle2.md) → choose “Yes, there it is!” — **conditions:** reached stage 13 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-13); NOT reached stage 50 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-50); reached stage 41 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-41) → **stage 50**; also gives 1× [Stoutford chief's helmet](../items/stoutford_helmet.md). NPC: “And now back home quickly!”
-    2. stepping on a trigger on [stoutford_castle_barrack1](../maps/stoutford_castle_barrack1.md) → choose “Yes, there it is!” — **conditions:** reached stage 21 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-21); NOT reached stage 50 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-50); reached stage 42 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-42) → **stage 50**; also gives 1× [Stoutford chief's helmet](../items/stoutford_helmet.md). NPC: “And now back home quickly!”
-    3. stepping on a trigger on [stoutford_castle_tower1](../maps/stoutford_castle_tower1.md) → choose “Yes, there it is!” — **conditions:** reached stage 17 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-17); NOT reached stage 50 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-50); reached stage 43 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-43) → **stage 50**; also gives 1× [Stoutford chief's helmet](../items/stoutford_helmet.md). NPC: “And now back home quickly!”
 
-???+ note "Stage 60: 1 route"
+<span id="route-20"></span>
 
-    1. stepping on a trigger on [wild19](../maps/wild19.md) → the conversation leads here automatically — **conditions:** reached stage 19 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-19); reached stage 50 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-50) → **stage 60**; also clears stage 19 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-19), clears stage 29 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-29), removes monsters from wild19, applies condition fatigue_minor. NPC: “Now I know the way. I run to my dad and tell him the whole story.”
+??? note "Stage 20 · Gyra · 1 way"
 
-???+ note "Stage 70: 1 route"
+    **Way 1:** Talk to [Gyra](../monsters/stn_gyra.md), choose “What is your problem, my little one?”
 
-    1. Talk to [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) → choose “You look happy again.” — **conditions:** reached stage 60 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60) → **stage 70**
+    - *“I was looking for Lord Bourbon's helmet, when I was surprised by these monsters.”*
 
-???+ note "Stage 80: 1 route"
 
-    1. walking into a blocked passage on [waytogalmore1](../maps/waytogalmore1.md) → the conversation leads here automatically — **conditions:** reached stage 80 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-80) → **stage 80**. NPC: “Oh, cool, Odirath seems to have repaired the mechanism already.”
+<span id="route-30"></span>
 
-???+ note "Stage 90: 1 route"
+??? note "Stage 30 · Gyra · 1 way"
 
-    1. Talk to [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “Will you make the songs a reality now?” — **conditions:** reached stage 70 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-70); carry 1× [Stoutford chief's helmet](../items/stoutford_helmet.md); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) → **stage 90**; also sets stage 149 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-149). NPC: “He sighs and slowly takes the helmet.”
+    **Way 1:** Talk to [Gyra](../monsters/stn_gyra.md), choose “Of course I will help you. Just follow me.”
 
-???+ note "Stage 92: 1 route"
+    - **Gives:** removes monsters from stoutford_castle1, spawns monsters on stoutford_castle1
+    - <small>Also: sets stage 11 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-11), starts timer “stn_gyra_hint”</small>
+    - *“I started to look in the main house, but maybe we have to search the whole castle.”*
 
-    1. Talk to [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “No, I have...” — **conditions:** reached stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) → **stage 92**; also sets stage 149 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-149). NPC: “[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.”
 
-???+ note "Stage 99: 1 route"
+<span id="route-50"></span>
 
-    1. Talk to [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I give up.” — **conditions:** reached stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md) → **stage 99**
+??? note "Stage 50 · stepping on a trigger on stoutford_castle2, stepping on a tr · 3 ways"
 
-???+ note "Stage 170: 1 route"
+    **Way 1:** Stepping on a trigger on [Stoutford castle 2](../maps/stoutford_castle2.md), choose “Yes, there it is!”
 
-    1. Talk to [Odirath](../monsters/stoutford_armorer.md) ([stoutford_armorer](../maps/stoutford_armorer.md)) → choose “You look happy again.” — **conditions:** reached stage 60 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-60); reached stage 99 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-99) → **stage 170**
+    - **Needs:** not yet stage 50; reached stage 13 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-13); reached stage 41 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-41)
+    - **Gives:** 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+    - *“And now back home quickly!”*
 
-???+ note "Stage 199: 1 route"
+    **Way 2:** Stepping on a trigger on [Stoutford castle barrack 1](../maps/stoutford_castle_barrack1.md), choose “Yes, there it is!”
 
-    1. Talk to [Lord Berbane](../monsters/berbane.md) ([stoutford_tavern](../maps/stoutford_tavern.md)) → choose “I give up.” — **conditions:** reached stage 44 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md); reached stage 70 of [Lost girl looking for lost things](../quests/stn_quest_gyra.md#stage-70) → **stage 199**
+    - **Needs:** not yet stage 50; reached stage 21 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-21); reached stage 42 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-42)
+    - **Gives:** 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+    - *“And now back home quickly!”*
+
+    **Way 3:** Stepping on a trigger on [Stoutford castle tower 1](../maps/stoutford_castle_tower1.md), choose “Yes, there it is!”
+
+    - **Needs:** not yet stage 50; reached stage 17 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-17); reached stage 43 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-43)
+    - **Gives:** 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+    - *“And now back home quickly!”*
+
+
+<span id="route-60"></span>
+
+??? note "Stage 60 · stepping on a trigger on wild19 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Wild 19](../maps/wild19.md)
+
+    - **Needs:** stage 50; reached stage 19 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-19)
+    - **Gives:** removes monsters from wild19, applies condition fatigue_minor
+    - <small>Also: clears stage 19 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-19), clears stage 29 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-29)</small>
+    - *“Now I know the way. I run to my dad and tell him the whole story.”*
+
+
+<span id="route-70"></span>
+
+??? note "Stage 70 · Odirath · 1 way"
+
+    **Way 1:** Talk to [Odirath](../monsters/stoutford_armorer.md), choose “You look happy again.”
+
+    - **Needs:** stage 60
+
+
+<span id="route-80"></span>
+
+??? note "Stage 80 · walking into a blocked passage on waytogalmore1 · 1 way"
+
+    **Way 1:** Walking into a blocked passage on [Waytogalmore 1](../maps/waytogalmore1.md)
+
+    - **Needs:** stage 80
+    - *“Oh, cool, Odirath seems to have repaired the mechanism already.”*
+
+
+<span id="route-90"></span>
+
+??? note "Stage 90 · Lord Berbane · 1 way"
+
+    **Way 1:** Talk to [Lord Berbane](../monsters/berbane.md), choose “Will you make the songs a reality now?”
+
+    - **Needs:** stage 70; carry 1× [Stoutford chief's helmet](../items/stoutford_helmet.md); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+    - <small>Also: sets stage 149 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-149)</small>
+    - *“He sighs and slowly takes the helmet.”*
+
+
+<span id="route-92"></span>
+
+??? note "Stage 92 · Lord Berbane · 1 way"
+
+    **Way 1:** Talk to [Lord Berbane](../monsters/berbane.md), choose “No, I have...”
+
+    - **Needs:** reached stage 44 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+    - <small>Also: sets stage 149 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-149)</small>
+    - *“[Loud voice] Yes, he has carried my magical helmet for me. I will take it back now.”*
+
+
+<span id="route-99"></span>
+
+??? note "Stage 99 · Lord Berbane · 1 way"
+
+    **Way 1:** Talk to [Lord Berbane](../monsters/berbane.md), choose “I give up.”
+
+    - **Needs:** reached stage 44 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+
+
+<span id="route-170"></span>
+
+??? note "Stage 170 · Odirath · 1 way"
+
+    **Way 1:** Talk to [Odirath](../monsters/stoutford_armorer.md), choose “You look happy again.”
+
+    - **Needs:** stage 60, 99
+
+
+<span id="route-199"></span>
+
+??? note "Stage 199 · Lord Berbane · 1 way"
+
+    **Way 1:** Talk to [Lord Berbane](../monsters/berbane.md), choose “I give up.”
+
+    - **Needs:** stage 70; reached stage 44 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-44); hand over 1× [Stoutford chief's helmet](../items/stoutford_helmet.md)
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

@@ -1,10 +1,10 @@
 ---
-description: "Small yellowjacket is an enemy in Andor's Trail (insect) with 37 HP, worth 119 XP, found in lodar11, lodar14, lodar4. Drops: Gold coins, Insect wing."
+description: "Small yellowjacket is an enemy in Andor's Trail (insect) with 37 HP, worth 119 XP, found in Lodar 11, Lodar 14, Lodar 4. Drops: Gold coins, Insect wing."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_113.png){ .sprite } Small yellowjacket
 
-**Found in:** [lodar11](../maps/lodar11.md), [lodar14](../maps/lodar14.md), [lodar4](../maps/lodar4.md), [lodar7](../maps/lodar7.md) (+1 more)
+**Found in:** [Lodar 11](../maps/lodar11.md), [Lodar 14](../maps/lodar14.md), [Lodar 4](../maps/lodar4.md), [Lodar 7](../maps/lodar7.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Small yellowjacket is an enemy in Andor's Trail (insect) with 37 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | lodar11, lodar14, lodar4 |
+| **Found in** | Lodar 11, Lodar 14, Lodar 4 |
 | **Class** | Insect |
 | **HP** | 37 |
 | **XP when defeated** | 119 |
@@ -57,11 +57,11 @@ description: "Small yellowjacket is an enemy in Andor's Trail (insect) with 37 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar11](../maps/lodar11.md) | – | 5 | – |
-| [lodar14](../maps/lodar14.md) | – | 2 | – |
-| [lodar4](../maps/lodar4.md) | – | 4 | – |
-| [lodar7](../maps/lodar7.md) | – | 13 | – |
-| [lodar8](../maps/lodar8.md) | – | 4 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 5 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 2 | – |
+| [Lodar 4](../maps/lodar4.md) | – | 4 | – |
+| [Lodar 7](../maps/lodar7.md) | – | 13 | – |
+| [Lodar 8](../maps/lodar8.md) | – | 4 | – |
 
 
 ## Version history

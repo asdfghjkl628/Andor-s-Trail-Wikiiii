@@ -4,7 +4,7 @@ description: "Trained mountain wolf is an enemy in Andor's Trail (animal) with 6
 
 # ![](../assets/icons/monsters/monsters_rltiles2_109.png){ .sprite } Trained mountain wolf
 
-**Found in:** Blackwater Mountain: [blackwater_mountain70](../maps/blackwater_mountain70.md), Blackwater Mountain: [bwmfill2](../maps/bwmfill2.md)
+**Found in:** Blackwater Mountain: [Blackwater mountain 70](../maps/blackwater_mountain70.md), Blackwater Mountain: [Bwmfill 2](../maps/bwmfill2.md)
 
 <div class="infobox" markdown>
 
@@ -60,8 +60,8 @@ description: "Trained mountain wolf is an enemy in Andor's Trail (animal) with 6
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 1 | – |
-| [bwmfill2](../maps/bwmfill2.md) | Blackwater Mountain | 6 | – |
+| [Blackwater mountain 70](../maps/blackwater_mountain70.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 2](../maps/bwmfill2.md) | Blackwater Mountain | 6 | – |
 
 
 ## Version history

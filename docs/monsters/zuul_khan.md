@@ -1,5 +1,5 @@
 ---
-description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found in bogsten4, mywildcave4, mushroom_m2_3, mushroom_m2_6, mushroom_m2_8, mushroom_m3_1. Teaches Spore poison immunity."
+description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found in Bogsten 4, Mywildcave 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1. Teaches Spore poison immunity."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_88.png){ .sprite } Zuul'khan
@@ -12,7 +12,7 @@ description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
 | **Role** | Teaches [Spore poison immunity](../skills/sporeImmunity.md) |
-| **Found in** | bogsten4, mywildcave4, mushroom_m2_3, mushroom_m2_6, mushroom_m2_8, mushroom_m3_1 |
+| **Found in** | Bogsten 4, Mywildcave 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1 |
 | **Class** | Humanoid |
 | **HP** | 175 |
 | **XP when defeated** | 214–266 |
@@ -22,22 +22,22 @@ description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "6 entries in the game data"
-    The game's data files define 6 separate characters named Zuul'khan. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. This page combines them; each entry is described in its own section below.
+    The game data defines 6 separate characters named Zuul'khan. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`zuul_khan`](#v-zuul_khan) | NPC/Enemy | [bogsten4](../maps/bogsten4.md#pin-npc-zuul_khan) | teaches [Spore poison immunity](../skills/sporeImmunity.md) | 175 |
-| [`gison_thiefboss`](#v-gison_thiefboss) | NPC/Enemy | [mywildcave4](../maps/mywildcave4.md#pin-npc-gison_thiefboss) | – | 175 |
-| [`zuul_khan2`](#v-zuul_khan2) | NPC/Enemy | [mushroom_m2_3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2) | – | 175 |
-| [`zuul_khan3`](#v-zuul_khan3) | NPC/Enemy | [mushroom_m2_6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3) | – | 175 |
-| [`zuul_khan4`](#v-zuul_khan4) | NPC/Enemy | [mushroom_m2_8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4) | – | 175 |
-| [`zuul_khan9`](#v-zuul_khan9) | NPC/Enemy | [mushroom_m3_1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9) | – | 175 |
+| [`zuul_khan`](#v-zuul_khan) | NPC/Enemy | [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan) | teaches [Spore poison immunity](../skills/sporeImmunity.md) | 175 |
+| [`gison_thiefboss`](#v-gison_thiefboss) | NPC/Enemy | [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thiefboss) | – | 175 |
+| [`zuul_khan2`](#v-zuul_khan2) | NPC/Enemy | [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2) | – | 175 |
+| [`zuul_khan3`](#v-zuul_khan3) | NPC/Enemy | [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3) | – | 175 |
+| [`zuul_khan4`](#v-zuul_khan4) | NPC/Enemy | [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4) | – | 175 |
+| [`zuul_khan9`](#v-zuul_khan9) | NPC/Enemy | [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9) | – | 175 |
 
-## Bogsten4 (zuul_khan) { #v-zuul_khan }
+## Bogsten 4 (zuul_khan) { #v-zuul_khan }
 
 **Entry ID:** `zuul_khan` · **Type:** NPC/Enemy · **Role:** Teaches [Spore poison immunity](../skills/sporeImmunity.md)
 
-**Location:** [bogsten4](../maps/bogsten4.md#pin-npc-zuul_khan)
+**Location:** [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -74,13 +74,13 @@ description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [bogsten4](../maps/bogsten4.md) | – | 1 | – |
+| [Bogsten 4](../maps/bogsten4.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-90) with stepping on a trigger on [bogsten4](../maps/bogsten4.md) checks that this enemy has been defeated.
-- A conversation with [Bogsten](../monsters/bogsten.md) ([bogsten1](../maps/bogsten1.md)) checks that this enemy has been defeated.
-- [Fungi panic](../quests/fungi_panic.md#stage-161) with [Black fog](../monsters/zuul_khan1_blocker.md) ([bogsten4](../maps/bogsten4.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-90) with stepping on a trigger on [Bogsten 4](../maps/bogsten4.md) checks that this enemy has been defeated.
+- A conversation with [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-161) with [Black fog](../monsters/zuul_khan1_blocker.md) ([Bogsten 4](../maps/bogsten4.md)) checks that this enemy has been defeated.
 
 ### Quests
 
@@ -88,7 +88,7 @@ description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zuul'khan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -96,7 +96,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (46 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan-zuul_khan"></span>**`zuul_khan`** *(silent check: the first matching branch below is taken)*
 
@@ -347,11 +347,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mywildcave4 (gison_thiefboss) { #v-gison_thiefboss }
+## Mywildcave 4 (gison_thiefboss) { #v-gison_thiefboss }
 
 **Entry ID:** `gison_thiefboss` · **Type:** NPC/Enemy
 
-**Location:** [mywildcave4](../maps/mywildcave4.md#pin-npc-gison_thiefboss)
+**Location:** [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thiefboss)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -382,15 +382,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mywildcave4](../maps/mywildcave4.md) | – | 1 | – |
+| [Mywildcave 4](../maps/mywildcave4.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-170) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-170) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([Mushroom m 3 1](../maps/mushroom_m3_1.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zuul'khan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gison_thiefboss.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -398,7 +398,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gison_thiefboss-gison_thiefboss"></span>**`gison_thiefboss`** Zuul'khan: “[muttering ominous words]”
 
@@ -473,11 +473,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 3 (zuul_khan2) { #v-zuul_khan2 }
+## Mushroom m 2 3 (zuul_khan2) { #v-zuul_khan2 }
 
 **Entry ID:** `zuul_khan2` · **Type:** NPC/Enemy
 
-**Location:** [mushroom_m2_3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2)
+**Location:** [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -514,15 +514,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m2_3](../maps/mushroom_m2_3.md) | – | 1 | – |
+| [Mushroom m 2 3](../maps/mushroom_m2_3.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-162) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker) ([mushroom_m2_3](../maps/mushroom_m2_3.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-162) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker) ([Mushroom m 2 3](../maps/mushroom_m2_3.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zuul'khan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan2.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -530,7 +530,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan2-zuul_khan2"></span>**`zuul_khan2`** Zuul'khan: “You again! How did you get into here?”
 
@@ -594,11 +594,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 6 (zuul_khan3) { #v-zuul_khan3 }
+## Mushroom m 2 6 (zuul_khan3) { #v-zuul_khan3 }
 
 **Entry ID:** `zuul_khan3` · **Type:** NPC/Enemy
 
-**Location:** [mushroom_m2_6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3)
+**Location:** [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -635,15 +635,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m2_6](../maps/mushroom_m2_6.md) | – | 1 | – |
+| [Mushroom m 2 6](../maps/mushroom_m2_6.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-163) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker) ([mushroom_m2_6](../maps/mushroom_m2_6.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-163) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker) ([Mushroom m 2 6](../maps/mushroom_m2_6.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zuul'khan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan3.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -651,7 +651,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan3-zuul_khan3"></span>**`zuul_khan3`** Zuul'khan: “You again!”
 
@@ -711,11 +711,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m2 8 (zuul_khan4) { #v-zuul_khan4 }
+## Mushroom m 2 8 (zuul_khan4) { #v-zuul_khan4 }
 
 **Entry ID:** `zuul_khan4` · **Type:** NPC/Enemy
 
-**Location:** [mushroom_m2_8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4)
+**Location:** [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -752,15 +752,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m2_8](../maps/mushroom_m2_8.md) | – | 1 | – |
+| [Mushroom m 2 8](../maps/mushroom_m2_8.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-164) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker) ([mushroom_m2_8](../maps/mushroom_m2_8.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-164) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker) ([Mushroom m 2 8](../maps/mushroom_m2_8.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zuul'khan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan4.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -768,7 +768,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (2 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan4-zuul_khan4"></span>**`zuul_khan4`** Zuul'khan: “I grow weary of you.”
 
@@ -828,11 +828,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mushroom m3 1 (zuul_khan9) { #v-zuul_khan9 }
+## Mushroom m 3 1 (zuul_khan9) { #v-zuul_khan9 }
 
 **Entry ID:** `zuul_khan9` · **Type:** NPC/Enemy
 
-**Location:** [mushroom_m3_1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9)
+**Location:** [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -869,17 +869,17 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mushroom_m3_1](../maps/mushroom_m3_1.md) | – | 1 | – |
+| [Mushroom m 3 1](../maps/mushroom_m3_1.md) | – | 1 | – |
 
 ### Quests that count defeats
 
-- [Fungi panic](../quests/fungi_panic.md#stage-169) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([mushroom_m3_1](../maps/mushroom_m3_1.md)) checks that this enemy has been defeated.
-- A conversation with [Gison](../monsters/gison.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) checks that this enemy has been defeated.
-- A conversation with [Nimael](../monsters/nimael.md) ([mywild20_houseleft](../maps/mywild20_houseleft.md)) checks that this enemy has been defeated.
+- [Fungi panic](../quests/fungi_panic.md#stage-169) with [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker) ([Mushroom m 3 1](../maps/mushroom_m3_1.md)) checks that this enemy has been defeated.
+- A conversation with [Gison](../monsters/gison.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) checks that this enemy has been defeated.
+- A conversation with [Nimael](../monsters/nimael.md) ([Mywild 20 houseleft](../maps/mywild20_houseleft.md)) checks that this enemy has been defeated.
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zuul'khan. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan9.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -887,7 +887,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (7 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-zuul_khan9-zuul_khan9"></span>**`zuul_khan9`** Zuul'khan: “You again! How did you get into here?”
 

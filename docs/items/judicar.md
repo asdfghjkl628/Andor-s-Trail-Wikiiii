@@ -55,7 +55,7 @@ description: "Judicar is a extraordinary axe in Andor's Trail (Attack damage 5 t
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster) | 100% | 1 | galmore_41 |
+| [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest_monster) | 100% | 1 | Galmore 41 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

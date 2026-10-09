@@ -25,12 +25,12 @@ description: "Chewed bone is a quest animal part in Andor's Trail. How to get it
 
 ### Quest & dialogue rewards
 
-- From reading a sign on [mountaincave2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-31) (100%)
-- From reading a sign on [mountaincave2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-32) (100%)
-- From reading a sign on [mountaincave2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-33) (100%)
-- From reading a sign on [mountaincave2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-34) (100%)
-- From reading a sign on [mountaincave2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-35) (100%)
-- From reading a sign on [mountaincave1](../maps/mountaincave1.md) during [Bits and pieces](../quests/thorin.md#stage-36) (100%)
+- From reading a sign on [Mountaincave 2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-31) (100%)
+- From reading a sign on [Mountaincave 2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-32) (100%)
+- From reading a sign on [Mountaincave 2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-33) (100%)
+- From reading a sign on [Mountaincave 2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-34) (100%)
+- From reading a sign on [Mountaincave 2](../maps/mountaincave2.md) during [Bits and pieces](../quests/thorin.md#stage-35) (100%)
+- From reading a sign on [Mountaincave 1](../maps/mountaincave1.md) during [Bits and pieces](../quests/thorin.md#stage-36) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -41,7 +41,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Thorin](../monsters/thorin.md) ([mountaincave3](../maps/mountaincave3.md)) | [Bits and pieces](../quests/thorin.md#stage-40) | handed over (6×) | “Yes, this is what I found.” |
+| [Thorin](../monsters/thorin.md) ([Mountaincave 3](../maps/mountaincave3.md)) | [Bits and pieces](../quests/thorin.md#stage-40) | handed over (6×) | “Yes, this is what I found.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

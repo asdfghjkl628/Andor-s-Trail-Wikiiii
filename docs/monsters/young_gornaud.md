@@ -4,7 +4,7 @@ description: "Young gornaud is an enemy in Andor's Trail (giant) with 70 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rltiles2_29.png){ .sprite } Young gornaud
 
-**Found in:** Blackwater Mountain: [blackwater_mountain15](../maps/blackwater_mountain15.md), Blackwater Mountain: [blackwater_mountain16](../maps/blackwater_mountain16.md), Blackwater Mountain: [blackwater_mountain53](../maps/blackwater_mountain53.md), Blackwater Mountain: [blackwater_mountain56](../maps/blackwater_mountain56.md) (+15 more)
+**Found in:** Blackwater Mountain: [Blackwater mountain 15](../maps/blackwater_mountain15.md), Blackwater Mountain: [Blackwater mountain 16](../maps/blackwater_mountain16.md), Blackwater Mountain: [Blackwater mountain 53](../maps/blackwater_mountain53.md), Blackwater Mountain: [Blackwater mountain 56](../maps/blackwater_mountain56.md) (+15 more)
 
 <div class="infobox" markdown>
 
@@ -58,25 +58,25 @@ description: "Young gornaud is an enemy in Andor's Trail (giant) with 70 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain1](../maps/blackwater_mountain1.md) | Stoutford | 2 | – |
-| [blackwater_mountain15](../maps/blackwater_mountain15.md) | Blackwater Mountain | 5 | – |
-| [blackwater_mountain16](../maps/blackwater_mountain16.md) | Blackwater Mountain | 5 | – |
-| [blackwater_mountain2](../maps/blackwater_mountain2.md) | – | 6 | – |
-| [blackwater_mountain3](../maps/blackwater_mountain3.md) | – | 1 | – |
-| [blackwater_mountain4](../maps/blackwater_mountain4.md) | – | 1 | – |
-| [blackwater_mountain4a](../maps/blackwater_mountain4a.md) | – | 3 | – |
-| [blackwater_mountain5](../maps/blackwater_mountain5.md) | – | 3 | – |
-| [blackwater_mountain53](../maps/blackwater_mountain53.md) | Blackwater Mountain | 3 | – |
-| [blackwater_mountain56](../maps/blackwater_mountain56.md) | Blackwater Mountain | 6 | – |
-| [blackwater_mountain5a](../maps/blackwater_mountain5a.md) | – | 4 | – |
-| [blackwater_mountain7](../maps/blackwater_mountain7.md) | Prim | 5 | – |
-| [blackwater_mountain9](../maps/blackwater_mountain9.md) | Prim | 2 | – |
-| [bwmfill1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
-| [bwmfill2](../maps/bwmfill2.md) | Blackwater Mountain | 1 | – |
-| [bwmfill4](../maps/bwmfill4.md) | Blackwater Mountain | 1 | – |
-| [bwmfill5](../maps/bwmfill5.md) | Blackwater Mountain | 1 | – |
-| [bwmfill6](../maps/bwmfill6.md) | Blackwater Mountain | 1 | – |
-| [bwmfill7](../maps/bwmfill7.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 1](../maps/blackwater_mountain1.md) | Stoutford | 2 | – |
+| [Blackwater mountain 15](../maps/blackwater_mountain15.md) | Blackwater Mountain | 5 | – |
+| [Blackwater mountain 16](../maps/blackwater_mountain16.md) | Blackwater Mountain | 5 | – |
+| [Blackwater mountain 2](../maps/blackwater_mountain2.md) | – | 6 | – |
+| [Blackwater mountain 3](../maps/blackwater_mountain3.md) | – | 1 | – |
+| [Blackwater mountain 4](../maps/blackwater_mountain4.md) | – | 1 | – |
+| [Blackwater mountain 4a](../maps/blackwater_mountain4a.md) | – | 3 | – |
+| [Blackwater mountain 5](../maps/blackwater_mountain5.md) | – | 3 | – |
+| [Blackwater mountain 53](../maps/blackwater_mountain53.md) | Blackwater Mountain | 3 | – |
+| [Blackwater mountain 56](../maps/blackwater_mountain56.md) | Blackwater Mountain | 6 | – |
+| [Blackwater mountain 5a](../maps/blackwater_mountain5a.md) | – | 4 | – |
+| [Blackwater mountain 7](../maps/blackwater_mountain7.md) | Prim | 5 | – |
+| [Blackwater mountain 9](../maps/blackwater_mountain9.md) | Prim | 2 | – |
+| [Bwmfill 1](../maps/bwmfill1.md) | Blackwater Mountain | 2 | – |
+| [Bwmfill 2](../maps/bwmfill2.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 4](../maps/bwmfill4.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 5](../maps/bwmfill5.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 6](../maps/bwmfill6.md) | Blackwater Mountain | 1 | – |
+| [Bwmfill 7](../maps/bwmfill7.md) | Blackwater Mountain | 1 | – |
 
 
 ## Version history

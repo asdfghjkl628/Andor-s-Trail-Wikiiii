@@ -21,28 +21,28 @@ description: "Dealer is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Dealer. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Dealer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`brv_blackjack_dealer`](#v-brv_blackjack_dealer) | NPC | Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_dealer) | – | – |
-| [`brv_blackjack_dealer_evil`](#v-brv_blackjack_dealer_evil) | Enemy | Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | – | 30 |
+| [`brv_blackjack_dealer`](#v-brv_blackjack_dealer) | NPC | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_dealer) | – | – |
+| [`brv_blackjack_dealer_evil`](#v-brv_blackjack_dealer_evil) | Enemy | Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | – | 30 |
 
 ## Brimhaven, Brimhaven tavern west back (brv_blackjack_dealer) { #v-brv_blackjack_dealer }
 
 **Entry ID:** `brv_blackjack_dealer` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_dealer)
+**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_dealer)
 
 ### Quests
 
 - [A place to forge](../quests/place_to_forge.md): stage 45
 - [Fair play?](../quests/brv_blackjack.md): stages 45, 50
-- [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md): stages 1, 10, 20, 30, 140
+- [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md): stages 1, 10, 20, 30, 140
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Dealer. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Dealer. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackjack_dealer_select.json" data-npc="Dealer" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,11 +50,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (99 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brv_blackjack_dealer-blackjack_dealer_select"></span>**`blackjack_dealer_select`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 100 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-100))* → [blackjack_dealer_20](#d-brv_blackjack_dealer-blackjack_dealer_20)
+    - branch 1 *(if NOT reached stage 100 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-100))* → [blackjack_dealer_20](#d-brv_blackjack_dealer-blackjack_dealer_20)
     - branch 2 → [blackjack_dealer_30](#d-brv_blackjack_dealer-blackjack_dealer_30)
 
     <span id="d-brv_blackjack_dealer-blackjack_dealer_20"></span>**`blackjack_dealer_20`** [Dealer](../monsters/brv_blackjack_dealer.md): “Take a seat on the empty chair if you want to play a round.”
@@ -87,7 +87,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [blackjack_bet](#d-brv_blackjack_dealer-blackjack_bet)
 
-    <span id="d-brv_blackjack_dealer-blackjack_bet"></span>**`blackjack_bet`** Dealer: “What is your 17+4 bet?” — **effects:** clears stage 1 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-1), clears stage 10 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10), clears stage 20 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-20), clears stage 30 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-30)
+    <span id="d-brv_blackjack_dealer-blackjack_bet"></span>**`blackjack_bet`** Dealer: “What is your 17+4 bet?” — **effects:** clears stage 1 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-1), clears stage 10 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10), clears stage 20 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-20), clears stage 30 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-30)
 
     - “1 Gold” *(if pay 1 gold)* → [blackjack_bet_1](#d-brv_blackjack_dealer-blackjack_bet_1)
     - “2 Gold” *(if pay 2 gold)* → [blackjack_bet_2](#d-brv_blackjack_dealer-blackjack_bet_2)
@@ -98,19 +98,19 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-brv_blackjack_dealer-blackjack_dealer_collect_tax_30"></span>**`blackjack_dealer_collect_tax_30`** Dealer: “Slams the table, six?! That greedy vulture...fine, here. Just get out before I change my mind.” — **effects:** sets stage 45 of [A place to forge](../quests/place_to_forge.md#stage-45), gives 6000× [Gold coins](../items/gold.md)
 
 
-    <span id="d-brv_blackjack_dealer-blackjack_bet_1"></span>**`blackjack_bet_1`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-1)
+    <span id="d-brv_blackjack_dealer-blackjack_bet_1"></span>**`blackjack_bet_1`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 1 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-1)
 
     - branch 1 → [blackjack_draw_at_0](#d-brv_blackjack_dealer-blackjack_draw_at_0)
 
-    <span id="d-brv_blackjack_dealer-blackjack_bet_2"></span>**`blackjack_bet_2`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 10 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10)
+    <span id="d-brv_blackjack_dealer-blackjack_bet_2"></span>**`blackjack_bet_2`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 10 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10)
 
     - branch 1 → [blackjack_draw_at_0](#d-brv_blackjack_dealer-blackjack_draw_at_0)
 
-    <span id="d-brv_blackjack_dealer-blackjack_bet_5"></span>**`blackjack_bet_5`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 20 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-20), sets stage 140 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140)
+    <span id="d-brv_blackjack_dealer-blackjack_bet_5"></span>**`blackjack_bet_5`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 20 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-20), sets stage 140 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140)
 
     - branch 1 → [blackjack_draw_at_0](#d-brv_blackjack_dealer-blackjack_draw_at_0)
 
-    <span id="d-brv_blackjack_dealer-blackjack_bet_10"></span>**`blackjack_bet_10`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 30 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-30), sets stage 140 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140)
+    <span id="d-brv_blackjack_dealer-blackjack_bet_10"></span>**`blackjack_bet_10`** *(silent check: the first matching branch below is taken)* — **effects:** sets stage 30 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-30), sets stage 140 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-140)
 
     - branch 1 → [blackjack_draw_at_0](#d-brv_blackjack_dealer-blackjack_draw_at_0)
 
@@ -431,10 +431,10 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-brv_blackjack_dealer-blackjack_win"></span>**`blackjack_win`** *(silent check: the first matching branch below is taken)* — **effects:** faction “brv_blackjack_won” +1
 
-    - branch 1 *(if reached stage 1 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-1))* → [blackjack_win_1gold](#d-brv_blackjack_dealer-blackjack_win_1gold)
-    - branch 2 *(if reached stage 10 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10))* → [blackjack_win_2gold](#d-brv_blackjack_dealer-blackjack_win_2gold)
-    - branch 3 *(if reached stage 20 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-20))* → [blackjack_win_5gold](#d-brv_blackjack_dealer-blackjack_win_5gold)
-    - branch 4 *(if reached stage 30 of [brv_blackjack_hidden (hidden flag)](../quests/brv_blackjack_hidden.md#stage-30))* → [blackjack_win_10gold](#d-brv_blackjack_dealer-blackjack_win_10gold)
+    - branch 1 *(if reached stage 1 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-1))* → [blackjack_win_1gold](#d-brv_blackjack_dealer-blackjack_win_1gold)
+    - branch 2 *(if reached stage 10 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-10))* → [blackjack_win_2gold](#d-brv_blackjack_dealer-blackjack_win_2gold)
+    - branch 3 *(if reached stage 20 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-20))* → [blackjack_win_5gold](#d-brv_blackjack_dealer-blackjack_win_5gold)
+    - branch 4 *(if reached stage 30 of [Brimhaven blackjack story flags (hidden flag)](../quests/brv_blackjack_hidden.md#stage-30))* → [blackjack_win_10gold](#d-brv_blackjack_dealer-blackjack_win_10gold)
 
     <span id="d-brv_blackjack_dealer-blackjack_draw_at_14"></span>**`blackjack_draw_at_14`** *(silent check: the first matching branch below is taken)*
 
@@ -743,7 +743,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `brv_blackjack_dealer_evil` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md)
+**Location:** Brimhaven: [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md)
 
 ### Combat statistics
 
@@ -779,12 +779,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_tavern_west_back](../maps/brimhaven_tavern_west_back.md) | Brimhaven | 1 | Appears later, during a quest |
+| [Brimhaven tavern west back](../maps/brimhaven_tavern_west_back.md) | Brimhaven | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Fair play?](../quests/brv_blackjack.md#stage-60) with [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([brimhaven_tavern_west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
-- [Fair play?](../quests/brv_blackjack.md#stage-60) with stepping on a trigger on [brimhaven_tavern_west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
+- [Fair play?](../quests/brv_blackjack.md#stage-60) with [Guard](../monsters/guard.md#v-brv_tavern_west_guard) ([Brimhaven tavern west](../maps/brimhaven_tavern_west.md)), walking into a blocked passage on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
+- [Fair play?](../quests/brv_blackjack.md#stage-60) with stepping on a trigger on [Brimhaven tavern west](../maps/brimhaven_tavern_west.md) checks that this enemy has been defeated.
 
 
 ### Version history

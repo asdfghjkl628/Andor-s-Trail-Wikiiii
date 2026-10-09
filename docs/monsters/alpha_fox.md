@@ -4,7 +4,7 @@ description: "Alpha fox is an enemy in Andor's Trail (animal) with 50 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_rltiles4_7.png){ .sprite } Alpha fox
 
-**Found in:** Foaming Flask Tavern: [road2](../maps/road2.md)
+**Found in:** Foaming Flask Tavern: [Road 2](../maps/road2.md)
 
 <div class="infobox" markdown>
 
@@ -55,7 +55,7 @@ description: "Alpha fox is an enemy in Andor's Trail (animal) with 50 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [road2](../maps/road2.md) | Foaming Flask Tavern | 1 | – |
+| [Road 2](../maps/road2.md) | Foaming Flask Tavern | 1 | – |
 
 
 ## Version history

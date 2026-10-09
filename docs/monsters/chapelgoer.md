@@ -18,32 +18,32 @@ description: "Mourning woman is a non-player character (NPC) in Andor's Trail, f
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Mourning woman. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Mourning woman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`chapelgoer`](#v-chapelgoer) | NPC | Brimhaven: [brimhaven_church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [fallhaven_church](../maps/fallhaven_church.md#pin-npc-chapelgoer) (+3 more) | – |
-| [`dds_mourning_woman`](#v-dds_mourning_woman) | NPC | Loneford: [loneford4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [galmore_45](../maps/galmore_45.md#pin-npc-dds_mourning_woman) | – |
+| [`chapelgoer`](#v-chapelgoer) | NPC | Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [Fallhaven church](../maps/fallhaven_church.md#pin-npc-chapelgoer) (+3 more) | – |
+| [`dds_mourning_woman`](#v-dds_mourning_woman) | NPC | Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_mourning_woman) | – |
 
 ## Brimhaven, Brimhaven church and 4 more (chapelgoer) { #v-chapelgoer }
 
 **Entry ID:** `chapelgoer` · **Type:** NPC
 
-**Location:** Brimhaven: [brimhaven_church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [fallhaven_church](../maps/fallhaven_church.md#pin-npc-chapelgoer), Loneford: [loneford4](../maps/loneford4.md#pin-npc-chapelgoer), Remgard: [remgard_church](../maps/remgard_church.md#pin-npc-chapelgoer), Vilegard: [vilegard_chapel](../maps/vilegard_chapel.md#pin-npc-chapelgoer)
+**Location:** Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [Fallhaven church](../maps/fallhaven_church.md#pin-npc-chapelgoer), Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-chapelgoer), Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-chapelgoer), Vilegard: [Vilegard chapel](../maps/vilegard_chapel.md#pin-npc-chapelgoer)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven_church](../maps/brimhaven_church.md) | Brimhaven | 3 | – |
-| [fallhaven_church](../maps/fallhaven_church.md) | Fallhaven | 3 | – |
-| [loneford4](../maps/loneford4.md) | Loneford | 1 | – |
-| [remgard_church](../maps/remgard_church.md) | Remgard | 2 | – |
-| [vilegard_chapel](../maps/vilegard_chapel.md) | Vilegard | 2 | – |
+| [Brimhaven church](../maps/brimhaven_church.md) | Brimhaven | 3 | – |
+| [Fallhaven church](../maps/fallhaven_church.md) | Fallhaven | 3 | – |
+| [Loneford 4](../maps/loneford4.md) | Loneford | 1 | – |
+| [Remgard church](../maps/remgard_church.md) | Remgard | 2 | – |
+| [Vilegard chapel](../maps/vilegard_chapel.md) | Vilegard | 2 | – |
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mourning woman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mourning woman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/chapelgoer.json" data-npc="Mourning woman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -51,7 +51,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-chapelgoer-chapelgoer"></span>**`chapelgoer`** Mourning woman: “Shadow, embrace me.”
 
@@ -94,18 +94,18 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Loneford, Loneford4 and 1 more (dds_mourning_woman) { #v-dds_mourning_woman }
+## Loneford, Loneford 4 and 1 more (dds_mourning_woman) { #v-dds_mourning_woman }
 
 **Entry ID:** `dds_mourning_woman` · **Type:** NPC
 
-**Location:** Loneford: [loneford4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [galmore_45](../maps/galmore_45.md#pin-npc-dds_mourning_woman)
+**Location:** Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_mourning_woman)
 
 ### Locations
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
-| [loneford4](../maps/loneford4.md) | Loneford | 1 | Appears later, during a quest |
+| [Galmore 45](../maps/galmore_45.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Loneford 4](../maps/loneford4.md) | Loneford | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -114,7 +114,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Mourning woman. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Mourning woman. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_mourning_woman.json" data-npc="Mourning woman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -122,7 +122,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (38 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-dds_mourning_woman-dds_mourning_woman"></span>**`dds_mourning_woman`** *(silent check: the first matching branch below is taken)*
 

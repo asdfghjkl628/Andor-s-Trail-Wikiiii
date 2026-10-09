@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild3 is an indoor location in Andor's Trail, in Burial cave (other). Enemies: Duleian mountain cat, Duleian panther, Elder deer. Exits to Brightportwild5, Brightportwild4, Brightportwild2."
+description: "Brightportwild 3 is an indoor location in Andor's Trail, in Burial cave (other). Enemies: Duleian mountain cat, Duleian panther, Elder deer. Exits to Brightportwild 5, Brightportwild 4, Brightportwild 2."
 ---
 
-# Brightportwild3
+# Brightportwild 3
 
 <div class="infobox" markdown>
 
@@ -12,28 +12,28 @@ description: "Brightportwild3 is an indoor location in Andor's Trail, in Burial 
 | **Region** | In Burial cave (other) |
 | **Type** | Indoors / underground |
 | **Size** | 20×15 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild3** is an indoor map, in Burial cave (other). It has no NPCs and 3 kinds of enemy. Exits lead to Brightportwild5, Brightportwild4, Brightportwild2.
+**Brightportwild 3** is an indoor map, in Burial cave (other). It has no NPCs and 3 kinds of enemy. Exits lead to Brightportwild 5, Brightportwild 4, Brightportwild 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild3.webp" alt="Map of Brightportwild3" width="640" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild4/#place-west" title="Exit to Brightportwild4" style="left:95.000%;top:13.333%;width:5.000%;height:46.667%"></a><a id="place-west" class="mo mo-mapchange" href="../brightportwild2/#place-east" title="Exit to Brightportwild2" style="left:0.000%;top:60.000%;width:5.000%;height:13.333%"></a><a id="place-north" class="mo mo-mapchange" href="../brightportwild5/#place-south" title="Exit to Brightportwild5" style="left:10.000%;top:0.000%;width:15.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Duleian mountain cat" style="left:10.000%;top:53.333%;width:20.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:50.000%;top:53.333%;width:40.000%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:10.000%;top:13.333%;width:55.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:65.000%;top:13.333%;width:25.000%;height:20.000%"></span><a class="mob" href="../../monsters/duleian_mountain_cat/" title="Duleian mountain cat" style="left:20.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_70.png" alt="Duleian mountain cat"></a><a class="mob" href="../../monsters/duleian_mountain_cat/" title="Duleian mountain cat" style="left:10.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_70.png" alt="Duleian mountain cat"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:75.000%;top:60.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:70.000%;top:53.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:50.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:15.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:80.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:85.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="pin pin-exit" href="#key-1" style="left:17.500%;top:3.333%" title="Exit (north): to [Brightportwild5](brightportwild5.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.500%;top:36.667%" title="Exit (east): to [Brightportwild4](brightportwild4.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.500%;top:66.667%" title="Exit (west): to [Brightportwild2](brightportwild2.md)">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild3.webp" alt="Map of Brightportwild 3" width="640" height="480" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild4/#place-west" title="Exit to Brightportwild 4" style="left:95.000%;top:13.333%;width:5.000%;height:46.667%"></a><a id="place-west" class="mo mo-mapchange" href="../brightportwild2/#place-east" title="Exit to Brightportwild 2" style="left:0.000%;top:60.000%;width:5.000%;height:13.333%"></a><a id="place-north" class="mo mo-mapchange" href="../brightportwild5/#place-south" title="Exit to Brightportwild 5" style="left:10.000%;top:0.000%;width:15.000%;height:6.667%"></a><span class="mo mo-spawn" title="Spawns: Duleian mountain cat" style="left:10.000%;top:53.333%;width:20.000%;height:26.667%"></span><span class="mo mo-spawn" title="Spawns: Duleian panther" style="left:50.000%;top:53.333%;width:40.000%;height:13.333%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:10.000%;top:13.333%;width:55.000%;height:20.000%"></span><span class="mo mo-spawn" title="Spawns: Elder deer" style="left:65.000%;top:13.333%;width:25.000%;height:20.000%"></span><a class="mob" href="../../monsters/duleian_mountain_cat/" title="Duleian mountain cat" style="left:20.000%;top:66.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_70.png" alt="Duleian mountain cat"></a><a class="mob" href="../../monsters/duleian_mountain_cat/" title="Duleian mountain cat" style="left:10.000%;top:73.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_70.png" alt="Duleian mountain cat"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:75.000%;top:60.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_cat2/" title="Duleian panther" style="left:70.000%;top:53.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_tometik4_67.png" alt="Duleian panther"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:50.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:15.000%;top:26.667%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:80.000%;top:20.000%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="mob" href="../../monsters/brightport_elderdeer/" title="Elder deer" style="left:85.000%;top:13.333%;width:5.000%;height:6.667%"><img src="../../assets/icons/monsters/monsters_johny_13.png" alt="Elder deer"></a><a class="pin pin-exit" href="#key-1" style="left:17.500%;top:3.333%" title="Exit (north): to [Brightportwild 5](brightportwild5.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:97.500%;top:36.667%" title="Exit (east): to [Brightportwild 4](brightportwild4.md)">2</a><a class="pin pin-exit" href="#key-3" style="left:2.500%;top:66.667%" title="Exit (west): to [Brightportwild 2](brightportwild2.md)">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild5](brightportwild5.md) |
-    | <span id="key-2"></span>2 | Exit (east) | to [Brightportwild4](brightportwild4.md) |
-    | <span id="key-3"></span>3 | Exit (west) | to [Brightportwild2](brightportwild2.md) |
+    | <span id="key-1"></span>1 | Exit (north) | to [Brightportwild 5](brightportwild5.md) |
+    | <span id="key-2"></span>2 | Exit (east) | to [Brightportwild 4](brightportwild4.md) |
+    | <span id="key-3"></span>3 | Exit (west) | to [Brightportwild 2](brightportwild2.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -42,9 +42,9 @@ description: "Brightportwild3 is an indoor location in Andor's Trail, in Burial 
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| North | [Brightportwild5](brightportwild5.md) | – | 1 |
-| East | [Brightportwild4](brightportwild4.md) | Burial cave | 2 |
-| West | [Brightportwild2](brightportwild2.md) | – | 3 |
+| North | [Brightportwild 5](brightportwild5.md) | – | 1 |
+| East | [Brightportwild 4](brightportwild4.md) | Burial cave | 2 |
+| West | [Brightportwild 2](brightportwild2.md) | – | 3 |
 
 ## Enemies
 

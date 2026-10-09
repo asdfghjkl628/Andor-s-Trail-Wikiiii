@@ -40,12 +40,12 @@ description: "Insect shell is a ordinary animal part in Andor's Trail. How to ge
 | [Young carrion beetle](../monsters/cbeetle_1.md) | 30% | 1 | Brightport |
 | [Carrion beetle](../monsters/cbeetle_2.md) | 30% | 1 | Brightport |
 | [Young scaradon](../monsters/scaradon_1.md) | 30% | 1 | Brightport |
-| [Small scaradon](../monsters/scaradon_2.md) | 30% | 1 | mountaincave1, mountaincave2, waytolake0 |
-| [Scaradon](../monsters/scaradon_3.md) | 30% | 1 | mountaincave1, mountaincave2, waytolake0 |
-| [Tough scaradon](../monsters/scaradon_4.md) | 30% | 1 | mountaincave1, mountaincave2, waytolake0 |
+| [Small scaradon](../monsters/scaradon_2.md) | 30% | 1 | Mountaincave 1, Mountaincave 2, Waytolake 0 |
+| [Scaradon](../monsters/scaradon_3.md) | 30% | 1 | Mountaincave 1, Mountaincave 2, Waytolake 0 |
+| [Tough scaradon](../monsters/scaradon_4.md) | 30% | 1 | Mountaincave 1, Mountaincave 2, Waytolake 0 |
 | [Hardshell scaradon](../monsters/scaradon_5.md) | 30% | 1 | Brightport |
-| [Larval cave burrower](../monsters/burrower_1.md) | 30% | 1 | waterway14, waterway15 |
-| [Cave burrower](../monsters/burrower_2.md) | 30% | 1 | waterway14, waterway15 |
+| [Larval cave burrower](../monsters/burrower_1.md) | 30% | 1 | Waterway 14, Waterway 15 |
+| [Cave burrower](../monsters/burrower_2.md) | 30% | 1 | Waterway 14, Waterway 15 |
 | [Strong larval burrower](../monsters/burrower_3.md) | 30% | 1 | Brimhaven |
 | [Giant larval burrower](../monsters/burrower_4.md) | 30% | 1 | Pub, Bloskelt + Roskelt, Entry |
 | [Carrion centipede](../monsters/ccentip0.md) | 30% | 1 | Charwood, Foaming Flask Tavern |
@@ -54,11 +54,11 @@ description: "Insect shell is a ordinary animal part in Andor's Trail. How to ge
 | [Young poisonous cave burrower](../monsters/caveburr1.md) | 30% | 1 | Loneford |
 | [Infected larval cave burrower](../monsters/caveburr2.md) | 30% | 1 | Loneford |
 | [Poisonous cave burrower](../monsters/caveburr3.md) | 30% | 1 | Loneford |
-| [Strong poisonous cave burrower](../monsters/caveburr4.md) | 30% | 1 | lodar5cave0, lodar5cave1, lodar5cave2 |
-| [Giant poisonous cave burrower](../monsters/caveburr5.md) | 30% | 1 | lodar5cave0, lodar5cave1, lodar5cave2 |
+| [Strong poisonous cave burrower](../monsters/caveburr4.md) | 30% | 1 | Lodar 5cave 0, Lodar 5cave 1, Lodar 5cave 2 |
+| [Giant poisonous cave burrower](../monsters/caveburr5.md) | 30% | 1 | Lodar 5cave 0, Lodar 5cave 1, Lodar 5cave 2 |
 | [Hardershell beetle](../monsters/hardershell_beetle.md) | 30% | 1 | Foaming Flask Tavern, Guynmart Castle |
 | [Village ant](../monsters/village_ant.md) | 30% | 1 | Wexlow Village |
-| [Queen spider](../monsters/spider_queen.md) | 20% | 1 | laerothcave2, secretpassage1, undertell_1_1 |
+| [Queen spider](../monsters/spider_queen.md) | 20% | 1 | Laerothcave 2, Secretpassage 1, Undertell 1 1 |
 | [Basement spider](../monsters/laerothbasement_spider.md) | 10% | 1 | Lake Laeroth |
 | [Giant spider](../monsters/spider_massive.md) | 10% | 1 | Lake Laeroth |
 | [Grass spider](../monsters/grass_spider.md) | 10% | 1 | Mt. Galmore, Flagstone Prison, Wexlow Village |
@@ -73,7 +73,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| stepping on a trigger on [loneford13](../maps/loneford13.md) | – | handed over (1×) | “[Lob down an insect shell.]” |
+| stepping on a trigger on [Loneford 13](../maps/loneford13.md) | – | handed over (1×) | “[Lob down an insect shell.]” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

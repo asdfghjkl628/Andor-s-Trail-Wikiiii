@@ -4,7 +4,7 @@ description: "Old Blue is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_cats_3.png){ .sprite } Old Blue
 
-**Where to find Old Blue:** Flagstone Prison: [rat_mountain_3](../maps/rat_mountain_3.md#pin-npc-blue_cat)
+**Where to find Old Blue:** Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md#pin-npc-blue_cat)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Old Blue is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Old Blue. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Old Blue. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blue_cat_1.json" data-npc="Old Blue" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (9 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blue_cat_1"></span>**`blue_cat_1`** Old Blue: “Hello, my name is "Old Blue".”
 

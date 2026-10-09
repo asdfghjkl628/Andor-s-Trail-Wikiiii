@@ -11,7 +11,7 @@ description: "Brimhaven exit is an indoor location in Andor's Trail. "
 | **Map ID** | `brimhaven_exit` |
 | **Type** | Indoors / underground |
 | **Size** | 30×30 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 | **Quests** | 1 |
 

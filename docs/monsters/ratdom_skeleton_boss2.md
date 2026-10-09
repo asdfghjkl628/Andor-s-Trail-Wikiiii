@@ -4,7 +4,7 @@ description: "Bloskelt is an NPC who can also be fought in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_tometik8_44.png){ .sprite } Bloskelt
 
-**Where to find Bloskelt:** Bloskelt + Roskelt: [ratdom_maze_416](../maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton_boss2)
+**Where to find Bloskelt:** Bloskelt + Roskelt: [Ratdom maze 416](../maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton_boss2)
 
 <div class="infobox" markdown>
 
@@ -55,11 +55,11 @@ description: "Bloskelt is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 1 | – |
+| [Ratdom maze 416](../maps/ratdom_maze_416.md) | Bloskelt + Roskelt | 1 | – |
 
 ## Quests that count defeats
 
-- [Skeleton brothers](../quests/ratdom_skeleton.md#stage-71) with stepping on a trigger on [ratdom_maze_416](../maps/ratdom_maze_416.md) checks that this enemy has been defeated.
+- [Skeleton brothers](../quests/ratdom_skeleton.md#stage-71) with stepping on a trigger on [Ratdom maze 416](../maps/ratdom_maze_416.md) checks that this enemy has been defeated.
 
 ## Quests
 
@@ -68,7 +68,7 @@ description: "Bloskelt is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Bloskelt. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Bloskelt. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_skeleton_boss2.json" data-npc="Bloskelt" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (21 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-ratdom_skeleton_boss2"></span>**`ratdom_skeleton_boss2`** *(silent check: the first matching branch below is taken)*
 

@@ -1,8 +1,8 @@
 ---
-description: "Brightportwild16 is an indoor location in Andor's Trail, in Greenscale tribe (settlement). Enemies: Hardshell beetle. Exits to Brightportwild17, Brightportwild15."
+description: "Brightportwild 16 is an indoor location in Andor's Trail, in Greenscale tribe (settlement). Enemies: Hardshell beetle. Exits to Brightportwild 17, Brightportwild 15."
 ---
 
-# Brightportwild16
+# Brightportwild 16
 
 <div class="infobox" markdown>
 
@@ -12,27 +12,27 @@ description: "Brightportwild16 is an indoor location in Andor's Trail, in Greens
 | **Region** | In Greenscale tribe (settlement) |
 | **Type** | Indoors / underground |
 | **Size** | 16×18 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightportwild16** is an indoor map, in Greenscale tribe (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild17, Brightportwild15.
+**Brightportwild 16** is an indoor map, in Greenscale tribe (settlement). It has no NPCs and 1 kind of enemy. Exits lead to Brightportwild 17, Brightportwild 15.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild16.webp" alt="Map of Brightportwild16" width="512" height="576" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild17/#place-west" title="Exit to Brightportwild17" style="left:93.750%;top:38.889%;width:6.250%;height:27.778%"></a><a id="place-west" class="mo mo-mapchange" href="../brightportwild15/#place-east" title="Exit to Brightportwild15" style="left:0.000%;top:16.667%;width:6.250%;height:22.222%"></a><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:12.500%;top:22.222%;width:75.000%;height:61.111%"></span><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:18.750%;top:33.333%;width:6.250%;height:5.556%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:81.250%;top:61.111%;width:6.250%;height:5.556%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:96.875%;top:52.778%" title="Exit (east): to [Brightportwild17](brightportwild17.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:3.125%;top:27.778%" title="Exit (west): to [Brightportwild15](brightportwild15.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightportwild16.webp" alt="Map of Brightportwild 16" width="512" height="576" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightportwild17/#place-west" title="Exit to Brightportwild 17" style="left:93.750%;top:38.889%;width:6.250%;height:27.778%"></a><a id="place-west" class="mo mo-mapchange" href="../brightportwild15/#place-east" title="Exit to Brightportwild 15" style="left:0.000%;top:16.667%;width:6.250%;height:22.222%"></a><span class="mo mo-spawn" title="Spawns: Hardshell beetle" style="left:12.500%;top:22.222%;width:75.000%;height:61.111%"></span><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:18.750%;top:33.333%;width:6.250%;height:5.556%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="mob" href="../../monsters/hardshell_beetle/" title="Hardshell beetle" style="left:81.250%;top:61.111%;width:6.250%;height:5.556%"><img src="../../assets/icons/monsters/monsters_insects_4.png" alt="Hardshell beetle"></a><a class="pin pin-exit" href="#key-1" style="left:96.875%;top:52.778%" title="Exit (east): to [Brightportwild 17](brightportwild17.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:3.125%;top:27.778%" title="Exit (west): to [Brightportwild 15](brightportwild15.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightportwild17](brightportwild17.md) |
-    | <span id="key-2"></span>2 | Exit (west) | to [Brightportwild15](brightportwild15.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightportwild 17](brightportwild17.md) |
+    | <span id="key-2"></span>2 | Exit (west) | to [Brightportwild 15](brightportwild15.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Brightportwild16 is an indoor location in Andor's Trail, in Greens
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightportwild17](brightportwild17.md) | Greenscale tribe | 1 |
-| West | [Brightportwild15](brightportwild15.md) | Greenscale tribe | 2 |
+| East | [Brightportwild 17](brightportwild17.md) | Greenscale tribe | 1 |
+| West | [Brightportwild 15](brightportwild15.md) | Greenscale tribe | 2 |
 
 ## Enemies
 

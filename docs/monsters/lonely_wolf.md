@@ -4,7 +4,7 @@ description: "Ancient wolf is an enemy in Andor's Trail (animal) with 35 HP, wor
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Ancient wolf
 
-**Found in:** Foaming Flask Tavern: [wild14](../maps/wild14.md)
+**Found in:** Foaming Flask Tavern: [Wild 14](../maps/wild14.md)
 
 <div class="infobox" markdown>
 
@@ -56,7 +56,7 @@ description: "Ancient wolf is an enemy in Andor's Trail (animal) with 35 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wild14](../maps/wild14.md) | Foaming Flask Tavern | 1 | – |
+| [Wild 14](../maps/wild14.md) | Foaming Flask Tavern | 1 | – |
 
 
 ## Version history

@@ -1,8 +1,8 @@
 ---
-description: "Brightport cave19 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith. Exits to Brightport cave18, Brightport cave20."
+description: "Brightport cave 19 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Wraith. Exits to Brightport cave 18, Brightport cave 20."
 ---
 
-# Brightport cave19
+# Brightport cave 19
 
 <div class="infobox" markdown>
 
@@ -19,20 +19,20 @@ description: "Brightport cave19 is an indoor location in Andor's Trail, in Burie
 
 </div>
 
-**Brightport cave19** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave18, Brightport cave20.
+**Brightport cave 19** is an indoor map, in Buried citadel (other). It has no NPCs and 1 kind of enemy. Exits lead to Brightport cave 18, Brightport cave 20.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave19.webp" alt="Map of Brightport cave19" width="672" height="288" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_cave18/#place-west" title="Exit to Brightport cave18" style="left:95.238%;top:44.444%;width:4.762%;height:22.222%"></a><a id="place-north" class="mo mo-mapchange" href="../brightport_cave20/#place-south" title="Exit to Brightport cave20" style="left:42.857%;top:22.222%;width:4.762%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Wraith" style="left:23.810%;top:44.444%;width:14.286%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Wraith" style="left:47.619%;top:33.333%;width:42.857%;height:44.444%"></span><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:28.571%;top:55.556%;width:4.762%;height:11.111%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:66.667%;top:44.444%;width:4.762%;height:11.111%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:52.381%;top:66.667%;width:4.762%;height:11.111%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="pin pin-exit" href="#key-1" style="left:97.619%;top:55.556%" title="Exit (east): to [Brightport cave18](brightport_cave18.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:45.238%;top:27.778%" title="Exit (stairs / passage): to [Brightport cave20](brightport_cave20.md)">2</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brightport_cave19.webp" alt="Map of Brightport cave 19" width="672" height="288" loading="lazy"><a id="place-east" class="mo mo-mapchange" href="../brightport_cave18/#place-west" title="Exit to Brightport cave 18" style="left:95.238%;top:44.444%;width:4.762%;height:22.222%"></a><a id="place-north" class="mo mo-mapchange" href="../brightport_cave20/#place-south" title="Exit to Brightport cave 20" style="left:42.857%;top:22.222%;width:4.762%;height:11.111%"></a><span class="mo mo-spawn" title="Spawns: Wraith" style="left:23.810%;top:44.444%;width:14.286%;height:33.333%"></span><span class="mo mo-spawn" title="Spawns: Wraith" style="left:47.619%;top:33.333%;width:42.857%;height:44.444%"></span><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:28.571%;top:55.556%;width:4.762%;height:11.111%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:66.667%;top:44.444%;width:4.762%;height:11.111%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="mob" href="../../monsters/brightport_wraith/" title="Wraith" style="left:52.381%;top:66.667%;width:4.762%;height:11.111%"><img src="../../assets/icons/monsters/monsters_newb_1_67.png" alt="Wraith"></a><a class="pin pin-exit" href="#key-1" style="left:97.619%;top:55.556%" title="Exit (east): to [Brightport cave 18](brightport_cave18.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:45.238%;top:27.778%" title="Exit (stairs / passage): to [Brightport cave 20](brightport_cave20.md)">2</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Brightport cave18](brightport_cave18.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport cave20](brightport_cave20.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Brightport cave 18](brightport_cave18.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Brightport cave 20](brightport_cave20.md) |
 
 
 <p class="verified">Verified against v0.8.18 map data.</p>
@@ -41,8 +41,8 @@ description: "Brightport cave19 is an indoor location in Andor's Trail, in Burie
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Brightport cave18](brightport_cave18.md) | Buried citadel | 1 |
-| Stairs / passage | [Brightport cave20](brightport_cave20.md) | Buried citadel | 2 |
+| East | [Brightport cave 18](brightport_cave18.md) | Buried citadel | 1 |
+| Stairs / passage | [Brightport cave 20](brightport_cave20.md) | Buried citadel | 2 |
 
 ## Enemies
 

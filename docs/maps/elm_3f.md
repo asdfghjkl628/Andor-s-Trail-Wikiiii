@@ -67,7 +67,7 @@ description: "Elm 3f is an indoor location in Andor's Trail. NPCs: Ortholion's h
 ## Quests
 
 - [Climbing up is forbidden](../quests/Omi2_bwm1.md): [Ortholion's henchman](../monsters/ortholion_guard9.md) is involved; blocked passage opens at stage 50
-- [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md): [Ortholion's henchman](../monsters/ortholion_guard9.md) is involved; blocked passage closes at stage 34
+- [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md): [Ortholion's henchman](../monsters/ortholion_guard9.md) is involved; blocked passage closes at stage 34
 
 ## Points of interest
 

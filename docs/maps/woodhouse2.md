@@ -1,8 +1,8 @@
 ---
-description: "Woodhouse2 is an indoor location in Andor's Trail, in Fallhaven (settlement). NPCs: Burhczyd, Knight of Elythom, Lowyna, Outcast, Outcast. Enemies: Roach, Rat. Exits to Woodhouse3, Woodsettlement0."
+description: "Woodhouse 2 is an indoor location in Andor's Trail, in Fallhaven (settlement). NPCs: Burhczyd, Knight of Elythom, Lowyna, Outcast, Outcast. Enemies: Rat, Roach. Exits to Woodhouse 3, Woodsettlement 0."
 ---
 
-# Woodhouse2
+# Woodhouse 2
 
 <div class="infobox" markdown>
 
@@ -19,20 +19,20 @@ description: "Woodhouse2 is an indoor location in Andor's Trail, in Fallhaven (s
 
 </div>
 
-**Woodhouse2** is an indoor map, in Fallhaven (settlement). It has 5 NPCs and 3 kinds of enemy. Exits lead to Woodhouse3, Woodsettlement0.
+**Woodhouse 2** is an indoor map, in Fallhaven (settlement). It has 5 NPCs and 3 kinds of enemy. Exits lead to Woodhouse 3, Woodsettlement 0.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/woodhouse2.webp" alt="Map of Woodhouse2" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../woodsettlement0/#place-woodhouse2" title="Exit to Woodsettlement0" style="left:56.250%;top:87.500%;width:6.250%;height:12.500%"></a><a id="place-down woodhouse2" class="mo mo-mapchange" href="../woodhouse3/#place-up woodhouse3" title="Exit to Woodhouse3" style="left:87.500%;top:37.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Outcast" style="left:6.250%;top:37.500%;width:18.750%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Outcast" style="left:25.000%;top:37.500%;width:18.750%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Lowyna" style="left:56.250%;top:37.500%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Rat, Roach" style="left:6.250%;top:75.000%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Knight of Elythom (only appears later, during a quest)" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/smuggler1/" title="Outcast" style="left:6.250%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_26.png" alt="Outcast"></a><a class="mob" href="../../monsters/smuggler1/#v-smuggler2" title="Outcast" style="left:25.000%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_82.png" alt="Outcast"></a><a class="mob" href="../../monsters/lowyna/" title="Lowyna" style="left:68.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt="Lowyna"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:12.500%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:18.750%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/burhczyd1/#v-burhczyd8" title="Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld2_8.png" alt="Burhczyd"></a><a class="pin pin-exit" href="#key-1" style="left:90.625%;top:43.750%" title="Exit (east): to [Woodhouse3](woodhouse3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:59.375%;top:93.750%" title="Exit (south): to [Woodsettlement0](woodsettlement0.md)">2</a><a id="pin-npc-burhczyd8" class="pin pin-npc" href="#key-3" style="left:46.875%;top:43.750%" title="[Burhczyd](../../monsters/burhczyd1.md#v-burhczyd8): 1 quest">3</a><a id="pin-npc-burhczyd8e" class="pin pin-npc" href="#key-4" style="left:47.286%;top:34.376%" title="[Knight of Elythom](../../monsters/burhczyd1e.md#v-burhczyd8e): 1 quest">4</a><a id="pin-npc-lowyna" class="pin pin-npc" href="#key-5" style="left:71.875%;top:43.750%" title="[Lowyna](../../monsters/lowyna.md): shopkeeper, 1 quest">5</a><a id="pin-npc-smuggler1" class="pin pin-npc" href="#key-6" style="left:9.375%;top:56.250%" title="[Outcast](../../monsters/smuggler1.md): NPC">6</a><a id="pin-npc-smuggler2" class="pin pin-npc" href="#key-7" style="left:28.125%;top:68.750%" title="[Outcast](../../monsters/smuggler1.md#v-smuggler2): NPC">7</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/woodhouse2.webp" alt="Map of Woodhouse 2" width="512" height="256" loading="lazy"><a id="place-south" class="mo mo-mapchange" href="../woodsettlement0/#place-woodhouse2" title="Exit to Woodsettlement 0" style="left:56.250%;top:87.500%;width:6.250%;height:12.500%"></a><a id="place-down woodhouse2" class="mo mo-mapchange" href="../woodhouse3/#place-up woodhouse3" title="Exit to Woodhouse 3" style="left:87.500%;top:37.500%;width:6.250%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Outcast" style="left:6.250%;top:37.500%;width:18.750%;height:37.500%"></span><span class="mo mo-spawn" title="Spawns: Outcast" style="left:25.000%;top:37.500%;width:18.750%;height:50.000%"></span><span class="mo mo-spawn" title="Spawns: Lowyna" style="left:56.250%;top:37.500%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Rat, Roach" style="left:6.250%;top:75.000%;width:18.750%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Knight of Elythom (only appears later, during a quest)" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"></span><a class="mob" href="../../monsters/smuggler1/" title="Outcast" style="left:6.250%;top:50.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_26.png" alt="Outcast"></a><a class="mob" href="../../monsters/smuggler1/#v-smuggler2" title="Outcast" style="left:25.000%;top:62.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_82.png" alt="Outcast"></a><a class="mob" href="../../monsters/lowyna/" title="Lowyna" style="left:68.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt="Lowyna"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:12.500%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/vermin0/" title="Rat" style="left:18.750%;top:75.000%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_rats_0.png" alt="Rat"></a><a class="mob" href="../../monsters/burhczyd1/#v-burhczyd8" title="Burhczyd" style="left:43.750%;top:37.500%;width:6.250%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld2_8.png" alt="Burhczyd"></a><a class="pin pin-exit" href="#key-1" style="left:90.625%;top:43.750%" title="Exit (east): to [Woodhouse 3](woodhouse3.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:59.375%;top:93.750%" title="Exit (south): to [Woodsettlement 0](woodsettlement0.md)">2</a><a id="pin-npc-burhczyd8" class="pin pin-npc" href="#key-3" style="left:46.875%;top:43.750%" title="[Burhczyd](../../monsters/burhczyd1.md#v-burhczyd8): 1 quest">3</a><a id="pin-npc-burhczyd8e" class="pin pin-npc" href="#key-4" style="left:47.286%;top:34.376%" title="[Knight of Elythom](../../monsters/burhczyd1e.md#v-burhczyd8e): 1 quest">4</a><a id="pin-npc-lowyna" class="pin pin-npc" href="#key-5" style="left:71.875%;top:43.750%" title="[Lowyna](../../monsters/lowyna.md): shopkeeper, 1 quest">5</a><a id="pin-npc-smuggler1" class="pin pin-npc" href="#key-6" style="left:9.375%;top:56.250%" title="[Outcast](../../monsters/smuggler1.md): NPC">6</a><a id="pin-npc-smuggler2" class="pin pin-npc" href="#key-7" style="left:28.125%;top:68.750%" title="[Outcast](../../monsters/smuggler1.md#v-smuggler2): NPC">7</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (east) | to [Woodhouse3](woodhouse3.md) |
-    | <span id="key-2"></span>2 | Exit (south) | to [Woodsettlement0](woodsettlement0.md) |
+    | <span id="key-1"></span>1 | Exit (east) | to [Woodhouse 3](woodhouse3.md) |
+    | <span id="key-2"></span>2 | Exit (south) | to [Woodsettlement 0](woodsettlement0.md) |
     | <span id="key-3"></span>3 | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) | 1 quest |
     | <span id="key-4"></span>4 | [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) | 1 quest |
     | <span id="key-5"></span>5 | [Lowyna](../monsters/lowyna.md) | shopkeeper, 1 quest |
@@ -46,8 +46,8 @@ description: "Woodhouse2 is an indoor location in Andor's Trail, in Fallhaven (s
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| East | [Woodhouse3](woodhouse3.md) | – | 1 |
-| South | [Woodsettlement0](woodsettlement0.md) | Fallhaven | 2 |
+| East | [Woodhouse 3](woodhouse3.md) | – | 1 |
+| South | [Woodsettlement 0](woodsettlement0.md) | Fallhaven | 2 |
 
 ## NPCs
 
@@ -61,9 +61,9 @@ description: "Woodhouse2 is an indoor location in Andor's Trail, in Fallhaven (s
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
+| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 | [Roach](../monsters/vermin2.md) | 0 | 0–1 | 2 | shares spawn with Rat |
 | [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
-| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
@@ -75,7 +75,7 @@ description: "Woodhouse2 is an indoor location in Andor's Trail, in Fallhaven (s
 
 - [Sweet sweet rat poison](../quests/lowyna.md): [Lowyna](../monsters/lowyna.md) is involved
 - [Young merchant](../quests/quest_burhczyd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) is involved
-- [Young merchant Non-displayed (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) is involved
+- [Young merchant story flags (hidden flag)](../quests/quest_burhczyd_nd.md): [Burhczyd](../monsters/burhczyd1.md#v-burhczyd8) is involved; [Knight of Elythom](../monsters/burhczyd1e.md#v-burhczyd8e) is involved
 
 
 ## Version history

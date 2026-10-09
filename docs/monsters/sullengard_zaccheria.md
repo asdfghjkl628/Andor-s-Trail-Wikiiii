@@ -4,7 +4,7 @@ description: "Zaccheria is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } Zaccheria
 
-**Where to find Zaccheria:** Sullengard: [sullengard2_armory](../maps/sullengard2_armory.md#pin-npc-sullengard_zaccheria)
+**Where to find Zaccheria:** Sullengard: [Sullengard 2 armory](../maps/sullengard2_armory.md#pin-npc-sullengard_zaccheria)
 
 <div class="infobox" markdown>
 
@@ -36,11 +36,11 @@ description: "Zaccheria is a non-player character (NPC) in Andor's Trail, found 
 ## Quests
 
 - [Recovering stolen property](../quests/sullengard_recover_items.md): stages 10, 20, 70
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): stage 40
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): stage 40
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Zaccheria. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Zaccheria. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sullengard_zaccheria_selector.json" data-npc="Zaccheria" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -48,15 +48,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (21 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sullengard_zaccheria_selector"></span>**`sullengard_zaccheria_selector`** *(silent check: the first matching branch below is taken)*
 
     - Next *(if NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; NOT latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70) is 70)* → [sullengard_zaccheria_0](#d-sullengard_zaccheria_0)
     - Next *(if latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-60) is 60; carry 1× [Zaccheria's shop inventory](../items/zaccheria_inventory.md))* → [sullengard_zaccheria_80](#d-sullengard_zaccheria_80)
     - Next *(if latest stage of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-50) is 50)* → [sullengard_zaccheria_85](#d-sullengard_zaccheria_85)
-    - Next *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-57) is 57; NOT reached stage 40 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-40))* → [sullengard_zaccheria_ask_about_lt](#d-sullengard_zaccheria_ask_about_lt)
-    - Next *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-80) is 80; NOT reached stage 40 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-40))* → [sullengard_zaccheria_ask_about_lt](#d-sullengard_zaccheria_ask_about_lt)
+    - Next *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-57) is 57; NOT reached stage 40 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-40))* → [sullengard_zaccheria_ask_about_lt](#d-sullengard_zaccheria_ask_about_lt)
+    - Next *(if latest stage of [Wanted men](../quests/wanted_men.md#stage-80) is 80; NOT reached stage 40 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-40))* → [sullengard_zaccheria_ask_about_lt](#d-sullengard_zaccheria_ask_about_lt)
     - Next *(if reached stage 70 of [Recovering stolen property](../quests/sullengard_recover_items.md#stage-70))* → [sullengard_zaccheria_sell_0](#d-sullengard_zaccheria_sell_0)
 
     <span id="d-sullengard_zaccheria_0"></span>**`sullengard_zaccheria_0`** Zaccheria: “How can I help you?”
@@ -117,7 +117,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I'll take it, but can you give me some more details?” → [sullengard_zaccheria_40](#d-sullengard_zaccheria_40)
 
-    <span id="d-sullengard_zaccheria_ask_about_lt_13"></span>**`sullengard_zaccheria_ask_about_lt_13`** Zaccheria: “Please, take this as a gift of gratitude.” — **effects:** sets stage 40 of [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md#stage-40), gives [Feygard's might](../items/feygard_might.md)
+    <span id="d-sullengard_zaccheria_ask_about_lt_13"></span>**`sullengard_zaccheria_ask_about_lt_13`** Zaccheria: “Please, take this as a gift of gratitude.” — **effects:** sets stage 40 of [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md#stage-40), gives [Feygard's might](../items/feygard_might.md)
 
     - “Thank you!” → [sullengard_zaccheria_ask_about_lt_14](#d-sullengard_zaccheria_ask_about_lt_14)
 

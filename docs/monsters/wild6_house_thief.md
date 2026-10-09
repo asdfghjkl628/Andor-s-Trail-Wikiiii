@@ -4,7 +4,7 @@ description: "Rennik is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_tometik6_36.png){ .sprite } Rennik
 
-**Where to find Rennik:** Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-wild6_house_thief)
+**Where to find Rennik:** Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-wild6_house_thief)
 
 <div class="infobox" markdown>
 
@@ -22,11 +22,11 @@ description: "Rennik is a non-player character (NPC) in Andor's Trail, found in 
 ## Quests
 
 - [Wanted men](../quests/wanted_men.md): stage 57
-- [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md): stage 2
+- [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md): stage 2
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Rennik. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Rennik. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thief_rennik_selector.json" data-npc="Rennik" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -34,15 +34,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (8 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thief_rennik_selector"></span>**`thief_rennik_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 57 of [Wanted men](../quests/wanted_men.md#stage-57); NOT reached stage 2 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-2))* → [thief_rennik_10](#d-thief_rennik_10)
-    - Next *(if NOT reached stage 57 of [Wanted men](../quests/wanted_men.md#stage-57); reached stage 2 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-2))* → [thief_rennik_20](#d-thief_rennik_20)
+    - Next *(if NOT reached stage 57 of [Wanted men](../quests/wanted_men.md#stage-57); NOT reached stage 2 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-2))* → [thief_rennik_10](#d-thief_rennik_10)
+    - Next *(if NOT reached stage 57 of [Wanted men](../quests/wanted_men.md#stage-57); reached stage 2 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-2))* → [thief_rennik_20](#d-thief_rennik_20)
     - Next → [thief_rennik_generic_10](#d-thief_rennik_generic_10)
 
-    <span id="d-thief_rennik_10"></span>**`thief_rennik_10`** Rennik: “Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you.” — **effects:** gives [Gold coins](../items/gold.md), [Nixite crystal](../items/nixite_crystal.md), sets stage 2 of [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md#stage-2)
+    <span id="d-thief_rennik_10"></span>**`thief_rennik_10`** Rennik: “Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you.” — **effects:** gives [Gold coins](../items/gold.md), [Nixite crystal](../items/nixite_crystal.md), sets stage 2 of [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md#stage-2)
 
     - “Thank you.” → [thief_rennik_20](#d-thief_rennik_20)
 

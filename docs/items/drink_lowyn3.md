@@ -46,8 +46,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) | [Sweet sweet rat poison](../quests/lowyna.md#stage-40) | handed over (1×) | “Here, I got you some from Lowyna.” |
-| [Two-teeth](../monsters/twoteeth.md) ([woodhouse1](../maps/woodhouse1.md)) | [Sweet sweet rat poison](../quests/lowyna.md#stage-40) | handed over (1×) | “Here, have some.” |
+| [Two-teeth](../monsters/twoteeth.md) ([Woodhouse 1](../maps/woodhouse1.md)) | [Sweet sweet rat poison](../quests/lowyna.md#stage-40) | handed over (1×) | “Here, I got you some from Lowyna.” |
+| [Two-teeth](../monsters/twoteeth.md) ([Woodhouse 1](../maps/woodhouse1.md)) | [Sweet sweet rat poison](../quests/lowyna.md#stage-40) | handed over (1×) | “Here, have some.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

@@ -4,7 +4,7 @@ description: "Vile erumen lizard is an enemy in Andor's Trail (reptile) with 89 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_115.png){ .sprite } Vile erumen lizard
 
-**Found in:** Loneford: [waytobrimhaven2](../maps/waytobrimhaven2.md), [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md), [waterway10](../maps/waterway10.md), [waterway8](../maps/waterway8.md) (+6 more)
+**Found in:** Loneford: [Waytobrimhaven 2](../maps/waytobrimhaven2.md), [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md), [Waterway 10](../maps/waterway10.md), [Waterway 8](../maps/waterway8.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -55,16 +55,16 @@ description: "Vile erumen lizard is an enemy in Andor's Trail (reptile) with 89 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [korhald_cave_outdoor1](../maps/korhald_cave_outdoor1.md) | – | 6 | – |
-| [waterway10](../maps/waterway10.md) | – | 4 | – |
-| [waterway8](../maps/waterway8.md) | – | 4 | – |
-| [waterway9](../maps/waterway9.md) | – | 2 | – |
-| [waytobrimhaven2](../maps/waytobrimhaven2.md) | Loneford | 3 | – |
-| [waytobrimhavencave0](../maps/waytobrimhavencave0.md) | – | 2 | – |
-| [waytobrimhavencave1](../maps/waytobrimhavencave1.md) | – | 4 | – |
-| [waytobrimhavencave1a](../maps/waytobrimhavencave1a.md) | – | 5 | – |
-| [waytobrimhavencave4](../maps/waytobrimhavencave4.md) | – | 7 | – |
-| [waytolake7](../maps/waytolake7.md) | – | 2 | – |
+| [Korhald cave outdoor 1](../maps/korhald_cave_outdoor1.md) | – | 6 | – |
+| [Waterway 10](../maps/waterway10.md) | – | 4 | – |
+| [Waterway 8](../maps/waterway8.md) | – | 4 | – |
+| [Waterway 9](../maps/waterway9.md) | – | 2 | – |
+| [Waytobrimhaven 2](../maps/waytobrimhaven2.md) | Loneford | 3 | – |
+| [Waytobrimhavencave 0](../maps/waytobrimhavencave0.md) | – | 2 | – |
+| [Waytobrimhavencave 1](../maps/waytobrimhavencave1.md) | – | 4 | – |
+| [Waytobrimhavencave 1a](../maps/waytobrimhavencave1a.md) | – | 5 | – |
+| [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – | 7 | – |
+| [Waytolake 7](../maps/waytolake7.md) | – | 2 | – |
 
 
 ## Version history

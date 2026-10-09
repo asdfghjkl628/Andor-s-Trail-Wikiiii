@@ -1,5 +1,5 @@
 ---
-description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: Unknown male voice, Unknown female voice, Burrowing glow worm, Hardershell beetle, Spotted tentaslime. Exits to Gamjee well jail cells, Gamjee well 4 1, Gamjee well 3 1, Gamjee well 1 1."
+description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: Unknown female voice, Unknown male voice, Burrowing glow worm, Hardershell beetle, Spotted tentaslime. Exits to Gamjee well jail cells, Gamjee well 4 1, Gamjee well 3 1, Gamjee well 1 1."
 ---
 
 # Gamjee well 2 1
@@ -52,8 +52,8 @@ description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: U
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Unknown male voice](../monsters/gamjee_well_unknown_male_voice.md) | 0 | 0–0 | 1 | – |
 | [Unknown female voice](../monsters/gamjee_well_unknown_female_voice.md) | 0 | 0–0 | 1 | – |
+| [Unknown male voice](../monsters/gamjee_well_unknown_male_voice.md) | 0 | 0–0 | 1 | – |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 2 | – |
 | [Hardershell beetle](../monsters/hardershell_beetle.md) | 54 | 1–7 | 1 | – |
 | [Spotted tentaslime](../monsters/spotted_tentaslime.md) | 150 | 8–14 | 4 | – |

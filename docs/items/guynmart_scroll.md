@@ -24,7 +24,7 @@ description: "Scroll of wisdom is a ordinary other in Andor's Trail. How to get 
 
 ### Quest & dialogue rewards
 
-- From [Wisdom](../monsters/guynmart_reward2.md) ([guynmart_main_1](../maps/guynmart_main_1.md)) during [guynmart nondisplay (hidden flag)](../quests/guynmart_nondisplay.md#stage-32) (1×)
+- From [Wisdom](../monsters/guynmart_reward2.md) ([Guynmart main 1](../maps/guynmart_main_1.md)) during [Guynmart story flags (hidden flag)](../quests/guynmart_nondisplay.md#stage-32) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -11,9 +11,9 @@ description: "Spies in the foam is a quest in Andor's Trail, started by Jolnor (
 | **Quest ID** | `jolnor` |
 | **In journal** | Yes |
 | **Stages** | 4 (completes at 30) |
-| **Started by** | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) |
+| **Started by** | [Jolnor](../monsters/jolnor.md) ([Vilegard chapel](../maps/vilegard_chapel.md)) |
 | **NPCs involved** | [Feygard patrol watch](../monsters/feygard_patrol_watch.md), [Jolnor](../monsters/jolnor.md) |
-| **Locations** | [road1](../maps/road1.md), [vilegard_chapel](../maps/vilegard_chapel.md) |
+| **Locations** | [Road 1](../maps/road1.md), [Vilegard chapel](../maps/vilegard_chapel.md) |
 | **Total XP** | 630 |
 | **Related quests** | 1 |
 
@@ -25,7 +25,7 @@ description: "Spies in the foam is a quest in Andor's Trail, started by Jolnor (
 
 ## Prerequisites to start
 
-Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)). Required:
+Start with [Jolnor](../monsters/jolnor.md) ([Vilegard chapel](../maps/vilegard_chapel.md)). Required:
 
 - reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
 
@@ -44,34 +44,63 @@ Start with [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_c
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-10"></span>10 | Jolnor in Vilegard chapel tells me of a guard outside of the Foaming Flask tavern, that he thinks is a spy for the Feygard royal guard. He wants me to make the guard disappear, in any way that I see fit. The tavern should be just north of Vilegard. | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) | – | – |
-| <span id="stage-20"></span>20 | I have convinced the guard outside the Foaming Flask tavern to leave after his shift ends. | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) ([road1](../maps/road1.md)) | – | – |
-| <span id="stage-21"></span>21 | I have started a fight with the guard outside the Foaming Flask tavern. I should bring his Feygard royal guard ring to Jolnor once he is dead to show Jolnor that he has disappeared. | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) ([road1](../maps/road1.md)) | stage 10 | – |
-| <span id="stage-30"></span>30 | I have told Jolnor that the guard is now gone. **(completes quest)** | [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) | stage 20 | 630 XP |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Jolnor in Vilegard chapel tells me of a guard outside of the Foaming… ▸</span><span class="l">▴ less</span></summary>Jolnor in Vilegard chapel tells me of a guard outside of the Foaming Flask tavern, that he thinks is a spy for the Feygard royal guard. He wants me to make the guard disappear, in any way that I see fit. The tavern should be just north of Vilegard.</details> | [Jolnor](../monsters/jolnor.md) | – |
+| <span id="stage-20"></span>[20](#route-20) | <details class="jt"><summary><span class="s">I have convinced the guard outside the Foaming Flask tavern to leave… ▸</span><span class="l">▴ less</span></summary>I have convinced the guard outside the Foaming Flask tavern to leave after his shift ends.</details> | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | – |
+| <span id="stage-21"></span>[21](#route-21) | <details class="jt"><summary><span class="s">I have started a fight with the guard outside the Foaming Flask… ▸</span><span class="l">▴ less</span></summary>I have started a fight with the guard outside the Foaming Flask tavern. I should bring his Feygard royal guard ring to Jolnor once he is dead to show Jolnor that he has disappeared.</details> | [Feygard patrol watch](../monsters/feygard_patrol_watch.md) | – |
+| <span id="stage-30"></span>[30](#route-30) | I have told Jolnor that the guard is now gone. **(ends quest)** | [Jolnor](../monsters/jolnor.md) | 630 XP |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 10: 1 route"
+<span id="route-10"></span>
 
-    1. Talk to [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) → choose “What do you want me to do?” — **conditions:** reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10) → **stage 10**. NPC: “I want you to make sure the guard disappears somehow. How you do that is purely up to you.”
+??? note "Stage 10 · Jolnor · 1 way"
 
-???+ note "Stage 20: 1 route"
+    **Way 1:** Talk to [Jolnor](../monsters/jolnor.md), choose “What do you want me to do?”
 
-    1. Talk to [Feygard patrol watch](../monsters/feygard_patrol_watch.md) ([road1](../maps/road1.md)) → the conversation leads here automatically — **conditions:** reached stage 20 of [Spies in the foam](../quests/jolnor.md#stage-20) → **stage 20**. NPC: “I will go inside in a minute. Will you stand watch while I go inside?”
+    - **Needs:** reached stage 10 of [Trusting an outsider](../quests/vilegard.md#stage-10)
+    - *“I want you to make sure the guard disappears somehow. How you do that is purely up to you.”*
 
-???+ note "Stage 21: 1 route"
 
-    1. Talk to [Feygard patrol watch](../monsters/feygard_patrol_watch.md) ([road1](../maps/road1.md)) → choose “Good. I have been waiting for a fight!” — **conditions:** reached stage 10 of [Spies in the foam](../quests/jolnor.md#stage-10) → **stage 21**
+<span id="route-20"></span>
 
-???+ note "Stage 30: 1 route"
+??? note "Stage 20 · Feygard patrol watch · 1 way"
 
-    1. Talk to [Jolnor](../monsters/jolnor.md) ([vilegard_chapel](../maps/vilegard_chapel.md)) → choose “Yes, he will leave his post as soon as this shift is over.” — **conditions:** reached stage 20 of [Trusting an outsider](../quests/vilegard.md#stage-20); reached stage 20 of [Spies in the foam](../quests/jolnor.md#stage-20) → **stage 30**. NPC: “Very good. Thank you for your help.”
+    **Way 1:** Talk to [Feygard patrol watch](../monsters/feygard_patrol_watch.md), automatic
+
+    - **Needs:** stage 20
+    - *“I will go inside in a minute. Will you stand watch while I go inside?”*
+
+
+<span id="route-21"></span>
+
+??? note "Stage 21 · Feygard patrol watch · 1 way"
+
+    **Way 1:** Talk to [Feygard patrol watch](../monsters/feygard_patrol_watch.md), choose “Good. I have been waiting for a fight!”
+
+    - **Needs:** stage 10
+
+
+<span id="route-30"></span>
+
+??? note "Stage 30 · Jolnor · 1 way"
+
+    **Way 1:** Talk to [Jolnor](../monsters/jolnor.md), choose “Yes, he will leave his post as soon as this shift is over.”
+
+    - **Needs:** stage 20; reached stage 20 of [Trusting an outsider](../quests/vilegard.md#stage-20)
+    - *“Very good. Thank you for your help.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>

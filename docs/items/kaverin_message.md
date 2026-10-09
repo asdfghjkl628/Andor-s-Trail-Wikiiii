@@ -31,7 +31,7 @@ description: "Kaverin's sealed message is a quest other in Andor's Trail. How to
 
 ### Quest & dialogue rewards
 
-- From [Kaverin](../monsters/kaverin.md) ([remgard_tavern1](../maps/remgard_tavern1.md)) during [Old friends?](../quests/kaverin.md#stage-25) (100%)
+- From [Kaverin](../monsters/kaverin.md) ([Remgard tavern 1](../maps/remgard_tavern1.md)) during [Old friends?](../quests/kaverin.md#stage-25) (100%)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -42,11 +42,11 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | [Old friends?](../quests/kaverin.md#stage-70) | must be carried (1×) | “(automatic)” |
-| [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | – | must be carried (1×) | “I have a message for you from Kaverin in Remgard.” |
-| [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | [Old friends?](../quests/kaverin.md#stage-75) | handed over (1×) | “Here, have the message.” |
-| [Vacor](../monsters/vacor.md) ([fallhaven_sw](../maps/fallhaven_sw.md)) | [Old friends?](../quests/kaverin.md#stage-75) | handed over (1×) | “Here is the message, Vacor.” |
-| [Unzel](../monsters/unzel.md) ([wild6](../maps/wild6.md)) | [Old friends?](../quests/kaverin.md#stage-30) | handed over (1×) | “Here it is.” |
+| [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | [Old friends?](../quests/kaverin.md#stage-70) | must be carried (1×) | “(automatic)” |
+| [Unzel](../monsters/unzel.md) ([Wild 6](../maps/wild6.md)) | – | must be carried (1×) | “I have a message for you from Kaverin in Remgard.” |
+| [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | [Old friends?](../quests/kaverin.md#stage-75) | handed over (1×) | “Here, have the message.” |
+| [Vacor](../monsters/vacor.md) ([Fallhaven south-west](../maps/fallhaven_sw.md)) | [Old friends?](../quests/kaverin.md#stage-75) | handed over (1×) | “Here is the message, Vacor.” |
+| [Unzel](../monsters/unzel.md) ([Wild 6](../maps/wild6.md)) | [Old friends?](../quests/kaverin.md#stage-30) | handed over (1×) | “Here it is.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

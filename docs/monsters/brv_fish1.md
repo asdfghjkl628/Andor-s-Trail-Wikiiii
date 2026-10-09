@@ -21,28 +21,28 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 </div>
 
 !!! info "12 entries in the game data"
-    The game's data files define 12 separate characters named Fish. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 12 separate characters named Fish. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`brv_fish1`](#v-brv_fish1) | Enemy | Brimhaven: [brimhaven3](../maps/brimhaven3.md) | – | 1 |
-| [`brv_fish2`](#v-brv_fish2) | Enemy | Brimhaven: [brimhaven3](../maps/brimhaven3.md) | – | 1 |
-| [`guynmart_fish1`](#v-guynmart_fish1) | Enemy | Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md), [blackwater_mountain76](../maps/blackwater_mountain76.md) | – | 1 |
-| [`guynmart_fish2`](#v-guynmart_fish2) | Enemy | Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md), Guynmart Castle: [guynmart_wood_3](../maps/guynmart_wood_3.md) (+4 more) | – | 1 |
-| [`ll2_fish1`](#v-ll2_fish1) | Enemy | Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish2`](#v-ll2_fish2) | Enemy | Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish3`](#v-ll2_fish3) | Enemy | Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish4`](#v-ll2_fish4) | Enemy | Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish5`](#v-ll2_fish5) | Enemy | Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish6`](#v-ll2_fish6) | Enemy | Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ratdom_water_fish1`](#v-ratdom_water_fish1) | Enemy | Waterway: [ratdom_maze_664](../maps/ratdom_maze_664.md) | – | 1 |
-| [`ratdom_water_fish2`](#v-ratdom_water_fish2) | Enemy | Waterway: [ratdom_maze_664](../maps/ratdom_maze_664.md) | – | 1 |
+| [`brv_fish1`](#v-brv_fish1) | Enemy | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md) | – | 1 |
+| [`brv_fish2`](#v-brv_fish2) | Enemy | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md) | – | 1 |
+| [`guynmart_fish1`](#v-guynmart_fish1) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – | 1 |
+| [`guynmart_fish2`](#v-guynmart_fish2) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), Guynmart Castle: [Guynmart wood 3](../maps/guynmart_wood_3.md) (+4 more) | – | 1 |
+| [`ll2_fish1`](#v-ll2_fish1) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
+| [`ll2_fish2`](#v-ll2_fish2) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
+| [`ll2_fish3`](#v-ll2_fish3) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
+| [`ll2_fish4`](#v-ll2_fish4) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
+| [`ll2_fish5`](#v-ll2_fish5) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
+| [`ll2_fish6`](#v-ll2_fish6) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
+| [`ratdom_water_fish1`](#v-ratdom_water_fish1) | Enemy | Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md) | – | 1 |
+| [`ratdom_water_fish2`](#v-ratdom_water_fish2) | Enemy | Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md) | – | 1 |
 
-## Brimhaven, Brimhaven3 (brv_fish1) { #v-brv_fish1 }
+## Brimhaven, Brimhaven 3 (brv_fish1) { #v-brv_fish1 }
 
 **Entry ID:** `brv_fish1` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md)
 
 ### Combat statistics
 
@@ -70,7 +70,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven3](../maps/brimhaven3.md) | Brimhaven | 2 | – |
+| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 2 | – |
 
 
 ### Version history
@@ -108,11 +108,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Brimhaven, Brimhaven3 (brv_fish2) { #v-brv_fish2 }
+## Brimhaven, Brimhaven 3 (brv_fish2) { #v-brv_fish2 }
 
 **Entry ID:** `brv_fish2` · **Type:** Enemy
 
-**Location:** Brimhaven: [brimhaven3](../maps/brimhaven3.md)
+**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md)
 
 ### Combat statistics
 
@@ -140,7 +140,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [brimhaven3](../maps/brimhaven3.md) | Brimhaven | 2 | – |
+| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 2 | – |
 
 
 ### Version history
@@ -182,7 +182,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 **Entry ID:** `guynmart_fish1` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md), [blackwater_mountain76](../maps/blackwater_mountain76.md)
+**Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md)
 
 ### Combat statistics
 
@@ -210,8 +210,8 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain76](../maps/blackwater_mountain76.md) | – | 1 | – |
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 1 | – |
+| [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – | 1 | – |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 1 | – |
 
 
 ### Version history
@@ -252,7 +252,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 **Entry ID:** `guynmart_fish2` · **Type:** Enemy
 
-**Location:** Guynmart Castle: [guynmart_wood_2](../maps/guynmart_wood_2.md), Guynmart Castle: [guynmart_wood_3](../maps/guynmart_wood_3.md), Lake Laeroth: [laerothisland0](../maps/laerothisland0.md), Lake Laeroth: [laerothisland1](../maps/laerothisland1.md), Lake Laeroth: [mountainlake10a](../maps/mountainlake10a.md), [blackwater_mountain76](../maps/blackwater_mountain76.md)
+**Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), Guynmart Castle: [Guynmart wood 3](../maps/guynmart_wood_3.md), Lake Laeroth: [Laerothisland 0](../maps/laerothisland0.md), Lake Laeroth: [Laerothisland 1](../maps/laerothisland1.md), Lake Laeroth: [Mountainlake 10a](../maps/mountainlake10a.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md)
 
 ### Combat statistics
 
@@ -280,12 +280,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain76](../maps/blackwater_mountain76.md) | – | 1 | – |
-| [guynmart_wood_2](../maps/guynmart_wood_2.md) | Guynmart Castle | 3 | – |
-| [guynmart_wood_3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
-| [laerothisland0](../maps/laerothisland0.md) | Lake Laeroth | 4 | – |
-| [laerothisland1](../maps/laerothisland1.md) | Lake Laeroth | 3 | – |
-| [mountainlake10a](../maps/mountainlake10a.md) | Lake Laeroth | 1 | – |
+| [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – | 1 | – |
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 3 | – |
+| [Guynmart wood 3](../maps/guynmart_wood_3.md) | Guynmart Castle | 2 | – |
+| [Laerothisland 0](../maps/laerothisland0.md) | Lake Laeroth | 4 | – |
+| [Laerothisland 1](../maps/laerothisland1.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 10a](../maps/mountainlake10a.md) | Lake Laeroth | 1 | – |
 
 
 ### Version history
@@ -322,11 +322,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Lake Laeroth, Mountainlake2 and 20 more (ll2_fish1) { #v-ll2_fish1 }
+## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish1) { #v-ll2_fish1 }
 
 **Entry ID:** `ll2_fish1` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md), Lake Laeroth: [mountainlake31](../maps/mountainlake31.md), Lake Laeroth: [mountainlake36](../maps/mountainlake36.md), Lake Laeroth: [mountainlake37](../maps/mountainlake37.md), Remgard: [mountainlake13a](../maps/mountainlake13a.md) (+15 more)
+**Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
 ### Combat statistics
 
@@ -354,27 +354,27 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 7 | – |
-| [mountainlake15](../maps/mountainlake15.md) | Remgard | 8 | – |
-| [mountainlake16](../maps/mountainlake16.md) | Remgard | 6 | – |
-| [mountainlake17](../maps/mountainlake17.md) | Remgard | 6 | – |
-| [mountainlake18](../maps/mountainlake18.md) | Remgard | 3 | – |
-| [mountainlake19](../maps/mountainlake19.md) | – | 5 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake20](../maps/mountainlake20.md) | Remgard | 6 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 4 | – |
-| [mountainlake25](../maps/mountainlake25.md) | – | 3 | – |
-| [mountainlake26](../maps/mountainlake26.md) | – | 4 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 5 | – |
-| [mountainlake31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
-| [mountainlake34](../maps/mountainlake34.md) | – | 5 | – |
-| [mountainlake35](../maps/mountainlake35.md) | – | 2 | – |
-| [mountainlake36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
-| [mountainlake37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
-| [remgard1](../maps/remgard1.md) | Remgard | 4 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 7 | – |
+| [Mountainlake 15](../maps/mountainlake15.md) | Remgard | 8 | – |
+| [Mountainlake 16](../maps/mountainlake16.md) | Remgard | 6 | – |
+| [Mountainlake 17](../maps/mountainlake17.md) | Remgard | 6 | – |
+| [Mountainlake 18](../maps/mountainlake18.md) | Remgard | 3 | – |
+| [Mountainlake 19](../maps/mountainlake19.md) | – | 5 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 20](../maps/mountainlake20.md) | Remgard | 6 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 4 | – |
+| [Mountainlake 25](../maps/mountainlake25.md) | – | 3 | – |
+| [Mountainlake 26](../maps/mountainlake26.md) | – | 4 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 5 | – |
+| [Mountainlake 31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 34](../maps/mountainlake34.md) | – | 5 | – |
+| [Mountainlake 35](../maps/mountainlake35.md) | – | 2 | – |
+| [Mountainlake 36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
+| [Remgard 1](../maps/remgard1.md) | Remgard | 4 | – |
 
 
 ### Version history
@@ -413,11 +413,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Lake Laeroth, Mountainlake2 and 20 more (ll2_fish2) { #v-ll2_fish2 }
+## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish2) { #v-ll2_fish2 }
 
 **Entry ID:** `ll2_fish2` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md), Lake Laeroth: [mountainlake31](../maps/mountainlake31.md), Lake Laeroth: [mountainlake36](../maps/mountainlake36.md), Lake Laeroth: [mountainlake37](../maps/mountainlake37.md), Remgard: [mountainlake13a](../maps/mountainlake13a.md) (+15 more)
+**Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
 ### Combat statistics
 
@@ -445,27 +445,27 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 7 | – |
-| [mountainlake15](../maps/mountainlake15.md) | Remgard | 8 | – |
-| [mountainlake16](../maps/mountainlake16.md) | Remgard | 6 | – |
-| [mountainlake17](../maps/mountainlake17.md) | Remgard | 6 | – |
-| [mountainlake18](../maps/mountainlake18.md) | Remgard | 3 | – |
-| [mountainlake19](../maps/mountainlake19.md) | – | 5 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake20](../maps/mountainlake20.md) | Remgard | 6 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 4 | – |
-| [mountainlake25](../maps/mountainlake25.md) | – | 3 | – |
-| [mountainlake26](../maps/mountainlake26.md) | – | 4 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 5 | – |
-| [mountainlake31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
-| [mountainlake34](../maps/mountainlake34.md) | – | 5 | – |
-| [mountainlake35](../maps/mountainlake35.md) | – | 2 | – |
-| [mountainlake36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
-| [mountainlake37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
-| [remgard1](../maps/remgard1.md) | Remgard | 4 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 7 | – |
+| [Mountainlake 15](../maps/mountainlake15.md) | Remgard | 8 | – |
+| [Mountainlake 16](../maps/mountainlake16.md) | Remgard | 6 | – |
+| [Mountainlake 17](../maps/mountainlake17.md) | Remgard | 6 | – |
+| [Mountainlake 18](../maps/mountainlake18.md) | Remgard | 3 | – |
+| [Mountainlake 19](../maps/mountainlake19.md) | – | 5 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 20](../maps/mountainlake20.md) | Remgard | 6 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 4 | – |
+| [Mountainlake 25](../maps/mountainlake25.md) | – | 3 | – |
+| [Mountainlake 26](../maps/mountainlake26.md) | – | 4 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 5 | – |
+| [Mountainlake 31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 34](../maps/mountainlake34.md) | – | 5 | – |
+| [Mountainlake 35](../maps/mountainlake35.md) | – | 2 | – |
+| [Mountainlake 36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
+| [Remgard 1](../maps/remgard1.md) | Remgard | 4 | – |
 
 
 ### Version history
@@ -504,11 +504,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Lake Laeroth, Mountainlake2 and 20 more (ll2_fish3) { #v-ll2_fish3 }
+## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish3) { #v-ll2_fish3 }
 
 **Entry ID:** `ll2_fish3` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md), Lake Laeroth: [mountainlake31](../maps/mountainlake31.md), Lake Laeroth: [mountainlake36](../maps/mountainlake36.md), Lake Laeroth: [mountainlake37](../maps/mountainlake37.md), Remgard: [mountainlake13a](../maps/mountainlake13a.md) (+15 more)
+**Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
 ### Combat statistics
 
@@ -536,27 +536,27 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 7 | – |
-| [mountainlake15](../maps/mountainlake15.md) | Remgard | 8 | – |
-| [mountainlake16](../maps/mountainlake16.md) | Remgard | 6 | – |
-| [mountainlake17](../maps/mountainlake17.md) | Remgard | 6 | – |
-| [mountainlake18](../maps/mountainlake18.md) | Remgard | 3 | – |
-| [mountainlake19](../maps/mountainlake19.md) | – | 5 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake20](../maps/mountainlake20.md) | Remgard | 6 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 4 | – |
-| [mountainlake25](../maps/mountainlake25.md) | – | 3 | – |
-| [mountainlake26](../maps/mountainlake26.md) | – | 4 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 5 | – |
-| [mountainlake31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
-| [mountainlake34](../maps/mountainlake34.md) | – | 5 | – |
-| [mountainlake35](../maps/mountainlake35.md) | – | 2 | – |
-| [mountainlake36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
-| [mountainlake37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
-| [remgard1](../maps/remgard1.md) | Remgard | 4 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 7 | – |
+| [Mountainlake 15](../maps/mountainlake15.md) | Remgard | 8 | – |
+| [Mountainlake 16](../maps/mountainlake16.md) | Remgard | 6 | – |
+| [Mountainlake 17](../maps/mountainlake17.md) | Remgard | 6 | – |
+| [Mountainlake 18](../maps/mountainlake18.md) | Remgard | 3 | – |
+| [Mountainlake 19](../maps/mountainlake19.md) | – | 5 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 20](../maps/mountainlake20.md) | Remgard | 6 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 4 | – |
+| [Mountainlake 25](../maps/mountainlake25.md) | – | 3 | – |
+| [Mountainlake 26](../maps/mountainlake26.md) | – | 4 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 5 | – |
+| [Mountainlake 31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 34](../maps/mountainlake34.md) | – | 5 | – |
+| [Mountainlake 35](../maps/mountainlake35.md) | – | 2 | – |
+| [Mountainlake 36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
+| [Remgard 1](../maps/remgard1.md) | Remgard | 4 | – |
 
 
 ### Version history
@@ -595,11 +595,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Lake Laeroth, Mountainlake2 and 20 more (ll2_fish4) { #v-ll2_fish4 }
+## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish4) { #v-ll2_fish4 }
 
 **Entry ID:** `ll2_fish4` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md), Lake Laeroth: [mountainlake31](../maps/mountainlake31.md), Lake Laeroth: [mountainlake36](../maps/mountainlake36.md), Lake Laeroth: [mountainlake37](../maps/mountainlake37.md), Remgard: [mountainlake13a](../maps/mountainlake13a.md) (+15 more)
+**Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
 ### Combat statistics
 
@@ -627,27 +627,27 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 7 | – |
-| [mountainlake15](../maps/mountainlake15.md) | Remgard | 8 | – |
-| [mountainlake16](../maps/mountainlake16.md) | Remgard | 6 | – |
-| [mountainlake17](../maps/mountainlake17.md) | Remgard | 6 | – |
-| [mountainlake18](../maps/mountainlake18.md) | Remgard | 3 | – |
-| [mountainlake19](../maps/mountainlake19.md) | – | 5 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake20](../maps/mountainlake20.md) | Remgard | 6 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 4 | – |
-| [mountainlake25](../maps/mountainlake25.md) | – | 3 | – |
-| [mountainlake26](../maps/mountainlake26.md) | – | 4 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 5 | – |
-| [mountainlake31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
-| [mountainlake34](../maps/mountainlake34.md) | – | 5 | – |
-| [mountainlake35](../maps/mountainlake35.md) | – | 2 | – |
-| [mountainlake36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
-| [mountainlake37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
-| [remgard1](../maps/remgard1.md) | Remgard | 4 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 7 | – |
+| [Mountainlake 15](../maps/mountainlake15.md) | Remgard | 8 | – |
+| [Mountainlake 16](../maps/mountainlake16.md) | Remgard | 6 | – |
+| [Mountainlake 17](../maps/mountainlake17.md) | Remgard | 6 | – |
+| [Mountainlake 18](../maps/mountainlake18.md) | Remgard | 3 | – |
+| [Mountainlake 19](../maps/mountainlake19.md) | – | 5 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 20](../maps/mountainlake20.md) | Remgard | 6 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 4 | – |
+| [Mountainlake 25](../maps/mountainlake25.md) | – | 3 | – |
+| [Mountainlake 26](../maps/mountainlake26.md) | – | 4 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 5 | – |
+| [Mountainlake 31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 34](../maps/mountainlake34.md) | – | 5 | – |
+| [Mountainlake 35](../maps/mountainlake35.md) | – | 2 | – |
+| [Mountainlake 36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
+| [Remgard 1](../maps/remgard1.md) | Remgard | 4 | – |
 
 
 ### Version history
@@ -686,11 +686,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Lake Laeroth, Mountainlake2 and 20 more (ll2_fish5) { #v-ll2_fish5 }
+## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish5) { #v-ll2_fish5 }
 
 **Entry ID:** `ll2_fish5` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md), Lake Laeroth: [mountainlake31](../maps/mountainlake31.md), Lake Laeroth: [mountainlake36](../maps/mountainlake36.md), Lake Laeroth: [mountainlake37](../maps/mountainlake37.md), Remgard: [mountainlake13a](../maps/mountainlake13a.md) (+15 more)
+**Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
 ### Combat statistics
 
@@ -718,27 +718,27 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 7 | – |
-| [mountainlake15](../maps/mountainlake15.md) | Remgard | 8 | – |
-| [mountainlake16](../maps/mountainlake16.md) | Remgard | 6 | – |
-| [mountainlake17](../maps/mountainlake17.md) | Remgard | 6 | – |
-| [mountainlake18](../maps/mountainlake18.md) | Remgard | 3 | – |
-| [mountainlake19](../maps/mountainlake19.md) | – | 5 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake20](../maps/mountainlake20.md) | Remgard | 6 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 4 | – |
-| [mountainlake25](../maps/mountainlake25.md) | – | 3 | – |
-| [mountainlake26](../maps/mountainlake26.md) | – | 4 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 5 | – |
-| [mountainlake31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
-| [mountainlake34](../maps/mountainlake34.md) | – | 5 | – |
-| [mountainlake35](../maps/mountainlake35.md) | – | 2 | – |
-| [mountainlake36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
-| [mountainlake37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
-| [remgard1](../maps/remgard1.md) | Remgard | 4 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 7 | – |
+| [Mountainlake 15](../maps/mountainlake15.md) | Remgard | 8 | – |
+| [Mountainlake 16](../maps/mountainlake16.md) | Remgard | 6 | – |
+| [Mountainlake 17](../maps/mountainlake17.md) | Remgard | 6 | – |
+| [Mountainlake 18](../maps/mountainlake18.md) | Remgard | 3 | – |
+| [Mountainlake 19](../maps/mountainlake19.md) | – | 5 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 20](../maps/mountainlake20.md) | Remgard | 6 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 4 | – |
+| [Mountainlake 25](../maps/mountainlake25.md) | – | 3 | – |
+| [Mountainlake 26](../maps/mountainlake26.md) | – | 4 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 5 | – |
+| [Mountainlake 31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 34](../maps/mountainlake34.md) | – | 5 | – |
+| [Mountainlake 35](../maps/mountainlake35.md) | – | 2 | – |
+| [Mountainlake 36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
+| [Remgard 1](../maps/remgard1.md) | Remgard | 4 | – |
 
 
 ### Version history
@@ -777,11 +777,11 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     ```
 
 
-## Lake Laeroth, Mountainlake2 and 20 more (ll2_fish6) { #v-ll2_fish6 }
+## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish6) { #v-ll2_fish6 }
 
 **Entry ID:** `ll2_fish6` · **Type:** Enemy
 
-**Location:** Lake Laeroth: [mountainlake2](../maps/mountainlake2.md), Lake Laeroth: [mountainlake21](../maps/mountainlake21.md), Lake Laeroth: [mountainlake31](../maps/mountainlake31.md), Lake Laeroth: [mountainlake36](../maps/mountainlake36.md), Lake Laeroth: [mountainlake37](../maps/mountainlake37.md), Remgard: [mountainlake13a](../maps/mountainlake13a.md) (+15 more)
+**Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
 ### Combat statistics
 
@@ -809,27 +809,27 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
-| [mountainlake14](../maps/mountainlake14.md) | Remgard | 7 | – |
-| [mountainlake15](../maps/mountainlake15.md) | Remgard | 8 | – |
-| [mountainlake16](../maps/mountainlake16.md) | Remgard | 6 | – |
-| [mountainlake17](../maps/mountainlake17.md) | Remgard | 6 | – |
-| [mountainlake18](../maps/mountainlake18.md) | Remgard | 3 | – |
-| [mountainlake19](../maps/mountainlake19.md) | – | 5 | – |
-| [mountainlake2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
-| [mountainlake20](../maps/mountainlake20.md) | Remgard | 6 | – |
-| [mountainlake21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
-| [mountainlake22](../maps/mountainlake22.md) | – | 4 | – |
-| [mountainlake25](../maps/mountainlake25.md) | – | 3 | – |
-| [mountainlake26](../maps/mountainlake26.md) | – | 4 | – |
-| [mountainlake28](../maps/mountainlake28.md) | – | 4 | – |
-| [mountainlake29](../maps/mountainlake29.md) | – | 5 | – |
-| [mountainlake31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
-| [mountainlake34](../maps/mountainlake34.md) | – | 5 | – |
-| [mountainlake35](../maps/mountainlake35.md) | – | 2 | – |
-| [mountainlake36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
-| [mountainlake37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
-| [remgard1](../maps/remgard1.md) | Remgard | 4 | – |
+| [Mountainlake 13a](../maps/mountainlake13a.md) | Remgard | 3 | – |
+| [Mountainlake 14](../maps/mountainlake14.md) | Remgard | 7 | – |
+| [Mountainlake 15](../maps/mountainlake15.md) | Remgard | 8 | – |
+| [Mountainlake 16](../maps/mountainlake16.md) | Remgard | 6 | – |
+| [Mountainlake 17](../maps/mountainlake17.md) | Remgard | 6 | – |
+| [Mountainlake 18](../maps/mountainlake18.md) | Remgard | 3 | – |
+| [Mountainlake 19](../maps/mountainlake19.md) | – | 5 | – |
+| [Mountainlake 2](../maps/mountainlake2.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 20](../maps/mountainlake20.md) | Remgard | 6 | – |
+| [Mountainlake 21](../maps/mountainlake21.md) | Lake Laeroth | 5 | – |
+| [Mountainlake 22](../maps/mountainlake22.md) | – | 4 | – |
+| [Mountainlake 25](../maps/mountainlake25.md) | – | 3 | – |
+| [Mountainlake 26](../maps/mountainlake26.md) | – | 4 | – |
+| [Mountainlake 28](../maps/mountainlake28.md) | – | 4 | – |
+| [Mountainlake 29](../maps/mountainlake29.md) | – | 5 | – |
+| [Mountainlake 31](../maps/mountainlake31.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 34](../maps/mountainlake34.md) | – | 5 | – |
+| [Mountainlake 35](../maps/mountainlake35.md) | – | 2 | – |
+| [Mountainlake 36](../maps/mountainlake36.md) | Lake Laeroth | 3 | – |
+| [Mountainlake 37](../maps/mountainlake37.md) | Lake Laeroth | 3 | – |
+| [Remgard 1](../maps/remgard1.md) | Remgard | 4 | – |
 
 
 ### Version history
@@ -872,7 +872,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 **Entry ID:** `ratdom_water_fish1` · **Type:** Enemy
 
-**Location:** Waterway: [ratdom_maze_664](../maps/ratdom_maze_664.md)
+**Location:** Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md)
 
 ### Combat statistics
 
@@ -900,7 +900,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
 
 
 ### Version history
@@ -940,7 +940,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 **Entry ID:** `ratdom_water_fish2` · **Type:** Enemy
 
-**Location:** Waterway: [ratdom_maze_664](../maps/ratdom_maze_664.md)
+**Location:** Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md)
 
 ### Combat statistics
 
@@ -968,7 +968,7 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
 
 
 ### Version history

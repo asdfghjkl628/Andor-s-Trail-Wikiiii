@@ -26,7 +26,7 @@ description: "Bat wing is a ordinary animal part in Andor's Trail. How to get it
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Three-eyed bat](../monsters/three_eyed_bat.md) | 25% | 1-2 | haunted_underground_1, haunted_underground_2, haunted_underground_3 |
+| [Three-eyed bat](../monsters/three_eyed_bat.md) | 25% | 1-2 | Haunted underground 1, Haunted underground 2, Haunted underground 3 |
 | [Gray cave bat](../monsters/cavebat1.md) | 20% | 1 | Lake Laeroth |
 | [Black cave bat](../monsters/cavebat2.md) | 20% | 1 | Lake Laeroth |
 | [Brown cave bat](../monsters/cavebat3.md) | 20% | 1 | Lake Laeroth |

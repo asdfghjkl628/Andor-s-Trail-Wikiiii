@@ -4,7 +4,7 @@ description: "Effa is a non-player character (NPC) in Andor's Trail, found in Br
 
 # ![](../assets/icons/monsters/monsters_ld1_144.png){ .sprite } Effa
 
-**Where to find Effa:** Brightport: [brightport_bakery](../maps/brightport_bakery.md#pin-npc-brightportbakery2)
+**Where to find Effa:** Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-brightportbakery2)
 
 <div class="infobox" markdown>
 
@@ -32,7 +32,7 @@ description: "Effa is a non-player character (NPC) in Andor's Trail, found in Br
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Effa. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Effa. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_bakery_selector.json" data-npc="Effa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -40,12 +40,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_bakery_selector"></span>**`brightport_bakery_selector`** *(silent check: the first matching branch below is taken)*
 
-    - Next *(if NOT reached stage 246 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-246))* → [brightport_bakery](#d-brightport_bakery)
-    - Next *(if reached stage 246 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-246))* → [brightport_bakery_behindcounter](#d-brightport_bakery_behindcounter)
+    - Next *(if NOT reached stage 246 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-246))* → [brightport_bakery](#d-brightport_bakery)
+    - Next *(if reached stage 246 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-246))* → [brightport_bakery_behindcounter](#d-brightport_bakery_behindcounter)
 
     <span id="d-brightport_bakery"></span>**`brightport_bakery`** [Effa](../monsters/brightportbakery2.md): “Hello, and welcome to the world famous bakery of Brightport, how may I help you?”
 

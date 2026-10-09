@@ -1,8 +1,8 @@
 ---
-description: "Bogsten1 is an indoor location in Andor's Trail. NPCs: Bogsten. Exits to Bogsten0."
+description: "Bogsten 1 is an indoor location in Andor's Trail. NPCs: Bogsten. Exits to Bogsten 0."
 ---
 
-# Bogsten1
+# Bogsten 1
 
 <div class="infobox" markdown>
 
@@ -17,20 +17,20 @@ description: "Bogsten1 is an indoor location in Andor's Trail. NPCs: Bogsten. Ex
 
 </div>
 
-**Bogsten1** is an indoor map. It has 1 NPC, and no enemies. Exits lead to Bogsten0.
+**Bogsten 1** is an indoor map. It has 1 NPC, and no enemies. Exits lead to Bogsten 0.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bogsten1.webp" alt="Map of Bogsten1" width="384" height="224" loading="lazy"><a id="place-exit_south" class="mo mo-mapchange" href="../bogsten0/#place-house_entrance" title="Exit to Bogsten0" style="left:66.667%;top:85.714%;width:8.333%;height:14.286%"></a><a id="place-exit_north" class="mo mo-mapchange" href="../bogsten0/#place-backyard_entrance" title="Exit to Bogsten0" style="left:58.333%;top:28.571%;width:8.333%;height:14.286%"></a><a class="mo mo-script" href="../../quests/fungi_panic_nondisplayed/#stage-35" title="Scripted event: advances the quest: hidden story flag “fungi_panic_nondisplayed” to stage 35 (“35=I opened Bogsten&#x27;s backyard door.”)" style="left:50.000%;top:42.857%;width:25.000%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Bogsten" style="left:25.000%;top:42.857%;width:25.000%;height:42.857%"></span><a class="mo mo-key" href="../../quests/fungi_panic_nondisplayed/#stage-35" title="Unlocked during the quest: hidden story flag “fungi_panic_nondisplayed” (stage 35: “35=I opened Bogsten&#x27;s backyard door.”)" style="left:58.333%;top:28.571%;width:8.333%;height:14.286%"></a><span class="mo mo-replace" title="This area changes when a scripted event activates it" style="left:58.333%;top:14.286%;width:8.333%;height:28.571%"></span><a class="mob" href="../../monsters/bogsten/" title="Bogsten" style="left:41.667%;top:57.143%;width:8.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles1_77.png" alt="Bogsten"></a><a class="pin pin-exit" href="#key-1" style="left:70.833%;top:92.857%" title="Exit (south): to [Bogsten0](bogsten0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:62.500%;top:35.714%" title="Exit (stairs / passage): to [Bogsten0](bogsten0.md)">2</a><a id="pin-npc-bogsten" class="pin pin-npc" href="#key-3" style="left:45.833%;top:64.286%" title="[Bogsten](../../monsters/bogsten.md): 1 quest">3</a><a class="pin pin-script" href="#key-4" style="left:62.500%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “fungi_panic_nondisplayed” to stage 35 (“35=I opened Bogsten&#x27;s backyard door.”)">4</a><a class="pin pin-key" href="#key-5" style="left:63.048%;top:25.001%" title="Blocked passage: Unlocked during the quest: hidden story flag “fungi_panic_nondisplayed” (stage 35: “35=I opened Bogsten&#x27;s backyard door.”)">5</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/bogsten1.webp" alt="Map of Bogsten 1" width="384" height="224" loading="lazy"><a id="place-exit_south" class="mo mo-mapchange" href="../bogsten0/#place-house_entrance" title="Exit to Bogsten 0" style="left:66.667%;top:85.714%;width:8.333%;height:14.286%"></a><a id="place-exit_north" class="mo mo-mapchange" href="../bogsten0/#place-backyard_entrance" title="Exit to Bogsten 0" style="left:58.333%;top:28.571%;width:8.333%;height:14.286%"></a><a class="mo mo-script" href="../../quests/fungi_panic_nondisplayed/#stage-35" title="Scripted event: advances the quest: hidden story flag “fungi_panic_nondisplayed” to stage 35 (“35=I opened Bogsten&#x27;s backyard door.”)" style="left:50.000%;top:42.857%;width:25.000%;height:14.286%"></a><span class="mo mo-spawn" title="Spawns: Bogsten" style="left:25.000%;top:42.857%;width:25.000%;height:42.857%"></span><a class="mo mo-key" href="../../quests/fungi_panic_nondisplayed/#stage-35" title="Unlocked during the quest: hidden story flag “fungi_panic_nondisplayed” (stage 35: “35=I opened Bogsten&#x27;s backyard door.”)" style="left:58.333%;top:28.571%;width:8.333%;height:14.286%"></a><span class="mo mo-replace" title="This area changes when a scripted event activates it" style="left:58.333%;top:14.286%;width:8.333%;height:28.571%"></span><a class="mob" href="../../monsters/bogsten/" title="Bogsten" style="left:41.667%;top:57.143%;width:8.333%;height:14.286%"><img src="../../assets/icons/monsters/monsters_rltiles1_77.png" alt="Bogsten"></a><a class="pin pin-exit" href="#key-1" style="left:70.833%;top:92.857%" title="Exit (south): to [Bogsten 0](bogsten0.md)">1</a><a class="pin pin-exit" href="#key-2" style="left:62.500%;top:35.714%" title="Exit (stairs / passage): to [Bogsten 0](bogsten0.md)">2</a><a id="pin-npc-bogsten" class="pin pin-npc" href="#key-3" style="left:45.833%;top:64.286%" title="[Bogsten](../../monsters/bogsten.md): 1 quest">3</a><a class="pin pin-script" href="#key-4" style="left:62.500%;top:50.000%" title="Quest trigger: Scripted event: advances the quest: hidden story flag “fungi_panic_nondisplayed” to stage 35 (“35=I opened Bogsten&#x27;s backyard door.”)">4</a><a class="pin pin-key" href="#key-5" style="left:63.048%;top:25.001%" title="Blocked passage: Unlocked during the quest: hidden story flag “fungi_panic_nondisplayed” (stage 35: “35=I opened Bogsten&#x27;s backyard door.”)">5</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Bogsten0](bogsten0.md) |
-    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Bogsten0](bogsten0.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Bogsten 0](bogsten0.md) |
+    | <span id="key-2"></span>2 | Exit (stairs / passage) | to [Bogsten 0](bogsten0.md) |
     | <span id="key-3"></span>3 | [Bogsten](../monsters/bogsten.md) | 1 quest |
     | <span id="key-4"></span>4 | Quest trigger | Scripted event: advances the quest: hidden story flag “fungi_panic_nondisplayed” to stage 35 (“35=I opened Bogsten's backyard door.”) |
     | <span id="key-5"></span>5 | Blocked passage | Unlocked during the quest: hidden story flag “fungi_panic_nondisplayed” (stage 35: “35=I opened Bogsten's backyard door.”) |
@@ -42,8 +42,8 @@ description: "Bogsten1 is an indoor location in Andor's Trail. NPCs: Bogsten. Ex
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Bogsten0](bogsten0.md) | Fallhaven | 1 |
-| Stairs / passage | [Bogsten0](bogsten0.md) | Fallhaven | 2 |
+| South | [Bogsten 0](bogsten0.md) | Fallhaven | 1 |
+| Stairs / passage | [Bogsten 0](bogsten0.md) | Fallhaven | 2 |
 
 ## NPCs
 
@@ -52,7 +52,7 @@ description: "Bogsten1 is an indoor location in Andor's Trail. NPCs: Bogsten. Ex
 ## Quests
 
 - [Fungi panic](../quests/fungi_panic.md): [Bogsten](../monsters/bogsten.md) is involved
-- [Fungi Panic - non displayed (hidden flag)](../quests/fungi_panic_nondisplayed.md): blocked passage opens at stage 35; something on this map advances it; stepping on a trigger here sets stage 35
+- [Fungi Panic story flags (hidden flag)](../quests/fungi_panic_nondisplayed.md): blocked passage opens at stage 35; something on this map advances it; stepping on a trigger here sets stage 35
 
 ## Points of interest
 

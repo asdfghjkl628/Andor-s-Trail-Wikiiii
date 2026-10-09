@@ -49,8 +49,8 @@ description: "Curved dagger is a ordinary dagger in Andor's Trail (Attack damage
 | [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1) | 100% | 1 | Brimhaven |
 | [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_2) | 100% | 1 | Brimhaven |
 | [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_3) | 100% | 1 | Brimhaven |
-| [Revenant](../monsters/revenant.md) | 6% | 1 | waterwayacave2, waterwayacave3, waterwayacave4 |
-| [Revenant servant](../monsters/revenant_servant.md) | 4% | 1 | waterwayacave2, waterwayacave3, waterwayacave4 |
+| [Revenant](../monsters/revenant.md) | 6% | 1 | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
+| [Revenant servant](../monsters/revenant_servant.md) | 4% | 1 | Waterwayacave 2, Waterwayacave 3, Waterwayacave 4 |
 
 ### Sold by
 

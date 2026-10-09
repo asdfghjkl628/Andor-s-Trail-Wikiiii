@@ -1,10 +1,10 @@
 ---
-description: "Cave gargoyle is an enemy in Andor's Trail (construct) with 70 HP, worth 217 XP, found in waterwayacave1, waterwayacave2, waterwayacave3. Drops: Gold coins, Bone, Ring of damage resistance."
+description: "Cave gargoyle is an enemy in Andor's Trail (construct) with 70 HP, worth 217 XP, found in Waterwayacave 1, Waterwayacave 2, Waterwayacave 3. Drops: Gold coins, Bone, Ring of damage resistance."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite } Cave gargoyle
 
-**Found in:** [waterwayacave1](../maps/waterwayacave1.md), [waterwayacave2](../maps/waterwayacave2.md), [waterwayacave3](../maps/waterwayacave3.md), [waterwayacave4](../maps/waterwayacave4.md)
+**Found in:** [Waterwayacave 1](../maps/waterwayacave1.md), [Waterwayacave 2](../maps/waterwayacave2.md), [Waterwayacave 3](../maps/waterwayacave3.md), [Waterwayacave 4](../maps/waterwayacave4.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cave gargoyle is an enemy in Andor's Trail (construct) with 70 HP,
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterwayacave1, waterwayacave2, waterwayacave3 |
+| **Found in** | Waterwayacave 1, Waterwayacave 2, Waterwayacave 3 |
 | **Class** | Construct |
 | **HP** | 70 |
 | **XP when defeated** | 217 |
@@ -62,10 +62,10 @@ description: "Cave gargoyle is an enemy in Andor's Trail (construct) with 70 HP,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterwayacave1](../maps/waterwayacave1.md) | – | 8 | – |
-| [waterwayacave2](../maps/waterwayacave2.md) | – | 7 | – |
-| [waterwayacave3](../maps/waterwayacave3.md) | – | 6 | – |
-| [waterwayacave4](../maps/waterwayacave4.md) | – | 7 | – |
+| [Waterwayacave 1](../maps/waterwayacave1.md) | – | 8 | – |
+| [Waterwayacave 2](../maps/waterwayacave2.md) | – | 7 | – |
+| [Waterwayacave 3](../maps/waterwayacave3.md) | – | 6 | – |
+| [Waterwayacave 4](../maps/waterwayacave4.md) | – | 7 | – |
 
 
 ## Version history

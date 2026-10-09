@@ -38,7 +38,7 @@ description: "Pink potion of stomach calming is a ordinary potion in Andor's Tra
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 2-4 | swamp_hut |
+| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 100% | 2-4 | Swamp hut |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -49,7 +49,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Trauerquol](../monsters/brightportinnvisitor.md) ([brightport_inn](../maps/brightport_inn.md)) | – | must be carried (1×) | “Then I have the right thing for you, Madame Mim's pink potion of stomach calming” |
+| [Trauerquol](../monsters/brightportinnvisitor.md) ([Brightport inn](../maps/brightport_inn.md)) | – | must be carried (1×) | “Then I have the right thing for you, Madame Mim's pink potion of stomach calming” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

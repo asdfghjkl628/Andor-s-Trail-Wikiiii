@@ -1,10 +1,10 @@
 ---
-description: "Armored cave scorpion is an enemy in Andor's Trail (insect) with 35 HP, worth 167 XP, found in laerothcave2, laerothcave3, lakecave0. Drops: Gold coins, Scorpion sting."
+description: "Armored cave scorpion is an enemy in Andor's Trail (insect) with 35 HP, worth 167 XP, found in Laerothcave 2, Laerothcave 3, Lakecave 0. Drops: Gold coins, Scorpion sting."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik3_73.png){ .sprite } Armored cave scorpion
 
-**Found in:** [laerothcave2](../maps/laerothcave2.md), [laerothcave3](../maps/laerothcave3.md), [lakecave0](../maps/lakecave0.md)
+**Found in:** [Laerothcave 2](../maps/laerothcave2.md), [Laerothcave 3](../maps/laerothcave3.md), [Lakecave 0](../maps/lakecave0.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Armored cave scorpion is an enemy in Andor's Trail (insect) with 3
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | laerothcave2, laerothcave3, lakecave0 |
+| **Found in** | Laerothcave 2, Laerothcave 3, Lakecave 0 |
 | **Class** | Insect |
 | **HP** | 35 |
 | **XP when defeated** | 167 |
@@ -57,9 +57,9 @@ description: "Armored cave scorpion is an enemy in Andor's Trail (insect) with 3
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothcave2](../maps/laerothcave2.md) | – | 2 | – |
-| [laerothcave3](../maps/laerothcave3.md) | – | 3 | – |
-| [lakecave0](../maps/lakecave0.md) | – | 4 | – |
+| [Laerothcave 2](../maps/laerothcave2.md) | – | 2 | – |
+| [Laerothcave 3](../maps/laerothcave3.md) | – | 3 | – |
+| [Lakecave 0](../maps/lakecave0.md) | – | 4 | – |
 
 
 ## Version history

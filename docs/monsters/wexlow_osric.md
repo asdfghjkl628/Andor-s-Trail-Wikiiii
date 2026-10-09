@@ -1,5 +1,5 @@
 ---
-description: "Osric is a non-player character (NPC) in Andor's Trail, found in Wexlow Village, gamjee_well_jail_cells."
+description: "Osric is a non-player character (NPC) in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_130.png){ .sprite } Osric
@@ -11,29 +11,29 @@ description: "Osric is a non-player character (NPC) in Andor's Trail, found in W
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | Wexlow Village, gamjee_well_jail_cells |
+| **Found in** | Wexlow Village, Gamjee well jail cells |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Osric. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Osric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role |
 |---|---|---|---|
-| [`wexlow_osric`](#v-wexlow_osric) | NPC | Wexlow Village: [wexlow_village](../maps/wexlow_village.md#pin-npc-wexlow_osric) | – |
-| [`troll_hollow_osric`](#v-troll_hollow_osric) | NPC | [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric) | – |
+| [`wexlow_osric`](#v-wexlow_osric) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-wexlow_osric) | – |
+| [`troll_hollow_osric`](#v-troll_hollow_osric) | NPC | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric) | – |
 
 ## Wexlow Village, Wexlow village (wexlow_osric) { #v-wexlow_osric }
 
 **Entry ID:** `wexlow_osric` · **Type:** NPC
 
-**Location:** Wexlow Village: [wexlow_village](../maps/wexlow_village.md#pin-npc-wexlow_osric)
+**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-wexlow_osric)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Osric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Osric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wexlow_osric_start.json" data-npc="Osric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -41,7 +41,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-wexlow_osric-wexlow_osric_start"></span>**`wexlow_osric_start`** Osric: “Thank you! Thank you! We men tried to rescue our wives, but you succeeded. Thank you!”
 
@@ -108,11 +108,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `troll_hollow_osric` · **Type:** NPC
 
-**Location:** [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric)
+**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Osric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Osric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gamjee_well_osric_1.json" data-npc="Osric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -120,7 +120,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (4 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-troll_hollow_osric-gamjee_well_osric_1"></span>**`gamjee_well_osric_1`** Osric: “Please meet us back to Wexlow Village.”
 

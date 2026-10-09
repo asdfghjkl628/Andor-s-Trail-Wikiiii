@@ -36,17 +36,17 @@ description: "Strawberry is a ordinary food in Andor's Trail. How to get it: sho
 
 - [Potion merchant](../monsters/potion_merchant.md) (Fallhaven)
 - [Peasant grandfather](../monsters/brv_old_farmer.md) (Brimhaven)
-- [Rosmara](../monsters/rosmara.md) (wayto_feygard_duleian_2)
+- [Rosmara](../monsters/rosmara.md) (Wayto feygard duleian 2)
 
 ### Found in containers
 
-- [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md#container-0) (container 1, 100%), Flagstone Prison
-- [guynmart_main_2](../maps/guynmart_main_2.md#container-0) (container 1, 33%), Guynmart Castle
-- [wild23](../maps/wild23.md#container-0) (container 1, 100%), Stoutford
+- [Flagstone filler east 1](../maps/flagstone_filler_east_1.md#container-0) (container 1, 100%), Flagstone Prison
+- [Guynmart main 2](../maps/guynmart_main_2.md#container-0) (container 1, 33%), Guynmart Castle
+- [Wild 23](../maps/wild23.md#container-0) (container 1, 100%), Stoutford
 
 ### Quest & dialogue rewards
 
-- From [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) (3×)
+- From [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) (3×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -57,7 +57,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Lytwing](../monsters/lytwing_fallhaven.md) ([gapfiller2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-12) | handed over (2×) | “Yes, here are two red apples and two strawberries.” |
+| [Lytwing](../monsters/lytwing_fallhaven.md) ([Gapfiller 2](../maps/gapfiller2.md)) | [It's knot funny](../quests/fallhaven_lytwings.md#stage-12) | handed over (2×) | “Yes, here are two red apples and two strawberries.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

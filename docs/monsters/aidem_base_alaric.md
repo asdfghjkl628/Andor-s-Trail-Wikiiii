@@ -1,5 +1,5 @@
 ---
-description: "Alaric is an NPC who can also be fought in Andor's Trail, found in aidem_base_2, Fallhaven, Blackwater Mountain."
+description: "Alaric is an NPC who can also be fought in Andor's Trail, found in Aidem base 2, Fallhaven, Blackwater Mountain."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_55.png){ .sprite } Alaric
@@ -11,7 +11,7 @@ description: "Alaric is an NPC who can also be fought in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | aidem_base_2, Fallhaven, Blackwater Mountain |
+| **Found in** | Aidem base 2, Fallhaven, Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 329 |
 | **XP when defeated** | 707 |
@@ -21,24 +21,24 @@ description: "Alaric is an NPC who can also be fought in Andor's Trail, found in
 </div>
 
 !!! info "4 entries in the game data"
-    The game's data files define 4 separate characters named Alaric. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. This page combines them; each entry is described in its own section below.
+    The game data defines 4 separate characters named Alaric. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`aidem_base_alaric`](#v-aidem_base_alaric) | NPC | [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric) | – | – |
-| [`aidem_base_alaric_aggressive`](#v-aidem_base_alaric_aggressive) | Enemy | [aidem_base_2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_alaric`](#v-aidem_jail_alaric) | Enemy | Fallhaven: [guildbrig2](../maps/guildbrig2.md) | – | 1 |
-| [`alaric_wild6house`](#v-alaric_wild6house) | NPC | Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-alaric_wild6house) | – | – |
+| [`aidem_base_alaric`](#v-aidem_base_alaric) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric) | – | – |
+| [`aidem_base_alaric_aggressive`](#v-aidem_base_alaric_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
+| [`aidem_jail_alaric`](#v-aidem_jail_alaric) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`alaric_wild6house`](#v-alaric_wild6house) | NPC | Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-alaric_wild6house) | – | – |
 
 ## Aidem base 2 (aidem_base_alaric) { #v-aidem_base_alaric }
 
 **Entry ID:** `aidem_base_alaric` · **Type:** NPC
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Alaric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Alaric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_base_alaric_10.json" data-npc="Alaric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -46,7 +46,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-aidem_base_alaric-aidem_base_alaric_10"></span>**`aidem_base_alaric_10`** Alaric: “It's so weird working with you after all that we've gone through.”
 
@@ -98,7 +98,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `aidem_base_alaric_aggressive` · **Type:** Enemy
 
-**Location:** [aidem_base_2](../maps/aidem_base_2.md)
+**Location:** [Aidem base 2](../maps/aidem_base_2.md)
 
 ### Combat statistics
 
@@ -126,11 +126,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_base_2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
+| [Aidem base 2](../maps/aidem_base_2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
-- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [aidem_base_2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
+- [Wanted men](../quests/wanted_men.md#stage-76) with stepping on a trigger on [Aidem base 2](../maps/aidem_base_2.md) checks that this enemy has been defeated.
 
 
 ### Version history
@@ -181,11 +181,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Fallhaven, Guildbrig2 (aidem_jail_alaric) { #v-aidem_jail_alaric }
+## Fallhaven, Guildbrig 2 (aidem_jail_alaric) { #v-aidem_jail_alaric }
 
 **Entry ID:** `aidem_jail_alaric` · **Type:** Enemy
 
-**Location:** Fallhaven: [guildbrig2](../maps/guildbrig2.md)
+**Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
 ### Combat statistics
 
@@ -213,7 +213,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [guildbrig2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
 
 
 ### Version history
@@ -250,15 +250,15 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Blackwater Mountain, Wild6 house (alaric_wild6house) { #v-alaric_wild6house }
+## Blackwater Mountain, Wild 6 house (alaric_wild6house) { #v-alaric_wild6house }
 
 **Entry ID:** `alaric_wild6house` · **Type:** NPC
 
-**Location:** Blackwater Mountain: [wild6_house](../maps/wild6_house.md#pin-npc-alaric_wild6house)
+**Location:** Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-alaric_wild6house)
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Alaric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Alaric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/alaric_wild6house.json" data-npc="Alaric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -266,7 +266,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-alaric_wild6house-alaric_wild6house"></span>**`alaric_wild6house`** Alaric: “I'm rich. I'm finally rich!”
 

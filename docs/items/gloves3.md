@@ -37,8 +37,8 @@ description: "Snakeskin gloves is a ordinary gloves, cloth in Andor's Trail (Blo
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Breeder of venomscale](../monsters/vscaleb1.md) | 5% | 1 | lodar16, lodar19 |
-| [Venomscale master](../monsters/vscaleb2.md) | 5% | 1 | lodar17, lodar19 |
+| [Breeder of venomscale](../monsters/vscaleb1.md) | 5% | 1 | Lodar 16, Lodar 19 |
+| [Venomscale master](../monsters/vscaleb2.md) | 5% | 1 | Lodar 17, Lodar 19 |
 
 ### Sold by
 

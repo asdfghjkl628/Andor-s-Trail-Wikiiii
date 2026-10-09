@@ -4,7 +4,7 @@ description: "Leukosia is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_newb_1_288.png){ .sprite } Leukosia
 
-**Where to find Leukosia:** Lake Laeroth: [mountainlake21](../maps/mountainlake21.md#pin-npc-sirene3)
+**Where to find Leukosia:** Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-sirene3)
 
 <div class="infobox" markdown>
 

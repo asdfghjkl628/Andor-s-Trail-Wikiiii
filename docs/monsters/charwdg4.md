@@ -21,18 +21,18 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Charwood goblin. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Charwood goblin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`charwdg4`](#v-charwdg4) | Enemy | Charwood: [lostmine0](../maps/lostmine0.md), Charwood: [lostmine1](../maps/lostmine1.md) (+13 more) | – | 73 |
-| [`charwdgg`](#v-charwdgg) | NPC/Enemy | Charwood: [waytolostmine0](../maps/waytolostmine0.md#pin-npc-charwdgg) | – | 81 |
+| [`charwdg4`](#v-charwdg4) | Enemy | Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md) (+13 more) | – | 73 |
+| [`charwdgg`](#v-charwdgg) | NPC/Enemy | Charwood: [Waytolostmine 0](../maps/waytolostmine0.md#pin-npc-charwdgg) | – | 81 |
 
-## Charwood, Lostmine0 and 14 more (charwdg4) { #v-charwdg4 }
+## Charwood, Lostmine 0 and 14 more (charwdg4) { #v-charwdg4 }
 
 **Entry ID:** `charwdg4` · **Type:** Enemy
 
-**Location:** Charwood: [lostmine0](../maps/lostmine0.md), Charwood: [lostmine1](../maps/lostmine1.md), Charwood: [lostmine1a](../maps/lostmine1a.md), Charwood: [lostmine2](../maps/lostmine2.md), Charwood: [minerhouse0](../maps/minerhouse0.md), Charwood: [minerhouse1](../maps/minerhouse1.md) (+9 more)
+**Location:** Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md), Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md), Charwood: [Minerhouse 0](../maps/minerhouse0.md), Charwood: [Minerhouse 1](../maps/minerhouse1.md) (+9 more)
 
 ### Combat statistics
 
@@ -70,21 +70,21 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lostmine0](../maps/lostmine0.md) | Charwood | 8 | – |
-| [lostmine1](../maps/lostmine1.md) | Charwood | 4 | – |
-| [lostmine1a](../maps/lostmine1a.md) | Charwood | 2 | – |
-| [lostmine2](../maps/lostmine2.md) | Charwood | 3 | – |
-| [lostmine2a](../maps/lostmine2a.md) | – | 1 | – |
-| [minerhouse0](../maps/minerhouse0.md) | Charwood | 3 | – |
-| [minerhouse1](../maps/minerhouse1.md) | Charwood | 2 | – |
-| [minerhouse2](../maps/minerhouse2.md) | Charwood | 4 | – |
-| [minerhouse3](../maps/minerhouse3.md) | Charwood | 6 | – |
-| [minerhouse7](../maps/minerhouse7.md) | Charwood | 5 | – |
-| [minerhouse8](../maps/minerhouse8.md) | Charwood | 1 | – |
-| [minerhouse9](../maps/minerhouse9.md) | Charwood | 2 | – |
-| [waytolostmine1](../maps/waytolostmine1.md) | Charwood | 8 | – |
-| [waytolostmine2](../maps/waytolostmine2.md) | Charwood | 12 | – |
-| [waytolostmine3](../maps/waytolostmine3.md) | Charwood | 19 | – |
+| [Lostmine 0](../maps/lostmine0.md) | Charwood | 8 | – |
+| [Lostmine 1](../maps/lostmine1.md) | Charwood | 4 | – |
+| [Lostmine 1a](../maps/lostmine1a.md) | Charwood | 2 | – |
+| [Lostmine 2](../maps/lostmine2.md) | Charwood | 3 | – |
+| [Lostmine 2a](../maps/lostmine2a.md) | – | 1 | – |
+| [Minerhouse 0](../maps/minerhouse0.md) | Charwood | 3 | – |
+| [Minerhouse 1](../maps/minerhouse1.md) | Charwood | 2 | – |
+| [Minerhouse 2](../maps/minerhouse2.md) | Charwood | 4 | – |
+| [Minerhouse 3](../maps/minerhouse3.md) | Charwood | 6 | – |
+| [Minerhouse 7](../maps/minerhouse7.md) | Charwood | 5 | – |
+| [Minerhouse 8](../maps/minerhouse8.md) | Charwood | 1 | – |
+| [Minerhouse 9](../maps/minerhouse9.md) | Charwood | 2 | – |
+| [Waytolostmine 1](../maps/waytolostmine1.md) | Charwood | 8 | – |
+| [Waytolostmine 2](../maps/waytolostmine2.md) | Charwood | 12 | – |
+| [Waytolostmine 3](../maps/waytolostmine3.md) | Charwood | 19 | – |
 
 
 ### Version history
@@ -135,11 +135,11 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
     ```
 
 
-## Charwood, Waytolostmine0 (charwdgg) { #v-charwdgg }
+## Charwood, Waytolostmine 0 (charwdgg) { #v-charwdgg }
 
 **Entry ID:** `charwdgg` · **Type:** NPC/Enemy
 
-**Location:** Charwood: [waytolostmine0](../maps/waytolostmine0.md#pin-npc-charwdgg)
+**Location:** Charwood: [Waytolostmine 0](../maps/waytolostmine0.md#pin-npc-charwdgg)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -180,7 +180,7 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waytolostmine0](../maps/waytolostmine0.md) | Charwood | 1 | – |
+| [Waytolostmine 0](../maps/waytolostmine0.md) | Charwood | 1 | – |
 
 ### Quests
 
@@ -188,7 +188,7 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Charwood goblin. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Charwood goblin. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/charwoodm.json" data-npc="Charwood goblin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -196,7 +196,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-charwdgg-charwoodm"></span>**`charwoodm`** Charwood goblin: “Bow before the might of the Thukuzun!” — **effects:** sets stage 40 of [Destined for great things](../quests/charwood1.md#stage-40)
 

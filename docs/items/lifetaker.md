@@ -51,7 +51,7 @@ description: "LifeTaker is a extraordinary longsword in Andor's Trail (Attack da
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [graveyard0](../maps/graveyard0.md) during [Mine for the taking](../quests/graveyard_quest.md#stage-80) (1×)
+- From stepping on a trigger on [Graveyard 0](../maps/graveyard0.md) during [Mine for the taking](../quests/graveyard_quest.md#stage-80) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -62,9 +62,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) | [Mine for the taking](../quests/graveyard_quest.md#stage-90) | must be carried (1×) | “I went through hell to get this sword. I won't give it to you without a fight.” |
-| [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) | [Mine for the taking](../quests/graveyard_quest.md#stage-95) | handed over (1×) | “I went through a lot to get this sword ... but you suffered more than me. I won'” |
-| [Hagale](../monsters/algore.md) ([woodsettlement0](../maps/woodsettlement0.md)) | – | must be worn (1×) | “Yes, I have the sword, see here!” |
+| [Hagale](../monsters/algore.md) ([Woodsettlement 0](../maps/woodsettlement0.md)) | [Mine for the taking](../quests/graveyard_quest.md#stage-90) | must be carried (1×) | “I went through hell to get this sword. I won't give it to you without a fight.” |
+| [Hagale](../monsters/algore.md) ([Woodsettlement 0](../maps/woodsettlement0.md)) | [Mine for the taking](../quests/graveyard_quest.md#stage-95) | handed over (1×) | “I went through a lot to get this sword ... but you suffered more than me. I won'” |
+| [Hagale](../monsters/algore.md) ([Woodsettlement 0](../maps/woodsettlement0.md)) | – | must be worn (1×) | “Yes, I have the sword, see here!” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

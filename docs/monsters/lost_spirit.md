@@ -4,7 +4,7 @@ description: "Lost spirit is an NPC who can also be fought in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite } Lost spirit
 
-**Where to find Lost spirit:** Crossglen: [hauntedhouse1](../maps/hauntedhouse1.md#pin-npc-lost_spirit), Crossglen: [wild4](../maps/wild4.md#pin-npc-lost_spirit), [hauntedhouse2](../maps/hauntedhouse2.md#pin-npc-lost_spirit)
+**Where to find Lost spirit:** Crossglen: [Hauntedhouse 1](../maps/hauntedhouse1.md#pin-npc-lost_spirit), Crossglen: [Wild 4](../maps/wild4.md#pin-npc-lost_spirit), [Hauntedhouse 2](../maps/hauntedhouse2.md#pin-npc-lost_spirit)
 
 <div class="infobox" markdown>
 
@@ -62,13 +62,13 @@ description: "Lost spirit is an NPC who can also be fought in Andor's Trail, fou
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [hauntedhouse1](../maps/hauntedhouse1.md) | Crossglen | 2 | – |
-| [hauntedhouse2](../maps/hauntedhouse2.md) | – | 2 | – |
-| [wild4](../maps/wild4.md) | Crossglen | 1 | – |
+| [Hauntedhouse 1](../maps/hauntedhouse1.md) | Crossglen | 2 | – |
+| [Hauntedhouse 2](../maps/hauntedhouse2.md) | – | 2 | – |
+| [Wild 4](../maps/wild4.md) | Crossglen | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Lost spirit. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Lost spirit. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/haunt.json" data-npc="Lost spirit" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -76,7 +76,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-haunt"></span>**`haunt`** Lost spirit: “Oh mortal, free me from this cursed world!”
 

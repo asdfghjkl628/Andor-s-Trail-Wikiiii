@@ -4,7 +4,7 @@ description: "Basilisk is an enemy in Andor's Trail (reptile) with 40 HP, worth 
 
 # ![](../assets/icons/monsters/monsters_rats_4.png){ .sprite } Basilisk
 
-**Found in:** Blackwater Mountain: [snakecave2](../maps/snakecave2.md), Flagstone Prison: [flagstone0](../maps/flagstone0.md), Flagstone Prison: [flagstone2](../maps/flagstone2.md), Flagstone Prison: [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) (+4 more)
+**Found in:** Blackwater Mountain: [Snakecave 2](../maps/snakecave2.md), Flagstone Prison: [Flagstone 0](../maps/flagstone0.md), Flagstone Prison: [Flagstone 2](../maps/flagstone2.md), Flagstone Prison: [Flagstone filler east 1](../maps/flagstone_filler_east_1.md) (+4 more)
 
 <div class="infobox" markdown>
 
@@ -56,14 +56,14 @@ description: "Basilisk is an enemy in Andor's Trail (reptile) with 40 HP, worth 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 2 | – |
-| [flagstone2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
-| [flagstone3](../maps/flagstone3.md) | – | 2 | – |
-| [flagstone_filler_east_1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 1 | – |
-| [road4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
-| [road4_gargoylecave](../maps/road4_gargoylecave.md) | – | 1 | – |
-| [snakecave2](../maps/snakecave2.md) | Blackwater Mountain | 1 | – |
-| [snakecave3](../maps/snakecave3.md) | – | 1 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 2 | – |
+| [Flagstone 2](../maps/flagstone2.md) | Flagstone Prison | 1 | – |
+| [Flagstone 3](../maps/flagstone3.md) | – | 2 | – |
+| [Flagstone filler east 1](../maps/flagstone_filler_east_1.md) | Flagstone Prison | 1 | – |
+| [Road 4](../maps/road4.md) | Foaming Flask Tavern | 1 | – |
+| [Road 4 gargoylecave](../maps/road4_gargoylecave.md) | – | 1 | – |
+| [Snakecave 2](../maps/snakecave2.md) | Blackwater Mountain | 1 | – |
+| [Snakecave 3](../maps/snakecave3.md) | – | 1 | – |
 
 
 ## Version history

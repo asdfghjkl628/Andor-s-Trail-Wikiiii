@@ -1,8 +1,8 @@
 ---
-description: "guynmart rope is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart_wood_3. 3 stages. 1=up"
+description: "Guynmart rope is a hidden quest in Andor's Trail, started by stepping on a trigger on guynmart_wood_3. 3 stages. 1=up"
 ---
 
-# guynmart rope
+# Guynmart rope
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "guynmart rope is a hidden quest in Andor's Trail, started by stepp
 | **Quest ID** | `guynmart_r_rope` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
-| **Started by** | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md), stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) |
+| **Started by** | stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md), stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) |
 | **NPCs involved** | [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) |
-| **Locations** | [guynmart_wood_7](../maps/guynmart_wood_7.md) |
+| **Locations** | [Guynmart wood 7](../maps/guynmart_wood_7.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -27,7 +27,7 @@ description: "guynmart rope is a hidden quest in Andor's Trail, started by stepp
 
 ## Prerequisites to start
 
-None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) to begin.
+None: talk to stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) to begin.
 
 
 <p class="verified">Verified against v0.8.18 quest and dialogue data.</p>
@@ -42,33 +42,70 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=up<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | – | – |
-| <span id="stage-2"></span>2 | 2=down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) | stage 1 | clears stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1)<br>applies condition stunned<br>applies condition bone_fracture |
-| <span id="stage-11"></span>11 | 11=rope2 set<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 7](../maps/guynmart_wood_7.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 7](../maps/guynmart_wood_7.md) visibly changes.</span> | stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md)<br>[Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) | – | removes monsters from guynmart_wood_7 |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=up<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) | – |
+| <span id="stage-2"></span>[2](#route-2) | 2=down<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 3](../maps/guynmart_wood_3.md).</span> | stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md) | applies condition stunned, applies condition bone_fracture |
+| <span id="stage-11"></span>[11](#route-11) | 11=rope2 set<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Guynmart wood 7](../maps/guynmart_wood_7.md).</span><br><span class="qnote">🗺️ Part of [Guynmart wood 7](../maps/guynmart_wood_7.md) visibly changes.</span> | stepping on a trigger on [Guynmart wood 7](../maps/guynmart_wood_7.md), [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) | varies by route (see below) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 2 routes"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) → the conversation leads here automatically → **stage 1**
-    2. stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) → the conversation leads here automatically → **stage 1**
+??? note "Stage 1 · stepping on a trigger on guynmart_wood_3 · 2 ways"
 
-???+ note "Stage 2: 2 routes"
+    **Way 1:** Stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md)
 
-    1. stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1) → **stage 2**; also clears stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1), applies condition stunned, applies condition bone_fracture
-    2. stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3.md) → the conversation leads here automatically — **conditions:** reached stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1) → **stage 2**; also clears stage 1 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1), applies condition stunned, applies condition bone_fracture
 
-???+ note "Stage 11: 3 routes"
+    **Way 2:** Stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md)
 
-    1. stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md) → choose “Let's try it.” → **stage 11**
-    2. Talk to [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6) ([guynmart_wood_7](../maps/guynmart_wood_7.md)) → choose “Yes. Could you drop the rope down?” → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
-    3. stepping on a trigger on [guynmart_wood_7](../maps/guynmart_wood_7.md) → choose “Yes. Could you drop the rope down?” — **conditions:** NOT reached stage 11 of [guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-11); reached stage 80 of [Roses](../quests/guynmart.md#stage-80) → **stage 11**; also removes monsters from guynmart_wood_7. NPC: “Of course. There. But I am in a hurry and must leave now.”
+
+
+<span id="route-2"></span>
+
+??? note "Stage 2 · stepping on a trigger on guynmart_wood_3 · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md)
+
+    - **Needs:** stage 1
+    - **Gives:** applies condition stunned, applies condition bone_fracture
+    - <small>Also: clears stage 1 of [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1)</small>
+
+    **Way 2:** Stepping on a trigger on [Guynmart wood 3](../maps/guynmart_wood_3.md)
+
+    - **Needs:** stage 1
+    - **Gives:** applies condition stunned, applies condition bone_fracture
+    - <small>Also: clears stage 1 of [Guynmart rope (hidden flag)](../quests/guynmart_r_rope.md#stage-1)</small>
+
+
+<span id="route-11"></span>
+
+??? note "Stage 11 · stepping on a trigger on guynmart_wood_7, Rob · 3 ways"
+
+    **Way 1:** Stepping on a trigger on [Guynmart wood 7](../maps/guynmart_wood_7.md), choose “Let's try it.”
+
+
+    **Way 2:** Talk to [Rob](../monsters/guynmart_rob.md#v-guynmart_rob6), choose “Yes. Could you drop the rope down?”
+
+    - **Gives:** removes monsters from guynmart_wood_7
+    - *“Of course. There. But I am in a hurry and must leave now.”*
+
+    **Way 3:** Stepping on a trigger on [Guynmart wood 7](../maps/guynmart_wood_7.md), choose “Yes. Could you drop the rope down?”
+
+    - **Needs:** not yet stage 11; reached stage 80 of [Roses](../quests/guynmart.md#stage-80)
+    - **Gives:** removes monsters from guynmart_wood_7
+    - *“Of course. There. But I am in a hurry and must leave now.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -113,6 +150,7 @@ None: talk to stepping on a trigger on [guynmart_wood_3](../maps/guynmart_wood_3
     | | |
     |---|---|
     | Quest ID | `guynmart_r_rope` |
+    | Name in game data | `guynmart rope` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 11 |
     | Dialogue nodes setting stages | 1: `guynmart_s_rope_u2`, 2: `guynmart_s_rope_d_10`, 11: `guynmart_s_rope2_20`, 11: `guynmart_rob6_30` |

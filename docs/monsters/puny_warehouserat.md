@@ -4,7 +4,7 @@ description: "Warehouse rat is an enemy in Andor's Trail (animal) with 5 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } Warehouse rat
 
-**Found in:** Loneford: [loneford9](../maps/loneford9.md)
+**Found in:** Loneford: [Loneford 9](../maps/loneford9.md)
 
 <div class="infobox" markdown>
 
@@ -55,7 +55,7 @@ description: "Warehouse rat is an enemy in Andor's Trail (animal) with 5 HP, wor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [loneford9](../maps/loneford9.md) | Loneford | 1 | – |
+| [Loneford 9](../maps/loneford9.md) | Loneford | 1 | – |
 
 
 ## Version history

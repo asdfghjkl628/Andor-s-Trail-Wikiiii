@@ -4,7 +4,7 @@ description: "Blackwater border patrol is an NPC who can also be fought in Andor
 
 # ![](../assets/icons/monsters/monsters_rltiles1_76.png){ .sprite } Blackwater border patrol
 
-**Where to find Blackwater border patrol:** Blackwater Mountain: [blackwater_mountain52](../maps/blackwater_mountain52.md#pin-npc-blackwater_border_patrol)
+**Where to find Blackwater border patrol:** Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md#pin-npc-blackwater_border_patrol)
 
 <div class="infobox" markdown>
 
@@ -51,11 +51,11 @@ description: "Blackwater border patrol is an NPC who can also be fought in Andor
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [blackwater_mountain52](../maps/blackwater_mountain52.md) | Blackwater Mountain | 1 | – |
+| [Blackwater mountain 52](../maps/blackwater_mountain52.md) | Blackwater Mountain | 1 | – |
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Blackwater border patrol. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Blackwater border patrol. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_guard2.json" data-npc="Blackwater border patrol" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -63,7 +63,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-blackwater_guard2"></span>**`blackwater_guard2`** Blackwater border patrol: “Halt! You should not step any further.”
 

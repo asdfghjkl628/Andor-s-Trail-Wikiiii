@@ -50,7 +50,7 @@ description: "Blackwater iron sword is a rare longsword in Andor's Trail (Attack
 
 ### Sold by
 
-- [Waeges](../monsters/waeges.md) (blackwater_mountain43)
+- [Waeges](../monsters/waeges.md) (Blackwater mountain 43)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

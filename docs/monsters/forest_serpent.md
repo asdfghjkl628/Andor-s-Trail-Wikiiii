@@ -4,7 +4,7 @@ description: "Forest serpent is an enemy in Andor's Trail (reptile) with 20 HP, 
 
 # ![](../assets/icons/monsters/monsters_snakes_4.png){ .sprite } Forest serpent
 
-**Found in:** Blackwater Mountain: [wild7](../maps/wild7.md), Crossroads Guardhouse: [roadbeforecrossroads](../maps/roadbeforecrossroads.md), Crossroads Guardhouse: [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md), Fallhaven: [mywild19](../maps/mywild19.md) (+9 more)
+**Found in:** Blackwater Mountain: [Wild 7](../maps/wild7.md), Crossroads Guardhouse: [Roadbeforecrossroads](../maps/roadbeforecrossroads.md), Crossroads Guardhouse: [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md), Fallhaven: [Mywild 19](../maps/mywild19.md) (+9 more)
 
 <div class="infobox" markdown>
 
@@ -56,19 +56,19 @@ description: "Forest serpent is an enemy in Andor's Trail (reptile) with 20 HP, 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [flagstone0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
-| [flagstone_filler_east_2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 2 | – |
-| [lake_shore_road_0](../maps/lake_shore_road_0.md) | Flagstone Prison | 5 | – |
-| [lake_shore_road_1](../maps/lake_shore_road_1.md) | Flagstone Prison | 3 | – |
-| [mywild19](../maps/mywild19.md) | Fallhaven | 5 | – |
-| [mywild20](../maps/mywild20.md) | Fallhaven | 2 | – |
-| [roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 2 | – |
-| [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 2 | – |
-| [roadbeforecrossroads2](../maps/roadbeforecrossroads2.md) | Fallhaven | 1 | – |
-| [wild10](../maps/wild10.md) | Fallhaven | 1 | – |
-| [wild12](../maps/wild12.md) | Fallhaven | 2 | – |
-| [wild13](../maps/wild13.md) | Fallhaven | 1 | – |
-| [wild7](../maps/wild7.md) | Blackwater Mountain | 3 | – |
+| [Flagstone 0](../maps/flagstone0.md) | Flagstone Prison | 1 | – |
+| [Flagstone filler east 2](../maps/flagstone_filler_east_2.md) | Flagstone Prison | 2 | – |
+| [Lake shore road 0](../maps/lake_shore_road_0.md) | Flagstone Prison | 5 | – |
+| [Lake shore road 1](../maps/lake_shore_road_1.md) | Flagstone Prison | 3 | – |
+| [Mywild 19](../maps/mywild19.md) | Fallhaven | 5 | – |
+| [Mywild 20](../maps/mywild20.md) | Fallhaven | 2 | – |
+| [Roadbeforecrossroads](../maps/roadbeforecrossroads.md) | Crossroads Guardhouse | 2 | – |
+| [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 2 | – |
+| [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md) | Fallhaven | 1 | – |
+| [Wild 10](../maps/wild10.md) | Fallhaven | 1 | – |
+| [Wild 12](../maps/wild12.md) | Fallhaven | 2 | – |
+| [Wild 13](../maps/wild13.md) | Fallhaven | 1 | – |
+| [Wild 7](../maps/wild7.md) | Blackwater Mountain | 3 | – |
 
 
 ## Version history

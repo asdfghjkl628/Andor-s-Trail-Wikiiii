@@ -4,7 +4,7 @@ description: "Aggressive dungfly is an enemy in Andor's Trail (insect) with 23 H
 
 # ![](../assets/icons/monsters/monsters_rltiles2_168.png){ .sprite } Aggressive dungfly
 
-**Found in:** Crossroads Guardhouse: [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md), Loneford: [lodar0](../maps/lodar0.md), Loneford: [lodar1](../maps/lodar1.md), Loneford: [lodar2](../maps/lodar2.md) (+6 more)
+**Found in:** Crossroads Guardhouse: [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md), Loneford: [Lodar 0](../maps/lodar0.md), Loneford: [Lodar 1](../maps/lodar1.md), Loneford: [Lodar 2](../maps/lodar2.md) (+6 more)
 
 <div class="infobox" markdown>
 
@@ -55,16 +55,16 @@ description: "Aggressive dungfly is an enemy in Andor's Trail (insect) with 23 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lodar0](../maps/lodar0.md) | Loneford | 23 | – |
-| [lodar1](../maps/lodar1.md) | Loneford | 5 | – |
-| [lodar11](../maps/lodar11.md) | – | 6 | – |
-| [lodar14](../maps/lodar14.md) | – | 5 | – |
-| [lodar2](../maps/lodar2.md) | Loneford | 24 | – |
-| [lodar3](../maps/lodar3.md) | – | 5 | – |
-| [lodar4](../maps/lodar4.md) | – | 24 | – |
-| [lodar5](../maps/lodar5.md) | Loneford | 10 | – |
-| [lodar9](../maps/lodar9.md) | – | 10 | – |
-| [roadbeforecrossroads1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 1 | – |
+| [Lodar 0](../maps/lodar0.md) | Loneford | 23 | – |
+| [Lodar 1](../maps/lodar1.md) | Loneford | 5 | – |
+| [Lodar 11](../maps/lodar11.md) | – | 6 | – |
+| [Lodar 14](../maps/lodar14.md) | – | 5 | – |
+| [Lodar 2](../maps/lodar2.md) | Loneford | 24 | – |
+| [Lodar 3](../maps/lodar3.md) | – | 5 | – |
+| [Lodar 4](../maps/lodar4.md) | – | 24 | – |
+| [Lodar 5](../maps/lodar5.md) | Loneford | 10 | – |
+| [Lodar 9](../maps/lodar9.md) | – | 10 | – |
+| [Roadbeforecrossroads 1](../maps/roadbeforecrossroads1.md) | Crossroads Guardhouse | 1 | – |
 
 
 ## Version history

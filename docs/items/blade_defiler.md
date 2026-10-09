@@ -51,7 +51,7 @@ description: "Blade of the defiler is a extraordinary dagger in Andor's Trail (A
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Thukuzun](../monsters/thukuzun.md) | 100% | 1 | lostmine11 |
+| [Thukuzun](../monsters/thukuzun.md) | 100% | 1 | Lostmine 11 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Preabola fly is an enemy in Andor's Trail (insect) with 109 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rltiles2_170.png){ .sprite } Preabola fly
 
-**Found in:** Sullengard: [sullengard_pond](../maps/sullengard_pond.md), [aidem_camp](../maps/aidem_camp.md), [sullengard10](../maps/sullengard10.md), [sullengard_pond_east](../maps/sullengard_pond_east.md) (+11 more)
+**Found in:** Sullengard: [Sullengard pond](../maps/sullengard_pond.md), [Aidem camp](../maps/aidem_camp.md), [Sullengard 10](../maps/sullengard10.md), [Sullengard pond east](../maps/sullengard_pond_east.md) (+11 more)
 
 <div class="infobox" markdown>
 
@@ -57,21 +57,21 @@ description: "Preabola fly is an enemy in Andor's Trail (insect) with 109 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [aidem_camp](../maps/aidem_camp.md) | – | 2 | – |
-| [sullengard10](../maps/sullengard10.md) | – | 2 | – |
-| [sullengard_pond](../maps/sullengard_pond.md) | Sullengard | 7 | – |
-| [sullengard_pond_east](../maps/sullengard_pond_east.md) | – | 4 | – |
-| [sullengard_woods5](../maps/sullengard_woods5.md) | – | 4 | – |
-| [sullengard_woods6](../maps/sullengard_woods6.md) | – | 15 | – |
-| [sullengard_woods7](../maps/sullengard_woods7.md) | – | 6 | – |
-| [sullengard_woods8](../maps/sullengard_woods8.md) | – | 7 | – |
-| [sullengard_woods9](../maps/sullengard_woods9.md) | – | 4 | – |
-| [way_to_aidem_camp_1](../maps/way_to_aidem_camp_1.md) | – | 7 | – |
-| [way_to_sullengard_east10](../maps/way_to_sullengard_east10.md) | – | 3 | – |
-| [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md) | – | 7 | – |
-| [way_to_sullengard_east8](../maps/way_to_sullengard_east8.md) | – | 6 | – |
-| [way_to_sullengard_east9](../maps/way_to_sullengard_east9.md) | – | 5 | – |
-| [way_to_sullengard_east9a](../maps/way_to_sullengard_east9a.md) | – | 5 | – |
+| [Aidem camp](../maps/aidem_camp.md) | – | 2 | – |
+| [Sullengard 10](../maps/sullengard10.md) | – | 2 | – |
+| [Sullengard pond](../maps/sullengard_pond.md) | Sullengard | 7 | – |
+| [Sullengard pond east](../maps/sullengard_pond_east.md) | – | 4 | – |
+| [Sullengard woods 5](../maps/sullengard_woods5.md) | – | 4 | – |
+| [Sullengard woods 6](../maps/sullengard_woods6.md) | – | 15 | – |
+| [Sullengard woods 7](../maps/sullengard_woods7.md) | – | 6 | – |
+| [Sullengard woods 8](../maps/sullengard_woods8.md) | – | 7 | – |
+| [Sullengard woods 9](../maps/sullengard_woods9.md) | – | 4 | – |
+| [Way to aidem camp 1](../maps/way_to_aidem_camp_1.md) | – | 7 | – |
+| [Way to sullengard east 10](../maps/way_to_sullengard_east10.md) | – | 3 | – |
+| [Way to sullengard east 11](../maps/way_to_sullengard_east11.md) | – | 7 | – |
+| [Way to sullengard east 8](../maps/way_to_sullengard_east8.md) | – | 6 | – |
+| [Way to sullengard east 9](../maps/way_to_sullengard_east9.md) | – | 5 | – |
+| [Way to sullengard east 9a](../maps/way_to_sullengard_east9a.md) | – | 5 | – |
 
 
 ## Version history

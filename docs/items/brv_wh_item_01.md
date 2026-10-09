@@ -25,8 +25,8 @@ description: "Plush pillow is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_01](../monsters/brv_wh_item_01.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_21](../monsters/brv_wh_item_21.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-101) (2×)
-- From [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
+- From [brv_wh_item_01](../monsters/brv_wh_item_01.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_21](../monsters/brv_wh_item_21.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-101) (2×)
+- From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -37,8 +37,8 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Mikhail](../monsters/mikhail.md) ([home](../maps/home.md)) | [Delivery - nondisplay (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-90) | handed over (1×) | “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” |
-| [Facutloni](../monsters/brv_wh_boss.md) ([brimhaven_warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
+| [Mikhail](../monsters/mikhail.md) ([Home](../maps/home.md)) | [Brimhaven warehouse delivery (hidden flag)](../quests/brv_wh_delivery_nondisplay.md#stage-90) | handed over (1×) | “Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?” |
+| [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) | [Inventory](../quests/brv_wh.md#stage-900) | handed over (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

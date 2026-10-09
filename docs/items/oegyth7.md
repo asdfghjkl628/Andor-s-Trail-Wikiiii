@@ -26,7 +26,7 @@ description: "Depleted oegyth crystal is a rare gem in Andor's Trail. How to get
 
 ### Quest & dialogue rewards
 
-- From [Jerelin](../monsters/jerelin.md#v-jerelin_b) ([laerothtomb1](../maps/laerothtomb1.md)), stepping on a trigger on [laerothtomb1](../maps/laerothtomb1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-170) (1×)
+- From [Jerelin](../monsters/jerelin.md#v-jerelin_b) ([Laerothtomb 1](../maps/laerothtomb1.md)), stepping on a trigger on [Laerothtomb 1](../maps/laerothtomb1.md) during [Take care of the caretaker](../quests/laeroth_caretaker.md#stage-170) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

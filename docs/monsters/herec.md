@@ -1,10 +1,10 @@
 ---
-description: "Herec is a non-player character (NPC) in Andor's Trail, found in blackwater_mountain44. Shopkeeper; starts No weakness."
+description: "Herec is a non-player character (NPC) in Andor's Trail, found in Blackwater mountain 44. Shopkeeper; starts No weakness."
 ---
 
 # ![](../assets/icons/monsters/monsters_men2_9.png){ .sprite } Herec
 
-**Where to find Herec:** [blackwater_mountain44](../maps/blackwater_mountain44.md#pin-npc-herec)
+**Where to find Herec:** [Blackwater mountain 44](../maps/blackwater_mountain44.md#pin-npc-herec)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Herec is a non-player character (NPC) in Andor's Trail, found in b
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper; starts [No weakness](../quests/bwm_wyrms.md) |
-| **Found in** | blackwater_mountain44 |
+| **Found in** | Blackwater mountain 44 |
 | **Entry ID** | `herec` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -32,7 +32,7 @@ description: "Herec is a non-player character (NPC) in Andor's Trail, found in b
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Herec. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Herec. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/herec_start.json" data-npc="Herec" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -40,7 +40,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (18 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-herec_start"></span>**`herec_start`** *(silent check: the first matching branch below is taken)*
 

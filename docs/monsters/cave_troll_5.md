@@ -1,10 +1,10 @@
 ---
-description: "Cave troll leader is an NPC who can also be fought in Andor's Trail, found in lakecave2."
+description: "Cave troll leader is an NPC who can also be fought in Andor's Trail, found in Lakecave 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_18.png){ .sprite } Cave troll leader
 
-**Where to find Cave troll leader:** [lakecave2](../maps/lakecave2.md#pin-npc-cave_troll_5)
+**Where to find Cave troll leader:** [Lakecave 2](../maps/lakecave2.md#pin-npc-cave_troll_5)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cave troll leader is an NPC who can also be fought in Andor's Trai
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | lakecave2 |
+| **Found in** | Lakecave 2 |
 | **Class** | Giant |
 | **HP** | 410 |
 | **XP when defeated** | 518 |
@@ -61,15 +61,15 @@ description: "Cave troll leader is an NPC who can also be fought in Andor's Trai
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [lakecave2](../maps/lakecave2.md) | – | 1 | – |
+| [Lakecave 2](../maps/lakecave2.md) | – | 1 | – |
 
 ## Quests
 
-- [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md): stage 203
+- [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md): stage 203
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Cave troll leader. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Cave troll leader. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lakecave2_troll_10.json" data-npc="Cave troll leader" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -77,7 +77,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (15 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lakecave2_troll_10"></span>**`lakecave2_troll_10`** Cave troll leader: “You! You have no business here! Get out of my cave!”
 
@@ -141,7 +141,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Of course you are.” → [lakecave2_troll_90](#d-lakecave2_troll_90)
     - “It was worth a try.” → [lakecave2_troll_90](#d-lakecave2_troll_90)
 
-    <span id="d-lakecave2_troll_90"></span>**`lakecave2_troll_90`** Cave troll leader: “Outrageous! I will put you in my pantry now.” — **effects:** sets stage 203 of [stn_nondisplay (hidden flag)](../quests/stn_nondisplay.md#stage-203)
+    <span id="d-lakecave2_troll_90"></span>**`lakecave2_troll_90`** Cave troll leader: “Outrageous! I will put you in my pantry now.” — **effects:** sets stage 203 of [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-203)
 
     - “We'll see.” → *fight starts*
 

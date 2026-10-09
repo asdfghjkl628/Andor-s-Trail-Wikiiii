@@ -1,10 +1,10 @@
 ---
-description: "Kotheses is an NPC who can also be fought in Andor's Trail, found in laerothprison7."
+description: "Kotheses is an NPC who can also be fought in Andor's Trail, found in Laerothprison 7."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_6.png){ .sprite } Kotheses
 
-**Where to find Kotheses:** [laerothprison7](../maps/laerothprison7.md#pin-npc-kotheses)
+**Where to find Kotheses:** [Laerothprison 7](../maps/laerothprison7.md#pin-npc-kotheses)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Kotheses is an NPC who can also be fought in Andor's Trail, found 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | laerothprison7 |
+| **Found in** | Laerothprison 7 |
 | **Class** | Undead |
 | **HP** | 180 |
 | **XP when defeated** | 313 |
@@ -64,12 +64,12 @@ description: "Kotheses is an NPC who can also be fought in Andor's Trail, found 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [laerothprison7](../maps/laerothprison7.md) | – | 1 | – |
+| [Laerothprison 7](../maps/laerothprison7.md) | – | 1 | – |
 
 ## Quests that count defeats
 
-- A conversation with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) checks that this enemy has been defeated.
-- [Shadow of the torturer](../quests/lae_torturer.md#stage-80) with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([laerothprison4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) checks that this enemy has been defeated.
+- A conversation with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([Laerothprison 4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) checks that this enemy has been defeated.
+- [Shadow of the torturer](../quests/lae_torturer.md#stage-80) with [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4) ([Laerothprison 4](../maps/laerothprison4.md)), [Laeroth prisoner](../monsters/lae_prisoner.md#v-lae_prisoner4a) checks that this enemy has been defeated.
 
 ## Quests
 
@@ -78,7 +78,7 @@ description: "Kotheses is an NPC who can also be fought in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Kotheses. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Kotheses. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_torturer.json" data-npc="Kotheses" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -86,7 +86,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (40 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-lae_torturer"></span>**`lae_torturer`** *(silent check: the first matching branch below is taken)*
 
@@ -264,7 +264,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …”<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?”<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

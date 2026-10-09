@@ -1,10 +1,10 @@
 ---
-description: "Cave burrower is an enemy in Andor's Trail (insect) with 37 HP, worth 112 XP, found in waterway14, waterway15. Drops: Gold coins, Insect shell, Glass gem."
+description: "Cave burrower is an enemy in Andor's Trail (insect) with 37 HP, worth 112 XP, found in Waterway 14, Waterway 15. Drops: Gold coins, Insect shell, Glass gem."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_164.png){ .sprite } Cave burrower
 
-**Found in:** [waterway14](../maps/waterway14.md), [waterway15](../maps/waterway15.md)
+**Found in:** [Waterway 14](../maps/waterway14.md), [Waterway 15](../maps/waterway15.md)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Cave burrower is an enemy in Andor's Trail (insect) with 37 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | waterway14, waterway15 |
+| **Found in** | Waterway 14, Waterway 15 |
 | **Class** | Insect |
 | **HP** | 37 |
 | **XP when defeated** | 112 |
@@ -56,8 +56,8 @@ description: "Cave burrower is an enemy in Andor's Trail (insect) with 37 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway14](../maps/waterway14.md) | – | 6 | – |
-| [waterway15](../maps/waterway15.md) | – | 6 | – |
+| [Waterway 14](../maps/waterway14.md) | – | 6 | – |
+| [Waterway 15](../maps/waterway15.md) | – | 6 | – |
 
 
 ## Version history

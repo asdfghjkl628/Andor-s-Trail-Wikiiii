@@ -4,7 +4,7 @@ description: "Death cob is an enemy in Andor's Trail (undead) with 179 HP, worth
 
 # ![](../assets/icons/monsters/monsters_rltiles1_4.png){ .sprite } Death cob
 
-**Found in:** Sullengard: [sullengard5](../maps/sullengard5.md), Sullengard: [sullengard6](../maps/sullengard6.md), Sullengard: [sullengard7](../maps/sullengard7.md), [sullengard10](../maps/sullengard10.md) (+5 more)
+**Found in:** Sullengard: [Sullengard 5](../maps/sullengard5.md), Sullengard: [Sullengard 6](../maps/sullengard6.md), Sullengard: [Sullengard 7](../maps/sullengard7.md), [Sullengard 10](../maps/sullengard10.md) (+5 more)
 
 <div class="infobox" markdown>
 
@@ -55,15 +55,15 @@ description: "Death cob is an enemy in Andor's Trail (undead) with 179 HP, worth
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [sullengard10](../maps/sullengard10.md) | – | 1 | – |
-| [sullengard3](../maps/sullengard3.md) | – | 2 | – |
-| [sullengard4](../maps/sullengard4.md) | – | 2 | – |
-| [sullengard5](../maps/sullengard5.md) | Sullengard | 3 | – |
-| [sullengard6](../maps/sullengard6.md) | Sullengard | 2 | – |
-| [sullengard7](../maps/sullengard7.md) | Sullengard | 4 | – |
-| [sullengard8](../maps/sullengard8.md) | – | 3 | – |
-| [sullengard9](../maps/sullengard9.md) | – | 4 | – |
-| [way_to_sullengard_west_6](../maps/way_to_sullengard_west_6.md) | – | 5 | – |
+| [Sullengard 10](../maps/sullengard10.md) | – | 1 | – |
+| [Sullengard 3](../maps/sullengard3.md) | – | 2 | – |
+| [Sullengard 4](../maps/sullengard4.md) | – | 2 | – |
+| [Sullengard 5](../maps/sullengard5.md) | Sullengard | 3 | – |
+| [Sullengard 6](../maps/sullengard6.md) | Sullengard | 2 | – |
+| [Sullengard 7](../maps/sullengard7.md) | Sullengard | 4 | – |
+| [Sullengard 8](../maps/sullengard8.md) | – | 3 | – |
+| [Sullengard 9](../maps/sullengard9.md) | – | 4 | – |
+| [Way to sullengard west 6](../maps/way_to_sullengard_west_6.md) | – | 5 | – |
 
 
 ## Version history

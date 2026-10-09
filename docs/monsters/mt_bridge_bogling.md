@@ -4,7 +4,7 @@ description: "Mountain bridge bogling is an enemy in Andor's Trail (humanoid) wi
 
 # ![](../assets/icons/monsters/monsters_misc_6.png){ .sprite } Mountain bridge bogling
 
-**Found in:** Mt. Galmore: [galmore_54](../maps/galmore_54.md), Mt. Galmore: [galmore_55](../maps/galmore_55.md), Mt. Galmore: [galmore_56](../maps/galmore_56.md), Mt. Galmore: [galmore_57](../maps/galmore_57.md) (+8 more)
+**Found in:** Mt. Galmore: [Galmore 54](../maps/galmore_54.md), Mt. Galmore: [Galmore 55](../maps/galmore_55.md), Mt. Galmore: [Galmore 56](../maps/galmore_56.md), Mt. Galmore: [Galmore 57](../maps/galmore_57.md) (+8 more)
 
 <div class="infobox" markdown>
 
@@ -58,18 +58,18 @@ description: "Mountain bridge bogling is an enemy in Andor's Trail (humanoid) wi
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [galmore_54](../maps/galmore_54.md) | Mt. Galmore | 3 | – |
-| [galmore_55](../maps/galmore_55.md) | Mt. Galmore | 2 | – |
-| [galmore_56](../maps/galmore_56.md) | Mt. Galmore | 2 | – |
-| [galmore_57](../maps/galmore_57.md) | Mt. Galmore | 1 | – |
-| [galmore_63](../maps/galmore_63.md) | Mt. Galmore | 2 | – |
-| [galmore_64](../maps/galmore_64.md) | Mt. Galmore | 1 | – |
-| [galmore_65](../maps/galmore_65.md) | Mt. Galmore | 3 | – |
-| [galmore_66](../maps/galmore_66.md) | Mt. Galmore | 4 | – |
-| [galmore_67](../maps/galmore_67.md) | Mt. Galmore | 1 | – |
-| [galmore_73](../maps/galmore_73.md) | Mt. Galmore | 3 | – |
-| [galmore_74](../maps/galmore_74.md) | Mt. Galmore | 2 | – |
-| [galmore_76](../maps/galmore_76.md) | Mt. Galmore | 1 | – |
+| [Galmore 54](../maps/galmore_54.md) | Mt. Galmore | 3 | – |
+| [Galmore 55](../maps/galmore_55.md) | Mt. Galmore | 2 | – |
+| [Galmore 56](../maps/galmore_56.md) | Mt. Galmore | 2 | – |
+| [Galmore 57](../maps/galmore_57.md) | Mt. Galmore | 1 | – |
+| [Galmore 63](../maps/galmore_63.md) | Mt. Galmore | 2 | – |
+| [Galmore 64](../maps/galmore_64.md) | Mt. Galmore | 1 | – |
+| [Galmore 65](../maps/galmore_65.md) | Mt. Galmore | 3 | – |
+| [Galmore 66](../maps/galmore_66.md) | Mt. Galmore | 4 | – |
+| [Galmore 67](../maps/galmore_67.md) | Mt. Galmore | 1 | – |
+| [Galmore 73](../maps/galmore_73.md) | Mt. Galmore | 3 | – |
+| [Galmore 74](../maps/galmore_74.md) | Mt. Galmore | 2 | – |
+| [Galmore 76](../maps/galmore_76.md) | Mt. Galmore | 1 | – |
 
 
 ## Version history

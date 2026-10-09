@@ -11,7 +11,7 @@ description: "Lake shore road 9 is an outdoor location in Andor's Trail. NPCs: S
 | **Map ID** | `lake_shore_road_9` |
 | **Type** | Outdoors |
 | **Size** | 30×22 tiles |
-| **World map** | [World1](index.md) |
+| **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 1 |
 | **Enemy types** | 4 |
@@ -83,9 +83,9 @@ South: Galmore Mountain”">8</a><a class="pin pin-script" href="#key-9" style="
 - [Another ruthless Crackshot](../quests/Thieves04.md): part of the map changes at stage 75
 - [Search for Andor](../quests/andor.md): blocked passage closes at stage 1
 - [Troubling times](../quests/troubling_times.md): [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) is involved
-- [mg2_exploded_star_nd (hidden flag)](../quests/mg2_exploded_star_nd.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8; stepping on a trigger here sets stage 9; stepping on a trigger here sets stage 90
-- [sullengard_nondisplay (hidden flag)](../quests/sullengard_hidden.md): [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) is involved; something on this map advances it; stepping on a trigger here sets stage 36; stepping on a trigger here sets stage 37
-- [Sutdove_nondisplay (hidden flag)](../quests/sutdover_hidden.md): something on this map advances it; stepping on a trigger here sets stage 3
+- [Mt. Galmore exploded star (hidden flag)](../quests/mg2_exploded_star_nd.md): something on this map advances it; stepping on a trigger here sets stage 1; stepping on a trigger here sets stage 10; stepping on a trigger here sets stage 2; stepping on a trigger here sets stage 3; stepping on a trigger here sets stage 4; stepping on a trigger here sets stage 5; stepping on a trigger here sets stage 6; stepping on a trigger here sets stage 7; stepping on a trigger here sets stage 8; stepping on a trigger here sets stage 9; stepping on a trigger here sets stage 90
+- [Sullengard story flags (hidden flag)](../quests/sullengard_hidden.md): [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina) is involved; something on this map advances it; stepping on a trigger here sets stage 36; stepping on a trigger here sets stage 37
+- [Sutdover story flags (hidden flag)](../quests/sutdover_hidden.md): something on this map advances it; stepping on a trigger here sets stage 3
 
 ## Points of interest
 

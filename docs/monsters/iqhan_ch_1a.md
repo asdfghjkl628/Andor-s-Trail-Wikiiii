@@ -1,5 +1,5 @@
 ---
-description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73–75 HP, worth 237–240 XP, found in pwcave2, pwcave2a, pwcave3. Drops: Gold coins, Iqhan pendant, Wooden buckler, Iron dagger."
+description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73–75 HP, worth 237–240 XP, found in Pwcave 2, Pwcave 2a, Pwcave 3. Drops: Gold coins, Iqhan pendant, Wooden buckler, Iron dagger."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_135.png){ .sprite } Iqhan chaos evoker
@@ -11,7 +11,7 @@ description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | pwcave2, pwcave2a, pwcave3 |
+| **Found in** | Pwcave 2, Pwcave 2a, Pwcave 3 |
 | **Class** | Humanoid |
 | **HP** | 73–75 |
 | **XP when defeated** | 237–240 |
@@ -21,18 +21,18 @@ description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Iqhan chaos evoker. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: combat statistics. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Iqhan chaos evoker. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`iqhan_ch_1a`](#v-iqhan_ch_1a) | Enemy | [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md) (+2 more) | – | 73 |
-| [`iqhan_ch_1b`](#v-iqhan_ch_1b) | Enemy | [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md) (+2 more) | – | 75 |
+| [`iqhan_ch_1a`](#v-iqhan_ch_1a) | Enemy | [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md) (+2 more) | – | 73 |
+| [`iqhan_ch_1b`](#v-iqhan_ch_1b) | Enemy | [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md) (+2 more) | – | 75 |
 
-## Pwcave2 and 3 more (iqhan_ch_1a) { #v-iqhan_ch_1a }
+## Pwcave 2 and 3 more (iqhan_ch_1a) { #v-iqhan_ch_1a }
 
 **Entry ID:** `iqhan_ch_1a` · **Type:** Enemy
 
-**Location:** [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -71,10 +71,10 @@ description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2](../maps/pwcave2.md) | – | 1 | – |
-| [pwcave2a](../maps/pwcave2a.md) | – | 5 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 8 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 2 | – |
+| [Pwcave 2](../maps/pwcave2.md) | – | 1 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 5 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
 
 
 ### Version history
@@ -136,11 +136,11 @@ description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73
     ```
 
 
-## Pwcave2 and 3 more (iqhan_ch_1b) { #v-iqhan_ch_1b }
+## Pwcave 2 and 3 more (iqhan_ch_1b) { #v-iqhan_ch_1b }
 
 **Entry ID:** `iqhan_ch_1b` · **Type:** Enemy
 
-**Location:** [pwcave2](../maps/pwcave2.md), [pwcave2a](../maps/pwcave2a.md), [pwcave3](../maps/pwcave3.md), [pwcave4](../maps/pwcave4.md)
+**Location:** [Pwcave 2](../maps/pwcave2.md), [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 3](../maps/pwcave3.md), [Pwcave 4](../maps/pwcave4.md)
 
 ### Combat statistics
 
@@ -179,10 +179,10 @@ description: "Iqhan chaos evoker is an enemy in Andor's Trail (humanoid) with 73
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [pwcave2](../maps/pwcave2.md) | – | 1 | – |
-| [pwcave2a](../maps/pwcave2a.md) | – | 5 | – |
-| [pwcave3](../maps/pwcave3.md) | – | 8 | – |
-| [pwcave4](../maps/pwcave4.md) | – | 2 | – |
+| [Pwcave 2](../maps/pwcave2.md) | – | 1 | – |
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 5 | – |
+| [Pwcave 3](../maps/pwcave3.md) | – | 8 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 2 | – |
 
 
 ### Version history

@@ -1,10 +1,10 @@
 ---
-description: "Young herding dog is a non-player character (NPC) in Andor's Trail, found in way_to_sullengard_east11."
+description: "Young herding dog is a non-player character (NPC) in Andor's Trail, found in Way to sullengard east 11."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_3.png){ .sprite } Young herding dog
 
-**Where to find Young herding dog:** [way_to_sullengard_east11](../maps/way_to_sullengard_east11.md#pin-npc-sull_herding_dog)
+**Where to find Young herding dog:** [Way to sullengard east 11](../maps/way_to_sullengard_east11.md#pin-npc-sull_herding_dog)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Young herding dog is a non-player character (NPC) in Andor's Trail
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | way_to_sullengard_east11 |
+| **Found in** | Way to sullengard east 11 |
 | **Entry ID** | `sull_herding_dog` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
@@ -21,7 +21,7 @@ description: "Young herding dog is a non-player character (NPC) in Andor's Trail
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Young herding dog. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Young herding dog. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/sull_herding_dog_0.json" data-npc="Young herding dog" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,7 +29,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (1 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-sull_herding_dog_0"></span>**`sull_herding_dog_0`** Young herding dog: “Woof.”
 

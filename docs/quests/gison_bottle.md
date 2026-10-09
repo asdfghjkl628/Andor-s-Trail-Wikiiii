@@ -14,7 +14,7 @@ description: "Gison bottle is a hidden quest in Andor's Trail, started by steppi
 | **Quest ID** | `gison_bottle` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 8 |
-| **Started by** | stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) |
+| **Started by** | stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) |
 
 </div>
 
@@ -24,7 +24,7 @@ description: "Gison bottle is a hidden quest in Andor's Trail, started by steppi
 
 ## Prerequisites to start
 
-Start with stepping on a trigger on [mywildcave2](../maps/mywildcave2.md). Required:
+Start with stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md). Required:
 
 - NOT reached stage 1 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-1)
 
@@ -39,54 +39,116 @@ No links to other quests were found in the dialogue conditions.
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave2](../maps/mywildcave2.md).</span> | stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-2"></span>2 | 2. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave2](../maps/mywildcave2.md).</span> | stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-3"></span>3 | 3. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave2](../maps/mywildcave2.md).</span> | stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-4"></span>4 | 4. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave3](../maps/mywildcave3.md).</span> | stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-5"></span>5 | 5. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave3](../maps/mywildcave3.md).</span> | stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-6"></span>6 | 6. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave3](../maps/mywildcave3.md).</span> | stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-7"></span>7 | 7. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave3](../maps/mywildcave3.md).</span> | stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) | – | gives 3× [Empty bottle](../items/bottle_empty.md) |
-| <span id="stage-8"></span>8 | 8. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave2](../maps/mywildcave2.md).</span> | stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) | – | gives 1× [Empty bottle](../items/bottle_empty.md) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 2](../maps/mywildcave2.md).</span> | stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-2"></span>[2](#route-2) | 2. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 2](../maps/mywildcave2.md).</span> | stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-3"></span>[3](#route-3) | 3. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 2](../maps/mywildcave2.md).</span> | stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-4"></span>[4](#route-4) | 4. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 3](../maps/mywildcave3.md).</span> | stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-5"></span>[5](#route-5) | 5. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 3](../maps/mywildcave3.md).</span> | stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-6"></span>[6](#route-6) | 6. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 3](../maps/mywildcave3.md).</span> | stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-7"></span>[7](#route-7) | 7. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 3](../maps/mywildcave3.md).</span> | stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md) | 3× [Empty bottle](../items/bottle_empty.md) |
+| <span id="stage-8"></span>[8](#route-8) | 8. Bottle<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Mywildcave 2](../maps/mywildcave2.md).</span> | stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md) | 1× [Empty bottle](../items/bottle_empty.md) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 1 route"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) → the conversation leads here automatically — **conditions:** NOT reached stage 1 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-1) → **stage 1**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find an empty bottle.”
+??? note "Stage 1 · stepping on a trigger on mywildcave2 · 1 way"
 
-???+ note "Stage 2: 1 route"
+    **Way 1:** Stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md)
 
-    1. stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) → the conversation leads here automatically — **conditions:** NOT reached stage 2 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-2) → **stage 2**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find a bottle.”
+    - **Needs:** not yet stage 1
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find an empty bottle.”*
 
-???+ note "Stage 3: 1 route"
 
-    1. stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) → the conversation leads here automatically — **conditions:** NOT reached stage 3 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-3) → **stage 3**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find an empty bottle.”
+<span id="route-2"></span>
 
-???+ note "Stage 4: 1 route"
+??? note "Stage 2 · stepping on a trigger on mywildcave2 · 1 way"
 
-    1. stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) → the conversation leads here automatically — **conditions:** NOT reached stage 4 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-4) → **stage 4**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find an empty bottle.”
+    **Way 1:** Stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md)
 
-???+ note "Stage 5: 1 route"
+    - **Needs:** not yet stage 2
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find a bottle.”*
 
-    1. stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) → the conversation leads here automatically — **conditions:** NOT reached stage 5 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-5) → **stage 5**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find an empty bottle.”
 
-???+ note "Stage 6: 1 route"
+<span id="route-3"></span>
 
-    1. stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) → the conversation leads here automatically — **conditions:** NOT reached stage 6 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-6) → **stage 6**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find an empty bottle.”
+??? note "Stage 3 · stepping on a trigger on mywildcave2 · 1 way"
 
-???+ note "Stage 7: 1 route"
+    **Way 1:** Stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md)
 
-    1. stepping on a trigger on [mywildcave3](../maps/mywildcave3.md) → the conversation leads here automatically — **conditions:** NOT reached stage 7 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-7) → **stage 7**; also gives 3× [Empty bottle](../items/bottle_empty.md). NPC: “You find three empty bottles.”
+    - **Needs:** not yet stage 3
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find an empty bottle.”*
 
-???+ note "Stage 8: 1 route"
 
-    1. stepping on a trigger on [mywildcave2](../maps/mywildcave2.md) → the conversation leads here automatically — **conditions:** NOT reached stage 8 of [Gison bottle (hidden flag)](../quests/gison_bottle.md#stage-8) → **stage 8**; also gives 1× [Empty bottle](../items/bottle_empty.md). NPC: “You find an empty bottle.”
+<span id="route-4"></span>
+
+??? note "Stage 4 · stepping on a trigger on mywildcave3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md)
+
+    - **Needs:** not yet stage 4
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find an empty bottle.”*
+
+
+<span id="route-5"></span>
+
+??? note "Stage 5 · stepping on a trigger on mywildcave3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md)
+
+    - **Needs:** not yet stage 5
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find an empty bottle.”*
+
+
+<span id="route-6"></span>
+
+??? note "Stage 6 · stepping on a trigger on mywildcave3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md)
+
+    - **Needs:** not yet stage 6
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find an empty bottle.”*
+
+
+<span id="route-7"></span>
+
+??? note "Stage 7 · stepping on a trigger on mywildcave3 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mywildcave 3](../maps/mywildcave3.md)
+
+    - **Needs:** not yet stage 7
+    - **Gives:** 3× [Empty bottle](../items/bottle_empty.md)
+    - *“You find three empty bottles.”*
+
+
+<span id="route-8"></span>
+
+??? note "Stage 8 · stepping on a trigger on mywildcave2 · 1 way"
+
+    **Way 1:** Stepping on a trigger on [Mywildcave 2](../maps/mywildcave2.md)
+
+    - **Needs:** not yet stage 8
+    - **Gives:** 1× [Empty bottle](../items/bottle_empty.md)
+    - *“You find an empty bottle.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -131,6 +193,7 @@ No links to other quests were found in the dialogue conditions.
     | | |
     |---|---|
     | Quest ID | `gison_bottle` |
+    | Name in game data | `Gison bottle` |
     | showInLog | 0 |
     | Stage IDs | 1, 2, 3, 4, 5, 6, 7, 8 |
     | Dialogue nodes setting stages | 1: `gison_bottle_1_1`, 2: `gison_bottle_2_1`, 3: `gison_bottle_3_1`, 4: `gison_bottle_4_1`, 5: `gison_bottle_5_1`, 6: `gison_bottle_6_1`, 7: `gison_bottle_7_1`, 8: `gison_bottle_8_1` |

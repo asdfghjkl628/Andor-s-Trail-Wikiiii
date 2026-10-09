@@ -21,18 +21,18 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Nasty cave snake. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Nasty cave snake. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`cavesnake5`](#v-cavesnake5) | Enemy | 4 wells: [ratdom_maze_567](../maps/ratdom_maze_567.md), 4 wells: [ratdom_maze_658](../maps/ratdom_maze_658.md) (+7 more) | – | 30 |
-| [`ratdom_m3b`](#v-ratdom_m3b) | Enemy | Bloskelt + Roskelt: [ratdom_maze_525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [ratdom_maze_526](../maps/ratdom_maze_526.md) (+8 more) | – | 30 |
+| [`cavesnake5`](#v-cavesnake5) | Enemy | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md) (+7 more) | – | 30 |
+| [`ratdom_m3b`](#v-ratdom_m3b) | Enemy | Bloskelt + Roskelt: [Ratdom maze 525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [Ratdom maze 526](../maps/ratdom_maze_526.md) (+8 more) | – | 30 |
 
 ## 4 wells, Ratdom maze 567 and 8 more (cavesnake5) { #v-cavesnake5 }
 
 **Entry ID:** `cavesnake5` · **Type:** Enemy
 
-**Location:** 4 wells: [ratdom_maze_567](../maps/ratdom_maze_567.md), 4 wells: [ratdom_maze_658](../maps/ratdom_maze_658.md), 4 wells: [ratdom_maze_768](../maps/ratdom_maze_768.md), Roundlings: [ratdom_maze_527](../maps/ratdom_maze_527.md), Roundlings: [ratdom_maze_538](../maps/ratdom_maze_538.md), Roundlings: [ratdom_maze_628](../maps/ratdom_maze_628.md) (+3 more)
+**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Roundlings: [Ratdom maze 527](../maps/ratdom_maze_527.md), Roundlings: [Ratdom maze 538](../maps/ratdom_maze_538.md), Roundlings: [Ratdom maze 628](../maps/ratdom_maze_628.md) (+3 more)
 
 ### Combat statistics
 
@@ -70,15 +70,15 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_527](../maps/ratdom_maze_527.md) | Roundlings | 2 | – |
-| [ratdom_maze_538](../maps/ratdom_maze_538.md) | Roundlings | 2 | – |
-| [ratdom_maze_567](../maps/ratdom_maze_567.md) | 4 wells | 2 | – |
-| [ratdom_maze_628](../maps/ratdom_maze_628.md) | Roundlings | 2 | – |
-| [ratdom_maze_638](../maps/ratdom_maze_638.md) | Roundlings | 2 | – |
-| [ratdom_maze_646](../maps/ratdom_maze_646.md) | Roundlings | 1 | – |
-| [ratdom_maze_647](../maps/ratdom_maze_647.md) | Roundlings | 2 | – |
-| [ratdom_maze_658](../maps/ratdom_maze_658.md) | 4 wells | 2 | – |
-| [ratdom_maze_768](../maps/ratdom_maze_768.md) | 4 wells | 5 | – |
+| [Ratdom maze 527](../maps/ratdom_maze_527.md) | Roundlings | 2 | – |
+| [Ratdom maze 538](../maps/ratdom_maze_538.md) | Roundlings | 2 | – |
+| [Ratdom maze 567](../maps/ratdom_maze_567.md) | 4 wells | 2 | – |
+| [Ratdom maze 628](../maps/ratdom_maze_628.md) | Roundlings | 2 | – |
+| [Ratdom maze 638](../maps/ratdom_maze_638.md) | Roundlings | 2 | – |
+| [Ratdom maze 646](../maps/ratdom_maze_646.md) | Roundlings | 1 | – |
+| [Ratdom maze 647](../maps/ratdom_maze_647.md) | Roundlings | 2 | – |
+| [Ratdom maze 658](../maps/ratdom_maze_658.md) | 4 wells | 2 | – |
+| [Ratdom maze 768](../maps/ratdom_maze_768.md) | 4 wells | 5 | – |
 
 
 ### Version history
@@ -142,7 +142,7 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 
 **Entry ID:** `ratdom_m3b` · **Type:** Enemy
 
-**Location:** Bloskelt + Roskelt: [ratdom_maze_525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [ratdom_maze_526](../maps/ratdom_maze_526.md), Bloskelt + Roskelt: [ratdom_maze_636](../maps/ratdom_maze_636.md), Entry: [ratdom_maze_635](../maps/ratdom_maze_635.md), Entry: [ratdom_maze_644](../maps/ratdom_maze_644.md), Entry: [ratdom_maze_645](../maps/ratdom_maze_645.md) (+4 more)
+**Location:** Bloskelt + Roskelt: [Ratdom maze 525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [Ratdom maze 526](../maps/ratdom_maze_526.md), Bloskelt + Roskelt: [Ratdom maze 636](../maps/ratdom_maze_636.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md), Entry: [Ratdom maze 644](../maps/ratdom_maze_644.md), Entry: [Ratdom maze 645](../maps/ratdom_maze_645.md) (+4 more)
 
 ### Combat statistics
 
@@ -180,16 +180,16 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [ratdom_maze_525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_526](../maps/ratdom_maze_526.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_537](../maps/ratdom_maze_537.md) | Roundlings | 2 | – |
-| [ratdom_maze_547](../maps/ratdom_maze_547.md) | Labyrinth | 2 | – |
-| [ratdom_maze_635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
-| [ratdom_maze_636](../maps/ratdom_maze_636.md) | Bloskelt + Roskelt | 2 | – |
-| [ratdom_maze_644](../maps/ratdom_maze_644.md) | Entry | 2 | – |
-| [ratdom_maze_645](../maps/ratdom_maze_645.md) | Entry | 2 | – |
-| [ratdom_maze_655](../maps/ratdom_maze_655.md) | Waterway | 2 | – |
-| [ratdom_maze_664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+| [Ratdom maze 525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 526](../maps/ratdom_maze_526.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 537](../maps/ratdom_maze_537.md) | Roundlings | 2 | – |
+| [Ratdom maze 547](../maps/ratdom_maze_547.md) | Labyrinth | 2 | – |
+| [Ratdom maze 635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
+| [Ratdom maze 636](../maps/ratdom_maze_636.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 644](../maps/ratdom_maze_644.md) | Entry | 2 | – |
+| [Ratdom maze 645](../maps/ratdom_maze_645.md) | Entry | 2 | – |
+| [Ratdom maze 655](../maps/ratdom_maze_655.md) | Waterway | 2 | – |
+| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
 
 
 ### Version history

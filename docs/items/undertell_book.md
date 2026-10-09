@@ -87,7 +87,7 @@ If knowledge is sought, tread carefully. If wealth is desired, expect to pay for
 
 ### Quest & dialogue rewards
 
-- From stepping on a trigger on [undertell_exit](../maps/undertell_exit.md) during [Undertell: What was not written](../quests/undertell_book.md#stage-10) (1×)
+- From stepping on a trigger on [Undertell exit](../maps/undertell_exit.md) during [Undertell: What was not written](../quests/undertell_book.md#stage-10) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -100,7 +100,7 @@ Where the game checks for this item in dialogue:
 |---|---|---|---|
 | [Arcir](../monsters/arcir.md) | – | must be carried (1×) | “I found a book about Undertell. I thought you might know something about it.” |
 | [Unnmir](../monsters/unnmir.md) | – | must be carried (1×) | “Inside Undertell, I stumbled across the remains of an adventurer. Among his poss” |
-| [Ysrine](../monsters/ysrine.md) ([undertell_1_1](../maps/undertell_1_1.md)) | – | must be carried (1×) | “I found a book about Undertell. Do you know it?” |
+| [Ysrine](../monsters/ysrine.md) ([Undertell 1 1](../maps/undertell_1_1.md)) | – | must be carried (1×) | “I found a book about Undertell. Do you know it?” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

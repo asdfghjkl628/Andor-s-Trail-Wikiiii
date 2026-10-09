@@ -42,7 +42,7 @@ description: "Eggs is a ordinary food in Andor's Trail. How to get it: shops, co
 
 ### Found in containers
 
-- [guynmart_main_2](../maps/guynmart_main_2.md#container-0) (container 1, 20%), Guynmart Castle
+- [Guynmart main 2](../maps/guynmart_main_2.md#container-0) (container 1, 20%), Guynmart Castle
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -53,9 +53,9 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (3×) | “I could give you 3 eggs.” |
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (2×) | “Here, take them all.” |
-| [Philippa](../monsters/village_philippa.md) ([wexlow_village_se_house](../maps/wexlow_village_se_house.md)) | – | must be carried (2×) | “(automatic)” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (3×) | “I could give you 3 eggs.” |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | [A Feygard delicacy](../quests/feygard_delicacy.md#stage-7) | handed over (2×) | “Here, take them all.” |
+| [Philippa](../monsters/village_philippa.md) ([Wexlow village south-east house](../maps/wexlow_village_se_house.md)) | – | must be carried (2×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

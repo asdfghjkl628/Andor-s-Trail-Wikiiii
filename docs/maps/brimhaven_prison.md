@@ -1,5 +1,5 @@
 ---
-description: "Brimhaven prison is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Guard, Ogea. Exits to Brimhaven2."
+description: "Brimhaven prison is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Guard, Ogea. Exits to Brimhaven 2."
 ---
 
 # Brimhaven prison
@@ -18,19 +18,19 @@ description: "Brimhaven prison is an indoor location in Andor's Trail, in Brimha
 
 </div>
 
-**Brimhaven prison** is an indoor map, in Brimhaven (settlement). It has 2 NPCs, and no enemies. Exits lead to Brimhaven2.
+**Brimhaven prison** is an indoor map, in Brimhaven (settlement). It has 2 NPCs, and no enemies. Exits lead to Brimhaven 2.
 
 ## Map
 
 <div class="map-legend" markdown="0"><label class="lg"><input type="checkbox" data-t="spawn" checked><span class="sw sw-spawn"></span><b>Red</b>&nbsp;Monsters / NPCs</label><label class="lg"><input type="checkbox" data-t="mapchange" checked><span class="sw sw-mapchange"></span><b>Blue</b>&nbsp;Exit to another map</label><label class="lg"><input type="checkbox" data-t="container" checked><span class="sw sw-container"></span><b>Yellow</b>&nbsp;Container (click to see contents)</label><label class="lg"><input type="checkbox" data-t="sign" checked><span class="sw sw-sign"></span><b>Purple</b>&nbsp;Sign</label><label class="lg"><input type="checkbox" data-t="rest" checked><span class="sw sw-rest"></span><b>Green</b>&nbsp;Resting place</label><label class="lg"><input type="checkbox" data-t="key" checked><span class="sw sw-key"></span><b>Orange dashed</b>&nbsp;Blocked until a quest step / item</label><label class="lg"><input type="checkbox" data-t="script"><span class="sw sw-script"></span><b>Grey dotted</b>&nbsp;Scripted event</label><label class="lg"><input type="checkbox" data-t="replace"><span class="sw sw-replace"></span><b>White dotted</b>&nbsp;Changes during a quest</label><label class="lg"><input type="checkbox" data-t="pin" checked><span class="sw sw-pin"></span><b>Numbers</b>&nbsp;Numbered key points (see the key below the map)</label></div>
 
-<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_prison.webp" alt="Map of Brimhaven prison" width="224" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven2/#place-prison" title="Exit to Brimhaven2" style="left:42.857%;top:87.500%;width:14.286%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Guard" style="left:14.286%;top:75.000%;width:71.429%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Ogea (only appears later, during a quest)" style="left:42.857%;top:37.500%;width:28.571%;height:25.000%"></span><a class="mob" href="../../monsters/guard/#v-brv_prison_guard" title="Guard" style="left:28.571%;top:75.000%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_41.png" alt="Guard"></a><a class="mob mob-later" href="../../monsters/brv_villager3/" title="Ogea (appears later in a quest)" style="left:42.857%;top:37.500%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_tometik2_63.png" alt="Ogea"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Brimhaven2](brimhaven2.md)">1</a><a id="pin-npc-brv_prison_guard" class="pin pin-npc" href="#key-2" style="left:35.714%;top:81.250%" title="[Guard](../../monsters/guard.md#v-brv_prison_guard): NPC">2</a><a id="pin-npc-brv_villager3" class="pin pin-npc" href="#key-3" style="left:50.000%;top:43.750%" title="[Ogea](../../monsters/brv_villager3.md): 1 quest">3</a></div>
+<div class="map-wrap hide-script hide-replace" markdown="0"><img src="../../assets/maps/brimhaven_prison.webp" alt="Map of Brimhaven prison" width="224" height="256" loading="lazy"><a id="place-entrance" class="mo mo-mapchange" href="../brimhaven2/#place-prison" title="Exit to Brimhaven 2" style="left:42.857%;top:87.500%;width:14.286%;height:12.500%"></a><span class="mo mo-spawn" title="Spawns: Guard" style="left:14.286%;top:75.000%;width:71.429%;height:12.500%"></span><span class="mo mo-spawn" title="Spawns: Ogea (only appears later, during a quest)" style="left:42.857%;top:37.500%;width:28.571%;height:25.000%"></span><a class="mob" href="../../monsters/guard/#v-brv_prison_guard" title="Guard" style="left:28.571%;top:75.000%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_ld1_41.png" alt="Guard"></a><a class="mob mob-later" href="../../monsters/brv_villager3/" title="Ogea (appears later in a quest)" style="left:42.857%;top:37.500%;width:14.286%;height:12.500%"><img src="../../assets/icons/monsters/monsters_tometik2_63.png" alt="Ogea"></a><a class="pin pin-exit" href="#key-1" style="left:50.000%;top:93.750%" title="Exit (south): to [Brimhaven 2](brimhaven2.md)">1</a><a id="pin-npc-brv_prison_guard" class="pin pin-npc" href="#key-2" style="left:35.714%;top:81.250%" title="[Guard](../../monsters/guard.md#v-brv_prison_guard): NPC">2</a><a id="pin-npc-brv_villager3" class="pin pin-npc" href="#key-3" style="left:50.000%;top:43.750%" title="[Ogea](../../monsters/brv_villager3.md): 1 quest">3</a></div>
 
 ??? abstract "Key to the numbers on the map"
 
     | # | What | Details |
     |---|---|---|
-    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven2](brimhaven2.md) |
+    | <span id="key-1"></span>1 | Exit (south) | to [Brimhaven 2](brimhaven2.md) |
     | <span id="key-2"></span>2 | [Guard](../monsters/guard.md#v-brv_prison_guard) | NPC |
     | <span id="key-3"></span>3 | [Ogea](../monsters/brv_villager3.md) | 1 quest |
 
@@ -41,7 +41,7 @@ description: "Brimhaven prison is an indoor location in Andor's Trail, in Brimha
 
 | Direction | Leads to | Region there | Map # |
 |---|---|---|---|
-| South | [Brimhaven2](brimhaven2.md) | Brimhaven | 1 |
+| South | [Brimhaven 2](brimhaven2.md) | Brimhaven | 1 |
 
 ## NPCs
 

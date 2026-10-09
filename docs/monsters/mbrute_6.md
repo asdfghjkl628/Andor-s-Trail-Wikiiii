@@ -1,10 +1,10 @@
 ---
-description: "Fast mountain brute is an enemy in Andor's Trail (giant) with 82 HP, worth 188 XP, found in mountainlake10, mountainlake6, mountainlake7. Drops: Bone, Mundane ring."
+description: "Fast mountain brute is an enemy in Andor's Trail (giant) with 82 HP, worth 188 XP, found in Mountainlake 10, Mountainlake 6, Mountainlake 7. Drops: Bone, Mundane ring."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_34.png){ .sprite } Fast mountain brute
 
-**Found in:** [mountainlake10](../maps/mountainlake10.md), [mountainlake6](../maps/mountainlake6.md), [mountainlake7](../maps/mountainlake7.md), [mountainlake8](../maps/mountainlake8.md) (+1 more)
+**Found in:** [Mountainlake 10](../maps/mountainlake10.md), [Mountainlake 6](../maps/mountainlake6.md), [Mountainlake 7](../maps/mountainlake7.md), [Mountainlake 8](../maps/mountainlake8.md) (+1 more)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Fast mountain brute is an enemy in Andor's Trail (giant) with 82 H
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | mountainlake10, mountainlake6, mountainlake7 |
+| **Found in** | Mountainlake 10, Mountainlake 6, Mountainlake 7 |
 | **Class** | Giant |
 | **HP** | 82 |
 | **XP when defeated** | 188 |
@@ -55,11 +55,11 @@ description: "Fast mountain brute is an enemy in Andor's Trail (giant) with 82 H
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake10](../maps/mountainlake10.md) | – | 1 | – |
-| [mountainlake6](../maps/mountainlake6.md) | – | 3 | – |
-| [mountainlake7](../maps/mountainlake7.md) | – | 4 | – |
-| [mountainlake8](../maps/mountainlake8.md) | – | 8 | – |
-| [mountainlake9](../maps/mountainlake9.md) | – | 7 | – |
+| [Mountainlake 10](../maps/mountainlake10.md) | – | 1 | – |
+| [Mountainlake 6](../maps/mountainlake6.md) | – | 3 | – |
+| [Mountainlake 7](../maps/mountainlake7.md) | – | 4 | – |
+| [Mountainlake 8](../maps/mountainlake8.md) | – | 8 | – |
+| [Mountainlake 9](../maps/mountainlake9.md) | – | 7 | – |
 
 
 ## Version history

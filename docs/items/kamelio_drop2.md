@@ -38,7 +38,7 @@ description: "Fire opal necklace is a ordinary necklace in Andor's Trail (Critic
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Undead Kamelio](../monsters/kamelio2.md) | 100% | 1 | elm5f_2 |
+| [Undead Kamelio](../monsters/kamelio2.md) | 100% | 1 | Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -4,7 +4,7 @@ description: "Jannus is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_77.png){ .sprite } Jannus
 
-**Where to find Jannus:** Brightport: [brightport_bakery](../maps/brightport_bakery.md#pin-npc-brightportbakery1)
+**Where to find Jannus:** Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-brightportbakery1)
 
 <div class="infobox" markdown>
 
@@ -21,7 +21,7 @@ description: "Jannus is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Jannus. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Jannus. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_armor1.json" data-npc="Jannus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -29,11 +29,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (3 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-brightport_armor1"></span>**`brightport_armor1`** [Jannus](../monsters/brightportbakery1.md): “Hi, I'm Janus the armorsmith, if you want some brand new equipment you would do right to visit my house.”
 
-    - “I already did, and spoke to Freya.” *(if reached stage 33 of [brightport_nondisplay (hidden flag)](../quests/brightport_nondisplay.md#stage-33))* → [brightport_armor2](#d-brightport_armor2)
+    - “I already did, and spoke to Freya.” *(if reached stage 33 of [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md#stage-33))* → [brightport_armor2](#d-brightport_armor2)
     - “How am I supposed to visit the shop and buy something when your lazy behind is just sitting here?” → [brightport_armor3](#d-brightport_armor3)
     - “Sorry to disturb your meal. [Leave]” → *conversation ends*
 

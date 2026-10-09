@@ -1,5 +1,5 @@
 ---
-description: "Thief is an NPC who can also be fought in Andor's Trail, found in mywildcave4."
+description: "Thief is an NPC who can also be fought in Andor's Trail, found in Mywildcave 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Thief
@@ -11,7 +11,7 @@ description: "Thief is an NPC who can also be fought in Andor's Trail, found in 
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | mywildcave4 |
+| **Found in** | Mywildcave 4 |
 | **Class** | Humanoid |
 | **HP** | 60 |
 | **XP when defeated** | 114 |
@@ -21,19 +21,19 @@ description: "Thief is an NPC who can also be fought in Andor's Trail, found in 
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Thief. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Thief. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`gison_thief1`](#v-gison_thief1) | NPC/Enemy | [mywildcave4](../maps/mywildcave4.md#pin-npc-gison_thief1) | – | 60 |
-| [`gison_thief2`](#v-gison_thief2) | Enemy | [mywildcave4](../maps/mywildcave4.md) | – | 60 |
+| [`gison_thief1`](#v-gison_thief1) | NPC/Enemy | [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thief1) | – | 60 |
+| [`gison_thief2`](#v-gison_thief2) | Enemy | [Mywildcave 4](../maps/mywildcave4.md) | – | 60 |
 | [`gison_thief3`](#v-gison_thief3) | Enemy | Not on a map | – | 60 |
 
-## Mywildcave4 (gison_thief1) { #v-gison_thief1 }
+## Mywildcave 4 (gison_thief1) { #v-gison_thief1 }
 
 **Entry ID:** `gison_thief1` · **Type:** NPC/Enemy
 
-**Location:** [mywildcave4](../maps/mywildcave4.md#pin-npc-gison_thief1)
+**Location:** [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thief1)
 
 !!! warning "Can be fought"
     This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
@@ -72,7 +72,7 @@ description: "Thief is an NPC who can also be fought in Andor's Trail, found in 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mywildcave4](../maps/mywildcave4.md) | – | 1 | – |
+| [Mywildcave 4](../maps/mywildcave4.md) | – | 1 | – |
 
 ### Quests
 
@@ -80,7 +80,7 @@ description: "Thief is an NPC who can also be fought in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thief. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thief. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gison_thief1.json" data-npc="Thief" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -88,7 +88,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gison_thief1-gison_thief1"></span>**`gison_thief1`** *(silent check: the first matching branch below is taken)*
 
@@ -165,11 +165,11 @@ Set the quest stages, items and other conditions that apply to your game, then s
     ```
 
 
-## Mywildcave4 (gison_thief2) { #v-gison_thief2 }
+## Mywildcave 4 (gison_thief2) { #v-gison_thief2 }
 
 **Entry ID:** `gison_thief2` · **Type:** Enemy
 
-**Location:** [mywildcave4](../maps/mywildcave4.md)
+**Location:** [Mywildcave 4](../maps/mywildcave4.md)
 
 ### Combat statistics
 
@@ -205,7 +205,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mywildcave4](../maps/mywildcave4.md) | – | 5 | – |
+| [Mywildcave 4](../maps/mywildcave4.md) | – | 5 | – |
 
 
 ### Version history

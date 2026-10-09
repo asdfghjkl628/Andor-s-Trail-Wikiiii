@@ -1,10 +1,10 @@
 ---
-description: "Gauward is a non-player character (NPC) in Andor's Trail, found in waterwayhouse."
+description: "Gauward is a non-player character (NPC) in Andor's Trail, found in Waterwayhouse."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Gauward
 
-**Where to find Gauward:** [waterwayhouse](../maps/waterwayhouse.md#pin-npc-gauward)
+**Where to find Gauward:** [Waterwayhouse](../maps/waterwayhouse.md#pin-npc-gauward)
 
 <div class="infobox" markdown>
 
@@ -13,7 +13,7 @@ description: "Gauward is a non-player character (NPC) in Andor's Trail, found in
 | | |
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Found in** | waterwayhouse |
+| **Found in** | Waterwayhouse |
 | **Entry ID** | `gauward` |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -21,11 +21,11 @@ description: "Gauward is a non-player character (NPC) in Andor's Trail, found in
 
 ## Quests
 
-- [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md): stage 20
+- [General story flags (hidden flag)](../quests/nondisplay.md): stage 20
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Gauward. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Gauward. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gauward.json" data-npc="Gauward" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -33,12 +33,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (13 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-gauward"></span>**`gauward`** Gauward: “What... Oh, a visitor!”
 
     - “What is this place?” → [gauward_1](#d-gauward_1)
-    - “I have some izthiel claws to sell you.” *(if reached stage 20 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-20))* → [gauward_sell_1](#d-gauward_sell_1)
+    - “I have some izthiel claws to sell you.” *(if reached stage 20 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-20))* → [gauward_sell_1](#d-gauward_sell_1)
 
     <span id="d-gauward_1"></span>**`gauward_1`** Gauward: “This place used to be a safe house for travelers between Loneford and Brimhaven, before they had finished the path between them.”
 
@@ -68,7 +68,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-gauward_sold_20"></span>**`gauward_sold_20`** Gauward: “Oh wow, you managed to get twenty of those claws? That's excellent, thank you! Here's some gold and some extra health potions for your troubles.” — **effects:** gives [Gold coins](../items/gold.md), [Regular potion of health](../items/health.md)
 
 
-    <span id="d-gauward_7"></span>**`gauward_7`** Gauward: “Good. Please do. I like knowing that their numbers are reduced at least.” — **effects:** sets stage 20 of [Placeholder for hidden quest stages (not displayed) (hidden flag)](../quests/nondisplay.md#stage-20)
+    <span id="d-gauward_7"></span>**`gauward_7`** Gauward: “Good. Please do. I like knowing that their numbers are reduced at least.” — **effects:** sets stage 20 of [General story flags (hidden flag)](../quests/nondisplay.md#stage-20)
 
 
     <span id="d-gauward_3"></span>**`gauward_3`** Gauward: “Izthiel, they call them.”

@@ -28,9 +28,9 @@ description: "Contaminated poison gland is a ordinary animal part in Andor's Tra
 
 | Monster | Chance | Qty | Found in |
 |---|---|---|---|
-| [Shadowfang](../monsters/shadowfang1.md) | 25% | 1-2 | blackwater_mountain76, elm_2f_1, elm_2f_3 |
-| [Yczorah marauder](../monsters/elm_yczorah1.md) | 2% | 1 | elm5f_1, elm5f_2 |
-| [Yczorah](../monsters/elm_yzczorah2.md) | 2% | 1 | elm5f_1, elm5f_2 |
+| [Shadowfang](../monsters/shadowfang1.md) | 25% | 1-2 | Blackwater mountain 76, Elm 2f 1, Elm 2f 3 |
+| [Yczorah marauder](../monsters/elm_yczorah1.md) | 2% | 1 | Elm 5f 1, Elm 5f 2 |
+| [Yczorah](../monsters/elm_yzczorah2.md) | 2% | 1 | Elm 5f 1, Elm 5f 2 |
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

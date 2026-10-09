@@ -28,9 +28,9 @@ description: "Confusion is a harmful mental condition in Andor's Trail: max AP �
 | Max AP | −1 |
 | Attack chance | −10 |
 
-All values are multiplied by the condition's magnitude. Round effects apply once per round: each turn in combat, and every 6 seconds outside combat.
+Values are per magnitude level. A round is one combat turn, or 6 seconds outside combat.
 
-**Stacking:** No. A new application replaces the current one only if it has a higher magnitude, or the same magnitude and a longer duration.
+**Stacking:** No (only a stronger or longer application replaces it).
 
 
 <p class="verified">Verified against v0.8.18 condition data and game code (`ActorStatsController.java`).</p>
@@ -48,20 +48,20 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 | Enemy | When | Magnitude | Duration | Chance | Found in |
 |---|---|---|---|---|---|
-| [Ancient kobold](../monsters/kobold3.md) | When it hits you | 1 | 3 rounds | 5% | guynmart_wood_18, guynmart_wood_18b |
-| [Ancient kobold](../monsters/kobold3.md) | When it hits you | 1 | 6 rounds | 1% | guynmart_wood_18, guynmart_wood_18b |
-| [Kobold](../monsters/kobold2.md) | When it hits you | 1 | 3 rounds | 5% | guynmart_wood_18, guynmart_wood_18b, guynmart_wood_18c |
-| [Kobold](../monsters/kobold2.md) | When it hits you | 1 | 6 rounds | 1% | guynmart_wood_18, guynmart_wood_18b, guynmart_wood_18c |
-| [Madame Mim](../monsters/swamp_witch.md) | When it hits you | 1 | 2 rounds | 50% | swamp_hut |
-| [Quick kobold](../monsters/kobold1.md) | When it hits you | 1 | 3 rounds | 5% | guynmart_wood_18, guynmart_wood_18b, guynmart_wood_18c |
-| [Quick kobold](../monsters/kobold1.md) | When it hits you | 1 | 6 rounds | 1% | guynmart_wood_18, guynmart_wood_18b, guynmart_wood_18c |
+| [Ancient kobold](../monsters/kobold3.md) | When it hits you | 1 | 3 rounds | 5% | Guynmart wood 18, Guynmart wood 18b |
+| [Ancient kobold](../monsters/kobold3.md) | When it hits you | 1 | 6 rounds | 1% | Guynmart wood 18, Guynmart wood 18b |
+| [Kobold](../monsters/kobold2.md) | When it hits you | 1 | 3 rounds | 5% | Guynmart wood 18, Guynmart wood 18b, Guynmart wood 18c |
+| [Kobold](../monsters/kobold2.md) | When it hits you | 1 | 6 rounds | 1% | Guynmart wood 18, Guynmart wood 18b, Guynmart wood 18c |
+| [Madame Mim](../monsters/swamp_witch.md) | When it hits you | 1 | 2 rounds | 50% | Swamp hut |
+| [Quick kobold](../monsters/kobold1.md) | When it hits you | 1 | 3 rounds | 5% | Guynmart wood 18, Guynmart wood 18b, Guynmart wood 18c |
+| [Quick kobold](../monsters/kobold1.md) | When it hits you | 1 | 6 rounds | 1% | Guynmart wood 18, Guynmart wood 18b, Guynmart wood 18c |
 
 **Dialogue and scripted events**
 
 | From | Quest | Duration |
 |---|---|---|
-| [Ehrenfest](../monsters/ehrenfest.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | [Hidden: events in bwm (hidden flag)](../quests/bwm72_beginning.md#stage-21) | 75 rounds |
-| [Ehrenfest](../monsters/ehrenfest.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [General Ortholion](../monsters/ortholion.md) ([blackwater_mountain29](../maps/blackwater_mountain29.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-46) | 15 rounds |
+| [Ehrenfest](../monsters/ehrenfest.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) | [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-21) | 75 rounds |
+| [Ehrenfest](../monsters/ehrenfest.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [General Ortholion](../monsters/ortholion.md) ([Blackwater mountain 29](../maps/blackwater_mountain29.md)) | [Climbing up is forbidden](../quests/Omi2_bwm1.md#stage-46) | 15 rounds |
 
 ## Applied to enemies
 
@@ -76,12 +76,12 @@ All values are multiplied by the condition's magnitude. Round effects apply once
 
 ## Removal and protection
 
-- **Resistance:** each level of [Strong Mind](../skills/resistanceMental.md) reduces the chance of receiving this condition by 10% of its value (for example, a 30% chance becomes 27% at level 1). Effects with a 100% chance cannot be resisted.
-- **[Dark blessing of the Shadow](../skills/shadowBless.md)** reduces the chance of receiving any condition by 5% of its value per level.
-- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per skill level to reduce the magnitude of one random timed harmful condition by 1.
+- **Resistance:** [Strong Mind](../skills/resistanceMental.md), −10% of the chance per level (30% → 27% at level 1). 100% chances can't be resisted.
+- **[Dark blessing of the Shadow](../skills/shadowBless.md)** −5% of the chance for any condition.
+- **[Rejuvenation](../skills/rejuvenation.md):** each round, a 20% chance per round to weaken one timed harmful condition by 1.
 - **Immunity** from [Boletus spelunca](../items/elm_mushroom1.md) (when used; 10 rounds).
 - **Immunity** from [Circlet of clarity](../items/circlet_clarity.md) (when you defeat an enemy; 4 rounds).
-- **Duration and rest:** timed applications end when their duration runs out, and resting removes them earlier; permanent applications (from equipment or story events) are not removed by resting.
+- **Duration and rest:** timed ones wear off, or rest them away; permanent ones (equipment, story events) stay through rest.
 
 
 ## Community notes

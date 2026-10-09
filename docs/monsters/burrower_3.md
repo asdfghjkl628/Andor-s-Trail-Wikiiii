@@ -21,18 +21,18 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Strong larval burrower. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Strong larval burrower. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`burrower_3`](#v-burrower_3) | Enemy | Brimhaven: [waterway6](../maps/waterway6.md), [waterway14](../maps/waterway14.md) (+2 more) | – | 44 |
-| [`larval_boss`](#v-larval_boss) | Enemy | Crossroads Guardhouse: [woodcave1](../maps/woodcave1.md) | – | 35 |
+| [`burrower_3`](#v-burrower_3) | Enemy | Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 14](../maps/waterway14.md) (+2 more) | – | 44 |
+| [`larval_boss`](#v-larval_boss) | Enemy | Crossroads Guardhouse: [Woodcave 1](../maps/woodcave1.md) | – | 35 |
 
-## Brimhaven, Waterway6 and 3 more (burrower_3) { #v-burrower_3 }
+## Brimhaven, Waterway 6 and 3 more (burrower_3) { #v-burrower_3 }
 
 **Entry ID:** `burrower_3` · **Type:** Enemy
 
-**Location:** Brimhaven: [waterway6](../maps/waterway6.md), [waterway14](../maps/waterway14.md), [waterway15](../maps/waterway15.md), [waterwaycave](../maps/waterwaycave.md)
+**Location:** Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 14](../maps/waterway14.md), [Waterway 15](../maps/waterway15.md), [Waterwaycave](../maps/waterwaycave.md)
 
 ### Combat statistics
 
@@ -68,10 +68,10 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [waterway14](../maps/waterway14.md) | – | 3 | – |
-| [waterway15](../maps/waterway15.md) | – | 4 | – |
-| [waterway6](../maps/waterway6.md) | Brimhaven | 2 | – |
-| [waterwaycave](../maps/waterwaycave.md) | – | 4 | – |
+| [Waterway 14](../maps/waterway14.md) | – | 3 | – |
+| [Waterway 15](../maps/waterway15.md) | – | 4 | – |
+| [Waterway 6](../maps/waterway6.md) | Brimhaven | 2 | – |
+| [Waterwaycave](../maps/waterwaycave.md) | – | 4 | – |
 
 
 ### Version history
@@ -121,11 +121,11 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
     ```
 
 
-## Crossroads Guardhouse, Woodcave1 (larval_boss) { #v-larval_boss }
+## Crossroads Guardhouse, Woodcave 1 (larval_boss) { #v-larval_boss }
 
 **Entry ID:** `larval_boss` · **Type:** Enemy
 
-**Location:** Crossroads Guardhouse: [woodcave1](../maps/woodcave1.md)
+**Location:** Crossroads Guardhouse: [Woodcave 1](../maps/woodcave1.md)
 
 ### Combat statistics
 
@@ -162,7 +162,7 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [woodcave1](../maps/woodcave1.md) | Crossroads Guardhouse | 1 | – |
+| [Woodcave 1](../maps/woodcave1.md) | Crossroads Guardhouse | 1 | – |
 
 
 ### Version history

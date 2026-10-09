@@ -1,5 +1,5 @@
 ---
-description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, worth 614 XP, found in undertell_00, undertell_10, undertell_11. Drops: Gold coins, Tattered coin purse, Lich dust, Tonic of blood."
+description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, worth 614 XP, found in Undertell 00, Undertell 10, Undertell 11. Drops: Gold coins, Tattered coin purse, Lich dust, Tonic of blood."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik8_48.png){ .sprite } Drybone lich
@@ -11,7 +11,7 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 | | |
 |---|---|
 | **Type** | Enemy (hostile on sight) |
-| **Found in** | undertell_00, undertell_10, undertell_11 |
+| **Found in** | Undertell 00, Undertell 10, Undertell 11 |
 | **Class** | Undead |
 | **HP** | 212 |
 | **XP when defeated** | 614 |
@@ -21,18 +21,18 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 </div>
 
 !!! info "2 entries in the game data"
-    The game's data files define 2 separate characters named Drybone lich. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location. This page combines them; each entry is described in its own section below.
+    The game data defines 2 separate characters named Drybone lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`drybone_lich`](#v-drybone_lich) | Enemy | [undertell_00](../maps/undertell_00.md), [undertell_10](../maps/undertell_10.md) (+8 more) | – | 212 |
+| [`drybone_lich`](#v-drybone_lich) | Enemy | [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md) (+8 more) | – | 212 |
 | [`drybone_lich_help_liches`](#v-drybone_lich_help_liches) | Enemy | Not on a map | – | 212 |
 
 ## Undertell 00 and 9 more (drybone_lich) { #v-drybone_lich }
 
 **Entry ID:** `drybone_lich` · **Type:** Enemy
 
-**Location:** [undertell_00](../maps/undertell_00.md), [undertell_10](../maps/undertell_10.md), [undertell_11](../maps/undertell_11.md), [undertell_12](../maps/undertell_12.md), [undertell_13](../maps/undertell_13.md), [undertell_21](../maps/undertell_21.md) (+4 more)
+**Location:** [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md), [Undertell 13](../maps/undertell_13.md), [Undertell 21](../maps/undertell_21.md) (+4 more)
 
 ### Combat statistics
 
@@ -71,16 +71,16 @@ description: "Drybone lich is an enemy in Andor's Trail (undead) with 212 HP, wo
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [undertell_00](../maps/undertell_00.md) | – | 3 | – |
-| [undertell_10](../maps/undertell_10.md) | – | 4 | – |
-| [undertell_11](../maps/undertell_11.md) | – | 5 | – |
-| [undertell_12](../maps/undertell_12.md) | – | 5 | – |
-| [undertell_13](../maps/undertell_13.md) | – | 2 | – |
-| [undertell_21](../maps/undertell_21.md) | – | 2 | – |
-| [undertell_22](../maps/undertell_22.md) | – | 1 | – |
-| [undertell_3_lava_00](../maps/undertell_3_lava_00.md) | – | 1 | – |
-| [undertell_3_lava_10](../maps/undertell_3_lava_10.md) | – | 1 | – |
-| [undertell_3_lava_11](../maps/undertell_3_lava_11.md) | – | 1 | – |
+| [Undertell 00](../maps/undertell_00.md) | – | 3 | – |
+| [Undertell 10](../maps/undertell_10.md) | – | 4 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 5 | – |
+| [Undertell 12](../maps/undertell_12.md) | – | 5 | – |
+| [Undertell 13](../maps/undertell_13.md) | – | 2 | – |
+| [Undertell 21](../maps/undertell_21.md) | – | 2 | – |
+| [Undertell 22](../maps/undertell_22.md) | – | 1 | – |
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 1 | – |
+| [Undertell 3 lava 10](../maps/undertell_3_lava_10.md) | – | 1 | – |
+| [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) | – | 1 | – |
 
 
 ### Version history

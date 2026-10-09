@@ -38,11 +38,11 @@ No requirements: any skill point can go here.
 
 1. Choose “Sounds great - I choose this one. [Touch the item]” — **requires:** hand over 10× [Piece of bright shining crystal](../items/mg2_exploded_star.md) → +1 level. NPC: “A good choice. Do you feel it already?”
 
-**Quest:** [galmore_nondisplayed](../quests/galmore_nondisplayed.md#stage-51) (reaching stage 51)
+**Quest:** [Galmore story flags](../quests/galmore_nondisplayed.md#stage-51) (reaching stage 51)
 
 **Source:** a scripted event, not a regular conversation
 
-1. Choose “(continue)” — **requires:** not yet reached stage 51 of [galmore_nondisplayed](../quests/galmore_nondisplayed.md) → +1 level. NPC: “You brush aside the branches and find an old chest tucked behind the tree. Inside lies a weathered tome, bound in…”
+1. Choose “(continue)” — **requires:** not yet reached stage 51 of [Galmore story flags](../quests/galmore_nondisplayed.md) → +1 level. NPC: “You brush aside the branches and find an old chest tucked behind the tree. Inside lies a weathered tome, bound in…”
 
 
 ## Community notes

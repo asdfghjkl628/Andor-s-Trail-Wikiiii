@@ -4,7 +4,7 @@ description: "Rabid mountain wolf is an enemy in Andor's Trail (animal) with 67 
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Rabid mountain wolf
 
-**Found in:** Lake Laeroth: [mountainlake10a](../maps/mountainlake10a.md), Remgard: [mountainlake12](../maps/mountainlake12.md), [mountainlake10](../maps/mountainlake10.md), [mountainlake11](../maps/mountainlake11.md) (+3 more)
+**Found in:** Lake Laeroth: [Mountainlake 10a](../maps/mountainlake10a.md), Remgard: [Mountainlake 12](../maps/mountainlake12.md), [Mountainlake 10](../maps/mountainlake10.md), [Mountainlake 11](../maps/mountainlake11.md) (+3 more)
 
 <div class="infobox" markdown>
 
@@ -57,13 +57,13 @@ description: "Rabid mountain wolf is an enemy in Andor's Trail (animal) with 67 
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [mountainlake10](../maps/mountainlake10.md) | – | 4 | – |
-| [mountainlake10a](../maps/mountainlake10a.md) | Lake Laeroth | 1 | – |
-| [mountainlake11](../maps/mountainlake11.md) | – | 4 | – |
-| [mountainlake12](../maps/mountainlake12.md) | Remgard | 2 | – |
-| [waytolake10](../maps/waytolake10.md) | – | 8 | – |
-| [waytolake12](../maps/waytolake12.md) | – | 3 | – |
-| [waytolake9](../maps/waytolake9.md) | – | 5 | – |
+| [Mountainlake 10](../maps/mountainlake10.md) | – | 4 | – |
+| [Mountainlake 10a](../maps/mountainlake10a.md) | Lake Laeroth | 1 | – |
+| [Mountainlake 11](../maps/mountainlake11.md) | – | 4 | – |
+| [Mountainlake 12](../maps/mountainlake12.md) | Remgard | 2 | – |
+| [Waytolake 10](../maps/waytolake10.md) | – | 8 | – |
+| [Waytolake 12](../maps/waytolake12.md) | – | 3 | – |
+| [Waytolake 9](../maps/waytolake9.md) | – | 5 | – |
 
 
 ## Version history

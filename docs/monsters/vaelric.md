@@ -1,10 +1,10 @@
 ---
-description: "Vaelric is a non-player character (NPC) in Andor's Trail, found in galmore_17_house. Shopkeeper; starts The swamp healer."
+description: "Vaelric is a non-player character (NPC) in Andor's Trail, found in Galmore 17 house. Shopkeeper; starts The swamp healer."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_12.png){ .sprite } Vaelric
 
-**Where to find Vaelric:** [galmore_17_house](../maps/galmore_17_house.md#pin-npc-vaelric)
+**Where to find Vaelric:** [Galmore 17 house](../maps/galmore_17_house.md#pin-npc-vaelric)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Vaelric is a non-player character (NPC) in Andor's Trail, found in
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper; starts [The swamp healer](../quests/swamp_healer.md) |
-| **Found in** | galmore_17_house |
+| **Found in** | Galmore 17 house |
 | **Entry ID** | `vaelric` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
@@ -33,11 +33,11 @@ description: "Vaelric is a non-player character (NPC) in Andor's Trail, found in
 - [Restless in the grave](../quests/mg_restless_grave.md): stages 20, 63, 70, 80, 95, 97, 115, 120
 - [Search for Andor](../quests/andor.md): stages 125, 999
 - [The swamp healer](../quests/swamp_healer.md): stages 10, 30
-- [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md): stage 59
+- [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md): stage 59
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Vaelric. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Vaelric. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/vaelric_selector.json" data-npc="Vaelric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -45,7 +45,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (68 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-vaelric_selector"></span>**`vaelric_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -53,7 +53,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 2 *(if NOT reached stage 10 of [The swamp healer](../quests/swamp_healer.md#stage-10))* → [vaelric_alone_10](#d-vaelric_alone_10)
     - branch 3 *(if latest stage of [The swamp healer](../quests/swamp_healer.md#stage-10) is 10)* → [vaelric_need_to_kill_creature_10](#d-vaelric_need_to_kill_creature_10)
     - branch 4 *(if latest stage of [The swamp healer](../quests/swamp_healer.md#stage-20) is 20)* → [vaelric_creature_killed_5](#d-vaelric_creature_killed_5)
-    - branch 5 *(if reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30); NOT reached stage 59 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59))* → [vaelric_creature_talk_leech_10](#d-vaelric_creature_talk_leech_10)
+    - branch 5 *(if reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30); NOT reached stage 59 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-59))* → [vaelric_creature_talk_leech_10](#d-vaelric_creature_talk_leech_10)
     - branch 6 *(if reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30); carry 1× [Corrupted swamp core](../items/corrupted_swamp_core.md))* → [vaelric_creature_killed_70](#d-vaelric_creature_killed_70)
     - branch 7 *(if reached stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30))* → [vaelric_met](#d-vaelric_met)
 
@@ -84,7 +84,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-vaelric_met"></span>**`vaelric_met`** Vaelric: “So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?”
 
     - “You stated that if I helped you kill that venomous creature that you would tell more about Andor.” → [vaelric_met_10](#d-vaelric_met_10)
-    - “That graveyard, the one directly south of here, who were those people?” *(if reached stage 5 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-5); NOT reached stage 60 of [Restless in the grave](../quests/mg_restless_grave.md#stage-60))* → [vaelric_graveyard_10](#d-vaelric_graveyard_10)
+    - “That graveyard, the one directly south of here, who were those people?” *(if reached stage 5 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-5); NOT reached stage 60 of [Restless in the grave](../quests/mg_restless_grave.md#stage-60))* → [vaelric_graveyard_10](#d-vaelric_graveyard_10)
     - “Actually, I am here to give you an update on that graveyard exploration you sent me on.” *(if reached stage 65 of [Restless in the grave](../quests/mg_restless_grave.md#stage-65); NOT reached stage 80 of [Restless in the grave](../quests/mg_restless_grave.md#stage-80))* → [mg_lie_to_vaelric_10](#d-mg_lie_to_vaelric_10)
     - “I spoke to a ghost in the Galmore encampment. His name is Eryndor...” *(if reached stage 60 of [Restless in the grave](../quests/mg_restless_grave.md#stage-60); NOT reached stage 70 of [Restless in the grave](../quests/mg_restless_grave.md#stage-70); NOT reached stage 65 of [Restless in the grave](../quests/mg_restless_grave.md#stage-65))* → [mg_vaelric_story_10](#d-mg_vaelric_story_10)
     - “No, that's old news. Try and keep up, won't you? I'm here to collect my reward?” *(if latest stage of [Restless in the grave](../quests/mg_restless_grave.md#stage-90) is 90)* → [mg_vaelric_reward_10](#d-mg_vaelric_reward_10)
@@ -142,7 +142,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - branch 1 *(if NOT have 4,800 gold)* → [mg_vaelric_reward_Not_enough_gold](#d-mg_vaelric_reward_Not_enough_gold)
     - branch 2 *(if carry 5× [Duskbloom](../items/duskbloom_flower.md); carry 10× [Pondslime extract](../items/pondslime_extract.md); carry 5× [Mosquito proboscis](../items/mosquito_proboscis.md); reached stage 115 of [Restless in the grave](../quests/mg_restless_grave.md#stage-115); have 4,800 gold)* → [mg_vaelric_buy_insectbance_10](#d-mg_vaelric_buy_insectbance_10)
     - branch 3 *(if NOT reached stage 115 of [Restless in the grave](../quests/mg_restless_grave.md#stage-115); carry 5× [Duskbloom](../items/duskbloom_flower.md); carry 10× [Pondslime extract](../items/pondslime_extract.md); carry 5× [Mosquito proboscis](../items/mosquito_proboscis.md); carry 1× [Mudfiend goo](../items/mudfiend.md); have 4,800 gold)* → [mg_vaelric_reward_60](#d-mg_vaelric_reward_60)
-    - Next *(if reached stage 115 of [Restless in the grave](../quests/mg_restless_grave.md#stage-115); carry 0× [Vaelric's empty bottle](../items/vaelrics_empty_bottle.md); NOT reached stage 18 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-18))* → [mg_vaelric_reward_45](#d-mg_vaelric_reward_45)
+    - Next *(if reached stage 115 of [Restless in the grave](../quests/mg_restless_grave.md#stage-115); carry 0× [Vaelric's empty bottle](../items/vaelrics_empty_bottle.md); NOT reached stage 18 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-18))* → [mg_vaelric_reward_45](#d-mg_vaelric_reward_45)
     - branch 5 → [mg_vaelric_reward_missing_ing_10](#d-mg_vaelric_reward_missing_ing_10)
 
     <span id="d-vaelric_andor_22"></span>**`vaelric_andor_22`** *(silent check: the first matching branch below is taken)* — **effects:** clears stage 999 of [Search for Andor](../quests/andor.md#stage-999), sets stage 125 of [Search for Andor](../quests/andor.md#stage-125)
@@ -235,7 +235,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [mg_vaelric_defeated_eryndor_30](#d-mg_vaelric_defeated_eryndor_30)
 
-    <span id="d-mg_vaelric_reward_70"></span>**`mg_vaelric_reward_70`** Vaelric: “Here you go, ten Insectbane tonics.” — **effects:** gives 10× [Insectbane tonic](../items/insectbane_tonic.md), clears stage 18 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-18)
+    <span id="d-mg_vaelric_reward_70"></span>**`mg_vaelric_reward_70`** Vaelric: “Here you go, ten Insectbane tonics.” — **effects:** gives 10× [Insectbane tonic](../items/insectbane_tonic.md), clears stage 18 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-18)
 
     - Next → [mg_vaelric_other_potions_10](#d-mg_vaelric_other_potions_10)
 
@@ -247,8 +247,8 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     <span id="d-vaelric_creature_killed_40"></span>**`vaelric_creature_killed_40`** [Vaelric](../monsters/vaelric.md): “See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here, take this.” — **effects:** sets stage 30 of [The swamp healer](../quests/swamp_healer.md#stage-30)
 
-    - “[Extend my hand and take the leech.]” *(if NOT reached stage 59 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59))* → [vaelric_creature_killed_narrator_2](#d-vaelric_creature_killed_narrator_2)
-    - “[Extend my hand and take the leech.]” *(if reached stage 59 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59))* → [vaelric_creature_killed_50](#d-vaelric_creature_killed_50)
+    - “[Extend my hand and take the leech.]” *(if NOT reached stage 59 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-59))* → [vaelric_creature_killed_narrator_2](#d-vaelric_creature_killed_narrator_2)
+    - “[Extend my hand and take the leech.]” *(if reached stage 59 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-59))* → [vaelric_creature_killed_50](#d-vaelric_creature_killed_50)
 
     <span id="d-vaelric_restless_grave_10"></span>**`vaelric_restless_grave_10`** [Dummy NPC](../monsters/none.md): “Vaelric pauses, his expression tense as if piecing something together.”
 
@@ -271,7 +271,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     - “Of course.” → *shop opens*
     - “No thanks.” → *conversation ends*
 
-    <span id="d-vaelric_creature_killed_narrator_2"></span>**`vaelric_creature_killed_narrator_2`** [Dummy NPC](../monsters/none.md): “Vaelric hands you a leech.” — **effects:** gives 1× [Leech](../items/leech_usable.md), sets stage 59 of [galmore_nondisplayed (hidden flag)](../quests/galmore_nondisplayed.md#stage-59)
+    <span id="d-vaelric_creature_killed_narrator_2"></span>**`vaelric_creature_killed_narrator_2`** [Dummy NPC](../monsters/none.md): “Vaelric hands you a leech.” — **effects:** gives 1× [Leech](../items/leech_usable.md), sets stage 59 of [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-59)
 
     - Next → [vaelric_creature_killed_50](#d-vaelric_creature_killed_50)
 
@@ -342,7 +342,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 |---|---|
 | [v0.8.14](../versions/0.8.14.md) | Added<br>Dialogue: 68 lines added |
 | [v0.8.15](../versions/0.8.15.md) | Dialogue: 1 line changed<br>· text: “Interesting, but not helpful. Go back to search for something useful …” → “Interesting, but not helpful. Go back and search for something useful…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “You see, I have to make ten tonics at a time and because I refuse to …” → “You see, I have to make ten tonics at a time and because I refuse to …”<br>· text: “I'll take all of the ingredients and your 4800 gold now and I will mi…” → “I'll take all of the ingredients and your {4800} gold now and I will …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

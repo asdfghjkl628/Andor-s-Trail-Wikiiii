@@ -1,10 +1,10 @@
 ---
-description: "Thalen is a non-player character (NPC) in Andor's Trail, found in undertell_3_lava_00. Starts The fifth master."
+description: "Thalen is a non-player character (NPC) in Andor's Trail, found in Undertell 3 lava 00. Starts The fifth master."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_2.png){ .sprite } Thalen
 
-**Where to find Thalen:** [undertell_3_lava_00](../maps/undertell_3_lava_00.md#pin-npc-thalen)
+**Where to find Thalen:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md#pin-npc-thalen)
 
 <div class="infobox" markdown>
 
@@ -14,7 +14,7 @@ description: "Thalen is a non-player character (NPC) in Andor's Trail, found in 
 |---|---|
 | **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [The fifth master](../quests/fifth_master.md) |
-| **Found in** | undertell_3_lava_00 |
+| **Found in** | Undertell 3 lava 00 |
 | **Entry ID** | `thalen` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -24,11 +24,11 @@ description: "Thalen is a non-player character (NPC) in Andor's Trail, found in 
 
 - [About a girl](../quests/about_a_girl.md): stage 50
 - [The fifth master](../quests/fifth_master.md): stages 10, 20, 80
-- [hidden_undertell (hidden flag)](../quests/undertell_hidden.md): stages 5, 7
+- [Undertell story flags (hidden flag)](../quests/undertell_hidden.md): stages 5, 7
 
 ## Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Thalen. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Thalen. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thalen_initial_selector.json" data-npc="Thalen" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -36,12 +36,12 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (23 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-thalen_initial_selector"></span>**`thalen_initial_selector`** *(silent check: the first matching branch below is taken)*
 
-    - branch 1 *(if NOT reached stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [kazaul_masters_not_met_10](#d-kazaul_masters_not_met_10)
-    - branch 2 *(if reached stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5); NOT reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10))* → [kazaul_masters_met_but_no_quest_started_10](#d-kazaul_masters_met_but_no_quest_started_10)
+    - branch 1 *(if NOT reached stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5))* → [kazaul_masters_not_met_10](#d-kazaul_masters_not_met_10)
+    - branch 2 *(if reached stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5); NOT reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10))* → [kazaul_masters_met_but_no_quest_started_10](#d-kazaul_masters_met_but_no_quest_started_10)
     - branch 3 *(if reached stage 10 of [The fifth master](../quests/fifth_master.md#stage-10); NOT reached stage 20 of [The fifth master](../quests/fifth_master.md#stage-20))* → [the_fifth_master_10](#d-the_fifth_master_10)
     - branch 4 *(if carry 1× [The Ritual of Five Aspects](../items/ancient_kazaul_ritual.md))* → [thalen_receives_ritual_10](#d-thalen_receives_ritual_10)
     - branch 5 *(if reached stage 90 of [The fifth master](../quests/fifth_master.md#stage-90))* → [thalen_after_fifth_master](#d-thalen_after_fifth_master)
@@ -72,7 +72,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - Next → [thalen_intro_10](#d-thalen_intro_10)
 
-    <span id="d-kazaul_masters_not_met_20"></span>**`kazaul_masters_not_met_20`** Thalen: “We are "masters", not "bosses". And yes, there are five of us.” — **effects:** sets stage 5 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-5)
+    <span id="d-kazaul_masters_not_met_20"></span>**`kazaul_masters_not_met_20`** Thalen: “We are "masters", not "bosses". And yes, there are five of us.” — **effects:** sets stage 5 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-5)
 
     - Next → [kazaul_masters_not_met_30](#d-kazaul_masters_not_met_30)
 
@@ -101,7 +101,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
     - “I understand.” → *conversation ends*
 
-    <span id="d-thalen_receives_ritual_30"></span>**`thalen_receives_ritual_30`** Thalen: “No. Give it to me and I will give it to the kin. You have done what none of the living could. Do not fail now, mortal. The silence of Anavrin waits to be broken.” — **effects:** sets stage 80 of [The fifth master](../quests/fifth_master.md#stage-80), spawns monsters on undertell_5, sets stage 7 of [hidden_undertell (hidden flag)](../quests/undertell_hidden.md#stage-7)
+    <span id="d-thalen_receives_ritual_30"></span>**`thalen_receives_ritual_30`** Thalen: “No. Give it to me and I will give it to the kin. You have done what none of the living could. Do not fail now, mortal. The silence of Anavrin waits to be broken.” — **effects:** sets stage 80 of [The fifth master](../quests/fifth_master.md#stage-80), spawns monsters on undertell_5, sets stage 7 of [Undertell story flags (hidden flag)](../quests/undertell_hidden.md#stage-7)
 
     - “I understand.” → *conversation ends*
 

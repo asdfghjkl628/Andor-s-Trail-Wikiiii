@@ -48,7 +48,7 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Nanath](../monsters/nanath.md) ([fallhaven_derelict2](../maps/fallhaven_derelict2.md)) | – | must be carried (1×) | “I have already brought the 4 easier things.” |
+| [Nanath](../monsters/nanath.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) | – | must be carried (1×) | “I have already brought the 4 easier things.” |
 | [Talion](../monsters/talion.md) | [Troubling times](../quests/troubling_times.md#stage-80) | must be carried (1×) | “I have everthing other than Luthor's ring” |
 | [Talion](../monsters/talion.md) | [Troubling times](../quests/troubling_times.md#stage-280) | handed over (1×) | “Here's all you have asked for.” |
 

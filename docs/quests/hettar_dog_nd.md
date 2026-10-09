@@ -1,8 +1,8 @@
 ---
-description: "hettar_dog_nd is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain55. 2 stages. 1=found dog"
+description: "Hettar dog story flags is a hidden quest in Andor's Trail, started by stepping on a trigger on blackwater_mountain55. 2 stages. 1=found dog"
 ---
 
-# hettar_dog_nd
+# Hettar dog story flags
 
 !!! info "Hidden story flag"
     An internal quest the game uses to track progress. It does not appear in the journal. The stage descriptions below are internal notes written by the developers and may be brief.
@@ -14,9 +14,9 @@ description: "hettar_dog_nd is a hidden quest in Andor's Trail, started by stepp
 | **Quest ID** | `hettar_dog_nd` |
 | **In journal** | No (hidden flag) |
 | **Stages** | 2 |
-| **Started by** | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md), [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) |
+| **Started by** | stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md), [Wolfhound](../monsters/hettar_dog.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) |
 | **NPCs involved** | [Wolfhound](../monsters/hettar_dog.md) |
-| **Locations** | [blackwater_mountain55](../maps/blackwater_mountain55.md) |
+| **Locations** | [Blackwater mountain 55](../maps/blackwater_mountain55.md) |
 | **Related quests** | 1 |
 
 </div>
@@ -27,11 +27,11 @@ description: "hettar_dog_nd is a hidden quest in Andor's Trail, started by stepp
 
 ## Prerequisites to start
 
-**Route 1** (stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md)):
+**Route 1** (stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md)):
 
-- NOT reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2)
+- NOT reached stage 2 of [Hettar dog story flags (hidden flag)](../quests/hettar_dog_nd.md#stage-2)
 
-**Route 2** ([Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md))):
+**Route 2** ([Wolfhound](../monsters/hettar_dog.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md))):
 
 - nothing
 
@@ -48,26 +48,52 @@ description: "hettar_dog_nd is a hidden quest in Andor's Trail, started by stepp
 
 ## Stages
 
-| Stage | Journal entry | Triggered by | Needs | Rewards |
-|---|---|---|---|---|
-| <span id="stage-1"></span>1 | 1=found dog<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md)<br>[Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | – | – |
-| <span id="stage-2"></span>2 | 2=picked up bones<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md)<br>[Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) | hand over 1× [Wyrm meat](../items/hettar_bone.md) | gives 1× [Huge bones from the Blackwater Mountains](../items/bwm_bones.md)<br>sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40) |
+<div class="stages" markdown>
+
+| Stage | Journal entry | From | Rewards |
+|---|---|---|---|
+| <span id="stage-1"></span>[1](#route-1) | 1=found dog<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md), [Wolfhound](../monsters/hettar_dog.md) | – |
+| <span id="stage-2"></span>[2](#route-2) | 2=picked up bones<br><span class="qnote">👣 Reached by stepping onto a trigger spot on [Blackwater mountain 55](../maps/blackwater_mountain55.md).</span> | stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md), [Wolfhound](../monsters/hettar_dog.md) | varies by route (see below) |
+
+</div>
+
+<small>Click a stage number for how to reach it, or a long journal entry to expand it.</small>
 
 <p class="verified">Verified against v0.8.18 quest, dialogue and map data.</p>
 
-## How each stage is reached
+## How to reach each stage
 
-*Every dialogue route found in the game data, including alternatives that end up in the same place. "Conditions" are everything checked along that dialogue path. To test a specific situation, open the NPC's page and use its **Dialogue simulator**.*
+Every route in the game data, including alternatives. To try a specific situation, use the **dialogue simulator** on the NPC's page.
 
-???+ note "Stage 1: 2 routes"
+<span id="route-1"></span>
 
-    1. stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md) → choose “Take the bones.” — **conditions:** NOT reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) → **stage 1**. NPC: “GROWL!”
-    2. Talk to [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → the conversation leads here automatically → **stage 1**. NPC: “Growl!”
+??? note "Stage 1 · stepping on a trigger on blackwater_mountain55, Wolfhound · 2 ways"
 
-???+ note "Stage 2: 2 routes"
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md), choose “Take the bones.”
 
-    1. stepping on a trigger on [blackwater_mountain55](../maps/blackwater_mountain55.md) → choose “The wolfhound doesn't want you to take 'his' bones. Take them nevertheless.” — **conditions:** NOT reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) → **stage 2**; also gives 1× [Huge bones from the Blackwater Mountains](../items/bwm_bones.md)
-    2. Talk to [Wolfhound](../monsters/hettar_dog.md) ([blackwater_mountain55](../maps/blackwater_mountain55.md)) → choose “Hey Norry, look here! I have some much better food for you from Hettar.” — **conditions:** hand over 1× [Wyrm meat](../items/hettar_bone.md); reached stage 2 of [hettar_dog_nd (hidden flag)](../quests/hettar_dog_nd.md#stage-2) → **stage 2**; also sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40). NPC: “The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.”
+    - **Needs:** not yet stage 2
+    - *“GROWL!”*
+
+    **Way 2:** Talk to [Wolfhound](../monsters/hettar_dog.md), automatic
+
+    - *“Growl!”*
+
+
+<span id="route-2"></span>
+
+??? note "Stage 2 · stepping on a trigger on blackwater_mountain55, Wolfhound · 2 ways"
+
+    **Way 1:** Stepping on a trigger on [Blackwater mountain 55](../maps/blackwater_mountain55.md), choose “The wolfhound doesn't want you to take 'his' bones. Take them nevertheless.”
+
+    - **Needs:** not yet stage 2
+    - **Gives:** 1× [Huge bones from the Blackwater Mountains](../items/bwm_bones.md)
+
+    **Way 2:** Talk to [Wolfhound](../monsters/hettar_dog.md), choose “Hey Norry, look here! I have some much better food for you from Hettar.”
+
+    - **Needs:** stage 2; hand over 1× [Wyrm meat](../items/hettar_bone.md)
+    - **Gives:** sets stage 40 of [Where is Norry?](../quests/hettar_dog.md#stage-40)
+    - *“The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.”*
+
 
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
@@ -112,6 +138,7 @@ description: "hettar_dog_nd is a hidden quest in Andor's Trail, started by stepp
     | | |
     |---|---|
     | Quest ID | `hettar_dog_nd` |
+    | Name in game data | `hettar_dog_nd` |
     | showInLog | 0 |
     | Stage IDs | 1, 2 |
     | Dialogue nodes setting stages | 1: `hettar_bones_20`, 1: `hettar_dog`, 2: `hettar_bones_30`, 2: `hettar_dog_10` |

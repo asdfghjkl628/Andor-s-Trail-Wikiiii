@@ -21,19 +21,19 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Rat. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`vermin0`](#v-vermin0) | Enemy | Fallhaven: [gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [woodhouse2](../maps/woodhouse2.md) (+3 more) | – | 1 |
-| [`crossroads_rat`](#v-crossroads_rat) | Enemy | Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md), Remgard: [island_underground1](../maps/island_underground1.md) (+7 more) | – | 5 |
-| [`vermin1`](#v-vermin1) | Enemy | Fallhaven: [gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [woodhouse2](../maps/woodhouse2.md) (+3 more) | – | 1 |
+| [`vermin0`](#v-vermin0) | Enemy | Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md) (+3 more) | – | 1 |
+| [`crossroads_rat`](#v-crossroads_rat) | Enemy | Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md), Remgard: [Island underground 1](../maps/island_underground1.md) (+7 more) | – | 5 |
+| [`vermin1`](#v-vermin1) | Enemy | Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md) (+3 more) | – | 1 |
 
 ## Fallhaven, Gapfillerhole and 4 more (vermin0) { #v-vermin0 }
 
 **Entry ID:** `vermin0` · **Type:** Enemy
 
-**Location:** Fallhaven: [gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [woodhouse2](../maps/woodhouse2.md), Fallhaven: [woodsettlement0](../maps/woodsettlement0.md), Prim: [lodarhouse1](../maps/lodarhouse1.md), [woodhouse3](../maps/woodhouse3.md)
+**Location:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md), [Woodhouse 3](../maps/woodhouse3.md)
 
 ### Combat statistics
 
@@ -68,11 +68,11 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
-| [lodarhouse1](../maps/lodarhouse1.md) | Prim | 2 | – |
-| [woodhouse2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
-| [woodhouse3](../maps/woodhouse3.md) | – | 2 | – |
-| [woodsettlement0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
+| [Gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
+| [Lodarhouse 1](../maps/lodarhouse1.md) | Prim | 2 | – |
+| [Woodhouse 2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
+| [Woodhouse 3](../maps/woodhouse3.md) | – | 2 | – |
+| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
 
 
 ### Version history
@@ -119,11 +119,11 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
     ```
 
 
-## Crossroads Guardhouse, Houseatcrossroads1 and 8 more (crossroads_rat) { #v-crossroads_rat }
+## Crossroads Guardhouse, Houseatcrossroads 1 and 8 more (crossroads_rat) { #v-crossroads_rat }
 
 **Entry ID:** `crossroads_rat` · **Type:** Enemy
 
-**Location:** Crossroads Guardhouse: [houseatcrossroads1](../maps/houseatcrossroads1.md), Remgard: [island_underground1](../maps/island_underground1.md), Remgard: [remgard_church_basement](../maps/remgard_church_basement.md), Wexlow Village: [wexlow_village](../maps/wexlow_village.md), [island_underground4b](../maps/island_underground4b.md), [island_underground5](../maps/island_underground5.md) (+3 more)
+**Location:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md), Remgard: [Island underground 1](../maps/island_underground1.md), Remgard: [Remgard church basement](../maps/remgard_church_basement.md), Wexlow Village: [Wexlow village](../maps/wexlow_village.md), [Island underground 4b](../maps/island_underground4b.md), [Island underground 5](../maps/island_underground5.md) (+3 more)
 
 ### Combat statistics
 
@@ -158,15 +158,15 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [houseatcrossroads1](../maps/houseatcrossroads1.md) | Crossroads Guardhouse | 1 | – |
-| [island_underground1](../maps/island_underground1.md) | Remgard | 2 | – |
-| [island_underground4b](../maps/island_underground4b.md) | – | 2 | – |
-| [island_underground5](../maps/island_underground5.md) | – | 8 | – |
-| [korhald_cave2](../maps/korhald_cave2.md) | – | 1 | – |
-| [korhald_cave_hidden](../maps/korhald_cave_hidden.md) | – | 4 | – |
-| [remgard_church_basement](../maps/remgard_church_basement.md) | Remgard | 3 | – |
-| [wayto_feygard_duleian_2](../maps/wayto_feygard_duleian_2.md) | – | 1 | – |
-| [wexlow_village](../maps/wexlow_village.md) | Wexlow Village | 1 | – |
+| [Houseatcrossroads 1](../maps/houseatcrossroads1.md) | Crossroads Guardhouse | 1 | – |
+| [Island underground 1](../maps/island_underground1.md) | Remgard | 2 | – |
+| [Island underground 4b](../maps/island_underground4b.md) | – | 2 | – |
+| [Island underground 5](../maps/island_underground5.md) | – | 8 | – |
+| [Korhald cave 2](../maps/korhald_cave2.md) | – | 1 | – |
+| [Korhald cave hidden](../maps/korhald_cave_hidden.md) | – | 4 | – |
+| [Remgard church basement](../maps/remgard_church_basement.md) | Remgard | 3 | – |
+| [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md) | – | 1 | – |
+| [Wexlow village](../maps/wexlow_village.md) | Wexlow Village | 1 | – |
 
 
 ### Version history
@@ -219,7 +219,7 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 
 **Entry ID:** `vermin1` · **Type:** Enemy
 
-**Location:** Fallhaven: [gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [woodhouse2](../maps/woodhouse2.md), Fallhaven: [woodsettlement0](../maps/woodsettlement0.md), Prim: [lodarhouse1](../maps/lodarhouse1.md), [woodhouse3](../maps/woodhouse3.md)
+**Location:** Fallhaven: [Gapfillerhole](../maps/gapfillerhole.md), Fallhaven: [Woodhouse 2](../maps/woodhouse2.md), Fallhaven: [Woodsettlement 0](../maps/woodsettlement0.md), Prim: [Lodarhouse 1](../maps/lodarhouse1.md), [Woodhouse 3](../maps/woodhouse3.md)
 
 ### Combat statistics
 
@@ -254,11 +254,11 @@ description: "Rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7 XP, f
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
-| [lodarhouse1](../maps/lodarhouse1.md) | Prim | 2 | – |
-| [woodhouse2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
-| [woodhouse3](../maps/woodhouse3.md) | – | 2 | – |
-| [woodsettlement0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
+| [Gapfillerhole](../maps/gapfillerhole.md) | Fallhaven | 1 | – |
+| [Lodarhouse 1](../maps/lodarhouse1.md) | Prim | 2 | – |
+| [Woodhouse 2](../maps/woodhouse2.md) | Fallhaven | 2 | – |
+| [Woodhouse 3](../maps/woodhouse3.md) | – | 2 | – |
+| [Woodsettlement 0](../maps/woodsettlement0.md) | Fallhaven | 4 | – |
 
 
 ### Version history

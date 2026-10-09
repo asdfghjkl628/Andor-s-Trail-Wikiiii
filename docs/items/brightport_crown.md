@@ -43,7 +43,7 @@ description: "Argentscale diadem is a extraordinary headwear, metal (light) in A
 
 ### Quest & dialogue rewards
 
-- From [Three-fang-elyzard](../monsters/brightport_lizardking.md) ([brightport_lizard1](../maps/brightport_lizard1.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-90) (1×)
+- From [Three-fang-elyzard](../monsters/brightport_lizardking.md) ([Brightport lizard 1](../maps/brightport_lizard1.md)) during [The balance of scales](../quests/brightport_lizard.md#stage-90) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>

@@ -36,7 +36,7 @@ description: "Elythara's ring is a quest ring in Andor's Trail (Grants Bless (ma
 
 ### Quest & dialogue rewards
 
-- From walking into a blocked passage on [sullengard2](../maps/sullengard2.md) during [Devotion](../quests/devotion.md#stage-100) (1×)
+- From walking into a blocked passage on [Sullengard 2](../maps/sullengard2.md) during [Devotion](../quests/devotion.md#stage-100) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -47,21 +47,21 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) | – | must be worn (1×) | “(automatic)” |
-| [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) | [Devotion](../quests/devotion.md#stage-450) | handed over (1×) | “Here it is.” |
-| [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) | [Devotion](../quests/devotion.md#stage-450) | worn item is taken (1×) | “Let me remove it first.” |
-| [Anoa](../monsters/anoa.md) ([undertell_3_02](../maps/undertell_3_02.md)) | – | must be carried (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade10) ([undertell_3_10](../maps/undertell_3_10.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade11) ([undertell_3_03](../maps/undertell_3_03.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md) ([undertell_3_02](../maps/undertell_3_02.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade2) ([undertell_3_02](../maps/undertell_3_02.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade3) ([undertell_3_12](../maps/undertell_3_12.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade4) ([undertell_3_12](../maps/undertell_3_12.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade5) ([undertell_3_13](../maps/undertell_3_13.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade6) ([undertell_3_11](../maps/undertell_3_11.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade7) ([undertell_3_00](../maps/undertell_3_00.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade8) ([undertell_3_00](../maps/undertell_3_00.md)) | – | must be worn (1×) | “(automatic)” |
-| [Forsaken shade](../monsters/shade1.md#v-shade9) ([undertell_3_00](../maps/undertell_3_00.md)) | – | must be worn (1×) | “(automatic)” |
+| [Anoa](../monsters/anoa.md) ([Undertell 3 02](../maps/undertell_3_02.md)) | – | must be worn (1×) | “(automatic)” |
+| [Anoa](../monsters/anoa.md) ([Undertell 3 02](../maps/undertell_3_02.md)) | [Devotion](../quests/devotion.md#stage-450) | handed over (1×) | “Here it is.” |
+| [Anoa](../monsters/anoa.md) ([Undertell 3 02](../maps/undertell_3_02.md)) | [Devotion](../quests/devotion.md#stage-450) | worn item is taken (1×) | “Let me remove it first.” |
+| [Anoa](../monsters/anoa.md) ([Undertell 3 02](../maps/undertell_3_02.md)) | – | must be carried (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade10) ([Undertell 3 10](../maps/undertell_3_10.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade11) ([Undertell 3 03](../maps/undertell_3_03.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md) ([Undertell 3 02](../maps/undertell_3_02.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade2) ([Undertell 3 02](../maps/undertell_3_02.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade3) ([Undertell 3 12](../maps/undertell_3_12.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade4) ([Undertell 3 12](../maps/undertell_3_12.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade5) ([Undertell 3 13](../maps/undertell_3_13.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade6) ([Undertell 3 11](../maps/undertell_3_11.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade7) ([Undertell 3 00](../maps/undertell_3_00.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade8) ([Undertell 3 00](../maps/undertell_3_00.md)) | – | must be worn (1×) | “(automatic)” |
+| [Forsaken shade](../monsters/shade1.md#v-shade9) ([Undertell 3 00](../maps/undertell_3_00.md)) | – | must be worn (1×) | “(automatic)” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 

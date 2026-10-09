@@ -1,5 +1,5 @@
 ---
-description: "Godelieve is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, gamjee_well_jail_cells."
+description: "Godelieve is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_144.png){ .sprite } Godelieve
@@ -11,7 +11,7 @@ description: "Godelieve is an NPC who can also be fought in Andor's Trail, found
 | | |
 |---|---|
 | **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
-| **Found in** | Wexlow Village, gamjee_well_jail_cells |
+| **Found in** | Wexlow Village, Gamjee well jail cells |
 | **Class** | Humanoid |
 | **HP** | 1 |
 | **XP when defeated** | 1 |
@@ -21,28 +21,28 @@ description: "Godelieve is an NPC who can also be fought in Andor's Trail, found
 </div>
 
 !!! info "3 entries in the game data"
-    The game's data files define 3 separate characters named Godelieve. Andor's Trail stores a character as a new entry whenever it needs different behaviour, for example a different conversation at a later stage of a quest, a different location, or different combat statistics. Some entries represent the same person at different points in the story; others are different people who share a generic name. Here the entries differ in: conversation, location. This page combines them; each entry is described in its own section below.
+    The game data defines 3 separate characters named Godelieve. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
-| [`village_godelieve`](#v-village_godelieve) | NPC | Wexlow Village: [wexlow_village_nw_house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve) | – | – |
-| [`troll_hollow_godelieve`](#v-troll_hollow_godelieve) | Enemy | [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
-| [`village_godelieve_hidden`](#v-village_godelieve_hidden) | Enemy | Wexlow Village: [wexlow_village](../maps/wexlow_village.md) | – | 1 |
+| [`village_godelieve`](#v-village_godelieve) | NPC | Wexlow Village: [Wexlow village north-west house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve) | – | – |
+| [`troll_hollow_godelieve`](#v-troll_hollow_godelieve) | Enemy | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
+| [`village_godelieve_hidden`](#v-village_godelieve_hidden) | Enemy | Wexlow Village: [Wexlow village](../maps/wexlow_village.md) | – | 1 |
 
 ## Wexlow Village, Wexlow village north-west house (village_godelieve) { #v-village_godelieve }
 
 **Entry ID:** `village_godelieve` · **Type:** NPC
 
-**Location:** Wexlow Village: [wexlow_village_nw_house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve)
+**Location:** Wexlow Village: [Wexlow village north-west house](../maps/wexlow_village_nw_house.md#pin-npc-village_godelieve)
 
 ### Quests
 
 - [Echoes of enchantment](../quests/echoes_of_enchantment.md): stage 14
-- [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md): stage 9
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stage 9
 
 ### Dialogue simulator
 
-Set the quest stages, items and other conditions that apply to your game, then start the conversation with Godelieve. The simulator applies the game's own rules: it performs the same silent checks, offers only the options that would be shown in the game, and applies their effects (quest stages, items handed over, rewards) as the conversation proceeds.
+Set your quest stages and items, then talk to Godelieve. Same rules as the game: same checks, same options, same effects.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/village_godelieve_selector.json" data-npc="Godelieve" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
@@ -50,7 +50,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 ??? quote "Dialogue (5 lines)"
 
-    *What the dialogue says, exactly as in the game files. Lines are listed once; links jump to the line a choice leads to.*
+    *Exactly as in the game files. Each line appears once; links jump to where a choice leads.*
 
     <span id="d-village_godelieve-village_godelieve_selector"></span>**`village_godelieve_selector`** *(silent check: the first matching branch below is taken)*
 
@@ -68,7 +68,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
     <span id="d-village_godelieve-village_godelieve_2"></span>**`village_godelieve_2`** Godelieve: “I'm just happy to curl up with Godwin in our own bed tonight.” — **effects:** sets stage 14 of [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-14)
 
 
-    <span id="d-village_godelieve-village_godelieve_bed"></span>**`village_godelieve_bed`** Godelieve: “Of course. Just use the mat over there in the corner.” — **effects:** sets stage 9 of [feygard_nondisplayed (hidden flag)](../quests/feygard_nondisplayed.md#stage-9)
+    <span id="d-village_godelieve-village_godelieve_bed"></span>**`village_godelieve_bed`** Godelieve: “Of course. Just use the mat over there in the corner.” — **effects:** sets stage 9 of [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-9)
 
 
 
@@ -115,7 +115,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `troll_hollow_godelieve` · **Type:** Enemy
 
-**Location:** [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md)
+**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
 
 ### Combat statistics
 
@@ -143,7 +143,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [gamjee_well_jail_cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
 
 
 ### Version history
@@ -187,7 +187,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 **Entry ID:** `village_godelieve_hidden` · **Type:** Enemy
 
-**Location:** Wexlow Village: [wexlow_village](../maps/wexlow_village.md)
+**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md)
 
 ### Combat statistics
 
@@ -215,7 +215,7 @@ Set the quest stages, items and other conditions that apply to your game, then s
 
 | Map | Region | Up to | Notes |
 |---|---|---|---|
-| [wexlow_village](../maps/wexlow_village.md) | Wexlow Village | 1 | – |
+| [Wexlow village](../maps/wexlow_village.md) | Wexlow Village | 1 | – |
 
 
 ### Version history

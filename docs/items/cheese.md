@@ -46,7 +46,7 @@ description: "Cheese is a ordinary food in Andor's Trail. How to get it: monster
 
 ### Quest & dialogue rewards
 
-- From [Wart](../monsters/ratdom_rat_warden.md) ([ratdom_maze_624](../maps/ratdom_maze_624.md)) (1×)
+- From [Wart](../monsters/ratdom_rat_warden.md) ([Ratdom maze 624](../maps/ratdom_maze_624.md)) (1×)
 
 
 <p class="verified">Verified against v0.8.18 item, loot, map and dialogue data.</p>
@@ -57,15 +57,15 @@ Where the game checks for this item in dialogue:
 
 | With | Quest | What happens to it | Option |
 |---|---|---|---|
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “Yes, here you are. Enjoy it!” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “I could spare bread, some cheese and a bottle of red wine.” |
-| [Old man](../monsters/old_man.md#v-guynmart_wise) ([guynmart_wood_10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-10) | handed over (1×) | “Here I have bread, some cheese and a bottle of red wine.” |
-| [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-30) | handed over (1×) | “I have the cheese.” |
-| [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) | handed over (1×) | “I have the rocks and the cheese.” |
-| [Seviron](../monsters/brv_churchman.md) ([brimhaven_church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) | handed over (1×) | “I have the cheese.” |
-| [General's henchman](../monsters/ortholion_guard1.md) ([blackwater_mountain11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([blackwater_mountain10](../maps/blackwater_mountain10.md)) | – | handed over (2×) | “Here's some cheese.” |
-| walking into a blocked passage on [ratdom_maze_624](../maps/ratdom_maze_624.md) | – | handed over (1×) | “(automatic)” |
-| [Fraedro](../monsters/ratdom_fraedro.md) ([ratdom_maze_626](../maps/ratdom_maze_626.md)) | – | handed over (1×) | “Starving? I have some cheese for you here.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “Yes, here you are. Enjoy it!” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | – | handed over (1×) | “I could spare bread, some cheese and a bottle of red wine.” |
+| [Old man](../monsters/old_man.md#v-guynmart_wise) ([Guynmart wood 10](../maps/guynmart_wood_10.md)) | [Rare delicacies](../quests/guynmart_wise.md#stage-10) | handed over (1×) | “Here I have bread, some cheese and a bottle of red wine.” |
+| [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-30) | handed over (1×) | “I have the cheese.” |
+| [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) | handed over (1×) | “I have the rocks and the cheese.” |
+| [Seviron](../monsters/brv_churchman.md) ([Brimhaven church](../maps/brimhaven_church.md)) | [A cat and mouse game](../quests/cat_and_mouse.md#stage-20) | handed over (1×) | “I have the cheese.” |
+| [General's henchman](../monsters/ortholion_guard1.md) ([Blackwater mountain 11](../maps/blackwater_mountain11.md)), [Feygard scout](../monsters/feygard_scout.md#v-ortholion_guard6) ([Blackwater mountain 10](../maps/blackwater_mountain10.md)) | – | handed over (2×) | “Here's some cheese.” |
+| walking into a blocked passage on [Ratdom maze 624](../maps/ratdom_maze_624.md) | – | handed over (1×) | “(automatic)” |
+| [Fraedro](../monsters/ratdom_fraedro.md) ([Ratdom maze 626](../maps/ratdom_maze_626.md)) | – | handed over (1×) | “Starving? I have some cheese for you here.” |
 
 <p class="verified">Verified against v0.8.18 dialogue data.</p>
 
