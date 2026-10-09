@@ -1,5 +1,5 @@
 ---
-description: "Woodcave 1 is an indoor location in Andor's Trail, in Crossroads Guardhouse (other). Enemies: Strong larval burrower, Larval burrower. Exits to Wild 0."
+description: "Woodcave 1 is an indoor location in Andor's Trail, in Crossroads Guardhouse (other). Enemies: Larval burrower, Strong larval burrower. Exits to Wild 0."
 ---
 
 # Woodcave 1
@@ -45,8 +45,8 @@ description: "Woodcave 1 is an indoor location in Andor's Trail, in Crossroads G
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Strong larval burrower](../monsters/burrower_3.md#v-larval_boss) | 35 | 1–6 | 1 | – |
 | [Larval burrower](../monsters/larval_burrower.md) | 35 | 1–6 | 4 | – |
+| [Strong larval burrower](../monsters/burrower_3.md#v-larval_boss) | 35 | 1–6 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

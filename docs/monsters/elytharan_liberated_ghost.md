@@ -1,5 +1,5 @@
 ---
-description: "Liberated Elytharan ghost is an NPC who can also be fought in Andor's Trail, found in Undertell 3 00. Starts About a girl."
+description: "Liberated Elytharan ghost is a non-player character (NPC) in Andor's Trail, found in Undertell 3 00. Starts About a girl."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Liberated Elytharan ghost
@@ -10,13 +10,9 @@ description: "Liberated Elytharan ghost is an NPC who can also be fought in Ando
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Starts [About a girl](../quests/about_a_girl.md) |
 | **Found in** | Undertell 3 00 |
-| **Class** | Ghost |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
-| **Immune to critical hits** | Yes |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -25,10 +21,10 @@ description: "Liberated Elytharan ghost is an NPC who can also be fought in Ando
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named Liberated Elytharan ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`elytharan_liberated_ghost`](#v-elytharan_liberated_ghost) | NPC | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost) | starts [About a girl](../quests/about_a_girl.md) | – |
-| [`elytharan_liberated_ghost2`](#v-elytharan_liberated_ghost2) | Enemy | [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`elytharan_liberated_ghost`](#v-elytharan_liberated_ghost) | NPC | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-elytharan_liberated_ghost) | starts [About a girl](../quests/about_a_girl.md) |
+| [`elytharan_liberated_ghost2`](#v-elytharan_liberated_ghost2) | Scenery | [Undertell 3 00](../maps/undertell_3_00.md) | – |
 
 ## Undertell 3 00 (elytharan_liberated_ghost) { #v-elytharan_liberated_ghost }
 
@@ -184,40 +180,12 @@ Set your quest stages and items, then talk to Liberated Elytharan ghost. Same ru
 
 ## Undertell 3 00 (elytharan_liberated_ghost2) { #v-elytharan_liberated_ghost2 }
 
-**Entry ID:** `elytharan_liberated_ghost2` · **Type:** Enemy
+**Entry ID:** `elytharan_liberated_ghost2` · **Type:** Scenery
 
 **Location:** [Undertell 3 00](../maps/undertell_3_00.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Ghost |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -253,15 +221,6 @@ Set your quest stages and items, then talk to Liberated Elytharan ghost. Same ru
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

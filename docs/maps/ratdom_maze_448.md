@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 448 is an indoor location in Andor's Trail, in Entry (other). NPCs: Clevred, Roundling. Enemies: Tiny rat, Tough cave rat, Cave rat. Exits to Ratdom maze 2, Ratdom maze 459, Ratdom maze 458, Ratdom maze 438."
+description: "Ratdom maze 448 is an indoor location in Andor's Trail, in Entry (other). NPCs: Clevred, Roundling. Enemies: Tiny rat, Cave rat, Tough cave rat. Exits to Ratdom maze 2, Ratdom maze 459, Ratdom maze 458, Ratdom maze 438."
 ---
 
 # Ratdom maze 448
@@ -85,8 +85,8 @@ With a last breath he thanked me for my company and died in my arms.”) (+1 mor
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 4 | shares spawn with Cave rat, Tough cave rat |
-| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 4 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 4 | shares spawn with Tiny rat, Tough cave rat |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 4 | shares spawn with Cave rat, Tiny rat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

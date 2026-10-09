@@ -1,5 +1,5 @@
 ---
-description: "Roadtocarntower 2 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Rogorn, Rogorn's henchman. Enemies: Mermaid, Frantic forest wasp, River troll. Exits to Fields 10, Roadtocarntower 1."
+description: "Roadtocarntower 2 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Rogorn, Rogorn's henchman. Enemies: Frantic forest wasp, River troll. Exits to Fields 10, Roadtocarntower 1."
 ---
 
 # Roadtocarntower 2
@@ -15,12 +15,12 @@ description: "Roadtocarntower 2 is an outdoor location in Andor's Trail, near Cr
 | **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 2 |
-| **Enemy types** | 4 |
+| **Enemy types** | 3 |
 | **Quests** | 2 |
 
 </div>
 
-**Roadtocarntower 2** is an outdoor map, near Crossroads Guardhouse (other). It has 2 NPCs and 4 kinds of enemy. Exits lead to Fields 10, Roadtocarntower 1.
+**Roadtocarntower 2** is an outdoor map, near Crossroads Guardhouse (other). It has 2 NPCs and 3 kinds of enemy. Exits lead to Fields 10, Roadtocarntower 1.
 
 ## Map
 
@@ -59,12 +59,13 @@ description: "Roadtocarntower 2 is an outdoor location in Andor's Trail, near Cr
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Mermaid](../monsters/river_mermaid.md) | 0 | 0–0 | 1 | – |
 | [Frantic forest wasp](../monsters/fieldwasp_0.md#v-fieldwasp_2) | 35 | 2–6 | 3 | – |
 | [Frantic forest wasp](../monsters/fieldwasp_0.md#v-fieldwasp_unique) | 70 | 2–6 | 1 | – |
 | [River troll](../monsters/rivertroll.md) | 210 | 2–9 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Mermaid](../monsters/river_mermaid.md)
 
 ## Quests
 

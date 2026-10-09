@@ -27,7 +27,7 @@ description: "Zachlanny is an NPC who can also be fought in Andor's Trail, found
 |---|---|---|---|---|
 | [`aidem_camp_zachlanny`](#v-aidem_camp_zachlanny) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_zachlanny), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_zachlanny) | – | – |
 | [`aidem_base_zachlanny_aggressive`](#v-aidem_base_zachlanny_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_zachlanny`](#v-aidem_jail_zachlanny) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`aidem_jail_zachlanny`](#v-aidem_jail_zachlanny) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
 | [`guild04_rebcomrade_3`](#v-guild04_rebcomrade_3) | NPC | Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-guild04_rebcomrade_3) | – | – |
 
 ## Aidem base 2 and 1 more (aidem_camp_zachlanny) { #v-aidem_camp_zachlanny }
@@ -197,37 +197,12 @@ Set your quest stages and items, then talk to Zachlanny. Same rules as the game:
 
 ## Fallhaven, Guildbrig 2 (aidem_jail_zachlanny) { #v-aidem_jail_zachlanny }
 
-**Entry ID:** `aidem_jail_zachlanny` · **Type:** Enemy
+**Entry ID:** `aidem_jail_zachlanny` · **Type:** Scenery
 
 **Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history

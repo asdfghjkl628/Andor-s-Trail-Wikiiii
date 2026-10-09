@@ -1,5 +1,5 @@
 ---
-description: "Secretpassage 0 is an indoor location in Andor's Trail. Enemies: Gray cave bat, Cave scorpion, Puny cave scorpion, Black cave bat, Brown cave bat. Exits to Laerothcave 0, Secretpassage 1."
+description: "Secretpassage 0 is an indoor location in Andor's Trail. Enemies: Gray cave bat, Puny cave scorpion, Cave scorpion, Black cave bat, Brown cave bat. Exits to Laerothcave 0, Secretpassage 1."
 ---
 
 # Secretpassage 0
@@ -47,8 +47,8 @@ description: "Secretpassage 0 is an indoor location in Andor's Trail. Enemies: G
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Gray cave bat](../monsters/cavebat1.md) | 28 | 3–5 | 3 | shares spawn with Black cave bat, Brown cave bat |
-| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 2 | shares spawn with Puny cave scorpion |
 | [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 | 2–5 | 2 | shares spawn with Cave scorpion |
+| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 2 | shares spawn with Puny cave scorpion |
 | [Black cave bat](../monsters/cavebat2.md) | 32 | 2–6 | 3 | shares spawn with Brown cave bat, Gray cave bat |
 | [Brown cave bat](../monsters/cavebat3.md) | 36 | 1–7 | 3 | shares spawn with Black cave bat, Gray cave bat |
 | [Giant centipede](../monsters/centipede.md) | 90 | 3–9 | 3 | shares spawn with Aggressive giant centipede |

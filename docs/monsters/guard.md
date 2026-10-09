@@ -580,7 +580,7 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Hm, 800 gold you say? Well, why didn't you say so from the start? Sur…” → “Hmm, 800 gold you say? Well, why didn't you say so from the start? Su…”<br>· text: “You would do that? Hm, let me think.” → “You would do that? Hmm, let me think.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “You would do that? Hm, let me think.” → “You would do that? Hmm, let me think.”<br>· text: “Hm, 800 gold you say? Well, why didn't you say so from the start? Sur…” → “Hmm, 800 gold you say? Well, why didn't you say so from the start? Su…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

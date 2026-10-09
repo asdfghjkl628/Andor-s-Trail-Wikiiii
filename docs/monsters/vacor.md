@@ -372,7 +372,7 @@ Set your quest stages and items, then talk to Vacor. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Ok, find the four pieces of my rift spell that the bandits took, and …” → “OK, find the four pieces of my rift spell that the bandits took, and …”<br>· text: “(Vacor opens the sealed message and starts reading)” → “[Vacor opens the sealed message and starts reading]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “(The map shows a location to the northwest of the former prison of Fl…” → “[The map shows a location to the northwest of the former prison of Fl…”<br>· text: “After years of work, I can't seem to remember the last parts of the s…” → “After years of work, I can't seem to remember the last parts of the s…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 1 is an indoor location in Andor's Trail, in Crossglen (settlement). NPCs: Clevred. Enemies: Cave rat, Tough cave rat. Exits to Crossglen cave, Ratdom maze 2."
+description: "Ratdom maze 1 is an indoor location in Andor's Trail, in Crossglen (settlement). NPCs: Clevred. Enemies: Tough cave rat, Cave rat. Exits to Crossglen cave, Ratdom maze 2."
 ---
 
 # Ratdom maze 1
@@ -78,8 +78,8 @@ description: "Ratdom maze 1 is an indoor location in Andor's Trail, in Crossglen
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 8 | – |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
+| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 8 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

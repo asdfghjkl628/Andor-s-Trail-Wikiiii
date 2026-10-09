@@ -1,5 +1,5 @@
 ---
-description: "Gargoylecave 3 is an indoor location in Andor's Trail. NPCs: Maelveon. Enemies: Shadow gargoyle trainer, Shadow gargoyle master. Exits to Gargoylecave 2."
+description: "Gargoylecave 3 is an indoor location in Andor's Trail. NPCs: Maelveon. Enemies: Shadow gargoyle master, Shadow gargoyle trainer. Exits to Gargoylecave 2."
 ---
 
 # Gargoylecave 3
@@ -51,8 +51,8 @@ description: "Gargoylecave 3 is an indoor location in Andor's Trail. NPCs: Maelv
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 | 3–6 | 3 | – |
 | [Shadow gargoyle master](../monsters/shadow_gargoyle_master.md) | 35 | 3–6 | 3 | – |
+| [Shadow gargoyle trainer](../monsters/shadow_gargoyle_trainer.md) | 35 | 3–6 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

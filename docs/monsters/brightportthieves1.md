@@ -193,7 +193,7 @@ Set your quest stages and items, then talk to Silvear. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 33 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “We've talked about this before. Im confident in my skill, the informa…” → “We've talked about this before. Im confident in my skill, the informa…”<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines changed<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…”<br>· text: “We've talked about this before. Im confident in my skill, the informa…” → “We've talked about this before. Im confident in my skill, the informa…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

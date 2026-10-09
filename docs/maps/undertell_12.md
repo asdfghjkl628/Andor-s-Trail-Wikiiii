@@ -50,8 +50,8 @@ description: "Undertell 12 is an indoor location in Andor's Trail. Enemies: Dryb
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Drybone lich](../monsters/drybone_lich.md) | 212 | 8–10 | 5 | – |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 232 | 9–11 | 2 | – |
 | [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 232 | 9–11 | 3 | – |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md) | 232 | 9–11 | 2 | – |
 | [Young rock eater](../monsters/young_rock_eater.md) | 303 | 8–10 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

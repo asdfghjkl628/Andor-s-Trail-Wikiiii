@@ -50,8 +50,8 @@ description: "Island underground 3 is an indoor location in Andor's Trail. Enemi
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Cave bat](../monsters/cavebat4.md) | 39 | 1–7 | 13 | – |
-| [Poisonous vine](../monsters/poison_vine_top.md) | 90 | 1–3 | 1 | – |
 | [Poisonous vine](../monsters/poison_vine_top.md#v-poison_vine_bottom) | 90 | 1–3 | 1 | – |
+| [Poisonous vine](../monsters/poison_vine_top.md) | 90 | 1–3 | 1 | – |
 | [Drakthorn](../monsters/drakthorn.md) | 143 | 8–20 | 9 | – |
 | [Drakthorn warrior](../monsters/drakthorn_warrior.md) | 146 | 10–22 | 10 | – |
 

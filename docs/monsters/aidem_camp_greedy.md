@@ -27,7 +27,7 @@ description: "Greedy is an NPC who can also be fought in Andor's Trail, found in
 |---|---|---|---|---|
 | [`aidem_camp_greedy`](#v-aidem_camp_greedy) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_camp_greedy), [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_greedy) | – | – |
 | [`aidem_base_greedy_aggressive`](#v-aidem_base_greedy_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_greedy`](#v-aidem_jail_greedy) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`aidem_jail_greedy`](#v-aidem_jail_greedy) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
 
 ## Aidem base 2 and 1 more (aidem_camp_greedy) { #v-aidem_camp_greedy }
 
@@ -203,37 +203,12 @@ Set your quest stages and items, then talk to Greedy. Same rules as the game: sa
 
 ## Fallhaven, Guildbrig 2 (aidem_jail_greedy) { #v-aidem_jail_greedy }
 
-**Entry ID:** `aidem_jail_greedy` · **Type:** Enemy
+**Entry ID:** `aidem_jail_greedy` · **Type:** Scenery
 
 **Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history

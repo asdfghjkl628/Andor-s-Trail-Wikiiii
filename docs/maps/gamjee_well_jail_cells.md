@@ -1,5 +1,5 @@
 ---
-description: "Gamjee well jail cells is an indoor location in Andor's Trail. NPCs: Osric, Percival. Enemies: Godelieve, Odilia, Theodora, Theobald, Godwin. Exits to Gamjee well 2 1."
+description: "Gamjee well jail cells is an indoor location in Andor's Trail. NPCs: Osric, Percival. Enemies: Burrowing glow worm, Hardershell beetle. Exits to Gamjee well 2 1."
 ---
 
 # Gamjee well jail cells
@@ -14,13 +14,13 @@ description: "Gamjee well jail cells is an indoor location in Andor's Trail. NPC
 | **World map** | [Gamjee well](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **NPCs** | 2 |
-| **Enemy types** | 8 |
+| **Enemy types** | 2 |
 | **Quests** | 1 |
 | **Containers** | 1 |
 
 </div>
 
-**Gamjee well jail cells** is an indoor map. It has 2 NPCs and 8 kinds of enemy. Exits lead to Gamjee well 2 1.
+**Gamjee well jail cells** is an indoor map. It has 2 NPCs and 2 kinds of enemy. Exits lead to Gamjee well 2 1.
 
 ## Map
 
@@ -60,16 +60,12 @@ description: "Gamjee well jail cells is an indoor location in Andor's Trail. NPC
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Godelieve](../monsters/village_godelieve.md#v-troll_hollow_godelieve) | 0 | 0–0 | 1 | – |
-| [Odilia](../monsters/village_odilia.md#v-troll_hollow_odilia) | 0 | 0–0 | 1 | – |
-| [Theodora](../monsters/village_theodora.md#v-troll_hollow_theodora) | 0 | 0–0 | 1 | – |
-| [Theobald](../monsters/village_theobald.md#v-troll_hollow_theobald) | 0 | 0–0 | 1 | – |
-| [Godwin](../monsters/village_godwin.md#v-troll_hollow_godwin) | 0 | 0–0 | 1 | – |
-| [Philippa](../monsters/village_philippa.md#v-troll_hollow_philippa) | 0 | 0–0 | 1 | – |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 1 | – |
 | [Hardershell beetle](../monsters/hardershell_beetle.md) | 54 | 1–7 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Godelieve](../monsters/village_godelieve.md#v-troll_hollow_godelieve), [Godwin](../monsters/village_godwin.md#v-troll_hollow_godwin), [Odilia](../monsters/village_odilia.md#v-troll_hollow_odilia), [Philippa](../monsters/village_philippa.md#v-troll_hollow_philippa), [Theobald](../monsters/village_theobald.md#v-troll_hollow_theobald), [Theodora](../monsters/village_theodora.md#v-troll_hollow_theodora)
 
 ## Items & containers
 

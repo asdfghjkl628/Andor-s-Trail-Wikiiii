@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 3 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Fish, Forest beetle, Wolf, Vicious hound, Rabid hound. Exits to Guynmart wood 2, Guynmart wood 5, Guynmart wood 4, Guynmart wood 3 hole."
+description: "Guynmart wood 3 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Forest beetle, Wolf, Vicious hound, Rabid hound. Exits to Guynmart wood 2, Guynmart wood 5, Guynmart wood 4, Guynmart wood 3 hole."
 ---
 
 # Guynmart wood 3
@@ -14,12 +14,12 @@ description: "Guynmart wood 3 is an outdoor location in Andor's Trail, near Guyn
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
-| **Enemy types** | 5 |
+| **Enemy types** | 4 |
 | **Quests** | 0 |
 
 </div>
 
-**Guynmart wood 3** is an outdoor map, near Guynmart Castle (other). It has no NPCs and 5 kinds of enemy. Exits lead to Guynmart wood 2, Guynmart wood 5, Guynmart wood 4, Guynmart wood 3 hole.
+**Guynmart wood 3** is an outdoor map, near Guynmart Castle (other). It has no NPCs and 4 kinds of enemy. Exits lead to Guynmart wood 2, Guynmart wood 5, Guynmart wood 4, Guynmart wood 3 hole.
 
 ## Map
 
@@ -54,13 +54,14 @@ description: "Guynmart wood 3 is an outdoor location in Andor's Trail, near Guyn
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 2 | – |
 | [Forest beetle](../monsters/forest_beetle.md) | 14 | 2–4 | 3 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 3 | – |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 2 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish2)
 
 ## Quests
 

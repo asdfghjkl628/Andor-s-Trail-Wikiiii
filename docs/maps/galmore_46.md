@@ -1,5 +1,5 @@
 ---
-description: "Galmore 46 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Pond fish, River snapper, Young spitfire bug, Ridgehowler, Mutated harrowback. Exits to Galmore 36, Galmore 47, Galmore 45."
+description: "Galmore 46 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: River snapper, Young spitfire bug, Ridgehowler, Mutated harrowback, River wretch. Exits to Galmore 36, Galmore 47, Galmore 45."
 ---
 
 # Galmore 46
@@ -14,12 +14,12 @@ description: "Galmore 46 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
-| **Enemy types** | 6 |
+| **Enemy types** | 5 |
 | **Quests** | 0 |
 
 </div>
 
-**Galmore 46** is an outdoor map, near Mt. Galmore (other). It has no NPCs and 6 kinds of enemy. Exits lead to Galmore 36, Galmore 47, Galmore 45.
+**Galmore 46** is an outdoor map, near Mt. Galmore (other). It has no NPCs and 5 kinds of enemy. Exits lead to Galmore 36, Galmore 47, Galmore 45.
 
 ## Map
 
@@ -50,7 +50,6 @@ description: "Galmore 46 is an outdoor location in Andor's Trail, near Mt. Galmo
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 2 | – |
 | [River snapper](../monsters/sutdover_snapper.md) | 100 | 11–25 | 2 | – |
 | [Young spitfire bug](../monsters/young_spitfire_bug.md) | 106 | 9–11 | 9 | – |
 | [Ridgehowler](../monsters/ridgehowler.md) | 180 | 19–19 | 1 | – |
@@ -58,6 +57,8 @@ description: "Galmore 46 is an outdoor location in Andor's Trail, near Mt. Galmo
 | [River wretch](../monsters/river_wretch.md) | 201 | 9–13 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

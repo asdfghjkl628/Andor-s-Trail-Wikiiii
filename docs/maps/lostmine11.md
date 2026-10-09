@@ -1,5 +1,5 @@
 ---
-description: "Lostmine 11 is an indoor location in Andor's Trail. NPCs: Thukuzun. Enemies: Walking flame, Ancient walking inferno, Walking inferno. Exits to Lostmine 10."
+description: "Lostmine 11 is an indoor location in Andor's Trail. NPCs: Thukuzun. Enemies: Walking flame, Walking inferno, Ancient walking inferno. Exits to Lostmine 10."
 ---
 
 # Lostmine 11
@@ -52,8 +52,8 @@ description: "Lostmine 11 is an indoor location in Andor's Trail. NPCs: Thukuzun
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Walking flame](../monsters/fire7.md) | 131 | 0–10 | 10 | shares spawn with Walking inferno |
-| [Ancient walking inferno](../monsters/fire9.md) | 135 | 0–10 | 3 | – |
 | [Walking inferno](../monsters/fire8.md) | 135 | 0–10 | 10 | shares spawn with Walking flame |
+| [Ancient walking inferno](../monsters/fire9.md) | 135 | 0–10 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

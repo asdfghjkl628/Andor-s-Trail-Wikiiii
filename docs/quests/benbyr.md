@@ -12,7 +12,7 @@ description: "Cheap cuts is a quest in Andor's Trail, started by Benbyr (crossro
 | **In journal** | Yes |
 | **Stages** | 5 (completes at 30, 60) |
 | **Started by** | [Benbyr](../monsters/benbyr.md) ([Crossroads](../maps/crossroads.md)) |
-| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md#v-lostsheep2), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3) |
+| **NPCs involved** | [Benbyr](../monsters/benbyr.md), [Sheep](../monsters/sheep1.md#v-lostsheep4), [Sheep](../monsters/sheep1.md#v-lostsheep3), [Sheep](../monsters/sheep1.md), [Sheep](../monsters/sheep1.md#v-lostsheep1), [Sheep](../monsters/sheep1.md#v-lostsheep2) |
 | **Locations** | [Crossroads](../maps/crossroads.md), [Fields 1](../maps/fields1.md), [Fields 2](../maps/fields2.md), [Fields 3](../maps/fields3.md) |
 | **Total XP** | 900 |
 | **Related quests** | 2 |

@@ -1,5 +1,5 @@
 ---
-description: "Laerothcave 0 is an outdoor location in Andor's Trail. Enemies: Venomous beach crawler, Poisonous vine, Giant centipede, Aggressive giant centipede. Exits to Mountainlake 5, Laerothcave 1, Secretpassage 0, Secretpassage 1."
+description: "Laerothcave 0 is an outdoor location in Andor's Trail. Enemies: Venomous beach crawler, Giant centipede, Poisonous vine, Aggressive giant centipede. Exits to Mountainlake 5, Laerothcave 1, Secretpassage 0, Secretpassage 1."
 ---
 
 # Laerothcave 0
@@ -55,9 +55,9 @@ description: "Laerothcave 0 is an outdoor location in Andor's Trail. Enemies: Ve
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Venomous beach crawler](../monsters/beach_crawler_1.md) | 70 | 2–8 | 6 | – |
-| [Poisonous vine](../monsters/poison_vine_top.md) | 90 | 1–3 | 2 | – |
 | [Giant centipede](../monsters/centipede.md) | 90 | 3–9 | 9 | shares spawn with Aggressive giant centipede |
 | [Poisonous vine](../monsters/poison_vine_top.md#v-poison_vine_bottom) | 90 | 1–3 | 2 | – |
+| [Poisonous vine](../monsters/poison_vine_top.md) | 90 | 1–3 | 2 | – |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 | 5–11 | 9 | shares spawn with Giant centipede |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

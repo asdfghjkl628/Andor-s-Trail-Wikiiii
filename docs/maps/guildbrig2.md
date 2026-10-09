@@ -1,5 +1,5 @@
 ---
-description: "Guildbrig 2 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Greedy, Grabby, Zachlanny, Defy, Alaric. Exits to Guildbrig 1."
+description: "Guildbrig 2 is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to Guildbrig 1."
 ---
 
 # Guildbrig 2
@@ -13,13 +13,12 @@ description: "Guildbrig 2 is an indoor location in Andor's Trail, in Fallhaven (
 | **Type** | Indoors / underground |
 | **Size** | 10×12 tiles |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
-| **Enemy types** | 5 |
 | **Quests** | 1 |
 | **Containers** | 1 |
 
 </div>
 
-**Guildbrig 2** is an indoor map, in Fallhaven (settlement). It has no NPCs and 5 kinds of enemy. Exits lead to Guildbrig 1.
+**Guildbrig 2** is an indoor map, in Fallhaven (settlement). It has no NPCs, and no enemies. Exits lead to Guildbrig 1.
 
 ## Map
 
@@ -45,17 +44,7 @@ description: "Guildbrig 2 is an indoor location in Andor's Trail, in Fallhaven (
 |---|---|---|---|
 | South | [Guildbrig 1](guildbrig1.md) | Fallhaven | 1 |
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_jail_greedy) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_jail_grabby) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_jail_zachlanny) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Defy](../monsters/g04_defy.md#v-aidem_jail_defy) | 0 | 0–0 | 1 | appears later, during a quest |
-| [Alaric](../monsters/aidem_base_alaric.md#v-aidem_jail_alaric) | 0 | 0–0 | 1 | appears later, during a quest |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Alaric](../monsters/aidem_base_alaric.md#v-aidem_jail_alaric), [Defy](../monsters/g04_defy.md#v-aidem_jail_defy), [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_jail_grabby), [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_jail_greedy), [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_jail_zachlanny)
 
 ## Items & containers
 

@@ -1,5 +1,5 @@
 ---
-description: "Brightportwild 2 is an indoor location in Andor's Trail. Enemies: Duleian mountain cat cub, Duleian mountain cat, Muskrat, Virulent forest deer. Exits to Waytobrightport 13, Brightportwild 3, Brightportwild 1."
+description: "Brightportwild 2 is an indoor location in Andor's Trail. Enemies: Duleian mountain cat, Muskrat, Virulent forest deer. Exits to Waytobrightport 13, Brightportwild 3, Brightportwild 1."
 ---
 
 # Brightportwild 2
@@ -13,12 +13,12 @@ description: "Brightportwild 2 is an indoor location in Andor's Trail. Enemies: 
 | **Size** | 12×25 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
-| **Enemy types** | 4 |
+| **Enemy types** | 3 |
 | **Quests** | 2 |
 
 </div>
 
-**Brightportwild 2** is an indoor map. It has no NPCs and 4 kinds of enemy. Exits lead to Waytobrightport 13, Brightportwild 3, Brightportwild 1.
+**Brightportwild 2** is an indoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Waytobrightport 13, Brightportwild 3, Brightportwild 1.
 
 ## Map
 
@@ -55,12 +55,13 @@ description: "Brightportwild 2 is an indoor location in Andor's Trail. Enemies: 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Duleian mountain cat cub](../monsters/brightport_cat.md) | 0 | 0–0 | 3 | – |
 | [Duleian mountain cat](../monsters/duleian_mountain_cat.md) | 97 | 7–19 | 3 | – |
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 | 6–15 | 1 | – |
 | [Virulent forest deer](../monsters/brightport_deer.md) | 240 | 8–19 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Duleian mountain cat cub](../monsters/brightport_cat.md)
 
 ## Quests
 

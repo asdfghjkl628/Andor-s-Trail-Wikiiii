@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 2 is an indoor location in Andor's Trail, in Entry (other). NPCs: Clevred. Enemies: Cave rat, Tough cave rat. Exits to Ratdom maze 1, Ratdom maze 3, Ratdom maze 448."
+description: "Ratdom maze 2 is an indoor location in Andor's Trail, in Entry (other). NPCs: Clevred. Enemies: Tough cave rat, Cave rat. Exits to Ratdom maze 1, Ratdom maze 3, Ratdom maze 448."
 ---
 
 # Ratdom maze 2
@@ -73,8 +73,8 @@ description: "Ratdom maze 2 is an indoor location in Andor's Trail, in Entry (ot
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 4 | – |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
+| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 4 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

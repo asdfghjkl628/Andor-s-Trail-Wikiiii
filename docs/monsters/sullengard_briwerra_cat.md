@@ -1,10 +1,10 @@
 ---
-description: "Briwerra's family cat is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Sullengard."
+description: "Briwerra's family cat is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Sullengard."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_103.png){ .sprite } Briwerra's family cat
 
-**Found in:** Sullengard: [Sullengard 1 southeast house](../maps/sullengard1_southeast_house.md)
+**Where to find Briwerra's family cat:** Sullengard: [Sullengard 1 southeast house](../maps/sullengard1_southeast_house.md)
 
 <div class="infobox" markdown>
 
@@ -12,43 +12,15 @@ description: "Briwerra's family cat is an enemy in Andor's Trail (animal) with 1
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Sullengard |
-| **Class** | Animal |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entry ID** | `sullengard_briwerra_cat` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-## Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Sullengard 1 southeast house](../maps/sullengard1_southeast_house.md) | Sullengard | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ## Version history
@@ -85,15 +57,6 @@ description: "Briwerra's family cat is an enemy in Andor's Trail (animal) with 1
      "spawnGroup": "sullengard_briwerra_cat"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

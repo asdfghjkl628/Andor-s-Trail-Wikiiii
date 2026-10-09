@@ -56,9 +56,9 @@ description: "Undertell 4 11 is an indoor location in Andor's Trail. Enemies: Pl
 | [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 1 | – |
 | [Embergeist](../monsters/embergeist.md) | 266 | 21–22 | 4 | – |
 | [Dreadstaff lich](../monsters/dreadblade.md) | 285 | 10–13 | 1 | – |
-| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 295 | 10–12 | 1 | – |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_plague) | 295 | 10–12 | 1 | – |
 | [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_others) | 295 | 10–12 | 1 | – |
+| [Kazaul seer lich](../monsters/kazaul_seer_lich.md#v-kazaul_seer_lich_help_liches) | 295 | 10–12 | 1 | – |
 | [Kazaul crimson arbiter lich](../monsters/kazaul_crimson_arbiter_lich.md) | 305 | 11–13 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

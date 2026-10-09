@@ -92,7 +92,7 @@ Set your quest stages and items, then talk to Watchman. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 10 lines added |
-| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed<br>· text: “You're really curious boy... Well our superior, the warden, only want…” → “You're really curious boy... Well our superior, the guard captain, on…”<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” |
+| [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed<br>· text: “OK, maybe you can be of use. Talk to the warden. Maybe you can convin…” → “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…”<br>· text: “You're really curious boy... Well our superior, the warden, only want…” → “You're really curious boy... Well our superior, the guard captain, on…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 1 line changed<br>· text: “OK, maybe you can be of use. Talk to the guard captainn. Maybe you ca…” → “OK, maybe you can be of use. Talk to the guard captain. Maybe you can…” |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “You're really curious boy... Well our superior, the guard captain, on…” → “You're really curious kid... Well our superior, the guard captain, on…” |
 

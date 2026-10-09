@@ -1,10 +1,10 @@
 ---
-description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in Brightport chimney, Brightport crate 1, Brightport crate 2."
+description: "Guard 1 is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Brightport chimney, Brightport crate 1, Brightport crate 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } Guard 1
 
-**Found in:** [Brightport chimney](../maps/brightport_chimney.md), [Brightport crate 1](../maps/brightport_crate1.md), [Brightport crate 2](../maps/brightport_crate2.md)
+**Where to find Guard 1:** [Brightport chimney](../maps/brightport_chimney.md), [Brightport crate 1](../maps/brightport_crate1.md), [Brightport crate 2](../maps/brightport_crate2.md)
 
 <div class="infobox" markdown>
 
@@ -12,37 +12,15 @@ description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Brightport chimney, Brightport crate 1, Brightport crate 2 |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entry ID** | `brightportguardcrate1` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-## Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 ## Locations
 
@@ -84,15 +62,6 @@ description: "Guard 1 is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1
      "iconID": "monsters_ld1:94"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

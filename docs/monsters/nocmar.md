@@ -341,7 +341,7 @@ Set your quest stages and items, then talk to Nocmar. Same rules as the game: sa
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “*Nocmar places the heartstone among the heartsteel weapons*” → “[Nocmar places the heartstone among the heartsteel weapons]”<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines added, 2 lines changed<br>· text: “Undertell; the pits of the lost souls. Travel south and enter the cav…” → “Undertell; the pits of the lost souls. Travel south to the devastated…” |
-| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “[Nocmar places the heartstone among the heartsteel weapons]” → “While pausing, Nocmar looks down, then sighs.”<br>· text: “Quick. Let's get these old heartsteel weapons glowing again.” → “But no, I cannot work it here. Too many eyes, too many whispers. If I…” |
+| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Can you see the glow? It's literally pulsating.” → “He studies it with reverence, then grows troubled.”<br>· text: “[Nocmar places the heartstone among the heartsteel weapons]” → “While pausing, Nocmar looks down, then sighs.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: Unknown female voice, Unknown male voice, Burrowing glow worm, Hardershell beetle, Spotted tentaslime. Exits to Gamjee well jail cells, Gamjee well 4 1, Gamjee well 3 1, Gamjee well 1 1."
+description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: Burrowing glow worm, Hardershell beetle, Spotted tentaslime. Exits to Gamjee well jail cells, Gamjee well 4 1, Gamjee well 3 1, Gamjee well 1 1."
 ---
 
 # Gamjee well 2 1
@@ -13,12 +13,12 @@ description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: U
 | **Size** | 29×14 tiles |
 | **World map** | [Gamjee well](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
-| **Enemy types** | 5 |
+| **Enemy types** | 3 |
 | **Quests** | 1 |
 
 </div>
 
-**Gamjee well 2 1** is an indoor map. It has no NPCs and 5 kinds of enemy. Exits lead to Gamjee well jail cells, Gamjee well 4 1, Gamjee well 3 1, Gamjee well 1 1.
+**Gamjee well 2 1** is an indoor map. It has no NPCs and 3 kinds of enemy. Exits lead to Gamjee well jail cells, Gamjee well 4 1, Gamjee well 3 1, Gamjee well 1 1.
 
 ## Map
 
@@ -52,13 +52,13 @@ description: "Gamjee well 2 1 is an indoor location in Andor's Trail. Enemies: U
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Unknown female voice](../monsters/gamjee_well_unknown_female_voice.md) | 0 | 0–0 | 1 | – |
-| [Unknown male voice](../monsters/gamjee_well_unknown_male_voice.md) | 0 | 0–0 | 1 | – |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 2 | – |
 | [Hardershell beetle](../monsters/hardershell_beetle.md) | 54 | 1–7 | 1 | – |
 | [Spotted tentaslime](../monsters/spotted_tentaslime.md) | 150 | 8–14 | 4 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Unknown female voice](../monsters/gamjee_well_unknown_female_voice.md), [Unknown male voice](../monsters/gamjee_well_unknown_male_voice.md)
 
 ## Quests
 

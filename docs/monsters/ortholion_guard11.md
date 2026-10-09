@@ -62,7 +62,7 @@ Set your quest stages and items, then talk to Drunken Feygard patrol. Same rules
 | Version | Change |
 |---|---|
 | [v0.7.14](../versions/0.7.14.md) | Added<br>Dialogue: 5 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “H..Halt! *hic* Kids not allowed!” → “H..Halt! [hic] Kids not allowed!”<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “No! *looks at you* This is my beeeeeer, kid! *hic*” → “No! [looks at you] This is my beeeeeer, kid! [hic]”<br>· text: “*hic* Drink! *hic* Drink for those who've fallen!” → “[hic] Drink! [hic] Drink for those who've fallen!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

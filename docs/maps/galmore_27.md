@@ -1,5 +1,5 @@
 ---
-description: "Galmore 27 is an outdoor location in Andor's Trail. Enemies: Pond fish, Swamp hornet, Swamp beetle, Giant mosquito, Snapmaw. Exits to Galmore 17, Galmore 28, Galmore 37, Galmore 26."
+description: "Galmore 27 is an outdoor location in Andor's Trail. Enemies: Swamp hornet, Swamp beetle, Giant mosquito, Snapmaw. Exits to Galmore 17, Galmore 28, Galmore 37, Galmore 26."
 ---
 
 # Galmore 27
@@ -13,12 +13,12 @@ description: "Galmore 27 is an outdoor location in Andor's Trail. Enemies: Pond 
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
-| **Enemy types** | 5 |
+| **Enemy types** | 4 |
 | **Quests** | 0 |
 
 </div>
 
-**Galmore 27** is an outdoor map. It has no NPCs and 5 kinds of enemy. Exits lead to Galmore 17, Galmore 28, Galmore 37, Galmore 26.
+**Galmore 27** is an outdoor map. It has no NPCs and 4 kinds of enemy. Exits lead to Galmore 17, Galmore 28, Galmore 37, Galmore 26.
 
 ## Map
 
@@ -51,13 +51,14 @@ description: "Galmore 27 is an outdoor location in Andor's Trail. Enemies: Pond 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 1 | – |
 | [Swamp hornet](../monsters/swamp_hornet.md) | 99 | 12–15 | 6 | – |
 | [Swamp beetle](../monsters/swamp_bettle.md) | 101 | 7–12 | 13 | – |
 | [Giant mosquito](../monsters/giant_mosquito.md) | 106 | 10–12 | 4 | – |
 | [Snapmaw](../monsters/snapmaw.md) | 114 | 13–25 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

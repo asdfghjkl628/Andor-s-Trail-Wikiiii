@@ -692,8 +692,8 @@ Set your quest stages and items, then talk to Lodar. Same rules as the game: sam
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the Arulir. Their…” |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …”<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …”<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …”<br>· text: “No, maybe I should add some of the ..” → “No, maybe I should add some of the...” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…”<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Oh, you must be referring to that other boy that was here recently.” → “Oh, you must be referring to that older boy that was here recently.” |
 

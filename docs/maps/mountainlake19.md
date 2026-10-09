@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake 19 is an outdoor location in Andor's Trail. NPCs: Kalypso. Enemies: Fish, Jellyfish. Exits to Mountainlake 11, Mountainlake 10a, Mountainlake 20, Mountainlake 14."
+description: "Mountainlake 19 is an outdoor location in Andor's Trail. NPCs: Kalypso. Exits to Mountainlake 11, Mountainlake 10a, Mountainlake 20, Mountainlake 14."
 ---
 
 # Mountainlake 19
@@ -14,12 +14,11 @@ description: "Mountainlake 19 is an outdoor location in Andor's Trail. NPCs: Kal
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 10 |
 | **Quests** | 2 |
 
 </div>
 
-**Mountainlake 19** is an outdoor map. It has 1 NPC and 10 kinds of enemy. Exits lead to Mountainlake 11, Mountainlake 10a, Mountainlake 20, Mountainlake 14.
+**Mountainlake 19** is an outdoor map. It has 1 NPC, and no enemies. Exits lead to Mountainlake 11, Mountainlake 10a, Mountainlake 20, Mountainlake 14.
 
 ## Map
 
@@ -55,22 +54,7 @@ description: "Mountainlake 19 is an outdoor location in Andor's Trail. NPCs: Kal
 
 - [Kalypso](../monsters/kalypso.md) — quests: [A map of the Great Lake Laeroth](../quests/lake_map.md) (#5)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 5 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 5 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Eel](../monsters/ll2_watersnake1.md), [Fish](../monsters/brv_fish1.md#v-ll2_fish6), [Fish](../monsters/brv_fish1.md#v-ll2_fish3), [Fish](../monsters/brv_fish1.md#v-ll2_fish4), [Fish](../monsters/brv_fish1.md#v-ll2_fish5), [Fish](../monsters/brv_fish1.md#v-ll2_fish1), [Fish](../monsters/brv_fish1.md#v-ll2_fish2), [Jellyfish](../monsters/ll2_jelly1.md), [Squid](../monsters/ll2_squid1.md), [Turtle](../monsters/ll2_turtle1.md)
 
 ## Quests
 

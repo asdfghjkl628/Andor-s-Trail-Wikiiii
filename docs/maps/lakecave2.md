@@ -1,5 +1,5 @@
 ---
-description: "Lakecave 2 is an indoor location in Andor's Trail. NPCs: Caeda, Cave troll leader. Enemies: Cave scorpion, Puny cave scorpion, Strong cave troll, Tough cave troll, Cave troll shaman. Exits to Lakecave 0, Lakecave 1."
+description: "Lakecave 2 is an indoor location in Andor's Trail. NPCs: Caeda, Cave troll leader. Enemies: Puny cave scorpion, Cave scorpion, Strong cave troll, Tough cave troll, Cave troll shaman. Exits to Lakecave 0, Lakecave 1."
 ---
 
 # Lakecave 2
@@ -63,8 +63,8 @@ description: "Lakecave 2 is an indoor location in Andor's Trail. NPCs: Caeda, Ca
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 2 | shares spawn with Puny cave scorpion |
 | [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 | 2–5 | 2 | shares spawn with Cave scorpion |
+| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 2 | shares spawn with Puny cave scorpion |
 | [Strong cave troll](../monsters/cave_troll_2.md) | 250 | 5–15 | 5 | – |
 | [Tough cave troll](../monsters/cave_troll_3.md) | 290 | 5–15 | 10 | – |
 | [Cave troll shaman](../monsters/cave_troll_4.md) | 300 | 1–15 | 6 | – |

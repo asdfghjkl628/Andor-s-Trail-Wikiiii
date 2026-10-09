@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake 13a is an outdoor location in Andor's Trail, near Remgard (settlement). NPCs: Bridge lookout. Enemies: Fish, Jellyfish. Exits to Mountainlake 13, Mountainlake 15, Mountainlake 16, Remgard 0."
+description: "Mountainlake 13a is an outdoor location in Andor's Trail, near Remgard (settlement). NPCs: Bridge lookout. Enemies: Mountain wolf pup, Young mountain wolf, Young mountain fox. Exits to Mountainlake 13, Mountainlake 15, Mountainlake 16, Remgard 0."
 ---
 
 # Mountainlake 13a
@@ -15,12 +15,12 @@ description: "Mountainlake 13a is an outdoor location in Andor's Trail, near Rem
 | **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 1 |
-| **Enemy types** | 13 |
+| **Enemy types** | 3 |
 | **Quests** | 3 |
 
 </div>
 
-**Mountainlake 13a** is an outdoor map, near Remgard (settlement). It has 1 NPC and 13 kinds of enemy. Exits lead to Mountainlake 13, Mountainlake 15, Mountainlake 16, Remgard 0.
+**Mountainlake 13a** is an outdoor map, near Remgard (settlement). It has 1 NPC and 3 kinds of enemy. Exits lead to Mountainlake 13, Mountainlake 15, Mountainlake 16, Remgard 0.
 
 ## Map
 
@@ -59,21 +59,13 @@ description: "Mountainlake 13a is an outdoor location in Andor's Trail, near Rem
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 3 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Mountain wolf pup](../monsters/mwolf_1.md) | 45 | 2–7 | 1 | shares spawn with Young mountain fox, Young mountain wolf |
 | [Young mountain wolf](../monsters/mwolf_2.md) | 52 | 3–7 | 1 | shares spawn with Mountain wolf pup, Young mountain fox |
 | [Young mountain fox](../monsters/mwolf_3.md) | 56 | 3–7 | 1 | shares spawn with Mountain wolf pup, Young mountain wolf |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Eel](../monsters/ll2_watersnake1.md), [Fish](../monsters/brv_fish1.md#v-ll2_fish6), [Fish](../monsters/brv_fish1.md#v-ll2_fish3), [Fish](../monsters/brv_fish1.md#v-ll2_fish4), [Fish](../monsters/brv_fish1.md#v-ll2_fish5), [Fish](../monsters/brv_fish1.md#v-ll2_fish1), [Fish](../monsters/brv_fish1.md#v-ll2_fish2), [Jellyfish](../monsters/ll2_jelly1.md), [Squid](../monsters/ll2_squid1.md), [Turtle](../monsters/ll2_turtle1.md)
 
 ## Quests
 

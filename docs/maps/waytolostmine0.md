@@ -1,5 +1,5 @@
 ---
-description: "Waytolostmine 0 is an outdoor location in Andor's Trail, near Charwood (settlement). NPCs: Charwood goblin. Enemies: Puny Charwood goblin, Carrion centipede, Charwood goblin scout, Ravenous carrion centipede, Bloated carrion centipede. Exits to Waytolostmine 1, Waytominingtown 3."
+description: "Waytolostmine 0 is an outdoor location in Andor's Trail, near Charwood (settlement). NPCs: Charwood goblin. Enemies: Puny Charwood goblin, Carrion centipede, Ravenous carrion centipede, Charwood goblin scout, Bloated carrion centipede. Exits to Waytolostmine 1, Waytominingtown 3."
 ---
 
 # Waytolostmine 0
@@ -56,8 +56,8 @@ description: "Waytolostmine 0 is an outdoor location in Andor's Trail, near Char
 |---|---|---|---|---|
 | [Puny Charwood goblin](../monsters/charwdg1.md) | 53 | 5–7 | 2 | shares spawn with Charwood goblin scout, Starving Charwood goblin |
 | [Carrion centipede](../monsters/ccentip0.md) | 54 | 6–14 | 23 | shares spawn with Bloated carrion centipede, Ravenous carrion centipede |
-| [Charwood goblin scout](../monsters/charwdg2.md) | 56 | 6–9 | 2 | shares spawn with Puny Charwood goblin, Starving Charwood goblin |
 | [Ravenous carrion centipede](../monsters/ccentip1.md) | 56 | 7–14 | 23 | shares spawn with Bloated carrion centipede, Carrion centipede |
+| [Charwood goblin scout](../monsters/charwdg2.md) | 56 | 6–9 | 2 | shares spawn with Puny Charwood goblin, Starving Charwood goblin |
 | [Bloated carrion centipede](../monsters/ccentip2.md) | 59 | 8–14 | 23 | shares spawn with Carrion centipede, Ravenous carrion centipede |
 | [Starving Charwood goblin](../monsters/charwdg3.md) | 64 | 6–9 | 2 | shares spawn with Charwood goblin scout, Puny Charwood goblin |
 

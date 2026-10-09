@@ -421,7 +421,7 @@ Set your quest stages and items, then talk to Gylew. Same rules as the game: sam
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.8.11](../versions/0.8.11.md) | Attack chance: added (60)<br>Attack cost: added (5)<br>Attack damage: added (10–22)<br>Block chance: added (40)<br>Critical multiplier: added (2)<br>Critical skill: added (20)<br>Loot table added<br>Max HP: added (180)<br>Move cost: added (5)<br>Unique flag: added (1)<br>Dialogue: 66 lines added, 1 line changed<br>· text: “Beat it, kid. You shouldn't be out here.” → “Hey kid.” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 8 lines changed<br>· text: “Great! Let me have it.” → “Great! Let me have them.”<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 4 lines added, 8 lines changed<br>· text: “[The collector pauses, his gaze lingering on the coins.] These pieces…” → “[The collector pauses, his gaze lingering on the coins.] These pieces…”<br>· text: “Great! Let me have it.” → “Great! Let me have them.” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 1 line changed<br>· text: “These bronze pieces bear the mark of the Lunar Whispe, an infamous th…” → “These bronze pieces bear the mark of the Lunar Whisper, an infamous t…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “[While laughing] Now, now, don't get greedy on me. How about 7000 gol…” → “[While laughing] Now, now, don't get greedy on me. How about {7000} g…” |
 

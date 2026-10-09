@@ -1,5 +1,5 @@
 ---
-description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Brimhaven, Guynmart Castle, Guynmart Castle, Lake Laeroth, Remgard, Lake Laeroth, Waterway."
+description: "Fish is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Brimhaven, Guynmart Castle, Guynmart Castle, Lake Laeroth, Remgard, Lake Laeroth, Waterway."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_30.png){ .sprite } Fish
@@ -10,11 +10,8 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Brimhaven, Guynmart Castle, Guynmart Castle, Lake Laeroth, Remgard, Lake Laeroth, Waterway |
-| **Class** | Animal, Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 12 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
@@ -23,54 +20,29 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 !!! info "12 entries in the game data"
     The game data defines 12 separate characters named Fish. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, appearance. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`brv_fish1`](#v-brv_fish1) | Enemy | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md) | – | 1 |
-| [`brv_fish2`](#v-brv_fish2) | Enemy | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md) | – | 1 |
-| [`guynmart_fish1`](#v-guynmart_fish1) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – | 1 |
-| [`guynmart_fish2`](#v-guynmart_fish2) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), Guynmart Castle: [Guynmart wood 3](../maps/guynmart_wood_3.md) (+4 more) | – | 1 |
-| [`ll2_fish1`](#v-ll2_fish1) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish2`](#v-ll2_fish2) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish3`](#v-ll2_fish3) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish4`](#v-ll2_fish4) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish5`](#v-ll2_fish5) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ll2_fish6`](#v-ll2_fish6) | Enemy | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – | 1 |
-| [`ratdom_water_fish1`](#v-ratdom_water_fish1) | Enemy | Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md) | – | 1 |
-| [`ratdom_water_fish2`](#v-ratdom_water_fish2) | Enemy | Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`brv_fish1`](#v-brv_fish1) | Scenery | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md) | – |
+| [`brv_fish2`](#v-brv_fish2) | Scenery | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md) | – |
+| [`guynmart_fish1`](#v-guynmart_fish1) | Scenery | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md) | – |
+| [`guynmart_fish2`](#v-guynmart_fish2) | Scenery | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), Guynmart Castle: [Guynmart wood 3](../maps/guynmart_wood_3.md) (+4 more) | – |
+| [`ll2_fish1`](#v-ll2_fish1) | Scenery | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – |
+| [`ll2_fish2`](#v-ll2_fish2) | Scenery | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – |
+| [`ll2_fish3`](#v-ll2_fish3) | Scenery | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – |
+| [`ll2_fish4`](#v-ll2_fish4) | Scenery | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – |
+| [`ll2_fish5`](#v-ll2_fish5) | Scenery | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – |
+| [`ll2_fish6`](#v-ll2_fish6) | Scenery | Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md) (+19 more) | – |
+| [`ratdom_water_fish1`](#v-ratdom_water_fish1) | Scenery | Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md) | – |
+| [`ratdom_water_fish2`](#v-ratdom_water_fish2) | Scenery | Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md) | – |
 
 ## Brimhaven, Brimhaven 3 (brv_fish1) { #v-brv_fish1 }
 
-**Entry ID:** `brv_fish1` · **Type:** Enemy
+**Entry ID:** `brv_fish1` · **Type:** Scenery
 
 **Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 2 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -110,37 +82,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Brimhaven, Brimhaven 3 (brv_fish2) { #v-brv_fish2 }
 
-**Entry ID:** `brv_fish2` · **Type:** Enemy
+**Entry ID:** `brv_fish2` · **Type:** Scenery
 
 **Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven 3](../maps/brimhaven3.md) | Brimhaven | 2 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -180,31 +127,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Guynmart Castle, Guynmart wood 2 and 1 more (guynmart_fish1) { #v-guynmart_fish1 }
 
-**Entry ID:** `guynmart_fish1` · **Type:** Enemy
+**Entry ID:** `guynmart_fish1` · **Type:** Scenery
 
 **Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -250,31 +178,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Guynmart Castle, Guynmart wood 2 and 5 more (guynmart_fish2) { #v-guynmart_fish2 }
 
-**Entry ID:** `guynmart_fish2` · **Type:** Enemy
+**Entry ID:** `guynmart_fish2` · **Type:** Scenery
 
 **Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md), Guynmart Castle: [Guynmart wood 3](../maps/guynmart_wood_3.md), Lake Laeroth: [Laerothisland 0](../maps/laerothisland0.md), Lake Laeroth: [Laerothisland 1](../maps/laerothisland1.md), Lake Laeroth: [Mountainlake 10a](../maps/mountainlake10a.md), [Blackwater mountain 76](../maps/blackwater_mountain76.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -324,31 +233,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish1) { #v-ll2_fish1 }
 
-**Entry ID:** `ll2_fish1` · **Type:** Enemy
+**Entry ID:** `ll2_fish1` · **Type:** Scenery
 
 **Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -415,31 +305,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish2) { #v-ll2_fish2 }
 
-**Entry ID:** `ll2_fish2` · **Type:** Enemy
+**Entry ID:** `ll2_fish2` · **Type:** Scenery
 
 **Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -506,31 +377,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish3) { #v-ll2_fish3 }
 
-**Entry ID:** `ll2_fish3` · **Type:** Enemy
+**Entry ID:** `ll2_fish3` · **Type:** Scenery
 
 **Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -597,31 +449,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish4) { #v-ll2_fish4 }
 
-**Entry ID:** `ll2_fish4` · **Type:** Enemy
+**Entry ID:** `ll2_fish4` · **Type:** Scenery
 
 **Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -688,31 +521,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish5) { #v-ll2_fish5 }
 
-**Entry ID:** `ll2_fish5` · **Type:** Enemy
+**Entry ID:** `ll2_fish5` · **Type:** Scenery
 
 **Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -779,31 +593,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Lake Laeroth, Mountainlake 2 and 20 more (ll2_fish6) { #v-ll2_fish6 }
 
-**Entry ID:** `ll2_fish6` · **Type:** Enemy
+**Entry ID:** `ll2_fish6` · **Type:** Scenery
 
 **Location:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md), Remgard: [Mountainlake 13a](../maps/mountainlake13a.md) (+15 more)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ### Locations
 
@@ -870,37 +665,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Waterway, Ratdom maze 664 (ratdom_water_fish1) { #v-ratdom_water_fish1 }
 
-**Entry ID:** `ratdom_water_fish1` · **Type:** Enemy
+**Entry ID:** `ratdom_water_fish1` · **Type:** Scenery
 
 **Location:** Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -938,37 +708,12 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
 
 ## Waterway, Ratdom maze 664 (ratdom_water_fish2) { #v-ratdom_water_fish2 }
 
-**Entry ID:** `ratdom_water_fish2` · **Type:** Enemy
+**Entry ID:** `ratdom_water_fish2` · **Type:** Scenery
 
 **Location:** Waterway: [Ratdom maze 664](../maps/ratdom_maze_664.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -1003,15 +748,6 @@ description: "Fish is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, 
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

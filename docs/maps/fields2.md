@@ -1,5 +1,5 @@
 ---
-description: "Fields 2 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Sheep. Enemies: Grasslands beetle, Tough grasslands beetle, Grasslands lizard, Black grasslands lizard. Exits to Fields 5, Fields 1, Fields 8, Fields 3."
+description: "Fields 2 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Sheep. Enemies: Grasslands beetle, Tough grasslands beetle, Black grasslands lizard, Grasslands lizard. Exits to Fields 5, Fields 1, Fields 8, Fields 3."
 ---
 
 # Fields 2
@@ -60,8 +60,8 @@ description: "Fields 2 is an outdoor location in Andor's Trail, near Crossroads 
 |---|---|---|---|---|
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 2 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 2 | shares spawn with Grasslands beetle |
-| [Grasslands lizard](../monsters/grass_lizard.md) | 45 | 0–8 | 2 | shares spawn with Black grasslands lizard |
 | [Black grasslands lizard](../monsters/grass_lizard2.md) | 45 | 2–9 | 2 | shares spawn with Grasslands lizard |
+| [Grasslands lizard](../monsters/grass_lizard.md) | 45 | 0–8 | 2 | shares spawn with Black grasslands lizard |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

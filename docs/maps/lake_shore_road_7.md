@@ -1,5 +1,5 @@
 ---
-description: "Lake shore road 7 is an outdoor location in Andor's Trail, near Flagstone Prison (other). Enemies: Pond fish, Strong izthiel, Young ViridToxin dartmaw, ViridToxin dartmaw, River troll. Exits to Lake shore road 7a, Lake shore road 8, Lake shore road 2, Lake shore road 6."
+description: "Lake shore road 7 is an outdoor location in Andor's Trail, near Flagstone Prison (other). Enemies: Strong izthiel, Young ViridToxin dartmaw, ViridToxin dartmaw, River troll. Exits to Lake shore road 7a, Lake shore road 8, Lake shore road 2, Lake shore road 6."
 ---
 
 # Lake shore road 7
@@ -14,12 +14,12 @@ description: "Lake shore road 7 is an outdoor location in Andor's Trail, near Fl
 | **Size** | 27×27 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
-| **Enemy types** | 5 |
+| **Enemy types** | 4 |
 | **Quests** | 0 |
 
 </div>
 
-**Lake shore road 7** is an outdoor map, near Flagstone Prison (other). It has no NPCs and 5 kinds of enemy. Exits lead to Lake shore road 7a, Lake shore road 8, Lake shore road 2, Lake shore road 6 and 1 more.
+**Lake shore road 7** is an outdoor map, near Flagstone Prison (other). It has no NPCs and 4 kinds of enemy. Exits lead to Lake shore road 7a, Lake shore road 8, Lake shore road 2, Lake shore road 6 and 1 more.
 
 ## Map
 
@@ -54,13 +54,14 @@ description: "Lake shore road 7 is an outdoor location in Andor's Trail, near Fl
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 2 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 1 | – |
 | [Young ViridToxin dartmaw](../monsters/young_virid_toxin.md) | 80 | 4–12 | 5 | – |
 | [ViridToxin dartmaw](../monsters/virid_toxin.md) | 93 | 6–14 | 6 | – |
 | [River troll](../monsters/rivertroll.md) | 210 | 2–9 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

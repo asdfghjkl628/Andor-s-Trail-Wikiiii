@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 664 is an indoor location in Andor's Trail, in Waterway (other). NPCs: Clevred. Enemies: Fish, Tiny rat, Tough cave rat, Cave rat. Exits to Ratdom maze 655, Ratdom maze 664, Ratdom maze 675, Ratdom maze 674."
+description: "Ratdom maze 664 is an indoor location in Andor's Trail, in Waterway (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Malignant cave snake, Nasty cave snake. Exits to Ratdom maze 655, Ratdom maze 664, Ratdom maze 675, Ratdom maze 674."
 ---
 
 # Ratdom maze 664
@@ -15,13 +15,13 @@ description: "Ratdom maze 664 is an indoor location in Andor's Trail, in Waterwa
 | **World map** | [Ratdom level 6](index.md) |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 7 |
+| **Enemy types** | 5 |
 | **Quests** | 2 |
 | **Containers** | 1 |
 
 </div>
 
-**Ratdom maze 664** is an indoor map, in Waterway (other). It has 1 NPC and 7 kinds of enemy. Exits lead to Ratdom maze 655, Ratdom maze 664, Ratdom maze 675, Ratdom maze 674 and 1 more.
+**Ratdom maze 664** is an indoor map, in Waterway (other). It has 1 NPC and 5 kinds of enemy. Exits lead to Ratdom maze 655, Ratdom maze 664, Ratdom maze 675, Ratdom maze 674 and 1 more.
 
 ## Map
 
@@ -86,8 +86,6 @@ description: "Ratdom maze 664 is an indoor location in Andor's Trail, in Waterwa
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ratdom_water_fish2) | 0 | 0–0 | 1 | – |
-| [Fish](../monsters/brv_fish1.md#v-ratdom_water_fish1) | 0 | 0–0 | 1 | – |
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
@@ -95,6 +93,8 @@ description: "Ratdom maze 664 is an indoor location in Andor's Trail, in Waterwa
 | [Nasty cave snake](../monsters/cavesnake5.md#v-ratdom_m3b) | 30 | 5–5 | 1 | shares spawn with Malignant cave snake |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-ratdom_water_fish1), [Fish](../monsters/brv_fish1.md#v-ratdom_water_fish2)
 
 ## Items & containers
 

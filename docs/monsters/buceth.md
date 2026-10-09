@@ -336,7 +336,7 @@ Set your quest stages and items, then talk to Buceth. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…”<br>· text: “Hm, that might be an interesting proposal. How much gold are you sugg…” → “Hmm, that might be an interesting proposal. How much gold are you sug…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 12 lines changed<br>· text: “Hm, that might be an interesting proposal. How much gold are you sugg…” → “Hmm, that might be an interesting proposal. How much gold are you sug…”<br>· text: “Changing the way things are done without these methods will require q…” → “Changing the way things are done will require quite an effort for peo…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Then, one day, a group of men come walking into the village. Shining …” → “Then, one day, a group of men come walking into the village. Shining …” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed |

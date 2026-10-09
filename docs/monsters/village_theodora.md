@@ -1,5 +1,5 @@
 ---
-description: "Theodora is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
+description: "Theodora is a non-player character (NPC) in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_186.png){ .sprite } Theodora
@@ -10,11 +10,8 @@ description: "Theodora is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
@@ -23,10 +20,10 @@ description: "Theodora is an NPC who can also be fought in Andor's Trail, found 
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named Theodora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`village_theodora`](#v-village_theodora) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theodora) | – | – |
-| [`troll_hollow_theodora`](#v-troll_hollow_theodora) | Enemy | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`village_theodora`](#v-village_theodora) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_theodora) | – |
+| [`troll_hollow_theodora`](#v-troll_hollow_theodora) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
 
 ## Wexlow Village, Wexlow village (village_theodora) { #v-village_theodora }
 
@@ -126,37 +123,12 @@ Set your quest stages and items, then talk to Theodora. Same rules as the game: 
 
 ## Gamjee well jail cells (troll_hollow_theodora) { #v-troll_hollow_theodora }
 
-**Entry ID:** `troll_hollow_theodora` · **Type:** Enemy
+**Entry ID:** `troll_hollow_theodora` · **Type:** Scenery
 
 **Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -195,15 +167,6 @@ Set your quest stages and items, then talk to Theodora. Same rules as the game: 
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Lake shore road 8 is an outdoor location in Andor's Trail, near Flagstone Prison (other). NPCs: Mushroom guardian. Enemies: Pond fish, Young ViridToxin dartmaw, ViridToxin dartmaw. Exits to Lake shore road 7, Lake shore road 8a, Lake shore road 9."
+description: "Lake shore road 8 is an outdoor location in Andor's Trail, near Flagstone Prison (other). NPCs: Mushroom guardian. Enemies: Young ViridToxin dartmaw, ViridToxin dartmaw. Exits to Lake shore road 7, Lake shore road 8a, Lake shore road 9."
 ---
 
 # Lake shore road 8
@@ -15,12 +15,12 @@ description: "Lake shore road 8 is an outdoor location in Andor's Trail, near Fl
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 3 |
+| **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Lake shore road 8** is an outdoor map, near Flagstone Prison (other). It has 1 NPC and 3 kinds of enemy. Exits lead to Lake shore road 7, Lake shore road 8a, Lake shore road 9.
+**Lake shore road 8** is an outdoor map, near Flagstone Prison (other). It has 1 NPC and 2 kinds of enemy. Exits lead to Lake shore road 7, Lake shore road 8a, Lake shore road 9.
 
 ## Map
 
@@ -56,11 +56,12 @@ description: "Lake shore road 8 is an outdoor location in Andor's Trail, near Fl
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 1 | – |
 | [Young ViridToxin dartmaw](../monsters/young_virid_toxin.md) | 80 | 4–12 | 2 | – |
 | [ViridToxin dartmaw](../monsters/virid_toxin.md) | 93 | 6–14 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

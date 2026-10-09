@@ -12,7 +12,7 @@ description: "Yellow is it is a quest in Andor's Trail, started by stepping on a
 | **In journal** | Yes |
 | **Stages** | 44 (completes at 940, 948, 999) |
 | **Started by** | stepping on a trigger on [Home](../maps/home.md), [Clevred](../monsters/ratdom_rat.md) ([Blackwater mountain 55](../maps/blackwater_mountain55.md)) |
-| **NPCs involved** | [Andor's statue](../monsters/ratdom_rat_statue.md), [Audir](../monsters/audir.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Clevred](../monsters/ratdom_rat.md#v-ratdom_rat_bwm1), [Clevred](../monsters/ratdom_rat.md), [Fraedro](../monsters/ratdom_fraedro.md) +6 |
+| **NPCs involved** | [Andor's statue](../monsters/ratdom_rat_statue.md), [Audir](../monsters/audir.md), [Bloskelt](../monsters/ratdom_skeleton_boss2.md), [Clevred](../monsters/ratdom_rat.md), [Clevred](../monsters/ratdom_rat.md#v-ratdom_rat_bwm1), [Fraedro](../monsters/ratdom_fraedro.md) +6 |
 | **Locations** | [Blackwater mountain 55](../maps/blackwater_mountain55.md), [Crossglen cave](../maps/crossglen_cave.md), [Home](../maps/home.md), [Ratdom bwm 1](../maps/ratdom_bwm1.md) |
 | **Total XP** | 47,910 |
 | **Related quests** | 9 |

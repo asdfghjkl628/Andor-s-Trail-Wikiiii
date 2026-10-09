@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake 2 is an outdoor location in Andor's Trail, near Lake Laeroth (other). Enemies: Fish, Jellyfish. Exits to Laerothisland 3, Mountainlake 37, Mountainlake 36, Mountainlake 3."
+description: "Mountainlake 2 is an outdoor location in Andor's Trail, near Lake Laeroth (other). Enemies: Maonit troll, Giant maonit troll, Strong maonit troll, Maonit brute. Exits to Laerothisland 3, Mountainlake 37, Mountainlake 36, Mountainlake 3."
 ---
 
 # Mountainlake 2
@@ -14,12 +14,12 @@ description: "Mountainlake 2 is an outdoor location in Andor's Trail, near Lake 
 | **Size** | 22×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
-| **Enemy types** | 14 |
+| **Enemy types** | 4 |
 | **Quests** | 1 |
 
 </div>
 
-**Mountainlake 2** is an outdoor map, near Lake Laeroth (other). It has no NPCs and 14 kinds of enemy. Exits lead to Laerothisland 3, Mountainlake 37, Mountainlake 36, Mountainlake 3 and 1 more.
+**Mountainlake 2** is an outdoor map, near Lake Laeroth (other). It has no NPCs and 4 kinds of enemy. Exits lead to Laerothisland 3, Mountainlake 37, Mountainlake 36, Mountainlake 3 and 1 more.
 
 ## Map
 
@@ -55,22 +55,14 @@ description: "Mountainlake 2 is an outdoor location in Andor's Trail, near Lake 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 3 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 3 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
 | [Maonit troll](../monsters/maonit_1.md) | 255 | 1–20 | 5 | shares spawn with Giant maonit troll |
 | [Giant maonit troll](../monsters/maonit_2.md) | 270 | 1–20 | 5 | shares spawn with Maonit troll |
 | [Strong maonit troll](../monsters/maonit_3.md) | 285 | 1–20 | 3 | shares spawn with Maonit brute |
 | [Maonit brute](../monsters/maonit_4.md) | 290 | 1–20 | 3 | shares spawn with Strong maonit troll |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Eel](../monsters/ll2_watersnake1.md), [Fish](../monsters/brv_fish1.md#v-ll2_fish6), [Fish](../monsters/brv_fish1.md#v-ll2_fish3), [Fish](../monsters/brv_fish1.md#v-ll2_fish4), [Fish](../monsters/brv_fish1.md#v-ll2_fish5), [Fish](../monsters/brv_fish1.md#v-ll2_fish1), [Fish](../monsters/brv_fish1.md#v-ll2_fish2), [Jellyfish](../monsters/ll2_jelly1.md), [Squid](../monsters/ll2_squid1.md), [Turtle](../monsters/ll2_turtle1.md)
 
 ## Quests
 

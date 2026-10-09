@@ -1,5 +1,5 @@
 ---
-description: "Way to sullengard pond road is an outdoor location in Andor's Trail. NPCs: Sullengard snapper. Enemies: Pond fish, Poisonous jitterfly, Sullengard forest snake. Exits to Way to sullengard east 10, Sullengard 7."
+description: "Way to sullengard pond road is an outdoor location in Andor's Trail. NPCs: Sullengard snapper. Enemies: Poisonous jitterfly, Sullengard forest snake. Exits to Way to sullengard east 10, Sullengard 7."
 ---
 
 # Way to sullengard pond road
@@ -14,12 +14,12 @@ description: "Way to sullengard pond road is an outdoor location in Andor's Trai
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 3 |
+| **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Way to sullengard pond road** is an outdoor map. It has 1 NPC and 3 kinds of enemy. Exits lead to Way to sullengard east 10, Sullengard 7.
+**Way to sullengard pond road** is an outdoor map. It has 1 NPC and 2 kinds of enemy. Exits lead to Way to sullengard east 10, Sullengard 7.
 
 ## Map
 
@@ -53,11 +53,12 @@ description: "Way to sullengard pond road is an outdoor location in Andor's Trai
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 3 | – |
 | [Poisonous jitterfly](../monsters/poisonous_jitterfly.md) | 97 | 6–8 | 6 | – |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 148 | 15–22 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

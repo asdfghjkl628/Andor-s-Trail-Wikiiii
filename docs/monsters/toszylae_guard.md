@@ -159,7 +159,7 @@ Set your quest stages and items, then talk to Radiant guardian. Same rules as th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(The creature turns away)” → “[The creature turns away]”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(Its eyes pulsate in an intense glow as the creature starts moving to…” → “[Its eyes pulsate in an intense glow as the creature starts moving to…”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

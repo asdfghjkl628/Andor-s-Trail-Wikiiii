@@ -1,5 +1,5 @@
 ---
-description: "Woodhouse 3 is an indoor location in Andor's Trail. NPCs: Outcast. Enemies: Rat, Roach. Exits to Woodhouse 2."
+description: "Woodhouse 3 is an indoor location in Andor's Trail. NPCs: Outcast. Enemies: Roach, Rat. Exits to Woodhouse 2."
 ---
 
 # Woodhouse 3
@@ -51,8 +51,8 @@ description: "Woodhouse 3 is an indoor location in Andor's Trail. NPCs: Outcast.
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 | [Roach](../monsters/vermin2.md) | 0 | 0–1 | 2 | shares spawn with Rat |
+| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 | [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

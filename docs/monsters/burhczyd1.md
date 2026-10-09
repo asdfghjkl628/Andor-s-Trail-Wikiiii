@@ -749,10 +749,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -824,10 +824,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -899,10 +899,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -974,10 +974,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1049,10 +1049,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1124,10 +1124,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1199,10 +1199,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1274,10 +1274,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1349,10 +1349,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1424,10 +1424,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1499,10 +1499,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1574,10 +1574,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1649,10 +1649,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1724,10 +1724,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1799,10 +1799,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1874,10 +1874,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -1949,10 +1949,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -2024,10 +2024,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -2099,10 +2099,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -2174,10 +2174,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -2249,10 +2249,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -2324,10 +2324,10 @@ Set your quest stages and items, then talk to Burhczyd. Same rules as the game: 
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
-| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…”<br>· text: “null” → “Well, her parents haven't given me their consent yet.” |
+| [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

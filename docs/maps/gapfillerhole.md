@@ -1,5 +1,5 @@
 ---
-description: "Gapfillerhole is an indoor location in Andor's Trail, in Fallhaven (settlement). NPCs: Beldric, Hungry pig. Enemies: Rat, Roach. Exits to Woodsettlement 0."
+description: "Gapfillerhole is an indoor location in Andor's Trail, in Fallhaven (settlement). NPCs: Beldric, Hungry pig. Enemies: Roach, Rat. Exits to Woodsettlement 0."
 ---
 
 # Gapfillerhole
@@ -60,8 +60,8 @@ description: "Gapfillerhole is an indoor location in Andor's Trail, in Fallhaven
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 1 | shares spawn with Rat, Roach |
 | [Roach](../monsters/vermin2.md) | 0 | 0–1 | 1 | shares spawn with Rat |
+| [Rat](../monsters/vermin0.md) | 0 | 0–1 | 1 | shares spawn with Rat, Roach |
 | [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 1 | shares spawn with Rat, Roach |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

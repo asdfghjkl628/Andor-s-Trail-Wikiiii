@@ -1,5 +1,5 @@
 ---
-description: "Tradehouse 0 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Drashad, Kantya, Khorailla, Maevalia. Enemies: Khorailla. Exits to Waytominingtown 2, Stoutford castle barrack 2, Tradehouse 0a."
+description: "Tradehouse 0 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Drashad, Kantya, Khorailla, Maevalia. Exits to Waytominingtown 2, Stoutford castle barrack 2, Tradehouse 0a."
 ---
 
 # Tradehouse 0
@@ -14,12 +14,11 @@ description: "Tradehouse 0 is an indoor location in Andor's Trail, in Prim (sett
 | **Size** | 18×12 tiles |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 4 |
-| **Enemy types** | 1 |
 | **Quests** | 3 |
 
 </div>
 
-**Tradehouse 0** is an indoor map, in Prim (settlement). It has 4 NPCs and 1 kind of enemy. Exits lead to Waytominingtown 2, Stoutford castle barrack 2, Tradehouse 0a.
+**Tradehouse 0** is an indoor map, in Prim (settlement). It has 4 NPCs, and no enemies. Exits lead to Waytominingtown 2, Stoutford castle barrack 2, Tradehouse 0a.
 
 ## Map
 
@@ -60,13 +59,7 @@ description: "Tradehouse 0 is an indoor location in Andor's Trail, in Prim (sett
 - [Khorailla](../monsters/khorailla.md) — shopkeeper — quests: [Destined for great things](../quests/charwood1.md) (#6)
 - [Maevalia](../monsters/maevalia.md) — quests: [Destined for great things](../quests/charwood1.md), [Trial by fire](../quests/charwood2.md) (#7)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Khorailla](../monsters/khorailla.md#v-khorailla_cheddar) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Khorailla](../monsters/khorailla.md#v-khorailla_cheddar)
 
 ## Items & containers
 

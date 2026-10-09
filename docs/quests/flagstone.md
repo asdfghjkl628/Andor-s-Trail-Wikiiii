@@ -183,7 +183,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Stages added: 5, 70, 100<br>Stage 10 journal text changed<br>Stage 30 journal text changed<br>Stage 31 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Stage 60 no longer completes the quest<br>Stage 60 XP 2100 → 0<br>Dialogue: 3 lines added, 3 lines changed<br>· text: “If you find the warden and retrieve the necklace, then please return …” → “Oh this looks most interesting. Let's take a look. Hmm. It has got so…”<br>· text: “Have you found the former warden of Flagstone? The warden used to hav…” → “You should look for the former warden. Maybe he has something to do w…” |
+| [v0.7.2](../versions/0.7.2.md) | Stages added: 5, 70, 100<br>Stage 10 journal text changed<br>Stage 30 journal text changed<br>Stage 31 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Stage 60 no longer completes the quest<br>Stage 60 XP 2100 → 0<br>Dialogue: 3 lines added, 3 lines changed<br>· text: “Have you found the former warden of Flagstone? The warden used to hav…” → “You should look for the former warden. Maybe he has something to do w…”<br>· text: “If you find the warden and retrieve the necklace, then please return …” → “Oh this looks most interesting. Let's take a look. Hmm. It has got so…” |
 | [v0.7.11](../versions/0.7.11.md) | Stage 31 journal text changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

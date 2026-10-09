@@ -1,5 +1,5 @@
 ---
-description: "Brightport cave 4 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Duleian panther cub, Cave scorpion, Duleian panther. Exits to Brightport cave 3, Brightportwild 12."
+description: "Brightport cave 4 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Cave scorpion, Duleian panther. Exits to Brightport cave 3, Brightportwild 12."
 ---
 
 # Brightport cave 4
@@ -13,12 +13,12 @@ description: "Brightport cave 4 is an indoor location in Andor's Trail, in Burie
 | **Type** | Indoors / underground |
 | **Size** | 21×8 tiles |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
-| **Enemy types** | 3 |
+| **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightport cave 4** is an indoor map, in Buried citadel (other). It has no NPCs and 3 kinds of enemy. Exits lead to Brightport cave 3, Brightportwild 12.
+**Brightport cave 4** is an indoor map, in Buried citadel (other). It has no NPCs and 2 kinds of enemy. Exits lead to Brightport cave 3, Brightportwild 12.
 
 ## Map
 
@@ -47,11 +47,12 @@ description: "Brightport cave 4 is an indoor location in Andor's Trail, in Burie
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Duleian panther cub](../monsters/brightport_cat3.md) | 0 | 0–0 | 2 | – |
 | [Cave scorpion](../monsters/cave_scorpion_0.md#v-brightport_scorpion) | 150 | 16–30 | 1 | – |
 | [Duleian panther](../monsters/brightport_cat2.md) | 220 | 14–25 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Duleian panther cub](../monsters/brightport_cat3.md)
 
 
 ## Version history

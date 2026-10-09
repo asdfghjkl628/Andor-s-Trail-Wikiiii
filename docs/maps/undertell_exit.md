@@ -1,5 +1,5 @@
 ---
-description: "Undertell exit is an indoor location in Andor's Trail, in Mt. Galmore (other). NPCs: Rock eater, Saki. Enemies: Voice of Shannal, Sow aroughcun. Exits to Galmore 58, Undertell 3 03, Undertell 15."
+description: "Undertell exit is an indoor location in Andor's Trail, in Mt. Galmore (other). NPCs: Rock eater, Saki. Enemies: Sow aroughcun. Exits to Galmore 58, Undertell 3 03, Undertell 15."
 ---
 
 # Undertell exit
@@ -15,12 +15,12 @@ description: "Undertell exit is an indoor location in Andor's Trail, in Mt. Galm
 | **World map** | [Undertell floor 1](index.md) |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 2 |
-| **Enemy types** | 2 |
+| **Enemy types** | 1 |
 | **Quests** | 2 |
 
 </div>
 
-**Undertell exit** is an indoor map, in Mt. Galmore (other). It has 2 NPCs and 2 kinds of enemy. Exits lead to Galmore 58, Undertell 3 03, Undertell 15.
+**Undertell exit** is an indoor map, in Mt. Galmore (other). It has 2 NPCs and 1 kind of enemy. Exits lead to Galmore 58, Undertell 3 03, Undertell 15.
 
 ## Map
 
@@ -60,10 +60,11 @@ description: "Undertell exit is an indoor location in Andor's Trail, in Mt. Galm
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Voice of Shannal](../monsters/voice_shannal.md) | 0 | 0–0 | 1 | – |
 | [Sow aroughcun](../monsters/aroughcun_sow.md) | 175 | 12–17 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Voice of Shannal](../monsters/voice_shannal.md)
 
 ## Quests
 

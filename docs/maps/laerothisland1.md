@@ -1,5 +1,5 @@
 ---
-description: "Laerothisland 1 is an outdoor location in Andor's Trail, near Lake Laeroth (other). Enemies: Pond fish, Fish, Young spitting serpent, Spitting serpent, Aggressive spitting serpent. Exits to Laerothisland 0, Laerothisland 2."
+description: "Laerothisland 1 is an outdoor location in Andor's Trail, near Lake Laeroth (other). Enemies: Young spitting serpent, Spitting serpent, Aggressive spitting serpent, Island lizard. Exits to Laerothisland 0, Laerothisland 2."
 ---
 
 # Laerothisland 1
@@ -14,12 +14,12 @@ description: "Laerothisland 1 is an outdoor location in Andor's Trail, near Lake
 | **Size** | 27×23 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
-| **Enemy types** | 6 |
+| **Enemy types** | 4 |
 | **Quests** | 1 |
 
 </div>
 
-**Laerothisland 1** is an outdoor map, near Lake Laeroth (other). It has no NPCs and 6 kinds of enemy. Exits lead to Laerothisland 0, Laerothisland 2.
+**Laerothisland 1** is an outdoor map, near Lake Laeroth (other). It has no NPCs and 4 kinds of enemy. Exits lead to Laerothisland 0, Laerothisland 2.
 
 ## Map
 
@@ -49,14 +49,14 @@ description: "Laerothisland 1 is an outdoor location in Andor's Trail, near Lake
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 10 | – |
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 3 | – |
 | [Young spitting serpent](../monsters/spit_serpent_2.md) | 50 | 1–7 | 8 | shares spawn with Aggressive spitting serpent, Spitting serpent |
 | [Spitting serpent](../monsters/spit_serpent_1.md) | 60 | 2–7 | 8 | shares spawn with Aggressive spitting serpent, Young spitting serpent |
 | [Aggressive spitting serpent](../monsters/spit_serpent_3.md) | 65 | 3–9 | 8 | shares spawn with Spitting serpent, Young spitting serpent |
 | [Island lizard](../monsters/island_lizard.md) | 70 | 5–9 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish2), [Pond fish](../monsters/pond_fish.md)
 
 ## Quests
 

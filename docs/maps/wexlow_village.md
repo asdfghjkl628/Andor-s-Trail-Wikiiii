@@ -1,5 +1,5 @@
 ---
-description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow Village (settlement). NPCs: Godwin, Osric, Theobald, Theodora. Enemies: Unknown well voice, Godelieve, Rat, Village ant. Exits to Way to wexlow 3, Wexlow village north house, Wexlow village north-west house, Wexlow village south-ea…"
+description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow Village (settlement). NPCs: Godwin, Osric, Theobald, Theodora. Enemies: Rat, Village ant. Exits to Way to wexlow 3, Wexlow village north house, Wexlow village north-west house, Wexlow village south-east house."
 ---
 
 # Wexlow village
@@ -15,12 +15,12 @@ description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow 
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **NPCs** | 4 |
-| **Enemy types** | 4 |
+| **Enemy types** | 2 |
 | **Quests** | 1 |
 
 </div>
 
-**Wexlow village** is an outdoor map, in Wexlow Village (settlement). It has 4 NPCs and 4 kinds of enemy. Exits lead to Way to wexlow 3, Wexlow village north house, Wexlow village north-west house, Wexlow village south-east house and 1 more.
+**Wexlow village** is an outdoor map, in Wexlow Village (settlement). It has 4 NPCs and 2 kinds of enemy. Exits lead to Way to wexlow 3, Wexlow village north house, Wexlow village north-west house, Wexlow village south-east house and 1 more.
 
 ## Map
 
@@ -72,12 +72,12 @@ description: "Wexlow village is an outdoor location in Andor's Trail, in Wexlow 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Unknown well voice](../monsters/well_voice.md) | 0 | 0–0 | 1 | – |
-| [Godelieve](../monsters/village_godelieve.md#v-village_godelieve_hidden) | 0 | 0–0 | 1 | – |
 | [Rat](../monsters/vermin0.md#v-crossroads_rat) | 5 | 1–1 | 1 | – |
 | [Village ant](../monsters/village_ant.md) | 54 | 1–4 | 17 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Godelieve](../monsters/village_godelieve.md#v-village_godelieve_hidden), [Unknown well voice](../monsters/well_voice.md)
 
 ## Quests
 

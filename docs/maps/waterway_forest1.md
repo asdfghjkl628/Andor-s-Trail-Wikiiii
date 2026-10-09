@@ -1,5 +1,5 @@
 ---
-description: "Waterway forest 1 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Erumen lizard, Izthiel, Strong erumen lizard, Hardened erumen lizard. Exits to Waterway 11, Waterway forest 3, Waterway forest 2, Waterway 10."
+description: "Waterway forest 1 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Izthiel, Erumen lizard, Strong erumen lizard, Hardened erumen lizard. Exits to Waterway 11, Waterway forest 3, Waterway forest 2, Waterway 10."
 ---
 
 # Waterway forest 1
@@ -52,8 +52,8 @@ description: "Waterway forest 1 is an outdoor location in Andor's Trail. Enemies
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young izthiel](../monsters/izthiel_1.md) | 40 | 2–7 | 3 | – |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 4 | shares spawn with Strong erumen lizard |
 | [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 13 | – |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 4 | shares spawn with Strong erumen lizard |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 4 | shares spawn with Erumen lizard |
 | [Hardened erumen lizard](../monsters/erumen_7.md) | 93 | 2–9 | 2 | – |
 

@@ -1,5 +1,5 @@
 ---
-description: "Khorailla is an NPC who can also be fought in Andor's Trail, found in Prim. Shopkeeper."
+description: "Khorailla is a non-player character (NPC) in Andor's Trail, found in Prim. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_221.png){ .sprite } Khorailla
@@ -10,12 +10,9 @@ description: "Khorailla is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
 | **Found in** | Prim |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
@@ -24,10 +21,10 @@ description: "Khorailla is an NPC who can also be fought in Andor's Trail, found
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named Khorailla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`khorailla`](#v-khorailla) | NPC | Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla) | shopkeeper | – |
-| [`khorailla_cheddar`](#v-khorailla_cheddar) | Enemy | Prim: [Tradehouse 0](../maps/tradehouse0.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`khorailla`](#v-khorailla) | NPC | Prim: [Tradehouse 0](../maps/tradehouse0.md#pin-npc-khorailla) | shopkeeper |
+| [`khorailla_cheddar`](#v-khorailla_cheddar) | Scenery | Prim: [Tradehouse 0](../maps/tradehouse0.md) | – |
 
 ## Prim, Tradehouse 0 (khorailla) { #v-khorailla }
 
@@ -134,50 +131,12 @@ Set your quest stages and items, then talk to Khorailla. Same rules as the game:
 
 ## Prim, Tradehouse 0 (khorailla_cheddar) { #v-khorailla_cheddar }
 
-**Entry ID:** `khorailla_cheddar` · **Type:** Enemy
+**Entry ID:** `khorailla_cheddar` · **Type:** Scenery
 
 **Location:** Prim: [Tradehouse 0](../maps/tradehouse0.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Carrots](../items/carrots.md) | 100% | 5 to 12 |
-| [Cheese](../items/cheese.md) | 100% | 5 to 12 |
-| [Raw perch](../items/rawperch.md) | 100% | 5 to 12 |
-| [Cooked perch](../items/cookperch.md) | 100% | 5 to 12 |
-| [Cooked chicken leg](../items/chkn_leg.md) | 100% | 5 to 12 |
-| [Sap of the charwood tree](../items/drink_charwood1.md) | 100% | 5 to 12 |
-| [Concentrated charwood sap](../items/drink_charwood2.md) | 100% | 5 to 12 |
-| [Charwood cheddar](../items/charwood_cheddar.md) | 100% | 5 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Tradehouse 0](../maps/tradehouse0.md) | Prim | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -213,15 +172,6 @@ Set your quest stages and items, then talk to Khorailla. Same rules as the game:
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 534 is an indoor location in Andor's Trail, in Bloskelt + Roskelt (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Elvedridge, Dangerous elvedridge. Exits to Ratdom maze 524, Ratdom maze 544, Ratdom maze 543, Ratdom maze 523."
+description: "Ratdom maze 534 is an indoor location in Andor's Trail, in Bloskelt + Roskelt (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Dangerous elvedridge, Elvedridge. Exits to Ratdom maze 524, Ratdom maze 544, Ratdom maze 543, Ratdom maze 523."
 ---
 
 # Ratdom maze 534
@@ -82,8 +82,8 @@ description: "Ratdom maze 534 is an indoor location in Andor's Trail, in Bloskel
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
-| [Elvedridge](../monsters/ratdom_m8a.md) | 30 | 5–5 | 2 | shares spawn with Dangerous elvedridge |
 | [Dangerous elvedridge](../monsters/ratdom_m8b.md) | 30 | 5–5 | 2 | shares spawn with Elvedridge |
+| [Elvedridge](../monsters/ratdom_m8a.md) | 30 | 5–5 | 2 | shares spawn with Dangerous elvedridge |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

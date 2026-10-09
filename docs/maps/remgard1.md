@@ -1,5 +1,5 @@
 ---
-description: "Remgard 1 is an outdoor location in Andor's Trail, in Remgard (settlement). NPCs: Chael, Commoner, Commoner, Farmer. Enemies: Fish, Jellyfish. Exits to Mountainlake 16, Mountainlake 17, Remgard 2, Remgard 2a."
+description: "Remgard 1 is an outdoor location in Andor's Trail, in Remgard (settlement). NPCs: Chael, Commoner, Commoner, Farmer. Exits to Mountainlake 16, Mountainlake 17, Remgard 2, Remgard 2a."
 ---
 
 # Remgard 1
@@ -15,12 +15,11 @@ description: "Remgard 1 is an outdoor location in Andor's Trail, in Remgard (set
 | **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 4 |
-| **Enemy types** | 10 |
 | **Quests** | 0 |
 
 </div>
 
-**Remgard 1** is an outdoor map, in Remgard (settlement). It has 4 NPCs and 10 kinds of enemy. Exits lead to Mountainlake 16, Mountainlake 17, Remgard 2, Remgard 2a and 5 more.
+**Remgard 1** is an outdoor map, in Remgard (settlement). It has 4 NPCs, and no enemies. Exits lead to Mountainlake 16, Mountainlake 17, Remgard 2, Remgard 2a and 5 more.
 
 ## Map
 
@@ -71,22 +70,7 @@ description: "Remgard 1 is an outdoor location in Andor's Trail, in Remgard (set
 - [Commoner](../monsters/rg_villager1.md#v-rg_villager2) (#12)
 - [Farmer](../monsters/farmer.md#v-remgard_farmer1) (#13)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish6) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish2) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Jellyfish](../monsters/ll2_jelly1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish3) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish4) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Eel](../monsters/ll2_watersnake1.md) | 0 | 0–0 | 4 | shares spawn with Fish, Jellyfish, Squid, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish1) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-| [Turtle](../monsters/ll2_turtle1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid |
-| [Squid](../monsters/ll2_squid1.md) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Turtle |
-| [Fish](../monsters/brv_fish1.md#v-ll2_fish5) | 0 | 0–0 | 4 | shares spawn with Eel, Fish, Jellyfish, Squid, Turtle |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Eel](../monsters/ll2_watersnake1.md), [Fish](../monsters/brv_fish1.md#v-ll2_fish6), [Fish](../monsters/brv_fish1.md#v-ll2_fish3), [Fish](../monsters/brv_fish1.md#v-ll2_fish4), [Fish](../monsters/brv_fish1.md#v-ll2_fish5), [Fish](../monsters/brv_fish1.md#v-ll2_fish1), [Fish](../monsters/brv_fish1.md#v-ll2_fish2), [Jellyfish](../monsters/ll2_jelly1.md), [Squid](../monsters/ll2_squid1.md), [Turtle](../monsters/ll2_turtle1.md)
 
 ## Quests
 

@@ -12,7 +12,7 @@ description: "The agent and the beast is a quest in Andor's Trail, started by Ag
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 240, 250, 251) |
 | **Started by** | [Agent](../monsters/agent1.md) ([Blackwater mountain 5](../maps/blackwater_mountain5.md)) |
-| **NPCs involved** | [Agent](../monsters/agent1.md#v-agent3), [Agent](../monsters/agent1.md#v-agent2), [Agent](../monsters/agent1.md#v-agent6), [Agent](../monsters/agent1.md#v-agent5), [Agent](../monsters/agent1.md), [Agent](../monsters/agent1.md#v-agent4) +2 |
+| **NPCs involved** | [Agent](../monsters/agent1.md#v-agent5), [Agent](../monsters/agent1.md#v-agent4), [Agent](../monsters/agent1.md#v-agent2), [Agent](../monsters/agent1.md), [Agent](../monsters/agent1.md#v-agent6), [Agent](../monsters/agent1.md#v-agent3) +2 |
 | **Locations** | [Blackwater mountain 14](../maps/blackwater_mountain14.md), [Blackwater mountain 17](../maps/blackwater_mountain17.md), [Blackwater mountain 29](../maps/blackwater_mountain29.md), [Blackwater mountain 30](../maps/blackwater_mountain30.md) |
 | **Total XP** | 8,250 |
 | **Related quests** | 4 |
@@ -359,7 +359,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Stage 1 journal text changed<br>Stage 5 journal text changed<br>Stage 25 journal text changed<br>Stage 30 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Stage 65 journal text changed<br>Stage 70 journal text changed<br>Stage 80 journal text changed<br>Stage 100 journal text changed<br>(+4 more)<br>Dialogue: 11 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…” |
+| [v0.7.2](../versions/0.7.2.md) | Stage 1 journal text changed<br>Stage 5 journal text changed<br>Stage 25 journal text changed<br>Stage 30 journal text changed<br>Stage 40 journal text changed<br>Stage 50 journal text changed<br>Stage 65 journal text changed<br>Stage 70 journal text changed<br>Stage 80 journal text changed<br>Stage 100 journal text changed<br>(+4 more)<br>Dialogue: 11 lines changed<br>· text: “I had hoped it would not come to this. You will not survive this enco…” → “I had hoped it would not come to this. I'm afraid that you will not s…”<br>· text: “Among the papers, you find plans for recruiting mercenaries for Prim …” → “Among the papers, you find plans for recruiting mercenaries for Prim …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

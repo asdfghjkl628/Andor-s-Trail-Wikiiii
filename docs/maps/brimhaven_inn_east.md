@@ -1,5 +1,5 @@
 ---
-description: "Brimhaven inn east is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Butcher, Guest, Melona, Pixtumn, Room service. Enemies: Pixtumn. Exits to Brimhaven 3."
+description: "Brimhaven inn east is an indoor location in Andor's Trail, in Brimhaven (settlement). NPCs: Butcher, Guest, Melona, Pixtumn, Room service. Exits to Brimhaven 3."
 ---
 
 # Brimhaven inn east
@@ -14,12 +14,11 @@ description: "Brimhaven inn east is an indoor location in Andor's Trail, in Brim
 | **Size** | 16×9 tiles |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 | **NPCs** | 5 |
-| **Enemy types** | 3 |
 | **Quests** | 1 |
 
 </div>
 
-**Brimhaven inn east** is an indoor map, in Brimhaven (settlement). It has 5 NPCs and 3 kinds of enemy. Exits lead to Brimhaven 3.
+**Brimhaven inn east** is an indoor map, in Brimhaven (settlement). It has 5 NPCs, and no enemies. Exits lead to Brimhaven 3.
 
 ## Map
 
@@ -61,15 +60,7 @@ description: "Brimhaven inn east is an indoor location in Andor's Trail, in Brim
 - [Pixtumn](../monsters/quiet_thief.md) — shopkeeper — quests: [A strange looking dagger](../quests/brv_dagger.md) (#5)
 - [Room service](../monsters/brv_cleaning.md) (#6)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_3) | 0 | 0–0 | 1 | – |
-| [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_2) | 0 | 0–0 | 1 | – |
-| [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_3), [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1), [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_2)
 
 ## Items & containers
 

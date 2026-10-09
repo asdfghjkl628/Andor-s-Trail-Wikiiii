@@ -248,7 +248,7 @@ Set your quest stages and items, then talk to Aulowenn. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “I sure hope they are well. Unlike the others..” → “I sure hope they are well. Unlike the others...”<br>· text: “But something started to happen once we got here. Some of my fellow g…” → “But something started to happen once we got here. Some of my fellow g…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “But something started to happen once we got here. Some of my fellow g…” → “But something started to happen once we got here. Some of my fellow g…”<br>· text: “I sure hope they are well. Unlike the others..” → “I sure hope they are well. Unlike the others...” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I don't know if was just me imagining things or if something truly ha…” → “I don't know if it was just me imagining things or if something truly…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line changed |
 | [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |

@@ -1,5 +1,5 @@
 ---
-description: "Stoutford south-west is an outdoor location in Andor's Trail, in Stoutford (settlement). NPCs: Goat. Enemies: Venomfang, Great dark wolf. Exits to Stoutford north-west, Stoutford south-east, Stoutford artist, Stoutford filler 1."
+description: "Stoutford south-west is an outdoor location in Andor's Trail, in Stoutford (settlement). NPCs: Goat. Enemies: Great dark wolf. Exits to Stoutford north-west, Stoutford south-east, Stoutford artist, Stoutford filler 1."
 ---
 
 # Stoutford south-west
@@ -15,12 +15,12 @@ description: "Stoutford south-west is an outdoor location in Andor's Trail, in S
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 2 |
+| **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Stoutford south-west** is an outdoor map, in Stoutford (settlement). It has 1 NPC and 2 kinds of enemy. Exits lead to Stoutford north-west, Stoutford south-east, Stoutford artist, Stoutford filler 1 and 2 more.
+**Stoutford south-west** is an outdoor map, in Stoutford (settlement). It has 1 NPC and 1 kind of enemy. Exits lead to Stoutford north-west, Stoutford south-east, Stoutford artist, Stoutford filler 1 and 2 more.
 
 ## Map
 
@@ -62,10 +62,11 @@ description: "Stoutford south-west is an outdoor location in Andor's Trail, in S
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Venomfang](../monsters/venomfang_1.md) | 0 | 0–0 | 3 | – |
 | [Great dark wolf](../monsters/blornvale_wolf.md) | 30 | 1–3 | 1 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Venomfang](../monsters/venomfang_1.md)
 
 
 ## Version history

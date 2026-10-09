@@ -1,5 +1,5 @@
 ---
-description: "Lostmine 4 is an indoor location in Andor's Trail. Enemies: Strong ash gargoyle, Hardened ash gargoyle. Exits to Lostmine 3, Lostmine 5."
+description: "Lostmine 4 is an indoor location in Andor's Trail. Enemies: Hardened ash gargoyle, Strong ash gargoyle. Exits to Lostmine 3, Lostmine 5."
 ---
 
 # Lostmine 4
@@ -48,8 +48,8 @@ description: "Lostmine 4 is an indoor location in Andor's Trail. Enemies: Strong
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 2 | shares spawn with Hardened ash gargoyle |
 | [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 2 | shares spawn with Strong ash gargoyle |
+| [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 2 | shares spawn with Hardened ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

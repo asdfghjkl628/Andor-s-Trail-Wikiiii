@@ -1,5 +1,5 @@
 ---
-description: "Sullengard 1 southeast house is an indoor location in Andor's Trail, in Sullengard (settlement). NPCs: Ravynne. Enemies: Briwerra's family cat. Exits to Sullengard 1."
+description: "Sullengard 1 southeast house is an indoor location in Andor's Trail, in Sullengard (settlement). NPCs: Ravynne. Exits to Sullengard 1."
 ---
 
 # Sullengard 1 southeast house
@@ -14,12 +14,11 @@ description: "Sullengard 1 southeast house is an indoor location in Andor's Trai
 | **Size** | 14×8 tiles |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Sullengard 1 southeast house** is an indoor map, in Sullengard (settlement). It has 1 NPC and 1 kind of enemy. Exits lead to Sullengard 1.
+**Sullengard 1 southeast house** is an indoor map, in Sullengard (settlement). It has 1 NPC, and no enemies. Exits lead to Sullengard 1.
 
 ## Map
 
@@ -47,13 +46,7 @@ description: "Sullengard 1 southeast house is an indoor location in Andor's Trai
 
 - [Ravynne](../monsters/sullengard_ravynne.md) (#2)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Briwerra's family cat](../monsters/sullengard_briwerra_cat.md) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Briwerra's family cat](../monsters/sullengard_briwerra_cat.md)
 
 
 ## Version history

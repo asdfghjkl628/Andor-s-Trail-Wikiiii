@@ -1,5 +1,5 @@
 ---
-description: "Waterway 6 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Sly Seraphina. Enemies: Strong larval burrower, Izthiel, Spotted erumen lizard, Young erumen lizard, Strong izthiel. Exits to Waterway 15, Waterway 5, Waterway 7, Waytobrimhaven 3."
+description: "Waterway 6 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Sly Seraphina. Enemies: Strong larval burrower, Young erumen lizard, Izthiel, Spotted erumen lizard, Seraphina's bodyguard. Exits to Waterway 15, Waterway 5, Waterway 7, Waytobrimhaven 3."
 ---
 
 # Waterway 6
@@ -67,11 +67,11 @@ Southeast: Brightport”">6</a><a class="pin pin-key" href="#key-7" style="left:
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Strong larval burrower](../monsters/burrower_3.md) | 44 | 1–25 | 2 | – |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
 | [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 4 | – |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
-| [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 4 | – |
 | [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
+| [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 4 | – |
 | [Izthiel guardian](../monsters/izthiel_4.md) | 54 | 3–7 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

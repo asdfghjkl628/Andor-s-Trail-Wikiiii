@@ -1,5 +1,5 @@
 ---
-description: "Waytobrightport 18 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Rash Muskrat, Forest deer, Lizardman corsair, Lizardman fencer, Virulent forest deer. Exits to Waytobrightport 17, Brightportwild 22, Brightportwild 7, Waytobrightport 19."
+description: "Waytobrightport 18 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Rash Muskrat, Forest deer, Lizardman fencer, Lizardman corsair, Virulent forest deer. Exits to Waytobrightport 17, Brightportwild 22, Brightportwild 7, Waytobrightport 19."
 ---
 
 # Waytobrightport 18
@@ -56,8 +56,8 @@ description: "Waytobrightport 18 is an indoor location in Andor's Trail, in Brig
 |---|---|---|---|---|
 | [Rash Muskrat](../monsters/brightport_squirrel2.md) | 140 | 6–19 | 2 | – |
 | [Forest deer](../monsters/brightport_sickdeer.md) | 212 | 6–16 | 2 | – |
-| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
 | [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 1 | – |
+| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
 | [Virulent forest deer](../monsters/brightport_deer.md) | 240 | 8–19 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

@@ -12,7 +12,7 @@ description: "Roses is a quest in Andor's Trail, started by Rhodita (guynmart_wo
 | **In journal** | Yes |
 | **Stages** | 41 (completes at 210, 211) |
 | **Started by** | [Rhodita](../monsters/guynmart_farmer.md) ([Guynmart wood 1](../maps/guynmart_wood_1.md)) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Gold](../monsters/guynmart_reward1.md), [Guynmart](../monsters/guynmart.md), [Guynmart guard](../monsters/guynmart_gguard.md), [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_guard_guide), [Hannah](../monsters/guynmart_hannah.md) +16 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Gold](../monsters/guynmart_reward1.md), [Guynmart](../monsters/guynmart.md), [Guynmart guard](../monsters/guynmart_gguard.md#v-guynmart_guard_guide), [Guynmart guard](../monsters/guynmart_gguard.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2) +16 |
 | **Locations** | [Guynmart](../maps/guynmart.md), [Guynmart main 0](../maps/guynmart_main_0.md), [Guynmart main 1](../maps/guynmart_main_1.md), [Guynmart main 2](../maps/guynmart_main_2.md) |
 | **Total XP** | 10,027 |
 | **Related quests** | 6 |

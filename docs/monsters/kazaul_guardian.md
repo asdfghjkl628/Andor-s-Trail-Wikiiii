@@ -107,7 +107,7 @@ Set your quest stages and items, then talk to Kazaul guardian. Same rules as the
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …”<br>· text: “Kazaul..” → “Kazaul...” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

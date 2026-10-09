@@ -1,5 +1,5 @@
 ---
-description: "Guynmart tower 0 is an indoor location in Andor's Trail, in Guynmart Castle (other). NPCs: Lovis. Enemies: Nightmare, Tough cave rat, Torturer. Exits to Guynmart passage, Guynmart tower 0."
+description: "Guynmart tower 0 is an indoor location in Andor's Trail, in Guynmart Castle (other). NPCs: Lovis. Enemies: Tough cave rat, Torturer, Nightmare. Exits to Guynmart passage, Guynmart tower 0."
 ---
 
 # Guynmart tower 0
@@ -14,12 +14,12 @@ description: "Guynmart tower 0 is an indoor location in Andor's Trail, in Guynma
 | **Size** | 8×8 tiles |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 4 |
+| **Enemy types** | 3 |
 | **Quests** | 1 |
 
 </div>
 
-**Guynmart tower 0** is an indoor map, in Guynmart Castle (other). It has 1 NPC and 4 kinds of enemy. Exits lead to Guynmart passage, Guynmart tower 0.
+**Guynmart tower 0** is an indoor map, in Guynmart Castle (other). It has 1 NPC and 3 kinds of enemy. Exits lead to Guynmart passage, Guynmart tower 0.
 
 ## Map
 
@@ -54,12 +54,13 @@ description: "Guynmart tower 0 is an indoor location in Andor's Trail, in Guynma
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Nightmare](../monsters/guynmart_mare.md#v-guynmart_mare0) | 0 | 0–0 | 1 | – |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
-| [Nightmare](../monsters/guynmart_mare.md) | 120 | 8–25 | 2 | appears later, during a quest |
 | [Torturer](../monsters/guynmart_tort1.md) | 120 | 5–20 | 1 | appears later, during a quest |
+| [Nightmare](../monsters/guynmart_mare.md) | 120 | 8–25 | 2 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Nightmare](../monsters/guynmart_mare.md#v-guynmart_mare0)
 
 ## Quests
 

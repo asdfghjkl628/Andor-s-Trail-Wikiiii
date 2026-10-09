@@ -1,5 +1,5 @@
 ---
-description: "Sullengard pond is an outdoor location in Andor's Trail, near Sullengard (settlement). NPCs: Sullengard snapper. Enemies: Pond fish, Preabola fly, Flying tree ant, Sullengard forest snake. Exits to Sullengard woods 9, Sullengard pond east, Sullengard 5."
+description: "Sullengard pond is an outdoor location in Andor's Trail, near Sullengard (settlement). NPCs: Sullengard snapper. Enemies: Preabola fly, Flying tree ant, Sullengard forest snake. Exits to Sullengard woods 9, Sullengard pond east, Sullengard 5."
 ---
 
 # Sullengard pond
@@ -15,12 +15,12 @@ description: "Sullengard pond is an outdoor location in Andor's Trail, near Sull
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 4 |
+| **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Sullengard pond** is an outdoor map, near Sullengard (settlement). It has 1 NPC and 4 kinds of enemy. Exits lead to Sullengard woods 9, Sullengard pond east, Sullengard 5.
+**Sullengard pond** is an outdoor map, near Sullengard (settlement). It has 1 NPC and 3 kinds of enemy. Exits lead to Sullengard woods 9, Sullengard pond east, Sullengard 5.
 
 ## Map
 
@@ -56,12 +56,13 @@ description: "Sullengard pond is an outdoor location in Andor's Trail, near Sull
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 3 | – |
 | [Preabola fly](../monsters/preabola_fly.md) | 109 | 9–11 | 7 | – |
 | [Flying tree ant](../monsters/flying_tree_ant.md) | 119 | 9–15 | 3 | – |
 | [Sullengard forest snake](../monsters/sullengard_venom_snake.md) | 148 | 15–22 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

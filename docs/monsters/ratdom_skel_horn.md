@@ -1,5 +1,5 @@
 ---
-description: "Horn player is an NPC who can also be fought in Andor's Trail, found in Skeleton dance, Flagstone Prison."
+description: "Horn player is a non-player character (NPC) in Andor's Trail, found in Skeleton dance, Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_fatboy73_43.png){ .sprite } Horn player
@@ -10,11 +10,8 @@ description: "Horn player is an NPC who can also be fought in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Skeleton dance, Flagstone Prison |
-| **Class** | Undead |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 4 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
@@ -23,46 +20,21 @@ description: "Horn player is an NPC who can also be fought in Andor's Trail, fou
 !!! info "4 entries in the game data"
     The game data defines 4 separate characters named Horn player. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ratdom_skel_horn`](#v-ratdom_skel_horn) | Enemy | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – | 1 |
-| [`erwyn_skel_hornet`](#v-erwyn_skel_hornet) | NPC | Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_hornet) | – | – |
-| [`ratdom_skel_horn1`](#v-ratdom_skel_horn1) | Enemy | Not on a map | – | 1 |
-| [`ratdom_skel_horn2`](#v-ratdom_skel_horn2) | Enemy | Not on a map | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`ratdom_skel_horn`](#v-ratdom_skel_horn) | Scenery | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – |
+| [`erwyn_skel_hornet`](#v-erwyn_skel_hornet) | NPC | Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_hornet) | – |
+| [`ratdom_skel_horn1`](#v-ratdom_skel_horn1) | Scenery | Not on a map | – |
+| [`ratdom_skel_horn2`](#v-ratdom_skel_horn2) | Scenery | Not on a map | – |
 
 ## Skeleton dance, Ratdom maze 543d (ratdom_skel_horn) { #v-ratdom_skel_horn }
 
-**Entry ID:** `ratdom_skel_horn` · **Type:** Enemy
+**Entry ID:** `ratdom_skel_horn` · **Type:** Scenery
 
 **Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | Skeleton dance | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -161,31 +133,12 @@ Set your quest stages and items, then talk to Horn player. Same rules as the gam
 
 ## Not placed on a map (ratdom_skel_horn1) { #v-ratdom_skel_horn1 }
 
-**Entry ID:** `ratdom_skel_horn1` · **Type:** Enemy
+**Entry ID:** `ratdom_skel_horn1` · **Type:** Scenery
 
 **Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -225,31 +178,12 @@ Set your quest stages and items, then talk to Horn player. Same rules as the gam
 
 ## Not placed on a map (ratdom_skel_horn2) { #v-ratdom_skel_horn2 }
 
-**Entry ID:** `ratdom_skel_horn2` · **Type:** Enemy
+**Entry ID:** `ratdom_skel_horn2` · **Type:** Scenery
 
 **Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -286,15 +220,6 @@ Set your quest stages and items, then talk to Horn player. Same rules as the gam
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

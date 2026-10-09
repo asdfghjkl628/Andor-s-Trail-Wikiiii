@@ -1,5 +1,5 @@
 ---
-description: "Odilia is an NPC who can also be fought in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
+description: "Odilia is a non-player character (NPC) in Andor's Trail, found in Wexlow Village, Gamjee well jail cells."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_189.png){ .sprite } Odilia
@@ -10,11 +10,8 @@ description: "Odilia is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
@@ -23,10 +20,10 @@ description: "Odilia is an NPC who can also be fought in Andor's Trail, found in
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named Odilia. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, movement. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`village_odilia`](#v-village_odilia) | NPC | Wexlow Village: [Wexlow village south-west house](../maps/wexlow_village_sw_house.md#pin-npc-village_odilia) | – | – |
-| [`troll_hollow_odilia`](#v-troll_hollow_odilia) | Enemy | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`village_odilia`](#v-village_odilia) | NPC | Wexlow Village: [Wexlow village south-west house](../maps/wexlow_village_sw_house.md#pin-npc-village_odilia) | – |
+| [`troll_hollow_odilia`](#v-troll_hollow_odilia) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
 
 ## Wexlow Village, Wexlow village south-west house (village_odilia) { #v-village_odilia }
 
@@ -111,37 +108,12 @@ Set your quest stages and items, then talk to Odilia. Same rules as the game: sa
 
 ## Gamjee well jail cells (troll_hollow_odilia) { #v-troll_hollow_odilia }
 
-**Entry ID:** `troll_hollow_odilia` · **Type:** Enemy
+**Entry ID:** `troll_hollow_odilia` · **Type:** Scenery
 
 **Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -181,15 +153,6 @@ Set your quest stages and items, then talk to Odilia. Same rules as the game: sa
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

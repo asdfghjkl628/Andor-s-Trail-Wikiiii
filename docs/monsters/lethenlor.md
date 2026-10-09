@@ -80,7 +80,7 @@ Set your quest stages and items, then talk to Lethenlor. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “He he. Interesting. Let's just say our line of work is .. interesting.” → “He he. Interesting. Let's just say our line of work is ... interestin…”<br>· text: “Ok. Good luck with that.” → “OK. Good luck with that.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “Ok. Good luck with that.” → “OK. Good luck with that.”<br>· text: “He he. Interesting. Let's just say our line of work is .. interesting.” → “He he. Interesting. Let's just say our line of work is ... interestin…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

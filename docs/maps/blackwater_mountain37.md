@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 37 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: White wyrm, Wyrm apprentice, Wyrm trainer, Strong aulaeth. Exits to Blackwater mountain 38, Blackwater mountain 36."
+description: "Blackwater mountain 37 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: White wyrm, Wyrm trainer, Wyrm apprentice, Strong aulaeth. Exits to Blackwater mountain 38, Blackwater mountain 36."
 ---
 
 # Blackwater mountain 37
@@ -49,8 +49,8 @@ description: "Blackwater mountain 37 is an indoor location in Andor's Trail, in 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [White wyrm](../monsters/white_wyrm.md) | 55 | 4–10 | 2 | shares spawn with Strong aulaeth |
-| [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 69 | 2–9 | 3 | shares spawn with Wyrm trainer |
 | [Wyrm trainer](../monsters/wyrm_trainer.md) | 69 | 2–9 | 3 | shares spawn with Wyrm apprentice |
+| [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 69 | 2–9 | 3 | shares spawn with Wyrm trainer |
 | [Strong aulaeth](../monsters/strong_aulaeth.md) | 135 | 0–5 | 2 | shares spawn with White wyrm |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

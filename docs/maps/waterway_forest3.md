@@ -1,5 +1,5 @@
 ---
-description: "Waterway forest 3 is an outdoor location in Andor's Trail. Enemies: Young erumen lizard, Spotted erumen lizard, Irdegh spawn. Exits to Waterway forest 1."
+description: "Waterway forest 3 is an outdoor location in Andor's Trail. Enemies: Spotted erumen lizard, Young erumen lizard, Irdegh spawn. Exits to Waterway forest 1."
 ---
 
 # Waterway forest 3
@@ -45,8 +45,8 @@ description: "Waterway forest 3 is an outdoor location in Andor's Trail. Enemies
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 6 | shares spawn with Spotted erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 6 | shares spawn with Young erumen lizard |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 6 | shares spawn with Spotted erumen lizard |
 | [Irdegh spawn](../monsters/irdegh_sp_1.md) | 57 | 0–6 | 12 | shares spawn with Irdegh spawn |
 | [Irdegh spawn](../monsters/irdegh_sp_1.md#v-irdegh_sp_2) | 68 | 0–6 | 12 | shares spawn with Irdegh spawn |
 

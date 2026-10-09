@@ -1,10 +1,10 @@
 ---
-description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Brightportwild 2."
+description: "Duleian mountain cat cub is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Brightportwild 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_cats_2.png){ .sprite } Duleian mountain cat cub
 
-**Found in:** [Brightportwild 2](../maps/brightportwild2.md)
+**Where to find Duleian mountain cat cub:** [Brightportwild 2](../maps/brightportwild2.md)
 
 <div class="infobox" markdown>
 
@@ -12,43 +12,15 @@ description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) wit
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Brightportwild 2 |
-| **Class** | Animal |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entry ID** | `brightport_cat` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-## Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brightportwild 2](../maps/brightportwild2.md) | – | 3 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ## Version history
@@ -83,15 +55,6 @@ description: "Duleian mountain cat cub is an enemy in Andor's Trail (animal) wit
      "monsterClass": "animal"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

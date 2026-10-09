@@ -12,7 +12,7 @@ description: "Take care of the caretaker is a quest in Andor's Trail, started by
 | **In journal** | Yes |
 | **Stages** | 21 (completes at 180) |
 | **Started by** | [Moriath](../monsters/moriath.md) ([Laerothmanor 1](../maps/laerothmanor1.md)) |
-| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md#v-jerelin_b), [Jerelin](../monsters/jerelin.md), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
+| **NPCs involved** | [Audela](../monsters/audela.md), [Cuned](../monsters/cuned.md), [Jerelin](../monsters/jerelin.md), [Jerelin](../monsters/jerelin.md#v-jerelin_b), [Moriath](../monsters/moriath.md), [Verigil](../monsters/verigil.md) |
 | **Locations** | [Laerothmanor 1](../maps/laerothmanor1.md), [Laerothtomb 1](../maps/laerothtomb1.md) |
 | **Total XP** | 18,000 |
 | **Related quests** | 2 |

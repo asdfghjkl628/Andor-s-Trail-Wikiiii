@@ -135,7 +135,7 @@ Set your quest stages and items, then talk to Toszylae. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…”<br>· text: “(The lich seems to enjoy seeing you in pain.)” → “[The lich seems to enjoy seeing you in pain]” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(While chanting, it slowly lowers its hands forward, until pointing d…” → “[While chanting, it slowly lowers its hands forward, until pointing d…”<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

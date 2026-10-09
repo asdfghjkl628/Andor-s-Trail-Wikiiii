@@ -12,7 +12,7 @@ description: "Troubling times is a quest in Andor's Trail, started by Nanath (fa
 | **In journal** | Yes |
 | **Stages** | 42 (completes at 20, 30, 310) |
 | **Started by** | [Nanath](../monsters/nanath.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)), [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) |
-| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina), [Sly Seraphina](../monsters/tt_seraphina.md) +2 |
+| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md) +2 |
 | **Locations** | [Blackwater mountain 12](../maps/blackwater_mountain12.md), [Crackshot hideout 3](../maps/crackshot_hideout3.md), [Crackshot hideout 4](../maps/crackshot_hideout4.md), [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) |
 | **Total XP** | 15,002 |
 | **Related quests** | 7 |

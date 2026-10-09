@@ -142,7 +142,7 @@ Set your quest stages and items, then talk to Flagstone sentry. Same rules as th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Renamed “Flagstone Sentry” → “Flagstone sentry”<br>Dialogue: 1 line added, 14 lines changed<br>· text: “A guardian you say? This is troubling news, since it means there is s…” → “A guardian and undead prisoners you say? This is troubling news, sinc…”<br>· text: “There was a change recently, now the undead pour out in great numbers.” → “But recently, undead started pouring out of Flagstone and started to …” |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Flagstone Sentry” → “Flagstone sentry”<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Flagstone used to be a prison camp for runaway workers from when Moun…” → “Flagstone Prison was built a few hundred years ago by house Gorland o…”<br>· text: “Flagstone has been overrun by undead, and I'm standing guard here to …” → “Flagstone has been overrun by undead, and we are standing guard here …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
