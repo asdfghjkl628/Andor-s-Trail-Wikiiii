@@ -404,6 +404,9 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
         pct = lambda x, y, w, h: f"left:{x/W*100:.3f}%;top:{y/H*100:.3f}%;width:{max(w,8)/W*100:.3f}%;height:{max(h,8)/H*100:.3f}%"
         npcs = sorted({x for x in pg['here'] if monsters[x].get('phraseID')}, key=lambda x: monsters[x].get('name', x))
         enemies = sorted({x for x in pg['here'] if not monsters[x].get('phraseID')}, key=lambda x: monsters[x].get('maxHP', 0))
+        _kind = ctx.get('kind_of') or (lambda x: 'Enemy')
+        scenery = sorted({x for x in enemies if _kind(x) == 'Scenery'}, key=lambda x: monsters[x].get('name', x))
+        enemies = [x for x in enemies if x not in scenery]
         first_pos = {}
         for mid, x, y, fw, fh, active in pg['placed']:
             first_pos.setdefault(mid, ((x + fw / 2) * TILE, (y + fh / 2) * TILE))
@@ -533,6 +536,8 @@ def write_map_pages(pages, ctx, QG, notes, shopkeepers, introduced):
                 if shared[x]: notes_.append('shares spawn with ' + ', '.join(sorted({monsters[y].get('name', y) for y in shared[x]}))[:120])
                 P.append(f"| [{md(mm.get('name', x))}](../monsters/{x}.md) | {mm.get('maxHP', 0)} | {dmg.get('min', 0)}–{dmg.get('max', 0)} | {maxq[x]} | {'; '.join(notes_) or '–'} |\n")
             P.append("\n<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>\n\n")
+        if scenery:
+            P.append("**Scenery:** " + ', '.join(dict.fromkeys(f"[{md(monsters[x].get('name', x))}](../monsters/{x}.md)" for x in scenery)) + "\n\n")
         shops = [x for x in npcs if x in shopkeepers]
         if pg['containers'] or shops:
             P.append("## Items & containers\n\n")

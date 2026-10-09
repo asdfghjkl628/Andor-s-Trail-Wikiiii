@@ -254,9 +254,13 @@ _neg_factions = {r.get('rewardID') for c in conversations.values() for r in (c.g
                  if r.get('rewardType') in ('alignmentChange', 'alignmentSet') and (r.get('value') or 0) < 0}
 fight_by_dialogue = {mid for mid, m in monsters.items() if m.get('phraseID') and reaches(m['phraseID'], 'F')}
 fight_by_faction = {mid for mid, m in monsters.items() if m.get('phraseID') and m.get('faction') in _neg_factions}
+_speakers = {c['switchToNPC'] for c in conversations.values() if c.get('switchToNPC')}
 def kind_of(mid):
-    """Enemy: hostile on sight. NPC: has a conversation and can never be attacked. NPC/Enemy: has a conversation but can become hostile."""
-    if not monsters[mid].get('phraseID'): return 'Enemy'
+    """Enemy: hostile on sight. NPC: has a conversation and can never be attacked. NPC/Enemy: has a conversation but can become hostile.
+    Scenery: no conversation and no combat statistics at all (animals, objects, cutscene figures, speakers in someone else's dialogue)."""
+    m = monsters[mid]
+    if not m.get('phraseID'):
+        return 'Scenery' if not any(k in m for k in ('maxHP', 'attackDamage', 'attackChance', 'blockChance', 'damageResistance')) else 'Enemy'
     return 'NPC/Enemy' if mid in fight_by_dialogue or mid in fight_by_faction else 'NPC'
 sold_by = defaultdict(list)
 # drops: item -> [(monster, chance, qty)]
@@ -621,6 +625,7 @@ for _nm, _ids in name_groups.items():
     for x in _ids: canon_of[x] = _c
 def group_kind(ids):
     ks = {kind_of(x) for x in ids}
+    if len(ks) > 1: ks.discard('Scenery')
     return ks.pop() if len(ks) == 1 else 'NPC/Enemy'
 def fight_reason(mid):
     m = monsters[mid]
@@ -630,7 +635,9 @@ def fight_reason(mid):
 def span(vals, fmt=str):
     vals = sorted(set(vals))
     return '–' if not vals else (fmt(vals[0]) if len(vals) == 1 else f"{fmt(vals[0])}–{fmt(vals[-1])}")
-TYPE_HELP = {'Enemy': 'hostile on sight', 'NPC': 'can be spoken to; cannot be attacked', 'NPC/Enemy': 'can be spoken to, but can also be fought'}
+TYPE_HELP = {'Enemy': 'hostile on sight', 'NPC': 'can be spoken to; cannot be attacked', 'NPC/Enemy': 'can be spoken to, but can also be fought',
+             'Scenery': 'decoration or dialogue prop; no stats'}
+FIGHTS = ('Enemy', 'NPC/Enemy')
 _ENTRY_FIELDS = (('conversation', ('phraseID',)), ('location', None), ('combat statistics', ('maxHP', 'attackDamage', 'attackChance', 'blockChance', 'damageResistance', 'maxAP', 'attackCost', 'criticalSkill', 'criticalMultiplier')),
                  ('loot or shop stock', ('droplistID',)), ('faction', ('faction',)), ('appearance', ('iconID',)), ('movement', ('movementAggressionType',)))
 def entry_differences(ids):
@@ -659,11 +666,15 @@ def variant_body(x, multi, shown_convs):
         P.append(' · '.join(bits) + "\n\n")
         P.append((f"**Location:** {place_links(x, 6, pin=bool(m.get('phraseID')))}" if spawn_maps.get(x) else
                   "**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.") + "\n\n")
+    if k == 'Scenery':
+        how = ("it only appears as the speaker of lines in someone else's dialogue" if x in _speakers and not spawn_maps.get(x) else
+               "a decoration, an animal or a figure in a scripted scene" + (" that also speaks lines in someone else's dialogue" if x in _speakers else ''))
+        P.append(f'!!! note "Scenery"\n    No conversation and no combat statistics: {how}.\n\n')
     if k == 'NPC/Enemy': P.append(f"!!! warning \"Can be fought\"\n    This entry can be talked to, but it can also become an opponent: {fight_reason(x)}.\n\n")
     if k == 'NPC/Enemy' and 'maxHP' not in m:
         P.append("No combat statistics are defined for this entry in the game data. Where the story leads to a fight, the game normally uses a separate hostile entry"
                  + (" (listed on this page)" if multi else '') + ".\n\n")
-    elif k != 'NPC':
+    elif k in FIGHTS:
         d = m.get('attackDamage') or {}
         ap, cost = m.get('maxAP', 10), m.get('attackCost', 10)
         cs, cmul = m.get('criticalSkill', 0), m.get('criticalMultiplier', 0)
@@ -680,7 +691,7 @@ def variant_body(x, multi, shown_convs):
             if m.get(key): P.append(f"**{title}:** " + '; '.join(f"{a}: {md_esc(b)}" for a, b in effect_rows(m[key])) + "\n\n")
         P.append(H.verified("monster data and game code (`MonsterTypeParser.java`)", VERSION))
     dl = droplists.get(m.get('droplistID'))
-    if dl and (x in shopkeepers or k != 'NPC'):
+    if dl and (x in shopkeepers or k in FIGHTS):
         P.append("## " + ("Shop stock" if x in shopkeepers else "Drops") + "\n\n| Item | Chance | Qty |\n|---|---|---|\n" + ''.join(
             f"| {link('items', e['itemID'], items.get(e['itemID'], {}).get('name', e['itemID']))} | {chance_txt(e.get('chance'))} | {rng(e.get('quantity', {}))} |\n"
             for e in dl.get('items', [])) + "\n")
@@ -691,7 +702,7 @@ def variant_body(x, multi, shown_convs):
         cnt = sum(qty for o, ms, act, qty in pg['spawns'] if x in ms)
         later = any(not act for o, ms, act, qty in pg['spawns'] if x in ms)
         locs.append(f"| [{mp}](../maps/{mp}.md) | {region_of(mp) or '–'} | {cnt} | {'Appears later, during a quest' if later else '–'} |\n")
-    if locs and (k != 'NPC' or len(locs) > 1):
+    if locs and (k in FIGHTS or len(locs) > 1):
         P.append("## Locations\n\n| Map | Region | Up to | Notes |\n|---|---|---|---|\n" + ''.join(locs[:60]) + (f"\n*{len(locs) - 60} further maps are not listed.*\n" if len(locs) > 60 else '') + "\n")
     if kill_reqs.get(x):
         rows = []
@@ -712,12 +723,12 @@ def variant_body(x, multi, shown_convs):
              "\n    Raw data:\n\n" + raw_json(m) + '\n')
     return ''.join(P)
 
-enemy_rows, npc_rows = [], []
+enemy_rows, npc_rows, scenery_rows = [], [], []
 for c, ids in group_ids.items():
     m = monsters[c]; nm = (m.get('name') or '').strip() or c
     ic = icon(m.get('iconID'), 'monsters') or next((icon(monsters[x].get('iconID'), 'monsters') for x in ids if icon(monsters[x].get('iconID'), 'monsters')), None)
     gk = group_kind(ids); multi = len(ids) > 1
-    fv = [x for x in ids if kind_of(x) != 'NPC']
+    fv = [x for x in ids if kind_of(x) in FIGHTS]
     fv = [x for x in fv if 'maxHP' in monsters[x]] or fv   # ranges use entries that define combat statistics
     roles = '; '.join(dict.fromkeys(r for x in ids for r in [role_text(x)] if r))
     roles_plain = '; '.join(dict.fromkeys(r for x in ids for r in [role_text(x, False)] if r))
@@ -725,7 +736,9 @@ for c, ids in group_ids.items():
     regs = ', '.join(dict.fromkeys(r for x in ids for r in [where(x)] if r))
     intro_v = [introduced('monsters', x) for x in ids]
     # meta description
-    if gk == 'Enemy':
+    if gk == 'Scenery':
+        desc = f"{nm} is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics" + (f", found in {regs}" if regs else '') + "."
+    elif gk == 'Enemy':
         _top = list(dict.fromkeys(items.get(e['itemID'], {}).get('name', e['itemID']) for x in ids for e in (droplists.get(monsters[x].get('droplistID')) or {}).get('items', [])))[:4]
         desc = (f"{nm} is an enemy in Andor's Trail ({(m.get('monsterClass') or 'humanoid').lower()}) with "
                 f"{span([monsters[x].get('maxHP', 1) for x in fv])} HP, worth {span([monster_xp(monsters[x]) for x in fv])} XP"
@@ -742,7 +755,7 @@ for c, ids in group_ids.items():
              ('Introduced', intro_v[0] if not multi else (sorted(intro_v, key=lambda s: s if s.startswith('v') else '~')[0] if intro_v[0] else None))]
     P = [front(desc), f"# {img(ic)} {nm}\n\n"]
     if not multi:
-        if spawn_maps.get(c): P.append(f"**{'Found in' if gk == 'Enemy' else 'Where to find ' + md_esc(nm)}:** {place_links(c, pin=gk != 'Enemy')}\n\n")
+        if spawn_maps.get(c): P.append(f"**{'Found in' if gk == 'Enemy' else 'Where to find ' + md_esc(nm)}:** {place_links(c, pin=bool(monsters[c].get('phraseID')))}\n\n")
         elif gk != 'Enemy': P.append(f"**Where to find {md_esc(nm)}:** not placed on any map; appears through a quest or scripted event.\n\n")
     P.append(infobox(info, '../../' + ic if ic else None))
     if multi:
@@ -754,7 +767,7 @@ for c, ids in group_ids.items():
                  + "Each entry has its own section below.\n\n")
         P.append("| Entry | Type | Location | Role |" + (" HP |" if fv else '') + "\n|---|---|---|---|" + ("---|" if fv else '') + "\n" + ''.join(
             f"| [`{x}`](#v-{x}) | {kind_of(x)} | {place_links(x, 2, pin=bool(monsters[x].get('phraseID'))) or 'Not on a map'} | {role_text(x) or '–'} |"
-            + (f" {monsters[x].get('maxHP', 1) if kind_of(x) != 'NPC' else '–'} |" if fv else '') + "\n" for x in ids) + "\n")
+            + (f" {monsters[x].get('maxHP', 1) if kind_of(x) in FIGHTS else '–'} |" if fv else '') + "\n" for x in ids) + "\n")
         shown = {}
         for x in ids:
             P.append(f"## {md_esc(var_label(x))} ({x}) {{ #v-{x} }}\n\n" + demote(variant_body(x, True, shown)) + "\n")
@@ -765,30 +778,43 @@ for c, ids in group_ids.items():
     P.append(f"\n<small>Data from v{VERSION}</small>\n")
     write(f'monsters/{c}.md', ''.join(P))
     # index rows
-    if gk == 'NPC':
-        npc_rows.append((nm.lower(), f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {roles or '–'} | {regs or '–'} |\n"))
+    _cls = Counter((monsters[x].get('monsterClass') or 'humanoid') for x in (fv or ids)).most_common(1)[0][0]
+    if gk == 'Scenery':
+        scenery_rows.append((nm.lower(), f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {'dialogue prop' if all(x in _speakers for x in ids) else 'scenery'} | {regs or '–'} |\n"))
+    elif gk == 'NPC':
+        npc_rows.append((_cls, nm.lower(), f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {roles or '–'} | {regs or '–'} |\n"))
     else:
         fm = [monsters[x] for x in fv]
         _dm = {json.dumps(mm.get('attackDamage') or {}, sort_keys=True) for mm in fm}
         dmg_s = (rng(fm[0].get('attackDamage')) if fm[0].get('attackDamage') else '0') if len(_dm) == 1 else \
             f"{min((mm.get('attackDamage') or {}).get('min', 0) for mm in fm)} to {max((mm.get('attackDamage') or {}).get('max', 0) for mm in fm)}"
-        enemy_rows.append(((min(mm.get('maxHP', 1) for mm in fm), nm.lower()),
-            f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {gk} | {', '.join(dict.fromkeys(mm.get('monsterClass') or 'humanoid' for mm in fm))} | {span([mm.get('maxHP', 1) for mm in fm])} | "
+        enemy_rows.append((_cls, (min(mm.get('maxHP', 1) for mm in fm), nm.lower()),
+            f"| {img(ic)} | [{md_esc(nm)}]({c}.md) | {gk} | {span([mm.get('maxHP', 1) for mm in fm])} | "
             f"{span([monster_xp(mm) for mm in fm], lambda v: f'{v:,}')} | {dmg_s} | "
             f"{span([mm.get('attackChance', 0) for mm in fm])} | {span([mm.get('blockChance', 0) for mm in fm])} | {span([mm.get('damageResistance', 0) for mm in fm])} |\n"))
 n_types = Counter(group_kind(ids) for ids in group_ids.values())
-write('monsters/index.md', front(f"Every enemy and non-player character in Andor's Trail v{VERSION}, with combat statistics, XP values, locations and roles.") +
-      f"# Monsters & NPCs\n\n{n_types['Enemy']} enemies, {n_types['NPC/Enemy']} NPCs you can also end up fighting, and {n_types['NPC']} NPCs who are safe to talk to "
-      f"~~and safe to ignore~~. Entries that share a name in the game data are combined on one page.\n\n"
+def by_class(rows, header, sortkey):
+    cls = Counter(r[0] for r in rows)
+    out = ["**Classes:** " + ' · '.join(f"[{k.capitalize()}](#{header[0]}-{k}) ({n})" for k, n in cls.most_common()) + "\n\n"]
+    for k, n in cls.most_common():
+        out.append(f'<h3 id="{header[0]}-{k}">{k.capitalize()} ({n})</h3>\n\n' + header[1] + ''.join(r[-1] for r in sorted((r for r in rows if r[0] == k), key=sortkey)) + "\n")
+    return ''.join(out)
+write('monsters/index.md', front(f"Every enemy and non-player character in Andor's Trail v{VERSION}, by class, with combat statistics, XP values, locations and roles.") +
+      f"# Monsters & NPCs\n\n{n_types['Enemy']} enemies, {n_types['NPC/Enemy']} NPCs you can also end up fighting, {n_types['NPC']} NPCs who are safe to talk to "
+      f"~~and safe to ignore~~, and {n_types['Scenery']} bits of scenery. Entries that share a name in the game data are combined on one page.\n\n"
       "- **Enemy:** hostile on sight.\n- **NPC/Enemy:** talks first, may fight later (a dialogue choice, a faction turning hostile, or a hostile version of the same character).\n"
-      "- **NPC:** can't be attacked, so no combat stats.\n\n"
-      "## Enemies\n\nSorted by HP, weakest first ~~the ones at the bottom are there for a reason~~. Ranges mean several entries share the name. "
-      "Abbreviations: [glossary](../glossary.md).\n\n"
-      "| | Name | Type | Class | HP | XP | Damage | AC | BC | DR |\n|---|---|---|---|---|---|---|---|---|---|\n" + ''.join(r for _, r in sorted(enemy_rows)) +
-      "\n## NPCs\n\nCan't be attacked. Alphabetical; [Where is…?](../where.md) lists them by place.\n\n"
-      "| | Name | Role | Found in |\n|---|---|---|---|\n" + ''.join(r for _, r in sorted(npc_rows)))
+      "- **NPC:** can't be attacked, so no combat stats.\n- **Scenery:** animals, objects and cutscene figures with no conversation and no stats.\n\n"
+      "**Jump to:** [Enemies](#enemies) · [NPCs](#npcs) · [Scenery](#scenery)\n\n"
+      "## Enemies\n\nGrouped by class, then sorted by HP, weakest first ~~the ones at the bottom are there for a reason~~. Ranges mean several entries share the name. "
+      "Abbreviations: [glossary](../glossary.md).\n\n" +
+      by_class(enemy_rows, ('enemies', "| | Name | Type | HP | XP | Damage | AC | BC | DR |\n|---|---|---|---|---|---|---|---|---|\n"), lambda r: r[1]) +
+      "## NPCs\n\nCan't be attacked. Grouped by class, alphabetical; [Where is…?](../where.md) lists them by place.\n\n" +
+      by_class(npc_rows, ('npcs', "| | Name | Role | Found in |\n|---|---|---|---|\n"), lambda r: r[1]) +
+      "## Scenery\n\nDecorations, animals, cutscene figures and dialogue props (such as the items in Brimhaven's warehouse delivery quest). "
+      "They exist in the character data so they can appear on maps or speak in dialogue ~~but you can't loot the chandelier~~.\n\n"
+      "| | Name | Kind | Found in |\n|---|---|---|---|\n" + ''.join(r for _, r in sorted(scenery_rows)))
 _map_ctx['kind_of'] = kind_of
-json.dump({c: {'Enemy': 'enemy', 'NPC': 'NPC', 'NPC/Enemy': 'NPC who can be fought'}[group_kind(ids)] for c, ids in group_ids.items()},
+json.dump({c: {'Enemy': 'enemy', 'NPC': 'NPC', 'NPC/Enemy': 'NPC who can be fought', 'Scenery': 'scenery'}[group_kind(ids)] for c, ids in group_ids.items()},
           open(os.path.join(DOCS, 'assets', 'linkinfo.json'), 'w', encoding='utf-8'), separators=(',', ':'))
 
 write_map_pages(_map_pages, _map_ctx, QG, notes, shopkeepers, introduced)
@@ -1291,7 +1317,7 @@ for iid, it in items.items():
 calc_cats = {cid: {'slot': c.get('inventorySlot'), 'size': c.get('size'), 'prof': prof_skill(cid)} for cid, c in cats.items() if c.get('actionType') == 'equip'}
 calc_mons = []
 for mid, m in monsters.items():
-    if kind_of(mid) == 'NPC': continue
+    if kind_of(mid) not in FIGHTS: continue
     d = m.get('attackDamage') or {}
     calc_mons.append([mid, m.get('name') or mid, m.get('maxHP', 1), m.get('attackChance', 0), m.get('blockChance', 0), m.get('damageResistance', 0),
                       d.get('min', 0), d.get('max', 0), m.get('maxAP', 10), m.get('attackCost', 10), m.get('criticalSkill', 0), m.get('criticalMultiplier', 0), m.get('monsterClass')])
