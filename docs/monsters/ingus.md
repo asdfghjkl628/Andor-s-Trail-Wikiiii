@@ -137,7 +137,7 @@ Set your quest stages and items, then talk to Ingus. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Unfortunately, for whatever reason, people that live in their neighbo…” → “Unfortunately, for whatever reason, people that live in their neighbo…”<br>· text: “They live in one of the cabins on the southern shore. *Ingus points t…” → “They live in one of the cabins on the southern shore. [Ingus points t…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “They live in one of the cabins on the southern shore. *Ingus points t…” → “They live in one of the cabins on the southern shore. [Ingus points t…”<br>· text: “Unfortunately, for whatever reason, people that live in their neighbo…” → “Unfortunately, for whatever reason, people that live in their neighbo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

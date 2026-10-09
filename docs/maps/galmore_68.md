@@ -1,5 +1,5 @@
 ---
-description: "Galmore 68 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Galmore sky hunter, Aroughcun kit, Agile aroughcun, Sow aroughcun, Aroughcun. Exits to Galmore 58, Galmore 67, Galmore 68 house, Mt galmore 1 h 1."
+description: "Galmore 68 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Aroughcun kit, Agile aroughcun, Sow aroughcun, Aroughcun. Exits to Galmore 58, Galmore 67, Galmore 68 house, Mt galmore 1 h 1."
 ---
 
 # Galmore 68
@@ -14,12 +14,12 @@ description: "Galmore 68 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
-| **Enemy types** | 5 |
+| **Enemy types** | 4 |
 | **Quests** | 1 |
 
 </div>
 
-**Galmore 68** is an outdoor map, near Mt. Galmore (other). It has no NPCs and 5 kinds of enemy. Exits lead to Galmore 58, Galmore 67, Galmore 68 house, Mt galmore 1 h 1 and 5 more.
+**Galmore 68** is an outdoor map, near Mt. Galmore (other). It has no NPCs and 4 kinds of enemy. Exits lead to Galmore 58, Galmore 67, Galmore 68 house, Mt galmore 1 h 1 and 5 more.
 
 ## Map
 
@@ -65,13 +65,14 @@ description: "Galmore 68 is an outdoor location in Andor's Trail, near Mt. Galmo
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Galmore sky hunter](../monsters/eagle.md) | 0 | 0–0 | 1 | – |
 | [Aroughcun kit](../monsters/aroughcun_kit.md) | 155 | 10–15 | 1 | – |
 | [Agile aroughcun](../monsters/aroughcun_agile.md) | 168 | 10–15 | 7 | – |
 | [Sow aroughcun](../monsters/aroughcun_sow.md) | 175 | 12–17 | 2 | – |
 | [Aroughcun](../monsters/aroughcun.md) | 204 | 13–18 | 9 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Galmore sky hunter](../monsters/eagle.md)
 
 ## Quests
 

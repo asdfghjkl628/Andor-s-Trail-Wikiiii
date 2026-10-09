@@ -139,7 +139,7 @@ Set your quest stages and items, then talk to Feygard guard. Same rules as the g
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “But once we got here, it started happening. One by one, my fellow gua…” → “But once we got here, it started happening. One by one, my fellow gua…”<br>· text: “Yes, it seems so. None of the scouts have come back. Or rather, the o…” → “Yes, it seems so. None of the scouts have come back. Or rather, the o…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “Yes, it seems so. None of the scouts have come back. Or rather, the o…” → “Yes, it seems so. None of the scouts have come back. Or rather, the o…”<br>· text: “But once we got here, it started happening. One by one, my fellow gua…” → “But once we got here, it started happening. One by one, my fellow gua…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

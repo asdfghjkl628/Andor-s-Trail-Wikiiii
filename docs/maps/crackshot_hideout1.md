@@ -1,5 +1,5 @@
 ---
-description: "Crackshot hideout 1 is an indoor location in Andor's Trail, in Crossroads Guardhouse (other). Enemies: ???, Young larval burrower, Larval burrower. Exits to Crackshot hideout 2, Woodcave 0."
+description: "Crackshot hideout 1 is an indoor location in Andor's Trail, in Crossroads Guardhouse (other). Enemies: Young larval burrower, Larval burrower. Exits to Crackshot hideout 2, Woodcave 0."
 ---
 
 # Crackshot hideout 1
@@ -14,12 +14,12 @@ description: "Crackshot hideout 1 is an indoor location in Andor's Trail, in Cro
 | **Size** | 27×9 tiles |
 | **World map** | [Crackshot hideout](index.md) |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
-| **Enemy types** | 3 |
+| **Enemy types** | 2 |
 | **Quests** | 1 |
 
 </div>
 
-**Crackshot hideout 1** is an indoor map, in Crossroads Guardhouse (other). It has no NPCs and 3 kinds of enemy. Exits lead to Crackshot hideout 2, Woodcave 0.
+**Crackshot hideout 1** is an indoor map, in Crossroads Guardhouse (other). It has no NPCs and 2 kinds of enemy. Exits lead to Crackshot hideout 2, Woodcave 0.
 
 ## Map
 
@@ -51,11 +51,12 @@ description: "Crackshot hideout 1 is an indoor location in Andor's Trail, in Cro
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [???](../monsters/unknown.md) | 0 | 0–0 | 1 | – |
 | [Young larval burrower](../monsters/young_larval_burrower.md) | 30 | 1–6 | 6 | – |
 | [Larval burrower](../monsters/larval_burrower.md) | 35 | 1–6 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [???](../monsters/unknown.md)
 
 ## Quests
 

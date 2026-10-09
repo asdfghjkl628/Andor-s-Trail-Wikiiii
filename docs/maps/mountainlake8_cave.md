@@ -67,8 +67,8 @@ description: "Mountainlake 8 cave is an indoor location in Andor's Trail. NPCs: 
 | [Mountain wolf](../monsters/mountain_wolf.md) | 49 | 3–9 | 10 | – |
 | [Tough mountain brute](../monsters/mbrute_10.md) | 126 | 2–15 | 4 | shares spawn with Enraged mountain brute, Fearless mountain brute |
 | [Fearless mountain brute](../monsters/mbrute_11.md) | 137 | 2–15 | 4 | shares spawn with Enraged mountain brute, Tough mountain brute |
-| [Young mountain brute](../monsters/mbrute_1.md) | 148 | 0–14 | 4 | shares spawn with Weak mountain brute, Whitefur mountain brute |
 | [Enraged mountain brute](../monsters/mbrute_12.md) | 148 | 2–16 | 4 | shares spawn with Fearless mountain brute, Tough mountain brute |
+| [Young mountain brute](../monsters/mbrute_1.md) | 148 | 0–14 | 4 | shares spawn with Weak mountain brute, Whitefur mountain brute |
 | [Weak mountain brute](../monsters/mbrute_2.md) | 157 | 0–14 | 4 | shares spawn with Whitefur mountain brute, Young mountain brute |
 | [Whitefur mountain brute](../monsters/mbrute_3.md) | 166 | 0–14 | 4 | shares spawn with Weak mountain brute, Young mountain brute |
 

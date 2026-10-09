@@ -15,7 +15,7 @@ description: "Brightport story flags is a hidden quest in Andor's Trail, started
 | **In journal** | No (hidden flag) |
 | **Stages** | 197 |
 | **Started by** | [Othinus](../monsters/brightportpriest.md) ([Brightport temple](../maps/brightport_temple.md)) |
-| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportguard.md#v-brightportguard2), [Brightport guard](../monsters/brightportguard.md#v-brightportnorthguard), [Brightport guard](../monsters/brightportguard.md#v-brightport_guardcrate) +28 |
+| **NPCs involved** | [Agitated ghost](../monsters/brightport_ghost.md), [Androni](../monsters/brightport_chef.md), [Barthold](../monsters/brightportgoons1.md), [Brightport guard](../monsters/brightportguard.md#v-brightport_guardcrate), [Brightport guard](../monsters/brightportguard.md#v-brightportguard2), [Brightport guard](../monsters/brightportguard.md#v-brightportnorthguard) +28 |
 | **Locations** | [Brightport 1](../maps/brightport1.md), [Brightport 4](../maps/brightport4.md), [Brightport 5](../maps/brightport5.md), [Brightport abandoned](../maps/brightport_abandoned.md) |
 | **Total XP** | 1,500 |
 | **Related quests** | 13 |
@@ -3117,7 +3117,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 271 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Stages added: 257, 258<br>Stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…”<br>· text: “But it's not about the gold this time, we need them for an order and …” → “But it's not about the gold this time, we need them for an order and …” |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 257, 258<br>Stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…”<br>· text: “I'm in the middle of an important ritual. If you require something, p…” → “I'm in the middle of an important ritual. If you require something, p…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

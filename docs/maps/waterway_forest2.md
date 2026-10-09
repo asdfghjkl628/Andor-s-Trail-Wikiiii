@@ -1,5 +1,5 @@
 ---
-description: "Waterway forest 2 is an outdoor location in Andor's Trail, near Brightport (settlement). NPCs: Guard dog, Isolated man. Enemies: Rooster, Chicken, Hardshell beetle, Erumen lizard, Strong erumen lizard. Exits to Waterway forest 1, Waytobrightport 22, Korhald cave outdoor 1, Waterway forest 2 house…"
+description: "Waterway forest 2 is an outdoor location in Andor's Trail, near Brightport (settlement). NPCs: Guard dog, Isolated man. Enemies: Hardshell beetle, Erumen lizard, Strong erumen lizard. Exits to Waterway forest 1, Waytobrightport 22, Korhald cave outdoor 1, Waterway forest 2 house."
 ---
 
 # Waterway forest 2
@@ -15,12 +15,12 @@ description: "Waterway forest 2 is an outdoor location in Andor's Trail, near Br
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 | **NPCs** | 2 |
-| **Enemy types** | 5 |
+| **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Waterway forest 2** is an outdoor map, near Brightport (settlement). It has 2 NPCs and 5 kinds of enemy. Exits lead to Waterway forest 1, Waytobrightport 22, Korhald cave outdoor 1, Waterway forest 2 house.
+**Waterway forest 2** is an outdoor map, near Brightport (settlement). It has 2 NPCs and 3 kinds of enemy. Exits lead to Waterway forest 1, Waytobrightport 22, Korhald cave outdoor 1, Waterway forest 2 house.
 
 ## Map
 
@@ -63,13 +63,13 @@ description: "Waterway forest 2 is an outdoor location in Andor's Trail, near Br
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rooster](../monsters/rooster.md) | 0 | 0–0 | 1 | – |
-| [Chicken](../monsters/chicken.md) | 0 | 0–0 | 3 | – |
 | [Hardshell beetle](../monsters/hardshell_beetle.md) | 25 | 0–5 | 2 | – |
 | [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 4 | shares spawn with Strong erumen lizard |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 4 | shares spawn with Erumen lizard |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Chicken](../monsters/chicken.md), [Rooster](../monsters/rooster.md)
 
 ## Points of interest
 

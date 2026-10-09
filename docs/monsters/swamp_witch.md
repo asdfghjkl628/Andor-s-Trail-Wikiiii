@@ -27,7 +27,7 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
 | [`swamp_witch`](#v-swamp_witch) | NPC/Enemy | [Swamp hut](../maps/swamp_hut.md#pin-npc-swamp_witch) | shopkeeper | 220 |
-| [`swamp_witch_shop`](#v-swamp_witch_shop) | Enemy | [Swamp hut](../maps/swamp_hut.md) | – | 1 |
+| [`swamp_witch_shop`](#v-swamp_witch_shop) | Scenery | [Swamp hut](../maps/swamp_hut.md) | – | – |
 
 ## Swamp hut (swamp_witch) { #v-swamp_witch }
 
@@ -394,47 +394,12 @@ Set your quest stages and items, then talk to Madame Mim. Same rules as the game
 
 ## Swamp hut (swamp_witch_shop) { #v-swamp_witch_shop }
 
-**Entry ID:** `swamp_witch_shop` · **Type:** Enemy
+**Entry ID:** `swamp_witch_shop` · **Type:** Scenery
 
 **Location:** [Swamp hut](../maps/swamp_hut.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Sharpened gem](../items/gem4.md) | 100% | 1 to 5 |
-| [Madame Mim's Medicine](../items/swampwitch_health.md) | 100% | 7 |
-| [Rat tail](../items/rat_tail.md) | 100% | 2 to 5 |
-| [Claws](../items/claws.md) | 100% | 5 to 8 |
-| [Pink potion of stomach calming](../items/pink_potion.md) | 100% | 2 to 4 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Swamp hut](../maps/swamp_hut.md) | – | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history

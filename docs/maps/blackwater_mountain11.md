@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 11 is an outdoor location in Andor's Trail, in Prim (settlement). NPCs: Ehrenfest, General's henchman, Moyra, Prim citizen, Prim commoner. Enemies: General Ortholion, General's henchman. Exits to Blackwater mountain 10, Blackwater mountain 21, Blackwater mountain 22, Blackwate…"
+description: "Blackwater mountain 11 is an outdoor location in Andor's Trail, in Prim (settlement). NPCs: Ehrenfest, General's henchman, Moyra, Prim citizen, Prim commoner. Exits to Blackwater mountain 10, Blackwater mountain 21, Blackwater mountain 22, Blackwater mountain 23."
 ---
 
 # Blackwater mountain 11
@@ -15,12 +15,11 @@ description: "Blackwater mountain 11 is an outdoor location in Andor's Trail, in
 | **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 7 |
-| **Enemy types** | 2 |
 | **Quests** | 2 |
 
 </div>
 
-**Blackwater mountain 11** is an outdoor map, in Prim (settlement). It has 7 NPCs and 2 kinds of enemy. Exits lead to Blackwater mountain 10, Blackwater mountain 21, Blackwater mountain 22, Blackwater mountain 23 and 6 more.
+**Blackwater mountain 11** is an outdoor map, in Prim (settlement). It has 7 NPCs, and no enemies. Exits lead to Blackwater mountain 10, Blackwater mountain 21, Blackwater mountain 22, Blackwater mountain 23 and 6 more.
 
 ## Map
 
@@ -89,14 +88,7 @@ description: "Blackwater mountain 11 is an outdoor location in Andor's Trail, in
 - [Prim evoker](../monsters/prim_evoker.md) (#16)
 - [Prim resident](../monsters/prim_resident.md) — quests: [Climbing up is forbidden](../quests/Omi2_bwm1.md) (#17)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [General Ortholion](../monsters/ortholion.md#v-ortholion_hidden) | 0 | 0–0 | 1 | – |
-| [General's henchman](../monsters/ortholion_guard1.md#v-ortholion_guard_hidden) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [General Ortholion](../monsters/ortholion.md#v-ortholion_hidden), [General's henchman](../monsters/ortholion_guard1.md#v-ortholion_guard_hidden)
 
 ## Items & containers
 

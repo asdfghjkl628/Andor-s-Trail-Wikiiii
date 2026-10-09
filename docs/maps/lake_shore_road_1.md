@@ -1,5 +1,5 @@
 ---
-description: "Lake shore road 1 is an outdoor location in Andor's Trail, near Flagstone Prison (other). NPCs: Emmeline. Enemies: Blue fish, Small stone worm, Forest serpent, Wolf. Exits to Mywild 18, Mywildcave, Lake shore road 0, Witch house."
+description: "Lake shore road 1 is an outdoor location in Andor's Trail, near Flagstone Prison (other). NPCs: Emmeline. Enemies: Small stone worm, Forest serpent, Wolf. Exits to Mywild 18, Mywildcave, Lake shore road 0, Witch house."
 ---
 
 # Lake shore road 1
@@ -15,12 +15,12 @@ description: "Lake shore road 1 is an outdoor location in Andor's Trail, near Fl
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 4 |
+| **Enemy types** | 3 |
 | **Quests** | 1 |
 
 </div>
 
-**Lake shore road 1** is an outdoor map, near Flagstone Prison (other). It has 1 NPC and 4 kinds of enemy. Exits lead to Mywild 18, Mywildcave, Lake shore road 0, Witch house.
+**Lake shore road 1** is an outdoor map, near Flagstone Prison (other). It has 1 NPC and 3 kinds of enemy. Exits lead to Mywild 18, Mywildcave, Lake shore road 0, Witch house.
 
 ## Map
 
@@ -59,12 +59,13 @@ description: "Lake shore road 1 is an outdoor location in Andor's Trail, near Fl
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Blue fish](../monsters/fish_school.md) | 0 | 0–0 | 3 | – |
 | [Small stone worm](../monsters/small_stone_worm.md) | 17 | 2–4 | 2 | – |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 3 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 6 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Blue fish](../monsters/fish_school.md)
 
 ## Quests
 

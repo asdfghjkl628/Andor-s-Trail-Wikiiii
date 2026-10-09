@@ -27,7 +27,7 @@ description: "Alaric is an NPC who can also be fought in Andor's Trail, found in
 |---|---|---|---|---|
 | [`aidem_base_alaric`](#v-aidem_base_alaric) | NPC | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_alaric) | – | – |
 | [`aidem_base_alaric_aggressive`](#v-aidem_base_alaric_aggressive) | Enemy | [Aidem base 2](../maps/aidem_base_2.md) | – | 329 |
-| [`aidem_jail_alaric`](#v-aidem_jail_alaric) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`aidem_jail_alaric`](#v-aidem_jail_alaric) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
 | [`alaric_wild6house`](#v-alaric_wild6house) | NPC | Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-alaric_wild6house) | – | – |
 
 ## Aidem base 2 (aidem_base_alaric) { #v-aidem_base_alaric }
@@ -183,37 +183,12 @@ Set your quest stages and items, then talk to Alaric. Same rules as the game: sa
 
 ## Fallhaven, Guildbrig 2 (aidem_jail_alaric) { #v-aidem_jail_alaric }
 
-**Entry ID:** `aidem_jail_alaric` · **Type:** Enemy
+**Entry ID:** `aidem_jail_alaric` · **Type:** Scenery
 
 **Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history

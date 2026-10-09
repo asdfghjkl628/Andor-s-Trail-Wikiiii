@@ -1,5 +1,5 @@
 ---
-description: "Captain Burry is an NPC who can also be fought in Andor's Trail, found in Remgard, Lake Laeroth, Mountainlake circe."
+description: "Captain Burry is a non-player character (NPC) in Andor's Trail, found in Remgard, Lake Laeroth, Mountainlake circe."
 ---
 
 # ![](../assets/icons/monsters/monsters_karvis2_2.png){ .sprite } Captain Burry
@@ -10,11 +10,8 @@ description: "Captain Burry is an NPC who can also be fought in Andor's Trail, f
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Remgard, Lake Laeroth, Mountainlake circe |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
@@ -23,10 +20,10 @@ description: "Captain Burry is an NPC who can also be fought in Andor's Trail, f
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named Captain Burry. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ll2_captain`](#v-ll2_captain) | NPC | Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain) (+6 more) | – | – |
-| [`ll2_captain_0`](#v-ll2_captain_0) | Enemy | [Mountainlake circe](../maps/mountainlake_circe.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`ll2_captain`](#v-ll2_captain) | NPC | Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md#pin-npc-ll2_captain), Remgard: [Mountainlake 14](../maps/mountainlake14.md#pin-npc-ll2_captain) (+6 more) | – |
+| [`ll2_captain_0`](#v-ll2_captain_0) | Scenery | [Mountainlake circe](../maps/mountainlake_circe.md) | – |
 
 ## Lake Laeroth, Mountainlake 21 and 7 more (ll2_captain) { #v-ll2_captain }
 
@@ -102,37 +99,12 @@ Set your quest stages and items, then talk to Captain Burry. Same rules as the g
 
 ## Mountainlake circe (ll2_captain_0) { #v-ll2_captain_0 }
 
-**Entry ID:** `ll2_captain_0` · **Type:** Enemy
+**Entry ID:** `ll2_captain_0` · **Type:** Scenery
 
 **Location:** [Mountainlake circe](../maps/mountainlake_circe.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mountainlake circe](../maps/mountainlake_circe.md) | – | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -169,15 +141,6 @@ Set your quest stages and items, then talk to Captain Burry. Same rules as the g
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Galmore 26 is an outdoor location in Andor's Trail. Enemies: Pond fish, Snapmaw. Exits to Galmore 16, Galmore 27, Galmore 36, Galmore 25."
+description: "Galmore 26 is an outdoor location in Andor's Trail. Enemies: Snapmaw. Exits to Galmore 16, Galmore 27, Galmore 36, Galmore 25."
 ---
 
 # Galmore 26
@@ -13,12 +13,12 @@ description: "Galmore 26 is an outdoor location in Andor's Trail. Enemies: Pond 
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
-| **Enemy types** | 2 |
+| **Enemy types** | 1 |
 | **Quests** | 0 |
 
 </div>
 
-**Galmore 26** is an outdoor map. It has no NPCs and 2 kinds of enemy. Exits lead to Galmore 16, Galmore 27, Galmore 36, Galmore 25.
+**Galmore 26** is an outdoor map. It has no NPCs and 1 kind of enemy. Exits lead to Galmore 16, Galmore 27, Galmore 36, Galmore 25.
 
 ## Map
 
@@ -51,10 +51,11 @@ description: "Galmore 26 is an outdoor location in Andor's Trail. Enemies: Pond 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 1 | – |
 | [Snapmaw](../monsters/snapmaw.md) | 114 | 13–25 | 13 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

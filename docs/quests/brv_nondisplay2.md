@@ -15,7 +15,7 @@ description: "Brimhaven story flags 2 is a hidden quest in Andor's Trail, starte
 | **In journal** | No (hidden flag) |
 | **Stages** | 9 |
 | **Started by** | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil6) +6 |
+| **NPCs involved** | [Arlish](../monsters/arlish.md), [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil6), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3) +6 |
 | **Locations** | [Brimhaven general 1](../maps/brimhaven_general1.md), [Brimhaven school](../maps/brimhaven_school.md) |
 | **Related quests** | 2 |
 

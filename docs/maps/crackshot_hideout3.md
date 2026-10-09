@@ -1,5 +1,5 @@
 ---
-description: "Crackshot hideout 3 is an indoor location in Andor's Trail. NPCs: Crackshot, Feygard patrol sergeant, Rebelled thief, Sly Seraphina, Thief warden. Enemies: Dying Crackshot, Rebelled rogue. Exits to Crackshot hideout 2, Crackshot hideout 4."
+description: "Crackshot hideout 3 is an indoor location in Andor's Trail. NPCs: Crackshot, Feygard patrol sergeant, Rebelled thief, Sly Seraphina, Thief warden. Enemies: Rebelled rogue. Exits to Crackshot hideout 2, Crackshot hideout 4."
 ---
 
 # Crackshot hideout 3
@@ -14,13 +14,13 @@ description: "Crackshot hideout 3 is an indoor location in Andor's Trail. NPCs: 
 | **World map** | [Crackshot hideout](index.md) |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 | **NPCs** | 5 |
-| **Enemy types** | 2 |
+| **Enemy types** | 1 |
 | **Quests** | 2 |
 | **Containers** | 1 |
 
 </div>
 
-**Crackshot hideout 3** is an indoor map. It has 5 NPCs and 2 kinds of enemy. Exits lead to Crackshot hideout 2, Crackshot hideout 4.
+**Crackshot hideout 3** is an indoor map. It has 5 NPCs and 1 kind of enemy. Exits lead to Crackshot hideout 2, Crackshot hideout 4.
 
 ## Map
 
@@ -68,10 +68,11 @@ description: "Crackshot hideout 3 is an indoor location in Andor's Trail. NPCs: 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Dying Crackshot](../monsters/g03_crackshot_dying.md) | 0 | 0–0 | 1 | – |
 | [Rebelled rogue](../monsters/g03_thief_3.md) | 58 | 3–6 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Dying Crackshot](../monsters/g03_crackshot_dying.md)
 
 ## Items & containers
 

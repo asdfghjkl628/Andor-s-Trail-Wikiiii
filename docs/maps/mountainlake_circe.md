@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake circe is an indoor location in Andor's Trail. NPCs: Captain Burry, Circe, Pig. Enemies: Captain Burry. Exits to Mountainlake 22."
+description: "Mountainlake circe is an indoor location in Andor's Trail. NPCs: Captain Burry, Circe, Pig. Exits to Mountainlake 22."
 ---
 
 # Mountainlake circe
@@ -13,12 +13,11 @@ description: "Mountainlake circe is an indoor location in Andor's Trail. NPCs: C
 | **Size** | 11×9 tiles |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 | **NPCs** | 3 |
-| **Enemy types** | 1 |
 | **Quests** | 2 |
 
 </div>
 
-**Mountainlake circe** is an indoor map. It has 3 NPCs and 1 kind of enemy. Exits lead to Mountainlake 22.
+**Mountainlake circe** is an indoor map. It has 3 NPCs, and no enemies. Exits lead to Mountainlake 22.
 
 ## Map
 
@@ -51,13 +50,7 @@ description: "Mountainlake circe is an indoor location in Andor's Trail. NPCs: C
 - [Circe](../monsters/circe.md) — quests: [A map of the Great Lake Laeroth](../quests/lake_map.md) (#3)
 - [Pig](../monsters/pig.md#v-ll2_circe_pig) (#4)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Captain Burry](../monsters/ll2_captain.md#v-ll2_captain_0) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Captain Burry](../monsters/ll2_captain.md#v-ll2_captain_0)
 
 ## Quests
 

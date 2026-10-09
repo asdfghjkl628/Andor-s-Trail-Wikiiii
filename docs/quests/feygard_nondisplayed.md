@@ -15,7 +15,7 @@ description: "Feygard story flags is a hidden quest in Andor's Trail, started by
 | **In journal** | No (hidden flag) |
 | **Stages** | 35 |
 | **Started by** | walking into a blocked passage on [Guynmart wood 16](../maps/guynmart_wood_16.md) |
-| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe1.md), [Godoe](../monsters/godoe1.md#v-godoe2) +5 |
+| **NPCs involved** | [Athamyr](../monsters/athamyr.md), [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Godelieve](../monsters/village_godelieve.md), [Godoe](../monsters/godoe1.md#v-godoe2), [Godoe](../monsters/godoe1.md) +5 |
 | **Locations** | [Beekeeper 1](../maps/beekeeper1.md), [Fallhaven clothes](../maps/fallhaven_clothes.md), [Gamjee well 4 1](../maps/gamjee_well_4_1.md), [Guynmart wood 18](../maps/guynmart_wood_18.md) |
 | **Total XP** | 1,101 |
 | **Related quests** | 3 |

@@ -1,5 +1,5 @@
 ---
-description: "General's henchman is an NPC who can also be fought in Andor's Trail, found in Prim. Shopkeeper."
+description: "General's henchman is a non-player character (NPC) in Andor's Trail, found in Prim. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } General's henchman
@@ -10,12 +10,9 @@ description: "General's henchman is an NPC who can also be fought in Andor's Tra
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
 | **Found in** | Prim |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
@@ -24,10 +21,10 @@ description: "General's henchman is an NPC who can also be fought in Andor's Tra
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named General's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ortholion_guard1`](#v-ortholion_guard1) | NPC | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1) | shopkeeper | – |
-| [`ortholion_guard_hidden`](#v-ortholion_guard_hidden) | Enemy | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`ortholion_guard1`](#v-ortholion_guard1) | NPC | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1) | shopkeeper |
+| [`ortholion_guard_hidden`](#v-ortholion_guard_hidden) | Scenery | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – |
 
 ## Prim, Blackwater mountain 11 and 1 more (ortholion_guard1) { #v-ortholion_guard1 }
 
@@ -291,37 +288,12 @@ Set your quest stages and items, then talk to General's henchman. Same rules as 
 
 ## Prim, Blackwater mountain 11 (ortholion_guard_hidden) { #v-ortholion_guard_hidden }
 
-**Entry ID:** `ortholion_guard_hidden` · **Type:** Enemy
+**Entry ID:** `ortholion_guard_hidden` · **Type:** Scenery
 
 **Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 11](../maps/blackwater_mountain11.md) | Prim | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -358,15 +330,6 @@ Set your quest stages and items, then talk to General's henchman. Same rules as 
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -412,7 +412,7 @@ Set your quest stages and items, then talk to Harlenn. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Hm, you might have a point there.” → “Hmm, you might have a point there.”<br>· text: “Ok, this leaves us with no choice. We will have to step this up to an…” → “OK, this leaves us with no choice. We will have to step this up to an…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Ok, you have convinced me. I will leave this settlement for another t…” → “OK, you have convinced me. I will leave this settlement for another t…”<br>· text: “Ok, this is the plan. I want you to go talk to Guthbered down in Prim…” → “OK, this is the plan. I want you to go talk to Guthbered down in Prim…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

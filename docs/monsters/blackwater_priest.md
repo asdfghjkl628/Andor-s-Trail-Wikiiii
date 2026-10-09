@@ -53,7 +53,7 @@ Set your quest stages and items, then talk to Blackwater priest. Same rules as t
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “... Kazaul, destroyer of spilled hope .. No that's not it.” → “...Kazaul, destroyer of spilled hope... No that's not it.”<br>· text: “Spilled .. torment? No that's not it either.” → “Spilled ... torment? No that's not it either.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 2 lines changed<br>· text: “Spilled .. torment? No that's not it either.” → “Spilled ... torment? No that's not it either.”<br>· text: “... Kazaul, destroyer of spilled hope .. No that's not it.” → “...Kazaul, destroyer of spilled hope... No that's not it.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

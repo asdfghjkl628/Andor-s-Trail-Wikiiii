@@ -1,5 +1,5 @@
 ---
-description: "White house basement is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Falkour the Forge Dragon. Exits to White house."
+description: "White house basement is an indoor location in Andor's Trail, in Fallhaven (settlement). Exits to White house."
 ---
 
 # White house basement
@@ -13,12 +13,11 @@ description: "White house basement is an indoor location in Andor's Trail, in Fa
 | **Type** | Indoors / underground |
 | **Size** | 12×8 tiles |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
-| **Enemy types** | 1 |
 | **Quests** | 2 |
 
 </div>
 
-**White house basement** is an indoor map, in Fallhaven (settlement). It has no NPCs and 1 kind of enemy. Exits lead to White house.
+**White house basement** is an indoor map, in Fallhaven (settlement). It has no NPCs, and no enemies. Exits lead to White house.
 
 ## Map
 
@@ -44,13 +43,7 @@ description: "White house basement is an indoor location in Andor's Trail, in Fa
 |---|---|---|---|
 | West | [White house](white_house.md) | Fallhaven | 1 |
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Falkour the Forge Dragon](../monsters/wh_dragon.md) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Falkour the Forge Dragon](../monsters/wh_dragon.md)
 
 ## Quests
 

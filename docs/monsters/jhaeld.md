@@ -435,7 +435,7 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Third, the old woman Duaina usually has great wisdom to share, consid…” → “Third, the old woman Duaina usually has great wisdom to share, consid…”<br>· text: “(Jhaeld mumbles) Stupid kids..” → “[Jhaeld mumbles] Stupid kids...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Hm, now that you are here you might as well make yourself useful inst…” → “Hmm, now that you are here you might as well make yourself useful ins…”<br>· text: “Ok, so what I would like you to do for me is ask some people what the…” → “OK, so what I would like you to do for me is ask some people what the…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I find this very hard to believe. For to have killed Algangror would …” → “I find this very hard to believe. For you to have killed Algangror wo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

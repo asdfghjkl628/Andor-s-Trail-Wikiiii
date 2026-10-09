@@ -1,5 +1,5 @@
 ---
-description: "Sullengard apple farm east is an outdoor location in Andor's Trail, in Deebo's Orchard (other). NPCs: Deebo, Pig. Enemies: Grazing horse, Farm horse. Exits to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house."
+description: "Sullengard apple farm east is an outdoor location in Andor's Trail, in Deebo's Orchard (other). NPCs: Deebo, Pig. Exits to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house."
 ---
 
 # Sullengard apple farm east
@@ -15,12 +15,11 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 | **NPCs** | 2 |
-| **Enemy types** | 4 |
 | **Quests** | 2 |
 
 </div>
 
-**Sullengard apple farm east** is an outdoor map, in Deebo's Orchard (other). It has 2 NPCs and 4 kinds of enemy. Exits lead to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house.
+**Sullengard apple farm east** is an outdoor map, in Deebo's Orchard (other). It has 2 NPCs, and no enemies. Exits lead to Sullengard apple farm south, Sullengard apple farm west, Deebo orchard house.
 
 ## Map
 
@@ -54,16 +53,7 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 - [Deebo](../monsters/deebo_orchard_deebo.md) — shopkeeper — quests: [Bread and circus](../quests/brightport_bakery.md), [Hunting the hunter](../quests/deebo_orchard_hth.md) (#4)
 - [Pig](../monsters/pig.md) (#5)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right) | 0 | 0–0 | 1 | – |
-| [Grazing horse](../monsters/graze_horse_left.md) | 0 | 0–0 | 1 | – |
-| [Farm horse](../monsters/farm_horse.md) | 0 | 0–0 | 1 | – |
-| [Farm horse](../monsters/farm_horse.md#v-farm_horse_right) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Farm horse](../monsters/farm_horse.md#v-farm_horse_right), [Farm horse](../monsters/farm_horse.md), [Grazing horse](../monsters/graze_horse_left.md), [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right)
 
 ## Items & containers
 

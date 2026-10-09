@@ -113,7 +113,7 @@ Set your quest stages and items, then talk to Afflicted Feygard guard. Same rule
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 5 lines changed<br>· text: “(the guard stares back at you without saying anything)” → “[The guard stares back at you without saying anything]”<br>· text: “(the guard launches himself at you, raising his sword)” → “[The guard launches himself at you, raising his sword]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 5 lines changed<br>· text: “(the guard stares back at you without saying anything)” → “[The guard stares back at you without saying anything]”<br>· text: “(you also notice that the whites in his eyes have turned red from the…” → “[You also notice that the whites in his eyes have turned red from the…” |
 | [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

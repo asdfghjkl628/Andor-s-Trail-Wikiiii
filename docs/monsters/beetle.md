@@ -26,8 +26,8 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
 | [`beetle`](#v-beetle) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md) (+2 more) | – | 4 |
-| [`guynmart_fighter1`](#v-guynmart_fighter1) | Enemy | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | 1 |
-| [`guynmart_fighter2`](#v-guynmart_fighter2) | Enemy | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | 1 |
+| [`guynmart_fighter1`](#v-guynmart_fighter1) | Scenery | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | – |
+| [`guynmart_fighter2`](#v-guynmart_fighter2) | Scenery | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | – |
 
 ## Crossglen, Crossglen and 3 more (beetle) { #v-beetle }
 
@@ -122,37 +122,12 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 ## Guynmart Castle, Guynmart wood 8 (guynmart_fighter1) { #v-guynmart_fighter1 }
 
-**Entry ID:** `guynmart_fighter1` · **Type:** Enemy
+**Entry ID:** `guynmart_fighter1` · **Type:** Scenery
 
 **Location:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 1 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -192,37 +167,12 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 ## Guynmart Castle, Guynmart wood 8 (guynmart_fighter2) { #v-guynmart_fighter2 }
 
-**Entry ID:** `guynmart_fighter2` · **Type:** Enemy
+**Entry ID:** `guynmart_fighter2` · **Type:** Scenery
 
 **Location:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 1 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guynmart wood 8](../maps/guynmart_wood_8.md) | Guynmart Castle | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history

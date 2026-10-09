@@ -591,7 +591,7 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “You could say I got obsessed with learning more. I guess the others l…” → “You could say I got obsessed with learning more. I guess the others l…”<br>· text: “As I said, I cannot tell you what task I have in mind, or my reasonin…” → “As I said, I cannot tell you what task I have in mind, or my reasonin…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “Now, I can't handle them myself because of certain .. issues.” → “Now, I can't handle them myself because of certain ... issues.”<br>· text: “Say, you seem like a resourceful person. Would you be interested in h…” → “Say, you seem like a resourceful person. Would you be interested in h…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 

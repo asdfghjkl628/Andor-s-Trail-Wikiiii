@@ -1,5 +1,5 @@
 ---
-description: "Pixtumn is an NPC who can also be fought in Andor's Trail, found in Brimhaven. Shopkeeper."
+description: "Pixtumn is a non-player character (NPC) in Andor's Trail, found in Brimhaven. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Pixtumn
@@ -10,12 +10,9 @@ description: "Pixtumn is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Role** | Shopkeeper |
 | **Found in** | Brimhaven |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 4 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
@@ -24,12 +21,12 @@ description: "Pixtumn is an NPC who can also be fought in Andor's Trail, found i
 !!! info "4 entries in the game data"
     The game data defines 4 separate characters named Pixtumn. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, loot or shop stock. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`quiet_thief`](#v-quiet_thief) | NPC | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief) | shopkeeper | – |
-| [`quiet_thief_1`](#v-quiet_thief_1) | Enemy | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – | 1 |
-| [`quiet_thief_2`](#v-quiet_thief_2) | Enemy | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – | 1 |
-| [`quiet_thief_3`](#v-quiet_thief_3) | Enemy | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`quiet_thief`](#v-quiet_thief) | NPC | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md#pin-npc-quiet_thief) | shopkeeper |
+| [`quiet_thief_1`](#v-quiet_thief_1) | Scenery | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
+| [`quiet_thief_2`](#v-quiet_thief_2) | Scenery | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
+| [`quiet_thief_3`](#v-quiet_thief_3) | Scenery | Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md) | – |
 
 ## Brimhaven, Brimhaven inn east (quiet_thief) { #v-quiet_thief }
 
@@ -181,51 +178,12 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
 
 ## Brimhaven, Brimhaven inn east (quiet_thief_1) { #v-quiet_thief_1 }
 
-**Entry ID:** `quiet_thief_1` · **Type:** Enemy
+**Entry ID:** `quiet_thief_1` · **Type:** Scenery
 
 **Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [A strange looking dagger](../items/strange_dagger.md) | 100% | 1 |
-| [A strange-looking gem](../items/strange_gem.md) | 100% | 1 |
-| [Necklace of dexterity](../items/necklace_dexterity.md) | 100% | 1 |
-| [Defender's ring](../items/ring_defender.md) | 100% | 1 |
-| [Leather gloves of attack](../items/gloves_leather_attack.md) | 100% | 1 |
-| [Curved dagger](../items/daggr_curv.md) | 100% | 1 |
-| [Ring of surehit](../items/ring_atkch1.md) | 100% | 1 |
-| [Fine leather cap](../items/hat_fine_leather.md) | 100% | 1 |
-| [Fancy green hat](../items/hat_fancy_green.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven inn east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -268,50 +226,12 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
 
 ## Brimhaven, Brimhaven inn east (quiet_thief_2) { #v-quiet_thief_2 }
 
-**Entry ID:** `quiet_thief_2` · **Type:** Enemy
+**Entry ID:** `quiet_thief_2` · **Type:** Scenery
 
 **Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [A strange looking dagger](../items/strange_dagger.md) | 100% | 1 |
-| [Necklace of dexterity](../items/necklace_dexterity.md) | 100% | 1 |
-| [Defender's ring](../items/ring_defender.md) | 100% | 1 |
-| [Leather gloves of attack](../items/gloves_leather_attack.md) | 100% | 1 |
-| [Curved dagger](../items/daggr_curv.md) | 100% | 1 |
-| [Ring of surehit](../items/ring_atkch1.md) | 100% | 1 |
-| [Fine leather cap](../items/hat_fine_leather.md) | 100% | 1 |
-| [Fancy green hat](../items/hat_fancy_green.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven inn east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -354,50 +274,12 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
 
 ## Brimhaven, Brimhaven inn east (quiet_thief_3) { #v-quiet_thief_3 }
 
-**Entry ID:** `quiet_thief_3` · **Type:** Enemy
+**Entry ID:** `quiet_thief_3` · **Type:** Scenery
 
 **Location:** Brimhaven: [Brimhaven inn east](../maps/brimhaven_inn_east.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [A strange-looking gem](../items/strange_gem.md) | 100% | 1 |
-| [Necklace of dexterity](../items/necklace_dexterity.md) | 100% | 1 |
-| [Defender's ring](../items/ring_defender.md) | 100% | 1 |
-| [Leather gloves of attack](../items/gloves_leather_attack.md) | 100% | 1 |
-| [Curved dagger](../items/daggr_curv.md) | 100% | 1 |
-| [Ring of surehit](../items/ring_atkch1.md) | 100% | 1 |
-| [Fine leather cap](../items/hat_fine_leather.md) | 100% | 1 |
-| [Fancy green hat](../items/hat_fancy_green.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven inn east](../maps/brimhaven_inn_east.md) | Brimhaven | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -437,15 +319,6 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

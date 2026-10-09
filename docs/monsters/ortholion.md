@@ -1,5 +1,5 @@
 ---
-description: "General Ortholion is an NPC who can also be fought in Andor's Trail, found in Prim."
+description: "General Ortholion is a non-player character (NPC) in Andor's Trail, found in Prim."
 ---
 
 # ![](../assets/icons/monsters/monsters_omi2_10.png){ .sprite } General Ortholion
@@ -10,11 +10,8 @@ description: "General Ortholion is an NPC who can also be fought in Andor's Trai
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC (can be spoken to; cannot be attacked) |
 | **Found in** | Prim |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 2 |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
@@ -23,10 +20,10 @@ description: "General Ortholion is an NPC who can also be fought in Andor's Trai
 !!! info "2 entries in the game data"
     The game data defines 2 separate characters named General Ortholion. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ortholion`](#v-ortholion) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion) (+2 more) | – | – |
-| [`ortholion_hidden`](#v-ortholion_hidden) | Enemy | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`ortholion`](#v-ortholion) | NPC | Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion), [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-ortholion) (+2 more) | – |
+| [`ortholion_hidden`](#v-ortholion_hidden) | Scenery | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – |
 
 ## Prim, Blackwater mountain 29 and 3 more (ortholion) { #v-ortholion }
 
@@ -383,8 +380,8 @@ Set your quest stages and items, then talk to General Ortholion. Same rules as t
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 2 lines changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 1 line changed<br>· text: “A reward? This does not work that way...What would Feygard would thin…” → “A reward? This does not work that way...What would Feygard think of m…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “You might not be wrong at all... But this is no place to talk, full o…” → “I would duel you here and prove you wrong, but this is really no plac…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “I'm... *stares at you* $playername! It's time to end with all of this!” → “I'm... [stares at you] $playername! It's time to end with all of this!”<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…” |
+| [v0.8.8](../versions/0.8.8.md) | Dialogue: 4 lines changed<br>· text: “This is humilating enough... I'll get out of this cave. I'll be at th…” → “Yes, yes... I'll get out of this cave. Meet me at the entrance of the…”<br>· text: “*looks at you* This is humillating. How did that guy...” → “*looks at you* Humilliating. How did I...? How did that guy...?” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 6 lines changed<br>· text: “Ortholion! How much is your life worth? How many people? Prove the ho…” → “Ortholion! How much is your life worth? How many people? Prove the ho…”<br>· text: “*laughs quietly* Only simple minds would see things as black or white…” → “[Laughs quietly] Only simple minds would see things as black or white…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -420,37 +417,12 @@ Set your quest stages and items, then talk to General Ortholion. Same rules as t
 
 ## Prim, Blackwater mountain 11 (ortholion_hidden) { #v-ortholion_hidden }
 
-**Entry ID:** `ortholion_hidden` · **Type:** Enemy
+**Entry ID:** `ortholion_hidden` · **Type:** Scenery
 
 **Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 11](../maps/blackwater_mountain11.md) | Prim | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -487,15 +459,6 @@ Set your quest stages and items, then talk to General Ortholion. Same rules as t
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

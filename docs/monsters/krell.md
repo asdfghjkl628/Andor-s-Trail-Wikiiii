@@ -149,7 +149,7 @@ Set your quest stages and items, then talk to Krell. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “You see, usually it is us knights that find .. missing people. Now, w…” → “You see, usually it is us knights that find ... missing people. Now, …”<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “We also help people find .. erm .. people that have gone missing.” → “We also help people find ... erm ... people that have gone missing.”<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

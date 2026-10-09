@@ -1,5 +1,5 @@
 ---
-description: "Galmore 36 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: Pond fish, River snapper, Ridgehowler, Bridge bogling. Exits to Galmore 26, Galmore 37, Galmore 46, Galmore 35."
+description: "Galmore 36 is an outdoor location in Andor's Trail, near Mt. Galmore (other). Enemies: River snapper, Ridgehowler, Bridge bogling. Exits to Galmore 26, Galmore 37, Galmore 46, Galmore 35."
 ---
 
 # Galmore 36
@@ -14,12 +14,12 @@ description: "Galmore 36 is an outdoor location in Andor's Trail, near Mt. Galmo
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
-| **Enemy types** | 4 |
+| **Enemy types** | 3 |
 | **Quests** | 0 |
 
 </div>
 
-**Galmore 36** is an outdoor map, near Mt. Galmore (other). It has no NPCs and 4 kinds of enemy. Exits lead to Galmore 26, Galmore 37, Galmore 46, Galmore 35.
+**Galmore 36** is an outdoor map, near Mt. Galmore (other). It has no NPCs and 3 kinds of enemy. Exits lead to Galmore 26, Galmore 37, Galmore 46, Galmore 35.
 
 ## Map
 
@@ -52,12 +52,13 @@ description: "Galmore 36 is an outdoor location in Andor's Trail, near Mt. Galmo
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Pond fish](../monsters/pond_fish.md) | 0 | 0–0 | 3 | – |
 | [River snapper](../monsters/sutdover_snapper.md) | 100 | 11–25 | 9 | – |
 | [Ridgehowler](../monsters/ridgehowler.md) | 180 | 19–19 | 6 | – |
 | [Bridge bogling](../monsters/bridge_bogling.md) | 222 | 5–25 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Pond fish](../monsters/pond_fish.md)
 
 
 ## Version history

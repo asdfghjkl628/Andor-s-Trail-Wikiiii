@@ -1,5 +1,5 @@
 ---
-description: "Mountainlake 10a is an outdoor location in Andor's Trail, near Lake Laeroth (other). NPCs: Halvor. Enemies: Fish, Mountain wolf pup, Young mountain wolf, Young mountain fox, Mountain fox. Exits to Mountainlake 10, Mountainlake 11, Mountainlake 22, Laerothisland 0."
+description: "Mountainlake 10a is an outdoor location in Andor's Trail, near Lake Laeroth (other). NPCs: Halvor. Enemies: Mountain wolf pup, Young mountain wolf, Young mountain fox, Mountain fox, Ferocious mountain fox. Exits to Mountainlake 10, Mountainlake 11, Mountainlake 22, Laerothisland 0."
 ---
 
 # Mountainlake 10a
@@ -15,12 +15,12 @@ description: "Mountainlake 10a is an outdoor location in Andor's Trail, near Lak
 | **World map** | [World 1](index.md) |
 | **Introduced** | v0.7.0 or earlier |
 | **NPCs** | 1 |
-| **Enemy types** | 7 |
+| **Enemy types** | 6 |
 | **Quests** | 2 |
 
 </div>
 
-**Mountainlake 10a** is an outdoor map, near Lake Laeroth (other). It has 1 NPC and 7 kinds of enemy. Exits lead to Mountainlake 10, Mountainlake 11, Mountainlake 22, Laerothisland 0 and 3 more.
+**Mountainlake 10a** is an outdoor map, near Lake Laeroth (other). It has 1 NPC and 6 kinds of enemy. Exits lead to Mountainlake 10, Mountainlake 11, Mountainlake 22, Laerothisland 0 and 3 more.
 
 ## Map
 
@@ -65,7 +65,6 @@ description: "Mountainlake 10a is an outdoor location in Andor's Trail, near Lak
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 1 | – |
 | [Mountain wolf pup](../monsters/mwolf_1.md) | 45 | 2–7 | 5 | shares spawn with Young mountain fox, Young mountain wolf |
 | [Young mountain wolf](../monsters/mwolf_2.md) | 52 | 3–7 | 5 | shares spawn with Mountain wolf pup, Young mountain fox |
 | [Young mountain fox](../monsters/mwolf_3.md) | 56 | 3–7 | 5 | shares spawn with Mountain wolf pup, Young mountain wolf |
@@ -74,6 +73,8 @@ description: "Mountainlake 10a is an outdoor location in Andor's Trail, near Lak
 | [Rabid mountain wolf](../monsters/mwolf_6.md) | 67 | 3–9 | 1 | shares spawn with Ferocious mountain fox, Mountain fox |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish2)
 
 ## Quests
 

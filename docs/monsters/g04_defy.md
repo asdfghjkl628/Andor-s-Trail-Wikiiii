@@ -28,7 +28,7 @@ description: "Defy is an NPC who can also be fought in Andor's Trail, found in S
 | [`g04_defy`](#v-g04_defy) | NPC | Sullengard: [Sullengard tavern basement](../maps/sullengard_tavern_basement.md#pin-npc-g04_defy) | – | – |
 | [`aidem_base_defy`](#v-aidem_base_defy) | NPC/Enemy | [Aidem base 2](../maps/aidem_base_2.md#pin-npc-aidem_base_defy) | – | 359 |
 | [`aidem_camp_defy`](#v-aidem_camp_defy) | NPC | [Aidem camp](../maps/aidem_camp.md#pin-npc-aidem_camp_defy) | – | – |
-| [`aidem_jail_defy`](#v-aidem_jail_defy) | Enemy | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | 1 |
+| [`aidem_jail_defy`](#v-aidem_jail_defy) | Scenery | Fallhaven: [Guildbrig 2](../maps/guildbrig2.md) | – | – |
 | [`defy_wild6house`](#v-defy_wild6house) | NPC | Blackwater Mountain: [Wild 6 house](../maps/wild6_house.md#pin-npc-defy_wild6house) | – | – |
 
 ## Sullengard, Sullengard tavern basement (g04_defy) { #v-g04_defy }
@@ -498,37 +498,12 @@ Set your quest stages and items, then talk to Defy. Same rules as the game: same
 
 ## Fallhaven, Guildbrig 2 (aidem_jail_defy) { #v-aidem_jail_defy }
 
-**Entry ID:** `aidem_jail_defy` · **Type:** Enemy
+**Entry ID:** `aidem_jail_defy` · **Type:** Scenery
 
 **Location:** Fallhaven: [Guildbrig 2](../maps/guildbrig2.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guildbrig 2](../maps/guildbrig2.md) | Fallhaven | 1 | Appears later, during a quest |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history

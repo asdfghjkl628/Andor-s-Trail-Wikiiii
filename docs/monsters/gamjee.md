@@ -26,7 +26,7 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
 | [`gamjee`](#v-gamjee) | NPC/Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee) | – | 417 |
-| [`gamjee_hidden`](#v-gamjee_hidden) | Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 |
+| [`gamjee_hidden`](#v-gamjee_hidden) | Scenery | [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | – |
 | [`gamjee_oc`](#v-gamjee_oc) | NPC/Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc) | – | 417 |
 
 ## Gamjee well 4 1 (gamjee) { #v-gamjee }
@@ -275,37 +275,12 @@ Set your quest stages and items, then talk to Gamjee. Same rules as the game: sa
 
 ## Gamjee well 4 1 (gamjee_hidden) { #v-gamjee_hidden }
 
-**Entry ID:** `gamjee_hidden` · **Type:** Enemy
+**Entry ID:** `gamjee_hidden` · **Type:** Scenery
 
 **Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history

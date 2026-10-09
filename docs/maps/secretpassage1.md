@@ -51,8 +51,8 @@ description: "Secretpassage 1 is an indoor location in Andor's Trail. Enemies: T
 | [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 | 4–7 | 1 | shares spawn with Tough cave scorpion |
 | [Cave bat](../monsters/cavebat4.md) | 39 | 1–7 | 6 | shares spawn with Aggressive cave bat |
 | [Aggressive cave bat](../monsters/cavebat5.md) | 41 | 1–7 | 6 | shares spawn with Cave bat |
-| [Poisonous vine](../monsters/poison_vine_top.md) | 90 | 1–3 | 1 | – |
 | [Poisonous vine](../monsters/poison_vine_top.md#v-poison_vine_bottom) | 90 | 1–3 | 1 | – |
+| [Poisonous vine](../monsters/poison_vine_top.md) | 90 | 1–3 | 1 | – |
 | [Queen spider](../monsters/spider_queen.md) | 135 | 8–19 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

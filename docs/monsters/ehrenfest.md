@@ -664,7 +664,7 @@ Set your quest stages and items, then talk to Ehrenfest. Same rules as the game:
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “*looks nervious* I told you. Something big is about to happen. I beli…” → “*looks nervous* I told you. Something big is about to happen. I belie…” |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 3 lines changed<br>· text: “Lorn lay next to me, just a few meters away. His armor was entirely c…” → “Lorn lay next to me, just a few steps away. His armor was entirely co…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed<br>· text: “Just before starting to launch any attack, General Ortholion moves an…” → “Just before starting to launch an attack, General Ortholion moves and…” |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “*The general effortlessly subdues you, and begins to laugh* Look, tak…” → “[The general effortlessly subdues you, and begins to laugh] Look, tak…”<br>· text: “If only you were stronger...Maybe I could convince you to join us, *c…” → “If only you were stronger...Maybe I could convince you to join us, [c…” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 8 lines changed<br>· text: “If only you were stronger...Maybe I could convince you to join us, *c…” → “If only you were stronger...Maybe I could convince you to join us, [c…”<br>· text: “*laughs quietly* Only simple minds would see things as black or white…” → “[Laughs quietly] Only simple minds would see things as black or white…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

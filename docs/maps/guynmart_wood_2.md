@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Fish, Cute dog puppy, Wolf, Vicious hound. Exits to Guynmart wood 7, Guynmart, Guynmart wood 3."
+description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Cute dog puppy, Wolf, Vicious hound, Rabid hound, Wild dog. Exits to Guynmart wood 7, Guynmart, Guynmart wood 3."
 ---
 
 # Guynmart wood 2
@@ -14,12 +14,12 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 | **Size** | 30×30 tiles |
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
-| **Enemy types** | 8 |
+| **Enemy types** | 6 |
 | **Quests** | 0 |
 
 </div>
 
-**Guynmart wood 2** is an outdoor map, near Guynmart Castle (other). It has no NPCs and 8 kinds of enemy. Exits lead to Guynmart wood 7, Guynmart, Guynmart wood 3.
+**Guynmart wood 2** is an outdoor map, near Guynmart Castle (other). It has no NPCs and 6 kinds of enemy. Exits lead to Guynmart wood 7, Guynmart, Guynmart wood 3.
 
 ## Map
 
@@ -84,16 +84,16 @@ description: "Guynmart wood 2 is an outdoor location in Andor's Trail, near Guyn
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish1) | 0 | 0–0 | 1 | – |
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 3 | – |
 | [Cute dog puppy](../monsters/guynmart_dog_puppy.md) | 6 | 2–2 | 1 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
 | [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 2 | – |
-| [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
-| [Wild dog](../monsters/guynmart_dog2a.md#v-guynmart_dog3a) | 40 | 3–9 | 5 | appears later, during a quest |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 1 | – |
+| [Wild dog](../monsters/guynmart_dog2a.md#v-guynmart_dog3a) | 40 | 3–9 | 5 | appears later, during a quest |
+| [Wild dog](../monsters/guynmart_dog2a.md) | 40 | 5–9 | 9 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish2), [Fish](../monsters/brv_fish1.md#v-guynmart_fish1)
 
 ## Quests
 

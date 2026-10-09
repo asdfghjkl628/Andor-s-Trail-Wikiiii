@@ -183,7 +183,7 @@ Set your quest stages and items, then talk to Thorin. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “You see, me and my fellow gatherers were out investigating the poison…” → “You see, me and my fellow gatherers were out investigating the poison…”<br>· text: “Ok then. Please return when you have found them all. I would go searc…” → “OK then. Please return when you have found them all. I would go searc…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Oh yes. The upside of this cave is that it literally is crawling with…” → “Oh yes. The upside of this cave is that it literally is crawling with…”<br>· text: “You see, me and my fellow gatherers were out investigating the poison…” → “You see, me and my fellow gatherers were out investigating the poison…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

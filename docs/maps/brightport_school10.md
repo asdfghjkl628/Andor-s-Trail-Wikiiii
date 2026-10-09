@@ -1,5 +1,5 @@
 ---
-description: "Brightport school 10 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Evelina, Frederich. Enemies: Cedric, Regnal, Aurelia, Brightport student, Dietrich. Exits to Brightport school 1."
+description: "Brightport school 10 is an indoor location in Andor's Trail, in Brightport (settlement). NPCs: Evelina, Frederich. Exits to Brightport school 1."
 ---
 
 # Brightport school 10
@@ -14,13 +14,12 @@ description: "Brightport school 10 is an indoor location in Andor's Trail, in Br
 | **Size** | 11×14 tiles |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 | **NPCs** | 2 |
-| **Enemy types** | 7 |
 | **Quests** | 1 |
 | **Containers** | 1 |
 
 </div>
 
-**Brightport school 10** is an indoor map, in Brightport (settlement). It has 2 NPCs and 7 kinds of enemy. Exits lead to Brightport school 1.
+**Brightport school 10** is an indoor map, in Brightport (settlement). It has 2 NPCs, and no enemies. Exits lead to Brightport school 1.
 
 ## Map
 
@@ -54,19 +53,7 @@ description: "Brightport school 10 is an indoor location in Andor's Trail, in Br
 - [Evelina](../monsters/brightportstudent9.md) (#2)
 - [Frederich](../monsters/brightportnpc5.md) — quests: [No rest for the wicked](../quests/Stanwickquest.md) (#3)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Cedric](../monsters/brightportstudent6.md) | 0 | 0–0 | 1 | – |
-| [Regnal](../monsters/brightportstudent4.md) | 0 | 0–0 | 1 | – |
-| [Aurelia](../monsters/brightportstudent8.md) | 0 | 0–0 | 1 | – |
-| [Brightport student](../monsters/brightportstudent5.md) | 0 | 0–0 | 1 | – |
-| [Dietrich](../monsters/brightportstudent7.md) | 0 | 0–0 | 1 | – |
-| [Ysolde](../monsters/brightportstudent2.md) | 0 | 0–0 | 1 | – |
-| [Thaddeus](../monsters/brightportstudent1.md) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Aurelia](../monsters/brightportstudent8.md), [Brightport student](../monsters/brightportstudent5.md), [Cedric](../monsters/brightportstudent6.md), [Dietrich](../monsters/brightportstudent7.md), [Regnal](../monsters/brightportstudent4.md), [Thaddeus](../monsters/brightportstudent1.md), [Ysolde](../monsters/brightportstudent2.md)
 
 ## Items & containers
 

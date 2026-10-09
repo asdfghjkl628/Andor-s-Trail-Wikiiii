@@ -1,5 +1,5 @@
 ---
-description: "Brightport chimney is an indoor location in Andor's Trail. Enemies: Guard 2, Guard 1. "
+description: "Brightport chimney is an indoor location in Andor's Trail. "
 ---
 
 # Brightport chimney
@@ -12,12 +12,11 @@ description: "Brightport chimney is an indoor location in Andor's Trail. Enemies
 | **Type** | Indoors / underground |
 | **Size** | 3×5 tiles |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
-| **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Brightport chimney** is an indoor map. It has no NPCs and 2 kinds of enemy. 
+**Brightport chimney** is an indoor map. It has no NPCs, and no enemies. 
 
 ## Map
 
@@ -34,14 +33,7 @@ description: "Brightport chimney is an indoor location in Andor's Trail. Enemies
 
 <p class="verified">Verified against v0.8.18 map data.</p>
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Guard 2](../monsters/brightportguardcrate2.md) | 0 | 0–0 | 1 | – |
-| [Guard 1](../monsters/brightportguardcrate1.md) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Guard 1](../monsters/brightportguardcrate1.md), [Guard 2](../monsters/brightportguardcrate2.md)
 
 ## Quests
 

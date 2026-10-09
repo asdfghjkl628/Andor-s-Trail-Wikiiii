@@ -1,5 +1,5 @@
 ---
-description: "Catacombs 2 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Catacomb rat, Spectre, Ghostly visage, Large catacomb rat. Exits to Catacombs 1, Catacombs 3."
+description: "Catacombs 2 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Spectre, Catacomb rat, Ghostly visage, Large catacomb rat. Exits to Catacombs 1, Catacombs 3."
 ---
 
 # Catacombs 2
@@ -56,8 +56,8 @@ description: "Catacombs 2 is an indoor location in Andor's Trail, in Fallhaven (
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Catacomb rat](../monsters/catacomb_rat.md) | 15 | 1–1 | 4 | shares spawn with Large catacomb rat |
 | [Spectre](../monsters/spectre.md) | 15 | 1–5 | 5 | shares spawn with Ghostly visage |
+| [Catacomb rat](../monsters/catacomb_rat.md) | 15 | 1–1 | 4 | shares spawn with Large catacomb rat |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 | 1–4 | 5 | shares spawn with Spectre |
 | [Large catacomb rat](../monsters/large_catacomb_rat.md) | 21 | 1–2 | 4 | shares spawn with Catacomb rat |
 

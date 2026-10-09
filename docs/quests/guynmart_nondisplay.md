@@ -15,7 +15,7 @@ description: "Guynmart story flags is a hidden quest in Andor's Trail, started b
 | **In journal** | No (hidden flag) |
 | **Stages** | 29 |
 | **Started by** | stepping on a trigger on [Guynmart wood 2](../maps/guynmart_wood_2.md) |
-| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) +6 |
+| **NPCs involved** | [Armor](../monsters/guynmart_reward3.md), [Fjoerkard](../monsters/guynmart_drunkard1.md), [Gold](../monsters/guynmart_reward1.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah2), [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) +6 |
 | **Locations** | [Guynmart](../maps/guynmart.md), [Guynmart main 0](../maps/guynmart_main_0.md), [Guynmart main 1](../maps/guynmart_main_1.md), [Guynmart main 2](../maps/guynmart_main_2.md) |
 | **Related quests** | 3 |
 

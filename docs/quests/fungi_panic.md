@@ -12,7 +12,7 @@ description: "Fungi panic is a quest in Andor's Trail, started by Bogsten (bogst
 | **In journal** | Yes |
 | **Stages** | 30 (completes at 200) |
 | **Started by** | [Bogsten](../monsters/bogsten.md) ([Bogsten 1](../maps/bogsten1.md)) |
-| **NPCs involved** | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker), [Black fog](../monsters/zuul_khan1_blocker.md), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker), [Bogsten](../monsters/bogsten.md) +4 |
+| **NPCs involved** | [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan3_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan2_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan4_blocker), [Black fog](../monsters/zuul_khan1_blocker.md#v-zuul_khan9_blocker), [Black fog](../monsters/zuul_khan1_blocker.md), [Bogsten](../monsters/bogsten.md) +4 |
 | **Locations** | [Bogsten 1](../maps/bogsten1.md), [Bogsten 4](../maps/bogsten4.md), [Fallhaven potions](../maps/fallhaven_potions.md), [Mushroom m 2 3](../maps/mushroom_m2_3.md) |
 | **Total XP** | 7,500 |
 

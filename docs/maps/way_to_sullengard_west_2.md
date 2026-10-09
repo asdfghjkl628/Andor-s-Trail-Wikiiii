@@ -1,5 +1,5 @@
 ---
-description: "Way to sullengard west 2 is an outdoor location in Andor's Trail. NPCs: Dirty grimmthorn marauder. Enemies: Preying bird, Verdant cyclopea creeper, Spiked cyclopea creeper. Exits to Way to sullengard west 3, Way to sullengard west 4."
+description: "Way to sullengard west 2 is an outdoor location in Andor's Trail. NPCs: Dirty grimmthorn marauder. Enemies: Verdant cyclopea creeper, Spiked cyclopea creeper. Exits to Way to sullengard west 3, Way to sullengard west 4."
 ---
 
 # Way to sullengard west 2
@@ -14,12 +14,12 @@ description: "Way to sullengard west 2 is an outdoor location in Andor's Trail. 
 | **World map** | [World 1](index.md) |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 3 |
+| **Enemy types** | 2 |
 | **Quests** | 0 |
 
 </div>
 
-**Way to sullengard west 2** is an outdoor map. It has 1 NPC and 3 kinds of enemy. Exits lead to Way to sullengard west 3, Way to sullengard west 4.
+**Way to sullengard west 2** is an outdoor map. It has 1 NPC and 2 kinds of enemy. Exits lead to Way to sullengard west 3, Way to sullengard west 4.
 
 ## Map
 
@@ -53,11 +53,12 @@ description: "Way to sullengard west 2 is an outdoor location in Andor's Trail. 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Preying bird](../monsters/preying_bird.md) | 0 | 0–0 | 1 | – |
 | [Verdant cyclopea creeper](../monsters/verdant_cyclopea_creeper.md) | 227 | 3–6 | 1 | – |
 | [Spiked cyclopea creeper](../monsters/spiked_cyclopea_creeper.md) | 238 | 4–6 | 3 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Preying bird](../monsters/preying_bird.md)
 
 
 ## Version history

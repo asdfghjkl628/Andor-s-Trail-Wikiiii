@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven 1 is an outdoor location in Andor's Trail, near Loneford (settlement). NPCs: Sly Seraphina. Enemies: Grasslands beetle, Tough grasslands beetle, Rabid hound, Spotted erumen lizard, Young erumen lizard. Exits to Waterwayb 1, Waytobrimhaven 2, Waytobrimhaven 4, Waytobrimhaven 0."
+description: "Waytobrimhaven 1 is an outdoor location in Andor's Trail, near Loneford (settlement). NPCs: Sly Seraphina. Enemies: Grasslands beetle, Tough grasslands beetle, Rabid hound, Young erumen lizard, Spotted erumen lizard. Exits to Waterwayb 1, Waytobrimhaven 2, Waytobrimhaven 4, Waytobrimhaven 0."
 ---
 
 # Waytobrimhaven 1
@@ -64,8 +64,8 @@ description: "Waytobrimhaven 1 is an outdoor location in Andor's Trail, near Lon
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 3 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 3 | shares spawn with Grasslands beetle |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 5 | – |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

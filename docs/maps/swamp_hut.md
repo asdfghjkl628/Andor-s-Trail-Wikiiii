@@ -1,5 +1,5 @@
 ---
-description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim. Enemies: Madame Mim. Exits to Swamp 3."
+description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim. Exits to Swamp 3."
 ---
 
 # Swamp hut
@@ -13,13 +13,12 @@ description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim
 | **Size** | 11×10 tiles |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 1 |
 | **Quests** | 2 |
 | **Containers** | 1 |
 
 </div>
 
-**Swamp hut** is an indoor map. It has 1 NPC and 1 kind of enemy. Exits lead to Swamp 3.
+**Swamp hut** is an indoor map. It has 1 NPC, and no enemies. Exits lead to Swamp 3.
 
 ## Map
 
@@ -53,13 +52,7 @@ description: "Swamp hut is an indoor location in Andor's Trail. NPCs: Madame Mim
 
 - [Madame Mim](../monsters/swamp_witch.md) — shopkeeper — can be fought — quests: [Fog in the woods](../quests/fogmonster.md) (#3)
 
-## Enemies
-
-| Enemy | HP | Damage | Up to | Notes |
-|---|---|---|---|---|
-| [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop) | 0 | 0–0 | 1 | – |
-
-<small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+**Scenery:** [Madame Mim](../monsters/swamp_witch.md#v-swamp_witch_shop)
 
 ## Items & containers
 

@@ -155,7 +155,7 @@ Set your quest stages and items, then talk to Drunkard. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “That's where we.. Hey, where did my mead go? Did you take it from me?” → “That's where we... Hey, where did my mead go? Did you take it from me?”<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…”<br>· text: “Oh sweet drinks of joy. May the sssshadow be with you kid. *makes big…” → “Oh sweet drinks of joy. May the sssshadow be with you kid. [Makes big…” |
 | [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 10 lines added, 2 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, guard. I'm not causing any trouble anymore, see? I sits outside n…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

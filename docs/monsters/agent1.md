@@ -121,7 +121,7 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “Excellent. The Blackwater settlement is some distance away. Frankly, …” → “Excellent. The Blackwater mountain settlement is some distance away. …”<br>· text: “Reward? Hm, I was hoping you would help us for other reasons than a r…” → “Reward? Hmm, I was hoping you would help us for other reasons than a …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 6 lines changed<br>· text: “The mine shaft over there *points* has collapsed, so I guess you won'…” → “The mine shaft over there [points] has collapsed, so I guess you won'…”<br>· text: “Reward? Hm, I was hoping you would help us for other reasons than a r…” → “Reward? Hmm, I was hoping you would help us for other reasons than a …” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed<br>· text: “Oh, someone from the outside! Please, sir! You have to help us!” → “Oh, someone from the outside! Please, adventurer, you have to help us!” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -141,7 +141,7 @@ Set your quest stages and items, then talk to Two-teeth. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “She's in the other hut over there. *points*” → “She's in the other hut over there [points].”<br>· text: “[coughs heavily]” → “[Coughs heavily]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Ok, ok! No need to get all violent.” → “OK, OK! No need to get all violent.”<br>· text: “[coughs heavily]” → “[Coughs heavily]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

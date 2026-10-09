@@ -12,7 +12,7 @@ description: "Missing husband is a quest in Andor's Trail, started by Leta. 13 s
 | **In journal** | Yes |
 | **Stages** | 13 (completes at 100, 105) |
 | **Started by** | [Leta](../monsters/leta.md), [Leta](../monsters/leta.md) |
-| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir.md#v-oromir_behind_inn_help), [Oromir](../monsters/oromir.md), [Oromir](../monsters/oromir.md#v-oromir_behind_haystack_help), [Oromir](../monsters/oromir.md#v-oromir_behind_haystack), [Oromir](../monsters/oromir.md#v-oromir_basement) +2 |
+| **NPCs involved** | [Leta](../monsters/leta.md), [Oromir](../monsters/oromir.md#v-oromir_basement_help), [Oromir](../monsters/oromir.md#v-oromir_behind_haystack_help), [Oromir](../monsters/oromir.md#v-oromir_behind_haystack), [Oromir](../monsters/oromir.md#v-oromir_basement), [Oromir](../monsters/oromir.md#v-oromir_behind_inn_help) +2 |
 | **Locations** | [Crossglen](../maps/crossglen.md), [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md) |
 | **Total XP** | 520 |
 | **Related quests** | 1 |

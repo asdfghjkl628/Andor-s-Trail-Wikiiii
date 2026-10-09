@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 76 is an indoor location in Andor's Trail. NPCs: Shadowfang. Enemies: Fish, Slippery Venomfang, Noxious venomfang. Exits to Blackwater mountain 75."
+description: "Blackwater mountain 76 is an indoor location in Andor's Trail. NPCs: Shadowfang. Enemies: Slippery Venomfang, Noxious venomfang. Exits to Blackwater mountain 75."
 ---
 
 # Blackwater mountain 76
@@ -14,13 +14,13 @@ description: "Blackwater mountain 76 is an indoor location in Andor's Trail. NPC
 | **World map** | [Omi 2 bwmhole](index.md) |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 4 |
+| **Enemy types** | 2 |
 | **Quests** | 0 |
 | **Containers** | 2 |
 
 </div>
 
-**Blackwater mountain 76** is an indoor map. It has 1 NPC and 4 kinds of enemy. Exits lead to Blackwater mountain 75.
+**Blackwater mountain 76** is an indoor map. It has 1 NPC and 2 kinds of enemy. Exits lead to Blackwater mountain 75.
 
 ## Map
 
@@ -54,12 +54,12 @@ description: "Blackwater mountain 76 is an indoor location in Andor's Trail. NPC
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish2) | 0 | 0–0 | 1 | – |
-| [Fish](../monsters/brv_fish1.md#v-guynmart_fish1) | 0 | 0–0 | 1 | – |
 | [Slippery Venomfang](../monsters/slippery_venomfang.md) | 38 | 3–6 | 2 | shares spawn with Noxious venomfang |
 | [Noxious venomfang](../monsters/noxious_venomfang.md) | 44 | 3–6 | 2 | shares spawn with Slippery Venomfang |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish2), [Fish](../monsters/brv_fish1.md#v-guynmart_fish1)
 
 ## Items & containers
 

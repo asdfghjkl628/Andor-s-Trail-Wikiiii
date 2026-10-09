@@ -1,10 +1,10 @@
 ---
-description: "Turtle is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Remgard, Lake Laeroth."
+description: "Turtle is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Remgard, Lake Laeroth."
 ---
 
 # ![](../assets/icons/monsters/monsters_nut_7.png){ .sprite } Turtle
 
-**Found in:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md) (+17 more)
+**Where to find Turtle:** Lake Laeroth: [Mountainlake 2](../maps/mountainlake2.md), Lake Laeroth: [Mountainlake 21](../maps/mountainlake21.md), Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md) (+17 more)
 
 <div class="infobox" markdown>
 
@@ -12,37 +12,15 @@ description: "Turtle is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Remgard, Lake Laeroth |
-| **Class** | Animal |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entry ID** | `ll2_turtle1` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-## Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 ## Locations
 
@@ -105,15 +83,6 @@ description: "Turtle is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP
      "horizontalFlipChance": 50
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

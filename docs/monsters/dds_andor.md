@@ -28,7 +28,7 @@ description: "Andor is an NPC who can also be fought in Andor's Trail, found in 
 | [`dds_andor`](#v-dds_andor) | NPC | [Road 5 house](../maps/road5_house.md#pin-npc-dds_andor), [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor) | – | – |
 | [`lae_andor2`](#v-lae_andor2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_andor2) | – | – |
 | [`lae_andor3`](#v-lae_andor3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_andor3) | – | 200 |
-| [`mg2_andor`](#v-mg2_andor) | Enemy | Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md) | – | 1 |
+| [`mg2_andor`](#v-mg2_andor) | Scenery | Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md) | – | – |
 
 ## Road 5 house and 1 more (dds_andor) { #v-dds_andor }
 
@@ -348,31 +348,12 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
 
 ## Mt. Galmore, Galmore 52 and 1 more (mg2_andor) { #v-mg2_andor }
 
-**Entry ID:** `mg2_andor` · **Type:** Enemy
+**Entry ID:** `mg2_andor` · **Type:** Scenery
 
 **Location:** Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 ### Locations
 

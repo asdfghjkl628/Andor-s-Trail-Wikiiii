@@ -126,7 +126,7 @@ Set your quest stages and items, then talk to Leonid. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “On one hand, Lord Geomyr supports Crossglen with a lot of protection.…” → “On one hand, Lord Geomyr supports Crossglen with a lot of protection.…”<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…”<br>· text: “In the meantime, we've banned all use of Bonemeal as a healing substa…” → “In the meantime, we've banned all use of bonemeal as a healing substa…” |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “Hello kid. You're Mikhail's son aren't you? With that brother of your…” → “Hello kid. You're Mikhail's youngest child aren't you? With that brot…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

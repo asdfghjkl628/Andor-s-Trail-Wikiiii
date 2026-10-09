@@ -94,13 +94,13 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Blackwater pupil](monsters/blackwater_pupil.md) | [Blackwater mountain 43](maps/blackwater_mountain43.md#pin-npc-blackwater_pupil), [Blackwater mountain 44](maps/blackwater_mountain44.md#pin-npc-blackwater_pupil) | – |
 | [Blau](monsters/brightportstudent11.md) | Brightport: [Brightport school 12](maps/brightport_school12.md#pin-npc-brightportstudent11) | – |
 | [Blond citizen](monsters/blond_citizen.md) | Fallhaven: [Fallhaven north-east](maps/fallhaven_ne.md#pin-npc-blond_citizen) | – |
-| [Blornvale](monsters/stoutford_alchemist.md) | Stoutford: [Stoutford potion](maps/stoutford_potion.md#pin-npc-stoutford_alchemist), Stoutford: [Stoutford potion](maps/stoutford_potion.md#pin-npc-stoutford_alchemist2) | shopkeeper |
+| [Blornvale](monsters/stoutford_alchemist.md) | Stoutford: [Stoutford potion](maps/stoutford_potion.md#pin-npc-stoutford_alchemist2), Stoutford: [Stoutford potion](maps/stoutford_potion.md#pin-npc-stoutford_alchemist) | shopkeeper |
 | [Bloskelt](monsters/ratdom_skeleton_boss2.md) | Bloskelt + Roskelt: [Ratdom maze 416](maps/ratdom_maze_416.md#pin-npc-ratdom_skeleton_boss2) | – |
 | [Bogal](monsters/bogsten_gambler1.md) | [Mushroom m 2 4b](maps/mushroom_m2_4b.md#pin-npc-bogsten_gambler1) | – |
 | [Bogsten](monsters/bogsten.md) | [Bogsten 1](maps/bogsten1.md#pin-npc-bogsten) | starts [Fungi panic](quests/fungi_panic.md) |
 | [Bollo](monsters/bogsten_gambler3.md) | [Mushroom m 2 4b](maps/mushroom_m2_4b.md#pin-npc-bogsten_gambler3) | – |
-| [Bonicksa](monsters/wicked_witch_first.md) | [Witch house](maps/witch_house.md#pin-npc-wicked_witch_third), [Witch house](maps/witch_house.md#pin-npc-wicked_witch_first), [Witch house](maps/witch_house.md#pin-npc-wicked_witch_second) | – |
-| [Boralla](monsters/stn_boralla.md) | Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stn_boralla7), Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stn_boralla1), Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stn_boralla5) (+5 more) | – |
+| [Bonicksa](monsters/wicked_witch_first.md) | [Witch house](maps/witch_house.md#pin-npc-wicked_witch_second), [Witch house](maps/witch_house.md#pin-npc-wicked_witch_third), [Witch house](maps/witch_house.md#pin-npc-wicked_witch_first) | – |
+| [Boralla](monsters/stn_boralla.md) | Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stn_boralla3), Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stn_boralla), Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stn_boralla1) (+5 more) | – |
 | [Borlag](monsters/stoutford_commander.md) | Stoutford: [Stoutford tower 1](maps/stoutford_tower1.md#pin-npc-stoutford_commander) | – |
 | [Borvis](monsters/dds_borvis.md) | Mt. Galmore: [Galmore 45](maps/galmore_45.md#pin-npc-dds_borvis), [Galmore 41](maps/galmore_41.md#pin-npc-dds_borvis), [Road 5](maps/road5.md#pin-npc-dds_borvis) | starts [Shadows](quests/shadows.md) |
 | [Botisto](monsters/bogsten_gambler2.md) | [Mushroom m 2 4b](maps/mushroom_m2_4b.md#pin-npc-bogsten_gambler2) | – |
@@ -170,7 +170,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Citizen](monsters/citizen.md) | Fallhaven: [Fallhaven north-east](maps/fallhaven_ne.md#pin-npc-citizen), Fallhaven: [Fallhaven south-west](maps/fallhaven_sw.md#pin-npc-citizen) | – |
 | [Clevred](monsters/ratdom_rat.md) | 4 wells: [Ratdom maze 567](maps/ratdom_maze_567.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 658](maps/ratdom_maze_658.md#pin-npc-ratdom_rat), 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_rat) (+140 more) | starts [Yellow is it](quests/ratdom_quest.md) |
 | [Colonel Lutarc](monsters/stn_colonel.md) | Flagstone Prison: [Waytogalmore 0](maps/waytogalmore0.md#pin-npc-stn_colonel) | starts [Colonel Lutarc](quests/stn_colonel.md) |
-| [Commoner](monsters/rg_villager1.md) | Brimhaven: [Brimhaven 1](maps/brimhaven1.md#pin-npc-brv_villager9), Brimhaven: [Brimhaven 1](maps/brimhaven1.md#pin-npc-brv_villager11), Brimhaven: [Brimhaven 2](maps/brimhaven2.md#pin-npc-brv_villager10) (+21 more) | – |
+| [Commoner](monsters/rg_villager1.md) | Brimhaven: [Brimhaven 1](maps/brimhaven1.md#pin-npc-brv_villager11), Brimhaven: [Brimhaven 1](maps/brimhaven1.md#pin-npc-brv_villager9), Brimhaven: [Brimhaven 2](maps/brimhaven2.md#pin-npc-brv_villager8) (+21 more) | – |
 | [Confused Feygard soldier](monsters/ortholion_guard7.md) | [Elm mine 2](maps/elm_mine2.md#pin-npc-ortholion_guard7) | – |
 | [Confused ghost](monsters/bogsten_ghost5.md) | [Mushroom m 2 4b](maps/mushroom_m2_4b.md#pin-npc-bogsten_ghost5) | – |
 | [Conren](monsters/conren.md) | Loneford: [Loneford 2](maps/loneford2.md#pin-npc-conren) | – |
@@ -190,11 +190,11 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 
 | Name | Where | Role |
 |---|---|---|
-| [Dancing skeleton](monsters/ratdom_skel_dance1.md) | Skeleton dance: [Ratdom maze 543d](maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1), Skeleton dance: [Ratdom maze 543d](maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance2), Skeleton dance: [Ratdom maze 543d](maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5) (+4 more) | – |
+| [Dancing skeleton](monsters/ratdom_skel_dance1.md) | Skeleton dance: [Ratdom maze 543d](maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance5), Skeleton dance: [Ratdom maze 543d](maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance7), Skeleton dance: [Ratdom maze 543d](maps/ratdom_maze_543d.md#pin-npc-ratdom_skel_dance1) (+4 more) | – |
 | [Dantran](monsters/sullengard_dantran.md) | Sullengard: [Sullengard tavern basement](maps/sullengard_tavern_basement.md#pin-npc-sullengard_dantran) | – |
 | [Dark priest](monsters/dds_dark_priest.md) | [Galmore 41](maps/galmore_41.md#pin-npc-dds_dark_priest), [Galmore 41](maps/galmore_41.md#pin-npc-dds_dark_priest2) | – |
 | [Dark spirit](monsters/crossglen_dark_spirit.md) | [Galmore 32](maps/galmore_32.md#pin-npc-undertell_dark_spirit) | – |
-| [Dark watch](monsters/lae_demon4.md) | [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_demon4_safe), [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_demon4b_safe), [Laerothprison 5](maps/laerothprison5.md#pin-npc-lae_demon5_safe) (+7 more) | – |
+| [Dark watch](monsters/lae_demon4.md) | [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_demon4b_safe), [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_demon4_safe), [Laerothprison 5](maps/laerothprison5.md#pin-npc-lae_demon5_safe) (+7 more) | – |
 | [Dealer](monsters/brv_blackjack_dealer.md) | Brimhaven: [Brimhaven tavern west back](maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_dealer) | – |
 | [Deebo](monsters/deebo_orchard_deebo.md) | Deebo's Orchard: [Sullengard apple farm east](maps/sullengard_apple_farm_east.md#pin-npc-deebo_orchard_deebo) | shopkeeper; starts [Hunting the hunter](quests/deebo_orchard_hth.md) |
 | [Defy](monsters/g04_defy.md) | Blackwater Mountain: [Wild 6 house](maps/wild6_house.md#pin-npc-defy_wild6house), Sullengard: [Sullengard tavern basement](maps/sullengard_tavern_basement.md#pin-npc-g04_defy), [Aidem base 2](maps/aidem_base_2.md#pin-npc-aidem_base_defy) (+1 more) | – |
@@ -207,7 +207,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Drashad](monsters/drashad.md) | Prim: [Tradehouse 0](maps/tradehouse0.md#pin-npc-drashad) | – |
 | [Dread guardian](monsters/tesrekan_guardian.md) | [Waterwayacave 1](maps/waterwayacave1.md#pin-npc-tesrekan_guardian) | – |
 | [Drendolas](monsters/brightport_studentghost1.md) | Brightport: [Brightport grave](maps/brightport_grave.md#pin-npc-brightport_studentghost1), Brightport: [Brightport school 8](maps/brightport_school8.md#pin-npc-brightport_studentghost1) | – |
-| [Drinking brother](monsters/sullengard_drinking_brother.md) | Sullengard: [Sullengard tavern](maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3), Sullengard: [Sullengard tavern](maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother), Sullengard: [Sullengard tavern](maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2) | – |
+| [Drinking brother](monsters/sullengard_drinking_brother.md) | Sullengard: [Sullengard tavern](maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother2), Sullengard: [Sullengard tavern](maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother3), Sullengard: [Sullengard tavern](maps/sullengard_tavern.md#pin-npc-sullengard_drinking_brother) | – |
 | [Drummer](monsters/erwyn_skel_drum.md) | Flagstone Prison: [Stoutford castle shed](maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum) | – |
 | [Drunk](monsters/drunk.md) | Crossglen: [Crossglen hall](maps/crossglen_hall.md#pin-npc-drunk), Fallhaven: [Fallhaven tavern](maps/fallhaven_tavern.md#pin-npc-drunk), Loneford: [Loneford 3](maps/loneford3.md#pin-npc-drunk) (+1 more) | – |
 | [Drunkard](monsters/drunkard.md) | Fallhaven: [Fallhaven north-west](maps/fallhaven_nw.md#pin-npc-drunkard) | starts [Drunken tale](quests/fallhavendrunk.md) |
@@ -283,15 +283,15 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Feygard soldier](monsters/patrol_roaming.md) | Blackwater Mountain: [Wild 6](maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [Brimhaven 4](maps/brimhaven4.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Crossroads](maps/crossroads.md#pin-npc-patrol_roaming) (+7 more) | – |
 | [Fiamma](monsters/brightportsmith.md) | Brightport: [Brightport weapon](maps/brightport_weapon.md#pin-npc-brightportsmith) | shopkeeper; starts [Too hot to handle](quests/brightport_fiamma.md) |
 | [Fisherman](monsters/brv_fisher.md) | Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_fisher) | – |
-| [Fjoerkard](monsters/guynmart_drunkard1.md) | Guynmart Castle: [Guynmart main 2](maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5), Guynmart Castle: [Guynmart main 2](maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1) | – |
+| [Fjoerkard](monsters/guynmart_drunkard1.md) | Guynmart Castle: [Guynmart main 2](maps/guynmart_main_2.md#pin-npc-guynmart_drunkard1), Guynmart Castle: [Guynmart main 2](maps/guynmart_main_2.md#pin-npc-guynmart_drunkard5) | – |
 | [Flagstone sentry](monsters/flagstone_sentry.md) | Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-flagstone_sentry) | – |
-| [Flaming orb](monsters/ratdom_maze_boulder1.md) | [Ratdom maze 551](maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder2), [Ratdom maze 551](maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder1), [Ratdom maze 551](maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4) (+2 more) | – |
+| [Flaming orb](monsters/ratdom_maze_boulder1.md) | [Ratdom maze 551](maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder4), [Ratdom maze 551](maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder3), [Ratdom maze 551](maps/ratdom_maze_551.md#pin-npc-ratdom_maze_boulder5) (+2 more) | – |
 | [Florencia](monsters/brightportforenza1.md) | Brightport: [Brightport forenza](maps/brightport_forenza.md#pin-npc-brightportforenza1) | – |
 | [Foaming Flask cook](monsters/foaming_flask_cook.md) | Foaming Flask Tavern: [Foaming flask](maps/foaming_flask.md#pin-npc-foaming_flask_cook) | – |
 | [Forenza](monsters/forenza.md) | Brimhaven: [Waytobrimhaven 3](maps/waytobrimhaven3.md#pin-npc-forenza_waytobrimhaven3), Lake Laeroth: [Laerothbasement 2](maps/laerothbasement2.md#pin-npc-forenza) | – |
 | [Forest guardian](monsters/lodar0_g.md) | Loneford: [Lodar 0](maps/lodar0.md#pin-npc-lodar0_g) | – |
 | [Forlin](monsters/brv_tavern1_guest2.md) | Brimhaven: [Brimhaven tavern 1](maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest2) | – |
-| [Forsaken shade](monsters/shade1.md) | [Undertell 3 00](maps/undertell_3_00.md#pin-npc-shade7), [Undertell 3 00](maps/undertell_3_00.md#pin-npc-shade8), [Undertell 3 00](maps/undertell_3_00.md#pin-npc-shade9) (+8 more) | – |
+| [Forsaken shade](monsters/shade1.md) | [Undertell 3 00](maps/undertell_3_00.md#pin-npc-shade8), [Undertell 3 00](maps/undertell_3_00.md#pin-npc-shade7), [Undertell 3 00](maps/undertell_3_00.md#pin-npc-shade9) (+8 more) | – |
 | [Fraedro](monsters/ratdom_fraedro.md) | Pub: [Ratdom maze 626](maps/ratdom_maze_626.md#pin-npc-ratdom_fraedro) | – |
 | [Franz](monsters/brightportnpc4.md) | Brightport: [Brightport school 12](maps/brightport_school12.md#pin-npc-brightportnpc4) | – |
 | [Frederich](monsters/brightportnpc5.md) | Brightport: [Brightport school 10](maps/brightport_school10.md#pin-npc-brightportnpc5) | – |
@@ -311,8 +311,8 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Gallain](monsters/gallain.md) | Crossroads Guardhouse: [Houseatcrossroads 0](maps/houseatcrossroads0.md#pin-npc-gallain) | shopkeeper |
 | [Galmore wolf](monsters/mg2_wolves.md) | Mt. Galmore: [Galmore 54](maps/galmore_54.md#pin-npc-mg2_wolves), Mt. Galmore: [Galmore 55](maps/galmore_55.md#pin-npc-mg2_wolves), Mt. Galmore: [Galmore 64](maps/galmore_64.md#pin-npc-mg2_wolves) | – |
 | [Galmore wolf's pup](monsters/mg2_wolves_pup.md) | Mt. Galmore: [Galmore 54](maps/galmore_54.md#pin-npc-mg2_wolves_pup) | – |
-| [Gambler](monsters/brv_blackjack_gambler1.md) | Brimhaven: [Brimhaven tavern west back](maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2), Brimhaven: [Brimhaven tavern west back](maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1) | – |
-| [Gamjee](monsters/gamjee.md) | [Gamjee well 4 1](maps/gamjee_well_4_1.md#pin-npc-gamjee), [Gamjee well 4 1](maps/gamjee_well_4_1.md#pin-npc-gamjee_oc) | – |
+| [Gambler](monsters/brv_blackjack_gambler1.md) | Brimhaven: [Brimhaven tavern west back](maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler1), Brimhaven: [Brimhaven tavern west back](maps/brimhaven_tavern_west_back.md#pin-npc-brv_blackjack_gambler2) | – |
+| [Gamjee](monsters/gamjee.md) | [Gamjee well 4 1](maps/gamjee_well_4_1.md#pin-npc-gamjee_oc), [Gamjee well 4 1](maps/gamjee_well_4_1.md#pin-npc-gamjee) | – |
 | [Gandoren](monsters/gandoren.md) | *not on any map; appears through an event* | starts [Feygard errands](quests/feygard_shipment.md), [Flows through the veins](quests/loneford.md) |
 | [Ganos](monsters/ganos.md) | *not on any map; appears through an event* | shopkeeper |
 | [Garvhel](monsters/brightport_newcommander.md) | Brightport: [Brightport bakery](maps/brightport_bakery.md#pin-npc-brightport_newcommander) | – |
@@ -351,7 +351,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Gruil](monsters/gruil.md) | *not on any map; appears through an event* | shopkeeper |
 | [Grumpy citizen](monsters/grumpy_citizen.md) | Fallhaven: [Fallhaven north-east](maps/fallhaven_ne.md#pin-npc-grumpy_citizen) | – |
 | [Grumpy Vilegard villager](monsters/grumpy_vilegard_villager.md) | Vilegard: [Vilegard north](maps/vilegard_n.md#pin-npc-grumpy_vilegard_villager) | starts [Trusting an outsider](quests/vilegard.md) |
-| [Guard](monsters/guard.md) | Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-guard_advent), Brimhaven: [Brimhaven 4](maps/brimhaven4.md#pin-npc-brv_shop_guard) (+21 more) | starts [Fair play?](quests/brv_blackjack.md) |
+| [Guard](monsters/guard.md) | Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-guard_advent), Brimhaven: [Brimhaven 4](maps/brimhaven4.md#pin-npc-brv_exit_guard) (+21 more) | starts [Fair play?](quests/brv_blackjack.md) |
 | [Guard captain](monsters/warden.md) | Fallhaven: [Fallhaven prison](maps/fallhaven_prison.md#pin-npc-warden) | – |
 | [Guard dog](monsters/guard_dog.md) | Brightport: [Waterway forest 2](maps/waterway_forest2.md#pin-npc-guard_dog) | – |
 | [Guardian of the bridge](monsters/lbridge.md) | [Lodar 8](maps/lodar8.md#pin-npc-lbridge) | – |
@@ -362,13 +362,13 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Guthbered](monsters/guthbered.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-guthbered) | – |
 | [Guthbered's bodyguard](monsters/guthbereds_bodyguard.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-guthbereds_bodyguard) | – |
 | [Guynmart](monsters/guynmart.md) | Guynmart Castle: [Guynmart main 0](maps/guynmart_main_0.md#pin-npc-guynmart) | – |
-| [Guynmart elite guard](monsters/guynmart_pguard.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](maps/guynmart_wood_4.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3) (+1 more) | – |
-| [Guynmart guard](monsters/guynmart_gguard.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_player), Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_gguard), Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_guard_guide) (+7 more) | shopkeeper |
+| [Guynmart elite guard](monsters/guynmart_pguard.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2), Guynmart Castle: [Guynmart wood 4](maps/guynmart_wood_4.md#pin-npc-guynmart_pguard) (+1 more) | – |
+| [Guynmart guard](monsters/guynmart_gguard.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_guard_guide), Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_gguard), Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_wguard) (+7 more) | shopkeeper |
 | [Gwendolyn](monsters/remgard_gwendolyn.md) | Remgard: [Remgard church basement](maps/remgard_church_basement.md#pin-npc-remgard_gwendolyn) | – |
 | [Gwinnett](monsters/sullengard_courtyard_girl.md) | Sullengard: [Sullengard 2](maps/sullengard2.md#pin-npc-sullengard_courtyard_girl) | – |
 | [Gylew](monsters/gylew.md) | [Waterway 5](maps/waterway5.md#pin-npc-gylew) | starts [The odd coin collector](quests/odd_coin_collector.md) |
 | [Gylew's henchman](monsters/gylew_henchman.md) | [Waterway 5](maps/waterway5.md#pin-npc-gylew_henchman) | – |
-| [Gyra](monsters/stn_gyra.md) | Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stn_gyra1), Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle 0](maps/stoutford_castle0.md#pin-npc-stn_gyra1) (+50 more) | – |
+| [Gyra](monsters/stn_gyra.md) | Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stn_gyra1), Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stn_gyra2), Flagstone Prison: [Stoutford castle 0](maps/stoutford_castle0.md#pin-npc-stn_gyra3) (+50 more) | – |
 
 <h3 id="people-h">H</h3>
 
@@ -379,7 +379,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Hagale](monsters/algore.md) | Fallhaven: [Woodsettlement 0](maps/woodsettlement0.md#pin-npc-algore) | – |
 | [Halvor](monsters/halvor.md) | Charwood: [Waytolostmine 1](maps/waytolostmine1.md#pin-npc-halvor), Crossglen: [Crossglen](maps/crossglen.md#pin-npc-halvor), Lake Laeroth: [Mountainlake 10a](maps/mountainlake10a.md#pin-npc-halvor) (+1 more) | starts [Surprise?](quests/halvor_surprise.md) |
 | [Hamerick](monsters/sullengard_hamerick.md) | Sullengard: [Sullengard 2](maps/sullengard2.md#pin-npc-sullengard_hamerick) | – |
-| [Hannah](monsters/guynmart_hannah.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_hannah), Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_hannah3), Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_hannah2) (+1 more) | – |
+| [Hannah](monsters/guynmart_hannah.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_hannah), Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_hannah2), Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_hannah3) (+1 more) | – |
 | [Harlenn](monsters/harlenn.md) | Prim: [Blackwater mountain 45](maps/blackwater_mountain45.md#pin-npc-harlenn) | – |
 | [Harlenn's bodyguard](monsters/harlenns_bodyguard.md) | Prim: [Blackwater mountain 45](maps/blackwater_mountain45.md#pin-npc-harlenns_bodyguard) | – |
 | [Herald](monsters/guynmart_herold.md) | Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_herold) | – |
@@ -422,7 +422,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Jannus](monsters/brightportbakery1.md) | Brightport: [Brightport bakery](maps/brightport_bakery.md#pin-npc-brightportbakery1) | – |
 | [Janwick](monsters/brightportnpc8.md) | Brightport: [Brightport stanwick](maps/brightport_stanwick.md#pin-npc-brightportnpc8) | – |
 | [Jen](monsters/stoutford_farmer_jen.md) | Stoutford: [Stoutford north-east](maps/stoutford_ne.md#pin-npc-stoutford_farmer_jen) | – |
-| [Jerelin](monsters/jerelin.md) | Lake Laeroth: [Laerothtomb 1](maps/laerothtomb1.md#pin-npc-jerelin_b), Lake Laeroth: [Laerothtomb 1](maps/laerothtomb1.md#pin-npc-jerelin) | – |
+| [Jerelin](monsters/jerelin.md) | Lake Laeroth: [Laerothtomb 1](maps/laerothtomb1.md#pin-npc-jerelin), Lake Laeroth: [Laerothtomb 1](maps/laerothtomb1.md#pin-npc-jerelin_b) | – |
 | [Jern](monsters/prim_bar_regular.md) | Prim: [Blackwater mountain 22](maps/blackwater_mountain22.md#pin-npc-prim_bar_regular), Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_bar_regular) | – |
 | [Jhaeld](monsters/jhaeld.md) | Remgard: [Remgard tavern 1](maps/remgard_tavern1.md#pin-npc-jhaeld), [Final cave 1](maps/final_cave1.md#pin-npc-lae_jhaeld2), [Final cave 2](maps/final_cave2.md#pin-npc-lae_jhaeld3) (+1 more) | starts [What is that stench?](quests/remgard2.md) |
 | [Jolnor](monsters/jolnor.md) | Vilegard: [Vilegard chapel](maps/vilegard_chapel.md#pin-npc-jolnor) | shopkeeper; starts [Kaori's errands](quests/kaori.md), [Spies in the foam](quests/jolnor.md), [Uncertain cause](quests/wrye.md) |
@@ -464,7 +464,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Laborer](monsters/brightportbakeryoutside2.md) | Brightport: [Brightport 5](maps/brightport5.md#pin-npc-brightportbakeryoutside2) | – |
 | [Laecca](monsters/laecca.md) | Prim: [Blackwater mountain 21](maps/blackwater_mountain21.md#pin-npc-laecca) | – |
 | [Laede](monsters/laede.md) | [Blackwater mountain 44](maps/blackwater_mountain44.md#pin-npc-laede) | – |
-| [Laeroth prisoner](monsters/lae_prisoner.md) | [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_prisoner2a), [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_prisoner4), [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_prisoner2i) (+7 more) | starts [Shadow of the torturer](quests/lae_torturer.md) |
+| [Laeroth prisoner](monsters/lae_prisoner.md) | [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_prisoner3i), [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_prisoner4i), [Laerothprison 4](maps/laerothprison4.md#pin-npc-lae_prisoner1) (+7 more) | starts [Shadow of the torturer](quests/lae_torturer.md) |
 | [Lamberta](monsters/sullengard_lamberta.md) | Sullengard: [Sullengard weapon shop](maps/sullengard_weapon_shop.md#pin-npc-sullengard_lamberta) | shopkeeper |
 | [Landa](monsters/landa.md) | Loneford: [Loneford 6](maps/loneford6.md#pin-npc-landa) | – |
 | [Larcal](monsters/larcal.md) | *not on any map; appears through an event* | – |
@@ -492,7 +492,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Loirash](monsters/ratdom_bone_collector.md) | Instrument maker: [Ratdom maze 464](maps/ratdom_maze_464.md#pin-npc-ratdom_bone_collector), Museum: [Ratdom maze 634](maps/ratdom_maze_634.md#pin-npc-ratdom_bone_collector) | – |
 | [Long-tail-dominio](monsters/brightport_lizardpriest.md) | Greenscale tribe: [Brightport lizardtemple](maps/brightport_lizardtemple.md#pin-npc-brightport_lizardpriest) | – |
 | [Lord Berbane](monsters/berbane.md) | Stoutford: [Stoutford tavern](maps/stoutford_tavern.md#pin-npc-berbane) | – |
-| [Lord Erwyn](monsters/erwyn.md) | Flagstone Prison: [Stoutford castle 0](maps/stoutford_castle0.md#pin-npc-erwyn), Flagstone Prison: [Stoutford castle 0](maps/stoutford_castle0.md#pin-npc-erwyn2) | – |
+| [Lord Erwyn](monsters/erwyn.md) | Flagstone Prison: [Stoutford castle 0](maps/stoutford_castle0.md#pin-npc-erwyn2), Flagstone Prison: [Stoutford castle 0](maps/stoutford_castle0.md#pin-npc-erwyn) | – |
 | [Lost spirit](monsters/lost_spirit.md) | Crossglen: [Hauntedhouse 1](maps/hauntedhouse1.md#pin-npc-lost_spirit), Crossglen: [Wild 4](maps/wild4.md#pin-npc-lost_spirit), [Hauntedhouse 2](maps/hauntedhouse2.md#pin-npc-lost_spirit) | – |
 | [Lost traveler](monsters/sullengard_inn_traveler.md) | Sullengard: [Sullengard inn](maps/sullengard_inn.md#pin-npc-sullengard_inn_traveler) | – |
 | [Lost Traveler](monsters/aidem_camp_lost_traveler.md) | [Aidem camp](maps/aidem_camp.md#pin-npc-aidem_camp_lost_traveler) | – |
@@ -562,7 +562,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Odair](monsters/odair.md) | Crossglen: [Crossglen](maps/crossglen.md#pin-npc-odair) | starts [Rat infestation](quests/odair.md) |
 | [Odilia](monsters/village_odilia.md) | Wexlow Village: [Wexlow village south-west house](maps/wexlow_village_sw_house.md#pin-npc-village_odilia) | – |
 | [Odirath](monsters/stoutford_armorer.md) | Stoutford: [Stoutford armorer](maps/stoutford_armorer.md#pin-npc-stoutford_armorer) | shopkeeper |
-| [Oegyth crystal](monsters/mg2_cavea_home.md) | Mt. Galmore: [Galmore cavea 2](maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home), Mt. Galmore: [Galmore cavea 2](maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna) | – |
+| [Oegyth crystal](monsters/mg2_cavea_home.md) | Mt. Galmore: [Galmore cavea 2](maps/galmore_cavea_2.md#pin-npc-mg2_cavea_throdna), Mt. Galmore: [Galmore cavea 2](maps/galmore_cavea_2.md#pin-npc-mg2_cavea_home) | – |
 | [Ogam](monsters/ogam.md) | Vilegard: [Vilegard ogam](maps/vilegard_ogam.md#pin-npc-ogam) | – |
 | [Ogea](monsters/brv_villager3.md) | Brimhaven: [Brimhaven 4](maps/brimhaven4.md#pin-npc-brv_villager3), Brimhaven: [Brimhaven prison](maps/brimhaven_prison.md#pin-npc-brv_villager3) | – |
 | [Olav](monsters/guynmart_olav.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_olav) | – |
@@ -579,14 +579,14 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Oluag](monsters/oluag.md) | [Wild 14 clearing](maps/wild14_clearing.md#pin-npc-oluag) | – |
 | [Orange cat](monsters/orange_cat.md) | Flagstone Prison: [Rat mountain 3](maps/rat_mountain_3.md#pin-npc-orange_cat) | – |
 | [Orion, the centaur](monsters/lae_centaur1.md) | [Island 1](maps/island1.md#pin-npc-lae_centaur1) | starts [Not Pony Island](quests/lae_centaurs.md) |
-| [Oromir](monsters/oromir.md) | Crossglen: [Crossglen](maps/crossglen.md#pin-npc-oromir_behind_haystack_help), Crossglen: [Crossglen](maps/crossglen.md#pin-npc-oromir_behind_haystack), Crossglen: [Crossglen](maps/crossglen.md#pin-npc-oromir) (+4 more) | – |
+| [Oromir](monsters/oromir.md) | Crossglen: [Crossglen](maps/crossglen.md#pin-npc-oromir_behind_haystack_help), Crossglen: [Crossglen](maps/crossglen.md#pin-npc-oromir_behind_haystack), Crossglen: [Crossglen](maps/crossglen.md#pin-npc-oromir_behind_inn_help) (+4 more) | – |
 | [Ortholion's henchman](monsters/ortholion_guard9.md) | [Elm 3f](maps/elm_3f.md#pin-npc-ortholion_guard9) | – |
 | [Os](monsters/brute_creator.md) | [Mountainlake 8 cave](maps/mountainlake8_cave.md#pin-npc-brute_creator) | – |
 | [Oseanpry](monsters/Brightportthieves5.md) | Brightport: [Brightport thieves](maps/brightport_thieves.md#pin-npc-Brightportthieves5) | shopkeeper |
 | [Osric](monsters/wexlow_osric.md) | Wexlow Village: [Wexlow village](maps/wexlow_village.md#pin-npc-wexlow_osric), [Gamjee well jail cells](maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_osric) | – |
 | [Oswald](monsters/brightportnpc6.md) | Brightport: [Brightport school 9](maps/brightport_school9.md#pin-npc-brightportnpc6) | – |
 | [Othinus](monsters/brightportpriest.md) | Brightport: [Brightport temple](maps/brightport_temple.md#pin-npc-brightportpriest) | – |
-| [Outcast](monsters/smuggler1.md) | Fallhaven: [Woodhouse 0](maps/woodhouse0.md#pin-npc-smuggler5), Fallhaven: [Woodhouse 1](maps/woodhouse1.md#pin-npc-smuggler4), Fallhaven: [Woodhouse 2](maps/woodhouse2.md#pin-npc-smuggler1) (+3 more) | – |
+| [Outcast](monsters/smuggler1.md) | Fallhaven: [Woodhouse 0](maps/woodhouse0.md#pin-npc-smuggler5), Fallhaven: [Woodhouse 1](maps/woodhouse1.md#pin-npc-smuggler4), Fallhaven: [Woodhouse 2](maps/woodhouse2.md#pin-npc-smuggler2) (+3 more) | – |
 | [Overworked farmer](monsters/deebo_orchard_farmer.md) | Deebo's Orchard: [Sullengard apple farm west](maps/sullengard_apple_farm_west.md#pin-npc-deebo_orchard_farmer) | – |
 
 <h3 id="people-p">P</h3>
@@ -607,11 +607,11 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Pig](monsters/pig.md) | Deebo's Orchard: [Sullengard apple farm east](maps/sullengard_apple_farm_east.md#pin-npc-pig), Fallhaven: [Woodsettlement 0](maps/woodsettlement0.md#pin-npc-pig), Loneford: [Loneford 2](maps/loneford2.md#pin-npc-pig) (+3 more) | – |
 | [Pink marble](monsters/guynmart_marble3.md) | Guynmart Castle: [Guynmart wood 10](maps/guynmart_wood_10.md#pin-npc-guynmart_marble3) | – |
 | [Pixtumn](monsters/quiet_thief.md) | Brimhaven: [Brimhaven inn east](maps/brimhaven_inn_east.md#pin-npc-quiet_thief) | shopkeeper |
-| [Playing child](monsters/brv_playing_child2.md) | Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child3), Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child4), Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child2) | – |
+| [Playing child](monsters/brv_playing_child2.md) | Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child2), Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child3), Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child4) | – |
 | [Playing children](monsters/brv_playing_child1.md) | Brimhaven: [Brimhaven 3](maps/brimhaven3.md#pin-npc-brv_playing_child1) | – |
 | [Playing kid](monsters/witch_playing_kid.md) | Flagstone Prison: [Lake shore road 0](maps/lake_shore_road_0.md#pin-npc-witch_playing_kid) | – |
 | [Polyasem](monsters/ll2_cyclops1.md) | [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-ll2_cyclops1), [Mountainlake 27](maps/mountainlake27.md#pin-npc-ll2_cyclops1) | – |
-| [Polyphem](monsters/polyphem.md) | [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-polyphem), [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-polyphem_door), [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed) | – |
+| [Polyphem](monsters/polyphem.md) | [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-polyphem_door), [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed), [Ll 2 cyclops cave](maps/ll2_cyclops_cave.md#pin-npc-polyphem) | – |
 | [Potion merchant](monsters/potion_merchant.md) | Fallhaven: [Fallhaven potions](maps/fallhaven_potions.md#pin-npc-potion_merchant) | shopkeeper |
 | [Praying woman](monsters/brightportchurch1.md) | Brightport: [Brightport temple](maps/brightport_temple.md#pin-npc-brightportchurch1), Stoutford: [Stoutford church](maps/stoutford_church.md#pin-npc-stoutford_worshiper) | – |
 | [Prim armorer](monsters/prim_armorer.md) | Prim: [Blackwater mountain 23](maps/blackwater_mountain23.md#pin-npc-prim_armorer) | shopkeeper |
@@ -620,7 +620,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Prim commoner](monsters/prim_commoner.md) | Prim: [Blackwater mountain 11](maps/blackwater_mountain11.md#pin-npc-prim_commoner) | – |
 | [Prim cook](monsters/prim_cook.md) | Prim: [Blackwater mountain 21](maps/blackwater_mountain21.md#pin-npc-prim_cook) | starts [Well rested](quests/prim_innquest.md) |
 | [Prim evoker](monsters/prim_evoker.md) | Prim: [Blackwater mountain 11](maps/blackwater_mountain11.md#pin-npc-prim_evoker) | – |
-| [Prim guard](monsters/prim_guard.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_guard6), Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_guard) | – |
+| [Prim guard](monsters/prim_guard.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_guard), Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_guard6) | – |
 | [Prim guard captain](monsters/prim_guard5.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_guard5) | – |
 | [Prim priestly acolyte](monsters/prim_priestly_acolyte.md) | Prim: [Blackwater mountain 25](maps/blackwater_mountain25.md#pin-npc-prim_priestly_acolyte) | – |
 | [Prim prisoner](monsters/prim_prisoner.md) | Prim: [Blackwater mountain 27](maps/blackwater_mountain27.md#pin-npc-prim_prisoner) | – |
@@ -634,7 +634,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Prim weapon guard](monsters/prim_weapon_guard.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_weapon_guard) | – |
 | [Prison guard](monsters/remgard_pg.md) | Remgard: [Remgard prison](maps/remgard_prison.md#pin-npc-remgard_pg) | – |
 | [Prowling Arantxa](monsters/sullengard_arantxa.md) | Sullengard: [Sullengard tavern basement](maps/sullengard_tavern_basement.md#pin-npc-sullengard_arantxa) | shopkeeper |
-| [Pupil](monsters/brv_pupil1.md) | Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_pupil7), Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_pupil2), Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_pupil3) (+5 more) | – |
+| [Pupil](monsters/brv_pupil1.md) | Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_pupil3), Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_pupil6), Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_pupil7) (+5 more) | – |
 
 <h3 id="people-q">Q</h3>
 
@@ -661,7 +661,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Richimor](monsters/brightportnpc2.md) | Brightport: [Brightport 1](maps/brightport1.md#pin-npc-brightportnpc2) | – |
 | [Rigmor](monsters/rigmor.md) | *not on any map; appears through an event* | – |
 | [Rik](monsters/brv_tavern1_landlord.md) | Brimhaven: [Brimhaven tavern 1](maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_landlord) | – |
-| [Road rondel](monsters/road_rondel.md) | Wexlow Village: [Wayto feygard duleian 1](maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel_blocker), Wexlow Village: [Wayto feygard duleian 1](maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel) | – |
+| [Road rondel](monsters/road_rondel.md) | Wexlow Village: [Wayto feygard duleian 1](maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel), Wexlow Village: [Wayto feygard duleian 1](maps/wayto_feygard_duleian_1.md#pin-npc-road_rondel_blocker) | – |
 | [Rob](monsters/guynmart_rob.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_rob2), Guynmart Castle: [Guynmart main 3](maps/guynmart_main_3.md#pin-npc-guynmart_rob), Guynmart Castle: [Guynmart tower 2](maps/guynmart_tower_2.md#pin-npc-guynmart_rob4) (+3 more) | – |
 | [Rock eater](monsters/rock_eater.md) | Mt. Galmore: [Undertell exit](maps/undertell_exit.md#pin-npc-rock_eater) | – |
 | [Rogorn](monsters/rogorn.md) | Crossroads Guardhouse: [Roadtocarntower 2](maps/roadtocarntower2.md#pin-npc-rogorn) | – |
@@ -709,14 +709,14 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Smug looking thief](monsters/smug_looking_thief.md) | Fallhaven: [Fallhaven derelict 2](maps/fallhaven_derelict2.md#pin-npc-smug_looking_thief), Fallhaven: [Fallhaven derelict 2 t](maps/fallhaven_derelict2_t.md#pin-npc-smug_looking_thief) | – |
 | [Snake master](monsters/snake_master.md) | [Snakecave 3](maps/snakecave3.md#pin-npc-snake_master) | – |
 | [Speak-funny-vyro](monsters/brightport_lizard6.md) | Greenscale tribe: [Brightport lizard 3](maps/brightport_lizard3.md#pin-npc-brightport_lizard6) | – |
-| [Spectator](monsters/guynmart_spectator2.md) | Guynmart Castle: [Guynmart wood 8](maps/guynmart_wood_8.md#pin-npc-guynmart_spectator1a), Guynmart Castle: [Guynmart wood 8](maps/guynmart_wood_8.md#pin-npc-guynmart_spectator1b), Guynmart Castle: [Guynmart wood 8](maps/guynmart_wood_8.md#pin-npc-guynmart_spectator2) | – |
+| [Spectator](monsters/guynmart_spectator2.md) | Guynmart Castle: [Guynmart wood 8](maps/guynmart_wood_8.md#pin-npc-guynmart_spectator2), Guynmart Castle: [Guynmart wood 8](maps/guynmart_wood_8.md#pin-npc-guynmart_spectator1a), Guynmart Castle: [Guynmart wood 8](maps/guynmart_wood_8.md#pin-npc-guynmart_spectator1b) | – |
 | [Stanwick](monsters/brightportnpc.md) | Brightport: [Brightport school 7](maps/brightport_school7.md#pin-npc-brightportnpc) | – |
 | [Starving prisoner](monsters/starving_prisoner.md) | Flagstone Prison: [Flagstone 1](maps/flagstone1.md#pin-npc-starving_prisoner), Flagstone Prison: [Flagstone 2](maps/flagstone2.md#pin-npc-starving_prisoner), Flagstone Prison: [Flagstone inner](maps/flagstone_inner.md#pin-npc-starving_prisoner) (+1 more) | – |
 | [Statue](monsters/brv_school_statue.md) | Brimhaven: [Brimhaven school](maps/brimhaven_school.md#pin-npc-brv_school_statue) | – |
 | [Stebbarik](monsters/brv_employee.md) | Brimhaven: [Brimhaven employee](maps/brimhaven_employee.md#pin-npc-brv_employee), Brimhaven: [Brimhaven tavern 1](maps/brimhaven_tavern1.md#pin-npc-brv_employee2) | starts [Work for debts](quests/brv_employee.md) |
 | [Stephanie](monsters/sullengard_stephanie.md) | Sullengard: [Sullengard 1 northeast house](maps/sullengard1_northeast_house.md#pin-npc-sullengard_stephanie) | – |
 | [Stiyl](monsters/brightportpriest1.md) | Brightport: [Brightport temple 1](maps/brightport_temple1.md#pin-npc-brightportpriest1) | shopkeeper |
-| [Stoutford guard](monsters/stoutford_guard1.md) | Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stoutford_guard3) (+53 more) | – |
+| [Stoutford guard](monsters/stoutford_guard1.md) | Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Flagstone 0](maps/flagstone0.md#pin-npc-stoutford_guard2) (+53 more) | – |
 | [Strong Prim treasury guard](monsters/prim_treasury_guard2.md) | Prim: [Blackwater mountain 25](maps/blackwater_mountain25.md#pin-npc-prim_treasury_guard2) | – |
 | [Studying Blackwater priest](monsters/studying_blackwater_priest.md) | [Blackwater mountain 43](maps/blackwater_mountain43.md#pin-npc-studying_blackwater_priest), [Blackwater mountain 44](maps/blackwater_mountain44.md#pin-npc-studying_blackwater_priest) | – |
 | [Studying Prim pupil](monsters/studying_prim_pupil.md) | Prim: [Blackwater mountain 25](maps/blackwater_mountain25.md#pin-npc-studying_prim_pupil) | – |
@@ -793,7 +793,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Umar](monsters/umar.md) | Fallhaven: [Fallhaven derelict 2](maps/fallhaven_derelict2.md#pin-npc-umar), Fallhaven: [Fallhaven derelict 2 t](maps/fallhaven_derelict2_t.md#pin-npc-umar) | starts [A lost potion](quests/lodar.md), [Another ruthless Crackshot](quests/Thieves04.md), [Immaculate kidnapping](quests/Thieves02.md), [The ruthless Crackshot](quests/Thieves03.md) +2 |
 | [Undead child](monsters/erwyn_child.md) | Flagstone Prison: [Stoutford castle shop](maps/stoutford_castle_shop.md#pin-npc-erwyn_child) | – |
 | [Undead warden](monsters/undead_warden.md) | Flagstone Prison: [Flagstone upper](maps/flagstone_upper.md#pin-npc-undead_warden) | – |
-| [Undina Bogsten](monsters/bogsten_granny.md) | [Mushroom m 2 4](maps/mushroom_m2_4.md#pin-npc-bogsten_granny1), [Mushroom m 2 4](maps/mushroom_m2_4.md#pin-npc-bogsten_granny) | – |
+| [Undina Bogsten](monsters/bogsten_granny.md) | [Mushroom m 2 4](maps/mushroom_m2_4.md#pin-npc-bogsten_granny), [Mushroom m 2 4](maps/mushroom_m2_4.md#pin-npc-bogsten_granny1) | – |
 | [Ungorm](monsters/ungorm.md) | [Blackwater mountain 43](maps/blackwater_mountain43.md#pin-npc-ungorm) | – |
 | [Unkorh](monsters/guynmart_steward.md) | Guynmart Castle: [Guynmart](maps/guynmart.md#pin-npc-guynmart_steward3), Guynmart Castle: [Guynmart main 0](maps/guynmart_main_0.md#pin-npc-guynmart_steward4), Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_steward5) (+2 more) | – |
 | [Unnmir](monsters/unnmir.md) | *not on any map; appears through an event* | starts [Lost treasures](quests/nocmar.md) |
@@ -816,7 +816,7 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Vilegard resident](monsters/vilegard_resident.md) | Vilegard: [Vilegard south](maps/vilegard_s.md#pin-npc-vilegard_resident) | – |
 | [Vilegard smith](monsters/vilegard_smith.md) | Vilegard: [Vilegard smith](maps/vilegard_smith.md#pin-npc-vilegard_smith) | shopkeeper; starts [Trusting an outsider](quests/vilegard.md) |
 | [Vilegard woman](monsters/vilegard_woman.md) | Vilegard: [Vilegard south](maps/vilegard_s.md#pin-npc-vilegard_woman) | starts [Trusting an outsider](quests/vilegard.md) |
-| [Villager](monsters/loneford_villager0.md) | Loneford: [Loneford 2](maps/loneford2.md#pin-npc-loneford_villager0), Loneford: [Loneford 2](maps/loneford2.md#pin-npc-loneford_villager2), Loneford: [Loneford 2](maps/loneford2.md#pin-npc-loneford_villager1) (+2 more) | starts [Flows through the veins](quests/loneford.md) |
+| [Villager](monsters/loneford_villager0.md) | Loneford: [Loneford 2](maps/loneford2.md#pin-npc-loneford_villager4), Loneford: [Loneford 2](maps/loneford2.md#pin-npc-loneford_villager0), Loneford: [Loneford 2](maps/loneford2.md#pin-npc-loneford_villager1) (+2 more) | starts [Flows through the veins](quests/loneford.md) |
 | [Visitor](monsters/crossroads_guest.md) | Crossroads Guardhouse: [Houseatcrossroads 0](maps/houseatcrossroads0.md#pin-npc-crossroads_guest), Crossroads Guardhouse: [Houseatcrossroads 1](maps/houseatcrossroads1.md#pin-npc-crossroads_guest) | – |
 
 <h3 id="people-w">W</h3>
@@ -837,10 +837,10 @@ Every named character, shop, skill trainer, quest giver and place in Andor's Tra
 | [Winged demon](monsters/winged_demon.md) | [Flagstone 4](maps/flagstone4.md#pin-npc-winged_demon) | – |
 | [Winona](monsters/sullengard_winona.md) | Sullengard: [Sullengard 1 southwest house](maps/sullengard1_southwest_house.md#pin-npc-sullengard_winona) | – |
 | [Wisdom](monsters/guynmart_reward2.md) | Guynmart Castle: [Guynmart main 1](maps/guynmart_main_1.md#pin-npc-guynmart_reward2) | – |
-| [Wise of the wells](monsters/ratdom_well_wise0.md) | 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise0), 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise1), 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise3) (+1 more) | – |
-| [Wolfhound](monsters/hettar_dog.md) | Blackwater Mountain: [Blackwater mountain 55](maps/blackwater_mountain55.md#pin-npc-hettar_dog), Blackwater Mountain: [Blackwater mountain 55](maps/blackwater_mountain55.md#pin-npc-hettar_dog2) | – |
+| [Wise of the wells](monsters/ratdom_well_wise0.md) | 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise1), 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise2), 4 wells: [Ratdom maze 768](maps/ratdom_maze_768.md#pin-npc-ratdom_well_wise0) (+1 more) | – |
+| [Wolfhound](monsters/hettar_dog.md) | Blackwater Mountain: [Blackwater mountain 55](maps/blackwater_mountain55.md#pin-npc-hettar_dog2), Blackwater Mountain: [Blackwater mountain 55](maps/blackwater_mountain55.md#pin-npc-hettar_dog) | – |
 | [Wood craftsman](monsters/brv_woodcraftsman.md) | Brimhaven: [Brimhaven 2 woodcutter](maps/brimhaven2_woodcutter.md#pin-npc-brv_woodcraftsman) | shopkeeper |
-| [Woodcutter](monsters/woodcutter_0.md) | Brimhaven: [Brimhaven 2](maps/brimhaven2.md#pin-npc-brv_woodcutter), Crossroads Guardhouse: [Roadtocarntower 1](maps/roadtocarntower1.md#pin-npc-woodcutter_0), Crossroads Guardhouse: [Roadtocarntower 1](maps/roadtocarntower1.md#pin-npc-woodcutter_3) (+3 more) | – |
+| [Woodcutter](monsters/woodcutter_0.md) | Brimhaven: [Brimhaven 2](maps/brimhaven2.md#pin-npc-brv_woodcutter), Crossroads Guardhouse: [Roadtocarntower 1](maps/roadtocarntower1.md#pin-npc-woodcutter_4), Crossroads Guardhouse: [Roadtocarntower 1](maps/roadtocarntower1.md#pin-npc-woodcutter_0) (+3 more) | – |
 | [Worker](monsters/brv_laundry_worker.md) | Brimhaven: [Brimhaven 2 laundry](maps/brimhaven2_laundry.md#pin-npc-brv_laundry_worker) | – |
 | [Wounded Feygard mountain scout](monsters/ortholion_guard_wounded.md) | Blackwater Mountain: [Blackwater mountain 31](maps/blackwater_mountain31.md#pin-npc-ortholion_guard_wounded) | – |
 | [Wounded Prim guard](monsters/prim_guard7.md) | Prim: [Blackwater mountain 29](maps/blackwater_mountain29.md#pin-npc-prim_guard7) | – |
@@ -1045,7 +1045,7 @@ Who starts each journal quest, and where.
 | [Yellow is it](quests/ratdom_quest.md) | [Clevred](monsters/ratdom_rat.md) | Blackwater Mountain, Crossglen, Entry |
 | [You shall pass](quests/undertell_barricades.md) | [Myrelis](monsters/mg_myrelis.md) | Mt. Galmore |
 | [You're the postman](quests/postman.md) | [Gorwath](monsters/gorwath.md) | Crossglen |
-| [Young merchant](quests/quest_burhczyd.md) | [Burhczyd](monsters/burhczyd1.md) | Blackwater mountain 43, Fallhaven, Sullengard, Brightport, Vilegard, Crossglen, Crossroads Guardhouse, Loneford, Prim, Brimhaven, Stoutford, Remgard, Foaming Flask Tavern |
+| [Young merchant](quests/quest_burhczyd.md) | [Burhczyd](monsters/burhczyd1.md) | Crossroads Guardhouse, Brimhaven, Prim, Brightport, Remgard, Stoutford, Fallhaven, Blackwater mountain 43, Vilegard, Loneford, Crossglen, Foaming Flask Tavern, Sullengard |
 
 ## Places
 

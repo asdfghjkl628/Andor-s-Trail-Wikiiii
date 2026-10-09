@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 658 is an indoor location in Andor's Trail, in 4 wells (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Nasty cave snake. Exits to Ratdom maze 648, Ratdom maze 768, Ratdom maze 567, Ratdom maze 647."
+description: "Ratdom maze 658 is an indoor location in Andor's Trail, in 4 wells (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Nasty cave snake. Exits to Ratdom maze 648, Ratdom maze 768, Ratdom maze 567, Ratdom maze 647."
 ---
 
 # Ratdom maze 658
@@ -79,8 +79,8 @@ description: "Ratdom maze 658 is an indoor location in Andor's Trail, in 4 wells
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Nasty cave snake](../monsters/cavesnake5.md) | 30 | 5–5 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

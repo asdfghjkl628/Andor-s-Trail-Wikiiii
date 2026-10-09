@@ -454,7 +454,7 @@ Set your quest stages and items, then talk to Guthbered. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “By killing him, we can be sure that their attacks will .. shall we sa…” → “By killing him, we can be sure that their attacks will ... shall we s…”<br>· text: “Ok. We will have to investigate that later.” → “OK. We will have to investigate that later.” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_prim)<br>Dialogue: 28 lines changed<br>· text: “As I said, we believe those bastards up at the Blackwater Mountain se…” → “As I said, we believe those bastards up at the Blackwater mountain se…”<br>· text: “A man, from the Blackwater settlement, you say?” → “A man, from the Blackwater mountain settlement, you say?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

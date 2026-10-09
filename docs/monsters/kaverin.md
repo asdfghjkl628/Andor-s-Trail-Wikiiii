@@ -207,7 +207,7 @@ Set your quest stages and items, then talk to Kaverin. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “I have an old .. shall we say .. friend .. from Fallhaven. Goes by th…” → “I have an old ... shall we say ... friend ... from Fallhaven. Goes by…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “You?! But.. But.. This is terrible! I bet you are one of the goons of…” → “You?! But ... but ... this is terrible! I bet you are one of the goon…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

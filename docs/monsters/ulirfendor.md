@@ -595,7 +595,7 @@ Set your quest stages and items, then talk to Ulirfendor. Same rules as the game
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “I am sure that this shrine is part of the cause for these .. these ..…” → “I am sure that this shrine is part of the cause for these ... these .…”<br>· text: “(Ulirfendor starts chanting in a tongue that you do not recognize.)” → “[Ulirfendor starts chanting in a tongue that you do not recognize]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “Oh wait, you are not one of them. You.. you are not one of those spaw…” → “Oh wait, you are not one of them. You ... you are not one of those sp…”<br>· text: “(Ulirfendor pours the contents of the vial on the helmet and the hear…” → “[Ulirfendor pours the contents of the vial on the helmet and the hear…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…”<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Hmm. You know what, this could actually be connected to what the shri…” → “Hmm. You know what, this could actually be connected to what the shri…” |
 

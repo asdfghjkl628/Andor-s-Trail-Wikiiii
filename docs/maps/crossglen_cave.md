@@ -1,5 +1,5 @@
 ---
-description: "Crossglen cave is an indoor location in Andor's Trail, in Crossglen (settlement). NPCs: Andor's statue, Clevred. Enemies: Cave rat, Tough cave rat, Strong cave rat. Exits to Crossglen, Ratdom maze 1."
+description: "Crossglen cave is an indoor location in Andor's Trail, in Crossglen (settlement). NPCs: Andor's statue, Clevred. Enemies: Tough cave rat, Cave rat, Strong cave rat. Exits to Crossglen, Ratdom maze 1."
 ---
 
 # Crossglen cave
@@ -61,8 +61,8 @@ description: "Crossglen cave is an indoor location in Andor's Trail, in Crossgle
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 8 | – |
 | [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 2 | – |
+| [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 8 | – |
 | [Strong cave rat](../monsters/strong_cave_rat.md) | 20 | 2–4 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

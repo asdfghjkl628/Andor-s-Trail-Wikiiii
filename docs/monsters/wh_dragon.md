@@ -1,10 +1,10 @@
 ---
-description: "Falkour the Forge Dragon is an enemy in Andor's Trail (animal) with 1 HP, worth 1 XP, found in Fallhaven."
+description: "Falkour the Forge Dragon is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Fallhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_bosses_2x2_12.png){ .sprite } Falkour the Forge Dragon
 
-**Found in:** Fallhaven: [White house basement](../maps/white_house_basement.md)
+**Where to find Falkour the Forge Dragon:** Fallhaven: [White house basement](../maps/white_house_basement.md)
 
 <div class="infobox" markdown>
 
@@ -12,43 +12,15 @@ description: "Falkour the Forge Dragon is an enemy in Andor's Trail (animal) wit
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Fallhaven |
-| **Class** | Animal |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entry ID** | `wh_dragon` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-## Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [White house basement](../maps/white_house_basement.md) | Fallhaven | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ## Version history
@@ -83,15 +55,6 @@ description: "Falkour the Forge Dragon is an enemy in Andor's Trail (animal) wit
      "monsterClass": "animal"
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

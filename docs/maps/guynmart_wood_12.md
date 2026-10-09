@@ -1,5 +1,5 @@
 ---
-description: "Guynmart wood 12 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Forest beetle, Vicious forest serpent, Wolf, Vicious hound, Anklebiter. Exits to Guynmart wood 1, Guynmart wood 11, Guynmart wood 13."
+description: "Guynmart wood 12 is an outdoor location in Andor's Trail, near Guynmart Castle (other). Enemies: Forest beetle, Vicious forest serpent, Wolf, Anklebiter, Vicious hound. Exits to Guynmart wood 1, Guynmart wood 11, Guynmart wood 13."
 ---
 
 # Guynmart wood 12
@@ -56,8 +56,8 @@ Northwest: Feygard”">4</a></div>
 | [Forest beetle](../monsters/forest_beetle.md) | 14 | 2–4 | 2 | – |
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 | 3–4 | 3 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 2 | – |
-| [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 1 | – |
 | [Anklebiter](../monsters/anklebiter.md) | 31 | 3–9 | 1 | – |
+| [Vicious hound](../monsters/vicious_hound.md) | 31 | 3–9 | 1 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrinth (other). NPCs: Clevred. Enemies: Ghost. Exits to Ratdom maze 639, Ratdom maze 659, Ratdom maze 558, Ratdom maze 538."
+description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrinth (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat. Exits to Ratdom maze 639, Ratdom maze 659, Ratdom maze 558, Ratdom maze 538."
 ---
 
 # Ratdom maze 648
@@ -15,12 +15,12 @@ description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrin
 | **World map** | [Ratdom level 6](index.md) |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 | **NPCs** | 1 |
-| **Enemy types** | 8 |
+| **Enemy types** | 3 |
 | **Quests** | 2 |
 
 </div>
 
-**Ratdom maze 648** is an indoor map, in Labyrinth (other). It has 1 NPC and 8 kinds of enemy. Exits lead to Ratdom maze 639, Ratdom maze 659, Ratdom maze 558, Ratdom maze 538.
+**Ratdom maze 648** is an indoor map, in Labyrinth (other). It has 1 NPC and 3 kinds of enemy. Exits lead to Ratdom maze 639, Ratdom maze 659, Ratdom maze 558, Ratdom maze 538.
 
 ## Map
 
@@ -89,16 +89,13 @@ description: "Ratdom maze 648 is an indoor location in Andor's Trail, in Labyrin
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost3) | 0 | 0–0 | 2 | shares spawn with Ghost |
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost2) | 0 | 0–0 | 4 | – |
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost1) | 0 | 0–0 | 2 | shares spawn with Ghost |
-| [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost4) | 0 | 0–0 | 2 | – |
-| [Ghost](../monsters/ratdom_ghost.md) | 0 | 0–0 | 1 | – |
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
+
+**Scenery:** [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost1), [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost2), [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost4), [Ghost](../monsters/ratdom_ghost.md#v-ratdom_ghost3), [Ghost](../monsters/ratdom_ghost.md)
 
 ## Quests
 

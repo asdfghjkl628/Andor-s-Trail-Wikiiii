@@ -304,7 +304,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 |---|---|
 | [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 20 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “(You tap her on the back of the head with the handle of your weapon, …” → “(You tap her on the back of the head with the handle of your weapon, …”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…”<br>· text: “(You tap her on the back of the head with the handle of your weapon, …” → “(You tap her on the back of the head with the handle of your weapon, …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -1,5 +1,5 @@
 ---
-description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 XP, found in Labyrinth."
+description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Labyrinth."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_65.png){ .sprite } Ghost
@@ -10,11 +10,8 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 | | |
 |---|---|
-| **Type** | Enemy (hostile on sight) |
+| **Type** | Scenery (decoration or dialogue prop; no stats) |
 | **Found in** | Labyrinth |
-| **Class** | Humanoid |
-| **HP** | 1 |
-| **XP when defeated** | 1 |
 | **Entries in game data** | 5 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
@@ -23,47 +20,22 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 !!! info "5 entries in the game data"
     The game data defines 5 separate characters named Ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ratdom_ghost`](#v-ratdom_ghost) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost1`](#v-ratdom_ghost1) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost2`](#v-ratdom_ghost2) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost3`](#v-ratdom_ghost3) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
-| [`ratdom_ghost4`](#v-ratdom_ghost4) | Enemy | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – | 1 |
+| Entry | Type | Location | Role |
+|---|---|---|---|
+| [`ratdom_ghost`](#v-ratdom_ghost) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
+| [`ratdom_ghost1`](#v-ratdom_ghost1) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
+| [`ratdom_ghost2`](#v-ratdom_ghost2) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
+| [`ratdom_ghost3`](#v-ratdom_ghost3) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
+| [`ratdom_ghost4`](#v-ratdom_ghost4) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
 
 ## Labyrinth, Ratdom maze 648 (ratdom_ghost) { #v-ratdom_ghost }
 
-**Entry ID:** `ratdom_ghost` · **Type:** Enemy
+**Entry ID:** `ratdom_ghost` · **Type:** Scenery
 
 **Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history
@@ -103,37 +75,12 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 ## Labyrinth, Ratdom maze 648 (ratdom_ghost1) { #v-ratdom_ghost1 }
 
-**Entry ID:** `ratdom_ghost1` · **Type:** Enemy
+**Entry ID:** `ratdom_ghost1` · **Type:** Scenery
 
 **Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -173,37 +120,12 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 ## Labyrinth, Ratdom maze 648 (ratdom_ghost2) { #v-ratdom_ghost2 }
 
-**Entry ID:** `ratdom_ghost2` · **Type:** Enemy
+**Entry ID:** `ratdom_ghost2` · **Type:** Scenery
 
 **Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 4 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -243,37 +165,12 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 ## Labyrinth, Ratdom maze 648 (ratdom_ghost3) { #v-ratdom_ghost3 }
 
-**Entry ID:** `ratdom_ghost3` · **Type:** Enemy
+**Entry ID:** `ratdom_ghost3` · **Type:** Scenery
 
 **Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -313,37 +210,12 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
 
 ## Labyrinth, Ratdom maze 648 (ratdom_ghost4) { #v-ratdom_ghost4 }
 
-**Entry ID:** `ratdom_ghost4` · **Type:** Enemy
+**Entry ID:** `ratdom_ghost4` · **Type:** Scenery
 
 **Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 648](../maps/ratdom_maze_648.md) | Labyrinth | 2 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
 
 
 ### Version history
@@ -380,15 +252,6 @@ description: "Ghost is an enemy in Andor's Trail (humanoid) with 1 HP, worth 1 X
     }
     ```
 
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

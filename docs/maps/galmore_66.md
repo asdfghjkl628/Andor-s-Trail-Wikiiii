@@ -1,5 +1,5 @@
 ---
-description: "Galmore 66 is an outdoor location in Andor's Trail, in Mt. Galmore (other). Enemies: Agile aroughcun, Young glacibite, River wretch, Aroughcun. Exits to Galmore 56, Galmore 67, Galmore 76, Galmore 65."
+description: "Galmore 66 is an outdoor location in Andor's Trail, in Mt. Galmore (other). Enemies: Agile aroughcun, River wretch, Young glacibite, Aroughcun. Exits to Galmore 56, Galmore 67, Galmore 76, Galmore 65."
 ---
 
 # Galmore 66
@@ -59,8 +59,8 @@ description: "Galmore 66 is an outdoor location in Andor's Trail, in Mt. Galmore
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Agile aroughcun](../monsters/aroughcun_agile.md) | 168 | 10–15 | 3 | – |
-| [Young glacibite](../monsters/young_glacibite.md) | 201 | 7–10 | 1 | – |
 | [River wretch](../monsters/river_wretch.md#v-river_wretch2) | 201 | 9–13 | 2 | – |
+| [Young glacibite](../monsters/young_glacibite.md) | 201 | 7–10 | 1 | – |
 | [River wretch](../monsters/river_wretch.md) | 201 | 9–13 | 4 | – |
 | [Aroughcun](../monsters/aroughcun.md) | 204 | 13–18 | 7 | – |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 232 | 12–19 | 4 | – |

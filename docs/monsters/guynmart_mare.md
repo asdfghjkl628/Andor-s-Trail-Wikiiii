@@ -26,7 +26,7 @@ description: "Nightmare is an enemy in Andor's Trail (humanoid) with 120 HP, wor
 | Entry | Type | Location | Role | HP |
 |---|---|---|---|---|
 | [`guynmart_mare`](#v-guynmart_mare) | Enemy | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md) | – | 120 |
-| [`guynmart_mare0`](#v-guynmart_mare0) | Enemy | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md) | – | 1 |
+| [`guynmart_mare0`](#v-guynmart_mare0) | Scenery | Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md) | – | – |
 
 ## Guynmart Castle, Guynmart tower 0 (guynmart_mare) { #v-guynmart_mare }
 
@@ -115,37 +115,12 @@ description: "Nightmare is an enemy in Andor's Trail (humanoid) with 120 HP, wor
 
 ## Guynmart Castle, Guynmart tower 0 (guynmart_mare0) { #v-guynmart_mare0 }
 
-**Entry ID:** `guynmart_mare0` · **Type:** Enemy
+**Entry ID:** `guynmart_mare0` · **Type:** Scenery
 
 **Location:** Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md)
 
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 1 |
-| XP when defeated | 1 |
-| Damage | 0 |
-| Attack chance | 0 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guynmart tower 0](../maps/guynmart_tower_0.md) | Guynmart Castle | 1 | – |
+!!! note "Scenery"
+    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
 
 
 ### Version history

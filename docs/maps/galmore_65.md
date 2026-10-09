@@ -1,5 +1,5 @@
 ---
-description: "Galmore 65 is an outdoor location in Andor's Trail, in Mt. Galmore (other). Enemies: Young glacibite, River wretch, Aroughcun, Mountain bridge bogling. Exits to Galmore 55, Galmore 66, Galmore 75, Galmore 64."
+description: "Galmore 65 is an outdoor location in Andor's Trail, in Mt. Galmore (other). Enemies: River wretch, Young glacibite, Aroughcun, Mountain bridge bogling. Exits to Galmore 55, Galmore 66, Galmore 75, Galmore 64."
 ---
 
 # Galmore 65
@@ -55,8 +55,8 @@ description: "Galmore 65 is an outdoor location in Andor's Trail, in Mt. Galmore
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Young glacibite](../monsters/young_glacibite.md) | 201 | 7–10 | 1 | – |
 | [River wretch](../monsters/river_wretch.md#v-river_wretch2) | 201 | 9–13 | 1 | – |
+| [Young glacibite](../monsters/young_glacibite.md) | 201 | 7–10 | 1 | – |
 | [River wretch](../monsters/river_wretch.md) | 201 | 9–13 | 1 | – |
 | [Aroughcun](../monsters/aroughcun.md) | 204 | 13–18 | 9 | – |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 232 | 12–19 | 3 | – |

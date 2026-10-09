@@ -1,5 +1,5 @@
 ---
-description: "Flagstone 2 is an indoor location in Andor's Trail, in Flagstone Prison (other). NPCs: Cave guardian, Rotting corpse, Starving prisoner. Enemies: Bone warrior, Fledgling gargoyle, Skeleton, Basilisk, Gargoyle. Exits to Flagstone 3, Flagstone 1."
+description: "Flagstone 2 is an indoor location in Andor's Trail, in Flagstone Prison (other). NPCs: Cave guardian, Rotting corpse, Starving prisoner. Enemies: Bone warrior, Skeleton, Fledgling gargoyle, Basilisk, Gargoyle. Exits to Flagstone 3, Flagstone 1."
 ---
 
 # Flagstone 2
@@ -61,8 +61,8 @@ description: "Flagstone 2 is an indoor location in Andor's Trail, in Flagstone P
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Bone warrior](../monsters/bone_warrior.md) | 32 | 3–9 | 1 | – |
-| [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 35 | 3–6 | 3 | shares spawn with Gargoyle, Rotting corpse, Walking corpse |
 | [Skeleton](../monsters/skeleton.md) | 35 | 1–4 | 1 | shares spawn with Skeletal warrior |
+| [Fledgling gargoyle](../monsters/fledgling_gargoyle.md) | 35 | 3–6 | 3 | shares spawn with Gargoyle, Rotting corpse, Walking corpse |
 | [Basilisk](../monsters/basilisk.md) | 40 | 3–9 | 1 | – |
 | [Gargoyle](../monsters/gargoyle.md) | 47 | 3–7 | 3 | shares spawn with Fledgling gargoyle, Rotting corpse, Walking corpse |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 52 | 1–3 | 1 | shares spawn with Skeleton |
