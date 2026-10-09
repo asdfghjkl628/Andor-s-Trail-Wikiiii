@@ -991,10 +991,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#combat-statistics" class="md-nav__link">
+  <a href="#combat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Combat statistics
+        Combat
       
     </span>
   </a>
@@ -1028,6 +1028,17 @@
     <span class="md-ellipsis">
       
         Version history
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#behind-the-scenes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Behind the scenes
       
     </span>
   </a>
@@ -1145,22 +1156,18 @@
 <td>139</td>
 </tr>
 <tr>
-<td><strong>Entry ID</strong></td>
-<td><code>cavesnake4</code></td>
-</tr>
-<tr>
 <td><strong>Introduced</strong></td>
 <td><a href="../../versions/0.8.5/">v0.8.5</a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<h2 id="combat-statistics">Combat statistics<a class="headerlink" href="#combat-statistics" title="Permanent link">&para;</a></h2>
+<h2 id="combat">Combat<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Statistic</th>
-<th>Value</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -1181,49 +1188,29 @@
 <td>2 to 10</td>
 </tr>
 <tr>
-<td>Attack chance</td>
+<td>AC</td>
 <td>110</td>
 </tr>
 <tr>
-<td>Block chance</td>
+<td>BC</td>
 <td>10</td>
 </tr>
 <tr>
-<td>Damage resistance</td>
+<td>DR</td>
 <td>0</td>
 </tr>
 <tr>
-<td>Max AP</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Attack cost</td>
-<td>5 AP</td>
-</tr>
-<tr>
 <td>Attacks per turn</td>
-<td>2</td>
+<td>2 (5 AP each, 10 AP)</td>
 </tr>
 <tr>
-<td>Move cost</td>
-<td>10 AP</td>
-</tr>
-<tr>
-<td>Critical skill</td>
-<td>40</td>
-</tr>
-<tr>
-<td>Critical multiplier</td>
-<td>2.0</td>
-</tr>
-<tr>
-<td>Critical hit chance</td>
-<td>23%</td>
+<td>Crit chance</td>
+<td>23% (×2.0)</td>
 </tr>
 </tbody>
 </table>
-<p><strong>On hit:</strong> On target: <a href="../../conditions/poison_weak/">Weak Poison</a> (magnitude 1, 3 rounds, 10% chance)</p>
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p><strong>Its hits:</strong> On target: <a href="../../conditions/poison_weak/">Weak Poison</a> (magnitude 1, 3 rounds, 10% chance)</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 <h2 id="drops">Drops<a class="headerlink" href="#drops" title="Permanent link">&para;</a></h2>
 <table>
@@ -1294,6 +1281,14 @@
 </table>
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+<h2 id="behind-the-scenes">Behind the scenes<a class="headerlink" href="#behind-the-scenes" title="Permanent link">&para;</a></h2>
+<p><em>How the game data handles this character. Not needed for playing.</em></p>
+<details class="info">
+<summary>How the XP value is calculated</summary>
+<p>The game computes each enemy's experience value when it loads the data (<code>MonsterTypeParser.java</code>):</p>
+<p>XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉</p>
+<p>Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.</p>
+</details>
 <details class="info">
 <summary>Technical information</summary>
 <table>
@@ -1307,6 +1302,10 @@
 <tr>
 <td>Entry ID</td>
 <td><code>cavesnake4</code></td>
+</tr>
+<tr>
+<td>Type (wiki)</td>
+<td>Enemy</td>
 </tr>
 <tr>
 <td>Spawn group</td>
@@ -1369,12 +1368,6 @@
 <span class="w"> </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-</details>
-<details class="info">
-<summary>How the XP value is calculated</summary>
-<p>The game computes each enemy's experience value when it loads the data (<code>MonsterTypeParser.java</code>):</p>
-<p>XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉</p>
-<p>Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.</p>
 </details>
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>

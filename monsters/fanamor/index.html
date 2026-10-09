@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Fanamor is an NPC who can also be fought in Andor's Trail, found in Crossroads Guardhouse, Fallhaven.">
+        <meta name="description" content="Fanamor is a non-player character (NPC) in Andor's Trail, found in Crossroads Guardhouse, Fallhaven.">
       
       
       
@@ -1035,6 +1035,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#behind-the-scenes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Behind the scenes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#community-notes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1126,27 +1137,11 @@
 <tbody>
 <tr>
 <td><strong>Type</strong></td>
-<td>NPC/Enemy (can be spoken to, but can also be fought)</td>
+<td>NPC (talk only; never fought)</td>
 </tr>
 <tr>
 <td><strong>Found in</strong></td>
 <td>Crossroads Guardhouse, Fallhaven</td>
-</tr>
-<tr>
-<td><strong>Class</strong></td>
-<td>Humanoid</td>
-</tr>
-<tr>
-<td><strong>HP</strong></td>
-<td>1</td>
-</tr>
-<tr>
-<td><strong>XP when defeated</strong></td>
-<td>1</td>
-</tr>
-<tr>
-<td><strong>Entry ID</strong></td>
-<td><code>fanamor</code></td>
 </tr>
 <tr>
 <td><strong>Introduced</strong></td>
@@ -1155,11 +1150,10 @@
 </tbody>
 </table>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">Can be fought</p>
-<p>This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).</p>
+<div class="admonition note">
+<p class="admonition-title">A fight can start here</p>
+<p>Answering “Not without a fight!” during <a href="../../quests/Thieves01/#stage-40">Thief apprentice</a> starts a fight with <a href="../feygard_scout/">Feygard scout</a>, not with Fanamor.</p>
 </div>
-<p>No combat statistics are defined for this entry in the game data. Where the story leads to a fight, the game normally uses a separate hostile entry.</p>
 <h2 id="locations">Locations<a class="headerlink" href="#locations" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1409,6 +1403,8 @@
 </table>
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+<h2 id="behind-the-scenes">Behind the scenes<a class="headerlink" href="#behind-the-scenes" title="Permanent link">&para;</a></h2>
+<p><em>How the game data handles this character. Not needed for playing.</em></p>
 <details class="info">
 <summary>Technical information</summary>
 <table>
@@ -1422,6 +1418,10 @@
 <tr>
 <td>Entry ID</td>
 <td><code>fanamor</code></td>
+</tr>
+<tr>
+<td>Type (wiki)</td>
+<td>NPC</td>
 </tr>
 <tr>
 <td>Spawn group</td>
@@ -1464,12 +1464,6 @@
 <span class="w"> </span><span class="nt">"phraseID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"fanamor_selector"</span>
 <span class="p">}</span>
 </code></pre></div>
-</details>
-<details class="info">
-<summary>How the XP value is calculated</summary>
-<p>The game computes each enemy's experience value when it loads the data (<code>MonsterTypeParser.java</code>):</p>
-<p>XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉</p>
-<p>Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.</p>
 </details>
 <h2 id="community-notes">Community notes<a class="headerlink" href="#community-notes" title="Permanent link">&para;</a></h2>
 <p><small>Written by players, not generated from game data. <strong>Observations</strong>: what players notice in-game · <strong>Lore</strong>: the in-world story · <strong>Trivia</strong>: real-world facts, references, development history · <strong>Theory / speculation</strong>: unconfirmed ideas; may just be unfinished content</small></p>
