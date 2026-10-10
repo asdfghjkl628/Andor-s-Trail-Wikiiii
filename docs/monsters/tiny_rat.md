@@ -1,8 +1,10 @@
 ---
-description: "Tiny rat is an NPC who can also be fought in Andor's Trail, found in Crossglen, Flagstone Prison, Brightport, Mountainlake 8 cave, Pub, Bloskelt + Roskelt, Entry, Guynmart wood 19."
+description: "Tiny rat is an NPC you can also fight in Andor's Trail, found in Crossglen, Flagstone Prison, Brightport, Mountainlake 8 cave, Pub, Bloskelt + Roskelt, Entry, Guynmart wood 19."
 ---
 
 # ![](../assets/icons/monsters/monsters_rats_0.png){ .sprite } Tiny rat
+
+**Where to find Tiny rat:** [Crossglen, Crossglen and 1 more](#v-tiny_rat), [Brightport, Brightport grave and 2 more](#v-brute_origin1), [Mountainlake 8 cave](#v-brute_origin1a), [4 wells, Ratdom maze 567 and 133 more](#v-ratdom_maze_rat1), [Guynmart wood 19](#v-tobby_trainingrat)
 
 <div class="infobox" markdown>
 
@@ -10,54 +12,35 @@ description: "Tiny rat is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Crossglen, Flagstone Prison, Brightport, Mountainlake 8 cave, Pub, Bloskelt + Roskelt, Entry, Guynmart wood 19 |
 | **Class** | Animal |
 | **HP** | 2 |
 | **XP when defeated** | 3 |
-| **Entries in game data** | 5 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Tiny rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Crossglen, Crossglen and 1 more { #v-tiny_rat }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`tiny_rat`](#v-tiny_rat) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md), Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md) | – | 2 |
-| [`brute_origin1`](#v-brute_origin1) | Enemy | Brightport: [Brightport grave](../maps/brightport_grave.md), [Brightport school 11](../maps/brightport_school11.md) (+1 more) | – | 2 |
-| [`brute_origin1a`](#v-brute_origin1a) | NPC | [Mountainlake 8 cave](../maps/mountainlake8_cave.md#pin-npc-brute_origin1a) | – | – |
-| [`ratdom_maze_rat1`](#v-ratdom_maze_rat1) | Enemy | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md) (+132 more) | – | 2 |
-| [`tobby_trainingrat`](#v-tobby_trainingrat) | Enemy | [Guynmart wood 19](../maps/guynmart_wood_19.md) | – | 2 |
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md), Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md)
 
-## Crossglen, Crossglen and 1 more (tiny_rat) { #v-tiny_rat }
+### Combat
 
-**Entry ID:** `tiny_rat` · **Type:** Enemy
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md), Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 2 |
 | XP when defeated | 3 |
 | Damage | 1 |
-| Attack chance | 50 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -84,68 +67,26 @@ description: "Tiny rat is an NPC who can also be fought in Andor's Trail, found 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tiny_rat)"
+## Brightport, Brightport grave and 2 more { #v-brute_origin1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tiny_rat` |
-    | Spawn group | `trainingrat` |
-    | Loot table | `trainingrat` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:0` |
-    | Defined in | `res/raw/monsterlist_crossglen_animals.json` |
+**Where:** Brightport: [Brightport grave](../maps/brightport_grave.md), [Brightport school 11](../maps/brightport_school11.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "tiny_rat",
-     "name": "Tiny rat",
-     "iconID": "monsters_rats:0",
-     "maxHP": 2,
-     "unique": 1,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 1,
-      "max": 1
-     },
-     "spawnGroup": "trainingrat",
-     "droplistID": "trainingrat",
-     "attackCost": 9,
-     "attackChance": 50
-    }
-    ```
-
-
-## Brightport, Brightport grave and 2 more (brute_origin1) { #v-brute_origin1 }
-
-**Entry ID:** `brute_origin1` · **Type:** Enemy
-
-**Location:** Brightport: [Brightport grave](../maps/brightport_grave.md), [Brightport school 11](../maps/brightport_school11.md), [Mountainlake 8 cave](../maps/mountainlake8_cave.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 2 |
 | XP when defeated | 3 |
 | Damage | 1 |
-| Attack chance | 50 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -165,44 +106,9 @@ description: "Tiny rat is an NPC who can also be fought in Andor's Trail, found 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brute_origin1)"
+## Mountainlake 8 cave { #v-brute_origin1a }
 
-    | | |
-    |---|---|
-    | Entry ID | `brute_origin1` |
-    | Spawn group | `brute_origin1` |
-    | Loot table | – |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:0` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brute_origin1",
-     "name": "Tiny rat",
-     "iconID": "monsters_rats:0",
-     "maxHP": 2,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 1,
-      "max": 1
-     },
-     "spawnGroup": "brute_origin1",
-     "attackCost": 9,
-     "attackChance": 50
-    }
-    ```
-
-
-## Mountainlake 8 cave (brute_origin1a) { #v-brute_origin1a }
-
-**Entry ID:** `brute_origin1a` · **Type:** NPC
-
-**Location:** [Mountainlake 8 cave](../maps/mountainlake8_cave.md#pin-npc-brute_origin1a)
+**Where:** [Mountainlake 8 cave](../maps/mountainlake8_cave.md#pin-npc-brute_origin1a)
 
 ### Dialogue simulator
 
@@ -250,60 +156,26 @@ Set your quest stages and items, then talk to Tiny rat. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brute_origin1a)"
+## 4 wells, Ratdom maze 567 and 133 more { #v-ratdom_maze_rat1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brute_origin1a` |
-    | Spawn group | `brute_origin1a` |
-    | Loot table | – |
-    | Conversation | `brute_origin1a` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:0` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
+**Where:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md), Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md) (+128 more)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "brute_origin1a",
-     "name": "Tiny rat",
-     "iconID": "monsters_rats:0",
-     "monsterClass": "animal",
-     "spawnGroup": "brute_origin1a",
-     "phraseID": "brute_origin1a"
-    }
-    ```
-
-
-## 4 wells, Ratdom maze 567 and 133 more (ratdom_maze_rat1) { #v-ratdom_maze_rat1 }
-
-**Entry ID:** `ratdom_maze_rat1` · **Type:** Enemy
-
-**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md), Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md) (+128 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 2 |
 | XP when defeated | 3 |
 | Damage | 1 |
-| Attack chance | 50 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -389,67 +261,26 @@ Set your quest stages and items, then talk to Tiny rat. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_maze_rat1)"
+## Guynmart wood 19 { #v-tobby_trainingrat }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_maze_rat1` |
-    | Spawn group | `ratdom_maze_rat` |
-    | Loot table | `trainingrat` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:0` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
+**Where:** [Guynmart wood 19](../maps/guynmart_wood_19.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "ratdom_maze_rat1",
-     "name": "Tiny rat",
-     "iconID": "monsters_rats:0",
-     "maxHP": 2,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 1,
-      "max": 1
-     },
-     "spawnGroup": "ratdom_maze_rat",
-     "droplistID": "trainingrat",
-     "attackCost": 9,
-     "attackChance": 50
-    }
-    ```
-
-
-## Guynmart wood 19 (tobby_trainingrat) { #v-tobby_trainingrat }
-
-**Entry ID:** `tobby_trainingrat` · **Type:** Enemy
-
-**Location:** [Guynmart wood 19](../maps/guynmart_wood_19.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 2 |
 | XP when defeated | 3 |
 | Damage | 1 |
-| Attack chance | 50 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -478,11 +309,164 @@ Set your quest stages and items, then talk to Tiny rat. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby_trainingrat)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Tiny rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tiny_rat` | Enemy | [Crossglen, Crossglen and 1 more](#v-tiny_rat) |
+| `brute_origin1` | Enemy | [Brightport, Brightport grave and 2 more](#v-brute_origin1) |
+| `brute_origin1a` | NPC | [Mountainlake 8 cave](#v-brute_origin1a) |
+| `ratdom_maze_rat1` | Enemy | [4 wells, Ratdom maze 567 and 133 more](#v-ratdom_maze_rat1) |
+| `tobby_trainingrat` | Enemy | [Guynmart wood 19](#v-tobby_trainingrat) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: tiny_rat"
+
+    | | |
+    |---|---|
+    | Entry ID | `tiny_rat` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `trainingrat` |
+    | Loot table | `trainingrat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_crossglen_animals.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tiny_rat",
+     "name": "Tiny rat",
+     "iconID": "monsters_rats:0",
+     "maxHP": 2,
+     "unique": 1,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 1,
+      "max": 1
+     },
+     "spawnGroup": "trainingrat",
+     "droplistID": "trainingrat",
+     "attackCost": 9,
+     "attackChance": 50
+    }
+    ```
+
+??? info "Technical information: brute_origin1"
+
+    | | |
+    |---|---|
+    | Entry ID | `brute_origin1` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `brute_origin1` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brute_origin1",
+     "name": "Tiny rat",
+     "iconID": "monsters_rats:0",
+     "maxHP": 2,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 1,
+      "max": 1
+     },
+     "spawnGroup": "brute_origin1",
+     "attackCost": 9,
+     "attackChance": 50
+    }
+    ```
+
+??? info "Technical information: brute_origin1a"
+
+    | | |
+    |---|---|
+    | Entry ID | `brute_origin1a` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brute_origin1a` |
+    | Loot table | – |
+    | Conversation | `brute_origin1a` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brute_origin1a",
+     "name": "Tiny rat",
+     "iconID": "monsters_rats:0",
+     "monsterClass": "animal",
+     "spawnGroup": "brute_origin1a",
+     "phraseID": "brute_origin1a"
+    }
+    ```
+
+??? info "Technical information: ratdom_maze_rat1"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_maze_rat1` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `ratdom_maze_rat` |
+    | Loot table | `trainingrat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_maze_rat1",
+     "name": "Tiny rat",
+     "iconID": "monsters_rats:0",
+     "maxHP": 2,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 1,
+      "max": 1
+     },
+     "spawnGroup": "ratdom_maze_rat",
+     "droplistID": "trainingrat",
+     "attackCost": 9,
+     "attackChance": 50
+    }
+    ```
+
+??? info "Technical information: tobby_trainingrat"
 
     | | |
     |---|---|
     | Entry ID | `tobby_trainingrat` |
+    | Type (wiki) | Enemy |
     | Spawn group | `tobby_trainingrat` |
     | Loot table | `rat` |
     | Conversation | – |
@@ -510,16 +494,6 @@ Set your quest stages and items, then talk to Tiny rat. Same rules as the game: 
      "attackChance": 50
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

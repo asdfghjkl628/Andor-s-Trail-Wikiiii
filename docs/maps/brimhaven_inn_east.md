@@ -60,7 +60,7 @@ description: "Brimhaven inn east is an indoor location in Andor's Trail, in Brim
 - [Pixtumn](../monsters/quiet_thief.md) — shopkeeper — quests: [A strange looking dagger](../quests/brv_dagger.md) (#5)
 - [Room service](../monsters/brv_cleaning.md) (#6)
 
-**Scenery:** [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_3), [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1), [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_2)
+**Scenery:** [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_1), [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_3), [Pixtumn](../monsters/quiet_thief.md#v-quiet_thief_2)
 
 ## Items & containers
 

@@ -1,10 +1,8 @@
 ---
-description: "Dying Crackshot is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Crackshot hideout 3."
+description: "Dying Crackshot is scenery in Andor's Trail: a decoration or dialogue prop, found in Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_80.png){ .sprite } Dying Crackshot
-
-**Where to find Dying Crackshot:** [Crackshot hideout 3](../maps/crackshot_hideout3.md)
 
 <div class="infobox" markdown>
 
@@ -12,15 +10,13 @@ description: "Dying Crackshot is scenery in Andor's Trail: a decoration or dialo
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Crackshot hideout 3 |
-| **Entry ID** | `g03_crackshot_dying` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
+Not a character you meet: Dying Crackshot appears as the speaker in conversations with stepping on a trigger on [Crackshot hideout 3](../maps/crackshot_hideout3.md). ~~No, you can't take it home.~~
 
 
 ## Version history
@@ -32,11 +28,18 @@ description: "Dying Crackshot is scenery in Andor's Trail: a decoration or dialo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `g03_crackshot_dying` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Crackshot hideout 3](../maps/crackshot_hideout3.md).
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `g03_crackshot_dying` |
+    | Type (wiki) | Scenery |
     | Spawn group | `crackshot_dying` |
     | Loot table | – |
     | Conversation | – |

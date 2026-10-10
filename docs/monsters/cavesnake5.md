@@ -4,6 +4,8 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 
 # ![](../assets/icons/monsters/monsters_rltiles2_25.png){ .sprite } Nasty cave snake
 
+**Where to find Nasty cave snake:** [4 wells, Ratdom maze 567 and 8 more](#v-cavesnake5), [Bloskelt + Roskelt, Ratdom maze 525 and 9 more](#v-ratdom_m3b)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_25.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 | **Class** | Reptile |
 | **HP** | 30 |
 | **XP when defeated** | 117 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Nasty cave snake. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, appearance. Each entry has its own section below.
+## 4 wells, Ratdom maze 567 and 8 more { #v-cavesnake5 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`cavesnake5`](#v-cavesnake5) | Enemy | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md) (+7 more) | – | 30 |
-| [`ratdom_m3b`](#v-ratdom_m3b) | Enemy | Bloskelt + Roskelt: [Ratdom maze 525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [Ratdom maze 526](../maps/ratdom_maze_526.md) (+8 more) | – | 30 |
+**Where:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Roundlings: [Ratdom maze 527](../maps/ratdom_maze_527.md), Roundlings: [Ratdom maze 538](../maps/ratdom_maze_538.md), Roundlings: [Ratdom maze 628](../maps/ratdom_maze_628.md) (+3 more)
 
-## 4 wells, Ratdom maze 567 and 8 more (cavesnake5) { #v-cavesnake5 }
+### Combat
 
-**Entry ID:** `cavesnake5` · **Type:** Enemy
-
-**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Roundlings: [Ratdom maze 527](../maps/ratdom_maze_527.md), Roundlings: [Ratdom maze 538](../maps/ratdom_maze_538.md), Roundlings: [Ratdom maze 628](../maps/ratdom_maze_628.md) (+3 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 30 |
 | XP when defeated | 117 |
 | Damage | 5 |
-| Attack chance | 110 |
-| Block chance | 20 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 110 |
+| BC | 20 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
-**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 10% chance)
+**Its hits:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 10% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -90,11 +76,88 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (cavesnake5)"
+## Bloskelt + Roskelt, Ratdom maze 525 and 9 more { #v-ratdom_m3b }
+
+**Where:** Bloskelt + Roskelt: [Ratdom maze 525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [Ratdom maze 526](../maps/ratdom_maze_526.md), Bloskelt + Roskelt: [Ratdom maze 636](../maps/ratdom_maze_636.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md), Entry: [Ratdom maze 644](../maps/ratdom_maze_644.md), Entry: [Ratdom maze 645](../maps/ratdom_maze_645.md) (+4 more)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Reptile |
+| HP | 30 |
+| XP when defeated | 117 |
+| Damage | 5 |
+| AC | 110 |
+| BC | 20 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
+
+**Its hits:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 3 to 6 |
+| [Meat](../items/meat.md) | 30% | 1 |
+| [Poison gland](../items/gland.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 526](../maps/ratdom_maze_526.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 537](../maps/ratdom_maze_537.md) | Roundlings | 2 | – |
+| [Ratdom maze 547](../maps/ratdom_maze_547.md) | Labyrinth | 2 | – |
+| [Ratdom maze 635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
+| [Ratdom maze 636](../maps/ratdom_maze_636.md) | Bloskelt + Roskelt | 2 | – |
+| [Ratdom maze 644](../maps/ratdom_maze_644.md) | Entry | 2 | – |
+| [Ratdom maze 645](../maps/ratdom_maze_645.md) | Entry | 2 | – |
+| [Ratdom maze 655](../maps/ratdom_maze_655.md) | Waterway | 2 | – |
+| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Nasty cave snake. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `cavesnake5` | Enemy | [4 wells, Ratdom maze 567 and 8 more](#v-cavesnake5) |
+| `ratdom_m3b` | Enemy | [Bloskelt + Roskelt, Ratdom maze 525 and 9 more](#v-ratdom_m3b) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: cavesnake5"
 
     | | |
     |---|---|
     | Entry ID | `cavesnake5` |
+    | Type (wiki) | Enemy |
     | Spawn group | `cavesnake4` |
     | Loot table | `snake` |
     | Conversation | – |
@@ -137,75 +200,12 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
     }
     ```
 
-
-## Bloskelt + Roskelt, Ratdom maze 525 and 9 more (ratdom_m3b) { #v-ratdom_m3b }
-
-**Entry ID:** `ratdom_m3b` · **Type:** Enemy
-
-**Location:** Bloskelt + Roskelt: [Ratdom maze 525](../maps/ratdom_maze_525.md), Bloskelt + Roskelt: [Ratdom maze 526](../maps/ratdom_maze_526.md), Bloskelt + Roskelt: [Ratdom maze 636](../maps/ratdom_maze_636.md), Entry: [Ratdom maze 635](../maps/ratdom_maze_635.md), Entry: [Ratdom maze 644](../maps/ratdom_maze_644.md), Entry: [Ratdom maze 645](../maps/ratdom_maze_645.md) (+4 more)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Reptile |
-| HP | 30 |
-| XP when defeated | 117 |
-| Damage | 5 |
-| Attack chance | 110 |
-| Block chance | 20 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
-
-**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 1, 3 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 3 to 6 |
-| [Meat](../items/meat.md) | 30% | 1 |
-| [Poison gland](../items/gland.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 525](../maps/ratdom_maze_525.md) | Bloskelt + Roskelt | 2 | – |
-| [Ratdom maze 526](../maps/ratdom_maze_526.md) | Bloskelt + Roskelt | 2 | – |
-| [Ratdom maze 537](../maps/ratdom_maze_537.md) | Roundlings | 2 | – |
-| [Ratdom maze 547](../maps/ratdom_maze_547.md) | Labyrinth | 2 | – |
-| [Ratdom maze 635](../maps/ratdom_maze_635.md) | Entry | 2 | – |
-| [Ratdom maze 636](../maps/ratdom_maze_636.md) | Bloskelt + Roskelt | 2 | – |
-| [Ratdom maze 644](../maps/ratdom_maze_644.md) | Entry | 2 | – |
-| [Ratdom maze 645](../maps/ratdom_maze_645.md) | Entry | 2 | – |
-| [Ratdom maze 655](../maps/ratdom_maze_655.md) | Waterway | 2 | – |
-| [Ratdom maze 664](../maps/ratdom_maze_664.md) | Waterway | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_m3b)"
+??? info "Technical information: ratdom_m3b"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_m3b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_m3` |
     | Loot table | `snake` |
     | Conversation | – |
@@ -247,16 +247,6 @@ description: "Nasty cave snake is an enemy in Andor's Trail (reptile) with 30 HP
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

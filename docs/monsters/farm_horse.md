@@ -1,8 +1,10 @@
 ---
-description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Deebo's Orchard."
+description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue prop, found in Deebo's Orchard."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_67.png){ .sprite } Farm horse
+
+**Where to find Farm horse:** [Deebo's Orchard, Sullengard apple farm east](#v-farm_horse), [Deebo's Orchard, Sullengard apple farm east](#v-farm_horse_right)
 
 <div class="infobox" markdown>
 
@@ -10,29 +12,17 @@ description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue p
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Deebo's Orchard |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Farm horse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance, movement. Each entry has its own section below.
+Part of the scenery: no conversation, no fight ~~and no, you can't take it home~~.
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`farm_horse`](#v-farm_horse) | Scenery | Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | – |
-| [`farm_horse_right`](#v-farm_horse_right) | Scenery | Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md) | – |
+## Deebo's Orchard, Sullengard apple farm east { #v-farm_horse }
 
-## Deebo's Orchard, Sullengard apple farm east (farm_horse) { #v-farm_horse }
-
-**Entry ID:** `farm_horse` · **Type:** Scenery
-
-**Location:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+**Where:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)
 
 
 ### Version history
@@ -44,11 +34,41 @@ description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue p
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (farm_horse)"
+## Deebo's Orchard, Sullengard apple farm east (2) { #v-farm_horse_right }
+
+**Where:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.2](../versions/0.8.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Farm horse. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `farm_horse` | Scenery | [Deebo's Orchard, Sullengard apple farm east](#v-farm_horse) |
+| `farm_horse_right` | Scenery | [Deebo's Orchard, Sullengard apple farm east](#v-farm_horse_right) |
+
+- `farm_horse` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `farm_horse_right` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: farm_horse"
 
     | | |
     |---|---|
     | Entry ID | `farm_horse` |
+    | Type (wiki) | Scenery |
     | Spawn group | `farm_horse_left` |
     | Loot table | – |
     | Conversation | – |
@@ -70,31 +90,12 @@ description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue p
     }
     ```
 
-
-## Deebo's Orchard, Sullengard apple farm east (farm_horse_right) { #v-farm_horse_right }
-
-**Entry ID:** `farm_horse_right` · **Type:** Scenery
-
-**Location:** Deebo's Orchard: [Sullengard apple farm east](../maps/sullengard_apple_farm_east.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.2](../versions/0.8.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (farm_horse_right)"
+??? info "Technical information: farm_horse_right"
 
     | | |
     |---|---|
     | Entry ID | `farm_horse_right` |
+    | Type (wiki) | Scenery |
     | Spawn group | `farm_horse_right` |
     | Loot table | – |
     | Conversation | – |
@@ -114,7 +115,6 @@ description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue p
      "spawnGroup": "farm_horse_right"
     }
     ```
-
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, found in Final cave 2."
+description: "Dorhantarh is an NPC you can also fight in Andor's Trail, found in Final cave 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_3_2.png){ .sprite } Dorhantarh
@@ -12,40 +12,34 @@ description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Final cave 2 |
 | **Class** | Animal |
 | **HP** | 297 |
 | **XP when defeated** | 752 |
-| **Entry ID** | `lae_island_boss` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Dorhantarh"
+    Answering “We'll see. Attack!” starts a fight with Dorhantarh.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 297 |
 | XP when defeated | 752 |
 | Damage | 24 to 50 |
-| Attack chance | 165 |
-| Block chance | 127 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 6 AP |
-| Critical skill | 3 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 2% |
+| AC | 165 |
+| BC | 127 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 2% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -54,12 +48,6 @@ description: "Dorhantarh is an NPC who can also be fought in Andor's Trail, foun
 | [Dorhantarh's heart](../items/lae_island_boss_heart.md) | 100% | 1 |
 | [Gold coins](../items/gold.md) | 100% | 100 to 1000 |
 | [Raider's reach](../items/raiders_reach.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Final cave 2](../maps/final_cave2.md) | – | 1 | – |
 
 ## Quests that count defeats
 
@@ -100,11 +88,24 @@ Set your quest stages and items, then talk to Dorhantarh. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lae_island_boss` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lae_island_boss` |
     | Loot table | `lae_island_boss` |
     | Conversation | `lae_island_boss` |
@@ -139,15 +140,6 @@ Set your quest stages and items, then talk to Dorhantarh. Same rules as the game
      "blockChance": 127
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,6 +4,8 @@ description: "Tough cave rat is an enemy in Andor's Trail (animal) with 5 HP, wo
 
 # ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } Tough cave rat
 
+**Where to find Tough cave rat:** [Blackwater Mountain, Ratdom maze 3 and 7 more](#v-tough_cave_rat), [4 wells, Ratdom maze 567 and 133 more](#v-tough_cave_rat3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rats_1.png){ .sprite }</p>
@@ -15,46 +17,30 @@ description: "Tough cave rat is an enemy in Andor's Trail (animal) with 5 HP, wo
 | **Class** | Animal |
 | **HP** | 5 |
 | **XP when defeated** | 15 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Tough cave rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
+## Blackwater Mountain, Ratdom maze 3 and 7 more { #v-tough_cave_rat }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`tough_cave_rat`](#v-tough_cave_rat) | Enemy | Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md), Crossglen: [Crossglen cave](../maps/crossglen_cave.md) (+6 more) | – | 5 |
-| [`tough_cave_rat3`](#v-tough_cave_rat3) | Enemy | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md) (+132 more) | – | 5 |
+**Where:** Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md), Crossglen: [Crossglen cave](../maps/crossglen_cave.md), Crossglen: [Ratdom maze 1](../maps/ratdom_maze1.md), Entry: [Ratdom maze 2](../maps/ratdom_maze2.md), Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md), Mt. Galmore: [Galmore cavea](../maps/galmore_cavea.md) (+2 more)
 
-## Blackwater Mountain, Ratdom maze 3 and 7 more (tough_cave_rat) { #v-tough_cave_rat }
+### Combat
 
-**Entry ID:** `tough_cave_rat` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md), Crossglen: [Crossglen cave](../maps/crossglen_cave.md), Crossglen: [Ratdom maze 1](../maps/ratdom_maze1.md), Entry: [Ratdom maze 2](../maps/ratdom_maze2.md), Guynmart Castle: [Guynmart tower 0](../maps/guynmart_tower_0.md), Mt. Galmore: [Galmore cavea](../maps/galmore_cavea.md) (+2 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 15 |
 | Damage | 3 |
-| Attack chance | 90 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -87,68 +73,26 @@ description: "Tough cave rat is an enemy in Andor's Trail (animal) with 5 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tough_cave_rat)"
+## 4 wells, Ratdom maze 567 and 133 more { #v-tough_cave_rat3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tough_cave_rat` |
-    | Spawn group | `crossglen_caverat2` |
-    | Loot table | `rat` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:1` |
-    | Defined in | `res/raw/monsterlist_crossglen_animals.json` |
+**Where:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md), Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md) (+128 more)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "tough_cave_rat",
-     "name": "Tough cave rat",
-     "iconID": "monsters_rats:1",
-     "maxHP": 5,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 3,
-      "max": 3
-     },
-     "spawnGroup": "crossglen_caverat2",
-     "droplistID": "rat",
-     "attackCost": 5,
-     "attackChance": 90,
-     "horizontalFlipChance": 25
-    }
-    ```
-
-
-## 4 wells, Ratdom maze 567 and 133 more (tough_cave_rat3) { #v-tough_cave_rat3 }
-
-**Entry ID:** `tough_cave_rat3` · **Type:** Enemy
-
-**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md), Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md) (+128 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 15 |
 | Damage | 3 |
-| Attack chance | 90 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -234,11 +178,67 @@ description: "Tough cave rat is an enemy in Andor's Trail (animal) with 5 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tough_cave_rat3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Tough cave rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tough_cave_rat` | Enemy | [Blackwater Mountain, Ratdom maze 3 and 7 more](#v-tough_cave_rat) |
+| `tough_cave_rat3` | Enemy | [4 wells, Ratdom maze 567 and 133 more](#v-tough_cave_rat3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: tough_cave_rat"
+
+    | | |
+    |---|---|
+    | Entry ID | `tough_cave_rat` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `crossglen_caverat2` |
+    | Loot table | `rat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:1` |
+    | Defined in | `res/raw/monsterlist_crossglen_animals.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tough_cave_rat",
+     "name": "Tough cave rat",
+     "iconID": "monsters_rats:1",
+     "maxHP": 5,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 3,
+      "max": 3
+     },
+     "spawnGroup": "crossglen_caverat2",
+     "droplistID": "rat",
+     "attackCost": 5,
+     "attackChance": 90,
+     "horizontalFlipChance": 25
+    }
+    ```
+
+??? info "Technical information: tough_cave_rat3"
 
     | | |
     |---|---|
     | Entry ID | `tough_cave_rat3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_maze_rat` |
     | Loot table | `rat` |
     | Conversation | – |
@@ -266,16 +266,6 @@ description: "Tough cave rat is an enemy in Andor's Trail (animal) with 5 HP, wo
      "attackChance": 90
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

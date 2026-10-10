@@ -17,38 +17,31 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
 | **Class** | Construct |
 | **HP** | 108 |
 | **XP when defeated** | 286 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `hill_vine_bottom` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 108 |
 | XP when defeated | 286 |
 | Damage | 4 |
-| Attack chance | 350 |
-| Block chance | 50 |
-| Damage resistance | 10 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 350 |
+| BC | 50 |
+| DR | 10 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Entanglement](../conditions/entanglement.md) (magnitude 1, 3 rounds, 80% chance)
+**Its hits:** On target: [Entanglement](../conditions/entanglement.md) (magnitude 1, 3 rounds, 80% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Locations
 
@@ -69,11 +62,24 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `hill_vine_bottom` |
+    | Type (wiki) | Enemy |
     | Spawn group | `` |
     | Loot table | – |
     | Conversation | – |
@@ -113,15 +119,6 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

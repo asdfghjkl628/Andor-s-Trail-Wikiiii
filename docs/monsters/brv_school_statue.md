@@ -1,8 +1,10 @@
 ---
-description: "Statue is an NPC who can also be fought in Andor's Trail, found in Brimhaven."
+description: "Statue is an NPC you can also fight in Andor's Trail, found in Brimhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_130.png){ .sprite } Statue
+
+**Where to find Statue:** [Brimhaven, Brimhaven school](#v-brv_school_statue), [Brimhaven, Brimhaven school](#v-brv_school_statue2)
 
 <div class="infobox" markdown>
 
@@ -10,60 +12,21 @@ description: "Statue is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 320 |
 | **XP when defeated** | 635 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Statue. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, appearance, movement. Each entry has its own section below.
+## Brimhaven, Brimhaven school { #v-brv_school_statue }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`brv_school_statue`](#v-brv_school_statue) | NPC/Enemy | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_school_statue) | – | 320 |
-| [`brv_school_statue2`](#v-brv_school_statue2) | Enemy | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md) | – | 320 |
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_school_statue)
 
-## Brimhaven, Brimhaven school (brv_school_statue) { #v-brv_school_statue }
-
-**Entry ID:** `brv_school_statue` · **Type:** NPC/Enemy
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_school_statue)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 320 |
-| XP when defeated | 635 |
-| Damage | 5 to 14 |
-| Attack chance | 60 |
-| Block chance | 150 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+!!! note "A fight can start here"
+    Answering “Now that's a worthy dueling partner at last!” starts a fight with [Statue](../monsters/brv_school_statue.md#v-brv_school_statue2), not with Statue.
 
 ### Quests
 
@@ -163,11 +126,73 @@ Set your quest stages and items, then talk to Statue. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_school_statue)"
+## Brimhaven, Brimhaven school (2) { #v-brv_school_statue2 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 320 |
+| XP when defeated | 635 |
+| Damage | 5 to 14 |
+| AC | 60 |
+| BC | 150 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [Lessons learned](../quests/brv_school2.md#stage-152) with stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Statue. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_school_statue` | NPC | [Brimhaven, Brimhaven school](#v-brv_school_statue) |
+| `brv_school_statue2` | Enemy | [Brimhaven, Brimhaven school](#v-brv_school_statue2) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: brv_school_statue"
 
     | | |
     |---|---|
     | Entry ID | `brv_school_statue` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_statue` |
     | Loot table | – |
     | Conversation | `brv_school_statue` |
@@ -201,60 +226,12 @@ Set your quest stages and items, then talk to Statue. Same rules as the game: sa
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_school_statue2) { #v-brv_school_statue2 }
-
-**Entry ID:** `brv_school_statue2` · **Type:** Enemy
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 320 |
-| XP when defeated | 635 |
-| Damage | 5 to 14 |
-| Attack chance | 60 |
-| Block chance | 150 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | Appears later, during a quest |
-
-### Quests that count defeats
-
-- [Lessons learned](../quests/brv_school2.md#stage-152) with stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) checks that this enemy has been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_school_statue2)"
+??? info "Technical information: brv_school_statue2"
 
     | | |
     |---|---|
     | Entry ID | `brv_school_statue2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `brv_school_statue2` |
     | Loot table | – |
     | Conversation | – |
@@ -287,16 +264,6 @@ Set your quest stages and items, then talk to Statue. Same rules as the game: sa
      "damageResistance": 8
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

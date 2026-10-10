@@ -1,10 +1,10 @@
 ---
-description: "Ghost of Luthor is an NPC who can also be fought in Andor's Trail."
+description: "Ghost of Luthor is an NPC you can also fight in Andor's Trail."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_2.png){ .sprite } Ghost of Luthor
 
-**Where to find Ghost of Luthor:** not placed on any map; appears through a quest or scripted event.
+**Where to find Ghost of Luthor:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,43 +12,36 @@ description: "Ghost of Luthor is an NPC who can also be fought in Andor's Trail.
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Class** | Ghost |
 | **HP** | 86 |
 | **XP when defeated** | 133 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `ghost_of_luthor` |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Ghost of Luthor"
+    Answering “By the Shadow, what are you?” starts a fight with Ghost of Luthor.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 86 |
 | XP when defeated | 133 |
 | Damage | 2 to 5 |
-| Attack chance | 120 |
-| Block chance | 50 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 12% |
+| AC | 120 |
+| BC | 50 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 12% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -89,11 +82,24 @@ Set your quest stages and items, then talk to Ghost of Luthor. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ghost_of_luthor` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `luthor` |
     | Loot table | `luthor` |
     | Conversation | `luthor` |
@@ -129,15 +135,6 @@ Set your quest stages and items, then talk to Ghost of Luthor. Same rules as the
      "damageResistance": 3
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -1,5 +1,5 @@
 ---
-description: "Unzel is an NPC who can also be fought in Andor's Trail, found in Blackwater Mountain."
+description: "Unzel is an NPC you can also fight in Andor's Trail, found in Blackwater Mountain."
 ---
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Unzel
@@ -12,40 +12,34 @@ description: "Unzel is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 59 |
 | **XP when defeated** | 93 |
-| **Entry ID** | `unzel` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Unzel"
+    Answering “A fight it is!” during [Missing pieces](../quests/vacor.md#stage-53) starts a fight with Unzel.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 59 |
 | XP when defeated | 93 |
 | Damage | 5 to 9 |
-| Attack chance | 80 |
-| Block chance | 40 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 30 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 19% |
+| AC | 80 |
+| BC | 40 |
+| DR | 2 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | 19% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -55,12 +49,6 @@ description: "Unzel is an NPC who can also be fought in Andor's Trail, found in 
 | [Regular potion of health](../items/health.md) | 100% | 1 |
 | [Unzel's ring](../items/ring_unzel.md) | 100% | 1 |
 | [Unzel's defensive boots](../items/boots_unzel.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Wild 6](../maps/wild6.md) | Blackwater Mountain | 1 | – |
 
 ## Quests
 
@@ -223,11 +211,24 @@ Set your quest stages and items, then talk to Unzel. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `unzel` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `unzel` |
     | Loot table | `unzel` |
     | Conversation | `unzel` |
@@ -261,15 +262,6 @@ Set your quest stages and items, then talk to Unzel. Same rules as the game: sam
      "damageResistance": 2
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -15,7 +15,7 @@ description: "Troubling times story flags is a hidden quest in Andor's Trail, st
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) ([Crackshot hideout 4](../maps/crackshot_hideout4.md)) |
-| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5) |
+| **NPCs involved** | [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4) |
 | **Locations** | [Crackshot hideout 3](../maps/crackshot_hideout3.md), [Crackshot hideout 4](../maps/crackshot_hideout4.md) |
 | **Related quests** | 1 |
 

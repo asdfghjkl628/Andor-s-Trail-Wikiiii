@@ -1,10 +1,8 @@
 ---
-description: "Baltimor is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics."
+description: "Baltimor is scenery in Andor's Trail: a decoration or dialogue prop."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } Baltimor
-
-**Where to find Baltimor:** not placed on any map; appears through a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,14 +10,12 @@ description: "Baltimor is scenery in Andor's Trail: a decoration or dialogue pro
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
-| **Entry ID** | `brightportnpc9` |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+Part of the scenery: no conversation, no fight ~~and no, you can't take it home~~.
 
 
 ## Version history
@@ -31,11 +27,18 @@ description: "Baltimor is scenery in Andor's Trail: a decoration or dialogue pro
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brightportnpc9` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightportnpc9` |
+    | Type (wiki) | Scenery |
     | Spawn group | `brightportnpc9` |
     | Loot table | – |
     | Conversation | – |

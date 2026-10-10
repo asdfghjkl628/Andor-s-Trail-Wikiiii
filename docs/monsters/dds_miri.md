@@ -12,10 +12,9 @@ description: "Miri is a non-player character (NPC) in Andor's Trail, found in Mt
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Darkness in the Daylight](../quests/darkness_in_daylight.md) |
 | **Found in** | Mt. Galmore, Crossroads Guardhouse |
-| **Entry ID** | `dds_miri` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
@@ -370,11 +369,16 @@ Set your quest stages and items, then talk to Miri. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `dds_miri` |
+    | Type (wiki) | NPC |
     | Spawn group | `dds_miri` |
     | Loot table | – |
     | Conversation | `dds_miri` |

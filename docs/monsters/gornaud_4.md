@@ -17,34 +17,28 @@ description: "Azurite Gornaud is an enemy in Andor's Trail (giant) with 390 HP, 
 | **Class** | Giant |
 | **HP** | 390 |
 | **XP when defeated** | 541 |
-| **Entry ID** | `gornaud_4` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 390 |
 | XP when defeated | 541 |
 | Damage | 7 to 23 |
-| Attack chance | 120 |
-| Block chance | 45 |
-| Damage resistance | 9 |
-| Max AP | 5 |
-| Attack cost | 5 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 120 |
+| BC | 45 |
+| DR | 9 |
+| Attacks per turn | 1 (5 AP each, 5 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 25% chance)
+**Its hits:** On target: [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -77,11 +71,24 @@ description: "Azurite Gornaud is an enemy in Andor's Trail (giant) with 390 HP, 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `gornaud_4` |
+    | Type (wiki) | Enemy |
     | Spawn group | `gornaud_4` |
     | Loot table | `arulir_gornaud` |
     | Conversation | – |
@@ -123,15 +130,6 @@ description: "Azurite Gornaud is an enemy in Andor's Trail (giant) with 390 HP, 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

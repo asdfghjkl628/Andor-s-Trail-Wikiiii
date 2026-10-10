@@ -1,8 +1,10 @@
 ---
-description: "Wolfhound is an NPC who can also be fought in Andor's Trail, found in Blackwater Mountain."
+description: "Wolfhound is an NPC you can also fight in Andor's Trail, found in Blackwater Mountain."
 ---
 
 # ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } Wolfhound
+
+**Where to find Wolfhound:** [Blackwater Mountain, Blackwater mountain 55](#v-hettar_dog), [Blackwater Mountain, Blackwater mountain 55](#v-hettar_dog2), [Blackwater Mountain, Blackwater mountain 55](#v-hettar_dog3)
 
 <div class="infobox" markdown>
 
@@ -10,30 +12,18 @@ description: "Wolfhound is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Blackwater Mountain |
 | **Class** | Animal |
 | **HP** | 40 |
 | **XP when defeated** | 117 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.12](../versions/0.7.12.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Wolfhound. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. Each entry has its own section below.
+## Blackwater Mountain, Blackwater mountain 55 { #v-hettar_dog }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`hettar_dog`](#v-hettar_dog) | NPC | Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog) | – | – |
-| [`hettar_dog2`](#v-hettar_dog2) | NPC | Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2) | – | – |
-| [`hettar_dog3`](#v-hettar_dog3) | Enemy | Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md) | – | 40 |
-
-## Blackwater Mountain, Blackwater mountain 55 (hettar_dog) { #v-hettar_dog }
-
-**Entry ID:** `hettar_dog` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog)
+**Where:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog)
 
 ### Quests
 
@@ -81,38 +71,9 @@ Set your quest stages and items, then talk to Wolfhound. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (hettar_dog)"
+## Blackwater Mountain, Blackwater mountain 55 (2) { #v-hettar_dog2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `hettar_dog` |
-    | Spawn group | `hettar_dog` |
-    | Loot table | – |
-    | Conversation | `hettar_dog` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_dogs:3` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2b.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "hettar_dog",
-     "name": "Wolfhound",
-     "iconID": "monsters_dogs:3",
-     "monsterClass": "animal",
-     "spawnGroup": "hettar_dog",
-     "phraseID": "hettar_dog"
-    }
-    ```
-
-
-## Blackwater Mountain, Blackwater mountain 55 (hettar_dog2) { #v-hettar_dog2 }
-
-**Entry ID:** `hettar_dog2` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2)
+**Where:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md#pin-npc-hettar_dog2)
 
 ### Dialogue simulator
 
@@ -140,60 +101,26 @@ Set your quest stages and items, then talk to Wolfhound. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (hettar_dog2)"
+## Blackwater Mountain, Blackwater mountain 55 (3) { #v-hettar_dog3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `hettar_dog2` |
-    | Spawn group | `hettar_dog2` |
-    | Loot table | – |
-    | Conversation | `hettar_dog2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_dogs:3` |
-    | Defined in | `res/raw/monsterlist_brimhaven_2b.json` |
+**Where:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "hettar_dog2",
-     "name": "Wolfhound",
-     "iconID": "monsters_dogs:3",
-     "monsterClass": "animal",
-     "spawnGroup": "hettar_dog2",
-     "phraseID": "hettar_dog2"
-    }
-    ```
-
-
-## Blackwater Mountain, Blackwater mountain 55 (hettar_dog3) { #v-hettar_dog3 }
-
-**Entry ID:** `hettar_dog3` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Blackwater mountain 55](../maps/blackwater_mountain55.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 40 |
 | XP when defeated | 117 |
 | Damage | 1 to 8 |
-| Attack chance | 80 |
-| Block chance | 150 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 80 |
+| BC | 150 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -221,11 +148,87 @@ Set your quest stages and items, then talk to Wolfhound. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (hettar_dog3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Wolfhound. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `hettar_dog` | NPC | [Blackwater Mountain, Blackwater mountain 55](#v-hettar_dog) |
+| `hettar_dog2` | NPC | [Blackwater Mountain, Blackwater mountain 55](#v-hettar_dog2) |
+| `hettar_dog3` | Enemy | [Blackwater Mountain, Blackwater mountain 55](#v-hettar_dog3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: hettar_dog"
+
+    | | |
+    |---|---|
+    | Entry ID | `hettar_dog` |
+    | Type (wiki) | NPC |
+    | Spawn group | `hettar_dog` |
+    | Loot table | – |
+    | Conversation | `hettar_dog` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_dogs:3` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2b.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "hettar_dog",
+     "name": "Wolfhound",
+     "iconID": "monsters_dogs:3",
+     "monsterClass": "animal",
+     "spawnGroup": "hettar_dog",
+     "phraseID": "hettar_dog"
+    }
+    ```
+
+??? info "Technical information: hettar_dog2"
+
+    | | |
+    |---|---|
+    | Entry ID | `hettar_dog2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `hettar_dog2` |
+    | Loot table | – |
+    | Conversation | `hettar_dog2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_dogs:3` |
+    | Defined in | `res/raw/monsterlist_brimhaven_2b.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "hettar_dog2",
+     "name": "Wolfhound",
+     "iconID": "monsters_dogs:3",
+     "monsterClass": "animal",
+     "spawnGroup": "hettar_dog2",
+     "phraseID": "hettar_dog2"
+    }
+    ```
+
+??? info "Technical information: hettar_dog3"
 
     | | |
     |---|---|
     | Entry ID | `hettar_dog3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `hettar_dog3` |
     | Loot table | `hettar_dog3` |
     | Conversation | – |
@@ -256,16 +259,6 @@ Set your quest stages and items, then talk to Wolfhound. Same rules as the game:
      "damageResistance": 5
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

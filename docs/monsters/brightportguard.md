@@ -1,8 +1,10 @@
 ---
-description: "Brightport guard is an NPC who can also be fought in Andor's Trail, found in Brightport."
+description: "Brightport guard is an NPC you can also fight in Andor's Trail, found in Brightport."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } Brightport guard
+
+**Where to find Brightport guard:** [Brightport, Brightport 1 and 2 more](#v-brightportguard), [Brightport, Brightport 9](#v-brightport_guardbase), [Brightport, Brightport abandoned](#v-brightport_guardcrate), [Brightport, Brightport abandoned](#v-brightport_guardfight), [Brightport, Brightport benbyr](#v-brightport_guardgoons), [Brightport, Brightport jail](#v-brightport_jailguard), [Brightport, Brightport 7](#v-brightportchapelguard), [Brightport, Brightport 5](#v-brightportguard2), [Brightport, Brightport 4](#v-brightportnorthguard)
 
 <div class="infobox" markdown>
 
@@ -10,36 +12,18 @@ description: "Brightport guard is an NPC who can also be fought in Andor's Trail
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brightport |
 | **Class** | Humanoid |
 | **HP** | 120 |
 | **XP when defeated** | 315 |
-| **Entries in game data** | 9 |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! info "9 entries in the game data"
-    The game data defines 9 separate characters named Brightport guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, appearance, movement. Each entry has its own section below.
+## Brightport, Brightport 1 and 2 more { #v-brightportguard }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`brightportguard`](#v-brightportguard) | NPC | Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportguard), Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportguard) (+1 more) | – | – |
-| [`brightport_guardbase`](#v-brightport_guardbase) | NPC | Brightport: [Brightport 9](../maps/brightport9.md#pin-npc-brightport_guardbase) | – | – |
-| [`brightport_guardcrate`](#v-brightport_guardcrate) | NPC | Brightport: [Brightport abandoned](../maps/brightport_abandoned.md#pin-npc-brightport_guardcrate) | – | – |
-| [`brightport_guardfight`](#v-brightport_guardfight) | Enemy | Brightport: [Brightport abandoned](../maps/brightport_abandoned.md) | – | 120 |
-| [`brightport_guardgoons`](#v-brightport_guardgoons) | NPC | Brightport: [Brightport benbyr](../maps/brightport_benbyr.md#pin-npc-brightport_guardgoons) | – | – |
-| [`brightport_jailguard`](#v-brightport_jailguard) | NPC | Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightport_jailguard) | – | – |
-| [`brightportchapelguard`](#v-brightportchapelguard) | NPC | Brightport: [Brightport 7](../maps/brightport7.md#pin-npc-brightportchapelguard) | – | – |
-| [`brightportguard2`](#v-brightportguard2) | NPC | Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportguard2) | – | – |
-| [`brightportnorthguard`](#v-brightportnorthguard) | NPC | Brightport: [Brightport 4](../maps/brightport4.md#pin-npc-brightportnorthguard) | – | – |
-
-## Brightport, Brightport 1 and 2 more (brightportguard) { #v-brightportguard }
-
-**Entry ID:** `brightportguard` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportguard), Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportguard), Brightport: [Brightport guards 2](../maps/brightport_guards2.md#pin-npc-brightportguard)
+**Where:** Brightport: [Brightport 1](../maps/brightport1.md#pin-npc-brightportguard), Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportguard), Brightport: [Brightport guards 2](../maps/brightport_guards2.md#pin-npc-brightportguard)
 
 ### Locations
 
@@ -75,39 +59,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportguard)"
+## Brightport, Brightport 9 { #v-brightport_guardbase }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightportguard` |
-    | Spawn group | `brightportguards` |
-    | Loot table | – |
-    | Conversation | `brightport_guard1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:94` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightportguard",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:94",
-     "unique": 1,
-     "spawnGroup": "brightportguards",
-     "faction": "",
-     "phraseID": "brightport_guard1"
-    }
-    ```
-
-
-## Brightport, Brightport 9 (brightport_guardbase) { #v-brightport_guardbase }
-
-**Entry ID:** `brightport_guardbase` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 9](../maps/brightport9.md#pin-npc-brightport_guardbase)
+**Where:** Brightport: [Brightport 9](../maps/brightport9.md#pin-npc-brightport_guardbase)
 
 ### Dialogue simulator
 
@@ -150,36 +104,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightport_guardbase)"
+## Brightport, Brightport abandoned { #v-brightport_guardcrate }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightport_guardbase` |
-    | Spawn group | `brightport_guardbase` |
-    | Loot table | – |
-    | Conversation | `brightport_guardbase` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:94` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightport_guardbase",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:94",
-     "phraseID": "brightport_guardbase"
-    }
-    ```
-
-
-## Brightport, Brightport abandoned (brightport_guardcrate) { #v-brightport_guardcrate }
-
-**Entry ID:** `brightport_guardcrate` · **Type:** NPC
-
-**Location:** Brightport: [Brightport abandoned](../maps/brightport_abandoned.md#pin-npc-brightport_guardcrate)
+**Where:** Brightport: [Brightport abandoned](../maps/brightport_abandoned.md#pin-npc-brightport_guardcrate)
 
 ### Quests
 
@@ -322,59 +249,26 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightport_guardcrate)"
+## Brightport, Brightport abandoned (2) { #v-brightport_guardfight }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightport_guardcrate` |
-    | Spawn group | `brightport_guardcrate` |
-    | Loot table | – |
-    | Conversation | `brightport_crateguard_selector` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:94` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
+**Where:** Brightport: [Brightport abandoned](../maps/brightport_abandoned.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "brightport_guardcrate",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:94",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "brightport_crateguard_selector"
-    }
-    ```
-
-
-## Brightport, Brightport abandoned (brightport_guardfight) { #v-brightport_guardfight }
-
-**Entry ID:** `brightport_guardfight` · **Type:** Enemy
-
-**Location:** Brightport: [Brightport abandoned](../maps/brightport_abandoned.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 120 |
 | XP when defeated | 315 |
 | Damage | 10 to 25 |
-| Attack chance | 140 |
-| Block chance | 130 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 140 |
+| BC | 130 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -396,48 +290,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightport_guardfight)"
+## Brightport, Brightport benbyr { #v-brightport_guardgoons }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightport_guardfight` |
-    | Spawn group | `brightport_guardfight` |
-    | Loot table | – |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:95` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightport_guardfight",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:95",
-     "maxHP": 120,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "attackDamage": {
-      "min": 10,
-      "max": 25
-     },
-     "attackCost": 5,
-     "attackChance": 140,
-     "blockChance": 130,
-     "damageResistance": 3
-    }
-    ```
-
-
-## Brightport, Brightport benbyr (brightport_guardgoons) { #v-brightport_guardgoons }
-
-**Entry ID:** `brightport_guardgoons` · **Type:** NPC
-
-**Location:** Brightport: [Brightport benbyr](../maps/brightport_benbyr.md#pin-npc-brightport_guardgoons)
+**Where:** Brightport: [Brightport benbyr](../maps/brightport_benbyr.md#pin-npc-brightport_guardgoons)
 
 ### Dialogue simulator
 
@@ -465,36 +320,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightport_guardgoons)"
+## Brightport, Brightport jail { #v-brightport_jailguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightport_guardgoons` |
-    | Spawn group | `brightport_guardgoons` |
-    | Loot table | – |
-    | Conversation | `brightport_guards` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:95` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightport_guardgoons",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:95",
-     "phraseID": "brightport_guards"
-    }
-    ```
-
-
-## Brightport, Brightport jail (brightport_jailguard) { #v-brightport_jailguard }
-
-**Entry ID:** `brightport_jailguard` · **Type:** NPC
-
-**Location:** Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightport_jailguard)
+**Where:** Brightport: [Brightport jail](../maps/brightport_jail.md#pin-npc-brightport_jailguard)
 
 ### Dialogue simulator
 
@@ -526,36 +354,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightport_jailguard)"
+## Brightport, Brightport 7 { #v-brightportchapelguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightport_jailguard` |
-    | Spawn group | `brightport_jailguard` |
-    | Loot table | – |
-    | Conversation | `brightport_jailguard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:2` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightport_jailguard",
-     "name": "Brightport guard",
-     "iconID": "monsters_karvis2:2",
-     "phraseID": "brightport_jailguard"
-    }
-    ```
-
-
-## Brightport, Brightport 7 (brightportchapelguard) { #v-brightportchapelguard }
-
-**Entry ID:** `brightportchapelguard` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 7](../maps/brightport7.md#pin-npc-brightportchapelguard)
+**Where:** Brightport: [Brightport 7](../maps/brightport7.md#pin-npc-brightportchapelguard)
 
 ### Dialogue simulator
 
@@ -583,44 +384,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportchapelguard)"
+## Brightport, Brightport 5 { #v-brightportguard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightportchapelguard` |
-    | Spawn group | `brightportchapelguard` |
-    | Loot table | – |
-    | Conversation | `brightport_guard` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_ld1:95` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightportchapelguard",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:95",
-     "maxHP": 120,
-     "maxAP": 10,
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "phraseID": "brightport_guard",
-     "attackCost": 5,
-     "attackChance": 160,
-     "blockChance": 130
-    }
-    ```
-
-
-## Brightport, Brightport 5 (brightportguard2) { #v-brightportguard2 }
-
-**Entry ID:** `brightportguard2` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportguard2)
+**Where:** Brightport: [Brightport 5](../maps/brightport5.md#pin-npc-brightportguard2)
 
 ### Quests
 
@@ -689,37 +455,9 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportguard2)"
+## Brightport, Brightport 4 { #v-brightportnorthguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brightportguard2` |
-    | Spawn group | `brightportguard2` |
-    | Loot table | – |
-    | Conversation | `brightportguard_1_selector` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:95` |
-    | Defined in | `res/raw/monsterlist_brightport.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brightportguard2",
-     "name": "Brightport guard",
-     "iconID": "monsters_ld1:95",
-     "unique": 1,
-     "phraseID": "brightportguard_1_selector"
-    }
-    ```
-
-
-## Brightport, Brightport 4 (brightportnorthguard) { #v-brightportnorthguard }
-
-**Entry ID:** `brightportnorthguard` · **Type:** NPC
-
-**Location:** Brightport: [Brightport 4](../maps/brightport4.md#pin-npc-brightportnorthguard)
+**Where:** Brightport: [Brightport 4](../maps/brightport4.md#pin-npc-brightportnorthguard)
 
 ### Quests
 
@@ -768,11 +506,264 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brightportnorthguard)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**9 entries.** The game data defines 9 separate characters named Brightport guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, faction, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brightportguard` | NPC | [Brightport, Brightport 1 and 2 more](#v-brightportguard) |
+| `brightport_guardbase` | NPC | [Brightport, Brightport 9](#v-brightport_guardbase) |
+| `brightport_guardcrate` | NPC | [Brightport, Brightport abandoned](#v-brightport_guardcrate) |
+| `brightport_guardfight` | Enemy | [Brightport, Brightport abandoned](#v-brightport_guardfight) |
+| `brightport_guardgoons` | NPC | [Brightport, Brightport benbyr](#v-brightport_guardgoons) |
+| `brightport_jailguard` | NPC | [Brightport, Brightport jail](#v-brightport_jailguard) |
+| `brightportchapelguard` | NPC | [Brightport, Brightport 7](#v-brightportchapelguard) |
+| `brightportguard2` | NPC | [Brightport, Brightport 5](#v-brightportguard2) |
+| `brightportnorthguard` | NPC | [Brightport, Brightport 4](#v-brightportnorthguard) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: brightportguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightportguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightportguards` |
+    | Loot table | – |
+    | Conversation | `brightport_guard1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:94` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightportguard",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:94",
+     "unique": 1,
+     "spawnGroup": "brightportguards",
+     "faction": "",
+     "phraseID": "brightport_guard1"
+    }
+    ```
+
+??? info "Technical information: brightport_guardbase"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightport_guardbase` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightport_guardbase` |
+    | Loot table | – |
+    | Conversation | `brightport_guardbase` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:94` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_guardbase",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:94",
+     "phraseID": "brightport_guardbase"
+    }
+    ```
+
+??? info "Technical information: brightport_guardcrate"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightport_guardcrate` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightport_guardcrate` |
+    | Loot table | – |
+    | Conversation | `brightport_crateguard_selector` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:94` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_guardcrate",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:94",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "brightport_crateguard_selector"
+    }
+    ```
+
+??? info "Technical information: brightport_guardfight"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightport_guardfight` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `brightport_guardfight` |
+    | Loot table | – |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:95` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_guardfight",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:95",
+     "maxHP": 120,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 10,
+      "max": 25
+     },
+     "attackCost": 5,
+     "attackChance": 140,
+     "blockChance": 130,
+     "damageResistance": 3
+    }
+    ```
+
+??? info "Technical information: brightport_guardgoons"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightport_guardgoons` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightport_guardgoons` |
+    | Loot table | – |
+    | Conversation | `brightport_guards` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:95` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_guardgoons",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:95",
+     "phraseID": "brightport_guards"
+    }
+    ```
+
+??? info "Technical information: brightport_jailguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightport_jailguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightport_jailguard` |
+    | Loot table | – |
+    | Conversation | `brightport_jailguard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:2` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightport_jailguard",
+     "name": "Brightport guard",
+     "iconID": "monsters_karvis2:2",
+     "phraseID": "brightport_jailguard"
+    }
+    ```
+
+??? info "Technical information: brightportchapelguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightportchapelguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightportchapelguard` |
+    | Loot table | – |
+    | Conversation | `brightport_guard` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_ld1:95` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightportchapelguard",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:95",
+     "maxHP": 120,
+     "maxAP": 10,
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "brightport_guard",
+     "attackCost": 5,
+     "attackChance": 160,
+     "blockChance": 130
+    }
+    ```
+
+??? info "Technical information: brightportguard2"
+
+    | | |
+    |---|---|
+    | Entry ID | `brightportguard2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brightportguard2` |
+    | Loot table | – |
+    | Conversation | `brightportguard_1_selector` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:95` |
+    | Defined in | `res/raw/monsterlist_brightport.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brightportguard2",
+     "name": "Brightport guard",
+     "iconID": "monsters_ld1:95",
+     "unique": 1,
+     "phraseID": "brightportguard_1_selector"
+    }
+    ```
+
+??? info "Technical information: brightportnorthguard"
 
     | | |
     |---|---|
     | Entry ID | `brightportnorthguard` |
+    | Type (wiki) | NPC |
     | Spawn group | `brightportnorthguard` |
     | Loot table | – |
     | Conversation | `brightport_guard_north1` |
@@ -791,16 +782,6 @@ Set your quest stages and items, then talk to Brightport guard. Same rules as th
      "phraseID": "brightport_guard_north1"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

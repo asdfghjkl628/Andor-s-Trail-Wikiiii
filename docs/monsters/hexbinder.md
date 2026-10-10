@@ -4,6 +4,8 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 
 # ![](../assets/icons/monsters/monsters_antison_4.png){ .sprite } Kazaul Hex-Binder lich
 
+**Where to find Kazaul Hex-Binder lich:** [Undertell 3 lava 10 and 3 more](#v-hexbinder), [Undertell 3 lava 00](#v-hexbinder_help_liches)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_antison_4.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 | **Class** | Undead |
 | **HP** | 263 |
 | **XP when defeated** | 760 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Kazaul Hex-Binder lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
+## Undertell 3 lava 10 and 3 more { #v-hexbinder }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`hexbinder`](#v-hexbinder) | Enemy | [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md) (+2 more) | – | 263 |
-| [`hexbinder_help_liches`](#v-hexbinder_help_liches) | Enemy | [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 263 |
+**Where:** [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 5](../maps/undertell_5.md)
 
-## Undertell 3 lava 10 and 3 more (hexbinder) { #v-hexbinder }
+### Combat
 
-**Entry ID:** `hexbinder` · **Type:** Enemy
-
-**Location:** [Undertell 3 lava 10](../maps/undertell_3_lava_10.md), [Undertell 3 lava 11](../maps/undertell_3_lava_11.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 5](../maps/undertell_5.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 263 |
 | XP when defeated | 760 |
 | Damage | 8 to 10 |
-| Attack chance | 198 |
-| Block chance | 180 |
-| Damage resistance | 9 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 11 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 198 |
+| BC | 180 |
+| DR | 9 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | 9% (×2.0) |
 
-**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 3 rounds, 28% chance)
+**Its hits:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 3 rounds, 28% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -86,11 +72,80 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (hexbinder)"
+## Undertell 3 lava 00 { #v-hexbinder_help_liches }
+
+**Where:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 263 |
+| XP when defeated | 760 |
+| Damage | 8 to 10 |
+| AC | 198 |
+| BC | 180 |
+| DR | 9 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | 9% (×2.0) |
+
+**Its hits:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 3 rounds, 28% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 40% | 7 to 12 |
+| [Lich dust](../items/lich_dust.md) | 9% | 1 |
+| [Major potion of health](../items/health_major2.md) | 30% | 1 to 2 |
+| [Liquid courage](../items/pot_courage.md) | 10% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 2 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Kazaul Hex-Binder lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `hexbinder` | Enemy | [Undertell 3 lava 10 and 3 more](#v-hexbinder) |
+| `hexbinder_help_liches` | Enemy | [Undertell 3 lava 00](#v-hexbinder_help_liches) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: hexbinder"
 
     | | |
     |---|---|
     | Entry ID | `hexbinder` |
+    | Type (wiki) | Enemy |
     | Spawn group | `hexbinder` |
     | Loot table | `hexbinder_lich_dl` |
     | Conversation | – |
@@ -135,67 +190,12 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
     }
     ```
 
-
-## Undertell 3 lava 00 (hexbinder_help_liches) { #v-hexbinder_help_liches }
-
-**Entry ID:** `hexbinder_help_liches` · **Type:** Enemy
-
-**Location:** [Undertell 3 lava 00](../maps/undertell_3_lava_00.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 263 |
-| XP when defeated | 760 |
-| Damage | 8 to 10 |
-| Attack chance | 198 |
-| Block chance | 180 |
-| Damage resistance | 9 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 11 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
-
-**On hit:** On target: [Withering Focus](../conditions/withering_focus.md) (magnitude 4, 3 rounds, 28% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 40% | 7 to 12 |
-| [Lich dust](../items/lich_dust.md) | 9% | 1 |
-| [Major potion of health](../items/health_major2.md) | 30% | 1 to 2 |
-| [Liquid courage](../items/pot_courage.md) | 10% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 lava 00](../maps/undertell_3_lava_00.md) | – | 2 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (hexbinder_help_liches)"
+??? info "Technical information: hexbinder_help_liches"
 
     | | |
     |---|---|
     | Entry ID | `hexbinder_help_liches` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpLich` |
     | Loot table | `hexbinder_lich_dl` |
     | Conversation | – |
@@ -240,16 +240,6 @@ description: "Kazaul Hex-Binder lich is an enemy in Andor's Trail (undead) with 
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

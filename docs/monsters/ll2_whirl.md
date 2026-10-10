@@ -4,32 +4,23 @@ description: "Charybdis is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_nut_81.png){ .sprite } Charybdis
 
+**Where to find Charybdis:** [Lake Laeroth, Mountainlake 31 and 5 more](#v-ll2_whirl), [Mountainlake sub](#v-ll2_whirl_return)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_nut_81.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Lake Laeroth, Mountainlake sub |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Charybdis. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Lake Laeroth, Mountainlake 31 and 5 more { #v-ll2_whirl }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ll2_whirl`](#v-ll2_whirl) | NPC | Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md#pin-npc-ll2_whirl), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md#pin-npc-ll2_whirl) (+4 more) | – |
-| [`ll2_whirl_return`](#v-ll2_whirl_return) | NPC | [Mountainlake sub](../maps/mountainlake_sub.md#pin-npc-ll2_whirl_return) | – |
-
-## Lake Laeroth, Mountainlake 31 and 5 more (ll2_whirl) { #v-ll2_whirl }
-
-**Entry ID:** `ll2_whirl` · **Type:** NPC
-
-**Location:** Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md#pin-npc-ll2_whirl), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md#pin-npc-ll2_whirl), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md#pin-npc-ll2_whirl), [Mountainlake 33](../maps/mountainlake33.md#pin-npc-ll2_whirl), [Mountainlake 34](../maps/mountainlake34.md#pin-npc-ll2_whirl), [Mountainlake 35](../maps/mountainlake35.md#pin-npc-ll2_whirl)
+**Where:** Lake Laeroth: [Mountainlake 31](../maps/mountainlake31.md#pin-npc-ll2_whirl), Lake Laeroth: [Mountainlake 36](../maps/mountainlake36.md#pin-npc-ll2_whirl), Lake Laeroth: [Mountainlake 37](../maps/mountainlake37.md#pin-npc-ll2_whirl), [Mountainlake 33](../maps/mountainlake33.md#pin-npc-ll2_whirl), [Mountainlake 34](../maps/mountainlake34.md#pin-npc-ll2_whirl), [Mountainlake 35](../maps/mountainlake35.md#pin-npc-ll2_whirl)
 
 ### Locations
 
@@ -72,38 +63,9 @@ Set your quest stages and items, then talk to Charybdis. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ll2_whirl)"
+## Mountainlake sub { #v-ll2_whirl_return }
 
-    | | |
-    |---|---|
-    | Entry ID | `ll2_whirl` |
-    | Spawn group | `ll2_whirl` |
-    | Loot table | – |
-    | Conversation | `ll2_whirl` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_nut:81` |
-    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ll2_whirl",
-     "name": "Charybdis",
-     "iconID": "monsters_nut:81",
-     "monsterClass": "construct",
-     "spawnGroup": "ll2_whirl",
-     "phraseID": "ll2_whirl"
-    }
-    ```
-
-
-## Mountainlake sub (ll2_whirl_return) { #v-ll2_whirl_return }
-
-**Entry ID:** `ll2_whirl_return` · **Type:** NPC
-
-**Location:** [Mountainlake sub](../maps/mountainlake_sub.md#pin-npc-ll2_whirl_return)
+**Where:** [Mountainlake sub](../maps/mountainlake_sub.md#pin-npc-ll2_whirl_return)
 
 ### Quests
 
@@ -159,11 +121,51 @@ Set your quest stages and items, then talk to Charybdis. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ll2_whirl_return)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Charybdis. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ll2_whirl` | NPC | [Lake Laeroth, Mountainlake 31 and 5 more](#v-ll2_whirl) |
+| `ll2_whirl_return` | NPC | [Mountainlake sub](#v-ll2_whirl_return) |
+
+??? info "Technical information: ll2_whirl"
+
+    | | |
+    |---|---|
+    | Entry ID | `ll2_whirl` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ll2_whirl` |
+    | Loot table | – |
+    | Conversation | `ll2_whirl` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_nut:81` |
+    | Defined in | `res/raw/monsterlist_lake_laeroth_2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ll2_whirl",
+     "name": "Charybdis",
+     "iconID": "monsters_nut:81",
+     "monsterClass": "construct",
+     "spawnGroup": "ll2_whirl",
+     "phraseID": "ll2_whirl"
+    }
+    ```
+
+??? info "Technical information: ll2_whirl_return"
 
     | | |
     |---|---|
     | Entry ID | `ll2_whirl_return` |
+    | Type (wiki) | NPC |
     | Spawn group | `ll2_whirl_return` |
     | Loot table | – |
     | Conversation | `ll2_whirl_return` |
@@ -184,7 +186,6 @@ Set your quest stages and items, then talk to Charybdis. Same rules as the game:
      "phraseID": "ll2_whirl_return"
     }
     ```
-
 
 
 ## Community notes

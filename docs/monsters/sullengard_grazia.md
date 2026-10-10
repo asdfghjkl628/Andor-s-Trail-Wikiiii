@@ -4,32 +4,23 @@ description: "Grazia is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_168.png){ .sprite } Grazia
 
+**Where to find Grazia:** [Sullengard, Sullengard 2 northwest house](#v-sullengard_grazia), [Way to sullengard east 4 bridge](#v-sull_ravine_grazia)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_168.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Sullengard, Way to sullengard east 4 bridge |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Grazia. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Sullengard, Sullengard 2 northwest house { #v-sullengard_grazia }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`sullengard_grazia`](#v-sullengard_grazia) | NPC | Sullengard: [Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia) | – |
-| [`sull_ravine_grazia`](#v-sull_ravine_grazia) | NPC | [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia) | – |
-
-## Sullengard, Sullengard 2 northwest house (sullengard_grazia) { #v-sullengard_grazia }
-
-**Entry ID:** `sullengard_grazia` · **Type:** NPC
-
-**Location:** Sullengard: [Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia)
+**Where:** Sullengard: [Sullengard 2 northwest house](../maps/sullengard2_northwest_house.md#pin-npc-sullengard_grazia)
 
 ### Dialogue simulator
 
@@ -58,39 +49,9 @@ Set your quest stages and items, then talk to Grazia. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sullengard_grazia)"
+## Way to sullengard east 4 bridge { #v-sull_ravine_grazia }
 
-    | | |
-    |---|---|
-    | Entry ID | `sullengard_grazia` |
-    | Spawn group | `sullengard_grazia` |
-    | Loot table | – |
-    | Conversation | `sullengard_grazia_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:168` |
-    | Defined in | `res/raw/monsterlist_sullengard.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "sullengard_grazia",
-     "name": "Grazia",
-     "iconID": "monsters_ld1:168",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "sullengard_grazia",
-     "phraseID": "sullengard_grazia_0"
-    }
-    ```
-
-
-## Way to sullengard east 4 bridge (sull_ravine_grazia) { #v-sull_ravine_grazia }
-
-**Entry ID:** `sull_ravine_grazia` · **Type:** NPC
-
-**Location:** [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia)
+**Where:** [Way to sullengard east 4 bridge](../maps/way_to_sullengard_east4_bridge.md#pin-npc-sull_ravine_grazia)
 
 ### Quests
 
@@ -170,11 +131,52 @@ Set your quest stages and items, then talk to Grazia. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (sull_ravine_grazia)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Grazia. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `sullengard_grazia` | NPC | [Sullengard, Sullengard 2 northwest house](#v-sullengard_grazia) |
+| `sull_ravine_grazia` | NPC | [Way to sullengard east 4 bridge](#v-sull_ravine_grazia) |
+
+??? info "Technical information: sullengard_grazia"
+
+    | | |
+    |---|---|
+    | Entry ID | `sullengard_grazia` |
+    | Type (wiki) | NPC |
+    | Spawn group | `sullengard_grazia` |
+    | Loot table | – |
+    | Conversation | `sullengard_grazia_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:168` |
+    | Defined in | `res/raw/monsterlist_sullengard.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "sullengard_grazia",
+     "name": "Grazia",
+     "iconID": "monsters_ld1:168",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "sullengard_grazia",
+     "phraseID": "sullengard_grazia_0"
+    }
+    ```
+
+??? info "Technical information: sull_ravine_grazia"
 
     | | |
     |---|---|
     | Entry ID | `sull_ravine_grazia` |
+    | Type (wiki) | NPC |
     | Spawn group | `sull_ravine_grazia` |
     | Loot table | – |
     | Conversation | `sull_ravine_grazia_0` |
@@ -198,7 +200,6 @@ Set your quest stages and items, then talk to Grazia. Same rules as the game: sa
      "phraseID": "sull_ravine_grazia_0"
     }
     ```
-
 
 
 ## Community notes

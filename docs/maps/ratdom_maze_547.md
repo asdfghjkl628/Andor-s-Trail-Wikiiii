@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 547 is an indoor location in Andor's Trail, in Labyrinth (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Malignant cave snake, Nasty cave snake. Exits to Ratdom maze 538, Ratdom maze 558, Ratdom maze 657, Ratdom maze 537."
+description: "Ratdom maze 547 is an indoor location in Andor's Trail, in Labyrinth (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Malignant cave snake, Nasty cave snake. Exits to Ratdom maze 538, Ratdom maze 558, Ratdom maze 657, Ratdom maze 537."
 ---
 
 # Ratdom maze 547
@@ -80,8 +80,8 @@ description: "Ratdom maze 547 is an indoor location in Andor's Trail, in Labyrin
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Malignant cave snake](../monsters/ratdom_m3a.md) | 30 | 5–5 | 2 | shares spawn with Nasty cave snake |
 | [Nasty cave snake](../monsters/cavesnake5.md#v-ratdom_m3b) | 30 | 5–5 | 2 | shares spawn with Malignant cave snake |
 

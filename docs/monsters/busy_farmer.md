@@ -4,33 +4,23 @@ description: "Busy farmer is a non-player character (NPC) in Andor's Trail, foun
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Busy farmer
 
+**Where to find Busy farmer:** [Fallhaven, Fallhaven farmer and 1 more](#v-busy_farmer), [Fallhaven, Fallhaven south-east](#v-fallhaven_outdoor_farmer), [Stoutford, Stoutford farmhouse 2](#v-stoutford_farmer2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_man1_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Fallhaven, Stoutford |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Busy farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Fallhaven, Fallhaven farmer and 1 more { #v-busy_farmer }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`busy_farmer`](#v-busy_farmer) | NPC | Fallhaven: [Fallhaven farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-busy_farmer) | – |
-| [`fallhaven_outdoor_farmer`](#v-fallhaven_outdoor_farmer) | NPC | Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer) | – |
-| [`stoutford_farmer2`](#v-stoutford_farmer2) | NPC | Stoutford: [Stoutford farmhouse 2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2) | – |
-
-## Fallhaven, Fallhaven farmer and 1 more (busy_farmer) { #v-busy_farmer }
-
-**Entry ID:** `busy_farmer` · **Type:** NPC
-
-**Location:** Fallhaven: [Fallhaven farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-busy_farmer)
+**Where:** Fallhaven: [Fallhaven farmer](../maps/fallhaven_farmer.md#pin-npc-busy_farmer), Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-busy_farmer)
 
 ### Locations
 
@@ -66,38 +56,9 @@ Set your quest stages and items, then talk to Busy farmer. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (busy_farmer)"
+## Fallhaven, Fallhaven south-east { #v-fallhaven_outdoor_farmer }
 
-    | | |
-    |---|---|
-    | Entry ID | `busy_farmer` |
-    | Spawn group | `fallhaven_farmer1` |
-    | Loot table | – |
-    | Conversation | `fallhaven_farmer1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "busy_farmer",
-     "name": "Busy farmer",
-     "iconID": "monsters_man1:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "fallhaven_farmer1",
-     "phraseID": "fallhaven_farmer1"
-    }
-    ```
-
-
-## Fallhaven, Fallhaven south-east (fallhaven_outdoor_farmer) { #v-fallhaven_outdoor_farmer }
-
-**Entry ID:** `fallhaven_outdoor_farmer` · **Type:** NPC
-
-**Location:** Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer)
+**Where:** Fallhaven: [Fallhaven south-east](../maps/fallhaven_se.md#pin-npc-fallhaven_outdoor_farmer)
 
 ### Quests
 
@@ -209,38 +170,9 @@ Set your quest stages and items, then talk to Busy farmer. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (fallhaven_outdoor_farmer)"
+## Stoutford, Stoutford farmhouse 2 { #v-stoutford_farmer2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `fallhaven_outdoor_farmer` |
-    | Spawn group | `fallhaven_outdoor_farmer` |
-    | Loot table | – |
-    | Conversation | `fallhaven_outdoor_farmer_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "fallhaven_outdoor_farmer",
-     "name": "Busy farmer",
-     "iconID": "monsters_man1:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "fallhaven_outdoor_farmer",
-     "phraseID": "fallhaven_outdoor_farmer_10"
-    }
-    ```
-
-
-## Stoutford, Stoutford farmhouse 2 (stoutford_farmer2) { #v-stoutford_farmer2 }
-
-**Entry ID:** `stoutford_farmer2` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford farmhouse 2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2)
+**Where:** Stoutford: [Stoutford farmhouse 2](../maps/stoutford_farmhouse2.md#pin-npc-stoutford_farmer2)
 
 ### Dialogue simulator
 
@@ -268,11 +200,79 @@ Set your quest stages and items, then talk to Busy farmer. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_farmer2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Busy farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `busy_farmer` | NPC | [Fallhaven, Fallhaven farmer and 1 more](#v-busy_farmer) |
+| `fallhaven_outdoor_farmer` | NPC | [Fallhaven, Fallhaven south-east](#v-fallhaven_outdoor_farmer) |
+| `stoutford_farmer2` | NPC | [Stoutford, Stoutford farmhouse 2](#v-stoutford_farmer2) |
+
+??? info "Technical information: busy_farmer"
+
+    | | |
+    |---|---|
+    | Entry ID | `busy_farmer` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fallhaven_farmer1` |
+    | Loot table | – |
+    | Conversation | `fallhaven_farmer1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "busy_farmer",
+     "name": "Busy farmer",
+     "iconID": "monsters_man1:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "fallhaven_farmer1",
+     "phraseID": "fallhaven_farmer1"
+    }
+    ```
+
+??? info "Technical information: fallhaven_outdoor_farmer"
+
+    | | |
+    |---|---|
+    | Entry ID | `fallhaven_outdoor_farmer` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fallhaven_outdoor_farmer` |
+    | Loot table | – |
+    | Conversation | `fallhaven_outdoor_farmer_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "fallhaven_outdoor_farmer",
+     "name": "Busy farmer",
+     "iconID": "monsters_man1:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "fallhaven_outdoor_farmer",
+     "phraseID": "fallhaven_outdoor_farmer_10"
+    }
+    ```
+
+??? info "Technical information: stoutford_farmer2"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_farmer2` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_farmer2` |
     | Loot table | – |
     | Conversation | `stoutford_farmer2` |
@@ -293,7 +293,6 @@ Set your quest stages and items, then talk to Busy farmer. Same rules as the gam
      "phraseID": "stoutford_farmer2"
     }
     ```
-
 
 
 ## Community notes

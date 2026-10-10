@@ -12,9 +12,8 @@ description: "Prison guard is a non-player character (NPC) in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard |
-| **Entry ID** | `remgard_pg` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -46,11 +45,16 @@ Set your quest stages and items, then talk to Prison guard. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `remgard_pg` |
+    | Type (wiki) | NPC |
     | Spawn group | `remgard_prison_guard` |
     | Loot table | – |
     | Conversation | `remgard_prison_guard` |

@@ -145,7 +145,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.1](../versions/0.7.1.md) | Stage 43 journal text changed<br>Dialogue: 1 line changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the Arulir. Their…” |
-| [v0.7.2](../versions/0.7.2.md) | Stage 43 journal text changed<br>Dialogue: 2 lines changed<br>· text: “I have discovered that if you mix some ground up claws from a beast c…” → “I have discovered that if you mix some ground up claws from a beast c…”<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the arulir. Their…” |
+| [v0.7.2](../versions/0.7.2.md) | Stage 43 journal text changed<br>Dialogue: 2 lines changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the arulir. Their…”<br>· text: “I have discovered that if you mix some ground up claws from a beast c…” → “I have discovered that if you mix some ground up claws from a beast c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

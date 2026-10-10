@@ -4,37 +4,24 @@ description: "Agent is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_men_4.png){ .sprite } Agent
 
+**Where to find Agent:** [Blackwater mountain 5](#v-agent1), [Prim, Blackwater mountain 9](#v-agent2), [Blackwater Mountain, Blackwater mountain 14](#v-agent3), [Blackwater Mountain, Blackwater mountain 17](#v-agent4), [Blackwater Mountain, Blackwater mountain 30](#v-agent5), [Blackwater Mountain, Blackwater mountain 38](#v-agent6)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_4.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [The agent and the beast](../quests/bwm_agent.md) |
 | **Found in** | Blackwater mountain 5, Prim, Blackwater Mountain |
-| **Entries in game data** | 6 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "6 entries in the game data"
-    The game data defines 6 separate characters named Agent. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Blackwater mountain 5 { #v-agent1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`agent1`](#v-agent1) | NPC | [Blackwater mountain 5](../maps/blackwater_mountain5.md#pin-npc-agent1) | starts [The agent and the beast](../quests/bwm_agent.md) |
-| [`agent2`](#v-agent2) | NPC | Prim: [Blackwater mountain 9](../maps/blackwater_mountain9.md#pin-npc-agent2) | – |
-| [`agent3`](#v-agent3) | NPC | Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md#pin-npc-agent3) | – |
-| [`agent4`](#v-agent4) | NPC | Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md#pin-npc-agent4) | – |
-| [`agent5`](#v-agent5) | NPC | Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md#pin-npc-agent5) | – |
-| [`agent6`](#v-agent6) | NPC | Blackwater Mountain: [Blackwater mountain 38](../maps/blackwater_mountain38.md#pin-npc-agent6) | – |
-
-## Blackwater mountain 5 (agent1) { #v-agent1 }
-
-**Entry ID:** `agent1` · **Type:** NPC · **Role:** Starts [The agent and the beast](../quests/bwm_agent.md)
-
-**Location:** [Blackwater mountain 5](../maps/blackwater_mountain5.md#pin-npc-agent1)
+**Where:** [Blackwater mountain 5](../maps/blackwater_mountain5.md#pin-npc-agent1) · **Role:** Starts [The agent and the beast](../quests/bwm_agent.md)
 
 ### Quests
 
@@ -127,39 +114,9 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (agent1)"
+## Prim, Blackwater mountain 9 { #v-agent2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `agent1` |
-    | Spawn group | `bwm_agent_1` |
-    | Loot table | – |
-    | Conversation | `bwm_agent_1_start` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:4` |
-    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "agent1",
-     "name": "Agent",
-     "iconID": "monsters_men:4",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "bwm_agent_1",
-     "phraseID": "bwm_agent_1_start"
-    }
-    ```
-
-
-## Prim, Blackwater mountain 9 (agent2) { #v-agent2 }
-
-**Entry ID:** `agent2` · **Type:** NPC
-
-**Location:** Prim: [Blackwater mountain 9](../maps/blackwater_mountain9.md#pin-npc-agent2)
+**Where:** Prim: [Blackwater mountain 9](../maps/blackwater_mountain9.md#pin-npc-agent2)
 
 ### Quests
 
@@ -245,39 +202,9 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (agent2)"
+## Blackwater Mountain, Blackwater mountain 14 { #v-agent3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `agent2` |
-    | Spawn group | `bwm_agent_2` |
-    | Loot table | – |
-    | Conversation | `bwm_agent_2_start` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:4` |
-    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "agent2",
-     "name": "Agent",
-     "iconID": "monsters_men:4",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "bwm_agent_2",
-     "phraseID": "bwm_agent_2_start"
-    }
-    ```
-
-
-## Blackwater Mountain, Blackwater mountain 14 (agent3) { #v-agent3 }
-
-**Entry ID:** `agent3` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md#pin-npc-agent3)
+**Where:** Blackwater Mountain: [Blackwater mountain 14](../maps/blackwater_mountain14.md#pin-npc-agent3)
 
 ### Quests
 
@@ -344,39 +271,9 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (agent3)"
+## Blackwater Mountain, Blackwater mountain 17 { #v-agent4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `agent3` |
-    | Spawn group | `bwm_agent_3` |
-    | Loot table | – |
-    | Conversation | `bwm_agent_3_start` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:4` |
-    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "agent3",
-     "name": "Agent",
-     "iconID": "monsters_men:4",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "bwm_agent_3",
-     "phraseID": "bwm_agent_3_start"
-    }
-    ```
-
-
-## Blackwater Mountain, Blackwater mountain 17 (agent4) { #v-agent4 }
-
-**Entry ID:** `agent4` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md#pin-npc-agent4)
+**Where:** Blackwater Mountain: [Blackwater mountain 17](../maps/blackwater_mountain17.md#pin-npc-agent4)
 
 ### Quests
 
@@ -442,39 +339,9 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (agent4)"
+## Blackwater Mountain, Blackwater mountain 30 { #v-agent5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `agent4` |
-    | Spawn group | `bwm_agent_4` |
-    | Loot table | – |
-    | Conversation | `bwm_agent_4_start` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:4` |
-    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "agent4",
-     "name": "Agent",
-     "iconID": "monsters_men:4",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "bwm_agent_4",
-     "phraseID": "bwm_agent_4_start"
-    }
-    ```
-
-
-## Blackwater Mountain, Blackwater mountain 30 (agent5) { #v-agent5 }
-
-**Entry ID:** `agent5` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md#pin-npc-agent5)
+**Where:** Blackwater Mountain: [Blackwater mountain 30](../maps/blackwater_mountain30.md#pin-npc-agent5)
 
 ### Quests
 
@@ -533,39 +400,9 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (agent5)"
+## Blackwater Mountain, Blackwater mountain 38 { #v-agent6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `agent5` |
-    | Spawn group | `bwm_agent_5` |
-    | Loot table | – |
-    | Conversation | `bwm_agent_5_start` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:4` |
-    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "agent5",
-     "name": "Agent",
-     "iconID": "monsters_men:4",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "bwm_agent_5",
-     "phraseID": "bwm_agent_5_start"
-    }
-    ```
-
-
-## Blackwater Mountain, Blackwater mountain 38 (agent6) { #v-agent6 }
-
-**Entry ID:** `agent6` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Blackwater mountain 38](../maps/blackwater_mountain38.md#pin-npc-agent6)
+**Where:** Blackwater Mountain: [Blackwater mountain 38](../maps/blackwater_mountain38.md#pin-npc-agent6)
 
 ### Quests
 
@@ -634,11 +471,168 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (agent6)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**6 entries.** The game data defines 6 separate characters named Agent. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `agent1` | NPC | [Blackwater mountain 5](#v-agent1) |
+| `agent2` | NPC | [Prim, Blackwater mountain 9](#v-agent2) |
+| `agent3` | NPC | [Blackwater Mountain, Blackwater mountain 14](#v-agent3) |
+| `agent4` | NPC | [Blackwater Mountain, Blackwater mountain 17](#v-agent4) |
+| `agent5` | NPC | [Blackwater Mountain, Blackwater mountain 30](#v-agent5) |
+| `agent6` | NPC | [Blackwater Mountain, Blackwater mountain 38](#v-agent6) |
+
+??? info "Technical information: agent1"
+
+    | | |
+    |---|---|
+    | Entry ID | `agent1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bwm_agent_1` |
+    | Loot table | – |
+    | Conversation | `bwm_agent_1_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "agent1",
+     "name": "Agent",
+     "iconID": "monsters_men:4",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bwm_agent_1",
+     "phraseID": "bwm_agent_1_start"
+    }
+    ```
+
+??? info "Technical information: agent2"
+
+    | | |
+    |---|---|
+    | Entry ID | `agent2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bwm_agent_2` |
+    | Loot table | – |
+    | Conversation | `bwm_agent_2_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "agent2",
+     "name": "Agent",
+     "iconID": "monsters_men:4",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bwm_agent_2",
+     "phraseID": "bwm_agent_2_start"
+    }
+    ```
+
+??? info "Technical information: agent3"
+
+    | | |
+    |---|---|
+    | Entry ID | `agent3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bwm_agent_3` |
+    | Loot table | – |
+    | Conversation | `bwm_agent_3_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "agent3",
+     "name": "Agent",
+     "iconID": "monsters_men:4",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bwm_agent_3",
+     "phraseID": "bwm_agent_3_start"
+    }
+    ```
+
+??? info "Technical information: agent4"
+
+    | | |
+    |---|---|
+    | Entry ID | `agent4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bwm_agent_4` |
+    | Loot table | – |
+    | Conversation | `bwm_agent_4_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "agent4",
+     "name": "Agent",
+     "iconID": "monsters_men:4",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bwm_agent_4",
+     "phraseID": "bwm_agent_4_start"
+    }
+    ```
+
+??? info "Technical information: agent5"
+
+    | | |
+    |---|---|
+    | Entry ID | `agent5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `bwm_agent_5` |
+    | Loot table | – |
+    | Conversation | `bwm_agent_5_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:4` |
+    | Defined in | `res/raw/monsterlist_v069_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "agent5",
+     "name": "Agent",
+     "iconID": "monsters_men:4",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "bwm_agent_5",
+     "phraseID": "bwm_agent_5_start"
+    }
+    ```
+
+??? info "Technical information: agent6"
 
     | | |
     |---|---|
     | Entry ID | `agent6` |
+    | Type (wiki) | NPC |
     | Spawn group | `bwm_agent_6` |
     | Loot table | – |
     | Conversation | `bwm_agent_6_start` |
@@ -660,7 +654,6 @@ Set your quest stages and items, then talk to Agent. Same rules as the game: sam
      "phraseID": "bwm_agent_6_start"
     }
     ```
-
 
 
 ## Community notes

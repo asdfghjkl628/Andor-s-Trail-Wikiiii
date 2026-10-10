@@ -1,5 +1,5 @@
 ---
-description: "Waytolake 7 is an outdoor location in Andor's Trail. Enemies: Small scaradon, Scaradon, Tough scaradon, Hardshell scaradon, Young erumen lizard. Exits to Waytolake 8, Waytolake 7b, Waterway 11 east."
+description: "Waytolake 7 is an outdoor location in Andor's Trail. Enemies: Small scaradon, Scaradon, Tough scaradon, Hardshell scaradon, Spotted erumen lizard. Exits to Waytolake 8, Waytolake 7b, Waterway 11 east."
 ---
 
 # Waytolake 7
@@ -53,8 +53,8 @@ description: "Waytolake 7 is an outdoor location in Andor's Trail. Enemies: Smal
 | [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 4 | shares spawn with Small scaradon, Tough scaradon |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 | 1–4 | 4 | shares spawn with Scaradon, Small scaradon |
 | [Hardshell scaradon](../monsters/scaradon_5.md) | 38 | 1–5 | 3 | – |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
 | [Puny plaguecrawler](../monsters/plaguesp_1.md) | 55 | 1–6 | 3 | – |
 | [Vile erumen lizard](../monsters/erumen_5.md) | 89 | 2–9 | 2 | shares spawn with Tough erumen lizard |
 | [Tough erumen lizard](../monsters/erumen_6.md) | 91 | 2–9 | 2 | shares spawn with Vile erumen lizard |

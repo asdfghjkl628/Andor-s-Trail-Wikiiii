@@ -4,35 +4,23 @@ description: "Unkorh is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_11.png){ .sprite } Unkorh
 
+**Where to find Unkorh:** [Guynmart Castle, Guynmart main 1](#v-guynmart_steward), [Guynmart Castle, Guynmart main 2](#v-guynmart_steward2), [Guynmart Castle, Guynmart](#v-guynmart_steward3), [Guynmart Castle, Guynmart main 0](#v-guynmart_steward4), [Guynmart Castle, Guynmart main 1](#v-guynmart_steward5)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_11.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 5 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Unkorh. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Guynmart Castle, Guynmart main 1 { #v-guynmart_steward }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_steward`](#v-guynmart_steward) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward) | – |
-| [`guynmart_steward2`](#v-guynmart_steward2) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2) | – |
-| [`guynmart_steward3`](#v-guynmart_steward3) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3) | – |
-| [`guynmart_steward4`](#v-guynmart_steward4) | NPC | Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4) | – |
-| [`guynmart_steward5`](#v-guynmart_steward5) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5) | – |
-
-## Guynmart Castle, Guynmart main 1 (guynmart_steward) { #v-guynmart_steward }
-
-**Entry ID:** `guynmart_steward` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward)
 
 ### Quests
 
@@ -118,38 +106,9 @@ Set your quest stages and items, then talk to Unkorh. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_steward)"
+## Guynmart Castle, Guynmart main 2 { #v-guynmart_steward2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_steward` |
-    | Spawn group | `guynmart_steward` |
-    | Loot table | – |
-    | Conversation | `guynmart_steward_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:11` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_steward",
-     "name": "Unkorh",
-     "iconID": "monsters_ld1:11",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_steward_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 2 (guynmart_steward2) { #v-guynmart_steward2 }
-
-**Entry ID:** `guynmart_steward2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2)
+**Where:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_steward2)
 
 ### Quests
 
@@ -175,38 +134,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_steward2)"
+## Guynmart Castle, Guynmart { #v-guynmart_steward3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_steward2` |
-    | Spawn group | `guynmart_steward2` |
-    | Loot table | – |
-    | Conversation | `guynmart_steward_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:11` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_steward2",
-     "name": "Unkorh",
-     "iconID": "monsters_ld1:11",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_steward_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart (guynmart_steward3) { #v-guynmart_steward3 }
-
-**Entry ID:** `guynmart_steward3` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_steward3)
 
 ### Quests
 
@@ -260,38 +190,9 @@ Set your quest stages and items, then talk to Unkorh. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_steward3)"
+## Guynmart Castle, Guynmart main 0 { #v-guynmart_steward4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_steward3` |
-    | Spawn group | `guynmart_steward3` |
-    | Loot table | – |
-    | Conversation | `guynmart_steward3_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:11` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_steward3",
-     "name": "Unkorh",
-     "iconID": "monsters_ld1:11",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_steward3_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 0 (guynmart_steward4) { #v-guynmart_steward4 }
-
-**Entry ID:** `guynmart_steward4` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4)
+**Where:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_steward4)
 
 ### Quests
 
@@ -446,38 +347,9 @@ Set your quest stages and items, then talk to Unkorh. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_steward4)"
+## Guynmart Castle, Guynmart main 1 (2) { #v-guynmart_steward5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_steward4` |
-    | Spawn group | `guynmart_steward4` |
-    | Loot table | – |
-    | Conversation | `guynmart_steward4_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:11` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_steward4",
-     "name": "Unkorh",
-     "iconID": "monsters_ld1:11",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_steward4_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_steward5) { #v-guynmart_steward5 }
-
-**Entry ID:** `guynmart_steward5` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_steward5)
 
 ### Quests
 
@@ -741,16 +613,140 @@ Set your quest stages and items, then talk to Unkorh. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 51 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1000 gold for 10 or perhaps even more killed sheep.” → “{1000} gold for 10 or perhaps even more killed sheep.”<br>· text: “2500 gold for 25 or perhaps even more killed sheep.” → “{2500} gold for 25 or perhaps even more killed sheep.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1500 gold for 15 or perhaps even more killed sheep.” → “{1500} gold for 15 or perhaps even more killed sheep.”<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_steward5)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Unkorh. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_steward` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_steward) |
+| `guynmart_steward2` | NPC | [Guynmart Castle, Guynmart main 2](#v-guynmart_steward2) |
+| `guynmart_steward3` | NPC | [Guynmart Castle, Guynmart](#v-guynmart_steward3) |
+| `guynmart_steward4` | NPC | [Guynmart Castle, Guynmart main 0](#v-guynmart_steward4) |
+| `guynmart_steward5` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_steward5) |
+
+??? info "Technical information: guynmart_steward"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_steward` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_steward` |
+    | Loot table | – |
+    | Conversation | `guynmart_steward_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:11` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_steward",
+     "name": "Unkorh",
+     "iconID": "monsters_ld1:11",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_steward_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_steward2"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_steward2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_steward2` |
+    | Loot table | – |
+    | Conversation | `guynmart_steward_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:11` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_steward2",
+     "name": "Unkorh",
+     "iconID": "monsters_ld1:11",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_steward_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_steward3"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_steward3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_steward3` |
+    | Loot table | – |
+    | Conversation | `guynmart_steward3_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:11` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_steward3",
+     "name": "Unkorh",
+     "iconID": "monsters_ld1:11",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_steward3_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_steward4"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_steward4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_steward4` |
+    | Loot table | – |
+    | Conversation | `guynmart_steward4_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:11` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_steward4",
+     "name": "Unkorh",
+     "iconID": "monsters_ld1:11",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_steward4_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_steward5"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_steward5` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_steward5` |
     | Loot table | – |
     | Conversation | `guynmart_steward5_10` |
@@ -771,7 +767,6 @@ Set your quest stages and items, then talk to Unkorh. Same rules as the game: sa
      "phraseID": "guynmart_steward5_10"
     }
     ```
-
 
 
 ## Community notes

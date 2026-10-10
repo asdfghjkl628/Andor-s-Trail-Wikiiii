@@ -1,5 +1,5 @@
 ---
-description: "Cave troll leader is an NPC who can also be fought in Andor's Trail, found in Lakecave 2."
+description: "Cave troll leader is an NPC you can also fight in Andor's Trail, found in Lakecave 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_18.png){ .sprite } Cave troll leader
@@ -12,42 +12,36 @@ description: "Cave troll leader is an NPC who can also be fought in Andor's Trai
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Lakecave 2 |
 | **Class** | Giant |
 | **HP** | 410 |
 | **XP when defeated** | 518 |
-| **Entry ID** | `cave_troll_5` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Cave troll leader"
+    Answering “We'll see.” during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-203) starts a fight with Cave troll leader.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 410 |
 | XP when defeated | 518 |
 | Damage | 5 to 20 |
-| Attack chance | 70 |
-| Block chance | 50 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 50 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On self: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance); On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance)
+**Its hits:** On self: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance); On target: [Stunned](../conditions/stunned.md) (magnitude 1, 3 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -56,12 +50,6 @@ description: "Cave troll leader is an NPC who can also be fought in Andor's Trai
 | [Gold coins](../items/gold.md) | 100% | 4 to 12 |
 | [Sword of the annihilator](../items/sword_annihilator.md) | 100% | 1 |
 | [Ruby gem](../items/gem2.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Lakecave 2](../maps/lakecave2.md) | – | 1 | – |
 
 ## Quests
 
@@ -157,11 +145,24 @@ Set your quest stages and items, then talk to Cave troll leader. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `cave_troll_5` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `cave_troll_5` |
     | Loot table | `cave_troll_4` |
     | Conversation | `lakecave2_troll_10` |
@@ -212,15 +213,6 @@ Set your quest stages and items, then talk to Cave troll leader. Same rules as t
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -65,8 +65,8 @@ description: "Lostmine 2 is an indoor location in Andor's Trail, in Charwood (se
 | [Young ash gargoyle](../monsters/ash1.md) | 109 | 3–10 | 3 | shares spawn with Ash gargoyle |
 | [Strong Charwood goblin](../monsters/charwdg8.md) | 112 | 9–11 | 5 | shares spawn with Aggressive Charwood goblin |
 | [Ash gargoyle](../monsters/ash2.md) | 116 | 3–10 | 3 | shares spawn with Young ash gargoyle |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 1 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
 | [Tough mazarth beast](../monsters/mazarth2.md) | 148 | 0–20 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

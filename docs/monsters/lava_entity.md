@@ -17,36 +17,29 @@ description: "Lava entity is an enemy in Andor's Trail (construct) with 290 HP, 
 | **Class** | Construct |
 | **HP** | 290 |
 | **XP when defeated** | 881 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `lava_entity` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 290 |
 | XP when defeated | 881 |
 | Damage | 30 to 35 |
-| Attack chance | 150 |
-| Block chance | 240 |
-| Damage resistance | 14 |
-| Max AP | 10 |
-| Attack cost | 7 AP |
-| Attacks per turn | 1 |
-| Move cost | 9 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 150 |
+| BC | 240 |
+| DR | 14 |
+| Attacks per turn | 1 (7 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -75,11 +68,24 @@ description: "Lava entity is an enemy in Andor's Trail (construct) with 290 HP, 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lava_entity` |
+    | Type (wiki) | Enemy |
     | Spawn group | `lava_entity` |
     | Loot table | `lava_entity_dl` |
     | Conversation | – |
@@ -109,15 +115,6 @@ description: "Lava entity is an enemy in Andor's Trail (construct) with 290 HP, 
      "damageResistance": 14
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

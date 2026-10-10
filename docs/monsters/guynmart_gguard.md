@@ -1,8 +1,10 @@
 ---
-description: "Guynmart guard is an NPC who can also be fought in Andor's Trail, found in Guynmart Castle. Shopkeeper."
+description: "Guynmart guard is an NPC you can also fight in Andor's Trail, found in Guynmart Castle. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_0.png){ .sprite } Guynmart guard
+
+**Where to find Guynmart guard:** [Guynmart Castle, Guynmart](#v-guynmart_gguard), [Guynmart Castle, Guynmart gate 2](#v-guynmart_gateguard), [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_arms), [Guynmart Castle, Guynmart](#v-guynmart_guard_guide), [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_store), [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_storea), [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_storea2), [Guynmart Castle, Guynmart main 2](#v-guynmart_mguard), [Guynmart Castle, Guynmart](#v-guynmart_player), [Guynmart Castle, Guynmart main 1](#v-guynmart_tguard), [Guynmart Castle, Guynmart main 1](#v-guynmart_tguard2), [Guynmart Castle, Guynmart and 1 more](#v-guynmart_wguard), [Guynmart Castle, Guynmart](#v-guynmart_wguard1), [Guynmart Castle, Guynmart and 1 more](#v-guynmart_wguard9a)
 
 <div class="infobox" markdown>
 
@@ -10,42 +12,19 @@ description: "Guynmart guard is an NPC who can also be fought in Andor's Trail, 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Guynmart Castle |
 | **Class** | Humanoid |
 | **HP** | 120 |
 | **XP when defeated** | 269 |
-| **Entries in game data** | 14 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "14 entries in the game data"
-    The game data defines 14 separate characters named Guynmart guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Guynmart Castle, Guynmart { #v-guynmart_gguard }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`guynmart_gguard`](#v-guynmart_gguard) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard) | shopkeeper | – |
-| [`guynmart_gateguard`](#v-guynmart_gateguard) | Enemy | Guynmart Castle: [Guynmart gate 2](../maps/guynmart_gate_2.md) | – | 120 |
-| [`guynmart_guard_arms`](#v-guynmart_guard_arms) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms) | – | – |
-| [`guynmart_guard_guide`](#v-guynmart_guard_guide) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide) | – | – |
-| [`guynmart_guard_store`](#v-guynmart_guard_store) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store) | – | – |
-| [`guynmart_guard_storea`](#v-guynmart_guard_storea) | Enemy | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md) | – | 120 |
-| [`guynmart_guard_storea2`](#v-guynmart_guard_storea2) | Enemy | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md) | – | 120 |
-| [`guynmart_mguard`](#v-guynmart_mguard) | NPC | Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard) | – | – |
-| [`guynmart_player`](#v-guynmart_player) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_player) | – | – |
-| [`guynmart_tguard`](#v-guynmart_tguard) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard) | – | – |
-| [`guynmart_tguard2`](#v-guynmart_tguard2) | NPC | Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2) | – | – |
-| [`guynmart_wguard`](#v-guynmart_wguard) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard) | – | – |
-| [`guynmart_wguard1`](#v-guynmart_wguard1) | Enemy | Guynmart Castle: [Guynmart](../maps/guynmart.md) | – | 120 |
-| [`guynmart_wguard9a`](#v-guynmart_wguard9a) | Enemy | Guynmart Castle: [Guynmart](../maps/guynmart.md), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md) | – | 120 |
-
-## Guynmart Castle, Guynmart (guynmart_gguard) { #v-guynmart_gguard }
-
-**Entry ID:** `guynmart_gguard` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_gguard) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -289,61 +268,26 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_gguard)"
+## Guynmart Castle, Guynmart gate 2 { #v-guynmart_gateguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_gguard` |
-    | Spawn group | `guynmart_gguard` |
-    | Loot table | `guynmart_drp_gguard` |
-    | Conversation | `guynmart_gguard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
+**Where:** Guynmart Castle: [Guynmart gate 2](../maps/guynmart_gate_2.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "guynmart_gguard",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_gguard_10",
-     "droplistID": "guynmart_drp_gguard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart gate 2 (guynmart_gateguard) { #v-guynmart_gateguard }
-
-**Entry ID:** `guynmart_gateguard` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart gate 2](../maps/guynmart_gate_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 120 |
 | XP when defeated | 269 |
 | Damage | 5 to 20 |
-| Attack chance | 40 |
-| Block chance | 150 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 150 |
+| DR | 6 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -367,49 +311,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_gateguard)"
+## Guynmart Castle, Guynmart main 1 { #v-guynmart_guard_arms }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_gateguard` |
-    | Spawn group | `guynmart_gateguard` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_gateguard",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "maxHP": 120,
-     "maxAP": 10,
-     "moveCost": 4,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 5,
-      "max": 20
-     },
-     "droplistID": "guynmart_drp_guard",
-     "attackCost": 4,
-     "attackChance": 40,
-     "blockChance": 150,
-     "damageResistance": 6
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_guard_arms) { #v-guynmart_guard_arms }
-
-**Entry ID:** `guynmart_guard_arms` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_arms)
 
 ### Dialogue simulator
 
@@ -437,39 +341,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_guard_arms)"
+## Guynmart Castle, Guynmart (2) { #v-guynmart_guard_guide }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_guard_arms` |
-    | Spawn group | `guynmart_guard_arms` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | `guynmart_guard_arms_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_guard_arms",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_guard_arms_10",
-     "droplistID": "guynmart_drp_guard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart (guynmart_guard_guide) { #v-guynmart_guard_guide }
-
-**Entry ID:** `guynmart_guard_guide` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_guard_guide)
 
 ### Quests
 
@@ -521,38 +395,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_guard_guide)"
+## Guynmart Castle, Guynmart main 1 (2) { #v-guynmart_guard_store }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_guard_guide` |
-    | Spawn group | `guynmart_guard_guide` |
-    | Loot table | – |
-    | Conversation | `guynmart_guard_guide_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_guard_guide",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_guard_guide_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_guard_store) { #v-guynmart_guard_store }
-
-**Entry ID:** `guynmart_guard_store` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_guard_store)
 
 ### Dialogue simulator
 
@@ -580,61 +425,26 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_guard_store)"
+## Guynmart Castle, Guynmart main 1 (3) { #v-guynmart_guard_storea }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_guard_store` |
-    | Spawn group | `guynmart_guard_store` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | `guynmart_guard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "guynmart_guard_store",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_guard_10",
-     "droplistID": "guynmart_drp_guard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_guard_storea) { #v-guynmart_guard_storea }
-
-**Entry ID:** `guynmart_guard_storea` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 120 |
 | XP when defeated | 269 |
 | Damage | 5 to 20 |
-| Attack chance | 40 |
-| Block chance | 150 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 150 |
+| DR | 6 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -658,71 +468,26 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_guard_storea)"
+## Guynmart Castle, Guynmart main 1 (4) { #v-guynmart_guard_storea2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_guard_storea` |
-    | Spawn group | `guynmart_guard_storea` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "guynmart_guard_storea",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "maxHP": 120,
-     "maxAP": 10,
-     "moveCost": 4,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "attackDamage": {
-      "min": 5,
-      "max": 20
-     },
-     "droplistID": "guynmart_drp_guard",
-     "attackCost": 4,
-     "attackChance": 40,
-     "blockChance": 150,
-     "damageResistance": 6
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_guard_storea2) { #v-guynmart_guard_storea2 }
-
-**Entry ID:** `guynmart_guard_storea2` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 120 |
 | XP when defeated | 269 |
 | Damage | 5 to 20 |
-| Attack chance | 40 |
-| Block chance | 150 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 150 |
+| DR | 6 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -746,49 +511,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_guard_storea2)"
+## Guynmart Castle, Guynmart main 2 { #v-guynmart_mguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_guard_storea2` |
-    | Spawn group | `guynmart_guard_storea2` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_guard_storea2",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "maxHP": 120,
-     "maxAP": 10,
-     "moveCost": 4,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "attackDamage": {
-      "min": 5,
-      "max": 20
-     },
-     "droplistID": "guynmart_drp_guard",
-     "attackCost": 4,
-     "attackChance": 40,
-     "blockChance": 150,
-     "damageResistance": 6
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 2 (guynmart_mguard) { #v-guynmart_mguard }
-
-**Entry ID:** `guynmart_mguard` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard)
+**Where:** Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md#pin-npc-guynmart_mguard)
 
 ### Dialogue simulator
 
@@ -810,39 +535,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_mguard)"
+## Guynmart Castle, Guynmart (3) { #v-guynmart_player }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_mguard` |
-    | Spawn group | `guynmart_mguard` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | `guynmart_guard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_mguard",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_guard_10",
-     "droplistID": "guynmart_drp_guard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart (guynmart_player) { #v-guynmart_player }
-
-**Entry ID:** `guynmart_player` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_player)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_player)
 
 ### Quests
 
@@ -1018,38 +713,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_player)"
+## Guynmart Castle, Guynmart main 1 (5) { #v-guynmart_tguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_player` |
-    | Spawn group | `guynmart_player` |
-    | Loot table | – |
-    | Conversation | `guynmart_player_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_player",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_player_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_tguard) { #v-guynmart_tguard }
-
-**Entry ID:** `guynmart_tguard` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard)
 
 ### Dialogue simulator
 
@@ -1077,39 +743,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_tguard)"
+## Guynmart Castle, Guynmart main 1 (6) { #v-guynmart_tguard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_tguard` |
-    | Spawn group | `guynmart_tguard` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | `guynmart_tguard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_tguard",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_tguard_10",
-     "droplistID": "guynmart_drp_guard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 1 (guynmart_tguard2) { #v-guynmart_tguard2 }
-
-**Entry ID:** `guynmart_tguard2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2)
+**Where:** Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_tguard2)
 
 ### Dialogue simulator
 
@@ -1145,39 +781,9 @@ Set your quest stages and items, then talk to Guynmart guard. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_tguard2)"
+## Guynmart Castle, Guynmart and 1 more { #v-guynmart_wguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_tguard2` |
-    | Spawn group | `guynmart_tguard2` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | `guynmart_tguard2_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_tguard2",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_tguard2_10",
-     "droplistID": "guynmart_drp_guard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart and 1 more (guynmart_wguard) { #v-guynmart_wguard }
-
-**Entry ID:** `guynmart_wguard` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_wguard), Guynmart Castle: [Guynmart tower 2](../maps/guynmart_tower_2.md#pin-npc-guynmart_wguard)
 
 ### Locations
 
@@ -1206,61 +812,26 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_wguard)"
+## Guynmart Castle, Guynmart (4) { #v-guynmart_wguard1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_wguard` |
-    | Spawn group | `guynmart_wguard` |
-    | Loot table | `guynmart_drp_guard` |
-    | Conversation | `guynmart_guard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:0` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "guynmart_wguard",
-     "name": "Guynmart guard",
-     "iconID": "monsters_ld1:0",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_guard_10",
-     "droplistID": "guynmart_drp_guard"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart (guynmart_wguard1) { #v-guynmart_wguard1 }
-
-**Entry ID:** `guynmart_wguard1` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 120 |
 | XP when defeated | 269 |
 | Damage | 5 to 20 |
-| Attack chance | 40 |
-| Block chance | 150 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 150 |
+| DR | 6 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -1284,11 +855,452 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_wguard1)"
+## Guynmart Castle, Guynmart and 1 more (2) { #v-guynmart_wguard9a }
+
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 120 |
+| XP when defeated | 269 |
+| Damage | 5 to 20 |
+| AC | 40 |
+| BC | 150 |
+| DR | 6 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 25% | 12 to 36 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 5 | Appears later, during a quest |
+| [Guynmart main 2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**14 entries.** The game data defines 14 separate characters named Guynmart guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_gguard` | NPC | [Guynmart Castle, Guynmart](#v-guynmart_gguard) |
+| `guynmart_gateguard` | Enemy | [Guynmart Castle, Guynmart gate 2](#v-guynmart_gateguard) |
+| `guynmart_guard_arms` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_arms) |
+| `guynmart_guard_guide` | NPC | [Guynmart Castle, Guynmart](#v-guynmart_guard_guide) |
+| `guynmart_guard_store` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_store) |
+| `guynmart_guard_storea` | Enemy | [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_storea) |
+| `guynmart_guard_storea2` | Enemy | [Guynmart Castle, Guynmart main 1](#v-guynmart_guard_storea2) |
+| `guynmart_mguard` | NPC | [Guynmart Castle, Guynmart main 2](#v-guynmart_mguard) |
+| `guynmart_player` | NPC | [Guynmart Castle, Guynmart](#v-guynmart_player) |
+| `guynmart_tguard` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_tguard) |
+| `guynmart_tguard2` | NPC | [Guynmart Castle, Guynmart main 1](#v-guynmart_tguard2) |
+| `guynmart_wguard` | NPC | [Guynmart Castle, Guynmart and 1 more](#v-guynmart_wguard) |
+| `guynmart_wguard1` | Enemy | [Guynmart Castle, Guynmart](#v-guynmart_wguard1) |
+| `guynmart_wguard9a` | Enemy | [Guynmart Castle, Guynmart and 1 more](#v-guynmart_wguard9a) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: guynmart_gguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_gguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_gguard` |
+    | Loot table | `guynmart_drp_gguard` |
+    | Conversation | `guynmart_gguard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_gguard",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_gguard_10",
+     "droplistID": "guynmart_drp_gguard"
+    }
+    ```
+
+??? info "Technical information: guynmart_gateguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_gateguard` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `guynmart_gateguard` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_gateguard",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "maxHP": 120,
+     "maxAP": 10,
+     "moveCost": 4,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 5,
+      "max": 20
+     },
+     "droplistID": "guynmart_drp_guard",
+     "attackCost": 4,
+     "attackChance": 40,
+     "blockChance": 150,
+     "damageResistance": 6
+    }
+    ```
+
+??? info "Technical information: guynmart_guard_arms"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_guard_arms` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_guard_arms` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | `guynmart_guard_arms_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_guard_arms",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_guard_arms_10",
+     "droplistID": "guynmart_drp_guard"
+    }
+    ```
+
+??? info "Technical information: guynmart_guard_guide"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_guard_guide` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_guard_guide` |
+    | Loot table | – |
+    | Conversation | `guynmart_guard_guide_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_guard_guide",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_guard_guide_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_guard_store"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_guard_store` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_guard_store` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | `guynmart_guard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_guard_store",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_guard_10",
+     "droplistID": "guynmart_drp_guard"
+    }
+    ```
+
+??? info "Technical information: guynmart_guard_storea"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_guard_storea` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `guynmart_guard_storea` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_guard_storea",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "maxHP": 120,
+     "maxAP": 10,
+     "moveCost": 4,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 5,
+      "max": 20
+     },
+     "droplistID": "guynmart_drp_guard",
+     "attackCost": 4,
+     "attackChance": 40,
+     "blockChance": 150,
+     "damageResistance": 6
+    }
+    ```
+
+??? info "Technical information: guynmart_guard_storea2"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_guard_storea2` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `guynmart_guard_storea2` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_guard_storea2",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "maxHP": 120,
+     "maxAP": 10,
+     "moveCost": 4,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "attackDamage": {
+      "min": 5,
+      "max": 20
+     },
+     "droplistID": "guynmart_drp_guard",
+     "attackCost": 4,
+     "attackChance": 40,
+     "blockChance": 150,
+     "damageResistance": 6
+    }
+    ```
+
+??? info "Technical information: guynmart_mguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_mguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_mguard` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | `guynmart_guard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_mguard",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_guard_10",
+     "droplistID": "guynmart_drp_guard"
+    }
+    ```
+
+??? info "Technical information: guynmart_player"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_player` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_player` |
+    | Loot table | – |
+    | Conversation | `guynmart_player_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_player",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_player_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_tguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_tguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_tguard` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | `guynmart_tguard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_tguard",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_tguard_10",
+     "droplistID": "guynmart_drp_guard"
+    }
+    ```
+
+??? info "Technical information: guynmart_tguard2"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_tguard2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_tguard2` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | `guynmart_tguard2_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_tguard2",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_tguard2_10",
+     "droplistID": "guynmart_drp_guard"
+    }
+    ```
+
+??? info "Technical information: guynmart_wguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_wguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_wguard` |
+    | Loot table | `guynmart_drp_guard` |
+    | Conversation | `guynmart_guard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:0` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_wguard",
+     "name": "Guynmart guard",
+     "iconID": "monsters_ld1:0",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_guard_10",
+     "droplistID": "guynmart_drp_guard"
+    }
+    ```
+
+??? info "Technical information: guynmart_wguard1"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_wguard1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `guynmart_wguard_a` |
     | Loot table | `guynmart_drp_guard` |
     | Conversation | – |
@@ -1321,63 +1333,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Guynmart Castle, Guynmart and 1 more (guynmart_wguard9a) { #v-guynmart_wguard9a }
-
-**Entry ID:** `guynmart_wguard9a` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md), Guynmart Castle: [Guynmart main 2](../maps/guynmart_main_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 120 |
-| XP when defeated | 269 |
-| Damage | 5 to 20 |
-| Attack chance | 40 |
-| Block chance | 150 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 25% | 12 to 36 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guynmart](../maps/guynmart.md) | Guynmart Castle | 5 | Appears later, during a quest |
-| [Guynmart main 2](../maps/guynmart_main_2.md) | Guynmart Castle | 1 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (guynmart_wguard9a)"
+??? info "Technical information: guynmart_wguard9a"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_wguard9a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `guynmart_wguard9a` |
     | Loot table | `guynmart_drp_guard` |
     | Conversation | – |
@@ -1409,16 +1370,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "damageResistance": 6
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,33 +4,23 @@ description: "Tavern guest is a non-player character (NPC) in Andor's Trail, fou
 
 # ![](../assets/icons/monsters/monsters_men_0.png){ .sprite } Tavern guest
 
+**Where to find Tavern guest:** [Vilegard, Vilegard tavern](#v-tavern_guest), [Remgard, Remgard tavern 0](#v-remgard_d1), [Remgard, Remgard tavern 0](#v-remgard_d2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Vilegard, Remgard |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Tavern guest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Vilegard, Vilegard tavern { #v-tavern_guest }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`tavern_guest`](#v-tavern_guest) | NPC | Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-tavern_guest) | – |
-| [`remgard_d1`](#v-remgard_d1) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-remgard_d1) | – |
-| [`remgard_d2`](#v-remgard_d2) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-remgard_d2) | – |
-
-## Vilegard, Vilegard tavern (tavern_guest) { #v-tavern_guest }
-
-**Entry ID:** `tavern_guest` · **Type:** NPC
-
-**Location:** Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-tavern_guest)
+**Where:** Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-tavern_guest)
 
 ### Dialogue simulator
 
@@ -60,38 +50,9 @@ Set your quest stages and items, then talk to Tavern guest. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tavern_guest)"
+## Remgard, Remgard tavern 0 { #v-remgard_d1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tavern_guest` |
-    | Spawn group | `vg_tavern_drunk` |
-    | Loot table | – |
-    | Conversation | `vilegard_tavern_drunk_1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:0` |
-    | Defined in | `res/raw/monsterlist_v068_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tavern_guest",
-     "name": "Tavern guest",
-     "iconID": "monsters_men:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "vg_tavern_drunk",
-     "phraseID": "vilegard_tavern_drunk_1"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 0 (remgard_d1) { #v-remgard_d1 }
-
-**Entry ID:** `remgard_d1` · **Type:** NPC
-
-**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-remgard_d1)
+**Where:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-remgard_d1)
 
 ### Dialogue simulator
 
@@ -119,38 +80,9 @@ Set your quest stages and items, then talk to Tavern guest. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_d1)"
+## Remgard, Remgard tavern 0 (2) { #v-remgard_d2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `remgard_d1` |
-    | Spawn group | `remgard_drunk` |
-    | Loot table | – |
-    | Conversation | `remgard_drunk1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:18` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "remgard_d1",
-     "name": "Tavern guest",
-     "iconID": "monsters_ld1:18",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_drunk",
-     "phraseID": "remgard_drunk1"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 0 (remgard_d2) { #v-remgard_d2 }
-
-**Entry ID:** `remgard_d2` · **Type:** NPC
-
-**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-remgard_d2)
+**Where:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-remgard_d2)
 
 ### Dialogue simulator
 
@@ -199,11 +131,79 @@ Set your quest stages and items, then talk to Tavern guest. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_d2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Tavern guest. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tavern_guest` | NPC | [Vilegard, Vilegard tavern](#v-tavern_guest) |
+| `remgard_d1` | NPC | [Remgard, Remgard tavern 0](#v-remgard_d1) |
+| `remgard_d2` | NPC | [Remgard, Remgard tavern 0](#v-remgard_d2) |
+
+??? info "Technical information: tavern_guest"
+
+    | | |
+    |---|---|
+    | Entry ID | `tavern_guest` |
+    | Type (wiki) | NPC |
+    | Spawn group | `vg_tavern_drunk` |
+    | Loot table | – |
+    | Conversation | `vilegard_tavern_drunk_1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:0` |
+    | Defined in | `res/raw/monsterlist_v068_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tavern_guest",
+     "name": "Tavern guest",
+     "iconID": "monsters_men:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "vg_tavern_drunk",
+     "phraseID": "vilegard_tavern_drunk_1"
+    }
+    ```
+
+??? info "Technical information: remgard_d1"
+
+    | | |
+    |---|---|
+    | Entry ID | `remgard_d1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_drunk` |
+    | Loot table | – |
+    | Conversation | `remgard_drunk1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:18` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "remgard_d1",
+     "name": "Tavern guest",
+     "iconID": "monsters_ld1:18",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_drunk",
+     "phraseID": "remgard_drunk1"
+    }
+    ```
+
+??? info "Technical information: remgard_d2"
 
     | | |
     |---|---|
     | Entry ID | `remgard_d2` |
+    | Type (wiki) | NPC |
     | Spawn group | `remgard_drunk` |
     | Loot table | – |
     | Conversation | `remgard_drunk2` |
@@ -224,7 +224,6 @@ Set your quest stages and items, then talk to Tavern guest. Same rules as the ga
      "phraseID": "remgard_drunk2"
     }
     ```
-
 
 
 ## Community notes

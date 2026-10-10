@@ -1,5 +1,5 @@
 ---
-description: "Eryndor is an NPC who can also be fought in Andor's Trail, found in Mt galmore 0 h 1, Mt galmore 0 h 1 2, Mt galmore north-west tower f 2."
+description: "Eryndor is an NPC you can also fight in Andor's Trail, found in Mt galmore 0 h 1, Mt galmore 0 h 1 2, Mt galmore north-west tower f 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_gisons_11.png){ .sprite } Eryndor
@@ -12,46 +12,39 @@ description: "Eryndor is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Mt galmore 0 h 1, Mt galmore 0 h 1 2, Mt galmore north-west tower f 2 |
 | **Class** | Ghost |
 | **HP** | 287 |
 | **XP when defeated** | 989 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `mg_eryndor` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Eryndor"
+    Answering “I just hope I don't die for this.” starts a fight with Eryndor.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 287 |
 | XP when defeated | 989 |
 | Damage | 4 to 14 |
-| Attack chance | 185 |
-| Block chance | 291 |
-| Damage resistance | 25 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 4 AP |
-| Critical skill | 10 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 9% |
+| AC | 185 |
+| BC | 291 |
+| DR | 25 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | 9% (×3.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**When hit:** On target: [Blindness](../conditions/blindness.md) (magnitude 1, 3 rounds, 80% chance)
+**When you hit it:** On target: [Blindness](../conditions/blindness.md) (magnitude 1, 3 rounds, 80% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Locations
 
@@ -312,11 +305,24 @@ Set your quest stages and items, then talk to Eryndor. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `mg_eryndor` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `mg_eryndor` |
     | Loot table | – |
     | Conversation | `mg_eryndor_selector` |
@@ -358,15 +364,6 @@ Set your quest stages and items, then talk to Eryndor. Same rules as the game: s
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

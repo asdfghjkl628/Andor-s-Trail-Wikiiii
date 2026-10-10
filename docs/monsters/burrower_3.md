@@ -4,6 +4,8 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
 
 # ![](../assets/icons/monsters/monsters_rltiles2_165.png){ .sprite } Strong larval burrower
 
+**Where to find Strong larval burrower:** [Brimhaven, Waterway 6 and 3 more](#v-burrower_3), [Crossroads Guardhouse, Woodcave 1](#v-larval_boss)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_165.png){ .sprite }</p>
@@ -15,46 +17,30 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
 | **Class** | Insect |
 | **HP** | 35–44 |
 | **XP when defeated** | 67–120 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Strong larval burrower. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
+## Brimhaven, Waterway 6 and 3 more { #v-burrower_3 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`burrower_3`](#v-burrower_3) | Enemy | Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 14](../maps/waterway14.md) (+2 more) | – | 44 |
-| [`larval_boss`](#v-larval_boss) | Enemy | Crossroads Guardhouse: [Woodcave 1](../maps/woodcave1.md) | – | 35 |
+**Where:** Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 14](../maps/waterway14.md), [Waterway 15](../maps/waterway15.md), [Waterwaycave](../maps/waterwaycave.md)
 
-## Brimhaven, Waterway 6 and 3 more (burrower_3) { #v-burrower_3 }
+### Combat
 
-**Entry ID:** `burrower_3` · **Type:** Enemy
-
-**Location:** Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 14](../maps/waterway14.md), [Waterway 15](../maps/waterway15.md), [Waterwaycave](../maps/waterwaycave.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 44 |
 | XP when defeated | 120 |
 | Damage | 1 to 25 |
-| Attack chance | 95 |
-| Block chance | 80 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 95 |
+| BC | 80 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -83,11 +69,79 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burrower_3)"
+## Crossroads Guardhouse, Woodcave 1 { #v-larval_boss }
+
+**Where:** Crossroads Guardhouse: [Woodcave 1](../maps/woodcave1.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Insect |
+| HP | 35 |
+| XP when defeated | 67 |
+| Damage | 1 to 6 |
+| AC | 120 |
+| BC | 25 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 21% (×3.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 100% | 0 to 9 |
+| [Ruby gem](../items/gem2.md) | 100% | 1 |
+| [Minor vial of health](../items/health_minor.md) | 100% | 1 |
+| [Erinith's book](../items/erinith_book.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Woodcave 1](../maps/woodcave1.md) | Crossroads Guardhouse | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Strong larval burrower. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `burrower_3` | Enemy | [Brimhaven, Waterway 6 and 3 more](#v-burrower_3) |
+| `larval_boss` | Enemy | [Crossroads Guardhouse, Woodcave 1](#v-larval_boss) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: burrower_3"
 
     | | |
     |---|---|
     | Entry ID | `burrower_3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `burrower_2` |
     | Loot table | `burrower` |
     | Conversation | – |
@@ -120,66 +174,12 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
     }
     ```
 
-
-## Crossroads Guardhouse, Woodcave 1 (larval_boss) { #v-larval_boss }
-
-**Entry ID:** `larval_boss` · **Type:** Enemy
-
-**Location:** Crossroads Guardhouse: [Woodcave 1](../maps/woodcave1.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Insect |
-| HP | 35 |
-| XP when defeated | 67 |
-| Damage | 1 to 6 |
-| Attack chance | 120 |
-| Block chance | 25 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 35 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 21% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 100% | 0 to 9 |
-| [Ruby gem](../items/gem2.md) | 100% | 1 |
-| [Minor vial of health](../items/health_minor.md) | 100% | 1 |
-| [Erinith's book](../items/erinith_book.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Woodcave 1](../maps/woodcave1.md) | Crossroads Guardhouse | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (larval_boss)"
+??? info "Technical information: larval_boss"
 
     | | |
     |---|---|
     | Entry ID | `larval_boss` |
+    | Type (wiki) | Enemy |
     | Spawn group | `larva_boss` |
     | Loot table | `larva_boss` |
     | Conversation | – |
@@ -213,16 +213,6 @@ description: "Strong larval burrower is an enemy in Andor's Trail (insect) with 
      "blockChance": 25
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

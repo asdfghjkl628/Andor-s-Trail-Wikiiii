@@ -1,10 +1,8 @@
 ---
-description: "Unknown female voice is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Gamjee well 2 1."
+description: "Unknown female voice is scenery in Andor's Trail: a decoration or dialogue prop, found in Gamjee well 2 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_unknown_0.png){ .sprite } Unknown female voice
-
-**Where to find Unknown female voice:** [Gamjee well 2 1](../maps/gamjee_well_2_1.md)
 
 <div class="infobox" markdown>
 
@@ -12,15 +10,13 @@ description: "Unknown female voice is scenery in Andor's Trail: a decoration or 
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Gamjee well 2 1 |
-| **Entry ID** | `gamjee_well_unknown_female_voice` |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
+Not a character you meet: Unknown female voice appears as the speaker in conversations with stepping on a trigger on [Gamjee well 2 1](../maps/gamjee_well_2_1.md). ~~No, you can't take it home.~~
 
 
 ## Version history
@@ -32,11 +28,18 @@ description: "Unknown female voice is scenery in Andor's Trail: a decoration or 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `gamjee_well_unknown_female_voice` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Gamjee well 2 1](../maps/gamjee_well_2_1.md).
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `gamjee_well_unknown_female_voice` |
+    | Type (wiki) | Scenery |
     | Spawn group | `gamjee_well_unknown_female_voice` |
     | Loot table | – |
     | Conversation | – |

@@ -12,7 +12,7 @@ description: "Inventory is a quest in Andor's Trail, started by Facutloni (brimh
 | **In journal** | Yes |
 | **Stages** | 12 (completes at 900) |
 | **Started by** | [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) |
-| **NPCs involved** | [Facutloni](../monsters/brv_wh_boss.md), [brv_wh_item_00](../monsters/brv_wh_item_00.md), [brv_wh_item_01](../monsters/brv_wh_item_01.md), [brv_wh_item_02](../monsters/brv_wh_item_02.md), [brv_wh_item_03](../monsters/brv_wh_item_03.md), [brv_wh_item_04](../monsters/brv_wh_item_04.md) +15 |
+| **NPCs involved** | [Facutloni](../monsters/brv_wh_boss.md), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_05), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_02), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_26), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_29), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_22) +15 |
 | **Locations** | [Brimhaven warehouse](../maps/brimhaven_warehouse.md) |
 | **Total XP** | 2,000 |
 | **Related quests** | 1 |
@@ -46,16 +46,16 @@ None: talk to [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../
 | Stage | Journal entry | From | Rewards |
 |---|---|---|---|
 | <span id="stage-10"></span>[10](#route-10) | <details class="jt"><summary><span class="s">Facutloni asked me to help him check the storage. I should check if… ▸</span><span class="l">▴ less</span></summary>Facutloni asked me to help him check the storage. I should check if there is a pair of every item.</details><br><span class="qnote">🔓 You can finally access a previously blocked area on [Brimhaven warehouse](../maps/brimhaven_warehouse.md).</span> | [Facutloni](../monsters/brv_wh_boss.md) | – |
-| <span id="stage-100"></span>[100](#route-100) | I have found a pair of crystal globes. | [brv_wh_item_00](../monsters/brv_wh_item_00.md), [brv_wh_item_20](../monsters/brv_wh_item_20.md) | 2× [Crystal globe](../items/brv_wh_item_00.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-101"></span>[101](#route-101) | I have found a pair of plush pillows. | [brv_wh_item_01](../monsters/brv_wh_item_01.md), [brv_wh_item_21](../monsters/brv_wh_item_21.md) | 2× [Plush pillow](../items/brv_wh_item_01.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-102"></span>[102](#route-102) | I have found a pair of lyras. | [brv_wh_item_02](../monsters/brv_wh_item_02.md), [brv_wh_item_22](../monsters/brv_wh_item_22.md) | 2× [Lyre](../items/brv_wh_item_02.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-103"></span>[103](#route-103) | I have found a pair of boots. | [brv_wh_item_03](../monsters/brv_wh_item_03.md), [brv_wh_item_23](../monsters/brv_wh_item_23.md) | 2× [Yellow boot](../items/brv_wh_item_03.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-104"></span>[104](#route-104) | I have found a pair of chandeliers. | [brv_wh_item_04](../monsters/brv_wh_item_04.md), [brv_wh_item_24](../monsters/brv_wh_item_24.md) | 2× [Chandelier](../items/brv_wh_item_04.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-105"></span>[105](#route-105) | I have found a pair of mysterious green somethings. | [brv_wh_item_05](../monsters/brv_wh_item_05.md), [brv_wh_item_25](../monsters/brv_wh_item_25.md) | 2× [Mysterious green something](../items/brv_wh_item_05.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-106"></span>[106](#route-106) | I have found a pair of old, worn capes. | [brv_wh_item_06](../monsters/brv_wh_item_06.md), [brv_wh_item_26](../monsters/brv_wh_item_26.md) | 2× [Old, worn cape](../items/brv_wh_item_06.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-107"></span>[107](#route-107) | I have found a pair of pretty porcelain figures. | [brv_wh_item_07](../monsters/brv_wh_item_07.md), [brv_wh_item_27](../monsters/brv_wh_item_27.md) | 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-108"></span>[108](#route-108) | I have found a pair of striped hammers. | [brv_wh_item_08](../monsters/brv_wh_item_08.md), [brv_wh_item_28](../monsters/brv_wh_item_28.md) | 2× [Striped hammer](../items/brv_wh_item_08.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
-| <span id="stage-109"></span>[109](#route-109) | I have found a pair of dusty old books. | [brv_wh_item_09](../monsters/brv_wh_item_09.md), [brv_wh_item_29](../monsters/brv_wh_item_29.md) | 2× [Dusty old book](../items/brv_wh_item_09.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-100"></span>[100](#route-100) | I have found a pair of crystal globes. | [Warehouse storage spot](../monsters/brv_wh_item_00.md), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_20) | 2× [Crystal globe](../items/brv_wh_item_00.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-101"></span>[101](#route-101) | I have found a pair of plush pillows. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_01), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_21) | 2× [Plush pillow](../items/brv_wh_item_01.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-102"></span>[102](#route-102) | I have found a pair of lyras. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_02), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_22) | 2× [Lyre](../items/brv_wh_item_02.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-103"></span>[103](#route-103) | I have found a pair of boots. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_03), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_23) | 2× [Yellow boot](../items/brv_wh_item_03.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-104"></span>[104](#route-104) | I have found a pair of chandeliers. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_04), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_24) | 2× [Chandelier](../items/brv_wh_item_04.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-105"></span>[105](#route-105) | I have found a pair of mysterious green somethings. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_05), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_25) | 2× [Mysterious green something](../items/brv_wh_item_05.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-106"></span>[106](#route-106) | I have found a pair of old, worn capes. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_06), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_26) | 2× [Old, worn cape](../items/brv_wh_item_06.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-107"></span>[107](#route-107) | I have found a pair of pretty porcelain figures. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_07), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_27) | 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-108"></span>[108](#route-108) | I have found a pair of striped hammers. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_08), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_28) | 2× [Striped hammer](../items/brv_wh_item_08.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
+| <span id="stage-109"></span>[109](#route-109) | I have found a pair of dusty old books. | [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_09), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_29) | 2× [Dusty old book](../items/brv_wh_item_09.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse |
 | <span id="stage-900"></span>[900](#route-900) | I found all the 10 pairs. Facutloni is very happy. **(ends quest)** | [Facutloni](../monsters/brv_wh_boss.md) | 2,000 XP |
 
 </div>
@@ -80,15 +80,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-100"></span>
 
-??? note "Stage 100 · brv_wh_item_00, brv_wh_item_20 · 2 ways"
+??? note "Stage 100 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_00](../monsters/brv_wh_item_00.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md), automatic
 
     - **Needs:** faction “brv_wh_aln” = 120
     - **Gives:** 2× [Crystal globe](../items/brv_wh_item_00.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second crystal globe. Now that's a pair!”*
 
-    **Way 2:** Talk to [brv_wh_item_20](../monsters/brv_wh_item_20.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_20), automatic
 
     - **Needs:** faction “brv_wh_aln” = 100
     - **Gives:** 2× [Crystal globe](../items/brv_wh_item_00.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -97,15 +97,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-101"></span>
 
-??? note "Stage 101 · brv_wh_item_01, brv_wh_item_21 · 2 ways"
+??? note "Stage 101 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_01](../monsters/brv_wh_item_01.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_01), automatic
 
     - **Needs:** faction “brv_wh_aln” = 121
     - **Gives:** 2× [Plush pillow](../items/brv_wh_item_01.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second plush pillow!”*
 
-    **Way 2:** Talk to [brv_wh_item_21](../monsters/brv_wh_item_21.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_21), automatic
 
     - **Needs:** faction “brv_wh_aln” = 101
     - **Gives:** 2× [Plush pillow](../items/brv_wh_item_01.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -114,15 +114,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-102"></span>
 
-??? note "Stage 102 · brv_wh_item_02, brv_wh_item_22 · 2 ways"
+??? note "Stage 102 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_02](../monsters/brv_wh_item_02.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_02), automatic
 
     - **Needs:** faction “brv_wh_aln” = 122
     - **Gives:** 2× [Lyre](../items/brv_wh_item_02.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“Great! You have found the second lyre and put it into your bag.”*
 
-    **Way 2:** Talk to [brv_wh_item_22](../monsters/brv_wh_item_22.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_22), automatic
 
     - **Needs:** faction “brv_wh_aln” = 102
     - **Gives:** 2× [Lyre](../items/brv_wh_item_02.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -131,15 +131,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-103"></span>
 
-??? note "Stage 103 · brv_wh_item_03, brv_wh_item_23 · 2 ways"
+??? note "Stage 103 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_03](../monsters/brv_wh_item_03.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_03), automatic
 
     - **Needs:** faction “brv_wh_aln” = 123
     - **Gives:** 2× [Yellow boot](../items/brv_wh_item_03.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the yellow boot!”*
 
-    **Way 2:** Talk to [brv_wh_item_23](../monsters/brv_wh_item_23.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_23), automatic
 
     - **Needs:** faction “brv_wh_aln” = 103
     - **Gives:** 2× [Yellow boot](../items/brv_wh_item_03.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -148,15 +148,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-104"></span>
 
-??? note "Stage 104 · brv_wh_item_04, brv_wh_item_24 · 2 ways"
+??? note "Stage 104 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_04](../monsters/brv_wh_item_04.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_04), automatic
 
     - **Needs:** faction “brv_wh_aln” = 124
     - **Gives:** 2× [Chandelier](../items/brv_wh_item_04.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second chandelier!”*
 
-    **Way 2:** Talk to [brv_wh_item_24](../monsters/brv_wh_item_24.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_24), automatic
 
     - **Needs:** faction “brv_wh_aln” = 104
     - **Gives:** 2× [Chandelier](../items/brv_wh_item_04.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -165,15 +165,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-105"></span>
 
-??? note "Stage 105 · brv_wh_item_05, brv_wh_item_25 · 2 ways"
+??? note "Stage 105 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_05](../monsters/brv_wh_item_05.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_05), automatic
 
     - **Needs:** faction “brv_wh_aln” = 125
     - **Gives:** 2× [Mysterious green something](../items/brv_wh_item_05.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second mysterious green something!”*
 
-    **Way 2:** Talk to [brv_wh_item_25](../monsters/brv_wh_item_25.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_25), automatic
 
     - **Needs:** faction “brv_wh_aln” = 105
     - **Gives:** 2× [Mysterious green something](../items/brv_wh_item_05.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -182,15 +182,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-106"></span>
 
-??? note "Stage 106 · brv_wh_item_06, brv_wh_item_26 · 2 ways"
+??? note "Stage 106 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_06](../monsters/brv_wh_item_06.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_06), automatic
 
     - **Needs:** faction “brv_wh_aln” = 126
     - **Gives:** 2× [Old, worn cape](../items/brv_wh_item_06.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second old, worn cape!”*
 
-    **Way 2:** Talk to [brv_wh_item_26](../monsters/brv_wh_item_26.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_26), automatic
 
     - **Needs:** faction “brv_wh_aln” = 106
     - **Gives:** 2× [Old, worn cape](../items/brv_wh_item_06.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -199,15 +199,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-107"></span>
 
-??? note "Stage 107 · brv_wh_item_07, brv_wh_item_27 · 2 ways"
+??? note "Stage 107 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_07](../monsters/brv_wh_item_07.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_07), automatic
 
     - **Needs:** faction “brv_wh_aln” = 127
     - **Gives:** 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second pretty porcelain figure!”*
 
-    **Way 2:** Talk to [brv_wh_item_27](../monsters/brv_wh_item_27.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_27), automatic
 
     - **Needs:** faction “brv_wh_aln” = 107
     - **Gives:** 2× [Pretty porcelain figure](../items/brv_wh_item_07.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -216,15 +216,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-108"></span>
 
-??? note "Stage 108 · brv_wh_item_08, brv_wh_item_28 · 2 ways"
+??? note "Stage 108 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_08](../monsters/brv_wh_item_08.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_08), automatic
 
     - **Needs:** faction “brv_wh_aln” = 128
     - **Gives:** 2× [Striped hammer](../items/brv_wh_item_08.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second striped hammer!”*
 
-    **Way 2:** Talk to [brv_wh_item_28](../monsters/brv_wh_item_28.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_28), automatic
 
     - **Needs:** faction “brv_wh_aln” = 108
     - **Gives:** 2× [Striped hammer](../items/brv_wh_item_08.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
@@ -233,15 +233,15 @@ Every route in the game data, including alternatives. To try a specific situatio
 
 <span id="route-109"></span>
 
-??? note "Stage 109 · brv_wh_item_09, brv_wh_item_29 · 2 ways"
+??? note "Stage 109 · Warehouse storage spot · 2 ways"
 
-    **Way 1:** Talk to [brv_wh_item_09](../monsters/brv_wh_item_09.md), automatic
+    **Way 1:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_09), automatic
 
     - **Needs:** faction “brv_wh_aln” = 129
     - **Gives:** 2× [Dusty old book](../items/brv_wh_item_09.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse
     - *“You have found the second dusty old book!”*
 
-    **Way 2:** Talk to [brv_wh_item_29](../monsters/brv_wh_item_29.md), automatic
+    **Way 2:** Talk to [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_29), automatic
 
     - **Needs:** faction “brv_wh_aln” = 109
     - **Gives:** 2× [Dusty old book](../items/brv_wh_item_09.md), faction “brv_wh_aln” set to 0, removes monsters from brimhaven_warehouse, removes monsters from brimhaven_warehouse

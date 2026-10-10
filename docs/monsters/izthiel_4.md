@@ -4,6 +4,8 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 
 # ![](../assets/icons/monsters/monsters_rltiles2_52.png){ .sprite } Izthiel guardian
 
+**Where to find Izthiel guardian:** [Brimhaven, Waterway 6 and 6 more](#v-izthiel_4), [Waterway 10](#v-izthiel_cr)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_52.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 | **Class** | Reptile |
 | **HP** | 54–354 |
 | **XP when defeated** | 218–554 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Izthiel guardian. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Brimhaven, Waterway 6 and 6 more { #v-izthiel_4 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`izthiel_4`](#v-izthiel_4) | Enemy | Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 1](../maps/waterway1.md) (+5 more) | – | 54 |
-| [`izthiel_cr`](#v-izthiel_cr) | Enemy | [Waterway 10](../maps/waterway10.md) | – | 354 |
+**Where:** Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 1](../maps/waterway1.md), [Waterway 4](../maps/waterway4.md), [Waterway 5](../maps/waterway5.md), [Waterway 8](../maps/waterway8.md), [Waterway 9](../maps/waterway9.md) (+1 more)
 
-## Brimhaven, Waterway 6 and 6 more (izthiel_4) { #v-izthiel_4 }
+### Combat
 
-**Entry ID:** `izthiel_4` · **Type:** Enemy
-
-**Location:** Brimhaven: [Waterway 6](../maps/waterway6.md), [Waterway 1](../maps/waterway1.md), [Waterway 4](../maps/waterway4.md), [Waterway 5](../maps/waterway5.md), [Waterway 8](../maps/waterway8.md), [Waterway 9](../maps/waterway9.md) (+1 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 54 |
 | XP when defeated | 218 |
 | Damage | 3 to 7 |
-| Attack chance | 120 |
-| Block chance | 60 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 120 |
+| BC | 60 |
+| DR | 11 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance)
+**Its hits:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -91,11 +77,78 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (izthiel_4)"
+## Waterway 10 { #v-izthiel_cr }
+
+**Where:** [Waterway 10](../maps/waterway10.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Reptile |
+| HP | 354 |
+| XP when defeated | 554 |
+| Damage | 3 to 7 |
+| AC | 120 |
+| BC | 60 |
+| DR | 11 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
+
+**Its hits:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waterway 10](../maps/waterway10.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>Renamed “Izthiel Guardian” → “Izthiel guardian” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Izthiel guardian. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `izthiel_4` | Enemy | [Brimhaven, Waterway 6 and 6 more](#v-izthiel_4) |
+| `izthiel_cr` | Enemy | [Waterway 10](#v-izthiel_cr) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: izthiel_4"
 
     | | |
     |---|---|
     | Entry ID | `izthiel_4` |
+    | Type (wiki) | Enemy |
     | Spawn group | `izthiel_4` |
     | Loot table | `izthiel_4` |
     | Conversation | – |
@@ -138,65 +191,12 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
     }
     ```
 
-
-## Waterway 10 (izthiel_cr) { #v-izthiel_cr }
-
-**Entry ID:** `izthiel_cr` · **Type:** Enemy
-
-**Location:** [Waterway 10](../maps/waterway10.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Reptile |
-| HP | 354 |
-| XP when defeated | 554 |
-| Damage | 3 to 7 |
-| Attack chance | 120 |
-| Block chance | 60 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waterway 10](../maps/waterway10.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 3, 5 rounds, 50% chance) → (magnitude 3, 5 rounds, 50% chance)<br>Renamed “Izthiel Guardian” → “Izthiel guardian” |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (izthiel_cr)"
+??? info "Technical information: izthiel_cr"
 
     | | |
     |---|---|
     | Entry ID | `izthiel_cr` |
+    | Type (wiki) | Enemy |
     | Spawn group | `izthiel_cr` |
     | Loot table | `oegyth1` |
     | Conversation | – |
@@ -239,16 +239,6 @@ description: "Izthiel guardian is an enemy in Andor's Trail (reptile) with 54–
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

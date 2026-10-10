@@ -1,5 +1,5 @@
 ---
-description: "Preying bird is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Way to sullengard west 2."
+description: "Preying bird is scenery in Andor's Trail: a decoration or dialogue prop, found in Way to sullengard west 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_223.png){ .sprite } Preying bird
@@ -12,15 +12,13 @@ description: "Preying bird is scenery in Andor's Trail: a decoration or dialogue
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Way to sullengard west 2 |
-| **Entry ID** | `preying_bird` |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+Part of the scenery: no conversation, no fight ~~and no, you can't take it home~~.
 
 
 ## Version history
@@ -32,11 +30,18 @@ description: "Preying bird is scenery in Andor's Trail: a decoration or dialogue
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `preying_bird` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `preying_bird` |
+    | Type (wiki) | Scenery |
     | Spawn group | `preying_bird` |
     | Loot table | – |
     | Conversation | – |

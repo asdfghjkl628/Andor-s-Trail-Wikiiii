@@ -4,33 +4,23 @@ description: "Feygard soldier is a non-player character (NPC) in Andor's Trail, 
 
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Feygard soldier
 
+**Where to find Feygard soldier:** [Blackwater Mountain, Wild 6 and 7 more](#v-patrol_roaming), [Remgard, Remgard 0](#v-patrol2_captain), [Remgard, Remgard 0](#v-patrol2_roaming)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven, Crossroads Guardhouse, Remgard, Remgard |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Feygard soldier. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Blackwater Mountain, Wild 6 and 7 more { #v-patrol_roaming }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`patrol_roaming`](#v-patrol_roaming) | NPC | Blackwater Mountain: [Wild 6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-patrol_roaming) (+6 more) | – |
-| [`patrol2_captain`](#v-patrol2_captain) | NPC | Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_captain) | – |
-| [`patrol2_roaming`](#v-patrol2_roaming) | NPC | Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_roaming) | – |
-
-## Blackwater Mountain, Wild 6 and 7 more (patrol_roaming) { #v-patrol_roaming }
-
-**Entry ID:** `patrol_roaming` · **Type:** NPC
-
-**Location:** Blackwater Mountain: [Wild 6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-patrol_roaming), Fallhaven: [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md#pin-npc-patrol_roaming), Fallhaven: [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md#pin-npc-patrol_roaming) (+2 more)
+**Where:** Blackwater Mountain: [Wild 6](../maps/wild6.md#pin-npc-patrol_roaming), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-patrol_roaming), Crossroads Guardhouse: [Fields 6](../maps/fields6.md#pin-npc-patrol_roaming), Fallhaven: [Roadbeforecrossroads 2](../maps/roadbeforecrossroads2.md#pin-npc-patrol_roaming), Fallhaven: [Roadbeforecrossroads 6](../maps/roadbeforecrossroads6.md#pin-npc-patrol_roaming) (+2 more)
 
 ### Locations
 
@@ -111,40 +101,9 @@ Set your quest stages and items, then talk to Feygard soldier. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (patrol_roaming)"
+## Remgard, Remgard 0 { #v-patrol2_captain }
 
-    | | |
-    |---|---|
-    | Entry ID | `patrol_roaming` |
-    | Spawn group | `patrol_roaming` |
-    | Loot table | – |
-    | Conversation | `brv_patrol_roaming` |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "patrol_roaming",
-     "name": "Feygard soldier",
-     "iconID": "monsters_men:3",
-     "moveCost": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "spawnGroup": "patrol_roaming",
-     "phraseID": "brv_patrol_roaming"
-    }
-    ```
-
-
-## Remgard, Remgard 0 (patrol2_captain) { #v-patrol2_captain }
-
-**Entry ID:** `patrol2_captain` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_captain)
+**Where:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_captain)
 
 ### Quests
 
@@ -197,40 +156,9 @@ Set your quest stages and items, then talk to Feygard soldier. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (patrol2_captain)"
+## Remgard, Remgard 0 (2) { #v-patrol2_roaming }
 
-    | | |
-    |---|---|
-    | Entry ID | `patrol2_captain` |
-    | Spawn group | `patrol2_captain` |
-    | Loot table | – |
-    | Conversation | `brv_patrol2_roaming` |
-    | Faction | – |
-    | Movement | protectSpawn |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "patrol2_captain",
-     "name": "Feygard soldier",
-     "iconID": "monsters_men:3",
-     "moveCost": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "protectSpawn",
-     "spawnGroup": "patrol2_captain",
-     "phraseID": "brv_patrol2_roaming"
-    }
-    ```
-
-
-## Remgard, Remgard 0 (patrol2_roaming) { #v-patrol2_roaming }
-
-**Entry ID:** `patrol2_roaming` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_roaming)
+**Where:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-patrol2_roaming)
 
 ### Quests
 
@@ -256,11 +184,83 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (patrol2_roaming)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Feygard soldier. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `patrol_roaming` | NPC | [Blackwater Mountain, Wild 6 and 7 more](#v-patrol_roaming) |
+| `patrol2_captain` | NPC | [Remgard, Remgard 0](#v-patrol2_captain) |
+| `patrol2_roaming` | NPC | [Remgard, Remgard 0](#v-patrol2_roaming) |
+
+??? info "Technical information: patrol_roaming"
+
+    | | |
+    |---|---|
+    | Entry ID | `patrol_roaming` |
+    | Type (wiki) | NPC |
+    | Spawn group | `patrol_roaming` |
+    | Loot table | – |
+    | Conversation | `brv_patrol_roaming` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "patrol_roaming",
+     "name": "Feygard soldier",
+     "iconID": "monsters_men:3",
+     "moveCost": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "spawnGroup": "patrol_roaming",
+     "phraseID": "brv_patrol_roaming"
+    }
+    ```
+
+??? info "Technical information: patrol2_captain"
+
+    | | |
+    |---|---|
+    | Entry ID | `patrol2_captain` |
+    | Type (wiki) | NPC |
+    | Spawn group | `patrol2_captain` |
+    | Loot table | – |
+    | Conversation | `brv_patrol2_roaming` |
+    | Faction | – |
+    | Movement | protectSpawn |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "patrol2_captain",
+     "name": "Feygard soldier",
+     "iconID": "monsters_men:3",
+     "moveCost": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "protectSpawn",
+     "spawnGroup": "patrol2_captain",
+     "phraseID": "brv_patrol2_roaming"
+    }
+    ```
+
+??? info "Technical information: patrol2_roaming"
 
     | | |
     |---|---|
     | Entry ID | `patrol2_roaming` |
+    | Type (wiki) | NPC |
     | Spawn group | `patrol2_roaming` |
     | Loot table | – |
     | Conversation | `brv_patrol2_roaming` |
@@ -283,7 +283,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "brv_patrol2_roaming"
     }
     ```
-
 
 
 ## Community notes

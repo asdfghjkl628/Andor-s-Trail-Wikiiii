@@ -17,32 +17,26 @@ description: "Charwood goblin hogrider is an enemy in Andor's Trail (animal) wit
 | **Class** | Animal |
 | **HP** | 280 |
 | **XP when defeated** | 623 |
-| **Entry ID** | `brightport_goblin` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 280 |
 | XP when defeated | 623 |
 | Damage | 15 to 27 |
-| Attack chance | 200 |
-| Block chance | 110 |
-| Damage resistance | 4 |
-| Max AP | 12 |
-| Attack cost | 6 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 5 |
-| Critical multiplier | 1.0 |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 200 |
+| BC | 110 |
+| DR | 4 |
+| Attacks per turn | 2 (6 AP each, 12 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -72,11 +66,24 @@ description: "Charwood goblin hogrider is an enemy in Andor's Trail (animal) wit
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_goblin` |
+    | Type (wiki) | Enemy |
     | Spawn group | `brightport_goblin` |
     | Loot table | `charwdg` |
     | Conversation | – |
@@ -110,15 +117,6 @@ description: "Charwood goblin hogrider is an enemy in Andor's Trail (animal) wit
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

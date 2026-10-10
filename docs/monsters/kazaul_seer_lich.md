@@ -4,6 +4,8 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 
 # ![](../assets/icons/monsters/monsters_antison_3.png){ .sprite } Kazaul seer lich
 
+**Where to find Kazaul seer lich:** [Undertell 4 01 and 1 more](#v-kazaul_seer_lich), [Undertell 4 00 and 2 more](#v-kazaul_seer_lich_help_liches), [Undertell 4 00 and 4 more](#v-kazaul_seer_lich_help_others), [Undertell 4 00 and 6 more](#v-kazaul_seer_lich_help_plague)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_antison_3.png){ .sprite }</p>
@@ -15,52 +17,34 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 | **Class** | Undead |
 | **HP** | 295 |
 | **XP when defeated** | 842 |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Kazaul seer lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
+## Undertell 4 01 and 1 more { #v-kazaul_seer_lich }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`kazaul_seer_lich`](#v-kazaul_seer_lich) | Enemy | [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md) | – | 295 |
-| [`kazaul_seer_lich_help_liches`](#v-kazaul_seer_lich_help_liches) | Enemy | [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 11](../maps/undertell_4_11.md) (+1 more) | – | 295 |
-| [`kazaul_seer_lich_help_others`](#v-kazaul_seer_lich_help_others) | Enemy | [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 01](../maps/undertell_4_01.md) (+3 more) | – | 295 |
-| [`kazaul_seer_lich_help_plague`](#v-kazaul_seer_lich_help_plague) | Enemy | [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 10](../maps/undertell_4_10.md) (+5 more) | – | 295 |
+**Where:** [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md)
 
-## Undertell 4 01 and 1 more (kazaul_seer_lich) { #v-kazaul_seer_lich }
+### Combat
 
-**Entry ID:** `kazaul_seer_lich` · **Type:** Enemy
-
-**Location:** [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 295 |
 | XP when defeated | 842 |
 | Damage | 10 to 12 |
-| Attack chance | 208 |
-| Block chance | 190 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 14 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
+| AC | 208 |
+| BC | 190 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
 
-**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
+**Its hits:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
 
-**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
+**When you hit it:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -88,11 +72,196 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (kazaul_seer_lich)"
+## Undertell 4 00 and 2 more { #v-kazaul_seer_lich_help_liches }
+
+**Where:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 11](../maps/undertell_7_11.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 295 |
+| XP when defeated | 842 |
+| Damage | 10 to 12 |
+| AC | 208 |
+| BC | 190 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
+
+**When you hit it:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 50% | 9 to 10 |
+| [Lich dust](../items/lich_dust.md) | 11% | 1 |
+| [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
+| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 4 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 4 00 and 4 more { #v-kazaul_seer_lich_help_others }
+
+**Where:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 01](../maps/undertell_7_01.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 295 |
+| XP when defeated | 842 |
+| Damage | 10 to 12 |
+| AC | 208 |
+| BC | 190 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
+
+**When you hit it:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 50% | 9 to 10 |
+| [Lich dust](../items/lich_dust.md) | 11% | 1 |
+| [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
+| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 2 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 1 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 4 00 and 6 more { #v-kazaul_seer_lich_help_plague }
+
+**Where:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 00](../maps/undertell_7_00.md), [Undertell 7 01](../maps/undertell_7_01.md), [Undertell 7 10](../maps/undertell_7_10.md) (+1 more)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 295 |
+| XP when defeated | 842 |
+| Damage | 10 to 12 |
+| AC | 208 |
+| BC | 190 |
+| DR | 11 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
+
+**When you hit it:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 50% | 9 to 10 |
+| [Lich dust](../items/lich_dust.md) | 11% | 1 |
+| [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
+| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
+| [Undertell 4 10](../maps/undertell_4_10.md) | – | 2 | – |
+| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
+| [Undertell 7 00](../maps/undertell_7_00.md) | – | 2 | – |
+| [Undertell 7 01](../maps/undertell_7_01.md) | – | 2 | – |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 3 | – |
+| [Undertell 7 11](../maps/undertell_7_11.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Kazaul seer lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `kazaul_seer_lich` | Enemy | [Undertell 4 01 and 1 more](#v-kazaul_seer_lich) |
+| `kazaul_seer_lich_help_liches` | Enemy | [Undertell 4 00 and 2 more](#v-kazaul_seer_lich_help_liches) |
+| `kazaul_seer_lich_help_others` | Enemy | [Undertell 4 00 and 4 more](#v-kazaul_seer_lich_help_others) |
+| `kazaul_seer_lich_help_plague` | Enemy | [Undertell 4 00 and 6 more](#v-kazaul_seer_lich_help_plague) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: kazaul_seer_lich"
 
     | | |
     |---|---|
     | Entry ID | `kazaul_seer_lich` |
+    | Type (wiki) | Enemy |
     | Spawn group | `kazaul_seer_lich` |
     | Loot table | `undertell_level4_lich_dl` |
     | Conversation | – |
@@ -146,71 +315,12 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
     }
     ```
 
-
-## Undertell 4 00 and 2 more (kazaul_seer_lich_help_liches) { #v-kazaul_seer_lich_help_liches }
-
-**Entry ID:** `kazaul_seer_lich_help_liches` · **Type:** Enemy
-
-**Location:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 11](../maps/undertell_7_11.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 295 |
-| XP when defeated | 842 |
-| Damage | 10 to 12 |
-| Attack chance | 208 |
-| Block chance | 190 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 14 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
-
-**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 50% | 9 to 10 |
-| [Lich dust](../items/lich_dust.md) | 11% | 1 |
-| [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
-| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
-| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
-| [Undertell 7 11](../maps/undertell_7_11.md) | – | 4 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (kazaul_seer_lich_help_liches)"
+??? info "Technical information: kazaul_seer_lich_help_liches"
 
     | | |
     |---|---|
     | Entry ID | `kazaul_seer_lich_help_liches` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpLich` |
     | Loot table | `undertell_level4_lich_dl` |
     | Conversation | – |
@@ -265,73 +375,12 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
     }
     ```
 
-
-## Undertell 4 00 and 4 more (kazaul_seer_lich_help_others) { #v-kazaul_seer_lich_help_others }
-
-**Entry ID:** `kazaul_seer_lich_help_others` · **Type:** Enemy
-
-**Location:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 01](../maps/undertell_7_01.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 295 |
-| XP when defeated | 842 |
-| Damage | 10 to 12 |
-| Attack chance | 208 |
-| Block chance | 190 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 14 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
-
-**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 50% | 9 to 10 |
-| [Lich dust](../items/lich_dust.md) | 11% | 1 |
-| [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
-| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
-| [Undertell 4 01](../maps/undertell_4_01.md) | – | 2 | – |
-| [Undertell 4 10](../maps/undertell_4_10.md) | – | 1 | – |
-| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
-| [Undertell 7 01](../maps/undertell_7_01.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (kazaul_seer_lich_help_others)"
+??? info "Technical information: kazaul_seer_lich_help_others"
 
     | | |
     |---|---|
     | Entry ID | `kazaul_seer_lich_help_others` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpOthers` |
     | Loot table | `undertell_level4_lich_dl` |
     | Conversation | – |
@@ -386,75 +435,12 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
     }
     ```
 
-
-## Undertell 4 00 and 6 more (kazaul_seer_lich_help_plague) { #v-kazaul_seer_lich_help_plague }
-
-**Entry ID:** `kazaul_seer_lich_help_plague` · **Type:** Enemy
-
-**Location:** [Undertell 4 00](../maps/undertell_4_00.md), [Undertell 4 10](../maps/undertell_4_10.md), [Undertell 4 11](../maps/undertell_4_11.md), [Undertell 7 00](../maps/undertell_7_00.md), [Undertell 7 01](../maps/undertell_7_01.md), [Undertell 7 10](../maps/undertell_7_10.md) (+1 more)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 295 |
-| XP when defeated | 842 |
-| Damage | 10 to 12 |
-| Attack chance | 208 |
-| Block chance | 190 |
-| Damage resistance | 11 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 14 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Mind fog](../conditions/mind_fog.md) (magnitude 1, 2 rounds, 18% chance)
-
-**When hit:** On target: [Kazaul possession](../conditions/kazarite_misery.md) (magnitude 1, 2 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 50% | 9 to 10 |
-| [Lich dust](../items/lich_dust.md) | 11% | 1 |
-| [Major potion of health](../items/health_major2.md) | 40% | 2 to 3 |
-| [Kazaul bonemeal](../items/pot_bm_kazaul.md) | 9% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 4 00](../maps/undertell_4_00.md) | – | 1 | – |
-| [Undertell 4 10](../maps/undertell_4_10.md) | – | 2 | – |
-| [Undertell 4 11](../maps/undertell_4_11.md) | – | 1 | – |
-| [Undertell 7 00](../maps/undertell_7_00.md) | – | 2 | – |
-| [Undertell 7 01](../maps/undertell_7_01.md) | – | 2 | – |
-| [Undertell 7 10](../maps/undertell_7_10.md) | – | 3 | – |
-| [Undertell 7 11](../maps/undertell_7_11.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (kazaul_seer_lich_help_plague)"
+??? info "Technical information: kazaul_seer_lich_help_plague"
 
     | | |
     |---|---|
     | Entry ID | `kazaul_seer_lich_help_plague` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpPlagueLich` |
     | Loot table | `undertell_level4_lich_dl` |
     | Conversation | – |
@@ -508,16 +494,6 @@ description: "Kazaul seer lich is an enemy in Andor's Trail (undead) with 295 HP
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

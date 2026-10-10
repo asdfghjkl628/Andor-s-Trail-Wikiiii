@@ -17,36 +17,29 @@ description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 H
 | **Class** | Construct |
 | **HP** | 37 |
 | **XP when defeated** | 93 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `shadow_gargoyle` |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 37 |
 | XP when defeated | 93 |
 | Damage | 4 to 10 |
-| Attack chance | 70 |
-| Block chance | 85 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 8 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 7% |
+| AC | 70 |
+| BC | 85 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 7% (×3.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -73,11 +66,24 @@ description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 H
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `shadow_gargoyle` |
+    | Type (wiki) | Enemy |
     | Spawn group | `shadowgarg2` |
     | Loot table | `shadowgarg1` |
     | Conversation | – |
@@ -109,15 +115,6 @@ description: "Shadow gargoyle is an enemy in Andor's Trail (construct) with 37 H
      "damageResistance": 3
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,33 +4,23 @@ description: "Customer is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_119.png){ .sprite } Customer
 
+**Where to find Customer:** [Brimhaven, Brimhaven tavern 1](#v-brv_tavern1_guest), [Stoutford, Stoutford tavern](#v-stoutford_drinker_1), [Stoutford, Stoutford tavern](#v-stoutford_drinker_2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_119.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven, Stoutford |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Customer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Brimhaven, Brimhaven tavern 1 { #v-brv_tavern1_guest }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brv_tavern1_guest`](#v-brv_tavern1_guest) | NPC | Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest) | – |
-| [`stoutford_drinker_1`](#v-stoutford_drinker_1) | NPC | Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1) | – |
-| [`stoutford_drinker_2`](#v-stoutford_drinker_2) | NPC | Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2) | – |
-
-## Brimhaven, Brimhaven tavern 1 (brv_tavern1_guest) { #v-brv_tavern1_guest }
-
-**Entry ID:** `brv_tavern1_guest` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest)
+**Where:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_tavern1_guest)
 
 ### Dialogue simulator
 
@@ -58,39 +48,9 @@ Set your quest stages and items, then talk to Customer. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_tavern1_guest)"
+## Stoutford, Stoutford tavern { #v-stoutford_drinker_1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_tavern1_guest` |
-    | Spawn group | `brv_tavern1_guest` |
-    | Loot table | – |
-    | Conversation | `brv_tavern1_guest` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:119` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_tavern1_guest",
-     "name": "Customer",
-     "iconID": "monsters_ld1:119",
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_tavern1_guest",
-     "phraseID": "brv_tavern1_guest"
-    }
-    ```
-
-
-## Stoutford, Stoutford tavern (stoutford_drinker_1) { #v-stoutford_drinker_1 }
-
-**Entry ID:** `stoutford_drinker_1` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1)
+**Where:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_1)
 
 ### Dialogue simulator
 
@@ -118,37 +78,9 @@ Set your quest stages and items, then talk to Customer. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_drinker_1)"
+## Stoutford, Stoutford tavern (2) { #v-stoutford_drinker_2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_drinker_1` |
-    | Spawn group | `stoutford_drinkers` |
-    | Loot table | – |
-    | Conversation | `stoutford_commoner_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:35` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_drinker_1",
-     "name": "Customer",
-     "iconID": "monsters_ld1:35",
-     "spawnGroup": "stoutford_drinkers",
-     "phraseID": "stoutford_commoner_0"
-    }
-    ```
-
-
-## Stoutford, Stoutford tavern (stoutford_drinker_2) { #v-stoutford_drinker_2 }
-
-**Entry ID:** `stoutford_drinker_2` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2)
+**Where:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-stoutford_drinker_2)
 
 ### Dialogue simulator
 
@@ -170,11 +102,79 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_drinker_2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Customer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_tavern1_guest` | NPC | [Brimhaven, Brimhaven tavern 1](#v-brv_tavern1_guest) |
+| `stoutford_drinker_1` | NPC | [Stoutford, Stoutford tavern](#v-stoutford_drinker_1) |
+| `stoutford_drinker_2` | NPC | [Stoutford, Stoutford tavern](#v-stoutford_drinker_2) |
+
+??? info "Technical information: brv_tavern1_guest"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_tavern1_guest` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_tavern1_guest` |
+    | Loot table | – |
+    | Conversation | `brv_tavern1_guest` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:119` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_tavern1_guest",
+     "name": "Customer",
+     "iconID": "monsters_ld1:119",
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_tavern1_guest",
+     "phraseID": "brv_tavern1_guest"
+    }
+    ```
+
+??? info "Technical information: stoutford_drinker_1"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_drinker_1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_drinkers` |
+    | Loot table | – |
+    | Conversation | `stoutford_commoner_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:35` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_drinker_1",
+     "name": "Customer",
+     "iconID": "monsters_ld1:35",
+     "spawnGroup": "stoutford_drinkers",
+     "phraseID": "stoutford_commoner_0"
+    }
+    ```
+
+??? info "Technical information: stoutford_drinker_2"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_drinker_2` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_drinkers` |
     | Loot table | – |
     | Conversation | `stoutford_commoner_0` |
@@ -194,7 +194,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "stoutford_commoner_0"
     }
     ```
-
 
 
 ## Community notes

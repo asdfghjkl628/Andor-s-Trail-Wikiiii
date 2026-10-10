@@ -4,6 +4,8 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 
 # ![](../assets/icons/monsters/monsters_dogs_3.png){ .sprite } Wild dog
 
+**Where to find Wild dog:** [Guynmart Castle, Guynmart wood 2](#v-guynmart_dog2a), [Guynmart Castle, Guynmart wood 2](#v-guynmart_dog3a)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_3.png){ .sprite }</p>
@@ -15,46 +17,30 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 | **Class** | Animal |
 | **HP** | 40 |
 | **XP when defeated** | 65–69 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Wild dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
+## Guynmart Castle, Guynmart wood 2 { #v-guynmart_dog2a }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`guynmart_dog2a`](#v-guynmart_dog2a) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md) | – | 40 |
-| [`guynmart_dog3a`](#v-guynmart_dog3a) | Enemy | Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md) | – | 40 |
+**Where:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
 
-## Guynmart Castle, Guynmart wood 2 (guynmart_dog2a) { #v-guynmart_dog2a }
+### Combat
 
-**Entry ID:** `guynmart_dog2a` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 40 |
 | XP when defeated | 69 |
 | Damage | 5 to 9 |
-| Attack chance | 110 |
-| Block chance | 30 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 30 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -80,11 +66,77 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_dog2a)"
+## Guynmart Castle, Guynmart wood 2 (2) { #v-guynmart_dog3a }
+
+**Where:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Animal |
+| HP | 40 |
+| XP when defeated | 65 |
+| Damage | 3 to 9 |
+| AC | 110 |
+| BC | 30 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 3 to 6 |
+| [Glass gem](../items/gem1.md) | 5% | 1 |
+| [Meat](../items/meat.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 5 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Wild dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_dog2a` | Enemy | [Guynmart Castle, Guynmart wood 2](#v-guynmart_dog2a) |
+| `guynmart_dog3a` | Enemy | [Guynmart Castle, Guynmart wood 2](#v-guynmart_dog3a) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: guynmart_dog2a"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_dog2a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `guynmart_dog2a` |
     | Loot table | `canine` |
     | Conversation | – |
@@ -117,64 +169,12 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
     }
     ```
 
-
-## Guynmart Castle, Guynmart wood 2 (guynmart_dog3a) { #v-guynmart_dog3a }
-
-**Entry ID:** `guynmart_dog3a` · **Type:** Enemy
-
-**Location:** Guynmart Castle: [Guynmart wood 2](../maps/guynmart_wood_2.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 40 |
-| XP when defeated | 65 |
-| Damage | 3 to 9 |
-| Attack chance | 110 |
-| Block chance | 30 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 3 to 6 |
-| [Glass gem](../items/gem1.md) | 5% | 1 |
-| [Meat](../items/meat.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Guynmart wood 2](../maps/guynmart_wood_2.md) | Guynmart Castle | 5 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (guynmart_dog3a)"
+??? info "Technical information: guynmart_dog3a"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_dog3a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `guynmart_dog3a` |
     | Loot table | `canine` |
     | Conversation | – |
@@ -206,16 +206,6 @@ description: "Wild dog is an enemy in Andor's Trail (animal) with 40 HP, worth 6
      "blockChance": 30
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

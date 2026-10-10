@@ -12,7 +12,7 @@ description: "A Wicked witch is a quest in Andor's Trail, started by Bela. 14 st
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 50, 70, 95, 96) |
 | **Started by** | [Bela](../monsters/bela.md) |
-| **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_first.md), [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third), [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer), [Emmeline](../monsters/captive_girl.md) |
+| **NPCs involved** | [Bela](../monsters/bela.md), [Bonicksa](../monsters/wicked_witch_first.md#v-wicked_witch_third), [Bonicksa](../monsters/wicked_witch_first.md), [Busy farmer](../monsters/busy_farmer.md#v-fallhaven_outdoor_farmer), [Emmeline](../monsters/captive_girl.md) |
 | **Locations** | [Fallhaven south-east](../maps/fallhaven_se.md), [Lake shore road 1](../maps/lake_shore_road_1.md), [Witch house](../maps/witch_house.md) |
 | **Total XP** | 46,182 |
 | **Related quests** | 2 |

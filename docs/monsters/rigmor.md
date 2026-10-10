@@ -4,7 +4,7 @@ description: "Rigmor is a non-player character (NPC) in Andor's Trail."
 
 # ![](../assets/icons/monsters/monsters_men_1.png){ .sprite } Rigmor
 
-**Where to find Rigmor:** not placed on any map; appears through a quest or scripted event.
+**Where to find Rigmor:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,8 +12,7 @@ description: "Rigmor is a non-player character (NPC) in Andor's Trail."
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Entry ID** | `rigmor` |
+| **Type** | NPC (talk only; never fought) |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -94,11 +93,16 @@ Set your quest stages and items, then talk to Rigmor. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `rigmor` |
+    | Type (wiki) | NPC |
     | Spawn group | `rigmor` |
     | Loot table | – |
     | Conversation | `rigmor` |

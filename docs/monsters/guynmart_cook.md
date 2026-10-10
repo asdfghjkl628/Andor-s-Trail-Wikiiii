@@ -12,10 +12,9 @@ description: "Hofala is a non-player character (NPC) in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Guynmart Castle |
-| **Entry ID** | `guynmart_cook` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
@@ -157,11 +156,16 @@ Set your quest stages and items, then talk to Hofala. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_cook` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_cook` |
     | Loot table | `guynmart_drp_cook_shop` |
     | Conversation | `guynmart_cook_10` |

@@ -4,6 +4,8 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 
 # ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } Scylla
 
+**Where to find Scylla:** [Mountainlake 32](#v-scylla_1), [Mountainlake 32](#v-scylla_2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_18.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 1,442 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Scylla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Mountainlake 32 { #v-scylla_1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`scylla_1`](#v-scylla_1) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
-| [`scylla_2`](#v-scylla_2) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
+**Where:** [Mountainlake 32](../maps/mountainlake32.md)
 
-## Mountainlake 32 (scylla_1) { #v-scylla_1 }
+### Combat
 
-**Entry ID:** `scylla_1` · **Type:** Enemy
-
-**Location:** [Mountainlake 32](../maps/mountainlake32.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 180 |
 | XP when defeated | 1,442 |
 | Damage | 1 |
-| Attack chance | 250 |
-| Block chance | 500 |
-| Damage resistance | 100 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 250 |
+| BC | 500 |
+| DR | 100 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 1, 1 round)
+**Its hits:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 1, 1 round)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -78,11 +64,75 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (scylla_1)"
+## Mountainlake 32 (2) { #v-scylla_2 }
+
+**Where:** [Mountainlake 32](../maps/mountainlake32.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Animal |
+| HP | 180 |
+| XP when defeated | 1,442 |
+| Damage | 1 |
+| AC | 250 |
+| BC | 500 |
+| DR | 100 |
+| Attacks per turn | 1 (10 AP each, 10 AP) |
+| Crit chance | none |
+
+**Its hits:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 1, 1 round)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | – |
+
+### Quests that count defeats
+
+- A conversation with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Scylla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `scylla_1` | Enemy | [Mountainlake 32](#v-scylla_1) |
+| `scylla_2` | Enemy | [Mountainlake 32](#v-scylla_2) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: scylla_1"
 
     | | |
     |---|---|
     | Entry ID | `scylla_1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scylla` |
     | Loot table | – |
     | Conversation | – |
@@ -126,62 +176,12 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
     }
     ```
 
-
-## Mountainlake 32 (scylla_2) { #v-scylla_2 }
-
-**Entry ID:** `scylla_2` · **Type:** Enemy
-
-**Location:** [Mountainlake 32](../maps/mountainlake32.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 180 |
-| XP when defeated | 1,442 |
-| Damage | 1 |
-| Attack chance | 250 |
-| Block chance | 500 |
-| Damage resistance | 100 |
-| Max AP | 10 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 1, 1 round)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | – |
-
-### Quests that count defeats
-
-- A conversation with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (scylla_2)"
+??? info "Technical information: scylla_2"
 
     | | |
     |---|---|
     | Entry ID | `scylla_2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scylla` |
     | Loot table | – |
     | Conversation | – |
@@ -224,16 +224,6 @@ description: "Scylla is an enemy in Andor's Trail (animal) with 180 HP, worth 14
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

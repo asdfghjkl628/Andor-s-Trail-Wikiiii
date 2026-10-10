@@ -1,5 +1,5 @@
 ---
-description: "Wild 3 is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Forest ant, Yellow forest ant, Forest wasp, Small rabid dog. Exits to Gapfiller 3, Gapfiller 4, Gapfiller 2, Wild 5."
+description: "Wild 3 is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Forest ant, Yellow forest ant, Small rabid dog, Forest wasp. Exits to Gapfiller 3, Gapfiller 4, Gapfiller 2, Wild 5."
 ---
 
 # Wild 3
@@ -64,8 +64,8 @@ North: Feygard”">7</a><a class="pin pin-sign" href="#key-8" style="left:47.500
 |---|---|---|---|---|
 | [Forest ant](../monsters/forest_ant.md) | 4 | 1–2 | 3 | shares spawn with Yellow forest ant |
 | [Yellow forest ant](../monsters/yellow_forest_ant.md) | 5 | 2–2 | 3 | shares spawn with Forest ant |
-| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 5 | – |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 2 | – |
+| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 5 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

@@ -4,52 +4,23 @@ description: "Commoner is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_132.png){ .sprite } Commoner
 
+**Where to find Commoner:** [Remgard, Remgard 0](#v-rg_villager1), [Brimhaven, Brimhaven 3 and 1 more](#v-brv_villager1), [Brimhaven, Brimhaven 4](#v-brv_villager2), [Brimhaven, Brimhaven 3 and 1 more](#v-brv_villager4), [Brimhaven, Brimhaven 4](#v-brv_villager5), [Brimhaven, Brimhaven 2](#v-brv_villager6), [Brimhaven, Brimhaven 2](#v-brv_villager7), [Brimhaven, Brimhaven 2](#v-brv_villager8), [Brimhaven, Brimhaven 1](#v-brv_villager9), [Brimhaven, Brimhaven 2](#v-brv_villager10), [Brimhaven, Brimhaven 1](#v-brv_villager11), [Brimhaven, Brimhaven 3](#v-brv_villager14), [Brimhaven, Brimhaven 3](#v-brv_villager15), [Remgard, Remgard 1](#v-rg_villager2), [Remgard, Remgard 4](#v-rg_villager3), [Remgard, Remgard 1](#v-rg_villager4), [Remgard, Remgard 2](#v-rg_villager5), [Remgard, Remgard 2](#v-rg_villager6), [Remgard, Remgard 3](#v-rg_villager7), [Remgard, Remgard 4](#v-rg_villager8), [Stoutford, Stoutford gate](#v-stoutford_commoner), [Stoutford, Stoutford north-east](#v-stoutford_commoner2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_132.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard, Brimhaven, Stoutford |
-| **Entries in game data** | 22 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "22 entries in the game data"
-    The game data defines 22 separate characters named Commoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Remgard, Remgard 0 { #v-rg_villager1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`rg_villager1`](#v-rg_villager1) | NPC | Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-rg_villager1) | – |
-| [`brv_villager1`](#v-brv_villager1) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager1) | – |
-| [`brv_villager2`](#v-brv_villager2) | NPC | Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager2) | – |
-| [`brv_villager4`](#v-brv_villager4) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager4) | – |
-| [`brv_villager5`](#v-brv_villager5) | NPC | Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager5) | – |
-| [`brv_villager6`](#v-brv_villager6) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager6) | – |
-| [`brv_villager7`](#v-brv_villager7) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager7) | – |
-| [`brv_villager8`](#v-brv_villager8) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager8) | – |
-| [`brv_villager9`](#v-brv_villager9) | NPC | Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager9) | – |
-| [`brv_villager10`](#v-brv_villager10) | NPC | Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager10) | – |
-| [`brv_villager11`](#v-brv_villager11) | NPC | Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager11) | – |
-| [`brv_villager14`](#v-brv_villager14) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager14) | – |
-| [`brv_villager15`](#v-brv_villager15) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager15) | – |
-| [`rg_villager2`](#v-rg_villager2) | NPC | Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager2) | – |
-| [`rg_villager3`](#v-rg_villager3) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager3) | – |
-| [`rg_villager4`](#v-rg_villager4) | NPC | Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager4) | – |
-| [`rg_villager5`](#v-rg_villager5) | NPC | Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager5) | – |
-| [`rg_villager6`](#v-rg_villager6) | NPC | Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager6) | – |
-| [`rg_villager7`](#v-rg_villager7) | NPC | Remgard: [Remgard 3](../maps/remgard3.md#pin-npc-rg_villager7) | – |
-| [`rg_villager8`](#v-rg_villager8) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager8) | – |
-| [`stoutford_commoner`](#v-stoutford_commoner) | NPC | Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner) | – |
-| [`stoutford_commoner2`](#v-stoutford_commoner2) | NPC | Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2) | – |
-
-## Remgard, Remgard 0 (rg_villager1) { #v-rg_villager1 }
-
-**Entry ID:** `rg_villager1` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-rg_villager1)
+**Where:** Remgard: [Remgard 0](../maps/remgard0.md#pin-npc-rg_villager1)
 
 ### Dialogue simulator
 
@@ -82,38 +53,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager1)"
+## Brimhaven, Brimhaven 3 and 1 more { #v-brv_villager1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager1` |
-    | Spawn group | `remgard_villager1` |
-    | Loot table | – |
-    | Conversation | `remgard_villager1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:132` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager1",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:132",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager1",
-     "phraseID": "remgard_villager1"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 3 and 1 more (brv_villager1) { #v-brv_villager1 }
-
-**Entry ID:** `brv_villager1` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager1)
+**Where:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager1), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager1)
 
 ### Locations
 
@@ -155,38 +97,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager1)"
+## Brimhaven, Brimhaven 4 { #v-brv_villager2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager1` |
-    | Spawn group | `brv_villager1` |
-    | Loot table | – |
-    | Conversation | `brv_villager1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:132` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager1",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:132",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager1",
-     "phraseID": "brv_villager1"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 4 (brv_villager2) { #v-brv_villager2 }
-
-**Entry ID:** `brv_villager2` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager2)
+**Where:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager2)
 
 ### Dialogue simulator
 
@@ -214,38 +127,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager2)"
+## Brimhaven, Brimhaven 3 and 1 more (2) { #v-brv_villager4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager2` |
-    | Spawn group | `brv_villager2` |
-    | Loot table | – |
-    | Conversation | `brv_villager2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:20` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager2",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:20",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager2",
-     "phraseID": "brv_villager2"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 3 and 1 more (brv_villager4) { #v-brv_villager4 }
-
-**Entry ID:** `brv_villager4` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager4)
+**Where:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager4), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager4)
 
 ### Locations
 
@@ -280,38 +164,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager4)"
+## Brimhaven, Brimhaven 4 (2) { #v-brv_villager5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager4` |
-    | Spawn group | `brv_villager4` |
-    | Loot table | – |
-    | Conversation | `brv_villager4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:74` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager4",
-     "name": "Commoner",
-     "iconID": "monsters_rltiles1:74",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager4",
-     "phraseID": "brv_villager4"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 4 (brv_villager5) { #v-brv_villager5 }
-
-**Entry ID:** `brv_villager5` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager5)
+**Where:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_villager5)
 
 ### Dialogue simulator
 
@@ -339,38 +194,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager5)"
+## Brimhaven, Brimhaven 2 { #v-brv_villager6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager5` |
-    | Spawn group | `brv_villager5` |
-    | Loot table | – |
-    | Conversation | `brv_villager5` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:186` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager5",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:186",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager5",
-     "phraseID": "brv_villager5"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 2 (brv_villager6) { #v-brv_villager6 }
-
-**Entry ID:** `brv_villager6` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager6)
+**Where:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager6)
 
 ### Dialogue simulator
 
@@ -398,38 +224,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager6)"
+## Brimhaven, Brimhaven 2 (2) { #v-brv_villager7 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager6` |
-    | Spawn group | `brv_villager6` |
-    | Loot table | – |
-    | Conversation | `brv_villager6` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:206` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager6",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:206",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager6",
-     "phraseID": "brv_villager6"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 2 (brv_villager7) { #v-brv_villager7 }
-
-**Entry ID:** `brv_villager7` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager7)
+**Where:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager7)
 
 ### Dialogue simulator
 
@@ -457,38 +254,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager7)"
+## Brimhaven, Brimhaven 2 (3) { #v-brv_villager8 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager7` |
-    | Spawn group | `brv_villager7` |
-    | Loot table | – |
-    | Conversation | `brv_villager7` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:6` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager7",
-     "name": "Commoner",
-     "iconID": "monsters_karvis2:6",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager7",
-     "phraseID": "brv_villager7"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 2 (brv_villager8) { #v-brv_villager8 }
-
-**Entry ID:** `brv_villager8` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager8)
+**Where:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager8)
 
 ### Dialogue simulator
 
@@ -516,38 +284,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager8)"
+## Brimhaven, Brimhaven 1 { #v-brv_villager9 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager8` |
-    | Spawn group | `brv_villager8` |
-    | Loot table | – |
-    | Conversation | `brv_villager8` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:83` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager8",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:83",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager8",
-     "phraseID": "brv_villager8"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 1 (brv_villager9) { #v-brv_villager9 }
-
-**Entry ID:** `brv_villager9` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager9)
+**Where:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager9)
 
 ### Dialogue simulator
 
@@ -575,38 +314,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager9)"
+## Brimhaven, Brimhaven 2 (4) { #v-brv_villager10 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager9` |
-    | Spawn group | `brv_villager9` |
-    | Loot table | – |
-    | Conversation | `brv_villager9` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:62` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager9",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:62",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager9",
-     "phraseID": "brv_villager9"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 2 (brv_villager10) { #v-brv_villager10 }
-
-**Entry ID:** `brv_villager10` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager10)
+**Where:** Brimhaven: [Brimhaven 2](../maps/brimhaven2.md#pin-npc-brv_villager10)
 
 ### Dialogue simulator
 
@@ -634,38 +344,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager10)"
+## Brimhaven, Brimhaven 1 (2) { #v-brv_villager11 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager10` |
-    | Spawn group | `brv_villager10` |
-    | Loot table | – |
-    | Conversation | `brv_villager10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:132` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager10",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:132",
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_villager10",
-     "phraseID": "brv_villager10"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 1 (brv_villager11) { #v-brv_villager11 }
-
-**Entry ID:** `brv_villager11` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager11)
+**Where:** Brimhaven: [Brimhaven 1](../maps/brimhaven1.md#pin-npc-brv_villager11)
 
 ### Dialogue simulator
 
@@ -693,36 +374,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager11)"
+## Brimhaven, Brimhaven 3 { #v-brv_villager14 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager11` |
-    | Spawn group | `brv_villager11` |
-    | Loot table | – |
-    | Conversation | `brv_villager11` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:82` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager11",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:82",
-     "phraseID": "brv_villager11"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 3 (brv_villager14) { #v-brv_villager14 }
-
-**Entry ID:** `brv_villager14` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager14)
+**Where:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager14)
 
 ### Dialogue simulator
 
@@ -750,36 +404,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager14)"
+## Brimhaven, Brimhaven 3 (2) { #v-brv_villager15 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager14` |
-    | Spawn group | `brv_villager14` |
-    | Loot table | – |
-    | Conversation | `brv_villager14` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik1:60` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager14",
-     "name": "Commoner",
-     "iconID": "monsters_tometik1:60",
-     "phraseID": "brv_villager14"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 3 (brv_villager15) { #v-brv_villager15 }
-
-**Entry ID:** `brv_villager15` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager15)
+**Where:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_villager15)
 
 ### Dialogue simulator
 
@@ -807,36 +434,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_villager15)"
+## Remgard, Remgard 1 { #v-rg_villager2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_villager15` |
-    | Spawn group | `brv_villager15` |
-    | Loot table | – |
-    | Conversation | `brv_villager15` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik6:10` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_villager15",
-     "name": "Commoner",
-     "iconID": "monsters_tometik6:10",
-     "phraseID": "brv_villager15"
-    }
-    ```
-
-
-## Remgard, Remgard 1 (rg_villager2) { #v-rg_villager2 }
-
-**Entry ID:** `rg_villager2` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager2)
+**Where:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager2)
 
 ### Dialogue simulator
 
@@ -869,38 +469,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager2)"
+## Remgard, Remgard 4 { #v-rg_villager3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager2` |
-    | Spawn group | `remgard_villager2` |
-    | Loot table | – |
-    | Conversation | `remgard_villager2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:20` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager2",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:20",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager2",
-     "phraseID": "remgard_villager2"
-    }
-    ```
-
-
-## Remgard, Remgard 4 (rg_villager3) { #v-rg_villager3 }
-
-**Entry ID:** `rg_villager3` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager3)
+**Where:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager3)
 
 ### Dialogue simulator
 
@@ -928,38 +499,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager3)"
+## Remgard, Remgard 1 (2) { #v-rg_villager4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager3` |
-    | Spawn group | `remgard_villager3` |
-    | Loot table | – |
-    | Conversation | `remgard_villager3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:134` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager3",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:134",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager3",
-     "phraseID": "remgard_villager3"
-    }
-    ```
-
-
-## Remgard, Remgard 1 (rg_villager4) { #v-rg_villager4 }
-
-**Entry ID:** `rg_villager4` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager4)
+**Where:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-rg_villager4)
 
 ### Dialogue simulator
 
@@ -987,38 +529,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager4)"
+## Remgard, Remgard 2 { #v-rg_villager5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager4` |
-    | Spawn group | `remgard_villager4` |
-    | Loot table | – |
-    | Conversation | `remgard_villager4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:164` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager4",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:164",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager4",
-     "phraseID": "remgard_villager4"
-    }
-    ```
-
-
-## Remgard, Remgard 2 (rg_villager5) { #v-rg_villager5 }
-
-**Entry ID:** `rg_villager5` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager5)
+**Where:** Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager5)
 
 ### Dialogue simulator
 
@@ -1046,38 +559,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager5)"
+## Remgard, Remgard 2 (2) { #v-rg_villager6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager5` |
-    | Spawn group | `remgard_villager5` |
-    | Loot table | – |
-    | Conversation | `remgard_villager5` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:148` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager5",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:148",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager5",
-     "phraseID": "remgard_villager5"
-    }
-    ```
-
-
-## Remgard, Remgard 2 (rg_villager6) { #v-rg_villager6 }
-
-**Entry ID:** `rg_villager6` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager6)
+**Where:** Remgard: [Remgard 2](../maps/remgard2.md#pin-npc-rg_villager6)
 
 ### Dialogue simulator
 
@@ -1105,38 +589,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager6)"
+## Remgard, Remgard 3 { #v-rg_villager7 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager6` |
-    | Spawn group | `remgard_villager6` |
-    | Loot table | – |
-    | Conversation | `remgard_villager6` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:188` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager6",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:188",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager6",
-     "phraseID": "remgard_villager6"
-    }
-    ```
-
-
-## Remgard, Remgard 3 (rg_villager7) { #v-rg_villager7 }
-
-**Entry ID:** `rg_villager7` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 3](../maps/remgard3.md#pin-npc-rg_villager7)
+**Where:** Remgard: [Remgard 3](../maps/remgard3.md#pin-npc-rg_villager7)
 
 ### Dialogue simulator
 
@@ -1164,38 +619,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager7)"
+## Remgard, Remgard 4 (2) { #v-rg_villager8 }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager7` |
-    | Spawn group | `remgard_villager7` |
-    | Loot table | – |
-    | Conversation | `remgard_villager7` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:10` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager7",
-     "name": "Commoner",
-     "iconID": "monsters_ld1:10",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager7",
-     "phraseID": "remgard_villager7"
-    }
-    ```
-
-
-## Remgard, Remgard 4 (rg_villager8) { #v-rg_villager8 }
-
-**Entry ID:** `rg_villager8` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager8)
+**Where:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-rg_villager8)
 
 ### Dialogue simulator
 
@@ -1223,38 +649,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (rg_villager8)"
+## Stoutford, Stoutford gate { #v-stoutford_commoner }
 
-    | | |
-    |---|---|
-    | Entry ID | `rg_villager8` |
-    | Spawn group | `remgard_villager8` |
-    | Loot table | – |
-    | Conversation | `remgard_villager8` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles3:18` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "rg_villager8",
-     "name": "Commoner",
-     "iconID": "monsters_rltiles3:18",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_villager8",
-     "phraseID": "remgard_villager8"
-    }
-    ```
-
-
-## Stoutford, Stoutford gate (stoutford_commoner) { #v-stoutford_commoner }
-
-**Entry ID:** `stoutford_commoner` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner)
+**Where:** Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_commoner)
 
 ### Dialogue simulator
 
@@ -1282,36 +679,9 @@ Set your quest stages and items, then talk to Commoner. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_commoner)"
+## Stoutford, Stoutford north-east { #v-stoutford_commoner2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_commoner` |
-    | Spawn group | `stoutford_commoner` |
-    | Loot table | – |
-    | Conversation | `stoutford_commoner_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:2` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_commoner",
-     "name": "Commoner",
-     "iconID": "monsters_karvis2:2",
-     "phraseID": "stoutford_commoner_0"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-east (stoutford_commoner2) { #v-stoutford_commoner2 }
-
-**Entry ID:** `stoutford_commoner2` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2)
+**Where:** Stoutford: [Stoutford north-east](../maps/stoutford_ne.md#pin-npc-stoutford_commoner2)
 
 ### Dialogue simulator
 
@@ -1333,11 +703,603 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_commoner2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**22 entries.** The game data defines 22 separate characters named Commoner. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `rg_villager1` | NPC | [Remgard, Remgard 0](#v-rg_villager1) |
+| `brv_villager1` | NPC | [Brimhaven, Brimhaven 3 and 1 more](#v-brv_villager1) |
+| `brv_villager2` | NPC | [Brimhaven, Brimhaven 4](#v-brv_villager2) |
+| `brv_villager4` | NPC | [Brimhaven, Brimhaven 3 and 1 more](#v-brv_villager4) |
+| `brv_villager5` | NPC | [Brimhaven, Brimhaven 4](#v-brv_villager5) |
+| `brv_villager6` | NPC | [Brimhaven, Brimhaven 2](#v-brv_villager6) |
+| `brv_villager7` | NPC | [Brimhaven, Brimhaven 2](#v-brv_villager7) |
+| `brv_villager8` | NPC | [Brimhaven, Brimhaven 2](#v-brv_villager8) |
+| `brv_villager9` | NPC | [Brimhaven, Brimhaven 1](#v-brv_villager9) |
+| `brv_villager10` | NPC | [Brimhaven, Brimhaven 2](#v-brv_villager10) |
+| `brv_villager11` | NPC | [Brimhaven, Brimhaven 1](#v-brv_villager11) |
+| `brv_villager14` | NPC | [Brimhaven, Brimhaven 3](#v-brv_villager14) |
+| `brv_villager15` | NPC | [Brimhaven, Brimhaven 3](#v-brv_villager15) |
+| `rg_villager2` | NPC | [Remgard, Remgard 1](#v-rg_villager2) |
+| `rg_villager3` | NPC | [Remgard, Remgard 4](#v-rg_villager3) |
+| `rg_villager4` | NPC | [Remgard, Remgard 1](#v-rg_villager4) |
+| `rg_villager5` | NPC | [Remgard, Remgard 2](#v-rg_villager5) |
+| `rg_villager6` | NPC | [Remgard, Remgard 2](#v-rg_villager6) |
+| `rg_villager7` | NPC | [Remgard, Remgard 3](#v-rg_villager7) |
+| `rg_villager8` | NPC | [Remgard, Remgard 4](#v-rg_villager8) |
+| `stoutford_commoner` | NPC | [Stoutford, Stoutford gate](#v-stoutford_commoner) |
+| `stoutford_commoner2` | NPC | [Stoutford, Stoutford north-east](#v-stoutford_commoner2) |
+
+??? info "Technical information: rg_villager1"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager1` |
+    | Loot table | – |
+    | Conversation | `remgard_villager1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:132` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager1",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:132",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager1",
+     "phraseID": "remgard_villager1"
+    }
+    ```
+
+??? info "Technical information: brv_villager1"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager1` |
+    | Loot table | – |
+    | Conversation | `brv_villager1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:132` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager1",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:132",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager1",
+     "phraseID": "brv_villager1"
+    }
+    ```
+
+??? info "Technical information: brv_villager2"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager2` |
+    | Loot table | – |
+    | Conversation | `brv_villager2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:20` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager2",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:20",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager2",
+     "phraseID": "brv_villager2"
+    }
+    ```
+
+??? info "Technical information: brv_villager4"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager4` |
+    | Loot table | – |
+    | Conversation | `brv_villager4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:74` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager4",
+     "name": "Commoner",
+     "iconID": "monsters_rltiles1:74",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager4",
+     "phraseID": "brv_villager4"
+    }
+    ```
+
+??? info "Technical information: brv_villager5"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager5` |
+    | Loot table | – |
+    | Conversation | `brv_villager5` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:186` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager5",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:186",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager5",
+     "phraseID": "brv_villager5"
+    }
+    ```
+
+??? info "Technical information: brv_villager6"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager6` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager6` |
+    | Loot table | – |
+    | Conversation | `brv_villager6` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:206` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager6",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:206",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager6",
+     "phraseID": "brv_villager6"
+    }
+    ```
+
+??? info "Technical information: brv_villager7"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager7` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager7` |
+    | Loot table | – |
+    | Conversation | `brv_villager7` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:6` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager7",
+     "name": "Commoner",
+     "iconID": "monsters_karvis2:6",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager7",
+     "phraseID": "brv_villager7"
+    }
+    ```
+
+??? info "Technical information: brv_villager8"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager8` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager8` |
+    | Loot table | – |
+    | Conversation | `brv_villager8` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:83` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager8",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:83",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager8",
+     "phraseID": "brv_villager8"
+    }
+    ```
+
+??? info "Technical information: brv_villager9"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager9` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager9` |
+    | Loot table | – |
+    | Conversation | `brv_villager9` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:62` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager9",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:62",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager9",
+     "phraseID": "brv_villager9"
+    }
+    ```
+
+??? info "Technical information: brv_villager10"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager10` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager10` |
+    | Loot table | – |
+    | Conversation | `brv_villager10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:132` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager10",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:132",
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_villager10",
+     "phraseID": "brv_villager10"
+    }
+    ```
+
+??? info "Technical information: brv_villager11"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager11` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager11` |
+    | Loot table | – |
+    | Conversation | `brv_villager11` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:82` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager11",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:82",
+     "phraseID": "brv_villager11"
+    }
+    ```
+
+??? info "Technical information: brv_villager14"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager14` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager14` |
+    | Loot table | – |
+    | Conversation | `brv_villager14` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik1:60` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager14",
+     "name": "Commoner",
+     "iconID": "monsters_tometik1:60",
+     "phraseID": "brv_villager14"
+    }
+    ```
+
+??? info "Technical information: brv_villager15"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_villager15` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_villager15` |
+    | Loot table | – |
+    | Conversation | `brv_villager15` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik6:10` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_villager15",
+     "name": "Commoner",
+     "iconID": "monsters_tometik6:10",
+     "phraseID": "brv_villager15"
+    }
+    ```
+
+??? info "Technical information: rg_villager2"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager2` |
+    | Loot table | – |
+    | Conversation | `remgard_villager2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:20` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager2",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:20",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager2",
+     "phraseID": "remgard_villager2"
+    }
+    ```
+
+??? info "Technical information: rg_villager3"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager3` |
+    | Loot table | – |
+    | Conversation | `remgard_villager3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:134` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager3",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:134",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager3",
+     "phraseID": "remgard_villager3"
+    }
+    ```
+
+??? info "Technical information: rg_villager4"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager4` |
+    | Loot table | – |
+    | Conversation | `remgard_villager4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:164` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager4",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:164",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager4",
+     "phraseID": "remgard_villager4"
+    }
+    ```
+
+??? info "Technical information: rg_villager5"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager5` |
+    | Loot table | – |
+    | Conversation | `remgard_villager5` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:148` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager5",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:148",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager5",
+     "phraseID": "remgard_villager5"
+    }
+    ```
+
+??? info "Technical information: rg_villager6"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager6` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager6` |
+    | Loot table | – |
+    | Conversation | `remgard_villager6` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:188` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager6",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:188",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager6",
+     "phraseID": "remgard_villager6"
+    }
+    ```
+
+??? info "Technical information: rg_villager7"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager7` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager7` |
+    | Loot table | – |
+    | Conversation | `remgard_villager7` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:10` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager7",
+     "name": "Commoner",
+     "iconID": "monsters_ld1:10",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager7",
+     "phraseID": "remgard_villager7"
+    }
+    ```
+
+??? info "Technical information: rg_villager8"
+
+    | | |
+    |---|---|
+    | Entry ID | `rg_villager8` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_villager8` |
+    | Loot table | – |
+    | Conversation | `remgard_villager8` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:18` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "rg_villager8",
+     "name": "Commoner",
+     "iconID": "monsters_rltiles3:18",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_villager8",
+     "phraseID": "remgard_villager8"
+    }
+    ```
+
+??? info "Technical information: stoutford_commoner"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_commoner` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_commoner` |
+    | Loot table | – |
+    | Conversation | `stoutford_commoner_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:2` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_commoner",
+     "name": "Commoner",
+     "iconID": "monsters_karvis2:2",
+     "phraseID": "stoutford_commoner_0"
+    }
+    ```
+
+??? info "Technical information: stoutford_commoner2"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_commoner2` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_commoner2` |
     | Loot table | – |
     | Conversation | `stoutford_commoner_0` |
@@ -1356,7 +1318,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "stoutford_commoner_0"
     }
     ```
-
 
 
 ## Community notes

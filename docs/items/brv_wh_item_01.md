@@ -25,7 +25,7 @@ description: "Plush pillow is a quest other in Andor's Trail. How to get it: que
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_01](../monsters/brv_wh_item_01.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_21](../monsters/brv_wh_item_21.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-101) (2×)
+- From [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_01) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_21) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-101) (2×)
 - From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 

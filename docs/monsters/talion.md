@@ -4,7 +4,7 @@ description: "Talion is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 # ![](../assets/icons/monsters/monsters_men2_8.png){ .sprite } Talion
 
-**Where to find Talion:** not placed on any map; appears through a quest or scripted event.
+**Where to find Talion:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,9 +12,8 @@ description: "Talion is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
-| **Entry ID** | `talion` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -655,19 +654,24 @@ Set your quest stages and items, then talk to Talion. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “Well, you never know. Some people really like .. exotic things.” → “Well, you never know. Some people really like ... exotic things.”<br>· text: “Now, let's get this cure started. I just need to grind this .. and mi…” → “Now, let's get this cure started. I just need to grind this ... and m…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 34 lines changed<br>· text: “Now, let's get this cure started. I just need to grind this .. and mi…” → “Now, let's get this cure started. I just need to grind this ... and m…”<br>· text: “Now, I have not seen an Irdegh myself, but I hear they are particular…” → “Now, I have not seen an irdegh myself, but I hear they are particular…” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 36 lines added, 1 line changed |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 15 lines added, 2 lines changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…”<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…” → “Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of t…”<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `talion` |
+    | Type (wiki) | NPC |
     | Spawn group | `talion` |
     | Loot table | `shop_talion` |
     | Conversation | `talion` |

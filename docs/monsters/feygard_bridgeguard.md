@@ -4,7 +4,7 @@ description: "Feygard bridge guard is a non-player character (NPC) in Andor's Tr
 
 # ![](../assets/icons/monsters/monsters_men2_4.png){ .sprite } Feygard bridge guard
 
-**Where to find Feygard bridge guard:** not placed on any map; appears through a quest or scripted event.
+**Where to find Feygard bridge guard:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,8 +12,7 @@ description: "Feygard bridge guard is a non-player character (NPC) in Andor's Tr
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
-| **Entry ID** | `feygard_bridgeguard` |
+| **Type** | NPC (talk only; never fought) |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -44,11 +43,16 @@ Set your quest stages and items, then talk to Feygard bridge guard. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `feygard_bridgeguard` |
+    | Type (wiki) | NPC |
     | Spawn group | `feygard_bridgeguard` |
     | Loot table | – |
     | Conversation | `feygard_bridgeguard` |

@@ -4,6 +4,8 @@ description: "Restless dead is an enemy in Andor's Trail (ghost) with 25 HP, wor
 
 # ![](../assets/icons/monsters/monsters_rltiles1_47.png){ .sprite } Restless dead
 
+**Where to find Restless dead:** [Blackwater Mountain, Blackwater mountain 51 and 4 more](#v-restless_dead), [Blackwater Mountain, Blackwater mountain 72](#v-bwm_dead)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_47.png){ .sprite }</p>
@@ -15,50 +17,33 @@ description: "Restless dead is an enemy in Andor's Trail (ghost) with 25 HP, wor
 | **Class** | Ghost |
 | **HP** | 25 |
 | **XP when defeated** | 70 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 2 |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Restless dead. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, movement. Each entry has its own section below.
+## Blackwater Mountain, Blackwater mountain 51 and 4 more { #v-restless_dead }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`restless_dead`](#v-restless_dead) | Enemy | Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md) (+3 more) | – | 25 |
-| [`bwm_dead`](#v-bwm_dead) | Enemy | Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md) | – | 25 |
+**Where:** Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md), Prim: [Blackwater mountain 33](../maps/blackwater_mountain33.md), [Blackwater mountain 34](../maps/blackwater_mountain34.md)
 
-## Blackwater Mountain, Blackwater mountain 51 and 4 more (restless_dead) { #v-restless_dead }
+### Combat
 
-**Entry ID:** `restless_dead` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Blackwater mountain 51](../maps/blackwater_mountain51.md), Blackwater Mountain: [Blackwater mountain 52](../maps/blackwater_mountain52.md), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md), Prim: [Blackwater mountain 33](../maps/blackwater_mountain33.md), [Blackwater mountain 34](../maps/blackwater_mountain34.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 25 |
 | XP when defeated | 70 |
 | Damage | 0 to 3 |
-| Attack chance | 50 |
-| Block chance | 140 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 80 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 35% |
+| AC | 50 |
+| BC | 140 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 35% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -90,11 +75,80 @@ description: "Restless dead is an enemy in Andor's Trail (ghost) with 25 HP, wor
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (restless_dead)"
+## Blackwater Mountain, Blackwater mountain 72 { #v-bwm_dead }
+
+**Where:** Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Ghost |
+| HP | 25 |
+| XP when defeated | 70 |
+| Damage | 0 to 3 |
+| AC | 50 |
+| BC | 140 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 35% (×2.0) |
+
+**Immune to critical hits.**
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 20 to 29 |
+| [Polished gem](../items/gem3.md) | 10% | 1 |
+| [Minor vial of health](../items/health_minor.md) | 10% | 1 |
+| [Bone](../items/bone.md) | 10% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Blackwater mountain 72](../maps/blackwater_mountain72.md) | Blackwater Mountain | 2 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Restless dead. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `restless_dead` | Enemy | [Blackwater Mountain, Blackwater mountain 51 and 4 more](#v-restless_dead) |
+| `bwm_dead` | Enemy | [Blackwater Mountain, Blackwater mountain 72](#v-bwm_dead) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: restless_dead"
 
     | | |
     |---|---|
     | Entry ID | `restless_dead` |
+    | Type (wiki) | Enemy |
     | Spawn group | `restless_dead_1` |
     | Loot table | `restless_dead_1` |
     | Conversation | – |
@@ -129,68 +183,12 @@ description: "Restless dead is an enemy in Andor's Trail (ghost) with 25 HP, wor
     }
     ```
 
-
-## Blackwater Mountain, Blackwater mountain 72 (bwm_dead) { #v-bwm_dead }
-
-**Entry ID:** `bwm_dead` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Blackwater mountain 72](../maps/blackwater_mountain72.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Ghost |
-| HP | 25 |
-| XP when defeated | 70 |
-| Damage | 0 to 3 |
-| Attack chance | 50 |
-| Block chance | 140 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 80 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 35% |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 20 to 29 |
-| [Polished gem](../items/gem3.md) | 10% | 1 |
-| [Minor vial of health](../items/health_minor.md) | 10% | 1 |
-| [Bone](../items/bone.md) | 10% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Blackwater mountain 72](../maps/blackwater_mountain72.md) | Blackwater Mountain | 2 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.14](../versions/0.7.14.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (bwm_dead)"
+??? info "Technical information: bwm_dead"
 
     | | |
     |---|---|
     | Entry ID | `bwm_dead` |
+    | Type (wiki) | Enemy |
     | Spawn group | `bwm_dead` |
     | Loot table | `restless_dead_1` |
     | Conversation | – |
@@ -225,16 +223,6 @@ description: "Restless dead is an enemy in Andor's Trail (ghost) with 25 HP, wor
      "damageResistance": 3
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

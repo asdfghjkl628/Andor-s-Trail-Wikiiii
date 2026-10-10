@@ -4,33 +4,23 @@ description: "Polyphem is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_36.png){ .sprite } Polyphem
 
+**Where to find Polyphem:** [Ll 2 cyclops cave](#v-polyphem), [Ll 2 cyclops cave](#v-polyphem_bed), [Ll 2 cyclops cave](#v-polyphem_door)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_36.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Ll 2 cyclops cave |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Polyphem. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. These entries are identical apart from their IDs. Each entry has its own section below.
+## Ll 2 cyclops cave { #v-polyphem }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`polyphem`](#v-polyphem) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem) | – |
-| [`polyphem_bed`](#v-polyphem_bed) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed) | – |
-| [`polyphem_door`](#v-polyphem_door) | NPC | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door) | – |
-
-## Ll 2 cyclops cave (polyphem) { #v-polyphem }
-
-**Entry ID:** `polyphem` · **Type:** NPC
-
-**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem)
+**Where:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem)
 
 ### Quests
 
@@ -285,11 +275,81 @@ Set your quest stages and items, then talk to Polyphem. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (polyphem)"
+## Ll 2 cyclops cave (2) { #v-polyphem_bed }
+
+**Where:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed)
+
+### Quests
+
+- [A map of the Great Lake Laeroth](../quests/lake_map.md): stages 52, 54, 56, 57
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [polyphem](#d-polyphem-polyphem).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 56 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Ll 2 cyclops cave (3) { #v-polyphem_door }
+
+**Where:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door)
+
+### Quests
+
+- [A map of the Great Lake Laeroth](../quests/lake_map.md): stages 52, 54, 56, 57
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [polyphem](#d-polyphem-polyphem).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 56 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Polyphem. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name.
+
+| Entry | Type | Section |
+|---|---|---|
+| `polyphem` | NPC | [Ll 2 cyclops cave](#v-polyphem) |
+| `polyphem_bed` | NPC | [Ll 2 cyclops cave](#v-polyphem_bed) |
+| `polyphem_door` | NPC | [Ll 2 cyclops cave](#v-polyphem_door) |
+
+??? info "Technical information: polyphem"
 
     | | |
     |---|---|
     | Entry ID | `polyphem` |
+    | Type (wiki) | NPC |
     | Spawn group | `polyphem` |
     | Loot table | – |
     | Conversation | `polyphem` |
@@ -311,42 +371,12 @@ Set your quest stages and items, then talk to Polyphem. Same rules as the game: 
     }
     ```
 
-
-## Ll 2 cyclops cave (polyphem_bed) { #v-polyphem_bed }
-
-**Entry ID:** `polyphem_bed` · **Type:** NPC
-
-**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_bed)
-
-### Quests
-
-- [A map of the Great Lake Laeroth](../quests/lake_map.md): stages 52, 54, 56, 57
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [polyphem](#d-polyphem-polyphem).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 56 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (polyphem_bed)"
+??? info "Technical information: polyphem_bed"
 
     | | |
     |---|---|
     | Entry ID | `polyphem_bed` |
+    | Type (wiki) | NPC |
     | Spawn group | `polyphem_bed` |
     | Loot table | – |
     | Conversation | `polyphem` |
@@ -368,42 +398,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Ll 2 cyclops cave (polyphem_door) { #v-polyphem_door }
-
-**Entry ID:** `polyphem_door` · **Type:** NPC
-
-**Location:** [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md#pin-npc-polyphem_door)
-
-### Quests
-
-- [A map of the Great Lake Laeroth](../quests/lake_map.md): stages 52, 54, 56, 57
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Polyphem. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/polyphem.json" data-npc="Polyphem" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [polyphem](#d-polyphem-polyphem).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added<br>Dialogue: 56 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (polyphem_door)"
+??? info "Technical information: polyphem_door"
 
     | | |
     |---|---|
     | Entry ID | `polyphem_door` |
+    | Type (wiki) | NPC |
     | Spawn group | `polyphem_door` |
     | Loot table | – |
     | Conversation | `polyphem` |
@@ -424,7 +424,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "polyphem"
     }
     ```
-
 
 
 ## Community notes

@@ -4,6 +4,8 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 
 # ![](../assets/icons/monsters/monsters_ld2_18.png){ .sprite } Furious Scylla
 
+**Where to find Furious Scylla:** [Mountainlake 32](#v-scylla_b1), [Mountainlake 32](#v-scylla_b2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_18.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 | **Class** | Animal |
 | **HP** | 180 |
 | **XP when defeated** | 1,972 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Furious Scylla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Mountainlake 32 { #v-scylla_b1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`scylla_b1`](#v-scylla_b1) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
-| [`scylla_b2`](#v-scylla_b2) | Enemy | [Mountainlake 32](../maps/mountainlake32.md) | – | 180 |
+**Where:** [Mountainlake 32](../maps/mountainlake32.md)
 
-## Mountainlake 32 (scylla_b1) { #v-scylla_b1 }
+### Combat
 
-**Entry ID:** `scylla_b1` · **Type:** Enemy
-
-**Location:** [Mountainlake 32](../maps/mountainlake32.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 180 |
 | XP when defeated | 1,972 |
 | Damage | 1 to 15 |
-| Attack chance | 250 |
-| Block chance | 600 |
-| Damage resistance | 150 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 1.2 |
-| Critical hit chance | 9% |
+| AC | 250 |
+| BC | 600 |
+| DR | 150 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×1.2) |
 
-**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 3, 1 round)
+**Its hits:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 3, 1 round)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -78,11 +64,75 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (scylla_b1)"
+## Mountainlake 32 (2) { #v-scylla_b2 }
+
+**Where:** [Mountainlake 32](../maps/mountainlake32.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Animal |
+| HP | 180 |
+| XP when defeated | 1,972 |
+| Damage | 1 to 15 |
+| AC | 250 |
+| BC | 600 |
+| DR | 150 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×1.2) |
+
+**Its hits:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 3, 1 round)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-66) with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Furious Scylla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `scylla_b1` | Enemy | [Mountainlake 32](#v-scylla_b1) |
+| `scylla_b2` | Enemy | [Mountainlake 32](#v-scylla_b2) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: scylla_b1"
 
     | | |
     |---|---|
     | Entry ID | `scylla_b1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scylla_b` |
     | Loot table | – |
     | Conversation | – |
@@ -128,62 +178,12 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
     }
     ```
 
-
-## Mountainlake 32 (scylla_b2) { #v-scylla_b2 }
-
-**Entry ID:** `scylla_b2` · **Type:** Enemy
-
-**Location:** [Mountainlake 32](../maps/mountainlake32.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Animal |
-| HP | 180 |
-| XP when defeated | 1,972 |
-| Damage | 1 to 15 |
-| Attack chance | 250 |
-| Block chance | 600 |
-| Damage resistance | 150 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 1.2 |
-| Critical hit chance | 9% |
-
-**On hit:** Heal HP: 180; On target: [Scylla's bite](../conditions/scylla.md) (magnitude 3, 1 round)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mountainlake 32](../maps/mountainlake32.md) | – | 6 | Appears later, during a quest |
-
-### Quests that count defeats
-
-- [A map of the Great Lake Laeroth](../quests/lake_map.md#stage-66) with stepping on a trigger on [Mountainlake 32](../maps/mountainlake32.md) checks that this enemy has been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (scylla_b2)"
+??? info "Technical information: scylla_b2"
 
     | | |
     |---|---|
     | Entry ID | `scylla_b2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `scylla_b` |
     | Loot table | – |
     | Conversation | – |
@@ -228,16 +228,6 @@ description: "Furious Scylla is an enemy in Andor's Trail (animal) with 180 HP, 
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

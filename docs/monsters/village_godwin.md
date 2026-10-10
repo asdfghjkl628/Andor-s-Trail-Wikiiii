@@ -4,32 +4,23 @@ description: "Godwin is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_134.png){ .sprite } Godwin
 
+**Where to find Godwin:** [Wexlow Village, Wexlow village](#v-village_godwin), [Gamjee well jail cells](#v-troll_hollow_godwin)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_134.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Godwin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Wexlow Village, Wexlow village { #v-village_godwin }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_godwin`](#v-village_godwin) | NPC | Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_godwin) | – |
-| [`troll_hollow_godwin`](#v-troll_hollow_godwin) | Scenery | [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md) | – |
-
-## Wexlow Village, Wexlow village (village_godwin) { #v-village_godwin }
-
-**Entry ID:** `village_godwin` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_godwin)
+**Where:** Wexlow Village: [Wexlow village](../maps/wexlow_village.md#pin-npc-village_godwin)
 
 ### Quests
 
@@ -108,11 +99,40 @@ Set your quest stages and items, then talk to Godwin. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_godwin)"
+## Gamjee well jail cells { #v-troll_hollow_godwin }
+
+**Where:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Godwin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_godwin` | NPC | [Wexlow Village, Wexlow village](#v-village_godwin) |
+| `troll_hollow_godwin` | Scenery | [Gamjee well jail cells](#v-troll_hollow_godwin) |
+
+- `troll_hollow_godwin` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md).
+
+??? info "Technical information: village_godwin"
 
     | | |
     |---|---|
     | Entry ID | `village_godwin` |
+    | Type (wiki) | NPC |
     | Spawn group | `village_godwin` |
     | Loot table | – |
     | Conversation | `village_godwin_selector` |
@@ -135,31 +155,12 @@ Set your quest stages and items, then talk to Godwin. Same rules as the game: sa
     }
     ```
 
-
-## Gamjee well jail cells (troll_hollow_godwin) { #v-troll_hollow_godwin }
-
-**Entry ID:** `troll_hollow_godwin` · **Type:** Scenery
-
-**Location:** [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (troll_hollow_godwin)"
+??? info "Technical information: troll_hollow_godwin"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_godwin` |
+    | Type (wiki) | Scenery |
     | Spawn group | `troll_hollow_godwin` |
     | Loot table | – |
     | Conversation | – |
@@ -180,7 +181,6 @@ Set your quest stages and items, then talk to Godwin. Same rules as the game: sa
      "movementAggressionType": "wholeMap"
     }
     ```
-
 
 
 ## Community notes

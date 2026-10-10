@@ -12,9 +12,8 @@ description: "Gael is a non-player character (NPC) in Andor's Trail, found in Fa
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Fallhaven |
-| **Entry ID** | `gael` |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
@@ -144,11 +143,16 @@ Set your quest stages and items, then talk to Gael. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `gael` |
+    | Type (wiki) | NPC |
     | Spawn group | `gael` |
     | Loot table | – |
     | Conversation | `gael` |

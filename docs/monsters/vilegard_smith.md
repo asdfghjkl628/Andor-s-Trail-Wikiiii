@@ -12,10 +12,9 @@ description: "Vilegard smith is a non-player character (NPC) in Andor's Trail, f
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [Trusting an outsider](../quests/vilegard.md) |
 | **Found in** | Vilegard |
-| **Entry ID** | `vilegard_smith` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -187,17 +186,22 @@ Set your quest stages and items, then talk to Vilegard smith. Same rules as the 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “[takes a step back] What.. is.. that? It can't be? No. Let me look at…” → “[Takes a step back] What ... is ... that? It can't be? No. Let me loo…”<br>· text: “Sigh. Ok, whatever you say. We just need to fit these into there, and…” → “Sigh. OK, whatever you say. We just need to fit these into there, and…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “I might have something that will do just fine.. Let me just find them.” → “I might have something that will do just fine... Let me just find the…”<br>· text: “[takes a step back] What.. is.. that? It can't be? No. Let me look at…” → “[Takes a step back] What ... is ... that? It can't be? No. Let me loo…” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `vilegard_smith` |
+    | Type (wiki) | NPC |
     | Spawn group | `vg_smith` |
     | Loot table | `shop_vg_smith` |
     | Conversation | `vilegard_smith_select` |

@@ -17,34 +17,28 @@ description: "Spitting serpent is an enemy in Andor's Trail (reptile) with 60 HP
 | **Class** | Reptile |
 | **HP** | 60 |
 | **XP when defeated** | 154 |
-| **Entry ID** | `spit_serpent_1` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 60 |
 | XP when defeated | 154 |
 | Damage | 2 to 7 |
-| Attack chance | 120 |
-| Block chance | 65 |
-| Damage resistance | 0 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 120 |
+| BC | 65 |
+| DR | 0 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Blindness](../conditions/blindness.md) (magnitude 2, 3 rounds, 15% chance)
+**Its hits:** On target: [Blindness](../conditions/blindness.md) (magnitude 2, 3 rounds, 15% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -72,11 +66,24 @@ description: "Spitting serpent is an enemy in Andor's Trail (reptile) with 60 HP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `spit_serpent_1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `serpent_1` |
     | Loot table | `serpent_1` |
     | Conversation | – |
@@ -117,15 +124,6 @@ description: "Spitting serpent is an enemy in Andor's Trail (reptile) with 60 HP
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

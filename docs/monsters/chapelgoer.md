@@ -4,32 +4,23 @@ description: "Mourning woman is a non-player character (NPC) in Andor's Trail, f
 
 # ![](../assets/icons/monsters/monsters_men_6.png){ .sprite } Mourning woman
 
+**Where to find Mourning woman:** [Brimhaven, Brimhaven church and 4 more](#v-chapelgoer), [Loneford, Loneford 4 and 1 more](#v-dds_mourning_woman)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_6.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven, Fallhaven, Loneford, Mt. Galmore, Loneford |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Mourning woman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Brimhaven, Brimhaven church and 4 more { #v-chapelgoer }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`chapelgoer`](#v-chapelgoer) | NPC | Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [Fallhaven church](../maps/fallhaven_church.md#pin-npc-chapelgoer) (+3 more) | – |
-| [`dds_mourning_woman`](#v-dds_mourning_woman) | NPC | Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_mourning_woman) | – |
-
-## Brimhaven, Brimhaven church and 4 more (chapelgoer) { #v-chapelgoer }
-
-**Entry ID:** `chapelgoer` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [Fallhaven church](../maps/fallhaven_church.md#pin-npc-chapelgoer), Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-chapelgoer), Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-chapelgoer), Vilegard: [Vilegard chapel](../maps/vilegard_chapel.md#pin-npc-chapelgoer)
+**Where:** Brimhaven: [Brimhaven church](../maps/brimhaven_church.md#pin-npc-chapelgoer), Fallhaven: [Fallhaven church](../maps/fallhaven_church.md#pin-npc-chapelgoer), Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-chapelgoer), Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-chapelgoer), Vilegard: [Vilegard chapel](../maps/vilegard_chapel.md#pin-npc-chapelgoer)
 
 ### Locations
 
@@ -67,38 +58,9 @@ Set your quest stages and items, then talk to Mourning woman. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (chapelgoer)"
+## Loneford, Loneford 4 and 1 more { #v-dds_mourning_woman }
 
-    | | |
-    |---|---|
-    | Entry ID | `chapelgoer` |
-    | Spawn group | `chapelgoer` |
-    | Loot table | – |
-    | Conversation | `chapelgoer` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:6` |
-    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "chapelgoer",
-     "name": "Mourning woman",
-     "iconID": "monsters_men:6",
-     "monsterClass": "humanoid",
-     "spawnGroup": "chapelgoer",
-     "phraseID": "chapelgoer"
-    }
-    ```
-
-
-## Loneford, Loneford 4 and 1 more (dds_mourning_woman) { #v-dds_mourning_woman }
-
-**Entry ID:** `dds_mourning_woman` · **Type:** NPC
-
-**Location:** Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_mourning_woman)
+**Where:** Loneford: [Loneford 4](../maps/loneford4.md#pin-npc-dds_mourning_woman), Mt. Galmore: [Galmore 45](../maps/galmore_45.md#pin-npc-dds_mourning_woman)
 
 ### Locations
 
@@ -289,11 +251,51 @@ Set your quest stages and items, then talk to Mourning woman. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (dds_mourning_woman)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Mourning woman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `chapelgoer` | NPC | [Brimhaven, Brimhaven church and 4 more](#v-chapelgoer) |
+| `dds_mourning_woman` | NPC | [Loneford, Loneford 4 and 1 more](#v-dds_mourning_woman) |
+
+??? info "Technical information: chapelgoer"
+
+    | | |
+    |---|---|
+    | Entry ID | `chapelgoer` |
+    | Type (wiki) | NPC |
+    | Spawn group | `chapelgoer` |
+    | Loot table | – |
+    | Conversation | `chapelgoer` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:6` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "chapelgoer",
+     "name": "Mourning woman",
+     "iconID": "monsters_men:6",
+     "monsterClass": "humanoid",
+     "spawnGroup": "chapelgoer",
+     "phraseID": "chapelgoer"
+    }
+    ```
+
+??? info "Technical information: dds_mourning_woman"
 
     | | |
     |---|---|
     | Entry ID | `dds_mourning_woman` |
+    | Type (wiki) | NPC |
     | Spawn group | `dds_mourning_woman` |
     | Loot table | – |
     | Conversation | `dds_mourning_woman` |
@@ -314,7 +316,6 @@ Set your quest stages and items, then talk to Mourning woman. Same rules as the 
      "phraseID": "dds_mourning_woman"
     }
     ```
-
 
 
 ## Community notes

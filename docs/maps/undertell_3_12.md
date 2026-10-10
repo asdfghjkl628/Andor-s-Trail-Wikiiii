@@ -66,7 +66,7 @@ description: "Undertell 3 12 is an indoor location in Andor's Trail. NPCs: Forsa
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
-**Scenery:** [Terrified teenager](../monsters/about_a_girl1.md#v-about_a_girl_hidden), [Terrified teenager](../monsters/about_a_girl1.md#v-about_a_girl_flee)
+**Scenery:** [Terrified teenager](../monsters/about_a_girl1.md#v-about_a_girl_flee), [Terrified teenager](../monsters/about_a_girl1.md#v-about_a_girl_hidden)
 
 ## Quests
 

@@ -1,8 +1,10 @@
 ---
-description: "Tunlon is an NPC who can also be fought in Andor's Trail, found in Blackwater Mountain. Shopkeeper; starts It makes no fence."
+description: "Tunlon is an NPC you can also fight in Andor's Trail, found in Blackwater Mountain. Shopkeeper; starts It makes no fence."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite } Tunlon
+
+**Where to find Tunlon:** [Blackwater Mountain, Bwmfill 3](#v-tunlon), [Blackwater Mountain, Bwmfill 3](#v-tunlon2)
 
 <div class="infobox" markdown>
 
@@ -10,30 +12,19 @@ description: "Tunlon is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md) |
 | **Found in** | Blackwater Mountain |
 | **Class** | Humanoid |
 | **HP** | 73 |
 | **XP when defeated** | 292 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.10](../versions/0.8.10.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Tunlon. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Blackwater Mountain, Bwmfill 3 { #v-tunlon }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`tunlon`](#v-tunlon) | NPC | Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md#pin-npc-tunlon) | shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md) | – |
-| [`tunlon2`](#v-tunlon2) | Enemy | Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md) | – | 73 |
-
-## Blackwater Mountain, Bwmfill 3 (tunlon) { #v-tunlon }
-
-**Entry ID:** `tunlon` · **Type:** NPC · **Role:** Shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md)
-
-**Location:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md#pin-npc-tunlon)
+**Where:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md#pin-npc-tunlon) · **Role:** Shopkeeper; starts [It makes no fence](../quests/tunlon_fence.md)
 
 ### Shop stock
 
@@ -298,61 +289,26 @@ Set your quest stages and items, then talk to Tunlon. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tunlon)"
+## Blackwater Mountain, Bwmfill 3 (2) { #v-tunlon2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tunlon` |
-    | Spawn group | `tunlon` |
-    | Loot table | `tunlon` |
-    | Conversation | `tunlon_start` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:83` |
-    | Defined in | `res/raw/monsterlist_bwmfill.json` |
+**Where:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "tunlon",
-     "name": "Tunlon",
-     "iconID": "monsters_rltiles1:83",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tunlon",
-     "phraseID": "tunlon_start",
-     "droplistID": "tunlon"
-    }
-    ```
-
-
-## Blackwater Mountain, Bwmfill 3 (tunlon2) { #v-tunlon2 }
-
-**Entry ID:** `tunlon2` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Bwmfill 3](../maps/bwmfill3.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 73 |
 | XP when defeated | 292 |
 | Damage | 9 to 17 |
-| Attack chance | 200 |
-| Block chance | 90 |
-| Damage resistance | 10 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 200 |
+| BC | 90 |
+| DR | 10 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -380,11 +336,60 @@ Set your quest stages and items, then talk to Tunlon. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tunlon2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Tunlon. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tunlon` | NPC | [Blackwater Mountain, Bwmfill 3](#v-tunlon) |
+| `tunlon2` | Enemy | [Blackwater Mountain, Bwmfill 3](#v-tunlon2) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: tunlon"
+
+    | | |
+    |---|---|
+    | Entry ID | `tunlon` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tunlon` |
+    | Loot table | `tunlon` |
+    | Conversation | `tunlon_start` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:83` |
+    | Defined in | `res/raw/monsterlist_bwmfill.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tunlon",
+     "name": "Tunlon",
+     "iconID": "monsters_rltiles1:83",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tunlon",
+     "phraseID": "tunlon_start",
+     "droplistID": "tunlon"
+    }
+    ```
+
+??? info "Technical information: tunlon2"
 
     | | |
     |---|---|
     | Entry ID | `tunlon2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `tunlon2` |
     | Loot table | `tunlon2` |
     | Conversation | – |
@@ -420,16 +425,6 @@ Set your quest stages and items, then talk to Tunlon. Same rules as the game: sa
      "damageResistance": 10
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

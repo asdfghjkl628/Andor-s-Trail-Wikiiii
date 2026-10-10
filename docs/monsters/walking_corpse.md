@@ -17,32 +17,26 @@ description: "Walking corpse is an enemy in Andor's Trail (undead) with 90 HP, w
 | **Class** | Undead |
 | **HP** | 90 |
 | **XP when defeated** | 98 |
-| **Entry ID** | `walking_corpse` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 90 |
 | XP when defeated | 98 |
 | Damage | 2 to 4 |
-| Attack chance | 30 |
-| Block chance | 30 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 30 |
+| BC | 30 |
+| DR | 2 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -74,11 +68,24 @@ description: "Walking corpse is an enemy in Andor's Trail (undead) with 90 HP, w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `walking_corpse` |
+    | Type (wiki) | Enemy |
     | Spawn group | `undead1` |
     | Loot table | `undead1` |
     | Conversation | – |
@@ -110,15 +117,6 @@ description: "Walking corpse is an enemy in Andor's Trail (undead) with 90 HP, w
      "damageResistance": 2
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

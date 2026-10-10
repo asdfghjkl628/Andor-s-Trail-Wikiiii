@@ -1,5 +1,5 @@
 ---
-description: "Toszylae is an NPC who can also be fought in Andor's Trail, found in Waytobrimhavencave 3a. Starts I have it in me."
+description: "Toszylae is an NPC you can also fight in Andor's Trail, found in Waytobrimhavencave 3a. Starts I have it in me."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_1.png){ .sprite } Toszylae
@@ -12,43 +12,37 @@ description: "Toszylae is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [I have it in me](../quests/maggots.md) |
 | **Found in** | Waytobrimhavencave 3a |
 | **Class** | Undead |
 | **HP** | 207 |
 | **XP when defeated** | 449 |
-| **Entry ID** | `toszylae` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Toszylae"
+    Answering “You will pay for what you did to me!” starts a fight with Toszylae.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 207 |
 | XP when defeated | 449 |
 | Damage | 2 to 7 |
-| Attack chance | 80 |
-| Block chance | 120 |
-| Damage resistance | 4 |
-| Max AP | 8 |
-| Attack cost | 2 AP |
-| Attacks per turn | 4 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 80 |
+| BC | 120 |
+| DR | 4 |
+| Attacks per turn | 4 (2 AP each, 8 AP) |
+| Crit chance | 23% (×2.0) |
 
-**On hit:** Heal HP: 6; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
+**Its hits:** Heal HP: 6; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -59,12 +53,6 @@ description: "Toszylae is an NPC who can also be fought in Andor's Trail, found 
 | [Regular potion of health](../items/health.md) | 100% | 5 to 7 |
 | [Polished sparkling gem](../items/gem5.md) | 100% | 2 |
 | [Small rock](../items/rock.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
 
 ## Quests
 
@@ -135,16 +123,29 @@ Set your quest stages and items, then talk to Toszylae. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(While chanting, it slowly lowers its hands forward, until pointing d…” → “[While chanting, it slowly lowers its hands forward, until pointing d…”<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Dialogue: 9 lines changed<br>· text: “(You start to feel nauseous, and your stomach turns and twists - as i…” → “[You start to feel nauseous, and your stomach turns and twists - as i…”<br>· text: “(The lich seems to enjoy seeing you in pain.)” → “[The lich seems to enjoy seeing you in pain]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `toszylae` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `toszylae` |
     | Loot table | `toszylae` |
     | Conversation | `toszylae` |
@@ -194,15 +195,6 @@ Set your quest stages and items, then talk to Toszylae. Same rules as the game: 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

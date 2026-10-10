@@ -12,9 +12,8 @@ description: "Lyra, the centaur is a non-player character (NPC) in Andor's Trail
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Island 4 |
-| **Entry ID** | `lae_centaur8` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
@@ -45,11 +44,16 @@ Set your quest stages and items, then talk to Lyra, the centaur. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lae_centaur8` |
+    | Type (wiki) | NPC |
     | Spawn group | `lae_centaur8` |
     | Loot table | – |
     | Conversation | `lae_centaur8` |

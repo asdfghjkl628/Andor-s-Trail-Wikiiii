@@ -12,10 +12,9 @@ description: "Thyrope Splathershed is a non-player character (NPC) in Andor's Tr
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [A map of the Great Lake Laeroth](../quests/lake_map.md) |
 | **Found in** | Remgard |
-| **Entry ID** | `ll2_mapmaker` |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
@@ -221,11 +220,16 @@ Set your quest stages and items, then talk to Thyrope Splathershed. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ll2_mapmaker` |
+    | Type (wiki) | NPC |
     | Spawn group | `ll2_mapmaker` |
     | Loot table | – |
     | Conversation | `ll2_mapmaker` |

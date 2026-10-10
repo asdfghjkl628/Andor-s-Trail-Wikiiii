@@ -1,5 +1,5 @@
 ---
-description: "Galmore wolf is an NPC who can also be fought in Andor's Trail, found in Mt. Galmore."
+description: "Galmore wolf is an NPC you can also fight in Andor's Trail, found in Mt. Galmore."
 ---
 
 # ![](../assets/icons/monsters/monsters_dogs_4.png){ .sprite } Galmore wolf
@@ -12,40 +12,36 @@ description: "Galmore wolf is an NPC who can also be fought in Andor's Trail, fo
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Mt. Galmore |
 | **Class** | Animal |
 | **HP** | 251 |
 | **XP when defeated** | 679 |
-| **Entry ID** | `mg2_wolves` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Galmore wolf"
+    Answering “Attack!” starts a fight with Galmore wolf.
 
-## Combat statistics
+    Galmore wolf turns hostile if you fall out with their faction.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Animal |
 | HP | 251 |
 | XP when defeated | 679 |
 | Damage | 15 to 20 |
-| Attack chance | 177 |
-| Block chance | 153 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 177 |
+| BC | 153 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -133,11 +129,26 @@ Set your quest stages and items, then talk to Galmore wolf. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `mg2_wolves` belongs to the faction `mg2_wolves_faction`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `mg2_wolves` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `mg2_wolves` |
     | Loot table | `canine_dl` |
     | Conversation | `mg2_wolves` |
@@ -171,15 +182,6 @@ Set your quest stages and items, then talk to Galmore wolf. Same rules as the ga
      "blockChance": 153
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

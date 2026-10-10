@@ -1,8 +1,10 @@
 ---
-description: "Algangror is an NPC who can also be fought in Andor's Trail, found in Lonelyhouse 0, Island 4 cave 1, Final cave 1, Final cave 2. Starts Of mice and men, The five idols."
+description: "Algangror is an NPC you can also fight in Andor's Trail, found in Lonelyhouse 0, Island 4 cave 1, Final cave 1, Final cave 2. Starts Of mice and men, The five idols."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_68.png){ .sprite } Algangror
+
+**Where to find Algangror:** [Lonelyhouse 0](#v-algangror), [Island 4 cave 1](#v-lae_algangror1), [Final cave 1](#v-lae_algangror2), [Final cave 2](#v-lae_algangror3)
 
 <div class="infobox" markdown>
 
@@ -10,57 +12,39 @@ description: "Algangror is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md) |
 | **Found in** | Lonelyhouse 0, Island 4 cave 1, Final cave 1, Final cave 2 |
 | **Class** | Humanoid |
 | **HP** | 200–241 |
 | **XP when defeated** | 258–548 |
-| **Entries in game data** | 4 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Algangror. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Lonelyhouse 0 { #v-algangror }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`algangror`](#v-algangror) | NPC/Enemy | [Lonelyhouse 0](../maps/lonelyhouse0.md#pin-npc-algangror) | starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md) | 241 |
-| [`lae_algangror1`](#v-lae_algangror1) | NPC | [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_algangror1) | – | – |
-| [`lae_algangror2`](#v-lae_algangror2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_algangror2) | – | – |
-| [`lae_algangror3`](#v-lae_algangror3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_algangror3) | – | 200 |
+**Where:** [Lonelyhouse 0](../maps/lonelyhouse0.md#pin-npc-algangror) · **Role:** Starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md)
 
-## Lonelyhouse 0 (algangror) { #v-algangror }
+!!! warning "You can fight Algangror"
+    The conversation during [What is that stench?](../quests/remgard2.md#stage-35) can lead straight into a fight with Algangror.
 
-**Entry ID:** `algangror` · **Type:** NPC/Enemy · **Role:** Starts [Of mice and men](../quests/algangror.md), [The five idols](../quests/fiveidols.md)
+### Combat
 
-**Location:** [Lonelyhouse 0](../maps/lonelyhouse0.md#pin-npc-algangror)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 241 |
 | XP when defeated | 548 |
 | Damage | 3 to 9 |
-| Attack chance | 80 |
-| Block chance | 120 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 200 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 58% |
+| AC | 80 |
+| BC | 120 |
+| DR | 4 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 58% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -71,12 +55,6 @@ description: "Algangror is an NPC who can also be fought in Andor's Trail, found
 | [Regular potion of health](../items/health.md) | 100% | 1 to 2 |
 | [Sharpened gem](../items/gem4.md) | 100% | 1 |
 | [Empty vial](../items/vial_empty2.md) | 100% | 3 to 5 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Lonelyhouse 0](../maps/lonelyhouse0.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -591,60 +569,16 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “Now, I can't handle them myself because of certain .. issues.” → “Now, I can't handle them myself because of certain ... issues.”<br>· text: “Say, you seem like a resourceful person. Would you be interested in h…” → “Say, you seem like a resourceful person. Would you be interested in h…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “Tell me, now that you have entered this house, would you be willing t…” → “Tell me, now that you have entered this house, would you be willing t…”<br>· text: “You could say I got obsessed with learning more. I guess the others l…” → “You could say I got obsessed with learning more. I guess the others l…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (algangror)"
+## Island 4 cave 1 { #v-lae_algangror1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `algangror` |
-    | Spawn group | `algangror` |
-    | Loot table | `algangror` |
-    | Conversation | `algangror` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:68` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "algangror",
-     "name": "Algangror",
-     "iconID": "monsters_rltiles1:68",
-     "maxHP": 241,
-     "maxAP": 10,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 3,
-      "max": 9
-     },
-     "spawnGroup": "algangror",
-     "phraseID": "algangror",
-     "droplistID": "algangror",
-     "attackCost": 3,
-     "attackChance": 80,
-     "criticalSkill": 200,
-     "criticalMultiplier": 2.0,
-     "blockChance": 120,
-     "damageResistance": 4
-    }
-    ```
-
-
-## Island 4 cave 1 (lae_algangror1) { #v-lae_algangror1 }
-
-**Entry ID:** `lae_algangror1` · **Type:** NPC
-
-**Location:** [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_algangror1)
+**Where:** [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_algangror1)
 
 ### Quests
 
@@ -698,38 +632,9 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_algangror1)"
+## Final cave 1 { #v-lae_algangror2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lae_algangror1` |
-    | Spawn group | `lae_algangror1` |
-    | Loot table | – |
-    | Conversation | `lae_algangror1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:68` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "lae_algangror1",
-     "name": "Algangror",
-     "iconID": "monsters_rltiles1:68",
-     "monsterClass": "humanoid",
-     "spawnGroup": "lae_algangror1",
-     "phraseID": "lae_algangror1"
-    }
-    ```
-
-
-## Final cave 1 (lae_algangror2) { #v-lae_algangror2 }
-
-**Entry ID:** `lae_algangror2` · **Type:** NPC
-
-**Location:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_algangror2)
+**Where:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_algangror2)
 
 ### Quests
 
@@ -786,75 +691,35 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_algangror2)"
+## Final cave 2 { #v-lae_algangror3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lae_algangror2` |
-    | Spawn group | `lae_algangror2` |
-    | Loot table | – |
-    | Conversation | `lae_algangror2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:68` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
+**Where:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_algangror3)
 
-    Raw data:
+!!! warning "You can fight Algangror"
+    Answering “The same that I'll do to you now.” starts a fight with Algangror.
 
-    ```json
-    {
-     "id": "lae_algangror2",
-     "name": "Algangror",
-     "iconID": "monsters_rltiles1:68",
-     "monsterClass": "humanoid",
-     "spawnGroup": "lae_algangror2",
-     "phraseID": "lae_algangror2"
-    }
-    ```
+### Combat
 
-
-## Final cave 2 (lae_algangror3) { #v-lae_algangror3 }
-
-**Entry ID:** `lae_algangror3` · **Type:** NPC/Enemy
-
-**Location:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_algangror3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 200 |
 | XP when defeated | 258 |
 | Damage | 10 to 22 |
-| Attack chance | 70 |
-| Block chance | 50 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 50 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Scroll of fire](../items/final_cave_f.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Final cave 2](../maps/final_cave2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -944,11 +809,130 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_algangror3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Algangror. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `algangror` | NPC/Enemy | [Lonelyhouse 0](#v-algangror) |
+| `lae_algangror1` | NPC | [Island 4 cave 1](#v-lae_algangror1) |
+| `lae_algangror2` | NPC | [Final cave 1](#v-lae_algangror2) |
+| `lae_algangror3` | NPC/Enemy | [Final cave 2](#v-lae_algangror3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: algangror"
+
+    | | |
+    |---|---|
+    | Entry ID | `algangror` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `algangror` |
+    | Loot table | `algangror` |
+    | Conversation | `algangror` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:68` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "algangror",
+     "name": "Algangror",
+     "iconID": "monsters_rltiles1:68",
+     "maxHP": 241,
+     "maxAP": 10,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 9
+     },
+     "spawnGroup": "algangror",
+     "phraseID": "algangror",
+     "droplistID": "algangror",
+     "attackCost": 3,
+     "attackChance": 80,
+     "criticalSkill": 200,
+     "criticalMultiplier": 2.0,
+     "blockChance": 120,
+     "damageResistance": 4
+    }
+    ```
+
+??? info "Technical information: lae_algangror1"
+
+    | | |
+    |---|---|
+    | Entry ID | `lae_algangror1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `lae_algangror1` |
+    | Loot table | – |
+    | Conversation | `lae_algangror1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:68` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lae_algangror1",
+     "name": "Algangror",
+     "iconID": "monsters_rltiles1:68",
+     "monsterClass": "humanoid",
+     "spawnGroup": "lae_algangror1",
+     "phraseID": "lae_algangror1"
+    }
+    ```
+
+??? info "Technical information: lae_algangror2"
+
+    | | |
+    |---|---|
+    | Entry ID | `lae_algangror2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `lae_algangror2` |
+    | Loot table | – |
+    | Conversation | `lae_algangror2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:68` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lae_algangror2",
+     "name": "Algangror",
+     "iconID": "monsters_rltiles1:68",
+     "monsterClass": "humanoid",
+     "spawnGroup": "lae_algangror2",
+     "phraseID": "lae_algangror2"
+    }
+    ```
+
+??? info "Technical information: lae_algangror3"
 
     | | |
     |---|---|
     | Entry ID | `lae_algangror3` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lae_algangror3` |
     | Loot table | `lae_algangror3` |
     | Conversation | `lae_algangror3` |
@@ -980,16 +964,6 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
      "blockChance": 50
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

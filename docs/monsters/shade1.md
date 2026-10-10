@@ -1,8 +1,10 @@
 ---
-description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, found in Undertell 3 02, Undertell 3 12, Undertell 3 13, Undertell 3 11, Undertell 3 00, Undertell 3 10, Undertell 3 03."
+description: "Forsaken shade is an NPC you can also fight in Andor's Trail, found in Undertell 3 02, Undertell 3 12, Undertell 3 13, Undertell 3 11, Undertell 3 00, Undertell 3 10, Undertell 3 03."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_663.png){ .sprite } Forsaken shade
+
+**Where to find Forsaken shade:** [Undertell 3 02](#v-shade1), [Undertell 3 02](#v-shade2), [Undertell 3 12](#v-shade3), [Undertell 3 12](#v-shade4), [Undertell 3 13](#v-shade5), [Undertell 3 11](#v-shade6), [Undertell 3 00](#v-shade7), [Undertell 3 00](#v-shade8), [Undertell 3 00](#v-shade9), [Undertell 3 10](#v-shade10), [Undertell 3 03](#v-shade11)
 
 <div class="infobox" markdown>
 
@@ -10,75 +12,65 @@ description: "Forsaken shade is an NPC who can also be fought in Andor's Trail, 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Undertell 3 02, Undertell 3 12, Undertell 3 13, Undertell 3 11, Undertell 3 00, Undertell 3 10, Undertell 3 03 |
 | **Class** | Ghost |
 | **HP** | 431 |
 | **XP when defeated** | 1,221–1,231 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 11 |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "11 entries in the game data"
-    The game data defines 11 separate characters named Forsaken shade. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics. Each entry has its own section below.
+## Undertell 3 02 { #v-shade1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`shade1`](#v-shade1) | NPC/Enemy | [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade1) | – | 431 |
-| [`shade2`](#v-shade2) | NPC/Enemy | [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade2) | – | 431 |
-| [`shade3`](#v-shade3) | NPC/Enemy | [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade3) | – | 431 |
-| [`shade4`](#v-shade4) | NPC/Enemy | [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade4) | – | 431 |
-| [`shade5`](#v-shade5) | NPC/Enemy | [Undertell 3 13](../maps/undertell_3_13.md#pin-npc-shade5) | – | 431 |
-| [`shade6`](#v-shade6) | NPC/Enemy | [Undertell 3 11](../maps/undertell_3_11.md#pin-npc-shade6) | – | 431 |
-| [`shade7`](#v-shade7) | NPC/Enemy | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade7) | – | 431 |
-| [`shade8`](#v-shade8) | NPC/Enemy | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade8) | – | 431 |
-| [`shade9`](#v-shade9) | NPC/Enemy | [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade9) | – | 431 |
-| [`shade10`](#v-shade10) | NPC/Enemy | [Undertell 3 10](../maps/undertell_3_10.md#pin-npc-shade10) | – | 431 |
-| [`shade11`](#v-shade11) | NPC/Enemy | [Undertell 3 03](../maps/undertell_3_03.md#pin-npc-shade11) | – | 431 |
+**Where:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade1)
 
-## Undertell 3 02 (shade1) { #v-shade1 }
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade1` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade1)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,231 |
 | Damage | 6 to 8 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 02](../maps/undertell_3_02.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -279,101 +271,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade1)"
+## Undertell 3 02 (2) { #v-shade2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade1` |
-    | Spawn group | `shade1` |
-    | Loot table | – |
-    | Conversation | `shade1_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade2)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade1",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 6,
-      "max": 8
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade1_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 02 (shade2) { #v-shade2 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade2` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 02](../maps/undertell_3_02.md#pin-npc-shade2)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 02](../maps/undertell_3_02.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -428,101 +374,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade2)"
+## Undertell 3 12 { #v-shade3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade2` |
-    | Spawn group | `shade2` |
-    | Loot table | – |
-    | Conversation | `shade2_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade3)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade2",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade2_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 12 (shade3) { #v-shade3 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade3` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade3)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 12](../maps/undertell_3_12.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -577,101 +477,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade3)"
+## Undertell 3 12 (2) { #v-shade4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade3` |
-    | Spawn group | `shade3` |
-    | Loot table | – |
-    | Conversation | `shade3_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade4)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade3",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade3_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 12 (shade4) { #v-shade4 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade4` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-shade4)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 12](../maps/undertell_3_12.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -726,101 +580,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade4)"
+## Undertell 3 13 { #v-shade5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade4` |
-    | Spawn group | `shade4` |
-    | Loot table | – |
-    | Conversation | `shade4_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 13](../maps/undertell_3_13.md#pin-npc-shade5)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade4",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade4_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 13 (shade5) { #v-shade5 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade5` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 13](../maps/undertell_3_13.md#pin-npc-shade5)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 13](../maps/undertell_3_13.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -875,101 +683,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade5)"
+## Undertell 3 11 { #v-shade6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade5` |
-    | Spawn group | `shade5` |
-    | Loot table | – |
-    | Conversation | `shade5_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 11](../maps/undertell_3_11.md#pin-npc-shade6)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade5",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade5_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 11 (shade6) { #v-shade6 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade6` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 11](../maps/undertell_3_11.md#pin-npc-shade6)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 11](../maps/undertell_3_11.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -1024,101 +786,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade6)"
+## Undertell 3 00 { #v-shade7 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade6` |
-    | Spawn group | `shade6` |
-    | Loot table | – |
-    | Conversation | `shade6_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade7)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade6",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade6_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 00 (shade7) { #v-shade7 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade7` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade7)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -1173,101 +889,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade7)"
+## Undertell 3 00 (2) { #v-shade8 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade7` |
-    | Spawn group | `shade7` |
-    | Loot table | – |
-    | Conversation | `shade7_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade8)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade7",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade7_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 00 (shade8) { #v-shade8 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade8` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade8)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -1322,101 +992,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade8)"
+## Undertell 3 00 (3) { #v-shade9 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade8` |
-    | Spawn group | `shade8` |
-    | Loot table | – |
-    | Conversation | `shade8_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade9)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade8",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade8_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 00 (shade9) { #v-shade9 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade9` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 00](../maps/undertell_3_00.md#pin-npc-shade9)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 00](../maps/undertell_3_00.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -1471,101 +1095,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade9)"
+## Undertell 3 10 { #v-shade10 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade9` |
-    | Spawn group | `shade9` |
-    | Loot table | – |
-    | Conversation | `shade9_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 10](../maps/undertell_3_10.md#pin-npc-shade10)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade9",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade9_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 10 (shade10) { #v-shade10 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade10` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 10](../maps/undertell_3_10.md#pin-npc-shade10)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 10](../maps/undertell_3_10.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -1620,101 +1198,55 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade10)"
+## Undertell 3 03 { #v-shade11 }
 
-    | | |
-    |---|---|
-    | Entry ID | `shade10` |
-    | Spawn group | `shade10` |
-    | Loot table | – |
-    | Conversation | `shade10_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_newb_1:663` |
-    | Defined in | `res/raw/monsterlist_undertell.json` |
+**Where:** [Undertell 3 03](../maps/undertell_3_03.md#pin-npc-shade11)
 
-    Raw data:
+!!! warning "You can fight Forsaken shade"
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-440) starts a fight with Forsaken shade.
 
-    ```json
-    {
-     "id": "shade10",
-     "name": "Forsaken shade",
-     "iconID": "monsters_newb_1:663",
-     "maxHP": 431,
-     "unique": 1,
-     "monsterClass": "ghost",
-     "movementAggressionType": "none",
-     "attackDamage": {
-      "min": 5,
-      "max": 7
-     },
-     "horizontalFlipChance": 50,
-     "phraseID": "shade10_selector",
-     "attackCost": 5,
-     "attackChance": 230,
-     "blockChance": 250,
-     "damageResistance": 9,
-     "hitEffect": {
-      "conditionsTarget": [
-       {
-        "condition": "deathtouch",
-        "magnitude": 1,
-        "duration": 3,
-        "chance": "50"
-       },
-       {
-        "condition": "vulnerability",
-        "magnitude": 6,
-        "duration": 2,
-        "chance": "75"
-       }
-      ]
-     }
-    }
-    ```
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-410) starts a fight with Forsaken shade.
 
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-380) starts a fight with Forsaken shade.
 
-## Undertell 3 03 (shade11) { #v-shade11 }
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-350) starts a fight with Forsaken shade.
 
-**Entry ID:** `shade11` · **Type:** NPC/Enemy
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-320) starts a fight with Forsaken shade.
 
-**Location:** [Undertell 3 03](../maps/undertell_3_03.md#pin-npc-shade11)
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-290) starts a fight with Forsaken shade.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-260) starts a fight with Forsaken shade.
 
-### Combat statistics
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-230) starts a fight with Forsaken shade.
 
-| Statistic | Value |
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-200) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-170) starts a fight with Forsaken shade.
+
+    Answering “We will see!” during [Devotion story flags (hidden flag)](../quests/hidden_devotion.md#stage-140) starts a fight with Forsaken shade.
+
+    Answering “I don't think so!” starts a fight with Forsaken shade.
+
+### Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 431 |
 | XP when defeated | 1,221 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 250 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 250 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 6, 2 rounds, 75% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 3 03](../maps/undertell_3_03.md) | – | 1 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -1769,11 +1301,581 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (shade11)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**11 entries.** The game data defines 11 separate characters named Forsaken shade. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `shade1` | NPC/Enemy | [Undertell 3 02](#v-shade1) |
+| `shade2` | NPC/Enemy | [Undertell 3 02](#v-shade2) |
+| `shade3` | NPC/Enemy | [Undertell 3 12](#v-shade3) |
+| `shade4` | NPC/Enemy | [Undertell 3 12](#v-shade4) |
+| `shade5` | NPC/Enemy | [Undertell 3 13](#v-shade5) |
+| `shade6` | NPC/Enemy | [Undertell 3 11](#v-shade6) |
+| `shade7` | NPC/Enemy | [Undertell 3 00](#v-shade7) |
+| `shade8` | NPC/Enemy | [Undertell 3 00](#v-shade8) |
+| `shade9` | NPC/Enemy | [Undertell 3 00](#v-shade9) |
+| `shade10` | NPC/Enemy | [Undertell 3 10](#v-shade10) |
+| `shade11` | NPC/Enemy | [Undertell 3 03](#v-shade11) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: shade1"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade1` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade1` |
+    | Loot table | – |
+    | Conversation | `shade1_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade1",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 6,
+      "max": 8
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade1_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade2"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade2` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade2` |
+    | Loot table | – |
+    | Conversation | `shade2_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade2",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade2_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade3"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade3` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade3` |
+    | Loot table | – |
+    | Conversation | `shade3_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade3",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade3_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade4"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade4` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade4` |
+    | Loot table | – |
+    | Conversation | `shade4_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade4",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade4_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade5"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade5` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade5` |
+    | Loot table | – |
+    | Conversation | `shade5_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade5",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade5_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade6"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade6` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade6` |
+    | Loot table | – |
+    | Conversation | `shade6_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade6",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade6_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade7"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade7` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade7` |
+    | Loot table | – |
+    | Conversation | `shade7_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade7",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade7_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade8"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade8` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade8` |
+    | Loot table | – |
+    | Conversation | `shade8_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade8",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade8_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade9"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade9` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade9` |
+    | Loot table | – |
+    | Conversation | `shade9_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade9",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade9_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade10"
+
+    | | |
+    |---|---|
+    | Entry ID | `shade10` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `shade10` |
+    | Loot table | – |
+    | Conversation | `shade10_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_newb_1:663` |
+    | Defined in | `res/raw/monsterlist_undertell.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "shade10",
+     "name": "Forsaken shade",
+     "iconID": "monsters_newb_1:663",
+     "maxHP": 431,
+     "unique": 1,
+     "monsterClass": "ghost",
+     "movementAggressionType": "none",
+     "attackDamage": {
+      "min": 5,
+      "max": 7
+     },
+     "horizontalFlipChance": 50,
+     "phraseID": "shade10_selector",
+     "attackCost": 5,
+     "attackChance": 230,
+     "blockChance": 250,
+     "damageResistance": 9,
+     "hitEffect": {
+      "conditionsTarget": [
+       {
+        "condition": "deathtouch",
+        "magnitude": 1,
+        "duration": 3,
+        "chance": "50"
+       },
+       {
+        "condition": "vulnerability",
+        "magnitude": 6,
+        "duration": 2,
+        "chance": "75"
+       }
+      ]
+     }
+    }
+    ```
+
+??? info "Technical information: shade11"
 
     | | |
     |---|---|
     | Entry ID | `shade11` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `shade11` |
     | Loot table | – |
     | Conversation | `shade11_selector` |
@@ -1821,16 +1923,6 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

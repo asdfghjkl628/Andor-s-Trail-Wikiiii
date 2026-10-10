@@ -4,32 +4,23 @@ description: "Dog is a non-player character (NPC) in Andor's Trail, found in Rem
 
 # ![](../assets/icons/monsters/monsters_dogs_0.png){ .sprite } Dog
 
+**Where to find Dog:** [Remgard, Remgard villager 4](#v-petdog), [Guynmart Castle, Guynmart wood 10 and 1 more](#v-guynmart_dog10)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard, Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Remgard, Remgard villager 4 { #v-petdog }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`petdog`](#v-petdog) | NPC | Remgard: [Remgard villager 4](../maps/remgard_villager4.md#pin-npc-petdog) | – |
-| [`guynmart_dog10`](#v-guynmart_dog10) | NPC | Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [Guynmart wood 11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10) | – |
-
-## Remgard, Remgard villager 4 (petdog) { #v-petdog }
-
-**Entry ID:** `petdog` · **Type:** NPC
-
-**Location:** Remgard: [Remgard villager 4](../maps/remgard_villager4.md#pin-npc-petdog)
+**Where:** Remgard: [Remgard villager 4](../maps/remgard_villager4.md#pin-npc-petdog)
 
 ### Dialogue simulator
 
@@ -57,38 +48,9 @@ Set your quest stages and items, then talk to Dog. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (petdog)"
+## Guynmart Castle, Guynmart wood 10 and 1 more { #v-guynmart_dog10 }
 
-    | | |
-    |---|---|
-    | Entry ID | `petdog` |
-    | Spawn group | `petdog` |
-    | Loot table | – |
-    | Conversation | `petdog` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_dogs:0` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "petdog",
-     "name": "Dog",
-     "iconID": "monsters_dogs:0",
-     "monsterClass": "animal",
-     "spawnGroup": "petdog",
-     "phraseID": "petdog"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 10 and 1 more (guynmart_dog10) { #v-guynmart_dog10 }
-
-**Entry ID:** `guynmart_dog10` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [Guynmart wood 11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10)
+**Where:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_dog10), Guynmart Castle: [Guynmart wood 11](../maps/guynmart_wood_11.md#pin-npc-guynmart_dog10)
 
 ### Locations
 
@@ -124,11 +86,51 @@ Set your quest stages and items, then talk to Dog. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_dog10)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Dog. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `petdog` | NPC | [Remgard, Remgard villager 4](#v-petdog) |
+| `guynmart_dog10` | NPC | [Guynmart Castle, Guynmart wood 10 and 1 more](#v-guynmart_dog10) |
+
+??? info "Technical information: petdog"
+
+    | | |
+    |---|---|
+    | Entry ID | `petdog` |
+    | Type (wiki) | NPC |
+    | Spawn group | `petdog` |
+    | Loot table | – |
+    | Conversation | `petdog` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_dogs:0` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "petdog",
+     "name": "Dog",
+     "iconID": "monsters_dogs:0",
+     "monsterClass": "animal",
+     "spawnGroup": "petdog",
+     "phraseID": "petdog"
+    }
+    ```
+
+??? info "Technical information: guynmart_dog10"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_dog10` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_dog10` |
     | Loot table | – |
     | Conversation | `guynmart_dog10_10` |
@@ -148,7 +150,6 @@ Set your quest stages and items, then talk to Dog. Same rules as the game: same 
      "phraseID": "guynmart_dog10_10"
     }
     ```
-
 
 
 ## Community notes

@@ -1,10 +1,8 @@
 ---
-description: "Guard 1 is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Brightport chimney, Brightport crate 1, Brightport crate 2."
+description: "Guard 1 is scenery in Andor's Trail: a decoration or dialogue prop, found in Brightport chimney, Brightport crate 1, Brightport crate 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_94.png){ .sprite } Guard 1
-
-**Where to find Guard 1:** [Brightport chimney](../maps/brightport_chimney.md), [Brightport crate 1](../maps/brightport_crate1.md), [Brightport crate 2](../maps/brightport_crate2.md)
 
 <div class="infobox" markdown>
 
@@ -12,15 +10,13 @@ description: "Guard 1 is scenery in Andor's Trail: a decoration or dialogue prop
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Brightport chimney, Brightport crate 1, Brightport crate 2 |
-| **Entry ID** | `brightportguardcrate1` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
+Not a character you meet: Guard 1 appears as the speaker in conversations with stepping on a trigger on [Brightport chimney](../maps/brightport_chimney.md), stepping on a trigger on [Brightport crate 1](../maps/brightport_crate1.md), stepping on a trigger on [Brightport crate 2](../maps/brightport_crate2.md). ~~No, you can't take it home.~~
 
 ## Locations
 
@@ -40,11 +36,18 @@ description: "Guard 1 is scenery in Andor's Trail: a decoration or dialogue prop
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brightportguardcrate1` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Brightport chimney](../maps/brightport_chimney.md), [Brightport crate 1](../maps/brightport_crate1.md), [Brightport crate 2](../maps/brightport_crate2.md).
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightportguardcrate1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `brightportguardcrate1` |
     | Loot table | – |
     | Conversation | – |

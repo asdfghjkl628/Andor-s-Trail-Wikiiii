@@ -12,9 +12,8 @@ description: "Duaina is a non-player character (NPC) in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard |
-| **Entry ID** | `duaina` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -157,16 +156,21 @@ Set your quest stages and items, then talk to Duaina. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “The dreams and the visions. It is you! The child that challenges the …” → “The dreams and the visions. It is you! The child that challenges the …”<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “(Duaina stares at you in silence)” → “[Duaina stares at you in silence]”<br>· text: “(Duaina stares at you in silence while holding her hand over her mout…” → “[Duaina stares at you in silence while holding her hand over her mout…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `duaina` |
+    | Type (wiki) | NPC |
     | Spawn group | `duaina` |
     | Loot table | – |
     | Conversation | `duaina` |

@@ -1,8 +1,10 @@
 ---
-description: "Dark spirit is an NPC who can also be fought in Andor's Trail, found in Crossglen, Galmore 32."
+description: "Dark spirit is an NPC you can also fight in Andor's Trail, found in Crossglen, Galmore 32."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_686.png){ .sprite } Dark spirit
+
+**Where to find Dark spirit:** [Crossglen, Crossglen farmhouse](#v-crossglen_dark_spirit), [Galmore 32](#v-undertell_dark_spirit)
 
 <div class="infobox" markdown>
 
@@ -10,59 +12,42 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Crossglen, Galmore 32 |
 | **Class** | Demon |
 | **HP** | 470–509 |
 | **XP when defeated** | 851–999 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 2 |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Dark spirit. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Crossglen, Crossglen farmhouse { #v-crossglen_dark_spirit }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`crossglen_dark_spirit`](#v-crossglen_dark_spirit) | Enemy | Crossglen: [Crossglen farmhouse](../maps/crossglen_farmhouse.md) | – | 470 |
-| [`undertell_dark_spirit`](#v-undertell_dark_spirit) | NPC/Enemy | [Galmore 32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit) | – | 509 |
+**Where:** Crossglen: [Crossglen farmhouse](../maps/crossglen_farmhouse.md)
 
-## Crossglen, Crossglen farmhouse (crossglen_dark_spirit) { #v-crossglen_dark_spirit }
+### Combat
 
-**Entry ID:** `crossglen_dark_spirit` · **Type:** Enemy
-
-**Location:** Crossglen: [Crossglen farmhouse](../maps/crossglen_farmhouse.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 470 |
 | XP when defeated | 851 |
 | Damage | 7 to 10 |
-| Attack chance | 135 |
-| Block chance | 130 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 2 AP |
-| Critical skill | 2 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 1% |
+| AC | 135 |
+| BC | 130 |
+| DR | 3 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 1% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** Heal HP: 1 to 3
+**Its hits:** Heal HP: 1 to 3
 
-**When hit:** Heal HP: 3 to 6
+**When you hit it:** Heal HP: 3 to 6
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -92,95 +77,37 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (crossglen_dark_spirit)"
+## Galmore 32 { #v-undertell_dark_spirit }
 
-    | | |
-    |---|---|
-    | Entry ID | `crossglen_dark_spirit` |
-    | Spawn group | `crossglen_dark_spirit` |
-    | Loot table | `crossglen_dark_spirit_dl` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_newb_1:686` |
-    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+**Where:** [Galmore 32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit)
 
-    Raw data:
+!!! warning "You can fight Dark spirit"
+    The conversation can lead straight into a fight with Dark spirit.
 
-    ```json
-    {
-     "id": "crossglen_dark_spirit",
-     "name": "Dark spirit",
-     "iconID": "monsters_newb_1:686",
-     "maxHP": 470,
-     "moveCost": 2,
-     "unique": 1,
-     "monsterClass": "demon",
-     "movementAggressionType": "wholeMap",
-     "attackDamage": {
-      "min": 7,
-      "max": 10
-     },
-     "droplistID": "crossglen_dark_spirit_dl",
-     "attackCost": 3,
-     "attackChance": 135,
-     "criticalSkill": 2,
-     "criticalMultiplier": 2.0,
-     "blockChance": 130,
-     "damageResistance": 3,
-     "hitEffect": {
-      "increaseCurrentHP": {
-       "min": 1,
-       "max": 3
-      }
-     },
-     "hitReceivedEffect": {
-      "increaseCurrentHP": {
-       "min": 3,
-       "max": 6
-      }
-     }
-    }
-    ```
+    Answering “Let me show you the darkness of my power!” during [Galmore story flags (hidden flag)](../quests/galmore_nondisplayed.md#stage-4) starts a fight with Dark spirit.
 
+### Combat
 
-## Galmore 32 (undertell_dark_spirit) { #v-undertell_dark_spirit }
-
-**Entry ID:** `undertell_dark_spirit` · **Type:** NPC/Enemy
-
-**Location:** [Galmore 32](../maps/galmore_32.md#pin-npc-undertell_dark_spirit)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 509 |
 | XP when defeated | 999 |
 | Damage | 9 to 10 |
-| Attack chance | 155 |
-| Block chance | 142 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 3 AP |
-| Critical skill | 3 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 2% |
+| AC | 155 |
+| BC | 142 |
+| DR | 6 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 2% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** Heal HP: 2 to 4
+**Its hits:** Heal HP: 2 to 4
 
-**When hit:** Heal HP: 5 to 8
+**When you hit it:** Heal HP: 5 to 8
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -189,12 +116,6 @@ description: "Dark spirit is an NPC who can also be fought in Andor's Trail, fou
 | [Gold coins](../items/gold.md) | 100% | 75 to 110 |
 | [Tonic of blood](../items/tonic_of_blood.md) | 100% | 4 to 8 |
 | [Elytharan gloves](../items/elytharan_gloves.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Galmore 32](../maps/galmore_32.md) | – | 1 | Appears later, during a quest |
 
 ### Quests that count defeats
 
@@ -244,11 +165,84 @@ Set your quest stages and items, then talk to Dark spirit. Same rules as the gam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (undertell_dark_spirit)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Dark spirit. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `crossglen_dark_spirit` | Enemy | [Crossglen, Crossglen farmhouse](#v-crossglen_dark_spirit) |
+| `undertell_dark_spirit` | NPC/Enemy | [Galmore 32](#v-undertell_dark_spirit) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: crossglen_dark_spirit"
+
+    | | |
+    |---|---|
+    | Entry ID | `crossglen_dark_spirit` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `crossglen_dark_spirit` |
+    | Loot table | `crossglen_dark_spirit_dl` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_newb_1:686` |
+    | Defined in | `res/raw/monsterlist_mt_galmore2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "crossglen_dark_spirit",
+     "name": "Dark spirit",
+     "iconID": "monsters_newb_1:686",
+     "maxHP": 470,
+     "moveCost": 2,
+     "unique": 1,
+     "monsterClass": "demon",
+     "movementAggressionType": "wholeMap",
+     "attackDamage": {
+      "min": 7,
+      "max": 10
+     },
+     "droplistID": "crossglen_dark_spirit_dl",
+     "attackCost": 3,
+     "attackChance": 135,
+     "criticalSkill": 2,
+     "criticalMultiplier": 2.0,
+     "blockChance": 130,
+     "damageResistance": 3,
+     "hitEffect": {
+      "increaseCurrentHP": {
+       "min": 1,
+       "max": 3
+      }
+     },
+     "hitReceivedEffect": {
+      "increaseCurrentHP": {
+       "min": 3,
+       "max": 6
+      }
+     }
+    }
+    ```
+
+??? info "Technical information: undertell_dark_spirit"
 
     | | |
     |---|---|
     | Entry ID | `undertell_dark_spirit` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `undertell_dark_spirit` |
     | Loot table | `undertell_dark_spirit_dl` |
     | Conversation | `galmore_dark_spirit_selector` |
@@ -294,16 +288,6 @@ Set your quest stages and items, then talk to Dark spirit. Same rules as the gam
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,38 +4,24 @@ description: "Tobby is a non-player character (NPC) in Andor's Trail, found in G
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Tobby
 
+**Where to find Tobby:** [Guynmart wood 19](#v-tobby), [Guynmart wood 19](#v-tobby2), [Guynmart wood 18](#v-tobby3), [Guynmart wood 17b](#v-tobby4a), [Guynmart wood 17b](#v-tobby4b), [Guynmart wood 17](#v-tobby5), [Fallhaven, Woodhouse 1](#v-tobby6)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_65.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Sobby's Trail](../quests/tobby.md) |
 | **Found in** | Guynmart wood 19, Guynmart wood 18, Guynmart wood 17b, Guynmart wood 17, Fallhaven |
-| **Entries in game data** | 7 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "7 entries in the game data"
-    The game data defines 7 separate characters named Tobby. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, movement. Each entry has its own section below.
+## Guynmart wood 19 { #v-tobby }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`tobby`](#v-tobby) | NPC | [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby) | starts [Sobby's Trail](../quests/tobby.md) |
-| [`tobby2`](#v-tobby2) | NPC | [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby2) | – |
-| [`tobby3`](#v-tobby3) | NPC | [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-tobby3) | – |
-| [`tobby4a`](#v-tobby4a) | NPC | [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a) | – |
-| [`tobby4b`](#v-tobby4b) | NPC | [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b) | – |
-| [`tobby5`](#v-tobby5) | NPC | [Guynmart wood 17](../maps/guynmart_wood_17.md#pin-npc-tobby5) | – |
-| [`tobby6`](#v-tobby6) | NPC | Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-tobby6) | – |
-
-## Guynmart wood 19 (tobby) { #v-tobby }
-
-**Entry ID:** `tobby` · **Type:** NPC · **Role:** Starts [Sobby's Trail](../quests/tobby.md)
-
-**Location:** [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby)
+**Where:** [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby) · **Role:** Starts [Sobby's Trail](../quests/tobby.md)
 
 ### Quests
 
@@ -125,38 +111,9 @@ Set your quest stages and items, then talk to Tobby. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby)"
+## Guynmart wood 19 (2) { #v-tobby2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tobby` |
-    | Spawn group | `tobby` |
-    | Loot table | – |
-    | Conversation | `tobby` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tobby",
-     "name": "Tobby",
-     "iconID": "monsters_ld1:65",
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "phraseID": "tobby"
-    }
-    ```
-
-
-## Guynmart wood 19 (tobby2) { #v-tobby2 }
-
-**Entry ID:** `tobby2` · **Type:** NPC
-
-**Location:** [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby2)
+**Where:** [Guynmart wood 19](../maps/guynmart_wood_19.md#pin-npc-tobby2)
 
 ### Quests
 
@@ -200,39 +157,9 @@ Set your quest stages and items, then talk to Tobby. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby2)"
+## Guynmart wood 18 { #v-tobby3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tobby2` |
-    | Spawn group | `tobby2` |
-    | Loot table | – |
-    | Conversation | `tobby2` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tobby2",
-     "name": "Tobby",
-     "iconID": "monsters_ld1:65",
-     "moveCost": 3,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "tobby2"
-    }
-    ```
-
-
-## Guynmart wood 18 (tobby3) { #v-tobby3 }
-
-**Entry ID:** `tobby3` · **Type:** NPC
-
-**Location:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-tobby3)
+**Where:** [Guynmart wood 18](../maps/guynmart_wood_18.md#pin-npc-tobby3)
 
 ### Quests
 
@@ -258,39 +185,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby3)"
+## Guynmart wood 17b { #v-tobby4a }
 
-    | | |
-    |---|---|
-    | Entry ID | `tobby3` |
-    | Spawn group | `tobby3` |
-    | Loot table | – |
-    | Conversation | `tobby2` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tobby3",
-     "name": "Tobby",
-     "iconID": "monsters_ld1:65",
-     "moveCost": 3,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "tobby2"
-    }
-    ```
-
-
-## Guynmart wood 17b (tobby4a) { #v-tobby4a }
-
-**Entry ID:** `tobby4a` · **Type:** NPC
-
-**Location:** [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a)
+**Where:** [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4a)
 
 ### Quests
 
@@ -316,39 +213,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby4a)"
+## Guynmart wood 17b (2) { #v-tobby4b }
 
-    | | |
-    |---|---|
-    | Entry ID | `tobby4a` |
-    | Spawn group | `tobby4a` |
-    | Loot table | – |
-    | Conversation | `tobby2` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tobby4a",
-     "name": "Tobby",
-     "iconID": "monsters_ld1:65",
-     "moveCost": 3,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "tobby2"
-    }
-    ```
-
-
-## Guynmart wood 17b (tobby4b) { #v-tobby4b }
-
-**Entry ID:** `tobby4b` · **Type:** NPC
-
-**Location:** [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b)
+**Where:** [Guynmart wood 17b](../maps/guynmart_wood_17b.md#pin-npc-tobby4b)
 
 ### Quests
 
@@ -374,39 +241,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby4b)"
+## Guynmart wood 17 { #v-tobby5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tobby4b` |
-    | Spawn group | `tobby4b` |
-    | Loot table | – |
-    | Conversation | `tobby2` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tobby4b",
-     "name": "Tobby",
-     "iconID": "monsters_ld1:65",
-     "moveCost": 3,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "tobby2"
-    }
-    ```
-
-
-## Guynmart wood 17 (tobby5) { #v-tobby5 }
-
-**Entry ID:** `tobby5` · **Type:** NPC
-
-**Location:** [Guynmart wood 17](../maps/guynmart_wood_17.md#pin-npc-tobby5)
+**Where:** [Guynmart wood 17](../maps/guynmart_wood_17.md#pin-npc-tobby5)
 
 ### Quests
 
@@ -443,39 +280,9 @@ Set your quest stages and items, then talk to Tobby. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby5)"
+## Fallhaven, Woodhouse 1 { #v-tobby6 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tobby5` |
-    | Spawn group | `tobby5` |
-    | Loot table | – |
-    | Conversation | `tobby5_1` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_ld1:65` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tobby5",
-     "name": "Tobby",
-     "iconID": "monsters_ld1:65",
-     "moveCost": 3,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "tobby5_1"
-    }
-    ```
-
-
-## Fallhaven, Woodhouse 1 (tobby6) { #v-tobby6 }
-
-**Entry ID:** `tobby6` · **Type:** NPC
-
-**Location:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-tobby6)
+**Where:** Fallhaven: [Woodhouse 1](../maps/woodhouse1.md#pin-npc-tobby6)
 
 ### Quests
 
@@ -524,11 +331,196 @@ Set your quest stages and items, then talk to Tobby. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tobby6)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**7 entries.** The game data defines 7 separate characters named Tobby. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tobby` | NPC | [Guynmart wood 19](#v-tobby) |
+| `tobby2` | NPC | [Guynmart wood 19](#v-tobby2) |
+| `tobby3` | NPC | [Guynmart wood 18](#v-tobby3) |
+| `tobby4a` | NPC | [Guynmart wood 17b](#v-tobby4a) |
+| `tobby4b` | NPC | [Guynmart wood 17b](#v-tobby4b) |
+| `tobby5` | NPC | [Guynmart wood 17](#v-tobby5) |
+| `tobby6` | NPC | [Fallhaven, Woodhouse 1](#v-tobby6) |
+
+??? info "Technical information: tobby"
+
+    | | |
+    |---|---|
+    | Entry ID | `tobby` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tobby` |
+    | Loot table | – |
+    | Conversation | `tobby` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby",
+     "name": "Tobby",
+     "iconID": "monsters_ld1:65",
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "phraseID": "tobby"
+    }
+    ```
+
+??? info "Technical information: tobby2"
+
+    | | |
+    |---|---|
+    | Entry ID | `tobby2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tobby2` |
+    | Loot table | – |
+    | Conversation | `tobby2` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby2",
+     "name": "Tobby",
+     "iconID": "monsters_ld1:65",
+     "moveCost": 3,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "tobby2"
+    }
+    ```
+
+??? info "Technical information: tobby3"
+
+    | | |
+    |---|---|
+    | Entry ID | `tobby3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tobby3` |
+    | Loot table | – |
+    | Conversation | `tobby2` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby3",
+     "name": "Tobby",
+     "iconID": "monsters_ld1:65",
+     "moveCost": 3,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "tobby2"
+    }
+    ```
+
+??? info "Technical information: tobby4a"
+
+    | | |
+    |---|---|
+    | Entry ID | `tobby4a` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tobby4a` |
+    | Loot table | – |
+    | Conversation | `tobby2` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby4a",
+     "name": "Tobby",
+     "iconID": "monsters_ld1:65",
+     "moveCost": 3,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "tobby2"
+    }
+    ```
+
+??? info "Technical information: tobby4b"
+
+    | | |
+    |---|---|
+    | Entry ID | `tobby4b` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tobby4b` |
+    | Loot table | – |
+    | Conversation | `tobby2` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby4b",
+     "name": "Tobby",
+     "iconID": "monsters_ld1:65",
+     "moveCost": 3,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "tobby2"
+    }
+    ```
+
+??? info "Technical information: tobby5"
+
+    | | |
+    |---|---|
+    | Entry ID | `tobby5` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tobby5` |
+    | Loot table | – |
+    | Conversation | `tobby5_1` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_ld1:65` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tobby5",
+     "name": "Tobby",
+     "iconID": "monsters_ld1:65",
+     "moveCost": 3,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "tobby5_1"
+    }
+    ```
+
+??? info "Technical information: tobby6"
 
     | | |
     |---|---|
     | Entry ID | `tobby6` |
+    | Type (wiki) | NPC |
     | Spawn group | `tobby6` |
     | Loot table | – |
     | Conversation | `tobby6` |
@@ -549,7 +541,6 @@ Set your quest stages and items, then talk to Tobby. Same rules as the game: sam
      "phraseID": "tobby6"
     }
     ```
-
 
 
 ## Community notes

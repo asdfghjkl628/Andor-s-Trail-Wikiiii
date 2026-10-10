@@ -25,7 +25,7 @@ description: "Lyre is a quest other in Andor's Trail. How to get it: quests and 
 
 ### Quest & dialogue rewards
 
-- From [brv_wh_item_02](../monsters/brv_wh_item_02.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [brv_wh_item_22](../monsters/brv_wh_item_22.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-102) (2×)
+- From [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_02) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_22) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Inventory](../quests/brv_wh.md#stage-102) (2×)
 - From [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) during [Delivery](../quests/brv_wh_delivery.md#stage-10) (1×)
 
 

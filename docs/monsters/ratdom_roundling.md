@@ -1,8 +1,10 @@
 ---
-description: "Roundling is an NPC who can also be fought in Andor's Trail, found in Roundlings, Entry."
+description: "Roundling is an NPC you can also fight in Andor's Trail, found in Roundlings, Entry."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_134.png){ .sprite } Roundling
+
+**Where to find Roundling:** [Roundlings, Ratdom maze 627](#v-ratdom_roundling), [Entry, Ratdom maze 448](#v-ratdom_roundling2), [Roundlings, Ratdom maze 627](#v-ratdom_roundling3)
 
 <div class="infobox" markdown>
 
@@ -10,61 +12,40 @@ description: "Roundling is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Roundlings, Entry |
 | **Class** | Humanoid |
 | **HP** | 200 |
 | **XP when defeated** | 216–241 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Roundling. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, movement. Each entry has its own section below.
+## Roundlings, Ratdom maze 627 { #v-ratdom_roundling }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`ratdom_roundling`](#v-ratdom_roundling) | NPC/Enemy | Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling) | – | 200 |
-| [`ratdom_roundling2`](#v-ratdom_roundling2) | NPC/Enemy | Entry: [Ratdom maze 448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2) | – | 200 |
-| [`ratdom_roundling3`](#v-ratdom_roundling3) | Enemy | Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md) | – | 200 |
+**Where:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling)
 
-## Roundlings, Ratdom maze 627 (ratdom_roundling) { #v-ratdom_roundling }
+!!! warning "You can fight Roundling"
+    The conversation can lead straight into a fight with Roundling.
 
-**Entry ID:** `ratdom_roundling` · **Type:** NPC/Enemy
+    Roundling turns hostile if you fall out with their faction.
 
-**Location:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md#pin-npc-ratdom_roundling)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 200 |
 | XP when defeated | 216 |
 | Damage | 10 to 20 |
-| Attack chance | 120 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 120 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 2 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Dialogue simulator
 
@@ -101,78 +82,31 @@ Set your quest stages and items, then talk to Roundling. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_roundling)"
+## Entry, Ratdom maze 448 { #v-ratdom_roundling2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_roundling` |
-    | Spawn group | `ratdom_roundling` |
-    | Loot table | – |
-    | Conversation | `ratdom_roundling` |
-    | Faction | `fct_ratdom_roundling` |
-    | Movement | helpOthers |
-    | Icon | `monsters_rltiles1:134` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
+**Where:** Entry: [Ratdom maze 448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2)
 
-    Raw data:
+!!! warning "You can fight Roundling"
+    The conversation can lead straight into a fight with Roundling.
 
-    ```json
-    {
-     "id": "ratdom_roundling",
-     "name": "Roundling",
-     "iconID": "monsters_rltiles1:134",
-     "maxHP": 200,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "helpOthers",
-     "attackDamage": {
-      "min": 10,
-      "max": 20
-     },
-     "spawnGroup": "ratdom_roundling",
-     "faction": "fct_ratdom_roundling",
-     "phraseID": "ratdom_roundling",
-     "attackCost": 5,
-     "attackChance": 120
-    }
-    ```
+    Roundling turns hostile if you fall out with their faction.
 
+### Combat
 
-## Entry, Ratdom maze 448 (ratdom_roundling2) { #v-ratdom_roundling2 }
-
-**Entry ID:** `ratdom_roundling2` · **Type:** NPC/Enemy
-
-**Location:** Entry: [Ratdom maze 448](../maps/ratdom_maze_448.md#pin-npc-ratdom_roundling2)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 200 |
 | XP when defeated | 241 |
 | Damage | 10 to 30 |
-| Attack chance | 120 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 120 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 448](../maps/ratdom_maze_448.md) | Entry | 5 | Appears later, during a quest |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests
 
@@ -225,11 +159,109 @@ Set your quest stages and items, then talk to Roundling. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_roundling2)"
+## Roundlings, Ratdom maze 627 (2) { #v-ratdom_roundling3 }
+
+**Where:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 200 |
+| XP when defeated | 241 |
+| Damage | 10 to 30 |
+| AC | 120 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 2 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Roundling. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, faction, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_roundling` | NPC/Enemy | [Roundlings, Ratdom maze 627](#v-ratdom_roundling) |
+| `ratdom_roundling2` | NPC/Enemy | [Entry, Ratdom maze 448](#v-ratdom_roundling2) |
+| `ratdom_roundling3` | Enemy | [Roundlings, Ratdom maze 627](#v-ratdom_roundling3) |
+
+- `ratdom_roundling` belongs to the faction `fct_ratdom_roundling`. The game treats any character as hostile once your standing with its faction is below zero.
+- `ratdom_roundling2` belongs to the faction `fct_ratdom_roundling2`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: ratdom_roundling"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_roundling` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `ratdom_roundling` |
+    | Loot table | – |
+    | Conversation | `ratdom_roundling` |
+    | Faction | `fct_ratdom_roundling` |
+    | Movement | helpOthers |
+    | Icon | `monsters_rltiles1:134` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_roundling",
+     "name": "Roundling",
+     "iconID": "monsters_rltiles1:134",
+     "maxHP": 200,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 10,
+      "max": 20
+     },
+     "spawnGroup": "ratdom_roundling",
+     "faction": "fct_ratdom_roundling",
+     "phraseID": "ratdom_roundling",
+     "attackCost": 5,
+     "attackChance": 120
+    }
+    ```
+
+??? info "Technical information: ratdom_roundling2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_roundling2` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ratdom_roundling2` |
     | Loot table | – |
     | Conversation | `ratdom_roundling2` |
@@ -260,56 +292,12 @@ Set your quest stages and items, then talk to Roundling. Same rules as the game:
     }
     ```
 
-
-## Roundlings, Ratdom maze 627 (ratdom_roundling3) { #v-ratdom_roundling3 }
-
-**Entry ID:** `ratdom_roundling3` · **Type:** Enemy
-
-**Location:** Roundlings: [Ratdom maze 627](../maps/ratdom_maze_627.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 200 |
-| XP when defeated | 241 |
-| Damage | 10 to 30 |
-| Attack chance | 120 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 627](../maps/ratdom_maze_627.md) | Roundlings | 2 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_roundling3)"
+??? info "Technical information: ratdom_roundling3"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_roundling3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_roundling3` |
     | Loot table | – |
     | Conversation | – |
@@ -337,16 +325,6 @@ Set your quest stages and items, then talk to Roundling. Same rules as the game:
      "attackChance": 120
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

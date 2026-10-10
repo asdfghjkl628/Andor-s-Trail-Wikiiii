@@ -12,7 +12,7 @@ description: "Wanted men is a quest in Andor's Trail, started by stepping on a t
 | **In journal** | Yes |
 | **Stages** | 19 (completes at 57, 70, 80) |
 | **Started by** | stepping on a trigger on [Aidem camp](../maps/aidem_camp.md) |
-| **NPCs involved** | [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), [Defy](../monsters/g04_defy.md#v-aidem_base_defy), [Defy](../monsters/g04_defy.md#v-defy_wild6house), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
+| **NPCs involved** | [Defy](../monsters/g04_defy.md#v-defy_wild6house), [Defy](../monsters/g04_defy.md#v-aidem_base_defy), [Defy](../monsters/g04_defy.md#v-aidem_camp_defy), [Rennik](../monsters/wild6_house_thief.md), [Troublemaker](../monsters/troublemaker.md) |
 | **Locations** | [Aidem base 2](../maps/aidem_base_2.md), [Aidem camp](../maps/aidem_camp.md), [Fallhaven derelict 2](../maps/fallhaven_derelict2.md), [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md) |
 | **Total XP** | 51,385 |
 | **Related quests** | 6 |

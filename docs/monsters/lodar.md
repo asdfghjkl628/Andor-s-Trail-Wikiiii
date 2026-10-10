@@ -12,10 +12,9 @@ description: "Lodar is a non-player character (NPC) in Andor's Trail, found in P
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [A creeping fear](../quests/xulviir.md), [Lodar's potions](../quests/lodar_pots.md), [Searching for madness](../quests/lodar2.md), [The way out is through](../quests/shortcut_lodar.md) |
 | **Found in** | Prim |
-| **Entry ID** | `lodar` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -692,19 +691,24 @@ Set your quest stages and items, then talk to Lodar. Same rules as the game: sam
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line changed<br>· text: “Up in the north, I have heard tales of beast called the Arulir. Their…” → “Up in the north, I have heard tales of beast called the Arulir. Their…” |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Excellent. These will do nicely. Now, we only need to mix these with …” → “Excellent. These will do nicely. Now, we only need to mix these with …”<br>· text: “No, maybe I should add some of the ..” → “No, maybe I should add some of the...” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…”<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines added, 40 lines changed<br>· text: “Good. Take this stone, it will allow you to enter the tomb. Go below.…” → “[Lodar hands you an odd looking stone that seems to be glowing from w…”<br>· text: “Maybe it was in here ..” → “Maybe it was in here...” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I tell you, something affected the forest. Myself, I felt my stomach …” → “I tell you, something affected the forest. Myself, I felt my stomach …”<br>· text: “That's the effects of the Hira'zinn. Its desires is to consume the mi…” → “That's the effect of the Hira'zinn. Its desire is to consume the mind…” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Oh, you must be referring to that other boy that was here recently.” → “Oh, you must be referring to that older boy that was here recently.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lodar` |
+    | Type (wiki) | NPC |
     | Spawn group | `lodar` |
     | Loot table | `shop_lodar` |
     | Conversation | `lodar` |

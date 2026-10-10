@@ -1,8 +1,10 @@
 ---
-description: "Charwood goblin is an NPC who can also be fought in Andor's Trail, found in Charwood."
+description: "Charwood goblin is an NPC you can also fight in Andor's Trail, found in Charwood."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles4_18.png){ .sprite } Charwood goblin
+
+**Where to find Charwood goblin:** [Charwood, Lostmine 0 and 14 more](#v-charwdg4), [Charwood, Waytolostmine 0](#v-charwdgg)
 
 <div class="infobox" markdown>
 
@@ -10,51 +12,35 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Charwood |
 | **Class** | Humanoid |
 | **HP** | 73–81 |
 | **XP when defeated** | 151–162 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Charwood goblin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, appearance. Each entry has its own section below.
+## Charwood, Lostmine 0 and 14 more { #v-charwdg4 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`charwdg4`](#v-charwdg4) | Enemy | Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md) (+13 more) | – | 73 |
-| [`charwdgg`](#v-charwdgg) | NPC/Enemy | Charwood: [Waytolostmine 0](../maps/waytolostmine0.md#pin-npc-charwdgg) | – | 81 |
+**Where:** Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md), Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md), Charwood: [Minerhouse 0](../maps/minerhouse0.md), Charwood: [Minerhouse 1](../maps/minerhouse1.md) (+9 more)
 
-## Charwood, Lostmine 0 and 14 more (charwdg4) { #v-charwdg4 }
+### Combat
 
-**Entry ID:** `charwdg4` · **Type:** Enemy
-
-**Location:** Charwood: [Lostmine 0](../maps/lostmine0.md), Charwood: [Lostmine 1](../maps/lostmine1.md), Charwood: [Lostmine 1a](../maps/lostmine1a.md), Charwood: [Lostmine 2](../maps/lostmine2.md), Charwood: [Minerhouse 0](../maps/minerhouse0.md), Charwood: [Minerhouse 1](../maps/minerhouse1.md) (+9 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 73 |
 | XP when defeated | 151 |
 | Damage | 7 to 9 |
-| Attack chance | 144 |
-| Block chance | 63 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 6 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 25 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 17% |
+| AC | 144 |
+| BC | 63 |
+| DR | 4 |
+| Attacks per turn | 1 (6 AP each, 10 AP) |
+| Crit chance | 17% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -97,74 +83,29 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (charwdg4)"
+## Charwood, Waytolostmine 0 { #v-charwdgg }
 
-    | | |
-    |---|---|
-    | Entry ID | `charwdg4` |
-    | Spawn group | `charwdg2` |
-    | Loot table | `charwdg` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles4:18` |
-    | Defined in | `res/raw/monsterlist_v070_charwood.json` |
+**Where:** Charwood: [Waytolostmine 0](../maps/waytolostmine0.md#pin-npc-charwdgg)
 
-    Raw data:
+!!! warning "You can fight Charwood goblin"
+    Answering “I bow to no one.” during [Destined for great things](../quests/charwood1.md#stage-40) starts a fight with Charwood goblin.
 
-    ```json
-    {
-     "id": "charwdg4",
-     "name": "Charwood goblin",
-     "iconID": "monsters_rltiles4:18",
-     "maxHP": 73,
-     "moveCost": 5,
-     "attackDamage": {
-      "min": 7,
-      "max": 9
-     },
-     "spawnGroup": "charwdg2",
-     "droplistID": "charwdg",
-     "attackCost": 6,
-     "attackChance": 144,
-     "criticalSkill": 25,
-     "criticalMultiplier": 3.0,
-     "blockChance": 63,
-     "damageResistance": 4
-    }
-    ```
+### Combat
 
-
-## Charwood, Waytolostmine 0 (charwdgg) { #v-charwdgg }
-
-**Entry ID:** `charwdgg` · **Type:** NPC/Enemy
-
-**Location:** Charwood: [Waytolostmine 0](../maps/waytolostmine0.md#pin-npc-charwdgg)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 81 |
 | XP when defeated | 162 |
 | Damage | 7 to 9 |
-| Attack chance | 147 |
-| Block chance | 65 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 6 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 25 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 17% |
+| AC | 147 |
+| BC | 65 |
+| DR | 4 |
+| Attacks per turn | 1 (6 AP each, 10 AP) |
+| Crit chance | 17% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -175,12 +116,6 @@ description: "Charwood goblin is an NPC who can also be fought in Andor's Trail,
 | [Broken wooden buckler](../items/broken_buckler.md) | 1% | 1 |
 | [Ointment of bleeding wounds](../items/pot_bleeding_ointment.md) | 5% | 1 |
 | [Raw perch](../items/rawperch.md) | 10% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytolostmine 0](../maps/waytolostmine0.md) | Charwood | 1 | – |
 
 ### Quests
 
@@ -216,11 +151,70 @@ Set your quest stages and items, then talk to Charwood goblin. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (charwdgg)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Charwood goblin. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `charwdg4` | Enemy | [Charwood, Lostmine 0 and 14 more](#v-charwdg4) |
+| `charwdgg` | NPC/Enemy | [Charwood, Waytolostmine 0](#v-charwdgg) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: charwdg4"
+
+    | | |
+    |---|---|
+    | Entry ID | `charwdg4` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `charwdg2` |
+    | Loot table | `charwdg` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles4:18` |
+    | Defined in | `res/raw/monsterlist_v070_charwood.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "charwdg4",
+     "name": "Charwood goblin",
+     "iconID": "monsters_rltiles4:18",
+     "maxHP": 73,
+     "moveCost": 5,
+     "attackDamage": {
+      "min": 7,
+      "max": 9
+     },
+     "spawnGroup": "charwdg2",
+     "droplistID": "charwdg",
+     "attackCost": 6,
+     "attackChance": 144,
+     "criticalSkill": 25,
+     "criticalMultiplier": 3.0,
+     "blockChance": 63,
+     "damageResistance": 4
+    }
+    ```
+
+??? info "Technical information: charwdgg"
 
     | | |
     |---|---|
     | Entry ID | `charwdgg` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `charwdgg` |
     | Loot table | `charwdg` |
     | Conversation | `charwoodm` |
@@ -253,16 +247,6 @@ Set your quest stages and items, then talk to Charwood goblin. Same rules as the
      "damageResistance": 4
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

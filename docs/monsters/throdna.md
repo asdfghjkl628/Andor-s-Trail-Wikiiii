@@ -12,10 +12,9 @@ description: "Throdna is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Lights in the dark](../quests/kazaul.md) |
 | **Found in** | Prim |
-| **Entry ID** | `throdna` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -348,17 +347,22 @@ Set your quest stages and items, then talk to Throdna. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “Hm, maybe you could be of use here..” → “Hmm, maybe you could be of use here...”<br>· text: “We need you to do two things. First, you must find the shrine of Kaza…” → “We need you to do two things. First, you must find the shrine of Kaza…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 17 lines changed<br>· text: “Ok. Find me the pieces of the ritual that the former messenger carrie…” → “OK. Find me the pieces of the ritual that the former messenger carrie…”<br>· text: “Kazaul.. Shadow.. what was it again?” → “Kazaul ... Shadow ... what was it again?” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 22 lines added, 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `throdna` |
+    | Type (wiki) | NPC |
     | Spawn group | `throdna` |
     | Loot table | – |
     | Conversation | `throdna_start` |

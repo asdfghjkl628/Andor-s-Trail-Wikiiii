@@ -12,10 +12,9 @@ description: "Vilegard armorer is a non-player character (NPC) in Andor's Trail,
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [Trusting an outsider](../quests/vilegard.md) |
 | **Found in** | Vilegard |
-| **Entry ID** | `vilegard_armorer` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -87,11 +86,16 @@ Set your quest stages and items, then talk to Vilegard armorer. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `vilegard_armorer` |
+    | Type (wiki) | NPC |
     | Spawn group | `vg_armorer` |
     | Loot table | `shop_vg_armorer` |
     | Conversation | `vilegard_armorer_select` |

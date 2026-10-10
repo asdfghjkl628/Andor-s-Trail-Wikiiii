@@ -1,8 +1,10 @@
 ---
-description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found in Bogsten 4, Mywildcave 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1. Teaches Spore poison immunity."
+description: "Zuul'khan is an NPC you can also fight in Andor's Trail, found in Bogsten 4, Mywildcave 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1. Teaches Spore poison immunity."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles2_88.png){ .sprite } Zuul'khan
+
+**Where to find Zuul'khan:** [Bogsten 4](#v-zuul_khan), [Mywildcave 4](#v-gison_thiefboss), [Mushroom m 2 3](#v-zuul_khan2), [Mushroom m 2 6](#v-zuul_khan3), [Mushroom m 2 8](#v-zuul_khan4), [Mushroom m 3 1](#v-zuul_khan9)
 
 <div class="infobox" markdown>
 
@@ -10,71 +12,47 @@ description: "Zuul'khan is an NPC who can also be fought in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Teaches [Spore poison immunity](../skills/sporeImmunity.md) |
 | **Found in** | Bogsten 4, Mywildcave 4, Mushroom m 2 3, Mushroom m 2 6, Mushroom m 2 8, Mushroom m 3 1 |
 | **Class** | Humanoid |
 | **HP** | 175 |
 | **XP when defeated** | 214–266 |
-| **Entries in game data** | 6 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-!!! info "6 entries in the game data"
-    The game data defines 6 separate characters named Zuul'khan. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Bogsten 4 { #v-zuul_khan }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`zuul_khan`](#v-zuul_khan) | NPC/Enemy | [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan) | teaches [Spore poison immunity](../skills/sporeImmunity.md) | 175 |
-| [`gison_thiefboss`](#v-gison_thiefboss) | NPC/Enemy | [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thiefboss) | – | 175 |
-| [`zuul_khan2`](#v-zuul_khan2) | NPC/Enemy | [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2) | – | 175 |
-| [`zuul_khan3`](#v-zuul_khan3) | NPC/Enemy | [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3) | – | 175 |
-| [`zuul_khan4`](#v-zuul_khan4) | NPC/Enemy | [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4) | – | 175 |
-| [`zuul_khan9`](#v-zuul_khan9) | NPC/Enemy | [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9) | – | 175 |
+**Where:** [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan) · **Role:** Teaches [Spore poison immunity](../skills/sporeImmunity.md)
 
-## Bogsten 4 (zuul_khan) { #v-zuul_khan }
+!!! warning "You can fight Zuul'khan"
+    The conversation during [Fungi panic](../quests/fungi_panic.md#stage-80) can lead straight into a fight with Zuul'khan.
 
-**Entry ID:** `zuul_khan` · **Type:** NPC/Enemy · **Role:** Teaches [Spore poison immunity](../skills/sporeImmunity.md)
+    The conversation during [Fungi panic](../quests/fungi_panic.md#stage-135) can lead straight into a fight with Zuul'khan.
 
-**Location:** [Bogsten 4](../maps/bogsten4.md#pin-npc-zuul_khan)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 175 |
 | XP when defeated | 214 |
 | Damage | 3 to 6 |
-| Attack chance | 110 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 20 |
-| Attack cost | 5 AP |
-| Attacks per turn | 4 |
-| Move cost | 6 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 4 (5 AP each, 20 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 1 to 10 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Bogsten 4](../maps/bogsten4.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -308,81 +286,29 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan)"
+## Mywildcave 4 { #v-gison_thiefboss }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan` |
-    | Spawn group | `zuul_khan` |
-    | Loot table | `zuul_khan` |
-    | Conversation | `zuul_khan` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:88` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+**Where:** [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thiefboss)
 
-    Raw data:
+!!! warning "You can fight Zuul'khan"
+    Answering “Sorry, I don't think so. I will destroy you and your fungi leader!” starts a fight with Zuul'khan.
 
-    ```json
-    {
-     "id": "zuul_khan",
-     "name": "Zuul'khan",
-     "iconID": "monsters_rltiles2:88",
-     "maxHP": 175,
-     "maxAP": 20,
-     "moveCost": 6,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 3,
-      "max": 6
-     },
-     "spawnGroup": "zuul_khan",
-     "phraseID": "zuul_khan",
-     "droplistID": "zuul_khan",
-     "attackCost": 5,
-     "attackChance": 110,
-     "blockChance": 40
-    }
-    ```
+### Combat
 
-
-## Mywildcave 4 (gison_thiefboss) { #v-gison_thiefboss }
-
-**Entry ID:** `gison_thiefboss` · **Type:** NPC/Enemy
-
-**Location:** [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thiefboss)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 175 |
 | XP when defeated | 266 |
 | Damage | 3 to 6 |
-| Attack chance | 120 |
-| Block chance | 60 |
-| Damage resistance | 1 |
-| Max AP | 20 |
-| Attack cost | 5 AP |
-| Attacks per turn | 4 |
-| Move cost | 6 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
+| AC | 120 |
+| BC | 60 |
+| DR | 1 |
+| Attacks per turn | 4 (5 AP each, 20 AP) |
+| Crit chance | 15% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mywildcave 4](../maps/mywildcave4.md) | – | 1 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Quests that count defeats
 
@@ -432,89 +358,35 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (gison_thiefboss)"
+## Mushroom m 2 3 { #v-zuul_khan2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `gison_thiefboss` |
-    | Spawn group | `gison_thiefboss` |
-    | Loot table | – |
-    | Conversation | `gison_thiefboss` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:88` |
-    | Defined in | `res/raw/monsterlist_gison.json` |
+**Where:** [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2)
 
-    Raw data:
+!!! warning "You can fight Zuul'khan"
+    Answering “Attack?” starts a fight with Zuul'khan.
 
-    ```json
-    {
-     "id": "gison_thiefboss",
-     "name": "Zuul'khan",
-     "iconID": "monsters_rltiles2:88",
-     "maxHP": 175,
-     "maxAP": 20,
-     "moveCost": 6,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 3,
-      "max": 6
-     },
-     "spawnGroup": "gison_thiefboss",
-     "phraseID": "gison_thiefboss",
-     "attackCost": 5,
-     "attackChance": 120,
-     "criticalSkill": 20,
-     "criticalMultiplier": 2.0,
-     "blockChance": 60,
-     "damageResistance": 1
-    }
-    ```
+### Combat
 
-
-## Mushroom m 2 3 (zuul_khan2) { #v-zuul_khan2 }
-
-**Entry ID:** `zuul_khan2` · **Type:** NPC/Enemy
-
-**Location:** [Mushroom m 2 3](../maps/mushroom_m2_3.md#pin-npc-zuul_khan2)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 175 |
 | XP when defeated | 214 |
 | Damage | 3 to 6 |
-| Attack chance | 110 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 20 |
-| Attack cost | 5 AP |
-| Attacks per turn | 4 |
-| Move cost | 6 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 4 (5 AP each, 20 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Insect wing](../items/insectwing.md) | 100% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mushroom m 2 3](../maps/mushroom_m2_3.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -555,87 +427,35 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan2)"
+## Mushroom m 2 6 { #v-zuul_khan3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan2` |
-    | Spawn group | `zuul_khan2` |
-    | Loot table | `zuul_khan2` |
-    | Conversation | `zuul_khan2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:88` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+**Where:** [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3)
 
-    Raw data:
+!!! warning "You can fight Zuul'khan"
+    Answering “We'll see.” starts a fight with Zuul'khan.
 
-    ```json
-    {
-     "id": "zuul_khan2",
-     "name": "Zuul'khan",
-     "iconID": "monsters_rltiles2:88",
-     "maxHP": 175,
-     "maxAP": 20,
-     "moveCost": 6,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 3,
-      "max": 6
-     },
-     "spawnGroup": "zuul_khan2",
-     "phraseID": "zuul_khan2",
-     "droplistID": "zuul_khan2",
-     "attackCost": 5,
-     "attackChance": 110,
-     "blockChance": 40
-    }
-    ```
+### Combat
 
-
-## Mushroom m 2 6 (zuul_khan3) { #v-zuul_khan3 }
-
-**Entry ID:** `zuul_khan3` · **Type:** NPC/Enemy
-
-**Location:** [Mushroom m 2 6](../maps/mushroom_m2_6.md#pin-npc-zuul_khan3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 175 |
 | XP when defeated | 214 |
 | Damage | 3 to 6 |
-| Attack chance | 110 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 20 |
-| Attack cost | 5 AP |
-| Attacks per turn | 4 |
-| Move cost | 6 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 4 (5 AP each, 20 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Claws](../items/claws.md) | 100% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mushroom m 2 6](../maps/mushroom_m2_6.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -672,87 +492,35 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan3)"
+## Mushroom m 2 8 { #v-zuul_khan4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan3` |
-    | Spawn group | `zuul_khan3` |
-    | Loot table | `zuul_khan3` |
-    | Conversation | `zuul_khan3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:88` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+**Where:** [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4)
 
-    Raw data:
+!!! warning "You can fight Zuul'khan"
+    Answering “Eh - no, I don't think so.” starts a fight with Zuul'khan.
 
-    ```json
-    {
-     "id": "zuul_khan3",
-     "name": "Zuul'khan",
-     "iconID": "monsters_rltiles2:88",
-     "maxHP": 175,
-     "maxAP": 20,
-     "moveCost": 6,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 3,
-      "max": 6
-     },
-     "spawnGroup": "zuul_khan3",
-     "phraseID": "zuul_khan3",
-     "droplistID": "zuul_khan3",
-     "attackCost": 5,
-     "attackChance": 110,
-     "blockChance": 40
-    }
-    ```
+### Combat
 
-
-## Mushroom m 2 8 (zuul_khan4) { #v-zuul_khan4 }
-
-**Entry ID:** `zuul_khan4` · **Type:** NPC/Enemy
-
-**Location:** [Mushroom m 2 8](../maps/mushroom_m2_8.md#pin-npc-zuul_khan4)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 175 |
 | XP when defeated | 214 |
 | Damage | 3 to 6 |
-| Attack chance | 110 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 20 |
-| Attack cost | 5 AP |
-| Attacks per turn | 4 |
-| Move cost | 6 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 4 (5 AP each, 20 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Rat tail](../items/rat_tail.md) | 100% | 1 to 2 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mushroom m 2 8](../maps/mushroom_m2_8.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -789,87 +557,35 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan4)"
+## Mushroom m 3 1 { #v-zuul_khan9 }
 
-    | | |
-    |---|---|
-    | Entry ID | `zuul_khan4` |
-    | Spawn group | `zuul_khan4` |
-    | Loot table | `zuul_khan4` |
-    | Conversation | `zuul_khan4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles2:88` |
-    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+**Where:** [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9)
 
-    Raw data:
+!!! warning "You can fight Zuul'khan"
+    Answering “We'll see...” starts a fight with Zuul'khan.
 
-    ```json
-    {
-     "id": "zuul_khan4",
-     "name": "Zuul'khan",
-     "iconID": "monsters_rltiles2:88",
-     "maxHP": 175,
-     "maxAP": 20,
-     "moveCost": 6,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 3,
-      "max": 6
-     },
-     "spawnGroup": "zuul_khan4",
-     "phraseID": "zuul_khan4",
-     "droplistID": "zuul_khan4",
-     "attackCost": 5,
-     "attackChance": 110,
-     "blockChance": 40
-    }
-    ```
+### Combat
 
-
-## Mushroom m 3 1 (zuul_khan9) { #v-zuul_khan9 }
-
-**Entry ID:** `zuul_khan9` · **Type:** NPC/Enemy
-
-**Location:** [Mushroom m 3 1](../maps/mushroom_m3_1.md#pin-npc-zuul_khan9)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 175 |
 | XP when defeated | 214 |
 | Damage | 3 to 6 |
-| Attack chance | 110 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 20 |
-| Attack cost | 5 AP |
-| Attacks per turn | 4 |
-| Move cost | 6 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 4 (5 AP each, 20 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Bone](../items/bone.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mushroom m 3 1](../maps/mushroom_m3_1.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -928,11 +644,233 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (zuul_khan9)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**6 entries.** The game data defines 6 separate characters named Zuul'khan. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `zuul_khan` | NPC/Enemy | [Bogsten 4](#v-zuul_khan) |
+| `gison_thiefboss` | NPC/Enemy | [Mywildcave 4](#v-gison_thiefboss) |
+| `zuul_khan2` | NPC/Enemy | [Mushroom m 2 3](#v-zuul_khan2) |
+| `zuul_khan3` | NPC/Enemy | [Mushroom m 2 6](#v-zuul_khan3) |
+| `zuul_khan4` | NPC/Enemy | [Mushroom m 2 8](#v-zuul_khan4) |
+| `zuul_khan9` | NPC/Enemy | [Mushroom m 3 1](#v-zuul_khan9) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: zuul_khan"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `zuul_khan` |
+    | Loot table | `zuul_khan` |
+    | Conversation | `zuul_khan` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:88` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan",
+     "name": "Zuul'khan",
+     "iconID": "monsters_rltiles2:88",
+     "maxHP": 175,
+     "maxAP": 20,
+     "moveCost": 6,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 6
+     },
+     "spawnGroup": "zuul_khan",
+     "phraseID": "zuul_khan",
+     "droplistID": "zuul_khan",
+     "attackCost": 5,
+     "attackChance": 110,
+     "blockChance": 40
+    }
+    ```
+
+??? info "Technical information: gison_thiefboss"
+
+    | | |
+    |---|---|
+    | Entry ID | `gison_thiefboss` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `gison_thiefboss` |
+    | Loot table | – |
+    | Conversation | `gison_thiefboss` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:88` |
+    | Defined in | `res/raw/monsterlist_gison.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "gison_thiefboss",
+     "name": "Zuul'khan",
+     "iconID": "monsters_rltiles2:88",
+     "maxHP": 175,
+     "maxAP": 20,
+     "moveCost": 6,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 6
+     },
+     "spawnGroup": "gison_thiefboss",
+     "phraseID": "gison_thiefboss",
+     "attackCost": 5,
+     "attackChance": 120,
+     "criticalSkill": 20,
+     "criticalMultiplier": 2.0,
+     "blockChance": 60,
+     "damageResistance": 1
+    }
+    ```
+
+??? info "Technical information: zuul_khan2"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan2` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `zuul_khan2` |
+    | Loot table | `zuul_khan2` |
+    | Conversation | `zuul_khan2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:88` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan2",
+     "name": "Zuul'khan",
+     "iconID": "monsters_rltiles2:88",
+     "maxHP": 175,
+     "maxAP": 20,
+     "moveCost": 6,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 6
+     },
+     "spawnGroup": "zuul_khan2",
+     "phraseID": "zuul_khan2",
+     "droplistID": "zuul_khan2",
+     "attackCost": 5,
+     "attackChance": 110,
+     "blockChance": 40
+    }
+    ```
+
+??? info "Technical information: zuul_khan3"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan3` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `zuul_khan3` |
+    | Loot table | `zuul_khan3` |
+    | Conversation | `zuul_khan3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:88` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan3",
+     "name": "Zuul'khan",
+     "iconID": "monsters_rltiles2:88",
+     "maxHP": 175,
+     "maxAP": 20,
+     "moveCost": 6,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 6
+     },
+     "spawnGroup": "zuul_khan3",
+     "phraseID": "zuul_khan3",
+     "droplistID": "zuul_khan3",
+     "attackCost": 5,
+     "attackChance": 110,
+     "blockChance": 40
+    }
+    ```
+
+??? info "Technical information: zuul_khan4"
+
+    | | |
+    |---|---|
+    | Entry ID | `zuul_khan4` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `zuul_khan4` |
+    | Loot table | `zuul_khan4` |
+    | Conversation | `zuul_khan4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles2:88` |
+    | Defined in | `res/raw/monsterlist_fungi_panic.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "zuul_khan4",
+     "name": "Zuul'khan",
+     "iconID": "monsters_rltiles2:88",
+     "maxHP": 175,
+     "maxAP": 20,
+     "moveCost": 6,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 3,
+      "max": 6
+     },
+     "spawnGroup": "zuul_khan4",
+     "phraseID": "zuul_khan4",
+     "droplistID": "zuul_khan4",
+     "attackCost": 5,
+     "attackChance": 110,
+     "blockChance": 40
+    }
+    ```
+
+??? info "Technical information: zuul_khan9"
 
     | | |
     |---|---|
     | Entry ID | `zuul_khan9` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `zuul_khan9` |
     | Loot table | `zuul_khan9` |
     | Conversation | `zuul_khan9` |
@@ -965,16 +903,6 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
      "blockChance": 40
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

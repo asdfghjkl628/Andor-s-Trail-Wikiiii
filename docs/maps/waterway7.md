@@ -1,5 +1,5 @@
 ---
-description: "Waterway 7 is an outdoor location in Andor's Trail. Enemies: Young erumen lizard, Spotted erumen lizard, Izthiel, Strong izthiel. Exits to Waterway 12, Waterway 6."
+description: "Waterway 7 is an outdoor location in Andor's Trail. Enemies: Izthiel, Young erumen lizard, Spotted erumen lizard, Strong izthiel. Exits to Waterway 12, Waterway 6."
 ---
 
 # Waterway 7
@@ -49,9 +49,9 @@ description: "Waterway 7 is an outdoor location in Andor's Trail. Enemies: Young
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 7 | shares spawn with Spotted erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 7 | shares spawn with Young erumen lizard |
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

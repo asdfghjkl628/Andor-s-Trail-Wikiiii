@@ -56,8 +56,8 @@ description: "Basiliskcave 1 1 3 is an indoor location in Andor's Trail. Enemies
 | [Cave serpent](../monsters/cave_serpent.md) | 24 | 2–5 | 5 | shares spawn with Young cave serpent |
 | [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 30 | 3–7 | 6 | shares spawn with Tough cave serpent |
 | [Tough cave serpent](../monsters/tough_cave_serpent.md) | 40 | 3–9 | 6 | shares spawn with Venomous cave serpent |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

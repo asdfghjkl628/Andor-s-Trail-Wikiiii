@@ -4,38 +4,23 @@ description: "Pupil is a non-player character (NPC) in Andor's Trail, found in B
 
 # ![](../assets/icons/monsters/monsters_ld1_19.png){ .sprite } Pupil
 
+**Where to find Pupil:** [Brimhaven, Brimhaven school](#v-brv_pupil1), [Brimhaven, Brimhaven school](#v-brv_pupil2), [Brimhaven, Brimhaven school](#v-brv_pupil3), [Brimhaven, Brimhaven school](#v-brv_pupil4), [Brimhaven, Brimhaven school](#v-brv_pupil5), [Brimhaven, Brimhaven school](#v-brv_pupil6), [Brimhaven, Brimhaven school](#v-brv_pupil7), [Brimhaven, Brimhaven school](#v-brv_pupil8)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_19.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven |
-| **Entries in game data** | 8 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "8 entries in the game data"
-    The game data defines 8 separate characters named Pupil. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Brimhaven, Brimhaven school { #v-brv_pupil1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brv_pupil1`](#v-brv_pupil1) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil1) | – |
-| [`brv_pupil2`](#v-brv_pupil2) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil2) | – |
-| [`brv_pupil3`](#v-brv_pupil3) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil3) | – |
-| [`brv_pupil4`](#v-brv_pupil4) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil4) | – |
-| [`brv_pupil5`](#v-brv_pupil5) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil5) | – |
-| [`brv_pupil6`](#v-brv_pupil6) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil6) | – |
-| [`brv_pupil7`](#v-brv_pupil7) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil7) | – |
-| [`brv_pupil8`](#v-brv_pupil8) | NPC | Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil8) | – |
-
-## Brimhaven, Brimhaven school (brv_pupil1) { #v-brv_pupil1 }
-
-**Entry ID:** `brv_pupil1` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil1)
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil1)
 
 ### Quests
 
@@ -81,11 +66,233 @@ Set your quest stages and items, then talk to Pupil. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_pupil1)"
+## Brimhaven, Brimhaven school (2) { #v-brv_pupil2 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil2)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven school (3) { #v-brv_pupil3 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil3)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven school (4) { #v-brv_pupil4 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil4)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven school (5) { #v-brv_pupil5 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil5)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven school (6) { #v-brv_pupil6 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil6)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven school (7) { #v-brv_pupil7 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil7)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Brimhaven, Brimhaven school (8) { #v-brv_pupil8 }
+
+**Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil8)
+
+### Quests
+
+- [Lessons learned](../quests/brv_school2.md): stage 110
+- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**8 entries.** The game data defines 8 separate characters named Pupil. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_pupil1` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil1) |
+| `brv_pupil2` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil2) |
+| `brv_pupil3` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil3) |
+| `brv_pupil4` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil4) |
+| `brv_pupil5` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil5) |
+| `brv_pupil6` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil6) |
+| `brv_pupil7` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil7) |
+| `brv_pupil8` | NPC | [Brimhaven, Brimhaven school](#v-brv_pupil8) |
+
+??? info "Technical information: brv_pupil1"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil1` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -109,43 +316,12 @@ Set your quest stages and items, then talk to Pupil. Same rules as the game: sam
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil2) { #v-brv_pupil2 }
-
-**Entry ID:** `brv_pupil2` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil2)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil2)"
+??? info "Technical information: brv_pupil2"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil2` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -169,43 +345,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil3) { #v-brv_pupil3 }
-
-**Entry ID:** `brv_pupil3` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil3)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil3)"
+??? info "Technical information: brv_pupil3"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil3` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -229,43 +374,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil4) { #v-brv_pupil4 }
-
-**Entry ID:** `brv_pupil4` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil4)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil4)"
+??? info "Technical information: brv_pupil4"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil4` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -289,43 +403,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil5) { #v-brv_pupil5 }
-
-**Entry ID:** `brv_pupil5` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil5)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil5)"
+??? info "Technical information: brv_pupil5"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil5` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -349,43 +432,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil6) { #v-brv_pupil6 }
-
-**Entry ID:** `brv_pupil6` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil6)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil6)"
+??? info "Technical information: brv_pupil6"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil6` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -409,43 +461,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil7) { #v-brv_pupil7 }
-
-**Entry ID:** `brv_pupil7` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil7)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil7)"
+??? info "Technical information: brv_pupil7"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil7` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -469,43 +490,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Brimhaven, Brimhaven school (brv_pupil8) { #v-brv_pupil8 }
-
-**Entry ID:** `brv_pupil8` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_pupil8)
-
-### Quests
-
-- [Lessons learned](../quests/brv_school2.md): stage 110
-- [Brimhaven story flags 2 (hidden flag)](../quests/brv_nondisplay2.md): stage 50
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Pupil. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/brv_school_pupil.json" data-npc="Pupil" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [brv_school_pupil](#d-brv_pupil1-brv_school_pupil).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 4 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (brv_pupil8)"
+??? info "Technical information: brv_pupil8"
 
     | | |
     |---|---|
     | Entry ID | `brv_pupil8` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_school_pupil` |
     | Loot table | – |
     | Conversation | `brv_school_pupil` |
@@ -528,7 +518,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "brv_school_pupil"
     }
     ```
-
 
 
 ## Community notes

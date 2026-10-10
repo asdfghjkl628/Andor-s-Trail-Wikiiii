@@ -17,32 +17,26 @@ description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 
 | **Class** | Insect |
 | **HP** | 40 |
 | **XP when defeated** | 70 |
-| **Entry ID** | `waterwayacaterpillar` |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 40 |
 | XP when defeated | 70 |
 | Damage | 3 to 6 |
-| Attack chance | 80 |
-| Block chance | 60 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 80 |
+| BC | 60 |
+| DR | 1 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -73,11 +67,24 @@ description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `waterwayacaterpillar` |
+    | Type (wiki) | Enemy |
     | Spawn group | `waterwayacaterpillar` |
     | Loot table | `waterwayacaterpillar` |
     | Conversation | – |
@@ -112,15 +119,6 @@ description: "Aggressive caterpillar is an enemy in Andor's Trail (insect) with 
      "damageResistance": 1
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

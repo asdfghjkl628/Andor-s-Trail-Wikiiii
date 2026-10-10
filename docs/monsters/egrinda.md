@@ -1,5 +1,5 @@
 ---
-description: "Egrinda is an NPC who can also be fought in Andor's Trail, found in Way to sullengard west 3."
+description: "Egrinda is an NPC you can also fight in Andor's Trail, found in Way to sullengard west 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_146.png){ .sprite } Egrinda
@@ -12,46 +12,42 @@ description: "Egrinda is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Way to sullengard west 3 |
 | **Class** | Humanoid |
 | **HP** | 255 |
 | **XP when defeated** | 989 |
-| **Entry ID** | `egrinda` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Egrinda"
+    The conversation can lead straight into a fight with Egrinda.
 
-## Combat statistics
+    Egrinda turns hostile if you fall out with their faction.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 255 |
 | XP when defeated | 989 |
 | Damage | 8 to 16 |
-| Attack chance | 270 |
-| Block chance | 130 |
-| Damage resistance | 19 |
-| Max AP | 12 |
-| Attack cost | 2 AP |
-| Attacks per turn | 6 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 270 |
+| BC | 130 |
+| DR | 19 |
+| Attacks per turn | 6 (2 AP each, 12 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Baited strike](../conditions/baited_strike.md) (magnitude 4, 2 rounds, 50% chance)
+**Its hits:** On target: [Baited strike](../conditions/baited_strike.md) (magnitude 4, 2 rounds, 50% chance)
 
-**When hit:** On target: [Trapped](../conditions/trapped.md) (magnitude 1, 2 rounds)
+**When you hit it:** On target: [Trapped](../conditions/trapped.md) (magnitude 1, 2 rounds)
 
-**On death:** On self: removes [Trapped](../conditions/trapped.md)
+**When it dies:** On self: removes [Trapped](../conditions/trapped.md)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -59,12 +55,6 @@ description: "Egrinda is an NPC who can also be fought in Andor's Trail, found i
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 1 |
 | [Oaken staff](../items/oaken_staff.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Way to sullengard west 3](../maps/way_to_sullengard_west_3.md) | – | 1 | Appears later, during a quest |
 
 ## Quests
 
@@ -149,11 +139,26 @@ Set your quest stages and items, then talk to Egrinda. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `egrinda` belongs to the faction `egrinda`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `egrinda` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `egrinda` |
     | Loot table | `egrinda_dl` |
     | Conversation | `egrinda_selector` |
@@ -215,15 +220,6 @@ Set your quest stages and items, then talk to Egrinda. Same rules as the game: s
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

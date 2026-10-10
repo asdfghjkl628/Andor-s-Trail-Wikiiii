@@ -1,5 +1,5 @@
 ---
-description: "Rogorn's henchman is an NPC who can also be fought in Andor's Trail, found in Crossroads Guardhouse."
+description: "Rogorn's henchman is an NPC you can also fight in Andor's Trail, found in Crossroads Guardhouse."
 ---
 
 # ![](../assets/icons/monsters/monsters_rogue1_0.png){ .sprite } Rogorn's henchman
@@ -12,40 +12,34 @@ description: "Rogorn's henchman is an NPC who can also be fought in Andor's Trai
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Crossroads Guardhouse |
 | **Class** | Humanoid |
 | **HP** | 130 |
 | **XP when defeated** | 259 |
-| **Entry ID** | `rogorn_henchman` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Rogorn's henchman"
+    Answering “Fight” starts a fight with Rogorn's henchman.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 130 |
 | XP when defeated | 259 |
 | Damage | 5 to 8 |
-| Attack chance | 80 |
-| Block chance | 120 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 80 |
+| BC | 120 |
+| DR | 4 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -54,12 +48,6 @@ description: "Rogorn's henchman is an NPC who can also be fought in Andor's Trai
 | [Gold coins](../items/gold.md) | 70% | 0 to 20 |
 | [Piece of painting](../items/rogorn_qitem.md) | 100% | 1 |
 | [Minor vial of health](../items/health_minor.md) | 100% | 1 to 2 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 2 | – |
 
 ## Dialogue simulator
 
@@ -101,11 +89,24 @@ Set your quest stages and items, then talk to Rogorn's henchman. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `rogorn_henchman` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `rogorn_henchman` |
     | Loot table | `rogorn_henchman` |
     | Conversation | `rogorn_henchman` |
@@ -139,15 +140,6 @@ Set your quest stages and items, then talk to Rogorn's henchman. Same rules as t
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

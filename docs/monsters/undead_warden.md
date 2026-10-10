@@ -1,5 +1,5 @@
 ---
-description: "Undead warden is an NPC who can also be fought in Andor's Trail, found in Flagstone Prison."
+description: "Undead warden is an NPC you can also fight in Andor's Trail, found in Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_liches_0.png){ .sprite } Undead warden
@@ -12,40 +12,34 @@ description: "Undead warden is an NPC who can also be fought in Andor's Trail, f
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Flagstone Prison |
 | **Class** | Undead |
 | **HP** | 57 |
 | **XP when defeated** | 113 |
-| **Entry ID** | `undead_warden` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Undead warden"
+    Answering “Shadow take you.” during [Ancient secrets](../quests/flagstone.md#stage-31) starts a fight with Undead warden.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 57 |
 | XP when defeated | 113 |
 | Damage | 4 to 8 |
-| Attack chance | 120 |
-| Block chance | 60 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 15% |
+| AC | 120 |
+| BC | 60 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 15% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -55,12 +49,6 @@ description: "Undead warden is an NPC who can also be fought in Andor's Trail, f
 | [Sharpened gem](../items/gem4.md) | 100% | 1 |
 | [Regular potion of health](../items/health.md) | 100% | 1 |
 | [Flagstone Warden's necklace](../items/necklace_flagstone.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Flagstone upper](../maps/flagstone_upper.md) | Flagstone Prison | 1 | – |
 
 ## Quests
 
@@ -95,11 +83,24 @@ Set your quest stages and items, then talk to Undead warden. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `undead_warden` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `flagstone_guard0` |
     | Loot table | `flagstone_guard0` |
     | Conversation | `flagstone_guard0` |
@@ -133,15 +134,6 @@ Set your quest stages and items, then talk to Undead warden. Same rules as the g
      "damageResistance": 1
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

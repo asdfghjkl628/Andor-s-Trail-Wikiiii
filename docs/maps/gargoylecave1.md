@@ -1,5 +1,5 @@
 ---
-description: "Gargoylecave 1 is an indoor location in Andor's Trail. Enemies: Young shadow gargoyle, Fledgling shadow gargoyle, Shadow gargoyle, Tough shadow gargoyle. Exits to Road 4 gargoylecave, Gargoylecave 2."
+description: "Gargoylecave 1 is an indoor location in Andor's Trail. Enemies: Young shadow gargoyle, Fledgling shadow gargoyle, Tough shadow gargoyle, Shadow gargoyle. Exits to Road 4 gargoylecave, Gargoylecave 2."
 ---
 
 # Gargoylecave 1
@@ -49,8 +49,8 @@ description: "Gargoylecave 1 is an indoor location in Andor's Trail. Enemies: Yo
 |---|---|---|---|---|
 | [Young shadow gargoyle](../monsters/young_shadow_gargoyle.md) | 35 | 3–9 | 5 | shares spawn with Fledgling shadow gargoyle |
 | [Fledgling shadow gargoyle](../monsters/fledgling_shadow_gargoyle.md) | 36 | 3–9 | 5 | shares spawn with Young shadow gargoyle |
-| [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 | 4–10 | 3 | shares spawn with Tough shadow gargoyle |
 | [Tough shadow gargoyle](../monsters/tough_shadow_gargoyle.md) | 37 | 4–10 | 3 | shares spawn with Shadow gargoyle |
+| [Shadow gargoyle](../monsters/shadow_gargoyle.md) | 37 | 4–10 | 3 | shares spawn with Tough shadow gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

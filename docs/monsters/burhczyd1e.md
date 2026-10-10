@@ -4,55 +4,24 @@ description: "Knight of Elythom is a non-player character (NPC) in Andor's Trail
 
 # ![](../assets/icons/monsters/monsters_men_3.png){ .sprite } Knight of Elythom
 
+**Where to find Knight of Elythom:** [Crossglen, Crossglen hall](#v-burhczyd1e), [Fallhaven, Fallhaven tavern](#v-burhczyd2e), [Loneford, Loneford 6](#v-burhczyd3e), [Vilegard, Vilegard tavern](#v-burhczyd4e), [Stoutford, Stoutford tavern](#v-burhczyd5e), [Blackwater mountain 43](#v-burhczyd6e), [Remgard, Remgard tavern 0](#v-burhczyd7e), [Fallhaven, Woodhouse 2](#v-burhczyd8e), [Prim, Blackwater mountain 22](#v-burhczyd9e), [Brimhaven, Brimhaven tavern 1](#v-burhczyd10e), [Sullengard, Sullengard tavern](#v-burhczyd11e), [Crossroads Guardhouse, Houseatcrossroads 0](#v-burhczyd12e), [Foaming Flask Tavern, Foaming flask](#v-burhczyd13e), [Brightport, Brightport bakery](#v-burhczyd14e), [Remgard, Remgard tavern 0](#v-elythom_kn1), [Remgard, Remgard tavern 0](#v-elythom_kn2), [Appears during a quest or event](#v-burhczyd15e), [Appears during a quest or event](#v-burhczyd16e), [Appears during a quest or event](#v-burhczyd17e), [Appears during a quest or event](#v-burhczyd18e), [Appears during a quest or event](#v-burhczyd19e), [Appears during a quest or event](#v-burhczyd20e), [Appears during a quest or event](#v-burhczyd21e), [Appears during a quest or event](#v-burhczyd22e)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Young merchant](../quests/quest_burhczyd.md) |
 | **Found in** | Crossglen, Fallhaven, Loneford, Vilegard, Stoutford, Blackwater mountain 43, Remgard, Prim, Brimhaven, Sullengard, Crossroads Guardhouse, Foaming Flask Tavern, Brightport |
-| **Entries in game data** | 24 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "24 entries in the game data"
-    The game data defines 24 separate characters named Knight of Elythom. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Crossglen, Crossglen hall { #v-burhczyd1e }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`burhczyd1e`](#v-burhczyd1e) | NPC | Crossglen: [Crossglen hall](../maps/crossglen_hall.md#pin-npc-burhczyd1e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd2e`](#v-burhczyd2e) | NPC | Fallhaven: [Fallhaven tavern](../maps/fallhaven_tavern.md#pin-npc-burhczyd2e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd3e`](#v-burhczyd3e) | NPC | Loneford: [Loneford 6](../maps/loneford6.md#pin-npc-burhczyd3e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd4e`](#v-burhczyd4e) | NPC | Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-burhczyd4e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd5e`](#v-burhczyd5e) | NPC | Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-burhczyd5e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd6e`](#v-burhczyd6e) | NPC | [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-burhczyd6e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd7e`](#v-burhczyd7e) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-burhczyd7e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd8e`](#v-burhczyd8e) | NPC | Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-burhczyd8e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd9e`](#v-burhczyd9e) | NPC | Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-burhczyd9e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd10e`](#v-burhczyd10e) | NPC | Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-burhczyd10e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd11e`](#v-burhczyd11e) | NPC | Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-burhczyd11e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd12e`](#v-burhczyd12e) | NPC | Crossroads Guardhouse: [Houseatcrossroads 0](../maps/houseatcrossroads0.md#pin-npc-burhczyd12e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd13e`](#v-burhczyd13e) | NPC | Foaming Flask Tavern: [Foaming flask](../maps/foaming_flask.md#pin-npc-burhczyd13e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd14e`](#v-burhczyd14e) | NPC | Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-burhczyd14e) | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`elythom_kn1`](#v-elythom_kn1) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-elythom_kn1) | – |
-| [`elythom_kn2`](#v-elythom_kn2) | NPC | Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-elythom_kn2) | – |
-| [`burhczyd15e`](#v-burhczyd15e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd16e`](#v-burhczyd16e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd17e`](#v-burhczyd17e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd18e`](#v-burhczyd18e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd19e`](#v-burhczyd19e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd20e`](#v-burhczyd20e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd21e`](#v-burhczyd21e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-| [`burhczyd22e`](#v-burhczyd22e) | NPC | Not on a map | starts [Young merchant](../quests/quest_burhczyd.md) |
-
-## Crossglen, Crossglen hall (burhczyd1e) { #v-burhczyd1e }
-
-**Entry ID:** `burhczyd1e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Crossglen: [Crossglen hall](../maps/crossglen_hall.md#pin-npc-burhczyd1e)
+**Where:** Crossglen: [Crossglen hall](../maps/crossglen_hall.md#pin-npc-burhczyd1e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -740,49 +709,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd1e)"
+## Fallhaven, Fallhaven tavern { #v-burhczyd2e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd1e` |
-    | Spawn group | `burhczyd1e` |
-    | Loot table | – |
-    | Conversation | `burhczyd1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd1e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd1"
-    }
-    ```
-
-
-## Fallhaven, Fallhaven tavern (burhczyd2e) { #v-burhczyd2e }
-
-**Entry ID:** `burhczyd2e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Fallhaven: [Fallhaven tavern](../maps/fallhaven_tavern.md#pin-npc-burhczyd2e)
+**Where:** Fallhaven: [Fallhaven tavern](../maps/fallhaven_tavern.md#pin-npc-burhczyd2e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -815,49 +755,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd2e)"
+## Loneford, Loneford 6 { #v-burhczyd3e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd2e` |
-    | Spawn group | `burhczyd2e` |
-    | Loot table | – |
-    | Conversation | `burhczyd2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd2e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd2"
-    }
-    ```
-
-
-## Loneford, Loneford 6 (burhczyd3e) { #v-burhczyd3e }
-
-**Entry ID:** `burhczyd3e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Loneford: [Loneford 6](../maps/loneford6.md#pin-npc-burhczyd3e)
+**Where:** Loneford: [Loneford 6](../maps/loneford6.md#pin-npc-burhczyd3e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -890,49 +801,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd3e)"
+## Vilegard, Vilegard tavern { #v-burhczyd4e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd3e` |
-    | Spawn group | `burhczyd3e` |
-    | Loot table | – |
-    | Conversation | `burhczyd3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd3e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd3"
-    }
-    ```
-
-
-## Vilegard, Vilegard tavern (burhczyd4e) { #v-burhczyd4e }
-
-**Entry ID:** `burhczyd4e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-burhczyd4e)
+**Where:** Vilegard: [Vilegard tavern](../maps/vilegard_tavern.md#pin-npc-burhczyd4e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -965,49 +847,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd4e)"
+## Stoutford, Stoutford tavern { #v-burhczyd5e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd4e` |
-    | Spawn group | `burhczyd4e` |
-    | Loot table | – |
-    | Conversation | `burhczyd4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd4e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd4"
-    }
-    ```
-
-
-## Stoutford, Stoutford tavern (burhczyd5e) { #v-burhczyd5e }
-
-**Entry ID:** `burhczyd5e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-burhczyd5e)
+**Where:** Stoutford: [Stoutford tavern](../maps/stoutford_tavern.md#pin-npc-burhczyd5e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1040,49 +893,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd5e)"
+## Blackwater mountain 43 { #v-burhczyd6e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd5e` |
-    | Spawn group | `burhczyd5e` |
-    | Loot table | – |
-    | Conversation | `burhczyd5` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd5e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd5"
-    }
-    ```
-
-
-## Blackwater mountain 43 (burhczyd6e) { #v-burhczyd6e }
-
-**Entry ID:** `burhczyd6e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-burhczyd6e)
+**Where:** [Blackwater mountain 43](../maps/blackwater_mountain43.md#pin-npc-burhczyd6e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1115,49 +939,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd6e)"
+## Remgard, Remgard tavern 0 { #v-burhczyd7e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd6e` |
-    | Spawn group | `burhczyd6e` |
-    | Loot table | – |
-    | Conversation | `burhczyd6` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd6e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd6"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 0 (burhczyd7e) { #v-burhczyd7e }
-
-**Entry ID:** `burhczyd7e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-burhczyd7e)
+**Where:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-burhczyd7e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1190,49 +985,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd7e)"
+## Fallhaven, Woodhouse 2 { #v-burhczyd8e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd7e` |
-    | Spawn group | `burhczyd7e` |
-    | Loot table | – |
-    | Conversation | `burhczyd7` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd7e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd7"
-    }
-    ```
-
-
-## Fallhaven, Woodhouse 2 (burhczyd8e) { #v-burhczyd8e }
-
-**Entry ID:** `burhczyd8e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-burhczyd8e)
+**Where:** Fallhaven: [Woodhouse 2](../maps/woodhouse2.md#pin-npc-burhczyd8e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1265,49 +1031,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd8e)"
+## Prim, Blackwater mountain 22 { #v-burhczyd9e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd8e` |
-    | Spawn group | `burhczyd8e` |
-    | Loot table | – |
-    | Conversation | `burhczyd8` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd8e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd8"
-    }
-    ```
-
-
-## Prim, Blackwater mountain 22 (burhczyd9e) { #v-burhczyd9e }
-
-**Entry ID:** `burhczyd9e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-burhczyd9e)
+**Where:** Prim: [Blackwater mountain 22](../maps/blackwater_mountain22.md#pin-npc-burhczyd9e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1340,49 +1077,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 140 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 26 lines added, 25 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd9e)"
+## Brimhaven, Brimhaven tavern 1 { #v-burhczyd10e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd9e` |
-    | Spawn group | `burhczyd9e` |
-    | Loot table | – |
-    | Conversation | `burhczyd9` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd9e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd9"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern 1 (burhczyd10e) { #v-burhczyd10e }
-
-**Entry ID:** `burhczyd10e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-burhczyd10e)
+**Where:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-burhczyd10e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1415,49 +1123,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd10e)"
+## Sullengard, Sullengard tavern { #v-burhczyd11e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd10e` |
-    | Spawn group | `burhczyd10e` |
-    | Loot table | – |
-    | Conversation | `burhczyd10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd10e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd10"
-    }
-    ```
-
-
-## Sullengard, Sullengard tavern (burhczyd11e) { #v-burhczyd11e }
-
-**Entry ID:** `burhczyd11e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-burhczyd11e)
+**Where:** Sullengard: [Sullengard tavern](../maps/sullengard_tavern.md#pin-npc-burhczyd11e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1490,49 +1169,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd11e)"
+## Crossroads Guardhouse, Houseatcrossroads 0 { #v-burhczyd12e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd11e` |
-    | Spawn group | `burhczyd11e` |
-    | Loot table | – |
-    | Conversation | `burhczyd11` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd11e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd11"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Houseatcrossroads 0 (burhczyd12e) { #v-burhczyd12e }
-
-**Entry ID:** `burhczyd12e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Crossroads Guardhouse: [Houseatcrossroads 0](../maps/houseatcrossroads0.md#pin-npc-burhczyd12e)
+**Where:** Crossroads Guardhouse: [Houseatcrossroads 0](../maps/houseatcrossroads0.md#pin-npc-burhczyd12e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1565,49 +1215,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 27 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Dialogue: 105 lines added, 26 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd12e)"
+## Foaming Flask Tavern, Foaming flask { #v-burhczyd13e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd12e` |
-    | Spawn group | `burhczyd12e` |
-    | Loot table | – |
-    | Conversation | `burhczyd12` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd12e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd12"
-    }
-    ```
-
-
-## Foaming Flask Tavern, Foaming flask (burhczyd13e) { #v-burhczyd13e }
-
-**Entry ID:** `burhczyd13e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Foaming Flask Tavern: [Foaming flask](../maps/foaming_flask.md#pin-npc-burhczyd13e)
+**Where:** Foaming Flask Tavern: [Foaming flask](../maps/foaming_flask.md#pin-npc-burhczyd13e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1640,49 +1261,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd13e)"
+## Brightport, Brightport bakery { #v-burhczyd14e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd13e` |
-    | Spawn group | `burhczyd13e` |
-    | Loot table | – |
-    | Conversation | `burhczyd13` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd13e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd13"
-    }
-    ```
-
-
-## Brightport, Brightport bakery (burhczyd14e) { #v-burhczyd14e }
-
-**Entry ID:** `burhczyd14e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-burhczyd14e)
+**Where:** Brightport: [Brightport bakery](../maps/brightport_bakery.md#pin-npc-burhczyd14e) · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1715,49 +1307,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd14e)"
+## Remgard, Remgard tavern 0 (2) { #v-elythom_kn1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd14e` |
-    | Spawn group | `burhczyd14e` |
-    | Loot table | – |
-    | Conversation | `burhczyd14` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd14e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd14"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 0 (elythom_kn1) { #v-elythom_kn1 }
-
-**Entry ID:** `elythom_kn1` · **Type:** NPC
-
-**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-elythom_kn1)
+**Where:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-elythom_kn1)
 
 ### Dialogue simulator
 
@@ -1794,38 +1357,9 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (elythom_kn1)"
+## Remgard, Remgard tavern 0 (3) { #v-elythom_kn2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `elythom_kn1` |
-    | Spawn group | `elythom_knight1` |
-    | Loot table | – |
-    | Conversation | `elythom_knight1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "elythom_kn1",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "monsterClass": "humanoid",
-     "spawnGroup": "elythom_knight1",
-     "phraseID": "elythom_knight1"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 0 (elythom_kn2) { #v-elythom_kn2 }
-
-**Entry ID:** `elythom_kn2` · **Type:** NPC
-
-**Location:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-elythom_kn2)
+**Where:** Remgard: [Remgard tavern 0](../maps/remgard_tavern0.md#pin-npc-elythom_kn2)
 
 ### Dialogue simulator
 
@@ -1856,38 +1390,9 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (elythom_kn2)"
+## Appears during a quest or event { #v-burhczyd15e }
 
-    | | |
-    |---|---|
-    | Entry ID | `elythom_kn2` |
-    | Spawn group | `elythom_knight2` |
-    | Loot table | – |
-    | Conversation | `elythom_knight2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "elythom_kn2",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "monsterClass": "humanoid",
-     "spawnGroup": "elythom_knight2",
-     "phraseID": "elythom_knight2"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd15e) { #v-burhczyd15e }
-
-**Entry ID:** `burhczyd15e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1920,49 +1425,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd15e)"
+## Appears during a quest or event (2) { #v-burhczyd16e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd15e` |
-    | Spawn group | `burhczyd15e` |
-    | Loot table | – |
-    | Conversation | `burhczyd15` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd15e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd15"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd16e) { #v-burhczyd16e }
-
-**Entry ID:** `burhczyd16e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -1995,49 +1471,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd16e)"
+## Appears during a quest or event (3) { #v-burhczyd17e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd16e` |
-    | Spawn group | `burhczyd16e` |
-    | Loot table | – |
-    | Conversation | `burhczyd16` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd16e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd16"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd17e) { #v-burhczyd17e }
-
-**Entry ID:** `burhczyd17e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -2070,49 +1517,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd17e)"
+## Appears during a quest or event (4) { #v-burhczyd18e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd17e` |
-    | Spawn group | `burhczyd17e` |
-    | Loot table | – |
-    | Conversation | `burhczyd17` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd17e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd17"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd18e) { #v-burhczyd18e }
-
-**Entry ID:** `burhczyd18e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -2145,49 +1563,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd18e)"
+## Appears during a quest or event (5) { #v-burhczyd19e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd18e` |
-    | Spawn group | `burhczyd18e` |
-    | Loot table | – |
-    | Conversation | `burhczyd18` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd18e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd18"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd19e) { #v-burhczyd19e }
-
-**Entry ID:** `burhczyd19e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -2220,49 +1609,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd19e)"
+## Appears during a quest or event (6) { #v-burhczyd20e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd19e` |
-    | Spawn group | `burhczyd19e` |
-    | Loot table | – |
-    | Conversation | `burhczyd19` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd19e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd19"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd20e) { #v-burhczyd20e }
-
-**Entry ID:** `burhczyd20e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -2295,49 +1655,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd20e)"
+## Appears during a quest or event (7) { #v-burhczyd21e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd20e` |
-    | Spawn group | `burhczyd20e` |
-    | Loot table | – |
-    | Conversation | `burhczyd20` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd20e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd20"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd21e) { #v-burhczyd21e }
-
-**Entry ID:** `burhczyd21e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -2370,49 +1701,20 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd21e)"
+## Appears during a quest or event (8) { #v-burhczyd22e }
 
-    | | |
-    |---|---|
-    | Entry ID | `burhczyd21e` |
-    | Spawn group | `burhczyd21e` |
-    | Loot table | – |
-    | Conversation | `burhczyd21` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:3` |
-    | Defined in | `res/raw/monsterlist_burhczyd.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "burhczyd21e",
-     "name": "Knight of Elythom",
-     "iconID": "monsters_men:3",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "burhczyd21"
-    }
-    ```
-
-
-## Not placed on a map (burhczyd22e) { #v-burhczyd22e }
-
-**Entry ID:** `burhczyd22e` · **Type:** NPC · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Young merchant](../quests/quest_burhczyd.md)
 
 ### Quests
 
@@ -2445,22 +1747,678 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 139 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 2 lines changed<br>· text: “You talk of Unmar and his little gang? Are you also no one and nobody…” → “You talk of Umar and his little gang? Are you also no one and nobody …” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 26 lines added, 24 lines changed<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.”<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Don't ask. Still no orders. And I have now idea why.” → “Don't ask. Still no orders. And I have no idea why.” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 18 lines added, 15 lines changed<br>· text: “Sorry, I have to leave.” → “[Softly humming] La la la ...”<br>· text: “As soon as ...todo..., I will go.” → “I'm preparing a little love poem for my girl. As soon as I have the w…” |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line added, 1 line changed |
 | [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 3 lines changed<br>· text: “Oh that. I got bored playing Elythom. I then spread the word that I w…” → “Oh that. I got bored playing Knight of the Elythom. I then spread the…”<br>· text: “You know, once I feasted with the Lord Commander of the Elythom. A ve…” → “You know, once I feasted with the Lord Commander of the Order of Elyt…” |
-| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “Sorry, I have to leave.” → “Oh, it's you, $playername.”<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.” |
+| [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 106 lines added, 25 lines changed<br>· text: “As soon as ...todo..., I will go.” → “Look, my mug is still empty. Sigh.”<br>· text: “Hm ... what?” → “Hmm ... what?” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (burhczyd22e)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**24 entries.** The game data defines 24 separate characters named Knight of Elythom. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `burhczyd1e` | NPC | [Crossglen, Crossglen hall](#v-burhczyd1e) |
+| `burhczyd2e` | NPC | [Fallhaven, Fallhaven tavern](#v-burhczyd2e) |
+| `burhczyd3e` | NPC | [Loneford, Loneford 6](#v-burhczyd3e) |
+| `burhczyd4e` | NPC | [Vilegard, Vilegard tavern](#v-burhczyd4e) |
+| `burhczyd5e` | NPC | [Stoutford, Stoutford tavern](#v-burhczyd5e) |
+| `burhczyd6e` | NPC | [Blackwater mountain 43](#v-burhczyd6e) |
+| `burhczyd7e` | NPC | [Remgard, Remgard tavern 0](#v-burhczyd7e) |
+| `burhczyd8e` | NPC | [Fallhaven, Woodhouse 2](#v-burhczyd8e) |
+| `burhczyd9e` | NPC | [Prim, Blackwater mountain 22](#v-burhczyd9e) |
+| `burhczyd10e` | NPC | [Brimhaven, Brimhaven tavern 1](#v-burhczyd10e) |
+| `burhczyd11e` | NPC | [Sullengard, Sullengard tavern](#v-burhczyd11e) |
+| `burhczyd12e` | NPC | [Crossroads Guardhouse, Houseatcrossroads 0](#v-burhczyd12e) |
+| `burhczyd13e` | NPC | [Foaming Flask Tavern, Foaming flask](#v-burhczyd13e) |
+| `burhczyd14e` | NPC | [Brightport, Brightport bakery](#v-burhczyd14e) |
+| `elythom_kn1` | NPC | [Remgard, Remgard tavern 0](#v-elythom_kn1) |
+| `elythom_kn2` | NPC | [Remgard, Remgard tavern 0](#v-elythom_kn2) |
+| `burhczyd15e` | NPC | [Appears during a quest or event](#v-burhczyd15e) |
+| `burhczyd16e` | NPC | [Appears during a quest or event](#v-burhczyd16e) |
+| `burhczyd17e` | NPC | [Appears during a quest or event](#v-burhczyd17e) |
+| `burhczyd18e` | NPC | [Appears during a quest or event](#v-burhczyd18e) |
+| `burhczyd19e` | NPC | [Appears during a quest or event](#v-burhczyd19e) |
+| `burhczyd20e` | NPC | [Appears during a quest or event](#v-burhczyd20e) |
+| `burhczyd21e` | NPC | [Appears during a quest or event](#v-burhczyd21e) |
+| `burhczyd22e` | NPC | [Appears during a quest or event](#v-burhczyd22e) |
+
+??? info "Technical information: burhczyd1e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd1e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd1e` |
+    | Loot table | – |
+    | Conversation | `burhczyd1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd1e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd1"
+    }
+    ```
+
+??? info "Technical information: burhczyd2e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd2e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd2e` |
+    | Loot table | – |
+    | Conversation | `burhczyd2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd2e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd2"
+    }
+    ```
+
+??? info "Technical information: burhczyd3e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd3e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd3e` |
+    | Loot table | – |
+    | Conversation | `burhczyd3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd3e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd3"
+    }
+    ```
+
+??? info "Technical information: burhczyd4e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd4e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd4e` |
+    | Loot table | – |
+    | Conversation | `burhczyd4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd4e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd4"
+    }
+    ```
+
+??? info "Technical information: burhczyd5e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd5e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd5e` |
+    | Loot table | – |
+    | Conversation | `burhczyd5` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd5e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd5"
+    }
+    ```
+
+??? info "Technical information: burhczyd6e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd6e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd6e` |
+    | Loot table | – |
+    | Conversation | `burhczyd6` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd6e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd6"
+    }
+    ```
+
+??? info "Technical information: burhczyd7e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd7e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd7e` |
+    | Loot table | – |
+    | Conversation | `burhczyd7` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd7e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd7"
+    }
+    ```
+
+??? info "Technical information: burhczyd8e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd8e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd8e` |
+    | Loot table | – |
+    | Conversation | `burhczyd8` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd8e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd8"
+    }
+    ```
+
+??? info "Technical information: burhczyd9e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd9e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd9e` |
+    | Loot table | – |
+    | Conversation | `burhczyd9` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd9e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd9"
+    }
+    ```
+
+??? info "Technical information: burhczyd10e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd10e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd10e` |
+    | Loot table | – |
+    | Conversation | `burhczyd10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd10e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd10"
+    }
+    ```
+
+??? info "Technical information: burhczyd11e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd11e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd11e` |
+    | Loot table | – |
+    | Conversation | `burhczyd11` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd11e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd11"
+    }
+    ```
+
+??? info "Technical information: burhczyd12e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd12e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd12e` |
+    | Loot table | – |
+    | Conversation | `burhczyd12` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd12e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd12"
+    }
+    ```
+
+??? info "Technical information: burhczyd13e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd13e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd13e` |
+    | Loot table | – |
+    | Conversation | `burhczyd13` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd13e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd13"
+    }
+    ```
+
+??? info "Technical information: burhczyd14e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd14e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd14e` |
+    | Loot table | – |
+    | Conversation | `burhczyd14` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd14e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd14"
+    }
+    ```
+
+??? info "Technical information: elythom_kn1"
+
+    | | |
+    |---|---|
+    | Entry ID | `elythom_kn1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `elythom_knight1` |
+    | Loot table | – |
+    | Conversation | `elythom_knight1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "elythom_kn1",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "monsterClass": "humanoid",
+     "spawnGroup": "elythom_knight1",
+     "phraseID": "elythom_knight1"
+    }
+    ```
+
+??? info "Technical information: elythom_kn2"
+
+    | | |
+    |---|---|
+    | Entry ID | `elythom_kn2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `elythom_knight2` |
+    | Loot table | – |
+    | Conversation | `elythom_knight2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "elythom_kn2",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "monsterClass": "humanoid",
+     "spawnGroup": "elythom_knight2",
+     "phraseID": "elythom_knight2"
+    }
+    ```
+
+??? info "Technical information: burhczyd15e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd15e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd15e` |
+    | Loot table | – |
+    | Conversation | `burhczyd15` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd15e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd15"
+    }
+    ```
+
+??? info "Technical information: burhczyd16e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd16e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd16e` |
+    | Loot table | – |
+    | Conversation | `burhczyd16` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd16e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd16"
+    }
+    ```
+
+??? info "Technical information: burhczyd17e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd17e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd17e` |
+    | Loot table | – |
+    | Conversation | `burhczyd17` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd17e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd17"
+    }
+    ```
+
+??? info "Technical information: burhczyd18e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd18e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd18e` |
+    | Loot table | – |
+    | Conversation | `burhczyd18` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd18e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd18"
+    }
+    ```
+
+??? info "Technical information: burhczyd19e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd19e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd19e` |
+    | Loot table | – |
+    | Conversation | `burhczyd19` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd19e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd19"
+    }
+    ```
+
+??? info "Technical information: burhczyd20e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd20e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd20e` |
+    | Loot table | – |
+    | Conversation | `burhczyd20` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd20e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd20"
+    }
+    ```
+
+??? info "Technical information: burhczyd21e"
+
+    | | |
+    |---|---|
+    | Entry ID | `burhczyd21e` |
+    | Type (wiki) | NPC |
+    | Spawn group | `burhczyd21e` |
+    | Loot table | – |
+    | Conversation | `burhczyd21` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:3` |
+    | Defined in | `res/raw/monsterlist_burhczyd.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "burhczyd21e",
+     "name": "Knight of Elythom",
+     "iconID": "monsters_men:3",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "burhczyd21"
+    }
+    ```
+
+??? info "Technical information: burhczyd22e"
 
     | | |
     |---|---|
     | Entry ID | `burhczyd22e` |
+    | Type (wiki) | NPC |
     | Spawn group | `burhczyd22e` |
     | Loot table | – |
     | Conversation | `burhczyd22` |
@@ -2481,7 +2439,6 @@ Set your quest stages and items, then talk to Knight of Elythom. Same rules as t
      "phraseID": "burhczyd22"
     }
     ```
-
 
 
 ## Community notes

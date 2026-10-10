@@ -1,5 +1,5 @@
 ---
-description: "Radiant guardian is an NPC who can also be fought in Andor's Trail, found in Waytobrimhavencave 3a."
+description: "Radiant guardian is an NPC you can also fight in Andor's Trail, found in Waytobrimhavencave 3a."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_20.png){ .sprite } Radiant guardian
@@ -12,46 +12,39 @@ description: "Radiant guardian is an NPC who can also be fought in Andor's Trail
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Waytobrimhavencave 3a |
 | **Class** | Demon |
 | **HP** | 320 |
 | **XP when defeated** | 609 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `toszylae_guard` |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Radiant guardian"
+    Answering “[Attack]” during [An involuntary carrier](../quests/toszylae.md#stage-45) starts a fight with Radiant guardian.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 320 |
 | XP when defeated | 609 |
 | Damage | 2 to 7 |
-| Attack chance | 80 |
-| Block chance | 120 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 80 |
+| BC | 120 |
+| DR | 4 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** Heal HP: 5; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance)
+**Its hits:** Heal HP: 5; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -61,12 +54,6 @@ description: "Radiant guardian is an NPC who can also be fought in Andor's Trail
 | [Regular potion of health](../items/health.md) | 100% | 1 to 2 |
 | [Sharpened gem](../items/gem4.md) | 100% | 1 |
 | [Small rock](../items/rock.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) | – | 1 | – |
 
 ## Quests
 
@@ -159,16 +146,29 @@ Set your quest stages and items, then talk to Radiant guardian. Same rules as th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(Its eyes pulsate in an intense glow as the creature starts moving to…” → “[Its eyes pulsate in an intense glow as the creature starts moving to…”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(It raises its claw-like hands above its head, looking to get ready t…” → “[It raises its claw-like hands above its head, looking to get ready t…”<br>· text: “(The guardian gives off a laughter that makes the hair on the back of…” → “[The guardian gives off a laughter that makes the hair on the back of…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `toszylae_guard` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `toszylae_guard` |
     | Loot table | `toszylae_guard` |
     | Conversation | `toszylae_guard` |
@@ -218,15 +218,6 @@ Set your quest stages and items, then talk to Radiant guardian. Same rules as th
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

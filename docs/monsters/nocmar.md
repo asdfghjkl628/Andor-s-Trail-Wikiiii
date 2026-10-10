@@ -4,7 +4,7 @@ description: "Nocmar is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 # ![](../assets/icons/monsters/monsters_men_8.png){ .sprite } Nocmar
 
-**Where to find Nocmar:** not placed on any map; appears through a quest or scripted event.
+**Where to find Nocmar:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,9 +12,8 @@ description: "Nocmar is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; starts [A place to forge](../quests/place_to_forge.md) |
-| **Entry ID** | `nocmar` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -339,18 +338,23 @@ Set your quest stages and items, then talk to Nocmar. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “*Nocmar places the heartstone among the heartsteel weapons*” → “[Nocmar places the heartstone among the heartsteel weapons]”<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines added, 2 lines changed<br>· text: “Undertell; the pits of the lost souls. Travel south and enter the cav…” → “Undertell; the pits of the lost souls. Travel south to the devastated…” |
-| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Can you see the glow? It's literally pulsating.” → “He studies it with reverence, then grows troubled.”<br>· text: “[Nocmar places the heartstone among the heartsteel weapons]” → “While pausing, Nocmar looks down, then sighs.” |
+| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.”<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `nocmar` |
+    | Type (wiki) | NPC |
     | Spawn group | `nocmar` |
     | Loot table | `nocmar` |
     | Conversation | `nocmar_selector` |

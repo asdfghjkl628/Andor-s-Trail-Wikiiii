@@ -1,5 +1,5 @@
 ---
-description: "Saki is an NPC who can also be fought in Andor's Trail, found in Mt. Galmore."
+description: "Saki is an NPC you can also fight in Andor's Trail, found in Mt. Galmore."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_122.png){ .sprite } Saki
@@ -12,46 +12,41 @@ description: "Saki is an NPC who can also be fought in Andor's Trail, found in M
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Mt. Galmore |
 | **Class** | Ghost |
 | **HP** | 498 |
 | **XP when defeated** | 1,386 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `saki` |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Saki"
+    Answering “You followers of Kazaul - you want everything for yourself! Give them up!” while talking to [Ysrine](../monsters/ysrine.md) starts a fight with Saki.
 
-## Combat statistics
+    Answering “You followers of Kazaul - you want everything for yourself! Give them up!” starts a fight with Saki.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 498 |
 | XP when defeated | 1,386 |
 | Damage | 5 to 7 |
-| Attack chance | 230 |
-| Block chance | 233 |
-| Damage resistance | 14 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 230 |
+| BC | 233 |
+| DR | 14 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance)
+**Its hits:** On target: [Deathtouch](../conditions/deathtouch.md) (magnitude 1, 3 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -202,11 +197,24 @@ Set your quest stages and items, then talk to Saki. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `saki` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `saki` |
     | Loot table | `saki_dl` |
     | Conversation | `saki_selector` |
@@ -248,15 +256,6 @@ Set your quest stages and items, then talk to Saki. Same rules as the game: same
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

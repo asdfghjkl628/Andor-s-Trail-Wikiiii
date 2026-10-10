@@ -4,47 +4,24 @@ description: "Guard is a non-player character (NPC) in Andor's Trail, found in F
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Guard
 
+**Where to find Guard:** [Fallhaven, Fallhaven north-west and 2 more](#v-guard), [Brimhaven, Brimhaven 3 and 1 more](#v-brv_exit_guard), [Brimhaven, Brimhaven prison](#v-brv_prison_guard), [Brimhaven, Brimhaven 4](#v-brv_shop_guard), [Brimhaven, Brimhaven tavern west](#v-brv_tavern_west_guard), [Foaming Flask Tavern, Waytominingtown 2](#v-charwd_guard), [Crossroads Guardhouse, Houseatcrossroads 1](#v-crossroads_backguard), [Crossroads Guardhouse, Crossroads and 2 more](#v-crossroads_guard), [Crossroads Guardhouse, Houseatcrossroads 1](#v-crossroads_sleepguard), [Flagstone Prison, Flagstone 0](#v-flagstone_guard), [Brimhaven, Brimhaven 3](#v-guard_advent), [Loneford, Loneford 10 and 1 more](#v-loneford_guard0), [Loneford, Loneford 2](#v-loneford_wellguard), [Remgard, Remgard church and 1 more](#v-remgard_g1), [Remgard, Remgard church and 1 more](#v-remgard_g2), [Remgard, Remgard tavern 1](#v-remgard_g3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Fair play?](../quests/brv_blackjack.md) |
 | **Found in** | Fallhaven, Brimhaven, Foaming Flask Tavern, Crossroads Guardhouse, Flagstone Prison, Loneford, Remgard |
-| **Entries in game data** | 16 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "16 entries in the game data"
-    The game data defines 16 separate characters named Guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Fallhaven, Fallhaven north-west and 2 more { #v-guard }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guard`](#v-guard) | NPC | Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [Fallhaven prison](../maps/fallhaven_prison.md#pin-npc-guard) (+1 more) | – |
-| [`brv_exit_guard`](#v-brv_exit_guard) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_exit_guard) | – |
-| [`brv_prison_guard`](#v-brv_prison_guard) | NPC | Brimhaven: [Brimhaven prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard) | – |
-| [`brv_shop_guard`](#v-brv_shop_guard) | NPC | Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_shop_guard) | – |
-| [`brv_tavern_west_guard`](#v-brv_tavern_west_guard) | NPC | Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard) | starts [Fair play?](../quests/brv_blackjack.md) |
-| [`charwd_guard`](#v-charwd_guard) | NPC | Foaming Flask Tavern: [Waytominingtown 2](../maps/waytominingtown2.md#pin-npc-charwd_guard) | – |
-| [`crossroads_backguard`](#v-crossroads_backguard) | NPC | Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard) | – |
-| [`crossroads_guard`](#v-crossroads_guard) | NPC | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard) (+1 more) | – |
-| [`crossroads_sleepguard`](#v-crossroads_sleepguard) | NPC | Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard) | – |
-| [`flagstone_guard`](#v-flagstone_guard) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-flagstone_guard) | – |
-| [`guard_advent`](#v-guard_advent) | NPC | Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-guard_advent) | – |
-| [`loneford_guard0`](#v-loneford_guard0) | NPC | Loneford: [Loneford 10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_guard0) | – |
-| [`loneford_wellguard`](#v-loneford_wellguard) | NPC | Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_wellguard) | – |
-| [`remgard_g1`](#v-remgard_g1) | NPC | Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g1) | – |
-| [`remgard_g2`](#v-remgard_g2) | NPC | Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g2) | – |
-| [`remgard_g3`](#v-remgard_g3) | NPC | Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g3) | – |
-
-## Fallhaven, Fallhaven north-west and 2 more (guard) { #v-guard }
-
-**Entry ID:** `guard` · **Type:** NPC
-
-**Location:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [Fallhaven prison](../maps/fallhaven_prison.md#pin-npc-guard), Fallhaven: [Gapfiller 4](../maps/gapfiller4.md#pin-npc-guard)
+**Where:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-guard), Fallhaven: [Fallhaven prison](../maps/fallhaven_prison.md#pin-npc-guard), Fallhaven: [Gapfiller 4](../maps/gapfiller4.md#pin-npc-guard)
 
 ### Locations
 
@@ -80,38 +57,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guard)"
+## Brimhaven, Brimhaven 3 and 1 more { #v-brv_exit_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `guard` |
-    | Spawn group | `fallhaven_guard` |
-    | Loot table | – |
-    | Conversation | `fallhaven_guard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles3:14` |
-    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles3:14",
-     "monsterClass": "humanoid",
-     "spawnGroup": "fallhaven_guard",
-     "phraseID": "fallhaven_guard"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 3 and 1 more (brv_exit_guard) { #v-brv_exit_guard }
-
-**Entry ID:** `brv_exit_guard` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_exit_guard)
+**Where:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-brv_exit_guard), Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_exit_guard)
 
 ### Locations
 
@@ -154,36 +102,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_exit_guard)"
+## Brimhaven, Brimhaven prison { #v-brv_prison_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_exit_guard` |
-    | Spawn group | `brv_exit_guard` |
-    | Loot table | – |
-    | Conversation | `brv_exit_forbidden_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:41` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_exit_guard",
-     "name": "Guard",
-     "iconID": "monsters_ld1:41",
-     "phraseID": "brv_exit_forbidden_10"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven prison (brv_prison_guard) { #v-brv_prison_guard }
-
-**Entry ID:** `brv_prison_guard` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard)
+**Where:** Brimhaven: [Brimhaven prison](../maps/brimhaven_prison.md#pin-npc-brv_prison_guard)
 
 ### Dialogue simulator
 
@@ -224,36 +145,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_prison_guard)"
+## Brimhaven, Brimhaven 4 { #v-brv_shop_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_prison_guard` |
-    | Spawn group | `brv_prison_guard` |
-    | Loot table | – |
-    | Conversation | `brv_prison_guard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:41` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_prison_guard",
-     "name": "Guard",
-     "iconID": "monsters_ld1:41",
-     "phraseID": "brv_prison_guard"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 4 (brv_shop_guard) { #v-brv_shop_guard }
-
-**Entry ID:** `brv_shop_guard` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_shop_guard)
+**Where:** Brimhaven: [Brimhaven 4](../maps/brimhaven4.md#pin-npc-brv_shop_guard)
 
 ### Dialogue simulator
 
@@ -290,36 +184,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_shop_guard)"
+## Brimhaven, Brimhaven tavern west { #v-brv_tavern_west_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_shop_guard` |
-    | Spawn group | `brv_shop_guard` |
-    | Loot table | – |
-    | Conversation | `brv_shop_guard_select` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles3:14` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_shop_guard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles3:14",
-     "phraseID": "brv_shop_guard_select"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern west (brv_tavern_west_guard) { #v-brv_tavern_west_guard }
-
-**Entry ID:** `brv_tavern_west_guard` · **Type:** NPC · **Role:** Starts [Fair play?](../quests/brv_blackjack.md)
-
-**Location:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard)
+**Where:** Brimhaven: [Brimhaven tavern west](../maps/brimhaven_tavern_west.md#pin-npc-brv_tavern_west_guard) · **Role:** Starts [Fair play?](../quests/brv_blackjack.md)
 
 ### Quests
 
@@ -388,39 +255,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_tavern_west_guard)"
+## Foaming Flask Tavern, Waytominingtown 2 { #v-charwd_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_tavern_west_guard` |
-    | Spawn group | `brv_tavern_west_guard` |
-    | Loot table | – |
-    | Conversation | `brv_tavern_west_guard_select` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:69` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_tavern_west_guard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles1:69",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_tavern_west_guard",
-     "phraseID": "brv_tavern_west_guard_select"
-    }
-    ```
-
-
-## Foaming Flask Tavern, Waytominingtown 2 (charwd_guard) { #v-charwd_guard }
-
-**Entry ID:** `charwd_guard` · **Type:** NPC
-
-**Location:** Foaming Flask Tavern: [Waytominingtown 2](../maps/waytominingtown2.md#pin-npc-charwd_guard)
+**Where:** Foaming Flask Tavern: [Waytominingtown 2](../maps/waytominingtown2.md#pin-npc-charwd_guard)
 
 ### Quests
 
@@ -478,37 +315,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (charwd_guard)"
+## Crossroads Guardhouse, Houseatcrossroads 1 { #v-crossroads_backguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `charwd_guard` |
-    | Spawn group | `charwd_guard` |
-    | Loot table | – |
-    | Conversation | `charwd_guard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:114` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "charwd_guard",
-     "name": "Guard",
-     "iconID": "monsters_ld1:114",
-     "unique": 1,
-     "phraseID": "charwd_guard"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Houseatcrossroads 1 (crossroads_backguard) { #v-crossroads_backguard }
-
-**Entry ID:** `crossroads_backguard` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard)
+**Where:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_backguard)
 
 ### Dialogue simulator
 
@@ -580,44 +389,14 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “You would do that? Hm, let me think.” → “You would do that? Hmm, let me think.”<br>· text: “Hm, 800 gold you say? Well, why didn't you say so from the start? Sur…” → “Hmm, 800 gold you say? Well, why didn't you say so from the start? Su…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Hm, 800 gold you say? Well, why didn't you say so from the start? Sur…” → “Hmm, 800 gold you say? Well, why didn't you say so from the start? Su…”<br>· text: “You would do that? Hm, let me think.” → “You would do that? Hmm, let me think.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (crossroads_backguard)"
+## Crossroads Guardhouse, Crossroads and 2 more { #v-crossroads_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `crossroads_backguard` |
-    | Spawn group | `crossroads_backguard` |
-    | Loot table | – |
-    | Conversation | `crossroads_backguard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:76` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "crossroads_backguard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles1:76",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "spawnGroup": "crossroads_backguard",
-     "phraseID": "crossroads_backguard"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Crossroads and 2 more (crossroads_guard) { #v-crossroads_guard }
-
-**Entry ID:** `crossroads_guard` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 3](../maps/houseatcrossroads3.md#pin-npc-crossroads_guard)
+**Where:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 2](../maps/houseatcrossroads2.md#pin-npc-crossroads_guard), Crossroads Guardhouse: [Houseatcrossroads 3](../maps/houseatcrossroads3.md#pin-npc-crossroads_guard)
 
 ### Locations
 
@@ -696,38 +475,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (crossroads_guard)"
+## Crossroads Guardhouse, Houseatcrossroads 1 (2) { #v-crossroads_sleepguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `crossroads_guard` |
-    | Spawn group | `crossroads_guard` |
-    | Loot table | – |
-    | Conversation | `crossroads_guard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:76` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "crossroads_guard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles1:76",
-     "monsterClass": "humanoid",
-     "spawnGroup": "crossroads_guard",
-     "phraseID": "crossroads_guard"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Houseatcrossroads 1 (crossroads_sleepguard) { #v-crossroads_sleepguard }
-
-**Entry ID:** `crossroads_sleepguard` · **Type:** NPC
-
-**Location:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard)
+**Where:** Crossroads Guardhouse: [Houseatcrossroads 1](../maps/houseatcrossroads1.md#pin-npc-crossroads_sleepguard)
 
 ### Quests
 
@@ -785,38 +535,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (crossroads_sleepguard)"
+## Flagstone Prison, Flagstone 0 { #v-flagstone_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `crossroads_sleepguard` |
-    | Spawn group | `crossroads_sleepguard` |
-    | Loot table | – |
-    | Conversation | `crossroads_sleepguard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:76` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "crossroads_sleepguard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles1:76",
-     "monsterClass": "humanoid",
-     "spawnGroup": "crossroads_sleepguard",
-     "phraseID": "crossroads_sleepguard"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 (flagstone_guard) { #v-flagstone_guard }
-
-**Entry ID:** `flagstone_guard` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-flagstone_guard)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-flagstone_guard)
 
 ### Dialogue simulator
 
@@ -844,37 +565,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (flagstone_guard)"
+## Brimhaven, Brimhaven 3 { #v-guard_advent }
 
-    | | |
-    |---|---|
-    | Entry ID | `flagstone_guard` |
-    | Spawn group | `flagstone_guard` |
-    | Loot table | – |
-    | Conversation | `flagstone_guard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:44` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "flagstone_guard",
-     "name": "Guard",
-     "iconID": "monsters_tometik2:44",
-     "spawnGroup": "flagstone_guard",
-     "phraseID": "flagstone_guard"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven 3 (guard_advent) { #v-guard_advent }
-
-**Entry ID:** `guard_advent` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-guard_advent)
+**Where:** Brimhaven: [Brimhaven 3](../maps/brimhaven3.md#pin-npc-guard_advent)
 
 ### Dialogue simulator
 
@@ -979,36 +672,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guard_advent)"
+## Loneford, Loneford 10 and 1 more { #v-loneford_guard0 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guard_advent` |
-    | Spawn group | `guard_advent` |
-    | Loot table | – |
-    | Conversation | `guard_advent` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:41` |
-    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guard_advent",
-     "name": "Guard",
-     "iconID": "monsters_ld1:41",
-     "phraseID": "guard_advent"
-    }
-    ```
-
-
-## Loneford, Loneford 10 and 1 more (loneford_guard0) { #v-loneford_guard0 }
-
-**Entry ID:** `loneford_guard0` · **Type:** NPC
-
-**Location:** Loneford: [Loneford 10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_guard0)
+**Where:** Loneford: [Loneford 10](../maps/loneford10.md#pin-npc-loneford_guard0), Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_guard0)
 
 ### Locations
 
@@ -1043,38 +709,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_guard0)"
+## Loneford, Loneford 2 { #v-loneford_wellguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_guard0` |
-    | Spawn group | `loneford_guard0` |
-    | Loot table | – |
-    | Conversation | `loneford_guard0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles3:14` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_guard0",
-     "name": "Guard",
-     "iconID": "monsters_rltiles3:14",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_guard0",
-     "phraseID": "loneford_guard0"
-    }
-    ```
-
-
-## Loneford, Loneford 2 (loneford_wellguard) { #v-loneford_wellguard }
-
-**Entry ID:** `loneford_wellguard` · **Type:** NPC
-
-**Location:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_wellguard)
+**Where:** Loneford: [Loneford 2](../maps/loneford2.md#pin-npc-loneford_wellguard)
 
 ### Dialogue simulator
 
@@ -1102,38 +739,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_wellguard)"
+## Remgard, Remgard church and 1 more { #v-remgard_g1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_wellguard` |
-    | Spawn group | `loneford_wellguard` |
-    | Loot table | – |
-    | Conversation | `loneford_wellguard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles1:72` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_wellguard",
-     "name": "Guard",
-     "iconID": "monsters_rltiles1:72",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_wellguard",
-     "phraseID": "loneford_wellguard"
-    }
-    ```
-
-
-## Remgard, Remgard church and 1 more (remgard_g1) { #v-remgard_g1 }
-
-**Entry ID:** `remgard_g1` · **Type:** NPC
-
-**Location:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g1)
+**Where:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g1), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g1)
 
 ### Locations
 
@@ -1162,38 +770,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_g1)"
+## Remgard, Remgard church and 1 more (2) { #v-remgard_g2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `remgard_g1` |
-    | Spawn group | `remgard_guard` |
-    | Loot table | – |
-    | Conversation | `fallhaven_guard` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:4` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "remgard_g1",
-     "name": "Guard",
-     "iconID": "monsters_ld1:4",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_guard",
-     "phraseID": "fallhaven_guard"
-    }
-    ```
-
-
-## Remgard, Remgard church and 1 more (remgard_g2) { #v-remgard_g2 }
-
-**Entry ID:** `remgard_g2` · **Type:** NPC
-
-**Location:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g2)
+**Where:** Remgard: [Remgard church](../maps/remgard_church.md#pin-npc-remgard_g2), Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g2)
 
 ### Locations
 
@@ -1228,38 +807,9 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_g2)"
+## Remgard, Remgard tavern 1 { #v-remgard_g3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `remgard_g2` |
-    | Spawn group | `remgard_guard` |
-    | Loot table | – |
-    | Conversation | `blackwater_guard1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:5` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "remgard_g2",
-     "name": "Guard",
-     "iconID": "monsters_ld1:5",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_guard",
-     "phraseID": "blackwater_guard1"
-    }
-    ```
-
-
-## Remgard, Remgard tavern 1 (remgard_g3) { #v-remgard_g3 }
-
-**Entry ID:** `remgard_g3` · **Type:** NPC
-
-**Location:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g3)
+**Where:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-remgard_g3)
 
 ### Dialogue simulator
 
@@ -1287,11 +837,435 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_g3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**16 entries.** The game data defines 16 separate characters named Guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guard` | NPC | [Fallhaven, Fallhaven north-west and 2 more](#v-guard) |
+| `brv_exit_guard` | NPC | [Brimhaven, Brimhaven 3 and 1 more](#v-brv_exit_guard) |
+| `brv_prison_guard` | NPC | [Brimhaven, Brimhaven prison](#v-brv_prison_guard) |
+| `brv_shop_guard` | NPC | [Brimhaven, Brimhaven 4](#v-brv_shop_guard) |
+| `brv_tavern_west_guard` | NPC | [Brimhaven, Brimhaven tavern west](#v-brv_tavern_west_guard) |
+| `charwd_guard` | NPC | [Foaming Flask Tavern, Waytominingtown 2](#v-charwd_guard) |
+| `crossroads_backguard` | NPC | [Crossroads Guardhouse, Houseatcrossroads 1](#v-crossroads_backguard) |
+| `crossroads_guard` | NPC | [Crossroads Guardhouse, Crossroads and 2 more](#v-crossroads_guard) |
+| `crossroads_sleepguard` | NPC | [Crossroads Guardhouse, Houseatcrossroads 1](#v-crossroads_sleepguard) |
+| `flagstone_guard` | NPC | [Flagstone Prison, Flagstone 0](#v-flagstone_guard) |
+| `guard_advent` | NPC | [Brimhaven, Brimhaven 3](#v-guard_advent) |
+| `loneford_guard0` | NPC | [Loneford, Loneford 10 and 1 more](#v-loneford_guard0) |
+| `loneford_wellguard` | NPC | [Loneford, Loneford 2](#v-loneford_wellguard) |
+| `remgard_g1` | NPC | [Remgard, Remgard church and 1 more](#v-remgard_g1) |
+| `remgard_g2` | NPC | [Remgard, Remgard church and 1 more](#v-remgard_g2) |
+| `remgard_g3` | NPC | [Remgard, Remgard tavern 1](#v-remgard_g3) |
+
+??? info "Technical information: guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fallhaven_guard` |
+    | Loot table | – |
+    | Conversation | `fallhaven_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:14` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles3:14",
+     "monsterClass": "humanoid",
+     "spawnGroup": "fallhaven_guard",
+     "phraseID": "fallhaven_guard"
+    }
+    ```
+
+??? info "Technical information: brv_exit_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_exit_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_exit_guard` |
+    | Loot table | – |
+    | Conversation | `brv_exit_forbidden_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:41` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_exit_guard",
+     "name": "Guard",
+     "iconID": "monsters_ld1:41",
+     "phraseID": "brv_exit_forbidden_10"
+    }
+    ```
+
+??? info "Technical information: brv_prison_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_prison_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_prison_guard` |
+    | Loot table | – |
+    | Conversation | `brv_prison_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:41` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_prison_guard",
+     "name": "Guard",
+     "iconID": "monsters_ld1:41",
+     "phraseID": "brv_prison_guard"
+    }
+    ```
+
+??? info "Technical information: brv_shop_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_shop_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_shop_guard` |
+    | Loot table | – |
+    | Conversation | `brv_shop_guard_select` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:14` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_shop_guard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles3:14",
+     "phraseID": "brv_shop_guard_select"
+    }
+    ```
+
+??? info "Technical information: brv_tavern_west_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_tavern_west_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_tavern_west_guard` |
+    | Loot table | – |
+    | Conversation | `brv_tavern_west_guard_select` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:69` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_tavern_west_guard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles1:69",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_tavern_west_guard",
+     "phraseID": "brv_tavern_west_guard_select"
+    }
+    ```
+
+??? info "Technical information: charwd_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `charwd_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `charwd_guard` |
+    | Loot table | – |
+    | Conversation | `charwd_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:114` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "charwd_guard",
+     "name": "Guard",
+     "iconID": "monsters_ld1:114",
+     "unique": 1,
+     "phraseID": "charwd_guard"
+    }
+    ```
+
+??? info "Technical information: crossroads_backguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `crossroads_backguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `crossroads_backguard` |
+    | Loot table | – |
+    | Conversation | `crossroads_backguard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:76` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "crossroads_backguard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles1:76",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "spawnGroup": "crossroads_backguard",
+     "phraseID": "crossroads_backguard"
+    }
+    ```
+
+??? info "Technical information: crossroads_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `crossroads_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `crossroads_guard` |
+    | Loot table | – |
+    | Conversation | `crossroads_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:76` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "crossroads_guard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles1:76",
+     "monsterClass": "humanoid",
+     "spawnGroup": "crossroads_guard",
+     "phraseID": "crossroads_guard"
+    }
+    ```
+
+??? info "Technical information: crossroads_sleepguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `crossroads_sleepguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `crossroads_sleepguard` |
+    | Loot table | – |
+    | Conversation | `crossroads_sleepguard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:76` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "crossroads_sleepguard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles1:76",
+     "monsterClass": "humanoid",
+     "spawnGroup": "crossroads_sleepguard",
+     "phraseID": "crossroads_sleepguard"
+    }
+    ```
+
+??? info "Technical information: flagstone_guard"
+
+    | | |
+    |---|---|
+    | Entry ID | `flagstone_guard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `flagstone_guard` |
+    | Loot table | – |
+    | Conversation | `flagstone_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:44` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "flagstone_guard",
+     "name": "Guard",
+     "iconID": "monsters_tometik2:44",
+     "spawnGroup": "flagstone_guard",
+     "phraseID": "flagstone_guard"
+    }
+    ```
+
+??? info "Technical information: guard_advent"
+
+    | | |
+    |---|---|
+    | Entry ID | `guard_advent` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guard_advent` |
+    | Loot table | – |
+    | Conversation | `guard_advent` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:41` |
+    | Defined in | `res/raw/monsterlist_brimhaven2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guard_advent",
+     "name": "Guard",
+     "iconID": "monsters_ld1:41",
+     "phraseID": "guard_advent"
+    }
+    ```
+
+??? info "Technical information: loneford_guard0"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_guard0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_guard0` |
+    | Loot table | – |
+    | Conversation | `loneford_guard0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:14` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_guard0",
+     "name": "Guard",
+     "iconID": "monsters_rltiles3:14",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_guard0",
+     "phraseID": "loneford_guard0"
+    }
+    ```
+
+??? info "Technical information: loneford_wellguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_wellguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_wellguard` |
+    | Loot table | – |
+    | Conversation | `loneford_wellguard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles1:72` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_wellguard",
+     "name": "Guard",
+     "iconID": "monsters_rltiles1:72",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_wellguard",
+     "phraseID": "loneford_wellguard"
+    }
+    ```
+
+??? info "Technical information: remgard_g1"
+
+    | | |
+    |---|---|
+    | Entry ID | `remgard_g1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_guard` |
+    | Loot table | – |
+    | Conversation | `fallhaven_guard` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:4` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "remgard_g1",
+     "name": "Guard",
+     "iconID": "monsters_ld1:4",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_guard",
+     "phraseID": "fallhaven_guard"
+    }
+    ```
+
+??? info "Technical information: remgard_g2"
+
+    | | |
+    |---|---|
+    | Entry ID | `remgard_g2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_guard` |
+    | Loot table | – |
+    | Conversation | `blackwater_guard1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:5` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "remgard_g2",
+     "name": "Guard",
+     "iconID": "monsters_ld1:5",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_guard",
+     "phraseID": "blackwater_guard1"
+    }
+    ```
+
+??? info "Technical information: remgard_g3"
 
     | | |
     |---|---|
     | Entry ID | `remgard_g3` |
+    | Type (wiki) | NPC |
     | Spawn group | `remgard_guard2` |
     | Loot table | – |
     | Conversation | `remgard_guard1` |
@@ -1312,7 +1286,6 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
      "phraseID": "remgard_guard1"
     }
     ```
-
 
 
 ## Community notes

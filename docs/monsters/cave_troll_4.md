@@ -4,6 +4,8 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 
 # ![](../assets/icons/monsters/monsters_tometik5_17.png){ .sprite } Cave troll shaman
 
+**Where to find Cave troll shaman:** [Lakecave 0 and 1 more](#v-cave_troll_4), [Lakecave 0](#v-cave_troll_6)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_17.png){ .sprite }</p>
@@ -15,48 +17,32 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 | **Class** | Giant |
 | **HP** | 300–370 |
 | **XP when defeated** | 365–563 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Cave troll shaman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Lakecave 0 and 1 more { #v-cave_troll_4 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`cave_troll_4`](#v-cave_troll_4) | Enemy | [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md) | – | 300 |
-| [`cave_troll_6`](#v-cave_troll_6) | Enemy | [Lakecave 0](../maps/lakecave0.md) | – | 370 |
+**Where:** [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md)
 
-## Lakecave 0 and 1 more (cave_troll_4) { #v-cave_troll_4 }
+### Combat
 
-**Entry ID:** `cave_troll_4` · **Type:** Enemy
-
-**Location:** [Lakecave 0](../maps/lakecave0.md), [Lakecave 2](../maps/lakecave2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 300 |
 | XP when defeated | 365 |
 | Damage | 1 to 15 |
-| Attack chance | 60 |
-| Block chance | 40 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 60 |
+| BC | 40 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 15% chance); [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 10% chance); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 4 rounds, 10% chance)
+**Its hits:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 15% chance); [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 10% chance); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 4 rounds, 10% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -88,11 +74,77 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (cave_troll_4)"
+## Lakecave 0 { #v-cave_troll_6 }
+
+**Where:** [Lakecave 0](../maps/lakecave0.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Giant |
+| HP | 370 |
+| XP when defeated | 563 |
+| Damage | 7 to 18 |
+| AC | 90 |
+| BC | 70 |
+| DR | 4 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+**Its hits:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 15% chance); [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 10% chance); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 4 rounds, 10% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Lakecave 0](../maps/lakecave0.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Cave troll shaman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `cave_troll_4` | Enemy | [Lakecave 0 and 1 more](#v-cave_troll_4) |
+| `cave_troll_6` | Enemy | [Lakecave 0](#v-cave_troll_6) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: cave_troll_4"
 
     | | |
     |---|---|
     | Entry ID | `cave_troll_4` |
+    | Type (wiki) | Enemy |
     | Spawn group | `cave_troll_4` |
     | Loot table | `cave_troll_2` |
     | Conversation | – |
@@ -146,64 +198,12 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
     }
     ```
 
-
-## Lakecave 0 (cave_troll_6) { #v-cave_troll_6 }
-
-**Entry ID:** `cave_troll_6` · **Type:** Enemy
-
-**Location:** [Lakecave 0](../maps/lakecave0.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Giant |
-| HP | 370 |
-| XP when defeated | 563 |
-| Damage | 7 to 18 |
-| Attack chance | 90 |
-| Block chance | 70 |
-| Damage resistance | 4 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-**On hit:** On target: [Stunned](../conditions/stunned.md) (magnitude 1, 2 rounds, 15% chance); [Dazed](../conditions/dazed.md) (magnitude 1, 3 rounds, 10% chance); [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 4 rounds, 10% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Lakecave 0](../maps/lakecave0.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (cave_troll_6)"
+??? info "Technical information: cave_troll_6"
 
     | | |
     |---|---|
     | Entry ID | `cave_troll_6` |
+    | Type (wiki) | Enemy |
     | Spawn group | `cave_troll_6` |
     | Loot table | `cave_troll_3` |
     | Conversation | – |
@@ -258,16 +258,6 @@ description: "Cave troll shaman is an enemy in Andor's Trail (giant) with 300–
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,36 +4,24 @@ description: "Farmer is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_man1_0.png){ .sprite } Farmer
 
+**Where to find Farmer:** [Crossglen, Crossglen](#v-farmer), [Crossroads Guardhouse, Loneford 1](#v-loneford_farmer0), [Remgard, Remgard 1](#v-remgard_farmer1), [Remgard, Remgard 4](#v-remgard_farmer2), [Stoutford, Stoutford north-west](#v-stouford_farmer2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_man1_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Flows through the veins](../quests/loneford.md) |
 | **Found in** | Crossglen, Crossroads Guardhouse, Remgard, Stoutford |
-| **Entries in game data** | 5 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Crossglen, Crossglen { #v-farmer }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`farmer`](#v-farmer) | NPC | Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-farmer) | – |
-| [`loneford_farmer0`](#v-loneford_farmer0) | NPC | Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-loneford_farmer0) | starts [Flows through the veins](../quests/loneford.md) |
-| [`remgard_farmer1`](#v-remgard_farmer1) | NPC | Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-remgard_farmer1) | – |
-| [`remgard_farmer2`](#v-remgard_farmer2) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-remgard_farmer2) | – |
-| [`stouford_farmer2`](#v-stouford_farmer2) | NPC | Stoutford: [Stoutford north-west](../maps/stoutford_nw.md#pin-npc-stouford_farmer2) | – |
-
-## Crossglen, Crossglen (farmer) { #v-farmer }
-
-**Entry ID:** `farmer` · **Type:** NPC
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-farmer)
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md#pin-npc-farmer)
 
 ### Dialogue simulator
 
@@ -65,38 +53,9 @@ Set your quest stages and items, then talk to Farmer. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (farmer)"
+## Crossroads Guardhouse, Loneford 1 { #v-loneford_farmer0 }
 
-    | | |
-    |---|---|
-    | Entry ID | `farmer` |
-    | Spawn group | `crossglen_farmer1` |
-    | Loot table | – |
-    | Conversation | `farm1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_man1:0` |
-    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "farmer",
-     "name": "Farmer",
-     "iconID": "monsters_man1:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "crossglen_farmer1",
-     "phraseID": "farm1"
-    }
-    ```
-
-
-## Crossroads Guardhouse, Loneford 1 (loneford_farmer0) { #v-loneford_farmer0 }
-
-**Entry ID:** `loneford_farmer0` · **Type:** NPC · **Role:** Starts [Flows through the veins](../quests/loneford.md)
-
-**Location:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-loneford_farmer0)
+**Where:** Crossroads Guardhouse: [Loneford 1](../maps/loneford1.md#pin-npc-loneford_farmer0) · **Role:** Starts [Flows through the veins](../quests/loneford.md)
 
 ### Quests
 
@@ -160,38 +119,9 @@ Set your quest stages and items, then talk to Farmer. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (loneford_farmer0)"
+## Remgard, Remgard 1 { #v-remgard_farmer1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `loneford_farmer0` |
-    | Spawn group | `loneford_farmer0` |
-    | Loot table | – |
-    | Conversation | `loneford_farmer0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:1` |
-    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "loneford_farmer0",
-     "name": "Farmer",
-     "iconID": "monsters_karvis2:1",
-     "monsterClass": "humanoid",
-     "spawnGroup": "loneford_farmer0",
-     "phraseID": "loneford_farmer0"
-    }
-    ```
-
-
-## Remgard, Remgard 1 (remgard_farmer1) { #v-remgard_farmer1 }
-
-**Entry ID:** `remgard_farmer1` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-remgard_farmer1)
+**Where:** Remgard: [Remgard 1](../maps/remgard1.md#pin-npc-remgard_farmer1)
 
 ### Dialogue simulator
 
@@ -224,38 +154,9 @@ Set your quest stages and items, then talk to Farmer. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_farmer1)"
+## Remgard, Remgard 4 { #v-remgard_farmer2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `remgard_farmer1` |
-    | Spawn group | `remgard_farmer1` |
-    | Loot table | – |
-    | Conversation | `remgard_farmer1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:26` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "remgard_farmer1",
-     "name": "Farmer",
-     "iconID": "monsters_ld1:26",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_farmer1",
-     "phraseID": "remgard_farmer1"
-    }
-    ```
-
-
-## Remgard, Remgard 4 (remgard_farmer2) { #v-remgard_farmer2 }
-
-**Entry ID:** `remgard_farmer2` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-remgard_farmer2)
+**Where:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-remgard_farmer2)
 
 ### Dialogue simulator
 
@@ -293,38 +194,9 @@ Set your quest stages and items, then talk to Farmer. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (remgard_farmer2)"
+## Stoutford, Stoutford north-west { #v-stouford_farmer2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `remgard_farmer2` |
-    | Spawn group | `remgard_farmer2` |
-    | Loot table | – |
-    | Conversation | `remgard_farmer2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:220` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "remgard_farmer2",
-     "name": "Farmer",
-     "iconID": "monsters_ld1:220",
-     "monsterClass": "humanoid",
-     "spawnGroup": "remgard_farmer2",
-     "phraseID": "remgard_farmer2"
-    }
-    ```
-
-
-## Stoutford, Stoutford north-west (stouford_farmer2) { #v-stouford_farmer2 }
-
-**Entry ID:** `stouford_farmer2` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford north-west](../maps/stoutford_nw.md#pin-npc-stouford_farmer2)
+**Where:** Stoutford: [Stoutford north-west](../maps/stoutford_nw.md#pin-npc-stouford_farmer2)
 
 ### Dialogue simulator
 
@@ -352,11 +224,135 @@ Set your quest stages and items, then talk to Farmer. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stouford_farmer2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `farmer` | NPC | [Crossglen, Crossglen](#v-farmer) |
+| `loneford_farmer0` | NPC | [Crossroads Guardhouse, Loneford 1](#v-loneford_farmer0) |
+| `remgard_farmer1` | NPC | [Remgard, Remgard 1](#v-remgard_farmer1) |
+| `remgard_farmer2` | NPC | [Remgard, Remgard 4](#v-remgard_farmer2) |
+| `stouford_farmer2` | NPC | [Stoutford, Stoutford north-west](#v-stouford_farmer2) |
+
+??? info "Technical information: farmer"
+
+    | | |
+    |---|---|
+    | Entry ID | `farmer` |
+    | Type (wiki) | NPC |
+    | Spawn group | `crossglen_farmer1` |
+    | Loot table | – |
+    | Conversation | `farm1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_man1:0` |
+    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "farmer",
+     "name": "Farmer",
+     "iconID": "monsters_man1:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "crossglen_farmer1",
+     "phraseID": "farm1"
+    }
+    ```
+
+??? info "Technical information: loneford_farmer0"
+
+    | | |
+    |---|---|
+    | Entry ID | `loneford_farmer0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `loneford_farmer0` |
+    | Loot table | – |
+    | Conversation | `loneford_farmer0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:1` |
+    | Defined in | `res/raw/monsterlist_v0610_npcs1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "loneford_farmer0",
+     "name": "Farmer",
+     "iconID": "monsters_karvis2:1",
+     "monsterClass": "humanoid",
+     "spawnGroup": "loneford_farmer0",
+     "phraseID": "loneford_farmer0"
+    }
+    ```
+
+??? info "Technical information: remgard_farmer1"
+
+    | | |
+    |---|---|
+    | Entry ID | `remgard_farmer1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_farmer1` |
+    | Loot table | – |
+    | Conversation | `remgard_farmer1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:26` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "remgard_farmer1",
+     "name": "Farmer",
+     "iconID": "monsters_ld1:26",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_farmer1",
+     "phraseID": "remgard_farmer1"
+    }
+    ```
+
+??? info "Technical information: remgard_farmer2"
+
+    | | |
+    |---|---|
+    | Entry ID | `remgard_farmer2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `remgard_farmer2` |
+    | Loot table | – |
+    | Conversation | `remgard_farmer2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:220` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "remgard_farmer2",
+     "name": "Farmer",
+     "iconID": "monsters_ld1:220",
+     "monsterClass": "humanoid",
+     "spawnGroup": "remgard_farmer2",
+     "phraseID": "remgard_farmer2"
+    }
+    ```
+
+??? info "Technical information: stouford_farmer2"
 
     | | |
     |---|---|
     | Entry ID | `stouford_farmer2` |
+    | Type (wiki) | NPC |
     | Spawn group | `stouford_farmer2` |
     | Loot table | – |
     | Conversation | `stoutford_builder_0` |
@@ -375,7 +371,6 @@ Set your quest stages and items, then talk to Farmer. Same rules as the game: sa
      "phraseID": "stoutford_builder_0"
     }
     ```
-
 
 
 ## Community notes

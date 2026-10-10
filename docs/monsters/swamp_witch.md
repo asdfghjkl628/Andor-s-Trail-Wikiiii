@@ -1,8 +1,10 @@
 ---
-description: "Madame Mim is an NPC who can also be fought in Andor's Trail, found in Swamp hut. Shopkeeper."
+description: "Madame Mim is an NPC you can also fight in Andor's Trail, found in Swamp hut. Shopkeeper."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld2_95.png){ .sprite } Madame Mim
+
+**Where to find Madame Mim:** [Swamp hut](#v-swamp_witch), [Swamp hut](#v-swamp_witch_shop)
 
 <div class="infobox" markdown>
 
@@ -10,57 +12,43 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Swamp hut |
 | **Class** | Humanoid |
 | **HP** | 220 |
 | **XP when defeated** | 654 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Madame Mim. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock. Each entry has its own section below.
+## Swamp hut { #v-swamp_witch }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`swamp_witch`](#v-swamp_witch) | NPC/Enemy | [Swamp hut](../maps/swamp_hut.md#pin-npc-swamp_witch) | shopkeeper | 220 |
-| [`swamp_witch_shop`](#v-swamp_witch_shop) | Scenery | [Swamp hut](../maps/swamp_hut.md) | – | – |
+**Where:** [Swamp hut](../maps/swamp_hut.md#pin-npc-swamp_witch) · **Role:** Shopkeeper
 
-## Swamp hut (swamp_witch) { #v-swamp_witch }
+!!! warning "You can fight Madame Mim"
+    Answering “Attack!” starts a fight with Madame Mim.
 
-**Entry ID:** `swamp_witch` · **Type:** NPC/Enemy · **Role:** Shopkeeper
+    Answering “Right. And now you should fear me - attack!” starts a fight with Madame Mim.
 
-**Location:** [Swamp hut](../maps/swamp_hut.md#pin-npc-swamp_witch)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 220 |
 | XP when defeated | 654 |
 | Damage | 5 to 10 |
-| Attack chance | 200 |
-| Block chance | 200 |
-| Damage resistance | 15 |
-| Max AP | 10 |
-| Attack cost | 7 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 5.0 |
-| Critical hit chance | 9% |
+| AC | 200 |
+| BC | 200 |
+| DR | 15 |
+| Attacks per turn | 1 (7 AP each, 10 AP) |
+| Crit chance | 9% (×5.0) |
 
-**On hit:** Heal HP: 2 to 20; On target: [Chaotic curse](../conditions/chaotic_curse.md) (magnitude 1, 2 rounds, 50% chance); [Confusion](../conditions/confusion.md) (magnitude 1, 2 rounds, 50% chance); [Internal bleeding](../conditions/crit1.md) (magnitude 1, 3 rounds, 10% chance); [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 10 rounds, 50% chance)
+**Its hits:** Heal HP: 2 to 20; On target: [Chaotic curse](../conditions/chaotic_curse.md) (magnitude 1, 2 rounds, 50% chance); [Confusion](../conditions/confusion.md) (magnitude 1, 2 rounds, 50% chance); [Internal bleeding](../conditions/crit1.md) (magnitude 1, 3 rounds, 10% chance); [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 10 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Shop stock
 
@@ -68,12 +56,6 @@ description: "Madame Mim is an NPC who can also be fought in Andor's Trail, foun
 |---|---|---|
 | [Sharpened gem](../items/gem4.md) | 100% | 1 to 5 |
 | [Gold coins](../items/gold.md) | 100% | 300 to 5200 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Swamp hut](../maps/swamp_hut.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -319,11 +301,48 @@ Set your quest stages and items, then talk to Madame Mim. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (swamp_witch)"
+## Swamp hut (2) { #v-swamp_witch_shop }
+
+**Where:** [Swamp hut](../maps/swamp_hut.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Madame Mim. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `swamp_witch` | NPC/Enemy | [Swamp hut](#v-swamp_witch) |
+| `swamp_witch_shop` | Scenery | [Swamp hut](#v-swamp_witch_shop) |
+
+- `swamp_witch_shop` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Swamp hut](../maps/swamp_hut.md).
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: swamp_witch"
 
     | | |
     |---|---|
     | Entry ID | `swamp_witch` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `swamp_witch` |
     | Loot table | `swamp_witch` |
     | Conversation | `swamp_witch` |
@@ -391,31 +410,12 @@ Set your quest stages and items, then talk to Madame Mim. Same rules as the game
     }
     ```
 
-
-## Swamp hut (swamp_witch_shop) { #v-swamp_witch_shop }
-
-**Entry ID:** `swamp_witch_shop` · **Type:** Scenery
-
-**Location:** [Swamp hut](../maps/swamp_hut.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (swamp_witch_shop)"
+??? info "Technical information: swamp_witch_shop"
 
     | | |
     |---|---|
     | Entry ID | `swamp_witch_shop` |
+    | Type (wiki) | Scenery |
     | Spawn group | `swamp_witch_shop` |
     | Loot table | `swamp_witch_shop` |
     | Conversation | – |
@@ -436,16 +436,6 @@ Set your quest stages and items, then talk to Madame Mim. Same rules as the game
      "droplistID": "swamp_witch_shop"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

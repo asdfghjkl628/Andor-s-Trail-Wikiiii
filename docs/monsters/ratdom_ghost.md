@@ -1,8 +1,10 @@
 ---
-description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Labyrinth."
+description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop, found in Labyrinth."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_65.png){ .sprite } Ghost
+
+**Where to find Ghost:** [Labyrinth, Ratdom maze 648](#v-ratdom_ghost), [Labyrinth, Ratdom maze 648](#v-ratdom_ghost1), [Labyrinth, Ratdom maze 648](#v-ratdom_ghost2), [Labyrinth, Ratdom maze 648](#v-ratdom_ghost3), [Labyrinth, Ratdom maze 648](#v-ratdom_ghost4)
 
 <div class="infobox" markdown>
 
@@ -10,32 +12,17 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Labyrinth |
-| **Entries in game data** | 5 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+Not a character you meet: Ghost appears as the speaker in conversations with stepping on a trigger on [Ratdom maze 648](../maps/ratdom_maze_648.md). ~~No, you can't take it home.~~
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_ghost`](#v-ratdom_ghost) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
-| [`ratdom_ghost1`](#v-ratdom_ghost1) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
-| [`ratdom_ghost2`](#v-ratdom_ghost2) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
-| [`ratdom_ghost3`](#v-ratdom_ghost3) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
-| [`ratdom_ghost4`](#v-ratdom_ghost4) | Scenery | Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md) | – |
+## Labyrinth, Ratdom maze 648 { #v-ratdom_ghost }
 
-## Labyrinth, Ratdom maze 648 (ratdom_ghost) { #v-ratdom_ghost }
-
-**Entry ID:** `ratdom_ghost` · **Type:** Scenery
-
-**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
+**Where:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
 
 
 ### Version history
@@ -47,11 +34,89 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_ghost)"
+## Labyrinth, Ratdom maze 648 (2) { #v-ratdom_ghost1 }
+
+**Where:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Labyrinth, Ratdom maze 648 (3) { #v-ratdom_ghost2 }
+
+**Where:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Labyrinth, Ratdom maze 648 (4) { #v-ratdom_ghost3 }
+
+**Where:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Labyrinth, Ratdom maze 648 (5) { #v-ratdom_ghost4 }
+
+**Where:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Ghost. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_ghost` | Scenery | [Labyrinth, Ratdom maze 648](#v-ratdom_ghost) |
+| `ratdom_ghost1` | Scenery | [Labyrinth, Ratdom maze 648](#v-ratdom_ghost1) |
+| `ratdom_ghost2` | Scenery | [Labyrinth, Ratdom maze 648](#v-ratdom_ghost2) |
+| `ratdom_ghost3` | Scenery | [Labyrinth, Ratdom maze 648](#v-ratdom_ghost3) |
+| `ratdom_ghost4` | Scenery | [Labyrinth, Ratdom maze 648](#v-ratdom_ghost4) |
+
+- `ratdom_ghost` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md).
+- `ratdom_ghost1` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `ratdom_ghost2` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `ratdom_ghost3` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `ratdom_ghost4` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: ratdom_ghost"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_ghost` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_ghost` |
     | Loot table | – |
     | Conversation | – |
@@ -72,31 +137,12 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
     }
     ```
 
-
-## Labyrinth, Ratdom maze 648 (ratdom_ghost1) { #v-ratdom_ghost1 }
-
-**Entry ID:** `ratdom_ghost1` · **Type:** Scenery
-
-**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_ghost1)"
+??? info "Technical information: ratdom_ghost1"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_ghost1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_ghost3` |
     | Loot table | – |
     | Conversation | – |
@@ -117,31 +163,12 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
     }
     ```
 
-
-## Labyrinth, Ratdom maze 648 (ratdom_ghost2) { #v-ratdom_ghost2 }
-
-**Entry ID:** `ratdom_ghost2` · **Type:** Scenery
-
-**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_ghost2)"
+??? info "Technical information: ratdom_ghost2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_ghost2` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_ghost1` |
     | Loot table | – |
     | Conversation | – |
@@ -162,31 +189,12 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
     }
     ```
 
-
-## Labyrinth, Ratdom maze 648 (ratdom_ghost3) { #v-ratdom_ghost3 }
-
-**Entry ID:** `ratdom_ghost3` · **Type:** Scenery
-
-**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_ghost3)"
+??? info "Technical information: ratdom_ghost3"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_ghost3` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_ghost3` |
     | Loot table | – |
     | Conversation | – |
@@ -207,31 +215,12 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
     }
     ```
 
-
-## Labyrinth, Ratdom maze 648 (ratdom_ghost4) { #v-ratdom_ghost4 }
-
-**Entry ID:** `ratdom_ghost4` · **Type:** Scenery
-
-**Location:** Labyrinth: [Ratdom maze 648](../maps/ratdom_maze_648.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_ghost4)"
+??? info "Technical information: ratdom_ghost4"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_ghost4` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_ghost4` |
     | Loot table | – |
     | Conversation | – |
@@ -251,7 +240,6 @@ description: "Ghost is scenery in Andor's Trail: a decoration or dialogue prop w
      "spawnGroup": "ratdom_ghost4"
     }
     ```
-
 
 
 ## Community notes

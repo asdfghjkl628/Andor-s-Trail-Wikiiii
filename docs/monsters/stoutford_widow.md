@@ -4,33 +4,24 @@ description: "Aryfora is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_karvis2_0.png){ .sprite } Aryfora
 
+**Where to find Aryfora:** [Stoutford, Stoutford gate](#v-stoutford_widow), [Stoutford, Stoutford potion](#v-stoutford_widow2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md); shopkeeper |
 | **Found in** | Stoutford |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Aryfora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock. Each entry has its own section below.
+## Stoutford, Stoutford gate { #v-stoutford_widow }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`stoutford_widow`](#v-stoutford_widow) | NPC | Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow) | starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md) |
-| [`stoutford_widow2`](#v-stoutford_widow2) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2) | shopkeeper |
-
-## Stoutford, Stoutford gate (stoutford_widow) { #v-stoutford_widow }
-
-**Entry ID:** `stoutford_widow` · **Type:** NPC · **Role:** Starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md)
-
-**Location:** Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow)
+**Where:** Stoutford: [Stoutford gate](../maps/stoutford_gate.md#pin-npc-stoutford_widow) · **Role:** Starts [The roots of love](../quests/roots_love.md), [The thorns of vengeance](../quests/thorns_vengeance.md)
 
 ### Quests
 
@@ -374,38 +365,9 @@ Set your quest stages and items, then talk to Aryfora. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_widow)"
+## Stoutford, Stoutford potion { #v-stoutford_widow2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_widow` |
-    | Spawn group | `stoutford_widow` |
-    | Loot table | – |
-    | Conversation | `stoutford_widow_select_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_karvis2:0` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_widow",
-     "name": "Aryfora",
-     "iconID": "monsters_karvis2:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "stoutford_widow",
-     "phraseID": "stoutford_widow_select_0"
-    }
-    ```
-
-
-## Stoutford, Stoutford potion (stoutford_widow2) { #v-stoutford_widow2 }
-
-**Entry ID:** `stoutford_widow2` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2)
+**Where:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-stoutford_widow2) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -469,11 +431,51 @@ Set your quest stages and items, then talk to Aryfora. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_widow2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Aryfora. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stoutford_widow` | NPC | [Stoutford, Stoutford gate](#v-stoutford_widow) |
+| `stoutford_widow2` | NPC | [Stoutford, Stoutford potion](#v-stoutford_widow2) |
+
+??? info "Technical information: stoutford_widow"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_widow` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_widow` |
+    | Loot table | – |
+    | Conversation | `stoutford_widow_select_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_karvis2:0` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_widow",
+     "name": "Aryfora",
+     "iconID": "monsters_karvis2:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "stoutford_widow",
+     "phraseID": "stoutford_widow_select_0"
+    }
+    ```
+
+??? info "Technical information: stoutford_widow2"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_widow2` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_widow2` |
     | Loot table | `stoutford_widow2` |
     | Conversation | `stoutford_widow2_0` |
@@ -495,7 +497,6 @@ Set your quest stages and items, then talk to Aryfora. Same rules as the game: s
      "droplistID": "stoutford_widow2"
     }
     ```
-
 
 
 ## Community notes

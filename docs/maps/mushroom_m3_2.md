@@ -1,5 +1,5 @@
 ---
-description: "Mushroom m 3 2 is an indoor location in Andor's Trail. NPCs: Lediofa. Enemies: Angry weak fungi, Weak fungi, Fungi, Gray cave bat, Lombric beast. Exits to Mushroom m 3 1, Mywildcave 4."
+description: "Mushroom m 3 2 is an indoor location in Andor's Trail. NPCs: Lediofa. Enemies: Weak fungi, Angry weak fungi, Fungi, Gray cave bat, Lombric beast. Exits to Mushroom m 3 1, Mywildcave 4."
 ---
 
 # Mushroom m 3 2
@@ -58,8 +58,8 @@ description: "Mushroom m 3 2 is an indoor location in Andor's Trail. NPCs: Ledio
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Angry weak fungi](../monsters/weak_fungi_1.md) | 20 | 1–2 | 5 | appears later, during a quest |
 | [Weak fungi](../monsters/weak_fungi.md) | 20 | 1–2 | 2 | – |
+| [Angry weak fungi](../monsters/weak_fungi_1.md) | 20 | 1–2 | 5 | appears later, during a quest |
 | [Fungi](../monsters/mid_fungi.md) | 25 | 2–3 | 2 | – |
 | [Gray cave bat](../monsters/cavebat1.md) | 28 | 3–5 | 2 | shares spawn with Black cave bat, Brown cave bat |
 | [Lombric beast](../monsters/lombric_beast.md) | 30 | 3–10 | 2 | – |

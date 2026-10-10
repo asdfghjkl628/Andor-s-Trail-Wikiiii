@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 3 is an indoor location in Andor's Trail, in Blackwater Mountain (other). NPCs: Clevred. Enemies: Tough cave rat, Cave rat. Exits to Ratdom bwm 1, Ratdom maze 2."
+description: "Ratdom maze 3 is an indoor location in Andor's Trail, in Blackwater Mountain (other). NPCs: Clevred. Enemies: Cave rat, Tough cave rat. Exits to Ratdom bwm 1, Ratdom maze 2."
 ---
 
 # Ratdom maze 3
@@ -65,8 +65,8 @@ description: "Ratdom maze 3 is an indoor location in Andor's Trail, in Blackwate
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 1 | – |
 | [Cave rat](../monsters/cave_rat.md) | 5 | 2–2 | 1 | – |
+| [Tough cave rat](../monsters/tough_cave_rat.md) | 5 | 3–3 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

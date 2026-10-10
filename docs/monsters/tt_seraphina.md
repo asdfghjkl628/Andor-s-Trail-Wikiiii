@@ -4,38 +4,24 @@ description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, fo
 
 # ![](../assets/icons/monsters/monsters_tometik7_38.png){ .sprite } Sly Seraphina
 
+**Where to find Sly Seraphina:** [Brimhaven, Waterway 6 and 6 more](#v-tt_seraphina), [Lake shore road 9](#v-thief_seraphina), [Crackshot hideout 3](#v-tt_seraphina2), [Crackshot hideout 4](#v-tt_seraphina3), [Crackshot hideout 4](#v-tt_seraphina3b), [Crackshot hideout 4](#v-tt_seraphina4), [Crackshot hideout 4](#v-tt_seraphina5)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_38.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Prim, Vilegard, Brimhaven, Lake shore road 9, Crackshot hideout 3, Crackshot hideout 4 |
-| **Entries in game data** | 7 |
 | **Introduced** | [v0.8.13](../versions/0.8.13.md) |
 
 </div>
 
-!!! info "7 entries in the game data"
-    The game data defines 7 separate characters named Sly Seraphina. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
+## Brimhaven, Waterway 6 and 6 more { #v-tt_seraphina }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`tt_seraphina`](#v-tt_seraphina) | NPC | Brimhaven: [Waterway 6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina) (+5 more) | – |
-| [`thief_seraphina`](#v-thief_seraphina) | NPC | [Lake shore road 9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina) | shopkeeper |
-| [`tt_seraphina2`](#v-tt_seraphina2) | NPC | [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2) | – |
-| [`tt_seraphina3`](#v-tt_seraphina3) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3) | – |
-| [`tt_seraphina3b`](#v-tt_seraphina3b) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b) | – |
-| [`tt_seraphina4`](#v-tt_seraphina4) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4) | – |
-| [`tt_seraphina5`](#v-tt_seraphina5) | NPC | [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5) | – |
-
-## Brimhaven, Waterway 6 and 6 more (tt_seraphina) { #v-tt_seraphina }
-
-**Entry ID:** `tt_seraphina` · **Type:** NPC
-
-**Location:** Brimhaven: [Waterway 6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina), Loneford: [Waytobrimhaven 1](../maps/waytobrimhaven1.md#pin-npc-tt_seraphina), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md#pin-npc-tt_seraphina), Stoutford: [Wild 21](../maps/wild21.md#pin-npc-tt_seraphina), Vilegard: [Vilegard south](../maps/vilegard_s.md#pin-npc-tt_seraphina) (+1 more)
+**Where:** Brimhaven: [Waterway 6](../maps/waterway6.md#pin-npc-tt_seraphina), Brimhaven: [Waytobrimhaven 3](../maps/waytobrimhaven3.md#pin-npc-tt_seraphina), Loneford: [Waytobrimhaven 1](../maps/waytobrimhaven1.md#pin-npc-tt_seraphina), Prim: [Blackwater mountain 12](../maps/blackwater_mountain12.md#pin-npc-tt_seraphina), Stoutford: [Wild 21](../maps/wild21.md#pin-npc-tt_seraphina), Vilegard: [Vilegard south](../maps/vilegard_s.md#pin-npc-tt_seraphina) (+1 more)
 
 ### Locations
 
@@ -139,38 +125,9 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_seraphina)"
+## Lake shore road 9 { #v-thief_seraphina }
 
-    | | |
-    |---|---|
-    | Entry ID | `tt_seraphina` |
-    | Spawn group | `tt_seraphina` |
-    | Loot table | – |
-    | Conversation | `tt_sly_200` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:38` |
-    | Defined in | `res/raw/monsterlist_troubling_times.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tt_seraphina",
-     "name": "Sly Seraphina",
-     "iconID": "monsters_tometik7:38",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tt_seraphina",
-     "phraseID": "tt_sly_200"
-    }
-    ```
-
-
-## Lake shore road 9 (thief_seraphina) { #v-thief_seraphina }
-
-**Entry ID:** `thief_seraphina` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** [Lake shore road 9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina)
+**Where:** [Lake shore road 9](../maps/lake_shore_road_9.md#pin-npc-thief_seraphina) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -461,40 +418,9 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (thief_seraphina)"
+## Crackshot hideout 3 { #v-tt_seraphina2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `thief_seraphina` |
-    | Spawn group | `thief_seraphina` |
-    | Loot table | `thief_seraphina_dl` |
-    | Conversation | `thief_seraphina_selector` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_tometik7:38` |
-    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "thief_seraphina",
-     "name": "Sly Seraphina",
-     "iconID": "monsters_tometik7:38",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "phraseID": "thief_seraphina_selector",
-     "droplistID": "thief_seraphina_dl"
-    }
-    ```
-
-
-## Crackshot hideout 3 (tt_seraphina2) { #v-tt_seraphina2 }
-
-**Entry ID:** `tt_seraphina2` · **Type:** NPC
-
-**Location:** [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2)
+**Where:** [Crackshot hideout 3](../maps/crackshot_hideout3.md#pin-npc-tt_seraphina2)
 
 ### Quests
 
@@ -544,38 +470,9 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_seraphina2)"
+## Crackshot hideout 4 { #v-tt_seraphina3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tt_seraphina2` |
-    | Spawn group | `tt_seraphina2` |
-    | Loot table | – |
-    | Conversation | `tt_sly2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:38` |
-    | Defined in | `res/raw/monsterlist_troubling_times.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tt_seraphina2",
-     "name": "Sly Seraphina",
-     "iconID": "monsters_tometik7:38",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tt_seraphina2",
-     "phraseID": "tt_sly2"
-    }
-    ```
-
-
-## Crackshot hideout 4 (tt_seraphina3) { #v-tt_seraphina3 }
-
-**Entry ID:** `tt_seraphina3` · **Type:** NPC
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3)
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3)
 
 ### Dialogue simulator
 
@@ -603,38 +500,9 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_seraphina3)"
+## Crackshot hideout 4 (2) { #v-tt_seraphina3b }
 
-    | | |
-    |---|---|
-    | Entry ID | `tt_seraphina3` |
-    | Spawn group | `tt_seraphina3` |
-    | Loot table | – |
-    | Conversation | `tt_sly3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:38` |
-    | Defined in | `res/raw/monsterlist_troubling_times.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tt_seraphina3",
-     "name": "Sly Seraphina",
-     "iconID": "monsters_tometik7:38",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tt_seraphina3",
-     "phraseID": "tt_sly3"
-    }
-    ```
-
-
-## Crackshot hideout 4 (tt_seraphina3b) { #v-tt_seraphina3b }
-
-**Entry ID:** `tt_seraphina3b` · **Type:** NPC
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b)
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina3b)
 
 ### Dialogue simulator
 
@@ -656,38 +524,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_seraphina3b)"
+## Crackshot hideout 4 (3) { #v-tt_seraphina4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tt_seraphina3b` |
-    | Spawn group | `tt_seraphina3b` |
-    | Loot table | – |
-    | Conversation | `tt_sly3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:38` |
-    | Defined in | `res/raw/monsterlist_troubling_times.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tt_seraphina3b",
-     "name": "Sly Seraphina",
-     "iconID": "monsters_tometik7:38",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tt_seraphina3b",
-     "phraseID": "tt_sly3"
-    }
-    ```
-
-
-## Crackshot hideout 4 (tt_seraphina4) { #v-tt_seraphina4 }
-
-**Entry ID:** `tt_seraphina4` · **Type:** NPC
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4)
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina4)
 
 ### Quests
 
@@ -765,38 +604,9 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_seraphina4)"
+## Crackshot hideout 4 (4) { #v-tt_seraphina5 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tt_seraphina4` |
-    | Spawn group | `tt_seraphina4` |
-    | Loot table | – |
-    | Conversation | `tt_sly4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:38` |
-    | Defined in | `res/raw/monsterlist_troubling_times.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tt_seraphina4",
-     "name": "Sly Seraphina",
-     "iconID": "monsters_tometik7:38",
-     "monsterClass": "humanoid",
-     "spawnGroup": "tt_seraphina4",
-     "phraseID": "tt_sly4"
-    }
-    ```
-
-
-## Crackshot hideout 4 (tt_seraphina5) { #v-tt_seraphina5 }
-
-**Entry ID:** `tt_seraphina5` · **Type:** NPC
-
-**Location:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5)
+**Where:** [Crackshot hideout 4](../maps/crackshot_hideout4.md#pin-npc-tt_seraphina5)
 
 ### Quests
 
@@ -882,11 +692,193 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tt_seraphina5)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**7 entries.** The game data defines 7 separate characters named Sly Seraphina. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tt_seraphina` | NPC | [Brimhaven, Waterway 6 and 6 more](#v-tt_seraphina) |
+| `thief_seraphina` | NPC | [Lake shore road 9](#v-thief_seraphina) |
+| `tt_seraphina2` | NPC | [Crackshot hideout 3](#v-tt_seraphina2) |
+| `tt_seraphina3` | NPC | [Crackshot hideout 4](#v-tt_seraphina3) |
+| `tt_seraphina3b` | NPC | [Crackshot hideout 4](#v-tt_seraphina3b) |
+| `tt_seraphina4` | NPC | [Crackshot hideout 4](#v-tt_seraphina4) |
+| `tt_seraphina5` | NPC | [Crackshot hideout 4](#v-tt_seraphina5) |
+
+??? info "Technical information: tt_seraphina"
+
+    | | |
+    |---|---|
+    | Entry ID | `tt_seraphina` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tt_seraphina` |
+    | Loot table | – |
+    | Conversation | `tt_sly_200` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:38` |
+    | Defined in | `res/raw/monsterlist_troubling_times.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tt_seraphina",
+     "name": "Sly Seraphina",
+     "iconID": "monsters_tometik7:38",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tt_seraphina",
+     "phraseID": "tt_sly_200"
+    }
+    ```
+
+??? info "Technical information: thief_seraphina"
+
+    | | |
+    |---|---|
+    | Entry ID | `thief_seraphina` |
+    | Type (wiki) | NPC |
+    | Spawn group | `thief_seraphina` |
+    | Loot table | `thief_seraphina_dl` |
+    | Conversation | `thief_seraphina_selector` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_tometik7:38` |
+    | Defined in | `res/raw/monsterlist_mt_galmore.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "thief_seraphina",
+     "name": "Sly Seraphina",
+     "iconID": "monsters_tometik7:38",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "thief_seraphina_selector",
+     "droplistID": "thief_seraphina_dl"
+    }
+    ```
+
+??? info "Technical information: tt_seraphina2"
+
+    | | |
+    |---|---|
+    | Entry ID | `tt_seraphina2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tt_seraphina2` |
+    | Loot table | – |
+    | Conversation | `tt_sly2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:38` |
+    | Defined in | `res/raw/monsterlist_troubling_times.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tt_seraphina2",
+     "name": "Sly Seraphina",
+     "iconID": "monsters_tometik7:38",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tt_seraphina2",
+     "phraseID": "tt_sly2"
+    }
+    ```
+
+??? info "Technical information: tt_seraphina3"
+
+    | | |
+    |---|---|
+    | Entry ID | `tt_seraphina3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tt_seraphina3` |
+    | Loot table | – |
+    | Conversation | `tt_sly3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:38` |
+    | Defined in | `res/raw/monsterlist_troubling_times.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tt_seraphina3",
+     "name": "Sly Seraphina",
+     "iconID": "monsters_tometik7:38",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tt_seraphina3",
+     "phraseID": "tt_sly3"
+    }
+    ```
+
+??? info "Technical information: tt_seraphina3b"
+
+    | | |
+    |---|---|
+    | Entry ID | `tt_seraphina3b` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tt_seraphina3b` |
+    | Loot table | – |
+    | Conversation | `tt_sly3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:38` |
+    | Defined in | `res/raw/monsterlist_troubling_times.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tt_seraphina3b",
+     "name": "Sly Seraphina",
+     "iconID": "monsters_tometik7:38",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tt_seraphina3b",
+     "phraseID": "tt_sly3"
+    }
+    ```
+
+??? info "Technical information: tt_seraphina4"
+
+    | | |
+    |---|---|
+    | Entry ID | `tt_seraphina4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tt_seraphina4` |
+    | Loot table | – |
+    | Conversation | `tt_sly4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:38` |
+    | Defined in | `res/raw/monsterlist_troubling_times.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tt_seraphina4",
+     "name": "Sly Seraphina",
+     "iconID": "monsters_tometik7:38",
+     "monsterClass": "humanoid",
+     "spawnGroup": "tt_seraphina4",
+     "phraseID": "tt_sly4"
+    }
+    ```
+
+??? info "Technical information: tt_seraphina5"
 
     | | |
     |---|---|
     | Entry ID | `tt_seraphina5` |
+    | Type (wiki) | NPC |
     | Spawn group | `tt_seraphina5` |
     | Loot table | – |
     | Conversation | `tt_sly5` |
@@ -907,7 +899,6 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
      "phraseID": "tt_sly5"
     }
     ```
-
 
 
 ## Community notes

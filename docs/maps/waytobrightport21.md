@@ -1,5 +1,5 @@
 ---
-description: "Waytobrightport 21 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Erumen lizard, Izthiel, Blooming amoeba, Strong erumen lizard, Muskrat. Exits to Korhald cave outdoor 1, Waytobrightport 22."
+description: "Waytobrightport 21 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Izthiel, Erumen lizard, Blooming amoeba, Strong erumen lizard, Muskrat. Exits to Korhald cave outdoor 1, Waytobrightport 22."
 ---
 
 # Waytobrightport 21
@@ -48,8 +48,8 @@ description: "Waytobrightport 21 is an indoor location in Andor's Trail, in Brig
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 1 | shares spawn with Strong erumen lizard |
 | [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 1 | – |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 1 | shares spawn with Strong erumen lizard |
 | [Blooming amoeba](../monsters/brightport_amoeba.md) | 60 | 4–10 | 3 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 1 | shares spawn with Erumen lizard |
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 | 6–15 | 1 | – |

@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven 3 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Forenza, Sly Seraphina. Enemies: Small rabid dog, Rabid hound, Young erumen lizard, Erumen lizard, Spotted erumen lizard. Exits to Brimhaven 4, Waterway 6, Waytobrimhaven 2."
+description: "Waytobrimhaven 3 is an outdoor location in Andor's Trail, near Brimhaven (settlement). NPCs: Forenza, Sly Seraphina. Enemies: Small rabid dog, Rabid hound, Spotted erumen lizard, Erumen lizard, Young erumen lizard. Exits to Brimhaven 4, Waterway 6, Waytobrimhaven 2."
 ---
 
 # Waytobrimhaven 3
@@ -69,9 +69,9 @@ description: "Waytobrimhaven 3 is an outdoor location in Andor's Trail, near Bri
 |---|---|---|---|---|
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 4 | – |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 3 | – |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 6 | shares spawn with Strong erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 6 | shares spawn with Strong erumen lizard |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
 | [Seraphina's bodyguard](../monsters/tt_guys.md) | 52 | 8–15 | 5 | appears later, during a quest |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 6 | shares spawn with Erumen lizard |
 

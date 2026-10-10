@@ -4,33 +4,24 @@ description: "Wart is a non-player character (NPC) in Andor's Trail, found in Mu
 
 # ![](../assets/icons/monsters/monsters_rltiles3_10.png){ .sprite } Wart
 
+**Where to find Wart:** [Museum, Ratdom maze 624](#v-ratdom_rat_warden), [Museum, Ratdom maze 515](#v-ratdom_rat_warden2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_10.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Museum |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Wart. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
+## Museum, Ratdom maze 624 { #v-ratdom_rat_warden }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ratdom_rat_warden`](#v-ratdom_rat_warden) | NPC | Museum: [Ratdom maze 624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden) | shopkeeper |
-| [`ratdom_rat_warden2`](#v-ratdom_rat_warden2) | NPC | Museum: [Ratdom maze 515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2) | shopkeeper |
-
-## Museum, Ratdom maze 624 (ratdom_rat_warden) { #v-ratdom_rat_warden }
-
-**Entry ID:** `ratdom_rat_warden` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Museum: [Ratdom maze 624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden)
+**Where:** Museum: [Ratdom maze 624](../maps/ratdom_maze_624.md#pin-npc-ratdom_rat_warden) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -404,38 +395,9 @@ Set your quest stages and items, then talk to Wart. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_rat_warden)"
+## Museum, Ratdom maze 515 { #v-ratdom_rat_warden2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `ratdom_rat_warden` |
-    | Spawn group | `ratdom_rat_warden` |
-    | Loot table | `ratdom_rat_warden` |
-    | Conversation | `ratdom_rat_warden` |
-    | Faction | – |
-    | Movement | wholeMap |
-    | Icon | `monsters_rltiles3:10` |
-    | Defined in | `res/raw/monsterlist_ratdom.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "ratdom_rat_warden",
-     "name": "Wart",
-     "iconID": "monsters_rltiles3:10",
-     "movementAggressionType": "wholeMap",
-     "phraseID": "ratdom_rat_warden",
-     "droplistID": "ratdom_rat_warden"
-    }
-    ```
-
-
-## Museum, Ratdom maze 515 (ratdom_rat_warden2) { #v-ratdom_rat_warden2 }
-
-**Entry ID:** `ratdom_rat_warden2` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Museum: [Ratdom maze 515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2)
+**Where:** Museum: [Ratdom maze 515](../maps/ratdom_maze_515.md#pin-npc-ratdom_rat_warden2) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -551,11 +513,51 @@ Set your quest stages and items, then talk to Wart. Same rules as the game: same
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_rat_warden2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Wart. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ratdom_rat_warden` | NPC | [Museum, Ratdom maze 624](#v-ratdom_rat_warden) |
+| `ratdom_rat_warden2` | NPC | [Museum, Ratdom maze 515](#v-ratdom_rat_warden2) |
+
+??? info "Technical information: ratdom_rat_warden"
+
+    | | |
+    |---|---|
+    | Entry ID | `ratdom_rat_warden` |
+    | Type (wiki) | NPC |
+    | Spawn group | `ratdom_rat_warden` |
+    | Loot table | `ratdom_rat_warden` |
+    | Conversation | `ratdom_rat_warden` |
+    | Faction | – |
+    | Movement | wholeMap |
+    | Icon | `monsters_rltiles3:10` |
+    | Defined in | `res/raw/monsterlist_ratdom.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "ratdom_rat_warden",
+     "name": "Wart",
+     "iconID": "monsters_rltiles3:10",
+     "movementAggressionType": "wholeMap",
+     "phraseID": "ratdom_rat_warden",
+     "droplistID": "ratdom_rat_warden"
+    }
+    ```
+
+??? info "Technical information: ratdom_rat_warden2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_rat_warden2` |
+    | Type (wiki) | NPC |
     | Spawn group | `ratdom_rat_warden2` |
     | Loot table | `ratdom_rat_warden2` |
     | Conversation | `ratdom_rat_warden2` |
@@ -575,7 +577,6 @@ Set your quest stages and items, then talk to Wart. Same rules as the game: same
      "droplistID": "ratdom_rat_warden2"
     }
     ```
-
 
 
 ## Community notes

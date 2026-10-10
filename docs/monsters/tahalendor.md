@@ -4,33 +4,24 @@ description: "Tahalendor is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_ld1_3.png){ .sprite } Tahalendor
 
+**Where to find Tahalendor:** [Stoutford, Stoutford church](#v-tahalendor), [Stoutford, Stoutford potion](#v-tahalendor2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_3.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Rumblings](../quests/rumblings.md) |
 | **Found in** | Stoutford |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Tahalendor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Stoutford, Stoutford church { #v-tahalendor }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`tahalendor`](#v-tahalendor) | NPC | Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-tahalendor) | starts [Rumblings](../quests/rumblings.md) |
-| [`tahalendor2`](#v-tahalendor2) | NPC | Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-tahalendor2) | – |
-
-## Stoutford, Stoutford church (tahalendor) { #v-tahalendor }
-
-**Entry ID:** `tahalendor` · **Type:** NPC · **Role:** Starts [Rumblings](../quests/rumblings.md)
-
-**Location:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-tahalendor)
+**Where:** Stoutford: [Stoutford church](../maps/stoutford_church.md#pin-npc-tahalendor) · **Role:** Starts [Rumblings](../quests/rumblings.md)
 
 ### Quests
 
@@ -182,36 +173,9 @@ Set your quest stages and items, then talk to Tahalendor. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tahalendor)"
+## Stoutford, Stoutford potion { #v-tahalendor2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `tahalendor` |
-    | Spawn group | `tahalendor` |
-    | Loot table | – |
-    | Conversation | `tahalendor_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:3` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "tahalendor",
-     "name": "Tahalendor",
-     "iconID": "monsters_ld1:3",
-     "phraseID": "tahalendor_0"
-    }
-    ```
-
-
-## Stoutford, Stoutford potion (tahalendor2) { #v-tahalendor2 }
-
-**Entry ID:** `tahalendor2` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-tahalendor2)
+**Where:** Stoutford: [Stoutford potion](../maps/stoutford_potion.md#pin-npc-tahalendor2)
 
 ### Quests
 
@@ -293,11 +257,49 @@ Set your quest stages and items, then talk to Tahalendor. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (tahalendor2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Tahalendor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `tahalendor` | NPC | [Stoutford, Stoutford church](#v-tahalendor) |
+| `tahalendor2` | NPC | [Stoutford, Stoutford potion](#v-tahalendor2) |
+
+??? info "Technical information: tahalendor"
+
+    | | |
+    |---|---|
+    | Entry ID | `tahalendor` |
+    | Type (wiki) | NPC |
+    | Spawn group | `tahalendor` |
+    | Loot table | – |
+    | Conversation | `tahalendor_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:3` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "tahalendor",
+     "name": "Tahalendor",
+     "iconID": "monsters_ld1:3",
+     "phraseID": "tahalendor_0"
+    }
+    ```
+
+??? info "Technical information: tahalendor2"
 
     | | |
     |---|---|
     | Entry ID | `tahalendor2` |
+    | Type (wiki) | NPC |
     | Spawn group | `tahalendor2` |
     | Loot table | – |
     | Conversation | `tahalendor2_0` |
@@ -316,7 +318,6 @@ Set your quest stages and items, then talk to Tahalendor. Same rules as the game
      "phraseID": "tahalendor2_0"
     }
     ```
-
 
 
 ## Community notes

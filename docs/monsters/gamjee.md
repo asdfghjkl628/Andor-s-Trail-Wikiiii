@@ -1,8 +1,10 @@
 ---
-description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in Gamjee well 4 1."
+description: "Gamjee is an NPC you can also fight in Andor's Trail, found in Gamjee well 4 1."
 ---
 
 # ![](../assets/icons/monsters/monsters_cyclops_0.png){ .sprite } Gamjee
+
+**Where to find Gamjee:** [Gamjee well 4 1](#v-gamjee), [Gamjee well 4 1](#v-gamjee_hidden), [Gamjee well 4 1](#v-gamjee_oc)
 
 <div class="infobox" markdown>
 
@@ -10,59 +12,46 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Gamjee well 4 1 |
 | **Class** | Giant |
 | **HP** | 417 |
 | **XP when defeated** | 741 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Gamjee. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, combat statistics, loot or shop stock, movement. Each entry has its own section below.
+## Gamjee well 4 1 { #v-gamjee }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`gamjee`](#v-gamjee) | NPC/Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee) | – | 417 |
-| [`gamjee_hidden`](#v-gamjee_hidden) | Scenery | [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | – |
-| [`gamjee_oc`](#v-gamjee_oc) | NPC/Enemy | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc) | – | 417 |
+**Where:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee)
 
-## Gamjee well 4 1 (gamjee) { #v-gamjee }
+!!! warning "You can fight Gamjee"
+    The conversation can lead straight into a fight with Gamjee.
 
-**Entry ID:** `gamjee` · **Type:** NPC/Enemy
+    Answering “This ends now for you!” during [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-4) starts a fight with Gamjee.
 
-**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee)
+    Answering “I don't believe you! I can't take that risk. This ends now” during [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-3) starts a fight with Gamjee.
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+### Combat
 
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 417 |
 | XP when defeated | 741 |
 | Damage | 10 to 13 |
-| Attack chance | 70 |
-| Block chance | 101 |
-| Damage resistance | 13 |
-| Max AP | 10 |
-| Attack cost | 6 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 12% |
+| AC | 70 |
+| BC | 101 |
+| DR | 13 |
+| Attacks per turn | 1 (6 AP each, 10 AP) |
+| Crit chance | 12% (×2.0) |
 
-**On hit:** On target: [Concussion](../conditions/concussion.md) (magnitude 1, 2 rounds, 5% chance)
+**Its hits:** On target: [Concussion](../conditions/concussion.md) (magnitude 1, 2 rounds, 5% chance)
 
-**When hit:** On target: [Soaked vision](../conditions/soaked_vision.md) (magnitude 1, 2 rounds, 30% chance)
+**When you hit it:** On target: [Soaked vision](../conditions/soaked_vision.md) (magnitude 1, 2 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -71,12 +60,6 @@ description: "Gamjee is an NPC who can also be fought in Andor's Trail, found in
 | [Gamjee's rope](../items/gamjee_rope.md) | 100% | 1 |
 | [Cragbreaker](../items/cragbreaker.md) | 100% | 1 |
 | [Godwin's ring](../items/godwin_ring.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | – |
 
 ### Quests that count defeats
 
@@ -213,11 +196,120 @@ Set your quest stages and items, then talk to Gamjee. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (gamjee)"
+## Gamjee well 4 1 (2) { #v-gamjee_hidden }
+
+**Where:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Gamjee well 4 1 (3) { #v-gamjee_oc }
+
+**Where:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc)
+
+!!! warning "You can fight Gamjee"
+    The conversation can lead straight into a fight with Gamjee.
+
+    Answering “This ends now for you!” during [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-4) starts a fight with Gamjee.
+
+    Answering “I don't believe you! I can't take that risk. This ends now” during [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md#stage-3) starts a fight with Gamjee.
+
+### Combat
+
+| | |
+|---|---|
+| Class | Giant |
+| HP | 417 |
+| XP when defeated | 741 |
+| Damage | 10 to 13 |
+| AC | 70 |
+| BC | 101 |
+| DR | 13 |
+| Attacks per turn | 1 (6 AP each, 10 AP) |
+| Crit chance | 12% (×2.0) |
+
+**Its hits:** On target: [Concussion](../conditions/concussion.md) (magnitude 1, 2 rounds, 5% chance)
+
+**When you hit it:** On target: [Soaked vision](../conditions/soaked_vision.md) (magnitude 1, 2 rounds, 30% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gamjee's rope](../items/gamjee_rope.md) | 100% | 1 |
+| [Cragbreaker](../items/cragbreaker.md) | 100% | 1 |
+| [Godwin's ring](../items/godwin_ring.md) | 100% | 1 |
+| [Stormcloak armor](../items/stormcloak_armor.md) | 100% | 1 |
+
+### Quests that count defeats
+
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
+
+### Quests
+
+- [Echoes of enchantment](../quests/echoes_of_enchantment.md): stages 8, 12, 13
+- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stages 3, 4, 5, 6
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Gamjee. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/gamjee_selector.json" data-npc="Gamjee" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [gamjee_selector](#d-gamjee-gamjee_selector).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 23 lines added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Gamjee. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, combat statistics, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `gamjee` | NPC/Enemy | [Gamjee well 4 1](#v-gamjee) |
+| `gamjee_hidden` | Scenery | [Gamjee well 4 1](#v-gamjee_hidden) |
+| `gamjee_oc` | NPC/Enemy | [Gamjee well 4 1](#v-gamjee_oc) |
+
+- `gamjee_hidden` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Gamjee well 4 1](../maps/gamjee_well_4_1.md).
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: gamjee"
 
     | | |
     |---|---|
     | Entry ID | `gamjee` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `gamjee` |
     | Loot table | `gamjee_dl` |
     | Conversation | `gamjee_selector` |
@@ -272,31 +364,12 @@ Set your quest stages and items, then talk to Gamjee. Same rules as the game: sa
     }
     ```
 
-
-## Gamjee well 4 1 (gamjee_hidden) { #v-gamjee_hidden }
-
-**Entry ID:** `gamjee_hidden` · **Type:** Scenery
-
-**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (gamjee_hidden)"
+??? info "Technical information: gamjee_hidden"
 
     | | |
     |---|---|
     | Entry ID | `gamjee_hidden` |
+    | Type (wiki) | Scenery |
     | Spawn group | `gamjee_hidden` |
     | Loot table | – |
     | Conversation | – |
@@ -315,92 +388,12 @@ Set your quest stages and items, then talk to Gamjee. Same rules as the game: sa
     }
     ```
 
-
-## Gamjee well 4 1 (gamjee_oc) { #v-gamjee_oc }
-
-**Entry ID:** `gamjee_oc` · **Type:** NPC/Enemy
-
-**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-gamjee_oc)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Giant |
-| HP | 417 |
-| XP when defeated | 741 |
-| Damage | 10 to 13 |
-| Attack chance | 70 |
-| Block chance | 101 |
-| Damage resistance | 13 |
-| Max AP | 10 |
-| Attack cost | 6 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 15 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 12% |
-
-**On hit:** On target: [Concussion](../conditions/concussion.md) (magnitude 1, 2 rounds, 5% chance)
-
-**When hit:** On target: [Soaked vision](../conditions/soaked_vision.md) (magnitude 1, 2 rounds, 30% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gamjee's rope](../items/gamjee_rope.md) | 100% | 1 |
-| [Cragbreaker](../items/cragbreaker.md) | 100% | 1 |
-| [Godwin's ring](../items/godwin_ring.md) | 100% | 1 |
-| [Stormcloak armor](../items/stormcloak_armor.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Gamjee well 4 1](../maps/gamjee_well_4_1.md) | – | 1 | Appears later, during a quest |
-
-### Quests that count defeats
-
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-11) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md#stage-9) with stepping on a trigger on [Gamjee well 4 1](../maps/gamjee_well_4_1.md) checks that this enemy has been defeated.
-
-### Quests
-
-- [Echoes of enchantment](../quests/echoes_of_enchantment.md): stages 8, 12, 13
-- [Feygard story flags (hidden flag)](../quests/feygard_nondisplayed.md): stages 3, 4, 5, 6
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Gamjee. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/gamjee_selector.json" data-npc="Gamjee" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [gamjee_selector](#d-gamjee-gamjee_selector).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.12.1](../versions/0.8.12.1.md) | Added<br>Dialogue: 23 lines added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (gamjee_oc)"
+??? info "Technical information: gamjee_oc"
 
     | | |
     |---|---|
     | Entry ID | `gamjee_oc` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `gamjee_oc` |
     | Loot table | `gamjee_oc_dl` |
     | Conversation | `gamjee_selector` |
@@ -454,16 +447,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

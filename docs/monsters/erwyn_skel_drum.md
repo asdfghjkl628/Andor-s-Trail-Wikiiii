@@ -4,34 +4,23 @@ description: "Drummer is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_fatboy73_45.png){ .sprite } Drummer
 
+**Where to find Drummer:** [Flagstone Prison, Stoutford castle shed](#v-erwyn_skel_drum), [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_drum), [Appears during a quest or event](#v-ratdom_skel_drum1), [Appears during a quest or event](#v-ratdom_skel_drum2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_fatboy73_45.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Flagstone Prison, Skeleton dance |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Drummer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Flagstone Prison, Stoutford castle shed { #v-erwyn_skel_drum }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`erwyn_skel_drum`](#v-erwyn_skel_drum) | NPC | Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum) | – |
-| [`ratdom_skel_drum`](#v-ratdom_skel_drum) | Scenery | Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md) | – |
-| [`ratdom_skel_drum1`](#v-ratdom_skel_drum1) | Scenery | Not on a map | – |
-| [`ratdom_skel_drum2`](#v-ratdom_skel_drum2) | Scenery | Not on a map | – |
-
-## Flagstone Prison, Stoutford castle shed (erwyn_skel_drum) { #v-erwyn_skel_drum }
-
-**Entry ID:** `erwyn_skel_drum` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum)
+**Where:** Flagstone Prison: [Stoutford castle shed](../maps/stoutford_castle_shed.md#pin-npc-erwyn_skel_drum)
 
 ### Dialogue simulator
 
@@ -59,11 +48,72 @@ Set your quest stages and items, then talk to Drummer. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (erwyn_skel_drum)"
+## Skeleton dance, Ratdom maze 543d { #v-ratdom_skel_drum }
+
+**Where:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Appears during a quest or event { #v-ratdom_skel_drum1 }
+
+**Where:** appears during a quest or scripted event.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Appears during a quest or event (2) { #v-ratdom_skel_drum2 }
+
+**Where:** appears during a quest or scripted event.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.5](../versions/0.8.5.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Drummer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `erwyn_skel_drum` | NPC | [Flagstone Prison, Stoutford castle shed](#v-erwyn_skel_drum) |
+| `ratdom_skel_drum` | Scenery | [Skeleton dance, Ratdom maze 543d](#v-ratdom_skel_drum) |
+| `ratdom_skel_drum1` | Scenery | [Appears during a quest or event](#v-ratdom_skel_drum1) |
+| `ratdom_skel_drum2` | Scenery | [Appears during a quest or event](#v-ratdom_skel_drum2) |
+
+- `ratdom_skel_drum` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md).
+- `ratdom_skel_drum1` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `ratdom_skel_drum2` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "Technical information: erwyn_skel_drum"
 
     | | |
     |---|---|
     | Entry ID | `erwyn_skel_drum` |
+    | Type (wiki) | NPC |
     | Spawn group | `erwyn_skel_drum` |
     | Loot table | – |
     | Conversation | `erwyn_skel_band` |
@@ -85,31 +135,12 @@ Set your quest stages and items, then talk to Drummer. Same rules as the game: s
     }
     ```
 
-
-## Skeleton dance, Ratdom maze 543d (ratdom_skel_drum) { #v-ratdom_skel_drum }
-
-**Entry ID:** `ratdom_skel_drum` · **Type:** Scenery
-
-**Location:** Skeleton dance: [Ratdom maze 543d](../maps/ratdom_maze_543d.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_drum)"
+??? info "Technical information: ratdom_skel_drum"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_drum` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_skel_drum` |
     | Loot table | – |
     | Conversation | – |
@@ -130,31 +161,12 @@ Set your quest stages and items, then talk to Drummer. Same rules as the game: s
     }
     ```
 
-
-## Not placed on a map (ratdom_skel_drum1) { #v-ratdom_skel_drum1 }
-
-**Entry ID:** `ratdom_skel_drum1` · **Type:** Scenery
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_drum1)"
+??? info "Technical information: ratdom_skel_drum1"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_drum1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_skel_drum1` |
     | Loot table | – |
     | Conversation | – |
@@ -175,31 +187,12 @@ Set your quest stages and items, then talk to Drummer. Same rules as the game: s
     }
     ```
 
-
-## Not placed on a map (ratdom_skel_drum2) { #v-ratdom_skel_drum2 }
-
-**Entry ID:** `ratdom_skel_drum2` · **Type:** Scenery
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.5](../versions/0.8.5.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ratdom_skel_drum2)"
+??? info "Technical information: ratdom_skel_drum2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_skel_drum2` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ratdom_skel_drum2` |
     | Loot table | – |
     | Conversation | – |
@@ -219,7 +212,6 @@ Set your quest stages and items, then talk to Drummer. Same rules as the game: s
      "spawnGroup": "ratdom_skel_drum2"
     }
     ```
-
 
 
 ## Community notes

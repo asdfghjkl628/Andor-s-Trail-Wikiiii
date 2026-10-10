@@ -4,33 +4,23 @@ description: "Guynmart elite guard is a non-player character (NPC) in Andor's Tr
 
 # ![](../assets/icons/monsters/monsters_ld1_1.png){ .sprite } Guynmart elite guard
 
+**Where to find Guynmart elite guard:** [Guynmart Castle, Guynmart and 1 more](#v-guynmart_pguard), [Guynmart Castle, Guynmart wood 4](#v-guynmart_pguard2), [Guynmart Castle, Guynmart wood 4](#v-guynmart_pguard3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_1.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Guynmart elite guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Guynmart Castle, Guynmart and 1 more { #v-guynmart_pguard }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_pguard`](#v-guynmart_pguard) | NPC | Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard) | – |
-| [`guynmart_pguard2`](#v-guynmart_pguard2) | NPC | Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2) | – |
-| [`guynmart_pguard3`](#v-guynmart_pguard3) | NPC | Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3) | – |
-
-## Guynmart Castle, Guynmart and 1 more (guynmart_pguard) { #v-guynmart_pguard }
-
-**Entry ID:** `guynmart_pguard` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard)
+**Where:** Guynmart Castle: [Guynmart](../maps/guynmart.md#pin-npc-guynmart_pguard), Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard)
 
 ### Locations
 
@@ -65,38 +55,9 @@ Set your quest stages and items, then talk to Guynmart elite guard. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_pguard)"
+## Guynmart Castle, Guynmart wood 4 { #v-guynmart_pguard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_pguard` |
-    | Spawn group | `guynmart_pguard` |
-    | Loot table | – |
-    | Conversation | `guynmart_guard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:1` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_pguard",
-     "name": "Guynmart elite guard",
-     "iconID": "monsters_ld1:1",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_guard_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 4 (guynmart_pguard2) { #v-guynmart_pguard2 }
-
-**Entry ID:** `guynmart_pguard2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2)
+**Where:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard2)
 
 ### Dialogue simulator
 
@@ -132,38 +93,9 @@ Set your quest stages and items, then talk to Guynmart elite guard. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_pguard2)"
+## Guynmart Castle, Guynmart wood 4 (2) { #v-guynmart_pguard3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_pguard2` |
-    | Spawn group | `guynmart_pguard2` |
-    | Loot table | – |
-    | Conversation | `guynmart_pguard2_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:1` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_pguard2",
-     "name": "Guynmart elite guard",
-     "iconID": "monsters_ld1:1",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_pguard2_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 4 (guynmart_pguard3) { #v-guynmart_pguard3 }
-
-**Entry ID:** `guynmart_pguard3` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3)
+**Where:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_pguard3)
 
 ### Dialogue simulator
 
@@ -201,11 +133,79 @@ Set your quest stages and items, then talk to Guynmart elite guard. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_pguard3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Guynmart elite guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_pguard` | NPC | [Guynmart Castle, Guynmart and 1 more](#v-guynmart_pguard) |
+| `guynmart_pguard2` | NPC | [Guynmart Castle, Guynmart wood 4](#v-guynmart_pguard2) |
+| `guynmart_pguard3` | NPC | [Guynmart Castle, Guynmart wood 4](#v-guynmart_pguard3) |
+
+??? info "Technical information: guynmart_pguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_pguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_pguard` |
+    | Loot table | – |
+    | Conversation | `guynmart_guard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:1` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_pguard",
+     "name": "Guynmart elite guard",
+     "iconID": "monsters_ld1:1",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_guard_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_pguard2"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_pguard2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_pguard2` |
+    | Loot table | – |
+    | Conversation | `guynmart_pguard2_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:1` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_pguard2",
+     "name": "Guynmart elite guard",
+     "iconID": "monsters_ld1:1",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_pguard2_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_pguard3"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_pguard3` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_pguard3` |
     | Loot table | – |
     | Conversation | `guynmart_pguard3_10` |
@@ -226,7 +226,6 @@ Set your quest stages and items, then talk to Guynmart elite guard. Same rules a
      "phraseID": "guynmart_pguard3_10"
     }
     ```
-
 
 
 ## Community notes

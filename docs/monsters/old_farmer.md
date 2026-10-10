@@ -4,32 +4,23 @@ description: "Old farmer is a non-player character (NPC) in Andor's Trail, found
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Old farmer
 
+**Where to find Old farmer:** [Remgard, Remgard 4](#v-old_farmer), [Stoutford, Stoutford south-east](#v-stoutford_farmer3)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_mage2_0.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard, Stoutford |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Old farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Remgard, Remgard 4 { #v-old_farmer }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`old_farmer`](#v-old_farmer) | NPC | Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-old_farmer) | – |
-| [`stoutford_farmer3`](#v-stoutford_farmer3) | NPC | Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_farmer3) | – |
-
-## Remgard, Remgard 4 (old_farmer) { #v-old_farmer }
-
-**Entry ID:** `old_farmer` · **Type:** NPC
-
-**Location:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-old_farmer)
+**Where:** Remgard: [Remgard 4](../maps/remgard4.md#pin-npc-old_farmer)
 
 ### Dialogue simulator
 
@@ -58,38 +49,9 @@ Set your quest stages and items, then talk to Old farmer. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (old_farmer)"
+## Stoutford, Stoutford south-east { #v-stoutford_farmer3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `old_farmer` |
-    | Spawn group | `fallhaven_farmer2` |
-    | Loot table | – |
-    | Conversation | `fallhaven_farmer2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_mage2:0` |
-    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "old_farmer",
-     "name": "Old farmer",
-     "iconID": "monsters_mage2:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "fallhaven_farmer2",
-     "phraseID": "fallhaven_farmer2"
-    }
-    ```
-
-
-## Stoutford, Stoutford south-east (stoutford_farmer3) { #v-stoutford_farmer3 }
-
-**Entry ID:** `stoutford_farmer3` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_farmer3)
+**Where:** Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_farmer3)
 
 ### Dialogue simulator
 
@@ -117,11 +79,51 @@ Set your quest stages and items, then talk to Old farmer. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_farmer3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Old farmer. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `old_farmer` | NPC | [Remgard, Remgard 4](#v-old_farmer) |
+| `stoutford_farmer3` | NPC | [Stoutford, Stoutford south-east](#v-stoutford_farmer3) |
+
+??? info "Technical information: old_farmer"
+
+    | | |
+    |---|---|
+    | Entry ID | `old_farmer` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fallhaven_farmer2` |
+    | Loot table | – |
+    | Conversation | `fallhaven_farmer2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_mage2:0` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "old_farmer",
+     "name": "Old farmer",
+     "iconID": "monsters_mage2:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "fallhaven_farmer2",
+     "phraseID": "fallhaven_farmer2"
+    }
+    ```
+
+??? info "Technical information: stoutford_farmer3"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_farmer3` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_farmer3` |
     | Loot table | – |
     | Conversation | `stoutford_farmer3` |
@@ -142,7 +144,6 @@ Set your quest stages and items, then talk to Old farmer. Same rules as the game
      "phraseID": "stoutford_farmer3"
     }
     ```
-
 
 
 ## Community notes

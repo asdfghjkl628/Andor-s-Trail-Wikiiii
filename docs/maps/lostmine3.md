@@ -52,8 +52,8 @@ description: "Lostmine 3 is an indoor location in Andor's Trail. Enemies: Young 
 | [Ash spectre](../monsters/ashs3.md) | 97 | 5–15 | 1 | – |
 | [Young ash gargoyle](../monsters/ash1.md) | 109 | 3–10 | 17 | shares spawn with Ash gargoyle |
 | [Ash gargoyle](../monsters/ash2.md) | 116 | 3–10 | 17 | shares spawn with Young ash gargoyle |
-| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 2 | shares spawn with Strong ash gargoyle |
 | [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 2 | shares spawn with Hardened ash gargoyle |
+| [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 2 | shares spawn with Strong ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

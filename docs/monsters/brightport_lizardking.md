@@ -1,5 +1,5 @@
 ---
-description: "Three-fang-elyzard is an NPC who can also be fought in Andor's Trail, found in Greenscale tribe."
+description: "Three-fang-elyzard is an NPC you can also fight in Andor's Trail, found in Greenscale tribe."
 ---
 
 # ![](../assets/icons/monsters/monsters_johny_2.png){ .sprite } Three-fang-elyzard
@@ -12,40 +12,36 @@ description: "Three-fang-elyzard is an NPC who can also be fought in Andor's Tra
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Greenscale tribe |
 | **Class** | Reptile |
 | **HP** | 400 |
 | **XP when defeated** | 1,489 |
-| **Entry ID** | `brightport_lizardking` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Three-fang-elyzard"
+    The conversation can lead straight into a fight with Three-fang-elyzard.
 
-## Combat statistics
+    Three-fang-elyzard turns hostile if you fall out with their faction (this can happen in [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md)).
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 400 |
 | XP when defeated | 1,489 |
 | Damage | 20 to 35 |
-| Attack chance | 230 |
-| Block chance | 200 |
-| Damage resistance | 8 |
-| Max AP | 15 |
-| Attack cost | 5 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 25 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 17% |
+| AC | 230 |
+| BC | 200 |
+| DR | 8 |
+| Attacks per turn | 3 (5 AP each, 15 AP) |
+| Crit chance | 17% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -55,12 +51,6 @@ description: "Three-fang-elyzard is an NPC who can also be fought in Andor's Tra
 | [Gold coins](../items/gold.md) | 100% | 160 to 350 |
 | [King's hide](../items/brightport_kingarmor.md) | 100% | 1 |
 | [Lizard skin](../items/lizard_skin.md) | 100% | 1 to 3 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brightport lizard 1](../maps/brightport_lizard1.md) | Greenscale tribe | 1 | – |
 
 ## Quests that count defeats
 
@@ -173,11 +163,26 @@ Set your quest stages and items, then talk to Three-fang-elyzard. Same rules as 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brightport_lizardking` belongs to the faction `lizardman`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_lizardking` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `brightport_lizardking` |
     | Loot table | `brightport_greenlizardking` |
     | Conversation | `brightport_lizardking` |
@@ -214,15 +219,6 @@ Set your quest stages and items, then talk to Three-fang-elyzard. Same rules as 
      "damageResistance": 8
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

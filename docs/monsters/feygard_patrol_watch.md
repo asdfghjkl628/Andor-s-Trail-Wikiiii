@@ -1,8 +1,10 @@
 ---
-description: "Feygard patrol watch is an NPC who can also be fought in Andor's Trail, found in Foaming Flask Tavern, Pub."
+description: "Feygard patrol watch is an NPC you can also fight in Andor's Trail, found in Foaming Flask Tavern, Pub."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Feygard patrol watch
+
+**Where to find Feygard patrol watch:** [Foaming Flask Tavern, Road 1](#v-feygard_patrol_watch), [Pub, Ratdom maze 412](#v-ratdom_ff_guard)
 
 <div class="infobox" markdown>
 
@@ -10,54 +12,38 @@ description: "Feygard patrol watch is an NPC who can also be fought in Andor's T
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Foaming Flask Tavern, Pub |
 | **Class** | Humanoid |
 | **HP** | 80 |
 | **XP when defeated** | 133–280 |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Feygard patrol watch. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Foaming Flask Tavern, Road 1 { #v-feygard_patrol_watch }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`feygard_patrol_watch`](#v-feygard_patrol_watch) | NPC/Enemy | Foaming Flask Tavern: [Road 1](../maps/road1.md#pin-npc-feygard_patrol_watch) | – | 80 |
-| [`ratdom_ff_guard`](#v-ratdom_ff_guard) | NPC/Enemy | Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard) | – | 80 |
+**Where:** Foaming Flask Tavern: [Road 1](../maps/road1.md#pin-npc-feygard_patrol_watch)
 
-## Foaming Flask Tavern, Road 1 (feygard_patrol_watch) { #v-feygard_patrol_watch }
+!!! warning "You can fight Feygard patrol watch"
+    The conversation during [Spies in the foam](../quests/jolnor.md#stage-21) can lead straight into a fight with Feygard patrol watch.
 
-**Entry ID:** `feygard_patrol_watch` · **Type:** NPC/Enemy
+### Combat
 
-**Location:** Foaming Flask Tavern: [Road 1](../maps/road1.md#pin-npc-feygard_patrol_watch)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 80 |
 | XP when defeated | 133 |
 | Damage | 2 to 7 |
-| Attack chance | 70 |
-| Block chance | 80 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 80 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -67,12 +53,6 @@ description: "Feygard patrol watch is an NPC who can also be fought in Andor's T
 | [Small empty vial](../items/vial_empty1.md) | 100% | 1 |
 | [Wooden buckler](../items/shield1.md) | 100% | 1 |
 | [Iron sword](../items/ironsword1.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Road 1](../maps/road1.md) | Foaming Flask Tavern | 1 | – |
 
 ### Quests
 
@@ -222,86 +202,35 @@ Set your quest stages and items, then talk to Feygard patrol watch. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (feygard_patrol_watch)"
+## Pub, Ratdom maze 412 { #v-ratdom_ff_guard }
 
-    | | |
-    |---|---|
-    | Entry ID | `feygard_patrol_watch` |
-    | Spawn group | `ff_outsideguard` |
-    | Loot table | `ff_outsideguard` |
-    | Conversation | `ff_outsideguard_select` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles3:14` |
-    | Defined in | `res/raw/monsterlist_v068_npcs.json` |
+**Where:** Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard)
 
-    Raw data:
+!!! warning "You can fight Feygard patrol watch"
+    Answering “But you were so stupid ...” starts a fight with Feygard patrol watch.
 
-    ```json
-    {
-     "id": "feygard_patrol_watch",
-     "name": "Feygard patrol watch",
-     "iconID": "monsters_rltiles3:14",
-     "maxHP": 80,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "attackDamage": {
-      "min": 2,
-      "max": 7
-     },
-     "spawnGroup": "ff_outsideguard",
-     "phraseID": "ff_outsideguard_select",
-     "droplistID": "ff_outsideguard",
-     "attackCost": 5,
-     "attackChance": 70,
-     "blockChance": 80,
-     "damageResistance": 3
-    }
-    ```
+### Combat
 
-
-## Pub, Ratdom maze 412 (ratdom_ff_guard) { #v-ratdom_ff_guard }
-
-**Entry ID:** `ratdom_ff_guard` · **Type:** NPC/Enemy
-
-**Location:** Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 80 |
 | XP when defeated | 280 |
 | Damage | 12 to 17 |
-| Attack chance | 170 |
-| Block chance | 180 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 170 |
+| BC | 180 |
+| DR | 3 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 2 to 9 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Ratdom maze 412](../maps/ratdom_maze_412.md) | Pub | 1 | – |
 
 ### Quests that count defeats
 
@@ -369,11 +298,70 @@ Set your quest stages and items, then talk to Feygard patrol watch. Same rules a
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_ff_guard)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Feygard patrol watch. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `feygard_patrol_watch` | NPC/Enemy | [Foaming Flask Tavern, Road 1](#v-feygard_patrol_watch) |
+| `ratdom_ff_guard` | NPC/Enemy | [Pub, Ratdom maze 412](#v-ratdom_ff_guard) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: feygard_patrol_watch"
+
+    | | |
+    |---|---|
+    | Entry ID | `feygard_patrol_watch` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `ff_outsideguard` |
+    | Loot table | `ff_outsideguard` |
+    | Conversation | `ff_outsideguard_select` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:14` |
+    | Defined in | `res/raw/monsterlist_v068_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "feygard_patrol_watch",
+     "name": "Feygard patrol watch",
+     "iconID": "monsters_rltiles3:14",
+     "maxHP": 80,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "attackDamage": {
+      "min": 2,
+      "max": 7
+     },
+     "spawnGroup": "ff_outsideguard",
+     "phraseID": "ff_outsideguard_select",
+     "droplistID": "ff_outsideguard",
+     "attackCost": 5,
+     "attackChance": 70,
+     "blockChance": 80,
+     "damageResistance": 3
+    }
+    ```
+
+??? info "Technical information: ratdom_ff_guard"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_ff_guard` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ratdom_ff_guard` |
     | Loot table | `ratdom_ff_guard` |
     | Conversation | `ratdom_ff_guard` |
@@ -405,16 +393,6 @@ Set your quest stages and items, then talk to Feygard patrol watch. Same rules a
      "damageResistance": 3
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

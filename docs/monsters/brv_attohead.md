@@ -1,5 +1,5 @@
 ---
-description: "Attohead is an NPC who can also be fought in Andor's Trail, found in Brimhaven."
+description: "Attohead is an NPC you can also fight in Andor's Trail, found in Brimhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_45.png){ .sprite } Attohead
@@ -12,40 +12,39 @@ description: "Attohead is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 85 |
 | **XP when defeated** | 114 |
-| **Entry ID** | `brv_attohead` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Attohead"
+    Answering “Let's fight!” during [Much water](../quests/brv_flood.md#stage-70) starts a fight with Attohead.
 
-## Combat statistics
+    Attohead turns hostile if you fall out with their faction (this can happen in [Much water](../quests/brv_flood.md)).
 
-| Statistic | Value |
+!!! note "A fight can start here"
+    Answering “Let's fight!” during [Much water](../quests/brv_flood.md#stage-70) starts a fight with [Alvies](../monsters/brv_alvies.md), not with Attohead.
+
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 85 |
 | XP when defeated | 114 |
 | Damage | 4 to 9 |
-| Attack chance | 79 |
-| Block chance | 44 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 79 |
+| BC | 44 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -53,12 +52,6 @@ description: "Attohead is an NPC who can also be fought in Andor's Trail, found 
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 10 to 100 |
 | [Coin bag (with the name "Alkapoan" on it)](../items/brv_richmans_coin_bag.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven brother 1 to 2](../maps/brimhaven_brother1_to_2.md) | Brimhaven | 1 | – |
 
 ## Quests
 
@@ -129,16 +122,31 @@ Set your quest stages and items, then talk to Attohead. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Since he is already here, we could ask him if he will help us for sav…” → “Since they are already here, we could ask them to help us, if they wa…”<br>· text: “[You accidently make a noise and they turn their heads towards you] H…” → “[You accidently make a noise and they turn their heads towards you] H…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “[You accidently make a noise and they turn their heads towards you] H…” → “[You accidently make a noise and they turn their heads towards you] H…”<br>· text: “Since he is already here, we could ask him if he will help us for sav…” → “Since they are already here, we could ask them to help us, if they wa…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brv_attohead` belongs to the faction `brv_brothers`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_attohead` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `brv_attohead` |
     | Loot table | `brv_brothers` |
     | Conversation | `brv_brothers_select` |
@@ -171,15 +179,6 @@ Set your quest stages and items, then talk to Attohead. Same rules as the game: 
      "damageResistance": 1
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

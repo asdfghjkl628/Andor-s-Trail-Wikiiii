@@ -1,5 +1,5 @@
 ---
-description: "Laerothbarn 1 is an indoor location in Andor's Trail, in Lake Laeroth (other). Enemies: Basement spider, Giant centipede, Aggressive giant centipede, Giant spider. Exits to Laerothbarn 0."
+description: "Laerothbarn 1 is an indoor location in Andor's Trail, in Lake Laeroth (other). Enemies: Giant centipede, Basement spider, Aggressive giant centipede, Giant spider. Exits to Laerothbarn 0."
 ---
 
 # Laerothbarn 1
@@ -46,8 +46,8 @@ description: "Laerothbarn 1 is an indoor location in Andor's Trail, in Lake Laer
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Basement spider](../monsters/laerothbasement_spider.md) | 90 | 6–14 | 2 | appears later, during a quest |
 | [Giant centipede](../monsters/centipede.md) | 90 | 3–9 | 2 | appears later, during a quest; shares spawn with Aggressive giant centipede |
+| [Basement spider](../monsters/laerothbasement_spider.md) | 90 | 6–14 | 2 | appears later, during a quest |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 | 5–11 | 2 | appears later, during a quest; shares spawn with Giant centipede |
 | [Giant spider](../monsters/spider_massive.md) | 104 | 8–15 | 5 | – |
 

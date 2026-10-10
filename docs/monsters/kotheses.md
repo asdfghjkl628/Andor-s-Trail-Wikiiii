@@ -1,5 +1,5 @@
 ---
-description: "Kotheses is an NPC who can also be fought in Andor's Trail, found in Laerothprison 7."
+description: "Kotheses is an NPC you can also fight in Andor's Trail, found in Laerothprison 7."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik7_6.png){ .sprite } Kotheses
@@ -12,44 +12,40 @@ description: "Kotheses is an NPC who can also be fought in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Laerothprison 7 |
 | **Class** | Undead |
 | **HP** | 180 |
 | **XP when defeated** | 313 |
-| **Entry ID** | `kotheses` |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Kotheses"
+    Answering “How gross.” starts a fight with Kotheses.
 
-## Combat statistics
+    Kotheses turns hostile if you fall out with their faction.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Undead |
 | HP | 180 |
 | XP when defeated | 313 |
 | Damage | 3 to 20 |
-| Attack chance | 90 |
-| Block chance | 75 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 15 |
-| Critical multiplier | 1.5 |
-| Critical hit chance | 12% |
+| AC | 90 |
+| BC | 75 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 12% (×1.5) |
 
-**On hit:** Heal HP: 2
+**Its hits:** Heal HP: 2
 
-**When hit:** Heal HP: 2; increaseAttackerCurrentHP: -2
+**When you hit it:** Heal HP: 2; increaseAttackerCurrentHP: -2
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -59,12 +55,6 @@ description: "Kotheses is an NPC who can also be fought in Andor's Trail, found 
 | [Obsidian dagger](../items/obsidian_dagger.md) | 100% | 1 |
 | [Bone](../items/bone.md) | 80% | 1 to 2 |
 | [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Laerothprison 7](../maps/laerothprison7.md) | – | 1 | – |
 
 ## Quests that count defeats
 
@@ -264,16 +254,31 @@ Set your quest stages and items, then talk to Kotheses. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.8.11](../versions/0.8.11.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?”<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …” |
+| [v0.8.12.1](../versions/0.8.12.1.md) | Dialogue: 2 lines changed<br>· text: “Sure. We only want want the thruth. Nothing more. It is a very presti…” → “Sure. We only want the truth. Nothing more. It is a very prestigious …”<br>· text: “Okay, then let's get started. This is a very important job, you know?” → “OK, then let's get started. This is a very important job, you know?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `kotheses` belongs to the faction `lae_torturer`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `kotheses` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `kotheses` |
     | Loot table | `kotheses` |
     | Conversation | `lae_torturer` |
@@ -324,15 +329,6 @@ Set your quest stages and items, then talk to Kotheses. Same rules as the game: 
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,33 +4,24 @@ description: "General's henchman is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } General's henchman
 
+**Where to find General's henchman:** [Prim, Blackwater mountain 11 and 1 more](#v-ortholion_guard1), [Prim, Blackwater mountain 11](#v-ortholion_guard_hidden)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Prim |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named General's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, loot or shop stock, movement. Each entry has its own section below.
+## Prim, Blackwater mountain 11 and 1 more { #v-ortholion_guard1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`ortholion_guard1`](#v-ortholion_guard1) | NPC | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1) | shopkeeper |
-| [`ortholion_guard_hidden`](#v-ortholion_guard_hidden) | Scenery | Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md) | – |
-
-## Prim, Blackwater mountain 11 and 1 more (ortholion_guard1) { #v-ortholion_guard1 }
-
-**Entry ID:** `ortholion_guard1` · **Type:** NPC · **Role:** Shopkeeper
-
-**Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1)
+**Where:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md#pin-npc-ortholion_guard1), Prim: [Blackwater mountain 29](../maps/blackwater_mountain29.md#pin-npc-ortholion_guard1) · **Role:** Shopkeeper
 
 ### Shop stock
 
@@ -257,11 +248,40 @@ Set your quest stages and items, then talk to General's henchman. Same rules as 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ortholion_guard1)"
+## Prim, Blackwater mountain 11 { #v-ortholion_guard_hidden }
+
+**Where:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.14](../versions/0.7.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named General's henchman. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `ortholion_guard1` | NPC | [Prim, Blackwater mountain 11 and 1 more](#v-ortholion_guard1) |
+| `ortholion_guard_hidden` | Scenery | [Prim, Blackwater mountain 11](#v-ortholion_guard_hidden) |
+
+- `ortholion_guard_hidden` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md).
+
+??? info "Technical information: ortholion_guard1"
 
     | | |
     |---|---|
     | Entry ID | `ortholion_guard1` |
+    | Type (wiki) | NPC |
     | Spawn group | `ortholion_guard1` |
     | Loot table | `ortholion_guard1` |
     | Conversation | `ortholion_guard_selector` |
@@ -285,31 +305,12 @@ Set your quest stages and items, then talk to General's henchman. Same rules as 
     }
     ```
 
-
-## Prim, Blackwater mountain 11 (ortholion_guard_hidden) { #v-ortholion_guard_hidden }
-
-**Entry ID:** `ortholion_guard_hidden` · **Type:** Scenery
-
-**Location:** Prim: [Blackwater mountain 11](../maps/blackwater_mountain11.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.14](../versions/0.7.14.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (ortholion_guard_hidden)"
+??? info "Technical information: ortholion_guard_hidden"
 
     | | |
     |---|---|
     | Entry ID | `ortholion_guard_hidden` |
+    | Type (wiki) | Scenery |
     | Spawn group | `ortholion_guard_hidden` |
     | Loot table | – |
     | Conversation | – |
@@ -329,7 +330,6 @@ Set your quest stages and items, then talk to General's henchman. Same rules as 
      "spawnGroup": "ortholion_guard_hidden"
     }
     ```
-
 
 
 ## Community notes

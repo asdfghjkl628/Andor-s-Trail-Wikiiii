@@ -12,10 +12,9 @@ description: "Teccow is a non-player character (NPC) in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [The exploded star](../quests/mg2_exploded_star.md) |
 | **Found in** | Stoutford |
-| **Entry ID** | `mg2_starwatcher` |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
@@ -207,11 +206,16 @@ Set your quest stages and items, then talk to Teccow. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `mg2_starwatcher` |
+    | Type (wiki) | NPC |
     | Spawn group | `mg2_starwatcher` |
     | Loot table | – |
     | Conversation | `mg2_starwatcher` |

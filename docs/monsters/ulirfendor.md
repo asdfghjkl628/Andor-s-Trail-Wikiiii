@@ -1,5 +1,5 @@
 ---
-description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, found in Waytobrimhavencave 4. Teaches Dark blessing of the Shadow; starts An involuntary carrier."
+description: "Ulirfendor is an NPC you can also fight in Andor's Trail, found in Waytobrimhavencave 4. Teaches Dark blessing of the Shadow; starts An involuntary carrier."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_84.png){ .sprite } Ulirfendor
@@ -12,41 +12,35 @@ description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, foun
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Teaches [Dark blessing of the Shadow](../skills/shadowBless.md); starts [An involuntary carrier](../quests/toszylae.md) |
 | **Found in** | Waytobrimhavencave 4 |
 | **Class** | Humanoid |
 | **HP** | 288 |
 | **XP when defeated** | 421 |
-| **Entry ID** | `ulirfendor` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Ulirfendor"
+    Answering “Attack!” during [The dark protector](../quests/darkprotector.md#stage-51) starts a fight with Ulirfendor.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 288 |
 | XP when defeated | 421 |
 | Damage | 1 to 16 |
-| Attack chance | 70 |
-| Block chance | 60 |
-| Damage resistance | 6 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 30 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 19% |
+| AC | 70 |
+| BC | 60 |
+| DR | 6 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 19% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -56,12 +50,6 @@ description: "Ulirfendor is an NPC who can also be fought in Andor's Trail, foun
 | [Iron club](../items/club3.md) | 100% | 1 |
 | [Minor vial of health](../items/health_minor.md) | 100% | 1 to 2 |
 | [Empty vial](../items/vial_empty2.md) | 100% | 3 to 5 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytobrimhavencave 4](../maps/waytobrimhavencave4.md) | – | 1 | – |
 
 ## Quests
 
@@ -595,18 +583,31 @@ Set your quest stages and items, then talk to Ulirfendor. Same rules as the game
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “Oh wait, you are not one of them. You.. you are not one of those spaw…” → “Oh wait, you are not one of them. You ... you are not one of those sp…”<br>· text: “(Ulirfendor pours the contents of the vial on the helmet and the hear…” → “[Ulirfendor pours the contents of the vial on the helmet and the hear…” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…”<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 34 lines changed<br>· text: “(He does the same with the heart that also seems to have completely f…” → “[He does the same with the heart that also seems to have completely f…”<br>· text: “That's good to hear. I hope that .. thing .. didn't have any permanen…” → “That's good to hear. I hope that ... thing ... didn't have any perman…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 2 lines changed<br>· text: “I am not certain of what the term 'The Dark Protector' refers to. At …” → “I am not certain of what the term 'The Dark Protector' refers to. At …”<br>· text: “The blessing will grant you the aid of the Shadow while in combat, pr…” → “The blessing will grant you the aid of the Shadow while in combat, pr…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Hmm. You know what, this could actually be connected to what the shri…” → “Hmm. You know what, this could actually be connected to what the shri…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `ulirfendor` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `ulirfendor` |
     | Loot table | `ulirfendor` |
     | Conversation | `ulirfendor` |
@@ -642,15 +643,6 @@ Set your quest stages and items, then talk to Ulirfendor. Same rules as the game
      "damageResistance": 6
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

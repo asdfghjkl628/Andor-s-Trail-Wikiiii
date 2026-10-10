@@ -17,36 +17,30 @@ description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP,
 | **Class** | Animal |
 | **HP** | 90 |
 | **XP when defeated** | 294 |
-| **Entry ID** | `bwm_olm5` |
 | **Introduced** | [v0.7.14](../versions/0.7.14.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 90 |
 | XP when defeated | 294 |
 | Damage | 6 to 14 |
-| Attack chance | 133 |
-| Block chance | 146 |
-| Damage resistance | 8 |
-| Max AP | 12 |
-| Attack cost | 10 AP |
-| Attacks per turn | 1 |
-| Move cost | 4 AP |
-| Critical skill | 25 |
-| Critical multiplier | 1.5 |
-| Critical hit chance | 17% |
+| AC | 133 |
+| BC | 146 |
+| DR | 8 |
+| Attacks per turn | 1 (10 AP each, 12 AP) |
+| Crit chance | 17% (×1.5) |
 
-**On hit:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 2 rounds, 10% chance)
+**Its hits:** On target: [Bleeding wound](../conditions/bleeding_wound.md) (magnitude 2, 2 rounds, 10% chance)
 
-**When hit:** On self: [Panic](../conditions/panic.md) (magnitude 1, 3 rounds, 30% chance); On target: [Nausea](../conditions/nausea.md) (magnitude 2, 2 rounds, 15% chance)
+**When you hit it:** On self: [Panic](../conditions/panic.md) (magnitude 1, 3 rounds, 30% chance); On target: [Nausea](../conditions/nausea.md) (magnitude 2, 2 rounds, 15% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -80,11 +74,24 @@ description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP,
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `bwm_olm5` |
+    | Type (wiki) | Enemy |
     | Spawn group | `elm_mine1` |
     | Loot table | `bwm_olm` |
     | Conversation | – |
@@ -146,15 +153,6 @@ description: "Contaminated olm is an enemy in Andor's Trail (animal) with 90 HP,
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

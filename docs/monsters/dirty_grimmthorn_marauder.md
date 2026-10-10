@@ -1,5 +1,5 @@
 ---
-description: "Dirty grimmthorn marauder is an NPC who can also be fought in Andor's Trail, found in Way to sullengard west 0, Way to sullengard west 1, Way to sullengard west 2."
+description: "Dirty grimmthorn marauder is an NPC you can also fight in Andor's Trail, found in Way to sullengard west 0, Way to sullengard west 1, Way to sullengard west 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_newb_1_20.png){ .sprite } Dirty grimmthorn marauder
@@ -12,40 +12,34 @@ description: "Dirty grimmthorn marauder is an NPC who can also be fought in Ando
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Way to sullengard west 0, Way to sullengard west 1, Way to sullengard west 2 |
 | **Class** | Humanoid |
 | **HP** | 370 |
 | **XP when defeated** | 606 |
-| **Entry ID** | `dirty_grimmthorn_marauder` |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Dirty grimmthorn marauder"
+    Answering “Where is the Shadow to help me now?” starts a fight with Dirty grimmthorn marauder.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 370 |
 | XP when defeated | 606 |
 | Damage | 9 |
-| Attack chance | 189 |
-| Block chance | 77 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 12 |
-| Critical multiplier | 2.25 |
-| Critical hit chance | 10% |
+| AC | 189 |
+| BC | 77 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 10% (×2.25) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -92,11 +86,24 @@ Set your quest stages and items, then talk to Dirty grimmthorn marauder. Same ru
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `dirty_grimmthorn_marauder` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `dirty_grimmthorn_marauder` |
     | Loot table | `dirty_grimmthorn_marauder_dl` |
     | Conversation | `dirty_grimmthorn_marauder_1` |
@@ -130,15 +137,6 @@ Set your quest stages and items, then talk to Dirty grimmthorn marauder. Same ru
      "damageResistance": 9
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

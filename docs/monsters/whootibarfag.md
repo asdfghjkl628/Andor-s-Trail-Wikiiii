@@ -12,10 +12,9 @@ description: "Whootibarfag is a non-player character (NPC) in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper; teaches [Evasion](../skills/evasion.md) |
 | **Found in** | Blackwater Mountain |
-| **Entry ID** | `whootibarfag` |
 | **Introduced** | [v0.8.5](../versions/0.8.5.md) |
 
 </div>
@@ -268,11 +267,16 @@ Set your quest stages and items, then talk to Whootibarfag. Same rules as the ga
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `whootibarfag` |
+    | Type (wiki) | NPC |
     | Spawn group | `whootibarfag` |
     | Loot table | `whootibarfag` |
     | Conversation | `whootibarfag` |

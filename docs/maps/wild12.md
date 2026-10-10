@@ -1,5 +1,5 @@
 ---
-description: "Wild 12 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit. Enemies: Forest wasp, Wild boar, Forest serpent. Exits to Wild 13, Bogsten 5, Gapfiller 1, Fallhaven south-east."
+description: "Wild 12 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit. Enemies: Forest wasp, Forest serpent, Wild boar. Exits to Wild 13, Bogsten 5, Gapfiller 1, Fallhaven south-east."
 ---
 
 # Wild 12
@@ -64,8 +64,8 @@ East: Nor City”">6</a></div>
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
-| [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 2 | – |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 2 | – |
+| [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

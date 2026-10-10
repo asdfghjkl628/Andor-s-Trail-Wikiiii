@@ -1,5 +1,5 @@
 ---
-description: "Vacor is an NPC who can also be fought in Andor's Trail, found in Fallhaven. Starts Missing pieces."
+description: "Vacor is an NPC you can also fight in Andor's Trail, found in Fallhaven. Starts Missing pieces."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } Vacor
@@ -12,41 +12,35 @@ description: "Vacor is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Missing pieces](../quests/vacor.md) |
 | **Found in** | Fallhaven |
 | **Class** | Humanoid |
 | **HP** | 72 |
 | **XP when defeated** | 111 |
-| **Entry ID** | `vacor` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Vacor"
+    Answering “For the Shadow!” during [Missing pieces](../quests/vacor.md#stage-54) starts a fight with Vacor.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 72 |
 | XP when defeated | 111 |
 | Damage | 4 to 8 |
-| Attack chance | 110 |
-| Block chance | 40 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 40 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -56,12 +50,6 @@ description: "Vacor is an NPC who can also be fought in Andor's Trail, found in 
 | [Regular potion of health](../items/health.md) | 100% | 1 |
 | [Vacor's ring](../items/ring_vacor.md) | 100% | 1 |
 | [Vacor's boots of attack](../items/boots_vacor.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fallhaven south-west](../maps/fallhaven_sw.md) | Fallhaven | 1 | – |
 
 ## Quests
 
@@ -372,16 +360,29 @@ Set your quest stages and items, then talk to Vacor. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “(The map shows a location to the northwest of the former prison of Fl…” → “[The map shows a location to the northwest of the former prison of Fl…”<br>· text: “After years of work, I can't seem to remember the last parts of the s…” → “After years of work, I can't seem to remember the last parts of the s…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Now I should be able to finish the rift spell and open up the Shadow …” → “Now I should be able to finish the rift spell and open up the Shadow …”<br>· text: “(The map shows a location to the northwest of the former prison of Fl…” → “[The map shows a location to the northwest of the former prison of Fl…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `vacor` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `vacor` |
     | Loot table | `vacor` |
     | Conversation | `vacor` |
@@ -413,15 +414,6 @@ Set your quest stages and items, then talk to Vacor. Same rules as the game: sam
      "damageResistance": 2
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

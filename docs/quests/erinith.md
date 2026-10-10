@@ -156,7 +156,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Bonemeal potion? But.. but.. We are not allowed to use them since the…” → “Bonemeal potion? But ... but ... we are not allowed to use them since…”<br>· text: “Thank you for bringing them to me. *drinks all four potions*” → “Thank you for bringing them to me. [Drinks all four potions]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Bonemeal potion? But.. but.. We are not allowed to use them since the…” → “Bonemeal potion? But ... but ... we are not allowed to use them since…”<br>· text: “Thank you for bringing me one. *drinks potion*” → “Thank you for bringing me one. [Drinks potion]” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

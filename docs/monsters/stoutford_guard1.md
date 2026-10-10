@@ -1,8 +1,10 @@
 ---
-description: "Stoutford guard is an NPC who can also be fought in Andor's Trail, found in Flagstone Prison, Stoutford, Stoutford, Stoutford tower 4, Flagstone Prison."
+description: "Stoutford guard is an NPC you can also fight in Andor's Trail, found in Flagstone Prison, Stoutford, Stoutford, Stoutford tower 4, Flagstone Prison."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik2_44.png){ .sprite } Stoutford guard
+
+**Where to find Stoutford guard:** [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard1), [Stoutford, Wild 20](#v-stoutford_gateguard), [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard1_b), [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard1_c), [Stoutford, Wild 21](#v-stoutford_guard1a), [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard2), [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard3), [Stoutford tower 4](#v-stoutford_guard4), [Flagstone Prison, Wild 16](#v-stoutford_guard_camp1), [Flagstone Prison, Wild 16](#v-stoutford_guard_camp2), [Stoutford, Wild 21a](#v-stoutford_guard_wild21a), [Appears during a quest or event](#v-stoutford_guard1b), [Appears during a quest or event](#v-stoutford_guard1c)
 
 <div class="infobox" markdown>
 
@@ -10,40 +12,18 @@ description: "Stoutford guard is an NPC who can also be fought in Andor's Trail,
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Flagstone Prison, Stoutford, Stoutford, Stoutford tower 4, Flagstone Prison |
 | **Class** | Humanoid |
 | **HP** | 40 |
 | **XP when defeated** | 64 |
-| **Entries in game data** | 13 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "13 entries in the game data"
-    The game data defines 13 separate characters named Stoutford guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, faction, appearance, movement. Each entry has its own section below.
+## Flagstone Prison, Flagstone 0 and 9 more { #v-stoutford_guard1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`stoutford_guard1`](#v-stoutford_guard1) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1) (+8 more) | – | – |
-| [`stoutford_gateguard`](#v-stoutford_gateguard) | NPC | Stoutford: [Wild 20](../maps/wild20.md#pin-npc-stoutford_gateguard) | – | – |
-| [`stoutford_guard1_b`](#v-stoutford_guard1_b) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_b) (+8 more) | – | – |
-| [`stoutford_guard1_c`](#v-stoutford_guard1_c) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_c) (+8 more) | – | – |
-| [`stoutford_guard1a`](#v-stoutford_guard1a) | NPC | Stoutford: [Wild 21](../maps/wild21.md#pin-npc-stoutford_guard1a) | – | – |
-| [`stoutford_guard2`](#v-stoutford_guard2) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard2) (+8 more) | – | – |
-| [`stoutford_guard3`](#v-stoutford_guard3) | NPC | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard3) (+8 more) | – | – |
-| [`stoutford_guard4`](#v-stoutford_guard4) | NPC | [Stoutford tower 4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4) | – | – |
-| [`stoutford_guard_camp1`](#v-stoutford_guard_camp1) | NPC/Enemy | Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp1) | – | 40 |
-| [`stoutford_guard_camp2`](#v-stoutford_guard_camp2) | NPC/Enemy | Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp2) | – | 40 |
-| [`stoutford_guard_wild21a`](#v-stoutford_guard_wild21a) | NPC | Stoutford: [Wild 21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a) | – | – |
-| [`stoutford_guard1b`](#v-stoutford_guard1b) | NPC | Not on a map | – | – |
-| [`stoutford_guard1c`](#v-stoutford_guard1c) | NPC | Not on a map | – | – |
-
-## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard1) { #v-stoutford_guard1 }
-
-**Entry ID:** `stoutford_guard1` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1) (+4 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1) (+4 more)
 
 ### Locations
 
@@ -86,36 +66,9 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard1)"
+## Stoutford, Wild 20 { #v-stoutford_gateguard }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard1` |
-    | Spawn group | `stoutford_guard1` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard1_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:44` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard1",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik2:44",
-     "phraseID": "stoutford_guard1_0"
-    }
-    ```
-
-
-## Stoutford, Wild 20 (stoutford_gateguard) { #v-stoutford_gateguard }
-
-**Entry ID:** `stoutford_gateguard` · **Type:** NPC
-
-**Location:** Stoutford: [Wild 20](../maps/wild20.md#pin-npc-stoutford_gateguard)
+**Where:** Stoutford: [Wild 20](../maps/wild20.md#pin-npc-stoutford_gateguard)
 
 ### Quests
 
@@ -197,36 +150,9 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_gateguard)"
+## Flagstone Prison, Flagstone 0 and 9 more (2) { #v-stoutford_guard1_b }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_gateguard` |
-    | Spawn group | `stoutford_gateguard` |
-    | Loot table | – |
-    | Conversation | `stoutford_gateguard_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:43` |
-    | Defined in | `res/raw/monsterlist_stoutford.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_gateguard",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik2:43",
-     "phraseID": "stoutford_gateguard_0"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard1_b) { #v-stoutford_guard1_b }
-
-**Entry ID:** `stoutford_guard1_b` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_b), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1_b), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_b), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1_b), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1_b) (+4 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_b), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_b), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1_b), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_b), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1_b), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1_b) (+4 more)
 
 ### Locations
 
@@ -269,37 +195,9 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard1_b)"
+## Flagstone Prison, Flagstone 0 and 9 more (3) { #v-stoutford_guard1_c }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard1_b` |
-    | Spawn group | `stoutford_guard1` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard1_0b` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:44` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard1_b",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik2:44",
-     "spawnGroup": "stoutford_guard1",
-     "phraseID": "stoutford_guard1_0b"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard1_c) { #v-stoutford_guard1_c }
-
-**Entry ID:** `stoutford_guard1_c` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_c), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1_c), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_c), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1_c), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1_c) (+4 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard1_c), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard1_c), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard1_c), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard1_c), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard1_c), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard1_c) (+4 more)
 
 ### Locations
 
@@ -342,37 +240,9 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard1_c)"
+## Stoutford, Wild 21 { #v-stoutford_guard1a }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard1_c` |
-    | Spawn group | `stoutford_guard1` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard1_0c` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:44` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard1_c",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik2:44",
-     "spawnGroup": "stoutford_guard1",
-     "phraseID": "stoutford_guard1_0c"
-    }
-    ```
-
-
-## Stoutford, Wild 21 (stoutford_guard1a) { #v-stoutford_guard1a }
-
-**Entry ID:** `stoutford_guard1a` · **Type:** NPC
-
-**Location:** Stoutford: [Wild 21](../maps/wild21.md#pin-npc-stoutford_guard1a)
+**Where:** Stoutford: [Wild 21](../maps/wild21.md#pin-npc-stoutford_guard1a)
 
 ### Dialogue simulator
 
@@ -394,37 +264,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard1a)"
+## Flagstone Prison, Flagstone 0 and 9 more (4) { #v-stoutford_guard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard1a` |
-    | Spawn group | `stoutford_guard1a` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard1_0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:44` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard1a",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik2:44",
-     "spawnGroup": "stoutford_guard1a",
-     "phraseID": "stoutford_guard1_0"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard2) { #v-stoutford_guard2 }
-
-**Entry ID:** `stoutford_guard2` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard2), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard2), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard2), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard2), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard2) (+4 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard2), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard2), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard2), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard2), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard2), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard2) (+4 more)
 
 ### Locations
 
@@ -467,38 +309,9 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard2)"
+## Flagstone Prison, Flagstone 0 and 9 more (5) { #v-stoutford_guard3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard2` |
-    | Spawn group | `stoutford_guard1` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik2:45` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard2",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik2:45",
-     "monsterClass": "humanoid",
-     "spawnGroup": "stoutford_guard1",
-     "phraseID": "stoutford_guard2"
-    }
-    ```
-
-
-## Flagstone Prison, Flagstone 0 and 9 more (stoutford_guard3) { #v-stoutford_guard3 }
-
-**Entry ID:** `stoutford_guard3` · **Type:** NPC
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard3), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard3), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard3), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard3), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard3) (+4 more)
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md#pin-npc-stoutford_guard3), Flagstone Prison: [Wild 18](../maps/wild18.md#pin-npc-stoutford_guard3), Stoutford: [Stoutford south-east](../maps/stoutford_se.md#pin-npc-stoutford_guard3), Stoutford: [Stoutford tower 1](../maps/stoutford_tower1.md#pin-npc-stoutford_guard3), Stoutford: [Wild 17](../maps/wild17.md#pin-npc-stoutford_guard3), Stoutford: [Wild 19](../maps/wild19.md#pin-npc-stoutford_guard3) (+4 more)
 
 ### Locations
 
@@ -541,38 +354,9 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard3)"
+## Stoutford tower 4 { #v-stoutford_guard4 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard3` |
-    | Spawn group | `stoutford_guard1` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard3` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:71` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard3",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik7:71",
-     "monsterClass": "humanoid",
-     "spawnGroup": "stoutford_guard1",
-     "phraseID": "stoutford_guard3"
-    }
-    ```
-
-
-## Stoutford tower 4 (stoutford_guard4) { #v-stoutford_guard4 }
-
-**Entry ID:** `stoutford_guard4` · **Type:** NPC
-
-**Location:** [Stoutford tower 4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4)
+**Where:** [Stoutford tower 4](../maps/stoutford_tower4.md#pin-npc-stoutford_guard4)
 
 ### Dialogue simulator
 
@@ -601,68 +385,31 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard4)"
+## Flagstone Prison, Wild 16 { #v-stoutford_guard_camp1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard4` |
-    | Spawn group | `stoutford_guard4` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard4` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik7:71` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+**Where:** Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp1)
 
-    Raw data:
+!!! warning "You can fight Stoutford guard"
+    Answering “Oh, you draw your sword?” starts a fight with Stoutford guard.
 
-    ```json
-    {
-     "id": "stoutford_guard4",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik7:71",
-     "monsterClass": "humanoid",
-     "phraseID": "stoutford_guard4"
-    }
-    ```
+    Stoutford guard turns hostile if you fall out with their faction.
 
+### Combat
 
-## Flagstone Prison, Wild 16 (stoutford_guard_camp1) { #v-stoutford_guard_camp1 }
-
-**Entry ID:** `stoutford_guard_camp1` · **Type:** NPC/Enemy
-
-**Location:** Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp1)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 40 |
 | XP when defeated | 64 |
 | Damage | 1 to 6 |
-| Attack chance | 50 |
-| Block chance | 100 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 100 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Wild 16](../maps/wild16.md) | Flagstone Prison | 1 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Dialogue simulator
 
@@ -713,81 +460,31 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard_camp1)"
+## Flagstone Prison, Wild 16 (2) { #v-stoutford_guard_camp2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard_camp1` |
-    | Spawn group | `stoutford_guard_camp` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard_camp1_10` |
-    | Faction | `stoutford_guard_camp` |
-    | Movement | helpOthers |
-    | Icon | `monsters_tometik7:71` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+**Where:** Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp2)
 
-    Raw data:
+!!! warning "You can fight Stoutford guard"
+    Answering “Oh, you draw your sword?” starts a fight with Stoutford guard.
 
-    ```json
-    {
-     "id": "stoutford_guard_camp1",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik7:71",
-     "maxHP": 40,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "helpOthers",
-     "attackDamage": {
-      "min": 1,
-      "max": 6
-     },
-     "spawnGroup": "stoutford_guard_camp",
-     "faction": "stoutford_guard_camp",
-     "phraseID": "stoutford_guard_camp1_10",
-     "attackCost": 5,
-     "attackChance": 50,
-     "blockChance": 100
-    }
-    ```
+    Stoutford guard turns hostile if you fall out with their faction.
 
+### Combat
 
-## Flagstone Prison, Wild 16 (stoutford_guard_camp2) { #v-stoutford_guard_camp2 }
-
-**Entry ID:** `stoutford_guard_camp2` · **Type:** NPC/Enemy
-
-**Location:** Flagstone Prison: [Wild 16](../maps/wild16.md#pin-npc-stoutford_guard_camp2)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 40 |
 | XP when defeated | 64 |
 | Damage | 1 to 6 |
-| Attack chance | 50 |
-| Block chance | 100 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 100 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Wild 16](../maps/wild16.md) | Flagstone Prison | 3 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Dialogue simulator
 
@@ -809,50 +506,9 @@ The full dialogue for this entry is included in the listing for an earlier entry
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard_camp2)"
+## Stoutford, Wild 21a { #v-stoutford_guard_wild21a }
 
-    | | |
-    |---|---|
-    | Entry ID | `stoutford_guard_camp2` |
-    | Spawn group | `stoutford_guard_camp` |
-    | Loot table | – |
-    | Conversation | `stoutford_guard_camp2_10` |
-    | Faction | `stoutford_guard_camp` |
-    | Movement | helpOthers |
-    | Icon | `monsters_tometik7:71` |
-    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "stoutford_guard_camp2",
-     "name": "Stoutford guard",
-     "iconID": "monsters_tometik7:71",
-     "maxHP": 40,
-     "moveCost": 5,
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "helpOthers",
-     "attackDamage": {
-      "min": 1,
-      "max": 6
-     },
-     "spawnGroup": "stoutford_guard_camp",
-     "faction": "stoutford_guard_camp",
-     "phraseID": "stoutford_guard_camp2_10",
-     "attackCost": 5,
-     "attackChance": 50,
-     "blockChance": 100
-    }
-    ```
-
-
-## Stoutford, Wild 21a (stoutford_guard_wild21a) { #v-stoutford_guard_wild21a }
-
-**Entry ID:** `stoutford_guard_wild21a` · **Type:** NPC
-
-**Location:** Stoutford: [Wild 21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a)
+**Where:** Stoutford: [Wild 21a](../maps/wild21a.md#pin-npc-stoutford_guard_wild21a)
 
 ### Quests
 
@@ -897,11 +553,380 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_guard_wild21a)"
+## Appears during a quest or event { #v-stoutford_guard1b }
+
+**Where:** appears during a quest or scripted event.
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Appears during a quest or event (2) { #v-stoutford_guard1c }
+
+**Where:** appears during a quest or scripted event.
+
+### Dialogue simulator
+
+Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+
+<div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
+
+<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+
+The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**13 entries.** The game data defines 13 separate characters named Stoutford guard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, faction, appearance, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stoutford_guard1` | NPC | [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard1) |
+| `stoutford_gateguard` | NPC | [Stoutford, Wild 20](#v-stoutford_gateguard) |
+| `stoutford_guard1_b` | NPC | [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard1_b) |
+| `stoutford_guard1_c` | NPC | [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard1_c) |
+| `stoutford_guard1a` | NPC | [Stoutford, Wild 21](#v-stoutford_guard1a) |
+| `stoutford_guard2` | NPC | [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard2) |
+| `stoutford_guard3` | NPC | [Flagstone Prison, Flagstone 0 and 9 more](#v-stoutford_guard3) |
+| `stoutford_guard4` | NPC | [Stoutford tower 4](#v-stoutford_guard4) |
+| `stoutford_guard_camp1` | NPC/Enemy | [Flagstone Prison, Wild 16](#v-stoutford_guard_camp1) |
+| `stoutford_guard_camp2` | NPC/Enemy | [Flagstone Prison, Wild 16](#v-stoutford_guard_camp2) |
+| `stoutford_guard_wild21a` | NPC | [Stoutford, Wild 21a](#v-stoutford_guard_wild21a) |
+| `stoutford_guard1b` | NPC | [Appears during a quest or event](#v-stoutford_guard1b) |
+| `stoutford_guard1c` | NPC | [Appears during a quest or event](#v-stoutford_guard1c) |
+
+- `stoutford_guard_camp1` belongs to the faction `stoutford_guard_camp`. The game treats any character as hostile once your standing with its faction is below zero.
+- `stoutford_guard_camp2` belongs to the faction `stoutford_guard_camp`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: stoutford_guard1"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard1` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard1_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:44` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard1",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik2:44",
+     "phraseID": "stoutford_guard1_0"
+    }
+    ```
+
+??? info "Technical information: stoutford_gateguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_gateguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_gateguard` |
+    | Loot table | – |
+    | Conversation | `stoutford_gateguard_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:43` |
+    | Defined in | `res/raw/monsterlist_stoutford.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_gateguard",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik2:43",
+     "phraseID": "stoutford_gateguard_0"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard1_b"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard1_b` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard1` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard1_0b` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:44` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard1_b",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik2:44",
+     "spawnGroup": "stoutford_guard1",
+     "phraseID": "stoutford_guard1_0b"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard1_c"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard1_c` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard1` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard1_0c` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:44` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard1_c",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik2:44",
+     "spawnGroup": "stoutford_guard1",
+     "phraseID": "stoutford_guard1_0c"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard1a"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard1a` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard1a` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard1_0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:44` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard1a",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik2:44",
+     "spawnGroup": "stoutford_guard1a",
+     "phraseID": "stoutford_guard1_0"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard2"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard1` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik2:45` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard2",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik2:45",
+     "monsterClass": "humanoid",
+     "spawnGroup": "stoutford_guard1",
+     "phraseID": "stoutford_guard2"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard3"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard3` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard1` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard3` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:71` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard3",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik7:71",
+     "monsterClass": "humanoid",
+     "spawnGroup": "stoutford_guard1",
+     "phraseID": "stoutford_guard3"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard4"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard4` |
+    | Type (wiki) | NPC |
+    | Spawn group | `stoutford_guard4` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard4` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik7:71` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard4",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik7:71",
+     "monsterClass": "humanoid",
+     "phraseID": "stoutford_guard4"
+    }
+    ```
+
+??? info "Technical information: stoutford_guard_camp1"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard_camp1` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `stoutford_guard_camp` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard_camp1_10` |
+    | Faction | `stoutford_guard_camp` |
+    | Movement | helpOthers |
+    | Icon | `monsters_tometik7:71` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard_camp1",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik7:71",
+     "maxHP": 40,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 1,
+      "max": 6
+     },
+     "spawnGroup": "stoutford_guard_camp",
+     "faction": "stoutford_guard_camp",
+     "phraseID": "stoutford_guard_camp1_10",
+     "attackCost": 5,
+     "attackChance": 50,
+     "blockChance": 100
+    }
+    ```
+
+??? info "Technical information: stoutford_guard_camp2"
+
+    | | |
+    |---|---|
+    | Entry ID | `stoutford_guard_camp2` |
+    | Type (wiki) | NPC/Enemy |
+    | Spawn group | `stoutford_guard_camp` |
+    | Loot table | – |
+    | Conversation | `stoutford_guard_camp2_10` |
+    | Faction | `stoutford_guard_camp` |
+    | Movement | helpOthers |
+    | Icon | `monsters_tometik7:71` |
+    | Defined in | `res/raw/monsterlist_stoutford_combined.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "stoutford_guard_camp2",
+     "name": "Stoutford guard",
+     "iconID": "monsters_tometik7:71",
+     "maxHP": 40,
+     "moveCost": 5,
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "helpOthers",
+     "attackDamage": {
+      "min": 1,
+      "max": 6
+     },
+     "spawnGroup": "stoutford_guard_camp",
+     "faction": "stoutford_guard_camp",
+     "phraseID": "stoutford_guard_camp2_10",
+     "attackCost": 5,
+     "attackChance": 50,
+     "blockChance": 100
+    }
+    ```
+
+??? info "Technical information: stoutford_guard_wild21a"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_guard_wild21a` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_guard_wild21a` |
     | Loot table | – |
     | Conversation | `key_wild21a` |
@@ -922,38 +947,12 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
     }
     ```
 
-
-## Not placed on a map (stoutford_guard1b) { #v-stoutford_guard1b }
-
-**Entry ID:** `stoutford_guard1b` · **Type:** NPC
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stoutford_guard1b)"
+??? info "Technical information: stoutford_guard1b"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_guard1b` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_guard1b` |
     | Loot table | – |
     | Conversation | `stoutford_guard1_0` |
@@ -973,38 +972,12 @@ The full dialogue for this entry is included in the listing for an earlier entry
     }
     ```
 
-
-## Not placed on a map (stoutford_guard1c) { #v-stoutford_guard1c }
-
-**Entry ID:** `stoutford_guard1c` · **Type:** NPC
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-### Dialogue simulator
-
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
-
-<div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
-
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
-
-The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 1 line added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stoutford_guard1c)"
+??? info "Technical information: stoutford_guard1c"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_guard1c` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_guard1c` |
     | Loot table | – |
     | Conversation | `stoutford_guard1_0` |
@@ -1023,16 +996,6 @@ The full dialogue for this entry is included in the listing for an earlier entry
      "phraseID": "stoutford_guard1_0"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

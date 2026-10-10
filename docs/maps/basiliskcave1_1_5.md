@@ -1,5 +1,5 @@
 ---
-description: "Basiliskcave 1 1 5 is an indoor location in Andor's Trail. Enemies: Venomous cave serpent, Tough cave serpent, Young erumen lizard, Erumen lizard, Spotted erumen lizard. Exits to Basiliskcave 2, Basiliskcave 1 1 4."
+description: "Basiliskcave 1 1 5 is an indoor location in Andor's Trail. Enemies: Venomous cave serpent, Tough cave serpent, Spotted erumen lizard, Erumen lizard, Young erumen lizard. Exits to Basiliskcave 2, Basiliskcave 1 1 4."
 ---
 
 # Basiliskcave 1 1 5
@@ -49,9 +49,9 @@ description: "Basiliskcave 1 1 5 is an indoor location in Andor's Trail. Enemies
 |---|---|---|---|---|
 | [Venomous cave serpent](../monsters/venomous_cave_serpent.md) | 30 | 3–7 | 3 | shares spawn with Tough cave serpent |
 | [Tough cave serpent](../monsters/tough_cave_serpent.md) | 40 | 3–9 | 3 | shares spawn with Venomous cave serpent |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 1 | shares spawn with Strong erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 1 | shares spawn with Strong erumen lizard |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 1 | shares spawn with Erumen lizard |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

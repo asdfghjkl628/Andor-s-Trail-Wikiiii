@@ -17,34 +17,28 @@ description: "Preabola fly is an enemy in Andor's Trail (insect) with 109 HP, wo
 | **Class** | Insect |
 | **HP** | 109 |
 | **XP when defeated** | 405 |
-| **Entry ID** | `preabola_fly` |
 | **Introduced** | [v0.8.2](../versions/0.8.2.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 109 |
 | XP when defeated | 405 |
 | Damage | 9 to 11 |
-| Attack chance | 170 |
-| Block chance | 205 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 170 |
+| BC | 205 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 5, 5 rounds, 25% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 5, 3 rounds, 10% chance)
+**Its hits:** On target: [Minor sting](../conditions/sting_minor.md) (magnitude 5, 5 rounds, 25% chance); [Vulnerability](../conditions/vulnerability.md) (magnitude 5, 3 rounds, 10% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -83,11 +77,24 @@ description: "Preabola fly is an enemy in Andor's Trail (insect) with 109 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `preabola_fly` |
+    | Type (wiki) | Enemy |
     | Spawn group | `preabola_fly` |
     | Loot table | `flying_insect_dl` |
     | Conversation | – |
@@ -135,15 +142,6 @@ description: "Preabola fly is an enemy in Andor's Trail (insect) with 109 HP, wo
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

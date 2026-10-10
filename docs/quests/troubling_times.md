@@ -12,7 +12,7 @@ description: "Troubling times is a quest in Andor's Trail, started by Nanath (fa
 | **In journal** | Yes |
 | **Stages** | 42 (completes at 20, 30, 310) |
 | **Started by** | [Nanath](../monsters/nanath.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)), [Umar](../monsters/umar.md) ([Fallhaven derelict 2](../maps/fallhaven_derelict2.md)) |
-| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md) +2 |
+| **NPCs involved** | [Nanath](../monsters/nanath.md), [Sly Seraphina](../monsters/tt_seraphina.md), [Sly Seraphina](../monsters/tt_seraphina.md#v-thief_seraphina), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina4), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina5), [Sly Seraphina](../monsters/tt_seraphina.md#v-tt_seraphina2) +2 |
 | **Locations** | [Blackwater mountain 12](../maps/blackwater_mountain12.md), [Crackshot hideout 3](../maps/crackshot_hideout3.md), [Crackshot hideout 4](../maps/crackshot_hideout4.md), [Fallhaven derelict 2](../maps/fallhaven_derelict2.md) |
 | **Total XP** | 15,002 |
 | **Related quests** | 7 |
@@ -579,7 +579,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.8.13](../versions/0.8.13.md) | Added<br>Dialogue: 40 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “By the way, here's your money back. 1000 gold.” → “By the way, here's your money back. {1000} gold.”<br>· text: “Around 50000 gold, of which a large portion will go back to the myste…” → “Around {50000} gold, of which a large portion will go back to the mys…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “By the way, here's your money back. 1000 gold.” → “By the way, here's your money back. {1000} gold.”<br>· text: “Umar asked me to reimburse you for your expenses. And something as a …” → “Umar asked me to reimburse you for your expenses. And something as a …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

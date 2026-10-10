@@ -1,5 +1,5 @@
 ---
-description: "Green-claw-emyro is an NPC who can also be fought in Andor's Trail, found in Burial cave, Greenscale tribe."
+description: "Green-claw-emyro is an NPC you can also fight in Andor's Trail, found in Burial cave, Greenscale tribe."
 ---
 
 # ![](../assets/icons/monsters/monsters_johny_1.png){ .sprite } Green-claw-emyro
@@ -12,40 +12,34 @@ description: "Green-claw-emyro is an NPC who can also be fought in Andor's Trail
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Burial cave, Greenscale tribe |
 | **Class** | Reptile |
 | **HP** | 160 |
 | **XP when defeated** | 600 |
-| **Entry ID** | `brightport_lizard` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lizardfight`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
+!!! warning "You can fight Green-claw-emyro"
+    Green-claw-emyro turns hostile if you fall out with their faction (this can happen in [Brightport story flags (hidden flag)](../quests/brightport_nondisplay.md)).
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 160 |
 | XP when defeated | 600 |
 | Damage | 14 to 36 |
-| Attack chance | 180 |
-| Block chance | 160 |
-| Damage resistance | 4 |
-| Max AP | 12 |
-| Attack cost | 4 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 180 |
+| BC | 160 |
+| DR | 4 |
+| Attacks per turn | 3 (4 AP each, 12 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -100,11 +94,26 @@ Set your quest stages and items, then talk to Green-claw-emyro. Same rules as th
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brightport_lizard` belongs to the faction `lizardfight`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_lizard` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lizard2` |
     | Loot table | `brightport_greenlizard` |
     | Conversation | `brightport_emyro_selector` |
@@ -140,15 +149,6 @@ Set your quest stages and items, then talk to Green-claw-emyro. Same rules as th
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

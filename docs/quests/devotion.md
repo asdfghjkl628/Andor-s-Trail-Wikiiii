@@ -12,7 +12,7 @@ description: "Devotion is a quest in Andor's Trail, started by Anoa (undertell_3
 | **In journal** | Yes |
 | **Stages** | 24 (completes at 450, 480) |
 | **Started by** | [Anoa](../monsters/anoa.md) ([Undertell 3 02](../maps/undertell_3_02.md)) |
-| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade1.md#v-shade6), [Forsaken shade](../monsters/shade1.md#v-shade2), [Forsaken shade](../monsters/shade1.md#v-shade9), [Forsaken shade](../monsters/shade1.md#v-shade4), [Forsaken shade](../monsters/shade1.md#v-shade8) +6 |
+| **NPCs involved** | [Anoa](../monsters/anoa.md), [Forsaken shade](../monsters/shade1.md#v-shade5), [Forsaken shade](../monsters/shade1.md), [Forsaken shade](../monsters/shade1.md#v-shade8), [Forsaken shade](../monsters/shade1.md#v-shade9), [Forsaken shade](../monsters/shade1.md#v-shade11) +6 |
 | **Locations** | [Undertell 3 00](../maps/undertell_3_00.md), [Undertell 3 02](../maps/undertell_3_02.md), [Undertell 3 03](../maps/undertell_3_03.md), [Undertell 3 10](../maps/undertell_3_10.md) |
 | **Total XP** | 9,003 |
 | **Related quests** | 2 |

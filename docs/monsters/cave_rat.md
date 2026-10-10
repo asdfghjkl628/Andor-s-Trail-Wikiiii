@@ -4,6 +4,8 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7�
 
 # ![](../assets/icons/monsters/monsters_rats_1.png){ .sprite } Cave rat
 
+**Where to find Cave rat:** [Blackwater Mountain, Ratdom maze 3 and 7 more](#v-cave_rat), [Blackwater mountain 6](#v-puny_caverat), [4 wells, Ratdom maze 567 and 133 more](#v-ratdom_maze_rat2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rats_1.png){ .sprite }</p>
@@ -15,47 +17,30 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7�
 | **Class** | Animal |
 | **HP** | 5 |
 | **XP when defeated** | 7–8 |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Cave rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, appearance. Each entry has its own section below.
+## Blackwater Mountain, Ratdom maze 3 and 7 more { #v-cave_rat }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`cave_rat`](#v-cave_rat) | Enemy | Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md), Crossglen: [Crossglen](../maps/crossglen.md) (+6 more) | – | 5 |
-| [`puny_caverat`](#v-puny_caverat) | Enemy | [Blackwater mountain 6](../maps/blackwater_mountain6.md) | – | 5 |
-| [`ratdom_maze_rat2`](#v-ratdom_maze_rat2) | Enemy | 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md) (+132 more) | – | 5 |
+**Where:** Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md), Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen cave](../maps/crossglen_cave.md), Crossglen: [Ratdom maze 1](../maps/ratdom_maze1.md), Entry: [Ratdom maze 2](../maps/ratdom_maze2.md), Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md) (+2 more)
 
-## Blackwater Mountain, Ratdom maze 3 and 7 more (cave_rat) { #v-cave_rat }
+### Combat
 
-**Entry ID:** `cave_rat` · **Type:** Enemy
-
-**Location:** Blackwater Mountain: [Ratdom maze 3](../maps/ratdom_maze3.md), Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen cave](../maps/crossglen_cave.md), Crossglen: [Ratdom maze 1](../maps/ratdom_maze1.md), Entry: [Ratdom maze 2](../maps/ratdom_maze2.md), Flagstone Prison: [Rat mountain 3](../maps/rat_mountain_3.md) (+2 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 8 |
 | Damage | 2 |
-| Attack chance | 90 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -89,68 +74,26 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7�
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (cave_rat)"
+## Blackwater mountain 6 { #v-puny_caverat }
 
-    | | |
-    |---|---|
-    | Entry ID | `cave_rat` |
-    | Spawn group | `crossglen_caverat` |
-    | Loot table | `rat` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:1` |
-    | Defined in | `res/raw/monsterlist_crossglen_animals.json` |
+**Where:** [Blackwater mountain 6](../maps/blackwater_mountain6.md)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "cave_rat",
-     "name": "Cave rat",
-     "iconID": "monsters_rats:1",
-     "maxHP": 5,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 2,
-      "max": 2
-     },
-     "spawnGroup": "crossglen_caverat",
-     "droplistID": "rat",
-     "attackCost": 9,
-     "attackChance": 90,
-     "horizontalFlipChance": 25
-    }
-    ```
-
-
-## Blackwater mountain 6 (puny_caverat) { #v-puny_caverat }
-
-**Entry ID:** `puny_caverat` · **Type:** Enemy
-
-**Location:** [Blackwater mountain 6](../maps/blackwater_mountain6.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 7 |
 | Damage | 1 |
-| Attack chance | 50 |
-| Block chance | 30 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 50 |
+| BC | 30 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -175,70 +118,26 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7�
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (puny_caverat)"
+## 4 wells, Ratdom maze 567 and 133 more { #v-ratdom_maze_rat2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `puny_caverat` |
-    | Spawn group | `puny_caverat` |
-    | Loot table | `rat` |
-    | Conversation | – |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rats:0` |
-    | Defined in | `res/raw/monsterlist_v069_monsters.json` |
+**Where:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md), Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md) (+128 more)
 
-    Raw data:
+### Combat
 
-    ```json
-    {
-     "id": "puny_caverat",
-     "name": "Cave rat",
-     "iconID": "monsters_rats:0",
-     "maxHP": 5,
-     "maxAP": 10,
-     "moveCost": 5,
-     "monsterClass": "animal",
-     "attackDamage": {
-      "min": 1,
-      "max": 1
-     },
-     "spawnGroup": "puny_caverat",
-     "droplistID": "rat",
-     "attackCost": 5,
-     "attackChance": 50,
-     "blockChance": 30
-    }
-    ```
-
-
-## 4 wells, Ratdom maze 567 and 133 more (ratdom_maze_rat2) { #v-ratdom_maze_rat2 }
-
-**Entry ID:** `ratdom_maze_rat2` · **Type:** Enemy
-
-**Location:** 4 wells: [Ratdom maze 567](../maps/ratdom_maze_567.md), 4 wells: [Ratdom maze 658](../maps/ratdom_maze_658.md), 4 wells: [Ratdom maze 768](../maps/ratdom_maze_768.md), Blackwater Mountain: [Ratdom maze 455a](../maps/ratdom_maze_455a.md), Bloskelt + Roskelt: [Ratdom maze 414](../maps/ratdom_maze_414.md), Bloskelt + Roskelt: [Ratdom maze 415](../maps/ratdom_maze_415.md) (+128 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 5 |
 | XP when defeated | 8 |
 | Damage | 2 |
-| Attack chance | 90 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 90 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -324,11 +223,105 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7�
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (ratdom_maze_rat2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Cave rat. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `cave_rat` | Enemy | [Blackwater Mountain, Ratdom maze 3 and 7 more](#v-cave_rat) |
+| `puny_caverat` | Enemy | [Blackwater mountain 6](#v-puny_caverat) |
+| `ratdom_maze_rat2` | Enemy | [4 wells, Ratdom maze 567 and 133 more](#v-ratdom_maze_rat2) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: cave_rat"
+
+    | | |
+    |---|---|
+    | Entry ID | `cave_rat` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `crossglen_caverat` |
+    | Loot table | `rat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:1` |
+    | Defined in | `res/raw/monsterlist_crossglen_animals.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "cave_rat",
+     "name": "Cave rat",
+     "iconID": "monsters_rats:1",
+     "maxHP": 5,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 2,
+      "max": 2
+     },
+     "spawnGroup": "crossglen_caverat",
+     "droplistID": "rat",
+     "attackCost": 9,
+     "attackChance": 90,
+     "horizontalFlipChance": 25
+    }
+    ```
+
+??? info "Technical information: puny_caverat"
+
+    | | |
+    |---|---|
+    | Entry ID | `puny_caverat` |
+    | Type (wiki) | Enemy |
+    | Spawn group | `puny_caverat` |
+    | Loot table | `rat` |
+    | Conversation | – |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rats:0` |
+    | Defined in | `res/raw/monsterlist_v069_monsters.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "puny_caverat",
+     "name": "Cave rat",
+     "iconID": "monsters_rats:0",
+     "maxHP": 5,
+     "maxAP": 10,
+     "moveCost": 5,
+     "monsterClass": "animal",
+     "attackDamage": {
+      "min": 1,
+      "max": 1
+     },
+     "spawnGroup": "puny_caverat",
+     "droplistID": "rat",
+     "attackCost": 5,
+     "attackChance": 50,
+     "blockChance": 30
+    }
+    ```
+
+??? info "Technical information: ratdom_maze_rat2"
 
     | | |
     |---|---|
     | Entry ID | `ratdom_maze_rat2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `ratdom_maze_rat` |
     | Loot table | `rat` |
     | Conversation | – |
@@ -356,16 +349,6 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7�
      "attackChance": 90
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,6 +4,8 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 
 # ![](../assets/icons/monsters/monsters_tometik7_13.png){ .sprite } Lesser wight
 
+**Where to find Lesser wight:** [Laerothprison 6](#v-wight_lesser), [Laerothprison 5](#v-wight_lesser5), [Laerothprison 5](#v-wight_lesser5b)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_13.png){ .sprite }</p>
@@ -15,51 +17,34 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 | **Class** | Undead |
 | **HP** | 130 |
 | **XP when defeated** | 174 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Lesser wight. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location. Each entry has its own section below.
+## Laerothprison 6 { #v-wight_lesser }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`wight_lesser`](#v-wight_lesser) | Enemy | [Laerothprison 6](../maps/laerothprison6.md) | – | 130 |
-| [`wight_lesser5`](#v-wight_lesser5) | Enemy | [Laerothprison 5](../maps/laerothprison5.md) | – | 130 |
-| [`wight_lesser5b`](#v-wight_lesser5b) | Enemy | [Laerothprison 5](../maps/laerothprison5.md) | – | 130 |
+**Where:** [Laerothprison 6](../maps/laerothprison6.md)
 
-## Laerothprison 6 (wight_lesser) { #v-wight_lesser }
+### Combat
 
-**Entry ID:** `wight_lesser` · **Type:** Enemy
-
-**Location:** [Laerothprison 6](../maps/laerothprison6.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 130 |
 | XP when defeated | 174 |
 | Damage | 1 to 13 |
-| Attack chance | 65 |
-| Block chance | 70 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 65 |
+| BC | 70 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** Heal HP: 0
+**Its hits:** Heal HP: 0
 
-**When hit:** Heal HP: 1; increaseAttackerCurrentHP: -1
+**When you hit it:** Heal HP: 1; increaseAttackerCurrentHP: -1
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -85,11 +70,131 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (wight_lesser)"
+## Laerothprison 5 { #v-wight_lesser5 }
+
+**Where:** [Laerothprison 5](../maps/laerothprison5.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 130 |
+| XP when defeated | 174 |
+| Damage | 1 to 13 |
+| AC | 65 |
+| BC | 70 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+**Its hits:** Heal HP: 0
+
+**When you hit it:** Heal HP: 1; increaseAttackerCurrentHP: -1
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 100% | 4 to 10 |
+| [Small rock](../items/rock.md) | 40% | 1 to 2 |
+| [Bone](../items/bone.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Laerothprison 5](../maps/laerothprison5.md) | – | 17 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Laerothprison 5 (2) { #v-wight_lesser5b }
+
+**Where:** [Laerothprison 5](../maps/laerothprison5.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 130 |
+| XP when defeated | 174 |
+| Damage | 1 to 13 |
+| AC | 65 |
+| BC | 70 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+**Its hits:** Heal HP: 0
+
+**When you hit it:** Heal HP: 1; increaseAttackerCurrentHP: -1
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 100% | 4 to 10 |
+| [Small rock](../items/rock.md) | 40% | 1 to 2 |
+| [Bone](../items/bone.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Laerothprison 5](../maps/laerothprison5.md) | – | 5 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Lesser wight. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `wight_lesser` | Enemy | [Laerothprison 6](#v-wight_lesser) |
+| `wight_lesser5` | Enemy | [Laerothprison 5](#v-wight_lesser5) |
+| `wight_lesser5b` | Enemy | [Laerothprison 5](#v-wight_lesser5b) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: wight_lesser"
 
     | | |
     |---|---|
     | Entry ID | `wight_lesser` |
+    | Type (wiki) | Enemy |
     | Spawn group | `wight` |
     | Loot table | `wight1` |
     | Conversation | – |
@@ -137,68 +242,12 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
     }
     ```
 
-
-## Laerothprison 5 (wight_lesser5) { #v-wight_lesser5 }
-
-**Entry ID:** `wight_lesser5` · **Type:** Enemy
-
-**Location:** [Laerothprison 5](../maps/laerothprison5.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 130 |
-| XP when defeated | 174 |
-| Damage | 1 to 13 |
-| Attack chance | 65 |
-| Block chance | 70 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-**On hit:** Heal HP: 0
-
-**When hit:** Heal HP: 1; increaseAttackerCurrentHP: -1
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 100% | 4 to 10 |
-| [Small rock](../items/rock.md) | 40% | 1 to 2 |
-| [Bone](../items/bone.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Laerothprison 5](../maps/laerothprison5.md) | – | 17 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.11](../versions/0.8.11.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (wight_lesser5)"
+??? info "Technical information: wight_lesser5"
 
     | | |
     |---|---|
     | Entry ID | `wight_lesser5` |
+    | Type (wiki) | Enemy |
     | Spawn group | `wight_lesser5` |
     | Loot table | `wight1` |
     | Conversation | – |
@@ -246,68 +295,12 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
     }
     ```
 
-
-## Laerothprison 5 (wight_lesser5b) { #v-wight_lesser5b }
-
-**Entry ID:** `wight_lesser5b` · **Type:** Enemy
-
-**Location:** [Laerothprison 5](../maps/laerothprison5.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 130 |
-| XP when defeated | 174 |
-| Damage | 1 to 13 |
-| Attack chance | 65 |
-| Block chance | 70 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-**On hit:** Heal HP: 0
-
-**When hit:** Heal HP: 1; increaseAttackerCurrentHP: -1
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 100% | 4 to 10 |
-| [Small rock](../items/rock.md) | 40% | 1 to 2 |
-| [Bone](../items/bone.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Laerothprison 5](../maps/laerothprison5.md) | – | 5 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.11](../versions/0.8.11.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (wight_lesser5b)"
+??? info "Technical information: wight_lesser5b"
 
     | | |
     |---|---|
     | Entry ID | `wight_lesser5b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `wight_lesser5b` |
     | Loot table | `wight1` |
     | Conversation | – |
@@ -354,16 +347,6 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

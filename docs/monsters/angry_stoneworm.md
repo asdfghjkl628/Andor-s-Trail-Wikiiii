@@ -17,34 +17,28 @@ description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP
 | **Class** | Reptile |
 | **HP** | 40 |
 | **XP when defeated** | 151 |
-| **Entry ID** | `angry_stoneworm` |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 40 |
 | XP when defeated | 151 |
 | Damage | 3 to 6 |
-| Attack chance | 112 |
-| Block chance | 100 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 2 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 112 |
+| BC | 100 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-**On hit:** On target: [Dazed](../conditions/dazed.md) (magnitude 1, 2 rounds, 33% chance)
+**Its hits:** On target: [Dazed](../conditions/dazed.md) (magnitude 1, 2 rounds, 33% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -71,11 +65,24 @@ description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `angry_stoneworm` |
+    | Type (wiki) | Enemy |
     | Spawn group | `angry_stoneworm` |
     | Loot table | `stoneworm2` |
     | Conversation | – |
@@ -118,15 +125,6 @@ description: "Angry stone worm is an enemy in Andor's Trail (reptile) with 40 HP
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

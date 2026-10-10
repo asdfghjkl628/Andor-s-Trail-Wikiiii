@@ -79,7 +79,7 @@ East: Loneford.”">15</a><a class="pin pin-script" href="#key-16" style="left:6
 ## NPCs
 
 - [Benbyr](../monsters/benbyr.md) — quests: [Cheap cuts](../quests/benbyr.md), [The ruthless Crackshot](../quests/Thieves03.md), [You shall pass](../quests/undertell_barricades.md) (#8)
-- [Fanamor](../monsters/fanamor.md) — can be fought — quests: [Thief apprentice](../quests/Thieves01.md) (#9)
+- [Fanamor](../monsters/fanamor.md) — quests: [Thief apprentice](../quests/Thieves01.md) (#9)
 - [Feygard scout](../monsters/feygard_scout.md) — can be fought — quests: [Thief apprentice](../quests/Thieves01.md) (#10)
 - [Feygard soldier](../monsters/patrol_roaming.md) (#11)
 - [Guard](../monsters/guard.md#v-crossroads_guard) — quests: [The ruthless Crackshot](../quests/Thieves03.md) (#12)

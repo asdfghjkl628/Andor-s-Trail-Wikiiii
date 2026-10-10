@@ -1,5 +1,5 @@
 ---
-description: "Laerothcave 3 is an indoor location in Andor's Trail. Enemies: Puny cave scorpion, Tough cave scorpion, Cave scorpion, Cave jelly, Armored cave scorpion. Exits to Laerothcave 2, Laerothcave 4."
+description: "Laerothcave 3 is an indoor location in Andor's Trail. Enemies: Cave jelly, Cave scorpion, Tough cave scorpion, Puny cave scorpion, Armored cave scorpion. Exits to Laerothcave 2, Laerothcave 4."
 ---
 
 # Laerothcave 3
@@ -47,13 +47,13 @@ description: "Laerothcave 3 is an indoor location in Andor's Trail. Enemies: Pun
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 | 2–5 | 4 | shares spawn with Cave scorpion |
-| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 | 3–6 | 6 | shares spawn with Aggressive cave scorpion |
-| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 4 | shares spawn with Puny cave scorpion |
 | [Cave jelly](../monsters/cave_jelly.md) | 30 | 4–9 | 3 | – |
+| [Cave scorpion](../monsters/cave_scorpion_0.md) | 30 | 3–6 | 4 | shares spawn with Puny cave scorpion |
+| [Tough cave scorpion](../monsters/cave_scorpion_3.md) | 30 | 3–6 | 6 | shares spawn with Aggressive cave scorpion |
+| [Puny cave scorpion](../monsters/cave_scorpion_2.md) | 30 | 2–5 | 4 | shares spawn with Cave scorpion |
 | [Armored cave scorpion](../monsters/cave_scorpion_4.md) | 35 | 4–8 | 3 | shares spawn with Fierce cave scorpion |
-| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 35 | 5–10 | 3 | shares spawn with Armored cave scorpion |
 | [Aggressive cave scorpion](../monsters/cave_scorpion_1.md) | 35 | 4–7 | 6 | shares spawn with Tough cave scorpion |
+| [Fierce cave scorpion](../monsters/cave_scorpion_5.md) | 35 | 5–10 | 3 | shares spawn with Armored cave scorpion |
 | [Giant spider](../monsters/spider_massive.md) | 104 | 8–15 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

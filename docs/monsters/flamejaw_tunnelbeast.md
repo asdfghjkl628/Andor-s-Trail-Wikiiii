@@ -17,32 +17,26 @@ description: "Flamejaw tunnelbeast is an enemy in Andor's Trail (reptile) with 2
 | **Class** | Reptile |
 | **HP** | 237 |
 | **XP when defeated** | 530 |
-| **Entry ID** | `flamejaw_tunnelbeast` |
 | **Introduced** | [v0.8.8](../versions/0.8.8.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 237 |
 | XP when defeated | 530 |
 | Damage | 7 to 10 |
-| Attack chance | 150 |
-| Block chance | 131 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 4 AP |
-| Critical skill | 20 |
-| Critical multiplier | 2.15 |
-| Critical hit chance | 15% |
+| AC | 150 |
+| BC | 131 |
+| DR | 5 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 15% (×2.15) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -71,11 +65,24 @@ description: "Flamejaw tunnelbeast is an enemy in Andor's Trail (reptile) with 2
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `flamejaw_tunnelbeast` |
+    | Type (wiki) | Enemy |
     | Spawn group | `flamejaw_tunnelbeast` |
     | Loot table | `flamejaw_tunnelbeast_dl` |
     | Conversation | – |
@@ -107,15 +114,6 @@ description: "Flamejaw tunnelbeast is an enemy in Andor's Trail (reptile) with 2
      "damageResistance": 5
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

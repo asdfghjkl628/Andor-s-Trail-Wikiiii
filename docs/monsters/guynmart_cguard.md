@@ -4,32 +4,23 @@ description: "Norgothla is a non-player character (NPC) in Andor's Trail, found 
 
 # ![](../assets/icons/monsters/monsters_ld1_41.png){ .sprite } Norgothla
 
+**Where to find Norgothla:** [Guynmart Castle, Guynmart wood 4](#v-guynmart_cguard), [Guynmart Castle, Guynmart main 0 and 1 more](#v-guynmart_cguard2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_41.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Norgothla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Guynmart Castle, Guynmart wood 4 { #v-guynmart_cguard }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`guynmart_cguard`](#v-guynmart_cguard) | NPC | Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard) | – |
-| [`guynmart_cguard2`](#v-guynmart_cguard2) | NPC | Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2) | – |
-
-## Guynmart Castle, Guynmart wood 4 (guynmart_cguard) { #v-guynmart_cguard }
-
-**Entry ID:** `guynmart_cguard` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard)
+**Where:** Guynmart Castle: [Guynmart wood 4](../maps/guynmart_wood_4.md#pin-npc-guynmart_cguard)
 
 ### Quests
 
@@ -107,38 +98,9 @@ Set your quest stages and items, then talk to Norgothla. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_cguard)"
+## Guynmart Castle, Guynmart main 0 and 1 more { #v-guynmart_cguard2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `guynmart_cguard` |
-    | Spawn group | `guynmart_cguard` |
-    | Loot table | – |
-    | Conversation | `guynmart_cguard_10` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:41` |
-    | Defined in | `res/raw/monsterlist_guynmart.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "guynmart_cguard",
-     "name": "Norgothla",
-     "iconID": "monsters_ld1:41",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "phraseID": "guynmart_cguard_10"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart main 0 and 1 more (guynmart_cguard2) { #v-guynmart_cguard2 }
-
-**Entry ID:** `guynmart_cguard2` · **Type:** NPC
-
-**Location:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2)
+**Where:** Guynmart Castle: [Guynmart main 0](../maps/guynmart_main_0.md#pin-npc-guynmart_cguard2), Guynmart Castle: [Guynmart main 1](../maps/guynmart_main_1.md#pin-npc-guynmart_cguard2)
 
 ### Locations
 
@@ -179,11 +141,51 @@ Set your quest stages and items, then talk to Norgothla. Same rules as the game:
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_cguard2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Norgothla. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `guynmart_cguard` | NPC | [Guynmart Castle, Guynmart wood 4](#v-guynmart_cguard) |
+| `guynmart_cguard2` | NPC | [Guynmart Castle, Guynmart main 0 and 1 more](#v-guynmart_cguard2) |
+
+??? info "Technical information: guynmart_cguard"
+
+    | | |
+    |---|---|
+    | Entry ID | `guynmart_cguard` |
+    | Type (wiki) | NPC |
+    | Spawn group | `guynmart_cguard` |
+    | Loot table | – |
+    | Conversation | `guynmart_cguard_10` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:41` |
+    | Defined in | `res/raw/monsterlist_guynmart.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "guynmart_cguard",
+     "name": "Norgothla",
+     "iconID": "monsters_ld1:41",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "phraseID": "guynmart_cguard_10"
+    }
+    ```
+
+??? info "Technical information: guynmart_cguard2"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_cguard2` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_cguard2` |
     | Loot table | – |
     | Conversation | `guynmart_cguard2_10` |
@@ -204,7 +206,6 @@ Set your quest stages and items, then talk to Norgothla. Same rules as the game:
      "phraseID": "guynmart_cguard2_10"
     }
     ```
-
 
 
 ## Community notes

@@ -4,6 +4,8 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 
 # ![](../assets/icons/monsters/monsters_insects_1.png){ .sprite } Frantic forest wasp
 
+**Where to find Frantic forest wasp:** [Crossroads Guardhouse, Crossroads and 2 more](#v-fieldwasp_0), [Crossroads Guardhouse, Fields 8 and 1 more](#v-fieldwasp_1), [Crossroads Guardhouse, Fields 9 and 1 more](#v-fieldwasp_2), [Crossroads Guardhouse, Crossroads and 4 more](#v-fieldwasp_unique)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_insects_1.png){ .sprite }</p>
@@ -15,48 +17,30 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 | **Class** | Insect |
 | **HP** | 29–70 |
 | **XP when defeated** | 89–246 |
-| **Entries in game data** | 4 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Frantic forest wasp. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Crossroads Guardhouse, Crossroads and 2 more { #v-fieldwasp_0 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`fieldwasp_0`](#v-fieldwasp_0) | Enemy | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 0](../maps/fields0.md) (+1 more) | – | 29 |
-| [`fieldwasp_1`](#v-fieldwasp_1) | Enemy | Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md) | – | 32 |
-| [`fieldwasp_2`](#v-fieldwasp_2) | Enemy | Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md) | – | 35 |
-| [`fieldwasp_unique`](#v-fieldwasp_unique) | Enemy | Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 8](../maps/fields8.md) (+3 more) | – | 70 |
+**Where:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 0](../maps/fields0.md), Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md)
 
-## Crossroads Guardhouse, Crossroads and 2 more (fieldwasp_0) { #v-fieldwasp_0 }
+### Combat
 
-**Entry ID:** `fieldwasp_0` · **Type:** Enemy
-
-**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 0](../maps/fields0.md), Crossroads Guardhouse: [Roadtocarntower 1](../maps/roadtocarntower1.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 29 |
 | XP when defeated | 89 |
 | Damage | 2 to 6 |
-| Attack chance | 70 |
-| Block chance | 95 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 60 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 29% |
+| AC | 70 |
+| BC | 95 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 29% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -84,11 +68,175 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (fieldwasp_0)"
+## Crossroads Guardhouse, Fields 8 and 1 more { #v-fieldwasp_1 }
+
+**Where:** Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Insect |
+| HP | 32 |
+| XP when defeated | 106 |
+| Damage | 2 to 6 |
+| AC | 70 |
+| BC | 125 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 32% (×3.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 0 to 10 |
+| [Insect wing](../items/insectwing.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Fields 8](../maps/fields8.md) | Crossroads Guardhouse | 6 | – |
+| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 5 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Crossroads Guardhouse, Fields 9 and 1 more { #v-fieldwasp_2 }
+
+**Where:** Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Insect |
+| HP | 35 |
+| XP when defeated | 114 |
+| Damage | 2 to 6 |
+| AC | 70 |
+| BC | 130 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 33% (×3.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 0 to 10 |
+| [Insect wing](../items/insectwing.md) | 30% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Fields 9](../maps/fields9.md) | Crossroads Guardhouse | 6 | – |
+| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 3 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Crossroads Guardhouse, Crossroads and 4 more { #v-fieldwasp_unique }
+
+**Where:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Insect |
+| HP | 70 |
+| XP when defeated | 246 |
+| Damage | 2 to 6 |
+| AC | 70 |
+| BC | 150 |
+| DR | 0 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 58% (×3.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 0 to 10 |
+| [Giant wasp wing](../items/hadracor_waspwing.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | – |
+| [Fields 8](../maps/fields8.md) | Crossroads Guardhouse | 1 | – |
+| [Fields 9](../maps/fields9.md) | Crossroads Guardhouse | 2 | – |
+| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 1 | – |
+| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Frantic forest wasp. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `fieldwasp_0` | Enemy | [Crossroads Guardhouse, Crossroads and 2 more](#v-fieldwasp_0) |
+| `fieldwasp_1` | Enemy | [Crossroads Guardhouse, Fields 8 and 1 more](#v-fieldwasp_1) |
+| `fieldwasp_2` | Enemy | [Crossroads Guardhouse, Fields 9 and 1 more](#v-fieldwasp_2) |
+| `fieldwasp_unique` | Enemy | [Crossroads Guardhouse, Crossroads and 4 more](#v-fieldwasp_unique) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: fieldwasp_0"
 
     | | |
     |---|---|
     | Entry ID | `fieldwasp_0` |
+    | Type (wiki) | Enemy |
     | Spawn group | `fieldwasp_0` |
     | Loot table | `fieldwasp` |
     | Conversation | – |
@@ -122,65 +270,12 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
     }
     ```
 
-
-## Crossroads Guardhouse, Fields 8 and 1 more (fieldwasp_1) { #v-fieldwasp_1 }
-
-**Entry ID:** `fieldwasp_1` · **Type:** Enemy
-
-**Location:** Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Insect |
-| HP | 32 |
-| XP when defeated | 106 |
-| Damage | 2 to 6 |
-| Attack chance | 70 |
-| Block chance | 125 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 70 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 32% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 0 to 10 |
-| [Insect wing](../items/insectwing.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fields 8](../maps/fields8.md) | Crossroads Guardhouse | 6 | – |
-| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 5 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (fieldwasp_1)"
+??? info "Technical information: fieldwasp_1"
 
     | | |
     |---|---|
     | Entry ID | `fieldwasp_1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `fieldwasp_1` |
     | Loot table | `fieldwasp` |
     | Conversation | – |
@@ -214,65 +309,12 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
     }
     ```
 
-
-## Crossroads Guardhouse, Fields 9 and 1 more (fieldwasp_2) { #v-fieldwasp_2 }
-
-**Entry ID:** `fieldwasp_2` · **Type:** Enemy
-
-**Location:** Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Insect |
-| HP | 35 |
-| XP when defeated | 114 |
-| Damage | 2 to 6 |
-| Attack chance | 70 |
-| Block chance | 130 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 75 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 33% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 0 to 10 |
-| [Insect wing](../items/insectwing.md) | 30% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Fields 9](../maps/fields9.md) | Crossroads Guardhouse | 6 | – |
-| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 3 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (fieldwasp_2)"
+??? info "Technical information: fieldwasp_2"
 
     | | |
     |---|---|
     | Entry ID | `fieldwasp_2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `fieldwasp_2` |
     | Loot table | `fieldwasp` |
     | Conversation | – |
@@ -306,68 +348,12 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
     }
     ```
 
-
-## Crossroads Guardhouse, Crossroads and 4 more (fieldwasp_unique) { #v-fieldwasp_unique }
-
-**Entry ID:** `fieldwasp_unique` · **Type:** Enemy
-
-**Location:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md), Crossroads Guardhouse: [Fields 8](../maps/fields8.md), Crossroads Guardhouse: [Fields 9](../maps/fields9.md), Crossroads Guardhouse: [Roadtocarntower 0](../maps/roadtocarntower0.md), Crossroads Guardhouse: [Roadtocarntower 2](../maps/roadtocarntower2.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Insect |
-| HP | 70 |
-| XP when defeated | 246 |
-| Damage | 2 to 6 |
-| Attack chance | 70 |
-| Block chance | 150 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 200 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 58% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 0 to 10 |
-| [Giant wasp wing](../items/hadracor_waspwing.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Crossroads](../maps/crossroads.md) | Crossroads Guardhouse | 1 | – |
-| [Fields 8](../maps/fields8.md) | Crossroads Guardhouse | 1 | – |
-| [Fields 9](../maps/fields9.md) | Crossroads Guardhouse | 2 | – |
-| [Roadtocarntower 0](../maps/roadtocarntower0.md) | Crossroads Guardhouse | 1 | – |
-| [Roadtocarntower 2](../maps/roadtocarntower2.md) | Crossroads Guardhouse | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect) |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (fieldwasp_unique)"
+??? info "Technical information: fieldwasp_unique"
 
     | | |
     |---|---|
     | Entry ID | `fieldwasp_unique` |
+    | Type (wiki) | Enemy |
     | Spawn group | `fieldwasp_unique` |
     | Loot table | `fieldwasp_unique` |
     | Conversation | – |
@@ -401,16 +387,6 @@ description: "Frantic forest wasp is an enemy in Andor's Trail (insect) with 29�
      "blockChance": 150
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

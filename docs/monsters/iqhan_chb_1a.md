@@ -4,6 +4,8 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 
 # ![](../assets/icons/monsters/monsters_rltiles1_19.png){ .sprite } Iqhan chaos beast
 
+**Where to find Iqhan chaos beast:** [Pwcave 2a and 1 more](#v-iqhan_chb_1a), [Pwcave 2a and 1 more](#v-iqhan_chb_1b)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_19.png){ .sprite }</p>
@@ -15,52 +17,35 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 | **Class** | Construct |
 | **HP** | 122–140 |
 | **XP when defeated** | 262–280 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 2 |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Iqhan chaos beast. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: combat statistics. Each entry has its own section below.
+## Pwcave 2a and 1 more { #v-iqhan_chb_1a }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`iqhan_chb_1a`](#v-iqhan_chb_1a) | Enemy | [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md) | – | 122 |
-| [`iqhan_chb_1b`](#v-iqhan_chb_1b) | Enemy | [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md) | – | 140 |
+**Where:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md)
 
-## Pwcave 2a and 1 more (iqhan_chb_1a) { #v-iqhan_chb_1a }
+### Combat
 
-**Entry ID:** `iqhan_chb_1a` · **Type:** Enemy
-
-**Location:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 122 |
 | XP when defeated | 262 |
 | Damage | 0 to 15 |
-| Attack chance | 150 |
-| Block chance | 45 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 9% |
+| AC | 150 |
+| BC | 45 |
+| DR | 9 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | 9% (×3.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance)
+**Its hits:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -89,11 +74,84 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (iqhan_chb_1a)"
+## Pwcave 2a and 1 more (2) { #v-iqhan_chb_1b }
+
+**Where:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Construct |
+| HP | 140 |
+| XP when defeated | 280 |
+| Damage | 0 to 15 |
+| AC | 150 |
+| BC | 45 |
+| DR | 9 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | 9% (×3.0) |
+
+**Immune to critical hits.**
+
+**Its hits:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 70% | 0 to 1 |
+| [Chaosreaper](../items/chaosreaper.md) | 0.1% | 1 |
+| [Regular potion of health](../items/health.md) | 5% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
+| [Pwcave 4](../maps/pwcave4.md) | – | 7 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance) → (magnitude 5, 5 rounds, 50% chance) |
+| [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Iqhan chaos beast. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `iqhan_chb_1a` | Enemy | [Pwcave 2a and 1 more](#v-iqhan_chb_1a) |
+| `iqhan_chb_1b` | Enemy | [Pwcave 2a and 1 more](#v-iqhan_chb_1b) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: iqhan_chb_1a"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_chb_1a` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_chb_1` |
     | Loot table | `iqhan_beast` |
     | Conversation | – |
@@ -138,72 +196,12 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
     }
     ```
 
-
-## Pwcave 2a and 1 more (iqhan_chb_1b) { #v-iqhan_chb_1b }
-
-**Entry ID:** `iqhan_chb_1b` · **Type:** Enemy
-
-**Location:** [Pwcave 2a](../maps/pwcave2a.md), [Pwcave 4](../maps/pwcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Construct |
-| HP | 140 |
-| XP when defeated | 280 |
-| Damage | 0 to 15 |
-| Attack chance | 150 |
-| Block chance | 45 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 10 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 9% |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-**On hit:** On target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 70% | 0 to 1 |
-| [Chaosreaper](../items/chaosreaper.md) | 0.1% | 1 |
-| [Regular potion of health](../items/health.md) | 5% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Pwcave 2a](../maps/pwcave2a.md) | – | 1 | – |
-| [Pwcave 4](../maps/pwcave4.md) | – | 7 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Chaotic grip](../conditions/chaotic_grip.md) (magnitude 5, 5 rounds, 50% chance) → (magnitude 5, 5 rounds, 50% chance) |
-| [v0.7.4](../versions/0.7.4.md) | Attack cost: 10 → 9 |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (iqhan_chb_1b)"
+??? info "Technical information: iqhan_chb_1b"
 
     | | |
     |---|---|
     | Entry ID | `iqhan_chb_1b` |
+    | Type (wiki) | Enemy |
     | Spawn group | `iqhan_chb_1` |
     | Loot table | `iqhan_beast` |
     | Conversation | – |
@@ -247,16 +245,6 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

@@ -4,33 +4,23 @@ description: "Terrified teenager is a non-player character (NPC) in Andor's Trai
 
 # ![](../assets/icons/monsters/monsters_gisons_14.png){ .sprite } Terrified teenager
 
+**Where to find Terrified teenager:** [Undertell 3 12](#v-about_a_girl1), [Undertell 3 12](#v-about_a_girl_flee), [Undertell 3 12](#v-about_a_girl_hidden)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_14.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Undertell 3 12 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Terrified teenager. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, movement. Each entry has its own section below.
+## Undertell 3 12 { #v-about_a_girl1 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`about_a_girl1`](#v-about_a_girl1) | NPC | [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-about_a_girl1) | – |
-| [`about_a_girl_flee`](#v-about_a_girl_flee) | Scenery | [Undertell 3 12](../maps/undertell_3_12.md) | – |
-| [`about_a_girl_hidden`](#v-about_a_girl_hidden) | Scenery | [Undertell 3 12](../maps/undertell_3_12.md) | – |
-
-## Undertell 3 12 (about_a_girl1) { #v-about_a_girl1 }
-
-**Entry ID:** `about_a_girl1` · **Type:** NPC
-
-**Location:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-about_a_girl1)
+**Where:** [Undertell 3 12](../maps/undertell_3_12.md#pin-npc-about_a_girl1)
 
 ### Quests
 
@@ -66,11 +56,56 @@ Set your quest stages and items, then talk to Terrified teenager. Same rules as 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (about_a_girl1)"
+## Undertell 3 12 (2) { #v-about_a_girl_flee }
+
+**Where:** [Undertell 3 12](../maps/undertell_3_12.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 3 12 (3) { #v-about_a_girl_hidden }
+
+**Where:** [Undertell 3 12](../maps/undertell_3_12.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Terrified teenager. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `about_a_girl1` | NPC | [Undertell 3 12](#v-about_a_girl1) |
+| `about_a_girl_flee` | Scenery | [Undertell 3 12](#v-about_a_girl_flee) |
+| `about_a_girl_hidden` | Scenery | [Undertell 3 12](#v-about_a_girl_hidden) |
+
+- `about_a_girl_flee` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Undertell 3 12](../maps/undertell_3_12.md).
+- `about_a_girl_hidden` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on [Undertell 3 12](../maps/undertell_3_12.md).
+
+??? info "Technical information: about_a_girl1"
 
     | | |
     |---|---|
     | Entry ID | `about_a_girl1` |
+    | Type (wiki) | NPC |
     | Spawn group | `about_a_girl1` |
     | Loot table | – |
     | Conversation | `about_girl_scream_10` |
@@ -92,31 +127,12 @@ Set your quest stages and items, then talk to Terrified teenager. Same rules as 
     }
     ```
 
-
-## Undertell 3 12 (about_a_girl_flee) { #v-about_a_girl_flee }
-
-**Entry ID:** `about_a_girl_flee` · **Type:** Scenery
-
-**Location:** [Undertell 3 12](../maps/undertell_3_12.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (about_a_girl_flee)"
+??? info "Technical information: about_a_girl_flee"
 
     | | |
     |---|---|
     | Entry ID | `about_a_girl_flee` |
+    | Type (wiki) | Scenery |
     | Spawn group | `about_a_girl_flee` |
     | Loot table | – |
     | Conversation | – |
@@ -138,31 +154,12 @@ Set your quest stages and items, then talk to Terrified teenager. Same rules as 
     }
     ```
 
-
-## Undertell 3 12 (about_a_girl_hidden) { #v-about_a_girl_hidden }
-
-**Entry ID:** `about_a_girl_hidden` · **Type:** Scenery
-
-**Location:** [Undertell 3 12](../maps/undertell_3_12.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (about_a_girl_hidden)"
+??? info "Technical information: about_a_girl_hidden"
 
     | | |
     |---|---|
     | Entry ID | `about_a_girl_hidden` |
+    | Type (wiki) | Scenery |
     | Spawn group | `about_a_girl_hidden` |
     | Loot table | – |
     | Conversation | – |
@@ -182,7 +179,6 @@ Set your quest stages and items, then talk to Terrified teenager. Same rules as 
      "horizontalFlipChance": 0
     }
     ```
-
 
 
 ## Community notes

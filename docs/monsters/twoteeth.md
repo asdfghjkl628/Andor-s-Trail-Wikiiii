@@ -12,10 +12,9 @@ description: "Two-teeth is a non-player character (NPC) in Andor's Trail, found 
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Sweet sweet rat poison](../quests/lowyna.md) |
 | **Found in** | Fallhaven |
-| **Entry ID** | `twoteeth` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -141,16 +140,21 @@ Set your quest stages and items, then talk to Two-teeth. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Ok, ok! No need to get all violent.” → “OK, OK! No need to get all violent.”<br>· text: “[coughs heavily]” → “[Coughs heavily]” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “[coughs heavily]” → “[Coughs heavily]”<br>· text: “She's in the other hut over there. *points*” → “She's in the other hut over there [points].” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `twoteeth` |
+    | Type (wiki) | NPC |
     | Spawn group | `twoteeth` |
     | Loot table | – |
     | Conversation | `twoteeth` |

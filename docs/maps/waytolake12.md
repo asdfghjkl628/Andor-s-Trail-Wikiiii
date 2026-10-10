@@ -1,5 +1,5 @@
 ---
-description: "Waytolake 12 is an indoor location in Andor's Trail. NPCs: Old hermit. Enemies: Mountain fox, Black plaguecrawler, Plaguestrider, Hardshell plaguestrider, Ferocious mountain fox. Exits to Waytolake 11, Mountainlake 0, Waytolake 9, Waytolake 10."
+description: "Waytolake 12 is an indoor location in Andor's Trail. NPCs: Old hermit. Enemies: Mountain fox, Black plaguecrawler, Plaguestrider, Hardshell plaguestrider, Tough plaguestrider. Exits to Waytolake 11, Mountainlake 0, Waytolake 9, Waytolake 10."
 ---
 
 # Waytolake 12
@@ -70,8 +70,8 @@ description: "Waytolake 12 is an indoor location in Andor's Trail. NPCs: Old her
 | [Black plaguecrawler](../monsters/plaguesp_4.md) | 61 | 1–6 | 3 | shares spawn with Hardshell plaguestrider, Plaguestrider |
 | [Plaguestrider](../monsters/plaguesp_5.md) | 62 | 2–6 | 3 | shares spawn with Black plaguecrawler, Hardshell plaguestrider |
 | [Hardshell plaguestrider](../monsters/plaguesp_6.md) | 63 | 2–6 | 3 | shares spawn with Black plaguecrawler, Plaguestrider |
-| [Ferocious mountain fox](../monsters/mwolf_5.md) | 64 | 3–8 | 3 | shares spawn with Mountain fox, Rabid mountain wolf |
 | [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 | 2–6 | 3 | shares spawn with Tough wooly plaguestrider, Wooly plaguestrider |
+| [Ferocious mountain fox](../monsters/mwolf_5.md) | 64 | 3–8 | 3 | shares spawn with Mountain fox, Rabid mountain wolf |
 | [Wooly plaguestrider](../monsters/plaguesp_8.md) | 65 | 2–6 | 3 | shares spawn with Tough plaguestrider, Tough wooly plaguestrider |
 | [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 66 | 2–7 | 3 | shares spawn with Tough plaguestrider, Wooly plaguestrider |
 | [Rabid mountain wolf](../monsters/mwolf_6.md) | 67 | 3–9 | 3 | shares spawn with Ferocious mountain fox, Mountain fox |

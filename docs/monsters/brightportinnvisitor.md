@@ -12,9 +12,8 @@ description: "Trauerquol is a non-player character (NPC) in Andor's Trail, found
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brightport |
-| **Entry ID** | `brightportinnvisitor` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
@@ -50,11 +49,16 @@ Set your quest stages and items, then talk to Trauerquol. Same rules as the game
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightportinnvisitor` |
+    | Type (wiki) | NPC |
     | Spawn group | `brightportinnvisitor` |
     | Loot table | – |
     | Conversation | `brightport_bakery2` |

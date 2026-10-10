@@ -4,6 +4,8 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 
 # ![](../assets/icons/monsters/monsters_tometik8_42.png){ .sprite } Bone-Marshal lich
 
+**Where to find Bone-Marshal lich:** [Undertell 11 and 2 more](#v-bone_marshal_lich), [Undertell 00 and 2 more](#v-bone_marshal_lich_help_liches), [Undertell 11](#v-bone_marshal_lich_help_others), [Undertell 10 and 2 more](#v-bone_marshal_lich_help_plague), [Undertell 21 and 4 more](#v-bone_marshal_lich_pearl)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_42.png){ .sprite }</p>
@@ -15,51 +17,32 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 | **Class** | Undead |
 | **HP** | 232 |
 | **XP when defeated** | 693 |
-| **Entries in game data** | 5 |
 | **Introduced** | [v0.8.18](../versions/0.8.18.md) |
 
 </div>
 
-!!! info "5 entries in the game data"
-    The game data defines 5 separate characters named Bone-Marshal lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, loot or shop stock, movement. Each entry has its own section below.
+## Undertell 11 and 2 more { #v-bone_marshal_lich }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`bone_marshal_lich`](#v-bone_marshal_lich) | Enemy | [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md) (+1 more) | – | 232 |
-| [`bone_marshal_lich_help_liches`](#v-bone_marshal_lich_help_liches) | Enemy | [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md) (+1 more) | – | 232 |
-| [`bone_marshal_lich_help_others`](#v-bone_marshal_lich_help_others) | Enemy | [Undertell 11](../maps/undertell_11.md) | – | 232 |
-| [`bone_marshal_lich_help_plague`](#v-bone_marshal_lich_help_plague) | Enemy | [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md) (+1 more) | – | 232 |
-| [`bone_marshal_lich_pearl`](#v-bone_marshal_lich_pearl) | Enemy | [Undertell 21](../maps/undertell_21.md), [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) (+3 more) | – | 232 |
+**Where:** [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md), [Undertell 21](../maps/undertell_21.md)
 
-## Undertell 11 and 2 more (bone_marshal_lich) { #v-bone_marshal_lich }
+### Combat
 
-**Entry ID:** `bone_marshal_lich` · **Type:** Enemy
-
-**Location:** [Undertell 11](../maps/undertell_11.md), [Undertell 12](../maps/undertell_12.md), [Undertell 21](../maps/undertell_21.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Undead |
 | HP | 232 |
 | XP when defeated | 693 |
 | Damage | 9 to 11 |
-| Attack chance | 202 |
-| Block chance | 195 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 13 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
+| AC | 202 |
+| BC | 195 |
+| DR | 9 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
 
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -87,11 +70,229 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (bone_marshal_lich)"
+## Undertell 00 and 2 more { #v-bone_marshal_lich_help_liches }
+
+**Where:** [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md), [Undertell 12](../maps/undertell_12.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 232 |
+| XP when defeated | 693 |
+| Damage | 9 to 11 |
+| AC | 202 |
+| BC | 195 |
+| DR | 9 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 35% | 9 to 13 |
+| [Marshal sigil](../items/marshal_sigil.md) | 1% | 1 |
+| [Lich dust](../items/lich_dust.md) | 8% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 00](../maps/undertell_00.md) | – | 1 | – |
+| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
+| [Undertell 12](../maps/undertell_12.md) | – | 3 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 11 { #v-bone_marshal_lich_help_others }
+
+**Where:** [Undertell 11](../maps/undertell_11.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 232 |
+| XP when defeated | 693 |
+| Damage | 9 to 11 |
+| AC | 202 |
+| BC | 195 |
+| DR | 9 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 35% | 9 to 13 |
+| [Marshal sigil](../items/marshal_sigil.md) | 1% | 1 |
+| [Lich dust](../items/lich_dust.md) | 8% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 10 and 2 more { #v-bone_marshal_lich_help_plague }
+
+**Where:** [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 21](../maps/undertell_21.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 232 |
+| XP when defeated | 693 |
+| Damage | 9 to 11 |
+| AC | 202 |
+| BC | 195 |
+| DR | 9 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 35% | 9 to 13 |
+| [Marshal sigil](../items/marshal_sigil.md) | 1% | 1 |
+| [Lich dust](../items/lich_dust.md) | 8% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
+| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
+| [Undertell 21](../maps/undertell_21.md) | – | 3 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Undertell 21 and 4 more { #v-bone_marshal_lich_pearl }
+
+**Where:** [Undertell 21](../maps/undertell_21.md), [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md), [Undertell 7 10](../maps/undertell_7_10.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Undead |
+| HP | 232 |
+| XP when defeated | 693 |
+| Damage | 9 to 11 |
+| AC | 202 |
+| BC | 195 |
+| DR | 9 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 11% (×2.0) |
+
+**Its hits:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Soul pearl](../items/soul_pearl.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Undertell 21](../maps/undertell_21.md) | – | 1 | Appears later, during a quest |
+| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 1 | Appears later, during a quest |
+| [Undertell 4 01](../maps/undertell_4_01.md) | – | 1 | Appears later, during a quest |
+| [Undertell 5](../maps/undertell_5.md) | – | 1 | Appears later, during a quest |
+| [Undertell 7 10](../maps/undertell_7_10.md) | – | 1 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.18](../versions/0.8.18.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**5 entries.** The game data defines 5 separate characters named Bone-Marshal lich. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, loot or shop stock, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `bone_marshal_lich` | Enemy | [Undertell 11 and 2 more](#v-bone_marshal_lich) |
+| `bone_marshal_lich_help_liches` | Enemy | [Undertell 00 and 2 more](#v-bone_marshal_lich_help_liches) |
+| `bone_marshal_lich_help_others` | Enemy | [Undertell 11](#v-bone_marshal_lich_help_others) |
+| `bone_marshal_lich_help_plague` | Enemy | [Undertell 10 and 2 more](#v-bone_marshal_lich_help_plague) |
+| `bone_marshal_lich_pearl` | Enemy | [Undertell 21 and 4 more](#v-bone_marshal_lich_pearl) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: bone_marshal_lich"
 
     | | |
     |---|---|
     | Entry ID | `bone_marshal_lich` |
+    | Type (wiki) | Enemy |
     | Spawn group | `lich_spawn1` |
     | Loot table | `marshal_lich_dl` |
     | Conversation | – |
@@ -136,68 +337,12 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
     }
     ```
 
-
-## Undertell 00 and 2 more (bone_marshal_lich_help_liches) { #v-bone_marshal_lich_help_liches }
-
-**Entry ID:** `bone_marshal_lich_help_liches` · **Type:** Enemy
-
-**Location:** [Undertell 00](../maps/undertell_00.md), [Undertell 10](../maps/undertell_10.md), [Undertell 12](../maps/undertell_12.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 232 |
-| XP when defeated | 693 |
-| Damage | 9 to 11 |
-| Attack chance | 202 |
-| Block chance | 195 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 13 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 35% | 9 to 13 |
-| [Marshal sigil](../items/marshal_sigil.md) | 1% | 1 |
-| [Lich dust](../items/lich_dust.md) | 8% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 00](../maps/undertell_00.md) | – | 1 | – |
-| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
-| [Undertell 12](../maps/undertell_12.md) | – | 3 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (bone_marshal_lich_help_liches)"
+??? info "Technical information: bone_marshal_lich_help_liches"
 
     | | |
     |---|---|
     | Entry ID | `bone_marshal_lich_help_liches` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpLich` |
     | Loot table | `marshal_lich_dl` |
     | Conversation | – |
@@ -242,66 +387,12 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
     }
     ```
 
-
-## Undertell 11 (bone_marshal_lich_help_others) { #v-bone_marshal_lich_help_others }
-
-**Entry ID:** `bone_marshal_lich_help_others` · **Type:** Enemy
-
-**Location:** [Undertell 11](../maps/undertell_11.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 232 |
-| XP when defeated | 693 |
-| Damage | 9 to 11 |
-| Attack chance | 202 |
-| Block chance | 195 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 13 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 35% | 9 to 13 |
-| [Marshal sigil](../items/marshal_sigil.md) | 1% | 1 |
-| [Lich dust](../items/lich_dust.md) | 8% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (bone_marshal_lich_help_others)"
+??? info "Technical information: bone_marshal_lich_help_others"
 
     | | |
     |---|---|
     | Entry ID | `bone_marshal_lich_help_others` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpOthers` |
     | Loot table | `marshal_lich_dl` |
     | Conversation | – |
@@ -346,68 +437,12 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
     }
     ```
 
-
-## Undertell 10 and 2 more (bone_marshal_lich_help_plague) { #v-bone_marshal_lich_help_plague }
-
-**Entry ID:** `bone_marshal_lich_help_plague` · **Type:** Enemy
-
-**Location:** [Undertell 10](../maps/undertell_10.md), [Undertell 11](../maps/undertell_11.md), [Undertell 21](../maps/undertell_21.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 232 |
-| XP when defeated | 693 |
-| Damage | 9 to 11 |
-| Attack chance | 202 |
-| Block chance | 195 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 13 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 35% | 9 to 13 |
-| [Marshal sigil](../items/marshal_sigil.md) | 1% | 1 |
-| [Lich dust](../items/lich_dust.md) | 8% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 10](../maps/undertell_10.md) | – | 1 | – |
-| [Undertell 11](../maps/undertell_11.md) | – | 1 | – |
-| [Undertell 21](../maps/undertell_21.md) | – | 3 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (bone_marshal_lich_help_plague)"
+??? info "Technical information: bone_marshal_lich_help_plague"
 
     | | |
     |---|---|
     | Entry ID | `bone_marshal_lich_help_plague` |
+    | Type (wiki) | Enemy |
     | Spawn group | `helpPlagueLich` |
     | Loot table | `marshal_lich_dl` |
     | Conversation | – |
@@ -452,68 +487,12 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
     }
     ```
 
-
-## Undertell 21 and 4 more (bone_marshal_lich_pearl) { #v-bone_marshal_lich_pearl }
-
-**Entry ID:** `bone_marshal_lich_pearl` · **Type:** Enemy
-
-**Location:** [Undertell 21](../maps/undertell_21.md), [Undertell 3 lava 01](../maps/undertell_3_lava_01.md), [Undertell 4 01](../maps/undertell_4_01.md), [Undertell 5](../maps/undertell_5.md), [Undertell 7 10](../maps/undertell_7_10.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Undead |
-| HP | 232 |
-| XP when defeated | 693 |
-| Damage | 9 to 11 |
-| Attack chance | 202 |
-| Block chance | 195 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 13 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 11% |
-
-**On hit:** On target: [Kazaul exposure](../conditions/kazaul_exposure.md) (magnitude 1, 2 rounds, 25% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Soul pearl](../items/soul_pearl.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Undertell 21](../maps/undertell_21.md) | – | 1 | Appears later, during a quest |
-| [Undertell 3 lava 01](../maps/undertell_3_lava_01.md) | – | 1 | Appears later, during a quest |
-| [Undertell 4 01](../maps/undertell_4_01.md) | – | 1 | Appears later, during a quest |
-| [Undertell 5](../maps/undertell_5.md) | – | 1 | Appears later, during a quest |
-| [Undertell 7 10](../maps/undertell_7_10.md) | – | 1 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.18](../versions/0.8.18.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (bone_marshal_lich_pearl)"
+??? info "Technical information: bone_marshal_lich_pearl"
 
     | | |
     |---|---|
     | Entry ID | `bone_marshal_lich_pearl` |
+    | Type (wiki) | Enemy |
     | Spawn group | `lich_spawn1` |
     | Loot table | `soul_pearl_dl` |
     | Conversation | – |
@@ -558,16 +537,6 @@ description: "Bone-Marshal lich is an enemy in Andor's Trail (undead) with 232 H
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

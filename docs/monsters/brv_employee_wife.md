@@ -4,32 +4,23 @@ description: "Hettah is a non-player character (NPC) in Andor's Trail, found in 
 
 # ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } Hettah
 
+**Where to find Hettah:** [Brimhaven, Brimhaven employee](#v-brv_employee_wife), [Brimhaven, Brimhaven tavern 1](#v-brv_employee_wife2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_155.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Hettah. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Brimhaven, Brimhaven employee { #v-brv_employee_wife }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`brv_employee_wife`](#v-brv_employee_wife) | NPC | Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee_wife) | – |
-| [`brv_employee_wife2`](#v-brv_employee_wife2) | NPC | Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee_wife2) | – |
-
-## Brimhaven, Brimhaven employee (brv_employee_wife) { #v-brv_employee_wife }
-
-**Entry ID:** `brv_employee_wife` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee_wife)
+**Where:** Brimhaven: [Brimhaven employee](../maps/brimhaven_employee.md#pin-npc-brv_employee_wife)
 
 ### Dialogue simulator
 
@@ -62,39 +53,9 @@ Set your quest stages and items, then talk to Hettah. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_employee_wife)"
+## Brimhaven, Brimhaven tavern 1 { #v-brv_employee_wife2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `brv_employee_wife` |
-    | Spawn group | `brv_employee_wife` |
-    | Loot table | – |
-    | Conversation | `brv_employee_wife` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_ld1:155` |
-    | Defined in | `res/raw/monsterlist_brimhaven.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "brv_employee_wife",
-     "name": "Hettah",
-     "iconID": "monsters_ld1:155",
-     "moveCost": 5,
-     "monsterClass": "humanoid",
-     "spawnGroup": "brv_employee_wife",
-     "phraseID": "brv_employee_wife"
-    }
-    ```
-
-
-## Brimhaven, Brimhaven tavern 1 (brv_employee_wife2) { #v-brv_employee_wife2 }
-
-**Entry ID:** `brv_employee_wife2` · **Type:** NPC
-
-**Location:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee_wife2)
+**Where:** Brimhaven: [Brimhaven tavern 1](../maps/brimhaven_tavern1.md#pin-npc-brv_employee_wife2)
 
 ### Dialogue simulator
 
@@ -123,11 +84,52 @@ Set your quest stages and items, then talk to Hettah. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (brv_employee_wife2)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Hettah. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `brv_employee_wife` | NPC | [Brimhaven, Brimhaven employee](#v-brv_employee_wife) |
+| `brv_employee_wife2` | NPC | [Brimhaven, Brimhaven tavern 1](#v-brv_employee_wife2) |
+
+??? info "Technical information: brv_employee_wife"
+
+    | | |
+    |---|---|
+    | Entry ID | `brv_employee_wife` |
+    | Type (wiki) | NPC |
+    | Spawn group | `brv_employee_wife` |
+    | Loot table | – |
+    | Conversation | `brv_employee_wife` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_ld1:155` |
+    | Defined in | `res/raw/monsterlist_brimhaven.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "brv_employee_wife",
+     "name": "Hettah",
+     "iconID": "monsters_ld1:155",
+     "moveCost": 5,
+     "monsterClass": "humanoid",
+     "spawnGroup": "brv_employee_wife",
+     "phraseID": "brv_employee_wife"
+    }
+    ```
+
+??? info "Technical information: brv_employee_wife2"
 
     | | |
     |---|---|
     | Entry ID | `brv_employee_wife2` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_employee_wife2` |
     | Loot table | – |
     | Conversation | `brv_employee_wife2` |
@@ -149,7 +151,6 @@ Set your quest stages and items, then talk to Hettah. Same rules as the game: sa
      "phraseID": "brv_employee_wife2"
     }
     ```
-
 
 
 ## Community notes

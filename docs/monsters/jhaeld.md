@@ -1,8 +1,10 @@
 ---
-description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in Remgard, Island 4 cave 1, Final cave 1, Final cave 2. Starts What is that stench?."
+description: "Jhaeld is an NPC you can also fight in Andor's Trail, found in Remgard, Island 4 cave 1, Final cave 1, Final cave 2. Starts What is that stench?."
 ---
 
 # ![](../assets/icons/monsters/monsters_mage_0.png){ .sprite } Jhaeld
+
+**Where to find Jhaeld:** [Remgard, Remgard tavern 1](#v-jhaeld), [Island 4 cave 1](#v-lae_jhaeld1), [Final cave 1](#v-lae_jhaeld2), [Final cave 2](#v-lae_jhaeld3)
 
 <div class="infobox" markdown>
 
@@ -10,32 +12,19 @@ description: "Jhaeld is an NPC who can also be fought in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [What is that stench?](../quests/remgard2.md) |
 | **Found in** | Remgard, Island 4 cave 1, Final cave 1, Final cave 2 |
 | **Class** | Humanoid |
 | **HP** | 200 |
 | **XP when defeated** | 258 |
-| **Entries in game data** | 4 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Jhaeld. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Remgard, Remgard tavern 1 { #v-jhaeld }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`jhaeld`](#v-jhaeld) | NPC | Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-jhaeld) | starts [What is that stench?](../quests/remgard2.md) | – |
-| [`lae_jhaeld1`](#v-lae_jhaeld1) | NPC | [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1) | – | – |
-| [`lae_jhaeld2`](#v-lae_jhaeld2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_jhaeld2) | – | – |
-| [`lae_jhaeld3`](#v-lae_jhaeld3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_jhaeld3) | – | 200 |
-
-## Remgard, Remgard tavern 1 (jhaeld) { #v-jhaeld }
-
-**Entry ID:** `jhaeld` · **Type:** NPC · **Role:** Starts [What is that stench?](../quests/remgard2.md)
-
-**Location:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-jhaeld)
+**Where:** Remgard: [Remgard tavern 1](../maps/remgard_tavern1.md#pin-npc-jhaeld) · **Role:** Starts [What is that stench?](../quests/remgard2.md)
 
 ### Quests
 
@@ -435,44 +424,15 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Hm, now that you are here you might as well make yourself useful inst…” → “Hmm, now that you are here you might as well make yourself useful ins…”<br>· text: “Ok, so what I would like you to do for me is ask some people what the…” → “OK, so what I would like you to do for me is ask some people what the…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Third, the old woman Duaina usually has great wisdom to share, consid…” → “Third, the old woman Duaina usually has great wisdom to share, consid…”<br>· text: “So.. Let me get things straight. You went and asked them about the mi…” → “So ... let me get things straight. You went and asked them about the …” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I find this very hard to believe. For to have killed Algangror would …” → “I find this very hard to believe. For you to have killed Algangror wo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (jhaeld)"
+## Island 4 cave 1 { #v-lae_jhaeld1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `jhaeld` |
-    | Spawn group | `jhaeld` |
-    | Loot table | – |
-    | Conversation | `jhaeld` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_mage:0` |
-    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "jhaeld",
-     "name": "Jhaeld",
-     "iconID": "monsters_mage:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "jhaeld",
-     "phraseID": "jhaeld"
-    }
-    ```
-
-
-## Island 4 cave 1 (lae_jhaeld1) { #v-lae_jhaeld1 }
-
-**Entry ID:** `lae_jhaeld1` · **Type:** NPC
-
-**Location:** [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1)
+**Where:** [Island 4 cave 1](../maps/island_4_cave1.md#pin-npc-lae_jhaeld1)
 
 ### Quests
 
@@ -522,38 +482,9 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_jhaeld1)"
+## Final cave 1 { #v-lae_jhaeld2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lae_jhaeld1` |
-    | Spawn group | `lae_jhaeld1` |
-    | Loot table | – |
-    | Conversation | `lae_jhaeld1` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_mage:0` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "lae_jhaeld1",
-     "name": "Jhaeld",
-     "iconID": "monsters_mage:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "lae_jhaeld1",
-     "phraseID": "lae_jhaeld1"
-    }
-    ```
-
-
-## Final cave 1 (lae_jhaeld2) { #v-lae_jhaeld2 }
-
-**Entry ID:** `lae_jhaeld2` · **Type:** NPC
-
-**Location:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_jhaeld2)
+**Where:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_jhaeld2)
 
 ### Quests
 
@@ -610,75 +541,35 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_jhaeld2)"
+## Final cave 2 { #v-lae_jhaeld3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lae_jhaeld2` |
-    | Spawn group | `lae_jhaeld2` |
-    | Loot table | – |
-    | Conversation | `lae_algangror2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_mage:0` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
+**Where:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_jhaeld3)
 
-    Raw data:
+!!! warning "You can fight Jhaeld"
+    Answering “The same that I'll do to you now.” starts a fight with Jhaeld.
 
-    ```json
-    {
-     "id": "lae_jhaeld2",
-     "name": "Jhaeld",
-     "iconID": "monsters_mage:0",
-     "monsterClass": "humanoid",
-     "spawnGroup": "lae_jhaeld2",
-     "phraseID": "lae_algangror2"
-    }
-    ```
+### Combat
 
-
-## Final cave 2 (lae_jhaeld3) { #v-lae_jhaeld3 }
-
-**Entry ID:** `lae_jhaeld3` · **Type:** NPC/Enemy
-
-**Location:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_jhaeld3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 200 |
 | XP when defeated | 258 |
 | Damage | 10 to 22 |
-| Attack chance | 70 |
-| Block chance | 50 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 50 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Scroll of fire](../items/final_cave_f.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Final cave 2](../maps/final_cave2.md) | – | 1 | Appears later, during a quest |
 
 ### Quests
 
@@ -768,11 +659,115 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_jhaeld3)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Jhaeld. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `jhaeld` | NPC | [Remgard, Remgard tavern 1](#v-jhaeld) |
+| `lae_jhaeld1` | NPC | [Island 4 cave 1](#v-lae_jhaeld1) |
+| `lae_jhaeld2` | NPC | [Final cave 1](#v-lae_jhaeld2) |
+| `lae_jhaeld3` | NPC/Enemy | [Final cave 2](#v-lae_jhaeld3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: jhaeld"
+
+    | | |
+    |---|---|
+    | Entry ID | `jhaeld` |
+    | Type (wiki) | NPC |
+    | Spawn group | `jhaeld` |
+    | Loot table | – |
+    | Conversation | `jhaeld` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_mage:0` |
+    | Defined in | `res/raw/monsterlist_v0611_npcs2.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "jhaeld",
+     "name": "Jhaeld",
+     "iconID": "monsters_mage:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "jhaeld",
+     "phraseID": "jhaeld"
+    }
+    ```
+
+??? info "Technical information: lae_jhaeld1"
+
+    | | |
+    |---|---|
+    | Entry ID | `lae_jhaeld1` |
+    | Type (wiki) | NPC |
+    | Spawn group | `lae_jhaeld1` |
+    | Loot table | – |
+    | Conversation | `lae_jhaeld1` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_mage:0` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lae_jhaeld1",
+     "name": "Jhaeld",
+     "iconID": "monsters_mage:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "lae_jhaeld1",
+     "phraseID": "lae_jhaeld1"
+    }
+    ```
+
+??? info "Technical information: lae_jhaeld2"
+
+    | | |
+    |---|---|
+    | Entry ID | `lae_jhaeld2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `lae_jhaeld2` |
+    | Loot table | – |
+    | Conversation | `lae_algangror2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_mage:0` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lae_jhaeld2",
+     "name": "Jhaeld",
+     "iconID": "monsters_mage:0",
+     "monsterClass": "humanoid",
+     "spawnGroup": "lae_jhaeld2",
+     "phraseID": "lae_algangror2"
+    }
+    ```
+
+??? info "Technical information: lae_jhaeld3"
 
     | | |
     |---|---|
     | Entry ID | `lae_jhaeld3` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lae_jhaeld3` |
     | Loot table | `lae_algangror3` |
     | Conversation | `lae_algangror3` |
@@ -804,16 +799,6 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
      "blockChance": 50
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

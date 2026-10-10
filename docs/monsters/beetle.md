@@ -4,6 +4,8 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 
 # ![](../assets/icons/monsters/monsters_insects_4.png){ .sprite } Beetle
 
+**Where to find Beetle:** [Crossglen, Crossglen and 3 more](#v-beetle), [Guynmart Castle, Guynmart wood 8](#v-guynmart_fighter1), [Guynmart Castle, Guynmart wood 8](#v-guynmart_fighter2)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_insects_4.png){ .sprite }</p>
@@ -15,47 +17,30 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 | **Class** | Insect |
 | **HP** | 4 |
 | **XP when defeated** | 8 |
-| **Entries in game data** | 3 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Beetle. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock, appearance. Each entry has its own section below.
+## Crossglen, Crossglen and 3 more { #v-beetle }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`beetle`](#v-beetle) | Enemy | Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md) (+2 more) | – | 4 |
-| [`guynmart_fighter1`](#v-guynmart_fighter1) | Scenery | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | – |
-| [`guynmart_fighter2`](#v-guynmart_fighter2) | Scenery | Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md) | – | – |
+**Where:** Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md), [Guynmart wood 19](../maps/guynmart_wood_19.md), [Hauntedhouse 2](../maps/hauntedhouse2.md)
 
-## Crossglen, Crossglen and 3 more (beetle) { #v-beetle }
+### Combat
 
-**Entry ID:** `beetle` · **Type:** Enemy
-
-**Location:** Crossglen: [Crossglen](../maps/crossglen.md), Crossglen: [Crossglen farmhouse basement](../maps/crossglen_farmhouse_basement.md), [Guynmart wood 19](../maps/guynmart_wood_19.md), [Hauntedhouse 2](../maps/hauntedhouse2.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Insect |
 | HP | 4 |
 | XP when defeated | 8 |
 | Damage | 3 |
-| Attack chance | 70 |
-| Block chance | 0 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 9 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 0 |
+| DR | 0 |
+| Attacks per turn | 1 (9 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -85,11 +70,64 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (beetle)"
+## Guynmart Castle, Guynmart wood 8 { #v-guynmart_fighter1 }
+
+**Where:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Guynmart Castle, Guynmart wood 8 (2) { #v-guynmart_fighter2 }
+
+**Where:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Beetle. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `beetle` | Enemy | [Crossglen, Crossglen and 3 more](#v-beetle) |
+| `guynmart_fighter1` | Scenery | [Guynmart Castle, Guynmart wood 8](#v-guynmart_fighter1) |
+| `guynmart_fighter2` | Scenery | [Guynmart Castle, Guynmart wood 8](#v-guynmart_fighter2) |
+
+- `guynmart_fighter1` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+- `guynmart_fighter2` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: beetle"
 
     | | |
     |---|---|
     | Entry ID | `beetle` |
+    | Type (wiki) | Enemy |
     | Spawn group | `crossglen_beetle` |
     | Loot table | `insect` |
     | Conversation | – |
@@ -119,31 +157,12 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
     }
     ```
 
-
-## Guynmart Castle, Guynmart wood 8 (guynmart_fighter1) { #v-guynmart_fighter1 }
-
-**Entry ID:** `guynmart_fighter1` · **Type:** Scenery
-
-**Location:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (guynmart_fighter1)"
+??? info "Technical information: guynmart_fighter1"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_fighter1` |
+    | Type (wiki) | Scenery |
     | Spawn group | `guynmart_fighter1` |
     | Loot table | – |
     | Conversation | – |
@@ -164,31 +183,12 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
     }
     ```
 
-
-## Guynmart Castle, Guynmart wood 8 (guynmart_fighter2) { #v-guynmart_fighter2 }
-
-**Entry ID:** `guynmart_fighter2` · **Type:** Scenery
-
-**Location:** Guynmart Castle: [Guynmart wood 8](../maps/guynmart_wood_8.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (guynmart_fighter2)"
+??? info "Technical information: guynmart_fighter2"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_fighter2` |
+    | Type (wiki) | Scenery |
     | Spawn group | `guynmart_fighter2` |
     | Loot table | – |
     | Conversation | – |
@@ -208,16 +208,6 @@ description: "Beetle is an enemy in Andor's Trail (insect) with 4 HP, worth 8 XP
      "monsterClass": "animal"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

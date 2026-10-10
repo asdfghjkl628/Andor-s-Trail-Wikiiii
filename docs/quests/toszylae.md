@@ -200,7 +200,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…”<br>· text: “(As you try to make your attack against the guardian, your arms are h…” → “[As you try to make your attack against the guardian, your arms are h…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 5 lines changed<br>· text: “(It raises its claw-like hands above its head, looking to get ready t…” → “[It raises its claw-like hands above its head, looking to get ready t…”<br>· text: “(As if having swallowed a thousand needles, you are suddenly stricken…” → “[As if having swallowed a thousand needles, you are suddenly stricken…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

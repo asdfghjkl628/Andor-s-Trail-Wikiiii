@@ -4,33 +4,24 @@ description: "Jan is a non-player character (NPC) in Andor's Trail, found in Sto
 
 # ![](../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite } Jan
 
+**Where to find Jan:** [Appears during a quest or event](#v-jan), [Stoutford, Stoutford farmhouse 1](#v-stoutford_farmer_jan)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Fallen friends](../quests/jan.md) |
 | **Found in** | Stoutford |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Jan. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Appears during a quest or event { #v-jan }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`jan`](#v-jan) | NPC | Not on a map | starts [Fallen friends](../quests/jan.md) |
-| [`stoutford_farmer_jan`](#v-stoutford_farmer_jan) | NPC | Stoutford: [Stoutford farmhouse 1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan) | – |
-
-## Not placed on a map (jan) { #v-jan }
-
-**Entry ID:** `jan` · **Type:** NPC · **Role:** Starts [Fallen friends](../quests/jan.md)
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
+**Where:** appears during a quest or scripted event. · **Role:** Starts [Fallen friends](../quests/jan.md)
 
 ### Quests
 
@@ -150,43 +141,14 @@ Set your quest stages and items, then talk to Jan. Same rules as the game: same 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Well, I guess it's ok to tell you. You seem to be a nice enough kid.” → “Well, I guess it's OK to tell you. You seem to be a nice enough kid.”<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “That's when it happened. *sob* Oh what have we done?” → “That's when it happened. *sob* Oh what have we done?”<br>· text: “Really? You think you could help? Hm, maybe you could. Beware of thos…” → “Really? You think you could help? Hmm, maybe you could. Beware of tho…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (jan)"
+## Stoutford, Stoutford farmhouse 1 { #v-stoutford_farmer_jan }
 
-    | | |
-    |---|---|
-    | Entry ID | `jan` |
-    | Spawn group | `jan` |
-    | Loot table | – |
-    | Conversation | `jan_start_select` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_rltiles3:14` |
-    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "jan",
-     "name": "Jan",
-     "iconID": "monsters_rltiles3:14",
-     "monsterClass": "humanoid",
-     "spawnGroup": "jan",
-     "phraseID": "jan_start_select"
-    }
-    ```
-
-
-## Stoutford, Stoutford farmhouse 1 (stoutford_farmer_jan) { #v-stoutford_farmer_jan }
-
-**Entry ID:** `stoutford_farmer_jan` · **Type:** NPC
-
-**Location:** Stoutford: [Stoutford farmhouse 1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan)
+**Where:** Stoutford: [Stoutford farmhouse 1](../maps/stoutford_farmhouse1.md#pin-npc-stoutford_farmer_jan)
 
 ### Dialogue simulator
 
@@ -214,11 +176,51 @@ Set your quest stages and items, then talk to Jan. Same rules as the game: same 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stoutford_farmer_jan)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Jan. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `jan` | NPC | [Appears during a quest or event](#v-jan) |
+| `stoutford_farmer_jan` | NPC | [Stoutford, Stoutford farmhouse 1](#v-stoutford_farmer_jan) |
+
+??? info "Technical information: jan"
+
+    | | |
+    |---|---|
+    | Entry ID | `jan` |
+    | Type (wiki) | NPC |
+    | Spawn group | `jan` |
+    | Loot table | – |
+    | Conversation | `jan_start_select` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_rltiles3:14` |
+    | Defined in | `res/raw/monsterlist_crossglen_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "jan",
+     "name": "Jan",
+     "iconID": "monsters_rltiles3:14",
+     "monsterClass": "humanoid",
+     "spawnGroup": "jan",
+     "phraseID": "jan_start_select"
+    }
+    ```
+
+??? info "Technical information: stoutford_farmer_jan"
 
     | | |
     |---|---|
     | Entry ID | `stoutford_farmer_jan` |
+    | Type (wiki) | NPC |
     | Spawn group | `stoutford_farmer_jan` |
     | Loot table | – |
     | Conversation | `stoutford_farmer_jan_0` |
@@ -237,7 +239,6 @@ Set your quest stages and items, then talk to Jan. Same rules as the game: same 
      "phraseID": "stoutford_farmer_jan_0"
     }
     ```
-
 
 
 ## Community notes

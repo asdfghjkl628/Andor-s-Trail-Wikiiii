@@ -15,7 +15,7 @@ description: "Fungi Panic story flags is a hidden quest in Andor's Trail, starte
 | **In journal** | No (hidden flag) |
 | **Stages** | 9 |
 | **Started by** | stepping on a trigger on [Mushroom m 3 1](../maps/mushroom_m3_1.md) |
-| **NPCs involved** | [Undina Bogsten](../monsters/bogsten_granny.md#v-bogsten_granny1), [Undina Bogsten](../monsters/bogsten_granny.md) |
+| **NPCs involved** | [Undina Bogsten](../monsters/bogsten_granny.md), [Undina Bogsten](../monsters/bogsten_granny.md#v-bogsten_granny1) |
 | **Locations** | [Mushroom m 2 4](../maps/mushroom_m2_4.md) |
 
 </div>

@@ -4,6 +4,8 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
 
 # ![](../assets/icons/monsters/monsters_tometik2_12.png){ .sprite } Lizard
 
+**Where to find Lizard:** [Flagstone Prison, Flagstone 0 and 6 more](#v-stn_lizard), [Flagstone Prison, Waytogalmore 0](#v-stn_colonel_mons1)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_12.png){ .sprite }</p>
@@ -15,46 +17,30 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
 | **Class** | Reptile, Humanoid |
 | **HP** | 50–100 |
 | **XP when defeated** | 118–190 |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.7.2](../versions/0.7.2.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Lizard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics. Each entry has its own section below.
+## Flagstone Prison, Flagstone 0 and 6 more { #v-stn_lizard }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`stn_lizard`](#v-stn_lizard) | Enemy | Flagstone Prison: [Flagstone 0](../maps/flagstone0.md), Flagstone Prison: [Flagstone filler east 1](../maps/flagstone_filler_east_1.md) (+5 more) | – | 50 |
-| [`stn_colonel_mons1`](#v-stn_colonel_mons1) | Enemy | Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md) | – | 100 |
+**Where:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md), Flagstone Prison: [Flagstone filler east 1](../maps/flagstone_filler_east_1.md), Flagstone Prison: [Flagstone filler east 2](../maps/flagstone_filler_east_2.md), Flagstone Prison: [Lake shore road 0](../maps/lake_shore_road_0.md), Flagstone Prison: [Lake shore road 2](../maps/lake_shore_road_2.md), Flagstone Prison: [Lake shore road 5](../maps/lake_shore_road_5.md) (+1 more)
 
-## Flagstone Prison, Flagstone 0 and 6 more (stn_lizard) { #v-stn_lizard }
+### Combat
 
-**Entry ID:** `stn_lizard` · **Type:** Enemy
-
-**Location:** Flagstone Prison: [Flagstone 0](../maps/flagstone0.md), Flagstone Prison: [Flagstone filler east 1](../maps/flagstone_filler_east_1.md), Flagstone Prison: [Flagstone filler east 2](../maps/flagstone_filler_east_2.md), Flagstone Prison: [Lake shore road 0](../maps/lake_shore_road_0.md), Flagstone Prison: [Lake shore road 2](../maps/lake_shore_road_2.md), Flagstone Prison: [Lake shore road 5](../maps/lake_shore_road_5.md) (+1 more)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Reptile |
 | HP | 50 |
 | XP when defeated | 118 |
 | Damage | 4 to 7 |
-| Attack chance | 40 |
-| Block chance | 120 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 3 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 120 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -78,11 +64,73 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (stn_lizard)"
+## Flagstone Prison, Waytogalmore 0 { #v-stn_colonel_mons1 }
+
+**Where:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 100 |
+| XP when defeated | 190 |
+| Damage | 1 to 4 |
+| AC | 40 |
+| BC | 120 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
+
+### Quests that count defeats
+
+- [Colonel Lutarc](../quests/stn_colonel.md#stage-112) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.2](../versions/0.7.2.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Lizard. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics.
+
+| Entry | Type | Section |
+|---|---|---|
+| `stn_lizard` | Enemy | [Flagstone Prison, Flagstone 0 and 6 more](#v-stn_lizard) |
+| `stn_colonel_mons1` | Enemy | [Flagstone Prison, Waytogalmore 0](#v-stn_colonel_mons1) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: stn_lizard"
 
     | | |
     |---|---|
     | Entry ID | `stn_lizard` |
+    | Type (wiki) | Enemy |
     | Spawn group | `stn_lizard` |
     | Loot table | – |
     | Conversation | – |
@@ -115,60 +163,12 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
     }
     ```
 
-
-## Flagstone Prison, Waytogalmore 0 (stn_colonel_mons1) { #v-stn_colonel_mons1 }
-
-**Entry ID:** `stn_colonel_mons1` · **Type:** Enemy
-
-**Location:** Flagstone Prison: [Waytogalmore 0](../maps/waytogalmore0.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 100 |
-| XP when defeated | 190 |
-| Damage | 1 to 4 |
-| Attack chance | 40 |
-| Block chance | 120 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytogalmore 0](../maps/waytogalmore0.md) | Flagstone Prison | 1 | Appears later, during a quest |
-
-### Quests that count defeats
-
-- [Colonel Lutarc](../quests/stn_colonel.md#stage-112) with stepping on a trigger on [Waytogalmore 0](../maps/waytogalmore0.md) checks that this enemy has been defeated.
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.2](../versions/0.7.2.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (stn_colonel_mons1)"
+??? info "Technical information: stn_colonel_mons1"
 
     | | |
     |---|---|
     | Entry ID | `stn_colonel_mons1` |
+    | Type (wiki) | Enemy |
     | Spawn group | `stn_colonel_mons1` |
     | Loot table | – |
     | Conversation | – |
@@ -200,16 +200,6 @@ description: "Lizard is an enemy in Andor's Trail (reptile) with 50–100 HP, wo
      "damageResistance": 5
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

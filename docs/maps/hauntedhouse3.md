@@ -1,5 +1,5 @@
 ---
-description: "Hauntedhouse 3 is an indoor location in Andor's Trail. Enemies: Spectre, Lost soul, Shade, Ghostly visage, Apparition. Exits to Hauntedhouse 2, Hauntedhouse 4."
+description: "Hauntedhouse 3 is an indoor location in Andor's Trail. Enemies: Lost soul, Spectre, Shade, Ghostly visage, Apparition. Exits to Hauntedhouse 2, Hauntedhouse 4."
 ---
 
 # Hauntedhouse 3
@@ -48,14 +48,14 @@ description: "Hauntedhouse 3 is an indoor location in Andor's Trail. Enemies: Sp
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Spectre](../monsters/spectre.md) | 15 | 1–5 | 2 | shares spawn with Ghostly visage |
 | [Lost soul](../monsters/lost_soul.md) | 15 | 1–2 | 3 | – |
+| [Spectre](../monsters/spectre.md) | 15 | 1–5 | 2 | shares spawn with Ghostly visage |
 | [Shade](../monsters/shade.md) | 16 | 1–4 | 1 | shares spawn with Apparition, Young gargoyle |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 | 1–4 | 2 | shares spawn with Spectre |
 | [Apparition](../monsters/apparition.md) | 17 | 1–5 | 1 | shares spawn with Shade, Young gargoyle |
 | [Haunting](../monsters/haunting.md) | 31 | 1–5 | 4 | – |
-| [Young gargoyle](../monsters/young_gargoyle.md) | 35 | 2–5 | 1 | shares spawn with Apparition, Shade |
 | [Skeleton](../monsters/skeleton.md) | 35 | 1–4 | 2 | shares spawn with Skeletal warrior |
+| [Young gargoyle](../monsters/young_gargoyle.md) | 35 | 2–5 | 1 | shares spawn with Apparition, Shade |
 | [Skeletal warrior](../monsters/skeletal_warrior.md) | 52 | 1–3 | 2 | shares spawn with Skeleton |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

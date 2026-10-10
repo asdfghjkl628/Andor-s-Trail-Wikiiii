@@ -1,8 +1,10 @@
 ---
-description: "Thief is an NPC who can also be fought in Andor's Trail, found in Mywildcave 4."
+description: "Thief is an NPC you can also fight in Andor's Trail, found in Mywildcave 4."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Thief
+
+**Where to find Thief:** [Mywildcave 4](#v-gison_thief1), [Mywildcave 4](#v-gison_thief2), [Appears during a quest or event](#v-gison_thief3)
 
 <div class="infobox" markdown>
 
@@ -10,55 +12,40 @@ description: "Thief is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Mywildcave 4 |
 | **Class** | Humanoid |
 | **HP** | 60 |
 | **XP when defeated** | 114 |
-| **Entries in game data** | 3 |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-!!! info "3 entries in the game data"
-    The game data defines 3 separate characters named Thief. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Mywildcave 4 { #v-gison_thief1 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`gison_thief1`](#v-gison_thief1) | NPC/Enemy | [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thief1) | – | 60 |
-| [`gison_thief2`](#v-gison_thief2) | Enemy | [Mywildcave 4](../maps/mywildcave4.md) | – | 60 |
-| [`gison_thief3`](#v-gison_thief3) | Enemy | Not on a map | – | 60 |
+**Where:** [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thief1)
 
-## Mywildcave 4 (gison_thief1) { #v-gison_thief1 }
+!!! warning "You can fight Thief"
+    Answering “No way! Attack!” during [A raid for a cookbook](../quests/gison_cookbook.md#stage-40) starts a fight with Thief.
 
-**Entry ID:** `gison_thief1` · **Type:** NPC/Enemy
+    Answering “Attack!” starts a fight with Thief.
 
-**Location:** [Mywildcave 4](../maps/mywildcave4.md#pin-npc-gison_thief1)
+### Combat
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 60 |
 | XP when defeated | 114 |
 | Damage | 3 to 8 |
-| Attack chance | 105 |
-| Block chance | 85 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 105 |
+| BC | 85 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -67,12 +54,6 @@ description: "Thief is an NPC who can also be fought in Andor's Trail, found in 
 | [Gold coins](../items/gold.md) | 33% | 2 to 12 |
 | [Ruby gem](../items/gem2.md) | 20% | 1 |
 | [Polished gem](../items/gem3.md) | 20% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mywildcave 4](../maps/mywildcave4.md) | – | 1 | – |
 
 ### Quests
 
@@ -123,11 +104,117 @@ Set your quest stages and items, then talk to Thief. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (gison_thief1)"
+## Mywildcave 4 (2) { #v-gison_thief2 }
+
+**Where:** [Mywildcave 4](../maps/mywildcave4.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 60 |
+| XP when defeated | 114 |
+| Damage | 3 to 8 |
+| AC | 105 |
+| BC | 85 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 33% | 2 to 12 |
+| [Ruby gem](../items/gem2.md) | 20% | 1 |
+| [Polished gem](../items/gem3.md) | 20% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Mywildcave 4](../maps/mywildcave4.md) | – | 5 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+## Appears during a quest or event { #v-gison_thief3 }
+
+**Where:** appears during a quest or scripted event.
+
+### Combat
+
+| | |
+|---|---|
+| Class | Humanoid |
+| HP | 60 |
+| XP when defeated | 114 |
+| Damage | 3 to 8 |
+| AC | 105 |
+| BC | 85 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Gold coins](../items/gold.md) | 33% | 2 to 12 |
+| [Ruby gem](../items/gem2.md) | 20% | 1 |
+| [Polished gem](../items/gem3.md) | 20% | 1 |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.13](../versions/0.7.13.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**3 entries.** The game data defines 3 separate characters named Thief. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `gison_thief1` | NPC/Enemy | [Mywildcave 4](#v-gison_thief1) |
+| `gison_thief2` | Enemy | [Mywildcave 4](#v-gison_thief2) |
+| `gison_thief3` | Enemy | [Appears during a quest or event](#v-gison_thief3) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: gison_thief1"
 
     | | |
     |---|---|
     | Entry ID | `gison_thief1` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `gison_thief1` |
     | Loot table | `gison_thief` |
     | Conversation | `gison_thief1` |
@@ -164,64 +251,12 @@ Set your quest stages and items, then talk to Thief. Same rules as the game: sam
     }
     ```
 
-
-## Mywildcave 4 (gison_thief2) { #v-gison_thief2 }
-
-**Entry ID:** `gison_thief2` · **Type:** Enemy
-
-**Location:** [Mywildcave 4](../maps/mywildcave4.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 60 |
-| XP when defeated | 114 |
-| Damage | 3 to 8 |
-| Attack chance | 105 |
-| Block chance | 85 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 33% | 2 to 12 |
-| [Ruby gem](../items/gem2.md) | 20% | 1 |
-| [Polished gem](../items/gem3.md) | 20% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Mywildcave 4](../maps/mywildcave4.md) | – | 5 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.13](../versions/0.7.13.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (gison_thief2)"
+??? info "Technical information: gison_thief2"
 
     | | |
     |---|---|
     | Entry ID | `gison_thief2` |
+    | Type (wiki) | Enemy |
     | Spawn group | `gison_thief2` |
     | Loot table | `gison_thief` |
     | Conversation | – |
@@ -257,58 +292,12 @@ Set your quest stages and items, then talk to Thief. Same rules as the game: sam
     }
     ```
 
-
-## Not placed on a map (gison_thief3) { #v-gison_thief3 }
-
-**Entry ID:** `gison_thief3` · **Type:** Enemy
-
-**Location:** not placed on any map; this entry is added to the world by a quest or scripted event.
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Humanoid |
-| HP | 60 |
-| XP when defeated | 114 |
-| Damage | 3 to 8 |
-| Attack chance | 105 |
-| Block chance | 85 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Gold coins](../items/gold.md) | 33% | 2 to 12 |
-| [Ruby gem](../items/gem2.md) | 20% | 1 |
-| [Polished gem](../items/gem3.md) | 20% | 1 |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.13](../versions/0.7.13.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (gison_thief3)"
+??? info "Technical information: gison_thief3"
 
     | | |
     |---|---|
     | Entry ID | `gison_thief3` |
+    | Type (wiki) | Enemy |
     | Spawn group | `gison_thief3` |
     | Loot table | `gison_thief` |
     | Conversation | – |
@@ -343,16 +332,6 @@ Set your quest stages and items, then talk to Thief. Same rules as the game: sam
      "damageResistance": 1
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

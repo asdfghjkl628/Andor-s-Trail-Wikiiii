@@ -1,5 +1,5 @@
 ---
-description: "Duleian mountain cat cub is scenery in Andor's Trail: a decoration or dialogue prop with no conversation and no combat statistics, found in Brightportwild 2."
+description: "Duleian mountain cat cub is scenery in Andor's Trail: a decoration or dialogue prop, found in Brightportwild 2."
 ---
 
 # ![](../assets/icons/monsters/monsters_cats_2.png){ .sprite } Duleian mountain cat cub
@@ -12,15 +12,13 @@ description: "Duleian mountain cat cub is scenery in Andor's Trail: a decoration
 
 | | |
 |---|---|
-| **Type** | Scenery (decoration or dialogue prop; no stats) |
+| **Type** | Scenery (decoration or dialogue prop) |
 | **Found in** | Brightportwild 2 |
-| **Entry ID** | `brightport_cat` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene.
+Part of the scenery: no conversation, no fight ~~and no, you can't take it home~~.
 
 
 ## Version history
@@ -32,11 +30,18 @@ description: "Duleian mountain cat cub is scenery in Andor's Trail: a decoration
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brightport_cat` has no conversation and no combat statistics. It is a decoration, an animal or a figure in a scripted scene.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_cat` |
+    | Type (wiki) | Scenery |
     | Spawn group | `brightport_cat` |
     | Loot table | – |
     | Conversation | – |

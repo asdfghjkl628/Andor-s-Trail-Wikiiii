@@ -4,7 +4,7 @@ description: "Unnmir is a non-player character (NPC) in Andor's Trail. Starts Lo
 
 # ![](../assets/icons/monsters/monsters_mage2_0.png){ .sprite } Unnmir
 
-**Where to find Unnmir:** not placed on any map; appears through a quest or scripted event.
+**Where to find Unnmir:** appears during a quest or scripted event.
 
 <div class="infobox" markdown>
 
@@ -12,9 +12,8 @@ description: "Unnmir is a non-player character (NPC) in Andor's Trail. Starts Lo
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Lost treasures](../quests/nocmar.md) |
-| **Entry ID** | `unnmir` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -142,17 +141,22 @@ Set your quest stages and items, then talk to Unnmir. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Nice. I'll give you a hint, kid. *snickering*. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by t…”<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Yeah yeah, I get it. Your brother has probably run off to some dungeo…” → “Yeah yeah, I get it. Your brother has probably run off to some dungeo…”<br>· text: “Nice. I'll give you a hint, kid. *snickering*. Go see Nocmar over by …” → “Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by t…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 8 lines added, 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `unnmir` |
+    | Type (wiki) | NPC |
     | Spawn group | `unnmir` |
     | Loot table | – |
     | Conversation | `unnmir` |

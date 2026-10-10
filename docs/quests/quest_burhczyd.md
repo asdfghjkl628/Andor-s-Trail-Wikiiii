@@ -12,7 +12,7 @@ description: "Young merchant is a quest in Andor's Trail, started by Burhczyd (c
 | **In journal** | Yes |
 | **Stages** | 22 |
 | **Started by** | [Burhczyd](../monsters/burhczyd1.md) ([Crossglen hall](../maps/crossglen_hall.md)), [Knight of Elythom](../monsters/burhczyd1e.md) ([Crossglen hall](../maps/crossglen_hall.md)) |
-| **NPCs involved** | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd7), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19) +38 |
+| **NPCs involved** | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) +38 |
 | **Locations** | [Blackwater mountain 22](../maps/blackwater_mountain22.md), [Blackwater mountain 43](../maps/blackwater_mountain43.md), [Brightport bakery](../maps/brightport_bakery.md), [Brimhaven tavern 1](../maps/brimhaven_tavern1.md) |
 | **Total XP** | 204,370 |
 | **Related quests** | 3 |

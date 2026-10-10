@@ -19300,7 +19300,7 @@
 "id": "brv_wh_item_00",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_00",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_00",
 "spawnGroup": "brv_wh_item_00"
 },
@@ -19308,7 +19308,7 @@
 "id": "brv_wh_item_01",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_01",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_01",
 "spawnGroup": "brv_wh_item_01"
 },
@@ -19316,7 +19316,7 @@
 "id": "brv_wh_item_02",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_02",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_02",
 "spawnGroup": "brv_wh_item_02"
 },
@@ -19324,7 +19324,7 @@
 "id": "brv_wh_item_03",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_03",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_03",
 "spawnGroup": "brv_wh_item_03"
 },
@@ -19332,7 +19332,7 @@
 "id": "brv_wh_item_04",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_04",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_04",
 "spawnGroup": "brv_wh_item_04"
 },
@@ -19340,7 +19340,7 @@
 "id": "brv_wh_item_05",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_05",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_05",
 "spawnGroup": "brv_wh_item_05"
 },
@@ -19348,7 +19348,7 @@
 "id": "brv_wh_item_06",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_06",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_06",
 "spawnGroup": "brv_wh_item_06"
 },
@@ -19356,7 +19356,7 @@
 "id": "brv_wh_item_07",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_07",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_07",
 "spawnGroup": "brv_wh_item_07"
 },
@@ -19364,7 +19364,7 @@
 "id": "brv_wh_item_08",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_08",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_08",
 "spawnGroup": "brv_wh_item_08"
 },
@@ -19372,7 +19372,7 @@
 "id": "brv_wh_item_09",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_09",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_09",
 "spawnGroup": "brv_wh_item_09"
 },
@@ -19380,7 +19380,7 @@
 "id": "brv_wh_item_20",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_20",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_20",
 "spawnGroup": "brv_wh_item_20"
 },
@@ -19388,7 +19388,7 @@
 "id": "brv_wh_item_21",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_21",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_21",
 "spawnGroup": "brv_wh_item_21"
 },
@@ -19396,7 +19396,7 @@
 "id": "brv_wh_item_22",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_22",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_22",
 "spawnGroup": "brv_wh_item_22"
 },
@@ -19404,7 +19404,7 @@
 "id": "brv_wh_item_23",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_23",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_23",
 "spawnGroup": "brv_wh_item_23"
 },
@@ -19412,7 +19412,7 @@
 "id": "brv_wh_item_24",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_24",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_24",
 "spawnGroup": "brv_wh_item_24"
 },
@@ -19420,7 +19420,7 @@
 "id": "brv_wh_item_25",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_25",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_25",
 "spawnGroup": "brv_wh_item_25"
 },
@@ -19428,7 +19428,7 @@
 "id": "brv_wh_item_26",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_26",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_26",
 "spawnGroup": "brv_wh_item_26"
 },
@@ -19436,7 +19436,7 @@
 "id": "brv_wh_item_27",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_27",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_27",
 "spawnGroup": "brv_wh_item_27"
 },
@@ -19444,7 +19444,7 @@
 "id": "brv_wh_item_28",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_28",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_28",
 "spawnGroup": "brv_wh_item_28"
 },
@@ -19452,7 +19452,7 @@
 "id": "brv_wh_item_29",
 "monsterClass": "humanoid",
 "moveCost": 99,
-"name": "brv_wh_item_29",
+"name": "Warehouse storage spot",
 "phraseID": "brv_wh_item_29",
 "spawnGroup": "brv_wh_item_29"
 },

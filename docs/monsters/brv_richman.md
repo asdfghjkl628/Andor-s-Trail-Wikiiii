@@ -12,9 +12,8 @@ description: "Alkapoan is a non-player character (NPC) in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brimhaven house 1 |
-| **Entry ID** | `brv_richman` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
@@ -217,18 +216,23 @@ Set your quest stages and items, then talk to Alkapoan. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 13 lines added |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.”<br>· text: “[Breaks down] I was bribed by the people of Loneford to sabotage the …” → “[Breaks down] I was bribed by the people of Loneford to sabotage the …” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 1 line added, 4 lines changed<br>· text: “[Laughs] You again” → “[Laughs] You again. Welcome back, foolish child.”<br>· text: “Better you disapear soon or I might find some evidence that you are t…” → “You better disappear soon, or I might find some evidence that you are…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 13 lines added, 1 line changed |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 11 lines added, 2 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_richman` |
+    | Type (wiki) | NPC |
     | Spawn group | `brv_richman` |
     | Loot table | `brv_richman` |
     | Conversation | `brv_richman` |

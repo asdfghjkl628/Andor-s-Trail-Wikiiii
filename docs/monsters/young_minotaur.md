@@ -17,32 +17,26 @@ description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, wo
 | **Class** | Giant |
 | **HP** | 45 |
 | **XP when defeated** | 64 |
-| **Entry ID** | `young_minotaur` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 45 |
 | XP when defeated | 64 |
 | Damage | 4 |
-| Attack chance | 20 |
-| Block chance | 50 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 6 AP |
-| Attacks per turn | 1 |
-| Move cost | 10 AP |
-| Critical skill | 40 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 23% |
+| AC | 20 |
+| BC | 50 |
+| DR | 2 |
+| Attacks per turn | 1 (6 AP each, 10 AP) |
+| Crit chance | 23% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -71,11 +65,24 @@ description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, wo
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `young_minotaur` |
+    | Type (wiki) | Enemy |
     | Spawn group | `pitcave2` |
     | Loot table | `cavemonster` |
     | Conversation | – |
@@ -108,15 +115,6 @@ description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, wo
      "horizontalFlipChance": 25
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

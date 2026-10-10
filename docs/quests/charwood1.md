@@ -12,7 +12,7 @@ description: "Destined for great things is a quest in Andor's Trail, started by 
 | **In journal** | Yes |
 | **Stages** | 31 (completes at 115) |
 | **Started by** | [Lethenlor](../monsters/lethenlor.md) ([Tradehouse 1](../maps/tradehouse1.md)) |
-| **NPCs involved** | [Charwood goblin](../monsters/charwdg4.md#v-charwdgg), [Drashad](../monsters/drashad.md), [Erethori](../monsters/erethori.md), [Falothen](../monsters/falothen0.md#v-falothen1), [Falothen](../monsters/falothen0.md), [Fayvara](../monsters/fayvara0.md) +6 |
+| **NPCs involved** | [Charwood goblin](../monsters/charwdg4.md#v-charwdgg), [Drashad](../monsters/drashad.md), [Erethori](../monsters/erethori.md), [Falothen](../monsters/falothen0.md), [Falothen](../monsters/falothen0.md#v-falothen1), [Fayvara](../monsters/fayvara0.md) +6 |
 | **Locations** | [Minerhouse 0](../maps/minerhouse0.md), [Minerhouse 7](../maps/minerhouse7.md), [Tradehouse 0](../maps/tradehouse0.md), [Tradehouse 0a](../maps/tradehouse0a.md) |
 | **Total XP** | 3,000 |
 | **Related quests** | 4 |

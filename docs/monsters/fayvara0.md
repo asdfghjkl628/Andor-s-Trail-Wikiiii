@@ -4,33 +4,24 @@ description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_tometik6_10.png){ .sprite } Fayvara
 
+**Where to find Fayvara:** [Charwood, Minerhouse 7](#v-fayvara0), [Tradehouse 0a](#v-fayvara1)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_tometik6_10.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) |
 | **Found in** | Charwood, Tradehouse 0a |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Fayvara. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Charwood, Minerhouse 7 { #v-fayvara0 }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`fayvara0`](#v-fayvara0) | NPC | Charwood: [Minerhouse 7](../maps/minerhouse7.md#pin-npc-fayvara0) | – |
-| [`fayvara1`](#v-fayvara1) | NPC | [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-fayvara1) | teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md) |
-
-## Charwood, Minerhouse 7 (fayvara0) { #v-fayvara0 }
-
-**Entry ID:** `fayvara0` · **Type:** NPC
-
-**Location:** Charwood: [Minerhouse 7](../maps/minerhouse7.md#pin-npc-fayvara0)
+**Where:** Charwood: [Minerhouse 7](../maps/minerhouse7.md#pin-npc-fayvara0)
 
 ### Quests
 
@@ -73,37 +64,9 @@ Set your quest stages and items, then talk to Fayvara. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (fayvara0)"
+## Tradehouse 0a { #v-fayvara1 }
 
-    | | |
-    |---|---|
-    | Entry ID | `fayvara0` |
-    | Spawn group | `fayvara0` |
-    | Loot table | – |
-    | Conversation | `fayvara0` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_tometik6:10` |
-    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "fayvara0",
-     "name": "Fayvara",
-     "iconID": "monsters_tometik6:10",
-     "unique": 1,
-     "phraseID": "fayvara0"
-    }
-    ```
-
-
-## Tradehouse 0a (fayvara1) { #v-fayvara1 }
-
-**Entry ID:** `fayvara1` · **Type:** NPC · **Role:** Teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md)
-
-**Location:** [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-fayvara1)
+**Where:** [Tradehouse 0a](../maps/tradehouse0a.md#pin-npc-fayvara1) · **Role:** Teaches [Heavy armor proficiency](../skills/armorProficiencyHeavy.md), [Light armor proficiency](../skills/armorProficiencyLight.md), [Shield proficiency](../skills/armorProficiencyShield.md), [Unarmored fighting](../skills/armorProficiencyUnarmored.md)
 
 ### Quests
 
@@ -372,17 +335,56 @@ Set your quest stages and items, then talk to Fayvara. Same rules as the game: s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 12 lines changed<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…” |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “I can teach you about using shields to your advantage, or how to best…” → “I can teach you about using shields and parrying weapons to your adva…”<br>· text: “Shields can be used in combination with your regular weapon, to block…” → “Shields can be used in combination with your regular weapon, to block…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “We very rarely teach anyone outside our settlement, Falothen and I. I…” → “We very rarely teach anyone outside our settlement, Falothen and I. I…”<br>· text: “It seems you do not have enough gold. 6000 gold it is.” → “It seems you do not have enough gold. {6000} gold it is.” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “Shields can be used in combination with your regular weapon, to block…” → “Shields can be used in combination with your regular weapon, to block…”<br>· text: “I can teach you to better withstand attacks using a shield, so that y…” → “I can teach you to better withstand attacks using a shield, or to div…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “It seems you do not have enough gold. 6000 gold it is.” → “It seems you do not have enough gold. {6000} gold it is.”<br>· text: “So I'm thinking something similar would suffice. Since as you're my f…” → “So I'm thinking something similar would suffice. Since as you're my f…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (fayvara1)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Fayvara. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `fayvara0` | NPC | [Charwood, Minerhouse 7](#v-fayvara0) |
+| `fayvara1` | NPC | [Tradehouse 0a](#v-fayvara1) |
+
+??? info "Technical information: fayvara0"
+
+    | | |
+    |---|---|
+    | Entry ID | `fayvara0` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fayvara0` |
+    | Loot table | – |
+    | Conversation | `fayvara0` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_tometik6:10` |
+    | Defined in | `res/raw/monsterlist_v070_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "fayvara0",
+     "name": "Fayvara",
+     "iconID": "monsters_tometik6:10",
+     "unique": 1,
+     "phraseID": "fayvara0"
+    }
+    ```
+
+??? info "Technical information: fayvara1"
 
     | | |
     |---|---|
     | Entry ID | `fayvara1` |
+    | Type (wiki) | NPC |
     | Spawn group | `fayvara1` |
     | Loot table | – |
     | Conversation | `fayvara1` |
@@ -401,7 +403,6 @@ Set your quest stages and items, then talk to Fayvara. Same rules as the game: s
      "phraseID": "fayvara1"
     }
     ```
-
 
 
 ## Community notes

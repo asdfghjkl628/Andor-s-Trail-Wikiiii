@@ -4,6 +4,8 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 
 # ![](../assets/icons/monsters/monsters_guynmart_2.png){ .sprite } Poisonous vine
 
+**Where to find Poisonous vine:** [Island underground 2 and 3 more](#v-poison_vine_top), [Island underground 2 and 3 more](#v-poison_vine_bottom)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_guynmart_2.png){ .sprite }</p>
@@ -15,52 +17,35 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 | **Class** | Construct |
 | **HP** | 90 |
 | **XP when defeated** | 187 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 2 |
+| **Immune to crits** | Yes |
 | **Introduced** | [v0.8.11](../versions/0.8.11.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Poisonous vine. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: appearance. Each entry has its own section below.
+## Island underground 2 and 3 more { #v-poison_vine_top }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`poison_vine_top`](#v-poison_vine_top) | Enemy | [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md) (+2 more) | – | 90 |
-| [`poison_vine_bottom`](#v-poison_vine_bottom) | Enemy | [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md) (+2 more) | – | 90 |
+**Where:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Laerothcave 0](../maps/laerothcave0.md), [Secretpassage 1](../maps/secretpassage1.md)
 
-## Island underground 2 and 3 more (poison_vine_top) { #v-poison_vine_top }
+### Combat
 
-**Entry ID:** `poison_vine_top` · **Type:** Enemy
-
-**Location:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Laerothcave 0](../maps/laerothcave0.md), [Secretpassage 1](../maps/secretpassage1.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Construct |
 | HP | 90 |
 | XP when defeated | 187 |
 | Damage | 1 to 3 |
-| Attack chance | 350 |
-| Block chance | 50 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 350 |
+| BC | 50 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 5 rounds, 90% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 4 rounds, 80% chance)
+**Its hits:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 5 rounds, 90% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 4 rounds, 80% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Locations
 
@@ -81,11 +66,76 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (poison_vine_top)"
+## Island underground 2 and 3 more (2) { #v-poison_vine_bottom }
+
+**Where:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Laerothcave 0](../maps/laerothcave0.md), [Secretpassage 1](../maps/secretpassage1.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Construct |
+| HP | 90 |
+| XP when defeated | 187 |
+| Damage | 1 to 3 |
+| AC | 350 |
+| BC | 50 |
+| DR | 2 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
+
+**Immune to critical hits.**
+
+**Its hits:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 5 rounds, 90% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 4 rounds, 80% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Island underground 2](../maps/island_underground2.md) | – | 1 | – |
+| [Island underground 3](../maps/island_underground3.md) | – | 1 | – |
+| [Laerothcave 0](../maps/laerothcave0.md) | – | 2 | – |
+| [Secretpassage 1](../maps/secretpassage1.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.11](../versions/0.8.11.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Poisonous vine. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `poison_vine_top` | Enemy | [Island underground 2 and 3 more](#v-poison_vine_top) |
+| `poison_vine_bottom` | Enemy | [Island underground 2 and 3 more](#v-poison_vine_bottom) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: poison_vine_top"
 
     | | |
     |---|---|
     | Entry ID | `poison_vine_top` |
+    | Type (wiki) | Enemy |
     | Spawn group | `vine_1` |
     | Loot table | – |
     | Conversation | – |
@@ -131,64 +181,12 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
     }
     ```
 
-
-## Island underground 2 and 3 more (poison_vine_bottom) { #v-poison_vine_bottom }
-
-**Entry ID:** `poison_vine_bottom` · **Type:** Enemy
-
-**Location:** [Island underground 2](../maps/island_underground2.md), [Island underground 3](../maps/island_underground3.md), [Laerothcave 0](../maps/laerothcave0.md), [Secretpassage 1](../maps/secretpassage1.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Construct |
-| HP | 90 |
-| XP when defeated | 187 |
-| Damage | 1 to 3 |
-| Attack chance | 350 |
-| Block chance | 50 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-**On hit:** On target: [Weak Poison](../conditions/poison_weak.md) (magnitude 3, 5 rounds, 90% chance); [Blistering skin](../conditions/blister.md) (magnitude 3, 4 rounds, 80% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Island underground 2](../maps/island_underground2.md) | – | 1 | – |
-| [Island underground 3](../maps/island_underground3.md) | – | 1 | – |
-| [Laerothcave 0](../maps/laerothcave0.md) | – | 2 | – |
-| [Secretpassage 1](../maps/secretpassage1.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.11](../versions/0.8.11.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (poison_vine_bottom)"
+??? info "Technical information: poison_vine_bottom"
 
     | | |
     |---|---|
     | Entry ID | `poison_vine_bottom` |
+    | Type (wiki) | Enemy |
     | Spawn group | `vine_2` |
     | Loot table | – |
     | Conversation | – |
@@ -233,16 +231,6 @@ description: "Poisonous vine is an enemy in Andor's Trail (construct) with 90 HP
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

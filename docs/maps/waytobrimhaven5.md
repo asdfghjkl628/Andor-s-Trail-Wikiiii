@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven 5 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Rabid hound, Young erumen lizard, Spotted erumen lizard. Exits to Waytobrimhaven 6, Waytobrimhaven 4."
+description: "Waytobrimhaven 5 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Rabid hound, Spotted erumen lizard, Young erumen lizard. Exits to Waytobrimhaven 6, Waytobrimhaven 4."
 ---
 
 # Waytobrimhaven 5
@@ -49,8 +49,8 @@ description: "Waytobrimhaven 5 is an outdoor location in Andor's Trail, near Bri
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 3 | – |
-| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
 | [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
+| [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

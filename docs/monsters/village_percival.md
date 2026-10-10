@@ -4,32 +4,23 @@ description: "Percival is a non-player character (NPC) in Andor's Trail, found i
 
 # ![](../assets/icons/monsters/monsters_ld1_140.png){ .sprite } Percival
 
+**Where to find Percival:** [Wexlow Village, Wexlow village south-east house](#v-village_percival), [Gamjee well 4 1 and 1 more](#v-troll_hollow_percival)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_140.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Wexlow Village, Gamjee well 4 1, Gamjee well jail cells |
-| **Entries in game data** | 2 |
 | **Introduced** | [v0.8.12.1](../versions/0.8.12.1.md) |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Percival. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location. Each entry has its own section below.
+## Wexlow Village, Wexlow village south-east house { #v-village_percival }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`village_percival`](#v-village_percival) | NPC | Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_percival) | – |
-| [`troll_hollow_percival`](#v-troll_hollow_percival) | NPC | [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival) | – |
-
-## Wexlow Village, Wexlow village south-east house (village_percival) { #v-village_percival }
-
-**Entry ID:** `village_percival` · **Type:** NPC
-
-**Location:** Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_percival)
+**Where:** Wexlow Village: [Wexlow village south-east house](../maps/wexlow_village_se_house.md#pin-npc-village_percival)
 
 ### Dialogue simulator
 
@@ -75,39 +66,9 @@ Set your quest stages and items, then talk to Percival. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (village_percival)"
+## Gamjee well 4 1 and 1 more { #v-troll_hollow_percival }
 
-    | | |
-    |---|---|
-    | Entry ID | `village_percival` |
-    | Spawn group | `village_percival` |
-    | Loot table | – |
-    | Conversation | `village_percival_start` |
-    | Faction | – |
-    | Movement | none |
-    | Icon | `monsters_ld1:140` |
-    | Defined in | `res/raw/monsterlist_feygard_1.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "village_percival",
-     "name": "Percival",
-     "iconID": "monsters_ld1:140",
-     "unique": 1,
-     "monsterClass": "humanoid",
-     "movementAggressionType": "none",
-     "phraseID": "village_percival_start"
-    }
-    ```
-
-
-## Gamjee well 4 1 and 1 more (troll_hollow_percival) { #v-troll_hollow_percival }
-
-**Entry ID:** `troll_hollow_percival` · **Type:** NPC
-
-**Location:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival)
+**Where:** [Gamjee well 4 1](../maps/gamjee_well_4_1.md#pin-npc-troll_hollow_percival), [Gamjee well jail cells](../maps/gamjee_well_jail_cells.md#pin-npc-troll_hollow_percival)
 
 ### Locations
 
@@ -142,11 +103,52 @@ Set your quest stages and items, then talk to Percival. Same rules as the game: 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (troll_hollow_percival)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Percival. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location.
+
+| Entry | Type | Section |
+|---|---|---|
+| `village_percival` | NPC | [Wexlow Village, Wexlow village south-east house](#v-village_percival) |
+| `troll_hollow_percival` | NPC | [Gamjee well 4 1 and 1 more](#v-troll_hollow_percival) |
+
+??? info "Technical information: village_percival"
+
+    | | |
+    |---|---|
+    | Entry ID | `village_percival` |
+    | Type (wiki) | NPC |
+    | Spawn group | `village_percival` |
+    | Loot table | – |
+    | Conversation | `village_percival_start` |
+    | Faction | – |
+    | Movement | none |
+    | Icon | `monsters_ld1:140` |
+    | Defined in | `res/raw/monsterlist_feygard_1.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "village_percival",
+     "name": "Percival",
+     "iconID": "monsters_ld1:140",
+     "unique": 1,
+     "monsterClass": "humanoid",
+     "movementAggressionType": "none",
+     "phraseID": "village_percival_start"
+    }
+    ```
+
+??? info "Technical information: troll_hollow_percival"
 
     | | |
     |---|---|
     | Entry ID | `troll_hollow_percival` |
+    | Type (wiki) | NPC |
     | Spawn group | `troll_hollow_percival` |
     | Loot table | – |
     | Conversation | `perciva_int_phrasel` |
@@ -169,7 +171,6 @@ Set your quest stages and items, then talk to Percival. Same rules as the game: 
      "phraseID": "perciva_int_phrasel"
     }
     ```
-
 
 
 ## Community notes

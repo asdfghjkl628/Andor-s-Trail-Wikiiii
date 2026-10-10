@@ -17,32 +17,26 @@ description: "Forest fawn is an enemy in Andor's Trail (animal) with 120 HP, wor
 | **Class** | Animal |
 | **HP** | 120 |
 | **XP when defeated** | 261 |
-| **Entry ID** | `brightport_sickfawn` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Animal |
 | HP | 120 |
 | XP when defeated | 261 |
 | Damage | 3 to 13 |
-| Attack chance | 165 |
-| Block chance | 144 |
-| Damage resistance | 4 |
-| Max AP | 14 |
-| Attack cost | 8 AP |
-| Attacks per turn | 1 |
-| Move cost | 7 AP |
-| Critical skill | 10 |
-| Critical multiplier | 1.0 |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 165 |
+| BC | 144 |
+| DR | 4 |
+| Attacks per turn | 1 (8 AP each, 14 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -74,11 +68,24 @@ description: "Forest fawn is an enemy in Andor's Trail (animal) with 120 HP, wor
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_sickfawn` |
+    | Type (wiki) | Enemy |
     | Spawn group | `brightport_sickfawn` |
     | Loot table | `brightport_deer` |
     | Conversation | – |
@@ -112,15 +119,6 @@ description: "Forest fawn is an enemy in Andor's Trail (animal) with 120 HP, wor
      "damageResistance": 4
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

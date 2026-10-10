@@ -17,34 +17,28 @@ description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) wit
 | **Class** | Humanoid |
 | **HP** | 236 |
 | **XP when defeated** | 572 |
-| **Entry ID** | `young_spearborn_thrall` |
 | **Introduced** | [v0.8.13](../versions/0.8.13.md) |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 236 |
 | XP when defeated | 572 |
 | Damage | 10 to 11 |
-| Attack chance | 170 |
-| Block chance | 165 |
-| Damage resistance | 8 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 7 |
-| Critical multiplier | 1.5 |
-| Critical hit chance | 6% |
+| AC | 170 |
+| BC | 165 |
+| DR | 8 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | 6% (×1.5) |
 
-**On hit:** Restore AP: 1
+**Its hits:** Restore AP: 1
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -70,11 +64,24 @@ description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) wit
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `young_spearborn_thrall` |
+    | Type (wiki) | Enemy |
     | Spawn group | `young_spearborn_thrall` |
     | Loot table | `molten_pyreling_dl` |
     | Conversation | – |
@@ -114,15 +121,6 @@ description: "Young spearborn thrall is an enemy in Andor's Trail (humanoid) wit
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

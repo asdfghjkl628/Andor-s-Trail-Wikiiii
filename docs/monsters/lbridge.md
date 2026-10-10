@@ -1,5 +1,5 @@
 ---
-description: "Guardian of the bridge is an NPC who can also be fought in Andor's Trail, found in Lodar 8."
+description: "Guardian of the bridge is an NPC you can also fight in Andor's Trail, found in Lodar 8."
 ---
 
 # ![](../assets/icons/monsters/monsters_tometik5_23.png){ .sprite } Guardian of the bridge
@@ -12,42 +12,36 @@ description: "Guardian of the bridge is an NPC who can also be fought in Andor's
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Lodar 8 |
 | **Class** | Giant |
 | **HP** | 213 |
 | **XP when defeated** | 575 |
-| **Entry ID** | `lbridge` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Guardian of the bridge"
+    Answering “Fight!” starts a fight with Guardian of the bridge.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 213 |
 | XP when defeated | 575 |
 | Damage | 5 to 15 |
-| Attack chance | 127 |
-| Block chance | 153 |
-| Damage resistance | 9 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 35 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 21% |
+| AC | 127 |
+| BC | 153 |
+| DR | 9 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 21% (×2.0) |
 
-**On hit:** Heal HP: 1; On target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 7 rounds, 30% chance)
+**Its hits:** Heal HP: 1; On target: [Minor fatigue](../conditions/fatigue_minor.md) (magnitude 1, 7 rounds, 30% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -57,12 +51,6 @@ description: "Guardian of the bridge is an NPC who can also be fought in Andor's
 | [Liquid courage](../items/pot_courage.md) | 5% | 1 |
 | [Greataxe of shattered hope](../items/graxe_shatter.md) | 100% | 1 |
 | [Regular potion of health](../items/health.md) | 100% | 3 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Lodar 8](../maps/lodar8.md) | – | 1 | – |
 
 ## Dialogue simulator
 
@@ -92,11 +80,24 @@ Set your quest stages and items, then talk to Guardian of the bridge. Same rules
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `lbridge` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lbridge` |
     | Loot table | `lbridge` |
     | Conversation | `lbridge` |
@@ -144,15 +145,6 @@ Set your quest stages and items, then talk to Guardian of the bridge. Same rules
      }
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

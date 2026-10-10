@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 36 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Wyrm trainer, Wyrm apprentice. Exits to Blackwater mountain 32, Blackwater mountain 37."
+description: "Blackwater mountain 36 is an indoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Wyrm apprentice, Wyrm trainer. Exits to Blackwater mountain 32, Blackwater mountain 37."
 ---
 
 # Blackwater mountain 36
@@ -48,8 +48,8 @@ description: "Blackwater mountain 36 is an indoor location in Andor's Trail, in 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Wyrm trainer](../monsters/wyrm_trainer.md) | 69 | 2–9 | 4 | shares spawn with Wyrm apprentice |
 | [Wyrm apprentice](../monsters/wyrm_apprentice.md) | 69 | 2–9 | 4 | shares spawn with Wyrm trainer |
+| [Wyrm trainer](../monsters/wyrm_trainer.md) | 69 | 2–9 | 4 | shares spawn with Wyrm apprentice |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

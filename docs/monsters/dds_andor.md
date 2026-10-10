@@ -1,8 +1,10 @@
 ---
-description: "Andor is an NPC who can also be fought in Andor's Trail, found in Road 5 house, Wayto feygard duleian 2, Final cave 1, Final cave 2, Mt. Galmore."
+description: "Andor is an NPC you can also fight in Andor's Trail, found in Road 5 house, Wayto feygard duleian 2, Final cave 1, Final cave 2, Mt. Galmore."
 ---
 
 # ![](../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite } Andor
+
+**Where to find Andor:** [Road 5 house and 1 more](#v-dds_andor), [Final cave 1](#v-lae_andor2), [Final cave 2](#v-lae_andor3), [Mt. Galmore, Galmore 52 and 1 more](#v-mg2_andor)
 
 <div class="infobox" markdown>
 
@@ -10,31 +12,18 @@ description: "Andor is an NPC who can also be fought in Andor's Trail, found in 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Road 5 house, Wayto feygard duleian 2, Final cave 1, Final cave 2, Mt. Galmore |
 | **Class** | Humanoid |
 | **HP** | 200 |
 | **XP when defeated** | 258 |
-| **Entries in game data** | 4 |
 | **Introduced** | [v0.8.14](../versions/0.8.14.md) |
 
 </div>
 
-!!! info "4 entries in the game data"
-    The game data defines 4 separate characters named Andor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, combat statistics, loot or shop stock, faction, movement. Each entry has its own section below.
+## Road 5 house and 1 more { #v-dds_andor }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`dds_andor`](#v-dds_andor) | NPC | [Road 5 house](../maps/road5_house.md#pin-npc-dds_andor), [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor) | – | – |
-| [`lae_andor2`](#v-lae_andor2) | NPC | [Final cave 1](../maps/final_cave1.md#pin-npc-lae_andor2) | – | – |
-| [`lae_andor3`](#v-lae_andor3) | NPC/Enemy | [Final cave 2](../maps/final_cave2.md#pin-npc-lae_andor3) | – | 200 |
-| [`mg2_andor`](#v-mg2_andor) | Scenery | Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md) | – | – |
-
-## Road 5 house and 1 more (dds_andor) { #v-dds_andor }
-
-**Entry ID:** `dds_andor` · **Type:** NPC
-
-**Location:** [Road 5 house](../maps/road5_house.md#pin-npc-dds_andor), [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor)
+**Where:** [Road 5 house](../maps/road5_house.md#pin-npc-dds_andor), [Wayto feygard duleian 2](../maps/wayto_feygard_duleian_2.md#pin-npc-dds_andor)
 
 ### Locations
 
@@ -122,38 +111,9 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (dds_andor)"
+## Final cave 1 { #v-lae_andor2 }
 
-    | | |
-    |---|---|
-    | Entry ID | `dds_andor` |
-    | Spawn group | `dds_andor` |
-    | Loot table | – |
-    | Conversation | `dds_andor` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_maksiu1:1` |
-    | Defined in | `res/raw/monsterlist_darknessanddaylight.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "dds_andor",
-     "name": "Andor",
-     "iconID": "monsters_maksiu1:1",
-     "monsterClass": "humanoid",
-     "spawnGroup": "dds_andor",
-     "phraseID": "dds_andor"
-    }
-    ```
-
-
-## Final cave 1 (lae_andor2) { #v-lae_andor2 }
-
-**Entry ID:** `lae_andor2` · **Type:** NPC
-
-**Location:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_andor2)
+**Where:** [Final cave 1](../maps/final_cave1.md#pin-npc-lae_andor2)
 
 ### Quests
 
@@ -210,75 +170,35 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_andor2)"
+## Final cave 2 { #v-lae_andor3 }
 
-    | | |
-    |---|---|
-    | Entry ID | `lae_andor2` |
-    | Spawn group | `lae_andor2` |
-    | Loot table | – |
-    | Conversation | `lae_algangror2` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_maksiu1:1` |
-    | Defined in | `res/raw/monsterlist_laeroth.json` |
+**Where:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_andor3)
 
-    Raw data:
+!!! warning "You can fight Andor"
+    Andor turns hostile if you fall out with their faction.
 
-    ```json
-    {
-     "id": "lae_andor2",
-     "name": "Andor",
-     "iconID": "monsters_maksiu1:1",
-     "monsterClass": "humanoid",
-     "spawnGroup": "lae_andor2",
-     "phraseID": "lae_algangror2"
-    }
-    ```
+### Combat
 
-
-## Final cave 2 (lae_andor3) { #v-lae_andor3 }
-
-**Entry ID:** `lae_andor3` · **Type:** NPC/Enemy
-
-**Location:** [Final cave 2](../maps/final_cave2.md#pin-npc-lae_andor3)
-
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: this character belongs to the faction `lae_andor3`, and the game treats members of a faction as hostile once your standing with that faction drops below zero.
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 200 |
 | XP when defeated | 258 |
 | Damage | 10 to 22 |
-| Attack chance | 70 |
-| Block chance | 50 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 4 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 70 |
+| BC | 50 |
+| DR | 0 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
 | Item | Chance | Qty |
 |---|---|---|
 | [Gold coins](../items/gold.md) | 100% | 10 to 100 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Final cave 2](../maps/final_cave2.md) | – | 1 | – |
 
 ### Dialogue simulator
 
@@ -306,11 +226,112 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (lae_andor3)"
+## Mt. Galmore, Galmore 52 and 1 more { #v-mg2_andor }
+
+**Where:** Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md)
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 1 | Appears later, during a quest |
+| [Galmore 72](../maps/galmore_72.md) | – | 1 | Appears later, during a quest |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.8.14](../versions/0.8.14.md) | Added |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**4 entries.** The game data defines 4 separate characters named Andor. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, combat statistics, loot or shop stock, faction, movement.
+
+| Entry | Type | Section |
+|---|---|---|
+| `dds_andor` | NPC | [Road 5 house and 1 more](#v-dds_andor) |
+| `lae_andor2` | NPC | [Final cave 1](#v-lae_andor2) |
+| `lae_andor3` | NPC/Enemy | [Final cave 2](#v-lae_andor3) |
+| `mg2_andor` | Scenery | [Mt. Galmore, Galmore 52 and 1 more](#v-mg2_andor) |
+
+- `lae_andor3` belongs to the faction `lae_andor3`. The game treats any character as hostile once your standing with its faction is below zero.
+- `mg2_andor` has no conversation and no combat statistics. Other conversations use it as their speaker (the `switchToNPC` field), which is how its name and picture appear in dialogue. The game data also places it on Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md).
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: dds_andor"
+
+    | | |
+    |---|---|
+    | Entry ID | `dds_andor` |
+    | Type (wiki) | NPC |
+    | Spawn group | `dds_andor` |
+    | Loot table | – |
+    | Conversation | `dds_andor` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_maksiu1:1` |
+    | Defined in | `res/raw/monsterlist_darknessanddaylight.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "dds_andor",
+     "name": "Andor",
+     "iconID": "monsters_maksiu1:1",
+     "monsterClass": "humanoid",
+     "spawnGroup": "dds_andor",
+     "phraseID": "dds_andor"
+    }
+    ```
+
+??? info "Technical information: lae_andor2"
+
+    | | |
+    |---|---|
+    | Entry ID | `lae_andor2` |
+    | Type (wiki) | NPC |
+    | Spawn group | `lae_andor2` |
+    | Loot table | – |
+    | Conversation | `lae_algangror2` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_maksiu1:1` |
+    | Defined in | `res/raw/monsterlist_laeroth.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "lae_andor2",
+     "name": "Andor",
+     "iconID": "monsters_maksiu1:1",
+     "monsterClass": "humanoid",
+     "spawnGroup": "lae_andor2",
+     "phraseID": "lae_algangror2"
+    }
+    ```
+
+??? info "Technical information: lae_andor3"
 
     | | |
     |---|---|
     | Entry ID | `lae_andor3` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `lae_andor3` |
     | Loot table | `lae_andor3` |
     | Conversation | `lae_andor3` |
@@ -345,38 +366,12 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
     }
     ```
 
-
-## Mt. Galmore, Galmore 52 and 1 more (mg2_andor) { #v-mg2_andor }
-
-**Entry ID:** `mg2_andor` · **Type:** Scenery
-
-**Location:** Mt. Galmore: [Galmore 52](../maps/galmore_52.md), [Galmore 72](../maps/galmore_72.md)
-
-!!! note "Scenery"
-    No conversation and no combat statistics: a decoration, an animal or a figure in a scripted scene that also speaks lines in someone else's dialogue.
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Galmore 52](../maps/galmore_52.md) | Mt. Galmore | 1 | Appears later, during a quest |
-| [Galmore 72](../maps/galmore_72.md) | – | 1 | Appears later, during a quest |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.8.14](../versions/0.8.14.md) | Added |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (mg2_andor)"
+??? info "Technical information: mg2_andor"
 
     | | |
     |---|---|
     | Entry ID | `mg2_andor` |
+    | Type (wiki) | Scenery |
     | Spawn group | `mg2_andor` |
     | Loot table | – |
     | Conversation | – |
@@ -396,16 +391,6 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
      "spawnGroup": "mg2_andor"
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

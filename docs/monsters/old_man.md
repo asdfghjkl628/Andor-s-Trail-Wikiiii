@@ -4,33 +4,24 @@ description: "Old man is a non-player character (NPC) in Andor's Trail, found in
 
 # ![](../assets/icons/monsters/monsters_men_5.png){ .sprite } Old man
 
+**Where to find Old man:** [Fallhaven, Fallhaven north-west](#v-old_man), [Guynmart Castle, Guynmart wood 10](#v-guynmart_wise)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_men_5.png){ .sprite }</p>
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Starts [Calomyran secrets](../quests/calomyran.md); starts [Rare delicacies](../quests/guynmart_wise.md) |
 | **Found in** | Fallhaven, Guynmart Castle |
-| **Entries in game data** | 2 |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Old man. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: conversation, location, appearance. Each entry has its own section below.
+## Fallhaven, Fallhaven north-west { #v-old_man }
 
-| Entry | Type | Location | Role |
-|---|---|---|---|
-| [`old_man`](#v-old_man) | NPC | Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-old_man) | starts [Calomyran secrets](../quests/calomyran.md) |
-| [`guynmart_wise`](#v-guynmart_wise) | NPC | Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise) | starts [Rare delicacies](../quests/guynmart_wise.md) |
-
-## Fallhaven, Fallhaven north-west (old_man) { #v-old_man }
-
-**Entry ID:** `old_man` · **Type:** NPC · **Role:** Starts [Calomyran secrets](../quests/calomyran.md)
-
-**Location:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-old_man)
+**Where:** Fallhaven: [Fallhaven north-west](../maps/fallhaven_nw.md#pin-npc-old_man) · **Role:** Starts [Calomyran secrets](../quests/calomyran.md)
 
 ### Quests
 
@@ -144,38 +135,9 @@ Set your quest stages and items, then talk to Old man. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (old_man)"
+## Guynmart Castle, Guynmart wood 10 { #v-guynmart_wise }
 
-    | | |
-    |---|---|
-    | Entry ID | `old_man` |
-    | Spawn group | `fallhaven_oldman` |
-    | Loot table | – |
-    | Conversation | `fallhaven_oldman` |
-    | Faction | – |
-    | Movement | – |
-    | Icon | `monsters_men:5` |
-    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
-
-    Raw data:
-
-    ```json
-    {
-     "id": "old_man",
-     "name": "Old man",
-     "iconID": "monsters_men:5",
-     "monsterClass": "humanoid",
-     "spawnGroup": "fallhaven_oldman",
-     "phraseID": "fallhaven_oldman"
-    }
-    ```
-
-
-## Guynmart Castle, Guynmart wood 10 (guynmart_wise) { #v-guynmart_wise }
-
-**Entry ID:** `guynmart_wise` · **Type:** NPC · **Role:** Starts [Rare delicacies](../quests/guynmart_wise.md)
-
-**Location:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise)
+**Where:** Guynmart Castle: [Guynmart wood 10](../maps/guynmart_wood_10.md#pin-npc-guynmart_wise) · **Role:** Starts [Rare delicacies](../quests/guynmart_wise.md)
 
 ### Quests
 
@@ -400,11 +362,51 @@ Set your quest stages and items, then talk to Old man. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (guynmart_wise)"
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Old man. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: conversation, location, appearance.
+
+| Entry | Type | Section |
+|---|---|---|
+| `old_man` | NPC | [Fallhaven, Fallhaven north-west](#v-old_man) |
+| `guynmart_wise` | NPC | [Guynmart Castle, Guynmart wood 10](#v-guynmart_wise) |
+
+??? info "Technical information: old_man"
+
+    | | |
+    |---|---|
+    | Entry ID | `old_man` |
+    | Type (wiki) | NPC |
+    | Spawn group | `fallhaven_oldman` |
+    | Loot table | – |
+    | Conversation | `fallhaven_oldman` |
+    | Faction | – |
+    | Movement | – |
+    | Icon | `monsters_men:5` |
+    | Defined in | `res/raw/monsterlist_fallhaven_npcs.json` |
+
+    Raw data:
+
+    ```json
+    {
+     "id": "old_man",
+     "name": "Old man",
+     "iconID": "monsters_men:5",
+     "monsterClass": "humanoid",
+     "spawnGroup": "fallhaven_oldman",
+     "phraseID": "fallhaven_oldman"
+    }
+    ```
+
+??? info "Technical information: guynmart_wise"
 
     | | |
     |---|---|
     | Entry ID | `guynmart_wise` |
+    | Type (wiki) | NPC |
     | Spawn group | `guynmart_wise` |
     | Loot table | – |
     | Conversation | `guynmart_wise_10` |
@@ -425,7 +427,6 @@ Set your quest stages and items, then talk to Old man. Same rules as the game: s
      "phraseID": "guynmart_wise_10"
     }
     ```
-
 
 
 ## Community notes

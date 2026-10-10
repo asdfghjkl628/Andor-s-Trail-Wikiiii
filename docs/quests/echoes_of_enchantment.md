@@ -12,7 +12,7 @@ description: "Echoes of enchantment is a quest in Andor's Trail, started by step
 | **In journal** | Yes |
 | **Stages** | 14 (completes at 14) |
 | **Started by** | stepping on a trigger on [Wexlow village](../maps/wexlow_village.md) |
-| **NPCs involved** | [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Gamjee](../monsters/gamjee.md), [Godelieve](../monsters/village_godelieve.md) |
+| **NPCs involved** | [Gamjee](../monsters/gamjee.md), [Gamjee](../monsters/gamjee.md#v-gamjee_oc), [Godelieve](../monsters/village_godelieve.md) |
 | **Locations** | [Gamjee well 4 1](../maps/gamjee_well_4_1.md), [Wexlow village north-west house](../maps/wexlow_village_nw_house.md) |
 | **Total XP** | 5,200 |
 | **Related quests** | 1 |

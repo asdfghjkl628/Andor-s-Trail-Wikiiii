@@ -12,10 +12,9 @@ description: "Troublemaker is a non-player character (NPC) in Andor's Trail, fou
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Role** | Shopkeeper |
 | **Found in** | Fallhaven |
-| **Entry ID** | `troublemaker` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -342,17 +341,22 @@ Set your quest stages and items, then talk to Troublemaker. Same rules as the ga
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 20 lines added, 1 line changed |
 | [v0.8.10](../versions/0.8.10.md) | Dialogue: 1 line changed<br>· text: “You can find the empty house just south east of here. Enter it and yo…” → “You can find the empty house just southwest of here. Enter it and you…” |
-| [v0.8.14](../versions/0.8.14.md) | Dialogue: 6 lines changed<br>· text: “Can you prove this? Can you show me something that proves that all 4 …” → “Can you prove this? Can you show me something that proves that all fo…”<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …” |
+| [v0.8.14](../versions/0.8.14.md) | Dialogue: 6 lines changed<br>· text: “Well, this is great news indeed. We however would like to have them a…” → “Well, this is great news indeed. However, we would like to have them …”<br>· text: “Can you prove this? Can you show me something that proves that all 4 …” → “Can you prove this? Can you show me something that proves that all fo…” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `troublemaker` |
+    | Type (wiki) | NPC |
     | Spawn group | `troublemaker` |
     | Loot table | `shop_troublemaker` |
     | Conversation | `troublemaker_selector` |

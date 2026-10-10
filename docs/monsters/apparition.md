@@ -17,36 +17,29 @@ description: "Apparition is an enemy in Andor's Trail (ghost) with 17 HP, worth 
 | **Class** | Ghost |
 | **HP** | 17 |
 | **XP when defeated** | 33 |
-| **Immune to critical hits** | Yes |
-| **Entry ID** | `apparition` |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Ghost |
 | HP | 17 |
 | XP when defeated | 33 |
 | Damage | 1 to 5 |
-| Attack chance | 0 |
-| Block chance | 70 |
-| Damage resistance | 2 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 10 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 0 |
+| BC | 70 |
+| DR | 2 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | none |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -76,11 +69,24 @@ description: "Apparition is an enemy in Andor's Trail (ghost) with 17 HP, worth 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `apparition` |
+    | Type (wiki) | Enemy |
     | Spawn group | `catacombguard3` |
     | Loot table | `catacombguard` |
     | Conversation | – |
@@ -111,15 +117,6 @@ description: "Apparition is an enemy in Andor's Trail (ghost) with 17 HP, worth 
      "damageResistance": 2
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

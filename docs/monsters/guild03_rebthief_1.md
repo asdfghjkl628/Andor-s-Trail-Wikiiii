@@ -1,5 +1,5 @@
 ---
-description: "Rebelled thief is an NPC who can also be fought in Andor's Trail, found in Crackshot hideout 2, Crackshot hideout 3."
+description: "Rebelled thief is an NPC you can also fight in Andor's Trail, found in Crackshot hideout 2, Crackshot hideout 3."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_65.png){ .sprite } Rebelled thief
@@ -12,40 +12,36 @@ description: "Rebelled thief is an NPC who can also be fought in Andor's Trail, 
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Crackshot hideout 2, Crackshot hideout 3 |
 | **Class** | Humanoid |
 | **HP** | 60 |
 | **XP when defeated** | 114 |
-| **Entry ID** | `guild03_rebthief_1` |
 | **Introduced** | [v0.7.8](../versions/0.7.8.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Rebelled thief"
+    Answering “The people you've killed will be avenged.” starts a fight with Rebelled thief.
 
-## Combat statistics
+    Rebelled thief turns hostile if you fall out with their faction.
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 60 |
 | XP when defeated | 114 |
 | Damage | 3 to 8 |
-| Attack chance | 105 |
-| Block chance | 85 |
-| Damage resistance | 1 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 10 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 9% |
+| AC | 105 |
+| BC | 85 |
+| DR | 1 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | 9% (×2.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -91,11 +87,26 @@ Set your quest stages and items, then talk to Rebelled thief. Same rules as the 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `guild03_rebthief_1` belongs to the faction `rebthief_guild03_1`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `guild03_rebthief_1` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `g03_thief_1` |
     | Loot table | `drop_g03_rebthief_1` |
     | Conversation | `rebthief_guild03_1` |
@@ -132,15 +143,6 @@ Set your quest stages and items, then talk to Rebelled thief. Same rules as the 
      "damageResistance": 1
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

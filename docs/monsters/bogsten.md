@@ -1,5 +1,5 @@
 ---
-description: "Bogsten is an NPC who can also be fought in Andor's Trail, found in Bogsten 1. Starts Fungi panic."
+description: "Bogsten is an NPC you can also fight in Andor's Trail, found in Bogsten 1. Starts Fungi panic."
 ---
 
 # ![](../assets/icons/monsters/monsters_rltiles1_77.png){ .sprite } Bogsten
@@ -12,41 +12,35 @@ description: "Bogsten is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Fungi panic](../quests/fungi_panic.md) |
 | **Found in** | Bogsten 1 |
 | **Class** | Humanoid |
 | **HP** | 35 |
 | **XP when defeated** | 53 |
-| **Entry ID** | `bogsten` |
 | **Introduced** | [v0.7.13](../versions/0.7.13.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Bogsten"
+    Answering “Enough talk, time to die.” starts a fight with Bogsten.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 35 |
 | XP when defeated | 53 |
 | Damage | 3 to 6 |
-| Attack chance | 110 |
-| Block chance | 30 |
-| Damage resistance | 0 |
-| Max AP | 10 |
-| Attack cost | 5 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 110 |
+| BC | 30 |
+| DR | 0 |
+| Attacks per turn | 2 (5 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -56,12 +50,6 @@ description: "Bogsten is an NPC who can also be fought in Andor's Trail, found i
 | [Gold coins](../items/gold.md) | 100% | 1 to 10 |
 | [Small empty vial](../items/vial_empty1.md) | 25% | 100 to 200 |
 | [Bag with mushrooms](../items/fungi_panic_bag.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Bogsten 1](../maps/bogsten1.md) | – | 1 | – |
 
 ## Quests that count defeats
 
@@ -342,11 +330,24 @@ Set your quest stages and items, then talk to Bogsten. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `bogsten` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `bogsten` |
     | Loot table | `bogsten` |
     | Conversation | `bogsten_start_select` |
@@ -379,15 +380,6 @@ Set your quest stages and items, then talk to Bogsten. Same rules as the game: s
      "blockChance": 30
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

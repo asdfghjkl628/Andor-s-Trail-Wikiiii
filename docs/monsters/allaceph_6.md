@@ -4,6 +4,8 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 
 # ![](../assets/icons/monsters/monsters_rltiles2_103.png){ .sprite } Ancient allaceph
 
+**Where to find Ancient allaceph:** [Waytobrimhavencave 3 and 2 more](#v-allaceph_6), [Waytobrimhavencave 3](#v-allaceph_cr)
+
 <div class="infobox" markdown>
 
 <p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_103.png){ .sprite }</p>
@@ -15,52 +17,35 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 | **Class** | Demon |
 | **HP** | 133–333 |
 | **XP when defeated** | 315–616 |
-| **Immune to critical hits** | Yes |
-| **Entries in game data** | 2 |
+| **Immune to crits** | Yes |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! info "2 entries in the game data"
-    The game data defines 2 separate characters named Ancient allaceph. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another location, other stats). Some are the same person at different story points; others just share a generic name. Here the entries differ in: location, combat statistics, loot or shop stock. Each entry has its own section below.
+## Waytobrimhavencave 3 and 2 more { #v-allaceph_6 }
 
-| Entry | Type | Location | Role | HP |
-|---|---|---|---|---|
-| [`allaceph_6`](#v-allaceph_6) | Enemy | [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md), [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md) (+1 more) | – | 133 |
-| [`allaceph_cr`](#v-allaceph_cr) | Enemy | [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 333 |
+**Where:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md), [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md), [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md)
 
-## Waytobrimhavencave 3 and 2 more (allaceph_6) { #v-allaceph_6 }
+### Combat
 
-**Entry ID:** `allaceph_6` · **Type:** Enemy
-
-**Location:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md), [Waytobrimhavencave 3a](../maps/waytobrimhavencave3a.md), [Waytobrimhavencave 3b](../maps/waytobrimhavencave3b.md)
-
-### Combat statistics
-
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Demon |
 | HP | 133 |
 | XP when defeated | 315 |
 | Damage | 3 to 7 |
-| Attack chance | 80 |
-| Block chance | 115 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
+| AC | 80 |
+| BC | 115 |
+| DR | 3 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
 
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
+**Immune to critical hits.**
 
-**On hit:** Heal HP: 7; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
+**Its hits:** Heal HP: 7; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ### Drops
 
@@ -90,11 +75,80 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
-??? info "Technical information (allaceph_6)"
+## Waytobrimhavencave 3 { #v-allaceph_cr }
+
+**Where:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md)
+
+### Combat
+
+| | |
+|---|---|
+| Class | Demon |
+| HP | 333 |
+| XP when defeated | 616 |
+| Damage | 3 to 7 |
+| AC | 80 |
+| BC | 115 |
+| DR | 3 |
+| Attacks per turn | 3 (3 AP each, 10 AP) |
+| Crit chance | 23% (×2.0) |
+
+**Immune to critical hits.**
+
+**Its hits:** Heal HP: 7; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
+
+
+<p class="verified">Verified against v0.8.18 monster data.</p>
+
+### Drops
+
+| Item | Chance | Qty |
+|---|---|---|
+| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
+
+### Locations
+
+| Map | Region | Up to | Notes |
+|---|---|---|---|
+| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 1 | – |
+
+
+### Version history
+
+| Version | Change |
+|---|---|
+| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Renamed “Ancient Allaceph” → “Ancient allaceph” |
+
+<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
+
+
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+**2 entries.** The game data defines 2 separate characters named Ancient allaceph. The game makes a new entry whenever a character needs different behaviour (another conversation later in a quest, another place, other stats). Some are the same person at different points in the story; others just share a generic name. Here they differ in: location, combat statistics, loot or shop stock.
+
+| Entry | Type | Section |
+|---|---|---|
+| `allaceph_6` | Enemy | [Waytobrimhavencave 3 and 2 more](#v-allaceph_6) |
+| `allaceph_cr` | Enemy | [Waytobrimhavencave 3](#v-allaceph_cr) |
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
+??? info "Technical information: allaceph_6"
 
     | | |
     |---|---|
     | Entry ID | `allaceph_6` |
+    | Type (wiki) | Enemy |
     | Spawn group | `allaceph_3` |
     | Loot table | `allaceph_b` |
     | Conversation | – |
@@ -143,68 +197,12 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
     }
     ```
 
-
-## Waytobrimhavencave 3 (allaceph_cr) { #v-allaceph_cr }
-
-**Entry ID:** `allaceph_cr` · **Type:** Enemy
-
-**Location:** [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md)
-
-### Combat statistics
-
-| Statistic | Value |
-|---|---|
-| Class | Demon |
-| HP | 333 |
-| XP when defeated | 616 |
-| Damage | 3 to 7 |
-| Attack chance | 80 |
-| Block chance | 115 |
-| Damage resistance | 3 |
-| Max AP | 10 |
-| Attack cost | 3 AP |
-| Attacks per turn | 3 |
-| Move cost | 5 AP |
-| Critical skill | 40 |
-| Critical multiplier | 2.0 |
-| Critical hit chance | 23% |
-
-!!! note "Immune to critical hits"
-    Ghosts, constructs and demons cannot receive critical hits.
-
-**On hit:** Heal HP: 7; On target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance)
-
-
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-### Drops
-
-| Item | Chance | Qty |
-|---|---|---|
-| [Oegyth crystal](../items/oegyth.md) | 100% | 1 |
-
-### Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Waytobrimhavencave 3](../maps/waytobrimhavencave3.md) | – | 1 | – |
-
-
-### Version history
-
-| Version | Change |
-|---|---|
-| [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 3, 3 rounds, 20% chance) → (magnitude 3, 3 rounds, 20% chance)<br>Renamed “Ancient Allaceph” → “Ancient allaceph” |
-
-<p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
-
-
-??? info "Technical information (allaceph_cr)"
+??? info "Technical information: allaceph_cr"
 
     | | |
     |---|---|
     | Entry ID | `allaceph_cr` |
+    | Type (wiki) | Enemy |
     | Spawn group | `allaceph_cr` |
     | Loot table | `oegyth1` |
     | Conversation | – |
@@ -253,16 +251,6 @@ description: "Ancient allaceph is an enemy in Andor's Trail (demon) with 133–3
      }
     }
     ```
-
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

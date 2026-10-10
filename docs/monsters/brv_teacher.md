@@ -1,5 +1,5 @@
 ---
-description: "Teacher is an NPC who can also be fought in Andor's Trail, found in Brimhaven."
+description: "Teacher is an NPC you can also fight in Andor's Trail, found in Brimhaven."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_155.png){ .sprite } Teacher
@@ -12,46 +12,36 @@ description: "Teacher is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Found in** | Brimhaven |
 | **Class** | Humanoid |
 | **HP** | 150 |
 | **XP when defeated** | 282 |
-| **Entry ID** | `brv_teacher` |
 | **Introduced** | [v0.7.11](../versions/0.7.11.md) |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Teacher"
+    The conversation during [Lessons learned](../quests/brv_school2.md#stage-120) can lead straight into a fight with Teacher.
 
-## Combat statistics
+    Teacher turns hostile if you fall out with their faction (this can happen in [Lessons learned](../quests/brv_school2.md)).
 
-| Statistic | Value |
+## Combat
+
+| | |
 |---|---|
 | Class | Humanoid |
 | HP | 150 |
 | XP when defeated | 282 |
 | Damage | 3 to 7 |
-| Attack chance | 40 |
-| Block chance | 130 |
-| Damage resistance | 5 |
-| Max AP | 10 |
-| Attack cost | 4 AP |
-| Attacks per turn | 2 |
-| Move cost | 5 AP |
-| Critical skill | 0 |
-| Critical multiplier | – |
-| Critical hit chance | None (requires both critical skill and a critical multiplier) |
+| AC | 40 |
+| BC | 130 |
+| DR | 5 |
+| Attacks per turn | 2 (4 AP each, 10 AP) |
+| Crit chance | none |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Brimhaven school](../maps/brimhaven_school.md) | Brimhaven | 1 | – |
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Quests that count defeats
 
@@ -250,11 +240,26 @@ Set your quest stages and items, then talk to Teacher. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+- `brv_teacher` belongs to the faction `brv_fct_school_duel`. The game treats any character as hostile once your standing with its faction is below zero.
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brv_teacher` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `brv_teacher_save` |
     | Loot table | – |
     | Conversation | `brv_teacher` |
@@ -288,15 +293,6 @@ Set your quest stages and items, then talk to Teacher. Same rules as the game: s
      "damageResistance": 5
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

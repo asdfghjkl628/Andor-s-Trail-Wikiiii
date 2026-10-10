@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 657 is an indoor location in Andor's Trail, in Labyrinth (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Cave gnome, Plump cave gnome. Exits to Ratdom maze 547, Ratdom maze 667, Ratdom maze 666, Ratdom maze 646."
+description: "Ratdom maze 657 is an indoor location in Andor's Trail, in Labyrinth (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Cave gnome, Plump cave gnome. Exits to Ratdom maze 547, Ratdom maze 667, Ratdom maze 666, Ratdom maze 646."
 ---
 
 # Ratdom maze 657
@@ -78,8 +78,8 @@ description: "Ratdom maze 657 is an indoor location in Andor's Trail, in Labyrin
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
 | [Cave gnome](../monsters/ratdom_m6a.md) | 60 | 5–15 | 2 | shares spawn with Plump cave gnome |
 | [Plump cave gnome](../monsters/ratdom_m6b.md) | 80 | 10–25 | 2 | shares spawn with Cave gnome |
 

@@ -12,9 +12,8 @@ description: "Rubiano is a non-player character (NPC) in Andor's Trail, found in
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Brightport |
-| **Entry ID** | `brightport_mayor` |
 | **Introduced** | [v0.8.16.1](../versions/0.8.16.1.md) |
 
 </div>
@@ -95,16 +94,21 @@ Set your quest stages and items, then talk to Rubiano. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 13 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.”<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “Haha, don't sweat it! We're Brightporters, like any other. So, what b…” → “Haha, think nothing of it! We're Brightporters, like any other. So, w…”<br>· text: “Im Rubiano, the Doughe of Brightport, speak up.” → “I'm Rubiano, the Doughe of Brightport, speak up.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `brightport_mayor` |
+    | Type (wiki) | NPC |
     | Spawn group | `brightport_mayor` |
     | Loot table | – |
     | Conversation | `brightport_mayor` |

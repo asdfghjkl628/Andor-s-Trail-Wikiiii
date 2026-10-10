@@ -1,5 +1,5 @@
 ---
-description: "Kaverin is an NPC who can also be fought in Andor's Trail, found in Remgard. Starts Old friends?."
+description: "Kaverin is an NPC you can also fight in Andor's Trail, found in Remgard. Starts Old friends?."
 ---
 
 # ![](../assets/icons/monsters/monsters_ld1_100.png){ .sprite } Kaverin
@@ -12,41 +12,35 @@ description: "Kaverin is an NPC who can also be fought in Andor's Trail, found i
 
 | | |
 |---|---|
-| **Type** | NPC/Enemy (can be spoken to, but can also be fought) |
+| **Type** | NPC/Enemy (talks, but can also be fought) |
 | **Role** | Starts [Old friends?](../quests/kaverin.md) |
 | **Found in** | Remgard |
 | **Class** | Giant |
 | **HP** | 320 |
 | **XP when defeated** | 491 |
-| **Entry ID** | `kaverin` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
 
-!!! warning "Can be fought"
-    This entry can be talked to, but it can also become an opponent: a conversation with this character can end in combat (a dialogue branch leads to a fight).
+!!! warning "You can fight Kaverin"
+    Answering “Fight!” during [Old friends?](../quests/kaverin.md#stage-60) starts a fight with Kaverin.
 
-## Combat statistics
+## Combat
 
-| Statistic | Value |
+| | |
 |---|---|
 | Class | Giant |
 | HP | 320 |
 | XP when defeated | 491 |
 | Damage | 1 to 20 |
-| Attack chance | 65 |
-| Block chance | 90 |
-| Damage resistance | 6 |
-| Max AP | 5 |
-| Attack cost | 3 AP |
-| Attacks per turn | 1 |
-| Move cost | 5 AP |
-| Critical skill | 30 |
-| Critical multiplier | 3.0 |
-| Critical hit chance | 19% |
+| AC | 65 |
+| BC | 90 |
+| DR | 6 |
+| Attacks per turn | 1 (3 AP each, 5 AP) |
+| Crit chance | 19% (×3.0) |
 
 
-<p class="verified">Verified against v0.8.18 monster data and game code (`MonsterTypeParser.java`).</p>
+<p class="verified">Verified against v0.8.18 monster data.</p>
 
 ## Drops
 
@@ -57,12 +51,6 @@ description: "Kaverin is an NPC who can also be fought in Andor's Trail, found i
 | [Weathered shirt](../items/shirt_weathered.md) | 100% | 1 |
 | [Crude combat ring](../items/ring_crude_combat.md) | 100% | 1 |
 | [Kaverin's sealed message](../items/kaverin_message.md) | 100% | 1 |
-
-## Locations
-
-| Map | Region | Up to | Notes |
-|---|---|---|---|
-| [Remgard tavern 1](../maps/remgard_tavern1.md) | Remgard | 1 | – |
 
 ## Quests
 
@@ -212,11 +200,24 @@ Set your quest stages and items, then talk to Kaverin. Same rules as the game: s
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
 
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
+
+??? info "How the XP value is calculated"
+
+    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
+
+    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
+
+    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
+
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `kaverin` |
+    | Type (wiki) | NPC/Enemy |
     | Spawn group | `kaverin` |
     | Loot table | `kaverin` |
     | Conversation | `kaverin` |
@@ -252,15 +253,6 @@ Set your quest stages and items, then talk to Kaverin. Same rules as the game: s
      "damageResistance": 6
     }
     ```
-
-
-??? info "How the XP value is calculated"
-
-    The game computes each enemy's experience value when it loads the data (`MonsterTypeParser.java`):
-
-    XP = ⌈(attacks per turn × attack chance × average damage × (1 + critical skill × critical multiplier) × 3 + HP × (1 + block chance) + 9 × damage resistance) × 0.7⌉
-
-    Percentages are used as fractions (e.g. 60% = 0.6). Enemies whose attacks inflict a condition are worth 50 XP more. The More Exp skill adds a percentage on top.
 
 
 ## Community notes

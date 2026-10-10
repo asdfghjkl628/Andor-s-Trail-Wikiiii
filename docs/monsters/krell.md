@@ -12,9 +12,8 @@ description: "Krell is a non-player character (NPC) in Andor's Trail, found in R
 
 | | |
 |---|---|
-| **Type** | NPC (can be spoken to; cannot be attacked) |
+| **Type** | NPC (talk only; never fought) |
 | **Found in** | Remgard |
-| **Entry ID** | `krell` |
 | **Introduced** | v0.7.0 or earlier |
 
 </div>
@@ -149,16 +148,21 @@ Set your quest stages and items, then talk to Krell. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “We also help people find .. erm .. people that have gone missing.” → “We also help people find ... erm ... people that have gone missing.”<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …”<br>· text: “Granted, people in our order have succumbed in combat to greater foes…” → “Granted, people in our order have succumbed in combat to greater foes…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
+
+## Behind the scenes
+
+*How the game data handles this character. Not needed for playing.*
 
 ??? info "Technical information"
 
     | | |
     |---|---|
     | Entry ID | `krell` |
+    | Type (wiki) | NPC |
     | Spawn group | `krell` |
     | Loot table | – |
     | Conversation | `krell` |
