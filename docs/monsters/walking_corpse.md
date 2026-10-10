@@ -8,7 +8,7 @@ description: "Walking corpse is an enemy in Andor's Trail (undead) with 90 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_zombie1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_zombie1_0.png" alt=""></p>
 
 | | |
 |---|---|

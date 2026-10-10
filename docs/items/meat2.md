@@ -8,7 +8,7 @@ description: "Rotten meat is a ordinary food in Andor's Trail. How to get it: mo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_omi1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_omi1_0.png" alt=""></p>
 
 | | |
 |---|---|

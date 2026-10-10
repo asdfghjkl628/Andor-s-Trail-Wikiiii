@@ -8,7 +8,7 @@ description: "Korvan the leader of the wolves is an enemy in Andor's Trail (anim
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_108.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_108.png" alt=""></p>
 
 | | |
 |---|---|

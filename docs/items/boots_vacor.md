@@ -8,7 +8,7 @@ description: "Vacor's boots of attack is a extraordinary footwear, leather in An
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_29.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_29.png" alt=""></p>
 
 | | |
 |---|---|

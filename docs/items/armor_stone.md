@@ -8,7 +8,7 @@ description: "Stone Cuirass is a extraordinary armor (heavy) in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_17.png" alt=""></p>
 
 | | |
 |---|---|

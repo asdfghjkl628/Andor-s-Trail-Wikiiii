@@ -8,7 +8,7 @@ description: "Emberwylde is a extraordinary armor (light) in Andor's Trail (Max 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_69.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_69.png" alt=""></p>
 
 | | |
 |---|---|

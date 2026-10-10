@@ -8,7 +8,7 @@ description: "Ortholion's talisman is a extraordinary necklace in Andor's Trail 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_15.png" alt=""></p>
 
 | | |
 |---|---|

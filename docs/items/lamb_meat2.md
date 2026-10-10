@@ -8,7 +8,7 @@ description: "Specially peppered lamb meat is a extraordinary food in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_517.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_517.png" alt=""></p>
 
 | | |
 |---|---|

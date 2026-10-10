@@ -6,7 +6,7 @@ description: "Unknown well voice is scenery in Andor's Trail: a decoration or di
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_unknown_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_unknown_0.png" alt=""></p>
 
 | | |
 |---|---|

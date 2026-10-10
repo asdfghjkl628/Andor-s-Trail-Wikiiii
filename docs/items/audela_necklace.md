@@ -8,7 +8,7 @@ description: "Audela's necklace is a quest necklace in Andor's Trail. How to get
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_24.png" alt=""></p>
 
 | | |
 |---|---|

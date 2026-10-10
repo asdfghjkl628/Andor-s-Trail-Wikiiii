@@ -8,7 +8,7 @@ description: "Drakthorn warrior captain is an enemy in Andor's Trail (reptile) w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_15.png" alt=""></p>
 
 | | |
 |---|---|

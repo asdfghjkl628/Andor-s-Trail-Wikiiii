@@ -8,7 +8,7 @@ description: "Small empty vial is a ordinary liquid container in Andor's Trail. 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_56.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_56.png" alt=""></p>
 
 | | |
 |---|---|

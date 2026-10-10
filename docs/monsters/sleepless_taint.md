@@ -8,7 +8,7 @@ description: "Sleepless taint is an enemy in Andor's Trail (ghost) with 180 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_140.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_140.png" alt=""></p>
 
 | | |
 |---|---|

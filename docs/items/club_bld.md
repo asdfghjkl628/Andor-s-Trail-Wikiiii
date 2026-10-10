@@ -8,7 +8,7 @@ description: "Spiked club of bleeding is a ordinary club in Andor's Trail (Attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_18.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_18.png" alt=""></p>
 
 | | |
 |---|---|

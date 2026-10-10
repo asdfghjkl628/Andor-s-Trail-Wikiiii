@@ -8,7 +8,7 @@ description: "Hexi egg is a ordinary edible animal part in Andor's Trail. How to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_628.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_628.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Clumsiness is a harmful mental condition in Andor's Trail: attack 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_49.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_49.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Feline milk is a ordinary edible animal part in Andor's Trail. How
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_55.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_55.png" alt=""></p>
 
 | | |
 |---|---|

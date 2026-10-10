@@ -8,7 +8,7 @@ description: "Allaceph is an enemy in Andor's Trail (demon) with 94 HP, worth 23
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_101.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_101.png" alt=""></p>
 
 | | |
 |---|---|

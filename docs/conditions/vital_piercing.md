@@ -8,7 +8,7 @@ description: "Vital piercing is a harmful physical condition in Andor's Trail: c
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_54.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_54.png" alt=""></p>
 
 | | |
 |---|---|

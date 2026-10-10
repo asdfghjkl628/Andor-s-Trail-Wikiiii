@@ -8,7 +8,7 @@ description: "Mermaid curse is a harmful spiritual condition in Andor's Trail: m
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_22.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_22.png" alt=""></p>
 
 | | |
 |---|---|

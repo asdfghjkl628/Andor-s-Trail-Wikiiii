@@ -8,7 +8,7 @@ description: "Blackwater boots is a rare footwear, leather in Andor's Trail (Max
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_22.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_22.png" alt=""></p>
 
 | | |
 |---|---|

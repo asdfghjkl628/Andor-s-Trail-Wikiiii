@@ -8,7 +8,7 @@ description: "Giant serpent is an enemy in Andor's Trail (reptile) with 100 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_22.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_22.png" alt=""></p>
 
 | | |
 |---|---|

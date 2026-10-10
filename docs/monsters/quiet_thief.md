@@ -8,7 +8,7 @@ description: "Pixtumn is a non-player character (NPC) in Andor's Trail, found in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rogue1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rogue1_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -42,11 +42,11 @@ description: "Pixtumn is a non-player character (NPC) in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Pixtumn. Same rules as the game: same checks, same options, same effects.
+Talk to Pixtumn as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/quiet_thief_0.json" data-npc="Pixtumn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (14 lines)"
 
@@ -130,8 +130,8 @@ Set your quest stages and items, then talk to Pixtumn. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 14 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn”<br>Dialogue: 2 lines changed<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?”<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?”<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?” |
+| [v0.7.12](../versions/0.7.12.md) | Renamed “Shady thief” → “Pixtumn”<br>Dialogue: 2 lines changed<br>· text: “I think 1000gp would be fair. Is that acceptable?” → “I think 1000 gold would be fair. Is that acceptable?”<br>· text: “I think 1500gp would be fair. Is that acceptable?” → “I think 1500 gold would be fair. Is that acceptable?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 2 lines changed<br>· text: “I think 1000 gold would be fair. Is that acceptable?” → “I think {1000} gold would be fair. Is that acceptable?”<br>· text: “I think 1500 gold would be fair. Is that acceptable?” → “I think {1500} gold would be fair. Is that acceptable?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

@@ -8,7 +8,7 @@ description: "Stoneclaw prowler is an enemy in Andor's Trail (animal) with 230 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_250.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_250.png" alt=""></p>
 
 | | |
 |---|---|

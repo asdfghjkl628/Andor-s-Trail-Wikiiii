@@ -8,7 +8,7 @@ description: "Necklace of Feygard's Glory is a extraordinary necklace in Andor's
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_25.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Torilo is a non-player character (NPC) in Andor's Trail, found in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men2_9.png" alt=""></p>
 
 | | |
 |---|---|
@@ -37,11 +37,11 @@ description: "Torilo is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Torilo. Same rules as the game: same checks, same options, same effects.
+Talk to Torilo as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/torilo_1.json" data-npc="Torilo" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (26 lines)"
 
@@ -175,7 +175,7 @@ Set your quest stages and items, then talk to Torilo. Same rules as the game: sa
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 11 lines added, 1 line changed |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “Hmm...let me think...how does 10000 gold sound?” → “Hmm...let me think...how does {10000} gold sound?”<br>· text: “OK. How does 7500 gold sound?” → “OK. How does {7500} gold sound?” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “OK. How does 6000 gold sound?” → “OK. How does {6000} gold sound?”<br>· text: “OK. How does 7500 gold sound?” → “OK. How does {7500} gold sound?” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

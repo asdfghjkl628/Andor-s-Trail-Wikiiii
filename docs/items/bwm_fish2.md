@@ -8,7 +8,7 @@ description: "Cooked inkyfish is a ordinary food in Andor's Trail. How to get it
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_22.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_22.png" alt=""></p>
 
 | | |
 |---|---|

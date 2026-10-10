@@ -1,5 +1,5 @@
 ---
-description: "Bogsten 4 is an indoor location in Andor's Trail. NPCs: Black fog, Zuul'khan. Enemies: Fungi, Lombric beast, Lombric ball, Dangerous fungi. Exits to Mushroom m 2 1, Bogsten 3."
+description: "Bogsten 4 is an indoor location in Andor's Trail. NPCs: Black fog, Zuul'khan. Enemies: Fungi, Lombric ball, Lombric beast, Dangerous fungi. Exits to Mushroom m 2 1, Bogsten 3."
 ---
 
 # Bogsten 4
@@ -60,8 +60,8 @@ description: "Bogsten 4 is an indoor location in Andor's Trail. NPCs: Black fog,
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Fungi](../monsters/mid_fungi.md) | 25 | 2–3 | 7 | – |
-| [Lombric beast](../monsters/lombric_beast.md) | 30 | 3–10 | 6 | – |
 | [Lombric ball](../monsters/lombric_ball.md) | 30 | 1–15 | 7 | – |
+| [Lombric beast](../monsters/lombric_beast.md) | 30 | 3–10 | 6 | – |
 | [Dangerous fungi](../monsters/dangerous_fungi.md) | 55 | 2–5 | 8 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

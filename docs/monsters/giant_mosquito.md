@@ -8,7 +8,7 @@ description: "Giant mosquito is an enemy in Andor's Trail (insect) with 106 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_580.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_580.png" alt=""></p>
 
 | | |
 |---|---|

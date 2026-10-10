@@ -8,7 +8,7 @@ description: "Minor sting is a harmful physical condition in Andor's Trail: −1
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_63.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_63.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Dragon claw is a quest animal part in Andor's Trail. How to get it
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_548.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_548.png" alt=""></p>
 
 | | |
 |---|---|

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 521 is an indoor location in Andor's Trail, in Library (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Angry cave worm, Young cave worm. Exits to Ratdom maze 612, Ratdom maze 531, Ratdom maze 511."
+description: "Ratdom maze 521 is an indoor location in Andor's Trail, in Library (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Old cave worm, Angry cave worm. Exits to Ratdom maze 612, Ratdom maze 531, Ratdom maze 511."
 ---
 
 # Ratdom maze 521
@@ -77,11 +77,11 @@ description: "Ratdom maze 521 is an indoor location in Andor's Trail, in Library
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Old cave worm](../monsters/ratdom_m11c.md) | 30 | 5–5 | 2 | shares spawn with Angry cave worm, Young cave worm |
 | [Angry cave worm](../monsters/ratdom_m11b.md) | 30 | 5–5 | 2 | shares spawn with Old cave worm, Young cave worm |
 | [Young cave worm](../monsters/ratdom_m11a.md) | 30 | 5–5 | 2 | shares spawn with Angry cave worm, Old cave worm |
-| [Old cave worm](../monsters/ratdom_m11c.md) | 30 | 5–5 | 2 | shares spawn with Angry cave worm, Young cave worm |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

@@ -8,7 +8,7 @@ description: "Superior steel dagger is a ordinary dagger in Andor's Trail (Attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_39.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_39.png" alt=""></p>
 
 | | |
 |---|---|

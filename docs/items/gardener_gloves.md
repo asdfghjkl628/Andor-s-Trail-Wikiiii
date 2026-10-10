@@ -8,7 +8,7 @@ description: "Gardener's gloves is a extraordinary gloves, cloth in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_224.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_224.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Vacor is an NPC you can also fight in Andor's Trail, found in Fall
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_mage_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_mage_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -23,7 +23,7 @@ description: "Vacor is an NPC you can also fight in Andor's Trail, found in Fall
 </div>
 
 !!! warning "You can fight Vacor"
-    Answering “For the Shadow!” during [Missing pieces](../quests/vacor.md#stage-54) starts a fight with Vacor.
+    Any of your answers (“For the Shadow!” or “You must be stopped.”) during [Missing pieces](../quests/vacor.md#stage-54) starts a fight with Vacor.
 
 ## Combat
 
@@ -58,11 +58,11 @@ description: "Vacor is an NPC you can also fight in Andor's Trail, found in Fall
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Vacor. Same rules as the game: same checks, same options, same effects.
+Talk to Vacor as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/vacor.json" data-npc="Vacor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (68 lines)"
 
@@ -360,7 +360,7 @@ Set your quest stages and items, then talk to Vacor. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Now I should be able to finish the rift spell and open up the Shadow …” → “Now I should be able to finish the rift spell and open up the Shadow …”<br>· text: “(The map shows a location to the northwest of the former prison of Fl…” → “[The map shows a location to the northwest of the former prison of Fl…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 14 lines changed<br>· text: “Please hurry! I am so eager to open up the rift.. Erm, I mean finish …” → “Please hurry! I am so eager to open up the rift ... erm, I mean finis…”<br>· text: “It will lead you far to the southwest, to one of my secret retreats..…” → “It will lead you far to the southwest, to one of my secret retreats .…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

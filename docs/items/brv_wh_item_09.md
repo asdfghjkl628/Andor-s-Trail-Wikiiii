@@ -8,7 +8,7 @@ description: "Dusty old book is a quest other in Andor's Trail. How to get it: q
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_books_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_books_1.png" alt=""></p>
 
 | | |
 |---|---|

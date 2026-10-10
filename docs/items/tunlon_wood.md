@@ -8,7 +8,7 @@ description: "Pile of wood is a quest other in Andor's Trail. How to get it: que
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_577.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_577.png" alt=""></p>
 
 | | |
 |---|---|

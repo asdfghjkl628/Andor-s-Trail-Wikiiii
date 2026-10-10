@@ -8,7 +8,7 @@ description: "Head wound is a harmful physical condition in Andor's Trail: attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_48.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_48.png" alt=""></p>
 
 | | |
 |---|---|

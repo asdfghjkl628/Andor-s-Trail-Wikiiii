@@ -8,7 +8,7 @@ description: "Trapped is a harmful physical condition in Andor's Trail: move cos
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_86.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_86.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Jhaeld is an NPC you can also fight in Andor's Trail, found in Rem
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_mage_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_mage_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -33,11 +33,11 @@ description: "Jhaeld is an NPC you can also fight in Andor's Trail, found in Rem
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
+Talk to Jhaeld as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/jhaeld.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (81 lines)"
 
@@ -424,7 +424,7 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “Third, the old woman Duaina usually has great wisdom to share, consid…” → “Third, the old woman Duaina usually has great wisdom to share, consid…”<br>· text: “So.. Let me get things straight. You went and asked them about the mi…” → “So ... let me get things straight. You went and asked them about the …” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 20 lines changed<br>· text: “(Sigh) To even think that we need to get help from children to run er…” → “*sigh* To even think that we need to get help from children to run er…”<br>· text: “I.. I don't know what to do.” → “I ... I don't know what to do.” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “I find this very hard to believe. For to have killed Algangror would …” → “I find this very hard to believe. For you to have killed Algangror wo…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
@@ -441,11 +441,11 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
+Talk to Jhaeld as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_jhaeld1.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -492,11 +492,11 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
+Talk to Jhaeld as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror2.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (6 lines)"
 
@@ -577,11 +577,11 @@ Set your quest stages and items, then talk to Jhaeld. Same rules as the game: sa
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Jhaeld. Same rules as the game: same checks, same options, same effects.
+Talk to Jhaeld as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror3.json" data-npc="Jhaeld" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (15 lines)"
 

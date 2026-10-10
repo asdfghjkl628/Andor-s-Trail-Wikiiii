@@ -8,7 +8,7 @@ description: "Flying tree ant is an enemy in Andor's Trail (insect) with 119 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_5.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_omi2_5.png" alt=""></p>
 
 | | |
 |---|---|

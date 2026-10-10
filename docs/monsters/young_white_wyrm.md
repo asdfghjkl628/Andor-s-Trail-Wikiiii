@@ -8,7 +8,7 @@ description: "Young white wyrm is an enemy in Andor's Trail (reptile) with 47 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_118.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_118.png" alt=""></p>
 
 | | |
 |---|---|

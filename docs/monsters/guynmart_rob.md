@@ -8,7 +8,7 @@ description: "Rob is a non-player character (NPC) in Andor's Trail, found in Guy
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_62.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_62.png" alt=""></p>
 
 | | |
 |---|---|
@@ -29,11 +29,11 @@ description: "Rob is a non-player character (NPC) in Andor's Trail, found in Guy
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
+Talk to Rob as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (8 lines)"
 
@@ -91,11 +91,11 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
+Talk to Rob as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob2_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -130,11 +130,11 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
+Talk to Rob as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob3_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -173,11 +173,11 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
+Talk to Rob as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob4_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -207,11 +207,11 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
+Talk to Rob as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob5_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (9 lines)"
 
@@ -273,11 +273,11 @@ Set your quest stages and items, then talk to Rob. Same rules as the game: same 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Rob. Same rules as the game: same checks, same options, same effects.
+Talk to Rob as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_rob6_10.json" data-npc="Rob" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 

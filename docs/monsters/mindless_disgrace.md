@@ -8,7 +8,7 @@ description: "Mindless disgrace is an enemy in Andor's Trail (undead) with 275 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_21.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik8_21.png" alt=""></p>
 
 | | |
 |---|---|

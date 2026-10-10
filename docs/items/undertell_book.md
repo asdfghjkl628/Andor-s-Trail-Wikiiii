@@ -8,7 +8,7 @@ description: "Undertell: Its Ghosts and History is a quest other in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_551.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_551.png" alt=""></p>
 
 | | |
 |---|---|

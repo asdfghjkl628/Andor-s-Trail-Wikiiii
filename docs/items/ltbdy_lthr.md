@@ -8,7 +8,7 @@ description: "Sturdy leather cuirass is a ordinary armor (light) in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_9.png" alt=""></p>
 
 | | |
 |---|---|

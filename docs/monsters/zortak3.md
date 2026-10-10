@@ -8,7 +8,7 @@ description: "Zortak guard is an enemy in Andor's Trail (giant) with 195 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_87.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik7_87.png" alt=""></p>
 
 | | |
 |---|---|

@@ -53,7 +53,7 @@ description: "Sullengard apple farm east is an outdoor location in Andor's Trail
 - [Deebo](../monsters/deebo_orchard_deebo.md) — shopkeeper — quests: [Bread and circus](../quests/brightport_bakery.md), [Hunting the hunter](../quests/deebo_orchard_hth.md) (#4)
 - [Pig](../monsters/pig.md) (#5)
 
-**Scenery:** [Farm horse](../monsters/farm_horse.md#v-farm_horse_right), [Farm horse](../monsters/farm_horse.md), [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right), [Grazing horse](../monsters/graze_horse_left.md)
+**Scenery:** [Farm horse](../monsters/farm_horse.md#v-farm_horse_right), [Farm horse](../monsters/farm_horse.md), [Grazing horse](../monsters/graze_horse_left.md), [Grazing horse](../monsters/graze_horse_left.md#v-grazing_horse_right)
 
 ## Items & containers
 

@@ -8,7 +8,7 @@ description: "Superior leather boots is a ordinary footwear, leather in Andor's 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_28.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_28.png" alt=""></p>
 
 | | |
 |---|---|

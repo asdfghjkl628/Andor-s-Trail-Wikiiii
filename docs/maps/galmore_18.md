@@ -62,8 +62,8 @@ description: "Galmore 18 is an outdoor location in Andor's Trail. NPCs: Sleepy g
 | [Giant mosquito](../monsters/giant_mosquito.md) | 106 | 10–12 | 8 | – |
 | [Bog eel](../monsters/bog_eel.md) | 121 | 8–13 | 2 | – |
 | [Bog eel](../monsters/bog_eel.md#v-bog_eel_leech) | 121 | 8–13 | 2 | appears later, during a quest |
-| [Swamp lizard](../monsters/swamp_lizard.md) | 130 | 10–15 | 3 | – |
 | [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 130 | 10–15 | 3 | appears later, during a quest |
+| [Swamp lizard](../monsters/swamp_lizard.md) | 130 | 10–15 | 3 | – |
 | [Stoneclaw prowler](../monsters/stoneclaw_prowler.md) | 230 | 8–9 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

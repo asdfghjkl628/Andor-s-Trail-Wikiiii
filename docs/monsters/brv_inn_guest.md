@@ -8,7 +8,7 @@ description: "Guest is a non-player character (NPC) in Andor's Trail, found in B
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_132.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_132.png" alt=""></p>
 
 | | |
 |---|---|
@@ -24,11 +24,11 @@ description: "Guest is a non-player character (NPC) in Andor's Trail, found in B
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guest. Same rules as the game: same checks, same options, same effects.
+Talk to Guest as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_inn_guest_0.json" data-npc="Guest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -57,11 +57,11 @@ Set your quest stages and items, then talk to Guest. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guest. Same rules as the game: same checks, same options, same effects.
+Talk to Guest as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_tavern_west_guest.json" data-npc="Guest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 

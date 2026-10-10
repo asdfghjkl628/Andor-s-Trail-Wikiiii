@@ -1,5 +1,5 @@
 ---
-description: "Clearing level 1 is an indoor location in Andor's Trail. Enemies: Hunting dog, Young wolf, Rabid wolf, Fledgling wolf. Exits to Clearing level 2, Wild 11 clearing."
+description: "Clearing level 1 is an indoor location in Andor's Trail. Enemies: Hunting dog, Young wolf, Fledgling wolf, Rabid wolf. Exits to Clearing level 2, Wild 11 clearing."
 ---
 
 # Clearing level 1
@@ -48,8 +48,8 @@ description: "Clearing level 1 is an indoor location in Andor's Trail. Enemies: 
 |---|---|---|---|---|
 | [Hunting dog](../monsters/hunting_dog.md) | 25 | 2–5 | 12 | shares spawn with Young wolf |
 | [Young wolf](../monsters/young_wolf.md) | 35 | 2–5 | 12 | shares spawn with Hunting dog |
-| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 2 | shares spawn with Fledgling wolf |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 42 | 2–5 | 2 | shares spawn with Rabid wolf |
+| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 2 | shares spawn with Fledgling wolf |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

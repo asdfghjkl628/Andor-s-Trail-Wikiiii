@@ -8,7 +8,7 @@ description: "Shade is an enemy in Andor's Trail (ghost) with 16 HP, worth 35 XP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ghost1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ghost1_0.png" alt=""></p>
 
 | | |
 |---|---|

@@ -15,7 +15,7 @@ description: "Guest tour is a hidden quest in Andor's Trail, started by stepping
 | **In journal** | No (hidden flag) |
 | **Stages** | 3 |
 | **Started by** | stepping on a trigger on [Guynmart](../maps/guynmart.md) |
-| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) |
+| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3), [Hannah](../monsters/guynmart_hannah.md) |
 | **Locations** | [Guynmart](../maps/guynmart.md), [Guynmart main 1](../maps/guynmart_main_1.md) |
 | **Related quests** | 1 |
 

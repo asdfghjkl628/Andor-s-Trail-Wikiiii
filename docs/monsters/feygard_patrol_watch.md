@@ -8,7 +8,7 @@ description: "Feygard patrol watch is an NPC you can also fight in Andor's Trail
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles3_14.png" alt=""></p>
 
 | | |
 |---|---|
@@ -60,11 +60,11 @@ description: "Feygard patrol watch is an NPC you can also fight in Andor's Trail
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Feygard patrol watch. Same rules as the game: same checks, same options, same effects.
+Talk to Feygard patrol watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ff_outsideguard_select.json" data-npc="Feygard patrol watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (26 lines)"
 
@@ -207,7 +207,7 @@ Set your quest stages and items, then talk to Feygard patrol watch. Same rules a
 **Where:** Pub: [Ratdom maze 412](../maps/ratdom_maze_412.md#pin-npc-ratdom_ff_guard)
 
 !!! warning "You can fight Feygard patrol watch"
-    Answering “But you were so stupid ...” starts a fight with Feygard patrol watch.
+    Any of your answers (“But you were so stupid ...” or “Attack!”) starts a fight with Feygard patrol watch.
 
 ### Combat
 
@@ -238,11 +238,11 @@ Set your quest stages and items, then talk to Feygard patrol watch. Same rules a
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Feygard patrol watch. Same rules as the game: same checks, same options, same effects.
+Talk to Feygard patrol watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ratdom_ff_guard.json" data-npc="Feygard patrol watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (9 lines)"
 

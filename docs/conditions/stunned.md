@@ -8,7 +8,7 @@ description: "Stunned is a harmful physical condition in Andor's Trail: max AP â
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_95.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_95.png" alt=""></p>
 
 | | |
 |---|---|

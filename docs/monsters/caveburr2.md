@@ -8,7 +8,7 @@ description: "Infected larval cave burrower is an enemy in Andor's Trail (insect
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_161.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_161.png" alt=""></p>
 
 | | |
 |---|---|

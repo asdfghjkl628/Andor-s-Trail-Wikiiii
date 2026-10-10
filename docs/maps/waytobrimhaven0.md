@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven 0 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Tough grasslands ant, Grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Loneford 11, Waytobrimhaven 1, Loneford 2."
+description: "Waytobrimhaven 0 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Grasslands ant, Tough grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Loneford 11, Waytobrimhaven 1, Loneford 2."
 ---
 
 # Waytobrimhaven 0
@@ -50,8 +50,8 @@ description: "Waytobrimhaven 0 is an outdoor location in Andor's Trail, near Lon
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 2 | shares spawn with Grasslands ant |
 | [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 2 | shares spawn with Tough grasslands ant |
+| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 2 | shares spawn with Grasslands ant |
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 3 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 3 | shares spawn with Grasslands beetle |
 

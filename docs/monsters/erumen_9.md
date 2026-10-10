@@ -8,7 +8,7 @@ description: "Erumen forest lizard is an enemy in Andor's Trail (reptile) with 1
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik2_15.png" alt=""></p>
 
 | | |
 |---|---|

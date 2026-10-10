@@ -8,7 +8,7 @@ description: "Morkin lookout is an enemy in Andor's Trail (humanoid) with 145 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_67.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_67.png" alt=""></p>
 
 | | |
 |---|---|

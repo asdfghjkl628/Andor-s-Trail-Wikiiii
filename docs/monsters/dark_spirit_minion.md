@@ -8,7 +8,7 @@ description: "Dark spirit minion is an enemy in Andor's Trail (demon) with 247 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_eye2_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_eye2_0.png" alt=""></p>
 
 | | |
 |---|---|

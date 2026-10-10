@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 4 is an outdoor location in Andor's Trail. NPCs: Halvor. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 3, Blackwater mountain 5."
+description: "Blackwater mountain 4 is an outdoor location in Andor's Trail. NPCs: Halvor. Enemies: Slithering venomfang, Scaled venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 3, Blackwater mountain 5."
 ---
 
 # Blackwater mountain 4
@@ -53,8 +53,8 @@ description: "Blackwater mountain 4 is an outdoor location in Andor's Trail. NPC
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 5 | shares spawn with Gornaud |
 | [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 1 | shares spawn with Young gornaud |
+| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 5 | shares spawn with Gornaud |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 | 0–15 | 1 | shares spawn with Slithering venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 5 | shares spawn with Scaled venomfang |
 

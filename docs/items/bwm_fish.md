@@ -8,7 +8,7 @@ description: "Raw inkyfish is a ordinary edible animal part in Andor's Trail. Ho
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_527.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_527.png" alt=""></p>
 
 | | |
 |---|---|

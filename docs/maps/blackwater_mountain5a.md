@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 5a is an indoor location in Andor's Trail. Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 5."
+description: "Blackwater mountain 5a is an indoor location in Andor's Trail. Enemies: Slithering venomfang, Scaled venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 5."
 ---
 
 # Blackwater mountain 5a
@@ -46,8 +46,8 @@ description: "Blackwater mountain 5a is an indoor location in Andor's Trail. Ene
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 3 | shares spawn with Gornaud |
 | [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 4 | shares spawn with Young gornaud |
+| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 3 | shares spawn with Gornaud |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 | 0–15 | 4 | shares spawn with Slithering venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 3 | shares spawn with Scaled venomfang |
 

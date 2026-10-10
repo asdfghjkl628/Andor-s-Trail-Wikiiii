@@ -8,7 +8,7 @@ description: "Deerskin gloves is a rare gloves, leather in Andor's Trail (Max HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_8.png" alt=""></p>
 
 | | |
 |---|---|

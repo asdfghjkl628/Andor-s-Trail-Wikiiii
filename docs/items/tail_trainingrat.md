@@ -8,7 +8,7 @@ description: "Small rat tail is a quest animal part in Andor's Trail. How to get
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_38.png" alt=""></p>
 
 | | |
 |---|---|

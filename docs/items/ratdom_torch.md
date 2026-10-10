@@ -8,7 +8,7 @@ description: "Ratcave Torch is a quest big torch in Andor's Trail (Attack damage
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_19.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_19.png" alt=""></p>
 
 | | |
 |---|---|

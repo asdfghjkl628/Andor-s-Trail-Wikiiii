@@ -8,7 +8,7 @@ description: "Miner's tunic is a rare armor, cloth in Andor's Trail (Max HP -10,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_189.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_189.png" alt=""></p>
 
 | | |
 |---|---|

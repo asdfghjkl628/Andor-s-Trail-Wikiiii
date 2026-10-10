@@ -1,5 +1,5 @@
 ---
-description: "Bogsten 3 is an indoor location in Andor's Trail. Enemies: Weak fungi, Fungi, Lombric beast, Lombric ball, Dangerous fungi. Exits to Bogsten 2, Bogsten 4."
+description: "Bogsten 3 is an indoor location in Andor's Trail. Enemies: Weak fungi, Fungi, Lombric ball, Lombric beast, Dangerous fungi. Exits to Bogsten 2, Bogsten 4."
 ---
 
 # Bogsten 3
@@ -52,8 +52,8 @@ description: "Bogsten 3 is an indoor location in Andor's Trail. Enemies: Weak fu
 |---|---|---|---|---|
 | [Weak fungi](../monsters/weak_fungi.md) | 20 | 1–2 | 8 | – |
 | [Fungi](../monsters/mid_fungi.md) | 25 | 2–3 | 6 | – |
-| [Lombric beast](../monsters/lombric_beast.md) | 30 | 3–10 | 3 | – |
 | [Lombric ball](../monsters/lombric_ball.md) | 30 | 1–15 | 7 | – |
+| [Lombric beast](../monsters/lombric_beast.md) | 30 | 3–10 | 3 | – |
 | [Dangerous fungi](../monsters/dangerous_fungi.md) | 55 | 2–5 | 10 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

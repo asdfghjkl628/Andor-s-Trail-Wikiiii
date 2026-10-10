@@ -8,7 +8,7 @@ description: "Wooden tower shield is a ordinary tower shield in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3.png" alt=""></p>
 
 | | |
 |---|---|

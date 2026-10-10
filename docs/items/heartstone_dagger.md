@@ -8,7 +8,7 @@ description: "Heartsteel dagger is a legendary dagger in Andor's Trail (Attack d
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_487.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_487.png" alt=""></p>
 
 | | |
 |---|---|

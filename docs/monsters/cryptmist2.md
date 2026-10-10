@@ -8,7 +8,7 @@ description: "Clear mist of the crypt is an enemy in Andor's Trail (ghost) with 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_142.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_142.png" alt=""></p>
 
 | | |
 |---|---|

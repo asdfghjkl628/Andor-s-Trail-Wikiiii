@@ -8,7 +8,7 @@ description: "Key for Adakin's diary is a quest other in Andor's Trail. How to g
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_25.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Radiant guardian is an NPC you can also fight in Andor's Trail, fo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_20.png" alt=""></p>
 
 | | |
 |---|---|
@@ -61,11 +61,11 @@ description: "Radiant guardian is an NPC you can also fight in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Radiant guardian. Same rules as the game: same checks, same options, same effects.
+Talk to Radiant guardian as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/toszylae_guard.json" data-npc="Radiant guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (15 lines)"
 
@@ -146,7 +146,7 @@ Set your quest stages and items, then talk to Radiant guardian. Same rules as th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(It raises its claw-like hands above its head, looking to get ready t…” → “[It raises its claw-like hands above its head, looking to get ready t…”<br>· text: “(The guardian gives off a laughter that makes the hair on the back of…” → “[The guardian gives off a laughter that makes the hair on the back of…” |
+| [v0.7.2](../versions/0.7.2.md) | On hit, condition on target: [Minor weapon feebleness](../conditions/feebleness_minor.md) (magnitude 2, 3 rounds, 20% chance) → (magnitude 2, 3 rounds, 20% chance)<br>Dialogue: 11 lines changed<br>· text: “(The horrifying creature looks down on you with its burning eyes, and…” → “[The horrifying creature looks down on you with its burning eyes, and…”<br>· text: “(The creature turns away)” → “[The creature turns away]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

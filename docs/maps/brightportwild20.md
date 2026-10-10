@@ -1,5 +1,5 @@
 ---
-description: "Brightportwild 20 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Lizardman corsair, Lizardman fencer. Exits to Brightport 8, Brightport smugglercave."
+description: "Brightportwild 20 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Lizardman fencer, Lizardman corsair. Exits to Brightport 8, Brightport smugglercave."
 ---
 
 # Brightportwild 20
@@ -49,8 +49,8 @@ description: "Brightportwild 20 is an indoor location in Andor's Trail, in Brigh
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 2 | – |
 | [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 1 | – |
+| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

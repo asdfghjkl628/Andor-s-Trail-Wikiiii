@@ -8,7 +8,7 @@ description: "Arensia's Ring of Promise is a quest ring in Andor's Trail. How to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_248.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_248.png" alt=""></p>
 
 | | |
 |---|---|

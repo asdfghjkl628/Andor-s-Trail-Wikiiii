@@ -8,7 +8,7 @@ description: "Two-handed iron claymore is a ordinary two-handed sword in Andor's
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_38.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Aggressive hirathil ghost is an enemy in Andor's Trail (ghost) wit
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_40.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_40.png" alt=""></p>
 
 | | |
 |---|---|

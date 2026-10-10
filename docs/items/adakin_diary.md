@@ -8,7 +8,7 @@ description: "Adakin's diary is a quest other in Andor's Trail. How to get it: q
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_books_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_books_6.png" alt=""></p>
 
 | | |
 |---|---|

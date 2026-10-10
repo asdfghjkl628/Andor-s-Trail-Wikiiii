@@ -8,7 +8,7 @@ description: "Gornaud is an enemy in Andor's Trail (giant) with 95 HP, worth 197
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_29.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_29.png" alt=""></p>
 
 | | |
 |---|---|

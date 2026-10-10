@@ -8,7 +8,7 @@ description: "Impressive Diamond Necklace is a extraordinary necklace in Andor's
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_8.png" alt=""></p>
 
 | | |
 |---|---|

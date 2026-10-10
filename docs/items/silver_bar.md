@@ -8,7 +8,7 @@ description: "Silver bar is a ordinary gem in Andor's Trail. How to get it: cont
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_8.png" alt=""></p>
 
 | | |
 |---|---|

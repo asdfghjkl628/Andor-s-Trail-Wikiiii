@@ -8,7 +8,7 @@ description: "Krell is a non-player character (NPC) in Andor's Trail, found in R
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men2_6.png" alt=""></p>
 
 | | |
 |---|---|
@@ -24,11 +24,11 @@ description: "Krell is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Krell. Same rules as the game: same checks, same options, same effects.
+Talk to Krell as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/krell.json" data-npc="Krell" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (25 lines)"
 
@@ -148,7 +148,7 @@ Set your quest stages and items, then talk to Krell. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …”<br>· text: “Granted, people in our order have succumbed in combat to greater foes…” → “Granted, people in our order have succumbed in combat to greater foes…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “You see, usually it is us knights that find .. missing people. Now, w…” → “You see, usually it is us knights that find ... missing people. Now, …”<br>· text: “Yes, we have heard the reports that people have gone missing here in …” → “Yes, we have heard the reports that people have gone missing here in …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

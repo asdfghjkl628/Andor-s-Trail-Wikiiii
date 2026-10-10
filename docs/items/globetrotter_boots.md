@@ -8,7 +8,7 @@ description: "Boots of the Globetrotter is a extraordinary footwear, leather in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_201.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_201.png" alt=""></p>
 
 | | |
 |---|---|

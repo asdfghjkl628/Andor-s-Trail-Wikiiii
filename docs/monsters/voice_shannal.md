@@ -6,7 +6,7 @@ description: "Voice of Shannal is scenery in Andor's Trail: a decoration or dial
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_gisons_15.png" alt=""></p>
 
 | | |
 |---|---|

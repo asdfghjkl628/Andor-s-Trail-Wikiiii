@@ -8,7 +8,7 @@ description: "Wooden club is a ordinary club in Andor's Trail (Attack damage 0 t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_42.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_42.png" alt=""></p>
 
 | | |
 |---|---|

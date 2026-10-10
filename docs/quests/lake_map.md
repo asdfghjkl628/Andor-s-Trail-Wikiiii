@@ -12,7 +12,7 @@ description: "A map of the Great Lake Laeroth is a quest in Andor's Trail, start
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 910) |
 | **Started by** | [Thyrope Splathershed](../monsters/ll2_mapmaker.md) ([Remgard tavern 0](../maps/remgard_tavern0.md)) |
-| **NPCs involved** | [Charybdis](../monsters/ll2_whirl.md), [Charybdis](../monsters/ll2_whirl.md#v-ll2_whirl_return), [Circe](../monsters/circe.md), [Kalypso](../monsters/kalypso.md), [Polyphem](../monsters/polyphem.md#v-polyphem_door), [Polyphem](../monsters/polyphem.md#v-polyphem_bed) +3 |
+| **NPCs involved** | [Charybdis](../monsters/ll2_whirl.md#v-ll2_whirl_return), [Charybdis](../monsters/ll2_whirl.md), [Circe](../monsters/circe.md), [Kalypso](../monsters/kalypso.md), [Polyphem](../monsters/polyphem.md), [Polyphem](../monsters/polyphem.md#v-polyphem_door) +3 |
 | **Locations** | [Ll 2 cyclops cave](../maps/ll2_cyclops_cave.md), [Mountainlake 14](../maps/mountainlake14.md), [Mountainlake 19](../maps/mountainlake19.md), [Mountainlake 27](../maps/mountainlake27.md) |
 | **Total XP** | 13,000 |
 | **Related quests** | 2 |

@@ -8,7 +8,7 @@ description: "Queen spider is an enemy in Andor's Trail (insect) with 135 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_redshrike1_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_redshrike1_4.png" alt=""></p>
 
 | | |
 |---|---|

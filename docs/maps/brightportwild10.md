@@ -1,5 +1,5 @@
 ---
-description: "Brightportwild 10 is an indoor location in Andor's Trail. NPCs: Seire. Enemies: Rash Muskrat, Duleian panther, Lizardman corsair, Lizardman fencer. Exits to Brightportwild 12."
+description: "Brightportwild 10 is an indoor location in Andor's Trail. NPCs: Seire. Enemies: Rash Muskrat, Duleian panther, Lizardman fencer, Lizardman corsair. Exits to Brightportwild 12."
 ---
 
 # Brightportwild 10
@@ -54,8 +54,8 @@ description: "Brightportwild 10 is an indoor location in Andor's Trail. NPCs: Se
 |---|---|---|---|---|
 | [Rash Muskrat](../monsters/brightport_squirrel2.md) | 140 | 6–19 | 3 | – |
 | [Duleian panther](../monsters/brightport_cat2.md) | 220 | 14–25 | 2 | – |
-| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
 | [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 2 | – |
+| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

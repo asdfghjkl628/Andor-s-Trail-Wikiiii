@@ -8,7 +8,7 @@ description: "Animated debris is an enemy in Andor's Trail (construct) with 70 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_16.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_omi2_16.png" alt=""></p>
 
 | | |
 |---|---|

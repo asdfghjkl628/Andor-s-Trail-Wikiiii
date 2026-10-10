@@ -8,7 +8,7 @@ description: "Lodar's letter is a quest other in Andor's Trail. How to get it: q
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_60.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_60.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Chaotic curse is a harmful mental condition in Andor's Trail: max 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_89.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_89.png" alt=""></p>
 
 | | |
 |---|---|

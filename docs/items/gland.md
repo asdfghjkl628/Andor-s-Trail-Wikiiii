@@ -8,7 +8,7 @@ description: "Poison gland is a ordinary animal part in Andor's Trail. How to ge
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/actorconditions_1_60.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/actorconditions_1_60.png" alt=""></p>
 
 | | |
 |---|---|

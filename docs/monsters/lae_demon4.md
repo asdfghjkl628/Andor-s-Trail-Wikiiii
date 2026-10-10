@@ -8,7 +8,7 @@ description: "Dark watch is an NPC you can also fight in Andor's Trail, found in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_238.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_238.png" alt=""></p>
 
 | | |
 |---|---|
@@ -64,11 +64,11 @@ description: "Dark watch is an NPC you can also fight in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon4.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -98,11 +98,11 @@ Set your quest stages and items, then talk to Dark watch. Same rules as the game
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -164,11 +164,11 @@ Set your quest stages and items, then talk to Dark watch. Same rules as the game
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon4.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [lae_demon4](#d-lae_demon4-lae_demon4).
 
@@ -188,11 +188,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [lae_demon](#d-lae_demon4_safe-lae_demon).
 
@@ -244,11 +244,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon5.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -275,11 +275,11 @@ Set your quest stages and items, then talk to Dark watch. Same rules as the game
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [lae_demon](#d-lae_demon4_safe-lae_demon).
 
@@ -331,11 +331,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon7.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -362,11 +362,11 @@ Set your quest stages and items, then talk to Dark watch. Same rules as the game
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [lae_demon](#d-lae_demon4_safe-lae_demon).
 
@@ -423,11 +423,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon9.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -454,11 +454,11 @@ Set your quest stages and items, then talk to Dark watch. Same rules as the game
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark watch. Same rules as the game: same checks, same options, same effects.
+Talk to Dark watch as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_demon.json" data-npc="Dark watch" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [lae_demon](#d-lae_demon4_safe-lae_demon).
 

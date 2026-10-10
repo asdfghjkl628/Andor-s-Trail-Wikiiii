@@ -8,7 +8,7 @@ description: "Cave gnome is an enemy in Andor's Trail (humanoid) with 60 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_128.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_128.png" alt=""></p>
 
 | | |
 |---|---|

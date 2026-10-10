@@ -8,7 +8,7 @@ description: "Church dweller is an enemy in Andor's Trail (insect) with 98 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_525.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_525.png" alt=""></p>
 
 | | |
 |---|---|

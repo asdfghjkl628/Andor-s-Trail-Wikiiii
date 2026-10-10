@@ -8,7 +8,7 @@ description: "Orchard apple is a rare food in Andor's Trail. How to get it: shop
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_486.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_486.png" alt=""></p>
 
 | | |
 |---|---|

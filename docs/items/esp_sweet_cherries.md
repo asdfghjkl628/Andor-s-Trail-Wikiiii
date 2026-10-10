@@ -8,7 +8,7 @@ description: "Especially sweet cherries is a ordinary food in Andor's Trail. How
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_814.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_814.png" alt=""></p>
 
 | | |
 |---|---|

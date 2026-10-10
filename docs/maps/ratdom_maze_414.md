@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 414 is an indoor location in Andor's Trail, in Bloskelt + Roskelt (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Poisenous snail, Lazy snail. Exits to Ratdom maze 404, Ratdom maze 424, Ratdom maze 423, Ratdom maze 403."
+description: "Ratdom maze 414 is an indoor location in Andor's Trail, in Bloskelt + Roskelt (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Lazy snail, Poisenous snail. Exits to Ratdom maze 404, Ratdom maze 424, Ratdom maze 423, Ratdom maze 403."
 ---
 
 # Ratdom maze 414
@@ -78,10 +78,10 @@ description: "Ratdom maze 414 is an indoor location in Andor's Trail, in Bloskel
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
-| [Poisenous snail](../monsters/ratdom_m5b.md) | 30 | 5–5 | 2 | shares spawn with Lazy snail |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Lazy snail](../monsters/ratdom_m5a.md) | 30 | 5–5 | 2 | shares spawn with Poisenous snail |
+| [Poisenous snail](../monsters/ratdom_m5b.md) | 30 | 5–5 | 2 | shares spawn with Lazy snail |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

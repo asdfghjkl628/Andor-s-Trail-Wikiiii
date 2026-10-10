@@ -8,7 +8,7 @@ description: "Dark Beer Sour is a ordinary drink in Andor's Trail. How to get it
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik1_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik1_9.png" alt=""></p>
 
 | | |
 |---|---|

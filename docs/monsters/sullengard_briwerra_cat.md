@@ -8,7 +8,7 @@ description: "Briwerra's family cat is scenery in Andor's Trail: a decoration or
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_103.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_103.png" alt=""></p>
 
 | | |
 |---|---|

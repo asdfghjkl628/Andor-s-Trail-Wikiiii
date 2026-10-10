@@ -8,7 +8,7 @@ description: "Azure gem is a ordinary gem in Andor's Trail. How to get it: monst
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_120.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_120.png" alt=""></p>
 
 | | |
 |---|---|

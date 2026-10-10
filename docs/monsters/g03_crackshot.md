@@ -8,7 +8,7 @@ description: "Crackshot is an NPC you can also fight in Andor's Trail, found in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_80.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_80.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,9 +22,9 @@ description: "Crackshot is an NPC you can also fight in Andor's Trail, found in 
 </div>
 
 !!! warning "You can fight Crackshot"
-    Answering “The Feygard soldiers will be avenged!” starts a fight with Crackshot.
+    Any of your answers (“The Feygard soldiers will be avenged!” or “Your head will serve as proof!”) starts a fight with Crackshot.
 
-    Answering “Hah! Let's see if you're as strong as Umar has said.” starts a fight with Crackshot.
+    Any of your answers (“Hah! Let's see if you're as strong as Umar has said.” or “Prepare to die!”) starts a fight with Crackshot.
 
     Crackshot turns hostile if you fall out with their faction.
 
@@ -66,11 +66,11 @@ description: "Crackshot is an NPC you can also fight in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Crackshot. Same rules as the game: same checks, same options, same effects.
+Talk to Crackshot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guild03_crackshot_1.json" data-npc="Crackshot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 

@@ -6,7 +6,7 @@ description: "Old, worn cape is scenery in Andor's Trail: a decoration or dialog
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/items_japozero_127.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/items_japozero_127.png" alt=""></p>
 
 | | |
 |---|---|

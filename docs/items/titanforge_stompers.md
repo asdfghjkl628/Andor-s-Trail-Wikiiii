@@ -8,7 +8,7 @@ description: "Titanforge stompers is a extraordinary footwear, metal (heavy) in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_49.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_49.png" alt=""></p>
 
 | | |
 |---|---|

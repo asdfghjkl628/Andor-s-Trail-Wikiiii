@@ -8,7 +8,7 @@ description: "Piercing irdegh is an enemy in Andor's Trail (reptile) with 125 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_14.png" alt=""></p>
 
 | | |
 |---|---|

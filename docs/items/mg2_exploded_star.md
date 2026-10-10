@@ -8,7 +8,7 @@ description: "Piece of bright shining crystal is a quest other in Andor's Trail.
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_200.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_200.png" alt=""></p>
 
 | | |
 |---|---|

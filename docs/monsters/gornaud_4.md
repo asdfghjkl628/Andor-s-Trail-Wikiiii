@@ -8,7 +8,7 @@ description: "Azurite Gornaud is an enemy in Andor's Trail (giant) with 390 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_28.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_28.png" alt=""></p>
 
 | | |
 |---|---|

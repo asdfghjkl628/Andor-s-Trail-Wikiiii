@@ -8,7 +8,7 @@ description: "Malicious cave snake is an enemy in Andor's Trail (reptile) with 3
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_snakes_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_snakes_1.png" alt=""></p>
 
 | | |
 |---|---|

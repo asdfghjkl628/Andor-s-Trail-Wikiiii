@@ -8,7 +8,7 @@ description: "Giant arulir is an enemy in Andor's Trail (giant) with 330 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_13.png" alt=""></p>
 
 | | |
 |---|---|

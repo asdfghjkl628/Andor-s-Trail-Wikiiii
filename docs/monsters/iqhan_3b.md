@@ -8,7 +8,7 @@ description: "Iqhan master is an enemy in Andor's Trail (humanoid) with 67–71 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_129.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_129.png" alt=""></p>
 
 | | |
 |---|---|

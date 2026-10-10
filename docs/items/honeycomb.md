@@ -8,7 +8,7 @@ description: "Honeycomb is a rare animal part in Andor's Trail. How to get it: s
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_813.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_813.png" alt=""></p>
 
 | | |
 |---|---|

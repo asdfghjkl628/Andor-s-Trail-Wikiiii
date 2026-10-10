@@ -8,7 +8,7 @@ description: "Fake Thieve's Guild vault key is a quest other in Andor's Trail. H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_396.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_396.png" alt=""></p>
 
 | | |
 |---|---|

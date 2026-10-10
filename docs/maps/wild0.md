@@ -1,5 +1,5 @@
 ---
-description: "Wild 0 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Erinith. Enemies: Forest wasp, Small rabid dog, Rabid boar, Rabid fox, Young larval burrower. Exits to Crossroads, Woodcave 0, Wild 1, Woodcave 1."
+description: "Wild 0 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Erinith. Enemies: Small rabid dog, Forest wasp, Rabid boar, Rabid fox, Young larval burrower. Exits to Crossroads, Woodcave 0, Wild 1, Woodcave 1."
 ---
 
 # Wild 0
@@ -58,8 +58,8 @@ description: "Wild 0 is an outdoor location in Andor's Trail, near Crossroads Gu
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
 | [Small rabid dog](../monsters/small_rabid_dog.md) | 6 | 2–2 | 3 | – |
+| [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
 | [Rabid boar](../monsters/rabid_boar.md) | 20 | 3–3 | 3 | – |
 | [Rabid fox](../monsters/rabid_fox.md) | 25 | 3–3 | 4 | – |
 | [Young larval burrower](../monsters/young_larval_burrower.md) | 30 | 1–6 | 4 | – |

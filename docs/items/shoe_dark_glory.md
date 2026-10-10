@@ -8,7 +8,7 @@ description: "Treads of dark glory is a rare footwear, cloth in Andor's Trail (M
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_8.png" alt=""></p>
 
 | | |
 |---|---|

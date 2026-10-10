@@ -8,7 +8,7 @@ description: "Brightport student is scenery in Andor's Trail: a decoration or di
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_87.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_87.png" alt=""></p>
 
 | | |
 |---|---|

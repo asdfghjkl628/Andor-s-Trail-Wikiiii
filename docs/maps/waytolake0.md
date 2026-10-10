@@ -1,5 +1,5 @@
 ---
-description: "Waytolake 0 is an outdoor location in Andor's Trail. Enemies: Small scaradon, Scaradon, Tough scaradon, Puny plaguecrawler, Plaguecrawler. Exits to Waytolake 1, Mountaincave 1."
+description: "Waytolake 0 is an outdoor location in Andor's Trail. Enemies: Scaradon, Small scaradon, Tough scaradon, Puny plaguecrawler, Plaguecrawler. Exits to Waytolake 1, Mountaincave 1."
 ---
 
 # Waytolake 0
@@ -47,8 +47,8 @@ description: "Waytolake 0 is an outdoor location in Andor's Trail. Enemies: Smal
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 1 | shares spawn with Scaradon, Tough scaradon |
 | [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 1 | shares spawn with Small scaradon, Tough scaradon |
+| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 1 | shares spawn with Scaradon, Tough scaradon |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 | 1–4 | 1 | shares spawn with Scaradon, Small scaradon |
 | [Puny plaguecrawler](../monsters/plaguesp_1.md) | 55 | 1–6 | 6 | shares spawn with Plaguecrawler, Tough plaguecrawler |
 | [Plaguecrawler](../monsters/plaguesp_2.md) | 57 | 1–6 | 6 | shares spawn with Puny plaguecrawler, Tough plaguecrawler |

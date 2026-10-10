@@ -52,8 +52,8 @@ description: "Lostmine 7 is an indoor location in Andor's Trail. Enemies: Tough 
 | [Blazing abcess](../monsters/fire2.md) | 95 | 0–8 | 24 | shares spawn with Glowing abcess |
 | [Lava spawn](../monsters/fire3.md) | 102 | 0–9 | 4 | shares spawn with Tough lava spawn |
 | [Tough lava spawn](../monsters/fire4.md) | 107 | 0–9 | 4 | shares spawn with Lava spawn |
-| [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 1 | shares spawn with Hardened ash gargoyle |
 | [Hardened ash gargoyle](../monsters/ash4.md) | 131 | 3–13 | 1 | shares spawn with Strong ash gargoyle |
+| [Strong ash gargoyle](../monsters/ash3.md) | 131 | 3–13 | 1 | shares spawn with Hardened ash gargoyle |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

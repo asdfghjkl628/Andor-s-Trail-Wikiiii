@@ -8,7 +8,7 @@ description: "Grips of the warrior is a ordinary gloves, metal (light) in Andor'
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_3.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Caterpillar cocoon is a ordinary animal part in Andor's Trail. How
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_6_33.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_6_33.png" alt=""></p>
 
 | | |
 |---|---|

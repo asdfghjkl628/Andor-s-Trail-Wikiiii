@@ -1,5 +1,5 @@
 ---
-description: "Lodarhouse 1 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Lodar. Enemies: Roach, Rat. Exits to Stoutford castle barrack 2, Lodarhouse 0."
+description: "Lodarhouse 1 is an indoor location in Andor's Trail, in Prim (settlement). NPCs: Lodar. Enemies: Rat, Roach. Exits to Stoutford castle barrack 2, Lodarhouse 0."
 ---
 
 # Lodarhouse 1
@@ -55,9 +55,9 @@ description: "Lodarhouse 1 is an indoor location in Andor's Trail, in Prim (sett
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Roach](../monsters/vermin2.md) | 0 | 0–1 | 2 | shares spawn with Rat |
 | [Rat](../monsters/vermin0.md) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
 | [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 2 | shares spawn with Rat, Roach |
+| [Roach](../monsters/vermin2.md) | 0 | 0–1 | 2 | shares spawn with Rat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

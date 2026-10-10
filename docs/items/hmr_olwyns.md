@@ -8,7 +8,7 @@ description: "Olwyn's curse is a rare warhammer in Andor's Trail (Attack damage 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_36.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_36.png" alt=""></p>
 
 | | |
 |---|---|

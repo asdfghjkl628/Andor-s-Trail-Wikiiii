@@ -8,7 +8,7 @@ description: "Defy's ring is a quest other in Andor's Trail. How to get it: mons
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_251.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_251.png" alt=""></p>
 
 | | |
 |---|---|

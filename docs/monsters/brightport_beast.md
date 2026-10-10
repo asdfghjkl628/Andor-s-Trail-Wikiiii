@@ -8,7 +8,7 @@ description: "Darkness beast is an enemy in Andor's Trail (demon) with 333 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_657.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_657.png" alt=""></p>
 
 | | |
 |---|---|

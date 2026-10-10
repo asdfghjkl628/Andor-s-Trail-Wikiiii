@@ -8,7 +8,7 @@ description: "River frog is an enemy in Andor's Trail (reptile) with 15 HP, wort
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_131.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_131.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Coin bag (with the name \"Alkapoan\" on it) is a quest other in An
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_440.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_440.png" alt=""></p>
 
 | | |
 |---|---|

@@ -1,5 +1,5 @@
 ---
-description: "Wild 11 clearing is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Hunting dog, Young wolf, Rabid wolf, Fledgling wolf. Exits to Wild 11, Clearing level 1."
+description: "Wild 11 clearing is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Hunting dog, Young wolf, Fledgling wolf, Rabid wolf. Exits to Wild 11, Clearing level 1."
 ---
 
 # Wild 11 clearing
@@ -50,8 +50,8 @@ description: "Wild 11 clearing is an outdoor location in Andor's Trail, near Fal
 |---|---|---|---|---|
 | [Hunting dog](../monsters/hunting_dog.md) | 25 | 2–5 | 7 | shares spawn with Young wolf |
 | [Young wolf](../monsters/young_wolf.md) | 35 | 2–5 | 7 | shares spawn with Hunting dog |
-| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 1 | shares spawn with Fledgling wolf |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 42 | 2–5 | 1 | shares spawn with Rabid wolf |
+| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 1 | shares spawn with Fledgling wolf |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

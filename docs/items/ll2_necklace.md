@@ -8,7 +8,7 @@ description: "Circe's Necklace is a extraordinary necklace in Andor's Trail. How
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_24.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Lord Erwyn is an NPC you can also fight in Andor's Trail, found in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_46.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik8_46.png" alt=""></p>
 
 | | |
 |---|---|
@@ -31,7 +31,7 @@ description: "Lord Erwyn is an NPC you can also fight in Andor's Trail, found in
     The conversation while talking to [Lord Erwyn](../monsters/erwyn.md#v-erwyn2) during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48) can lead straight into a fight with Lord Erwyn.
 
 !!! note "A fight can start here"
-    The conversation during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48) can lead straight into a fight with [Lord Erwyn](../monsters/erwyn.md#v-erwyn2), not with Lord Erwyn.
+    The conversation during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48) can lead straight into a fight with [Lord Erwyn](../monsters/erwyn.md#v-erwyn2).
 
 ### Combat
 
@@ -64,11 +64,11 @@ description: "Lord Erwyn is an NPC you can also fight in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Lord Erwyn. Same rules as the game: same checks, same options, same effects.
+Talk to Lord Erwyn as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_castle_3.json" data-npc="Lord Erwyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (9 lines)"
 
@@ -141,7 +141,7 @@ Set your quest stages and items, then talk to Lord Erwyn. Same rules as the game
     The conversation during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48) can lead straight into a fight with Lord Erwyn.
 
 !!! note "A fight can start here"
-    The conversation during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48) can lead straight into a fight with [Lord Erwyn](../monsters/erwyn.md), not with Lord Erwyn.
+    The conversation during [Stoutford story flags (hidden flag)](../quests/stn_nondisplay.md#stage-48) can lead straight into a fight with [Lord Erwyn](../monsters/erwyn.md).
 
 ### Combat
 
@@ -180,11 +180,11 @@ Set your quest stages and items, then talk to Lord Erwyn. Same rules as the game
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Lord Erwyn. Same rules as the game: same checks, same options, same effects.
+Talk to Lord Erwyn as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_castle_3.json" data-npc="Lord Erwyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_castle_3](#d-erwyn-stoutford_castle_3).
 

@@ -8,7 +8,7 @@ description: "Fungi potion is a extraordinary potion in Andor's Trail. How to ge
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_62.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_62.png" alt=""></p>
 
 | | |
 |---|---|

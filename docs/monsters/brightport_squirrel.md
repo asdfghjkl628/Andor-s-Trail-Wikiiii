@@ -8,7 +8,7 @@ description: "Muskrat is an enemy in Andor's Trail (animal) with 100 HP, worth 2
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_26.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_26.png" alt=""></p>
 
 | | |
 |---|---|

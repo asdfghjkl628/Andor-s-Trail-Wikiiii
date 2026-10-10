@@ -8,7 +8,7 @@ description: "River snapper is an enemy in Andor's Trail (reptile) with 100 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_210.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_210.png" alt=""></p>
 
 | | |
 |---|---|

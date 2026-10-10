@@ -8,7 +8,7 @@ description: "Guard's gloves is a ordinary gloves, metal (light) in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_37.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_37.png" alt=""></p>
 
 | | |
 |---|---|

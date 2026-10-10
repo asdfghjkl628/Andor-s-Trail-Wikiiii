@@ -8,7 +8,7 @@ description: "Necklace for father (expensive) is a quest necklace in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_9.png" alt=""></p>
 
 | | |
 |---|---|

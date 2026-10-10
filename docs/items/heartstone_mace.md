@@ -8,7 +8,7 @@ description: "Heartsteel mace is a legendary mace in Andor's Trail (Attack damag
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_466.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_466.png" alt=""></p>
 
 | | |
 |---|---|

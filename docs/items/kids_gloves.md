@@ -8,7 +8,7 @@ description: "Kid's gloves is a ordinary gloves, cloth in Andor's Trail (Max HP 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_224.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_224.png" alt=""></p>
 
 | | |
 |---|---|

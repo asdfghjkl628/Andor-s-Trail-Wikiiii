@@ -8,7 +8,7 @@ description: "Silk robe of Valugha is a extraordinary armor, cloth in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_2.png" alt=""></p>
 
 | | |
 |---|---|

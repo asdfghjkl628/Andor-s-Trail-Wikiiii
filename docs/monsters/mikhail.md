@@ -8,7 +8,7 @@ description: "Mikhail is an NPC you can also fight in Andor's Trail, found in Cr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_mage2_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_mage2_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -49,11 +49,11 @@ description: "Mikhail is an NPC you can also fight in Andor's Trail, found in Cr
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Mikhail. Same rules as the game: same checks, same options, same effects.
+Talk to Mikhail as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/mikhail_start_select.json" data-npc="Mikhail" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (69 lines)"
 
@@ -406,7 +406,7 @@ Set your quest stages and items, then talk to Mikhail. Same rules as the game: s
 | [v0.7.4](../versions/0.7.4.md) | Dialogue: 1 line changed<br>· text: “As I said, Andor went out yesterday and hasn't been back since. I'm s…” → “As I said, Andor went out and hasn't been back since. I worry about h…” |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 10 lines added, 1 line changed |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Oh, you are such a good son.” → “Oh, you are such a nice child.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 4 lines changed<br>· text: “Thank you my son. Keep on searching for Andor.” → “Thank you my child. Keep on searching for Andor.”<br>· text: “Thank you my son for this wonderful necklace. Oh and it is in our fam…” → “Thank you my child for this wonderful necklace. Oh and it is in our f…” |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 5 lines added, 1 line changed |
 | [v0.7.17](../versions/0.7.17.md) | Dialogue: 4 lines added, 1 line changed |
 | [v0.8.5](../versions/0.8.5.md) | Dialogue: 17 lines added, 2 lines changed |

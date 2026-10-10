@@ -8,7 +8,7 @@ description: "Lesser wight is an enemy in Andor's Trail (undead) with 130 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik7_13.png" alt=""></p>
 
 | | |
 |---|---|

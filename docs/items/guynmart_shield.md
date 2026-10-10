@@ -8,7 +8,7 @@ description: "Guynmart shield is a ordinary shield, metal (light) in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_12.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_12.png" alt=""></p>
 
 | | |
 |---|---|

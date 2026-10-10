@@ -8,7 +8,7 @@ description: "Defender's blade is a ordinary longsword in Andor's Trail (Attack 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_2.png" alt=""></p>
 
 | | |
 |---|---|

@@ -6,7 +6,7 @@ description: "Vahram the butcher is an enemy in Andor's Trail (ghost) with 185 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_9.png" alt=""></p>
 
 | | |
 |---|---|

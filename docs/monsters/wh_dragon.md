@@ -6,7 +6,7 @@ description: "Falkour the Forge Dragon is scenery in Andor's Trail: a decoration
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_bosses_2x2_12.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_bosses_2x2_12.png" alt=""></p>
 
 | | |
 |---|---|

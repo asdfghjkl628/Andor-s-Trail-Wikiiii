@@ -8,7 +8,7 @@ description: "Reinvigorated is a beneficial physical condition in Andor's Trail:
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_2_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_2_1.png" alt=""></p>
 
 | | |
 |---|---|

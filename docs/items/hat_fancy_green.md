@@ -8,7 +8,7 @@ description: "Fancy green hat is a ordinary headwear, cloth in Andor's Trail (At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_10.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_10.png" alt=""></p>
 
 | | |
 |---|---|

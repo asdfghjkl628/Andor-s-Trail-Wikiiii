@@ -8,7 +8,7 @@ description: "Fortified defense is a beneficial physical condition in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_47.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_47.png" alt=""></p>
 
 | | |
 |---|---|

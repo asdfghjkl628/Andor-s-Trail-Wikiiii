@@ -8,7 +8,7 @@ description: "Taurophag is an enemy in Andor's Trail (animal) with 180 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_3_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_3_20.png" alt=""></p>
 
 | | |
 |---|---|

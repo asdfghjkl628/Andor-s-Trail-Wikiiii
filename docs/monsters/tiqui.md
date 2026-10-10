@@ -8,7 +8,7 @@ description: "Tiqui is an NPC you can also fight in Andor's Trail, found in Loda
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_87.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_87.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ description: "Tiqui is an NPC you can also fight in Andor's Trail, found in Loda
 </div>
 
 !!! warning "You can fight Tiqui"
-    Answering “Attack!” during [No rest for the guilty](../quests/lodar13_rest.md#stage-24) starts a fight with Tiqui.
+    Any of your answers (“Attack!” or “Sorry, I wasn't listening since I was so distracted by your hideous…”) during [No rest for the guilty](../quests/lodar13_rest.md#stage-24) starts a fight with Tiqui.
 
 ## Combat
 
@@ -56,11 +56,11 @@ description: "Tiqui is an NPC you can also fight in Andor's Trail, found in Loda
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Tiqui. Same rules as the game: same checks, same options, same effects.
+Talk to Tiqui as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tiqui.json" data-npc="Tiqui" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (25 lines)"
 

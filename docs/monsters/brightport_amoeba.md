@@ -8,7 +8,7 @@ description: "Blooming amoeba is an enemy in Andor's Trail (insect) with 60 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik10_11.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik10_11.png" alt=""></p>
 
 | | |
 |---|---|

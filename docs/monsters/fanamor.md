@@ -8,7 +8,7 @@ description: "Fanamor is a non-player character (NPC) in Andor's Trail, found in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men_7.png" alt=""></p>
 
 | | |
 |---|---|
@@ -19,7 +19,7 @@ description: "Fanamor is a non-player character (NPC) in Andor's Trail, found in
 </div>
 
 !!! note "A fight can start here"
-    Answering “Not without a fight!” during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with [Feygard scout](../monsters/feygard_scout.md), not with Fanamor.
+    Any of your answers (“Not without a fight!”, “How dare you! Prepare to die, useless soldier!” or “For the shadow!”) during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with [Feygard scout](../monsters/feygard_scout.md).
 
 ## Locations
 
@@ -35,11 +35,11 @@ description: "Fanamor is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Fanamor. Same rules as the game: same checks, same options, same effects.
+Talk to Fanamor as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fanamor_selector.json" data-npc="Fanamor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (39 lines)"
 
@@ -233,7 +233,7 @@ Set your quest stages and items, then talk to Fanamor. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “.. sigh ..” → “*sigh*”<br>· text: “Oh, who am I kidding. Ok, I was trying to get through the forest here…” → “Oh, who am I kidding. OK, I was trying to get through the forest here…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “I was just strolling through these woods .. eh .. killing Anklebiters.” → “I was just strolling through these woods ... eh ... killing anklebite…”<br>· text: “Oh, who am I kidding. Ok, I was trying to get through the forest here…” → “Oh, who am I kidding. OK, I was trying to get through the forest here…” |
 | [v0.7.8](../versions/0.7.8.md) | Movement: added (none)<br>Conversation changed<br>Dialogue: 19 lines added, 1 line changed |
 | [v0.7.13](../versions/0.7.13.md) | Dialogue: 2 lines changed<br>· text: “I need a bandage quickly, or I will never return to the guild house.” → “I need a bandage quickly, or I will never return to the guild house. …” |
 | [v0.8.13](../versions/0.8.13.md) | Dialogue: 13 lines added, 1 line changed |

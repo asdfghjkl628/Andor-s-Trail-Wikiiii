@@ -8,7 +8,7 @@ description: "Fledgling shadow gargoyle is an enemy in Andor's Trail (construct)
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_misc_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_misc_1.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Booklet from Kealwea is a rare other in Andor's Trail. How to get 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_books_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_books_1.png" alt=""></p>
 
 | | |
 |---|---|

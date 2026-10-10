@@ -8,7 +8,7 @@ description: "Armored helmet is a extraordinary headwear, metal (heavy) in Andor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_64.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_64.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Requiescence is a harmful mental condition in Andor's Trail: max A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_omi2_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_omi2_4.png" alt=""></p>
 
 | | |
 |---|---|

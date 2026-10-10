@@ -8,7 +8,7 @@ description: "Evil shade is an enemy in Andor's Trail (ghost) with 431 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_663.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_663.png" alt=""></p>
 
 | | |
 |---|---|

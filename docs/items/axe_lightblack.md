@@ -8,7 +8,7 @@ description: "Light black axe is a ordinary axe in Andor's Trail (Attack damage 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_36.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_36.png" alt=""></p>
 
 | | |
 |---|---|

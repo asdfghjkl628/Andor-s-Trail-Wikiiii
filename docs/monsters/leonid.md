@@ -8,7 +8,7 @@ description: "Leonid is an NPC you can also fight in Andor's Trail. Starts Disal
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men_3.png" alt=""></p>
 
 | | |
 |---|---|
@@ -33,11 +33,11 @@ description: "Leonid is an NPC you can also fight in Andor's Trail. Starts Disal
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Leonid. Same rules as the game: same checks, same options, same effects.
+Talk to Leonid as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/leonid1.json" data-npc="Leonid" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (15 lines)"
 
@@ -117,7 +117,7 @@ Set your quest stages and items, then talk to Leonid. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…”<br>· text: “On one hand, Lord Geomyr supports Crossglen with a lot of protection.…” → “On one hand, Lord Geomyr supports Crossglen with a lot of protection.…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines changed<br>· text: “Lord Geomyr issued a statement regarding the unlawful use of Bonemeal…” → “Lord Geomyr issued a statement regarding the unlawful use of bonemeal…”<br>· text: “In the meantime, we've banned all use of Bonemeal as a healing substa…” → “In the meantime, we've banned all use of bonemeal as a healing substa…” |
 | [v0.8.3](../versions/0.8.3.md) | Dialogue: 1 line changed<br>· text: “Hello kid. You're Mikhail's son aren't you? With that brother of your…” → “Hello kid. You're Mikhail's youngest child aren't you? With that brot…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

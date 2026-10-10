@@ -8,7 +8,7 @@ description: "Vaelric's elixir of vitality is a rare potion in Andor's Trail. Ho
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_740.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_740.png" alt=""></p>
 
 | | |
 |---|---|

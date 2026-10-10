@@ -8,7 +8,7 @@ description: "Guard is a non-player character (NPC) in Andor's Trail, found in F
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles3_14.png" alt=""></p>
 
 | | |
 |---|---|
@@ -33,11 +33,11 @@ description: "Guard is a non-player character (NPC) in Andor's Trail, found in F
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -74,11 +74,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_exit_forbidden_10.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -108,11 +108,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_prison_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -151,11 +151,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_shop_guard_select.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -195,11 +195,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_tavern_west_guard_select.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (8 lines)"
 
@@ -265,11 +265,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/charwd_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (6 lines)"
 
@@ -321,11 +321,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_backguard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (11 lines)"
 
@@ -412,11 +412,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (10 lines)"
 
@@ -485,11 +485,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/crossroads_sleepguard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (7 lines)"
 
@@ -541,11 +541,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/flagstone_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -571,11 +571,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guard_advent.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (19 lines)"
 
@@ -685,11 +685,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_guard0.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -715,11 +715,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/loneford_wellguard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -752,11 +752,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_guard.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [fallhaven_guard](#d-guard-fallhaven_guard).
 
@@ -783,11 +783,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/blackwater_guard1.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -813,11 +813,11 @@ Set your quest stages and items, then talk to Guard. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Guard. Same rules as the game: same checks, same options, same effects.
+Talk to Guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/remgard_guard1.json" data-npc="Guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

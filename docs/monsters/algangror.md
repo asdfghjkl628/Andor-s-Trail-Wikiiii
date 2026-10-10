@@ -8,7 +8,7 @@ description: "Algangror is an NPC you can also fight in Andor's Trail, found in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_68.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_68.png" alt=""></p>
 
 | | |
 |---|---|
@@ -68,11 +68,11 @@ description: "Algangror is an NPC you can also fight in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
+Talk to Algangror as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/algangror.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (108 lines)"
 
@@ -569,7 +569,7 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “Tell me, now that you have entered this house, would you be willing t…” → “Tell me, now that you have entered this house, would you be willing t…”<br>· text: “You could say I got obsessed with learning more. I guess the others l…” → “You could say I got obsessed with learning more. I guess the others l…” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 30 lines changed<br>· text: “You could say I got obsessed with learning more. I guess the others l…” → “You could say I got obsessed with learning more. I guess the others l…”<br>· text: “You should probably leave before you tip something over that might ..…” → “You should probably leave before you tip something over that might ..…” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed<br>· text: “Ah yes. After all, you are just a child and I can understand that all…” → “Ah yes. After all, you are just a child and I can understand that all…” |
 
@@ -587,11 +587,11 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
+Talk to Algangror as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror1.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (6 lines)"
 
@@ -642,11 +642,11 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
+Talk to Algangror as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror2.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (6 lines)"
 
@@ -727,11 +727,11 @@ Set your quest stages and items, then talk to Algangror. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Algangror. Same rules as the game: same checks, same options, same effects.
+Talk to Algangror as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror3.json" data-npc="Algangror" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (15 lines)"
 

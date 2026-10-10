@@ -8,7 +8,7 @@ description: "Korhald's kettle is a extraordinary headwear, metal (light) in And
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_71.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_71.png" alt=""></p>
 
 | | |
 |---|---|

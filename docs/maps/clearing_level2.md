@@ -1,5 +1,5 @@
 ---
-description: "Clearing level 2 is an indoor location in Andor's Trail. Enemies: Rabid wolf, Fledgling wolf, Pack hunter, Pack leader. Exits to Clearing level 1."
+description: "Clearing level 2 is an indoor location in Andor's Trail. Enemies: Fledgling wolf, Rabid wolf, Pack hunter, Pack leader. Exits to Clearing level 1."
 ---
 
 # Clearing level 2
@@ -44,8 +44,8 @@ description: "Clearing level 2 is an indoor location in Andor's Trail. Enemies: 
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 8 | shares spawn with Fledgling wolf |
 | [Fledgling wolf](../monsters/fledgling_wolf.md) | 42 | 2–5 | 8 | shares spawn with Rabid wolf |
+| [Rabid wolf](../monsters/rabid_wolf.md) | 42 | 2–6 | 8 | shares spawn with Fledgling wolf |
 | [Pack hunter](../monsters/pack_hunter.md) | 45 | 2–7 | 4 | – |
 | [Pack leader](../monsters/pack_leader.md) | 65 | 2–10 | 1 | – |
 

@@ -8,7 +8,7 @@ description: "Demon is an enemy in Andor's Trail (demon) with 180 HP, worth 313 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_238.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_238.png" alt=""></p>
 
 | | |
 |---|---|

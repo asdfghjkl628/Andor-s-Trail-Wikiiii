@@ -8,7 +8,7 @@ description: "Grave spawn is an enemy in Andor's Trail (demon) with 45 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_49.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_49.png" alt=""></p>
 
 | | |
 |---|---|

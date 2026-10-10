@@ -8,7 +8,7 @@ description: "Steel barbute is a ordinary headwear, metal (heavy) in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_17.png" alt=""></p>
 
 | | |
 |---|---|

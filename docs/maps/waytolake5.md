@@ -1,5 +1,5 @@
 ---
-description: "Waytolake 5 is an indoor location in Andor's Trail. Enemies: Plaguestrider servant, Plaguestrider master, Vile plaguestrider, Nesting plaguestrider. Exits to Waytolake 4, Mountainlake 0."
+description: "Waytolake 5 is an indoor location in Andor's Trail. Enemies: Plaguestrider master, Plaguestrider servant, Vile plaguestrider, Nesting plaguestrider. Exits to Waytolake 4, Mountainlake 0."
 ---
 
 # Waytolake 5
@@ -46,8 +46,8 @@ description: "Waytolake 5 is an indoor location in Andor's Trail. Enemies: Plagu
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Plaguestrider servant](../monsters/plaguesp_12.md) | 65 | 2–7 | 2 | – |
 | [Plaguestrider master](../monsters/plaguesp_13.md) | 65 | 2–8 | 3 | – |
+| [Plaguestrider servant](../monsters/plaguesp_12.md) | 65 | 2–7 | 2 | – |
 | [Vile plaguestrider](../monsters/plaguesp_10.md) | 67 | 2–7 | 8 | shares spawn with Nesting plaguestrider |
 | [Nesting plaguestrider](../monsters/plaguesp_11.md) | 68 | 2–7 | 8 | shares spawn with Vile plaguestrider |
 | [Plaguestrider master](../monsters/plaguesp_13.md#v-plaguesp_cr) | 365 | 2–8 | 1 | – |

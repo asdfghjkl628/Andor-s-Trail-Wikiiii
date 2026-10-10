@@ -8,7 +8,7 @@ description: "Lightning attack is a beneficial physical condition in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_87.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_87.png" alt=""></p>
 
 | | |
 |---|---|

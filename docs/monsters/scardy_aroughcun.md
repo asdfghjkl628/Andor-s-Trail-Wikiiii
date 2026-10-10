@@ -8,7 +8,7 @@ description: "Scardy aroughcun is an enemy in Andor's Trail (animal) with 170 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_275.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_275.png" alt=""></p>
 
 | | |
 |---|---|

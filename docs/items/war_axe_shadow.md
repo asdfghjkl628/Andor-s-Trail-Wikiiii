@@ -8,7 +8,7 @@ description: "War Axe of the Shadow is a rare axe in Andor's Trail (Attack damag
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_17.png" alt=""></p>
 
 | | |
 |---|---|

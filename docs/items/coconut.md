@@ -8,7 +8,7 @@ description: "Coconut is a extraordinary food in Andor's Trail. How to get it: c
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_500.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_500.png" alt=""></p>
 
 | | |
 |---|---|

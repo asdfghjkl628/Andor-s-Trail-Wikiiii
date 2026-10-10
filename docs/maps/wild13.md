@@ -1,5 +1,5 @@
 ---
-description: "Wild 13 is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Forest serpent, Wild boar, Hardshell beetle. Exits to Wild 14, Wild 12."
+description: "Wild 13 is an outdoor location in Andor's Trail, near Fallhaven (settlement). Enemies: Wild boar, Forest serpent, Hardshell beetle. Exits to Wild 14, Wild 12."
 ---
 
 # Wild 13
@@ -48,8 +48,8 @@ description: "Wild 13 is an outdoor location in Andor's Trail, near Fallhaven (s
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 3 | – |
+| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Hardshell beetle](../monsters/hardshell_beetle.md) | 25 | 0–5 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

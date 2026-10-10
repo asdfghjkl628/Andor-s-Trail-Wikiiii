@@ -8,7 +8,7 @@ description: "Baited strike is a harmful mental condition in Andor's Trail: atta
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_42.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_42.png" alt=""></p>
 
 | | |
 |---|---|

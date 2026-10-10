@@ -8,7 +8,7 @@ description: "Undertell pickaxe is a rare pole weapon in Andor's Trail (Attack d
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_273.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_273.png" alt=""></p>
 
 | | |
 |---|---|

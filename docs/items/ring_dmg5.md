@@ -8,7 +8,7 @@ description: "Ring of damage +5 is a rare ring in Andor's Trail (Attack damage 5
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_2.png" alt=""></p>
 
 | | |
 |---|---|

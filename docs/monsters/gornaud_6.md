@@ -8,7 +8,7 @@ description: "Nephrite Gornaud is an enemy in Andor's Trail (giant) with 395 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_31.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_31.png" alt=""></p>
 
 | | |
 |---|---|

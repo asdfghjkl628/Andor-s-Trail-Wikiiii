@@ -8,7 +8,7 @@ description: "Greataxe of broken promises is a rare greataxe in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_6_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_6_15.png" alt=""></p>
 
 | | |
 |---|---|

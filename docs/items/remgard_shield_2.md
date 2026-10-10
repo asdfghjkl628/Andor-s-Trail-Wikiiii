@@ -8,7 +8,7 @@ description: "Remgard combat shield is a ordinary shield, metal (light) in Andor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_24.png" alt=""></p>
 
 | | |
 |---|---|

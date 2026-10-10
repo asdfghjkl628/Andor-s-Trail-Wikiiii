@@ -12,7 +12,7 @@ description: "Inventory is a quest in Andor's Trail, started by Facutloni (brimh
 | **In journal** | Yes |
 | **Stages** | 12 (completes at 900) |
 | **Started by** | [Facutloni](../monsters/brv_wh_boss.md) ([Brimhaven warehouse](../maps/brimhaven_warehouse.md)) |
-| **NPCs involved** | [Facutloni](../monsters/brv_wh_boss.md), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_05), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_02), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_26), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_29), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_22) +15 |
+| **NPCs involved** | [Facutloni](../monsters/brv_wh_boss.md), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_28), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_21), [Warehouse storage spot](../monsters/brv_wh_item_00.md), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_23), [Warehouse storage spot](../monsters/brv_wh_item_00.md#v-brv_wh_item_09) +15 |
 | **Locations** | [Brimhaven warehouse](../maps/brimhaven_warehouse.md) |
 | **Total XP** | 2,000 |
 | **Related quests** | 1 |

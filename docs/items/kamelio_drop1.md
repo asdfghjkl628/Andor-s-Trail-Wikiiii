@@ -8,7 +8,7 @@ description: "Prim arming sword is a ordinary rapier in Andor's Trail (Attack da
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_53.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_53.png" alt=""></p>
 
 | | |
 |---|---|

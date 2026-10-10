@@ -8,7 +8,7 @@ description: "Pup rat is an enemy in Andor's Trail (animal) with 77 HP, worth 12
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_146.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_146.png" alt=""></p>
 
 | | |
 |---|---|

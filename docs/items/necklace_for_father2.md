@@ -8,7 +8,7 @@ description: "Necklace for father is a quest necklace in Andor's Trail. How to g
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_11.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_11.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Mudfiend is an enemy in Andor's Trail (construct) with 37 HP, wort
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_133.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_133.png" alt=""></p>
 
 | | |
 |---|---|

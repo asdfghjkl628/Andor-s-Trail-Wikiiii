@@ -8,7 +8,7 @@ description: "Worn plated gloves is a rare gloves, metal (heavy) in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_40.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_40.png" alt=""></p>
 
 | | |
 |---|---|

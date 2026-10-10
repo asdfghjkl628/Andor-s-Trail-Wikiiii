@@ -1,5 +1,5 @@
 ---
-description: "Waytolake 4 is an indoor location in Andor's Trail. Enemies: Puny plaguecrawler, Plaguecrawler, Tough plaguecrawler, Tough plaguestrider, Plaguestrider servant. Exits to Waytolake 3, Waytolake 5."
+description: "Waytolake 4 is an indoor location in Andor's Trail. Enemies: Puny plaguecrawler, Plaguecrawler, Tough plaguecrawler, Tough plaguestrider, Wooly plaguestrider. Exits to Waytolake 3, Waytolake 5."
 ---
 
 # Waytolake 4
@@ -50,8 +50,8 @@ description: "Waytolake 4 is an indoor location in Andor's Trail. Enemies: Puny 
 | [Plaguecrawler](../monsters/plaguesp_2.md) | 57 | 1–6 | 1 | shares spawn with Puny plaguecrawler, Tough plaguecrawler |
 | [Tough plaguecrawler](../monsters/plaguesp_3.md) | 59 | 1–6 | 1 | shares spawn with Plaguecrawler, Puny plaguecrawler |
 | [Tough plaguestrider](../monsters/plaguesp_7.md) | 64 | 2–6 | 3 | shares spawn with Tough wooly plaguestrider, Wooly plaguestrider |
-| [Plaguestrider servant](../monsters/plaguesp_12.md) | 65 | 2–7 | 5 | – |
 | [Wooly plaguestrider](../monsters/plaguesp_8.md) | 65 | 2–6 | 3 | shares spawn with Tough plaguestrider, Tough wooly plaguestrider |
+| [Plaguestrider servant](../monsters/plaguesp_12.md) | 65 | 2–7 | 5 | – |
 | [Tough wooly plaguestrider](../monsters/plaguesp_9.md) | 66 | 2–7 | 3 | shares spawn with Tough plaguestrider, Wooly plaguestrider |
 | [Vile plaguestrider](../monsters/plaguesp_10.md) | 67 | 2–7 | 12 | shares spawn with Nesting plaguestrider |
 | [Nesting plaguestrider](../monsters/plaguesp_11.md) | 68 | 2–7 | 12 | shares spawn with Vile plaguestrider |

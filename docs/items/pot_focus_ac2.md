@@ -8,7 +8,7 @@ description: "Strong potion of accuracy focus is a ordinary potion in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_37.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_37.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Bronze coin is a rare other in Andor's Trail. How to get it: conta
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_360.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_360.png" alt=""></p>
 
 | | |
 |---|---|

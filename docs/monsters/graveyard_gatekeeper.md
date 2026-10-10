@@ -8,7 +8,7 @@ description: "Graveyard gatekeeper is an enemy in Andor's Trail (undead) with 16
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_70.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik1_70.png" alt=""></p>
 
 | | |
 |---|---|

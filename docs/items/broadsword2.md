@@ -8,7 +8,7 @@ description: "Steel broadsword is a ordinary broadsword in Andor's Trail (Attack
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_6.png" alt=""></p>
 
 | | |
 |---|---|

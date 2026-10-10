@@ -8,7 +8,7 @@ description: "Satiety is a beneficial physical condition in Andor's Trail: max H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_86.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_86.png" alt=""></p>
 
 | | |
 |---|---|

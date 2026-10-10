@@ -8,7 +8,7 @@ description: "Bronze morningstar is a ordinary mace in Andor's Trail (Attack dam
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_15.png" alt=""></p>
 
 | | |
 |---|---|

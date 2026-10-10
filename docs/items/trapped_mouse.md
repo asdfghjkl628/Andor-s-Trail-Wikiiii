@@ -8,7 +8,7 @@ description: "Trapped mouse is a quest other in Andor's Trail. How to get it: qu
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_15.png" alt=""></p>
 
 | | |
 |---|---|

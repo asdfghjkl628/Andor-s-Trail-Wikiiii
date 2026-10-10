@@ -8,7 +8,7 @@ description: "Letter from Adakin is a quest other in Andor's Trail. My dear Mori
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_135.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_135.png" alt=""></p>
 
 | | |
 |---|---|

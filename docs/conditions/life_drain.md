@@ -8,7 +8,7 @@ description: "Life drain is a harmful spiritual condition in Andor's Trail: −2
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_82.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_82.png" alt=""></p>
 
 | | |
 |---|---|

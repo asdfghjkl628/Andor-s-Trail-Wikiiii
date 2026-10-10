@@ -12,7 +12,7 @@ description: "Shadows is a quest in Andor's Trail, started by Borvis (galmore_41
 | **In journal** | Yes |
 | **Stages** | 32 (completes at 20, 290) |
 | **Started by** | [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)), [Borvis](../monsters/dds_borvis.md) ([Galmore 41](../maps/galmore_41.md)) |
-| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest.md), [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
+| **NPCs involved** | [Andor](../monsters/dds_andor.md), [Borvis](../monsters/dds_borvis.md), [Dark priest](../monsters/dds_dark_priest.md#v-dds_dark_priest2), [Dark priest](../monsters/dds_dark_priest.md), [Favlon](../monsters/dds_favlon.md), [Jolnor](../monsters/jolnor.md) +2 |
 | **Locations** | [Galmore 41](../maps/galmore_41.md), [Galmore 45](../maps/galmore_45.md), [Loneford 4](../maps/loneford4.md), [Nw sullengard 1](../maps/nw_sullengard_1.md) |
 | **Total XP** | 27,001 |
 | **Related quests** | 7 |

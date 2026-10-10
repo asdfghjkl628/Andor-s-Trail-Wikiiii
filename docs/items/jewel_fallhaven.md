@@ -8,7 +8,7 @@ description: "Jewel of Fallhaven is a rare necklace in Andor's Trail (Attack cos
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_6.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Crystal ball is a rare other in Andor's Trail. How to get it: mons
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_356.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_356.png" alt=""></p>
 
 | | |
 |---|---|

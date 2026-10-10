@@ -8,7 +8,7 @@ description: "Remgard combat helmet is a ordinary headwear, metal (heavy) in And
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_26.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_26.png" alt=""></p>
 
 | | |
 |---|---|

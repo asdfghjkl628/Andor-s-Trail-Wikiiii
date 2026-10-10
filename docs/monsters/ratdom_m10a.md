@@ -8,7 +8,7 @@ description: "Poisonous caterpillar is an enemy in Andor's Trail (reptile) with 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_38.png" alt=""></p>
 
 | | |
 |---|---|

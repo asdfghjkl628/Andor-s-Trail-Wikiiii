@@ -8,7 +8,7 @@ description: "Panic is a harmful mental condition in Andor's Trail: max AP +4, a
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_omi2_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_omi2_0.png" alt=""></p>
 
 | | |
 |---|---|

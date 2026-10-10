@@ -8,7 +8,7 @@ description: "Suspect's glove is a quest gloves, leather in Andor's Trail. How t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_2_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_2_1.png" alt=""></p>
 
 | | |
 |---|---|

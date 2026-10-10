@@ -8,7 +8,7 @@ description: "Stoutford guard is an NPC you can also fight in Andor's Trail, fou
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_44.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik2_44.png" alt=""></p>
 
 | | |
 |---|---|
@@ -42,11 +42,11 @@ description: "Stoutford guard is an NPC you can also fight in Andor's Trail, fou
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -76,11 +76,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_gateguard_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (10 lines)"
 
@@ -171,11 +171,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0b.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -216,11 +216,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0c.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -246,11 +246,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
 
@@ -285,11 +285,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard2.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -330,11 +330,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard3.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -360,11 +360,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard4.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -413,11 +413,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard_camp1_10.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (6 lines)"
 
@@ -488,11 +488,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard_camp2_10.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard_camp2_10](#d-stoutford_guard_camp1-stoutford_guard_camp2_10).
 
@@ -516,11 +516,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/key_wild21a.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -559,11 +559,11 @@ Set your quest stages and items, then talk to Stoutford guard. Same rules as the
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
 
@@ -583,11 +583,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Stoutford guard. Same rules as the game: same checks, same options, same effects.
+Talk to Stoutford guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/stoutford_guard1_0.json" data-npc="Stoutford guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [stoutford_guard1_0](#d-stoutford_guard1-stoutford_guard1_0).
 

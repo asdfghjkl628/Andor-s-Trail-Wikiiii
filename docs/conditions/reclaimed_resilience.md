@@ -8,7 +8,7 @@ description: "Reclaimed resilience is a harmful physical condition in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_13.png" alt=""></p>
 
 | | |
 |---|---|

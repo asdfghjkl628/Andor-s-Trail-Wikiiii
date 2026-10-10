@@ -8,7 +8,7 @@ description: "Miner's lamp fuel is a ordinary other in Andor's Trail. How to get
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_98.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_98.png" alt=""></p>
 
 | | |
 |---|---|

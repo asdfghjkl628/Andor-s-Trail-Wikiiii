@@ -8,7 +8,7 @@ description: "Blessing of Shadow accuracy is a beneficial spiritual condition in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_98.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_98.png" alt=""></p>
 
 | | |
 |---|---|

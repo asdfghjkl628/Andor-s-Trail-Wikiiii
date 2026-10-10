@@ -8,7 +8,7 @@ description: "Xul'viir is a extraordinary two-handed sword in Andor's Trail (Att
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_40.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_40.png" alt=""></p>
 
 | | |
 |---|---|

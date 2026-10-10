@@ -8,7 +8,7 @@ description: "Giant wasp wing is a quest animal part in Andor's Trail. How to ge
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_52.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_52.png" alt=""></p>
 
 | | |
 |---|---|

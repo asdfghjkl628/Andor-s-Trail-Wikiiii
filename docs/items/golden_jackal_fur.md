@@ -8,7 +8,7 @@ description: "Golden jackal fur is a quest animal part in Andor's Trail. How to 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_16.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_16.png" alt=""></p>
 
 | | |
 |---|---|

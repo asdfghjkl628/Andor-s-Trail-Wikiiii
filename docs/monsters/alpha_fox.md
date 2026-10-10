@@ -8,7 +8,7 @@ description: "Alpha fox is an enemy in Andor's Trail (animal) with 50 HP, worth 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_7.png" alt=""></p>
 
 | | |
 |---|---|

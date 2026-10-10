@@ -8,7 +8,7 @@ description: "Cave rat is an enemy in Andor's Trail (animal) with 5 HP, worth 7â
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rats_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rats_1.png" alt=""></p>
 
 | | |
 |---|---|

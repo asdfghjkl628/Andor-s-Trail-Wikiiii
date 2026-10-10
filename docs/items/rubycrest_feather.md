@@ -8,7 +8,7 @@ description: "Rubycrest feather is a extraordinary other in Andor's Trail. How t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_573.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_573.png" alt=""></p>
 
 | | |
 |---|---|

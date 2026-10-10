@@ -8,7 +8,7 @@ description: "Spores of the giant mushroom is a ordinary other in Andor's Trail.
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_26.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_26.png" alt=""></p>
 
 | | |
 |---|---|

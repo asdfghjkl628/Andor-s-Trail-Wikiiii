@@ -8,7 +8,7 @@ description: "Bar brawler's ring is a ordinary ring in Andor's Trail (Attack dam
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_0.png" alt=""></p>
 
 | | |
 |---|---|

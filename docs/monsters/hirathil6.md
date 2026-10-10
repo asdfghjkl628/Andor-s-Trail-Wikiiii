@@ -8,7 +8,7 @@ description: "Hirathil master is an enemy in Andor's Trail (ghost) with 89 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_43.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_43.png" alt=""></p>
 
 | | |
 |---|---|

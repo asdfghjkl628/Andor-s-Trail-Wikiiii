@@ -8,7 +8,7 @@ description: "Fancy shirt is a ordinary armor, cloth in Andor's Trail (Move cost
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_146.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_146.png" alt=""></p>
 
 | | |
 |---|---|

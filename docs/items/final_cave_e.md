@@ -8,7 +8,7 @@ description: "Scroll of earth is a quest other in Andor's Trail. How to get it: 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_238.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_238.png" alt=""></p>
 
 | | |
 |---|---|

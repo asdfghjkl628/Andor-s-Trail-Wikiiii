@@ -8,7 +8,7 @@ description: "Ancient wolf is an enemy in Andor's Trail (animal) with 35 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_dogs_4.png" alt=""></p>
 
 | | |
 |---|---|

@@ -55,9 +55,9 @@ description: "Galmore 38 is an outdoor location in Andor's Trail. Enemies: Swamp
 | [Giant mosquito](../monsters/giant_mosquito.md) | 106 | 10–12 | 11 | – |
 | [Bog eel](../monsters/bog_eel.md) | 121 | 8–13 | 3 | – |
 | [Bog eel](../monsters/bog_eel.md#v-bog_eel_leech) | 121 | 8–13 | 3 | appears later, during a quest |
-| [Swamp lizard](../monsters/swamp_lizard.md) | 130 | 10–15 | 3 | – |
 | [Swamp lizard](../monsters/swamp_lizard.md#v-swamp_lizard_leech) | 130 | 10–15 | 3 | appears later, during a quest |
 | [Crocodilian behemoth](../monsters/crocodilian_behemoth.md) | 130 | 15–25 | 2 | – |
+| [Swamp lizard](../monsters/swamp_lizard.md) | 130 | 10–15 | 3 | – |
 | [Bridge bogling](../monsters/bridge_bogling.md) | 222 | 5–25 | 2 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

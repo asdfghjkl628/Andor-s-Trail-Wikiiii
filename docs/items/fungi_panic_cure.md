@@ -8,7 +8,7 @@ description: "Curative potion against mushroom wounding is a ordinary potion in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_62.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_62.png" alt=""></p>
 
 | | |
 |---|---|

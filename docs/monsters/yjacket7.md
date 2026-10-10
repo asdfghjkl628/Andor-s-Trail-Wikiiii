@@ -8,7 +8,7 @@ description: "Enraged yellowjacket is an enemy in Andor's Trail (insect) with 66
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_171.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_171.png" alt=""></p>
 
 | | |
 |---|---|

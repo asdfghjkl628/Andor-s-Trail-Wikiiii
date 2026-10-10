@@ -8,7 +8,7 @@ description: "Agent's cloak is a rare armor, cloth in Andor's Trail (Max HP +8, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_4.png" alt=""></p>
 
 | | |
 |---|---|

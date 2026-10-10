@@ -8,7 +8,7 @@ description: "Feygard plated gloves is a rare gloves, metal (heavy) in Andor's T
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_26.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_26.png" alt=""></p>
 
 | | |
 |---|---|

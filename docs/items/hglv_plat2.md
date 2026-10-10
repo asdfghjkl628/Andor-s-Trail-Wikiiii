@@ -8,7 +8,7 @@ description: "Heavy plated gloves is a ordinary gloves, metal (heavy) in Andor's
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_4.png" alt=""></p>
 
 | | |
 |---|---|

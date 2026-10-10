@@ -8,7 +8,7 @@ description: "Especially sweet wild berries is a ordinary food in Andor's Trail.
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_488.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_488.png" alt=""></p>
 
 | | |
 |---|---|

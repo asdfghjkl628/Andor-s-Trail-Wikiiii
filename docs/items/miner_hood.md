@@ -8,7 +8,7 @@ description: "Miner's hooded tunic is a rare armor, cloth in Andor's Trail (Max 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_145.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_145.png" alt=""></p>
 
 | | |
 |---|---|

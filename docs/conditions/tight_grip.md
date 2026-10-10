@@ -8,7 +8,7 @@ description: "Tight grip is a harmful physical condition in Andor's Trail: item 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_11.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_11.png" alt=""></p>
 
 | | |
 |---|---|

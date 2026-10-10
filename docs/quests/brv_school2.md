@@ -12,7 +12,7 @@ description: "Lessons learned is a quest in Andor's Trail, started by stepping o
 | **In journal** | Yes |
 | **Stages** | 22 (completes at 200, 210, 220, 230, 240) |
 | **Started by** | stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md), stepping on a trigger on [Brimhaven school](../maps/brimhaven_school.md) |
-| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil3), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil4), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil8) +5 |
+| **NPCs involved** | [Golin](../monsters/golin.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil6), [Pupil](../monsters/brv_pupil1.md), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil5), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil7), [Pupil](../monsters/brv_pupil1.md#v-brv_pupil2) +5 |
 | **Locations** | [Brimhaven school](../maps/brimhaven_school.md) |
 | **Total XP** | 9,500 |
 | **Related quests** | 1 |

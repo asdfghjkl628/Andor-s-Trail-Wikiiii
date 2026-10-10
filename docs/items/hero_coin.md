@@ -8,7 +8,7 @@ description: "Coin of Prestige is a quest money in Andor's Trail. How to get it:
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_362.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_362.png" alt=""></p>
 
 | | |
 |---|---|

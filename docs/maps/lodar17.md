@@ -1,5 +1,5 @@
 ---
-description: "Lodar 17 is an outdoor location in Andor's Trail. Enemies: Small horned anklebiter, Young horned anklebiter, Fast horned anklebiter, Aggressive venomscale, Quick venomscale. Exits to Lodar 16, Lodar 15."
+description: "Lodar 17 is an outdoor location in Andor's Trail. Enemies: Small horned anklebiter, Young horned anklebiter, Aggressive venomscale, Fast horned anklebiter, Quick venomscale. Exits to Lodar 16, Lodar 15."
 ---
 
 # Lodar 17
@@ -49,8 +49,8 @@ description: "Lodar 17 is an outdoor location in Andor's Trail. Enemies: Small h
 |---|---|---|---|---|
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 | 3–7 | 2 | shares spawn with Young horned anklebiter |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 | 5–7 | 2 | shares spawn with Small horned anklebiter |
-| [Fast horned anklebiter](../monsters/anklebiter4.md) | 52 | 1–9 | 4 | shares spawn with Tough horned anklebiter |
 | [Aggressive venomscale](../monsters/vscale4.md) | 52 | 4–6 | 3 | shares spawn with Quick venomscale |
+| [Fast horned anklebiter](../monsters/anklebiter4.md) | 52 | 1–9 | 4 | shares spawn with Tough horned anklebiter |
 | [Quick venomscale](../monsters/vscale5.md) | 56 | 5–6 | 3 | shares spawn with Aggressive venomscale |
 | [Branchtender](../monsters/brtender1.md) | 57 | 5–8 | 1 | – |
 | [Tough horned anklebiter](../monsters/anklebiter5.md) | 64 | 3–9 | 4 | shares spawn with Fast horned anklebiter |

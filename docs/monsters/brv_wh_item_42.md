@@ -6,7 +6,7 @@ description: "Lyre is scenery in Andor's Trail: a decoration or dialogue prop, f
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/items_japozero_368.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/items_japozero_368.png" alt=""></p>
 
 | | |
 |---|---|

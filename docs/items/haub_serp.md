@@ -8,7 +8,7 @@ description: "Serpent's hauberk is a extraordinary armor (light) in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_42.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_42.png" alt=""></p>
 
 | | |
 |---|---|

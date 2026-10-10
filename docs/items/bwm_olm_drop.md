@@ -8,7 +8,7 @@ description: "Thin amphibian skin is a ordinary animal part in Andor's Trail. Ho
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_53.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_53.png" alt=""></p>
 
 | | |
 |---|---|

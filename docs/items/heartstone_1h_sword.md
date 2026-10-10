@@ -8,7 +8,7 @@ description: "Heartsteel warblade is a legendary longsword in Andor's Trail (Att
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_364.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_364.png" alt=""></p>
 
 | | |
 |---|---|

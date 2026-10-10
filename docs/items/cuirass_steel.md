@@ -8,7 +8,7 @@ description: "Steel cuirass is a ordinary plate mail in Andor's Trail (Use item 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_1.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Ancient death cob is an enemy in Andor's Trail (undead) with 210 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_35.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_35.png" alt=""></p>
 
 | | |
 |---|---|

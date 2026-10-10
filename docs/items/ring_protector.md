@@ -8,7 +8,7 @@ description: "Ring of the protector is a rare ring in Andor's Trail (Attack dama
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_4.png" alt=""></p>
 
 | | |
 |---|---|

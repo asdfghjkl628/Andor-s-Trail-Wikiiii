@@ -8,7 +8,7 @@ description: "Runed scepter is a ordinary scepter in Andor's Trail (Attack damag
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_53.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_53.png" alt=""></p>
 
 | | |
 |---|---|

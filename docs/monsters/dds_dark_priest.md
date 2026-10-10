@@ -8,7 +8,7 @@ description: "Dark priest is an NPC you can also fight in Andor's Trail, found i
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_liches_3.png" alt=""></p>
 
 | | |
 |---|---|
@@ -33,11 +33,11 @@ description: "Dark priest is an NPC you can also fight in Andor's Trail, found i
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark priest. Same rules as the game: same checks, same options, same effects.
+Talk to Dark priest as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_dark_priest.json" data-npc="Dark priest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -82,11 +82,11 @@ Set your quest stages and items, then talk to Dark priest. Same rules as the gam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Dark priest. Same rules as the game: same checks, same options, same effects.
+Talk to Dark priest as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_dark_priest2.json" data-npc="Dark priest" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (13 lines)"
 

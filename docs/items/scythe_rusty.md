@@ -8,7 +8,7 @@ description: "Rusty scythe is a ordinary pole weapon in Andor's Trail (Attack da
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_2.png" alt=""></p>
 
 | | |
 |---|---|

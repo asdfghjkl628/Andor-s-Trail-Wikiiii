@@ -8,7 +8,7 @@ description: "Rotting corpse is an NPC you can also fight in Andor's Trail, foun
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_zombie1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_zombie1_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ description: "Rotting corpse is an NPC you can also fight in Andor's Trail, foun
 </div>
 
 !!! warning "You can fight Rotting corpse"
-    Answering “By the Shadow, I will slay you.” starts a fight with Rotting corpse.
+    Any of your answers (“By the Shadow, I will slay you.” or “Yuck, what are you? And what is that smell?”) starts a fight with Rotting corpse.
 
 ## Combat
 
@@ -61,11 +61,11 @@ description: "Rotting corpse is an NPC you can also fight in Andor's Trail, foun
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Rotting corpse. Same rules as the game: same checks, same options, same effects.
+Talk to Rotting corpse as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zombie1.json" data-npc="Rotting corpse" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

@@ -8,7 +8,7 @@ description: "Worn iron boots is a ordinary footwear, metal (heavy) in Andor's T
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_3.png" alt=""></p>
 
 | | |
 |---|---|

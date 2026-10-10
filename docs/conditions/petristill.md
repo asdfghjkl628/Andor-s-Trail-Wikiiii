@@ -8,7 +8,7 @@ description: "Petristill is a harmful physical condition in Andor's Trail: block
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_11.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_11.png" alt=""></p>
 
 | | |
 |---|---|

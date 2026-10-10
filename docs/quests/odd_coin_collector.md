@@ -12,7 +12,7 @@ description: "The odd coin collector is a quest in Andor's Trail, started by Gyl
 | **In journal** | Yes |
 | **Stages** | 25 (completes at 100, 105, 110, 115) |
 | **Started by** | [Gylew](../monsters/gylew.md) ([Waterway 5](../maps/waterway5.md)) |
-| **NPCs involved** | [Forenza](../monsters/forenza.md), [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3), [Gylew](../monsters/gylew.md) |
+| **NPCs involved** | [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3), [Forenza](../monsters/forenza.md), [Gylew](../monsters/gylew.md) |
 | **Locations** | [Laerothbasement 2](../maps/laerothbasement2.md), [Waterway 5](../maps/waterway5.md), [Waytobrimhaven 3](../maps/waytobrimhaven3.md) |
 | **Total XP** | 28,150 |
 | **Related quests** | 5 |

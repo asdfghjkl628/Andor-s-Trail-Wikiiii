@@ -8,7 +8,7 @@ description: "Stoutford combat amulet is a ordinary necklace in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_8.png" alt=""></p>
 
 | | |
 |---|---|

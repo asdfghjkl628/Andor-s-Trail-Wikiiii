@@ -8,7 +8,7 @@ description: "Bat wing is a ordinary animal part in Andor's Trail. How to get it
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_46.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_46.png" alt=""></p>
 
 | | |
 |---|---|

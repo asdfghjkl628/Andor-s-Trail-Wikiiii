@@ -8,7 +8,7 @@ description: "Key (found in run-down house East Brimhaven) is a quest other in A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_384.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_384.png" alt=""></p>
 
 | | |
 |---|---|

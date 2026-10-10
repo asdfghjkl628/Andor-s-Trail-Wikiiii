@@ -8,7 +8,7 @@ description: "Golden Arulir is an enemy in Andor's Trail (giant) with 403 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_arulirs_12.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_arulirs_12.png" alt=""></p>
 
 | | |
 |---|---|

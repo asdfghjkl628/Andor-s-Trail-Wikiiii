@@ -8,7 +8,7 @@ description: "Kazaul guardian is an NPC you can also fight in Andor's Trail, fou
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_42.png" alt=""></p>
 
 | | |
 |---|---|
@@ -23,7 +23,7 @@ description: "Kazaul guardian is an NPC you can also fight in Andor's Trail, fou
 </div>
 
 !!! warning "You can fight Kazaul guardian"
-    Answering “A fight, I have been waiting for this!” during [Lights in the dark](../quests/kazaul.md#stage-50) starts a fight with Kazaul guardian.
+    Any of your answers (“A fight, I have been waiting for this!”, “Please don't kill me!” or “For the Shadow!”) during [Lights in the dark](../quests/kazaul.md#stage-50) starts a fight with Kazaul guardian.
 
 ## Combat
 
@@ -59,11 +59,11 @@ description: "Kazaul guardian is an NPC you can also fight in Andor's Trail, fou
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Kazaul guardian. Same rules as the game: same checks, same options, same effects.
+Talk to Kazaul guardian as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kazaul_guardian.json" data-npc="Kazaul guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -94,7 +94,7 @@ Set your quest stages and items, then talk to Kazaul guardian. Same rules as the
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(The guardian looks down upon you with its burning eyes)” → “[The guardian looks down upon you with its burning eyes]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 4 lines changed<br>· text: “Kazaul..” → “Kazaul...”<br>· text: “(You see the burning eyes of the guardian instantly turn into a dark …” → “[You see the burning eyes of the guardian instantly turn into a dark …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

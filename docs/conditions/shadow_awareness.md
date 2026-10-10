@@ -8,7 +8,7 @@ description: "Shadow awareness is a harmful mental condition in Andor's Trail: m
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_28.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_28.png" alt=""></p>
 
 | | |
 |---|---|

@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven 2 is an outdoor location in Andor's Trail, near Loneford (settlement). NPCs: Churrie, Tamarukh. Enemies: Spotted erumen lizard, Erumen lizard, Young erumen lizard, Bone champion, Strong erumen lizard. Exits to Waytobrimhaven 3, Waytobrimhaven 1, Waytobrimhavencave 0."
+description: "Waytobrimhaven 2 is an outdoor location in Andor's Trail, near Loneford (settlement). NPCs: Churrie, Tamarukh. Enemies: Young erumen lizard, Erumen lizard, Spotted erumen lizard, Bone champion, Strong erumen lizard. Exits to Waytobrimhaven 3, Waytobrimhaven 1, Waytobrimhavencave 0."
 ---
 
 # Waytobrimhaven 2
@@ -63,9 +63,9 @@ description: "Waytobrimhaven 2 is an outdoor location in Andor's Trail, near Lon
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 7 | shares spawn with Strong erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 3 | shares spawn with Spotted erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 7 | shares spawn with Strong erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 3 | shares spawn with Young erumen lizard |
 | [Bone champion](../monsters/bone_champion.md) | 49 | 4–9 | 1 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 7 | shares spawn with Erumen lizard |
 | [Vile erumen lizard](../monsters/erumen_5.md) | 89 | 2–9 | 3 | shares spawn with Tough erumen lizard |

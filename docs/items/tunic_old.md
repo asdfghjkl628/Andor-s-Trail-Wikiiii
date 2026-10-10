@@ -8,7 +8,7 @@ description: "Old tunic is a ordinary armor, cloth in Andor's Trail (Move cost +
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_160.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_160.png" alt=""></p>
 
 | | |
 |---|---|

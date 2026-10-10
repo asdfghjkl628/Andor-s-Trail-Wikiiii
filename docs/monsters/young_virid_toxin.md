@@ -8,7 +8,7 @@ description: "Young ViridToxin dartmaw is an enemy in Andor's Trail (reptile) wi
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_363.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_363.png" alt=""></p>
 
 | | |
 |---|---|

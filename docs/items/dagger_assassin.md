@@ -8,7 +8,7 @@ description: "Assassin's blade is a extraordinary dagger in Andor's Trail (Attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_14.png" alt=""></p>
 
 | | |
 |---|---|

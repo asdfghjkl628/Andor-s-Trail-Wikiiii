@@ -8,7 +8,7 @@ description: "Prim priestly acolyte is a non-player character (NPC) in Andor's T
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_83.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_83.png" alt=""></p>
 
 | | |
 |---|---|
@@ -20,11 +20,11 @@ description: "Prim priestly acolyte is a non-player character (NPC) in Andor's T
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Prim priestly acolyte. Same rules as the game: same checks, same options, same effects.
+Talk to Prim priestly acolyte as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/prim_acolyte.json" data-npc="Prim priestly acolyte" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

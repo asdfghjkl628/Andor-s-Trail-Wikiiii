@@ -52,8 +52,8 @@ description: "Laerothcave 1 is an indoor location in Andor's Trail. Enemies: Gra
 | [Black cave bat](../monsters/cavebat2.md) | 32 | 2–6 | 5 | shares spawn with Brown cave bat, Gray cave bat |
 | [Brown cave bat](../monsters/cavebat3.md) | 36 | 1–7 | 5 | shares spawn with Black cave bat, Gray cave bat |
 | [Cave worm](../monsters/cave_worm.md) | 80 | 1–11 | 2 | shares spawn with Vicious cave worm |
-| [Giant centipede](../monsters/centipede.md) | 90 | 3–9 | 2 | shares spawn with Aggressive giant centipede |
 | [Vicious cave worm](../monsters/cave_worm_vicious.md) | 90 | 3–12 | 2 | shares spawn with Cave worm |
+| [Giant centipede](../monsters/centipede.md) | 90 | 3–9 | 2 | shares spawn with Aggressive giant centipede |
 | [Aggressive giant centipede](../monsters/centipede_aggressive.md) | 100 | 5–11 | 2 | shares spawn with Giant centipede |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

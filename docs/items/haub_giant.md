@@ -8,7 +8,7 @@ description: "Giant's hauberk is a extraordinary armor (heavy) in Andor's Trail 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_44.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_44.png" alt=""></p>
 
 | | |
 |---|---|

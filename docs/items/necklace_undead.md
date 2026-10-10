@@ -8,7 +8,7 @@ description: "Necklace of the Undead is a extraordinary necklace in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_1.png" alt=""></p>
 
 | | |
 |---|---|

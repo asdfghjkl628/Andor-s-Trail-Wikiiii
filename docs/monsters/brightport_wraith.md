@@ -8,7 +8,7 @@ description: "Wraith is an enemy in Andor's Trail (undead) with 150 HP, worth 50
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_67.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_67.png" alt=""></p>
 
 | | |
 |---|---|

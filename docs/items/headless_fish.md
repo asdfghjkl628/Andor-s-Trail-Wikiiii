@@ -8,7 +8,7 @@ description: "Headless fish is a ordinary food in Andor's Trail. How to get it: 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_784.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_784.png" alt=""></p>
 
 | | |
 |---|---|

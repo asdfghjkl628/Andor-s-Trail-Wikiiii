@@ -8,7 +8,7 @@ description: "Giant centipede is an enemy in Andor's Trail (insect) with 90 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_149.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_149.png" alt=""></p>
 
 | | |
 |---|---|

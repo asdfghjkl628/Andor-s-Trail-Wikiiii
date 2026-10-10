@@ -8,7 +8,7 @@ description: "Sewn footwear is a ordinary footwear, cloth in Andor's Trail (Bloc
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_28.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_28.png" alt=""></p>
 
 | | |
 |---|---|

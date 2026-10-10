@@ -1,5 +1,5 @@
 ---
-description: "Wild 14 is an outdoor location in Andor's Trail, near Foaming Flask Tavern (other). Enemies: Vicious forest serpent, Wolf, Ancient wolf, Cave dwelling boar. Exits to Wild 15, Wild 13, Wild 14 cave."
+description: "Wild 14 is an outdoor location in Andor's Trail, near Foaming Flask Tavern (other). Enemies: Vicious forest serpent, Wolf, Cave dwelling boar, Ancient wolf. Exits to Wild 15, Wild 13, Wild 14 cave."
 ---
 
 # Wild 14
@@ -52,8 +52,8 @@ description: "Wild 14 is an outdoor location in Andor's Trail, near Foaming Flas
 |---|---|---|---|---|
 | [Vicious forest serpent](../monsters/vicious_forest_serpent.md) | 27 | 3–4 | 2 | – |
 | [Wolf](../monsters/wolf.md) | 30 | 3–6 | 1 | – |
-| [Ancient wolf](../monsters/lonely_wolf.md) | 35 | 3–6 | 1 | – |
 | [Cave dwelling boar](../monsters/cave_dwelling_boar.md) | 35 | 3–8 | 2 | – |
+| [Ancient wolf](../monsters/lonely_wolf.md) | 35 | 3–6 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

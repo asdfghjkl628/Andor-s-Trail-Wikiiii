@@ -8,7 +8,7 @@ description: "Bloated carrion centipede is an enemy in Andor's Trail (insect) wi
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_150.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_150.png" alt=""></p>
 
 | | |
 |---|---|

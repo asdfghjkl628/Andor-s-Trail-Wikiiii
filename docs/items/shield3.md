@@ -8,7 +8,7 @@ description: "Reinforced wooden buckler is a ordinary buckler in Andor's Trail (
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_1.png" alt=""></p>
 
 | | |
 |---|---|

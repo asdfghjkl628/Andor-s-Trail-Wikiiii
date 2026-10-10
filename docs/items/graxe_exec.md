@@ -8,7 +8,7 @@ description: "Executioner's greataxe is a ordinary greataxe in Andor's Trail (At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_69.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_69.png" alt=""></p>
 
 | | |
 |---|---|

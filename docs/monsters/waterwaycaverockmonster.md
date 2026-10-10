@@ -8,7 +8,7 @@ description: "Rock fiend is an enemy in Andor's Trail (construct) with 80 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_46.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik1_46.png" alt=""></p>
 
 | | |
 |---|---|

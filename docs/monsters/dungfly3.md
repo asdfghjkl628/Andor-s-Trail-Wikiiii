@@ -8,7 +8,7 @@ description: "Vicious dungfly is an enemy in Andor's Trail (insect) with 34 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_169.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_169.png" alt=""></p>
 
 | | |
 |---|---|

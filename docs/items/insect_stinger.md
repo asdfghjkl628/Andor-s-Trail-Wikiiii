@@ -8,7 +8,7 @@ description: "Insect stinger is a ordinary animal part in Andor's Trail. How to 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_568.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_568.png" alt=""></p>
 
 | | |
 |---|---|

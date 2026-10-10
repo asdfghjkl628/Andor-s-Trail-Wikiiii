@@ -8,7 +8,7 @@ description: "Feline gloves is a rare gloves, cloth in Andor's Trail (Use item c
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_41.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_41.png" alt=""></p>
 
 | | |
 |---|---|

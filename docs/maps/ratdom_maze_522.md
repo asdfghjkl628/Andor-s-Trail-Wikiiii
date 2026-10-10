@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 522 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat. Exits to Ratdom maze 513, Ratdom maze 433, Ratdom maze 532, Ratdom maze 512."
+description: "Ratdom maze 522 is an indoor location in Andor's Trail, in Pub (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat. Exits to Ratdom maze 513, Ratdom maze 433, Ratdom maze 532, Ratdom maze 512."
 ---
 
 # Ratdom maze 522
@@ -78,8 +78,8 @@ description: "Ratdom maze 522 is an indoor location in Andor's Trail, in Pub (ot
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

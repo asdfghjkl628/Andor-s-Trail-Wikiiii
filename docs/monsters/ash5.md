@@ -8,7 +8,7 @@ description: "Young ash spawn is an enemy in Andor's Trail (demon) with 80 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_10.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik2_10.png" alt=""></p>
 
 | | |
 |---|---|

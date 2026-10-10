@@ -8,7 +8,7 @@ description: "Young minotaur is an enemy in Andor's Trail (giant) with 45 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_misc_5.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_misc_5.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Kazarite golem is an enemy in Andor's Trail (giant) with 198 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik10_33.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik10_33.png" alt=""></p>
 
 | | |
 |---|---|

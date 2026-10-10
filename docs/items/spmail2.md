@@ -8,7 +8,7 @@ description: "Worn splint mail is a ordinary splint mail in Andor's Trail (Attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_17.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Bleeding wound is a harmful blood condition in Andor's Trail: −1
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_2_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_2_0.png" alt=""></p>
 
 | | |
 |---|---|

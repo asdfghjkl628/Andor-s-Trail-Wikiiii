@@ -8,7 +8,7 @@ description: "Island lizard is an enemy in Andor's Trail (reptile) with 70 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik2_14.png" alt=""></p>
 
 | | |
 |---|---|

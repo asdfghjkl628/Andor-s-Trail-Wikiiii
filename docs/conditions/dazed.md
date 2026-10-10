@@ -8,7 +8,7 @@ description: "Dazed is a harmful mental condition in Andor's Trail: block chance
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_65.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_65.png" alt=""></p>
 
 | | |
 |---|---|

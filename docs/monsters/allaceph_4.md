@@ -8,7 +8,7 @@ description: "Tough allaceph is an enemy in Andor's Trail (demon) with 111 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_102.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_102.png" alt=""></p>
 
 | | |
 |---|---|

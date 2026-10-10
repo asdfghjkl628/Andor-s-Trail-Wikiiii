@@ -8,7 +8,7 @@ description: "Armored cave scorpion is an enemy in Andor's Trail (insect) with 3
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik3_73.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik3_73.png" alt=""></p>
 
 | | |
 |---|---|

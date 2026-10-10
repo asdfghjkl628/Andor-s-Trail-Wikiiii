@@ -8,7 +8,7 @@ description: "Empty flask is a ordinary liquid container in Andor's Trail. How t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_59.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_59.png" alt=""></p>
 
 | | |
 |---|---|

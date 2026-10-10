@@ -8,7 +8,7 @@ description: "Gunfryk is an NPC you can also fight in Andor's Trail, found in Br
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_74.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_74.png" alt=""></p>
 
 | | |
 |---|---|
@@ -82,11 +82,11 @@ description: "Gunfryk is an NPC you can also fight in Andor's Trail, found in Br
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Gunfryk. Same rules as the game: same checks, same options, same effects.
+Talk to Gunfryk as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brightport_gunfryk_selector0.json" data-npc="Gunfryk" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (33 lines)"
 

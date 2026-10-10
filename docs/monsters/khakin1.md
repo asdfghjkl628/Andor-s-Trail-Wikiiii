@@ -8,7 +8,7 @@ description: "Khakin spawn is an enemy in Andor's Trail (reptile) with 47 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_111.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_111.png" alt=""></p>
 
 | | |
 |---|---|

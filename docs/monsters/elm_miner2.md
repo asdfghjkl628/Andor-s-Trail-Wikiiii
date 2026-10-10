@@ -8,7 +8,7 @@ description: "Foul miner's skeleton is an enemy in Andor's Trail (undead) with 8
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik9_55.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik9_55.png" alt=""></p>
 
 | | |
 |---|---|

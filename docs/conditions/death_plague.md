@@ -8,7 +8,7 @@ description: "Death Plague is a harmful blood condition in Andor's Trail: block 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_35.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_35.png" alt=""></p>
 
 | | |
 |---|---|

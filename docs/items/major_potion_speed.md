@@ -8,7 +8,7 @@ description: "Major potion of speed is a rare potion in Andor's Trail. How to ge
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_736.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_736.png" alt=""></p>
 
 | | |
 |---|---|

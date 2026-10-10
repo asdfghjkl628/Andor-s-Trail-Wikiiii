@@ -8,7 +8,7 @@ description: "Iqhan worker thrall is an enemy in Andor's Trail (humanoid) with 5
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_96.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_96.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Minor potion of strength is a ordinary potion in Andor's Trail. Ho
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik1_21.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik1_21.png" alt=""></p>
 
 | | |
 |---|---|

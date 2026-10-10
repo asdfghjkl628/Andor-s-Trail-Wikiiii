@@ -8,7 +8,7 @@ description: "Chainmail mittens is a ordinary gloves, metal (heavy) in Andor's T
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_36.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_36.png" alt=""></p>
 
 | | |
 |---|---|

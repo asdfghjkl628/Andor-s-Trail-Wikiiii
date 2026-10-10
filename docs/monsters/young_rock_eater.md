@@ -8,7 +8,7 @@ description: "Young rock eater is an enemy in Andor's Trail (construct) with 303
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_55.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_55.png" alt=""></p>
 
 | | |
 |---|---|

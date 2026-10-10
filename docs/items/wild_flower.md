@@ -8,7 +8,7 @@ description: "Wild Flower is a ordinary other in Andor's Trail. How to get it: q
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_547.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_547.png" alt=""></p>
 
 | | |
 |---|---|

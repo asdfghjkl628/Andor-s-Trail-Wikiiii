@@ -8,7 +8,7 @@ description: "Kitchen knife is a ordinary dagger in Andor's Trail (Attack damage
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_39.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_39.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Mountain fox is an enemy in Andor's Trail (animal) with 60 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_dogs_2.png" alt=""></p>
 
 | | |
 |---|---|

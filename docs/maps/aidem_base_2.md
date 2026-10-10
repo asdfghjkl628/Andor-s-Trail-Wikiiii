@@ -1,5 +1,5 @@
 ---
-description: "Aidem base 2 is an indoor location in Andor's Trail. NPCs: Alaric, Defy, Grabby, Greedy, Zachlanny. Enemies: Alaric, Grabby, Greedy, Zachlanny. Exits to Aidem base 1."
+description: "Aidem base 2 is an indoor location in Andor's Trail. NPCs: Alaric, Defy, Grabby, Greedy, Zachlanny. Enemies: Greedy, Alaric, Grabby, Zachlanny. Exits to Aidem base 1."
 ---
 
 # Aidem base 2
@@ -59,9 +59,9 @@ description: "Aidem base 2 is an indoor location in Andor's Trail. NPCs: Alaric,
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
+| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_base_greedy_aggressive) | 329 | 7–9 | 1 | appears later, during a quest |
 | [Alaric](../monsters/aidem_base_alaric.md#v-aidem_base_alaric_aggressive) | 329 | 7–9 | 1 | appears later, during a quest |
 | [Grabby](../monsters/aidem_camp_grabby.md#v-aidem_base_grabby_aggressive) | 329 | 7–9 | 1 | appears later, during a quest |
-| [Greedy](../monsters/aidem_camp_greedy.md#v-aidem_base_greedy_aggressive) | 329 | 7–9 | 1 | appears later, during a quest |
 | [Zachlanny](../monsters/aidem_camp_zachlanny.md#v-aidem_base_zachlanny_aggressive) | 329 | 7–9 | 1 | appears later, during a quest |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

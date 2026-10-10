@@ -8,7 +8,7 @@ description: "Enhanced Shielding necklace is a rare necklace in Andor's Trail (B
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_7.png" alt=""></p>
 
 | | |
 |---|---|

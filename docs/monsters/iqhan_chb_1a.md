@@ -8,7 +8,7 @@ description: "Iqhan chaos beast is an enemy in Andor's Trail (construct) with 12
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_19.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_19.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Feygard scout is an NPC you can also fight in Andor's Trail, found
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_omi1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_omi1_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -27,9 +27,9 @@ description: "Feygard scout is an NPC you can also fight in Andor's Trail, found
 **Where:** Crossroads Guardhouse: [Crossroads](../maps/crossroads.md#pin-npc-feygard_scout)
 
 !!! warning "You can fight Feygard scout"
-    Answering “Not without a fight!” while talking to [Fanamor](../monsters/fanamor.md) during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with Feygard scout.
+    Any of your answers (“Not without a fight!”, “How dare you! Prepare to die, useless soldier!” or “For the shadow!”) while talking to [Fanamor](../monsters/fanamor.md) during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with Feygard scout.
 
-    Answering “Not without a fight!” during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with Feygard scout.
+    Any of your answers (“Not without a fight!”, “How dare you! Prepare to die, useless soldier!” or “For the shadow!”) during [Thief apprentice](../quests/Thieves01.md#stage-40) starts a fight with Feygard scout.
 
 ### Combat
 
@@ -66,11 +66,11 @@ description: "Feygard scout is an NPC you can also fight in Andor's Trail, found
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Feygard scout. Same rules as the game: same checks, same options, same effects.
+Talk to Feygard scout as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/feygard_scout_3.json" data-npc="Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -99,11 +99,11 @@ Set your quest stages and items, then talk to Feygard scout. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Feygard scout. Same rules as the game: same checks, same options, same effects.
+Talk to Feygard scout as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard6_1.json" data-npc="Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -173,11 +173,11 @@ Set your quest stages and items, then talk to Feygard scout. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Feygard scout. Same rules as the game: same checks, same options, same effects.
+Talk to Feygard scout as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard_selector.json" data-npc="Feygard scout" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (33 lines)"
 

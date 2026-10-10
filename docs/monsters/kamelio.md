@@ -8,7 +8,7 @@ description: "Kamelio is an NPC you can also fight in Andor's Trail, found in El
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik1_2.png" alt=""></p>
 
 | | |
 |---|---|
@@ -25,13 +25,13 @@ description: "Kamelio is an NPC you can also fight in Andor's Trail, found in El
 !!! warning "You can fight Kamelio"
     The conversation can lead straight into a fight with Kamelio.
 
-    Answering “For the shadow!” during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
+    Any of your answers (“For the shadow!”, “Wh...What?” or “Don't beg me later.”) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
 
-    Answering “Betrayer, die!” during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
+    Any of your answers (“Betrayer, die!”, “For the shadow!” or “Wanna bet, weakling?”) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
 
-    Answering “OK, you're completely out of your mind.” during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
+    Any of your answers (“OK, you're completely out of your mind.”, “Kill me? How dare you. Die!” or “Bad idea. For the Shadow!”) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
 
-    Answering “Oh? Let's see if you can stand a single blow!” during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
+    Any of your answers (“Oh? Let's see if you can stand a single blow!”, “This hatred against Feygard is injuring you; I'll be your cure.” or “For Feygard!!”) during [Blackwater Mountain events (hidden flag)](../quests/bwm72_beginning.md#stage-37) starts a fight with Kamelio.
 
 ## Combat
 
@@ -74,11 +74,11 @@ description: "Kamelio is an NPC you can also fight in Andor's Trail, found in El
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Kamelio. Same rules as the game: same checks, same options, same effects.
+Talk to Kamelio as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kamelio_s.json" data-npc="Kamelio" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (12 lines)"
 

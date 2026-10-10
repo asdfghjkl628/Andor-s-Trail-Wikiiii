@@ -8,7 +8,7 @@ description: "Spore poisoning is a harmful blood condition in Andor's Trail: att
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_61.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_61.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Tinlyn is a non-player character (NPC) in Andor's Trail, found in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_karvis2_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_karvis2_7.png" alt=""></p>
 
 | | |
 |---|---|
@@ -26,11 +26,11 @@ description: "Tinlyn is a non-player character (NPC) in Andor's Trail, found in 
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Tinlyn. Same rules as the game: same checks, same options, same effects.
+Talk to Tinlyn as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tinlyn.json" data-npc="Tinlyn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (24 lines)"
 
@@ -150,7 +150,7 @@ Set your quest stages and items, then talk to Tinlyn. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Good, thank you. Please put these bells around their necks so I can h…” → “Good, thank you. Please put these bells around their necks so I can h…”<br>· text: “Hello there. You wouldn't happen to want to help an old shepherd do y…” → “Hello there. You wouldn't happen to want to help an old shepherd woul…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Hello there. You wouldn't happen to want to help an old shepherd do y…” → “Hello there. You wouldn't happen to want to help an old shepherd woul…”<br>· text: “Good, thank you. Please put these bells around their necks so I can h…” → “Good, thank you. Please put these bells around their necks so I can h…” |
 | [v0.8.10](../versions/0.8.10.md) | Dialogue: 4 lines added, 3 lines changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -8,7 +8,7 @@ description: "Drowning is a harmful physical condition in Andor's Trail: −80 t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_68.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_68.png" alt=""></p>
 
 | | |
 |---|---|

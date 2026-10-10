@@ -8,7 +8,7 @@ description: "Blackwater leather cap is a rare headwear, leather in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_24.png" alt=""></p>
 
 | | |
 |---|---|

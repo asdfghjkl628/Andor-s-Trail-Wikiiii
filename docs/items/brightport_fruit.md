@@ -8,7 +8,7 @@ description: "Fresh fruit for Stanwick is a quest other in Andor's Trail. How to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_528.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_528.png" alt=""></p>
 
 | | |
 |---|---|

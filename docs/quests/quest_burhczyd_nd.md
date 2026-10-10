@@ -15,7 +15,7 @@ description: "Young merchant story flags is a hidden quest in Andor's Trail, sta
 | **In journal** | No (hidden flag) |
 | **Stages** | 94 |
 | **Started by** | stepping on a trigger on [Crossglen](../maps/crossglen.md) |
-| **NPCs involved** | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd6), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd22), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd12), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd14), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd9), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16) +38 |
+| **NPCs involved** | [Burhczyd](../monsters/burhczyd1.md#v-burhczyd10), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd16), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd19), [Burhczyd](../monsters/burhczyd1.md), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd20), [Burhczyd](../monsters/burhczyd1.md#v-burhczyd13) +38 |
 | **Locations** | [Blackwater mountain 22](../maps/blackwater_mountain22.md), [Blackwater mountain 43](../maps/blackwater_mountain43.md), [Brightport bakery](../maps/brightport_bakery.md), [Brimhaven tavern 1](../maps/brimhaven_tavern1.md) |
 | **Related quests** | 1 |
 
@@ -6372,7 +6372,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | [v0.7.8](../versions/0.7.8.md) | Added<br>Dialogue: 37 lines added |
 | [v0.7.9](../versions/0.7.9.md) | Dialogue: 1 line changed |
 | [v0.7.10](../versions/0.7.10.md) | Dialogue: 1 line changed |
-| [v0.7.11](../versions/0.7.11.md) | Stages added: 91, 92, 93, 94, 95, 97, 98, 99, 610, 611, 612, 710, 711, 712, 910, 911, 912<br>Stage 68 journal text changed<br>Stage 78 journal text changed<br>Dialogue: 10 lines added, 21 lines changed<br>· text: “Last but not least I proudly present: The dagger of the Shadow priest…” → “Last but not least I proudly present: The Dagger of the Shadow Priest…”<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.” |
+| [v0.7.11](../versions/0.7.11.md) | Stages added: 91, 92, 93, 94, 95, 97, 98, 99, 610, 611, 612, 710, 711, 712, 910, 911, 912<br>Stage 68 journal text changed<br>Stage 78 journal text changed<br>Dialogue: 10 lines added, 21 lines changed<br>· text: “Then we have a ruby gem - not of much worth really.” → “Then we have a ruby gem - not of much worth, really.”<br>· text: “Here is your necklace of the Undead. I didn't even wear it once.” → “Here is your Necklace of the Undead. I didn't even wear it once.” |
 | [v0.8.2](../versions/0.8.2.md) | Stages added: 96<br>Stage 611 journal text changed<br>Stage 711 journal text changed<br>Stage 911 journal text changed<br>Dialogue: 12 lines changed |
 | [v0.8.16.1](../versions/0.8.16.1.md) | Journal visibility changed<br>Stages added: 51, 52, 53, 54, 55, 56, 57, 58, 59, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922<br>Stage 612 journal text changed<br>Stage 712 journal text changed<br>Stage 912 journal text changed<br>Dialogue: 74 lines added, 26 lines changed |
 

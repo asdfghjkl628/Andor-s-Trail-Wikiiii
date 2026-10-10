@@ -8,7 +8,7 @@ description: "Nimael's vegetable soup is a rare food in Andor's Trail. How to ge
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik1_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik1_2.png" alt=""></p>
 
 | | |
 |---|---|

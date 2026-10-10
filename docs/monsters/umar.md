@@ -8,7 +8,7 @@ description: "Umar is a non-player character (NPC) in Andor's Trail, found in Fa
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_man1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_man1_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -40,11 +40,11 @@ description: "Umar is a non-player character (NPC) in Andor's Trail, found in Fa
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Umar. Same rules as the game: same checks, same options, same effects.
+Talk to Umar as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/umar_select_1.json" data-npc="Umar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (150 lines+)"
 
@@ -783,18 +783,18 @@ Set your quest stages and items, then talk to Umar. Same rules as the game: same
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Ok, I'll tell you how to get to Lodar's Hideaway. But you have to pro…” → “OK, I'll tell you how to get to Lodar's Hideaway. But you have to pro…”<br>· text: “Oh. I must have you mixed up with someone else.” → “Oh. I must have you confused with someone else.” |
-| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …”<br>· text: “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” → “The royal guard, led by Lord Geomyr in Feygard, are trying to ward of…” |
-| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “What we have here? (Umar's face gets a smile while he admires the nec…” → “What we have here? (Umar's face gets a smile while he admires the nec…”<br>· text: “Well, you've shown us you are trustworthy by bringing that key. Howev…” → “Well, you've shown us you are trustworthy by bringing that key. Howev…” |
+| [v0.7.8](../versions/0.7.8.md) | Dialogue: 112 lines added, 7 lines changed<br>· text: “However, I heard that you helped us find the key of Luthor. This is s…” → “However, I heard that you helped us find the key of Luthor. This is s…”<br>· text: “The priests of the Shadow, mostly seated in Nor City, are opponents t…” → “The priests of the Shadow, mostly seated in Nor City, are opposed to …” |
+| [v0.7.9](../versions/0.7.9.md) | Dialogue: 4 lines changed<br>· text: “Well, you've shown us you are trustworthy by bringing that key. Howev…” → “Well, you've shown us you are trustworthy by bringing that key. Howev…”<br>· text: “I expect more of you.That was your first mission inside the guild and…” → “I expect more of you. That was your first mission inside the guild an…” |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed |
-| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “(You put Ambelie, who is still unconsicious, in a chair next to you) …” → “(You put Ambelie, who is still unconscious, in a chair next to you) O…” |
+| [v0.7.13](../versions/0.7.13.md) | Dialogue: 3 lines changed<br>· text: “And last but not least, I have some useful information for you. The w…” → “And last but not least, I have some useful information for you. The w…”<br>· text: “However, the Feygard presence is still significant. Be cautious with …” → “However, the Feygard presence is still significant. Be cautious with …” |
 | [v0.7.14](../versions/0.7.14.md) | Dialogue: 1 line changed |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “Take 4000 gold coins, and some bottles of my favourite mead. Now you …” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
 | [v0.8.2](../versions/0.8.2.md) | Dialogue: 35 lines added, 2 lines changed |
 | [v0.8.4](../versions/0.8.4.md) | Dialogue: 1 line changed |
 | [v0.8.6](../versions/0.8.6.md) | Dialogue: 1 line changed<br>· text: “Fortunately, one of my men found one of his drunk men and had a short…” → “Fortunately, one of my men found one of his drunk men and had a short…” |
 | [v0.8.8](../versions/0.8.8.md) | Dialogue: 1 line changed<br>· text: “[Here, the story continues]” → “You are really very hardworking. I can't find new work for you fast e…” |
-| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…”<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take {4000} gold coins, and some bottles of my favorite mead. Now you…”<br>· text: “Such a dishonorable act for they stole 50000 gold coins including the…” → “Such a dishonorable act for they stole {50000} gold coins including t…” |
+| [v0.8.13](../versions/0.8.13.md) | Dialogue: 10 lines added, 4 lines changed<br>· text: “But first I have to clarify something. You need to be more careful no…” → “But first I have to clarify something. You need to be more careful no…”<br>· text: “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” → “Take 4000 gold coins, and some bottles of my favorite mead. Now you d…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “Such a dishonorable act for they stole 50000 gold coins including the…” → “Such a dishonorable act for they stole {50000} gold coins including t…”<br>· text: “Here's 1000 gold coins as my financial contribution.” → “Here's {1000} gold coins as my financial contribution.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

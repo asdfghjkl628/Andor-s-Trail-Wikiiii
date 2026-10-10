@@ -8,7 +8,7 @@ description: "Hjaldar is a non-player character (NPC) in Andor's Trail, found in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_70.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_70.png" alt=""></p>
 
 | | |
 |---|---|
@@ -34,11 +34,11 @@ description: "Hjaldar is a non-player character (NPC) in Andor's Trail, found in
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Hjaldar. Same rules as the game: same checks, same options, same effects.
+Talk to Hjaldar as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/hjaldar.json" data-npc="Hjaldar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (32 lines)"
 
@@ -192,7 +192,7 @@ Set your quest stages and items, then talk to Hjaldar. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Add some of this into some clean vials..” → “Add some of this into some clean vials...”<br>· text: “Finally, the Lyson marrow extract..” → “Finally, the Lyson marrow extract...” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 10 lines changed<br>· text: “Blackwater Mountain? I'm afraid I don't know where that is. Never min…” → “Blackwater mountain? I'm afraid I don't know where that is. Never min…”<br>· text: “*Hjaldar shakes the vials vigorously, one in each of his hands*” → “[Hjaldar shakes the vials vigorously, one in each of his hands]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

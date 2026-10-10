@@ -8,7 +8,7 @@ description: "Crude wooden buckler is a ordinary buckler in Andor's Trail (Block
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_0.png" alt=""></p>
 
 | | |
 |---|---|

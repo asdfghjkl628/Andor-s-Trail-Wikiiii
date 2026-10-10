@@ -8,7 +8,7 @@ description: "Lightweight chainmail is a ordinary armor (light) in Andor's Trail
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_45.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_45.png" alt=""></p>
 
 | | |
 |---|---|

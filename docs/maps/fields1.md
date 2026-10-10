@@ -1,5 +1,5 @@
 ---
-description: "Fields 1 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Sheep. Enemies: Tough grasslands ant, Grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Fields 6, Fields 4, Loneford 1, Fields 0."
+description: "Fields 1 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Sheep. Enemies: Grasslands ant, Tough grasslands ant, Grasslands beetle, Tough grasslands beetle. Exits to Fields 6, Fields 4, Loneford 1, Fields 0."
 ---
 
 # Fields 1
@@ -63,8 +63,8 @@ East: Loneford.”">7</a></div>
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 5 | shares spawn with Grasslands ant |
 | [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 5 | shares spawn with Tough grasslands ant |
+| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 5 | shares spawn with Grasslands ant |
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 5 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 5 | shares spawn with Grasslands beetle |
 

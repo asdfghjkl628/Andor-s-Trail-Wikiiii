@@ -8,7 +8,7 @@ description: "Elythara's ring is a quest ring in Andor's Trail (Grants Bless (ma
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rings_1_18.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rings_1_18.png" alt=""></p>
 
 | | |
 |---|---|

@@ -1,5 +1,5 @@
 ---
-description: "Woodsettlement 0 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Hagale, Outcast, Pig. Enemies: Roach, Rat. Exits to Roadbeforecrossroads 2, Gapfillerhole, Woodhouse 0, Woodhouse 1."
+description: "Woodsettlement 0 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Hagale, Outcast, Pig. Enemies: Rat, Roach. Exits to Roadbeforecrossroads 2, Gapfillerhole, Woodhouse 0, Woodhouse 1."
 ---
 
 # Woodsettlement 0
@@ -71,9 +71,9 @@ description: "Woodsettlement 0 is an outdoor location in Andor's Trail, near Fal
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Roach](../monsters/vermin2.md) | 0 | 0–1 | 4 | shares spawn with Rat |
 | [Rat](../monsters/vermin0.md) | 0 | 0–1 | 4 | shares spawn with Rat, Roach |
 | [Rat](../monsters/vermin0.md#v-vermin1) | 0 | 0–1 | 4 | shares spawn with Rat, Roach |
+| [Roach](../monsters/vermin2.md) | 0 | 0–1 | 4 | shares spawn with Rat |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

@@ -8,7 +8,7 @@ description: "Remgard chain mail is a ordinary chain mail in Andor's Trail (Atta
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_13.png" alt=""></p>
 
 | | |
 |---|---|

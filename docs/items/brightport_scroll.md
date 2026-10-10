@@ -8,7 +8,7 @@ description: "Secret scroll is a quest other in Andor's Trail. How to get it: qu
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_books_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_books_8.png" alt=""></p>
 
 | | |
 |---|---|

@@ -1,5 +1,5 @@
 ---
-description: "Waterway 12 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Spotted erumen lizard, Izthiel, Erumen lizard, Young erumen lizard, Strong izthiel. Exits to Waterway 13, Waterway 7, Brimhaven 6."
+description: "Waterway 12 is an outdoor location in Andor's Trail, near Brimhaven (settlement). Enemies: Young erumen lizard, Erumen lizard, Izthiel, Spotted erumen lizard, Strong izthiel. Exits to Waterway 13, Waterway 7, Brimhaven 6."
 ---
 
 # Waterway 12
@@ -52,10 +52,10 @@ description: "Waterway 12 is an outdoor location in Andor's Trail, near Brimhave
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 4 | shares spawn with Young erumen lizard |
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 2 | shares spawn with Strong erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 4 | shares spawn with Spotted erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 2 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 4 | shares spawn with Young erumen lizard |
 | [Strong izthiel](../monsters/izthiel_3.md) | 52 | 2–7 | 2 | – |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 2 | shares spawn with Erumen lizard |
 

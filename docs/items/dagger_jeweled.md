@@ -8,7 +8,7 @@ description: "Jeweled dagger is a ordinary dagger in Andor's Trail (Attack damag
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_46.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_46.png" alt=""></p>
 
 | | |
 |---|---|

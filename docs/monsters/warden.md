@@ -8,7 +8,7 @@ description: "Guard captain is a non-player character (NPC) in Andor's Trail, fo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men_3.png" alt=""></p>
 
 | | |
 |---|---|
@@ -25,11 +25,11 @@ description: "Guard captain is a non-player character (NPC) in Andor's Trail, fo
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Guard captain. Same rules as the game: same checks, same options, same effects.
+Talk to Guard captain as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_warden_select_1.json" data-npc="Guard captain" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (31 lines)"
 
@@ -184,7 +184,7 @@ Set your quest stages and items, then talk to Guard captain. Same rules as the g
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines added, 10 lines changed<br>· text: “Mead? Oh.. no, I don't do that anymore. Who told you that?” → “Mead? Oh ... no, I don't do that anymore. Who told you that?”<br>· text: “I want you to go one step further and tell them that we will have les…” → “I want you to go one step further and tell them that we will have les…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 3 lines added, 10 lines changed<br>· text: “I want you to go one step further and tell them that we will have les…” → “I want you to go one step further and tell them that we will have les…”<br>· text: “Mead? Oh.. no, I don't do that anymore. Who told you that?” → “Mead? Oh ... no, I don't do that anymore. Who told you that?” |
 | [v0.7.8](../versions/0.7.8.md) | Dialogue: 1 line changed<br>· text: “Thank you again for the information. While I'm not sure how you may k…” → “Thank you again for the information. I'm not sure how you may know th…” |
 | [v0.7.15](../versions/0.7.15.md) | Renamed “Warden” → “Guard captain” |
 

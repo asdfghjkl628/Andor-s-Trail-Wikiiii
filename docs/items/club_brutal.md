@@ -8,7 +8,7 @@ description: "Brutal club is a ordinary mace in Andor's Trail (Attack damage 2 t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_44.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_44.png" alt=""></p>
 
 | | |
 |---|---|

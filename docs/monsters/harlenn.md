@@ -8,7 +8,7 @@ description: "Harlenn is an NPC you can also fight in Andor's Trail, found in Pr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men2_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men2_6.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ description: "Harlenn is an NPC you can also fight in Andor's Trail, found in Pr
 </div>
 
 !!! warning "You can fight Harlenn"
-    Answering “For the Shadow!” during [Clouded intent](../quests/prim_hunt.md#stage-90) starts a fight with Harlenn.
+    Any of your answers (“For the Shadow!” or “Let's fight!”) during [Clouded intent](../quests/prim_hunt.md#stage-90) starts a fight with Harlenn.
 
     Harlenn turns hostile if you fall out with their faction (this can happen in [Clouded intent](../quests/prim_hunt.md)).
 
@@ -58,11 +58,11 @@ description: "Harlenn is an NPC you can also fight in Andor's Trail, found in Pr
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Harlenn. Same rules as the game: same checks, same options, same effects.
+Talk to Harlenn as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/harlenn_start.json" data-npc="Harlenn" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (73 lines)"
 
@@ -402,7 +402,7 @@ Set your quest stages and items, then talk to Harlenn. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “We believe they are planning to attack us any day now. But we lack an…” → “We believe they are planning to attack us any day now. But we lack th…”<br>· text: “Ok, this is the plan. I want you to go talk to Guthbered down in Prim…” → “OK, this is the plan. I want you to go talk to Guthbered down in Prim…” |
+| [v0.7.2](../versions/0.7.2.md) | Faction: added (fct_bwm)<br>Dialogue: 23 lines changed<br>· text: “Ok, you have convinced me. I will leave this settlement for another t…” → “OK, you have convinced me. I will leave this settlement for another t…”<br>· text: “Most of the time, we spend in the settlement or up here on the mounta…” → “We spend most of our time in the settlement up here on the mountain.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

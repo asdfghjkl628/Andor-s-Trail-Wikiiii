@@ -8,7 +8,7 @@ description: "Morkin berserker is an enemy in Andor's Trail (humanoid) with 171 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_70.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_70.png" alt=""></p>
 
 | | |
 |---|---|

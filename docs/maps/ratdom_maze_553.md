@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 553 is an indoor location in Andor's Trail, in Skeleton dance (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Poisonous caterpillar, Biting caterpillar. Exits to Ratdom maze 443, Ratdom maze 563, Ratdom maze 662, Ratdom maze 542."
+description: "Ratdom maze 553 is an indoor location in Andor's Trail, in Skeleton dance (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Poisonous caterpillar, Biting caterpillar. Exits to Ratdom maze 443, Ratdom maze 563, Ratdom maze 662, Ratdom maze 542."
 ---
 
 # Ratdom maze 553
@@ -78,8 +78,8 @@ description: "Ratdom maze 553 is an indoor location in Andor's Trail, in Skeleto
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Poisonous caterpillar](../monsters/ratdom_m10a.md) | 30 | 5–5 | 2 | shares spawn with Biting caterpillar |
 | [Biting caterpillar](../monsters/ratdom_m10b.md) | 30 | 5–5 | 2 | shares spawn with Poisonous caterpillar |
 

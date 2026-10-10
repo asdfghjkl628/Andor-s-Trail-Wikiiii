@@ -8,7 +8,7 @@ description: "Beholder is an enemy in Andor's Trail (demon) with 180 HP, worth 3
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_eye4_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_eye4_0.png" alt=""></p>
 
 | | |
 |---|---|

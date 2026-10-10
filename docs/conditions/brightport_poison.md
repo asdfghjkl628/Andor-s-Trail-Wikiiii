@@ -8,7 +8,7 @@ description: "Poisonous vapors is a harmful blood condition in Andor's Trail: âˆ
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_58.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_58.png" alt=""></p>
 
 | | |
 |---|---|

@@ -15,7 +15,7 @@ description: "Stoutford story flags is a hidden quest in Andor's Trail, started 
 | **In journal** | No (hidden flag) |
 | **Stages** | 83 |
 | **Started by** | walking into a blocked passage on [Waytogalmore 0](../maps/waytogalmore0.md) |
-| **NPCs involved** | [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Blornvale](../monsters/stoutford_alchemist.md), [Caeda](../monsters/caeda.md), [Cave troll leader](../monsters/cave_troll_5.md), [Colonel Lutarc](../monsters/stn_colonel.md), [Glade key](../monsters/lakecave2_key.md) +19 |
+| **NPCs involved** | [Blornvale](../monsters/stoutford_alchemist.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Caeda](../monsters/caeda.md), [Cave troll leader](../monsters/cave_troll_5.md), [Colonel Lutarc](../monsters/stn_colonel.md), [Glade key](../monsters/lakecave2_key.md) +19 |
 | **Locations** | [Flagstone 0](../maps/flagstone0.md), [Lakecave 2](../maps/lakecave2.md), [Remgard 0](../maps/remgard0.md), [Stoutford armorer](../maps/stoutford_armorer.md) |
 | **Total XP** | 50 |
 | **Related quests** | 6 |

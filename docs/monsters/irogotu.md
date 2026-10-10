@@ -8,7 +8,7 @@ description: "Irogotu is an NPC you can also fight in Andor's Trail, found in Ja
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_liches_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ description: "Irogotu is an NPC you can also fight in Andor's Trail, found in Ja
 </div>
 
 !!! warning "You can fight Irogotu"
-    Answering “Very well, let's see who dies here.” starts a fight with Irogotu.
+    Any of your answers (“Very well, let's see who dies here.” or “By the Shadow, Gandir will be avenged.”) starts a fight with Irogotu.
 
 ## Combat
 
@@ -51,11 +51,11 @@ description: "Irogotu is an NPC you can also fight in Andor's Trail, found in Ja
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Irogotu. Same rules as the game: same checks, same options, same effects.
+Talk to Irogotu as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/irogotu.json" data-npc="Irogotu" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 

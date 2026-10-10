@@ -1,5 +1,5 @@
 ---
-description: "Roadbeforecrossroads 1 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). Enemies: Giant dungfly, Olive ooze, Forest serpent, Aggressive dungfly, Wild fox. Exits to Lodar 0, Roadbeforecrossroads 2, Roadbeforecrossroads, Roadcave 0."
+description: "Roadbeforecrossroads 1 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). Enemies: Giant dungfly, Forest serpent, Olive ooze, Aggressive dungfly, Wild fox. Exits to Lodar 0, Roadbeforecrossroads 2, Roadbeforecrossroads, Roadcave 0."
 ---
 
 # Roadbeforecrossroads 1
@@ -54,8 +54,8 @@ description: "Roadbeforecrossroads 1 is an outdoor location in Andor's Trail, ne
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Giant dungfly](../monsters/dungfly1.md) | 16 | 4–5 | 1 | shares spawn with Aggressive dungfly |
-| [Olive ooze](../monsters/jelly1.md) | 20 | 5–9 | 3 | shares spawn with Emerald jelly |
 | [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 2 | – |
+| [Olive ooze](../monsters/jelly1.md) | 20 | 5–9 | 3 | shares spawn with Emerald jelly |
 | [Aggressive dungfly](../monsters/dungfly2.md) | 23 | 5–7 | 1 | shares spawn with Giant dungfly |
 | [Wild fox](../monsters/wild_fox.md) | 25 | 4–5 | 1 | – |
 | [Emerald jelly](../monsters/jelly2.md) | 35 | 7–8 | 3 | shares spawn with Olive ooze |

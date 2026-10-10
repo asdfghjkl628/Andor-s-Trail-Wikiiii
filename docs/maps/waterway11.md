@@ -1,5 +1,5 @@
 ---
-description: "Waterway 11 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Spotted erumen lizard, Izthiel, Erumen lizard, Young erumen lizard. Exits to Waterway 11 east, Waterway forest 1, Waterway 9."
+description: "Waterway 11 is an outdoor location in Andor's Trail. Enemies: Young izthiel, Young erumen lizard, Erumen lizard, Izthiel, Spotted erumen lizard. Exits to Waterway 11 east, Waterway forest 1, Waterway 9."
 ---
 
 # Waterway 11
@@ -53,10 +53,10 @@ South: Brightport”">4</a></div>
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young izthiel](../monsters/izthiel_1.md) | 40 | 2–7 | 1 | – |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 7 | shares spawn with Young erumen lizard |
-| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
-| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 3 | shares spawn with Strong erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 7 | shares spawn with Spotted erumen lizard |
+| [Erumen lizard](../monsters/erumen_3.md) | 45 | 2–9 | 3 | shares spawn with Strong erumen lizard |
+| [Izthiel](../monsters/izthiel_2.md) | 45 | 2–7 | 2 | – |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 7 | shares spawn with Young erumen lizard |
 | [Strong erumen lizard](../monsters/erumen_4.md) | 79 | 2–9 | 3 | shares spawn with Erumen lizard |
 | [Hardened erumen lizard](../monsters/erumen_7.md) | 93 | 2–9 | 2 | – |
 

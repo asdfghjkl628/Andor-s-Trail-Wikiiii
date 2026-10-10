@@ -8,7 +8,7 @@ description: "Argentscale diadem is a extraordinary headwear, metal (light) in A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_14.png" alt=""></p>
 
 | | |
 |---|---|

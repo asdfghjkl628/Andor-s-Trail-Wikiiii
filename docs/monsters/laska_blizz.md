@@ -8,7 +8,7 @@ description: "Laska blizz is an enemy in Andor's Trail (giant) with 300 HP, wort
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_26.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_26.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Aggressive giant centipede is an enemy in Andor's Trail (insect) w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_gisons_2.png" alt=""></p>
 
 | | |
 |---|---|

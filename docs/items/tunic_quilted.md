@@ -8,7 +8,7 @@ description: "Quilted tunic is a ordinary armor, cloth in Andor's Trail (Block c
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_215.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_215.png" alt=""></p>
 
 | | |
 |---|---|

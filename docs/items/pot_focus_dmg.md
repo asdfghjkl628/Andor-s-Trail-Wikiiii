@@ -8,7 +8,7 @@ description: "Potion of damage focus is a ordinary potion in Andor's Trail. How 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_39.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_39.png" alt=""></p>
 
 | | |
 |---|---|

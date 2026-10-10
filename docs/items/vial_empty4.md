@@ -8,7 +8,7 @@ description: "Empty potion bottle is a ordinary liquid container in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_58.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_58.png" alt=""></p>
 
 | | |
 |---|---|

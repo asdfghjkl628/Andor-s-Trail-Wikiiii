@@ -8,7 +8,7 @@ description: "Spore contagion is a harmful blood condition in Andor's Trail: −
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_62.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_62.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Necklace with a medal from Teccow is a rare necklace in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_9.png" alt=""></p>
 
 | | |
 |---|---|

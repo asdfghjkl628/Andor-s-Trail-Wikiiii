@@ -6,7 +6,7 @@ description: "Mysterious green something is scenery in Andor's Trail: a decorati
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/items_misc_2_95.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/items_misc_2_95.png" alt=""></p>
 
 | | |
 |---|---|

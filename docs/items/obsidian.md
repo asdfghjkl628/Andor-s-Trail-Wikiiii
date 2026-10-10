@@ -8,7 +8,7 @@ description: "Obsidian is a rare gem in Andor's Trail. It looks like black glass
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_13.png" alt=""></p>
 
 | | |
 |---|---|

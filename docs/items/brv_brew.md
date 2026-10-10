@@ -8,7 +8,7 @@ description: "Brimhaven brew is a ordinary drink in Andor's Trail. How to get it
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_6_23.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_6_23.png" alt=""></p>
 
 | | |
 |---|---|

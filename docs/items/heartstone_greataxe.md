@@ -8,7 +8,7 @@ description: "Heartsteel greataxe is a legendary greataxe in Andor's Trail (Atta
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_phoenix01_30.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_phoenix01_30.png" alt=""></p>
 
 | | |
 |---|---|

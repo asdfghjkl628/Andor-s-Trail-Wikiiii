@@ -8,7 +8,7 @@ description: "Mysterious coin is a rare money in Andor's Trail. How to get it: c
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_165.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_165.png" alt=""></p>
 
 | | |
 |---|---|

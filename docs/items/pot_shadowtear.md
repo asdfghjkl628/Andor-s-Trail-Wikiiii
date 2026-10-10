@@ -8,7 +8,7 @@ description: "Tears of the Shadow is a rare potion in Andor's Trail. How to get 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik1_48.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik1_48.png" alt=""></p>
 
 | | |
 |---|---|

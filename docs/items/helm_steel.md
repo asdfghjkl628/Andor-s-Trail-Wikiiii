@@ -8,7 +8,7 @@ description: "Steel helm is a ordinary headwear, metal (heavy) in Andor's Trail 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_33.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_33.png" alt=""></p>
 
 | | |
 |---|---|

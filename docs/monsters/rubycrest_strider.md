@@ -8,7 +8,7 @@ description: "Rubycrest strider is an enemy in Andor's Trail (animal) with 293 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_216.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_216.png" alt=""></p>
 
 | | |
 |---|---|

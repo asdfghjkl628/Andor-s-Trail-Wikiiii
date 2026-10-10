@@ -1,5 +1,5 @@
 ---
-description: "Brightportwild 12 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Muskrat, Duleian panther, Lizardman corsair, Lizardman fencer. Exits to Brightportwild 7, Brightportwild 10, Brightportwild 21, Brightport cave 4."
+description: "Brightportwild 12 is an indoor location in Andor's Trail, in Buried citadel (other). Enemies: Muskrat, Duleian panther, Lizardman fencer, Lizardman corsair. Exits to Brightportwild 7, Brightportwild 10, Brightportwild 21, Brightport cave 4."
 ---
 
 # Brightportwild 12
@@ -54,8 +54,8 @@ description: "Brightportwild 12 is an indoor location in Andor's Trail, in Burie
 |---|---|---|---|---|
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 | 6–15 | 2 | – |
 | [Duleian panther](../monsters/brightport_cat2.md) | 220 | 14–25 | 3 | – |
-| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
 | [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 1 | – |
+| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

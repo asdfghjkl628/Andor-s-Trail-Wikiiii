@@ -8,7 +8,7 @@ description: "Polished ring of block is a rare ring in Andor's Trail (Block chan
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_0.png" alt=""></p>
 
 | | |
 |---|---|

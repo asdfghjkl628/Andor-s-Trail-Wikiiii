@@ -8,7 +8,7 @@ description: "Assassin's gloves is a rare gloves, cloth in Andor's Trail (Critic
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_35.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_35.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Stinging wasp is an enemy in Andor's Trail (insect) with 15 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_insects_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_insects_1.png" alt=""></p>
 
 | | |
 |---|---|

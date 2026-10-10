@@ -8,7 +8,7 @@ description: "Shredded tunic is a ordinary animal part in Andor's Trail. How to 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_160.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_160.png" alt=""></p>
 
 | | |
 |---|---|

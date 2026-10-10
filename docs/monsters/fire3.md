@@ -8,7 +8,7 @@ description: "Lava spawn is an enemy in Andor's Trail (construct) with 102 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_24.png" alt=""></p>
 
 | | |
 |---|---|

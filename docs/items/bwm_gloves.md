@@ -8,7 +8,7 @@ description: "Blackwater gloves is a rare gloves, leather in Andor's Trail (Max 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_38.png" alt=""></p>
 
 | | |
 |---|---|

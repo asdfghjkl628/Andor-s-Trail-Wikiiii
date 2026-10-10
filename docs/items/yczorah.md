@@ -8,7 +8,7 @@ description: "Yczorah tentacle is a ordinary animal part in Andor's Trail. How t
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_26.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_26.png" alt=""></p>
 
 | | |
 |---|---|

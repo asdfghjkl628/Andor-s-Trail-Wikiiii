@@ -8,7 +8,7 @@ description: "Cute dog puppy is an enemy in Andor's Trail (animal) with 6 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_dogs_0.png" alt=""></p>
 
 | | |
 |---|---|

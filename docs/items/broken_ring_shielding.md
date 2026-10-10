@@ -8,7 +8,7 @@ description: "Broken ring of shielding is a rare ring in Andor's Trail (Block ch
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_262.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_262.png" alt=""></p>
 
 | | |
 |---|---|

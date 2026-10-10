@@ -8,7 +8,7 @@ description: "Aggressive bear is an enemy in Andor's Trail (animal) with 297 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_242.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_242.png" alt=""></p>
 
 | | |
 |---|---|

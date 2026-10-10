@@ -8,7 +8,7 @@ description: "Heavy plated boots is a ordinary footwear, metal (heavy) in Andor'
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik2_22.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik2_22.png" alt=""></p>
 
 | | |
 |---|---|

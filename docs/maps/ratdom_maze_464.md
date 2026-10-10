@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 464 is an indoor location in Andor's Trail, in Instrument maker (other). NPCs: Clevred, Loirash. Enemies: Tiny rat, Cave rat, Tough cave rat, Angry cave worm, Young cave worm. Exits to Ratdom maze 455, Ratdom maze 475, Ratdom maze 474, Ratdom maze 454."
+description: "Ratdom maze 464 is an indoor location in Andor's Trail, in Instrument maker (other). NPCs: Clevred, Loirash. Enemies: Tiny rat, Tough cave rat, Cave rat, Old cave worm, Angry cave worm. Exits to Ratdom maze 455, Ratdom maze 475, Ratdom maze 474, Ratdom maze 454."
 ---
 
 # Ratdom maze 464
@@ -86,11 +86,11 @@ description: "Ratdom maze 464 is an indoor location in Andor's Trail, in Instrum
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Old cave worm](../monsters/ratdom_m11c.md) | 30 | 5–5 | 2 | shares spawn with Angry cave worm, Young cave worm |
 | [Angry cave worm](../monsters/ratdom_m11b.md) | 30 | 5–5 | 2 | shares spawn with Old cave worm, Young cave worm |
 | [Young cave worm](../monsters/ratdom_m11a.md) | 30 | 5–5 | 2 | shares spawn with Angry cave worm, Old cave worm |
-| [Old cave worm](../monsters/ratdom_m11c.md) | 30 | 5–5 | 2 | shares spawn with Angry cave worm, Young cave worm |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

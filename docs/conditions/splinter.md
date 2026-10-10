@@ -8,7 +8,7 @@ description: "Splinter is a harmful physical condition in Andor's Trail: item us
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_1.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Mazarth beast is an enemy in Andor's Trail (giant) with 129 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_36.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_36.png" alt=""></p>
 
 | | |
 |---|---|

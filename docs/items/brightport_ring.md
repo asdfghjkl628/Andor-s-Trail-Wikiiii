@@ -8,7 +8,7 @@ description: "Stanwick's signet ring is a quest ring in Andor's Trail (Attack da
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_259.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_259.png" alt=""></p>
 
 | | |
 |---|---|

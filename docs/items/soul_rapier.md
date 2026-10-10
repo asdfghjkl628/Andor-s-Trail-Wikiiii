@@ -8,7 +8,7 @@ description: "Soul rapier is a ordinary rapier in Andor's Trail (Attack damage 3
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_31.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_31.png" alt=""></p>
 
 | | |
 |---|---|

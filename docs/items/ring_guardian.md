@@ -8,7 +8,7 @@ description: "Ring of the guardian is a rare ring in Andor's Trail (Attack damag
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_jewelry_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_jewelry_2.png" alt=""></p>
 
 | | |
 |---|---|

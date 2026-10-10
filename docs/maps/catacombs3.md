@@ -1,5 +1,5 @@
 ---
-description: "Catacombs 3 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Catacomb rat, Spectre, Shade, Ghostly visage, Apparition. Exits to Fallhaven tunnel 2, Fallhaven tunnel 1, Catacombs 2, Catacombs 4."
+description: "Catacombs 3 is an indoor location in Andor's Trail, in Fallhaven (settlement). Enemies: Catacomb rat, Spectre, Ghostly visage, Shade, Apparition. Exits to Fallhaven tunnel 2, Fallhaven tunnel 1, Catacombs 2, Catacombs 4."
 ---
 
 # Catacombs 3
@@ -55,8 +55,8 @@ description: "Catacombs 3 is an indoor location in Andor's Trail, in Fallhaven (
 |---|---|---|---|---|
 | [Catacomb rat](../monsters/catacomb_rat.md) | 15 | 1–1 | 2 | shares spawn with Large catacomb rat |
 | [Spectre](../monsters/spectre.md) | 15 | 1–5 | 4 | shares spawn with Ghostly visage |
-| [Shade](../monsters/shade.md) | 16 | 1–4 | 6 | shares spawn with Apparition, Young gargoyle |
 | [Ghostly visage](../monsters/ghostly_visage.md) | 16 | 1–4 | 4 | shares spawn with Spectre |
+| [Shade](../monsters/shade.md) | 16 | 1–4 | 6 | shares spawn with Apparition, Young gargoyle |
 | [Apparition](../monsters/apparition.md) | 17 | 1–5 | 6 | shares spawn with Shade, Young gargoyle |
 | [Large catacomb rat](../monsters/large_catacomb_rat.md) | 21 | 1–2 | 2 | shares spawn with Catacomb rat |
 | [Young gargoyle](../monsters/young_gargoyle.md) | 35 | 2–5 | 6 | shares spawn with Apparition, Shade |

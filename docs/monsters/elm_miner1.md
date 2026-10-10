@@ -8,7 +8,7 @@ description: "Resurrected miner's skeleton is an enemy in Andor's Trail (undead)
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_178.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_178.png" alt=""></p>
 
 | | |
 |---|---|

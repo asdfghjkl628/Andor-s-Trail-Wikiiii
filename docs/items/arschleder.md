@@ -8,7 +8,7 @@ description: "Arschleder is a rare armor, leather in Andor's Trail (Move cost +1
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_112.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_112.png" alt=""></p>
 
 | | |
 |---|---|

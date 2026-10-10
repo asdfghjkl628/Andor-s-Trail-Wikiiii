@@ -8,7 +8,7 @@ description: "Blackwater iron longsword is a rare longsword in Andor's Trail (At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_7.png" alt=""></p>
 
 | | |
 |---|---|

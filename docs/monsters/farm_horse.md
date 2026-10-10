@@ -8,7 +8,7 @@ description: "Farm horse is scenery in Andor's Trail: a decoration or dialogue p
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_67.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_67.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Klingenlied is a rare longsword in Andor's Trail (Attack damage 4 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_6_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_6_20.png" alt=""></p>
 
 | | |
 |---|---|

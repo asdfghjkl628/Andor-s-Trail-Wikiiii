@@ -8,7 +8,7 @@ description: "Pine spear is a ordinary pole weapon in Andor's Trail (Attack dama
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_25.png" alt=""></p>
 
 | | |
 |---|---|

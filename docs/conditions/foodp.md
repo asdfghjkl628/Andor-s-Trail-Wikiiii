@@ -8,7 +8,7 @@ description: "Food-poisoning is a harmful physical condition in Andor's Trail: â
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_2_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_2_2.png" alt=""></p>
 
 | | |
 |---|---|

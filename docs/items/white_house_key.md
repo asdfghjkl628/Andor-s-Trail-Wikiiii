@@ -8,7 +8,7 @@ description: "White house key is a quest other in Andor's Trail. How to get it: 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_143.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_143.png" alt=""></p>
 
 | | |
 |---|---|

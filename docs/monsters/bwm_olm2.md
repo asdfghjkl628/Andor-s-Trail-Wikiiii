@@ -8,7 +8,7 @@ description: "Albino olm is an enemy in Andor's Trail (animal) with 66 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_omi2_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_omi2_9.png" alt=""></p>
 
 | | |
 |---|---|

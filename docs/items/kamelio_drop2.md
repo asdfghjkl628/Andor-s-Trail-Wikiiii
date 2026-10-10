@@ -8,7 +8,7 @@ description: "Fire opal necklace is a ordinary necklace in Andor's Trail (Critic
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_262.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_262.png" alt=""></p>
 
 | | |
 |---|---|

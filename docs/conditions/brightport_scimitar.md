@@ -8,7 +8,7 @@ description: "Soft metal is a harmful physical condition in Andor's Trail: attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_43.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_43.png" alt=""></p>
 
 | | |
 |---|---|

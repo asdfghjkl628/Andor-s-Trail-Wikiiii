@@ -8,7 +8,7 @@ description: "Potion of awareness is a ordinary potion in Andor's Trail. How to 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_66.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_66.png" alt=""></p>
 
 | | |
 |---|---|

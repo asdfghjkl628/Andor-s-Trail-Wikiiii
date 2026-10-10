@@ -8,7 +8,7 @@ description: "Brimhaven rigid plate mail is a rare plate mail in Andor's Trail (
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_175.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_175.png" alt=""></p>
 
 | | |
 |---|---|

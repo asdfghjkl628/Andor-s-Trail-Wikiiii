@@ -8,7 +8,7 @@ description: "Spectre is an enemy in Andor's Trail (ghost) with 15 HP, worth 39 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_45.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_45.png" alt=""></p>
 
 | | |
 |---|---|

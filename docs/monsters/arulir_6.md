@@ -8,7 +8,7 @@ description: "Giant Golden Arulir is an enemy in Andor's Trail (giant) with 501 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_arulirs_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_arulirs_13.png" alt=""></p>
 
 | | |
 |---|---|

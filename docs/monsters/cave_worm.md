@@ -8,7 +8,7 @@ description: "Cave worm is an enemy in Andor's Trail (reptile) with 80 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_134.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_134.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Small stone worm is an enemy in Andor's Trail (reptile) with 17 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_snakes_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_snakes_0.png" alt=""></p>
 
 | | |
 |---|---|

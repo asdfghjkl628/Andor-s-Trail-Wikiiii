@@ -8,7 +8,7 @@ description: "Pyrite scimitar is a rare shortsword in Andor's Trail (Attack dama
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_phoenix01_59.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_phoenix01_59.png" alt=""></p>
 
 | | |
 |---|---|

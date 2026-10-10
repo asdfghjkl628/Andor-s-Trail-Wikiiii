@@ -8,7 +8,7 @@ description: "Kazaul spawn is an enemy in Andor's Trail (demon) with 45 HP, wort
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_41.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_41.png" alt=""></p>
 
 | | |
 |---|---|

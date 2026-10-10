@@ -8,7 +8,7 @@ description: "Rapier of lifesteal is a legendary rapier in Andor's Trail (Attack
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_71.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_71.png" alt=""></p>
 
 | | |
 |---|---|

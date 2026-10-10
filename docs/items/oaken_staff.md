@@ -8,7 +8,7 @@ description: "Oaken staff is a rare quarterstaff in Andor's Trail (Attack damage
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_17.png" alt=""></p>
 
 | | |
 |---|---|

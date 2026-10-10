@@ -8,7 +8,7 @@ description: "Fine shirt is a ordinary armor, cloth in Andor's Trail (Block chan
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_14.png" alt=""></p>
 
 | | |
 |---|---|

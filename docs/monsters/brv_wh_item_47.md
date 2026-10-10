@@ -6,7 +6,7 @@ description: "Pretty porcelain figure is scenery in Andor's Trail: a decoration 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/items_misc_5_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/items_misc_5_15.png" alt=""></p>
 
 | | |
 |---|---|

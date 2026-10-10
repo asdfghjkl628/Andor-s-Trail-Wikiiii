@@ -8,7 +8,7 @@ description: "Yellow forest ant is an enemy in Andor's Trail (insect) with 5 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_insects_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_insects_2.png" alt=""></p>
 
 | | |
 |---|---|

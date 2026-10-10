@@ -8,7 +8,7 @@ description: "Korhald Family Legacy is a rare other in Andor's Trail. How to get
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_552.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_552.png" alt=""></p>
 
 | | |
 |---|---|

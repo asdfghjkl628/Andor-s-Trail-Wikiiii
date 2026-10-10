@@ -8,7 +8,7 @@ description: "Eyvipa's candlestick is a quest other in Andor's Trail. How to get
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_230.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_230.png" alt=""></p>
 
 | | |
 |---|---|

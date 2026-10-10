@@ -8,7 +8,7 @@ description: "Grabby is an NPC you can also fight in Andor's Trail, found in Aid
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_65.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_65.png" alt=""></p>
 
 | | |
 |---|---|
@@ -34,11 +34,11 @@ description: "Grabby is an NPC you can also fight in Andor's Trail, found in Aid
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Grabby. Same rules as the game: same checks, same options, same effects.
+Talk to Grabby as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_camp_grabby_10.json" data-npc="Grabby" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

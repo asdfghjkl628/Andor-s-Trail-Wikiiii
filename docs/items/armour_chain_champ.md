@@ -8,7 +8,7 @@ description: "Champion's chain mail is a ordinary chain mail in Andor's Trail (M
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_17.png" alt=""></p>
 
 | | |
 |---|---|

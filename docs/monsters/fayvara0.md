@@ -8,7 +8,7 @@ description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik6_10.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik6_10.png" alt=""></p>
 
 | | |
 |---|---|
@@ -29,11 +29,11 @@ description: "Fayvara is a non-player character (NPC) in Andor's Trail, found in
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Fayvara. Same rules as the game: same checks, same options, same effects.
+Talk to Fayvara as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fayvara0.json" data-npc="Fayvara" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -74,11 +74,11 @@ Set your quest stages and items, then talk to Fayvara. Same rules as the game: s
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Fayvara. Same rules as the game: same checks, same options, same effects.
+Talk to Fayvara as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fayvara1.json" data-npc="Fayvara" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (53 lines)"
 
@@ -335,8 +335,8 @@ Set your quest stages and items, then talk to Fayvara. Same rules as the game: s
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.2](../versions/0.7.2.md) | Dialogue: 12 lines changed<br>· text: “We only have time for one type of armor right now though, so think ca…” → “We only have time for one type of armor right now though, so think ca…” |
-| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “Shields can be used in combination with your regular weapon, to block…” → “Shields can be used in combination with your regular weapon, to block…”<br>· text: “I can teach you to better withstand attacks using a shield, so that y…” → “I can teach you to better withstand attacks using a shield, or to div…” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “It seems you do not have enough gold. 6000 gold it is.” → “It seems you do not have enough gold. {6000} gold it is.”<br>· text: “So I'm thinking something similar would suffice. Since as you're my f…” → “So I'm thinking something similar would suffice. Since as you're my f…” |
+| [v0.7.11](../versions/0.7.11.md) | Dialogue: 4 lines changed<br>· text: “Shields can be used in combination with your regular weapon, to block…” → “Shields can be used in combination with your regular weapon, to block…”<br>· text: “I can teach you about using shields to your advantage, or how to best…” → “I can teach you about using shields and parrying weapons to your adva…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 7 lines changed<br>· text: “We very rarely teach anyone outside our settlement, Falothen and I. I…” → “We very rarely teach anyone outside our settlement, Falothen and I. I…”<br>· text: “So I'm thinking something similar would suffice. Since as you're my f…” → “So I'm thinking something similar would suffice. Since as you're my f…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

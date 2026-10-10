@@ -8,7 +8,7 @@ description: "Fine iron axe is a ordinary axe in Andor's Trail (Attack damage 4 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_56.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_56.png" alt=""></p>
 
 | | |
 |---|---|

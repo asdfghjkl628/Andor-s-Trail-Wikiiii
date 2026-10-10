@@ -8,7 +8,7 @@ description: "Helm of Foreseeing is a legendary headwear, metal (light) in Andor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_32.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_32.png" alt=""></p>
 
 | | |
 |---|---|

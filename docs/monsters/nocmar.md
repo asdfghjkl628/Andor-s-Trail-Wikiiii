@@ -8,7 +8,7 @@ description: "Nocmar is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men_8.png" alt=""></p>
 
 | | |
 |---|---|
@@ -40,11 +40,11 @@ description: "Nocmar is a non-player character (NPC) in Andor's Trail. Shopkeepe
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Nocmar. Same rules as the game: same checks, same options, same effects.
+Talk to Nocmar as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/nocmar_selector.json" data-npc="Nocmar" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (63 lines)"
 
@@ -338,9 +338,9 @@ Set your quest stages and items, then talk to Nocmar. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Beware the liches of Undertell, if they are still are around. Those t…” → “Beware the liches of Undertell, if they are still around. Those thing…”<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “*Nocmar places the heartstone among the heartsteel weapons*” → “[Nocmar places the heartstone among the heartsteel weapons]”<br>· text: “Ok, these old weapons have lost their inner glow now that they haven'…” → “OK, these old weapons have lost their inner glow now that they haven'…” |
 | [v0.8.14](../versions/0.8.14.md) | Dialogue: 2 lines added, 2 lines changed<br>· text: “Undertell; the pits of the lost souls. Travel south and enter the cav…” → “Undertell; the pits of the lost souls. Travel south to the devastated…” |
-| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “Hello. I'm Nocmar.” → “Hello and welcome to my place.”<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…” |
+| [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 39 lines added, 8 lines changed<br>· text: “[Nocmar places the heartstone among the heartsteel weapons]” → “While pausing, Nocmar looks down, then sighs.”<br>· text: “Can you feel it? The heartsteel is glowing again.” → “There was a time, before all this, when I had a place. A house. Not j…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

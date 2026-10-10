@@ -8,7 +8,7 @@ description: "Afflicted Feygard guard is an NPC you can also fight in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles3_14.png" alt=""></p>
 
 | | |
 |---|---|
@@ -56,11 +56,11 @@ description: "Afflicted Feygard guard is an NPC you can also fight in Andor's Tr
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Afflicted Feygard guard. Same rules as the game: same checks, same options, same effects.
+Talk to Afflicted Feygard guard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lodar_fg3.json" data-npc="Afflicted Feygard guard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (7 lines)"
 
@@ -101,7 +101,7 @@ Set your quest stages and items, then talk to Afflicted Feygard guard. Same rule
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 5 lines changed<br>· text: “(you notice him breathing heavily, and that his hands are shaking fur…” → “[You notice him breathing heavily, and that his hands are shaking fur…”<br>· text: “(the guard launches himself at you, raising his sword)” → “[The guard launches himself at you, raising his sword]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 5 lines changed<br>· text: “(you also notice that the whites in his eyes have turned red from the…” → “[You also notice that the whites in his eyes have turned red from the…”<br>· text: “(the guard stares back at you without saying anything)” → “[The guard stares back at you without saying anything]” |
 | [v0.8.7](../versions/0.8.7.md) | Class: added (humanoid) |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

@@ -8,7 +8,7 @@ description: "Tough khakin beast is an enemy in Andor's Trail (reptile) with 49 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_113.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_113.png" alt=""></p>
 
 | | |
 |---|---|

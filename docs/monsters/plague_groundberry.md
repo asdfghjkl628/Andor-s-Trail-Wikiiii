@@ -8,7 +8,7 @@ description: "Plague groundberry is an enemy in Andor's Trail (construct) with 1
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik4_12.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik4_12.png" alt=""></p>
 
 | | |
 |---|---|

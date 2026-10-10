@@ -8,7 +8,7 @@ description: "Feline shoes is a rare footwear, cloth in Andor's Trail (Move cost
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_34.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_34.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Hardened iron sword is a ordinary longsword in Andor's Trail (Atta
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_0.png" alt=""></p>
 
 | | |
 |---|---|

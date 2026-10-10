@@ -8,7 +8,7 @@ description: "Ingus is a non-player character (NPC) in Andor's Trail, found in R
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_94.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_94.png" alt=""></p>
 
 | | |
 |---|---|
@@ -25,11 +25,11 @@ description: "Ingus is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Ingus. Same rules as the game: same checks, same options, same effects.
+Talk to Ingus as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ingus.json" data-npc="Ingus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (21 lines)"
 
@@ -136,7 +136,7 @@ Set your quest stages and items, then talk to Ingus. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “They live in one of the cabins on the southern shore. *Ingus points t…” → “They live in one of the cabins on the southern shore. [Ingus points t…”<br>· text: “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” → “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 7 lines changed<br>· text: “Oh .. nothing .. everything. I don't know. No one really puts much we…” → “Oh ... nothing ... everything. I don't know. No one really puts much …”<br>· text: “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” → “Shop? Oh yes, of course. There's Rothses' and Arnal's shops right the…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

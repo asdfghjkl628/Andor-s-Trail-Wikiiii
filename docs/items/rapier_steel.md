@@ -8,7 +8,7 @@ description: "Sharp steel rapier is a ordinary rapier in Andor's Trail (Attack d
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_31.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_31.png" alt=""></p>
 
 | | |
 |---|---|

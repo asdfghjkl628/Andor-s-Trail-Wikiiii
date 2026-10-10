@@ -1,5 +1,5 @@
 ---
-description: "Lodar 19 is an outdoor location in Andor's Trail. NPCs: Especially sweet berries. Enemies: Small horned anklebiter, Young horned anklebiter, Fast horned anklebiter, Aggressive venomscale, Quick venomscale. Exits to Lodar 18, Lodar 21, Lodar 16."
+description: "Lodar 19 is an outdoor location in Andor's Trail. NPCs: Especially sweet berries. Enemies: Small horned anklebiter, Young horned anklebiter, Aggressive venomscale, Fast horned anklebiter, Quick venomscale. Exits to Lodar 18, Lodar 21, Lodar 16."
 ---
 
 # Lodar 19
@@ -58,8 +58,8 @@ description: "Lodar 19 is an outdoor location in Andor's Trail. NPCs: Especially
 |---|---|---|---|---|
 | [Small horned anklebiter](../monsters/anklebiter2.md) | 38 | 3–7 | 2 | shares spawn with Young horned anklebiter |
 | [Young horned anklebiter](../monsters/anklebiter3.md) | 46 | 5–7 | 2 | shares spawn with Small horned anklebiter |
-| [Fast horned anklebiter](../monsters/anklebiter4.md) | 52 | 1–9 | 10 | shares spawn with Tough horned anklebiter |
 | [Aggressive venomscale](../monsters/vscale4.md) | 52 | 4–6 | 3 | shares spawn with Quick venomscale |
+| [Fast horned anklebiter](../monsters/anklebiter4.md) | 52 | 1–9 | 10 | shares spawn with Tough horned anklebiter |
 | [Quick venomscale](../monsters/vscale5.md) | 56 | 5–6 | 3 | shares spawn with Aggressive venomscale |
 | [Vicious venomscale](../monsters/vscale6.md) | 59 | 6–6 | 4 | shares spawn with Strong venomscale |
 | [Strong venomscale](../monsters/vscale7.md) | 63 | 6–6 | 4 | shares spawn with Vicious venomscale |

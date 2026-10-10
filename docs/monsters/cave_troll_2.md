@@ -8,7 +8,7 @@ description: "Strong cave troll is an enemy in Andor's Trail (giant) with 250 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_15.png" alt=""></p>
 
 | | |
 |---|---|

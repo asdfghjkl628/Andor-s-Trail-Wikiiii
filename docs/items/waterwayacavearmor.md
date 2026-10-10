@@ -8,7 +8,7 @@ description: "Knight's hauberk is a rare chain mail in Andor's Trail (Max HP +8,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_20.png" alt=""></p>
 
 | | |
 |---|---|

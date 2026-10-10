@@ -1,5 +1,5 @@
 ---
-description: "Fields 6 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Feygard soldier, Sheep, Tinlyn. Enemies: Tough grasslands ant, Grasslands ant. Exits to Fields 7, Fields 1, Fields 5."
+description: "Fields 6 is an outdoor location in Andor's Trail, near Crossroads Guardhouse (other). NPCs: Feygard soldier, Sheep, Tinlyn. Enemies: Grasslands ant, Tough grasslands ant. Exits to Fields 7, Fields 1, Fields 5."
 ---
 
 # Fields 6
@@ -65,8 +65,8 @@ South: Nor City.”">7</a><a class="pin pin-script" href="#key-8" style="left:43
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 3 | shares spawn with Grasslands ant |
 | [Grasslands ant](../monsters/grass_ant.md) | 29 | 0–4 | 3 | shares spawn with Tough grasslands ant |
+| [Tough grasslands ant](../monsters/grass_ant2.md) | 29 | 1–5 | 3 | shares spawn with Grasslands ant |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

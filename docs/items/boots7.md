@@ -8,7 +8,7 @@ description: "Iced leather boots is a ordinary footwear, leather in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_7.png" alt=""></p>
 
 | | |
 |---|---|

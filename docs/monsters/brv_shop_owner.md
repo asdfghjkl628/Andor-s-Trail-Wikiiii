@@ -8,7 +8,7 @@ description: "Shop Owner is a non-player character (NPC) in Andor's Trail, found
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik1_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik1_2.png" alt=""></p>
 
 | | |
 |---|---|
@@ -40,11 +40,11 @@ description: "Shop Owner is a non-player character (NPC) in Andor's Trail, found
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Shop Owner. Same rules as the game: same checks, same options, same effects.
+Talk to Shop Owner as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_shop_owner_select.json" data-npc="Shop Owner" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (11 lines)"
 
@@ -104,7 +104,7 @@ Set your quest stages and items, then talk to Shop Owner. Same rules as the game
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 11 lines added |
 | [v0.7.12](../versions/0.7.12.md) | Dialogue: 1 line changed<br>· text: “Are you lookng for something in particular?” → “Are you looking for something in particular?” |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “No problem, Sir. I can arrange one for you. Just tell me how much you…” → “No problem. I can arrange one for you. Just tell me how much you want…”<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 3 lines changed<br>· text: “How can I serve you, Sir?” → “How can I serve you, traveler?”<br>· text: “[His eyes widen.] Oh I was just kidding, child... I mean... Sir!” → “[His eyes widen.] Oh I was just kidding, child... I mean... honored c…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

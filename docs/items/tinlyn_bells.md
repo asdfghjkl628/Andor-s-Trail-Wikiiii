@@ -8,7 +8,7 @@ description: "Tinlyn's sheep bell is a quest other in Andor's Trail. How to get 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_10.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_10.png" alt=""></p>
 
 | | |
 |---|---|

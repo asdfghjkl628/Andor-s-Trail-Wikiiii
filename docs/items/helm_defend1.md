@@ -8,7 +8,7 @@ description: "Defender's helmet is a ordinary headwear, metal (heavy) in Andor's
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_31.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_31.png" alt=""></p>
 
 | | |
 |---|---|

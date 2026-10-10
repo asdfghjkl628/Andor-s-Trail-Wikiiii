@@ -8,7 +8,7 @@ description: "Vaeregh is an enemy in Andor's Trail (demon) with 149 HP, worth 34
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_42.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_42.png" alt=""></p>
 
 | | |
 |---|---|

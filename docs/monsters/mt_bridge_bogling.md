@@ -8,7 +8,7 @@ description: "Mountain bridge bogling is an enemy in Andor's Trail (humanoid) wi
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_misc_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_misc_6.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Bridgebreaker is a legendary warhammer in Andor's Trail (Attack da
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_33.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_33.png" alt=""></p>
 
 | | |
 |---|---|

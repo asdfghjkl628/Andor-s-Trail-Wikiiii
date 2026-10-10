@@ -8,7 +8,7 @@ description: "The $playernameyssey - Adventures of $playername is a extraordinar
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_books_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_books_0.png" alt=""></p>
 
 | | |
 |---|---|

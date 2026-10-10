@@ -8,7 +8,7 @@ description: "Statue is an NPC you can also fight in Andor's Trail, found in Bri
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_130.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_130.png" alt=""></p>
 
 | | |
 |---|---|
@@ -26,7 +26,7 @@ description: "Statue is an NPC you can also fight in Andor's Trail, found in Bri
 **Where:** Brimhaven: [Brimhaven school](../maps/brimhaven_school.md#pin-npc-brv_school_statue)
 
 !!! note "A fight can start here"
-    Answering “Now that's a worthy dueling partner at last!” starts a fight with [Statue](../monsters/brv_school_statue.md#v-brv_school_statue2), not with Statue.
+    Answering “Now that's a worthy dueling partner at last!” starts a fight with [Statue](../monsters/brv_school_statue.md#v-brv_school_statue2).
 
 ### Quests
 
@@ -35,11 +35,11 @@ description: "Statue is an NPC you can also fight in Andor's Trail, found in Bri
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Statue. Same rules as the game: same checks, same options, same effects.
+Talk to Statue as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_school_statue.json" data-npc="Statue" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (14 lines)"
 

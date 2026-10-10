@@ -8,7 +8,7 @@ description: "Young aulaeth is an enemy in Andor's Trail (giant) with 105 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_176.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_176.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Hat of the protector is a rare headwear, cloth in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_96.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_96.png" alt=""></p>
 
 | | |
 |---|---|

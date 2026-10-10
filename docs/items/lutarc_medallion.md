@@ -8,7 +8,7 @@ description: "Lutarc's medallion is a quest necklace in Andor's Trail. How to ge
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_20.png" alt=""></p>
 
 | | |
 |---|---|

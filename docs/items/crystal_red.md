@@ -8,7 +8,7 @@ description: "Red Crystals is a ordinary gem in Andor's Trail. How to get it: mo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_34.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_34.png" alt=""></p>
 
 | | |
 |---|---|

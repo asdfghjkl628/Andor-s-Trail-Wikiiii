@@ -8,7 +8,7 @@ description: "Garnet stone is a rare gem in Andor's Trail. How to get it: monste
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_610.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_610.png" alt=""></p>
 
 | | |
 |---|---|

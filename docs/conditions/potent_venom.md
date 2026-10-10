@@ -8,7 +8,7 @@ description: "Potent venom is a harmful blood condition in Andor's Trail: max HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_japozero_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_japozero_2.png" alt=""></p>
 
 | | |
 |---|---|

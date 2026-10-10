@@ -6,7 +6,7 @@ description: "Crystal globe is scenery in Andor's Trail: a decoration or dialogu
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/items_japozero_227.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/items_japozero_227.png" alt=""></p>
 
 | | |
 |---|---|

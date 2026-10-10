@@ -1,5 +1,5 @@
 ---
-description: "Blackwater mountain 16 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Scaled venomfang, Slithering venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 53, Bwmfill 2, Bwmfill 3, Blackwater mountain 56."
+description: "Blackwater mountain 16 is an outdoor location in Andor's Trail, in Blackwater Mountain (other). Enemies: Slithering venomfang, Scaled venomfang, Young gornaud, Gornaud. Exits to Blackwater mountain 53, Bwmfill 2, Bwmfill 3, Blackwater mountain 56."
 ---
 
 # Blackwater mountain 16
@@ -55,8 +55,8 @@ description: "Blackwater mountain 16 is an outdoor location in Andor's Trail, in
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 11 | shares spawn with Gornaud |
 | [Slithering venomfang](../monsters/slithering_venomfang.md) | 35 | 1–2 | 5 | shares spawn with Young gornaud |
+| [Scaled venomfang](../monsters/scaled_venomfang.md) | 35 | 2–4 | 11 | shares spawn with Gornaud |
 | [Young gornaud](../monsters/young_gornaud.md) | 70 | 0–15 | 5 | shares spawn with Slithering venomfang |
 | [Gornaud](../monsters/gornaud.md) | 95 | 0–15 | 11 | shares spawn with Scaled venomfang |
 

@@ -8,7 +8,7 @@ description: "Trident dagger is a ordinary parrying weapon in Andor's Trail (Att
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_13.png" alt=""></p>
 
 | | |
 |---|---|

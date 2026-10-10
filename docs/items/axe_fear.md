@@ -8,7 +8,7 @@ description: "Axe of fear is a rare axe in Andor's Trail (Attack damage 1 to 2, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_16.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_16.png" alt=""></p>
 
 | | |
 |---|---|

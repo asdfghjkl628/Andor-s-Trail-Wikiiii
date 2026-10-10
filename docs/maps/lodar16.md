@@ -1,5 +1,5 @@
 ---
-description: "Lodar 16 is an outdoor location in Andor's Trail. Enemies: Puny venomscale, Young venomscale, Gray venomscale, Burrowing glow worm, Stinging yellowjacket. Exits to Lodar 8, Lodar 18, Lodar 19, Lodar 17."
+description: "Lodar 16 is an outdoor location in Andor's Trail. Enemies: Puny venomscale, Young venomscale, Stinging yellowjacket, Gray venomscale, Burrowing glow worm. Exits to Lodar 8, Lodar 18, Lodar 19, Lodar 17."
 ---
 
 # Lodar 16
@@ -55,9 +55,9 @@ description: "Lodar 16 is an outdoor location in Andor's Trail. Enemies: Puny ve
 |---|---|---|---|---|
 | [Puny venomscale](../monsters/vscale1.md) | 42 | 2–4 | 15 | shares spawn with Burrowing glow worm, Gray venomscale, Young venomscale |
 | [Young venomscale](../monsters/vscale2.md) | 46 | 3–5 | 15 | shares spawn with Burrowing glow worm, Gray venomscale, Puny venomscale |
+| [Stinging yellowjacket](../monsters/yjacket4.md) | 48 | 3–4 | 3 | shares spawn with Quick yellowjacket |
 | [Gray venomscale](../monsters/vscale3.md) | 48 | 3–6 | 15 | shares spawn with Burrowing glow worm, Puny venomscale, Young venomscale |
 | [Burrowing glow worm](../monsters/burrowing_glow_worm.md) | 48 | 4–7 | 15 | shares spawn with Gray venomscale, Puny venomscale, Young venomscale |
-| [Stinging yellowjacket](../monsters/yjacket4.md) | 48 | 3–4 | 3 | shares spawn with Quick yellowjacket |
 | [Aggressive venomscale](../monsters/vscale4.md) | 52 | 4–6 | 2 | shares spawn with Quick venomscale |
 | [Quick yellowjacket](../monsters/yjacket5.md) | 53 | 3–4 | 3 | shares spawn with Stinging yellowjacket |
 | [Quick venomscale](../monsters/vscale5.md) | 56 | 5–6 | 2 | shares spawn with Aggressive venomscale |

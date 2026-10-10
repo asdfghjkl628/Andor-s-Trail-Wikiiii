@@ -8,7 +8,7 @@ description: "Duleian buzzer is an enemy in Andor's Trail (insect) with 77 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_222.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_222.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Forest snake is an enemy in Andor's Trail (reptile) with 7 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_snakes_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_snakes_1.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Glowing flame is an enemy in Andor's Trail (construct) with 112 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles1_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles1_2.png" alt=""></p>
 
 | | |
 |---|---|

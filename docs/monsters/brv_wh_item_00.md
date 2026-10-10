@@ -8,7 +8,7 @@ description: "Warehouse storage spot is a non-player character (NPC) in Andor's 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_guynmart_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_guynmart_8.png" alt=""></p>
 
 | | |
 |---|---|
@@ -28,11 +28,11 @@ description: "Warehouse storage spot is a non-player character (NPC) in Andor's 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_00.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -78,11 +78,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_01.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -122,11 +122,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_02.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -166,11 +166,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_03.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -210,11 +210,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_04.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -254,11 +254,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_05.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -298,11 +298,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_06.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -342,11 +342,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_07.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -386,11 +386,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_08.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -430,11 +430,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_09.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -474,11 +474,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_20.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -515,11 +515,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_21.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -556,11 +556,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_22.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -597,11 +597,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_23.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -638,11 +638,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_24.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -679,11 +679,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_25.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -720,11 +720,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_26.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -761,11 +761,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_27.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -802,11 +802,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_28.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -843,11 +843,11 @@ Set your quest stages and items, then talk to Warehouse storage spot. Same rules
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Warehouse storage spot. Same rules as the game: same checks, same options, same effects.
+Talk to Warehouse storage spot as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/brv_wh_item_29.json" data-npc="Warehouse storage spot" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 

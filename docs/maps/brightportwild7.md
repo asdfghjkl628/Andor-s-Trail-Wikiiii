@@ -1,5 +1,5 @@
 ---
-description: "Brightportwild 7 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Muskrat, Lizardman corsair, Lizardman fencer, Virulent forest deer. Exits to Brightportwild 22, Waytobrightport 18, Brightportwild 12, Brightportwild 9."
+description: "Brightportwild 7 is an indoor location in Andor's Trail, in Brightport (settlement). Enemies: Muskrat, Lizardman fencer, Lizardman corsair, Virulent forest deer. Exits to Brightportwild 22, Waytobrightport 18, Brightportwild 12, Brightportwild 9."
 ---
 
 # Brightportwild 7
@@ -53,8 +53,8 @@ description: "Brightportwild 7 is an indoor location in Andor's Trail, in Bright
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Muskrat](../monsters/brightport_squirrel.md) | 100 | 6–15 | 3 | – |
-| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 2 | – |
 | [Lizardman fencer](../monsters/brightport_redlizard2.md) | 230 | 15–32 | 1 | – |
+| [Lizardman corsair](../monsters/brightport_redlizard.md) | 230 | 20–25 | 2 | – |
 | [Virulent forest deer](../monsters/brightport_deer.md) | 240 | 8–19 | 5 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

@@ -8,7 +8,7 @@ description: "Spiked metal boots is a ordinary footwear, metal (light) in Andor'
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_9.png" alt=""></p>
 
 | | |
 |---|---|

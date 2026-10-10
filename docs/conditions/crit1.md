@@ -8,7 +8,7 @@ description: "Internal bleeding is a harmful physical condition in Andor's Trail
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_89.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_89.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Reinforced steel gloves is a ordinary gloves, metal (heavy) in And
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_37.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_37.png" alt=""></p>
 
 | | |
 |---|---|

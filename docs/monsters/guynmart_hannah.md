@@ -8,7 +8,7 @@ description: "Hannah is a non-player character (NPC) in Andor's Trail, found in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_225.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_225.png" alt=""></p>
 
 | | |
 |---|---|
@@ -31,11 +31,11 @@ description: "Hannah is a non-player character (NPC) in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Hannah. Same rules as the game: same checks, same options, same effects.
+Talk to Hannah as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_hannah_10.json" data-npc="Hannah" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (11 lines)"
 
@@ -120,11 +120,11 @@ Set your quest stages and items, then talk to Hannah. Same rules as the game: sa
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Hannah. Same rules as the game: same checks, same options, same effects.
+Talk to Hannah as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_hannah2_10.json" data-npc="Hannah" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (46 lines)"
 
@@ -352,7 +352,7 @@ Set your quest stages and items, then talk to Hannah. Same rules as the game: sa
 | Version | Change |
 |---|---|
 | [v0.7.2](../versions/0.7.2.md) | Added<br>Dialogue: 46 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “1500 gold for 15 or perhaps even more killed sheep.” → “{1500} gold for 15 or perhaps even more killed sheep.”<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.” |
+| [v0.8.18](../versions/0.8.18.md) | Dialogue: 4 lines changed<br>· text: “2000 gold for 20 or perhaps even more killed sheep.” → “{2000} gold for 20 or perhaps even more killed sheep.”<br>· text: “1500 gold for 15 or perhaps even more killed sheep.” → “{1500} gold for 15 or perhaps even more killed sheep.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 
@@ -370,11 +370,11 @@ Set your quest stages and items, then talk to Hannah. Same rules as the game: sa
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Hannah. Same rules as the game: same checks, same options, same effects.
+Talk to Hannah as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_hannah_10.json" data-npc="Hannah" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [guynmart_hannah_10](#d-guynmart_hannah-guynmart_hannah_10).
 

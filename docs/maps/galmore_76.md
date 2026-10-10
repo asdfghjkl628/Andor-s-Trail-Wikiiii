@@ -1,5 +1,5 @@
 ---
-description: "Galmore 76 is an outdoor location in Andor's Trail, in Mt. Galmore (other). Enemies: Young glacibite, River wretch, Glacibite, Mountain bridge bogling, Dreadmane. Exits to Galmore 66, Galmore 77, Galmore 86, Galmore 75."
+description: "Galmore 76 is an outdoor location in Andor's Trail, in Mt. Galmore (other). Enemies: River wretch, Young glacibite, Glacibite, Mountain bridge bogling, Dreadmane. Exits to Galmore 66, Galmore 77, Galmore 86, Galmore 75."
 ---
 
 # Galmore 76
@@ -54,8 +54,8 @@ description: "Galmore 76 is an outdoor location in Andor's Trail, in Mt. Galmore
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Young glacibite](../monsters/young_glacibite.md) | 201 | 7–10 | 11 | – |
 | [River wretch](../monsters/river_wretch.md#v-river_wretch2) | 201 | 9–13 | 1 | – |
+| [Young glacibite](../monsters/young_glacibite.md) | 201 | 7–10 | 11 | – |
 | [Glacibite](../monsters/glacibite.md) | 212 | 9–11 | 7 | – |
 | [Mountain bridge bogling](../monsters/mt_bridge_bogling.md) | 232 | 12–19 | 1 | – |
 | [Dreadmane](../monsters/dreadmane.md) | 235 | 15–21 | 2 | – |

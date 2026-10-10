@@ -8,7 +8,7 @@ description: "Bronzed grasps is a rare gloves, metal (heavy) in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_38.png" alt=""></p>
 
 | | |
 |---|---|

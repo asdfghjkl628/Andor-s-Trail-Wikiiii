@@ -8,7 +8,7 @@ description: "Handsewn leather boots is a ordinary footwear, leather in Andor's 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_207.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_207.png" alt=""></p>
 
 | | |
 |---|---|

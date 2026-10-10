@@ -8,7 +8,7 @@ description: "Goatskin boots is a ordinary footwear, leather in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik3_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik3_15.png" alt=""></p>
 
 | | |
 |---|---|

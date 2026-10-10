@@ -8,7 +8,7 @@ description: "Saki is an NPC you can also fight in Andor's Trail, found in Mt. G
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_122.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_122.png" alt=""></p>
 
 | | |
 |---|---|
@@ -23,9 +23,9 @@ description: "Saki is an NPC you can also fight in Andor's Trail, found in Mt. G
 </div>
 
 !!! warning "You can fight Saki"
-    Answering “You followers of Kazaul - you want everything for yourself! Give them up!” while talking to [Ysrine](../monsters/ysrine.md) starts a fight with Saki.
+    Answering “You followers of Kazaul - you want everything for yourself! Give…” while talking to [Ysrine](../monsters/ysrine.md) starts a fight with Saki.
 
-    Answering “You followers of Kazaul - you want everything for yourself! Give them up!” starts a fight with Saki.
+    Answering “You followers of Kazaul - you want everything for yourself! Give…” starts a fight with Saki.
 
 ## Combat
 
@@ -73,11 +73,11 @@ description: "Saki is an NPC you can also fight in Andor's Trail, found in Mt. G
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Saki. Same rules as the game: same checks, same options, same effects.
+Talk to Saki as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/saki_selector.json" data-npc="Saki" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (25 lines)"
 

@@ -8,7 +8,7 @@ description: "Rat King Rah's sword is a extraordinary two-handed sword in Andor'
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_0.png" alt=""></p>
 
 | | |
 |---|---|

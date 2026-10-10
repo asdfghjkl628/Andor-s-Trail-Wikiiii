@@ -15,7 +15,7 @@ description: "Laeroth story flags is a hidden quest in Andor's Trail, started by
 | **In journal** | No (hidden flag) |
 | **Stages** | 32 |
 | **Started by** | stepping on a trigger on [Island underground 1](../maps/island_underground1.md), stepping on a trigger on [Island underground 3](../maps/island_underground3.md) |
-| **NPCs involved** | [Callista, the centaur](../monsters/lae_centaur2.md), [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3), [Forenza](../monsters/forenza.md), [Gylew](../monsters/gylew.md), [Moriath](../monsters/moriath.md), [Orion, the centaur](../monsters/lae_centaur1.md) +1 |
+| **NPCs involved** | [Callista, the centaur](../monsters/lae_centaur2.md), [Forenza](../monsters/forenza.md), [Forenza](../monsters/forenza.md#v-forenza_waytobrimhaven3), [Gylew](../monsters/gylew.md), [Moriath](../monsters/moriath.md), [Orion, the centaur](../monsters/lae_centaur1.md) +1 |
 | **Locations** | [Island 1](../maps/island1.md), [Island 2](../maps/island2.md), [Island 3](../maps/island3.md), [Laerothbasement 2](../maps/laerothbasement2.md) |
 | **Related quests** | 6 |
 

@@ -8,7 +8,7 @@ description: "Plaguestrider servant is an enemy in Andor's Trail (undead) with 6
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_38.png" alt=""></p>
 
 | | |
 |---|---|

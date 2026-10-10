@@ -8,7 +8,7 @@ description: "Courage is a beneficial mental condition in Andor's Trail: attack 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_92.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_92.png" alt=""></p>
 
 | | |
 |---|---|

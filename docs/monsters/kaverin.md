@@ -8,7 +8,7 @@ description: "Kaverin is an NPC you can also fight in Andor's Trail, found in Re
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_100.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_100.png" alt=""></p>
 
 | | |
 |---|---|
@@ -58,11 +58,11 @@ description: "Kaverin is an NPC you can also fight in Andor's Trail, found in Re
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Kaverin. Same rules as the game: same checks, same options, same effects.
+Talk to Kaverin as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/kaverin.json" data-npc="Kaverin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (28 lines)"
 
@@ -195,7 +195,7 @@ Set your quest stages and items, then talk to Kaverin. Same rules as the game: s
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “You?! But.. But.. This is terrible! I bet you are one of the goons of…” → “You?! But ... but ... this is terrible! I bet you are one of the goon…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
+| [v0.7.2](../versions/0.7.2.md) | Formatting change only (no gameplay effect)<br>Dialogue: 7 lines changed<br>· text: “I guess he keeps to himself. I sure hope he is okay. If you ever run …” → “I guess he keeps to himself. I sure hope he is OK. If you ever run in…”<br>· text: “(He gives you a sealed message.)” → “[He gives you a sealed message]” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

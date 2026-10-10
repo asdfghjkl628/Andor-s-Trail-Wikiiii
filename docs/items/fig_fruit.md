@@ -8,7 +8,7 @@ description: "Fig is a ordinary food in Andor's Trail. How to get it: shops. A F
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_566.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_566.png" alt=""></p>
 
 | | |
 |---|---|

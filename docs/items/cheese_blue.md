@@ -8,7 +8,7 @@ description: "Blue cheese is a ordinary food in Andor's Trail. How to get it: sh
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rijackson_1_5.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rijackson_1_5.png" alt=""></p>
 
 | | |
 |---|---|

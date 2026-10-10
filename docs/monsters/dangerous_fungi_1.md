@@ -8,7 +8,7 @@ description: "Angry dangerous fungi is an enemy in Andor's Trail (animal) with 4
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_5.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_gisons_5.png" alt=""></p>
 
 | | |
 |---|---|

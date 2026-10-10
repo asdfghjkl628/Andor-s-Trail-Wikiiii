@@ -8,7 +8,7 @@ description: "Erttu is a non-player character (NPC) in Andor's Trail, found in V
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_mage2_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_mage2_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -20,11 +20,11 @@ description: "Erttu is a non-player character (NPC) in Andor's Trail, found in V
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Erttu. Same rules as the game: same checks, same options, same effects.
+Talk to Erttu as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/erttu_1.json" data-npc="Erttu" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (8 lines)"
 

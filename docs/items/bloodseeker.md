@@ -8,7 +8,7 @@ description: "Blood seeker is a extraordinary longsword in Andor's Trail (Attack
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_30.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_30.png" alt=""></p>
 
 | | |
 |---|---|

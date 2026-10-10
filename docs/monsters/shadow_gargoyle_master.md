@@ -8,7 +8,7 @@ description: "Shadow gargoyle master is an enemy in Andor's Trail (undead) with 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_liches_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_liches_1.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Tough redfoot beast is an enemy in Andor's Trail (animal) with 39 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_9.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Steel claymore is a ordinary two-handed sword in Andor's Trail (At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_6_18.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_6_18.png" alt=""></p>
 
 | | |
 |---|---|

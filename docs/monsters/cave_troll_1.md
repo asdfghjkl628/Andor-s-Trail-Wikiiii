@@ -8,7 +8,7 @@ description: "Cave troll is an enemy in Andor's Trail (giant) with 230 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_14.png" alt=""></p>
 
 | | |
 |---|---|

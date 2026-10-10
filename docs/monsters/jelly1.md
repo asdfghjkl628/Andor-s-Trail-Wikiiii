@@ -8,7 +8,7 @@ description: "Olive ooze is an enemy in Andor's Trail (construct) with 20 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_4.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik2_4.png" alt=""></p>
 
 | | |
 |---|---|

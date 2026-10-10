@@ -8,7 +8,7 @@ description: "Massive greataxe is a ordinary greataxe in Andor's Trail (Attack d
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_41.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_41.png" alt=""></p>
 
 | | |
 |---|---|

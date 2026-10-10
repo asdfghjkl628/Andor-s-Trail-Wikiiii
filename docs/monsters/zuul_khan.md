@@ -8,7 +8,7 @@ description: "Zuul'khan is an NPC you can also fight in Andor's Trail, found in 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_88.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_88.png" alt=""></p>
 
 | | |
 |---|---|
@@ -66,11 +66,11 @@ description: "Zuul'khan is an NPC you can also fight in Andor's Trail, found in 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
+Talk to Zuul'khan as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (46 lines)"
 
@@ -316,11 +316,11 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
+Talk to Zuul'khan as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/gison_thiefboss.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -394,11 +394,11 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
+Talk to Zuul'khan as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan2.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (3 lines)"
 
@@ -463,11 +463,11 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
+Talk to Zuul'khan as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan3.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -528,11 +528,11 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
+Talk to Zuul'khan as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan4.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 
@@ -595,11 +595,11 @@ Set your quest stages and items, then talk to Zuul'khan. Same rules as the game:
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Zuul'khan. Same rules as the game: same checks, same options, same effects.
+Talk to Zuul'khan as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/zuul_khan9.json" data-npc="Zuul&#x27;khan" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (7 lines)"
 

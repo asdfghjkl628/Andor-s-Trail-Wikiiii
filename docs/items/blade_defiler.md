@@ -8,7 +8,7 @@ description: "Blade of the defiler is a extraordinary dagger in Andor's Trail (A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_20.png" alt=""></p>
 
 | | |
 |---|---|

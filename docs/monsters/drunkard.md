@@ -8,7 +8,7 @@ description: "Drunkard is a non-player character (NPC) in Andor's Trail, found i
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -27,11 +27,11 @@ description: "Drunkard is a non-player character (NPC) in Andor's Trail, found i
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Drunkard. Same rules as the game: same checks, same options, same effects.
+Talk to Drunkard as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/fallhaven_drunk_selector.json" data-npc="Drunkard" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (25 lines)"
 
@@ -154,7 +154,7 @@ Set your quest stages and items, then talk to Drunkard. Same rules as the game: 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Drink drink drink, drink some more. Drink, drink .. Uh how did it go …” → “Drink drink drink, drink some more. Drink, drink ... Uh how did it go…”<br>· text: “Oh sweet drinks of joy. May the sssshadow be with you kid. *makes big…” → “Oh sweet drinks of joy. May the sssshadow be with you kid. [Makes big…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 8 lines changed<br>· text: “Drink drink drink, drink some more. Drink, drink .. Uh how did it go …” → “Drink drink drink, drink some more. Drink, drink ... Uh how did it go…”<br>· text: “*takes a gulp of the mead* That's good stuff!” → “[Takes a gulp of the mead] That's good stuff!” |
 | [v0.8.18](../versions/0.8.18.md) | Conversation changed<br>Dialogue: 10 lines added, 2 lines changed<br>· text: “Oh, sir. I'm not causing any trouble anymore, see? I sits outside now…” → “Oh, guard. I'm not causing any trouble anymore, see? I sits outside n…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

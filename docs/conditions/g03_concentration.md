@@ -8,7 +8,7 @@ description: "Concentration is a beneficial mental condition in Andor's Trail: a
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_106.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_106.png" alt=""></p>
 
 | | |
 |---|---|

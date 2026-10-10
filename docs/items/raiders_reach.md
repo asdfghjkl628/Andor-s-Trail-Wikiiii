@@ -8,7 +8,7 @@ description: "Raider's reach is a rare whip in Andor's Trail (Attack damage 1 to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_493.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_493.png" alt=""></p>
 
 | | |
 |---|---|

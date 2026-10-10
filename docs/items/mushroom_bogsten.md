@@ -8,7 +8,7 @@ description: "Bogsten's mushroom is a ordinary food in Andor's Trail. How to get
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_19.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_19.png" alt=""></p>
 
 | | |
 |---|---|

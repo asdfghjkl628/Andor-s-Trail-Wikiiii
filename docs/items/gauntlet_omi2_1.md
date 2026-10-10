@@ -8,7 +8,7 @@ description: "Spiked Gloves is a rare gauntlet in Andor's Trail (Attack damage 3
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_23.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_23.png" alt=""></p>
 
 | | |
 |---|---|

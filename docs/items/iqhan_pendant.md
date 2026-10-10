@@ -8,7 +8,7 @@ description: "Iqhan pendant is a ordinary necklace in Andor's Trail (Attack chan
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_2.png" alt=""></p>
 
 | | |
 |---|---|

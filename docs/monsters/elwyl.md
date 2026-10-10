@@ -8,7 +8,7 @@ description: "Elwyl is a non-player character (NPC) in Andor's Trail, found in R
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_187.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_187.png" alt=""></p>
 
 | | |
 |---|---|
@@ -24,11 +24,11 @@ description: "Elwyl is a non-player character (NPC) in Andor's Trail, found in R
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Elwyl. Same rules as the game: same checks, same options, same effects.
+Talk to Elwyl as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/elwyl.json" data-npc="Elwyl" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (32 lines)"
 
@@ -182,7 +182,7 @@ Set your quest stages and items, then talk to Elwyl. Same rules as the game: sam
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
 | [v0.7.1](../versions/0.7.1.md) | Dialogue: 1 line added, 2 lines changed |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “This means .. that Elwel was wrong anyway!” → “This means ... that Elwel was wrong anyway!”<br>· text: “Why .. yes .. of course. I am not wrong! They were clearly blue.” → “Why ... yes ... of course. I am not wrong! They were clearly blue.” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 11 lines changed<br>· text: “Yes. Argh. It's not like I am proud of being a sister to .. her.” → “Yes. Argh. It's not like I am proud of being a sister to ... her.”<br>· text: “Huh, what's this? It's yellow.. I was sure that it used to be blue. L…” → “Huh, what's this? It's yellow ... I was sure that it used to be blue.…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

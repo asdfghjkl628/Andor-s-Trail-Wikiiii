@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 653 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Cave teckel, Cave wolf. Exits to Ratdom maze 643, Ratdom maze 663, Ratdom maze 662, Ratdom maze 642."
+description: "Ratdom maze 653 is an indoor location in Andor's Trail. NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Giant hornbat, Cave teckel. Exits to Ratdom maze 643, Ratdom maze 663, Ratdom maze 662, Ratdom maze 642."
 ---
 
 # Ratdom maze 653
@@ -76,11 +76,11 @@ description: "Ratdom maze 653 is an indoor location in Andor's Trail. NPCs: Clev
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
+| [Giant hornbat](../monsters/ratdom_m9a.md) | 30 | 5–5 | 2 | shares spawn with Cave teckel, Cave wolf |
 | [Cave teckel](../monsters/ratdom_m9b.md) | 30 | 5–5 | 2 | shares spawn with Cave wolf, Giant hornbat |
 | [Cave wolf](../monsters/ratdom_m9c.md) | 30 | 5–5 | 2 | shares spawn with Cave teckel, Giant hornbat |
-| [Giant hornbat](../monsters/ratdom_m9a.md) | 30 | 5–5 | 2 | shares spawn with Cave teckel, Cave wolf |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

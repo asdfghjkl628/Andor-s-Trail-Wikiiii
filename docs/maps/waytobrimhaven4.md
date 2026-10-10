@@ -1,5 +1,5 @@
 ---
-description: "Waytobrimhaven 4 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Spotted erumen lizard, Young erumen lizard. Exits to Waytobrimhaven 5, Waytobrimhaven 1."
+description: "Waytobrimhaven 4 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Young erumen lizard, Spotted erumen lizard. Exits to Waytobrimhaven 5, Waytobrimhaven 1."
 ---
 
 # Waytobrimhaven 4
@@ -48,8 +48,8 @@ description: "Waytobrimhaven 4 is an outdoor location in Andor's Trail, near Lon
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

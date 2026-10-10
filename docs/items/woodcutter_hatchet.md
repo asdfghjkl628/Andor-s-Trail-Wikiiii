@@ -8,7 +8,7 @@ description: "Woodcutter's hatchet is a ordinary axe in Andor's Trail (Attack da
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_57.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_57.png" alt=""></p>
 
 | | |
 |---|---|

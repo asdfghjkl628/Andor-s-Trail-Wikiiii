@@ -8,7 +8,7 @@ description: "Emerald shard is a rare gem in Andor's Trail. How to get it: monst
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_348.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_348.png" alt=""></p>
 
 | | |
 |---|---|

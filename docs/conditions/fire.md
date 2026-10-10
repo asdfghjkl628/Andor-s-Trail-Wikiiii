@@ -8,7 +8,7 @@ description: "Ablaze is a harmful physical condition in Andor's Trail: attack ch
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_1.png" alt=""></p>
 
 | | |
 |---|---|

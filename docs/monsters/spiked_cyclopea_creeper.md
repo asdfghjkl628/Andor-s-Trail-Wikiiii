@@ -8,7 +8,7 @@ description: "Spiked cyclopea creeper is an enemy in Andor's Trail (reptile) wit
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_1088.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_1088.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Parchment from Flora's fountain is a extraordinary other in Andor'
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_426.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_426.png" alt=""></p>
 
 | | |
 |---|---|

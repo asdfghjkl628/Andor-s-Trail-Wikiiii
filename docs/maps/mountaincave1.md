@@ -1,5 +1,5 @@
 ---
-description: "Mountaincave 1 is an indoor location in Andor's Trail. Enemies: Young scaradon, Small scaradon, Scaradon, Tough scaradon, Young carrion beetle. Exits to Mountaincave 2, Mountaincave 0, Waytolake 0."
+description: "Mountaincave 1 is an indoor location in Andor's Trail. Enemies: Young scaradon, Scaradon, Small scaradon, Tough scaradon, Young carrion beetle. Exits to Mountaincave 2, Mountaincave 0, Waytolake 0."
 ---
 
 # Mountaincave 1
@@ -51,8 +51,8 @@ description: "Mountaincave 1 is an indoor location in Andor's Trail. Enemies: Yo
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Young scaradon](../monsters/scaradon_1.md) | 32 | 0–4 | 4 | shares spawn with Carrion beetle, Young carrion beetle |
-| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 4 | shares spawn with Scaradon, Tough scaradon |
 | [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 4 | shares spawn with Small scaradon, Tough scaradon |
+| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 4 | shares spawn with Scaradon, Tough scaradon |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 | 1–4 | 4 | shares spawn with Scaradon, Small scaradon |
 | [Young carrion beetle](../monsters/cbeetle_1.md) | 45 | 0–5 | 4 | shares spawn with Carrion beetle, Young scaradon |
 | [Carrion beetle](../monsters/cbeetle_2.md) | 51 | 0–5 | 4 | shares spawn with Young carrion beetle, Young scaradon |

@@ -8,7 +8,7 @@ description: "Wyrm meat is a quest animal part in Andor's Trail. How to get it: 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_25.png" alt=""></p>
 
 | | |
 |---|---|

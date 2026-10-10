@@ -8,7 +8,7 @@ description: "Elytharan redeemer is a legendary two-handed sword in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_70.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_70.png" alt=""></p>
 
 | | |
 |---|---|

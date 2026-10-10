@@ -8,7 +8,7 @@ description: "Alaric is an NPC you can also fight in Andor's Trail, found in Aid
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik2_55.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik2_55.png" alt=""></p>
 
 | | |
 |---|---|
@@ -27,11 +27,11 @@ description: "Alaric is an NPC you can also fight in Andor's Trail, found in Aid
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Alaric. Same rules as the game: same checks, same options, same effects.
+Talk to Alaric as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/aidem_base_alaric_10.json" data-npc="Alaric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -114,11 +114,11 @@ Set your quest stages and items, then talk to Alaric. Same rules as the game: sa
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Alaric. Same rules as the game: same checks, same options, same effects.
+Talk to Alaric as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/alaric_wild6house.json" data-npc="Alaric" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

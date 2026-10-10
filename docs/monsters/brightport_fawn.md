@@ -8,7 +8,7 @@ description: "Virulent forest fawn is an enemy in Andor's Trail (animal) with 14
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_johny_10.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_johny_10.png" alt=""></p>
 
 | | |
 |---|---|

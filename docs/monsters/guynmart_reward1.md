@@ -23,11 +23,11 @@ description: "Gold is a non-player character (NPC) in Andor's Trail, found in Gu
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Gold. Same rules as the game: same checks, same options, same effects.
+Talk to Gold as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guynmart_reward1_10.json" data-npc="Gold" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (2 lines)"
 

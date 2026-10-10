@@ -8,7 +8,7 @@ description: "Wild fox is an enemy in Andor's Trail (animal) with 25 HP, worth 4
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_dogs_3.png" alt=""></p>
 
 | | |
 |---|---|

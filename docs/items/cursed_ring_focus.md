@@ -8,7 +8,7 @@ description: "Cursed ring of focus is a quest ring in Andor's Trail (Grants Curs
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rings_1_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rings_1_20.png" alt=""></p>
 
 | | |
 |---|---|

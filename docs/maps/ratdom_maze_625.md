@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 625 is an indoor location in Andor's Trail, in Museum (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Curious roundling, Young roundling. Exits to Ratdom maze 616, Ratdom maze 636, Ratdom maze 635, Ratdom maze 515."
+description: "Ratdom maze 625 is an indoor location in Andor's Trail, in Museum (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Young roundling, Curious roundling. Exits to Ratdom maze 616, Ratdom maze 636, Ratdom maze 635, Ratdom maze 515."
 ---
 
 # Ratdom maze 625
@@ -79,10 +79,10 @@ description: "Ratdom maze 625 is an indoor location in Andor's Trail, in Museum 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
-| [Curious roundling](../monsters/ratdom_m13b.md) | 30 | 5–5 | 2 | shares spawn with Young roundling |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Young roundling](../monsters/ratdom_m13a.md) | 30 | 5–5 | 2 | shares spawn with Curious roundling |
+| [Curious roundling](../monsters/ratdom_m13b.md) | 30 | 5–5 | 2 | shares spawn with Young roundling |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

@@ -8,7 +8,7 @@ description: "Morkin leader is an enemy in Andor's Trail (humanoid) with 175 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik5_68.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik5_68.png" alt=""></p>
 
 | | |
 |---|---|

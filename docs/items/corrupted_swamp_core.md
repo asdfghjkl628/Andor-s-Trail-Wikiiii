@@ -8,7 +8,7 @@ description: "Corrupted swamp core is a extraordinary edible animal part in Ando
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_576.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_576.png" alt=""></p>
 
 | | |
 |---|---|

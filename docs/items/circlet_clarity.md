@@ -8,7 +8,7 @@ description: "Circlet of clarity is a extraordinary ring in Andor's Trail (Max H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_258.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_258.png" alt=""></p>
 
 | | |
 |---|---|

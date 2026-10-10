@@ -8,7 +8,7 @@ description: "Lethgar miner ghost is a non-player character (NPC) in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_gisons_9.png" alt=""></p>
 
 | | |
 |---|---|
@@ -24,11 +24,11 @@ description: "Lethgar miner ghost is a non-player character (NPC) in Andor's Tra
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as the game: same checks, same options, same effects.
+Talk to Lethgar miner ghost as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lethgar_miner_ghost_welcome.json" data-npc="Lethgar miner ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -75,11 +75,11 @@ Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Lethgar miner ghost. Same rules as the game: same checks, same options, same effects.
+Talk to Lethgar miner ghost as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lethgar_miner_ghost2_welcome.json" data-npc="Lethgar miner ghost" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (13 lines)"
 

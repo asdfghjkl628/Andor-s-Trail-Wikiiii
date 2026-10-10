@@ -8,7 +8,7 @@ description: "Venomscale amulet is a rare necklace in Andor's Trail (Critical sk
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_necklaces_1_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_necklaces_1_13.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Buceth's vial of green liquid is a quest other in Andor's Trail. H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_47.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_47.png" alt=""></p>
 
 | | |
 |---|---|

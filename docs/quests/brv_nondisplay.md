@@ -15,7 +15,7 @@ description: "Brimhaven story flags is a hidden quest in Andor's Trail, started 
 | **In journal** | No (hidden flag) |
 | **Stages** | 36 |
 | **Started by** | stepping on a trigger on [Brimhaven inn east](../maps/brimhaven_inn_east.md) |
-| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Churrie](../monsters/churrie.md), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_roaming), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_captain), [Feygard soldier](../monsters/patrol_roaming.md), [Gnossath](../monsters/brv_employer.md) +5 |
+| **NPCs involved** | [Alkapoan](../monsters/brv_richman.md), [Churrie](../monsters/churrie.md), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_captain), [Feygard soldier](../monsters/patrol_roaming.md), [Feygard soldier](../monsters/patrol_roaming.md#v-patrol2_roaming), [Gnossath](../monsters/brv_employer.md) +5 |
 | **Locations** | [Brimhaven 1](../maps/brimhaven1.md), [Brimhaven 4](../maps/brimhaven4.md), [Brimhaven fortune teller](../maps/brimhaven_fortune_teller.md), [Brimhaven house 1](../maps/brimhaven_house1.md) |
 | **Total XP** | 500 |
 | **Related quests** | 7 |

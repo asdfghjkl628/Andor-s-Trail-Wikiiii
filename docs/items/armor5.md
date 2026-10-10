@@ -8,7 +8,7 @@ description: "Iced leather armor is a extraordinary armor, leather in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_feygard1_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_feygard1_6.png" alt=""></p>
 
 | | |
 |---|---|

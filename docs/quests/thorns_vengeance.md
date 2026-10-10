@@ -12,7 +12,7 @@ description: "The thorns of vengeance is a quest in Andor's Trail, started by Ar
 | **In journal** | Yes |
 | **Stages** | 16 (completes at 32, 76, 90) |
 | **Started by** | [Aryfora](../monsters/stoutford_widow.md) ([Stoutford gate](../maps/stoutford_gate.md)) |
-| **NPCs involved** | [Aryfora](../monsters/stoutford_widow.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Blornvale](../monsters/stoutford_alchemist.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2), [Tahalendor](../monsters/tahalendor.md) |
+| **NPCs involved** | [Aryfora](../monsters/stoutford_widow.md), [Blornvale](../monsters/stoutford_alchemist.md), [Blornvale](../monsters/stoutford_alchemist.md#v-stoutford_alchemist2), [Tahalendor](../monsters/tahalendor.md), [Tahalendor](../monsters/tahalendor.md#v-tahalendor2) |
 | **Locations** | [Stoutford church](../maps/stoutford_church.md), [Stoutford gate](../maps/stoutford_gate.md), [Stoutford potion](../maps/stoutford_potion.md) |
 | **Total XP** | 6,005 |
 | **Related quests** | 3 |

@@ -8,7 +8,7 @@ description: "Shield of dark reflections is a extraordinary shield, metal (heavy
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_24.png" alt=""></p>
 
 | | |
 |---|---|

@@ -54,8 +54,8 @@ description: "Undertell 10 is an indoor location in Andor's Trail. Enemies: Dryb
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Drybone lich](../monsters/drybone_lich.md) | 212 | 8–10 | 4 | – |
-| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 232 | 9–11 | 1 | – |
 | [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_plague) | 232 | 9–11 | 1 | – |
+| [Bone-Marshal lich](../monsters/bone_marshal_lich.md#v-bone_marshal_lich_help_liches) | 232 | 9–11 | 1 | – |
 | [Molten pyreling](../monsters/molten_pyreling.md) | 236 | 15–21 | 5 | – |
 | [Plague-Lich](../monsters/plague_lich.md) | 263 | 9–11 | 1 | – |
 

@@ -8,7 +8,7 @@ description: "Radiant allaceph is an enemy in Andor's Trail (demon) with 124 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_103.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_103.png" alt=""></p>
 
 | | |
 |---|---|

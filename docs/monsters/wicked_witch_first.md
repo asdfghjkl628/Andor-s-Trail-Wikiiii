@@ -8,7 +8,7 @@ description: "Bonicksa is an NPC you can also fight in Andor's Trail, found in W
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_phoenix01_8.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_phoenix01_8.png" alt=""></p>
 
 | | |
 |---|---|
@@ -63,11 +63,11 @@ description: "Bonicksa is an NPC you can also fight in Andor's Trail, found in W
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Bonicksa. Same rules as the game: same checks, same options, same effects.
+Talk to Bonicksa as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wicked_witch_first_selector.json" data-npc="Bonicksa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (7 lines)"
 
@@ -154,11 +154,11 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Bonicksa. Same rules as the game: same checks, same options, same effects.
+Talk to Bonicksa as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wicked_witch_second_selector.json" data-npc="Bonicksa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -206,11 +206,11 @@ Set your quest stages and items, then talk to Bonicksa. Same rules as the game: 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Bonicksa. Same rules as the game: same checks, same options, same effects.
+Talk to Bonicksa as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/wicked_witch_third_selector.json" data-npc="Bonicksa" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 

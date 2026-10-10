@@ -3117,7 +3117,7 @@ Every route in the game data, including alternatives. To try a specific situatio
 | Version | Change |
 |---|---|
 | [v0.8.16.1](../versions/0.8.16.1.md) | Added<br>Dialogue: 271 lines added |
-| [v0.8.18](../versions/0.8.18.md) | Stages added: 257, 258<br>Stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “With this, the whole tribe is wiped out, I should return and tell Bry…” → “With this, the whole tribe is wiped out. I should return and tell Bry…”<br>· text: “Rest assured, I would not risk my contingency on shoddy information, …” → “Rest assured, I would not risk my contingency on shoddy information, …” |
+| [v0.8.18](../versions/0.8.18.md) | Stages added: 257, 258<br>Stage 40 journal text changed<br>Dialogue: 1 line added, 9 lines changed<br>· text: “But it's not about the gold this time, we need them for an order and …” → “But it's not about the gold this time, we need them for an order and …”<br>· text: “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” → “I would sooner trust in Gunfryk dying of old age, $playername. My pla…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

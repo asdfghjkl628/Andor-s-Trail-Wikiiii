@@ -8,7 +8,7 @@ description: "Pink potion of stomach calming is a ordinary potion in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_6.png" alt=""></p>
 
 | | |
 |---|---|

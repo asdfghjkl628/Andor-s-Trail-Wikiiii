@@ -8,7 +8,7 @@ description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, fo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik7_38.png" alt=""></p>
 
 | | |
 |---|---|
@@ -42,11 +42,11 @@ description: "Sly Seraphina is a non-player character (NPC) in Andor's Trail, fo
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly_200.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (15 lines)"
 
@@ -142,11 +142,11 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/thief_seraphina_selector.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (59 lines)"
 
@@ -429,11 +429,11 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly2.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (5 lines)"
 
@@ -476,11 +476,11 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly3.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 
@@ -506,11 +506,11 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly3.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 The full dialogue for this entry is included in the listing for an earlier entry on this page, starting at [tt_sly3](#d-tt_seraphina3-tt_sly3).
 
@@ -535,11 +535,11 @@ The full dialogue for this entry is included in the listing for an earlier entry
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly4.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (10 lines)"
 
@@ -615,11 +615,11 @@ Set your quest stages and items, then talk to Sly Seraphina. Same rules as the g
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Sly Seraphina. Same rules as the game: same checks, same options, same effects.
+Talk to Sly Seraphina as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/tt_sly5.json" data-npc="Sly Seraphina" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (14 lines)"
 

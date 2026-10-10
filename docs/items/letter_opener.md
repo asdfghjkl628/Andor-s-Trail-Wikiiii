@@ -8,7 +8,7 @@ description: "Fancy letter opener is a ordinary dagger in Andor's Trail (Attack 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_35.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_35.png" alt=""></p>
 
 | | |
 |---|---|

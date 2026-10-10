@@ -8,7 +8,7 @@ description: "Gray venomscale is an enemy in Andor's Trail (reptile) with 48 HP,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik4_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik4_17.png" alt=""></p>
 
 | | |
 |---|---|

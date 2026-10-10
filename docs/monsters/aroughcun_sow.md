@@ -8,7 +8,7 @@ description: "Sow aroughcun is an enemy in Andor's Trail (animal) with 175 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_274.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_274.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Minor freeze is a harmful physical condition in Andor's Trail: blo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_53.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_53.png" alt=""></p>
 
 | | |
 |---|---|

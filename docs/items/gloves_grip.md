@@ -8,7 +8,7 @@ description: "Gloves of better grip is a ordinary gloves, leather in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_35.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_35.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Map to Vacor's old hideout is a quest other in Andor's Trail. How 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_books_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_books_9.png" alt=""></p>
 
 | | |
 |---|---|

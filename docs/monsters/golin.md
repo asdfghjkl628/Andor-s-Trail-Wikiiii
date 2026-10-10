@@ -8,7 +8,7 @@ description: "Golin is an NPC you can also fight in Andor's Trail, found in Brim
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_12.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_12.png" alt=""></p>
 
 | | |
 |---|---|
@@ -57,11 +57,11 @@ description: "Golin is an NPC you can also fight in Andor's Trail, found in Brim
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Golin. Same rules as the game: same checks, same options, same effects.
+Talk to Golin as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/golin.json" data-npc="Golin" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (75 lines)"
 
@@ -405,7 +405,7 @@ Set your quest stages and items, then talk to Golin. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.11](../versions/0.7.11.md) | Added<br>Dialogue: 75 lines added |
-| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “The Elytharans built several towns and cities, dedicated to their god…” → “The Elytharans built several towns and cities, dedicated to their god…”<br>· text: “The town of Loneford was founded and it soon became famous for its fe…” → “The town of Loneford was founded and it soon became famous for its fe…” |
+| [v0.7.12](../versions/0.7.12.md) | Dialogue: 6 lines changed<br>· text: “The cultists worshipped the blinding and cleansing light of Elythara.…” → “The cultists worshipped the blinding and cleansing light of Elythara.…”<br>· text: “Just imagine all those mighty churches and splendid palaces! It was a…” → “Just imagine all those mighty churches and splendid palaces! It was a…” |
 | [v0.7.15](../versions/0.7.15.md) | Dialogue: 1 line changed<br>· text: “It's about time. This is my favourite class.” → “It's about time. This is my favorite class.” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

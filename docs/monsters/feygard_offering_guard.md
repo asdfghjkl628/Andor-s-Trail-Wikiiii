@@ -8,7 +8,7 @@ description: "Honor Guard is an enemy in Andor's Trail (humanoid) with 220 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_karvis1_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_karvis1_1.png" alt=""></p>
 
 | | |
 |---|---|

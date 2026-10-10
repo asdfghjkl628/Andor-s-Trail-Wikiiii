@@ -8,7 +8,7 @@ description: "Molykros is an enemy in Andor's Trail (humanoid) with 100 HP, wort
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik7_63.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik7_63.png" alt=""></p>
 
 | | |
 |---|---|

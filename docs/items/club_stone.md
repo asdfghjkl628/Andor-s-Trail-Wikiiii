@@ -8,7 +8,7 @@ description: "Stone club is a ordinary club in Andor's Trail (Attack damage 3 to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_19.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_19.png" alt=""></p>
 
 | | |
 |---|---|

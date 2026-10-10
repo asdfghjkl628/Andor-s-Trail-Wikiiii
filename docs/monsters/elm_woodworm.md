@@ -8,7 +8,7 @@ description: "Contaminated woodworm is an enemy in Andor's Trail (animal) with 7
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_162.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_162.png" alt=""></p>
 
 | | |
 |---|---|

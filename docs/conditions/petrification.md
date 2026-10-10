@@ -8,7 +8,7 @@ description: "Petrification is a harmful physical condition in Andor's Trail: ma
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_9.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_9.png" alt=""></p>
 
 | | |
 |---|---|

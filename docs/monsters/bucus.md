@@ -8,7 +8,7 @@ description: "Bucus is a non-player character (NPC) in Andor's Trail. Starts Key
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rogue1_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rogue1_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -25,11 +25,11 @@ description: "Bucus is a non-player character (NPC) in Andor's Trail. Starts Key
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Bucus. Same rules as the game: same checks, same options, same effects.
+Talk to Bucus as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/bucus_welcome.json" data-npc="Bucus" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (18 lines)"
 
@@ -121,7 +121,7 @@ Set your quest stages and items, then talk to Bucus. Same rules as the game: sam
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Ok kid. You've proven yourself to me. Yes, I saw some other kid by th…” → “OK kid. You've proven yourself to me. Yes, I saw some other kid by th…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 9 lines changed<br>· text: “Ok, tell you what kid. Do a task for me and maybe I'll consider givin…” → “OK, tell you what kid. Do a task for me and maybe I'll consider givin…”<br>· text: “Hi again, welcome back to the .. Oh wait, I thought you were someone …” → “Hi again, welcome back to the ... Oh wait, I thought you were someone…” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

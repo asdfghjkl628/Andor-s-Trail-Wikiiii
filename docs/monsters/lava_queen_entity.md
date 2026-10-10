@@ -8,7 +8,7 @@ description: "Queen lava entity is an enemy in Andor's Trail (construct) with 49
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik10_24.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik10_24.png" alt=""></p>
 
 | | |
 |---|---|

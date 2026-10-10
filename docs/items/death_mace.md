@@ -8,7 +8,7 @@ description: "Death mace is a ordinary mace in Andor's Trail (Attack damage 7 to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_6_16.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_6_16.png" alt=""></p>
 
 | | |
 |---|---|

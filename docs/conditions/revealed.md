@@ -8,7 +8,7 @@ description: "Revealed is a beneficial mental condition in Andor's Trail: attack
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_67.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_67.png" alt=""></p>
 
 | | |
 |---|---|

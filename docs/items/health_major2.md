@@ -8,7 +8,7 @@ description: "Major potion of health is a ordinary potion in Andor's Trail. How 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_28.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_28.png" alt=""></p>
 
 | | |
 |---|---|

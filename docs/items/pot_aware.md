@@ -8,7 +8,7 @@ description: "Potion of vulnerabilities is a ordinary potion in Andor's Trail. H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik1_19.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik1_19.png" alt=""></p>
 
 | | |
 |---|---|

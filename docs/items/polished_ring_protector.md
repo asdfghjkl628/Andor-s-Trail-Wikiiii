@@ -8,7 +8,7 @@ description: "Polished ring of the protector is a rare ring in Andor's Trail (At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rings_1_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rings_1_20.png" alt=""></p>
 
 | | |
 |---|---|

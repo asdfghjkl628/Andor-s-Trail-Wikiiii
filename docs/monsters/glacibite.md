@@ -8,7 +8,7 @@ description: "Glacibite is an enemy in Andor's Trail (humanoid) with 212 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_25.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Old stone worm is an enemy in Andor's Trail (reptile) with 36 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik9_33.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik9_33.png" alt=""></p>
 
 | | |
 |---|---|

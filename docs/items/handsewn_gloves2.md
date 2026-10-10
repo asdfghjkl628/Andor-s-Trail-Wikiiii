@@ -8,7 +8,7 @@ description: "Handsewn leather gloves is a ordinary gloves, leather in Andor's T
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_229.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_229.png" alt=""></p>
 
 | | |
 |---|---|

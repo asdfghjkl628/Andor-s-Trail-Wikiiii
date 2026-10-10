@@ -8,7 +8,7 @@ description: "Adult church dweller is an enemy in Andor's Trail (insect) with 10
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_523.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_523.png" alt=""></p>
 
 | | |
 |---|---|

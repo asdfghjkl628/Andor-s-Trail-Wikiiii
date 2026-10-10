@@ -8,7 +8,7 @@ description: "Burrowing glow worm is an enemy in Andor's Trail (reptile) with 48
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik4_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik4_20.png" alt=""></p>
 
 | | |
 |---|---|

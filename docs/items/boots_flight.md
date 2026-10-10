@@ -8,7 +8,7 @@ description: "Boots of flight is a ordinary footwear, cloth in Andor's Trail (Mo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_34.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_34.png" alt=""></p>
 
 | | |
 |---|---|

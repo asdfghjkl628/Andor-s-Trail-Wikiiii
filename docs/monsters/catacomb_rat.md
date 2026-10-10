@@ -8,7 +8,7 @@ description: "Catacomb rat is an enemy in Andor's Trail (animal) with 15 HP, wor
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rats_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rats_0.png" alt=""></p>
 
 | | |
 |---|---|

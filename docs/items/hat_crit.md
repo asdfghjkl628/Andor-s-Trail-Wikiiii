@@ -8,7 +8,7 @@ description: "Woodcutter's feathered hat is a extraordinary headwear, cloth in A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_3_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_3_0.png" alt=""></p>
 
 | | |
 |---|---|

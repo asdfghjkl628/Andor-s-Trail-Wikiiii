@@ -1,5 +1,5 @@
 ---
-description: "Waterwayb 1 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Grasslands beetle, Tough grasslands beetle, Rabid hound, Spotted erumen lizard, Young erumen lizard. Exits to Waytobrimhaven 1, Waterwayb 2."
+description: "Waterwayb 1 is an outdoor location in Andor's Trail, near Loneford (settlement). Enemies: Grasslands beetle, Tough grasslands beetle, Rabid hound, Young erumen lizard, Spotted erumen lizard. Exits to Waytobrimhaven 1, Waterwayb 2."
 ---
 
 # Waterwayb 1
@@ -51,8 +51,8 @@ description: "Waterwayb 1 is an outdoor location in Andor's Trail, near Loneford
 | [Grasslands beetle](../monsters/grass_beetle.md) | 34 | 0–5 | 2 | shares spawn with Tough grasslands beetle |
 | [Tough grasslands beetle](../monsters/grass_beetle2.md) | 35 | 1–6 | 2 | shares spawn with Grasslands beetle |
 | [Rabid hound](../monsters/rabid_hound.md) | 40 | 3–9 | 2 | – |
-| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
 | [Young erumen lizard](../monsters/erumen_1.md) | 45 | 2–9 | 2 | shares spawn with Spotted erumen lizard |
+| [Spotted erumen lizard](../monsters/erumen_2.md) | 45 | 2–9 | 2 | shares spawn with Young erumen lizard |
 | [Creeping fungus](../monsters/waterwayamushroom.md) | 65 | 3–7 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>

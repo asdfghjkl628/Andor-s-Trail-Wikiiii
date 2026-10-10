@@ -8,7 +8,7 @@ description: "Carrion beetle is an enemy in Andor's Trail (insect) with 51 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_63.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_63.png" alt=""></p>
 
 | | |
 |---|---|

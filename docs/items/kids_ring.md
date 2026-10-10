@@ -8,7 +8,7 @@ description: "Kid's ring is a ordinary ring in Andor's Trail (Attack damage 1, A
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_rings_1_17.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_rings_1_17.png" alt=""></p>
 
 | | |
 |---|---|

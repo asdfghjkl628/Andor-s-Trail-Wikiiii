@@ -8,7 +8,7 @@ description: "A strange looking dagger is a quest dagger in Andor's Trail (Attac
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_13.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_13.png" alt=""></p>
 
 | | |
 |---|---|

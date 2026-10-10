@@ -8,7 +8,7 @@ description: "Vilegard smith is a non-player character (NPC) in Andor's Trail, f
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_mage2_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_mage2_0.png" alt=""></p>
 
 | | |
 |---|---|
@@ -43,11 +43,11 @@ description: "Vilegard smith is a non-player character (NPC) in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Vilegard smith. Same rules as the game: same checks, same options, same effects.
+Talk to Vilegard smith as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/vilegard_smith_select.json" data-npc="Vilegard smith" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (29 lines)"
 
@@ -186,7 +186,7 @@ Set your quest stages and items, then talk to Vilegard smith. Same rules as the 
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “I might have something that will do just fine.. Let me just find them.” → “I might have something that will do just fine... Let me just find the…”<br>· text: “[takes a step back] What.. is.. that? It can't be? No. Let me look at…” → “[Takes a step back] What ... is ... that? It can't be? No. Let me loo…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 1 line added, 6 lines changed<br>· text: “I might have something that will do just fine.. Let me just find them.” → “I might have something that will do just fine... Let me just find the…”<br>· text: “I.. what? Are you threatening me?” → “I ... what? Are you threatening me?” |
 | [v0.7.11](../versions/0.7.11.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

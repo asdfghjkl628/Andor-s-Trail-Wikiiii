@@ -8,7 +8,7 @@ description: "Irdegh is an enemy in Andor's Trail (reptile) with 115 HP, worth 2
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_15.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_15.png" alt=""></p>
 
 | | |
 |---|---|

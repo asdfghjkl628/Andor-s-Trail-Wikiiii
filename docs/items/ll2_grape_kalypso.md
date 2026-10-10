@@ -8,7 +8,7 @@ description: "A single grape from Kalypso is a extraordinary food in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_0.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_0.png" alt=""></p>
 
 | | |
 |---|---|

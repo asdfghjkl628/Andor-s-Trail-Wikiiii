@@ -8,7 +8,7 @@ description: "Mushroom guardian is an NPC you can also fight in Andor's Trail, f
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_gisons_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_gisons_3.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ description: "Mushroom guardian is an NPC you can also fight in Andor's Trail, f
 </div>
 
 !!! warning "You can fight Mushroom guardian"
-    Answering “Yes!” starts a fight with Mushroom guardian.
+    Any of your answers (“Yes!” or “No, I swear. Please don't hurt me.”) starts a fight with Mushroom guardian.
 
 ## Combat
 
@@ -53,11 +53,11 @@ description: "Mushroom guardian is an NPC you can also fight in Andor's Trail, f
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Mushroom guardian. Same rules as the game: same checks, same options, same effects.
+Talk to Mushroom guardian as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/guardian_mushroom_1.json" data-npc="Mushroom guardian" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

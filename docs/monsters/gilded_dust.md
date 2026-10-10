@@ -8,7 +8,7 @@ description: "Gilded dust is an enemy in Andor's Trail (construct) with 235 HP, 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik10_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik10_25.png" alt=""></p>
 
 | | |
 |---|---|

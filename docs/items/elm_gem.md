@@ -8,7 +8,7 @@ description: "Blob of kazarite is a extraordinary gem in Andor's Trail. The Shad
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_omi2_21.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_omi2_21.png" alt=""></p>
 
 | | |
 |---|---|

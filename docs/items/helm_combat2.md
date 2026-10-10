@@ -8,7 +8,7 @@ description: "Enhanced combat helmet is a ordinary headwear, metal (light) in An
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_armours_25.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_armours_25.png" alt=""></p>
 
 | | |
 |---|---|

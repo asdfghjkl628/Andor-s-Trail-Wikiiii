@@ -8,7 +8,7 @@ description: "Fierce cave scorpion is an enemy in Andor's Trail (insect) with 35
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik3_75.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik3_75.png" alt=""></p>
 
 | | |
 |---|---|

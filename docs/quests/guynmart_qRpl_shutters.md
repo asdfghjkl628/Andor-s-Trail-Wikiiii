@@ -15,7 +15,7 @@ description: "Guynmart Castle shutters is a hidden quest in Andor's Trail, start
 | **In journal** | No (hidden flag) |
 | **Stages** | 1 |
 | **Started by** | [Hannah](../monsters/guynmart_hannah.md) ([Guynmart](../maps/guynmart.md)), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3) ([Guynmart main 1](../maps/guynmart_main_1.md)) |
-| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md), [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3), [Rob](../monsters/guynmart_rob.md) |
+| **NPCs involved** | [Hannah](../monsters/guynmart_hannah.md#v-guynmart_hannah3), [Hannah](../monsters/guynmart_hannah.md), [Rob](../monsters/guynmart_rob.md) |
 | **Locations** | [Guynmart](../maps/guynmart.md), [Guynmart main 1](../maps/guynmart_main_1.md), [Guynmart main 3](../maps/guynmart_main_3.md) |
 
 </div>

@@ -1,5 +1,5 @@
 ---
-description: "Ratdom maze 622 is an indoor location in Andor's Trail, in Skeleton dance (other). NPCs: Clevred. Enemies: Tiny rat, Cave rat, Tough cave rat, Nasty viper, Quick viper. Exits to Ratdom maze 613, Ratdom maze 533, Ratdom maze 632, Ratdom maze 612."
+description: "Ratdom maze 622 is an indoor location in Andor's Trail, in Skeleton dance (other). NPCs: Clevred. Enemies: Tiny rat, Tough cave rat, Cave rat, Nasty viper, Quick viper. Exits to Ratdom maze 613, Ratdom maze 533, Ratdom maze 632, Ratdom maze 612."
 ---
 
 # Ratdom maze 622
@@ -77,8 +77,8 @@ description: "Ratdom maze 622 is an indoor location in Andor's Trail, in Skeleto
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Tiny rat](../monsters/tiny_rat.md#v-ratdom_maze_rat1) | 2 | 1–1 | 1 | shares spawn with Cave rat, Tough cave rat |
-| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Tough cave rat](../monsters/tough_cave_rat.md#v-tough_cave_rat3) | 5 | 3–3 | 1 | shares spawn with Cave rat, Tiny rat |
+| [Cave rat](../monsters/cave_rat.md#v-ratdom_maze_rat2) | 5 | 2–2 | 1 | shares spawn with Tiny rat, Tough cave rat |
 | [Nasty viper](../monsters/ratdom_m12b.md) | 30 | 5–5 | 2 | shares spawn with Quick viper |
 | [Quick viper](../monsters/ratdom_m12a.md) | 30 | 5–5 | 2 | shares spawn with Nasty viper |
 

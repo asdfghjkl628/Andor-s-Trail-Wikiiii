@@ -8,7 +8,7 @@ description: "Greataxe of shattered hope is a rare greataxe in Andor's Trail (At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_1.png" alt=""></p>
 
 | | |
 |---|---|

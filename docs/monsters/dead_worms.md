@@ -8,7 +8,7 @@ description: "Dead worms is an enemy in Andor's Trail (construct) with 50 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik9_32.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik9_32.png" alt=""></p>
 
 | | |
 |---|---|

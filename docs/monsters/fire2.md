@@ -8,7 +8,7 @@ description: "Blazing abcess is an enemy in Andor's Trail (construct) with 95 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_154.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_154.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Lleglaris is a non-player character (NPC) in Andor's Trail, found 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld1_41.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld1_41.png" alt=""></p>
 
 | | |
 |---|---|
@@ -40,11 +40,11 @@ description: "Lleglaris is a non-player character (NPC) in Andor's Trail, found 
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Lleglaris. Same rules as the game: same checks, same options, same effects.
+Talk to Lleglaris as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lleglaris.json" data-npc="Lleglaris" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (24 lines)"
 
@@ -167,7 +167,7 @@ Set your quest stages and items, then talk to Lleglaris. Same rules as the game:
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Ok then. I won't keep you.” → “OK then. I won't keep you.”<br>· text: “Are you sure you should be here? Maybe you should go play with .. you…” → “Are you sure you should be here? Maybe you should go play with ... yo…” |
+| [v0.7.2](../versions/0.7.2.md) | Dialogue: 4 lines changed<br>· text: “Are you sure you should be here? Maybe you should go play with .. you…” → “Are you sure you should be here? Maybe you should go play with ... yo…”<br>· text: “Ok then. I won't keep you.” → “OK then. I won't keep you.” |
 | [v0.8.18](../versions/0.8.18.md) | Dialogue: 1 line changed |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>

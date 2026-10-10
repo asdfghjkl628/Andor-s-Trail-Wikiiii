@@ -8,7 +8,7 @@ description: "Human skull is a rare other in Andor's Trail. How to get it: monst
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_7.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_7.png" alt=""></p>
 
 | | |
 |---|---|

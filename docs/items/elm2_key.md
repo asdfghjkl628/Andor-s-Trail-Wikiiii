@@ -8,7 +8,7 @@ description: "Rusted key is a ordinary other in Andor's Trail. How to get it: qu
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_394.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_394.png" alt=""></p>
 
 | | |
 |---|---|

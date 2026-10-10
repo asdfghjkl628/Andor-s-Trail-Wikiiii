@@ -8,7 +8,7 @@ description: "Puny cave scorpion is an enemy in Andor's Trail (insect) with 30 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik3_77.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik3_77.png" alt=""></p>
 
 | | |
 |---|---|

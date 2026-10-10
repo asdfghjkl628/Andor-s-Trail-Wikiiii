@@ -8,7 +8,7 @@ description: "Hillside vine is an enemy in Andor's Trail (construct) with 108 HP
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_guynmart_10.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_guynmart_10.png" alt=""></p>
 
 | | |
 |---|---|

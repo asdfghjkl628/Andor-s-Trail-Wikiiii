@@ -8,7 +8,7 @@ description: "Ortholion's henchman is a non-player character (NPC) in Andor's Tr
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles3_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles3_14.png" alt=""></p>
 
 | | |
 |---|---|
@@ -25,11 +25,11 @@ description: "Ortholion's henchman is a non-player character (NPC) in Andor's Tr
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Ortholion's henchman. Same rules as the game: same checks, same options, same effects.
+Talk to Ortholion's henchman as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/ortholion_guard9_s.json" data-npc="Ortholion&#x27;s henchman" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (16 lines)"
 

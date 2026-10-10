@@ -8,7 +8,7 @@ description: "Zaccheria's shop inventory is a quest other in Andor's Trail. How 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_438.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_438.png" alt=""></p>
 
 | | |
 |---|---|

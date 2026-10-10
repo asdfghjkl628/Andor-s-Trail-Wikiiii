@@ -59,7 +59,7 @@ description: "Blackwater mountain 76 is an indoor location in Andor's Trail. NPC
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 
-**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish1), [Fish](../monsters/brv_fish1.md#v-guynmart_fish2)
+**Scenery:** [Fish](../monsters/brv_fish1.md#v-guynmart_fish2), [Fish](../monsters/brv_fish1.md#v-guynmart_fish1)
 
 ## Items & containers
 

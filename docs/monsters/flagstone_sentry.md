@@ -8,7 +8,7 @@ description: "Flagstone sentry is a non-player character (NPC) in Andor's Trail,
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_men_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_men_3.png" alt=""></p>
 
 | | |
 |---|---|
@@ -24,11 +24,11 @@ description: "Flagstone sentry is a non-player character (NPC) in Andor's Trail,
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Flagstone sentry. Same rules as the game: same checks, same options, same effects.
+Talk to Flagstone sentry as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/flagstone_sentry.json" data-npc="Flagstone sentry" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (23 lines)"
 
@@ -141,7 +141,7 @@ Set your quest stages and items, then talk to Flagstone sentry. Same rules as th
 | Version | Change |
 |---|---|
 | [v0.7.0](../versions/0.7.0.md) | Present in v0.7.0 (earliest release tracked) |
-| [v0.7.2](../versions/0.7.2.md) | Renamed “Flagstone Sentry” → “Flagstone sentry”<br>Dialogue: 1 line added, 14 lines changed<br>· text: “Are you really sure you want to head in there? Well, ok, fine by me.” → “Are you really sure you want to head in there? Well, OK, fine by me.”<br>· text: “Have you found the former warden of Flagstone? The warden used to hav…” → “You should look for the former warden. Maybe he has something to do w…” |
+| [v0.7.2](../versions/0.7.2.md) | Renamed “Flagstone Sentry” → “Flagstone sentry”<br>Dialogue: 1 line added, 14 lines changed<br>· text: “There was a change recently, now the undead pour out in great numbers.” → “But recently, undead started pouring out of Flagstone and started to …”<br>· text: “Flagstone has been overrun by undead, and I'm standing guard here to …” → “Flagstone has been overrun by undead, and we are standing guard here …” |
 
 <p class="verified">Verified against v0.8.18 and every earlier release back to v0.7.0 (game data compared release by release).</p>
 

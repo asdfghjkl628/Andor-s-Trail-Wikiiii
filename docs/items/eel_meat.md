@@ -8,7 +8,7 @@ description: "Mountain eel meat is a ordinary edible animal part in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_3_65.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_3_65.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "King Rah is an enemy in Andor's Trail (animal) with 160 HP, worth 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_tometik8_59.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_tometik8_59.png" alt=""></p>
 
 | | |
 |---|---|

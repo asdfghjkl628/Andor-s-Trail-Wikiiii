@@ -1,5 +1,5 @@
 ---
-description: "Waytolake 8 is an outdoor location in Andor's Trail. Enemies: Small scaradon, Scaradon, Tough scaradon, Hardshell scaradon. Exits to Waytolake 9, Waytolake 7."
+description: "Waytolake 8 is an outdoor location in Andor's Trail. Enemies: Scaradon, Small scaradon, Tough scaradon, Hardshell scaradon. Exits to Waytolake 9, Waytolake 7."
 ---
 
 # Waytolake 8
@@ -47,8 +47,8 @@ description: "Waytolake 8 is an outdoor location in Andor's Trail. Enemies: Smal
 
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
-| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 4 | shares spawn with Scaradon, Tough scaradon |
 | [Scaradon](../monsters/scaradon_3.md) | 35 | 0–4 | 4 | shares spawn with Small scaradon, Tough scaradon |
+| [Small scaradon](../monsters/scaradon_2.md) | 35 | 1–4 | 4 | shares spawn with Scaradon, Tough scaradon |
 | [Tough scaradon](../monsters/scaradon_4.md) | 37 | 1–4 | 4 | shares spawn with Scaradon, Small scaradon |
 | [Hardshell scaradon](../monsters/scaradon_5.md) | 38 | 1–5 | 6 | – |
 

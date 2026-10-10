@@ -8,7 +8,7 @@ description: "Blackened olm is an enemy in Andor's Trail (animal) with 75 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_20.png" alt=""></p>
 
 | | |
 |---|---|

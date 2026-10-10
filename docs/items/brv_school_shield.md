@@ -8,7 +8,7 @@ description: "Paper shield is a ordinary buckler in Andor's Trail (Attack chance
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_2_127.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_2_127.png" alt=""></p>
 
 | | |
 |---|---|

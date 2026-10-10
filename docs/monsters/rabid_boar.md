@@ -8,7 +8,7 @@ description: "Rabid boar is an enemy in Andor's Trail (animal) with 20 HP, worth
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_dogs_6.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_dogs_6.png" alt=""></p>
 
 | | |
 |---|---|

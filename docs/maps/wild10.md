@@ -1,5 +1,5 @@
 ---
-description: "Wild 10 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit, Wild flower. Enemies: Forest wasp, Forest serpent, Wild boar. Exits to Fallhaven south-west, Wild 11, Mywild 20, Wild 9."
+description: "Wild 10 is an outdoor location in Andor's Trail, near Fallhaven (settlement). NPCs: Shady bandit, Wild flower. Enemies: Forest wasp, Wild boar, Forest serpent. Exits to Fallhaven south-west, Wild 11, Mywild 20, Wild 9."
 ---
 
 # Wild 10
@@ -64,8 +64,8 @@ West: Stoutford”">7</a></div>
 | Enemy | HP | Damage | Up to | Notes |
 |---|---|---|---|---|
 | [Forest wasp](../monsters/forest_wasp.md) | 6 | 1–2 | 2 | – |
-| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 | [Wild boar](../monsters/wild_boar.md) | 20 | 3–3 | 2 | – |
+| [Forest serpent](../monsters/forest_serpent.md) | 20 | 2–3 | 1 | – |
 
 <small>“Up to” is the most that can be alive at once from the spawn areas on this map.</small>
 

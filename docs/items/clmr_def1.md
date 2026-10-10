@@ -8,7 +8,7 @@ description: "Defender's claymore is a ordinary two-handed sword in Andor's Trai
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_2_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_2_1.png" alt=""></p>
 
 | | |
 |---|---|

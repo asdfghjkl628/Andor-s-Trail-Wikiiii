@@ -8,7 +8,7 @@ description: "Dirty grimmthorn marauder is an NPC you can also fight in Andor's 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_20.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_20.png" alt=""></p>
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ description: "Dirty grimmthorn marauder is an NPC you can also fight in Andor's 
 </div>
 
 !!! warning "You can fight Dirty grimmthorn marauder"
-    Answering “Where is the Shadow to help me now?” starts a fight with Dirty grimmthorn marauder.
+    Any of your answers (“Where is the Shadow to help me now?” or “Please don't hurt me.”) starts a fight with Dirty grimmthorn marauder.
 
 ## Combat
 
@@ -60,11 +60,11 @@ description: "Dirty grimmthorn marauder is an NPC you can also fight in Andor's 
 
 ## Dialogue simulator
 
-Set your quest stages and items, then talk to Dirty grimmthorn marauder. Same rules as the game: same checks, same options, same effects.
+Talk to Dirty grimmthorn marauder as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dirty_grimmthorn_marauder_1.json" data-npc="Dirty grimmthorn marauder" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

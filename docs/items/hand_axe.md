@@ -8,7 +8,7 @@ description: "Hand Axe is a quest axe in Andor's Trail (Attack damage 1 to 2, At
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_weapons_3_35.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_weapons_3_35.png" alt=""></p>
 
 | | |
 |---|---|

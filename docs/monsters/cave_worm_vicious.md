@@ -8,7 +8,7 @@ description: "Vicious cave worm is an enemy in Andor's Trail (reptile) with 90 H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_ld2_135.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_ld2_135.png" alt=""></p>
 
 | | |
 |---|---|

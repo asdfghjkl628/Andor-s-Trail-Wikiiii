@@ -8,7 +8,7 @@ description: "Blue globe of the elements is a quest other in Andor's Trail. How 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_359.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_359.png" alt=""></p>
 
 | | |
 |---|---|

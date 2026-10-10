@@ -8,7 +8,7 @@ description: "Shadow's strength is a beneficial spiritual condition in Andor's T
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_70.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_70.png" alt=""></p>
 
 | | |
 |---|---|

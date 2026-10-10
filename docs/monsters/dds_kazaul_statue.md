@@ -8,7 +8,7 @@ description: "Kazaul statue is an enemy in Andor's Trail (demon) with 478 HP, wo
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_1x2_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_1x2_2.png" alt=""></p>
 
 | | |
 |---|---|

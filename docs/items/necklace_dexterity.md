@@ -8,7 +8,7 @@ description: "Necklace of dexterity is a ordinary necklace in Andor's Trail (Use
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_reterski_1_11.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_reterski_1_11.png" alt=""></p>
 
 | | |
 |---|---|

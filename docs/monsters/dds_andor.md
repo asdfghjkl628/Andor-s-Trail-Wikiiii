@@ -8,7 +8,7 @@ description: "Andor is an NPC you can also fight in Andor's Trail, found in Road
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_maksiu1_1.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_maksiu1_1.png" alt=""></p>
 
 | | |
 |---|---|
@@ -40,11 +40,11 @@ description: "Andor is an NPC you can also fight in Andor's Trail, found in Road
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Andor. Same rules as the game: same checks, same options, same effects.
+Talk to Andor as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/dds_andor.json" data-npc="Andor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (12 lines)"
 
@@ -121,11 +121,11 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Andor. Same rules as the game: same checks, same options, same effects.
+Talk to Andor as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_algangror2.json" data-npc="Andor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (6 lines)"
 
@@ -202,11 +202,11 @@ Set your quest stages and items, then talk to Andor. Same rules as the game: sam
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Andor. Same rules as the game: same checks, same options, same effects.
+Talk to Andor as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/lae_andor3.json" data-npc="Andor" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (1 lines)"
 

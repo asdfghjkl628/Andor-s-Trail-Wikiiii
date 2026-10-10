@@ -8,7 +8,7 @@ description: "Wooden green key from Kalypso is a quest other in Andor's Trail. H
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_japozero_394.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_japozero_394.png" alt=""></p>
 
 | | |
 |---|---|

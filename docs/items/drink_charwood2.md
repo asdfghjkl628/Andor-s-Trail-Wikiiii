@@ -8,7 +8,7 @@ description: "Concentrated charwood sap is a ordinary drink in Andor's Trail. Ho
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_tometik1_2.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_tometik1_2.png" alt=""></p>
 
 | | |
 |---|---|

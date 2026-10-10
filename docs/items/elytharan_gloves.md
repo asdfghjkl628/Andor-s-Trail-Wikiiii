@@ -8,7 +8,7 @@ description: "Elytharan gloves is a extraordinary gloves, cloth in Andor's Trail
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_19.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_19.png" alt=""></p>
 
 | | |
 |---|---|

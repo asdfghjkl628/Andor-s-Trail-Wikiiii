@@ -8,7 +8,7 @@ description: "Hunter's Sword is a extraordinary longsword in Andor's Trail (Atta
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_misc_5_42.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_misc_5_42.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Gornaud leader is an enemy in Andor's Trail (giant) with 165 HP, w
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles2_30.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles2_30.png" alt=""></p>
 
 | | |
 |---|---|

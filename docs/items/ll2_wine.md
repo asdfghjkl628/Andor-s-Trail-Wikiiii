@@ -8,7 +8,7 @@ description: "Polyphem's favourite wine is a ordinary food in Andor's Trail. How
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_consumables_50.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_consumables_50.png" alt=""></p>
 
 | | |
 |---|---|

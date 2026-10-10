@@ -6,7 +6,7 @@ description: "yellow boot is scenery in Andor's Trail: a decoration or dialogue 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/items_armours_3_38.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/items_armours_3_38.png" alt=""></p>
 
 | | |
 |---|---|

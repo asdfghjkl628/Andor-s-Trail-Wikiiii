@@ -8,7 +8,7 @@ description: "Cragbreaker is a extraordinary club in Andor's Trail (Attack damag
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_newb_450.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_newb_450.png" alt=""></p>
 
 | | |
 |---|---|

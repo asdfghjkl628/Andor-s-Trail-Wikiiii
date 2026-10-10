@@ -8,7 +8,7 @@ description: "Drakthorn warrior is an enemy in Andor's Trail (reptile) with 146 
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_rltiles4_14.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_rltiles4_14.png" alt=""></p>
 
 | | |
 |---|---|

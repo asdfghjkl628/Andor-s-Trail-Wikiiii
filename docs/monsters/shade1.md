@@ -8,7 +8,7 @@ description: "Forsaken shade is an NPC you can also fight in Andor's Trail, foun
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/monsters/monsters_newb_1_663.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/monsters/monsters_newb_1_663.png" alt=""></p>
 
 | | |
 |---|---|
@@ -83,11 +83,11 @@ description: "Forsaken shade is an NPC you can also fight in Andor's Trail, foun
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade1_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (38 lines)"
 
@@ -332,11 +332,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade2_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -435,11 +435,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade3_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -538,11 +538,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade4_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -641,11 +641,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade5_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -744,11 +744,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade6_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -847,11 +847,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade7_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -950,11 +950,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade8_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -1053,11 +1053,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade9_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -1156,11 +1156,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade10_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 
@@ -1259,11 +1259,11 @@ Set your quest stages and items, then talk to Forsaken shade. Same rules as the 
 
 ### Dialogue simulator
 
-Set your quest stages and items, then talk to Forsaken shade. Same rules as the game: same checks, same options, same effects.
+Talk to Forsaken shade as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), the simulator asks you. Try another answer with **Undo**.
 
 <div class="dlg-sim" data-src="../../assets/dialogue/shade11_selector.json" data-npc="Forsaken shade" markdown="0"><noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>
 
-<p class="verified">Rules verified against v0.8.18 game code (ConversationController.java) and dialogue data.</p>
+<p class="verified">Follows the game's own conversation rules (v0.8.18).</p>
 
 ??? quote "Dialogue (4 lines)"
 

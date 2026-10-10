@@ -8,7 +8,7 @@ description: "Mind fog is a harmful mental condition in Andor's Trail: attack ch
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_1_81.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_1_81.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Spider bite is a harmful blood condition in Andor's Trail: −4 to
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/conditions/actorconditions_omi2_3.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/conditions/actorconditions_omi2_3.png" alt=""></p>
 
 | | |
 |---|---|

@@ -8,7 +8,7 @@ description: "Heartsteel claymore is a legendary two-handed sword in Andor's Tra
 
 <div class="infobox" markdown>
 
-<p class="ib-img">![](../../assets/icons/items/items_phoenix01_48.png){ .sprite }</p>
+<p class="ib-img"><img class="sprite" src="../../assets/icons/items/items_phoenix01_48.png" alt=""></p>
 
 | | |
 |---|---|

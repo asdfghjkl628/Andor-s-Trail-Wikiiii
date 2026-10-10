@@ -15,7 +15,7 @@ description: "Sullengard story flags is a hidden quest in Andor's Trail, started
 | **In journal** | No (hidden flag) |
 | **Stages** | 47 |
 | **Started by** | [Godfrey](../monsters/sullengard_innkeeper.md) ([Sullengard inn](../maps/sullengard_inn.md)) |
-| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother2), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother3), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
+| **NPCs involved** | [Deebo](../monsters/deebo_orchard_deebo.md), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother2), [Drinking brother](../monsters/sullengard_drinking_brother.md#v-sullengard_drinking_brother3), [Drinking brother](../monsters/sullengard_drinking_brother.md), [Frosty](../monsters/sullengard_cat.md), [Godfrey](../monsters/sullengard_innkeeper.md) +10 |
 | **Locations** | [Fallhaven derelict 2](../maps/fallhaven_derelict2.md), [Fallhaven derelict 2 t](../maps/fallhaven_derelict2_t.md), [Lake shore road 9](../maps/lake_shore_road_9.md), [Mywild 20 houseleft](../maps/mywild20_houseleft.md) |
 | **Total XP** | 3,300 |
 | **Related quests** | 13 |
