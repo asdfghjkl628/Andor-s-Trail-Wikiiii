@@ -369,10 +369,11 @@ def npc_section(G, mid, notes, history=None, prefix='', with_notes=True, listed=
             str(s) for (qq, s), cids in sorted(G.triggers.items()) if qq == q and any(rp in G.paths.get(c, {}) for c in cids)]) + "\n"
             for q in (vis + [q for q in quests_here if q not in vis])[:30]) + "\n")
     out.append("## Dialogue simulator\n\n"
-               f"Set your quest stages and items, then talk to {_md(m.get('name', mid))}. Same rules as the game: same checks, same options, same effects.\n\n"
+               f"Talk to {_md(m.get('name', mid))} as you would in the game. When the conversation depends on your progress (a quest, an item, a dice roll…), "
+               "the simulator asks you. Try another answer with **Undo**.\n\n"
                f'<div class="dlg-sim" data-src="../../assets/dialogue/{rp}.json" data-npc="{html.escape(m.get("name", mid))}" markdown="0">'
                '<noscript>The simulator needs JavaScript. The full dialogue is listed below.</noscript></div>\n\n')
-    out.append(f"<p class=\"verified\">Rules verified against v{G.c.get('VERSION', '')} game code (ConversationController.java) and dialogue data.</p>\n\n")
+    out.append(f"<p class=\"verified\">Follows the game's own conversation rules (v{G.c.get('VERSION', '')}).</p>\n\n")
     # dialogue: breadth-first from the NPC's first phrase, each phrase once, with anchors
     order, seen, dq = [], {rp}, deque([rp])
     while dq and len(order) < MAX_DIALOGUE_NODES:
@@ -412,6 +413,25 @@ def npc_section(G, mid, notes, history=None, prefix='', with_notes=True, listed=
 
 
 # ---------------------------------------------------------------- dialogue simulator data
+_TIMERS = None
+def _timer_text(G, tid):
+    """Plain words for "since timer X started": who said what when the timer was created."""
+    global _TIMERS
+    if _TIMERS is None:
+        _TIMERS = {}
+        for cid, c in G.convs.items():
+            for w in c.get('rewards') or []:
+                if w.get('rewardType') == 'createTimer': _TIMERS.setdefault(w.get('rewardID'), cid)
+    cid = _TIMERS.get(tid)
+    if not cid: return 'an earlier event'
+    c = G.convs[cid]
+    sp = [x for rt in G.routes(cid) for k, x in rt['speakers'] if k == 'npc']
+    who = G.monsters.get(sp[0], {}).get('name') if sp else None
+    msg = _short(c.get('message'), 80)
+    if msg: return (f"{who} said “{msg}”" if who else f"“{msg}”")
+    return f"you last spoke with {who}" if who else 'an earlier event'
+
+
 def export_dialogue(G, rp, out_dir, item_filters, skills_names):
     """Write assets/dialogue/<root phrase>.json: the conversation reachable from this phrase, plus the names it uses.
     The browser engine (javascripts/dialogue-sim.js) runs it with the game's rules (ConversationController.java)."""
@@ -443,13 +463,18 @@ def export_dialogue(G, rp, out_dir, item_filters, skills_names):
         if sw: m_ids.add(sw)
         nodes[x] = {'m': c.get('message'), 'r': reps, 'w': rws, **({'n': sw} if sw else {})}
     for f in f_ids: i_ids.update(item_filters.get(f, []))
+    c_ids = {q[1] for n in nodes.values() for r in n['r'] for q in r[2] if q[0] == 'hasActorCondition'} | \
+            {w[1] for n in nodes.values() for w in n['w'] if w[0] == 'actorCondition'}
+    t_ids = {q[1] for n in nodes.values() for r in n['r'] for q in r[2] if q[0] == 'timerElapsed'}
     data = {'root': rp, 'nodes': nodes,
             'q': {q: [G.quests.get(q, {}).get('name', q), 1 if G.quests.get(q, {}).get('showInLog', 0) else 0,
                       {str(s.get('progress')): s.get('logText', '') for s in G.quests.get(q, {}).get('stages', [])}] for q in q_ids},
             'i': {i: G.items.get(i, {}).get('name', i) for i in i_ids if i != 'gold'},
             'mo': {m: G.monsters.get(m, {}).get('name', m) for m in m_ids},
             'f': {f: item_filters.get(f, []) for f in f_ids},
-            'sk': skills_names}
+            'sk': skills_names,
+            'c': {x: (G.c.get('conditions') or {}).get(x, {}).get('name', x) for x in c_ids},
+            'tm': {x: _timer_text(G, x) for x in t_ids}}
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, f'{rp}.json'), 'w', encoding='utf-8') as fh:
         _json.dump(data, fh, ensure_ascii=False, separators=(',', ':'))

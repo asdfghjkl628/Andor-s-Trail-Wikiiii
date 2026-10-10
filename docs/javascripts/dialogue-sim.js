@@ -1,291 +1,252 @@
 /* Andor's Trail dialogue simulator.
- * Mirrors controller/ConversationController.java:
- *  - a line with no text is a silent check: the first reply whose requirements are all met is taken;
- *  - a line with text shows it, then offers only the replies whose requirements are met ("N" = Next);
- *  - choosing a reply hands over items it requires with inventoryRemove / wearRemove;
- *  - reaching a line applies its effects (quest stages, items, faction, skills...);
- *  - targets X/S/F/R end the conversation (close / shop / fight / NPC leaves).
- * Requirement semantics follow canFulfillRequirement(); unknown types count as met, as in the game.
+ * Follows controller/ConversationController.java:
+ *  - a line with no text is a silent check: the first branch whose requirements are all met is taken;
+ *  - a line with text is shown with the replies whose requirements are met ("N" = Next);
+ *  - choosing a reply hands over items required with inventoryRemove / wearRemove;
+ *  - reaching a line applies its effects (journal, items, ...);
+ *  - X / S / F / R end the conversation (close / shop / fight with the current speaker / NPC leaves);
+ *  - switchToNPC hands the conversation (and any fight) to another character.
+ * Nothing has to be set up in advance: whenever the game would check something the simulator doesn't know yet
+ * (quest progress, items, kills, a dice roll...), it asks, and remembers the answer. Every answer and choice can be undone.
  */
 (function () {
   'use strict';
-  var SPECIAL = { X: 'The conversation ends.', S: 'The shop opens.', F: 'A fight starts!', R: 'The NPC leaves.' };
-
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function fmt(s) { return String(s || '').replace(/\$playername/g, 'you').replace(/\{(\d+)\}/g, function (_, n) { return Number(n).toLocaleString(); }); }
+  function cut(s, n) { s = fmt(s).replace(/\s+/g, ' ').trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; }
 
-  function Sim(root, data, npcName) {
-    this.root = root; this.d = data; this.npc = npcName;
-    this.atoms = this.collect();
-    this.reset();
+  function Sim(root, data, npcName, npcId) {
+    this.root = root; this.d = data; this.npc = npcName; this.npcId = npcId;
+    this.decisions = [];
     this.build();
+    this.run();
   }
 
-  Sim.prototype.collect = function () {
-    var A = { quests: {}, items: {}, wear: {}, kills: {}, faction: {}, skills: {}, counters: {}, flags: {} };
-    var self = this;
-    function addReq(q) {
-      var t = q[0], id = q[1], v = q[2];
-      if (t === 'questProgress' || t === 'questLatestProgress') (A.quests[id] = A.quests[id] || {})[v] = 1;
-      else if (t === 'inventoryKeep' || t === 'inventoryRemove') A.items[id] = 1;
-      else if (t === 'wear' || t === 'wearRemove') A.wear[id] = 1;
-      else if (t === 'killedMonster') A.kills[id] = 1;
-      else if (t === 'factionScore' || t === 'factionScoreEquals') A.faction[id] = 1;
-      else if (t === 'skillLevel') A.skills[id] = 1;
-      else if (t === 'usedItem' || t === 'spentGold' || t === 'consumedBonemeals') A.counters[t + ':' + id] = 1;
-      else A.flags[self.flagKey(q)] = q;
-    }
-    Object.keys(this.d.nodes).forEach(function (k) {
-      var n = self.d.nodes[k];
-      n.r.forEach(function (r) { r[2].forEach(addReq); });
-      n.w.forEach(function (w) {
-        if (w[0] === 'questProgress' || w[0] === 'removeQuestProgress') (A.quests[w[1]] = A.quests[w[1]] || {})[w[2]] = 1;
-        else if (w[0] === 'giveItem') A.items[w[1]] = 1;
-        else if (w[0] === 'alignmentChange' || w[0] === 'alignmentSet') A.faction[w[1]] = 1;
-        else if (w[0] === 'skillIncrease') A.skills[w[1]] = 1;
-      });
-    });
-    return A;
-  };
-  Sim.prototype.flagKey = function (q) { return q[0] + '|' + q[1] + '|' + q[2]; };
-
-  Sim.prototype.reset = function () {
-    this.s = { quests: {}, items: {}, wear: {}, kills: {}, faction: {}, skills: {}, counters: {}, flags: {} };
-  };
-
-  // ------------------------------------------------------------------ names
-  Sim.prototype.qName = function (id) { var q = this.d.q[id]; return q ? q[0] + (q[1] ? '' : ' (hidden flag)') : id; };
+  // ------------------------------------------------------------------ names and plain-language conditions
+  Sim.prototype.qName = function (id) { var q = this.d.q[id]; return q ? q[0] : id.replace(/_/g, ' '); };
+  Sim.prototype.qLog = function (id, v) { var q = this.d.q[id]; return q && q[1] ? (q[2][String(v)] || '') : ''; };
   Sim.prototype.iName = function (id) {
     if (id === 'gold') return 'gold';
-    if (this.d.f[id]) return 'any of: ' + this.d.f[id].map(this.iName, this).join(', ');
+    if (this.d.f[id]) return 'one of: ' + this.d.f[id].map(this.iName, this).join(', ');
     return this.d.i[id] || id;
   };
   Sim.prototype.mName = function (id) { return this.d.mo[id] || id; };
   Sim.prototype.skName = function (id) { return (this.d.sk && this.d.sk[id]) || id; };
-
-  // ------------------------------------------------------------------ rules (canFulfillRequirement)
-  Sim.prototype.has = function (q, v) { var s = this.s.quests[q]; return !!(s && s[v]); };
-  Sim.prototype.count = function (id) { return Number(this.s.items[id] || 0); };
-  Sim.prototype.ok = function (q) {
-    var t = q[0], id = q[1], v = Number(q[2] || 0), r, self = this;
+  Sim.prototype.cName = function (id) { return (this.d.c && this.d.c[id]) || id.replace(/_/g, ' '); };
+  Sim.prototype.stageText = function (q, v) {
+    var log = this.qLog(q, v);
+    return log ? '“' + cut(log, 90) + '”' : 'step ' + v;
+  };
+  // one requirement, worded for a player; positive = whether to describe it as true (true) or as its opposite
+  Sim.prototype.say1 = function (q, positive) {
+    var t = q[0], id = q[1], v = q[2], neg = !!q[3] !== !positive;
+    var Q = '<i>' + this.qName(id) + '</i>';
     switch (t) {
-      case 'questProgress': r = this.has(id, v); break;
+      case 'questProgress':
+        return neg ? Q + ' has not reached ' + this.stageText(id, v) + ' yet' : Q + ': you have reached ' + this.stageText(id, v);
       case 'questLatestProgress':
-        r = this.has(id, v) && !Object.keys(this.s.quests[id] || {}).some(function (k) { return self.s.quests[id][k] && Number(k) > v; }); break;
-      case 'inventoryKeep': case 'inventoryRemove':
-        r = this.d.f[id] ? this.d.f[id].some(function (i) { return self.count(i) >= v; }) : this.count(id) >= v; break;
-      case 'wear': case 'wearRemove':
-        r = this.d.f[id] ? this.d.f[id].some(function (i) { return self.s.wear[i]; }) : !!this.s.wear[id]; break;
-      case 'killedMonster': r = Number(this.s.kills[id] || 0) >= v; break;
-      case 'factionScore': r = Number(this.s.faction[id] || 0) >= v; break;
-      case 'factionScoreEquals': r = Number(this.s.faction[id] || 0) === v; break;
-      case 'skillLevel': r = Number(this.s.skills[id] || 0) >= v; break;
-      case 'usedItem': case 'spentGold': case 'consumedBonemeals': r = Number(this.s.counters[t + ':' + id] || 0) >= v; break;
-      case 'random': case 'timerElapsed': case 'hasActorCondition': case 'date': case 'dateEquals':
-      case 'time': case 'timeEquals': case 'skillIncrease':
-        r = !!this.s.flags[this.flagKey(q)]; break;
-      default: r = true;
+        return Q + (neg ? ': your latest entry is not ' : ': your latest entry is ') + this.stageText(id, v);
+      case 'inventoryKeep': return 'you ' + (neg ? "don't have " : 'have ') + (id === 'gold' ? Number(v).toLocaleString() + ' gold' : v + '× ' + this.iName(id));
+      case 'inventoryRemove': return neg ? "you don't have " + (id === 'gold' ? Number(v).toLocaleString() + ' gold' : v + '× ' + this.iName(id))
+        : (id === 'gold' ? 'you have ' + Number(v).toLocaleString() + ' gold (you pay it)' : 'you have ' + v + '× ' + this.iName(id) + ' (you hand it over)');
+      case 'wear': return 'you are ' + (neg ? 'not ' : '') + 'wearing ' + this.iName(id);
+      case 'wearRemove': return neg ? 'you are not wearing ' + this.iName(id) : 'you give up the ' + this.iName(id) + ' you are wearing';
+      case 'killedMonster': return 'you have ' + (neg ? 'not yet ' : '') + 'killed ' + (Number(v) > 1 ? v + '× ' : '') + this.mName(id);
+      case 'factionScore': return 'your standing with “' + id.replace(/_/g, ' ') + '” is ' + (neg ? 'below ' : 'at least ') + v;
+      case 'factionScoreEquals': return 'the story counter “' + id.replace(/_/g, ' ') + '” is ' + (neg ? 'not ' : '') + v;
+      case 'skillLevel': return 'your ' + this.skName(id) + ' is ' + (neg ? 'below level ' : 'level ') + v + (neg ? '' : '+');
+      case 'skillIncrease': return 'you can ' + (neg ? 'no longer ' : 'still ') + 'learn ' + this.skName(id);
+      case 'random': return neg ? 'the dice roll fails' : 'the dice roll succeeds (' + v + '% chance)';
+      case 'timerElapsed':
+        var mins = Math.round(Number(v) * 6 / 60), since = (this.d.tm && this.d.tm[id]) || 'an earlier event';
+        return (neg ? 'less than ' : 'at least ') + v + ' rounds' + (mins >= 1 ? ' (about ' + mins + ' min outside combat)' : '') + ' have passed since ' + since;
+      case 'hasActorCondition': return 'you are ' + (neg ? 'not ' : '') + 'affected by ' + this.cName(id);
+      case 'usedItem': return 'you have ' + (neg ? 'not ' : '') + 'used ' + (Number(v) > 1 ? v + '× ' : '') + this.iName(id);
+      case 'consumedBonemeals': return 'you have ' + (neg ? 'not ' : '') + 'used ' + v + '+ bonemeal potions';
+      case 'spentGold': return 'you have ' + (neg ? 'not ' : '') + 'spent ' + Number(v).toLocaleString() + ' gold in total';
+      case 'date': case 'dateEquals': case 'time': case 'timeEquals':
+        return (neg ? 'not ' : '') + 'the right date or time on your device';
+      default: return (neg ? 'not ' : '') + t + ' ' + (id || '') + ' ' + (v || '');
     }
+  };
+  Sim.prototype.sayAll = function (reqs) {
+    var self = this;
+    return reqs.map(function (q) { return self.say1(q, true); }).join(', and ');
+  };
+
+  // ------------------------------------------------------------------ state: facts learned from effects or from your answers
+  Sim.prototype.key = function (q) { return q[0] === 'random' ? null : q[0].replace('inventoryRemove', 'inventoryKeep').replace('wearRemove', 'wear') + '|' + q[1] + '|' + q[2]; };
+  Sim.prototype.val = function (q) {             // true / false / undefined (unknown), negate applied
+    var t = q[0], id = q[1], v = Number(q[2] || 0), s = this.s, r;
+    if (t === 'random') return undefined;
+    if (t === 'questProgress' && s.stage[id] && v in s.stage[id]) r = s.stage[id][v];
+    else if (t === 'questLatestProgress' && s.latest[id] != null) r = s.latest[id] === v;
+    else if ((t === 'factionScore' || t === 'factionScoreEquals') && s.fac[id] != null) r = t === 'factionScore' ? s.fac[id] >= v : s.fac[id] === v;
+    else { var k = this.key(q); if (k in s.facts) r = s.facts[k]; }
+    if (r === undefined) return undefined;
     return q[3] ? !r : r;
   };
-  Sim.prototype.reqText = function (q) {
-    var t = q[0], id = q[1], v = q[2], no = q[3] ? 'NOT ' : '';
-    switch (t) {
-      case 'questProgress': return no + 'reached stage ' + v + ' of ' + this.qName(id);
-      case 'questLatestProgress': return no + 'latest stage of ' + this.qName(id) + ' is ' + v;
-      case 'inventoryKeep': return no + 'carrying ' + v + '× ' + this.iName(id);
-      case 'inventoryRemove': return no + 'carrying ' + v + '× ' + this.iName(id) + ' (handed over)';
-      case 'wear': return no + 'wearing ' + this.iName(id);
-      case 'wearRemove': return no + 'wearing ' + this.iName(id) + ' (taken)';
-      case 'killedMonster': return no + 'killed ' + v + '× ' + this.mName(id);
-      case 'factionScore': return no + 'faction “' + id + '” ≥ ' + v;
-      case 'factionScoreEquals': return no + 'faction “' + id + '” = ' + v;
-      case 'skillLevel': return no + this.skName(id) + ' level ≥ ' + v;
-      case 'random': return 'random chance (' + v + '%) succeeds';
-      case 'timerElapsed': return no + v + ' rounds since timer “' + id + '”';
-      case 'hasActorCondition': return no + 'affected by ' + id;
-      case 'skillIncrease': return no + 'can still learn ' + this.skName(id);
-      case 'usedItem': return no + 'used ' + v + '× ' + this.iName(id);
-      case 'spentGold': return no + 'spent ' + v + ' gold in total';
-      case 'consumedBonemeals': return no + 'eaten ' + v + '+ bonemeals';
-      default: return no + t + ' ' + id + ' ' + v;
-    }
+  Sim.prototype.assume = function (q, truth) {   // record that requirement q evaluated to `truth`
+    if (q[0] === 'random') return;
+    var raw = q[3] ? !truth : truth, id = q[1], v = Number(q[2] || 0);
+    if (q[0] === 'questProgress') { (this.s.stage[id] = this.s.stage[id] || {})[v] = raw; }
+    else if (q[0] === 'questLatestProgress') { if (raw) this.s.latest[id] = v; }
+    else this.s.facts[this.key(q)] = raw;
+    var label = this.say1(q, truth);
+    if (this.s.assumed.indexOf(label) < 0) this.s.assumed.push(label);
   };
-
-  // ------------------------------------------------------------------ effects
+  Sim.prototype.evalReqs = function (reqs) {     // {state: 'yes'|'no'|'ask', unknown: [...]}
+    var unknown = [];
+    for (var i = 0; i < reqs.length; i++) {
+      var r = this.val(reqs[i]);
+      if (r === false) return { state: 'no', unknown: [] };
+      if (r === undefined) unknown.push(reqs[i]);
+    }
+    return { state: unknown.length ? 'ask' : 'yes', unknown: unknown };
+  };
   Sim.prototype.payFor = function (reply) {
-    var self = this, out = [];
+    var self = this;
     reply[2].forEach(function (q) {
       if (q[3]) return;
-      var id = q[1], v = Number(q[2] || 0);
       if (q[0] === 'inventoryRemove') {
-        var target = id;
-        if (self.d.f[id]) target = self.d.f[id].filter(function (i) { return self.count(i) >= v; })[0] || id;
-        self.s.items[target] = Math.max(0, self.count(target) - v);
-        out.push('You hand over ' + v + '× ' + self.iName(target) + '.');
+        delete self.s.facts[self.key(q)];
+        self.say('ds-effect', q[1] === 'gold' ? 'You pay ' + Number(q[2]).toLocaleString() + ' gold.' : 'You hand over ' + q[2] + '× ' + self.iName(q[1]) + '.');
       } else if (q[0] === 'wearRemove') {
-        var w = self.d.f[id] ? self.d.f[id].filter(function (i) { return self.s.wear[i]; })[0] : id;
-        if (w) { self.s.wear[w] = false; out.push('You give up ' + self.iName(w) + '.'); }
+        self.s.facts[self.key(q)] = false; self.say('ds-effect', 'You give up ' + self.iName(q[1]) + '.');
       }
     });
-    return out;
   };
   Sim.prototype.applyEffects = function (node) {
-    var self = this, out = [];
+    var self = this, s = this.s;
     node.w.forEach(function (w) {
-      var t = w[0], id = w[1], v = w[2];
+      var t = w[0], id = w[1], v = w[2], hidden = self.d.q[id] && !self.d.q[id][1];
       if (t === 'questProgress') {
-        (self.s.quests[id] = self.s.quests[id] || {})[v] = true;
-        var log = self.d.q[id] && self.d.q[id][2][String(v)];
-        out.push('Quest “' + self.qName(id) + '”: stage ' + v + ' reached' + (log ? ' — “' + log + '”' : '') + '.');
-      } else if (t === 'removeQuestProgress') {
-        if (self.s.quests[id]) self.s.quests[id][v] = false;
-        out.push('Quest “' + self.qName(id) + '”: stage ' + v + ' cleared.');
-      } else if (t === 'giveItem') {
-        self.s.items[id] = self.count(id) + Number(v || 1); out.push('You receive ' + (v || 1) + '× ' + self.iName(id) + '.');
-      } else if (t === 'dropList') out.push('You receive loot (loot table “' + id + '”; contents can be random).');
-      else if (t === 'skillIncrease') { self.s.skills[id] = Number(self.s.skills[id] || 0) + Number(v || 1); out.push('You learn ' + self.skName(id) + ' (+' + (v || 1) + ').'); }
-      else if (t === 'alignmentChange') { self.s.faction[id] = Number(self.s.faction[id] || 0) + Number(v || 0); out.push('Faction “' + id + '” ' + (v >= 0 ? '+' : '') + v + '.'); }
-      else if (t === 'alignmentSet') { self.s.faction[id] = Number(v || 0); out.push('Faction “' + id + '” set to ' + v + '.'); }
-      else if (t === 'actorCondition') out.push('You are affected by ' + id + '.');
-      else if (t === 'mapchange') out.push('You are moved to ' + (w[3] || id) + '.');
-      else if (t === 'spawnAll') out.push('Monsters appear' + (w[3] ? ' on ' + w[3] : '') + '.');
-      else if (t === 'removeSpawnArea' || t === 'deactivateSpawnArea') out.push('Monsters are removed' + (w[3] ? ' from ' + w[3] : '') + '.');
-      else if (t === 'activateMapObjectGroup' || t === 'deactivateMapObjectGroup') out.push('The map changes' + (w[3] ? ' (' + w[3] + ')' : '') + '.');
-      else if (t === 'createTimer') out.push('A timer “' + id + '” starts.');
-      else if (t) out.push('Effect: ' + t + ' ' + (id || '') + '.');
+        (s.stage[id] = s.stage[id] || {})[v] = true; s.latest[id] = Number(v);
+        var log = self.qLog(id, v);
+        if (log) self.say('ds-effect ds-journal', '📖 ' + self.qName(id) + ': “' + fmt(log) + '”');
+      } else if (t === 'removeQuestProgress') { (s.stage[id] = s.stage[id] || {})[v] = false; }
+      else if (t === 'giveItem') {
+        Object.keys(s.facts).forEach(function (k) { if (k.indexOf('inventoryKeep|' + id + '|') === 0) delete s.facts[k]; });
+        s.facts['inventoryKeep|' + id + '|' + (v || 1)] = true;
+        self.say('ds-effect', 'You receive ' + (id === 'gold' ? Number(v).toLocaleString() + ' gold' : (v || 1) + '× ' + self.iName(id)) + '.');
+      } else if (t === 'dropList') self.say('ds-effect', 'You receive a reward (random loot).');
+      else if (t === 'skillIncrease') self.say('ds-effect', 'You learn ' + self.skName(id) + '.');
+      else if (t === 'alignmentChange') { if (s.fac[id] != null) s.fac[id] += Number(v || 0); }
+      else if (t === 'alignmentSet') s.fac[id] = Number(v || 0);
+      else if (t === 'actorCondition') self.say('ds-effect', Number(v) === -99 ? 'You are cured of ' + self.cName(id) + '.' : 'You are affected by ' + self.cName(id) + '.');
+      else if (t === 'mapchange') self.say('ds-effect', 'You are moved elsewhere.');
+      else if (t === 'spawnAll') self.say('ds-effect', 'Something appears nearby.');
+      else if (t === 'removeSpawnArea' || t === 'deactivateSpawnArea') self.say('ds-effect', 'Someone leaves the area.');
+      else if (t === 'createTimer') s.facts['timer:' + id] = true;
     });
-    return out;
   };
 
-  // ------------------------------------------------------------------ conversation
-  Sim.prototype.talk = function () { this.chat.innerHTML = ''; this.go(this.d.root, 0); };
-  Sim.prototype.say = function (cls, text) { var p = el('div', 'ds-line ' + cls, text); this.chat.appendChild(p); return p; };
-  Sim.prototype.effects = function (lines) {
-    var self = this; lines.forEach(function (t) { self.say('ds-effect', t); });
-    if (lines.length) this.renderState();
+  // ------------------------------------------------------------------ running the conversation (replayed from your recorded decisions)
+  Sim.prototype.reset = function () { this.s = { stage: {}, latest: {}, fac: {}, facts: {}, assumed: [] }; this.k = 0; this.speaker = this.npc; };
+  Sim.prototype.say = function (cls, text, html) { var p = el('div', 'ds-line ' + cls); if (html) p.innerHTML = text; else p.textContent = text; this.chat.appendChild(p); return p; };
+  Sim.prototype.next = function () { return this.k < this.decisions.length ? this.decisions[this.k++] : null; };
+  Sim.prototype.run = function () {
+    this.reset(); this.chat.innerHTML = '';
+    var pid = this.d.root, hop = 0;
+    while (pid != null && hop++ < 80) pid = this.step(pid);
+    if (hop >= 80) this.say('ds-sys', 'Stopped: the conversation loops.');
+    this.undoBtn.disabled = !this.decisions.length;
+    this.renderAssumed();
+    var last = this.chat.lastChild; if (last && this.decisions.length) last.scrollIntoView({ block: 'nearest' });
   };
-  Sim.prototype.go = function (pid, hop) {
-    if (hop > 60) { this.say('ds-sys', 'Stopped: the conversation loops.'); return; }
-    if (SPECIAL[pid]) { this.say('ds-end', SPECIAL[pid]); return; }
-    var n = this.d.nodes[pid];
-    if (!n) { this.say('ds-end', pid ? 'Continues in a conversation outside this NPC’s data (' + pid + ').' : 'The conversation ends.'); return; }
-    this.effects(this.applyEffects(n));
+  // returns the next phrase id, or null when the conversation stops (ended, or waiting for you)
+  Sim.prototype.step = function (pid) {
     var self = this;
-    if (n.m == null) {                                    // silent check
-      for (var i = 0; i < n.r.length; i++) {
-        var r = n.r[i];
-        if (r[2].every(function (q) { return self.ok(q); })) {
-          this.say('ds-sys', 'Silent check: branch ' + (i + 1) + ' of ' + n.r.length + ' taken' +
-            (r[2].length ? ' (' + r[2].map(this.reqText, this).join('; ') + ')' : ' (no conditions)') + '.');
-          this.effects(this.payFor(r));
-          return this.go(r[1], hop + 1);
-        }
-      }
-      this.say('ds-end', 'No branch matched, so the conversation ends.'); return;
+    if (pid === 'X' || pid === '' ) { this.say('ds-end', 'The conversation ends.'); return null; }
+    if (pid === 'S') { this.say('ds-end', this.speaker + '’s shop opens.'); return null; }
+    if (pid === 'F') { this.say('ds-end ds-fight', '⚔ A fight with ' + this.speaker + ' starts!'); return null; }
+    if (pid === 'R') { this.say('ds-end', this.speaker + ' leaves.'); return null; }
+    var n = this.d.nodes[pid];
+    if (!n) { this.say('ds-end', 'The conversation continues elsewhere.'); return null; }
+    if (n.n) this.speaker = this.mName(n.n);
+    this.applyEffects(n);
+    if (n.m == null) return this.silent(n);
+    var b = this.say('ds-npc', ''); b.appendChild(el('b', null, this.speaker + ': ')); b.appendChild(document.createTextNode(fmt(n.m)));
+    if (!n.r.length) { this.say('ds-end', 'The conversation ends.'); return null; }
+    var opts = [];
+    n.r.forEach(function (r, i) { var e = self.evalReqs(r[2]); if (e.state !== 'no') opts.push({ r: r, i: i, e: e }); });
+    if (!opts.length) { this.say('ds-end', 'You have nothing to answer here, so the conversation ends.'); return null; }
+    var d = this.next(), o = d && opts.filter(function (x) { return x.i === d.i; })[0];
+    if (d && !o) this.decisions.length = this.k - 1;  // a recorded choice that no longer applies: ask again
+    if (o) {                                         // replay a recorded choice
+      o.e.unknown.forEach(function (q) { self.assume(q, true); });
+      var label = o.r[0] === 'N' ? '…' : (o.r[0] ? fmt(o.r[0]) : '…');
+      this.say('ds-you', label);
+      this.payFor(o.r);
+      return o.r[1];
     }
-    var who = n.n ? this.mName(n.n) : this.npc;
-    var b = this.say('ds-npc', ''); b.appendChild(el('b', null, who + ': ')); b.appendChild(document.createTextNode(fmt(n.m)));
-    if (!n.r.length) { this.say('ds-end', 'The conversation ends.'); return; }
     var box = el('div', 'ds-opts'); this.chat.appendChild(box);
-    var shown = 0;
-    n.r.forEach(function (r, i) {
-      var avail = r[2].every(function (q) { return self.ok(q); });
-      if (!avail && !self.showAll.checked) return;
-      var label = r[0] === 'N' ? 'Next' : (r[0] ? fmt(r[0]) : '(continue)');
-      var btn = el('button', 'ds-opt' + (avail ? '' : ' ds-locked'), label);
-      if (!avail) {
-        btn.disabled = true;
-        var miss = r[2].filter(function (q) { return !self.ok(q); }).map(self.reqText, self);
-        btn.title = 'Unavailable: ' + miss.join('; ');
-        btn.appendChild(el('small', null, ' — needs: ' + miss.join('; ')));
-      } else {
-        shown++;
-        btn.onclick = function () {
-          box.querySelectorAll('button').forEach(function (x) { x.disabled = true; });
-          btn.classList.add('ds-chosen');
-          self.say('ds-you', label === 'Next' ? '…' : label);
-          self.effects(self.payFor(r));
-          self.go(r[1], hop + 1);
-          self.chat.lastChild && self.chat.lastChild.scrollIntoView({ block: 'nearest' });
-        };
-      }
+    opts.forEach(function (o) {
+      var label = o.r[0] === 'N' ? 'Next' : (o.r[0] ? fmt(o.r[0]) : '(continue)');
+      var btn = el('button', 'ds-opt', label);
+      if (o.e.state === 'ask') btn.appendChild(el('small', 'ds-if', 'only if ' + o.e.unknown.map(function (q) { return self.say1(q, true); }).join(', and ').replace(/<\/?i>/g, '')));
+      btn.onclick = function () { self.decisions.push({ i: o.i }); self.run(); };
       box.appendChild(btn);
     });
-    if (!shown) this.say('ds-end', 'No options are available in this situation, so the conversation ends here.');
+    return null;
+  };
+  // silent check: take the first branch that applies; ask you when it depends on something unknown
+  Sim.prototype.silent = function (n) {
+    var self = this, cands = [];
+    for (var i = 0; i < n.r.length; i++) {
+      var e = this.evalReqs(n.r[i][2]);
+      if (e.state === 'no') continue;
+      cands.push({ r: n.r[i], i: i, e: e });
+      if (e.state === 'yes') break;
+    }
+    if (!cands.length) { this.say('ds-end', 'Nothing more to say right now; the conversation ends.'); return null; }
+    var take = function (c) {
+      cands.forEach(function (o) {                 // branches before the one taken did not apply
+        if (o === c) return;
+        if (o.e.unknown.length === 1) self.assume(o.e.unknown[0], false);
+      });
+      c.e.unknown.forEach(function (q) { self.assume(q, true); });
+      self.payFor(c.r);
+      return c.r[1];
+    };
+    var open = cands[cands.length - 1].e.state === 'ask';   // no default branch: if nothing applies, the conversation ends
+    if (cands.length === 1 && !open) return take(cands[0]);
+    var d = this.next();
+    if (d) {
+      if (d.i === -1 && open) { cands.forEach(function (o) { if (o.e.unknown.length === 1) self.assume(o.e.unknown[0], false); });
+        this.say('ds-end', this.speaker + ' has nothing to say to you right now.'); return null; }
+      var c = cands.filter(function (x) { return x.i === d.i; })[0]; if (c) return take(c); this.decisions.length = this.k - 1;
+    }
+    var q = el('div', 'ds-ask'); this.chat.appendChild(q);
+    q.appendChild(el('div', 'ds-asktitle', 'What happens next depends on your game. Which is true for you?'));
+    if (cands.length > 2) q.appendChild(el('div', 'ds-hint', 'If more than one is true, pick the first one: the game checks them in this order.'));
+    cands.forEach(function (c, j) {
+      var txt = c.e.state === 'yes' && j === cands.length - 1 && cands.length > 1 ? 'None of the above' : self.sayAll(c.e.unknown);
+      var btn = el('button', 'ds-opt ds-choice'); btn.innerHTML = txt.charAt(0).toUpperCase() + txt.slice(1);
+      btn.onclick = function () { self.decisions.push({ i: c.i }); self.run(); };
+      q.appendChild(btn);
+    });
+    if (open) { var nb = el('button', 'ds-opt ds-choice', 'None of these'); nb.onclick = function () { self.decisions.push({ i: -1 }); self.run(); }; q.appendChild(nb); }
+    return null;
+  };
+  Sim.prototype.renderAssumed = function () {
+    var a = this.s.assumed;
+    this.assumedBox.innerHTML = '';
+    if (!a.length) { this.assumedBox.style.display = 'none'; return; }
+    this.assumedBox.style.display = '';
+    var det = el('details'); det.appendChild(el('summary', null, 'Your answers so far (' + a.length + ')'));
+    var ul = el('ul'); a.forEach(function (t) { var li = el('li'); li.innerHTML = t.charAt(0).toUpperCase() + t.slice(1); ul.appendChild(li); });
+    det.appendChild(ul); this.assumedBox.appendChild(det);
   };
 
-  // ------------------------------------------------------------------ situation panel
   Sim.prototype.build = function () {
     var self = this, R = this.root;
     R.innerHTML = '';
-    var cols = el('div', 'ds-cols'); R.appendChild(cols);
-    this.panel = el('div', 'ds-state'); cols.appendChild(this.panel);
-    var right = el('div', 'ds-right'); cols.appendChild(right);
-    var bar = el('div', 'ds-bar'); right.appendChild(bar);
-    var talk = el('button', 'ds-talk', 'Talk to ' + this.npc); talk.onclick = function () { self.talk(); }; bar.appendChild(talk);
-    var reset = el('button', 'ds-reset', 'Reset situation'); reset.onclick = function () { self.reset(); self.renderState(); self.talk(); }; bar.appendChild(reset);
-    var lab = el('label', 'ds-showall'); this.showAll = el('input'); this.showAll.type = 'checkbox';
-    this.showAll.onchange = function () { self.talk(); };
-    lab.appendChild(this.showAll); lab.appendChild(document.createTextNode(' Show unavailable options (and why)')); bar.appendChild(lab);
-    this.chat = el('div', 'ds-chat'); right.appendChild(this.chat);
-    this.renderState();
-    this.talk();
-  };
-  Sim.prototype.renderState = function () {
-    var self = this, P = this.panel, A = this.atoms, S = this.s;
-    P.innerHTML = '';
-    P.appendChild(el('h4', null, 'Your situation'));
-    P.appendChild(el('p', 'ds-hint', 'Only things this conversation actually checks are listed. Change them, then talk again.'));
-    function group(title) { var g = el('details', 'ds-group'); g.open = true; g.appendChild(el('summary', null, title)); P.appendChild(g); return g; }
-    function num(g, label, get, set) {
-      var row = el('label', 'ds-row'); row.appendChild(el('span', null, label));
-      var i = el('input'); i.type = 'number'; i.min = '-999'; i.value = get(); i.onchange = function () { set(Number(i.value || 0)); };
-      row.appendChild(i); g.appendChild(row);
-    }
-    function chk(g, label, get, set, title) {
-      var row = el('label', 'ds-row ds-chk'); var i = el('input'); i.type = 'checkbox'; i.checked = !!get();
-      i.onchange = function () { set(i.checked); }; row.appendChild(i); row.appendChild(el('span', null, label));
-      if (title) row.title = title; g.appendChild(row);
-    }
-    var qs = Object.keys(A.quests).sort(function (a, b) { return (self.d.q[b] ? self.d.q[b][1] : 0) - (self.d.q[a] ? self.d.q[a][1] : 0) || self.qName(a).localeCompare(self.qName(b)); });
-    if (qs.length) {
-      var g = group('Quest stages reached');
-      qs.forEach(function (q) {
-        var wrap = el('div', 'ds-quest'); var a = el('a', null, self.qName(q)); a.href = '../../quests/' + q + '/'; wrap.appendChild(a);
-        var stages = Object.keys(A.quests[q]).map(Number).sort(function (x, y) { return x - y; });
-        var line = el('div', 'ds-stages');
-        stages.forEach(function (v) {
-          var log = self.d.q[q] ? self.d.q[q][2][String(v)] : '';
-          chk(line, String(v), function () { return S.quests[q] && S.quests[q][v]; },
-              function (on) { (S.quests[q] = S.quests[q] || {})[v] = on; }, log || ('stage ' + v));
-        });
-        wrap.appendChild(line); g.appendChild(wrap);
-      });
-    }
-    var items = Object.keys(A.items);
-    if (items.length) { var gi = group('Items carried'); items.sort().forEach(function (id) { num(gi, self.iName(id), function () { return S.items[id] || 0; }, function (v) { S.items[id] = v; }); }); }
-    var wear = Object.keys(A.wear);
-    if (wear.length) { var gw = group('Wearing'); wear.forEach(function (id) {
-      var ids = self.d.f[id] || [id];
-      ids.forEach(function (x) { chk(gw, self.iName(x), function () { return S.wear[x]; }, function (on) { S.wear[x] = on; }); }); }); }
-    var kills = Object.keys(A.kills);
-    var dupe = function (ids, nameOf) { var c = {}; ids.forEach(function (i) { c[nameOf(i)] = (c[nameOf(i)] || 0) + 1; });
-      return function (i) { return nameOf(i) + (c[nameOf(i)] > 1 ? ' (' + i + ')' : ''); }; };
-    var killLabel = dupe(kills, function (i) { return self.mName(i); });
-    if (kills.length) { var gk = group('Monsters killed'); kills.forEach(function (id) { num(gk, killLabel(id), function () { return S.kills[id] || 0; }, function (v) { S.kills[id] = v; }); }); }
-    var fac = Object.keys(A.faction);
-    if (fac.length) { var gf = group('Faction standing'); fac.forEach(function (id) { num(gf, id, function () { return S.faction[id] || 0; }, function (v) { S.faction[id] = v; }); }); }
-    var sk = Object.keys(A.skills);
-    if (sk.length) { var gs = group('Skill levels'); sk.forEach(function (id) { num(gs, self.skName(id), function () { return S.skills[id] || 0; }, function (v) { S.skills[id] = v; }); }); }
-    var ct = Object.keys(A.counters);
-    if (ct.length) { var gc = group('Statistics'); ct.forEach(function (k) {
-      var p = k.split(':'); num(gc, p[0] === 'spentGold' ? 'gold spent (total)' : p[0] === 'consumedBonemeals' ? 'bonemeals eaten' : 'times used: ' + self.iName(p[1]),
-        function () { return S.counters[k] || 0; }, function (v) { S.counters[k] = v; }); }); }
-    var fl = Object.keys(A.flags);
-    if (fl.length) { var gx = group('Other conditions'); fl.forEach(function (k) {
-      var q = A.flags[k].slice(); q[3] = 0;
-      chk(gx, self.reqText(q), function () { return S.flags[k]; }, function (on) { S.flags[k] = on; }); }); }
+    var bar = el('div', 'ds-bar'); R.appendChild(bar);
+    this.undoBtn = el('button', 'ds-undo', '↶ Undo'); this.undoBtn.onclick = function () { self.decisions.pop(); self.run(); }; bar.appendChild(this.undoBtn);
+    var restart = el('button', 'ds-reset', '⟲ Start over'); restart.onclick = function () { self.decisions = []; self.run(); }; bar.appendChild(restart);
+    this.assumedBox = el('div', 'ds-assumed'); R.appendChild(this.assumedBox);
+    this.chat = el('div', 'ds-chat'); R.appendChild(this.chat);
   };
 
   function init() {
@@ -293,7 +254,7 @@
       if (root.dataset.ready) return; root.dataset.ready = '1';
       root.textContent = 'Loading dialogue…';
       fetch(root.dataset.src).then(function (r) { return r.json(); })
-        .then(function (data) { new Sim(root, data, root.dataset.npc || 'NPC'); })
+        .then(function (data) { new Sim(root, data, root.dataset.npc || 'NPC', root.dataset.id); })
         .catch(function () { root.textContent = 'Could not load the dialogue data.'; });
     });
   }

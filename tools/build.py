@@ -416,7 +416,7 @@ spawn_maps, n_maps, quest_notes, script_maps, _map_pages = build_maps(_map_ctx)
 from notes import Notes
 from quests import QuestGraph, write_quest_pages, npc_section
 notes = Notes(os.path.join(ROOT, 'notes'))
-QG = QuestGraph(dict(conversations=conversations, quests=quests, monsters=monsters, items=items, droplists=droplists,
+QG = QuestGraph(dict(conditions=conditions, conversations=conversations, quests=quests, monsters=monsters, items=items, droplists=droplists,
                      skills=skills, spawn_maps=spawn_maps, script_maps=script_maps, map_notes=quest_notes, VERSION=VERSION))
 # dialogue simulator data: one file per conversation starting point used by an NPC
 from quests import export_dialogue
@@ -493,7 +493,7 @@ def speakers_md(cid):
 def raw_json(o):
     return '    ```json\n' + '\n'.join('    ' + l for l in json.dumps(o, indent=1, ensure_ascii=False).split('\n')) + '\n    ```\n'
 def infobox(rows, image=None):
-    return ('<div class="infobox" markdown>\n\n' + (f'<p class="ib-img">![]({image}){{ .sprite }}</p>\n\n' if image else '') +
+    return ('<div class="infobox" markdown>\n\n' + (f'<p class="ib-img"><img class="sprite" src="{image}" alt=""></p>\n\n' if image else '') +
             '| | |\n|---|---|\n' + ''.join(f"| **{k}** | {v} |\n" for k, v in rows if v not in (None, '', 0)) + '\n</div>\n\n')
 PROF_SKILL = {**{c: 'weaponProficiencyDagger' for c in ('dagger', 'ssword')}, **{c: 'weaponProficiency1hsword' for c in ('lsword', 'bsword', 'rapier')},
               '2hsword': 'weaponProficiency2hsword', **{c: 'weaponProficiencyAxe' for c in ('axe', 'axe2h')},
@@ -664,9 +664,7 @@ def fight_lines(x):
         for opp, p, texts in lst:
             if opp != x: continue
             who = '' if starter == x else f" while talking to {QG.mlink(starter)}"
-            t = next((t for t in texts if t and t != 'N'), '')
-            out.append((f"Answering “{md_esc(_short_txt(t, 80))}”" if t else "The conversation") + f"{who}{_quest_ctx(p)} " +
-                       (f"starts a fight with {nm}." if t else f"can lead straight into a fight with {nm}."))
+            out.append(_answers(texts) + f"{who}{_quest_ctx(p)} " + ("starts a fight with " if _has_text(texts) else "can lead straight into a fight with ") + f"{nm}.")
     fac = monsters[x].get('faction')
     if x in fight_by_faction:
         qs = list(dict.fromkeys(QG.qlink(q) for c in _faction_nodes.get(fac, []) for q, v in node_quests(c)))
@@ -677,10 +675,14 @@ def others_fought_here(x):
     out = []
     for opp, p, texts in fights_from.get(x, []):
         if opp == x: continue
-        t = next((t for t in texts if t and t != 'N'), '')
-        out.append((f"Answering “{md_esc(_short_txt(t, 80))}”" if t else "The conversation") + f"{_quest_ctx(p)} " +
-                   (f"starts a fight with {QG.mlink(opp)}" if t else f"can lead straight into a fight with {QG.mlink(opp)}") + f", not with {md_esc(monsters[x].get('name') or x)}.")
+        out.append(_answers(texts) + f"{_quest_ctx(p)} " + ("starts a fight with " if _has_text(texts) else "can lead straight into a fight with ") + f"{QG.mlink(opp)}.")
     return list(dict.fromkeys(out))
+def _has_text(texts): return any(t and t != 'N' for t in texts)
+def _answers(texts):
+    ts = list(dict.fromkeys(f"“{md_esc(_short_txt(t, 70))}”" for t in texts if t and t != 'N'))
+    if not ts: return "The conversation"
+    if len(ts) == 1: return f"Answering {ts[0]}"
+    return "Any of your answers (" + ', '.join(ts[:-1]) + f" or {ts[-1]})"
 def _short_txt(t, n):
     t = ' '.join(str(t or '').split())
     return t if len(t) <= n else t[:n - 1].rsplit(' ', 1)[0] + '…'

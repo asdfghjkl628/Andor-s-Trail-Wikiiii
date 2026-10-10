@@ -209,3 +209,17 @@ a.mo-key:hover { background: rgba(255,140,26,.35); }
 .md-typeset .stages th:nth-child(1) { width: 5.2em; }
 .md-typeset .stages th:nth-child(3) { width: 18%; }
 .md-typeset .stages th:nth-child(4) { width: 24%; }
+/* dialogue simulator: ask-as-you-go layout */
+.dlg-sim .ds-if { display: block; font-size: .62rem; color: #e0a458; margin-top: .15rem; }
+.dlg-sim .ds-ask { margin: .4rem 0 .6rem; padding: .4rem .6rem; border-left: 3px solid var(--cb-orange); background: rgba(255,180,0,.06); }
+.dlg-sim .ds-asktitle { color: var(--cb-orange); font-weight: 700; margin-bottom: .3rem; }
+.dlg-sim .ds-ask .ds-choice { display: block; text-align: left; margin: .2rem 0; width: 100%; }
+.dlg-sim .ds-ask .ds-choice i { color: var(--cb-cyan); font-style: normal; }
+.dlg-sim .ds-journal { color: #9fd3ff; }
+.dlg-sim .ds-fight { color: #ff6b6b; font-weight: 700; font-style: normal; }
+.dlg-sim .ds-undo:disabled { opacity: .45; cursor: not-allowed; }
+.md-typeset .dlg-sim .ds-assumed details { border: 0; box-shadow: none; background: none; padding: 0; margin: 0 0 .4rem; font-size: inherit; }
+.md-typeset .dlg-sim .ds-assumed details > summary { padding: 0 0 0 1rem; background: none; font-weight: normal; color: var(--cb-text-dim); cursor: pointer; border: 0; min-height: 0; }
+.md-typeset .dlg-sim .ds-assumed details > summary::before { display: none; }
+.md-typeset .dlg-sim .ds-assumed details > summary::after { left: 0; right: auto; top: .1rem; }
+.md-typeset .dlg-sim .ds-assumed ul { margin: .2rem 0 0 1rem; color: var(--cb-text-dim); font-size: .66rem; }
